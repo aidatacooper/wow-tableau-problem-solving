@@ -61,6 +61,11 @@ def assert_acceptance(root: etree._Element) -> None:
     assert len(axis_panes) == 2
     assert all(pane.find("mark").get("class") == "Line" for pane in axis_panes)
     assert worksheet.find(".//filter") is not None
+    date_filter = worksheet.find(".//filter")
+    assert date_filter.find("groupfilter").get(
+        "{http://www.tableausoftware.com/xml/user}ui-domain"
+    ) == "relevant"
+    assert worksheet.find(".//column-instance[@derivation='Day-Trunc']") is not None
 
     dashboard = root.find("./dashboards/dashboard[@name='Dynamic Moving Average Dashboard']")
     assert dashboard is not None

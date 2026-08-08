@@ -3,7 +3,7 @@
   "status": "passed",
   "artifacts": {
     "replicated-workbook.twb": {
-      "sha256": "ab05053a916035d2fce7f4ab129d7b92208adce8a47c5b251f1a4db96e63e010",
+      "sha256": "3f5fa7b4a0273b2c24caf155196b5a967d0f81b90ea95580706753058b984707",
       "local_parse": "passed",
       "local_xsd": "passed_with_known_tableau_compatibility_warning",
       "tableau_cloud_semantic": {
@@ -15,12 +15,12 @@
       }
     },
     "replicated-workbook.twbx": {
-      "sha256": "4de4e7ab03e74bd24627d94a17113648b7d0d4e4b0bfd9497576db66b6758f79",
+      "sha256": "500a641c4a8a21158872ce55fdc636cba446f0b93874863039e2636addb8914c",
       "zip_structure": "passed",
       "original_hyper_preserved": "passed",
       "cwtwb_open_and_resave": "passed",
       "acceptance_after_roundtrip": "passed",
-      "tableau_cloud_publish": {
+      "previous_tableau_cloud_publish": {
         "success": true,
         "workbook_id": "03c2591a-994f-45e3-905a-2623e5bd979e",
         "views": [
@@ -28,6 +28,13 @@
           "Dynamic Moving Average Dashboard"
         ],
         "twbx_size_kb": 62.6
+      },
+      "tableau_desktop_2026_2": {
+        "opened": true,
+        "target_field_errors": 0,
+        "query_errors": false,
+        "worksheet_queried": "Dynamic Moving Average",
+        "result_rows": 48
       }
     }
   },
@@ -54,6 +61,7 @@
   "notes": [
     "The strict XSD checker reported the repository's known Tableau-compatible top-level content-model warning; the validation command returned success.",
     "The previous cloud result applied to the discarded reference-datasource artifact and is not reused.",
-    "The authorized TWBX publish succeeded and Tableau Cloud enumerated both the worksheet and dashboard."
+    "The previous TWBX publish enumerated both the worksheet and dashboard; it predates the current artifact hash.",
+    "The current artifact opened in Tableau Desktop 2026.2 and executed the moving-average worksheet query without field or query errors."
   ]
 }

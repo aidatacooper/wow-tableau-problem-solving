@@ -24,6 +24,7 @@ def build(output_path: Path) -> Path:
     # Use the challenge's packaged datasource because Manufacturer is absent
     # from cwtwb's standard Superstore reference; all views are rebuilt.
     editor = TWBEditor(SOURCE_TWBX)
+    editor.clear_worksheets()
     # The packaged datasource already contains the required
     # Category > Sub-Category > Manufacturer hierarchy.
     # The packaged source already carries pMinDate and pMaxDate with the
@@ -65,9 +66,9 @@ def build(output_path: Path) -> Path:
     editor.configure_chart(
         "Apply Button",
         mark_type="Square",
-        label="Min Date",
-        detail="Max Date",
-        color="Colour",
+        label="AGG(Min Date)",
+        detail="AGG(Max Date)",
+        color="AGG(Colour)",
         filters=[
             {
                 "column": "Order Date",

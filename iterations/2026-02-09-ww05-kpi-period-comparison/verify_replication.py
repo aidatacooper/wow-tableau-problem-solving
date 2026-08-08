@@ -69,9 +69,18 @@ def assert_acceptance(root: etree._Element) -> None:
     assert kpi is not None
     assert kpi.find(".//mark").get("class") == "Text"
     kpi_xml = etree.tostring(kpi, encoding="unicode")
+    assert "Multiple Values" not in kpi_xml
     for name in ("PR - Today", "PR Difference", "PR Direction Up", "PR Direction Down"):
         internal_name = columns[name].get("name")
         assert internal_name in kpi_xml
+    kpi_instances = {
+        instance.get("column"): instance.get("derivation")
+        for instance in kpi.findall(".//column-instance")
+    }
+    assert kpi_instances[columns["PR - Today"].get("name")] == "Sum"
+    assert kpi_instances[columns["PR Difference"].get("name")] == "Sum"
+    assert kpi_instances[columns["PR Direction Up"].get("name")] == "None"
+    assert kpi_instances[columns["PR Direction Down"].get("name")] == "None"
 
     dashboard = root.find("./dashboards/dashboard[@name='KPI Trend Monitor']")
     assert dashboard is not None

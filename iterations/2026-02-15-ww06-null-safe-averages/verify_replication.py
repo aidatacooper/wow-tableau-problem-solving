@@ -78,6 +78,32 @@ def assert_acceptance(root: etree._Element) -> None:
     assert date_filter.get("context") == "true"
     assert "tdy:" in date_filter.get("column")
     assert apply_sheet.find(".//column-instance[@derivation='Day-Trunc']") is not None
+    apply_instances = {
+        instance.get("column"): instance
+        for instance in apply_sheet.findall(".//column-instance")
+    }
+    for name in ("Colour", "Min Date", "Max Date"):
+        local_name = fields[name].get("name")
+        assert apply_instances[local_name].get("derivation") == "User"
+    assert not apply_sheet.findall(".//column-instance[@derivation='Sum']")
+
+    tooltip_local_name = fields["Tooltip - 0 orders"].get("name")
+    tooltip_instance = table.find(
+        f".//column-instance[@column='{tooltip_local_name}']"
+    )
+    assert tooltip_instance is not None
+    assert tooltip_instance.get("derivation") == "User"
+
+    colour_ref = apply_instances[fields["Colour"].get("name")].get("name")
+    palette = root.find(
+        ".//style-rule[@element='mark']/encoding[@attr='color']"
+        f"[@field='[{root.find('./datasources/datasource[@caption]').get('name')}].{colour_ref}']"
+    )
+    assert palette is not None
+    assert {bucket.text for bucket in palette.findall("map/bucket")} == {
+        "true",
+        "false",
+    }
 
     actions = root.findall("./actions/edit-parameter-action")
     assert len(actions) == 2

@@ -34,10 +34,12 @@ def build(output_path: Path) -> Path:
         worksheet_name,
         mark_type_1="Line",
         mark_type_2="Line",
-        columns=["Display Date"],
+        columns=["DAYTRUNC(Display Date)"],
         rows=["SUM(Sales)", "Moving Average"],
         synchronized=True,
-        filters=[{"column": "Date to Display", "values": [True]}],
+        filters=[
+            {"column": "Date to Display", "values": [True], "ui_domain": "relevant"}
+        ],
         show_labels=False,
         mark_color_1="#B7B7B7",
         mark_color_2="#E15759",

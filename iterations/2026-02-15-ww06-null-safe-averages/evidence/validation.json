@@ -3,7 +3,7 @@
   "status": "passed",
   "artifacts": {
     "replicated-workbook.twb": {
-      "sha256": "fe56d8caf58bbf7e0c16044a5c11628fc523f44c7988c1e00e078220cb5d78d6",
+      "sha256": "762471072d160d48b7dc5aa07687f714c47db895ba560f23ae52b51d93be2ecc",
       "local_parse": "passed",
       "local_xsd": "passed_with_known_tableau_compatibility_warning",
       "tableau_cloud_semantic": {
@@ -14,13 +14,13 @@
       }
     },
     "replicated-workbook.twbx": {
-      "sha256": "04a9070a4e8faa08f5364a88f9215063042dd84d1ef58c8247e881e92f490dee",
+      "sha256": "5b091a2f05eeb0b364914466cae248551bf717133430322ab6a1392a2c4def90",
       "zip_structure": "passed",
       "bundled_hyper_present": true,
       "duplicate_archive_entries": false,
       "cwtwb_open_and_resave": "passed",
       "acceptance_after_roundtrip": "passed",
-      "tableau_cloud_upload": {
+      "previous_tableau_cloud_upload": {
         "success": true,
         "workbook_id": "ea73a5a8-b104-4602-a5b4-3589ef4a588d",
         "views": [
@@ -31,6 +31,14 @@
         "twbx_size_kb": 69.9,
         "initial_failure": "Tableau rejected MONTH(Order Date) as a bounded date filter.",
         "fix": "cwtwb cd98ce8 generates a continuous exact-date instance for bounded bare date filters."
+      },
+      "tableau_desktop_2026_2": {
+        "opened": true,
+        "target_field_errors": 0,
+        "palette_parse_errors": 0,
+        "query_errors": false,
+        "null_safe_average_rows": 1470,
+        "non_blocking_warning": "The preserved live CSV connection points to the author's old directory; the view query used the packaged Hyper extract."
       }
     }
   },
@@ -57,5 +65,6 @@
     "skipped": 25,
     "warnings": 8
   },
-  "cloud_openability": "passed"
+  "cloud_openability": "previous_artifact_only",
+  "desktop_openability": "passed"
 }

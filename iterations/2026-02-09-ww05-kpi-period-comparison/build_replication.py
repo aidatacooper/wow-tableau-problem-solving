@@ -66,16 +66,20 @@ def build(output_path: Path) -> Path:
     editor.configure_chart(
         "KPI Summary",
         mark_type="Text",
-        measure_values=[
-            "PR - Today",
+        label="PR - Today",
+        label_extra=[
             "PR Difference",
             "PR Direction Up",
             "PR Direction Down",
         ],
-        text_format={
-            "PR - Today": "p0.0%",
-            "PR Difference": "p0.0%",
-        },
+        label_runs=[
+            {"field": "PR - Today", "fontsize": 28, "bold": True},
+            {"text": "\n"},
+            {"field": "PR Difference", "fontsize": 16},
+            {"text": " "},
+            {"field": "PR Direction Up", "fontsize": 16},
+            {"field": "PR Direction Down", "fontsize": 16},
+        ],
     )
     editor.set_worksheet_caption(
         "KPI Summary",
