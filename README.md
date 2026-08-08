@@ -3,6 +3,10 @@
 An open, AI-assisted laboratory for understanding and rebuilding Workout
 Wednesday Tableau cases with `cwtwb`.
 
+The project code is licensed under AGPL-3.0-or-later. Third-party articles,
+Tableau workbooks, screenshots, and datasets retain their original ownership
+and are not relicensed by this repository; see `THIRD_PARTY_ASSETS.md`.
+
 Functional correctness is the primary goal. Interaction correctness and a
 repeatable build come next; pixel-level visual parity is optional unless a
 visual difference changes the answer or makes the workbook unusable.
@@ -38,6 +42,17 @@ python scripts/prepare_case.py \
 
 python scripts/validate_iteration.py iterations/<iteration-id>
 python -m unittest discover -s tests -v
+```
+
+For a single remote case, the preparation command can download the workbook
+temporarily and remove it after extracting data:
+
+```bash
+python scripts/prepare_case.py \
+  --workbook-url "https://public.tableau.com/views/WORKBOOK/VIEW" \
+  --iteration-id YYYY-MM-DD-short-slug \
+  --case-id stable-case-id \
+  --post-url "https://example.com/article"
 ```
 
 The preparation command extracts supported packaged data files into `inputs/`
@@ -107,9 +122,9 @@ git subtree split \
   -b cwtwb-wow-lab
 ```
 
-Before publishing, choose a license and review redistribution rights for posts,
-author workbooks, and extracted data. When redistribution is not permitted,
-commit URLs, hashes, and acquisition scripts instead of the original assets.
+Review redistribution rights for posts, author workbooks, and extracted data.
+When redistribution is not permitted, commit URLs, hashes, and acquisition
+scripts instead of the original assets.
 
 ## Scope and known limits
 

@@ -12,7 +12,7 @@ summary: >
   so replication must create and register the sets from scratch.
 
 existing_capabilities_checked:
-  - TWBEditor(SOURCE_TWBX, clear_existing_content=True)   # 复用原始 Hyper、清空视图
+  - TWBEditor with clear_existing_content enabled
   - add_parameter
   - add_calculated_field (including table-calc metadata)
   - configure_dual_axis (synchronized GanttBar and Bar axes)

@@ -20,6 +20,8 @@
 - [ ] Parameters, filters, and actions were manually exercised when present.
 - [ ] Visual differences that do not affect the answer are documented.
 - [ ] This PR changes one iteration and does not edit the shared usage registry.
+- [ ] The case ID and post are not already owned by another v1 iteration.
+- [ ] Included third-party assets may be redistributed, or only URLs and hashes are committed.
 
 ## cwtwb follow-up
 

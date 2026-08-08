@@ -103,6 +103,45 @@ class ContributionWorkflowTests(unittest.TestCase):
             with self.assertRaisesRegex(AssertionError, "SOURCE_TWBX"):
                 validate_iteration.validate_iteration(iteration, run_scripts=False)
 
+    def test_tableau_workbook_name_supports_modern_and_legacy_urls(self):
+        self.assertEqual(
+            "Workbook_Name",
+            prepare_case.tableau_workbook_name(
+                "https://public.tableau.com/app/profile/user/viz/Workbook_Name/View"
+            ),
+        )
+        self.assertEqual(
+            "LegacyBook",
+            prepare_case.tableau_workbook_name(
+                "https://public.tableau.com/views/LegacyBook/Dashboard"
+            ),
+        )
+
+    def test_validator_scans_helper_files_and_rejects_misplaced_workbooks(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            source = root / "author.twbx"
+            with zipfile.ZipFile(source, "w") as archive:
+                archive.writestr("Data/orders.hyper", b"hyper-data")
+            iteration = prepare_case.prepare_case(
+                source=source,
+                iteration_id="2026-01-01-boundary",
+                case_id="boundary-case",
+                post="https://example.test/post",
+                iterations_root=root / "iterations",
+            )
+            complete_case_metadata(iteration)
+            (iteration / "helper.py").write_text(
+                "source_workbook = 'author.twbx'\n", encoding="utf-8"
+            )
+            with self.assertRaisesRegex(AssertionError, "helper.py"):
+                validate_iteration.validate_iteration(iteration, run_scripts=False)
+
+            (iteration / "helper.py").unlink()
+            (iteration / "author.twbx").write_bytes(b"not allowed")
+            with self.assertRaisesRegex(AssertionError, "outside outputs"):
+                validate_iteration.validate_iteration(iteration, run_scripts=False)
+
 
 if __name__ == "__main__":
     unittest.main()

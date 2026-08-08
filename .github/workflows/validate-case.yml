@@ -1,9 +1,15 @@
 name: Validate contributed case
 
 on:
+  push:
+    branches: [main]
+  workflow_dispatch:
   pull_request:
     paths:
+      - ".github/workflows/**"
+      - "*.py"
       - "iterations/**"
+      - "schemas/**"
       - "scripts/**"
       - "tests/**"
       - "requirements.txt"
@@ -21,4 +27,5 @@ jobs:
           cache: pip
       - run: python -m pip install -r requirements.txt
       - run: python -m unittest discover -s tests -v
-      - run: python scripts/validate_changed_cases.py --base-ref origin/${{ github.base_ref }}
+      - if: github.event_name == 'pull_request'
+        run: python scripts/validate_changed_cases.py --base-ref origin/${{ github.base_ref }}

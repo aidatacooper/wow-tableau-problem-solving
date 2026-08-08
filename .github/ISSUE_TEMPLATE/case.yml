@@ -18,6 +18,13 @@ body:
       description: Tableau Public URL or local workbook identifier.
     validations:
       required: true
+  - type: input
+    id: case_id
+    attributes:
+      label: Proposed case ID
+      description: Stable case ID from the dataset or a new date-scoped ID.
+    validations:
+      required: true
   - type: checkboxes
     id: checks
     attributes:
@@ -26,6 +33,8 @@ body:
         - label: I checked that no open issue or merged iteration already owns this case.
           required: true
         - label: I will submit one case per pull request.
+          required: true
+        - label: I will not commit third-party assets unless redistribution is permitted.
           required: true
   - type: textarea
     id: notes

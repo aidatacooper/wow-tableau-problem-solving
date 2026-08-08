@@ -25,7 +25,10 @@ FORBIDDEN_BUILD_PATTERNS = {
     r"\bSOURCE_TWBX\b": "builder references SOURCE_TWBX",
     r"\bsource_workbook\b": "builder references source_workbook",
     r"open_existing\s*\(": "builder opens an existing workbook",
+    r"[\"']dashboards[\\/]": "builder reads the local author-workbook archive",
+    r"(?:zipfile\.)?ZipFile\s*\(": "builder opens a workbook archive directly",
 }
+WORKBOOK_SUFFIXES = {".twb", ".twbx"}
 
 
 def sha256(path: Path) -> str:
@@ -100,14 +103,58 @@ def validate_source_lock(case_dir: Path, case: dict) -> None:
 
 
 def validate_builder_boundary(case_dir: Path) -> None:
-    source = (case_dir / "build_replication.py").read_text(encoding="utf-8")
-    violations = [
-        reason
-        for pattern, reason in FORBIDDEN_BUILD_PATTERNS.items()
-        if re.search(pattern, source, flags=re.IGNORECASE)
+    build_files = [
+        path
+        for path in case_dir.rglob("*.py")
+        if path.name != "verify_replication.py"
     ]
+    violations = []
+    for path in build_files:
+        source = path.read_text(encoding="utf-8")
+        violations.extend(
+            f"{path.relative_to(case_dir)}: {reason}"
+            for pattern, reason in FORBIDDEN_BUILD_PATTERNS.items()
+            if re.search(pattern, source, flags=re.IGNORECASE)
+        )
     if violations:
         raise AssertionError("; ".join(violations))
+
+    misplaced = [
+        str(path.relative_to(case_dir))
+        for path in case_dir.rglob("*")
+        if path.is_file()
+        and path.suffix.lower() in WORKBOOK_SUFFIXES
+        and path.parent != case_dir / "outputs"
+    ]
+    if misplaced:
+        raise AssertionError(
+            "Author or generated workbooks must not be stored outside outputs/: "
+            + ", ".join(misplaced)
+        )
+
+
+def validate_unique_identity(case_dir: Path, case: dict) -> None:
+    for metadata in (LAB_ROOT / "iterations").glob("*/case.yaml"):
+        if metadata.parent == case_dir:
+            continue
+        other = yaml.safe_load(metadata.read_text(encoding="utf-8")) or {}
+        if other.get("case_id") == case["case_id"]:
+            raise AssertionError(
+                f"case_id already belongs to {metadata.parent.name}"
+            )
+        if other.get("post") == case.get("post"):
+            raise AssertionError(f"post already belongs to {metadata.parent.name}")
+
+    usage_path = LAB_ROOT / "usage" / "consumed-cases.json"
+    usage = json.loads(usage_path.read_text(encoding="utf-8"))
+    for item in usage.get("consumed_cases", []):
+        if (
+            item.get("case_id") == case["case_id"]
+            and item.get("iteration") != case_dir.name
+        ):
+            raise AssertionError(
+                f"case_id is already consumed by {item.get('iteration')}"
+            )
 
 
 def run_case_script(case_dir: Path, filename: str) -> None:
@@ -121,6 +168,7 @@ def run_case_script(case_dir: Path, filename: str) -> None:
 def validate_iteration(case_dir: Path, run_scripts: bool = True) -> None:
     case_dir = case_dir.resolve()
     case = validate_metadata(case_dir)
+    validate_unique_identity(case_dir, case)
     validate_source_lock(case_dir, case)
     validate_builder_boundary(case_dir)
     if run_scripts:

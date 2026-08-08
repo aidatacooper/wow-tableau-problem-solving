@@ -5,7 +5,11 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import re
 import shutil
+import tempfile
+import urllib.parse
+import urllib.request
 import zipfile
 from datetime import date
 from pathlib import Path
@@ -27,6 +31,12 @@ DATA_SUFFIXES = {
     ".dbf",
     ".prj",
 }
+TABLEAU_URL_PATTERNS = (
+    r"/app/profile/[^/]+/viz/([^/?#]+)/",
+    r"/(?:views|vizhome)/([^/?#]+)/",
+    r"#!/vizhome/([^/?#]+)/",
+)
+USER_AGENT = "Mozilla/5.0 (compatible; WoWTableauLab/1.0)"
 
 
 def sha256(path: Path) -> str:
@@ -35,6 +45,28 @@ def sha256(path: Path) -> str:
         for chunk in iter(lambda: handle.read(1024 * 1024), b""):
             digest.update(chunk)
     return digest.hexdigest()
+
+
+def tableau_workbook_name(url: str) -> str:
+    for pattern in TABLEAU_URL_PATTERNS:
+        match = re.search(pattern, url)
+        if match:
+            return urllib.parse.unquote(match.group(1))
+    raise ValueError(f"Unsupported Tableau Public workbook URL: {url}")
+
+
+def download_workbook(url: str, target: Path) -> None:
+    workbook = tableau_workbook_name(url)
+    download_url = (
+        "https://public.tableau.com/workbooks/"
+        + urllib.parse.quote(workbook, safe="")
+        + ".twb"
+    )
+    request = urllib.request.Request(download_url, headers={"User-Agent": USER_AGENT})
+    with urllib.request.urlopen(request, timeout=120) as response, target.open("wb") as output:
+        shutil.copyfileobj(response, output)
+    if not zipfile.is_zipfile(target):
+        raise ValueError(f"Tableau Public did not return a packaged workbook: {url}")
 
 
 def extract_data(source: Path, inputs: Path) -> list[dict[str, object]]:
@@ -84,6 +116,7 @@ def prepare_case(
     case_id: str,
     post: str,
     iterations_root: Path | None = None,
+    source_url: str | None = None,
 ) -> Path:
     source = source.resolve()
     if not source.is_file():
@@ -112,6 +145,7 @@ def prepare_case(
                 "filename": source.name,
                 "bytes": source.stat().st_size,
                 "sha256": sha256(source),
+                "url": source_url,
             },
             "extracted_data": data,
             "source_workbook_used_by_builder": False,
@@ -134,12 +168,31 @@ def prepare_case(
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--source", required=True, type=Path)
+    source_group = parser.add_mutually_exclusive_group(required=True)
+    source_group.add_argument("--source", type=Path)
+    source_group.add_argument("--workbook-url")
     parser.add_argument("--iteration-id", required=True)
     parser.add_argument("--case-id", required=True)
-    parser.add_argument("--post", required=True)
+    post_group = parser.add_mutually_exclusive_group(required=True)
+    post_group.add_argument("--post")
+    post_group.add_argument("--post-url")
     args = parser.parse_args()
-    print(prepare_case(args.source, args.iteration_id, args.case_id, args.post))
+    post = args.post or args.post_url
+    if args.source:
+        print(prepare_case(args.source, args.iteration_id, args.case_id, post))
+        return
+    with tempfile.TemporaryDirectory() as directory:
+        source = Path(directory) / f"{tableau_workbook_name(args.workbook_url)}.twbx"
+        download_workbook(args.workbook_url, source)
+        print(
+            prepare_case(
+                source,
+                args.iteration_id,
+                args.case_id,
+                post,
+                source_url=args.workbook_url,
+            )
+        )
 
 
 if __name__ == "__main__":

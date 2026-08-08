@@ -22,6 +22,9 @@ Only modify your own `iterations/<iteration-id>/` directory. Do not edit other
 cases or `usage/consumed-cases.json`; maintainers update shared indexes after
 merge.
 
+Historical directories without v1 `functional_status` metadata are legacy and
+read-only unless the task explicitly requests their migration.
+
 Start from `iterations/_template/` or run:
 
 ```bash

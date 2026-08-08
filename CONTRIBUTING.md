@@ -23,6 +23,18 @@ python scripts/prepare_case.py \
   --post posts/YYYY-MM-DD-article.html
 ```
 
+If you do not already have the TWBX, use its Tableau Public URL and the article
+URL. The workbook is downloaded to a temporary directory and removed after its
+data is extracted:
+
+```bash
+python scripts/prepare_case.py \
+  --workbook-url "https://public.tableau.com/views/WORKBOOK/VIEW" \
+  --iteration-id YYYY-MM-DD-short-slug \
+  --case-id stable-case-id \
+  --post-url "https://example.com/article"
+```
+
 The command copies `iterations/_template`, extracts packaged data files to
 `inputs/`, and writes hashes to `inputs/source-lock.json`. It does not copy the
 author workbook into the iteration.
@@ -74,6 +86,9 @@ iterations/<iteration-id>/
 
 Do not edit `usage/consumed-cases.json`; maintainers update shared indexes
 after merge. Link any related cwtwb issue/PR from `case.yaml` and the PR body.
+Directories marked as legacy predate the v1 contract. Do not use them as
+templates; create a new v1 iteration unless a maintainer explicitly assigns a
+legacy migration.
 
 Before submission:
 
