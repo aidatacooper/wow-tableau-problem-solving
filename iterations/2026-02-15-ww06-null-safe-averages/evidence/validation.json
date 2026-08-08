@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0.0",
+  "status": "passed",
+  "artifacts": {
+    "replicated-workbook.twb": {
+      "sha256": "fe56d8caf58bbf7e0c16044a5c11628fc523f44c7988c1e00e078220cb5d78d6",
+      "local_parse": "passed",
+      "local_xsd": "passed_with_known_tableau_compatibility_warning",
+      "tableau_cloud_semantic": {
+        "success": false,
+        "valid": false,
+        "attempts": 3,
+        "last_error": "HTTP 400 from the TWB-only validation endpoint"
+      }
+    },
+    "replicated-workbook.twbx": {
+      "sha256": "04a9070a4e8faa08f5364a88f9215063042dd84d1ef58c8247e881e92f490dee",
+      "zip_structure": "passed",
+      "bundled_hyper_present": true,
+      "duplicate_archive_entries": false,
+      "cwtwb_open_and_resave": "passed",
+      "acceptance_after_roundtrip": "passed",
+      "tableau_cloud_upload": {
+        "success": true,
+        "workbook_id": "ea73a5a8-b104-4602-a5b4-3589ef4a588d",
+        "views": [
+          "Null-safe Average",
+          "Apply Button",
+          "Null-safe Average Dashboard"
+        ],
+        "twbx_size_kb": 69.9,
+        "initial_failure": "Tableau rejected MONTH(Order Date) as a bounded date filter.",
+        "fix": "cwtwb cd98ce8 generates a continuous exact-date instance for bounded bare date filters."
+      }
+    }
+  },
+  "acceptance": {
+    "command": "python iterations/2026-02-15-ww06-null-safe-averages/verify_replication.py",
+    "result": "passed"
+  },
+  "analyzer": {
+    "result": "passed",
+    "detected": [
+      "Parameter Action",
+      "Square Mark",
+      "Domain Completion",
+      "Hierarchy",
+      "Average Subtotal",
+      "Table Calculation",
+      "Hyper",
+      "Layout Container"
+    ]
+  },
+  "regression": {
+    "command": "PYTHONPATH=src python -m pytest tests -q --basetemp .tmp_test_outputs/ww06-full-b",
+    "passed": 317,
+    "skipped": 25,
+    "warnings": 8
+  },
+  "cloud_openability": "passed"
+}

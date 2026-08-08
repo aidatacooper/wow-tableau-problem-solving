@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0.0",
+  "status": "passed",
+  "artifacts": {
+    "replicated-workbook.twb": {
+      "sha256": "ba14a4dc2755b0403bfcd6a708ea67127221186b45eb01fb3200b2bc4b6f9945",
+      "local_parse": "passed"
+    },
+    "replicated-workbook.twbx": {
+      "sha256": "d626c7cabd764420380ea6a7e8c77a4a8ced0fa62e288aaca69d40aeb04b3909",
+      "zip_structure": "passed",
+      "original_hyper_preserved": "passed",
+      "cwtwb_open_and_resave": "passed",
+      "acceptance_after_roundtrip": "passed",
+      "tableau_cloud_publish": {
+        "success": true,
+        "workbook_id": "df7a9f71-29fc-4e01-af27-13f03b6e29c2",
+        "views": [
+          "Higher Orders by Month",
+          "WW29 Higher Orders"
+        ],
+        "twbx_size_kb": 362.4
+      }
+    },
+    "cloud_screenshot": {
+      "path": "evidence/cwtwb-iteration-2019-07-18-ww29-high-orders_WW29_Higher_Orders.png",
+      "sha256": "f310a5bc5a45ed31e0941191c438fbd0cfdb1660a4105300dabad0047ef409cb",
+      "visual_review": "passed",
+      "observed": [
+        "three Segment panes",
+        "twelve month headers",
+        "positive and negative percent labels",
+        "green and blue conditional marks",
+        "one overall-average reference line per Segment"
+      ]
+    }
+  },
+  "analyzer": {
+    "result": "passed",
+    "summary": {
+      "core": 8,
+      "advanced": 4,
+      "recipe": 0,
+      "unsupported": 0,
+      "unknown": 1
+    },
+    "detected": [
+      "GanttBar",
+      "Reference Line",
+      "LOD",
+      "Color",
+      "Size",
+      "Text",
+      "Tooltip",
+      "Hyper"
+    ]
+  },
+  "regression": {
+    "command": "PYTHONPATH=src python -m pytest tests -q --basetemp .tmp_test_outputs/ww29-final-full",
+    "passed": 320,
+    "skipped": 25,
+    "warnings": 8
+  },
+  "notes": [
+    "The first cloud screenshot was blank because imported aggregate calculations lost their formulas and were bound as SUM instead of AGG.",
+    "cwtwb f6f1403 preserves imported formulas and supports explicit AGG expressions.",
+    "The regenerated cloud screenshot contains the complete decision behavior."
+  ]
+}

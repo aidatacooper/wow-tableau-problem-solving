@@ -1,0 +1,15 @@
+schema_version: 1.0.0
+task_id: ww34-capability
+case_id: donna-2019-09-02-0574e1681ed3
+stage: capability_audit
+status: completed
+depends_on: [ww34-understand]
+owned_files: [specs/capability-gap.yaml]
+deliverables:
+  - Inventory existing cwtwb workbook, calculation, dual-axis, dashboard, and action APIs.
+  - Identify add_set and add_dashboard_set_action as the reusable gaps.
+  - Specify required XML, editor API, MCP, registry, analyzer, test, and documentation layers.
+acceptance:
+  - Classify the gap as missing_primitive.
+  - Record required layers and behaviors.
+  - Record that the published source contains references but no set definitions.

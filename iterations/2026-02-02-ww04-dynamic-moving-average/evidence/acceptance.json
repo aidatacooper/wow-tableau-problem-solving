@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0.0",
+  "required_semantics": [
+    "pTimePortion selects week, month, or quarter and drives DATETRUNC and DATEADD.",
+    "pMoveAvg controls a trailing window that includes the current mark and the previous pMoveAvg-1 marks.",
+    "pTimeFrame limits visible marks relative to the latest display date through a table-calculation filter.",
+    "Sales and Moving Avg share a synchronized dual axis."
+  ],
+  "required_interactions": [
+    "All three parameter controls are available on the dashboard."
+  ],
+  "required_views": [
+    "One trend worksheet and one dashboard."
+  ],
+  "observable_assertions": [
+    "The workbook contains all three parameters with the article-defined domains and defaults.",
+    "The workbook contains the four-field calculation dependency chain.",
+    "The worksheet uses Date to Display as a True filter.",
+    "The worksheet contains two line panes on a synchronized dual axis.",
+    "The dashboard includes the worksheet and all three parameter controls."
+  ],
+  "allowed_differences": [
+    "Fonts, exact colors, padding, and tooltip prose may differ.",
+    "The worksheet and dashboard names may be clearer than the source names."
+  ],
+  "presentation_only": [
+    "Exact line colors",
+    "Exact title wording",
+    "Exact divider and border formatting"
+  ]
+}

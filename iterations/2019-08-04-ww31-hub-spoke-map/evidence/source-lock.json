@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0.0",
+  "iteration_id": "2019-08-04-ww31-hub-spoke-map",
+  "case_id": "donna-2019-08-04-a73aff7c512b",
+  "article": {
+    "path": "posts/2019-08-04-Can_you_create_a_hub_and_spoke_map.html",
+    "sha256": "96e140b94c22e457c8c6b5f5b6a10f486120ac81c1478deaf2c15c532c59f6fa"
+  },
+  "workbook": {
+    "workbook_id": "tableau-29b75742e9f36c7d",
+    "source_twbx": {
+      "path": "dashboards/2019_07_31_WW31_WWPD_MusicData/2019_07_31_WW31_WWPD_MusicData.twbx",
+      "sha256": "7f363cdc25ac7d0ff03e2bd11a03ebff061e981001528451c50187a63176e876"
+    },
+    "normalized_twb": {
+      "path": "dataset/workbooks/tableau-29b75742e9f36c7d/workbook.twb",
+      "sha256": "07764546bf16733428ae2bf2cfb29819332cf8a052330cf23ad350412b59eb7b"
+    }
+  },
+  "validation_env": "C:/Users/imgwho/Desktop/projects/20260227-cwtwb/.env",
+  "baseline": {
+    "cwtwb_version": "0.24.0",
+    "cwtwb_git_commit": "9076f6a",
+    "backup_git_commit": "ab5be1a"
+  },
+  "result": {
+    "cwtwb_git_commits": [
+      "a7d6872"
+    ],
+    "backup_git_commit": null
+  }
+}

@@ -1,0 +1,11 @@
+schema_version: 1.0.0
+task_id: ww33-understand
+case_id: donna-2019-08-14-9a4c743596c1
+stage: analysis
+status: completed
+depends_on: []
+allowed_reads: [posts/2019-08-14-Corey’s_Table_Challenge.html, dashboards/2019_08_14_WW33_Table_Formatting/2019_08_14_WW33_Table_Formatting.twbx]
+forbidden_inputs: []
+owned_files: [specs/problem-model.md, specs/replication-spec.yaml]
+deliverables: [problem model, replication spec]
+acceptance: [core business semantics identified]

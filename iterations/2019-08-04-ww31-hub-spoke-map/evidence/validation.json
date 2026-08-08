@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "status": "replicated",
+  "artifacts": {
+    "replicated-workbook.twb": {
+      "sha256": "7db0652e784143a7c27c56f20da42f55f1521b8c0fc7b4ca1a68ca5134a0e8d9",
+      "local_parse": "passed"
+    },
+    "replicated-workbook.twbx": {
+      "sha256": "cdc7477998b0eb84c69aa1ad267c18d6954cb4f25fd7bd96a890ee6d356e6e6a",
+      "zip_structure": "passed",
+      "original_hyper_preserved": "passed",
+      "cwtwb_open_and_resave": "passed",
+      "acceptance_after_roundtrip": "passed",
+      "tableau_cloud_publish": {
+        "success": true,
+        "workbook_id": "a983daa4-7fd2-42b8-b58b-8c19dbe15b0e",
+        "dashboard_screenshot_bytes": 246862,
+        "all_views_rendered": true,
+        "original_control_restored_to_replica": true
+      }
+    }
+  },
+  "analyzer": {
+    "template_fit": "advanced-fit",
+    "core": 10,
+    "advanced": 5,
+    "recipe": 0,
+    "unsupported": 0,
+    "unknown": [
+      "connection:textscan",
+      "dashboard_zone:NONE"
+    ]
+  },
+  "regression": {
+    "execution": "full suite with a workspace-local pytest basetemp",
+    "passed": 327,
+    "skipped": 25,
+    "warnings": 8
+  }
+}

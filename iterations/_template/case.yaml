@@ -1,0 +1,23 @@
+schema_version: 1.0.0
+case_id: __CASE_ID__
+iteration_id: __ITERATION_ID__
+post: __POST__
+
+cwtwb:
+  tested_version: 0.26.0
+
+analysis_status: in_progress
+functional_status: partial
+visual_status: not_evaluated
+cwtwb_result: blocked
+
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files: []
+
+acceptance:
+  - replace_with_an_observable_functional_scenario
+
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []

@@ -1,0 +1,198 @@
+{
+  "schema_version": "1.0.0",
+  "case_id": "donna-2019-09-02-0574e1681ed3",
+  "status": "semantically_replicated",
+  "from_scratch": true,
+  "replication_status": "semantically_replicated",
+  "cloud_api_called": false,
+  "cloud_caveat": false,
+  "analyzer": {
+    "detected_recipes": [
+      "Set Action",
+      "Dual Axis",
+      "GanttBar",
+      "ParamCtrl",
+      "Text",
+      "LOD",
+      "Domain Completion",
+      "Set",
+      "Table Calculation",
+      "Bar",
+      "excel-direct",
+      "federated",
+      "hyper",
+      "Layout Container",
+      "Color",
+      "Text"
+    ]
+  },
+  "gates": {
+    "source_independence": {
+      "gate": "source_independence",
+      "passed": true,
+      "forbidden_patterns_found": {},
+      "identical_worksheet_trees": 0,
+      "identical_dashboard_trees": 0,
+      "reason": null
+    },
+    "build_provenance": {
+      "gate": "build_provenance",
+      "passed": true,
+      "detail": {
+        "generated_at": "2026-08-01T10:17:50.556382+00:00",
+        "build_inputs": [
+          "specs/replication-spec.yaml",
+          "specs/solution-graph.yaml",
+          "dashboards/2019_08_21_WW34_TopN_SingleWorksheet/2019_08_21_WW34_TopN_SingleWorksheet.twbx (data: original Hyper only)"
+        ],
+        "source_twbx_read_during_build": true,
+        "source_used_as": "datasource_carrier_for_original_hyper",
+        "author_view_xml_copied": false,
+        "clear_existing_content": true,
+        "forbidden_inputs_observed": [],
+        "from_scratch": true,
+        "functional_elements": [
+          "Top n Manufacturers integer parameter (default 15, range 1-100)",
+          "Include Other boolean parameter (default false, aliases YES/NO)",
+          "Four region top-N sets over Manufacturer (Central/East/South/West - Qty)",
+          "Highlighted Manufacturer empty set (Set Action target)",
+          "Manfacturer Category: region top-N membership or 'Other'",
+          "Index = INDEX() with Field ordering (per-region rank on one sheet)",
+          "FILTER Index = Index <= Top n; FILTER - Other hides Other row",
+          "LABEL:Manufacturer = ranked '(#N)' label when hovered set fills",
+          "Dual-axis worksheet Viz: rows=Index, cols=Region * (MIN(0) + SUM(Quantity)), Bar + GanttBar",
+          "Dashboard with compact Include Other + type_in Top n paramctrl",
+          "on-hover Set Action 'Highlight Rank' -> Highlighted Manufacturer (exclude-all)"
+        ],
+        "deviations_from_source": [
+          "Set internal names are unified (Top Central/East/South/West) instead of the source's 'Top Central (copy)'/'Top East (copy)' internal names; display captions match the source exactly.",
+          "Top n Manufacturers parameter is emitted with domain_type=range 1-100 per the replication spec; the source serializes the domain as 'any'.",
+          "The INDEX() instance-level Field table-calc (level-break/order/sort) is reproduced in _apply_index_table_calc_ordering; cwtwb's table_calc API cannot author instance-level addressing natively.",
+          "The cols shelf join between Region and the dual-axis fold is '*' (as the source) via _apply_cols_join; cwtwb's dual-axis builder emits '+' by default."
+        ],
+        "known_visual_gaps": [
+          "Axis/style formatting (axis strokes, gridlines, header widths) uses cwtwb defaults rather than the source's exact pixel styles.",
+          "The 'Data' hidden helper worksheet from the source is omitted (maximum_visible_worksheets allows 1 visible sheet)."
+        ]
+      }
+    },
+    "structure": {
+      "gate": "structure",
+      "passed": true,
+      "worksheets": [
+        "Viz"
+      ],
+      "param_topn_ok": true,
+      "param_include_ok": true,
+      "param_include_aliases_ok": true,
+      "sets_present": [
+        "Highlighted Manufacturer",
+        "Top Central",
+        "Top East",
+        "Top South",
+        "Top West"
+      ],
+      "sets_ok": true,
+      "rows_ok": true,
+      "cols_ok": true,
+      "panes": {
+        "0": {
+          "mark": "Automatic",
+          "color": false,
+          "text": false
+        },
+        "1": {
+          "mark": "Bar",
+          "color": true,
+          "text": false
+        },
+        "2": {
+          "mark": "GanttBar",
+          "color": true,
+          "text": true
+        }
+      },
+      "bar_present": true,
+      "gantt_bar_with_label": true,
+      "filters_ok": true,
+      "filter_members": [
+        [
+          "FILTER - Other",
+          [
+            "false"
+          ]
+        ],
+        [
+          "FILTER Index",
+          [
+            "true"
+          ]
+        ]
+      ],
+      "dashboard_present": true,
+      "paramctrl_zones": {
+        "[Parameters].[Parameter 2]": "compact",
+        "[Parameters].[Parameter 1]": "type_in"
+      },
+      "paramctrl_ok": true,
+      "viz_zone_present": true,
+      "set_action_ok": true
+    },
+    "semantic": {
+      "gate": "semantic",
+      "passed": true,
+      "manfacturer_category_refs_all_sets": true,
+      "index_is_index": true,
+      "filter_index_uses_param_and_index": true,
+      "filter_other_hides_other_row": true,
+      "label_branches_on_highlight_set": true,
+      "label_uses_rank": true,
+      "topn_set_shape_ok": true,
+      "topn_set_count": 4,
+      "highlighted_set_empty_level": true,
+      "unresolved_set_references": [],
+      "formula_count": 13
+    },
+    "visual": {
+      "gate": "visual",
+      "passed": true,
+      "panes": [
+        {
+          "mark": "Automatic"
+        },
+        {
+          "mark": "Bar",
+          "color": "[federated.1lpjjco1itbvff14gh7i8150jnla].[none:Region:nk]",
+          "text": "",
+          "lod": "[federated.1lpjjco1itbvff14gh7i8150jnla].[none:Calculation_89F30F49BE8244AD9E1A053A183C8D0B:nk]"
+        },
+        {
+          "mark": "GanttBar",
+          "color": "[federated.1lpjjco1itbvff14gh7i8150jnla].[none:Region:nk]",
+          "text": "[federated.1lpjjco1itbvff14gh7i8150jnla].[usr:Calculation_507E452D7FC54EC4B27CD240C440246A:nk]",
+          "lod": "[federated.1lpjjco1itbvff14gh7i8150jnla].[none:Calculation_89F30F49BE8244AD9E1A053A183C8D0B:nk]"
+        }
+      ],
+      "bar_colored_by_region": true,
+      "gantt_colored_by_region": true,
+      "gantt_label_manufacturer": true,
+      "region_palette_ok": true,
+      "region_palette_maps": {
+        "\"South\"": "#027b8e",
+        "\"East\"": "#6fb899",
+        "\"Central\"": "#8175aa",
+        "\"West\"": "#9f8f12"
+      },
+      "dual_axis_cross_join": true,
+      "synchronized_axis": true,
+      "index_field_ordering_present": true
+    },
+    "cloud_openability": {
+      "gate": "cloud_openability",
+      "passed": null,
+      "status": "error",
+      "reason": "Failed Sign In Error: \n\n\t401002: Unauthorized Access\n\t\tInvalid authentication credentials were provided."
+    }
+  },
+  "generated_by": "verify_replication.py"
+}

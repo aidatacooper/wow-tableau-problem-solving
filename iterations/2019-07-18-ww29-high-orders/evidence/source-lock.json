@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0.0",
+  "iteration_id": "2019-07-18-ww29-high-orders",
+  "case_id": "donna-2019-07-18-63877b35d19a",
+  "article": {
+    "path": "posts/2019-07-18-Which_months_have_the_higher_number_of_orders.html",
+    "sha256": "304028796f7823b352f50a91c9bf0bdf5f0c12238f4cc60db1b17f634a2ec6e3"
+  },
+  "workbook": {
+    "workbook_id": "tableau-e27da65b4c05126c",
+    "source_twbx": {
+      "path": "dashboards/2019_07_17_WW29_HighOrders/2019_07_17_WW29_HighOrders.twbx",
+      "sha256": "b8ca6006612bd4c8656304a83ec4c881f31fe22a7b32562835003c968e81cb59"
+    },
+    "normalized_twb": {
+      "path": "dataset/workbooks/tableau-e27da65b4c05126c/workbook.twb",
+      "sha256": "46b300d36bb0acad0a877b7da6fc778a3d7b595be3ab4df095619bb0c32a6895"
+    }
+  },
+  "validation_env": "C:/Users/imgwho/Desktop/projects/20260227-cwtwb/.env",
+  "baseline": {
+    "cwtwb_version": "0.24.0",
+    "cwtwb_git_commit": "cd98ce8b6a2bb8e3ba1c47d8eb6cb794cfbbbfda",
+    "backup_git_commit": "0a1aa18886ded2c1d2b451e5509f0d3a92c1de5a"
+  },
+  "result": {
+    "cwtwb_git_commits": [
+      "f6f1403"
+    ],
+    "backup_git_commit": null
+  }
+}

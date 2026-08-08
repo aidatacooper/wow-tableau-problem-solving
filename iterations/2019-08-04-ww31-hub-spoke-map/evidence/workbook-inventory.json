@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "source": "deterministic TWB/TWBX inventory",
+  "datasource": {
+    "name": "MusicData",
+    "extract": "Data/Datasources/2019_07_31_PD25_WWPD_MusicData_Output.hyper",
+    "extract_bytes": 131072,
+    "preserved_in_replication": true
+  },
+  "calculations": {
+    "# Concerts": "COUNTD([ConcertID])",
+    "Route": "MAKELINE(MAKEPOINT([Hometown Latitude],[Hometown Longitude]), MAKEPOINT([Lat],[Long]))",
+    "Destination": "MAKEPOINT([Lat],[Long])",
+    "Calculation1": "STR([Concert Date]) + '-' + [Concert]",
+    "Region": "categorical-bin group based on Location"
+  },
+  "worksheets": [
+    "WS:Ben Summary",
+    "WS:ED Summary",
+    "WS:Monthy Trend",
+    "WS:Route-EA",
+    "WS:Route-Europe",
+    "WS:Route-NA&SA",
+    "WS:Word Cloud"
+  ],
+  "dashboards": [
+    "2019_07_31_WW31_MusicData_Hub&Spoke"
+  ],
+  "actions": [
+    {
+      "type": "filter",
+      "event": "on-hover",
+      "sources": [
+        "WS:Ben Summary",
+        "WS:ED Summary"
+      ],
+      "target": "WS:Word Cloud"
+    }
+  ],
+  "required_visual_structure": {
+    "regional_maps": 3,
+    "map_layers_per_map": [
+      "Route",
+      "Destination"
+    ],
+    "summary_sheets": 2,
+    "monthly_trend": 1,
+    "word_cloud": 1
+  }
+}

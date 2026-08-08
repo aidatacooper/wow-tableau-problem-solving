@@ -1,0 +1,15 @@
+schema_version: 1.0.0
+task_id: ww34-calculations
+case_id: donna-2019-09-02-0574e1681ed3
+stage: build
+status: ready
+depends_on: [ww34-capability]
+owned_files: [build_replication.py]
+deliverables:
+  - Create the Top n Manufacturers and Include Other parameters.
+  - Create four regional Top N sets and the empty Highlighted Manufacturer set.
+  - Create all manufacturer, regional quantity, filter, rank, label, and MIN(0) calculations.
+acceptance:
+  - Build from a cleared blank structure without copying author XML subtrees.
+  - Resolve every set reference in calculated fields.
+  - Reference all four regional sets in Manfacturer Category.

@@ -1,0 +1,94 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.example/donnacoles/usage.schema.json",
+  "title": "Donna Coles Dataset Usage Registry",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "updated_at",
+    "selection_policy",
+    "consumed_cases"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date"
+    },
+    "selection_policy": {
+      "const": "exclude_consumed_cases_from_future_feature_iterations"
+    },
+    "consumed_cases": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "case_id",
+          "workbook_ids",
+          "iteration",
+          "status",
+          "replication_status",
+          "cwtwb_version",
+          "cwtwb_commits",
+          "capabilities",
+          "reason"
+        ],
+        "properties": {
+          "case_id": {
+            "type": "string",
+            "pattern": "^donna-[0-9]{4}-[0-9]{2}-[0-9]{2}-[a-f0-9]{12}$"
+          },
+          "workbook_ids": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {
+              "type": "string",
+              "pattern": "^tableau-[a-f0-9]{16}$"
+            }
+          },
+          "iteration": {
+            "type": "string"
+          },
+          "status": {
+            "const": "consumed"
+          },
+          "replication_status": {
+            "enum": [
+              "partial",
+              "replicated",
+              "blocked"
+            ]
+          },
+          "cwtwb_version": {
+            "type": "string"
+          },
+          "cwtwb_commits": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {
+              "type": "string"
+            }
+          },
+          "capabilities": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {
+              "type": "string"
+            }
+          },
+          "reason": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

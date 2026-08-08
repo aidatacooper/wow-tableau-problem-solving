@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-08-01T10:17:50.556382+00:00",
+  "build_inputs": [
+    "specs/replication-spec.yaml",
+    "specs/solution-graph.yaml",
+    "dashboards/2019_08_21_WW34_TopN_SingleWorksheet/2019_08_21_WW34_TopN_SingleWorksheet.twbx (data: original Hyper only)"
+  ],
+  "source_twbx_read_during_build": true,
+  "source_used_as": "datasource_carrier_for_original_hyper",
+  "author_view_xml_copied": false,
+  "clear_existing_content": true,
+  "forbidden_inputs_observed": [],
+  "from_scratch": true,
+  "functional_elements": [
+    "Top n Manufacturers integer parameter (default 15, range 1-100)",
+    "Include Other boolean parameter (default false, aliases YES/NO)",
+    "Four region top-N sets over Manufacturer (Central/East/South/West - Qty)",
+    "Highlighted Manufacturer empty set (Set Action target)",
+    "Manfacturer Category: region top-N membership or 'Other'",
+    "Index = INDEX() with Field ordering (per-region rank on one sheet)",
+    "FILTER Index = Index <= Top n; FILTER - Other hides Other row",
+    "LABEL:Manufacturer = ranked '(#N)' label when hovered set fills",
+    "Dual-axis worksheet Viz: rows=Index, cols=Region * (MIN(0) + SUM(Quantity)), Bar + GanttBar",
+    "Dashboard with compact Include Other + type_in Top n paramctrl",
+    "on-hover Set Action 'Highlight Rank' -> Highlighted Manufacturer (exclude-all)"
+  ],
+  "deviations_from_source": [
+    "Set internal names are unified (Top Central/East/South/West) instead of the source's 'Top Central (copy)'/'Top East (copy)' internal names; display captions match the source exactly.",
+    "Top n Manufacturers parameter is emitted with domain_type=range 1-100 per the replication spec; the source serializes the domain as 'any'.",
+    "The INDEX() instance-level Field table-calc (level-break/order/sort) is reproduced in _apply_index_table_calc_ordering; cwtwb's table_calc API cannot author instance-level addressing natively.",
+    "The cols shelf join between Region and the dual-axis fold is '*' (as the source) via _apply_cols_join; cwtwb's dual-axis builder emits '+' by default."
+  ],
+  "known_visual_gaps": [
+    "Axis/style formatting (axis strokes, gridlines, header widths) uses cwtwb defaults rather than the source's exact pixel styles.",
+    "The 'Data' hidden helper worksheet from the source is omitted (maximum_visible_worksheets allows 1 visible sheet)."
+  ]
+}

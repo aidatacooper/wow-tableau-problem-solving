@@ -1,0 +1,14 @@
+schema_version: 1.0.0
+task_id: ww34-understand
+case_id: donna-2019-09-02-0574e1681ed3
+stage: problem_model
+status: completed
+depends_on: []
+owned_files: [specs/problem-model.md, specs/solution-graph.yaml]
+deliverables:
+  - Define the per-region Top N, Other bucket, and hover-rank outcome.
+  - Explain why global Top N, multiple worksheets, and a rank-only approach are insufficient.
+  - Classify required semantics, replaceable implementation choices, and presentation-only details.
+acceptance:
+  - The problem model answers all six protocol questions.
+  - Solution nodes use required, replaceable, or presentation_only classifications.

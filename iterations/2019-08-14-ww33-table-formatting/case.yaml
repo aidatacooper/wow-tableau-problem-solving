@@ -1,0 +1,23 @@
+schema_version: 1.0.0
+case_id: donna-2019-08-14-9a4c743596c1
+iteration_id: 2019-08-14-ww33-table-formatting
+status: in_progress
+replication_mode: from_scratch
+inputs:
+  article: posts/2019-08-14-Corey’s_Table_Challenge.html
+  source_workbook: dashboards/2019_08_14_WW33_Table_Formatting/2019_08_14_WW33_Table_Formatting.twbx
+  source_image: dashboards/2019_08_14_WW33_Table_Formatting/2019_08_14_WW33_Table_Formatting.png
+  validation_env: C:/Users/imgwho/Desktop/projects/20260227-cwtwb/.env
+constraints:
+  preserve_original_hyper: true
+  source_workbook_may_be_read_during_analysis: true
+  source_workbook_may_be_used_as_build_template: false
+stages:
+  source_lock: completed
+  inventory: completed
+  problem_model: completed
+  solution_graph: completed
+  replication_spec: completed
+  capability_audit: completed
+  build: completed
+  verification: in_progress

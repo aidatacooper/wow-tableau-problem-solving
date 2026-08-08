@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0.0",
+  "source": "dataset/workbooks/tableau-93c74baea48daf50/workbook.twb",
+  "counts": {
+    "worksheets": 3,
+    "dashboards": 1,
+    "parameters": 1,
+    "calculated_fields": 12,
+    "dashboard_actions": 0
+  },
+  "parameter": {
+    "name": "pToday",
+    "datatype": "date",
+    "default": "2025-02-04"
+  },
+  "required_calculation_chain": [
+    "Today Last Month",
+    "Today Last Year",
+    "Recent | Prior Mth | Prior Yr",
+    "Profit Ratio",
+    "PR - Recent",
+    "PR - Not Recent",
+    "X-Axis",
+    "PR - Today",
+    "PR - Yesterday",
+    "PR - Difference",
+    "PR Direction Up",
+    "PR Direction Down"
+  ],
+  "required_views": [
+    {
+      "name": "Trend",
+      "columns": ["X-Axis"],
+      "rows": ["PR - Not Recent", "PR - Recent"],
+      "filter": "Recent | Prior Mth | Prior Yr excludes Null",
+      "composition": "synchronized dual-axis line chart",
+      "color": "Recent | Prior Mth | Prior Yr"
+    },
+    {
+      "name": "KPI",
+      "mark": "Shape with formatted text",
+      "fields": [
+        "PR - Today",
+        "PR - Difference",
+        "PR Direction Up",
+        "PR Direction Down",
+        "pToday"
+      ]
+    }
+  ],
+  "dashboard": {
+    "required_sheets": ["Trend", "KPI"],
+    "presentation_only_source_sheet": "intermediate calculation table"
+  }
+}

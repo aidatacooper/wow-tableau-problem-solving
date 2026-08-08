@@ -1,0 +1,18 @@
+schema_version: 1.0.0
+task_id: ww34-validation
+case_id: donna-2019-09-02-0574e1681ed3
+stage: verification
+status: ready
+depends_on: [ww34-dashboard]
+owned_files: [verify_replication.py, evidence/validation.json]
+deliverables:
+  - Pass source-independence and build-provenance gates.
+  - Pass structure, semantic, visual, and cloud-openability gates.
+acceptance:
+  - Set semantically_replicated or visually_replicated only after all gates pass.
+  - Keep from_scratch true.
+  - Use a separate read-only verifier or AI reviewer.
+key_evidence:
+  - Top n=10 yields 10 rows per region.
+  - Include Other=YES yields 11 rows per region.
+  - Hover labels show the (#N) rank.

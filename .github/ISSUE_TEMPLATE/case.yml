@@ -1,0 +1,34 @@
+name: Claim a WoW case
+description: Claim one post for AI analysis and a new iteration project.
+title: "[WoW Case] "
+labels:
+  - wow-case
+body:
+  - type: input
+    id: post
+    attributes:
+      label: Post
+      description: Path or URL of the article to analyze.
+    validations:
+      required: true
+  - type: input
+    id: workbook
+    attributes:
+      label: Primary author workbook
+      description: Tableau Public URL or local workbook identifier.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before claiming
+      options:
+        - label: I checked that no open issue or merged iteration already owns this case.
+          required: true
+        - label: I will submit one case per pull request.
+          required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Initial notes
+      description: Optional expected complexity, interaction, or data notes.

@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "status": "replicated",
+  "artifacts": {
+    "replicated-workbook.twb": {
+      "sha256": "270e6de071f1163ca37a91f3cad8738f27887dd8bf2083cb3c0f79621d2756a7",
+      "local_parse": "passed",
+      "source_independence": "passed",
+      "semantic_validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    "replicated-workbook.twbx": {
+      "sha256": "20b66f4e9686b7455977e0fd5809a1169c6ee478d7f04fc651414062ec15469f",
+      "zip_structure": "passed",
+      "original_hyper_preserved": "passed",
+      "cwtwb_open_and_resave": "passed",
+      "acceptance_after_roundtrip": "passed",
+      "tableau_cloud_publish": {
+        "success": true,
+        "workbook_id": "e4473616-a802-4290-a2a7-7a68f1243342",
+        "view_name": "2019_08_07_WW32_Step_Area-Chart",
+        "csv_bytes": 27079,
+        "screenshot_bytes": 106500
+      }
+    }
+  },
+  "analyzer": {
+    "step_area_recipe_detected": true
+  },
+  "regression": {
+    "execution": "single full pytest run",
+    "passed": 334,
+    "skipped": 25,
+    "warnings": 8
+  }
+}

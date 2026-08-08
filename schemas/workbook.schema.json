@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.example/donnacoles/workbook.schema.json",
+  "title": "Tableau Workbook Artifact",
+  "type": "object",
+  "required": [
+    "workbook_id",
+    "tableau_workbook_name",
+    "source",
+    "status",
+    "integrity",
+    "views",
+    "article_stems",
+    "images"
+  ],
+  "properties": {
+    "workbook_id": {"type": "string", "pattern": "^tableau-[a-f0-9]{16}$"},
+    "tableau_workbook_name": {"type": "string"},
+    "source": {"type": "object"},
+    "status": {"enum": ["available", "invalid", "missing"]},
+    "integrity": {"type": "object"},
+    "twb": {"type": ["object", "null"]},
+    "views": {"type": "array", "items": {"type": "string"}},
+    "article_stems": {"type": "array", "items": {"type": "string"}},
+    "images": {"type": "array", "items": {"type": "object"}}
+  },
+  "additionalProperties": false
+}

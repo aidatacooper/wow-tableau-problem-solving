@@ -1,0 +1,40 @@
+# Capability Gap — 2019 WW34 Top N Bar Chart on a Single Worksheet
+
+gap_id: set-definition-and-set-action
+case_id: donna-2019-09-02-0574e1681ed3
+classification: missing_primitive   # Missing set-definition and set-action primitives.
+
+summary: >
+  WW34 requires two Tableau primitives that were missing from cwtwb: datasource
+  set definitions for per-region Top N membership and an edit-group dashboard
+  action that populates Highlighted Manufacturer on hover and clears it with
+  exclude-all. The published TWBX contains references but no set definitions,
+  so replication must create and register the sets from scratch.
+
+existing_capabilities_checked:
+  - TWBEditor(SOURCE_TWBX, clear_existing_content=True)   # 复用原始 Hyper、清空视图
+  - add_parameter
+  - add_calculated_field (including table-calc metadata)
+  - configure_dual_axis (synchronized GanttBar and Bar axes)
+  - add_dashboard (parameter-control zones)
+  - add_dashboard_action (filter/highlight/url/go-to-sheet/parameter only)
+
+required_layers:
+  - xml_primitive: datasource set definition with dimension and top-n filter-limit
+  - editor_api: TWBEditor.add_set(...)
+  - mcp_tool: add_set
+  - capability_registry: datasource.set / dashboard.action.set
+  - analyzer: recognize sets and set actions
+  - tests
+  - documentation
+
+required_behavior:
+  - Create a Top N set from a dimension and aggregated measure.
+  - Create an empty Set Action target.
+  - Reference set membership as [SetName] in formulas.
+  - Add an on-hover edit-group dashboard action with exclude-all clearing.
+
+acceptance_fixture:
+  data: synthetic
+  expected_layers: 2    # add_set plus add_dashboard_set_action
+  expected_xml: "datasource contains a set definition and actions contains edit-group-action"

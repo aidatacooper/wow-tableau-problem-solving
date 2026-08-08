@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.0.0",
+  "source": "dataset/workbooks/tableau-90f17c56b06029af/workbook.twb",
+  "counts": {
+    "worksheets": 1,
+    "dashboards": 1,
+    "parameters": 3,
+    "required_calculated_fields": 4,
+    "dashboard_actions": 0
+  },
+  "parameters": [
+    {
+      "name": "pTimePortion",
+      "datatype": "string",
+      "domain": "list",
+      "values": ["week", "month", "quarter"],
+      "aliases": {"week": "Week", "month": "Month", "quarter": "Quarter"},
+      "default": "month"
+    },
+    {
+      "name": "pTimeFrame",
+      "datatype": "integer",
+      "domain": "range",
+      "min": 12,
+      "max": 36,
+      "step": 6,
+      "default": 24
+    },
+    {
+      "name": "pMoveAvg",
+      "datatype": "integer",
+      "domain": "range",
+      "min": 3,
+      "max": 12,
+      "step": 3,
+      "default": 3
+    }
+  ],
+  "calculated_fields": [
+    {
+      "name": "Display Date",
+      "formula": "DATE(DATETRUNC([pTimePortion],[Order Date]))",
+      "kind": "row_level"
+    },
+    {
+      "name": "Moving Avg",
+      "formula": "WINDOW_AVG(SUM([Sales]), -1*([pMoveAvg]-1), 0)",
+      "kind": "table_calculation",
+      "addressing": "Display Date"
+    },
+    {
+      "name": "Latest Date",
+      "formula": "WINDOW_MAX(MAX([Display Date]))",
+      "kind": "table_calculation",
+      "addressing": "Display Date"
+    },
+    {
+      "name": "Date to Display",
+      "formula": "MIN([Order Date])>DATEADD([pTimePortion],-1*[pTimeFrame],[Latest Date])",
+      "kind": "table_calculation_filter",
+      "selected_member": true
+    }
+  ],
+  "worksheets": [
+    {
+      "name": "Viz",
+      "columns": ["Display Date (continuous exact date)"],
+      "rows": ["SUM(Sales)", "Moving Avg"],
+      "composition": "synchronized dual axis",
+      "marks": ["Line", "Line"],
+      "filters": ["Date to Display = True"],
+      "required_behavior": "The date filter is evaluated after the window calculations so the moving average retains its required history."
+    }
+  ],
+  "dashboards": [
+    {
+      "name": "2026_01_28_WW04_Moving_Avg",
+      "worksheets": ["Viz"],
+      "required_controls": ["pTimePortion", "pTimeFrame", "pMoveAvg"],
+      "layout": "three parameter controls in a horizontal container above the chart"
+    }
+  ]
+}

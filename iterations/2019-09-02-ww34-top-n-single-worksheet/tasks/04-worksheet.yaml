@@ -1,0 +1,15 @@
+schema_version: 1.0.0
+task_id: ww34-worksheet
+case_id: donna-2019-09-02-0574e1681ed3
+stage: build
+status: ready
+depends_on: [ww34-calculations]
+owned_files: [build_replication.py]
+deliverables:
+  - Build Viz with Index on rows and Region, MIN(0), and SUM(Quantity) on columns.
+  - Configure synchronized Bar and GanttBar axes, regional color, and both filters.
+  - Preserve independent regional Top N and optional Other behavior.
+acceptance:
+  - Viz is a valid synchronized dual-axis view.
+  - Both categorical filters reference valid field instances.
+  - Only Viz is visible; an audit sheet is optional.

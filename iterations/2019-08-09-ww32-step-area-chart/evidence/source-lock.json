@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0.0",
+  "case_id": "donna-2019-08-09-22359581fc60",
+  "article": {
+    "path": "posts/2019-08-09-Can_you_create_step_area_charts.html",
+    "sha256": "13f6a08a95bacbdee4daf468e63a1d9d1cee0c3f11a8781f5f55eb53cfcb84f8"
+  },
+  "workbook_id": "tableau-a671a1f433d4dcca",
+  "source_twbx": {
+    "path": "dashboards/2019_08_07_WW32_Step_Area_Chart/2019_08_07_WW32_Step_Area_Chart.twbx",
+    "sha256": "cc76ada10181a3fe39e6497929828bd15788844559886ef91c4660436faa0e26"
+  },
+  "normalized_twb": {
+    "path": "dataset/workbooks/tableau-a671a1f433d4dcca/workbook.twb",
+    "sha256": "a8edc61a6f02045d072e19b89db25955ab8ef1046b611f44749b0e2ade6e0c6e"
+  },
+  "packaged_data": {
+    "path": "Data/Datasources/Orders (Sample - Superstore).hyper",
+    "bytes": 458752
+  },
+  "env_path": "C:\\Users\\imgwho\\Desktop\\projects\\20260227-cwtwb\\.env"
+}

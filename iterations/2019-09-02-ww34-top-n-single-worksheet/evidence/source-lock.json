@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0.0",
+  "iteration_id": "2019-09-02-ww34-top-n-single-worksheet",
+  "case_id": "donna-2019-09-02-0574e1681ed3",
+  "article": {
+    "path": "posts/2019-09-02-Can_you_build_a_Top_N_Bar_Chart_on_a_Single_Worksheet.html",
+    "sha256": "EB3EBA2BAD0959C458AF0E6262776BCE43A756C41599459613813D2167AD7403",
+    "size_bytes": 27704
+  },
+  "workbook": {
+    "workbook_id": "tableau-6a0f09eb8e220c36",
+    "source_twbx": {
+      "path": "dashboards/2019_08_21_WW34_TopN_SingleWorksheet/2019_08_21_WW34_TopN_SingleWorksheet.twbx",
+      "sha256": "06525AAF92CDFD29E1CF604C25616A8177A4C09AF7AE32955045953A53504385",
+      "size_bytes": 390537
+    },
+    "normalized_twb": {
+      "path": null,
+      "note": "crawler 下载的 twbx 中 `<set>` 定义为 0 个；集合（Top Central/East/South/West、Highlighted Manufacturer）在发布版中被剥离，解题链从文章恢复。"
+    }
+  },
+  "validation_env": "C:/Users/imgwho/Desktop/projects/20260227-cwtwb/.env",
+  "baseline": {
+    "cwtwb_version": "0.25.0",
+    "cwtwb_git_commit": "42333d1",
+    "backup_git_commit": "caddffa"
+  },
+  "result": {
+    "cwtwb_git_commits": [],
+    "backup_git_commit": null
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0.0",
+  "worksheets": ["CHK:Data", "Viz"],
+  "dashboards": ["2019_07_17_WW29_High_Orders"],
+  "datasource": {
+    "packaged_asset": "Data/Datasources/Orders (Sample - Superstore).hyper",
+    "fields_required": 9
+  },
+  "semantic_features": [
+    "FIXED LOD by Segment",
+    "FIXED LOD by Segment and Month",
+    "monthly versus overall average",
+    "signed difference and percent difference",
+    "GanttBar size encoding",
+    "conditional color",
+    "field-backed per-pane reference line"
+  ],
+  "source_view": {
+    "columns": ["MONTH(Order Date)"],
+    "rows": ["Segment", "Avg Orders Per Day Per Segment Per Month"],
+    "mark": "GanttBar",
+    "encodings": ["color", "size", "detail", "tooltip", "text"],
+    "reference_line": true
+  }
+}

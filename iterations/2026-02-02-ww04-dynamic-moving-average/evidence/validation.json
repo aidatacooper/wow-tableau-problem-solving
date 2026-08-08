@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0.0",
+  "status": "passed",
+  "artifacts": {
+    "replicated-workbook.twb": {
+      "sha256": "ab05053a916035d2fce7f4ab129d7b92208adce8a47c5b251f1a4db96e63e010",
+      "local_parse": "passed",
+      "local_xsd": "passed_with_known_tableau_compatibility_warning",
+      "tableau_cloud_semantic": {
+        "success": false,
+        "valid": false,
+        "errors": [],
+        "warnings": [],
+        "error": "HTTP 400 for the extract-backed standalone TWB; complete validation requires the packaged TWBX."
+      }
+    },
+    "replicated-workbook.twbx": {
+      "sha256": "4de4e7ab03e74bd24627d94a17113648b7d0d4e4b0bfd9497576db66b6758f79",
+      "zip_structure": "passed",
+      "original_hyper_preserved": "passed",
+      "cwtwb_open_and_resave": "passed",
+      "acceptance_after_roundtrip": "passed",
+      "tableau_cloud_publish": {
+        "success": true,
+        "workbook_id": "03c2591a-994f-45e3-905a-2623e5bd979e",
+        "views": [
+          "Dynamic Moving Average",
+          "Dynamic Moving Average Dashboard"
+        ],
+        "twbx_size_kb": 62.6
+      }
+    }
+  },
+  "acceptance": {
+    "command": "python iterations/2026-02-02-ww04-dynamic-moving-average/verify_replication.py",
+    "result": "passed"
+  },
+  "analyzer": {
+    "result": "passed",
+    "detected": [
+      "Dual Axis",
+      "ParamCtrl",
+      "Table Calculation",
+      "Line",
+      "Layout Container"
+    ]
+  },
+  "regression": {
+    "command": "PYTHONPATH=src python -m pytest tests -q --basetemp .tmp_test_outputs/ww04-full-c",
+    "passed": 316,
+    "skipped": 25,
+    "warnings": 8
+  },
+  "notes": [
+    "The strict XSD checker reported the repository's known Tableau-compatible top-level content-model warning; the validation command returned success.",
+    "The previous cloud result applied to the discarded reference-datasource artifact and is not reused.",
+    "The authorized TWBX publish succeeded and Tableau Cloud enumerated both the worksheet and dashboard."
+  ]
+}

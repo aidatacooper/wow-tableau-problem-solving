@@ -1,0 +1,94 @@
+# Tableau Public 链接映射报告
+
+> 来源: `posts/*.html` (342 篇)  |  生成自 `gen_links_map.py`
+
+## 汇总
+
+| 指标 | 数值 |
+|---|---|
+| 文章总数 | 342 |
+| 含 public 链接的文章 | 337 |
+| 无 public 链接的文章 | 5 |
+| 独立 public 链接总数 | 393 |
+| 独立 workbook 数 | 370 |
+
+## 每篇文章的链接数分布
+
+| 每篇链接数 | 文章数 |
+|---|---|
+| 0 | 5 |
+| 1 | 284 |
+| 2 | 48 |
+| 3 | 4 |
+| 4 | 1 |
+
+## 含 ≥2 个链接的文章 (53 篇)
+
+| 文章 | 链接数 |
+|---|---|
+| 2019-08-09-Can_you_create_step_area_charts | 2 |
+| 2019-10-25-Show_me_all_the_casinos_within_a_certain_distance_from_another | 2 |
+| 2019-11-01-Can_you_build_a_Sales_calendar_with_top_3_highlighting | 2 |
+| 2019-12-02-Can_you_build_a_bar_chart_that_automatically_combines_small_contributions | 2 |
+| 2020-01-04-Can_you_sort_dimensions_with_a_single_click | 2 |
+| 2020-02-02-Where_do_regions_rank_month_to_month | 3 |
+| 2020-02-16-What_happens_if_Can_you_update_sales_forecast_and_targets_using_only_parameters | 2 |
+| 2020-05-29-Profitability_Spotlight_–_is_your_budget_recovered | 2 |
+| 2020-07-24-Can_you_create_a_drill_down_using_set_actions | 2 |
+| 2021-03-04-Can_you_hide_a_chart_in_map_layers | 2 |
+| 2021-03-25-Can_you_do_Comparative_Quantity_Analysis | 2 |
+| 2021-06-03-Can_you_structure_the_unstructured | 4 |
+| 2021-06-25-Can_you_make_Spine_Charts | 2 |
+| 2021-07-23-Can_you_rebuild_the_Olympic_Schedule | 2 |
+| 2021-11-25-Thanksgiving_Day_NFL_Games | 2 |
+| 2021-12-12-Which_Sub-Categories_are_frequently_ordered_together | 2 |
+| 2021-12-16-Can_you_recreate_this_drill_down | 2 |
+| 2022-01-20-Can_you_visualise_percent_difference_from_a_selected_date | 2 |
+| 2022-02-11-Adding_Detail_&_Context | 2 |
+| 2022-02-17-Adding_more_detail_&_context | 2 |
+| 2022-02-24-Let’s_switch_those_measures! | 3 |
+| 2022-04-07-Can_you_track_headcount | 2 |
+| 2022-04-14-Filter_Challenge_How_well_do_you_know_Tableau’s_Order_of_Operations | 2 |
+| 2022-04-28-Can_you_switch_between_KPIs | 2 |
+| 2022-07-15-Can_you_build_a_butterfly_chart | 2 |
+| 2022-10-13-Can_you_do_YoY_comparisons | 2 |
+| 2022-10-23-Can_you_use_Tableau_to_estimate_Aaron_Judge’s_home_run_trajectories | 2 |
+| 2022-11-17-Let’s_Build_a_Map! | 2 |
+| 2022-12-09-Can_you_make_a_pie_chart | 2 |
+| 2023-02-09-Can_you_create_a_normalised_jitter_plot | 2 |
+| 2023-02-23-Can_you_build_a_comet_chart_as_an_alternative_to_a_side_by_side_bar_chart | 2 |
+| 2023-03-02-A_tricky_filter | 2 |
+| 2023-04-20-Can_you_build_an_insightful_text_table | 2 |
+| 2023-05-18-Can_you_build_a_heat_map_with_bathymetry_lines | 2 |
+| 2023-07-06-Re-viz_Discovery_Dashboard | 2 |
+| 2023-07-27-Can_you_build_a_dynamic_drill_down_scatterplot_in_one_view | 2 |
+| 2023-09-01-Can_you_build_an_interactive_Viz_in_Tooltip | 2 |
+| 2023-09-08-Can_you_build_a_dashboard_for_pre-aggregated_metrics | 2 |
+| 2023-10-13-Can_you_build_a_flexible_tabular_display | 2 |
+| 2024-02-09-Top_&_Bottom_Variance | 2 |
+| 2024-03-14-Can_you_filter_a_small_multiples_chart | 3 |
+| 2024-03-28-Can_you_build_this_segmented_bar_chart | 2 |
+| 2024-04-04-Can_you_build_a_trellis_of_Profit_Ratio_Gauges | 2 |
+| 2024-05-10-Can_you_expand_this_segmented_bar_chart | 2 |
+| 2025-02-28-Binary_Parameters | 2 |
+| 2025-04-11-Visualising_population_by_age_and_gender_in_a_population_pyramid | 3 |
+| 2025-04-27-Can_you_swap_measures | 2 |
+| 2025-07-26-Can_you_highlight_a_treemap | 2 |
+| 2025-10-25-Can_you_build_a_ranked_heatmap_tile | 2 |
+| 2025-11-03-Can_you_build_a_satellite_chart_to_represent_values_exceeding_100% | 2 |
+| 2026-04-20-Mekko_charts_&_Offset_Labels | 2 |
+| 2026-04-27-Can_you_build_a_radar_chart_with_map_layers | 2 |
+| 2026-05-11-Let’s_Visualise_TC25!_(#TC26_Live_Edition) | 2 |
+
+## 无 public 链接的文章
+
+- 2019-07-16-Taking_the_plunge
+- 2021-05-06-Can_you_performance_tune_this_workbook
+- 2022-05-09-This_is_me
+- 2023-10-05-Let’s_Analyse_New_Product_Sales
+- 2024-10-21-Let’s_play_with_Table(au)_Extensions!
+
+## 说明
+
+- `viz_url` 为规范化后的 `https://public.tableau.com/views/{workbook}/{view}`，可直接作为截图下载器的输入。
+- 完整逐项数据见 `public_links_map.json`；平铺表格见 `public_links_map.csv`。

@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0.0",
+  "status": "passed",
+  "artifacts": {
+    "replicated-workbook.twb": {
+      "sha256": "2a1e894b799f1e478ff7be8a799ae28e33ad46a4c4991e349e3575aeea3d415a",
+      "local_parse": "passed",
+      "local_xsd": "passed_with_known_tableau_compatibility_warning",
+      "tableau_cloud_semantic": {
+        "success": false,
+        "valid": false,
+        "errors": [],
+        "warnings": [],
+        "error": "Complete semantic validation requires the packaged TWBX because the datasource uses its bundled Hyper extract."
+      }
+    },
+    "replicated-workbook.twbx": {
+      "sha256": "495e203e68fe9c7381806290128274a3891a52a3a06beab1ba8695bdd2bc466d",
+      "zip_structure": "passed",
+      "original_hyper_preserved": "passed",
+      "cwtwb_open_and_resave": "passed",
+      "acceptance_after_roundtrip": "passed",
+      "tableau_cloud_publish": {
+        "success": true,
+        "workbook_id": "9ce42bbd-72a6-4246-87e2-6ab7e1052bcd",
+        "views": [
+          "Period Trend",
+          "KPI Summary",
+          "KPI Trend Monitor"
+        ],
+        "twbx_size_kb": 387.0
+      }
+    }
+  },
+  "acceptance": {
+    "command": "python iterations/2026-02-09-ww05-kpi-period-comparison/verify_replication.py",
+    "result": "passed"
+  },
+  "analyzer": {
+    "result": "passed",
+    "detected": [
+      "Dual Axis",
+      "ParamCtrl",
+      "Line",
+      "Text",
+      "Color",
+      "Layout Container"
+    ]
+  },
+  "regression": {
+    "command": "PYTHONPATH=src python -m pytest tests -q --basetemp .tmp_test_outputs/ww05-full",
+    "passed": 316,
+    "skipped": 25,
+    "warnings": 8
+  },
+  "notes": [
+    "The strict XSD checker reported the known Tableau-compatible top-level content-model warning; the validation command returned success.",
+    "The previous cloud result applied to the discarded reference-datasource artifact and is not reused.",
+    "The authorized TWBX publish succeeded and Tableau Cloud enumerated both worksheets and the dashboard.",
+    "The transparent custom shape was replaced by a Text mark without changing KPI semantics."
+  ]
+}

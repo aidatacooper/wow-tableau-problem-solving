@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "worksheets": [
+    "Cities",
+    "Customers",
+    "Orders",
+    "Products",
+    "by City",
+    "by Customer",
+    "by Order",
+    "by Product "
+  ],
+  "dashboards": [
+    "4 Box KPI",
+    "City Sales",
+    "Customer Sales",
+    "Order Sales",
+    "Product Sales"
+  ],
+  "datasource": {
+    "packaged_asset": "Data/Datasources/Orders (Sample - Superstore).hyper",
+    "size_bytes": 983040
+  },
+  "calculated_fields": [
+    "# Customers",
+    "# Products",
+    "# Orders",
+    "# Cities",
+    "City State UPPER",
+    "Cust Name UPPER",
+    "Product Name UPPER"
+  ],
+  "semantic_features": [
+    "four independent COUNTD KPI worksheets",
+    "four ranked Sales detail worksheets",
+    "four native nav-action Go To Sheet actions",
+    "four dashboard-object GO BACK buttons",
+    "five-dashboard navigation topology"
+  ]
+}

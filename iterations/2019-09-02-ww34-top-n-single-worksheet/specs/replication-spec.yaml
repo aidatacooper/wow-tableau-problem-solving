@@ -1,0 +1,148 @@
+# Replication Spec — 2019 WW34 Top N Bar Chart on a Single Worksheet
+
+build_entry:
+  strategy: reuse_original_hyper_only
+  forbidden:
+    - open_existing(author_twbx)
+    - shutil.copy(author_twbx, output)
+    - copy complete author Worksheet or Dashboard XML subtrees
+  note: The published source has no set definitions, so all sets must be created from scratch.
+
+parameters:
+  - name: Top n Manufacturers
+    datatype: integer
+    default: 15
+    domain_type: range
+    min: 1
+    max: 100
+
+  - name: Include Other
+    datatype: boolean
+    default: false
+    domain_type: list
+    allowed_values: [true, false]
+    allowed_aliases:
+      "true": YES
+      "false": NO
+
+sets:
+  - name: Top Central
+    dimension: Manufacturer
+    basis_field: Central - Qty
+    aggregation: Sum
+    top_n_from: parameter Top n Manufacturers
+  - name: Top East
+    dimension: Manufacturer
+    basis_field: East - Qty
+    aggregation: Sum
+    top_n_from: parameter Top n Manufacturers
+  - name: Top South
+    dimension: Manufacturer
+    basis_field: South - Qty
+    aggregation: Sum
+    top_n_from: parameter Top n Manufacturers
+  - name: Top West
+    dimension: Manufacturer
+    basis_field: West - Qty
+    aggregation: Sum
+    top_n_from: parameter Top n Manufacturers
+  - name: Highlighted Manufacturer
+    dimension: Manfacturer Category
+    note: Set Action target; populated on hover and cleared with exclude-all.
+
+calculations:
+  - name: Manufacturer
+    formula: "MID([Product Name],1, FINDNTH([Product Name],' ',1)-1)"
+    datatype: string
+  - name: Central - Qty
+    formula: "IF [Region] = 'Central' THEN [Quantity] END"
+    datatype: integer
+  - name: East - Qty
+    formula: "IF [Region] = 'East' THEN [Quantity] END"
+    datatype: integer
+  - name: South - Qty
+    formula: "IF [Region] = 'South' THEN [Quantity] END"
+    datatype: integer
+  - name: West - Qty
+    formula: "IF [Region] = 'West' THEN [Quantity] END"
+    datatype: integer
+  - name: Manfacturer Category
+    formula: "IF [Region]='Central' AND [Top Central] THEN [Manufacturer] ELSEIF [Region]='East' AND [Top East] THEN [Manufacturer] ELSEIF [Region]='South' AND [Top South] THEN [Manufacturer] ELSEIF [Region]='West' AND [Top West] THEN [Manufacturer] ELSE 'Other' END"
+    datatype: string
+  - name: Index
+    formula: "INDEX()"
+    datatype: integer
+    table_calc: Rows
+  - name: FILTER Index
+    formula: "[Index] <= [Top n Manufacturers]"
+    datatype: boolean
+  - name: FILTER - Other
+    formula: "NOT([Include Other]) AND [Manfacturer Category] = 'Other'"
+    datatype: boolean
+  - name: Index Rank
+    formula: "'(#' + STR([Index]) + ')'"
+    datatype: string
+  - name: Manufacturer + Rank
+    formula: "ATTR([Manfacturer Category]) + ' ' + [Index Rank]"
+    datatype: string
+  - name: LABEL:Manufacturer
+    formula: "IF ATTR([Highlighted Manufacturer]) THEN [Manufacturer + Rank] ELSE ATTR([Manfacturer Category]) END"
+    datatype: string
+  - name: MIN(0)
+    formula: "MIN(0)"
+    datatype: integer
+
+worksheets:
+  - name: Viz
+    technique: dual_axis (configure_dual_axis)
+    rows: [Index]
+    cols: [Region, MIN(0), SUM(Quantity)]
+    axis: synchronized dual axis on columns
+    pane_marks:
+      - Automatic   # Region + Category header (row header pane)
+      - Bar         # Quantity bars on SUM(Quantity).
+      - GanttBar    # Hover label layer on the MIN(0) axis.
+    color: Region
+    filters:
+      - FILTER - Other = False    # Hide Other when Include Other is NO.
+      - FILTER Index = True       # Display only Index <= Top n.
+    behaviors:
+      - per_region_top_n
+      - other_bucket
+      - index_driven_row_limit
+      - hover_rank_highlight
+
+dashboard:
+  name: 2019_08_21_WW34_TopN_Single_Sheet
+  visible_sheets: [Viz]
+  layout: Main Viz, right-side parameter controls, and footer attribution.
+  controls:
+    - paramctrl: Include Other (compact)
+    - paramctrl: Top n Manufacturers (type_in)
+
+actions:
+  - type: edit_group (set action)
+    caption: Highlight Rank
+    source: Viz (dashboard 2019_08_21_WW34_TopN_Single_Sheet)
+    event: on-hover
+    target_set: Highlighted Manufacturer
+    clear: exclude-all
+
+acceptance_scenarios:
+  - set_parameter:
+      Top n Manufacturers: 10
+      Include Other: false
+    expect:
+      rows_per_region: 10
+      visible_worksheets: 1
+      no_other_row_when_hidden: true
+  - set_parameter:
+      Include Other: true
+    expect:
+      rows_per_region: 11   # Top 10 plus Other.
+      other_present: true
+  - hover:
+      target: bar
+    expect:
+      label_shows_rank: "LABEL:Manufacturer includes the (#N) suffix"
+      set_action_targets_highlighted_manufacturer: true

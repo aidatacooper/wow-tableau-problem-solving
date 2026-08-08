@@ -1,0 +1,37 @@
+schema_version: 1.0.0
+datasource:
+  hyper: inputs/Orders (Sample - Superstore).hyper
+parameters:
+  - name: Highlight Threshold
+    datatype: integer
+    default: 30
+calculations:
+  - name: Profit Ratio
+    formula: SUM([Profit]) / SUM([Sales])
+  - name: Total Sales for Year & Category
+    formula: '{FIXED YEAR([Order Date]), [Sub-Category]: SUM([Sales])}'
+  - name: % Sales for Selected Region
+    formula: 'SUM([Sales])/SUM([Total Sales for Year & Category])'
+  - name: % Sales All Others
+    formula: '1 - [% Sales for Selected Region]'
+  - name: Highlight
+    formula: '[% Sales for Selected Region] > ([Parameters].[Highlight Threshold]/100)'
+worksheets:
+  - name: Bar
+    mark: Bar
+    columns: [Region]
+    rows: ["SUM([Sales])"]
+  - name: Data
+    mark: Text
+    columns: [Region]
+    rows: ["ATTR([Sub-Category])"]
+  - name: Table
+    mark: Text
+    columns: [Region]
+    rows: ["ATTR([Sub-Category])"]
+  - name: Title
+    mark: Text
+dashboard:
+  name: 2019_08_14_WW33_Table_Formatting
+  width: 1127
+  height: 656

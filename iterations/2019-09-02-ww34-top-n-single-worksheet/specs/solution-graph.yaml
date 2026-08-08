@@ -1,0 +1,54 @@
+# Solution Graph — 2019 WW34 Top N Bar Chart on a Single Worksheet
+
+business_requirement: Show an independent Top N manufacturer list and optional Other bucket for each region on one worksheet, with rank on hover.
+data_domain: Author Hyper data containing Product Name, Region, and Quantity.
+
+nodes:
+  - {id: original_hyper, type: data, classification: required, note: The only reusable source asset.}
+  - {id: manufacturer, type: calculation, classification: required, formula: "MID([Product Name],1, FINDNTH([Product Name],' ',1)-1)"}
+  - {id: top_n_param, type: parameter, classification: required, datatype: integer, default: 15}
+  - {id: include_other_param, type: parameter, classification: required, datatype: boolean, default: false}
+  - id: region_sets
+    type: set_group
+    classification: required
+    members: [Top Central, Top East, Top South, Top West]
+    note: Each set independently selects manufacturers by regional SUM(Quantity).
+  - {id: manufacturer_category, type: calculation, classification: required, formula: "IF [Region]='Central' AND [Top Central] THEN [Manufacturer] ELSEIF ... ELSE 'Other' END"}
+  - {id: index_tc, type: table_calculation, classification: required, formula: "INDEX()", note: Rank within each region by descending quantity.}
+  - {id: filter_index, type: calculation, classification: required, formula: "[Index] <= [Top n Manufacturers]"}
+  - {id: filter_other, type: calculation, classification: required, formula: "NOT([Include Other]) AND [Manfacturer Category]='Other'"}
+  - {id: index_rank, type: calculation, classification: required, formula: "'(#' + STR([Index]) + ')'"}
+  - {id: manufacturer_rank, type: calculation, classification: required, formula: "ATTR([Manfacturer Category]) + ' ' + [Index Rank]"}
+  - {id: highlighted_set, type: set, classification: required, note: Populated and cleared by the hover Set Action.}
+  - {id: label_manufacturer, type: calculation, classification: required, formula: "IF ATTR([Highlighted Manufacturer]) THEN [Manufacturer + Rank] ELSE ATTR([Manfacturer Category]) END"}
+  - {id: min0_axis, type: calculation, classification: replaceable, formula: "MIN(0)", note: Constant axis for the GanttBar label layer.}
+  - id: viz_worksheet
+    type: worksheet
+    classification: required
+    rows: [Index]
+    cols: [Region, MIN(0), SUM(Quantity)]
+    panes: [Automatic(header), Bar(Quantity), GanttBar(LABEL:Manufacturer)]
+    technique: Synchronized dual axis with the hover label on the GanttBar layer.
+  - {id: data_sheet, type: worksheet, classification: replaceable, note: Optional hidden audit sheet.}
+  - id: dashboard
+    type: dashboard
+    classification: required
+    visible_sheets: [viz_worksheet]
+    controls: [Top n Manufacturers, Include Other]
+    actions: [Highlight Rank Set Action]
+
+edges:
+  - {from: original_hyper, to: manufacturer, effect: Supplies Product Name.}
+  - {from: original_hyper, to: region_sets, effect: Supplies Region and Quantity.}
+  - {from: top_n_param, to: region_sets, effect: Controls set size.}
+  - {from: region_sets, to: manufacturer_category, effect: Selects Manufacturer or Other.}
+  - {from: top_n_param, to: filter_index, effect: Limits visible rows.}
+  - {from: include_other_param, to: filter_other, effect: Controls Other visibility.}
+  - {from: index_tc, to: index_rank, effect: Supplies rank number.}
+  - {from: index_rank, to: manufacturer_rank, effect: Builds ranked label.}
+  - {from: manufacturer_rank, to: label_manufacturer, effect: Supplies hover label.}
+  - {from: highlighted_set, to: label_manufacturer, effect: Switches label on hover.}
+  - {from: label_manufacturer, to: viz_worksheet, effect: Supplies GanttBar text.}
+  - {from: min0_axis, to: viz_worksheet, effect: Supplies the label axis.}
+  - {from: viz_worksheet, to: dashboard, effect: Supplies the main view.}
+  - {from: dashboard, to: highlighted_set, effect: Populates the set on hover.}
