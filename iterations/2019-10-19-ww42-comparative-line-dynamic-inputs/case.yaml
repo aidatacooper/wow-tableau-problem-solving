@@ -1,0 +1,25 @@
+schema_version: 1.0.0
+case_id: ww42-comparative-line-dynamic-inputs
+iteration_id: 2019-10-19-ww42-comparative-line-dynamic-inputs
+post: posts/2019-10-19-Can_you_build_a_comparative_line_chart_with_dynamic_inputs.html
+
+cwtwb:
+  tested_version: 0.26.0
+
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: pass
+
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+    - inputs/TEMP_08h6t241ntmu8h19ojovs0s701rc.hyper
+
+acceptance:
+  - Changing the selected date or range recalculates current and prior
+    equal-length sales periods on the comparison line.
+
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []

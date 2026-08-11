@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "status": "passed",
   "artifacts": {
-    "replicated-workbook.twb": {
+    "2026-02-15-ww06-null-safe-averages-replicated-workbook.twb": {
       "sha256": "762471072d160d48b7dc5aa07687f714c47db895ba560f23ae52b51d93be2ecc",
       "local_parse": "passed",
       "local_xsd": "passed_with_known_tableau_compatibility_warning",
@@ -13,7 +13,7 @@
         "last_error": "HTTP 400 from the TWB-only validation endpoint"
       }
     },
-    "replicated-workbook.twbx": {
+    "2026-02-15-ww06-null-safe-averages-replicated-workbook.twbx": {
       "sha256": "5b091a2f05eeb0b364914466cae248551bf717133430322ab6a1392a2c4def90",
       "zip_structure": "passed",
       "bundled_hyper_present": true,

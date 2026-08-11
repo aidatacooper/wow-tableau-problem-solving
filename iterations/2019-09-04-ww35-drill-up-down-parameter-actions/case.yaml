@@ -1,0 +1,25 @@
+schema_version: 1.0.0
+case_id: ww35-drill-up-down-parameter-actions
+iteration_id: 2019-09-04-ww35-drill-up-down-parameter-actions
+post: posts/2019-09-04-Drill_Up_and_Down_with_Parameter_Actions.html
+
+cwtwb:
+  tested_version: 0.26.0
+
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: pass
+
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+    - inputs/Orders (Sample - Superstore).hyper
+
+acceptance:
+  - The Select Category and Level Param parameters control whether the view
+    shows category totals or the selected category's sub-category detail.
+
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []

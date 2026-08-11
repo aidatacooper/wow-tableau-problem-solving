@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "status": "passed",
   "artifacts": {
-    "replicated-workbook.twb": {
+    "2026-02-09-ww05-kpi-period-comparison-replicated-workbook.twb": {
       "sha256": "3af83fc097571cb9ba38796f92b552d46c0360643f5f8a610624f2326c6512b8",
       "local_parse": "passed",
       "local_xsd": "passed_with_known_tableau_compatibility_warning",
@@ -14,7 +14,7 @@
         "error": "Complete semantic validation requires the packaged TWBX because the datasource uses its bundled Hyper extract."
       }
     },
-    "replicated-workbook.twbx": {
+    "2026-02-09-ww05-kpi-period-comparison-replicated-workbook.twbx": {
       "sha256": "ab095c94594f02547e75a6fd58adceb90248eba0372e8d5e1483e227cac13be4",
       "zip_structure": "passed",
       "original_hyper_preserved": "passed",

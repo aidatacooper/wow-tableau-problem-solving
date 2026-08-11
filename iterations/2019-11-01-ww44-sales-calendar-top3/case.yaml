@@ -1,0 +1,26 @@
+schema_version: 1.0.0
+case_id: ww44-sales-calendar-top3
+iteration_id: 2019-11-01-ww44-sales-calendar-top3
+post: posts/2019-11-01-Can_you_build_a_Sales_calendar_with_top_3_highlighting.html
+
+cwtwb:
+  tested_version: 0.26.0
+
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: pass
+
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+    - inputs/Date Scaffold (DateScaffoldWW44).hyper
+    - inputs/Orders (Sample - Superstore).hyper
+
+acceptance:
+  - Selecting a year renders a week-by-week sales calendar and the Top-3
+    parameter controls monthly-sales highlighting.
+
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []

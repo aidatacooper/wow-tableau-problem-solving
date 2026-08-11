@@ -242,5 +242,5 @@ def build(output_path: Path) -> Path:
 
 
 if __name__ == "__main__":
-    for filename in ("replicated-workbook.twb", "replicated-workbook.twbx"):
+    for filename in ("2019-07-25-ww30-navigation-kpi-replicated-workbook.twb", "2019-07-25-ww30-navigation-kpi-replicated-workbook.twbx"):
         print(build(OUTPUT_DIR / filename))

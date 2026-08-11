@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-08-10",
+  "source_workbook": {
+    "filename": "2019_09_11_WW37_Rounded_Bar_Chart.twbx",
+    "bytes": 389933,
+    "sha256": "04a43544df0ad96c47cddbd39c0f4c7c015fd782d8f4cb1612b7ee1ff568f497",
+    "url": null
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/TableauTemp/TEMP_0r5f8iq03llari143avrk06vc5lm.hyper",
+      "file": "inputs/TEMP_0r5f8iq03llari143avrk06vc5lm.hyper",
+      "bytes": 983040,
+      "sha256": "46ba9465c44c4483f814c1d461415b672faed3847bf18e44fc8a45625d05008f"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

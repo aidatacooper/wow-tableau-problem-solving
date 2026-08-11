@@ -7,7 +7,7 @@ from lxml import etree
 ROOT = Path(__file__).resolve().parent
 
 def main() -> int:
-    twb = ROOT / "outputs" / "replicated-workbook.twb"
+    twb = ROOT / "outputs" / "2019-08-14-ww33-table-formatting-replicated-workbook.twb"
     result = {"gate": "local_structure", "passed": False, "checks": {}}
     if not twb.exists():
         result["reason"] = "output missing"

@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-08-10",
+  "source_workbook": {
+    "filename": "2019_10_02_WW40_Show_Hide_Charts.twbx",
+    "bytes": 383565,
+    "sha256": "f0cab8322a20c7d61f9feb15683ba962a02dbbc11e2543869dc9c8578fa13b5e",
+    "url": null
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Datasources/Orders (Sample - Superstore).hyper",
+      "file": "inputs/Orders (Sample - Superstore).hyper",
+      "bytes": 983040,
+      "sha256": "a22dedc1c07e9a0a133678a55f1a826e03b69fa01573fee1f2f24393d180e666"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

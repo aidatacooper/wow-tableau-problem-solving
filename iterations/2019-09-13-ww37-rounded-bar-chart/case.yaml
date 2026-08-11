@@ -1,0 +1,25 @@
+schema_version: 1.0.0
+case_id: ww37-rounded-bar-chart
+iteration_id: 2019-09-13-ww37-rounded-bar-chart
+post: posts/2019-09-13-Rounded_Bar_Charts_What_%_of_Sales_is_from_the_East_Region.html
+
+cwtwb:
+  tested_version: 0.26.0
+
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: pass
+
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+    - inputs/TEMP_0r5f8iq03llari143avrk06vc5lm.hyper
+
+acceptance:
+  - Selecting a region changes the selected-region sales and percentage label
+    for each sub-category while total sales remains the comparison baseline.
+
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []

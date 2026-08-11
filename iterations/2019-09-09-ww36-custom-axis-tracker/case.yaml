@@ -1,0 +1,35 @@
+schema_version: 1.0.0
+case_id: ww36-custom-axis-tracker
+iteration_id: 2019-09-09-ww36-custom-axis-tracker
+post: posts/2019-09-09-Custom_Axis_with_a_tracking_reference_line.html
+
+cwtwb:
+  tested_version: 0.26.0
+
+analysis_status: completed
+functional_status: partial
+visual_status: not_evaluated
+cwtwb_result: pass
+
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+    - inputs/Orders (Sample - Superstore).hyper
+
+acceptance:
+  - The line chart retains a maximum Sales reference line.
+  - Hovering Custom Axis updates Selected Date Set and shows the matching
+    vertical date and horizontal Sales reference lines on Line Chart.
+  - Moving off Custom Axis clears the set and removes the two tracked lines.
+  - Custom Axis labels quarter starts and the final available month.
+  - Custom Axis uses m-yyyy dates, hidden axes, centered 8pt gray labels,
+    60-pixel cells, and the original teal/white circle palette and mark size.
+  - Custom Axis tooltips show a bold 9pt month followed by Sales and a bold
+    aggregated value in gray.
+  - Line Chart uses the original teal line/markers, 8pt axis labels, formatted
+    tooltip, and three dotted teal reference lines.
+  - Custom Axis and Line Chart titles are hidden on the dashboard.
+
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []

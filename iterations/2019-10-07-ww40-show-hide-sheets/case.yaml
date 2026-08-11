@@ -1,0 +1,25 @@
+schema_version: 1.0.0
+case_id: ww40-show-hide-sheets
+iteration_id: 2019-10-07-ww40-show-hide-sheets
+post: posts/2019-10-07-Can_you_show_and_hide_your_sheets.html
+
+cwtwb:
+  tested_version: 0.26.0
+
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: pass
+
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+    - inputs/Orders (Sample - Superstore).hyper
+
+acceptance:
+  - Area, Bar, and Line presentations exist for the same monthly sales and
+    the display-type parameter is packaged with the dashboard.
+
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []

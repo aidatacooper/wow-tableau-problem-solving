@@ -11,7 +11,9 @@ from pathlib import Path
 
 # ── Path resolution ──────────────────────────────────────────────────
 ITERATION_DIR = Path(__file__).resolve().parent
-REPO_ROOT = ITERATION_DIR.parents[4]
+# The iteration lives in the nested WoW repository, while the SDK source is
+# provided by the sibling cwtwb repository two levels above ``iterations``.
+REPO_ROOT = ITERATION_DIR.parents[2]
 SRC = REPO_ROOT / "src"
 sys.path.insert(0, str(SRC))
 
@@ -375,8 +377,8 @@ def build() -> dict:
         worksheet_names=["Title", "Table", "Bar"],
     )
 
-    twb_path = OUTPUT_DIR / "replicated-workbook.twb"
-    twbx_path = OUTPUT_DIR / "replicated-workbook.twbx"
+    twb_path = OUTPUT_DIR / "2019-08-14-ww33-table-formatting-replicated-workbook.twb"
+    twbx_path = OUTPUT_DIR / "2019-08-14-ww33-table-formatting-replicated-workbook.twbx"
     editor.save(twb_path)
     editor.save(twbx_path)
 

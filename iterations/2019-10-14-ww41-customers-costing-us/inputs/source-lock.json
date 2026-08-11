@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-08-10",
+  "source_workbook": {
+    "filename": "2019_10_09_WW41_Scatter_Table.twbx",
+    "bytes": 380168,
+    "sha256": "3aba4dad950f9179648026a58cd920277caf7c2b35b8e0fdd68c13b17bfb2735",
+    "url": null
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Datasources/Orders (Sample - Superstore).hyper",
+      "file": "inputs/Orders (Sample - Superstore).hyper",
+      "bytes": 983040,
+      "sha256": "31653a7cb9b3f1a59443cad8ee54cf48d8917cd965e5fed0fb0a89209e9a2bcc"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

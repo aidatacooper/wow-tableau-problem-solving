@@ -15,8 +15,8 @@ sys.path.insert(0, str(PROJECT_ROOT / "src"))
 from cwtwb.twb_editor import TWBEditor  # noqa: E402
 
 
-OUTPUT_TWB = ITERATION_DIR / "outputs" / "replicated-workbook.twb"
-OUTPUT_TWBX = ITERATION_DIR / "outputs" / "replicated-workbook.twbx"
+OUTPUT_TWB = ITERATION_DIR / "outputs" / "2019-08-04-ww31-hub-spoke-map-replicated-workbook.twb"
+OUTPUT_TWBX = ITERATION_DIR / "outputs" / "2019-08-04-ww31-hub-spoke-map-replicated-workbook.twbx"
 DASHBOARD = "2019 WW31 Music Data Hub & Spoke"
 MAPS = {
     "Routes — North & South America",

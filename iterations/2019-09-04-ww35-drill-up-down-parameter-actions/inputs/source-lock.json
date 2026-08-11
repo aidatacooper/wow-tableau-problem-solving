@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-08-10",
+  "source_workbook": {
+    "filename": "2019_08_28_WW35_Drill_Up_Drill_Down_Param_Actions.twbx",
+    "bytes": 328950,
+    "sha256": "245dfc5e4247c18bfb749819437b64f884a1b369f3385ee2f673c2b820553422",
+    "url": null
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Datasources/Orders (Sample - Superstore).hyper",
+      "file": "inputs/Orders (Sample - Superstore).hyper",
+      "bytes": 851968,
+      "sha256": "c3b4286555c5b382fbee32a0e19a1d3ee9d824f5bf3872c7fd5746394f9e1193"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

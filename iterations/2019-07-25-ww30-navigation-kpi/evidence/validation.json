@@ -2,12 +2,12 @@
   "schema_version": "1.0.0",
   "status": "passed",
   "artifacts": {
-    "replicated-workbook.twb": {
-      "sha256": "4ad6bb1cf2bfd0bf1726380e101091a3196751ef6df03553e36b3ed02d7b2d64",
+    "2019-07-25-ww30-navigation-kpi-replicated-workbook.twb": {
+      "sha256": "ea48426a034888d532a8e767aea25ba816fff483f8c1520238e56ab648655713",
       "local_parse": "passed"
     },
-    "replicated-workbook.twbx": {
-      "sha256": "7e1a1b4737f51c5ae32f8373e85239f5c976b7444c56b7c9d0a87313dee1eb0d",
+    "2019-07-25-ww30-navigation-kpi-replicated-workbook.twbx": {
+      "sha256": "6e600936f8e078a29159a8aa4c9fb2360ddee42eb44ffe8b84df24cc1c0d17dc",
       "zip_structure": "passed",
       "original_hyper_preserved": "passed",
       "cwtwb_open_and_resave": "passed",

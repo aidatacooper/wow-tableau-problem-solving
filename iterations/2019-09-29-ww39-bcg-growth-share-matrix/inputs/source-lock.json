@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-08-10",
+  "source_workbook": {
+    "filename": "2019_09_25_WW38_BCG_Growth_Share_Matrix.twbx",
+    "bytes": 361852,
+    "sha256": "09c28714e5a185fac0778bf5ec5ed10b71e2b0a83a453248121e77bc5bc9681f",
+    "url": null
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/TableauTemp/TEMP_1y6b48807tj2ar1chpcn309k7l6o.hyper",
+      "file": "inputs/TEMP_1y6b48807tj2ar1chpcn309k7l6o.hyper",
+      "bytes": 720896,
+      "sha256": "041dbffd3ec4a2dd5f9f3f7b9ae09350ff3ba83b017d449fcbd95055be8b63ae"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

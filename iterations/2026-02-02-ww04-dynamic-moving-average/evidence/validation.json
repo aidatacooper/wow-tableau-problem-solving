@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "status": "passed",
   "artifacts": {
-    "replicated-workbook.twb": {
+    "2026-02-02-ww04-dynamic-moving-average-replicated-workbook.twb": {
       "sha256": "3f5fa7b4a0273b2c24caf155196b5a967d0f81b90ea95580706753058b984707",
       "local_parse": "passed",
       "local_xsd": "passed_with_known_tableau_compatibility_warning",
@@ -14,7 +14,7 @@
         "error": "HTTP 400 for the extract-backed standalone TWB; complete validation requires the packaged TWBX."
       }
     },
-    "replicated-workbook.twbx": {
+    "2026-02-02-ww04-dynamic-moving-average-replicated-workbook.twbx": {
       "sha256": "500a641c4a8a21158872ce55fdc636cba446f0b93874863039e2636addb8914c",
       "zip_structure": "passed",
       "original_hyper_preserved": "passed",

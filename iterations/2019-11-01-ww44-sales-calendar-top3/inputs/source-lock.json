@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-08-10",
+  "source_workbook": {
+    "filename": "2019_10_30_WW44_Calendar.twbx",
+    "bytes": 400114,
+    "sha256": "b0403f081967430ae6ef21da17c7432cb0192bb6ed14b8981af2036045867e95",
+    "url": null
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Datasources/Date Scaffold (DateScaffoldWW44).hyper",
+      "file": "inputs/Date Scaffold (DateScaffoldWW44).hyper",
+      "bytes": 65536,
+      "sha256": "79ad0889d20e532ce1dcb0e75800fc20c534b42f3e67d6d8279f9c4e0527a0ca"
+    },
+    {
+      "archive_path": "Data/Datasources/Orders (Sample - Superstore).hyper",
+      "file": "inputs/Orders (Sample - Superstore).hyper",
+      "bytes": 983040,
+      "sha256": "3b1423e21512e388a624fa09bb623b14046ed086de09f3a2604a95dc9e0c326c"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

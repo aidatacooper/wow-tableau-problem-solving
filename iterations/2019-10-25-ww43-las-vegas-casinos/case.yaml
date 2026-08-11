@@ -1,0 +1,25 @@
+schema_version: 1.0.0
+case_id: ww43-las-vegas-casinos
+iteration_id: 2019-10-25-ww43-las-vegas-casinos
+post: posts/2019-10-25-Show_me_all_the_casinos_within_a_certain_distance_from_another.html
+
+cwtwb:
+  tested_version: 0.26.0
+
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: pass
+
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+    - inputs/2019_10_23_WW43_Las Vegas Casinos.hyper
+
+acceptance:
+  - A selected casino and mile radius classify casinos as inside or outside
+    the specified distance on a map and detail table.
+
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []

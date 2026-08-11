@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-08-10",
+  "source_workbook": {
+    "filename": "2019_09_04_WW36_Custom_Axis_Ref_Line_Tracker.twbx",
+    "bytes": 262853,
+    "sha256": "95b2c2dee481699d9cbea15cfd760a3d6c4480c6dd84e38a24bb589f1fbaba85",
+    "url": null
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Datasources/Orders (Sample - Superstore).hyper",
+      "file": "inputs/Orders (Sample - Superstore).hyper",
+      "bytes": 720896,
+      "sha256": "04288f3c5a049d586edde523e0cf17d2a259ffed5a1ddb966ccf12f851b11b14"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

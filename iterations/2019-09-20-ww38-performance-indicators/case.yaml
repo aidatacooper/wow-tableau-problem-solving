@@ -1,0 +1,25 @@
+schema_version: 1.0.0
+case_id: ww38-performance-indicators
+iteration_id: 2019-09-20-ww38-performance-indicators
+post: posts/2019-09-20-Can_you_build_a_sales_comparison_chart_with_performance_indicators.html
+
+cwtwb:
+  tested_version: 0.26.0
+
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: pass
+
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+    - inputs/Orders (Sample - Superstore).hyper
+
+acceptance:
+  - Current and prior-year cumulative sales, percent change, and positive or
+    negative performance state are all observable on one dashboard.
+
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []

@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-08-10",
+  "source_workbook": {
+    "filename": "2019_10_23_WW43_LasVegasCasinos.twbx",
+    "bytes": 102980,
+    "sha256": "2e5f8eb0465f1c7132185d619af24021fe380597299eb568046d48015263a45b",
+    "url": null
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Datasources/2019_10_23_WW43_Las Vegas Casinos.hyper",
+      "file": "inputs/2019_10_23_WW43_Las Vegas Casinos.hyper",
+      "bytes": 65536,
+      "sha256": "abeca5237c727f152625ff8db7acb3618a2654b5f2bce129a046f6fbf8c57ef0"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

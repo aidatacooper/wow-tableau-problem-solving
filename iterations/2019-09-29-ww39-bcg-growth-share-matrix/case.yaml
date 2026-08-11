@@ -1,0 +1,25 @@
+schema_version: 1.0.0
+case_id: ww39-bcg-growth-share-matrix
+iteration_id: 2019-09-29-ww39-bcg-growth-share-matrix
+post: posts/2019-09-29-Can_you_create_a_BCG_growth_share_matrix_with_Sales_and_Orders.html
+
+cwtwb:
+  tested_version: 0.26.0
+
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: pass
+
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+    - inputs/TEMP_1y6b48807tj2ar1chpcn309k7l6o.hyper
+
+acceptance:
+  - A configurable year window produces sales growth, market share, and a
+    Star/Question Mark/Cash Cow/Dog classification by sub-category.
+
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []

@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-08-10",
+  "source_workbook": {
+    "filename": "2019_10_16_WW42_Date_Comparison.twbx",
+    "bytes": 396375,
+    "sha256": "2c346e68d3f468fad9828725ff10abc1c3531aa4e1a933c3ae4f840ab08c2cd3",
+    "url": null
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/TableauTemp/TEMP_08h6t241ntmu8h19ojovs0s701rc.hyper",
+      "file": "inputs/TEMP_08h6t241ntmu8h19ojovs0s701rc.hyper",
+      "bytes": 983040,
+      "sha256": "1871b85b14a05f12662e6febec2d38374abfd8a023dbeeb10bff7843e0e6a104"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

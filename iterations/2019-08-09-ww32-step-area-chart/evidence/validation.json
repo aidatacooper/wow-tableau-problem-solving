@@ -2,8 +2,8 @@
   "schema_version": "1.0.0",
   "status": "replicated",
   "artifacts": {
-    "replicated-workbook.twb": {
-      "sha256": "270e6de071f1163ca37a91f3cad8738f27887dd8bf2083cb3c0f79621d2756a7",
+    "2019-08-09-ww32-step-area-chart-replicated-workbook.twb": {
+      "sha256": "1308a3294a76d6ade70b30af31f00f316de6852404209f6d0a1dba4a1821188d",
       "local_parse": "passed",
       "source_independence": "passed",
       "semantic_validation": {
@@ -12,8 +12,8 @@
         "warnings": []
       }
     },
-    "replicated-workbook.twbx": {
-      "sha256": "20b66f4e9686b7455977e0fd5809a1169c6ee478d7f04fc651414062ec15469f",
+    "2019-08-09-ww32-step-area-chart-replicated-workbook.twbx": {
+      "sha256": "1c31a82da47aa8103f3c8dba7b6858eb0b382a5a361497a5f4ade90c4be12b22",
       "zip_structure": "passed",
       "original_hyper_preserved": "passed",
       "cwtwb_open_and_resave": "passed",

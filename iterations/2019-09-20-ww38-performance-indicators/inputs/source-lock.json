@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-08-10",
+  "source_workbook": {
+    "filename": "2019_09_18_WW38_Comparison_Performance_Indicator.twbx",
+    "bytes": 106010,
+    "sha256": "59cff39e1c4b650da4a8d5d490eb4511a0c4a37348f18bc26258bada8c87f0ac",
+    "url": null
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Datasources/Orders (Sample - Superstore).hyper",
+      "file": "inputs/Orders (Sample - Superstore).hyper",
+      "bytes": 262144,
+      "sha256": "468c05c08b4bebbc9b9c6d0d10779608cc28fd6d0818e47aaeed355469da03db"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

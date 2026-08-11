@@ -12,8 +12,8 @@ from cwtwb.twb_editor import TWBEditor  # noqa: E402
 
 
 OUTPUT_DIR = ITERATION_DIR / "outputs"
-OUTPUT_TWB = OUTPUT_DIR / "replicated-workbook.twb"
-OUTPUT_TWBX = OUTPUT_DIR / "replicated-workbook.twbx"
+OUTPUT_TWB = OUTPUT_DIR / "2026-02-02-ww04-dynamic-moving-average-replicated-workbook.twb"
+OUTPUT_TWBX = OUTPUT_DIR / "2026-02-02-ww04-dynamic-moving-average-replicated-workbook.twbx"
 SOURCE_TWBX = (
     ITERATION_DIR.parents[1]
     / "dashboards"
