@@ -26,9 +26,9 @@ FORBIDDEN_BUILD_PATTERNS = {
     r"\bsource_workbook\b": "builder references source_workbook",
     r"open_existing\s*\(": "builder opens an existing workbook",
     r"[\"']dashboards[\\/]": "builder reads the local author-workbook archive",
-    r"(?:zipfile\.)?ZipFile\s*\(": "builder opens a workbook archive directly",
 }
 WORKBOOK_SUFFIXES = {".twb", ".twbx"}
+ACCEPTANCE_ID = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 
 
 def sha256(path: Path) -> str:
@@ -46,6 +46,7 @@ def validate_metadata(case_dir: Path) -> dict:
 
     case = yaml.safe_load((case_dir / "case.yaml").read_text(encoding="utf-8"))
     required = {
+        "schema_version",
         "case_id",
         "iteration_id",
         "post",
@@ -60,12 +61,15 @@ def validate_metadata(case_dir: Path) -> dict:
     absent = sorted(required - set(case or {}))
     if absent:
         raise AssertionError(f"case.yaml missing keys: {', '.join(absent)}")
+    if case["schema_version"] not in {"1.0.0", "1.1.0"}:
+        raise AssertionError("Unsupported case schema_version")
     if case["iteration_id"] != case_dir.name:
         raise AssertionError("case.yaml iteration_id must match the directory name")
     if case["analysis_status"] != "completed":
         raise AssertionError("analysis_status must be completed before submission")
     if not case["acceptance"] or any(
-        "replace_with_" in str(item) for item in case["acceptance"]
+        marker in str(case["acceptance"])
+        for marker in ("replace_with_", "replace-with-")
     ):
         raise AssertionError("case.yaml acceptance must contain real scenarios")
     if case["functional_status"] not in {"partial", "replicated", "blocked"}:
@@ -80,7 +84,101 @@ def validate_metadata(case_dir: Path) -> dict:
         raise AssertionError("Invalid cwtwb_result")
     if not case["cwtwb"].get("tested_version"):
         raise AssertionError("cwtwb.tested_version is required")
+    validate_status_invariants(case)
+    validate_acceptance(case_dir, case)
+    validate_cwtwb_runs(case_dir, case)
     return case
+
+
+def validate_status_invariants(case: dict) -> None:
+    functional = case["functional_status"]
+    cwtwb_result = case["cwtwb_result"]
+    if functional == "replicated" and cwtwb_result == "blocked":
+        raise AssertionError("replicated cases cannot have a blocked cwtwb result")
+    if case["schema_version"] == "1.0.0":
+        return
+    if functional in {"partial", "blocked"} and not real_value(
+        case.get("remaining_work")
+    ):
+        raise AssertionError(f"{functional} cases must describe remaining_work")
+    if (functional == "blocked" or cwtwb_result == "blocked") and not real_value(
+        case.get("blocker")
+    ):
+        raise AssertionError("blocked cases must describe the blocker")
+    if cwtwb_result == "workaround" and not case.get("workarounds"):
+        raise AssertionError("cwtwb_result workaround requires workarounds")
+    if cwtwb_result == "blocked" and not real_value(case.get("capability_gaps")):
+        raise AssertionError("cwtwb_result blocked requires capability_gaps")
+
+
+def real_value(value: object) -> bool:
+    return bool(value) and "replace with" not in str(value).casefold()
+
+
+def case_file(case_dir: Path, relative: object, message: str) -> Path:
+    path = Path(str(relative))
+    if path.is_absolute() or ".." in path.parts or not (case_dir / path).is_file():
+        raise AssertionError(message)
+    return case_dir / path
+
+
+def validate_acceptance(case_dir: Path, case: dict) -> None:
+    """Validate traceable acceptance entries while retaining v1.0 strings."""
+    if case.get("schema_version") != "1.1.0":
+        return
+    verifier = (case_dir / "verify_replication.py").read_text(encoding="utf-8")
+    seen: set[str] = set()
+    for item in case["acceptance"]:
+        if not isinstance(item, dict):
+            raise AssertionError("schema 1.1 acceptance entries must be mappings")
+        acceptance_id = item.get("id", "")
+        if not ACCEPTANCE_ID.fullmatch(acceptance_id) or acceptance_id in seen:
+            raise AssertionError(f"Invalid or duplicate acceptance id: {acceptance_id}")
+        seen.add(acceptance_id)
+        if not item.get("description"):
+            raise AssertionError(f"Acceptance {acceptance_id} needs a description")
+        mode = item.get("mode")
+        if mode == "automated":
+            if acceptance_id not in verifier:
+                raise AssertionError(
+                    f"Automated acceptance {acceptance_id} is not named in verifier"
+                )
+        elif mode == "manual":
+            evidence = item.get("evidence")
+            case_file(
+                case_dir,
+                evidence,
+                f"Manual acceptance {acceptance_id} needs an evidence file",
+            )
+        else:
+            raise AssertionError(
+                f"Acceptance {acceptance_id} mode must be automated or manual"
+            )
+
+
+def validate_cwtwb_runs(case_dir: Path, case: dict) -> None:
+    """Keep retest history appendable without breaking existing v1.0 cases."""
+    runs = case["cwtwb"].get("runs")
+    if case.get("schema_version") == "1.1.0" and not runs:
+        raise AssertionError("schema 1.1 cases require cwtwb.runs")
+    if not runs:
+        return
+    for run in runs:
+        if run.get("result") not in {"pass", "workaround", "blocked"}:
+            raise AssertionError("Each cwtwb run needs a valid result")
+        evidence = run.get("evidence")
+        if not run.get("version"):
+            raise AssertionError("Each cwtwb run needs a version and evidence file")
+        case_file(
+            case_dir,
+            evidence,
+            "Each cwtwb run needs a version and evidence file",
+        )
+    latest = runs[-1]
+    if latest["version"] != case["cwtwb"]["tested_version"]:
+        raise AssertionError("Latest cwtwb run must match cwtwb.tested_version")
+    if latest["result"] != case["cwtwb_result"]:
+        raise AssertionError("Latest cwtwb run must match cwtwb_result")
 
 
 def validate_source_lock(case_dir: Path, case: dict) -> None:

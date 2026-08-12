@@ -4,6 +4,12 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+    inputs:
+      run_builders:
+        description: Rebuild and verify every v1 case
+        required: false
+        default: false
+        type: boolean
   pull_request:
     paths:
       - ".github/workflows/**"
@@ -29,3 +35,9 @@ jobs:
       - run: python -m unittest discover -s tests -v
       - if: github.event_name == 'pull_request'
         run: python scripts/validate_changed_cases.py --base-ref origin/${{ github.base_ref }}
+      - if: github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && inputs.run_builders != true)
+        run: python scripts/validate_changed_cases.py --all --metadata-only
+      - if: github.event_name == 'workflow_dispatch' && inputs.run_builders
+        run: python scripts/validate_changed_cases.py --all
+      - if: github.event_name == 'workflow_dispatch' && inputs.run_builders
+        run: git diff --exit-code -- iterations

@@ -29,6 +29,8 @@ Claim one post in a GitHub issue
 Start with [CONTRIBUTING.md](CONTRIBUTING.md). Agents also read [AGENTS.md](AGENTS.md).
 The complete protocol is in
 [`docs/protocols/community-case-contribution-v1.md`](docs/protocols/community-case-contribution-v1.md).
+The contribution guide also defines when case evidence is strong enough to
+become a separate upstream cwtwb issue or pull request.
 
 ## Prepare and validate a case
 

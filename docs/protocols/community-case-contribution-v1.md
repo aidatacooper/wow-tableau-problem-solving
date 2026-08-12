@@ -44,6 +44,10 @@ cwtwb:
 cwtwb_result: pass  # pass | workaround | blocked
 ```
 
+Schema 1.1 cases also append `cwtwb.runs` entries containing `version`,
+`result`, and a repository-relative `evidence` file. The last run must match
+`cwtwb.tested_version` and `cwtwb_result`; older runs are never overwritten.
+
 Preserve evidence from the released version before changing cwtwb:
 
 - Existing API: fix the case implementation or documentation.
@@ -54,6 +58,18 @@ Preserve evidence from the released version before changing cwtwb:
 
 A cwtwb PR must use a small synthetic fixture and must not depend on a complete
 WoW case or author-owned data.
+
+It is eligible only after a released-version baseline proves a reusable SDK
+bug or missing primitive. The contribution must keep the builder, dispatcher,
+Python facade, MCP surface, and capability registry aligned where applicable,
+and include a focused XPath regression test plus the full cwtwb test run.
+Python 3.10+ and `pip install -e ".[dev]"` are sufficient for normal work.
+The checked-out fork or branch may live locally, in Codespaces, or in another
+development environment; only small documentation changes reasonably use the
+GitHub web editor. Tableau credentials are optional unless the changed
+behavior requires cloud semantic validation, publishing, or screenshots.
+Contributors must have the right to submit the code under cwtwb's
+AGPL-3.0-or-later license.
 
 ## Pull request boundary
 
@@ -87,3 +103,9 @@ Static XML cannot prove every parameter, filter, set action, parameter action,
 or complex table calculation. When needed, test the interaction in Tableau and
 record the scenario in the PR. Visual differences block acceptance only when
 they change the business answer, interaction, or readability.
+
+Schema 1.1 gives acceptance scenarios stable IDs and marks each as `automated`
+or `manual`. Automated IDs must be named in `verify_replication.py`; manual
+IDs must point to a committed evidence file. A `partial` or `blocked` case must
+describe `remaining_work`; blocked cwtwb results must also name the blocker and
+reusable capability gap.
