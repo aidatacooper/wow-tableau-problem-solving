@@ -18,6 +18,7 @@ iterations/*/inputs/*.twbx
 run_full.log
 
 # ===== Python =====
+.venv/
 __pycache__/
 *.pyc
 

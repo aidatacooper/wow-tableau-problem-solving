@@ -13,7 +13,8 @@ def verify() -> None:
     if not OUTPUT.exists():
         raise AssertionError(f"Missing output: {OUTPUT}")
     TWBEditor.open_existing(OUTPUT)
-    # Add assertions for every acceptance scenario in case.yaml.
+    # Name every automated acceptance ID beside the assertion that proves it.
+    # acceptance: replace-with-test-id
 
 
 if __name__ == "__main__":

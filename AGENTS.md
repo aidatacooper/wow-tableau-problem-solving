@@ -55,11 +55,13 @@ Every case records:
 - `visual_status`: `not_evaluated`, `acceptable_delta`, or `matched`;
 - `cwtwb_result`: `pass`, `workaround`, or `blocked`;
 - the exact tested `cwtwb` version;
+- append-only `cwtwb.runs` history for schema 1.1 cases;
 - observable acceptance scenarios in `case.yaml`;
 - a runnable builder and verifier.
 
 A `partial` or `blocked` PR is useful when the analysis is sound and the
-failure is reproducible.
+failure is reproducible. It must state `remaining_work`; blocked SDK results
+must also identify the blocker and reusable capability gap.
 
 ## When to change cwtwb
 
@@ -73,6 +75,13 @@ with a released version.
 
 Core changes must be generic; never add APIs named for a WoW number, author,
 or individual workbook.
+
+Before opening a separate cwtwb PR, reduce the gap to a synthetic fixture that
+contains no author workbook or data. Preserve the applicable builder ->
+dispatcher -> Python facade -> MCP tool -> capability registry path and add an
+XPath regression test. Normal cwtwb development needs Python 3.10+,
+`pip install -e ".[dev]"`, and `pytest`; Tableau credentials are optional
+unless cloud validation, publishing, or screenshots are in scope.
 
 ## Verification
 

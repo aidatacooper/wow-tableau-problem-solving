@@ -30,24 +30,41 @@ def changed_iterations(base_ref: str) -> list[Path]:
     return [LAB_ROOT / "iterations" / name for name in sorted(names)]
 
 
+def all_v1_iterations() -> list[Path]:
+    cases = []
+    for case in sorted((LAB_ROOT / "iterations").iterdir()):
+        metadata = case / "case.yaml"
+        if case.name == "_template" or not metadata.is_file():
+            continue
+        document = yaml.safe_load(metadata.read_text(encoding="utf-8")) or {}
+        if "functional_status" in document:
+            cases.append(case)
+    return cases
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--base-ref", required=True)
+    source = parser.add_mutually_exclusive_group(required=True)
+    source.add_argument("--base-ref")
+    source.add_argument("--all", action="store_true")
+    parser.add_argument("--metadata-only", action="store_true")
     args = parser.parse_args()
-    cases = changed_iterations(args.base_ref)
+    cases = all_v1_iterations() if args.all else changed_iterations(args.base_ref)
     if not cases:
         print("No contributed iteration changed")
         return
     for case in cases:
         metadata = case / "case.yaml"
         if not metadata.is_file():
-            print(f"LEGACY: {case.name} has no v1 case.yaml; no new files may depend on it")
-            continue
+            raise AssertionError(
+                f"Legacy or deleted iteration changed without migration: {case.name}"
+            )
         document = yaml.safe_load(metadata.read_text(encoding="utf-8")) or {}
         if "functional_status" not in document:
-            print(f"LEGACY: {case.name} predates the v1 contribution contract")
-            continue
-        validate_iteration(case)
+            raise AssertionError(
+                f"Legacy iteration changed without v1 migration: {case.name}"
+            )
+        validate_iteration(case, run_scripts=not args.metadata_only)
         print(f"PASS: {case.name}")
 
 

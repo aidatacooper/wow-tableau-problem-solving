@@ -5,6 +5,8 @@ import unittest
 import zipfile
 from pathlib import Path
 
+import yaml
+
 
 LAB_ROOT = Path(__file__).resolve().parents[1]
 
@@ -25,13 +27,31 @@ validate_iteration = load_module(
 
 def complete_case_metadata(iteration: Path) -> None:
     path = iteration / "case.yaml"
-    text = path.read_text(encoding="utf-8")
-    text = text.replace("analysis_status: in_progress", "analysis_status: completed")
-    text = text.replace(
-        "replace_with_an_observable_functional_scenario",
-        "generated_workbook_opens",
+    document = yaml.safe_load(path.read_text(encoding="utf-8"))
+    document["analysis_status"] = "completed"
+    document["functional_status"] = "replicated"
+    document["cwtwb_result"] = "pass"
+    document["acceptance"] = [
+        {
+            "id": "generated-workbook-opens",
+            "description": "The generated workbook opens.",
+            "mode": "automated",
+        }
+    ]
+    document["cwtwb"]["runs"][-1]["result"] = "pass"
+    document.pop("remaining_work", None)
+    document.pop("blocker", None)
+    document["capability_gaps"] = []
+    path.write_text(
+        yaml.safe_dump(document, sort_keys=False, allow_unicode=True),
+        encoding="utf-8",
     )
-    path.write_text(text, encoding="utf-8")
+    verifier = iteration / "verify_replication.py"
+    verifier.write_text(
+        verifier.read_text(encoding="utf-8")
+        + "\n# acceptance: generated-workbook-opens\n",
+        encoding="utf-8",
+    )
 
 
 class ContributionWorkflowTests(unittest.TestCase):
@@ -138,8 +158,43 @@ class ContributionWorkflowTests(unittest.TestCase):
                 validate_iteration.validate_iteration(iteration, run_scripts=False)
 
             (iteration / "helper.py").unlink()
+            (iteration / "build_replication.py").write_text(
+                "from zipfile import ZipFile\n"
+                "ZipFile('outputs/generated.twbx', 'w').close()\n",
+                encoding="utf-8",
+            )
+            validate_iteration.validate_iteration(iteration, run_scripts=False)
+
             (iteration / "author.twbx").write_bytes(b"not allowed")
             with self.assertRaisesRegex(AssertionError, "outside outputs"):
+                validate_iteration.validate_iteration(iteration, run_scripts=False)
+
+    def test_validator_enforces_status_and_retest_history(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            source = root / "author.twbx"
+            with zipfile.ZipFile(source, "w") as archive:
+                archive.writestr("Data/orders.hyper", b"hyper-data")
+            iteration = prepare_case.prepare_case(
+                source=source,
+                iteration_id="2026-01-01-state",
+                case_id="state-case",
+                post="https://example.test/post",
+                iterations_root=root / "iterations",
+            )
+            complete_case_metadata(iteration)
+            metadata = iteration / "case.yaml"
+            document = yaml.safe_load(metadata.read_text(encoding="utf-8"))
+
+            document["functional_status"] = "partial"
+            metadata.write_text(yaml.safe_dump(document, sort_keys=False), encoding="utf-8")
+            with self.assertRaisesRegex(AssertionError, "remaining_work"):
+                validate_iteration.validate_iteration(iteration, run_scripts=False)
+
+            document["functional_status"] = "replicated"
+            document["cwtwb"]["runs"][-1]["version"] = "0.25.0"
+            metadata.write_text(yaml.safe_dump(document, sort_keys=False), encoding="utf-8")
+            with self.assertRaisesRegex(AssertionError, "tested_version"):
                 validate_iteration.validate_iteration(iteration, run_scripts=False)
 
 

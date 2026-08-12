@@ -1,10 +1,14 @@
-schema_version: 1.0.0
+schema_version: 1.1.0
 case_id: __CASE_ID__
 iteration_id: __ITERATION_ID__
 post: __POST__
 
 cwtwb:
   tested_version: 0.26.0
+  runs:
+    - version: 0.26.0
+      result: blocked
+      evidence: verify_replication.py
 
 analysis_status: in_progress
 functional_status: partial
@@ -16,8 +20,14 @@ inputs:
   data_files: []
 
 acceptance:
-  - replace_with_an_observable_functional_scenario
+  - id: replace-with-test-id
+    description: Replace with an observable functional scenario.
+    mode: automated
+
+remaining_work: Replace with what remains, or remove when replicated.
+blocker: Replace with the released-SDK blocker, or remove when not blocked.
 
 workarounds: []
-capability_gaps: []
+capability_gaps:
+  - Replace with the reusable gap, or clear when not blocked.
 related_cwtwb_issues: []

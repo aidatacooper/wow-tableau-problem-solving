@@ -18,6 +18,9 @@
 - [ ] `python scripts/validate_iteration.py iterations/<id>` passes.
 - [ ] The generated TWBX opens in Tableau, or the blocker is documented.
 - [ ] Parameters, filters, and actions were manually exercised when present.
+- [ ] Automated acceptance IDs are named in the verifier; manual IDs link evidence.
+- [ ] Partial/blocked results state remaining work and blocked results reproduce the gap.
+- [ ] The latest cwtwb run matches the summary version and result.
 - [ ] Visual differences that do not affect the answer are documented.
 - [ ] This PR changes one iteration and does not edit the shared usage registry.
 - [ ] The case ID and post are not already owned by another v1 iteration.
@@ -26,3 +29,6 @@
 ## cwtwb follow-up
 
 Related cwtwb issue/PR, if a reusable capability gap was found:
+
+- [ ] The gap is reusable and reproduced against a released cwtwb version.
+- [ ] Any upstream reproducer is synthetic and contains no author-owned assets.
