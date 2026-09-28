@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-09-26",
+  "source_workbook": {
+    "filename": "2019_11_06_WW45_Donut_Calendar.twbx",
+    "bytes": 447181,
+    "sha256": "8f6fe3982dee47e4d47512e2adc71152d5a8e14bac6860dd0dda0b10522f640e",
+    "url": "https://public.tableau.com/views/2019_11_06_WW45_Donut_Calendar/2019_11_06_WW45_Donut_Calendar_Single_Sheet"
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Datasources/Orders (Sample - Superstore).hyper",
+      "file": "inputs/Orders (Sample - Superstore).hyper",
+      "bytes": 983040,
+      "sha256": "f53fd152b80d0743b2c91fb71e5e8659272a59378c36ec3bdecf4eed11346e90"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

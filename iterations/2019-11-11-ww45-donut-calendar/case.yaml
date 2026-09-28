@@ -1,0 +1,42 @@
+schema_version: 1.1.0
+case_id: ww45-donut-calendar
+iteration_id: 2019-11-11-ww45-donut-calendar
+post: https://donnacoles.home.blog/2019/11/11/what-is-our-daily-fulfilment-rate-by-region/
+
+cwtwb:
+  tested_version: 0.27.0
+  runs:
+    - version: 0.27.0
+      result: pass
+      evidence: verify_replication.py
+
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: pass
+
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+    - inputs/Orders (Sample - Superstore).hyper
+
+acceptance:
+  - id: report-date-parameter
+    description: The workbook defines a Report Date date parameter defaulted to 2019-11-06.
+    mode: automated
+  - id: trailing-date-filter
+    description: Dates to Include restricts order dates to the 7-day window prior to Report Date.
+    mode: automated
+  - id: fulfilment-calculations
+    description: Has Shipped, % Shipped, Fully Shipped, and LABEL % calculations evaluate daily shipping status.
+    mode: automated
+  - id: dual-axis-donut-calendar
+    description: Donut Calendar worksheet configures a synchronized dual-axis with Pie and Circle marks for Region rows and Order Date columns.
+    mode: automated
+  - id: dashboard-composition
+    description: A dashboard presents the Donut Calendar matrix.
+    mode: automated
+
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []
