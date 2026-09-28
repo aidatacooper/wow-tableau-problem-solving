@@ -14,7 +14,6 @@ WW45 Donut Calendar 100% 纯 cwtwb 从0到1构建脚本
 """
 
 from pathlib import Path
-from lxml import etree
 from cwtwb import TWBEditor
 
 HERE = Path(__file__).resolve().parent
@@ -252,8 +251,87 @@ def build() -> Path:
         worksheet_names=["Main", "Base"],
     )
 
-    # 14. Apply visual styling refinements to editor's in-memory XML tree
-    apply_visual_refinements(editor)
+    # 14. Apply visual styling via cwtwb configure_worksheet_style
+    # 14.1 Base sheet styling
+    editor.configure_worksheet_style(
+        "Base",
+        background_color="#00000000",
+        show_column_totals=True,
+        hide_col_field_labels=True,
+        hide_row_field_labels=True,
+        panes_style={
+            "0": {
+                "mark_class": "Pie",
+                "mark_style": {
+                    "size": "1.0214917659759521",
+                    "mark-labels-cull": "true",
+                    "mark-labels-show": "false",
+                    "mark-color": "#e6e6e6",
+                },
+            }
+        },
+        axis_style={
+            "tick-color": "#00000000",
+            "per_field": [
+                {"field": "MIN(0)", "class": "0", "scope": "cols", "attr": "display", "value": "false"},
+            ],
+        },
+        header_formats=[
+            {"attr": "height-header", "value": "12"},
+            {"attr": "border-width", "data_class": "total", "scope": "cols", "value": "0"},
+            {"attr": "border-style", "data_class": "total", "scope": "cols", "value": "none"},
+        ],
+        label_formats=[
+            {"field": "Baseline Date", "text-format": "*mmm d, 'yy", "text-orientation": "-90", "color": "#ffffff"},
+            {"field": "Region", "color": "#ffffff"},
+        ],
+        table_dividers=[
+            {"scope": "rows", "div-level": "1", "stroke-color": "#d4d4d4", "line-pattern-only": "dotted", "stroke-size": "0", "line-visibility": "off"},
+            {"scope": "cols", "stroke-size": "0", "line-visibility": "off"},
+        ],
+    )
+
+    # 14.2 Main sheet styling
+    editor.configure_worksheet_style(
+        "Main",
+        background_color="#00000000",
+        show_column_totals=True,
+        hide_col_field_labels=True,
+        hide_row_field_labels=True,
+        panes_style={
+            "1": {  # Pie mark
+                "mark_style": {"size": "1.1534254550933838"},
+            },
+            "2": {  # Circle hole
+                "mark_style": {"size": "0.82359117269515991"},
+                "cell_style": {"text-align": "center", "vertical-align": "center"},
+                "datalabel_style": {"color-mode": "auto", "font-size": "6"},
+            },
+        },
+        axis_style={
+            "tick-color": "#00000000",
+            "per_field": [
+                {"field": "MIN(0)", "class": "0", "scope": "cols", "attr": "display", "value": "false"},
+                {"field": "MIN(0)", "class": "1", "scope": "cols", "attr": "display", "value": "false"},
+            ],
+        },
+        header_formats=[
+            {"attr": "height-header", "value": "12"},
+            {"attr": "border-width", "data_class": "total", "scope": "cols", "value": "0"},
+            {"attr": "border-style", "data_class": "total", "scope": "cols", "value": "none"},
+            {"field": "Order Date", "attr": "total-label", "data_class": "total", "value": "Last 7 days"},
+            {"field": "Order Date", "attr": "font-weight", "data_class": "total", "value": "bold"},
+            {"field": "Order Date", "attr": "height", "value": "92"},
+        ],
+        label_formats=[
+            {"field": "Order Date", "text-format": "*mmm d, 'yy", "text-orientation": "-90", "color": "#333333"},
+            {"field": "Region", "color": "#333333"},
+        ],
+        table_dividers=[
+            {"scope": "rows", "div-level": "1", "stroke-color": "#d4d4d4", "line-pattern-only": "dotted", "line-visibility": "on"},
+            {"scope": "cols", "stroke-size": "0", "line-visibility": "off"},
+        ],
+    )
 
     # 15. Set active dashboard and window state via cwtwb API
     main_zone_id = None
@@ -270,164 +348,6 @@ def build() -> Path:
 
     editor.save(OUTPUT)
     return OUTPUT
-
-
-def apply_visual_refinements(editor: TWBEditor) -> None:
-    """Apply visual styling refinements to worksheets."""
-    root = editor.root
-    ds = editor._datasource
-    ds_name = ds.get("name")
-    calc_map = {col.get("caption"): col.get("name").strip("[]") for col in ds.findall("column") if col.get("caption")}
-
-    # Fix column-instance in datasource to match calculation name exactly
-    for ci in ds.findall("column-instance"):
-        col_ref = ci.get("column", "").strip("[]")
-        if col_ref == "Has Shipped?" and "Has Shipped?" in calc_map:
-            real_name = f"[{calc_map['Has Shipped?']}]"
-            ci.set("column", real_name)
-            ci.set("name", f"[none:{calc_map['Has Shipped?']}:nk]")
-        elif col_ref == "Fully Shipped?" and "Fully Shipped?" in calc_map:
-            real_name = f"[{calc_map['Fully Shipped?']}]"
-            ci.set("column", real_name)
-            ci.set("derivation", "User")
-            ci.set("name", f"[usr:{calc_map['Fully Shipped?']}:nk]")
-
-    # ----------------------------------------------------
-    # 1. Base sheet styling
-    # ----------------------------------------------------
-    base_ws = root.find(".//worksheet[@name='Base']")
-    base_table = base_ws.find("table")
-    b_cols = base_table.find("cols")
-    b_cols.set("total", "true")
-    b_cols.text = f"([{ds_name}].[none:{calc_map['Baseline Date']}:ok] * [{ds_name}].[usr:{calc_map['MIN(0)']}:qk])"
-
-    # Mark in Base: 灰色占位背景圆环
-    b_pane = base_table.find("panes/pane")
-    b_mark = b_pane.find("mark")
-    b_mark.set("class", "Pie")
-    b_style = b_pane.find("style")
-    if b_style is None:
-        b_style = etree.SubElement(b_pane, "style")
-    b_rule = b_style.find("style-rule[@element='mark']")
-    if b_rule is None:
-        b_rule = etree.SubElement(b_style, "style-rule", element="mark")
-    etree.SubElement(b_rule, "format", attr="size", value="1.0214917659759521")
-    etree.SubElement(b_rule, "format", attr="mark-labels-cull", value="true")
-    etree.SubElement(b_rule, "format", attr="mark-labels-show", value="false")
-    etree.SubElement(b_rule, "format", attr="mark-color", value="#e6e6e6")
-
-    # Base table formatting
-    t_style = base_table.find("style")
-    if t_style is None:
-        t_style = etree.SubElement(base_table, "style")
-
-    axis_rule = etree.SubElement(t_style, "style-rule", element="axis")
-    etree.SubElement(axis_rule, "format", attr="display", **{"class": "0", "field": f"[{ds_name}].[usr:{calc_map['MIN(0)']}:qk]", "scope": "cols", "value": "false"})
-    etree.SubElement(axis_rule, "format", attr="tick-color", value="#00000000")
-
-    hdr_rule = etree.SubElement(t_style, "style-rule", element="header")
-    etree.SubElement(hdr_rule, "format", attr="height-header", value="12")
-    etree.SubElement(hdr_rule, "format", attr="border-width", **{"data-class": "total", "scope": "cols", "value": "0"})
-    etree.SubElement(hdr_rule, "format", attr="border-style", **{"data-class": "total", "scope": "cols", "value": "none"})
-
-    lbl_rule = etree.SubElement(t_style, "style-rule", element="label")
-    etree.SubElement(lbl_rule, "format", attr="text-format", field=f"[{ds_name}].[none:{calc_map['Baseline Date']}:ok]", value="*mmm d, 'yy")
-    etree.SubElement(lbl_rule, "format", attr="text-orientation", field=f"[{ds_name}].[none:{calc_map['Baseline Date']}:ok]", value="-90")
-    etree.SubElement(lbl_rule, "format", attr="color", field=f"[{ds_name}].[none:Region:nk]", value="#ffffff")
-    etree.SubElement(lbl_rule, "format", attr="color", field=f"[{ds_name}].[none:{calc_map['Baseline Date']}:ok]", value="#ffffff")
-
-    tbl_rule = etree.SubElement(t_style, "style-rule", element="table")
-    etree.SubElement(tbl_rule, "format", attr="background-color", value="#00000000")
-
-    ws_rule = etree.SubElement(t_style, "style-rule", element="worksheet")
-    etree.SubElement(ws_rule, "format", attr="display-field-labels", scope="cols", value="false")
-    etree.SubElement(ws_rule, "format", attr="display-field-labels", scope="rows", value="false")
-
-    tdiv_rule = etree.SubElement(t_style, "style-rule", element="table-div")
-    etree.SubElement(tdiv_rule, "format", attr="div-level", scope="rows", value="1")
-    etree.SubElement(tdiv_rule, "format", attr="stroke-size", scope="cols", value="0")
-    etree.SubElement(tdiv_rule, "format", attr="line-visibility", scope="cols", value="off")
-    etree.SubElement(tdiv_rule, "format", attr="stroke-color", scope="rows", value="#d4d4d4")
-    etree.SubElement(tdiv_rule, "format", attr="line-pattern-only", scope="rows", value="dotted")
-    etree.SubElement(tdiv_rule, "format", attr="stroke-size", scope="rows", value="0")
-    etree.SubElement(tdiv_rule, "format", attr="line-visibility", scope="rows", value="off")
-
-    # ----------------------------------------------------
-    # 2. Main sheet styling
-    # ----------------------------------------------------
-    main_ws = root.find(".//worksheet[@name='Main']")
-    main_table = main_ws.find("table")
-    m_cols = main_table.find("cols")
-    m_cols.set("total", "true")
-    marker = " + (["
-    if marker in m_cols.text:
-        m_cols.text = m_cols.text.replace(marker, " * ([", 1)
-
-    m_style = main_table.find("style")
-    m_axis_rule = m_style.find("style-rule[@element='axis']")
-    if m_axis_rule is None:
-        m_axis_rule = etree.SubElement(m_style, "style-rule", element="axis")
-    etree.SubElement(m_axis_rule, "format", attr="display", **{"class": "0", "field": f"[{ds_name}].[usr:{calc_map['MIN(0)']}:qk]", "scope": "cols", "value": "false"})
-    etree.SubElement(m_axis_rule, "format", attr="display", **{"class": "1", "field": f"[{ds_name}].[usr:{calc_map['MIN(0)']}:qk]", "scope": "cols", "value": "false"})
-    etree.SubElement(m_axis_rule, "format", attr="tick-color", value="#00000000")
-
-    m_hdr_rule = etree.SubElement(m_style, "style-rule", element="header")
-    etree.SubElement(m_hdr_rule, "format", attr="height-header", value="12")
-    etree.SubElement(m_hdr_rule, "format", attr="border-width", **{"data-class": "total", "scope": "cols", "value": "0"})
-    etree.SubElement(m_hdr_rule, "format", attr="border-style", **{"data-class": "total", "scope": "cols", "value": "none"})
-    etree.SubElement(m_hdr_rule, "format", attr="total-label", **{"data-class": "total", "field": f"[{ds_name}].[none:Order Date:ok]", "value": "Last 7 days"})
-    etree.SubElement(m_hdr_rule, "format", attr="font-weight", **{"data-class": "total", "field": f"[{ds_name}].[none:Order Date:ok]", "value": "bold"})
-    etree.SubElement(m_hdr_rule, "format", attr="height", field=f"[{ds_name}].[none:Order Date:ok]", value="92")
-
-    m_lbl_rule = etree.SubElement(m_style, "style-rule", element="label")
-    etree.SubElement(m_lbl_rule, "format", attr="text-format", field=f"[{ds_name}].[none:Order Date:ok]", value="*mmm d, 'yy")
-    etree.SubElement(m_lbl_rule, "format", attr="text-orientation", field=f"[{ds_name}].[none:Order Date:ok]", value="-90")
-    etree.SubElement(m_lbl_rule, "format", attr="color", field=f"[{ds_name}].[none:Order Date:ok]", value="#333333")
-    etree.SubElement(m_lbl_rule, "format", attr="color", field=f"[{ds_name}].[none:Region:nk]", value="#333333")
-
-    m_tbl_rule = etree.SubElement(m_style, "style-rule", element="table")
-    etree.SubElement(m_tbl_rule, "format", attr="background-color", value="#00000000")
-
-    m_ws_rule = etree.SubElement(m_style, "style-rule", element="worksheet")
-    etree.SubElement(m_ws_rule, "format", attr="display-field-labels", scope="cols", value="false")
-    etree.SubElement(m_ws_rule, "format", attr="display-field-labels", scope="rows", value="false")
-
-    m_tdiv_rule = etree.SubElement(m_style, "style-rule", element="table-div")
-    etree.SubElement(m_tdiv_rule, "format", attr="div-level", scope="rows", value="1")
-    etree.SubElement(m_tdiv_rule, "format", attr="stroke-size", scope="cols", value="0")
-    etree.SubElement(m_tdiv_rule, "format", attr="line-visibility", scope="cols", value="off")
-    etree.SubElement(m_tdiv_rule, "format", attr="stroke-color", scope="rows", value="#d4d4d4")
-    etree.SubElement(m_tdiv_rule, "format", attr="line-visibility", scope="rows", value="on")
-    etree.SubElement(m_tdiv_rule, "format", attr="line-pattern-only", scope="rows", value="dotted")
-
-    # 标记大小微调与居中标签格式
-    for p in main_table.findall("panes/pane"):
-        pid = p.get("id")
-        p_style = p.find("style")
-        if p_style is None:
-            p_style = etree.SubElement(p, "style")
-        m_rule = p_style.find("style-rule[@element='mark']")
-        if m_rule is None:
-            m_rule = etree.SubElement(p_style, "style-rule", element="mark")
-
-        if pid == "1":  # Pie 标记
-            fmt = m_rule.find("format[@attr='size']")
-            if fmt is not None:
-                fmt.set("value", "1.1534254550933838")
-            else:
-                etree.SubElement(m_rule, "format", attr="size", value="1.1534254550933838")
-        elif pid == "2":  # Circle 甜甜圈孔
-            fmt = m_rule.find("format[@attr='size']")
-            if fmt is not None:
-                fmt.set("value", "0.82359117269515991")
-            else:
-                etree.SubElement(m_rule, "format", attr="size", value="0.82359117269515991")
-            cell_rule = etree.SubElement(p_style, "style-rule", element="cell")
-            etree.SubElement(cell_rule, "format", attr="text-align", value="center")
-            etree.SubElement(cell_rule, "format", attr="vertical-align", value="center")
-            dl_rule = etree.SubElement(p_style, "style-rule", element="datalabel")
-            etree.SubElement(dl_rule, "format", attr="color-mode", value="auto")
-            etree.SubElement(dl_rule, "format", attr="font-size", value="6")
 
 
 if __name__ == "__main__":
