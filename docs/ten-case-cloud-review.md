@@ -36,6 +36,16 @@ Install requirements.txt, then run python scripts/validate_iteration.py iteratio
 
 After final Cloud captures, run the verifier directly or validate_iteration.py --metadata-only: a rebuild generates fresh workbook identities and requires a new capture. Where present, verify_cloud_data.py compares saved exports without accessing credentials; additional state comparisons are recorded in evidence/cloud-data-verification.json. Browser action verification requires an authenticated Tableau web session; PAT authentication for REST is separate.
 
+## Validation
+
+The shared repository suite passes **54 tests**. A fresh Python 3.11.16 environment
+installed only requirements.txt (including tableauhyperapi 0.0.26700 and the pinned
+SDK commit), then passed changed-case validation and full 20-case build/verifier
+validation. Both use disposable case copies; `git diff --exit-code -- iterations`
+remained clean. Current Cloud capture bytes were not rebuilt or replaced. Historical
+construction contracts remain compatible, while all ten migrated cases enforce the
+public SDK AST boundary. SDK regression coverage passes 440 tests with 25 skips.
+
 ## Current acceptance
 
 All ten cases pass local artifact contracts and have actual author/replica Cloud image reviews with acceptable visual differences. Five have completed the reported functional/state checks; five retain explicit browser interaction work. No case is marked pixel-identical.

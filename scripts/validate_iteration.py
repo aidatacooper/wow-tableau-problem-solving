@@ -7,6 +7,8 @@ import ast
 import hashlib
 import json
 import re
+import shutil
+import tempfile
 import subprocess
 import sys
 from pathlib import Path
@@ -244,7 +246,12 @@ def sdk_boundary_violations(source: str) -> list[str]:
     return sorted(violations)
 
 
-def validate_builder_boundary(case_dir: Path) -> None:
+def public_sdk_boundary_required(case: dict) -> bool:
+    """Apply the new construction contract to migrated, nonhistorical cases."""
+    return case.get("schema_version") == "1.1.0" and case.get("verification_status") != "historical"
+
+
+def validate_builder_boundary(case_dir: Path, *, enforce_public_sdk: bool = True) -> None:
     build_files = [
         path
         for path in case_dir.rglob("*.py")
@@ -253,7 +260,8 @@ def validate_builder_boundary(case_dir: Path) -> None:
     violations = []
     for path in build_files:
         source = path.read_text(encoding="utf-8")
-        violations.extend(f"{path.relative_to(case_dir)}: {reason}" for reason in sdk_boundary_violations(source))
+        if enforce_public_sdk:
+            violations.extend(f"{path.relative_to(case_dir)}: {reason}" for reason in sdk_boundary_violations(source))
         violations.extend(
             f"{path.relative_to(case_dir)}: {reason}"
             for pattern, reason in FORBIDDEN_BUILD_PATTERNS.items()
@@ -308,6 +316,64 @@ def run_case_script(case_dir: Path, filename: str) -> None:
     )
 
 
+def run_case_scripts_isolated(case_dir: Path) -> None:
+    """Rebuild and verify a fresh copy without replacing Cloud-reviewed artifacts.
+
+    CI may regenerate random workbook IDs, archive timestamps and local paths.
+    Those bytes are validation output, not a replacement for the published capture.
+    Exceptions propagate and temporary output is discarded on success or failure.
+    """
+    with tempfile.TemporaryDirectory(prefix="wow-case-validation-") as directory:
+        scratch_root = Path(directory) / "lab"
+        scratch_case = scratch_root / "iterations" / case_dir.name
+        shutil.copytree(case_dir, scratch_case, ignore=shutil.ignore_patterns("__pycache__", ".roundtrip*"))
+        # A no-op builder must not accidentally verify a copied accepted workbook.
+        for artifact in (scratch_case / "outputs").rglob("*"):
+            if artifact.is_file() and artifact.suffix.lower() in WORKBOOK_SUFFIXES:
+                artifact.unlink()
+        run_case_script(scratch_case, "build_replication.py")
+        metadata = yaml.safe_load((scratch_case / "case.yaml").read_text(encoding="utf-8")) or {}
+        primary = metadata.get("artifacts", {}).get("primary_workbook", "outputs/replicated-workbook.twbx")
+        case_file(scratch_case, primary, "Builder did not generate its primary workbook")
+        # Historical verifiers may use a declared former output name. Point that
+        # name at the fresh build in scratch, never at copied historical bytes.
+        temporary_aliases = []
+        for alias, target in metadata.get("artifact_aliases", {}).items():
+            alias_path, target_path = Path(alias), Path(target)
+            if alias_path.suffix.lower() not in WORKBOOK_SUFFIXES:
+                continue
+            if alias_path.is_absolute() or ".." in alias_path.parts or not alias_path.parts or alias_path.parts[0] != "outputs":
+                raise AssertionError("Workbook artifact aliases must stay under outputs/")
+            source = case_file(scratch_case, target_path, "Workbook artifact alias requires a rebuilt target")
+            destination = scratch_case / alias_path
+            destination.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(source, destination)
+            temporary_aliases.append(destination)
+        run_case_script(scratch_case, "verify_replication.py")
+        for alias in temporary_aliases:
+            alias.unlink()
+        # Archival author/probe files are metadata evidence, not build inputs.
+        # Restore them only after the fresh verifier has succeeded. Never restore
+        # a primary output, a declared alias, or a missing generated companion.
+        current_paths = {primary, *metadata.get("artifact_aliases", {}).keys(), *metadata.get("artifact_aliases", {}).values()}
+        for record in metadata.get("historical_artifacts", []):
+            relative = record.get("path")
+            if record.get("role") not in {"author_source", "probe"} or relative in current_paths:
+                continue
+            path = Path(str(relative))
+            if path.suffix.lower() not in WORKBOOK_SUFFIXES:
+                continue
+            original = case_file(case_dir, relative, "Historical archive evidence is missing")
+            destination = scratch_case / path
+            if not destination.exists():
+                destination.parent.mkdir(parents=True, exist_ok=True)
+                shutil.copy2(original, destination)
+        case = validate_metadata(scratch_case)
+        validate_source_lock(scratch_case, case)
+        validate_builder_boundary(scratch_case, enforce_public_sdk=public_sdk_boundary_required(case))
+        validate_identity(scratch_case, case, LAB_ROOT)
+
+
 def validate_iteration(case_dir: Path, run_scripts: bool = True) -> None:
     case_dir = case_dir.resolve()
     case = validate_metadata(case_dir)
@@ -319,7 +385,7 @@ def validate_iteration(case_dir: Path, run_scripts: bool = True) -> None:
         return
     validate_unique_identity(case_dir, case)
     validate_source_lock(case_dir, case)
-    validate_builder_boundary(case_dir)
+    validate_builder_boundary(case_dir, enforce_public_sdk=public_sdk_boundary_required(case))
     if run_scripts:
         run_case_script(case_dir, "build_replication.py")
         run_case_script(case_dir, "verify_replication.py")

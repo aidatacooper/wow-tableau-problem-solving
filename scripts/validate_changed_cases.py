@@ -8,7 +8,7 @@ from pathlib import Path
 
 import yaml
 
-from validate_iteration import LAB_ROOT, validate_iteration
+from validate_iteration import LAB_ROOT, run_case_scripts_isolated, validate_iteration
 from case_catalogue import active_cases, check_catalogue
 
 
@@ -61,7 +61,11 @@ def main() -> None:
             raise AssertionError(
                 f"Legacy iteration changed without v1 migration: {case.name}"
             )
-        validate_iteration(case, run_scripts=not args.metadata_only)
+        # Validate committed Cloud evidence first, then independently rebuild in
+        # a disposable copy. Direct validate_iteration retains its authoring flow.
+        validate_iteration(case, run_scripts=False)
+        if not args.metadata_only and document.get("schema_version") != "legacy-summary-1.0":
+            run_case_scripts_isolated(case)
         print(f"PASS: {case.name}")
 
 
