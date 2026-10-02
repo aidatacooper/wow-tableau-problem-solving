@@ -16,7 +16,7 @@ from cwtwb.twb_editor import TWBEditor  # noqa: E402
 
 
 OUTPUT_TWB = ITERATION_DIR / "outputs" / "2019-07-18-ww29-high-orders-replicated-workbook.twb"
-OUTPUT_TWBX = ITERATION_DIR / "outputs" / "2019-07-18-ww29-high-orders-replicated-workbook.twbx"
+OUTPUT_TWBX = ITERATION_DIR / "outputs" / "replicated-workbook.twbx"
 
 
 def load_root(path: Path) -> etree._Element:

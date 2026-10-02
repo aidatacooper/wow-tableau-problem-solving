@@ -180,6 +180,6 @@ def build(path: Path) -> Path:
 if __name__ == "__main__":
     for name in (
         "2019-09-09-ww36-custom-axis-tracker-replicated-workbook.twb",
-        "2019-09-09-ww36-custom-axis-tracker-replicated-workbook.twbx",
+        "replicated-workbook.twbx",
     ):
         print(build(OUTPUTS / name))

@@ -14,6 +14,13 @@ import zipfile
 from datetime import date
 from pathlib import Path
 
+import yaml
+
+try:
+    from case_catalogue import canonical_id, folder_identity, iso_date
+except ModuleNotFoundError:
+    from scripts.case_catalogue import canonical_id, folder_identity, iso_date
+
 
 LAB_ROOT = Path(__file__).resolve().parents[1]
 TEMPLATE = LAB_ROOT / "iterations" / "_template"
@@ -113,11 +120,22 @@ def replace_tokens(path: Path, values: dict[str, str]) -> None:
 def prepare_case(
     source: Path,
     iteration_id: str,
-    case_id: str,
+    case_id: str | None,
     post: str,
     iterations_root: Path | None = None,
     source_url: str | None = None,
+    challenge_year: int | None = None,
 ) -> Path:
+    try:
+        article_date, challenge_week, _ = folder_identity(iteration_id)
+        if challenge_year is None:
+            raise ValueError("challenge_year is required; do not infer it from article_date")
+        expected_id = canonical_id(iteration_id, challenge_year)
+    except AssertionError as exc:
+        raise ValueError(str(exc)) from exc
+    if case_id is not None and case_id != expected_id:
+        raise ValueError(f"case_id must be {expected_id}")
+    case_id = expected_id
     source = source.resolve()
     if not source.is_file():
         raise FileNotFoundError(source)
@@ -159,7 +177,39 @@ def prepare_case(
         case_text = case_path.read_text(encoding="utf-8")
         data_lines = "\n".join(f"    - {item['file']}" for item in data)
         case_text = case_text.replace("  data_files: []", f"  data_files:\n{data_lines}")
-        case_path.write_text(case_text, encoding="utf-8")
+        document = yaml.safe_load(case_text)
+        workbook_date = None
+        match = re.match(r"(\d{4})[_-](\d{2})[_-](\d{2})", source.name)
+        if match:
+            try:
+                workbook_date = iso_date("-".join(match.groups()), "source_workbook_date")
+            except AssertionError:
+                pass  # A filename is not reliable date evidence when it is invalid.
+        article = {"url": None, "path": None, "sha256": None}
+        article["url" if post.startswith(("https://", "http://")) else "path"] = post
+        document.update({
+            "legacy_case_ids": {},
+            "article_date": article_date,
+            "challenge_year": challenge_year,
+            "challenge_week": challenge_week,
+            "source_workbook_date": workbook_date,
+            "date_evidence": {
+                "article_date": "Declared article publication date in iteration_id",
+                "challenge": "Explicit challenge_year; week declared in iteration_id",
+                "source_workbook_date": "Original filename" if workbook_date else "Unknown",
+            },
+            "source": {"article": article, "workbook": {
+                "url": source_url, "filename": source.name,
+                "sha256": lock["source_workbook"]["sha256"],
+            }},
+            "verification_status": "pending",
+            "artifacts": {"primary_workbook": "outputs/replicated-workbook.twbx",
+                          "cloud_author": None, "cloud_replica": None},
+            "artifact_aliases": {}, "historical_artifacts": [],
+            "evidence": ["inputs/source-lock.json"],
+            "notes": ["Generated index views must be refreshed after the workbook is built and verified."],
+        })
+        case_path.write_text(yaml.safe_dump(document, sort_keys=False, allow_unicode=True), encoding="utf-8")
     except Exception:
         shutil.rmtree(target)
         raise
@@ -172,14 +222,15 @@ def main() -> None:
     source_group.add_argument("--source", type=Path)
     source_group.add_argument("--workbook-url")
     parser.add_argument("--iteration-id", required=True)
-    parser.add_argument("--case-id", required=True)
+    parser.add_argument("--case-id", help="Optional canonical ID; otherwise generated")
+    parser.add_argument("--challenge-year", required=True, type=int, help="Challenge year, which may differ from article publication year")
     post_group = parser.add_mutually_exclusive_group(required=True)
     post_group.add_argument("--post")
     post_group.add_argument("--post-url")
     args = parser.parse_args()
     post = args.post or args.post_url
     if args.source:
-        print(prepare_case(args.source, args.iteration_id, args.case_id, post))
+        print(prepare_case(args.source, args.iteration_id, args.case_id, post, challenge_year=args.challenge_year))
         return
     with tempfile.TemporaryDirectory() as directory:
         source = Path(directory) / f"{tableau_workbook_name(args.workbook_url)}.twbx"
@@ -191,6 +242,7 @@ def main() -> None:
                 args.case_id,
                 post,
                 source_url=args.workbook_url,
+                challenge_year=args.challenge_year,
             )
         )
 

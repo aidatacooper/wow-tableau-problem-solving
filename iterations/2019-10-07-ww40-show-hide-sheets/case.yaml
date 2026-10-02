@@ -1,5 +1,5 @@
 schema_version: 1.0.0
-case_id: ww40-show-hide-sheets
+case_id: wow-2019-ww40-show-hide-sheets
 iteration_id: 2019-10-07-ww40-show-hide-sheets
 post: posts/2019-10-07-Can_you_show_and_hide_your_sheets.html
 
@@ -23,3 +23,47 @@ acceptance:
 workarounds: []
 capability_gaps: []
 related_cwtwb_issues: []
+
+# Maintainer identity migration; historical evidence remains immutable.
+legacy_case_ids:
+  ww40-show-hide-sheets: wow-2019-ww40-show-hide-sheets
+  donna-2019-10-07-c6cbb44290da: wow-2019-ww40-show-hide-sheets
+article_date: '2019-10-07'
+challenge_year: 2019
+challenge_week: 40
+source_workbook_date: '2019-10-02'
+date_evidence:
+  article_date: index.json publication date; matches preserved folder
+  challenge: Existing formal folder year and WW token; retained challenge identity
+  source_workbook_date: Date explicitly encoded in original workbook filename; not article publication
+    date
+source:
+  article:
+    url: https://donnacoles.home.blog/2019/10/07/can-you-show-and-hide-your-sheets/
+    path: posts/2019-10-07-Can_you_show_and_hide_your_sheets.html
+    sha256: null
+  workbook:
+    url: https://public.tableau.com/views/2019_10_02_WW40_Show_Hide_Charts/2019_10_02_WW40_Show_Hide_Charts
+    path: dashboards/2019_10_02_WW40_Show_Hide_Charts/2019_10_02_WW40_Show_Hide_Charts.twbx
+    filename: 2019_10_02_WW40_Show_Hide_Charts.twbx
+    sha256: f0cab8322a20c7d61f9feb15683ba962a02dbbc11e2543869dc9c8578fa13b5e
+    workbook_id: tableau-e569390c96a4660d
+verification_status: historical
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: null
+  cloud_replica: null
+artifact_aliases:
+  outputs/2019-10-07-ww40-show-hide-sheets-replicated-workbook.twbx: outputs/replicated-workbook.twbx
+historical_artifacts:
+- path: outputs/2019-10-07-ww40-show-hide-sheets-replicated-workbook.twb
+  role: historical_twb_companion
+  note: Unpackaged companion retains its original name and bytes; primary packaged output is replicated-workbook.twbx.
+evidence:
+- inputs/source-lock.json
+notes:
+- Identity/path migration only; no rebuild, retest of visuals, or Cloud publishing. Historical evidence
+  IDs and hash-keyed filenames resolve through legacy_case_ids and artifact_aliases.
+- Source archive paths may be unavailable in a clean checkout; URL and locked hash identify the original
+  source. Null hashes/SDK results mean unknown, not inferred success.
+- No confidently identified primary author screenshot.

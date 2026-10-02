@@ -76,5 +76,5 @@ def build(p):
  e.add_dashboard_action('WW43 Las Vegas Casinos','parameter','Map',source_field='name',target_parameter='Selected Casino',aggregation='attr',caption='Select Casino')
  style_map(e);O.mkdir(exist_ok=True);e.save(p,validate=False);package_shape_assets(p);return p
 if __name__=='__main__':
- for n in ('2019-10-25-ww43-las-vegas-casinos-replicated-workbook.twb','2019-10-25-ww43-las-vegas-casinos-replicated-workbook.twbx'):print(build(O/n))
+ for n in ('2019-10-25-ww43-las-vegas-casinos-replicated-workbook.twb','replicated-workbook.twbx'):print(build(O/n))
 

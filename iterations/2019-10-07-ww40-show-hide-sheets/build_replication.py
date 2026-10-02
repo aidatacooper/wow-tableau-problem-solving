@@ -21,5 +21,5 @@ def build(p):
  e.add_dashboard('WW40 Show Hide Charts',width=1000,height=700,layout={'type':'container','direction':'vertical','children':[{'type':'container','direction':'horizontal','fixed_size':65,'children':[{'type':'text','text':'Sales by Month','font_size':'15','weight':1},{'type':'paramctrl','parameter':'Choose Display Type','mode':'compact','fixed_size':205}]},{'type':'container','direction':'vertical','children':main},{'type':'container','direction':'horizontal','fixed_size':220,'children':[{'type':'text','text':'Display Preview\nChoose display above','bold':True,'fixed_size':190}]+preview},{'type':'text','text':'#WORKOUTWEDNESDAY  |  2019  |  WEEK 40','font_size':'8','fixed_size':32}]},worksheet_names=['Area','Bar','Line','Preview:Area','Preview:Bar','Preview:Line'])
  OUT.mkdir(exist_ok=True);e.save(p,validate=False);return p
 if __name__=='__main__':
- for n in ('2019-10-07-ww40-show-hide-sheets-replicated-workbook.twb','2019-10-07-ww40-show-hide-sheets-replicated-workbook.twbx'):print(build(OUT/n))
+ for n in ('2019-10-07-ww40-show-hide-sheets-replicated-workbook.twb','replicated-workbook.twbx'):print(build(OUT/n))
 

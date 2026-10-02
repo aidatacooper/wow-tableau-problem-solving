@@ -9,6 +9,7 @@ from pathlib import Path
 import yaml
 
 from validate_iteration import LAB_ROOT, validate_iteration
+from case_catalogue import active_cases, check_catalogue
 
 
 ITERATIONS_PREFIX = "iterations/"
@@ -31,15 +32,7 @@ def changed_iterations(base_ref: str) -> list[Path]:
 
 
 def all_v1_iterations() -> list[Path]:
-    cases = []
-    for case in sorted((LAB_ROOT / "iterations").iterdir()):
-        metadata = case / "case.yaml"
-        if case.name == "_template" or not metadata.is_file():
-            continue
-        document = yaml.safe_load(metadata.read_text(encoding="utf-8")) or {}
-        if "functional_status" in document:
-            cases.append(case)
-    return cases
+    return [directory for directory, _ in active_cases(LAB_ROOT)]
 
 
 def main() -> None:
@@ -49,11 +42,15 @@ def main() -> None:
     source.add_argument("--all", action="store_true")
     parser.add_argument("--metadata-only", action="store_true")
     args = parser.parse_args()
+    check_catalogue(LAB_ROOT)
     cases = all_v1_iterations() if args.all else changed_iterations(args.base_ref)
     if not cases:
         print("No contributed iteration changed")
         return
     for case in cases:
+        if not case.exists():
+            # Removed/archived cases are checked by the active catalogue above.
+            continue
         metadata = case / "case.yaml"
         if not metadata.is_file():
             raise AssertionError(

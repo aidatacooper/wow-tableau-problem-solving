@@ -1,5 +1,5 @@
 schema_version: 1.0.0
-case_id: ww41-customers-costing-us
+case_id: wow-2019-ww41-customers-costing-us
 iteration_id: 2019-10-14-ww41-customers-costing-us
 post: posts/2019-10-14-Which_Customers_are_Costing_Us.html
 
@@ -23,3 +23,47 @@ acceptance:
 workarounds: []
 capability_gaps: []
 related_cwtwb_issues: []
+
+# Maintainer identity migration; historical evidence remains immutable.
+legacy_case_ids:
+  ww41-customers-costing-us: wow-2019-ww41-customers-costing-us
+  donna-2019-10-14-2a931f3fa584: wow-2019-ww41-customers-costing-us
+article_date: '2019-10-14'
+challenge_year: 2019
+challenge_week: 41
+source_workbook_date: '2019-10-09'
+date_evidence:
+  article_date: index.json publication date; matches preserved folder
+  challenge: Existing formal folder year and WW token; retained challenge identity
+  source_workbook_date: Date explicitly encoded in original workbook filename; not article publication
+    date
+source:
+  article:
+    url: https://donnacoles.home.blog/2019/10/14/which-customers-are-costing-us/
+    path: posts/2019-10-14-Which_Customers_are_Costing_Us.html
+    sha256: null
+  workbook:
+    url: https://public.tableau.com/views/2019_10_09_WW41_Scatter_Table/2019_10_09_WW41_Scatter_Table_Highlight
+    path: dashboards/2019_10_09_WW41_Scatter_Table/2019_10_09_WW41_Scatter_Table.twbx
+    filename: 2019_10_09_WW41_Scatter_Table.twbx
+    sha256: 3aba4dad950f9179648026a58cd920277caf7c2b35b8e0fdd68c13b17bfb2735
+    workbook_id: tableau-706718c7135bb81d
+verification_status: historical
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: null
+  cloud_replica: null
+artifact_aliases:
+  outputs/2019-10-14-ww41-customers-costing-us-replicated-workbook.twbx: outputs/replicated-workbook.twbx
+historical_artifacts:
+- path: outputs/2019-10-14-ww41-customers-costing-us-replicated-workbook.twb
+  role: historical_twb_companion
+  note: Unpackaged companion retains its original name and bytes; primary packaged output is replicated-workbook.twbx.
+evidence:
+- inputs/source-lock.json
+notes:
+- Identity/path migration only; no rebuild, retest of visuals, or Cloud publishing. Historical evidence
+  IDs and hash-keyed filenames resolve through legacy_case_ids and artifact_aliases.
+- Source archive paths may be unavailable in a clean checkout; URL and locked hash identify the original
+  source. Null hashes/SDK results mean unknown, not inferred success.
+- No confidently identified primary author screenshot.

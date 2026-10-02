@@ -31,7 +31,7 @@ sys.path.insert(0, str(CWTwb_SRC))
 from cwtwb.twb_analyzer import analyze_workbook  # noqa: E402
 
 TWB = ITERATION_DIR / "outputs" / "2019-09-02-ww34-top-n-single-worksheet-replicated-workbook.twb"
-TWBX = ITERATION_DIR / "outputs" / "2019-09-02-ww34-top-n-single-worksheet-replicated-workbook.twbx"
+TWBX = ITERATION_DIR / "outputs" / "replicated-workbook.twbx"
 SOURCE_TWBX = (
     LAB_ROOT
     / "dashboards"

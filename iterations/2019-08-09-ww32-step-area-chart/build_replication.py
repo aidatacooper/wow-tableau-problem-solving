@@ -470,5 +470,5 @@ def build(output_path: Path) -> Path:
 if __name__ == "__main__":
     if not HYPER.exists():
         raise FileNotFoundError(f"Locked case Hyper is missing: {HYPER}")
-    for filename in ("2019-08-09-ww32-step-area-chart-replicated-workbook.twb", "2019-08-09-ww32-step-area-chart-replicated-workbook.twbx"):
+    for filename in ("2019-08-09-ww32-step-area-chart-replicated-workbook.twb", "replicated-workbook.twbx"):
         print(build(OUTPUT_DIR / filename))

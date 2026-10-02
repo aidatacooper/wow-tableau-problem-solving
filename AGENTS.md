@@ -18,9 +18,9 @@ Functional and interaction correctness matter more than pixel-perfect styling.
 
 ## One case, one PR
 
-Only modify your own `iterations/<iteration-id>/` directory. Do not edit other
-cases or `usage/consumed-cases.json`; maintainers update shared indexes after
-merge.
+Case contributions change their own `iterations/<iteration-id>/` directory
+and the generated index views. Do not edit unrelated cases. Refresh the views
+from case metadata and submit them with the case change; never hand-edit status.
 
 Historical directories without v1 `functional_status` metadata are legacy and
 read-only unless the task explicitly requests their migration.
@@ -30,8 +30,9 @@ Start from `iterations/_template/` or run:
 ```bash
 python scripts/prepare_case.py \
   --source path/to/author.twbx \
-  --iteration-id YYYY-MM-DD-short-slug \
-  --case-id stable-case-id \
+  --iteration-id YYYY-MM-DD-wwNN-short-slug \
+  --challenge-year YYYY \
+  --case-id wow-YYYY-wwNN-short-slug \
   --post posts/YYYY-MM-DD-article.html
 ```
 
@@ -94,3 +95,11 @@ python -m unittest discover -s tests -v
 
 Open the generated TWBX in Tableau when the case uses actions, parameters,
 table calculations, or behavior that static XML checks cannot prove.
+
+## Maintainer identity migration
+
+Follow [the identity and naming rules](docs/protocols/case-identity-and-naming.md). Formal folders retain the
+article publication date; canonical IDs include the explicit challenge year.
+Maintain `case.yaml` as the editable status source and regenerate both indexes
+with `python scripts/case_catalogue.py --write`. Include generated index changes
+with the case change; archived pilots and legacy aliases do not add active cases.

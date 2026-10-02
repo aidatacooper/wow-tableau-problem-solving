@@ -113,7 +113,7 @@ def check(root: etree._Element) -> None:
 
 def main() -> None:
     twb = HERE / "outputs" / "2019-09-09-ww36-custom-axis-tracker-replicated-workbook.twb"
-    twbx = HERE / "outputs" / "2019-09-09-ww36-custom-axis-tracker-replicated-workbook.twbx"
+    twbx = HERE / "outputs" / "replicated-workbook.twbx"
     check(etree.parse(str(twb)).getroot())
     with ZipFile(twbx) as archive:
         assert any(name.endswith(".hyper") for name in archive.namelist())

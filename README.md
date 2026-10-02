@@ -38,8 +38,9 @@ become a separate upstream cwtwb issue or pull request.
 python -m pip install -r requirements.txt
 python scripts/prepare_case.py \
   --source path/to/author.twbx \
-  --iteration-id YYYY-MM-DD-short-slug \
-  --case-id stable-case-id \
+  --iteration-id YYYY-MM-DD-wwNN-short-slug \
+  --challenge-year YYYY \
+  --case-id wow-YYYY-wwNN-short-slug \
   --post posts/YYYY-MM-DD-article.html
 
 python scripts/validate_iteration.py iterations/<iteration-id>
@@ -52,8 +53,9 @@ temporarily and remove it after extracting data:
 ```bash
 python scripts/prepare_case.py \
   --workbook-url "https://public.tableau.com/views/WORKBOOK/VIEW" \
-  --iteration-id YYYY-MM-DD-short-slug \
-  --case-id stable-case-id \
+  --iteration-id YYYY-MM-DD-wwNN-short-slug \
+  --challenge-year YYYY \
+  --case-id wow-YYYY-wwNN-short-slug \
   --post-url "https://example.com/article"
 ```
 
@@ -101,7 +103,8 @@ scripts/validate_iteration.py
                          Enforce provenance and run case validation
 posts/                   Downloaded article HTML (generated, ignored)
 dashboards/              Downloaded TWBX/PNG assets (generated, ignored)
-usage/                   Shared case-consumption index
+usage/                   Generated active catalogue and consumption view
+archive/                 Archived pilots excluded from active case counts
 ```
 
 The main source tools are:
@@ -136,10 +139,19 @@ scripts instead of the original assets.
   legacy `#!/vizhome/WB/VIEW` forms; the link generator supports both.
 - Tableau preview PNG endpoints may return a generic placeholder. Such images
   are evidence of acquisition only, not a visual acceptance baseline.
-- `usage/consumed-cases.json` is the tracked source of truth for claimed cases.
-  Research status and replication status remain separate fields.
+- `case.yaml` is the editable source of truth for case identity and status.
+  `usage/case-index.json` and `usage/consumed-cases.json` are generated views.
+  Research, replication and verification statuses remain distinct.
 - Author links are classified conservatively. Uncertain ownership remains
   marked for manual review.
 
 Historical protocol drafts and iteration notes remain useful evidence, but the
 community protocol above is the current contribution contract.
+
+## Case identities and indexes
+
+Follow [the identity and naming rules](docs/protocols/case-identity-and-naming.md). Formal folders retain the
+article publication date; canonical IDs include the explicit challenge year.
+Maintain `case.yaml` as the editable status source and regenerate both indexes
+with `python scripts/case_catalogue.py --write`. Include generated index changes
+with the case change; archived pilots and legacy aliases do not add active cases.

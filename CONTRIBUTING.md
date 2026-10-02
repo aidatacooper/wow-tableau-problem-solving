@@ -18,8 +18,9 @@ Install the released SDK, then prepare the case:
 python -m pip install "cwtwb>=0.26.0"
 python scripts/prepare_case.py \
   --source path/to/author.twbx \
-  --iteration-id YYYY-MM-DD-short-slug \
-  --case-id stable-case-id \
+  --iteration-id YYYY-MM-DD-wwNN-short-slug \
+  --challenge-year YYYY \
+  --case-id wow-YYYY-wwNN-short-slug \
   --post posts/YYYY-MM-DD-article.html
 ```
 
@@ -30,8 +31,9 @@ data is extracted:
 ```bash
 python scripts/prepare_case.py \
   --workbook-url "https://public.tableau.com/views/WORKBOOK/VIEW" \
-  --iteration-id YYYY-MM-DD-short-slug \
-  --case-id stable-case-id \
+  --iteration-id YYYY-MM-DD-wwNN-short-slug \
+  --challenge-year YYYY \
+  --case-id wow-YYYY-wwNN-short-slug \
   --post-url "https://example.com/article"
 ```
 
@@ -154,10 +156,12 @@ Your PR should normally change only:
 
 ```text
 iterations/<iteration-id>/
+usage/case-index.json
+usage/consumed-cases.json
 ```
 
-Do not edit `usage/consumed-cases.json`; maintainers update shared indexes
-after merge. Link any related cwtwb issue/PR from `case.yaml` and the PR body.
+Regenerate `usage/case-index.json` and `usage/consumed-cases.json` from case
+metadata and include those generated changes; never hand-edit their status. Link any related cwtwb issue/PR from `case.yaml` and the PR body.
 Directories marked as legacy predate the v1 contract. Do not use them as
 templates; create a new v1 iteration unless a maintainer explicitly assigns a
 legacy migration.
@@ -176,3 +180,11 @@ or explicitly rebuild every case after a cwtwb release:
 python scripts/validate_changed_cases.py --all --metadata-only
 python scripts/validate_changed_cases.py --all
 ```
+
+## Case identities and indexes
+
+Follow [the identity and naming rules](docs/protocols/case-identity-and-naming.md). Formal folders retain the
+article publication date; canonical IDs include the explicit challenge year.
+Maintain `case.yaml` as the editable status source and regenerate both indexes
+with `python scripts/case_catalogue.py --write`. Include generated index changes
+with the case change; archived pilots and legacy aliases do not add active cases.

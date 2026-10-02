@@ -50,5 +50,5 @@ def build(p):
  e.add_dashboard_action('WW42 Sales Comparison','parameter','Pick Time Selector',source_field='Pick Time Range',target_parameter='Time Range',aggregation='attr',caption='Pick Time Range')
  O.mkdir(exist_ok=True);e.save(p,validate=False);return p
 if __name__=='__main__':
- for n in ('2019-10-19-ww42-comparative-line-dynamic-inputs-replicated-workbook.twb','2019-10-19-ww42-comparative-line-dynamic-inputs-replicated-workbook.twbx'):print(build(O/n))
+ for n in ('2019-10-19-ww42-comparative-line-dynamic-inputs-replicated-workbook.twb','replicated-workbook.twbx'):print(build(O/n))
 

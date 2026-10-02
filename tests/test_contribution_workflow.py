@@ -26,6 +26,8 @@ validate_iteration = load_module(
 
 
 def complete_case_metadata(iteration: Path) -> None:
+    (iteration / "outputs").mkdir(exist_ok=True)
+    (iteration / "outputs/replicated-workbook.twbx").write_bytes(b"synthetic artifact for metadata validation")
     path = iteration / "case.yaml"
     document = yaml.safe_load(path.read_text(encoding="utf-8"))
     document["analysis_status"] = "completed"
@@ -65,10 +67,11 @@ class ContributionWorkflowTests(unittest.TestCase):
 
             iteration = prepare_case.prepare_case(
                 source=source,
-                iteration_id="2026-01-01-example",
-                case_id="example-case",
+                iteration_id="2026-01-01-ww01-example",
+                case_id=None,
                 post="posts/example.html",
                 iterations_root=root / "iterations",
+                challenge_year=2026,
             )
 
             self.assertFalse((iteration / source.name).exists())
@@ -83,7 +86,9 @@ class ContributionWorkflowTests(unittest.TestCase):
             self.assertFalse(lock["source_workbook_used_by_builder"])
             self.assertEqual(lock["extracted_data"][0]["file"], "inputs/orders.hyper")
             complete_case_metadata(iteration)
+            (iteration / "outputs/replicated-workbook.twbx").unlink()
             validate_iteration.validate_iteration(iteration, run_scripts=True)
+            self.assertTrue((iteration / "outputs/replicated-workbook.twbx").is_file())
 
     def test_prepare_case_rejects_archive_without_data(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -95,12 +100,13 @@ class ContributionWorkflowTests(unittest.TestCase):
             with self.assertRaisesRegex(ValueError, "No packaged data"):
                 prepare_case.prepare_case(
                     source=source,
-                    iteration_id="2026-01-01-no-data",
-                    case_id="example-case",
+                    iteration_id="2026-01-01-ww01-no-data",
+                    case_id=None,
                     post="posts/example.html",
                     iterations_root=root / "iterations",
+                    challenge_year=2026,
                 )
-            self.assertFalse((root / "iterations" / "2026-01-01-no-data").exists())
+            self.assertFalse((root / "iterations" / "2026-01-01-ww01-no-data").exists())
 
     def test_validator_rejects_builder_source_workbook_access(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -110,10 +116,11 @@ class ContributionWorkflowTests(unittest.TestCase):
                 archive.writestr("Data/orders.hyper", b"hyper-data")
             iteration = prepare_case.prepare_case(
                 source=source,
-                iteration_id="2026-01-01-forbidden",
-                case_id="example-case",
+                iteration_id="2026-01-01-ww01-forbidden",
+                case_id=None,
                 post="posts/example.html",
                 iterations_root=root / "iterations",
+                challenge_year=2026,
             )
             (iteration / "build_replication.py").write_text(
                 "SOURCE_TWBX = 'author.twbx'\n", encoding="utf-8"
@@ -145,10 +152,11 @@ class ContributionWorkflowTests(unittest.TestCase):
                 archive.writestr("Data/orders.hyper", b"hyper-data")
             iteration = prepare_case.prepare_case(
                 source=source,
-                iteration_id="2026-01-01-boundary",
-                case_id="boundary-case",
+                iteration_id="2026-01-01-ww01-boundary",
+                case_id=None,
                 post="https://example.test/post",
                 iterations_root=root / "iterations",
+                challenge_year=2026,
             )
             complete_case_metadata(iteration)
             (iteration / "helper.py").write_text(
@@ -177,10 +185,11 @@ class ContributionWorkflowTests(unittest.TestCase):
                 archive.writestr("Data/orders.hyper", b"hyper-data")
             iteration = prepare_case.prepare_case(
                 source=source,
-                iteration_id="2026-01-01-state",
-                case_id="state-case",
+                iteration_id="2026-01-01-ww01-state",
+                case_id=None,
                 post="https://example.test/post",
                 iterations_root=root / "iterations",
+                challenge_year=2026,
             )
             complete_case_metadata(iteration)
             metadata = iteration / "case.yaml"

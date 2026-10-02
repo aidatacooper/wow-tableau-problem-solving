@@ -1,5 +1,5 @@
-schema_version: 1.0.0
-case_id: donna-2019-08-14-9a4c743596c1
+schema_version: legacy-summary-1.0
+case_id: wow-2019-ww33-table-formatting
 iteration_id: 2019-08-14-ww33-table-formatting
 status: in_progress
 replication_mode: from_scratch
@@ -21,3 +21,69 @@ stages:
   capability_audit: completed
   build: completed
   verification: in_progress
+
+# Maintainer identity migration; historical evidence remains immutable.
+legacy_case_ids:
+  donna-2019-08-14-9a4c743596c1: wow-2019-ww33-table-formatting
+article_date: '2019-08-14'
+challenge_year: 2019
+challenge_week: 33
+source_workbook_date: '2019-08-14'
+date_evidence:
+  article_date: index.json publication date; matches preserved folder
+  challenge: Existing formal folder year and WW token; retained challenge identity
+  source_workbook_date: Date explicitly encoded in original workbook filename; not article publication
+    date
+source:
+  article:
+    url: https://donnacoles.home.blog/2019/08/14/coreys-table-challenge/
+    path: posts/2019-08-14-Corey’s_Table_Challenge.html
+    sha256: null
+  workbook:
+    url: https://public.tableau.com/views/2019_08_14_WW33_Table_Formatting/2019_08_14_WW33_Table_Formatting
+    path: dashboards/2019_08_14_WW33_Table_Formatting/2019_08_14_WW33_Table_Formatting.twbx
+    filename: 2019_08_14_WW33_Table_Formatting.twbx
+    sha256: null
+    workbook_id: tableau-ef34c4522d594504
+functional_status: partial
+visual_status: not_evaluated
+cwtwb_result: null
+cwtwb:
+  tested_version: 0.24.0
+verification_status: pending
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: null
+  cloud_replica: null
+artifact_aliases:
+  outputs/2019-08-14-ww33-table-formatting-replicated-workbook.twbx: outputs/replicated-workbook.twbx
+historical_artifacts:
+- path: evidence/2019_08_14_WW33_Table_Formatting_final_2019_08_14_WW33_Table_Formatting.png
+  role: historical_auxiliary
+  note: Retained historical or additional-view artifact; not the primary replica or proof of a matched
+    pair.
+- path: outputs/2019-08-14-ww33-table-formatting-replicated-workbook.twb
+  role: historical_twb_companion
+  note: Unpackaged companion retains its original name and bytes; primary packaged output is replicated-workbook.twbx.
+evidence:
+- evidence/build-provenance.json
+- evidence/cloud-validation.json
+- evidence/validation.json
+remaining_work: Confirm threshold/region interactions and final workbook verification; do not treat historical
+  openability as completed acceptance.
+notes:
+- Identity/path migration only; no rebuild, retest of visuals, or Cloud publishing. Historical evidence
+  IDs and hash-keyed filenames resolve through legacy_case_ids and artifact_aliases.
+- Source archive paths may be unavailable in a clean checkout; URL and locked hash identify the original
+  source. Null hashes/SDK results mean unknown, not inferred success.
+- No confidently identified primary author screenshot.
+- Grandfathered identity/summary metadata only. Historical verification is not v1 acceptance certification;
+  historical builders may read author data carriers and must be migrated separately before v1 rebuild
+  validation.
+- Original consumed status, commits, capabilities and reason retained verbatim in usage/history/consumed-cases-before-standardization.json;
+  current summaries come only from this case.yaml.
+- 'WW33 conflict: old consumed view and iteration.md claimed replicated; case.yaml status and stages.verification
+  were in_progress. validation.json proves local structure; cloud-validation.json proves prior openability
+  but references a missing cwtwb screenshot and a placeholder source. End-to-end interactions/visual comparison
+  are unconfirmed. Keep functional_status partial, verification pending, visual not_evaluated until new
+  evidence.'

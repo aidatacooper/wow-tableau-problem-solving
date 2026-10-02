@@ -1,5 +1,5 @@
 schema_version: 1.0.0
-case_id: ww44-sales-calendar-top3
+case_id: wow-2019-ww44-sales-calendar-top3
 iteration_id: 2019-11-01-ww44-sales-calendar-top3
 post: posts/2019-11-01-Can_you_build_a_Sales_calendar_with_top_3_highlighting.html
 
@@ -24,3 +24,47 @@ acceptance:
 workarounds: []
 capability_gaps: []
 related_cwtwb_issues: []
+
+# Maintainer identity migration; historical evidence remains immutable.
+legacy_case_ids:
+  ww44-sales-calendar-top3: wow-2019-ww44-sales-calendar-top3
+  donna-2019-11-01-8c1dddc00cf7: wow-2019-ww44-sales-calendar-top3
+article_date: '2019-11-01'
+challenge_year: 2019
+challenge_week: 44
+source_workbook_date: '2019-10-30'
+date_evidence:
+  article_date: index.json publication date; matches preserved folder
+  challenge: Existing formal folder year and WW token; retained challenge identity
+  source_workbook_date: Date explicitly encoded in original workbook filename; not article publication
+    date
+source:
+  article:
+    url: https://donnacoles.home.blog/2019/11/01/can-you-build-a-sales-calendar-with-top-3-highlighting/
+    path: posts/2019-11-01-Can_you_build_a_Sales_calendar_with_top_3_highlighting.html
+    sha256: null
+  workbook:
+    url: https://public.tableau.com/views/2019_10_30_WW44_Calendar/2019_10_30_WW44_Calendar_
+    path: dashboards/2019_10_30_WW44_Calendar/2019_10_30_WW44_Calendar.twbx
+    filename: 2019_10_30_WW44_Calendar.twbx
+    sha256: b0403f081967430ae6ef21da17c7432cb0192bb6ed14b8981af2036045867e95
+    workbook_id: tableau-1d067d7acec45261
+verification_status: historical
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: null
+  cloud_replica: null
+artifact_aliases:
+  outputs/2019-11-01-ww44-sales-calendar-top3-replicated-workbook.twbx: outputs/replicated-workbook.twbx
+historical_artifacts:
+- path: outputs/2019-11-01-ww44-sales-calendar-top3-replicated-workbook.twb
+  role: historical_twb_companion
+  note: Unpackaged companion retains its original name and bytes; primary packaged output is replicated-workbook.twbx.
+evidence:
+- inputs/source-lock.json
+notes:
+- Identity/path migration only; no rebuild, retest of visuals, or Cloud publishing. Historical evidence
+  IDs and hash-keyed filenames resolve through legacy_case_ids and artifact_aliases.
+- Source archive paths may be unavailable in a clean checkout; URL and locked hash identify the original
+  source. Null hashes/SDK results mean unknown, not inferred success.
+- No confidently identified primary author screenshot.

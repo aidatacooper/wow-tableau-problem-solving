@@ -73,9 +73,10 @@ AGPL-3.0-or-later license.
 
 ## Pull request boundary
 
-One PR handles one case and normally changes only its iteration directory.
-Contributors do not edit `usage/consumed-cases.json`; maintainers update shared
-indexes after merge.
+One PR handles one case and changes its iteration directory plus generated
+index views. Maintainer migrations can explicitly cover multiple legacy cases.
+Contributors regenerate both shared index views from case metadata and include
+them in the same change; they do not hand-edit generated status.
 
 Every case contains at least:
 
@@ -109,3 +110,11 @@ or `manual`. Automated IDs must be named in `verify_replication.py`; manual
 IDs must point to a committed evidence file. A `partial` or `blocked` case must
 describe `remaining_work`; blocked cwtwb results must also name the blocker and
 reusable capability gap.
+
+## Case identities and indexes
+
+Follow [the identity and naming rules](case-identity-and-naming.md). Formal folders retain the
+article publication date; canonical IDs include the explicit challenge year.
+Maintain `case.yaml` as the editable status source and regenerate both indexes
+with `python scripts/case_catalogue.py --write`. Include generated index changes
+with the case change; archived pilots and legacy aliases do not add active cases.

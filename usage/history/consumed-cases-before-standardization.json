@@ -1,0 +1,187 @@
+{
+  "schema_version": "1.0.0",
+  "updated_at": "2026-07-30",
+  "selection_policy": "exclude_consumed_cases_from_future_feature_iterations",
+  "consumed_cases": [
+    {
+      "case_id": "donna-2026-02-02-5ebab8421caf",
+      "workbook_ids": [
+        "tableau-90f17c56b06029af"
+      ],
+      "iteration": "2026-02-02-ww04-dynamic-moving-average",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "cwtwb_version": "0.24.0",
+      "cwtwb_commits": [
+        "c15adb8",
+        "4a39eb3",
+        "e401a12"
+      ],
+      "capabilities": [
+        "calculation.table.window_avg",
+        "calculation.table.metadata",
+        "worksheet.dual_axis",
+        "dashboard.parameter_control",
+        "packaging.twbx.asset_deduplication"
+      ],
+      "reason": "Fully replicated as an independent dynamic moving-average TWB/TWBX with parameter-driven grain, window, table-calculation filtering, synchronized dual axis, dashboard controls, and semantic validation."
+    },
+    {
+      "case_id": "donna-2026-02-09-1eb979fd64b6",
+      "workbook_ids": [
+        "tableau-93c74baea48daf50"
+      ],
+      "iteration": "2026-02-09-ww05-kpi-period-comparison",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "cwtwb_version": "0.24.0",
+      "cwtwb_commits": [
+        "c15adb8",
+        "4a39eb3"
+      ],
+      "capabilities": [
+        "worksheet.dual_axis",
+        "calculation.lod.fixed",
+        "dashboard.multi_worksheet",
+        "dashboard.parameter_control",
+        "chart.text"
+      ],
+      "reason": "Fully replicated as an independent period-aligned Profit Ratio trend and KPI dashboard with FIXED current/prior-day metrics and semantic validation."
+    },
+    {
+      "case_id": "donna-2026-02-15-44019b20eed6",
+      "workbook_ids": [
+        "tableau-f9dff954fb215221"
+      ],
+      "iteration": "2026-02-15-ww06-null-safe-averages",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "cwtwb_version": "0.24.0",
+      "cwtwb_commits": [
+        "c15adb8",
+        "4a39eb3",
+        "18d9361",
+        "cd98ce8"
+      ],
+      "capabilities": [
+        "dashboard.action.parameter",
+        "datasource.hierarchy",
+        "worksheet.domain_completion",
+        "worksheet.total.average"
+      ],
+      "reason": "Fully replicated from the original packaged Hyper datasource with null-safe averages, domain completion, Average subtotals, Apply parameter actions, and Tableau Cloud openability validation."
+    },
+    {
+      "case_id": "donna-2019-07-18-63877b35d19a",
+      "workbook_ids": [
+        "tableau-e27da65b4c05126c"
+      ],
+      "iteration": "2019-07-18-ww29-high-orders",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "cwtwb_version": "0.24.0",
+      "cwtwb_commits": [
+        "f6f1403"
+      ],
+      "capabilities": [
+        "chart.gantt_bar",
+        "feature.reference_line",
+        "calculation.lod.fixed",
+        "calculation.agg",
+        "packaging.original_hyper"
+      ],
+      "reason": "Fully replicated from the original packaged Hyper datasource with Segment/month FIXED LOD averages, Gantt difference marks, conditional color, field-backed reference lines, and Tableau Cloud screenshot validation."
+    },
+    {
+      "case_id": "donna-2019-07-25-59a0a144b25b",
+      "workbook_ids": [
+        "tableau-2dde40c2999debb2"
+      ],
+      "iteration": "2019-07-25-ww30-navigation-kpi",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "cwtwb_version": "0.24.0",
+      "cwtwb_commits": [
+        "9076f6a"
+      ],
+      "capabilities": [
+        "dashboard.action.go_to_sheet",
+        "dashboard.navigation_button",
+        "dashboard.multi_dashboard",
+        "chart.square_kpi",
+        "packaging.original_hyper"
+      ],
+      "reason": "Fully replicated from the original packaged Hyper datasource with four COUNTD KPI blocks, four native Go To Sheet actions, four ranked Sales detail dashboards, GO BACK navigation buttons, and Tableau Cloud openability validation."
+    },
+    {
+      "case_id": "donna-2019-08-04-a73aff7c512b",
+      "workbook_ids": [
+        "tableau-29b75742e9f36c7d"
+      ],
+      "iteration": "2019-08-04-ww31-hub-spoke-map",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "cwtwb_version": "0.24.0",
+      "cwtwb_commits": [
+        "a7d6872",
+        "a6f4eae",
+        "63f346f"
+      ],
+      "capabilities": [
+        "calculation.spatial.makepoint",
+        "calculation.spatial.makeline",
+        "worksheet.map_layers",
+        "worksheet.map_partition",
+        "dashboard.action.filter",
+        "packaging.original_hyper"
+      ],
+      "reason": "Fully replicated from the original MusicData Hyper with Region groups, Collect spatial derivations, Route and Destination layers, Artist-partitioned hub-and-spoke maps, hover filtering, and Tableau Cloud screenshot validation."
+    },
+    {
+      "case_id": "donna-2019-08-09-22359581fc60",
+      "workbook_ids": [
+        "tableau-a671a1f433d4dcca"
+      ],
+      "iteration": "2019-08-09-ww32-step-area-chart",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "cwtwb_version": "0.24.0",
+      "cwtwb_commits": [
+        "66c61ff"
+      ],
+      "capabilities": [
+        "chart.step_area",
+        "calculation.lod.fixed",
+        "calculation.table.lookup",
+        "calculation.table.window_max_min",
+        "worksheet.multi_pane",
+        "worksheet.measure_values",
+        "packaging.original_hyper"
+      ],
+      "reason": "Fully replicated from the original packaged Hyper with month-end step geometry, nested table calculations, synchronized Area and Measure Values axes, max/min change emphasis, and Tableau Cloud screenshot validation."
+    },
+    {
+      "case_id": "donna-2019-08-14-9a4c743596c1",
+      "workbook_ids": [
+        "tableau-ef34c4522d594504"
+      ],
+      "iteration": "2019-08-14-ww33-table-formatting",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "cwtwb_version": "0.24.0",
+      "cwtwb_commits": [
+        "76676bb"
+      ],
+      "capabilities": [
+        "chart.formatted_table",
+        "worksheet.multi_pane",
+        "worksheet.dual_axis",
+        "calculation.lod.fixed",
+        "parameter.threshold",
+        "dashboard.floating_filter",
+        "packaging.original_hyper"
+      ],
+      "reason": "Fully replicated from the original packaged Hyper with threshold-driven row highlighting, paired bold/normal labels, an 11-pane formatted table, selected-vs-other bars, and Tableau Cloud screenshot validation."
+    }
+  ]
+}

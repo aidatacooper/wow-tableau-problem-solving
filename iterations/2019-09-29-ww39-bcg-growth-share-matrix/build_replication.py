@@ -477,5 +477,5 @@ def build(p):
 
 if __name__ == "__main__":
     stem = f"{HERE.name}-replicated-workbook"
-    for suffix in (".twb", ".twbx"):
-        print(build(OUT / f"{stem}{suffix}"))
+    for filename in (f"{stem}.twb", "replicated-workbook.twbx"):
+        print(build(OUT / filename))

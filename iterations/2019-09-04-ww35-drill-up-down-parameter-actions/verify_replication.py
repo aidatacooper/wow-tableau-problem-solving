@@ -25,7 +25,7 @@ def check(root: etree._Element) -> None:
 
 def main() -> None:
     twb = HERE / "outputs" / "2019-09-04-ww35-drill-up-down-parameter-actions-replicated-workbook.twb"
-    twbx = HERE / "outputs" / "2019-09-04-ww35-drill-up-down-parameter-actions-replicated-workbook.twbx"
+    twbx = HERE / "outputs" / "replicated-workbook.twbx"
     check(etree.parse(str(twb)).getroot())
     with ZipFile(twbx) as archive:
         inner = next(name for name in archive.namelist() if name.endswith(".twb"))

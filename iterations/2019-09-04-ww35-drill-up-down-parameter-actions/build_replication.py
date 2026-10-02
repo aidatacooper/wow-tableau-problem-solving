@@ -108,6 +108,6 @@ def build(path: Path) -> Path:
 
 
 if __name__ == "__main__":
-    for name in ("2019-09-04-ww35-drill-up-down-parameter-actions-replicated-workbook.twb", "2019-09-04-ww35-drill-up-down-parameter-actions-replicated-workbook.twbx"):
+    for name in ("2019-09-04-ww35-drill-up-down-parameter-actions-replicated-workbook.twb", "replicated-workbook.twbx"):
         print(build(OUTPUTS / name))
 

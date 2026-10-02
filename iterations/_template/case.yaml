@@ -2,6 +2,23 @@ schema_version: 1.1.0
 case_id: __CASE_ID__
 iteration_id: __ITERATION_ID__
 post: __POST__
+# prepare_case fills these identity fields; never infer challenge year from article year.
+legacy_case_ids: {}
+article_date: null
+challenge_year: null
+challenge_week: null
+source_workbook_date: null
+date_evidence: {}
+source: {}
+verification_status: pending
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: null
+  cloud_replica: null
+artifact_aliases: {}
+historical_artifacts: []
+evidence: []
+notes: []
 
 cwtwb:
   tested_version: 0.26.0

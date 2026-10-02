@@ -1,187 +1,351 @@
 {
-  "schema_version": "1.0.0",
-  "updated_at": "2026-07-30",
+  "schema_version": "2.0.0",
+  "generated_from": "usage/case-index.json",
   "selection_policy": "exclude_consumed_cases_from_future_feature_iterations",
+  "legacy_case_ids": {
+    "donna-2019-07-18-63877b35d19a": "wow-2019-ww29-high-orders",
+    "donna-2019-07-25-59a0a144b25b": "wow-2019-ww30-navigation-kpi",
+    "donna-2019-08-04-a73aff7c512b": "wow-2019-ww31-hub-spoke-map",
+    "donna-2019-08-09-22359581fc60": "wow-2019-ww32-step-area-chart",
+    "donna-2019-08-14-9a4c743596c1": "wow-2019-ww33-table-formatting",
+    "donna-2019-09-02-0574e1681ed3": "wow-2019-ww34-top-n-single-worksheet",
+    "ww35-drill-up-down-parameter-actions": "wow-2019-ww35-drill-up-down-parameter-actions",
+    "donna-2019-09-04-8a2ea632c5e3": "wow-2019-ww35-drill-up-down-parameter-actions",
+    "ww36-custom-axis-tracker": "wow-2019-ww36-custom-axis-tracker",
+    "donna-2019-09-09-09185442a3ca": "wow-2019-ww36-custom-axis-tracker",
+    "ww37-rounded-bar-chart": "wow-2019-ww37-rounded-bar-chart",
+    "donna-2019-09-13-8185d5f271a8": "wow-2019-ww37-rounded-bar-chart",
+    "ww38-performance-indicators": "wow-2019-ww38-performance-indicators",
+    "donna-2019-09-20-a506ffb49a93": "wow-2019-ww38-performance-indicators",
+    "ww39-bcg-growth-share-matrix": "wow-2019-ww39-bcg-growth-share-matrix",
+    "donna-2019-09-29-6d6b32cf0212": "wow-2019-ww39-bcg-growth-share-matrix",
+    "ww40-show-hide-sheets": "wow-2019-ww40-show-hide-sheets",
+    "donna-2019-10-07-c6cbb44290da": "wow-2019-ww40-show-hide-sheets",
+    "ww41-customers-costing-us": "wow-2019-ww41-customers-costing-us",
+    "donna-2019-10-14-2a931f3fa584": "wow-2019-ww41-customers-costing-us",
+    "ww42-comparative-line-dynamic-inputs": "wow-2019-ww42-comparative-line-dynamic-inputs",
+    "donna-2019-10-19-763dfd1c3919": "wow-2019-ww42-comparative-line-dynamic-inputs",
+    "ww43-las-vegas-casinos": "wow-2019-ww43-las-vegas-casinos",
+    "donna-2019-10-25-f729b0153273": "wow-2019-ww43-las-vegas-casinos",
+    "ww44-sales-calendar-top3": "wow-2019-ww44-sales-calendar-top3",
+    "donna-2019-11-01-8c1dddc00cf7": "wow-2019-ww44-sales-calendar-top3",
+    "ww45-donut-calendar": "wow-2019-ww45-donut-calendar",
+    "donna-2019-11-11-95310fa6206d": "wow-2019-ww45-donut-calendar",
+    "donna-2026-02-02-5ebab8421caf": "wow-2026-ww04-dynamic-moving-average",
+    "donna-2026-02-09-1eb979fd64b6": "wow-2026-ww05-kpi-period-comparison",
+    "donna-2026-02-15-44019b20eed6": "wow-2026-ww06-null-safe-averages"
+  },
   "consumed_cases": [
     {
-      "case_id": "donna-2026-02-02-5ebab8421caf",
-      "workbook_ids": [
-        "tableau-90f17c56b06029af"
-      ],
-      "iteration": "2026-02-02-ww04-dynamic-moving-average",
-      "status": "consumed",
-      "replication_status": "replicated",
-      "cwtwb_version": "0.24.0",
-      "cwtwb_commits": [
-        "c15adb8",
-        "4a39eb3",
-        "e401a12"
-      ],
-      "capabilities": [
-        "calculation.table.window_avg",
-        "calculation.table.metadata",
-        "worksheet.dual_axis",
-        "dashboard.parameter_control",
-        "packaging.twbx.asset_deduplication"
-      ],
-      "reason": "Fully replicated as an independent dynamic moving-average TWB/TWBX with parameter-driven grain, window, table-calculation filtering, synchronized dual axis, dashboard controls, and semantic validation."
-    },
-    {
-      "case_id": "donna-2026-02-09-1eb979fd64b6",
-      "workbook_ids": [
-        "tableau-93c74baea48daf50"
-      ],
-      "iteration": "2026-02-09-ww05-kpi-period-comparison",
-      "status": "consumed",
-      "replication_status": "replicated",
-      "cwtwb_version": "0.24.0",
-      "cwtwb_commits": [
-        "c15adb8",
-        "4a39eb3"
-      ],
-      "capabilities": [
-        "worksheet.dual_axis",
-        "calculation.lod.fixed",
-        "dashboard.multi_worksheet",
-        "dashboard.parameter_control",
-        "chart.text"
-      ],
-      "reason": "Fully replicated as an independent period-aligned Profit Ratio trend and KPI dashboard with FIXED current/prior-day metrics and semantic validation."
-    },
-    {
-      "case_id": "donna-2026-02-15-44019b20eed6",
-      "workbook_ids": [
-        "tableau-f9dff954fb215221"
-      ],
-      "iteration": "2026-02-15-ww06-null-safe-averages",
-      "status": "consumed",
-      "replication_status": "replicated",
-      "cwtwb_version": "0.24.0",
-      "cwtwb_commits": [
-        "c15adb8",
-        "4a39eb3",
-        "18d9361",
-        "cd98ce8"
-      ],
-      "capabilities": [
-        "dashboard.action.parameter",
-        "datasource.hierarchy",
-        "worksheet.domain_completion",
-        "worksheet.total.average"
-      ],
-      "reason": "Fully replicated from the original packaged Hyper datasource with null-safe averages, domain completion, Average subtotals, Apply parameter actions, and Tableau Cloud openability validation."
-    },
-    {
-      "case_id": "donna-2019-07-18-63877b35d19a",
+      "case_id": "wow-2019-ww29-high-orders",
+      "legacy_case_ids": {
+        "donna-2019-07-18-63877b35d19a": "wow-2019-ww29-high-orders"
+      },
       "workbook_ids": [
         "tableau-e27da65b4c05126c"
       ],
       "iteration": "2019-07-18-ww29-high-orders",
       "status": "consumed",
       "replication_status": "replicated",
+      "verification_status": "historical",
       "cwtwb_version": "0.24.0",
-      "cwtwb_commits": [
-        "f6f1403"
-      ],
-      "capabilities": [
-        "chart.gantt_bar",
-        "feature.reference_line",
-        "calculation.lod.fixed",
-        "calculation.agg",
-        "packaging.original_hyper"
-      ],
-      "reason": "Fully replicated from the original packaged Hyper datasource with Segment/month FIXED LOD averages, Gantt difference marks, conditional color, field-backed reference lines, and Tableau Cloud screenshot validation."
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
     },
     {
-      "case_id": "donna-2019-07-25-59a0a144b25b",
+      "case_id": "wow-2019-ww30-navigation-kpi",
+      "legacy_case_ids": {
+        "donna-2019-07-25-59a0a144b25b": "wow-2019-ww30-navigation-kpi"
+      },
       "workbook_ids": [
         "tableau-2dde40c2999debb2"
       ],
       "iteration": "2019-07-25-ww30-navigation-kpi",
       "status": "consumed",
       "replication_status": "replicated",
+      "verification_status": "historical",
       "cwtwb_version": "0.24.0",
-      "cwtwb_commits": [
-        "9076f6a"
-      ],
-      "capabilities": [
-        "dashboard.action.go_to_sheet",
-        "dashboard.navigation_button",
-        "dashboard.multi_dashboard",
-        "chart.square_kpi",
-        "packaging.original_hyper"
-      ],
-      "reason": "Fully replicated from the original packaged Hyper datasource with four COUNTD KPI blocks, four native Go To Sheet actions, four ranked Sales detail dashboards, GO BACK navigation buttons, and Tableau Cloud openability validation."
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
     },
     {
-      "case_id": "donna-2019-08-04-a73aff7c512b",
+      "case_id": "wow-2019-ww31-hub-spoke-map",
+      "legacy_case_ids": {
+        "donna-2019-08-04-a73aff7c512b": "wow-2019-ww31-hub-spoke-map"
+      },
       "workbook_ids": [
         "tableau-29b75742e9f36c7d"
       ],
       "iteration": "2019-08-04-ww31-hub-spoke-map",
       "status": "consumed",
       "replication_status": "replicated",
+      "verification_status": "historical",
       "cwtwb_version": "0.24.0",
-      "cwtwb_commits": [
-        "a7d6872",
-        "a6f4eae",
-        "63f346f"
-      ],
-      "capabilities": [
-        "calculation.spatial.makepoint",
-        "calculation.spatial.makeline",
-        "worksheet.map_layers",
-        "worksheet.map_partition",
-        "dashboard.action.filter",
-        "packaging.original_hyper"
-      ],
-      "reason": "Fully replicated from the original MusicData Hyper with Region groups, Collect spatial derivations, Route and Destination layers, Artist-partitioned hub-and-spoke maps, hover filtering, and Tableau Cloud screenshot validation."
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
     },
     {
-      "case_id": "donna-2019-08-09-22359581fc60",
+      "case_id": "wow-2019-ww32-step-area-chart",
+      "legacy_case_ids": {
+        "donna-2019-08-09-22359581fc60": "wow-2019-ww32-step-area-chart"
+      },
       "workbook_ids": [
         "tableau-a671a1f433d4dcca"
       ],
       "iteration": "2019-08-09-ww32-step-area-chart",
       "status": "consumed",
       "replication_status": "replicated",
+      "verification_status": "historical",
       "cwtwb_version": "0.24.0",
-      "cwtwb_commits": [
-        "66c61ff"
-      ],
-      "capabilities": [
-        "chart.step_area",
-        "calculation.lod.fixed",
-        "calculation.table.lookup",
-        "calculation.table.window_max_min",
-        "worksheet.multi_pane",
-        "worksheet.measure_values",
-        "packaging.original_hyper"
-      ],
-      "reason": "Fully replicated from the original packaged Hyper with month-end step geometry, nested table calculations, synchronized Area and Measure Values axes, max/min change emphasis, and Tableau Cloud screenshot validation."
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
     },
     {
-      "case_id": "donna-2019-08-14-9a4c743596c1",
+      "case_id": "wow-2019-ww33-table-formatting",
+      "legacy_case_ids": {
+        "donna-2019-08-14-9a4c743596c1": "wow-2019-ww33-table-formatting"
+      },
       "workbook_ids": [
         "tableau-ef34c4522d594504"
       ],
       "iteration": "2019-08-14-ww33-table-formatting",
       "status": "consumed",
-      "replication_status": "replicated",
+      "replication_status": "partial",
+      "verification_status": "pending",
       "cwtwb_version": "0.24.0",
-      "cwtwb_commits": [
-        "76676bb"
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2019-ww34-top-n-single-worksheet",
+      "legacy_case_ids": {
+        "donna-2019-09-02-0574e1681ed3": "wow-2019-ww34-top-n-single-worksheet"
+      },
+      "workbook_ids": [
+        "tableau-6a0f09eb8e220c36"
       ],
-      "capabilities": [
-        "chart.formatted_table",
-        "worksheet.multi_pane",
-        "worksheet.dual_axis",
-        "calculation.lod.fixed",
-        "parameter.threshold",
-        "dashboard.floating_filter",
-        "packaging.original_hyper"
+      "iteration": "2019-09-02-ww34-top-n-single-worksheet",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "historical",
+      "cwtwb_version": "0.25.0",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2019-ww35-drill-up-down-parameter-actions",
+      "legacy_case_ids": {
+        "ww35-drill-up-down-parameter-actions": "wow-2019-ww35-drill-up-down-parameter-actions",
+        "donna-2019-09-04-8a2ea632c5e3": "wow-2019-ww35-drill-up-down-parameter-actions"
+      },
+      "workbook_ids": [
+        "tableau-22f20c6a451a043c"
       ],
-      "reason": "Fully replicated from the original packaged Hyper with threshold-driven row highlighting, paired bold/normal labels, an 11-pane formatted table, selected-vs-other bars, and Tableau Cloud screenshot validation."
+      "iteration": "2019-09-04-ww35-drill-up-down-parameter-actions",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "historical",
+      "cwtwb_version": "0.26.0",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2019-ww36-custom-axis-tracker",
+      "legacy_case_ids": {
+        "ww36-custom-axis-tracker": "wow-2019-ww36-custom-axis-tracker",
+        "donna-2019-09-09-09185442a3ca": "wow-2019-ww36-custom-axis-tracker"
+      },
+      "workbook_ids": [
+        "tableau-1874fb03b8c9d8f5"
+      ],
+      "iteration": "2019-09-09-ww36-custom-axis-tracker",
+      "status": "consumed",
+      "replication_status": "partial",
+      "verification_status": "pending",
+      "cwtwb_version": "0.26.0",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2019-ww37-rounded-bar-chart",
+      "legacy_case_ids": {
+        "ww37-rounded-bar-chart": "wow-2019-ww37-rounded-bar-chart",
+        "donna-2019-09-13-8185d5f271a8": "wow-2019-ww37-rounded-bar-chart"
+      },
+      "workbook_ids": [
+        "tableau-0468091b2518e339"
+      ],
+      "iteration": "2019-09-13-ww37-rounded-bar-chart",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "historical",
+      "cwtwb_version": "0.26.0",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2019-ww38-performance-indicators",
+      "legacy_case_ids": {
+        "ww38-performance-indicators": "wow-2019-ww38-performance-indicators",
+        "donna-2019-09-20-a506ffb49a93": "wow-2019-ww38-performance-indicators"
+      },
+      "workbook_ids": [
+        "tableau-51b5fa6847f4bc4f"
+      ],
+      "iteration": "2019-09-20-ww38-performance-indicators",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "historical",
+      "cwtwb_version": "0.26.0",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2019-ww39-bcg-growth-share-matrix",
+      "legacy_case_ids": {
+        "ww39-bcg-growth-share-matrix": "wow-2019-ww39-bcg-growth-share-matrix",
+        "donna-2019-09-29-6d6b32cf0212": "wow-2019-ww39-bcg-growth-share-matrix"
+      },
+      "workbook_ids": [
+        "tableau-53ec396e1c075d48"
+      ],
+      "iteration": "2019-09-29-ww39-bcg-growth-share-matrix",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "historical",
+      "cwtwb_version": "0.26.0",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2019-ww40-show-hide-sheets",
+      "legacy_case_ids": {
+        "ww40-show-hide-sheets": "wow-2019-ww40-show-hide-sheets",
+        "donna-2019-10-07-c6cbb44290da": "wow-2019-ww40-show-hide-sheets"
+      },
+      "workbook_ids": [
+        "tableau-e569390c96a4660d"
+      ],
+      "iteration": "2019-10-07-ww40-show-hide-sheets",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "historical",
+      "cwtwb_version": "0.26.0",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2019-ww41-customers-costing-us",
+      "legacy_case_ids": {
+        "ww41-customers-costing-us": "wow-2019-ww41-customers-costing-us",
+        "donna-2019-10-14-2a931f3fa584": "wow-2019-ww41-customers-costing-us"
+      },
+      "workbook_ids": [
+        "tableau-706718c7135bb81d"
+      ],
+      "iteration": "2019-10-14-ww41-customers-costing-us",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "historical",
+      "cwtwb_version": "0.26.0",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2019-ww42-comparative-line-dynamic-inputs",
+      "legacy_case_ids": {
+        "ww42-comparative-line-dynamic-inputs": "wow-2019-ww42-comparative-line-dynamic-inputs",
+        "donna-2019-10-19-763dfd1c3919": "wow-2019-ww42-comparative-line-dynamic-inputs"
+      },
+      "workbook_ids": [
+        "tableau-c818ef140b9c68aa"
+      ],
+      "iteration": "2019-10-19-ww42-comparative-line-dynamic-inputs",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "historical",
+      "cwtwb_version": "0.26.0",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2019-ww43-las-vegas-casinos",
+      "legacy_case_ids": {
+        "ww43-las-vegas-casinos": "wow-2019-ww43-las-vegas-casinos",
+        "donna-2019-10-25-f729b0153273": "wow-2019-ww43-las-vegas-casinos"
+      },
+      "workbook_ids": [
+        "tableau-5c0953826e64cb57"
+      ],
+      "iteration": "2019-10-25-ww43-las-vegas-casinos",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "historical",
+      "cwtwb_version": "0.26.0",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2019-ww44-sales-calendar-top3",
+      "legacy_case_ids": {
+        "ww44-sales-calendar-top3": "wow-2019-ww44-sales-calendar-top3",
+        "donna-2019-11-01-8c1dddc00cf7": "wow-2019-ww44-sales-calendar-top3"
+      },
+      "workbook_ids": [
+        "tableau-1d067d7acec45261"
+      ],
+      "iteration": "2019-11-01-ww44-sales-calendar-top3",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "historical",
+      "cwtwb_version": "0.26.0",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2019-ww45-donut-calendar",
+      "legacy_case_ids": {
+        "ww45-donut-calendar": "wow-2019-ww45-donut-calendar",
+        "donna-2019-11-11-95310fa6206d": "wow-2019-ww45-donut-calendar"
+      },
+      "workbook_ids": [
+        "tableau-7f382e42a28ea0a9"
+      ],
+      "iteration": "2019-11-11-ww45-donut-calendar",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "historical",
+      "cwtwb_version": "0.27.0",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2026-ww04-dynamic-moving-average",
+      "legacy_case_ids": {
+        "donna-2026-02-02-5ebab8421caf": "wow-2026-ww04-dynamic-moving-average"
+      },
+      "workbook_ids": [
+        "tableau-90f17c56b06029af"
+      ],
+      "iteration": "2026-02-02-ww04-dynamic-moving-average",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "historical",
+      "cwtwb_version": "0.24.0",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2026-ww05-kpi-period-comparison",
+      "legacy_case_ids": {
+        "donna-2026-02-09-1eb979fd64b6": "wow-2026-ww05-kpi-period-comparison"
+      },
+      "workbook_ids": [
+        "tableau-93c74baea48daf50"
+      ],
+      "iteration": "2026-02-09-ww05-kpi-period-comparison",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "historical",
+      "cwtwb_version": "0.24.0",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2026-ww06-null-safe-averages",
+      "legacy_case_ids": {
+        "donna-2026-02-15-44019b20eed6": "wow-2026-ww06-null-safe-averages"
+      },
+      "workbook_ids": [
+        "tableau-f9dff954fb215221"
+      ],
+      "iteration": "2026-02-15-ww06-null-safe-averages",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "historical",
+      "cwtwb_version": "0.24.0",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
     }
   ]
 }

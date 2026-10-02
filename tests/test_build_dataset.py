@@ -41,15 +41,75 @@ class DatasetBuilderTests(unittest.TestCase):
             item["case_id"]: item["replication_status"]
             for item in registry["consumed_cases"]
         }
-        self.assertEqual(statuses["donna-2026-02-02-5ebab8421caf"], "replicated")
-        self.assertEqual(statuses["donna-2026-02-09-1eb979fd64b6"], "replicated")
-        self.assertEqual(statuses["donna-2026-02-15-44019b20eed6"], "replicated")
+        self.assertEqual(statuses[registry["legacy_case_ids"]["donna-2026-02-02-5ebab8421caf"]], "replicated")
+        self.assertEqual(statuses[registry["legacy_case_ids"]["donna-2026-02-09-1eb979fd64b6"]], "replicated")
+        self.assertEqual(statuses[registry["legacy_case_ids"]["donna-2026-02-15-44019b20eed6"]], "replicated")
 
     def test_case_id_is_stable_and_date_scoped(self):
         url = "https://donnacoles.home.blog/2026/02/15/example/"
         actual = build_dataset.stable_case_id(url, "2026-02-15")
         expected_hash = hashlib.sha256(url.encode("utf-8")).hexdigest()[:12]
         self.assertEqual(actual, f"donna-2026-02-15-{expected_hash}")
+
+    def alias_registry(self):
+        return {
+            "schema_version": "2.0.0",
+            "legacy_case_ids": {"donna-old": "wow-2026-ww01-example"},
+            "consumed_cases": [{
+                "case_id": "wow-2026-ww01-example", "status": "consumed",
+                "legacy_case_ids": {"donna-old": "wow-2026-ww01-example"},
+                "workbook_ids": [],
+            }],
+        }
+
+    def test_canonical_and_alias_selection_counts_one_case(self):
+        registry = self.alias_registry()
+        selected = [{"case_id": value} for value in (
+            "donna-old", "wow-2026-ww01-example", "donna-unrelated")]
+        self.assertEqual(build_dataset.eligible_cases(selected, registry), selected[-1:])
+        self.assertEqual(len(build_dataset.canonical_consumed_case_ids(registry)), 1)
+        self.assertEqual(len(build_dataset.consumed_case_ids(registry)), 2)
+        self.assertEqual(selected[0]["case_id"], "donna-old")
+
+    def test_invalid_aliases_fail_closed_without_filtering_unrelated_cases(self):
+        for mapping in ({"donna-unrelated": "unknown"}, ["donna-old"],
+                        {" donna-old": "wow-2026-ww01-example"},
+                        {"wow-2026-ww01-example": "wow-2026-ww01-example"}):
+            with self.subTest(mapping=mapping):
+                registry = self.alias_registry()
+                registry["legacy_case_ids"] = mapping
+                with self.assertRaises(ValueError):
+                    build_dataset.eligible_cases([{"case_id": "donna-unrelated"}], registry)
+        registry = self.alias_registry()
+        registry["consumed_cases"][0]["legacy_case_ids"] = {"donna-unrelated": "unknown"}
+        with self.assertRaises(ValueError):
+            build_dataset.consumed_case_ids(registry)
+
+    def test_undeclared_global_alias_cannot_suppress_unrelated_source(self):
+        registry = self.alias_registry()
+        registry["legacy_case_ids"]["donna-unrelated"] = "wow-2026-ww01-example"
+        with self.assertRaisesRegex(ValueError, "must match canonical record aliases"):
+            build_dataset.eligible_cases([{"case_id": "donna-unrelated"}], registry)
+
+    def test_dataset_verification_resolves_alias_and_reports_unknown_case(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            dataset = root / "dataset"
+            (dataset / "cases/donna-old").mkdir(parents=True)
+            source = {"case_id": "donna-old", "tableau_links": []}
+            (dataset / "cases/donna-old/case.json").write_text(json.dumps(source))
+            (dataset / "cases.jsonl").write_text(json.dumps(source) + "\n")
+            (dataset / "workbooks.jsonl").write_text("")
+            for filename in ("dataset.json", "quality-report.json"):
+                (dataset / filename).write_text("{}")
+            registry = self.alias_registry()
+            (dataset / "usage.json").write_text(json.dumps(registry))
+            self.assertEqual(build_dataset.check_dataset(root), [])
+            registry["legacy_case_ids"] = {"donna-old": "unknown"}
+            (dataset / "usage.json").write_text(json.dumps(registry))
+            errors = build_dataset.check_dataset(root)
+            self.assertTrue(any("Invalid or conflicting case alias" in error for error in errors))
+            self.assertTrue(any("Unknown consumed case_id" in error for error in errors))
 
     def test_link_roles_are_conservative(self):
         role, confidence, _ = build_dataset.classify_link(

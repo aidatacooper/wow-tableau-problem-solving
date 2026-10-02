@@ -12,6 +12,11 @@ from pathlib import Path
 
 import yaml
 
+try:
+    from scripts.case_catalogue import check_catalogue, validate_identity
+except ModuleNotFoundError:
+    from case_catalogue import check_catalogue, validate_identity
+
 
 LAB_ROOT = Path(__file__).resolve().parents[1]
 REQUIRED_FILES = (
@@ -40,11 +45,17 @@ def sha256(path: Path) -> str:
 
 
 def validate_metadata(case_dir: Path) -> dict:
+    metadata = case_dir / "case.yaml"
+    if not metadata.is_file():
+        raise AssertionError("Missing required files: case.yaml")
+    case = yaml.safe_load(metadata.read_text(encoding="utf-8")) or {}
+    if case.get("schema_version") == "legacy-summary-1.0":
+        validate_identity(case_dir, case, LAB_ROOT)
+        return case
     missing = [name for name in REQUIRED_FILES if not (case_dir / name).is_file()]
     if missing:
         raise AssertionError(f"Missing required files: {', '.join(missing)}")
 
-    case = yaml.safe_load((case_dir / "case.yaml").read_text(encoding="utf-8"))
     required = {
         "schema_version",
         "case_id",
@@ -266,12 +277,21 @@ def run_case_script(case_dir: Path, filename: str) -> None:
 def validate_iteration(case_dir: Path, run_scripts: bool = True) -> None:
     case_dir = case_dir.resolve()
     case = validate_metadata(case_dir)
+    if case["schema_version"] == "legacy-summary-1.0":
+        # Historical summaries are identity contracts, not retrospective v1 claims.
+        # In particular, metadata migration must never rebuild legacy workbooks.
+        validate_identity(case_dir, case, LAB_ROOT)
+        check_catalogue(LAB_ROOT)
+        return
     validate_unique_identity(case_dir, case)
     validate_source_lock(case_dir, case)
     validate_builder_boundary(case_dir)
     if run_scripts:
         run_case_script(case_dir, "build_replication.py")
         run_case_script(case_dir, "verify_replication.py")
+    # A new case has no packaged output until its first build succeeds.
+    validate_identity(case_dir, case, LAB_ROOT)
+    check_catalogue(LAB_ROOT)
 
 
 def main() -> None:

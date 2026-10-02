@@ -15,7 +15,7 @@ def check(r):
  assert r.xpath(".//dashboard[@name='WW38 Performance Indicators']//zone[@type-v2='paramctrl']")
 def main():
  check(etree.parse(str(HERE/'outputs/2019-09-20-ww38-performance-indicators-replicated-workbook.twb')).getroot())
- with ZipFile(HERE/'outputs/2019-09-20-ww38-performance-indicators-replicated-workbook.twbx') as z: assert any(x.endswith('.hyper') for x in z.namelist()); check(etree.fromstring(z.read(next(x for x in z.namelist() if x.endswith('.twb')))))
+ with ZipFile(HERE/'outputs/replicated-workbook.twbx') as z: assert any(x.endswith('.hyper') for x in z.namelist()); check(etree.fromstring(z.read(next(x for x in z.namelist() if x.endswith('.twb')))))
  print('PASS: WW38 current/prior performance indicators')
 if __name__=='__main__': main()
 

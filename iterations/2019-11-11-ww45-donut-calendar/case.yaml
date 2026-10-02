@@ -1,5 +1,5 @@
 schema_version: 1.1.0
-case_id: ww45-donut-calendar
+case_id: wow-2019-ww45-donut-calendar
 iteration_id: 2019-11-11-ww45-donut-calendar
 post: https://donnacoles.home.blog/2019/11/11/what-is-our-daily-fulfilment-rate-by-region/
 
@@ -40,3 +40,58 @@ acceptance:
 workarounds: []
 capability_gaps: []
 related_cwtwb_issues: []
+
+# Maintainer identity migration; historical evidence remains immutable.
+legacy_case_ids:
+  ww45-donut-calendar: wow-2019-ww45-donut-calendar
+  donna-2019-11-11-95310fa6206d: wow-2019-ww45-donut-calendar
+article_date: '2019-11-11'
+challenge_year: 2019
+challenge_week: 45
+source_workbook_date: '2019-11-06'
+date_evidence:
+  article_date: index.json publication date; matches preserved folder
+  challenge: Existing formal folder year and WW token; retained challenge identity
+  source_workbook_date: Date explicitly encoded in original workbook filename; not article publication
+    date
+source:
+  article:
+    url: https://donnacoles.home.blog/2019/11/11/what-is-our-daily-fulfilment-rate-by-region/
+    path: posts/2019-11-11-What_is_our_daily_fulfilment_rate_by_region.html
+    sha256: null
+  workbook:
+    url: https://public.tableau.com/views/2019_11_06_WW45_Donut_Calendar/2019_11_06_WW45_Donut_Calendar_Single_Sheet
+    path: dashboards/2019_11_06_WW45_Donut_Calendar/2019_11_06_WW45_Donut_Calendar.twbx
+    filename: 2019_11_06_WW45_Donut_Calendar.twbx
+    sha256: 8f6fe3982dee47e4d47512e2adc71152d5a8e14bac6860dd0dda0b10522f640e
+    workbook_id: tableau-7f382e42a28ea0a9
+verification_status: historical
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases:
+  outputs/cloud_author_original_render.png: outputs/cloud-author.png
+  outputs/cloud_replicated_render.png: outputs/cloud-replica.png
+historical_artifacts:
+- path: outputs/author_original.twbx.twbx
+  role: author_source
+  note: Historical author acquisition artifact. Never use as a replica or a build template.
+- path: outputs/cloud_author_highres.png
+  role: additional_author_render
+  note: Additional historical author render; capture settings may differ. Not proof of visual matching.
+- path: outputs/replica_cwtwb_2019_11_06_WW45_Donut_Calendar.png
+  role: historical_auxiliary
+  note: Retained historical or additional-view artifact; not the primary replica or proof of a matched
+    pair.
+- path: outputs/test_cwtwb.twbx
+  role: probe
+  note: Experimental probe retained unchanged; not the primary output or matched screenshot.
+evidence:
+- inputs/source-lock.json
+notes:
+- Identity/path migration only; no rebuild, retest of visuals, or Cloud publishing. Historical evidence
+  IDs and hash-keyed filenames resolve through legacy_case_ids and artifact_aliases.
+- Source archive paths may be unavailable in a clean checkout; URL and locked hash identify the original
+  source. Null hashes/SDK results mean unknown, not inferred success.
+- Cloud render roles are identified, but this migration does not certify author/replica matching.

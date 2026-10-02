@@ -32,5 +32,5 @@ def build(path):
  e.add_dashboard('WW38 Performance Indicators',width=1100,height=700,layout={'type':'container','direction':'vertical','children':[{'type':'container','direction':'horizontal','fixed_size':90,'children':[{'type':'text','text':'MONTHLY SALES PERFORMANCE BY SEGMENT\nMonth-to-date sales compared with the same period last year','font_size':'18','weight':1},{'type':'paramctrl','parameter':'SELECT CATEGORY','mode':'compact','fixed_size':220}]},{'type':'container','direction':'horizontal','children':[{'type':'worksheet','name':'BAN','show_title':False,'fixed_size':250},{'type':'worksheet','name':'Chart','show_title':False,'fit':'entire','weight':1}]},{'type':'text','text':'#WORKOUTWEDNESDAY  |  2019  |  WEEK 38','font_size':'8','bold':True,'fixed_size':32}]},worksheet_names=['BAN','Chart'])
  OUT.mkdir(exist_ok=True); e.save(path,validate=False); return path
 if __name__=='__main__':
- for n in ('2019-09-20-ww38-performance-indicators-replicated-workbook.twb','2019-09-20-ww38-performance-indicators-replicated-workbook.twbx'): print(build(OUT/n))
+ for n in ('2019-09-20-ww38-performance-indicators-replicated-workbook.twb','replicated-workbook.twbx'): print(build(OUT/n))
 

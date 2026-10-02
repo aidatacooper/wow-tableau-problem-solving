@@ -10,7 +10,7 @@ def c(r):
  assert table.xpath(".//filter[contains(@column, 'Calculation_')]")
 def main():
  c(etree.parse(str(HERE/'outputs/2019-10-14-ww41-customers-costing-us-replicated-workbook.twb')).getroot())
- with ZipFile(HERE/'outputs/2019-10-14-ww41-customers-costing-us-replicated-workbook.twbx') as z:assert any(x.endswith('.hyper') for x in z.namelist());c(etree.fromstring(z.read(next(x for x in z.namelist() if x.endswith('.twb')))))
+ with ZipFile(HERE/'outputs/replicated-workbook.twbx') as z:assert any(x.endswith('.hyper') for x in z.namelist());c(etree.fromstring(z.read(next(x for x in z.namelist() if x.endswith('.twb')))))
  print('PASS: WW41 customer profitability diagnosis')
 if __name__=='__main__':main()
 

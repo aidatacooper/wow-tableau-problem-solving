@@ -16,7 +16,7 @@ from cwtwb.twb_editor import TWBEditor  # noqa: E402
 
 
 OUTPUT_TWB = ITERATION_DIR / "outputs" / "2026-02-09-ww05-kpi-period-comparison-replicated-workbook.twb"
-OUTPUT_TWBX = ITERATION_DIR / "outputs" / "2026-02-09-ww05-kpi-period-comparison-replicated-workbook.twbx"
+OUTPUT_TWBX = ITERATION_DIR / "outputs" / "replicated-workbook.twbx"
 REQUIRED_CALCULATIONS = {
     "Today Last Month",
     "Today Last Year",

@@ -18,7 +18,7 @@ from cwtwb.twb_editor import TWBEditor  # noqa: E402
 
 
 OUTPUT_TWB = ITERATION_DIR / "outputs" / "2019-08-09-ww32-step-area-chart-replicated-workbook.twb"
-OUTPUT_TWBX = ITERATION_DIR / "outputs" / "2019-08-09-ww32-step-area-chart-replicated-workbook.twbx"
+OUTPUT_TWBX = ITERATION_DIR / "outputs" / "replicated-workbook.twbx"
 LOCKED_HYPER = ITERATION_DIR / "inputs" / "Orders (Sample - Superstore).hyper"
 AUTHOR_TWB = (
     LAB_ROOT

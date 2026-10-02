@@ -67,13 +67,46 @@ def load_json(path: Path):
         return json.load(stream)
 
 
+def case_id_aliases(usage_registry: dict) -> dict[str, str]:
+    """Validate direct aliases against canonical records before using them."""
+    records = usage_registry.get("consumed_cases", [])
+    canonical = {item["case_id"] for item in records}
+    aliases: dict[str, str] = {}
+    declared_aliases: dict[str, str] = {}
+    mappings = [usage_registry.get("legacy_case_ids", {})]
+    for item in records:
+        mapping = item.get("legacy_case_ids", {})
+        if not isinstance(mapping, dict) or any(v != item["case_id"] for v in mapping.values()):
+            raise ValueError("Record aliases must target their own canonical case_id")
+        mappings.append(mapping)
+        declared_aliases.update(mapping)
+    for mapping in mappings:
+        if not isinstance(mapping, dict):
+            raise ValueError("legacy_case_ids must be a mapping")
+        for alias, target in mapping.items():
+            if (not isinstance(alias, str) or not alias or alias.strip() != alias
+                    or not isinstance(target, str) or target not in canonical
+                    or alias in canonical or (alias in aliases and aliases[alias] != target)):
+                raise ValueError(f"Invalid or conflicting case alias: {alias!r}")
+            aliases[alias] = target
+    if usage_registry.get("schema_version") == "2.0.0" and (
+            usage_registry.get("legacy_case_ids", {}) != declared_aliases):
+        raise ValueError("Registry aliases must match canonical record aliases")
+    return aliases
+
+
+def canonical_consumed_case_ids(usage_registry: dict) -> set[str]:
+    """Count canonical records, never their compatibility aliases."""
+    case_id_aliases(usage_registry)
+    return {item["case_id"] for item in usage_registry.get("consumed_cases", [])
+            if item.get("status") == "consumed"}
+
+
 def consumed_case_ids(usage_registry: dict) -> set[str]:
-    """Return case IDs that must be excluded from future feature selection."""
-    return {
-        item["case_id"]
-        for item in usage_registry.get("consumed_cases", [])
-        if item.get("status") == "consumed"
-    }
+    """Return canonical IDs and validated aliases excluded from selection."""
+    canonical = canonical_consumed_case_ids(usage_registry)
+    return canonical | {alias for alias, target in case_id_aliases(usage_registry).items()
+                        if target in canonical}
 
 
 def eligible_cases(cases: list[dict], usage_registry: dict) -> list[dict]:
@@ -532,7 +565,7 @@ def build_dataset(project: Path = PROJECT, clean: bool = False) -> dict:
         "quality": quality,
         "usage": {
             "selection_policy": usage_registry["selection_policy"],
-            "consumed_case_count": len(consumed_case_ids(usage_registry)),
+            "consumed_case_count": len(canonical_consumed_case_ids(usage_registry)),
             "eligible_case_count": len(eligible_cases(cases, usage_registry)),
         },
     }
@@ -623,13 +656,20 @@ def check_dataset(project: Path = PROJECT) -> list[str]:
     if len(workbook_ids) != len(set(workbook_ids)):
         errors.append("Duplicate workbook_id values found")
     known_workbook_ids = set(workbook_ids)
-    consumed_case_ids: set[str] = set()
+    try:
+        aliases = case_id_aliases(usage)
+    except ValueError as exc:
+        errors.append(str(exc))
+        aliases = {}
+    source_case_ids = {aliases.get(value, value) for value in case_ids}
+    seen_consumed: set[str] = set()
     for consumed in usage.get("consumed_cases", []):
         consumed_case_id = consumed.get("case_id", "")
-        if consumed_case_id in consumed_case_ids:
+        consumed_case_id = aliases.get(consumed_case_id, consumed_case_id)
+        if consumed_case_id in seen_consumed:
             errors.append(f"Duplicate consumed case_id {consumed_case_id}")
-        consumed_case_ids.add(consumed_case_id)
-        if consumed_case_id not in set(case_ids):
+        seen_consumed.add(consumed_case_id)
+        if consumed_case_id not in source_case_ids:
             errors.append(f"Unknown consumed case_id {consumed_case_id}")
         for workbook_id in consumed.get("workbook_ids", []):
             if workbook_id not in known_workbook_ids:

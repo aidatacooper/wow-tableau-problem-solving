@@ -38,5 +38,5 @@ def build(p):
  e.add_dashboard_set_action('WW41 Customers Costing Us','Scatter','Selected Customer',event_type='on-select',caption='Select Customer',clear_option='exclude-all')
  OUT.mkdir(exist_ok=True);e.save(p,validate=False);return p
 if __name__=='__main__':
- for n in ('2019-10-14-ww41-customers-costing-us-replicated-workbook.twb','2019-10-14-ww41-customers-costing-us-replicated-workbook.twbx'):print(build(OUT/n))
+ for n in ('2019-10-14-ww41-customers-costing-us-replicated-workbook.twb','replicated-workbook.twbx'):print(build(OUT/n))
 

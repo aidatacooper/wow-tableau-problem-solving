@@ -28,7 +28,7 @@ def main():
     )
     with ZipFile(
         HERE
-        / "outputs/2019-09-29-ww39-bcg-growth-share-matrix-replicated-workbook.twbx"
+        / "outputs/replicated-workbook.twbx"
     ) as z:
         assert any(x.endswith(".hyper") for x in z.namelist())
         c(etree.fromstring(z.read(next(x for x in z.namelist() if x.endswith(".twb")))))

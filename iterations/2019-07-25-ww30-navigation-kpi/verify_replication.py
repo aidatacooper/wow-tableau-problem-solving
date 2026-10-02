@@ -16,7 +16,7 @@ from cwtwb.twb_editor import TWBEditor  # noqa: E402
 
 
 OUTPUT_TWB = ITERATION_DIR / "outputs" / "2019-07-25-ww30-navigation-kpi-replicated-workbook.twb"
-OUTPUT_TWBX = ITERATION_DIR / "outputs" / "2019-07-25-ww30-navigation-kpi-replicated-workbook.twbx"
+OUTPUT_TWBX = ITERATION_DIR / "outputs" / "replicated-workbook.twbx"
 EXPECTED_NAVIGATION = {
     "Customers": "Customer Sales",
     "Products": "Product Sales",

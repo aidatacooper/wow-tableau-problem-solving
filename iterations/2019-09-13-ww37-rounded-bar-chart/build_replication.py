@@ -147,6 +147,6 @@ def build(path: Path) -> Path:
     return path
 
 if __name__ == "__main__":
-    for name in ("2019-09-13-ww37-rounded-bar-chart-replicated-workbook.twb", "2019-09-13-ww37-rounded-bar-chart-replicated-workbook.twbx"):
+    for name in ("2019-09-13-ww37-rounded-bar-chart-replicated-workbook.twb", "replicated-workbook.twbx"):
         print(build(OUTPUTS / name))
 

@@ -576,4 +576,4 @@ def _write_provenance(output_twb: Path) -> None:
 
 if __name__ == "__main__":
     print(build(OUTPUT_DIR / "2019-09-02-ww34-top-n-single-worksheet-replicated-workbook.twb",
-                OUTPUT_DIR / "2019-09-02-ww34-top-n-single-worksheet-replicated-workbook.twbx"))
+                OUTPUT_DIR / "replicated-workbook.twbx"))

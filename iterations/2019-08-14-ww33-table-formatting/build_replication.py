@@ -378,7 +378,7 @@ def build() -> dict:
     )
 
     twb_path = OUTPUT_DIR / "2019-08-14-ww33-table-formatting-replicated-workbook.twb"
-    twbx_path = OUTPUT_DIR / "2019-08-14-ww33-table-formatting-replicated-workbook.twbx"
+    twbx_path = OUTPUT_DIR / "replicated-workbook.twbx"
     editor.save(twb_path)
     editor.save(twbx_path)
 

@@ -13,7 +13,7 @@ def check(root):
     assert 'SUM(' in formulas['Region % of Sales']
     assert root.xpath(".//worksheet[@name='Viz']//pane/mark[@class='Bar']")
 def main():
-    twb=HERE/'outputs'/'2019-09-13-ww37-rounded-bar-chart-replicated-workbook.twb'; twbx=HERE/'outputs'/'2019-09-13-ww37-rounded-bar-chart-replicated-workbook.twbx'
+    twb=HERE/'outputs'/'2019-09-13-ww37-rounded-bar-chart-replicated-workbook.twb'; twbx=HERE/'outputs'/'replicated-workbook.twbx'
     check(etree.parse(str(twb)).getroot())
     with ZipFile(twbx) as z:
         assert any(n.endswith('.hyper') for n in z.namelist())
