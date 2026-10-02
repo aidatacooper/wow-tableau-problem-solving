@@ -1,3 +1,3 @@
-cwtwb @ git+https://github.com/aidatacooper/cwtwb.git@2ad7b6ca4f0f3a0b8731e50b4932ac21ffbcdc73
+cwtwb @ git+https://github.com/aidatacooper/cwtwb.git@8eaa324537c684c2c58356502fc03517810de864
 # Required by use_hyper schema introspection for independent case builds.
 tableauhyperapi==0.0.26700

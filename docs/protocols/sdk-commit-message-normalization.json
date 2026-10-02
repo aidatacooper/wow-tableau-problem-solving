@@ -1,0 +1,11 @@
+{
+  "reason": "Normalize cwtwb commit messages to existing conventional commit format; code trees unchanged.",
+  "commit_mapping": {
+    "f8081d67ebb216ce9cad2e81f3ca11b7a041e820": "4f1830702b4a8faebf4e92fab44755c6484736b2",
+    "2ad7b6ca4f0f3a0b8731e50b4932ac21ffbcdc73": "8eaa324537c684c2c58356502fc03517810de864",
+    "3b26f99df7d91ca7fccca319f06f804b794d3c31": "c6ce263cffa67e95c77ae56cae173ee1eedea6d9"
+  },
+  "historical_tested_commit": "2ad7b6ca4f0f3a0b8731e50b4932ac21ffbcdc73",
+  "current_dependency_commit": "8eaa324537c684c2c58356502fc03517810de864",
+  "historical_acceptance_unchanged": true
+}
