@@ -196,6 +196,23 @@
       "evidence": "evidence/cloud-verification.json",
       "visual_review": "separate_manual_gate",
       "hover_review": "not_asserted_by_static_verifier"
+    },
+    "sdk_action_mapping": {
+      "gate": "sdk_action_mapping",
+      "passed": true,
+      "checks": [
+        {
+          "hover_event": true,
+          "dashboard_exists": true,
+          "source_dashboard": true,
+          "source_worksheet": true,
+          "source_zone_exists": true,
+          "target_set_exact": true,
+          "clear_excludes_all": true,
+          "initial_set_empty": true
+        }
+      ],
+      "coverage": "Serialized SDK hover event, source view, target datasource/set and clear behavior; no browser hover execution claimed"
     }
   },
   "generated_by": "verify_replication.py"

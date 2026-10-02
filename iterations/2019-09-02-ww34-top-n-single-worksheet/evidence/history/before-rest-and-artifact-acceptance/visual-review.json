@@ -18,13 +18,13 @@
     "Zero baseline uses dotted appearance instead of author solid gray",
     "Small title/header vertical offsets and footer typography/layout differences"
   ],
-  "interaction_status": "sdk_action_contracts_verified",
+  "interaction_status": "not_evaluated",
   "note": "Parameter states exported through REST do not prove browser hover execution.",
   "case_id": "wow-2019-ww34-top-n-single-worksheet",
-  "cloud_captured_at": "2026-10-02T11:10:53.632338+00:00",
+  "cloud_captured_at": "2026-10-02T10:46:09.646554+00:00",
   "source_hashes": {
     "author": "e748228aa618417ec224a1b818ac6a88c64d830637609792520918fe242ac66a",
-    "replica": "08e176cc0b2aaa178a7d1a480f722a839506a3d70fed4284b0b747f7b5f8ff9a"
+    "replica": "78fb86453e5363d997319bb36a91d342e17d80f3f528c364b673bc247dd5c6f2"
   },
   "states": [
     {
@@ -70,7 +70,5 @@
   "captured_at": "2026-10-02T11:10:53.632338+00:00",
   "reviewed_workbook_sha256": "08e176cc0b2aaa178a7d1a480f722a839506a3d70fed4284b0b747f7b5f8ff9a",
   "current_workbook_sha256": "08e176cc0b2aaa178a7d1a480f722a839506a3d70fed4284b0b747f7b5f8ff9a",
-  "current_build_needs_recapture": false,
-  "acceptance_scope": "cloud_rest_and_artifact_contracts",
-  "browser_interaction_executed": false
+  "current_build_needs_recapture": false
 }

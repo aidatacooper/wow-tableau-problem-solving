@@ -1,0 +1,31 @@
+{
+  "case_id": "wow-2019-ww30-navigation-kpi",
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "passed": true,
+  "artifact_sha256": "3840c879b7bd419e7b9b152e8e496e8903f9cd7fe46a77347cbcbace1b32fdee",
+  "cloud_captured_at": "2026-10-02T11:26:03.603841+00:00",
+  "cloud_source_hashes": {
+    "author": "53645fae30240a543df101cfe37f7920c5c074d7426fcefbd4048c31a86868a8",
+    "replica": "3840c879b7bd419e7b9b152e8e496e8903f9cd7fe46a77347cbcbace1b32fdee"
+  },
+  "verifier_sha256": "a43e3494800ca9b0e5c7fe3a8af963d942e7a96badb9230f9d91be4530dc1c88",
+  "verifier_exit_code": 0,
+  "verifier_stdout": "PASS: acceptance and round-trip checks\n",
+  "coverage": [
+    "Five author/replica Cloud dashboards rendered",
+    "Four details all dimension keys and currency values exact (793/1850/604/5009)",
+    "Each of four KPI on-select sources resolves uniquely to correct existing target dashboard and window",
+    "Each GO BACK button references actual 4Box dashboard WINDOW UUID, not dashboard UUID",
+    "Colored active buttons visible in real Cloud exports",
+    "Packaged independent Hyper hash and SDK round-trip preserve action contracts"
+  ],
+  "limitations": [
+    "No browser click or hover execution claimed; acceptance uses user-approved REST state/image data and serialized SDK action contracts."
+  ],
+  "python311_compatibility": {
+    "interpreter": "/srv/hermes-workspaces/wow-ci-python311-validation/.venv-ci/bin/python3.11",
+    "exit_code": 0,
+    "stdout": "PASS: acceptance and round-trip checks\n"
+  }
+}

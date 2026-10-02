@@ -1,10 +1,10 @@
-"""WW06 local contracts; browser Apply-click evidence is validated separately."""
+"""WW06 Cloud REST and artifact contracts; browser clicks are not executed."""
 from hashlib import sha256
 import ast
 import json
 from pathlib import Path
 import tempfile
-from urllib.parse import quote
+from urllib.parse import quote, unquote
 from zipfile import ZipFile
 from lxml import etree
 from cwtwb import TWBEditor
@@ -81,20 +81,37 @@ def assert_acceptance(root):
     apply_palette = ds.find("style/style-rule[@element='mark']/encoding[@field='" + colour_ci.get("name") + "']")
     assert {b.text for b in apply_palette.findall("map/bucket")} == {"true", "false"}
 
+    # action-field-mapping-contract: every selected source value is bound to its correct target.
     actions = root.findall("./actions/edit-parameter-action")
     assert len(actions) == 2
-    assert {a.get("caption") for a in actions} == {"Set Min Date", "Set Max Date"}
+    assert {action.get("caption") for action in actions} == {"Set Min Date", "Set Max Date"}
     for action in actions:
         assert action.find("activation").get("type") == "on-select"
-        assert action.find("source").get("worksheet") == "Apply Button Filter"
+        source = action.find("source")
+        assert source.get("worksheet") == "Apply Button Filter"
+        assert source.get("dashboard") == "2026_02_11_WW06_Averages_and_Nulls"
         assert action.find("agg-type").get("type") == "attr"
         assert action.find("clear-option").get("type") == "do-nothing"
+        source_caption = "Min Date" if action.get("caption") == "Set Min Date" else "Max Date"
+        target_caption = "pMinDate" if source_caption == "Min Date" else "pMaxDate"
+        instance = apply_sheet.find(".//column-instance[@column='" + fields[source_caption].get("name") + "']")
+        assert action.find("params/param[@name='source-field']").get("value") == "[" + ds.get("name") + "]." + instance.get("name")
+        assert action.find("params/param[@name='target-parameter']").get("value") == "[Parameters]." + parameters[target_caption].get("name")
+    assert formula("Min Date") == "MIN([Order Date])" and formula("Max Date") == "MAX([Order Date])"
+    colour = formula("Colour")
+    assert fields["Min Date"].get("name") in colour and fields["Max Date"].get("name") in colour
+    assert parameters["pMinDate"].get("name") in colour and parameters["pMaxDate"].get("name") in colour
     deselect = root.find("./actions/action[@caption='Deselect Button']")
     assert deselect.find("activation").get("auto-clear") == "true"
-    expression = deselect.find("link").get("expression")
-    assert quote(fields["True"].get("name"), safe="") in expression
-    assert fields["False"].get("name") in expression
+    assert deselect.find("activation").get("type") == "on-select"
+    assert deselect.find("source").get("worksheet") == "Apply Button Filter"
+    target, payload = deselect.find("link").get("expression").split("?", 1)
+    assert unquote(target) == "tsl:Apply Button Filter"
+    destination, source_value = payload.split("~s0=", 1)
+    assert unquote(destination) == "[" + ds.get("name") + "]." + fields["True"].get("name")
+    assert source_value == "<[" + ds.get("name") + "]." + fields["False"].get("name") + "~na>"
     assert deselect.find("command/param[@name='target']").get("value") == "Apply Button Filter"
+    assert deselect.find("command/param[@name='exclude']") is None
     assert len(root.findall("./actions/*")) == 3
     dashboard = root.find("./dashboards/dashboard[@name='2026_02_11_WW06_Averages_and_Nulls']")
     assert dashboard.find(".//zone[@name='Viz']") is not None
@@ -121,7 +138,13 @@ def main():
         roundtrip = Path(directory) / "roundtrip.twbx"
         TWBEditor.open_existing(OUTPUT_TWBX).save(roundtrip, validate=False)
         assert_acceptance(load_root(roundtrip))
-    print("PASS: from-scratch, locked Hyper, null-safe count, Sunday matrix, average subtotal, three action definitions and round-trip; Apply click requires separate browser evidence")
+    # matrix-hyper-data-contract
+    from verify_matrix_data import verify as verify_matrix
+    verify_matrix(ITERATION_DIR / "evidence/matrix-data-contract.json")
+    # apply-rest-data-contract
+    from verify_cloud_data import verify
+    verify(ITERATION_DIR / "evidence/cloud-data-comparison.json")
+    print("PASS: from-scratch, locked Hyper, null-safe count, Sunday matrix, average subtotal, three action definitions and round-trip; action mappings checked structurally, browser clicks not executed")
 
 if __name__ == "__main__":
     main()

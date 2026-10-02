@@ -1,0 +1,28 @@
+{
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "accepted": true,
+  "checked_at": "2026-10-02T12:18:32.448796+00:00",
+  "functional_status": "replicated",
+  "visual_status": "acceptable_delta",
+  "pixel_matched": false,
+  "replica_sha256": "8b06b772a959c7bdd38ac117c2374647c02b19365373dcefd61ef8f6f3f12f28",
+  "cloud_captured_replica_sha256": "8b06b772a959c7bdd38ac117c2374647c02b19365373dcefd61ef8f6f3f12f28",
+  "capture_matches_current_artifact": true,
+  "cloud_snapshot_captured_at": "2026-10-02T11:26:49.417667+00:00",
+  "all_captured_PNG_and_CSV_hashes_verified": true,
+  "verifier_command": [
+    "/srv/hermes-workspaces/wow-ci-python311-validation/.venv-ci/bin/python3.11",
+    "/srv/hermes-workspaces/wow-case-standardization/iterations/2019-08-04-ww31-hub-spoke-map/verify_replication.py"
+  ],
+  "verifier_exit_code": 0,
+  "verifier_stdout": "PASS: independent locked data, chart and exact action mappings, Hyper Artist/Region filter aggregation/removal contracts, SDK round-trip; browser events not executed\n",
+  "evidence": [
+    "evidence/wordcloud-filter-data.json",
+    "evidence/visual-review.json",
+    "evidence/current-functional-verification.json"
+  ],
+  "limitations": [
+    "Browser events not executed. WW31 filtered wordcloud inputs independently calculated from Hyper; no filtered wordcloud REST states claimed. Default Dashboard CSV covers Ben summary only."
+  ]
+}

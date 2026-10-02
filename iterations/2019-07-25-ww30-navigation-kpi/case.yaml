@@ -26,7 +26,7 @@ source:
     filename: 2019_07_24_WW30_Navigation_KPI.twbx
     sha256: a6d52e237288424f13d0162c4b2ee7efca7e25a55282c47ca8f6d9590bf29cd5
     workbook_id: tableau-2dde40c2999debb2
-functional_status: partial
+functional_status: replicated
 visual_status: acceptable_delta
 cwtwb_result: pass
 cwtwb:
@@ -36,7 +36,7 @@ cwtwb:
     result: pass
     evidence: evidence/current-functional-verification.json
   tested_commit: 2ad7b6ca4f0f3a0b8731e50b4932ac21ffbcdc73
-verification_status: pending
+verification_status: verified
 artifacts:
   primary_workbook: outputs/replicated-workbook.twbx
   cloud_author: outputs/cloud-author.png
@@ -64,6 +64,7 @@ evidence:
 - evidence/history/pre-ten-cloud-verification/case.yaml
 - evidence/visual-review.json
 - evidence/cloud-data-verification.json
+- evidence/action-contract-verification.json
 notes:
 - Rebuilt with cwtwb 0.27.1 using independent inputs and public high-level SDK APIs
   only.
@@ -73,10 +74,9 @@ notes:
   historical author packages.
 - Cloud images and CSV are real server exports. Hover/click actions are not inferred
   from static XML or screenshots.
+- Accepted using Cloud REST and artifact contracts at user direction; browser_interaction_executed=false.
+  Earlier click/hover pending notes preserved in evidence/history/before-rest-and-artifact-acceptance.
 analysis_status: completed
-remaining_work:
-- 'Authenticated browser verification: click each KPI into its correct detail dashboard,
-  then GO BACK. Static render and UUID correctness do not prove actual click execution.'
 inputs:
   data_files:
   - inputs/Orders (Sample - Superstore).hyper
@@ -86,7 +86,10 @@ acceptance:
     packaged artifact and SDK round-trip.
   mode: automated
 - id: cloud-state-and-visual-review
-  description: Author and replica Cloud images and CSV exports; acceptance depends
-    on recorded review, UI actions separately.
+  description: Actual Cloud REST images/state CSV review plus serialized SDK action
+    source, event, target and clear contracts. Browser execution is outside the user-approved
+    acceptance scope.
   mode: manual
   evidence: evidence/visual-review.json
+acceptance_scope: cloud_rest_and_artifact_contracts
+browser_interaction_executed: false

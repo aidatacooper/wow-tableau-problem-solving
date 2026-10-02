@@ -8,12 +8,9 @@ cwtwb:
   - version: 0.27.1
     result: pass
     evidence: evidence/current-functional-verification.json
-  - version: 0.27.1
-    result: pass
-    evidence: evidence/rest-scope-acceptance.json
   tested_commit: 2ad7b6ca4f0f3a0b8731e50b4932ac21ffbcdc73
 analysis_status: completed
-functional_status: replicated
+functional_status: partial
 visual_status: acceptable_delta
 cwtwb_result: pass
 inputs:
@@ -25,14 +22,10 @@ acceptance:
     packaged artifact and SDK round-trip.
   mode: automated
 - id: cloud-state-and-visual-review
-  description: Actual author/replica Cloud images and 24 monthly CSV marks, with rounding
-    tolerance; no browser event execution claimed.
+  description: Author and replica Cloud images and CSV exports; acceptance depends
+    on recorded review, UI actions separately.
   mode: manual
-  evidence: evidence/rest-scope-acceptance.json
-- id: cloud-rest-action-contract
-  description: Hover set source/month/target/clear declarations and dependent reference-line
-    fields agree; six invalid action mappings are rejected.
-  mode: automated
+  evidence: evidence/visual-review.json
 workarounds: []
 related_cwtwb_issues: []
 legacy_case_ids:
@@ -60,7 +53,7 @@ source:
     filename: 2019_09_04_WW36_Custom_Axis_Ref_Line_Tracker.twbx
     sha256: 95b2c2dee481699d9cbea15cfd760a3d6c4480c6dd84e38a24bb589f1fbaba85
     workbook_id: tableau-1874fb03b8c9d8f5
-verification_status: verified
+verification_status: pending
 artifacts:
   primary_workbook: outputs/replicated-workbook.twbx
   cloud_author: outputs/cloud-author.png
@@ -79,7 +72,6 @@ evidence:
 - evidence/history/pre-ten-cloud-verification/case.yaml
 - evidence/visual-review.json
 - evidence/cloud-data-comparison.json
-- evidence/rest-scope-acceptance.json
 notes:
 - Rebuilt with cwtwb 0.27.1 using independent inputs and public high-level SDK APIs
   only.
@@ -89,8 +81,6 @@ notes:
   historical author packages.
 - Cloud images and CSV are real server exports. Hover/click actions are not inferred
   from static XML or screenshots.
-- Accepted under the user-selected Cloud REST and artifact-contract workflow. Browser
-  hover was not executed and is not a required condition of this acceptance; the prior
-  browser-pending requirement is preserved in history.
-acceptance_scope: cloud_rest_and_artifact_contracts
-browser_interaction_executed: false
+remaining_work:
+- Real browser hover must update the tracking reference line; static image and CSV
+  do not verify action execution.

@@ -5,6 +5,7 @@ import sys
 import tempfile
 import zipfile
 from hashlib import sha256
+from urllib.parse import unquote, quote
 
 from lxml import etree
 
@@ -52,9 +53,9 @@ def assert_acceptance(root: etree._Element) -> None:
     assert actual == expected
 
     fields = {
-        column.get("caption"): column
+        (column.get("caption") or column.get("name", "").strip("[]")): column
         for column in root.findall("./datasources/datasource/column")
-        if column.get("caption")
+        if column.get("name")
     }
     assert fields["Route"].get("datatype") == "spatial"
     assert "MAKELINE" in fields["Route"].find("calculation").get("formula")
@@ -125,18 +126,40 @@ def assert_acceptance(root: etree._Element) -> None:
     zones = {zone.get("name") for zone in dashboard.findall(".//zone[@name]")}
     assert expected <= zones
 
+    # action-field-mapping-contract: evaluate the serialized executable mapping, not captions only.
     actions = root.findall("./actions/action")
     assert len(actions) == 2
+    ds = root.find("./datasources/datasource[@caption]")
+    source_sheets = {"Ben Howard Summary": "Ben Howard", "Ed Sheeran Summary": "Ed Sheeran"}
+    assert {action.find("source").get("worksheet") for action in actions} == set(source_sheets)
     for action in actions:
-        assert action.find("activation").get("type") == "on-hover"
+        activation = action.find("activation")
+        assert activation.get("type") == "on-hover" and activation.get("auto-clear") == "true"
+        source = action.find("source")
+        assert source.get("dashboard") == DASHBOARD and source.get("type") == "sheet"
+        source_name = source.get("worksheet")
+        source_sheet = root.find("./worksheets/worksheet[@name='" + source_name + "']")
+        assert source_sheets[source_name] in etree.tostring(source_sheet, encoding="unicode")
         command = action.find("command")
         assert command.get("command") == "tsc:tsl-filter"
-        target = command.find("param[@name='target']")
-        assert target is not None
-        assert target.get("value") == DASHBOARD
-        exclude = command.find("param[@name='exclude']")
-        assert exclude is not None
-        assert "Fellow Artist Word Cloud" not in exclude.get("value")
+        assert command.find("param[@name='target']").get("value") == DASHBOARD
+        excluded = set(command.find("param[@name='exclude']").get("value").split(","))
+        assert excluded == expected - {"Fellow Artist Word Cloud"}, "Only word cloud is an action target"
+        link = action.find("link")
+        assert link.get("url-escape") == "true" and link.get("include-null") == "true"
+        target, payload = link.get("expression").split("?", 1)
+        assert target == "tsl:" + DASHBOARD
+        mappings = payload.split("&")
+        assert len(mappings) == 2
+        expected_map = {"[" + ds.get("name") + "]." + fields[name].get("name"): "<" + fields[name].get("name") + "~na>" for name in ("Artist", "Region")}
+        actual_map = {}
+        for mapping in mappings:
+            target_field, value = mapping.split("~s0=", 1)
+            actual_map[unquote(target_field)] = value
+        assert actual_map == expected_map, "Both Artist and Region source/target fields must match"
+        word = root.find("./worksheets/worksheet[@name='Fellow Artist Word Cloud']")
+        dependencies = {column.get("name") for column in word.findall("table/view/datasource-dependencies/column")}
+        assert fields["Artist"].get("name") in dependencies and fields["Region"].get("name") in dependencies
 
 
 # case-functional-contract: explicit assertions plus independent data and SDK round-trip.
@@ -150,7 +173,10 @@ def main() -> None:
         TWBEditor.open_existing(OUTPUT_TWBX).save(roundtrip, validate=False)
         assert_acceptance(load_root(roundtrip))
 
-    print("PASS: acceptance and round-trip checks")
+    # wordcloud-filter-data-contract
+    from verify_filter_data import verify
+    verify(ITERATION_DIR / "evidence/wordcloud-filter-data.json")
+    print("PASS: independent locked data, chart and exact action mappings, Hyper Artist/Region filter aggregation/removal contracts, SDK round-trip; browser events not executed")
 
 
 if __name__ == "__main__":

@@ -2,7 +2,7 @@
 
 Each replica is generated from an empty workbook through public cwtwb APIs. Images below are actual Tableau Cloud exports. Current screenshots/CSVs and historical run records are committed; repeated intermediate PNG/CSV exports remain on the validation server. Author sources remain separate; historical source locks are retained as provenance. The two date identities are article publication date and official challenge date.
 
-CSV comparisons establish only their documented exported scope. Static images, parameterized REST exports, and XML definitions do not establish browser hover or click behavior. Current acceptance and outstanding work are authoritative in each case.yaml and evidence/visual-review.json.
+CSV comparisons establish only their documented exported scope. Static images, parameterized REST exports, and XML definitions do not establish browser hover or click behavior. The user-defined acceptance scope is Cloud REST rendering, parameter/filter/data states, and serialized SDK action contracts. Browser interaction execution is outside this acceptance scope and is not claimed. Current acceptance is authoritative in each case.yaml and its evidence records.
 
 | Case | Author Cloud | SDK replica Cloud |
 | --- | --- | --- |
@@ -34,7 +34,7 @@ Public interfaces, tests and exact behavior are documented in cwtwb/docs/case-dr
 
 Install requirements.txt, then run python scripts/validate_iteration.py iterations/<case>. This builds and verifies a fresh artifact. Publishing requires TABLEAU_SERVER_URL, TABLEAU_SITE_ID, TABLEAU_TOKEN_NAME and TABLEAU_TOKEN_SECRET in the process environment, then python scripts/publish_to_cloud.py <twbx> --name <review-name> --project default. Do not store the secret in the repository.
 
-After final Cloud captures, run the verifier directly or validate_iteration.py --metadata-only: a rebuild generates fresh workbook identities and requires a new capture. Where present, verify_cloud_data.py compares saved exports without accessing credentials; additional state comparisons are recorded in evidence/cloud-data-verification.json. Browser action verification requires an authenticated Tableau web session; PAT authentication for REST is separate.
+After final Cloud captures, run the verifier directly or validate_iteration.py --metadata-only: a rebuild generates fresh workbook identities and requires a new capture. Where present, verify_cloud_data.py compares saved exports without accessing credentials; additional state comparisons are recorded in evidence/cloud-data-verification.json. Use PAT authentication for publishing and REST exports. Serialized action contracts verify event, source, target and clear behavior; no authenticated browser is required for the agreed acceptance scope.
 
 ## Validation
 
@@ -48,17 +48,17 @@ public SDK AST boundary. SDK regression coverage passes 440 tests with 25 skips.
 
 ## Current acceptance
 
-All ten cases pass local artifact contracts and have actual author/replica Cloud image reviews with acceptable visual differences. Five have completed the reported functional/state checks; five retain explicit browser interaction work. No case is marked pixel-identical.
+All ten cases pass local artifact contracts and have actual author/replica Cloud image reviews with acceptable visual differences. All ten are replicated within the agreed Cloud REST and artifact-contract scope. None is marked pixel-identical. Browser hover/click execution was not performed or claimed. Earlier browser-only pending assessments are preserved in case evidence/history; they are no longer required by the user-defined acceptance scope.
 
-| Case | Functional | Visual | Remaining acceptance |
+| Case | Functional | Visual | Acceptance scope |
 | --- | --- | --- | --- |
-| 2019-07-18-ww29-high-orders | replicated | acceptable_delta |  |
-| 2019-07-25-ww30-navigation-kpi | partial | acceptable_delta | Authenticated browser verification: click each KPI into its correct detail dashboard, then GO BACK. Static render and UUID correctness do not prove actual click execution. |
-| 2019-08-04-ww31-hub-spoke-map | partial | acceptable_delta | Real authenticated browser hover/click acceptance remains; Cloud visual review already passed. |
-| 2019-08-09-ww32-step-area-chart | replicated | acceptable_delta |  |
-| 2019-08-14-ww33-table-formatting | replicated | acceptable_delta |  |
-| 2019-09-02-ww34-top-n-single-worksheet | partial | acceptable_delta | Real browser hover must highlight corresponding manufacturer rank across regions and restore on leaving; three REST parameter states and all CSV values already agree. |
-| 2019-09-09-ww36-custom-axis-tracker | partial | acceptable_delta | Real browser hover must update the tracking reference line; static image and CSV do not verify action execution. |
-| 2026-02-02-ww04-dynamic-moving-average | replicated | acceptable_delta |  |
-| 2026-02-09-ww05-kpi-period-comparison | replicated | acceptable_delta |  |
-| 2026-02-15-ww06-null-safe-averages | partial | acceptable_delta | Real authenticated browser hover/click acceptance remains; Cloud visual review already passed. |
+| 2019-07-18-ww29-high-orders | replicated | acceptable_delta | Cloud REST and artifact contracts |
+| 2019-07-25-ww30-navigation-kpi | replicated | acceptable_delta | Cloud REST and artifact contracts |
+| 2019-08-04-ww31-hub-spoke-map | replicated | acceptable_delta | Cloud REST and artifact contracts |
+| 2019-08-09-ww32-step-area-chart | replicated | acceptable_delta | Cloud REST and artifact contracts |
+| 2019-08-14-ww33-table-formatting | replicated | acceptable_delta | Cloud REST and artifact contracts |
+| 2019-09-02-ww34-top-n-single-worksheet | replicated | acceptable_delta | Cloud REST and artifact contracts |
+| 2019-09-09-ww36-custom-axis-tracker | replicated | acceptable_delta | Cloud REST and artifact contracts |
+| 2026-02-02-ww04-dynamic-moving-average | replicated | acceptable_delta | Cloud REST and artifact contracts |
+| 2026-02-09-ww05-kpi-period-comparison | replicated | acceptable_delta | Cloud REST and artifact contracts |
+| 2026-02-15-ww06-null-safe-averages | replicated | acceptable_delta | Cloud REST and artifact contracts |

@@ -20,8 +20,10 @@
     "Footer spacing differs and original extra collaboration/data-source footer text is not fully reproduced",
     "Thin left trend axis boundary remains visible"
   ],
-  "interactions": "Exact action mappings and clearing definitions passed artifact contracts. Browser events excluded from user-authorized scope and not executed.",
-  "remaining_work": [],
+  "interactions": "Two on-hover dashboard filter action definitions are verified structurally; no authenticated browser hover action has been exercised",
+  "remaining_work": [
+    "In authenticated browser hover Ben and Ed regional summaries; verify Fellow Artist Word Cloud updates to selected Artist/Region and clearing hover restores expected results"
+  ],
   "data_evidence": "evidence/trend-endpoint-data.json independently queries actual Hyper: Ben last2019Jan/monthly running count195; Ed last2019Aug/count946. Default Dashboard CSV covers Ben regional summary only, not all maps/trend/wordcloud.",
   "evidence": [
     "outputs/cloud-author.png",
@@ -33,7 +35,5 @@
     "author": "09880e3ab841ac35bdc4232f1115061b6ac0828f2b4579bfa1f5248f9e100014",
     "replica": "8b06b772a959c7bdd38ac117c2374647c02b19365373dcefd61ef8f6f3f12f28"
   },
-  "captured_at": "2026-10-02T11:26:49.417667+00:00",
-  "acceptance_scope": "cloud_rest_and_artifact_contracts",
-  "browser_interaction_executed": false
+  "captured_at": "2026-10-02T11:26:49.417667+00:00"
 }

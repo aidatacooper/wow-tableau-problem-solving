@@ -61,8 +61,8 @@
       ],
       "iteration": "2019-07-25-ww30-navigation-kpi",
       "status": "consumed",
-      "replication_status": "partial",
-      "verification_status": "pending",
+      "replication_status": "replicated",
+      "verification_status": "verified",
       "cwtwb_version": "0.27.1",
       "reason": "Derived from case metadata; consumed means claimed, not verified completed."
     },
@@ -76,8 +76,8 @@
       ],
       "iteration": "2019-08-04-ww31-hub-spoke-map",
       "status": "consumed",
-      "replication_status": "partial",
-      "verification_status": "pending",
+      "replication_status": "replicated",
+      "verification_status": "verified",
       "cwtwb_version": "0.27.1",
       "reason": "Derived from case metadata; consumed means claimed, not verified completed."
     },
@@ -121,8 +121,8 @@
       ],
       "iteration": "2019-09-02-ww34-top-n-single-worksheet",
       "status": "consumed",
-      "replication_status": "partial",
-      "verification_status": "pending",
+      "replication_status": "replicated",
+      "verification_status": "verified",
       "cwtwb_version": "0.27.1",
       "reason": "Derived from case metadata; consumed means claimed, not verified completed."
     },
@@ -153,8 +153,8 @@
       ],
       "iteration": "2019-09-09-ww36-custom-axis-tracker",
       "status": "consumed",
-      "replication_status": "partial",
-      "verification_status": "pending",
+      "replication_status": "replicated",
+      "verification_status": "verified",
       "cwtwb_version": "0.27.1",
       "reason": "Derived from case metadata; consumed means claimed, not verified completed."
     },
@@ -342,8 +342,8 @@
       ],
       "iteration": "2026-02-15-ww06-null-safe-averages",
       "status": "consumed",
-      "replication_status": "partial",
-      "verification_status": "pending",
+      "replication_status": "replicated",
+      "verification_status": "verified",
       "cwtwb_version": "0.27.1",
       "reason": "Derived from case metadata; consumed means claimed, not verified completed."
     }

@@ -1,0 +1,66 @@
+{
+  "verified_at": "2026-10-02T12:20:55.219154+00:00",
+  "cloud_snapshot_captured_at": "2026-10-02T11:13:15.160549+00:00",
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "states": [
+    {
+      "state": "default",
+      "filters": {},
+      "parameters": {},
+      "values": {
+        "Colour": "true",
+        "True": "true",
+        "False": "false",
+        "Min Date": "2025-07-11",
+        "Max Date": "2025-07-23"
+      },
+      "csv_sha256": {
+        "author": "d17de807fbaefde9dfa17a8763b75a53558ab92ac4a23764892de2b3783ba71c",
+        "replica": "79f7deb275eed4d84a470ad97788b113b755844f2595c1cb129ca9a85a1deaf2"
+      },
+      "passed": true
+    },
+    {
+      "state": "short-date-range",
+      "filters": {},
+      "parameters": {
+        "pMinDate": "2025-07-14",
+        "pMaxDate": "2025-07-18"
+      },
+      "values": {
+        "Colour": "false",
+        "True": "true",
+        "False": "false",
+        "Min Date": "2025-07-11",
+        "Max Date": "2025-07-23"
+      },
+      "csv_sha256": {
+        "author": "f90d49feb584f13a0ff09b2830af8726b1c5fe6cf56fde180ad6e7998bd44e39",
+        "replica": "b9e6dff78de60420b29f02512cad2e8819a6678cdfd34c92ffb762c64d428413"
+      },
+      "passed": true
+    },
+    {
+      "state": "furniture-only",
+      "filters": {
+        "Category": "Furniture"
+      },
+      "parameters": {},
+      "values": {
+        "Colour": "false",
+        "True": "true",
+        "False": "false",
+        "Min Date": "2025-07-13",
+        "Max Date": "2025-07-22"
+      },
+      "csv_sha256": {
+        "author": "0152390bb62eddd7b2aae28f4b5f5756cb2e262114661983b1ca2e3a8d61e499",
+        "replica": "34d2c4eb4442e4e0035a8c13cf5476bdca7b28230e582b6c24b8db3422dcc72f"
+      },
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "scope": "REST dashboard CSV covers Apply Button Filter only. Matrix state values are separately reviewed in actual PNGs. Confirms date-filter min/max and calculated enabled-state parity, not execution of clicking Apply."
+}

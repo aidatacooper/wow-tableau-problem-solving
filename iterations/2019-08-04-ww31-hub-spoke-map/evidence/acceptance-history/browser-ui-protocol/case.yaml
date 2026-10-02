@@ -26,7 +26,7 @@ source:
     filename: 2019_07_31_WW31_WWPD_MusicData.twbx
     sha256: 7f363cdc25ac7d0ff03e2bd11a03ebff061e981001528451c50187a63176e876
     workbook_id: tableau-29b75742e9f36c7d
-functional_status: replicated
+functional_status: partial
 visual_status: acceptable_delta
 cwtwb_result: pass
 cwtwb:
@@ -36,7 +36,7 @@ cwtwb:
     result: pass
     evidence: evidence/current-functional-verification.json
   tested_commit: 2ad7b6ca4f0f3a0b8731e50b4932ac21ffbcdc73
-verification_status: verified
+verification_status: pending
 artifacts:
   primary_workbook: outputs/replicated-workbook.twbx
   cloud_author: outputs/cloud-author.png
@@ -174,11 +174,6 @@ evidence:
 - evidence/cloud-verification.json
 - evidence/history/pre-ten-cloud-verification/case.yaml
 - evidence/visual-review.json
-- evidence/wordcloud-filter-data.json
-- evidence/scope-acceptance.json
-- evidence/acceptance-history/browser-ui-protocol/case.yaml
-- evidence/acceptance-history/browser-ui-protocol/visual-review.json
-- evidence/acceptance-history/browser-ui-protocol/current-functional-verification.json
 notes:
 - Rebuilt with cwtwb 0.27.1 using independent inputs and public high-level SDK APIs
   only.
@@ -188,11 +183,11 @@ notes:
   historical author packages.
 - Cloud images and CSV are real server exports. Hover/click actions are not inferred
   from static XML or screenshots.
-- 'Accepted under cloud_rest_and_artifact_contracts: real Cloud exports and executable
-  artifact/locked-Hyper contracts. Browser events not executed; prior browser protocol
-  preserved in evidence/acceptance-history/browser-ui-protocol/.'
 analysis_status: completed
-remaining_work: []
+remaining_work:
+- Authenticated browser hover over Ben/Ed regional summary marks must filter the word
+  cloud correctly and restore it when leaving; Cloud visual and endpoint data review
+  already passed.
 inputs:
   data_files:
   - inputs/2019_07_31_PD25_WWPD_MusicData_Output.hyper
@@ -203,17 +198,7 @@ acceptance:
     packaged artifact and SDK round-trip.
   mode: automated
 - id: cloud-state-and-visual-review
-  description: Actual Cloud exports reviewed with documented acceptable visual deltas
-    under Cloud REST and artifact-contract scope.
+  description: Author and replica Cloud images and CSV exports; acceptance depends
+    on recorded review, UI actions separately.
   mode: manual
   evidence: evidence/visual-review.json
-- id: action-field-mapping-contract
-  description: Exact action activation, source fields, destination fields/parameters
-    and clearing definitions.
-  mode: automated
-- id: wordcloud-filter-data-contract
-  description: Independent locked-Hyper Artist/Region aggregation and filter-removal
-    contract.
-  mode: automated
-acceptance_scope: cloud_rest_and_artifact_contracts
-browser_interaction_executed: false

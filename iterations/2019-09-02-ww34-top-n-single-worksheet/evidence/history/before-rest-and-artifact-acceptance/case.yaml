@@ -35,7 +35,7 @@ source:
     filename: 2019_08_21_WW34_TopN_SingleWorksheet.twbx
     sha256: 06525AAF92CDFD29E1CF604C25616A8177A4C09AF7AE32955045953A53504385
     workbook_id: tableau-6a0f09eb8e220c36
-functional_status: replicated
+functional_status: partial
 visual_status: acceptable_delta
 cwtwb_result: pass
 cwtwb:
@@ -45,7 +45,7 @@ cwtwb:
     result: pass
     evidence: evidence/current-functional-verification.json
   tested_commit: 2ad7b6ca4f0f3a0b8731e50b4932ac21ffbcdc73
-verification_status: verified
+verification_status: pending
 artifacts:
   primary_workbook: outputs/replicated-workbook.twbx
   cloud_author: outputs/cloud-author.png
@@ -68,7 +68,6 @@ evidence:
 - evidence/history/pre-ten-cloud-verification/case.yaml
 - evidence/visual-review.json
 - evidence/cloud-data-verification.json
-- evidence/action-contract-verification.json
 notes:
 - Rebuilt with cwtwb 0.27.1 using independent inputs and public high-level SDK APIs
   only.
@@ -78,19 +77,18 @@ notes:
   historical author packages.
 - Cloud images and CSV are real server exports. Hover/click actions are not inferred
   from static XML or screenshots.
-- User accepts Cloud REST and artifact contracts; browser_interaction_executed=false.
-  Previous browser-pending records remain in evidence/history/before-rest-and-artifact-acceptance.
 post: posts/2019-09-02-Can_you_build_a_Top_N_Bar_Chart_on_a_Single_Worksheet.html
 analysis_status: completed
+remaining_work:
+- Real browser hover must highlight corresponding manufacturer rank across regions
+  and restore on leaving; three REST parameter states and all CSV values already agree.
 acceptance:
 - id: case-functional-contract
   description: Independent locked data, observable chart/calculation/action definitions,
     packaged artifact and SDK round-trip.
   mode: automated
 - id: cloud-state-and-visual-review
-  description: Actual Cloud REST image/state CSV review plus serialized SDK action
-    contracts. No browser hover execution claimed.
+  description: Author and replica Cloud images and CSV exports; acceptance depends
+    on recorded review, UI actions separately.
   mode: manual
   evidence: evidence/visual-review.json
-acceptance_scope: cloud_rest_and_artifact_contracts
-browser_interaction_executed: false

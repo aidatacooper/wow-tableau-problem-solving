@@ -144,9 +144,9 @@
           "workbook_id": "tableau-2dde40c2999debb2"
         }
       },
-      "functional_status": "partial",
+      "functional_status": "replicated",
       "visual_status": "acceptable_delta",
-      "verification_status": "pending",
+      "verification_status": "verified",
       "cwtwb_result": "pass",
       "artifacts": {
         "primary_workbook": "outputs/replicated-workbook.twbx",
@@ -179,13 +179,15 @@
         "evidence/cloud-verification.json",
         "evidence/history/pre-ten-cloud-verification/case.yaml",
         "evidence/visual-review.json",
-        "evidence/cloud-data-verification.json"
+        "evidence/cloud-data-verification.json",
+        "evidence/action-contract-verification.json"
       ],
       "notes": [
         "Rebuilt with cwtwb 0.27.1 using independent inputs and public high-level SDK APIs only.",
         "Article and official challenge dates remain the only date identities.",
         "Historical locks and acceptance are preserved separately; current Cloud source hashes identify refreshed author snapshots and do not certify byte identity with unavailable historical author packages.",
-        "Cloud images and CSV are real server exports. Hover/click actions are not inferred from static XML or screenshots."
+        "Cloud images and CSV are real server exports. Hover/click actions are not inferred from static XML or screenshots.",
+        "Accepted using Cloud REST and artifact contracts at user direction; browser_interaction_executed=false. Earlier click/hover pending notes preserved in evidence/history/before-rest-and-artifact-acceptance."
       ],
       "metadata": "iterations/2019-07-25-ww30-navigation-kpi/case.yaml",
       "metadata_contract": "1.1.0",
@@ -224,9 +226,9 @@
           "workbook_id": "tableau-29b75742e9f36c7d"
         }
       },
-      "functional_status": "partial",
+      "functional_status": "replicated",
       "visual_status": "acceptable_delta",
-      "verification_status": "pending",
+      "verification_status": "verified",
       "cwtwb_result": "pass",
       "artifacts": {
         "primary_workbook": "outputs/replicated-workbook.twbx",
@@ -423,13 +425,19 @@
         "evidence/current-functional-verification.json",
         "evidence/cloud-verification.json",
         "evidence/history/pre-ten-cloud-verification/case.yaml",
-        "evidence/visual-review.json"
+        "evidence/visual-review.json",
+        "evidence/wordcloud-filter-data.json",
+        "evidence/scope-acceptance.json",
+        "evidence/acceptance-history/browser-ui-protocol/case.yaml",
+        "evidence/acceptance-history/browser-ui-protocol/visual-review.json",
+        "evidence/acceptance-history/browser-ui-protocol/current-functional-verification.json"
       ],
       "notes": [
         "Rebuilt with cwtwb 0.27.1 using independent inputs and public high-level SDK APIs only.",
         "Article and official challenge dates remain the only date identities.",
         "Historical locks and acceptance are preserved separately; current Cloud source hashes identify refreshed author snapshots and do not certify byte identity with unavailable historical author packages.",
-        "Cloud images and CSV are real server exports. Hover/click actions are not inferred from static XML or screenshots."
+        "Cloud images and CSV are real server exports. Hover/click actions are not inferred from static XML or screenshots.",
+        "Accepted under cloud_rest_and_artifact_contracts: real Cloud exports and executable artifact/locked-Hyper contracts. Browser events not executed; prior browser protocol preserved in evidence/acceptance-history/browser-ui-protocol/."
       ],
       "metadata": "iterations/2019-08-04-ww31-hub-spoke-map/case.yaml",
       "metadata_contract": "1.1.0",
@@ -630,9 +638,9 @@
           "workbook_id": "tableau-6a0f09eb8e220c36"
         }
       },
-      "functional_status": "partial",
+      "functional_status": "replicated",
       "visual_status": "acceptable_delta",
-      "verification_status": "pending",
+      "verification_status": "verified",
       "cwtwb_result": "pass",
       "artifacts": {
         "primary_workbook": "outputs/replicated-workbook.twbx",
@@ -659,13 +667,15 @@
         "evidence/cloud-verification.json",
         "evidence/history/pre-ten-cloud-verification/case.yaml",
         "evidence/visual-review.json",
-        "evidence/cloud-data-verification.json"
+        "evidence/cloud-data-verification.json",
+        "evidence/action-contract-verification.json"
       ],
       "notes": [
         "Rebuilt with cwtwb 0.27.1 using independent inputs and public high-level SDK APIs only.",
         "Article and official challenge dates remain the only date identities.",
         "Historical locks and acceptance are preserved separately; current Cloud source hashes identify refreshed author snapshots and do not certify byte identity with unavailable historical author packages.",
-        "Cloud images and CSV are real server exports. Hover/click actions are not inferred from static XML or screenshots."
+        "Cloud images and CSV are real server exports. Hover/click actions are not inferred from static XML or screenshots.",
+        "User accepts Cloud REST and artifact contracts; browser_interaction_executed=false. Previous browser-pending records remain in evidence/history/before-rest-and-artifact-acceptance."
       ],
       "metadata": "iterations/2019-09-02-ww34-top-n-single-worksheet/case.yaml",
       "metadata_contract": "1.1.0",
@@ -770,9 +780,9 @@
           "workbook_id": "tableau-1874fb03b8c9d8f5"
         }
       },
-      "functional_status": "partial",
+      "functional_status": "replicated",
       "visual_status": "acceptable_delta",
-      "verification_status": "pending",
+      "verification_status": "verified",
       "cwtwb_result": "pass",
       "artifacts": {
         "primary_workbook": "outputs/replicated-workbook.twbx",
@@ -795,13 +805,15 @@
         "evidence/cloud-verification.json",
         "evidence/history/pre-ten-cloud-verification/case.yaml",
         "evidence/visual-review.json",
-        "evidence/cloud-data-comparison.json"
+        "evidence/cloud-data-comparison.json",
+        "evidence/rest-scope-acceptance.json"
       ],
       "notes": [
         "Rebuilt with cwtwb 0.27.1 using independent inputs and public high-level SDK APIs only.",
         "Article and official challenge dates remain the only date identities.",
         "Historical locks and acceptance are preserved separately; current Cloud source hashes identify refreshed author snapshots and do not certify byte identity with unavailable historical author packages.",
-        "Cloud images and CSV are real server exports. Hover/click actions are not inferred from static XML or screenshots."
+        "Cloud images and CSV are real server exports. Hover/click actions are not inferred from static XML or screenshots.",
+        "Accepted under the user-selected Cloud REST and artifact-contract workflow. Browser hover was not executed and is not a required condition of this acceptance; the prior browser-pending requirement is preserved in history."
       ],
       "metadata": "iterations/2019-09-09-ww36-custom-axis-tracker/case.yaml",
       "metadata_contract": "1.1.0",
@@ -1590,9 +1602,9 @@
           "workbook_id": "tableau-f9dff954fb215221"
         }
       },
-      "functional_status": "partial",
+      "functional_status": "replicated",
       "visual_status": "acceptable_delta",
-      "verification_status": "pending",
+      "verification_status": "verified",
       "cwtwb_result": "pass",
       "artifacts": {
         "primary_workbook": "outputs/replicated-workbook.twbx",
@@ -1618,13 +1630,20 @@
         "evidence/current-functional-verification.json",
         "evidence/cloud-verification.json",
         "evidence/history/pre-ten-cloud-verification/case.yaml",
-        "evidence/visual-review.json"
+        "evidence/visual-review.json",
+        "evidence/cloud-data-comparison.json",
+        "evidence/matrix-data-contract.json",
+        "evidence/scope-acceptance.json",
+        "evidence/acceptance-history/browser-ui-protocol/case.yaml",
+        "evidence/acceptance-history/browser-ui-protocol/visual-review.json",
+        "evidence/acceptance-history/browser-ui-protocol/current-functional-verification.json"
       ],
       "notes": [
         "Rebuilt with cwtwb 0.27.1 using independent inputs and public high-level SDK APIs only.",
         "Article and official challenge dates remain the only date identities.",
         "Historical locks and acceptance are preserved separately; current Cloud source hashes identify refreshed author snapshots and do not certify byte identity with unavailable historical author packages.",
-        "Cloud images and CSV are real server exports. Hover/click actions are not inferred from static XML or screenshots."
+        "Cloud images and CSV are real server exports. Hover/click actions are not inferred from static XML or screenshots.",
+        "Accepted under cloud_rest_and_artifact_contracts: actual Cloud exports, independent Hyper calculations and executable action contracts. Browser clicks not executed; prior browser protocol preserved in evidence/acceptance-history/browser-ui-protocol/."
       ],
       "metadata": "iterations/2026-02-15-ww06-null-safe-averages/case.yaml",
       "metadata_contract": "1.1.0",

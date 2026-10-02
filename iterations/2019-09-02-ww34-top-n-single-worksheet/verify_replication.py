@@ -521,6 +521,32 @@ def gate_cloud() -> dict:
             "visual_review": "separate_manual_gate", "hover_review": "not_asserted_by_static_verifier"}
 
 
+def gate_action_mapping(root):
+    """Offline SDK action contract; does not execute a browser hover."""
+    ds = _primary_ds(root)
+    actions = root.findall("./actions/edit-group-action")
+    expected_set = ds.find("group[@name='[Highlighted Manufacturer]']")
+    passed = len(actions) == 1 and expected_set is not None
+    details = []
+    for action in actions:
+        source = action.find("source")
+        params = {p.get("name"): p.get("value") for p in action.findall("params/param")}
+        target = f"[{ds.get('name')}].[Highlighted Manufacturer]"
+        checks = {
+            "hover_event": action.find("activation").get("type") == "on-hover",
+            "dashboard_exists": root.find(f"./dashboards/dashboard[@name='{DASHBOARD_NAME}']") is not None,
+            "source_dashboard": source.get("dashboard") == DASHBOARD_NAME,
+            "source_worksheet": source.get("worksheet") == "Viz" and source.get("type") == "sheet",
+            "source_zone_exists": root.find(f"./dashboards/dashboard[@name='{DASHBOARD_NAME}']//zone[@name='Viz']") is not None,
+            "target_set_exact": params.get("target-group") == target,
+            "clear_excludes_all": params.get("selection-clear-set-option") == "exclude-all",
+            "initial_set_empty": expected_set is not None and expected_set.find("groupfilter[@function='empty-level']") is not None,
+        }
+        passed = passed and all(checks.values())
+        details.append(checks)
+    return {"gate": "sdk_action_mapping", "passed": passed, "checks": details, "coverage": "Serialized SDK hover event, source view, target datasource/set and clear behavior; no browser hover execution claimed"}
+
+
 # case-functional-contract: explicit assertions plus independent data and SDK round-trip.
 def main() -> None:
     root = etree.parse(str(TWB)).getroot()
@@ -531,9 +557,10 @@ def main() -> None:
         "semantic": gate_semantic(root),
         "visual": gate_visual(root),
         "cloud_openability": gate_cloud(),
+        "sdk_action_mapping": gate_action_mapping(root),
     }
 
-    REQUIRED = ["source_independence", "build_provenance", "structure", "semantic", "visual"]
+    REQUIRED = ["source_independence", "build_provenance", "structure", "semantic", "visual", "sdk_action_mapping"]
     all_required_pass = all(gates[g]["passed"] is True for g in REQUIRED)
     any_failed = any(g.get("passed") is False for g in gates.values())
 

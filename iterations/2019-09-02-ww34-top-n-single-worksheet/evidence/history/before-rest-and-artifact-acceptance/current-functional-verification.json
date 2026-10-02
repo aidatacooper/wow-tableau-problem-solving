@@ -1,0 +1,15 @@
+{
+  "checked_at": "2026-10-02T11:30:09.621780+00:00",
+  "command": [
+    "python",
+    "iterations/2019-09-02-ww34-top-n-single-worksheet/verify_replication.py"
+  ],
+  "exit_code": 0,
+  "stdout": "[PASS] source_independence\n[PASS] build_provenance\n[PASS] structure\n[PASS] semantic\n[PASS] visual\n[PASS] cloud_openability\n\nstatus = semantically_replicated  (from_scratch=True)\n",
+  "stderr": "",
+  "sdk_version": "0.27.1",
+  "sdk_commit": "2ad7b6ca4f0f3a0b8731e50b4932ac21ffbcdc73",
+  "builder_sha256": "3b9beecaf1125b687dfc090312d4a7dca93de9a043502ad85ca497a7f3c03ebe",
+  "replica_sha256": "08e176cc0b2aaa178a7d1a480f722a839506a3d70fed4284b0b747f7b5f8ff9a",
+  "scope": "Final artifact-only verification after successful strict builds; no rebuild, UI pass not inferred."
+}

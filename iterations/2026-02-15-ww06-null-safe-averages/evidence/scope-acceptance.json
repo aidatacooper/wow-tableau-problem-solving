@@ -1,0 +1,29 @@
+{
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "accepted": true,
+  "checked_at": "2026-10-02T12:19:11.949444+00:00",
+  "functional_status": "replicated",
+  "visual_status": "acceptable_delta",
+  "pixel_matched": false,
+  "replica_sha256": "61efd92f4e521da125e305cdd6692bf74571da7e487226c8aafdfc5f08b38643",
+  "cloud_captured_replica_sha256": "61efd92f4e521da125e305cdd6692bf74571da7e487226c8aafdfc5f08b38643",
+  "capture_matches_current_artifact": true,
+  "cloud_snapshot_captured_at": "2026-10-02T11:13:15.160549+00:00",
+  "all_captured_PNG_and_CSV_hashes_verified": true,
+  "verifier_command": [
+    "/srv/hermes-workspaces/wow-ci-python311-validation/.venv-ci/bin/python3.11",
+    "/srv/hermes-workspaces/wow-case-standardization/iterations/2026-02-15-ww06-null-safe-averages/verify_replication.py"
+  ],
+  "verifier_exit_code": 0,
+  "verifier_stdout": "PASS: from-scratch, locked Hyper, null-safe count, Sunday matrix, average subtotal, three action definitions and round-trip; action mappings checked structurally, browser clicks not executed\n",
+  "evidence": [
+    "evidence/cloud-data-comparison.json",
+    "evidence/matrix-data-contract.json",
+    "evidence/visual-review.json",
+    "evidence/current-functional-verification.json"
+  ],
+  "limitations": [
+    "No browser Apply click executed. Dashboard REST CSV covers Apply only. Independent Hyper calculations cover matrix counts/averages; actual Cloud PNG review separately compares matrix presentation and visible values."
+  ]
+}

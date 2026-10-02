@@ -85,7 +85,14 @@ def assert_acceptance(root: etree._Element) -> None:
     for action in actions:
         source = action.find("source")
         assert source.get("dashboard") == "4 Box KPI"
+        assert source.get("type") == "sheet"
+        assert action.find("activation").get("type") == "on-select"
         target = action.find("./params/param[@name='sheet']")
+        assert source.get("worksheet") not in actual_navigation, "Each KPI must map once"
+        assert target.get("value") in dashboards
+        target_name = target.get("value")
+        target_window = root.find(f"./windows/window[@class='dashboard'][@name='{target_name}']/simple-id")
+        assert target_window is not None and target_window.get("uuid")
         actual_navigation[source.get("worksheet")] = target.get("value")
     assert actual_navigation == EXPECTED_NAVIGATION
 

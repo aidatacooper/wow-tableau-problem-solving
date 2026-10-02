@@ -8,9 +8,5 @@
     "Plot height and footer positions differ slightly; reference baseline and custom-axis points agree."
   ],
   "interaction_status": "not_evaluated",
-  "review_method": "Manual inspection of actual side-by-side author/replica Tableau Cloud high-resolution images; CSV checked separately.",
-  "acceptance_scope": "cloud_rest_and_artifact_contracts",
-  "browser_interaction_executed": false,
-  "action_contract_status": "verified_static_bindings",
-  "acceptance_evidence": "evidence/rest-scope-acceptance.json"
+  "review_method": "Manual inspection of actual side-by-side author/replica Tableau Cloud high-resolution images; CSV checked separately."
 }

@@ -1,0 +1,15 @@
+{
+  "checked_at": "2026-10-02T11:30:09.707133+00:00",
+  "command": [
+    "python",
+    "iterations/2019-09-09-ww36-custom-axis-tracker/verify_replication.py"
+  ],
+  "exit_code": 0,
+  "stdout": "PASS: WW36 hover set action and tracking reference lines\n",
+  "stderr": "",
+  "sdk_version": "0.27.1",
+  "sdk_commit": "2ad7b6ca4f0f3a0b8731e50b4932ac21ffbcdc73",
+  "builder_sha256": "32695518cef870d76d59ece1aecca9380647be028f7866a457e26bbcc18ccab3",
+  "replica_sha256": "e80b66a2d77a66c4599d98de7ebe712b22ae0e489ac8adf848bcc59f1c0b3621",
+  "scope": "Final artifact-only verification after successful strict builds; no rebuild, UI pass not inferred."
+}

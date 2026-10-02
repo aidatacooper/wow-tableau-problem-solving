@@ -18,8 +18,10 @@
     "Minor title/header font weight, sidebar vertical spacing and outer matrix border differences",
     "Furniture-only fitted table remains narrower than author while keeping all seven weekday columns and matching values"
   ],
-  "interactions": "Three REST states and exact Apply action mappings passed. Browser clicks excluded from user-authorized scope and not executed.",
-  "remaining_work": [],
+  "interactions": "REST filter/parameter states have been rendered; browser Apply click remains untested",
+  "remaining_work": [
+    "In authenticated browser change Order Date filter, click Apply, verify pMinDate/pMaxDate update to selected bounds, matrix changes and selection clears; no static image substitutes for this test"
+  ],
   "csv_scope": "Dashboard CSV is Apply Button Filter only, not matrix. Matrix values above are manual comparison of actual author/replica Cloud screenshots, not inferred from CSV.",
   "evidence": [
     "outputs/cloud-author.png",
@@ -34,7 +36,5 @@
     "author": "7240cf7366eac680f961078b25da210a01253d7c3523d7267db7e5a4ecc5b37d",
     "replica": "61efd92f4e521da125e305cdd6692bf74571da7e487226c8aafdfc5f08b38643"
   },
-  "captured_at": "2026-10-02T11:13:15.160549+00:00",
-  "acceptance_scope": "cloud_rest_and_artifact_contracts",
-  "browser_interaction_executed": false
+  "captured_at": "2026-10-02T11:13:15.160549+00:00"
 }

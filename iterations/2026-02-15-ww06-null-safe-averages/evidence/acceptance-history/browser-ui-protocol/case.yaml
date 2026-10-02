@@ -26,7 +26,7 @@ source:
     filename: 2026_02_11_WW06_Averages_and_Nulls.twbx
     sha256: 282dc9463781e394ca355702df5f5d795e07e316e2d0816511320360485a3dd5
     workbook_id: tableau-f9dff954fb215221
-functional_status: replicated
+functional_status: partial
 visual_status: acceptable_delta
 cwtwb_result: pass
 cwtwb:
@@ -36,7 +36,7 @@ cwtwb:
     result: pass
     evidence: evidence/current-functional-verification.json
   tested_commit: 2ad7b6ca4f0f3a0b8731e50b4932ac21ffbcdc73
-verification_status: verified
+verification_status: pending
 artifacts:
   primary_workbook: outputs/replicated-workbook.twbx
   cloud_author: outputs/cloud-author.png
@@ -58,12 +58,6 @@ evidence:
 - evidence/cloud-verification.json
 - evidence/history/pre-ten-cloud-verification/case.yaml
 - evidence/visual-review.json
-- evidence/cloud-data-comparison.json
-- evidence/matrix-data-contract.json
-- evidence/scope-acceptance.json
-- evidence/acceptance-history/browser-ui-protocol/case.yaml
-- evidence/acceptance-history/browser-ui-protocol/visual-review.json
-- evidence/acceptance-history/browser-ui-protocol/current-functional-verification.json
 notes:
 - Rebuilt with cwtwb 0.27.1 using independent inputs and public high-level SDK APIs
   only.
@@ -73,11 +67,11 @@ notes:
   historical author packages.
 - Cloud images and CSV are real server exports. Hover/click actions are not inferred
   from static XML or screenshots.
-- 'Accepted under cloud_rest_and_artifact_contracts: actual Cloud exports, independent
-  Hyper calculations and executable action contracts. Browser clicks not executed;
-  prior browser protocol preserved in evidence/acceptance-history/browser-ui-protocol/.'
 analysis_status: completed
-remaining_work: []
+remaining_work:
+- Authenticated browser date-filter change then Apply click must update both min/max
+  date parameters and matrix values, then clear the Apply selection; REST state rendering
+  already passed.
 inputs:
   data_files:
   - inputs/Sample - Superstore_Orders.hyper
@@ -87,20 +81,7 @@ acceptance:
     packaged artifact and SDK round-trip.
   mode: automated
 - id: cloud-state-and-visual-review
-  description: Actual Cloud exports reviewed with acceptable visual deltas under Cloud
-    REST and artifact-contract scope.
+  description: Author and replica Cloud images and CSV exports; acceptance depends
+    on recorded review, UI actions separately.
   mode: manual
   evidence: evidence/visual-review.json
-- id: action-field-mapping-contract
-  description: Exact Apply source fields/target parameters, clearing and False-to-True
-    filter mappings.
-  mode: automated
-- id: apply-rest-data-contract
-  description: Three real Apply-only REST CSV states match; not matrix CSV.
-  mode: automated
-- id: matrix-hyper-data-contract
-  description: Independent Hyper conditional COUNTD, Sunday ordering and category
-    mean calculations.
-  mode: automated
-acceptance_scope: cloud_rest_and_artifact_contracts
-browser_interaction_executed: false
