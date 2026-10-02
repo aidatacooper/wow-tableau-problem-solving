@@ -336,6 +336,39 @@
       "reason": "Derived from case metadata; consumed means claimed, not verified completed."
     },
     {
+      "case_id": "wow-2019-ww49-swap-states",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2019-12-08-ww49-swap-states",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2019-ww50-retention-heatmap",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2019-12-15-ww50-retention-heatmap",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2019-ww51-sales-performance-dashboard",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2019-12-23-ww51-sales-performance-dashboard",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
       "case_id": "wow-2026-ww04-dynamic-moving-average",
       "legacy_case_ids": {
         "donna-2026-02-02-5ebab8421caf": "wow-2026-ww04-dynamic-moving-average"
@@ -392,10 +425,32 @@
       "reason": "Derived from case metadata; consumed means claimed, not verified completed."
     },
     {
+      "case_id": "wow-2026-ww08-dzv-filter-actions",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2026-03-01-ww08-dzv-filter-actions",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
       "case_id": "wow-2026-ww09-parallel-coordinates",
       "legacy_case_ids": {},
       "workbook_ids": [],
       "iteration": "2026-03-12-ww09-parallel-coordinates",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2026-ww11-layout-containers",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2026-03-23-ww11-layout-containers",
       "status": "consumed",
       "replication_status": "replicated",
       "verification_status": "verified",

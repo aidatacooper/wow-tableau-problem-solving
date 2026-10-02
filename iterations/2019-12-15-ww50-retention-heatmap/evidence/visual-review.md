@@ -1,0 +1,9 @@
+# Cloud REST visual and data review
+
+Status: **replicated / acceptable_delta** within Cloud REST state and artifact-contract acceptance. Original and replica images were independently inspected side by side for default26weeks,10weeks and18weeks. No browser click or hover was executed.
+
+Both dashboards show identical cohort identities in reverse date order, cohort-size headers, complete week1..N?1 heatmap cells, custom20-color Viridis gradient and range legend, marginal weekN retention labels and headline21.2%,23.5%,21.3%. The10-week state expands to43rows/9columns;18weeks has35rows/17columns;26weeks has27rows/25columns. The first/last visible cohorts and marginal percentages align with the original.
+
+`verify_cloud_data.py` checks current workbook SHA256 against the actual Cloud receipt, CSV hashes, all675/387/595 visible matrix cells, all27/43/35 marginal bars, and source Data's1431cohort/week pairs?4measures per exported state. Counts and cohort sizes are exact; percentage strings allow only their actual one-decimal rounding. Original sourceData percentages agree to1e-8 with independent Hyper aggregation. Dashboard CSV is **BAN only**; it is not used as proof of either matrix or marginal histogram. Both actual headline denominators select distinct cohort sizes, proving Tableau FIXED internal deduplication and rejecting the row-repeated candidate.
+
+Remaining visual differences are modest worksheet padding, font weight, the visible Time Period control caption and omitted footer hyperlink decoration. Both original and replica truncate several long September cohort dates in the10-week state. The original10-week saved header includes a blue selection tint; no browser selection is reproduced. These differences do not change numerical interpretation or available parameter states, and the result is not claimed pixel-identical.

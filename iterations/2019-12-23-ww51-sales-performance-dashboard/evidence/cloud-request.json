@@ -1,0 +1,53 @@
+{
+  "case_dir": "iterations/2019-12-23-ww51-sales-performance-dashboard",
+  "author_workbook": "dashboards/2019_12_18_WW51_SalesPerfDashboard.twbx",
+  "author_view": "2019_12_18_WW51_SalesPerfDashboard",
+  "replica_view": "2019_12_18_WW51_SalesPerfDashboard",
+  "states": [
+    {
+      "name": "year-2019",
+      "filters": {
+        "YEAR(Order Date)": "2019"
+      }
+    },
+    {
+      "name": "california",
+      "filters": {
+        "State": "California"
+      }
+    },
+    {
+      "name": "year-2019-california",
+      "filters": {
+        "YEAR(Order Date)": "2019",
+        "State": "California"
+      }
+    }
+  ],
+  "data_views": [
+    {
+      "name": "dashboard",
+      "author": "2019_12_18_WW51_SalesPerfDashboard",
+      "replica": "2019_12_18_WW51_SalesPerfDashboard",
+      "scope": "Actual Tableau-selected dashboard worksheet CSV; determine returned scope from columns, not assumed to cover six charts."
+    },
+    {
+      "name": "weekly",
+      "author": "2019_12_18_WW51_SalesPerfDashboard",
+      "replica": "Sales By Week ",
+      "scope": "Author dashboard CSV still Bar by Sub Cat ONLY; replica standalone Sales By Week  full data validated separately against Hyper."
+    },
+    {
+      "name": "monthly",
+      "author": "2019_12_18_WW51_SalesPerfDashboard",
+      "replica": "Sales by Month",
+      "scope": "Author dashboard CSV still Bar by Sub Cat ONLY; replica standalone Sales by Month full data validated separately against Hyper."
+    },
+    {
+      "name": "matrix",
+      "author": "2019_12_18_WW51_SalesPerfDashboard",
+      "replica": "Dot by Sub Cat ",
+      "scope": "Author dashboard CSV still Bar by Sub Cat ONLY; replica standalone Dot by Sub Cat  full data validated separately against Hyper."
+    }
+  ]
+}

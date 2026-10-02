@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-02",
+  "source_workbook": {
+    "filename": "2019_12_18_WW51_SalesPerfDashboard.twbx",
+    "bytes": 396771,
+    "sha256": "7a1990878e1714cdf4bb37e965a9f4695b0edd29f8599100e02163494e9578e3",
+    "url": "https://public.tableau.com/views/2019_12_18_WW51_SalesPerfDashboard/2019_12_18_WW51_SalesPerfDashboard"
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Datasources/Orders (Sample - Superstore).hyper",
+      "file": "inputs/Orders (Sample - Superstore).hyper",
+      "bytes": 983040,
+      "sha256": "19dfa544fea7f56cb039979bceaa6575a8e0124884f9e04f3acba7e91ff6248e"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

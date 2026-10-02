@@ -1,0 +1,15 @@
+{
+  "case_dir": "iterations/2026-03-23-ww11-layout-containers",
+  "author_workbook": "dashboards/2026_03_18_WW11_Layout_Containers/2026_03_18_WW11_Layout_Containers.twbx",
+  "author_view": "#WOW2026 Week 11",
+  "replica_view": "#WOW2026 Week 11",
+  "states": [],
+  "data_views": [
+    {
+      "name": "dashboard",
+      "author": "#WOW2026 Week 11",
+      "replica": "#WOW2026 Week 11",
+      "scope": "Dashboard single worksheet CSV; numerical Hyper oracle independently covers full overview."
+    }
+  ]
+}

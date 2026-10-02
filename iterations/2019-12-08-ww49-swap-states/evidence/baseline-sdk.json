@@ -1,0 +1,24 @@
+{
+  "sdk_commit": "0958b51e18cd3120a2f67fd7dbcc7e978a105399",
+  "checks": {
+    "set_members": {
+      "result": "blocked",
+      "error": "TypeError",
+      "message": "TWBEditor.add_set() got an unexpected keyword argument 'members'"
+    },
+    "layered_filters": {
+      "result": "blocked",
+      "error": "TypeError",
+      "message": "ChartsMixin.configure_layered_chart() got an unexpected keyword argument 'filters'"
+    },
+    "map_background": {
+      "result": "blocked",
+      "error": "ValueError",
+      "message": "map_style supports map_style and washout"
+    },
+    "generated_geometry": {
+      "result": "blocked",
+      "message": "Generated fields incorrectly auto-register as physical string dimensions; pane geometry ignored and no mapsource."
+    }
+  }
+}

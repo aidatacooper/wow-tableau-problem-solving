@@ -1,0 +1,259 @@
+{
+  "case_id": "wow-2026-ww08-dzv-filter-actions",
+  "captured_at": "2026-10-02T15:48:39.040898+00:00",
+  "source_hashes": {
+    "author": "791d7ff20bb8ef133f4c32c39eb09da32f3e493ff34a9e02b61915e99fc949ac",
+    "replica": "3b0eebf33befa64f68e24875dd32714547daeebf689576719eed188d7de70e1f"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "ae64b35d-f4ab-4a70-ad7c-372b46927c55",
+      "name": "cwtwb-review-wow-2026-ww08-dzv-filter-actions-author",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2924244",
+      "views": [
+        {
+          "name": "2026_02_25_WW08_DMZ_Filters",
+          "id": "49922cea-412b-442f-93a4-2972992a49c6"
+        }
+      ]
+    },
+    "replica": {
+      "id": "2180da3a-8391-4ec9-937c-992204bab3f5",
+      "name": "cwtwb-review-wow-2026-ww08-dzv-filter-actions-replica",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2924245",
+      "views": [
+        {
+          "name": "KPIs-Main",
+          "id": "45feea2b-d994-4ebe-942b-8ba259189619"
+        },
+        {
+          "name": "KPIs-Customer",
+          "id": "e29651c7-6fc2-4e82-96eb-b27cf0bece5e"
+        },
+        {
+          "name": "Customer Orders",
+          "id": "6412e353-fded-46db-a87b-e59e80524af6"
+        },
+        {
+          "name": "Map",
+          "id": "9f2c58ae-8923-40a5-a410-70451f1a232b"
+        },
+        {
+          "name": "Reset Button",
+          "id": "92e31ba0-a170-41db-850d-a7cc9dd0c2a6"
+        },
+        {
+          "name": "2026_02_25_WW08_DMZ_Filters",
+          "id": "22c7d899-4035-473c-a001-f64f5e803983"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "49922cea-412b-442f-93a4-2972992a49c6",
+          "name": "2026_02_25_WW08_DMZ_Filters",
+          "path": "outputs/cloud-author.png",
+          "sha256": "a4638030b01dc425ef5a237dc0ebe0f05bf4dc89459dd12535fa711eef0a1969",
+          "size": [
+            2000,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "22c7d899-4035-473c-a001-f64f5e803983",
+          "name": "2026_02_25_WW08_DMZ_Filters",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "67e3a8f3380676b5276b11fbf4cd79907556b91fbeb94e16db3502deed4c20b1",
+          "size": [
+            2000,
+            1600
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "2026_02_25_WW08_DMZ_Filters",
+          "view_id": "49922cea-412b-442f-93a4-2972992a49c6",
+          "scope": "Dashboard single visible worksheet CSV; verify which sheet is exported. Full state/customer KPI and product data independently checked using locked Hyper.",
+          "path": "outputs/cloud-author-dashboard.csv",
+          "sha256": "651ff12957dd2b4b355eee2ef23505db22af61594c0147c06cdb05ef694b2e27",
+          "bytes": 193382
+        },
+        {
+          "role": "replica",
+          "view": "2026_02_25_WW08_DMZ_Filters",
+          "view_id": "22c7d899-4035-473c-a001-f64f5e803983",
+          "scope": "Dashboard single visible worksheet CSV; verify which sheet is exported. Full state/customer KPI and product data independently checked using locked Hyper.",
+          "path": "outputs/cloud-replica-dashboard.csv",
+          "sha256": "651ff12957dd2b4b355eee2ef23505db22af61594c0147c06cdb05ef694b2e27",
+          "bytes": 193382
+        }
+      ]
+    },
+    {
+      "name": "california",
+      "parameters": {
+        "pSelectedState": "California"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "49922cea-412b-442f-93a4-2972992a49c6",
+          "name": "2026_02_25_WW08_DMZ_Filters",
+          "path": "outputs/cloud-author-california.png",
+          "sha256": "cffccf717e6ce386c8fc493b90ea298735a3ba0a36f2f996e45e74adc90f3e39",
+          "size": [
+            2000,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "22c7d899-4035-473c-a001-f64f5e803983",
+          "name": "2026_02_25_WW08_DMZ_Filters",
+          "path": "outputs/cloud-replica-california.png",
+          "sha256": "99f9969d33716ae67c7d94713d5074e5d4e671a6ae00271ac0684b2753397239",
+          "size": [
+            2000,
+            1600
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "2026_02_25_WW08_DMZ_Filters",
+          "view_id": "49922cea-412b-442f-93a4-2972992a49c6",
+          "scope": "Dashboard single visible worksheet CSV; verify which sheet is exported. Full state/customer KPI and product data independently checked using locked Hyper.",
+          "path": "outputs/cloud-author-dashboard-california.csv",
+          "sha256": "d889ea38bf2f186e00d4165446e27edbc62d846612df862a05df228cb5579e41",
+          "bytes": 121659
+        },
+        {
+          "role": "replica",
+          "view": "2026_02_25_WW08_DMZ_Filters",
+          "view_id": "22c7d899-4035-473c-a001-f64f5e803983",
+          "scope": "Dashboard single visible worksheet CSV; verify which sheet is exported. Full state/customer KPI and product data independently checked using locked Hyper.",
+          "path": "outputs/cloud-replica-dashboard-california.csv",
+          "sha256": "d889ea38bf2f186e00d4165446e27edbc62d846612df862a05df228cb5579e41",
+          "bytes": 121659
+        }
+      ]
+    },
+    {
+      "name": "texas",
+      "parameters": {
+        "pSelectedState": "Texas"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "49922cea-412b-442f-93a4-2972992a49c6",
+          "name": "2026_02_25_WW08_DMZ_Filters",
+          "path": "outputs/cloud-author-texas.png",
+          "sha256": "d08e5467966655681c87256d4fe8861287156bbc1a0d2c845a3267506f09a5dc",
+          "size": [
+            2000,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "22c7d899-4035-473c-a001-f64f5e803983",
+          "name": "2026_02_25_WW08_DMZ_Filters",
+          "path": "outputs/cloud-replica-texas.png",
+          "sha256": "663a4875e0624be94ad6e4e510c168d9be98899a3080e9fe66999a32ac395839",
+          "size": [
+            2000,
+            1600
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "2026_02_25_WW08_DMZ_Filters",
+          "view_id": "49922cea-412b-442f-93a4-2972992a49c6",
+          "scope": "Dashboard single visible worksheet CSV; verify which sheet is exported. Full state/customer KPI and product data independently checked using locked Hyper.",
+          "path": "outputs/cloud-author-dashboard-texas.csv",
+          "sha256": "e29c52f1eff051c9ffd5d71e97b6764a9d2966dc3b0e36bab11aafdf6d62098a",
+          "bytes": 78061
+        },
+        {
+          "role": "replica",
+          "view": "2026_02_25_WW08_DMZ_Filters",
+          "view_id": "22c7d899-4035-473c-a001-f64f5e803983",
+          "scope": "Dashboard single visible worksheet CSV; verify which sheet is exported. Full state/customer KPI and product data independently checked using locked Hyper.",
+          "path": "outputs/cloud-replica-dashboard-texas.csv",
+          "sha256": "e29c52f1eff051c9ffd5d71e97b6764a9d2966dc3b0e36bab11aafdf6d62098a",
+          "bytes": 78061
+        }
+      ]
+    },
+    {
+      "name": "california-aaron",
+      "parameters": {
+        "pSelectedState": "California"
+      },
+      "filters": {
+        "Customer Name": "Aaron Hawkins"
+      },
+      "views": {
+        "author": {
+          "id": "49922cea-412b-442f-93a4-2972992a49c6",
+          "name": "2026_02_25_WW08_DMZ_Filters",
+          "path": "outputs/cloud-author-california-aaron.png",
+          "sha256": "712ac2d80cde6040898e71a866c2e7e2ed1830252e0222671ffd23d6cbcd3b77",
+          "size": [
+            2000,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "22c7d899-4035-473c-a001-f64f5e803983",
+          "name": "2026_02_25_WW08_DMZ_Filters",
+          "path": "outputs/cloud-replica-california-aaron.png",
+          "sha256": "81de31d691c67e9095b8a2aae8b94f0b47db2215f20d939a87abf53e6d9f07ba",
+          "size": [
+            2000,
+            1600
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "2026_02_25_WW08_DMZ_Filters",
+          "view_id": "49922cea-412b-442f-93a4-2972992a49c6",
+          "scope": "Dashboard single visible worksheet CSV; verify which sheet is exported. Full state/customer KPI and product data independently checked using locked Hyper.",
+          "path": "outputs/cloud-author-dashboard-california-aaron.csv",
+          "sha256": "009232c7ddbc53dc916fa77bf7bbf4c24de3ffea03c1e26a1aadc1f660e0ff48",
+          "bytes": 451
+        },
+        {
+          "role": "replica",
+          "view": "2026_02_25_WW08_DMZ_Filters",
+          "view_id": "22c7d899-4035-473c-a001-f64f5e803983",
+          "scope": "Dashboard single visible worksheet CSV; verify which sheet is exported. Full state/customer KPI and product data independently checked using locked Hyper.",
+          "path": "outputs/cloud-replica-dashboard-california-aaron.csv",
+          "sha256": "009232c7ddbc53dc916fa77bf7bbf4c24de3ffea03c1e26a1aadc1f660e0ff48",
+          "bytes": 451
+        }
+      ]
+    }
+  ],
+  "status": "verified_acceptable_delta",
+  "independent_review": {
+    "evidence": "evidence/visual-review.md",
+    "data_comparison": "evidence/cloud-data-comparison.json",
+    "browser_events_executed": false
+  },
+  "review_evidence": "evidence/visual-review.md"
+}

@@ -1,0 +1,315 @@
+{
+  "row_count": 10194,
+  "current_year": 2026,
+  "prior_year": 2025,
+  "csv_scope": "Dashboard exports only one worksheet; independent Hyper oracle covers monthly sales/profit/ratio, KPI and all 17 scatter subcategories.",
+  "monthly": [
+    {
+      "year": 2025,
+      "month": 1,
+      "sales": 18830.331,
+      "profit": 2916.0233000000007,
+      "profit_ratio": 0.1548577823724926
+    },
+    {
+      "year": 2025,
+      "month": 2,
+      "sales": 22978.815000000002,
+      "profit": 5004.579500000001,
+      "profit_ratio": 0.21779101750895336
+    },
+    {
+      "year": 2025,
+      "month": 3,
+      "sales": 53031.069,
+      "profit": 3707.886199999997,
+      "profit_ratio": 0.06991912985951683
+    },
+    {
+      "year": 2025,
+      "month": 4,
+      "sales": 38829.159,
+      "profit": 2991.660899999999,
+      "profit_ratio": 0.07704676014229407
+    },
+    {
+      "year": 2025,
+      "month": 5,
+      "sales": 57042.83799999998,
+      "profit": 8676.696399999997,
+      "profit_ratio": 0.1521084277048067
+    },
+    {
+      "year": 2025,
+      "month": 6,
+      "sales": 40937.147999999994,
+      "profit": 4926.3194,
+      "profit_ratio": 0.12033860785807553
+    },
+    {
+      "year": 2025,
+      "month": 7,
+      "sales": 40300.49899999999,
+      "profit": 4559.882699999998,
+      "profit_ratio": 0.11314705309232026
+    },
+    {
+      "year": 2025,
+      "month": 8,
+      "sales": 31716.814299999995,
+      "profit": 2317.4992999999977,
+      "profit_ratio": 0.07306847648945619
+    },
+    {
+      "year": 2025,
+      "month": 9,
+      "sales": 73521.66289999994,
+      "profit": 9370.103099999995,
+      "profit_ratio": 0.12744683308842847
+    },
+    {
+      "year": 2025,
+      "month": 10,
+      "sales": 59831.001,
+      "profit": 16256.842199999988,
+      "profit_ratio": 0.2717126895470124
+    },
+    {
+      "year": 2025,
+      "month": 11,
+      "sales": 79411.96580000002,
+      "profit": 4011.407499999996,
+      "profit_ratio": 0.050513892454227535
+    },
+    {
+      "year": 2025,
+      "month": 12,
+      "sales": 97502.27700000009,
+      "profit": 17926.30129999999,
+      "profit_ratio": 0.18385520678660636
+    },
+    {
+      "year": 2026,
+      "month": 1,
+      "sales": 44259.21399999999,
+      "profit": 7231.639099999997,
+      "profit_ratio": 0.16339284967871318
+    },
+    {
+      "year": 2026,
+      "month": 2,
+      "sales": 20301.133400000002,
+      "profit": 1613.8719999999985,
+      "profit_ratio": 0.07949664524641753
+    },
+    {
+      "year": 2026,
+      "month": 3,
+      "sales": 60728.480799999976,
+      "profit": 15013.091,
+      "profit_ratio": 0.24721664040046276
+    },
+    {
+      "year": 2026,
+      "month": 4,
+      "sales": 36779.036100000005,
+      "profit": 957.5299999999975,
+      "profit_ratio": 0.026034668157059106
+    },
+    {
+      "year": 2026,
+      "month": 5,
+      "sales": 45155.4822,
+      "profit": 6299.807199999998,
+      "profit_ratio": 0.1395136734914548
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "sales": 53056.07769999998,
+      "profit": 8246.570699999998,
+      "profit_ratio": 0.1554312165069828
+    },
+    {
+      "year": 2026,
+      "month": 7,
+      "sales": 45989.49599999996,
+      "profit": 7006.501199999997,
+      "profit_ratio": 0.15235003227693564
+    },
+    {
+      "year": 2026,
+      "month": 8,
+      "sales": 64129.757999999965,
+      "profit": 9488.072199999995,
+      "profit_ratio": 0.1479511617679892
+    },
+    {
+      "year": 2026,
+      "month": 9,
+      "sales": 88064.53200000002,
+      "profit": 11050.802399999995,
+      "profit_ratio": 0.12548527936309242
+    },
+    {
+      "year": 2026,
+      "month": 10,
+      "sales": 83474.78319999995,
+      "profit": 10670.531199999989,
+      "profit_ratio": 0.1278293969860828
+    },
+    {
+      "year": 2026,
+      "month": 11,
+      "sales": 118454.50499999999,
+      "profit": 9692.103699999998,
+      "profit_ratio": 0.08182131781311314
+    },
+    {
+      "year": 2026,
+      "month": 12,
+      "sales": 85175.03279999993,
+      "profit": 8655.826899999995,
+      "profit_ratio": 0.10162399256510767
+    }
+  ],
+  "scatter": [
+    {
+      "subcategory": "Accessories",
+      "sales": 59946.23199999998,
+      "profit": 15672.357000000004,
+      "order_count": 251,
+      "quadrant": "Above Sales Above Profit"
+    },
+    {
+      "subcategory": "Appliances",
+      "sales": 43111.15600000001,
+      "profit": 7914.980900000002,
+      "order_count": 162,
+      "quadrant": "Below Sales Above Profit"
+    },
+    {
+      "subcategory": "Art",
+      "sales": 9022.69599999999,
+      "profit": 2270.816700000001,
+      "order_count": 261,
+      "quadrant": "Below Both"
+    },
+    {
+      "subcategory": "Binders",
+      "sales": 73651.26899999997,
+      "profit": 7940.8894,
+      "order_count": 439,
+      "quadrant": "Above Sales Above Profit"
+    },
+    {
+      "subcategory": "Bookcases",
+      "sales": 30354.073699999997,
+      "profit": -658.1879000000005,
+      "order_count": 78,
+      "quadrant": "Below Both"
+    },
+    {
+      "subcategory": "Chairs",
+      "sales": 98032.37699999998,
+      "profit": 7788.102399999996,
+      "order_count": 179,
+      "quadrant": "Above Sales Above Profit"
+    },
+    {
+      "subcategory": "Copiers",
+      "sales": 62916.667999999976,
+      "profit": 25039.9118,
+      "order_count": 23,
+      "quadrant": "Above Sales Above Profit"
+    },
+    {
+      "subcategory": "Envelopes",
+      "sales": 3378.574000000001,
+      "profit": 1441.7589999999998,
+      "order_count": 71,
+      "quadrant": "Below Both"
+    },
+    {
+      "subcategory": "Fasteners",
+      "sales": 6161.714000000001,
+      "profit": 1698.8825,
+      "order_count": 68,
+      "quadrant": "Below Both"
+    },
+    {
+      "subcategory": "Furnishings",
+      "sales": 29927.27599999999,
+      "profit": 4311.598499999998,
+      "order_count": 307,
+      "quadrant": "Below Both"
+    },
+    {
+      "subcategory": "Labels",
+      "sales": 3987.026000000001,
+      "profit": 1802.5192999999992,
+      "order_count": 111,
+      "quadrant": "Below Both"
+    },
+    {
+      "subcategory": "Machines",
+      "sales": 43887.87499999999,
+      "profit": -2830.605600000001,
+      "order_count": 33,
+      "quadrant": "Above Sales Below Profit"
+    },
+    {
+      "subcategory": "Paper",
+      "sales": 28173.529999999962,
+      "profit": 12254.03919999999,
+      "order_count": 407,
+      "quadrant": "Below Sales Above Profit"
+    },
+    {
+      "subcategory": "Phones",
+      "sales": 105668.39200000007,
+      "profit": 12952.420900000003,
+      "order_count": 283,
+      "quadrant": "Above Sales Above Profit"
+    },
+    {
+      "subcategory": "Storage",
+      "sales": 70273.80999999998,
+      "profit": 7363.424999999991,
+      "order_count": 273,
+      "quadrant": "Above Sales Above Profit"
+    },
+    {
+      "subcategory": "Supplies",
+      "sales": 16075.659999999996,
+      "profit": -944.2877999999996,
+      "order_count": 60,
+      "quadrant": "Below Both"
+    },
+    {
+      "subcategory": "Tables",
+      "sales": 60999.202500000014,
+      "profit": -8092.2737,
+      "order_count": 102,
+      "quadrant": "Above Sales Below Profit"
+    }
+  ],
+  "kpis": {
+    "sales": {
+      "current": 745567.5311999997,
+      "prior": 613933.5799999998,
+      "increase": 0.21441073674451872
+    },
+    "profit": {
+      "current": 95926.34759999996,
+      "prior": 82665.20179999995,
+      "increase": 0.16041992895733814
+    },
+    "profit_ratio": {
+      "current": 1.5481468742534112,
+      "prior": 1.61180587690419,
+      "increase": -0.06365900265077884,
+      "aggregation": "SUM of INCLUDE year/month ratios, matching author, not overall profit / sales."
+    }
+  }
+}

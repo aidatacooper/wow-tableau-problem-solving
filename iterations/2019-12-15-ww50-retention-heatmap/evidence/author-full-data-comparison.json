@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "scope": "Original author Data worksheet all cohort/week records and four measures, including week zero and incomplete cohorts. Each independently reconciled to preserved Hyper.",
+  "checks": [
+    {
+      "file": "cloud-author-matrix-period-eighteen.csv",
+      "records_checked": 5724
+    },
+    {
+      "file": "cloud-author-matrix-period-ten.csv",
+      "records_checked": 5724
+    },
+    {
+      "file": "cloud-author-matrix.csv",
+      "records_checked": 5724
+    }
+  ]
+}

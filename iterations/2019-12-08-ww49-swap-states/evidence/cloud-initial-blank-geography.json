@@ -1,0 +1,13 @@
+{
+  "status": "failed_visual_review",
+  "source_hashes": {
+    "author": "4e6182b87d6d385c67ffd0d22510a2bf0c30b71f5ec67e09d31d3ba7dbde3be8",
+    "replica": "a557bfa7a4173b1fedeafd091a5e1ac4a762ed06711a9ba17f97ebf5768bafca"
+  },
+  "captured_at": "2026-10-02T15:30:57.063755+00:00",
+  "issue": "Both generated maps rendered blank although source CSV returned seven correct Oklahoma city sales. The empty SDK template retained Country Name semantic default China; the author uses United States.",
+  "country_default": "China",
+  "expected_country": "United States",
+  "initial_csv_numeric_result": "pass for seven city Sales, insufficient to accept blank maps",
+  "browser_interaction_executed": false
+}

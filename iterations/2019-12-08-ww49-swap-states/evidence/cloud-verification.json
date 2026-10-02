@@ -1,0 +1,115 @@
+{
+  "case_id": "wow-2019-ww49-swap-states",
+  "captured_at": "2026-10-02T15:47:59.949792+00:00",
+  "source_hashes": {
+    "author": "4e6182b87d6d385c67ffd0d22510a2bf0c30b71f5ec67e09d31d3ba7dbde3be8",
+    "replica": "3a098e64c6044c5a881a0d4205cdd7cefca8f2cb9e273e0d7b8aecec3b169761"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "06e5685e-13f5-4907-b177-adc58535a5d5",
+      "name": "cwtwb-review-wow-2019-ww49-swap-states-author",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2924259",
+      "views": [
+        {
+          "name": "2019_12_04_WW49_Select_State_Small_Multiple",
+          "id": "c3b801cb-1e87-4ac6-8b66-c246944d13c3"
+        },
+        {
+          "name": "CHK:Data",
+          "id": "8ea03bf2-8c3e-475e-a0b6-e6b1a9c8e8ea"
+        }
+      ]
+    },
+    "replica": {
+      "id": "842e3322-c563-43a0-a6a7-1d2effeb1958",
+      "name": "cwtwb-review-wow-2019-ww49-swap-states-replica",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2924260",
+      "views": [
+        {
+          "name": "Selected State",
+          "id": "74af8ea2-ab39-49f5-8df6-9097289fc752"
+        },
+        {
+          "name": "States",
+          "id": "d7469399-4412-4a80-a931-325534a38c09"
+        },
+        {
+          "name": "2019_12_04_WW49_Select_State_Small_Multiple",
+          "id": "36f2dbe2-2c7d-4d92-a31f-3f2965f6ef4f"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "c3b801cb-1e87-4ac6-8b66-c246944d13c3",
+          "name": "2019_12_04_WW49_Select_State_Small_Multiple",
+          "path": "outputs/cloud-author.png",
+          "sha256": "6b21b4f94bfc3bf30e06ad470212e076479fb74680366dfdccc247c770b66da9",
+          "size": [
+            1200,
+            1800
+          ]
+        },
+        "replica": {
+          "id": "36f2dbe2-2c7d-4d92-a31f-3f2965f6ef4f",
+          "name": "2019_12_04_WW49_Select_State_Small_Multiple",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "b4b31f6b6380dba93cd4c021f37e43c1188316c1e0f54cf424d956a1e0756106",
+          "size": [
+            1200,
+            1800
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "2019_12_04_WW49_Select_State_Small_Multiple",
+          "view_id": "c3b801cb-1e87-4ac6-8b66-c246944d13c3",
+          "scope": "Dashboard REST CSV exports one worksheet, not both selected-state city map and state trellis. Scope and returned columns are verified independently after export; complete 49-selection matrix comes from Hyper and action contracts.",
+          "path": "outputs/cloud-author-dashboard.csv",
+          "sha256": "156414432194da4472d7fbfff675a3fead6368ea007a3c31308fd57fcc2d3869",
+          "bytes": 393
+        },
+        {
+          "role": "author",
+          "view": "CHK:Data",
+          "view_id": "8ea03bf2-8c3e-475e-a0b6-e6b1a9c8e8ea",
+          "scope": "Default author CHK:Data diagnostic state ranks/Sales and replica States trellis worksheet. Checks the 25 default OUT states and label values separately from selected-city dashboard CSV; does not prove actual selection-event execution.",
+          "path": "outputs/cloud-author-trellis.csv",
+          "sha256": "0ccc4d05d3ec827d85e2f6284a6fb6c09c5f09c39d0c70e8ce48ab8a057d6ed5",
+          "bytes": 3842
+        },
+        {
+          "role": "replica",
+          "view": "2019_12_04_WW49_Select_State_Small_Multiple",
+          "view_id": "36f2dbe2-2c7d-4d92-a31f-3f2965f6ef4f",
+          "scope": "Dashboard REST CSV exports one worksheet, not both selected-state city map and state trellis. Scope and returned columns are verified independently after export; complete 49-selection matrix comes from Hyper and action contracts.",
+          "path": "outputs/cloud-replica-dashboard.csv",
+          "sha256": "d8b4378aa5935ce809e100c7df846c214ca25f3bd531096c881c35183c66c2ae",
+          "bytes": 462
+        },
+        {
+          "role": "replica",
+          "view": "States",
+          "view_id": "d7469399-4412-4a80-a931-325534a38c09",
+          "scope": "Default author CHK:Data diagnostic state ranks/Sales and replica States trellis worksheet. Checks the 25 default OUT states and label values separately from selected-city dashboard CSV; does not prove actual selection-event execution.",
+          "path": "outputs/cloud-replica-trellis.csv",
+          "sha256": "8dcc1b08f4a0fb24e774ab7a936e78d51cd1830ee55ec1e10970eccafe31efb7",
+          "bytes": 1939
+        }
+      ]
+    }
+  ],
+  "status": "verified_acceptable_delta",
+  "review_evidence": "evidence/visual-review.md"
+}

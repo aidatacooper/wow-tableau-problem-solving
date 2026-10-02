@@ -1,0 +1,77 @@
+{
+  "method": "Extract original Cloud PNG weekly area top edge, align independently summed Hyper weekly vectors to native pane and compare least-squares linear height fits. Lower MSE is closer. No source XML used in aggregation.",
+  "results": [
+    {
+      "state": "default",
+      "week_start": "Sunday",
+      "curve_mse_px2": 4.56361932850345,
+      "fitted_data_x_pixels": [
+        20,
+        1978
+      ]
+    },
+    {
+      "state": "default",
+      "week_start": "Monday",
+      "curve_mse_px2": 78.707208745651,
+      "fitted_data_x_pixels": [
+        16,
+        1976
+      ]
+    },
+    {
+      "state": "year-2019",
+      "week_start": "Sunday",
+      "curve_mse_px2": 0.5920699272856481,
+      "fitted_data_x_pixels": [
+        34,
+        1966
+      ]
+    },
+    {
+      "state": "year-2019",
+      "week_start": "Monday",
+      "curve_mse_px2": 101.44262299853379,
+      "fitted_data_x_pixels": [
+        36,
+        1968
+      ]
+    },
+    {
+      "state": "california",
+      "week_start": "Sunday",
+      "curve_mse_px2": 8.205254847603161,
+      "fitted_data_x_pixels": [
+        20,
+        1978
+      ]
+    },
+    {
+      "state": "california",
+      "week_start": "Monday",
+      "curve_mse_px2": 110.32700200888,
+      "fitted_data_x_pixels": [
+        18,
+        1986
+      ]
+    },
+    {
+      "state": "year-2019-california",
+      "week_start": "Sunday",
+      "curve_mse_px2": 1.1136962179970171,
+      "fitted_data_x_pixels": [
+        34,
+        1964
+      ]
+    },
+    {
+      "state": "year-2019-california",
+      "week_start": "Monday",
+      "curve_mse_px2": 226.23534162401378,
+      "fitted_data_x_pixels": [
+        30,
+        1990
+      ]
+    }
+  ]
+}

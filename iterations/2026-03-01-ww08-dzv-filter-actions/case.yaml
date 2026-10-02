@@ -1,0 +1,89 @@
+schema_version: 1.1.0
+case_id: wow-2026-ww08-dzv-filter-actions
+iteration_id: 2026-03-01-ww08-dzv-filter-actions
+post: https://donnacoles.home.blog/2026/03/01/dzv-filter-actions/
+legacy_case_ids: {}
+article_date: '2026-03-01'
+challenge_year: 2026
+challenge_week: 8
+challenge_date: '2026-02-26'
+date_evidence:
+  article_date: Declared article publication date in iteration_id
+  challenge: Explicit challenge_year; week declared in iteration_id
+  challenge_date: Official WordPress REST post 21377 date 2026-02-26; title identifies
+    2026 week 8
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/wow2025w9tab/
+    wordpress_post_id: 21377
+  article:
+    url: https://donnacoles.home.blog/2026/03/01/dzv-filter-actions/
+    path: null
+    sha256: null
+  workbook:
+    url: https://public.tableau.com/views/2026_02_25_WW08_DMZ_Filters/2026_02_25_WW08_DMZ_Filters
+    filename: 2026_02_25_WW08_DMZ_Filters.twbx
+    sha256: 791d7ff20bb8ef133f4c32c39eb09da32f3e493ff34a9e02b61915e99fc949ac
+    path: dashboards/2026_02_25_WW08_DMZ_Filters/2026_02_25_WW08_DMZ_Filters.twbx
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- inputs/source-lock.json
+- evidence/data-contract.json
+- evidence/cloud-verification.json
+- evidence/cloud-data-comparison.json
+- evidence/visual-review.md
+- evidence/sdk-validation.json
+notes:
+- Cloud REST states test pSelectedState default/California/Texas; action trigger,
+  target and clear behavior are artifact contracts, without claims of browser clicks.
+- Official page reuses wow2025w9tab slug but its title and REST post 21377 identify
+  2026 week 8.
+- Final Cloud REST workbook hashes and CSV checks passed; visual differences and evidence
+  limits are documented in evidence/visual-review.md. No browser interactions were
+  executed.
+cwtwb:
+  tested_version: 0.27.1
+  runs:
+  - version: 0.27.1
+    result: pass
+    evidence: verify_replication.py
+    notes: Editable local SDK based on commit 0958b51 plus working tree enhancements;
+      build and verifier executed, not a released baseline capability claim.
+  - version: 0.27.1
+    commit: f0e385b2f1abe845536e17041f2c2aaeb3c11fba
+    result: pass
+    evidence: evidence/sdk-validation.json
+  tested_commit: f0e385b2f1abe845536e17041f2c2aaeb3c11fba
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: pass
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/Orders (Sample - Superstore).hyper
+acceptance:
+- id: action-state-reset-contract
+  description: action state reset contract; locked data and workbook contract checks.
+  mode: automated
+- id: dynamic-visibility-contract
+  description: dynamic visibility contract; locked data and workbook contract checks.
+  mode: automated
+- id: independent-state-customer-product-oracle
+  description: independent state customer product oracle; locked data and workbook
+    contract checks.
+  mode: automated
+- id: cloud-rest-visual-review
+  description: Final author and replica REST image review and actual exported CSV
+    scope; accepted differences documented.
+  mode: manual
+  evidence: evidence/visual-review.md
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "generated_from": "iterations/*/case.yaml",
-  "active_case_count": 25,
+  "active_case_count": 30,
   "legacy_case_ids": {
     "donna-2019-07-18-63877b35d19a": "wow-2019-ww29-high-orders",
     "donna-2019-07-25-59a0a144b25b": "wow-2019-ww30-navigation-kpi",
@@ -1596,6 +1596,189 @@
       "tested_sdk_version": "0.27.1"
     },
     {
+      "case_id": "wow-2019-ww49-swap-states",
+      "legacy_case_ids": {},
+      "iteration_id": "2019-12-08-ww49-swap-states",
+      "article_date": "2019-12-08",
+      "challenge_year": 2019,
+      "challenge_week": 49,
+      "challenge_date": "2019-12-03",
+      "date_evidence": {
+        "article_date": "Article published 2019-12-08 at the source article URL",
+        "challenge_date": "Official WordPress post 3089 dated 2019-12-03: https://www.workout-wednesday.com/2019w49/",
+        "challenge": "Official 2019 Week 49 identity"
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2019w49/"
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2019/12/08/can-you-swap-states/",
+          "path": null,
+          "sha256": null
+        },
+        "workbook": {
+          "url": null,
+          "filename": "2019_12_04_WW49_Select_State_Small_Multiples.twbx",
+          "sha256": "4e6182b87d6d385c67ffd0d22510a2bf0c30b71f5ec67e09d31d3ba7dbde3be8"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "pass",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "inputs/source-lock.json",
+        "evidence/baseline-sdk.json",
+        "evidence/data-contract.json",
+        "evidence/cloud-initial-blank-geography.json",
+        "evidence/cloud-intermediate-blank-trellis.json",
+        "evidence/cloud-verification.json",
+        "evidence/cloud-data-comparison.json",
+        "evidence/visual-review.md",
+        "evidence/sdk-validation.json"
+      ],
+      "notes": [
+        "Cloud REST default state and independent 49-selection oracle plus action artifact contracts accepted; no browser selection events were executed.",
+        "The author CHK:Data CSV contains IN Oklahoma plus OUT25; only OUT rows prove the visible default trellis.",
+        "SDK commit will be locked by the coordinating maintainer after the final generic regression run."
+      ],
+      "metadata": "iterations/2019-12-08-ww49-swap-states/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.27.1"
+    },
+    {
+      "case_id": "wow-2019-ww50-retention-heatmap",
+      "legacy_case_ids": {},
+      "iteration_id": "2019-12-15-ww50-retention-heatmap",
+      "article_date": "2019-12-15",
+      "challenge_year": 2019,
+      "challenge_week": 50,
+      "challenge_date": "2019-12-11",
+      "date_evidence": {
+        "article_date": "Article dated 2019-12-15; formal folder retains article date.",
+        "challenge": "Official challenge identifies 2019 week 50.",
+        "challenge_date": "Official WordPress REST post 3152 published 2019-12-11T13:45:14."
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2019-week-50-can-you-build-a-retention-heat-map-with-a-marginal-histogram/",
+          "wordpress_post_id": 3152
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2019/12/15/can-you-build-a-retention-heat-map-with-a-marginal-histogram/",
+          "path": null,
+          "sha256": null
+        },
+        "workbook": {
+          "url": null,
+          "filename": "2019_12_11_WW50_Customer_Retention_HeatMap.twbx",
+          "sha256": "07c7543aa3bac3289041ee5a54cdfbe3895da28fed990eba99e5fae742a7504b",
+          "path": "dashboards/2019_12_11_WW50_Customer_Retention_HeatMap.twbx"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "pass",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "inputs/source-lock.json",
+        "analysis.md",
+        "evidence/data-contract.json",
+        "evidence/local-verification.json",
+        "evidence/diagnostic-summary.json",
+        "evidence/cloud-verification.json",
+        "evidence/cloud-data-comparison.json",
+        "evidence/visual-review.md",
+        "evidence/sdk-validation.json"
+      ],
+      "notes": [
+        "Cloud REST images/data states and generated-workbook contracts accepted; no browser events executed.",
+        "Initial candidate incorrectly demoted FIXED New Customers from measure to dimension and blanked fine-grain views; preserve measure role and ordinal view type. Final actual Cloud CSVs validate complete matrices and marginals.",
+        "Headline SUM(New Customers) deduplicates FIXED cohort sizes internally in Tableau; row-repeated Hyper diagnostic explicitly rejected by actual CSV.",
+        "Remaining modest layout/font differences documented; not pixel-identical."
+      ],
+      "metadata": "iterations/2019-12-15-ww50-retention-heatmap/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.27.1"
+    },
+    {
+      "case_id": "wow-2019-ww51-sales-performance-dashboard",
+      "legacy_case_ids": {},
+      "iteration_id": "2019-12-23-ww51-sales-performance-dashboard",
+      "article_date": "2019-12-23",
+      "challenge_year": 2019,
+      "challenge_week": 51,
+      "challenge_date": "2019-12-18",
+      "date_evidence": {
+        "article_date": "Article published 2019-12-23.",
+        "challenge": "Official challenge declares 2019 week 51.",
+        "challenge_date": "Official WordPress REST post 3218 date 2019-12-18T09:00:00."
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/week-51-sales-performance-dashboard/",
+          "wordpress_post_id": 3218
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2019/12/23/sales-performance-dashboard/",
+          "path": null,
+          "sha256": null
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2019_12_18_WW51_SalesPerfDashboard/2019_12_18_WW51_SalesPerfDashboard",
+          "filename": "2019_12_18_WW51_SalesPerfDashboard.twbx",
+          "sha256": "7a1990878e1714cdf4bb37e965a9f4695b0edd29f8599100e02163494e9578e3",
+          "path": "dashboards/2019_12_18_WW51_SalesPerfDashboard.twbx"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "pass",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "inputs/source-lock.json",
+        "analysis.md",
+        "evidence/data-contract.json",
+        "evidence/local-verification.json",
+        "evidence/diagnostic-summary.json",
+        "evidence/weekly-boundary-image-diagnosis.json",
+        "evidence/cloud-verification.json",
+        "evidence/cloud-data-comparison.json",
+        "evidence/visual-review.md",
+        "evidence/sdk-validation.json"
+      ],
+      "notes": [
+        "Four real Cloud REST states and complete replica weekly/monthly/matrix/bar CSVs verified independently against preserved Hyper. Author dashboard CSV covers subcategory bars only.",
+        "Sunday week boundaries explicitly preserve the author curve; action events are verified through workbook contracts, with no browser clicks or hover claimed.",
+        "Accepted visual differences include missing horizontal guide lines, missing dollar symbols on bar labels, typography, padding and map margins; not pixel-identical."
+      ],
+      "metadata": "iterations/2019-12-23-ww51-sales-performance-dashboard/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.27.1"
+    },
+    {
       "case_id": "wow-2026-ww04-dynamic-moving-average",
       "legacy_case_ids": {
         "donna-2026-02-02-5ebab8421caf": "wow-2026-ww04-dynamic-moving-average"
@@ -1881,6 +2064,64 @@
       "tested_sdk_version": "0.27.1"
     },
     {
+      "case_id": "wow-2026-ww08-dzv-filter-actions",
+      "legacy_case_ids": {},
+      "iteration_id": "2026-03-01-ww08-dzv-filter-actions",
+      "article_date": "2026-03-01",
+      "challenge_year": 2026,
+      "challenge_week": 8,
+      "challenge_date": "2026-02-26",
+      "date_evidence": {
+        "article_date": "Declared article publication date in iteration_id",
+        "challenge": "Explicit challenge_year; week declared in iteration_id",
+        "challenge_date": "Official WordPress REST post 21377 date 2026-02-26; title identifies 2026 week 8"
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/wow2025w9tab/",
+          "wordpress_post_id": 21377
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2026/03/01/dzv-filter-actions/",
+          "path": null,
+          "sha256": null
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2026_02_25_WW08_DMZ_Filters/2026_02_25_WW08_DMZ_Filters",
+          "filename": "2026_02_25_WW08_DMZ_Filters.twbx",
+          "sha256": "791d7ff20bb8ef133f4c32c39eb09da32f3e493ff34a9e02b61915e99fc949ac",
+          "path": "dashboards/2026_02_25_WW08_DMZ_Filters/2026_02_25_WW08_DMZ_Filters.twbx"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "pass",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "inputs/source-lock.json",
+        "evidence/data-contract.json",
+        "evidence/cloud-verification.json",
+        "evidence/cloud-data-comparison.json",
+        "evidence/visual-review.md",
+        "evidence/sdk-validation.json"
+      ],
+      "notes": [
+        "Cloud REST states test pSelectedState default/California/Texas; action trigger, target and clear behavior are artifact contracts, without claims of browser clicks.",
+        "Official page reuses wow2025w9tab slug but its title and REST post 21377 identify 2026 week 8.",
+        "Final Cloud REST workbook hashes and CSV checks passed; visual differences and evidence limits are documented in evidence/visual-review.md. No browser interactions were executed."
+      ],
+      "metadata": "iterations/2026-03-01-ww08-dzv-filter-actions/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.27.1"
+    },
+    {
       "case_id": "wow-2026-ww09-parallel-coordinates",
       "legacy_case_ids": {},
       "iteration_id": "2026-03-12-ww09-parallel-coordinates",
@@ -1935,6 +2176,64 @@
         "Cloud REST images/data states and artifact contracts reviewed. Remaining presentation differences documented in evidence/visual-review.md; no browser events executed."
       ],
       "metadata": "iterations/2026-03-12-ww09-parallel-coordinates/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.27.1"
+    },
+    {
+      "case_id": "wow-2026-ww11-layout-containers",
+      "legacy_case_ids": {},
+      "iteration_id": "2026-03-23-ww11-layout-containers",
+      "article_date": "2026-03-23",
+      "challenge_year": 2026,
+      "challenge_week": 11,
+      "challenge_date": "2026-03-17",
+      "date_evidence": {
+        "article_date": "Declared article publication date in iteration_id",
+        "challenge": "Explicit challenge_year; week declared in iteration_id",
+        "challenge_date": "Official WordPress REST post 21463 date 2026-03-17; title identifies 2026 week 11"
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2026w11tab/",
+          "wordpress_post_id": 21463
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2026/03/23/can-you-use-layout-containers/",
+          "path": null,
+          "sha256": null
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2026_03_18_WW11_Layout_Containers/WOW2026Week11",
+          "filename": "2026_03_18_WW11_Layout_Containers.twbx",
+          "sha256": "7075cd258da1968ee31d7dbf73b45a8ffe54d790ff364061fe880a86e59710aa",
+          "path": "dashboards/2026_03_18_WW11_Layout_Containers/2026_03_18_WW11_Layout_Containers.twbx"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "pass",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "inputs/source-lock.json",
+        "evidence/data-contract.json",
+        "evidence/cloud-verification.json",
+        "evidence/cloud-data-comparison.json",
+        "evidence/visual-review.md",
+        "evidence/sdk-validation.json"
+      ],
+      "notes": [
+        "The locked Hyper contains Orders, Returns and People tables. Charts use Orders only, matching author views; unrelated auxiliary tables are preserved in the packaged source.",
+        "CY is max Order Date year, 2026; PY is 2025. No snapshot totals enter the builder.",
+        "Final Cloud REST workbook hashes and CSV checks passed; visual differences and evidence limits are documented in evidence/visual-review.md. No browser interactions were executed."
+      ],
+      "metadata": "iterations/2026-03-23-ww11-layout-containers/case.yaml",
       "metadata_contract": "1.1.0",
       "tested_sdk_version": "0.27.1"
     }

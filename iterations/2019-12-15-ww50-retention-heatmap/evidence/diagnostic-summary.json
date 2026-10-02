@@ -1,0 +1,54 @@
+{
+  "temporary_diagnostic_artifacts": "Moved outside formal case to workspace scratch.",
+  "results": [
+    {
+      "name": "cloud-author-bare.csv",
+      "bytes": 34274,
+      "sha256": "d9e91efdcc6594f6ca1640032e40674f84dc22ddb81b6549300c3fc7c607c71f",
+      "rows": 1431
+    },
+    {
+      "name": "cloud-author-filtered.csv",
+      "bytes": 16335,
+      "sha256": "e384219c8f1389755209dc6aab65c62dc1fb3a0b22be78e366921e6ffe318d7f",
+      "rows": 675
+    },
+    {
+      "name": "cloud-author-header.csv",
+      "bytes": 19199,
+      "sha256": "94547caaf07efb5d1def0f3443ad4b3e33de63bc43d6672f3dddace33e3257d5",
+      "rows": 675
+    },
+    {
+      "name": "cloud-author-tooltip.csv",
+      "bytes": 33565,
+      "sha256": "2fefcf6acb53c4ccb13c6e193234cb87008c54af6f6a3e09c9ff98c273cef464",
+      "rows": 675
+    },
+    {
+      "name": "cloud-replica-bare.csv",
+      "bytes": 34274,
+      "sha256": "d9e91efdcc6594f6ca1640032e40674f84dc22ddb81b6549300c3fc7c607c71f",
+      "rows": 1431
+    },
+    {
+      "name": "cloud-replica-filtered.csv",
+      "bytes": 16335,
+      "sha256": "e384219c8f1389755209dc6aab65c62dc1fb3a0b22be78e366921e6ffe318d7f",
+      "rows": 675
+    },
+    {
+      "name": "cloud-replica-header.csv",
+      "bytes": 19199,
+      "sha256": "94547caaf07efb5d1def0f3443ad4b3e33de63bc43d6672f3dddace33e3257d5",
+      "rows": 675
+    },
+    {
+      "name": "cloud-replica-tooltip.csv",
+      "bytes": 33565,
+      "sha256": "2fefcf6acb53c4ccb13c6e193234cb87008c54af6f6a3e09c9ff98c273cef464",
+      "rows": 675
+    }
+  ],
+  "conclusion": "FIXED NewCustomers must preserve measure role; corrected measure ordinal configuration renders all tested grains."
+}

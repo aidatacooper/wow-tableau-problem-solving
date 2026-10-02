@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-02",
+  "source_workbook": {
+    "filename": "2019_12_11_WW50_Customer_Retention_HeatMap.twbx",
+    "bytes": 978900,
+    "sha256": "07c7543aa3bac3289041ee5a54cdfbe3895da28fed990eba99e5fae742a7504b",
+    "url": null
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Extracts/federated_0to3rxt0sdo3km1gwey0z1.hyper",
+      "file": "inputs/federated_0to3rxt0sdo3km1gwey0z1.hyper",
+      "bytes": 1900544,
+      "sha256": "b54e0e7bac149b987a40ac1a720c43ad365dc5a318bc9b1ec4797206fb657331"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

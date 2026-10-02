@@ -1,0 +1,200 @@
+{
+  "status": "passed",
+  "replica_sha256": "3985bd64d6975937acc9c94130a70fc08601cae06392598479b93a7c686896e2",
+  "denominator_diagnosis": "Author and replica BAN actual denominator is sum of deduplicated cohort sizes. Row-repeated denominator rejected.",
+  "csv_scope": "Author Data full1431cohort/week cells?4measures; replica Heat Map entire visible matrix; replica Bar marginal histogram; dashboard and BAN CSV headline only.",
+  "checks": [
+    {
+      "state": "default",
+      "role": "author",
+      "view": "2019_12_11_WW50_Customer_Retention_Heatmap",
+      "rows": 1,
+      "scope": "BAN only",
+      "sha256": "76240cfcea5417fdb4df67e457b28425083d6a963f6b4414aa14031235fcb44c"
+    },
+    {
+      "state": "default",
+      "role": "author",
+      "view": "Data",
+      "rows": 5724,
+      "scope": "author all1431cohort/week pairs?4measures",
+      "sha256": "ab438f09c156b073f5e4fc288136a5f3128dc53e44ed845f36da5ae7318d7d1a"
+    },
+    {
+      "state": "default",
+      "role": "author",
+      "view": "BAN:Data",
+      "rows": 3,
+      "scope": "author underlying BAN measures",
+      "sha256": "04d16a639812d3dd17126a622f10c131f626fac9cb844e66a12450b6fac5151e"
+    },
+    {
+      "state": "default",
+      "role": "author",
+      "view": "Data",
+      "rows": 5724,
+      "scope": "author all1431cohort/week pairs?4measures",
+      "sha256": "ab438f09c156b073f5e4fc288136a5f3128dc53e44ed845f36da5ae7318d7d1a"
+    },
+    {
+      "state": "default",
+      "role": "replica",
+      "view": "2019_12_11_WW50_Customer_Retention_Heatmap",
+      "rows": 1,
+      "scope": "BAN only",
+      "sha256": "76240cfcea5417fdb4df67e457b28425083d6a963f6b4414aa14031235fcb44c"
+    },
+    {
+      "state": "default",
+      "role": "replica",
+      "view": "Heat Map",
+      "rows": 675,
+      "scope": "replica complete visible heatmap matrix",
+      "sha256": "7a854699eda241f80955a3757c1021bf456c467c9c0dd026f91a27b68ad6b3fc"
+    },
+    {
+      "state": "default",
+      "role": "replica",
+      "view": "BAN",
+      "rows": 1,
+      "scope": "BAN only",
+      "sha256": "76240cfcea5417fdb4df67e457b28425083d6a963f6b4414aa14031235fcb44c"
+    },
+    {
+      "state": "default",
+      "role": "replica",
+      "view": "Bar",
+      "rows": 54,
+      "scope": "replica complete marginal histogram",
+      "sha256": "d7e926e3f01bf85fabd2e8993c021c3faec8aa7b6c6a0caaccd2074e5fa327d9"
+    },
+    {
+      "state": "period-ten",
+      "role": "author",
+      "view": "2019_12_11_WW50_Customer_Retention_Heatmap",
+      "rows": 1,
+      "scope": "BAN only",
+      "sha256": "369cc6fc563639724db8f8e1a4dda1b90c0cf549d309e7672c3f4adf96e0170e"
+    },
+    {
+      "state": "period-ten",
+      "role": "author",
+      "view": "Data",
+      "rows": 5724,
+      "scope": "author all1431cohort/week pairs?4measures",
+      "sha256": "cf4f481602afa664fd9f7b4492319d48a39b042ce721e3c5b2b25b4f7832c36a"
+    },
+    {
+      "state": "period-ten",
+      "role": "author",
+      "view": "BAN:Data",
+      "rows": 3,
+      "scope": "author underlying BAN measures",
+      "sha256": "a1e065365d67f500ec4f51ddf443f7f33eca1b4e516bb5b1a4e60b30f3fab6da"
+    },
+    {
+      "state": "period-ten",
+      "role": "author",
+      "view": "Data",
+      "rows": 5724,
+      "scope": "author all1431cohort/week pairs?4measures",
+      "sha256": "cf4f481602afa664fd9f7b4492319d48a39b042ce721e3c5b2b25b4f7832c36a"
+    },
+    {
+      "state": "period-ten",
+      "role": "replica",
+      "view": "2019_12_11_WW50_Customer_Retention_Heatmap",
+      "rows": 1,
+      "scope": "BAN only",
+      "sha256": "369cc6fc563639724db8f8e1a4dda1b90c0cf549d309e7672c3f4adf96e0170e"
+    },
+    {
+      "state": "period-ten",
+      "role": "replica",
+      "view": "Heat Map",
+      "rows": 387,
+      "scope": "replica complete visible heatmap matrix",
+      "sha256": "66c0a0896213c3fbb694fba9c1d5356d1e37b49f24d42e91e2028e410fe149ac"
+    },
+    {
+      "state": "period-ten",
+      "role": "replica",
+      "view": "BAN",
+      "rows": 1,
+      "scope": "BAN only",
+      "sha256": "369cc6fc563639724db8f8e1a4dda1b90c0cf549d309e7672c3f4adf96e0170e"
+    },
+    {
+      "state": "period-ten",
+      "role": "replica",
+      "view": "Bar",
+      "rows": 86,
+      "scope": "replica complete marginal histogram",
+      "sha256": "695aa719d0ba7ecee5caea14c3f82c3c6e99f258d02666c2882c268c2819271b"
+    },
+    {
+      "state": "period-eighteen",
+      "role": "author",
+      "view": "2019_12_11_WW50_Customer_Retention_Heatmap",
+      "rows": 1,
+      "scope": "BAN only",
+      "sha256": "c2056ae7865224c3f8b8e83354b44e24cf546c7d7a1ef4d110a7a6b7711f9973"
+    },
+    {
+      "state": "period-eighteen",
+      "role": "author",
+      "view": "Data",
+      "rows": 5724,
+      "scope": "author all1431cohort/week pairs?4measures",
+      "sha256": "2d8f3ef5e0f7a326b04d595b61bd2663da8aaceab0df8a66da09a5bcd8e84ec8"
+    },
+    {
+      "state": "period-eighteen",
+      "role": "author",
+      "view": "BAN:Data",
+      "rows": 3,
+      "scope": "author underlying BAN measures",
+      "sha256": "2bedc20a87cc90f8bfda38a1d6a6d46177875706057fb1ba7d5925ec819bb7f3"
+    },
+    {
+      "state": "period-eighteen",
+      "role": "author",
+      "view": "Data",
+      "rows": 5724,
+      "scope": "author all1431cohort/week pairs?4measures",
+      "sha256": "2d8f3ef5e0f7a326b04d595b61bd2663da8aaceab0df8a66da09a5bcd8e84ec8"
+    },
+    {
+      "state": "period-eighteen",
+      "role": "replica",
+      "view": "2019_12_11_WW50_Customer_Retention_Heatmap",
+      "rows": 1,
+      "scope": "BAN only",
+      "sha256": "c2056ae7865224c3f8b8e83354b44e24cf546c7d7a1ef4d110a7a6b7711f9973"
+    },
+    {
+      "state": "period-eighteen",
+      "role": "replica",
+      "view": "Heat Map",
+      "rows": 595,
+      "scope": "replica complete visible heatmap matrix",
+      "sha256": "133e30c675cf240ee0c6fb83cd8e367b2798b6388e46f310d6eced3a7fcc8c35"
+    },
+    {
+      "state": "period-eighteen",
+      "role": "replica",
+      "view": "BAN",
+      "rows": 1,
+      "scope": "BAN only",
+      "sha256": "c2056ae7865224c3f8b8e83354b44e24cf546c7d7a1ef4d110a7a6b7711f9973"
+    },
+    {
+      "state": "period-eighteen",
+      "role": "replica",
+      "view": "Bar",
+      "rows": 70,
+      "scope": "replica complete marginal histogram",
+      "sha256": "3d2d0ef962d81803991b8e7d7a046e6723a0cf52e0b3adfe9c9cc75fa43be6b4"
+    }
+  ]
+}

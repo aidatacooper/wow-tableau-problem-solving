@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-02",
+  "source_workbook": {
+    "filename": "2019_12_04_WW49_Select_State_Small_Multiples.twbx",
+    "bytes": 394857,
+    "sha256": "4e6182b87d6d385c67ffd0d22510a2bf0c30b71f5ec67e09d31d3ba7dbde3be8",
+    "url": null
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/TableauTemp/TEMP_0dn8yvo1c3gdcl143i6zz102ix8r.hyper",
+      "file": "inputs/TEMP_0dn8yvo1c3gdcl143i6zz102ix8r.hyper",
+      "bytes": 983040,
+      "sha256": "066e74896c2e880047a6c9114a01c583fc5154b5649437b83c08e28f39369f8b"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

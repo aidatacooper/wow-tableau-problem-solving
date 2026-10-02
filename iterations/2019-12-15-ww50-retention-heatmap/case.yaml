@@ -1,0 +1,102 @@
+schema_version: 1.1.0
+case_id: wow-2019-ww50-retention-heatmap
+iteration_id: 2019-12-15-ww50-retention-heatmap
+post: https://donnacoles.home.blog/2019/12/15/can-you-build-a-retention-heat-map-with-a-marginal-histogram/
+legacy_case_ids: {}
+article_date: '2019-12-15'
+challenge_year: 2019
+challenge_week: 50
+challenge_date: '2019-12-11'
+date_evidence:
+  article_date: Article dated 2019-12-15; formal folder retains article date.
+  challenge: Official challenge identifies 2019 week 50.
+  challenge_date: Official WordPress REST post 3152 published 2019-12-11T13:45:14.
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2019-week-50-can-you-build-a-retention-heat-map-with-a-marginal-histogram/
+    wordpress_post_id: 3152
+  article:
+    url: https://donnacoles.home.blog/2019/12/15/can-you-build-a-retention-heat-map-with-a-marginal-histogram/
+    path: null
+    sha256: null
+  workbook:
+    url: null
+    filename: 2019_12_11_WW50_Customer_Retention_HeatMap.twbx
+    sha256: 07c7543aa3bac3289041ee5a54cdfbe3895da28fed990eba99e5fae742a7504b
+    path: dashboards/2019_12_11_WW50_Customer_Retention_HeatMap.twbx
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- inputs/source-lock.json
+- analysis.md
+- evidence/data-contract.json
+- evidence/local-verification.json
+- evidence/diagnostic-summary.json
+- evidence/cloud-verification.json
+- evidence/cloud-data-comparison.json
+- evidence/visual-review.md
+- evidence/sdk-validation.json
+notes:
+- Cloud REST images/data states and generated-workbook contracts accepted; no browser
+  events executed.
+- Initial candidate incorrectly demoted FIXED New Customers from measure to dimension
+  and blanked fine-grain views; preserve measure role and ordinal view type. Final
+  actual Cloud CSVs validate complete matrices and marginals.
+- Headline SUM(New Customers) deduplicates FIXED cohort sizes internally in Tableau;
+  row-repeated Hyper diagnostic explicitly rejected by actual CSV.
+- Remaining modest layout/font differences documented; not pixel-identical.
+cwtwb:
+  tested_version: 0.27.1
+  runs:
+  - version: 0.27.1
+    result: pass
+    evidence: verify_replication.py
+  - version: 0.27.1
+    commit: f0e385b2f1abe845536e17041f2c2aaeb3c11fba
+    result: pass
+    evidence: evidence/sdk-validation.json
+  tested_commit: f0e385b2f1abe845536e17041f2c2aaeb3c11fba
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: pass
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/federated_0to3rxt0sdo3km1gwey0z1.hyper
+acceptance:
+- id: source-integrity
+  description: Preserved extracted Hyper SHA256 matches source lock.
+  mode: automated
+- id: independent-sdk-build
+  description: Builder starts empty and uses public SDK methods.
+  mode: automated
+- id: parameter-domain
+  description: Time Period accepts integer 10 through 26, default 26.
+  mode: automated
+- id: cohort-and-denominator
+  description: Monday first-order cohort and COUNTD/SUM FIXED formulas preserve author
+    semantics pending real export confirmation.
+  mode: automated
+- id: matrix-and-marginal-filter-contract
+  description: Heat map displays complete cohorts weeks 1 through N-1; marginal histogram
+    and headline use week N.
+  mode: automated
+- id: all-period-independent-data
+  description: Independent Hyper oracle validates all cells, marginal bars and headline
+    at all 17 legal periods.
+  mode: automated
+- id: cloud-states
+  description: Original and replica REST images at26/10/18weeks; author fullData,
+    replica all675/387/595matrix cells, all27/43/35marginal bars, and headlines independently
+    checked against Hyper. CSV confirms FIXED cohort-size deduplication.
+  mode: manual
+  evidence: evidence/visual-review.md
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []

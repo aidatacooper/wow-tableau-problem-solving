@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "sdk_version": "0.27.1",
+  "replica_sha256": "3985bd64d6975937acc9c94130a70fc08601cae06392598479b93a7c686896e2",
+  "commands": [
+    "python verify_replication.py",
+    "python verify_cloud_data.py"
+  ],
+  "checks": [
+    "source hashes",
+    "empty public SDK builder",
+    "17complete independent data states",
+    "final Cloud all matrix cells, all marginal bars and headline CSVs",
+    "all3state images reviewed"
+  ],
+  "browser_interaction_executed": false
+}

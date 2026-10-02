@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "sdk_version": "0.27.1",
+  "replica_sha256": "b90e20a4f53a7d0b0dc3c8c9ba01435496cd4d583ec9d097423eeb85ba10b5e0",
+  "checks": [
+    "input_sha256",
+    "empty_public_sdk_build",
+    "six_sheet_grains",
+    "four_states_six_grain_Hyper_reconciliation",
+    "year_filter_dashboard_targets",
+    "three_source_three_target_hover_highlight",
+    "auto_clear_true",
+    "custom_brown_palettes"
+  ],
+  "cloud_review": "passed: four Cloud REST states, complete replica weekly/monthly/matrix/bar CSVs; author CSV bars only"
+}

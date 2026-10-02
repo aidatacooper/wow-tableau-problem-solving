@@ -1,0 +1,100 @@
+schema_version: 1.1.0
+case_id: wow-2019-ww51-sales-performance-dashboard
+iteration_id: 2019-12-23-ww51-sales-performance-dashboard
+post: https://donnacoles.home.blog/2019/12/23/sales-performance-dashboard/
+legacy_case_ids: {}
+article_date: '2019-12-23'
+challenge_year: 2019
+challenge_week: 51
+challenge_date: '2019-12-18'
+date_evidence:
+  article_date: Article published 2019-12-23.
+  challenge: Official challenge declares 2019 week 51.
+  challenge_date: Official WordPress REST post 3218 date 2019-12-18T09:00:00.
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/week-51-sales-performance-dashboard/
+    wordpress_post_id: 3218
+  article:
+    url: https://donnacoles.home.blog/2019/12/23/sales-performance-dashboard/
+    path: null
+    sha256: null
+  workbook:
+    url: https://public.tableau.com/views/2019_12_18_WW51_SalesPerfDashboard/2019_12_18_WW51_SalesPerfDashboard
+    filename: 2019_12_18_WW51_SalesPerfDashboard.twbx
+    sha256: 7a1990878e1714cdf4bb37e965a9f4695b0edd29f8599100e02163494e9578e3
+    path: dashboards/2019_12_18_WW51_SalesPerfDashboard.twbx
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- inputs/source-lock.json
+- analysis.md
+- evidence/data-contract.json
+- evidence/local-verification.json
+- evidence/diagnostic-summary.json
+- evidence/weekly-boundary-image-diagnosis.json
+- evidence/cloud-verification.json
+- evidence/cloud-data-comparison.json
+- evidence/visual-review.md
+- evidence/sdk-validation.json
+notes:
+- Four real Cloud REST states and complete replica weekly/monthly/matrix/bar CSVs
+  verified independently against preserved Hyper. Author dashboard CSV covers subcategory
+  bars only.
+- Sunday week boundaries explicitly preserve the author curve; action events are verified
+  through workbook contracts, with no browser clicks or hover claimed.
+- Accepted visual differences include missing horizontal guide lines, missing dollar
+  symbols on bar labels, typography, padding and map margins; not pixel-identical.
+cwtwb:
+  tested_version: 0.27.1
+  runs:
+  - version: 0.27.1
+    result: blocked
+    evidence: analysis.md
+  - version: 0.27.1
+    result: pass
+    evidence: verify_replication.py
+  - version: 0.27.1
+    commit: f0e385b2f1abe845536e17041f2c2aaeb3c11fba
+    result: pass
+    evidence: evidence/sdk-validation.json
+  tested_commit: f0e385b2f1abe845536e17041f2c2aaeb3c11fba
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: pass
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/Orders (Sample - Superstore).hyper
+acceptance:
+- id: source-integrity
+  description: Preserve extracted Hyper hash and 9994 records.
+  mode: automated
+- id: independent-sdk-build
+  description: Build from empty workbook through public APIs.
+  mode: automated
+- id: six-sheet-grains
+  description: Weekly, year, month, dot matrix, subcategory bars and state map use
+    correct grains.
+  mode: automated
+- id: independent-six-grain-data
+  description: Independently reconcile all six sales grains in default, 2019, California
+    and combined states.
+  mode: automated
+- id: year-filter-and-highlight-actions
+  description: Year select filters dashboard; bottom three charts share on-hover highlight
+    excluding map, week and selector.
+  mode: automated
+- id: cloud-state-review
+  description: REST image and actual CSV scope comparison in exported year/state states.
+  mode: manual
+  evidence: evidence/visual-review.md
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []

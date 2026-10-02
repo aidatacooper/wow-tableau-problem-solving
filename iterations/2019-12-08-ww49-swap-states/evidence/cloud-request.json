@@ -1,0 +1,21 @@
+{
+  "case_dir": "iterations/2019-12-08-ww49-swap-states",
+  "author_workbook": "dashboards/2019_12_04_WW49_Select_State_Small_Multiples/2019_12_04_WW49_Select_State_Small_Multiples.twbx",
+  "author_view": "2019_12_04_WW49_Select_State_Small_Multiple",
+  "replica_view": "2019_12_04_WW49_Select_State_Small_Multiple",
+  "states": [],
+  "data_views": [
+    {
+      "name": "dashboard",
+      "author": "2019_12_04_WW49_Select_State_Small_Multiple",
+      "replica": "2019_12_04_WW49_Select_State_Small_Multiple",
+      "scope": "Dashboard REST CSV exports one worksheet, not both selected-state city map and state trellis. Scope and returned columns are verified independently after export; complete 49-selection matrix comes from Hyper and action contracts."
+    },
+    {
+      "name": "trellis",
+      "author": "CHK:Data",
+      "replica": "States",
+      "scope": "Default author CHK:Data diagnostic state ranks/Sales and replica States trellis worksheet. Checks the 25 default OUT states and label values separately from selected-city dashboard CSV; does not prove actual selection-event execution."
+    }
+  ]
+}

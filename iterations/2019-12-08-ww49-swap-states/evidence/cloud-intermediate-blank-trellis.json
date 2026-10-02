@@ -1,0 +1,16 @@
+{
+  "status": "failed_visual_and_query_review",
+  "source_hashes": {
+    "author": "4e6182b87d6d385c67ffd0d22510a2bf0c30b71f5ec67e09d31d3ba7dbde3be8",
+    "replica": "bfe5751db12e2ea31df2ca923ae7ea45c2ae673c06e37b293a9bf2f3363faa3d"
+  },
+  "captured_at": "2026-10-02T15:37:32.367092+00:00",
+  "selected_city_map": "Rendered correctly after setting United States context; all seven city sales and generated coordinates returned",
+  "trellis": "Blank PNG region and 0-byte replica States CSV",
+  "generic_corrections": [
+    "Binary exclusion requires a level-members universe followed by excluded member/union",
+    "Hidden filters must preserve table calculation partitions instead of being added as normal slices",
+    "Set table calculation addressing references InOut instances, not nonexistent physical columns"
+  ],
+  "browser_interaction_executed": false
+}

@@ -1,0 +1,90 @@
+schema_version: 1.1.0
+case_id: wow-2026-ww11-layout-containers
+iteration_id: 2026-03-23-ww11-layout-containers
+post: https://donnacoles.home.blog/2026/03/23/can-you-use-layout-containers/
+legacy_case_ids: {}
+article_date: '2026-03-23'
+challenge_year: 2026
+challenge_week: 11
+challenge_date: '2026-03-17'
+date_evidence:
+  article_date: Declared article publication date in iteration_id
+  challenge: Explicit challenge_year; week declared in iteration_id
+  challenge_date: Official WordPress REST post 21463 date 2026-03-17; title identifies
+    2026 week 11
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2026w11tab/
+    wordpress_post_id: 21463
+  article:
+    url: https://donnacoles.home.blog/2026/03/23/can-you-use-layout-containers/
+    path: null
+    sha256: null
+  workbook:
+    url: https://public.tableau.com/views/2026_03_18_WW11_Layout_Containers/WOW2026Week11
+    filename: 2026_03_18_WW11_Layout_Containers.twbx
+    sha256: 7075cd258da1968ee31d7dbf73b45a8ffe54d790ff364061fe880a86e59710aa
+    path: dashboards/2026_03_18_WW11_Layout_Containers/2026_03_18_WW11_Layout_Containers.twbx
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- inputs/source-lock.json
+- evidence/data-contract.json
+- evidence/cloud-verification.json
+- evidence/cloud-data-comparison.json
+- evidence/visual-review.md
+- evidence/sdk-validation.json
+notes:
+- The locked Hyper contains Orders, Returns and People tables. Charts use Orders only,
+  matching author views; unrelated auxiliary tables are preserved in the packaged
+  source.
+- CY is max Order Date year, 2026; PY is 2025. No snapshot totals enter the builder.
+- Final Cloud REST workbook hashes and CSV checks passed; visual differences and evidence
+  limits are documented in evidence/visual-review.md. No browser interactions were
+  executed.
+cwtwb:
+  tested_version: 0.27.1
+  runs:
+  - version: 0.27.1
+    result: pass
+    evidence: verify_replication.py
+    notes: Editable local SDK based on commit 0958b51 plus working tree enhancements;
+      build and verifier executed, not a released baseline capability claim.
+  - version: 0.27.1
+    commit: f0e385b2f1abe845536e17041f2c2aaeb3c11fba
+    result: pass
+    evidence: evidence/sdk-validation.json
+  tested_commit: f0e385b2f1abe845536e17041f2c2aaeb3c11fba
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: pass
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/Sample _ Superstore.hyper
+acceptance:
+- id: nested-layout-contract
+  description: nested layout contract; locked data and workbook contract checks.
+  mode: automated
+- id: current-prior-year-trends-and-quadrants-contract
+  description: current prior year trends and quadrants contract; locked data and workbook
+    contract checks.
+  mode: automated
+- id: independent-monthly-kpi-scatter-oracle
+  description: independent monthly kpi scatter oracle; locked data and workbook contract
+    checks.
+  mode: automated
+- id: cloud-rest-visual-review
+  description: Final author and replica REST image review and actual exported CSV
+    scope; accepted differences documented.
+  mode: manual
+  evidence: evidence/visual-review.md
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []

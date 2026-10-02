@@ -1,0 +1,86 @@
+{
+  "status": "passed",
+  "csv_scope": "Author dashboard exports Profit % Increase only (one row). Replica dashboard export includes eight dependent aggregate KPI columns. Only this actual scope is claimed; monthly trend and 17-point scatter numerical contracts use locked Hyper plus XML/PNG evidence.",
+  "browser_events_executed": false,
+  "exports": {
+    "author": {
+      "file": "outputs/cloud-author-dashboard.csv",
+      "sha256": "66f8ae3e47e47a6dea7b436acef81c0edf295182567c8f04b92c478115dc8c1c",
+      "columns": [
+        "Profit % Increase"
+      ],
+      "comparisons": {
+        "Profit % Increase": {
+          "displayed": 0.16,
+          "oracle": 0.16041992895733814,
+          "absolute_error": 0.0004199289573381393,
+          "format_tolerance": 0.00051
+        }
+      }
+    },
+    "replica": {
+      "file": "outputs/cloud-replica-dashboard.csv",
+      "sha256": "38635ca00b76bd116bf561e22fd177eff631903f48f742dd3df837b854b4959b",
+      "columns": [
+        "Profit % Increase",
+        "PR % Increase",
+        "Total Profit CY",
+        "Total Profit PY",
+        "Total Profit Ratio CY",
+        "Total Profit Ratio PY",
+        "Total Sales CY",
+        "Total Sales PY"
+      ],
+      "comparisons": {
+        "Profit % Increase": {
+          "displayed": 0.16,
+          "oracle": 0.16041992895733814,
+          "absolute_error": 0.0004199289573381393,
+          "format_tolerance": 0.00051
+        },
+        "PR % Increase": {
+          "displayed": -0.064,
+          "oracle": -0.06365900265077884,
+          "absolute_error": 0.00034099734922116154,
+          "format_tolerance": 0.00051
+        },
+        "Total Profit CY": {
+          "displayed": 95900.0,
+          "oracle": 95926.34759999996,
+          "absolute_error": 26.347599999964586,
+          "format_tolerance": 50.001
+        },
+        "Total Profit PY": {
+          "displayed": 82700.0,
+          "oracle": 82665.20179999995,
+          "absolute_error": 34.79820000004838,
+          "format_tolerance": 50.001
+        },
+        "Total Profit Ratio CY": {
+          "displayed": 1.548,
+          "oracle": 1.5481468742534112,
+          "absolute_error": 0.00014687425341119997,
+          "format_tolerance": 0.00051
+        },
+        "Total Profit Ratio PY": {
+          "displayed": 1.6119999999999999,
+          "oracle": 1.61180587690419,
+          "absolute_error": 0.00019412309580979503,
+          "format_tolerance": 0.00051
+        },
+        "Total Sales CY": {
+          "displayed": 745600.0,
+          "oracle": 745567.5311999997,
+          "absolute_error": 32.46880000026431,
+          "format_tolerance": 50.001
+        },
+        "Total Sales PY": {
+          "displayed": 613900.0,
+          "oracle": 613933.5799999998,
+          "absolute_error": 33.579999999841675,
+          "format_tolerance": 50.001
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,108 @@
+schema_version: 1.1.0
+case_id: wow-2019-ww49-swap-states
+iteration_id: 2019-12-08-ww49-swap-states
+post: https://donnacoles.home.blog/2019/12/08/can-you-swap-states/
+legacy_case_ids: {}
+article_date: '2019-12-08'
+challenge_year: 2019
+challenge_week: 49
+challenge_date: '2019-12-03'
+date_evidence:
+  article_date: Article published 2019-12-08 at the source article URL
+  challenge_date: 'Official WordPress post 3089 dated 2019-12-03: https://www.workout-wednesday.com/2019w49/'
+  challenge: Official 2019 Week 49 identity
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2019w49/
+  article:
+    url: https://donnacoles.home.blog/2019/12/08/can-you-swap-states/
+    path: null
+    sha256: null
+  workbook:
+    url: null
+    filename: 2019_12_04_WW49_Select_State_Small_Multiples.twbx
+    sha256: 4e6182b87d6d385c67ffd0d22510a2bf0c30b71f5ec67e09d31d3ba7dbde3be8
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- inputs/source-lock.json
+- evidence/baseline-sdk.json
+- evidence/data-contract.json
+- evidence/cloud-initial-blank-geography.json
+- evidence/cloud-intermediate-blank-trellis.json
+- evidence/cloud-verification.json
+- evidence/cloud-data-comparison.json
+- evidence/visual-review.md
+- evidence/sdk-validation.json
+notes:
+- Cloud REST default state and independent 49-selection oracle plus action artifact
+  contracts accepted; no browser selection events were executed.
+- The author CHK:Data CSV contains IN Oklahoma plus OUT25; only OUT rows prove the
+  visible default trellis.
+- SDK commit will be locked by the coordinating maintainer after the final generic
+  regression run.
+cwtwb:
+  tested_version: 0.27.1
+  runs:
+  - version: 0.27.1
+    result: blocked
+    evidence: evidence/baseline-sdk.json
+  - version: 0.27.1
+    result: pass
+    evidence: evidence/data-contract.json
+  - version: 0.27.1
+    result: blocked
+    evidence: evidence/cloud-initial-blank-geography.json
+  - version: 0.27.1
+    result: blocked
+    evidence: evidence/cloud-intermediate-blank-trellis.json
+  - version: 0.27.1
+    result: pass
+    evidence: evidence/data-contract.json
+  - version: 0.27.1
+    result: pass
+    evidence: evidence/cloud-data-comparison.json
+  - version: 0.27.1
+    commit: f0e385b2f1abe845536e17041f2c2aaeb3c11fba
+    result: pass
+    evidence: evidence/sdk-validation.json
+  tested_commit: f0e385b2f1abe845536e17041f2c2aaeb3c11fba
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: pass
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/TEMP_0dn8yvo1c3gdcl143i6zz102ix8r.hyper
+acceptance:
+- id: default-state-city-sales
+  description: Oklahoma is initial selection with $19,683.39 sales and seven city
+    marks.
+  mode: automated
+- id: trellis-top25-out-partition
+  description: All 49 selection scenarios independently verify 25 highest-sales OUT
+    states, complete 5x5 positions and nationwide rank labels.
+  mode: automated
+- id: set-action-contract
+  description: States on-select assigns exactly one state; clear preserves the selection;
+    serialized source and target verified.
+  mode: automated
+- id: cloud-image-csv
+  description: Author/replica REST images and actual CSV scope are exported and independently
+    compared without claiming browser clicks.
+  mode: manual
+  evidence: evidence/visual-review.md
+workarounds: []
+capability_gaps:
+- Explicit categorical set members
+- Generated geographic fields and layered geometry/detail encodings
+- Layered filters, detail dimension sorting and map-layer visibility
+- Set action selection assignment and single-select configuration
+- Public geographic lookup country/state context to replace inherited template defaults
+related_cwtwb_issues: []

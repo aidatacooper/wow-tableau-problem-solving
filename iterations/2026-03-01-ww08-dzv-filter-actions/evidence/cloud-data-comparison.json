@@ -1,0 +1,75 @@
+{
+  "status": "passed",
+  "csv_scope": "Customer Orders product Sales and Quantity; includes hidden default sheet CSV. Does not export KPI Profit/Ratio or map geometry/customer domain. Those use independent Hyper + XML/image evidence.",
+  "browser_events_executed": false,
+  "states": [
+    {
+      "name": "default",
+      "products": 1849,
+      "measure_rows": 3698,
+      "exports": {
+        "author": {
+          "file": "outputs/cloud-author-dashboard.csv",
+          "sha256": "651ff12957dd2b4b355eee2ef23505db22af61594c0147c06cdb05ef694b2e27",
+          "max_absolute_error": 7.275957614183426e-12
+        },
+        "replica": {
+          "file": "outputs/cloud-replica-dashboard.csv",
+          "sha256": "651ff12957dd2b4b355eee2ef23505db22af61594c0147c06cdb05ef694b2e27",
+          "max_absolute_error": 7.275957614183426e-12
+        }
+      }
+    },
+    {
+      "name": "California",
+      "products": 1197,
+      "measure_rows": 2394,
+      "exports": {
+        "author": {
+          "file": "outputs/cloud-author-dashboard-california.csv",
+          "sha256": "d889ea38bf2f186e00d4165446e27edbc62d846612df862a05df228cb5579e41",
+          "max_absolute_error": 9.094947017729282e-13
+        },
+        "replica": {
+          "file": "outputs/cloud-replica-dashboard-california.csv",
+          "sha256": "d889ea38bf2f186e00d4165446e27edbc62d846612df862a05df228cb5579e41",
+          "max_absolute_error": 9.094947017729282e-13
+        }
+      }
+    },
+    {
+      "name": "Texas",
+      "products": 763,
+      "measure_rows": 1526,
+      "exports": {
+        "author": {
+          "file": "outputs/cloud-author-dashboard-texas.csv",
+          "sha256": "e29c52f1eff051c9ffd5d71e97b6764a9d2966dc3b0e36bab11aafdf6d62098a",
+          "max_absolute_error": 9.094947017729282e-13
+        },
+        "replica": {
+          "file": "outputs/cloud-replica-dashboard-texas.csv",
+          "sha256": "e29c52f1eff051c9ffd5d71e97b6764a9d2966dc3b0e36bab11aafdf6d62098a",
+          "max_absolute_error": 9.094947017729282e-13
+        }
+      }
+    },
+    {
+      "name": "California:Aaron Hawkins",
+      "products": 5,
+      "measure_rows": 10,
+      "exports": {
+        "author": {
+          "file": "outputs/cloud-author-dashboard-california-aaron.csv",
+          "sha256": "009232c7ddbc53dc916fa77bf7bbf4c24de3ffea03c1e26a1aadc1f660e0ff48",
+          "max_absolute_error": 0.0
+        },
+        "replica": {
+          "file": "outputs/cloud-replica-dashboard-california-aaron.csv",
+          "sha256": "009232c7ddbc53dc916fa77bf7bbf4c24de3ffea03c1e26a1aadc1f660e0ff48",
+          "max_absolute_error": 0.0
+        }
+      }
+    }
+  ]
+}

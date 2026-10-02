@@ -1,0 +1,115 @@
+{
+  "row_count": 9994,
+  "states": [
+    {
+      "parameter": "",
+      "panel_visible": false,
+      "sales": 2297200.8602999435,
+      "profit": 286397.0216999996,
+      "profit_ratio": 0.12467217240315893,
+      "quantity": 37873,
+      "relevant_customer_count": 793,
+      "sample_customer": "Aaron Bergman",
+      "sample_customer_sales": 886.156,
+      "sample_customer_profit": 129.3465,
+      "sample_customer_quantity": 13,
+      "sample_customer_profit_ratio": 0.14596357751908243,
+      "sample_customer_products": [
+        {
+          "product": "Akro Stacking Bins",
+          "sales": 12.624,
+          "quantity": 2
+        },
+        {
+          "product": "Carina 42\"Hx23 3/4\"W Media Storage Unit",
+          "sales": 242.94,
+          "quantity": 3
+        },
+        {
+          "product": "Global Push Button Manager's Chair, Indigo",
+          "sales": 48.712,
+          "quantity": 1
+        },
+        {
+          "product": "Newell 330",
+          "sales": 17.94,
+          "quantity": 3
+        },
+        {
+          "product": "Samsung Convoy 3",
+          "sales": 221.98,
+          "quantity": 2
+        },
+        {
+          "product": "Sauder Facets Collection Library, Sky Alder Finish",
+          "sales": 341.96,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "parameter": "California",
+      "panel_visible": true,
+      "sales": 457687.6315000017,
+      "profit": 76381.38710000004,
+      "profit_ratio": 0.16688540795754442,
+      "quantity": 7667,
+      "relevant_customer_count": 577,
+      "sample_customer": "Aaron Hawkins",
+      "sample_customer_sales": 1328.124,
+      "sample_customer_profit": 179.88419999999994,
+      "sample_customer_quantity": 23,
+      "sample_customer_profit_ratio": 0.13544232315657267,
+      "sample_customer_products": [
+        {
+          "product": "EcoTones Memo Sheets",
+          "sales": 8.0,
+          "quantity": 2
+        },
+        {
+          "product": "Fellowes Super Stor/Drawer Files",
+          "sales": 323.1,
+          "quantity": 2
+        },
+        {
+          "product": "GBC VeloBind Cover Sets",
+          "sales": 49.408,
+          "quantity": 4
+        },
+        {
+          "product": "Geemarc AmpliPOWER60",
+          "sales": 668.16,
+          "quantity": 9
+        },
+        {
+          "product": "Iceberg Nesting Folding Chair, 19w x 6d x 43h",
+          "sales": 279.456,
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "parameter": "Texas",
+      "panel_visible": true,
+      "sales": 170188.04579999985,
+      "profit": -25729.356299999985,
+      "profit_ratio": -0.1511819245532462,
+      "quantity": 3724,
+      "relevant_customer_count": 370,
+      "sample_customer": "Aaron Bergman",
+      "sample_customer_sales": 12.624,
+      "sample_customer_profit": -2.524800000000002,
+      "sample_customer_quantity": 2,
+      "sample_customer_profit_ratio": -0.20000000000000015,
+      "sample_customer_products": [
+        {
+          "product": "Akro Stacking Bins",
+          "sales": 12.624,
+          "quantity": 2
+        }
+      ]
+    }
+  ],
+  "csv_scope": "Cloud dashboard export covers one sheet, identified separately; this locked Hyper oracle covers all KPI/customer/product states.",
+  "browser_events_executed": false
+}

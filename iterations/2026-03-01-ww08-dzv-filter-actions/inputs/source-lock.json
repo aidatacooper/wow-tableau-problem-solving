@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-02",
+  "source_workbook": {
+    "filename": "2026_02_25_WW08_DMZ_Filters.twbx",
+    "bytes": 189970,
+    "sha256": "791d7ff20bb8ef133f4c32c39eb09da32f3e493ff34a9e02b61915e99fc949ac",
+    "url": "https://public.tableau.com/views/2026_02_25_WW08_DMZ_Filters/2026_02_25_WW08_DMZ_Filters"
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Datasources/Orders (Sample - Superstore).hyper",
+      "file": "inputs/Orders (Sample - Superstore).hyper",
+      "bytes": 524288,
+      "sha256": "853e472624529f7c70aed5288367434eab7ab3e99a80be524475cb087a5b69f9"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

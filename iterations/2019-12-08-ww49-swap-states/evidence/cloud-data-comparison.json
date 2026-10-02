@@ -1,0 +1,135 @@
+{
+  "status": "pass",
+  "city_coordinate_comparison": {
+    "author": {
+      "Broken Arrow": [
+        36.0526,
+        -95.7908
+      ],
+      "Edmond": [
+        35.6571,
+        -97.4649
+      ],
+      "Lawton": [
+        34.6087,
+        -98.3903
+      ],
+      "Muskogee": [
+        35.663,
+        -95.3928
+      ],
+      "Norman": [
+        35.2226,
+        -97.4395
+      ],
+      "Oklahoma City": [
+        35.473,
+        -97.5171
+      ],
+      "Tulsa": [
+        36.1012,
+        -95.9251
+      ]
+    },
+    "replica": {
+      "Broken Arrow": [
+        36.0526,
+        -95.7908
+      ],
+      "Edmond": [
+        35.6571,
+        -97.4649
+      ],
+      "Lawton": [
+        34.6087,
+        -98.3903
+      ],
+      "Muskogee": [
+        35.663,
+        -95.3928
+      ],
+      "Norman": [
+        35.2226,
+        -97.4395
+      ],
+      "Oklahoma City": [
+        35.473,
+        -97.5171
+      ],
+      "Tulsa": [
+        36.1012,
+        -95.9251
+      ]
+    }
+  },
+  "csvs": [
+    {
+      "role": "author",
+      "path": "outputs/cloud-author-dashboard.csv",
+      "headers": [
+        "City",
+        "State",
+        "Latitude (generated)",
+        "Longitude (generated)",
+        "Sales"
+      ],
+      "raw_rows": 8,
+      "unique_verified_marks": 8,
+      "actual_scope": "Selected State city marks",
+      "sha256": "156414432194da4472d7fbfff675a3fead6368ea007a3c31308fd57fcc2d3869",
+      "rounding_tolerance": 0.500001
+    },
+    {
+      "role": "author",
+      "path": "outputs/cloud-author-trellis.csv",
+      "headers": [
+        "In / Out of Selected Set",
+        "Measure Names",
+        "State",
+        "Measure Values"
+      ],
+      "raw_rows": 25,
+      "unique_verified_marks": 25,
+      "actual_scope": "State-level marks only",
+      "sha256": "0ccc4d05d3ec827d85e2f6284a6fb6c09c5f09c39d0c70e8ce48ab8a057d6ed5",
+      "rounding_tolerance": 1e-06
+    },
+    {
+      "role": "replica",
+      "path": "outputs/cloud-replica-dashboard.csv",
+      "headers": [
+        "City",
+        "State",
+        "Latitude (generated)",
+        "Longitude (generated)",
+        "Sales"
+      ],
+      "raw_rows": 8,
+      "unique_verified_marks": 8,
+      "actual_scope": "Selected State city marks",
+      "sha256": "d8b4378aa5935ce809e100c7df846c214ca25f3bd531096c881c35183c66c2ae",
+      "rounding_tolerance": 0.500001
+    },
+    {
+      "role": "replica",
+      "path": "outputs/cloud-replica-trellis.csv",
+      "headers": [
+        "In / Out of Selected Set",
+        "State",
+        "Cols",
+        "Global Rank",
+        "Label Rows",
+        "Rows",
+        "State Rank",
+        "Sales"
+      ],
+      "raw_rows": 50,
+      "unique_verified_marks": 25,
+      "actual_scope": "State-level marks only",
+      "sha256": "8dcc1b08f4a0fb24e774ab7a936e78d51cd1830ee55ec1e10970eccafe31efb7",
+      "rounding_tolerance": 0.500001
+    }
+  ],
+  "browser_action_executed": false,
+  "full_selection_matrix": "Independent Hyper oracle covers all 49 selections; this CSV does not prove all action states."
+}

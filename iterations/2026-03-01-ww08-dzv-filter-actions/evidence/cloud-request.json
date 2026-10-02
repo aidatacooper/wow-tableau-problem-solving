@@ -1,0 +1,37 @@
+{
+  "case_dir": "iterations/2026-03-01-ww08-dzv-filter-actions",
+  "author_workbook": "dashboards/2026_02_25_WW08_DMZ_Filters/2026_02_25_WW08_DMZ_Filters.twbx",
+  "author_view": "2026_02_25_WW08_DMZ_Filters",
+  "replica_view": "2026_02_25_WW08_DMZ_Filters",
+  "states": [
+    {
+      "name": "california",
+      "parameters": {
+        "pSelectedState": "California"
+      }
+    },
+    {
+      "name": "texas",
+      "parameters": {
+        "pSelectedState": "Texas"
+      }
+    },
+    {
+      "name": "california-aaron",
+      "parameters": {
+        "pSelectedState": "California"
+      },
+      "filters": {
+        "Customer Name": "Aaron Hawkins"
+      }
+    }
+  ],
+  "data_views": [
+    {
+      "name": "dashboard",
+      "author": "2026_02_25_WW08_DMZ_Filters",
+      "replica": "2026_02_25_WW08_DMZ_Filters",
+      "scope": "Dashboard single visible worksheet CSV; verify which sheet is exported. Full state/customer KPI and product data independently checked using locked Hyper."
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "case_id": "wow-2026-ww11-layout-containers",
+  "captured_at": "2026-10-02T15:51:26.818920+00:00",
+  "source_hashes": {
+    "author": "7075cd258da1968ee31d7dbf73b45a8ffe54d790ff364061fe880a86e59710aa",
+    "replica": "b21c3d6d9965ceb1e94b6dd50a82b5e72ef6dbc7397cf19505cdf1f6b1157439"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "e8406cb5-d139-4dd9-9759-1f1b921b0e3f",
+      "name": "cwtwb-review-wow-2026-ww11-layout-containers-author",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2924263",
+      "views": [
+        {
+          "name": "#WOW2026 Week 11",
+          "id": "03d0e4f0-7425-4e6e-a477-72263e1dda6a"
+        }
+      ]
+    },
+    "replica": {
+      "id": "8304060f-755c-4fcf-81a1-eb9e6d2f1e2b",
+      "name": "cwtwb-review-wow-2026-ww11-layout-containers-replica",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2924264",
+      "views": [
+        {
+          "name": "Total Sales CY vs PY",
+          "id": "05852870-3ba8-4d67-839c-d58364ea4052"
+        },
+        {
+          "name": "Sales % Change",
+          "id": "e14b720b-bd08-4a94-8fae-e2287c39f8e3"
+        },
+        {
+          "name": "Sales Over Time",
+          "id": "70a7b5fa-7bc6-491a-a69b-955305332231"
+        },
+        {
+          "name": "Total Profit CY vs PY",
+          "id": "e594ba9b-e127-42b1-81a5-57338bcb4f69"
+        },
+        {
+          "name": "Profit % Change",
+          "id": "d2612848-3492-418b-8f79-9b23dfb6476a"
+        },
+        {
+          "name": "Profit Over Time",
+          "id": "baa65a72-c2df-4b18-9680-1d91813c66cb"
+        },
+        {
+          "name": "Total Profit Ratio CY vs PY",
+          "id": "9d91a6b0-b976-4c1f-a871-ab79efb52373"
+        },
+        {
+          "name": "Profit Ratio % Change",
+          "id": "e362193e-e309-43cd-9b90-aaf77f6eec53"
+        },
+        {
+          "name": "Profit Ratio Over Time",
+          "id": "4be89d2e-d8b9-4ba2-870c-22687c328b22"
+        },
+        {
+          "name": "Scatter",
+          "id": "d1c78111-24ec-4692-8d48-c37b5f48d3a7"
+        },
+        {
+          "name": "#WOW2026 Week 11",
+          "id": "19f56a72-5112-44f4-82b2-0b397538825a"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "03d0e4f0-7425-4e6e-a477-72263e1dda6a",
+          "name": "#WOW2026 Week 11",
+          "path": "outputs/cloud-author.png",
+          "sha256": "4ac091efd03c727a1730dafb0e91928c697c9c9496f22b2cfe5c64926763a80a",
+          "size": [
+            2400,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "19f56a72-5112-44f4-82b2-0b397538825a",
+          "name": "#WOW2026 Week 11",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "30e2f3f72f291b7446dd317806ad564b083b56167ceb4a64d932f8f24e9fb111",
+          "size": [
+            2400,
+            1600
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "#WOW2026 Week 11",
+          "view_id": "03d0e4f0-7425-4e6e-a477-72263e1dda6a",
+          "scope": "Dashboard single worksheet CSV; numerical Hyper oracle independently covers full overview.",
+          "path": "outputs/cloud-author-dashboard.csv",
+          "sha256": "66f8ae3e47e47a6dea7b436acef81c0edf295182567c8f04b92c478115dc8c1c",
+          "bytes": 27
+        },
+        {
+          "role": "replica",
+          "view": "#WOW2026 Week 11",
+          "view_id": "19f56a72-5112-44f4-82b2-0b397538825a",
+          "scope": "Dashboard single worksheet CSV; numerical Hyper oracle independently covers full overview.",
+          "path": "outputs/cloud-replica-dashboard.csv",
+          "sha256": "38635ca00b76bd116bf561e22fd177eff631903f48f742dd3df837b854b4959b",
+          "bytes": 203
+        }
+      ]
+    }
+  ],
+  "status": "verified_acceptable_delta",
+  "independent_review": {
+    "evidence": "evidence/visual-review.md",
+    "data_comparison": "evidence/cloud-data-comparison.json",
+    "browser_events_executed": false
+  },
+  "review_evidence": "evidence/visual-review.md"
+}

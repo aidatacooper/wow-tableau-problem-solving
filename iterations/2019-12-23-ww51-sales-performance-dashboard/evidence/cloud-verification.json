@@ -1,0 +1,473 @@
+{
+  "case_id": "wow-2019-ww51-sales-performance-dashboard",
+  "captured_at": "2026-10-02T16:02:37.767306+00:00",
+  "source_hashes": {
+    "author": "7a1990878e1714cdf4bb37e965a9f4695b0edd29f8599100e02163494e9578e3",
+    "replica": "b90e20a4f53a7d0b0dc3c8c9ba01435496cd4d583ec9d097423eeb85ba10b5e0"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "c9cb9908-ae35-456f-987c-47dcbd45f3e1",
+      "name": "cwtwb-review-wow-2019-ww51-sales-performance-dashboard-author",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2924271",
+      "views": [
+        {
+          "name": "2019_12_18_WW51_SalesPerfDashboard",
+          "id": "5d6659c7-55e8-4379-b621-60530f313879"
+        }
+      ]
+    },
+    "replica": {
+      "id": "b53b3835-751c-4651-a50d-2b7c52326187",
+      "name": "cwtwb-review-wow-2019-ww51-sales-performance-dashboard-replica",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2924273",
+      "views": [
+        {
+          "name": "Sales By Week ",
+          "id": "12ad7d26-794c-485a-9624-c8c78991148b"
+        },
+        {
+          "name": "Year Filter",
+          "id": "b0336522-f6a3-4ab1-805c-2ce619f46585"
+        },
+        {
+          "name": "Sales by Month",
+          "id": "766a1856-08fc-4f0d-ac76-98c77f63a524"
+        },
+        {
+          "name": "Dot by Sub Cat ",
+          "id": "7f084d98-3ab0-48f8-8dd6-80fa327f5ce9"
+        },
+        {
+          "name": "Bar by Sub Cat",
+          "id": "68d4e0ba-fc55-42d9-a33c-0623e47c93b0"
+        },
+        {
+          "name": "Map",
+          "id": "85d7e93c-156c-43f0-9483-bdae94f5381e"
+        },
+        {
+          "name": "2019_12_18_WW51_SalesPerfDashboard",
+          "id": "6a348283-bcb7-4bd0-8a5a-30ef12177dcb"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "5d6659c7-55e8-4379-b621-60530f313879",
+          "name": "2019_12_18_WW51_SalesPerfDashboard",
+          "path": "outputs/cloud-author.png",
+          "sha256": "e2824d85877d64bc730c50b525dbacbfd87ce8e4ac49b3547304fa82b244d94c",
+          "size": [
+            2000,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "6a348283-bcb7-4bd0-8a5a-30ef12177dcb",
+          "name": "2019_12_18_WW51_SalesPerfDashboard",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "cd7ccd8a8099874b7ca1983991bca8490a1805bc5f9ddae629beafbe9d5f5646",
+          "size": [
+            2000,
+            1600
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "2019_12_18_WW51_SalesPerfDashboard",
+          "view_id": "5d6659c7-55e8-4379-b621-60530f313879",
+          "scope": "Actual Tableau-selected dashboard worksheet CSV; determine returned scope from columns, not assumed to cover six charts.",
+          "path": "outputs/cloud-author-dashboard.csv",
+          "sha256": "dbb3ccccda655155a173392577242b1aab04efff2a7063c8155f29f265bd6fe8",
+          "bytes": 343
+        },
+        {
+          "role": "author",
+          "view": "2019_12_18_WW51_SalesPerfDashboard",
+          "view_id": "5d6659c7-55e8-4379-b621-60530f313879",
+          "scope": "Author dashboard CSV still Bar by Sub Cat ONLY; replica standalone Sales By Week  full data validated separately against Hyper.",
+          "path": "outputs/cloud-author-weekly.csv",
+          "sha256": "dbb3ccccda655155a173392577242b1aab04efff2a7063c8155f29f265bd6fe8",
+          "bytes": 343
+        },
+        {
+          "role": "author",
+          "view": "2019_12_18_WW51_SalesPerfDashboard",
+          "view_id": "5d6659c7-55e8-4379-b621-60530f313879",
+          "scope": "Author dashboard CSV still Bar by Sub Cat ONLY; replica standalone Sales by Month full data validated separately against Hyper.",
+          "path": "outputs/cloud-author-monthly.csv",
+          "sha256": "dbb3ccccda655155a173392577242b1aab04efff2a7063c8155f29f265bd6fe8",
+          "bytes": 343
+        },
+        {
+          "role": "author",
+          "view": "2019_12_18_WW51_SalesPerfDashboard",
+          "view_id": "5d6659c7-55e8-4379-b621-60530f313879",
+          "scope": "Author dashboard CSV still Bar by Sub Cat ONLY; replica standalone Dot by Sub Cat  full data validated separately against Hyper.",
+          "path": "outputs/cloud-author-matrix.csv",
+          "sha256": "dbb3ccccda655155a173392577242b1aab04efff2a7063c8155f29f265bd6fe8",
+          "bytes": 343
+        },
+        {
+          "role": "replica",
+          "view": "2019_12_18_WW51_SalesPerfDashboard",
+          "view_id": "6a348283-bcb7-4bd0-8a5a-30ef12177dcb",
+          "scope": "Actual Tableau-selected dashboard worksheet CSV; determine returned scope from columns, not assumed to cover six charts.",
+          "path": "outputs/cloud-replica-dashboard.csv",
+          "sha256": "da39e77e4392278c694c4703c8b93caf276944444338da22cf357341f1465f93",
+          "bytes": 393
+        },
+        {
+          "role": "replica",
+          "view": "Sales By Week ",
+          "view_id": "12ad7d26-794c-485a-9624-c8c78991148b",
+          "scope": "Author dashboard CSV still Bar by Sub Cat ONLY; replica standalone Sales By Week  full data validated separately against Hyper.",
+          "path": "outputs/cloud-replica-weekly.csv",
+          "sha256": "12c06e6d79e07fd499aadc8cead27f264f44b3e1037667e60ca4431c91c39a55",
+          "bytes": 5794
+        },
+        {
+          "role": "replica",
+          "view": "Sales by Month",
+          "view_id": "766a1856-08fc-4f0d-ac76-98c77f63a524",
+          "scope": "Author dashboard CSV still Bar by Sub Cat ONLY; replica standalone Sales by Month full data validated separately against Hyper.",
+          "path": "outputs/cloud-replica-monthly.csv",
+          "sha256": "773b86f7ad939de9b7a62ebb9f0f8e7a00e7840cab0d94285de2c13a1ec9916e",
+          "bytes": 1264
+        },
+        {
+          "role": "replica",
+          "view": "Dot by Sub Cat ",
+          "view_id": "7f084d98-3ab0-48f8-8dd6-80fa327f5ce9",
+          "scope": "Author dashboard CSV still Bar by Sub Cat ONLY; replica standalone Dot by Sub Cat  full data validated separately against Hyper.",
+          "path": "outputs/cloud-replica-matrix.csv",
+          "sha256": "987a90ec36d8dddc298773b9a39ef6aa9f379296182cb65a0ecd6261a8088ba6",
+          "bytes": 25667
+        }
+      ]
+    },
+    {
+      "name": "year-2019",
+      "parameters": {},
+      "filters": {
+        "YEAR(Order Date)": "2019"
+      },
+      "views": {
+        "author": {
+          "id": "5d6659c7-55e8-4379-b621-60530f313879",
+          "name": "2019_12_18_WW51_SalesPerfDashboard",
+          "path": "outputs/cloud-author-year-2019.png",
+          "sha256": "1ee0f35ee45bc2c4bc314d8b9d91025cf0d7f8d0d3d94592f01cfe4cdec84ccc",
+          "size": [
+            2000,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "6a348283-bcb7-4bd0-8a5a-30ef12177dcb",
+          "name": "2019_12_18_WW51_SalesPerfDashboard",
+          "path": "outputs/cloud-replica-year-2019.png",
+          "sha256": "6a7d482a7596ea02fade5dfba3cb14a37602d083c975cf0df9dbe25d7654b7d5",
+          "size": [
+            2000,
+            1600
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "2019_12_18_WW51_SalesPerfDashboard",
+          "view_id": "5d6659c7-55e8-4379-b621-60530f313879",
+          "scope": "Actual Tableau-selected dashboard worksheet CSV; determine returned scope from columns, not assumed to cover six charts.",
+          "path": "outputs/cloud-author-dashboard-year-2019.csv",
+          "sha256": "ff86077908fc99f41e90c159995d5dd474ff4885edea641682af48d0c4603c86",
+          "bytes": 327
+        },
+        {
+          "role": "author",
+          "view": "2019_12_18_WW51_SalesPerfDashboard",
+          "view_id": "5d6659c7-55e8-4379-b621-60530f313879",
+          "scope": "Author dashboard CSV still Bar by Sub Cat ONLY; replica standalone Sales By Week  full data validated separately against Hyper.",
+          "path": "outputs/cloud-author-weekly-year-2019.csv",
+          "sha256": "ff86077908fc99f41e90c159995d5dd474ff4885edea641682af48d0c4603c86",
+          "bytes": 327
+        },
+        {
+          "role": "author",
+          "view": "2019_12_18_WW51_SalesPerfDashboard",
+          "view_id": "5d6659c7-55e8-4379-b621-60530f313879",
+          "scope": "Author dashboard CSV still Bar by Sub Cat ONLY; replica standalone Sales by Month full data validated separately against Hyper.",
+          "path": "outputs/cloud-author-monthly-year-2019.csv",
+          "sha256": "ff86077908fc99f41e90c159995d5dd474ff4885edea641682af48d0c4603c86",
+          "bytes": 327
+        },
+        {
+          "role": "author",
+          "view": "2019_12_18_WW51_SalesPerfDashboard",
+          "view_id": "5d6659c7-55e8-4379-b621-60530f313879",
+          "scope": "Author dashboard CSV still Bar by Sub Cat ONLY; replica standalone Dot by Sub Cat  full data validated separately against Hyper.",
+          "path": "outputs/cloud-author-matrix-year-2019.csv",
+          "sha256": "ff86077908fc99f41e90c159995d5dd474ff4885edea641682af48d0c4603c86",
+          "bytes": 327
+        },
+        {
+          "role": "replica",
+          "view": "2019_12_18_WW51_SalesPerfDashboard",
+          "view_id": "6a348283-bcb7-4bd0-8a5a-30ef12177dcb",
+          "scope": "Actual Tableau-selected dashboard worksheet CSV; determine returned scope from columns, not assumed to cover six charts.",
+          "path": "outputs/cloud-replica-dashboard-year-2019.csv",
+          "sha256": "bb98869405bc36cf6fc7b8b45028ba7d08ab88dbf4dadb4af6a3e6e7f63f59ee",
+          "bytes": 379
+        },
+        {
+          "role": "replica",
+          "view": "Sales By Week ",
+          "view_id": "12ad7d26-794c-485a-9624-c8c78991148b",
+          "scope": "Author dashboard CSV still Bar by Sub Cat ONLY; replica standalone Sales By Week  full data validated separately against Hyper.",
+          "path": "outputs/cloud-replica-weekly-year-2019.csv",
+          "sha256": "869313f6e7b55ba62328ace597aab47c971330295a9ad9ff577c1dfe2fd6a899",
+          "bytes": 1507
+        },
+        {
+          "role": "replica",
+          "view": "Sales by Month",
+          "view_id": "766a1856-08fc-4f0d-ac76-98c77f63a524",
+          "scope": "Author dashboard CSV still Bar by Sub Cat ONLY; replica standalone Sales by Month full data validated separately against Hyper.",
+          "path": "outputs/cloud-replica-monthly-year-2019.csv",
+          "sha256": "da68049ac0447e0beabaf67606c48d58b8367b3c048632ac62be8c82576997a2",
+          "bytes": 349
+        },
+        {
+          "role": "replica",
+          "view": "Dot by Sub Cat ",
+          "view_id": "7f084d98-3ab0-48f8-8dd6-80fa327f5ce9",
+          "scope": "Author dashboard CSV still Bar by Sub Cat ONLY; replica standalone Dot by Sub Cat  full data validated separately against Hyper.",
+          "path": "outputs/cloud-replica-matrix-year-2019.csv",
+          "sha256": "15918422baf4249033cb07d1e31cffa6c644c7dd7380a57962be738e56d71225",
+          "bytes": 6725
+        }
+      ]
+    },
+    {
+      "name": "california",
+      "parameters": {},
+      "filters": {
+        "State": "California"
+      },
+      "views": {
+        "author": {
+          "id": "5d6659c7-55e8-4379-b621-60530f313879",
+          "name": "2019_12_18_WW51_SalesPerfDashboard",
+          "path": "outputs/cloud-author-california.png",
+          "sha256": "fe807b65518fef5389306363445d862dfa487722736a8e268ef8bcfaacc4f3fa",
+          "size": [
+            2000,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "6a348283-bcb7-4bd0-8a5a-30ef12177dcb",
+          "name": "2019_12_18_WW51_SalesPerfDashboard",
+          "path": "outputs/cloud-replica-california.png",
+          "sha256": "b83373e50228aff8b0fb6e55ce8f1aa6306e9498ae3da84a880fe3229f0bde11",
+          "size": [
+            2000,
+            1600
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "2019_12_18_WW51_SalesPerfDashboard",
+          "view_id": "5d6659c7-55e8-4379-b621-60530f313879",
+          "scope": "Actual Tableau-selected dashboard worksheet CSV; determine returned scope from columns, not assumed to cover six charts.",
+          "path": "outputs/cloud-author-dashboard-california.csv",
+          "sha256": "00c9b2d60c858d2b17195936a348c0f7e9265ffd232dda695389aed37d813f95",
+          "bytes": 326
+        },
+        {
+          "role": "author",
+          "view": "2019_12_18_WW51_SalesPerfDashboard",
+          "view_id": "5d6659c7-55e8-4379-b621-60530f313879",
+          "scope": "Author dashboard CSV still Bar by Sub Cat ONLY; replica standalone Sales By Week  full data validated separately against Hyper.",
+          "path": "outputs/cloud-author-weekly-california.csv",
+          "sha256": "00c9b2d60c858d2b17195936a348c0f7e9265ffd232dda695389aed37d813f95",
+          "bytes": 326
+        },
+        {
+          "role": "author",
+          "view": "2019_12_18_WW51_SalesPerfDashboard",
+          "view_id": "5d6659c7-55e8-4379-b621-60530f313879",
+          "scope": "Author dashboard CSV still Bar by Sub Cat ONLY; replica standalone Sales by Month full data validated separately against Hyper.",
+          "path": "outputs/cloud-author-monthly-california.csv",
+          "sha256": "00c9b2d60c858d2b17195936a348c0f7e9265ffd232dda695389aed37d813f95",
+          "bytes": 326
+        },
+        {
+          "role": "author",
+          "view": "2019_12_18_WW51_SalesPerfDashboard",
+          "view_id": "5d6659c7-55e8-4379-b621-60530f313879",
+          "scope": "Author dashboard CSV still Bar by Sub Cat ONLY; replica standalone Dot by Sub Cat  full data validated separately against Hyper.",
+          "path": "outputs/cloud-author-matrix-california.csv",
+          "sha256": "00c9b2d60c858d2b17195936a348c0f7e9265ffd232dda695389aed37d813f95",
+          "bytes": 326
+        },
+        {
+          "role": "replica",
+          "view": "2019_12_18_WW51_SalesPerfDashboard",
+          "view_id": "6a348283-bcb7-4bd0-8a5a-30ef12177dcb",
+          "scope": "Actual Tableau-selected dashboard worksheet CSV; determine returned scope from columns, not assumed to cover six charts.",
+          "path": "outputs/cloud-replica-dashboard-california.csv",
+          "sha256": "652f68fee6e727f857f4e67d53f2a368e6f5444e1a3983968862a1a9041e9d3a",
+          "bytes": 367
+        },
+        {
+          "role": "replica",
+          "view": "Sales By Week ",
+          "view_id": "12ad7d26-794c-485a-9624-c8c78991148b",
+          "scope": "Author dashboard CSV still Bar by Sub Cat ONLY; replica standalone Sales By Week  full data validated separately against Hyper.",
+          "path": "outputs/cloud-replica-weekly-california.csv",
+          "sha256": "c70874a1eeab76e57ea026abd7da15f1747c4446d85004f86aa35a8307592392",
+          "bytes": 5235
+        },
+        {
+          "role": "replica",
+          "view": "Sales by Month",
+          "view_id": "766a1856-08fc-4f0d-ac76-98c77f63a524",
+          "scope": "Author dashboard CSV still Bar by Sub Cat ONLY; replica standalone Sales by Month full data validated separately against Hyper.",
+          "path": "outputs/cloud-replica-monthly-california.csv",
+          "sha256": "fd64565506c1c1217d0797f56c664138e39584616f0524a6b71e11c51eba3a6e",
+          "bytes": 1207
+        },
+        {
+          "role": "replica",
+          "view": "Dot by Sub Cat ",
+          "view_id": "7f084d98-3ab0-48f8-8dd6-80fa327f5ce9",
+          "scope": "Author dashboard CSV still Bar by Sub Cat ONLY; replica standalone Dot by Sub Cat  full data validated separately against Hyper.",
+          "path": "outputs/cloud-replica-matrix-california.csv",
+          "sha256": "df780dad0d29a941d744e4c6d2cb7bb88f384125ef14000384ae72bc6f0790eb",
+          "bytes": 18458
+        }
+      ]
+    },
+    {
+      "name": "year-2019-california",
+      "parameters": {},
+      "filters": {
+        "YEAR(Order Date)": "2019",
+        "State": "California"
+      },
+      "views": {
+        "author": {
+          "id": "5d6659c7-55e8-4379-b621-60530f313879",
+          "name": "2019_12_18_WW51_SalesPerfDashboard",
+          "path": "outputs/cloud-author-year-2019-california.png",
+          "sha256": "2434bdbc611c386e3dde070d006537a85b80766e8adeffefdebdbf5a0c64184c",
+          "size": [
+            2000,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "6a348283-bcb7-4bd0-8a5a-30ef12177dcb",
+          "name": "2019_12_18_WW51_SalesPerfDashboard",
+          "path": "outputs/cloud-replica-year-2019-california.png",
+          "sha256": "3ab6cdd9491d9ada650b9fa9a491545ba5b70fff57e464a1408bf6fd8ebc8724",
+          "size": [
+            2000,
+            1600
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "2019_12_18_WW51_SalesPerfDashboard",
+          "view_id": "5d6659c7-55e8-4379-b621-60530f313879",
+          "scope": "Actual Tableau-selected dashboard worksheet CSV; determine returned scope from columns, not assumed to cover six charts.",
+          "path": "outputs/cloud-author-dashboard-year-2019-california.csv",
+          "sha256": "3cdda7f7ba48633ca4f483f858c3b85daac9fbcdfa8b32c98497f37f9484bbf2",
+          "bytes": 309
+        },
+        {
+          "role": "author",
+          "view": "2019_12_18_WW51_SalesPerfDashboard",
+          "view_id": "5d6659c7-55e8-4379-b621-60530f313879",
+          "scope": "Author dashboard CSV still Bar by Sub Cat ONLY; replica standalone Sales By Week  full data validated separately against Hyper.",
+          "path": "outputs/cloud-author-weekly-year-2019-california.csv",
+          "sha256": "3cdda7f7ba48633ca4f483f858c3b85daac9fbcdfa8b32c98497f37f9484bbf2",
+          "bytes": 309
+        },
+        {
+          "role": "author",
+          "view": "2019_12_18_WW51_SalesPerfDashboard",
+          "view_id": "5d6659c7-55e8-4379-b621-60530f313879",
+          "scope": "Author dashboard CSV still Bar by Sub Cat ONLY; replica standalone Sales by Month full data validated separately against Hyper.",
+          "path": "outputs/cloud-author-monthly-year-2019-california.csv",
+          "sha256": "3cdda7f7ba48633ca4f483f858c3b85daac9fbcdfa8b32c98497f37f9484bbf2",
+          "bytes": 309
+        },
+        {
+          "role": "author",
+          "view": "2019_12_18_WW51_SalesPerfDashboard",
+          "view_id": "5d6659c7-55e8-4379-b621-60530f313879",
+          "scope": "Author dashboard CSV still Bar by Sub Cat ONLY; replica standalone Dot by Sub Cat  full data validated separately against Hyper.",
+          "path": "outputs/cloud-author-matrix-year-2019-california.csv",
+          "sha256": "3cdda7f7ba48633ca4f483f858c3b85daac9fbcdfa8b32c98497f37f9484bbf2",
+          "bytes": 309
+        },
+        {
+          "role": "replica",
+          "view": "2019_12_18_WW51_SalesPerfDashboard",
+          "view_id": "6a348283-bcb7-4bd0-8a5a-30ef12177dcb",
+          "scope": "Actual Tableau-selected dashboard worksheet CSV; determine returned scope from columns, not assumed to cover six charts.",
+          "path": "outputs/cloud-replica-dashboard-year-2019-california.csv",
+          "sha256": "1bfb611dabbd439eaecda9fe550fa69d5c58532c6e9e4faeef0874f88eb0a79e",
+          "bytes": 347
+        },
+        {
+          "role": "replica",
+          "view": "Sales By Week ",
+          "view_id": "12ad7d26-794c-485a-9624-c8c78991148b",
+          "scope": "Author dashboard CSV still Bar by Sub Cat ONLY; replica standalone Sales By Week  full data validated separately against Hyper.",
+          "path": "outputs/cloud-replica-weekly-year-2019-california.csv",
+          "sha256": "be53c121549888ea656aa5880937f54bda8f498758445a359ca3e5266b50a018",
+          "bytes": 1414
+        },
+        {
+          "role": "replica",
+          "view": "Sales by Month",
+          "view_id": "766a1856-08fc-4f0d-ac76-98c77f63a524",
+          "scope": "Author dashboard CSV still Bar by Sub Cat ONLY; replica standalone Sales by Month full data validated separately against Hyper.",
+          "path": "outputs/cloud-replica-monthly-year-2019-california.csv",
+          "sha256": "e281a351843a252878c55ac97cc5fab9a58c35e7787ae65c277bb1c9a21262c2",
+          "bytes": 333
+        },
+        {
+          "role": "replica",
+          "view": "Dot by Sub Cat ",
+          "view_id": "7f084d98-3ab0-48f8-8dd6-80fa327f5ce9",
+          "scope": "Author dashboard CSV still Bar by Sub Cat ONLY; replica standalone Dot by Sub Cat  full data validated separately against Hyper.",
+          "path": "outputs/cloud-replica-matrix-year-2019-california.csv",
+          "sha256": "b5993049148dcd312690d79c4a8802405a1be114f389136e5f6c2dcdbc7c82bb",
+          "bytes": 5260
+        }
+      ]
+    }
+  ],
+  "status": "verified_acceptable_delta",
+  "review_evidence": "evidence/visual-review.md"
+}

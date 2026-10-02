@@ -1,0 +1,327 @@
+{
+  "status": "passed",
+  "replica_sha256": "b90e20a4f53a7d0b0dc3c8c9ba01435496cd4d583ec9d097423eeb85ba10b5e0",
+  "csv_scope": "Author dashboard CSV Bar by Sub Cat ONLY. Replica independently exports weekly, monthly and entire dot matrix, plus marginal subcategory bars. Map and year-selector independently checked via Hyper plus PNG and artifact contracts.",
+  "checks": [
+    {
+      "state": "default",
+      "role": "author",
+      "view": "2019_12_18_WW51_SalesPerfDashboard",
+      "scope": "Bar by Sub Cat only",
+      "rows": 17,
+      "max_sales_error": 0.4679999998770654,
+      "tolerance": 0.500001,
+      "sha256": "dbb3ccccda655155a173392577242b1aab04efff2a7063c8155f29f265bd6fe8"
+    },
+    {
+      "state": "default",
+      "role": "author",
+      "view": "2019_12_18_WW51_SalesPerfDashboard",
+      "scope": "Bar by Sub Cat only",
+      "rows": 17,
+      "max_sales_error": 0.4679999998770654,
+      "tolerance": 0.500001,
+      "sha256": "dbb3ccccda655155a173392577242b1aab04efff2a7063c8155f29f265bd6fe8"
+    },
+    {
+      "state": "default",
+      "role": "author",
+      "view": "2019_12_18_WW51_SalesPerfDashboard",
+      "scope": "Bar by Sub Cat only",
+      "rows": 17,
+      "max_sales_error": 0.4679999998770654,
+      "tolerance": 0.500001,
+      "sha256": "dbb3ccccda655155a173392577242b1aab04efff2a7063c8155f29f265bd6fe8"
+    },
+    {
+      "state": "default",
+      "role": "author",
+      "view": "2019_12_18_WW51_SalesPerfDashboard",
+      "scope": "Bar by Sub Cat only",
+      "rows": 17,
+      "max_sales_error": 0.4679999998770654,
+      "tolerance": 0.500001,
+      "sha256": "dbb3ccccda655155a173392577242b1aab04efff2a7063c8155f29f265bd6fe8"
+    },
+    {
+      "state": "default",
+      "role": "replica",
+      "view": "2019_12_18_WW51_SalesPerfDashboard",
+      "scope": "Bar by Sub Cat only",
+      "rows": 17,
+      "max_sales_error": 2.9103830456733704e-10,
+      "tolerance": 1e-06,
+      "sha256": "da39e77e4392278c694c4703c8b93caf276944444338da22cf357341f1465f93"
+    },
+    {
+      "state": "default",
+      "role": "replica",
+      "view": "Sales By Week ",
+      "scope": "entire replica weekly area data; author paired CSV still subcategory bars only",
+      "rows": 209,
+      "max_sales_error": 1.8189894035458565e-11,
+      "tolerance": 1e-06,
+      "sha256": "12c06e6d79e07fd499aadc8cead27f264f44b3e1037667e60ca4431c91c39a55"
+    },
+    {
+      "state": "default",
+      "role": "replica",
+      "view": "Sales by Month",
+      "scope": "entire replica monthly bars data; author paired CSV still subcategory bars only",
+      "rows": 48,
+      "max_sales_error": 5.820766091346741e-11,
+      "tolerance": 1e-06,
+      "sha256": "773b86f7ad939de9b7a62ebb9f0f8e7a00e7840cab0d94285de2c13a1ec9916e"
+    },
+    {
+      "state": "default",
+      "role": "replica",
+      "view": "Dot by Sub Cat ",
+      "scope": "entire replica subcategory/month dot matrix; author paired CSV still subcategory bars only",
+      "rows": 782,
+      "max_sales_error": 7.275957614183426e-12,
+      "tolerance": 1e-06,
+      "sha256": "987a90ec36d8dddc298773b9a39ef6aa9f379296182cb65a0ecd6261a8088ba6"
+    },
+    {
+      "state": "year-2019",
+      "role": "author",
+      "view": "2019_12_18_WW51_SalesPerfDashboard",
+      "scope": "Bar by Sub Cat only",
+      "rows": 17,
+      "max_sales_error": 0.4840000000403961,
+      "tolerance": 0.500001,
+      "sha256": "ff86077908fc99f41e90c159995d5dd474ff4885edea641682af48d0c4603c86"
+    },
+    {
+      "state": "year-2019",
+      "role": "author",
+      "view": "2019_12_18_WW51_SalesPerfDashboard",
+      "scope": "Bar by Sub Cat only",
+      "rows": 17,
+      "max_sales_error": 0.4840000000403961,
+      "tolerance": 0.500001,
+      "sha256": "ff86077908fc99f41e90c159995d5dd474ff4885edea641682af48d0c4603c86"
+    },
+    {
+      "state": "year-2019",
+      "role": "author",
+      "view": "2019_12_18_WW51_SalesPerfDashboard",
+      "scope": "Bar by Sub Cat only",
+      "rows": 17,
+      "max_sales_error": 0.4840000000403961,
+      "tolerance": 0.500001,
+      "sha256": "ff86077908fc99f41e90c159995d5dd474ff4885edea641682af48d0c4603c86"
+    },
+    {
+      "state": "year-2019",
+      "role": "author",
+      "view": "2019_12_18_WW51_SalesPerfDashboard",
+      "scope": "Bar by Sub Cat only",
+      "rows": 17,
+      "max_sales_error": 0.4840000000403961,
+      "tolerance": 0.500001,
+      "sha256": "ff86077908fc99f41e90c159995d5dd474ff4885edea641682af48d0c4603c86"
+    },
+    {
+      "state": "year-2019",
+      "role": "replica",
+      "view": "2019_12_18_WW51_SalesPerfDashboard",
+      "scope": "Bar by Sub Cat only",
+      "rows": 17,
+      "max_sales_error": 4.3655745685100555e-11,
+      "tolerance": 1e-06,
+      "sha256": "bb98869405bc36cf6fc7b8b45028ba7d08ab88dbf4dadb4af6a3e6e7f63f59ee"
+    },
+    {
+      "state": "year-2019",
+      "role": "replica",
+      "view": "Sales By Week ",
+      "scope": "entire replica weekly area data; author paired CSV still subcategory bars only",
+      "rows": 53,
+      "max_sales_error": 1.0913936421275139e-11,
+      "tolerance": 1e-06,
+      "sha256": "869313f6e7b55ba62328ace597aab47c971330295a9ad9ff577c1dfe2fd6a899"
+    },
+    {
+      "state": "year-2019",
+      "role": "replica",
+      "view": "Sales by Month",
+      "scope": "entire replica monthly bars data; author paired CSV still subcategory bars only",
+      "rows": 12,
+      "max_sales_error": 5.820766091346741e-11,
+      "tolerance": 1e-06,
+      "sha256": "da68049ac0447e0beabaf67606c48d58b8367b3c048632ac62be8c82576997a2"
+    },
+    {
+      "state": "year-2019",
+      "role": "replica",
+      "view": "Dot by Sub Cat ",
+      "scope": "entire replica subcategory/month dot matrix; author paired CSV still subcategory bars only",
+      "rows": 201,
+      "max_sales_error": 5.4569682106375694e-12,
+      "tolerance": 1e-06,
+      "sha256": "15918422baf4249033cb07d1e31cffa6c644c7dd7380a57962be738e56d71225"
+    },
+    {
+      "state": "california",
+      "role": "author",
+      "view": "2019_12_18_WW51_SalesPerfDashboard",
+      "scope": "Bar by Sub Cat only",
+      "rows": 17,
+      "max_sales_error": 0.4799999999922875,
+      "tolerance": 0.500001,
+      "sha256": "00c9b2d60c858d2b17195936a348c0f7e9265ffd232dda695389aed37d813f95"
+    },
+    {
+      "state": "california",
+      "role": "author",
+      "view": "2019_12_18_WW51_SalesPerfDashboard",
+      "scope": "Bar by Sub Cat only",
+      "rows": 17,
+      "max_sales_error": 0.4799999999922875,
+      "tolerance": 0.500001,
+      "sha256": "00c9b2d60c858d2b17195936a348c0f7e9265ffd232dda695389aed37d813f95"
+    },
+    {
+      "state": "california",
+      "role": "author",
+      "view": "2019_12_18_WW51_SalesPerfDashboard",
+      "scope": "Bar by Sub Cat only",
+      "rows": 17,
+      "max_sales_error": 0.4799999999922875,
+      "tolerance": 0.500001,
+      "sha256": "00c9b2d60c858d2b17195936a348c0f7e9265ffd232dda695389aed37d813f95"
+    },
+    {
+      "state": "california",
+      "role": "author",
+      "view": "2019_12_18_WW51_SalesPerfDashboard",
+      "scope": "Bar by Sub Cat only",
+      "rows": 17,
+      "max_sales_error": 0.4799999999922875,
+      "tolerance": 0.500001,
+      "sha256": "00c9b2d60c858d2b17195936a348c0f7e9265ffd232dda695389aed37d813f95"
+    },
+    {
+      "state": "california",
+      "role": "replica",
+      "view": "2019_12_18_WW51_SalesPerfDashboard",
+      "scope": "Bar by Sub Cat only",
+      "rows": 17,
+      "max_sales_error": 7.275957614183426e-11,
+      "tolerance": 1e-06,
+      "sha256": "652f68fee6e727f857f4e67d53f2a368e6f5444e1a3983968862a1a9041e9d3a"
+    },
+    {
+      "state": "california",
+      "role": "replica",
+      "view": "Sales By Week ",
+      "scope": "entire replica weekly area data; author paired CSV still subcategory bars only",
+      "rows": 205,
+      "max_sales_error": 1.8189894035458565e-12,
+      "tolerance": 1e-06,
+      "sha256": "c70874a1eeab76e57ea026abd7da15f1747c4446d85004f86aa35a8307592392"
+    },
+    {
+      "state": "california",
+      "role": "replica",
+      "view": "Sales by Month",
+      "scope": "entire replica monthly bars data; author paired CSV still subcategory bars only",
+      "rows": 48,
+      "max_sales_error": 7.275957614183426e-12,
+      "tolerance": 1e-06,
+      "sha256": "fd64565506c1c1217d0797f56c664138e39584616f0524a6b71e11c51eba3a6e"
+    },
+    {
+      "state": "california",
+      "role": "replica",
+      "view": "Dot by Sub Cat ",
+      "scope": "entire replica subcategory/month dot matrix; author paired CSV still subcategory bars only",
+      "rows": 602,
+      "max_sales_error": 9.094947017729282e-13,
+      "tolerance": 1e-06,
+      "sha256": "df780dad0d29a941d744e4c6d2cb7bb88f384125ef14000384ae72bc6f0790eb"
+    },
+    {
+      "state": "year-2019-california",
+      "role": "author",
+      "view": "2019_12_18_WW51_SalesPerfDashboard",
+      "scope": "Bar by Sub Cat only",
+      "rows": 17,
+      "max_sales_error": 0.5,
+      "tolerance": 0.500001,
+      "sha256": "3cdda7f7ba48633ca4f483f858c3b85daac9fbcdfa8b32c98497f37f9484bbf2"
+    },
+    {
+      "state": "year-2019-california",
+      "role": "author",
+      "view": "2019_12_18_WW51_SalesPerfDashboard",
+      "scope": "Bar by Sub Cat only",
+      "rows": 17,
+      "max_sales_error": 0.5,
+      "tolerance": 0.500001,
+      "sha256": "3cdda7f7ba48633ca4f483f858c3b85daac9fbcdfa8b32c98497f37f9484bbf2"
+    },
+    {
+      "state": "year-2019-california",
+      "role": "author",
+      "view": "2019_12_18_WW51_SalesPerfDashboard",
+      "scope": "Bar by Sub Cat only",
+      "rows": 17,
+      "max_sales_error": 0.5,
+      "tolerance": 0.500001,
+      "sha256": "3cdda7f7ba48633ca4f483f858c3b85daac9fbcdfa8b32c98497f37f9484bbf2"
+    },
+    {
+      "state": "year-2019-california",
+      "role": "author",
+      "view": "2019_12_18_WW51_SalesPerfDashboard",
+      "scope": "Bar by Sub Cat only",
+      "rows": 17,
+      "max_sales_error": 0.5,
+      "tolerance": 0.500001,
+      "sha256": "3cdda7f7ba48633ca4f483f858c3b85daac9fbcdfa8b32c98497f37f9484bbf2"
+    },
+    {
+      "state": "year-2019-california",
+      "role": "replica",
+      "view": "2019_12_18_WW51_SalesPerfDashboard",
+      "scope": "Bar by Sub Cat only",
+      "rows": 17,
+      "max_sales_error": 7.275957614183426e-12,
+      "tolerance": 1e-06,
+      "sha256": "1bfb611dabbd439eaecda9fe550fa69d5c58532c6e9e4faeef0874f88eb0a79e"
+    },
+    {
+      "state": "year-2019-california",
+      "role": "replica",
+      "view": "Sales By Week ",
+      "scope": "entire replica weekly area data; author paired CSV still subcategory bars only",
+      "rows": 53,
+      "max_sales_error": 9.094947017729282e-13,
+      "tolerance": 1e-06,
+      "sha256": "be53c121549888ea656aa5880937f54bda8f498758445a359ca3e5266b50a018"
+    },
+    {
+      "state": "year-2019-california",
+      "role": "replica",
+      "view": "Sales by Month",
+      "scope": "entire replica monthly bars data; author paired CSV still subcategory bars only",
+      "rows": 12,
+      "max_sales_error": 3.637978807091713e-12,
+      "tolerance": 1e-06,
+      "sha256": "e281a351843a252878c55ac97cc5fab9a58c35e7787ae65c277bb1c9a21262c2"
+    },
+    {
+      "state": "year-2019-california",
+      "role": "replica",
+      "view": "Dot by Sub Cat ",
+      "scope": "entire replica subcategory/month dot matrix; author paired CSV still subcategory bars only",
+      "rows": 169,
+      "max_sales_error": 9.094947017729282e-13,
+      "tolerance": 1e-06,
+      "sha256": "b5993049148dcd312690d79c4a8802405a1be114f389136e5f6c2dcdbc7c82bb"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-02",
+  "source_workbook": {
+    "filename": "2026_03_18_WW11_Layout_Containers.twbx",
+    "bytes": 249279,
+    "sha256": "7075cd258da1968ee31d7dbf73b45a8ffe54d790ff364061fe880a86e59710aa",
+    "url": "https://public.tableau.com/views/2026_03_18_WW11_Layout_Containers/WOW2026Week11"
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Extracts/Sample _ Superstore.hyper",
+      "file": "inputs/Sample _ Superstore.hyper",
+      "bytes": 524288,
+      "sha256": "7ac57b1c0abf4dbaac09b92182069ccd0e813ee8a9db37ec7c5d9f4da4e11d20"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

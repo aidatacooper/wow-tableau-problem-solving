@@ -1,0 +1,20 @@
+{
+  "sdk_version": "0.27.1",
+  "sdk_commit": "f0e385b2f1abe845536e17041f2c2aaeb3c11fba",
+  "sdk_tests": {
+    "passed": 507,
+    "skipped": 25
+  },
+  "method": "Complete pytest suite in source snapshot without machine .env; remote pinned noneditable Git SDK installed and independent case rebuilt in disposable directory preserving accepted Cloud outputs. Metadata checked after manual evidence path correction.",
+  "credentials_in_evidence": false,
+  "case_shared_tests": {
+    "passed": 55
+  },
+  "case_isolated_rebuild": "passed",
+  "sdk_ci": "https://github.com/aidatacooper/cwtwb/actions/runs/37030838191",
+  "sdk_ci_conclusion": "success",
+  "catalogue_validation": {
+    "active_cases": 30,
+    "isolated_rebuilds": "all passed with remote pinned SDK"
+  }
+}

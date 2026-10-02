@@ -1,0 +1,371 @@
+{
+  "case_id": "wow-2019-ww50-retention-heatmap",
+  "captured_at": "2026-10-02T15:58:26.287975+00:00",
+  "source_hashes": {
+    "author": "07c7543aa3bac3289041ee5a54cdfbe3895da28fed990eba99e5fae742a7504b",
+    "replica": "3985bd64d6975937acc9c94130a70fc08601cae06392598479b93a7c686896e2"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "0c55c864-6abf-4798-805d-5300fcba4875",
+      "name": "cwtwb-review-wow-2019-ww50-retention-heatmap-author",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2924252",
+      "views": [
+        {
+          "name": "2019_12_11_WW50_Customer_Retention_Heatmap",
+          "id": "7c344802-fe43-48f8-8e74-7e1f8160456d"
+        },
+        {
+          "name": "Data",
+          "id": "4d097872-7169-4440-a78b-d9b50346ce9f"
+        },
+        {
+          "name": "BAN:Data",
+          "id": "2b582adc-ebaa-4898-8cd2-cf305188cb50"
+        }
+      ]
+    },
+    "replica": {
+      "id": "5cebe7bc-17fe-41e4-94a4-48b616724ddd",
+      "name": "cwtwb-review-wow-2019-ww50-retention-heatmap-replica",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2924254",
+      "views": [
+        {
+          "name": "Heat Map",
+          "id": "e88e2efd-72ab-4201-8607-f2c2e807457a"
+        },
+        {
+          "name": "Bar",
+          "id": "d983f881-dd8b-43b0-ba6d-505c0aab8163"
+        },
+        {
+          "name": "BAN",
+          "id": "6c52b927-745f-4270-b3d5-146cad85c5ac"
+        },
+        {
+          "name": "2019_12_11_WW50_Customer_Retention_Heatmap",
+          "id": "b5f1bcf3-5813-48b5-99c3-98db1e0aab79"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "7c344802-fe43-48f8-8e74-7e1f8160456d",
+          "name": "2019_12_11_WW50_Customer_Retention_Heatmap",
+          "path": "outputs/cloud-author.png",
+          "sha256": "59a285f3a78829a9348198c8ae0014c2197ef156c9778d1a1d814fc4bebd3a9a",
+          "size": [
+            2000,
+            1900
+          ]
+        },
+        "replica": {
+          "id": "b5f1bcf3-5813-48b5-99c3-98db1e0aab79",
+          "name": "2019_12_11_WW50_Customer_Retention_Heatmap",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "01ba2465bdeb55d06559e4dfe98f8dd275d3b6064d4ac081b25f08ae347353e7",
+          "size": [
+            2000,
+            1900
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "2019_12_11_WW50_Customer_Retention_Heatmap",
+          "view_id": "7c344802-fe43-48f8-8e74-7e1f8160456d",
+          "scope": "Actual default dashboard worksheet selected by Tableau REST; establish returned column scope before using. Not assumed to cover matrix.",
+          "path": "outputs/cloud-author-dashboard.csv",
+          "sha256": "76240cfcea5417fdb4df67e457b28425083d6a963f6b4414aa14031235fcb44c",
+          "bytes": 80
+        },
+        {
+          "role": "author",
+          "view": "Data",
+          "view_id": "4d097872-7169-4440-a78b-d9b50346ce9f",
+          "scope": "Author Data crosstab vs replica Heat Map complete cohort/week retention cells; normalize wide data before comparison.",
+          "path": "outputs/cloud-author-matrix.csv",
+          "sha256": "ab438f09c156b073f5e4fc288136a5f3128dc53e44ed845f36da5ae7318d7d1a",
+          "bytes": 287437
+        },
+        {
+          "role": "author",
+          "view": "BAN:Data",
+          "view_id": "2b582adc-ebaa-4898-8cd2-cf305188cb50",
+          "scope": "Underlying headline count/denominator/retention independently compared against Hyper oracle.",
+          "path": "outputs/cloud-author-ban.csv",
+          "sha256": "04d16a639812d3dd17126a622f10c131f626fac9cb844e66a12450b6fac5151e",
+          "bytes": 93
+        },
+        {
+          "role": "author",
+          "view": "Data",
+          "view_id": "4d097872-7169-4440-a78b-d9b50346ce9f",
+          "scope": "Original Data complete cohort/week records, subset weekN compared to replica marginal bar rows. Does not assume same CSV columns.",
+          "path": "outputs/cloud-author-bar.csv",
+          "sha256": "ab438f09c156b073f5e4fc288136a5f3128dc53e44ed845f36da5ae7318d7d1a",
+          "bytes": 287437
+        },
+        {
+          "role": "replica",
+          "view": "2019_12_11_WW50_Customer_Retention_Heatmap",
+          "view_id": "b5f1bcf3-5813-48b5-99c3-98db1e0aab79",
+          "scope": "Actual default dashboard worksheet selected by Tableau REST; establish returned column scope before using. Not assumed to cover matrix.",
+          "path": "outputs/cloud-replica-dashboard.csv",
+          "sha256": "76240cfcea5417fdb4df67e457b28425083d6a963f6b4414aa14031235fcb44c",
+          "bytes": 80
+        },
+        {
+          "role": "replica",
+          "view": "Heat Map",
+          "view_id": "e88e2efd-72ab-4201-8607-f2c2e807457a",
+          "scope": "Author Data crosstab vs replica Heat Map complete cohort/week retention cells; normalize wide data before comparison.",
+          "path": "outputs/cloud-replica-matrix.csv",
+          "sha256": "7a854699eda241f80955a3757c1021bf456c467c9c0dd026f91a27b68ad6b3fc",
+          "bytes": 36145
+        },
+        {
+          "role": "replica",
+          "view": "BAN",
+          "view_id": "6c52b927-745f-4270-b3d5-146cad85c5ac",
+          "scope": "Underlying headline count/denominator/retention independently compared against Hyper oracle.",
+          "path": "outputs/cloud-replica-ban.csv",
+          "sha256": "76240cfcea5417fdb4df67e457b28425083d6a963f6b4414aa14031235fcb44c",
+          "bytes": 80
+        },
+        {
+          "role": "replica",
+          "view": "Bar",
+          "view_id": "d983f881-dd8b-43b0-ba6d-505c0aab8163",
+          "scope": "Original Data complete cohort/week records, subset weekN compared to replica marginal bar rows. Does not assume same CSV columns.",
+          "path": "outputs/cloud-replica-bar.csv",
+          "sha256": "d7e926e3f01bf85fabd2e8993c021c3faec8aa7b6c6a0caaccd2074e5fa327d9",
+          "bytes": 3590
+        }
+      ]
+    },
+    {
+      "name": "period-ten",
+      "parameters": {
+        "Time Period": 10
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "7c344802-fe43-48f8-8e74-7e1f8160456d",
+          "name": "2019_12_11_WW50_Customer_Retention_Heatmap",
+          "path": "outputs/cloud-author-period-ten.png",
+          "sha256": "a90dfbd5208507554d4b80a60338c0f4b56c7d9fb72733a51e60df24bfdd083c",
+          "size": [
+            2000,
+            1900
+          ]
+        },
+        "replica": {
+          "id": "b5f1bcf3-5813-48b5-99c3-98db1e0aab79",
+          "name": "2019_12_11_WW50_Customer_Retention_Heatmap",
+          "path": "outputs/cloud-replica-period-ten.png",
+          "sha256": "95b7772cf5863c774bf91e22980f3fe389a0d40d4dc2905f7bdb3ca1117dd659",
+          "size": [
+            2000,
+            1900
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "2019_12_11_WW50_Customer_Retention_Heatmap",
+          "view_id": "7c344802-fe43-48f8-8e74-7e1f8160456d",
+          "scope": "Actual default dashboard worksheet selected by Tableau REST; establish returned column scope before using. Not assumed to cover matrix.",
+          "path": "outputs/cloud-author-dashboard-period-ten.csv",
+          "sha256": "369cc6fc563639724db8f8e1a4dda1b90c0cf549d309e7672c3f4adf96e0170e",
+          "bytes": 80
+        },
+        {
+          "role": "author",
+          "view": "Data",
+          "view_id": "4d097872-7169-4440-a78b-d9b50346ce9f",
+          "scope": "Author Data crosstab vs replica Heat Map complete cohort/week retention cells; normalize wide data before comparison.",
+          "path": "outputs/cloud-author-matrix-period-ten.csv",
+          "sha256": "cf4f481602afa664fd9f7b4492319d48a39b042ce721e3c5b2b25b4f7832c36a",
+          "bytes": 288285
+        },
+        {
+          "role": "author",
+          "view": "BAN:Data",
+          "view_id": "2b582adc-ebaa-4898-8cd2-cf305188cb50",
+          "scope": "Underlying headline count/denominator/retention independently compared against Hyper oracle.",
+          "path": "outputs/cloud-author-ban-period-ten.csv",
+          "sha256": "a1e065365d67f500ec4f51ddf443f7f33eca1b4e516bb5b1a4e60b30f3fab6da",
+          "bytes": 93
+        },
+        {
+          "role": "author",
+          "view": "Data",
+          "view_id": "4d097872-7169-4440-a78b-d9b50346ce9f",
+          "scope": "Original Data complete cohort/week records, subset weekN compared to replica marginal bar rows. Does not assume same CSV columns.",
+          "path": "outputs/cloud-author-bar-period-ten.csv",
+          "sha256": "cf4f481602afa664fd9f7b4492319d48a39b042ce721e3c5b2b25b4f7832c36a",
+          "bytes": 288285
+        },
+        {
+          "role": "replica",
+          "view": "2019_12_11_WW50_Customer_Retention_Heatmap",
+          "view_id": "b5f1bcf3-5813-48b5-99c3-98db1e0aab79",
+          "scope": "Actual default dashboard worksheet selected by Tableau REST; establish returned column scope before using. Not assumed to cover matrix.",
+          "path": "outputs/cloud-replica-dashboard-period-ten.csv",
+          "sha256": "369cc6fc563639724db8f8e1a4dda1b90c0cf549d309e7672c3f4adf96e0170e",
+          "bytes": 80
+        },
+        {
+          "role": "replica",
+          "view": "Heat Map",
+          "view_id": "e88e2efd-72ab-4201-8607-f2c2e807457a",
+          "scope": "Author Data crosstab vs replica Heat Map complete cohort/week retention cells; normalize wide data before comparison.",
+          "path": "outputs/cloud-replica-matrix-period-ten.csv",
+          "sha256": "66c0a0896213c3fbb694fba9c1d5356d1e37b49f24d42e91e2028e410fe149ac",
+          "bytes": 20318
+        },
+        {
+          "role": "replica",
+          "view": "BAN",
+          "view_id": "6c52b927-745f-4270-b3d5-146cad85c5ac",
+          "scope": "Underlying headline count/denominator/retention independently compared against Hyper oracle.",
+          "path": "outputs/cloud-replica-ban-period-ten.csv",
+          "sha256": "369cc6fc563639724db8f8e1a4dda1b90c0cf549d309e7672c3f4adf96e0170e",
+          "bytes": 80
+        },
+        {
+          "role": "replica",
+          "view": "Bar",
+          "view_id": "d983f881-dd8b-43b0-ba6d-505c0aab8163",
+          "scope": "Original Data complete cohort/week records, subset weekN compared to replica marginal bar rows. Does not assume same CSV columns.",
+          "path": "outputs/cloud-replica-bar-period-ten.csv",
+          "sha256": "695aa719d0ba7ecee5caea14c3f82c3c6e99f258d02666c2882c268c2819271b",
+          "bytes": 5636
+        }
+      ]
+    },
+    {
+      "name": "period-eighteen",
+      "parameters": {
+        "Time Period": 18
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "7c344802-fe43-48f8-8e74-7e1f8160456d",
+          "name": "2019_12_11_WW50_Customer_Retention_Heatmap",
+          "path": "outputs/cloud-author-period-eighteen.png",
+          "sha256": "f5fd751877fe76a42de742e6798fa2505c0ad7b71b31f708e642f3ae91327344",
+          "size": [
+            2000,
+            1900
+          ]
+        },
+        "replica": {
+          "id": "b5f1bcf3-5813-48b5-99c3-98db1e0aab79",
+          "name": "2019_12_11_WW50_Customer_Retention_Heatmap",
+          "path": "outputs/cloud-replica-period-eighteen.png",
+          "sha256": "57a5aa99b76c16d738e8173cb2559a8123b2b67f18b578bb72876ebb528d0329",
+          "size": [
+            2000,
+            1900
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "2019_12_11_WW50_Customer_Retention_Heatmap",
+          "view_id": "7c344802-fe43-48f8-8e74-7e1f8160456d",
+          "scope": "Actual default dashboard worksheet selected by Tableau REST; establish returned column scope before using. Not assumed to cover matrix.",
+          "path": "outputs/cloud-author-dashboard-period-eighteen.csv",
+          "sha256": "c2056ae7865224c3f8b8e83354b44e24cf546c7d7a1ef4d110a7a6b7711f9973",
+          "bytes": 80
+        },
+        {
+          "role": "author",
+          "view": "Data",
+          "view_id": "4d097872-7169-4440-a78b-d9b50346ce9f",
+          "scope": "Author Data crosstab vs replica Heat Map complete cohort/week retention cells; normalize wide data before comparison.",
+          "path": "outputs/cloud-author-matrix-period-eighteen.csv",
+          "sha256": "2d8f3ef5e0f7a326b04d595b61bd2663da8aaceab0df8a66da09a5bcd8e84ec8",
+          "bytes": 287882
+        },
+        {
+          "role": "author",
+          "view": "BAN:Data",
+          "view_id": "2b582adc-ebaa-4898-8cd2-cf305188cb50",
+          "scope": "Underlying headline count/denominator/retention independently compared against Hyper oracle.",
+          "path": "outputs/cloud-author-ban-period-eighteen.csv",
+          "sha256": "2bedc20a87cc90f8bfda38a1d6a6d46177875706057fb1ba7d5925ec819bb7f3",
+          "bytes": 93
+        },
+        {
+          "role": "author",
+          "view": "Data",
+          "view_id": "4d097872-7169-4440-a78b-d9b50346ce9f",
+          "scope": "Original Data complete cohort/week records, subset weekN compared to replica marginal bar rows. Does not assume same CSV columns.",
+          "path": "outputs/cloud-author-bar-period-eighteen.csv",
+          "sha256": "2d8f3ef5e0f7a326b04d595b61bd2663da8aaceab0df8a66da09a5bcd8e84ec8",
+          "bytes": 287882
+        },
+        {
+          "role": "replica",
+          "view": "2019_12_11_WW50_Customer_Retention_Heatmap",
+          "view_id": "b5f1bcf3-5813-48b5-99c3-98db1e0aab79",
+          "scope": "Actual default dashboard worksheet selected by Tableau REST; establish returned column scope before using. Not assumed to cover matrix.",
+          "path": "outputs/cloud-replica-dashboard-period-eighteen.csv",
+          "sha256": "c2056ae7865224c3f8b8e83354b44e24cf546c7d7a1ef4d110a7a6b7711f9973",
+          "bytes": 80
+        },
+        {
+          "role": "replica",
+          "view": "Heat Map",
+          "view_id": "e88e2efd-72ab-4201-8607-f2c2e807457a",
+          "scope": "Author Data crosstab vs replica Heat Map complete cohort/week retention cells; normalize wide data before comparison.",
+          "path": "outputs/cloud-replica-matrix-period-eighteen.csv",
+          "sha256": "133e30c675cf240ee0c6fb83cd8e367b2798b6388e46f310d6eced3a7fcc8c35",
+          "bytes": 31655
+        },
+        {
+          "role": "replica",
+          "view": "BAN",
+          "view_id": "6c52b927-745f-4270-b3d5-146cad85c5ac",
+          "scope": "Underlying headline count/denominator/retention independently compared against Hyper oracle.",
+          "path": "outputs/cloud-replica-ban-period-eighteen.csv",
+          "sha256": "c2056ae7865224c3f8b8e83354b44e24cf546c7d7a1ef4d110a7a6b7711f9973",
+          "bytes": 80
+        },
+        {
+          "role": "replica",
+          "view": "Bar",
+          "view_id": "d983f881-dd8b-43b0-ba6d-505c0aab8163",
+          "scope": "Original Data complete cohort/week records, subset weekN compared to replica marginal bar rows. Does not assume same CSV columns.",
+          "path": "outputs/cloud-replica-bar-period-eighteen.csv",
+          "sha256": "3d2d0ef962d81803991b8e7d7a046e6723a0cf52e0b3adfe9c9cc75fa43be6b4",
+          "bytes": 4610
+        }
+      ]
+    }
+  ],
+  "status": "verified_acceptable_delta",
+  "review": {
+    "functional_status": "replicated",
+    "visual_status": "acceptable_delta",
+    "data_report": "evidence/cloud-data-comparison.json",
+    "visual_report": "evidence/visual-review.md"
+  },
+  "review_evidence": "evidence/visual-review.md"
+}

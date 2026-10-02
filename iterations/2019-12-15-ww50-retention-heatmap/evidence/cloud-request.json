@@ -1,0 +1,46 @@
+{
+  "case_dir": "iterations/2019-12-15-ww50-retention-heatmap",
+  "author_workbook": "dashboards/2019_12_11_WW50_Customer_Retention_HeatMap.twbx",
+  "author_view": "2019_12_11_WW50_Customer_Retention_Heatmap",
+  "replica_view": "2019_12_11_WW50_Customer_Retention_Heatmap",
+  "states": [
+    {
+      "name": "period-ten",
+      "parameters": {
+        "Time Period": 10
+      }
+    },
+    {
+      "name": "period-eighteen",
+      "parameters": {
+        "Time Period": 18
+      }
+    }
+  ],
+  "data_views": [
+    {
+      "name": "dashboard",
+      "author": "2019_12_11_WW50_Customer_Retention_Heatmap",
+      "replica": "2019_12_11_WW50_Customer_Retention_Heatmap",
+      "scope": "Actual default dashboard worksheet selected by Tableau REST; establish returned column scope before using. Not assumed to cover matrix."
+    },
+    {
+      "name": "matrix",
+      "author": "Data",
+      "replica": "Heat Map",
+      "scope": "Author Data crosstab vs replica Heat Map complete cohort/week retention cells; normalize wide data before comparison."
+    },
+    {
+      "name": "ban",
+      "author": "BAN:Data",
+      "replica": "BAN",
+      "scope": "Underlying headline count/denominator/retention independently compared against Hyper oracle."
+    },
+    {
+      "name": "bar",
+      "author": "Data",
+      "replica": "Bar",
+      "scope": "Original Data complete cohort/week records, subset weekN compared to replica marginal bar rows. Does not assume same CSV columns."
+    }
+  ]
+}
