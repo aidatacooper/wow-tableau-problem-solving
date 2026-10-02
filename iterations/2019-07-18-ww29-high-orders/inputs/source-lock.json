@@ -1,0 +1,16 @@
+{
+  "source_workbook_used_by_builder": false,
+  "download_url": "https://public.tableau.com/workbooks/2019_07_17_WW29_HighOrders.twb",
+  "cached_original": "/srv/hermes-workspaces/wow-reference/wow-2019-ww29-high-orders/2019_07_17_WW29_HighOrders.twbx",
+  "locked_original_sha256": "b8ca6006612bd4c8656304a83ec4c881f31fe22a7b32562835003c968e81cb59",
+  "download_sha256": "59a4094561f9eda656a49f3cc144fa9bf9c142625160f6a4fedb9f87a10e3b67",
+  "exact_locked_original": false,
+  "extracted_data": [
+    {
+      "file": "inputs/Orders (Sample - Superstore).hyper",
+      "archive_member": "Data/Datasources/Orders (Sample - Superstore).hyper",
+      "bytes": 983040,
+      "sha256": "2b1786cda1603883b134b6f602307fb22137dce793f134ac8db67af744c07725"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "verified_at": "2026-10-02T11:13:24.844349+00:00",
+  "case": "2019-07-18-ww29-high-orders",
+  "normalization": "Parse both date formats to ISO date; remove comma separators and percent/currency symbols for Decimal arithmetic; map explicit semantic column aliases; merge identical measure marks only.",
+  "states": [
+    {
+      "state": "default",
+      "author_csv_sha256": "6368283ac18515c8296c629cf989a4c619117d4db183211caf3e84ff2ed7e0e4",
+      "replica_csv_sha256": "b785016bbd7feefcf155bce6a35ab8c8657c7e3d1647f1ccffe1be838c2d57cc",
+      "author_rows": 36,
+      "replica_rows": 36,
+      "author_unique_keys": 36,
+      "replica_unique_keys": 36,
+      "author_duplicate_marks_merged": 0,
+      "replica_duplicate_marks_merged": 0,
+      "compared_fields": [
+        "% Difference",
+        "Avg Orders Per Day Per Segment Per Month",
+        "COLOUR:Difference",
+        "Gantt Size",
+        "Overall Avg Orders Per Day Per Segment"
+      ],
+      "common_keys": 36,
+      "missing_replica_keys": [],
+      "extra_replica_keys": [],
+      "maximum_absolute_difference_on_common_keys": {
+        "% Difference": "0",
+        "Avg Orders Per Day Per Segment Per Month": "0",
+        "Gantt Size": "0",
+        "Overall Avg Orders Per Day Per Segment": "0"
+      },
+      "numeric_tolerances": {
+        "% Difference": "0",
+        "Avg Orders Per Day Per Segment Per Month": "0",
+        "Gantt Size": "1E-9",
+        "Overall Avg Orders Per Day Per Segment": "0"
+      },
+      "cell_differences": 0,
+      "differences": [],
+      "passed": true,
+      "scope": "36 month/segment marks. Averages compared as exported two-decimal values, percent as exported whole percentage points; Gantt Size compared at CSV precision. Author duplicate tooltip average and replica extra rounded Difference are excluded from field-set equality."
+    }
+  ],
+  "cloud_snapshot_metadata_at_verification": {
+    "captured_at": "2026-10-02T11:06:56.226784+00:00",
+    "source_hashes": {
+      "author": "59a4094561f9eda656a49f3cc144fa9bf9c142625160f6a4fedb9f87a10e3b67",
+      "replica": "68c7e0d635b16cb22f0044c07781248767ca53911bbf4d3ecb314bb3438a6bd8"
+    }
+  },
+  "passed": true
+}

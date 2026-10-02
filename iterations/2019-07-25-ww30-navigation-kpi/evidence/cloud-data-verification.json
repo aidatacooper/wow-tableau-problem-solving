@@ -1,0 +1,292 @@
+{
+  "case_id": "wow-2019-ww30-navigation-kpi",
+  "cloud_captured_at": "2026-10-02T11:26:03.603841+00:00",
+  "source_hashes": {
+    "author": "53645fae30240a543df101cfe37f7920c5c074d7426fcefbd4048c31a86868a8",
+    "replica": "3840c879b7bd419e7b9b152e8e496e8903f9cd7fe46a77347cbcbace1b32fdee"
+  },
+  "passed": true,
+  "states": [
+    {
+      "name": "customer-sales",
+      "rows": 793,
+      "passed": true,
+      "keys_equal": true,
+      "currency_values_exact": true
+    },
+    {
+      "name": "product-sales",
+      "rows": 1850,
+      "passed": true,
+      "keys_equal": true,
+      "currency_values_exact": true
+    },
+    {
+      "name": "city-sales",
+      "rows": 604,
+      "passed": true,
+      "keys_equal": true,
+      "currency_values_exact": true
+    },
+    {
+      "name": "order-sales",
+      "rows": 5009,
+      "passed": true,
+      "keys_equal": true,
+      "currency_values_exact": true
+    }
+  ],
+  "csv_sources": [
+    {
+      "name": "default",
+      "filters": {},
+      "parameters": {},
+      "views": {
+        "author": {
+          "id": "23385b97-4fe4-4815-b932-eb4efee1fa25",
+          "name": "4 Box KPI",
+          "path": "cloud-author.png",
+          "size": [
+            1200,
+            1200
+          ],
+          "sha256": "bd53f9313c971ce034618af74b8c23ace25aeeb1f4451af02f5839a4555e4dda",
+          "data_export": {
+            "path": "cloud-author.csv",
+            "sha256": "9d109c4b66e4f2f89ccf364d5eb4c8f99e772155e3cb32b41a2a277a0f076ee1",
+            "bytes": 53
+          }
+        },
+        "replica": {
+          "id": "057b1980-32c9-418a-af07-0ff493efde37",
+          "name": "4 Box KPI",
+          "path": "cloud-replica.png",
+          "size": [
+            1200,
+            1200
+          ],
+          "sha256": "300768ef2bdb141b7081a44afedf0f44917003b8ae34e623116078ce4e0c2b8e",
+          "data_export": {
+            "path": "cloud-replica.csv",
+            "sha256": "5d6f0f414f330ebebb4d88d42a2efdc4701d73d41ab8e658655b3e711ee93b22",
+            "bytes": 147
+          }
+        }
+      },
+      "comparison": {
+        "same_dimensions": true,
+        "author_size": [
+          1200,
+          1200
+        ],
+        "replica_size": [
+          1200,
+          1200
+        ],
+        "mean_absolute_channel_difference_0_to_255": 10.879219675925926,
+        "pixel_identical": false
+      }
+    },
+    {
+      "name": "customer-sales",
+      "filters": {},
+      "parameters": {},
+      "views": {
+        "author": {
+          "id": "b252af47-efa6-4e9b-b9d0-e476e9a4bb34",
+          "name": "Customer Sales",
+          "path": "cloud-author-customer-sales.png",
+          "size": [
+            1200,
+            1200
+          ],
+          "sha256": "a1dec9be3159441e280e9f0a52f8d12116138605928f2c502069eab6dcfeca33",
+          "data_export": {
+            "path": "cloud-author-customer-sales.csv",
+            "sha256": "b83ce3ce72e912627bb03ef3137ef9afb127820100feb0d55773ac7914e36dd7",
+            "bytes": 22328
+          }
+        },
+        "replica": {
+          "id": "22d5b784-09a9-4ac6-bf34-1fc5724f0b5d",
+          "name": "Customer Sales",
+          "path": "cloud-replica-customer-sales.png",
+          "size": [
+            1200,
+            1200
+          ],
+          "sha256": "1d5f89dd2c1c0e0ed599c369404b0c5e6224f02a22899004e045407349560972",
+          "data_export": {
+            "path": "cloud-replica-customer-sales.csv",
+            "sha256": "ae4cc59e071527d3e2bbcc6428d303f92c2a9db33fc649004315f7f8c79c79a6",
+            "bytes": 28645
+          }
+        }
+      },
+      "comparison": {
+        "same_dimensions": true,
+        "author_size": [
+          1200,
+          1200
+        ],
+        "replica_size": [
+          1200,
+          1200
+        ],
+        "mean_absolute_channel_difference_0_to_255": 20.32640787037037,
+        "pixel_identical": false
+      }
+    },
+    {
+      "name": "product-sales",
+      "filters": {},
+      "parameters": {},
+      "views": {
+        "author": {
+          "id": "c83111a5-b136-4de8-bc9f-e60370ab0cc8",
+          "name": "Product Sales",
+          "path": "cloud-author-product-sales.png",
+          "size": [
+            1200,
+            1200
+          ],
+          "sha256": "38ba0220ba4a580b12d3c8cb6b2ac57c0d091b0244769fc06d4e595e3affd44d",
+          "data_export": {
+            "path": "cloud-author-product-sales.csv",
+            "sha256": "deffdd58949cf5380cde89ea118ace7abfe9c460242c6b510421149b40d80515",
+            "bytes": 94432
+          }
+        },
+        "replica": {
+          "id": "3b3401d9-6e28-4a58-9008-c9c8b990ec78",
+          "name": "Product Sales",
+          "path": "cloud-replica-product-sales.png",
+          "size": [
+            1200,
+            1200
+          ],
+          "sha256": "4c5ace0fb641abaf3587f7009bf9dd0b3ff871c8bea0b8291cd0f4a7800d5154",
+          "data_export": {
+            "path": "cloud-replica-product-sales.csv",
+            "sha256": "0937ab77c03ffa239fcfa94ca49070e75c25859ac2171d59dfaf4a1ac7fe78e3",
+            "bytes": 155743
+          }
+        }
+      },
+      "comparison": {
+        "same_dimensions": true,
+        "author_size": [
+          1200,
+          1200
+        ],
+        "replica_size": [
+          1200,
+          1200
+        ],
+        "mean_absolute_channel_difference_0_to_255": 15.35752361111111,
+        "pixel_identical": false
+      }
+    },
+    {
+      "name": "city-sales",
+      "filters": {},
+      "parameters": {},
+      "views": {
+        "author": {
+          "id": "e8940b5a-410b-4762-8d1b-f2334a85aaad",
+          "name": "City Sales",
+          "path": "cloud-author-city-sales.png",
+          "size": [
+            1200,
+            1200
+          ],
+          "sha256": "121fd4c8bcb43749c7470525e9c7887375319d192c00a4ca32b29749fc672308",
+          "data_export": {
+            "path": "cloud-author-city-sales.csv",
+            "sha256": "b63fe05dac92e7a06dc17d7308bc69acf89dd558709692509878efaf293caffa",
+            "bytes": 21106
+          }
+        },
+        "replica": {
+          "id": "939ce12a-755d-4c38-a12f-1f68e7e698b5",
+          "name": "City Sales",
+          "path": "cloud-replica-city-sales.png",
+          "size": [
+            1200,
+            1200
+          ],
+          "sha256": "c9ba53a61eaba7e094e3ade54077184c600ec57fa32cf5ac732cee5628ee87ce",
+          "data_export": {
+            "path": "cloud-replica-city-sales.csv",
+            "sha256": "47ddfb53314e9a305964a04c7d4da17d92c25ee208bea5a5fbaaf350c4f370d0",
+            "bytes": 30817
+          }
+        }
+      },
+      "comparison": {
+        "same_dimensions": true,
+        "author_size": [
+          1200,
+          1200
+        ],
+        "replica_size": [
+          1200,
+          1200
+        ],
+        "mean_absolute_channel_difference_0_to_255": 12.30703101851852,
+        "pixel_identical": false
+      }
+    },
+    {
+      "name": "order-sales",
+      "filters": {},
+      "parameters": {},
+      "views": {
+        "author": {
+          "id": "a9586584-97ec-472b-9917-4881b36d3abc",
+          "name": "Order Sales",
+          "path": "cloud-author-order-sales.png",
+          "size": [
+            1200,
+            1200
+          ],
+          "sha256": "70c19c7f4d695164a1eed2a1caed9d22122fc1cca52b5c1ceb61b8028311e540",
+          "data_export": {
+            "path": "cloud-author-order-sales.csv",
+            "sha256": "a258add40835b3dfd885202ee654fc88c78e52673ab3ab4faa28a60d4b3581cc",
+            "bytes": 130315
+          }
+        },
+        "replica": {
+          "id": "0a90320d-1fee-469f-9b2d-ef8958368550",
+          "name": "Order Sales",
+          "path": "cloud-replica-order-sales.png",
+          "size": [
+            1200,
+            1200
+          ],
+          "sha256": "ea08c65b5b75989a99f4b433f4ed458f2010c1b8ef69192c371d3a7695b13254",
+          "data_export": {
+            "path": "cloud-replica-order-sales.csv",
+            "sha256": "5b89e9188d1994f5d092abf24bc19adc517b2d00230b3f4d3bf15bb43cd44d52",
+            "bytes": 175397
+          }
+        }
+      },
+      "comparison": {
+        "same_dimensions": true,
+        "author_size": [
+          1200,
+          1200
+        ],
+        "replica_size": [
+          1200,
+          1200
+        ],
+        "mean_absolute_channel_difference_0_to_255": 15.774769675925926,
+        "pixel_identical": false
+      }
+    }
+  ],
+  "method": "Normalize CSV into dimension-to-formatted-currency maps; all keys and exact formatted dollars match"
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0.0",
+  "iteration_id": "2026-02-09-ww05-kpi-period-comparison",
+  "case_id": "donna-2026-02-09-1eb979fd64b6",
+  "article": {
+    "path": "posts/2026-02-09-KPI_Trend_Monitor_With_Period_Comparison.html",
+    "sha256": "723194f9ffa3717e1759819775ececf752e65e6db70bf9d4c82806f4c7ea8cdc"
+  },
+  "workbook": {
+    "workbook_id": "tableau-93c74baea48daf50",
+    "source_twbx": {
+      "path": "dashboards/2026_02_04_WW05_KPI_Trend_Monitor_With_Period_Comparison/2026_02_04_WW05_KPI_Trend_Monitor_With_Period_Comparison.twbx",
+      "sha256": "26319a48a795bd3e9031a781eabfdeca8fff157aff64798a46daf000ae44b896"
+    },
+    "normalized_twb": {
+      "path": "dataset/workbooks/tableau-93c74baea48daf50/workbook.twb",
+      "sha256": "4fa6d7e56689d26ceb954b1b317aaf5e8bd3430409a152a934e2c279a2911cb1"
+    }
+  },
+  "validation_env": "C:/Users/imgwho/Desktop/projects/20260227-cwtwb/.env",
+  "baseline": {
+    "cwtwb_version": "0.24.0",
+    "cwtwb_git_commit": "e401a1266dcb078542951dfd2000a0f252fcbb0a",
+    "backup_git_commit": "5b4a663"
+  },
+  "result": {
+    "cwtwb_git_commits": [],
+    "backup_git_commit": null
+  }
+}

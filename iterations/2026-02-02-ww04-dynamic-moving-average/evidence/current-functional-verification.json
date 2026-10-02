@@ -1,0 +1,15 @@
+{
+  "checked_at": "2026-10-02T11:30:09.987233+00:00",
+  "command": [
+    "python",
+    "iterations/2026-02-02-ww04-dynamic-moving-average/verify_replication.py"
+  ],
+  "exit_code": 0,
+  "stdout": "PASS: acceptance and round-trip checks\n",
+  "stderr": "",
+  "sdk_version": "0.27.1",
+  "sdk_commit": "2ad7b6ca4f0f3a0b8731e50b4932ac21ffbcdc73",
+  "builder_sha256": "d9471fad66cb4e80f48d763a45b769e135a82c88fbc1f0fe678b358190b505fb",
+  "replica_sha256": "13ad3741d54941b500b390cbdc9cca86358096bc26881951321c6f9f6912d0e2",
+  "scope": "Final artifact-only verification after successful strict builds; no rebuild, UI pass not inferred."
+}

@@ -1,4 +1,4 @@
-schema_version: legacy-summary-1.0
+schema_version: 1.1.0
 case_id: wow-2026-ww04-dynamic-moving-average
 iteration_id: 2026-02-02-ww04-dynamic-moving-average
 post: posts/2026-02-02-Can_you_create_a_dynamic_moving_average_chart.html
@@ -27,34 +27,59 @@ source:
     sha256: 6a078d36f8d473477bb446f5e0e2d3dd02ab6d5d64dba7a89cf2cd55e9c2a7a6
     workbook_id: tableau-90f17c56b06029af
 functional_status: replicated
-visual_status: not_evaluated
-cwtwb_result: null
+visual_status: acceptable_delta
+cwtwb_result: pass
 cwtwb:
-  tested_version: 0.24.0
-verification_status: historical
+  tested_version: 0.27.1
+  runs:
+  - version: 0.27.1
+    result: pass
+    evidence: evidence/current-functional-verification.json
+  tested_commit: 2ad7b6ca4f0f3a0b8731e50b4932ac21ffbcdc73
+verification_status: verified
 artifacts:
   primary_workbook: outputs/replicated-workbook.twbx
-  cloud_author: null
-  cloud_replica: null
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
 artifact_aliases:
   outputs/2026-02-02-ww04-dynamic-moving-average-replicated-workbook.twbx: outputs/replicated-workbook.twbx
 historical_artifacts:
 - path: outputs/2026-02-02-ww04-dynamic-moving-average-replicated-workbook.twb
-  role: historical_twb_companion
-  note: Unpackaged companion retains its original name and bytes; primary packaged output is replicated-workbook.twbx.
+  role: sdk_generated_twb_companion
+  note: Current companion rebuilt from an empty workbook using public SDK APIs. Historical
+    bytes remain in baseline commit a409e3ce7f071303777854aa2c40c2838c9e4f4c.
 evidence:
 - evidence/acceptance.json
 - evidence/source-lock.json
 - evidence/validation.json
 - evidence/workbook-inventory.json
+- inputs/source-lock.json
+- evidence/current-functional-verification.json
+- evidence/cloud-verification.json
+- evidence/history/pre-ten-cloud-verification/case.yaml
+- evidence/visual-review.json
+- evidence/cloud-data-comparison.json
 notes:
-- Identity/path migration only; no rebuild, retest of visuals, or Cloud publishing. Historical evidence
-  IDs and hash-keyed filenames resolve through legacy_case_ids and artifact_aliases.
-- Source archive paths may be unavailable in a clean checkout; URL and locked hash identify the original
-  source. Null hashes/SDK results mean unknown, not inferred success.
-- No confidently identified primary author screenshot.
-- Grandfathered identity/summary metadata only. Historical verification is not v1 acceptance certification;
-  historical builders may read author data carriers and must be migrated separately before v1 rebuild
-  validation.
-- Original consumed status, commits, capabilities and reason retained verbatim in usage/history/consumed-cases-before-standardization.json;
-  current summaries come only from this case.yaml.
+- Rebuilt with cwtwb 0.27.1 using independent inputs and public high-level SDK APIs
+  only.
+- Article and official challenge dates remain the only date identities.
+- Historical locks and acceptance are preserved separately; current Cloud source hashes
+  identify refreshed author snapshots and do not certify byte identity with unavailable
+  historical author packages.
+- Cloud images and CSV are real server exports. Hover/click actions are not inferred
+  from static XML or screenshots.
+analysis_status: completed
+remaining_work: []
+inputs:
+  data_files:
+  - inputs/federated_1yenh2r0raklpz16s6fvu0.hyper
+acceptance:
+- id: case-functional-contract
+  description: Independent locked data, observable chart/calculation/action definitions,
+    packaged artifact and SDK round-trip.
+  mode: automated
+- id: cloud-state-and-visual-review
+  description: Author and replica Cloud images and CSV exports; acceptance depends
+    on recorded review, UI actions separately.
+  mode: manual
+  evidence: evidence/visual-review.json

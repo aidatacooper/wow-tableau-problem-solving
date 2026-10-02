@@ -1,0 +1,12 @@
+{
+  "scope": "24 custom-axis month marks, source integer currency rounding tolerance 0.5; hover actions not tested",
+  "author_rows": 24,
+  "replica_rows": 24,
+  "keys_equal": true,
+  "differences": [],
+  "pass": true,
+  "source_hashes": {
+    "cloud-author.csv": "62e5eaf8fe8109ac016b4f1fd96a070f43e4cbd5ca156eda564038a4934b2d8e",
+    "cloud-replica.csv": "7b33eb9bd97e84b8b1c7325fb4c031ec3d181ba8abe576250fda37e804644fe0"
+  }
+}

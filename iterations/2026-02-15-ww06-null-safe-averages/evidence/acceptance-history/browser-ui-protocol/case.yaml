@@ -1,0 +1,87 @@
+schema_version: 1.1.0
+case_id: wow-2026-ww06-null-safe-averages
+iteration_id: 2026-02-15-ww06-null-safe-averages
+post: posts/2026-02-15-Can_you_account_for_nulls_in_your_averages.html
+legacy_case_ids:
+  donna-2026-02-15-44019b20eed6: wow-2026-ww06-null-safe-averages
+article_date: '2026-02-15'
+challenge_year: 2026
+challenge_week: 6
+challenge_date: '2026-02-10'
+date_evidence:
+  article_date: index.json publication date; matches preserved folder
+  challenge: Existing formal folder year and WW token; retained challenge identity
+  challenge_date: Official WoW WordPress publication date; docs/protocols/challenge-date-sources.json
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2026w06tab/
+    wordpress_post_id: 21285
+  article:
+    url: https://donnacoles.home.blog/2026/02/15/can-you-account-for-nulls-in-your-averages/
+    path: posts/2026-02-15-Can_you_account_for_nulls_in_your_averages.html
+    sha256: 99cd20d2d13919ab9b0924afbc8ed096615c21a6bf1953715605f916ffa0e891
+  workbook:
+    url: https://public.tableau.com/views/2026_02_11_WW06_Averages_and_Nulls/2026_02_11_WW06_Averages_and_Nulls
+    path: dashboards/2026_02_11_WW06_Averages_and_Nulls/2026_02_11_WW06_Averages_and_Nulls.twbx
+    filename: 2026_02_11_WW06_Averages_and_Nulls.twbx
+    sha256: 282dc9463781e394ca355702df5f5d795e07e316e2d0816511320360485a3dd5
+    workbook_id: tableau-f9dff954fb215221
+functional_status: partial
+visual_status: acceptable_delta
+cwtwb_result: pass
+cwtwb:
+  tested_version: 0.27.1
+  runs:
+  - version: 0.27.1
+    result: pass
+    evidence: evidence/current-functional-verification.json
+  tested_commit: 2ad7b6ca4f0f3a0b8731e50b4932ac21ffbcdc73
+verification_status: pending
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases:
+  outputs/2026-02-15-ww06-null-safe-averages-replicated-workbook.twbx: outputs/replicated-workbook.twbx
+historical_artifacts:
+- path: outputs/2026-02-15-ww06-null-safe-averages-replicated-workbook.twb
+  role: sdk_generated_twb_companion
+  note: Current companion rebuilt from an empty workbook using public SDK APIs. Historical
+    bytes remain in baseline commit a409e3ce7f071303777854aa2c40c2838c9e4f4c.
+evidence:
+- evidence/acceptance.json
+- evidence/source-lock.json
+- evidence/validation.json
+- evidence/workbook-inventory.json
+- inputs/source-lock.json
+- evidence/current-functional-verification.json
+- evidence/cloud-verification.json
+- evidence/history/pre-ten-cloud-verification/case.yaml
+- evidence/visual-review.json
+notes:
+- Rebuilt with cwtwb 0.27.1 using independent inputs and public high-level SDK APIs
+  only.
+- Article and official challenge dates remain the only date identities.
+- Historical locks and acceptance are preserved separately; current Cloud source hashes
+  identify refreshed author snapshots and do not certify byte identity with unavailable
+  historical author packages.
+- Cloud images and CSV are real server exports. Hover/click actions are not inferred
+  from static XML or screenshots.
+analysis_status: completed
+remaining_work:
+- Authenticated browser date-filter change then Apply click must update both min/max
+  date parameters and matrix values, then clear the Apply selection; REST state rendering
+  already passed.
+inputs:
+  data_files:
+  - inputs/Sample - Superstore_Orders.hyper
+acceptance:
+- id: case-functional-contract
+  description: Independent locked data, observable chart/calculation/action definitions,
+    packaged artifact and SDK round-trip.
+  mode: automated
+- id: cloud-state-and-visual-review
+  description: Author and replica Cloud images and CSV exports; acceptance depends
+    on recorded review, UI actions separately.
+  mode: manual
+  evidence: evidence/visual-review.json

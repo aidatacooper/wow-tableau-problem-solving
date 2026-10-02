@@ -1,0 +1,112 @@
+[
+  {
+    "case_id": "wow-2019-ww29-high-orders",
+    "functional_status": "replicated",
+    "visual_status": "acceptable_delta",
+    "cloud_sha_matches": true,
+    "review_sha_matches": true,
+    "workbook_sha256": "68c7e0d635b16cb22f0044c07781248767ca53911bbf4d3ecb314bb3438a6bd8",
+    "remaining_work": [],
+    "acceptance_scope": "cloud_rest_and_artifact_contracts",
+    "browser_interaction_executed": false
+  },
+  {
+    "case_id": "wow-2019-ww30-navigation-kpi",
+    "functional_status": "replicated",
+    "visual_status": "acceptable_delta",
+    "cloud_sha_matches": true,
+    "review_sha_matches": true,
+    "workbook_sha256": "3840c879b7bd419e7b9b152e8e496e8903f9cd7fe46a77347cbcbace1b32fdee",
+    "remaining_work": [],
+    "acceptance_scope": "cloud_rest_and_artifact_contracts",
+    "browser_interaction_executed": false
+  },
+  {
+    "case_id": "wow-2019-ww31-hub-spoke-map",
+    "functional_status": "replicated",
+    "visual_status": "acceptable_delta",
+    "cloud_sha_matches": true,
+    "review_sha_matches": true,
+    "workbook_sha256": "8b06b772a959c7bdd38ac117c2374647c02b19365373dcefd61ef8f6f3f12f28",
+    "remaining_work": [],
+    "acceptance_scope": "cloud_rest_and_artifact_contracts",
+    "browser_interaction_executed": false
+  },
+  {
+    "case_id": "wow-2019-ww32-step-area-chart",
+    "functional_status": "replicated",
+    "visual_status": "acceptable_delta",
+    "cloud_sha_matches": true,
+    "review_sha_matches": true,
+    "workbook_sha256": "4b86394131beb9d98c5920d74f6d22edac2c055a21440cb179bf2ded9865cd20",
+    "remaining_work": [],
+    "acceptance_scope": "cloud_rest_and_artifact_contracts",
+    "browser_interaction_executed": false
+  },
+  {
+    "case_id": "wow-2019-ww33-table-formatting",
+    "functional_status": "replicated",
+    "visual_status": "acceptable_delta",
+    "cloud_sha_matches": true,
+    "review_sha_matches": true,
+    "workbook_sha256": "fd25ecd4a965d85bb3b1b150714d6785cf8f778a2cde9772038bb6b8def55c7f",
+    "remaining_work": [],
+    "acceptance_scope": "cloud_rest_and_artifact_contracts",
+    "browser_interaction_executed": false
+  },
+  {
+    "case_id": "wow-2019-ww34-top-n-single-worksheet",
+    "functional_status": "replicated",
+    "visual_status": "acceptable_delta",
+    "cloud_sha_matches": true,
+    "review_sha_matches": true,
+    "workbook_sha256": "08e176cc0b2aaa178a7d1a480f722a839506a3d70fed4284b0b747f7b5f8ff9a",
+    "remaining_work": [],
+    "acceptance_scope": "cloud_rest_and_artifact_contracts",
+    "browser_interaction_executed": false
+  },
+  {
+    "case_id": "wow-2019-ww36-custom-axis-tracker",
+    "functional_status": "replicated",
+    "visual_status": "acceptable_delta",
+    "cloud_sha_matches": true,
+    "review_sha_matches": true,
+    "workbook_sha256": "e80b66a2d77a66c4599d98de7ebe712b22ae0e489ac8adf848bcc59f1c0b3621",
+    "remaining_work": [],
+    "acceptance_scope": "cloud_rest_and_artifact_contracts",
+    "browser_interaction_executed": false
+  },
+  {
+    "case_id": "wow-2026-ww04-dynamic-moving-average",
+    "functional_status": "replicated",
+    "visual_status": "acceptable_delta",
+    "cloud_sha_matches": true,
+    "review_sha_matches": true,
+    "workbook_sha256": "13ad3741d54941b500b390cbdc9cca86358096bc26881951321c6f9f6912d0e2",
+    "remaining_work": [],
+    "acceptance_scope": "cloud_rest_and_artifact_contracts",
+    "browser_interaction_executed": false
+  },
+  {
+    "case_id": "wow-2026-ww05-kpi-period-comparison",
+    "functional_status": "replicated",
+    "visual_status": "acceptable_delta",
+    "cloud_sha_matches": true,
+    "review_sha_matches": true,
+    "workbook_sha256": "f32990f53762b9c2083fabfacc87b0117c4f1d6e48cce65d8caed58ecd98f36c",
+    "remaining_work": [],
+    "acceptance_scope": "cloud_rest_and_artifact_contracts",
+    "browser_interaction_executed": false
+  },
+  {
+    "case_id": "wow-2026-ww06-null-safe-averages",
+    "functional_status": "replicated",
+    "visual_status": "acceptable_delta",
+    "cloud_sha_matches": true,
+    "review_sha_matches": true,
+    "workbook_sha256": "61efd92f4e521da125e305cdd6692bf74571da7e487226c8aafdfc5f08b38643",
+    "remaining_work": [],
+    "acceptance_scope": "cloud_rest_and_artifact_contracts",
+    "browser_interaction_executed": false
+  }
+]

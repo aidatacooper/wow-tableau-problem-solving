@@ -1,0 +1,37 @@
+from pathlib import Path
+import yaml, json, hashlib, zipfile, urllib.request, concurrent.futures
+from lxml import etree
+ROOT=Path(__file__).resolve().parents[2]
+CASES=['2019-07-18-ww29-high-orders','2019-07-25-ww30-navigation-kpi','2019-09-02-ww34-top-n-single-worksheet','2026-02-09-ww05-kpi-period-comparison']
+proxy=urllib.request.ProxyHandler({p:'http://127.0.0.1:7897' for p in ['http','https']})
+def analyze(name):
+ d=ROOT/'iterations'/name; c=yaml.safe_load((d/'case.yaml').read_text()); s=c['source']['workbook']; ref=Path('/srv/hermes-workspaces/wow-reference')/c['case_id']/s['filename']; ref.parent.mkdir(parents=True,exist_ok=True)
+ if not ref.exists():
+  url='https://public.tableau.com/workbooks/'+s['filename'].replace('.twbx','.twb')
+  with urllib.request.build_opener(proxy).open(url,timeout=120) as r: ref.write_bytes(r.read())
+ if not zipfile.is_zipfile(ref): raise ValueError('Not ZIP '+str(ref))
+ actual=hashlib.sha256(ref.read_bytes()).hexdigest(); print(name,'hash',actual,'exact',actual.lower()==s['sha256'].lower(),flush=True)
+ with zipfile.ZipFile(ref) as z:
+  twb=etree.fromstring(z.read(next(n for n in z.namelist() if n.endswith('.twb'))))
+  extracted=[]
+  for n in z.namelist():
+   if Path(n).suffix.lower() in ['.hyper','.tde','.csv','.xlsx']:
+    target=d/'inputs'/Path(n).name; target.parent.mkdir(exist_ok=True); target.write_bytes(z.read(n)); extracted.append({'file':'inputs/'+target.name,'archive_member':n,'bytes':target.stat().st_size,'sha256':hashlib.sha256(target.read_bytes()).hexdigest()})
+  lock={'source_workbook_used_by_builder':False,'download_url':url if 'url' in locals() else s['url'],'cached_original':str(ref),'locked_original_sha256':s['sha256'],'download_sha256':actual,'exact_locked_original':actual.lower()==s['sha256'].lower(),'extracted_data':extracted}
+  (d/'inputs'/'source-lock.json').write_text(json.dumps(lock,indent=2))
+  fields=[]; parameters=[]
+  for ds in twb.findall('./datasources/datasource'):
+   cols=ds.findall('column'); mapping={col.get('name'):col.get('caption') or col.get('name').strip('[]') for col in cols}
+   for col in cols:
+    calc=col.find('calculation')
+    if ds.get('name')=='Parameters':
+     parameters.append({'name':mapping[col.get('name')],'datatype':col.get('datatype'),'value':col.get('value'),'domain':col.get('param-domain-type'),'range': dict(col.find('range').attrib) if col.find('range') is not None else {},'values':[x.get('value') for x in col.findall('members/member')]})
+    elif calc is not None:
+     formula=calc.get('formula','')
+     for key,val in sorted(mapping.items(),key=lambda x:-len(x[0])): formula=formula.replace(key,'['+val+']')
+     for pds in twb.findall('./datasources/datasource[@name="Parameters"]'):
+      for p in pds.findall('column'): formula=formula.replace('[Parameters].'+p.get('name'),'['+(p.get('caption') or p.get('name').strip('[]'))+']')
+     fields.append({'name':mapping[col.get('name')],'formula':formula,'datatype':col.get('datatype'),'role':col.get('role'),'field_type':col.get('type')})
+  payload={'calculations':fields,'parameters':parameters,'dashboards':[x.get('name') for x in twb.findall('./dashboards/dashboard')],'worksheets':[x.get('name') for x in twb.findall('./worksheets/worksheet')]}
+  (d/'evidence'/'analysis-source-027.json').write_text(json.dumps(payload,indent=2)); print(name,json.dumps(payload),flush=True)
+with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool: list(pool.map(analyze,CASES))

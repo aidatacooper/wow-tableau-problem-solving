@@ -1,0 +1,87 @@
+{
+  "case_id": "wow-2019-ww31-hub-spoke-map",
+  "iteration_id": "2019-08-04-ww31-hub-spoke-map",
+  "captured_at": "2026-10-02T11:08:29.180480+00:00",
+  "source_hashes": {
+    "author": "09880e3ab841ac35bdc4232f1115061b6ac0828f2b4579bfa1f5248f9e100014",
+    "replica": "0944897a02248bdc7560240536893ef6e50e00abfb85d193d8223fd6326430db"
+  },
+  "request_settings": {
+    "case_id": "wow-2019-ww31-hub-spoke-map",
+    "iteration_id": "2019-08-04-ww31-hub-spoke-map",
+    "author_workbook_path": "/srv/hermes-workspaces/wow-reference/wow-2019-ww31-hub-spoke-map/2019_07_31_WW31_WWPD_MusicData.twbx",
+    "replica_workbook_path": "/srv/hermes-workspaces/wow-case-standardization/iterations/2019-08-04-ww31-hub-spoke-map/outputs/replicated-workbook.twbx",
+    "author_view_name": "2019_07_31_WW31_MusicData_Hub&Spoke",
+    "replica_view_name": "2019 WW31 Music Data Hub & Spoke",
+    "_request_file": "/srv/hermes-workspaces/wow-cloud-queue/wow-2019-ww31-hub-spoke-map.json"
+  },
+  "workbooks": {
+    "author": {
+      "id": "50f99509-08f4-451f-8606-facc0110cf0c",
+      "name": "cwtwb-review-wow-2019-ww31-hub-spoke-map-author",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2922842"
+    },
+    "replica": {
+      "id": "3839e854-70da-477d-9ad2-062f860e476f",
+      "name": "cwtwb-review-wow-2019-ww31-hub-spoke-map-replica",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2922843"
+    }
+  },
+  "export_resolution": "high",
+  "maxage_minutes": 1,
+  "status": "rendered_needs_visual_and_interaction_review",
+  "states": [
+    {
+      "name": "default",
+      "filters": {},
+      "parameters": {},
+      "views": {
+        "author": {
+          "id": "d4017f12-c81c-497d-b4d8-2909565ca9bf",
+          "name": "2019_07_31_WW31_MusicData_Hub&Spoke",
+          "path": "cloud-author.png",
+          "size": [
+            3200,
+            1800
+          ],
+          "sha256": "a8560e154e9c9eb3c9a09a4f87d4ec499f545f82d6fb35d0f433ab97fd595b08",
+          "data_export": {
+            "path": "cloud-author.csv",
+            "sha256": "e7d44ae85e59004a1eac537d51a7e8e352506698dd3a91d17aaf04b7cc214645",
+            "bytes": 174
+          }
+        },
+        "replica": {
+          "id": "8c962436-2254-4d61-8444-09b776ef1fa7",
+          "name": "2019 WW31 Music Data Hub & Spoke",
+          "path": "cloud-replica.png",
+          "size": [
+            3200,
+            1800
+          ],
+          "sha256": "a1499ea85e101a2c796aa70004a92f0d54d5875f72b7e31daa71544417822988",
+          "data_export": {
+            "path": "cloud-replica.csv",
+            "sha256": "b88c3fe1d1b6362e57b03aa8aea88724af4ebfdd75bf8b5da5da20fa3708d66b",
+            "bytes": 136
+          }
+        }
+      },
+      "comparison": {
+        "same_dimensions": true,
+        "author_size": [
+          3200,
+          1800
+        ],
+        "replica_size": [
+          3200,
+          1800
+        ],
+        "mean_absolute_channel_difference_0_to_255": 15.282854282407408,
+        "pixel_identical": false
+      }
+    }
+  ],
+  "visual_status": "not_evaluated",
+  "interaction_status": "not_evaluated"
+}

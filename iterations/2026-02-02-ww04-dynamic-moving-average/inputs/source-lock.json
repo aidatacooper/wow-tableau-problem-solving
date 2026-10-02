@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.1.0",
+  "case_id": "wow-2026-ww04-dynamic-moving-average",
+  "source_workbook_used_by_builder": false,
+  "source_workbook": {
+    "url": "https://public.tableau.com/views/2026_01_27_WW04_Moving_Average/2026_01_28_WW04_Moving_Avg",
+    "path": "dashboards/2026_01_27_WW04_Moving_Average/2026_01_27_WW04_Moving_Average.twbx",
+    "filename": "2026_01_27_WW04_Moving_Average.twbx",
+    "sha256": "6a078d36f8d473477bb446f5e0e2d3dd02ab6d5d64dba7a89cf2cd55e9c2a7a6",
+    "workbook_id": "tableau-90f17c56b06029af"
+  },
+  "cached_reference": {
+    "path": "/srv/hermes-workspaces/wow-reference/wow-2026-ww04-dynamic-moving-average/2026_01_27_WW04_Moving_Average.twbx",
+    "sha256": "7ccf540598d0bada23844d858c01486faf0e4a30e85bac88fda3d99efc697bc2",
+    "matches_historical_lock": false
+  },
+  "extracted_data": [
+    {
+      "file": "inputs/federated_1yenh2r0raklpz16s6fvu0.hyper",
+      "bytes": 196608,
+      "sha256": "546ac16f259a259d576700a9c3205661b1bf5bf12c357dbd65a6d3fee2f85d59",
+      "archive_member": "Data/Extracts/federated_1yenh2r0raklpz16s6fvu0.hyper",
+      "extracted_from": "outputs/historical-replicated-workbook.twbx",
+      "extracted_from_sha256": "500a641c4a8a21158872ce55fdc636cba446f0b93874863039e2636addb8914c",
+      "reference_member": "Data/Extracts/federated_1yenh2r0raklpz16s6fvu0.hyper"
+    }
+  ],
+  "limitations": [
+    "Historical TWBX lock preserved; exact archived original unavailable. Hyper bytes agree with historical replica and refreshed cached reference. This is not exact-original source certification."
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0.0",
+  "iteration_id": "2026-02-02-ww04-dynamic-moving-average",
+  "case_id": "donna-2026-02-02-5ebab8421caf",
+  "article": {
+    "path": "posts/2026-02-02-Can_you_create_a_dynamic_moving_average_chart.html",
+    "sha256": "06d73ac9331f81a1a75ac3467e2753ac8305b67999b1fc826694ccb08a87ec5f"
+  },
+  "workbook": {
+    "workbook_id": "tableau-90f17c56b06029af",
+    "source_twbx": {
+      "path": "dashboards/2026_01_27_WW04_Moving_Average/2026_01_27_WW04_Moving_Average.twbx",
+      "sha256": "6a078d36f8d473477bb446f5e0e2d3dd02ab6d5d64dba7a89cf2cd55e9c2a7a6"
+    },
+    "normalized_twb": {
+      "path": "dataset/workbooks/tableau-90f17c56b06029af/workbook.twb",
+      "sha256": "70859c0176d8df73a3f616ebb901cedfb91dae083cf5d90bc34ffb3c1dbf5ac5"
+    }
+  },
+  "validation_env": "C:/Users/imgwho/Desktop/projects/20260227-cwtwb/.env",
+  "baseline": {
+    "cwtwb_version": "0.24.0",
+    "cwtwb_git_commit": "ce29dc359530d05c9afa2c95725663c15ffb8b12",
+    "backup_git_commit": "a6cd4916d3e1efbd7d6d390254aaaa86c20440c9"
+  },
+  "result": {
+    "cwtwb_git_commits": [
+      "e401a1266dcb078542951dfd2000a0f252fcbb0a"
+    ],
+    "backup_git_commit": null
+  }
+}

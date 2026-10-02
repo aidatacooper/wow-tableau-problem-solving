@@ -1,0 +1,37 @@
+{
+  "visual_status": "acceptable_delta",
+  "pixel_matched": false,
+  "matching_features": [
+    "Three category step area profiles and all extrema labels",
+    "Blue/red/grey changes with exact sales/difference values",
+    "Pastel category fills",
+    "Jan 18/Dec 18 ticks and continuous grey baseline",
+    "Rich title colors and footer reference information"
+  ],
+  "accepted_deltas": [
+    "Category headers use title case instead of uppercase author aliases",
+    "Minor title size, label spacing and footer alignment differences"
+  ],
+  "remaining_work": [],
+  "interactions": "not_applicable: static chart without dashboard actions",
+  "data_review": "verify_cloud_data.py:207 unique normalized keys;10 measure/label fields;0 differing cells",
+  "evidence": [
+    "outputs/cloud-author.png",
+    "outputs/cloud-replica.png",
+    "evidence/cloud-data-comparison.json"
+  ],
+  "reviewed_at": "2026-10-02T11:15:30.942040+00:00",
+  "cloud_snapshot_captured_at": "2026-10-02T11:09:36.395061+00:00",
+  "reviewed_workbook_sha256": "4b86394131beb9d98c5920d74f6d22edac2c055a21440cb179bf2ded9865cd20",
+  "current_workbook_sha256": "4b86394131beb9d98c5920d74f6d22edac2c055a21440cb179bf2ded9865cd20",
+  "current_build_needs_recapture": false,
+  "captured_at": "2026-10-02T11:09:36.395061+00:00",
+  "observations": [
+    "Increase/decrease and grey baseline lines, area fills, 2018 date axes, currency and difference labels agree. Title/header case, footer placement, and spacing differ slightly."
+  ],
+  "interaction_status": "not_required",
+  "reviewed_source_hashes": {
+    "author": "389bcd11c666f8f65acdf4461ab487d1d017a7cc9855be0d28afd7309617f8e5",
+    "replica": "4b86394131beb9d98c5920d74f6d22edac2c055a21440cb179bf2ded9865cd20"
+  }
+}

@@ -1,12 +1,11 @@
 """Build WW36's hover-driven custom axis and tracking reference lines."""
 
 from pathlib import Path
-import sys
+
 
 
 HERE = Path(__file__).resolve().parent
-PROJECT_ROOT = HERE.parents[2]
-sys.path.insert(0, str(PROJECT_ROOT / "src"))
+
 
 from cwtwb.twb_editor import TWBEditor  # noqa: E402
 
@@ -18,7 +17,7 @@ OUTPUTS = HERE / "outputs"
 def build(path: Path) -> Path:
     editor = TWBEditor("")
     editor.set_hyper_connection(str(HYPER), table_name="Extract")
-    editor._datasource.set("caption", "Orders (Sample - Superstore)")
+
 
     # The set starts empty.  The dashboard hover action fills it with the
     # Custom Axis mark under the pointer and empties it on mouse leave.
@@ -65,7 +64,7 @@ def build(path: Path) -> Path:
     editor.add_reference_line(
         "Line Chart", axis_field="SUM(Sales)", value_field="AGG(Max Sales in Window)",
         scope="per-pane", formula="max", label_type="custom",
-        label="<Value> in Sales", probability=None,
+        label="$<Value> in Sales", probability=None,
     )
     editor.add_reference_line(
         "Line Chart", axis_field="[Month Order Date]", value_field="ATTR(Selected Date)",
@@ -87,10 +86,11 @@ def build(path: Path) -> Path:
     )
     editor.configure_worksheet_style(
         "Line Chart", hide_gridlines=True, hide_zeroline=True,
-        label_formats=[{"field": "SUM(Sales)", "font_size": "8"}],
+        label_formats=[{"field": "SUM(Sales)", "font_size": "8", "text-format": 'c"$"#,##0;-"$"#,##0'}],
         axis_style={
             "stroke-size": "0", "line-visibility": "off",
             "tick-color": "#00000000",
+            "encodings": [{"field": "SUM(Sales)", "class": "0", "scope": "rows", "range_type": "fixed", "min": 0, "max": 125000, "major_spacing": 20000, "major_origin": 0, "minor_show": False}],
             "per_field": [
                 {"field": "[Month Order Date]", "attr": "display", "value": "false", "class": "0", "scope": "cols"},
                 {"field": "SUM(Sales)", "attr": "title", "value": "", "class": "0", "scope": "rows"},
@@ -163,9 +163,12 @@ def build(path: Path) -> Path:
     editor.add_dashboard(
         dashboard_name, width=1000, height=800,
         layout={"type": "container", "direction": "vertical", "children": [
-            {"type": "text", "text": "Can you build a custom axis with a tracking reference line?", "font_size": "15", "fixed_size": 45},
+            {"type": "text", "text": "Can you build a custom axis with a tracking reference line?", "runs": [{"text": "Can you build a custom axis with a tracking reference line?", "font_size": "15", "font_alignment": "0", "font_color": "#898989"}], "fixed_size": 45},
             {"type": "worksheet", "name": "Custom Axis", "fit": "width", "fixed_size": 65, "show_title": False},
             {"type": "worksheet", "name": "Line Chart", "fit": "entire", "weight": 1, "show_title": False},
+            {"type": "text", "text": "DESIGNED BY: Curtis Harris                  #WORKOUTWEDNESDAY | 2019 | WEEK 36                 RECREATED BY: Donna Coles", "font_size": "8", "font_color": "#499894", "fixed_size": 60},
+            {"type": "text", "runs": [{"text": "http://www.workout-wednesday.com/week-36-can-you-build-a-custom-axis-with-a-tracking-reference-line/", "font_size": "8", "font_color": "#006b9e", "hyperlink": "http://www.workout-wednesday.com/week-36-can-you-build-a-custom-axis-with-a-tracking-reference-line/"}], "fixed_size": 25},
+            {"type": "empty", "fixed_size": 135},
         ]}, worksheet_names=["Line Chart", "Custom Axis"],
     )
     editor.add_dashboard_set_action(
@@ -173,7 +176,7 @@ def build(path: Path) -> Path:
         caption="Select Date", clear_option="exclude-all",
     )
     OUTPUTS.mkdir(exist_ok=True)
-    editor.save(path, validate=False)
+    editor.save(path)
     return path
 
 

@@ -73,6 +73,7 @@ def assert_acceptance(root: etree._Element) -> None:
     assert dashboard.find(".//zone[@name='Dynamic Moving Average']") is not None
 
 
+# case-functional-contract: explicit assertions plus independent data and SDK round-trip.
 def main() -> None:
     for output in (OUTPUT_TWB, OUTPUT_TWBX):
         assert output.exists()

@@ -1,0 +1,16 @@
+{
+  "source_workbook_used_by_builder": false,
+  "download_url": "https://public.tableau.com/workbooks/2019_07_24_WW30_Navigation_KPI.twb",
+  "cached_original": "/srv/hermes-workspaces/wow-reference/wow-2019-ww30-navigation-kpi/2019_07_24_WW30_Navigation_KPI.twbx",
+  "locked_original_sha256": "a6d52e237288424f13d0162c4b2ee7efca7e25a55282c47ca8f6d9590bf29cd5",
+  "download_sha256": "53645fae30240a543df101cfe37f7920c5c074d7426fcefbd4048c31a86868a8",
+  "exact_locked_original": false,
+  "extracted_data": [
+    {
+      "file": "inputs/Orders (Sample - Superstore).hyper",
+      "archive_member": "Data/Datasources/Orders (Sample - Superstore).hyper",
+      "bytes": 983040,
+      "sha256": "c074b8d76b36677425ea675a6ecaff09370b19d05a716371df12001744e62275"
+    }
+  ]
+}

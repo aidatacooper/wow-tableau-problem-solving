@@ -1,0 +1,204 @@
+schema_version: 1.1.0
+case_id: wow-2019-ww31-hub-spoke-map
+iteration_id: 2019-08-04-ww31-hub-spoke-map
+post: posts/2019-08-04-Can_you_create_a_hub_and_spoke_map.html
+legacy_case_ids:
+  donna-2019-08-04-a73aff7c512b: wow-2019-ww31-hub-spoke-map
+article_date: '2019-08-04'
+challenge_year: 2019
+challenge_week: 31
+challenge_date: '2019-07-30'
+date_evidence:
+  article_date: index.json publication date; matches preserved folder
+  challenge: Existing formal folder year and WW token; retained challenge identity
+  challenge_date: Official WoW WordPress publication date; docs/protocols/challenge-date-sources.json
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2019-week-31-when-workoutwednesday-meets-preppindata-can-you-create-a-hub-and-spoke-map/
+    wordpress_post_id: 2875
+  article:
+    url: https://donnacoles.home.blog/2019/08/04/can-you-create-a-hub-and-spoke-map/
+    path: posts/2019-08-04-Can_you_create_a_hub_and_spoke_map.html
+    sha256: 96e140b94c22e457c8c6b5f5b6a10f486120ac81c1478deaf2c15c532c59f6fa
+  workbook:
+    url: https://public.tableau.com/views/2019_07_31_WW31_WWPD_MusicData/2019_07_31_WW31_MusicData_HubSpoke
+    path: dashboards/2019_07_31_WW31_WWPD_MusicData/2019_07_31_WW31_WWPD_MusicData.twbx
+    filename: 2019_07_31_WW31_WWPD_MusicData.twbx
+    sha256: 7f363cdc25ac7d0ff03e2bd11a03ebff061e981001528451c50187a63176e876
+    workbook_id: tableau-29b75742e9f36c7d
+functional_status: partial
+visual_status: acceptable_delta
+cwtwb_result: pass
+cwtwb:
+  tested_version: 0.27.1
+  runs:
+  - version: 0.27.1
+    result: pass
+    evidence: evidence/current-functional-verification.json
+  tested_commit: 2ad7b6ca4f0f3a0b8731e50b4932ac21ffbcdc73
+verification_status: pending
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases:
+  outputs/2019-08-04-ww31-hub-spoke-map-replicated-workbook.twbx: outputs/replicated-workbook.twbx
+  evidence/cloud-final-2019-WW31-Music-Data-Hub---Spoke.png: outputs/cloud-replica.png
+historical_artifacts:
+- path: evidence/cloud-final-Ben-Howard-Summary.png
+  role: historical_auxiliary
+  note: Retained historical or additional-view artifact; not the primary replica or
+    proof of a matched pair.
+- path: evidence/cloud-final-Ed-Sheeran-Summary.png
+  role: historical_auxiliary
+  note: Retained historical or additional-view artifact; not the primary replica or
+    proof of a matched pair.
+- path: evidence/cloud-final-Fellow-Artist-Word-Cloud.png
+  role: historical_auxiliary
+  note: Retained historical or additional-view artifact; not the primary replica or
+    proof of a matched pair.
+- path: evidence/cloud-final-Monthly-Concert-Trend.png
+  role: historical_auxiliary
+  note: Retained historical or additional-view artifact; not the primary replica or
+    proof of a matched pair.
+- path: evidence/cloud-final-Routes---East-Asia---Middle-East.png
+  role: historical_auxiliary
+  note: Retained historical or additional-view artifact; not the primary replica or
+    proof of a matched pair.
+- path: evidence/cloud-final-Routes---Europe.png
+  role: historical_auxiliary
+  note: Retained historical or additional-view artifact; not the primary replica or
+    proof of a matched pair.
+- path: evidence/cloud-final-Routes---North---South-America.png
+  role: historical_auxiliary
+  note: Retained historical or additional-view artifact; not the primary replica or
+    proof of a matched pair.
+- path: evidence/cwtwb-iteration-2019-08-04-ww31-hub-spoke-map_2019_07_31_WW31_MusicData_Hub&Spoke.png
+  role: historical_auxiliary
+  note: Retained historical or additional-view artifact; not the primary replica or
+    proof of a matched pair.
+- path: evidence/cwtwb-iteration-2019-08-04-ww31-hub-spoke-map_2019_WW31_Music_Data_Hub_&_Spoke.png
+  role: historical_auxiliary
+  note: Retained historical or additional-view artifact; not the primary replica or
+    proof of a matched pair.
+- path: evidence/cwtwb-iteration-2019-08-04-ww31-hub-spoke-map_Ben_Howard_Summary.png
+  role: historical_auxiliary
+  note: Retained historical or additional-view artifact; not the primary replica or
+    proof of a matched pair.
+- path: evidence/cwtwb-iteration-2019-08-04-ww31-hub-spoke-map_Fellow_Artist_Word_Cloud.png
+  role: historical_auxiliary
+  note: Retained historical or additional-view artifact; not the primary replica or
+    proof of a matched pair.
+- path: evidence/cwtwb-iteration-2019-08-04-ww31-hub-spoke-map_Monthly_Concert_Trend.png
+  role: historical_auxiliary
+  note: Retained historical or additional-view artifact; not the primary replica or
+    proof of a matched pair.
+- path: evidence/cwtwb-iteration-2019-08-04-ww31-hub-spoke-map_Routes_—_North_&_South_America.png
+  role: historical_auxiliary
+  note: Retained historical or additional-view artifact; not the primary replica or
+    proof of a matched pair.
+- path: evidence/map-probe-M1-Route-Base.png
+  role: probe
+  note: Experimental probe retained unchanged; not the primary output or matched screenshot.
+- path: evidence/map-probe-M2-Route-Layer.png
+  role: probe
+  note: Experimental probe retained unchanged; not the primary output or matched screenshot.
+- path: evidence/map-probe-M3-Route-Color.png
+  role: probe
+  note: Experimental probe retained unchanged; not the primary output or matched screenshot.
+- path: evidence/map-probe-M4-Route-Detail.png
+  role: probe
+  note: Experimental probe retained unchanged; not the primary output or matched screenshot.
+- path: evidence/map-probe-M5-Dual-Geometry.png
+  role: probe
+  note: Experimental probe retained unchanged; not the primary output or matched screenshot.
+- path: evidence/ww31-base-probe.png
+  role: probe
+  note: Experimental probe retained unchanged; not the primary output or matched screenshot.
+- path: evidence/ww31-p1-artist.png
+  role: probe
+  note: Experimental probe retained unchanged; not the primary output or matched screenshot.
+- path: evidence/ww31-p10-runs-minimal.png
+  role: probe
+  note: Experimental probe retained unchanged; not the primary output or matched screenshot.
+- path: evidence/ww31-p11-raw-date.png
+  role: probe
+  note: Experimental probe retained unchanged; not the primary output or matched screenshot.
+- path: evidence/ww31-p12-month-count.png
+  role: probe
+  note: Experimental probe retained unchanged; not the primary output or matched screenshot.
+- path: evidence/ww31-p13-tooltip-artist.png
+  role: probe
+  note: Experimental probe retained unchanged; not the primary output or matched screenshot.
+- path: evidence/ww31-p14-tooltip-region.png
+  role: probe
+  note: Experimental probe retained unchanged; not the primary output or matched screenshot.
+- path: evidence/ww31-p15-tooltip-calc.png
+  role: probe
+  note: Experimental probe retained unchanged; not the primary output or matched screenshot.
+- path: evidence/ww31-p2-artist-filter.png
+  role: probe
+  note: Experimental probe retained unchanged; not the primary output or matched screenshot.
+- path: evidence/ww31-p3-region-count.png
+  role: probe
+  note: Experimental probe retained unchanged; not the primary output or matched screenshot.
+- path: evidence/ww31-p4-region-count-filter.png
+  role: probe
+  note: Experimental probe retained unchanged; not the primary output or matched screenshot.
+- path: evidence/ww31-p5-word-cloud.png
+  role: probe
+  note: Experimental probe retained unchanged; not the primary output or matched screenshot.
+- path: evidence/ww31-p6-dashboard.png
+  role: probe
+  note: Experimental probe retained unchanged; not the primary output or matched screenshot.
+- path: evidence/ww31-p7-summary-exact.png
+  role: probe
+  note: Experimental probe retained unchanged; not the primary output or matched screenshot.
+- path: evidence/ww31-p8-trend-exact.png
+  role: probe
+  note: Experimental probe retained unchanged; not the primary output or matched screenshot.
+- path: evidence/ww31-p9-summary-no-runs.png
+  role: probe
+  note: Experimental probe retained unchanged; not the primary output or matched screenshot.
+- path: outputs/2019-08-04-ww31-hub-spoke-map-replicated-workbook.twb
+  role: sdk_generated_twb_companion
+  note: Current companion rebuilt from an empty workbook using public SDK APIs. Historical
+    bytes remain in baseline commit a409e3ce7f071303777854aa2c40c2838c9e4f4c.
+evidence:
+- evidence/acceptance.json
+- evidence/source-lock.json
+- evidence/validation.json
+- evidence/workbook-inventory.json
+- inputs/source-lock.json
+- evidence/current-functional-verification.json
+- evidence/cloud-verification.json
+- evidence/history/pre-ten-cloud-verification/case.yaml
+- evidence/visual-review.json
+notes:
+- Rebuilt with cwtwb 0.27.1 using independent inputs and public high-level SDK APIs
+  only.
+- Article and official challenge dates remain the only date identities.
+- Historical locks and acceptance are preserved separately; current Cloud source hashes
+  identify refreshed author snapshots and do not certify byte identity with unavailable
+  historical author packages.
+- Cloud images and CSV are real server exports. Hover/click actions are not inferred
+  from static XML or screenshots.
+analysis_status: completed
+remaining_work:
+- Authenticated browser hover over Ben/Ed regional summary marks must filter the word
+  cloud correctly and restore it when leaving; Cloud visual and endpoint data review
+  already passed.
+inputs:
+  data_files:
+  - inputs/2019_07_31_PD25_WWPD_MusicData_Output.hyper
+  - inputs/region-members.csv
+acceptance:
+- id: case-functional-contract
+  description: Independent locked data, observable chart/calculation/action definitions,
+    packaged artifact and SDK round-trip.
+  mode: automated
+- id: cloud-state-and-visual-review
+  description: Author and replica Cloud images and CSV exports; acceptance depends
+    on recorded review, UI actions separately.
+  mode: manual
+  evidence: evidence/visual-review.json

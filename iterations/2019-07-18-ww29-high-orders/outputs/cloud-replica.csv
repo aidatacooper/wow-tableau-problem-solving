@@ -1,0 +1,37 @@
+Month of Order Date,Segment,% Difference,Avg Orders Per Day Per Segment Per Month,COLOUR:Difference,Difference,Gantt Size,Overall Avg Orders Per Day Per Segment
+January,Consumer,-33%,1.66,blue,-0.82,0.816297209,2.48
+January,Corporate,-33%,1.23,blue,-0.60,0.596823658,1.82
+January,Home Office,-10%,1.35,blue,-0.14,0.142337847,1.49
+February,Consumer,-42%,1.43,blue,-1.04,1.043678161,2.48
+February,Corporate,-27%,1.33,blue,-0.50,0.499096386,1.82
+February,Home Office,-19%,1.21,blue,-0.28,0.279637619,1.49
+March,Consumer,-20%,1.99,blue,-0.49,0.488247449,2.48
+March,Corporate,-14%,1.58,blue,-0.25,0.248753920,1.82
+March,Home Office,-1%,1.48,blue,-0.01,0.013973458,1.49
+April,Consumer,-20%,1.99,blue,-0.49,0.489059687,2.48
+April,Corporate,-10%,1.64,blue,-0.18,0.180028589,1.82
+April,Home Office,-8%,1.37,blue,-0.12,0.117282578,1.49
+May,Consumer,-15%,2.12,blue,-0.36,0.361222021,2.48
+May,Corporate,-1%,1.80,blue,-0.02,0.024096386,1.82
+May,Home Office,-16%,1.25,blue,-0.24,0.240163934,1.49
+June,Consumer,-5%,2.34,blue,-0.13,0.132183908,2.48
+June,Corporate,-10%,1.64,blue,-0.18,0.181239243,1.82
+June,Home Office,-15%,1.26,blue,-0.23,0.230904675,1.49
+July,Consumer,-20%,1.98,blue,-0.50,0.500540906,2.48
+July,Corporate,-17%,1.52,blue,-0.30,0.302969625,1.82
+July,Home Office,-8%,1.38,blue,-0.11,0.112386157,1.49
+August,Consumer,-14%,2.12,blue,-0.36,0.356529567,2.48
+August,Corporate,-10%,1.64,blue,-0.18,0.183471386,1.82
+August,Home Office,-11%,1.33,blue,-0.16,0.156830601,1.49
+September,Consumer,+38%,3.41,green,0.93,-0.930755496,2.48
+September,Corporate,+25%,2.29,green,0.46,-0.464792503,1.82
+September,Home Office,+22%,1.82,green,0.33,-0.329280510,1.49
+October,Consumer,-12%,2.19,blue,-0.29,0.288122605,2.48
+October,Corporate,-7%,1.69,blue,-0.13,0.132738361,1.82
+October,Home Office,-1%,1.48,blue,-0.01,0.008021077,1.49
+November,Consumer,+49%,3.68,green,1.20,-1.202233789,2.48
+November,Corporate,+29%,2.36,green,0.54,-0.537605742,1.82
+November,Home Office,+21%,1.81,green,0.32,-0.317528373,1.49
+December,Consumer,+43%,3.53,green,1.06,-1.055698786,2.48
+December,Corporate,+21%,2.21,green,0.39,-0.390189329,1.82
+December,Home Office,+4%,1.55,green,0.06,-0.060560703,1.49

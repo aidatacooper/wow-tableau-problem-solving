@@ -1,0 +1,60 @@
+{
+  "checked_at": "2026-10-02T12:14:01.099523+00:00",
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "browser_interaction_required_for_this_acceptance": false,
+  "pass": true,
+  "replica_sha256": "e80b66a2d77a66c4599d98de7ebe712b22ae0e489ac8adf848bcc59f1c0b3621",
+  "cloud_capture_sha256": "e80b66a2d77a66c4599d98de7ebe712b22ae0e489ac8adf848bcc59f1c0b3621",
+  "capture_matches_current_artifact": true,
+  "cloud_captured_at": "2026-10-02T11:11:46.297443+00:00",
+  "sources": {
+    "author": {
+      "image_sha256": "a8e4797c3625948253773ed69584d2669bcb84ac2e8c07f5c489202b341ff7db",
+      "csv_sha256": "62e5eaf8fe8109ac016b4f1fd96a070f43e4cbd5ca156eda564038a4934b2d8e",
+      "row_count": 24
+    },
+    "replica": {
+      "image_sha256": "8e6cc06f50d97f1d17556ea56196a7191fc93431775d1ab21e1cd9205c3f061c",
+      "csv_sha256": "7b33eb9bd97e84b8b1c7325fb4c031ec3d181ba8abe576250fda37e804644fe0",
+      "row_count": 24
+    }
+  },
+  "data_contract": {
+    "scope": "24 Custom Axis monthly marks, January 2017 through December 2018",
+    "keys_equal": true,
+    "sales_rounding_tolerance": "0.5",
+    "maximum_absolute_sales_difference": "0.491",
+    "differences_exceeding_tolerance": []
+  },
+  "visual_contract": {
+    "status": "acceptable_delta",
+    "observed": "The 24 monthly points, quarterly date labels, teal curve, and $118,448 maximum baseline agree. Small plot-height and footer-position differences remain.",
+    "pixel_identical": false
+  },
+  "action_contract": {
+    "event": "on-hover",
+    "source_dashboard": "WW36 Custom Axis Tracker",
+    "source_worksheet": "Custom Axis",
+    "source_field": "Month Order Date",
+    "target_set": "Selected Date Set",
+    "initial_membership": "empty-level",
+    "clear_behavior": "exclude-all",
+    "selected_date_formula": "IF [Selected Date Set] THEN [Month Order Date] END",
+    "sales_reference_formula": "IF [Month Order Date] = [Selected Date] THEN [Sales] END",
+    "reference_lines": [
+      "always-visible maximum sales baseline",
+      "selected date on monthly date axis",
+      "selected sales on sales axis"
+    ],
+    "invalid_mapping_mutations_rejected": 6,
+    "runtime_event_execution": "not performed; not inferred from REST exports"
+  },
+  "artifact_verifier": {
+    "exit_code": 0,
+    "stdout": "PASS: WW36 declared hover-set/reference-line contracts; 6 broken mappings rejected; browser event not executed\n",
+    "stderr": "",
+    "verifier_sha256": "70327776db87f16eaf7e384b10991c9734ae8fb1dc255705b6d9aa685a178de5"
+  },
+  "acceptance_basis": "User selected PAT/TSC Cloud REST publishing, image/data exports and artifact contracts as the acceptance workflow. Prior browser-dependent pending status is preserved in evidence/history/pre-cloud-rest-scope-acceptance."
+}

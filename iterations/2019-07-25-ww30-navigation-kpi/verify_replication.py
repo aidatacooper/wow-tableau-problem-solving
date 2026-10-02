@@ -4,6 +4,7 @@ from pathlib import Path
 import sys
 import tempfile
 import zipfile
+from hashlib import sha256
 
 from lxml import etree
 
@@ -33,7 +34,8 @@ def load_root(path: Path) -> etree._Element:
             twbs = [name for name in names if name.lower().endswith(".twb")]
             assert len(twbs) == 1
             hypers = [name for name in names if name.lower().endswith(".hyper")]
-            assert hypers == ["Data/Datasources/Orders (Sample - Superstore).hyper"]
+            assert len(hypers) == 1 and Path(hypers[0]).name == 'Orders (Sample - Superstore).hyper'
+            assert sha256(archive.read(hypers[0])).digest() == sha256((ITERATION_DIR / "inputs" / 'Orders (Sample - Superstore).hyper').read_bytes()).digest()
             return etree.fromstring(archive.read(twbs[0]))
     return etree.parse(str(path)).getroot()
 
@@ -71,6 +73,11 @@ def assert_acceptance(root: etree._Element) -> None:
         worksheet = root.find(f"./worksheets/worksheet[@name='{sheet}']")
         assert worksheet.find(".//mark").get("class") == "Bar"
         assert worksheet.find(".//encodings/text") is not None
+        pane = worksheet.find("table/panes/pane")
+        assert len(pane.findall("customized-label/formatted-text/run")) == 3
+        assert pane.find("style/style-rule[@element='cell']/format[@attr='text-align'][@value='left']") is not None
+        assert worksheet.find("table/style/style-rule[@element='cell']/format[@attr='height']").get("value") in {"30", "33"}
+        assert worksheet.find("table/style/style-rule[@element='axis']/format[@attr='display'][@value='false']") is not None
 
     actions = root.findall("./actions/nav-action")
     assert len(actions) == 4
@@ -78,7 +85,14 @@ def assert_acceptance(root: etree._Element) -> None:
     for action in actions:
         source = action.find("source")
         assert source.get("dashboard") == "4 Box KPI"
+        assert source.get("type") == "sheet"
+        assert action.find("activation").get("type") == "on-select"
         target = action.find("./params/param[@name='sheet']")
+        assert source.get("worksheet") not in actual_navigation, "Each KPI must map once"
+        assert target.get("value") in dashboards
+        target_name = target.get("value")
+        target_window = root.find(f"./windows/window[@class='dashboard'][@name='{target_name}']/simple-id")
+        assert target_window is not None and target_window.get("uuid")
         actual_navigation[source.get("worksheet")] = target.get("value")
     assert actual_navigation == EXPECTED_NAVIGATION
 
@@ -87,15 +101,21 @@ def assert_acceptance(root: etree._Element) -> None:
         zone.get("name") for zone in main.findall(".//zone[@name]")
     } >= {"Customers", "Products", "Orders", "Cities"}
 
-    main_id = main.find("./simple-id").get("uuid")
+    main_id = root.find("./windows/window[@class='dashboard'][@name='4 Box KPI']/simple-id").get("uuid")
     for dashboard in expected_dashboards - {"4 Box KPI"}:
         node = root.find(f"./dashboards/dashboard[@name='{dashboard}']")
         button = node.find(".//zone[@type='dashboard-object']/button")
         assert button is not None
         assert button.get("action") == f"tabdoc:goto-sheet window-id=\"{main_id}\""
         assert "GO BACK" in "".join(button.itertext())
+        expected_color = {"Customer Sales": "#57a337", "Product Sales": "#fc719e", "Order Sales": "#8076ba", "City Sales": "#1ba3c6"}[dashboard]
+        assert button.find("button-visual-state/format[@attr='background-color']").get("value").lower() == expected_color
+        zone = next(z for z in node.findall(".//zone[@name]") if z.get("name").startswith("by "))
+        cache = zone.find("layout-cache")
+        assert cache.get("type-h") == "cell" and cache.get("type-w") == "scalable", "Details must scroll naturally and fit only width"
 
 
+# case-functional-contract: explicit assertions plus independent data and SDK round-trip.
 def main() -> None:
     for output in (OUTPUT_TWB, OUTPUT_TWBX):
         assert output.exists()

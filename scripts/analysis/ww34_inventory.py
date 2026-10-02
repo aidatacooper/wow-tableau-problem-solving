@@ -3,8 +3,8 @@ import json, sys, zipfile
 from pathlib import Path
 from lxml import etree
 
-ITER = Path(__file__).resolve().parent
-LAB = ITER.parents[1]
+LAB = Path(__file__).resolve().parents[2]
+ITER = LAB / "iterations" / "2019-09-02-ww34-top-n-single-worksheet"
 SRC = LAB / "dashboards" / "2019_08_21_WW34_TopN_SingleWorksheet" / "2019_08_21_WW34_TopN_SingleWorksheet.twbx"
 
 def load_root(path):

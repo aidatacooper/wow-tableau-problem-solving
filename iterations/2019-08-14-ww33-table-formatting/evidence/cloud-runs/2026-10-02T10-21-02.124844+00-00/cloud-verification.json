@@ -1,0 +1,77 @@
+{
+  "case_id": "wow-2019-ww33-table-formatting",
+  "iteration_id": "2019-08-14-ww33-table-formatting",
+  "captured_at": "2026-10-02T10:21:02.124844+00:00",
+  "source_hashes": {
+    "author": "528e6ec0d78b4b788b63382d1bb62d2574ed04fba56dbe593e8823ca31cb7114",
+    "replica": "73232807e3c293d491ec3bc043d4b1c6cba84e5d8b928c50e254fbf66cc646ff"
+  },
+  "request_settings": {
+    "case_id": "wow-2019-ww33-table-formatting",
+    "iteration_id": "2019-08-14-ww33-table-formatting",
+    "author_workbook_path": "/srv/hermes-workspaces/wow-reference/wow-2019-ww33-table-formatting/2019_08_14_WW33_Table_Formatting.twbx",
+    "replica_workbook_path": "/srv/hermes-workspaces/wow-case-standardization/iterations/2019-08-14-ww33-table-formatting/outputs/replicated-workbook.twbx",
+    "author_view_name": "2019_08_14_WW33_Table_Formatting",
+    "replica_view_name": "WW33 Table Formatting",
+    "_request_file": "/srv/hermes-workspaces/wow-cloud-queue/wow-2019-ww33-table-formatting.json"
+  },
+  "workbooks": {
+    "author": {
+      "id": "a1c0721e-703d-4e6c-9026-a5e7ce3b4c5c",
+      "name": "cwtwb-review-wow-2019-ww33-table-formatting-author",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2922812"
+    },
+    "replica": {
+      "id": "903f2289-7777-424a-957a-b6e2df9da082",
+      "name": "cwtwb-review-wow-2019-ww33-table-formatting-replica",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2922813"
+    }
+  },
+  "export_resolution": "high",
+  "maxage_minutes": 1,
+  "status": "rendered_needs_visual_and_interaction_review",
+  "states": [
+    {
+      "name": "default",
+      "filters": {},
+      "parameters": {},
+      "views": {
+        "author": {
+          "id": "ff1f2d22-a479-4f4a-bb4a-5310f6a0f82b",
+          "name": "2019_08_14_WW33_Table_Formatting",
+          "path": "cloud-author.png",
+          "size": [
+            1800,
+            1200
+          ],
+          "sha256": "e55ccf856acb44da544d8801e17a4bc66d1638d6425e50391ea661f541d3410d"
+        },
+        "replica": {
+          "id": "dee7195c-c66d-42a0-8b6f-5b57c3f51e24",
+          "name": "WW33 Table Formatting",
+          "path": "cloud-replica.png",
+          "size": [
+            1800,
+            1200
+          ],
+          "sha256": "03a0f609a3363b55c156e200bdcd1aefe0344772002a6598357d92ac19ffaecd"
+        }
+      },
+      "comparison": {
+        "same_dimensions": true,
+        "author_size": [
+          1800,
+          1200
+        ],
+        "replica_size": [
+          1800,
+          1200
+        ],
+        "mean_absolute_channel_difference_0_to_255": 19.767238425925928,
+        "pixel_identical": false
+      }
+    }
+  ],
+  "visual_status": "not_evaluated",
+  "interaction_status": "not_evaluated"
+}

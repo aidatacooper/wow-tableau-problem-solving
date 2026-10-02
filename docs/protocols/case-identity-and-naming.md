@@ -100,3 +100,31 @@ Canonical consumed counts include each record once, while selection and dataset
 verification accept the recorded Donna aliases without changing source IDs or
 the dataset source schema. Invalid alias targets or conflicting mappings are
 errors, not permission to exclude an unrelated source article.
+
+### Consumed selection and completion status
+
+A consumed case is reserved by its canonical identity and aliases, even when
+`functional_status` is `partial`. Future selection excludes both identities;
+selection must not promote its replication status. Generated registry statuses
+reflect the corresponding `case.yaml` value. Regression coverage compares the
+current registry against metadata and includes a synthetic partial consumed case
+that remains excluded without changing its status.
+
+### CI rebuild evidence
+
+CI installs the explicitly pinned Hyper API dependency and rebuilds each changed
+schema 1.1 case in a disposable copy. Copied workbook outputs are removed before
+building, so a verifier cannot pass on an older accepted artifact. Builder and
+verifier failures propagate, and temporary files are cleaned on either outcome.
+Cloud screenshots and published workbook bytes in the contribution remain intact.
+Direct `validate_iteration.py` retains its normal authoring/build behavior.
+
+Schema 1.1 cases enforce public SDK construction through AST checks unless
+explicitly recorded as `verification_status: historical`. The ten cases migrated
+in this contribution are all nonhistorical and enforce the new contract. Historical
+schema 1.0 contributions and explicitly historical records retain their existing
+author-file dependency checks; legacy summaries remain metadata-only. Migration
+to a nonhistorical 1.1 record activates the stricter SDK contract without
+retroactively rewriting unrelated historical builds. Temporary workbook aliases
+used by old verifiers resolve to fresh rebuilt bytes and are removed before the
+final artifact identity check.

@@ -1,0 +1,84 @@
+schema_version: legacy-summary-1.0
+case_id: wow-2019-ww34-top-n-single-worksheet
+iteration_id: 2019-09-02-ww34-top-n-single-worksheet
+status: completed
+replication_status: semantically_replicated
+from_scratch: true
+replication_mode: from_scratch
+
+inputs:
+  article: posts/2019-09-02-Can_you_build_a_Top_N_Bar_Chart_on_a_Single_Worksheet.html
+  source_workbook: dashboards/2019_08_21_WW34_TopN_SingleWorksheet/2019_08_21_WW34_TopN_SingleWorksheet.twbx
+  validation_env: C:/Users/imgwho/Desktop/projects/20260227-cwtwb/.env
+
+constraints:
+  preserve_original_hyper: true                  # Reuse of the author's original data is allowed.
+  source_workbook_may_be_read_during_analysis: true
+  source_workbook_may_be_used_as_build_template: false   # The author TWB/TWBX is not a build template.
+  maximum_visible_worksheets: 2                  # One visible Viz sheet plus an optional hidden audit sheet.
+
+stages:
+  source_lock: completed
+  inventory: completed
+  problem_model: completed
+  solution_graph: completed
+  replication_spec: completed
+  capability_audit: completed
+  build: completed
+  verification: completed
+
+# Maintainer identity migration; historical evidence remains immutable.
+legacy_case_ids:
+  donna-2019-09-02-0574e1681ed3: wow-2019-ww34-top-n-single-worksheet
+article_date: '2019-09-02'
+challenge_year: 2019
+challenge_week: 34
+challenge_date: '2019-08-21'
+date_evidence:
+  article_date: index.json publication date; matches preserved folder
+  challenge: Existing formal folder year and WW token; retained challenge identity
+  challenge_date: Official WoW WordPress publication date; docs/protocols/challenge-date-sources.json
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/week-34-can-you-build-a-top-n-bar-chart-on-a-single-worksheet/
+    wordpress_post_id: 2891
+  article:
+    url: https://donnacoles.home.blog/2019/09/02/can-you-build-a-top-n-bar-chart-on-a-single-worksheet/
+    path: posts/2019-09-02-Can_you_build_a_Top_N_Bar_Chart_on_a_Single_Worksheet.html
+    sha256: EB3EBA2BAD0959C458AF0E6262776BCE43A756C41599459613813D2167AD7403
+  workbook:
+    url: https://public.tableau.com/views/2019_08_21_WW34_TopN_SingleWorksheet/2019_08_21_WW34_TopN_Single_Sheet
+    path: dashboards/2019_08_21_WW34_TopN_SingleWorksheet/2019_08_21_WW34_TopN_SingleWorksheet.twbx
+    filename: 2019_08_21_WW34_TopN_SingleWorksheet.twbx
+    sha256: 06525AAF92CDFD29E1CF604C25616A8177A4C09AF7AE32955045953A53504385
+    workbook_id: tableau-6a0f09eb8e220c36
+functional_status: replicated
+visual_status: not_evaluated
+cwtwb_result: null
+cwtwb:
+  tested_version: 0.25.0
+verification_status: historical
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: null
+  cloud_replica: null
+artifact_aliases:
+  outputs/2019-09-02-ww34-top-n-single-worksheet-replicated-workbook.twbx: outputs/replicated-workbook.twbx
+historical_artifacts:
+- path: outputs/2019-09-02-ww34-top-n-single-worksheet-replicated-workbook.twb
+  role: historical_twb_companion
+  note: Unpackaged companion retains its original name and bytes; primary packaged output is replicated-workbook.twbx.
+evidence:
+- evidence/build-provenance.json
+- evidence/source-lock.json
+- evidence/validation.json
+- evidence/workbook-inventory.json
+notes:
+- Identity/path migration only; no rebuild, retest of visuals, or Cloud publishing. Historical evidence
+  IDs and hash-keyed filenames resolve through legacy_case_ids and artifact_aliases.
+- Source archive paths may be unavailable in a clean checkout; URL and locked hash identify the original
+  source. Null hashes/SDK results mean unknown, not inferred success.
+- No confidently identified primary author screenshot.
+- Grandfathered identity/summary metadata only. Historical verification is not v1 acceptance certification;
+  historical builders may read author data carriers and must be migrated separately before v1 rebuild
+  validation.

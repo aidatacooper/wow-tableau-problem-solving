@@ -1,0 +1,17 @@
+{
+  "checked_at": "2026-10-02T12:19:11.949444+00:00",
+  "command": [
+    "/srv/hermes-workspaces/wow-ci-python311-validation/.venv-ci/bin/python3.11",
+    "/srv/hermes-workspaces/wow-case-standardization/iterations/2026-02-15-ww06-null-safe-averages/verify_replication.py"
+  ],
+  "exit_code": 0,
+  "stdout": "PASS: from-scratch, locked Hyper, null-safe count, Sunday matrix, average subtotal, three action definitions and round-trip; action mappings checked structurally, browser clicks not executed\n",
+  "stderr": "",
+  "sdk_version": "0.27.1",
+  "sdk_commit": "2ad7b6ca4f0f3a0b8731e50b4932ac21ffbcdc73",
+  "builder_sha256": "52a6616efb5b07aa5c354e3d9c4629850da80f8bd2cf6da0fb3d67214f0a3887",
+  "replica_sha256": "61efd92f4e521da125e305cdd6692bf74571da7e487226c8aafdfc5f08b38643",
+  "scope": "Actual Apply-only REST CSV, independent Hyper matrix calculations and exact artifact actions; no browser clicks and no rebuild.",
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false
+}

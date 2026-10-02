@@ -1,0 +1,1030 @@
+{
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "checked_at": "2026-10-02T12:20:55.205464+00:00",
+  "hyper_sha256": "39c9fc034d0c0490131f027f591cbdf2abc576d071b192005d412aaaee4bc787",
+  "passed": true,
+  "scope": "Independent Hyper COUNTD conditional/date/Category and Sunday-first mean-of-detail calculations. Matrix visual equality separately documented in visual-review.json; no matrix CSV exported.",
+  "states": [
+    {
+      "name": "default",
+      "min_date": "2025-07-11",
+      "max_date": "2025-07-23",
+      "category": null,
+      "rows": [
+        {
+          "category": "Furniture",
+          "sub_category": "Bookcases",
+          "Sunday_first_counts": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "labels": [
+            "*0",
+            "1",
+            "*0",
+            "*0",
+            "1",
+            "*0",
+            "*0"
+          ]
+        },
+        {
+          "category": "Furniture",
+          "sub_category": "Chairs",
+          "Sunday_first_counts": [
+            2,
+            1,
+            2,
+            2,
+            0,
+            2,
+            0
+          ],
+          "labels": [
+            "2",
+            "1",
+            "2",
+            "2",
+            "*0",
+            "2",
+            "*0"
+          ]
+        },
+        {
+          "category": "Furniture",
+          "sub_category": "Furnishings",
+          "Sunday_first_counts": [
+            3,
+            3,
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          "labels": [
+            "3",
+            "3",
+            "*0",
+            "*0",
+            "2",
+            "*0",
+            "*0"
+          ]
+        },
+        {
+          "category": "Furniture",
+          "sub_category": "Tables",
+          "Sunday_first_counts": [
+            0,
+            1,
+            2,
+            0,
+            0,
+            1,
+            0
+          ],
+          "labels": [
+            "*0",
+            "1",
+            "2",
+            "*0",
+            "*0",
+            "1",
+            "*0"
+          ]
+        },
+        {
+          "category": "Furniture",
+          "subtotal": "Avg.",
+          "Sunday_first_average": [
+            1.25,
+            1.5,
+            1.0,
+            0.5,
+            0.75,
+            0.75,
+            0.0
+          ],
+          "formatted": [
+            "1.25",
+            "1.50",
+            "1.00",
+            "0.50",
+            "0.75",
+            "0.75",
+            "*0.00"
+          ]
+        },
+        {
+          "category": "Office Supplies",
+          "sub_category": "Appliances",
+          "Sunday_first_counts": [
+            1,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "labels": [
+            "1",
+            "1",
+            "1",
+            "*0",
+            "*0",
+            "1",
+            "*0"
+          ]
+        },
+        {
+          "category": "Office Supplies",
+          "sub_category": "Art",
+          "Sunday_first_counts": [
+            0,
+            5,
+            1,
+            3,
+            0,
+            1,
+            0
+          ],
+          "labels": [
+            "*0",
+            "5",
+            "1",
+            "3",
+            "*0",
+            "1",
+            "*0"
+          ]
+        },
+        {
+          "category": "Office Supplies",
+          "sub_category": "Binders",
+          "Sunday_first_counts": [
+            2,
+            6,
+            1,
+            3,
+            0,
+            2,
+            0
+          ],
+          "labels": [
+            "2",
+            "6",
+            "1",
+            "3",
+            "*0",
+            "2",
+            "*0"
+          ]
+        },
+        {
+          "category": "Office Supplies",
+          "sub_category": "Envelopes",
+          "Sunday_first_counts": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "labels": [
+            "*0",
+            "*0",
+            "*0",
+            "*0",
+            "1",
+            "*0",
+            "*0"
+          ]
+        },
+        {
+          "category": "Office Supplies",
+          "sub_category": "Fasteners",
+          "Sunday_first_counts": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "labels": [
+            "*0",
+            "1",
+            "*0",
+            "*0",
+            "*0",
+            "*0",
+            "*0"
+          ]
+        },
+        {
+          "category": "Office Supplies",
+          "sub_category": "Labels",
+          "Sunday_first_counts": [
+            1,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0
+          ],
+          "labels": [
+            "1",
+            "*0",
+            "1",
+            "1",
+            "*0",
+            "1",
+            "*0"
+          ]
+        },
+        {
+          "category": "Office Supplies",
+          "sub_category": "Paper",
+          "Sunday_first_counts": [
+            2,
+            3,
+            2,
+            2,
+            2,
+            1,
+            1
+          ],
+          "labels": [
+            "2",
+            "3",
+            "2",
+            "2",
+            "2",
+            "1",
+            "1"
+          ]
+        },
+        {
+          "category": "Office Supplies",
+          "sub_category": "Storage",
+          "Sunday_first_counts": [
+            2,
+            2,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "labels": [
+            "2",
+            "2",
+            "*0",
+            "*0",
+            "1",
+            "*0",
+            "*0"
+          ]
+        },
+        {
+          "category": "Office Supplies",
+          "sub_category": "Supplies",
+          "Sunday_first_counts": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "labels": [
+            "*0",
+            "1",
+            "*0",
+            "*0",
+            "*0",
+            "1",
+            "*0"
+          ]
+        },
+        {
+          "category": "Office Supplies",
+          "subtotal": "Avg.",
+          "Sunday_first_average": [
+            0.8888888888888888,
+            2.111111111111111,
+            0.6666666666666666,
+            1.0,
+            0.4444444444444444,
+            0.7777777777777778,
+            0.1111111111111111
+          ],
+          "formatted": [
+            "0.89",
+            "2.11",
+            "0.67",
+            "1.00",
+            "0.44",
+            "0.78",
+            "0.11"
+          ]
+        },
+        {
+          "category": "Technology",
+          "sub_category": "Accessories",
+          "Sunday_first_counts": [
+            1,
+            1,
+            1,
+            2,
+            0,
+            2,
+            0
+          ],
+          "labels": [
+            "1",
+            "1",
+            "1",
+            "2",
+            "*0",
+            "2",
+            "*0"
+          ]
+        },
+        {
+          "category": "Technology",
+          "sub_category": "Copiers",
+          "Sunday_first_counts": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "labels": [
+            "*0",
+            "*0",
+            "*0",
+            "*0",
+            "1",
+            "1",
+            "*0"
+          ]
+        },
+        {
+          "category": "Technology",
+          "sub_category": "Machines",
+          "Sunday_first_counts": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "labels": [
+            "*0",
+            "*0",
+            "*0",
+            "*0",
+            "*0",
+            "*0",
+            "*0"
+          ]
+        },
+        {
+          "category": "Technology",
+          "sub_category": "Phones",
+          "Sunday_first_counts": [
+            1,
+            6,
+            1,
+            0,
+            1,
+            1,
+            0
+          ],
+          "labels": [
+            "1",
+            "6",
+            "1",
+            "*0",
+            "1",
+            "1",
+            "*0"
+          ]
+        },
+        {
+          "category": "Technology",
+          "subtotal": "Avg.",
+          "Sunday_first_average": [
+            0.5,
+            1.75,
+            0.5,
+            0.5,
+            0.5,
+            1.0,
+            0.0
+          ],
+          "formatted": [
+            "0.50",
+            "1.75",
+            "0.50",
+            "0.50",
+            "0.50",
+            "1.00",
+            "*0.00"
+          ]
+        }
+      ],
+      "independent_SQL_vs_Python_equal": true,
+      "sql": "SELECT \"Category\", \"Sub-Category\", MOD(EXTRACT(DOW FROM \"Order Date\")::int,7), COUNT(DISTINCT \"Order ID\") FROM \"Extract\".\"Extract\" WHERE \"Order Date\" >= DATE '2025-07-11' AND \"Order Date\" <= DATE '2025-07-23'  GROUP BY 1,2,3"
+    },
+    {
+      "name": "short-date-range",
+      "min_date": "2025-07-14",
+      "max_date": "2025-07-18",
+      "category": null,
+      "rows": [
+        {
+          "category": "Furniture",
+          "sub_category": "Bookcases",
+          "Sunday_first_counts": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "labels": [
+            "*0",
+            "*0",
+            "*0",
+            "*0",
+            "1",
+            "*0",
+            "*0"
+          ]
+        },
+        {
+          "category": "Furniture",
+          "sub_category": "Chairs",
+          "Sunday_first_counts": [
+            0,
+            0,
+            1,
+            2,
+            0,
+            2,
+            0
+          ],
+          "labels": [
+            "*0",
+            "*0",
+            "1",
+            "2",
+            "*0",
+            "2",
+            "*0"
+          ]
+        },
+        {
+          "category": "Furniture",
+          "sub_category": "Furnishings",
+          "Sunday_first_counts": [
+            0,
+            2,
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          "labels": [
+            "*0",
+            "2",
+            "*0",
+            "*0",
+            "2",
+            "*0",
+            "*0"
+          ]
+        },
+        {
+          "category": "Furniture",
+          "sub_category": "Tables",
+          "Sunday_first_counts": [
+            0,
+            0,
+            2,
+            0,
+            0,
+            1,
+            0
+          ],
+          "labels": [
+            "*0",
+            "*0",
+            "2",
+            "*0",
+            "*0",
+            "1",
+            "*0"
+          ]
+        },
+        {
+          "category": "Furniture",
+          "subtotal": "Avg.",
+          "Sunday_first_average": [
+            0.0,
+            0.5,
+            0.75,
+            0.5,
+            0.75,
+            0.75,
+            0.0
+          ],
+          "formatted": [
+            "*0.00",
+            "0.50",
+            "0.75",
+            "0.50",
+            "0.75",
+            "0.75",
+            "*0.00"
+          ]
+        },
+        {
+          "category": "Office Supplies",
+          "sub_category": "Appliances",
+          "Sunday_first_counts": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "labels": [
+            "*0",
+            "*0",
+            "1",
+            "*0",
+            "*0",
+            "*0",
+            "*0"
+          ]
+        },
+        {
+          "category": "Office Supplies",
+          "sub_category": "Art",
+          "Sunday_first_counts": [
+            0,
+            2,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "labels": [
+            "*0",
+            "2",
+            "1",
+            "1",
+            "*0",
+            "*0",
+            "*0"
+          ]
+        },
+        {
+          "category": "Office Supplies",
+          "sub_category": "Binders",
+          "Sunday_first_counts": [
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "labels": [
+            "*0",
+            "1",
+            "1",
+            "*0",
+            "*0",
+            "1",
+            "*0"
+          ]
+        },
+        {
+          "category": "Office Supplies",
+          "sub_category": "Envelopes",
+          "Sunday_first_counts": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "labels": [
+            "*0",
+            "*0",
+            "*0",
+            "*0",
+            "1",
+            "*0",
+            "*0"
+          ]
+        },
+        {
+          "category": "Office Supplies",
+          "sub_category": "Fasteners",
+          "Sunday_first_counts": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "labels": [
+            "*0",
+            "1",
+            "*0",
+            "*0",
+            "*0",
+            "*0",
+            "*0"
+          ]
+        },
+        {
+          "category": "Office Supplies",
+          "sub_category": "Labels",
+          "Sunday_first_counts": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "labels": [
+            "*0",
+            "*0",
+            "1",
+            "*0",
+            "*0",
+            "*0",
+            "*0"
+          ]
+        },
+        {
+          "category": "Office Supplies",
+          "sub_category": "Paper",
+          "Sunday_first_counts": [
+            0,
+            1,
+            2,
+            0,
+            2,
+            1,
+            0
+          ],
+          "labels": [
+            "*0",
+            "1",
+            "2",
+            "*0",
+            "2",
+            "1",
+            "*0"
+          ]
+        },
+        {
+          "category": "Office Supplies",
+          "sub_category": "Storage",
+          "Sunday_first_counts": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "labels": [
+            "*0",
+            "1",
+            "*0",
+            "*0",
+            "1",
+            "*0",
+            "*0"
+          ]
+        },
+        {
+          "category": "Office Supplies",
+          "sub_category": "Supplies",
+          "Sunday_first_counts": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "labels": [
+            "*0",
+            "*0",
+            "*0",
+            "*0",
+            "*0",
+            "1",
+            "*0"
+          ]
+        },
+        {
+          "category": "Office Supplies",
+          "subtotal": "Avg.",
+          "Sunday_first_average": [
+            0.0,
+            0.6666666666666666,
+            0.6666666666666666,
+            0.1111111111111111,
+            0.4444444444444444,
+            0.3333333333333333,
+            0.0
+          ],
+          "formatted": [
+            "*0.00",
+            "0.67",
+            "0.67",
+            "0.11",
+            "0.44",
+            "0.33",
+            "*0.00"
+          ]
+        },
+        {
+          "category": "Technology",
+          "sub_category": "Accessories",
+          "Sunday_first_counts": [
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "labels": [
+            "*0",
+            "1",
+            "1",
+            "*0",
+            "*0",
+            "*0",
+            "*0"
+          ]
+        },
+        {
+          "category": "Technology",
+          "sub_category": "Copiers",
+          "Sunday_first_counts": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "labels": [
+            "*0",
+            "*0",
+            "*0",
+            "*0",
+            "1",
+            "1",
+            "*0"
+          ]
+        },
+        {
+          "category": "Technology",
+          "sub_category": "Machines",
+          "Sunday_first_counts": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "labels": [
+            "*0",
+            "*0",
+            "*0",
+            "*0",
+            "*0",
+            "*0",
+            "*0"
+          ]
+        },
+        {
+          "category": "Technology",
+          "sub_category": "Phones",
+          "Sunday_first_counts": [
+            0,
+            2,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "labels": [
+            "*0",
+            "2",
+            "*0",
+            "*0",
+            "1",
+            "*0",
+            "*0"
+          ]
+        },
+        {
+          "category": "Technology",
+          "subtotal": "Avg.",
+          "Sunday_first_average": [
+            0.0,
+            0.75,
+            0.25,
+            0.0,
+            0.5,
+            0.25,
+            0.0
+          ],
+          "formatted": [
+            "*0.00",
+            "0.75",
+            "0.25",
+            "*0.00",
+            "0.50",
+            "0.25",
+            "*0.00"
+          ]
+        }
+      ],
+      "independent_SQL_vs_Python_equal": true,
+      "sql": "SELECT \"Category\", \"Sub-Category\", MOD(EXTRACT(DOW FROM \"Order Date\")::int,7), COUNT(DISTINCT \"Order ID\") FROM \"Extract\".\"Extract\" WHERE \"Order Date\" >= DATE '2025-07-14' AND \"Order Date\" <= DATE '2025-07-18'  GROUP BY 1,2,3"
+    },
+    {
+      "name": "furniture-only",
+      "min_date": "2025-07-11",
+      "max_date": "2025-07-23",
+      "category": "Furniture",
+      "rows": [
+        {
+          "category": "Furniture",
+          "sub_category": "Bookcases",
+          "Sunday_first_counts": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "labels": [
+            "*0",
+            "1",
+            "*0",
+            "*0",
+            "1",
+            "*0",
+            "*0"
+          ]
+        },
+        {
+          "category": "Furniture",
+          "sub_category": "Chairs",
+          "Sunday_first_counts": [
+            2,
+            1,
+            2,
+            2,
+            0,
+            2,
+            0
+          ],
+          "labels": [
+            "2",
+            "1",
+            "2",
+            "2",
+            "*0",
+            "2",
+            "*0"
+          ]
+        },
+        {
+          "category": "Furniture",
+          "sub_category": "Furnishings",
+          "Sunday_first_counts": [
+            3,
+            3,
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          "labels": [
+            "3",
+            "3",
+            "*0",
+            "*0",
+            "2",
+            "*0",
+            "*0"
+          ]
+        },
+        {
+          "category": "Furniture",
+          "sub_category": "Tables",
+          "Sunday_first_counts": [
+            0,
+            1,
+            2,
+            0,
+            0,
+            1,
+            0
+          ],
+          "labels": [
+            "*0",
+            "1",
+            "2",
+            "*0",
+            "*0",
+            "1",
+            "*0"
+          ]
+        },
+        {
+          "category": "Furniture",
+          "subtotal": "Avg.",
+          "Sunday_first_average": [
+            1.25,
+            1.5,
+            1.0,
+            0.5,
+            0.75,
+            0.75,
+            0.0
+          ],
+          "formatted": [
+            "1.25",
+            "1.50",
+            "1.00",
+            "0.50",
+            "0.75",
+            "0.75",
+            "*0.00"
+          ]
+        }
+      ],
+      "independent_SQL_vs_Python_equal": true,
+      "sql": "SELECT \"Category\", \"Sub-Category\", MOD(EXTRACT(DOW FROM \"Order Date\")::int,7), COUNT(DISTINCT \"Order ID\") FROM \"Extract\".\"Extract\" WHERE \"Order Date\" >= DATE '2025-07-11' AND \"Order Date\" <= DATE '2025-07-23'  AND \"Category\" = 'Furniture' GROUP BY 1,2,3"
+    }
+  ]
+}

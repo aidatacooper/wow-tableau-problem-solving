@@ -1,0 +1,12 @@
+{
+  "captured_at": "2026-10-02T11:06:56.226784+00:00",
+  "reviewed_workbook_sha256": "68c7e0d635b16cb22f0044c07781248767ca53911bbf4d3ecb314bb3438a6bd8",
+  "current_workbook_sha256": "68c7e0d635b16cb22f0044c07781248767ca53911bbf4d3ecb314bb3438a6bd8",
+  "current_build_needs_recapture": false,
+  "visual_status": "acceptable_delta",
+  "observations": [
+    "Pane separator lines and vertical chart proportions differ slightly; values, marks, colors and reference baselines agree."
+  ],
+  "interaction_status": "not_required",
+  "review_method": "Manual inspection of actual side-by-side author/replica Tableau Cloud high-resolution images; CSV checked separately."
+}

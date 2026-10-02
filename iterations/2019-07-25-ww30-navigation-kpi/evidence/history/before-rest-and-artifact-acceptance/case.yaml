@@ -1,0 +1,92 @@
+schema_version: 1.1.0
+case_id: wow-2019-ww30-navigation-kpi
+iteration_id: 2019-07-25-ww30-navigation-kpi
+post: posts/2019-07-25-Creating_a_Navigating_KPI_Block.html
+legacy_case_ids:
+  donna-2019-07-25-59a0a144b25b: wow-2019-ww30-navigation-kpi
+article_date: '2019-07-25'
+challenge_year: 2019
+challenge_week: 30
+challenge_date: '2019-07-24'
+date_evidence:
+  article_date: index.json publication date; matches preserved folder
+  challenge: Existing formal folder year and WW token; retained challenge identity
+  challenge_date: Official WoW WordPress publication date; docs/protocols/challenge-date-sources.json
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/week-30-creating-a-navigating-kpi-block/
+    wordpress_post_id: 2868
+  article:
+    url: https://donnacoles.home.blog/2019/07/25/creating-a-navigating-kpi-block/
+    path: posts/2019-07-25-Creating_a_Navigating_KPI_Block.html
+    sha256: 1b5d007919fdd9d82fa773f15828e46abea9b683547cc2f66b4d1db4feb43dd2
+  workbook:
+    url: https://public.tableau.com/views/2019_07_24_WW30_Navigation_KPI/4BoxKPI
+    path: dashboards/2019_07_24_WW30_Navigation_KPI/2019_07_24_WW30_Navigation_KPI.twbx
+    filename: 2019_07_24_WW30_Navigation_KPI.twbx
+    sha256: a6d52e237288424f13d0162c4b2ee7efca7e25a55282c47ca8f6d9590bf29cd5
+    workbook_id: tableau-2dde40c2999debb2
+functional_status: partial
+visual_status: acceptable_delta
+cwtwb_result: pass
+cwtwb:
+  tested_version: 0.27.1
+  runs:
+  - version: 0.27.1
+    result: pass
+    evidence: evidence/current-functional-verification.json
+  tested_commit: 2ad7b6ca4f0f3a0b8731e50b4932ac21ffbcdc73
+verification_status: pending
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases:
+  outputs/2019-07-25-ww30-navigation-kpi-replicated-workbook.twbx: outputs/replicated-workbook.twbx
+  evidence/cwtwb-iteration-2019-07-25-ww30-navigation-kpi_4_Box_KPI.png: outputs/cloud-replica.png
+historical_artifacts:
+- path: evidence/cwtwb-iteration-2019-07-25-ww30-navigation-kpi_Customer_Sales.png
+  role: historical_auxiliary
+  note: Retained historical or additional-view artifact; not the primary replica or
+    proof of a matched pair.
+- path: outputs/2019-07-25-ww30-navigation-kpi-replicated-workbook.twb
+  role: sdk_generated_twb_companion
+  note: Current companion rebuilt from an empty workbook using public SDK APIs. Historical
+    bytes remain in baseline commit a409e3ce7f071303777854aa2c40c2838c9e4f4c.
+evidence:
+- evidence/acceptance.json
+- evidence/source-lock.json
+- evidence/validation.json
+- evidence/workbook-inventory.json
+- inputs/source-lock.json
+- evidence/current-functional-verification.json
+- evidence/cloud-verification.json
+- evidence/history/pre-ten-cloud-verification/case.yaml
+- evidence/visual-review.json
+- evidence/cloud-data-verification.json
+notes:
+- Rebuilt with cwtwb 0.27.1 using independent inputs and public high-level SDK APIs
+  only.
+- Article and official challenge dates remain the only date identities.
+- Historical locks and acceptance are preserved separately; current Cloud source hashes
+  identify refreshed author snapshots and do not certify byte identity with unavailable
+  historical author packages.
+- Cloud images and CSV are real server exports. Hover/click actions are not inferred
+  from static XML or screenshots.
+analysis_status: completed
+remaining_work:
+- 'Authenticated browser verification: click each KPI into its correct detail dashboard,
+  then GO BACK. Static render and UUID correctness do not prove actual click execution.'
+inputs:
+  data_files:
+  - inputs/Orders (Sample - Superstore).hyper
+acceptance:
+- id: case-functional-contract
+  description: Independent locked data, observable chart/calculation/action definitions,
+    packaged artifact and SDK round-trip.
+  mode: automated
+- id: cloud-state-and-visual-review
+  description: Author and replica Cloud images and CSV exports; acceptance depends
+    on recorded review, UI actions separately.
+  mode: manual
+  evidence: evidence/visual-review.json

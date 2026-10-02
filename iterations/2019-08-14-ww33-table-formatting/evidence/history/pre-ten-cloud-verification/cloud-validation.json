@@ -1,0 +1,18 @@
+{
+  "gate": "cloud_openability",
+  "passed": true,
+  "workbook_id": "aba613f9-afe1-44eb-acfb-88b852d6debf",
+  "published_name": "2019_08_14_WW33_Table_Formatting_cwtwb",
+  "semantic_validation": "passed",
+  "screenshot": "evidence/2019_08_14_WW33_Table_Formatting_cwtwb_2019_08_14_WW33_Table_Formatting.png",
+  "visual_validation": {
+    "passed": true,
+    "observed": [
+      "Sub-Category by Region sales table rendered",
+      "Region sales bar chart rendered",
+      "Region color encoding rendered",
+      "sales labels and axes rendered"
+    ],
+    "source_image_limit": "The archived source PNG is a Tableau loading-placeholder image, so pixel-level comparison is unavailable. Structural and rendered Cloud comparison was used."
+  }
+}

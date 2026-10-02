@@ -1,0 +1,22 @@
+{
+  "verified_at": "2026-10-02T11:26:56.489769+00:00",
+  "input_sha256": "b13102164f3b09ec9aea7eee9f210a49de8efee3f4b173233036031f7720f1ff",
+  "query": "WITH monthly AS (SELECT \"Artist\" AS artist, DATE_TRUNC('month',\"Concert Date\") AS month, COUNT(DISTINCT \"ConcertID\") AS concerts FROM \"Extract\".\"Extract\" GROUP BY 1,2) SELECT artist, MAX(month), SUM(concerts) FROM monthly GROUP BY artist ORDER BY artist",
+  "monthly_aggregation_results": [
+    {
+      "artist": "Ben Howard",
+      "last_concert_month": "2019-01-01 00:00:00",
+      "monthly_running_count_end": 195
+    },
+    {
+      "artist": "Ed Sheeran",
+      "last_concert_month": "2019-08-01 00:00:00",
+      "monthly_running_count_end": 946
+    }
+  ],
+  "expected": {
+    "Ben Howard": 195,
+    "Ed Sheeran": 946
+  },
+  "scope": "Actual independent Hyper monthly aggregation; proves data endpoint expected values, not rendered visibility or browser hover actions"
+}

@@ -70,12 +70,12 @@
         }
       },
       "functional_status": "replicated",
-      "visual_status": "not_evaluated",
-      "verification_status": "historical",
-      "cwtwb_result": null,
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "pass",
       "artifacts": {
         "primary_workbook": "outputs/replicated-workbook.twbx",
-        "cloud_author": null,
+        "cloud_author": "outputs/cloud-author.png",
         "cloud_replica": "outputs/cloud-replica.png"
       },
       "artifact_aliases": {
@@ -85,26 +85,31 @@
       "historical_artifacts": [
         {
           "path": "outputs/2019-07-18-ww29-high-orders-replicated-workbook.twb",
-          "role": "historical_twb_companion",
-          "note": "Unpackaged companion retains its original name and bytes; primary packaged output is replicated-workbook.twbx."
+          "role": "sdk_generated_twb_companion",
+          "note": "Current companion rebuilt from an empty workbook using public SDK APIs. Historical bytes remain in baseline commit a409e3ce7f071303777854aa2c40c2838c9e4f4c."
         }
       ],
       "evidence": [
         "evidence/acceptance.json",
         "evidence/source-lock.json",
         "evidence/validation.json",
-        "evidence/workbook-inventory.json"
+        "evidence/workbook-inventory.json",
+        "inputs/source-lock.json",
+        "evidence/current-functional-verification.json",
+        "evidence/cloud-verification.json",
+        "evidence/history/pre-ten-cloud-verification/case.yaml",
+        "evidence/visual-review.json",
+        "evidence/cloud-data-comparison.json"
       ],
       "notes": [
-        "Identity/path migration only; no rebuild, retest of visuals, or Cloud publishing. Historical evidence IDs and hash-keyed filenames resolve through legacy_case_ids and artifact_aliases.",
-        "Source archive paths may be unavailable in a clean checkout; URL and locked hash identify the original source. Null hashes/SDK results mean unknown, not inferred success.",
-        "No confidently identified primary author screenshot.",
-        "Grandfathered identity/summary metadata only. Historical verification is not v1 acceptance certification; historical builders may read author data carriers and must be migrated separately before v1 rebuild validation.",
-        "Original consumed status, commits, capabilities and reason retained verbatim in usage/history/consumed-cases-before-standardization.json; current summaries come only from this case.yaml."
+        "Rebuilt with cwtwb 0.27.1 using independent inputs and public high-level SDK APIs only.",
+        "Article and official challenge dates remain the only date identities.",
+        "Historical locks and acceptance are preserved separately; current Cloud source hashes identify refreshed author snapshots and do not certify byte identity with unavailable historical author packages.",
+        "Cloud images and CSV are real server exports. Hover/click actions are not inferred from static XML or screenshots."
       ],
       "metadata": "iterations/2019-07-18-ww29-high-orders/case.yaml",
-      "metadata_contract": "legacy-summary-1.0",
-      "tested_sdk_version": "0.24.0"
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.27.1"
     },
     {
       "case_id": "wow-2019-ww30-navigation-kpi",
@@ -140,12 +145,12 @@
         }
       },
       "functional_status": "replicated",
-      "visual_status": "not_evaluated",
-      "verification_status": "historical",
-      "cwtwb_result": null,
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "pass",
       "artifacts": {
         "primary_workbook": "outputs/replicated-workbook.twbx",
-        "cloud_author": null,
+        "cloud_author": "outputs/cloud-author.png",
         "cloud_replica": "outputs/cloud-replica.png"
       },
       "artifact_aliases": {
@@ -160,26 +165,33 @@
         },
         {
           "path": "outputs/2019-07-25-ww30-navigation-kpi-replicated-workbook.twb",
-          "role": "historical_twb_companion",
-          "note": "Unpackaged companion retains its original name and bytes; primary packaged output is replicated-workbook.twbx."
+          "role": "sdk_generated_twb_companion",
+          "note": "Current companion rebuilt from an empty workbook using public SDK APIs. Historical bytes remain in baseline commit a409e3ce7f071303777854aa2c40c2838c9e4f4c."
         }
       ],
       "evidence": [
         "evidence/acceptance.json",
         "evidence/source-lock.json",
         "evidence/validation.json",
-        "evidence/workbook-inventory.json"
+        "evidence/workbook-inventory.json",
+        "inputs/source-lock.json",
+        "evidence/current-functional-verification.json",
+        "evidence/cloud-verification.json",
+        "evidence/history/pre-ten-cloud-verification/case.yaml",
+        "evidence/visual-review.json",
+        "evidence/cloud-data-verification.json",
+        "evidence/action-contract-verification.json"
       ],
       "notes": [
-        "Identity/path migration only; no rebuild, retest of visuals, or Cloud publishing. Historical evidence IDs and hash-keyed filenames resolve through legacy_case_ids and artifact_aliases.",
-        "Source archive paths may be unavailable in a clean checkout; URL and locked hash identify the original source. Null hashes/SDK results mean unknown, not inferred success.",
-        "No confidently identified primary author screenshot.",
-        "Grandfathered identity/summary metadata only. Historical verification is not v1 acceptance certification; historical builders may read author data carriers and must be migrated separately before v1 rebuild validation.",
-        "Original consumed status, commits, capabilities and reason retained verbatim in usage/history/consumed-cases-before-standardization.json; current summaries come only from this case.yaml."
+        "Rebuilt with cwtwb 0.27.1 using independent inputs and public high-level SDK APIs only.",
+        "Article and official challenge dates remain the only date identities.",
+        "Historical locks and acceptance are preserved separately; current Cloud source hashes identify refreshed author snapshots and do not certify byte identity with unavailable historical author packages.",
+        "Cloud images and CSV are real server exports. Hover/click actions are not inferred from static XML or screenshots.",
+        "Accepted using Cloud REST and artifact contracts at user direction; browser_interaction_executed=false. Earlier click/hover pending notes preserved in evidence/history/before-rest-and-artifact-acceptance."
       ],
       "metadata": "iterations/2019-07-25-ww30-navigation-kpi/case.yaml",
-      "metadata_contract": "legacy-summary-1.0",
-      "tested_sdk_version": "0.24.0"
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.27.1"
     },
     {
       "case_id": "wow-2019-ww31-hub-spoke-map",
@@ -215,12 +227,12 @@
         }
       },
       "functional_status": "replicated",
-      "visual_status": "not_evaluated",
-      "verification_status": "historical",
-      "cwtwb_result": null,
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "pass",
       "artifacts": {
         "primary_workbook": "outputs/replicated-workbook.twbx",
-        "cloud_author": null,
+        "cloud_author": "outputs/cloud-author.png",
         "cloud_replica": "outputs/cloud-replica.png"
       },
       "artifact_aliases": {
@@ -400,26 +412,36 @@
         },
         {
           "path": "outputs/2019-08-04-ww31-hub-spoke-map-replicated-workbook.twb",
-          "role": "historical_twb_companion",
-          "note": "Unpackaged companion retains its original name and bytes; primary packaged output is replicated-workbook.twbx."
+          "role": "sdk_generated_twb_companion",
+          "note": "Current companion rebuilt from an empty workbook using public SDK APIs. Historical bytes remain in baseline commit a409e3ce7f071303777854aa2c40c2838c9e4f4c."
         }
       ],
       "evidence": [
         "evidence/acceptance.json",
         "evidence/source-lock.json",
         "evidence/validation.json",
-        "evidence/workbook-inventory.json"
+        "evidence/workbook-inventory.json",
+        "inputs/source-lock.json",
+        "evidence/current-functional-verification.json",
+        "evidence/cloud-verification.json",
+        "evidence/history/pre-ten-cloud-verification/case.yaml",
+        "evidence/visual-review.json",
+        "evidence/wordcloud-filter-data.json",
+        "evidence/scope-acceptance.json",
+        "evidence/acceptance-history/browser-ui-protocol/case.yaml",
+        "evidence/acceptance-history/browser-ui-protocol/visual-review.json",
+        "evidence/acceptance-history/browser-ui-protocol/current-functional-verification.json"
       ],
       "notes": [
-        "Identity/path migration only; no rebuild, retest of visuals, or Cloud publishing. Historical evidence IDs and hash-keyed filenames resolve through legacy_case_ids and artifact_aliases.",
-        "Source archive paths may be unavailable in a clean checkout; URL and locked hash identify the original source. Null hashes/SDK results mean unknown, not inferred success.",
-        "No confidently identified primary author screenshot.",
-        "Grandfathered identity/summary metadata only. Historical verification is not v1 acceptance certification; historical builders may read author data carriers and must be migrated separately before v1 rebuild validation.",
-        "Original consumed status, commits, capabilities and reason retained verbatim in usage/history/consumed-cases-before-standardization.json; current summaries come only from this case.yaml."
+        "Rebuilt with cwtwb 0.27.1 using independent inputs and public high-level SDK APIs only.",
+        "Article and official challenge dates remain the only date identities.",
+        "Historical locks and acceptance are preserved separately; current Cloud source hashes identify refreshed author snapshots and do not certify byte identity with unavailable historical author packages.",
+        "Cloud images and CSV are real server exports. Hover/click actions are not inferred from static XML or screenshots.",
+        "Accepted under cloud_rest_and_artifact_contracts: real Cloud exports and executable artifact/locked-Hyper contracts. Browser events not executed; prior browser protocol preserved in evidence/acceptance-history/browser-ui-protocol/."
       ],
       "metadata": "iterations/2019-08-04-ww31-hub-spoke-map/case.yaml",
-      "metadata_contract": "legacy-summary-1.0",
-      "tested_sdk_version": "0.24.0"
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.27.1"
     },
     {
       "case_id": "wow-2019-ww32-step-area-chart",
@@ -455,12 +477,12 @@
         }
       },
       "functional_status": "replicated",
-      "visual_status": "not_evaluated",
-      "verification_status": "historical",
-      "cwtwb_result": null,
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "pass",
       "artifacts": {
         "primary_workbook": "outputs/replicated-workbook.twbx",
-        "cloud_author": null,
+        "cloud_author": "outputs/cloud-author.png",
         "cloud_replica": "outputs/cloud-replica.png"
       },
       "artifact_aliases": {
@@ -480,25 +502,30 @@
         },
         {
           "path": "outputs/2019-08-09-ww32-step-area-chart-replicated-workbook.twb",
-          "role": "historical_twb_companion",
-          "note": "Unpackaged companion retains its original name and bytes; primary packaged output is replicated-workbook.twbx."
+          "role": "sdk_generated_twb_companion",
+          "note": "Current companion rebuilt from an empty workbook using public SDK APIs. Historical bytes remain in baseline commit a409e3ce7f071303777854aa2c40c2838c9e4f4c."
         }
       ],
       "evidence": [
         "evidence/source-lock.json",
         "evidence/validation.json",
-        "evidence/workbook-inventory.json"
+        "evidence/workbook-inventory.json",
+        "inputs/source-lock.json",
+        "evidence/current-functional-verification.json",
+        "evidence/cloud-verification.json",
+        "evidence/history/pre-ten-cloud-verification/case.yaml",
+        "evidence/visual-review.json",
+        "evidence/cloud-data-comparison.json"
       ],
       "notes": [
-        "Identity/path migration only; no rebuild, retest of visuals, or Cloud publishing. Historical evidence IDs and hash-keyed filenames resolve through legacy_case_ids and artifact_aliases.",
-        "Source archive paths may be unavailable in a clean checkout; URL and locked hash identify the original source. Null hashes/SDK results mean unknown, not inferred success.",
-        "No confidently identified primary author screenshot.",
-        "Grandfathered identity/summary metadata only. Historical verification is not v1 acceptance certification; historical builders may read author data carriers and must be migrated separately before v1 rebuild validation.",
-        "Original consumed status, commits, capabilities and reason retained verbatim in usage/history/consumed-cases-before-standardization.json; current summaries come only from this case.yaml."
+        "Rebuilt with cwtwb 0.27.1 using independent inputs and public high-level SDK APIs only.",
+        "Article and official challenge dates remain the only date identities.",
+        "Historical locks and acceptance are preserved separately; current Cloud source hashes identify refreshed author snapshots and do not certify byte identity with unavailable historical author packages.",
+        "Cloud images and CSV are real server exports. Hover/click actions are not inferred from static XML or screenshots."
       ],
       "metadata": "iterations/2019-08-09-ww32-step-area-chart/case.yaml",
-      "metadata_contract": "legacy-summary-1.0",
-      "tested_sdk_version": "0.24.0"
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.27.1"
     },
     {
       "case_id": "wow-2019-ww33-table-formatting",
@@ -533,14 +560,14 @@
           "workbook_id": "tableau-ef34c4522d594504"
         }
       },
-      "functional_status": "partial",
-      "visual_status": "not_evaluated",
-      "verification_status": "pending",
-      "cwtwb_result": null,
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "pass",
       "artifacts": {
         "primary_workbook": "outputs/replicated-workbook.twbx",
-        "cloud_author": null,
-        "cloud_replica": null
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
       },
       "artifact_aliases": {
         "outputs/2019-08-14-ww33-table-formatting-replicated-workbook.twbx": "outputs/replicated-workbook.twbx"
@@ -553,26 +580,30 @@
         },
         {
           "path": "outputs/2019-08-14-ww33-table-formatting-replicated-workbook.twb",
-          "role": "historical_twb_companion",
-          "note": "Unpackaged companion retains its original name and bytes; primary packaged output is replicated-workbook.twbx."
+          "role": "sdk_generated_twb_companion",
+          "note": "Current companion rebuilt from an empty workbook using public SDK APIs. Historical bytes remain in baseline commit a409e3ce7f071303777854aa2c40c2838c9e4f4c."
         }
       ],
       "evidence": [
         "evidence/build-provenance.json",
         "evidence/cloud-validation.json",
-        "evidence/validation.json"
+        "evidence/validation.json",
+        "inputs/source-lock.json",
+        "evidence/current-functional-verification.json",
+        "evidence/cloud-verification.json",
+        "evidence/history/pre-ten-cloud-verification/case.yaml",
+        "evidence/visual-review.json",
+        "evidence/cloud-data-verification.json"
       ],
       "notes": [
-        "Identity/path migration only; no rebuild, retest of visuals, or Cloud publishing. Historical evidence IDs and hash-keyed filenames resolve through legacy_case_ids and artifact_aliases.",
-        "Source archive paths may be unavailable in a clean checkout; URL and locked hash identify the original source. Null hashes/SDK results mean unknown, not inferred success.",
-        "No confidently identified primary author screenshot.",
-        "Grandfathered identity/summary metadata only. Historical verification is not v1 acceptance certification; historical builders may read author data carriers and must be migrated separately before v1 rebuild validation.",
-        "Original consumed status, commits, capabilities and reason retained verbatim in usage/history/consumed-cases-before-standardization.json; current summaries come only from this case.yaml.",
-        "WW33 conflict: old consumed view and iteration.md claimed replicated; case.yaml status and stages.verification were in_progress. validation.json proves local structure; cloud-validation.json proves prior openability but references a missing cwtwb screenshot and a placeholder source. End-to-end interactions/visual comparison are unconfirmed. Keep functional_status partial, verification pending, visual not_evaluated until new evidence."
+        "Rebuilt with cwtwb 0.27.1 using independent inputs and public high-level SDK APIs only.",
+        "Article and official challenge dates remain the only date identities.",
+        "Historical locks and acceptance are preserved separately; current Cloud source hashes identify refreshed author snapshots and do not certify byte identity with unavailable historical author packages.",
+        "Cloud images and CSV are real server exports. Hover/click actions are not inferred from static XML or screenshots."
       ],
       "metadata": "iterations/2019-08-14-ww33-table-formatting/case.yaml",
-      "metadata_contract": "legacy-summary-1.0",
-      "tested_sdk_version": "0.24.0"
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.27.1"
     },
     {
       "case_id": "wow-2019-ww34-top-n-single-worksheet",
@@ -608,13 +639,13 @@
         }
       },
       "functional_status": "replicated",
-      "visual_status": "not_evaluated",
-      "verification_status": "historical",
-      "cwtwb_result": null,
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "pass",
       "artifacts": {
         "primary_workbook": "outputs/replicated-workbook.twbx",
-        "cloud_author": null,
-        "cloud_replica": null
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
       },
       "artifact_aliases": {
         "outputs/2019-09-02-ww34-top-n-single-worksheet-replicated-workbook.twbx": "outputs/replicated-workbook.twbx"
@@ -622,25 +653,33 @@
       "historical_artifacts": [
         {
           "path": "outputs/2019-09-02-ww34-top-n-single-worksheet-replicated-workbook.twb",
-          "role": "historical_twb_companion",
-          "note": "Unpackaged companion retains its original name and bytes; primary packaged output is replicated-workbook.twbx."
+          "role": "sdk_generated_twb_companion",
+          "note": "Current companion rebuilt from an empty workbook using public SDK APIs. Historical bytes remain in baseline commit a409e3ce7f071303777854aa2c40c2838c9e4f4c."
         }
       ],
       "evidence": [
         "evidence/build-provenance.json",
         "evidence/source-lock.json",
         "evidence/validation.json",
-        "evidence/workbook-inventory.json"
+        "evidence/workbook-inventory.json",
+        "inputs/source-lock.json",
+        "evidence/current-functional-verification.json",
+        "evidence/cloud-verification.json",
+        "evidence/history/pre-ten-cloud-verification/case.yaml",
+        "evidence/visual-review.json",
+        "evidence/cloud-data-verification.json",
+        "evidence/action-contract-verification.json"
       ],
       "notes": [
-        "Identity/path migration only; no rebuild, retest of visuals, or Cloud publishing. Historical evidence IDs and hash-keyed filenames resolve through legacy_case_ids and artifact_aliases.",
-        "Source archive paths may be unavailable in a clean checkout; URL and locked hash identify the original source. Null hashes/SDK results mean unknown, not inferred success.",
-        "No confidently identified primary author screenshot.",
-        "Grandfathered identity/summary metadata only. Historical verification is not v1 acceptance certification; historical builders may read author data carriers and must be migrated separately before v1 rebuild validation."
+        "Rebuilt with cwtwb 0.27.1 using independent inputs and public high-level SDK APIs only.",
+        "Article and official challenge dates remain the only date identities.",
+        "Historical locks and acceptance are preserved separately; current Cloud source hashes identify refreshed author snapshots and do not certify byte identity with unavailable historical author packages.",
+        "Cloud images and CSV are real server exports. Hover/click actions are not inferred from static XML or screenshots.",
+        "User accepts Cloud REST and artifact contracts; browser_interaction_executed=false. Previous browser-pending records remain in evidence/history/before-rest-and-artifact-acceptance."
       ],
       "metadata": "iterations/2019-09-02-ww34-top-n-single-worksheet/case.yaml",
-      "metadata_contract": "legacy-summary-1.0",
-      "tested_sdk_version": "0.25.0"
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.27.1"
     },
     {
       "case_id": "wow-2019-ww35-drill-up-down-parameter-actions",
@@ -741,14 +780,14 @@
           "workbook_id": "tableau-1874fb03b8c9d8f5"
         }
       },
-      "functional_status": "partial",
-      "visual_status": "not_evaluated",
-      "verification_status": "pending",
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
       "cwtwb_result": "pass",
       "artifacts": {
         "primary_workbook": "outputs/replicated-workbook.twbx",
-        "cloud_author": null,
-        "cloud_replica": null
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
       },
       "artifact_aliases": {
         "outputs/2019-09-09-ww36-custom-axis-tracker-replicated-workbook.twbx": "outputs/replicated-workbook.twbx"
@@ -756,22 +795,29 @@
       "historical_artifacts": [
         {
           "path": "outputs/2019-09-09-ww36-custom-axis-tracker-replicated-workbook.twb",
-          "role": "historical_twb_companion",
-          "note": "Unpackaged companion retains its original name and bytes; primary packaged output is replicated-workbook.twbx."
+          "role": "sdk_generated_twb_companion",
+          "note": "Current companion rebuilt from an empty workbook using public SDK APIs. Historical bytes remain in baseline commit a409e3ce7f071303777854aa2c40c2838c9e4f4c."
         }
       ],
       "evidence": [
-        "inputs/source-lock.json"
+        "inputs/source-lock.json",
+        "evidence/current-functional-verification.json",
+        "evidence/cloud-verification.json",
+        "evidence/history/pre-ten-cloud-verification/case.yaml",
+        "evidence/visual-review.json",
+        "evidence/cloud-data-comparison.json",
+        "evidence/rest-scope-acceptance.json"
       ],
       "notes": [
-        "Identity/path migration only; no rebuild, retest of visuals, or Cloud publishing. Historical evidence IDs and hash-keyed filenames resolve through legacy_case_ids and artifact_aliases.",
-        "Source archive paths may be unavailable in a clean checkout; URL and locked hash identify the original source. Null hashes/SDK results mean unknown, not inferred success.",
-        "No confidently identified primary author screenshot.",
-        "WW36 remains partial and visual not_evaluated; tracker hover/clear behavior needs Tableau verification."
+        "Rebuilt with cwtwb 0.27.1 using independent inputs and public high-level SDK APIs only.",
+        "Article and official challenge dates remain the only date identities.",
+        "Historical locks and acceptance are preserved separately; current Cloud source hashes identify refreshed author snapshots and do not certify byte identity with unavailable historical author packages.",
+        "Cloud images and CSV are real server exports. Hover/click actions are not inferred from static XML or screenshots.",
+        "Accepted under the user-selected Cloud REST and artifact-contract workflow. Browser hover was not executed and is not a required condition of this acceptance; the prior browser-pending requirement is preserved in history."
       ],
       "metadata": "iterations/2019-09-09-ww36-custom-axis-tracker/case.yaml",
-      "metadata_contract": "1.0.0",
-      "tested_sdk_version": "0.26.0"
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.27.1"
     },
     {
       "case_id": "wow-2019-ww37-rounded-bar-chart",
@@ -1409,13 +1455,13 @@
         }
       },
       "functional_status": "replicated",
-      "visual_status": "not_evaluated",
-      "verification_status": "historical",
-      "cwtwb_result": null,
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "pass",
       "artifacts": {
         "primary_workbook": "outputs/replicated-workbook.twbx",
-        "cloud_author": null,
-        "cloud_replica": null
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
       },
       "artifact_aliases": {
         "outputs/2026-02-02-ww04-dynamic-moving-average-replicated-workbook.twbx": "outputs/replicated-workbook.twbx"
@@ -1423,26 +1469,31 @@
       "historical_artifacts": [
         {
           "path": "outputs/2026-02-02-ww04-dynamic-moving-average-replicated-workbook.twb",
-          "role": "historical_twb_companion",
-          "note": "Unpackaged companion retains its original name and bytes; primary packaged output is replicated-workbook.twbx."
+          "role": "sdk_generated_twb_companion",
+          "note": "Current companion rebuilt from an empty workbook using public SDK APIs. Historical bytes remain in baseline commit a409e3ce7f071303777854aa2c40c2838c9e4f4c."
         }
       ],
       "evidence": [
         "evidence/acceptance.json",
         "evidence/source-lock.json",
         "evidence/validation.json",
-        "evidence/workbook-inventory.json"
+        "evidence/workbook-inventory.json",
+        "inputs/source-lock.json",
+        "evidence/current-functional-verification.json",
+        "evidence/cloud-verification.json",
+        "evidence/history/pre-ten-cloud-verification/case.yaml",
+        "evidence/visual-review.json",
+        "evidence/cloud-data-comparison.json"
       ],
       "notes": [
-        "Identity/path migration only; no rebuild, retest of visuals, or Cloud publishing. Historical evidence IDs and hash-keyed filenames resolve through legacy_case_ids and artifact_aliases.",
-        "Source archive paths may be unavailable in a clean checkout; URL and locked hash identify the original source. Null hashes/SDK results mean unknown, not inferred success.",
-        "No confidently identified primary author screenshot.",
-        "Grandfathered identity/summary metadata only. Historical verification is not v1 acceptance certification; historical builders may read author data carriers and must be migrated separately before v1 rebuild validation.",
-        "Original consumed status, commits, capabilities and reason retained verbatim in usage/history/consumed-cases-before-standardization.json; current summaries come only from this case.yaml."
+        "Rebuilt with cwtwb 0.27.1 using independent inputs and public high-level SDK APIs only.",
+        "Article and official challenge dates remain the only date identities.",
+        "Historical locks and acceptance are preserved separately; current Cloud source hashes identify refreshed author snapshots and do not certify byte identity with unavailable historical author packages.",
+        "Cloud images and CSV are real server exports. Hover/click actions are not inferred from static XML or screenshots."
       ],
       "metadata": "iterations/2026-02-02-ww04-dynamic-moving-average/case.yaml",
-      "metadata_contract": "legacy-summary-1.0",
-      "tested_sdk_version": "0.24.0"
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.27.1"
     },
     {
       "case_id": "wow-2026-ww05-kpi-period-comparison",
@@ -1478,13 +1529,13 @@
         }
       },
       "functional_status": "replicated",
-      "visual_status": "not_evaluated",
-      "verification_status": "historical",
-      "cwtwb_result": null,
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "pass",
       "artifacts": {
         "primary_workbook": "outputs/replicated-workbook.twbx",
-        "cloud_author": null,
-        "cloud_replica": null
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
       },
       "artifact_aliases": {
         "outputs/2026-02-09-ww05-kpi-period-comparison-replicated-workbook.twbx": "outputs/replicated-workbook.twbx"
@@ -1492,26 +1543,31 @@
       "historical_artifacts": [
         {
           "path": "outputs/2026-02-09-ww05-kpi-period-comparison-replicated-workbook.twb",
-          "role": "historical_twb_companion",
-          "note": "Unpackaged companion retains its original name and bytes; primary packaged output is replicated-workbook.twbx."
+          "role": "sdk_generated_twb_companion",
+          "note": "Current companion rebuilt from an empty workbook using public SDK APIs. Historical bytes remain in baseline commit a409e3ce7f071303777854aa2c40c2838c9e4f4c."
         }
       ],
       "evidence": [
         "evidence/acceptance.json",
         "evidence/source-lock.json",
         "evidence/validation.json",
-        "evidence/workbook-inventory.json"
+        "evidence/workbook-inventory.json",
+        "inputs/source-lock.json",
+        "evidence/current-functional-verification.json",
+        "evidence/cloud-verification.json",
+        "evidence/history/pre-ten-cloud-verification/case.yaml",
+        "evidence/visual-review.json",
+        "evidence/cloud-data-comparison.json"
       ],
       "notes": [
-        "Identity/path migration only; no rebuild, retest of visuals, or Cloud publishing. Historical evidence IDs and hash-keyed filenames resolve through legacy_case_ids and artifact_aliases.",
-        "Source archive paths may be unavailable in a clean checkout; URL and locked hash identify the original source. Null hashes/SDK results mean unknown, not inferred success.",
-        "No confidently identified primary author screenshot.",
-        "Grandfathered identity/summary metadata only. Historical verification is not v1 acceptance certification; historical builders may read author data carriers and must be migrated separately before v1 rebuild validation.",
-        "Original consumed status, commits, capabilities and reason retained verbatim in usage/history/consumed-cases-before-standardization.json; current summaries come only from this case.yaml."
+        "Rebuilt with cwtwb 0.27.1 using independent inputs and public high-level SDK APIs only.",
+        "Article and official challenge dates remain the only date identities.",
+        "Historical locks and acceptance are preserved separately; current Cloud source hashes identify refreshed author snapshots and do not certify byte identity with unavailable historical author packages.",
+        "Cloud images and CSV are real server exports. Hover/click actions are not inferred from static XML or screenshots."
       ],
       "metadata": "iterations/2026-02-09-ww05-kpi-period-comparison/case.yaml",
-      "metadata_contract": "legacy-summary-1.0",
-      "tested_sdk_version": "0.24.0"
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.27.1"
     },
     {
       "case_id": "wow-2026-ww06-null-safe-averages",
@@ -1547,13 +1603,13 @@
         }
       },
       "functional_status": "replicated",
-      "visual_status": "not_evaluated",
-      "verification_status": "historical",
-      "cwtwb_result": null,
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "pass",
       "artifacts": {
         "primary_workbook": "outputs/replicated-workbook.twbx",
-        "cloud_author": null,
-        "cloud_replica": null
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
       },
       "artifact_aliases": {
         "outputs/2026-02-15-ww06-null-safe-averages-replicated-workbook.twbx": "outputs/replicated-workbook.twbx"
@@ -1561,26 +1617,37 @@
       "historical_artifacts": [
         {
           "path": "outputs/2026-02-15-ww06-null-safe-averages-replicated-workbook.twb",
-          "role": "historical_twb_companion",
-          "note": "Unpackaged companion retains its original name and bytes; primary packaged output is replicated-workbook.twbx."
+          "role": "sdk_generated_twb_companion",
+          "note": "Current companion rebuilt from an empty workbook using public SDK APIs. Historical bytes remain in baseline commit a409e3ce7f071303777854aa2c40c2838c9e4f4c."
         }
       ],
       "evidence": [
         "evidence/acceptance.json",
         "evidence/source-lock.json",
         "evidence/validation.json",
-        "evidence/workbook-inventory.json"
+        "evidence/workbook-inventory.json",
+        "inputs/source-lock.json",
+        "evidence/current-functional-verification.json",
+        "evidence/cloud-verification.json",
+        "evidence/history/pre-ten-cloud-verification/case.yaml",
+        "evidence/visual-review.json",
+        "evidence/cloud-data-comparison.json",
+        "evidence/matrix-data-contract.json",
+        "evidence/scope-acceptance.json",
+        "evidence/acceptance-history/browser-ui-protocol/case.yaml",
+        "evidence/acceptance-history/browser-ui-protocol/visual-review.json",
+        "evidence/acceptance-history/browser-ui-protocol/current-functional-verification.json"
       ],
       "notes": [
-        "Identity/path migration only; no rebuild, retest of visuals, or Cloud publishing. Historical evidence IDs and hash-keyed filenames resolve through legacy_case_ids and artifact_aliases.",
-        "Source archive paths may be unavailable in a clean checkout; URL and locked hash identify the original source. Null hashes/SDK results mean unknown, not inferred success.",
-        "No confidently identified primary author screenshot.",
-        "Grandfathered identity/summary metadata only. Historical verification is not v1 acceptance certification; historical builders may read author data carriers and must be migrated separately before v1 rebuild validation.",
-        "Original consumed status, commits, capabilities and reason retained verbatim in usage/history/consumed-cases-before-standardization.json; current summaries come only from this case.yaml."
+        "Rebuilt with cwtwb 0.27.1 using independent inputs and public high-level SDK APIs only.",
+        "Article and official challenge dates remain the only date identities.",
+        "Historical locks and acceptance are preserved separately; current Cloud source hashes identify refreshed author snapshots and do not certify byte identity with unavailable historical author packages.",
+        "Cloud images and CSV are real server exports. Hover/click actions are not inferred from static XML or screenshots.",
+        "Accepted under cloud_rest_and_artifact_contracts: actual Cloud exports, independent Hyper calculations and executable action contracts. Browser clicks not executed; prior browser protocol preserved in evidence/acceptance-history/browser-ui-protocol/."
       ],
       "metadata": "iterations/2026-02-15-ww06-null-safe-averages/case.yaml",
-      "metadata_contract": "legacy-summary-1.0",
-      "tested_sdk_version": "0.24.0"
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.27.1"
     }
   ]
 }

@@ -1,0 +1,86 @@
+schema_version: 1.1.0
+case_id: wow-2019-ww36-custom-axis-tracker
+iteration_id: 2019-09-09-ww36-custom-axis-tracker
+post: posts/2019-09-09-Custom_Axis_with_a_tracking_reference_line.html
+cwtwb:
+  tested_version: 0.27.1
+  runs:
+  - version: 0.27.1
+    result: pass
+    evidence: evidence/current-functional-verification.json
+  tested_commit: 2ad7b6ca4f0f3a0b8731e50b4932ac21ffbcdc73
+analysis_status: completed
+functional_status: partial
+visual_status: acceptable_delta
+cwtwb_result: pass
+inputs:
+  data_files:
+  - inputs/Orders (Sample - Superstore).hyper
+acceptance:
+- id: case-functional-contract
+  description: Independent locked data, observable chart/calculation/action definitions,
+    packaged artifact and SDK round-trip.
+  mode: automated
+- id: cloud-state-and-visual-review
+  description: Author and replica Cloud images and CSV exports; acceptance depends
+    on recorded review, UI actions separately.
+  mode: manual
+  evidence: evidence/visual-review.json
+workarounds: []
+related_cwtwb_issues: []
+legacy_case_ids:
+  ww36-custom-axis-tracker: wow-2019-ww36-custom-axis-tracker
+  donna-2019-09-09-09185442a3ca: wow-2019-ww36-custom-axis-tracker
+article_date: '2019-09-09'
+challenge_year: 2019
+challenge_week: 36
+challenge_date: '2019-09-04'
+date_evidence:
+  article_date: index.json publication date; matches preserved folder
+  challenge: Existing formal folder year and WW token; retained challenge identity
+  challenge_date: Official WoW WordPress publication date; docs/protocols/challenge-date-sources.json
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/week-36-can-you-build-a-custom-axis-with-a-tracking-reference-line/
+    wordpress_post_id: 2933
+  article:
+    url: https://donnacoles.home.blog/2019/09/09/custom-axis-with-a-tracking-reference-line/
+    path: posts/2019-09-09-Custom_Axis_with_a_tracking_reference_line.html
+    sha256: null
+  workbook:
+    url: https://public.tableau.com/views/2019_09_04_WW36_Custom_Axis_Ref_Line_Tracker/2019_09_04_WW36_Custom_Axis_Ref_Line_Tracker
+    path: dashboards/2019_09_04_WW36_Custom_Axis_Ref_Line_Tracker/2019_09_04_WW36_Custom_Axis_Ref_Line_Tracker.twbx
+    filename: 2019_09_04_WW36_Custom_Axis_Ref_Line_Tracker.twbx
+    sha256: 95b2c2dee481699d9cbea15cfd760a3d6c4480c6dd84e38a24bb589f1fbaba85
+    workbook_id: tableau-1874fb03b8c9d8f5
+verification_status: pending
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases:
+  outputs/2019-09-09-ww36-custom-axis-tracker-replicated-workbook.twbx: outputs/replicated-workbook.twbx
+historical_artifacts:
+- path: outputs/2019-09-09-ww36-custom-axis-tracker-replicated-workbook.twb
+  role: sdk_generated_twb_companion
+  note: Current companion rebuilt from an empty workbook using public SDK APIs. Historical
+    bytes remain in baseline commit a409e3ce7f071303777854aa2c40c2838c9e4f4c.
+evidence:
+- inputs/source-lock.json
+- evidence/current-functional-verification.json
+- evidence/cloud-verification.json
+- evidence/history/pre-ten-cloud-verification/case.yaml
+- evidence/visual-review.json
+- evidence/cloud-data-comparison.json
+notes:
+- Rebuilt with cwtwb 0.27.1 using independent inputs and public high-level SDK APIs
+  only.
+- Article and official challenge dates remain the only date identities.
+- Historical locks and acceptance are preserved separately; current Cloud source hashes
+  identify refreshed author snapshots and do not certify byte identity with unavailable
+  historical author packages.
+- Cloud images and CSV are real server exports. Hover/click actions are not inferred
+  from static XML or screenshots.
+remaining_work:
+- Real browser hover must update the tracking reference line; static image and CSV
+  do not verify action execution.

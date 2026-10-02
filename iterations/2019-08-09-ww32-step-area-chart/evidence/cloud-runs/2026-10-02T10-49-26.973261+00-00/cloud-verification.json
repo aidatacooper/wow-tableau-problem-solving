@@ -1,0 +1,87 @@
+{
+  "case_id": "wow-2019-ww32-step-area-chart",
+  "iteration_id": "2019-08-09-ww32-step-area-chart",
+  "captured_at": "2026-10-02T10:49:26.973261+00:00",
+  "source_hashes": {
+    "author": "389bcd11c666f8f65acdf4461ab487d1d017a7cc9855be0d28afd7309617f8e5",
+    "replica": "cacc8b1e0f4c76d544f14f3f162f72c4956e61b1ba512f20505b69ea5607025f"
+  },
+  "request_settings": {
+    "case_id": "wow-2019-ww32-step-area-chart",
+    "iteration_id": "2019-08-09-ww32-step-area-chart",
+    "author_workbook_path": "/srv/hermes-workspaces/wow-reference/wow-2019-ww32-step-area-chart/2019_08_07_WW32_Step_Area_Chart.twbx",
+    "replica_workbook_path": "/srv/hermes-workspaces/wow-case-standardization/iterations/2019-08-09-ww32-step-area-chart/outputs/replicated-workbook.twbx",
+    "author_view_name": "2019_08_07_WW32_Step_Area-Chart",
+    "replica_view_name": "2019_08_07_WW32_Step_Area-Chart",
+    "_request_file": "/srv/hermes-workspaces/wow-cloud-queue/wow-2019-ww32-step-area-chart.json"
+  },
+  "workbooks": {
+    "author": {
+      "id": "f90f022f-1723-442c-98b1-6f76c540cba2",
+      "name": "cwtwb-review-wow-2019-ww32-step-area-chart-author",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2922846"
+    },
+    "replica": {
+      "id": "a10b8e0e-db85-4ca1-9537-19e41671c503",
+      "name": "cwtwb-review-wow-2019-ww32-step-area-chart-replica",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2922847"
+    }
+  },
+  "export_resolution": "high",
+  "maxage_minutes": 1,
+  "status": "rendered_needs_visual_and_interaction_review",
+  "states": [
+    {
+      "name": "default",
+      "filters": {},
+      "parameters": {},
+      "views": {
+        "author": {
+          "id": "7aebc8de-7a15-41bf-ae6e-7083ca6eb959",
+          "name": "2019_08_07_WW32_Step_Area-Chart",
+          "path": "cloud-author.png",
+          "size": [
+            2400,
+            1200
+          ],
+          "sha256": "489c244eb061e76ab2a4d545cf57e6d8dce5c16906bdb774cc33f1d1f07c3b2e",
+          "data_export": {
+            "path": "cloud-author.csv",
+            "sha256": "492e192769f12decbdd4afcf621befc8a83a9bce626dce6fb1bc317145cd1808",
+            "bytes": 26642
+          }
+        },
+        "replica": {
+          "id": "0afce949-7e3e-49c3-a06a-5aaff475b53a",
+          "name": "2019_08_07_WW32_Step_Area-Chart",
+          "path": "cloud-replica.png",
+          "size": [
+            2400,
+            1200
+          ],
+          "sha256": "dc721298bc64123b4f90fa25a7f6069641f5f3ea0a6cabe001ed270d5a664785",
+          "data_export": {
+            "path": "cloud-replica.csv",
+            "sha256": "b95352b6fe1b0ec2f54cdd743792255888e084e45bb223fc7d841dcac114f3c5",
+            "bytes": 24625
+          }
+        }
+      },
+      "comparison": {
+        "same_dimensions": true,
+        "author_size": [
+          2400,
+          1200
+        ],
+        "replica_size": [
+          2400,
+          1200
+        ],
+        "mean_absolute_channel_difference_0_to_255": 5.051504976851851,
+        "pixel_identical": false
+      }
+    }
+  ],
+  "visual_status": "not_evaluated",
+  "interaction_status": "not_evaluated"
+}

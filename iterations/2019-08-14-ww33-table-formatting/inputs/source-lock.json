@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0.0",
+  "historical_original_sha256": null,
+  "source_workbook_used_by_builder": false,
+  "extracted_data": [
+    {
+      "archive_path": "Data/TableauTemp/TEMP_0g5v6qm153h1xg1gkonbv1grcjrg.hyper",
+      "file": "inputs/Orders (Sample - Superstore).hyper",
+      "bytes": 983040,
+      "sha256": "3f8664d0daf0e70069712920674691e47d00fb229eb5c197118a7630a1f1b30b"
+    }
+  ],
+  "source_workbook": {
+    "url": "https://public.tableau.com/views/2019_08_14_WW33_Table_Formatting/2019_08_14_WW33_Table_Formatting",
+    "path": "dashboards/2019_08_14_WW33_Table_Formatting/2019_08_14_WW33_Table_Formatting.twbx",
+    "filename": "2019_08_14_WW33_Table_Formatting.twbx",
+    "sha256": null,
+    "workbook_id": "tableau-ef34c4522d594504"
+  },
+  "cached_reference": {
+    "path": "/srv/hermes-workspaces/wow-reference/wow-2019-ww33-table-formatting/2019_08_14_WW33_Table_Formatting.twbx",
+    "sha256": "528e6ec0d78b4b788b63382d1bb62d2574ed04fba56dbe593e8823ca31cb7114",
+    "bytes": 400224,
+    "matches_historical_lock": false
+  },
+  "limitations": [
+    "Historical source identity retained. Current Cloud comparison uses the explicitly hashed refreshed author snapshot; extracted Hyper hashes are recorded independently."
+  ]
+}

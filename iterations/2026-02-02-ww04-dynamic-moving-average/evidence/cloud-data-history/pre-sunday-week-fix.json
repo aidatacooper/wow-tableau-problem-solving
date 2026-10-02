@@ -1,0 +1,244 @@
+{
+  "verified_at": "2026-10-02T11:05:12.070335+00:00",
+  "case": "2026-02-02-ww04-dynamic-moving-average",
+  "normalization": "Parse both date formats to ISO date; remove comma separators and percent/currency symbols for Decimal arithmetic; map explicit semantic column aliases; merge identical measure marks only.",
+  "states": [
+    {
+      "state": "default",
+      "author_csv_sha256": "21c61617289112daf414ca73f403a454216bf1d3c400ecdbcaa30e556e35a3e8",
+      "replica_csv_sha256": "5e11427f48964649a64ff881ee13ba1837bff6978da1a2ca2023d7e045f5d48f",
+      "author_rows": 48,
+      "replica_rows": 48,
+      "author_unique_keys": 24,
+      "replica_unique_keys": 24,
+      "author_duplicate_marks_merged": 24,
+      "replica_duplicate_marks_merged": 24,
+      "compared_fields": [
+        "Moving Average",
+        "Sales"
+      ],
+      "common_keys": 24,
+      "missing_replica_keys": [],
+      "extra_replica_keys": [],
+      "maximum_absolute_difference_on_common_keys": {
+        "Moving Average": "0",
+        "Sales": "0"
+      },
+      "numeric_tolerances": {
+        "Moving Average": "1E-9",
+        "Sales": "1E-9"
+      },
+      "cell_differences": 0,
+      "differences": [],
+      "passed": true,
+      "scope": "Daily date keys for chosen aggregation; Sales and Moving Average. Duplicate Measure Names marks are merged only when both numerical values agree."
+    },
+    {
+      "state": "quarter-six-periods",
+      "author_csv_sha256": "83a2d17526ba4696378cb257857a0bec7c2e50a77ae10dc6357a09eb13c5068d",
+      "replica_csv_sha256": "b4a1699f434329da427849159e5e5f84663910f79015d9d084688c83816d71e6",
+      "author_rows": 24,
+      "replica_rows": 24,
+      "author_unique_keys": 12,
+      "replica_unique_keys": 12,
+      "author_duplicate_marks_merged": 12,
+      "replica_duplicate_marks_merged": 12,
+      "compared_fields": [
+        "Moving Average",
+        "Sales"
+      ],
+      "common_keys": 12,
+      "missing_replica_keys": [],
+      "extra_replica_keys": [],
+      "maximum_absolute_difference_on_common_keys": {
+        "Moving Average": "0",
+        "Sales": "0"
+      },
+      "numeric_tolerances": {
+        "Moving Average": "1E-9",
+        "Sales": "1E-9"
+      },
+      "cell_differences": 0,
+      "differences": [],
+      "passed": true,
+      "scope": "Daily date keys for chosen aggregation; Sales and Moving Average. Duplicate Measure Names marks are merged only when both numerical values agree."
+    },
+    {
+      "state": "week-six-periods",
+      "author_csv_sha256": "11e4153c63d418243c044d6ab358718270302fcdb2045e303b0bbbdf32e23903",
+      "replica_csv_sha256": "814d24985516331596d3b7f78cbbd3f7e2f83b5a114dbe33e7943a538c391ec2",
+      "author_rows": 48,
+      "replica_rows": 48,
+      "author_unique_keys": 24,
+      "replica_unique_keys": 24,
+      "author_duplicate_marks_merged": 24,
+      "replica_duplicate_marks_merged": 24,
+      "compared_fields": [
+        "Moving Average",
+        "Sales"
+      ],
+      "common_keys": 0,
+      "missing_replica_keys": [
+        [
+          "2025-07-20"
+        ],
+        [
+          "2025-07-27"
+        ],
+        [
+          "2025-08-03"
+        ],
+        [
+          "2025-08-10"
+        ],
+        [
+          "2025-08-17"
+        ],
+        [
+          "2025-08-24"
+        ],
+        [
+          "2025-08-31"
+        ],
+        [
+          "2025-09-07"
+        ],
+        [
+          "2025-09-14"
+        ],
+        [
+          "2025-09-21"
+        ],
+        [
+          "2025-09-28"
+        ],
+        [
+          "2025-10-05"
+        ],
+        [
+          "2025-10-12"
+        ],
+        [
+          "2025-10-19"
+        ],
+        [
+          "2025-10-26"
+        ],
+        [
+          "2025-11-02"
+        ],
+        [
+          "2025-11-09"
+        ],
+        [
+          "2025-11-16"
+        ],
+        [
+          "2025-11-23"
+        ],
+        [
+          "2025-11-30"
+        ],
+        [
+          "2025-12-07"
+        ],
+        [
+          "2025-12-14"
+        ],
+        [
+          "2025-12-21"
+        ],
+        [
+          "2025-12-28"
+        ]
+      ],
+      "extra_replica_keys": [
+        [
+          "2025-07-21"
+        ],
+        [
+          "2025-07-28"
+        ],
+        [
+          "2025-08-04"
+        ],
+        [
+          "2025-08-11"
+        ],
+        [
+          "2025-08-18"
+        ],
+        [
+          "2025-08-25"
+        ],
+        [
+          "2025-09-01"
+        ],
+        [
+          "2025-09-08"
+        ],
+        [
+          "2025-09-15"
+        ],
+        [
+          "2025-09-22"
+        ],
+        [
+          "2025-09-29"
+        ],
+        [
+          "2025-10-06"
+        ],
+        [
+          "2025-10-13"
+        ],
+        [
+          "2025-10-20"
+        ],
+        [
+          "2025-10-27"
+        ],
+        [
+          "2025-11-03"
+        ],
+        [
+          "2025-11-10"
+        ],
+        [
+          "2025-11-17"
+        ],
+        [
+          "2025-11-24"
+        ],
+        [
+          "2025-12-01"
+        ],
+        [
+          "2025-12-08"
+        ],
+        [
+          "2025-12-15"
+        ],
+        [
+          "2025-12-22"
+        ],
+        [
+          "2025-12-29"
+        ]
+      ],
+      "maximum_absolute_difference_on_common_keys": {
+        "Moving Average": "0",
+        "Sales": "0"
+      },
+      "numeric_tolerances": {
+        "Moving Average": "1E-9",
+        "Sales": "1E-9"
+      },
+      "cell_differences": 0,
+      "differences": [],
+      "passed": false,
+      "scope": "Daily date keys for chosen aggregation; Sales and Moving Average. Duplicate Measure Names marks are merged only when both numerical values agree."
+    }
+  ],
+  "passed": false
+}

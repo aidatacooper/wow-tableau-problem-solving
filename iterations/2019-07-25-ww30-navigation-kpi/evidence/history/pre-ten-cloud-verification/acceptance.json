@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0.0",
+  "status": "passed",
+  "checks": {
+    "worksheet_count": 8,
+    "dashboard_count": 5,
+    "native_nav_action_count": 4,
+    "go_back_button_count": 4,
+    "original_hyper_preserved": true,
+    "twbx_roundtrip": true,
+    "cloud_openability": true,
+    "main_dashboard_visual_review": true,
+    "detail_dashboard_visual_review": true
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "captured_at": "2026-10-02T11:15:30.930280+00:00",
+  "author_csv_sha256": "492e192769f12decbdd4afcf621befc8a83a9bce626dce6fb1bc317145cd1808",
+  "replica_csv_sha256": "b95352b6fe1b0ec2f54cdd743792255888e084e45bb223fc7d841dcac114f3c5",
+  "author_rows": 207,
+  "replica_rows": 207,
+  "key_fields": [
+    "Category",
+    "Day of Month Position To Plot",
+    "Measure Names"
+  ],
+  "normalization": {
+    "Category": "lowercase caption only",
+    "Measure Names": "strip author addressing annotation after literal ' along '"
+  },
+  "keys_equal": true,
+  "compared_fields": [
+    "Colour:Diff",
+    "LABEL: Max Diff + Shift",
+    "LABEL: Min Diff + Shift",
+    "LABEL:First Last if not max or min",
+    "LABEL:Sales in Month Max",
+    "LABEL:Sales in Month Min",
+    "Sales Next Value",
+    "Size - Dual Axis",
+    "Measure Values",
+    "Sales In Month"
+  ],
+  "cell_differences": 0,
+  "differences": [],
+  "scope": "Default Cloud view data only; not visual acceptance or interactive behavior"
+}

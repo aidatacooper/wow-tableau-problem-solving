@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0.0",
+  "iteration_id": "2019-07-25-ww30-navigation-kpi",
+  "case_id": "donna-2019-07-25-59a0a144b25b",
+  "article": {
+    "path": "posts/2019-07-25-Creating_a_Navigating_KPI_Block.html",
+    "sha256": "1b5d007919fdd9d82fa773f15828e46abea9b683547cc2f66b4d1db4feb43dd2"
+  },
+  "workbook": {
+    "workbook_id": "tableau-2dde40c2999debb2",
+    "source_twbx": {
+      "path": "dashboards/2019_07_24_WW30_Navigation_KPI/2019_07_24_WW30_Navigation_KPI.twbx",
+      "sha256": "a6d52e237288424f13d0162c4b2ee7efca7e25a55282c47ca8f6d9590bf29cd5"
+    },
+    "normalized_twb": {
+      "path": "dataset/workbooks/tableau-2dde40c2999debb2/workbook.twb",
+      "sha256": "7c8d8f91bd19994a6d27ac0067fec1814dcc47420209c5a609d48794e740c183"
+    }
+  },
+  "validation_env": "C:/Users/imgwho/Desktop/projects/20260227-cwtwb/.env",
+  "baseline": {
+    "cwtwb_version": "0.24.0",
+    "cwtwb_git_commit": "f6f1403",
+    "backup_git_commit": "48c57e9"
+  },
+  "result": {
+    "cwtwb_git_commits": [
+      "9076f6a"
+    ],
+    "backup_git_commit": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0.0",
+  "worksheets": ["DATA 1", "DATA 2", "Viz"],
+  "dashboards": ["2019_08_07_WW32_Step_Area-Chart"],
+  "viz": {
+    "pane_marks": ["Area", "Area", "Line"],
+    "pane_count": 3,
+    "columns": "Category * DAYTRUNC(Month Position To Plot)",
+    "rows": "Sales In Month + Multiple Values",
+    "measure_values": ["Sales in Month Dual Axis", "Sales Next Value Dual Axis"],
+    "table_calculation_instances": 12,
+    "required_calculation_families": [
+      "FIXED LOD",
+      "LOOKUP",
+      "WINDOW_MAX",
+      "WINDOW_MIN",
+      "FIRST",
+      "LAST"
+    ]
+  },
+  "interaction": {
+    "dashboard_actions": 0,
+    "tooltip": ["Category", "Month", "Sales", "Change vs Previous Month"]
+  },
+  "special_structure": [
+    "single primary stepped Area axis",
+    "synchronized secondary Multiple Values axis",
+    "Line marks connecting monthly current and next values",
+    "max/min rise and drop color and size emphasis"
+  ]
+}

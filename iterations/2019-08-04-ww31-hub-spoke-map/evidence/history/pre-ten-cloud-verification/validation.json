@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "status": "replicated",
+  "artifacts": {
+    "2019-08-04-ww31-hub-spoke-map-replicated-workbook.twb": {
+      "sha256": "ecc59131a220df377ed115705dc6352c5dc554ff0298cc27ae119a48942e81cf",
+      "local_parse": "passed"
+    },
+    "2019-08-04-ww31-hub-spoke-map-replicated-workbook.twbx": {
+      "sha256": "5fe666fc1c4f11071799f9ae34d472495a33a6307e91103b8f9c75720917cf10",
+      "zip_structure": "passed",
+      "original_hyper_preserved": "passed",
+      "cwtwb_open_and_resave": "passed",
+      "acceptance_after_roundtrip": "passed",
+      "tableau_cloud_publish": {
+        "success": true,
+        "workbook_id": "a983daa4-7fd2-42b8-b58b-8c19dbe15b0e",
+        "dashboard_screenshot_bytes": 246862,
+        "all_views_rendered": true,
+        "original_control_restored_to_replica": true
+      }
+    }
+  },
+  "analyzer": {
+    "template_fit": "advanced-fit",
+    "core": 10,
+    "advanced": 5,
+    "recipe": 0,
+    "unsupported": 0,
+    "unknown": [
+      "connection:textscan",
+      "dashboard_zone:NONE"
+    ]
+  },
+  "regression": {
+    "execution": "full suite with a workspace-local pytest basetemp",
+    "passed": 327,
+    "skipped": 25,
+    "warnings": 8
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "visual_status": "acceptable_delta",
+  "pixel_matched": false,
+  "reviewed_at": "2026-10-02T11:28:27.565926+00:00",
+  "cloud_snapshot_captured_at": "2026-10-02T11:26:49.417667+00:00",
+  "reviewed_workbook_sha256": "8b06b772a959c7bdd38ac117c2374647c02b19365373dcefd61ef8f6f3f12f28",
+  "current_workbook_sha256": "8b06b772a959c7bdd38ac117c2374647c02b19365373dcefd61ef8f6f3f12f28",
+  "current_build_needs_recapture": false,
+  "matching_features": [
+    "Artist tour title and regional count/share summaries: Ben14/111/69; Ed101/212/1/605/13",
+    "Monthly cumulative trend, visible year axis and both Artist endpoint labels Ben195/Ed946; incorrect initial1 absent",
+    "Three geographic region maps partitioned by Artist with correct hub-spoke geometries, region colors and dark basemap",
+    "Route count-distinct size encoding reproduces source fixed minimum1/automatic maximum/maxsize1/minsize0.00251905",
+    "Fellow artist word cloud on dark background with region coloring"
+  ],
+  "accepted_deltas": [
+    "Summary percentage/count fonts are smaller than original",
+    "Small differences in map stroke/point thickness and geographic framing",
+    "Word cloud font packing/placement differs",
+    "Footer spacing differs and original extra collaboration/data-source footer text is not fully reproduced",
+    "Thin left trend axis boundary remains visible"
+  ],
+  "interactions": "Two on-hover dashboard filter action definitions are verified structurally; no authenticated browser hover action has been exercised",
+  "remaining_work": [
+    "In authenticated browser hover Ben and Ed regional summaries; verify Fellow Artist Word Cloud updates to selected Artist/Region and clearing hover restores expected results"
+  ],
+  "data_evidence": "evidence/trend-endpoint-data.json independently queries actual Hyper: Ben last2019Jan/monthly running count195; Ed last2019Aug/count946. Default Dashboard CSV covers Ben regional summary only, not all maps/trend/wordcloud.",
+  "evidence": [
+    "outputs/cloud-author.png",
+    "outputs/cloud-replica.png",
+    "evidence/current-functional-verification.json",
+    "evidence/trend-endpoint-data.json"
+  ],
+  "reviewed_source_hashes": {
+    "author": "09880e3ab841ac35bdc4232f1115061b6ac0828f2b4579bfa1f5248f9e100014",
+    "replica": "8b06b772a959c7bdd38ac117c2374647c02b19365373dcefd61ef8f6f3f12f28"
+  },
+  "captured_at": "2026-10-02T11:26:49.417667+00:00"
+}

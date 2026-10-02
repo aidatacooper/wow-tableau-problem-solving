@@ -1,0 +1,26 @@
+{
+  "captured_at": "2026-10-02T11:10:53.632338+00:00",
+  "workbook_sha256": "08e176cc0b2aaa178a7d1a480f722a839506a3d70fed4284b0b747f7b5f8ff9a",
+  "scope": "Complete three-state published worksheet CSV; hover not tested.",
+  "states": [
+    {
+      "state": "default",
+      "csv_bytes_equal": true,
+      "author_sha256": "4bc70ee5ed825e86bd0e99dc970b678980b7cccecd0f9336222d3e950a07e370",
+      "replica_sha256": "4bc70ee5ed825e86bd0e99dc970b678980b7cccecd0f9336222d3e950a07e370"
+    },
+    {
+      "state": "top-five",
+      "csv_bytes_equal": true,
+      "author_sha256": "ddfdd2e1dfbd7373936a69fee01b4930e44e059841b71346ee37a35a99562c8e",
+      "replica_sha256": "ddfdd2e1dfbd7373936a69fee01b4930e44e059841b71346ee37a35a99562c8e"
+    },
+    {
+      "state": "top-five-other",
+      "csv_bytes_equal": true,
+      "author_sha256": "bd59ba444d8308bcbfd1c5c5b1dab739f9485a130ec78ae3cd4b33f035d8368b",
+      "replica_sha256": "bd59ba444d8308bcbfd1c5c5b1dab739f9485a130ec78ae3cd4b33f035d8368b"
+    }
+  ],
+  "pass": true
+}

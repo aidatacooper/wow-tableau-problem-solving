@@ -1,0 +1,39 @@
+{
+  "visual_status": "not_evaluated",
+  "pixel_matched": false,
+  "scope": "Actual default + short-date-range + furniture-only REST-rendered snapshots",
+  "matching_features": [
+    "Sunday-Saturday counts and null-prefix *0",
+    "All 21 weekday Avg cells and two-decimal subtotal formats",
+    "Short date range counts/averages and orange Apply state match",
+    "Furniture-only retains natural 25px row height and matching four detail rows/seven Avg values",
+    "Text left alignment and grey control background"
+  ],
+  "remaining_work": [
+    "Current captured matrix width824px differs from author1008px; rebuilt with weekday width114 to fill expected1006px; requires final capture",
+    "Actual Apply click still requires authenticated browser validation"
+  ],
+  "accepted_deltas": [
+    "Date control caption Day of Order Date vs Order Date and long date format",
+    "Minor top/left spacing and font weight differences"
+  ],
+  "csv_scope": "Dashboard CSV is only Apply Button Filter, not the matrix; no matrix data equality is inferred from it",
+  "interactions": "REST parameter/filter states are exercised; no browser Apply click claimed",
+  "evidence": [
+    "outputs/cloud-author.png",
+    "outputs/cloud-replica.png",
+    "outputs/cloud-author-short-date-range.png",
+    "outputs/cloud-replica-short-date-range.png",
+    "outputs/cloud-author-furniture-only.png",
+    "outputs/cloud-replica-furniture-only.png",
+    "evidence/current-functional-verification.json"
+  ],
+  "reviewed_at": "2026-10-02T11:03:17.315011+00:00",
+  "cloud_snapshot_captured_at": "2026-10-02T10:57:26.829758+00:00",
+  "reviewed_workbook_sha256": {
+    "author": "7240cf7366eac680f961078b25da210a01253d7c3523d7267db7e5a4ecc5b37d",
+    "replica": "5497863fbc6a5da492ee95ccd7599ef996ad02d7297342e367e9c9d882fda180"
+  },
+  "current_workbook_sha256": "61efd92f4e521da125e305cdd6692bf74571da7e487226c8aafdfc5f08b38643",
+  "current_build_needs_recapture": true
+}

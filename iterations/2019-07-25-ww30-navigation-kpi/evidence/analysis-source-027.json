@@ -1,0 +1,78 @@
+{
+  "calculations": [
+    {
+      "name": "# Customers",
+      "formula": "COUNTD([Customer ID])",
+      "datatype": "integer",
+      "role": "measure",
+      "field_type": "quantitative"
+    },
+    {
+      "name": "# Products",
+      "formula": "COUNTD([Product ID])",
+      "datatype": "integer",
+      "role": "measure",
+      "field_type": "quantitative"
+    },
+    {
+      "name": "City State UPPER",
+      "formula": "UPPER([City]) + ', ' + UPPER([State])",
+      "datatype": "string",
+      "role": "dimension",
+      "field_type": "nominal"
+    },
+    {
+      "name": "Cust Name UPPER",
+      "formula": "UPPER([Customer Name])",
+      "datatype": "string",
+      "role": "dimension",
+      "field_type": "nominal"
+    },
+    {
+      "name": "Product Name UPPER",
+      "formula": "UPPER([Product Name])",
+      "datatype": "string",
+      "role": "dimension",
+      "field_type": "nominal"
+    },
+    {
+      "name": "# Orders",
+      "formula": "COUNTD([Order ID])",
+      "datatype": "integer",
+      "role": "measure",
+      "field_type": "quantitative"
+    },
+    {
+      "name": "# Cities",
+      "formula": "COUNTD([City State UPPER])",
+      "datatype": "integer",
+      "role": "measure",
+      "field_type": "quantitative"
+    },
+    {
+      "name": "Number of Records",
+      "formula": "1",
+      "datatype": "integer",
+      "role": "measure",
+      "field_type": "quantitative"
+    }
+  ],
+  "parameters": [],
+  "dashboards": [
+    "4 Box KPI",
+    "City Sales",
+    "Customer Sales",
+    "Order Sales",
+    "Product Sales"
+  ],
+  "worksheets": [
+    "Cities",
+    "Customers",
+    "Orders",
+    "Products",
+    "by City",
+    "by Customer",
+    "by Order",
+    "by Product "
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "case_id": "wow-2019-ww33-table-formatting",
+  "cloud_captured_at": "2026-10-02T11:27:16.505628+00:00",
+  "source_hashes": {
+    "author": "528e6ec0d78b4b788b63382d1bb62d2574ed04fba56dbe593e8823ca31cb7114",
+    "replica": "fd25ecd4a965d85bb3b1b150714d6785cf8f778a2cde9772038bb6b8def55c7f"
+  },
+  "visual_status": "acceptable_delta",
+  "pixel_matched": false,
+  "method": "Codex inspected actual unmodified Tableau Cloud author and replica renders in side-by-side images",
+  "states": [
+    {
+      "name": "default",
+      "filters": {},
+      "parameters": {},
+      "views": {
+        "author": {
+          "id": "ff1f2d22-a479-4f4a-bb4a-5310f6a0f82b",
+          "name": "2019_08_14_WW33_Table_Formatting",
+          "path": "cloud-author.png",
+          "size": [
+            1800,
+            1200
+          ],
+          "sha256": "e55ccf856acb44da544d8801e17a4bc66d1638d6425e50391ea661f541d3410d",
+          "data_export": {
+            "path": "cloud-author.csv",
+            "sha256": "a0ffb85d3b6e32b683b70279037f3f2c4ec6adafbfa3039ecf346b8d123d811b",
+            "bytes": 2115
+          }
+        },
+        "replica": {
+          "id": "dee7195c-c66d-42a0-8b6f-5b57c3f51e24",
+          "name": "WW33 Table Formatting",
+          "path": "cloud-replica.png",
+          "size": [
+            1800,
+            1200
+          ],
+          "sha256": "c66e9ce66cfc53b4fe7aad2f7fba0456d759b599d58468b67436670ed4f01c4e",
+          "data_export": {
+            "path": "cloud-replica.csv",
+            "sha256": "fde42ece0a6bacb5f1d40b67d18ba355815e8738be8bc19ae33ac803b58c4c7f",
+            "bytes": 1629
+          }
+        }
+      },
+      "comparison": {
+        "same_dimensions": true,
+        "author_size": [
+          1800,
+          1200
+        ],
+        "replica_size": [
+          1800,
+          1200
+        ],
+        "mean_absolute_channel_difference_0_to_255": 17.938362191358024,
+        "pixel_identical": false
+      }
+    },
+    {
+      "name": "threshold-forty",
+      "filters": {},
+      "parameters": {
+        "Highlight Threshold": "40"
+      },
+      "views": {
+        "author": {
+          "id": "ff1f2d22-a479-4f4a-bb4a-5310f6a0f82b",
+          "name": "2019_08_14_WW33_Table_Formatting",
+          "path": "cloud-author-threshold-forty.png",
+          "size": [
+            1800,
+            1200
+          ],
+          "sha256": "f02c86928bad079bcdfdbd67a11d8e92ab817207a410873b7adc595b4a9709fd",
+          "data_export": {
+            "path": "cloud-author-threshold-forty.csv",
+            "sha256": "a0ffb85d3b6e32b683b70279037f3f2c4ec6adafbfa3039ecf346b8d123d811b",
+            "bytes": 2115
+          }
+        },
+        "replica": {
+          "id": "dee7195c-c66d-42a0-8b6f-5b57c3f51e24",
+          "name": "WW33 Table Formatting",
+          "path": "cloud-replica-threshold-forty.png",
+          "size": [
+            1800,
+            1200
+          ],
+          "sha256": "754389cdfb079171323bc42cefa695ec5611f5b6670513f745831771199b875b",
+          "data_export": {
+            "path": "cloud-replica-threshold-forty.csv",
+            "sha256": "fde42ece0a6bacb5f1d40b67d18ba355815e8738be8bc19ae33ac803b58c4c7f",
+            "bytes": 1629
+          }
+        }
+      },
+      "comparison": {
+        "same_dimensions": true,
+        "author_size": [
+          1800,
+          1200
+        ],
+        "replica_size": [
+          1800,
+          1200
+        ],
+        "mean_absolute_channel_difference_0_to_255": 16.56795895061728,
+        "pixel_identical": false
+      }
+    },
+    {
+      "name": "chairs-only",
+      "filters": {
+        "Sub-Category": "Chairs"
+      },
+      "parameters": {},
+      "views": {
+        "author": {
+          "id": "ff1f2d22-a479-4f4a-bb4a-5310f6a0f82b",
+          "name": "2019_08_14_WW33_Table_Formatting",
+          "path": "cloud-author-chairs-only.png",
+          "size": [
+            1800,
+            1200
+          ],
+          "sha256": "ea12a806cd1dfb9289c8392aabdc9ddbe602624854137fa0ffe6dc257fe0ca94",
+          "data_export": {
+            "path": "cloud-author-chairs-only.csv",
+            "sha256": "ce8f424c4c1ba355d102d32494edc2d714927fb497523cc12e22a35417978471",
+            "bytes": 207
+          }
+        },
+        "replica": {
+          "id": "dee7195c-c66d-42a0-8b6f-5b57c3f51e24",
+          "name": "WW33 Table Formatting",
+          "path": "cloud-replica-chairs-only.png",
+          "size": [
+            1800,
+            1200
+          ],
+          "sha256": "df2271a0a29e154114722ee8a2034d0833ca134bd957b49991ae89df76d1483e",
+          "data_export": {
+            "path": "cloud-replica-chairs-only.csv",
+            "sha256": "14e0d4a7a1114cfbfdb8e3134eedd4c2bb2e6fa93192f9d4f8fc7393146d0d0b",
+            "bytes": 169
+          }
+        }
+      },
+      "comparison": {
+        "same_dimensions": true,
+        "author_size": [
+          1800,
+          1200
+        ],
+        "replica_size": [
+          1800,
+          1200
+        ],
+        "mean_absolute_channel_difference_0_to_255": 6.024976697530864,
+        "pixel_identical": false
+      }
+    }
+  ],
+  "confirmed": [
+    "All17 default table rows and percentage split bars render",
+    "Default highlighters Chairs,Copiers,Furnishings,Phones,Supplies match",
+    "Threshold40 highlights only Supplies matching author",
+    "Chairs-only filter gives same category,31233Sales,2377Profit,8%ratio,201Quantity,33:67share",
+    "Bar row step now approx52 output pixels matching Table52; residual 2-4 pixel center differences accepted rather than cumulative large drift"
+  ],
+  "accepted_deltas": [
+    "Residual 2-4 output pixel table/bar row centers and minor header offsets",
+    "Title and footer typography/vertical positions",
+    "Single-category expanded area bounds differ slightly while both source and replica fill the available pane"
+  ],
+  "interaction_status": "rest_parameter_and_filter_states_verified",
+  "browser_click_status": "not_asserted",
+  "reviewed_source_hashes": {
+    "author": "528e6ec0d78b4b788b63382d1bb62d2574ed04fba56dbe593e8823ca31cb7114",
+    "replica": "fd25ecd4a965d85bb3b1b150714d6785cf8f778a2cde9772038bb6b8def55c7f"
+  },
+  "reviewed_workbook_sha256": "fd25ecd4a965d85bb3b1b150714d6785cf8f778a2cde9772038bb6b8def55c7f",
+  "current_workbook_sha256": "fd25ecd4a965d85bb3b1b150714d6785cf8f778a2cde9772038bb6b8def55c7f",
+  "current_build_needs_recapture": false,
+  "captured_at": "2026-10-02T11:27:16.505628+00:00"
+}

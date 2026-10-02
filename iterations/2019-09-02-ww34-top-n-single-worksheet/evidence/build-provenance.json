@@ -25,13 +25,16 @@
     "on-hover Set Action 'Highlight Rank' -> Highlighted Manufacturer (exclude-all)"
   ],
   "deviations_from_source": [
-    "Set internal names are unified (Top Central/East/South/West) instead of the source's 'Top Central (copy)'/'Top East (copy)' internal names; display captions match the source exactly.",
-    "Top n Manufacturers parameter is emitted with domain_type=range 1-100 per the replication spec; the source serializes the domain as 'any'.",
-    "The INDEX() instance-level Field table-calc (level-break/order/sort) is reproduced in _apply_index_table_calc_ordering; cwtwb's table_calc API cannot author instance-level addressing natively.",
-    "The cols shelf join between Region and the dual-axis fold is '*' (as the source) via _apply_cols_join; cwtwb's dual-axis builder emits '+' by default."
+    "Independent field identities; parameter range 1-100 constrains valid positive top-N values."
   ],
   "known_visual_gaps": [
-    "Axis/style formatting (axis strokes, gridlines, header widths) uses cwtwb defaults rather than the source's exact pixel styles.",
-    "The 'Data' hidden helper worksheet from the source is omitted (maximum_visible_worksheets allows 1 visible sheet)."
+    "Cloud comparison and browser hover review are separate gates."
+  ],
+  "builder_sha256": "3b9beecaf1125b687dfc090312d4a7dca93de9a043502ad85ca497a7f3c03ebe",
+  "entry_point": "TWBEditor(\"\")",
+  "sdk_capabilities_used": [
+    "configure_dual_axis.table_calc_overrides",
+    "configure_worksheet_style",
+    "add_dashboard_set_action"
   ]
 }

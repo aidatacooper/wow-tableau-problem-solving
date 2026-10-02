@@ -1,0 +1,18 @@
+{
+  "captured_at": "2026-10-02T11:19:35.385330+00:00",
+  "reviewed_workbook_sha256": "13ad3741d54941b500b390cbdc9cca86358096bc26881951321c6f9f6912d0e2",
+  "current_workbook_sha256": "13ad3741d54941b500b390cbdc9cca86358096bc26881951321c6f9f6912d0e2",
+  "current_build_needs_recapture": false,
+  "visual_status": "acceptable_delta",
+  "states_reviewed": [
+    "default",
+    "quarter-six-periods",
+    "week-six-periods"
+  ],
+  "observations": [
+    "Month/Quarter/Week parameter titles and dynamically scaled Sales and moving average curves agree. Quarter curve no longer clips; weekly Sunday calculations match every exported value.",
+    "Date tick density/format, chart vertical proportions, and footer typography differ slightly."
+  ],
+  "interaction_status": "not_required_for_the_reported_rest_parameter_states",
+  "review_method": "Manual comparison of actual Cloud images plus complete three-state CSV verification; no browser action pass inferred."
+}

@@ -1,0 +1,30 @@
+{
+  "reviewed_at": "2026-10-02T10:52:54.333142+00:00",
+  "cloud_snapshot_captured_at": "2026-10-02T10:49:26.973261+00:00",
+  "reviewed_workbook_sha256": {
+    "author": "389bcd11c666f8f65acdf4461ab487d1d017a7cc9855be0d28afd7309617f8e5",
+    "replica": "cacc8b1e0f4c76d544f14f3f162f72c4956e61b1ba512f20505b69ea5607025f"
+  },
+  "visual_status": "acceptable_delta",
+  "pixel_matched": false,
+  "evidence": [
+    "outputs/cloud-author.png",
+    "outputs/cloud-replica.png",
+    "evidence/cloud-data-comparison.json"
+  ],
+  "matching_features": [
+    "Three category area step profiles and sales values",
+    "Maximum rise/minimum drop amounts and placement per category",
+    "Blue rise/red drop/grey ordinary vertical change marks",
+    "Light category fills, currency label precision and Jan 18/Dec 18 axis ticks",
+    "Rich title DROP red and RISE blue and creator/workout footer information"
+  ],
+  "accepted_deltas": [
+    "Category headers have title case instead of uppercase author aliases",
+    "Small differences in title font, label spacing and footer alignment",
+    "Captured version lacks continuous grey x-axis baseline; a public-SDK axis line fix has been built and requires refreshed capture"
+  ],
+  "current_build_needs_recapture": true,
+  "interactions": "not_applicable; static step chart, no dashboard actions",
+  "data_review": "207 unique normalized keys, ten measure/label fields, zero cell differences; author measure addressing annotation and category caption case normalized explicitly"
+}

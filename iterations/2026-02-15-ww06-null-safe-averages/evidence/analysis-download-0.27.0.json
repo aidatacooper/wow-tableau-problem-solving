@@ -1,0 +1,19 @@
+{
+  "download_url": "https://public.tableau.com/workbooks/2026_02_11_WW06_Averages_and_Nulls.twb",
+  "cached_path": "/srv/hermes-workspaces/wow-reference/wow-2026-ww06-null-safe-averages/2026_02_11_WW06_Averages_and_Nulls.twbx",
+  "downloaded_at": "2026-10-02T09:40:47.352814+00:00",
+  "sha256": "7240cf7366eac680f961078b25da210a01253d7c3523d7267db7e5a4ecc5b37d",
+  "locked_original_sha256": "282dc9463781e394ca355702df5f5d795e07e316e2d0816511320360485a3dd5",
+  "historical_lock_match": false,
+  "author_view_names": [
+    "2026_02_11_WW06_Averages_and_Nulls"
+  ],
+  "extracted_data": [
+    {
+      "archive_path": "Data/Datasources/Sample - Superstore_Orders.hyper",
+      "file": "inputs/Sample - Superstore_Orders.hyper",
+      "bytes": 262144,
+      "sha256": "39c9fc034d0c0490131f027f591cbdf2abc576d071b192005d412aaaee4bc787"
+    }
+  ]
+}

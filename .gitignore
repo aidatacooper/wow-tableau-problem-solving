@@ -25,3 +25,11 @@ __pycache__/
 # Operating system files
 .DS_Store
 Thumbs.db
+.worktrees/
+
+# Intermediate captures stay on the validation server; current exports and run hashes are committed.
+iterations/*/evidence/cloud-runs/**/*.png
+iterations/*/evidence/cloud-runs/**/*.csv
+
+# Downloaded full articles are analysis-only; source URLs and hashes are recorded.
+iterations/*/evidence/article-analysis.html

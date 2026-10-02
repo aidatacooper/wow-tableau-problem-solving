@@ -1,4 +1,4 @@
-schema_version: legacy-summary-1.0
+schema_version: 1.1.0
 case_id: wow-2019-ww31-hub-spoke-map
 iteration_id: 2019-08-04-ww31-hub-spoke-map
 post: posts/2019-08-04-Can_you_create_a_hub_and_spoke_map.html
@@ -27,14 +27,19 @@ source:
     sha256: 7f363cdc25ac7d0ff03e2bd11a03ebff061e981001528451c50187a63176e876
     workbook_id: tableau-29b75742e9f36c7d
 functional_status: replicated
-visual_status: not_evaluated
-cwtwb_result: null
+visual_status: acceptable_delta
+cwtwb_result: pass
 cwtwb:
-  tested_version: 0.24.0
-verification_status: historical
+  tested_version: 0.27.1
+  runs:
+  - version: 0.27.1
+    result: pass
+    evidence: evidence/current-functional-verification.json
+  tested_commit: 2ad7b6ca4f0f3a0b8731e50b4932ac21ffbcdc73
+verification_status: verified
 artifacts:
   primary_workbook: outputs/replicated-workbook.twbx
-  cloud_author: null
+  cloud_author: outputs/cloud-author.png
   cloud_replica: outputs/cloud-replica.png
 artifact_aliases:
   outputs/2019-08-04-ww31-hub-spoke-map-replicated-workbook.twbx: outputs/replicated-workbook.twbx
@@ -42,56 +47,56 @@ artifact_aliases:
 historical_artifacts:
 - path: evidence/cloud-final-Ben-Howard-Summary.png
   role: historical_auxiliary
-  note: Retained historical or additional-view artifact; not the primary replica or proof of a matched
-    pair.
+  note: Retained historical or additional-view artifact; not the primary replica or
+    proof of a matched pair.
 - path: evidence/cloud-final-Ed-Sheeran-Summary.png
   role: historical_auxiliary
-  note: Retained historical or additional-view artifact; not the primary replica or proof of a matched
-    pair.
+  note: Retained historical or additional-view artifact; not the primary replica or
+    proof of a matched pair.
 - path: evidence/cloud-final-Fellow-Artist-Word-Cloud.png
   role: historical_auxiliary
-  note: Retained historical or additional-view artifact; not the primary replica or proof of a matched
-    pair.
+  note: Retained historical or additional-view artifact; not the primary replica or
+    proof of a matched pair.
 - path: evidence/cloud-final-Monthly-Concert-Trend.png
   role: historical_auxiliary
-  note: Retained historical or additional-view artifact; not the primary replica or proof of a matched
-    pair.
+  note: Retained historical or additional-view artifact; not the primary replica or
+    proof of a matched pair.
 - path: evidence/cloud-final-Routes---East-Asia---Middle-East.png
   role: historical_auxiliary
-  note: Retained historical or additional-view artifact; not the primary replica or proof of a matched
-    pair.
+  note: Retained historical or additional-view artifact; not the primary replica or
+    proof of a matched pair.
 - path: evidence/cloud-final-Routes---Europe.png
   role: historical_auxiliary
-  note: Retained historical or additional-view artifact; not the primary replica or proof of a matched
-    pair.
+  note: Retained historical or additional-view artifact; not the primary replica or
+    proof of a matched pair.
 - path: evidence/cloud-final-Routes---North---South-America.png
   role: historical_auxiliary
-  note: Retained historical or additional-view artifact; not the primary replica or proof of a matched
-    pair.
+  note: Retained historical or additional-view artifact; not the primary replica or
+    proof of a matched pair.
 - path: evidence/cwtwb-iteration-2019-08-04-ww31-hub-spoke-map_2019_07_31_WW31_MusicData_Hub&Spoke.png
   role: historical_auxiliary
-  note: Retained historical or additional-view artifact; not the primary replica or proof of a matched
-    pair.
+  note: Retained historical or additional-view artifact; not the primary replica or
+    proof of a matched pair.
 - path: evidence/cwtwb-iteration-2019-08-04-ww31-hub-spoke-map_2019_WW31_Music_Data_Hub_&_Spoke.png
   role: historical_auxiliary
-  note: Retained historical or additional-view artifact; not the primary replica or proof of a matched
-    pair.
+  note: Retained historical or additional-view artifact; not the primary replica or
+    proof of a matched pair.
 - path: evidence/cwtwb-iteration-2019-08-04-ww31-hub-spoke-map_Ben_Howard_Summary.png
   role: historical_auxiliary
-  note: Retained historical or additional-view artifact; not the primary replica or proof of a matched
-    pair.
+  note: Retained historical or additional-view artifact; not the primary replica or
+    proof of a matched pair.
 - path: evidence/cwtwb-iteration-2019-08-04-ww31-hub-spoke-map_Fellow_Artist_Word_Cloud.png
   role: historical_auxiliary
-  note: Retained historical or additional-view artifact; not the primary replica or proof of a matched
-    pair.
+  note: Retained historical or additional-view artifact; not the primary replica or
+    proof of a matched pair.
 - path: evidence/cwtwb-iteration-2019-08-04-ww31-hub-spoke-map_Monthly_Concert_Trend.png
   role: historical_auxiliary
-  note: Retained historical or additional-view artifact; not the primary replica or proof of a matched
-    pair.
+  note: Retained historical or additional-view artifact; not the primary replica or
+    proof of a matched pair.
 - path: evidence/cwtwb-iteration-2019-08-04-ww31-hub-spoke-map_Routes_—_North_&_South_America.png
   role: historical_auxiliary
-  note: Retained historical or additional-view artifact; not the primary replica or proof of a matched
-    pair.
+  note: Retained historical or additional-view artifact; not the primary replica or
+    proof of a matched pair.
 - path: evidence/map-probe-M1-Route-Base.png
   role: probe
   note: Experimental probe retained unchanged; not the primary output or matched screenshot.
@@ -156,21 +161,59 @@ historical_artifacts:
   role: probe
   note: Experimental probe retained unchanged; not the primary output or matched screenshot.
 - path: outputs/2019-08-04-ww31-hub-spoke-map-replicated-workbook.twb
-  role: historical_twb_companion
-  note: Unpackaged companion retains its original name and bytes; primary packaged output is replicated-workbook.twbx.
+  role: sdk_generated_twb_companion
+  note: Current companion rebuilt from an empty workbook using public SDK APIs. Historical
+    bytes remain in baseline commit a409e3ce7f071303777854aa2c40c2838c9e4f4c.
 evidence:
 - evidence/acceptance.json
 - evidence/source-lock.json
 - evidence/validation.json
 - evidence/workbook-inventory.json
+- inputs/source-lock.json
+- evidence/current-functional-verification.json
+- evidence/cloud-verification.json
+- evidence/history/pre-ten-cloud-verification/case.yaml
+- evidence/visual-review.json
+- evidence/wordcloud-filter-data.json
+- evidence/scope-acceptance.json
+- evidence/acceptance-history/browser-ui-protocol/case.yaml
+- evidence/acceptance-history/browser-ui-protocol/visual-review.json
+- evidence/acceptance-history/browser-ui-protocol/current-functional-verification.json
 notes:
-- Identity/path migration only; no rebuild, retest of visuals, or Cloud publishing. Historical evidence
-  IDs and hash-keyed filenames resolve through legacy_case_ids and artifact_aliases.
-- Source archive paths may be unavailable in a clean checkout; URL and locked hash identify the original
-  source. Null hashes/SDK results mean unknown, not inferred success.
-- No confidently identified primary author screenshot.
-- Grandfathered identity/summary metadata only. Historical verification is not v1 acceptance certification;
-  historical builders may read author data carriers and must be migrated separately before v1 rebuild
-  validation.
-- Original consumed status, commits, capabilities and reason retained verbatim in usage/history/consumed-cases-before-standardization.json;
-  current summaries come only from this case.yaml.
+- Rebuilt with cwtwb 0.27.1 using independent inputs and public high-level SDK APIs
+  only.
+- Article and official challenge dates remain the only date identities.
+- Historical locks and acceptance are preserved separately; current Cloud source hashes
+  identify refreshed author snapshots and do not certify byte identity with unavailable
+  historical author packages.
+- Cloud images and CSV are real server exports. Hover/click actions are not inferred
+  from static XML or screenshots.
+- 'Accepted under cloud_rest_and_artifact_contracts: real Cloud exports and executable
+  artifact/locked-Hyper contracts. Browser events not executed; prior browser protocol
+  preserved in evidence/acceptance-history/browser-ui-protocol/.'
+analysis_status: completed
+remaining_work: []
+inputs:
+  data_files:
+  - inputs/2019_07_31_PD25_WWPD_MusicData_Output.hyper
+  - inputs/region-members.csv
+acceptance:
+- id: case-functional-contract
+  description: Independent locked data, observable chart/calculation/action definitions,
+    packaged artifact and SDK round-trip.
+  mode: automated
+- id: cloud-state-and-visual-review
+  description: Actual Cloud exports reviewed with documented acceptable visual deltas
+    under Cloud REST and artifact-contract scope.
+  mode: manual
+  evidence: evidence/visual-review.json
+- id: action-field-mapping-contract
+  description: Exact action activation, source fields, destination fields/parameters
+    and clearing definitions.
+  mode: automated
+- id: wordcloud-filter-data-contract
+  description: Independent locked-Hyper Artist/Region aggregation and filter-removal
+    contract.
+  mode: automated
+acceptance_scope: cloud_rest_and_artifact_contracts
+browser_interaction_executed: false

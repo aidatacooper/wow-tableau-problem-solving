@@ -4,26 +4,17 @@ Recreates the 2019-08-14 WW33 Tableau workbook completely via cwtwb SDK.
 """
 from __future__ import annotations
 
-import datetime as _dt
 import json
-import sys
 from pathlib import Path
 
 # ── Path resolution ──────────────────────────────────────────────────
 ITERATION_DIR = Path(__file__).resolve().parent
-# The iteration lives in the nested WoW repository, while the SDK source is
-# provided by the sibling cwtwb repository two levels above ``iterations``.
-REPO_ROOT = ITERATION_DIR.parents[2]
-SRC = REPO_ROOT / "src"
-sys.path.insert(0, str(SRC))
-
 from cwtwb import TableColumn, TWBEditor  # noqa: E402
 
 INPUT_HYPER = ITERATION_DIR / "inputs" / "Orders (Sample - Superstore).hyper"
-TEMPLATE = SRC / "cwtwb" / "references" / "empty_template.twb"
 OUTPUT_DIR = ITERATION_DIR / "outputs"
 
-DASHBOARD_NAME = f"2019_08_14_WW33_Table_Formatting_{_dt.datetime.now():%H%M%S}"
+DASHBOARD_NAME = "WW33 Table Formatting"
 
 # ── Formatting Constants ─────────────────────────────────────────────
 CURRENCY_FMT = 'c"$"#,##0;-"$"#,##0'
@@ -158,85 +149,23 @@ TABLE_COLUMNS = [
 
 # ── Dashboard Layout Tree ─────────────────────────────────────────────
 DASHBOARD_LAYOUT = {
-    "type": "container",
-    "direction": "vertical",
-    "children": [
-        # Title row
-        {
-            "type": "container",
-            "direction": "horizontal",
-            "fixed_size": 72,
-            "children": [
-                {"type": "worksheet", "name": "Title", "fixed_size": 420},
-                {
-                    "type": "container",
-                    "direction": "horizontal",
-                    "children": [
-                        {
-                            "type": "filter",
-                            "field": "Sub-Category",
-                            "mode": "checkdropdown",
-                            "show_apply": True,
-                        },
-                        {
-                            "type": "paramctrl",
-                            "param": "Selected Region",
-                            "mode": "dropdown",
-                        },
-                        {
-                            "type": "paramctrl",
-                            "param": "Highlight Threshold",
-                            "mode": "type_in",
-                        },
-                    ],
-                },
-            ],
-        },
-        # Content row
-        {
-            "type": "container",
-            "direction": "horizontal",
-            "children": [
-                {"type": "worksheet", "name": "Table", "show_title": False},
-                {"type": "worksheet", "name": "Bar", "show_title": False},
-            ],
-        },
-        # Footer text zones
-        {
-            "type": "text",
-            "absolute": {"x": 889, "y": 91667, "w": 20333, "h": 7000},
-            "runs": [
-                {"text": "DESIGNED BY: ", "bold": True, "font_color": "#333333", "font_size": "8"},
-                {"text": "Corey Jones", "font_color": "#333333", "font_size": "8"},
-            ],
-        },
-        {
-            "type": "text",
-            "absolute": {"x": 21889, "y": 91667, "w": 38111, "h": 7000},
-            "runs": [
-                {"text": "CRITIQUE BY: ", "bold": True, "font_color": "#333333", "font_size": "8"},
-                {"text": "Andy Kriebel & Eva Murray", "font_color": "#333333", "font_size": "8"},
-            ],
-        },
-        {
-            "type": "text",
-            "absolute": {"x": 60111, "y": 91667, "w": 39000, "h": 7000},
-            "runs": [
-                {"text": "DATA SOURCE: ", "bold": True, "font_color": "#333333", "font_size": "8"},
-                {"text": "Sample - Superstore 2019.2", "font_color": "#333333", "font_size": "8"},
-            ],
-        },
-    ],
+    "type": "container", "direction": "floating", "children": [
+        {"type": "worksheet", "name": "Title", "absolute": {"x": 889, "y": 1333, "w": 61667, "h": 12000}},
+        {"type": "filter", "worksheet": "Table", "field": "Sub-Category", "mode": "checkdropdown", "absolute": {"x": 62556, "y": 1333, "w": 19778, "h": 12000}},
+        {"type": "paramctrl", "parameter": "Highlight Threshold", "mode": "type_in", "absolute": {"x": 82334, "y": 1333, "w": 16777, "h": 12000}},
+        {"type": "worksheet", "name": "Table", "show_title": False, "fit": "entire", "absolute": {"x": 889, "y": 13333, "w": 58778, "h": 78334}},
+        {"type": "worksheet", "name": "Bar", "show_title": False, "fit": "entire", "absolute": {"x": 59667, "y": 13333, "w": 39444, "h": 74584}},
+        {"type": "text", "text": "DESIGNED BY:Corey Jones", "font_size": "8", "absolute": {"x": 889, "y": 91667, "w": 20333, "h": 7000}},
+        {"type": "text", "runs": [{"text": "#WORKOUTWEDNESDAY | 2019 | WEEK 33\n", "font_size": "8"}, {"text": "http://www.workout-wednesday.com/2019-w33/", "font_size": "8", "font_color": "#3093bb", "hyperlink": "http://www.workout-wednesday.com/2019-w33/"}], "absolute": {"x": 21222, "y": 91667, "w": 56334, "h": 7000}},
+        {"type": "text", "text": "RECREATED BY: Donna Coles", "font_size": "8", "absolute": {"x": 77556, "y": 91667, "w": 21555, "h": 7000}},
+    ]
 }
 
 
 def build() -> dict:
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    editor = TWBEditor(TEMPLATE, clear_existing_content=True)
+    editor = TWBEditor("")
     editor.set_hyper_connection(str(INPUT_HYPER), table_name="Extract")
-
-    ds = editor._datasource
-    ds_name = ds.get("name", "")
 
     # Add parameters
     editor.add_parameter(
@@ -267,20 +196,6 @@ def build() -> dict:
             internal_name=internal,
         )
 
-    # Configure color palettes on datasource
-    def _inst(internal: str, kind: str) -> str:
-        prefix = "none" if kind == "dim" else "usr"
-        suffix = {"qk": "qk", "ok": "ok", "nk": "nk", "dim": "nk"}[kind]
-        return f"[{prefix}:{internal[1:-1]}:{suffix}]"
-
-    editor.set_datasource_color_palette(
-        "Measure Names",
-        color_map={
-            f'"[{ds_name}].{_inst(N_PCT_SEL, "qk")}"': "#5c6068",
-            f'"[{ds_name}].{_inst(N_BAR_MIN1, "qk")}"': "#ffffff",
-        },
-        is_measure_names=True,
-    )
     editor.set_datasource_color_palette(
         "Highlight",
         color_map={"true": "#d3d3d3", "false": "#ffffff"},
@@ -325,27 +240,12 @@ def build() -> dict:
         columns=["LABEL:Bar", "% Sales for Selected Region", "MIN(1) Bar"],
         rows=["Sub-Category"],
         dual_axis_shelf="cols",
-        color_by_measure_names=True,
+        mark_color_1="#5c6068",
+        mark_color_2="#ffffff",
         fold_axis=True,
-        extra_axes=[
-            {
-                "field": "% Sales for Selected Region",
-                "kind": "qk",
-                "range_type": "fixed",
-                "min": -0.07,
-                "max": 1.02,
-                "show": True,
-            },
-            {
-                "field": "MIN(1) Bar",
-                "kind": "qk",
-                "fold": True,
-                "synchronized": True,
-            },
-        ],
         label_1="% Sales for Selected Region",
         label_2="% Sales All Others",
-        hide_axes=True,
+        hide_axes=False,
         hide_zeroline=True,
         mark_sizing_off=True,
         size_value_1=BAR_MARK_SIZE,
@@ -356,6 +256,16 @@ def build() -> dict:
         hide_gridlines=True,
         hide_zeroline=True,
         hide_table_dividers=True,
+        hide_col_field_labels=True,
+        axis_style={"title": "", "tick-color": "#00000000", "render-fold-reversed": "true", "encodings": [
+            {"field": "% Sales for Selected Region", "class": "0", "scope": "cols", "range_type": "fixed", "min": -0.07, "max": 1.02, "major_show": False, "minor_show": False},
+            {"field": "MIN(1) Bar", "class": "0", "scope": "cols", "fold": True, "synchronized": True},
+        ], "per_field": [
+            {"field": "% Sales for Selected Region", "attr": "display", "class": "0", "scope": "cols", "value": "false"},
+            {"field": "MIN(1) Bar", "attr": "display", "class": "0", "scope": "cols", "value": "false"},
+        ]},
+        pane_mark_style={"has_stroke": "true", "stroke_color": "#666666"},
+        panes_style={"1": {"cell_style": {"text_align": "left"}, "mark_style": {"has_stroke": "true", "stroke_color": "#666666"}}, "2": {"cell_style": {"text_align": "right"}, "mark_style": {"has_stroke": "true", "stroke_color": "#666666"}}},
         cell_formats=[{"field": "Sub-Category", "height": 38}],
         header_formats=[{"height_header": 44}],
         label_formats=[

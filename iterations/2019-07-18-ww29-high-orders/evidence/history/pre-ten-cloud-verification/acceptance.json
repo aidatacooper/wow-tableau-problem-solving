@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0.0",
+  "status": "passed",
+  "checks": {
+    "original_hyper_present": true,
+    "fixed_lod_chain_present": true,
+    "gantt_bar_present": true,
+    "difference_size_encoding_present": true,
+    "conditional_color_present": true,
+    "percent_label_present": true,
+    "field_backed_reference_line_present": true,
+    "dashboard_present": true,
+    "roundtrip_passed": true,
+    "cloud_marks_visible": true
+  }
+}

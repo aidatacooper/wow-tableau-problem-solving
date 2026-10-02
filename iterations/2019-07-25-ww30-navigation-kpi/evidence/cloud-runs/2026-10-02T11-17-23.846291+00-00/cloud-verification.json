@@ -1,0 +1,309 @@
+{
+  "case_id": "wow-2019-ww30-navigation-kpi",
+  "iteration_id": "2019-07-25-ww30-navigation-kpi",
+  "captured_at": "2026-10-02T11:17:23.846291+00:00",
+  "source_hashes": {
+    "author": "53645fae30240a543df101cfe37f7920c5c074d7426fcefbd4048c31a86868a8",
+    "replica": "67f731bcfa60488b72568aa1df4d7ca48b36215dddfebec2e2c1bb205fb43c2a"
+  },
+  "request_settings": {
+    "case_id": "wow-2019-ww30-navigation-kpi",
+    "iteration_id": "2019-07-25-ww30-navigation-kpi",
+    "author_workbook_path": "/srv/hermes-workspaces/wow-reference/wow-2019-ww30-navigation-kpi/2019_07_24_WW30_Navigation_KPI.twbx",
+    "replica_workbook_path": "/srv/hermes-workspaces/wow-case-standardization/iterations/2019-07-25-ww30-navigation-kpi/outputs/replicated-workbook.twbx",
+    "author_view_name": "4 Box KPI",
+    "replica_view_name": "4 Box KPI",
+    "states": [
+      {
+        "name": "customer-sales",
+        "author_view_name": "Customer Sales",
+        "replica_view_name": "Customer Sales"
+      },
+      {
+        "name": "product-sales",
+        "author_view_name": "Product Sales",
+        "replica_view_name": "Product Sales"
+      },
+      {
+        "name": "city-sales",
+        "author_view_name": "City Sales",
+        "replica_view_name": "City Sales"
+      },
+      {
+        "name": "order-sales",
+        "author_view_name": "Order Sales",
+        "replica_view_name": "Order Sales"
+      }
+    ],
+    "_request_file": "/srv/hermes-workspaces/wow-cloud-queue/wow-2019-ww30-navigation-kpi.json"
+  },
+  "workbooks": {
+    "author": {
+      "id": "63456339-e5fc-47a5-bac5-af0bd5390353",
+      "name": "cwtwb-review-wow-2019-ww30-navigation-kpi-author",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2922838"
+    },
+    "replica": {
+      "id": "e573ce11-1266-444f-9e16-5b1c883be2d9",
+      "name": "cwtwb-review-wow-2019-ww30-navigation-kpi-replica",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2922839"
+    }
+  },
+  "export_resolution": "high",
+  "maxage_minutes": 1,
+  "status": "rendered_needs_visual_and_interaction_review",
+  "states": [
+    {
+      "name": "default",
+      "filters": {},
+      "parameters": {},
+      "views": {
+        "author": {
+          "id": "23385b97-4fe4-4815-b932-eb4efee1fa25",
+          "name": "4 Box KPI",
+          "path": "cloud-author.png",
+          "size": [
+            1200,
+            1200
+          ],
+          "sha256": "bd53f9313c971ce034618af74b8c23ace25aeeb1f4451af02f5839a4555e4dda",
+          "data_export": {
+            "path": "cloud-author.csv",
+            "sha256": "9d109c4b66e4f2f89ccf364d5eb4c8f99e772155e3cb32b41a2a277a0f076ee1",
+            "bytes": 53
+          }
+        },
+        "replica": {
+          "id": "057b1980-32c9-418a-af07-0ff493efde37",
+          "name": "4 Box KPI",
+          "path": "cloud-replica.png",
+          "size": [
+            1200,
+            1200
+          ],
+          "sha256": "300768ef2bdb141b7081a44afedf0f44917003b8ae34e623116078ce4e0c2b8e",
+          "data_export": {
+            "path": "cloud-replica.csv",
+            "sha256": "5d6f0f414f330ebebb4d88d42a2efdc4701d73d41ab8e658655b3e711ee93b22",
+            "bytes": 147
+          }
+        }
+      },
+      "comparison": {
+        "same_dimensions": true,
+        "author_size": [
+          1200,
+          1200
+        ],
+        "replica_size": [
+          1200,
+          1200
+        ],
+        "mean_absolute_channel_difference_0_to_255": 10.879219675925926,
+        "pixel_identical": false
+      }
+    },
+    {
+      "name": "customer-sales",
+      "filters": {},
+      "parameters": {},
+      "views": {
+        "author": {
+          "id": "b252af47-efa6-4e9b-b9d0-e476e9a4bb34",
+          "name": "Customer Sales",
+          "path": "cloud-author-customer-sales.png",
+          "size": [
+            1200,
+            1200
+          ],
+          "sha256": "a1dec9be3159441e280e9f0a52f8d12116138605928f2c502069eab6dcfeca33",
+          "data_export": {
+            "path": "cloud-author-customer-sales.csv",
+            "sha256": "b83ce3ce72e912627bb03ef3137ef9afb127820100feb0d55773ac7914e36dd7",
+            "bytes": 22328
+          }
+        },
+        "replica": {
+          "id": "22d5b784-09a9-4ac6-bf34-1fc5724f0b5d",
+          "name": "Customer Sales",
+          "path": "cloud-replica-customer-sales.png",
+          "size": [
+            1200,
+            1200
+          ],
+          "sha256": "8d0af4707694c264b20ed55e58e13de8e72c9778d20d51169856f7ecac430bd9",
+          "data_export": {
+            "path": "cloud-replica-customer-sales.csv",
+            "sha256": "ae4cc59e071527d3e2bbcc6428d303f92c2a9db33fc649004315f7f8c79c79a6",
+            "bytes": 28645
+          }
+        }
+      },
+      "comparison": {
+        "same_dimensions": true,
+        "author_size": [
+          1200,
+          1200
+        ],
+        "replica_size": [
+          1200,
+          1200
+        ],
+        "mean_absolute_channel_difference_0_to_255": 22.38761226851852,
+        "pixel_identical": false
+      }
+    },
+    {
+      "name": "product-sales",
+      "filters": {},
+      "parameters": {},
+      "views": {
+        "author": {
+          "id": "c83111a5-b136-4de8-bc9f-e60370ab0cc8",
+          "name": "Product Sales",
+          "path": "cloud-author-product-sales.png",
+          "size": [
+            1200,
+            1200
+          ],
+          "sha256": "38ba0220ba4a580b12d3c8cb6b2ac57c0d091b0244769fc06d4e595e3affd44d",
+          "data_export": {
+            "path": "cloud-author-product-sales.csv",
+            "sha256": "deffdd58949cf5380cde89ea118ace7abfe9c460242c6b510421149b40d80515",
+            "bytes": 94432
+          }
+        },
+        "replica": {
+          "id": "3b3401d9-6e28-4a58-9008-c9c8b990ec78",
+          "name": "Product Sales",
+          "path": "cloud-replica-product-sales.png",
+          "size": [
+            1200,
+            1200
+          ],
+          "sha256": "9f1f9cf083afb1a99bdbfabe822a8c7fba4e3a201b44251241c851a4c20b4af3",
+          "data_export": {
+            "path": "cloud-replica-product-sales.csv",
+            "sha256": "0937ab77c03ffa239fcfa94ca49070e75c25859ac2171d59dfaf4a1ac7fe78e3",
+            "bytes": 155743
+          }
+        }
+      },
+      "comparison": {
+        "same_dimensions": true,
+        "author_size": [
+          1200,
+          1200
+        ],
+        "replica_size": [
+          1200,
+          1200
+        ],
+        "mean_absolute_channel_difference_0_to_255": 16.680395601851853,
+        "pixel_identical": false
+      }
+    },
+    {
+      "name": "city-sales",
+      "filters": {},
+      "parameters": {},
+      "views": {
+        "author": {
+          "id": "e8940b5a-410b-4762-8d1b-f2334a85aaad",
+          "name": "City Sales",
+          "path": "cloud-author-city-sales.png",
+          "size": [
+            1200,
+            1200
+          ],
+          "sha256": "121fd4c8bcb43749c7470525e9c7887375319d192c00a4ca32b29749fc672308",
+          "data_export": {
+            "path": "cloud-author-city-sales.csv",
+            "sha256": "b63fe05dac92e7a06dc17d7308bc69acf89dd558709692509878efaf293caffa",
+            "bytes": 21106
+          }
+        },
+        "replica": {
+          "id": "939ce12a-755d-4c38-a12f-1f68e7e698b5",
+          "name": "City Sales",
+          "path": "cloud-replica-city-sales.png",
+          "size": [
+            1200,
+            1200
+          ],
+          "sha256": "2c0687e44e3b166ba88b119cf778c25aed0a03d5df58921935b34ba1320afb62",
+          "data_export": {
+            "path": "cloud-replica-city-sales.csv",
+            "sha256": "47ddfb53314e9a305964a04c7d4da17d92c25ee208bea5a5fbaaf350c4f370d0",
+            "bytes": 30817
+          }
+        }
+      },
+      "comparison": {
+        "same_dimensions": true,
+        "author_size": [
+          1200,
+          1200
+        ],
+        "replica_size": [
+          1200,
+          1200
+        ],
+        "mean_absolute_channel_difference_0_to_255": 13.837556944444446,
+        "pixel_identical": false
+      }
+    },
+    {
+      "name": "order-sales",
+      "filters": {},
+      "parameters": {},
+      "views": {
+        "author": {
+          "id": "a9586584-97ec-472b-9917-4881b36d3abc",
+          "name": "Order Sales",
+          "path": "cloud-author-order-sales.png",
+          "size": [
+            1200,
+            1200
+          ],
+          "sha256": "70c19c7f4d695164a1eed2a1caed9d22122fc1cca52b5c1ceb61b8028311e540",
+          "data_export": {
+            "path": "cloud-author-order-sales.csv",
+            "sha256": "a258add40835b3dfd885202ee654fc88c78e52673ab3ab4faa28a60d4b3581cc",
+            "bytes": 130315
+          }
+        },
+        "replica": {
+          "id": "0a90320d-1fee-469f-9b2d-ef8958368550",
+          "name": "Order Sales",
+          "path": "cloud-replica-order-sales.png",
+          "size": [
+            1200,
+            1200
+          ],
+          "sha256": "d6eaee6fe185c51b55dccfb0fbaaedf737b2097125903fb18de06bcdfc364a2a",
+          "data_export": {
+            "path": "cloud-replica-order-sales.csv",
+            "sha256": "5b89e9188d1994f5d092abf24bc19adc517b2d00230b3f4d3bf15bb43cd44d52",
+            "bytes": 175397
+          }
+        }
+      },
+      "comparison": {
+        "same_dimensions": true,
+        "author_size": [
+          1200,
+          1200
+        ],
+        "replica_size": [
+          1200,
+          1200
+        ],
+        "mean_absolute_channel_difference_0_to_255": 16.782299537037037,
+        "pixel_identical": false
+      }
+    }
+  ],
+  "visual_status": "not_evaluated",
+  "interaction_status": "not_evaluated"
+}

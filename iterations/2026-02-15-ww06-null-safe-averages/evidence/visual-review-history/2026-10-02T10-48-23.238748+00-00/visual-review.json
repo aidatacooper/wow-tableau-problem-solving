@@ -1,0 +1,36 @@
+{
+  "reviewed_at": "2026-10-02T10:53:54.406116+00:00",
+  "cloud_snapshot_captured_at": "2026-10-02T10:48:23.238748+00:00",
+  "reviewed_workbook_sha256": {
+    "author": "7240cf7366eac680f961078b25da210a01253d7c3523d7267db7e5a4ecc5b37d",
+    "replica": "95ee5d3fbb1fd8be96e9a02c469095fa1ea226461b24f8535b2281949f9b9b7e"
+  },
+  "visual_status": "not_evaluated",
+  "pixel_matched": false,
+  "scope": "Default and REST-driven filter/parameter screenshots; browser Apply click has not been exercised",
+  "default_matching_features": [
+    "Sunday-Saturday complete matrix",
+    "All detail order counts and null-prefix *0",
+    "Three category Avg rows with two decimals including *0.00",
+    "Diverging blue/white palette and orange subtotal borders",
+    "Apply grey when min/max range equals parameter dates"
+  ],
+  "short_date_range_review": "Compared every visible count and all 21 Avg weekday cells; values and *0 null labels equal. Both author and replica render Apply orange when parameter range differs from date-filter range. REST parameter state does not prove clicking Apply works.",
+  "furniture_only_review": "All four visible detail rows and seven Avg values agree. Captured fit-entire version stretches rows; latest builder now uses fit-width with explicit 25px row height and awaits recapture.",
+  "remaining_work": [
+    "Refresh latest build to confirm normal row height in furniture-only filter",
+    "Refresh text alignment and control backgrounds",
+    "Exercise Apply click in authenticated browser, verify pMinDate/pMaxDate update and selected mark clears"
+  ],
+  "current_build_needs_recapture": true,
+  "csv_scope": "Dashboard CSV returns Apply Button Filter only; no independent matrix CSV has yet been retrieved",
+  "evidence": [
+    "outputs/cloud-author.png",
+    "outputs/cloud-replica.png",
+    "outputs/cloud-author-short-date-range.png",
+    "outputs/cloud-replica-short-date-range.png",
+    "outputs/cloud-author-furniture-only.png",
+    "outputs/cloud-replica-furniture-only.png",
+    "evidence/current-functional-verification.json"
+  ]
+}

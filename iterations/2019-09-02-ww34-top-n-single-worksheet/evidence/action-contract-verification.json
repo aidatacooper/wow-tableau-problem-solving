@@ -1,0 +1,30 @@
+{
+  "case_id": "wow-2019-ww34-top-n-single-worksheet",
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "passed": true,
+  "artifact_sha256": "08e176cc0b2aaa178a7d1a480f722a839506a3d70fed4284b0b747f7b5f8ff9a",
+  "cloud_captured_at": "2026-10-02T11:10:53.632338+00:00",
+  "cloud_source_hashes": {
+    "author": "e748228aa618417ec224a1b818ac6a88c64d830637609792520918fe242ac66a",
+    "replica": "08e176cc0b2aaa178a7d1a480f722a839506a3d70fed4284b0b747f7b5f8ff9a"
+  },
+  "verifier_sha256": "81c41534471f0f056f82ca4fccc02719e16088b608061f9db3e644d279e80e53",
+  "verifier_exit_code": 0,
+  "verifier_stdout": "[PASS] source_independence\n[PASS] build_provenance\n[PASS] structure\n[PASS] semantic\n[PASS] visual\n[PASS] cloud_openability\n[PASS] sdk_action_mapping\n\nstatus = semantically_replicated  (from_scratch=True)\n",
+  "coverage": [
+    "Three actual author/replica REST states default15/top5/top5IncludingOther CSV bytes exactly equal",
+    "Single on-hover source dashboard/Viz worksheet resolves to actual source zone",
+    "Exact main datasource HighlightedManufacturer target set and initial empty-level verified",
+    "Clear exclude-all and conditional ranked label formula verified",
+    "Nested per-region descending Quantity table calculation addressing verified"
+  ],
+  "limitations": [
+    "Browser hover execution not claimed; user accepts REST and artifact contracts."
+  ],
+  "python311_compatibility": {
+    "interpreter": "/srv/hermes-workspaces/wow-ci-python311-validation/.venv-ci/bin/python3.11",
+    "exit_code": 0,
+    "stdout": "[PASS] source_independence\n[PASS] build_provenance\n[PASS] structure\n[PASS] semantic\n[PASS] visual\n[PASS] cloud_openability\n[PASS] sdk_action_mapping\n\nstatus = semantically_replicated  (from_scratch=True)\n"
+  }
+}

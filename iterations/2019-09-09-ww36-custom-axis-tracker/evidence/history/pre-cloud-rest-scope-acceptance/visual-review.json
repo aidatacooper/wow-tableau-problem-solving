@@ -1,0 +1,12 @@
+{
+  "captured_at": "2026-10-02T11:11:46.297443+00:00",
+  "reviewed_workbook_sha256": "e80b66a2d77a66c4599d98de7ebe712b22ae0e489ac8adf848bcc59f1c0b3621",
+  "current_workbook_sha256": "e80b66a2d77a66c4599d98de7ebe712b22ae0e489ac8adf848bcc59f1c0b3621",
+  "current_build_needs_recapture": false,
+  "visual_status": "acceptable_delta",
+  "observations": [
+    "Plot height and footer positions differ slightly; reference baseline and custom-axis points agree."
+  ],
+  "interaction_status": "not_evaluated",
+  "review_method": "Manual inspection of actual side-by-side author/replica Tableau Cloud high-resolution images; CSV checked separately."
+}
