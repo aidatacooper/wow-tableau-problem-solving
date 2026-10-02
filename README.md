@@ -155,3 +155,5 @@ article publication date; canonical IDs include the explicit challenge year.
 Maintain `case.yaml` as the editable status source and regenerate both indexes
 with `python scripts/case_catalogue.py --write`. Include generated index changes
 with the case change; archived pilots and legacy aliases do not add active cases.
+
+Additional independent cases: [five-case Cloud review](docs/five-case-cloud-review.md) (2019 WW46/47/48 and 2026 WW07/09).

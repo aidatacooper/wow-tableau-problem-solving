@@ -1,0 +1,19 @@
+{
+  "sdk_version": "0.27.1",
+  "sdk_commit": "0958b51e18cd3120a2f67fd7dbcc7e978a105399",
+  "sdk_tests": {
+    "passed": 453,
+    "skipped": 25
+  },
+  "method": "Complete pytest suite of current SDK source snapshot without machine-specific .env; locked Git commit installed for independent case rebuild validation.",
+  "regression_test": "tests/test_layered_encoding_contracts.py",
+  "credentials_in_evidence": false,
+  "case_shared_tests": {
+    "passed": 55
+  },
+  "catalogue_validation": {
+    "active_cases": 25,
+    "isolated_rebuilds": "all passed"
+  },
+  "sdk_ci": "https://github.com/aidatacooper/cwtwb/actions/runs/37019820792"
+}

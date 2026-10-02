@@ -1,0 +1,3 @@
+# REST CSV evidence is hash-bound to the exact exported bytes. Never convert
+# line endings when staging or checking out these captures on Windows.
+iterations/*/outputs/*.csv -text

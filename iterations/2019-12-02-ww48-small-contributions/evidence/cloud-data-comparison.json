@@ -1,0 +1,77 @@
+{
+  "scope": "Final REST captures: complete displayed grouped bars and table-calculated count columns reconciled against full independent Hyper oracle; rounded shares within .005 percentage points.",
+  "comparisons": [
+    {
+      "path": "outputs/cloud-author-bars.csv",
+      "sha256": "6771376da2ae8635dbbc9b1f56c91504d5b0524efea06015dffadd479caeb8ae",
+      "threshold": 0.03,
+      "row_count": 22,
+      "complete_grouped_bars": true,
+      "share_tolerance": 5e-05,
+      "listed": 10,
+      "grouped": 39,
+      "count_columns_match": true,
+      "passed": true
+    },
+    {
+      "path": "outputs/cloud-replica-bars.csv",
+      "sha256": "f66d5c04fb0a7ea8529389258809f828c27e7fc8d01aded6cd8e1e516a7be707",
+      "threshold": 0.03,
+      "row_count": 22,
+      "complete_grouped_bars": true,
+      "share_tolerance": 5e-05,
+      "listed": 10,
+      "grouped": 39,
+      "count_columns_match": true,
+      "passed": true
+    },
+    {
+      "path": "outputs/cloud-author-bars-threshold-one.csv",
+      "sha256": "2b5aeddeb633a22799cd1ca8b189add9a46f30b09c1ac40f26689131346db28e",
+      "threshold": 0.01,
+      "row_count": 48,
+      "complete_grouped_bars": true,
+      "share_tolerance": 5e-05,
+      "listed": 23,
+      "grouped": 26,
+      "count_columns_match": true,
+      "passed": true
+    },
+    {
+      "path": "outputs/cloud-replica-bars-threshold-one.csv",
+      "sha256": "50739114008f39303b5591b4941eb01e58181a1999785448a199c74f42e36ebb",
+      "threshold": 0.01,
+      "row_count": 48,
+      "complete_grouped_bars": true,
+      "share_tolerance": 5e-05,
+      "listed": 23,
+      "grouped": 26,
+      "count_columns_match": true,
+      "passed": true
+    },
+    {
+      "path": "outputs/cloud-author-bars-threshold-five.csv",
+      "sha256": "e765f0e3d18a25740702582451a7510a05f6aaea0e58b41aa6d017def57d6ba2",
+      "threshold": 0.05,
+      "row_count": 12,
+      "complete_grouped_bars": true,
+      "share_tolerance": 5e-05,
+      "listed": 5,
+      "grouped": 44,
+      "count_columns_match": true,
+      "passed": true
+    },
+    {
+      "path": "outputs/cloud-replica-bars-threshold-five.csv",
+      "sha256": "1d43bb4e10eadd1ffbd875629643126c028c3c1c7000ad219a64dfea345d1ab5",
+      "threshold": 0.05,
+      "row_count": 12,
+      "complete_grouped_bars": true,
+      "share_tolerance": 5e-05,
+      "listed": 5,
+      "grouped": 44,
+      "count_columns_match": true,
+      "passed": true
+    }
+  ]
+}

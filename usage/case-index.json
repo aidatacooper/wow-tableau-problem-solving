@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "generated_from": "iterations/*/case.yaml",
-  "active_case_count": 20,
+  "active_case_count": 25,
   "legacy_case_ids": {
     "donna-2019-07-18-63877b35d19a": "wow-2019-ww29-high-orders",
     "donna-2019-07-25-59a0a144b25b": "wow-2019-ww30-navigation-kpi",
@@ -1422,6 +1422,180 @@
       "tested_sdk_version": "0.27.0"
     },
     {
+      "case_id": "wow-2019-ww46-dynamic-scatter-brushing",
+      "legacy_case_ids": {},
+      "iteration_id": "2019-11-17-ww46-dynamic-scatter-brushing",
+      "article_date": "2019-11-17",
+      "challenge_year": 2019,
+      "challenge_week": 46,
+      "challenge_date": "2019-11-13",
+      "date_evidence": {
+        "article_date": "Article og:published_time and article URL, verified against index.json",
+        "challenge": "Explicit challenge_year; week declared in iteration_id",
+        "challenge_date": "Official WordPress REST publication date, wp-json/wp/v2/posts?slug=2019-week-46-can-you-build-a-dynamic-scatter-plot-with-proportional-brushing"
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2019-week-46-can-you-build-a-dynamic-scatter-plot-with-proportional-brushing/",
+          "wordpress_post_id": 3032
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2019/11/17/can-you-build-a-dynamic-scatter-plot-with-proportional-brushing/",
+          "path": null,
+          "sha256": "9a3609d5d22137b5d38eed4582a39f8b6682b09529a5aff1639ff3e8c50c5399"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2019_11_13_WW45_Dynamic_Scatter_Proportional_Brushing/2019_11_13_WW46_Dynamic_Scatter_Proportional_Brushing",
+          "filename": "2019_11_13_WW45_Dynamic_Scatter_Proportional_Brushing.twbx",
+          "sha256": "53e331edc48839b442ac8c4be45206d642e14d12af9a11d856fe3d91e5821ebe",
+          "path": "dashboards/2019_11_13_WW45_Dynamic_Scatter_Proportional_Brushing.twbx"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "pass",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "inputs/source-lock.json",
+        "evidence/data-contract.json",
+        "evidence/cloud-verification.json",
+        "evidence/cloud-data-comparison.json",
+        "evidence/visual-review.md",
+        "evidence/sdk-validation.json"
+      ],
+      "notes": [
+        "Author workbook filename contains WW45, but article/dashboard and official challenge identify WW46. Retain original filename.",
+        "Current local builder requires optional group-default enhancement coordinated in SDK; exact final SDK revision will be recorded after commit.",
+        "Cloud REST images/data states and artifact contracts reviewed. Remaining presentation differences documented in evidence/visual-review.md; no browser events executed."
+      ],
+      "metadata": "iterations/2019-11-17-ww46-dynamic-scatter-brushing/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.27.1"
+    },
+    {
+      "case_id": "wow-2019-ww47-explain-data-dashboard",
+      "legacy_case_ids": {},
+      "iteration_id": "2019-11-23-ww47-explain-data-dashboard",
+      "article_date": "2019-11-23",
+      "challenge_year": 2019,
+      "challenge_week": 47,
+      "challenge_date": "2019-11-20",
+      "date_evidence": {
+        "article_date": "Article og:published_time and article URL, verified against index.json",
+        "challenge": "Explicit challenge_year; week declared in iteration_id",
+        "challenge_date": "Official WordPress REST publication date, wp-json/wp/v2/posts?slug=workoutwednesday2019-week-47-high-level-dashboard-with-explain-data"
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/workoutwednesday2019-week-47-high-level-dashboard-with-explain-data/",
+          "wordpress_post_id": 3041
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2019/11/23/high-level-dashboard-with-explain-data/",
+          "path": null,
+          "sha256": "939591c72c3fc3832b1b301fd1daece151a13c00f3b644522253b27d71caf4e7"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2019_11_20_WW47_ExplainData/2019_11_20_WW47_High_Level_Sales",
+          "filename": "2019_11_20_WW47_ExplainData.twbx",
+          "sha256": "ac5b82bdbfc155a2dc6f37624d45f63b6e38ba4ae083048aec511073b1167054",
+          "path": "dashboards/2019_11_20_WW47_ExplainData.twbx"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "workaround",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "inputs/source-lock.json",
+        "evidence/data-contract.json",
+        "evidence/cloud-verification.json",
+        "evidence/cloud-data-comparison.json",
+        "evidence/visual-review.md",
+        "evidence/sdk-validation.json"
+      ],
+      "notes": [
+        "Author RANDOM() replaced with deterministic order-ID modulo jitter. X positions and complete population match; vertical positions intentionally differ. No live Explain Data execution claimed.",
+        "Cloud REST images/data states and artifact contracts reviewed. Remaining presentation differences documented in evidence/visual-review.md; no browser events executed."
+      ],
+      "metadata": "iterations/2019-11-23-ww47-explain-data-dashboard/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.27.1"
+    },
+    {
+      "case_id": "wow-2019-ww48-small-contributions",
+      "legacy_case_ids": {},
+      "iteration_id": "2019-12-02-ww48-small-contributions",
+      "article_date": "2019-12-02",
+      "challenge_year": 2019,
+      "challenge_week": 48,
+      "challenge_date": "2019-11-27",
+      "date_evidence": {
+        "article_date": "Donna article publication heading and archived index.json: December 2, 2019",
+        "challenge": "Explicit challenge_year; week declared in iteration_id",
+        "challenge_date": "Official WordPress REST /wp-json/wp/v2/posts/3048 date=2019-11-27T14:44:29 (calendar date)."
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/week-48-can-you-build-a-bar-chart-that-automatically-combines-small-contributions/",
+          "wordpress_post_id": 3048
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2019/12/02/can-you-build-a-bar-chart-that-automatically-combines-small-contributions/",
+          "path": null,
+          "sha256": "561ff02fa8c296e47cc46fcecc25c8ae36b57163356add74f17d0d171d8bacb2"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2019_11_27_WW48_Sales_by_State/2019_11_27_WW48_Sales_by_State",
+          "filename": "2019_11_27_WW48_Sales_by_State.twbx",
+          "sha256": "2644ae4233f3d5bb199d4de07be516aa9852a3f859b3389320b958b70a6ac509",
+          "path": "dashboards/2019_11_27_WW48_Sales_by_State/2019_11_27_WW48_Sales_by_State.twbx"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "pass",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "inputs/source-lock.json",
+        "evidence/local-verification.json",
+        "analysis.md",
+        "evidence/cloud-verification.json",
+        "evidence/cloud-data-comparison.json",
+        "evidence/visual-review.md",
+        "evidence/sdk-validation.json"
+      ],
+      "notes": [
+        "Independent builder reads only extracted Hyper and starts TWBEditor(\"\"). Row contribution SUM(Sales/Total Sales) is algebraically equivalent to author row-repeated LOD, independently tested against complete source data.",
+        "Cloud REST plus generated workbook contract acceptance. No browser clicks or hovers executed.",
+        "Cloud REST images/data states and artifact contracts reviewed. Remaining presentation differences documented in evidence/visual-review.md; no browser events executed."
+      ],
+      "metadata": "iterations/2019-12-02-ww48-small-contributions/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.27.1"
+    },
+    {
       "case_id": "wow-2026-ww04-dynamic-moving-average",
       "legacy_case_ids": {
         "donna-2026-02-02-5ebab8421caf": "wow-2026-ww04-dynamic-moving-average"
@@ -1646,6 +1820,121 @@
         "Accepted under cloud_rest_and_artifact_contracts: actual Cloud exports, independent Hyper calculations and executable action contracts. Browser clicks not executed; prior browser protocol preserved in evidence/acceptance-history/browser-ui-protocol/."
       ],
       "metadata": "iterations/2026-02-15-ww06-null-safe-averages/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.27.1"
+    },
+    {
+      "case_id": "wow-2026-ww07-table-calcs-vs-lods",
+      "legacy_case_ids": {},
+      "iteration_id": "2026-02-26-ww07-table-calcs-vs-lods",
+      "article_date": "2026-02-26",
+      "challenge_year": 2026,
+      "challenge_week": 7,
+      "challenge_date": "2026-02-17",
+      "date_evidence": {
+        "article_date": "Declared article publication date in iteration_id",
+        "challenge": "Explicit challenge_year; week declared in iteration_id",
+        "challenge_date": "Official WordPress REST post date 2026-02-17T10:27:00 at https://www.workout-wednesday.com/wp-json/wp/v2/posts?slug=2026w07tab"
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2026w07tab/",
+          "wordpress_post_id": 21338
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2026/02/26/exploring-table-calcs-vs-lods/",
+          "path": null,
+          "sha256": null
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2026_02_17_WW07_TableCalcs_and_LODs/2026_02_17_WW07_TableCalcs_and_LODs",
+          "filename": "2026_02_17_WW07_TableCalcs_and_LODs.twbx",
+          "sha256": "41bc6668efa25909d7395dd997ec435f75637a1f4837b59fa8c38487e387d303",
+          "path": "dashboards/2026_02_17_WW07_TableCalcs_and_LODs/2026_02_17_WW07_TableCalcs_and_LODs.twbx"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "pass",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "inputs/source-lock.json",
+        "evidence/functional-verification.json",
+        "evidence/cloud-verification.json",
+        "evidence/cloud-data-comparison.json",
+        "evidence/visual-review.md",
+        "evidence/sdk-validation.json"
+      ],
+      "notes": [
+        "Builder uses TWBEditor(\"\") and public SDK APIs; author workbook analyzed only.",
+        "Cloud REST images/data states and artifact contracts reviewed. Remaining presentation differences documented in evidence/visual-review.md; no browser events executed."
+      ],
+      "metadata": "iterations/2026-02-26-ww07-table-calcs-vs-lods/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.27.1"
+    },
+    {
+      "case_id": "wow-2026-ww09-parallel-coordinates",
+      "legacy_case_ids": {},
+      "iteration_id": "2026-03-12-ww09-parallel-coordinates",
+      "article_date": "2026-03-12",
+      "challenge_year": 2026,
+      "challenge_week": 9,
+      "challenge_date": "2026-03-03",
+      "date_evidence": {
+        "article_date": "Declared article publication date in iteration_id",
+        "challenge": "Explicit challenge_year; week declared in iteration_id",
+        "challenge_date": "Official WordPress REST post date 2026-03-03T17:00:00 at https://www.workout-wednesday.com/wp-json/wp/v2/posts?slug=2026w09tab"
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2026w09tab/",
+          "wordpress_post_id": 21358
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2026/03/12/can-you-build-a-parallel-coordinates-chart/",
+          "path": null,
+          "sha256": null
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2026_03_04_WW09_Parallel_Coordinates/2026_03_04_WW09_Parallel_Coordinates",
+          "filename": "2026_03_04_WW09_Parallel_Coordinates.twbx",
+          "sha256": "f56d01b0bc67209e958c0ec1357c66362f1f52d7fcf751b95670332da09d9849",
+          "path": "dashboards/2026_03_04_WW09_Parallel_Coordinates/2026_03_04_WW09_Parallel_Coordinates.twbx"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "pass",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "inputs/source-lock.json",
+        "evidence/functional-verification.json",
+        "evidence/sdk-baseline.json",
+        "evidence/cloud-verification.json",
+        "evidence/cloud-data-comparison.json",
+        "evidence/visual-review.md",
+        "evidence/sdk-validation.json"
+      ],
+      "notes": [
+        "Builder uses TWBEditor(\"\") and public SDK APIs; author workbook analyzed only.",
+        "Cloud REST images/data states and artifact contracts reviewed. Remaining presentation differences documented in evidence/visual-review.md; no browser events executed."
+      ],
+      "metadata": "iterations/2026-03-12-ww09-parallel-coordinates/case.yaml",
       "metadata_contract": "1.1.0",
       "tested_sdk_version": "0.27.1"
     }

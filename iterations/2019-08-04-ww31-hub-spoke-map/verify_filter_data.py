@@ -17,7 +17,7 @@ def verify(output=None):
     lock = json.loads((CASE / "inputs/source-lock.json").read_text())
     for item in lock["extracted_data"]:
         assert sha256((CASE / item["file"]).read_bytes()).hexdigest() == item["sha256"]
-    with regions.open(newline="") as file:
+    with regions.open(newline="", encoding="utf-8") as file:
         groups = list(csv.DictReader(file))
     region = "CASE \"Location\" " + " ".join("WHEN " + literal(row["Location"]) + " THEN " + literal(row["Region"]) for row in groups) + " ELSE 'Other' END"
     cte = 'WITH data AS (SELECT "Artist" AS artist, ' + region + ' AS region, "Fellow Artist" AS fellow, "ConcertID" AS concert FROM ' + str(TableName("Extract", "Extract")) + ') '

@@ -1,0 +1,205 @@
+{
+  "status": "pass",
+  "rows": 10194,
+  "states": [
+    {
+      "state": "all",
+      "rows": [
+        {
+          "Region": "Central",
+          "Category": "Furniture",
+          "Sales": 164537.6517999999,
+          "Denominator": 503170.67280000076,
+          "Percent": 0.3270016729798559
+        },
+        {
+          "Region": "Central",
+          "Category": "Office Supplies",
+          "Sales": 168216.70899999977,
+          "Denominator": 503170.67280000076,
+          "Percent": 0.3343134210583497
+        },
+        {
+          "Region": "Central",
+          "Category": "Technology",
+          "Sales": 170416.31199999995,
+          "Denominator": 503170.67280000076,
+          "Percent": 0.3386849059617922
+        },
+        {
+          "Region": "East",
+          "Category": "Furniture",
+          "Sales": 212231.6960000001,
+          "Denominator": 691828.1679999992,
+          "Percent": 0.30676937687220673
+        },
+        {
+          "Region": "East",
+          "Category": "Office Supplies",
+          "Sales": 211658.401,
+          "Denominator": 691828.1679999992,
+          "Percent": 0.30594071012153445
+        },
+        {
+          "Region": "East",
+          "Category": "Technology",
+          "Sales": 267938.0710000002,
+          "Denominator": 691828.1679999992,
+          "Percent": 0.3872899130062603
+        },
+        {
+          "Region": "South",
+          "Category": "Furniture",
+          "Sales": 117298.68400000002,
+          "Denominator": 391721.9050000007,
+          "Percent": 0.2994437699367356
+        },
+        {
+          "Region": "South",
+          "Category": "Office Supplies",
+          "Sales": 125651.31299999995,
+          "Denominator": 391721.9050000007,
+          "Percent": 0.32076662396502875
+        },
+        {
+          "Region": "South",
+          "Category": "Technology",
+          "Sales": 148771.90799999994,
+          "Denominator": 391721.9050000007,
+          "Percent": 0.37978960609823353
+        },
+        {
+          "Region": "West",
+          "Category": "Furniture",
+          "Sales": 260679.72950000048,
+          "Denominator": 739813.6085000004,
+          "Percent": 0.35235865697109614
+        },
+        {
+          "Region": "West",
+          "Category": "Office Supplies",
+          "Sales": 226366.89099999974,
+          "Denominator": 739813.6085000004,
+          "Percent": 0.3059782739857503
+        },
+        {
+          "Region": "West",
+          "Category": "Technology",
+          "Sales": 252766.98799999998,
+          "Denominator": 739813.6085000004,
+          "Percent": 0.34166306904315324
+        }
+      ]
+    },
+    {
+      "state": "consumer",
+      "rows": [
+        {
+          "Region": "Central",
+          "Category": "Furniture",
+          "Sales": 86969.70699999994,
+          "Denominator": 253962.21599999955,
+          "Percent": 0.34245136292242817
+        },
+        {
+          "Region": "Central",
+          "Category": "Office Supplies",
+          "Sales": 94301.773,
+          "Denominator": 253962.21599999955,
+          "Percent": 0.37132205918379674
+        },
+        {
+          "Region": "Central",
+          "Category": "Technology",
+          "Sales": 72690.73599999999,
+          "Denominator": 253962.21599999955,
+          "Percent": 0.2862265778937766
+        },
+        {
+          "Region": "East",
+          "Category": "Furniture",
+          "Sales": 116270.86999999995,
+          "Denominator": 357141.86100000003,
+          "Percent": 0.32555934405012227
+        },
+        {
+          "Region": "East",
+          "Category": "Office Supplies",
+          "Sales": 105429.76199999994,
+          "Denominator": 357141.86100000003,
+          "Percent": 0.2952041569834345
+        },
+        {
+          "Region": "East",
+          "Category": "Technology",
+          "Sales": 135441.22899999996,
+          "Denominator": 357141.86100000003,
+          "Percent": 0.3792364989664428
+        },
+        {
+          "Region": "South",
+          "Category": "Furniture",
+          "Sales": 70800.20399999998,
+          "Denominator": 195580.9710000001,
+          "Percent": 0.3619994503452994
+        },
+        {
+          "Region": "South",
+          "Category": "Office Supplies",
+          "Sales": 59504.581,
+          "Denominator": 195580.9710000001,
+          "Percent": 0.30424524786718626
+        },
+        {
+          "Region": "South",
+          "Category": "Technology",
+          "Sales": 65276.186,
+          "Denominator": 195580.9710000001,
+          "Percent": 0.3337553017875137
+        },
+        {
+          "Region": "West",
+          "Category": "Furniture",
+          "Sales": 120682.89499999992,
+          "Denominator": 363974.73900000035,
+          "Percent": 0.3315694252067306
+        },
+        {
+          "Region": "West",
+          "Category": "Office Supplies",
+          "Sales": 110300.09799999991,
+          "Denominator": 363974.73900000035,
+          "Percent": 0.30304327795671504
+        },
+        {
+          "Region": "West",
+          "Category": "Technology",
+          "Sales": 132991.746,
+          "Denominator": 363974.73900000035,
+          "Percent": 0.36538729683655297
+        }
+      ]
+    },
+    {
+      "state": "consumer-hide-furniture-east",
+      "rows": [
+        {
+          "Region": "East",
+          "Category": "Office Supplies",
+          "Sales": 105429.76199999994,
+          "Denominator": 357141.86100000003,
+          "Percent": 0.2952041569834345
+        },
+        {
+          "Region": "East",
+          "Category": "Technology",
+          "Sales": 135441.22899999996,
+          "Denominator": 357141.86100000003,
+          "Percent": 0.3792364989664428
+        }
+      ]
+    }
+  ],
+  "artifact_sha256": "4a1c5c666aab0b7a62d06c3453bc946bc0bfd1fc73c988349827571d504d4c7f",
+  "browser_interaction_executed": false
+}

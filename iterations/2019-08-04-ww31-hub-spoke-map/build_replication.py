@@ -77,7 +77,7 @@ def build(output_path: Path) -> Path:
     editor.add_calculated_field("Destination", "MAKEPOINT([Lat],[Long])", datatype="spatial", role="measure", field_type="nominal")
     # Group memberships extracted during analysis, not copied XML.
     clauses = []
-    with (ITERATION_DIR / "inputs" / "region-members.csv").open(newline="") as handle:
+    with (ITERATION_DIR / "inputs" / "region-members.csv").open(newline="", encoding="utf-8") as handle:
         for row in csv.DictReader(handle):
             location = row["Location"].replace("'", "''")
             region = row["Region"].replace("'", "''")

@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-02",
+  "source_workbook": {
+    "filename": "2019_11_13_WW45_Dynamic_Scatter_Proportional_Brushing.twbx",
+    "bytes": 522413,
+    "sha256": "53e331edc48839b442ac8c4be45206d642e14d12af9a11d856fe3d91e5821ebe",
+    "url": "https://public.tableau.com/views/2019_11_13_WW45_Dynamic_Scatter_Proportional_Brushing/2019_11_13_WW46_Dynamic_Scatter_Proportional_Brushing"
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/TableauTemp/TEMP_1rs6x3z03rk5kn19aaa5k0h46p7f.hyper",
+      "file": "inputs/TEMP_1rs6x3z03rk5kn19aaa5k0h46p7f.hyper",
+      "bytes": 851968,
+      "sha256": "b06459b49a928cb2d7405389dd8a9574815adae0cca89265826c3486146c625d"
+    },
+    {
+      "archive_path": "author TWB Manufacturer categorical bins, extracted during analysis",
+      "file": "inputs/manufacturer-groups.json",
+      "bytes": 91623,
+      "sha256": "12a7eae38bb6a5f23c3e584e74403570d9c78cb6237d25153adb910bfda45748"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

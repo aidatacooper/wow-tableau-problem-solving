@@ -1,0 +1,95 @@
+schema_version: 1.1.0
+case_id: wow-2019-ww46-dynamic-scatter-brushing
+iteration_id: 2019-11-17-ww46-dynamic-scatter-brushing
+post: https://donnacoles.home.blog/2019/11/17/can-you-build-a-dynamic-scatter-plot-with-proportional-brushing/
+legacy_case_ids: {}
+article_date: '2019-11-17'
+challenge_year: 2019
+challenge_week: 46
+challenge_date: '2019-11-13'
+date_evidence:
+  article_date: Article og:published_time and article URL, verified against index.json
+  challenge: Explicit challenge_year; week declared in iteration_id
+  challenge_date: Official WordPress REST publication date, wp-json/wp/v2/posts?slug=2019-week-46-can-you-build-a-dynamic-scatter-plot-with-proportional-brushing
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2019-week-46-can-you-build-a-dynamic-scatter-plot-with-proportional-brushing/
+    wordpress_post_id: 3032
+  article:
+    url: https://donnacoles.home.blog/2019/11/17/can-you-build-a-dynamic-scatter-plot-with-proportional-brushing/
+    path: null
+    sha256: 9a3609d5d22137b5d38eed4582a39f8b6682b09529a5aff1639ff3e8c50c5399
+  workbook:
+    url: https://public.tableau.com/views/2019_11_13_WW45_Dynamic_Scatter_Proportional_Brushing/2019_11_13_WW46_Dynamic_Scatter_Proportional_Brushing
+    filename: 2019_11_13_WW45_Dynamic_Scatter_Proportional_Brushing.twbx
+    sha256: 53e331edc48839b442ac8c4be45206d642e14d12af9a11d856fe3d91e5821ebe
+    path: dashboards/2019_11_13_WW45_Dynamic_Scatter_Proportional_Brushing.twbx
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- inputs/source-lock.json
+- evidence/data-contract.json
+- evidence/cloud-verification.json
+- evidence/cloud-data-comparison.json
+- evidence/visual-review.md
+- evidence/sdk-validation.json
+notes:
+- Author workbook filename contains WW45, but article/dashboard and official challenge identify WW46.
+  Retain original filename.
+- Current local builder requires optional group-default enhancement coordinated in SDK; exact final SDK
+  revision will be recorded after commit.
+- Cloud REST images/data states and artifact contracts reviewed. Remaining presentation differences documented
+  in evidence/visual-review.md; no browser events executed.
+cwtwb:
+  tested_version: 0.27.1
+  runs:
+  - version: 0.27.1
+    result: workaround
+    evidence: analysis.md
+    note: Baseline add_group always emits constant fallback; original group requires no default to retain
+      ungrouped members. Final API enhancement tested in local checkout; final commit/version coordinated
+      by maintainer.
+  - version: 0.27.1
+    commit: 0958b51e18cd3120a2f67fd7dbcc7e978a105399
+    result: pass
+    evidence: evidence/sdk-validation.json
+  tested_commit: 0958b51e18cd3120a2f67fd7dbcc7e978a105399
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: pass
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/TEMP_1rs6x3z03rk5kn19aaa5k0h46p7f.hyper
+  - inputs/manufacturer-groups.json
+acceptance:
+- id: dynamic-scatter
+  description: Three level-of-detail choices and four measures independently produce grouped scatter data.
+  mode: automated
+- id: set-action-brushing
+  description: Selected LOD set action targets the scatter on select and excludes all on clearing; three
+    percentage bars partition In/Out.
+  mode: automated
+- id: top-x-axis
+  description: Synchronized dual X axes expose scale above the scatter.
+  mode: automated
+- id: locked-data
+  description: Packaged input hashes and independent Hyper checks verify totals and all parameter combinations.
+  mode: automated
+- id: cloud-visual-review
+  description: Original and replica REST images inspected in captured states; explicit deltas and export
+    limitations recorded.
+  mode: manual
+  evidence: evidence/visual-review.md
+remaining_work: []
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []
+acceptance_scope: cloud_rest_and_artifact_contracts
+browser_interaction_executed: false

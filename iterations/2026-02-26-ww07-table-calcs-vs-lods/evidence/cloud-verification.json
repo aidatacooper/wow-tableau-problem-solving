@@ -1,0 +1,254 @@
+{
+  "case_id": "wow-2026-ww07-table-calcs-vs-lods",
+  "captured_at": "2026-10-02T14:28:13.032481+00:00",
+  "source_hashes": {
+    "author": "41bc6668efa25909d7395dd997ec435f75637a1f4837b59fa8c38487e387d303",
+    "replica": "4a1c5c666aab0b7a62d06c3453bc946bc0bfd1fc73c988349827571d504d4c7f"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "cc99a1e4-c4ca-477c-b85a-a3059e66fb3c",
+      "name": "cwtwb-review-wow-2026-ww07-table-calcs-vs-lods-author",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2923909",
+      "views": [
+        {
+          "name": "2026_02_17_WW07_TableCalcs_and_LODs",
+          "id": "a797cc23-8288-45dc-92f1-18feb09e624d"
+        },
+        {
+          "name": "Data - DC",
+          "id": "673d22eb-0de6-457e-8b38-a7406f204ebc"
+        },
+        {
+          "name": "Data - LOD",
+          "id": "6b799f3d-959e-4d7c-8839-1b2e6d8ffe02"
+        }
+      ]
+    },
+    "replica": {
+      "id": "a3532d83-cd8c-4b35-95ea-754eb719e62f",
+      "name": "cwtwb-review-wow-2026-ww07-table-calcs-vs-lods-replica",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2923910",
+      "views": [
+        {
+          "name": "Table Calcs",
+          "id": "b4345d7c-51ee-4e83-8f02-087d0fc3da87"
+        },
+        {
+          "name": "LODs",
+          "id": "5cab3734-8368-4be2-97c1-048565ea70b8"
+        },
+        {
+          "name": "2026_02_17_WW07_TableCalcs_and_LODs",
+          "id": "e0a5db40-a175-4315-b9d1-9d6cc4a75746"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "a797cc23-8288-45dc-92f1-18feb09e624d",
+          "name": "2026_02_17_WW07_TableCalcs_and_LODs",
+          "path": "outputs/cloud-author.png",
+          "sha256": "49aa8396bddcfb11a11018902b1c6c2366ea0026358b658c9c46a186feb5d1b7",
+          "size": [
+            2200,
+            1480
+          ]
+        },
+        "replica": {
+          "id": "e0a5db40-a175-4315-b9d1-9d6cc4a75746",
+          "name": "2026_02_17_WW07_TableCalcs_and_LODs",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "50d23cbdde7850c03194b614a6a972ecec1e8f21aa34b318ba8d76f553ad43b7",
+          "size": [
+            2200,
+            1480
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "2026_02_17_WW07_TableCalcs_and_LODs",
+          "view_id": "a797cc23-8288-45dc-92f1-18feb09e624d",
+          "scope": "Dashboard default worksheet export only; independent Hyper validates both TC/LOD tables separately.",
+          "path": "outputs/cloud-author-dashboard.csv",
+          "sha256": "8a0ba53b7876ea4b384717fee3994228161e697e49a2da28fd656b1eb0eb5c81",
+          "bytes": 501
+        },
+        {
+          "role": "replica",
+          "view": "2026_02_17_WW07_TableCalcs_and_LODs",
+          "view_id": "e0a5db40-a175-4315-b9d1-9d6cc4a75746",
+          "scope": "Dashboard default worksheet export only; independent Hyper validates both TC/LOD tables separately.",
+          "path": "outputs/cloud-replica-dashboard.csv",
+          "sha256": "8a0ba53b7876ea4b384717fee3994228161e697e49a2da28fd656b1eb0eb5c81",
+          "bytes": 501
+        }
+      ]
+    },
+    {
+      "name": "consumer",
+      "parameters": {},
+      "filters": {
+        "Segment": "Consumer"
+      },
+      "views": {
+        "author": {
+          "id": "a797cc23-8288-45dc-92f1-18feb09e624d",
+          "name": "2026_02_17_WW07_TableCalcs_and_LODs",
+          "path": "outputs/cloud-author-consumer.png",
+          "sha256": "77be1dd48b6d12dd6ae0f729a31a907536cb50a55dd11083c2c02cd481e2ad95",
+          "size": [
+            2200,
+            1480
+          ]
+        },
+        "replica": {
+          "id": "e0a5db40-a175-4315-b9d1-9d6cc4a75746",
+          "name": "2026_02_17_WW07_TableCalcs_and_LODs",
+          "path": "outputs/cloud-replica-consumer.png",
+          "sha256": "a1d70742e808b2bad8f2454b27e20e66eb9388e5a9efe2229324d0df8e684fad",
+          "size": [
+            2200,
+            1480
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "2026_02_17_WW07_TableCalcs_and_LODs",
+          "view_id": "a797cc23-8288-45dc-92f1-18feb09e624d",
+          "scope": "Dashboard default worksheet export only; independent Hyper validates both TC/LOD tables separately.",
+          "path": "outputs/cloud-author-dashboard-consumer.csv",
+          "sha256": "326653d079275df4b8dcb46f7fc07d2ddbab7a174f105990d4ceb01c412188c4",
+          "bytes": 498
+        },
+        {
+          "role": "replica",
+          "view": "2026_02_17_WW07_TableCalcs_and_LODs",
+          "view_id": "e0a5db40-a175-4315-b9d1-9d6cc4a75746",
+          "scope": "Dashboard default worksheet export only; independent Hyper validates both TC/LOD tables separately.",
+          "path": "outputs/cloud-replica-dashboard-consumer.csv",
+          "sha256": "326653d079275df4b8dcb46f7fc07d2ddbab7a174f105990d4ceb01c412188c4",
+          "bytes": 498
+        }
+      ]
+    },
+    {
+      "name": "consumer-east-no-furniture",
+      "parameters": {},
+      "filters": {
+        "Segment": "Consumer",
+        "Region": "East",
+        "Category": "Office Supplies,Technology",
+        "TC - Filter Category": "Office Supplies,Technology"
+      },
+      "views": {
+        "author": {
+          "id": "a797cc23-8288-45dc-92f1-18feb09e624d",
+          "name": "2026_02_17_WW07_TableCalcs_and_LODs",
+          "path": "outputs/cloud-author-consumer-east-no-furniture.png",
+          "sha256": "e7b595c97031ce39050e15723333b59ce0f56e66b8625f80e52dc8709dcd743a",
+          "size": [
+            2200,
+            1480
+          ]
+        },
+        "replica": {
+          "id": "e0a5db40-a175-4315-b9d1-9d6cc4a75746",
+          "name": "2026_02_17_WW07_TableCalcs_and_LODs",
+          "path": "outputs/cloud-replica-consumer-east-no-furniture.png",
+          "sha256": "2c22bf007a07ed2375f5ac2445b1b2f0c4c7cd36ab48f7b4e3285a646ce7e651",
+          "size": [
+            2200,
+            1480
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "2026_02_17_WW07_TableCalcs_and_LODs",
+          "view_id": "a797cc23-8288-45dc-92f1-18feb09e624d",
+          "scope": "Dashboard default worksheet export only; independent Hyper validates both TC/LOD tables separately.",
+          "path": "outputs/cloud-author-dashboard-consumer-east-no-furniture.csv",
+          "sha256": "7e1a2a0b7e7659de19ad21f5c5c87d6112c96d090a0171c7b72aa143e5f7843a",
+          "bytes": 116
+        },
+        {
+          "role": "replica",
+          "view": "2026_02_17_WW07_TableCalcs_and_LODs",
+          "view_id": "e0a5db40-a175-4315-b9d1-9d6cc4a75746",
+          "scope": "Dashboard default worksheet export only; independent Hyper validates both TC/LOD tables separately.",
+          "path": "outputs/cloud-replica-dashboard-consumer-east-no-furniture.csv",
+          "sha256": "7e1a2a0b7e7659de19ad21f5c5c87d6112c96d090a0171c7b72aa143e5f7843a",
+          "bytes": 116
+        }
+      ]
+    },
+    {
+      "name": "consumer-east-tc-late-filter",
+      "parameters": {},
+      "filters": {
+        "Segment": "Consumer",
+        "Region": "East",
+        "TC - Filter Category": "Office Supplies,Technology"
+      },
+      "views": {
+        "author": {
+          "id": "a797cc23-8288-45dc-92f1-18feb09e624d",
+          "name": "2026_02_17_WW07_TableCalcs_and_LODs",
+          "path": "outputs/cloud-author-consumer-east-tc-late-filter.png",
+          "sha256": "8cc3bc475b5e981b1620ab46e63e18a62d4c53cb48460dbf68e6f556fd5f1e2f",
+          "size": [
+            2200,
+            1480
+          ]
+        },
+        "replica": {
+          "id": "e0a5db40-a175-4315-b9d1-9d6cc4a75746",
+          "name": "2026_02_17_WW07_TableCalcs_and_LODs",
+          "path": "outputs/cloud-replica-consumer-east-tc-late-filter.png",
+          "sha256": "180cef2bfa69e7e978e0811484fa6f1f5e92153ff83773b5c01155e82d802798",
+          "size": [
+            2200,
+            1480
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "2026_02_17_WW07_TableCalcs_and_LODs",
+          "view_id": "a797cc23-8288-45dc-92f1-18feb09e624d",
+          "scope": "Dashboard default worksheet export only; independent Hyper validates both TC/LOD tables separately.",
+          "path": "outputs/cloud-author-dashboard-consumer-east-tc-late-filter.csv",
+          "sha256": "7e1a2a0b7e7659de19ad21f5c5c87d6112c96d090a0171c7b72aa143e5f7843a",
+          "bytes": 116
+        },
+        {
+          "role": "replica",
+          "view": "2026_02_17_WW07_TableCalcs_and_LODs",
+          "view_id": "e0a5db40-a175-4315-b9d1-9d6cc4a75746",
+          "scope": "Dashboard default worksheet export only; independent Hyper validates both TC/LOD tables separately.",
+          "path": "outputs/cloud-replica-dashboard-consumer-east-tc-late-filter.csv",
+          "sha256": "7e1a2a0b7e7659de19ad21f5c5c87d6112c96d090a0171c7b72aa143e5f7843a",
+          "bytes": 116
+        }
+      ]
+    }
+  ],
+  "status": "verified_with_acceptable_visual_delta",
+  "independent_data_review": "evidence/cloud-data-comparison.json",
+  "visual_review": "evidence/visual-review.md"
+}

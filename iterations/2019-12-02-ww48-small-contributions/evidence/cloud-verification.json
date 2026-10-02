@@ -1,0 +1,192 @@
+{
+  "case_id": "wow-2019-ww48-small-contributions",
+  "captured_at": "2026-10-02T14:14:50.025720+00:00",
+  "source_hashes": {
+    "author": "2644ae4233f3d5bb199d4de07be516aa9852a3f859b3389320b958b70a6ac509",
+    "replica": "806f5f8a41d2358dc19eff89d1c29758f88b0553304118a2a52b14d925925782"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "3d143e50-8247-49b8-9b0b-466ce538dc16",
+      "name": "cwtwb-review-wow-2019-ww48-small-contributions-author",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2923903",
+      "views": [
+        {
+          "name": "Data",
+          "id": "91db81c8-7cf9-4dd1-93bf-e43f507afaf5"
+        },
+        {
+          "name": "2019_11_27_WW48_Sales_by_State",
+          "id": "dc59a904-0ab4-42c1-8552-583ff91ac104"
+        }
+      ]
+    },
+    "replica": {
+      "id": "99dfa6c4-fa42-46f2-8f8e-1426341768a8",
+      "name": "cwtwb-review-wow-2019-ww48-small-contributions-replica",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2923904",
+      "views": [
+        {
+          "name": "Viz",
+          "id": "b92032ac-2231-43ce-a340-3698b4ee5226"
+        },
+        {
+          "name": "2019_11_27_WW48_Sales_by_State",
+          "id": "54802abc-6407-4872-ba8e-84224b12fc3e"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "dc59a904-0ab4-42c1-8552-583ff91ac104",
+          "name": "2019_11_27_WW48_Sales_by_State",
+          "path": "outputs/cloud-author.png",
+          "sha256": "059b86e5739f9c9d20632d01b5589b65baf0e08b333e4494a1c71da0cc25028d",
+          "size": [
+            2200,
+            1800
+          ]
+        },
+        "replica": {
+          "id": "54802abc-6407-4872-ba8e-84224b12fc3e",
+          "name": "2019_11_27_WW48_Sales_by_State",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "ab0d58ce730db4f4f63363a7c9351fc95573314a3ae9f078c1d76ba536637d0b",
+          "size": [
+            2200,
+            1800
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "2019_11_27_WW48_Sales_by_State",
+          "view_id": "dc59a904-0ab4-42c1-8552-583ff91ac104",
+          "scope": "All State Grouping bars and summed share; counts verified independently from Hyper.",
+          "path": "outputs/cloud-author-bars.csv",
+          "sha256": "6771376da2ae8635dbbc9b1f56c91504d5b0524efea06015dffadd479caeb8ae",
+          "bytes": 1205
+        },
+        {
+          "role": "replica",
+          "view": "2019_11_27_WW48_Sales_by_State",
+          "view_id": "54802abc-6407-4872-ba8e-84224b12fc3e",
+          "scope": "All State Grouping bars and summed share; counts verified independently from Hyper.",
+          "path": "outputs/cloud-replica-bars.csv",
+          "sha256": "f66d5c04fb0a7ea8529389258809f828c27e7fc8d01aded6cd8e1e516a7be707",
+          "bytes": 1177
+        }
+      ]
+    },
+    {
+      "name": "threshold-one",
+      "parameters": {
+        "Threshold Percent": "0.01"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "dc59a904-0ab4-42c1-8552-583ff91ac104",
+          "name": "2019_11_27_WW48_Sales_by_State",
+          "path": "outputs/cloud-author-threshold-one.png",
+          "sha256": "02708fc082c79d834d6d352d1a6701956b88766ef07ba6043c6551a8053c7d36",
+          "size": [
+            2200,
+            1800
+          ]
+        },
+        "replica": {
+          "id": "54802abc-6407-4872-ba8e-84224b12fc3e",
+          "name": "2019_11_27_WW48_Sales_by_State",
+          "path": "outputs/cloud-replica-threshold-one.png",
+          "sha256": "9f2f8867385c9a4ddd3c93ebec9cc5b5c3e169786d241a72b9e3fd3289995368",
+          "size": [
+            2200,
+            1800
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "2019_11_27_WW48_Sales_by_State",
+          "view_id": "dc59a904-0ab4-42c1-8552-583ff91ac104",
+          "scope": "All State Grouping bars and summed share; counts verified independently from Hyper.",
+          "path": "outputs/cloud-author-bars-threshold-one.csv",
+          "sha256": "2b5aeddeb633a22799cd1ca8b189add9a46f30b09c1ac40f26689131346db28e",
+          "bytes": 2427
+        },
+        {
+          "role": "replica",
+          "view": "2019_11_27_WW48_Sales_by_State",
+          "view_id": "54802abc-6407-4872-ba8e-84224b12fc3e",
+          "scope": "All State Grouping bars and summed share; counts verified independently from Hyper.",
+          "path": "outputs/cloud-replica-bars-threshold-one.csv",
+          "sha256": "50739114008f39303b5591b4941eb01e58181a1999785448a199c74f42e36ebb",
+          "bytes": 2399
+        }
+      ]
+    },
+    {
+      "name": "threshold-five",
+      "parameters": {
+        "Threshold Percent": "0.05"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "dc59a904-0ab4-42c1-8552-583ff91ac104",
+          "name": "2019_11_27_WW48_Sales_by_State",
+          "path": "outputs/cloud-author-threshold-five.png",
+          "sha256": "75a17eee6f5d7a2d720be7b13318c422f7a01cfb5c06b24ffd66152e9ab2518e",
+          "size": [
+            2200,
+            1800
+          ]
+        },
+        "replica": {
+          "id": "54802abc-6407-4872-ba8e-84224b12fc3e",
+          "name": "2019_11_27_WW48_Sales_by_State",
+          "path": "outputs/cloud-replica-threshold-five.png",
+          "sha256": "18d65250efe9c70e908b03eaae4ce1d0de96aa5469da1f2a2cc6ebe64ab549e9",
+          "size": [
+            2200,
+            1800
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "2019_11_27_WW48_Sales_by_State",
+          "view_id": "dc59a904-0ab4-42c1-8552-583ff91ac104",
+          "scope": "All State Grouping bars and summed share; counts verified independently from Hyper.",
+          "path": "outputs/cloud-author-bars-threshold-five.csv",
+          "sha256": "e765f0e3d18a25740702582451a7510a05f6aaea0e58b41aa6d017def57d6ba2",
+          "bytes": 765
+        },
+        {
+          "role": "replica",
+          "view": "2019_11_27_WW48_Sales_by_State",
+          "view_id": "54802abc-6407-4872-ba8e-84224b12fc3e",
+          "scope": "All State Grouping bars and summed share; counts verified independently from Hyper.",
+          "path": "outputs/cloud-replica-bars-threshold-five.csv",
+          "sha256": "1d43bb4e10eadd1ffbd875629643126c028c3c1c7000ad219a64dfea345d1ab5",
+          "bytes": 735
+        }
+      ]
+    }
+  ],
+  "status": "verified_with_acceptable_visual_delta",
+  "independent_data_review": "evidence/cloud-data-comparison.json",
+  "visual_review": "evidence/visual-review.md"
+}

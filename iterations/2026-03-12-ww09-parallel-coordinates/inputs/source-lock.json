@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-02",
+  "source_workbook": {
+    "filename": "2026_03_04_WW09_Parallel_Coordinates.twbx",
+    "bytes": 17726,
+    "sha256": "f56d01b0bc67209e958c0ec1357c66362f1f52d7fcf751b95670332da09d9849",
+    "url": "https://public.tableau.com/views/2026_03_04_WW09_Parallel_Coordinates/2026_03_04_WW09_Parallel_Coordinates"
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Datasources/Stats (Match Performance Stats).hyper",
+      "file": "inputs/Stats (Match Performance Stats).hyper",
+      "bytes": 65536,
+      "sha256": "7820cc62bc312bd136dafdb3b4fb6e12e873ef825d545a62a1cb5bbfac5552df"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

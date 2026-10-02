@@ -1,0 +1,11 @@
+# Cloud REST review
+
+Acceptance uses the main Cloud REST dashboard PNG and order-point CSV plus saved explanation worksheet artifact contracts. No browser click or live Explain Data lightbulb event was executed. The two saved explanation sheets are rebuilt from data; Tableau's live statistical engine is outside this acceptance scope.
+
+Compare [author](../outputs/cloud-author.png) and [replica](../outputs/cloud-replica.png). Required main structure is 17 aligned subcategory rows across quarterly sparklines, current-year bars with previous-year reference ticks, and order-sales circles with average reference lines. Public floating zones preserve the author's panel widths 29.5% / 28.6% / 40.3% and the verifier asserts exact coordinates. Marks use the author's pale blue and native circle size, with black reference lines. Hidden axes and independent sparkline scales preserve readability.
+
+The author uses unsupported RANDOM(), which Cloud exports as * for ATTR(Jitter), and its circles appear on a common row. The replica uses deterministic order-ID modulo jitter and therefore spreads points vertically. This is an explicit visual delta. Horizontal order sales positions and the complete population are preserved; the differing Y distribution is not claimed as pixel matching.
+
+Dashboard CSVs export only **Jitter Dot Plot**. Both author and replica contain exactly 9159 order/subcategory points. The verifier compares the full identity population and all SUM(Sales) values against independent Hyper aggregates. Author CSV dollars are rounded to integers, requiring 0.500001 tolerance; replica values retain decimals and use 0.000001 tolerance. The CSV does not cover Trend, year bars or saved explanation values. Those domains are independently checked over 9994 records, 271 nonempty quarter/subcategory groups, 17 current/prior totals and category averages in evidence/data-contract.json.
+
+Other documented deltas are heading/font spacing and a simpler footer. Final package/capture hashes are recorded in evidence/cloud-verification.json; --strict-workbook validates current accepted package identity. Initial evidence metadata is preserved under evidence/history and does not certify final images.

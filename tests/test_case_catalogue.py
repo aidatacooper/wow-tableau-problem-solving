@@ -14,6 +14,16 @@ from scripts import validate_iteration
 
 
 class CaseCatalogueTests(unittest.TestCase):
+    def test_posix_artifact_paths_work_on_windows_and_reject_backslashes(self):
+        with tempfile.TemporaryDirectory() as name:
+            root = Path(name)
+            (root / 'outputs').mkdir()
+            artifact = root / 'outputs' / 'replica.twbx'
+            artifact.write_bytes(b'fixture')
+            self.assertEqual(catalog.relative_file(root, 'outputs/replica.twbx'), artifact)
+            with self.assertRaisesRegex(AssertionError, 'Unsafe'):
+                catalog.relative_file(root, r'outputs\replica.twbx')
+
     def setUp(self):
         self.temp = tempfile.TemporaryDirectory()
         self.addCleanup(self.temp.cleanup)

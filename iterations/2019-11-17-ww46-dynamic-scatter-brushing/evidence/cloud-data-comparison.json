@@ -1,0 +1,75 @@
+{
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "source_hashes": {
+    "author": "53e331edc48839b442ac8c4be45206d642e14d12af9a11d856fe3d91e5821ebe",
+    "replica": "113ebe52c0e25e15e08cf4286191f88a065b65fa8225e51e86df33fefe818f89"
+  },
+  "browser_interaction_executed": false,
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "evaluated": true,
+      "exported_sheet": "LOD Bars",
+      "rows": 1,
+      "expected_lod_count": 793,
+      "checks": [
+        "complete Out count",
+        "100% total share",
+        "zero selected membership"
+      ],
+      "not_exported": [
+        "Scatter coordinates",
+        "X Bars",
+        "Y Bars"
+      ],
+      "independent_coverage": "data-contract.json covers all 48 axis/LOD combinations and set partitions independently; this CSV alone does not validate scatter/X/Y rendered values."
+    },
+    {
+      "name": "product-sales-orders",
+      "parameters": {
+        "Set Level of Detail": "Product",
+        "Set X-Axis": "Sales",
+        "Set Y-Axis": "Orders"
+      },
+      "evaluated": true,
+      "exported_sheet": "LOD Bars",
+      "rows": 1,
+      "expected_lod_count": 1850,
+      "checks": [
+        "complete Out count",
+        "100% total share",
+        "zero selected membership"
+      ],
+      "not_exported": [
+        "Scatter coordinates",
+        "X Bars",
+        "Y Bars"
+      ],
+      "independent_coverage": "data-contract.json covers all 48 axis/LOD combinations and set partitions independently; this CSV alone does not validate scatter/X/Y rendered values."
+    },
+    {
+      "name": "manufacturer-sales-quantity",
+      "parameters": {
+        "Set Level of Detail": "Manufacturer",
+        "Set X-Axis": "Sales",
+        "Set Y-Axis": "Quantity"
+      },
+      "evaluated": true,
+      "exported_sheet": "LOD Bars",
+      "rows": 1,
+      "expected_lod_count": 183,
+      "checks": [
+        "complete Out count",
+        "100% total share",
+        "zero selected membership"
+      ],
+      "not_exported": [
+        "Scatter coordinates",
+        "X Bars",
+        "Y Bars"
+      ],
+      "independent_coverage": "data-contract.json covers all 48 axis/LOD combinations and set partitions independently; this CSV alone does not validate scatter/X/Y rendered values."
+    }
+  ]
+}

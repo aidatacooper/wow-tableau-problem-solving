@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-02",
+  "source_workbook": {
+    "filename": "2019_11_27_WW48_Sales_by_State.twbx",
+    "bytes": 394321,
+    "sha256": "2644ae4233f3d5bb199d4de07be516aa9852a3f859b3389320b958b70a6ac509",
+    "url": "https://public.tableau.com/views/2019_11_27_WW48_Sales_by_State/2019_11_27_WW48_Sales_by_State"
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/TableauTemp/TEMP_0ske40z0b1oqko1aed0it1apaiil.hyper",
+      "file": "inputs/TEMP_0ske40z0b1oqko1aed0it1apaiil.hyper",
+      "bytes": 983040,
+      "sha256": "cc108dbe13374a084a699dfb714e9f42ddd8f13c189a6f673cd1ac1875e4218a"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

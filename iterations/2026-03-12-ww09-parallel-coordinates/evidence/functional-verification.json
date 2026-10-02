@@ -1,0 +1,510 @@
+{
+  "status": "pass",
+  "metrics": [
+    [
+      1.57,
+      8.61
+    ],
+    [
+      55.6,
+      104.25925925925925
+    ],
+    [
+      56,
+      266
+    ],
+    [
+      276,
+      1265
+    ],
+    [
+      6.66,
+      7.96
+    ]
+  ],
+  "games": [
+    {
+      "Game ID": 1,
+      "Opposition": "North Somerset U15s",
+      "H/A": "A",
+      "raw": {
+        "Distance - Total (KM)": 2.78,
+        "Distance per Min": 55.6,
+        "HSR - Total (M)": 71,
+        "HI Distance - Total (M)": 374,
+        "Speed - Max (m/s)": 6.81
+      },
+      "normalized": {
+        "Total Distance (km)": 0.17187499999999997,
+        "Distance / Min (m)": 0.0,
+        "HSR Distance (m)": 0.07142857142857142,
+        "HI Distance (m)": 0.09908998988877654,
+        "Max Speed (m/s)": 0.11538461538461499
+      }
+    },
+    {
+      "Game ID": 2,
+      "Opposition": "South Gloucestershire",
+      "H/A": "H",
+      "raw": {
+        "Distance - Total (KM)": 5.24,
+        "Distance per Min": 87.33333333333333,
+        "HSR - Total (M)": 151,
+        "HI Distance - Total (M)": 602,
+        "Speed - Max (m/s)": 7.3
+      },
+      "normalized": {
+        "Total Distance (km)": 0.5213068181818182,
+        "Distance / Min (m)": 0.6521540569340843,
+        "HSR Distance (m)": 0.4523809523809524,
+        "HI Distance (m)": 0.32962588473205257,
+        "Max Speed (m/s)": 0.4923076923076921
+      }
+    },
+    {
+      "Game ID": 3,
+      "Opposition": "AFC Reading Dakota Belles",
+      "H/A": "A",
+      "raw": {
+        "Distance - Total (KM)": 4.77,
+        "Distance per Min": 90.0,
+        "HSR - Total (M)": 138,
+        "HI Distance - Total (M)": 706,
+        "Speed - Max (m/s)": 7.34
+      },
+      "normalized": {
+        "Total Distance (km)": 0.4545454545454545,
+        "Distance / Min (m)": 0.7069569188613184,
+        "HSR Distance (m)": 0.3904761904761905,
+        "HI Distance (m)": 0.43478260869565216,
+        "Max Speed (m/s)": 0.5230769230769229
+      }
+    },
+    {
+      "Game ID": 4,
+      "Opposition": "Pompey in the Community",
+      "H/A": "H",
+      "raw": {
+        "Distance - Total (KM)": 5.13,
+        "Distance per Min": 95.0,
+        "HSR - Total (M)": 147,
+        "HI Distance - Total (M)": 875,
+        "Speed - Max (m/s)": 7.18
+      },
+      "normalized": {
+        "Total Distance (km)": 0.5056818181818182,
+        "Distance / Min (m)": 0.8097122849748821,
+        "HSR Distance (m)": 0.43333333333333335,
+        "HI Distance (m)": 0.6056622851365016,
+        "Max Speed (m/s)": 0.39999999999999974
+      }
+    },
+    {
+      "Game ID": 5,
+      "Opposition": "Atalanta",
+      "H/A": "A",
+      "raw": {
+        "Distance - Total (KM)": 3.71,
+        "Distance per Min": 77.29166666666667,
+        "HSR - Total (M)": 88,
+        "HI Distance - Total (M)": 460,
+        "Speed - Max (m/s)": 7.61
+      },
+      "normalized": {
+        "Total Distance (km)": 0.3039772727272727,
+        "Distance / Min (m)": 0.44578702998934405,
+        "HSR Distance (m)": 0.1523809523809524,
+        "HI Distance (m)": 0.18604651162790697,
+        "Max Speed (m/s)": 0.7307692307692311
+      }
+    },
+    {
+      "Game ID": 6,
+      "Opposition": "Hartland Academy",
+      "H/A": "A",
+      "raw": {
+        "Distance - Total (KM)": 5.7,
+        "Distance per Min": 90.47619047619048,
+        "HSR - Total (M)": 133,
+        "HI Distance - Total (M)": 915,
+        "Speed - Max (m/s)": 6.74
+      },
+      "normalized": {
+        "Total Distance (km)": 0.5866477272727273,
+        "Distance / Min (m)": 0.7167431442054675,
+        "HSR Distance (m)": 0.36666666666666664,
+        "HI Distance (m)": 0.6461071789686552,
+        "Max Speed (m/s)": 0.061538461538461604
+      }
+    },
+    {
+      "Game ID": 7,
+      "Opposition": "MK Dons CFFE",
+      "H/A": "A",
+      "raw": {
+        "Distance - Total (KM)": 5.46,
+        "Distance per Min": 97.5,
+        "HSR - Total (M)": 56,
+        "HI Distance - Total (M)": 774,
+        "Speed - Max (m/s)": 6.66
+      },
+      "normalized": {
+        "Total Distance (km)": 0.5525568181818182,
+        "Distance / Min (m)": 0.861089968031664,
+        "HSR Distance (m)": 0.0,
+        "HI Distance (m)": 0.5035389282103134,
+        "Max Speed (m/s)": 0.0
+      }
+    },
+    {
+      "Game ID": 8,
+      "Opposition": "Inspire Girls Academy",
+      "H/A": "H",
+      "raw": {
+        "Distance - Total (KM)": 4.69,
+        "Distance per Min": 86.85185185185185,
+        "HSR - Total (M)": 233,
+        "HI Distance - Total (M)": 775,
+        "Speed - Max (m/s)": 7.8
+      },
+      "normalized": {
+        "Total Distance (km)": 0.44318181818181823,
+        "Distance / Min (m)": 0.6422590957527782,
+        "HSR Distance (m)": 0.8428571428571429,
+        "HI Distance (m)": 0.5045500505561172,
+        "Max Speed (m/s)": 0.8769230769230768
+      }
+    },
+    {
+      "Game ID": 9,
+      "Opposition": "Reading City",
+      "H/A": "H",
+      "raw": {
+        "Distance - Total (KM)": 5.16,
+        "Distance per Min": 95.55555555555556,
+        "HSR - Total (M)": 164,
+        "HI Distance - Total (M)": 823,
+        "Speed - Max (m/s)": 6.95
+      },
+      "normalized": {
+        "Total Distance (km)": 0.5099431818181819,
+        "Distance / Min (m)": 0.8211295478763893,
+        "HSR Distance (m)": 0.5142857142857142,
+        "HI Distance (m)": 0.5530839231547017,
+        "Max Speed (m/s)": 0.22307692307692314
+      }
+    },
+    {
+      "Game ID": 10,
+      "Opposition": "Chelsea Ladies U14",
+      "H/A": "A",
+      "raw": {
+        "Distance - Total (KM)": 5.63,
+        "Distance per Min": 104.25925925925925,
+        "HSR - Total (M)": 134,
+        "HI Distance - Total (M)": 1012,
+        "Speed - Max (m/s)": 7.01
+      },
+      "normalized": {
+        "Total Distance (km)": 0.5767045454545454,
+        "Distance / Min (m)": 1.0,
+        "HSR Distance (m)": 0.37142857142857144,
+        "HI Distance (m)": 0.7441860465116279,
+        "Max Speed (m/s)": 0.269230769230769
+      }
+    },
+    {
+      "Game ID": 11,
+      "Opposition": "Josh Evans Soccer School",
+      "H/A": "H",
+      "raw": {
+        "Distance - Total (KM)": 5.85,
+        "Distance per Min": 88.63636363636364,
+        "HSR - Total (M)": 223,
+        "HI Distance - Total (M)": 920,
+        "Speed - Max (m/s)": 7.31
+      },
+      "normalized": {
+        "Total Distance (km)": 0.6079545454545454,
+        "Distance / Min (m)": 0.6789327281030738,
+        "HSR Distance (m)": 0.7952380952380952,
+        "HI Distance (m)": 0.6511627906976745,
+        "Max Speed (m/s)": 0.49999999999999967
+      }
+    },
+    {
+      "Game ID": 12,
+      "Opposition": "Bucks Academy",
+      "H/A": "A",
+      "raw": {
+        "Distance - Total (KM)": 5.31,
+        "Distance per Min": 88.5,
+        "HSR - Total (M)": 173,
+        "HI Distance - Total (M)": 825,
+        "Speed - Max (m/s)": 7.2
+      },
+      "normalized": {
+        "Total Distance (km)": 0.53125,
+        "Distance / Min (m)": 0.6761303090272492,
+        "HSR Distance (m)": 0.5571428571428572,
+        "HI Distance (m)": 0.5551061678463094,
+        "Max Speed (m/s)": 0.41538461538461546
+      }
+    },
+    {
+      "Game ID": 13,
+      "Opposition": "MK Dons SET",
+      "H/A": "A",
+      "raw": {
+        "Distance - Total (KM)": 5.19,
+        "Distance per Min": 92.67857142857143,
+        "HSR - Total (M)": 164,
+        "HI Distance - Total (M)": 765,
+        "Speed - Max (m/s)": 7.29
+      },
+      "normalized": {
+        "Total Distance (km)": 0.5142045454545455,
+        "Distance / Min (m)": 0.7620044364221562,
+        "HSR Distance (m)": 0.5142857142857142,
+        "HI Distance (m)": 0.49443882709807885,
+        "Max Speed (m/s)": 0.4846153846153846
+      }
+    },
+    {
+      "Game ID": 14,
+      "Opposition": "Reading City",
+      "H/A": "A",
+      "raw": {
+        "Distance - Total (KM)": 5.1,
+        "Distance per Min": 94.44444444444444,
+        "HSR - Total (M)": 159,
+        "HI Distance - Total (M)": 766,
+        "Speed - Max (m/s)": 6.96
+      },
+      "normalized": {
+        "Total Distance (km)": 0.5014204545454545,
+        "Distance / Min (m)": 0.798295022073375,
+        "HSR Distance (m)": 0.49047619047619045,
+        "HI Distance (m)": 0.4954499494438827,
+        "Max Speed (m/s)": 0.23076923076923067
+      }
+    },
+    {
+      "Game ID": 15,
+      "Opposition": "Chelsea Ladies U14",
+      "H/A": "H",
+      "raw": {
+        "Distance - Total (KM)": 3.72,
+        "Distance per Min": 84.54545454545455,
+        "HSR - Total (M)": 148,
+        "HI Distance - Total (M)": 517,
+        "Speed - Max (m/s)": 7.75
+      },
+      "normalized": {
+        "Total Distance (km)": 0.30539772727272735,
+        "Distance / Min (m)": 0.5948601558283398,
+        "HSR Distance (m)": 0.4380952380952381,
+        "HI Distance (m)": 0.243680485338726,
+        "Max Speed (m/s)": 0.8384615384615385
+      }
+    },
+    {
+      "Game ID": 16,
+      "Opposition": "Chesham Utd Elite",
+      "H/A": "A",
+      "raw": {
+        "Distance - Total (KM)": 6.0,
+        "Distance per Min": 86.95652173913044,
+        "HSR - Total (M)": 72,
+        "HI Distance - Total (M)": 767,
+        "Speed - Max (m/s)": 7.13
+      },
+      "normalized": {
+        "Total Distance (km)": 0.6292613636363636,
+        "Distance / Min (m)": 0.6444101742704536,
+        "HSR Distance (m)": 0.0761904761904762,
+        "HI Distance (m)": 0.49646107178968657,
+        "Max Speed (m/s)": 0.3615384615384614
+      }
+    },
+    {
+      "Game ID": 17,
+      "Opposition": "Cray Wanderers",
+      "H/A": "A",
+      "raw": {
+        "Distance - Total (KM)": 5.55,
+        "Distance per Min": 94.0677966101695,
+        "HSR - Total (M)": 143,
+        "HI Distance - Total (M)": 810,
+        "Speed - Max (m/s)": 7.09
+      },
+      "normalized": {
+        "Total Distance (km)": 0.5653409090909091,
+        "Distance / Min (m)": 0.7905545048520144,
+        "HSR Distance (m)": 0.4142857142857143,
+        "HI Distance (m)": 0.5399393326592518,
+        "Max Speed (m/s)": 0.3307692307692306
+      }
+    },
+    {
+      "Game ID": 18,
+      "Opposition": "Bucks Academy",
+      "H/A": "H",
+      "raw": {
+        "Distance - Total (KM)": 5.4,
+        "Distance per Min": 100.0,
+        "HSR - Total (M)": 208,
+        "HI Distance - Total (M)": 934,
+        "Speed - Max (m/s)": 7.39
+      },
+      "normalized": {
+        "Total Distance (km)": 0.5440340909090909,
+        "Distance / Min (m)": 0.9124676510884459,
+        "HSR Distance (m)": 0.7238095238095238,
+        "HI Distance (m)": 0.6653185035389282,
+        "Max Speed (m/s)": 0.5615384615384612
+      }
+    },
+    {
+      "Game ID": 19,
+      "Opposition": "SH Football",
+      "H/A": "H",
+      "raw": {
+        "Distance - Total (KM)": 4.07,
+        "Distance per Min": 94.65116279069768,
+        "HSR - Total (M)": 120,
+        "HI Distance - Total (M)": 663,
+        "Speed - Max (m/s)": 6.93
+      },
+      "normalized": {
+        "Total Distance (km)": 0.3551136363636364,
+        "Distance / Min (m)": 0.8025433059437035,
+        "HSR Distance (m)": 0.3047619047619048,
+        "HI Distance (m)": 0.391304347826087,
+        "Max Speed (m/s)": 0.2076923076923074
+      }
+    },
+    {
+      "Game ID": 20,
+      "Opposition": "SH Football",
+      "H/A": "A",
+      "raw": {
+        "Distance - Total (KM)": 1.57,
+        "Distance per Min": 98.125,
+        "HSR - Total (M)": 67,
+        "HI Distance - Total (M)": 276,
+        "Speed - Max (m/s)": 6.99
+      },
+      "normalized": {
+        "Total Distance (km)": 0.0,
+        "Distance / Min (m)": 0.8739343887958595,
+        "HSR Distance (m)": 0.05238095238095238,
+        "HI Distance (m)": 0.0,
+        "Max Speed (m/s)": 0.25384615384615394
+      }
+    },
+    {
+      "Game ID": 21,
+      "Opposition": "Eldon Celtic",
+      "H/A": "H",
+      "raw": {
+        "Distance - Total (KM)": 8.21,
+        "Distance per Min": 98.91566265060241,
+        "HSR - Total (M)": 266,
+        "HI Distance - Total (M)": 1265,
+        "Speed - Max (m/s)": 7.6
+      },
+      "normalized": {
+        "Total Distance (km)": 0.9431818181818183,
+        "Distance / Min (m)": 0.8901833548228538,
+        "HSR Distance (m)": 1.0,
+        "HI Distance (m)": 1.0,
+        "Max Speed (m/s)": 0.7230769230769228
+      }
+    },
+    {
+      "Game ID": 22,
+      "Opposition": "MK Dons CFFE",
+      "H/A": "H",
+      "raw": {
+        "Distance - Total (KM)": 5.68,
+        "Distance per Min": 103.27272727272727,
+        "HSR - Total (M)": 242,
+        "HI Distance - Total (M)": 972,
+        "Speed - Max (m/s)": 7.17
+      },
+      "normalized": {
+        "Total Distance (km)": 0.5838068181818181,
+        "Distance / Min (m)": 0.9797257089082329,
+        "HSR Distance (m)": 0.8857142857142857,
+        "HI Distance (m)": 0.7037411526794742,
+        "Max Speed (m/s)": 0.3923076923076922
+      }
+    },
+    {
+      "Game ID": 23,
+      "Opposition": "Slough Town",
+      "H/A": "A",
+      "raw": {
+        "Distance - Total (KM)": 8.61,
+        "Distance per Min": 100.11627906976744,
+        "HSR - Total (M)": 172,
+        "HI Distance - Total (M)": 1122,
+        "Speed - Max (m/s)": 7.38
+      },
+      "normalized": {
+        "Total Distance (km)": 1.0,
+        "Distance / Min (m)": 0.9148573107655055,
+        "HSR Distance (m)": 0.5523809523809524,
+        "HI Distance (m)": 0.8554095045500506,
+        "Max Speed (m/s)": 0.5538461538461538
+      }
+    },
+    {
+      "Game ID": 24,
+      "Opposition": "Josh Evans Soccer School",
+      "H/A": "A",
+      "raw": {
+        "Distance - Total (KM)": 6.74,
+        "Distance per Min": 96.28571428571429,
+        "HSR - Total (M)": 227,
+        "HI Distance - Total (M)": 1011,
+        "Speed - Max (m/s)": 7.96
+      },
+      "normalized": {
+        "Total Distance (km)": 0.7343750000000001,
+        "Distance / Min (m)": 0.8361350934040843,
+        "HSR Distance (m)": 0.8142857142857143,
+        "HI Distance (m)": 0.7431749241658241,
+        "Max Speed (m/s)": 1.0
+      }
+    }
+  ],
+  "parameter_states": [
+    {
+      "parameter": "Chelsea Ladies U14",
+      "highlighted_games": [
+        10,
+        15
+      ],
+      "total_games": 24,
+      "normalized_values_unchanged": true
+    },
+    {
+      "parameter": "South Gloucestershire",
+      "highlighted_games": [
+        2
+      ],
+      "total_games": 24,
+      "normalized_values_unchanged": true
+    },
+    {
+      "parameter": "",
+      "highlighted_games": [],
+      "total_games": 24,
+      "normalized_values_unchanged": true
+    }
+  ],
+  "artifact_sha256": "de8a3159167cc6128ef1a1a3bf31677223791dcde37073c92cc3f91934a75674",
+  "browser_interaction_executed": false
+}

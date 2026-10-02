@@ -303,6 +303,39 @@
       "reason": "Derived from case metadata; consumed means claimed, not verified completed."
     },
     {
+      "case_id": "wow-2019-ww46-dynamic-scatter-brushing",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2019-11-17-ww46-dynamic-scatter-brushing",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2019-ww47-explain-data-dashboard",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2019-11-23-ww47-explain-data-dashboard",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2019-ww48-small-contributions",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2019-12-02-ww48-small-contributions",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
       "case_id": "wow-2026-ww04-dynamic-moving-average",
       "legacy_case_ids": {
         "donna-2026-02-02-5ebab8421caf": "wow-2026-ww04-dynamic-moving-average"
@@ -341,6 +374,28 @@
         "tableau-f9dff954fb215221"
       ],
       "iteration": "2026-02-15-ww06-null-safe-averages",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2026-ww07-table-calcs-vs-lods",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2026-02-26-ww07-table-calcs-vs-lods",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2026-ww09-parallel-coordinates",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2026-03-12-ww09-parallel-coordinates",
       "status": "consumed",
       "replication_status": "replicated",
       "verification_status": "verified",

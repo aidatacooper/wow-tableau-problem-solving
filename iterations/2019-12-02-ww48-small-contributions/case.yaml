@@ -1,0 +1,104 @@
+schema_version: 1.1.0
+case_id: wow-2019-ww48-small-contributions
+iteration_id: 2019-12-02-ww48-small-contributions
+post: https://donnacoles.home.blog/2019/12/02/can-you-build-a-bar-chart-that-automatically-combines-small-contributions/
+legacy_case_ids: {}
+article_date: '2019-12-02'
+challenge_year: 2019
+challenge_week: 48
+challenge_date: '2019-11-27'
+date_evidence:
+  article_date: 'Donna article publication heading and archived index.json: December 2, 2019'
+  challenge: Explicit challenge_year; week declared in iteration_id
+  challenge_date: Official WordPress REST /wp-json/wp/v2/posts/3048 date=2019-11-27T14:44:29 (calendar
+    date).
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/week-48-can-you-build-a-bar-chart-that-automatically-combines-small-contributions/
+    wordpress_post_id: 3048
+  article:
+    url: https://donnacoles.home.blog/2019/12/02/can-you-build-a-bar-chart-that-automatically-combines-small-contributions/
+    path: null
+    sha256: 561ff02fa8c296e47cc46fcecc25c8ae36b57163356add74f17d0d171d8bacb2
+  workbook:
+    url: https://public.tableau.com/views/2019_11_27_WW48_Sales_by_State/2019_11_27_WW48_Sales_by_State
+    filename: 2019_11_27_WW48_Sales_by_State.twbx
+    sha256: 2644ae4233f3d5bb199d4de07be516aa9852a3f859b3389320b958b70a6ac509
+    path: dashboards/2019_11_27_WW48_Sales_by_State/2019_11_27_WW48_Sales_by_State.twbx
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- inputs/source-lock.json
+- evidence/local-verification.json
+- analysis.md
+- evidence/cloud-verification.json
+- evidence/cloud-data-comparison.json
+- evidence/visual-review.md
+- evidence/sdk-validation.json
+notes:
+- Independent builder reads only extracted Hyper and starts TWBEditor(""). Row contribution SUM(Sales/Total
+  Sales) is algebraically equivalent to author row-repeated LOD, independently tested against complete
+  source data.
+- Cloud REST plus generated workbook contract acceptance. No browser clicks or hovers executed.
+- Cloud REST images/data states and artifact contracts reviewed. Remaining presentation differences documented
+  in evidence/visual-review.md; no browser events executed.
+cwtwb:
+  tested_version: 0.27.1
+  runs:
+  - version: 0.27.1
+    result: pass
+    evidence: evidence/local-verification.json
+  - version: 0.27.1
+    commit: 0958b51e18cd3120a2f67fd7dbcc7e978a105399
+    result: pass
+    evidence: evidence/sdk-validation.json
+  tested_commit: 0958b51e18cd3120a2f67fd7dbcc7e978a105399
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: pass
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/TEMP_0ske40z0b1oqko1aed0it1apaiil.hyper
+acceptance:
+- id: threshold-domain
+  description: Threshold Percent defaults to 3% and accepts arbitrary values.
+  mode: automated
+- id: grouping-and-order
+  description: States at or above threshold remain individual; other states collapse into one final bar,
+    individual bars descending by sales share.
+  mode: automated
+- id: dual-axis-labels
+  description: Synchronized horizontal Bar and invisible GanttBar panes display state and contribution
+    above each bar.
+  mode: automated
+- id: count-summary
+  description: Dynamic title exposes listed and grouped distinct state counts.
+  mode: automated
+- id: threshold-reference
+  description: One table-wide reference line follows the threshold parameter.
+  mode: automated
+- id: dashboard-control
+  description: 1100 x 900 dashboard provides a threshold type-in control and a single chart.
+  mode: automated
+- id: independent-numerics
+  description: Complete 49-state source aggregation independently validates shares and counts at 1%, 3%,
+    5%.
+  mode: automated
+- id: cloud-visual-review
+  description: Original and replica REST images inspected in captured states; explicit deltas and export
+    limitations recorded.
+  mode: manual
+  evidence: evidence/visual-review.md
+remaining_work: []
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []
+acceptance_scope: cloud_rest_and_artifact_contracts
+browser_interaction_executed: false

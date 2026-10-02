@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-02",
+  "source_workbook": {
+    "filename": "2026_02_17_WW07_TableCalcs_and_LODs.twbx",
+    "bytes": 56214,
+    "sha256": "41bc6668efa25909d7395dd997ec435f75637a1f4837b59fa8c38487e387d303",
+    "url": "https://public.tableau.com/views/2026_02_17_WW07_TableCalcs_and_LODs/2026_02_17_WW07_TableCalcs_and_LODs"
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/TableauTemp/TEMP_0ilyfrx1hkcbs51aq6xb60vy0d5a.hyper",
+      "file": "inputs/TEMP_0ilyfrx1hkcbs51aq6xb60vy0d5a.hyper",
+      "bytes": 196608,
+      "sha256": "b97eaf64a3917f092e96cd4e7b687e7e89b0a58523971c719bfb8199e44857d8"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

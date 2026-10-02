@@ -1,0 +1,88 @@
+{
+  "status": "pass",
+  "tc_late_filter_render": "Manual review of author/replica consumer-east-tc-late-filter PNGs observes Technology37.9%, OfficeSupplies29.5% with Furniture hidden, matching the independent Consumer/East baseline; CSV still covers LODs only.",
+  "scope": "Actual dashboard REST CSV exports select LODs only. Table Calcs is validated by native calculation/filter artifact contracts and independent Hyper oracle; these CSV exports do not prove Table Calcs rendered values.",
+  "checks": [
+    {
+      "role": "author",
+      "state": "all",
+      "file": "outputs/cloud-author-dashboard.csv",
+      "sha256": "8a0ba53b7876ea4b384717fee3994228161e697e49a2da28fd656b1eb0eb5c81",
+      "rows": 12,
+      "Sales_tolerance": 1e-06,
+      "percent_tolerance": 0.00050001,
+      "source_scope": "LODs worksheet only, 1-decimal formatted percent"
+    },
+    {
+      "role": "replica",
+      "state": "all",
+      "file": "outputs/cloud-replica-dashboard.csv",
+      "sha256": "8a0ba53b7876ea4b384717fee3994228161e697e49a2da28fd656b1eb0eb5c81",
+      "rows": 12,
+      "Sales_tolerance": 1e-06,
+      "percent_tolerance": 0.00050001,
+      "source_scope": "LODs worksheet only, 1-decimal formatted percent"
+    },
+    {
+      "role": "author",
+      "state": "consumer",
+      "file": "outputs/cloud-author-dashboard-consumer.csv",
+      "sha256": "326653d079275df4b8dcb46f7fc07d2ddbab7a174f105990d4ceb01c412188c4",
+      "rows": 12,
+      "Sales_tolerance": 1e-06,
+      "percent_tolerance": 0.00050001,
+      "source_scope": "LODs worksheet only, 1-decimal formatted percent"
+    },
+    {
+      "role": "replica",
+      "state": "consumer",
+      "file": "outputs/cloud-replica-dashboard-consumer.csv",
+      "sha256": "326653d079275df4b8dcb46f7fc07d2ddbab7a174f105990d4ceb01c412188c4",
+      "rows": 12,
+      "Sales_tolerance": 1e-06,
+      "percent_tolerance": 0.00050001,
+      "source_scope": "LODs worksheet only, 1-decimal formatted percent"
+    },
+    {
+      "role": "author",
+      "state": "consumer-hide-furniture-east",
+      "file": "outputs/cloud-author-dashboard-consumer-east-no-furniture.csv",
+      "sha256": "7e1a2a0b7e7659de19ad21f5c5c87d6112c96d090a0171c7b72aa143e5f7843a",
+      "rows": 2,
+      "Sales_tolerance": 1e-06,
+      "percent_tolerance": 0.00050001,
+      "source_scope": "LODs worksheet only, 1-decimal formatted percent"
+    },
+    {
+      "role": "replica",
+      "state": "consumer-hide-furniture-east",
+      "file": "outputs/cloud-replica-dashboard-consumer-east-no-furniture.csv",
+      "sha256": "7e1a2a0b7e7659de19ad21f5c5c87d6112c96d090a0171c7b72aa143e5f7843a",
+      "rows": 2,
+      "Sales_tolerance": 1e-06,
+      "percent_tolerance": 0.00050001,
+      "source_scope": "LODs worksheet only, 1-decimal formatted percent"
+    },
+    {
+      "role": "author",
+      "state": "consumer-hide-furniture-east",
+      "file": "outputs/cloud-author-dashboard-consumer-east-tc-late-filter.csv",
+      "sha256": "7e1a2a0b7e7659de19ad21f5c5c87d6112c96d090a0171c7b72aa143e5f7843a",
+      "rows": 2,
+      "Sales_tolerance": 1e-06,
+      "percent_tolerance": 0.00050001,
+      "source_scope": "LODs worksheet only, 1-decimal formatted percent"
+    },
+    {
+      "role": "replica",
+      "state": "consumer-hide-furniture-east",
+      "file": "outputs/cloud-replica-dashboard-consumer-east-tc-late-filter.csv",
+      "sha256": "7e1a2a0b7e7659de19ad21f5c5c87d6112c96d090a0171c7b72aa143e5f7843a",
+      "rows": 2,
+      "Sales_tolerance": 1e-06,
+      "percent_tolerance": 0.00050001,
+      "source_scope": "LODs worksheet only, 1-decimal formatted percent"
+    }
+  ],
+  "browser_interaction_executed": false
+}

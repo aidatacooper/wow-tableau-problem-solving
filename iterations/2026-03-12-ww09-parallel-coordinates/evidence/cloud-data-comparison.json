@@ -1,0 +1,129 @@
+{
+  "status": "pass",
+  "scope": "24 games x 5 metrics x 2 panes, raw metric tooltip values and highlight labels. Two nonempty REST states execute. Empty REST state not claimed when ignored; serialized clearing action remains artifact contract.",
+  "checks": [
+    {
+      "role": "author",
+      "state": "default",
+      "file": "outputs/cloud-author-dashboard.csv",
+      "sha256": "9179e2a2858c9c7476af17fcba00a043129fdeb53dd7a34d56318bb951cb0149",
+      "total_rows": 240,
+      "foreground_rows": 120,
+      "spine_rows": 120,
+      "game_metric_keys": 120,
+      "highlighted_games": [
+        10,
+        15
+      ],
+      "normalization_tolerance": 5.1e-09,
+      "raw_rounding_tolerance": 0.00500001
+    },
+    {
+      "role": "replica",
+      "state": "default",
+      "file": "outputs/cloud-replica-dashboard.csv",
+      "sha256": "4e1c88b41333e5c52c46b854f0ab64df9719b7cb25e7159cc7a5525d23583a09",
+      "total_rows": 240,
+      "foreground_rows": 120,
+      "spine_rows": 120,
+      "game_metric_keys": 120,
+      "highlighted_games": [
+        10,
+        15
+      ],
+      "normalization_tolerance": 5.1e-09,
+      "raw_rounding_tolerance": 0.00500001
+    },
+    {
+      "role": "author",
+      "state": "-south-gloucestershire",
+      "file": "outputs/cloud-author-dashboard-south-gloucestershire.csv",
+      "sha256": "b9beab4acfbdb03ec8bfb34617594185545e9b352b5968d9957311ebe145029e",
+      "total_rows": 240,
+      "foreground_rows": 120,
+      "spine_rows": 120,
+      "game_metric_keys": 120,
+      "highlighted_games": [
+        2
+      ],
+      "normalization_tolerance": 5.1e-09,
+      "raw_rounding_tolerance": 0.00500001
+    },
+    {
+      "role": "replica",
+      "state": "-south-gloucestershire",
+      "file": "outputs/cloud-replica-dashboard-south-gloucestershire.csv",
+      "sha256": "81a6cb92cf5edad2feadd9028f65042bc7f9fe542b017a1bb62d532066fda198",
+      "total_rows": 240,
+      "foreground_rows": 120,
+      "spine_rows": 120,
+      "game_metric_keys": 120,
+      "highlighted_games": [
+        2
+      ],
+      "normalization_tolerance": 5.1e-09,
+      "raw_rounding_tolerance": 0.00500001
+    }
+  ],
+  "clear_parameter_rest_results": [
+    {
+      "role": "author",
+      "requested_parameter": "",
+      "observed_highlighted_games": [
+        10,
+        15
+      ],
+      "empty_state_executed": false,
+      "note": "REST empty parameter is ignored/default retained if highlighted_games is nonempty; clear action only artifact-verified."
+    },
+    {
+      "role": "replica",
+      "requested_parameter": "",
+      "observed_highlighted_games": [
+        10,
+        15
+      ],
+      "empty_state_executed": false,
+      "note": "REST empty parameter is ignored/default retained if highlighted_games is nonempty; clear action only artifact-verified."
+    }
+  ],
+  "ignored_requests": [
+    {
+      "role": "author",
+      "state": "-clear-highlight",
+      "file": "outputs/cloud-author-dashboard-clear-highlight.csv",
+      "sha256": "05282e29f5ff91542ffc18a0417fe880866c6f0167687cb90a261df4d78bcb70",
+      "total_rows": 240,
+      "foreground_rows": 120,
+      "spine_rows": 120,
+      "game_metric_keys": 120,
+      "highlighted_games": [
+        10,
+        15
+      ],
+      "normalization_tolerance": 5.1e-09,
+      "raw_rounding_tolerance": 0.00500001,
+      "request_status": "ignored_empty_parameter",
+      "successful_parameter_state": false
+    },
+    {
+      "role": "replica",
+      "state": "-clear-highlight",
+      "file": "outputs/cloud-replica-dashboard-clear-highlight.csv",
+      "sha256": "418971b10eb22ef3b056717cefb1861102c8f55c7093e0af0fee051b792097ef",
+      "total_rows": 240,
+      "foreground_rows": 120,
+      "spine_rows": 120,
+      "game_metric_keys": 120,
+      "highlighted_games": [
+        10,
+        15
+      ],
+      "normalization_tolerance": 5.1e-09,
+      "raw_rounding_tolerance": 0.00500001,
+      "request_status": "ignored_empty_parameter",
+      "successful_parameter_state": false
+    }
+  ],
+  "browser_interaction_executed": false
+}

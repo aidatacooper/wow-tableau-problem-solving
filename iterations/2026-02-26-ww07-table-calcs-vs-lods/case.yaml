@@ -1,0 +1,88 @@
+schema_version: 1.1.0
+case_id: wow-2026-ww07-table-calcs-vs-lods
+iteration_id: 2026-02-26-ww07-table-calcs-vs-lods
+post: https://donnacoles.home.blog/2026/02/26/exploring-table-calcs-vs-lods/
+legacy_case_ids: {}
+article_date: '2026-02-26'
+challenge_year: 2026
+challenge_week: 7
+challenge_date: '2026-02-17'
+date_evidence:
+  article_date: Declared article publication date in iteration_id
+  challenge: Explicit challenge_year; week declared in iteration_id
+  challenge_date: Official WordPress REST post date 2026-02-17T10:27:00 at https://www.workout-wednesday.com/wp-json/wp/v2/posts?slug=2026w07tab
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2026w07tab/
+    wordpress_post_id: 21338
+  article:
+    url: https://donnacoles.home.blog/2026/02/26/exploring-table-calcs-vs-lods/
+    path: null
+    sha256: null
+  workbook:
+    url: https://public.tableau.com/views/2026_02_17_WW07_TableCalcs_and_LODs/2026_02_17_WW07_TableCalcs_and_LODs
+    filename: 2026_02_17_WW07_TableCalcs_and_LODs.twbx
+    sha256: 41bc6668efa25909d7395dd997ec435f75637a1f4837b59fa8c38487e387d303
+    path: dashboards/2026_02_17_WW07_TableCalcs_and_LODs/2026_02_17_WW07_TableCalcs_and_LODs.twbx
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- inputs/source-lock.json
+- evidence/functional-verification.json
+- evidence/cloud-verification.json
+- evidence/cloud-data-comparison.json
+- evidence/visual-review.md
+- evidence/sdk-validation.json
+notes:
+- Builder uses TWBEditor("") and public SDK APIs; author workbook analyzed only.
+- Cloud REST images/data states and artifact contracts reviewed. Remaining presentation differences documented
+  in evidence/visual-review.md; no browser events executed.
+cwtwb:
+  tested_version: 0.27.1
+  runs:
+  - version: 0.27.1
+    result: pass
+    evidence: evidence/functional-verification.json
+  - version: 0.27.1
+    commit: 0958b51e18cd3120a2f67fd7dbcc7e978a105399
+    result: pass
+    evidence: evidence/sdk-validation.json
+  tested_commit: 0958b51e18cd3120a2f67fd7dbcc7e978a105399
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: pass
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/TEMP_0ilyfrx1hkcbs51aq6xb60vy0d5a.hyper
+acceptance:
+- id: locked-source-artifact-contract
+  description: locked source artifact contract. See executable assertions and independent Hyper oracle.
+  mode: automated
+- id: category-late-filter-contract
+  description: category late filter contract. See executable assertions and independent Hyper oracle.
+  mode: automated
+- id: lod-denominator-contract
+  description: lod denominator contract. See executable assertions and independent Hyper oracle.
+  mode: automated
+- id: independent-filter-numerical-contract
+  description: independent filter numerical contract. See executable assertions and independent Hyper
+    oracle.
+  mode: automated
+- id: cloud-visual-review
+  description: Original and replica REST images inspected in captured states; explicit deltas and export
+    limitations recorded.
+  mode: manual
+  evidence: evidence/visual-review.md
+remaining_work: []
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []
+acceptance_scope: cloud_rest_and_artifact_contracts
+browser_interaction_executed: false

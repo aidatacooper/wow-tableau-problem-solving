@@ -114,7 +114,7 @@ def relative_file(base: Path, value: object) -> Path:
     if not isinstance(value, str) or not value:
         raise AssertionError(f"Invalid artifact/evidence path: {value!r}")
     path = Path(value)
-    if path.is_absolute() or ".." in path.parts or str(path) != value:
+    if path.is_absolute() or ".." in path.parts or path.as_posix() != value or "\\" in value:
         raise AssertionError(f"Unsafe artifact/evidence path: {value}")
     result = base / path
     if not result.is_file():

@@ -1,0 +1,143 @@
+{
+  "case_id": "wow-2026-ww09-parallel-coordinates",
+  "captured_at": "2026-10-02T14:27:06.779771+00:00",
+  "source_hashes": {
+    "author": "f56d01b0bc67209e958c0ec1357c66362f1f52d7fcf751b95670332da09d9849",
+    "replica": "de8a3159167cc6128ef1a1a3bf31677223791dcde37073c92cc3f91934a75674"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "efb5326e-83e3-4ae3-b7d4-15d10dd80bbe",
+      "name": "cwtwb-review-wow-2026-ww09-parallel-coordinates-author",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2923924",
+      "views": [
+        {
+          "name": "2026_03_04_WW09_Parallel_Coordinates",
+          "id": "d22fa534-c092-4e90-821f-b449a2a2d039"
+        },
+        {
+          "name": "Data",
+          "id": "1472f2a3-0bab-4cca-871c-af69f27dd3da"
+        }
+      ]
+    },
+    "replica": {
+      "id": "b3bbf626-2834-48de-9cbd-508151ea4efb",
+      "name": "cwtwb-review-wow-2026-ww09-parallel-coordinates-replica",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2923925",
+      "views": [
+        {
+          "name": "Viz",
+          "id": "ec259d03-3f05-41b1-af6e-6c6f7f4c46fe"
+        },
+        {
+          "name": "2026_03_04_WW09_Parallel_Coordinates",
+          "id": "dfae4fa4-be81-443d-a844-4df82c4cea93"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "d22fa534-c092-4e90-821f-b449a2a2d039",
+          "name": "2026_03_04_WW09_Parallel_Coordinates",
+          "path": "outputs/cloud-author.png",
+          "sha256": "993d713cad51e31df3bb4970bb68deddf591339104e545e8076e3f3c952a2ba4",
+          "size": [
+            2000,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "dfae4fa4-be81-443d-a844-4df82c4cea93",
+          "name": "2026_03_04_WW09_Parallel_Coordinates",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "1450e6d3c8646c130b0dac1dbb52307b678c1a7bf7c6532de2c97e194ec52ae8",
+          "size": [
+            2000,
+            1600
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "2026_03_04_WW09_Parallel_Coordinates",
+          "view_id": "d22fa534-c092-4e90-821f-b449a2a2d039",
+          "scope": "Dashboard default worksheet CSV only; full data separately validated from locked Hyper.",
+          "path": "outputs/cloud-author-dashboard.csv",
+          "sha256": "9179e2a2858c9c7476af17fcba00a043129fdeb53dd7a34d56318bb951cb0149",
+          "bytes": 20500
+        },
+        {
+          "role": "replica",
+          "view": "2026_03_04_WW09_Parallel_Coordinates",
+          "view_id": "dfae4fa4-be81-443d-a844-4df82c4cea93",
+          "scope": "Dashboard default worksheet CSV only; full data separately validated from locked Hyper.",
+          "path": "outputs/cloud-replica-dashboard.csv",
+          "sha256": "4e1c88b41333e5c52c46b854f0ab64df9719b7cb25e7159cc7a5525d23583a09",
+          "bytes": 31814
+        }
+      ]
+    },
+    {
+      "name": "south-gloucestershire",
+      "parameters": {
+        "Opposition Parameter": "South Gloucestershire"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "d22fa534-c092-4e90-821f-b449a2a2d039",
+          "name": "2026_03_04_WW09_Parallel_Coordinates",
+          "path": "outputs/cloud-author-south-gloucestershire.png",
+          "sha256": "e37a8231131ca8daea786ba33eaf9bc8e9f95a5ad2b61a52d4657051f7fca25e",
+          "size": [
+            2000,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "dfae4fa4-be81-443d-a844-4df82c4cea93",
+          "name": "2026_03_04_WW09_Parallel_Coordinates",
+          "path": "outputs/cloud-replica-south-gloucestershire.png",
+          "sha256": "3fdf49cefd8ebe71d156877566bd949ab206053d12e704faa4b47f6c455ab787",
+          "size": [
+            2000,
+            1600
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "2026_03_04_WW09_Parallel_Coordinates",
+          "view_id": "d22fa534-c092-4e90-821f-b449a2a2d039",
+          "scope": "Dashboard default worksheet CSV only; full data separately validated from locked Hyper.",
+          "path": "outputs/cloud-author-dashboard-south-gloucestershire.csv",
+          "sha256": "b9beab4acfbdb03ec8bfb34617594185545e9b352b5968d9957311ebe145029e",
+          "bytes": 20430
+        },
+        {
+          "role": "replica",
+          "view": "2026_03_04_WW09_Parallel_Coordinates",
+          "view_id": "dfae4fa4-be81-443d-a844-4df82c4cea93",
+          "scope": "Dashboard default worksheet CSV only; full data separately validated from locked Hyper.",
+          "path": "outputs/cloud-replica-dashboard-south-gloucestershire.csv",
+          "sha256": "81a6cb92cf5edad2feadd9028f65042bc7f9fe542b017a1bb62d532066fda198",
+          "bytes": 31724
+        }
+      ]
+    }
+  ],
+  "status": "verified_with_acceptable_visual_delta",
+  "independent_data_review": "evidence/cloud-data-comparison.json",
+  "visual_review": "evidence/visual-review.md"
+}

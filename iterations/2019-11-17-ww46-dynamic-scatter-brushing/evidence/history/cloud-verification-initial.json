@@ -1,0 +1,206 @@
+{
+  "case_id": "wow-2019-ww46-dynamic-scatter-brushing",
+  "captured_at": "2026-10-02T14:11:47.447234+00:00",
+  "source_hashes": {
+    "author": "53e331edc48839b442ac8c4be45206d642e14d12af9a11d856fe3d91e5821ebe",
+    "replica": "b614a612ee0d64820e2a911ad1c5985e5b2ddfc654ff30af256cd355f55290be"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "02e16c59-88cf-4fab-b30a-42a4df74d98c",
+      "name": "cwtwb-review-wow-2019-ww46-dynamic-scatter-brushing-author",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2923915",
+      "views": [
+        {
+          "name": "2019_11_13_WW46_Dynamic_Scatter_Proportional_Brushing",
+          "id": "825ed7cb-7375-4f34-a5db-009f0cd03bd4"
+        },
+        {
+          "name": "CHK:Data",
+          "id": "05fbf71a-7eb5-438d-8469-965bb2dff945"
+        }
+      ]
+    },
+    "replica": {
+      "id": "c3638ba7-bd9a-4207-a780-fa9e2532d928",
+      "name": "cwtwb-review-wow-2019-ww46-dynamic-scatter-brushing-replica",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2923917",
+      "views": [
+        {
+          "name": "Scatter",
+          "id": "a42ab690-4391-49a1-b6f6-b5437ca085f7"
+        },
+        {
+          "name": "LOD Bars",
+          "id": "a843e749-094a-4679-a1fb-a18bedc93f5a"
+        },
+        {
+          "name": "X Bars",
+          "id": "b7002a65-3edf-4a7c-afc0-e32e2539225a"
+        },
+        {
+          "name": "Y Bars",
+          "id": "c46bb9fb-bd5f-42a0-8f84-67eaac252619"
+        },
+        {
+          "name": "2019_11_13_WW46_Dynamic_Scatter_Proportional_Brushing",
+          "id": "5123b331-8267-4ea4-bdf7-5486fafc1026"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "825ed7cb-7375-4f34-a5db-009f0cd03bd4",
+          "name": "2019_11_13_WW46_Dynamic_Scatter_Proportional_Brushing",
+          "path": "outputs/cloud-author.png",
+          "sha256": "db083a7d20c8faf86d1471a2d110c3f93fde40d0c8f4a8459b3cff7b064c424a",
+          "size": [
+            2000,
+            1400
+          ]
+        },
+        "replica": {
+          "id": "5123b331-8267-4ea4-bdf7-5486fafc1026",
+          "name": "2019_11_13_WW46_Dynamic_Scatter_Proportional_Brushing",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "a6c6aafd42677ab82ec5ff0f02d7fb947ef4878d09ebdad1048ee2b900c37692",
+          "size": [
+            2000,
+            1400
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "2019_11_13_WW46_Dynamic_Scatter_Proportional_Brushing",
+          "view_id": "825ed7cb-7375-4f34-a5db-009f0cd03bd4",
+          "scope": "Dashboard default worksheet CSV only; full data separately validated from locked Hyper.",
+          "path": "outputs/cloud-author-dashboard.csv",
+          "sha256": "109322cedd9869a2ee005fc8dc15a1385dcbf6aca0e4639b49d9e11a08673b17",
+          "bytes": 157
+        },
+        {
+          "role": "replica",
+          "view": "2019_11_13_WW46_Dynamic_Scatter_Proportional_Brushing",
+          "view_id": "5123b331-8267-4ea4-bdf7-5486fafc1026",
+          "scope": "Dashboard default worksheet CSV only; full data separately validated from locked Hyper.",
+          "path": "outputs/cloud-replica-dashboard.csv",
+          "sha256": "a72e1da4e97a5b1084e079f4ff742d3fb0b8164ee3a456e79b55a6be63e46030",
+          "bytes": 101
+        }
+      ]
+    },
+    {
+      "name": "product-sales-orders",
+      "parameters": {
+        "Set Level of Detail": "Product",
+        "Set X-Axis": "Sales",
+        "Set Y-Axis": "Orders"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "825ed7cb-7375-4f34-a5db-009f0cd03bd4",
+          "name": "2019_11_13_WW46_Dynamic_Scatter_Proportional_Brushing",
+          "path": "outputs/cloud-author-product-sales-orders.png",
+          "sha256": "573980ac91673f1abf78158ec23dcc5fffc2aca672a1e137790e76db2921a095",
+          "size": [
+            2000,
+            1400
+          ]
+        },
+        "replica": {
+          "id": "5123b331-8267-4ea4-bdf7-5486fafc1026",
+          "name": "2019_11_13_WW46_Dynamic_Scatter_Proportional_Brushing",
+          "path": "outputs/cloud-replica-product-sales-orders.png",
+          "sha256": "71a30c074bf2ea72af14c57f03e9125b3e13ef39b15c4f4b5887d91199ac714c",
+          "size": [
+            2000,
+            1400
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "2019_11_13_WW46_Dynamic_Scatter_Proportional_Brushing",
+          "view_id": "825ed7cb-7375-4f34-a5db-009f0cd03bd4",
+          "scope": "Dashboard default worksheet CSV only; full data separately validated from locked Hyper.",
+          "path": "outputs/cloud-author-dashboard-product-sales-orders.csv",
+          "sha256": "054aaaf01716cce6e332083df2d48b53dd5eda836528875bd6aafc863f10c4be",
+          "bytes": 163
+        },
+        {
+          "role": "replica",
+          "view": "2019_11_13_WW46_Dynamic_Scatter_Proportional_Brushing",
+          "view_id": "5123b331-8267-4ea4-bdf7-5486fafc1026",
+          "scope": "Dashboard default worksheet CSV only; full data separately validated from locked Hyper.",
+          "path": "outputs/cloud-replica-dashboard-product-sales-orders.csv",
+          "sha256": "08c0e05a330aec3121381e0633f37aa5e41c2a776007077f2e7e1201fb235dae",
+          "bytes": 105
+        }
+      ]
+    },
+    {
+      "name": "manufacturer-profit-quantity",
+      "parameters": {
+        "Set Level of Detail": "Manufacturer",
+        "Set X-Axis": "Profit",
+        "Set Y-Axis": "Quantity"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "825ed7cb-7375-4f34-a5db-009f0cd03bd4",
+          "name": "2019_11_13_WW46_Dynamic_Scatter_Proportional_Brushing",
+          "path": "outputs/cloud-author-manufacturer-profit-quantity.png",
+          "sha256": "64bde3d47cf5471d1ab2bc0db1831965869bd81d01c02a8bf1c8f827786e29b7",
+          "size": [
+            2000,
+            1400
+          ]
+        },
+        "replica": {
+          "id": "5123b331-8267-4ea4-bdf7-5486fafc1026",
+          "name": "2019_11_13_WW46_Dynamic_Scatter_Proportional_Brushing",
+          "path": "outputs/cloud-replica-manufacturer-profit-quantity.png",
+          "sha256": "eda2f74f00b41e1dc588395b15ea5894d797d015a1a0568a15ad6c9adea7079e",
+          "size": [
+            2000,
+            1400
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "2019_11_13_WW46_Dynamic_Scatter_Proportional_Brushing",
+          "view_id": "825ed7cb-7375-4f34-a5db-009f0cd03bd4",
+          "scope": "Dashboard default worksheet CSV only; full data separately validated from locked Hyper.",
+          "path": "outputs/cloud-author-dashboard-manufacturer-profit-quantity.csv",
+          "sha256": "fbb94d99e7de251c697b2f5c17b17562e20f9891ab8ece5b1a061b38bb0e1b42",
+          "bytes": 140
+        },
+        {
+          "role": "replica",
+          "view": "2019_11_13_WW46_Dynamic_Scatter_Proportional_Brushing",
+          "view_id": "5123b331-8267-4ea4-bdf7-5486fafc1026",
+          "scope": "Dashboard default worksheet CSV only; full data separately validated from locked Hyper.",
+          "path": "outputs/cloud-replica-dashboard-manufacturer-profit-quantity.csv",
+          "sha256": "ec8d03d6b2a11f59775a92012297ca3f5cac0f5a10cb0c7182f07a33cf7e17f6",
+          "bytes": 101
+        }
+      ]
+    }
+  ],
+  "status": "captured_requires_independent_review"
+}

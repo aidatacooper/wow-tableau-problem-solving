@@ -1,0 +1,25 @@
+{
+  "tested_version": "0.27.1",
+  "baseline_result": "blocked",
+  "observations": [
+    {
+      "capability": "layered path encoding",
+      "evidence": "Released LayeredChartBuilder pane collection and encodings omit pane_spec path; needed Game ID path for the vertical-spine pane."
+    },
+    {
+      "capability": "layered table-calculation addressing order",
+      "evidence": "Released layered overrides serialize order list as scalar attribute rather than child order nodes; normalization requires addressing all games across highlight categories."
+    },
+    {
+      "capability": "repeated Measure Values axis synchronization",
+      "evidence": "Released layered axis_refs de-duplicates identical Multiple Values references, omitting duplicate-index folding needed for an overlaid second pane."
+    },
+    {
+      "capability": "special Measure Names label",
+      "evidence": "Initial local build warns Auto-registered unknown field Measure Names; it must resolve to Tableau special :Measure Names instead of a physical dimension."
+    }
+  ],
+  "reported_to_sdk_coordinator": true,
+  "synthetic_sdk_regression_tests": "Root coordinator owns SDK tests and final tested commit.",
+  "case_specific_sdk_api": false
+}

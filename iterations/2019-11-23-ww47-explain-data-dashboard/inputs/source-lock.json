@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-02",
+  "source_workbook": {
+    "filename": "2019_11_20_WW47_ExplainData.twbx",
+    "bytes": 385228,
+    "sha256": "ac5b82bdbfc155a2dc6f37624d45f63b6e38ba4ae083048aec511073b1167054",
+    "url": "https://public.tableau.com/views/2019_11_20_WW47_ExplainData/2019_11_20_WW47_High_Level_Sales"
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Datasources/Orders (Sample - Superstore).hyper",
+      "file": "inputs/Orders (Sample - Superstore).hyper",
+      "bytes": 983040,
+      "sha256": "4b1aa58d3b7592ca00e82b6bf45bfb317469a3df090ac2b7f6ccec3873170d9b"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

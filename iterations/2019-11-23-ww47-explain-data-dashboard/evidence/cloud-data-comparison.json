@@ -1,0 +1,31 @@
+{
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "source_hashes": {
+    "author": "ac5b82bdbfc155a2dc6f37624d45f63b6e38ba4ae083048aec511073b1167054",
+    "replica": "64b4e7a58603df5fb45842cced0ed8bc4bf3f4c9a86bda34146deb22dafda0ad"
+  },
+  "browser_interaction_executed": false,
+  "states": [
+    {
+      "name": "default",
+      "exported_sheet": "Jitter Dot Plot",
+      "rows": 9159,
+      "checks": [
+        "all order/subcategory identifiers",
+        "all horizontally plotted SUM(Sales) values"
+      ],
+      "maximum_sales_error": {
+        "author": 0.5,
+        "replica": 0.0
+      },
+      "author_numeric_tolerance": 0.500001,
+      "author_formatting": "Author exports $ values rounded to whole dollars; replica retains decimals.",
+      "not_exported": [
+        "Trend quarter totals",
+        "This Year v Last Year Bars",
+        "saved explanation charts"
+      ],
+      "jitter_policy": "Author unsupported RANDOM exports * in ATTR; deterministic replica jitter differs intentionally. Jitter is not used to certify sales values."
+    }
+  ]
+}

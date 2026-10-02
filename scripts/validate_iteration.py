@@ -6,6 +6,7 @@ import argparse
 import ast
 import hashlib
 import json
+import os
 import re
 import shutil
 import tempfile
@@ -309,10 +310,14 @@ def validate_unique_identity(case_dir: Path, case: dict) -> None:
 
 
 def run_case_script(case_dir: Path, filename: str) -> None:
+    # Repository text fixtures are UTF-8, including legacy case scripts. Windows
+    # otherwise decodes them with the machine's locale (for example GBK).
+    environment = {**os.environ, "PYTHONUTF8": "1"}
     subprocess.run(
         [sys.executable, str(case_dir / filename)],
         cwd=LAB_ROOT,
         check=True,
+        env=environment,
     )
 
 

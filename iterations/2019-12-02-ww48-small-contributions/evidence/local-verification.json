@@ -1,0 +1,231 @@
+{
+  "rows": 9994,
+  "states": 49,
+  "total_sales": 2297200.8602999463,
+  "thresholds": {
+    "0.01": {
+      "listed": 23,
+      "grouped": 26,
+      "rows": [
+        {
+          "state_grouping": "California",
+          "state_order": 0,
+          "share": 0.19923709737782413
+        },
+        {
+          "state_grouping": "New York",
+          "state_order": 0,
+          "share": 0.13532829295537036
+        },
+        {
+          "state_grouping": "Texas",
+          "state_order": 0,
+          "share": 0.07408496520316395
+        },
+        {
+          "state_grouping": "Washington",
+          "state_order": 0,
+          "share": 0.06035226278902641
+        },
+        {
+          "state_grouping": "Pennsylvania",
+          "state_order": 0,
+          "share": 0.05071907990874903
+        },
+        {
+          "state_grouping": "Florida",
+          "state_order": 0,
+          "share": 0.038949013795997495
+        },
+        {
+          "state_grouping": "Illinois",
+          "state_order": 0,
+          "share": 0.03489729713471059
+        },
+        {
+          "state_grouping": "Ohio",
+          "state_order": 0,
+          "share": 0.03406673632787242
+        },
+        {
+          "state_grouping": "Michigan",
+          "state_order": 0,
+          "share": 0.033201108060721095
+        },
+        {
+          "state_grouping": "Virginia",
+          "state_order": 0,
+          "share": 0.030749039503135556
+        },
+        {
+          "state_grouping": "North Carolina",
+          "state_order": 0,
+          "share": 0.02420474628968224
+        },
+        {
+          "state_grouping": "Indiana",
+          "state_order": 0,
+          "share": 0.023313311833344542
+        },
+        {
+          "state_grouping": "Georgia",
+          "state_order": 0,
+          "share": 0.02137202751769366
+        },
+        {
+          "state_grouping": "Kentucky",
+          "state_order": 0,
+          "share": 0.0159288421976397
+        },
+        {
+          "state_grouping": "New Jersey",
+          "state_order": 0,
+          "share": 0.015568648183132848
+        },
+        {
+          "state_grouping": "Arizona",
+          "state_order": 0,
+          "share": 0.015358692228329222
+        },
+        {
+          "state_grouping": "Wisconsin",
+          "state_order": 0,
+          "share": 0.013979887677652535
+        },
+        {
+          "state_grouping": "Colorado",
+          "state_order": 0,
+          "share": 0.013977061629607618
+        },
+        {
+          "state_grouping": "Tennessee",
+          "state_order": 0,
+          "share": 0.013347493260121999
+        },
+        {
+          "state_grouping": "Minnesota",
+          "state_order": 0,
+          "share": 0.012999799240933932
+        },
+        {
+          "state_grouping": "Massachusetts",
+          "state_order": 0,
+          "share": 0.012464923940634946
+        },
+        {
+          "state_grouping": "Delaware",
+          "state_order": 0,
+          "share": 0.011949790492597891
+        },
+        {
+          "state_grouping": "Maryland",
+          "state_order": 0,
+          "share": 0.010319307906277195
+        },
+        {
+          "state_grouping": "All Other States",
+          "state_order": 1,
+          "share": 0.10363057454580457
+        }
+      ]
+    },
+    "0.03": {
+      "listed": 10,
+      "grouped": 39,
+      "rows": [
+        {
+          "state_grouping": "California",
+          "state_order": 0,
+          "share": 0.19923709737782413
+        },
+        {
+          "state_grouping": "New York",
+          "state_order": 0,
+          "share": 0.13532829295537036
+        },
+        {
+          "state_grouping": "Texas",
+          "state_order": 0,
+          "share": 0.07408496520316395
+        },
+        {
+          "state_grouping": "Washington",
+          "state_order": 0,
+          "share": 0.06035226278902641
+        },
+        {
+          "state_grouping": "Pennsylvania",
+          "state_order": 0,
+          "share": 0.05071907990874903
+        },
+        {
+          "state_grouping": "Florida",
+          "state_order": 0,
+          "share": 0.038949013795997495
+        },
+        {
+          "state_grouping": "Illinois",
+          "state_order": 0,
+          "share": 0.03489729713471059
+        },
+        {
+          "state_grouping": "Ohio",
+          "state_order": 0,
+          "share": 0.03406673632787242
+        },
+        {
+          "state_grouping": "Michigan",
+          "state_order": 0,
+          "share": 0.033201108060721095
+        },
+        {
+          "state_grouping": "Virginia",
+          "state_order": 0,
+          "share": 0.030749039503135556
+        },
+        {
+          "state_grouping": "All Other States",
+          "state_order": 1,
+          "share": 0.3084151069434529
+        }
+      ]
+    },
+    "0.05": {
+      "listed": 5,
+      "grouped": 44,
+      "rows": [
+        {
+          "state_grouping": "California",
+          "state_order": 0,
+          "share": 0.19923709737782413
+        },
+        {
+          "state_grouping": "New York",
+          "state_order": 0,
+          "share": 0.13532829295537036
+        },
+        {
+          "state_grouping": "Texas",
+          "state_order": 0,
+          "share": 0.07408496520316395
+        },
+        {
+          "state_grouping": "Washington",
+          "state_order": 0,
+          "share": 0.06035226278902641
+        },
+        {
+          "state_grouping": "Pennsylvania",
+          "state_order": 0,
+          "share": 0.05071907990874903
+        },
+        {
+          "state_grouping": "All Other States",
+          "state_order": 1,
+          "share": 0.48027830176589004
+        }
+      ]
+    }
+  },
+  "workbook_sha256": "806f5f8a41d2358dc19eff89d1c29758f88b0553304118a2a52b14d925925782"
+}

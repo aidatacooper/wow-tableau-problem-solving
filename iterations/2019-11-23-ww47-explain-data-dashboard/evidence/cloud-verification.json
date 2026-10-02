@@ -1,0 +1,114 @@
+{
+  "case_id": "wow-2019-ww47-explain-data-dashboard",
+  "captured_at": "2026-10-02T14:26:28.614739+00:00",
+  "source_hashes": {
+    "author": "ac5b82bdbfc155a2dc6f37624d45f63b6e38ba4ae083048aec511073b1167054",
+    "replica": "64b4e7a58603df5fb45842cced0ed8bc4bf3f4c9a86bda34146deb22dafda0ad"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "54a75bfb-89f0-4f33-b164-bf1283107a62",
+      "name": "cwtwb-review-wow-2019-ww47-explain-data-dashboard-author",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2923921",
+      "views": [
+        {
+          "name": "2019_11_20_WW47_High_Level_Sales",
+          "id": "22f5fb8d-8616-4019-806f-50de599c1e16"
+        },
+        {
+          "name": "2019_11_20_WW47_ExplainData_Dashboard",
+          "id": "b62442ed-954b-40c7-97ad-4c58e7d405c8"
+        }
+      ]
+    },
+    "replica": {
+      "id": "a73f4df7-748e-4ad7-8404-cbc5cdd00956",
+      "name": "cwtwb-review-wow-2019-ww47-explain-data-dashboard-replica",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2923922",
+      "views": [
+        {
+          "name": "Trend",
+          "id": "c5732358-b566-48f0-a4ad-bd2091cdec72"
+        },
+        {
+          "name": "This Year v Last Year Bars",
+          "id": "f7f73d2d-2795-4077-b830-76ebe7359784"
+        },
+        {
+          "name": "Jitter Dot Plot",
+          "id": "5c96a4f6-b3a1-4641-bbd0-61d5bc987daa"
+        },
+        {
+          "name": "Average Value of Records",
+          "id": "a42d7eaa-94d6-44b0-a3e4-4d118364fdeb"
+        },
+        {
+          "name": "Average Sales by Category",
+          "id": "27273330-236f-4cfb-9c0d-ac36bbca4ad3"
+        },
+        {
+          "name": "2019_11_20_WW47_High_Level_Sales",
+          "id": "41f58cd3-4498-41db-bcd5-4f154660d85f"
+        },
+        {
+          "name": "2019_11_20_WW47_ExplainData_Dashboard",
+          "id": "ff40ca58-4f3a-4434-b3b7-e307f966d5ad"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "22f5fb8d-8616-4019-806f-50de599c1e16",
+          "name": "2019_11_20_WW47_High_Level_Sales",
+          "path": "outputs/cloud-author.png",
+          "sha256": "b2bd6d2df84fa161998f54b3e3477ceaa02aecc5131fb428a0ec55b8d9164f62",
+          "size": [
+            2000,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "41f58cd3-4498-41db-bcd5-4f154660d85f",
+          "name": "2019_11_20_WW47_High_Level_Sales",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "0a796fcf0a03fed449930e88844e1ef6bf60141e6b7e1d7d28ae5a21f8643868",
+          "size": [
+            2000,
+            1600
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "2019_11_20_WW47_High_Level_Sales",
+          "view_id": "22f5fb8d-8616-4019-806f-50de599c1e16",
+          "scope": "Dashboard default worksheet CSV only; full data separately validated from locked Hyper.",
+          "path": "outputs/cloud-author-dashboard.csv",
+          "sha256": "1bfb2cf69eba168a457b30d739ddbc4a09d2afdc9557f97f549b3d209da84cb3",
+          "bytes": 409704
+        },
+        {
+          "role": "replica",
+          "view": "2019_11_20_WW47_High_Level_Sales",
+          "view_id": "41f58cd3-4498-41db-bcd5-4f154660d85f",
+          "scope": "Dashboard default worksheet CSV only; full data separately validated from locked Hyper.",
+          "path": "outputs/cloud-replica-dashboard.csv",
+          "sha256": "f5b718eac5dbc64236bc96b0663b43eac5a290f0a9aee948c35f5b21e0b8e1a9",
+          "bytes": 459918
+        }
+      ]
+    }
+  ],
+  "status": "verified_with_acceptable_visual_delta",
+  "independent_data_review": "evidence/cloud-data-comparison.json",
+  "visual_review": "evidence/visual-review.md"
+}

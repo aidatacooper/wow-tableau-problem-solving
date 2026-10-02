@@ -1,0 +1,96 @@
+schema_version: 1.1.0
+case_id: wow-2019-ww47-explain-data-dashboard
+iteration_id: 2019-11-23-ww47-explain-data-dashboard
+post: https://donnacoles.home.blog/2019/11/23/high-level-dashboard-with-explain-data/
+legacy_case_ids: {}
+article_date: '2019-11-23'
+challenge_year: 2019
+challenge_week: 47
+challenge_date: '2019-11-20'
+date_evidence:
+  article_date: Article og:published_time and article URL, verified against index.json
+  challenge: Explicit challenge_year; week declared in iteration_id
+  challenge_date: Official WordPress REST publication date, wp-json/wp/v2/posts?slug=workoutwednesday2019-week-47-high-level-dashboard-with-explain-data
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/workoutwednesday2019-week-47-high-level-dashboard-with-explain-data/
+    wordpress_post_id: 3041
+  article:
+    url: https://donnacoles.home.blog/2019/11/23/high-level-dashboard-with-explain-data/
+    path: null
+    sha256: 939591c72c3fc3832b1b301fd1daece151a13c00f3b644522253b27d71caf4e7
+  workbook:
+    url: https://public.tableau.com/views/2019_11_20_WW47_ExplainData/2019_11_20_WW47_High_Level_Sales
+    filename: 2019_11_20_WW47_ExplainData.twbx
+    sha256: ac5b82bdbfc155a2dc6f37624d45f63b6e38ba4ae083048aec511073b1167054
+    path: dashboards/2019_11_20_WW47_ExplainData.twbx
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- inputs/source-lock.json
+- evidence/data-contract.json
+- evidence/cloud-verification.json
+- evidence/cloud-data-comparison.json
+- evidence/visual-review.md
+- evidence/sdk-validation.json
+notes:
+- Author RANDOM() replaced with deterministic order-ID modulo jitter. X positions and complete population
+  match; vertical positions intentionally differ. No live Explain Data execution claimed.
+- Cloud REST images/data states and artifact contracts reviewed. Remaining presentation differences documented
+  in evidence/visual-review.md; no browser events executed.
+cwtwb:
+  tested_version: 0.27.1
+  runs:
+  - version: 0.27.1
+    result: workaround
+    evidence: verify_replication.py
+  - version: 0.27.1
+    commit: 0958b51e18cd3120a2f67fd7dbcc7e978a105399
+    result: workaround
+    evidence: evidence/sdk-validation.json
+  tested_commit: 0958b51e18cd3120a2f67fd7dbcc7e978a105399
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: workaround
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/Orders (Sample - Superstore).hyper
+acceptance:
+- id: quarterly-trends
+  description: Quarterly sales lines for 17 subcategories match independent Hyper aggregates.
+  mode: automated
+- id: year-comparison
+  description: Latest-year sales bars and prior-year reference lines match independent data.
+  mode: automated
+- id: order-jitter
+  description: Sales by Order ID within each subcategory and average reference lines retain the complete
+    population.
+  mode: automated
+- id: saved-explanations
+  description: Saved explanation charts reproduce average record sales by subcategory and category; live
+    Explain Data is outside the REST scope.
+  mode: automated
+- id: locked-data
+  description: Packaged input hashes and independent Hyper aggregates cover all three main charts and
+    saved explanations.
+  mode: automated
+- id: cloud-visual-review
+  description: Original and replica REST images inspected in captured states; explicit deltas and export
+    limitations recorded.
+  mode: manual
+  evidence: evidence/visual-review.md
+remaining_work: []
+workarounds:
+- Use deterministic public INT/RIGHT/modulo jitter instead of unsupported author RANDOM(), preserving
+  order-level granularity.
+capability_gaps: []
+related_cwtwb_issues: []
+acceptance_scope: cloud_rest_and_artifact_contracts
+browser_interaction_executed: false
