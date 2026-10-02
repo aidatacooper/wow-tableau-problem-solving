@@ -1,0 +1,362 @@
+[
+  {
+    "path": "iterations/2019-07-18-ww29-high-orders/evidence/acceptance.json",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "a03a86e4fbf500b4d00258b10fd5673f2da8b4d7b5e27cc2639f301f41984327"
+  },
+  {
+    "path": "iterations/2019-07-18-ww29-high-orders/evidence/source-lock.json",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "97de34b2ed0426ce1d6126fe623954116b9fed42c8f5a15db7a74e3640891b5f"
+  },
+  {
+    "path": "iterations/2019-07-18-ww29-high-orders/evidence/validation.json",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "93915f454ac2ab18e9ff6477d18138cfa24d7819be382bbc174d806c4a808360"
+  },
+  {
+    "path": "iterations/2019-07-18-ww29-high-orders/evidence/workbook-inventory.json",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "f9faaf8d155cafa55e9670411b22d3c3706a42d7a705f3fb1c8e3d7e93873951"
+  },
+  {
+    "path": "iterations/2019-07-25-ww30-navigation-kpi/evidence/acceptance.json",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "48a1a879e00a1454e16c09c6ffcb2860f7ee661f7e19d5d92e381d2444249be5"
+  },
+  {
+    "path": "iterations/2019-07-25-ww30-navigation-kpi/evidence/cwtwb-iteration-2019-07-25-ww30-navigation-kpi_Customer_Sales.png",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "3d8c8a27c194dd18fca0bfb96261e668d7a247242af4df89dddca26cd2298c86"
+  },
+  {
+    "path": "iterations/2019-07-25-ww30-navigation-kpi/evidence/source-lock.json",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "f94013fb362a05dbbbeebfdad7ad8cc46c79d2a703802b886b57225397be8cbb"
+  },
+  {
+    "path": "iterations/2019-07-25-ww30-navigation-kpi/evidence/validation.json",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "edc2115a8b4845d437f01fffa1a33d1406410f925e9bf31703194d6448f6c19d"
+  },
+  {
+    "path": "iterations/2019-07-25-ww30-navigation-kpi/evidence/workbook-inventory.json",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "492f204604cb749e7fa4b15440b056dca1be76282cb39e3f96a4d32295c6642a"
+  },
+  {
+    "path": "iterations/2019-08-04-ww31-hub-spoke-map/evidence/acceptance.json",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "e2e4cd3033cb029052a0cd55a13b583b96af08b5a1a919c6f016e8402b58e0de"
+  },
+  {
+    "path": "iterations/2019-08-04-ww31-hub-spoke-map/evidence/cloud-final-Ben-Howard-Summary.png",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "cfe04f4cf2c1242c9c2edce7e98797a41ad9ab950397f4f8dcac52bb0d678e7d"
+  },
+  {
+    "path": "iterations/2019-08-04-ww31-hub-spoke-map/evidence/cloud-final-Ed-Sheeran-Summary.png",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "756234a88f241fb8c2809d8db35639a442415ac9ac9d9eb4817c857309cb793d"
+  },
+  {
+    "path": "iterations/2019-08-04-ww31-hub-spoke-map/evidence/cloud-final-Fellow-Artist-Word-Cloud.png",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "37c321f8eb3003c597d673e79f9f0a20c402b3e6d4acea2cb586158f6ff96679"
+  },
+  {
+    "path": "iterations/2019-08-04-ww31-hub-spoke-map/evidence/cloud-final-Monthly-Concert-Trend.png",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "3b34ecc41be9bf35da223efb8311fa59c5ba0ae9dcda3b2000272d8bef6c925a"
+  },
+  {
+    "path": "iterations/2019-08-04-ww31-hub-spoke-map/evidence/cloud-final-Routes---East-Asia---Middle-East.png",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "6ef44e3eff6fabc972213645a121bf47c7c4d065946df3dc0fd9644e85091f8f"
+  },
+  {
+    "path": "iterations/2019-08-04-ww31-hub-spoke-map/evidence/cloud-final-Routes---Europe.png",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "7cf23f487da898e8b1cfd6dbf8fdfd2fac931dcc3ade86db133fde7b723cd57d"
+  },
+  {
+    "path": "iterations/2019-08-04-ww31-hub-spoke-map/evidence/cloud-final-Routes---North---South-America.png",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "6e2eb74907ee79d2f47290bd4ef1cc0f04e79571020a5f6e06957c2a7065eb71"
+  },
+  {
+    "path": "iterations/2019-08-04-ww31-hub-spoke-map/evidence/cwtwb-iteration-2019-08-04-ww31-hub-spoke-map_2019_07_31_WW31_MusicData_Hub&Spoke.png",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "460d41603e9b8b81741f6bfdb53c69ed48a068669cd5754ca3435eda09d65744"
+  },
+  {
+    "path": "iterations/2019-08-04-ww31-hub-spoke-map/evidence/cwtwb-iteration-2019-08-04-ww31-hub-spoke-map_2019_WW31_Music_Data_Hub_&_Spoke.png",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "90b1ea5c2a27c8f783334d6a0a432e6be5c31062a32d7e02ee770ba4564e9ef2"
+  },
+  {
+    "path": "iterations/2019-08-04-ww31-hub-spoke-map/evidence/cwtwb-iteration-2019-08-04-ww31-hub-spoke-map_Ben_Howard_Summary.png",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "c8ebd8e52394b6db9b8b75f143227e5563b401b6c8e244c2a1bcfd9e965dd06b"
+  },
+  {
+    "path": "iterations/2019-08-04-ww31-hub-spoke-map/evidence/cwtwb-iteration-2019-08-04-ww31-hub-spoke-map_Fellow_Artist_Word_Cloud.png",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "c8ebd8e52394b6db9b8b75f143227e5563b401b6c8e244c2a1bcfd9e965dd06b"
+  },
+  {
+    "path": "iterations/2019-08-04-ww31-hub-spoke-map/evidence/cwtwb-iteration-2019-08-04-ww31-hub-spoke-map_Monthly_Concert_Trend.png",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "c8ebd8e52394b6db9b8b75f143227e5563b401b6c8e244c2a1bcfd9e965dd06b"
+  },
+  {
+    "path": "iterations/2019-08-04-ww31-hub-spoke-map/evidence/cwtwb-iteration-2019-08-04-ww31-hub-spoke-map_Routes_\u2014_North_&_South_America.png",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "c8ebd8e52394b6db9b8b75f143227e5563b401b6c8e244c2a1bcfd9e965dd06b"
+  },
+  {
+    "path": "iterations/2019-08-04-ww31-hub-spoke-map/evidence/map-probe-M1-Route-Base.png",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "35be52d0cbc7bd58848020b3c3ef4e0da982111564fc770f0d4fd25bf9ce1e6e"
+  },
+  {
+    "path": "iterations/2019-08-04-ww31-hub-spoke-map/evidence/map-probe-M2-Route-Layer.png",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "35be52d0cbc7bd58848020b3c3ef4e0da982111564fc770f0d4fd25bf9ce1e6e"
+  },
+  {
+    "path": "iterations/2019-08-04-ww31-hub-spoke-map/evidence/map-probe-M3-Route-Color.png",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "35be52d0cbc7bd58848020b3c3ef4e0da982111564fc770f0d4fd25bf9ce1e6e"
+  },
+  {
+    "path": "iterations/2019-08-04-ww31-hub-spoke-map/evidence/map-probe-M4-Route-Detail.png",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "35be52d0cbc7bd58848020b3c3ef4e0da982111564fc770f0d4fd25bf9ce1e6e"
+  },
+  {
+    "path": "iterations/2019-08-04-ww31-hub-spoke-map/evidence/map-probe-M5-Dual-Geometry.png",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "35be52d0cbc7bd58848020b3c3ef4e0da982111564fc770f0d4fd25bf9ce1e6e"
+  },
+  {
+    "path": "iterations/2019-08-04-ww31-hub-spoke-map/evidence/source-lock.json",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "3aace7a6a838442cf8b805a8619182bc1b0769ade57c242f0aa896a11a0bbcd6"
+  },
+  {
+    "path": "iterations/2019-08-04-ww31-hub-spoke-map/evidence/validation.json",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "947ef88bf94222f2a1f58ead22c4276a0e2b4f2bc47f32e15c5d17e6d9e439bc"
+  },
+  {
+    "path": "iterations/2019-08-04-ww31-hub-spoke-map/evidence/workbook-inventory.json",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "ca919771c86ed3dd296092169ee82f5ba5e75525d7f06e4d5ada5eb9fc85b87d"
+  },
+  {
+    "path": "iterations/2019-08-04-ww31-hub-spoke-map/evidence/ww31-base-probe.png",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "9d43ab9a750e3ae41a76b7707dfc1af44484d33421deb9ff1c0fbf741a03a478"
+  },
+  {
+    "path": "iterations/2019-08-04-ww31-hub-spoke-map/evidence/ww31-p1-artist.png",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "ca12df625ae3e05fe7bc1d64f55c869801c2154f4f949dde5ff2d34902b5f835"
+  },
+  {
+    "path": "iterations/2019-08-04-ww31-hub-spoke-map/evidence/ww31-p10-runs-minimal.png",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "59e3724eb2b992d1a220d48d824ee989cacd832ae27c48ce3a97790e2b53f4b0"
+  },
+  {
+    "path": "iterations/2019-08-04-ww31-hub-spoke-map/evidence/ww31-p11-raw-date.png",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "2d5bf196de4492d8d51c3b47e392d5676109468a1f9c2f23417ca2997fb9fddf"
+  },
+  {
+    "path": "iterations/2019-08-04-ww31-hub-spoke-map/evidence/ww31-p12-month-count.png",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "4eb50ce512f0622fbfa9fcf04a4fae3844f35ff6bb8311c74814693747f57f50"
+  },
+  {
+    "path": "iterations/2019-08-04-ww31-hub-spoke-map/evidence/ww31-p13-tooltip-artist.png",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "ef9c10918a6fd6670161486939f1be86e0f8224133b2a176cb569ea24f9f7803"
+  },
+  {
+    "path": "iterations/2019-08-04-ww31-hub-spoke-map/evidence/ww31-p14-tooltip-region.png",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "35be52d0cbc7bd58848020b3c3ef4e0da982111564fc770f0d4fd25bf9ce1e6e"
+  },
+  {
+    "path": "iterations/2019-08-04-ww31-hub-spoke-map/evidence/ww31-p15-tooltip-calc.png",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "0bdc8ae7d0893232bad5307647f7eabff36eb0a62d24f0a113253dba5e2b98d9"
+  },
+  {
+    "path": "iterations/2019-08-04-ww31-hub-spoke-map/evidence/ww31-p2-artist-filter.png",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "28ddca1d500630a3473e67d58dadddbaaaa77e4f2ec2f18018e20e271b09bba6"
+  },
+  {
+    "path": "iterations/2019-08-04-ww31-hub-spoke-map/evidence/ww31-p3-region-count.png",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "4df88a838df87cd221a4f56bca726fcd2a384fc5596c673df9ce8eed67dadf81"
+  },
+  {
+    "path": "iterations/2019-08-04-ww31-hub-spoke-map/evidence/ww31-p4-region-count-filter.png",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "1895489b54fe73facc7ef6e4820eadb8e8b9850b348f2981101bf75703c88efe"
+  },
+  {
+    "path": "iterations/2019-08-04-ww31-hub-spoke-map/evidence/ww31-p5-word-cloud.png",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "e8ae0fbeaad6c0250045497c18451c7836d12c065203eb31cb55c25e588a5fce"
+  },
+  {
+    "path": "iterations/2019-08-04-ww31-hub-spoke-map/evidence/ww31-p6-dashboard.png",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "9d329abbfb43c126930be7e235c430a2a5ec2cf19361ea23241fc150df96365a"
+  },
+  {
+    "path": "iterations/2019-08-04-ww31-hub-spoke-map/evidence/ww31-p7-summary-exact.png",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "35be52d0cbc7bd58848020b3c3ef4e0da982111564fc770f0d4fd25bf9ce1e6e"
+  },
+  {
+    "path": "iterations/2019-08-04-ww31-hub-spoke-map/evidence/ww31-p8-trend-exact.png",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "35be52d0cbc7bd58848020b3c3ef4e0da982111564fc770f0d4fd25bf9ce1e6e"
+  },
+  {
+    "path": "iterations/2019-08-04-ww31-hub-spoke-map/evidence/ww31-p9-summary-no-runs.png",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "35be52d0cbc7bd58848020b3c3ef4e0da982111564fc770f0d4fd25bf9ce1e6e"
+  },
+  {
+    "path": "iterations/2019-08-09-ww32-step-area-chart/evidence/cwtwb-iteration-2019-08-09-ww32-step-area-chart_2019_08_07_WW32_Step_Area-Chart.png",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "8bf351c285cd4cc652786d98657fd6eead2c4e0c79ed7fd391d393c9d567ae64"
+  },
+  {
+    "path": "iterations/2019-08-09-ww32-step-area-chart/evidence/cwtwb-iteration-2019-08-09-ww32-step-area-chart_Viz.png",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "d35a91acb055481a7dbcdbdac0a286e1fd950066336cc41366dd48ba41a0ede7"
+  },
+  {
+    "path": "iterations/2019-08-09-ww32-step-area-chart/evidence/source-lock.json",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "6939d1f2ca2225a0f8fcf936967341797f58719ab3b30604b3b7ff350de76a5a"
+  },
+  {
+    "path": "iterations/2019-08-09-ww32-step-area-chart/evidence/validation.json",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "bbe30254e3d61b8234a2ef08af5a35ab679bff279409fecbb90d2c49597a9da4"
+  },
+  {
+    "path": "iterations/2019-08-09-ww32-step-area-chart/evidence/workbook-inventory.json",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "2660cde006a9fa3b002dd43bb66c3c550417d82858ee736936de4df61b5e4b3c"
+  },
+  {
+    "path": "iterations/2019-08-14-ww33-table-formatting/evidence/2019_08_14_WW33_Table_Formatting_final_2019_08_14_WW33_Table_Formatting.png",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "b3e6220736d79d23df350a448bf7ab8734472ff88e7ca30c2f01de3fd0ccc645"
+  },
+  {
+    "path": "iterations/2019-08-14-ww33-table-formatting/evidence/build-provenance.json",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "75130eda4b56ca8761b1c9a7de89816f92dd2c88e9b1989fa1694848f0ffab75"
+  },
+  {
+    "path": "iterations/2019-08-14-ww33-table-formatting/evidence/cloud-validation.json",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "14af2d279a109c812b089abc345735ab7eebbceb213d382bb97c035be899bfb4"
+  },
+  {
+    "path": "iterations/2019-08-14-ww33-table-formatting/evidence/validation.json",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "dbb5f4244d59620d86ca89974acea922f2363a3cd923f364e4b18b2fd9ae154c"
+  },
+  {
+    "path": "iterations/2019-09-02-ww34-top-n-single-worksheet/evidence/build-provenance.json",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "c2191b3f80cac3eb674bef62420fe514f6d4ce64c672e4082f335ad34fd4a918"
+  },
+  {
+    "path": "iterations/2019-09-02-ww34-top-n-single-worksheet/evidence/source-lock.json",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "2365db3f449e1e0954c17d251cfcb61df2a8cb9e1df6fd8c22168e66b71f196e"
+  },
+  {
+    "path": "iterations/2019-09-02-ww34-top-n-single-worksheet/evidence/validation.json",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "4c9fb9c3fdcbbc8ece6f14de75a38ef6ccc98c5363e1f5f36d07a70171cb3097"
+  },
+  {
+    "path": "iterations/2019-09-02-ww34-top-n-single-worksheet/evidence/workbook-inventory.json",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "dc763ea6caa4cd6a8116cc95c6c1da51b208edf298fd8c38bf979a1eae235269"
+  },
+  {
+    "path": "iterations/2026-02-02-ww04-dynamic-moving-average/evidence/acceptance.json",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "75c939ca43286b75e9b93fb2c8708f62e6974b9375864c22405d2ad5e9eda83f"
+  },
+  {
+    "path": "iterations/2026-02-02-ww04-dynamic-moving-average/evidence/source-lock.json",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "b34a03d1f7fcf8fd3ff369f2a7f2ade18112a0dcfc4d1614ae7525367490e77d"
+  },
+  {
+    "path": "iterations/2026-02-02-ww04-dynamic-moving-average/evidence/validation.json",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "06cf4bd9a7cefdebf7f858bf47ef3248bfef54cda803d959c4cbde3fb153bfd2"
+  },
+  {
+    "path": "iterations/2026-02-02-ww04-dynamic-moving-average/evidence/workbook-inventory.json",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "f6887b2705cf234270a02cea15bee3c16e34fa8e20054a6acdb0bb57cb234ba2"
+  },
+  {
+    "path": "iterations/2026-02-09-ww05-kpi-period-comparison/evidence/acceptance.json",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "855a6b2886694b72f44cfdc9ef98e46d9ffebdc01123c3ccd74861422089f8e5"
+  },
+  {
+    "path": "iterations/2026-02-09-ww05-kpi-period-comparison/evidence/source-lock.json",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "3dfdea12bed06698a1aa04a28ab9c829bceeb4b383150bef48048baf55a38e3b"
+  },
+  {
+    "path": "iterations/2026-02-09-ww05-kpi-period-comparison/evidence/validation.json",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "c1aae6d3961c123d6178cb49feb39ab0253a506555b60b3dbacd1607c73dbb0b"
+  },
+  {
+    "path": "iterations/2026-02-09-ww05-kpi-period-comparison/evidence/workbook-inventory.json",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "b866ba31c3b04eb67226c92ed48877b85f4cac22d349e5dc17b097ca68b340db"
+  },
+  {
+    "path": "iterations/2026-02-15-ww06-null-safe-averages/evidence/acceptance.json",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "e243cd67d21eac878287d73f61e3757e11a61e19d262770023fc50aea776646c"
+  },
+  {
+    "path": "iterations/2026-02-15-ww06-null-safe-averages/evidence/source-lock.json",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "428f2b4105616dbd1c0a06e8e4412b289cde655695c05189cedf31abb3934ebe"
+  },
+  {
+    "path": "iterations/2026-02-15-ww06-null-safe-averages/evidence/validation.json",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "e5520fa06f2679569ecd9ae1dc743715300e080f13dab30aca761589a7461bc2"
+  },
+  {
+    "path": "iterations/2026-02-15-ww06-null-safe-averages/evidence/workbook-inventory.json",
+    "baseline_commit": "a409e3ce7f071303777854aa2c40c2838c9e4f4c",
+    "sha256": "c98392b18e21661ab935c825a2721c89f338dd4fba27646cab3b82dc10cb7c0f"
+  }
+]

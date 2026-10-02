@@ -1,0 +1,147 @@
+{
+  "case_id": "wow-2026-ww05-kpi-period-comparison",
+  "iteration_id": "2026-02-09-ww05-kpi-period-comparison",
+  "captured_at": "2026-10-02T11:12:47.805356+00:00",
+  "source_hashes": {
+    "author": "1dc941957b67ea968dcecf271977c73c58066fd052ff5129e13fbe73bf20a429",
+    "replica": "a0183f9f9b62e7f3170f7267965b37a2e5a34ed17b7b18e42d83a65cf2511d87"
+  },
+  "request_settings": {
+    "case_id": "wow-2026-ww05-kpi-period-comparison",
+    "iteration_id": "2026-02-09-ww05-kpi-period-comparison",
+    "author_workbook_path": "/srv/hermes-workspaces/wow-reference/wow-2026-ww05-kpi-period-comparison/2026_02_04_WW05_KPI_Trend_Monitor_With_Period_Comparison.twbx",
+    "replica_workbook_path": "/srv/hermes-workspaces/wow-case-standardization/iterations/2026-02-09-ww05-kpi-period-comparison/outputs/replicated-workbook.twbx",
+    "author_view_name": "2026_02_04_WW05_KPI_Trend_Monitor_With_Period_Comparison",
+    "replica_view_name": "KPI Trend Monitor",
+    "states": [
+      {
+        "name": "different-today",
+        "parameters": {
+          "pToday": "2025-02-03"
+        }
+      }
+    ],
+    "_request_file": "/srv/hermes-workspaces/wow-cloud-queue/wow-2026-ww05-kpi-period-comparison.json"
+  },
+  "workbooks": {
+    "author": {
+      "id": "b0f332db-d28c-464b-92ea-9f367a74d2b7",
+      "name": "cwtwb-review-wow-2026-ww05-kpi-period-comparison-author",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2922860"
+    },
+    "replica": {
+      "id": "12957814-6f4d-4efc-9e0d-06965843d565",
+      "name": "cwtwb-review-wow-2026-ww05-kpi-period-comparison-replica",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2922861"
+    }
+  },
+  "export_resolution": "high",
+  "maxage_minutes": 1,
+  "status": "rendered_needs_visual_and_interaction_review",
+  "states": [
+    {
+      "name": "default",
+      "filters": {},
+      "parameters": {},
+      "views": {
+        "author": {
+          "id": "838273d2-2ec9-4f4d-b4c7-2b140c4ad5a3",
+          "name": "2026_02_04_WW05_KPI_Trend_Monitor_With_Period_Comparison",
+          "path": "cloud-author.png",
+          "size": [
+            800,
+            1200
+          ],
+          "sha256": "4c31ef7202b9626634b80b5817a3e0c61b955b611d8d2ab6277868c7374c9aed",
+          "data_export": {
+            "path": "cloud-author.csv",
+            "sha256": "ed671b18c2d9bb90dabb54fc96631f43fed9e96a172ad34e280cdb1cf20c8632",
+            "bytes": 90
+          }
+        },
+        "replica": {
+          "id": "e1e54994-6286-49ca-999c-0b44a2547deb",
+          "name": "KPI Trend Monitor",
+          "path": "cloud-replica.png",
+          "size": [
+            800,
+            1200
+          ],
+          "sha256": "17a81f904c77ce425f75c35f93a2895571b0dfd9cc7209921baf4c5312e2dcff",
+          "data_export": {
+            "path": "cloud-replica.csv",
+            "sha256": "a466ddf7394fe4b2d32fdc807466831fb9fd0aa68e628f5ba8c68f9ed657af4d",
+            "bytes": 84
+          }
+        }
+      },
+      "comparison": {
+        "same_dimensions": true,
+        "author_size": [
+          800,
+          1200
+        ],
+        "replica_size": [
+          800,
+          1200
+        ],
+        "mean_absolute_channel_difference_0_to_255": 10.30186701388889,
+        "pixel_identical": false
+      }
+    },
+    {
+      "name": "different-today",
+      "filters": {},
+      "parameters": {
+        "pToday": "2025-02-03"
+      },
+      "views": {
+        "author": {
+          "id": "838273d2-2ec9-4f4d-b4c7-2b140c4ad5a3",
+          "name": "2026_02_04_WW05_KPI_Trend_Monitor_With_Period_Comparison",
+          "path": "cloud-author-different-today.png",
+          "size": [
+            800,
+            1200
+          ],
+          "sha256": "382c91f11a192790d22e0cbc9024e912e57a0632f65493b01d0271ab8120958b",
+          "data_export": {
+            "path": "cloud-author-different-today.csv",
+            "sha256": "c55029c336e9531589cb954d4c6ca8b92ca043be7bd5d3cbc7c60dd3a9f5e184",
+            "bytes": 90
+          }
+        },
+        "replica": {
+          "id": "e1e54994-6286-49ca-999c-0b44a2547deb",
+          "name": "KPI Trend Monitor",
+          "path": "cloud-replica-different-today.png",
+          "size": [
+            800,
+            1200
+          ],
+          "sha256": "6ed9e1959bd4ad3144a33ae03f5d8b290d81609fe4adae4c5a37ad1bf7f76418",
+          "data_export": {
+            "path": "cloud-replica-different-today.csv",
+            "sha256": "e6168336c36bfe3c5c30c01f2cbb83533eb23c5072899d9caca20c451ff70aa8",
+            "bytes": 84
+          }
+        }
+      },
+      "comparison": {
+        "same_dimensions": true,
+        "author_size": [
+          800,
+          1200
+        ],
+        "replica_size": [
+          800,
+          1200
+        ],
+        "mean_absolute_channel_difference_0_to_255": 10.293451041666666,
+        "pixel_identical": false
+      }
+    }
+  ],
+  "visual_status": "not_evaluated",
+  "interaction_status": "not_evaluated"
+}

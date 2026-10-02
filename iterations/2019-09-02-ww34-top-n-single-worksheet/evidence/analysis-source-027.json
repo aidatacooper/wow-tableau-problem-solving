@@ -1,0 +1,130 @@
+{
+  "calculations": [
+    {
+      "name": "Manufacturer",
+      "formula": "MID([Product Name],1, FINDNTH([Product Name],' ',1)-1)",
+      "datatype": "string",
+      "role": "dimension",
+      "field_type": "nominal"
+    },
+    {
+      "name": "Central - Qty",
+      "formula": "IF [Region] = 'Central' THEN [Quantity] END",
+      "datatype": "integer",
+      "role": "measure",
+      "field_type": "quantitative"
+    },
+    {
+      "name": "Manfacturer Category",
+      "formula": "//IF [Top n] THEN [Manufacturer] ELSE 'Other' END\r\nIF [Region] = 'Central' AND [Top Central] THEN [Manufacturer]\r\nELSEIF [Region] = 'East' AND [Top Central (copy)] THEN [Manufacturer]\r\nELSEIF [Region] = 'South' AND [Top Central (copy 2)] THEN [Manufacturer]\r\nELSEIF  [Region] = 'West' AND [Top East (copy)] THEN [Manufacturer]\r\nELSE 'Other'\r\nEND",
+      "datatype": "string",
+      "role": "dimension",
+      "field_type": "nominal"
+    },
+    {
+      "name": "Index",
+      "formula": "INDEX()",
+      "datatype": "integer",
+      "role": "measure",
+      "field_type": "quantitative"
+    },
+    {
+      "name": "FILTER Index",
+      "formula": "[Index] <= [Top n Manufacturers]",
+      "datatype": "boolean",
+      "role": "measure",
+      "field_type": "nominal"
+    },
+    {
+      "name": "FILTER - Other",
+      "formula": "NOT([Include Other]) AND [Manfacturer Category] = 'Other'",
+      "datatype": "boolean",
+      "role": "dimension",
+      "field_type": "nominal"
+    },
+    {
+      "name": "Index Rank",
+      "formula": "'(#' + STR([Index]) + ')'",
+      "datatype": "string",
+      "role": "measure",
+      "field_type": "nominal"
+    },
+    {
+      "name": "LABEL:Manufacturer",
+      "formula": "IF ATTR([Highlighted Manufacturer]) THEN ([Manufacturer + Rank]) ELSE ATTR([Manfacturer Category]) END",
+      "datatype": "string",
+      "role": "measure",
+      "field_type": "nominal"
+    },
+    {
+      "name": "FILTER Top n",
+      "formula": "[Top Central] OR [Top East (copy)] OR [Top Central (copy)] OR [Top Central (copy 2)]",
+      "datatype": "boolean",
+      "role": "dimension",
+      "field_type": "nominal"
+    },
+    {
+      "name": "Manufacturer + Rank",
+      "formula": "ATTR([Manfacturer Category]) + ' ' + [Index Rank]",
+      "datatype": "string",
+      "role": "measure",
+      "field_type": "nominal"
+    },
+    {
+      "name": "West - Qty",
+      "formula": "IF [Region] = 'West' THEN [Quantity] END",
+      "datatype": "integer",
+      "role": "measure",
+      "field_type": "quantitative"
+    },
+    {
+      "name": "Number of Records",
+      "formula": "1",
+      "datatype": "integer",
+      "role": "measure",
+      "field_type": "quantitative"
+    },
+    {
+      "name": "East - Qty",
+      "formula": "IF [Region] = 'East' THEN [Quantity] END",
+      "datatype": "integer",
+      "role": "measure",
+      "field_type": "quantitative"
+    },
+    {
+      "name": "South - Qty",
+      "formula": "IF [Region] = 'South' THEN [Quantity] END",
+      "datatype": "integer",
+      "role": "measure",
+      "field_type": "quantitative"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "Top n Manufacturers",
+      "datatype": "integer",
+      "value": "15",
+      "domain": "any",
+      "range": {},
+      "values": []
+    },
+    {
+      "name": "Include Other",
+      "datatype": "boolean",
+      "value": "false",
+      "domain": "list",
+      "range": {},
+      "values": [
+        "true",
+        "false"
+      ]
+    }
+  ],
+  "dashboards": [
+    "2019_08_21_WW34_TopN_Single_Sheet"
+  ],
+  "worksheets": [
+    "Data",
+    "Viz"
+  ]
+}

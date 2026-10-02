@@ -1,0 +1,77 @@
+{
+  "case_id": "wow-2019-ww30-navigation-kpi",
+  "iteration_id": "2019-07-25-ww30-navigation-kpi",
+  "captured_at": "2026-10-02T10:12:03.243841+00:00",
+  "source_hashes": {
+    "author": "53645fae30240a543df101cfe37f7920c5c074d7426fcefbd4048c31a86868a8",
+    "replica": "8ef15dd2a9bfe6a75f28e0b2935822cc1872b2da80276c8a563d0ddb0df407fe"
+  },
+  "request_settings": {
+    "case_id": "wow-2019-ww30-navigation-kpi",
+    "iteration_id": "2019-07-25-ww30-navigation-kpi",
+    "author_workbook_path": "/srv/hermes-workspaces/wow-reference/wow-2019-ww30-navigation-kpi/2019_07_24_WW30_Navigation_KPI.twbx",
+    "replica_workbook_path": "/srv/hermes-workspaces/wow-case-standardization/iterations/2019-07-25-ww30-navigation-kpi/outputs/replicated-workbook.twbx",
+    "author_view_name": "4 Box KPI",
+    "replica_view_name": "4 Box KPI",
+    "_request_file": "/srv/hermes-workspaces/wow-cloud-queue/wow-2019-ww30-navigation-kpi.json"
+  },
+  "workbooks": {
+    "author": {
+      "id": "63456339-e5fc-47a5-bac5-af0bd5390353",
+      "name": "cwtwb-review-wow-2019-ww30-navigation-kpi-author",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2922838"
+    },
+    "replica": {
+      "id": "e573ce11-1266-444f-9e16-5b1c883be2d9",
+      "name": "cwtwb-review-wow-2019-ww30-navigation-kpi-replica",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2922839"
+    }
+  },
+  "export_resolution": "high",
+  "maxage_minutes": 1,
+  "status": "rendered_needs_visual_and_interaction_review",
+  "states": [
+    {
+      "name": "default",
+      "filters": {},
+      "parameters": {},
+      "views": {
+        "author": {
+          "id": "23385b97-4fe4-4815-b932-eb4efee1fa25",
+          "name": "4 Box KPI",
+          "path": "cloud-author.png",
+          "size": [
+            1200,
+            1200
+          ],
+          "sha256": "bd53f9313c971ce034618af74b8c23ace25aeeb1f4451af02f5839a4555e4dda"
+        },
+        "replica": {
+          "id": "057b1980-32c9-418a-af07-0ff493efde37",
+          "name": "4 Box KPI",
+          "path": "cloud-replica.png",
+          "size": [
+            1200,
+            1200
+          ],
+          "sha256": "de1b18586a9eba06bb03f9f2d825c63943e2fa2071e74c7556100607290ecf07"
+        }
+      },
+      "comparison": {
+        "same_dimensions": true,
+        "author_size": [
+          1200,
+          1200
+        ],
+        "replica_size": [
+          1200,
+          1200
+        ],
+        "mean_absolute_channel_difference_0_to_255": 20.317635648148144,
+        "pixel_identical": false
+      }
+    }
+  ],
+  "visual_status": "not_evaluated",
+  "interaction_status": "not_evaluated"
+}

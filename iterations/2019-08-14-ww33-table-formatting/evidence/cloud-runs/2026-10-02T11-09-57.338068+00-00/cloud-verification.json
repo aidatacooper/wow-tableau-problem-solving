@@ -1,0 +1,205 @@
+{
+  "case_id": "wow-2019-ww33-table-formatting",
+  "iteration_id": "2019-08-14-ww33-table-formatting",
+  "captured_at": "2026-10-02T11:09:57.338068+00:00",
+  "source_hashes": {
+    "author": "528e6ec0d78b4b788b63382d1bb62d2574ed04fba56dbe593e8823ca31cb7114",
+    "replica": "b5cf9a580d9d96c0bba6d2a59d6ed20aded9efd84dd80e2f7f210e912c1d4953"
+  },
+  "request_settings": {
+    "case_id": "wow-2019-ww33-table-formatting",
+    "iteration_id": "2019-08-14-ww33-table-formatting",
+    "author_workbook_path": "/srv/hermes-workspaces/wow-reference/wow-2019-ww33-table-formatting/2019_08_14_WW33_Table_Formatting.twbx",
+    "replica_workbook_path": "/srv/hermes-workspaces/wow-case-standardization/iterations/2019-08-14-ww33-table-formatting/outputs/replicated-workbook.twbx",
+    "author_view_name": "2019_08_14_WW33_Table_Formatting",
+    "replica_view_name": "WW33 Table Formatting",
+    "states": [
+      {
+        "name": "threshold-forty",
+        "parameters": {
+          "Highlight Threshold": "40"
+        }
+      },
+      {
+        "name": "chairs-only",
+        "filters": {
+          "Sub-Category": "Chairs"
+        }
+      }
+    ],
+    "_request_file": "/srv/hermes-workspaces/wow-cloud-queue/wow-2019-ww33-table-formatting.json"
+  },
+  "workbooks": {
+    "author": {
+      "id": "a1c0721e-703d-4e6c-9026-a5e7ce3b4c5c",
+      "name": "cwtwb-review-wow-2019-ww33-table-formatting-author",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2922812"
+    },
+    "replica": {
+      "id": "903f2289-7777-424a-957a-b6e2df9da082",
+      "name": "cwtwb-review-wow-2019-ww33-table-formatting-replica",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2922813"
+    }
+  },
+  "export_resolution": "high",
+  "maxage_minutes": 1,
+  "status": "rendered_needs_visual_and_interaction_review",
+  "states": [
+    {
+      "name": "default",
+      "filters": {},
+      "parameters": {},
+      "views": {
+        "author": {
+          "id": "ff1f2d22-a479-4f4a-bb4a-5310f6a0f82b",
+          "name": "2019_08_14_WW33_Table_Formatting",
+          "path": "cloud-author.png",
+          "size": [
+            1800,
+            1200
+          ],
+          "sha256": "e55ccf856acb44da544d8801e17a4bc66d1638d6425e50391ea661f541d3410d",
+          "data_export": {
+            "path": "cloud-author.csv",
+            "sha256": "a0ffb85d3b6e32b683b70279037f3f2c4ec6adafbfa3039ecf346b8d123d811b",
+            "bytes": 2115
+          }
+        },
+        "replica": {
+          "id": "dee7195c-c66d-42a0-8b6f-5b57c3f51e24",
+          "name": "WW33 Table Formatting",
+          "path": "cloud-replica.png",
+          "size": [
+            1800,
+            1200
+          ],
+          "sha256": "2b603eb5157a9a6cf71480ae61eae0376569cd2a33d7a144ac59f0cc2a4fb959",
+          "data_export": {
+            "path": "cloud-replica.csv",
+            "sha256": "fde42ece0a6bacb5f1d40b67d18ba355815e8738be8bc19ae33ac803b58c4c7f",
+            "bytes": 1629
+          }
+        }
+      },
+      "comparison": {
+        "same_dimensions": true,
+        "author_size": [
+          1800,
+          1200
+        ],
+        "replica_size": [
+          1800,
+          1200
+        ],
+        "mean_absolute_channel_difference_0_to_255": 17.5752600308642,
+        "pixel_identical": false
+      }
+    },
+    {
+      "name": "threshold-forty",
+      "filters": {},
+      "parameters": {
+        "Highlight Threshold": "40"
+      },
+      "views": {
+        "author": {
+          "id": "ff1f2d22-a479-4f4a-bb4a-5310f6a0f82b",
+          "name": "2019_08_14_WW33_Table_Formatting",
+          "path": "cloud-author-threshold-forty.png",
+          "size": [
+            1800,
+            1200
+          ],
+          "sha256": "f02c86928bad079bcdfdbd67a11d8e92ab817207a410873b7adc595b4a9709fd",
+          "data_export": {
+            "path": "cloud-author-threshold-forty.csv",
+            "sha256": "a0ffb85d3b6e32b683b70279037f3f2c4ec6adafbfa3039ecf346b8d123d811b",
+            "bytes": 2115
+          }
+        },
+        "replica": {
+          "id": "dee7195c-c66d-42a0-8b6f-5b57c3f51e24",
+          "name": "WW33 Table Formatting",
+          "path": "cloud-replica-threshold-forty.png",
+          "size": [
+            1800,
+            1200
+          ],
+          "sha256": "8e105fdf8417249428e4791bbd373dc71d4023a11924c7849a9718b15a059525",
+          "data_export": {
+            "path": "cloud-replica-threshold-forty.csv",
+            "sha256": "fde42ece0a6bacb5f1d40b67d18ba355815e8738be8bc19ae33ac803b58c4c7f",
+            "bytes": 1629
+          }
+        }
+      },
+      "comparison": {
+        "same_dimensions": true,
+        "author_size": [
+          1800,
+          1200
+        ],
+        "replica_size": [
+          1800,
+          1200
+        ],
+        "mean_absolute_channel_difference_0_to_255": 16.204856790123458,
+        "pixel_identical": false
+      }
+    },
+    {
+      "name": "chairs-only",
+      "filters": {
+        "Sub-Category": "Chairs"
+      },
+      "parameters": {},
+      "views": {
+        "author": {
+          "id": "ff1f2d22-a479-4f4a-bb4a-5310f6a0f82b",
+          "name": "2019_08_14_WW33_Table_Formatting",
+          "path": "cloud-author-chairs-only.png",
+          "size": [
+            1800,
+            1200
+          ],
+          "sha256": "ea12a806cd1dfb9289c8392aabdc9ddbe602624854137fa0ffe6dc257fe0ca94",
+          "data_export": {
+            "path": "cloud-author-chairs-only.csv",
+            "sha256": "e711696e8670dbe41168ba302cf2f890f91e06b38f2ce851054cdf0ecf1c64eb",
+            "bytes": 207
+          }
+        },
+        "replica": {
+          "id": "dee7195c-c66d-42a0-8b6f-5b57c3f51e24",
+          "name": "WW33 Table Formatting",
+          "path": "cloud-replica-chairs-only.png",
+          "size": [
+            1800,
+            1200
+          ],
+          "sha256": "13271aa41c52501a8305a23aa7e4988c9cc44e6b1b6aa49db692bb5636511b0b",
+          "data_export": {
+            "path": "cloud-replica-chairs-only.csv",
+            "sha256": "14e0d4a7a1114cfbfdb8e3134eedd4c2bb2e6fa93192f9d4f8fc7393146d0d0b",
+            "bytes": 169
+          }
+        }
+      },
+      "comparison": {
+        "same_dimensions": true,
+        "author_size": [
+          1800,
+          1200
+        ],
+        "replica_size": [
+          1800,
+          1200
+        ],
+        "mean_absolute_channel_difference_0_to_255": 5.871176080246914,
+        "pixel_identical": false
+      }
+    }
+  ],
+  "visual_status": "not_evaluated",
+  "interaction_status": "not_evaluated"
+}

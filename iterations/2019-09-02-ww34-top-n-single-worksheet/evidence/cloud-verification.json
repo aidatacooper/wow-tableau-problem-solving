@@ -1,0 +1,207 @@
+{
+  "case_id": "wow-2019-ww34-top-n-single-worksheet",
+  "iteration_id": "2019-09-02-ww34-top-n-single-worksheet",
+  "captured_at": "2026-10-02T11:10:53.632338+00:00",
+  "source_hashes": {
+    "author": "e748228aa618417ec224a1b818ac6a88c64d830637609792520918fe242ac66a",
+    "replica": "08e176cc0b2aaa178a7d1a480f722a839506a3d70fed4284b0b747f7b5f8ff9a"
+  },
+  "request_settings": {
+    "case_id": "wow-2019-ww34-top-n-single-worksheet",
+    "iteration_id": "2019-09-02-ww34-top-n-single-worksheet",
+    "author_workbook_path": "/srv/hermes-workspaces/wow-reference/wow-2019-ww34-top-n-single-worksheet/2019_08_21_WW34_TopN_SingleWorksheet.twbx",
+    "replica_workbook_path": "/srv/hermes-workspaces/wow-case-standardization/iterations/2019-09-02-ww34-top-n-single-worksheet/outputs/replicated-workbook.twbx",
+    "author_view_name": "2019_08_21_WW34_TopN_Single_Sheet",
+    "replica_view_name": "2019_08_21_WW34_TopN_Single_Sheet",
+    "states": [
+      {
+        "name": "top-five",
+        "parameters": {
+          "Top n Manufacturers": "5"
+        }
+      },
+      {
+        "name": "top-five-other",
+        "parameters": {
+          "Top n Manufacturers": "5",
+          "Include Other": "true"
+        }
+      }
+    ],
+    "_request_file": "/srv/hermes-workspaces/wow-cloud-queue/wow-2019-ww34-top-n-single-worksheet.json"
+  },
+  "workbooks": {
+    "author": {
+      "id": "cd4a4f8f-eb83-4cc1-8516-cf41215cf448",
+      "name": "cwtwb-review-wow-2019-ww34-top-n-single-worksheet-author",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2922850"
+    },
+    "replica": {
+      "id": "5506660b-f0d0-477d-84f2-ea5dd7c3b1c5",
+      "name": "cwtwb-review-wow-2019-ww34-top-n-single-worksheet-replica",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2922851"
+    }
+  },
+  "export_resolution": "high",
+  "maxage_minutes": 1,
+  "status": "rendered_needs_visual_and_interaction_review",
+  "states": [
+    {
+      "name": "default",
+      "filters": {},
+      "parameters": {},
+      "views": {
+        "author": {
+          "id": "1d164991-1daf-49c2-a7d5-8c44b5bc0f49",
+          "name": "2019_08_21_WW34_TopN_Single_Sheet",
+          "path": "cloud-author.png",
+          "size": [
+            2000,
+            1600
+          ],
+          "sha256": "dee837930f4f35551613c5093cf7f28e9a976cb5aa878d2a869c920fb5318651",
+          "data_export": {
+            "path": "cloud-author.csv",
+            "sha256": "4bc70ee5ed825e86bd0e99dc970b678980b7cccecd0f9336222d3e950a07e370",
+            "bytes": 3337
+          }
+        },
+        "replica": {
+          "id": "2783e43b-4ede-40bc-ab5a-0a1cbf2eb1e7",
+          "name": "2019_08_21_WW34_TopN_Single_Sheet",
+          "path": "cloud-replica.png",
+          "size": [
+            2000,
+            1600
+          ],
+          "sha256": "2cc92ba053b3ca2c9870e4b57b2e9e902f5c5659917a12fd555a68c9cc0b4c8a",
+          "data_export": {
+            "path": "cloud-replica.csv",
+            "sha256": "4bc70ee5ed825e86bd0e99dc970b678980b7cccecd0f9336222d3e950a07e370",
+            "bytes": 3337
+          }
+        }
+      },
+      "comparison": {
+        "same_dimensions": true,
+        "author_size": [
+          2000,
+          1600
+        ],
+        "replica_size": [
+          2000,
+          1600
+        ],
+        "mean_absolute_channel_difference_0_to_255": 10.053430729166665,
+        "pixel_identical": false
+      }
+    },
+    {
+      "name": "top-five",
+      "filters": {},
+      "parameters": {
+        "Top n Manufacturers": "5"
+      },
+      "views": {
+        "author": {
+          "id": "1d164991-1daf-49c2-a7d5-8c44b5bc0f49",
+          "name": "2019_08_21_WW34_TopN_Single_Sheet",
+          "path": "cloud-author-top-five.png",
+          "size": [
+            2000,
+            1600
+          ],
+          "sha256": "cf7d4a8a2410c8701df3be15b98f6d34529240165593dfeda8b23ab1a938b66c",
+          "data_export": {
+            "path": "cloud-author-top-five.csv",
+            "sha256": "ddfdd2e1dfbd7373936a69fee01b4930e44e059841b71346ee37a35a99562c8e",
+            "bytes": 1109
+          }
+        },
+        "replica": {
+          "id": "2783e43b-4ede-40bc-ab5a-0a1cbf2eb1e7",
+          "name": "2019_08_21_WW34_TopN_Single_Sheet",
+          "path": "cloud-replica-top-five.png",
+          "size": [
+            2000,
+            1600
+          ],
+          "sha256": "f80ab3aafcfd342067e6c39409cff04da6c71b52f8177c37238ed3a53566eef6",
+          "data_export": {
+            "path": "cloud-replica-top-five.csv",
+            "sha256": "ddfdd2e1dfbd7373936a69fee01b4930e44e059841b71346ee37a35a99562c8e",
+            "bytes": 1109
+          }
+        }
+      },
+      "comparison": {
+        "same_dimensions": true,
+        "author_size": [
+          2000,
+          1600
+        ],
+        "replica_size": [
+          2000,
+          1600
+        ],
+        "mean_absolute_channel_difference_0_to_255": 6.333727708333334,
+        "pixel_identical": false
+      }
+    },
+    {
+      "name": "top-five-other",
+      "filters": {},
+      "parameters": {
+        "Top n Manufacturers": "5",
+        "Include Other": "true"
+      },
+      "views": {
+        "author": {
+          "id": "1d164991-1daf-49c2-a7d5-8c44b5bc0f49",
+          "name": "2019_08_21_WW34_TopN_Single_Sheet",
+          "path": "cloud-author-top-five-other.png",
+          "size": [
+            2000,
+            1600
+          ],
+          "sha256": "f7500b63c888c3ad10ec6def8c1976a4aa3e18c95f52ada3391f4ed20572d140",
+          "data_export": {
+            "path": "cloud-author-top-five-other.csv",
+            "sha256": "bd59ba444d8308bcbfd1c5c5b1dab739f9485a130ec78ae3cd4b33f035d8368b",
+            "bytes": 1129
+          }
+        },
+        "replica": {
+          "id": "2783e43b-4ede-40bc-ab5a-0a1cbf2eb1e7",
+          "name": "2019_08_21_WW34_TopN_Single_Sheet",
+          "path": "cloud-replica-top-five-other.png",
+          "size": [
+            2000,
+            1600
+          ],
+          "sha256": "206ee929b2d918f0b1d7236bf6d6fd7ddf814e3757aa63c601e50e13fee60a5f",
+          "data_export": {
+            "path": "cloud-replica-top-five-other.csv",
+            "sha256": "bd59ba444d8308bcbfd1c5c5b1dab739f9485a130ec78ae3cd4b33f035d8368b",
+            "bytes": 1129
+          }
+        }
+      },
+      "comparison": {
+        "same_dimensions": true,
+        "author_size": [
+          2000,
+          1600
+        ],
+        "replica_size": [
+          2000,
+          1600
+        ],
+        "mean_absolute_channel_difference_0_to_255": 5.164586875,
+        "pixel_identical": false
+      }
+    }
+  ],
+  "visual_status": "not_evaluated",
+  "interaction_status": "not_evaluated"
+}

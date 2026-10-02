@@ -4,6 +4,8 @@ import json
 import tempfile
 import unittest
 import zipfile
+
+import yaml
 from pathlib import Path
 
 
@@ -41,9 +43,16 @@ class DatasetBuilderTests(unittest.TestCase):
             item["case_id"]: item["replication_status"]
             for item in registry["consumed_cases"]
         }
-        self.assertEqual(statuses[registry["legacy_case_ids"]["donna-2026-02-02-5ebab8421caf"]], "replicated")
-        self.assertEqual(statuses[registry["legacy_case_ids"]["donna-2026-02-09-1eb979fd64b6"]], "replicated")
-        self.assertEqual(statuses[registry["legacy_case_ids"]["donna-2026-02-15-44019b20eed6"]], "replicated")
+        # Selection ownership is independent of completion. Published status must
+        # reflect the editable case metadata, including honest partial results.
+        records = {item["case_id"]: item for item in registry["consumed_cases"]}
+        project = Path(__file__).resolve().parents[1]
+        for item in selected[:3]:
+            canonical = registry["legacy_case_ids"][item["case_id"]]
+            metadata_path = project / "iterations" / records[canonical]["iteration"] / "case.yaml"
+            metadata = yaml.safe_load(metadata_path.read_text(encoding="utf-8"))
+            self.assertEqual(statuses[canonical], metadata["functional_status"])
+
 
     def test_case_id_is_stable_and_date_scoped(self):
         url = "https://donnacoles.home.blog/2026/02/15/example/"
@@ -70,6 +79,17 @@ class DatasetBuilderTests(unittest.TestCase):
         self.assertEqual(len(build_dataset.canonical_consumed_case_ids(registry)), 1)
         self.assertEqual(len(build_dataset.consumed_case_ids(registry)), 2)
         self.assertEqual(selected[0]["case_id"], "donna-old")
+
+    def test_partial_consumed_case_is_excluded_without_promoting_status(self):
+        registry = self.alias_registry()
+        registry["consumed_cases"][0]["replication_status"] = "partial"
+        snapshot = json.dumps(registry, sort_keys=True)
+        selected = [{"case_id": "donna-old"},
+                    {"case_id": "wow-2026-ww01-example"},
+                    {"case_id": "new-candidate"}]
+        self.assertEqual(build_dataset.eligible_cases(selected, registry), selected[-1:])
+        self.assertEqual(registry["consumed_cases"][0]["replication_status"], "partial")
+        self.assertEqual(json.dumps(registry, sort_keys=True), snapshot)
 
     def test_invalid_aliases_fail_closed_without_filtering_unrelated_cases(self):
         for mapping in ({"donna-unrelated": "unknown"}, ["donna-old"],

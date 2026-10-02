@@ -1,0 +1,87 @@
+{
+  "case_id": "wow-2019-ww36-custom-axis-tracker",
+  "iteration_id": "2019-09-09-ww36-custom-axis-tracker",
+  "captured_at": "2026-10-02T11:11:46.297443+00:00",
+  "source_hashes": {
+    "author": "e5b8a735203d6b555996e3afa5bf5203b6fe42208740a13719b3434a305f00f1",
+    "replica": "e80b66a2d77a66c4599d98de7ebe712b22ae0e489ac8adf848bcc59f1c0b3621"
+  },
+  "request_settings": {
+    "case_id": "wow-2019-ww36-custom-axis-tracker",
+    "iteration_id": "2019-09-09-ww36-custom-axis-tracker",
+    "author_workbook_path": "/srv/hermes-workspaces/wow-reference/wow-2019-ww36-custom-axis-tracker/2019_09_04_WW36_Custom_Axis_Ref_Line_Tracker.twbx",
+    "replica_workbook_path": "/srv/hermes-workspaces/wow-case-standardization/iterations/2019-09-09-ww36-custom-axis-tracker/outputs/replicated-workbook.twbx",
+    "author_view_name": "2019_09_04_WW36_Custom_Axis_Ref_Line_Tracker",
+    "replica_view_name": "WW36 Custom Axis Tracker",
+    "_request_file": "/srv/hermes-workspaces/wow-cloud-queue/wow-2019-ww36-custom-axis-tracker.json"
+  },
+  "workbooks": {
+    "author": {
+      "id": "93854c6f-9947-462e-842f-2f8eabdfbdad",
+      "name": "cwtwb-review-wow-2019-ww36-custom-axis-tracker-author",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2922853"
+    },
+    "replica": {
+      "id": "b4543954-6653-49c7-b435-eb8f9d4af846",
+      "name": "cwtwb-review-wow-2019-ww36-custom-axis-tracker-replica",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2922854"
+    }
+  },
+  "export_resolution": "high",
+  "maxage_minutes": 1,
+  "status": "rendered_needs_visual_and_interaction_review",
+  "states": [
+    {
+      "name": "default",
+      "filters": {},
+      "parameters": {},
+      "views": {
+        "author": {
+          "id": "6e185211-4417-45fa-9800-7d8432fa18cd",
+          "name": "2019_09_04_WW36_Custom_Axis_Ref_Line_Tracker",
+          "path": "cloud-author.png",
+          "size": [
+            2000,
+            1600
+          ],
+          "sha256": "a8e4797c3625948253773ed69584d2669bcb84ac2e8c07f5c489202b341ff7db",
+          "data_export": {
+            "path": "cloud-author.csv",
+            "sha256": "62e5eaf8fe8109ac016b4f1fd96a070f43e4cbd5ca156eda564038a4934b2d8e",
+            "bytes": 681
+          }
+        },
+        "replica": {
+          "id": "1cb0debe-9ebb-4397-b7fc-18bb10e04b5f",
+          "name": "WW36 Custom Axis Tracker",
+          "path": "cloud-replica.png",
+          "size": [
+            2000,
+            1600
+          ],
+          "sha256": "8e6cc06f50d97f1d17556ea56196a7191fc93431775d1ab21e1cd9205c3f061c",
+          "data_export": {
+            "path": "cloud-replica.csv",
+            "sha256": "7b33eb9bd97e84b8b1c7325fb4c031ec3d181ba8abe576250fda37e804644fe0",
+            "bytes": 768
+          }
+        }
+      },
+      "comparison": {
+        "same_dimensions": true,
+        "author_size": [
+          2000,
+          1600
+        ],
+        "replica_size": [
+          2000,
+          1600
+        ],
+        "mean_absolute_channel_difference_0_to_255": 4.068144583333333,
+        "pixel_identical": false
+      }
+    }
+  ],
+  "visual_status": "not_evaluated",
+  "interaction_status": "not_evaluated"
+}

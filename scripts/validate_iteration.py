@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import argparse
+import ast
 import hashlib
 import json
 import re
@@ -211,6 +212,38 @@ def validate_source_lock(case_dir: Path, case: dict) -> None:
             raise AssertionError(f"Extracted data hash mismatch: {relative}")
 
 
+def sdk_boundary_violations(source: str) -> list[str]:
+    """Inspect executable Python, allowing empty templates and public SDK APIs.
+
+    This is an authoring contract check, not a security sandbox. Analysis and
+    verifier scripts may inspect XML; case construction must use the SDK.
+    """
+    try:
+        tree = ast.parse(source)
+    except SyntaxError as exc:
+        return [f"builder has invalid Python at line {exc.lineno}: {exc.msg}"]
+    violations: set[str] = set()
+    forbidden_modules = ("lxml", "xml.etree")
+    for node in ast.walk(tree):
+        modules: list[str] = []
+        if isinstance(node, ast.Import):
+            modules = [alias.name for alias in node.names]
+        elif isinstance(node, ast.ImportFrom):
+            module = node.module or ""
+            modules = [module, *[f"{module}.{alias.name}" for alias in node.names]]
+        for module in modules:
+            if any(module == prefix or module.startswith(prefix + ".") for prefix in forbidden_modules):
+                violations.add(f"line {node.lineno}: builder imports raw XML library {module}; use public cwtwb APIs")
+        if isinstance(node, ast.Attribute) and node.attr in {"root", "_datasource", "_field_registry"}:
+            violations.add(f"line {node.lineno}: builder accesses workbook internals .{node.attr}; use public cwtwb APIs")
+        if isinstance(node, ast.Call):
+            function = node.func
+            if isinstance(function, ast.Attribute) and function.attr in {"SubElement", "Element", "fromstring", "tostring"}:
+                # Raw XML constructors are disallowed even if an import is aliased.
+                violations.add(f"line {node.lineno}: builder calls raw XML operation {function.attr}; use public cwtwb APIs")
+    return sorted(violations)
+
+
 def validate_builder_boundary(case_dir: Path) -> None:
     build_files = [
         path
@@ -220,6 +253,7 @@ def validate_builder_boundary(case_dir: Path) -> None:
     violations = []
     for path in build_files:
         source = path.read_text(encoding="utf-8")
+        violations.extend(f"{path.relative_to(case_dir)}: {reason}" for reason in sdk_boundary_violations(source))
         violations.extend(
             f"{path.relative_to(case_dir)}: {reason}"
             for pattern, reason in FORBIDDEN_BUILD_PATTERNS.items()

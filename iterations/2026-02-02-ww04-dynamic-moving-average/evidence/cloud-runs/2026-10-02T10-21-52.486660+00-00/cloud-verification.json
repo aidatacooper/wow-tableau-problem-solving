@@ -1,0 +1,77 @@
+{
+  "case_id": "wow-2026-ww04-dynamic-moving-average",
+  "iteration_id": "2026-02-02-ww04-dynamic-moving-average",
+  "captured_at": "2026-10-02T10:21:52.486660+00:00",
+  "source_hashes": {
+    "author": "7ccf540598d0bada23844d858c01486faf0e4a30e85bac88fda3d99efc697bc2",
+    "replica": "200cf75f771bffcf64845801345c0a47fbcd5bf70449ad3020cf7e951a87fafb"
+  },
+  "request_settings": {
+    "case_id": "wow-2026-ww04-dynamic-moving-average",
+    "iteration_id": "2026-02-02-ww04-dynamic-moving-average",
+    "author_workbook_path": "/srv/hermes-workspaces/wow-reference/wow-2026-ww04-dynamic-moving-average/2026_01_27_WW04_Moving_Average.twbx",
+    "replica_workbook_path": "/srv/hermes-workspaces/wow-case-standardization/iterations/2026-02-02-ww04-dynamic-moving-average/outputs/replicated-workbook.twbx",
+    "author_view_name": "2026_01_28_WW04_Moving_Avg",
+    "replica_view_name": "Dynamic Moving Average Dashboard",
+    "_request_file": "/srv/hermes-workspaces/wow-cloud-queue/wow-2026-ww04-dynamic-moving-average.json"
+  },
+  "workbooks": {
+    "author": {
+      "id": "9a1fa0a8-95c3-4494-aaca-f57223d516e7",
+      "name": "cwtwb-review-wow-2026-ww04-dynamic-moving-average-author",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2922857"
+    },
+    "replica": {
+      "id": "a127c4fa-f0be-4c91-adff-f0f34f0da7a3",
+      "name": "cwtwb-review-wow-2026-ww04-dynamic-moving-average-replica",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2922858"
+    }
+  },
+  "export_resolution": "high",
+  "maxage_minutes": 1,
+  "status": "rendered_needs_visual_and_interaction_review",
+  "states": [
+    {
+      "name": "default",
+      "filters": {},
+      "parameters": {},
+      "views": {
+        "author": {
+          "id": "e4e362ba-b5ee-4e7f-82cc-a982c45bcf96",
+          "name": "2026_01_28_WW04_Moving_Avg",
+          "path": "cloud-author.png",
+          "size": [
+            1600,
+            1600
+          ],
+          "sha256": "e8e0cabdec15a625ba1da644015c35b382f8bfba7478aaa5b5ba655c19fab9ea"
+        },
+        "replica": {
+          "id": "0c6e34a5-ed75-4159-93a0-0061009753e1",
+          "name": "Dynamic Moving Average Dashboard",
+          "path": "cloud-replica.png",
+          "size": [
+            1600,
+            1600
+          ],
+          "sha256": "fbeb015ee7a691b0f589b66bc2551aa2e6d588a6bfc825f9b2f4d58c2efadf0a"
+        }
+      },
+      "comparison": {
+        "same_dimensions": true,
+        "author_size": [
+          1600,
+          1600
+        ],
+        "replica_size": [
+          1600,
+          1600
+        ],
+        "mean_absolute_channel_difference_0_to_255": 5.529420572916667,
+        "pixel_identical": false
+      }
+    }
+  ],
+  "visual_status": "not_evaluated",
+  "interaction_status": "not_evaluated"
+}

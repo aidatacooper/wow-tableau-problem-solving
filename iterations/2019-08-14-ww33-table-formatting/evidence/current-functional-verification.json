@@ -1,0 +1,15 @@
+{
+  "checked_at": "2026-10-02T11:30:09.343079+00:00",
+  "command": [
+    "python",
+    "iterations/2019-08-14-ww33-table-formatting/verify_replication.py"
+  ],
+  "exit_code": 0,
+  "stdout": "{\n  \"gate\": \"local_structure\",\n  \"passed\": true,\n  \"checks\": {\n    \"sdk_from_scratch\": true,\n    \"independent_extract\": true,\n    \"worksheet_contract\": true,\n    \"parameter_defaults\": true,\n    \"highlight_formula\": true,\n    \"conditional_table_labels\": true,\n    \"selected_region_ratio\": true,\n    \"dual_axis_outlined_comparison\": true,\n    \"highlight_palette\": true,\n    \"shared_filters\": true\n  },\n  \"visual_review\": \"separate Cloud evidence\",\n  \"interaction_review\": \"not asserted by XML checks\"\n}\n",
+  "stderr": "",
+  "sdk_version": "0.27.1",
+  "sdk_commit": "2ad7b6ca4f0f3a0b8731e50b4932ac21ffbcdc73",
+  "builder_sha256": "a952a82f13e5ee3afcc74d9ade4a49c80a778aafe4d73c407acf0b39a434ba83",
+  "replica_sha256": "fd25ecd4a965d85bb3b1b150714d6785cf8f778a2cde9772038bb6b8def55c7f",
+  "scope": "Final artifact-only verification after successful strict builds; no rebuild, UI pass not inferred."
+}

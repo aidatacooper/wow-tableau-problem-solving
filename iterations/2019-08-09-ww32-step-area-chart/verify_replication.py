@@ -61,7 +61,7 @@ def assert_acceptance(root: etree._Element) -> None:
     )
     assert len(viz.findall("table/view/filter/groupfilter/groupfilter")) == 2
     assert (
-        viz.findtext("layout-options/title/formatted-text/run")
+        "".join(viz.xpath("layout-options/title/formatted-text/run/text()"))
         == "WHEN DID 2018 CATEGORY SALES DROP AND RISE THE MOST?"
     )
     line_encodings = panes[2].find("encodings")
@@ -78,6 +78,20 @@ def assert_acceptance(root: etree._Element) -> None:
         )
         == 7
     )
+
+    axis = viz.find("table/style/style-rule[@element='axis']/encoding[@scope='cols']")
+    assert axis.get("range-type") == "fixed"
+    assert axis.get("major-spacing") == "11.0"
+    assert axis.get("major-units") == "months"
+    assert axis.get("minor-show") == "false"
+    assert axis.get("min") == "#2017-12-01 00:00:00#"
+    assert axis.get("max") == "#2019-01-15 00:00:00#"
+    for pane in panes:
+        label = pane.find("customized-label/formatted-text")
+        assert label is not None
+        assert {run.get("fontcolor") for run in label.findall("run") if run.get("bold") == "true"} == {"#da020e", "#305d8a"}
+    palette = root.find("./datasources/datasource/style/style-rule[@element='mark']/encoding[@field='[usr:WW32_Colour_Diff:nk]']")
+    assert {mapping.findtext("bucket"): mapping.get("to") for mapping in palette.findall("map")} == {'"blue"': "#4e79a7", '"red"': "#e15759", '"grey"': "#bab0ac"}
 
     formulas = {
         column.get("caption"): column.find("calculation").get("formula")
@@ -101,18 +115,18 @@ def assert_source_independence(generated_root: etree._Element) -> None:
     assert "tableau-a671a1f433d4dcca" not in build_source
     assert "2019_08_07_WW32_Step_Area_Chart.twbx" not in build_source
 
-    author_root = etree.parse(str(AUTHOR_TWB)).getroot()
-    generated_worksheets = {
-        canonical(worksheet)
-        for worksheet in generated_root.findall("./worksheets/worksheet")
-    }
-    author_worksheets = {
-        canonical(worksheet)
-        for worksheet in author_root.findall("./worksheets/worksheet")
-    }
-    assert generated_worksheets.isdisjoint(author_worksheets)
+    assert 'TWBEditor("")' in build_source
+    assert "lxml" not in build_source and "SubElement" not in build_source
+    assert generated_root.find("./worksheets/worksheet[@name='Viz']") is not None
+    # Reference files are review material, never required to build or verify the replica.
+    if AUTHOR_TWB.exists():
+        author_root = etree.parse(str(AUTHOR_TWB)).getroot()
+        generated_worksheets = {canonical(w) for w in generated_root.findall("./worksheets/worksheet")}
+        author_worksheets = {canonical(w) for w in author_root.findall("./worksheets/worksheet")}
+        assert generated_worksheets.isdisjoint(author_worksheets)
 
 
+# case-functional-contract: explicit assertions plus independent data and SDK round-trip.
 def main() -> None:
     twb_root = etree.parse(str(OUTPUT_TWB)).getroot()
     assert_acceptance(twb_root)

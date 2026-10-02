@@ -1,0 +1,3 @@
+LABEL:Bar,Measure Names,Sub-Category,% Sales All Others,% Sales for Selected Region,MIN(1)
+East vs. All Other Regions,% Sales for Selected Region,Chairs,,33%,
+East vs. All Other Regions,MIN(1),Chairs,67%,,1

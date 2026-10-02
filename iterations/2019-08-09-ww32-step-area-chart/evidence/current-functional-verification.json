@@ -1,0 +1,15 @@
+{
+  "checked_at": "2026-10-02T11:30:09.248119+00:00",
+  "command": [
+    "python",
+    "iterations/2019-08-09-ww32-step-area-chart/verify_replication.py"
+  ],
+  "exit_code": 0,
+  "stdout": "PASS: WW32 from-scratch lineage, structure, locked Hyper, analyzer, and round-trip\n",
+  "stderr": "",
+  "sdk_version": "0.27.1",
+  "sdk_commit": "2ad7b6ca4f0f3a0b8731e50b4932ac21ffbcdc73",
+  "builder_sha256": "9a0d9efd3c62174326665a2819bf511a7c71a1638b6a2dbb554c965617aa5a51",
+  "replica_sha256": "4b86394131beb9d98c5920d74f6d22edac2c055a21440cb179bf2ded9865cd20",
+  "scope": "Final artifact-only verification after successful strict builds; no rebuild, UI pass not inferred."
+}

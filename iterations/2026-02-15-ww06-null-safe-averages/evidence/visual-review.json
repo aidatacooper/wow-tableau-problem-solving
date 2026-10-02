@@ -1,0 +1,38 @@
+{
+  "visual_status": "acceptable_delta",
+  "pixel_matched": false,
+  "reviewed_at": "2026-10-02T11:14:51.901327+00:00",
+  "cloud_snapshot_captured_at": "2026-10-02T11:13:15.160549+00:00",
+  "reviewed_workbook_sha256": {
+    "author": "7240cf7366eac680f961078b25da210a01253d7c3523d7267db7e5a4ecc5b37d",
+    "replica": "61efd92f4e521da125e305cdd6692bf74571da7e487226c8aafdfc5f08b38643"
+  },
+  "current_workbook_sha256": "61efd92f4e521da125e305cdd6692bf74571da7e487226c8aafdfc5f08b38643",
+  "current_build_needs_recapture": false,
+  "matching_features": [
+    "Default full seven-weekday matrix width now approximately author width",
+    "Default and short-date-range: all visible detail values and 21 category-average weekday values agree",
+    "Furniture-only: matching four detail rows and seven average weekday values; row height remains natural instead of stretched",
+    "Null indicators *0/*0.00 and two-decimal averages",
+    "Diverging palette, orange subtotal borders, grey/orange Apply states and overall canvas/side controls"
+  ],
+  "accepted_deltas": [
+    "Date-filter caption Day of Order Date versus Order Date and long date format",
+    "Minor title/header font weight, sidebar vertical spacing and outer matrix border differences",
+    "Furniture-only fitted table remains narrower than author while keeping all seven weekday columns and matching values"
+  ],
+  "interactions": "REST filter/parameter states have been rendered; browser Apply click remains untested",
+  "remaining_work": [
+    "In authenticated browser change Order Date filter, click Apply, verify pMinDate/pMaxDate update to selected bounds, matrix changes and selection clears; no static image substitutes for this test"
+  ],
+  "csv_scope": "Dashboard CSV is Apply Button Filter only, not matrix. Matrix values above are manual comparison of actual author/replica Cloud screenshots, not inferred from CSV.",
+  "evidence": [
+    "outputs/cloud-author.png",
+    "outputs/cloud-replica.png",
+    "outputs/cloud-author-short-date-range.png",
+    "outputs/cloud-replica-short-date-range.png",
+    "outputs/cloud-author-furniture-only.png",
+    "outputs/cloud-replica-furniture-only.png",
+    "evidence/current-functional-verification.json"
+  ]
+}

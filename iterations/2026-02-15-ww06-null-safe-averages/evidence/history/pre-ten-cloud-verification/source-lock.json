@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "iteration_id": "2026-02-15-ww06-null-safe-averages",
+  "case_id": "donna-2026-02-15-44019b20eed6",
+  "article": {
+    "path": "posts/2026-02-15-Can_you_account_for_nulls_in_your_averages.html",
+    "sha256": "99cd20d2d13919ab9b0924afbc8ed096615c21a6bf1953715605f916ffa0e891"
+  },
+  "workbook": {
+    "workbook_id": "tableau-f9dff954fb215221",
+    "source_twbx": {
+      "path": "dashboards/2026_02_11_WW06_Averages_and_Nulls/2026_02_11_WW06_Averages_and_Nulls.twbx",
+      "sha256": "282dc9463781e394ca355702df5f5d795e07e316e2d0816511320360485a3dd5"
+    },
+    "normalized_twb": {
+      "path": "dataset/workbooks/tableau-f9dff954fb215221/workbook.twb",
+      "sha256": "2ee578b74eb61672a4f2a7381ea63cefa5ead018bc262516d3381b64d521f83f"
+    }
+  },
+  "validation_env": "C:/Users/imgwho/Desktop/projects/20260227-cwtwb/.env",
+  "baseline": {
+    "cwtwb_version": "0.24.0",
+    "cwtwb_git_commit": "e401a1266dcb078542951dfd2000a0f252fcbb0a",
+    "backup_git_commit": "5bf1ba1"
+  },
+  "result": {
+    "cwtwb_git_commits": [
+      "18d9361",
+      "cd98ce8"
+    ],
+    "backup_git_commit": null
+  }
+}

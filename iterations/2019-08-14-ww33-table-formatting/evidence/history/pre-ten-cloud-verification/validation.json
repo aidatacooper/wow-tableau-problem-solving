@@ -1,0 +1,42 @@
+{
+  "gate": "local_structure",
+  "passed": true,
+  "checks": {
+    "worksheets": [
+      "Title",
+      "Table",
+      "Bar"
+    ],
+    "calculations": [
+      "Highlight Threshold",
+      "Selected Region",
+      "Profit Ratio",
+      "Total Sales for Year & Category",
+      "% Sales for Selected Region",
+      "% Sales All Others",
+      "Highlight",
+      "LABEL:Subcat BOLD",
+      "LABEL:Subcat Normal",
+      "LABEL:Sales BOLD",
+      "LABEL:Sales Normal",
+      "LABEL:Profit BOLD",
+      "LABEL:Profit Normal",
+      "LABEL:Profit Ratio BOLD",
+      "LABEL:Profit Ratio Normal",
+      "LABEL:Qty BOLD",
+      "LABEL:Qty Normal",
+      "MIN(1) Subcat",
+      "MIN(0) Subcat",
+      "MIN(1) A",
+      "MIN(0) Sales",
+      "MIN(0) Profit",
+      "MIN(1) B",
+      "MIN(0) Ratio",
+      "MIN(1) C",
+      "MIN(0) Qty",
+      "MIN(1) Bar",
+      "LABEL:Bar"
+    ],
+    "dashboard_count": 1
+  }
+}

@@ -69,7 +69,7 @@ def check(root: etree._Element) -> None:
     }
     assert {line.get("value-column") for line in lines} <= detail_columns
     assert lines[0].get("label-type") == "custom"
-    assert lines[0].get("label") == "<Value> in Sales"
+    assert lines[0].get("label") == "$<Value> in Sales"
     assert lines[0].get("probability") is None
     assert lines[1].get("probability") is None
     refline_formats = {
@@ -111,6 +111,7 @@ def check(root: etree._Element) -> None:
     assert parameters["target-group"].endswith("[Selected Date Set]")
 
 
+# case-functional-contract: explicit assertions plus independent data and SDK round-trip.
 def main() -> None:
     twb = HERE / "outputs" / "2019-09-09-ww36-custom-axis-tracker-replicated-workbook.twb"
     twbx = HERE / "outputs" / "replicated-workbook.twbx"

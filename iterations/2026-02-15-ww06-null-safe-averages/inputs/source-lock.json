@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0.0",
+  "historical_original_sha256": "282dc9463781e394ca355702df5f5d795e07e316e2d0816511320360485a3dd5",
+  "source_workbook_used_by_builder": false,
+  "extracted_data": [
+    {
+      "archive_path": "Data/Datasources/Sample - Superstore_Orders.hyper",
+      "file": "inputs/Sample - Superstore_Orders.hyper",
+      "bytes": 262144,
+      "sha256": "39c9fc034d0c0490131f027f591cbdf2abc576d071b192005d412aaaee4bc787"
+    }
+  ],
+  "source_workbook": {
+    "url": "https://public.tableau.com/views/2026_02_11_WW06_Averages_and_Nulls/2026_02_11_WW06_Averages_and_Nulls",
+    "path": "dashboards/2026_02_11_WW06_Averages_and_Nulls/2026_02_11_WW06_Averages_and_Nulls.twbx",
+    "filename": "2026_02_11_WW06_Averages_and_Nulls.twbx",
+    "sha256": "282dc9463781e394ca355702df5f5d795e07e316e2d0816511320360485a3dd5",
+    "workbook_id": "tableau-f9dff954fb215221"
+  },
+  "cached_reference": {
+    "path": "/srv/hermes-workspaces/wow-reference/wow-2026-ww06-null-safe-averages/2026_02_11_WW06_Averages_and_Nulls.twbx",
+    "sha256": "7240cf7366eac680f961078b25da210a01253d7c3523d7267db7e5a4ecc5b37d",
+    "bytes": 81578,
+    "matches_historical_lock": false
+  },
+  "limitations": [
+    "Historical source identity retained. Current Cloud comparison uses the explicitly hashed refreshed author snapshot; extracted Hyper hashes are recorded independently."
+  ]
+}

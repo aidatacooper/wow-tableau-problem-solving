@@ -1,0 +1,25 @@
+{
+  "build_inputs": [
+    "C:\\Users\\imgwho\\Desktop\\projects\\20260227-cwtwb\\src\\cwtwb\\references\\empty_template.twb",
+    "C:\\Users\\imgwho\\Desktop\\projects\\20260227-cwtwb\\backup\\labs\\wow-tableau-problem-solving\\iterations\\2019-08-14-ww33-table-formatting\\inputs\\Orders (Sample - Superstore).hyper",
+    "C:\\Users\\imgwho\\Desktop\\projects\\20260227-cwtwb\\backup\\labs\\wow-tableau-problem-solving\\iterations\\2019-08-14-ww33-table-formatting\\inputs\\ww33-summary.hyper"
+  ],
+  "source_twb_read_during_build": false,
+  "source_twbx_read_during_build": false,
+  "worksheets": [
+    "Title",
+    "Table",
+    "Bar"
+  ],
+  "dashboards": [
+    {
+      "name": "2019_08_14_WW33_Table_Formatting",
+      "worksheets": [
+        "Title",
+        "Table",
+        "Bar"
+      ]
+    }
+  ],
+  "summary_hyper_sha256": "626de53babe1ea1dc8330d1f0cf92fa1d920fe0ed4274123946f02fb53d2ef1a"
+}

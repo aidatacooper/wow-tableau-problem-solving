@@ -1,0 +1,82 @@
+schema_version: 1.0.0
+case_id: wow-2019-ww36-custom-axis-tracker
+iteration_id: 2019-09-09-ww36-custom-axis-tracker
+post: posts/2019-09-09-Custom_Axis_with_a_tracking_reference_line.html
+
+cwtwb:
+  tested_version: 0.26.0
+
+analysis_status: completed
+functional_status: partial
+visual_status: not_evaluated
+cwtwb_result: pass
+
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+    - inputs/Orders (Sample - Superstore).hyper
+
+acceptance:
+  - The line chart retains a maximum Sales reference line.
+  - Hovering Custom Axis updates Selected Date Set and shows the matching
+    vertical date and horizontal Sales reference lines on Line Chart.
+  - Moving off Custom Axis clears the set and removes the two tracked lines.
+  - Custom Axis labels quarter starts and the final available month.
+  - Custom Axis uses m-yyyy dates, hidden axes, centered 8pt gray labels,
+    60-pixel cells, and the original teal/white circle palette and mark size.
+  - Custom Axis tooltips show a bold 9pt month followed by Sales and a bold
+    aggregated value in gray.
+  - Line Chart uses the original teal line/markers, 8pt axis labels, formatted
+    tooltip, and three dotted teal reference lines.
+  - Custom Axis and Line Chart titles are hidden on the dashboard.
+
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []
+
+# Maintainer identity migration; historical evidence remains immutable.
+legacy_case_ids:
+  ww36-custom-axis-tracker: wow-2019-ww36-custom-axis-tracker
+  donna-2019-09-09-09185442a3ca: wow-2019-ww36-custom-axis-tracker
+article_date: '2019-09-09'
+challenge_year: 2019
+challenge_week: 36
+challenge_date: '2019-09-04'
+date_evidence:
+  article_date: index.json publication date; matches preserved folder
+  challenge: Existing formal folder year and WW token; retained challenge identity
+  challenge_date: Official WoW WordPress publication date; docs/protocols/challenge-date-sources.json
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/week-36-can-you-build-a-custom-axis-with-a-tracking-reference-line/
+    wordpress_post_id: 2933
+  article:
+    url: https://donnacoles.home.blog/2019/09/09/custom-axis-with-a-tracking-reference-line/
+    path: posts/2019-09-09-Custom_Axis_with_a_tracking_reference_line.html
+    sha256: null
+  workbook:
+    url: https://public.tableau.com/views/2019_09_04_WW36_Custom_Axis_Ref_Line_Tracker/2019_09_04_WW36_Custom_Axis_Ref_Line_Tracker
+    path: dashboards/2019_09_04_WW36_Custom_Axis_Ref_Line_Tracker/2019_09_04_WW36_Custom_Axis_Ref_Line_Tracker.twbx
+    filename: 2019_09_04_WW36_Custom_Axis_Ref_Line_Tracker.twbx
+    sha256: 95b2c2dee481699d9cbea15cfd760a3d6c4480c6dd84e38a24bb589f1fbaba85
+    workbook_id: tableau-1874fb03b8c9d8f5
+verification_status: pending
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: null
+  cloud_replica: null
+artifact_aliases:
+  outputs/2019-09-09-ww36-custom-axis-tracker-replicated-workbook.twbx: outputs/replicated-workbook.twbx
+historical_artifacts:
+- path: outputs/2019-09-09-ww36-custom-axis-tracker-replicated-workbook.twb
+  role: historical_twb_companion
+  note: Unpackaged companion retains its original name and bytes; primary packaged output is replicated-workbook.twbx.
+evidence:
+- inputs/source-lock.json
+notes:
+- Identity/path migration only; no rebuild, retest of visuals, or Cloud publishing. Historical evidence
+  IDs and hash-keyed filenames resolve through legacy_case_ids and artifact_aliases.
+- Source archive paths may be unavailable in a clean checkout; URL and locked hash identify the original
+  source. Null hashes/SDK results mean unknown, not inferred success.
+- No confidently identified primary author screenshot.
+- WW36 remains partial and visual not_evaluated; tracker hover/clear behavior needs Tableau verification.

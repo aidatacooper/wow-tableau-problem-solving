@@ -1,0 +1,213 @@
+{
+  "case_id": "wow-2026-ww04-dynamic-moving-average",
+  "iteration_id": "2026-02-02-ww04-dynamic-moving-average",
+  "captured_at": "2026-10-02T11:19:35.385330+00:00",
+  "source_hashes": {
+    "author": "7ccf540598d0bada23844d858c01486faf0e4a30e85bac88fda3d99efc697bc2",
+    "replica": "13ad3741d54941b500b390cbdc9cca86358096bc26881951321c6f9f6912d0e2"
+  },
+  "request_settings": {
+    "case_id": "wow-2026-ww04-dynamic-moving-average",
+    "iteration_id": "2026-02-02-ww04-dynamic-moving-average",
+    "author_workbook_path": "/srv/hermes-workspaces/wow-reference/wow-2026-ww04-dynamic-moving-average/2026_01_27_WW04_Moving_Average.twbx",
+    "replica_workbook_path": "/srv/hermes-workspaces/wow-case-standardization/iterations/2026-02-02-ww04-dynamic-moving-average/outputs/replicated-workbook.twbx",
+    "author_view_name": "2026_01_28_WW04_Moving_Avg",
+    "replica_view_name": "Dynamic Moving Average Dashboard",
+    "states": [
+      {
+        "name": "quarter-six-periods",
+        "parameters": {
+          "pTimePortion": "quarter",
+          "pMoveAvg": "6",
+          "pTimeFrame": "12"
+        }
+      },
+      {
+        "name": "week-six-periods",
+        "parameters": {
+          "pTimePortion": "week",
+          "pMoveAvg": "6",
+          "pTimeFrame": "24"
+        }
+      }
+    ],
+    "_request_file": "/srv/hermes-workspaces/wow-cloud-queue/wow-2026-ww04-dynamic-moving-average.json"
+  },
+  "workbooks": {
+    "author": {
+      "id": "9a1fa0a8-95c3-4494-aaca-f57223d516e7",
+      "name": "cwtwb-review-wow-2026-ww04-dynamic-moving-average-author",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2922857"
+    },
+    "replica": {
+      "id": "a127c4fa-f0be-4c91-adff-f0f34f0da7a3",
+      "name": "cwtwb-review-wow-2026-ww04-dynamic-moving-average-replica",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2922858"
+    }
+  },
+  "export_resolution": "high",
+  "maxage_minutes": 1,
+  "status": "rendered_needs_visual_and_interaction_review",
+  "states": [
+    {
+      "name": "default",
+      "filters": {},
+      "parameters": {},
+      "views": {
+        "author": {
+          "id": "e4e362ba-b5ee-4e7f-82cc-a982c45bcf96",
+          "name": "2026_01_28_WW04_Moving_Avg",
+          "path": "cloud-author.png",
+          "size": [
+            1600,
+            1600
+          ],
+          "sha256": "e8e0cabdec15a625ba1da644015c35b382f8bfba7478aaa5b5ba655c19fab9ea",
+          "data_export": {
+            "path": "cloud-author.csv",
+            "sha256": "21c61617289112daf414ca73f403a454216bf1d3c400ecdbcaa30e556e35a3e8",
+            "bytes": 2468
+          }
+        },
+        "replica": {
+          "id": "0c6e34a5-ed75-4159-93a0-0061009753e1",
+          "name": "Dynamic Moving Average Dashboard",
+          "path": "cloud-replica.png",
+          "size": [
+            1600,
+            1600
+          ],
+          "sha256": "a0a08463bd85a81995beceada0f6d62d1f45eb5ad0f306513e3d789c576fa23e",
+          "data_export": {
+            "path": "cloud-replica.csv",
+            "sha256": "5e11427f48964649a64ff881ee13ba1837bff6978da1a2ca2023d7e045f5d48f",
+            "bytes": 2337
+          }
+        }
+      },
+      "comparison": {
+        "same_dimensions": true,
+        "author_size": [
+          1600,
+          1600
+        ],
+        "replica_size": [
+          1600,
+          1600
+        ],
+        "mean_absolute_channel_difference_0_to_255": 5.55881015625,
+        "pixel_identical": false
+      }
+    },
+    {
+      "name": "quarter-six-periods",
+      "filters": {},
+      "parameters": {
+        "pTimePortion": "quarter",
+        "pMoveAvg": "6",
+        "pTimeFrame": "12"
+      },
+      "views": {
+        "author": {
+          "id": "e4e362ba-b5ee-4e7f-82cc-a982c45bcf96",
+          "name": "2026_01_28_WW04_Moving_Avg",
+          "path": "cloud-author-quarter-six-periods.png",
+          "size": [
+            1600,
+            1600
+          ],
+          "sha256": "0e2bd4c93684718999bbdf4a8b613fb97ede8595a261652e470d32f0b229afe9",
+          "data_export": {
+            "path": "cloud-author-quarter-six-periods.csv",
+            "sha256": "fd4620cec6a55e3040c63cfb16d1c20537b7fcf052118834e6e1c80f3f1d1687",
+            "bytes": 1310
+          }
+        },
+        "replica": {
+          "id": "0c6e34a5-ed75-4159-93a0-0061009753e1",
+          "name": "Dynamic Moving Average Dashboard",
+          "path": "cloud-replica-quarter-six-periods.png",
+          "size": [
+            1600,
+            1600
+          ],
+          "sha256": "056a3e67d8ed6d9dd2a15dffd7b89887cec4d157800181a26ebda4818c238efe",
+          "data_export": {
+            "path": "cloud-replica-quarter-six-periods.csv",
+            "sha256": "b4a1699f434329da427849159e5e5f84663910f79015d9d084688c83816d71e6",
+            "bytes": 1231
+          }
+        }
+      },
+      "comparison": {
+        "same_dimensions": true,
+        "author_size": [
+          1600,
+          1600
+        ],
+        "replica_size": [
+          1600,
+          1600
+        ],
+        "mean_absolute_channel_difference_0_to_255": 5.0803921875,
+        "pixel_identical": false
+      }
+    },
+    {
+      "name": "week-six-periods",
+      "filters": {},
+      "parameters": {
+        "pTimePortion": "week",
+        "pMoveAvg": "6",
+        "pTimeFrame": "24"
+      },
+      "views": {
+        "author": {
+          "id": "e4e362ba-b5ee-4e7f-82cc-a982c45bcf96",
+          "name": "2026_01_28_WW04_Moving_Avg",
+          "path": "cloud-author-week-six-periods.png",
+          "size": [
+            1600,
+            1600
+          ],
+          "sha256": "c733ac04e09157b58d92141761999451920b474bf3641929b3e03bb988cab594",
+          "data_export": {
+            "path": "cloud-author-week-six-periods.csv",
+            "sha256": "6c962ad77716e01a77572a4e780f669e628a69c5f7de0d5f68f13189f8c4fd49",
+            "bytes": 2496
+          }
+        },
+        "replica": {
+          "id": "0c6e34a5-ed75-4159-93a0-0061009753e1",
+          "name": "Dynamic Moving Average Dashboard",
+          "path": "cloud-replica-week-six-periods.png",
+          "size": [
+            1600,
+            1600
+          ],
+          "sha256": "8d0e8c9aa587f0f0a38a679301cfaa1d08a18b6e1fa0798e6b85a7dd1c776a3d",
+          "data_export": {
+            "path": "cloud-replica-week-six-periods.csv",
+            "sha256": "14e04aa79b57a18a97f55529959ab22b584e112f1ec0ec8a0da75dd3f2344e72",
+            "bytes": 2403
+          }
+        }
+      },
+      "comparison": {
+        "same_dimensions": true,
+        "author_size": [
+          1600,
+          1600
+        ],
+        "replica_size": [
+          1600,
+          1600
+        ],
+        "mean_absolute_channel_difference_0_to_255": 5.630609244791667,
+        "pixel_identical": false
+      }
+    }
+  ],
+  "visual_status": "not_evaluated",
+  "interaction_status": "not_evaluated"
+}

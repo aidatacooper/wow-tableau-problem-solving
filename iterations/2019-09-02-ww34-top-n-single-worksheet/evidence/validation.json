@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "case_id": "donna-2019-09-02-0574e1681ed3",
+  "case_id": "wow-2019-ww34-top-n-single-worksheet",
   "status": "semantically_replicated",
   "from_scratch": true,
   "replication_status": "semantically_replicated",
@@ -18,10 +18,8 @@
       "Set",
       "Table Calculation",
       "Bar",
-      "excel-direct",
       "federated",
       "hyper",
-      "Layout Container",
       "Color",
       "Text"
     ]
@@ -65,14 +63,17 @@
           "on-hover Set Action 'Highlight Rank' -> Highlighted Manufacturer (exclude-all)"
         ],
         "deviations_from_source": [
-          "Set internal names are unified (Top Central/East/South/West) instead of the source's 'Top Central (copy)'/'Top East (copy)' internal names; display captions match the source exactly.",
-          "Top n Manufacturers parameter is emitted with domain_type=range 1-100 per the replication spec; the source serializes the domain as 'any'.",
-          "The INDEX() instance-level Field table-calc (level-break/order/sort) is reproduced in _apply_index_table_calc_ordering; cwtwb's table_calc API cannot author instance-level addressing natively.",
-          "The cols shelf join between Region and the dual-axis fold is '*' (as the source) via _apply_cols_join; cwtwb's dual-axis builder emits '+' by default."
+          "Independent field identities; parameter range 1-100 constrains valid positive top-N values."
         ],
         "known_visual_gaps": [
-          "Axis/style formatting (axis strokes, gridlines, header widths) uses cwtwb defaults rather than the source's exact pixel styles.",
-          "The 'Data' hidden helper worksheet from the source is omitted (maximum_visible_worksheets allows 1 visible sheet)."
+          "Cloud comparison and browser hover review are separate gates."
+        ],
+        "builder_sha256": "3b9beecaf1125b687dfc090312d4a7dca93de9a043502ad85ca497a7f3c03ebe",
+        "entry_point": "TWBEditor(\"\")",
+        "sdk_capabilities_used": [
+          "configure_dual_axis.table_calc_overrides",
+          "configure_worksheet_style",
+          "add_dashboard_set_action"
         ]
       }
     },
@@ -102,12 +103,12 @@
           "text": false
         },
         "1": {
-          "mark": "Bar",
+          "mark": "GanttBar",
           "color": true,
-          "text": false
+          "text": true
         },
         "2": {
-          "mark": "GanttBar",
+          "mark": "Bar",
           "color": true,
           "text": true
         }
@@ -154,23 +155,24 @@
       "formula_count": 13
     },
     "visual": {
-      "gate": "visual",
+      "gate": "visual_structure",
+      "note": "Static encoding contracts only; this is not Cloud visual or hover acceptance",
       "passed": true,
       "panes": [
         {
           "mark": "Automatic"
         },
         {
-          "mark": "Bar",
-          "color": "[federated.1lpjjco1itbvff14gh7i8150jnla].[none:Region:nk]",
-          "text": "",
-          "lod": "[federated.1lpjjco1itbvff14gh7i8150jnla].[none:Calculation_89F30F49BE8244AD9E1A053A183C8D0B:nk]"
+          "mark": "GanttBar",
+          "color": "[federated.0ahyg8e1xelf3914bag3r0yukuro].[none:Region:nk]",
+          "text": "[federated.0ahyg8e1xelf3914bag3r0yukuro].[usr:Calculation_641B361B52AB47EDB2F643E7C576C8C7:nk]",
+          "lod": "[federated.0ahyg8e1xelf3914bag3r0yukuro].[none:Calculation_3640444E324747B4813FCB0D392027C5:nk]"
         },
         {
-          "mark": "GanttBar",
-          "color": "[federated.1lpjjco1itbvff14gh7i8150jnla].[none:Region:nk]",
-          "text": "[federated.1lpjjco1itbvff14gh7i8150jnla].[usr:Calculation_507E452D7FC54EC4B27CD240C440246A:nk]",
-          "lod": "[federated.1lpjjco1itbvff14gh7i8150jnla].[none:Calculation_89F30F49BE8244AD9E1A053A183C8D0B:nk]"
+          "mark": "Bar",
+          "color": "[federated.0ahyg8e1xelf3914bag3r0yukuro].[none:Region:nk]",
+          "text": "[federated.0ahyg8e1xelf3914bag3r0yukuro].[sum:Quantity:qk]",
+          "lod": "[federated.0ahyg8e1xelf3914bag3r0yukuro].[none:Calculation_3640444E324747B4813FCB0D392027C5:nk]"
         }
       ],
       "bar_colored_by_region": true,
@@ -189,9 +191,11 @@
     },
     "cloud_openability": {
       "gate": "cloud_openability",
-      "passed": null,
-      "status": "error",
-      "reason": "Failed Sign In Error: \n\n\t401002: Unauthorized Access\n\t\tInvalid authentication credentials were provided."
+      "passed": true,
+      "status": "published_and_rendered",
+      "evidence": "evidence/cloud-verification.json",
+      "visual_review": "separate_manual_gate",
+      "hover_review": "not_asserted_by_static_verifier"
     }
   },
   "generated_by": "verify_replication.py"

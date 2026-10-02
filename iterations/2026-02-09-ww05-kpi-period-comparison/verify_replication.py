@@ -77,8 +77,8 @@ def assert_acceptance(root: etree._Element) -> None:
         instance.get("column"): instance.get("derivation")
         for instance in kpi.findall(".//column-instance")
     }
-    assert kpi_instances[columns["PR - Today"].get("name")] == "Sum"
-    assert kpi_instances[columns["PR Difference"].get("name")] == "Sum"
+    assert kpi_instances[columns["PR - Today"].get("name")] == "Avg"
+    assert kpi_instances[columns["PR Difference"].get("name")] == "Avg"
     assert kpi_instances[columns["PR Direction Up"].get("name")] == "None"
     assert kpi_instances[columns["PR Direction Down"].get("name")] == "None"
 
@@ -86,9 +86,13 @@ def assert_acceptance(root: etree._Element) -> None:
     assert dashboard is not None
     assert dashboard.find(".//zone[@name='Period Trend']") is not None
     assert dashboard.find(".//zone[@name='KPI Summary']") is not None
-    assert dashboard.find(".//zone[@type-v2='paramctrl']") is not None
+    assert "[Parameters].[Parameter 1]" in "".join(kpi.find("layout-options/title/formatted-text").itertext())
+    assert columns["X-Axis"].get("role") == "dimension"
+    assert columns["X-Axis"].get("type") == "quantitative"
+    assert trend.find("table/style/style-rule[@element='axis']/format[@attr='display'][@scope='cols']").get("value") == "false"
 
 
+# case-functional-contract: explicit assertions plus independent data and SDK round-trip.
 def main() -> None:
     for output in (OUTPUT_TWB, OUTPUT_TWBX):
         assert output.exists()

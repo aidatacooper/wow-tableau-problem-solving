@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0.0",
+  "status": "passed",
+  "artifacts": {
+    "2019-07-25-ww30-navigation-kpi-replicated-workbook.twb": {
+      "sha256": "ea48426a034888d532a8e767aea25ba816fff483f8c1520238e56ab648655713",
+      "local_parse": "passed"
+    },
+    "2019-07-25-ww30-navigation-kpi-replicated-workbook.twbx": {
+      "sha256": "6e600936f8e078a29159a8aa4c9fb2360ddee42eb44ffe8b84df24cc1c0d17dc",
+      "zip_structure": "passed",
+      "original_hyper_preserved": "passed",
+      "cwtwb_open_and_resave": "passed",
+      "acceptance_after_roundtrip": "passed",
+      "tableau_cloud_publish": {
+        "success": true,
+        "workbook_id": "76a4c0eb-52ea-4ff4-88b9-e432ff54068a",
+        "views": [
+          "Customers",
+          "Products",
+          "Orders",
+          "Cities",
+          "by Customer",
+          "by Product",
+          "by Order",
+          "by City",
+          "4 Box KPI",
+          "Customer Sales",
+          "Product Sales",
+          "Order Sales",
+          "City Sales"
+        ],
+        "twbx_size_kb": 363.4
+      }
+    },
+    "cloud_screenshots": [
+      {
+        "path": "evidence/cwtwb-iteration-2019-07-25-ww30-navigation-kpi_4_Box_KPI.png",
+        "sha256": "c2375ec012591b3b6aa8f4e3559396c91648e5e575a8c9106d0296f39a152197",
+        "visual_review": "passed"
+      },
+      {
+        "path": "evidence/cwtwb-iteration-2019-07-25-ww30-navigation-kpi_Customer_Sales.png",
+        "sha256": "3d8c8a27c194dd18fca0bfb96261e668d7a247242af4df89dddca26cd2298c86",
+        "visual_review": "passed"
+      }
+    ]
+  },
+  "analyzer": {
+    "template_fit": "advanced-fit",
+    "unsupported": 0,
+    "detected": [
+      "Bar",
+      "Square Mark",
+      "Text",
+      "Tooltip",
+      "Hyper",
+      "Go-To-Sheet Action",
+      "Navigation Button"
+    ]
+  },
+  "xsd": {
+    "result": "compatibility_warnings",
+    "notes": [
+      "The original 2019 datasource extract omits the newer XSD object-id attribute.",
+      "The original workbook carries three legacy datasource layout attributes rejected by the current XSD.",
+      "The validator also reports the project's known workbook-tail referenced-extensions/explain-data compatibility issue.",
+      "Tableau Cloud accepted and opened the packaged TWBX with its original Hyper."
+    ]
+  },
+  "semantic_api": {
+    "result": "http_400",
+    "note": "The non-publishing API rejected the TWB request; packaged TWBX publish/openability validation passed."
+  },
+  "regression": {
+    "execution": "split by test module to avoid Windows timeout orphan processes",
+    "passed": 322,
+    "skipped": 25,
+    "warnings": 8
+  }
+}

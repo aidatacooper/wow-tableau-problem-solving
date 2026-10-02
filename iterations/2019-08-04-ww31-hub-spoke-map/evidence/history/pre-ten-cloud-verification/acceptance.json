@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "status": "passed",
+  "checks": {
+    "exact_worksheet_set": "passed",
+    "three_regional_route_maps": "passed",
+    "two_spatial_geometry_layers_per_map": "passed",
+    "route_size_by_distinct_concerts": "passed",
+    "destination_white_stroke": "passed",
+    "region_filters": "passed",
+    "summary_views": "passed",
+    "monthly_trend": "passed",
+    "fellow_artist_word_cloud": "passed",
+    "dashboard_zone_membership": "passed",
+    "two_hover_filter_actions": "passed",
+    "original_hyper_only": "passed",
+    "cwtwb_open_and_resave": "passed"
+  }
+}

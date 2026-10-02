@@ -1,0 +1,106 @@
+{
+  "calculations": [
+    {
+      "name": "Today Last Month",
+      "formula": "DATE(DATEADD('month', -1, [pToday]))",
+      "datatype": "date",
+      "role": "dimension",
+      "field_type": "ordinal"
+    },
+    {
+      "name": "Today Last Year",
+      "formula": "DATE(DATEADD('year', -1, [pToday]))",
+      "datatype": "date",
+      "role": "dimension",
+      "field_type": "ordinal"
+    },
+    {
+      "name": "Recent | Prior  Mth | Prior Yr",
+      "formula": "IF [Order Date] >= DATEADD('day', -14, [pToday]) AND [Order Date] <= [pToday] THEN 'Recent'\r\nELSEIF [Order Date] >= DATEADD('day', -14, [Today Last Month]) AND [Order Date] <= DATEADD('day', 14, [Today Last Month]) THEN 'Prior Month'\r\nELSEIF [Order Date] >= DATEADD('day', -14, [Today Last Year]) AND [Order Date] <= DATEADD('day', 14, [Today Last Year]) THEN 'Prior Year'\r\nELSE NULL\r\nEND",
+      "datatype": "string",
+      "role": "dimension",
+      "field_type": "nominal"
+    },
+    {
+      "name": "Profit Ratio",
+      "formula": "SUM([Profit]) / SUM([Sales])",
+      "datatype": "real",
+      "role": "measure",
+      "field_type": "quantitative"
+    },
+    {
+      "name": "PR - Recent",
+      "formula": "IF MIN([Recent | Prior  Mth | Prior Yr]) = 'Recent' THEN [Profit Ratio] END",
+      "datatype": "real",
+      "role": "measure",
+      "field_type": "quantitative"
+    },
+    {
+      "name": "PR - Today",
+      "formula": "//IF MIN([Recent | Prior  Mth | Prior Yr]) = 'Recent' AND MIN([X-Axis])=0 THEN [Profit Ratio] END\r\n{FIXED:SUM(IF [Order Date]=[pToday] THEN [Profit] END)}/{FIXED:SUM(IF [Order Date]=[pToday] THEN [Sales] END)}",
+      "datatype": "real",
+      "role": "measure",
+      "field_type": "quantitative"
+    },
+    {
+      "name": "PR Difference",
+      "formula": "[PR - Today] - [PR - Yesterday]",
+      "datatype": "real",
+      "role": "measure",
+      "field_type": "quantitative"
+    },
+    {
+      "name": "PR Direction Up",
+      "formula": "IF [PR Difference]>=0 THEN 'Up' END",
+      "datatype": "string",
+      "role": "dimension",
+      "field_type": "nominal"
+    },
+    {
+      "name": "X-Axis",
+      "formula": "CASE [Recent | Prior  Mth | Prior Yr]\r\nWHEN 'Recent' THEN DATEDIFF('day',[pToday],[Order Date])\r\nWHEN 'Prior Month' THEN DATEDIFF('day',[Today Last Month],[Order Date])\r\nWHEN 'Prior Year' THEN DATEDIFF('day',[Today Last Year],[Order Date])\r\nEND",
+      "datatype": "integer",
+      "role": "dimension",
+      "field_type": "ordinal"
+    },
+    {
+      "name": "PR - Not Recent",
+      "formula": "IF MIN([Recent | Prior  Mth | Prior Yr]) <> 'Recent' THEN [Profit Ratio] END",
+      "datatype": "real",
+      "role": "measure",
+      "field_type": "quantitative"
+    },
+    {
+      "name": "PR - Yesterday",
+      "formula": "//IF MIN([Recent | Prior  Mth | Prior Yr]) = 'Recent' AND MIN([X-Axis])=0 THEN [Profit Ratio] END\r\n{FIXED:SUM(IF [Order Date]=DATEADD('day', -1,[pToday]) THEN [Profit] END)}/{FIXED:SUM(IF [Order Date]=DATEADD('day', -1,[pToday]) THEN [Sales] END)}",
+      "datatype": "real",
+      "role": "measure",
+      "field_type": "quantitative"
+    },
+    {
+      "name": "PR Direction Down",
+      "formula": "IF [PR Difference]<0 THEN 'Down' END",
+      "datatype": "string",
+      "role": "dimension",
+      "field_type": "nominal"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "pToday",
+      "datatype": "date",
+      "value": "#2025-02-04#",
+      "domain": "any",
+      "range": {},
+      "values": []
+    }
+  ],
+  "dashboards": [
+    "2026_02_04_WW05_KPI_Trend_Monitor_With_Period_Comparison"
+  ],
+  "worksheets": [
+    "Data",
+    "KPI",
+    "Viz"
+  ]
+}

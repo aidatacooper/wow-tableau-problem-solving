@@ -1,0 +1,77 @@
+{
+  "case_id": "wow-2026-ww06-null-safe-averages",
+  "iteration_id": "2026-02-15-ww06-null-safe-averages",
+  "captured_at": "2026-10-02T10:22:33.409506+00:00",
+  "source_hashes": {
+    "author": "7240cf7366eac680f961078b25da210a01253d7c3523d7267db7e5a4ecc5b37d",
+    "replica": "21354f243134635ecd06655e1e67b106a4e7ec337b17652df07eaa9ed8386426"
+  },
+  "request_settings": {
+    "case_id": "wow-2026-ww06-null-safe-averages",
+    "iteration_id": "2026-02-15-ww06-null-safe-averages",
+    "author_workbook_path": "/srv/hermes-workspaces/wow-reference/wow-2026-ww06-null-safe-averages/2026_02_11_WW06_Averages_and_Nulls.twbx",
+    "replica_workbook_path": "/srv/hermes-workspaces/wow-case-standardization/iterations/2026-02-15-ww06-null-safe-averages/outputs/replicated-workbook.twbx",
+    "author_view_name": "2026_02_11_WW06_Averages_and_Nulls",
+    "replica_view_name": "2026_02_11_WW06_Averages_and_Nulls",
+    "_request_file": "/srv/hermes-workspaces/wow-cloud-queue/wow-2026-ww06-null-safe-averages.json"
+  },
+  "workbooks": {
+    "author": {
+      "id": "ee0e5476-4892-4359-897f-87f3d45f71fc",
+      "name": "cwtwb-review-wow-2026-ww06-null-safe-averages-author",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2922863"
+    },
+    "replica": {
+      "id": "316440f5-cf2c-4891-8f35-6e5c737bdc62",
+      "name": "cwtwb-review-wow-2026-ww06-null-safe-averages-replica",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2922864"
+    }
+  },
+  "export_resolution": "high",
+  "maxage_minutes": 1,
+  "status": "rendered_needs_visual_and_interaction_review",
+  "states": [
+    {
+      "name": "default",
+      "filters": {},
+      "parameters": {},
+      "views": {
+        "author": {
+          "id": "ff599036-53da-4ee9-aad5-2b8fbafa7b1f",
+          "name": "2026_02_11_WW06_Averages_and_Nulls",
+          "path": "cloud-author.png",
+          "size": [
+            2732,
+            1536
+          ],
+          "sha256": "991dc79617540312a8dfabf2fd7c8fe7a82fbbc772c426bcc002ade358b31502"
+        },
+        "replica": {
+          "id": "e938d437-4a60-4687-a57a-b31277362d5f",
+          "name": "2026_02_11_WW06_Averages_and_Nulls",
+          "path": "cloud-replica.png",
+          "size": [
+            2732,
+            1536
+          ],
+          "sha256": "31fe53ddf908dbaaeed0270b413843e746b7a24b6a45336248e63852f6d511c4"
+        }
+      },
+      "comparison": {
+        "same_dimensions": true,
+        "author_size": [
+          2732,
+          1536
+        ],
+        "replica_size": [
+          2732,
+          1536
+        ],
+        "mean_absolute_channel_difference_0_to_255": 24.570477484570727,
+        "pixel_identical": false
+      }
+    }
+  ],
+  "visual_status": "not_evaluated",
+  "interaction_status": "not_evaluated"
+}

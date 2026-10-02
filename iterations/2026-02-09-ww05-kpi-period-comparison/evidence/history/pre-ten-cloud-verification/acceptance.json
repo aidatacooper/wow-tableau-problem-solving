@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0.0",
+  "required_semantics": [
+    "pToday anchors recent, prior-month, and prior-year periods.",
+    "Dates from the three periods are mapped to a common relative day X-axis.",
+    "Recent profit ratio is visually separated from prior-month and prior-year profit ratios.",
+    "PR Today and PR Yesterday use FIXED calculations independent of the trend view grain.",
+    "The KPI card displays current profit ratio, day-over-day difference, direction, and anchor date."
+  ],
+  "observable_assertions": [
+    "The workbook contains pToday with default 2025-02-04.",
+    "All twelve calculations in the dependency chain exist.",
+    "The trend worksheet uses a synchronized dual axis and excludes null period groups.",
+    "The KPI worksheet includes PR Today, PR Difference, direction, and pToday.",
+    "The dashboard contains both required worksheets."
+  ],
+  "allowed_differences": [
+    "A text mark may replace the transparent custom shape because the shape does not alter the KPI value.",
+    "Exact dash pattern, line markers, fonts, colors, padding, and tooltip prose may differ.",
+    "The intermediate calculation-table worksheet need not be included in the final dashboard."
+  ]
+}

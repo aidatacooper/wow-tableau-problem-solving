@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0.0",
+  "required_semantics": [
+    "Date selection is parameter-driven so it does not remove hierarchy members before densification.",
+    "ZN converts densified null order counts to zero.",
+    "INDEX on Detail triggers domain completion for missing weekday and hierarchy combinations.",
+    "Sub-Category and Manufacturer totals use Average rather than Sum.",
+    "The Apply worksheet sends selected minimum and maximum dates to pMinDate and pMaxDate."
+  ],
+  "observable_assertions": [
+    "The workbook contains the two date parameters and required calculation chain.",
+    "The table worksheet uses Category, Sub-Category, Manufacturer, and weekday.",
+    "The table worksheet contains INDEX detail densification and Average subtotal metadata.",
+    "The Apply worksheet contains a context date filter and Min/Max date fields.",
+    "The dashboard contains both worksheets and two parameter actions."
+  ],
+  "allowed_differences": [
+    "Exact colors, borders, shading, fonts, padding, and tooltip prose may differ.",
+    "The auxiliary deselect action may be omitted when the two parameter actions preserve repeated Apply behavior.",
+    "Date parameter controls may be shown in addition to the Apply worksheet."
+  ]
+}

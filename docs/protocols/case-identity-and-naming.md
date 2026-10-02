@@ -100,3 +100,12 @@ Canonical consumed counts include each record once, while selection and dataset
 verification accept the recorded Donna aliases without changing source IDs or
 the dataset source schema. Invalid alias targets or conflicting mappings are
 errors, not permission to exclude an unrelated source article.
+
+### Consumed selection and completion status
+
+A consumed case is reserved by its canonical identity and aliases, even when
+`functional_status` is `partial`. Future selection excludes both identities;
+selection must not promote its replication status. Generated registry statuses
+reflect the corresponding `case.yaml` value. Regression coverage compares the
+current registry against metadata and includes a synthetic partial consumed case
+that remains excluded without changing its status.

@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0.0",
+  "status": "passed",
+  "artifacts": {
+    "2019-07-18-ww29-high-orders-replicated-workbook.twb": {
+      "sha256": "fe4235f2a9c442682997d48610bb2b71bb27f62ea5f71e34c872cd8566f2708e",
+      "local_parse": "passed"
+    },
+    "2019-07-18-ww29-high-orders-replicated-workbook.twbx": {
+      "sha256": "6430f6adc72d998c9e5fba44c4e834d93e3571997cec74297230c222f97d669c",
+      "zip_structure": "passed",
+      "original_hyper_preserved": "passed",
+      "cwtwb_open_and_resave": "passed",
+      "acceptance_after_roundtrip": "passed",
+      "tableau_cloud_publish": {
+        "success": true,
+        "workbook_id": "df7a9f71-29fc-4e01-af27-13f03b6e29c2",
+        "views": [
+          "Higher Orders by Month",
+          "WW29 Higher Orders"
+        ],
+        "twbx_size_kb": 362.4
+      }
+    },
+    "cloud_screenshot": {
+      "path": "evidence/cwtwb-iteration-2019-07-18-ww29-high-orders_WW29_Higher_Orders.png",
+      "sha256": "f310a5bc5a45ed31e0941191c438fbd0cfdb1660a4105300dabad0047ef409cb",
+      "visual_review": "passed",
+      "observed": [
+        "three Segment panes",
+        "twelve month headers",
+        "positive and negative percent labels",
+        "green and blue conditional marks",
+        "one overall-average reference line per Segment"
+      ]
+    }
+  },
+  "analyzer": {
+    "result": "passed",
+    "summary": {
+      "core": 8,
+      "advanced": 4,
+      "recipe": 0,
+      "unsupported": 0,
+      "unknown": 1
+    },
+    "detected": [
+      "GanttBar",
+      "Reference Line",
+      "LOD",
+      "Color",
+      "Size",
+      "Text",
+      "Tooltip",
+      "Hyper"
+    ]
+  },
+  "regression": {
+    "command": "PYTHONPATH=src python -m pytest tests -q --basetemp .tmp_test_outputs/ww29-final-full",
+    "passed": 320,
+    "skipped": 25,
+    "warnings": 8
+  },
+  "notes": [
+    "The first cloud screenshot was blank because imported aggregate calculations lost their formulas and were bound as SUM instead of AGG.",
+    "cwtwb f6f1403 preserves imported formulas and supports explicit AGG expressions.",
+    "The regenerated cloud screenshot contains the complete decision behavior."
+  ]
+}

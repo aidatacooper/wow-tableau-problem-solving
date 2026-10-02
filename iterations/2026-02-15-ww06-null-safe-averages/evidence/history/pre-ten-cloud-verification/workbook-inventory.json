@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0.0",
+  "source": "dataset/workbooks/tableau-f9dff954fb215221/workbook.twb",
+  "counts": {
+    "worksheets": 2,
+    "dashboards": 1,
+    "parameters": 2,
+    "required_calculated_fields": 10,
+    "dashboard_actions": 3
+  },
+  "hierarchy": [
+    "Category",
+    "Sub-Category",
+    "Manufacturer"
+  ],
+  "parameters": [
+    {
+      "name": "pMinDate",
+      "datatype": "date",
+      "default": "2025-07-11"
+    },
+    {
+      "name": "pMaxDate",
+      "datatype": "date",
+      "default": "2025-07-23"
+    }
+  ],
+  "required_calculations": [
+    "#Orders",
+    "#Orders in Date Range",
+    "Index",
+    "Number Prefix *",
+    "Tooltip - 0 orders",
+    "Min Date",
+    "Max Date",
+    "Colour",
+    "True",
+    "False"
+  ],
+  "worksheets": [
+    {
+      "name": "Null-safe Average",
+      "mark": "Square",
+      "columns": [
+        "WEEKDAY(Order Date)"
+      ],
+      "rows": [
+        "Category",
+        "Sub-Category",
+        "Manufacturer"
+      ],
+      "semantics": [
+        "ZN null handling",
+        "INDEX detail densification",
+        "Average subtotals"
+      ]
+    },
+    {
+      "name": "Apply Button",
+      "semantics": [
+        "Context date-range filter",
+        "Min Date and Max Date on Detail",
+        "Apply Colour indicates unapplied changes"
+      ]
+    }
+  ],
+  "actions": [
+    "Set Min Date parameter action",
+    "Set Max Date parameter action",
+    "Deselect Button filter action"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0.0",
+  "status": "passed",
+  "artifacts": {
+    "2026-02-15-ww06-null-safe-averages-replicated-workbook.twb": {
+      "sha256": "762471072d160d48b7dc5aa07687f714c47db895ba560f23ae52b51d93be2ecc",
+      "local_parse": "passed",
+      "local_xsd": "passed_with_known_tableau_compatibility_warning",
+      "tableau_cloud_semantic": {
+        "success": false,
+        "valid": false,
+        "attempts": 3,
+        "last_error": "HTTP 400 from the TWB-only validation endpoint"
+      }
+    },
+    "2026-02-15-ww06-null-safe-averages-replicated-workbook.twbx": {
+      "sha256": "5b091a2f05eeb0b364914466cae248551bf717133430322ab6a1392a2c4def90",
+      "zip_structure": "passed",
+      "bundled_hyper_present": true,
+      "duplicate_archive_entries": false,
+      "cwtwb_open_and_resave": "passed",
+      "acceptance_after_roundtrip": "passed",
+      "previous_tableau_cloud_upload": {
+        "success": true,
+        "workbook_id": "ea73a5a8-b104-4602-a5b4-3589ef4a588d",
+        "views": [
+          "Null-safe Average",
+          "Apply Button",
+          "Null-safe Average Dashboard"
+        ],
+        "twbx_size_kb": 69.9,
+        "initial_failure": "Tableau rejected MONTH(Order Date) as a bounded date filter.",
+        "fix": "cwtwb cd98ce8 generates a continuous exact-date instance for bounded bare date filters."
+      },
+      "tableau_desktop_2026_2": {
+        "opened": true,
+        "target_field_errors": 0,
+        "palette_parse_errors": 0,
+        "query_errors": false,
+        "null_safe_average_rows": 1470,
+        "non_blocking_warning": "The preserved live CSV connection points to the author's old directory; the view query used the packaged Hyper extract."
+      }
+    }
+  },
+  "acceptance": {
+    "command": "python iterations/2026-02-15-ww06-null-safe-averages/verify_replication.py",
+    "result": "passed"
+  },
+  "analyzer": {
+    "result": "passed",
+    "detected": [
+      "Parameter Action",
+      "Square Mark",
+      "Domain Completion",
+      "Hierarchy",
+      "Average Subtotal",
+      "Table Calculation",
+      "Hyper",
+      "Layout Container"
+    ]
+  },
+  "regression": {
+    "command": "PYTHONPATH=src python -m pytest tests -q --basetemp .tmp_test_outputs/ww06-full-b",
+    "passed": 317,
+    "skipped": 25,
+    "warnings": 8
+  },
+  "cloud_openability": "previous_artifact_only",
+  "desktop_openability": "passed"
+}

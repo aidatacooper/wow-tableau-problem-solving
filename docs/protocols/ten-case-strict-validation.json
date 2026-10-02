@@ -1,0 +1,162 @@
+[
+  {
+    "iteration": "2019-07-18-ww29-high-orders",
+    "checked_at": "2026-10-02T11:30:08.283310+00:00",
+    "command": [
+      "python",
+      "iterations/2019-07-18-ww29-high-orders/verify_replication.py"
+    ],
+    "exit_code": 0,
+    "stdout": "PASS: acceptance and round-trip checks\n",
+    "stderr": "",
+    "sdk_version": "0.27.1",
+    "sdk_commit": "2ad7b6ca4f0f3a0b8731e50b4932ac21ffbcdc73",
+    "builder_sha256": "93dd31d4f6722ed99ff0c6c0f6abf894cb2d4a36723a272b1296cf77b78befda",
+    "replica_sha256": "68c7e0d635b16cb22f0044c07781248767ca53911bbf4d3ecb314bb3438a6bd8",
+    "scope": "Final artifact-only verification after successful strict builds; no rebuild, UI pass not inferred."
+  },
+  {
+    "iteration": "2019-07-25-ww30-navigation-kpi",
+    "checked_at": "2026-10-02T11:30:08.619148+00:00",
+    "command": [
+      "python",
+      "iterations/2019-07-25-ww30-navigation-kpi/verify_replication.py"
+    ],
+    "exit_code": 0,
+    "stdout": "PASS: acceptance and round-trip checks\n",
+    "stderr": "",
+    "sdk_version": "0.27.1",
+    "sdk_commit": "2ad7b6ca4f0f3a0b8731e50b4932ac21ffbcdc73",
+    "builder_sha256": "927dda1f35fd3b1ab90f6ff335d316ea075738c5ce53be034c2068d773973d83",
+    "replica_sha256": "3840c879b7bd419e7b9b152e8e496e8903f9cd7fe46a77347cbcbace1b32fdee",
+    "scope": "Final artifact-only verification after successful strict builds; no rebuild, UI pass not inferred."
+  },
+  {
+    "iteration": "2019-08-04-ww31-hub-spoke-map",
+    "checked_at": "2026-10-02T11:30:08.940315+00:00",
+    "command": [
+      "python",
+      "iterations/2019-08-04-ww31-hub-spoke-map/verify_replication.py"
+    ],
+    "exit_code": 0,
+    "stdout": "PASS: acceptance and round-trip checks\n",
+    "stderr": "",
+    "sdk_version": "0.27.1",
+    "sdk_commit": "2ad7b6ca4f0f3a0b8731e50b4932ac21ffbcdc73",
+    "builder_sha256": "22355f0bf2c38a1a5866a1befdf47348948c45bac92c4b486a9b7886c61dd77d",
+    "replica_sha256": "8b06b772a959c7bdd38ac117c2374647c02b19365373dcefd61ef8f6f3f12f28",
+    "scope": "Final artifact-only verification after successful strict builds; no rebuild, UI pass not inferred."
+  },
+  {
+    "iteration": "2019-08-09-ww32-step-area-chart",
+    "checked_at": "2026-10-02T11:30:09.248119+00:00",
+    "command": [
+      "python",
+      "iterations/2019-08-09-ww32-step-area-chart/verify_replication.py"
+    ],
+    "exit_code": 0,
+    "stdout": "PASS: WW32 from-scratch lineage, structure, locked Hyper, analyzer, and round-trip\n",
+    "stderr": "",
+    "sdk_version": "0.27.1",
+    "sdk_commit": "2ad7b6ca4f0f3a0b8731e50b4932ac21ffbcdc73",
+    "builder_sha256": "9a0d9efd3c62174326665a2819bf511a7c71a1638b6a2dbb554c965617aa5a51",
+    "replica_sha256": "4b86394131beb9d98c5920d74f6d22edac2c055a21440cb179bf2ded9865cd20",
+    "scope": "Final artifact-only verification after successful strict builds; no rebuild, UI pass not inferred."
+  },
+  {
+    "iteration": "2019-08-14-ww33-table-formatting",
+    "checked_at": "2026-10-02T11:30:09.343079+00:00",
+    "command": [
+      "python",
+      "iterations/2019-08-14-ww33-table-formatting/verify_replication.py"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"gate\": \"local_structure\",\n  \"passed\": true,\n  \"checks\": {\n    \"sdk_from_scratch\": true,\n    \"independent_extract\": true,\n    \"worksheet_contract\": true,\n    \"parameter_defaults\": true,\n    \"highlight_formula\": true,\n    \"conditional_table_labels\": true,\n    \"selected_region_ratio\": true,\n    \"dual_axis_outlined_comparison\": true,\n    \"highlight_palette\": true,\n    \"shared_filters\": true\n  },\n  \"visual_review\": \"separate Cloud evidence\",\n  \"interaction_review\": \"not asserted by XML checks\"\n}\n",
+    "stderr": "",
+    "sdk_version": "0.27.1",
+    "sdk_commit": "2ad7b6ca4f0f3a0b8731e50b4932ac21ffbcdc73",
+    "builder_sha256": "a952a82f13e5ee3afcc74d9ade4a49c80a778aafe4d73c407acf0b39a434ba83",
+    "replica_sha256": "fd25ecd4a965d85bb3b1b150714d6785cf8f778a2cde9772038bb6b8def55c7f",
+    "scope": "Final artifact-only verification after successful strict builds; no rebuild, UI pass not inferred."
+  },
+  {
+    "iteration": "2019-09-02-ww34-top-n-single-worksheet",
+    "checked_at": "2026-10-02T11:30:09.621780+00:00",
+    "command": [
+      "python",
+      "iterations/2019-09-02-ww34-top-n-single-worksheet/verify_replication.py"
+    ],
+    "exit_code": 0,
+    "stdout": "[PASS] source_independence\n[PASS] build_provenance\n[PASS] structure\n[PASS] semantic\n[PASS] visual\n[PASS] cloud_openability\n\nstatus = semantically_replicated  (from_scratch=True)\n",
+    "stderr": "",
+    "sdk_version": "0.27.1",
+    "sdk_commit": "2ad7b6ca4f0f3a0b8731e50b4932ac21ffbcdc73",
+    "builder_sha256": "3b9beecaf1125b687dfc090312d4a7dca93de9a043502ad85ca497a7f3c03ebe",
+    "replica_sha256": "08e176cc0b2aaa178a7d1a480f722a839506a3d70fed4284b0b747f7b5f8ff9a",
+    "scope": "Final artifact-only verification after successful strict builds; no rebuild, UI pass not inferred."
+  },
+  {
+    "iteration": "2019-09-09-ww36-custom-axis-tracker",
+    "checked_at": "2026-10-02T11:30:09.707133+00:00",
+    "command": [
+      "python",
+      "iterations/2019-09-09-ww36-custom-axis-tracker/verify_replication.py"
+    ],
+    "exit_code": 0,
+    "stdout": "PASS: WW36 hover set action and tracking reference lines\n",
+    "stderr": "",
+    "sdk_version": "0.27.1",
+    "sdk_commit": "2ad7b6ca4f0f3a0b8731e50b4932ac21ffbcdc73",
+    "builder_sha256": "32695518cef870d76d59ece1aecca9380647be028f7866a457e26bbcc18ccab3",
+    "replica_sha256": "e80b66a2d77a66c4599d98de7ebe712b22ae0e489ac8adf848bcc59f1c0b3621",
+    "scope": "Final artifact-only verification after successful strict builds; no rebuild, UI pass not inferred."
+  },
+  {
+    "iteration": "2026-02-02-ww04-dynamic-moving-average",
+    "checked_at": "2026-10-02T11:30:09.987233+00:00",
+    "command": [
+      "python",
+      "iterations/2026-02-02-ww04-dynamic-moving-average/verify_replication.py"
+    ],
+    "exit_code": 0,
+    "stdout": "PASS: acceptance and round-trip checks\n",
+    "stderr": "",
+    "sdk_version": "0.27.1",
+    "sdk_commit": "2ad7b6ca4f0f3a0b8731e50b4932ac21ffbcdc73",
+    "builder_sha256": "d9471fad66cb4e80f48d763a45b769e135a82c88fbc1f0fe678b358190b505fb",
+    "replica_sha256": "13ad3741d54941b500b390cbdc9cca86358096bc26881951321c6f9f6912d0e2",
+    "scope": "Final artifact-only verification after successful strict builds; no rebuild, UI pass not inferred."
+  },
+  {
+    "iteration": "2026-02-09-ww05-kpi-period-comparison",
+    "checked_at": "2026-10-02T11:30:10.264190+00:00",
+    "command": [
+      "python",
+      "iterations/2026-02-09-ww05-kpi-period-comparison/verify_replication.py"
+    ],
+    "exit_code": 0,
+    "stdout": "PASS: acceptance and round-trip checks\n",
+    "stderr": "",
+    "sdk_version": "0.27.1",
+    "sdk_commit": "2ad7b6ca4f0f3a0b8731e50b4932ac21ffbcdc73",
+    "builder_sha256": "e03ace2e1d5569dc5ffce20934da83a7ccac112b33245ee41b9cbbdb301aebdc",
+    "replica_sha256": "f32990f53762b9c2083fabfacc87b0117c4f1d6e48cce65d8caed58ecd98f36c",
+    "scope": "Final artifact-only verification after successful strict builds; no rebuild, UI pass not inferred."
+  },
+  {
+    "iteration": "2026-02-15-ww06-null-safe-averages",
+    "checked_at": "2026-10-02T11:30:10.546029+00:00",
+    "command": [
+      "python",
+      "iterations/2026-02-15-ww06-null-safe-averages/verify_replication.py"
+    ],
+    "exit_code": 0,
+    "stdout": "PASS: from-scratch, locked Hyper, null-safe count, Sunday matrix, average subtotal, three action definitions and round-trip; Apply click requires separate browser evidence\n",
+    "stderr": "",
+    "sdk_version": "0.27.1",
+    "sdk_commit": "2ad7b6ca4f0f3a0b8731e50b4932ac21ffbcdc73",
+    "builder_sha256": "52a6616efb5b07aa5c354e3d9c4629850da80f8bd2cf6da0fb3d67214f0a3887",
+    "replica_sha256": "61efd92f4e521da125e305cdd6692bf74571da7e487226c8aafdfc5f08b38643",
+    "scope": "Final artifact-only verification after successful strict builds; no rebuild, UI pass not inferred."
+  }
+]

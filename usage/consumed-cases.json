@@ -47,8 +47,8 @@
       "iteration": "2019-07-18-ww29-high-orders",
       "status": "consumed",
       "replication_status": "replicated",
-      "verification_status": "historical",
-      "cwtwb_version": "0.24.0",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
       "reason": "Derived from case metadata; consumed means claimed, not verified completed."
     },
     {
@@ -61,9 +61,9 @@
       ],
       "iteration": "2019-07-25-ww30-navigation-kpi",
       "status": "consumed",
-      "replication_status": "replicated",
-      "verification_status": "historical",
-      "cwtwb_version": "0.24.0",
+      "replication_status": "partial",
+      "verification_status": "pending",
+      "cwtwb_version": "0.27.1",
       "reason": "Derived from case metadata; consumed means claimed, not verified completed."
     },
     {
@@ -76,9 +76,9 @@
       ],
       "iteration": "2019-08-04-ww31-hub-spoke-map",
       "status": "consumed",
-      "replication_status": "replicated",
-      "verification_status": "historical",
-      "cwtwb_version": "0.24.0",
+      "replication_status": "partial",
+      "verification_status": "pending",
+      "cwtwb_version": "0.27.1",
       "reason": "Derived from case metadata; consumed means claimed, not verified completed."
     },
     {
@@ -92,8 +92,8 @@
       "iteration": "2019-08-09-ww32-step-area-chart",
       "status": "consumed",
       "replication_status": "replicated",
-      "verification_status": "historical",
-      "cwtwb_version": "0.24.0",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
       "reason": "Derived from case metadata; consumed means claimed, not verified completed."
     },
     {
@@ -106,9 +106,9 @@
       ],
       "iteration": "2019-08-14-ww33-table-formatting",
       "status": "consumed",
-      "replication_status": "partial",
-      "verification_status": "pending",
-      "cwtwb_version": "0.24.0",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
       "reason": "Derived from case metadata; consumed means claimed, not verified completed."
     },
     {
@@ -121,9 +121,9 @@
       ],
       "iteration": "2019-09-02-ww34-top-n-single-worksheet",
       "status": "consumed",
-      "replication_status": "replicated",
-      "verification_status": "historical",
-      "cwtwb_version": "0.25.0",
+      "replication_status": "partial",
+      "verification_status": "pending",
+      "cwtwb_version": "0.27.1",
       "reason": "Derived from case metadata; consumed means claimed, not verified completed."
     },
     {
@@ -155,7 +155,7 @@
       "status": "consumed",
       "replication_status": "partial",
       "verification_status": "pending",
-      "cwtwb_version": "0.26.0",
+      "cwtwb_version": "0.27.1",
       "reason": "Derived from case metadata; consumed means claimed, not verified completed."
     },
     {
@@ -313,8 +313,8 @@
       "iteration": "2026-02-02-ww04-dynamic-moving-average",
       "status": "consumed",
       "replication_status": "replicated",
-      "verification_status": "historical",
-      "cwtwb_version": "0.24.0",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
       "reason": "Derived from case metadata; consumed means claimed, not verified completed."
     },
     {
@@ -328,8 +328,8 @@
       "iteration": "2026-02-09-ww05-kpi-period-comparison",
       "status": "consumed",
       "replication_status": "replicated",
-      "verification_status": "historical",
-      "cwtwb_version": "0.24.0",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
       "reason": "Derived from case metadata; consumed means claimed, not verified completed."
     },
     {
@@ -342,9 +342,9 @@
       ],
       "iteration": "2026-02-15-ww06-null-safe-averages",
       "status": "consumed",
-      "replication_status": "replicated",
-      "verification_status": "historical",
-      "cwtwb_version": "0.24.0",
+      "replication_status": "partial",
+      "verification_status": "pending",
+      "cwtwb_version": "0.27.1",
       "reason": "Derived from case metadata; consumed means claimed, not verified completed."
     }
   ]

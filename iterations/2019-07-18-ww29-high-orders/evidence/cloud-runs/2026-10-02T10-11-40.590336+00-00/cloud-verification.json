@@ -1,0 +1,77 @@
+{
+  "case_id": "wow-2019-ww29-high-orders",
+  "iteration_id": "2019-07-18-ww29-high-orders",
+  "captured_at": "2026-10-02T10:11:40.590336+00:00",
+  "source_hashes": {
+    "author": "59a4094561f9eda656a49f3cc144fa9bf9c142625160f6a4fedb9f87a10e3b67",
+    "replica": "57796ce917914502150ef941adb8aaa00fab14edbb0c7e623590ec33c947b714"
+  },
+  "request_settings": {
+    "case_id": "wow-2019-ww29-high-orders",
+    "iteration_id": "2019-07-18-ww29-high-orders",
+    "author_workbook_path": "/srv/hermes-workspaces/wow-reference/wow-2019-ww29-high-orders/2019_07_17_WW29_HighOrders.twbx",
+    "replica_workbook_path": "/srv/hermes-workspaces/wow-case-standardization/iterations/2019-07-18-ww29-high-orders/outputs/replicated-workbook.twbx",
+    "author_view_name": "2019_07_17_WW29_High_Orders",
+    "replica_view_name": "WW29 Higher Orders",
+    "_request_file": "/srv/hermes-workspaces/wow-cloud-queue/wow-2019-ww29-high-orders.json"
+  },
+  "workbooks": {
+    "author": {
+      "id": "d95b5e83-78b8-4a53-9f73-ea029d3ddaa3",
+      "name": "cwtwb-review-wow-2019-ww29-high-orders-author",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2922834"
+    },
+    "replica": {
+      "id": "c280b374-ee4d-447e-9de8-285dd3d0f9a3",
+      "name": "cwtwb-review-wow-2019-ww29-high-orders-replica",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2922835"
+    }
+  },
+  "export_resolution": "high",
+  "maxage_minutes": 1,
+  "status": "rendered_needs_visual_and_interaction_review",
+  "states": [
+    {
+      "name": "default",
+      "filters": {},
+      "parameters": {},
+      "views": {
+        "author": {
+          "id": "8afe7120-426b-467b-a5ae-c6e78a6dcfe8",
+          "name": "2019_07_17_WW29_High_Orders",
+          "path": "cloud-author.png",
+          "size": [
+            1800,
+            1200
+          ],
+          "sha256": "00b1cc710a52c86ba76ad0d45f8034fde6ee8968c575172216647b8ecb6cc500"
+        },
+        "replica": {
+          "id": "3cb353fc-d043-4471-aa6b-99b193a254e5",
+          "name": "WW29 Higher Orders",
+          "path": "cloud-replica.png",
+          "size": [
+            1800,
+            1200
+          ],
+          "sha256": "9da94826d879e8d148f6249f51ff602d2df0afcba1e6416602ebdaaea85aaaf3"
+        }
+      },
+      "comparison": {
+        "same_dimensions": true,
+        "author_size": [
+          1800,
+          1200
+        ],
+        "replica_size": [
+          1800,
+          1200
+        ],
+        "mean_absolute_channel_difference_0_to_255": 23.262979320987654,
+        "pixel_identical": false
+      }
+    }
+  ],
+  "visual_status": "not_evaluated",
+  "interaction_status": "not_evaluated"
+}

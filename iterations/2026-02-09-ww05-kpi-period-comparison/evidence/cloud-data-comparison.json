@@ -1,0 +1,79 @@
+{
+  "verified_at": "2026-10-02T11:13:24.773638+00:00",
+  "case": "2026-02-09-ww05-kpi-period-comparison",
+  "normalization": "Parse both date formats to ISO date; remove comma separators and percent/currency symbols for Decimal arithmetic; map explicit semantic column aliases; merge identical measure marks only.",
+  "states": [
+    {
+      "state": "default",
+      "author_csv_sha256": "ed671b18c2d9bb90dabb54fc96631f43fed9e96a172ad34e280cdb1cf20c8632",
+      "replica_csv_sha256": "a466ddf7394fe4b2d32fdc807466831fb9fd0aa68e628f5ba8c68f9ed657af4d",
+      "author_rows": 1,
+      "replica_rows": 1,
+      "author_unique_keys": 1,
+      "replica_unique_keys": 1,
+      "author_duplicate_marks_merged": 0,
+      "replica_duplicate_marks_merged": 0,
+      "compared_fields": [
+        "PR - Today",
+        "PR Difference",
+        "PR Direction Up",
+        "PR Direction Down"
+      ],
+      "common_keys": 1,
+      "missing_replica_keys": [],
+      "extra_replica_keys": [],
+      "maximum_absolute_difference_on_common_keys": {
+        "PR - Today": "0",
+        "PR Difference": "0"
+      },
+      "numeric_tolerances": {
+        "PR - Today": "0",
+        "PR Difference": "0"
+      },
+      "cell_differences": 0,
+      "differences": [],
+      "passed": true,
+      "scope": "Dashboard CSV is KPI sheet only, not trend lines. Percentages compared at displayed 0.1 percentage-point precision; no claim of equality of unrounded source ratios. Author pToday field is absent in replica CSV and not compared."
+    },
+    {
+      "state": "different-today",
+      "author_csv_sha256": "c55029c336e9531589cb954d4c6ca8b92ca043be7bd5d3cbc7c60dd3a9f5e184",
+      "replica_csv_sha256": "e6168336c36bfe3c5c30c01f2cbb83533eb23c5072899d9caca20c451ff70aa8",
+      "author_rows": 1,
+      "replica_rows": 1,
+      "author_unique_keys": 1,
+      "replica_unique_keys": 1,
+      "author_duplicate_marks_merged": 0,
+      "replica_duplicate_marks_merged": 0,
+      "compared_fields": [
+        "PR - Today",
+        "PR Difference",
+        "PR Direction Up",
+        "PR Direction Down"
+      ],
+      "common_keys": 1,
+      "missing_replica_keys": [],
+      "extra_replica_keys": [],
+      "maximum_absolute_difference_on_common_keys": {
+        "PR - Today": "0",
+        "PR Difference": "0"
+      },
+      "numeric_tolerances": {
+        "PR - Today": "0",
+        "PR Difference": "0"
+      },
+      "cell_differences": 0,
+      "differences": [],
+      "passed": true,
+      "scope": "Dashboard CSV is KPI sheet only, not trend lines. Percentages compared at displayed 0.1 percentage-point precision; no claim of equality of unrounded source ratios. Author pToday field is absent in replica CSV and not compared."
+    }
+  ],
+  "cloud_snapshot_metadata_at_verification": {
+    "captured_at": "2026-10-02T11:12:47.805356+00:00",
+    "source_hashes": {
+      "author": "1dc941957b67ea968dcecf271977c73c58066fd052ff5129e13fbe73bf20a429",
+      "replica": "a0183f9f9b62e7f3170f7267965b37a2e5a34ed17b7b18e42d83a65cf2511d87"
+    }
+  },
+  "passed": true
+}

@@ -1,30 +1,32 @@
 """Build the complete 2019 WW29 higher-orders replication with cwtwb."""
 
 from pathlib import Path
-import sys
-
+from cwtwb import TWBEditor
 
 ITERATION_DIR = Path(__file__).resolve().parent
-PROJECT_ROOT = ITERATION_DIR.parents[4]
-sys.path.insert(0, str(PROJECT_ROOT / "src"))
-
-from cwtwb.twb_editor import TWBEditor  # noqa: E402
-
-
-SOURCE_TWBX = (
-    ITERATION_DIR.parents[1]
-    / "dashboards"
-    / "2019_07_17_WW29_HighOrders"
-    / "2019_07_17_WW29_HighOrders.twbx"
-)
+HYPER = ITERATION_DIR / "inputs" / "Orders (Sample - Superstore).hyper"
 OUTPUT_DIR = ITERATION_DIR / "outputs"
 
 
 def build(output_path: Path) -> Path:
-    # Preserve the challenge's original datasource, calculations, connection,
-    # and bundled Hyper extract. Rebuild all worksheets and dashboards.
-    editor = TWBEditor(SOURCE_TWBX)
-    editor.clear_worksheets()
+    editor = TWBEditor("")
+    editor.set_hyper_connection(str(HYPER))
+    # Formulas transcribed during analysis; no author workbook at build time.
+    calculations = [
+        ("Count Orders per Segment", "{FIXED [Segment]: COUNTD([Order ID])}"),
+        ("Count Days Per Segment", "{FIXED [Segment]: COUNTD([Order Date])}"),
+        ("Count Orders per Segment per Month", "{FIXED [Segment], MONTH([Order Date]): COUNTD([Order ID])}"),
+        ("Count Days Per Segment Per Month", "{FIXED [Segment], MONTH([Order Date]): COUNTD([Order Date])}"),
+        ("Overall Avg Orders Per Day Per Segment", "SUM([Count Orders per Segment]) / SUM([Count Days Per Segment])"),
+        ("Avg Orders Per Day Per Segment Per Month", "SUM([Count Orders per Segment per Month]) / SUM([Count Days Per Segment Per Month])"),
+        ("Difference", "[Avg Orders Per Day Per Segment Per Month] - [Overall Avg Orders Per Day Per Segment]"),
+        ("% Difference", "[Difference] / [Overall Avg Orders Per Day Per Segment]"),
+    ]
+    for name, formula in calculations:
+        editor.add_calculated_field(name, formula, default_format="*+0%;-0%" if name == "% Difference" else "n#,##0.00;-#,##0.00")
+    editor.add_calculated_field("COLOUR:Difference", "IF [Difference]>=0 THEN 'green' ELSE 'blue' END", datatype="string", role="measure")
+
+    editor.add_calculated_field("Gantt Size", "-[Difference]")
 
     worksheet = "Higher Orders by Month"
     editor.add_worksheet(worksheet)
@@ -34,7 +36,7 @@ def build(output_path: Path) -> Path:
         columns=["MONTH(Order Date)"],
         rows=["Segment", "AGG(Avg Orders Per Day Per Segment Per Month)"],
         color="AGG(COLOUR:Difference)",
-        size="AGG(Difference)",
+        size="AGG(Gantt Size)",
         label="AGG(% Difference)",
         detail="AGG(Overall Avg Orders Per Day Per Segment)",
         tooltip=[
@@ -42,7 +44,7 @@ def build(output_path: Path) -> Path:
             "AGG(Overall Avg Orders Per Day Per Segment)",
             "AGG(Difference)",
         ],
-        color_map={"green": "#4E9F3D", "blue": "#2D7DD2"},
+        color_map={"green": "#d9ba13", "blue": "#1ba3c6"},
     )
     editor.add_reference_line(
         worksheet,
@@ -63,6 +65,12 @@ def build(output_path: Path) -> Path:
         hide_zeroline=True,
         hide_borders=True,
         hide_table_dividers=True,
+        pane_cell_style={"vertical-align": "center"},
+        pane_datalabel_style={"color-mode": "auto"},
+        hide_col_field_labels=True,
+        hide_row_field_labels=True,
+        label_formats=[{"field": "MONTH(Order Date)", "text-format": "iLLL"}, {"field": "AGG(Avg Orders Per Day Per Segment Per Month)", "text-format": "n0.0"}],
+        axis_style={"encodings": [{"field": "AGG(Avg Orders Per Day Per Segment Per Month)", "scope": "rows", "class": "0", "range_type": "independent", "domain_expand": False}], "per_field": [{"field": "AGG(Avg Orders Per Day Per Segment Per Month)", "attr": "title", "scope": "rows", "class": "0", "value": ""}]},
     )
 
     layout = {
@@ -71,29 +79,30 @@ def build(output_path: Path) -> Path:
         "children": [
             {
                 "type": "text",
-                "text": "Which months have the higher number of orders?",
-                "font_size": "20",
+                "runs": [{"text": "WEEK 29: ", "bold": True, "font_size": "14", "font_color": "#1ba3c6", "font_alignment": "1"}, {"text": "Which months do we see a higher number of orders?", "font_size": "14", "font_color": "#1ba3c6", "font_alignment": "1"}],
+                "font_size": "14",
+                "font_color": "#1ba3c6",
                 "bold": True,
-                "fixed_size": 70,
+                "fixed_size": 48,
             },
             {
                 "type": "worksheet",
                 "name": worksheet,
+                "show_title": False,
                 "fit": "entire",
                 "weight": 1,
             },
-            {
-                "type": "text",
-                "text": "#WorkoutWednesday | 2019 | Week 29",
-                "font_size": "9",
-                "fixed_size": 40,
-            },
+            {"type": "container", "direction": "horizontal", "fixed_size": 40, "children": [
+                {"type": "text", "runs": [{"text": "DESIGNED BY: @LukeStanke", "font_size": "8", "font_color": "#1ba3c6", "font_alignment": "0"}], "weight": 1},
+                {"type": "text", "runs": [{"text": "#WORKOUTWEDNESDAY | 2019 | WEEK 29\n", "font_size": "8", "font_color": "#1ba3c6", "font_alignment": "1"}, {"text": "http://www.workout-wednesday.com/2019-w29/", "font_size": "8", "font_alignment": "1", "hyperlink": "http://www.workout-wednesday.com/2019-w29/"}], "weight": 2},
+                {"type": "text", "runs": [{"text": "RECREATED BY: @donnacoles30", "font_size": "8", "font_color": "#1ba3c6", "font_alignment": "2"}], "weight": 1},
+            ]},
         ],
     }
     editor.add_dashboard(
         "WW29 Higher Orders",
-        width=1100,
-        height=720,
+        width=900,
+        height=600,
         layout=layout,
         worksheet_names=[worksheet],
     )

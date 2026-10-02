@@ -1,0 +1,452 @@
+{
+  "schema_version": "1.0.0",
+  "iteration_id": "2019-09-02-ww34-top-n-single-worksheet",
+  "datasources": [
+    {
+      "name": "Parameters",
+      "caption": null,
+      "connection": null,
+      "columns": [
+        {
+          "name": "[Parameter 1]",
+          "caption": "Top n Manufacturers",
+          "datatype": "integer",
+          "formula": "15",
+          "class": "tableau"
+        },
+        {
+          "name": "[Parameter 2]",
+          "caption": "Include Other",
+          "datatype": "boolean",
+          "formula": "false",
+          "class": "tableau"
+        }
+      ]
+    },
+    {
+      "name": "federated.1lpjjco1itbvff14gh7i8150jnla",
+      "caption": "Orders (Sample - Superstore)",
+      "connection": null,
+      "table": "[Orders$]",
+      "columns": [
+        {
+          "name": "[Calculation_352125225145667584]",
+          "caption": "Manufacturer",
+          "datatype": "string",
+          "formula": "MID([Product Name],1, FINDNTH([Product Name],' ',1)-1)",
+          "class": "tableau"
+        },
+        {
+          "name": "[Calculation_352125225147125761]",
+          "caption": "Central - Qty",
+          "datatype": "integer",
+          "formula": "IF [Region] = 'Central' THEN [Quantity] END",
+          "class": "tableau"
+        },
+        {
+          "name": "[Calculation_352125225149644802]",
+          "caption": "Manfacturer Category",
+          "datatype": "string",
+          "formula": "//IF [Top n] THEN [Manufacturer] ELSE 'Other' END\r\nIF [Region] = 'Central' AND [Top Central] THEN [Calculation_352125225145667584]\r\nELSEIF [Region] = 'East' AND [Top Central (copy)] THEN [Calculation_352125225145667584]\r\nELSEIF [Region] = 'South' AND [Top Central (copy 2)] THEN [Calculation_352125225145667584]\r\nELSEIF  [Region] = 'West' AND [Top East (copy)] THEN [Calculation_352125225145667584]\r\nELSE 'Other'\r\nEND",
+          "class": "tableau"
+        },
+        {
+          "name": "[Calculation_352125225150660611]",
+          "caption": "Index",
+          "datatype": "integer",
+          "formula": "INDEX()",
+          "class": "tableau",
+          "table_calc": "Rows"
+        },
+        {
+          "name": "[Calculation_352125225153699846]",
+          "caption": "FILTER Index",
+          "datatype": "boolean",
+          "formula": "[Calculation_352125225150660611] <= [Parameters].[Parameter 1]",
+          "class": "tableau",
+          "table_calc": "Rows"
+        },
+        {
+          "name": "[Calculation_352125225153916935]",
+          "caption": "FILTER - Other",
+          "datatype": "boolean",
+          "formula": "NOT([Parameters].[Parameter 2]) AND [Calculation_352125225149644802] = 'Other'",
+          "class": "tableau"
+        },
+        {
+          "name": "[Calculation_352125225163190306]",
+          "caption": "Index Rank",
+          "datatype": "string",
+          "formula": "'(#' + STR([Calculation_352125225150660611]) + ')'",
+          "class": "tableau",
+          "table_calc": "Rows"
+        },
+        {
+          "name": "[Calculation_352125225163567139]",
+          "caption": "LABEL:Manufacturer",
+          "datatype": "string",
+          "formula": "IF ATTR([Highlighted Manufacturer]) THEN ([Calculation_352125225176858666]) ELSE ATTR([Calculation_352125225149644802]) END",
+          "class": "tableau",
+          "table_calc": "Rows"
+        },
+        {
+          "name": "[Calculation_352125225169227812]",
+          "caption": "FILTER Top n",
+          "datatype": "boolean",
+          "formula": "[Top Central] OR [Top East (copy)] OR [Top Central (copy)] OR [Top Central (copy 2)]",
+          "class": "tableau"
+        },
+        {
+          "name": "[Calculation_352125225176858666]",
+          "caption": "Manufacturer + Rank",
+          "datatype": "string",
+          "formula": "ATTR([Calculation_352125225149644802]) + ' ' + [Calculation_352125225163190306]",
+          "class": "tableau",
+          "table_calc": "Rows"
+        },
+        {
+          "name": "[City]",
+          "caption": null,
+          "datatype": "string"
+        },
+        {
+          "name": "[Country]",
+          "caption": null,
+          "datatype": "string"
+        },
+        {
+          "name": "[East (copy)]",
+          "caption": "West - Qty",
+          "datatype": "integer",
+          "formula": "IF [Region] = 'West' THEN [Quantity] END",
+          "class": "tableau"
+        },
+        {
+          "name": "[Number of Records]",
+          "caption": null,
+          "datatype": "integer",
+          "formula": "1",
+          "class": "tableau"
+        },
+        {
+          "name": "[Postal Code]",
+          "caption": null,
+          "datatype": "integer"
+        },
+        {
+          "name": "[Qty - Central (copy)]",
+          "caption": "East - Qty",
+          "datatype": "integer",
+          "formula": "IF [Region] = 'East' THEN [Quantity] END",
+          "class": "tableau"
+        },
+        {
+          "name": "[Quantity]",
+          "caption": null,
+          "datatype": "integer"
+        },
+        {
+          "name": "[Region]",
+          "caption": null,
+          "datatype": "string"
+        },
+        {
+          "name": "[Row ID]",
+          "caption": null,
+          "datatype": "integer"
+        },
+        {
+          "name": "[State]",
+          "caption": null,
+          "datatype": "string"
+        },
+        {
+          "name": "[West (copy)]",
+          "caption": "South - Qty",
+          "datatype": "integer",
+          "formula": "IF [Region] = 'South' THEN [Quantity] END",
+          "class": "tableau"
+        }
+      ]
+    }
+  ],
+  "parameters": [
+    {
+      "name": "[Parameter 1]",
+      "caption": "Top n Manufacturers",
+      "datatype": "integer",
+      "value": "15",
+      "param-domain-type": "any"
+    },
+    {
+      "name": "[Parameter 2]",
+      "caption": "Include Other",
+      "datatype": "boolean",
+      "value": "false",
+      "param-domain-type": "list"
+    }
+  ],
+  "worksheets": [
+    {
+      "name": "Data",
+      "rows": "([federated.1lpjjco1itbvff14gh7i8150jnla].[none:Region:nk] / ([federated.1lpjjco1itbvff14gh7i8150jnla].[usr:Calculation_352125225150660611:ok:3] / ([federated.1lpjjco1itbvff14gh7i8150jnla].[none:Calculation_352125225149644802:nk] / ([federated.1lpjjco1itbvff14gh7i8150jnla].[usr:Calculation_352125225176858666:nk:10] / [federated.1lpjjco1itbvff14gh7i8150jnla].[usr:Calculation_352125225163567139:nk:11]))))",
+      "cols": "",
+      "panes": [
+        {
+          "mark": "Automatic",
+          "x_axis": null,
+          "encodings": {
+            "text": "[federated.1lpjjco1itbvff14gh7i8150jnla].[sum:Quantity:qk]"
+          }
+        }
+      ],
+      "filters": [
+        {
+          "column": "[federated.1lpjjco1itbvff14gh7i8150jnla].[none:Calculation_352125225153916935:nk]",
+          "class": "categorical",
+          "members": [
+            "false"
+          ]
+        },
+        {
+          "column": "[federated.1lpjjco1itbvff14gh7i8150jnla].[usr:Calculation_352125225153699846:nk:12]",
+          "class": "categorical",
+          "members": [
+            "true"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Viz",
+      "rows": "[federated.1lpjjco1itbvff14gh7i8150jnla].[usr:Calculation_352125225150660611:ok:3]",
+      "cols": "([federated.1lpjjco1itbvff14gh7i8150jnla].[none:Region:nk] * ([federated.1lpjjco1itbvff14gh7i8150jnla].[usr:Calculation_352125225178435629:qk] + [federated.1lpjjco1itbvff14gh7i8150jnla].[sum:Quantity:qk]))",
+      "panes": [
+        {
+          "mark": "Automatic",
+          "x_axis": null,
+          "encodings": {
+            "lod": "[federated.1lpjjco1itbvff14gh7i8150jnla].[none:Calculation_352125225149644802:nk]",
+            "color": "[federated.1lpjjco1itbvff14gh7i8150jnla].[none:Region:nk]"
+          }
+        },
+        {
+          "mark": "Bar",
+          "x_axis": "[federated.1lpjjco1itbvff14gh7i8150jnla].[sum:Quantity:qk]",
+          "encodings": {
+            "lod": "[federated.1lpjjco1itbvff14gh7i8150jnla].[none:Calculation_352125225149644802:nk]",
+            "color": "[federated.1lpjjco1itbvff14gh7i8150jnla].[none:Region:nk]"
+          }
+        },
+        {
+          "mark": "GanttBar",
+          "x_axis": "[federated.1lpjjco1itbvff14gh7i8150jnla].[usr:Calculation_352125225178435629:qk]",
+          "encodings": {
+            "lod": "[federated.1lpjjco1itbvff14gh7i8150jnla].[none:Calculation_352125225149644802:nk]",
+            "color": "[federated.1lpjjco1itbvff14gh7i8150jnla].[none:Region:nk]",
+            "text": "[federated.1lpjjco1itbvff14gh7i8150jnla].[usr:Calculation_352125225163567139:nk:11]"
+          }
+        }
+      ],
+      "filters": [
+        {
+          "column": "[federated.1lpjjco1itbvff14gh7i8150jnla].[none:Calculation_352125225153916935:nk]",
+          "class": "categorical",
+          "members": [
+            "false"
+          ]
+        },
+        {
+          "column": "[federated.1lpjjco1itbvff14gh7i8150jnla].[usr:Calculation_352125225153699846:nk:12]",
+          "class": "categorical",
+          "members": [
+            "true"
+          ]
+        }
+      ]
+    }
+  ],
+  "dashboards": [
+    {
+      "name": "2019_08_21_WW34_TopN_Single_Sheet",
+      "size": {
+        "width": null,
+        "height": null,
+        "minwidth": "1000",
+        "minheight": "800",
+        "maxwidth": "1000",
+        "maxheight": "800",
+        "sizing-mode": "fixed"
+      },
+      "zones": [
+        {
+          "name": null,
+          "type": "layout-basic",
+          "param": null,
+          "mode": null
+        },
+        {
+          "name": null,
+          "type": "layout-flow",
+          "param": "horz",
+          "mode": null
+        },
+        {
+          "name": null,
+          "type": "layout-basic",
+          "param": null,
+          "mode": null
+        },
+        {
+          "name": "Viz",
+          "type": null,
+          "param": null,
+          "mode": null
+        },
+        {
+          "name": null,
+          "type": "layout-flow",
+          "param": "vert",
+          "mode": null
+        },
+        {
+          "name": null,
+          "type": "paramctrl",
+          "param": "[Parameters].[Parameter 2]",
+          "mode": "compact"
+        },
+        {
+          "name": null,
+          "type": "paramctrl",
+          "param": "[Parameters].[Parameter 1]",
+          "mode": "type_in"
+        },
+        {
+          "name": null,
+          "type": "text",
+          "param": null,
+          "mode": null
+        },
+        {
+          "name": null,
+          "type": "text",
+          "param": null,
+          "mode": null
+        },
+        {
+          "name": null,
+          "type": "text",
+          "param": null,
+          "mode": null
+        },
+        {
+          "name": null,
+          "type": "text",
+          "param": null,
+          "mode": null
+        },
+        {
+          "name": null,
+          "type": "text",
+          "param": null,
+          "mode": null
+        },
+        {
+          "name": null,
+          "type": "empty",
+          "param": null,
+          "mode": null
+        },
+        {
+          "name": null,
+          "type": "layout-basic",
+          "param": null,
+          "mode": null
+        },
+        {
+          "name": null,
+          "type": "layout-flow",
+          "param": "vert",
+          "mode": null
+        },
+        {
+          "name": "Viz",
+          "type": null,
+          "param": null,
+          "mode": null
+        },
+        {
+          "name": null,
+          "type": "paramctrl",
+          "param": "[Parameters].[Parameter 2]",
+          "mode": "compact"
+        },
+        {
+          "name": null,
+          "type": "paramctrl",
+          "param": "[Parameters].[Parameter 1]",
+          "mode": "type_in"
+        },
+        {
+          "name": null,
+          "type": "text",
+          "param": null,
+          "mode": null
+        },
+        {
+          "name": null,
+          "type": "text",
+          "param": null,
+          "mode": null
+        },
+        {
+          "name": null,
+          "type": "text",
+          "param": null,
+          "mode": null
+        },
+        {
+          "name": null,
+          "type": "text",
+          "param": null,
+          "mode": null
+        },
+        {
+          "name": null,
+          "type": "text",
+          "param": null,
+          "mode": null
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "[Action1]",
+      "caption": "Highlight Rank",
+      "tag": "edit-group-action",
+      "event": "on-hover",
+      "source_dashboard": "2019_08_21_WW34_TopN_Single_Sheet",
+      "source_worksheet": "Viz",
+      "params": [
+        {
+          "name": "selection-clear-set-option",
+          "value": "exclude-all"
+        },
+        {
+          "name": "target-group",
+          "value": "[federated.1lpjjco1itbvff14gh7i8150jnla].[Highlighted Manufacturer]"
+        }
+      ]
+    }
+  ],
+  "set_definitions": [],
+  "set_references_in_formulas": [
+    "Highlighted Manufacturer",
+    "Top Central",
+    "Top Central (copy 2)",
+    "Top Central (copy)",
+    "Top East (copy)",
+    "Top n"
+  ]
+}

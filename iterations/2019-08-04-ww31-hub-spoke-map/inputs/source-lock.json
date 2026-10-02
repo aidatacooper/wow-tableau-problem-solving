@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.1.0",
+  "case_id": "wow-2019-ww31-hub-spoke-map",
+  "source_workbook_used_by_builder": false,
+  "source_workbook": {
+    "url": "https://public.tableau.com/views/2019_07_31_WW31_WWPD_MusicData/2019_07_31_WW31_MusicData_HubSpoke",
+    "path": "dashboards/2019_07_31_WW31_WWPD_MusicData/2019_07_31_WW31_WWPD_MusicData.twbx",
+    "filename": "2019_07_31_WW31_WWPD_MusicData.twbx",
+    "sha256": "7f363cdc25ac7d0ff03e2bd11a03ebff061e981001528451c50187a63176e876",
+    "workbook_id": "tableau-29b75742e9f36c7d"
+  },
+  "cached_reference": {
+    "path": "/srv/hermes-workspaces/wow-reference/wow-2019-ww31-hub-spoke-map/2019_07_31_WW31_WWPD_MusicData.twbx",
+    "sha256": "09880e3ab841ac35bdc4232f1115061b6ac0828f2b4579bfa1f5248f9e100014",
+    "matches_historical_lock": false
+  },
+  "extracted_data": [
+    {
+      "file": "inputs/2019_07_31_PD25_WWPD_MusicData_Output.hyper",
+      "bytes": 131072,
+      "sha256": "b13102164f3b09ec9aea7eee9f210a49de8efee3f4b173233036031f7720f1ff",
+      "archive_member": "Data/Datasources/2019_07_31_PD25_WWPD_MusicData_Output.hyper",
+      "extracted_from": "outputs/historical-replicated-workbook.twbx",
+      "extracted_from_sha256": "5fe666fc1c4f11071799f9ae34d472495a33a6307e91103b8f9c75720917cf10",
+      "reference_member": "Data/Datasources/2019_07_31_PD25_WWPD_MusicData_Output.hyper"
+    },
+    {
+      "file": "inputs/region-members.csv",
+      "bytes": 8626,
+      "sha256": "01f6f63a9f372aae53e4cd1f9b9c9284cf64ee034b2038b020691dbbd994bfa4",
+      "extracted_from": "/srv/hermes-workspaces/wow-reference/wow-2019-ww31-hub-spoke-map/2019_07_31_WW31_WWPD_MusicData.twbx",
+      "extraction": "Analysis-only categorical group membership; cached reference archive does not match historical TWBX lock."
+    }
+  ],
+  "limitations": [
+    "Historical TWBX lock preserved; exact archived original unavailable. Hyper bytes agree with historical replica and refreshed cached reference. This is not exact-original source certification."
+  ]
+}

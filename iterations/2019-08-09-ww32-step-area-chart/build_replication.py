@@ -6,8 +6,7 @@ import sys
 
 
 ITERATION_DIR = Path(__file__).resolve().parent
-PROJECT_ROOT = ITERATION_DIR.parents[4]
-sys.path.insert(0, str(PROJECT_ROOT / "src"))
+
 
 from cwtwb.twb_editor import TWBEditor  # noqa: E402
 
@@ -352,7 +351,6 @@ def create_editor(
     """Create the complete workbook without reading an author TWB/TWBX."""
     editor = TWBEditor("")
     editor.set_hyper_connection(str(HYPER), table_name="Extract")
-    editor._datasource.set("caption", "Orders (Sample - Superstore)")
     month_position_internal = "[WW32_Month_Position_To_Plot]"
 
     for calculation in CALCULATIONS:
@@ -365,6 +363,8 @@ def create_editor(
         )
         if definition["field_name"] == "Month Position To Plot":
             definition["internal_name"] = month_position_internal
+        if definition["datatype"] == "real":
+            definition["default_format"] = 'c"$"#,##0;("$"#,##0)'
         editor.add_calculated_field(**definition)
 
     editor.add_worksheet("Viz")
@@ -382,9 +382,9 @@ def create_editor(
             "axis": "SUM(Sales In Month)",
             "color": "Category",
             "color_map": {
-                "Furniture": "#a8bdd1",
-                "Office Supplies": "#a8d8d4",
-                "Technology": "#e8bfd3",
+                "Furniture": "#d2deed",
+                "Office Supplies": "#caeeea",
+                "Technology": "#fadbec",
             },
             "selection_relaxation": "selection-relaxation-disallow",
             "mark_style": {
@@ -411,15 +411,24 @@ def create_editor(
     if include_extrema:
         panes[2]["color"] = "Colour:Diff"
         panes[2]["color_map"] = {
-            "blue": "#305d8a",
-            "red": "#da020e",
-            "grey": "#b3b3b3",
+            "blue": "#4e79a7",
+            "red": "#e15759",
+            "grey": "#bab0ac",
         }
         panes[2]["size"] = "Size - Dual Axis"
     if include_labels:
         for pane in panes:
             pane["labels"] = LABELS
             pane["tooltip"] = TOOLTIPS
+            pane["label_runs"] = [
+                {"field": "LABEL:Sales in Month Max", "fontcolor": "#666666", "fontsize": 8},
+                {"field": "LABEL:Sales in Month Min", "fontcolor": "#666666", "fontsize": 8},
+                {"field": "LABEL:First Last if not max or min", "fontcolor": "#666666", "fontsize": 8},
+                {"text": "\u00c6\n"},
+                {"field": "LABEL: Min Diff + Shift", "bold": True, "fontcolor": "#da020e", "fontsize": 8},
+                {"field": "LABEL: Max Diff + Shift", "bold": True, "fontcolor": "#305d8a", "fontsize": 8},
+                {"text": "\u00c6\n"},
+            ]
             pane["mark_style"]["mark-labels-show"] = "true"
             pane["mark_style"]["mark-labels-cull"] = "false"
 
@@ -440,23 +449,35 @@ def create_editor(
     )
     editor.configure_worksheet_style(
         "Viz",
-        hide_gridlines=True,
+        hide_gridlines=False,
         hide_zeroline=True,
         hide_borders=True,
         hide_col_field_labels=True,
         hide_row_field_labels=True,
         hide_table_dividers=True,
+        pane_datalabel_style={"font-size": "8", "color": "#898989"},
+        axis_style={"per_field": [{"attr": "line-visibility", "scope": "cols", "value": "on"}, {"attr": "line-pattern-only", "scope": "cols", "value": "solid"}, {"attr": "stroke-size", "scope": "cols", "value": "2"}, {"attr": "stroke-color", "scope": "cols", "value": "#666666"}, {"field": "DAYTRUNC(Month Position To Plot)", "attr": "title", "scope": "cols", "class": "0", "value": ""}, {"field": "DAYTRUNC(Month Position To Plot)", "attr": "stroke-size", "scope": "cols", "value": "2"}, {"field": "DAYTRUNC(Month Position To Plot)", "attr": "stroke-color", "scope": "cols", "value": "#666666"}], "encodings": [{"field": "DAYTRUNC(Month Position To Plot)", "scope": "cols", "class": "0", "range_type": "fixed", "min": "#2017-12-01 00:00:00#", "max": "#2019-01-15 00:00:00#", "major_origin": "#2018-01-01 00:00:00#", "major_spacing": "11.0", "major_units": "months", "minor_show": False}]},
+        label_formats=[{"field": "DAYTRUNC(Month Position To Plot)", "text-format": "*mmm yy", "font-size": "8"}],
     )
-    editor.set_worksheet_title(
-        "Viz",
-        "WHEN DID 2018 CATEGORY SALES DROP AND RISE THE MOST?",
-    )
+    if include_extrema:
+        editor.set_datasource_color_palette("Colour:Diff", {"blue": "#4e79a7", "red": "#e15759", "grey": "#bab0ac"})
+    editor.set_worksheet_rich_title("Viz", runs=[
+        {"text": "WHEN DID 2018 CATEGORY SALES ", "fontsize": 16, "fontcolor": "#898989"},
+        {"text": "DROP", "fontsize": 16, "fontcolor": "#e15759", "bold": True},
+        {"text": " AND ", "fontsize": 16, "fontcolor": "#898989"},
+        {"text": "RISE", "fontsize": 16, "fontcolor": "#4e79a7", "bold": True},
+        {"text": " THE MOST?", "fontsize": 16, "fontcolor": "#898989"},
+    ])
     editor.add_dashboard(
         DASHBOARD,
-        width=1000,
-        height=800,
+        width=1200,
+        height=600,
         worksheet_names=["Viz"],
-        layout="auto",
+        layout={"type": "container", "direction": "vertical", "children": [
+            {"type": "worksheet", "name": "Viz", "fit": "entire", "weight": 1},
+            {"type": "text", "text": "DESIGNED BY: KLAUS SCHULTE                         #WORKOUTWEDNESDAY | 2019 | WEEK 32                         RECREATED BY: DONNA COLES", "font_size": "8", "font_color": "#4e79a7", "fixed_size": 30},
+            {"type": "text", "text": "http://www.workout-wednesday.com/week-32-can-you-create-step-area-charts/", "font_size": "8", "font_color": "#4e79a7", "fixed_size": 25},
+        ]},
     )
     return editor
 

@@ -1,0 +1,35 @@
+LABEL:Bar,Measure Names,Sub-Category,% Sales All Others,% Sales for Selected Region,MIN(1)
+East vs. All Other Regions,% Sales for Selected Region,Accessories,,25%,
+East vs. All Other Regions,% Sales for Selected Region,Appliances,,29%,
+East vs. All Other Regions,% Sales for Selected Region,Art,,29%,
+East vs. All Other Regions,% Sales for Selected Region,Binders,,19%,
+East vs. All Other Regions,% Sales for Selected Region,Bookcases,,24%,
+East vs. All Other Regions,% Sales for Selected Region,Chairs,,33%,
+East vs. All Other Regions,% Sales for Selected Region,Copiers,,39%,
+East vs. All Other Regions,% Sales for Selected Region,Envelopes,,25%,
+East vs. All Other Regions,% Sales for Selected Region,Fasteners,,22%,
+East vs. All Other Regions,% Sales for Selected Region,Furnishings,,36%,
+East vs. All Other Regions,% Sales for Selected Region,Labels,,20%,
+East vs. All Other Regions,% Sales for Selected Region,Machines,,27%,
+East vs. All Other Regions,% Sales for Selected Region,Paper,,27%,
+East vs. All Other Regions,% Sales for Selected Region,Phones,,34%,
+East vs. All Other Regions,% Sales for Selected Region,Storage,,29%,
+East vs. All Other Regions,% Sales for Selected Region,Supplies,,44%,
+East vs. All Other Regions,% Sales for Selected Region,Tables,,19%,
+East vs. All Other Regions,MIN(1),Accessories,75%,,1
+East vs. All Other Regions,MIN(1),Appliances,71%,,1
+East vs. All Other Regions,MIN(1),Art,71%,,1
+East vs. All Other Regions,MIN(1),Binders,81%,,1
+East vs. All Other Regions,MIN(1),Bookcases,76%,,1
+East vs. All Other Regions,MIN(1),Chairs,67%,,1
+East vs. All Other Regions,MIN(1),Copiers,61%,,1
+East vs. All Other Regions,MIN(1),Envelopes,75%,,1
+East vs. All Other Regions,MIN(1),Fasteners,78%,,1
+East vs. All Other Regions,MIN(1),Furnishings,64%,,1
+East vs. All Other Regions,MIN(1),Labels,80%,,1
+East vs. All Other Regions,MIN(1),Machines,73%,,1
+East vs. All Other Regions,MIN(1),Paper,73%,,1
+East vs. All Other Regions,MIN(1),Phones,66%,,1
+East vs. All Other Regions,MIN(1),Storage,71%,,1
+East vs. All Other Regions,MIN(1),Supplies,56%,,1
+East vs. All Other Regions,MIN(1),Tables,81%,,1

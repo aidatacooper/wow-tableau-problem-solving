@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.1.0",
+  "case_id": "wow-2019-ww32-step-area-chart",
+  "source_workbook_used_by_builder": false,
+  "source_workbook": {
+    "url": "https://public.tableau.com/views/2019_08_07_WW32_Step_Area_Chart/2019_08_07_WW32_Step_Area-Chart",
+    "path": "dashboards/2019_08_07_WW32_Step_Area_Chart/2019_08_07_WW32_Step_Area_Chart.twbx",
+    "filename": "2019_08_07_WW32_Step_Area_Chart.twbx",
+    "sha256": "cc76ada10181a3fe39e6497929828bd15788844559886ef91c4660436faa0e26",
+    "workbook_id": "tableau-a671a1f433d4dcca"
+  },
+  "cached_reference": {
+    "path": "/srv/hermes-workspaces/wow-reference/wow-2019-ww32-step-area-chart/2019_08_07_WW32_Step_Area_Chart.twbx",
+    "sha256": "389bcd11c666f8f65acdf4461ab487d1d017a7cc9855be0d28afd7309617f8e5",
+    "matches_historical_lock": false
+  },
+  "extracted_data": [
+    {
+      "file": "inputs/Orders (Sample - Superstore).hyper",
+      "bytes": 458752,
+      "sha256": "9042a661caa6195146adc567c7eaaf8a4471f920946ed9bb96b2a8f1cfc57748",
+      "archive_member": "Orders (Sample - Superstore).hyper",
+      "extracted_from": "outputs/historical-replicated-workbook.twbx",
+      "extracted_from_sha256": "1c31a82da47aa8103f3c8dba7b6858eb0b382a5a361497a5f4ade90c4be12b22",
+      "reference_member": "Data/Datasources/Orders (Sample - Superstore).hyper"
+    }
+  ],
+  "limitations": [
+    "Historical TWBX lock preserved; exact archived original unavailable. Hyper bytes agree with historical replica and refreshed cached reference. This is not exact-original source certification."
+  ]
+}

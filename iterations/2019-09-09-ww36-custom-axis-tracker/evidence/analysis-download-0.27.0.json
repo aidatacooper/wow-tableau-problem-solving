@@ -1,0 +1,19 @@
+{
+  "download_url": "https://public.tableau.com/workbooks/2019_09_04_WW36_Custom_Axis_Ref_Line_Tracker.twb",
+  "cached_path": "/srv/hermes-workspaces/wow-reference/wow-2019-ww36-custom-axis-tracker/2019_09_04_WW36_Custom_Axis_Ref_Line_Tracker.twbx",
+  "downloaded_at": "2026-10-02T09:40:45.488617+00:00",
+  "sha256": "e5b8a735203d6b555996e3afa5bf5203b6fe42208740a13719b3434a305f00f1",
+  "locked_original_sha256": "95b2c2dee481699d9cbea15cfd760a3d6c4480c6dd84e38a24bb589f1fbaba85",
+  "historical_lock_match": false,
+  "author_view_names": [
+    "2019_09_04_WW36_Custom_Axis_Ref_Line_Tracker"
+  ],
+  "extracted_data": [
+    {
+      "archive_path": "Data/Datasources/Orders (Sample - Superstore).hyper",
+      "file": "inputs/Orders (Sample - Superstore).hyper",
+      "bytes": 720896,
+      "sha256": "04288f3c5a049d586edde523e0cf17d2a259ffed5a1ddb966ccf12f851b11b14"
+    }
+  ]
+}

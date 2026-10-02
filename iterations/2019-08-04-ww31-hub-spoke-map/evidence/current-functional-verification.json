@@ -1,0 +1,15 @@
+{
+  "checked_at": "2026-10-02T11:30:08.940315+00:00",
+  "command": [
+    "python",
+    "iterations/2019-08-04-ww31-hub-spoke-map/verify_replication.py"
+  ],
+  "exit_code": 0,
+  "stdout": "PASS: acceptance and round-trip checks\n",
+  "stderr": "",
+  "sdk_version": "0.27.1",
+  "sdk_commit": "2ad7b6ca4f0f3a0b8731e50b4932ac21ffbcdc73",
+  "builder_sha256": "22355f0bf2c38a1a5866a1befdf47348948c45bac92c4b486a9b7886c61dd77d",
+  "replica_sha256": "8b06b772a959c7bdd38ac117c2374647c02b19365373dcefd61ef8f6f3f12f28",
+  "scope": "Final artifact-only verification after successful strict builds; no rebuild, UI pass not inferred."
+}

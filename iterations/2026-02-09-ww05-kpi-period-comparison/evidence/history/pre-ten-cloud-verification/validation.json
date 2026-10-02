@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0.0",
+  "status": "passed",
+  "artifacts": {
+    "2026-02-09-ww05-kpi-period-comparison-replicated-workbook.twb": {
+      "sha256": "3af83fc097571cb9ba38796f92b552d46c0360643f5f8a610624f2326c6512b8",
+      "local_parse": "passed",
+      "local_xsd": "passed_with_known_tableau_compatibility_warning",
+      "tableau_cloud_semantic": {
+        "success": false,
+        "valid": false,
+        "errors": [],
+        "warnings": [],
+        "error": "Complete semantic validation requires the packaged TWBX because the datasource uses its bundled Hyper extract."
+      }
+    },
+    "2026-02-09-ww05-kpi-period-comparison-replicated-workbook.twbx": {
+      "sha256": "ab095c94594f02547e75a6fd58adceb90248eba0372e8d5e1483e227cac13be4",
+      "zip_structure": "passed",
+      "original_hyper_preserved": "passed",
+      "cwtwb_open_and_resave": "passed",
+      "acceptance_after_roundtrip": "passed",
+      "previous_tableau_cloud_publish": {
+        "success": true,
+        "workbook_id": "9ce42bbd-72a6-4246-87e2-6ab7e1052bcd",
+        "views": [
+          "Period Trend",
+          "KPI Summary",
+          "KPI Trend Monitor"
+        ],
+        "twbx_size_kb": 387.0
+      },
+      "tableau_desktop_2026_2": {
+        "opened": true,
+        "target_field_errors": 0,
+        "query_errors": false,
+        "worksheet_queried": "Period Trend"
+      }
+    }
+  },
+  "acceptance": {
+    "command": "python iterations/2026-02-09-ww05-kpi-period-comparison/verify_replication.py",
+    "result": "passed"
+  },
+  "analyzer": {
+    "result": "passed",
+    "detected": [
+      "Dual Axis",
+      "ParamCtrl",
+      "Line",
+      "Text",
+      "Color",
+      "Layout Container"
+    ]
+  },
+  "regression": {
+    "command": "PYTHONPATH=src python -m pytest tests -q --basetemp .tmp_test_outputs/ww05-full",
+    "passed": 316,
+    "skipped": 25,
+    "warnings": 8
+  },
+  "notes": [
+    "The strict XSD checker reported the known Tableau-compatible top-level content-model warning; the validation command returned success.",
+    "The previous cloud result applied to the discarded reference-datasource artifact and is not reused.",
+    "The previous TWBX publish enumerated both worksheets and the dashboard; it predates the current artifact hash.",
+    "The current artifact opened in Tableau Desktop 2026.2 with zero KPI aggregation or field-role errors.",
+    "The transparent custom shape was replaced by a Text mark without changing KPI semantics."
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "case_id": "wow-2026-ww06-null-safe-averages",
+  "iteration_id": "2026-02-15-ww06-null-safe-averages",
+  "captured_at": "2026-10-02T10:57:26.829758+00:00",
+  "source_hashes": {
+    "author": "7240cf7366eac680f961078b25da210a01253d7c3523d7267db7e5a4ecc5b37d",
+    "replica": "5497863fbc6a5da492ee95ccd7599ef996ad02d7297342e367e9c9d882fda180"
+  },
+  "request_settings": {
+    "case_id": "wow-2026-ww06-null-safe-averages",
+    "iteration_id": "2026-02-15-ww06-null-safe-averages",
+    "author_workbook_path": "/srv/hermes-workspaces/wow-reference/wow-2026-ww06-null-safe-averages/2026_02_11_WW06_Averages_and_Nulls.twbx",
+    "replica_workbook_path": "/srv/hermes-workspaces/wow-case-standardization/iterations/2026-02-15-ww06-null-safe-averages/outputs/replicated-workbook.twbx",
+    "author_view_name": "2026_02_11_WW06_Averages_and_Nulls",
+    "replica_view_name": "2026_02_11_WW06_Averages_and_Nulls",
+    "states": [
+      {
+        "name": "short-date-range",
+        "parameters": {
+          "pMinDate": "2025-07-14",
+          "pMaxDate": "2025-07-18"
+        }
+      },
+      {
+        "name": "furniture-only",
+        "filters": {
+          "Category": "Furniture"
+        }
+      }
+    ],
+    "_request_file": "/srv/hermes-workspaces/wow-cloud-queue/wow-2026-ww06-null-safe-averages.json"
+  },
+  "workbooks": {
+    "author": {
+      "id": "ee0e5476-4892-4359-897f-87f3d45f71fc",
+      "name": "cwtwb-review-wow-2026-ww06-null-safe-averages-author",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2922863"
+    },
+    "replica": {
+      "id": "316440f5-cf2c-4891-8f35-6e5c737bdc62",
+      "name": "cwtwb-review-wow-2026-ww06-null-safe-averages-replica",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2922864"
+    }
+  },
+  "export_resolution": "high",
+  "maxage_minutes": 1,
+  "status": "rendered_needs_visual_and_interaction_review",
+  "states": [
+    {
+      "name": "default",
+      "filters": {},
+      "parameters": {},
+      "views": {
+        "author": {
+          "id": "ff599036-53da-4ee9-aad5-2b8fbafa7b1f",
+          "name": "2026_02_11_WW06_Averages_and_Nulls",
+          "path": "cloud-author.png",
+          "size": [
+            2732,
+            1536
+          ],
+          "sha256": "991dc79617540312a8dfabf2fd7c8fe7a82fbbc772c426bcc002ade358b31502",
+          "data_export": {
+            "path": "cloud-author.csv",
+            "sha256": "d17de807fbaefde9dfa17a8763b75a53558ab92ac4a23764892de2b3783ba71c",
+            "bytes": 86
+          }
+        },
+        "replica": {
+          "id": "e938d437-4a60-4687-a57a-b31277362d5f",
+          "name": "2026_02_11_WW06_Averages_and_Nulls",
+          "path": "cloud-replica.png",
+          "size": [
+            2732,
+            1536
+          ],
+          "sha256": "7cb88dca5299d13fa4ec98e9faa11d12daf0d414ef44fcfd8f212082eb7b7698",
+          "data_export": {
+            "path": "cloud-replica.csv",
+            "sha256": "79f7deb275eed4d84a470ad97788b113b755844f2595c1cb129ca9a85a1deaf2",
+            "bytes": 89
+          }
+        }
+      },
+      "comparison": {
+        "same_dimensions": true,
+        "author_size": [
+          2732,
+          1536
+        ],
+        "replica_size": [
+          2732,
+          1536
+        ],
+        "mean_absolute_channel_difference_0_to_255": 17.4592481755582,
+        "pixel_identical": false
+      }
+    },
+    {
+      "name": "short-date-range",
+      "filters": {},
+      "parameters": {
+        "pMinDate": "2025-07-14",
+        "pMaxDate": "2025-07-18"
+      },
+      "views": {
+        "author": {
+          "id": "ff599036-53da-4ee9-aad5-2b8fbafa7b1f",
+          "name": "2026_02_11_WW06_Averages_and_Nulls",
+          "path": "cloud-author-short-date-range.png",
+          "size": [
+            2732,
+            1536
+          ],
+          "sha256": "a3063c63febf693fbb2bf7a3e68e08b26ac01661c26279c770775f01b292d039",
+          "data_export": {
+            "path": "cloud-author-short-date-range.csv",
+            "sha256": "f90d49feb584f13a0ff09b2830af8726b1c5fe6cf56fde180ad6e7998bd44e39",
+            "bytes": 87
+          }
+        },
+        "replica": {
+          "id": "e938d437-4a60-4687-a57a-b31277362d5f",
+          "name": "2026_02_11_WW06_Averages_and_Nulls",
+          "path": "cloud-replica-short-date-range.png",
+          "size": [
+            2732,
+            1536
+          ],
+          "sha256": "a43d8772bae6714a9033ab4db68c13b438a4ff231c53551648d1cce2bf56254a",
+          "data_export": {
+            "path": "cloud-replica-short-date-range.csv",
+            "sha256": "b9e6dff78de60420b29f02512cad2e8819a6678cdfd34c92ffb762c64d428413",
+            "bytes": 90
+          }
+        }
+      },
+      "comparison": {
+        "same_dimensions": true,
+        "author_size": [
+          2732,
+          1536
+        ],
+        "replica_size": [
+          2732,
+          1536
+        ],
+        "mean_absolute_channel_difference_0_to_255": 21.277028078991787,
+        "pixel_identical": false
+      }
+    },
+    {
+      "name": "furniture-only",
+      "filters": {
+        "Category": "Furniture"
+      },
+      "parameters": {},
+      "views": {
+        "author": {
+          "id": "ff599036-53da-4ee9-aad5-2b8fbafa7b1f",
+          "name": "2026_02_11_WW06_Averages_and_Nulls",
+          "path": "cloud-author-furniture-only.png",
+          "size": [
+            2732,
+            1536
+          ],
+          "sha256": "f226096913af7a8d24d6b590cab7b28a4b7e0553f119aca98fdc5d261f976a18",
+          "data_export": {
+            "path": "cloud-author-furniture-only.csv",
+            "sha256": "0152390bb62eddd7b2aae28f4b5f5756cb2e262114661983b1ca2e3a8d61e499",
+            "bytes": 87
+          }
+        },
+        "replica": {
+          "id": "e938d437-4a60-4687-a57a-b31277362d5f",
+          "name": "2026_02_11_WW06_Averages_and_Nulls",
+          "path": "cloud-replica-furniture-only.png",
+          "size": [
+            2732,
+            1536
+          ],
+          "sha256": "2fd7644dd31d7852946d1a0feb8aa7e83a27ee4cd22843b9541821dd9b788811",
+          "data_export": {
+            "path": "cloud-replica-furniture-only.csv",
+            "sha256": "34d2c4eb4442e4e0035a8c13cf5476bdca7b28230e582b6c24b8db3422dcc72f",
+            "bytes": 90
+          }
+        }
+      },
+      "comparison": {
+        "same_dimensions": true,
+        "author_size": [
+          2732,
+          1536
+        ],
+        "replica_size": [
+          2732,
+          1536
+        ],
+        "mean_absolute_channel_difference_0_to_255": 7.8558873675675125,
+        "pixel_identical": false
+      }
+    }
+  ],
+  "visual_status": "not_evaluated",
+  "interaction_status": "not_evaluated"
+}

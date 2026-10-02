@@ -1,0 +1,17 @@
+{
+  "captured_at": "2026-10-02T11:20:17.871954+00:00",
+  "reviewed_workbook_sha256": "f32990f53762b9c2083fabfacc87b0117c4f1d6e48cce65d8caed58ecd98f36c",
+  "current_workbook_sha256": "f32990f53762b9c2083fabfacc87b0117c4f1d6e48cce65d8caed58ecd98f36c",
+  "current_build_needs_recapture": false,
+  "visual_status": "acceptable_delta",
+  "states_reviewed": [
+    "default",
+    "different-today"
+  ],
+  "observations": [
+    "Default KPI 26.0% Up 2.6% and changed-date KPI 23.4% Up 4.7% agree. Recent purple markers, teal/grey dashed prior curves, and horizontal gridlines render correctly.",
+    "Legend ordering, typography and chart/title vertical spacing differ. The author retains a static 2/4/2025 title when pToday changes; the replica title reflects the actual selected date 2/3/2025. This difference is explicit, not pixel matching."
+  ],
+  "interaction_status": "not_required_for_reported_rest_parameter_states",
+  "data_scope": "KPI CSV exact formatted values; trend formula contract plus manual curves comparison, not full trend CSV verification."
+}

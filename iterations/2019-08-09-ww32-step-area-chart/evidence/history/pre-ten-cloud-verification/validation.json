@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "status": "replicated",
+  "artifacts": {
+    "2019-08-09-ww32-step-area-chart-replicated-workbook.twb": {
+      "sha256": "1308a3294a76d6ade70b30af31f00f316de6852404209f6d0a1dba4a1821188d",
+      "local_parse": "passed",
+      "source_independence": "passed",
+      "semantic_validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    "2019-08-09-ww32-step-area-chart-replicated-workbook.twbx": {
+      "sha256": "1c31a82da47aa8103f3c8dba7b6858eb0b382a5a361497a5f4ade90c4be12b22",
+      "zip_structure": "passed",
+      "original_hyper_preserved": "passed",
+      "cwtwb_open_and_resave": "passed",
+      "acceptance_after_roundtrip": "passed",
+      "tableau_cloud_publish": {
+        "success": true,
+        "workbook_id": "e4473616-a802-4290-a2a7-7a68f1243342",
+        "view_name": "2019_08_07_WW32_Step_Area-Chart",
+        "csv_bytes": 27079,
+        "screenshot_bytes": 106500
+      }
+    }
+  },
+  "analyzer": {
+    "step_area_recipe_detected": true
+  },
+  "regression": {
+    "execution": "single full pytest run",
+    "passed": 334,
+    "skipped": 25,
+    "warnings": 8
+  }
+}

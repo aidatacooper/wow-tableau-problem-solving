@@ -1,0 +1,37 @@
+Month of Order Date,Segment,% Difference,[Difference]*-1,Avg Orders Per Day Per Segment Per Month,COLOUR:Difference,Overall Avg Orders Per Day Per Segment,TOOLTIP-Avg Orders Per Day Per Segment Per Month (2dp)
+January,Consumer,-33%,0.816297209,1.66,blue,2.48,1.66
+January,Corporate,-33%,0.596823658,1.23,blue,1.82,1.23
+January,Home Office,-10%,0.142337847,1.35,blue,1.49,1.35
+February,Consumer,-42%,1.043678161,1.43,blue,2.48,1.43
+February,Corporate,-27%,0.499096386,1.33,blue,1.82,1.33
+February,Home Office,-19%,0.279637619,1.21,blue,1.49,1.21
+March,Consumer,-20%,0.488247449,1.99,blue,2.48,1.99
+March,Corporate,-14%,0.248753920,1.58,blue,1.82,1.58
+March,Home Office,-1%,0.013973458,1.48,blue,1.49,1.48
+April,Consumer,-20%,0.489059687,1.99,blue,2.48,1.99
+April,Corporate,-10%,0.180028589,1.64,blue,1.82,1.64
+April,Home Office,-8%,0.117282578,1.37,blue,1.49,1.37
+May,Consumer,-15%,0.361222021,2.12,blue,2.48,2.12
+May,Corporate,-1%,0.024096386,1.80,blue,1.82,1.80
+May,Home Office,-16%,0.240163934,1.25,blue,1.49,1.25
+June,Consumer,-5%,0.132183908,2.34,blue,2.48,2.34
+June,Corporate,-10%,0.181239243,1.64,blue,1.82,1.64
+June,Home Office,-15%,0.230904675,1.26,blue,1.49,1.26
+July,Consumer,-20%,0.500540906,1.98,blue,2.48,1.98
+July,Corporate,-17%,0.302969625,1.52,blue,1.82,1.52
+July,Home Office,-8%,0.112386157,1.38,blue,1.49,1.38
+August,Consumer,-14%,0.356529567,2.12,blue,2.48,2.12
+August,Corporate,-10%,0.183471386,1.64,blue,1.82,1.64
+August,Home Office,-11%,0.156830601,1.33,blue,1.49,1.33
+September,Consumer,+38%,-0.930755496,3.41,green,2.48,3.41
+September,Corporate,+25%,-0.464792503,2.29,green,1.82,2.29
+September,Home Office,+22%,-0.329280510,1.82,green,1.49,1.82
+October,Consumer,-12%,0.288122605,2.19,blue,2.48,2.19
+October,Corporate,-7%,0.132738361,1.69,blue,1.82,1.69
+October,Home Office,-1%,0.008021077,1.48,blue,1.49,1.48
+November,Consumer,+49%,-1.202233789,3.68,green,2.48,3.68
+November,Corporate,+29%,-0.537605742,2.36,green,1.82,2.36
+November,Home Office,+21%,-0.317528373,1.81,green,1.49,1.81
+December,Consumer,+43%,-1.055698786,3.53,green,2.48,3.53
+December,Corporate,+21%,-0.390189329,2.21,green,1.82,2.21
+December,Home Office,+4%,-0.060560703,1.55,green,1.49,1.55

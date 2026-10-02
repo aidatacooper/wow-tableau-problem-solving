@@ -4,6 +4,7 @@ from pathlib import Path
 import sys
 import tempfile
 import zipfile
+from hashlib import sha256
 
 from lxml import etree
 
@@ -33,10 +34,8 @@ def load_root(path: Path) -> etree._Element:
             twbs = [name for name in names if name.lower().endswith(".twb")]
             assert len(twbs) == 1
             hypers = [name for name in names if name.lower().endswith(".hyper")]
-            assert hypers == [
-                "Data/Datasources/"
-                "2019_07_31_PD25_WWPD_MusicData_Output.hyper"
-            ]
+            assert len(hypers) == 1 and Path(hypers[0]).name == '2019_07_31_PD25_WWPD_MusicData_Output.hyper'
+            assert sha256(archive.read(hypers[0])).digest() == sha256((ITERATION_DIR / "inputs" / '2019_07_31_PD25_WWPD_MusicData_Output.hyper').read_bytes()).digest()
             return etree.fromstring(archive.read(twbs[0]))
     return etree.parse(str(path)).getroot()
 
@@ -62,6 +61,24 @@ def assert_acceptance(root: etree._Element) -> None:
     assert fields["Destination"].get("datatype") == "spatial"
     assert "MAKEPOINT" in fields["Destination"].find("calculation").get("formula")
 
+    assert fields["# Concerts"].find("calculation").get("formula") == "COUNTD([ConcertID])"
+    assert fields["Monthly Concert Date"].find("calculation").get("formula") == "DATETRUNC('month',[Concert Date])"
+    assert fields["Last Concert Month"].find("calculation").get("formula") == "{FIXED [Artist]:MAX(DATETRUNC('month',[Concert Date]))}"
+    for field in ["Trend End Artist", "Trend End Concerts"]:
+        assert "MIN(" in fields[field].find("calculation").get("formula")
+        assert fields["Last Concert Month"].get("name") in fields[field].find("calculation").get("formula")
+        assert "LAST()" not in fields[field].find("calculation").get("formula")
+    trend = root.find("./worksheets/worksheet[@name='Monthly Concert Trend']")
+    assert fields["Monthly Concert Date"].get("name").strip("[]") in trend.findtext("table/cols")
+    axis = trend.find("table/style/style-rule[@element='axis']")
+    assert axis.find("format[@attr='display'][@scope='cols'][@value='true']") is not None
+    assert axis.find("format[@attr='display'][@scope='rows'][@value='false']") is not None
+    limits = axis.find("encoding[@scope='rows']")
+    assert limits.get("min") == "0" and limits.get("max") == "1200"
+    text = "".join(trend.xpath(".//customized-label/formatted-text/run/text()"))
+    assert fields["Trend End Artist"].get("name").strip("[]") in text
+    assert fields["Trend End Concerts"].get("name").strip("[]") in text
+
     serialized = etree.tostring(root, encoding="unicode")
     assert "none:Location (group):nk" not in serialized
     assert "sum:Calculation_488922052502458368" not in serialized
@@ -76,6 +93,9 @@ def assert_acceptance(root: etree._Element) -> None:
         assert all("[clct:" in geometry for geometry in geometries)
         assert geometries[0] != geometries[1]
         assert panes[1].find("encodings/size") is not None
+        assert not any(pane.find("mark-sizing") is not None for pane in panes)
+        assert panes[1].find("style/style-rule[@element='mark']/format[@attr='size']").get("value") == "1.0214917659759521"
+        assert panes[2].find("style/style-rule[@element='mark']/format[@attr='size']").get("value") == "7.7539858818054199"
         assert panes[2].find(
             "style/style-rule/format[@attr='has-stroke'][@value='true']"
         ) is not None
@@ -84,6 +104,14 @@ def assert_acceptance(root: etree._Element) -> None:
             "Longitude (generated)"
         ) == 2
         assert worksheet.find(".//filter[@class='categorical']") is not None
+        size_scale = worksheet.find("table/style/style-rule[@element='mark']/encoding[@attr='size']")
+        assert size_scale is not None and size_scale.get("type") == "rangesize"
+        assert size_scale.get("max-size") == "1"
+        assert size_scale.get("min") == "1"
+        assert size_scale.get("min-size") == "0.00251905"
+        assert size_scale.get("max") is None, "Author maximum value range is automatic"
+        assert size_scale.get("field-type") == "quantitative"
+        assert fields["# Concerts"].get("name").strip("[]") in size_scale.get("field")
 
     cloud = root.find(
         "./worksheets/worksheet[@name='Fellow Artist Word Cloud']"
@@ -111,6 +139,7 @@ def assert_acceptance(root: etree._Element) -> None:
         assert "Fellow Artist Word Cloud" not in exclude.get("value")
 
 
+# case-functional-contract: explicit assertions plus independent data and SDK round-trip.
 def main() -> None:
     for output in (OUTPUT_TWB, OUTPUT_TWBX):
         assert output.exists()
