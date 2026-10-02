@@ -275,5 +275,13 @@
   "interaction_status": "not_evaluated",
   "remaining_interactions": [
     "Click each KPI to its correct detail dashboard and GO BACK in authenticated browser"
-  ]
+  ],
+  "reviewed_source_hashes": {
+    "author": "53645fae30240a543df101cfe37f7920c5c074d7426fcefbd4048c31a86868a8",
+    "replica": "3840c879b7bd419e7b9b152e8e496e8903f9cd7fe46a77347cbcbace1b32fdee"
+  },
+  "reviewed_workbook_sha256": "3840c879b7bd419e7b9b152e8e496e8903f9cd7fe46a77347cbcbace1b32fdee",
+  "current_workbook_sha256": "3840c879b7bd419e7b9b152e8e496e8903f9cd7fe46a77347cbcbace1b32fdee",
+  "current_build_needs_recapture": false,
+  "captured_at": "2026-10-02T11:26:03.603841+00:00"
 }

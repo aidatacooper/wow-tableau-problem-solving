@@ -25,7 +25,7 @@ acceptance:
   description: Author and replica Cloud images and CSV exports; acceptance depends
     on recorded review, UI actions separately.
   mode: manual
-  evidence: evidence/cloud-verification.json
+  evidence: evidence/visual-review.json
 workarounds: []
 related_cwtwb_issues: []
 legacy_case_ids:

@@ -69,8 +69,9 @@ notes:
   from static XML or screenshots.
 analysis_status: completed
 remaining_work:
-- Finish current Cloud state and visual review; browser actions require real hover/click
-  evidence.
+- Authenticated browser date-filter change then Apply click must update both min/max
+  date parameters and matrix values, then clear the Apply selection; REST state rendering
+  already passed.
 inputs:
   data_files:
   - inputs/Sample - Superstore_Orders.hyper
@@ -83,4 +84,4 @@ acceptance:
   description: Author and replica Cloud images and CSV exports; acceptance depends
     on recorded review, UI actions separately.
   mode: manual
-  evidence: evidence/cloud-verification.json
+  evidence: evidence/visual-review.json

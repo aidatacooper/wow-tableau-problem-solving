@@ -185,8 +185,9 @@ notes:
   from static XML or screenshots.
 analysis_status: completed
 remaining_work:
-- Finish current Cloud state and visual review; browser actions require real hover/click
-  evidence.
+- Authenticated browser hover over Ben/Ed regional summary marks must filter the word
+  cloud correctly and restore it when leaving; Cloud visual and endpoint data review
+  already passed.
 inputs:
   data_files:
   - inputs/2019_07_31_PD25_WWPD_MusicData_Output.hyper
@@ -200,4 +201,4 @@ acceptance:
   description: Author and replica Cloud images and CSV exports; acceptance depends
     on recorded review, UI actions separately.
   mode: manual
-  evidence: evidence/cloud-verification.json
+  evidence: evidence/visual-review.json

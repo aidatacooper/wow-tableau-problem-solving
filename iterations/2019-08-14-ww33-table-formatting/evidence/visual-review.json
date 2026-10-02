@@ -177,5 +177,13 @@
     "Single-category expanded area bounds differ slightly while both source and replica fill the available pane"
   ],
   "interaction_status": "rest_parameter_and_filter_states_verified",
-  "browser_click_status": "not_asserted"
+  "browser_click_status": "not_asserted",
+  "reviewed_source_hashes": {
+    "author": "528e6ec0d78b4b788b63382d1bb62d2574ed04fba56dbe593e8823ca31cb7114",
+    "replica": "fd25ecd4a965d85bb3b1b150714d6785cf8f778a2cde9772038bb6b8def55c7f"
+  },
+  "reviewed_workbook_sha256": "fd25ecd4a965d85bb3b1b150714d6785cf8f778a2cde9772038bb6b8def55c7f",
+  "current_workbook_sha256": "fd25ecd4a965d85bb3b1b150714d6785cf8f778a2cde9772038bb6b8def55c7f",
+  "current_build_needs_recapture": false,
+  "captured_at": "2026-10-02T11:27:16.505628+00:00"
 }

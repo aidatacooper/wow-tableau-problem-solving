@@ -3,10 +3,7 @@
   "pixel_matched": false,
   "reviewed_at": "2026-10-02T11:28:27.565926+00:00",
   "cloud_snapshot_captured_at": "2026-10-02T11:26:49.417667+00:00",
-  "reviewed_workbook_sha256": {
-    "author": "09880e3ab841ac35bdc4232f1115061b6ac0828f2b4579bfa1f5248f9e100014",
-    "replica": "8b06b772a959c7bdd38ac117c2374647c02b19365373dcefd61ef8f6f3f12f28"
-  },
+  "reviewed_workbook_sha256": "8b06b772a959c7bdd38ac117c2374647c02b19365373dcefd61ef8f6f3f12f28",
   "current_workbook_sha256": "8b06b772a959c7bdd38ac117c2374647c02b19365373dcefd61ef8f6f3f12f28",
   "current_build_needs_recapture": false,
   "matching_features": [
@@ -33,5 +30,10 @@
     "outputs/cloud-replica.png",
     "evidence/current-functional-verification.json",
     "evidence/trend-endpoint-data.json"
-  ]
+  ],
+  "reviewed_source_hashes": {
+    "author": "09880e3ab841ac35bdc4232f1115061b6ac0828f2b4579bfa1f5248f9e100014",
+    "replica": "8b06b772a959c7bdd38ac117c2374647c02b19365373dcefd61ef8f6f3f12f28"
+  },
+  "captured_at": "2026-10-02T11:26:49.417667+00:00"
 }
