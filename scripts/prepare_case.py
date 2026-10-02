@@ -125,6 +125,8 @@ def prepare_case(
     iterations_root: Path | None = None,
     source_url: str | None = None,
     challenge_year: int | None = None,
+    challenge_date: str | None = None,
+    challenge_url: str | None = None,
 ) -> Path:
     try:
         article_date, challenge_week, _ = folder_identity(iteration_id)
@@ -135,6 +137,13 @@ def prepare_case(
         raise ValueError(str(exc)) from exc
     if case_id is not None and case_id != expected_id:
         raise ValueError(f"case_id must be {expected_id}")
+    if challenge_date is not None:
+        try:
+            iso_date(challenge_date, "challenge_date")
+        except AssertionError as exc:
+            raise ValueError(str(exc)) from exc
+        if not challenge_url:
+            raise ValueError("challenge_date requires an official challenge_url")
     case_id = expected_id
     source = source.resolve()
     if not source.is_file():
@@ -178,13 +187,6 @@ def prepare_case(
         data_lines = "\n".join(f"    - {item['file']}" for item in data)
         case_text = case_text.replace("  data_files: []", f"  data_files:\n{data_lines}")
         document = yaml.safe_load(case_text)
-        workbook_date = None
-        match = re.match(r"(\d{4})[_-](\d{2})[_-](\d{2})", source.name)
-        if match:
-            try:
-                workbook_date = iso_date("-".join(match.groups()), "source_workbook_date")
-            except AssertionError:
-                pass  # A filename is not reliable date evidence when it is invalid.
         article = {"url": None, "path": None, "sha256": None}
         article["url" if post.startswith(("https://", "http://")) else "path"] = post
         document.update({
@@ -192,13 +194,13 @@ def prepare_case(
             "article_date": article_date,
             "challenge_year": challenge_year,
             "challenge_week": challenge_week,
-            "source_workbook_date": workbook_date,
+            "challenge_date": challenge_date,
             "date_evidence": {
                 "article_date": "Declared article publication date in iteration_id",
                 "challenge": "Explicit challenge_year; week declared in iteration_id",
-                "source_workbook_date": "Original filename" if workbook_date else "Unknown",
+                "challenge_date": "Explicit official challenge publication date and URL" if challenge_date else "Unknown; verify official publication date before filling",
             },
-            "source": {"article": article, "workbook": {
+            "source": {"challenge": {"url": challenge_url}, "article": article, "workbook": {
                 "url": source_url, "filename": source.name,
                 "sha256": lock["source_workbook"]["sha256"],
             }},
@@ -224,13 +226,15 @@ def main() -> None:
     parser.add_argument("--iteration-id", required=True)
     parser.add_argument("--case-id", help="Optional canonical ID; otherwise generated")
     parser.add_argument("--challenge-year", required=True, type=int, help="Challenge year, which may differ from article publication year")
+    parser.add_argument("--challenge-date", help="Verified official publication date YYYY-MM-DD; omit if unknown")
+    parser.add_argument("--challenge-url", help="Official challenge page; required when --challenge-date is supplied")
     post_group = parser.add_mutually_exclusive_group(required=True)
     post_group.add_argument("--post")
     post_group.add_argument("--post-url")
     args = parser.parse_args()
     post = args.post or args.post_url
     if args.source:
-        print(prepare_case(args.source, args.iteration_id, args.case_id, post, challenge_year=args.challenge_year))
+        print(prepare_case(args.source, args.iteration_id, args.case_id, post, challenge_year=args.challenge_year, challenge_date=args.challenge_date, challenge_url=args.challenge_url))
         return
     with tempfile.TemporaryDirectory() as directory:
         source = Path(directory) / f"{tableau_workbook_name(args.workbook_url)}.twbx"
@@ -243,6 +247,8 @@ def main() -> None:
                 post,
                 source_url=args.workbook_url,
                 challenge_year=args.challenge_year,
+                challenge_date=args.challenge_date,
+                challenge_url=args.challenge_url,
             )
         )
 

@@ -28,7 +28,7 @@ LEGACY_ITERATIONS = frozenset({
 })
 SUMMARY_FIELDS = (
     "case_id", "legacy_case_ids", "iteration_id", "article_date", "challenge_year",
-    "challenge_week", "source_workbook_date", "date_evidence", "source",
+    "challenge_week", "challenge_date", "date_evidence", "source",
     "functional_status", "visual_status", "verification_status", "cwtwb_result",
     "artifacts", "artifact_aliases", "historical_artifacts", "evidence", "notes",
 )
@@ -146,7 +146,24 @@ def validate_identity(case_dir: Path, case: dict, root: Path = LAB_ROOT) -> None
     if case.get("article_date") != article_date:
         raise AssertionError("article_date must match the folder publication date")
     iso_date(case.get("article_date"), "article_date")
-    iso_date(case.get("source_workbook_date"), "source_workbook_date", nullable=True)
+    if "source_workbook_date" in case or "source_workbook_date" in case.get("date_evidence", {}):
+        raise AssertionError("source_workbook_date is retired; use the two-date contract")
+    if "challenge_date" not in case:
+        raise AssertionError("challenge_date is required (null when unverified)")
+    challenge_date = iso_date(case["challenge_date"], "challenge_date", nullable=True)
+    if challenge_date is not None:
+        challenge_url = case.get("source", {}).get("challenge", {}).get("url")
+        if not challenge_url or not case.get("date_evidence", {}).get("challenge_date"):
+            raise AssertionError("Known challenge_date needs official source URL and date evidence")
+        normalize_url(challenge_url)
+        evidence_path = root / "docs/protocols/challenge-date-sources.json"
+        if evidence_path.is_file():
+            rows = json.loads(evidence_path.read_text(encoding="utf-8"))["challenges"]
+            matches = [row for row in rows if row["challenge_year"] == case.get("challenge_year")
+                       and row["challenge_week"] == case.get("challenge_week")]
+            if matches and (len(matches) != 1 or matches[0]["challenge_date"] != challenge_date
+                            or normalize_url(matches[0]["url"]) != normalize_url(challenge_url)):
+                raise AssertionError("challenge_date/source differs from official date evidence")
     if type(case.get("challenge_week")) is not int or case["challenge_week"] != week:
         raise AssertionError("challenge_week must match the folder (01-53)")
     expected = canonical_id(case_dir.name, case.get("challenge_year"))
@@ -198,10 +215,6 @@ def validate_identity(case_dir: Path, case: dict, root: Path = LAB_ROOT) -> None
         if sha is not None and (not isinstance(sha, str) or not re.fullmatch(r"[a-fA-F0-9]{64}", sha)):
             raise AssertionError("Invalid original source hash")
     filename = workbook.get("filename") or Path(workbook.get("path") or "").name
-    match = re.match(r"(\d{4})[_-](\d{2})[_-](\d{2})", filename)
-    if match and case.get("source_workbook_date") is not None:
-        if iso_date("-".join(match.groups()), "workbook filename date") != case["source_workbook_date"]:
-            raise AssertionError("source_workbook_date differs from original filename")
     for lock in source_locks(case_dir):
         original = locked_workbook(lock)
         if original.get("sha256") and (original["sha256"].lower() != (workbook.get("sha256") or "").lower()):

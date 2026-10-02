@@ -7,13 +7,15 @@ legacy_case_ids:
 article_date: '2026-02-02'
 challenge_year: 2026
 challenge_week: 4
-source_workbook_date: '2026-01-27'
+challenge_date: '2026-01-27'
 date_evidence:
   article_date: index.json publication date; matches preserved folder
   challenge: Existing formal folder year and WW token; retained challenge identity
-  source_workbook_date: Date explicitly encoded in original workbook filename; not article publication
-    date
+  challenge_date: Official WoW WordPress publication date; docs/protocols/challenge-date-sources.json
 source:
+  challenge:
+    url: https://www.workout-wednesday.com/2026w4tab/
+    wordpress_post_id: 21227
   article:
     url: https://donnacoles.home.blog/2026/02/02/can-you-create-a-dynamic-moving-average-chart/
     path: posts/2026-02-02-Can_you_create_a_dynamic_moving_average_chart.html

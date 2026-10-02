@@ -1,0 +1,168 @@
+{
+  "schema_version": "1.0.0",
+  "checked_on": "2026-10-02",
+  "date_semantics": "Calendar date from the official WordPress post date in the site publication timezone; not ISO-week Wednesday or author workbook filename.",
+  "api": "https://www.workout-wednesday.com/wp-json/wp/v2/posts",
+  "challenges": [
+    {
+      "challenge_year": 2019,
+      "challenge_week": 29,
+      "challenge_date": "2019-07-16",
+      "url": "https://www.workout-wednesday.com/2019-w29/",
+      "wordpress_post_id": 2856,
+      "title": "2019 Week 29: Which months do we see a higher number of orders?"
+    },
+    {
+      "challenge_year": 2019,
+      "challenge_week": 30,
+      "challenge_date": "2019-07-24",
+      "url": "https://www.workout-wednesday.com/week-30-creating-a-navigating-kpi-block/",
+      "wordpress_post_id": 2868,
+      "title": "Week 30: Creating a Navigating KPI Block"
+    },
+    {
+      "challenge_year": 2019,
+      "challenge_week": 31,
+      "challenge_date": "2019-07-30",
+      "url": "https://www.workout-wednesday.com/2019-week-31-when-workoutwednesday-meets-preppindata-can-you-create-a-hub-and-spoke-map/",
+      "wordpress_post_id": 2875,
+      "title": "2019 Week 31: When #WorkoutWednesday meets #PreppinData? Can you create a Hub and Spoke map?"
+    },
+    {
+      "challenge_year": 2019,
+      "challenge_week": 32,
+      "challenge_date": "2019-08-07",
+      "url": "https://www.workout-wednesday.com/week-32-can-you-create-step-area-charts/",
+      "wordpress_post_id": 2897,
+      "title": "Week 32: Can you create step area charts?"
+    },
+    {
+      "challenge_year": 2019,
+      "challenge_week": 33,
+      "challenge_date": "2019-08-13",
+      "url": "https://www.workout-wednesday.com/2019-w33/",
+      "wordpress_post_id": 2903,
+      "title": "2019 Week 33: 2018 IronViz Finalist Corey Jones’s Table Challenge"
+    },
+    {
+      "challenge_year": 2019,
+      "challenge_week": 34,
+      "challenge_date": "2019-08-21",
+      "url": "https://www.workout-wednesday.com/week-34-can-you-build-a-top-n-bar-chart-on-a-single-worksheet/",
+      "wordpress_post_id": 2891,
+      "title": "Week 34: Can You Build a Top N Bar Chart on a Single Worksheet?"
+    },
+    {
+      "challenge_year": 2019,
+      "challenge_week": 35,
+      "challenge_date": "2019-08-28",
+      "url": "https://www.workout-wednesday.com/week-35-drill-down-up-on-sales-with-subtotals-using-parameter-actions/",
+      "wordpress_post_id": 2926,
+      "title": "Week 35: Drill Down & Up on Sales with Subtotals using Parameter Actions"
+    },
+    {
+      "challenge_year": 2019,
+      "challenge_week": 36,
+      "challenge_date": "2019-09-04",
+      "url": "https://www.workout-wednesday.com/week-36-can-you-build-a-custom-axis-with-a-tracking-reference-line/",
+      "wordpress_post_id": 2933,
+      "title": "Week 36: Can you build a custom axis with a tracking reference line?"
+    },
+    {
+      "challenge_year": 2019,
+      "challenge_week": 37,
+      "challenge_date": "2019-09-10",
+      "url": "https://www.workout-wednesday.com/2019w37/",
+      "wordpress_post_id": 2943,
+      "title": "2019 Week 37: What percent of sales is from the east region?"
+    },
+    {
+      "challenge_year": 2019,
+      "challenge_week": 38,
+      "challenge_date": "2019-09-18",
+      "url": "https://www.workout-wednesday.com/week-38-can-you-build-a-sales-comparison-chart-with-performance-indicators/",
+      "wordpress_post_id": 2954,
+      "title": "Week 38: Can you build a sales comparison chart with performance indicators?"
+    },
+    {
+      "challenge_year": 2019,
+      "challenge_week": 39,
+      "challenge_date": "2019-09-25",
+      "url": "https://www.workout-wednesday.com/week-39-bcg-growth-share-matrix/",
+      "wordpress_post_id": 2960,
+      "title": "Week 39: Can you create a BCG growth share matrix with Sales and Orders?"
+    },
+    {
+      "challenge_year": 2019,
+      "challenge_week": 40,
+      "challenge_date": "2019-10-02",
+      "url": "https://www.workout-wednesday.com/week-40-can-you-show-and-hide-your-sheets/",
+      "wordpress_post_id": 2974,
+      "title": "Week 40: Can you show and hide your sheets?"
+    },
+    {
+      "challenge_year": 2019,
+      "challenge_week": 41,
+      "challenge_date": "2019-10-08",
+      "url": "https://www.workout-wednesday.com/2019-week-41/",
+      "wordpress_post_id": 2983,
+      "title": "2019 Week 41: Which customers are costing us?"
+    },
+    {
+      "challenge_year": 2019,
+      "challenge_week": 42,
+      "challenge_date": "2019-10-16",
+      "url": "https://www.workout-wednesday.com/week-42-can-you-build-a-comparative-line-chart-with-dynamic-inputs/",
+      "wordpress_post_id": 2997,
+      "title": "Week 42: Can you build a comparative line chart with dynamic inputs?"
+    },
+    {
+      "challenge_year": 2019,
+      "challenge_week": 43,
+      "challenge_date": "2019-10-23",
+      "url": "https://www.workout-wednesday.com/week-43-show-me-all-the-casinos-within-x-miles-of-x-casino-by-metres/",
+      "wordpress_post_id": 3005,
+      "title": "Week 43: Show me all the casinos within X miles of X casino by metres"
+    },
+    {
+      "challenge_year": 2019,
+      "challenge_week": 44,
+      "challenge_date": "2019-10-30",
+      "url": "https://www.workout-wednesday.com/week-44-can-you-build-a-sales-calendar-with-top-3-highlighting/",
+      "wordpress_post_id": 3011,
+      "title": "Week 44: Can you build a Sales Calendar with top 3 highlighting?"
+    },
+    {
+      "challenge_year": 2019,
+      "challenge_week": 45,
+      "challenge_date": "2019-11-05",
+      "url": "https://www.workout-wednesday.com/2019w45/",
+      "wordpress_post_id": 3015,
+      "title": "2019 Week 45: What is our daily fulfillment rate by region?"
+    },
+    {
+      "challenge_year": 2026,
+      "challenge_week": 4,
+      "challenge_date": "2026-01-27",
+      "url": "https://www.workout-wednesday.com/2026w4tab/",
+      "wordpress_post_id": 21227,
+      "title": "#WOW2026 | Week 4 | Can you create a dynamic moving average?"
+    },
+    {
+      "challenge_year": 2026,
+      "challenge_week": 5,
+      "challenge_date": "2026-02-04",
+      "url": "https://www.workout-wednesday.com/2026w5tab/",
+      "wordpress_post_id": 21250,
+      "title": "#WOW2026 | Week 5 | KPI Trend Monitor with Period Comparison"
+    },
+    {
+      "challenge_year": 2026,
+      "challenge_week": 6,
+      "challenge_date": "2026-02-10",
+      "url": "https://www.workout-wednesday.com/2026w06tab/",
+      "wordpress_post_id": 21285,
+      "title": "#WOW2026 | Week 6 | Can you account for nulls in your averages?"
+    }
+  ]
+}

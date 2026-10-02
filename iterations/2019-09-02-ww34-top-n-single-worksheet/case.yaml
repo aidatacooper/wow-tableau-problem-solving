@@ -33,13 +33,15 @@ legacy_case_ids:
 article_date: '2019-09-02'
 challenge_year: 2019
 challenge_week: 34
-source_workbook_date: '2019-08-21'
+challenge_date: '2019-08-21'
 date_evidence:
   article_date: index.json publication date; matches preserved folder
   challenge: Existing formal folder year and WW token; retained challenge identity
-  source_workbook_date: Date explicitly encoded in original workbook filename; not article publication
-    date
+  challenge_date: Official WoW WordPress publication date; docs/protocols/challenge-date-sources.json
 source:
+  challenge:
+    url: https://www.workout-wednesday.com/week-34-can-you-build-a-top-n-bar-chart-on-a-single-worksheet/
+    wordpress_post_id: 2891
   article:
     url: https://donnacoles.home.blog/2019/09/02/can-you-build-a-top-n-bar-chart-on-a-single-worksheet/
     path: posts/2019-09-02-Can_you_build_a_Top_N_Bar_Chart_on_a_Single_Worksheet.html

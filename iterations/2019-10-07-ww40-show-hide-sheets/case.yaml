@@ -31,13 +31,15 @@ legacy_case_ids:
 article_date: '2019-10-07'
 challenge_year: 2019
 challenge_week: 40
-source_workbook_date: '2019-10-02'
+challenge_date: '2019-10-02'
 date_evidence:
   article_date: index.json publication date; matches preserved folder
   challenge: Existing formal folder year and WW token; retained challenge identity
-  source_workbook_date: Date explicitly encoded in original workbook filename; not article publication
-    date
+  challenge_date: Official WoW WordPress publication date; docs/protocols/challenge-date-sources.json
 source:
+  challenge:
+    url: https://www.workout-wednesday.com/week-40-can-you-show-and-hide-your-sheets/
+    wordpress_post_id: 2974
   article:
     url: https://donnacoles.home.blog/2019/10/07/can-you-show-and-hide-your-sheets/
     path: posts/2019-10-07-Can_you_show_and_hide_your_sheets.html

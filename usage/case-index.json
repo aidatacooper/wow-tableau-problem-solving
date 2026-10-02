@@ -45,13 +45,17 @@
       "article_date": "2019-07-18",
       "challenge_year": 2019,
       "challenge_week": 29,
-      "source_workbook_date": "2019-07-17",
+      "challenge_date": "2019-07-16",
       "date_evidence": {
         "article_date": "index.json publication date; matches preserved folder",
         "challenge": "Existing formal folder year and WW token; retained challenge identity",
-        "source_workbook_date": "Date explicitly encoded in original workbook filename; not article publication date"
+        "challenge_date": "Official WoW WordPress publication date; docs/protocols/challenge-date-sources.json"
       },
       "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2019-w29/",
+          "wordpress_post_id": 2856
+        },
         "article": {
           "url": "https://donnacoles.home.blog/2019/07/18/wow-which-months-have-the-higher-number-of-orders/",
           "path": "posts/2019-07-18-Which_months_have_the_higher_number_of_orders.html",
@@ -111,13 +115,17 @@
       "article_date": "2019-07-25",
       "challenge_year": 2019,
       "challenge_week": 30,
-      "source_workbook_date": "2019-07-24",
+      "challenge_date": "2019-07-24",
       "date_evidence": {
         "article_date": "index.json publication date; matches preserved folder",
         "challenge": "Existing formal folder year and WW token; retained challenge identity",
-        "source_workbook_date": "Date explicitly encoded in original workbook filename; not article publication date"
+        "challenge_date": "Official WoW WordPress publication date; docs/protocols/challenge-date-sources.json"
       },
       "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/week-30-creating-a-navigating-kpi-block/",
+          "wordpress_post_id": 2868
+        },
         "article": {
           "url": "https://donnacoles.home.blog/2019/07/25/creating-a-navigating-kpi-block/",
           "path": "posts/2019-07-25-Creating_a_Navigating_KPI_Block.html",
@@ -182,13 +190,17 @@
       "article_date": "2019-08-04",
       "challenge_year": 2019,
       "challenge_week": 31,
-      "source_workbook_date": "2019-07-31",
+      "challenge_date": "2019-07-30",
       "date_evidence": {
         "article_date": "index.json publication date; matches preserved folder",
         "challenge": "Existing formal folder year and WW token; retained challenge identity",
-        "source_workbook_date": "Date explicitly encoded in original workbook filename; not article publication date"
+        "challenge_date": "Official WoW WordPress publication date; docs/protocols/challenge-date-sources.json"
       },
       "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2019-week-31-when-workoutwednesday-meets-preppindata-can-you-create-a-hub-and-spoke-map/",
+          "wordpress_post_id": 2875
+        },
         "article": {
           "url": "https://donnacoles.home.blog/2019/08/04/can-you-create-a-hub-and-spoke-map/",
           "path": "posts/2019-08-04-Can_you_create_a_hub_and_spoke_map.html",
@@ -418,13 +430,17 @@
       "article_date": "2019-08-09",
       "challenge_year": 2019,
       "challenge_week": 32,
-      "source_workbook_date": "2019-08-07",
+      "challenge_date": "2019-08-07",
       "date_evidence": {
         "article_date": "index.json publication date; matches preserved folder",
         "challenge": "Existing formal folder year and WW token; retained challenge identity",
-        "source_workbook_date": "Date explicitly encoded in original workbook filename; not article publication date"
+        "challenge_date": "Official WoW WordPress publication date; docs/protocols/challenge-date-sources.json"
       },
       "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/week-32-can-you-create-step-area-charts/",
+          "wordpress_post_id": 2897
+        },
         "article": {
           "url": "https://donnacoles.home.blog/2019/08/09/can-you-create-step-area-charts/",
           "path": "posts/2019-08-09-Can_you_create_step_area_charts.html",
@@ -493,13 +509,17 @@
       "article_date": "2019-08-14",
       "challenge_year": 2019,
       "challenge_week": 33,
-      "source_workbook_date": "2019-08-14",
+      "challenge_date": "2019-08-13",
       "date_evidence": {
         "article_date": "index.json publication date; matches preserved folder",
         "challenge": "Existing formal folder year and WW token; retained challenge identity",
-        "source_workbook_date": "Date explicitly encoded in original workbook filename; not article publication date"
+        "challenge_date": "Official WoW WordPress publication date; docs/protocols/challenge-date-sources.json"
       },
       "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2019-w33/",
+          "wordpress_post_id": 2903
+        },
         "article": {
           "url": "https://donnacoles.home.blog/2019/08/14/coreys-table-challenge/",
           "path": "posts/2019-08-14-Corey’s_Table_Challenge.html",
@@ -563,13 +583,17 @@
       "article_date": "2019-09-02",
       "challenge_year": 2019,
       "challenge_week": 34,
-      "source_workbook_date": "2019-08-21",
+      "challenge_date": "2019-08-21",
       "date_evidence": {
         "article_date": "index.json publication date; matches preserved folder",
         "challenge": "Existing formal folder year and WW token; retained challenge identity",
-        "source_workbook_date": "Date explicitly encoded in original workbook filename; not article publication date"
+        "challenge_date": "Official WoW WordPress publication date; docs/protocols/challenge-date-sources.json"
       },
       "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/week-34-can-you-build-a-top-n-bar-chart-on-a-single-worksheet/",
+          "wordpress_post_id": 2891
+        },
         "article": {
           "url": "https://donnacoles.home.blog/2019/09/02/can-you-build-a-top-n-bar-chart-on-a-single-worksheet/",
           "path": "posts/2019-09-02-Can_you_build_a_Top_N_Bar_Chart_on_a_Single_Worksheet.html",
@@ -628,13 +652,17 @@
       "article_date": "2019-09-04",
       "challenge_year": 2019,
       "challenge_week": 35,
-      "source_workbook_date": "2019-08-28",
+      "challenge_date": "2019-08-28",
       "date_evidence": {
         "article_date": "index.json publication date; matches preserved folder",
         "challenge": "Existing formal folder year and WW token; retained challenge identity",
-        "source_workbook_date": "Date explicitly encoded in original workbook filename; not article publication date"
+        "challenge_date": "Official WoW WordPress publication date; docs/protocols/challenge-date-sources.json"
       },
       "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/week-35-drill-down-up-on-sales-with-subtotals-using-parameter-actions/",
+          "wordpress_post_id": 2926
+        },
         "article": {
           "url": "https://donnacoles.home.blog/2019/09/04/drill-up-and-down-with-parameter-actions/",
           "path": "posts/2019-09-04-Drill_Up_and_Down_with_Parameter_Actions.html",
@@ -689,13 +717,17 @@
       "article_date": "2019-09-09",
       "challenge_year": 2019,
       "challenge_week": 36,
-      "source_workbook_date": "2019-09-04",
+      "challenge_date": "2019-09-04",
       "date_evidence": {
         "article_date": "index.json publication date; matches preserved folder",
         "challenge": "Existing formal folder year and WW token; retained challenge identity",
-        "source_workbook_date": "Date explicitly encoded in original workbook filename; not article publication date"
+        "challenge_date": "Official WoW WordPress publication date; docs/protocols/challenge-date-sources.json"
       },
       "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/week-36-can-you-build-a-custom-axis-with-a-tracking-reference-line/",
+          "wordpress_post_id": 2933
+        },
         "article": {
           "url": "https://donnacoles.home.blog/2019/09/09/custom-axis-with-a-tracking-reference-line/",
           "path": "posts/2019-09-09-Custom_Axis_with_a_tracking_reference_line.html",
@@ -751,13 +783,17 @@
       "article_date": "2019-09-13",
       "challenge_year": 2019,
       "challenge_week": 37,
-      "source_workbook_date": "2019-09-11",
+      "challenge_date": "2019-09-10",
       "date_evidence": {
         "article_date": "index.json publication date; matches preserved folder",
         "challenge": "Existing formal folder year and WW token; retained challenge identity",
-        "source_workbook_date": "Date explicitly encoded in original workbook filename; not article publication date"
+        "challenge_date": "Official WoW WordPress publication date; docs/protocols/challenge-date-sources.json"
       },
       "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2019w37/",
+          "wordpress_post_id": 2943
+        },
         "article": {
           "url": "https://donnacoles.home.blog/2019/09/13/rounded-bar-charts-what-of-sales-is-from-the-east-region/",
           "path": "posts/2019-09-13-Rounded_Bar_Charts_What_%_of_Sales_is_from_the_East_Region.html",
@@ -812,13 +848,17 @@
       "article_date": "2019-09-20",
       "challenge_year": 2019,
       "challenge_week": 38,
-      "source_workbook_date": "2019-09-18",
+      "challenge_date": "2019-09-18",
       "date_evidence": {
         "article_date": "index.json publication date; matches preserved folder",
         "challenge": "Existing formal folder year and WW token; retained challenge identity",
-        "source_workbook_date": "Date explicitly encoded in original workbook filename; not article publication date"
+        "challenge_date": "Official WoW WordPress publication date; docs/protocols/challenge-date-sources.json"
       },
       "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/week-38-can-you-build-a-sales-comparison-chart-with-performance-indicators/",
+          "wordpress_post_id": 2954
+        },
         "article": {
           "url": "https://donnacoles.home.blog/2019/09/20/can-you-build-a-sales-comparison-chart-with-performance-indicators/",
           "path": "posts/2019-09-20-Can_you_build_a_sales_comparison_chart_with_performance_indicators.html",
@@ -873,13 +913,17 @@
       "article_date": "2019-09-29",
       "challenge_year": 2019,
       "challenge_week": 39,
-      "source_workbook_date": "2019-09-25",
+      "challenge_date": "2019-09-25",
       "date_evidence": {
         "article_date": "index.json publication date; matches preserved folder",
         "challenge": "Existing formal folder year and WW token; retained challenge identity",
-        "source_workbook_date": "Date explicitly encoded in original workbook filename; not article publication date"
+        "challenge_date": "Official WoW WordPress publication date; docs/protocols/challenge-date-sources.json"
       },
       "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/week-39-bcg-growth-share-matrix/",
+          "wordpress_post_id": 2960
+        },
         "article": {
           "url": "https://donnacoles.home.blog/2019/09/29/can-you-create-a-bcg-growth-share-matrix-with-sales-and-orders/",
           "path": "posts/2019-09-29-Can_you_create_a_BCG_growth_share_matrix_with_Sales_and_Orders.html",
@@ -935,13 +979,17 @@
       "article_date": "2019-10-07",
       "challenge_year": 2019,
       "challenge_week": 40,
-      "source_workbook_date": "2019-10-02",
+      "challenge_date": "2019-10-02",
       "date_evidence": {
         "article_date": "index.json publication date; matches preserved folder",
         "challenge": "Existing formal folder year and WW token; retained challenge identity",
-        "source_workbook_date": "Date explicitly encoded in original workbook filename; not article publication date"
+        "challenge_date": "Official WoW WordPress publication date; docs/protocols/challenge-date-sources.json"
       },
       "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/week-40-can-you-show-and-hide-your-sheets/",
+          "wordpress_post_id": 2974
+        },
         "article": {
           "url": "https://donnacoles.home.blog/2019/10/07/can-you-show-and-hide-your-sheets/",
           "path": "posts/2019-10-07-Can_you_show_and_hide_your_sheets.html",
@@ -996,13 +1044,17 @@
       "article_date": "2019-10-14",
       "challenge_year": 2019,
       "challenge_week": 41,
-      "source_workbook_date": "2019-10-09",
+      "challenge_date": "2019-10-08",
       "date_evidence": {
         "article_date": "index.json publication date; matches preserved folder",
         "challenge": "Existing formal folder year and WW token; retained challenge identity",
-        "source_workbook_date": "Date explicitly encoded in original workbook filename; not article publication date"
+        "challenge_date": "Official WoW WordPress publication date; docs/protocols/challenge-date-sources.json"
       },
       "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2019-week-41/",
+          "wordpress_post_id": 2983
+        },
         "article": {
           "url": "https://donnacoles.home.blog/2019/10/14/which-customers-are-costing-us/",
           "path": "posts/2019-10-14-Which_Customers_are_Costing_Us.html",
@@ -1057,13 +1109,17 @@
       "article_date": "2019-10-19",
       "challenge_year": 2019,
       "challenge_week": 42,
-      "source_workbook_date": "2019-10-16",
+      "challenge_date": "2019-10-16",
       "date_evidence": {
         "article_date": "index.json publication date; matches preserved folder",
         "challenge": "Existing formal folder year and WW token; retained challenge identity",
-        "source_workbook_date": "Date explicitly encoded in original workbook filename; not article publication date"
+        "challenge_date": "Official WoW WordPress publication date; docs/protocols/challenge-date-sources.json"
       },
       "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/week-42-can-you-build-a-comparative-line-chart-with-dynamic-inputs/",
+          "wordpress_post_id": 2997
+        },
         "article": {
           "url": "https://donnacoles.home.blog/2019/10/19/can-you-build-a-comparative-line-chart-with-dynamic-inputs/",
           "path": "posts/2019-10-19-Can_you_build_a_comparative_line_chart_with_dynamic_inputs.html",
@@ -1118,13 +1174,17 @@
       "article_date": "2019-10-25",
       "challenge_year": 2019,
       "challenge_week": 43,
-      "source_workbook_date": "2019-10-23",
+      "challenge_date": "2019-10-23",
       "date_evidence": {
         "article_date": "index.json publication date; matches preserved folder",
         "challenge": "Existing formal folder year and WW token; retained challenge identity",
-        "source_workbook_date": "Date explicitly encoded in original workbook filename; not article publication date"
+        "challenge_date": "Official WoW WordPress publication date; docs/protocols/challenge-date-sources.json"
       },
       "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/week-43-show-me-all-the-casinos-within-x-miles-of-x-casino-by-metres/",
+          "wordpress_post_id": 3005
+        },
         "article": {
           "url": "https://donnacoles.home.blog/2019/10/25/show-me-all-the-casinos-within-a-certain-distance-from-another/",
           "path": "posts/2019-10-25-Show_me_all_the_casinos_within_a_certain_distance_from_another.html",
@@ -1179,13 +1239,17 @@
       "article_date": "2019-11-01",
       "challenge_year": 2019,
       "challenge_week": 44,
-      "source_workbook_date": "2019-10-30",
+      "challenge_date": "2019-10-30",
       "date_evidence": {
         "article_date": "index.json publication date; matches preserved folder",
         "challenge": "Existing formal folder year and WW token; retained challenge identity",
-        "source_workbook_date": "Date explicitly encoded in original workbook filename; not article publication date"
+        "challenge_date": "Official WoW WordPress publication date; docs/protocols/challenge-date-sources.json"
       },
       "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/week-44-can-you-build-a-sales-calendar-with-top-3-highlighting/",
+          "wordpress_post_id": 3011
+        },
         "article": {
           "url": "https://donnacoles.home.blog/2019/11/01/can-you-build-a-sales-calendar-with-top-3-highlighting/",
           "path": "posts/2019-11-01-Can_you_build_a_Sales_calendar_with_top_3_highlighting.html",
@@ -1240,13 +1304,17 @@
       "article_date": "2019-11-11",
       "challenge_year": 2019,
       "challenge_week": 45,
-      "source_workbook_date": "2019-11-06",
+      "challenge_date": "2019-11-05",
       "date_evidence": {
         "article_date": "index.json publication date; matches preserved folder",
         "challenge": "Existing formal folder year and WW token; retained challenge identity",
-        "source_workbook_date": "Date explicitly encoded in original workbook filename; not article publication date"
+        "challenge_date": "Official WoW WordPress publication date; docs/protocols/challenge-date-sources.json"
       },
       "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2019w45/",
+          "wordpress_post_id": 3015
+        },
         "article": {
           "url": "https://donnacoles.home.blog/2019/11/11/what-is-our-daily-fulfilment-rate-by-region/",
           "path": "posts/2019-11-11-What_is_our_daily_fulfilment_rate_by_region.html",
@@ -1316,13 +1384,17 @@
       "article_date": "2026-02-02",
       "challenge_year": 2026,
       "challenge_week": 4,
-      "source_workbook_date": "2026-01-27",
+      "challenge_date": "2026-01-27",
       "date_evidence": {
         "article_date": "index.json publication date; matches preserved folder",
         "challenge": "Existing formal folder year and WW token; retained challenge identity",
-        "source_workbook_date": "Date explicitly encoded in original workbook filename; not article publication date"
+        "challenge_date": "Official WoW WordPress publication date; docs/protocols/challenge-date-sources.json"
       },
       "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2026w4tab/",
+          "wordpress_post_id": 21227
+        },
         "article": {
           "url": "https://donnacoles.home.blog/2026/02/02/can-you-create-a-dynamic-moving-average-chart/",
           "path": "posts/2026-02-02-Can_you_create_a_dynamic_moving_average_chart.html",
@@ -1381,13 +1453,17 @@
       "article_date": "2026-02-09",
       "challenge_year": 2026,
       "challenge_week": 5,
-      "source_workbook_date": "2026-02-04",
+      "challenge_date": "2026-02-04",
       "date_evidence": {
         "article_date": "index.json publication date; matches preserved folder",
         "challenge": "Existing formal folder year and WW token; retained challenge identity",
-        "source_workbook_date": "Date explicitly encoded in original workbook filename; not article publication date"
+        "challenge_date": "Official WoW WordPress publication date; docs/protocols/challenge-date-sources.json"
       },
       "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2026w5tab/",
+          "wordpress_post_id": 21250
+        },
         "article": {
           "url": "https://donnacoles.home.blog/2026/02/09/kpi-trend-monitor-with-period-comparison/",
           "path": "posts/2026-02-09-KPI_Trend_Monitor_With_Period_Comparison.html",
@@ -1446,13 +1522,17 @@
       "article_date": "2026-02-15",
       "challenge_year": 2026,
       "challenge_week": 6,
-      "source_workbook_date": "2026-02-11",
+      "challenge_date": "2026-02-10",
       "date_evidence": {
         "article_date": "index.json publication date; matches preserved folder",
         "challenge": "Existing formal folder year and WW token; retained challenge identity",
-        "source_workbook_date": "Date explicitly encoded in original workbook filename; not article publication date"
+        "challenge_date": "Official WoW WordPress publication date; docs/protocols/challenge-date-sources.json"
       },
       "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2026w06tab/",
+          "wordpress_post_id": 21285
+        },
         "article": {
           "url": "https://donnacoles.home.blog/2026/02/15/can-you-account-for-nulls-in-your-averages/",
           "path": "posts/2026-02-15-Can_you_account_for_nulls_in_your_averages.html",

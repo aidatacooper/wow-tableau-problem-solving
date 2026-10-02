@@ -41,13 +41,15 @@ legacy_case_ids:
 article_date: '2019-09-09'
 challenge_year: 2019
 challenge_week: 36
-source_workbook_date: '2019-09-04'
+challenge_date: '2019-09-04'
 date_evidence:
   article_date: index.json publication date; matches preserved folder
   challenge: Existing formal folder year and WW token; retained challenge identity
-  source_workbook_date: Date explicitly encoded in original workbook filename; not article publication
-    date
+  challenge_date: Official WoW WordPress publication date; docs/protocols/challenge-date-sources.json
 source:
+  challenge:
+    url: https://www.workout-wednesday.com/week-36-can-you-build-a-custom-axis-with-a-tracking-reference-line/
+    wordpress_post_id: 2933
   article:
     url: https://donnacoles.home.blog/2019/09/09/custom-axis-with-a-tracking-reference-line/
     path: posts/2019-09-09-Custom_Axis_with_a_tracking_reference_line.html

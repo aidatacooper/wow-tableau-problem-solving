@@ -12,8 +12,17 @@ an article published on 2026-01-01 about a 2025 challenge uses a 2026 folder
 prefix and a `wow-2025-...` ID. Old IDs map to the canonical ID through each
 case's `legacy_case_ids`; aliases do not represent additional cases.
 
-Keep `article_date`, `challenge_year`, `challenge_week` and
-`source_workbook_date` separate. Unknown original workbook dates are null.
+The active case contract has exactly two date meanings: `article_date` (the
+solution article publication date) and `challenge_date` (the official challenge
+publication date). `challenge_year` and `challenge_week` are identifiers, not
+additional dates. `challenge_date` is null until verified; never infer it from
+a workbook filename or an ISO-week Wednesday. Known dates carry a challenge URL
+and `date_evidence.challenge_date`; the existing 20 dates are verified against
+[official publication records](challenge-date-sources.json). WordPress dates
+use the official site's publication calendar date, without timezone conversion.
+The independent `source_workbook_date` field is retired, including date evidence.
+Historical source locks, parameter defaults and audit timestamps retain their
+original values; they are not extra case identity dates.
 Original workbook filenames, source-lock hashes and historical evidence remain
 unchanged. The WW39 original filename's WW38 token is an explicitly recorded
 source discrepancy, not silently corrected during naming migration.
@@ -29,6 +38,9 @@ python scripts/prepare_case.py \
 ```
 
 `--case-id` is optional. When supplied it must equal the generated canonical ID.
+For a verified challenge date, also supply `--challenge-date YYYY-MM-DD` and
+`--challenge-url https://www.workout-wednesday.com/.../`. Otherwise the date is
+explicitly null. A dated author filename does not fill `challenge_date`.
 Preparation extracts data and writes initial identity metadata; it does not
 copy the author workbook or certify a completed replication. Complete the
 analysis, builder, verifier and acceptance evidence before submission.

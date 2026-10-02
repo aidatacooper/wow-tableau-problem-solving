@@ -48,13 +48,15 @@ legacy_case_ids:
 article_date: '2019-11-11'
 challenge_year: 2019
 challenge_week: 45
-source_workbook_date: '2019-11-06'
+challenge_date: '2019-11-05'
 date_evidence:
   article_date: index.json publication date; matches preserved folder
   challenge: Existing formal folder year and WW token; retained challenge identity
-  source_workbook_date: Date explicitly encoded in original workbook filename; not article publication
-    date
+  challenge_date: Official WoW WordPress publication date; docs/protocols/challenge-date-sources.json
 source:
+  challenge:
+    url: https://www.workout-wednesday.com/2019w45/
+    wordpress_post_id: 3015
   article:
     url: https://donnacoles.home.blog/2019/11/11/what-is-our-daily-fulfilment-rate-by-region/
     path: posts/2019-11-11-What_is_our_daily_fulfilment_rate_by_region.html

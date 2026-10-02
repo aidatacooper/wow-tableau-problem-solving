@@ -9,7 +9,7 @@
     "article_date",
     "challenge_year",
     "challenge_week",
-    "source_workbook_date",
+    "challenge_date",
     "source",
     "verification_status",
     "artifacts"
@@ -43,13 +43,6 @@
       "minimum": 1,
       "maximum": 53
     },
-    "source_workbook_date": {
-      "type": [
-        "string",
-        "null"
-      ],
-      "format": "date"
-    },
     "source": {
       "type": "object"
     },
@@ -82,7 +75,19 @@
           ]
         }
       }
+    },
+    "challenge_date": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
     }
   },
-  "additionalProperties": true
+  "additionalProperties": true,
+  "not": {
+    "required": [
+      "source_workbook_date"
+    ]
+  }
 }

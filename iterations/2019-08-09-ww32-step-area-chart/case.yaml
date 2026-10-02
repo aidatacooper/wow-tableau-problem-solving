@@ -7,13 +7,15 @@ legacy_case_ids:
 article_date: '2019-08-09'
 challenge_year: 2019
 challenge_week: 32
-source_workbook_date: '2019-08-07'
+challenge_date: '2019-08-07'
 date_evidence:
   article_date: index.json publication date; matches preserved folder
   challenge: Existing formal folder year and WW token; retained challenge identity
-  source_workbook_date: Date explicitly encoded in original workbook filename; not article publication
-    date
+  challenge_date: Official WoW WordPress publication date; docs/protocols/challenge-date-sources.json
 source:
+  challenge:
+    url: https://www.workout-wednesday.com/week-32-can-you-create-step-area-charts/
+    wordpress_post_id: 2897
   article:
     url: https://donnacoles.home.blog/2019/08/09/can-you-create-step-area-charts/
     path: posts/2019-08-09-Can_you_create_step_area_charts.html

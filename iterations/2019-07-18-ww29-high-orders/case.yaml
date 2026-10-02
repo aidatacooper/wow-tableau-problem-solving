@@ -7,13 +7,15 @@ legacy_case_ids:
 article_date: '2019-07-18'
 challenge_year: 2019
 challenge_week: 29
-source_workbook_date: '2019-07-17'
+challenge_date: '2019-07-16'
 date_evidence:
   article_date: index.json publication date; matches preserved folder
   challenge: Existing formal folder year and WW token; retained challenge identity
-  source_workbook_date: Date explicitly encoded in original workbook filename; not article publication
-    date
+  challenge_date: Official WoW WordPress publication date; docs/protocols/challenge-date-sources.json
 source:
+  challenge:
+    url: https://www.workout-wednesday.com/2019-w29/
+    wordpress_post_id: 2856
   article:
     url: https://donnacoles.home.blog/2019/07/18/wow-which-months-have-the-higher-number-of-orders/
     path: posts/2019-07-18-Which_months_have_the_higher_number_of_orders.html

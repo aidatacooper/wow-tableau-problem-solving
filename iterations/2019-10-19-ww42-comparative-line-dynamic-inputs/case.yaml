@@ -31,13 +31,15 @@ legacy_case_ids:
 article_date: '2019-10-19'
 challenge_year: 2019
 challenge_week: 42
-source_workbook_date: '2019-10-16'
+challenge_date: '2019-10-16'
 date_evidence:
   article_date: index.json publication date; matches preserved folder
   challenge: Existing formal folder year and WW token; retained challenge identity
-  source_workbook_date: Date explicitly encoded in original workbook filename; not article publication
-    date
+  challenge_date: Official WoW WordPress publication date; docs/protocols/challenge-date-sources.json
 source:
+  challenge:
+    url: https://www.workout-wednesday.com/week-42-can-you-build-a-comparative-line-chart-with-dynamic-inputs/
+    wordpress_post_id: 2997
   article:
     url: https://donnacoles.home.blog/2019/10/19/can-you-build-a-comparative-line-chart-with-dynamic-inputs/
     path: posts/2019-10-19-Can_you_build_a_comparative_line_chart_with_dynamic_inputs.html

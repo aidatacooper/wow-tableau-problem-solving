@@ -31,13 +31,15 @@ legacy_case_ids:
 article_date: '2019-09-29'
 challenge_year: 2019
 challenge_week: 39
-source_workbook_date: '2019-09-25'
+challenge_date: '2019-09-25'
 date_evidence:
   article_date: index.json publication date; matches preserved folder
   challenge: Existing formal folder year and WW token; retained challenge identity
-  source_workbook_date: Date explicitly encoded in original workbook filename; not article publication
-    date
+  challenge_date: Official WoW WordPress publication date; docs/protocols/challenge-date-sources.json
 source:
+  challenge:
+    url: https://www.workout-wednesday.com/week-39-bcg-growth-share-matrix/
+    wordpress_post_id: 2960
   article:
     url: https://donnacoles.home.blog/2019/09/29/can-you-create-a-bcg-growth-share-matrix-with-sales-and-orders/
     path: posts/2019-09-29-Can_you_create_a_BCG_growth_share_matrix_with_Sales_and_Orders.html

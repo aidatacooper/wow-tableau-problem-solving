@@ -31,7 +31,7 @@ class CaseCatalogueTests(unittest.TestCase):
             'schema_version': '1.1.0', 'iteration_id': name,
             'case_id': catalog.canonical_id(name, year), 'legacy_case_ids': {},
             'article_date': name[:10], 'challenge_year': year,
-            'challenge_week': week, 'source_workbook_date': None,
+            'challenge_week': week, 'challenge_date': None,
             'post': f'https://example.test/articles/{name}/',
             'source': {'article': {'url': f'https://example.test/articles/{name}/'},
                        'workbook': {'url': f'https://public.tableau.com/views/{name}/View',
@@ -60,6 +60,37 @@ class CaseCatalogueTests(unittest.TestCase):
         catalog.validate_identity(directory, case, self.root)
         self.assertEqual(case['case_id'], 'wow-2025-ww01-example')
         self.assertEqual(case['article_date'], '2026-01-01')
+
+    def test_challenge_date_requires_valid_date_and_evidence(self):
+        directory, case = self.make_case()
+        for value in ('2026-02-30', '2026-1-1'):
+            case['challenge_date'] = value
+            with self.assertRaisesRegex(AssertionError, 'challenge_date'):
+                catalog.validate_identity(directory, case, self.root)
+        case['challenge_date'] = '2025-12-30'
+        with self.assertRaisesRegex(AssertionError, 'source URL'):
+            catalog.validate_identity(directory, case, self.root)
+        case['source']['challenge'] = {'url': 'https://www.workout-wednesday.com/example/'}
+        case['date_evidence'] = {'challenge_date': 'Official publication date'}
+        catalog.validate_identity(directory, case, self.root)
+        case['source_workbook_date'] = '2025-12-31'
+        with self.assertRaisesRegex(AssertionError, 'retired'):
+            catalog.validate_identity(directory, case, self.root)
+
+    def test_challenge_date_matches_official_snapshot(self):
+        directory, case = self.make_case()
+        case['challenge_date'] = '2025-12-30'
+        case['source']['challenge'] = {'url': 'https://www.workout-wednesday.com/example/'}
+        case['date_evidence'] = {'challenge_date': 'Official publication date'}
+        evidence = self.root / 'docs/protocols/challenge-date-sources.json'
+        evidence.parent.mkdir(parents=True)
+        evidence.write_text(json.dumps({'challenges': [{'challenge_year': 2026,
+            'challenge_week': 1, 'challenge_date': '2025-12-30',
+            'url': case['source']['challenge']['url']}]}))
+        catalog.validate_identity(directory, case, self.root)
+        case['challenge_date'] = '2025-12-31'
+        with self.assertRaisesRegex(AssertionError, 'official date evidence'):
+            catalog.validate_identity(directory, case, self.root)
 
     def test_invalid_real_date_and_week_are_rejected(self):
         for name in ['2026-02-30-ww01-example', '2026-01-01-ww00-example',
@@ -203,6 +234,28 @@ class CaseCatalogueTests(unittest.TestCase):
 
 
 class PrepareIdentityTests(unittest.TestCase):
+    def test_prepare_challenge_date_is_explicit_and_never_comes_from_filename(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            source = root / '2026_01_07_Original.twbx'
+            with zipfile.ZipFile(source, 'w') as archive:
+                archive.writestr('Data/Superstore.hyper', b'synthetic-data')
+            arguments = dict(source=source, iteration_id='2026-01-08-ww01-example',
+                             case_id=None, post='https://example.test/article',
+                             iterations_root=root / 'iterations', challenge_year=2026)
+            with self.assertRaisesRegex(ValueError, 'challenge_url'):
+                prepare_case.prepare_case(**arguments, challenge_date='2026-01-06')
+            with self.assertRaisesRegex(ValueError, 'challenge_date'):
+                prepare_case.prepare_case(**arguments, challenge_date='2026-02-30',
+                                          challenge_url='https://www.workout-wednesday.com/example/')
+            directory = prepare_case.prepare_case(**arguments, challenge_date='2026-01-06',
+                          challenge_url='https://www.workout-wednesday.com/example/')
+            case = yaml.safe_load((directory / 'case.yaml').read_text())
+            self.assertEqual(case['article_date'], '2026-01-08')
+            self.assertEqual(case['challenge_date'], '2026-01-06')
+            self.assertEqual(case['source']['workbook']['filename'], '2026_01_07_Original.twbx')
+            self.assertNotIn('source_workbook_date', case)
+
     def test_prepare_requires_explicit_year_and_generates_cross_year_id(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
@@ -221,7 +274,10 @@ class PrepareIdentityTests(unittest.TestCase):
             case = yaml.safe_load((directory / 'case.yaml').read_text())
             self.assertEqual(case['case_id'], 'wow-2025-ww53-example')
             self.assertEqual(case['article_date'], '2026-01-01')
-            self.assertEqual(case['source_workbook_date'], '2025-12-31')
+            self.assertIsNone(case['challenge_date'])
+            self.assertNotIn('source_workbook_date', case)
+            self.assertNotIn('source_workbook_date', case['date_evidence'])
+            self.assertEqual(case['source']['workbook']['filename'], source.name)
             self.assertEqual(case['legacy_case_ids'], {})
             self.assertFalse((directory / source.name).exists())
 

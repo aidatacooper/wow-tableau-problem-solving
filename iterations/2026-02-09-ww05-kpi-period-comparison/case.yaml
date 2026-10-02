@@ -7,13 +7,15 @@ legacy_case_ids:
 article_date: '2026-02-09'
 challenge_year: 2026
 challenge_week: 5
-source_workbook_date: '2026-02-04'
+challenge_date: '2026-02-04'
 date_evidence:
   article_date: index.json publication date; matches preserved folder
   challenge: Existing formal folder year and WW token; retained challenge identity
-  source_workbook_date: Date explicitly encoded in original workbook filename; not article publication
-    date
+  challenge_date: Official WoW WordPress publication date; docs/protocols/challenge-date-sources.json
 source:
+  challenge:
+    url: https://www.workout-wednesday.com/2026w5tab/
+    wordpress_post_id: 21250
   article:
     url: https://donnacoles.home.blog/2026/02/09/kpi-trend-monitor-with-period-comparison/
     path: posts/2026-02-09-KPI_Trend_Monitor_With_Period_Comparison.html
