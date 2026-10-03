@@ -1,0 +1,9 @@
+{
+  "original_sha256": "6f385453ced284c97916436d9d31d8de112b5dbd1f431498b3a823f6020e37e0",
+  "comparison_sha256": "8bbe67d682f39b8239df13233b720c9a80ea129fc8cecce9a2b4032919679d9d",
+  "transformation": "Only change hidden worksheet windows hidden=true to false; formulas, dashboard layout and data remain unchanged.",
+  "exposed_worksheets": [
+    "Viz"
+  ],
+  "browser_interaction_executed": false
+}

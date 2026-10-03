@@ -1,0 +1,9 @@
+# Customer order distribution
+
+The article was published on 2020-07-03; the official challenge is WordPress post 3829, published 2020-06-30. The original extract contains 9,994 order-line records, 793 customers and 39 segment/order-count buckets. Only the final Viz is a business view; source Data and In Progress sheets are development aids.
+
+A FIXED Segment / Customer ID distinct order count supplies the vertical position. Customer ID remains on Detail, so the window count and INDEX have one mark per customer within each segment/order-count bucket. All nested table calculations explicitly address Customer ID. For bucket count n and parameter p, floor(n/p) circles are placed at j-(floor(n/p)-1)/2; individual customer marks coincide at these coordinates. Buckets smaller than p have no plotted circle, matching the source's modulo-zero/null behavior. This is a floored symbolic distribution: it does not promise that every circle represents exactly p individually assigned customers when the bucket has a remainder.
+
+The independent verifier reads raw Hyper rows, recomputes every distinct-order bucket, and validates parameters 1, 5 and 10, including zero-circle buckets and odd/even symmetric positions. Full Viz CSV verifies every rendered customer mark and the complete unique coordinate set per bucket for source and replica. Static contracts prove the empty build, locked input, native circle marks, customer grain, table-calculation addressing and lack of actions. REST parameter states do not demonstrate a browser interaction.
+
+The public SDK supports the required native calculation, layout, parameter control and styling APIs at the locked baseline commit. Fresh complete Cloud REST states passed independent comparison and paired review; remaining visual differences are recorded in evidence/visual-review.md. No pixel equivalence or browser event is claimed.

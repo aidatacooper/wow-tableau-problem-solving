@@ -1,0 +1,581 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "file": "outputs/cloud-author-data.csv",
+      "role": "author",
+      "state": "default",
+      "rows": 16,
+      "numeric_cells_checked": 16,
+      "scope": "All16 original prior/budget/current/reference diagnostic metrics or all10 replica selected-comparison metrics, at actual CSV decimal precision."
+    },
+    {
+      "file": "outputs/cloud-author-sales-trend.csv",
+      "role": "author",
+      "state": "default",
+      "rows": 32,
+      "numeric_cells_checked": 21,
+      "scope": "Every20 nonnull month/year aggregate (12prior,8current), latest May2020 marker, null domain-completion marks explicitly excluded."
+    },
+    {
+      "file": "outputs/cloud-author-opp-trend.csv",
+      "role": "author",
+      "state": "default",
+      "rows": 32,
+      "numeric_cells_checked": 21,
+      "scope": "Every20 nonnull month/year aggregate (12prior,8current), latest May2020 marker, null domain-completion marks explicitly excluded."
+    },
+    {
+      "file": "outputs/cloud-author-sales-bar.csv",
+      "role": "author",
+      "state": "default",
+      "rows": 1,
+      "numeric_cells_checked": 2,
+      "scope": "Complete displayed FYTD/reference bar or signed difference/ratio KPI; triangle-corrupted source CSV uses its independently checked percentage sign."
+    },
+    {
+      "file": "outputs/cloud-author-opp-bar.csv",
+      "role": "author",
+      "state": "default",
+      "rows": 1,
+      "numeric_cells_checked": 2,
+      "scope": "Complete displayed FYTD/reference bar or signed difference/ratio KPI; triangle-corrupted source CSV uses its independently checked percentage sign."
+    },
+    {
+      "file": "outputs/cloud-author-sales-kpi.csv",
+      "role": "author",
+      "state": "default",
+      "rows": 1,
+      "numeric_cells_checked": 2,
+      "scope": "Complete displayed FYTD/reference bar or signed difference/ratio KPI; triangle-corrupted source CSV uses its independently checked percentage sign."
+    },
+    {
+      "file": "outputs/cloud-author-opp-kpi.csv",
+      "role": "author",
+      "state": "default",
+      "rows": 1,
+      "numeric_cells_checked": 2,
+      "scope": "Complete displayed FYTD/reference bar or signed difference/ratio KPI; triangle-corrupted source CSV uses its independently checked percentage sign."
+    },
+    {
+      "file": "outputs/cloud-author-year-legend.csv",
+      "role": "author",
+      "state": "default",
+      "rows": 2,
+      "numeric_cells_checked": 0,
+      "scope": "Both fiscal-year legend members."
+    },
+    {
+      "file": "outputs/cloud-author-diff-legend.csv",
+      "role": "author",
+      "state": "default",
+      "rows": 3,
+      "numeric_cells_checked": 0,
+      "scope": "All three inclusive/strict difference legend members."
+    },
+    {
+      "file": "outputs/cloud-replica-data.csv",
+      "role": "replica",
+      "state": "default",
+      "rows": 10,
+      "numeric_cells_checked": 10,
+      "scope": "All16 original prior/budget/current/reference diagnostic metrics or all10 replica selected-comparison metrics, at actual CSV decimal precision."
+    },
+    {
+      "file": "outputs/cloud-replica-sales-trend.csv",
+      "role": "replica",
+      "state": "default",
+      "rows": 36,
+      "numeric_cells_checked": 22,
+      "scope": "Every20 nonnull month/year aggregate (12prior,8current), latest May2020 marker, null domain-completion marks explicitly excluded."
+    },
+    {
+      "file": "outputs/cloud-replica-opp-trend.csv",
+      "role": "replica",
+      "state": "default",
+      "rows": 36,
+      "numeric_cells_checked": 22,
+      "scope": "Every20 nonnull month/year aggregate (12prior,8current), latest May2020 marker, null domain-completion marks explicitly excluded."
+    },
+    {
+      "file": "outputs/cloud-replica-sales-bar.csv",
+      "role": "replica",
+      "state": "default",
+      "rows": 1,
+      "numeric_cells_checked": 4,
+      "scope": "Complete displayed FYTD/reference bar or signed difference/ratio KPI; triangle-corrupted source CSV uses its independently checked percentage sign."
+    },
+    {
+      "file": "outputs/cloud-replica-opp-bar.csv",
+      "role": "replica",
+      "state": "default",
+      "rows": 1,
+      "numeric_cells_checked": 4,
+      "scope": "Complete displayed FYTD/reference bar or signed difference/ratio KPI; triangle-corrupted source CSV uses its independently checked percentage sign."
+    },
+    {
+      "file": "outputs/cloud-replica-sales-kpi.csv",
+      "role": "replica",
+      "state": "default",
+      "rows": 1,
+      "numeric_cells_checked": 4,
+      "scope": "Complete displayed FYTD/reference bar or signed difference/ratio KPI; triangle-corrupted source CSV uses its independently checked percentage sign."
+    },
+    {
+      "file": "outputs/cloud-replica-opp-kpi.csv",
+      "role": "replica",
+      "state": "default",
+      "rows": 1,
+      "numeric_cells_checked": 4,
+      "scope": "Complete displayed FYTD/reference bar or signed difference/ratio KPI; triangle-corrupted source CSV uses its independently checked percentage sign."
+    },
+    {
+      "file": "outputs/cloud-replica-year-legend.csv",
+      "role": "replica",
+      "state": "default",
+      "rows": 2,
+      "numeric_cells_checked": 0,
+      "scope": "Both fiscal-year legend members."
+    },
+    {
+      "file": "outputs/cloud-replica-diff-legend.csv",
+      "role": "replica",
+      "state": "default",
+      "rows": 3,
+      "numeric_cells_checked": 0,
+      "scope": "All three inclusive/strict difference legend members."
+    },
+    {
+      "file": "outputs/cloud-author-data-prior-year.csv",
+      "role": "author",
+      "state": "prior-year",
+      "rows": 16,
+      "numeric_cells_checked": 16,
+      "scope": "All16 original prior/budget/current/reference diagnostic metrics or all10 replica selected-comparison metrics, at actual CSV decimal precision."
+    },
+    {
+      "file": "outputs/cloud-author-sales-trend-prior-year.csv",
+      "role": "author",
+      "state": "prior-year",
+      "rows": 32,
+      "numeric_cells_checked": 21,
+      "scope": "Every20 nonnull month/year aggregate (12prior,8current), latest May2020 marker, null domain-completion marks explicitly excluded."
+    },
+    {
+      "file": "outputs/cloud-author-opp-trend-prior-year.csv",
+      "role": "author",
+      "state": "prior-year",
+      "rows": 32,
+      "numeric_cells_checked": 21,
+      "scope": "Every20 nonnull month/year aggregate (12prior,8current), latest May2020 marker, null domain-completion marks explicitly excluded."
+    },
+    {
+      "file": "outputs/cloud-author-sales-bar-prior-year.csv",
+      "role": "author",
+      "state": "prior-year",
+      "rows": 1,
+      "numeric_cells_checked": 2,
+      "scope": "Complete displayed FYTD/reference bar or signed difference/ratio KPI; triangle-corrupted source CSV uses its independently checked percentage sign."
+    },
+    {
+      "file": "outputs/cloud-author-opp-bar-prior-year.csv",
+      "role": "author",
+      "state": "prior-year",
+      "rows": 1,
+      "numeric_cells_checked": 2,
+      "scope": "Complete displayed FYTD/reference bar or signed difference/ratio KPI; triangle-corrupted source CSV uses its independently checked percentage sign."
+    },
+    {
+      "file": "outputs/cloud-author-sales-kpi-prior-year.csv",
+      "role": "author",
+      "state": "prior-year",
+      "rows": 1,
+      "numeric_cells_checked": 2,
+      "scope": "Complete displayed FYTD/reference bar or signed difference/ratio KPI; triangle-corrupted source CSV uses its independently checked percentage sign."
+    },
+    {
+      "file": "outputs/cloud-author-opp-kpi-prior-year.csv",
+      "role": "author",
+      "state": "prior-year",
+      "rows": 1,
+      "numeric_cells_checked": 2,
+      "scope": "Complete displayed FYTD/reference bar or signed difference/ratio KPI; triangle-corrupted source CSV uses its independently checked percentage sign."
+    },
+    {
+      "file": "outputs/cloud-author-year-legend-prior-year.csv",
+      "role": "author",
+      "state": "prior-year",
+      "rows": 2,
+      "numeric_cells_checked": 0,
+      "scope": "Both fiscal-year legend members."
+    },
+    {
+      "file": "outputs/cloud-author-diff-legend-prior-year.csv",
+      "role": "author",
+      "state": "prior-year",
+      "rows": 3,
+      "numeric_cells_checked": 0,
+      "scope": "All three inclusive/strict difference legend members."
+    },
+    {
+      "file": "outputs/cloud-replica-data-prior-year.csv",
+      "role": "replica",
+      "state": "prior-year",
+      "rows": 10,
+      "numeric_cells_checked": 10,
+      "scope": "All16 original prior/budget/current/reference diagnostic metrics or all10 replica selected-comparison metrics, at actual CSV decimal precision."
+    },
+    {
+      "file": "outputs/cloud-replica-sales-trend-prior-year.csv",
+      "role": "replica",
+      "state": "prior-year",
+      "rows": 36,
+      "numeric_cells_checked": 22,
+      "scope": "Every20 nonnull month/year aggregate (12prior,8current), latest May2020 marker, null domain-completion marks explicitly excluded."
+    },
+    {
+      "file": "outputs/cloud-replica-opp-trend-prior-year.csv",
+      "role": "replica",
+      "state": "prior-year",
+      "rows": 36,
+      "numeric_cells_checked": 22,
+      "scope": "Every20 nonnull month/year aggregate (12prior,8current), latest May2020 marker, null domain-completion marks explicitly excluded."
+    },
+    {
+      "file": "outputs/cloud-replica-sales-bar-prior-year.csv",
+      "role": "replica",
+      "state": "prior-year",
+      "rows": 1,
+      "numeric_cells_checked": 4,
+      "scope": "Complete displayed FYTD/reference bar or signed difference/ratio KPI; triangle-corrupted source CSV uses its independently checked percentage sign."
+    },
+    {
+      "file": "outputs/cloud-replica-opp-bar-prior-year.csv",
+      "role": "replica",
+      "state": "prior-year",
+      "rows": 1,
+      "numeric_cells_checked": 4,
+      "scope": "Complete displayed FYTD/reference bar or signed difference/ratio KPI; triangle-corrupted source CSV uses its independently checked percentage sign."
+    },
+    {
+      "file": "outputs/cloud-replica-sales-kpi-prior-year.csv",
+      "role": "replica",
+      "state": "prior-year",
+      "rows": 1,
+      "numeric_cells_checked": 4,
+      "scope": "Complete displayed FYTD/reference bar or signed difference/ratio KPI; triangle-corrupted source CSV uses its independently checked percentage sign."
+    },
+    {
+      "file": "outputs/cloud-replica-opp-kpi-prior-year.csv",
+      "role": "replica",
+      "state": "prior-year",
+      "rows": 1,
+      "numeric_cells_checked": 4,
+      "scope": "Complete displayed FYTD/reference bar or signed difference/ratio KPI; triangle-corrupted source CSV uses its independently checked percentage sign."
+    },
+    {
+      "file": "outputs/cloud-replica-year-legend-prior-year.csv",
+      "role": "replica",
+      "state": "prior-year",
+      "rows": 2,
+      "numeric_cells_checked": 0,
+      "scope": "Both fiscal-year legend members."
+    },
+    {
+      "file": "outputs/cloud-replica-diff-legend-prior-year.csv",
+      "role": "replica",
+      "state": "prior-year",
+      "rows": 3,
+      "numeric_cells_checked": 0,
+      "scope": "All three inclusive/strict difference legend members."
+    },
+    {
+      "file": "outputs/cloud-author-data-low-budget.csv",
+      "role": "author",
+      "state": "low-budget",
+      "rows": 16,
+      "numeric_cells_checked": 16,
+      "scope": "All16 original prior/budget/current/reference diagnostic metrics or all10 replica selected-comparison metrics, at actual CSV decimal precision."
+    },
+    {
+      "file": "outputs/cloud-author-sales-trend-low-budget.csv",
+      "role": "author",
+      "state": "low-budget",
+      "rows": 32,
+      "numeric_cells_checked": 21,
+      "scope": "Every20 nonnull month/year aggregate (12prior,8current), latest May2020 marker, null domain-completion marks explicitly excluded."
+    },
+    {
+      "file": "outputs/cloud-author-opp-trend-low-budget.csv",
+      "role": "author",
+      "state": "low-budget",
+      "rows": 32,
+      "numeric_cells_checked": 21,
+      "scope": "Every20 nonnull month/year aggregate (12prior,8current), latest May2020 marker, null domain-completion marks explicitly excluded."
+    },
+    {
+      "file": "outputs/cloud-author-sales-bar-low-budget.csv",
+      "role": "author",
+      "state": "low-budget",
+      "rows": 1,
+      "numeric_cells_checked": 2,
+      "scope": "Complete displayed FYTD/reference bar or signed difference/ratio KPI; triangle-corrupted source CSV uses its independently checked percentage sign."
+    },
+    {
+      "file": "outputs/cloud-author-opp-bar-low-budget.csv",
+      "role": "author",
+      "state": "low-budget",
+      "rows": 1,
+      "numeric_cells_checked": 2,
+      "scope": "Complete displayed FYTD/reference bar or signed difference/ratio KPI; triangle-corrupted source CSV uses its independently checked percentage sign."
+    },
+    {
+      "file": "outputs/cloud-author-sales-kpi-low-budget.csv",
+      "role": "author",
+      "state": "low-budget",
+      "rows": 1,
+      "numeric_cells_checked": 2,
+      "scope": "Complete displayed FYTD/reference bar or signed difference/ratio KPI; triangle-corrupted source CSV uses its independently checked percentage sign."
+    },
+    {
+      "file": "outputs/cloud-author-opp-kpi-low-budget.csv",
+      "role": "author",
+      "state": "low-budget",
+      "rows": 1,
+      "numeric_cells_checked": 2,
+      "scope": "Complete displayed FYTD/reference bar or signed difference/ratio KPI; triangle-corrupted source CSV uses its independently checked percentage sign."
+    },
+    {
+      "file": "outputs/cloud-author-year-legend-low-budget.csv",
+      "role": "author",
+      "state": "low-budget",
+      "rows": 2,
+      "numeric_cells_checked": 0,
+      "scope": "Both fiscal-year legend members."
+    },
+    {
+      "file": "outputs/cloud-author-diff-legend-low-budget.csv",
+      "role": "author",
+      "state": "low-budget",
+      "rows": 3,
+      "numeric_cells_checked": 0,
+      "scope": "All three inclusive/strict difference legend members."
+    },
+    {
+      "file": "outputs/cloud-replica-data-low-budget.csv",
+      "role": "replica",
+      "state": "low-budget",
+      "rows": 10,
+      "numeric_cells_checked": 10,
+      "scope": "All16 original prior/budget/current/reference diagnostic metrics or all10 replica selected-comparison metrics, at actual CSV decimal precision."
+    },
+    {
+      "file": "outputs/cloud-replica-sales-trend-low-budget.csv",
+      "role": "replica",
+      "state": "low-budget",
+      "rows": 36,
+      "numeric_cells_checked": 22,
+      "scope": "Every20 nonnull month/year aggregate (12prior,8current), latest May2020 marker, null domain-completion marks explicitly excluded."
+    },
+    {
+      "file": "outputs/cloud-replica-opp-trend-low-budget.csv",
+      "role": "replica",
+      "state": "low-budget",
+      "rows": 36,
+      "numeric_cells_checked": 22,
+      "scope": "Every20 nonnull month/year aggregate (12prior,8current), latest May2020 marker, null domain-completion marks explicitly excluded."
+    },
+    {
+      "file": "outputs/cloud-replica-sales-bar-low-budget.csv",
+      "role": "replica",
+      "state": "low-budget",
+      "rows": 1,
+      "numeric_cells_checked": 4,
+      "scope": "Complete displayed FYTD/reference bar or signed difference/ratio KPI; triangle-corrupted source CSV uses its independently checked percentage sign."
+    },
+    {
+      "file": "outputs/cloud-replica-opp-bar-low-budget.csv",
+      "role": "replica",
+      "state": "low-budget",
+      "rows": 1,
+      "numeric_cells_checked": 4,
+      "scope": "Complete displayed FYTD/reference bar or signed difference/ratio KPI; triangle-corrupted source CSV uses its independently checked percentage sign."
+    },
+    {
+      "file": "outputs/cloud-replica-sales-kpi-low-budget.csv",
+      "role": "replica",
+      "state": "low-budget",
+      "rows": 1,
+      "numeric_cells_checked": 4,
+      "scope": "Complete displayed FYTD/reference bar or signed difference/ratio KPI; triangle-corrupted source CSV uses its independently checked percentage sign."
+    },
+    {
+      "file": "outputs/cloud-replica-opp-kpi-low-budget.csv",
+      "role": "replica",
+      "state": "low-budget",
+      "rows": 1,
+      "numeric_cells_checked": 4,
+      "scope": "Complete displayed FYTD/reference bar or signed difference/ratio KPI; triangle-corrupted source CSV uses its independently checked percentage sign."
+    },
+    {
+      "file": "outputs/cloud-replica-year-legend-low-budget.csv",
+      "role": "replica",
+      "state": "low-budget",
+      "rows": 2,
+      "numeric_cells_checked": 0,
+      "scope": "Both fiscal-year legend members."
+    },
+    {
+      "file": "outputs/cloud-replica-diff-legend-low-budget.csv",
+      "role": "replica",
+      "state": "low-budget",
+      "rows": 3,
+      "numeric_cells_checked": 0,
+      "scope": "All three inclusive/strict difference legend members."
+    },
+    {
+      "file": "outputs/cloud-author-data-high-budget.csv",
+      "role": "author",
+      "state": "high-budget",
+      "rows": 16,
+      "numeric_cells_checked": 16,
+      "scope": "All16 original prior/budget/current/reference diagnostic metrics or all10 replica selected-comparison metrics, at actual CSV decimal precision."
+    },
+    {
+      "file": "outputs/cloud-author-sales-trend-high-budget.csv",
+      "role": "author",
+      "state": "high-budget",
+      "rows": 32,
+      "numeric_cells_checked": 21,
+      "scope": "Every20 nonnull month/year aggregate (12prior,8current), latest May2020 marker, null domain-completion marks explicitly excluded."
+    },
+    {
+      "file": "outputs/cloud-author-opp-trend-high-budget.csv",
+      "role": "author",
+      "state": "high-budget",
+      "rows": 32,
+      "numeric_cells_checked": 21,
+      "scope": "Every20 nonnull month/year aggregate (12prior,8current), latest May2020 marker, null domain-completion marks explicitly excluded."
+    },
+    {
+      "file": "outputs/cloud-author-sales-bar-high-budget.csv",
+      "role": "author",
+      "state": "high-budget",
+      "rows": 1,
+      "numeric_cells_checked": 2,
+      "scope": "Complete displayed FYTD/reference bar or signed difference/ratio KPI; triangle-corrupted source CSV uses its independently checked percentage sign."
+    },
+    {
+      "file": "outputs/cloud-author-opp-bar-high-budget.csv",
+      "role": "author",
+      "state": "high-budget",
+      "rows": 1,
+      "numeric_cells_checked": 2,
+      "scope": "Complete displayed FYTD/reference bar or signed difference/ratio KPI; triangle-corrupted source CSV uses its independently checked percentage sign."
+    },
+    {
+      "file": "outputs/cloud-author-sales-kpi-high-budget.csv",
+      "role": "author",
+      "state": "high-budget",
+      "rows": 1,
+      "numeric_cells_checked": 2,
+      "scope": "Complete displayed FYTD/reference bar or signed difference/ratio KPI; triangle-corrupted source CSV uses its independently checked percentage sign."
+    },
+    {
+      "file": "outputs/cloud-author-opp-kpi-high-budget.csv",
+      "role": "author",
+      "state": "high-budget",
+      "rows": 1,
+      "numeric_cells_checked": 2,
+      "scope": "Complete displayed FYTD/reference bar or signed difference/ratio KPI; triangle-corrupted source CSV uses its independently checked percentage sign."
+    },
+    {
+      "file": "outputs/cloud-author-year-legend-high-budget.csv",
+      "role": "author",
+      "state": "high-budget",
+      "rows": 2,
+      "numeric_cells_checked": 0,
+      "scope": "Both fiscal-year legend members."
+    },
+    {
+      "file": "outputs/cloud-author-diff-legend-high-budget.csv",
+      "role": "author",
+      "state": "high-budget",
+      "rows": 3,
+      "numeric_cells_checked": 0,
+      "scope": "All three inclusive/strict difference legend members."
+    },
+    {
+      "file": "outputs/cloud-replica-data-high-budget.csv",
+      "role": "replica",
+      "state": "high-budget",
+      "rows": 10,
+      "numeric_cells_checked": 10,
+      "scope": "All16 original prior/budget/current/reference diagnostic metrics or all10 replica selected-comparison metrics, at actual CSV decimal precision."
+    },
+    {
+      "file": "outputs/cloud-replica-sales-trend-high-budget.csv",
+      "role": "replica",
+      "state": "high-budget",
+      "rows": 36,
+      "numeric_cells_checked": 22,
+      "scope": "Every20 nonnull month/year aggregate (12prior,8current), latest May2020 marker, null domain-completion marks explicitly excluded."
+    },
+    {
+      "file": "outputs/cloud-replica-opp-trend-high-budget.csv",
+      "role": "replica",
+      "state": "high-budget",
+      "rows": 36,
+      "numeric_cells_checked": 22,
+      "scope": "Every20 nonnull month/year aggregate (12prior,8current), latest May2020 marker, null domain-completion marks explicitly excluded."
+    },
+    {
+      "file": "outputs/cloud-replica-sales-bar-high-budget.csv",
+      "role": "replica",
+      "state": "high-budget",
+      "rows": 1,
+      "numeric_cells_checked": 4,
+      "scope": "Complete displayed FYTD/reference bar or signed difference/ratio KPI; triangle-corrupted source CSV uses its independently checked percentage sign."
+    },
+    {
+      "file": "outputs/cloud-replica-opp-bar-high-budget.csv",
+      "role": "replica",
+      "state": "high-budget",
+      "rows": 1,
+      "numeric_cells_checked": 4,
+      "scope": "Complete displayed FYTD/reference bar or signed difference/ratio KPI; triangle-corrupted source CSV uses its independently checked percentage sign."
+    },
+    {
+      "file": "outputs/cloud-replica-sales-kpi-high-budget.csv",
+      "role": "replica",
+      "state": "high-budget",
+      "rows": 1,
+      "numeric_cells_checked": 4,
+      "scope": "Complete displayed FYTD/reference bar or signed difference/ratio KPI; triangle-corrupted source CSV uses its independently checked percentage sign."
+    },
+    {
+      "file": "outputs/cloud-replica-opp-kpi-high-budget.csv",
+      "role": "replica",
+      "state": "high-budget",
+      "rows": 1,
+      "numeric_cells_checked": 4,
+      "scope": "Complete displayed FYTD/reference bar or signed difference/ratio KPI; triangle-corrupted source CSV uses its independently checked percentage sign."
+    },
+    {
+      "file": "outputs/cloud-replica-year-legend-high-budget.csv",
+      "role": "replica",
+      "state": "high-budget",
+      "rows": 2,
+      "numeric_cells_checked": 0,
+      "scope": "Both fiscal-year legend members."
+    },
+    {
+      "file": "outputs/cloud-replica-diff-legend-high-budget.csv",
+      "role": "replica",
+      "state": "high-budget",
+      "rows": 3,
+      "numeric_cells_checked": 0,
+      "scope": "All three inclusive/strict difference legend members."
+    }
+  ]
+}

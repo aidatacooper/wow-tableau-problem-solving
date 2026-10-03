@@ -1,0 +1,4 @@
+Legend Label,Legend Point,Max. Legend Sort
+Difference < -5%,0.5,1
+-5% <= Difference <= 5%,0.5,2
+Difference > 5%,0.5,3

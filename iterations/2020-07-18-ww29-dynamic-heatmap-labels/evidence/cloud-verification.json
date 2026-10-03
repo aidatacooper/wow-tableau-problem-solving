@@ -1,0 +1,258 @@
+{
+  "case_id": "wow-2020-ww29-dynamic-heatmap-labels",
+  "captured_at": "2026-10-03T14:51:18.040108+00:00",
+  "source_hashes": {
+    "author": "1f1318efd0e066760bc027e4bae8f8904a6ea654de2ed1d0bc99294cc6a27a27",
+    "replica": "1343cfaad594d40473768073eb61ba4fefea5d0f9c8d13a350dd0145152099b0"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "99212898-71c5-4322-ae45-64c25af88e36",
+      "name": "cwtwb-review-wow-2020-ww29-dynamic-heatmap-labels-author-1f1318efd0e0",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2930417",
+      "views": [
+        {
+          "name": "2020_07_15_WW29_Heatmap_Intermediate",
+          "id": "2ccccbaa-b533-4107-bf9a-90240a4173ad"
+        },
+        {
+          "name": "2020_07_15_WW29_Heatmap_Advanced",
+          "id": "3ab590cf-040f-449a-90c6-0cfba711750c"
+        },
+        {
+          "name": "Chart-Advanced Data Chk",
+          "id": "a6c0ce0a-6534-48ed-9375-2a3d01ba96cc"
+        },
+        {
+          "name": "Chart-Advanced",
+          "id": "7082bd57-8dfb-49f1-8504-040233a2f070"
+        },
+        {
+          "name": "Chart-Int",
+          "id": "986820f8-da46-43bd-b34c-d9c0c01a2ba6"
+        }
+      ]
+    },
+    "replica": {
+      "id": "1cffaa79-eb06-4d62-9597-4431c6985504",
+      "name": "cwtwb-review-wow-2020-ww29-dynamic-heatmap-labels-replica-1343cfaad594",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2930460",
+      "views": [
+        {
+          "name": "Chart-Int",
+          "id": "0d2a392d-8864-4f1b-b022-f97ed2178c12"
+        },
+        {
+          "name": "2020_07_15_WW29_Heatmap_Intermediate",
+          "id": "2f7ac786-47cd-4342-9046-143e5a48d330"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "2ccccbaa-b533-4107-bf9a-90240a4173ad",
+          "name": "2020_07_15_WW29_Heatmap_Intermediate",
+          "path": "outputs/cloud-author.png",
+          "sha256": "6b5036652af34f6ec210e85644339096bcac24f19ff63f7df91345142c84d939",
+          "size": [
+            1800,
+            1000
+          ]
+        },
+        "replica": {
+          "id": "2f7ac786-47cd-4342-9046-143e5a48d330",
+          "name": "2020_07_15_WW29_Heatmap_Intermediate",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "4749a77bff24ed5a68d36cbe65155afc8e66a6307d4bb85756814aae20efd825",
+          "size": [
+            1800,
+            1000
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Chart-Int",
+          "view_id": "986820f8-da46-43bd-b34c-d9c0c01a2ba6",
+          "scope": "Full Intermediate month/year heatmap and native total rows/columns; AVG Quantity, Total Label/Cell Label and Profit Ratio if included by REST. Empty hover sets; ordinary filters test SIZE label branches, not hover execution.",
+          "path": "outputs/cloud-author-heatmap.csv",
+          "sha256": "72d1b5ce4fdc7cf3a945a28ca44ff5655d01c6f10c70072c1d5ece4c7eb91ef3",
+          "bytes": 2045
+        },
+        {
+          "role": "replica",
+          "view": "Chart-Int",
+          "view_id": "0d2a392d-8864-4f1b-b022-f97ed2178c12",
+          "scope": "Full Intermediate month/year heatmap and native total rows/columns; AVG Quantity, Total Label/Cell Label and Profit Ratio if included by REST. Empty hover sets; ordinary filters test SIZE label branches, not hover execution.",
+          "path": "outputs/cloud-replica-heatmap.csv",
+          "sha256": "19e96d8b59022934dbd53191b9957bca1b9917655c6d02f408183f15399578ef",
+          "bytes": 2321
+        }
+      ]
+    },
+    {
+      "name": "year-2019",
+      "parameters": {},
+      "filters": {
+        "Year Order Date": "2019"
+      },
+      "views": {
+        "author": {
+          "id": "2ccccbaa-b533-4107-bf9a-90240a4173ad",
+          "name": "2020_07_15_WW29_Heatmap_Intermediate",
+          "path": "outputs/cloud-author-year-2019.png",
+          "sha256": "7aa12ee50de2cd329058fb498083fb1f122a841453af86c949a162970bfef8ee",
+          "size": [
+            1800,
+            1000
+          ]
+        },
+        "replica": {
+          "id": "2f7ac786-47cd-4342-9046-143e5a48d330",
+          "name": "2020_07_15_WW29_Heatmap_Intermediate",
+          "path": "outputs/cloud-replica-year-2019.png",
+          "sha256": "61da2daccb4dd112560d483b714b3d8b91a2936bdfa6dac2af35002dda7be1c8",
+          "size": [
+            1800,
+            1000
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Chart-Int",
+          "view_id": "986820f8-da46-43bd-b34c-d9c0c01a2ba6",
+          "scope": "Full Intermediate month/year heatmap and native total rows/columns; AVG Quantity, Total Label/Cell Label and Profit Ratio if included by REST. Empty hover sets; ordinary filters test SIZE label branches, not hover execution.",
+          "path": "outputs/cloud-author-heatmap-year-2019.csv",
+          "sha256": "6f7280a70cb7a3c46d101c9859ee4a56f7ff1a0b76ecfa052b5e34c1e523a9b8",
+          "bytes": 930
+        },
+        {
+          "role": "replica",
+          "view": "Chart-Int",
+          "view_id": "0d2a392d-8864-4f1b-b022-f97ed2178c12",
+          "scope": "Full Intermediate month/year heatmap and native total rows/columns; AVG Quantity, Total Label/Cell Label and Profit Ratio if included by REST. Empty hover sets; ordinary filters test SIZE label branches, not hover execution.",
+          "path": "outputs/cloud-replica-heatmap-year-2019.csv",
+          "sha256": "7c6ff4d7416df1456293c6bd09bf858620a7363271ae1718fb97e2b6bc288c72",
+          "bytes": 1050
+        }
+      ]
+    },
+    {
+      "name": "january",
+      "parameters": {},
+      "filters": {
+        "Month Order Date": "January"
+      },
+      "views": {
+        "author": {
+          "id": "2ccccbaa-b533-4107-bf9a-90240a4173ad",
+          "name": "2020_07_15_WW29_Heatmap_Intermediate",
+          "path": "outputs/cloud-author-january.png",
+          "sha256": "616e2653fb3fae0131f28d635c5c3bb0fcef5d4e5cf78780ee1d20d254d8988a",
+          "size": [
+            1800,
+            1000
+          ]
+        },
+        "replica": {
+          "id": "2f7ac786-47cd-4342-9046-143e5a48d330",
+          "name": "2020_07_15_WW29_Heatmap_Intermediate",
+          "path": "outputs/cloud-replica-january.png",
+          "sha256": "984260e9455d7b3c91566afac2c4eed005f90ec07b8e217e9bc87b8ca51ee1dc",
+          "size": [
+            1800,
+            1000
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Chart-Int",
+          "view_id": "986820f8-da46-43bd-b34c-d9c0c01a2ba6",
+          "scope": "Full Intermediate month/year heatmap and native total rows/columns; AVG Quantity, Total Label/Cell Label and Profit Ratio if included by REST. Empty hover sets; ordinary filters test SIZE label branches, not hover execution.",
+          "path": "outputs/cloud-author-heatmap-january.csv",
+          "sha256": "1f2ee0f9b248ffe6f2bc4e4c52718240541b3f9024f353ac354cbad6c5cb515e",
+          "bytes": 413
+        },
+        {
+          "role": "replica",
+          "view": "Chart-Int",
+          "view_id": "0d2a392d-8864-4f1b-b022-f97ed2178c12",
+          "scope": "Full Intermediate month/year heatmap and native total rows/columns; AVG Quantity, Total Label/Cell Label and Profit Ratio if included by REST. Empty hover sets; ordinary filters test SIZE label branches, not hover execution.",
+          "path": "outputs/cloud-replica-heatmap-january.csv",
+          "sha256": "0a4a6ab13e8d267956a8781efa5428b8a49ca3aef89e3a4c912e6d53edd755de",
+          "bytes": 459
+        }
+      ]
+    },
+    {
+      "name": "single-cell",
+      "parameters": {},
+      "filters": {
+        "Year Order Date": "2019",
+        "Month Order Date": "January"
+      },
+      "views": {
+        "author": {
+          "id": "2ccccbaa-b533-4107-bf9a-90240a4173ad",
+          "name": "2020_07_15_WW29_Heatmap_Intermediate",
+          "path": "outputs/cloud-author-single-cell.png",
+          "sha256": "47a3afecc60ee534ab574b04c54ab6822243a0e86558045a0a73e961aefd9f98",
+          "size": [
+            1800,
+            1000
+          ]
+        },
+        "replica": {
+          "id": "2f7ac786-47cd-4342-9046-143e5a48d330",
+          "name": "2020_07_15_WW29_Heatmap_Intermediate",
+          "path": "outputs/cloud-replica-single-cell.png",
+          "sha256": "d55f2d5a2953302f3ea0e7c4bf459587add02fc60ea8a4d74ac677c052023c84",
+          "size": [
+            1800,
+            1000
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Chart-Int",
+          "view_id": "986820f8-da46-43bd-b34c-d9c0c01a2ba6",
+          "scope": "Full Intermediate month/year heatmap and native total rows/columns; AVG Quantity, Total Label/Cell Label and Profit Ratio if included by REST. Empty hover sets; ordinary filters test SIZE label branches, not hover execution.",
+          "path": "outputs/cloud-author-heatmap-single-cell.csv",
+          "sha256": "e43b6fa61c4fdd3f4b0842b89c94fcb69dc48f002888dcc314cb8ed4539fbc06",
+          "bytes": 213
+        },
+        {
+          "role": "replica",
+          "view": "Chart-Int",
+          "view_id": "0d2a392d-8864-4f1b-b022-f97ed2178c12",
+          "scope": "Full Intermediate month/year heatmap and native total rows/columns; AVG Quantity, Total Label/Cell Label and Profit Ratio if included by REST. Empty hover sets; ordinary filters test SIZE label branches, not hover execution.",
+          "path": "outputs/cloud-replica-heatmap-single-cell.csv",
+          "sha256": "de57556c914fe4a55c7b1787997a0d324b9183abf1f41a8662160c5ff37fd51d",
+          "bytes": 241
+        }
+      ]
+    }
+  ],
+  "status": "verified",
+  "independent_review": {
+    "visual_status": "acceptable_delta",
+    "visual_evidence": "evidence/visual-review.md",
+    "functional_evidence": "evidence/functional-verification.json",
+    "scope": "Declared REST worksheet exports and artifact contracts; no browser events executed."
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "file": "outputs/cloud-author-chart.csv",
+      "products": 4,
+      "scope": "Every visible product price for the declared Type."
+    },
+    {
+      "file": "outputs/cloud-author-list-of-items.csv",
+      "selected_products": 8
+    },
+    {
+      "file": "outputs/cloud-author-selector.csv",
+      "rows": 4,
+      "scope": "Supporting selector/budget worksheet, not complete price proof."
+    },
+    {
+      "file": "outputs/cloud-author-total-bar.csv",
+      "type_subtotals": 4,
+      "global_selected_total": 17.54
+    },
+    {
+      "file": "outputs/cloud-author-under-over-budget.csv",
+      "budget": "15",
+      "difference": -2.539999999999999
+    },
+    {
+      "file": "outputs/cloud-replica-chart.csv",
+      "products": 4,
+      "scope": "Every visible product price for the declared Type."
+    },
+    {
+      "file": "outputs/cloud-replica-list-of-items.csv",
+      "selected_products": 8
+    },
+    {
+      "file": "outputs/cloud-replica-selector.csv",
+      "rows": 4,
+      "scope": "Supporting selector/budget worksheet, not complete price proof."
+    },
+    {
+      "file": "outputs/cloud-replica-total-bar.csv",
+      "type_subtotals": 4,
+      "global_selected_total": 17.54
+    },
+    {
+      "file": "outputs/cloud-replica-under-over-budget.csv",
+      "budget": "15",
+      "difference": -2.539999999999999
+    },
+    {
+      "file": "outputs/cloud-author-chart-budget-30.csv",
+      "products": 4,
+      "scope": "Every visible product price for the declared Type."
+    },
+    {
+      "file": "outputs/cloud-author-list-of-items-budget-30.csv",
+      "selected_products": 8
+    },
+    {
+      "file": "outputs/cloud-author-selector-budget-30.csv",
+      "rows": 4,
+      "scope": "Supporting selector/budget worksheet, not complete price proof."
+    },
+    {
+      "file": "outputs/cloud-author-total-bar-budget-30.csv",
+      "type_subtotals": 4,
+      "global_selected_total": 17.54
+    },
+    {
+      "file": "outputs/cloud-author-under-over-budget-budget-30.csv",
+      "budget": "30",
+      "difference": 12.46
+    },
+    {
+      "file": "outputs/cloud-replica-chart-budget-30.csv",
+      "products": 4,
+      "scope": "Every visible product price for the declared Type."
+    },
+    {
+      "file": "outputs/cloud-replica-list-of-items-budget-30.csv",
+      "selected_products": 8
+    },
+    {
+      "file": "outputs/cloud-replica-selector-budget-30.csv",
+      "rows": 4,
+      "scope": "Supporting selector/budget worksheet, not complete price proof."
+    },
+    {
+      "file": "outputs/cloud-replica-total-bar-budget-30.csv",
+      "type_subtotals": 4,
+      "global_selected_total": 17.54
+    },
+    {
+      "file": "outputs/cloud-replica-under-over-budget-budget-30.csv",
+      "budget": "30",
+      "difference": 12.46
+    },
+    {
+      "file": "outputs/cloud-author-chart-budget-5.csv",
+      "products": 4,
+      "scope": "Every visible product price for the declared Type."
+    },
+    {
+      "file": "outputs/cloud-author-list-of-items-budget-5.csv",
+      "selected_products": 8
+    },
+    {
+      "file": "outputs/cloud-author-selector-budget-5.csv",
+      "rows": 4,
+      "scope": "Supporting selector/budget worksheet, not complete price proof."
+    },
+    {
+      "file": "outputs/cloud-author-total-bar-budget-5.csv",
+      "type_subtotals": 4,
+      "global_selected_total": 17.54
+    },
+    {
+      "file": "outputs/cloud-author-under-over-budget-budget-5.csv",
+      "budget": "5",
+      "difference": -12.54
+    },
+    {
+      "file": "outputs/cloud-replica-chart-budget-5.csv",
+      "products": 4,
+      "scope": "Every visible product price for the declared Type."
+    },
+    {
+      "file": "outputs/cloud-replica-list-of-items-budget-5.csv",
+      "selected_products": 8
+    },
+    {
+      "file": "outputs/cloud-replica-selector-budget-5.csv",
+      "rows": 4,
+      "scope": "Supporting selector/budget worksheet, not complete price proof."
+    },
+    {
+      "file": "outputs/cloud-replica-total-bar-budget-5.csv",
+      "type_subtotals": 4,
+      "global_selected_total": 17.54
+    },
+    {
+      "file": "outputs/cloud-replica-under-over-budget-budget-5.csv",
+      "budget": "5",
+      "difference": -12.54
+    }
+  ]
+}

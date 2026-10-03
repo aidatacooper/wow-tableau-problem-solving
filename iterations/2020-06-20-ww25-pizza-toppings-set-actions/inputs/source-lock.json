@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0.0",
+  "source_workbook": {
+    "filename": "author.twbx",
+    "bytes": 83364,
+    "sha256": "36dacabe544326e8fe2eb602a448d2611e1c7d30386bea368a09cb9fc83be74a",
+    "url": "https://public.tableau.com/profile/donna.coles#!/vizhome/2020_06_17_WW25_Pizza_Toppings_Set_Actions/2020_06_17_WW25_PizzaToppings_Set_Actions"
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Datasources/Sheet1 (2020_06_17_WW25_Pizza Toppings).hyper",
+      "file": "inputs/Sheet1 (2020_06_17_WW25_Pizza Toppings).hyper",
+      "bytes": 65536,
+      "sha256": "4c7fbf2ad79e6eb105bdb62a8c8cc29aaf9f0238994c0c545836276cbdc0edff"
+    }
+  ],
+  "source_workbook_used_by_builder": false,
+  "source_article": {
+    "url": "https://donnacoles.home.blog/2020/06/20/can-you-add-and-remove-items-from-a-set/",
+    "sha256": "429382aac38164222e0f59b21f1f41062873830648303cd0726c83b127cf3edb"
+  },
+  "official_challenge": {
+    "url": "https://www.workout-wednesday.com/2020w25/",
+    "wordpress_post_id": 3766,
+    "article_date": "2020-06-20",
+    "challenge_date": "2020-06-16",
+    "sha256": "2c5c8fc5f858a7fb6c9a6ba0c80e629cb1e9f33c67f03f3ebccbd45ce8d719fc"
+  },
+  "derived_data": [
+    {
+      "file": "inputs/shapes/Crust-150x150.png",
+      "sha256": "9079e4a889f9592277aaf264f4111e256a38058e3603a46368462b8a6adec5ae",
+      "provenance": "Decoded original analysis TWB external/shapes PNG; data asset, not build template.",
+      "bytes": 14632
+    },
+    {
+      "file": "inputs/shapes/Sauce-150x150.png",
+      "sha256": "62a739644e998e545ce8487cefe23058ba4c55a368b997b489de9dabe203435d",
+      "provenance": "Decoded original analysis TWB external/shapes PNG; data asset, not build template.",
+      "bytes": 11940
+    },
+    {
+      "file": "inputs/shapes/Size-150x150.png",
+      "sha256": "262500ba2f3623c85b2d44e88f90ef2f4446e0341885d1dc3ce9811ae53391a0",
+      "provenance": "Decoded original analysis TWB external/shapes PNG; data asset, not build template.",
+      "bytes": 20766
+    },
+    {
+      "file": "inputs/shapes/Toppings-150x150.png",
+      "sha256": "4bb3995bf1287934f0e3e8397aa9bf519735f0aa04cd744e39e1d463c188779b",
+      "provenance": "Decoded original analysis TWB external/shapes PNG; data asset, not build template.",
+      "bytes": 15240
+    }
+  ]
+}

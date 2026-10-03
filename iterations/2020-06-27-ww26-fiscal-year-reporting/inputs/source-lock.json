@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0.0",
+  "source_workbook": {
+    "filename": "author.twbx",
+    "bytes": 59932,
+    "sha256": "6cf1d9e96c304047b38f46f82e34814ac9139257bd8bdd266375758c49bfef1f",
+    "url": "https://public.tableau.com/profile/donna.coles#!/vizhome/2020_06_24_WW26_FYReporting/2020_06_24_WW26_FY_Reporting"
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Datasources/Week 26 (2020_06_24_WW26).hyper",
+      "file": "inputs/Week 26 (2020_06_24_WW26).hyper",
+      "bytes": 196608,
+      "sha256": "7a1bb7e8e7f5f43a014887f2c5f4fd714ea23596d6a1848cb4f806ce930583b6"
+    }
+  ],
+  "source_workbook_used_by_builder": false,
+  "source_article": {
+    "url": "https://donnacoles.home.blog/2020/06/27/how-does-the-company-perform-in-the-fiscal-year/",
+    "sha256": "a4e01ff5956f66a6f1913783d89743d868a07720b637e2a6f528e97e6be48a3c"
+  },
+  "official_challenge": {
+    "url": "https://www.workout-wednesday.com/2020w26/",
+    "wordpress_post_id": 3776,
+    "article_date": "2020-06-27",
+    "challenge_date": "2020-06-23",
+    "sha256": "bcd6158e2f93daaceae4783daab98cd2d38567d833e6baad10284e3eb1ffff5b"
+  }
+}

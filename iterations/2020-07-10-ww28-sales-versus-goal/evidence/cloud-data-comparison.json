@@ -1,0 +1,197 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "path": "outputs/cloud-author-table.csv",
+      "rows": 432,
+      "marks": 144,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-data.csv",
+      "rows": 17280,
+      "marks": 2880,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-line.csv",
+      "rows": 96,
+      "marks": 48,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-barcode.csv",
+      "rows": 48,
+      "marks": 48,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-table.csv",
+      "rows": 432,
+      "marks": 144,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-data.csv",
+      "rows": 17280,
+      "marks": 2880,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-line.csv",
+      "rows": 96,
+      "marks": 48,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-barcode.csv",
+      "rows": 48,
+      "marks": 48,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-table-home-office-furniture.csv",
+      "rows": 141,
+      "marks": 47,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-data-home-office-furniture.csv",
+      "rows": 1410,
+      "marks": 235,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-line-home-office-furniture.csv",
+      "rows": 94,
+      "marks": 47,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-barcode-home-office-furniture.csv",
+      "rows": 47,
+      "marks": 47,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-table-home-office-furniture.csv",
+      "rows": 141,
+      "marks": 47,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-data-home-office-furniture.csv",
+      "rows": 1410,
+      "marks": 235,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-line-home-office-furniture.csv",
+      "rows": 94,
+      "marks": 47,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-barcode-home-office-furniture.csv",
+      "rows": 47,
+      "marks": 47,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-table-bookcases.csv",
+      "rows": 192,
+      "marks": 64,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-data-bookcases.csv",
+      "rows": 630,
+      "marks": 105,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-line-bookcases.csv",
+      "rows": 70,
+      "marks": 35,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-barcode-bookcases.csv",
+      "rows": 35,
+      "marks": 35,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-table-bookcases.csv",
+      "rows": 192,
+      "marks": 64,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-data-bookcases.csv",
+      "rows": 630,
+      "marks": 105,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-line-bookcases.csv",
+      "rows": 70,
+      "marks": 35,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-barcode-bookcases.csv",
+      "rows": 35,
+      "marks": 35,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-table-wide-thresholds.csv",
+      "rows": 432,
+      "marks": 144,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-data-wide-thresholds.csv",
+      "rows": 17280,
+      "marks": 2880,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-line-wide-thresholds.csv",
+      "rows": 96,
+      "marks": 48,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-barcode-wide-thresholds.csv",
+      "rows": 48,
+      "marks": 48,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-table-wide-thresholds.csv",
+      "rows": 432,
+      "marks": 144,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-data-wide-thresholds.csv",
+      "rows": 17280,
+      "marks": 2880,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-line-wide-thresholds.csv",
+      "rows": 96,
+      "marks": 48,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-barcode-wide-thresholds.csv",
+      "rows": 48,
+      "marks": 48,
+      "status": "pass"
+    }
+  ]
+}

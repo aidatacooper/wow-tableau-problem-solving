@@ -1,0 +1,8 @@
+{
+  "version": "0.27.1",
+  "commit": null,
+  "base_commit": "56377c5b170f0df1f5cd853fc483de26962dfed1",
+  "installation": "Editable local SDK with root native relationship development changes; not a released commit claim.",
+  "result": "pass",
+  "validation": "Case built via public APIs and independent raw data/relationship/action contract verifier passed. SDK test suite is coordinated by root, not claimed by this evidence."
+}

@@ -1,0 +1,4 @@
+Account Number,MIN(0.5)
+Difference > 5%,0.5
+-5% <= Difference <= 5%,0.5
+Difference < -5%,0.5

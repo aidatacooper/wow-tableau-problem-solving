@@ -1,0 +1,94 @@
+schema_version: 1.1.0
+case_id: wow-2020-ww25-pizza-toppings-set-actions
+iteration_id: 2020-06-20-ww25-pizza-toppings-set-actions
+post: https://donnacoles.home.blog/2020/06/20/can-you-add-and-remove-items-from-a-set/
+legacy_case_ids: {}
+article_date: '2020-06-20'
+challenge_year: 2020
+challenge_week: 25
+challenge_date: '2020-06-16'
+date_evidence:
+  article_date: Article publication URL and locked HTML
+  challenge: Official WordPress post 3766 title year/week
+  challenge_date: Official WordPress post 3766 published 2020-06-16
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2020w25/
+    wordpress_post_id: 3766
+  article:
+    url: https://donnacoles.home.blog/2020/06/20/can-you-add-and-remove-items-from-a-set/
+    path: null
+    sha256: 429382aac38164222e0f59b21f1f41062873830648303cd0726c83b127cf3edb
+  workbook:
+    url: https://public.tableau.com/profile/donna.coles#!/vizhome/2020_06_17_WW25_Pizza_Toppings_Set_Actions/2020_06_17_WW25_PizzaToppings_Set_Actions
+    filename: author.twbx
+    sha256: 36dacabe544326e8fe2eb602a448d2611e1c7d30386bea368a09cb9fc83be74a
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- evidence/cloud-data-comparison.json
+- evidence/cloud-verification.json
+- evidence/export-provenance.json
+- evidence/functional-verification.json
+- evidence/sdk-candidate.json
+- evidence/sdk-final-validation.json
+- evidence/sdk-gap-baseline.json
+- evidence/visual-review.md
+- evidence/zero-build-verification.json
+- inputs/source-lock.json
+notes:
+- Build uses locked extracted inputs and public SDK APIs only.
+- REST states and artifact contracts; no browser interaction executed.
+- Source Action(Type) REST override fails400081; product-chart export scope four Size
+  items. Full26-product raw oracle and native event contracts are separate evidence,
+  not event execution.
+cwtwb:
+  tested_version: 0.27.1
+  runs:
+  - version: 0.27.1
+    commit: 56377c5b170f0df1f5cd853fc483de26962dfed1
+    result: blocked
+    evidence: evidence/sdk-gap-baseline.json
+  - version: 0.27.1
+    result: pass
+    evidence: evidence/sdk-candidate.json
+  - version: 0.27.1
+    commit: cbe200a4a148f1825764de67bd3e8f0e6d01a113
+    result: pass
+    evidence: evidence/sdk-final-validation.json
+  tested_commit: cbe200a4a148f1825764de67bd3e8f0e6d01a113
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: pass
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/Sheet1 (2020_06_17_WW25_Pizza Toppings).hyper
+  - inputs/shapes/Crust-150x150.png
+  - inputs/shapes/Sauce-150x150.png
+  - inputs/shapes/Size-150x150.png
+  - inputs/shapes/Toppings-150x150.png
+acceptance:
+- id: ww25-independent-data
+  description: Independent raw Hyper oracle verifies complete products or monthly
+    fiscal aggregates.
+  mode: automated
+- id: ww25-artifact-contracts
+  description: Generated panes, fields, assets, layout and action/control native contracts.
+  mode: automated
+- id: ww25-cloud-states
+  description: Declared REST states with complete worksheet CSVs and hash-bound paired
+    images.
+  mode: automated
+remaining_work: []
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []
+acceptance_scope: cloud_rest_and_artifact_contracts
+browser_interaction_executed: false

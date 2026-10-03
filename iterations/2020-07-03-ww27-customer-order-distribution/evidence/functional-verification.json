@@ -1,0 +1,414 @@
+{
+  "status": "pass",
+  "artifact_sha256": "80855cd5bff0d906aecfe44ffdf77e4718fc3e5d3af6e20888b1a1222b908f3c",
+  "raw_rows": 9994,
+  "customers": 793,
+  "buckets": {
+    "('Consumer', 3)": {
+      "customers": 30,
+      "circles": 6,
+      "positions": [
+        -2.5,
+        -1.5,
+        -0.5,
+        0.5,
+        1.5,
+        2.5
+      ]
+    },
+    "('Corporate', 5)": {
+      "customers": 41,
+      "circles": 8,
+      "positions": [
+        -3.5,
+        -2.5,
+        -1.5,
+        -0.5,
+        0.5,
+        1.5,
+        2.5,
+        3.5
+      ]
+    },
+    "('Consumer', 6)": {
+      "customers": 66,
+      "circles": 13,
+      "positions": [
+        -6.0,
+        -5.0,
+        -4.0,
+        -3.0,
+        -2.0,
+        -1.0,
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0
+      ]
+    },
+    "('Consumer', 8)": {
+      "customers": 35,
+      "circles": 7,
+      "positions": [
+        -3.0,
+        -2.0,
+        -1.0,
+        0.0,
+        1.0,
+        2.0,
+        3.0
+      ]
+    },
+    "('Consumer', 4)": {
+      "customers": 47,
+      "circles": 9,
+      "positions": [
+        -4.0,
+        -3.0,
+        -2.0,
+        -1.0,
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0
+      ]
+    },
+    "('Consumer', 7)": {
+      "customers": 63,
+      "circles": 12,
+      "positions": [
+        -5.5,
+        -4.5,
+        -3.5,
+        -2.5,
+        -1.5,
+        -0.5,
+        0.5,
+        1.5,
+        2.5,
+        3.5,
+        4.5,
+        5.5
+      ]
+    },
+    "('Home Office', 7)": {
+      "customers": 24,
+      "circles": 4,
+      "positions": [
+        -1.5,
+        -0.5,
+        0.5,
+        1.5
+      ]
+    },
+    "('Consumer', 12)": {
+      "customers": 7,
+      "circles": 1,
+      "positions": [
+        0.0
+      ]
+    },
+    "('Consumer', 5)": {
+      "customers": 68,
+      "circles": 13,
+      "positions": [
+        -6.0,
+        -5.0,
+        -4.0,
+        -3.0,
+        -2.0,
+        -1.0,
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0
+      ]
+    },
+    "('Corporate', 12)": {
+      "customers": 9,
+      "circles": 1,
+      "positions": [
+        0.0
+      ]
+    },
+    "('Consumer', 10)": {
+      "customers": 24,
+      "circles": 4,
+      "positions": [
+        -1.5,
+        -0.5,
+        0.5,
+        1.5
+      ]
+    },
+    "('Consumer', 9)": {
+      "customers": 30,
+      "circles": 6,
+      "positions": [
+        -2.5,
+        -1.5,
+        -0.5,
+        0.5,
+        1.5,
+        2.5
+      ]
+    },
+    "('Home Office', 11)": {
+      "customers": 4,
+      "circles": 0,
+      "positions": []
+    },
+    "('Corporate', 2)": {
+      "customers": 10,
+      "circles": 2,
+      "positions": [
+        -0.5,
+        0.5
+      ]
+    },
+    "('Corporate', 8)": {
+      "customers": 31,
+      "circles": 6,
+      "positions": [
+        -2.5,
+        -1.5,
+        -0.5,
+        0.5,
+        1.5,
+        2.5
+      ]
+    },
+    "('Corporate', 7)": {
+      "customers": 29,
+      "circles": 5,
+      "positions": [
+        -2.0,
+        -1.0,
+        0.0,
+        1.0,
+        2.0
+      ]
+    },
+    "('Corporate', 9)": {
+      "customers": 24,
+      "circles": 4,
+      "positions": [
+        -1.5,
+        -0.5,
+        0.5,
+        1.5
+      ]
+    },
+    "('Home Office', 8)": {
+      "customers": 16,
+      "circles": 3,
+      "positions": [
+        -1.0,
+        0.0,
+        1.0
+      ]
+    },
+    "('Corporate', 6)": {
+      "customers": 26,
+      "circles": 5,
+      "positions": [
+        -2.0,
+        -1.0,
+        0.0,
+        1.0,
+        2.0
+      ]
+    },
+    "('Consumer', 13)": {
+      "customers": 4,
+      "circles": 0,
+      "positions": []
+    },
+    "('Home Office', 9)": {
+      "customers": 17,
+      "circles": 3,
+      "positions": [
+        -1.0,
+        0.0,
+        1.0
+      ]
+    },
+    "('Home Office', 6)": {
+      "customers": 15,
+      "circles": 3,
+      "positions": [
+        -1.0,
+        0.0,
+        1.0
+      ]
+    },
+    "('Corporate', 4)": {
+      "customers": 30,
+      "circles": 6,
+      "positions": [
+        -2.5,
+        -1.5,
+        -0.5,
+        0.5,
+        1.5,
+        2.5
+      ]
+    },
+    "('Home Office', 4)": {
+      "customers": 19,
+      "circles": 3,
+      "positions": [
+        -1.0,
+        0.0,
+        1.0
+      ]
+    },
+    "('Corporate', 3)": {
+      "customers": 13,
+      "circles": 2,
+      "positions": [
+        -0.5,
+        0.5
+      ]
+    },
+    "('Home Office', 12)": {
+      "customers": 2,
+      "circles": 0,
+      "positions": []
+    },
+    "('Consumer', 11)": {
+      "customers": 14,
+      "circles": 2,
+      "positions": [
+        -0.5,
+        0.5
+      ]
+    },
+    "('Corporate', 11)": {
+      "customers": 5,
+      "circles": 1,
+      "positions": [
+        0.0
+      ]
+    },
+    "('Corporate', 13)": {
+      "customers": 3,
+      "circles": 0,
+      "positions": []
+    },
+    "('Corporate', 10)": {
+      "customers": 10,
+      "circles": 2,
+      "positions": [
+        -0.5,
+        0.5
+      ]
+    },
+    "('Home Office', 5)": {
+      "customers": 25,
+      "circles": 5,
+      "positions": [
+        -2.0,
+        -1.0,
+        0.0,
+        1.0,
+        2.0
+      ]
+    },
+    "('Home Office', 3)": {
+      "customers": 10,
+      "circles": 2,
+      "positions": [
+        -0.5,
+        0.5
+      ]
+    },
+    "('Home Office', 1)": {
+      "customers": 1,
+      "circles": 0,
+      "positions": []
+    },
+    "('Consumer', 17)": {
+      "customers": 1,
+      "circles": 0,
+      "positions": []
+    },
+    "('Home Office', 2)": {
+      "customers": 10,
+      "circles": 2,
+      "positions": [
+        -0.5,
+        0.5
+      ]
+    },
+    "('Home Office', 10)": {
+      "customers": 5,
+      "circles": 1,
+      "positions": [
+        0.0
+      ]
+    },
+    "('Consumer', 2)": {
+      "customers": 14,
+      "circles": 2,
+      "positions": [
+        -0.5,
+        0.5
+      ]
+    },
+    "('Consumer', 1)": {
+      "customers": 6,
+      "circles": 1,
+      "positions": [
+        0.0
+      ]
+    },
+    "('Corporate', 1)": {
+      "customers": 5,
+      "circles": 1,
+      "positions": [
+        0.0
+      ]
+    }
+  },
+  "cloud_scope": "Full customer-grain worksheet CSV, including all rendered overlapping customer marks; unique coordinates prove visible dot counts.",
+  "cloud_checks": [
+    {
+      "path": "outputs/cloud-author-viz.csv",
+      "rows": 793,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-viz.csv",
+      "rows": 793,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-viz-one-customer.csv",
+      "rows": 793,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-viz-one-customer.csv",
+      "rows": 793,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-viz-ten-customers.csv",
+      "rows": 793,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-viz-ten-customers.csv",
+      "rows": 793,
+      "status": "pass"
+    }
+  ]
+}

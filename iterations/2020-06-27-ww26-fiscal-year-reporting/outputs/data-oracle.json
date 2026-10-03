@@ -1,0 +1,201 @@
+{
+  "raw_rows": 5582,
+  "current_month": "2020-05-01",
+  "fy_start": "2019-10-01",
+  "previous_fy_start": "2018-10-01",
+  "totals": {
+    "Sales": {
+      "current": 2229528491.5,
+      "previous": 891304532.95
+    },
+    "OPP": {
+      "current": 2849913515.75,
+      "previous": 877736243.45
+    }
+  },
+  "monthly": [
+    {
+      "month": "2018-10-01",
+      "fiscal_year": 2019,
+      "Sales": -14028208.0,
+      "OPP": -224065115.0
+    },
+    {
+      "month": "2018-11-01",
+      "fiscal_year": 2019,
+      "Sales": 58012486.0,
+      "OPP": 95681648.0
+    },
+    {
+      "month": "2018-12-01",
+      "fiscal_year": 2019,
+      "Sales": 57143827.5,
+      "OPP": 90621454.0
+    },
+    {
+      "month": "2019-01-01",
+      "fiscal_year": 2019,
+      "Sales": 20375116.950000003,
+      "OPP": 72813534.95
+    },
+    {
+      "month": "2019-02-01",
+      "fiscal_year": 2019,
+      "Sales": 152475242.0,
+      "OPP": 141622327.5
+    },
+    {
+      "month": "2019-03-01",
+      "fiscal_year": 2019,
+      "Sales": 157713159.5,
+      "OPP": 198532684.5
+    },
+    {
+      "month": "2019-04-01",
+      "fiscal_year": 2019,
+      "Sales": 147791885.0,
+      "OPP": 197223665.5
+    },
+    {
+      "month": "2019-05-01",
+      "fiscal_year": 2019,
+      "Sales": 311821024.0,
+      "OPP": 305306044.0
+    },
+    {
+      "month": "2019-06-01",
+      "fiscal_year": 2019,
+      "Sales": 213402209.5,
+      "OPP": 224947661.0
+    },
+    {
+      "month": "2019-07-01",
+      "fiscal_year": 2019,
+      "Sales": 317505667.5,
+      "OPP": 268318649.5
+    },
+    {
+      "month": "2019-08-01",
+      "fiscal_year": 2019,
+      "Sales": 185949644.0,
+      "OPP": 213183221.0
+    },
+    {
+      "month": "2019-09-01",
+      "fiscal_year": 2019,
+      "Sales": 378740104.5,
+      "OPP": 242697253.5
+    },
+    {
+      "month": "2019-10-01",
+      "fiscal_year": 2020,
+      "Sales": 167852953.5,
+      "OPP": 240644557.0
+    },
+    {
+      "month": "2019-11-01",
+      "fiscal_year": 2020,
+      "Sales": 288960664.5,
+      "OPP": 276628011.0
+    },
+    {
+      "month": "2019-12-01",
+      "fiscal_year": 2020,
+      "Sales": 31002285.5,
+      "OPP": 51451017.5
+    },
+    {
+      "month": "2020-01-01",
+      "fiscal_year": 2020,
+      "Sales": 67516783.0,
+      "OPP": 67516783.0
+    },
+    {
+      "month": "2020-02-01",
+      "fiscal_year": 2020,
+      "Sales": 507517488.0,
+      "OPP": 507517488.0
+    },
+    {
+      "month": "2020-03-01",
+      "fiscal_year": 2020,
+      "Sales": 112978205.0,
+      "OPP": 473325884.5
+    },
+    {
+      "month": "2020-04-01",
+      "fiscal_year": 2020,
+      "Sales": 492714590.75,
+      "OPP": 584716016.75
+    },
+    {
+      "month": "2020-05-01",
+      "fiscal_year": 2020,
+      "Sales": 560985521.25,
+      "OPP": 648113758.0
+    }
+  ],
+  "states": {
+    "default": {
+      "metrics": {
+        "Current FYTD Sales": 2229528491.5,
+        "Prev FYTD Sales": 891304532.95,
+        "Sales Ref Line": 2300000000.0,
+        "Sales Diff": -70471508.5,
+        "Sales Diff %": -0.030639786304347827,
+        "Current FYTD OPP": 2849913515.75,
+        "Prev FYTD OPP": 877736243.45,
+        "OPP Ref Line": 3000000000.0,
+        "OPP Diff": -150086484.25,
+        "OPP Diff %": -0.05002882808333333
+      },
+      "budget_controls_visible": true
+    },
+    "prior-year": {
+      "metrics": {
+        "Current FYTD Sales": 2229528491.5,
+        "Prev FYTD Sales": 891304532.95,
+        "Sales Ref Line": 891304532.95,
+        "Sales Diff": 1338223958.55,
+        "Sales Diff %": 1.5014216904303246,
+        "Current FYTD OPP": 2849913515.75,
+        "Prev FYTD OPP": 877736243.45,
+        "OPP Ref Line": 877736243.45,
+        "OPP Diff": 1972177272.3,
+        "OPP Diff %": 2.246890551708595
+      },
+      "budget_controls_visible": false
+    },
+    "low-budget": {
+      "metrics": {
+        "Current FYTD Sales": 2229528491.5,
+        "Prev FYTD Sales": 891304532.95,
+        "Sales Ref Line": 100000000.0,
+        "Sales Diff": 2129528491.5,
+        "Sales Diff %": 21.295284915,
+        "Current FYTD OPP": 2849913515.75,
+        "Prev FYTD OPP": 877736243.45,
+        "OPP Ref Line": 100000000.0,
+        "OPP Diff": 2749913515.75,
+        "OPP Diff %": 27.4991351575
+      },
+      "budget_controls_visible": true
+    },
+    "high-budget": {
+      "metrics": {
+        "Current FYTD Sales": 2229528491.5,
+        "Prev FYTD Sales": 891304532.95,
+        "Sales Ref Line": 4000000000.0,
+        "Sales Diff": -1770471508.5,
+        "Sales Diff %": -0.442617877125,
+        "Current FYTD OPP": 2849913515.75,
+        "Prev FYTD OPP": 877736243.45,
+        "OPP Ref Line": 4500000000.0,
+        "OPP Diff": -1650086484.25,
+        "OPP Diff %": -0.3666858853888889
+      },
+      "budget_controls_visible": true
+    }
+  },
+  "scope": "All 5,582 accounting facts, two complete 20-month series, October fiscal-year cutoffs, Sales prefix5 and OPP prefix5 or696, and all FYTD/reference/difference ratios."
+}

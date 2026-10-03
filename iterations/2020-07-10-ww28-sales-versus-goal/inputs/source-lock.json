@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-03",
+  "source_workbook": {
+    "filename": "author.twbx",
+    "bytes": 89209,
+    "sha256": "270581368fa7af9e192262c6ebc99b4b17d02e9eb89125f02561048f0eee74fc",
+    "url": null
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Extracts/federated_04hx3ys00s54am1dxildb1.hyper",
+      "file": "inputs/federated_04hx3ys00s54am1dxildb1.hyper",
+      "bytes": 262144,
+      "sha256": "4b38750861a8cddbc8f13e38a181510dca52daa10397bc6697fc0cc33e7b3ea1"
+    }
+  ],
+  "source_workbook_used_by_builder": false,
+  "locked_original_sha256": "270581368fa7af9e192262c6ebc99b4b17d02e9eb89125f02561048f0eee74fc"
+}

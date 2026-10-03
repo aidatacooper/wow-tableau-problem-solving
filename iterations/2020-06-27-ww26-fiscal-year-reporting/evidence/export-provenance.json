@@ -1,0 +1,16 @@
+{
+  "original_sha256": "6cf1d9e96c304047b38f46f82e34814ac9139257bd8bdd266375758c49bfef1f",
+  "export_sha256": "d2da3673c4807c0667bc3545edef1a56a45be4fcb7659acf278cf39bff5b8811",
+  "transformation": "Only remove hidden attributes on worksheet windows to expose existing full worksheets. No calculations, data, dashboard layouts or filters changed.",
+  "worksheets_exposed": [
+    "Diff Legend",
+    "OPP Bar",
+    "OPP KPI",
+    "OPP Trend",
+    "Param Pop",
+    "Sales Bar",
+    "Sales KPI",
+    "Sales Trend",
+    "Year Legend"
+  ]
+}

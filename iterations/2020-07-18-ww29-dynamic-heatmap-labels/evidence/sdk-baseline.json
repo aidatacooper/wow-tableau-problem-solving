@@ -1,0 +1,18 @@
+{
+  "sdk_commit": "56377c5b170f0df1f5cd853fc483de26962dfed1",
+  "sdk_version": "0.27.1",
+  "status": "passed",
+  "method": "Imported src/cwtwb from git archive of exact releasedcommit; same publicAPI builder invoked with scratchoutput. Baseline workbook independently passed rawdata and artifact verifier, authorworkbook unavailable to builder.",
+  "baseline_workbook_sha256": "edd587f44e6c52804b8fca0d81ecbac19adf752b81db7ffad4af34d48270a28b",
+  "raw_rows": 9994,
+  "grid_cells": 48,
+  "total_cells": 17,
+  "acceptance_ids": [
+    "ww29-heatmap-oracle",
+    "ww29-independent-size-addressing",
+    "ww29-hover-action-contract",
+    "ww29-native-totals"
+  ],
+  "cloud_executed_for_this_baseline_workbook": false,
+  "builder_sha256": "a803d75f65b70fdbaed2c9e098f559b77eebc089faa350e0d2bdd196dc09955a"
+}

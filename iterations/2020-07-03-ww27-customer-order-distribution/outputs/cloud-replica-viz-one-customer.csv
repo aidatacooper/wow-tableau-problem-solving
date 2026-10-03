@@ -1,0 +1,794 @@
+# Orders Per Customer,Customer ID,Segment,# Customers per Order Count,Cols Shifted,Cols,Index,Marks to Plot
+1,AO-10810,Corporate,5,-1,1,1,5
+1,AR-10570,Consumer,6,-1.5,1,1,6
+1,CJ-11875,Corporate,5,0,2,2,5
+1,JC-15385,Consumer,6,-0.5,2,2,6
+1,JR-15700,Consumer,6,0.5,3,3,6
+1,LD-16855,Corporate,5,1,3,3,5
+1,MG-18205,Corporate,5,2,4,4,5
+1,PH-18790,Home Office,1,0,0,1,1
+1,RE-19405,Consumer,6,1.5,4,4,6
+1,RM-19750,Consumer,6,2.5,5,5,6
+1,SM-20905,Consumer,6,-2.5,0,6,6
+1,TC-21145,Corporate,5,-2,0,5,5
+2,AS-10135,Home Office,10,-3.5,1,1,10
+2,BD-11560,Home Office,10,-2.5,2,2,10
+2,BO-11425,Consumer,14,-5.5,1,1,14
+2,BS-11800,Home Office,10,-1.5,3,3,10
+2,BT-11485,Home Office,10,-0.5,4,4,10
+2,CD-12280,Consumer,14,-4.5,2,2,14
+2,CM-11935,Consumer,14,-3.5,3,3,14
+2,CS-12460,Consumer,14,-2.5,4,4,14
+2,DK-13150,Corporate,10,-3.5,1,1,10
+2,DP-13165,Consumer,14,-1.5,5,5,14
+2,EL-13735,Home Office,10,0.5,5,5,10
+2,GH-14485,Corporate,10,-2.5,2,2,10
+2,GH-14665,Consumer,14,-0.5,6,6,14
+2,GP-14740,Corporate,10,-1.5,3,3,10
+2,GR-14560,Corporate,10,-0.5,4,4,10
+2,HH-15010,Corporate,10,0.5,5,5,10
+2,JJ-15760,Home Office,10,1.5,6,6,10
+2,JR-15670,Consumer,14,0.5,7,7,14
+2,ML-18265,Consumer,14,1.5,8,8,14
+2,MO-17950,Consumer,14,2.5,9,9,14
+2,MW-18235,Corporate,10,1.5,6,6,10
+2,NB-18580,Corporate,10,2.5,7,7,10
+2,PB-19210,Corporate,10,3.5,8,8,10
+2,PC-19000,Home Office,10,2.5,7,7,10
+2,PK-18910,Home Office,10,3.5,8,8,10
+2,RB-19330,Consumer,14,3.5,10,10,14
+2,RH-19555,Consumer,14,4.5,11,11,14
+2,RR-19315,Consumer,14,5.5,12,12,14
+2,RS-19870,Home Office,10,4.5,9,9,10
+2,SC-20845,Consumer,14,6.5,13,13,14
+2,SH-20635,Corporate,10,4.5,9,9,10
+2,SW-20755,Corporate,10,-4.5,0,10,10
+2,TS-21085,Consumer,14,-6.5,0,14,14
+2,VT-21700,Home Office,10,-4.5,0,10,10
+3,AB-10015,Consumer,30,-13.5,1,1,30
+3,AC-10420,Corporate,13,-5,1,1,13
+3,AJ-10960,Consumer,30,-12.5,2,2,30
+3,BD-11635,Consumer,30,-11.5,3,3,30
+3,BF-11080,Consumer,30,-10.5,4,4,30
+3,BF-11275,Corporate,13,-4,2,2,13
+3,BS-11665,Consumer,30,-9.5,5,5,30
+3,BW-11065,Consumer,30,-8.5,6,6,30
+3,CC-12550,Consumer,30,-7.5,7,7,30
+3,CD-11980,Consumer,30,-6.5,8,8,30
+3,CG-12520,Consumer,30,-5.5,9,9,30
+3,CH-12070,Home Office,10,-3.5,1,1,10
+3,CM-12445,Consumer,30,-4.5,10,10,30
+3,CR-12625,Home Office,10,-2.5,2,2,10
+3,CR-12820,Home Office,10,-1.5,3,3,10
+3,DF-13135,Consumer,30,-3.5,11,11,30
+3,DJ-13630,Consumer,30,-2.5,12,12,30
+3,DM-13525,Corporate,13,-3,3,3,13
+3,EM-14200,Home Office,10,-0.5,4,4,10
+3,ER-13855,Corporate,13,-2,4,4,13
+3,FW-14395,Corporate,13,-1,5,5,13
+3,GM-14695,Corporate,13,0,6,6,13
+3,GT-14635,Corporate,13,1,7,7,13
+3,HD-14785,Home Office,10,0.5,5,5,10
+3,IM-15055,Consumer,30,-1.5,13,13,30
+3,JB-15925,Consumer,30,-0.5,14,14,30
+3,JD-16060,Consumer,30,0.5,15,15,30
+3,JE-16165,Corporate,13,2,8,8,13
+3,JG-15115,Consumer,30,1.5,16,16,30
+3,JK-15325,Corporate,13,3,9,9,13
+3,JK-16090,Consumer,30,2.5,17,17,30
+3,KB-16405,Home Office,10,1.5,6,6,10
+3,KS-16300,Corporate,13,4,10,10,13
+3,LB-16735,Consumer,30,3.5,18,18,30
+3,LH-16750,Consumer,30,4.5,19,19,30
+3,LS-17230,Consumer,30,5.5,20,20,30
+3,LT-16765,Consumer,30,6.5,21,21,30
+3,LW-17125,Consumer,30,7.5,22,22,30
+3,MG-17695,Consumer,30,8.5,23,23,30
+3,ML-18040,Corporate,13,5,11,11,13
+3,PB-18805,Home Office,10,2.5,7,7,10
+3,PM-18940,Consumer,30,9.5,24,24,30
+3,RH-19600,Consumer,30,10.5,25,25,30
+3,RK-19300,Consumer,30,11.5,26,26,30
+3,SB-20170,Consumer,30,12.5,27,27,30
+3,SG-20080,Consumer,30,13.5,28,28,30
+3,SG-20890,Corporate,13,6,12,12,13
+3,SK-19990,Consumer,30,14.5,29,29,30
+3,SS-20515,Home Office,10,3.5,8,8,10
+3,SW-20350,Home Office,10,4.5,9,9,10
+3,TM-21490,Consumer,30,-14.5,0,30,30
+3,TT-21265,Corporate,13,-6,0,13,13
+3,VP-21730,Home Office,10,-4.5,0,10,10
+4,AA-10480,Consumer,47,-22,1,1,47
+4,AB-10600,Corporate,30,-13.5,1,1,30
+4,AF-10885,Consumer,47,-21,2,2,47
+4,AG-10300,Corporate,30,-12.5,2,2,30
+4,AG-10525,Corporate,30,-11.5,3,3,30
+4,AG-10765,Home Office,19,-8,1,1,19
+4,AH-10195,Corporate,30,-10.5,4,4,30
+4,AH-10585,Consumer,47,-20,3,3,47
+4,AR-10345,Corporate,30,-9.5,5,5,30
+4,AW-10840,Consumer,47,-19,4,4,47
+4,AY-10555,Corporate,30,-8.5,6,6,30
+4,BF-11005,Home Office,19,-7,2,2,19
+4,BF-11215,Home Office,19,-6,3,3,19
+4,BM-11140,Consumer,47,-18,5,5,47
+4,BN-11470,Corporate,30,-7.5,7,7,30
+4,BT-11440,Consumer,47,-17,6,6,47
+4,CA-12310,Corporate,30,-6.5,8,8,30
+4,CC-12685,Consumer,47,-16,7,7,47
+4,CL-11890,Consumer,47,-15,8,8,47
+4,CM-12115,Consumer,47,-14,9,9,47
+4,CM-12385,Consumer,47,-13,10,10,47
+4,CM-12715,Corporate,30,-5.5,9,9,30
+4,CR-12580,Home Office,19,-5,4,4,19
+4,CR-12730,Consumer,47,-12,11,11,47
+4,CS-12130,Consumer,47,-11,12,12,47
+4,CS-12490,Corporate,30,-4.5,10,10,30
+4,DA-13450,Home Office,19,-4,5,5,19
+4,DB-13405,Consumer,47,-10,13,13,47
+4,DH-13675,Home Office,19,-3,6,6,19
+4,DJ-13420,Corporate,30,-3.5,11,11,30
+4,DL-13330,Consumer,47,-9,14,14,47
+4,DS-13030,Home Office,19,-2,7,7,19
+4,EB-13975,Corporate,30,-2.5,12,12,30
+4,EJ-13720,Consumer,47,-8,15,15,47
+4,EK-13795,Home Office,19,-1,8,8,19
+4,EM-14065,Consumer,47,-7,16,16,47
+4,EM-14095,Corporate,30,-1.5,13,13,30
+4,EN-13780,Consumer,47,-6,17,17,47
+4,FH-14350,Consumer,47,-5,18,18,47
+4,GD-14590,Corporate,30,-0.5,14,14,30
+4,GH-14425,Consumer,47,-4,19,19,47
+4,GT-14755,Consumer,47,-3,20,20,47
+4,GZ-14545,Corporate,30,0.5,15,15,30
+4,HE-14800,Corporate,30,1.5,16,16,30
+4,HM-14980,Consumer,47,-2,21,21,47
+4,IG-15085,Consumer,47,-1,22,22,47
+4,JC-15340,Consumer,47,0,23,23,47
+4,JH-15430,Consumer,47,1,24,24,47
+4,JH-16180,Consumer,47,2,25,25,47
+4,JS-15595,Corporate,30,2.5,17,17,30
+4,JS-15685,Corporate,30,3.5,18,18,30
+4,JW-16075,Consumer,47,3,26,26,47
+4,KC-16540,Consumer,47,4,27,27,47
+4,KC-16675,Corporate,30,4.5,19,19,30
+4,KW-16570,Consumer,47,5,28,28,47
+4,LC-16960,Home Office,19,0,9,9,19
+4,LD-17005,Consumer,47,6,29,29,47
+4,LH-17020,Consumer,47,7,30,30,47
+4,LP-17080,Consumer,47,8,31,31,47
+4,MC-17635,Corporate,30,5.5,20,20,30
+4,ME-18010,Corporate,30,6.5,21,21,30
+4,MG-17680,Home Office,19,1,10,10,19
+4,MG-18145,Consumer,47,9,32,32,47
+4,MH-17440,Corporate,30,7.5,22,22,30
+4,MH-17620,Corporate,30,8.5,23,23,30
+4,MK-18160,Consumer,47,10,33,33,47
+4,MM-17260,Consumer,47,11,34,34,47
+4,MO-17500,Consumer,47,12,35,35,47
+4,MR-17545,Home Office,19,2,11,11,19
+4,MS-17530,Consumer,47,13,36,36,47
+4,MS-17830,Consumer,47,14,37,37,47
+4,MT-18070,Home Office,19,3,12,12,19
+4,MZ-17335,Home Office,19,4,13,13,19
+4,NF-18475,Home Office,19,5,14,14,19
+4,NL-18310,Home Office,19,6,15,15,19
+4,NS-18505,Consumer,47,15,38,38,47
+4,PB-19105,Consumer,47,16,39,39,47
+4,PC-18745,Corporate,30,9.5,24,24,30
+4,PF-19120,Consumer,47,17,40,40,47
+4,PM-19135,Home Office,19,7,16,16,19
+4,PT-19090,Consumer,47,18,41,41,47
+4,RB-19705,Home Office,19,8,17,17,19
+4,RD-19930,Consumer,47,19,42,42,47
+4,RP-19270,Corporate,30,10.5,25,25,30
+4,SC-20230,Corporate,30,11.5,26,26,30
+4,SC-20800,Consumer,47,20,43,43,47
+4,SM-20005,Consumer,47,21,44,44,47
+4,SV-20815,Corporate,30,12.5,27,27,30
+4,TA-21385,Home Office,19,9,18,18,19
+4,TB-21175,Corporate,30,13.5,28,28,30
+4,TB-21190,Home Office,19,-9,0,19,19
+4,TG-21640,Consumer,47,22,45,45,47
+4,TH-21115,Corporate,30,14.5,29,29,30
+4,TP-21565,Corporate,30,-14.5,0,30,30
+4,TZ-21580,Consumer,47,23,46,46,47
+4,VS-21820,Consumer,47,-23,0,47,47
+5,AA-10315,Consumer,68,-32.5,1,1,68
+5,AB-10150,Consumer,68,-31.5,2,2,68
+5,AC-10615,Corporate,41,-19,1,1,41
+5,AC-10660,Consumer,68,-30.5,3,3,68
+5,AG-10270,Consumer,68,-29.5,4,4,68
+5,AG-10330,Consumer,68,-28.5,5,5,68
+5,AG-10390,Consumer,68,-27.5,6,6,68
+5,AH-10465,Consumer,68,-26.5,7,7,68
+5,AM-10360,Corporate,41,-18,2,2,41
+5,AR-10405,Corporate,41,-17,3,3,41
+5,AR-10510,Consumer,68,-25.5,8,8,68
+5,AS-10225,Corporate,41,-16,4,4,41
+5,BB-10990,Corporate,41,-15,5,5,41
+5,BE-11335,Home Office,25,-11,1,1,25
+5,BE-11410,Consumer,68,-24.5,9,9,68
+5,BN-11515,Consumer,68,-23.5,10,10,68
+5,BO-11350,Corporate,41,-14,6,6,41
+5,BP-11050,Corporate,41,-13,7,7,41
+5,BP-11230,Consumer,68,-22.5,11,11,68
+5,BS-11365,Corporate,41,-12,8,8,41
+5,BS-11380,Corporate,41,-11,9,9,41
+5,BT-11305,Home Office,25,-10,2,2,25
+5,BT-11530,Home Office,25,-9,3,3,25
+5,BV-11245,Corporate,41,-10,10,10,41
+5,CA-12055,Home Office,25,-8,4,4,25
+5,CC-12370,Consumer,68,-21.5,12,12,68
+5,CD-11920,Consumer,68,-20.5,13,13,68
+5,CD-12790,Home Office,25,-7,5,5,25
+5,CK-12325,Home Office,25,-6,6,6,25
+5,CL-12700,Home Office,25,-5,7,7,25
+5,CM-12235,Consumer,68,-19.5,14,14,68
+5,Co-12640,Consumer,68,-18.5,15,15,68
+5,CS-11845,Corporate,41,-9,11,11,41
+5,CS-12175,Corporate,41,-8,12,12,41
+5,CV-12295,Consumer,68,-17.5,16,16,68
+5,DB-12970,Corporate,41,-7,13,13,41
+5,DB-13360,Home Office,25,-4,8,8,25
+5,DC-13285,Consumer,68,-16.5,17,17,68
+5,DE-13255,Home Office,25,-3,9,9,25
+5,DG-13300,Corporate,41,-6,14,14,41
+5,DK-12895,Consumer,68,-15.5,18,18,68
+5,DK-12985,Consumer,68,-14.5,19,19,68
+5,Dl-13600,Corporate,41,-5,15,15,41
+5,DV-13045,Corporate,41,-4,16,16,41
+5,DW-13480,Home Office,25,-2,10,10,25
+5,DW-13540,Consumer,68,-13.5,20,20,68
+5,EB-13840,Corporate,41,-3,17,17,41
+5,EB-13930,Consumer,68,-12.5,21,21,68
+5,EC-14050,Consumer,68,-11.5,22,22,68
+5,EG-13900,Consumer,68,-10.5,23,23,68
+5,EJ-14155,Consumer,68,-9.5,24,24,68
+5,EM-13810,Corporate,41,-2,18,18,41
+5,EM-13960,Consumer,68,-8.5,25,25,68
+5,ES-14020,Consumer,68,-7.5,26,26,68
+5,GB-14575,Consumer,68,-6.5,27,27,68
+5,HG-14845,Consumer,68,-5.5,28,28,68
+5,HJ-14875,Home Office,25,-1,11,11,25
+5,HR-14770,Home Office,25,0,12,12,25
+5,HZ-14950,Consumer,68,-4.5,29,29,68
+5,JB-16045,Home Office,25,1,13,13,25
+5,JC-16105,Corporate,41,-1,19,19,41
+5,JD-15790,Consumer,68,-3.5,30,30,68
+5,JF-15295,Consumer,68,-2.5,31,31,68
+5,JJ-15445,Consumer,68,-1.5,32,32,68
+5,JK-15205,Consumer,68,-0.5,33,33,68
+5,JL-15175,Home Office,25,2,14,14,25
+5,JL-15235,Consumer,68,0.5,34,34,68
+5,JM-15265,Corporate,41,0,20,20,41
+5,JM-15580,Consumer,68,1.5,35,35,68
+5,JM-15655,Corporate,41,1,21,21,41
+5,JO-15550,Home Office,25,3,15,15,25
+5,JR-16210,Corporate,41,2,22,22,41
+5,JS-15880,Consumer,68,2.5,36,36,68
+5,JS-15940,Home Office,25,4,16,16,25
+5,KD-16270,Consumer,68,3.5,37,37,68
+5,KD-16615,Corporate,41,3,23,23,41
+5,KM-16660,Consumer,68,4.5,38,38,68
+5,KN-16450,Corporate,41,4,24,24,41
+5,KW-16435,Consumer,68,5.5,39,39,68
+5,LC-17050,Consumer,68,6.5,40,40,68
+5,LM-17065,Consumer,68,7.5,41,41,68
+5,LO-17170,Corporate,41,5,25,25,41
+5,LR-17035,Corporate,41,6,26,26,41
+5,LW-16825,Corporate,41,7,27,27,41
+5,MC-17425,Corporate,41,8,28,28,41
+5,MC-18130,Corporate,41,9,29,29,41
+5,MD-17860,Corporate,41,10,30,30,41
+5,MF-17665,Corporate,41,11,31,31,41
+5,MF-18250,Corporate,41,12,32,32,41
+5,MG-17875,Home Office,25,5,17,17,25
+5,MH-18025,Consumer,68,8.5,42,42,68
+5,NC-18340,Consumer,68,9.5,43,43,68
+5,NC-18625,Corporate,41,13,33,33,41
+5,NG-18355,Corporate,41,14,34,34,41
+5,NG-18430,Consumer,68,10.5,44,44,68
+5,NP-18670,Consumer,68,11.5,45,45,68
+5,NR-18550,Consumer,68,12.5,46,46,68
+5,OT-18730,Consumer,68,13.5,47,47,68
+5,PF-19225,Consumer,68,14.5,48,48,68
+5,PL-18925,Home Office,25,6,18,18,25
+5,PO-19195,Home Office,25,7,19,19,25
+5,PR-18880,Consumer,68,15.5,49,49,68
+5,PV-18985,Home Office,25,8,20,20,25
+5,RA-19945,Consumer,68,16.5,50,50,68
+5,RB-19570,Consumer,68,17.5,51,51,68
+5,RB-19645,Corporate,41,15,35,35,41
+5,RD-19660,Home Office,25,9,21,21,25
+5,RE-19450,Consumer,68,18.5,52,52,68
+5,RH-19495,Consumer,68,19.5,53,53,68
+5,RM-19675,Home Office,25,10,22,22,25
+5,RS-19420,Corporate,41,16,36,36,41
+5,RW-19690,Consumer,68,20.5,54,54,68
+5,SC-20020,Consumer,68,21.5,55,55,68
+5,SC-20575,Consumer,68,22.5,56,56,68
+5,SJ-20500,Consumer,68,23.5,57,57,68
+5,SM-20320,Home Office,25,11,23,23,25
+5,SR-20425,Home Office,25,12,24,24,25
+5,SS-20875,Consumer,68,24.5,58,58,68
+5,TB-21055,Consumer,68,25.5,59,59,68
+5,TB-21355,Corporate,41,17,37,37,41
+5,TB-21595,Consumer,68,26.5,60,60,68
+5,TC-20980,Corporate,41,18,38,38,41
+5,TG-21310,Consumer,68,27.5,61,61,68
+5,TH-21100,Consumer,68,28.5,62,62,68
+5,TP-21415,Consumer,68,29.5,63,63,68
+5,TR-21325,Consumer,68,30.5,64,64,68
+5,TS-21340,Consumer,68,31.5,65,65,68
+5,TS-21430,Corporate,41,19,39,39,41
+5,TS-21655,Consumer,68,32.5,66,66,68
+5,VF-21715,Home Office,25,-12,0,25,25
+5,VG-21805,Corporate,41,20,40,40,41
+5,VM-21835,Consumer,68,33.5,67,67,68
+5,YC-21895,Corporate,41,-20,0,41,41
+5,ZD-21925,Consumer,68,-33.5,0,68,68
+6,AA-10645,Consumer,66,-31.5,1,1,66
+6,AR-10540,Consumer,66,-30.5,2,2,66
+6,AS-10285,Corporate,26,-11.5,1,1,26
+6,AT-10435,Home Office,15,-6,1,1,15
+6,AZ-10750,Consumer,66,-29.5,3,3,66
+6,BD-11500,Consumer,66,-28.5,4,4,66
+6,BD-11620,Consumer,66,-27.5,5,5,66
+6,BD-11725,Consumer,66,-26.5,6,6,66
+6,BD-11770,Consumer,66,-25.5,7,7,66
+6,BE-11455,Home Office,15,-5,2,2,15
+6,BG-11695,Corporate,26,-10.5,2,2,26
+6,BG-11740,Consumer,66,-24.5,8,8,66
+6,BK-11260,Consumer,66,-23.5,9,9,66
+6,BM-11575,Corporate,26,-9.5,3,3,26
+6,BP-11155,Consumer,66,-22.5,10,10,66
+6,BS-11590,Corporate,26,-8.5,4,4,26
+6,BT-11395,Corporate,26,-7.5,5,5,26
+6,BW-11200,Consumer,66,-21.5,11,11,66
+6,CA-11965,Corporate,26,-6.5,6,6,26
+6,CC-12100,Home Office,15,-4,3,3,15
+6,CG-12040,Home Office,15,-3,4,4,15
+6,CM-11815,Corporate,26,-5.5,7,7,26
+6,CM-12160,Consumer,66,-20.5,12,12,66
+6,CM-12190,Consumer,66,-19.5,13,13,66
+6,CM-12655,Home Office,15,-2,5,5,15
+6,CS-11860,Consumer,66,-18.5,14,14,66
+6,CS-12505,Consumer,66,-17.5,15,15,66
+6,CW-11905,Home Office,15,-1,6,6,15
+6,DD-13570,Consumer,66,-16.5,16,16,66
+6,DH-13075,Corporate,26,-4.5,8,8,26
+6,DL-12925,Consumer,66,-15.5,17,17,66
+6,DV-13465,Consumer,66,-14.5,18,18,66
+6,DW-13195,Corporate,26,-3.5,9,9,26
+6,EB-14110,Consumer,66,-13.5,19,19,66
+6,EB-14170,Consumer,66,-12.5,20,20,66
+6,EH-13990,Consumer,66,-11.5,21,21,66
+6,EH-14185,Consumer,66,-10.5,22,22,66
+6,EM-14140,Home Office,15,0,7,7,15
+6,GM-14455,Home Office,15,1,8,8,15
+6,GM-14680,Consumer,66,-9.5,23,23,66
+6,HL-15040,Consumer,66,-8.5,24,24,66
+6,JD-16015,Consumer,66,-7.5,25,25,66
+6,JE-15475,Consumer,66,-6.5,26,26,66
+6,JF-15355,Consumer,66,-5.5,27,27,66
+6,JF-15415,Consumer,66,-4.5,28,28,66
+6,JG-15310,Corporate,26,-2.5,10,10,26
+6,JG-15805,Corporate,26,-1.5,11,11,26
+6,JH-15820,Consumer,66,-3.5,29,29,66
+6,JH-15985,Consumer,66,-2.5,30,30,66
+6,JL-15130,Consumer,66,-1.5,31,31,66
+6,JL-15505,Consumer,66,-0.5,32,32,66
+6,JL-15850,Consumer,66,0.5,33,33,66
+6,JM-15250,Consumer,66,1.5,34,34,66
+6,JO-15280,Consumer,66,2.5,35,35,66
+6,JS-16030,Consumer,66,3.5,36,36,66
+6,JW-15220,Corporate,26,-0.5,12,12,26
+6,KC-16255,Corporate,26,0.5,13,13,26
+6,KD-16345,Consumer,66,4.5,37,37,66
+6,KH-16360,Consumer,66,5.5,38,38,66
+6,KM-16225,Corporate,26,1.5,14,14,26
+6,LE-16810,Consumer,66,6.5,39,39,66
+6,LL-16840,Consumer,66,7.5,40,40,66
+6,LR-16915,Consumer,66,8.5,41,41,66
+6,LS-16945,Corporate,26,2.5,15,15,26
+6,LS-17200,Corporate,26,3.5,16,16,26
+6,LS-17245,Consumer,66,9.5,42,42,66
+6,LW-16990,Corporate,26,4.5,17,17,26
+6,MA-17995,Home Office,15,2,9,9,15
+6,MC-17590,Corporate,26,5.5,18,18,26
+6,MH-17290,Home Office,15,3,10,10,15
+6,ML-17410,Consumer,66,10.5,43,43,66
+6,MN-17935,Consumer,66,11.5,44,44,66
+6,MS-17710,Consumer,66,12.5,45,45,66
+6,MS-17980,Corporate,26,6.5,19,19,26
+6,MT-17815,Consumer,66,13.5,46,46,66
+6,MZ-17515,Corporate,26,7.5,20,20,26
+6,NC-18415,Consumer,66,14.5,47,47,66
+6,ND-18460,Corporate,26,8.5,21,21,26
+6,NP-18325,Consumer,66,15.5,48,48,66
+6,NP-18685,Home Office,15,4,11,11,15
+6,PA-19060,Home Office,15,5,12,12,15
+6,PF-19165,Consumer,66,16.5,49,49,66
+6,PS-18760,Consumer,66,17.5,50,50,66
+6,RB-19360,Consumer,66,18.5,51,51,66
+6,RC-19825,Consumer,66,19.5,52,52,66
+6,RC-19960,Consumer,66,20.5,53,53,66
+6,RH-19510,Home Office,15,6,13,13,15
+6,RM-19375,Consumer,66,21.5,54,54,66
+6,RR-19525,Corporate,26,9.5,22,22,26
+6,SB-20185,Consumer,66,22.5,55,55,66
+6,SC-20680,Home Office,15,7,14,14,15
+6,SG-20605,Consumer,66,23.5,56,56,66
+6,SJ-20215,Consumer,66,24.5,57,57,66
+6,SN-20560,Home Office,15,-7,0,15,15
+6,SO-20335,Consumer,66,25.5,58,58,66
+6,SP-20545,Corporate,26,10.5,23,23,26
+6,SP-20920,Consumer,66,26.5,59,59,66
+6,SS-20410,Consumer,66,27.5,60,60,66
+6,SS-20590,Consumer,66,28.5,61,61,66
+6,SW-20275,Consumer,66,29.5,62,62,66
+6,TB-21280,Consumer,66,30.5,63,63,66
+6,TS-21160,Corporate,26,11.5,24,24,26
+6,TS-21370,Corporate,26,12.5,25,25,26
+6,TS-21505,Consumer,66,31.5,64,64,66
+6,VB-21745,Corporate,26,-12.5,0,26,26
+6,VD-21670,Consumer,66,32.5,65,65,66
+6,VG-21790,Consumer,66,-32.5,0,66,66
+7,AC-10450,Consumer,63,-30,1,1,63
+7,AF-10870,Consumer,63,-29,2,2,63
+7,AG-10675,Consumer,63,-28,3,3,63
+7,AH-10030,Corporate,29,-13,1,1,29
+7,AH-10120,Home Office,24,-10.5,1,1,24
+7,AJ-10780,Corporate,29,-12,2,2,29
+7,AJ-10795,Corporate,29,-11,3,3,29
+7,AJ-10945,Consumer,63,-27,4,4,63
+7,AS-10045,Corporate,29,-10,4,4,29
+7,AS-10240,Consumer,63,-26,5,5,63
+7,AS-10630,Home Office,24,-9.5,2,2,24
+7,AW-10930,Home Office,24,-8.5,3,3,24
+7,BD-11605,Consumer,63,-25,6,6,63
+7,BF-10975,Corporate,29,-9,5,5,29
+7,BP-11290,Consumer,63,-24,7,7,63
+7,BS-11755,Consumer,63,-23,8,8,63
+7,BT-11680,Consumer,63,-22,9,9,63
+7,CA-12775,Consumer,63,-21,10,10,63
+7,CC-12145,Consumer,63,-20,11,11,63
+7,CC-12610,Corporate,29,-8,6,6,29
+7,CC-12670,Consumer,63,-19,12,12,63
+7,DB-13060,Consumer,63,-18,13,13,63
+7,DB-13120,Corporate,29,-7,7,7,29
+7,DB-13555,Corporate,29,-6,8,8,29
+7,DB-13615,Consumer,63,-17,14,14,63
+7,DB-13660,Consumer,63,-16,15,15,63
+7,DK-13090,Consumer,63,-15,16,16,63
+7,DM-12955,Corporate,29,-5,9,9,29
+7,DM-13015,Consumer,63,-14,17,17,63
+7,DN-13690,Consumer,63,-13,18,18,63
+7,DO-13645,Consumer,63,-12,19,19,63
+7,DW-13585,Corporate,29,-4,10,10,29
+7,EH-14005,Home Office,24,-7.5,4,4,24
+7,FA-14230,Corporate,29,-3,11,11,29
+7,FC-14245,Home Office,24,-6.5,5,5,24
+7,FC-14335,Corporate,29,-2,12,12,29
+7,FG-14260,Home Office,24,-5.5,6,6,24
+7,GM-14440,Consumer,63,-11,20,20,63
+7,GW-14605,Consumer,63,-10,21,21,63
+7,HA-14905,Consumer,63,-9,22,22,63
+7,HF-14995,Consumer,63,-8,23,23,63
+7,HG-15025,Consumer,63,-7,24,24,63
+7,HP-14815,Home Office,24,-4.5,7,7,24
+7,HR-14830,Corporate,29,-1,13,13,29
+7,IL-15100,Consumer,63,-6,25,25,63
+7,IM-15070,Consumer,63,-5,26,26,63
+7,JB-16000,Consumer,63,-4,27,27,63
+7,JE-15610,Corporate,29,0,14,14,29
+7,JF-15190,Consumer,63,-3,28,28,63
+7,JH-15910,Consumer,63,-2,29,29,63
+7,JK-15625,Consumer,63,-1,30,30,63
+7,JM-15535,Consumer,63,0,31,31,63
+7,JM-15865,Consumer,63,1,32,32,63
+7,JP-15460,Corporate,29,1,15,15,29
+7,JP-15520,Consumer,63,2,33,33,63
+7,JW-15955,Consumer,63,3,34,34,63
+7,KA-16525,Consumer,63,4,35,35,63
+7,KB-16240,Corporate,29,2,16,16,29
+7,KB-16600,Corporate,29,3,17,17,29
+7,KF-16285,Home Office,24,-3.5,8,8,24
+7,KH-16510,Consumer,63,5,36,36,63
+7,KH-16690,Corporate,29,4,18,18,29
+7,KT-16465,Consumer,63,6,37,37,63
+7,LF-17185,Consumer,63,7,38,38,63
+7,LP-17095,Consumer,63,8,39,39,63
+7,LW-17215,Consumer,63,9,40,40,63
+7,MB-18085,Consumer,63,10,41,41,63
+7,MC-17845,Consumer,63,11,42,42,63
+7,MD-17350,Consumer,63,12,43,43,63
+7,MG-17650,Home Office,24,-2.5,9,9,24
+7,MH-17785,Corporate,29,5,19,19,29
+7,MJ-17740,Consumer,63,13,44,44,63
+7,ML-17755,Home Office,24,-1.5,10,10,24
+7,MP-17470,Home Office,24,-0.5,11,11,24
+7,MV-18190,Consumer,63,14,45,45,63
+7,MW-18220,Consumer,63,15,46,46,63
+7,MY-17380,Corporate,29,6,20,20,29
+7,NC-18535,Corporate,29,7,21,21,29
+7,NF-18385,Consumer,63,16,47,47,63
+7,NF-18595,Home Office,24,0.5,12,12,24
+7,NH-18610,Corporate,29,8,22,22,29
+7,NK-18490,Home Office,24,1.5,13,13,24
+7,NM-18445,Home Office,24,2.5,14,14,24
+7,NP-18700,Consumer,63,17,48,48,63
+7,NW-18400,Consumer,63,18,49,49,63
+7,PJ-19015,Consumer,63,19,50,50,63
+7,PO-18865,Consumer,63,20,51,51,63
+7,PS-19045,Home Office,24,3.5,15,15,24
+7,PW-19240,Consumer,63,21,52,52,63
+7,RA-19885,Corporate,29,9,23,23,29
+7,RF-19735,Consumer,63,22,53,53,63
+7,RO-19780,Consumer,63,23,54,54,63
+7,RW-19540,Corporate,29,10,24,24,29
+7,SB-20290,Corporate,29,11,25,25,29
+7,SC-20305,Consumer,63,24,55,55,63
+7,SC-20440,Corporate,29,12,26,26,29
+7,SC-20770,Corporate,29,13,27,27,29
+7,SF-20065,Consumer,63,25,56,56,63
+7,SL-20155,Home Office,24,4.5,16,16,24
+7,SN-20710,Home Office,24,5.5,17,17,24
+7,ST-20530,Consumer,63,26,57,57,63
+7,SU-20665,Home Office,24,6.5,18,18,24
+7,SW-20245,Consumer,63,27,58,58,63
+7,SW-20455,Consumer,63,28,59,59,63
+7,TB-21250,Consumer,63,29,60,60,63
+7,TB-21400,Consumer,63,30,61,61,63
+7,TC-21535,Home Office,24,7.5,19,19,24
+7,TH-21550,Home Office,24,8.5,20,20,24
+7,TN-21040,Home Office,24,9.5,21,21,24
+7,TS-21205,Corporate,29,14,28,28,29
+7,TS-21610,Consumer,63,31,62,62,63
+7,TT-21070,Consumer,63,-31,0,63,63
+7,TT-21460,Home Office,24,10.5,22,22,24
+7,TW-21025,Home Office,24,11.5,23,23,24
+7,VM-21685,Home Office,24,-11.5,0,24,24
+7,VP-21760,Corporate,29,-14,0,29,29
+8,AB-10060,Home Office,16,-6.5,1,1,16
+8,AB-10165,Consumer,35,-16,1,1,35
+8,AD-10180,Home Office,16,-5.5,2,2,16
+8,AG-10495,Corporate,31,-14,1,1,31
+8,AM-10705,Consumer,35,-15,2,2,35
+8,AP-10720,Home Office,16,-4.5,3,3,16
+8,AR-10825,Corporate,31,-13,2,2,31
+8,BF-11020,Corporate,31,-12,3,3,31
+8,BG-11035,Consumer,35,-14,3,3,35
+8,BH-11710,Consumer,35,-13,4,4,35
+8,BW-11110,Corporate,31,-11,4,4,31
+8,CB-12415,Consumer,35,-12,5,5,35
+8,CB-12535,Corporate,31,-10,5,5,31
+8,CJ-12010,Consumer,35,-11,6,6,35
+8,CP-12085,Corporate,31,-9,6,6,31
+8,CP-12340,Corporate,31,-8,7,7,31
+8,CT-11995,Consumer,35,-10,7,7,35
+8,CY-12745,Corporate,31,-7,8,8,31
+8,DB-12910,Home Office,16,-3.5,4,4,16
+8,DB-13270,Home Office,16,-2.5,5,5,16
+8,DJ-13510,Corporate,31,-6,9,9,31
+8,DK-13375,Consumer,35,-9,8,8,35
+8,DL-12865,Consumer,35,-8,9,9,35
+8,DL-13315,Consumer,35,-7,10,10,35
+8,DL-13495,Corporate,31,-5,10,10,31
+8,DM-13345,Corporate,31,-4,11,11,31
+8,DP-13105,Corporate,31,-3,12,12,31
+8,DR-12940,Home Office,16,-1.5,6,6,16
+8,ED-13885,Home Office,16,-0.5,7,7,16
+8,EH-13945,Consumer,35,-6,11,11,35
+8,EM-13825,Corporate,31,-2,13,13,31
+8,FH-14365,Corporate,31,-1,14,14,31
+8,FP-14320,Consumer,35,-5,12,12,35
+8,GA-14515,Consumer,35,-4,13,13,35
+8,HA-14920,Consumer,35,-3,14,14,35
+8,HK-14890,Corporate,31,0,15,15,31
+8,HW-14935,Corporate,31,1,16,16,31
+8,JA-15970,Consumer,35,-2,15,15,35
+8,JD-16150,Corporate,31,2,17,17,31
+8,JF-15565,Consumer,35,-1,16,16,35
+8,JK-15370,Consumer,35,0,17,17,35
+8,KE-16420,Corporate,31,3,18,18,31
+8,KH-16330,Corporate,31,4,19,19,31
+8,KL-16555,Corporate,31,5,20,20,31
+8,KM-16375,Home Office,16,0.5,8,8,16
+8,KM-16720,Consumer,35,1,18,18,35
+8,KN-16705,Home Office,16,1.5,9,9,16
+8,LB-16795,Home Office,16,2.5,10,10,16
+8,LC-16870,Consumer,35,2,19,19,35
+8,LC-16930,Corporate,31,6,21,21,31
+8,LT-17110,Consumer,35,3,20,20,35
+8,MC-17275,Consumer,35,4,21,21,35
+8,MC-17575,Consumer,35,5,22,22,35
+8,MC-17605,Corporate,31,7,22,22,31
+8,ME-17725,Consumer,35,6,23,23,35
+8,MH-17455,Consumer,35,7,24,24,35
+8,MK-17905,Corporate,31,8,23,23,31
+8,MM-18055,Consumer,35,8,25,25,35
+8,MO-17800,Home Office,16,3.5,11,11,16
+8,PB-19150,Consumer,35,9,26,26,35
+8,PJ-18835,Corporate,31,9,24,24,31
+8,PN-18775,Home Office,16,4.5,12,12,16
+8,PS-18970,Home Office,16,5.5,13,13,16
+8,RB-19435,Consumer,35,10,27,27,35
+8,RB-19795,Home Office,16,6.5,14,14,16
+8,RD-19480,Consumer,35,11,28,28,35
+8,RD-19810,Home Office,16,7.5,15,15,16
+8,RF-19345,Corporate,31,10,25,25,31
+8,RF-19840,Consumer,35,12,29,29,35
+8,RL-19615,Consumer,35,13,30,30,35
+8,RP-19855,Corporate,31,11,26,26,31
+8,RS-19765,Corporate,31,12,27,27,31
+8,SC-20260,Corporate,31,13,28,28,31
+8,SG-20470,Consumer,35,14,31,31,35
+8,SR-20740,Home Office,16,-7.5,0,16,16
+8,SS-20140,Corporate,31,14,29,29,31
+8,SV-20935,Consumer,35,15,32,32,35
+8,TC-21295,Consumer,35,16,33,33,35
+8,TH-21235,Corporate,31,15,30,30,31
+8,TM-21010,Consumer,35,17,34,34,35
+8,TT-21220,Consumer,35,-17,0,35,35
+8,YS-21880,Corporate,31,-15,0,31,31
+9,AA-10375,Consumer,30,-13.5,1,1,30
+9,AB-10255,Home Office,17,-7,1,1,17
+9,AH-10210,Consumer,30,-12.5,2,2,30
+9,AS-10090,Consumer,30,-11.5,3,3,30
+9,BB-11545,Corporate,24,-10.5,1,1,24
+9,BC-11125,Home Office,17,-6,2,2,17
+9,BP-11185,Corporate,24,-9.5,2,2,24
+9,CA-12265,Consumer,30,-10.5,4,4,30
+9,CC-12475,Consumer,30,-9.5,5,5,30
+9,CK-12760,Corporate,24,-8.5,3,3,24
+9,CS-12400,Home Office,17,-5,3,3,17
+9,CV-12805,Corporate,24,-7.5,4,4,24
+9,DC-12850,Consumer,30,-8.5,6,6,30
+9,DK-13225,Corporate,24,-6.5,5,5,24
+9,DO-13435,Consumer,30,-7.5,7,7,30
+9,DP-13000,Consumer,30,-6.5,8,8,30
+9,DP-13390,Home Office,17,-4,4,4,17
+9,DR-12880,Corporate,24,-5.5,6,6,24
+9,DS-13180,Corporate,24,-4.5,7,7,24
+9,EB-13705,Corporate,24,-3.5,8,8,24
+9,ES-14080,Corporate,24,-2.5,9,9,24
+9,FM-14290,Home Office,17,-3,5,5,17
+9,FM-14380,Consumer,30,-5.5,9,9,30
+9,GG-14650,Corporate,24,-1.5,10,10,24
+9,GH-14410,Home Office,17,-2,6,6,17
+9,GK-14620,Corporate,24,-0.5,11,11,24
+9,GZ-14470,Consumer,30,-4.5,10,10,30
+9,JC-15775,Consumer,30,-3.5,11,11,30
+9,JK-15640,Home Office,17,-1,7,7,17
+9,JO-15145,Corporate,24,0.5,12,12,24
+9,JP-16135,Home Office,17,0,8,8,17
+9,KB-16315,Consumer,30,-2.5,12,12,30
+9,KH-16630,Corporate,24,1.5,13,13,24
+9,KN-16390,Corporate,24,2.5,14,14,24
+9,LC-17140,Consumer,30,-1.5,13,13,30
+9,LH-16900,Consumer,30,-0.5,14,14,30
+9,LH-17155,Consumer,30,0.5,15,15,30
+9,LS-16975,Home Office,17,1,9,9,17
+9,MG-17890,Home Office,17,2,10,10,17
+9,MH-18115,Home Office,17,3,11,11,17
+9,ML-17395,Corporate,24,3.5,15,15,24
+9,MM-18280,Corporate,24,4.5,16,16,24
+9,MP-17965,Corporate,24,5.5,17,17,24
+9,MP-18175,Home Office,17,4,12,12,17
+9,MS-17770,Consumer,30,1.5,16,16,30
+9,MV-17485,Consumer,30,2.5,17,17,30
+9,NB-18655,Corporate,24,6.5,18,18,24
+9,ND-18370,Consumer,30,3.5,18,18,30
+9,NZ-18565,Home Office,17,5,13,13,17
+9,ON-18715,Corporate,24,7.5,19,19,24
+9,PG-18895,Consumer,30,4.5,19,19,30
+9,PO-19180,Home Office,17,6,14,14,17
+9,QJ-19255,Corporate,24,8.5,20,20,24
+9,RA-19285,Consumer,30,5.5,20,20,30
+9,RA-19915,Consumer,30,6.5,21,21,30
+9,RD-19900,Consumer,30,7.5,22,22,30
+9,RW-19630,Corporate,24,9.5,21,21,24
+9,SC-20050,Home Office,17,7,15,15,17
+9,SC-20095,Consumer,30,8.5,23,23,30
+9,SC-20380,Consumer,30,9.5,24,24,30
+9,SD-20485,Home Office,17,8,16,16,17
+9,SF-20200,Consumer,30,10.5,25,25,30
+9,SF-20965,Corporate,24,10.5,22,22,24
+9,SP-20620,Corporate,24,11.5,23,23,24
+9,SP-20650,Corporate,24,-11.5,0,24,24
+9,SV-20785,Consumer,30,11.5,26,26,30
+9,TB-21520,Consumer,30,12.5,27,27,30
+9,TB-21625,Consumer,30,13.5,28,28,30
+9,TC-21475,Home Office,17,-8,0,17,17
+9,TD-20995,Consumer,30,14.5,29,29,30
+9,TP-21130,Consumer,30,-14.5,0,30,30
+10,AB-10105,Consumer,24,-10.5,1,1,24
+10,AG-10900,Consumer,24,-9.5,2,2,24
+10,AH-10075,Corporate,10,-3.5,1,1,10
+10,AI-10855,Consumer,24,-8.5,3,3,24
+10,AP-10915,Consumer,24,-7.5,4,4,24
+10,AT-10735,Consumer,24,-6.5,5,5,24
+10,BM-11785,Consumer,24,-5.5,6,6,24
+10,CB-12025,Consumer,24,-4.5,7,7,24
+10,CC-12430,Home Office,5,-1,1,1,5
+10,DB-13210,Consumer,24,-3.5,8,8,24
+10,EB-13750,Corporate,10,-2.5,2,2,10
+10,EB-13870,Consumer,24,-2.5,9,9,24
+10,EH-14125,Home Office,5,0,2,2,5
+10,FH-14275,Corporate,10,-1.5,3,3,10
+10,FM-14215,Corporate,10,-0.5,4,4,10
+10,FO-14305,Consumer,24,-1.5,10,10,24
+10,GM-14500,Consumer,24,-0.5,11,11,24
+10,HM-14860,Corporate,10,0.5,5,5,10
+10,JB-15400,Corporate,10,1.5,6,6,10
+10,JE-15715,Consumer,24,0.5,12,12,24
+10,JK-15730,Consumer,24,1.5,13,13,24
+10,JK-16120,Home Office,5,1,3,3,5
+10,JM-16195,Consumer,24,2.5,14,14,24
+10,KT-16480,Consumer,24,3.5,15,15,24
+10,MB-17305,Consumer,24,4.5,16,16,24
+10,MC-18100,Consumer,24,5.5,17,17,24
+10,ME-17320,Home Office,5,2,4,4,5
+10,MS-17365,Consumer,24,6.5,18,18,24
+10,NM-18520,Consumer,24,7.5,19,19,24
+10,PP-18955,Home Office,5,-2,0,5,5
+10,PW-19030,Corporate,10,2.5,7,7,10
+10,RD-19585,Consumer,24,8.5,20,20,24
+10,RD-19720,Consumer,24,9.5,21,21,24
+10,SA-20830,Consumer,24,10.5,22,22,24
+10,SC-20695,Corporate,10,3.5,8,8,10
+10,SH-20395,Consumer,24,11.5,23,23,24
+10,SP-20860,Corporate,10,4.5,9,9,10
+10,SV-20365,Consumer,24,-11.5,0,24,24
+10,VW-21775,Corporate,10,-4.5,0,10,10
+11,BF-11170,Home Office,4,-0.5,1,1,4
+11,BM-11650,Corporate,5,-1,1,1,5
+11,CK-12595,Consumer,14,-5.5,1,1,14
+11,CS-11950,Consumer,14,-4.5,2,2,14
+11,CS-12355,Consumer,14,-3.5,3,3,14
+11,Dp-13240,Home Office,4,0.5,2,2,4
+11,GA-14725,Consumer,14,-2.5,4,4,14
+11,GB-14530,Corporate,5,0,2,2,5
+11,GT-14710,Consumer,14,-1.5,5,5,14
+11,JD-15895,Corporate,5,1,3,3,5
+11,JF-15490,Consumer,14,-0.5,6,6,14
+11,JG-15160,Consumer,14,0.5,7,7,14
+11,JL-15835,Consumer,14,1.5,8,8,14
+11,LA-16780,Corporate,5,2,4,4,5
+11,MA-17560,Home Office,4,1.5,3,3,4
+11,MM-17920,Consumer,14,2.5,9,9,14
+11,MY-18295,Corporate,5,-2,0,5,5
+11,PO-18850,Consumer,14,3.5,10,10,14
+11,SC-20725,Consumer,14,4.5,11,11,14
+11,SE-20110,Consumer,14,5.5,12,12,14
+11,SZ-20035,Home Office,4,-1.5,0,4,4
+11,WB-21850,Consumer,14,6.5,13,13,14
+11,XP-21865,Consumer,14,-6.5,0,14,14
+12,AH-10690,Corporate,9,-3,1,1,9
+12,BD-11320,Consumer,7,-2,1,1,7
+12,BP-11095,Corporate,9,-2,2,2,9
+12,CC-12220,Consumer,7,-1,2,2,7
+12,CL-12565,Consumer,7,0,3,3,7
+12,CS-12250,Corporate,9,-1,3,3,9
+12,DK-12835,Corporate,9,0,4,4,9
+12,EH-13765,Corporate,9,1,5,5,9
+12,HG-14965,Corporate,9,2,6,6,9
+12,KB-16585,Corporate,9,3,7,7,9
+12,KD-16495,Corporate,9,4,8,8,9
+12,KL-16645,Consumer,7,1,4,4,7
+12,LC-16885,Consumer,7,2,5,5,7
+12,PK-19075,Consumer,7,3,6,6,7
+12,RB-19465,Home Office,2,0.5,1,1,2
+12,RP-19390,Consumer,7,-3,0,7,7
+12,SJ-20125,Home Office,2,-0.5,0,2,2
+12,SM-20950,Corporate,9,-4,0,9,9
+13,CK-12205,Consumer,4,-0.5,1,1,4
+13,EA-14035,Corporate,3,0,1,1,3
+13,JE-15745,Consumer,4,0.5,2,2,4
+13,NS-18640,Corporate,3,1,2,2,3
+13,PG-18820,Consumer,4,1.5,3,3,4
+13,SH-19975,Corporate,3,-1,0,3,3
+13,ZC-21910,Consumer,4,-1.5,0,4,4
+17,EP-13915,Consumer,1,0,0,1,1

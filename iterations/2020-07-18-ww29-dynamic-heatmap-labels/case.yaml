@@ -1,0 +1,95 @@
+schema_version: 1.1.0
+case_id: wow-2020-ww29-dynamic-heatmap-labels
+iteration_id: 2020-07-18-ww29-dynamic-heatmap-labels
+post: https://donnacoles.home.blog/2020/07/18/can-you-dynamically-display-a-label-on-a-heat-map/
+legacy_case_ids: {}
+article_date: '2020-07-18'
+challenge_year: 2020
+challenge_week: 29
+challenge_date: '2020-07-14'
+date_evidence:
+  article_date: Article URL and published 18 July2020; archived article analysis SHA
+    recorded.
+  challenge_date: Official WordPress post3860 date=2020-07-14T17:15:52; https://www.workout-wednesday.com/wp-json/wp/v2/posts/3860
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2020w29/
+  article:
+    url: https://donnacoles.home.blog/2020/07/18/can-you-dynamically-display-a-label-on-a-heat-map/
+    path: null
+    sha256: dc52d1e22dd12d13bd094425e7c54b6390c394ea57344726345b3c77f8d41725
+  workbook:
+    url: https://public.tableau.com/workbooks/2020_07_15_WW29_Heatmap.twb
+    filename: author.twbx
+    sha256: 688a72bd23217947f495eb680403175456a2a48f434d50e807d23a1f030d29de
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- evidence/cloud-verification.json
+- evidence/export-provenance.json
+- evidence/functional-verification.json
+- evidence/sdk-baseline.json
+- evidence/sdk-final-validation.json
+- evidence/visual-review.md
+- evidence/zero-build-verification.json
+- inputs/source-lock.json
+notes:
+- Target is Donna Intermediate dashboard only; article states Advanced click row/column
+  difference bug unresolved.
+- Builder uses only extracted four-column Hyper from empty TWBEditor and publicSDK.
+- Source comparison workbook exposes hidden worksheet windows only; provenance binds
+  both source and comparison hashes.
+cwtwb:
+  tested_version: 0.27.1
+  runs:
+  - version: 0.27.1
+    commit: 56377c5b170f0df1f5cd853fc483de26962dfed1
+    result: pass
+    evidence: evidence/sdk-baseline.json
+    notes: Exact released56377 SDK imported from git archive, same public builder
+      independently built and rawdata/artifact verifier passed. Baseline workbook
+      not Cloudpublished; final Cloud acceptance separate.
+  - version: 0.27.1
+    commit: cbe200a4a148f1825764de67bd3e8f0e6d01a113
+    result: pass
+    evidence: evidence/sdk-final-validation.json
+  tested_commit: cbe200a4a148f1825764de67bd3e8f0e6d01a113
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: pass
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/Orders (Sample - Superstore).hyper
+acceptance:
+- id: ww29-heatmap-oracle
+  description: Independently recompute all48 month/year AVG Quantity cells,17 totals
+    and ProfitRatio from9994 lockedraw rows; distinguish weighted AVG labels from
+    visual-average color totals.
+  mode: automated
+- id: ww29-independent-size-addressing
+  description: Total Label and Cell Label carry separate nested SIZE Years/year and
+    Months/month addressing, including one-year/one-month filter branches.
+  mode: automated
+- id: ww29-hover-action-contract
+  description: Two Intermediate on-hover assign set actions target month/year sets;
+    clearing exclude-all; verify persisted contract, not browser event execution.
+  mode: automated
+- id: ww29-native-totals
+  description: Native row/column totals, visual AvgQuantity encoding, include-totals
+    color, two concatenated numeric labels and empty sets.
+  mode: automated
+- id: ww29-cloud-matrix
+  description: Paired original/replica REST images and full heatmapCSV at default/year2019/January/singlecell;
+    hashbound export scope explicit.
+  mode: automated
+remaining_work: []
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []

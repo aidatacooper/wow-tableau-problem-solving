@@ -1,0 +1,212 @@
+{
+  "rows": 26,
+  "products": [
+    {
+      "type": "Size",
+      "product": "Large 13.5\"",
+      "vegetarian": false,
+      "price": 10.99,
+      "selected": true
+    },
+    {
+      "type": "Size",
+      "product": "Medium 11.5\"",
+      "vegetarian": false,
+      "price": 9.99,
+      "selected": false
+    },
+    {
+      "type": "Size",
+      "product": "Small 9.5\"",
+      "vegetarian": false,
+      "price": 8.99,
+      "selected": false
+    },
+    {
+      "type": "Size",
+      "product": "Personal 7\"",
+      "vegetarian": false,
+      "price": 4.99,
+      "selected": false
+    },
+    {
+      "type": "Crust",
+      "product": "Classic",
+      "vegetarian": true,
+      "price": 1.0,
+      "selected": true
+    },
+    {
+      "type": "Crust",
+      "product": "Italian Style",
+      "vegetarian": true,
+      "price": 1.5,
+      "selected": false
+    },
+    {
+      "type": "Crust",
+      "product": "Thin & Crispy",
+      "vegetarian": true,
+      "price": 1.75,
+      "selected": false
+    },
+    {
+      "type": "Sauce",
+      "product": "BBQ",
+      "vegetarian": true,
+      "price": 1.5,
+      "selected": false
+    },
+    {
+      "type": "Sauce",
+      "product": "Tomato",
+      "vegetarian": true,
+      "price": 1.5,
+      "selected": false
+    },
+    {
+      "type": "Sauce",
+      "product": "No Sauce",
+      "vegetarian": true,
+      "price": 0.1,
+      "selected": true
+    },
+    {
+      "type": "Toppings",
+      "product": "Pepperoni",
+      "vegetarian": false,
+      "price": 1.6,
+      "selected": false
+    },
+    {
+      "type": "Toppings",
+      "product": "Chicken Breast",
+      "vegetarian": false,
+      "price": 1.6,
+      "selected": false
+    },
+    {
+      "type": "Toppings",
+      "product": "Sweetcorn",
+      "vegetarian": true,
+      "price": 0.75,
+      "selected": false
+    },
+    {
+      "type": "Toppings",
+      "product": "Ham",
+      "vegetarian": false,
+      "price": 1.6,
+      "selected": false
+    },
+    {
+      "type": "Toppings",
+      "product": "Mushrooms",
+      "vegetarian": true,
+      "price": 0.75,
+      "selected": false
+    },
+    {
+      "type": "Toppings",
+      "product": "Onions",
+      "vegetarian": true,
+      "price": 0.75,
+      "selected": false
+    },
+    {
+      "type": "Toppings",
+      "product": "Pineapple",
+      "vegetarian": true,
+      "price": 0.75,
+      "selected": true
+    },
+    {
+      "type": "Toppings",
+      "product": "Smoked Bacon Rashers",
+      "vegetarian": false,
+      "price": 1.6,
+      "selected": false
+    },
+    {
+      "type": "Toppings",
+      "product": "Green Peppers",
+      "vegetarian": true,
+      "price": 0.75,
+      "selected": false
+    },
+    {
+      "type": "Toppings",
+      "product": "Red Peppers",
+      "vegetarian": true,
+      "price": 0.75,
+      "selected": true
+    },
+    {
+      "type": "Toppings",
+      "product": "Jalapeno Peppers",
+      "vegetarian": true,
+      "price": 0.75,
+      "selected": true
+    },
+    {
+      "type": "Toppings",
+      "product": "Pork Meatballs",
+      "vegetarian": false,
+      "price": 1.6,
+      "selected": true
+    },
+    {
+      "type": "Toppings",
+      "product": "Ground Beef",
+      "vegetarian": false,
+      "price": 1.6,
+      "selected": true
+    },
+    {
+      "type": "Toppings",
+      "product": "Sausage",
+      "vegetarian": false,
+      "price": 1.6,
+      "selected": false
+    },
+    {
+      "type": "Toppings",
+      "product": "Garlic Spread",
+      "vegetarian": true,
+      "price": 0.75,
+      "selected": false
+    },
+    {
+      "type": "Toppings",
+      "product": "Tomatoes",
+      "vegetarian": true,
+      "price": 0.75,
+      "selected": false
+    }
+  ],
+  "selected_total": 17.54,
+  "selected_by_type": {
+    "Size": 10.99,
+    "Crust": 1.0,
+    "Sauce": 0.1,
+    "Toppings": 5.45
+  },
+  "budget_states": {
+    "15": {
+      "difference": -2.539999999999999,
+      "under": 0,
+      "over": 2.539999999999999
+    },
+    "30": {
+      "difference": 12.46,
+      "under": 12.46,
+      "over": 0
+    },
+    "5": {
+      "difference": -12.54,
+      "under": 0,
+      "over": 12.54
+    }
+  },
+  "scope": "Every raw product price, type and vegetarian flag; all eight initial set members; global selected total and budget difference."
+}

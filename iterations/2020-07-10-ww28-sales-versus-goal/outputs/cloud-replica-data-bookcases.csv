@@ -1,0 +1,631 @@
+CATEGORY,Measure Names,MONTH,SEGMENT,SUB-CATEGORY,At Lowest Level,Max Sub-Cats in Window,Records to Show,Measure Values
+Furniture,ACTUAL SALES,January 2017,Consumer,Bookcases,True,1,True,"1,352.3976"
+Furniture,SALES GOAL,January 2017,Consumer,Bookcases,True,1,True,0
+Furniture,RESULT,January 2017,Consumer,Bookcases,True,1,True,
+Furniture,ACTUAL vs GOAL,January 2017,Consumer,Bookcases,True,1,True,
+Furniture,# Sub-Cats,January 2017,Consumer,Bookcases,True,1,True,1
+Furniture,Max Sub-Cats in Window,January 2017,Consumer,Bookcases,True,1,True,1
+Furniture,ACTUAL SALES,January 2017,Corporate,Bookcases,True,1,True,452.45
+Furniture,SALES GOAL,January 2017,Corporate,Bookcases,True,1,True,0
+Furniture,RESULT,January 2017,Corporate,Bookcases,True,1,True,
+Furniture,ACTUAL vs GOAL,January 2017,Corporate,Bookcases,True,1,True,
+Furniture,# Sub-Cats,January 2017,Corporate,Bookcases,True,1,True,1
+Furniture,Max Sub-Cats in Window,January 2017,Corporate,Bookcases,True,1,True,1
+Furniture,ACTUAL SALES,January 2017,Home Office,Bookcases,False,1,False,
+Furniture,SALES GOAL,January 2017,Home Office,Bookcases,False,1,False,
+Furniture,RESULT,January 2017,Home Office,Bookcases,False,1,False,
+Furniture,ACTUAL vs GOAL,January 2017,Home Office,Bookcases,False,1,False,
+Furniture,# Sub-Cats,January 2017,Home Office,Bookcases,False,1,False,0
+Furniture,Max Sub-Cats in Window,January 2017,Home Office,Bookcases,False,1,False,1
+Furniture,ACTUAL SALES,February 2017,Consumer,Bookcases,True,1,True,283.92
+Furniture,SALES GOAL,February 2017,Consumer,Bookcases,True,1,True,0
+Furniture,RESULT,February 2017,Consumer,Bookcases,True,1,True,
+Furniture,ACTUAL vs GOAL,February 2017,Consumer,Bookcases,True,1,True,
+Furniture,# Sub-Cats,February 2017,Consumer,Bookcases,True,1,True,1
+Furniture,Max Sub-Cats in Window,February 2017,Consumer,Bookcases,True,1,True,1
+Furniture,ACTUAL SALES,February 2017,Corporate,Bookcases,False,1,False,
+Furniture,SALES GOAL,February 2017,Corporate,Bookcases,False,1,False,
+Furniture,RESULT,February 2017,Corporate,Bookcases,False,1,False,
+Furniture,ACTUAL vs GOAL,February 2017,Corporate,Bookcases,False,1,False,
+Furniture,# Sub-Cats,February 2017,Corporate,Bookcases,False,1,False,0
+Furniture,Max Sub-Cats in Window,February 2017,Corporate,Bookcases,False,1,False,1
+Furniture,ACTUAL SALES,February 2017,Home Office,Bookcases,False,1,False,
+Furniture,SALES GOAL,February 2017,Home Office,Bookcases,False,1,False,
+Furniture,RESULT,February 2017,Home Office,Bookcases,False,1,False,
+Furniture,ACTUAL vs GOAL,February 2017,Home Office,Bookcases,False,1,False,
+Furniture,# Sub-Cats,February 2017,Home Office,Bookcases,False,1,False,0
+Furniture,Max Sub-Cats in Window,February 2017,Home Office,Bookcases,False,1,False,1
+Furniture,ACTUAL SALES,March 2017,Consumer,Bookcases,True,1,True,654.9
+Furniture,SALES GOAL,March 2017,Consumer,Bookcases,True,1,True,0
+Furniture,RESULT,March 2017,Consumer,Bookcases,True,1,True,
+Furniture,ACTUAL vs GOAL,March 2017,Consumer,Bookcases,True,1,True,
+Furniture,# Sub-Cats,March 2017,Consumer,Bookcases,True,1,True,1
+Furniture,Max Sub-Cats in Window,March 2017,Consumer,Bookcases,True,1,True,1
+Furniture,ACTUAL SALES,March 2017,Corporate,Bookcases,True,1,True,"1,227.9984"
+Furniture,SALES GOAL,March 2017,Corporate,Bookcases,True,1,True,0
+Furniture,RESULT,March 2017,Corporate,Bookcases,True,1,True,
+Furniture,ACTUAL vs GOAL,March 2017,Corporate,Bookcases,True,1,True,
+Furniture,# Sub-Cats,March 2017,Corporate,Bookcases,True,1,True,1
+Furniture,Max Sub-Cats in Window,March 2017,Corporate,Bookcases,True,1,True,1
+Furniture,ACTUAL SALES,March 2017,Home Office,Bookcases,True,1,True,742.5236
+Furniture,SALES GOAL,March 2017,Home Office,Bookcases,True,1,True,0
+Furniture,RESULT,March 2017,Home Office,Bookcases,True,1,True,
+Furniture,ACTUAL vs GOAL,March 2017,Home Office,Bookcases,True,1,True,
+Furniture,# Sub-Cats,March 2017,Home Office,Bookcases,True,1,True,1
+Furniture,Max Sub-Cats in Window,March 2017,Home Office,Bookcases,True,1,True,1
+Furniture,ACTUAL SALES,April 2017,Consumer,Bookcases,True,1,True,523.26
+Furniture,SALES GOAL,April 2017,Consumer,Bookcases,True,1,True,0
+Furniture,RESULT,April 2017,Consumer,Bookcases,True,1,True,
+Furniture,ACTUAL vs GOAL,April 2017,Consumer,Bookcases,True,1,True,
+Furniture,# Sub-Cats,April 2017,Consumer,Bookcases,True,1,True,1
+Furniture,Max Sub-Cats in Window,April 2017,Consumer,Bookcases,True,1,True,1
+Furniture,ACTUAL SALES,April 2017,Corporate,Bookcases,False,1,False,
+Furniture,SALES GOAL,April 2017,Corporate,Bookcases,False,1,False,
+Furniture,RESULT,April 2017,Corporate,Bookcases,False,1,False,
+Furniture,ACTUAL vs GOAL,April 2017,Corporate,Bookcases,False,1,False,
+Furniture,# Sub-Cats,April 2017,Corporate,Bookcases,False,1,False,0
+Furniture,Max Sub-Cats in Window,April 2017,Corporate,Bookcases,False,1,False,1
+Furniture,ACTUAL SALES,April 2017,Home Office,Bookcases,True,1,True,352.45
+Furniture,SALES GOAL,April 2017,Home Office,Bookcases,True,1,True,0
+Furniture,RESULT,April 2017,Home Office,Bookcases,True,1,True,
+Furniture,ACTUAL vs GOAL,April 2017,Home Office,Bookcases,True,1,True,
+Furniture,# Sub-Cats,April 2017,Home Office,Bookcases,True,1,True,1
+Furniture,Max Sub-Cats in Window,April 2017,Home Office,Bookcases,True,1,True,1
+Furniture,ACTUAL SALES,May 2017,Consumer,Bookcases,True,1,True,"1,406.86"
+Furniture,SALES GOAL,May 2017,Consumer,Bookcases,True,1,True,0
+Furniture,RESULT,May 2017,Consumer,Bookcases,True,1,True,
+Furniture,ACTUAL vs GOAL,May 2017,Consumer,Bookcases,True,1,True,
+Furniture,# Sub-Cats,May 2017,Consumer,Bookcases,True,1,True,1
+Furniture,Max Sub-Cats in Window,May 2017,Consumer,Bookcases,True,1,True,1
+Furniture,ACTUAL SALES,May 2017,Corporate,Bookcases,True,1,True,509.9575
+Furniture,SALES GOAL,May 2017,Corporate,Bookcases,True,1,True,0
+Furniture,RESULT,May 2017,Corporate,Bookcases,True,1,True,
+Furniture,ACTUAL vs GOAL,May 2017,Corporate,Bookcases,True,1,True,
+Furniture,# Sub-Cats,May 2017,Corporate,Bookcases,True,1,True,1
+Furniture,Max Sub-Cats in Window,May 2017,Corporate,Bookcases,True,1,True,1
+Furniture,ACTUAL SALES,May 2017,Home Office,Bookcases,False,1,False,
+Furniture,SALES GOAL,May 2017,Home Office,Bookcases,False,1,False,
+Furniture,RESULT,May 2017,Home Office,Bookcases,False,1,False,
+Furniture,ACTUAL vs GOAL,May 2017,Home Office,Bookcases,False,1,False,
+Furniture,# Sub-Cats,May 2017,Home Office,Bookcases,False,1,False,0
+Furniture,Max Sub-Cats in Window,May 2017,Home Office,Bookcases,False,1,False,1
+Furniture,ACTUAL SALES,June 2017,Consumer,Bookcases,False,1,False,
+Furniture,SALES GOAL,June 2017,Consumer,Bookcases,False,1,False,
+Furniture,RESULT,June 2017,Consumer,Bookcases,False,1,False,
+Furniture,ACTUAL vs GOAL,June 2017,Consumer,Bookcases,False,1,False,
+Furniture,# Sub-Cats,June 2017,Consumer,Bookcases,False,1,False,0
+Furniture,Max Sub-Cats in Window,June 2017,Consumer,Bookcases,False,1,False,1
+Furniture,ACTUAL SALES,June 2017,Corporate,Bookcases,True,1,True,482.94
+Furniture,SALES GOAL,June 2017,Corporate,Bookcases,True,1,True,0
+Furniture,RESULT,June 2017,Corporate,Bookcases,True,1,True,
+Furniture,ACTUAL vs GOAL,June 2017,Corporate,Bookcases,True,1,True,
+Furniture,# Sub-Cats,June 2017,Corporate,Bookcases,True,1,True,1
+Furniture,Max Sub-Cats in Window,June 2017,Corporate,Bookcases,True,1,True,1
+Furniture,ACTUAL SALES,June 2017,Home Office,Bookcases,False,1,False,
+Furniture,SALES GOAL,June 2017,Home Office,Bookcases,False,1,False,
+Furniture,RESULT,June 2017,Home Office,Bookcases,False,1,False,
+Furniture,ACTUAL vs GOAL,June 2017,Home Office,Bookcases,False,1,False,
+Furniture,# Sub-Cats,June 2017,Home Office,Bookcases,False,1,False,0
+Furniture,Max Sub-Cats in Window,June 2017,Home Office,Bookcases,False,1,False,1
+Furniture,ACTUAL SALES,July 2017,Consumer,Bookcases,True,1,True,"2,326.504"
+Furniture,SALES GOAL,July 2017,Consumer,Bookcases,True,1,True,0
+Furniture,RESULT,July 2017,Consumer,Bookcases,True,1,True,
+Furniture,ACTUAL vs GOAL,July 2017,Consumer,Bookcases,True,1,True,
+Furniture,# Sub-Cats,July 2017,Consumer,Bookcases,True,1,True,1
+Furniture,Max Sub-Cats in Window,July 2017,Consumer,Bookcases,True,1,True,1
+Furniture,ACTUAL SALES,July 2017,Corporate,Bookcases,True,1,True,231.92
+Furniture,SALES GOAL,July 2017,Corporate,Bookcases,True,1,True,0
+Furniture,RESULT,July 2017,Corporate,Bookcases,True,1,True,
+Furniture,ACTUAL vs GOAL,July 2017,Corporate,Bookcases,True,1,True,
+Furniture,# Sub-Cats,July 2017,Corporate,Bookcases,True,1,True,1
+Furniture,Max Sub-Cats in Window,July 2017,Corporate,Bookcases,True,1,True,1
+Furniture,ACTUAL SALES,July 2017,Home Office,Bookcases,True,1,True,301.96
+Furniture,SALES GOAL,July 2017,Home Office,Bookcases,True,1,True,0
+Furniture,RESULT,July 2017,Home Office,Bookcases,True,1,True,
+Furniture,ACTUAL vs GOAL,July 2017,Home Office,Bookcases,True,1,True,
+Furniture,# Sub-Cats,July 2017,Home Office,Bookcases,True,1,True,1
+Furniture,Max Sub-Cats in Window,July 2017,Home Office,Bookcases,True,1,True,1
+Furniture,ACTUAL SALES,August 2017,Consumer,Bookcases,True,1,True,609.136
+Furniture,SALES GOAL,August 2017,Consumer,Bookcases,True,1,True,0
+Furniture,RESULT,August 2017,Consumer,Bookcases,True,1,True,
+Furniture,ACTUAL vs GOAL,August 2017,Consumer,Bookcases,True,1,True,
+Furniture,# Sub-Cats,August 2017,Consumer,Bookcases,True,1,True,1
+Furniture,Max Sub-Cats in Window,August 2017,Consumer,Bookcases,True,1,True,1
+Furniture,ACTUAL SALES,August 2017,Corporate,Bookcases,True,1,True,"2,508.4282"
+Furniture,SALES GOAL,August 2017,Corporate,Bookcases,True,1,True,0
+Furniture,RESULT,August 2017,Corporate,Bookcases,True,1,True,
+Furniture,ACTUAL vs GOAL,August 2017,Corporate,Bookcases,True,1,True,
+Furniture,# Sub-Cats,August 2017,Corporate,Bookcases,True,1,True,1
+Furniture,Max Sub-Cats in Window,August 2017,Corporate,Bookcases,True,1,True,1
+Furniture,ACTUAL SALES,August 2017,Home Office,Bookcases,True,1,True,687.4
+Furniture,SALES GOAL,August 2017,Home Office,Bookcases,True,1,True,0
+Furniture,RESULT,August 2017,Home Office,Bookcases,True,1,True,
+Furniture,ACTUAL vs GOAL,August 2017,Home Office,Bookcases,True,1,True,
+Furniture,# Sub-Cats,August 2017,Home Office,Bookcases,True,1,True,1
+Furniture,Max Sub-Cats in Window,August 2017,Home Office,Bookcases,True,1,True,1
+Furniture,ACTUAL SALES,September 2017,Consumer,Bookcases,True,1,True,"10,020.585"
+Furniture,SALES GOAL,September 2017,Consumer,Bookcases,True,1,True,0
+Furniture,RESULT,September 2017,Consumer,Bookcases,True,1,True,
+Furniture,ACTUAL vs GOAL,September 2017,Consumer,Bookcases,True,1,True,
+Furniture,# Sub-Cats,September 2017,Consumer,Bookcases,True,1,True,1
+Furniture,Max Sub-Cats in Window,September 2017,Consumer,Bookcases,True,1,True,1
+Furniture,ACTUAL SALES,September 2017,Corporate,Bookcases,True,1,True,602.664
+Furniture,SALES GOAL,September 2017,Corporate,Bookcases,True,1,True,0
+Furniture,RESULT,September 2017,Corporate,Bookcases,True,1,True,
+Furniture,ACTUAL vs GOAL,September 2017,Corporate,Bookcases,True,1,True,
+Furniture,# Sub-Cats,September 2017,Corporate,Bookcases,True,1,True,1
+Furniture,Max Sub-Cats in Window,September 2017,Corporate,Bookcases,True,1,True,1
+Furniture,ACTUAL SALES,September 2017,Home Office,Bookcases,True,1,True,61.96
+Furniture,SALES GOAL,September 2017,Home Office,Bookcases,True,1,True,0
+Furniture,RESULT,September 2017,Home Office,Bookcases,True,1,True,
+Furniture,ACTUAL vs GOAL,September 2017,Home Office,Bookcases,True,1,True,
+Furniture,# Sub-Cats,September 2017,Home Office,Bookcases,True,1,True,1
+Furniture,Max Sub-Cats in Window,September 2017,Home Office,Bookcases,True,1,True,1
+Furniture,ACTUAL SALES,October 2017,Consumer,Bookcases,True,1,True,648.283
+Furniture,SALES GOAL,October 2017,Consumer,Bookcases,True,1,True,0
+Furniture,RESULT,October 2017,Consumer,Bookcases,True,1,True,
+Furniture,ACTUAL vs GOAL,October 2017,Consumer,Bookcases,True,1,True,
+Furniture,# Sub-Cats,October 2017,Consumer,Bookcases,True,1,True,1
+Furniture,Max Sub-Cats in Window,October 2017,Consumer,Bookcases,True,1,True,1
+Furniture,ACTUAL SALES,October 2017,Corporate,Bookcases,False,1,False,
+Furniture,SALES GOAL,October 2017,Corporate,Bookcases,False,1,False,
+Furniture,RESULT,October 2017,Corporate,Bookcases,False,1,False,
+Furniture,ACTUAL vs GOAL,October 2017,Corporate,Bookcases,False,1,False,
+Furniture,# Sub-Cats,October 2017,Corporate,Bookcases,False,1,False,0
+Furniture,Max Sub-Cats in Window,October 2017,Corporate,Bookcases,False,1,False,1
+Furniture,ACTUAL SALES,October 2017,Home Office,Bookcases,True,1,True,"1,525.488"
+Furniture,SALES GOAL,October 2017,Home Office,Bookcases,True,1,True,0
+Furniture,RESULT,October 2017,Home Office,Bookcases,True,1,True,
+Furniture,ACTUAL vs GOAL,October 2017,Home Office,Bookcases,True,1,True,
+Furniture,# Sub-Cats,October 2017,Home Office,Bookcases,True,1,True,1
+Furniture,Max Sub-Cats in Window,October 2017,Home Office,Bookcases,True,1,True,1
+Furniture,ACTUAL SALES,November 2017,Consumer,Bookcases,True,1,True,"3,369.2842"
+Furniture,SALES GOAL,November 2017,Consumer,Bookcases,True,1,True,0
+Furniture,RESULT,November 2017,Consumer,Bookcases,True,1,True,
+Furniture,ACTUAL vs GOAL,November 2017,Consumer,Bookcases,True,1,True,
+Furniture,# Sub-Cats,November 2017,Consumer,Bookcases,True,1,True,1
+Furniture,Max Sub-Cats in Window,November 2017,Consumer,Bookcases,True,1,True,1
+Furniture,ACTUAL SALES,November 2017,Corporate,Bookcases,True,1,True,"4,837.0808"
+Furniture,SALES GOAL,November 2017,Corporate,Bookcases,True,1,True,0
+Furniture,RESULT,November 2017,Corporate,Bookcases,True,1,True,
+Furniture,ACTUAL vs GOAL,November 2017,Corporate,Bookcases,True,1,True,
+Furniture,# Sub-Cats,November 2017,Corporate,Bookcases,True,1,True,1
+Furniture,Max Sub-Cats in Window,November 2017,Corporate,Bookcases,True,1,True,1
+Furniture,ACTUAL SALES,November 2017,Home Office,Bookcases,True,1,True,170.98
+Furniture,SALES GOAL,November 2017,Home Office,Bookcases,True,1,True,0
+Furniture,RESULT,November 2017,Home Office,Bookcases,True,1,True,
+Furniture,ACTUAL vs GOAL,November 2017,Home Office,Bookcases,True,1,True,
+Furniture,# Sub-Cats,November 2017,Home Office,Bookcases,True,1,True,1
+Furniture,Max Sub-Cats in Window,November 2017,Home Office,Bookcases,True,1,True,1
+Furniture,ACTUAL SALES,December 2017,Consumer,Bookcases,True,1,True,"1,827.759"
+Furniture,SALES GOAL,December 2017,Consumer,Bookcases,True,1,True,0
+Furniture,RESULT,December 2017,Consumer,Bookcases,True,1,True,
+Furniture,ACTUAL vs GOAL,December 2017,Consumer,Bookcases,True,1,True,
+Furniture,# Sub-Cats,December 2017,Consumer,Bookcases,True,1,True,1
+Furniture,Max Sub-Cats in Window,December 2017,Consumer,Bookcases,True,1,True,1
+Furniture,ACTUAL SALES,December 2017,Corporate,Bookcases,True,1,True,292.084
+Furniture,SALES GOAL,December 2017,Corporate,Bookcases,True,1,True,0
+Furniture,RESULT,December 2017,Corporate,Bookcases,True,1,True,
+Furniture,ACTUAL vs GOAL,December 2017,Corporate,Bookcases,True,1,True,
+Furniture,# Sub-Cats,December 2017,Corporate,Bookcases,True,1,True,1
+Furniture,Max Sub-Cats in Window,December 2017,Corporate,Bookcases,True,1,True,1
+Furniture,ACTUAL SALES,December 2017,Home Office,Bookcases,True,1,True,532.3992
+Furniture,SALES GOAL,December 2017,Home Office,Bookcases,True,1,True,0
+Furniture,RESULT,December 2017,Home Office,Bookcases,True,1,True,
+Furniture,ACTUAL vs GOAL,December 2017,Home Office,Bookcases,True,1,True,
+Furniture,# Sub-Cats,December 2017,Home Office,Bookcases,True,1,True,1
+Furniture,Max Sub-Cats in Window,December 2017,Home Office,Bookcases,True,1,True,1
+Furniture,ACTUAL SALES,January 2018,Consumer,Bookcases,True,1,True,499.716
+Furniture,SALES GOAL,January 2018,Consumer,Bookcases,True,1,True,0
+Furniture,RESULT,January 2018,Consumer,Bookcases,True,1,True,
+Furniture,ACTUAL vs GOAL,January 2018,Consumer,Bookcases,True,1,True,
+Furniture,# Sub-Cats,January 2018,Consumer,Bookcases,True,1,True,1
+Furniture,Max Sub-Cats in Window,January 2018,Consumer,Bookcases,True,1,True,1
+Furniture,ACTUAL SALES,January 2018,Corporate,Bookcases,True,1,True,"1,739.82"
+Furniture,SALES GOAL,January 2018,Corporate,Bookcases,True,1,True,0
+Furniture,RESULT,January 2018,Corporate,Bookcases,True,1,True,
+Furniture,ACTUAL vs GOAL,January 2018,Corporate,Bookcases,True,1,True,
+Furniture,# Sub-Cats,January 2018,Corporate,Bookcases,True,1,True,1
+Furniture,Max Sub-Cats in Window,January 2018,Corporate,Bookcases,True,1,True,1
+Furniture,ACTUAL SALES,January 2018,Home Office,Bookcases,False,1,False,
+Furniture,SALES GOAL,January 2018,Home Office,Bookcases,False,1,False,
+Furniture,RESULT,January 2018,Home Office,Bookcases,False,1,False,
+Furniture,ACTUAL vs GOAL,January 2018,Home Office,Bookcases,False,1,False,
+Furniture,# Sub-Cats,January 2018,Home Office,Bookcases,False,1,False,0
+Furniture,Max Sub-Cats in Window,January 2018,Home Office,Bookcases,False,1,False,1
+Furniture,ACTUAL SALES,February 2018,Consumer,Bookcases,False,1,False,
+Furniture,SALES GOAL,February 2018,Consumer,Bookcases,False,1,False,
+Furniture,RESULT,February 2018,Consumer,Bookcases,False,1,False,
+Furniture,ACTUAL vs GOAL,February 2018,Consumer,Bookcases,False,1,False,
+Furniture,# Sub-Cats,February 2018,Consumer,Bookcases,False,1,False,0
+Furniture,Max Sub-Cats in Window,February 2018,Consumer,Bookcases,False,1,False,1
+Furniture,ACTUAL SALES,February 2018,Corporate,Bookcases,False,1,False,
+Furniture,SALES GOAL,February 2018,Corporate,Bookcases,False,1,False,
+Furniture,RESULT,February 2018,Corporate,Bookcases,False,1,False,
+Furniture,ACTUAL vs GOAL,February 2018,Corporate,Bookcases,False,1,False,
+Furniture,# Sub-Cats,February 2018,Corporate,Bookcases,False,1,False,0
+Furniture,Max Sub-Cats in Window,February 2018,Corporate,Bookcases,False,1,False,1
+Furniture,ACTUAL SALES,February 2018,Home Office,Bookcases,True,1,True,239.98
+Furniture,SALES GOAL,February 2018,Home Office,Bookcases,True,1,True,0
+Furniture,RESULT,February 2018,Home Office,Bookcases,True,1,True,
+Furniture,ACTUAL vs GOAL,February 2018,Home Office,Bookcases,True,1,True,
+Furniture,# Sub-Cats,February 2018,Home Office,Bookcases,True,1,True,1
+Furniture,Max Sub-Cats in Window,February 2018,Home Office,Bookcases,True,1,True,1
+Furniture,ACTUAL SALES,March 2018,Consumer,Bookcases,True,1,True,"1,091.855"
+Furniture,SALES GOAL,March 2018,Consumer,Bookcases,True,1,True,0
+Furniture,RESULT,March 2018,Consumer,Bookcases,True,1,True,
+Furniture,ACTUAL vs GOAL,March 2018,Consumer,Bookcases,True,1,True,
+Furniture,# Sub-Cats,March 2018,Consumer,Bookcases,True,1,True,1
+Furniture,Max Sub-Cats in Window,March 2018,Consumer,Bookcases,True,1,True,1
+Furniture,ACTUAL SALES,March 2018,Corporate,Bookcases,False,1,False,
+Furniture,SALES GOAL,March 2018,Corporate,Bookcases,False,1,False,
+Furniture,RESULT,March 2018,Corporate,Bookcases,False,1,False,
+Furniture,ACTUAL vs GOAL,March 2018,Corporate,Bookcases,False,1,False,
+Furniture,# Sub-Cats,March 2018,Corporate,Bookcases,False,1,False,0
+Furniture,Max Sub-Cats in Window,March 2018,Corporate,Bookcases,False,1,False,1
+Furniture,ACTUAL SALES,March 2018,Home Office,Bookcases,False,1,False,
+Furniture,SALES GOAL,March 2018,Home Office,Bookcases,False,1,False,
+Furniture,RESULT,March 2018,Home Office,Bookcases,False,1,False,
+Furniture,ACTUAL vs GOAL,March 2018,Home Office,Bookcases,False,1,False,
+Furniture,# Sub-Cats,March 2018,Home Office,Bookcases,False,1,False,0
+Furniture,Max Sub-Cats in Window,March 2018,Home Office,Bookcases,False,1,False,1
+Furniture,ACTUAL SALES,April 2018,Consumer,Bookcases,True,1,True,"1,557.768"
+Furniture,SALES GOAL,April 2018,Consumer,Bookcases,True,1,True,0
+Furniture,RESULT,April 2018,Consumer,Bookcases,True,1,True,
+Furniture,ACTUAL vs GOAL,April 2018,Consumer,Bookcases,True,1,True,
+Furniture,# Sub-Cats,April 2018,Consumer,Bookcases,True,1,True,1
+Furniture,Max Sub-Cats in Window,April 2018,Consumer,Bookcases,True,1,True,1
+Furniture,ACTUAL SALES,April 2018,Corporate,Bookcases,False,1,False,
+Furniture,SALES GOAL,April 2018,Corporate,Bookcases,False,1,False,
+Furniture,RESULT,April 2018,Corporate,Bookcases,False,1,False,
+Furniture,ACTUAL vs GOAL,April 2018,Corporate,Bookcases,False,1,False,
+Furniture,# Sub-Cats,April 2018,Corporate,Bookcases,False,1,False,0
+Furniture,Max Sub-Cats in Window,April 2018,Corporate,Bookcases,False,1,False,1
+Furniture,ACTUAL SALES,April 2018,Home Office,Bookcases,False,1,False,
+Furniture,SALES GOAL,April 2018,Home Office,Bookcases,False,1,False,
+Furniture,RESULT,April 2018,Home Office,Bookcases,False,1,False,
+Furniture,ACTUAL vs GOAL,April 2018,Home Office,Bookcases,False,1,False,
+Furniture,# Sub-Cats,April 2018,Home Office,Bookcases,False,1,False,0
+Furniture,Max Sub-Cats in Window,April 2018,Home Office,Bookcases,False,1,False,1
+Furniture,ACTUAL SALES,June 2018,Consumer,Bookcases,True,1,True,"1,996.878"
+Furniture,SALES GOAL,June 2018,Consumer,Bookcases,True,1,True,0
+Furniture,RESULT,June 2018,Consumer,Bookcases,True,1,True,
+Furniture,ACTUAL vs GOAL,June 2018,Consumer,Bookcases,True,1,True,
+Furniture,# Sub-Cats,June 2018,Consumer,Bookcases,True,1,True,1
+Furniture,Max Sub-Cats in Window,June 2018,Consumer,Bookcases,True,1,True,1
+Furniture,ACTUAL SALES,June 2018,Corporate,Bookcases,False,1,False,
+Furniture,SALES GOAL,June 2018,Corporate,Bookcases,False,1,False,
+Furniture,RESULT,June 2018,Corporate,Bookcases,False,1,False,
+Furniture,ACTUAL vs GOAL,June 2018,Corporate,Bookcases,False,1,False,
+Furniture,# Sub-Cats,June 2018,Corporate,Bookcases,False,1,False,0
+Furniture,Max Sub-Cats in Window,June 2018,Corporate,Bookcases,False,1,False,1
+Furniture,ACTUAL SALES,June 2018,Home Office,Bookcases,True,1,True,599.165
+Furniture,SALES GOAL,June 2018,Home Office,Bookcases,True,1,True,0
+Furniture,RESULT,June 2018,Home Office,Bookcases,True,1,True,
+Furniture,ACTUAL vs GOAL,June 2018,Home Office,Bookcases,True,1,True,
+Furniture,# Sub-Cats,June 2018,Home Office,Bookcases,True,1,True,1
+Furniture,Max Sub-Cats in Window,June 2018,Home Office,Bookcases,True,1,True,1
+Furniture,ACTUAL SALES,July 2018,Consumer,Bookcases,True,1,True,"1,961.515"
+Furniture,SALES GOAL,July 2018,Consumer,Bookcases,True,1,True,0
+Furniture,RESULT,July 2018,Consumer,Bookcases,True,1,True,
+Furniture,ACTUAL vs GOAL,July 2018,Consumer,Bookcases,True,1,True,
+Furniture,# Sub-Cats,July 2018,Consumer,Bookcases,True,1,True,1
+Furniture,Max Sub-Cats in Window,July 2018,Consumer,Bookcases,True,1,True,1
+Furniture,ACTUAL SALES,July 2018,Corporate,Bookcases,True,1,True,579.136
+Furniture,SALES GOAL,July 2018,Corporate,Bookcases,True,1,True,0
+Furniture,RESULT,July 2018,Corporate,Bookcases,True,1,True,
+Furniture,ACTUAL vs GOAL,July 2018,Corporate,Bookcases,True,1,True,
+Furniture,# Sub-Cats,July 2018,Corporate,Bookcases,True,1,True,1
+Furniture,Max Sub-Cats in Window,July 2018,Corporate,Bookcases,True,1,True,1
+Furniture,ACTUAL SALES,July 2018,Home Office,Bookcases,False,1,False,
+Furniture,SALES GOAL,July 2018,Home Office,Bookcases,False,1,False,
+Furniture,RESULT,July 2018,Home Office,Bookcases,False,1,False,
+Furniture,ACTUAL vs GOAL,July 2018,Home Office,Bookcases,False,1,False,
+Furniture,# Sub-Cats,July 2018,Home Office,Bookcases,False,1,False,0
+Furniture,Max Sub-Cats in Window,July 2018,Home Office,Bookcases,False,1,False,1
+Furniture,ACTUAL SALES,August 2018,Consumer,Bookcases,True,1,True,156.3728
+Furniture,SALES GOAL,August 2018,Consumer,Bookcases,True,1,True,0
+Furniture,RESULT,August 2018,Consumer,Bookcases,True,1,True,
+Furniture,ACTUAL vs GOAL,August 2018,Consumer,Bookcases,True,1,True,
+Furniture,# Sub-Cats,August 2018,Consumer,Bookcases,True,1,True,1
+Furniture,Max Sub-Cats in Window,August 2018,Consumer,Bookcases,True,1,True,1
+Furniture,ACTUAL SALES,August 2018,Corporate,Bookcases,True,1,True,405.84
+Furniture,SALES GOAL,August 2018,Corporate,Bookcases,True,1,True,0
+Furniture,RESULT,August 2018,Corporate,Bookcases,True,1,True,
+Furniture,ACTUAL vs GOAL,August 2018,Corporate,Bookcases,True,1,True,
+Furniture,# Sub-Cats,August 2018,Corporate,Bookcases,True,1,True,1
+Furniture,Max Sub-Cats in Window,August 2018,Corporate,Bookcases,True,1,True,1
+Furniture,ACTUAL SALES,August 2018,Home Office,Bookcases,False,1,False,
+Furniture,SALES GOAL,August 2018,Home Office,Bookcases,False,1,False,
+Furniture,RESULT,August 2018,Home Office,Bookcases,False,1,False,
+Furniture,ACTUAL vs GOAL,August 2018,Home Office,Bookcases,False,1,False,
+Furniture,# Sub-Cats,August 2018,Home Office,Bookcases,False,1,False,0
+Furniture,Max Sub-Cats in Window,August 2018,Home Office,Bookcases,False,1,False,1
+Furniture,ACTUAL SALES,September 2018,Consumer,Bookcases,True,1,True,"4,186.2216"
+Furniture,SALES GOAL,September 2018,Consumer,Bookcases,True,1,True,0
+Furniture,RESULT,September 2018,Consumer,Bookcases,True,1,True,
+Furniture,ACTUAL vs GOAL,September 2018,Consumer,Bookcases,True,1,True,
+Furniture,# Sub-Cats,September 2018,Consumer,Bookcases,True,1,True,1
+Furniture,Max Sub-Cats in Window,September 2018,Consumer,Bookcases,True,1,True,1
+Furniture,ACTUAL SALES,September 2018,Corporate,Bookcases,True,1,True,"2,132.9543"
+Furniture,SALES GOAL,September 2018,Corporate,Bookcases,True,1,True,0
+Furniture,RESULT,September 2018,Corporate,Bookcases,True,1,True,
+Furniture,ACTUAL vs GOAL,September 2018,Corporate,Bookcases,True,1,True,
+Furniture,# Sub-Cats,September 2018,Corporate,Bookcases,True,1,True,1
+Furniture,Max Sub-Cats in Window,September 2018,Corporate,Bookcases,True,1,True,1
+Furniture,ACTUAL SALES,September 2018,Home Office,Bookcases,True,1,True,337.82
+Furniture,SALES GOAL,September 2018,Home Office,Bookcases,True,1,True,0
+Furniture,RESULT,September 2018,Home Office,Bookcases,True,1,True,
+Furniture,ACTUAL vs GOAL,September 2018,Home Office,Bookcases,True,1,True,
+Furniture,# Sub-Cats,September 2018,Home Office,Bookcases,True,1,True,1
+Furniture,Max Sub-Cats in Window,September 2018,Home Office,Bookcases,True,1,True,1
+Furniture,ACTUAL SALES,October 2018,Consumer,Bookcases,True,1,True,120.98
+Furniture,SALES GOAL,October 2018,Consumer,Bookcases,True,1,True,0
+Furniture,RESULT,October 2018,Consumer,Bookcases,True,1,True,
+Furniture,ACTUAL vs GOAL,October 2018,Consumer,Bookcases,True,1,True,
+Furniture,# Sub-Cats,October 2018,Consumer,Bookcases,True,1,True,1
+Furniture,Max Sub-Cats in Window,October 2018,Consumer,Bookcases,True,1,True,1
+Furniture,ACTUAL SALES,October 2018,Corporate,Bookcases,True,1,True,"1,134.802"
+Furniture,SALES GOAL,October 2018,Corporate,Bookcases,True,1,True,0
+Furniture,RESULT,October 2018,Corporate,Bookcases,True,1,True,
+Furniture,ACTUAL vs GOAL,October 2018,Corporate,Bookcases,True,1,True,
+Furniture,# Sub-Cats,October 2018,Corporate,Bookcases,True,1,True,1
+Furniture,Max Sub-Cats in Window,October 2018,Corporate,Bookcases,True,1,True,1
+Furniture,ACTUAL SALES,October 2018,Home Office,Bookcases,True,1,True,120.666
+Furniture,SALES GOAL,October 2018,Home Office,Bookcases,True,1,True,0
+Furniture,RESULT,October 2018,Home Office,Bookcases,True,1,True,
+Furniture,ACTUAL vs GOAL,October 2018,Home Office,Bookcases,True,1,True,
+Furniture,# Sub-Cats,October 2018,Home Office,Bookcases,True,1,True,1
+Furniture,Max Sub-Cats in Window,October 2018,Home Office,Bookcases,True,1,True,1
+Furniture,ACTUAL SALES,November 2018,Consumer,Bookcases,True,1,True,"4,967.2488"
+Furniture,SALES GOAL,November 2018,Consumer,Bookcases,True,1,True,0
+Furniture,RESULT,November 2018,Consumer,Bookcases,True,1,True,
+Furniture,ACTUAL vs GOAL,November 2018,Consumer,Bookcases,True,1,True,
+Furniture,# Sub-Cats,November 2018,Consumer,Bookcases,True,1,True,1
+Furniture,Max Sub-Cats in Window,November 2018,Consumer,Bookcases,True,1,True,1
+Furniture,ACTUAL SALES,November 2018,Corporate,Bookcases,True,1,True,289.568
+Furniture,SALES GOAL,November 2018,Corporate,Bookcases,True,1,True,0
+Furniture,RESULT,November 2018,Corporate,Bookcases,True,1,True,
+Furniture,ACTUAL vs GOAL,November 2018,Corporate,Bookcases,True,1,True,
+Furniture,# Sub-Cats,November 2018,Corporate,Bookcases,True,1,True,1
+Furniture,Max Sub-Cats in Window,November 2018,Corporate,Bookcases,True,1,True,1
+Furniture,ACTUAL SALES,November 2018,Home Office,Bookcases,True,1,True,540.458
+Furniture,SALES GOAL,November 2018,Home Office,Bookcases,True,1,True,0
+Furniture,RESULT,November 2018,Home Office,Bookcases,True,1,True,
+Furniture,ACTUAL vs GOAL,November 2018,Home Office,Bookcases,True,1,True,
+Furniture,# Sub-Cats,November 2018,Home Office,Bookcases,True,1,True,1
+Furniture,Max Sub-Cats in Window,November 2018,Home Office,Bookcases,True,1,True,1
+Furniture,ACTUAL SALES,December 2018,Consumer,Bookcases,True,1,True,611.526
+Furniture,SALES GOAL,December 2018,Consumer,Bookcases,True,1,True,0
+Furniture,RESULT,December 2018,Consumer,Bookcases,True,1,True,
+Furniture,ACTUAL vs GOAL,December 2018,Consumer,Bookcases,True,1,True,
+Furniture,# Sub-Cats,December 2018,Consumer,Bookcases,True,1,True,1
+Furniture,Max Sub-Cats in Window,December 2018,Consumer,Bookcases,True,1,True,1
+Furniture,ACTUAL SALES,December 2018,Corporate,Bookcases,True,1,True,"1,005.176"
+Furniture,SALES GOAL,December 2018,Corporate,Bookcases,True,1,True,0
+Furniture,RESULT,December 2018,Corporate,Bookcases,True,1,True,
+Furniture,ACTUAL vs GOAL,December 2018,Corporate,Bookcases,True,1,True,
+Furniture,# Sub-Cats,December 2018,Corporate,Bookcases,True,1,True,1
+Furniture,Max Sub-Cats in Window,December 2018,Corporate,Bookcases,True,1,True,1
+Furniture,ACTUAL SALES,December 2018,Home Office,Bookcases,False,1,False,
+Furniture,SALES GOAL,December 2018,Home Office,Bookcases,False,1,False,
+Furniture,RESULT,December 2018,Home Office,Bookcases,False,1,False,
+Furniture,ACTUAL vs GOAL,December 2018,Home Office,Bookcases,False,1,False,
+Furniture,# Sub-Cats,December 2018,Home Office,Bookcases,False,1,False,0
+Furniture,Max Sub-Cats in Window,December 2018,Home Office,Bookcases,False,1,False,1
+Furniture,ACTUAL SALES,January 2019,Consumer,Bookcases,False,1,False,
+Furniture,SALES GOAL,January 2019,Consumer,Bookcases,False,1,False,
+Furniture,RESULT,January 2019,Consumer,Bookcases,False,1,False,
+Furniture,ACTUAL vs GOAL,January 2019,Consumer,Bookcases,False,1,False,
+Furniture,# Sub-Cats,January 2019,Consumer,Bookcases,False,1,False,0
+Furniture,Max Sub-Cats in Window,January 2019,Consumer,Bookcases,False,1,False,1
+Furniture,ACTUAL SALES,January 2019,Corporate,Bookcases,True,1,True,212.94
+Furniture,SALES GOAL,January 2019,Corporate,Bookcases,True,1,True,0
+Furniture,RESULT,January 2019,Corporate,Bookcases,True,1,True,
+Furniture,ACTUAL vs GOAL,January 2019,Corporate,Bookcases,True,1,True,
+Furniture,# Sub-Cats,January 2019,Corporate,Bookcases,True,1,True,1
+Furniture,Max Sub-Cats in Window,January 2019,Corporate,Bookcases,True,1,True,1
+Furniture,ACTUAL SALES,January 2019,Home Office,Bookcases,True,1,True,84.98
+Furniture,SALES GOAL,January 2019,Home Office,Bookcases,True,1,True,0
+Furniture,RESULT,January 2019,Home Office,Bookcases,True,1,True,
+Furniture,ACTUAL vs GOAL,January 2019,Home Office,Bookcases,True,1,True,
+Furniture,# Sub-Cats,January 2019,Home Office,Bookcases,True,1,True,1
+Furniture,Max Sub-Cats in Window,January 2019,Home Office,Bookcases,True,1,True,1
+Furniture,ACTUAL SALES,February 2019,Consumer,Bookcases,True,1,True,832.674
+Furniture,SALES GOAL,February 2019,Consumer,Bookcases,True,1,True,0
+Furniture,RESULT,February 2019,Consumer,Bookcases,True,1,True,
+Furniture,ACTUAL vs GOAL,February 2019,Consumer,Bookcases,True,1,True,
+Furniture,# Sub-Cats,February 2019,Consumer,Bookcases,True,1,True,1
+Furniture,Max Sub-Cats in Window,February 2019,Consumer,Bookcases,True,1,True,1
+Furniture,ACTUAL SALES,February 2019,Corporate,Bookcases,False,1,False,
+Furniture,SALES GOAL,February 2019,Corporate,Bookcases,False,1,False,
+Furniture,RESULT,February 2019,Corporate,Bookcases,False,1,False,
+Furniture,ACTUAL vs GOAL,February 2019,Corporate,Bookcases,False,1,False,
+Furniture,# Sub-Cats,February 2019,Corporate,Bookcases,False,1,False,0
+Furniture,Max Sub-Cats in Window,February 2019,Corporate,Bookcases,False,1,False,1
+Furniture,ACTUAL SALES,February 2019,Home Office,Bookcases,True,1,True,293.0494
+Furniture,SALES GOAL,February 2019,Home Office,Bookcases,True,1,True,0
+Furniture,RESULT,February 2019,Home Office,Bookcases,True,1,True,
+Furniture,ACTUAL vs GOAL,February 2019,Home Office,Bookcases,True,1,True,
+Furniture,# Sub-Cats,February 2019,Home Office,Bookcases,True,1,True,1
+Furniture,Max Sub-Cats in Window,February 2019,Home Office,Bookcases,True,1,True,1
+Furniture,ACTUAL SALES,March 2019,Consumer,Bookcases,True,1,True,"1,280.9"
+Furniture,SALES GOAL,March 2019,Consumer,Bookcases,True,1,True,0
+Furniture,RESULT,March 2019,Consumer,Bookcases,True,1,True,
+Furniture,ACTUAL vs GOAL,March 2019,Consumer,Bookcases,True,1,True,
+Furniture,# Sub-Cats,March 2019,Consumer,Bookcases,True,1,True,1
+Furniture,Max Sub-Cats in Window,March 2019,Consumer,Bookcases,True,1,True,1
+Furniture,ACTUAL SALES,March 2019,Corporate,Bookcases,True,1,True,647.2928
+Furniture,SALES GOAL,March 2019,Corporate,Bookcases,True,1,True,0
+Furniture,RESULT,March 2019,Corporate,Bookcases,True,1,True,
+Furniture,ACTUAL vs GOAL,March 2019,Corporate,Bookcases,True,1,True,
+Furniture,# Sub-Cats,March 2019,Corporate,Bookcases,True,1,True,1
+Furniture,Max Sub-Cats in Window,March 2019,Corporate,Bookcases,True,1,True,1
+Furniture,ACTUAL SALES,March 2019,Home Office,Bookcases,False,1,False,
+Furniture,SALES GOAL,March 2019,Home Office,Bookcases,False,1,False,
+Furniture,RESULT,March 2019,Home Office,Bookcases,False,1,False,
+Furniture,ACTUAL vs GOAL,March 2019,Home Office,Bookcases,False,1,False,
+Furniture,# Sub-Cats,March 2019,Home Office,Bookcases,False,1,False,0
+Furniture,Max Sub-Cats in Window,March 2019,Home Office,Bookcases,False,1,False,1
+Furniture,ACTUAL SALES,April 2019,Consumer,Bookcases,True,1,True,690.166
+Furniture,SALES GOAL,April 2019,Consumer,Bookcases,True,1,True,0
+Furniture,RESULT,April 2019,Consumer,Bookcases,True,1,True,
+Furniture,ACTUAL vs GOAL,April 2019,Consumer,Bookcases,True,1,True,
+Furniture,# Sub-Cats,April 2019,Consumer,Bookcases,True,1,True,1
+Furniture,Max Sub-Cats in Window,April 2019,Consumer,Bookcases,True,1,True,1
+Furniture,ACTUAL SALES,April 2019,Corporate,Bookcases,True,1,True,901.2016
+Furniture,SALES GOAL,April 2019,Corporate,Bookcases,True,1,True,0
+Furniture,RESULT,April 2019,Corporate,Bookcases,True,1,True,
+Furniture,ACTUAL vs GOAL,April 2019,Corporate,Bookcases,True,1,True,
+Furniture,# Sub-Cats,April 2019,Corporate,Bookcases,True,1,True,1
+Furniture,Max Sub-Cats in Window,April 2019,Corporate,Bookcases,True,1,True,1
+Furniture,ACTUAL SALES,April 2019,Home Office,Bookcases,True,1,True,387.136
+Furniture,SALES GOAL,April 2019,Home Office,Bookcases,True,1,True,0
+Furniture,RESULT,April 2019,Home Office,Bookcases,True,1,True,
+Furniture,ACTUAL vs GOAL,April 2019,Home Office,Bookcases,True,1,True,
+Furniture,# Sub-Cats,April 2019,Home Office,Bookcases,True,1,True,1
+Furniture,Max Sub-Cats in Window,April 2019,Home Office,Bookcases,True,1,True,1
+Furniture,ACTUAL SALES,May 2019,Consumer,Bookcases,True,1,True,"2,479.7894"
+Furniture,SALES GOAL,May 2019,Consumer,Bookcases,True,1,True,0
+Furniture,RESULT,May 2019,Consumer,Bookcases,True,1,True,
+Furniture,ACTUAL vs GOAL,May 2019,Consumer,Bookcases,True,1,True,
+Furniture,# Sub-Cats,May 2019,Consumer,Bookcases,True,1,True,1
+Furniture,Max Sub-Cats in Window,May 2019,Consumer,Bookcases,True,1,True,1
+Furniture,ACTUAL SALES,May 2019,Corporate,Bookcases,True,1,True,"1,252.3438"
+Furniture,SALES GOAL,May 2019,Corporate,Bookcases,True,1,True,0
+Furniture,RESULT,May 2019,Corporate,Bookcases,True,1,True,
+Furniture,ACTUAL vs GOAL,May 2019,Corporate,Bookcases,True,1,True,
+Furniture,# Sub-Cats,May 2019,Corporate,Bookcases,True,1,True,1
+Furniture,Max Sub-Cats in Window,May 2019,Corporate,Bookcases,True,1,True,1
+Furniture,ACTUAL SALES,May 2019,Home Office,Bookcases,False,1,False,
+Furniture,SALES GOAL,May 2019,Home Office,Bookcases,False,1,False,
+Furniture,RESULT,May 2019,Home Office,Bookcases,False,1,False,
+Furniture,ACTUAL vs GOAL,May 2019,Home Office,Bookcases,False,1,False,
+Furniture,# Sub-Cats,May 2019,Home Office,Bookcases,False,1,False,0
+Furniture,Max Sub-Cats in Window,May 2019,Home Office,Bookcases,False,1,False,1
+Furniture,ACTUAL SALES,June 2019,Consumer,Bookcases,True,1,True,"2,658.4217"
+Furniture,SALES GOAL,June 2019,Consumer,Bookcases,True,1,True,0
+Furniture,RESULT,June 2019,Consumer,Bookcases,True,1,True,
+Furniture,ACTUAL vs GOAL,June 2019,Consumer,Bookcases,True,1,True,
+Furniture,# Sub-Cats,June 2019,Consumer,Bookcases,True,1,True,1
+Furniture,Max Sub-Cats in Window,June 2019,Consumer,Bookcases,True,1,True,1
+Furniture,ACTUAL SALES,June 2019,Corporate,Bookcases,True,1,True,638.82
+Furniture,SALES GOAL,June 2019,Corporate,Bookcases,True,1,True,0
+Furniture,RESULT,June 2019,Corporate,Bookcases,True,1,True,
+Furniture,ACTUAL vs GOAL,June 2019,Corporate,Bookcases,True,1,True,
+Furniture,# Sub-Cats,June 2019,Corporate,Bookcases,True,1,True,1
+Furniture,Max Sub-Cats in Window,June 2019,Corporate,Bookcases,True,1,True,1
+Furniture,ACTUAL SALES,June 2019,Home Office,Bookcases,True,1,True,"2,011.831"
+Furniture,SALES GOAL,June 2019,Home Office,Bookcases,True,1,True,0
+Furniture,RESULT,June 2019,Home Office,Bookcases,True,1,True,
+Furniture,ACTUAL vs GOAL,June 2019,Home Office,Bookcases,True,1,True,
+Furniture,# Sub-Cats,June 2019,Home Office,Bookcases,True,1,True,1
+Furniture,Max Sub-Cats in Window,June 2019,Home Office,Bookcases,True,1,True,1
+Furniture,ACTUAL SALES,July 2019,Consumer,Bookcases,True,1,False,506.11
+Furniture,SALES GOAL,July 2019,Consumer,Bookcases,True,1,False,0
+Furniture,RESULT,July 2019,Consumer,Bookcases,True,1,False,
+Furniture,ACTUAL vs GOAL,July 2019,Consumer,Bookcases,True,1,False,
+Furniture,# Sub-Cats,July 2019,Consumer,Bookcases,True,1,False,1
+Furniture,Max Sub-Cats in Window,July 2019,Consumer,Bookcases,True,1,False,1
+Furniture,ACTUAL SALES,July 2019,Corporate,Bookcases,True,1,False,"1,194.165"
+Furniture,SALES GOAL,July 2019,Corporate,Bookcases,True,1,False,0
+Furniture,RESULT,July 2019,Corporate,Bookcases,True,1,False,
+Furniture,ACTUAL vs GOAL,July 2019,Corporate,Bookcases,True,1,False,
+Furniture,# Sub-Cats,July 2019,Corporate,Bookcases,True,1,False,1
+Furniture,Max Sub-Cats in Window,July 2019,Corporate,Bookcases,True,1,False,1
+Furniture,ACTUAL SALES,July 2019,Home Office,Bookcases,False,1,False,
+Furniture,SALES GOAL,July 2019,Home Office,Bookcases,False,1,False,
+Furniture,RESULT,July 2019,Home Office,Bookcases,False,1,False,
+Furniture,ACTUAL vs GOAL,July 2019,Home Office,Bookcases,False,1,False,
+Furniture,# Sub-Cats,July 2019,Home Office,Bookcases,False,1,False,0
+Furniture,Max Sub-Cats in Window,July 2019,Home Office,Bookcases,False,1,False,1
+Furniture,ACTUAL SALES,August 2019,Consumer,Bookcases,True,1,False,
+Furniture,SALES GOAL,August 2019,Consumer,Bookcases,True,1,False,0
+Furniture,RESULT,August 2019,Consumer,Bookcases,True,1,False,
+Furniture,ACTUAL vs GOAL,August 2019,Consumer,Bookcases,True,1,False,
+Furniture,# Sub-Cats,August 2019,Consumer,Bookcases,True,1,False,1
+Furniture,Max Sub-Cats in Window,August 2019,Consumer,Bookcases,True,1,False,1
+Furniture,ACTUAL SALES,August 2019,Corporate,Bookcases,False,1,False,
+Furniture,SALES GOAL,August 2019,Corporate,Bookcases,False,1,False,
+Furniture,RESULT,August 2019,Corporate,Bookcases,False,1,False,
+Furniture,ACTUAL vs GOAL,August 2019,Corporate,Bookcases,False,1,False,
+Furniture,# Sub-Cats,August 2019,Corporate,Bookcases,False,1,False,0
+Furniture,Max Sub-Cats in Window,August 2019,Corporate,Bookcases,False,1,False,1
+Furniture,ACTUAL SALES,August 2019,Home Office,Bookcases,False,1,False,
+Furniture,SALES GOAL,August 2019,Home Office,Bookcases,False,1,False,
+Furniture,RESULT,August 2019,Home Office,Bookcases,False,1,False,
+Furniture,ACTUAL vs GOAL,August 2019,Home Office,Bookcases,False,1,False,
+Furniture,# Sub-Cats,August 2019,Home Office,Bookcases,False,1,False,0
+Furniture,Max Sub-Cats in Window,August 2019,Home Office,Bookcases,False,1,False,1
+Furniture,ACTUAL SALES,September 2019,Consumer,Bookcases,True,1,False,
+Furniture,SALES GOAL,September 2019,Consumer,Bookcases,True,1,False,0
+Furniture,RESULT,September 2019,Consumer,Bookcases,True,1,False,
+Furniture,ACTUAL vs GOAL,September 2019,Consumer,Bookcases,True,1,False,
+Furniture,# Sub-Cats,September 2019,Consumer,Bookcases,True,1,False,1
+Furniture,Max Sub-Cats in Window,September 2019,Consumer,Bookcases,True,1,False,1
+Furniture,ACTUAL SALES,September 2019,Corporate,Bookcases,True,1,False,
+Furniture,SALES GOAL,September 2019,Corporate,Bookcases,True,1,False,0
+Furniture,RESULT,September 2019,Corporate,Bookcases,True,1,False,
+Furniture,ACTUAL vs GOAL,September 2019,Corporate,Bookcases,True,1,False,
+Furniture,# Sub-Cats,September 2019,Corporate,Bookcases,True,1,False,1
+Furniture,Max Sub-Cats in Window,September 2019,Corporate,Bookcases,True,1,False,1
+Furniture,ACTUAL SALES,September 2019,Home Office,Bookcases,True,1,False,
+Furniture,SALES GOAL,September 2019,Home Office,Bookcases,True,1,False,0
+Furniture,RESULT,September 2019,Home Office,Bookcases,True,1,False,
+Furniture,ACTUAL vs GOAL,September 2019,Home Office,Bookcases,True,1,False,
+Furniture,# Sub-Cats,September 2019,Home Office,Bookcases,True,1,False,1
+Furniture,Max Sub-Cats in Window,September 2019,Home Office,Bookcases,True,1,False,1
+Furniture,ACTUAL SALES,October 2019,Consumer,Bookcases,True,1,False,
+Furniture,SALES GOAL,October 2019,Consumer,Bookcases,True,1,False,0
+Furniture,RESULT,October 2019,Consumer,Bookcases,True,1,False,
+Furniture,ACTUAL vs GOAL,October 2019,Consumer,Bookcases,True,1,False,
+Furniture,# Sub-Cats,October 2019,Consumer,Bookcases,True,1,False,1
+Furniture,Max Sub-Cats in Window,October 2019,Consumer,Bookcases,True,1,False,1
+Furniture,ACTUAL SALES,October 2019,Corporate,Bookcases,True,1,False,
+Furniture,SALES GOAL,October 2019,Corporate,Bookcases,True,1,False,0
+Furniture,RESULT,October 2019,Corporate,Bookcases,True,1,False,
+Furniture,ACTUAL vs GOAL,October 2019,Corporate,Bookcases,True,1,False,
+Furniture,# Sub-Cats,October 2019,Corporate,Bookcases,True,1,False,1
+Furniture,Max Sub-Cats in Window,October 2019,Corporate,Bookcases,True,1,False,1
+Furniture,ACTUAL SALES,October 2019,Home Office,Bookcases,False,1,False,
+Furniture,SALES GOAL,October 2019,Home Office,Bookcases,False,1,False,
+Furniture,RESULT,October 2019,Home Office,Bookcases,False,1,False,
+Furniture,ACTUAL vs GOAL,October 2019,Home Office,Bookcases,False,1,False,
+Furniture,# Sub-Cats,October 2019,Home Office,Bookcases,False,1,False,0
+Furniture,Max Sub-Cats in Window,October 2019,Home Office,Bookcases,False,1,False,1
+Furniture,ACTUAL SALES,November 2019,Consumer,Bookcases,True,1,False,
+Furniture,SALES GOAL,November 2019,Consumer,Bookcases,True,1,False,0
+Furniture,RESULT,November 2019,Consumer,Bookcases,True,1,False,
+Furniture,ACTUAL vs GOAL,November 2019,Consumer,Bookcases,True,1,False,
+Furniture,# Sub-Cats,November 2019,Consumer,Bookcases,True,1,False,1
+Furniture,Max Sub-Cats in Window,November 2019,Consumer,Bookcases,True,1,False,1
+Furniture,ACTUAL SALES,November 2019,Corporate,Bookcases,True,1,False,
+Furniture,SALES GOAL,November 2019,Corporate,Bookcases,True,1,False,0
+Furniture,RESULT,November 2019,Corporate,Bookcases,True,1,False,
+Furniture,ACTUAL vs GOAL,November 2019,Corporate,Bookcases,True,1,False,
+Furniture,# Sub-Cats,November 2019,Corporate,Bookcases,True,1,False,1
+Furniture,Max Sub-Cats in Window,November 2019,Corporate,Bookcases,True,1,False,1
+Furniture,ACTUAL SALES,November 2019,Home Office,Bookcases,False,1,False,
+Furniture,SALES GOAL,November 2019,Home Office,Bookcases,False,1,False,
+Furniture,RESULT,November 2019,Home Office,Bookcases,False,1,False,
+Furniture,ACTUAL vs GOAL,November 2019,Home Office,Bookcases,False,1,False,
+Furniture,# Sub-Cats,November 2019,Home Office,Bookcases,False,1,False,0
+Furniture,Max Sub-Cats in Window,November 2019,Home Office,Bookcases,False,1,False,1
+Furniture,ACTUAL SALES,December 2019,Consumer,Bookcases,True,1,False,
+Furniture,SALES GOAL,December 2019,Consumer,Bookcases,True,1,False,0
+Furniture,RESULT,December 2019,Consumer,Bookcases,True,1,False,
+Furniture,ACTUAL vs GOAL,December 2019,Consumer,Bookcases,True,1,False,
+Furniture,# Sub-Cats,December 2019,Consumer,Bookcases,True,1,False,1
+Furniture,Max Sub-Cats in Window,December 2019,Consumer,Bookcases,True,1,False,1
+Furniture,ACTUAL SALES,December 2019,Corporate,Bookcases,True,1,False,
+Furniture,SALES GOAL,December 2019,Corporate,Bookcases,True,1,False,0
+Furniture,RESULT,December 2019,Corporate,Bookcases,True,1,False,
+Furniture,ACTUAL vs GOAL,December 2019,Corporate,Bookcases,True,1,False,
+Furniture,# Sub-Cats,December 2019,Corporate,Bookcases,True,1,False,1
+Furniture,Max Sub-Cats in Window,December 2019,Corporate,Bookcases,True,1,False,1
+Furniture,ACTUAL SALES,December 2019,Home Office,Bookcases,True,1,False,
+Furniture,SALES GOAL,December 2019,Home Office,Bookcases,True,1,False,0
+Furniture,RESULT,December 2019,Home Office,Bookcases,True,1,False,
+Furniture,ACTUAL vs GOAL,December 2019,Home Office,Bookcases,True,1,False,
+Furniture,# Sub-Cats,December 2019,Home Office,Bookcases,True,1,False,1
+Furniture,Max Sub-Cats in Window,December 2019,Home Office,Bookcases,True,1,False,1

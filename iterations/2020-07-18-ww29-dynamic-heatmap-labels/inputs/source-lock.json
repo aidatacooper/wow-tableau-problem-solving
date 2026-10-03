@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-03",
+  "source_workbook": {
+    "filename": "author.twbx",
+    "bytes": 134989,
+    "sha256": "688a72bd23217947f495eb680403175456a2a48f434d50e807d23a1f030d29de",
+    "url": "https://public.tableau.com/workbooks/2020_07_15_WW29_Heatmap.twb"
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Datasources/Orders (Sample - Superstore).hyper",
+      "file": "inputs/Orders (Sample - Superstore).hyper",
+      "bytes": 393216,
+      "sha256": "932fcdb3d5dc3ac0ef004229eda685b77033eb4d2609a2cfaab1f2287290dbbd"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

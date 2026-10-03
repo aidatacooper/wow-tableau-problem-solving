@@ -1,0 +1,7 @@
+{
+  "commit": "56377c5b170f0df1f5cd853fc483de26962dfed1",
+  "version": "0.27.1",
+  "result": "blocked",
+  "validation": "Read public set_hyper_connection implementation: collection/maps only, no explicit new logical relationships or native typed fields.",
+  "sdk_pytest_claim": null
+}

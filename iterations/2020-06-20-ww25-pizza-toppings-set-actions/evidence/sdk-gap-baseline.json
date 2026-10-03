@@ -1,0 +1,26 @@
+{
+  "status": "blocked",
+  "commit": "56377c5b170f0df1f5cd853fc483de26962dfed1",
+  "version": "0.27.1",
+  "probe": "TWBEditor empty public API availability",
+  "api": "set_datasource_shape_palette",
+  "exception": "AttributeError",
+  "message": "'TWBEditor' object has no attribute 'set_datasource_shape_palette'",
+  "author_read_by_build": false,
+  "expected_public_api": "set_shape_palette",
+  "actual_public_api_checks": [
+    {
+      "api": "set_shape_palette",
+      "result": "blocked",
+      "exception": "AttributeError",
+      "message": "'TWBEditor' object has no attribute 'set_shape_palette'"
+    },
+    {
+      "api": "initialize_dashboard_filter_action",
+      "result": "blocked",
+      "exception": "AttributeError",
+      "message": "'TWBEditor' object has no attribute 'initialize_dashboard_filter_action'"
+    }
+  ],
+  "baseline_execution": "Imported read-only git archive of exact baseline56377/src/cwtwb in separate Python process; no environment install or working-tree mutation."
+}

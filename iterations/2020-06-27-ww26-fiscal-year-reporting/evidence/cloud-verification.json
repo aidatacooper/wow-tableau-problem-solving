@@ -1,0 +1,895 @@
+{
+  "case_id": "wow-2020-ww26-fiscal-year-reporting",
+  "captured_at": "2026-10-03T15:10:45.817886+00:00",
+  "source_hashes": {
+    "author": "d2da3673c4807c0667bc3545edef1a56a45be4fcb7659acf278cf39bff5b8811",
+    "replica": "fa75e8a405d8410a7086cacf5910ee39c1899d88260ca520cc8c28aec0b16954"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "0802fb69-9227-489e-98ce-9b7d173e5fc3",
+      "name": "cwtwb-review-wow-2020-ww26-fiscal-year-reporting-author-d2da3673c480",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2930433",
+      "views": [
+        {
+          "name": "2020_06_24_WW26_FY_Reporting",
+          "id": "c810b46d-06eb-4e49-a315-4a2d933b5c14"
+        },
+        {
+          "name": "Data",
+          "id": "5dbf3662-5b59-40cd-a843-6f4bf74d1b65"
+        },
+        {
+          "name": "Diff Legend",
+          "id": "939bbb59-a386-49ce-9faf-a44c6d36bf2c"
+        },
+        {
+          "name": "OPP Bar",
+          "id": "aab29f61-570b-43f6-86d1-aa2fcc387b32"
+        },
+        {
+          "name": "OPP KPI",
+          "id": "d7bc211c-cb94-4dcf-9f9e-0bfaf88710a5"
+        },
+        {
+          "name": "OPP Trend",
+          "id": "de9614f6-7661-4175-9fe4-e4de14b9205e"
+        },
+        {
+          "name": "Param Pop",
+          "id": "9b8c7f7e-c5af-4624-b96a-e578be381a6f"
+        },
+        {
+          "name": "Sales Bar",
+          "id": "8098785e-d7b0-47c8-8269-05f1a0e751b9"
+        },
+        {
+          "name": "Sales KPI",
+          "id": "235d784f-0e8b-4f32-a5ee-8fe37836b247"
+        },
+        {
+          "name": "Sales Trend",
+          "id": "1952b96e-1fb6-437a-8fc4-2efeb5ebc18e"
+        },
+        {
+          "name": "Year Legend",
+          "id": "d6144606-e86d-4e66-93bd-1298af2fa05f"
+        }
+      ]
+    },
+    "replica": {
+      "id": "0b2a059e-f967-47b4-a201-30c59ca5cb4b",
+      "name": "cwtwb-review-wow-2020-ww26-fiscal-year-reporting-replica-fa75e8a405d8",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2930543",
+      "views": [
+        {
+          "name": "Data",
+          "id": "b22a2147-30ec-4b28-bf2a-f4c89655abcd"
+        },
+        {
+          "name": "Diff Legend",
+          "id": "a8b4bc78-734d-46ea-8ffc-bb922c6501ce"
+        },
+        {
+          "name": "OPP Bar",
+          "id": "60d6e99c-9e2f-4b31-8f7d-d9bc94c0643e"
+        },
+        {
+          "name": "OPP KPI",
+          "id": "ecde63e3-5c61-41a0-8f7e-f8ff2613ff38"
+        },
+        {
+          "name": "OPP Trend",
+          "id": "b303ec87-a6bf-4681-8aa4-bb16e52b011f"
+        },
+        {
+          "name": "Param Pop",
+          "id": "9836ec2d-85fc-4766-b8e9-3f5907dacf82"
+        },
+        {
+          "name": "Sales Bar",
+          "id": "c000a72a-44fe-48db-96ae-06dc875261d4"
+        },
+        {
+          "name": "Sales KPI",
+          "id": "1345fd1d-6007-4a0f-9bd6-a61f722751a6"
+        },
+        {
+          "name": "Sales Trend",
+          "id": "756c677d-acf8-441c-9b8e-907ed5122cfa"
+        },
+        {
+          "name": "Year Legend",
+          "id": "fe29ee40-9a44-4e97-8b47-fe6ede56be18"
+        },
+        {
+          "name": "2020_06_24_WW26_FY_Reporting",
+          "id": "5c28d1bd-918a-4196-85c2-36ffb6c0641a"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "c810b46d-06eb-4e49-a315-4a2d933b5c14",
+          "name": "2020_06_24_WW26_FY_Reporting",
+          "path": "outputs/cloud-author.png",
+          "sha256": "9dd2da3df6c82eec370cced0a598b44d3d3a6c0116c6ae3c97cb3baef855a8f2",
+          "size": [
+            1600,
+            1000
+          ]
+        },
+        "replica": {
+          "id": "5c28d1bd-918a-4196-85c2-36ffb6c0641a",
+          "name": "2020_06_24_WW26_FY_Reporting",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "e8ed161b33f2d929c1652c915b83feb8ced84bdd34e73bf7d92a3210509cc44f",
+          "size": [
+            1600,
+            1000
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Data",
+          "view_id": "5dbf3662-5b59-40cd-a843-6f4bf74d1b65",
+          "scope": "Complete existing Data worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-author-data.csv",
+          "sha256": "0d89cec46689627dd7a8c0af06e9b0c3398356f45a7c233e675d1806bdeb89e3",
+          "bytes": 625
+        },
+        {
+          "role": "author",
+          "view": "Sales Trend",
+          "view_id": "1952b96e-1fb6-437a-8fc4-2efeb5ebc18e",
+          "scope": "Complete existing Sales Trend worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-author-sales-trend.csv",
+          "sha256": "a09eee571c5b515efc20505d1fa22bb481bef3579824258cf304ac1c21026b02",
+          "bytes": 1003
+        },
+        {
+          "role": "author",
+          "view": "OPP Trend",
+          "view_id": "de9614f6-7661-4175-9fe4-e4de14b9205e",
+          "scope": "Complete existing OPP Trend worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-author-opp-trend.csv",
+          "sha256": "64f016cdadc914caa7529de88ab49f26b8db30b4c4669d96f1f5e23d4c36b6a9",
+          "bytes": 997
+        },
+        {
+          "role": "author",
+          "view": "Sales Bar",
+          "view_id": "8098785e-d7b0-47c8-8269-05f1a0e751b9",
+          "scope": "Complete existing Sales Bar worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-author-sales-bar.csv",
+          "sha256": "11505c5fc94f0129d6e8a69bac3632491736da465d11c2d31cc29f23824e2a6c",
+          "bytes": 96
+        },
+        {
+          "role": "author",
+          "view": "OPP Bar",
+          "view_id": "aab29f61-570b-43f6-86d1-aa2fcc387b32",
+          "scope": "Complete existing OPP Bar worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-author-opp-bar.csv",
+          "sha256": "0abf5c87a7b91d45f820a4a91390de9ee8eb10df68c48cfe71e0d4c09cdbd4a3",
+          "bytes": 84
+        },
+        {
+          "role": "author",
+          "view": "Sales KPI",
+          "view_id": "235d784f-0e8b-4f32-a5ee-8fe37836b247",
+          "scope": "Complete existing Sales KPI worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-author-sales-kpi.csv",
+          "sha256": "9be52e43d66919093ff178bb217c1969a4a1d64a5c0673884ea6cad06ae6b4ac",
+          "bytes": 38
+        },
+        {
+          "role": "author",
+          "view": "OPP KPI",
+          "view_id": "d7bc211c-cb94-4dcf-9f9e-0bfaf88710a5",
+          "scope": "Complete existing OPP KPI worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-author-opp-kpi.csv",
+          "sha256": "410d87271a2d210f55e8c8af4e0f440e033b0fa638ac816fc0b43e5d0964eb9e",
+          "bytes": 35
+        },
+        {
+          "role": "author",
+          "view": "Year Legend",
+          "view_id": "d6144606-e86d-4e66-93bd-1298af2fa05f",
+          "scope": "Complete existing Year Legend worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-author-year-legend.csv",
+          "sha256": "891c1f84926b392233a016b98456bd16b85054c038d723cfa2b751e63447a7be",
+          "bytes": 57
+        },
+        {
+          "role": "author",
+          "view": "Diff Legend",
+          "view_id": "939bbb59-a386-49ce-9faf-a44c6d36bf2c",
+          "scope": "Complete existing Diff Legend worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-author-diff-legend.csv",
+          "sha256": "2bab9fe526e47a914375455f8b01535a7f9bb7d6ded3fdcb4eb42eafe30076af",
+          "bytes": 93
+        },
+        {
+          "role": "replica",
+          "view": "Data",
+          "view_id": "b22a2147-30ec-4b28-bf2a-f4c89655abcd",
+          "scope": "Complete existing Data worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-replica-data.csv",
+          "sha256": "bea4635fa42451e60289153cc1c08b7d9ac0fabb37ad139aca1b0ec0df04ea09",
+          "bytes": 330
+        },
+        {
+          "role": "replica",
+          "view": "Sales Trend",
+          "view_id": "756c677d-acf8-441c-9b8e-907ed5122cfa",
+          "scope": "Complete existing Sales Trend worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-replica-sales-trend.csv",
+          "sha256": "07d007c5928ff04527c755b85cd9f3148e465619c1c7473f4c6687f620e00eeb",
+          "bytes": 724
+        },
+        {
+          "role": "replica",
+          "view": "OPP Trend",
+          "view_id": "b303ec87-a6bf-4681-8aa4-bb16e52b011f",
+          "scope": "Complete existing OPP Trend worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-replica-opp-trend.csv",
+          "sha256": "1aa4573b598e66189f130125429bd69ea339c54cf69c230b8c805c86a99fca2b",
+          "bytes": 715
+        },
+        {
+          "role": "replica",
+          "view": "Sales Bar",
+          "view_id": "c000a72a-44fe-48db-96ae-06dc875261d4",
+          "scope": "Complete existing Sales Bar worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-replica-sales-bar.csv",
+          "sha256": "03e4d51e342c9aa2e3c6de57550fb4419785ae6c18804d7d95e2c6e212ffdf8c",
+          "bytes": 134
+        },
+        {
+          "role": "replica",
+          "view": "OPP Bar",
+          "view_id": "60d6e99c-9e2f-4b31-8f7d-d9bc94c0643e",
+          "scope": "Complete existing OPP Bar worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-replica-opp-bar.csv",
+          "sha256": "5945c35c25adb1df4d790413f32ec2808821b3f8b0337c1dd88b159b3cf837f1",
+          "bytes": 118
+        },
+        {
+          "role": "replica",
+          "view": "Sales KPI",
+          "view_id": "1345fd1d-6007-4a0f-9bd6-a61f722751a6",
+          "scope": "Complete existing Sales KPI worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-replica-sales-kpi.csv",
+          "sha256": "5f6ed24a9e0b173f549773991528ad4d917a98542e446c5bd4a7d44e3b462878",
+          "bytes": 92
+        },
+        {
+          "role": "replica",
+          "view": "OPP KPI",
+          "view_id": "ecde63e3-5c61-41a0-8f7e-f8ff2613ff38",
+          "scope": "Complete existing OPP KPI worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-replica-opp-kpi.csv",
+          "sha256": "670cd6655a157051bd973ea38f8ac25722a716a8f3ad04f5818b2c0bab6a0fa5",
+          "bytes": 85
+        },
+        {
+          "role": "replica",
+          "view": "Year Legend",
+          "view_id": "fe29ee40-9a44-4e97-8b47-fe6ede56be18",
+          "scope": "Complete existing Year Legend worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-replica-year-legend.csv",
+          "sha256": "a0a89a4fbe2dfa38891e70343bc7ce84991ef2fe3fb56d023be89366ae4d69c4",
+          "bytes": 49
+        },
+        {
+          "role": "replica",
+          "view": "Diff Legend",
+          "view_id": "a8b4bc78-734d-46ea-8ffc-bb922c6501ce",
+          "scope": "Complete existing Diff Legend worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-replica-diff-legend.csv",
+          "sha256": "ff135116f0926a278d53d4da6aca9fe2d5a85e9216e1d723135a06cd17c416af",
+          "bytes": 118
+        }
+      ]
+    },
+    {
+      "name": "prior-year",
+      "parameters": {
+        "Compare Filter": "1"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "c810b46d-06eb-4e49-a315-4a2d933b5c14",
+          "name": "2020_06_24_WW26_FY_Reporting",
+          "path": "outputs/cloud-author-prior-year.png",
+          "sha256": "6ce0623be363829a91a07884ebfd5e108b9ea56a3aed605bf9f8d8b6ace4e3b6",
+          "size": [
+            1600,
+            1000
+          ]
+        },
+        "replica": {
+          "id": "5c28d1bd-918a-4196-85c2-36ffb6c0641a",
+          "name": "2020_06_24_WW26_FY_Reporting",
+          "path": "outputs/cloud-replica-prior-year.png",
+          "sha256": "1ee06651385045066492f93107c93c834472712990edaf91b8a9510155f2b18e",
+          "size": [
+            1600,
+            1000
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Data",
+          "view_id": "5dbf3662-5b59-40cd-a843-6f4bf74d1b65",
+          "scope": "Complete existing Data worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-author-data-prior-year.csv",
+          "sha256": "e9d5342db466995d657b6bc69a2c01fcbb61e3daf538be03277b75bdb552ad5b",
+          "bytes": 627
+        },
+        {
+          "role": "author",
+          "view": "Sales Trend",
+          "view_id": "1952b96e-1fb6-437a-8fc4-2efeb5ebc18e",
+          "scope": "Complete existing Sales Trend worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-author-sales-trend-prior-year.csv",
+          "sha256": "eaac6c2b6d178166d05e07f094aebc7fb3ca4dd85655a5053c010740117dbf9c",
+          "bytes": 1003
+        },
+        {
+          "role": "author",
+          "view": "OPP Trend",
+          "view_id": "de9614f6-7661-4175-9fe4-e4de14b9205e",
+          "scope": "Complete existing OPP Trend worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-author-opp-trend-prior-year.csv",
+          "sha256": "64f016cdadc914caa7529de88ab49f26b8db30b4c4669d96f1f5e23d4c36b6a9",
+          "bytes": 997
+        },
+        {
+          "role": "author",
+          "view": "Sales Bar",
+          "view_id": "8098785e-d7b0-47c8-8269-05f1a0e751b9",
+          "scope": "Complete existing Sales Bar worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-author-sales-bar-prior-year.csv",
+          "sha256": "7b1f719508d03b8e87408d9c2075929a1d12f1c4ecb58259ffd229b32ca87ade",
+          "bytes": 84
+        },
+        {
+          "role": "author",
+          "view": "OPP Bar",
+          "view_id": "aab29f61-570b-43f6-86d1-aa2fcc387b32",
+          "scope": "Complete existing OPP Bar worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-author-opp-bar-prior-year.csv",
+          "sha256": "14a86eac35b361c614e67bf212f8333c2724ac4990c0b74f7ac9c98f13f7b072",
+          "bytes": 79
+        },
+        {
+          "role": "author",
+          "view": "Sales KPI",
+          "view_id": "235d784f-0e8b-4f32-a5ee-8fe37836b247",
+          "scope": "Complete existing Sales KPI worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-author-sales-kpi-prior-year.csv",
+          "sha256": "f0d559c47ca0821af4519727072077a0014147f48e3f1a5be562b8af8641df13",
+          "bytes": 44
+        },
+        {
+          "role": "author",
+          "view": "OPP KPI",
+          "view_id": "d7bc211c-cb94-4dcf-9f9e-0bfaf88710a5",
+          "scope": "Complete existing OPP KPI worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-author-opp-kpi-prior-year.csv",
+          "sha256": "1cc8d495a53676749497eea2921ea1c519905550c627a4145c5ec89351ae9b68",
+          "bytes": 40
+        },
+        {
+          "role": "author",
+          "view": "Year Legend",
+          "view_id": "d6144606-e86d-4e66-93bd-1298af2fa05f",
+          "scope": "Complete existing Year Legend worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-author-year-legend-prior-year.csv",
+          "sha256": "891c1f84926b392233a016b98456bd16b85054c038d723cfa2b751e63447a7be",
+          "bytes": 57
+        },
+        {
+          "role": "author",
+          "view": "Diff Legend",
+          "view_id": "939bbb59-a386-49ce-9faf-a44c6d36bf2c",
+          "scope": "Complete existing Diff Legend worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-author-diff-legend-prior-year.csv",
+          "sha256": "2bab9fe526e47a914375455f8b01535a7f9bb7d6ded3fdcb4eb42eafe30076af",
+          "bytes": 93
+        },
+        {
+          "role": "replica",
+          "view": "Data",
+          "view_id": "b22a2147-30ec-4b28-bf2a-f4c89655abcd",
+          "scope": "Complete existing Data worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-replica-data-prior-year.csv",
+          "sha256": "b246c7584f49da1d0292bd618fb51ecfbf88a01294a1498243be145b82bc9a12",
+          "bytes": 333
+        },
+        {
+          "role": "replica",
+          "view": "Sales Trend",
+          "view_id": "756c677d-acf8-441c-9b8e-907ed5122cfa",
+          "scope": "Complete existing Sales Trend worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-replica-sales-trend-prior-year.csv",
+          "sha256": "07d007c5928ff04527c755b85cd9f3148e465619c1c7473f4c6687f620e00eeb",
+          "bytes": 724
+        },
+        {
+          "role": "replica",
+          "view": "OPP Trend",
+          "view_id": "b303ec87-a6bf-4681-8aa4-bb16e52b011f",
+          "scope": "Complete existing OPP Trend worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-replica-opp-trend-prior-year.csv",
+          "sha256": "1aa4573b598e66189f130125429bd69ea339c54cf69c230b8c805c86a99fca2b",
+          "bytes": 715
+        },
+        {
+          "role": "replica",
+          "view": "Sales Bar",
+          "view_id": "c000a72a-44fe-48db-96ae-06dc875261d4",
+          "scope": "Complete existing Sales Bar worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-replica-sales-bar-prior-year.csv",
+          "sha256": "4104f170207135283d06b282e03838d9b6f8ec3c6ac10a79a74b5dbb8bf949bd",
+          "bytes": 128
+        },
+        {
+          "role": "replica",
+          "view": "OPP Bar",
+          "view_id": "60d6e99c-9e2f-4b31-8f7d-d9bc94c0643e",
+          "scope": "Complete existing OPP Bar worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-replica-opp-bar-prior-year.csv",
+          "sha256": "c6df3f20554f2d0609c3be3608b8a5dd167cdf743af1ea57f6852b8c47d98af3",
+          "bytes": 118
+        },
+        {
+          "role": "replica",
+          "view": "Sales KPI",
+          "view_id": "1345fd1d-6007-4a0f-9bd6-a61f722751a6",
+          "scope": "Complete existing Sales KPI worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-replica-sales-kpi-prior-year.csv",
+          "sha256": "42ba6515655b07a07d1c07f9e5d0851575b81bbd47a872108f348b5ec1bb1621",
+          "bytes": 94
+        },
+        {
+          "role": "replica",
+          "view": "OPP KPI",
+          "view_id": "ecde63e3-5c61-41a0-8f7e-f8ff2613ff38",
+          "scope": "Complete existing OPP KPI worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-replica-opp-kpi-prior-year.csv",
+          "sha256": "3303be721eee5a96f83014dbfc69801f1eec8fb2d92cd28fc41198c29a958428",
+          "bytes": 86
+        },
+        {
+          "role": "replica",
+          "view": "Year Legend",
+          "view_id": "fe29ee40-9a44-4e97-8b47-fe6ede56be18",
+          "scope": "Complete existing Year Legend worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-replica-year-legend-prior-year.csv",
+          "sha256": "a0a89a4fbe2dfa38891e70343bc7ce84991ef2fe3fb56d023be89366ae4d69c4",
+          "bytes": 49
+        },
+        {
+          "role": "replica",
+          "view": "Diff Legend",
+          "view_id": "a8b4bc78-734d-46ea-8ffc-bb922c6501ce",
+          "scope": "Complete existing Diff Legend worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-replica-diff-legend-prior-year.csv",
+          "sha256": "ff135116f0926a278d53d4da6aca9fe2d5a85e9216e1d723135a06cd17c416af",
+          "bytes": 118
+        }
+      ]
+    },
+    {
+      "name": "low-budget",
+      "parameters": {
+        "Budget Sales (M)": "100",
+        "Budget OPP (M)": "100"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "c810b46d-06eb-4e49-a315-4a2d933b5c14",
+          "name": "2020_06_24_WW26_FY_Reporting",
+          "path": "outputs/cloud-author-low-budget.png",
+          "sha256": "30b0d9b567b68d4b061cca5358dacaefb68a356885b6a0ccea12c03e819a6385",
+          "size": [
+            1600,
+            1000
+          ]
+        },
+        "replica": {
+          "id": "5c28d1bd-918a-4196-85c2-36ffb6c0641a",
+          "name": "2020_06_24_WW26_FY_Reporting",
+          "path": "outputs/cloud-replica-low-budget.png",
+          "sha256": "bf476464c92c4d53bd0bf50aa7bffc05ff9a4e836b34172e615121b03e485d35",
+          "size": [
+            1600,
+            1000
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Data",
+          "view_id": "5dbf3662-5b59-40cd-a843-6f4bf74d1b65",
+          "scope": "Complete existing Data worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-author-data-low-budget.csv",
+          "sha256": "7c9cfecfc46597483510b800a728635e325ee1b0af7cea691f597efe43dff13e",
+          "bytes": 620
+        },
+        {
+          "role": "author",
+          "view": "Sales Trend",
+          "view_id": "1952b96e-1fb6-437a-8fc4-2efeb5ebc18e",
+          "scope": "Complete existing Sales Trend worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-author-sales-trend-low-budget.csv",
+          "sha256": "eaac6c2b6d178166d05e07f094aebc7fb3ca4dd85655a5053c010740117dbf9c",
+          "bytes": 1003
+        },
+        {
+          "role": "author",
+          "view": "OPP Trend",
+          "view_id": "de9614f6-7661-4175-9fe4-e4de14b9205e",
+          "scope": "Complete existing OPP Trend worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-author-opp-trend-low-budget.csv",
+          "sha256": "64f016cdadc914caa7529de88ab49f26b8db30b4c4669d96f1f5e23d4c36b6a9",
+          "bytes": 997
+        },
+        {
+          "role": "author",
+          "view": "Sales Bar",
+          "view_id": "8098785e-d7b0-47c8-8269-05f1a0e751b9",
+          "scope": "Complete existing Sales Bar worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-author-sales-bar-low-budget.csv",
+          "sha256": "f25e285cf591c8727156107acd7f80b434e6b2f2c2cc4899f621f54ade98a622",
+          "bytes": 84
+        },
+        {
+          "role": "author",
+          "view": "OPP Bar",
+          "view_id": "aab29f61-570b-43f6-86d1-aa2fcc387b32",
+          "scope": "Complete existing OPP Bar worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-author-opp-bar-low-budget.csv",
+          "sha256": "a7d797ef5adf67977b96d1cf99e7165f61da316f3c94c7deb36abf6e11cca843",
+          "bytes": 79
+        },
+        {
+          "role": "author",
+          "view": "Sales KPI",
+          "view_id": "235d784f-0e8b-4f32-a5ee-8fe37836b247",
+          "scope": "Complete existing Sales KPI worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-author-sales-kpi-low-budget.csv",
+          "sha256": "1ee3852489ebbf60ec3760fa6783f01d12080716479fe539a1b50e83e70efc23",
+          "bytes": 45
+        },
+        {
+          "role": "author",
+          "view": "OPP KPI",
+          "view_id": "d7bc211c-cb94-4dcf-9f9e-0bfaf88710a5",
+          "scope": "Complete existing OPP KPI worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-author-opp-kpi-low-budget.csv",
+          "sha256": "a8fcf29bdda7e80d7e49a7c6fc7ee3dd4767e4ac9e9ef1a1e161a0e473211bc3",
+          "bytes": 41
+        },
+        {
+          "role": "author",
+          "view": "Year Legend",
+          "view_id": "d6144606-e86d-4e66-93bd-1298af2fa05f",
+          "scope": "Complete existing Year Legend worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-author-year-legend-low-budget.csv",
+          "sha256": "891c1f84926b392233a016b98456bd16b85054c038d723cfa2b751e63447a7be",
+          "bytes": 57
+        },
+        {
+          "role": "author",
+          "view": "Diff Legend",
+          "view_id": "939bbb59-a386-49ce-9faf-a44c6d36bf2c",
+          "scope": "Complete existing Diff Legend worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-author-diff-legend-low-budget.csv",
+          "sha256": "2bab9fe526e47a914375455f8b01535a7f9bb7d6ded3fdcb4eb42eafe30076af",
+          "bytes": 93
+        },
+        {
+          "role": "replica",
+          "view": "Data",
+          "view_id": "b22a2147-30ec-4b28-bf2a-f4c89655abcd",
+          "scope": "Complete existing Data worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-replica-data-low-budget.csv",
+          "sha256": "7868edb6b92e5db46613ef9e2009ba71123ad7951d530a2972be7824bc53d934",
+          "bytes": 329
+        },
+        {
+          "role": "replica",
+          "view": "Sales Trend",
+          "view_id": "756c677d-acf8-441c-9b8e-907ed5122cfa",
+          "scope": "Complete existing Sales Trend worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-replica-sales-trend-low-budget.csv",
+          "sha256": "ddf7df145e6cbbf39671d11addbc0e29fd40898d7d02fa9b117d1fc0609c19e1",
+          "bytes": 724
+        },
+        {
+          "role": "replica",
+          "view": "OPP Trend",
+          "view_id": "b303ec87-a6bf-4681-8aa4-bb16e52b011f",
+          "scope": "Complete existing OPP Trend worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-replica-opp-trend-low-budget.csv",
+          "sha256": "e33c550554f277209bd5220d0b1263ac0820d66d1c70577bd1d2a248e4598b4a",
+          "bytes": 715
+        },
+        {
+          "role": "replica",
+          "view": "Sales Bar",
+          "view_id": "c000a72a-44fe-48db-96ae-06dc875261d4",
+          "scope": "Complete existing Sales Bar worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-replica-sales-bar-low-budget.csv",
+          "sha256": "48d0b905ff28b7a47143399866c297f0aabf59713e23d7bf44b07b661c9234be",
+          "bytes": 129
+        },
+        {
+          "role": "replica",
+          "view": "OPP Bar",
+          "view_id": "60d6e99c-9e2f-4b31-8f7d-d9bc94c0643e",
+          "scope": "Complete existing OPP Bar worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-replica-opp-bar-low-budget.csv",
+          "sha256": "9b81c4a8d5acfcd3ce25073d80fec5eccca058d321c595f1cb1dcf82973332db",
+          "bytes": 119
+        },
+        {
+          "role": "replica",
+          "view": "Sales KPI",
+          "view_id": "1345fd1d-6007-4a0f-9bd6-a61f722751a6",
+          "scope": "Complete existing Sales KPI worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-replica-sales-kpi-low-budget.csv",
+          "sha256": "dbb64bff23967d6ee5d532308a93dcfdeb0cc12b5060d9eaf38fd4cdd892f2f4",
+          "bytes": 95
+        },
+        {
+          "role": "replica",
+          "view": "OPP KPI",
+          "view_id": "ecde63e3-5c61-41a0-8f7e-f8ff2613ff38",
+          "scope": "Complete existing OPP KPI worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-replica-opp-kpi-low-budget.csv",
+          "sha256": "8069043ca222f1077cdfb67da8d8c93d47988b81dbabdce9a0bd60fad0ee00d4",
+          "bytes": 87
+        },
+        {
+          "role": "replica",
+          "view": "Year Legend",
+          "view_id": "fe29ee40-9a44-4e97-8b47-fe6ede56be18",
+          "scope": "Complete existing Year Legend worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-replica-year-legend-low-budget.csv",
+          "sha256": "a0a89a4fbe2dfa38891e70343bc7ce84991ef2fe3fb56d023be89366ae4d69c4",
+          "bytes": 49
+        },
+        {
+          "role": "replica",
+          "view": "Diff Legend",
+          "view_id": "a8b4bc78-734d-46ea-8ffc-bb922c6501ce",
+          "scope": "Complete existing Diff Legend worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-replica-diff-legend-low-budget.csv",
+          "sha256": "ff135116f0926a278d53d4da6aca9fe2d5a85e9216e1d723135a06cd17c416af",
+          "bytes": 118
+        }
+      ]
+    },
+    {
+      "name": "high-budget",
+      "parameters": {
+        "Budget Sales (M)": "4000",
+        "Budget OPP (M)": "4500"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "c810b46d-06eb-4e49-a315-4a2d933b5c14",
+          "name": "2020_06_24_WW26_FY_Reporting",
+          "path": "outputs/cloud-author-high-budget.png",
+          "sha256": "a281c753fa441d5c802f151895922913451c680fe03b59d7acd50397c0c5c3ba",
+          "size": [
+            1600,
+            1000
+          ]
+        },
+        "replica": {
+          "id": "5c28d1bd-918a-4196-85c2-36ffb6c0641a",
+          "name": "2020_06_24_WW26_FY_Reporting",
+          "path": "outputs/cloud-replica-high-budget.png",
+          "sha256": "0aa27e249967a2529ce6ceff1212975b5f99ba1806027c19ce60ffa0d7c7d66c",
+          "size": [
+            1600,
+            1000
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Data",
+          "view_id": "5dbf3662-5b59-40cd-a843-6f4bf74d1b65",
+          "scope": "Complete existing Data worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-author-data-high-budget.csv",
+          "sha256": "c5bc46436e70b0f6a7411e410e44867ee850d8dca94d46cffcf0dd3fcd418713",
+          "bytes": 630
+        },
+        {
+          "role": "author",
+          "view": "Sales Trend",
+          "view_id": "1952b96e-1fb6-437a-8fc4-2efeb5ebc18e",
+          "scope": "Complete existing Sales Trend worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-author-sales-trend-high-budget.csv",
+          "sha256": "a09eee571c5b515efc20505d1fa22bb481bef3579824258cf304ac1c21026b02",
+          "bytes": 1003
+        },
+        {
+          "role": "author",
+          "view": "OPP Trend",
+          "view_id": "de9614f6-7661-4175-9fe4-e4de14b9205e",
+          "scope": "Complete existing OPP Trend worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-author-opp-trend-high-budget.csv",
+          "sha256": "64f016cdadc914caa7529de88ab49f26b8db30b4c4669d96f1f5e23d4c36b6a9",
+          "bytes": 997
+        },
+        {
+          "role": "author",
+          "view": "Sales Bar",
+          "view_id": "8098785e-d7b0-47c8-8269-05f1a0e751b9",
+          "scope": "Complete existing Sales Bar worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-author-sales-bar-high-budget.csv",
+          "sha256": "982063b2e24b1599b41af9cada4cda02c901ea311b0fadf723c9ae2afe62bbf3",
+          "bytes": 89
+        },
+        {
+          "role": "author",
+          "view": "OPP Bar",
+          "view_id": "aab29f61-570b-43f6-86d1-aa2fcc387b32",
+          "scope": "Complete existing OPP Bar worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-author-opp-bar-high-budget.csv",
+          "sha256": "3a8525c52d0f4fe836227fc2319795c6eae100022a6385cae9bf371559e4c13a",
+          "bytes": 84
+        },
+        {
+          "role": "author",
+          "view": "Sales KPI",
+          "view_id": "235d784f-0e8b-4f32-a5ee-8fe37836b247",
+          "scope": "Complete existing Sales KPI worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-author-sales-kpi-high-budget.csv",
+          "sha256": "e9b3960ae11e413ff626b6feca6511a484823433ceeb54f62b9939b96a77e62c",
+          "bytes": 44
+        },
+        {
+          "role": "author",
+          "view": "OPP KPI",
+          "view_id": "d7bc211c-cb94-4dcf-9f9e-0bfaf88710a5",
+          "scope": "Complete existing OPP KPI worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-author-opp-kpi-high-budget.csv",
+          "sha256": "e4d35ecef1bf665a3b83b2c48fef0cad2fccd87ce47ed11f804e13dd54cffaab",
+          "bytes": 40
+        },
+        {
+          "role": "author",
+          "view": "Year Legend",
+          "view_id": "d6144606-e86d-4e66-93bd-1298af2fa05f",
+          "scope": "Complete existing Year Legend worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-author-year-legend-high-budget.csv",
+          "sha256": "891c1f84926b392233a016b98456bd16b85054c038d723cfa2b751e63447a7be",
+          "bytes": 57
+        },
+        {
+          "role": "author",
+          "view": "Diff Legend",
+          "view_id": "939bbb59-a386-49ce-9faf-a44c6d36bf2c",
+          "scope": "Complete existing Diff Legend worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-author-diff-legend-high-budget.csv",
+          "sha256": "2bab9fe526e47a914375455f8b01535a7f9bb7d6ded3fdcb4eb42eafe30076af",
+          "bytes": 93
+        },
+        {
+          "role": "replica",
+          "view": "Data",
+          "view_id": "b22a2147-30ec-4b28-bf2a-f4c89655abcd",
+          "scope": "Complete existing Data worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-replica-data-high-budget.csv",
+          "sha256": "4fcbe7c05e11ec74eba2e8d3785634f9e92f2cfd90f1d72316bf7fa9160eec44",
+          "bytes": 335
+        },
+        {
+          "role": "replica",
+          "view": "Sales Trend",
+          "view_id": "756c677d-acf8-441c-9b8e-907ed5122cfa",
+          "scope": "Complete existing Sales Trend worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-replica-sales-trend-high-budget.csv",
+          "sha256": "ddf7df145e6cbbf39671d11addbc0e29fd40898d7d02fa9b117d1fc0609c19e1",
+          "bytes": 724
+        },
+        {
+          "role": "replica",
+          "view": "OPP Trend",
+          "view_id": "b303ec87-a6bf-4681-8aa4-bb16e52b011f",
+          "scope": "Complete existing OPP Trend worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-replica-opp-trend-high-budget.csv",
+          "sha256": "1aa4573b598e66189f130125429bd69ea339c54cf69c230b8c805c86a99fca2b",
+          "bytes": 715
+        },
+        {
+          "role": "replica",
+          "view": "Sales Bar",
+          "view_id": "c000a72a-44fe-48db-96ae-06dc875261d4",
+          "scope": "Complete existing Sales Bar worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-replica-sales-bar-high-budget.csv",
+          "sha256": "8fbe9e5ba872a70925bd21b0f602ad6b5ac93276a1313407bd0237f198011403",
+          "bytes": 133
+        },
+        {
+          "role": "replica",
+          "view": "OPP Bar",
+          "view_id": "60d6e99c-9e2f-4b31-8f7d-d9bc94c0643e",
+          "scope": "Complete existing OPP Bar worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-replica-opp-bar-high-budget.csv",
+          "sha256": "7eda09a6cc6c3f403090d0919354959d854ba8f2a95dc9f4edbc0f4c9f25839e",
+          "bytes": 123
+        },
+        {
+          "role": "replica",
+          "view": "Sales KPI",
+          "view_id": "1345fd1d-6007-4a0f-9bd6-a61f722751a6",
+          "scope": "Complete existing Sales KPI worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-replica-sales-kpi-high-budget.csv",
+          "sha256": "8284a22d4068cee193b1de0e503212ce4a9ace96c88e947594b939e61d53f11c",
+          "bytes": 98
+        },
+        {
+          "role": "replica",
+          "view": "OPP KPI",
+          "view_id": "ecde63e3-5c61-41a0-8f7e-f8ff2613ff38",
+          "scope": "Complete existing OPP KPI worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-replica-opp-kpi-high-budget.csv",
+          "sha256": "f804602151957751a3d2747bbc8918827542947d0ab8b15f8183531d34204ba0",
+          "bytes": 90
+        },
+        {
+          "role": "replica",
+          "view": "Year Legend",
+          "view_id": "fe29ee40-9a44-4e97-8b47-fe6ede56be18",
+          "scope": "Complete existing Year Legend worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-replica-year-legend-high-budget.csv",
+          "sha256": "a0a89a4fbe2dfa38891e70343bc7ce84991ef2fe3fb56d023be89366ae4d69c4",
+          "bytes": 49
+        },
+        {
+          "role": "replica",
+          "view": "Diff Legend",
+          "view_id": "a8b4bc78-734d-46ea-8ffc-bb922c6501ce",
+          "scope": "Complete existing Diff Legend worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-replica-diff-legend-high-budget.csv",
+          "sha256": "ff135116f0926a278d53d4da6aca9fe2d5a85e9216e1d723135a06cd17c416af",
+          "bytes": 118
+        }
+      ]
+    }
+  ],
+  "status": "verified",
+  "independent_review": {
+    "visual_status": "acceptable_delta",
+    "visual_evidence": "evidence/visual-review.md",
+    "functional_evidence": "evidence/functional-verification.json",
+    "scope": "Declared REST worksheet exports and artifact contracts; no browser events executed."
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "status": "pass",
+  "sdk": "local development candidate; coordinating agent will pin final tested commit",
+  "validation": "Direct independent raw-data/native-artifact verifier passed; Cloud acceptance pending",
+  "baseline_commit": "56377c5b170f0df1f5cd853fc483de26962dfed1"
+}

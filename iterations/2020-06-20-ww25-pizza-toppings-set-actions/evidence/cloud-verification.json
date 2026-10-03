@@ -1,0 +1,444 @@
+{
+  "case_id": "wow-2020-ww25-pizza-toppings-set-actions",
+  "captured_at": "2026-10-03T15:13:24.832834+00:00",
+  "source_hashes": {
+    "author": "c6ac62145a5d5b60b95aba6ec54a7e8ac98947bb519a843f121b95c47629b90b",
+    "replica": "24de9b6b9691e7152af6afbd5bf37ccea2faf90673aa63854b5a28c03054f2a1"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "5e6903d4-52d6-41f2-b10d-992f662c9a55",
+      "name": "cwtwb-review-wow-2020-ww25-pizza-toppings-set-actions-author-c6ac62145a5d",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2930427",
+      "views": [
+        {
+          "name": "2020_06_17_WW25_PizzaToppings_Set_Actions",
+          "id": "cf85c65c-dfb6-4fdd-891d-74a06619afa0"
+        },
+        {
+          "name": "Chart",
+          "id": "1913532c-f373-406e-b9c2-9bb91ddb2264"
+        },
+        {
+          "name": "List of Items",
+          "id": "9f939b9a-f46d-4b40-a162-6861ba4df245"
+        },
+        {
+          "name": "Selector",
+          "id": "1f07cd73-5a2f-41ee-9d64-f7ff1baad8b0"
+        },
+        {
+          "name": "Total Bar",
+          "id": "c567e7e4-3a37-40e0-bca2-501db6a06b6f"
+        },
+        {
+          "name": "Under Over Budget",
+          "id": "9016e0aa-6416-4dac-920c-235a51885d72"
+        }
+      ]
+    },
+    "replica": {
+      "id": "d69df687-e315-4a98-aa7a-366ddaef5056",
+      "name": "cwtwb-review-wow-2020-ww25-pizza-toppings-set-actions-replica-24de9b6b9691",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2930555",
+      "views": [
+        {
+          "name": "Chart",
+          "id": "26dfef4e-1fa6-43ff-baed-1ca70c020f61"
+        },
+        {
+          "name": "List of Items",
+          "id": "ee35dfd1-c058-453a-96fd-73de95457cef"
+        },
+        {
+          "name": "Selector",
+          "id": "8bd08d25-0485-450e-adf3-4c2e00c5adf5"
+        },
+        {
+          "name": "Total Bar",
+          "id": "c5ee2f76-ed73-4b7a-858f-6e88cccae3e5"
+        },
+        {
+          "name": "Under Over Budget",
+          "id": "324eefec-cc5c-4145-ad1d-9e1bbd3d7872"
+        },
+        {
+          "name": "2020_06_17_WW25_PizzaToppings_Set_Actions",
+          "id": "6bb32024-c32e-4f4c-9943-0d807dd6784c"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "cf85c65c-dfb6-4fdd-891d-74a06619afa0",
+          "name": "2020_06_17_WW25_PizzaToppings_Set_Actions",
+          "path": "outputs/cloud-author.png",
+          "sha256": "28bd7e676049ca45d8e4605315094f1b795db968fd69ddbaa2fbb4071e0187b0",
+          "size": [
+            1600,
+            1000
+          ]
+        },
+        "replica": {
+          "id": "6bb32024-c32e-4f4c-9943-0d807dd6784c",
+          "name": "2020_06_17_WW25_PizzaToppings_Set_Actions",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "2625c0c0678592edbd055bf1f0fb249ccc94c2c4f7039c6205e3b935a3d58edb",
+          "size": [
+            1600,
+            1000
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Chart",
+          "view_id": "1913532c-f373-406e-b9c2-9bb91ddb2264",
+          "scope": "Complete existing Chart worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-author-chart.csv",
+          "sha256": "fa7b7e12c9ce0f124df6e5cab00e66171ecc088016d4a9b7a2febf8553a6992e",
+          "bytes": 382
+        },
+        {
+          "role": "author",
+          "view": "List of Items",
+          "view_id": "9f939b9a-f46d-4b40-a162-6861ba4df245",
+          "scope": "Complete existing List of Items worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-author-list-of-items.csv",
+          "sha256": "dcc822de8999a72f67a5ef53f35409ea2aabf1d57d2a522ea188fe7f1dfeb3b6",
+          "bytes": 295
+        },
+        {
+          "role": "author",
+          "view": "Selector",
+          "view_id": "1f07cd73-5a2f-41ee-9d64-f7ff1baad8b0",
+          "scope": "Complete existing Selector worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-author-selector.csv",
+          "sha256": "42aadd0eb8bc538e9cf968a525968261c20935ef9b0cb76f6aede4ba0a28740d",
+          "bytes": 86
+        },
+        {
+          "role": "author",
+          "view": "Total Bar",
+          "view_id": "c567e7e4-3a37-40e0-bca2-501db6a06b6f",
+          "scope": "Complete existing Total Bar worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-author-total-bar.csv",
+          "sha256": "35fdb881362db23a8e6269acd893a40b2cf6475f8a403c6f6ef23216840e3359",
+          "bytes": 170
+        },
+        {
+          "role": "author",
+          "view": "Under Over Budget",
+          "view_id": "9016e0aa-6416-4dac-920c-235a51885d72",
+          "scope": "Complete existing Under Over Budget worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-author-under-over-budget.csv",
+          "sha256": "cf54e917baee82903a6d4cb0482c198563a62cafbe87ae37eb9c2dceab1c6a99",
+          "bytes": 101
+        },
+        {
+          "role": "replica",
+          "view": "Chart",
+          "view_id": "26dfef4e-1fa6-43ff-baed-1ca70c020f61",
+          "scope": "Complete existing Chart worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-replica-chart.csv",
+          "sha256": "291307216513157c09068fa20f18595675dd6ff51f21a427b00781c56539ab81",
+          "bytes": 379
+        },
+        {
+          "role": "replica",
+          "view": "List of Items",
+          "view_id": "ee35dfd1-c058-453a-96fd-73de95457cef",
+          "scope": "Complete existing List of Items worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-replica-list-of-items.csv",
+          "sha256": "3057d934e95fd63683ae17ee0a5d908c616b3d29096f07aa1dfba47627d5a907",
+          "bytes": 293
+        },
+        {
+          "role": "replica",
+          "view": "Selector",
+          "view_id": "8bd08d25-0485-450e-adf3-4c2e00c5adf5",
+          "scope": "Complete existing Selector worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-replica-selector.csv",
+          "sha256": "c11e9f0c2ddc593c49b2c5c3e83338b643caf3439bffbbd104e33455e68da37d",
+          "bytes": 55
+        },
+        {
+          "role": "replica",
+          "view": "Total Bar",
+          "view_id": "c5ee2f76-ed73-4b7a-858f-6e88cccae3e5",
+          "scope": "Complete existing Total Bar worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-replica-total-bar.csv",
+          "sha256": "8f9b7d7975d1533e86c41503107e52280e22f0b256512392873560c9c07120fe",
+          "bytes": 175
+        },
+        {
+          "role": "replica",
+          "view": "Under Over Budget",
+          "view_id": "324eefec-cc5c-4145-ad1d-9e1bbd3d7872",
+          "scope": "Complete existing Under Over Budget worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-replica-under-over-budget.csv",
+          "sha256": "17d61ba365250972cf2e2333eec9f2fc4f35879d7914ffeafdaa037a1deddf6f",
+          "bytes": 136
+        }
+      ]
+    },
+    {
+      "name": "budget-30",
+      "parameters": {
+        "Budget": "30"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "cf85c65c-dfb6-4fdd-891d-74a06619afa0",
+          "name": "2020_06_17_WW25_PizzaToppings_Set_Actions",
+          "path": "outputs/cloud-author-budget-30.png",
+          "sha256": "045cadcebf450b85a7a9949471809999ec0c16bc3b02b3f2f3ff696f59571c2e",
+          "size": [
+            1600,
+            1000
+          ]
+        },
+        "replica": {
+          "id": "6bb32024-c32e-4f4c-9943-0d807dd6784c",
+          "name": "2020_06_17_WW25_PizzaToppings_Set_Actions",
+          "path": "outputs/cloud-replica-budget-30.png",
+          "sha256": "4b1e35c6d0d526be0567320ec38f423795ca7b9f141622e178af5999be9398e9",
+          "size": [
+            1600,
+            1000
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Chart",
+          "view_id": "1913532c-f373-406e-b9c2-9bb91ddb2264",
+          "scope": "Complete existing Chart worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-author-chart-budget-30.csv",
+          "sha256": "fa7b7e12c9ce0f124df6e5cab00e66171ecc088016d4a9b7a2febf8553a6992e",
+          "bytes": 382
+        },
+        {
+          "role": "author",
+          "view": "List of Items",
+          "view_id": "9f939b9a-f46d-4b40-a162-6861ba4df245",
+          "scope": "Complete existing List of Items worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-author-list-of-items-budget-30.csv",
+          "sha256": "dcc822de8999a72f67a5ef53f35409ea2aabf1d57d2a522ea188fe7f1dfeb3b6",
+          "bytes": 295
+        },
+        {
+          "role": "author",
+          "view": "Selector",
+          "view_id": "1f07cd73-5a2f-41ee-9d64-f7ff1baad8b0",
+          "scope": "Complete existing Selector worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-author-selector-budget-30.csv",
+          "sha256": "42aadd0eb8bc538e9cf968a525968261c20935ef9b0cb76f6aede4ba0a28740d",
+          "bytes": 86
+        },
+        {
+          "role": "author",
+          "view": "Total Bar",
+          "view_id": "c567e7e4-3a37-40e0-bca2-501db6a06b6f",
+          "scope": "Complete existing Total Bar worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-author-total-bar-budget-30.csv",
+          "sha256": "d99b5ebd0b376570e861065390ddbe6c7c7cd0fbaefc36cadd4cd8f049f43faa",
+          "bytes": 170
+        },
+        {
+          "role": "author",
+          "view": "Under Over Budget",
+          "view_id": "9016e0aa-6416-4dac-920c-235a51885d72",
+          "scope": "Complete existing Under Over Budget worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-author-under-over-budget-budget-30.csv",
+          "sha256": "03e8268ec08e8c6cf565c26ba27c3b164b69f01d6ab5dda4e68a4b5e2c4e79ee",
+          "bytes": 103
+        },
+        {
+          "role": "replica",
+          "view": "Chart",
+          "view_id": "26dfef4e-1fa6-43ff-baed-1ca70c020f61",
+          "scope": "Complete existing Chart worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-replica-chart-budget-30.csv",
+          "sha256": "291307216513157c09068fa20f18595675dd6ff51f21a427b00781c56539ab81",
+          "bytes": 379
+        },
+        {
+          "role": "replica",
+          "view": "List of Items",
+          "view_id": "ee35dfd1-c058-453a-96fd-73de95457cef",
+          "scope": "Complete existing List of Items worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-replica-list-of-items-budget-30.csv",
+          "sha256": "3057d934e95fd63683ae17ee0a5d908c616b3d29096f07aa1dfba47627d5a907",
+          "bytes": 293
+        },
+        {
+          "role": "replica",
+          "view": "Selector",
+          "view_id": "8bd08d25-0485-450e-adf3-4c2e00c5adf5",
+          "scope": "Complete existing Selector worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-replica-selector-budget-30.csv",
+          "sha256": "c11e9f0c2ddc593c49b2c5c3e83338b643caf3439bffbbd104e33455e68da37d",
+          "bytes": 55
+        },
+        {
+          "role": "replica",
+          "view": "Total Bar",
+          "view_id": "c5ee2f76-ed73-4b7a-858f-6e88cccae3e5",
+          "scope": "Complete existing Total Bar worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-replica-total-bar-budget-30.csv",
+          "sha256": "07637f0aba872792647f3dc1421481bd7b1f659a9d5010bee90d23b5628addaa",
+          "bytes": 175
+        },
+        {
+          "role": "replica",
+          "view": "Under Over Budget",
+          "view_id": "324eefec-cc5c-4145-ad1d-9e1bbd3d7872",
+          "scope": "Complete existing Under Over Budget worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-replica-under-over-budget-budget-30.csv",
+          "sha256": "5f0f5f8ae41366a779fcf580acf2e4cb6a1a077b2453f48c090e1e9c38fed249",
+          "bytes": 138
+        }
+      ]
+    },
+    {
+      "name": "budget-5",
+      "parameters": {
+        "Budget": "5"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "cf85c65c-dfb6-4fdd-891d-74a06619afa0",
+          "name": "2020_06_17_WW25_PizzaToppings_Set_Actions",
+          "path": "outputs/cloud-author-budget-5.png",
+          "sha256": "66ed027a9d0f452ecc73a33d5896753ae000453100c1b16c786d7a82018ed8a9",
+          "size": [
+            1600,
+            1000
+          ]
+        },
+        "replica": {
+          "id": "6bb32024-c32e-4f4c-9943-0d807dd6784c",
+          "name": "2020_06_17_WW25_PizzaToppings_Set_Actions",
+          "path": "outputs/cloud-replica-budget-5.png",
+          "sha256": "0f07f59104ff8db505c4948439d6c4c9eb0fc1af0421f457b3b61d6330da58f9",
+          "size": [
+            1600,
+            1000
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Chart",
+          "view_id": "1913532c-f373-406e-b9c2-9bb91ddb2264",
+          "scope": "Complete existing Chart worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-author-chart-budget-5.csv",
+          "sha256": "fa7b7e12c9ce0f124df6e5cab00e66171ecc088016d4a9b7a2febf8553a6992e",
+          "bytes": 382
+        },
+        {
+          "role": "author",
+          "view": "List of Items",
+          "view_id": "9f939b9a-f46d-4b40-a162-6861ba4df245",
+          "scope": "Complete existing List of Items worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-author-list-of-items-budget-5.csv",
+          "sha256": "dcc822de8999a72f67a5ef53f35409ea2aabf1d57d2a522ea188fe7f1dfeb3b6",
+          "bytes": 295
+        },
+        {
+          "role": "author",
+          "view": "Selector",
+          "view_id": "1f07cd73-5a2f-41ee-9d64-f7ff1baad8b0",
+          "scope": "Complete existing Selector worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-author-selector-budget-5.csv",
+          "sha256": "42aadd0eb8bc538e9cf968a525968261c20935ef9b0cb76f6aede4ba0a28740d",
+          "bytes": 86
+        },
+        {
+          "role": "author",
+          "view": "Total Bar",
+          "view_id": "c567e7e4-3a37-40e0-bca2-501db6a06b6f",
+          "scope": "Complete existing Total Bar worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-author-total-bar-budget-5.csv",
+          "sha256": "8589134789ac3ce82809bced99adc3116ef40052aa7de94638b913af1c79cc3a",
+          "bytes": 165
+        },
+        {
+          "role": "author",
+          "view": "Under Over Budget",
+          "view_id": "9016e0aa-6416-4dac-920c-235a51885d72",
+          "scope": "Complete existing Under Over Budget worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-author-under-over-budget-budget-5.csv",
+          "sha256": "6762a76392c103a054958957de567168a5b875c0e2216c96730dd2bbcf943d86",
+          "bytes": 102
+        },
+        {
+          "role": "replica",
+          "view": "Chart",
+          "view_id": "26dfef4e-1fa6-43ff-baed-1ca70c020f61",
+          "scope": "Complete existing Chart worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-replica-chart-budget-5.csv",
+          "sha256": "291307216513157c09068fa20f18595675dd6ff51f21a427b00781c56539ab81",
+          "bytes": 379
+        },
+        {
+          "role": "replica",
+          "view": "List of Items",
+          "view_id": "ee35dfd1-c058-453a-96fd-73de95457cef",
+          "scope": "Complete existing List of Items worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-replica-list-of-items-budget-5.csv",
+          "sha256": "3057d934e95fd63683ae17ee0a5d908c616b3d29096f07aa1dfba47627d5a907",
+          "bytes": 293
+        },
+        {
+          "role": "replica",
+          "view": "Selector",
+          "view_id": "8bd08d25-0485-450e-adf3-4c2e00c5adf5",
+          "scope": "Complete existing Selector worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-replica-selector-budget-5.csv",
+          "sha256": "c11e9f0c2ddc593c49b2c5c3e83338b643caf3439bffbbd104e33455e68da37d",
+          "bytes": 55
+        },
+        {
+          "role": "replica",
+          "view": "Total Bar",
+          "view_id": "c5ee2f76-ed73-4b7a-858f-6e88cccae3e5",
+          "scope": "Complete existing Total Bar worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-replica-total-bar-budget-5.csv",
+          "sha256": "d86ca34a70226e39b0013677a8cff598fea64175ddbc74c27e27c734222930c9",
+          "bytes": 171
+        },
+        {
+          "role": "replica",
+          "view": "Under Over Budget",
+          "view_id": "324eefec-cc5c-4145-ad1d-9e1bbd3d7872",
+          "scope": "Complete existing Under Over Budget worksheet for this REST state; action/button data cannot prove other sheets.",
+          "path": "outputs/cloud-replica-under-over-budget-budget-5.csv",
+          "sha256": "cac160fac4c6c9875f2255c32509ebf0350d92a66a54f02326436901d916785c",
+          "bytes": 138
+        }
+      ]
+    }
+  ],
+  "status": "verified",
+  "independent_review": {
+    "visual_status": "acceptable_delta",
+    "visual_evidence": "evidence/visual-review.md",
+    "functional_evidence": "evidence/functional-verification.json",
+    "scope": "Declared REST worksheet exports and artifact contracts; no browser events executed."
+  }
+}

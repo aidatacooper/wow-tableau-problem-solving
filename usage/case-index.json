@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "generated_from": "iterations/*/case.yaml",
-  "active_case_count": 54,
+  "active_case_count": 59,
   "legacy_case_ids": {
     "donna-2019-07-18-63877b35d19a": "wow-2019-ww29-high-orders",
     "donna-2019-07-25-59a0a144b25b": "wow-2019-ww30-navigation-kpi",
@@ -3203,6 +3203,299 @@
         "Generated index views must be refreshed after the workbook is built and verified."
       ],
       "metadata": "iterations/2020-06-12-ww24-moving-average-trend/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.27.1"
+    },
+    {
+      "case_id": "wow-2020-ww25-pizza-toppings-set-actions",
+      "legacy_case_ids": {},
+      "iteration_id": "2020-06-20-ww25-pizza-toppings-set-actions",
+      "article_date": "2020-06-20",
+      "challenge_year": 2020,
+      "challenge_week": 25,
+      "challenge_date": "2020-06-16",
+      "date_evidence": {
+        "article_date": "Article publication URL and locked HTML",
+        "challenge": "Official WordPress post 3766 title year/week",
+        "challenge_date": "Official WordPress post 3766 published 2020-06-16"
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2020w25/",
+          "wordpress_post_id": 3766
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2020/06/20/can-you-add-and-remove-items-from-a-set/",
+          "path": null,
+          "sha256": "429382aac38164222e0f59b21f1f41062873830648303cd0726c83b127cf3edb"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/profile/donna.coles#!/vizhome/2020_06_17_WW25_Pizza_Toppings_Set_Actions/2020_06_17_WW25_PizzaToppings_Set_Actions",
+          "filename": "author.twbx",
+          "sha256": "36dacabe544326e8fe2eb602a448d2611e1c7d30386bea368a09cb9fc83be74a"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "pass",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "evidence/cloud-data-comparison.json",
+        "evidence/cloud-verification.json",
+        "evidence/export-provenance.json",
+        "evidence/functional-verification.json",
+        "evidence/sdk-candidate.json",
+        "evidence/sdk-final-validation.json",
+        "evidence/sdk-gap-baseline.json",
+        "evidence/visual-review.md",
+        "evidence/zero-build-verification.json",
+        "inputs/source-lock.json"
+      ],
+      "notes": [
+        "Build uses locked extracted inputs and public SDK APIs only.",
+        "REST states and artifact contracts; no browser interaction executed.",
+        "Source Action(Type) REST override fails400081; product-chart export scope four Size items. Full26-product raw oracle and native event contracts are separate evidence, not event execution."
+      ],
+      "metadata": "iterations/2020-06-20-ww25-pizza-toppings-set-actions/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.27.1"
+    },
+    {
+      "case_id": "wow-2020-ww26-fiscal-year-reporting",
+      "legacy_case_ids": {},
+      "iteration_id": "2020-06-27-ww26-fiscal-year-reporting",
+      "article_date": "2020-06-27",
+      "challenge_year": 2020,
+      "challenge_week": 26,
+      "challenge_date": "2020-06-23",
+      "date_evidence": {
+        "article_date": "Article publication URL and locked HTML",
+        "challenge": "Official WordPress post 3776 title year/week",
+        "challenge_date": "Official WordPress post 3776 published 2020-06-23"
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2020w26/",
+          "wordpress_post_id": 3776
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2020/06/27/how-does-the-company-perform-in-the-fiscal-year/",
+          "path": null,
+          "sha256": "a4e01ff5956f66a6f1913783d89743d868a07720b637e2a6f528e97e6be48a3c"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/profile/donna.coles#!/vizhome/2020_06_24_WW26_FYReporting/2020_06_24_WW26_FY_Reporting",
+          "filename": "author.twbx",
+          "sha256": "6cf1d9e96c304047b38f46f82e34814ac9139257bd8bdd266375758c49bfef1f"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "pass",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "evidence/cloud-data-comparison.json",
+        "evidence/cloud-verification.json",
+        "evidence/export-provenance.json",
+        "evidence/functional-verification.json",
+        "evidence/sdk-candidate.json",
+        "evidence/sdk-final-validation.json",
+        "evidence/sdk-gap-baseline.json",
+        "evidence/visual-review.md",
+        "evidence/zero-build-verification.json",
+        "inputs/source-lock.json"
+      ],
+      "notes": [
+        "Build uses locked extracted inputs and public SDK APIs only.",
+        "REST states and artifact contracts; no browser interaction executed."
+      ],
+      "metadata": "iterations/2020-06-27-ww26-fiscal-year-reporting/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.27.1"
+    },
+    {
+      "case_id": "wow-2020-ww27-customer-order-distribution",
+      "legacy_case_ids": {},
+      "iteration_id": "2020-07-03-ww27-customer-order-distribution",
+      "article_date": "2020-07-03",
+      "challenge_year": 2020,
+      "challenge_week": 27,
+      "challenge_date": "2020-06-30",
+      "date_evidence": {
+        "article_date": "Declared article publication date in iteration_id",
+        "challenge": "WordPress REST post 3829: 2020 Week 27: What is the distribution of total orders by customer?",
+        "challenge_date": "Official publication timestamp 2020-06-30T00:30:00"
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2020w27/"
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2020/07/03/what-is-the-distribution-of-total-orders-by-customer/",
+          "path": null,
+          "sha256": "160592d1566a654eb4f1b63e2ab98fd579673aa6f5c99a26a3e36feae5a952e3"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2020_07_01_WW27_OrdersByCustomerDistribution/2020_07_01_WW27_OrdersByCustomerDistribution",
+          "filename": "author.twbx",
+          "sha256": "6f385453ced284c97916436d9d31d8de112b5dbd1f431498b3a823f6020e37e0"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "pass",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "evidence/cloud-data-comparison.json",
+        "evidence/cloud-verification.json",
+        "evidence/export-provenance.json",
+        "evidence/functional-verification.json",
+        "evidence/sdk-baseline.json",
+        "evidence/sdk-final-validation.json",
+        "evidence/visual-review.md",
+        "evidence/zero-build-verification.json",
+        "inputs/source-lock.json"
+      ],
+      "notes": [
+        "Generated index views must be refreshed after the workbook is built and verified."
+      ],
+      "metadata": "iterations/2020-07-03-ww27-customer-order-distribution/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.27.1"
+    },
+    {
+      "case_id": "wow-2020-ww28-sales-versus-goal",
+      "legacy_case_ids": {},
+      "iteration_id": "2020-07-10-ww28-sales-versus-goal",
+      "article_date": "2020-07-10",
+      "challenge_year": 2020,
+      "challenge_week": 28,
+      "challenge_date": "2020-07-08",
+      "date_evidence": {
+        "article_date": "Declared article publication date in iteration_id",
+        "challenge": "WordPress REST post 3848: 2020 Week 28: Are Sales on Track with Goal?",
+        "challenge_date": "Official publication timestamp 2020-07-08T04:34:02"
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2020w28/"
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2020/07/10/are-sales-on-track-with-goal/",
+          "path": null,
+          "sha256": "266aeb4e3fb8e7180aa5e1c5ecd9be51d1d6fa9cdc8e31e30ce3dc0d35904702"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2020_07_08_WW28_SalesvGoal_Relationships/2020_07_08_WW28_SalesvGoal_Relationships",
+          "filename": "author.twbx",
+          "sha256": "270581368fa7af9e192262c6ebc99b4b17d02e9eb89125f02561048f0eee74fc"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "pass",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "evidence/cloud-data-comparison.json",
+        "evidence/cloud-verification.json",
+        "evidence/export-provenance.json",
+        "evidence/functional-verification.json",
+        "evidence/sdk-baseline.json",
+        "evidence/sdk-development-validation.json",
+        "evidence/sdk-final-validation.json",
+        "evidence/visual-review.md",
+        "evidence/zero-build-verification.json",
+        "inputs/source-lock.json"
+      ],
+      "notes": [
+        "Generated index views must be refreshed after the workbook is built and verified."
+      ],
+      "metadata": "iterations/2020-07-10-ww28-sales-versus-goal/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.27.1"
+    },
+    {
+      "case_id": "wow-2020-ww29-dynamic-heatmap-labels",
+      "legacy_case_ids": {},
+      "iteration_id": "2020-07-18-ww29-dynamic-heatmap-labels",
+      "article_date": "2020-07-18",
+      "challenge_year": 2020,
+      "challenge_week": 29,
+      "challenge_date": "2020-07-14",
+      "date_evidence": {
+        "article_date": "Article URL and published 18 July2020; archived article analysis SHA recorded.",
+        "challenge_date": "Official WordPress post3860 date=2020-07-14T17:15:52; https://www.workout-wednesday.com/wp-json/wp/v2/posts/3860"
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2020w29/"
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2020/07/18/can-you-dynamically-display-a-label-on-a-heat-map/",
+          "path": null,
+          "sha256": "dc52d1e22dd12d13bd094425e7c54b6390c394ea57344726345b3c77f8d41725"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/workbooks/2020_07_15_WW29_Heatmap.twb",
+          "filename": "author.twbx",
+          "sha256": "688a72bd23217947f495eb680403175456a2a48f434d50e807d23a1f030d29de"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "pass",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "evidence/cloud-verification.json",
+        "evidence/export-provenance.json",
+        "evidence/functional-verification.json",
+        "evidence/sdk-baseline.json",
+        "evidence/sdk-final-validation.json",
+        "evidence/visual-review.md",
+        "evidence/zero-build-verification.json",
+        "inputs/source-lock.json"
+      ],
+      "notes": [
+        "Target is Donna Intermediate dashboard only; article states Advanced click row/column difference bug unresolved.",
+        "Builder uses only extracted four-column Hyper from empty TWBEditor and publicSDK.",
+        "Source comparison workbook exposes hidden worksheet windows only; provenance binds both source and comparison hashes."
+      ],
+      "metadata": "iterations/2020-07-18-ww29-dynamic-heatmap-labels/case.yaml",
       "metadata_contract": "1.1.0",
       "tested_sdk_version": "0.27.1"
     },

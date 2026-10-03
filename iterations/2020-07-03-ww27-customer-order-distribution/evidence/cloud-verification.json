@@ -1,0 +1,204 @@
+{
+  "case_id": "wow-2020-ww27-customer-order-distribution",
+  "captured_at": "2026-10-03T14:40:24.805350+00:00",
+  "source_hashes": {
+    "author": "8bbe67d682f39b8239df13233b720c9a80ea129fc8cecce9a2b4032919679d9d",
+    "replica": "80855cd5bff0d906aecfe44ffdf77e4718fc3e5d3af6e20888b1a1222b908f3c"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "bad51015-107a-44d7-a319-abeabfa8c4cb",
+      "name": "cwtwb-review-wow-2020-ww27-customer-order-distribution-author-8bbe67d682f3",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2930391",
+      "views": [
+        {
+          "name": "2020_07_01_WW27_OrdersByCustomerDistribution",
+          "id": "7ecaae3f-f7a8-42fe-aefd-d007f3ea97f8"
+        },
+        {
+          "name": "Data",
+          "id": "76ff45b2-dc79-4d6e-af3a-6b2edc0e0eed"
+        },
+        {
+          "name": "In Progress",
+          "id": "0ac906a6-8dba-4c6b-b7e8-61617e8ab7a7"
+        },
+        {
+          "name": "Viz",
+          "id": "e04fb0a4-9635-4a6e-8333-623462f21a1d"
+        }
+      ]
+    },
+    "replica": {
+      "id": "ffc8f476-d2ed-4953-b771-2b752a9ae196",
+      "name": "cwtwb-review-wow-2020-ww27-customer-order-distribution-replica-80855cd5bff0",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2930410",
+      "views": [
+        {
+          "name": "Viz",
+          "id": "78dd7460-aad1-4244-a41b-ad20a0a18864"
+        },
+        {
+          "name": "2020_07_01_WW27_OrdersByCustomerDistribution",
+          "id": "ef81b603-7d0e-4421-9915-7f4a9f5106c7"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "7ecaae3f-f7a8-42fe-aefd-d007f3ea97f8",
+          "name": "2020_07_01_WW27_OrdersByCustomerDistribution",
+          "path": "outputs/cloud-author.png",
+          "sha256": "17f0f373321d7fc79a4ce8e630858388d53e27a6b25aeb1eea4672a1da2a6634",
+          "size": [
+            1800,
+            1000
+          ]
+        },
+        "replica": {
+          "id": "ef81b603-7d0e-4421-9915-7f4a9f5106c7",
+          "name": "2020_07_01_WW27_OrdersByCustomerDistribution",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "a21ec9dc8949a22ef071b584a66bef839b73f947b1fb3ae4341bffbdbcb88f35",
+          "size": [
+            1800,
+            1000
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Viz",
+          "view_id": "e04fb0a4-9635-4a6e-8333-623462f21a1d",
+          "scope": "Complete customer-grain marks and coordinates; unique coincident coordinates independently prove all bucket dot counts, not only screenshot data.",
+          "path": "outputs/cloud-author-viz.csv",
+          "sha256": "909c38c984aa17eda9224b6076e64472c8ed68109efba06ee4bf70838f94b381",
+          "bytes": 19355
+        },
+        {
+          "role": "replica",
+          "view": "Viz",
+          "view_id": "78dd7460-aad1-4244-a41b-ad20a0a18864",
+          "scope": "Complete customer-grain marks and coordinates; unique coincident coordinates independently prove all bucket dot counts, not only screenshot data.",
+          "path": "outputs/cloud-replica-viz.csv",
+          "sha256": "6547f3a71d7454f015df73dc7db1133ced1183224f597c2e6b442e6842658726",
+          "bytes": 27213
+        }
+      ]
+    },
+    {
+      "name": "one-customer",
+      "parameters": {
+        "pMarkIndicator": "1"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "7ecaae3f-f7a8-42fe-aefd-d007f3ea97f8",
+          "name": "2020_07_01_WW27_OrdersByCustomerDistribution",
+          "path": "outputs/cloud-author-one-customer.png",
+          "sha256": "be4b4983bbc867f6be642ad36f7e0ca5676f83c2193c6173ef7305d4c9146385",
+          "size": [
+            1800,
+            1000
+          ]
+        },
+        "replica": {
+          "id": "ef81b603-7d0e-4421-9915-7f4a9f5106c7",
+          "name": "2020_07_01_WW27_OrdersByCustomerDistribution",
+          "path": "outputs/cloud-replica-one-customer.png",
+          "sha256": "fd5153547ea7522142683c57e97a766f44ad4b15a2d1337fbb39879f5c0869bd",
+          "size": [
+            1800,
+            1000
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Viz",
+          "view_id": "e04fb0a4-9635-4a6e-8333-623462f21a1d",
+          "scope": "Complete customer-grain marks and coordinates; unique coincident coordinates independently prove all bucket dot counts, not only screenshot data.",
+          "path": "outputs/cloud-author-viz-one-customer.csv",
+          "sha256": "c3e75fc798eea824ad80bc6348bc9c26ecf2c514cf9c291a55bdf1ed8ded7f8b",
+          "bytes": 19780
+        },
+        {
+          "role": "replica",
+          "view": "Viz",
+          "view_id": "78dd7460-aad1-4244-a41b-ad20a0a18864",
+          "scope": "Complete customer-grain marks and coordinates; unique coincident coordinates independently prove all bucket dot counts, not only screenshot data.",
+          "path": "outputs/cloud-replica-viz-one-customer.csv",
+          "sha256": "b5a35b27c77e182639291e921e617cfbd121f28b13b935ed0c63beb8d50b7b12",
+          "bytes": 28628
+        }
+      ]
+    },
+    {
+      "name": "ten-customers",
+      "parameters": {
+        "pMarkIndicator": "10"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "7ecaae3f-f7a8-42fe-aefd-d007f3ea97f8",
+          "name": "2020_07_01_WW27_OrdersByCustomerDistribution",
+          "path": "outputs/cloud-author-ten-customers.png",
+          "sha256": "8cf0222e6ad3ebef4610f41b961a74273fdc985ffdd16f80280faa0b6b412322",
+          "size": [
+            1800,
+            1000
+          ]
+        },
+        "replica": {
+          "id": "ef81b603-7d0e-4421-9915-7f4a9f5106c7",
+          "name": "2020_07_01_WW27_OrdersByCustomerDistribution",
+          "path": "outputs/cloud-replica-ten-customers.png",
+          "sha256": "13dfe0e71923c32e97d931b6772e615f96ff815e23533c268a9af5a3f631658c",
+          "size": [
+            1800,
+            1000
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Viz",
+          "view_id": "e04fb0a4-9635-4a6e-8333-623462f21a1d",
+          "scope": "Complete customer-grain marks and coordinates; unique coincident coordinates independently prove all bucket dot counts, not only screenshot data.",
+          "path": "outputs/cloud-author-viz-ten-customers.csv",
+          "sha256": "e55379f745eec2feff7985a160656a9a2acb98b2da735adbd1940cfd3d517166",
+          "bytes": 19361
+        },
+        {
+          "role": "replica",
+          "view": "Viz",
+          "view_id": "78dd7460-aad1-4244-a41b-ad20a0a18864",
+          "scope": "Complete customer-grain marks and coordinates; unique coincident coordinates independently prove all bucket dot counts, not only screenshot data.",
+          "path": "outputs/cloud-replica-viz-ten-customers.csv",
+          "sha256": "ad7396b5998dd19f2c522514543f54aef94df607cb04bfde4caf770fea36ef10",
+          "bytes": 26945
+        }
+      ]
+    }
+  ],
+  "status": "verified",
+  "independent_review": {
+    "visual_status": "acceptable_delta",
+    "visual_evidence": "evidence/visual-review.md",
+    "functional_evidence": "evidence/functional-verification.json",
+    "scope": "Declared REST worksheet exports and artifact contracts; no browser events executed."
+  }
+}

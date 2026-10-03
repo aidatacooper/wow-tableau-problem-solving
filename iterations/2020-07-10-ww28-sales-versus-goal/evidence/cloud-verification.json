@@ -1,0 +1,487 @@
+{
+  "case_id": "wow-2020-ww28-sales-versus-goal",
+  "captured_at": "2026-10-03T15:07:16.470232+00:00",
+  "source_hashes": {
+    "author": "89d780c083e692a21eb4e7e03a1d5204bf0bdaf06983e81104bd3e373e078a71",
+    "replica": "5cddaace991779d88ae179d2d29387f2229c2c16cc0f63294cbc1e7579de6b2c"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "889ce339-1904-4afd-bb6c-1cfc9a677bb4",
+      "name": "cwtwb-review-wow-2020-ww28-sales-versus-goal-author-89d780c083e6",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2930453",
+      "views": [
+        {
+          "name": "2020_07_08_WW28_SalesvGoal_Relationships",
+          "id": "5aa50d56-f808-4ed1-b25e-ed749468edad"
+        },
+        {
+          "name": "Data",
+          "id": "12f480b1-afdc-4dba-b75e-bbc5b5e58b7f"
+        },
+        {
+          "name": "Barcode",
+          "id": "245045cd-a811-4b72-88e6-30083001c925"
+        },
+        {
+          "name": "Line Graph",
+          "id": "901dd5b0-c7b9-4a5d-8442-19f8abadf47f"
+        },
+        {
+          "name": "Table",
+          "id": "6d664000-ee0b-412d-958d-3f91328b8dbb"
+        }
+      ]
+    },
+    "replica": {
+      "id": "5c883570-3735-4ec6-b048-4e9e7c8839fc",
+      "name": "cwtwb-review-wow-2020-ww28-sales-versus-goal-replica-5cddaace9917",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2930530",
+      "views": [
+        {
+          "name": "Table",
+          "id": "48faff75-76c0-4114-99c1-75514ce0aeae"
+        },
+        {
+          "name": "Data",
+          "id": "3904d194-f006-45cf-b647-55eec34ab16f"
+        },
+        {
+          "name": "Line Graph",
+          "id": "d9858a71-2a82-4185-b388-b024402aac20"
+        },
+        {
+          "name": "Barcode",
+          "id": "8182c208-e983-4c0e-a47c-aea78e993eb9"
+        },
+        {
+          "name": "2020_07_08_WW28_SalesvGoal_Relationships",
+          "id": "8b9bf821-46d9-4f63-bf52-1b840a4dcae6"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "5aa50d56-f808-4ed1-b25e-ed749468edad",
+          "name": "2020_07_08_WW28_SalesvGoal_Relationships",
+          "path": "outputs/cloud-author.png",
+          "sha256": "e865c653fab8da678ed1e5dd2e73bed63386248478cf910f2c62da79884682bd",
+          "size": [
+            1600,
+            1800
+          ]
+        },
+        "replica": {
+          "id": "8b9bf821-46d9-4f63-bf52-1b840a4dcae6",
+          "name": "2020_07_08_WW28_SalesvGoal_Relationships",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "6bbab79c76726d7dd711f59af4b7f463d98f0af25d3a2fa7ffa224c83236336b",
+          "size": [
+            1600,
+            1800
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Table",
+          "view_id": "6d664000-ee0b-412d-958d-3f91328b8dbb",
+          "scope": "Full worksheet aggregate marks. Table is Segment/month; Data is Segment/Category/Subcategory/month including retained/hidden flags; Line is monthly actual/goal; Barcode is every monthly RAG status.",
+          "path": "outputs/cloud-author-table.csv",
+          "sha256": "4855589e4d14c2253ae79fb6697f24e46db028ca97552e8f9075032ddfe31829",
+          "bytes": 18038
+        },
+        {
+          "role": "author",
+          "view": "Data",
+          "view_id": "12f480b1-afdc-4dba-b75e-bbc5b5e58b7f",
+          "scope": "Full worksheet aggregate marks. Table is Segment/month; Data is Segment/Category/Subcategory/month including retained/hidden flags; Line is monthly actual/goal; Barcode is every monthly RAG status.",
+          "path": "outputs/cloud-author-data.csv",
+          "sha256": "705b0bc4e87c9208eb96764c0e88d58faa36134dc6940f1532ce110284ef3ce8",
+          "bytes": 1176557
+        },
+        {
+          "role": "author",
+          "view": "Line Graph",
+          "view_id": "901dd5b0-c7b9-4a5d-8442-19f8abadf47f",
+          "scope": "Full worksheet aggregate marks. Table is Segment/month; Data is Segment/Category/Subcategory/month including retained/hidden flags; Line is monthly actual/goal; Barcode is every monthly RAG status.",
+          "path": "outputs/cloud-author-line.csv",
+          "sha256": "7ebb179d06d2b5724a1659670138f3550beeb723da8d19433dd5c423856243b0",
+          "bytes": 3913
+        },
+        {
+          "role": "author",
+          "view": "Barcode",
+          "view_id": "245045cd-a811-4b72-88e6-30083001c925",
+          "scope": "Full worksheet aggregate marks. Table is Segment/month; Data is Segment/Category/Subcategory/month including retained/hidden flags; Line is monthly actual/goal; Barcode is every monthly RAG status.",
+          "path": "outputs/cloud-author-barcode.csv",
+          "sha256": "9de491ae51b71f5f6c1ccd463ca71b7d72260edc61a568aaa043a881ae53b991",
+          "bytes": 1821
+        },
+        {
+          "role": "replica",
+          "view": "Table",
+          "view_id": "48faff75-76c0-4114-99c1-75514ce0aeae",
+          "scope": "Full worksheet aggregate marks. Table is Segment/month; Data is Segment/Category/Subcategory/month including retained/hidden flags; Line is monthly actual/goal; Barcode is every monthly RAG status.",
+          "path": "outputs/cloud-replica-table.csv",
+          "sha256": "2ef8bdc4c93a565227ef828ba1f4b34c6212901817cbfb00c4f3055b9f7705bc",
+          "bytes": 24141
+        },
+        {
+          "role": "replica",
+          "view": "Data",
+          "view_id": "3904d194-f006-45cf-b647-55eec34ab16f",
+          "scope": "Full worksheet aggregate marks. Table is Segment/month; Data is Segment/Category/Subcategory/month including retained/hidden flags; Line is monthly actual/goal; Barcode is every monthly RAG status.",
+          "path": "outputs/cloud-replica-data.csv",
+          "sha256": "74786234bb386fd1bcc06b0b730098ee81ba37c178dd9f14b55dddd5e0b20c70",
+          "bytes": 1236740
+        },
+        {
+          "role": "replica",
+          "view": "Line Graph",
+          "view_id": "d9858a71-2a82-4185-b388-b024402aac20",
+          "scope": "Full worksheet aggregate marks. Table is Segment/month; Data is Segment/Category/Subcategory/month including retained/hidden flags; Line is monthly actual/goal; Barcode is every monthly RAG status.",
+          "path": "outputs/cloud-replica-line.csv",
+          "sha256": "ae234e2ae0cbdaf0f467cab7b1dfff922f25a1aa8d97a3e40d169599a297ff53",
+          "bytes": 10416
+        },
+        {
+          "role": "replica",
+          "view": "Barcode",
+          "view_id": "8182c208-e983-4c0e-a47c-aea78e993eb9",
+          "scope": "Full worksheet aggregate marks. Table is Segment/month; Data is Segment/Category/Subcategory/month including retained/hidden flags; Line is monthly actual/goal; Barcode is every monthly RAG status.",
+          "path": "outputs/cloud-replica-barcode.csv",
+          "sha256": "3999dbbab62b366234edcc9ecbf160a4b11f809fb5576b842c6a52a22d480aac",
+          "bytes": 3147
+        }
+      ]
+    },
+    {
+      "name": "home-office-furniture",
+      "parameters": {},
+      "filters": {
+        "SEGMENT": "Home Office",
+        "CATEGORY": "Furniture"
+      },
+      "views": {
+        "author": {
+          "id": "5aa50d56-f808-4ed1-b25e-ed749468edad",
+          "name": "2020_07_08_WW28_SalesvGoal_Relationships",
+          "path": "outputs/cloud-author-home-office-furniture.png",
+          "sha256": "27c78bfdce44054d6157abe79fed6cc9e3893e8cf0e2be23167336e791737e91",
+          "size": [
+            1600,
+            1800
+          ]
+        },
+        "replica": {
+          "id": "8b9bf821-46d9-4f63-bf52-1b840a4dcae6",
+          "name": "2020_07_08_WW28_SalesvGoal_Relationships",
+          "path": "outputs/cloud-replica-home-office-furniture.png",
+          "sha256": "1cc9e1df52d83f3f022657a62ccfda37af9f160ad2cada5bb49cc6ff24181367",
+          "size": [
+            1600,
+            1800
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Table",
+          "view_id": "6d664000-ee0b-412d-958d-3f91328b8dbb",
+          "scope": "Full worksheet aggregate marks. Table is Segment/month; Data is Segment/Category/Subcategory/month including retained/hidden flags; Line is monthly actual/goal; Barcode is every monthly RAG status.",
+          "path": "outputs/cloud-author-table-home-office-furniture.csv",
+          "sha256": "d006b33cea319c329f1884659d5bff733eaee3cb2c26845208f865d4ec71900b",
+          "bytes": 5895
+        },
+        {
+          "role": "author",
+          "view": "Data",
+          "view_id": "12f480b1-afdc-4dba-b75e-bbc5b5e58b7f",
+          "scope": "Full worksheet aggregate marks. Table is Segment/month; Data is Segment/Category/Subcategory/month including retained/hidden flags; Line is monthly actual/goal; Barcode is every monthly RAG status.",
+          "path": "outputs/cloud-author-data-home-office-furniture.csv",
+          "sha256": "3ba8769105f5955073961948d09c015a8f3af647c573910eb8a4d084a7afd231",
+          "bytes": 93736
+        },
+        {
+          "role": "author",
+          "view": "Line Graph",
+          "view_id": "901dd5b0-c7b9-4a5d-8442-19f8abadf47f",
+          "scope": "Full worksheet aggregate marks. Table is Segment/month; Data is Segment/Category/Subcategory/month including retained/hidden flags; Line is monthly actual/goal; Barcode is every monthly RAG status.",
+          "path": "outputs/cloud-author-line-home-office-furniture.csv",
+          "sha256": "adafe703babaf9c23b8bbae7bc042d17ec5f21c6e26b9c9a8036198e8de0f975",
+          "bytes": 3643
+        },
+        {
+          "role": "author",
+          "view": "Barcode",
+          "view_id": "245045cd-a811-4b72-88e6-30083001c925",
+          "scope": "Full worksheet aggregate marks. Table is Segment/month; Data is Segment/Category/Subcategory/month including retained/hidden flags; Line is monthly actual/goal; Barcode is every monthly RAG status.",
+          "path": "outputs/cloud-author-barcode-home-office-furniture.csv",
+          "sha256": "768e2f295e6c2987d7930c946e208a38071b540cfc2474514c3deda79199db36",
+          "bytes": 1804
+        },
+        {
+          "role": "replica",
+          "view": "Table",
+          "view_id": "48faff75-76c0-4114-99c1-75514ce0aeae",
+          "scope": "Full worksheet aggregate marks. Table is Segment/month; Data is Segment/Category/Subcategory/month including retained/hidden flags; Line is monthly actual/goal; Barcode is every monthly RAG status.",
+          "path": "outputs/cloud-replica-table-home-office-furniture.csv",
+          "sha256": "402721a55cf8679c14d3d80eef1da70b872c365a1dca5452f3ddbc751b353080",
+          "bytes": 7783
+        },
+        {
+          "role": "replica",
+          "view": "Data",
+          "view_id": "3904d194-f006-45cf-b647-55eec34ab16f",
+          "scope": "Full worksheet aggregate marks. Table is Segment/month; Data is Segment/Category/Subcategory/month including retained/hidden flags; Line is monthly actual/goal; Barcode is every monthly RAG status.",
+          "path": "outputs/cloud-replica-data-home-office-furniture.csv",
+          "sha256": "a4ddafcae1aeca74a787ed567dc007a5309c5cc73a2789547a25af7146e7242f",
+          "bytes": 98797
+        },
+        {
+          "role": "replica",
+          "view": "Line Graph",
+          "view_id": "d9858a71-2a82-4185-b388-b024402aac20",
+          "scope": "Full worksheet aggregate marks. Table is Segment/month; Data is Segment/Category/Subcategory/month including retained/hidden flags; Line is monthly actual/goal; Barcode is every monthly RAG status.",
+          "path": "outputs/cloud-replica-line-home-office-furniture.csv",
+          "sha256": "e4e45bceae08f9d261b78fde57873f738d6eac2df6649076f052ff72098d5514",
+          "bytes": 11060
+        },
+        {
+          "role": "replica",
+          "view": "Barcode",
+          "view_id": "8182c208-e983-4c0e-a47c-aea78e993eb9",
+          "scope": "Full worksheet aggregate marks. Table is Segment/month; Data is Segment/Category/Subcategory/month including retained/hidden flags; Line is monthly actual/goal; Barcode is every monthly RAG status.",
+          "path": "outputs/cloud-replica-barcode-home-office-furniture.csv",
+          "sha256": "e4b5be0fc7283e2e3af4372ae3e4b18692dd5ec6efe7b3d0542319764d544b2b",
+          "bytes": 2858
+        }
+      ]
+    },
+    {
+      "name": "bookcases",
+      "parameters": {},
+      "filters": {
+        "SUB-CATEGORY": "Bookcases"
+      },
+      "views": {
+        "author": {
+          "id": "5aa50d56-f808-4ed1-b25e-ed749468edad",
+          "name": "2020_07_08_WW28_SalesvGoal_Relationships",
+          "path": "outputs/cloud-author-bookcases.png",
+          "sha256": "9fd647f905181608cde71bc3df35a43208ae9c05873a3406640d3d1f892d076e",
+          "size": [
+            1600,
+            1800
+          ]
+        },
+        "replica": {
+          "id": "8b9bf821-46d9-4f63-bf52-1b840a4dcae6",
+          "name": "2020_07_08_WW28_SalesvGoal_Relationships",
+          "path": "outputs/cloud-replica-bookcases.png",
+          "sha256": "39f62e1d1c7b837601fd6c2d9a05ac6bdaa47ce628d5f0f791f7f92c73bbd4ff",
+          "size": [
+            1600,
+            1800
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Table",
+          "view_id": "6d664000-ee0b-412d-958d-3f91328b8dbb",
+          "scope": "Full worksheet aggregate marks. Table is Segment/month; Data is Segment/Category/Subcategory/month including retained/hidden flags; Line is monthly actual/goal; Barcode is every monthly RAG status.",
+          "path": "outputs/cloud-author-table-bookcases.csv",
+          "sha256": "24e7746eba940f12ec994ca47d58698cc4610ad99afd5802aad71d5a109a7ce2",
+          "bytes": 7111
+        },
+        {
+          "role": "author",
+          "view": "Data",
+          "view_id": "12f480b1-afdc-4dba-b75e-bbc5b5e58b7f",
+          "scope": "Full worksheet aggregate marks. Table is Segment/month; Data is Segment/Category/Subcategory/month including retained/hidden flags; Line is monthly actual/goal; Barcode is every monthly RAG status.",
+          "path": "outputs/cloud-author-data-bookcases.csv",
+          "sha256": "08ecc6eb66a80e9d766784ae62d19d9af9f6771edc35de0c4ef9b2774b05ea48",
+          "bytes": 42704
+        },
+        {
+          "role": "author",
+          "view": "Line Graph",
+          "view_id": "901dd5b0-c7b9-4a5d-8442-19f8abadf47f",
+          "scope": "Full worksheet aggregate marks. Table is Segment/month; Data is Segment/Category/Subcategory/month including retained/hidden flags; Line is monthly actual/goal; Barcode is every monthly RAG status.",
+          "path": "outputs/cloud-author-line-bookcases.csv",
+          "sha256": "e7e9a00847f6c88ae4da5732b9521a8171136e0c81cb5b1c56c66abf0bb5b635",
+          "bytes": 2613
+        },
+        {
+          "role": "author",
+          "view": "Barcode",
+          "view_id": "245045cd-a811-4b72-88e6-30083001c925",
+          "scope": "Full worksheet aggregate marks. Table is Segment/month; Data is Segment/Category/Subcategory/month including retained/hidden flags; Line is monthly actual/goal; Barcode is every monthly RAG status.",
+          "path": "outputs/cloud-author-barcode-bookcases.csv",
+          "sha256": "e69288cf0f2fbcd1032aff9b881d257eafdb4c0fafb2f4dc836df3fb45de0524",
+          "bytes": 1346
+        },
+        {
+          "role": "replica",
+          "view": "Table",
+          "view_id": "48faff75-76c0-4114-99c1-75514ce0aeae",
+          "scope": "Full worksheet aggregate marks. Table is Segment/month; Data is Segment/Category/Subcategory/month including retained/hidden flags; Line is monthly actual/goal; Barcode is every monthly RAG status.",
+          "path": "outputs/cloud-replica-table-bookcases.csv",
+          "sha256": "c27a877d205f33cb93c70139c38a78eb0044975566e7ae68da1ff7952c3b8179",
+          "bytes": 9470
+        },
+        {
+          "role": "replica",
+          "view": "Data",
+          "view_id": "3904d194-f006-45cf-b647-55eec34ab16f",
+          "scope": "Full worksheet aggregate marks. Table is Segment/month; Data is Segment/Category/Subcategory/month including retained/hidden flags; Line is monthly actual/goal; Barcode is every monthly RAG status.",
+          "path": "outputs/cloud-replica-data-bookcases.csv",
+          "sha256": "2ac1a8e33c8d10a134c644544ff29a0b21614e8a0c25ef2c022e13bd61ee8c14",
+          "bytes": 44801
+        },
+        {
+          "role": "replica",
+          "view": "Line Graph",
+          "view_id": "d9858a71-2a82-4185-b388-b024402aac20",
+          "scope": "Full worksheet aggregate marks. Table is Segment/month; Data is Segment/Category/Subcategory/month including retained/hidden flags; Line is monthly actual/goal; Barcode is every monthly RAG status.",
+          "path": "outputs/cloud-replica-line-bookcases.csv",
+          "sha256": "7b59084e16ece6c63cc6670e5c81ed6de78003bc4e2281c9653a8f57af5ba47f",
+          "bytes": 7930
+        },
+        {
+          "role": "replica",
+          "view": "Barcode",
+          "view_id": "8182c208-e983-4c0e-a47c-aea78e993eb9",
+          "scope": "Full worksheet aggregate marks. Table is Segment/month; Data is Segment/Category/Subcategory/month including retained/hidden flags; Line is monthly actual/goal; Barcode is every monthly RAG status.",
+          "path": "outputs/cloud-replica-barcode-bookcases.csv",
+          "sha256": "d49dc219eab4ece0164e6aec27ad4d4710bd419fb4b9b364514a64ed9a9b2498",
+          "bytes": 1963
+        }
+      ]
+    },
+    {
+      "name": "wide-thresholds",
+      "parameters": {
+        "GREEN (WITHIN X%)": "0.2",
+        "RED (ABOVE Y%)": "0.5"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "5aa50d56-f808-4ed1-b25e-ed749468edad",
+          "name": "2020_07_08_WW28_SalesvGoal_Relationships",
+          "path": "outputs/cloud-author-wide-thresholds.png",
+          "sha256": "0db08d905dd9216ca372c1697b3b8576a633ab0aed01afd5994488610d1f01fa",
+          "size": [
+            1600,
+            1800
+          ]
+        },
+        "replica": {
+          "id": "8b9bf821-46d9-4f63-bf52-1b840a4dcae6",
+          "name": "2020_07_08_WW28_SalesvGoal_Relationships",
+          "path": "outputs/cloud-replica-wide-thresholds.png",
+          "sha256": "383fe6696821996ffe50e0debe070861b51c8d1b31da72bae5115f13d252c76f",
+          "size": [
+            1600,
+            1800
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Table",
+          "view_id": "6d664000-ee0b-412d-958d-3f91328b8dbb",
+          "scope": "Full worksheet aggregate marks. Table is Segment/month; Data is Segment/Category/Subcategory/month including retained/hidden flags; Line is monthly actual/goal; Barcode is every monthly RAG status.",
+          "path": "outputs/cloud-author-table-wide-thresholds.csv",
+          "sha256": "4855589e4d14c2253ae79fb6697f24e46db028ca97552e8f9075032ddfe31829",
+          "bytes": 18038
+        },
+        {
+          "role": "author",
+          "view": "Data",
+          "view_id": "12f480b1-afdc-4dba-b75e-bbc5b5e58b7f",
+          "scope": "Full worksheet aggregate marks. Table is Segment/month; Data is Segment/Category/Subcategory/month including retained/hidden flags; Line is monthly actual/goal; Barcode is every monthly RAG status.",
+          "path": "outputs/cloud-author-data-wide-thresholds.csv",
+          "sha256": "705b0bc4e87c9208eb96764c0e88d58faa36134dc6940f1532ce110284ef3ce8",
+          "bytes": 1176557
+        },
+        {
+          "role": "author",
+          "view": "Line Graph",
+          "view_id": "901dd5b0-c7b9-4a5d-8442-19f8abadf47f",
+          "scope": "Full worksheet aggregate marks. Table is Segment/month; Data is Segment/Category/Subcategory/month including retained/hidden flags; Line is monthly actual/goal; Barcode is every monthly RAG status.",
+          "path": "outputs/cloud-author-line-wide-thresholds.csv",
+          "sha256": "7ebb179d06d2b5724a1659670138f3550beeb723da8d19433dd5c423856243b0",
+          "bytes": 3913
+        },
+        {
+          "role": "author",
+          "view": "Barcode",
+          "view_id": "245045cd-a811-4b72-88e6-30083001c925",
+          "scope": "Full worksheet aggregate marks. Table is Segment/month; Data is Segment/Category/Subcategory/month including retained/hidden flags; Line is monthly actual/goal; Barcode is every monthly RAG status.",
+          "path": "outputs/cloud-author-barcode-wide-thresholds.csv",
+          "sha256": "5073b459868c7d95ad522860c200998180fc49afd819688c1437d0f641512013",
+          "bytes": 1792
+        },
+        {
+          "role": "replica",
+          "view": "Table",
+          "view_id": "48faff75-76c0-4114-99c1-75514ce0aeae",
+          "scope": "Full worksheet aggregate marks. Table is Segment/month; Data is Segment/Category/Subcategory/month including retained/hidden flags; Line is monthly actual/goal; Barcode is every monthly RAG status.",
+          "path": "outputs/cloud-replica-table-wide-thresholds.csv",
+          "sha256": "2ef8bdc4c93a565227ef828ba1f4b34c6212901817cbfb00c4f3055b9f7705bc",
+          "bytes": 24141
+        },
+        {
+          "role": "replica",
+          "view": "Data",
+          "view_id": "3904d194-f006-45cf-b647-55eec34ab16f",
+          "scope": "Full worksheet aggregate marks. Table is Segment/month; Data is Segment/Category/Subcategory/month including retained/hidden flags; Line is monthly actual/goal; Barcode is every monthly RAG status.",
+          "path": "outputs/cloud-replica-data-wide-thresholds.csv",
+          "sha256": "74786234bb386fd1bcc06b0b730098ee81ba37c178dd9f14b55dddd5e0b20c70",
+          "bytes": 1236740
+        },
+        {
+          "role": "replica",
+          "view": "Line Graph",
+          "view_id": "d9858a71-2a82-4185-b388-b024402aac20",
+          "scope": "Full worksheet aggregate marks. Table is Segment/month; Data is Segment/Category/Subcategory/month including retained/hidden flags; Line is monthly actual/goal; Barcode is every monthly RAG status.",
+          "path": "outputs/cloud-replica-line-wide-thresholds.csv",
+          "sha256": "ae234e2ae0cbdaf0f467cab7b1dfff922f25a1aa8d97a3e40d169599a297ff53",
+          "bytes": 10416
+        },
+        {
+          "role": "replica",
+          "view": "Barcode",
+          "view_id": "8182c208-e983-4c0e-a47c-aea78e993eb9",
+          "scope": "Full worksheet aggregate marks. Table is Segment/month; Data is Segment/Category/Subcategory/month including retained/hidden flags; Line is monthly actual/goal; Barcode is every monthly RAG status.",
+          "path": "outputs/cloud-replica-barcode-wide-thresholds.csv",
+          "sha256": "cc045300bc2343101d1052c3ddc682e379ed83ad23156867364d99bdd3f8a683",
+          "bytes": 3118
+        }
+      ]
+    }
+  ],
+  "status": "verified",
+  "independent_review": {
+    "visual_status": "acceptable_delta",
+    "visual_evidence": "evidence/visual-review.md",
+    "functional_evidence": "evidence/functional-verification.json",
+    "scope": "Declared REST worksheet exports and artifact contracts; no browser events executed."
+  }
+}

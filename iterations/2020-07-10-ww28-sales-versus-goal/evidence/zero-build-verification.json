@@ -1,0 +1,9 @@
+{
+  "case_id": "2020-07-10-ww28-sales-versus-goal",
+  "sdk_commit": "cbe200a4a148f1825764de67bd3e8f0e6d01a113",
+  "builder_sha256": "cac10bc51d2a7b622aec11507b66d66ee6381f49d019fbc3a0a1db3450b29cb0",
+  "builder_hash_scope": "UTF-8 source text with universal newlines normalized to LF",
+  "result": "passed",
+  "initial_workbooks_available": 0,
+  "scope": "Copied only builder/verifier, metadata and locked inputs. Built from TWBEditor empty, then ran independent raw-data/artifact oracle without copied Cloud evidence or author workbooks."
+}

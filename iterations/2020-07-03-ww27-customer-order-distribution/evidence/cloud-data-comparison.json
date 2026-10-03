@@ -1,0 +1,35 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "path": "outputs/cloud-author-viz.csv",
+      "rows": 793,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-viz.csv",
+      "rows": 793,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-viz-one-customer.csv",
+      "rows": 793,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-viz-one-customer.csv",
+      "rows": 793,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-viz-ten-customers.csv",
+      "rows": 793,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-viz-ten-customers.csv",
+      "rows": 793,
+      "status": "pass"
+    }
+  ]
+}

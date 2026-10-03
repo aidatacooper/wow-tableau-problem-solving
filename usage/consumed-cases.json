@@ -633,6 +633,61 @@
       "reason": "Derived from case metadata; consumed means claimed, not verified completed."
     },
     {
+      "case_id": "wow-2020-ww25-pizza-toppings-set-actions",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-06-20-ww25-pizza-toppings-set-actions",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2020-ww26-fiscal-year-reporting",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-06-27-ww26-fiscal-year-reporting",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2020-ww27-customer-order-distribution",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-07-03-ww27-customer-order-distribution",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2020-ww28-sales-versus-goal",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-07-10-ww28-sales-versus-goal",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2020-ww29-dynamic-heatmap-labels",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-07-18-ww29-dynamic-heatmap-labels",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
       "case_id": "wow-2026-ww04-dynamic-moving-average",
       "legacy_case_ids": {
         "donna-2026-02-02-5ebab8421caf": "wow-2026-ww04-dynamic-moving-average"

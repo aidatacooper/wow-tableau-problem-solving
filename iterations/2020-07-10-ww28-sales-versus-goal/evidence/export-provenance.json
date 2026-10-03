@@ -1,0 +1,11 @@
+{
+  "original_sha256": "270581368fa7af9e192262c6ebc99b4b17d02e9eb89125f02561048f0eee74fc",
+  "comparison_sha256": "89d780c083e692a21eb4e7e03a1d5204bf0bdaf06983e81104bd3e373e078a71",
+  "transformation": "Only change hidden worksheet windows hidden=true to false; formulas, dashboard layout and data remain unchanged.",
+  "exposed_worksheets": [
+    "Barcode",
+    "Line Graph",
+    "Table"
+  ],
+  "browser_interaction_executed": false
+}

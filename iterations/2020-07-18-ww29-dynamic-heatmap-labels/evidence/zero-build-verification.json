@@ -1,0 +1,9 @@
+{
+  "case_id": "2020-07-18-ww29-dynamic-heatmap-labels",
+  "sdk_commit": "cbe200a4a148f1825764de67bd3e8f0e6d01a113",
+  "builder_sha256": "a803d75f65b70fdbaed2c9e098f559b77eebc089faa350e0d2bdd196dc09955a",
+  "builder_hash_scope": "UTF-8 source text with universal newlines normalized to LF",
+  "result": "passed",
+  "initial_workbooks_available": 0,
+  "scope": "Copied only builder/verifier, metadata and locked inputs. Built from TWBEditor empty, then ran independent raw-data/artifact oracle without copied Cloud evidence or author workbooks."
+}

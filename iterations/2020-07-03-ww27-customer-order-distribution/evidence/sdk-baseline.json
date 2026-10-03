@@ -1,0 +1,7 @@
+{
+  "commit": "56377c5b170f0df1f5cd853fc483de26962dfed1",
+  "version": "0.27.1",
+  "result": "pass",
+  "validation": "Built public API artifact and independent raw Hyper oracle.",
+  "sdk_pytest_claim": null
+}

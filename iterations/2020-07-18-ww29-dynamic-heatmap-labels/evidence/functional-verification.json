@@ -1,0 +1,755 @@
+{
+  "status": "passed",
+  "artifact_sha256": "1343cfaad594d40473768073eb61ba4fefea5d0f9c8d13a350dd0145152099b0",
+  "raw_rows": 9994,
+  "grid_cells": 48,
+  "total_cells": 17,
+  "acceptance_ids": [
+    "ww29-heatmap-oracle",
+    "ww29-independent-size-addressing",
+    "ww29-hover-action-contract",
+    "ww29-native-totals",
+    "ww29-cloud-matrix"
+  ],
+  "oracle": [
+    {
+      "year": "2016",
+      "month": "April",
+      "quantity": 3.9703703703703703,
+      "total_label": null,
+      "cell_label": null,
+      "profit_ratio": 0.123300677196196,
+      "row_count": 135,
+      "visual_average": 3.9703703703703703
+    },
+    {
+      "year": "2016",
+      "month": "August",
+      "quantity": 3.980392156862745,
+      "total_label": null,
+      "cell_label": null,
+      "profit_ratio": 0.19054841549562296,
+      "row_count": 153,
+      "visual_average": 3.980392156862745
+    },
+    {
+      "year": "2016",
+      "month": "December",
+      "quantity": 3.881294964028777,
+      "total_label": null,
+      "cell_label": null,
+      "profit_ratio": 0.12917520665445778,
+      "row_count": 278,
+      "visual_average": 3.881294964028777
+    },
+    {
+      "year": "2016",
+      "month": "February",
+      "quantity": 3.4565217391304346,
+      "total_label": null,
+      "cell_label": null,
+      "profit_ratio": 0.19078075316843857,
+      "row_count": 46,
+      "visual_average": 3.4565217391304346
+    },
+    {
+      "year": "2016",
+      "month": "January",
+      "quantity": 3.5949367088607596,
+      "total_label": null,
+      "cell_label": null,
+      "profit_ratio": 0.1721014799926529,
+      "row_count": 79,
+      "visual_average": 3.5949367088607596
+    },
+    {
+      "year": "2016",
+      "month": "July",
+      "quantity": 3.8461538461538463,
+      "total_label": null,
+      "cell_label": null,
+      "profit_ratio": -0.02478857179318,
+      "row_count": 143,
+      "visual_average": 3.8461538461538463
+    },
+    {
+      "year": "2016",
+      "month": "June",
+      "quantity": 3.859259259259259,
+      "total_label": null,
+      "cell_label": null,
+      "profit_ratio": 0.14385044210676645,
+      "row_count": 135,
+      "visual_average": 3.859259259259259
+    },
+    {
+      "year": "2016",
+      "month": "March",
+      "quantity": 3.7261146496815285,
+      "total_label": null,
+      "cell_label": null,
+      "profit_ratio": 0.008955303718774375,
+      "row_count": 157,
+      "visual_average": 3.7261146496815285
+    },
+    {
+      "year": "2016",
+      "month": "May",
+      "quantity": 3.819672131147541,
+      "total_label": null,
+      "cell_label": null,
+      "profit_ratio": 0.11581006269079865,
+      "row_count": 122,
+      "visual_average": 3.819672131147541
+    },
+    {
+      "year": "2016",
+      "month": "November",
+      "quantity": 3.8333333333333335,
+      "total_label": null,
+      "cell_label": null,
+      "profit_ratio": 0.11817726766994278,
+      "row_count": 318,
+      "visual_average": 3.8333333333333335
+    },
+    {
+      "year": "2016",
+      "month": "October",
+      "quantity": 3.6037735849056602,
+      "total_label": null,
+      "cell_label": null,
+      "profit_ratio": 0.10963069389683965,
+      "row_count": 159,
+      "visual_average": 3.6037735849056602
+    },
+    {
+      "year": "2016",
+      "month": "September",
+      "quantity": 3.7313432835820897,
+      "total_label": null,
+      "cell_label": null,
+      "profit_ratio": 0.10183870373066664,
+      "row_count": 268,
+      "visual_average": 3.7313432835820897
+    },
+    {
+      "year": "2016",
+      "month": "Total",
+      "quantity": 3.8038133467134974,
+      "total_label": 3.8038133467134974,
+      "cell_label": null,
+      "profit_ratio": 0.10231126499236703,
+      "row_count": 1993,
+      "visual_average": 3.7752638356096946
+    },
+    {
+      "year": "2017",
+      "month": "April",
+      "quantity": 3.39375,
+      "total_label": null,
+      "cell_label": null,
+      "profit_ratio": 0.12245856608828684,
+      "row_count": 160,
+      "visual_average": 3.39375
+    },
+    {
+      "year": "2017",
+      "month": "August",
+      "quantity": 3.761006289308176,
+      "total_label": null,
+      "cell_label": null,
+      "profit_ratio": 0.14515041956286573,
+      "row_count": 159,
+      "visual_average": 3.761006289308176
+    },
+    {
+      "year": "2017",
+      "month": "December",
+      "quantity": 3.8069620253164556,
+      "total_label": null,
+      "cell_label": null,
+      "profit_ratio": 0.10700770335408923,
+      "row_count": 316,
+      "visual_average": 3.8069620253164556
+    },
+    {
+      "year": "2017",
+      "month": "February",
+      "quantity": 3.734375,
+      "total_label": null,
+      "cell_label": null,
+      "profit_ratio": 0.2354408864359195,
+      "row_count": 64,
+      "visual_average": 3.734375
+    },
+    {
+      "year": "2017",
+      "month": "January",
+      "quantity": 4.068965517241379,
+      "total_label": null,
+      "cell_label": null,
+      "profit_ratio": -0.18053226322003418,
+      "row_count": 58,
+      "visual_average": 4.068965517241379
+    },
+    {
+      "year": "2017",
+      "month": "July",
+      "quantity": 3.9785714285714286,
+      "total_label": null,
+      "cell_label": null,
+      "profit_ratio": 0.11432682578764529,
+      "row_count": 140,
+      "visual_average": 3.9785714285714286
+    },
+    {
+      "year": "2017",
+      "month": "June",
+      "quantity": 3.5217391304347827,
+      "total_label": null,
+      "cell_label": null,
+      "profit_ratio": 0.1345129621411886,
+      "row_count": 138,
+      "visual_average": 3.5217391304347827
+    },
+    {
+      "year": "2017",
+      "month": "March",
+      "quantity": 3.7318840579710146,
+      "total_label": null,
+      "cell_label": null,
+      "profit_ratio": 0.2513049235954979,
+      "row_count": 138,
+      "visual_average": 3.7318840579710146
+    },
+    {
+      "year": "2017",
+      "month": "May",
+      "quantity": 3.9383561643835616,
+      "total_label": null,
+      "cell_label": null,
+      "profit_ratio": 0.15491562345838156,
+      "row_count": 146,
+      "visual_average": 3.9383561643835616
+    },
+    {
+      "year": "2017",
+      "month": "November",
+      "quantity": 4.04320987654321,
+      "total_label": null,
+      "cell_label": null,
+      "profit_ratio": 0.16420123035600878,
+      "row_count": 324,
+      "visual_average": 4.04320987654321
+    },
+    {
+      "year": "2017",
+      "month": "October",
+      "quantity": 3.8012048192771086,
+      "total_label": null,
+      "cell_label": null,
+      "profit_ratio": 0.08971096522492716,
+      "row_count": 166,
+      "visual_average": 3.8012048192771086
+    },
+    {
+      "year": "2017",
+      "month": "September",
+      "quantity": 3.7064846416382253,
+      "total_label": null,
+      "cell_label": null,
+      "profit_ratio": 0.12708485232766573,
+      "row_count": 293,
+      "visual_average": 3.7064846416382253
+    },
+    {
+      "year": "2017",
+      "month": "Total",
+      "quantity": 3.7959086584205517,
+      "total_label": 3.7959086584205517,
+      "cell_label": null,
+      "profit_ratio": 0.1309550403455757,
+      "row_count": 2102,
+      "visual_average": 3.790542412557112
+    },
+    {
+      "year": "2018",
+      "month": "April",
+      "quantity": 3.735294117647059,
+      "total_label": null,
+      "cell_label": null,
+      "profit_ratio": 0.0768467587864879,
+      "row_count": 170,
+      "visual_average": 3.735294117647059
+    },
+    {
+      "year": "2018",
+      "month": "August",
+      "quantity": 3.9375,
+      "total_label": null,
+      "cell_label": null,
+      "profit_ratio": 0.06627171764409721,
+      "row_count": 176,
+      "visual_average": 3.9375
+    },
+    {
+      "year": "2018",
+      "month": "December",
+      "quantity": 4.017045454545454,
+      "total_label": null,
+      "cell_label": null,
+      "profit_ratio": 0.18438645111168792,
+      "row_count": 352,
+      "visual_average": 4.017045454545454
+    },
+    {
+      "year": "2018",
+      "month": "February",
+      "quantity": 3.6867469879518073,
+      "total_label": null,
+      "cell_label": null,
+      "profit_ratio": 0.2177910175089534,
+      "row_count": 83,
+      "visual_average": 3.6867469879518073
+    },
+    {
+      "year": "2018",
+      "month": "January",
+      "quantity": 4.022471910112359,
+      "total_label": null,
+      "cell_label": null,
+      "profit_ratio": 0.15234324773300417,
+      "row_count": 89,
+      "visual_average": 4.022471910112359
+    },
+    {
+      "year": "2018",
+      "month": "July",
+      "quantity": 3.771144278606965,
+      "total_label": null,
+      "cell_label": null,
+      "profit_ratio": 0.11290515199150884,
+      "row_count": 201,
+      "visual_average": 3.771144278606965
+    },
+    {
+      "year": "2018",
+      "month": "June",
+      "quantity": 3.728643216080402,
+      "total_label": null,
+      "cell_label": null,
+      "profit_ratio": 0.1177452712677261,
+      "row_count": 199,
+      "visual_average": 3.728643216080402
+    },
+    {
+      "year": "2018",
+      "month": "March",
+      "quantity": 3.5521472392638036,
+      "total_label": null,
+      "cell_label": null,
+      "profit_ratio": 0.06984253867888726,
+      "row_count": 163,
+      "visual_average": 3.5521472392638036
+    },
+    {
+      "year": "2018",
+      "month": "May",
+      "quantity": 3.8355555555555556,
+      "total_label": null,
+      "cell_label": null,
+      "profit_ratio": 0.15200020607945625,
+      "row_count": 225,
+      "visual_average": 3.8355555555555556
+    },
+    {
+      "year": "2018",
+      "month": "November",
+      "quantity": 3.8,
+      "total_label": null,
+      "cell_label": null,
+      "profit_ratio": 0.050513892454227556,
+      "row_count": 370,
+      "visual_average": 3.8
+    },
+    {
+      "year": "2018",
+      "month": "October",
+      "quantity": 3.913265306122449,
+      "total_label": null,
+      "cell_label": null,
+      "profit_ratio": 0.2721353018111172,
+      "row_count": 196,
+      "visual_average": 3.913265306122449
+    },
+    {
+      "year": "2018",
+      "month": "September",
+      "quantity": 3.62534435261708,
+      "total_label": null,
+      "cell_label": null,
+      "profit_ratio": 0.12707607186767217,
+      "row_count": 363,
+      "visual_average": 3.62534435261708
+    },
+    {
+      "year": "2018",
+      "month": "Total",
+      "quantity": 3.8024739080015464,
+      "total_label": 3.8024739080015464,
+      "cell_label": null,
+      "profit_ratio": 0.13426530315632432,
+      "row_count": 2587,
+      "visual_average": 3.8020965348752447
+    },
+    {
+      "year": "2019",
+      "month": "April",
+      "quantity": 3.6108374384236455,
+      "total_label": null,
+      "cell_label": null,
+      "profit_ratio": 0.02555451110940533,
+      "row_count": 203,
+      "visual_average": 3.6108374384236455
+    },
+    {
+      "year": "2019",
+      "month": "August",
+      "quantity": 4.055045871559633,
+      "total_label": null,
+      "cell_label": null,
+      "profit_ratio": 0.14323239083708705,
+      "row_count": 218,
+      "visual_average": 4.055045871559633
+    },
+    {
+      "year": "2019",
+      "month": "December",
+      "quantity": 3.7294372294372296,
+      "total_label": null,
+      "cell_label": null,
+      "profit_ratio": 0.10119784964780133,
+      "row_count": 462,
+      "visual_average": 3.7294372294372296
+    },
+    {
+      "year": "2019",
+      "month": "February",
+      "quantity": 3.392523364485981,
+      "total_label": null,
+      "cell_label": null,
+      "profit_ratio": 0.07949664524641761,
+      "row_count": 107,
+      "visual_average": 3.392523364485981
+    },
+    {
+      "year": "2019",
+      "month": "January",
+      "quantity": 3.8516129032258064,
+      "total_label": null,
+      "cell_label": null,
+      "profit_ratio": 0.16238835520582096,
+      "row_count": 155,
+      "visual_average": 3.8516129032258064
+    },
+    {
+      "year": "2019",
+      "month": "July",
+      "quantity": 3.7168141592920354,
+      "total_label": null,
+      "cell_label": null,
+      "profit_ratio": 0.1536001524906452,
+      "row_count": 226,
+      "visual_average": 3.7168141592920354
+    },
+    {
+      "year": "2019",
+      "month": "June",
+      "quantity": 3.8,
+      "total_label": null,
+      "cell_label": null,
+      "profit_ratio": 0.15521079374732397,
+      "row_count": 245,
+      "visual_average": 3.8
+    },
+    {
+      "year": "2019",
+      "month": "March",
+      "quantity": 3.7184873949579833,
+      "total_label": null,
+      "cell_label": null,
+      "profit_ratio": 0.2505741795323663,
+      "row_count": 238,
+      "visual_average": 3.7184873949579833
+    },
+    {
+      "year": "2019",
+      "month": "May",
+      "quantity": 3.665289256198347,
+      "total_label": null,
+      "cell_label": null,
+      "profit_ratio": 0.14329922524175626,
+      "row_count": 242,
+      "visual_average": 3.665289256198347
+    },
+    {
+      "year": "2019",
+      "month": "November",
+      "quantity": 4.008714596949891,
+      "total_label": null,
+      "cell_label": null,
+      "profit_ratio": 0.08180904714797434,
+      "row_count": 459,
+      "visual_average": 4.008714596949891
+    },
+    {
+      "year": "2019",
+      "month": "October",
+      "quantity": 3.802013422818792,
+      "total_label": null,
+      "cell_label": null,
+      "profit_ratio": 0.11925485244703021,
+      "row_count": 298,
+      "visual_average": 3.802013422818792
+    },
+    {
+      "year": "2019",
+      "month": "September",
+      "quantity": 3.616557734204793,
+      "total_label": null,
+      "cell_label": null,
+      "profit_ratio": 0.12509359751182972,
+      "row_count": 459,
+      "visual_average": 3.616557734204793
+    },
+    {
+      "year": "2019",
+      "month": "Total",
+      "quantity": 3.7669082125603865,
+      "total_label": 3.7669082125603865,
+      "cell_label": null,
+      "profit_ratio": 0.12743770528139434,
+      "row_count": 3312,
+      "visual_average": 3.7472777809628446
+    },
+    {
+      "year": "Total",
+      "month": "April",
+      "quantity": 3.663173652694611,
+      "total_label": 3.663173652694611,
+      "cell_label": null,
+      "profit_ratio": 0.08411191390374609,
+      "row_count": 668,
+      "visual_average": 3.677562981610268
+    },
+    {
+      "year": "Total",
+      "month": "August",
+      "quantity": 3.943342776203966,
+      "total_label": 3.943342776203966,
+      "cell_label": null,
+      "profit_ratio": 0.13692393157737662,
+      "row_count": 706,
+      "visual_average": 3.9334860794326385
+    },
+    {
+      "year": "Total",
+      "month": "December",
+      "quantity": 3.848721590909091,
+      "total_label": 3.848721590909091,
+      "cell_label": null,
+      "profit_ratio": 0.1333232647850895,
+      "row_count": 1408,
+      "visual_average": 3.858684918331979
+    },
+    {
+      "year": "Total",
+      "month": "February",
+      "quantity": 3.5566666666666666,
+      "total_label": 3.5566666666666666,
+      "cell_label": null,
+      "profit_ratio": 0.17229113129503437,
+      "row_count": 300,
+      "visual_average": 3.5675417728920555
+    },
+    {
+      "year": "Total",
+      "month": "January",
+      "quantity": 3.8713910761154855,
+      "total_label": 3.8713910761154855,
+      "cell_label": null,
+      "profit_ratio": 0.09622820036782866,
+      "row_count": 381,
+      "visual_average": 3.884496759860076
+    },
+    {
+      "year": "Total",
+      "month": "July",
+      "quantity": 3.8098591549295775,
+      "total_label": 3.8098591549295775,
+      "cell_label": null,
+      "profit_ratio": 0.09394759292494799,
+      "row_count": 710,
+      "visual_average": 3.828170928156069
+    },
+    {
+      "year": "Total",
+      "month": "June",
+      "quantity": 3.7377963737796374,
+      "total_label": 3.7377963737796374,
+      "cell_label": null,
+      "profit_ratio": 0.13937912177845835,
+      "row_count": 717,
+      "visual_average": 3.727410401443611
+    },
+    {
+      "year": "Total",
+      "month": "March",
+      "quantity": 3.6839080459770117,
+      "total_label": 3.6839080459770117,
+      "cell_label": null,
+      "profit_ratio": 0.13948254443029323,
+      "row_count": 696,
+      "visual_average": 3.682158335468583
+    },
+    {
+      "year": "Total",
+      "month": "May",
+      "quantity": 3.797278911564626,
+      "total_label": 3.797278911564626,
+      "cell_label": null,
+      "profit_ratio": 0.14456221107705244,
+      "row_count": 735,
+      "visual_average": 3.8147182768212513
+    },
+    {
+      "year": "Total",
+      "month": "November",
+      "quantity": 3.9259007477906187,
+      "total_label": 3.9259007477906187,
+      "cell_label": null,
+      "profit_ratio": 0.10063076299282994,
+      "row_count": 1471,
+      "visual_average": 3.9213144517066088
+    },
+    {
+      "year": "Total",
+      "month": "October",
+      "quantity": 3.78998778998779,
+      "total_label": 3.78998778998779,
+      "cell_label": null,
+      "profit_ratio": 0.1586639763160439,
+      "row_count": 819,
+      "visual_average": 3.7800642832810025
+    },
+    {
+      "year": "Total",
+      "month": "September",
+      "quantity": 3.6601590744757773,
+      "total_label": 3.6601590744757773,
+      "cell_label": null,
+      "profit_ratio": 0.11980328881949817,
+      "row_count": 1383,
+      "visual_average": 3.669932503010547
+    },
+    {
+      "year": "Total",
+      "month": "Total",
+      "quantity": 3.789573744246548,
+      "total_label": 3.789573744246548,
+      "cell_label": null,
+      "profit_ratio": 0.12467217240315911,
+      "row_count": 9994,
+      "visual_average": 3.7787951410012233
+    }
+  ],
+  "synthetic_hover_scope": "Independent formula oracle: selected month AND year shows just their cell for full grid; cleared sets suppress all interior labels; SIZE=1 suppresses Cell Label and enables Total Label. No browser event execution claimed.",
+  "hover_formula_cases": [
+    {
+      "months": [],
+      "years": [],
+      "expected_interior_labels": 0,
+      "evaluation": "Independent set-membership formula oracle, no event executed"
+    },
+    {
+      "months": [
+        "January"
+      ],
+      "years": [
+        "2019"
+      ],
+      "expected_interior_labels": 1,
+      "evaluation": "Independent set-membership formula oracle, no event executed"
+    },
+    {
+      "months": [
+        "February",
+        "January"
+      ],
+      "years": [
+        "2018",
+        "2019"
+      ],
+      "expected_interior_labels": 4,
+      "evaluation": "Independent set-membership formula oracle, no event executed"
+    }
+  ],
+  "cloud_checks": [
+    {
+      "state": "default",
+      "role": "author",
+      "cells_checked": 65,
+      "total_cells_exported": 17,
+      "scope": "All exported heatmap cells checked against raw data; totals included only when present in REST CSV. Stored empty sets and filter states do not execute hover."
+    },
+    {
+      "state": "default",
+      "role": "replica",
+      "cells_checked": 65,
+      "total_cells_exported": 17,
+      "scope": "All exported heatmap cells checked against raw data; totals included only when present in REST CSV. Stored empty sets and filter states do not execute hover."
+    },
+    {
+      "state": "year-2019",
+      "role": "author",
+      "cells_checked": 26,
+      "total_cells_exported": 14,
+      "scope": "All exported heatmap cells checked against raw data; totals included only when present in REST CSV. Stored empty sets and filter states do not execute hover."
+    },
+    {
+      "state": "year-2019",
+      "role": "replica",
+      "cells_checked": 26,
+      "total_cells_exported": 14,
+      "scope": "All exported heatmap cells checked against raw data; totals included only when present in REST CSV. Stored empty sets and filter states do not execute hover."
+    },
+    {
+      "state": "january",
+      "role": "author",
+      "cells_checked": 10,
+      "total_cells_exported": 6,
+      "scope": "All exported heatmap cells checked against raw data; totals included only when present in REST CSV. Stored empty sets and filter states do not execute hover."
+    },
+    {
+      "state": "january",
+      "role": "replica",
+      "cells_checked": 10,
+      "total_cells_exported": 6,
+      "scope": "All exported heatmap cells checked against raw data; totals included only when present in REST CSV. Stored empty sets and filter states do not execute hover."
+    },
+    {
+      "state": "single-cell",
+      "role": "author",
+      "cells_checked": 4,
+      "total_cells_exported": 3,
+      "scope": "All exported heatmap cells checked against raw data; totals included only when present in REST CSV. Stored empty sets and filter states do not execute hover."
+    },
+    {
+      "state": "single-cell",
+      "role": "replica",
+      "cells_checked": 4,
+      "total_cells_exported": 3,
+      "scope": "All exported heatmap cells checked against raw data; totals included only when present in REST CSV. Stored empty sets and filter states do not execute hover."
+    }
+  ]
+}

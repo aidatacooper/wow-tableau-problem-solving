@@ -1,0 +1,433 @@
+Measure Names,MONTH,SEGMENT,At Lowest Level,Max Sub-Cats in Window,Records to Show,Measure Values
+SALES GOAL,January 2017,Consumer,False,17,True,"15,125"
+ACTUAL SALES,January 2017,Consumer,False,17,True,"14,274.9836"
+RESULT,January 2017,Consumer,False,17,True,-850.016400000
+SALES GOAL,January 2017,Corporate,False,17,True,"4,628"
+ACTUAL SALES,January 2017,Corporate,False,17,True,"3,382.464"
+RESULT,January 2017,Corporate,False,17,True,"-1,245.536"
+SALES GOAL,January 2017,Home Office,False,16,True,743
+ACTUAL SALES,January 2017,Home Office,False,16,True,516.628
+RESULT,January 2017,Home Office,False,16,True,-226.372
+SALES GOAL,February 2017,Consumer,False,17,True,"8,169"
+ACTUAL SALES,February 2017,Consumer,False,17,True,"9,269.018"
+RESULT,February 2017,Consumer,False,17,True,"1,100.018"
+SALES GOAL,February 2017,Corporate,False,17,True,"3,120"
+ACTUAL SALES,February 2017,Corporate,False,17,True,"2,565.257"
+RESULT,February 2017,Corporate,False,17,True,-554.743
+SALES GOAL,February 2017,Home Office,False,16,True,101
+ACTUAL SALES,February 2017,Home Office,False,16,True,117.136
+RESULT,February 2017,Home Office,False,16,True,16.136
+SALES GOAL,March 2017,Consumer,False,17,True,"21,940"
+ACTUAL SALES,March 2017,Consumer,False,17,True,"17,418.89"
+RESULT,March 2017,Consumer,False,17,True,"-4,521.110000000"
+SALES GOAL,March 2017,Corporate,False,17,True,"19,213"
+ACTUAL SALES,March 2017,Corporate,False,17,True,"16,332.0184"
+RESULT,March 2017,Corporate,False,17,True,"-2,880.9816"
+SALES GOAL,March 2017,Home Office,False,16,True,"3,947"
+ACTUAL SALES,March 2017,Home Office,False,16,True,"4,975.3436"
+RESULT,March 2017,Home Office,False,16,True,"1,028.3436"
+SALES GOAL,April 2017,Consumer,False,17,True,"23,663"
+ACTUAL SALES,April 2017,Consumer,False,17,True,"22,626.4055"
+RESULT,April 2017,Consumer,False,17,True,"-1,036.5945"
+SALES GOAL,April 2017,Corporate,False,17,True,"3,716"
+ACTUAL SALES,April 2017,Corporate,False,17,True,"4,121.044"
+RESULT,April 2017,Corporate,False,17,True,405.044
+SALES GOAL,April 2017,Home Office,False,16,True,"8,048"
+ACTUAL SALES,April 2017,Home Office,False,16,True,"7,447.759"
+RESULT,April 2017,Home Office,False,16,True,-600.241000000
+SALES GOAL,May 2017,Consumer,False,17,True,"23,865"
+ACTUAL SALES,May 2017,Consumer,False,17,True,"20,879.179"
+RESULT,May 2017,Consumer,False,17,True,"-2,985.821"
+SALES GOAL,May 2017,Corporate,False,17,True,"7,272"
+ACTUAL SALES,May 2017,Corporate,False,17,True,"5,454.9395"
+RESULT,May 2017,Corporate,False,17,True,"-1,817.0605"
+SALES GOAL,May 2017,Home Office,False,16,True,"4,144"
+ACTUAL SALES,May 2017,Home Office,False,16,True,"3,797.568"
+RESULT,May 2017,Home Office,False,16,True,-346.432
+SALES GOAL,June 2017,Consumer,False,17,True,"12,562"
+ACTUAL SALES,June 2017,Consumer,False,17,True,"12,824.504"
+RESULT,June 2017,Consumer,False,17,True,262.504000000
+SALES GOAL,June 2017,Corporate,False,17,True,"11,463"
+ACTUAL SALES,June 2017,Corporate,False,17,True,"9,404.089"
+RESULT,June 2017,Corporate,False,17,True,"-2,058.911"
+SALES GOAL,June 2017,Home Office,False,16,True,"2,942"
+ACTUAL SALES,June 2017,Home Office,False,16,True,"2,568.699"
+RESULT,June 2017,Home Office,False,16,True,-373.301
+SALES GOAL,July 2017,Consumer,False,17,True,"24,357"
+ACTUAL SALES,July 2017,Consumer,False,17,True,"19,948.813"
+RESULT,July 2017,Consumer,False,17,True,"-4,408.187"
+SALES GOAL,July 2017,Corporate,False,17,True,"8,685"
+ACTUAL SALES,July 2017,Corporate,False,17,True,"7,191.7"
+RESULT,July 2017,Corporate,False,17,True,"-1,493.3"
+SALES GOAL,July 2017,Home Office,False,16,True,"2,360"
+ACTUAL SALES,July 2017,Home Office,False,16,True,"1,624.812"
+RESULT,July 2017,Home Office,False,16,True,-735.188
+SALES GOAL,August 2017,Consumer,False,17,True,"25,708"
+ACTUAL SALES,August 2017,Consumer,False,17,True,"20,589.835"
+RESULT,August 2017,Consumer,False,17,True,"-5,118.165"
+SALES GOAL,August 2017,Corporate,False,17,True,"10,028"
+ACTUAL SALES,August 2017,Corporate,False,17,True,"11,455.7592"
+RESULT,August 2017,Corporate,False,17,True,"1,427.7592"
+SALES GOAL,August 2017,Home Office,False,16,True,"4,841"
+ACTUAL SALES,August 2017,Home Office,False,16,True,"4,852.738"
+RESULT,August 2017,Home Office,False,16,True,11.738000000
+SALES GOAL,September 2017,Consumer,False,17,True,"52,357"
+ACTUAL SALES,September 2017,Consumer,False,17,True,"38,860.273"
+RESULT,September 2017,Consumer,False,17,True,"-13,496.727"
+SALES GOAL,September 2017,Corporate,False,17,True,"21,861"
+ACTUAL SALES,September 2017,Corporate,False,17,True,"16,604.561"
+RESULT,September 2017,Corporate,False,17,True,"-5,256.439000000"
+SALES GOAL,September 2017,Home Office,False,16,True,"11,680"
+ACTUAL SALES,September 2017,Home Office,False,16,True,"9,131.084"
+RESULT,September 2017,Home Office,False,16,True,"-2,548.916"
+SALES GOAL,October 2017,Consumer,False,17,True,"19,269"
+ACTUAL SALES,October 2017,Consumer,False,17,True,"17,128.8685"
+RESULT,October 2017,Consumer,False,17,True,"-2,140.1315"
+SALES GOAL,October 2017,Corporate,False,17,True,"9,829"
+ACTUAL SALES,October 2017,Corporate,False,17,True,"8,646.369"
+RESULT,October 2017,Corporate,False,17,True,"-1,182.631"
+SALES GOAL,October 2017,Home Office,False,16,True,"4,692"
+ACTUAL SALES,October 2017,Home Office,False,16,True,"5,629.686"
+RESULT,October 2017,Home Office,False,16,True,937.686
+SALES GOAL,November 2017,Consumer,False,17,True,"35,217"
+ACTUAL SALES,November 2017,Consumer,False,17,True,"33,146.8327"
+RESULT,November 2017,Consumer,False,17,True,"-2,070.167300000"
+SALES GOAL,November 2017,Corporate,False,17,True,"35,420"
+ACTUAL SALES,November 2017,Corporate,False,17,True,"27,299.6448"
+RESULT,November 2017,Corporate,False,17,True,"-8,120.355200000"
+SALES GOAL,November 2017,Home Office,False,16,True,"15,649"
+ACTUAL SALES,November 2017,Home Office,False,16,True,"15,526.086"
+RESULT,November 2017,Home Office,False,16,True,-122.914000000
+SALES GOAL,December 2017,Consumer,False,17,True,"34,511"
+ACTUAL SALES,December 2017,Consumer,False,17,True,"39,568.331"
+RESULT,December 2017,Consumer,False,17,True,"5,057.331000000"
+SALES GOAL,December 2017,Corporate,False,17,True,"21,038"
+ACTUAL SALES,December 2017,Corporate,False,17,True,"16,299.461"
+RESULT,December 2017,Corporate,False,17,True,"-4,738.539"
+SALES GOAL,December 2017,Home Office,False,16,True,"25,365"
+ACTUAL SALES,December 2017,Home Office,False,16,True,"19,051.7292"
+RESULT,December 2017,Home Office,False,16,True,"-6,313.270800000"
+SALES GOAL,January 2018,Consumer,False,17,True,"8,200"
+ACTUAL SALES,January 2018,Consumer,False,17,True,"6,026.649"
+RESULT,January 2018,Consumer,False,17,True,"-2,173.351"
+SALES GOAL,January 2018,Corporate,False,17,True,"13,433"
+ACTUAL SALES,January 2018,Corporate,False,17,True,"9,485.124"
+RESULT,January 2018,Corporate,False,17,True,"-3,947.876"
+SALES GOAL,January 2018,Home Office,False,16,True,"3,131"
+ACTUAL SALES,January 2018,Home Office,False,16,True,"3,030.718"
+RESULT,January 2018,Home Office,False,16,True,-100.282
+SALES GOAL,February 2018,Consumer,False,17,True,"19,892"
+ACTUAL SALES,February 2018,Consumer,False,17,True,"15,800.227"
+RESULT,February 2018,Consumer,False,17,True,"-4,091.773"
+SALES GOAL,February 2018,Corporate,False,17,True,"3,727"
+ACTUAL SALES,February 2018,Corporate,False,17,True,"2,866.884"
+RESULT,February 2018,Corporate,False,17,True,-860.116
+SALES GOAL,February 2018,Home Office,False,16,True,"4,580"
+ACTUAL SALES,February 2018,Home Office,False,16,True,"4,311.704"
+RESULT,February 2018,Home Office,False,16,True,-268.296
+SALES GOAL,March 2018,Consumer,False,17,True,"24,928"
+ACTUAL SALES,March 2018,Consumer,False,17,True,"24,844.991"
+RESULT,March 2018,Consumer,False,17,True,-83.009000000
+SALES GOAL,March 2018,Corporate,False,17,True,"21,349"
+ACTUAL SALES,March 2018,Corporate,False,17,True,"14,226.473"
+RESULT,March 2018,Corporate,False,17,True,"-7,122.527"
+SALES GOAL,March 2018,Home Office,False,16,True,"16,339"
+ACTUAL SALES,March 2018,Home Office,False,16,True,"12,644.411"
+RESULT,March 2018,Home Office,False,16,True,"-3,694.589"
+SALES GOAL,April 2018,Consumer,False,17,True,"16,593"
+ACTUAL SALES,April 2018,Consumer,False,17,True,"14,075.248"
+RESULT,April 2018,Consumer,False,17,True,"-2,517.752000000"
+SALES GOAL,April 2018,Corporate,False,17,True,"18,395"
+ACTUAL SALES,April 2018,Corporate,False,17,True,"16,177.376"
+RESULT,April 2018,Corporate,False,17,True,"-2,217.624"
+SALES GOAL,April 2018,Home Office,False,16,True,"9,314"
+ACTUAL SALES,April 2018,Home Office,False,16,True,"8,497.415"
+RESULT,April 2018,Home Office,False,16,True,-816.585000000
+SALES GOAL,May 2018,Consumer,False,17,True,"44,527"
+ACTUAL SALES,May 2018,Consumer,False,17,True,"32,174.635"
+RESULT,May 2018,Consumer,False,17,True,"-12,352.365"
+SALES GOAL,May 2018,Corporate,False,17,True,"18,685"
+ACTUAL SALES,May 2018,Corporate,False,17,True,"18,452.258"
+RESULT,May 2018,Corporate,False,17,True,-232.742000000
+SALES GOAL,May 2018,Home Office,False,16,True,"5,540"
+ACTUAL SALES,May 2018,Home Office,False,16,True,"6,360.835"
+RESULT,May 2018,Home Office,False,16,True,820.835
+SALES GOAL,June 2018,Consumer,False,17,True,"30,637"
+ACTUAL SALES,June 2018,Consumer,False,17,True,"23,888.811"
+RESULT,June 2018,Consumer,False,17,True,"-6,748.189000000"
+SALES GOAL,June 2018,Corporate,False,17,True,"9,566"
+ACTUAL SALES,June 2018,Corporate,False,17,True,"7,788.494"
+RESULT,June 2018,Corporate,False,17,True,"-1,777.506"
+SALES GOAL,June 2018,Home Office,False,16,True,"11,845"
+ACTUAL SALES,June 2018,Home Office,False,16,True,"8,667.229"
+RESULT,June 2018,Home Office,False,16,True,"-3,177.771"
+SALES GOAL,July 2018,Consumer,False,17,True,"26,932"
+ACTUAL SALES,July 2018,Consumer,False,17,True,"22,631.847"
+RESULT,July 2018,Consumer,False,17,True,"-4,300.153000000"
+SALES GOAL,July 2018,Corporate,False,17,True,"19,250"
+ACTUAL SALES,July 2018,Corporate,False,17,True,"13,168.919"
+RESULT,July 2018,Corporate,False,17,True,"-6,081.081000000"
+SALES GOAL,July 2018,Home Office,False,16,True,"3,890"
+ACTUAL SALES,July 2018,Home Office,False,16,True,"3,461.197"
+RESULT,July 2018,Home Office,False,16,True,-428.803000000
+SALES GOAL,August 2018,Consumer,False,17,True,"14,770"
+ACTUAL SALES,August 2018,Consumer,False,17,True,"13,885.5638"
+RESULT,August 2018,Consumer,False,17,True,-884.436200000
+SALES GOAL,August 2018,Corporate,False,17,True,"13,461"
+ACTUAL SALES,August 2018,Corporate,False,17,True,"12,943.4705"
+RESULT,August 2018,Corporate,False,17,True,-517.529500000
+SALES GOAL,August 2018,Home Office,False,16,True,"4,287"
+ACTUAL SALES,August 2018,Home Office,False,16,True,"4,286.34"
+RESULT,August 2018,Home Office,False,16,True,-0.660000000
+SALES GOAL,September 2018,Consumer,False,17,True,"49,316"
+ACTUAL SALES,September 2018,Consumer,False,17,True,"42,647.7936"
+RESULT,September 2018,Consumer,False,17,True,"-6,668.206400000"
+SALES GOAL,September 2018,Corporate,False,17,True,"16,451"
+ACTUAL SALES,September 2018,Corporate,False,17,True,"17,802.8123"
+RESULT,September 2018,Corporate,False,17,True,"1,351.8123"
+SALES GOAL,September 2018,Home Office,False,16,True,"14,003"
+ACTUAL SALES,September 2018,Home Office,False,16,True,"12,959.419"
+RESULT,September 2018,Home Office,False,16,True,"-1,043.581"
+SALES GOAL,October 2018,Consumer,False,17,True,"13,068"
+ACTUAL SALES,October 2018,Consumer,False,17,True,"10,143.282"
+RESULT,October 2018,Consumer,False,17,True,"-2,924.718"
+SALES GOAL,October 2018,Corporate,False,17,True,"38,630"
+ACTUAL SALES,October 2018,Corporate,False,17,True,"32,130.545"
+RESULT,October 2018,Corporate,False,17,True,"-6,499.455000000"
+SALES GOAL,October 2018,Home Office,False,16,True,"26,366"
+ACTUAL SALES,October 2018,Home Office,False,16,True,"17,413.918"
+RESULT,October 2018,Home Office,False,16,True,"-8,952.082"
+SALES GOAL,November 2018,Consumer,False,17,True,"49,309"
+ACTUAL SALES,November 2018,Consumer,False,17,True,"41,449.8628"
+RESULT,November 2018,Consumer,False,17,True,"-7,859.1372"
+SALES GOAL,November 2018,Corporate,False,17,True,"32,736"
+ACTUAL SALES,November 2018,Corporate,False,17,True,"26,493.18"
+RESULT,November 2018,Corporate,False,17,True,"-6,242.820000000"
+SALES GOAL,November 2018,Home Office,False,16,True,"13,258"
+ACTUAL SALES,November 2018,Home Office,False,16,True,"11,468.923"
+RESULT,November 2018,Home Office,False,16,True,"-1,789.077"
+SALES GOAL,December 2018,Consumer,False,17,True,"41,414"
+ACTUAL SALES,December 2018,Consumer,False,17,True,"49,294.989"
+RESULT,December 2018,Consumer,False,17,True,"7,880.989000000"
+SALES GOAL,December 2018,Corporate,False,17,True,"36,002"
+ACTUAL SALES,December 2018,Corporate,False,17,True,"35,570.826"
+RESULT,December 2018,Corporate,False,17,True,-431.174000000
+SALES GOAL,December 2018,Home Office,False,16,True,"13,277"
+ACTUAL SALES,December 2018,Home Office,False,16,True,"12,133.228"
+RESULT,December 2018,Home Office,False,16,True,"-1,143.772"
+SALES GOAL,January 2019,Consumer,False,17,True,"24,233"
+ACTUAL SALES,January 2019,Consumer,False,17,True,"23,211.841"
+RESULT,January 2019,Consumer,False,17,True,"-1,021.159"
+SALES GOAL,January 2019,Corporate,False,17,True,"11,079"
+ACTUAL SALES,January 2019,Corporate,False,17,True,"12,221.232"
+RESULT,January 2019,Corporate,False,17,True,"1,142.232"
+SALES GOAL,January 2019,Home Office,False,16,True,"9,860"
+ACTUAL SALES,January 2019,Home Office,False,16,True,"8,538.301"
+RESULT,January 2019,Home Office,False,16,True,"-1,321.699"
+SALES GOAL,February 2019,Consumer,False,17,True,"6,357"
+ACTUAL SALES,February 2019,Consumer,False,17,True,"5,589.077"
+RESULT,February 2019,Consumer,False,17,True,-767.923000000
+SALES GOAL,February 2019,Corporate,False,17,True,"11,883"
+ACTUAL SALES,February 2019,Corporate,False,17,True,"7,959.258"
+RESULT,February 2019,Corporate,False,17,True,"-3,923.742"
+SALES GOAL,February 2019,Home Office,False,16,True,"5,105"
+ACTUAL SALES,February 2019,Home Office,False,16,True,"6,752.7984"
+RESULT,February 2019,Home Office,False,16,True,"1,647.7984"
+SALES GOAL,March 2019,Consumer,False,17,True,"31,942"
+ACTUAL SALES,March 2019,Consumer,False,17,True,"35,041.522"
+RESULT,March 2019,Consumer,False,17,True,"3,099.522000000"
+SALES GOAL,March 2019,Corporate,False,17,True,"21,401"
+ACTUAL SALES,March 2019,Corporate,False,17,True,"16,574.6228"
+RESULT,March 2019,Corporate,False,17,True,"-4,826.3772"
+SALES GOAL,March 2019,Home Office,False,16,True,"6,033"
+ACTUAL SALES,March 2019,Home Office,False,16,True,"7,256.208"
+RESULT,March 2019,Home Office,False,16,True,"1,223.208"
+SALES GOAL,April 2019,Consumer,False,17,True,"9,928"
+ACTUAL SALES,April 2019,Consumer,False,17,True,"9,034.924"
+RESULT,April 2019,Consumer,False,17,True,-893.076000000
+SALES GOAL,April 2019,Corporate,False,17,True,"15,642"
+ACTUAL SALES,April 2019,Corporate,False,17,True,"14,803.0146"
+RESULT,April 2019,Corporate,False,17,True,-838.985400000
+SALES GOAL,April 2019,Home Office,False,16,True,"15,115"
+ACTUAL SALES,April 2019,Home Office,False,16,True,"12,683.5975"
+RESULT,April 2019,Home Office,False,16,True,"-2,431.4025"
+SALES GOAL,May 2019,Consumer,False,17,True,"26,939"
+ACTUAL SALES,May 2019,Consumer,False,17,True,"21,059.7374"
+RESULT,May 2019,Consumer,False,17,True,"-5,879.262600000"
+SALES GOAL,May 2019,Corporate,False,17,True,"13,712"
+ACTUAL SALES,May 2019,Corporate,False,17,True,"14,239.8348"
+RESULT,May 2019,Corporate,False,17,True,527.834800000
+SALES GOAL,May 2019,Home Office,False,16,True,"9,690"
+ACTUAL SALES,May 2019,Home Office,False,16,True,"8,961.538"
+RESULT,May 2019,Home Office,False,16,True,-728.462
+SALES GOAL,June 2019,Consumer,False,17,True,"25,534"
+ACTUAL SALES,June 2019,Consumer,False,17,True,"20,273.1177"
+RESULT,June 2019,Consumer,False,17,True,"-5,260.8823"
+SALES GOAL,June 2019,Corporate,False,17,True,"24,619"
+ACTUAL SALES,June 2019,Corporate,False,17,True,"19,695.04"
+RESULT,June 2019,Corporate,False,17,True,"-4,923.96"
+SALES GOAL,June 2019,Home Office,False,16,True,"13,410"
+ACTUAL SALES,June 2019,Home Office,False,16,True,"13,013.568"
+RESULT,June 2019,Home Office,False,16,True,-396.432000000
+SALES GOAL,July 2019,Consumer,False,17,True,"20,686"
+ACTUAL SALES,July 2019,Consumer,False,17,True,"18,991.373"
+RESULT,July 2019,Consumer,False,17,True,"-1,694.627"
+SALES GOAL,July 2019,Corporate,False,17,True,"15,741"
+ACTUAL SALES,July 2019,Corporate,False,17,True,"16,525.599"
+RESULT,July 2019,Corporate,False,17,True,784.599000000
+SALES GOAL,July 2019,Home Office,False,16,True,"9,219"
+ACTUAL SALES,July 2019,Home Office,False,16,True,"9,747.444"
+RESULT,July 2019,Home Office,False,16,True,528.444000000
+SALES GOAL,August 2019,Consumer,False,17,True,"32,913"
+ACTUAL SALES,August 2019,Consumer,False,17,True,
+RESULT,August 2019,Consumer,False,17,True,
+SALES GOAL,August 2019,Corporate,False,17,True,"31,294"
+ACTUAL SALES,August 2019,Corporate,False,17,True,
+RESULT,August 2019,Corporate,False,17,True,
+SALES GOAL,August 2019,Home Office,False,16,True,"6,839"
+ACTUAL SALES,August 2019,Home Office,False,16,True,
+RESULT,August 2019,Home Office,False,16,True,
+SALES GOAL,September 2019,Consumer,False,17,True,"42,833"
+ACTUAL SALES,September 2019,Consumer,False,17,True,
+RESULT,September 2019,Consumer,False,17,True,
+SALES GOAL,September 2019,Corporate,False,17,True,"26,103"
+ACTUAL SALES,September 2019,Corporate,False,17,True,
+RESULT,September 2019,Corporate,False,17,True,
+SALES GOAL,September 2019,Home Office,False,16,True,"21,745"
+ACTUAL SALES,September 2019,Home Office,False,16,True,
+RESULT,September 2019,Home Office,False,16,True,
+SALES GOAL,October 2019,Consumer,False,17,True,"27,472"
+ACTUAL SALES,October 2019,Consumer,False,17,True,
+RESULT,October 2019,Consumer,False,17,True,
+SALES GOAL,October 2019,Corporate,False,17,True,"22,180"
+ACTUAL SALES,October 2019,Corporate,False,17,True,
+RESULT,October 2019,Corporate,False,17,True,
+SALES GOAL,October 2019,Home Office,False,16,True,"29,298"
+ACTUAL SALES,October 2019,Home Office,False,16,True,
+RESULT,October 2019,Home Office,False,16,True,
+SALES GOAL,November 2019,Consumer,False,17,True,"59,148"
+ACTUAL SALES,November 2019,Consumer,False,17,True,
+RESULT,November 2019,Consumer,False,17,True,
+SALES GOAL,November 2019,Corporate,False,17,True,"51,355"
+ACTUAL SALES,November 2019,Corporate,False,17,True,
+RESULT,November 2019,Corporate,False,17,True,
+SALES GOAL,November 2019,Home Office,False,16,True,"22,610"
+ACTUAL SALES,November 2019,Home Office,False,16,True,
+RESULT,November 2019,Home Office,False,16,True,
+SALES GOAL,December 2019,Consumer,False,17,True,"41,405"
+ACTUAL SALES,December 2019,Consumer,False,17,True,
+RESULT,December 2019,Consumer,False,17,True,
+SALES GOAL,December 2019,Corporate,False,17,True,"22,595"
+ACTUAL SALES,December 2019,Corporate,False,17,True,
+RESULT,December 2019,Corporate,False,17,True,
+SALES GOAL,December 2019,Home Office,False,16,True,"13,795"
+ACTUAL SALES,December 2019,Home Office,False,16,True,
+RESULT,December 2019,Home Office,False,16,True,
+SALES GOAL,January 2020,Consumer,False,17,True,"25,063"
+ACTUAL SALES,January 2020,Consumer,False,17,True,
+RESULT,January 2020,Consumer,False,17,True,
+SALES GOAL,January 2020,Corporate,False,17,True,"15,012"
+ACTUAL SALES,January 2020,Corporate,False,17,True,
+RESULT,January 2020,Corporate,False,17,True,
+SALES GOAL,January 2020,Home Office,False,16,True,"11,599"
+ACTUAL SALES,January 2020,Home Office,False,16,True,
+RESULT,January 2020,Home Office,False,16,True,
+SALES GOAL,February 2020,Consumer,False,17,True,"5,677"
+ACTUAL SALES,February 2020,Consumer,False,17,True,
+RESULT,February 2020,Consumer,False,17,True,
+SALES GOAL,February 2020,Corporate,False,17,True,"6,749"
+ACTUAL SALES,February 2020,Corporate,False,17,True,
+RESULT,February 2020,Corporate,False,17,True,
+SALES GOAL,February 2020,Home Office,False,16,True,"7,051"
+ACTUAL SALES,February 2020,Home Office,False,16,True,
+RESULT,February 2020,Home Office,False,16,True,
+SALES GOAL,March 2020,Consumer,False,17,True,"42,292"
+ACTUAL SALES,March 2020,Consumer,False,17,True,
+RESULT,March 2020,Consumer,False,17,True,
+SALES GOAL,March 2020,Corporate,False,17,True,"17,757"
+ACTUAL SALES,March 2020,Corporate,False,17,True,
+RESULT,March 2020,Corporate,False,17,True,
+SALES GOAL,March 2020,Home Office,False,16,True,"10,603"
+ACTUAL SALES,March 2020,Home Office,False,16,True,
+RESULT,March 2020,Home Office,False,16,True,
+SALES GOAL,April 2020,Consumer,False,17,True,"12,995"
+ACTUAL SALES,April 2020,Consumer,False,17,True,
+RESULT,April 2020,Consumer,False,17,True,
+SALES GOAL,April 2020,Corporate,False,17,True,"13,614"
+ACTUAL SALES,April 2020,Corporate,False,17,True,
+RESULT,April 2020,Corporate,False,17,True,
+SALES GOAL,April 2020,Home Office,False,16,True,"17,670"
+ACTUAL SALES,April 2020,Home Office,False,16,True,
+RESULT,April 2020,Home Office,False,16,True,
+SALES GOAL,May 2020,Consumer,False,17,True,"22,315"
+ACTUAL SALES,May 2020,Consumer,False,17,True,
+RESULT,May 2020,Consumer,False,17,True,
+SALES GOAL,May 2020,Corporate,False,17,True,"14,734"
+ACTUAL SALES,May 2020,Corporate,False,17,True,
+RESULT,May 2020,Corporate,False,17,True,
+SALES GOAL,May 2020,Home Office,False,16,True,"9,822"
+ACTUAL SALES,May 2020,Home Office,False,16,True,
+RESULT,May 2020,Home Office,False,16,True,
+SALES GOAL,June 2020,Consumer,False,17,True,"27,494"
+ACTUAL SALES,June 2020,Consumer,False,17,True,
+RESULT,June 2020,Consumer,False,17,True,
+SALES GOAL,June 2020,Corporate,False,17,True,"27,372"
+ACTUAL SALES,June 2020,Corporate,False,17,True,
+RESULT,June 2020,Corporate,False,17,True,
+SALES GOAL,June 2020,Home Office,False,16,True,"16,583"
+ACTUAL SALES,June 2020,Home Office,False,16,True,
+RESULT,June 2020,Home Office,False,16,True,
+SALES GOAL,July 2020,Consumer,False,17,True,"23,837"
+ACTUAL SALES,July 2020,Consumer,False,17,True,
+RESULT,July 2020,Consumer,False,17,True,
+SALES GOAL,July 2020,Corporate,False,17,True,"20,395"
+ACTUAL SALES,July 2020,Corporate,False,17,True,
+RESULT,July 2020,Corporate,False,17,True,
+SALES GOAL,July 2020,Home Office,False,16,True,"9,577"
+ACTUAL SALES,July 2020,Home Office,False,16,True,
+RESULT,July 2020,Home Office,False,16,True,
+SALES GOAL,August 2020,Consumer,False,17,True,"29,148"
+ACTUAL SALES,August 2020,Consumer,False,17,True,
+RESULT,August 2020,Consumer,False,17,True,
+SALES GOAL,August 2020,Corporate,False,17,True,"24,572"
+ACTUAL SALES,August 2020,Corporate,False,17,True,
+RESULT,August 2020,Corporate,False,17,True,
+SALES GOAL,August 2020,Home Office,False,16,True,"7,209"
+ACTUAL SALES,August 2020,Home Office,False,16,True,
+RESULT,August 2020,Home Office,False,16,True,
+SALES GOAL,September 2020,Consumer,False,17,True,"41,253"
+ACTUAL SALES,September 2020,Consumer,False,17,True,
+RESULT,September 2020,Consumer,False,17,True,
+SALES GOAL,September 2020,Corporate,False,17,True,"27,558"
+ACTUAL SALES,September 2020,Corporate,False,17,True,
+RESULT,September 2020,Corporate,False,17,True,
+SALES GOAL,September 2020,Home Office,False,16,True,"20,157"
+ACTUAL SALES,September 2020,Home Office,False,16,True,
+RESULT,September 2020,Home Office,False,16,True,
+SALES GOAL,October 2020,Consumer,False,17,True,"30,684"
+ACTUAL SALES,October 2020,Consumer,False,17,True,
+RESULT,October 2020,Consumer,False,17,True,
+SALES GOAL,October 2020,Corporate,False,17,True,"31,236"
+ACTUAL SALES,October 2020,Corporate,False,17,True,
+RESULT,October 2020,Corporate,False,17,True,
+SALES GOAL,October 2020,Home Office,False,16,True,"31,287"
+ACTUAL SALES,October 2020,Home Office,False,16,True,
+RESULT,October 2020,Home Office,False,16,True,
+SALES GOAL,November 2020,Consumer,False,17,True,"62,705"
+ACTUAL SALES,November 2020,Consumer,False,17,True,
+RESULT,November 2020,Consumer,False,17,True,
+SALES GOAL,November 2020,Corporate,False,17,True,"38,326"
+ACTUAL SALES,November 2020,Corporate,False,17,True,
+RESULT,November 2020,Corporate,False,17,True,
+SALES GOAL,November 2020,Home Office,False,16,True,"27,522"
+ACTUAL SALES,November 2020,Home Office,False,16,True,
+RESULT,November 2020,Home Office,False,16,True,
+SALES GOAL,December 2020,Consumer,False,17,True,"47,902"
+ACTUAL SALES,December 2020,Consumer,False,17,True,
+RESULT,December 2020,Consumer,False,17,True,
+SALES GOAL,December 2020,Corporate,False,17,True,"28,582"
+ACTUAL SALES,December 2020,Corporate,False,17,True,
+RESULT,December 2020,Corporate,False,17,True,
+SALES GOAL,December 2020,Home Office,False,16,True,"13,144"
+ACTUAL SALES,December 2020,Home Office,False,16,True,
+RESULT,December 2020,Home Office,False,16,True,

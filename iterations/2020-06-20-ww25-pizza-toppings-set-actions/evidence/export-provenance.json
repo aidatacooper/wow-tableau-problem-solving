@@ -1,0 +1,12 @@
+{
+  "original_sha256": "36dacabe544326e8fe2eb602a448d2611e1c7d30386bea368a09cb9fc83be74a",
+  "export_sha256": "c6ac62145a5d5b60b95aba6ec54a7e8ac98947bb519a843f121b95c47629b90b",
+  "transformation": "Only remove hidden attributes on worksheet windows to expose existing full worksheets. No calculations, data, dashboard layouts or filters changed.",
+  "worksheets_exposed": [
+    "Chart",
+    "List of Items",
+    "Selector",
+    "Total Bar",
+    "Under Over Budget"
+  ]
+}
