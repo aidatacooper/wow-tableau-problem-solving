@@ -1,0 +1,78 @@
+Day of Week End,Day of Week Start,Order Date Baseline,Order Date Week,Week Series,Inc Null Sales,Tooltip No Sales,Tooltip Order Date,Tooltip Sales,Is Latest Week
+Thursday,Friday,Friday,8/9/2019,Previous,$0,no sales,"August 9, 2019",,False
+Thursday,Friday,Friday,8/16/2019,Previous,$81,,"August 16, 2019",$81,False
+Thursday,Friday,Friday,8/23/2019,Previous,"$4,590",,"August 23, 2019","$4,590",False
+Thursday,Friday,Friday,8/30/2019,Previous,$0,no sales,"August 30, 2019",,False
+Thursday,Friday,Friday,9/6/2019,Previous,$0,no sales,"September 6, 2019",,False
+Thursday,Friday,Friday,9/13/2019,Previous,$16,,"September 13, 2019",$16,False
+Thursday,Friday,Friday,9/20/2019,Previous,"$7,360",,"September 20, 2019","$7,360",False
+Thursday,Friday,Friday,9/27/2019,Previous,$0,no sales,"September 27, 2019",,False
+Thursday,Friday,Friday,10/4/2019,Previous,$20,,"October 4, 2019",$20,False
+Thursday,Friday,Friday,10/11/2019,Previous,$0,no sales,"October 11, 2019",,False
+Thursday,Friday,Friday,10/18/2019,Current,$0,no sales,"October 18, 2019",,True
+Thursday,Friday,Saturday,8/9/2019,Previous,"$1,823",,"August 10, 2019","$1,823",False
+Thursday,Friday,Saturday,8/16/2019,Previous,"$9,517",,"August 17, 2019","$9,517",False
+Thursday,Friday,Saturday,8/23/2019,Previous,$685,,"August 24, 2019",$685,False
+Thursday,Friday,Saturday,8/30/2019,Previous,"$3,163",,"August 31, 2019","$3,163",False
+Thursday,Friday,Saturday,9/6/2019,Previous,"$3,849",,"September 7, 2019","$3,849",False
+Thursday,Friday,Saturday,9/13/2019,Previous,"$4,367",,"September 14, 2019","$4,367",False
+Thursday,Friday,Saturday,9/20/2019,Previous,$338,,"September 21, 2019",$338,False
+Thursday,Friday,Saturday,9/27/2019,Previous,$559,,"September 28, 2019",$559,False
+Thursday,Friday,Saturday,10/4/2019,Previous,"$6,685",,"October 5, 2019","$6,685",False
+Thursday,Friday,Saturday,10/11/2019,Previous,"$5,635",,"October 12, 2019","$5,635",False
+Thursday,Friday,Saturday,10/18/2019,Current,"$2,782",,"October 19, 2019","$2,782",True
+Thursday,Friday,Sunday,8/9/2019,Previous,$709,,"August 11, 2019",$709,False
+Thursday,Friday,Sunday,8/16/2019,Previous,"$7,078",,"August 18, 2019","$7,078",False
+Thursday,Friday,Sunday,8/23/2019,Previous,$362,,"August 25, 2019",$362,False
+Thursday,Friday,Sunday,8/30/2019,Previous,"$1,262",,"September 1, 2019","$1,262",False
+Thursday,Friday,Sunday,9/6/2019,Previous,"$2,184",,"September 8, 2019","$2,184",False
+Thursday,Friday,Sunday,9/13/2019,Previous,"$7,285",,"September 15, 2019","$7,285",False
+Thursday,Friday,Sunday,9/20/2019,Previous,"$7,871",,"September 22, 2019","$7,871",False
+Thursday,Friday,Sunday,9/27/2019,Previous,"$1,944",,"September 29, 2019","$1,944",False
+Thursday,Friday,Sunday,10/4/2019,Previous,"$1,500",,"October 6, 2019","$1,500",False
+Thursday,Friday,Sunday,10/11/2019,Previous,"$8,406",,"October 13, 2019","$8,406",False
+Thursday,Friday,Sunday,10/18/2019,Current,"$1,334",,"October 20, 2019","$1,334",True
+Thursday,Friday,Monday,8/9/2019,Previous,"$3,693",,"August 12, 2019","$3,693",False
+Thursday,Friday,Monday,8/16/2019,Previous,$512,,"August 19, 2019",$512,False
+Thursday,Friday,Monday,8/23/2019,Previous,$191,,"August 26, 2019",$191,False
+Thursday,Friday,Monday,8/30/2019,Previous,"$9,355",,"September 2, 2019","$9,355",False
+Thursday,Friday,Monday,9/6/2019,Previous,"$4,356",,"September 9, 2019","$4,356",False
+Thursday,Friday,Monday,9/13/2019,Previous,$850,,"September 16, 2019",$850,False
+Thursday,Friday,Monday,9/20/2019,Previous,"$2,396",,"September 23, 2019","$2,396",False
+Thursday,Friday,Monday,9/27/2019,Previous,$541,,"September 30, 2019",$541,False
+Thursday,Friday,Monday,10/4/2019,Previous,"$2,749",,"October 7, 2019","$2,749",False
+Thursday,Friday,Monday,10/11/2019,Previous,$134,,"October 14, 2019",$134,False
+Thursday,Friday,Monday,10/18/2019,Current,"$4,537",,"October 21, 2019","$4,537",True
+Thursday,Friday,Tuesday,8/9/2019,Previous,"$2,643",,"August 13, 2019","$2,643",False
+Thursday,Friday,Tuesday,8/16/2019,Previous,$693,,"August 20, 2019",$693,False
+Thursday,Friday,Tuesday,8/23/2019,Previous,"$6,191",,"August 27, 2019","$6,191",False
+Thursday,Friday,Tuesday,8/30/2019,Previous,"$1,596",,"September 3, 2019","$1,596",False
+Thursday,Friday,Tuesday,9/6/2019,Previous,"$2,507",,"September 10, 2019","$2,507",False
+Thursday,Friday,Tuesday,9/13/2019,Previous,"$4,979",,"September 17, 2019","$4,979",False
+Thursday,Friday,Tuesday,9/20/2019,Previous,"$6,450",,"September 24, 2019","$6,450",False
+Thursday,Friday,Tuesday,9/27/2019,Previous,"$2,978",,"October 1, 2019","$2,978",False
+Thursday,Friday,Tuesday,10/4/2019,Previous,$608,,"October 8, 2019",$608,False
+Thursday,Friday,Tuesday,10/11/2019,Previous,"$1,018",,"October 15, 2019","$1,018",False
+Thursday,Friday,Tuesday,10/18/2019,Current,"$15,159",,"October 22, 2019","$15,159",True
+Thursday,Friday,Wednesday,8/9/2019,Previous,$441,,"August 14, 2019",$441,False
+Thursday,Friday,Wednesday,8/16/2019,Previous,"$8,551",,"August 21, 2019","$8,551",False
+Thursday,Friday,Wednesday,8/23/2019,Previous,"$1,444",,"August 28, 2019","$1,444",False
+Thursday,Friday,Wednesday,8/30/2019,Previous,"$5,360",,"September 4, 2019","$5,360",False
+Thursday,Friday,Wednesday,9/6/2019,Previous,"$5,564",,"September 11, 2019","$5,564",False
+Thursday,Friday,Wednesday,9/13/2019,Previous,"$1,512",,"September 18, 2019","$1,512",False
+Thursday,Friday,Wednesday,9/20/2019,Previous,"$1,412",,"September 25, 2019","$1,412",False
+Thursday,Friday,Wednesday,9/27/2019,Previous,"$5,418",,"October 2, 2019","$5,418",False
+Thursday,Friday,Wednesday,10/4/2019,Previous,"$1,497",,"October 9, 2019","$1,497",False
+Thursday,Friday,Wednesday,10/11/2019,Previous,"$3,474",,"October 16, 2019","$3,474",False
+Thursday,Friday,Wednesday,10/18/2019,Current,"$3,352",,"October 23, 2019","$3,352",True
+Thursday,Friday,Thursday,8/9/2019,Previous,"$1,950",,"August 15, 2019","$1,950",False
+Thursday,Friday,Thursday,8/16/2019,Previous,$525,,"August 22, 2019",$525,False
+Thursday,Friday,Thursday,8/23/2019,Previous,$235,,"August 29, 2019",$235,False
+Thursday,Friday,Thursday,8/30/2019,Previous,$327,,"September 5, 2019",$327,False
+Thursday,Friday,Thursday,9/6/2019,Previous,$492,,"September 12, 2019",$492,False
+Thursday,Friday,Thursday,9/13/2019,Previous,"$1,648",,"September 19, 2019","$1,648",False
+Thursday,Friday,Thursday,9/20/2019,Previous,"$1,487",,"September 26, 2019","$1,487",False
+Thursday,Friday,Thursday,9/27/2019,Previous,"$2,504",,"October 3, 2019","$2,504",False
+Thursday,Friday,Thursday,10/4/2019,Previous,$239,,"October 10, 2019",$239,False
+Thursday,Friday,Thursday,10/11/2019,Previous,$126,,"October 17, 2019",$126,False
+Thursday,Friday,Thursday,10/18/2019,Current,$529,,"October 24, 2019",$529,True

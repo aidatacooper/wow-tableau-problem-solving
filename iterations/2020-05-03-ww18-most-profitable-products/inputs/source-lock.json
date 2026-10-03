@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-03",
+  "source_workbook": {
+    "filename": "author.twbx",
+    "bytes": 381690,
+    "sha256": "51a7378cf23b1fc5076f6abb4255e1fa66a041a4f1469bfd02e7f9e0e914b125",
+    "url": "https://public.tableau.com/views/2020_04_28_WW18_TopN_Nested_Table_Blogged_Version/2020_04_28_WW18_TopN_Nested_Table_Blogged_Version"
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Datasources/Orders (Sample - Superstore).hyper",
+      "file": "inputs/Orders (Sample - Superstore).hyper",
+      "bytes": 983040,
+      "sha256": "395cdbfbfe076e36a2566d12ee88d670167dd64c03642236382d0e6b0ab5d130"
+    }
+  ],
+  "source_workbook_used_by_builder": false,
+  "locked_original_sha256": "51a7378cf23b1fc5076f6abb4255e1fa66a041a4f1469bfd02e7f9e0e914b125"
+}

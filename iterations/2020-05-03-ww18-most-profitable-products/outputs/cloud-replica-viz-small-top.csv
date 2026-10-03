@@ -1,0 +1,28 @@
+In / Out of Top N SubCats by Profit,Measure Names,Product Name,SubCat Group,Grouped Margin,Grouped Profit,Grouped Sales,Margin For Others,Margin Rank,Product Group Header,Product Name Group,Profit For Others,Sales For Others,Show?,SubCat Group for Reset,Measure Values
+All, Margin ,All,All,12%,"$286,397","$2,297,201",,All,All,All,,,True,All Others,0.124672172
+All, Profit ,All,All,12%,"$286,397","$2,297,201",,All,All,All,,,True,All Others,"286,397.0217"
+All, Sales ,All,All,12%,"$286,397","$2,297,201",,All,All,All,,,True,All Others,"2,297,200.8603"
+In, Margin ,Canon Image Class D660 Copier,Copiers,43%,"$1,692","$3,960",,1,,Canon Image Class D660 Copier,"28,725.9251","83,968.272",True,Copiers,0.427272727
+In, Profit ,Canon Image Class D660 Copier,Copiers,43%,"$1,692","$3,960",,1,,Canon Image Class D660 Copier,"28,725.9251","83,968.272",True,Copiers,"1,691.9718"
+In, Sales ,Canon Image Class D660 Copier,Copiers,43%,"$1,692","$3,960",,1,,Canon Image Class D660 Copier,"28,725.9251","83,968.272",True,Copiers,"3,959.934"
+In, Margin ,Canon imageCLASS 2200 Advanced Copier,Copiers,41%,"$25,200","$61,600",,2,,Canon imageCLASS 2200 Advanced Copier,"28,725.9251","83,968.272",True,Copiers,0.409090909
+In, Profit ,Canon imageCLASS 2200 Advanced Copier,Copiers,41%,"$25,200","$61,600",,2,,Canon imageCLASS 2200 Advanced Copier,"28,725.9251","83,968.272",True,Copiers,"25,199.928"
+In, Sales ,Canon imageCLASS 2200 Advanced Copier,Copiers,41%,"$25,200","$61,600",,2,,Canon imageCLASS 2200 Advanced Copier,"28,725.9251","83,968.272",True,Copiers,"61,599.824"
+In, Margin ,Canon PC1060 Personal Laser Copier,Copiers,34%,"$28,726","$83,968",0.342104517,3,►,All Others,"28,725.9251","83,968.272",True,Copiers,0.342104517
+In, Profit ,Canon PC1060 Personal Laser Copier,Copiers,34%,"$28,726","$83,968",0.342104517,3,►,All Others,"28,725.9251","83,968.272",True,Copiers,"28,725.9251"
+In, Sales ,Canon PC1060 Personal Laser Copier,Copiers,34%,"$28,726","$83,968",0.342104517,3,►,All Others,"28,725.9251","83,968.272",True,Copiers,"83,968.272"
+In, Margin ,All,Copiers,37%,"$55,618","$149,528",,All,All,All,,,True,Copiers,0.371955846
+In, Profit ,All,Copiers,37%,"$55,618","$149,528",,All,All,All,,,True,Copiers,"55,617.8249"
+In, Sales ,All,Copiers,37%,"$55,618","$149,528",,All,All,All,,,True,Copiers,"149,528.03"
+Out, Margin ,"Adams Telephone Message Book w/Frequently-Called Numbers Space, 400 Messages per Book",All Others,50%,$112,$223,,1,,"Adams Telephone Message Book w/Frequently-Called Numbers Space, 400 Messages per Book","230,534.2768","2,147,182.9903",True,All Others,0.5
+Out, Profit ,"Adams Telephone Message Book w/Frequently-Called Numbers Space, 400 Messages per Book",All Others,50%,$112,$223,,1,,"Adams Telephone Message Book w/Frequently-Called Numbers Space, 400 Messages per Book","230,534.2768","2,147,182.9903",True,All Others,111.72
+Out, Sales ,"Adams Telephone Message Book w/Frequently-Called Numbers Space, 400 Messages per Book",All Others,50%,$112,$223,,1,,"Adams Telephone Message Book w/Frequently-Called Numbers Space, 400 Messages per Book","230,534.2768","2,147,182.9903",True,All Others,223.44
+Out, Margin ,Avery 475,All Others,50%,$133,$266,,2,,Avery 475,"230,534.2768","2,147,182.9903",True,All Others,0.5
+Out, Profit ,Avery 475,All Others,50%,$133,$266,,2,,Avery 475,"230,534.2768","2,147,182.9903",True,All Others,133.2
+Out, Sales ,Avery 475,All Others,50%,$133,$266,,2,,Avery 475,"230,534.2768","2,147,182.9903",True,All Others,266.4
+Out, Margin ,Canon imageCLASS MF7460 Monochrome Digital Laser Multifunction Copier,All Others,11%,"$230,534","$2,147,183",0.107365920,3,►,All Others,"230,534.2768","2,147,182.9903",True,All Others,0.107365920
+Out, Profit ,Canon imageCLASS MF7460 Monochrome Digital Laser Multifunction Copier,All Others,11%,"$230,534","$2,147,183",0.107365920,3,►,All Others,"230,534.2768","2,147,182.9903",True,All Others,"230,534.2768"
+Out, Sales ,Canon imageCLASS MF7460 Monochrome Digital Laser Multifunction Copier,All Others,11%,"$230,534","$2,147,183",0.107365920,3,►,All Others,"230,534.2768","2,147,182.9903",True,All Others,"2,147,182.9903"
+Out, Margin ,All,All Others,11%,"$230,779","$2,147,673",,All,All,All,,,True,All Others,0.107455472
+Out, Profit ,All,All Others,11%,"$230,779","$2,147,673",,All,All,All,,,True,All Others,"230,779.1968"
+Out, Sales ,All,All Others,11%,"$230,779","$2,147,673",,All,All,All,,,True,All Others,"2,147,672.8303"

@@ -1,0 +1,35 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "path": "outputs/cloud-author-chart.csv",
+      "status": "pass",
+      "marks": 52
+    },
+    {
+      "path": "outputs/cloud-replica-chart.csv",
+      "status": "pass",
+      "marks": 52
+    },
+    {
+      "path": "outputs/cloud-author-chart-daily.csv",
+      "status": "pass",
+      "marks": 14
+    },
+    {
+      "path": "outputs/cloud-replica-chart-daily.csv",
+      "status": "pass",
+      "marks": 14
+    },
+    {
+      "path": "outputs/cloud-author-chart-reset.csv",
+      "status": "pass",
+      "marks": 52
+    },
+    {
+      "path": "outputs/cloud-replica-chart-reset.csv",
+      "status": "pass",
+      "marks": 52
+    }
+  ]
+}

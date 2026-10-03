@@ -1,0 +1,13 @@
+{
+  "tested_commit": "47718436ae9bc7384d4d275a918c8ba126ae9c58",
+  "trigger": "Monday ending 2019-10-28 with one prior week: both Fridays absent in facts.",
+  "expected_grid_cells": 14,
+  "author_cloud_grid_cells": 14,
+  "replica_cloud_grid_cells": 12,
+  "source_native_contract": "table/show-full-range with raw full Baseline date field reference",
+  "synthetic_call": "TWBEditor(\"\").configure_worksheet_domain_range(\"Synthetic\", [\"[Date]\"])",
+  "exception_type": "AttributeError",
+  "message": "'TWBEditor' object has no attribute 'configure_worksheet_domain_range'",
+  "probe_provenance": "Executed the exact released TWBEditor facade source from git show 47718436:src/cwtwb/twb_editor.py under an isolated module; dependency helpers are the active development environment. API absence is also checked against the Git source.",
+  "result": "blocked"
+}

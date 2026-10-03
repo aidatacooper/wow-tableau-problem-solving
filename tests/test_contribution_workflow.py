@@ -1,4 +1,5 @@
 import importlib.util
+import hashlib
 import json
 import tempfile
 import unittest
@@ -57,6 +58,35 @@ def complete_case_metadata(iteration: Path) -> None:
 
 
 class ContributionWorkflowTests(unittest.TestCase):
+    def test_derived_inputs_are_locked_and_tampering_is_rejected(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            (root / "inputs").mkdir()
+            original = root / "inputs/raw.csv"
+            derived = root / "inputs/calendar.csv"
+            original.write_bytes(b"raw\n")
+            derived.write_bytes(b"zero-filled calendar\n")
+            def record(path):
+                return {
+                    "file": path.relative_to(root).as_posix(),
+                    "bytes": path.stat().st_size,
+                    "sha256": hashlib.sha256(path.read_bytes()).hexdigest(),
+                }
+
+            lock = {
+                "source_workbook_used_by_builder": False,
+                "extracted_data": [record(original)],
+                "derived_data": [record(derived)],
+            }
+            (root / "inputs/source-lock.json").write_text(
+                json.dumps(lock), encoding="utf-8"
+            )
+            case = {"inputs": {"data_files": ["inputs/raw.csv", "inputs/calendar.csv"]}}
+            validate_iteration.validate_source_lock(root, case)
+            derived.write_bytes(b"tampered calendar\n")
+            with self.assertRaisesRegex(AssertionError, "hash mismatch"):
+                validate_iteration.validate_source_lock(root, case)
+
     def test_prepare_case_extracts_data_and_never_copies_source(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)

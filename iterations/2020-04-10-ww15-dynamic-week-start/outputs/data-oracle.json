@@ -1,0 +1,1231 @@
+{
+  "row_count": 9994,
+  "states": {
+    "default": {
+      "ending": "2019-10-24",
+      "prior": 10,
+      "values": [
+        {
+          "week": "2019-08-09",
+          "date": "2019-08-09",
+          "baseline": "2019-10-18",
+          "weekday": "Friday",
+          "sales": 0.0,
+          "missing": true,
+          "latest": false
+        },
+        {
+          "week": "2019-08-09",
+          "date": "2019-08-10",
+          "baseline": "2019-10-19",
+          "weekday": "Saturday",
+          "sales": 1823.0700000000002,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-08-09",
+          "date": "2019-08-11",
+          "baseline": "2019-10-20",
+          "weekday": "Sunday",
+          "sales": 708.726,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-08-09",
+          "date": "2019-08-12",
+          "baseline": "2019-10-21",
+          "weekday": "Monday",
+          "sales": 3693.084,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-08-09",
+          "date": "2019-08-13",
+          "baseline": "2019-10-22",
+          "weekday": "Tuesday",
+          "sales": 2643.164,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-08-09",
+          "date": "2019-08-14",
+          "baseline": "2019-10-23",
+          "weekday": "Wednesday",
+          "sales": 440.73599999999993,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-08-09",
+          "date": "2019-08-15",
+          "baseline": "2019-10-24",
+          "weekday": "Thursday",
+          "sales": 1949.872,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-08-16",
+          "date": "2019-08-16",
+          "baseline": "2019-10-18",
+          "weekday": "Friday",
+          "sales": 80.56400000000001,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-08-16",
+          "date": "2019-08-17",
+          "baseline": "2019-10-19",
+          "weekday": "Saturday",
+          "sales": 9517.288,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-08-16",
+          "date": "2019-08-18",
+          "baseline": "2019-10-20",
+          "weekday": "Sunday",
+          "sales": 7078.484,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-08-16",
+          "date": "2019-08-19",
+          "baseline": "2019-10-21",
+          "weekday": "Monday",
+          "sales": 512.446,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-08-16",
+          "date": "2019-08-20",
+          "baseline": "2019-10-22",
+          "weekday": "Tuesday",
+          "sales": 692.95,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-08-16",
+          "date": "2019-08-21",
+          "baseline": "2019-10-23",
+          "weekday": "Wednesday",
+          "sales": 8551.054,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-08-16",
+          "date": "2019-08-22",
+          "baseline": "2019-10-24",
+          "weekday": "Thursday",
+          "sales": 524.54,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-08-23",
+          "date": "2019-08-23",
+          "baseline": "2019-10-18",
+          "weekday": "Friday",
+          "sales": 4590.344000000001,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-08-23",
+          "date": "2019-08-24",
+          "baseline": "2019-10-19",
+          "weekday": "Saturday",
+          "sales": 685.056,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-08-23",
+          "date": "2019-08-25",
+          "baseline": "2019-10-20",
+          "weekday": "Sunday",
+          "sales": 361.988,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-08-23",
+          "date": "2019-08-26",
+          "baseline": "2019-10-21",
+          "weekday": "Monday",
+          "sales": 190.66,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-08-23",
+          "date": "2019-08-27",
+          "baseline": "2019-10-22",
+          "weekday": "Tuesday",
+          "sales": 6190.5380000000005,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-08-23",
+          "date": "2019-08-28",
+          "baseline": "2019-10-23",
+          "weekday": "Wednesday",
+          "sales": 1443.632,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-08-23",
+          "date": "2019-08-29",
+          "baseline": "2019-10-24",
+          "weekday": "Thursday",
+          "sales": 235.46800000000002,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-08-30",
+          "date": "2019-08-30",
+          "baseline": "2019-10-18",
+          "weekday": "Friday",
+          "sales": 0.0,
+          "missing": true,
+          "latest": false
+        },
+        {
+          "week": "2019-08-30",
+          "date": "2019-08-31",
+          "baseline": "2019-10-19",
+          "weekday": "Saturday",
+          "sales": 3162.83,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-08-30",
+          "date": "2019-09-01",
+          "baseline": "2019-10-20",
+          "weekday": "Sunday",
+          "sales": 1261.8100000000002,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-08-30",
+          "date": "2019-09-02",
+          "baseline": "2019-10-21",
+          "weekday": "Monday",
+          "sales": 9354.854,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-08-30",
+          "date": "2019-09-03",
+          "baseline": "2019-10-22",
+          "weekday": "Tuesday",
+          "sales": 1595.849,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-08-30",
+          "date": "2019-09-04",
+          "baseline": "2019-10-23",
+          "weekday": "Wednesday",
+          "sales": 5360.202,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-08-30",
+          "date": "2019-09-05",
+          "baseline": "2019-10-24",
+          "weekday": "Thursday",
+          "sales": 327.044,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-09-06",
+          "date": "2019-09-06",
+          "baseline": "2019-10-18",
+          "weekday": "Friday",
+          "sales": 0.0,
+          "missing": true,
+          "latest": false
+        },
+        {
+          "week": "2019-09-06",
+          "date": "2019-09-07",
+          "baseline": "2019-10-19",
+          "weekday": "Saturday",
+          "sales": 3848.565,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-09-06",
+          "date": "2019-09-08",
+          "baseline": "2019-10-20",
+          "weekday": "Sunday",
+          "sales": 2184.3269999999998,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-09-06",
+          "date": "2019-09-09",
+          "baseline": "2019-10-21",
+          "weekday": "Monday",
+          "sales": 4356.061,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-09-06",
+          "date": "2019-09-10",
+          "baseline": "2019-10-22",
+          "weekday": "Tuesday",
+          "sales": 2506.6459999999997,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-09-06",
+          "date": "2019-09-11",
+          "baseline": "2019-10-23",
+          "weekday": "Wednesday",
+          "sales": 5564.006,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-09-06",
+          "date": "2019-09-12",
+          "baseline": "2019-10-24",
+          "weekday": "Thursday",
+          "sales": 491.55,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-09-13",
+          "date": "2019-09-13",
+          "baseline": "2019-10-18",
+          "weekday": "Friday",
+          "sales": 15.920000000000002,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-09-13",
+          "date": "2019-09-14",
+          "baseline": "2019-10-19",
+          "weekday": "Saturday",
+          "sales": 4367.347,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-09-13",
+          "date": "2019-09-15",
+          "baseline": "2019-10-20",
+          "weekday": "Sunday",
+          "sales": 7285.026000000001,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-09-13",
+          "date": "2019-09-16",
+          "baseline": "2019-10-21",
+          "weekday": "Monday",
+          "sales": 849.6500000000001,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-09-13",
+          "date": "2019-09-17",
+          "baseline": "2019-10-22",
+          "weekday": "Tuesday",
+          "sales": 4979.226,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-09-13",
+          "date": "2019-09-18",
+          "baseline": "2019-10-23",
+          "weekday": "Wednesday",
+          "sales": 1511.93,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-09-13",
+          "date": "2019-09-19",
+          "baseline": "2019-10-24",
+          "weekday": "Thursday",
+          "sales": 1648.188,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-09-20",
+          "date": "2019-09-20",
+          "baseline": "2019-10-18",
+          "weekday": "Friday",
+          "sales": 7359.918000000001,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-09-20",
+          "date": "2019-09-21",
+          "baseline": "2019-10-19",
+          "weekday": "Saturday",
+          "sales": 338.172,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-09-20",
+          "date": "2019-09-22",
+          "baseline": "2019-10-20",
+          "weekday": "Sunday",
+          "sales": 7871.213000000001,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-09-20",
+          "date": "2019-09-23",
+          "baseline": "2019-10-21",
+          "weekday": "Monday",
+          "sales": 2395.786,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-09-20",
+          "date": "2019-09-24",
+          "baseline": "2019-10-22",
+          "weekday": "Tuesday",
+          "sales": 6450.462,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-09-20",
+          "date": "2019-09-25",
+          "baseline": "2019-10-23",
+          "weekday": "Wednesday",
+          "sales": 1412.213,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-09-20",
+          "date": "2019-09-26",
+          "baseline": "2019-10-24",
+          "weekday": "Thursday",
+          "sales": 1486.576,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-09-27",
+          "date": "2019-09-27",
+          "baseline": "2019-10-18",
+          "weekday": "Friday",
+          "sales": 0.0,
+          "missing": true,
+          "latest": false
+        },
+        {
+          "week": "2019-09-27",
+          "date": "2019-09-28",
+          "baseline": "2019-10-19",
+          "weekday": "Saturday",
+          "sales": 559.2710000000001,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-09-27",
+          "date": "2019-09-29",
+          "baseline": "2019-10-20",
+          "weekday": "Sunday",
+          "sales": 1944.08,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-09-27",
+          "date": "2019-09-30",
+          "baseline": "2019-10-21",
+          "weekday": "Monday",
+          "sales": 540.76,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-09-27",
+          "date": "2019-10-01",
+          "baseline": "2019-10-22",
+          "weekday": "Tuesday",
+          "sales": 2978.466,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-09-27",
+          "date": "2019-10-02",
+          "baseline": "2019-10-23",
+          "weekday": "Wednesday",
+          "sales": 5418.022,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-09-27",
+          "date": "2019-10-03",
+          "baseline": "2019-10-24",
+          "weekday": "Thursday",
+          "sales": 2504.48,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-10-04",
+          "date": "2019-10-04",
+          "baseline": "2019-10-18",
+          "weekday": "Friday",
+          "sales": 19.98,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-10-04",
+          "date": "2019-10-05",
+          "baseline": "2019-10-19",
+          "weekday": "Saturday",
+          "sales": 6684.616,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-10-04",
+          "date": "2019-10-06",
+          "baseline": "2019-10-20",
+          "weekday": "Sunday",
+          "sales": 1499.652,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-10-04",
+          "date": "2019-10-07",
+          "baseline": "2019-10-21",
+          "weekday": "Monday",
+          "sales": 2749.21,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-10-04",
+          "date": "2019-10-08",
+          "baseline": "2019-10-22",
+          "weekday": "Tuesday",
+          "sales": 608.356,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-10-04",
+          "date": "2019-10-09",
+          "baseline": "2019-10-23",
+          "weekday": "Wednesday",
+          "sales": 1496.589,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-10-04",
+          "date": "2019-10-10",
+          "baseline": "2019-10-24",
+          "weekday": "Thursday",
+          "sales": 239.358,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-10-11",
+          "date": "2019-10-11",
+          "baseline": "2019-10-18",
+          "weekday": "Friday",
+          "sales": 0.0,
+          "missing": true,
+          "latest": false
+        },
+        {
+          "week": "2019-10-11",
+          "date": "2019-10-12",
+          "baseline": "2019-10-19",
+          "weekday": "Saturday",
+          "sales": 5635.354,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-10-11",
+          "date": "2019-10-13",
+          "baseline": "2019-10-20",
+          "weekday": "Sunday",
+          "sales": 8405.802,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-10-11",
+          "date": "2019-10-14",
+          "baseline": "2019-10-21",
+          "weekday": "Monday",
+          "sales": 134.332,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-10-11",
+          "date": "2019-10-15",
+          "baseline": "2019-10-22",
+          "weekday": "Tuesday",
+          "sales": 1017.94,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-10-11",
+          "date": "2019-10-16",
+          "baseline": "2019-10-23",
+          "weekday": "Wednesday",
+          "sales": 3473.597,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-10-11",
+          "date": "2019-10-17",
+          "baseline": "2019-10-24",
+          "weekday": "Thursday",
+          "sales": 126.352,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-10-18",
+          "date": "2019-10-18",
+          "baseline": "2019-10-18",
+          "weekday": "Friday",
+          "sales": 0.0,
+          "missing": true,
+          "latest": true
+        },
+        {
+          "week": "2019-10-18",
+          "date": "2019-10-19",
+          "baseline": "2019-10-19",
+          "weekday": "Saturday",
+          "sales": 2781.8702000000003,
+          "missing": false,
+          "latest": true
+        },
+        {
+          "week": "2019-10-18",
+          "date": "2019-10-20",
+          "baseline": "2019-10-20",
+          "weekday": "Sunday",
+          "sales": 1333.858,
+          "missing": false,
+          "latest": true
+        },
+        {
+          "week": "2019-10-18",
+          "date": "2019-10-21",
+          "baseline": "2019-10-21",
+          "weekday": "Monday",
+          "sales": 4537.201,
+          "missing": false,
+          "latest": true
+        },
+        {
+          "week": "2019-10-18",
+          "date": "2019-10-22",
+          "baseline": "2019-10-22",
+          "weekday": "Tuesday",
+          "sales": 15158.877,
+          "missing": false,
+          "latest": true
+        },
+        {
+          "week": "2019-10-18",
+          "date": "2019-10-23",
+          "baseline": "2019-10-23",
+          "weekday": "Wednesday",
+          "sales": 3352.3940000000002,
+          "missing": false,
+          "latest": true
+        },
+        {
+          "week": "2019-10-18",
+          "date": "2019-10-24",
+          "baseline": "2019-10-24",
+          "weekday": "Thursday",
+          "sales": 529.085,
+          "missing": false,
+          "latest": true
+        }
+      ],
+      "missing_count": 6
+    },
+    "sunday": {
+      "ending": "2019-10-27",
+      "prior": 4,
+      "values": [
+        {
+          "week": "2019-09-23",
+          "date": "2019-09-23",
+          "baseline": "2019-10-21",
+          "weekday": "Monday",
+          "sales": 2395.786,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-09-23",
+          "date": "2019-09-24",
+          "baseline": "2019-10-22",
+          "weekday": "Tuesday",
+          "sales": 6450.462,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-09-23",
+          "date": "2019-09-25",
+          "baseline": "2019-10-23",
+          "weekday": "Wednesday",
+          "sales": 1412.213,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-09-23",
+          "date": "2019-09-26",
+          "baseline": "2019-10-24",
+          "weekday": "Thursday",
+          "sales": 1486.576,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-09-23",
+          "date": "2019-09-27",
+          "baseline": "2019-10-25",
+          "weekday": "Friday",
+          "sales": 0.0,
+          "missing": true,
+          "latest": false
+        },
+        {
+          "week": "2019-09-23",
+          "date": "2019-09-28",
+          "baseline": "2019-10-26",
+          "weekday": "Saturday",
+          "sales": 559.2710000000001,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-09-23",
+          "date": "2019-09-29",
+          "baseline": "2019-10-27",
+          "weekday": "Sunday",
+          "sales": 1944.08,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-09-30",
+          "date": "2019-09-30",
+          "baseline": "2019-10-21",
+          "weekday": "Monday",
+          "sales": 540.76,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-09-30",
+          "date": "2019-10-01",
+          "baseline": "2019-10-22",
+          "weekday": "Tuesday",
+          "sales": 2978.466,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-09-30",
+          "date": "2019-10-02",
+          "baseline": "2019-10-23",
+          "weekday": "Wednesday",
+          "sales": 5418.022,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-09-30",
+          "date": "2019-10-03",
+          "baseline": "2019-10-24",
+          "weekday": "Thursday",
+          "sales": 2504.48,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-09-30",
+          "date": "2019-10-04",
+          "baseline": "2019-10-25",
+          "weekday": "Friday",
+          "sales": 19.98,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-09-30",
+          "date": "2019-10-05",
+          "baseline": "2019-10-26",
+          "weekday": "Saturday",
+          "sales": 6684.616,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-09-30",
+          "date": "2019-10-06",
+          "baseline": "2019-10-27",
+          "weekday": "Sunday",
+          "sales": 1499.652,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-10-07",
+          "date": "2019-10-07",
+          "baseline": "2019-10-21",
+          "weekday": "Monday",
+          "sales": 2749.21,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-10-07",
+          "date": "2019-10-08",
+          "baseline": "2019-10-22",
+          "weekday": "Tuesday",
+          "sales": 608.356,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-10-07",
+          "date": "2019-10-09",
+          "baseline": "2019-10-23",
+          "weekday": "Wednesday",
+          "sales": 1496.589,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-10-07",
+          "date": "2019-10-10",
+          "baseline": "2019-10-24",
+          "weekday": "Thursday",
+          "sales": 239.358,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-10-07",
+          "date": "2019-10-11",
+          "baseline": "2019-10-25",
+          "weekday": "Friday",
+          "sales": 0.0,
+          "missing": true,
+          "latest": false
+        },
+        {
+          "week": "2019-10-07",
+          "date": "2019-10-12",
+          "baseline": "2019-10-26",
+          "weekday": "Saturday",
+          "sales": 5635.354,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-10-07",
+          "date": "2019-10-13",
+          "baseline": "2019-10-27",
+          "weekday": "Sunday",
+          "sales": 8405.802,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-10-14",
+          "date": "2019-10-14",
+          "baseline": "2019-10-21",
+          "weekday": "Monday",
+          "sales": 134.332,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-10-14",
+          "date": "2019-10-15",
+          "baseline": "2019-10-22",
+          "weekday": "Tuesday",
+          "sales": 1017.94,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-10-14",
+          "date": "2019-10-16",
+          "baseline": "2019-10-23",
+          "weekday": "Wednesday",
+          "sales": 3473.597,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-10-14",
+          "date": "2019-10-17",
+          "baseline": "2019-10-24",
+          "weekday": "Thursday",
+          "sales": 126.352,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-10-14",
+          "date": "2019-10-18",
+          "baseline": "2019-10-25",
+          "weekday": "Friday",
+          "sales": 0.0,
+          "missing": true,
+          "latest": false
+        },
+        {
+          "week": "2019-10-14",
+          "date": "2019-10-19",
+          "baseline": "2019-10-26",
+          "weekday": "Saturday",
+          "sales": 2781.8702000000003,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-10-14",
+          "date": "2019-10-20",
+          "baseline": "2019-10-27",
+          "weekday": "Sunday",
+          "sales": 1333.858,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-10-21",
+          "date": "2019-10-21",
+          "baseline": "2019-10-21",
+          "weekday": "Monday",
+          "sales": 4537.201,
+          "missing": false,
+          "latest": true
+        },
+        {
+          "week": "2019-10-21",
+          "date": "2019-10-22",
+          "baseline": "2019-10-22",
+          "weekday": "Tuesday",
+          "sales": 15158.877,
+          "missing": false,
+          "latest": true
+        },
+        {
+          "week": "2019-10-21",
+          "date": "2019-10-23",
+          "baseline": "2019-10-23",
+          "weekday": "Wednesday",
+          "sales": 3352.3940000000002,
+          "missing": false,
+          "latest": true
+        },
+        {
+          "week": "2019-10-21",
+          "date": "2019-10-24",
+          "baseline": "2019-10-24",
+          "weekday": "Thursday",
+          "sales": 529.085,
+          "missing": false,
+          "latest": true
+        },
+        {
+          "week": "2019-10-21",
+          "date": "2019-10-25",
+          "baseline": "2019-10-25",
+          "weekday": "Friday",
+          "sales": 0.0,
+          "missing": true,
+          "latest": true
+        },
+        {
+          "week": "2019-10-21",
+          "date": "2019-10-26",
+          "baseline": "2019-10-26",
+          "weekday": "Saturday",
+          "sales": 999.868,
+          "missing": false,
+          "latest": true
+        },
+        {
+          "week": "2019-10-21",
+          "date": "2019-10-27",
+          "baseline": "2019-10-27",
+          "weekday": "Sunday",
+          "sales": 1086.32,
+          "missing": false,
+          "latest": true
+        }
+      ],
+      "missing_count": 4
+    },
+    "monday": {
+      "ending": "2019-10-28",
+      "prior": 1,
+      "values": [
+        {
+          "week": "2019-10-15",
+          "date": "2019-10-15",
+          "baseline": "2019-10-22",
+          "weekday": "Tuesday",
+          "sales": 1017.94,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-10-15",
+          "date": "2019-10-16",
+          "baseline": "2019-10-23",
+          "weekday": "Wednesday",
+          "sales": 3473.597,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-10-15",
+          "date": "2019-10-17",
+          "baseline": "2019-10-24",
+          "weekday": "Thursday",
+          "sales": 126.352,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-10-15",
+          "date": "2019-10-18",
+          "baseline": "2019-10-25",
+          "weekday": "Friday",
+          "sales": 0.0,
+          "missing": true,
+          "latest": false
+        },
+        {
+          "week": "2019-10-15",
+          "date": "2019-10-19",
+          "baseline": "2019-10-26",
+          "weekday": "Saturday",
+          "sales": 2781.8702000000003,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-10-15",
+          "date": "2019-10-20",
+          "baseline": "2019-10-27",
+          "weekday": "Sunday",
+          "sales": 1333.858,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-10-15",
+          "date": "2019-10-21",
+          "baseline": "2019-10-28",
+          "weekday": "Monday",
+          "sales": 4537.201,
+          "missing": false,
+          "latest": false
+        },
+        {
+          "week": "2019-10-22",
+          "date": "2019-10-22",
+          "baseline": "2019-10-22",
+          "weekday": "Tuesday",
+          "sales": 15158.877,
+          "missing": false,
+          "latest": true
+        },
+        {
+          "week": "2019-10-22",
+          "date": "2019-10-23",
+          "baseline": "2019-10-23",
+          "weekday": "Wednesday",
+          "sales": 3352.3940000000002,
+          "missing": false,
+          "latest": true
+        },
+        {
+          "week": "2019-10-22",
+          "date": "2019-10-24",
+          "baseline": "2019-10-24",
+          "weekday": "Thursday",
+          "sales": 529.085,
+          "missing": false,
+          "latest": true
+        },
+        {
+          "week": "2019-10-22",
+          "date": "2019-10-25",
+          "baseline": "2019-10-25",
+          "weekday": "Friday",
+          "sales": 0.0,
+          "missing": true,
+          "latest": true
+        },
+        {
+          "week": "2019-10-22",
+          "date": "2019-10-26",
+          "baseline": "2019-10-26",
+          "weekday": "Saturday",
+          "sales": 999.868,
+          "missing": false,
+          "latest": true
+        },
+        {
+          "week": "2019-10-22",
+          "date": "2019-10-27",
+          "baseline": "2019-10-27",
+          "weekday": "Sunday",
+          "sales": 1086.32,
+          "missing": false,
+          "latest": true
+        },
+        {
+          "week": "2019-10-22",
+          "date": "2019-10-28",
+          "baseline": "2019-10-28",
+          "weekday": "Monday",
+          "sales": 408.726,
+          "missing": false,
+          "latest": true
+        }
+      ],
+      "missing_count": 2
+    },
+    "current-only": {
+      "ending": "2019-10-24",
+      "prior": 0,
+      "values": [
+        {
+          "week": "2019-10-18",
+          "date": "2019-10-18",
+          "baseline": "2019-10-18",
+          "weekday": "Friday",
+          "sales": 0.0,
+          "missing": true,
+          "latest": true
+        },
+        {
+          "week": "2019-10-18",
+          "date": "2019-10-19",
+          "baseline": "2019-10-19",
+          "weekday": "Saturday",
+          "sales": 2781.8702000000003,
+          "missing": false,
+          "latest": true
+        },
+        {
+          "week": "2019-10-18",
+          "date": "2019-10-20",
+          "baseline": "2019-10-20",
+          "weekday": "Sunday",
+          "sales": 1333.858,
+          "missing": false,
+          "latest": true
+        },
+        {
+          "week": "2019-10-18",
+          "date": "2019-10-21",
+          "baseline": "2019-10-21",
+          "weekday": "Monday",
+          "sales": 4537.201,
+          "missing": false,
+          "latest": true
+        },
+        {
+          "week": "2019-10-18",
+          "date": "2019-10-22",
+          "baseline": "2019-10-22",
+          "weekday": "Tuesday",
+          "sales": 15158.877,
+          "missing": false,
+          "latest": true
+        },
+        {
+          "week": "2019-10-18",
+          "date": "2019-10-23",
+          "baseline": "2019-10-23",
+          "weekday": "Wednesday",
+          "sales": 3352.3940000000002,
+          "missing": false,
+          "latest": true
+        },
+        {
+          "week": "2019-10-18",
+          "date": "2019-10-24",
+          "baseline": "2019-10-24",
+          "weekday": "Thursday",
+          "sales": 529.085,
+          "missing": false,
+          "latest": true
+        }
+      ],
+      "missing_count": 1
+    }
+  },
+  "business_scope": "Complete seven-day grid for every selected current/prior week, including absent fact dates."
+}

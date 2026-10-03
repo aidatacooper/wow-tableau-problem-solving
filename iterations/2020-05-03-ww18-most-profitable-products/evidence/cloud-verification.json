@@ -1,0 +1,246 @@
+{
+  "case_id": "wow-2020-ww18-most-profitable-products",
+  "captured_at": "2026-10-03T12:12:46.547698+00:00",
+  "source_hashes": {
+    "author": "1b4d816c6cd5ab05f79f8c1b16167fc63d90f9b049b71e32363712f8f65f033e",
+    "replica": "dd257d23379f5a854bc5daa860ee4bb0aa900eb77a227186cf2505204d599f3b"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "5cf486d7-c3b0-4ca9-909b-41b1654260b0",
+      "name": "cwtwb-review-wow-2020-ww18-most-profitable-products-author-1b4d816c6cd5",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2929573",
+      "views": [
+        {
+          "name": "2020_04_28_TopN_Nested_Table_Blogged_Version",
+          "id": "490b21ca-53e5-4c1b-9a47-16d8cb06125a"
+        },
+        {
+          "name": "Viz",
+          "id": "7506bb3d-aec0-4f67-bfaa-502070e7419b"
+        }
+      ]
+    },
+    "replica": {
+      "id": "8ed5698c-f3d7-43eb-ac74-6c1e83072632",
+      "name": "cwtwb-review-wow-2020-ww18-most-profitable-products-replica-dd257d23379f",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2929783",
+      "views": [
+        {
+          "name": "Viz",
+          "id": "bbcb02e2-d600-4d3d-8fbc-4819938e8646"
+        },
+        {
+          "name": "2020_04_28_TopN_Nested_Table_Blogged_Version",
+          "id": "2939122e-0413-41a9-8166-3c000c4ac027"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "490b21ca-53e5-4c1b-9a47-16d8cb06125a",
+          "name": "2020_04_28_TopN_Nested_Table_Blogged_Version",
+          "path": "outputs/cloud-author.png",
+          "sha256": "7dbba6821d990e2adbf25e8c7f184cc4549a66cb56c8dfbec229b96f227b545b",
+          "size": [
+            1600,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "2939122e-0413-41a9-8166-3c000c4ac027",
+          "name": "2020_04_28_TopN_Nested_Table_Blogged_Version",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "07538004e10c86502a31f34ee81fc1f9ed0dec339003006ce1ab3cae1e8ffda4",
+          "size": [
+            2000,
+            1600
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Viz",
+          "view_id": "7506bb3d-aec0-4f67-bfaa-502070e7419b",
+          "scope": "Complete nested Top N product detail rows, All Others aggregates, group subtotals and grandtotal records.",
+          "path": "outputs/cloud-author-viz.csv",
+          "sha256": "9e89e0812f160624dd8afdc268a3d41456801c8eae98e20c8d6659bc360db073",
+          "bytes": 9538
+        },
+        {
+          "role": "replica",
+          "view": "Viz",
+          "view_id": "bbcb02e2-d600-4d3d-8fbc-4819938e8646",
+          "scope": "Complete nested Top N product detail rows, All Others aggregates, group subtotals and grandtotal records.",
+          "path": "outputs/cloud-replica-viz.csv",
+          "sha256": "d96bb363a7604cb7355f616fcd8de5a2bb7b2e3097cfe07dd444f7d316929289",
+          "bytes": 14159
+        }
+      ]
+    },
+    {
+      "name": "copiers-expanded",
+      "parameters": {
+        "Selected SubCat Group": "Copiers"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "490b21ca-53e5-4c1b-9a47-16d8cb06125a",
+          "name": "2020_04_28_TopN_Nested_Table_Blogged_Version",
+          "path": "outputs/cloud-author-copiers-expanded.png",
+          "sha256": "ad3e8818a743f9ceb4f41d3cf45c824c1151964218ff45ed282f98720620fd0a",
+          "size": [
+            1600,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "2939122e-0413-41a9-8166-3c000c4ac027",
+          "name": "2020_04_28_TopN_Nested_Table_Blogged_Version",
+          "path": "outputs/cloud-replica-copiers-expanded.png",
+          "sha256": "3b12df80fd8efbd42498252c2113e455a034d0d4d48f54b39286c84112dc0ccf",
+          "size": [
+            2000,
+            1600
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Viz",
+          "view_id": "7506bb3d-aec0-4f67-bfaa-502070e7419b",
+          "scope": "Complete nested Top N product detail rows, All Others aggregates, group subtotals and grandtotal records.",
+          "path": "outputs/cloud-author-viz-copiers-expanded.csv",
+          "sha256": "a471c19480132e4f2c7851ac59ae9ffb003660dda698ce03225c07480c57bde6",
+          "bytes": 11834
+        },
+        {
+          "role": "replica",
+          "view": "Viz",
+          "view_id": "bbcb02e2-d600-4d3d-8fbc-4819938e8646",
+          "scope": "Complete nested Top N product detail rows, All Others aggregates, group subtotals and grandtotal records.",
+          "path": "outputs/cloud-replica-viz-copiers-expanded.csv",
+          "sha256": "885bc3ff6e1aa3826e865e2fd567a2194a68452b7fbb8113aa5911a46a89e0b0",
+          "bytes": 17823
+        }
+      ]
+    },
+    {
+      "name": "small-top",
+      "parameters": {
+        "SUB-CATEGORIES TO SHOW": "1",
+        "PRODUCTS TO SHOW": "2"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "490b21ca-53e5-4c1b-9a47-16d8cb06125a",
+          "name": "2020_04_28_TopN_Nested_Table_Blogged_Version",
+          "path": "outputs/cloud-author-small-top.png",
+          "sha256": "b9d55252083dc8e4a2ae9262f1b211ce8f0265b0b77b8f33b0c43a217216619f",
+          "size": [
+            1600,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "2939122e-0413-41a9-8166-3c000c4ac027",
+          "name": "2020_04_28_TopN_Nested_Table_Blogged_Version",
+          "path": "outputs/cloud-replica-small-top.png",
+          "sha256": "1af878b9124c73ac981eda7deec270225d73b26e67fbeccbfc3619d8042581aa",
+          "size": [
+            2000,
+            1600
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Viz",
+          "view_id": "7506bb3d-aec0-4f67-bfaa-502070e7419b",
+          "scope": "Complete nested Top N product detail rows, All Others aggregates, group subtotals and grandtotal records.",
+          "path": "outputs/cloud-author-viz-small-top.csv",
+          "sha256": "e8f7d928a29dc7298e849408dd98307b844fb3b911c1b97f43f3a46f8626e0eb",
+          "bytes": 2909
+        },
+        {
+          "role": "replica",
+          "view": "Viz",
+          "view_id": "bbcb02e2-d600-4d3d-8fbc-4819938e8646",
+          "scope": "Complete nested Top N product detail rows, All Others aggregates, group subtotals and grandtotal records.",
+          "path": "outputs/cloud-replica-viz-small-top.csv",
+          "sha256": "079daecf250c9bd4129ff4d3eb9e0a61ae177fafcce0c6fa25b07c19058f9907",
+          "bytes": 4410
+        }
+      ]
+    },
+    {
+      "name": "others-expanded",
+      "parameters": {
+        "Selected SubCat Group": "All Others"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "490b21ca-53e5-4c1b-9a47-16d8cb06125a",
+          "name": "2020_04_28_TopN_Nested_Table_Blogged_Version",
+          "path": "outputs/cloud-author-others-expanded.png",
+          "sha256": "ef61275c1feea5c3c60e80dc6559d9afe216a77f8f27855a8b348dadfbbce9e5",
+          "size": [
+            1600,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "2939122e-0413-41a9-8166-3c000c4ac027",
+          "name": "2020_04_28_TopN_Nested_Table_Blogged_Version",
+          "path": "outputs/cloud-replica-others-expanded.png",
+          "sha256": "f350ae375c323d6ef4e7ba421fe1d9bda21ed2455912487face67eac5912eef1",
+          "size": [
+            2000,
+            1600
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Viz",
+          "view_id": "7506bb3d-aec0-4f67-bfaa-502070e7419b",
+          "scope": "Complete nested Top N product detail rows, All Others aggregates, group subtotals and grandtotal records.",
+          "path": "outputs/cloud-author-viz-others-expanded.csv",
+          "sha256": "d68e965019dbea757a3e2b112c365d2caee40894c1d63efa4eb935d45ce98dad",
+          "bytes": 551564
+        },
+        {
+          "role": "replica",
+          "view": "Viz",
+          "view_id": "bbcb02e2-d600-4d3d-8fbc-4819938e8646",
+          "scope": "Complete nested Top N product detail rows, All Others aggregates, group subtotals and grandtotal records.",
+          "path": "outputs/cloud-replica-viz-others-expanded.csv",
+          "sha256": "cbd4c91f1dc0d1969fec8b41e6b2f932f9b0934be883d7abc6909e632a0b0896",
+          "bytes": 839823
+        }
+      ]
+    }
+  ],
+  "status": "verified",
+  "independent_review": {
+    "visual_status": "acceptable_delta",
+    "visual_evidence": "evidence/visual-review.md",
+    "functional_evidence": "evidence/functional-verification.json",
+    "scope": "Declared REST worksheet exports and artifact contracts; no browser events executed."
+  }
+}

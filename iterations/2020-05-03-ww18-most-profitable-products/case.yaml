@@ -1,0 +1,97 @@
+schema_version: 1.1.0
+case_id: wow-2020-ww18-most-profitable-products
+iteration_id: 2020-05-03-ww18-most-profitable-products
+post: https://donnacoles.home.blog/2020/05/03/which-products-are-most-profitable/
+legacy_case_ids: {}
+article_date: '2020-05-03'
+challenge_year: 2020
+challenge_week: 18
+challenge_date: '2020-04-28'
+date_evidence:
+  article_date: Declared article publication date in iteration_id
+  challenge: '2020 Week 18: Which products were most profitable?'
+  challenge_date: Official WordPress post 3643 date 2020-04-28T14:27:38
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2020w18/
+    wordpress_post_id: 3643
+  article:
+    url: https://donnacoles.home.blog/2020/05/03/which-products-are-most-profitable/
+    path: null
+    sha256: 4e2bc5d884bac57b09ab99832fc125133bf145c736129deba9399b943538c848
+  workbook:
+    url: https://public.tableau.com/views/2020_04_28_WW18_TopN_Nested_Table_Blogged_Version/2020_04_28_WW18_TopN_Nested_Table_Blogged_Version
+    filename: author.twbx
+    sha256: 51a7378cf23b1fc5076f6abb4255e1fa66a041a4f1469bfd02e7f9e0e914b125
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- evidence/cloud-data-comparison.json
+- evidence/cloud-verification.json
+- evidence/export-provenance.json
+- evidence/functional-verification.json
+- evidence/official-challenge.json
+- evidence/sdk-baseline.json
+- evidence/sdk-final-validation.json
+- evidence/sdk-fit-width-baseline.json
+- evidence/sdk-validation-ac191fde.json
+- evidence/visual-review.md
+- evidence/zero-build-verification.json
+- inputs/source-lock.json
+notes:
+- Empty workbook public API construction; original workbook restricted to analysis.
+cwtwb:
+  tested_version: 0.27.1
+  tested_commit: 56377c5b170f0df1f5cd853fc483de26962dfed1
+  runs:
+  - version: 0.27.1
+    commit: 47718436ae9bc7384d4d275a918c8ba126ae9c58
+    result: blocked
+    evidence: evidence/sdk-baseline.json
+  - version: 0.27.1
+    commit: ac191fde0c2f104697c8dd2d2f0417d9b124dd7e
+    result: blocked
+    evidence: evidence/sdk-fit-width-baseline.json
+  - version: 0.27.1
+    commit: 56377c5b170f0df1f5cd853fc483de26962dfed1
+    result: pass
+    evidence: evidence/sdk-final-validation.json
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: pass
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/Orders (Sample - Superstore).hyper
+acceptance:
+- id: blank-sdk-build
+  description: blank sdk build
+  mode: automated
+- id: locked-source-data
+  description: locked source data
+  mode: automated
+- id: native-calculations-actions
+  description: native calculations actions
+  mode: automated
+- id: independent-complete-data-oracle
+  description: independent complete data oracle
+  mode: automated
+- id: cloud-rest-comparison
+  description: cloud rest comparison
+  mode: automated
+- id: cloud-visual-review
+  description: Inspect all paired REST images; record visual differences.
+  mode: manual
+  evidence: evidence/visual-review.md
+remaining_work: []
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []
+acceptance_scope: cloud_rest_and_artifact_contracts
+browser_interaction_executed: false

@@ -1,0 +1,114 @@
+{
+  "case_id": "wow-2020-ww17-weekday-run-rate",
+  "captured_at": "2026-10-03T12:07:37.601177+00:00",
+  "source_hashes": {
+    "author": "ec52e7d6b7393df749a8ada5f3a438d9ee52a4e599a0eb5dfc9d9bcd0800c1d1",
+    "replica": "658a4503570bdcedacd0245ea43c701d678a5273f54d7a0149aa269e24926d01"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "99970963-77b5-4363-b079-426a6611a140",
+      "name": "cwtwb-review-wow-2020-ww17-weekday-run-rate-author-ec52e7d6b739",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2929641",
+      "views": [
+        {
+          "name": "Data",
+          "id": "775b3750-cff0-4f32-a4b9-75cd43a361c0"
+        },
+        {
+          "name": "2020_04_22_WW17_Weekday_RunRate",
+          "id": "cd14058a-ece2-4f4e-a667-5589ed6acf4d"
+        },
+        {
+          "name": "Title",
+          "id": "5699605f-d28a-4f64-bafc-cbba4c7611de"
+        },
+        {
+          "name": "Viz",
+          "id": "568d2735-9b18-4114-9f13-fc3c025519ca"
+        }
+      ]
+    },
+    "replica": {
+      "id": "a463ef1c-e983-4dea-8797-8f3667d56f88",
+      "name": "cwtwb-review-wow-2020-ww17-weekday-run-rate-replica-658a4503570b",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2929761",
+      "views": [
+        {
+          "name": "Data",
+          "id": "0bcf8559-4ae2-439c-8402-a64d09282826"
+        },
+        {
+          "name": "Title",
+          "id": "9a6418ed-8d9d-4135-a1e2-a54bc8919032"
+        },
+        {
+          "name": "Viz",
+          "id": "d4bea23d-555f-40a8-a6ad-ae9efab94e71"
+        },
+        {
+          "name": "2020_04_22_WW17_Weekday_RunRate",
+          "id": "5e9f5190-ae9c-4002-82cb-41e8d629e008"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "cd14058a-ece2-4f4e-a667-5589ed6acf4d",
+          "name": "2020_04_22_WW17_Weekday_RunRate",
+          "path": "outputs/cloud-author.png",
+          "sha256": "a2b7836e08601086690ad53423a4bce5087a8fac7edf865cfb3f0b2463b4f226",
+          "size": [
+            750,
+            1334
+          ]
+        },
+        "replica": {
+          "id": "5e9f5190-ae9c-4002-82cb-41e8d629e008",
+          "name": "2020_04_22_WW17_Weekday_RunRate",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "16b447f6039f915129bf124d98f5ebf62ef4c77a2fc112e961b459ce82b411ad",
+          "size": [
+            750,
+            1334
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Data",
+          "view_id": "775b3750-cff0-4f32-a4b9-75cd43a361c0",
+          "scope": "All four regions with full MTD, weekday run rate and monthly plan.",
+          "path": "outputs/cloud-author-regions.csv",
+          "sha256": "2e07aecb5db59c0c388af06d9e28b72fc141973073a11ff7e8a6e22a204b5f93",
+          "bytes": 311
+        },
+        {
+          "role": "replica",
+          "view": "Data",
+          "view_id": "0bcf8559-4ae2-439c-8402-a64d09282826",
+          "scope": "All four regions with full MTD, weekday run rate and monthly plan.",
+          "path": "outputs/cloud-replica-regions.csv",
+          "sha256": "6d8d5fc3ea74a9093674ee87dd8613fdd98552a2c2371417e02641d9b5d375b7",
+          "bytes": 168
+        }
+      ]
+    }
+  ],
+  "status": "verified",
+  "independent_review": {
+    "visual_status": "acceptable_delta",
+    "visual_evidence": "evidence/visual-review.md",
+    "functional_evidence": "evidence/functional-verification.json",
+    "scope": "Declared REST worksheet exports and artifact contracts; no browser events executed."
+  }
+}

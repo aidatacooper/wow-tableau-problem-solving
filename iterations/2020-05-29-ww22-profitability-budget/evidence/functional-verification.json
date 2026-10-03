@@ -1,0 +1,200 @@
+{
+  "status": "passed",
+  "acceptance_ids": [
+    "ww22-profitability-oracle",
+    "ww22-polygon-contract",
+    "ww22-expand-action",
+    "ww22-cloud-polygons"
+  ],
+  "raw_rows": 24,
+  "vertices": {
+    "Bookcases|WW": {
+      "Review": 3.5,
+      "Budget": 20.0,
+      "Revenue": 70.0,
+      "x": 0,
+      "y": 3.5,
+      "Path": 1,
+      "Profit": 50.0,
+      "Margin": 2.5,
+      "Colour : Line": "Profitable"
+    },
+    "Bookcases|WW1": {
+      "Review": 3.5,
+      "Budget": 20.0,
+      "Revenue": 70.0,
+      "x": 20,
+      "y": 3.5,
+      "Path": 2,
+      "Profit": 50.0,
+      "Margin": 2.5,
+      "Colour : Line": "Profitable"
+    },
+    "Bookcases|WW2": {
+      "Review": 3.5,
+      "Budget": 20.0,
+      "Revenue": 70.0,
+      "x": 20,
+      "y": 1.0,
+      "Path": 3,
+      "Profit": 50.0,
+      "Margin": 2.5,
+      "Colour : Line": "Profitable"
+    },
+    "Chairs|WW": {
+      "Review": 1.5,
+      "Budget": 30.0,
+      "Revenue": 80.0,
+      "x": 0,
+      "y": 1.5,
+      "Path": 1,
+      "Profit": 50.0,
+      "Margin": 1.6666666666666667,
+      "Colour : Line": "Profitable"
+    },
+    "Chairs|WW1": {
+      "Review": 1.5,
+      "Budget": 30.0,
+      "Revenue": 80.0,
+      "x": 20,
+      "y": 4.0,
+      "Path": 2,
+      "Profit": 50.0,
+      "Margin": 1.6666666666666667,
+      "Colour : Line": "Profitable"
+    },
+    "Chairs|WW2": {
+      "Review": 1.5,
+      "Budget": 30.0,
+      "Revenue": 80.0,
+      "x": 20,
+      "y": 1.5,
+      "Path": 3,
+      "Profit": 50.0,
+      "Margin": 1.6666666666666667,
+      "Colour : Line": "Profitable"
+    },
+    "Labels|WW": {
+      "Review": 5.0,
+      "Budget": 70.0,
+      "Revenue": 99.0,
+      "x": 0,
+      "y": 5.0,
+      "Path": 1,
+      "Profit": 29.0,
+      "Margin": 0.4142857142857143,
+      "Colour : Line": "Profitable"
+    },
+    "Labels|WW1": {
+      "Review": 5.0,
+      "Budget": 70.0,
+      "Revenue": 99.0,
+      "x": 20,
+      "y": 4.95,
+      "Path": 2,
+      "Profit": 29.0,
+      "Margin": 0.4142857142857143,
+      "Colour : Line": "Profitable"
+    },
+    "Labels|WW2": {
+      "Review": 5.0,
+      "Budget": 70.0,
+      "Revenue": 99.0,
+      "x": 20,
+      "y": 3.5,
+      "Path": 3,
+      "Profit": 29.0,
+      "Margin": 0.4142857142857143,
+      "Colour : Line": "Profitable"
+    },
+    "Tables|WW": {
+      "Review": 2.5,
+      "Budget": 100.0,
+      "Revenue": 40.0,
+      "x": 0,
+      "y": 2.5,
+      "Path": 1,
+      "Profit": -60.0,
+      "Margin": -0.6,
+      "Colour : Line": "Non-Profitable"
+    },
+    "Tables|WW1": {
+      "Review": 2.5,
+      "Budget": 100.0,
+      "Revenue": 40.0,
+      "x": 20,
+      "y": 2.0,
+      "Path": 2,
+      "Profit": -60.0,
+      "Margin": -0.6,
+      "Colour : Line": "Non-Profitable"
+    },
+    "Tables|WW2": {
+      "Review": 2.5,
+      "Budget": 100.0,
+      "Revenue": 40.0,
+      "x": 20,
+      "y": 5.0,
+      "Path": 3,
+      "Profit": -60.0,
+      "Margin": -0.6,
+      "Colour : Line": "Non-Profitable"
+    }
+  },
+  "categories": {
+    "Bookcases": {
+      "Profit": 50.0,
+      "Margin": 2.5,
+      "Review": 3.5,
+      "Budget": 20.0,
+      "Revenue": 70.0
+    },
+    "Chairs": {
+      "Profit": 50.0,
+      "Margin": 1.6666666666666667,
+      "Review": 1.5,
+      "Budget": 30.0,
+      "Revenue": 80.0
+    },
+    "Labels": {
+      "Profit": 29.0,
+      "Margin": 0.4142857142857143,
+      "Review": 5.0,
+      "Budget": 70.0,
+      "Revenue": 99.0
+    },
+    "Tables": {
+      "Profit": -60.0,
+      "Margin": -0.6,
+      "Review": 2.5,
+      "Budget": 100.0,
+      "Revenue": 40.0
+    }
+  },
+  "cloud_checks": [
+    {
+      "role": "author",
+      "state": "default",
+      "checked_values": 60,
+      "scope": "Every category and union-copy average plus x/y; independent profit and budget-based margin computed for all categories. Set click execution is artifact-only."
+    },
+    {
+      "role": "replica",
+      "state": "default",
+      "checked_values": 60,
+      "scope": "Every category and union-copy average plus x/y; independent profit and budget-based margin computed for all categories. Set click execution is artifact-only."
+    },
+    {
+      "role": "author",
+      "state": "chairs",
+      "checked_values": 15,
+      "scope": "Every category and union-copy average plus x/y; independent profit and budget-based margin computed for all categories. Set click execution is artifact-only."
+    },
+    {
+      "role": "replica",
+      "state": "chairs",
+      "checked_values": 15,
+      "scope": "Every category and union-copy average plus x/y; independent profit and budget-based margin computed for all categories. Set click execution is artifact-only."
+    }
+  ]
+}

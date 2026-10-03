@@ -1,0 +1,7 @@
+{
+  "sdk_commit": "ac191fde0c2f104697c8dd2d2f0417d9b124dd7e",
+  "result": "blocked",
+  "scope": "Cloud layout verification after full data oracle passed.",
+  "gap": "Worksheet fit width wrote layout-cache sizing without native dashboard viewpoint fit-width zoom, leaving table columns clipped or overlapping.",
+  "resolution": "Final SDK emits native fit-width/fit-height zoom; synthetic regression and fresh case capture verify the change."
+}

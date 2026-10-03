@@ -1,0 +1,15 @@
+Day of Week End,Day of Week Start,Order Date Baseline,Order Date Week,Week Series,Inc Null Sales,Tooltip No Sales,Tooltip Order Date,Tooltip Sales,Is Latest Week
+Monday,Tuesday,Tuesday,10/15/2019,Previous,"$1,018",,"October 15, 2019","$1,018",False
+Monday,Tuesday,Tuesday,10/22/2019,Current,"$15,159",,"October 22, 2019","$15,159",True
+Monday,Tuesday,Wednesday,10/15/2019,Previous,"$3,474",,"October 16, 2019","$3,474",False
+Monday,Tuesday,Wednesday,10/22/2019,Current,"$3,352",,"October 23, 2019","$3,352",True
+Monday,Tuesday,Thursday,10/15/2019,Previous,$126,,"October 17, 2019",$126,False
+Monday,Tuesday,Thursday,10/22/2019,Current,$529,,"October 24, 2019",$529,True
+Monday,Tuesday,Friday,10/15/2019,Previous,$0,no sales,"October 18, 2019",,False
+Monday,Tuesday,Friday,10/22/2019,Current,$0,no sales,"October 25, 2019",,True
+Monday,Tuesday,Saturday,10/15/2019,Previous,"$2,782",,"October 19, 2019","$2,782",False
+Monday,Tuesday,Saturday,10/22/2019,Current,"$1,000",,"October 26, 2019","$1,000",True
+Monday,Tuesday,Sunday,10/15/2019,Previous,"$1,334",,"October 20, 2019","$1,334",False
+Monday,Tuesday,Sunday,10/22/2019,Current,"$1,086",,"October 27, 2019","$1,086",True
+Monday,Tuesday,Monday,10/15/2019,Previous,"$4,537",,"October 21, 2019","$4,537",False
+Monday,Tuesday,Monday,10/22/2019,Current,$409,,"October 28, 2019",$409,True

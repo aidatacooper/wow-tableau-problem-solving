@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-03",
+  "source_workbook": {
+    "filename": "author.twbx",
+    "bytes": 34566,
+    "sha256": "86efeb05e22c29865015216a666318d7d84699de090ee673a458b359c320215d",
+    "url": "https://public.tableau.com/views/2020_05_06_WW19_DateDrillDown/2020_05_06_WW19_DateDrillDown"
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/TableauTemp/TEMP_09kc2h61hrhcdy1c4xpse05a8k3z.hyper",
+      "file": "inputs/TEMP_09kc2h61hrhcdy1c4xpse05a8k3z.hyper",
+      "bytes": 131072,
+      "sha256": "3d9c22bc9459ef98ef4ae30d8d9d96dad51d0347e1c12f80d22740b073ec2556"
+    }
+  ],
+  "source_workbook_used_by_builder": false,
+  "locked_original_sha256": "86efeb05e22c29865015216a666318d7d84699de090ee673a458b359c320215d"
+}

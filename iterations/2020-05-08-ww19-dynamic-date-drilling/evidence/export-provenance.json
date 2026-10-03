@@ -1,0 +1,10 @@
+{
+  "original_sha256": "86efeb05e22c29865015216a666318d7d84699de090ee673a458b359c320215d",
+  "comparison_sha256": "b1b138044e940afbe98d3b0c7e9af74cf28b9d60ba6e3e5f6114d87b16fc9910",
+  "transformation": "Only change hidden worksheet windows hidden=true to false; formulas, dashboard layout and data remain unchanged.",
+  "exposed_worksheets": [
+    "Chart",
+    "Reset"
+  ],
+  "browser_interaction_executed": false
+}

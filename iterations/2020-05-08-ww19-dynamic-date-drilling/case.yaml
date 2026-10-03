@@ -1,0 +1,96 @@
+schema_version: 1.1.0
+case_id: wow-2020-ww19-dynamic-date-drilling
+iteration_id: 2020-05-08-ww19-dynamic-date-drilling
+post: https://donnacoles.home.blog/2020/05/08/can-you-build-a-dynamic-date-drilling-chart/
+legacy_case_ids: {}
+article_date: '2020-05-08'
+challenge_year: 2020
+challenge_week: 19
+challenge_date: '2020-05-05'
+date_evidence:
+  article_date: Declared article publication date in iteration_id
+  challenge: '2020 Week 19: Can you build a dynamic date drilling chart?'
+  challenge_date: Official WordPress post 3657 date 2020-05-05T22:12:44
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2020w19/
+    wordpress_post_id: 3657
+  article:
+    url: https://donnacoles.home.blog/2020/05/08/can-you-build-a-dynamic-date-drilling-chart/
+    path: null
+    sha256: 3a4171fabdfcf3fae23b75cd88ce832604065d043b84c0235562584ee9a37e67
+  workbook:
+    url: https://public.tableau.com/views/2020_05_06_WW19_DateDrillDown/2020_05_06_WW19_DateDrillDown
+    filename: author.twbx
+    sha256: 86efeb05e22c29865015216a666318d7d84699de090ee673a458b359c320215d
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- evidence/cloud-data-comparison.json
+- evidence/cloud-verification.json
+- evidence/export-provenance.json
+- evidence/functional-verification.json
+- evidence/official-challenge.json
+- evidence/sdk-baseline.json
+- evidence/sdk-final-validation.json
+- evidence/sdk-validation-ac191fde.json
+- evidence/visual-review.md
+- evidence/zero-build-verification.json
+- inputs/source-lock.json
+notes:
+- Empty workbook public API construction; original workbook restricted to analysis.
+cwtwb:
+  tested_version: 0.27.1
+  tested_commit: 56377c5b170f0df1f5cd853fc483de26962dfed1
+  runs:
+  - version: 0.27.1
+    commit: 47718436ae9bc7384d4d275a918c8ba126ae9c58
+    result: blocked
+    evidence: evidence/sdk-baseline.json
+  - version: 0.27.1
+    commit: ac191fde0c2f104697c8dd2d2f0417d9b124dd7e
+    result: pass
+    evidence: evidence/sdk-validation-ac191fde.json
+  - version: 0.27.1
+    commit: 56377c5b170f0df1f5cd853fc483de26962dfed1
+    result: pass
+    evidence: evidence/sdk-final-validation.json
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: pass
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/TEMP_09kc2h61hrhcdy1c4xpse05a8k3z.hyper
+acceptance:
+- id: blank-sdk-build
+  description: blank sdk build
+  mode: automated
+- id: locked-source-data
+  description: locked source data
+  mode: automated
+- id: native-calculations-actions
+  description: native calculations actions
+  mode: automated
+- id: independent-complete-data-oracle
+  description: independent complete data oracle
+  mode: automated
+- id: cloud-rest-comparison
+  description: cloud rest comparison
+  mode: automated
+- id: cloud-visual-review
+  description: Inspect all paired REST images; record visual differences.
+  mode: manual
+  evidence: evidence/visual-review.md
+remaining_work: []
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []
+acceptance_scope: cloud_rest_and_artifact_contracts
+browser_interaction_executed: false

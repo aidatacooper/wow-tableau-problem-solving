@@ -1,0 +1,212 @@
+{
+  "case_id": "wow-2020-ww19-dynamic-date-drilling",
+  "captured_at": "2026-10-03T12:02:17.147827+00:00",
+  "source_hashes": {
+    "author": "b1b138044e940afbe98d3b0c7e9af74cf28b9d60ba6e3e5f6114d87b16fc9910",
+    "replica": "8769b9327d49f2185cd70af47a2a45979dd6bfc7eb26bc5dd64991f9770fb434"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "9e053dfc-8e9a-4bbc-a671-40cec8c50154",
+      "name": "cwtwb-review-wow-2020-ww19-dynamic-date-drilling-author-b1b138044e94",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2929603",
+      "views": [
+        {
+          "name": "2020_05_06_WW19_DateDrillDown",
+          "id": "38f835e2-98ef-44ff-ad3a-967233703d10"
+        },
+        {
+          "name": "Data Check",
+          "id": "0a96aec2-680e-40ff-8edf-58cc5d85ceeb"
+        },
+        {
+          "name": "Chart",
+          "id": "137c18bf-51ac-4bf4-9928-3db5955bd332"
+        },
+        {
+          "name": "Reset",
+          "id": "2c1f9b0c-5f1e-4063-8f06-abf947f70f57"
+        }
+      ]
+    },
+    "replica": {
+      "id": "c9fb069a-ca2c-4472-808e-0fa08400721d",
+      "name": "cwtwb-review-wow-2020-ww19-dynamic-date-drilling-replica-8769b9327d49",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2929729",
+      "views": [
+        {
+          "name": "Chart",
+          "id": "86116a79-cb30-408a-b6bb-298c4d264723"
+        },
+        {
+          "name": "Title",
+          "id": "e421aea7-c86e-4d9f-84ce-e12a207d6773"
+        },
+        {
+          "name": "Reset",
+          "id": "c5bac007-8a68-4c73-b7a6-e94438588a44"
+        },
+        {
+          "name": "2020_05_06_WW19_DateDrillDown",
+          "id": "d8dbfdea-b85d-4eae-8203-bee6f7568c1b"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "38f835e2-98ef-44ff-ad3a-967233703d10",
+          "name": "2020_05_06_WW19_DateDrillDown",
+          "path": "outputs/cloud-author.png",
+          "sha256": "132447b62c4e3ba0ff7b33233750cf3387450c7dfe73c83e0d1289261cb68a84",
+          "size": [
+            2800,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "d8dbfdea-b85d-4eae-8203-bee6f7568c1b",
+          "name": "2020_05_06_WW19_DateDrillDown",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "cb835f138be350aaf07441c864932a76a20e194f8acaa3534a887c43a15e200a",
+          "size": [
+            2000,
+            1400
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Chart",
+          "view_id": "137c18bf-51ac-4bf4-9928-3db5955bd332",
+          "scope": "Complete plotted date-grain Sales marks and exposed window statistics for stored set membership; no browser/set mutations executed.",
+          "path": "outputs/cloud-author-chart.csv",
+          "sha256": "7531ba7f30b2f5e1548bfe87962ac8ea746628ee2f8033646f8d0e0221df2373",
+          "bytes": 6415
+        },
+        {
+          "role": "replica",
+          "view": "Chart",
+          "view_id": "86116a79-cb30-408a-b6bb-298c4d264723",
+          "scope": "Complete plotted date-grain Sales marks and exposed window statistics for stored set membership; no browser/set mutations executed.",
+          "path": "outputs/cloud-replica-chart.csv",
+          "sha256": "a8f238185a9ad8fe2b53a0e25e99b46f6a5335af06aea8824bdd06152c40672f",
+          "bytes": 7371
+        }
+      ]
+    },
+    {
+      "name": "daily",
+      "parameters": {
+        "Drill Down": "1"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "38f835e2-98ef-44ff-ad3a-967233703d10",
+          "name": "2020_05_06_WW19_DateDrillDown",
+          "path": "outputs/cloud-author-daily.png",
+          "sha256": "c5900bcaac293da3db17d51fd39ee2c12a0cc678281892e4a91b4b6acbee5915",
+          "size": [
+            2800,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "d8dbfdea-b85d-4eae-8203-bee6f7568c1b",
+          "name": "2020_05_06_WW19_DateDrillDown",
+          "path": "outputs/cloud-replica-daily.png",
+          "sha256": "9257fed2e60b35cf7a3c9cba684e43cd2244e80a208b3a6b80ed42606fce1012",
+          "size": [
+            2000,
+            1400
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Chart",
+          "view_id": "137c18bf-51ac-4bf4-9928-3db5955bd332",
+          "scope": "Complete plotted date-grain Sales marks and exposed window statistics for stored set membership; no browser/set mutations executed.",
+          "path": "outputs/cloud-author-chart-daily.csv",
+          "sha256": "df2ff6d5ce287ef3e8bf7d26ad254c9e37836b6412ffee15f36e165b0e85980a",
+          "bytes": 1578
+        },
+        {
+          "role": "replica",
+          "view": "Chart",
+          "view_id": "86116a79-cb30-408a-b6bb-298c4d264723",
+          "scope": "Complete plotted date-grain Sales marks and exposed window statistics for stored set membership; no browser/set mutations executed.",
+          "path": "outputs/cloud-replica-chart-daily.csv",
+          "sha256": "31a24aa42a70b3431fed6f19c4f549ac8dfb6eb9984baaf6b2d98e64189ff462",
+          "bytes": 1843
+        }
+      ]
+    },
+    {
+      "name": "reset",
+      "parameters": {
+        "Drill Down": "0"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "38f835e2-98ef-44ff-ad3a-967233703d10",
+          "name": "2020_05_06_WW19_DateDrillDown",
+          "path": "outputs/cloud-author-reset.png",
+          "sha256": "132447b62c4e3ba0ff7b33233750cf3387450c7dfe73c83e0d1289261cb68a84",
+          "size": [
+            2800,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "d8dbfdea-b85d-4eae-8203-bee6f7568c1b",
+          "name": "2020_05_06_WW19_DateDrillDown",
+          "path": "outputs/cloud-replica-reset.png",
+          "sha256": "cb835f138be350aaf07441c864932a76a20e194f8acaa3534a887c43a15e200a",
+          "size": [
+            2000,
+            1400
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Chart",
+          "view_id": "137c18bf-51ac-4bf4-9928-3db5955bd332",
+          "scope": "Complete plotted date-grain Sales marks and exposed window statistics for stored set membership; no browser/set mutations executed.",
+          "path": "outputs/cloud-author-chart-reset.csv",
+          "sha256": "7531ba7f30b2f5e1548bfe87962ac8ea746628ee2f8033646f8d0e0221df2373",
+          "bytes": 6415
+        },
+        {
+          "role": "replica",
+          "view": "Chart",
+          "view_id": "86116a79-cb30-408a-b6bb-298c4d264723",
+          "scope": "Complete plotted date-grain Sales marks and exposed window statistics for stored set membership; no browser/set mutations executed.",
+          "path": "outputs/cloud-replica-chart-reset.csv",
+          "sha256": "a8f238185a9ad8fe2b53a0e25e99b46f6a5335af06aea8824bdd06152c40672f",
+          "bytes": 7371
+        }
+      ]
+    }
+  ],
+  "status": "verified",
+  "independent_review": {
+    "visual_status": "acceptable_delta",
+    "visual_evidence": "evidence/visual-review.md",
+    "functional_evidence": "evidence/functional-verification.json",
+    "scope": "Declared REST worksheet exports and artifact contracts; no browser events executed."
+  }
+}

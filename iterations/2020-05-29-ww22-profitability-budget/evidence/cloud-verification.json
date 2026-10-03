@@ -1,0 +1,183 @@
+{
+  "case_id": "wow-2020-ww22-profitability-budget",
+  "captured_at": "2026-10-03T11:55:23.498625+00:00",
+  "source_hashes": {
+    "author": "eff40f232ab593fdf03834fa564b43d9f15b007343addc43a59a5488805d820d",
+    "replica": "f1b24f6628d3345341b7ef0f80e4d4f23c23c045b5d761585d37e9e1dcda5c10"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "91c32f14-7e3d-49ab-b1d9-828c8055c389",
+      "name": "cwtwb-review-wow-2020-ww22-profitability-budget-author-eff40f232ab5",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2929594",
+      "views": [
+        {
+          "name": "2020_05_27_WW22_Profitability_Polygon",
+          "id": "78579d4f-a645-4427-ab09-17930c592c86"
+        },
+        {
+          "name": "2020_05_27_WW22_Profitability_Polygon v2",
+          "id": "2028014a-add8-44bd-9fff-94650a1a4ae0"
+        },
+        {
+          "name": "Data",
+          "id": "c5c91bf5-6632-42a8-8089-8ff09f7ac2bc"
+        },
+        {
+          "name": "Legend",
+          "id": "5f1b1282-bc8a-4ae6-ab49-f09525cd06ee"
+        },
+        {
+          "name": "Legend2",
+          "id": "876f54ca-25f2-4d18-8fc2-ffe03f075087"
+        },
+        {
+          "name": "Viz",
+          "id": "48047277-bde5-4c26-b81b-33f7b71478b4"
+        },
+        {
+          "name": "Viz (2)",
+          "id": "74176b00-6170-4b7a-bfe9-c2a5be371dc5"
+        },
+        {
+          "name": "Viz Expand",
+          "id": "a00c68a1-0b5c-46de-b5ed-5f524c616787"
+        }
+      ]
+    },
+    "replica": {
+      "id": "c64ef717-b45a-491b-a46b-1e968287254d",
+      "name": "cwtwb-review-wow-2020-ww22-profitability-budget-replica-f1b24f6628d3",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2929699",
+      "views": [
+        {
+          "name": "Data",
+          "id": "00d1ae9b-5d0b-4e8c-ae32-40b1030c1132"
+        },
+        {
+          "name": "Legend",
+          "id": "13cb60ce-0eaf-4c6c-bd1f-8415cff5124f"
+        },
+        {
+          "name": "Legend2",
+          "id": "2ebcea2c-b071-4593-add9-3dac88fcd99b"
+        },
+        {
+          "name": "Viz (2)",
+          "id": "dd2d6a1e-82b6-46f2-b3ce-e444162e17fb"
+        },
+        {
+          "name": "2020_05_27_WW22_Profitability_Polygon v2",
+          "id": "47bc2674-2375-40e4-8b06-ba26663c1da9"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "2028014a-add8-44bd-9fff-94650a1a4ae0",
+          "name": "2020_05_27_WW22_Profitability_Polygon v2",
+          "path": "outputs/cloud-author.png",
+          "sha256": "6dd0b9f7d911e787a107263f25d34626befa7d79da14373ff10534d001a0568b",
+          "size": [
+            2000,
+            1400
+          ]
+        },
+        "replica": {
+          "id": "47bc2674-2375-40e4-8b06-ba26663c1da9",
+          "name": "2020_05_27_WW22_Profitability_Polygon v2",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "0b2546f2595fcaa44cba86f5c84949830aac40e9465cf8a8b4c37f4c16acdf20",
+          "size": [
+            2000,
+            1400
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Data",
+          "view_id": "c5c91bf5-6632-42a8-8089-8ff09f7ac2bc",
+          "scope": "Four categories x three union copies x five AVG/coordinate metrics; no set action click claims.",
+          "path": "outputs/cloud-author-vertices.csv",
+          "sha256": "bd17fa46c20c4c21a07a92ecafd061b928e620b979299cc1e9d6df9523536a22",
+          "bytes": 2337
+        },
+        {
+          "role": "replica",
+          "view": "Data",
+          "view_id": "00d1ae9b-5d0b-4e8c-ae32-40b1030c1132",
+          "scope": "Four categories x three union copies x five AVG/coordinate metrics; no set action click claims.",
+          "path": "outputs/cloud-replica-vertices.csv",
+          "sha256": "bd17fa46c20c4c21a07a92ecafd061b928e620b979299cc1e9d6df9523536a22",
+          "bytes": 2337
+        }
+      ]
+    },
+    {
+      "name": "chairs",
+      "parameters": {},
+      "filters": {
+        "Sub-Category": "Chairs"
+      },
+      "views": {
+        "author": {
+          "id": "2028014a-add8-44bd-9fff-94650a1a4ae0",
+          "name": "2020_05_27_WW22_Profitability_Polygon v2",
+          "path": "outputs/cloud-author-chairs.png",
+          "sha256": "d32e257b2d83f0c1a65cacd2dca8173ceeace4a1f801ea014b5b04f233328168",
+          "size": [
+            2000,
+            1400
+          ]
+        },
+        "replica": {
+          "id": "47bc2674-2375-40e4-8b06-ba26663c1da9",
+          "name": "2020_05_27_WW22_Profitability_Polygon v2",
+          "path": "outputs/cloud-replica-chairs.png",
+          "sha256": "fdb47008aa59b6739a5fafacf307121664b91e0ad59e382a968927db26889a8a",
+          "size": [
+            2000,
+            1400
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Data",
+          "view_id": "c5c91bf5-6632-42a8-8089-8ff09f7ac2bc",
+          "scope": "Four categories x three union copies x five AVG/coordinate metrics; no set action click claims.",
+          "path": "outputs/cloud-author-vertices-chairs.csv",
+          "sha256": "8e4eb73f5b8d4b60c287f90f0f5df3626c9f5211750085f7244546b3d759679d",
+          "bytes": 613
+        },
+        {
+          "role": "replica",
+          "view": "Data",
+          "view_id": "00d1ae9b-5d0b-4e8c-ae32-40b1030c1132",
+          "scope": "Four categories x three union copies x five AVG/coordinate metrics; no set action click claims.",
+          "path": "outputs/cloud-replica-vertices-chairs.csv",
+          "sha256": "8e4eb73f5b8d4b60c287f90f0f5df3626c9f5211750085f7244546b3d759679d",
+          "bytes": 613
+        }
+      ]
+    }
+  ],
+  "status": "verified",
+  "independent_review": {
+    "visual_status": "acceptable_delta",
+    "visual_evidence": "evidence/visual-review.md",
+    "functional_evidence": "evidence/functional-verification.json",
+    "scope": "Declared REST worksheet exports and artifact contracts; no browser events executed."
+  }
+}

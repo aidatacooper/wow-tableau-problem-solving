@@ -1,0 +1,260 @@
+{
+  "case_id": "wow-2020-ww15-dynamic-week-start",
+  "captured_at": "2026-10-03T12:10:15.301126+00:00",
+  "source_hashes": {
+    "author": "11040201b48a25c82c1730bf0811be303b36d49dce80aa1fb0863d8c61a190ea",
+    "replica": "00198e0b4ce64301b34abac4b585be9b5c27b0dba19ccc545928c85de823fea3"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "32d48ebc-6137-4d80-8214-1612d1959c57",
+      "name": "cwtwb-review-wow-2020-ww15-dynamic-week-start-author-11040201b48a",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2929556",
+      "views": [
+        {
+          "name": "Data 1",
+          "id": "a0994058-71fe-4862-8636-258cf529a1bc"
+        },
+        {
+          "name": "Data 2",
+          "id": "97bd5984-4d5c-4d71-98b2-e4ca8c24f806"
+        },
+        {
+          "name": "Data 3",
+          "id": "44950bca-4ba3-4bd6-9313-a30884c75c1b"
+        },
+        {
+          "name": "2020_04_08_WW15_Dynamic_Week_Start",
+          "id": "989c0ba6-05b5-45e7-b157-17aa06ba0800"
+        },
+        {
+          "name": "Viz",
+          "id": "bc825e77-cb1c-4273-9d01-468ee1d973e1"
+        }
+      ]
+    },
+    "replica": {
+      "id": "9ea0e445-ad99-495f-a339-c53156c8dc6d",
+      "name": "cwtwb-review-wow-2020-ww15-dynamic-week-start-replica-00198e0b4ce6",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2929772",
+      "views": [
+        {
+          "name": "Viz",
+          "id": "5cec7b4d-21d4-468b-955c-195dc0b7f740"
+        },
+        {
+          "name": "2020_04_08_WW15_Dynamic_Week_Start",
+          "id": "0928b26d-ab9e-4b86-9cd6-7d4f62857c7d"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "989c0ba6-05b5-45e7-b157-17aa06ba0800",
+          "name": "2020_04_08_WW15_Dynamic_Week_Start",
+          "path": "outputs/cloud-author.png",
+          "sha256": "bdc4676b68705891196a43975cdc0f725d6a33517525bcf4444badfc48508917",
+          "size": [
+            2600,
+            1400
+          ]
+        },
+        "replica": {
+          "id": "0928b26d-ab9e-4b86-9cd6-7d4f62857c7d",
+          "name": "2020_04_08_WW15_Dynamic_Week_Start",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "f0339fe8322b41419f75b62fb4347e26e066c1c0e2a3da212702abbe43dd91c7",
+          "size": [
+            2600,
+            1400
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Viz",
+          "view_id": "bc825e77-cb1c-4273-9d01-468ee1d973e1",
+          "scope": "Complete current/prior-week seven-day grid, daily sales including zeros and tooltip dates.",
+          "path": "outputs/cloud-author-grid.csv",
+          "sha256": "b69c60a6c367b4fb99eeb8d091e47cace483ee24e45dbf9a460d2d35fb53fd6d",
+          "bytes": 7686
+        },
+        {
+          "role": "replica",
+          "view": "Viz",
+          "view_id": "5cec7b4d-21d4-468b-955c-195dc0b7f740",
+          "scope": "Complete current/prior-week seven-day grid, daily sales including zeros and tooltip dates.",
+          "path": "outputs/cloud-replica-grid.csv",
+          "sha256": "071a7349f14e56b52e6a6dbc982dccc2d60a5443151dca4831f2462b9511922e",
+          "bytes": 6652
+        }
+      ]
+    },
+    {
+      "name": "sunday",
+      "parameters": {
+        "1a.Week Ending On": "2019-10-27",
+        "1b.Include X Prior Weeks": 4
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "989c0ba6-05b5-45e7-b157-17aa06ba0800",
+          "name": "2020_04_08_WW15_Dynamic_Week_Start",
+          "path": "outputs/cloud-author-sunday.png",
+          "sha256": "7f2668a0b71c9934188eed4d221a7f0eac9b0e58fe91212cd3843e681bc735e4",
+          "size": [
+            2600,
+            1400
+          ]
+        },
+        "replica": {
+          "id": "0928b26d-ab9e-4b86-9cd6-7d4f62857c7d",
+          "name": "2020_04_08_WW15_Dynamic_Week_Start",
+          "path": "outputs/cloud-replica-sunday.png",
+          "sha256": "002622d7ac332ce85439fd6a62429fe997eec0b7e38fa675ebb281a285e06420",
+          "size": [
+            2600,
+            1400
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Viz",
+          "view_id": "bc825e77-cb1c-4273-9d01-468ee1d973e1",
+          "scope": "Complete current/prior-week seven-day grid, daily sales including zeros and tooltip dates.",
+          "path": "outputs/cloud-author-grid-sunday.csv",
+          "sha256": "6f09bfc56ae1a2ca3a452f1becab678c62fc41cb9f701024538a739d287da916",
+          "bytes": 3516
+        },
+        {
+          "role": "replica",
+          "view": "Viz",
+          "view_id": "5cec7b4d-21d4-468b-955c-195dc0b7f740",
+          "scope": "Complete current/prior-week seven-day grid, daily sales including zeros and tooltip dates.",
+          "path": "outputs/cloud-replica-grid-sunday.csv",
+          "sha256": "38529823ac211bbb25a294d6883d410b22030a5fd6d0756df09771993133f372",
+          "bytes": 3061
+        }
+      ]
+    },
+    {
+      "name": "monday",
+      "parameters": {
+        "1a.Week Ending On": "2019-10-28",
+        "1b.Include X Prior Weeks": 1
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "989c0ba6-05b5-45e7-b157-17aa06ba0800",
+          "name": "2020_04_08_WW15_Dynamic_Week_Start",
+          "path": "outputs/cloud-author-monday.png",
+          "sha256": "cc80d63fa6b19ff2261e8c6a5e60c78af619e9f09be5e5784a6417e712010abe",
+          "size": [
+            2600,
+            1400
+          ]
+        },
+        "replica": {
+          "id": "0928b26d-ab9e-4b86-9cd6-7d4f62857c7d",
+          "name": "2020_04_08_WW15_Dynamic_Week_Start",
+          "path": "outputs/cloud-replica-monday.png",
+          "sha256": "cdcf113f5328cd8107a90b6b8eb247ee2793efbbe6c42072273edac2d3ff7564",
+          "size": [
+            2600,
+            1400
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Viz",
+          "view_id": "bc825e77-cb1c-4273-9d01-468ee1d973e1",
+          "scope": "Complete current/prior-week seven-day grid, daily sales including zeros and tooltip dates.",
+          "path": "outputs/cloud-author-grid-monday.csv",
+          "sha256": "209d8ade54344fd4d4a02405339621daa509c25746e427a4ffc17b77ee03ec17",
+          "bytes": 1502
+        },
+        {
+          "role": "replica",
+          "view": "Viz",
+          "view_id": "5cec7b4d-21d4-468b-955c-195dc0b7f740",
+          "scope": "Complete current/prior-week seven-day grid, daily sales including zeros and tooltip dates.",
+          "path": "outputs/cloud-replica-grid-monday.csv",
+          "sha256": "9d5b4e401b646329bbb2708d2937e76220f7a13c3c1531a12a30fe4b4786c732",
+          "bytes": 1334
+        }
+      ]
+    },
+    {
+      "name": "current-only",
+      "parameters": {
+        "1a.Week Ending On": "2019-10-24",
+        "1b.Include X Prior Weeks": 0
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "989c0ba6-05b5-45e7-b157-17aa06ba0800",
+          "name": "2020_04_08_WW15_Dynamic_Week_Start",
+          "path": "outputs/cloud-author-current-only.png",
+          "sha256": "2e23f908c79a09b16282b5ef6ba135bd8747aae184a74397c39b07b36d4be53b",
+          "size": [
+            2600,
+            1400
+          ]
+        },
+        "replica": {
+          "id": "0928b26d-ab9e-4b86-9cd6-7d4f62857c7d",
+          "name": "2020_04_08_WW15_Dynamic_Week_Start",
+          "path": "outputs/cloud-replica-current-only.png",
+          "sha256": "54d9fa527c25e6e22568f6bca7ead2a717847ecd52532bdb342a3a4d7265d74b",
+          "size": [
+            2600,
+            1400
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Viz",
+          "view_id": "bc825e77-cb1c-4273-9d01-468ee1d973e1",
+          "scope": "Complete current/prior-week seven-day grid, daily sales including zeros and tooltip dates.",
+          "path": "outputs/cloud-author-grid-current-only.csv",
+          "sha256": "0f14b786c3c5debe50446266447e54d3830d9482101389d8a997db084b6bcc3d",
+          "bytes": 743
+        },
+        {
+          "role": "replica",
+          "view": "Viz",
+          "view_id": "5cec7b4d-21d4-468b-955c-195dc0b7f740",
+          "scope": "Complete current/prior-week seven-day grid, daily sales including zeros and tooltip dates.",
+          "path": "outputs/cloud-replica-grid-current-only.csv",
+          "sha256": "d44b6ddb06220a1993f2be528aa02e09f77d17b462487fa6662da361100947cb",
+          "bytes": 753
+        }
+      ]
+    }
+  ],
+  "status": "verified",
+  "independent_review": {
+    "visual_status": "acceptable_delta",
+    "visual_evidence": "evidence/visual-review.md",
+    "functional_evidence": "evidence/functional-verification.json",
+    "scope": "Declared REST worksheet exports and artifact contracts; no browser events executed."
+  }
+}

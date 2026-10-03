@@ -1,0 +1,385 @@
+County,Is Selected State County?,Measure Names,Province State Name,Report Date,Days in Trend,Increase | Decrease,Measure Values
+Davidson,False,New Cases,Tennessee,6/7/2020,1,INCREASE,124
+Davidson,False,Reported Cases,Tennessee,6/7/2020,1,INCREASE,"6,156"
+Davidson,False,3 Day Moving Avg,Tennessee,6/7/2020,1,INCREASE,108.333333333
+Davidson,False,14 Day Moving Avg,Tennessee,6/7/2020,1,INCREASE,101.785714286
+Shelby,False,New Cases,Tennessee,6/7/2020,15,INCREASE,96
+Shelby,False,Reported Cases,Tennessee,6/7/2020,15,INCREASE,"5,908"
+Shelby,False,3 Day Moving Avg,Tennessee,6/7/2020,15,INCREASE,120.666666667
+Shelby,False,14 Day Moving Avg,Tennessee,6/7/2020,15,INCREASE,112.285714286
+Trousdale,False,New Cases,Tennessee,6/7/2020,3,DECREASE,0
+Trousdale,False,Reported Cases,Tennessee,6/7/2020,3,DECREASE,"1,394"
+Trousdale,False,3 Day Moving Avg,Tennessee,6/7/2020,3,DECREASE,0
+Trousdale,False,14 Day Moving Avg,Tennessee,6/7/2020,3,DECREASE,0.071428571
+Rutherford,False,New Cases,Tennessee,6/7/2020,6,INCREASE,36
+Rutherford,False,Reported Cases,Tennessee,6/7/2020,6,INCREASE,"1,479"
+Rutherford,False,3 Day Moving Avg,Tennessee,6/7/2020,6,INCREASE,45.333333333
+Rutherford,False,14 Day Moving Avg,Tennessee,6/7/2020,6,INCREASE,34.357142857
+Sumner,False,New Cases,Tennessee,6/7/2020,6,INCREASE,8
+Sumner,False,Reported Cases,Tennessee,6/7/2020,6,INCREASE,975
+Sumner,False,3 Day Moving Avg,Tennessee,6/7/2020,6,INCREASE,12.333333333
+Sumner,False,14 Day Moving Avg,Tennessee,6/7/2020,6,INCREASE,11.714285714
+Williamson,False,New Cases,Tennessee,6/7/2020,5,INCREASE,15
+Williamson,False,Reported Cases,Tennessee,6/7/2020,5,INCREASE,621
+Williamson,False,3 Day Moving Avg,Tennessee,6/7/2020,5,INCREASE,10.666666667
+Williamson,False,14 Day Moving Avg,Tennessee,6/7/2020,5,INCREASE,7.785714286
+Bledsoe,False,New Cases,Tennessee,6/7/2020,7,INCREASE,0
+Bledsoe,False,Reported Cases,Tennessee,6/7/2020,7,INCREASE,614
+Bledsoe,False,3 Day Moving Avg,Tennessee,6/7/2020,7,INCREASE,1.333333333
+Bledsoe,False,14 Day Moving Avg,Tennessee,6/7/2020,7,INCREASE,0.5
+Hamilton,False,New Cases,Tennessee,6/7/2020,3,INCREASE,35
+Hamilton,False,Reported Cases,Tennessee,6/7/2020,3,INCREASE,"1,458"
+Hamilton,False,3 Day Moving Avg,Tennessee,6/7/2020,3,INCREASE,61
+Hamilton,False,14 Day Moving Avg,Tennessee,6/7/2020,3,INCREASE,58.428571429
+Knox,False,New Cases,Tennessee,6/7/2020,2,DECREASE,13
+Knox,False,Reported Cases,Tennessee,6/7/2020,2,DECREASE,487
+Knox,False,3 Day Moving Avg,Tennessee,6/7/2020,2,DECREASE,8
+Knox,False,14 Day Moving Avg,Tennessee,6/7/2020,2,DECREASE,10.428571429
+Wilson,False,New Cases,Tennessee,6/7/2020,1,INCREASE,6
+Wilson,False,Reported Cases,Tennessee,6/7/2020,1,INCREASE,475
+Wilson,False,3 Day Moving Avg,Tennessee,6/7/2020,1,INCREASE,8.666666667
+Wilson,False,14 Day Moving Avg,Tennessee,6/7/2020,1,INCREASE,8.571428571
+Robertson,False,New Cases,Tennessee,6/7/2020,3,DECREASE,8
+Robertson,False,Reported Cases,Tennessee,6/7/2020,3,DECREASE,553
+Robertson,False,3 Day Moving Avg,Tennessee,6/7/2020,3,DECREASE,10
+Robertson,False,14 Day Moving Avg,Tennessee,6/7/2020,3,DECREASE,13
+Tipton,False,New Cases,Tennessee,6/7/2020,6,INCREASE,4
+Tipton,False,Reported Cases,Tennessee,6/7/2020,6,INCREASE,479
+Tipton,False,3 Day Moving Avg,Tennessee,6/7/2020,6,INCREASE,6
+Tipton,False,14 Day Moving Avg,Tennessee,6/7/2020,6,INCREASE,4.142857143
+Putnam,False,New Cases,Tennessee,6/7/2020,3,DECREASE,23
+Putnam,False,Reported Cases,Tennessee,6/7/2020,3,DECREASE,552
+Putnam,False,3 Day Moving Avg,Tennessee,6/7/2020,3,DECREASE,9.333333333
+Putnam,False,14 Day Moving Avg,Tennessee,6/7/2020,3,DECREASE,12.5
+Lake,False,New Cases,Tennessee,6/7/2020,3,DECREASE,0
+Lake,False,Reported Cases,Tennessee,6/7/2020,3,DECREASE,724
+Lake,False,3 Day Moving Avg,Tennessee,6/7/2020,3,DECREASE,-23.333333333
+Lake,False,14 Day Moving Avg,Tennessee,6/7/2020,3,DECREASE,22.5
+Bedford,False,New Cases,Tennessee,6/7/2020,2,INCREASE,11
+Bedford,False,Reported Cases,Tennessee,6/7/2020,2,INCREASE,325
+Bedford,False,3 Day Moving Avg,Tennessee,6/7/2020,2,INCREASE,9.333333333
+Bedford,False,14 Day Moving Avg,Tennessee,6/7/2020,2,INCREASE,4.285714286
+Montgomery,False,New Cases,Tennessee,6/7/2020,3,DECREASE,7
+Montgomery,False,Reported Cases,Tennessee,6/7/2020,3,DECREASE,294
+Montgomery,False,3 Day Moving Avg,Tennessee,6/7/2020,3,DECREASE,2.666666667
+Montgomery,False,14 Day Moving Avg,Tennessee,6/7/2020,3,DECREASE,3.857142857
+Madison,False,New Cases,Tennessee,6/7/2020,1,INCREASE,4
+Madison,False,Reported Cases,Tennessee,6/7/2020,1,INCREASE,178
+Madison,False,3 Day Moving Avg,Tennessee,6/7/2020,1,INCREASE,1.666666667
+Madison,False,14 Day Moving Avg,Tennessee,6/7/2020,1,INCREASE,0.928571429
+Hardeman,False,New Cases,Tennessee,6/7/2020,2,INCREASE,3
+Hardeman,False,Reported Cases,Tennessee,6/7/2020,2,INCREASE,211
+Hardeman,False,3 Day Moving Avg,Tennessee,6/7/2020,2,INCREASE,3
+Hardeman,False,14 Day Moving Avg,Tennessee,6/7/2020,2,INCREASE,1.571428571
+Unknown,False,New Cases,Tennessee,6/7/2020,1,INCREASE,3
+Unknown,False,Reported Cases,Tennessee,6/7/2020,1,INCREASE,170
+Unknown,False,3 Day Moving Avg,Tennessee,6/7/2020,1,INCREASE,4.333333333
+Unknown,False,14 Day Moving Avg,Tennessee,6/7/2020,1,INCREASE,3.642857143
+McMinn,False,New Cases,Tennessee,6/7/2020,2,INCREASE,0
+McMinn,False,Reported Cases,Tennessee,6/7/2020,2,INCREASE,150
+McMinn,False,3 Day Moving Avg,Tennessee,6/7/2020,2,INCREASE,1.333333333
+McMinn,False,14 Day Moving Avg,Tennessee,6/7/2020,2,INCREASE,1.142857143
+Cumberland,False,New Cases,Tennessee,6/7/2020,2,INCREASE,1
+Cumberland,False,Reported Cases,Tennessee,6/7/2020,2,INCREASE,125
+Cumberland,False,3 Day Moving Avg,Tennessee,6/7/2020,2,INCREASE,1.666666667
+Cumberland,False,14 Day Moving Avg,Tennessee,6/7/2020,2,INCREASE,1.142857143
+Dickson,False,New Cases,Tennessee,6/7/2020,1,DECREASE,1
+Dickson,False,Reported Cases,Tennessee,6/7/2020,1,DECREASE,125
+Dickson,False,3 Day Moving Avg,Tennessee,6/7/2020,1,DECREASE,1.666666667
+Dickson,False,14 Day Moving Avg,Tennessee,6/7/2020,1,DECREASE,1.714285714
+Fayette,False,New Cases,Tennessee,6/7/2020,6,INCREASE,-1
+Fayette,False,Reported Cases,Tennessee,6/7/2020,6,INCREASE,151
+Fayette,False,3 Day Moving Avg,Tennessee,6/7/2020,6,INCREASE,5
+Fayette,False,14 Day Moving Avg,Tennessee,6/7/2020,6,INCREASE,3.142857143
+Bradley,False,New Cases,Tennessee,6/7/2020,2,INCREASE,15
+Bradley,False,Reported Cases,Tennessee,6/7/2020,2,INCREASE,199
+Bradley,False,3 Day Moving Avg,Tennessee,6/7/2020,2,INCREASE,11
+Bradley,False,14 Day Moving Avg,Tennessee,6/7/2020,2,INCREASE,7.571428571
+Macon,False,New Cases,Tennessee,6/7/2020,1,DECREASE,1
+Macon,False,Reported Cases,Tennessee,6/7/2020,1,DECREASE,178
+Macon,False,3 Day Moving Avg,Tennessee,6/7/2020,1,DECREASE,4
+Macon,False,14 Day Moving Avg,Tennessee,6/7/2020,1,DECREASE,5.571428571
+Blount,False,New Cases,Tennessee,6/7/2020,9,DECREASE,1
+Blount,False,Reported Cases,Tennessee,6/7/2020,9,DECREASE,94
+Blount,False,3 Day Moving Avg,Tennessee,6/7/2020,9,DECREASE,0.333333333
+Blount,False,14 Day Moving Avg,Tennessee,6/7/2020,9,DECREASE,0.857142857
+Cheatham,False,New Cases,Tennessee,6/7/2020,3,DECREASE,2
+Cheatham,False,Reported Cases,Tennessee,6/7/2020,3,DECREASE,143
+Cheatham,False,3 Day Moving Avg,Tennessee,6/7/2020,3,DECREASE,2.666666667
+Cheatham,False,14 Day Moving Avg,Tennessee,6/7/2020,3,DECREASE,2.785714286
+Loudon,False,New Cases,Tennessee,6/7/2020,1,DECREASE,-1
+Loudon,False,Reported Cases,Tennessee,6/7/2020,1,DECREASE,167
+Loudon,False,3 Day Moving Avg,Tennessee,6/7/2020,1,DECREASE,2
+Loudon,False,14 Day Moving Avg,Tennessee,6/7/2020,1,DECREASE,2.5
+Washington,False,New Cases,Tennessee,6/7/2020,2,INCREASE,0
+Washington,False,Reported Cases,Tennessee,6/7/2020,2,INCREASE,86
+Washington,False,3 Day Moving Avg,Tennessee,6/7/2020,2,INCREASE,3.666666667
+Washington,False,14 Day Moving Avg,Tennessee,6/7/2020,2,INCREASE,0.928571429
+Rhea,False,New Cases,Tennessee,6/7/2020,3,DECREASE,0
+Rhea,False,Reported Cases,Tennessee,6/7/2020,3,DECREASE,218
+Rhea,False,3 Day Moving Avg,Tennessee,6/7/2020,3,DECREASE,0.333333333
+Rhea,False,14 Day Moving Avg,Tennessee,6/7/2020,3,DECREASE,1.642857143
+Maury,False,New Cases,Tennessee,6/7/2020,2,INCREASE,0
+Maury,False,Reported Cases,Tennessee,6/7/2020,2,INCREASE,115
+Maury,False,3 Day Moving Avg,Tennessee,6/7/2020,2,INCREASE,2.666666667
+Maury,False,14 Day Moving Avg,Tennessee,6/7/2020,2,INCREASE,2.642857143
+Sevier,False,New Cases,Tennessee,6/7/2020,6,INCREASE,1
+Sevier,False,Reported Cases,Tennessee,6/7/2020,6,INCREASE,110
+Sevier,False,3 Day Moving Avg,Tennessee,6/7/2020,6,INCREASE,4.333333333
+Sevier,False,14 Day Moving Avg,Tennessee,6/7/2020,6,INCREASE,2.714285714
+Sullivan,False,New Cases,Tennessee,6/7/2020,3,INCREASE,0
+Sullivan,False,Reported Cases,Tennessee,6/7/2020,3,INCREASE,62
+Sullivan,False,3 Day Moving Avg,Tennessee,6/7/2020,3,INCREASE,0.666666667
+Sullivan,False,14 Day Moving Avg,Tennessee,6/7/2020,3,INCREASE,0.071428571
+Gibson,False,New Cases,Tennessee,6/7/2020,2,DECREASE,0
+Gibson,False,Reported Cases,Tennessee,6/7/2020,2,DECREASE,63
+Gibson,False,3 Day Moving Avg,Tennessee,6/7/2020,2,DECREASE,0
+Gibson,False,14 Day Moving Avg,Tennessee,6/7/2020,2,DECREASE,0.214285714
+Coffee,False,New Cases,Tennessee,6/7/2020,1,DECREASE,0
+Coffee,False,Reported Cases,Tennessee,6/7/2020,1,DECREASE,81
+Coffee,False,3 Day Moving Avg,Tennessee,6/7/2020,1,DECREASE,1
+Coffee,False,14 Day Moving Avg,Tennessee,6/7/2020,1,DECREASE,1.142857143
+Greene,False,New Cases,Tennessee,6/7/2020,3,DECREASE,0
+Greene,False,Reported Cases,Tennessee,6/7/2020,3,DECREASE,52
+Greene,False,3 Day Moving Avg,Tennessee,6/7/2020,3,DECREASE,0
+Greene,False,14 Day Moving Avg,Tennessee,6/7/2020,3,DECREASE,0.357142857
+Dyer,False,New Cases,Tennessee,6/7/2020,6,INCREASE,1
+Dyer,False,Reported Cases,Tennessee,6/7/2020,6,INCREASE,61
+Dyer,False,3 Day Moving Avg,Tennessee,6/7/2020,6,INCREASE,1.333333333
+Dyer,False,14 Day Moving Avg,Tennessee,6/7/2020,6,INCREASE,0.928571429
+Franklin,False,New Cases,Tennessee,6/7/2020,7,DECREASE,0
+Franklin,False,Reported Cases,Tennessee,6/7/2020,7,DECREASE,54
+Franklin,False,3 Day Moving Avg,Tennessee,6/7/2020,7,DECREASE,0
+Franklin,False,14 Day Moving Avg,Tennessee,6/7/2020,7,DECREASE,0.571428571
+Hickman,False,New Cases,Tennessee,6/7/2020,1,DECREASE,-3
+Hickman,False,Reported Cases,Tennessee,6/7/2020,1,DECREASE,59
+Hickman,False,3 Day Moving Avg,Tennessee,6/7/2020,1,DECREASE,0.333333333
+Hickman,False,14 Day Moving Avg,Tennessee,6/7/2020,1,DECREASE,0.428571429
+Monroe,False,New Cases,Tennessee,6/7/2020,1,DECREASE,0
+Monroe,False,Reported Cases,Tennessee,6/7/2020,1,DECREASE,75
+Monroe,False,3 Day Moving Avg,Tennessee,6/7/2020,1,DECREASE,1.333333333
+Monroe,False,14 Day Moving Avg,Tennessee,6/7/2020,1,DECREASE,1.357142857
+Marion,False,New Cases,Tennessee,6/7/2020,1,DECREASE,0
+Marion,False,Reported Cases,Tennessee,6/7/2020,1,DECREASE,45
+Marion,False,3 Day Moving Avg,Tennessee,6/7/2020,1,DECREASE,0.333333333
+Marion,False,14 Day Moving Avg,Tennessee,6/7/2020,1,DECREASE,0.642857143
+Lauderdale,False,New Cases,Tennessee,6/7/2020,3,DECREASE,0
+Lauderdale,False,Reported Cases,Tennessee,6/7/2020,3,DECREASE,60
+Lauderdale,False,3 Day Moving Avg,Tennessee,6/7/2020,3,DECREASE,0.333333333
+Lauderdale,False,14 Day Moving Avg,Tennessee,6/7/2020,3,DECREASE,0.642857143
+Anderson,False,New Cases,Tennessee,6/7/2020,2,INCREASE,2
+Anderson,False,Reported Cases,Tennessee,6/7/2020,2,INCREASE,47
+Anderson,False,3 Day Moving Avg,Tennessee,6/7/2020,2,INCREASE,1.666666667
+Anderson,False,14 Day Moving Avg,Tennessee,6/7/2020,2,INCREASE,0.571428571
+Hawkins,False,New Cases,Tennessee,6/7/2020,3,DECREASE,0
+Hawkins,False,Reported Cases,Tennessee,6/7/2020,3,DECREASE,34
+Hawkins,False,3 Day Moving Avg,Tennessee,6/7/2020,3,DECREASE,0
+Hawkins,False,14 Day Moving Avg,Tennessee,6/7/2020,3,DECREASE,0.214285714
+Grundy,False,New Cases,Tennessee,6/7/2020,3,INCREASE,0
+Grundy,False,Reported Cases,Tennessee,6/7/2020,3,INCREASE,32
+Grundy,False,3 Day Moving Avg,Tennessee,6/7/2020,3,INCREASE,0.333333333
+Grundy,False,14 Day Moving Avg,Tennessee,6/7/2020,3,INCREASE,0.071428571
+Wayne,False,New Cases,Tennessee,6/7/2020,6,DECREASE,0
+Wayne,False,Reported Cases,Tennessee,6/7/2020,6,DECREASE,64
+Wayne,False,3 Day Moving Avg,Tennessee,6/7/2020,6,DECREASE,0
+Wayne,False,14 Day Moving Avg,Tennessee,6/7/2020,6,DECREASE,0.071428571
+DeKalb,False,New Cases,Tennessee,6/7/2020,5,DECREASE,0
+DeKalb,False,Reported Cases,Tennessee,6/7/2020,5,DECREASE,39
+DeKalb,False,3 Day Moving Avg,Tennessee,6/7/2020,5,DECREASE,0.333333333
+DeKalb,False,14 Day Moving Avg,Tennessee,6/7/2020,5,DECREASE,0.428571429
+Jefferson,False,New Cases,Tennessee,6/7/2020,1,DECREASE,0
+Jefferson,False,Reported Cases,Tennessee,6/7/2020,1,DECREASE,29
+Jefferson,False,3 Day Moving Avg,Tennessee,6/7/2020,1,DECREASE,0
+Jefferson,False,14 Day Moving Avg,Tennessee,6/7/2020,1,DECREASE,0.142857143
+Haywood,False,New Cases,Tennessee,6/7/2020,1,INCREASE,2
+Haywood,False,Reported Cases,Tennessee,6/7/2020,1,INCREASE,36
+Haywood,False,3 Day Moving Avg,Tennessee,6/7/2020,1,INCREASE,1
+Haywood,False,14 Day Moving Avg,Tennessee,6/7/2020,1,INCREASE,0.5
+Marshall,False,New Cases,Tennessee,6/7/2020,5,INCREASE,0
+Marshall,False,Reported Cases,Tennessee,6/7/2020,5,INCREASE,36
+Marshall,False,3 Day Moving Avg,Tennessee,6/7/2020,5,INCREASE,1
+Marshall,False,14 Day Moving Avg,Tennessee,6/7/2020,5,INCREASE,0.642857143
+Smith,False,New Cases,Tennessee,6/7/2020,3,DECREASE,0
+Smith,False,Reported Cases,Tennessee,6/7/2020,3,DECREASE,36
+Smith,False,3 Day Moving Avg,Tennessee,6/7/2020,3,DECREASE,0
+Smith,False,14 Day Moving Avg,Tennessee,6/7/2020,3,DECREASE,0.428571429
+Hamblen,False,New Cases,Tennessee,6/7/2020,3,DECREASE,0
+Hamblen,False,Reported Cases,Tennessee,6/7/2020,3,DECREASE,45
+Hamblen,False,3 Day Moving Avg,Tennessee,6/7/2020,3,DECREASE,1
+Hamblen,False,14 Day Moving Avg,Tennessee,6/7/2020,3,DECREASE,1.357142857
+Carroll,False,New Cases,Tennessee,6/7/2020,3,DECREASE,0
+Carroll,False,Reported Cases,Tennessee,6/7/2020,3,DECREASE,28
+Carroll,False,3 Day Moving Avg,Tennessee,6/7/2020,3,DECREASE,0
+Carroll,False,14 Day Moving Avg,Tennessee,6/7/2020,3,DECREASE,0.071428571
+Lawrence,False,New Cases,Tennessee,6/7/2020,3,INCREASE,2
+Lawrence,False,Reported Cases,Tennessee,6/7/2020,3,INCREASE,38
+Lawrence,False,3 Day Moving Avg,Tennessee,6/7/2020,3,INCREASE,1.666666667
+Lawrence,False,14 Day Moving Avg,Tennessee,6/7/2020,3,INCREASE,1
+Weakley,False,New Cases,Tennessee,6/7/2020,4,DECREASE,0
+Weakley,False,Reported Cases,Tennessee,6/7/2020,4,DECREASE,26
+Weakley,False,3 Day Moving Avg,Tennessee,6/7/2020,4,DECREASE,0
+Weakley,False,14 Day Moving Avg,Tennessee,6/7/2020,4,DECREASE,0
+Obion,False,New Cases,Tennessee,6/7/2020,6,INCREASE,4
+Obion,False,Reported Cases,Tennessee,6/7/2020,6,INCREASE,56
+Obion,False,3 Day Moving Avg,Tennessee,6/7/2020,6,INCREASE,3.666666667
+Obion,False,14 Day Moving Avg,Tennessee,6/7/2020,6,INCREASE,2.285714286
+Henry,False,New Cases,Tennessee,6/7/2020,1,DECREASE,0
+Henry,False,Reported Cases,Tennessee,6/7/2020,1,DECREASE,32
+Henry,False,3 Day Moving Avg,Tennessee,6/7/2020,1,DECREASE,0
+Henry,False,14 Day Moving Avg,Tennessee,6/7/2020,1,DECREASE,0.214285714
+Lincoln,False,New Cases,Tennessee,6/7/2020,6,INCREASE,0
+Lincoln,False,Reported Cases,Tennessee,6/7/2020,6,INCREASE,32
+Lincoln,False,3 Day Moving Avg,Tennessee,6/7/2020,6,INCREASE,1
+Lincoln,False,14 Day Moving Avg,Tennessee,6/7/2020,6,INCREASE,0.5
+Campbell,True,New Cases,Tennessee,6/7/2020,6,DECREASE,0
+Campbell,True,Reported Cases,Tennessee,6/7/2020,6,DECREASE,18
+Campbell,True,3 Day Moving Avg,Tennessee,6/7/2020,6,DECREASE,0
+Campbell,True,14 Day Moving Avg,Tennessee,6/7/2020,6,DECREASE,0.071428571
+Cocke,False,New Cases,Tennessee,6/7/2020,3,DECREASE,0
+Cocke,False,Reported Cases,Tennessee,6/7/2020,3,DECREASE,21
+Cocke,False,3 Day Moving Avg,Tennessee,6/7/2020,3,DECREASE,0
+Cocke,False,14 Day Moving Avg,Tennessee,6/7/2020,3,DECREASE,0.071428571
+White,False,New Cases,Tennessee,6/7/2020,2,INCREASE,3
+White,False,Reported Cases,Tennessee,6/7/2020,2,INCREASE,41
+White,False,3 Day Moving Avg,Tennessee,6/7/2020,2,INCREASE,2.666666667
+White,False,14 Day Moving Avg,Tennessee,6/7/2020,2,INCREASE,1
+Meigs,False,New Cases,Tennessee,6/7/2020,8,DECREASE,0
+Meigs,False,Reported Cases,Tennessee,6/7/2020,8,DECREASE,27
+Meigs,False,3 Day Moving Avg,Tennessee,6/7/2020,8,DECREASE,0
+Meigs,False,14 Day Moving Avg,Tennessee,6/7/2020,8,DECREASE,0.142857143
+Cannon,False,New Cases,Tennessee,6/7/2020,3,DECREASE,0
+Cannon,False,Reported Cases,Tennessee,6/7/2020,3,DECREASE,32
+Cannon,False,3 Day Moving Avg,Tennessee,6/7/2020,3,DECREASE,0
+Cannon,False,14 Day Moving Avg,Tennessee,6/7/2020,3,DECREASE,1.071428571
+Overton,False,New Cases,Tennessee,6/7/2020,3,DECREASE,1
+Overton,False,Reported Cases,Tennessee,6/7/2020,3,DECREASE,35
+Overton,False,3 Day Moving Avg,Tennessee,6/7/2020,3,DECREASE,1
+Overton,False,14 Day Moving Avg,Tennessee,6/7/2020,3,DECREASE,1.071428571
+Carter,False,New Cases,Tennessee,6/7/2020,29,DECREASE,0
+Carter,False,Reported Cases,Tennessee,6/7/2020,29,DECREASE,19
+Carter,False,3 Day Moving Avg,Tennessee,6/7/2020,29,DECREASE,0
+Carter,False,14 Day Moving Avg,Tennessee,6/7/2020,29,DECREASE,0
+Warren,False,New Cases,Tennessee,6/7/2020,2,INCREASE,0
+Warren,False,Reported Cases,Tennessee,6/7/2020,2,INCREASE,28
+Warren,False,3 Day Moving Avg,Tennessee,6/7/2020,2,INCREASE,0.666666667
+Warren,False,14 Day Moving Avg,Tennessee,6/7/2020,2,INCREASE,0.642857143
+Perry,False,New Cases,Tennessee,6/7/2020,3,DECREASE,0
+Perry,False,Reported Cases,Tennessee,6/7/2020,3,DECREASE,24
+Perry,False,3 Day Moving Avg,Tennessee,6/7/2020,3,DECREASE,0
+Perry,False,14 Day Moving Avg,Tennessee,6/7/2020,3,DECREASE,0.785714286
+McNairy,False,New Cases,Tennessee,6/7/2020,2,INCREASE,4
+McNairy,False,Reported Cases,Tennessee,6/7/2020,2,INCREASE,23
+McNairy,False,3 Day Moving Avg,Tennessee,6/7/2020,2,INCREASE,2.666666667
+McNairy,False,14 Day Moving Avg,Tennessee,6/7/2020,2,INCREASE,0.785714286
+Scott,False,New Cases,Tennessee,6/7/2020,3,INCREASE,1
+Scott,False,Reported Cases,Tennessee,6/7/2020,3,INCREASE,14
+Scott,False,3 Day Moving Avg,Tennessee,6/7/2020,3,INCREASE,0.666666667
+Scott,False,14 Day Moving Avg,Tennessee,6/7/2020,3,INCREASE,0.214285714
+Chester,False,New Cases,Tennessee,6/7/2020,11,DECREASE,0
+Chester,False,Reported Cases,Tennessee,6/7/2020,11,DECREASE,12
+Chester,False,3 Day Moving Avg,Tennessee,6/7/2020,11,DECREASE,0
+Chester,False,14 Day Moving Avg,Tennessee,6/7/2020,11,DECREASE,0
+Polk,False,New Cases,Tennessee,6/7/2020,2,INCREASE,0
+Polk,False,Reported Cases,Tennessee,6/7/2020,2,INCREASE,21
+Polk,False,3 Day Moving Avg,Tennessee,6/7/2020,2,INCREASE,0.666666667
+Polk,False,14 Day Moving Avg,Tennessee,6/7/2020,2,INCREASE,0.5
+Jackson,False,New Cases,Tennessee,6/7/2020,3,DECREASE,0
+Jackson,False,Reported Cases,Tennessee,6/7/2020,3,DECREASE,19
+Jackson,False,3 Day Moving Avg,Tennessee,6/7/2020,3,DECREASE,0
+Jackson,False,14 Day Moving Avg,Tennessee,6/7/2020,3,DECREASE,0.142857143
+Morgan,False,New Cases,Tennessee,6/7/2020,3,INCREASE,1
+Morgan,False,Reported Cases,Tennessee,6/7/2020,3,INCREASE,19
+Morgan,False,3 Day Moving Avg,Tennessee,6/7/2020,3,INCREASE,0.666666667
+Morgan,False,14 Day Moving Avg,Tennessee,6/7/2020,3,INCREASE,0.142857143
+Roane,False,New Cases,Tennessee,6/7/2020,2,INCREASE,2
+Roane,False,Reported Cases,Tennessee,6/7/2020,2,INCREASE,21
+Roane,False,3 Day Moving Avg,Tennessee,6/7/2020,2,INCREASE,1.666666667
+Roane,False,14 Day Moving Avg,Tennessee,6/7/2020,2,INCREASE,0.428571429
+Humphreys,False,New Cases,Tennessee,6/7/2020,6,INCREASE,0
+Humphreys,False,Reported Cases,Tennessee,6/7/2020,6,INCREASE,16
+Humphreys,False,3 Day Moving Avg,Tennessee,6/7/2020,6,INCREASE,0.333333333
+Humphreys,False,14 Day Moving Avg,Tennessee,6/7/2020,6,INCREASE,0.285714286
+Crockett,False,New Cases,Tennessee,6/7/2020,11,DECREASE,0
+Crockett,False,Reported Cases,Tennessee,6/7/2020,11,DECREASE,16
+Crockett,False,3 Day Moving Avg,Tennessee,6/7/2020,11,DECREASE,0
+Crockett,False,14 Day Moving Avg,Tennessee,6/7/2020,11,DECREASE,0.071428571
+Giles,False,New Cases,Tennessee,6/7/2020,4,INCREASE,1
+Giles,False,Reported Cases,Tennessee,6/7/2020,4,INCREASE,18
+Giles,False,3 Day Moving Avg,Tennessee,6/7/2020,4,INCREASE,1.666666667
+Giles,False,14 Day Moving Avg,Tennessee,6/7/2020,4,INCREASE,0.428571429
+Johnson,False,New Cases,Tennessee,6/7/2020,1,INCREASE,1
+Johnson,False,Reported Cases,Tennessee,6/7/2020,1,INCREASE,21
+Johnson,False,3 Day Moving Avg,Tennessee,6/7/2020,1,INCREASE,0.666666667
+Johnson,False,14 Day Moving Avg,Tennessee,6/7/2020,1,INCREASE,0.428571429
+Henderson,False,New Cases,Tennessee,6/7/2020,7,DECREASE,0
+Henderson,False,Reported Cases,Tennessee,6/7/2020,7,DECREASE,15
+Henderson,False,3 Day Moving Avg,Tennessee,6/7/2020,7,DECREASE,0
+Henderson,False,14 Day Moving Avg,Tennessee,6/7/2020,7,DECREASE,0.214285714
+Hardin,False,New Cases,Tennessee,6/7/2020,1,INCREASE,8
+Hardin,False,Reported Cases,Tennessee,6/7/2020,1,INCREASE,31
+Hardin,False,3 Day Moving Avg,Tennessee,6/7/2020,1,INCREASE,3
+Hardin,False,14 Day Moving Avg,Tennessee,6/7/2020,1,INCREASE,1.428571429
+Sequatchie,False,New Cases,Tennessee,6/7/2020,3,DECREASE,0
+Sequatchie,False,Reported Cases,Tennessee,6/7/2020,3,DECREASE,20
+Sequatchie,False,3 Day Moving Avg,Tennessee,6/7/2020,3,DECREASE,0
+Sequatchie,False,14 Day Moving Avg,Tennessee,6/7/2020,3,DECREASE,0.714285714
+Stewart,False,New Cases,Tennessee,6/7/2020,2,INCREASE,0
+Stewart,False,Reported Cases,Tennessee,6/7/2020,2,INCREASE,15
+Stewart,False,3 Day Moving Avg,Tennessee,6/7/2020,2,INCREASE,0.666666667
+Stewart,False,14 Day Moving Avg,Tennessee,6/7/2020,2,INCREASE,0.428571429
+Claiborne,False,New Cases,Tennessee,6/7/2020,1,INCREASE,2
+Claiborne,False,Reported Cases,Tennessee,6/7/2020,1,INCREASE,14
+Claiborne,False,3 Day Moving Avg,Tennessee,6/7/2020,1,INCREASE,0.666666667
+Claiborne,False,14 Day Moving Avg,Tennessee,6/7/2020,1,INCREASE,0.428571429
+Unicoi,False,New Cases,Tennessee,6/7/2020,3,DECREASE,0
+Unicoi,False,Reported Cases,Tennessee,6/7/2020,3,DECREASE,52
+Unicoi,False,3 Day Moving Avg,Tennessee,6/7/2020,3,DECREASE,1.333333333
+Unicoi,False,14 Day Moving Avg,Tennessee,6/7/2020,3,DECREASE,3.5
+Fentress,False,New Cases,Tennessee,6/7/2020,11,DECREASE,0
+Fentress,False,Reported Cases,Tennessee,6/7/2020,11,DECREASE,12
+Fentress,False,3 Day Moving Avg,Tennessee,6/7/2020,11,DECREASE,0
+Fentress,False,14 Day Moving Avg,Tennessee,6/7/2020,11,DECREASE,0.142857143
+Benton,False,New Cases,Tennessee,6/7/2020,2,INCREASE,0
+Benton,False,Reported Cases,Tennessee,6/7/2020,2,INCREASE,8
+Benton,False,3 Day Moving Avg,Tennessee,6/7/2020,2,INCREASE,0.333333333
+Benton,False,14 Day Moving Avg,Tennessee,6/7/2020,2,INCREASE,0.071428571
+Grainger,False,New Cases,Tennessee,6/7/2020,9,INCREASE,0
+Grainger,False,Reported Cases,Tennessee,6/7/2020,9,INCREASE,16
+Grainger,False,3 Day Moving Avg,Tennessee,6/7/2020,9,INCREASE,1
+Grainger,False,14 Day Moving Avg,Tennessee,6/7/2020,9,INCREASE,0.714285714
+Houston,False,New Cases,Tennessee,6/7/2020,9,DECREASE,0
+Houston,False,Reported Cases,Tennessee,6/7/2020,9,DECREASE,8
+Houston,False,3 Day Moving Avg,Tennessee,6/7/2020,9,DECREASE,0
+Houston,False,14 Day Moving Avg,Tennessee,6/7/2020,9,DECREASE,0.071428571
+Clay,False,New Cases,Tennessee,6/7/2020,3,DECREASE,0
+Clay,False,Reported Cases,Tennessee,6/7/2020,3,DECREASE,8
+Clay,False,3 Day Moving Avg,Tennessee,6/7/2020,3,DECREASE,0
+Clay,False,14 Day Moving Avg,Tennessee,6/7/2020,3,DECREASE,0.071428571
+Decatur,False,New Cases,Tennessee,6/7/2020,2,INCREASE,2
+Decatur,False,Reported Cases,Tennessee,6/7/2020,2,INCREASE,8
+Decatur,False,3 Day Moving Avg,Tennessee,6/7/2020,2,INCREASE,1
+Decatur,False,14 Day Moving Avg,Tennessee,6/7/2020,2,INCREASE,0.214285714
+Union,False,New Cases,Tennessee,6/7/2020,5,DECREASE,0
+Union,False,Reported Cases,Tennessee,6/7/2020,5,DECREASE,4
+Union,False,3 Day Moving Avg,Tennessee,6/7/2020,5,DECREASE,0
+Union,False,14 Day Moving Avg,Tennessee,6/7/2020,5,DECREASE,0
+Lewis,False,New Cases,Tennessee,6/7/2020,1,INCREASE,1
+Lewis,False,Reported Cases,Tennessee,6/7/2020,1,INCREASE,4
+Lewis,False,3 Day Moving Avg,Tennessee,6/7/2020,1,INCREASE,0.333333333
+Lewis,False,14 Day Moving Avg,Tennessee,6/7/2020,1,INCREASE,0.071428571
+Moore,False,New Cases,Tennessee,6/7/2020,2,DECREASE,0
+Moore,False,Reported Cases,Tennessee,6/7/2020,2,DECREASE,5
+Moore,False,3 Day Moving Avg,Tennessee,6/7/2020,2,DECREASE,0
+Moore,False,14 Day Moving Avg,Tennessee,6/7/2020,2,DECREASE,0.142857143
+Van Buren,False,New Cases,Tennessee,6/7/2020,18,DECREASE,0
+Van Buren,False,Reported Cases,Tennessee,6/7/2020,18,DECREASE,4
+Van Buren,False,3 Day Moving Avg,Tennessee,6/7/2020,18,DECREASE,0
+Van Buren,False,14 Day Moving Avg,Tennessee,6/7/2020,18,DECREASE,0
+Pickett,False,New Cases,Tennessee,6/7/2020,2,INCREASE,0
+Pickett,False,Reported Cases,Tennessee,6/7/2020,2,INCREASE,4
+Pickett,False,3 Day Moving Avg,Tennessee,6/7/2020,2,INCREASE,0.333333333
+Pickett,False,14 Day Moving Avg,Tennessee,6/7/2020,2,INCREASE,0.071428571
+Hancock,False,New Cases,Tennessee,6/7/2020,1,INCREASE,1
+Hancock,False,Reported Cases,Tennessee,6/7/2020,1,INCREASE,2
+Hancock,False,3 Day Moving Avg,Tennessee,6/7/2020,1,INCREASE,0.333333333
+Hancock,False,14 Day Moving Avg,Tennessee,6/7/2020,1,INCREASE,0.071428571

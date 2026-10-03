@@ -1,0 +1,7 @@
+# WW18 most profitable products
+
+Article 2020-05-03; official challenge 2020-04-28 (WordPress 3643, Week 18). Data is the original extracted Superstore Hyper, locked by checksum. The analysis-only workbook is never read by the builder.
+
+A parameter-driven profit Top N set divides subcategories into individual groups and All Others. Products are ranked by aggregate profit/sales within each group; the remaining products form one row with summed sales/profit and a recomputed margin. Selecting a group updates a string parameter; selecting it again emits the empty string and collapses it. Table calculations explicitly address Product Name, leaving subcategory group as the partition. Hidden source-product/rank fields preserve computation grain.
+
+Acceptance covers default 3/5, Copiers expanded, 1/2 collapsed, and All Others expanded. The independent oracle groups all input records and checks every visible product, valid tied-margin selection and exact remainder totals. The initial REST export confirmed full detail, group subtotals and grandtotal rows are available; the verifier checks all these values directly against raw grouped sales/profit. Images separately establish visible placement. No browser events are executed. Potential visual deltas include footer text and tied product order. Public Automatic subtotal mode preserves native recomputation at total grain, avoiding summed margins; rendered total values remain subject to Cloud comparison.

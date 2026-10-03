@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "source_workbook": {
+    "filename": "2020_04_15_WW16_Pipeline_v_AdjustedTarget.twbx",
+    "bytes": 205587,
+    "sha256": "0f662a454eac6e9918abd03ec1e58148682386237ab6a596bd6bc723cc6e631f",
+    "url": "https://public.tableau.com/profile/donna.coles#!/vizhome/2020_04_15_WW16_Pipeline_v_AdjustedTarget/2020_04_15_Pipeline_V_AdjustedTarget"
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Datasources/Monthly Target (2020_04_15_WW16_Sales Pipeline).hyper",
+      "file": "inputs/Monthly Target (2020_04_15_WW16_Sales Pipeline).hyper",
+      "bytes": 65536,
+      "sha256": "1c04743ba0556a42ff45103d63087b3f10cb96780e0d4b07adf6075a3c63161f"
+    },
+    {
+      "archive_path": "Data/Datasources/Pipeline (2020_04_15_WW16_Sales Pipeline).hyper",
+      "file": "inputs/Pipeline (2020_04_15_WW16_Sales Pipeline).hyper",
+      "bytes": 655360,
+      "sha256": "0f61719ecf9186cab6dda68da93eec2df3bf2a29538e964191d2bad1646337d1"
+    }
+  ],
+  "source_workbook_used_by_builder": false,
+  "article": {
+    "url": "https://donnacoles.home.blog/2020/04/17/can-you-show-the-adjusted-target-and-missing-pipeline/",
+    "sha256": "83ef1d99210aff4dfca764ddaf4ef7a43d769b952f22081a7fe83452aa126b56"
+  },
+  "challenge": {
+    "url": "https://www.workout-wednesday.com/2020w16/",
+    "wordpress_post_id": 3619,
+    "date": "2020-04-14"
+  },
+  "data_files": {
+    "inputs/Monthly Target (2020_04_15_WW16_Sales Pipeline).hyper": "1c04743ba0556a42ff45103d63087b3f10cb96780e0d4b07adf6075a3c63161f",
+    "inputs/Pipeline (2020_04_15_WW16_Sales Pipeline).hyper": "0f61719ecf9186cab6dda68da93eec2df3bf2a29538e964191d2bad1646337d1"
+  }
+}

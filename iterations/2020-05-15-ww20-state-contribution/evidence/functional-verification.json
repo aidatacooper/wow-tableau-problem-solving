@@ -1,0 +1,559 @@
+{
+  "status": "pass",
+  "artifact_sha256": "0d4e7ef4677364fad92333f9449498d7ed26c39cf6da207913c79b8416964482",
+  "source_rows": 9994,
+  "overall": {
+    "sales": 2297200.8602999486,
+    "orders": 5009,
+    "customers": 793
+  },
+  "initial_selected": {
+    "sales": 206905.21099999995,
+    "orders": 486,
+    "customers": 369
+  },
+  "states": {
+    "default": {
+      "states": {
+        "New York": {
+          "sales": 310876.27100000007,
+          "orders": 562,
+          "customers": 415
+        },
+        "Kentucky": {
+          "sales": 36591.75,
+          "orders": 61,
+          "customers": 58
+        },
+        "Wisconsin": {
+          "sales": 32114.61000000002,
+          "orders": 53,
+          "customers": 52
+        },
+        "Arkansas": {
+          "sales": 11678.129999999997,
+          "orders": 27,
+          "customers": 27
+        },
+        "New Hampshire": {
+          "sales": 7292.523999999999,
+          "orders": 17,
+          "customers": 17
+        },
+        "Colorado": {
+          "sales": 32108.118000000002,
+          "orders": 79,
+          "customers": 75
+        },
+        "Wyoming": {
+          "sales": 1603.1360000000002,
+          "orders": 1,
+          "customers": 1
+        },
+        "Alabama": {
+          "sales": 19510.639999999992,
+          "orders": 34,
+          "customers": 34
+        },
+        "West Virginia": {
+          "sales": 1209.824,
+          "orders": 2,
+          "customers": 2
+        },
+        "Tennessee": {
+          "sales": 30661.872999999985,
+          "orders": 91,
+          "customers": 84
+        },
+        "Connecticut": {
+          "sales": 13384.356999999996,
+          "orders": 45,
+          "customers": 43
+        },
+        "Minnesota": {
+          "sales": 29863.149999999987,
+          "orders": 44,
+          "customers": 42
+        },
+        "Missouri": {
+          "sales": 22205.149999999998,
+          "orders": 30,
+          "customers": 28
+        },
+        "South Dakota": {
+          "sales": 1315.56,
+          "orders": 5,
+          "customers": 5
+        },
+        "Oregon": {
+          "sales": 17431.15,
+          "orders": 56,
+          "customers": 51
+        },
+        "Illinois": {
+          "sales": 80166.10099999992,
+          "orders": 276,
+          "customers": 237
+        },
+        "California": {
+          "sales": 457687.63150000136,
+          "orders": 1021,
+          "customers": 577
+        },
+        "Montana": {
+          "sales": 5589.351999999997,
+          "orders": 8,
+          "customers": 8
+        },
+        "Nebraska": {
+          "sales": 7464.929999999999,
+          "orders": 23,
+          "customers": 23
+        },
+        "Iowa": {
+          "sales": 4579.759999999999,
+          "orders": 17,
+          "customers": 17
+        },
+        "Idaho": {
+          "sales": 4382.486,
+          "orders": 11,
+          "customers": 11
+        },
+        "Texas": {
+          "sales": 170188.0458000001,
+          "orders": 487,
+          "customers": 370
+        },
+        "District of Columbia": {
+          "sales": 2865.0199999999995,
+          "orders": 4,
+          "customers": 4
+        },
+        "Ohio": {
+          "sales": 78258.13600000004,
+          "orders": 236,
+          "customers": 202
+        },
+        "Louisiana": {
+          "sales": 9217.029999999997,
+          "orders": 21,
+          "customers": 21
+        },
+        "Michigan": {
+          "sales": 76269.614,
+          "orders": 117,
+          "customers": 106
+        },
+        "South Carolina": {
+          "sales": 8481.71,
+          "orders": 20,
+          "customers": 19
+        },
+        "Massachusetts": {
+          "sales": 28634.434000000016,
+          "orders": 62,
+          "customers": 62
+        },
+        "Rhode Island": {
+          "sales": 22627.956,
+          "orders": 25,
+          "customers": 25
+        },
+        "Washington": {
+          "sales": 138641.27,
+          "orders": 256,
+          "customers": 224
+        },
+        "Maryland": {
+          "sales": 23705.523000000005,
+          "orders": 46,
+          "customers": 45
+        },
+        "Mississippi": {
+          "sales": 10771.339999999998,
+          "orders": 26,
+          "customers": 25
+        },
+        "New Jersey": {
+          "sales": 35764.312000000005,
+          "orders": 61,
+          "customers": 61
+        },
+        "Indiana": {
+          "sales": 53555.36000000001,
+          "orders": 73,
+          "customers": 70
+        },
+        "Kansas": {
+          "sales": 2914.31,
+          "orders": 14,
+          "customers": 14
+        },
+        "Oklahoma": {
+          "sales": 19683.39,
+          "orders": 34,
+          "customers": 34
+        },
+        "North Dakota": {
+          "sales": 919.91,
+          "orders": 2,
+          "customers": 2
+        },
+        "Virginia": {
+          "sales": 70636.72000000003,
+          "orders": 115,
+          "customers": 107
+        },
+        "Florida": {
+          "sales": 89473.70799999996,
+          "orders": 200,
+          "customers": 181
+        },
+        "Utah": {
+          "sales": 11220.055999999997,
+          "orders": 26,
+          "customers": 26
+        },
+        "Vermont": {
+          "sales": 8929.369999999999,
+          "orders": 6,
+          "customers": 5
+        },
+        "Georgia": {
+          "sales": 49095.84000000002,
+          "orders": 91,
+          "customers": 83
+        },
+        "Arizona": {
+          "sales": 35282.001000000004,
+          "orders": 108,
+          "customers": 100
+        },
+        "Pennsylvania": {
+          "sales": 116511.91399999992,
+          "orders": 288,
+          "customers": 257
+        },
+        "North Carolina": {
+          "sales": 55603.163999999946,
+          "orders": 136,
+          "customers": 122
+        },
+        "New Mexico": {
+          "sales": 4783.522,
+          "orders": 22,
+          "customers": 22
+        },
+        "Delaware": {
+          "sales": 27451.06899999999,
+          "orders": 44,
+          "customers": 43
+        },
+        "Maine": {
+          "sales": 1270.5299999999997,
+          "orders": 3,
+          "customers": 3
+        },
+        "Nevada": {
+          "sales": 16729.102000000003,
+          "orders": 23,
+          "customers": 23
+        }
+      },
+      "list": [
+        "Alabama",
+        "Illinois",
+        "Kentucky",
+        "Virginia"
+      ],
+      "sales_share": 0.09006840219143225,
+      "orders_share": 0.09702535436214814,
+      "customer_share": 0.46532156368221944,
+      "selected": {
+        "sales": 206905.21099999995,
+        "orders": 486,
+        "customers": 369
+      },
+      "visible_total": {
+        "sales": 2297200.8602999486,
+        "orders": 5009,
+        "customers": 793
+      }
+    },
+    "selected-only": {
+      "states": {
+        "Illinois": {
+          "sales": 80166.10099999992,
+          "orders": 276,
+          "customers": 237
+        },
+        "Alabama": {
+          "sales": 19510.639999999992,
+          "orders": 34,
+          "customers": 34
+        },
+        "Kentucky": {
+          "sales": 36591.75,
+          "orders": 61,
+          "customers": 58
+        },
+        "Virginia": {
+          "sales": 70636.72000000003,
+          "orders": 115,
+          "customers": 107
+        }
+      },
+      "list": [
+        "Alabama",
+        "Illinois",
+        "Kentucky",
+        "Virginia"
+      ],
+      "sales_share": 1.0,
+      "orders_share": 1.0,
+      "customer_share": 0.46532156368221944,
+      "selected": {
+        "sales": 206905.21099999995,
+        "orders": 486,
+        "customers": 369
+      },
+      "visible_total": {
+        "sales": 206905.21099999995,
+        "orders": 486,
+        "customers": 369
+      }
+    },
+    "alabama": {
+      "states": {
+        "Alabama": {
+          "sales": 19510.639999999992,
+          "orders": 34,
+          "customers": 34
+        }
+      },
+      "list": [
+        "Alabama"
+      ],
+      "sales_share": 1.0,
+      "orders_share": 1.0,
+      "customer_share": 0.46532156368221944,
+      "selected": {
+        "sales": 19510.639999999992,
+        "orders": 34,
+        "customers": 34
+      },
+      "visible_total": {
+        "sales": 19510.639999999992,
+        "orders": 34,
+        "customers": 34
+      }
+    }
+  },
+  "independent_set_event_outcomes": {
+    "add-california": {
+      "sales": 664592.8425000004,
+      "orders": 1507,
+      "customers": 670
+    },
+    "remove-illinois": {
+      "sales": 126739.11000000003,
+      "orders": 210,
+      "customers": 186
+    },
+    "cleared-selection-keeps-members": {
+      "sales": 206905.21099999995,
+      "orders": 486,
+      "customers": 369
+    },
+    "empty-set": {
+      "sales": 0,
+      "orders": 0,
+      "customers": 0
+    }
+  },
+  "browser_interaction_executed": false,
+  "scope": "Every state Sales/distinct orders/distinct customers, selected list and complete contribution bars. Customer share uses a global distinct numerator and denominator, not summed per-state customer counts. REST states filter State; they do not mutate set membership.",
+  "cloud_checks": [
+    {
+      "path": "outputs/cloud-author-map.csv",
+      "status": "pass",
+      "view": "Map",
+      "rows": 49
+    },
+    {
+      "path": "outputs/cloud-author-state-list.csv",
+      "status": "pass",
+      "view": "State List",
+      "rows": 4
+    },
+    {
+      "path": "outputs/cloud-author-sales.csv",
+      "status": "pass",
+      "view": "Sales",
+      "rows": 2
+    },
+    {
+      "path": "outputs/cloud-author-orders.csv",
+      "status": "pass",
+      "view": "Orders",
+      "rows": 2
+    },
+    {
+      "path": "outputs/cloud-author-customers.csv",
+      "status": "pass",
+      "view": "Customers",
+      "rows": 2
+    },
+    {
+      "path": "outputs/cloud-replica-map.csv",
+      "status": "pass",
+      "view": "Map",
+      "rows": 49
+    },
+    {
+      "path": "outputs/cloud-replica-state-list.csv",
+      "status": "pass",
+      "view": "State List",
+      "rows": 4
+    },
+    {
+      "path": "outputs/cloud-replica-sales.csv",
+      "status": "pass",
+      "view": "Sales",
+      "rows": 2
+    },
+    {
+      "path": "outputs/cloud-replica-orders.csv",
+      "status": "pass",
+      "view": "Orders",
+      "rows": 2
+    },
+    {
+      "path": "outputs/cloud-replica-customers.csv",
+      "status": "pass",
+      "view": "Customers",
+      "rows": 2
+    },
+    {
+      "path": "outputs/cloud-author-map-selected-only.csv",
+      "status": "pass",
+      "view": "Map",
+      "rows": 4
+    },
+    {
+      "path": "outputs/cloud-author-state-list-selected-only.csv",
+      "status": "pass",
+      "view": "State List",
+      "rows": 4
+    },
+    {
+      "path": "outputs/cloud-author-sales-selected-only.csv",
+      "status": "pass",
+      "view": "Sales",
+      "rows": 1
+    },
+    {
+      "path": "outputs/cloud-author-orders-selected-only.csv",
+      "status": "pass",
+      "view": "Orders",
+      "rows": 1
+    },
+    {
+      "path": "outputs/cloud-author-customers-selected-only.csv",
+      "status": "pass",
+      "view": "Customers",
+      "rows": 2
+    },
+    {
+      "path": "outputs/cloud-replica-map-selected-only.csv",
+      "status": "pass",
+      "view": "Map",
+      "rows": 4
+    },
+    {
+      "path": "outputs/cloud-replica-state-list-selected-only.csv",
+      "status": "pass",
+      "view": "State List",
+      "rows": 4
+    },
+    {
+      "path": "outputs/cloud-replica-sales-selected-only.csv",
+      "status": "pass",
+      "view": "Sales",
+      "rows": 1
+    },
+    {
+      "path": "outputs/cloud-replica-orders-selected-only.csv",
+      "status": "pass",
+      "view": "Orders",
+      "rows": 1
+    },
+    {
+      "path": "outputs/cloud-replica-customers-selected-only.csv",
+      "status": "pass",
+      "view": "Customers",
+      "rows": 2
+    },
+    {
+      "path": "outputs/cloud-author-map-alabama.csv",
+      "status": "pass",
+      "view": "Map",
+      "rows": 1
+    },
+    {
+      "path": "outputs/cloud-author-state-list-alabama.csv",
+      "status": "pass",
+      "view": "State List",
+      "rows": 1
+    },
+    {
+      "path": "outputs/cloud-author-sales-alabama.csv",
+      "status": "pass",
+      "view": "Sales",
+      "rows": 1
+    },
+    {
+      "path": "outputs/cloud-author-orders-alabama.csv",
+      "status": "pass",
+      "view": "Orders",
+      "rows": 1
+    },
+    {
+      "path": "outputs/cloud-author-customers-alabama.csv",
+      "status": "pass",
+      "view": "Customers",
+      "rows": 2
+    },
+    {
+      "path": "outputs/cloud-replica-map-alabama.csv",
+      "status": "pass",
+      "view": "Map",
+      "rows": 1
+    },
+    {
+      "path": "outputs/cloud-replica-state-list-alabama.csv",
+      "status": "pass",
+      "view": "State List",
+      "rows": 1
+    },
+    {
+      "path": "outputs/cloud-replica-sales-alabama.csv",
+      "status": "pass",
+      "view": "Sales",
+      "rows": 1
+    },
+    {
+      "path": "outputs/cloud-replica-orders-alabama.csv",
+      "status": "pass",
+      "view": "Orders",
+      "rows": 1
+    },
+    {
+      "path": "outputs/cloud-replica-customers-alabama.csv",
+      "status": "pass",
+      "view": "Customers",
+      "rows": 2
+    }
+  ]
+}

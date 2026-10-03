@@ -1,0 +1,89 @@
+schema_version: 1.1.0
+case_id: wow-2020-ww16-adjusted-target-missing-pipeline
+iteration_id: 2020-04-17-ww16-adjusted-target-missing-pipeline
+post: https://donnacoles.home.blog/2020/04/17/can-you-show-the-adjusted-target-and-missing-pipeline/
+legacy_case_ids: {}
+article_date: '2020-04-17'
+challenge_year: 2020
+challenge_week: 16
+challenge_date: '2020-04-14'
+date_evidence:
+  article_date: Declared publication date in article URL and locked article HTML
+  challenge: Official WordPress challenge title year/week
+  challenge_date: Official WordPress REST post 3619 date 2020-04-14
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2020w16/
+    wordpress_post_id: 3619
+  article:
+    url: https://donnacoles.home.blog/2020/04/17/can-you-show-the-adjusted-target-and-missing-pipeline/
+    path: null
+    sha256: 83ef1d99210aff4dfca764ddaf4ef7a43d769b952f22081a7fe83452aa126b56
+  workbook:
+    url: https://public.tableau.com/profile/donna.coles#!/vizhome/2020_04_15_WW16_Pipeline_v_AdjustedTarget/2020_04_15_Pipeline_V_AdjustedTarget
+    filename: 2020_04_15_WW16_Pipeline_v_AdjustedTarget.twbx
+    sha256: 0f662a454eac6e9918abd03ec1e58148682386237ab6a596bd6bc723cc6e631f
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- evidence/cloud-data-comparison.json
+- evidence/cloud-verification.json
+- evidence/export-provenance.json
+- evidence/functional-verification.json
+- evidence/sdk-baseline.json
+- evidence/sdk-final-validation.json
+- evidence/sdk-gap-baseline.json
+- evidence/sdk-validation-ac191fde.json
+- evidence/visual-review.md
+- evidence/zero-build-verification.json
+- inputs/source-lock.json
+notes:
+- TWBEditor empty build reads extracted inputs and public SDK APIs only.
+- REST state/data and artifact contracts; no browser events executed.
+cwtwb:
+  tested_version: 0.27.1
+  tested_commit: 56377c5b170f0df1f5cd853fc483de26962dfed1
+  runs:
+  - version: 0.27.1
+    commit: 47718436ae9bc7384d4d275a918c8ba126ae9c58
+    result: blocked
+    evidence: evidence/sdk-baseline.json
+  - version: 0.27.1
+    commit: ac191fde0c2f104697c8dd2d2f0417d9b124dd7e
+    result: pass
+    evidence: evidence/sdk-validation-ac191fde.json
+  - version: 0.27.1
+    commit: 56377c5b170f0df1f5cd853fc483de26962dfed1
+    result: pass
+    evidence: evidence/sdk-final-validation.json
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: pass
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/Monthly Target (2020_04_15_WW16_Sales Pipeline).hyper
+  - inputs/Pipeline (2020_04_15_WW16_Sales Pipeline).hyper
+acceptance:
+- id: ww16-independent-data
+  description: Independent complete locked-input oracle verifies every business value.
+  mode: automated
+- id: ww16-artifact-contracts
+  description: Generated public-SDK workbook panes, formulas, data and layout contracts.
+  mode: automated
+- id: ww16-cloud-states
+  description: Full declared REST worksheet CSVs and paired images, hash-bound and
+    independently reviewed.
+  mode: automated
+remaining_work: []
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []
+acceptance_scope: cloud_rest_and_artifact_contracts
+browser_interaction_executed: false

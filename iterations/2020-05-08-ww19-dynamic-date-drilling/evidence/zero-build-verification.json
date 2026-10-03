@@ -1,0 +1,9 @@
+{
+  "case_id": "2020-05-08-ww19-dynamic-date-drilling",
+  "sdk_commit": "56377c5b170f0df1f5cd853fc483de26962dfed1",
+  "builder_sha256": "858323c8b4200e28fad2513b35b53095d640b380ca1211bbd7f93c9369d8f47b",
+  "result": "passed",
+  "initial_workbooks_available": 0,
+  "scope": "Copied only builder/verifier, metadata and locked inputs. Built from TWBEditor empty, then ran independent raw-data/artifact oracle without copied Cloud evidence or author workbooks.",
+  "builder_hash_scope": "UTF-8 source text with universal newlines normalized to LF"
+}

@@ -202,7 +202,10 @@ def validate_source_lock(case_dir: Path, case: dict) -> None:
     if lock.get("source_workbook_used_by_builder") is not False:
         raise AssertionError("source_workbook_used_by_builder must be false")
 
-    locked = {item["file"]: item for item in lock.get("extracted_data", [])}
+    records = [*lock.get("extracted_data", []), *lock.get("derived_data", [])]
+    locked = {item["file"]: item for item in records}
+    if len(locked) != len(records):
+        raise AssertionError("Source lock contains duplicate data paths")
     declared = set(case["inputs"].get("data_files", []))
     if not declared or declared != set(locked):
         raise AssertionError("case.yaml data_files must match source-lock.json")
@@ -332,6 +335,13 @@ def run_case_scripts_isolated(case_dir: Path) -> None:
         scratch_root = Path(directory) / "lab"
         scratch_case = scratch_root / "iterations" / case_dir.name
         shutil.copytree(case_dir, scratch_case, ignore=shutil.ignore_patterns("__pycache__", ".roundtrip*"))
+        # A published capture binds the accepted UUID/hash, not this fresh build.
+        # Verify the rebuild's data and contracts without treating copied REST
+        # evidence as a capture of its newly generated workbook identity.
+        cloud_manifest = scratch_case / "evidence/cloud-verification.json"
+        accepted_manifest = cloud_manifest.read_bytes() if cloud_manifest.exists() else None
+        if accepted_manifest is not None:
+            cloud_manifest.unlink()
         # A no-op builder must not accidentally verify a copied accepted workbook.
         for artifact in (scratch_case / "outputs").rglob("*"):
             if artifact.is_file() and artifact.suffix.lower() in WORKBOOK_SUFFIXES:
@@ -355,6 +365,8 @@ def run_case_scripts_isolated(case_dir: Path) -> None:
             shutil.copy2(source, destination)
             temporary_aliases.append(destination)
         run_case_script(scratch_case, "verify_replication.py")
+        if accepted_manifest is not None:
+            cloud_manifest.write_bytes(accepted_manifest)
         for alias in temporary_aliases:
             alias.unlink()
         # Archival author/probe files are metadata evidence, not build inputs.

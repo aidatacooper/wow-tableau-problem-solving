@@ -1,0 +1,444 @@
+{
+  "case_id": "wow-2020-ww20-state-contribution",
+  "captured_at": "2026-10-03T12:33:13.871861+00:00",
+  "source_hashes": {
+    "author": "5d0e6d9fb7cd0218c325aadeeca4ace7538cf995878b0822207453246274173d",
+    "replica": "0d4e7ef4677364fad92333f9449498d7ed26c39cf6da207913c79b8416964482"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "61f8d9ef-4630-40f7-b83e-6ddfe925fa65",
+      "name": "cwtwb-review-wow-2020-ww20-state-contribution-author-5d0e6d9fb7cd",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2929617",
+      "views": [
+        {
+          "name": "2020_05_13_WW20_Remove_Set_Actions",
+          "id": "219282d0-5638-4e93-a210-9632f89cb026"
+        },
+        {
+          "name": "Customers",
+          "id": "2ebc7b3e-f74b-4cc7-a8f8-7571a17094d5"
+        },
+        {
+          "name": "Map",
+          "id": "88178855-08b2-4bea-aa93-95f0b6869aa8"
+        },
+        {
+          "name": "Orders",
+          "id": "f6910e4c-fb40-482c-b153-68db04206868"
+        },
+        {
+          "name": "Sales",
+          "id": "eff4971c-00c4-4e35-8e73-c5ffc1ad4bb2"
+        },
+        {
+          "name": "State List",
+          "id": "2d908d3e-2dfd-4bf4-9f5e-fadb56db0aa7"
+        }
+      ]
+    },
+    "replica": {
+      "id": "5d716adf-b104-4b89-baa0-3a4dc093e69f",
+      "name": "cwtwb-review-wow-2020-ww20-state-contribution-replica-0d4e7ef46773",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2929870",
+      "views": [
+        {
+          "name": "Map",
+          "id": "8eeb408d-9423-4514-a325-56d8634d6c81"
+        },
+        {
+          "name": "Sales",
+          "id": "4fe5ea8d-f793-4314-98a3-46b861b42473"
+        },
+        {
+          "name": "Orders",
+          "id": "4b10fa95-d255-4ad3-88a6-751b0c8eded8"
+        },
+        {
+          "name": "Customers",
+          "id": "8fe66ed7-a31e-4150-99f7-42af118d98f2"
+        },
+        {
+          "name": "State List",
+          "id": "568c4a5b-7fff-4120-af7a-c606212e70bd"
+        },
+        {
+          "name": "2020_05_13_WW20_Remove_Set_Actions",
+          "id": "eb7b46a7-051a-4774-8651-ad6db87cabcf"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "219282d0-5638-4e93-a210-9632f89cb026",
+          "name": "2020_05_13_WW20_Remove_Set_Actions",
+          "path": "outputs/cloud-author.png",
+          "sha256": "aa3441456c8613f56bfad6cfae48de4b7cf02dc2d2b651376c0277d62e8e23fe",
+          "size": [
+            2000,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "eb7b46a7-051a-4774-8651-ad6db87cabcf",
+          "name": "2020_05_13_WW20_Remove_Set_Actions",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "aea1a3d1ce36bfd14962ca0efca2816438678340408cf9f2b3462bdd9e6cd7b2",
+          "size": [
+            2000,
+            1600
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Map",
+          "view_id": "88178855-08b2-4bea-aa93-95f0b6869aa8",
+          "scope": "Complete Map worksheet rows: state metrics/list or all contribution marks; no browser/set mutations executed.",
+          "path": "outputs/cloud-author-map.csv",
+          "sha256": "8680fc01c7488e5faa26c1dc173e680a3723ca03ef1297e182c25a3c1f721a3e",
+          "bytes": 2727
+        },
+        {
+          "role": "author",
+          "view": "State List",
+          "view_id": "2d908d3e-2dfd-4bf4-9f5e-fadb56db0aa7",
+          "scope": "Complete State List worksheet rows: state metrics/list or all contribution marks; no browser/set mutations executed.",
+          "path": "outputs/cloud-author-state-list.csv",
+          "sha256": "f21ed31da8958bc6d78636d7f20fa9b9fb7b5320fd12432e96131e435b8b330e",
+          "bytes": 56
+        },
+        {
+          "role": "author",
+          "view": "Sales",
+          "view_id": "eff4971c-00c4-4e35-8e73-c5ffc1ad4bb2",
+          "scope": "Complete Sales worksheet rows: state metrics/list or all contribution marks; no browser/set mutations executed.",
+          "path": "outputs/cloud-author-sales.csv",
+          "sha256": "e1d7dffafebf0d86320edc040e14b1128c7165ac23586b12a875d4354855661c",
+          "bytes": 189
+        },
+        {
+          "role": "author",
+          "view": "Orders",
+          "view_id": "f6910e4c-fb40-482c-b153-68db04206868",
+          "scope": "Complete Orders worksheet rows: state metrics/list or all contribution marks; no browser/set mutations executed.",
+          "path": "outputs/cloud-author-orders.csv",
+          "sha256": "4f6a89fbe4fa09820d849336b6c50ee193ae51050de24bd227b3e89f81e338f0",
+          "bytes": 183
+        },
+        {
+          "role": "author",
+          "view": "Customers",
+          "view_id": "2ebc7b3e-f74b-4cc7-a8f8-7571a17094d5",
+          "scope": "Complete Customers worksheet rows: state metrics/list or all contribution marks; no browser/set mutations executed.",
+          "path": "outputs/cloud-author-customers.csv",
+          "sha256": "0eca7fcd50aa6de5880568ad2bbc0b6b190885711b5ed54123017e167f14114a",
+          "bytes": 211
+        },
+        {
+          "role": "replica",
+          "view": "Map",
+          "view_id": "8eeb408d-9423-4514-a325-56d8634d6c81",
+          "scope": "Complete Map worksheet rows: state metrics/list or all contribution marks; no browser/set mutations executed.",
+          "path": "outputs/cloud-replica-map.csv",
+          "sha256": "c8a86841a83746527b51789fdd3b740287563056153ee023f2aad090079ef2b9",
+          "bytes": 2870
+        },
+        {
+          "role": "replica",
+          "view": "State List",
+          "view_id": "568c4a5b-7fff-4120-af7a-c606212e70bd",
+          "scope": "Complete State List worksheet rows: state metrics/list or all contribution marks; no browser/set mutations executed.",
+          "path": "outputs/cloud-replica-state-list.csv",
+          "sha256": "ff5dd27e2889c3f9bce8426cfcda33c94c6c252e9c93bc1b6f91c706f994f060",
+          "bytes": 125
+        },
+        {
+          "role": "replica",
+          "view": "Sales",
+          "view_id": "4fe5ea8d-f793-4314-98a3-46b861b42473",
+          "scope": "Complete Sales worksheet rows: state metrics/list or all contribution marks; no browser/set mutations executed.",
+          "path": "outputs/cloud-replica-sales.csv",
+          "sha256": "402727793374ec507a10fd54b2b5e17e5bc86b68e0fb55dd7913800517085856",
+          "bytes": 337
+        },
+        {
+          "role": "replica",
+          "view": "Orders",
+          "view_id": "4b10fa95-d255-4ad3-88a6-751b0c8eded8",
+          "scope": "Complete Orders worksheet rows: state metrics/list or all contribution marks; no browser/set mutations executed.",
+          "path": "outputs/cloud-replica-orders.csv",
+          "sha256": "104ffea25156c322ccaa8f1c9421c1beb26cb71451dc3a7384497461e57db44a",
+          "bytes": 288
+        },
+        {
+          "role": "replica",
+          "view": "Customers",
+          "view_id": "8fe66ed7-a31e-4150-99f7-42af118d98f2",
+          "scope": "Complete Customers worksheet rows: state metrics/list or all contribution marks; no browser/set mutations executed.",
+          "path": "outputs/cloud-replica-customers.csv",
+          "sha256": "6eb91b3176a2b155114b9d2bffc86b5e7f63b5f0a6568da806b454f962ed202e",
+          "bytes": 214
+        }
+      ]
+    },
+    {
+      "name": "selected-only",
+      "parameters": {},
+      "filters": {
+        "State": "Alabama,Illinois,Kentucky,Virginia"
+      },
+      "views": {
+        "author": {
+          "id": "219282d0-5638-4e93-a210-9632f89cb026",
+          "name": "2020_05_13_WW20_Remove_Set_Actions",
+          "path": "outputs/cloud-author-selected-only.png",
+          "sha256": "d405b1f4d195fe129f14f7f5e0004b1864c34958e75afb61e5d6dff48e10bb5f",
+          "size": [
+            2000,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "eb7b46a7-051a-4774-8651-ad6db87cabcf",
+          "name": "2020_05_13_WW20_Remove_Set_Actions",
+          "path": "outputs/cloud-replica-selected-only.png",
+          "sha256": "dcbd824381cf45b16c37979b2869d4c7e1bef7508119a301659b31f6c787f224",
+          "size": [
+            2000,
+            1600
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Map",
+          "view_id": "88178855-08b2-4bea-aa93-95f0b6869aa8",
+          "scope": "Complete Map worksheet rows: state metrics/list or all contribution marks; no browser/set mutations executed.",
+          "path": "outputs/cloud-author-map-selected-only.csv",
+          "sha256": "80c9d4fde35606745f8fd073c802011faf59ab42b35cdea30a1f3f606e3ed316",
+          "bytes": 323
+        },
+        {
+          "role": "author",
+          "view": "State List",
+          "view_id": "2d908d3e-2dfd-4bf4-9f5e-fadb56db0aa7",
+          "scope": "Complete State List worksheet rows: state metrics/list or all contribution marks; no browser/set mutations executed.",
+          "path": "outputs/cloud-author-state-list-selected-only.csv",
+          "sha256": "f21ed31da8958bc6d78636d7f20fa9b9fb7b5320fd12432e96131e435b8b330e",
+          "bytes": 56
+        },
+        {
+          "role": "author",
+          "view": "Sales",
+          "view_id": "eff4971c-00c4-4e35-8e73-c5ffc1ad4bb2",
+          "scope": "Complete Sales worksheet rows: state metrics/list or all contribution marks; no browser/set mutations executed.",
+          "path": "outputs/cloud-author-sales-selected-only.csv",
+          "sha256": "95afbfed221a5ed8039f7edcc5576ebdd8c51551364d70d8057c835e56670975",
+          "bytes": 140
+        },
+        {
+          "role": "author",
+          "view": "Orders",
+          "view_id": "f6910e4c-fb40-482c-b153-68db04206868",
+          "scope": "Complete Orders worksheet rows: state metrics/list or all contribution marks; no browser/set mutations executed.",
+          "path": "outputs/cloud-author-orders-selected-only.csv",
+          "sha256": "74e028d9d62b9254e0b2a81180b263db036e78d50eb140bef0b32640e019a87c",
+          "bytes": 140
+        },
+        {
+          "role": "author",
+          "view": "Customers",
+          "view_id": "2ebc7b3e-f74b-4cc7-a8f8-7571a17094d5",
+          "scope": "Complete Customers worksheet rows: state metrics/list or all contribution marks; no browser/set mutations executed.",
+          "path": "outputs/cloud-author-customers-selected-only.csv",
+          "sha256": "69f682f6f78585ee1d990ab22127808cc4fececab031781815ff3a5ea8d3f851",
+          "bytes": 211
+        },
+        {
+          "role": "replica",
+          "view": "Map",
+          "view_id": "8eeb408d-9423-4514-a325-56d8634d6c81",
+          "scope": "Complete Map worksheet rows: state metrics/list or all contribution marks; no browser/set mutations executed.",
+          "path": "outputs/cloud-replica-map-selected-only.csv",
+          "sha256": "91ec0f78e35529fe195a351fd49e9cc0958ccb0a06505ba4e698cf7228d16e63",
+          "bytes": 338
+        },
+        {
+          "role": "replica",
+          "view": "State List",
+          "view_id": "568c4a5b-7fff-4120-af7a-c606212e70bd",
+          "scope": "Complete State List worksheet rows: state metrics/list or all contribution marks; no browser/set mutations executed.",
+          "path": "outputs/cloud-replica-state-list-selected-only.csv",
+          "sha256": "ff5dd27e2889c3f9bce8426cfcda33c94c6c252e9c93bc1b6f91c706f994f060",
+          "bytes": 125
+        },
+        {
+          "role": "replica",
+          "view": "Sales",
+          "view_id": "4fe5ea8d-f793-4314-98a3-46b861b42473",
+          "scope": "Complete Sales worksheet rows: state metrics/list or all contribution marks; no browser/set mutations executed.",
+          "path": "outputs/cloud-replica-sales-selected-only.csv",
+          "sha256": "1b14838280cff035674e7afd80054ba591dcb6963bce0530f14498b5b63dfb17",
+          "bytes": 250
+        },
+        {
+          "role": "replica",
+          "view": "Orders",
+          "view_id": "4b10fa95-d255-4ad3-88a6-751b0c8eded8",
+          "scope": "Complete Orders worksheet rows: state metrics/list or all contribution marks; no browser/set mutations executed.",
+          "path": "outputs/cloud-replica-orders-selected-only.csv",
+          "sha256": "31ab209f556181ae7068474b217cb353d44556fb959ee50b7d9851f3e7338a8d",
+          "bytes": 228
+        },
+        {
+          "role": "replica",
+          "view": "Customers",
+          "view_id": "8fe66ed7-a31e-4150-99f7-42af118d98f2",
+          "scope": "Complete Customers worksheet rows: state metrics/list or all contribution marks; no browser/set mutations executed.",
+          "path": "outputs/cloud-replica-customers-selected-only.csv",
+          "sha256": "6eb91b3176a2b155114b9d2bffc86b5e7f63b5f0a6568da806b454f962ed202e",
+          "bytes": 214
+        }
+      ]
+    },
+    {
+      "name": "alabama",
+      "parameters": {},
+      "filters": {
+        "State": "Alabama"
+      },
+      "views": {
+        "author": {
+          "id": "219282d0-5638-4e93-a210-9632f89cb026",
+          "name": "2020_05_13_WW20_Remove_Set_Actions",
+          "path": "outputs/cloud-author-alabama.png",
+          "sha256": "b8850255f82484ae3132d6ec5eab94b2e468a38688046e9108c8be617299f46a",
+          "size": [
+            2000,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "eb7b46a7-051a-4774-8651-ad6db87cabcf",
+          "name": "2020_05_13_WW20_Remove_Set_Actions",
+          "path": "outputs/cloud-replica-alabama.png",
+          "sha256": "10af6b164631926b714966310d9b0042ae7b194c7153037718afde76d7124e70",
+          "size": [
+            2000,
+            1600
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Map",
+          "view_id": "88178855-08b2-4bea-aa93-95f0b6869aa8",
+          "scope": "Complete Map worksheet rows: state metrics/list or all contribution marks; no browser/set mutations executed.",
+          "path": "outputs/cloud-author-map-alabama.csv",
+          "sha256": "f44071b03ceae8c17b2521913cdd6b98fcd1601cc0aec92768943b476e34304a",
+          "bytes": 166
+        },
+        {
+          "role": "author",
+          "view": "State List",
+          "view_id": "2d908d3e-2dfd-4bf4-9f5e-fadb56db0aa7",
+          "scope": "Complete State List worksheet rows: state metrics/list or all contribution marks; no browser/set mutations executed.",
+          "path": "outputs/cloud-author-state-list-alabama.csv",
+          "sha256": "d4311e01aedc1d71696193c83e8ba9690b3cb1cf60240d2881cb103c41a57d6e",
+          "bytes": 23
+        },
+        {
+          "role": "author",
+          "view": "Sales",
+          "view_id": "eff4971c-00c4-4e35-8e73-c5ffc1ad4bb2",
+          "scope": "Complete Sales worksheet rows: state metrics/list or all contribution marks; no browser/set mutations executed.",
+          "path": "outputs/cloud-author-sales-alabama.csv",
+          "sha256": "95afbfed221a5ed8039f7edcc5576ebdd8c51551364d70d8057c835e56670975",
+          "bytes": 140
+        },
+        {
+          "role": "author",
+          "view": "Orders",
+          "view_id": "f6910e4c-fb40-482c-b153-68db04206868",
+          "scope": "Complete Orders worksheet rows: state metrics/list or all contribution marks; no browser/set mutations executed.",
+          "path": "outputs/cloud-author-orders-alabama.csv",
+          "sha256": "74e028d9d62b9254e0b2a81180b263db036e78d50eb140bef0b32640e019a87c",
+          "bytes": 140
+        },
+        {
+          "role": "author",
+          "view": "Customers",
+          "view_id": "2ebc7b3e-f74b-4cc7-a8f8-7571a17094d5",
+          "scope": "Complete Customers worksheet rows: state metrics/list or all contribution marks; no browser/set mutations executed.",
+          "path": "outputs/cloud-author-customers-alabama.csv",
+          "sha256": "0eca7fcd50aa6de5880568ad2bbc0b6b190885711b5ed54123017e167f14114a",
+          "bytes": 211
+        },
+        {
+          "role": "replica",
+          "view": "Map",
+          "view_id": "8eeb408d-9423-4514-a325-56d8634d6c81",
+          "scope": "Complete Map worksheet rows: state metrics/list or all contribution marks; no browser/set mutations executed.",
+          "path": "outputs/cloud-replica-map-alabama.csv",
+          "sha256": "1e7e89a5d9911835c4f9f6e3dfc6db72d067e234e5cee62a740dca9c576cd081",
+          "bytes": 168
+        },
+        {
+          "role": "replica",
+          "view": "State List",
+          "view_id": "568c4a5b-7fff-4120-af7a-c606212e70bd",
+          "scope": "Complete State List worksheet rows: state metrics/list or all contribution marks; no browser/set mutations executed.",
+          "path": "outputs/cloud-replica-state-list-alabama.csv",
+          "sha256": "7a45110e72ed4242502564235c6d4e6f2fc07b5995853d4cbd1ce84629fecc32",
+          "bytes": 50
+        },
+        {
+          "role": "replica",
+          "view": "Sales",
+          "view_id": "4fe5ea8d-f793-4314-98a3-46b861b42473",
+          "scope": "Complete Sales worksheet rows: state metrics/list or all contribution marks; no browser/set mutations executed.",
+          "path": "outputs/cloud-replica-sales-alabama.csv",
+          "sha256": "1b14838280cff035674e7afd80054ba591dcb6963bce0530f14498b5b63dfb17",
+          "bytes": 250
+        },
+        {
+          "role": "replica",
+          "view": "Orders",
+          "view_id": "4b10fa95-d255-4ad3-88a6-751b0c8eded8",
+          "scope": "Complete Orders worksheet rows: state metrics/list or all contribution marks; no browser/set mutations executed.",
+          "path": "outputs/cloud-replica-orders-alabama.csv",
+          "sha256": "31ab209f556181ae7068474b217cb353d44556fb959ee50b7d9851f3e7338a8d",
+          "bytes": 228
+        },
+        {
+          "role": "replica",
+          "view": "Customers",
+          "view_id": "8fe66ed7-a31e-4150-99f7-42af118d98f2",
+          "scope": "Complete Customers worksheet rows: state metrics/list or all contribution marks; no browser/set mutations executed.",
+          "path": "outputs/cloud-replica-customers-alabama.csv",
+          "sha256": "6eb91b3176a2b155114b9d2bffc86b5e7f63b5f0a6568da806b454f962ed202e",
+          "bytes": 214
+        }
+      ]
+    }
+  ],
+  "status": "verified",
+  "independent_review": {
+    "visual_status": "acceptable_delta",
+    "visual_evidence": "evidence/visual-review.md",
+    "functional_evidence": "evidence/functional-verification.json",
+    "scope": "Declared REST worksheet exports and artifact contracts; no browser events executed."
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "status": "passed",
+  "acceptance_ids": [
+    "ww24-history-oracle",
+    "ww24-latest-trend",
+    "ww24-geographic-contract",
+    "ww24-cloud-states"
+  ],
+  "raw_rows": 422143,
+  "excluded_null_county_rows": 0,
+  "county_count": 3037,
+  "max_date": "2020-06-07",
+  "default_latest": {
+    "New Cases": 124,
+    "Reported Cases": 6156,
+    "3 Day Moving Avg": 108.33333333333333,
+    "14 Day Moving Avg": 101.78571428571429,
+    "Increase | Decrease": "INCREASE",
+    "Days in Trend": 1
+  },
+  "cloud_checks": [
+    {
+      "role": "author",
+      "state": "default",
+      "view": "Table",
+      "rows": 384,
+      "checked_values": 1152,
+      "scope": "Latest table/BAN recomputed from complete raw county histories. Bar/line independently recomputed after its physical March 8 date filter, including complete selected-county daily values."
+    },
+    {
+      "role": "author",
+      "state": "default",
+      "view": "Bar&Line",
+      "rows": 184,
+      "checked_values": 552,
+      "scope": "Latest table/BAN recomputed from complete raw county histories. Bar/line independently recomputed after its physical March 8 date filter, including complete selected-county daily values."
+    },
+    {
+      "role": "author",
+      "state": "default",
+      "view": "BAN",
+      "rows": 1,
+      "checked_values": 2,
+      "scope": "Latest table/BAN recomputed from complete raw county histories. Bar/line independently recomputed after its physical March 8 date filter, including complete selected-county daily values."
+    },
+    {
+      "role": "replica",
+      "state": "default",
+      "view": "Table",
+      "rows": 384,
+      "checked_values": 1152,
+      "scope": "Latest table/BAN recomputed from complete raw county histories. Bar/line independently recomputed after its physical March 8 date filter, including complete selected-county daily values."
+    },
+    {
+      "role": "replica",
+      "state": "default",
+      "view": "Bar&Line",
+      "rows": 184,
+      "checked_values": 1288,
+      "scope": "Latest table/BAN recomputed from complete raw county histories. Bar/line independently recomputed after its physical March 8 date filter, including complete selected-county daily values."
+    },
+    {
+      "role": "replica",
+      "state": "default",
+      "view": "BAN",
+      "rows": 1,
+      "checked_values": 2,
+      "scope": "Latest table/BAN recomputed from complete raw county histories. Bar/line independently recomputed after its physical March 8 date filter, including complete selected-county daily values."
+    },
+    {
+      "role": "author",
+      "state": "three-day",
+      "view": "Table",
+      "rows": 384,
+      "checked_values": 1152,
+      "scope": "Latest table/BAN recomputed from complete raw county histories. Bar/line independently recomputed after its physical March 8 date filter, including complete selected-county daily values."
+    },
+    {
+      "role": "author",
+      "state": "three-day",
+      "view": "Bar&Line",
+      "rows": 184,
+      "checked_values": 552,
+      "scope": "Latest table/BAN recomputed from complete raw county histories. Bar/line independently recomputed after its physical March 8 date filter, including complete selected-county daily values."
+    },
+    {
+      "role": "author",
+      "state": "three-day",
+      "view": "BAN",
+      "rows": 1,
+      "checked_values": 2,
+      "scope": "Latest table/BAN recomputed from complete raw county histories. Bar/line independently recomputed after its physical March 8 date filter, including complete selected-county daily values."
+    },
+    {
+      "role": "replica",
+      "state": "three-day",
+      "view": "Table",
+      "rows": 384,
+      "checked_values": 1152,
+      "scope": "Latest table/BAN recomputed from complete raw county histories. Bar/line independently recomputed after its physical March 8 date filter, including complete selected-county daily values."
+    },
+    {
+      "role": "replica",
+      "state": "three-day",
+      "view": "Bar&Line",
+      "rows": 184,
+      "checked_values": 1288,
+      "scope": "Latest table/BAN recomputed from complete raw county histories. Bar/line independently recomputed after its physical March 8 date filter, including complete selected-county daily values."
+    },
+    {
+      "role": "replica",
+      "state": "three-day",
+      "view": "BAN",
+      "rows": 1,
+      "checked_values": 2,
+      "scope": "Latest table/BAN recomputed from complete raw county histories. Bar/line independently recomputed after its physical March 8 date filter, including complete selected-county daily values."
+    },
+    {
+      "role": "author",
+      "state": "campbell",
+      "view": "Table",
+      "rows": 384,
+      "checked_values": 1152,
+      "scope": "Latest table/BAN recomputed from complete raw county histories. Bar/line independently recomputed after its physical March 8 date filter, including complete selected-county daily values."
+    },
+    {
+      "role": "author",
+      "state": "campbell",
+      "view": "Bar&Line",
+      "rows": 184,
+      "checked_values": 552,
+      "scope": "Latest table/BAN recomputed from complete raw county histories. Bar/line independently recomputed after its physical March 8 date filter, including complete selected-county daily values."
+    },
+    {
+      "role": "author",
+      "state": "campbell",
+      "view": "BAN",
+      "rows": 1,
+      "checked_values": 2,
+      "scope": "Latest table/BAN recomputed from complete raw county histories. Bar/line independently recomputed after its physical March 8 date filter, including complete selected-county daily values."
+    },
+    {
+      "role": "replica",
+      "state": "campbell",
+      "view": "Table",
+      "rows": 384,
+      "checked_values": 1152,
+      "scope": "Latest table/BAN recomputed from complete raw county histories. Bar/line independently recomputed after its physical March 8 date filter, including complete selected-county daily values."
+    },
+    {
+      "role": "replica",
+      "state": "campbell",
+      "view": "Bar&Line",
+      "rows": 184,
+      "checked_values": 1288,
+      "scope": "Latest table/BAN recomputed from complete raw county histories. Bar/line independently recomputed after its physical March 8 date filter, including complete selected-county daily values."
+    },
+    {
+      "role": "replica",
+      "state": "campbell",
+      "view": "BAN",
+      "rows": 1,
+      "checked_values": 2,
+      "scope": "Latest table/BAN recomputed from complete raw county histories. Bar/line independently recomputed after its physical March 8 date filter, including complete selected-county daily values."
+    },
+    {
+      "role": "author",
+      "state": "los-angeles",
+      "view": "Table",
+      "rows": 236,
+      "checked_values": 708,
+      "scope": "Latest table/BAN recomputed from complete raw county histories. Bar/line independently recomputed after its physical March 8 date filter, including complete selected-county daily values."
+    },
+    {
+      "role": "author",
+      "state": "los-angeles",
+      "view": "Bar&Line",
+      "rows": 184,
+      "checked_values": 552,
+      "scope": "Latest table/BAN recomputed from complete raw county histories. Bar/line independently recomputed after its physical March 8 date filter, including complete selected-county daily values."
+    },
+    {
+      "role": "author",
+      "state": "los-angeles",
+      "view": "BAN",
+      "rows": 1,
+      "checked_values": 2,
+      "scope": "Latest table/BAN recomputed from complete raw county histories. Bar/line independently recomputed after its physical March 8 date filter, including complete selected-county daily values."
+    },
+    {
+      "role": "replica",
+      "state": "los-angeles",
+      "view": "Table",
+      "rows": 236,
+      "checked_values": 708,
+      "scope": "Latest table/BAN recomputed from complete raw county histories. Bar/line independently recomputed after its physical March 8 date filter, including complete selected-county daily values."
+    },
+    {
+      "role": "replica",
+      "state": "los-angeles",
+      "view": "Bar&Line",
+      "rows": 184,
+      "checked_values": 1288,
+      "scope": "Latest table/BAN recomputed from complete raw county histories. Bar/line independently recomputed after its physical March 8 date filter, including complete selected-county daily values."
+    },
+    {
+      "role": "replica",
+      "state": "los-angeles",
+      "view": "BAN",
+      "rows": 1,
+      "checked_values": 2,
+      "scope": "Latest table/BAN recomputed from complete raw county histories. Bar/line independently recomputed after its physical March 8 date filter, including complete selected-county daily values."
+    }
+  ]
+}

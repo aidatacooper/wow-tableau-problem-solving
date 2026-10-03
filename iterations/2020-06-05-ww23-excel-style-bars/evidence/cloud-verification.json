@@ -1,0 +1,114 @@
+{
+  "case_id": "wow-2020-ww23-excel-style-bars",
+  "captured_at": "2026-10-03T11:34:38.655628+00:00",
+  "source_hashes": {
+    "author": "9f343d2a50355f306665e2a71f174a66dec3196e3862f5c88c1478156622209c",
+    "replica": "b59d5804c15f8cb9844c15e96cdc6419819fb38ef410a3f6942b55caf9f6d656"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "493a214a-412a-4661-b507-002103392d8e",
+      "name": "cwtwb-review-wow-2020-ww23-excel-style-bars-author-9f343d2a5035",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2929560",
+      "views": [
+        {
+          "name": "2020_06_03_WW23_Excel_Bars",
+          "id": "1d02dee1-a253-415b-9ebc-75c8bd0e2c0e"
+        },
+        {
+          "name": "Dates",
+          "id": "afcb0fdd-101d-47fa-8377-187437f6bc87"
+        },
+        {
+          "name": "Bars",
+          "id": "d4875fa9-1a5d-4a4a-8d59-0b63b80d0c52"
+        },
+        {
+          "name": "Legend",
+          "id": "cd9e365b-661e-49ca-a257-fe14398245d8"
+        }
+      ]
+    },
+    "replica": {
+      "id": "eb57de7f-04ee-48f7-8576-a1d768c8fc7f",
+      "name": "cwtwb-review-wow-2020-ww23-excel-style-bars-replica-b59d5804c15f",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2929597",
+      "views": [
+        {
+          "name": "Bars",
+          "id": "59cf6b70-bd25-4ac0-8d2a-68643154d05a"
+        },
+        {
+          "name": "Dates",
+          "id": "0b4fb444-d0e5-4cec-81fc-604540306f8f"
+        },
+        {
+          "name": "Legend",
+          "id": "4886e400-b6d2-4873-a174-378d1951db16"
+        },
+        {
+          "name": "2020_06_03_WW23_Excel_Bars",
+          "id": "48dec664-c6a9-4d9b-b1cf-36eb0e17815e"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "1d02dee1-a253-415b-9ebc-75c8bd0e2c0e",
+          "name": "2020_06_03_WW23_Excel_Bars",
+          "path": "outputs/cloud-author.png",
+          "sha256": "6deaa94e2063ecfbf8aaf33f1c263c9940cecdedf2f8109be62ba24d82f4fb93",
+          "size": [
+            1800,
+            1000
+          ]
+        },
+        "replica": {
+          "id": "48dec664-c6a9-4d9b-b1cf-36eb0e17815e",
+          "name": "2020_06_03_WW23_Excel_Bars",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "0783bb2d6564ab7ff619e80f42fac8140c60de0b2ca10abd42516a97797224cf",
+          "size": [
+            1800,
+            1000
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Bars",
+          "view_id": "d4875fa9-1a5d-4a4a-8d59-0b63b80d0c52",
+          "scope": "All 48 year/month sales sums and date-axis placements, not legend CSV.",
+          "path": "outputs/cloud-author-bars.csv",
+          "sha256": "3d7f31dadce926a44ea29a6b9014b04761d39c64df3a94e8201be209e786acaa",
+          "bytes": 2087
+        },
+        {
+          "role": "replica",
+          "view": "Bars",
+          "view_id": "59cf6b70-bd25-4ac0-8d2a-68643154d05a",
+          "scope": "All 48 year/month sales sums and date-axis placements, not legend CSV.",
+          "path": "outputs/cloud-replica-bars.csv",
+          "sha256": "3077169a3c1aebf909bf259b6da31cf3d87b8b58b786c5338361738ca7ae192b",
+          "bytes": 2481
+        }
+      ]
+    }
+  ],
+  "status": "verified",
+  "independent_review": {
+    "visual_status": "acceptable_delta",
+    "visual_evidence": "evidence/visual-review.md",
+    "functional_evidence": "evidence/functional-verification.json",
+    "scope": "Declared REST worksheet exports and artifact contracts; no browser events executed."
+  }
+}

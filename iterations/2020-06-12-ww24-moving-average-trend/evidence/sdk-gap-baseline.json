@@ -1,0 +1,11 @@
+{
+  "sdk_version": "0.27.1",
+  "sdk_commit": "47718436ae9bc7384d4d275a918c8ba126ae9c58",
+  "result": "blocked",
+  "classification": "case_usage",
+  "findings": [
+    "Initial builder used bare Report Date in detail/addressing, auto-binding to MONTH. Cloud showed blank latest-date views and incorrect moving average.",
+    "Public bracketed field expressions already provide exact ordinal date grain; no new SDK API needed."
+  ],
+  "resolution": "Correct field grain and true nested tablecalc dependency graph; physical chart date filter requires an independently recomputed March8-onward oracle. Final validated run will be appended after Cloud verification."
+}

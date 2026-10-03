@@ -1,0 +1,8 @@
+Day of Week End,Day of Week Start,Order Date Baseline,Order Date Week,Week Series,Inc Null Sales,Tooltip No Sales,Tooltip Order Date,Tooltip Sales,Is Latest Week
+Thursday,Friday,Friday,10/18/2019,Current,$0,no sales,"October 18, 2019",,True
+Thursday,Friday,Saturday,10/18/2019,Current,"$2,782",,"October 19, 2019","$2,782",True
+Thursday,Friday,Sunday,10/18/2019,Current,"$1,334",,"October 20, 2019","$1,334",True
+Thursday,Friday,Monday,10/18/2019,Current,"$4,537",,"October 21, 2019","$4,537",True
+Thursday,Friday,Tuesday,10/18/2019,Current,"$15,159",,"October 22, 2019","$15,159",True
+Thursday,Friday,Wednesday,10/18/2019,Current,"$3,352",,"October 23, 2019","$3,352",True
+Thursday,Friday,Thursday,10/18/2019,Current,$529,,"October 24, 2019",$529,True

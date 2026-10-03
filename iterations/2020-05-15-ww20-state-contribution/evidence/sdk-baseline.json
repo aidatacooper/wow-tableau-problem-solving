@@ -1,0 +1,7 @@
+{
+  "sdk_commit": "47718436ae9bc7384d4d275a918c8ba126ae9c58",
+  "sdk_version": "0.27.1",
+  "scope": "Released SDK capability baseline from source/API analysis; this is not a full case or Cloud pass. Enhancements are tested separately on the editable SDK and will be pinned by coordinator.",
+  "result": "blocked",
+  "gap": "Released SDK encoded add/remove selection modes as legacy params rather than native add-or-remove-marks elements. Public native add/remove serialization added and verified in the editable SDK; final committed SDK pin pending coordinator."
+}

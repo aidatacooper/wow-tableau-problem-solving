@@ -1,0 +1,481 @@
+County,County Sort,Measure Names,Report Date,Selected Order,State,Days in Trend,Increase | Decrease,Measure Values
+Davidson,-220172,New Cases,2020-06-07,0,Tennessee,1,INCREASE,124
+Davidson,-220172,"Reported
+Cases",2020-06-07,0,Tennessee,1,INCREASE,"6,156"
+Davidson,-220172,3 Day Moving Avg along Report Date,2020-06-07,0,Tennessee,1,INCREASE,108.333333333
+Davidson,-220172,14 Day Moving Avg along Report Date,2020-06-07,0,Tennessee,1,INCREASE,101.785714286
+Shelby,-201794,New Cases,2020-06-07,1,Tennessee,15,INCREASE,96
+Shelby,-201794,"Reported
+Cases",2020-06-07,1,Tennessee,15,INCREASE,"5,908"
+Shelby,-201794,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,15,INCREASE,120.666666667
+Shelby,-201794,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,15,INCREASE,112.285714286
+Trousdale,-52888,New Cases,2020-06-07,1,Tennessee,3,DECREASE,0
+Trousdale,-52888,"Reported
+Cases",2020-06-07,1,Tennessee,3,DECREASE,"1,394"
+Trousdale,-52888,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,3,DECREASE,0
+Trousdale,-52888,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,3,DECREASE,0.071428571
+Rutherford,-44373,New Cases,2020-06-07,1,Tennessee,6,INCREASE,36
+Rutherford,-44373,"Reported
+Cases",2020-06-07,1,Tennessee,6,INCREASE,"1,479"
+Rutherford,-44373,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,6,INCREASE,45.333333333
+Rutherford,-44373,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,6,INCREASE,34.357142857
+Sumner,-44340,New Cases,2020-06-07,1,Tennessee,6,INCREASE,8
+Sumner,-44340,"Reported
+Cases",2020-06-07,1,Tennessee,6,INCREASE,975
+Sumner,-44340,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,6,INCREASE,12.333333333
+Sumner,-44340,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,6,INCREASE,11.714285714
+Williamson,-29545,New Cases,2020-06-07,1,Tennessee,5,INCREASE,15
+Williamson,-29545,"Reported
+Cases",2020-06-07,1,Tennessee,5,INCREASE,621
+Williamson,-29545,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,5,INCREASE,10.666666667
+Williamson,-29545,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,5,INCREASE,7.785714286
+Bledsoe,-27767,New Cases,2020-06-07,1,Tennessee,7,INCREASE,0
+Bledsoe,-27767,"Reported
+Cases",2020-06-07,1,Tennessee,7,INCREASE,614
+Bledsoe,-27767,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,7,INCREASE,1.333333333
+Bledsoe,-27767,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,7,INCREASE,0.5
+Hamilton,-26272,New Cases,2020-06-07,1,Tennessee,3,INCREASE,35
+Hamilton,-26272,"Reported
+Cases",2020-06-07,1,Tennessee,3,INCREASE,"1,458"
+Hamilton,-26272,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,3,INCREASE,61
+Hamilton,-26272,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,3,INCREASE,58.428571429
+Knox,-18201,New Cases,2020-06-07,1,Tennessee,2,DECREASE,13
+Knox,-18201,"Reported
+Cases",2020-06-07,1,Tennessee,2,DECREASE,487
+Knox,-18201,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,2,DECREASE,8
+Knox,-18201,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,2,DECREASE,10.428571429
+Wilson,-18120,New Cases,2020-06-07,1,Tennessee,1,INCREASE,6
+Wilson,-18120,"Reported
+Cases",2020-06-07,1,Tennessee,1,INCREASE,475
+Wilson,-18120,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,1,INCREASE,8.666666667
+Wilson,-18120,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,1,INCREASE,8.571428571
+Robertson,-15689,New Cases,2020-06-07,1,Tennessee,3,DECREASE,8
+Robertson,-15689,"Reported
+Cases",2020-06-07,1,Tennessee,3,DECREASE,553
+Robertson,-15689,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,3,DECREASE,10
+Robertson,-15689,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,3,DECREASE,13
+Tipton,-15269,New Cases,2020-06-07,1,Tennessee,6,INCREASE,4
+Tipton,-15269,"Reported
+Cases",2020-06-07,1,Tennessee,6,INCREASE,479
+Tipton,-15269,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,6,INCREASE,6
+Tipton,-15269,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,6,INCREASE,4.142857143
+Putnam,-14761,New Cases,2020-06-07,1,Tennessee,3,DECREASE,23
+Putnam,-14761,"Reported
+Cases",2020-06-07,1,Tennessee,3,DECREASE,552
+Putnam,-14761,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,3,DECREASE,9.333333333
+Putnam,-14761,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,3,DECREASE,12.5
+Lake,-13766,New Cases,2020-06-07,1,Tennessee,3,DECREASE,0
+Lake,-13766,"Reported
+Cases",2020-06-07,1,Tennessee,3,DECREASE,724
+Lake,-13766,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,3,DECREASE,-23.333333333
+Lake,-13766,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,3,DECREASE,22.5
+Bedford,-11667,New Cases,2020-06-07,1,Tennessee,2,INCREASE,11
+Bedford,-11667,"Reported
+Cases",2020-06-07,1,Tennessee,2,INCREASE,325
+Bedford,-11667,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,2,INCREASE,9.333333333
+Bedford,-11667,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,2,INCREASE,4.285714286
+Montgomery,-11328,New Cases,2020-06-07,1,Tennessee,3,DECREASE,7
+Montgomery,-11328,"Reported
+Cases",2020-06-07,1,Tennessee,3,DECREASE,294
+Montgomery,-11328,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,3,DECREASE,2.666666667
+Montgomery,-11328,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,3,DECREASE,3.857142857
+Madison,-8262,New Cases,2020-06-07,1,Tennessee,1,INCREASE,4
+Madison,-8262,"Reported
+Cases",2020-06-07,1,Tennessee,1,INCREASE,178
+Madison,-8262,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,1,INCREASE,1.666666667
+Madison,-8262,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,1,INCREASE,0.928571429
+Hardeman,-6013,New Cases,2020-06-07,1,Tennessee,2,INCREASE,3
+Hardeman,-6013,"Reported
+Cases",2020-06-07,1,Tennessee,2,INCREASE,211
+Hardeman,-6013,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,2,INCREASE,3
+Hardeman,-6013,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,2,INCREASE,1.571428571
+Unknown,-5753,New Cases,2020-06-07,1,Tennessee,1,INCREASE,3
+Unknown,-5753,"Reported
+Cases",2020-06-07,1,Tennessee,1,INCREASE,170
+Unknown,-5753,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,1,INCREASE,4.333333333
+Unknown,-5753,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,1,INCREASE,3.642857143
+McMinn,-5261,New Cases,2020-06-07,1,Tennessee,2,INCREASE,0
+McMinn,-5261,"Reported
+Cases",2020-06-07,1,Tennessee,2,INCREASE,150
+McMinn,-5261,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,2,INCREASE,1.333333333
+McMinn,-5261,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,2,INCREASE,1.142857143
+Cumberland,-5239,New Cases,2020-06-07,1,Tennessee,2,INCREASE,1
+Cumberland,-5239,"Reported
+Cases",2020-06-07,1,Tennessee,2,INCREASE,125
+Cumberland,-5239,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,2,INCREASE,1.666666667
+Cumberland,-5239,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,2,INCREASE,1.142857143
+Dickson,-5045,New Cases,2020-06-07,1,Tennessee,1,DECREASE,1
+Dickson,-5045,"Reported
+Cases",2020-06-07,1,Tennessee,1,DECREASE,125
+Dickson,-5045,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,1,DECREASE,1.666666667
+Dickson,-5045,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,1,DECREASE,1.714285714
+Fayette,-4866,New Cases,2020-06-07,1,Tennessee,6,INCREASE,-1
+Fayette,-4866,"Reported
+Cases",2020-06-07,1,Tennessee,6,INCREASE,151
+Fayette,-4866,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,6,INCREASE,5
+Fayette,-4866,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,6,INCREASE,3.142857143
+Bradley,-4746,New Cases,2020-06-07,1,Tennessee,2,INCREASE,15
+Bradley,-4746,"Reported
+Cases",2020-06-07,1,Tennessee,2,INCREASE,199
+Bradley,-4746,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,2,INCREASE,11
+Bradley,-4746,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,2,INCREASE,7.571428571
+Macon,-4477,New Cases,2020-06-07,1,Tennessee,1,DECREASE,1
+Macon,-4477,"Reported
+Cases",2020-06-07,1,Tennessee,1,DECREASE,178
+Macon,-4477,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,1,DECREASE,4
+Macon,-4477,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,1,DECREASE,5.571428571
+Blount,-4430,New Cases,2020-06-07,1,Tennessee,9,DECREASE,1
+Blount,-4430,"Reported
+Cases",2020-06-07,1,Tennessee,9,DECREASE,94
+Blount,-4430,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,9,DECREASE,0.333333333
+Blount,-4430,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,9,DECREASE,0.857142857
+Cheatham,-4327,New Cases,2020-06-07,1,Tennessee,3,DECREASE,2
+Cheatham,-4327,"Reported
+Cases",2020-06-07,1,Tennessee,3,DECREASE,143
+Cheatham,-4327,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,3,DECREASE,2.666666667
+Cheatham,-4327,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,3,DECREASE,2.785714286
+Loudon,-4217,New Cases,2020-06-07,1,Tennessee,1,DECREASE,-1
+Loudon,-4217,"Reported
+Cases",2020-06-07,1,Tennessee,1,DECREASE,167
+Loudon,-4217,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,1,DECREASE,2
+Loudon,-4217,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,1,DECREASE,2.5
+Washington,-3892,New Cases,2020-06-07,1,Tennessee,2,INCREASE,0
+Washington,-3892,"Reported
+Cases",2020-06-07,1,Tennessee,2,INCREASE,86
+Washington,-3892,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,2,INCREASE,3.666666667
+Washington,-3892,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,2,INCREASE,0.928571429
+Rhea,-3882,New Cases,2020-06-07,1,Tennessee,3,DECREASE,0
+Rhea,-3882,"Reported
+Cases",2020-06-07,1,Tennessee,3,DECREASE,218
+Rhea,-3882,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,3,DECREASE,0.333333333
+Rhea,-3882,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,3,DECREASE,1.642857143
+Maury,-3783,New Cases,2020-06-07,1,Tennessee,2,INCREASE,0
+Maury,-3783,"Reported
+Cases",2020-06-07,1,Tennessee,2,INCREASE,115
+Maury,-3783,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,2,INCREASE,2.666666667
+Maury,-3783,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,2,INCREASE,2.642857143
+Sevier,-3599,New Cases,2020-06-07,1,Tennessee,6,INCREASE,1
+Sevier,-3599,"Reported
+Cases",2020-06-07,1,Tennessee,6,INCREASE,110
+Sevier,-3599,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,6,INCREASE,4.333333333
+Sevier,-3599,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,6,INCREASE,2.714285714
+Sullivan,-3382,New Cases,2020-06-07,1,Tennessee,3,INCREASE,0
+Sullivan,-3382,"Reported
+Cases",2020-06-07,1,Tennessee,3,INCREASE,62
+Sullivan,-3382,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,3,INCREASE,0.666666667
+Sullivan,-3382,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,3,INCREASE,0.071428571
+Gibson,-2951,New Cases,2020-06-07,1,Tennessee,2,DECREASE,0
+Gibson,-2951,"Reported
+Cases",2020-06-07,1,Tennessee,2,DECREASE,63
+Gibson,-2951,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,2,DECREASE,0
+Gibson,-2951,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,2,DECREASE,0.214285714
+Coffee,-2825,New Cases,2020-06-07,1,Tennessee,1,DECREASE,0
+Coffee,-2825,"Reported
+Cases",2020-06-07,1,Tennessee,1,DECREASE,81
+Coffee,-2825,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,1,DECREASE,1
+Coffee,-2825,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,1,DECREASE,1.142857143
+Greene,-2735,New Cases,2020-06-07,1,Tennessee,3,DECREASE,0
+Greene,-2735,"Reported
+Cases",2020-06-07,1,Tennessee,3,DECREASE,52
+Greene,-2735,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,3,DECREASE,0
+Greene,-2735,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,3,DECREASE,0.357142857
+Dyer,-2421,New Cases,2020-06-07,1,Tennessee,6,INCREASE,1
+Dyer,-2421,"Reported
+Cases",2020-06-07,1,Tennessee,6,INCREASE,61
+Dyer,-2421,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,6,INCREASE,1.333333333
+Dyer,-2421,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,6,INCREASE,0.928571429
+Franklin,-2392,New Cases,2020-06-07,1,Tennessee,7,DECREASE,0
+Franklin,-2392,"Reported
+Cases",2020-06-07,1,Tennessee,7,DECREASE,54
+Franklin,-2392,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,7,DECREASE,0
+Franklin,-2392,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,7,DECREASE,0.571428571
+Hickman,-2340,New Cases,2020-06-07,1,Tennessee,1,DECREASE,-3
+Hickman,-2340,"Reported
+Cases",2020-06-07,1,Tennessee,1,DECREASE,59
+Hickman,-2340,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,1,DECREASE,0.333333333
+Hickman,-2340,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,1,DECREASE,0.428571429
+Monroe,-2128,New Cases,2020-06-07,1,Tennessee,1,DECREASE,0
+Monroe,-2128,"Reported
+Cases",2020-06-07,1,Tennessee,1,DECREASE,75
+Monroe,-2128,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,1,DECREASE,1.333333333
+Monroe,-2128,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,1,DECREASE,1.357142857
+Marion,-2061,New Cases,2020-06-07,1,Tennessee,1,DECREASE,0
+Marion,-2061,"Reported
+Cases",2020-06-07,1,Tennessee,1,DECREASE,45
+Marion,-2061,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,1,DECREASE,0.333333333
+Marion,-2061,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,1,DECREASE,0.642857143
+Lauderdale,-2010,New Cases,2020-06-07,1,Tennessee,3,DECREASE,0
+Lauderdale,-2010,"Reported
+Cases",2020-06-07,1,Tennessee,3,DECREASE,60
+Lauderdale,-2010,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,3,DECREASE,0.333333333
+Lauderdale,-2010,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,3,DECREASE,0.642857143
+Anderson,-1917,New Cases,2020-06-07,1,Tennessee,2,INCREASE,2
+Anderson,-1917,"Reported
+Cases",2020-06-07,1,Tennessee,2,INCREASE,47
+Anderson,-1917,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,2,INCREASE,1.666666667
+Anderson,-1917,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,2,INCREASE,0.571428571
+Hawkins,-1890,New Cases,2020-06-07,1,Tennessee,3,DECREASE,0
+Hawkins,-1890,"Reported
+Cases",2020-06-07,1,Tennessee,3,DECREASE,34
+Hawkins,-1890,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,3,DECREASE,0
+Hawkins,-1890,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,3,DECREASE,0.214285714
+Grundy,-1813,New Cases,2020-06-07,1,Tennessee,3,INCREASE,0
+Grundy,-1813,"Reported
+Cases",2020-06-07,1,Tennessee,3,INCREASE,32
+Grundy,-1813,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,3,INCREASE,0.333333333
+Grundy,-1813,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,3,INCREASE,0.071428571
+Wayne,-1638,New Cases,2020-06-07,1,Tennessee,6,DECREASE,0
+Wayne,-1638,"Reported
+Cases",2020-06-07,1,Tennessee,6,DECREASE,64
+Wayne,-1638,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,6,DECREASE,0
+Wayne,-1638,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,6,DECREASE,0.071428571
+DeKalb,-1492,New Cases,2020-06-07,1,Tennessee,5,DECREASE,0
+DeKalb,-1492,"Reported
+Cases",2020-06-07,1,Tennessee,5,DECREASE,39
+DeKalb,-1492,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,5,DECREASE,0.333333333
+DeKalb,-1492,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,5,DECREASE,0.428571429
+Jefferson,-1475,New Cases,2020-06-07,1,Tennessee,1,DECREASE,0
+Jefferson,-1475,"Reported
+Cases",2020-06-07,1,Tennessee,1,DECREASE,29
+Jefferson,-1475,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,1,DECREASE,0
+Jefferson,-1475,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,1,DECREASE,0.142857143
+Haywood,-1449,New Cases,2020-06-07,1,Tennessee,1,INCREASE,2
+Haywood,-1449,"Reported
+Cases",2020-06-07,1,Tennessee,1,INCREASE,36
+Haywood,-1449,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,1,INCREASE,1
+Haywood,-1449,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,1,INCREASE,0.5
+Marshall,-1447,New Cases,2020-06-07,1,Tennessee,5,INCREASE,0
+Marshall,-1447,"Reported
+Cases",2020-06-07,1,Tennessee,5,INCREASE,36
+Marshall,-1447,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,5,INCREASE,1
+Marshall,-1447,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,5,INCREASE,0.642857143
+Smith,-1403,New Cases,2020-06-07,1,Tennessee,3,DECREASE,0
+Smith,-1403,"Reported
+Cases",2020-06-07,1,Tennessee,3,DECREASE,36
+Smith,-1403,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,3,DECREASE,0
+Smith,-1403,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,3,DECREASE,0.428571429
+Hamblen,-1333,New Cases,2020-06-07,1,Tennessee,3,DECREASE,0
+Hamblen,-1333,"Reported
+Cases",2020-06-07,1,Tennessee,3,DECREASE,45
+Hamblen,-1333,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,3,DECREASE,1
+Hamblen,-1333,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,3,DECREASE,1.357142857
+Carroll,-1314,New Cases,2020-06-07,1,Tennessee,3,DECREASE,0
+Carroll,-1314,"Reported
+Cases",2020-06-07,1,Tennessee,3,DECREASE,28
+Carroll,-1314,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,3,DECREASE,0
+Carroll,-1314,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,3,DECREASE,0.071428571
+Lawrence,-1274,New Cases,2020-06-07,1,Tennessee,3,INCREASE,2
+Lawrence,-1274,"Reported
+Cases",2020-06-07,1,Tennessee,3,INCREASE,38
+Lawrence,-1274,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,3,INCREASE,1.666666667
+Lawrence,-1274,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,3,INCREASE,1
+Weakley,-1205,New Cases,2020-06-07,1,Tennessee,4,DECREASE,0
+Weakley,-1205,"Reported
+Cases",2020-06-07,1,Tennessee,4,DECREASE,26
+Weakley,-1205,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,4,DECREASE,0
+Weakley,-1205,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,4,DECREASE,0
+Obion,-1159,New Cases,2020-06-07,1,Tennessee,6,INCREASE,4
+Obion,-1159,"Reported
+Cases",2020-06-07,1,Tennessee,6,INCREASE,56
+Obion,-1159,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,6,INCREASE,3.666666667
+Obion,-1159,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,6,INCREASE,2.285714286
+Henry,-1088,New Cases,2020-06-07,1,Tennessee,1,DECREASE,0
+Henry,-1088,"Reported
+Cases",2020-06-07,1,Tennessee,1,DECREASE,32
+Henry,-1088,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,1,DECREASE,0
+Henry,-1088,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,1,DECREASE,0.214285714
+Lincoln,-1062,New Cases,2020-06-07,1,Tennessee,6,INCREASE,0
+Lincoln,-1062,"Reported
+Cases",2020-06-07,1,Tennessee,6,INCREASE,32
+Lincoln,-1062,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,6,INCREASE,1
+Lincoln,-1062,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,6,INCREASE,0.5
+Campbell,-1003,New Cases,2020-06-07,1,Tennessee,6,DECREASE,0
+Campbell,-1003,"Reported
+Cases",2020-06-07,1,Tennessee,6,DECREASE,18
+Campbell,-1003,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,6,DECREASE,0
+Campbell,-1003,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,6,DECREASE,0.071428571
+Cocke,-982,New Cases,2020-06-07,1,Tennessee,3,DECREASE,0
+Cocke,-982,"Reported
+Cases",2020-06-07,1,Tennessee,3,DECREASE,21
+Cocke,-982,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,3,DECREASE,0
+Cocke,-982,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,3,DECREASE,0.071428571
+White,-982,New Cases,2020-06-07,1,Tennessee,2,INCREASE,3
+White,-982,"Reported
+Cases",2020-06-07,1,Tennessee,2,INCREASE,41
+White,-982,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,2,INCREASE,2.666666667
+White,-982,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,2,INCREASE,1
+Meigs,-933,New Cases,2020-06-07,1,Tennessee,8,DECREASE,0
+Meigs,-933,"Reported
+Cases",2020-06-07,1,Tennessee,8,DECREASE,27
+Meigs,-933,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,8,DECREASE,0
+Meigs,-933,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,8,DECREASE,0.142857143
+Cannon,-909,New Cases,2020-06-07,1,Tennessee,3,DECREASE,0
+Cannon,-909,"Reported
+Cases",2020-06-07,1,Tennessee,3,DECREASE,32
+Cannon,-909,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,3,DECREASE,0
+Cannon,-909,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,3,DECREASE,1.071428571
+Overton,-905,New Cases,2020-06-07,1,Tennessee,3,DECREASE,1
+Overton,-905,"Reported
+Cases",2020-06-07,1,Tennessee,3,DECREASE,35
+Overton,-905,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,3,DECREASE,1
+Overton,-905,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,3,DECREASE,1.071428571
+Carter,-852,New Cases,2020-06-07,1,Tennessee,29,DECREASE,0
+Carter,-852,"Reported
+Cases",2020-06-07,1,Tennessee,29,DECREASE,19
+Carter,-852,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,29,DECREASE,0
+Carter,-852,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,29,DECREASE,0
+Warren,-762,New Cases,2020-06-07,1,Tennessee,2,INCREASE,0
+Warren,-762,"Reported
+Cases",2020-06-07,1,Tennessee,2,INCREASE,28
+Warren,-762,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,2,INCREASE,0.666666667
+Warren,-762,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,2,INCREASE,0.642857143
+Perry,-755,New Cases,2020-06-07,1,Tennessee,3,DECREASE,0
+Perry,-755,"Reported
+Cases",2020-06-07,1,Tennessee,3,DECREASE,24
+Perry,-755,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,3,DECREASE,0
+Perry,-755,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,3,DECREASE,0.785714286
+McNairy,-720,New Cases,2020-06-07,1,Tennessee,2,INCREASE,4
+McNairy,-720,"Reported
+Cases",2020-06-07,1,Tennessee,2,INCREASE,23
+McNairy,-720,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,2,INCREASE,2.666666667
+McNairy,-720,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,2,INCREASE,0.785714286
+Scott,-709,New Cases,2020-06-07,1,Tennessee,3,INCREASE,1
+Scott,-709,"Reported
+Cases",2020-06-07,1,Tennessee,3,INCREASE,14
+Scott,-709,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,3,INCREASE,0.666666667
+Scott,-709,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,3,INCREASE,0.214285714
+Chester,-679,New Cases,2020-06-07,1,Tennessee,11,DECREASE,0
+Chester,-679,"Reported
+Cases",2020-06-07,1,Tennessee,11,DECREASE,12
+Chester,-679,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,11,DECREASE,0
+Chester,-679,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,11,DECREASE,0
+Polk,-677,New Cases,2020-06-07,1,Tennessee,2,INCREASE,0
+Polk,-677,"Reported
+Cases",2020-06-07,1,Tennessee,2,INCREASE,21
+Polk,-677,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,2,INCREASE,0.666666667
+Polk,-677,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,2,INCREASE,0.5
+Jackson,-657,New Cases,2020-06-07,1,Tennessee,3,DECREASE,0
+Jackson,-657,"Reported
+Cases",2020-06-07,1,Tennessee,3,DECREASE,19
+Jackson,-657,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,3,DECREASE,0
+Jackson,-657,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,3,DECREASE,0.142857143
+Morgan,-657,New Cases,2020-06-07,1,Tennessee,3,INCREASE,1
+Morgan,-657,"Reported
+Cases",2020-06-07,1,Tennessee,3,INCREASE,19
+Morgan,-657,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,3,INCREASE,0.666666667
+Morgan,-657,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,3,INCREASE,0.142857143
+Roane,-643,New Cases,2020-06-07,1,Tennessee,2,INCREASE,2
+Roane,-643,"Reported
+Cases",2020-06-07,1,Tennessee,2,INCREASE,21
+Roane,-643,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,2,INCREASE,1.666666667
+Roane,-643,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,2,INCREASE,0.428571429
+Humphreys,-641,New Cases,2020-06-07,1,Tennessee,6,INCREASE,0
+Humphreys,-641,"Reported
+Cases",2020-06-07,1,Tennessee,6,INCREASE,16
+Humphreys,-641,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,6,INCREASE,0.333333333
+Humphreys,-641,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,6,INCREASE,0.285714286
+Crockett,-567,New Cases,2020-06-07,1,Tennessee,11,DECREASE,0
+Crockett,-567,"Reported
+Cases",2020-06-07,1,Tennessee,11,DECREASE,16
+Crockett,-567,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,11,DECREASE,0
+Crockett,-567,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,11,DECREASE,0.071428571
+Giles,-553,New Cases,2020-06-07,1,Tennessee,4,INCREASE,1
+Giles,-553,"Reported
+Cases",2020-06-07,1,Tennessee,4,INCREASE,18
+Giles,-553,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,4,INCREASE,1.666666667
+Giles,-553,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,4,INCREASE,0.428571429
+Johnson,-551,New Cases,2020-06-07,1,Tennessee,1,INCREASE,1
+Johnson,-551,"Reported
+Cases",2020-06-07,1,Tennessee,1,INCREASE,21
+Johnson,-551,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,1,INCREASE,0.666666667
+Johnson,-551,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,1,INCREASE,0.428571429
+Henderson,-550,New Cases,2020-06-07,1,Tennessee,7,DECREASE,0
+Henderson,-550,"Reported
+Cases",2020-06-07,1,Tennessee,7,DECREASE,15
+Henderson,-550,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,7,DECREASE,0
+Henderson,-550,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,7,DECREASE,0.214285714
+Hardin,-544,New Cases,2020-06-07,1,Tennessee,1,INCREASE,8
+Hardin,-544,"Reported
+Cases",2020-06-07,1,Tennessee,1,INCREASE,31
+Hardin,-544,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,1,INCREASE,3
+Hardin,-544,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,1,INCREASE,1.428571429
+Sequatchie,-495,New Cases,2020-06-07,1,Tennessee,3,DECREASE,0
+Sequatchie,-495,"Reported
+Cases",2020-06-07,1,Tennessee,3,DECREASE,20
+Sequatchie,-495,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,3,DECREASE,0
+Sequatchie,-495,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,3,DECREASE,0.714285714
+Stewart,-468,New Cases,2020-06-07,1,Tennessee,2,INCREASE,0
+Stewart,-468,"Reported
+Cases",2020-06-07,1,Tennessee,2,INCREASE,15
+Stewart,-468,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,2,INCREASE,0.666666667
+Stewart,-468,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,2,INCREASE,0.428571429
+Claiborne,-438,New Cases,2020-06-07,1,Tennessee,1,INCREASE,2
+Claiborne,-438,"Reported
+Cases",2020-06-07,1,Tennessee,1,INCREASE,14
+Claiborne,-438,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,1,INCREASE,0.666666667
+Claiborne,-438,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,1,INCREASE,0.428571429
+Unicoi,-418,New Cases,2020-06-07,1,Tennessee,3,DECREASE,0
+Unicoi,-418,"Reported
+Cases",2020-06-07,1,Tennessee,3,DECREASE,52
+Unicoi,-418,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,3,DECREASE,1.333333333
+Unicoi,-418,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,3,DECREASE,3.5
+Fentress,-409,New Cases,2020-06-07,1,Tennessee,11,DECREASE,0
+Fentress,-409,"Reported
+Cases",2020-06-07,1,Tennessee,11,DECREASE,12
+Fentress,-409,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,11,DECREASE,0
+Fentress,-409,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,11,DECREASE,0.142857143
+Benton,-405,New Cases,2020-06-07,1,Tennessee,2,INCREASE,0
+Benton,-405,"Reported
+Cases",2020-06-07,1,Tennessee,2,INCREASE,8
+Benton,-405,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,2,INCREASE,0.333333333
+Benton,-405,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,2,INCREASE,0.071428571
+Grainger,-398,New Cases,2020-06-07,1,Tennessee,9,INCREASE,0
+Grainger,-398,"Reported
+Cases",2020-06-07,1,Tennessee,9,INCREASE,16
+Grainger,-398,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,9,INCREASE,1
+Grainger,-398,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,9,INCREASE,0.714285714
+Houston,-367,New Cases,2020-06-07,1,Tennessee,9,DECREASE,0
+Houston,-367,"Reported
+Cases",2020-06-07,1,Tennessee,9,DECREASE,8
+Houston,-367,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,9,DECREASE,0
+Houston,-367,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,9,DECREASE,0.071428571
+Clay,-345,New Cases,2020-06-07,1,Tennessee,3,DECREASE,0
+Clay,-345,"Reported
+Cases",2020-06-07,1,Tennessee,3,DECREASE,8
+Clay,-345,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,3,DECREASE,0
+Clay,-345,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,3,DECREASE,0.071428571
+Decatur,-260,New Cases,2020-06-07,1,Tennessee,2,INCREASE,2
+Decatur,-260,"Reported
+Cases",2020-06-07,1,Tennessee,2,INCREASE,8
+Decatur,-260,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,2,INCREASE,1
+Decatur,-260,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,2,INCREASE,0.214285714
+Union,-219,New Cases,2020-06-07,1,Tennessee,5,DECREASE,0
+Union,-219,"Reported
+Cases",2020-06-07,1,Tennessee,5,DECREASE,4
+Union,-219,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,5,DECREASE,0
+Union,-219,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,5,DECREASE,0
+Lewis,-167,New Cases,2020-06-07,1,Tennessee,1,INCREASE,1
+Lewis,-167,"Reported
+Cases",2020-06-07,1,Tennessee,1,INCREASE,4
+Lewis,-167,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,1,INCREASE,0.333333333
+Lewis,-167,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,1,INCREASE,0.071428571
+Moore,-163,New Cases,2020-06-07,1,Tennessee,2,DECREASE,0
+Moore,-163,"Reported
+Cases",2020-06-07,1,Tennessee,2,DECREASE,5
+Moore,-163,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,2,DECREASE,0
+Moore,-163,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,2,DECREASE,0.142857143
+Van Buren,-145,New Cases,2020-06-07,1,Tennessee,18,DECREASE,0
+Van Buren,-145,"Reported
+Cases",2020-06-07,1,Tennessee,18,DECREASE,4
+Van Buren,-145,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,18,DECREASE,0
+Van Buren,-145,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,18,DECREASE,0
+Pickett,-68,New Cases,2020-06-07,1,Tennessee,2,INCREASE,0
+Pickett,-68,"Reported
+Cases",2020-06-07,1,Tennessee,2,INCREASE,4
+Pickett,-68,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,2,INCREASE,0.333333333
+Pickett,-68,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,2,INCREASE,0.071428571
+Hancock,-21,New Cases,2020-06-07,1,Tennessee,1,INCREASE,1
+Hancock,-21,"Reported
+Cases",2020-06-07,1,Tennessee,1,INCREASE,2
+Hancock,-21,3 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,1,INCREASE,0.333333333
+Hancock,-21,14 Day Moving Avg along Report Date,2020-06-07,1,Tennessee,1,INCREASE,0.071428571

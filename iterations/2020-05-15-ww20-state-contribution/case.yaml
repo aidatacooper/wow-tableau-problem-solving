@@ -1,0 +1,96 @@
+schema_version: 1.1.0
+case_id: wow-2020-ww20-state-contribution
+iteration_id: 2020-05-15-ww20-state-contribution
+post: https://donnacoles.home.blog/2020/05/15/how-much-do-these-states-contribute-to-the-total/
+legacy_case_ids: {}
+article_date: '2020-05-15'
+challenge_year: 2020
+challenge_week: 20
+challenge_date: '2020-05-12'
+date_evidence:
+  article_date: Declared article publication date in iteration_id
+  challenge: '2020 Week 20: How much do these states contribute to the total?'
+  challenge_date: Official WordPress post 3670 date 2020-05-12T15:00:00
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2020w20/
+    wordpress_post_id: 3670
+  article:
+    url: https://donnacoles.home.blog/2020/05/15/how-much-do-these-states-contribute-to-the-total/
+    path: null
+    sha256: 711bb787329dee86fc34f568b730eee9c056b5b35e76a735d68b801aab868a1e
+  workbook:
+    url: https://public.tableau.com/views/2020_05_13_WW20_Remove_Set_Actions/2020_05_13_WW20_Remove_Set_Actions
+    filename: author.twbx
+    sha256: 74bc2b6dc62726804f524588afe131d3e8f24440092937a4658eae908b331a96
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- evidence/cloud-data-comparison.json
+- evidence/cloud-verification.json
+- evidence/export-provenance.json
+- evidence/functional-verification.json
+- evidence/official-challenge.json
+- evidence/sdk-baseline.json
+- evidence/sdk-final-validation.json
+- evidence/sdk-validation-ac191fde.json
+- evidence/visual-review.md
+- evidence/zero-build-verification.json
+- inputs/source-lock.json
+notes:
+- Empty workbook public API construction; original workbook restricted to analysis.
+cwtwb:
+  tested_version: 0.27.1
+  tested_commit: 56377c5b170f0df1f5cd853fc483de26962dfed1
+  runs:
+  - version: 0.27.1
+    commit: 47718436ae9bc7384d4d275a918c8ba126ae9c58
+    result: blocked
+    evidence: evidence/sdk-baseline.json
+  - version: 0.27.1
+    commit: ac191fde0c2f104697c8dd2d2f0417d9b124dd7e
+    result: pass
+    evidence: evidence/sdk-validation-ac191fde.json
+  - version: 0.27.1
+    commit: 56377c5b170f0df1f5cd853fc483de26962dfed1
+    result: pass
+    evidence: evidence/sdk-final-validation.json
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: pass
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/Orders (Sample - Superstore).hyper
+acceptance:
+- id: blank-sdk-build
+  description: blank sdk build
+  mode: automated
+- id: locked-source-data
+  description: locked source data
+  mode: automated
+- id: native-calculations-actions
+  description: native calculations actions
+  mode: automated
+- id: independent-complete-data-oracle
+  description: independent complete data oracle
+  mode: automated
+- id: cloud-rest-comparison
+  description: cloud rest comparison
+  mode: automated
+- id: cloud-visual-review
+  description: Inspect all paired REST images; record visual differences.
+  mode: manual
+  evidence: evidence/visual-review.md
+remaining_work: []
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []
+acceptance_scope: cloud_rest_and_artifact_contracts
+browser_interaction_executed: false

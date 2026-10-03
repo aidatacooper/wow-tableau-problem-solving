@@ -1,0 +1,13 @@
+# Adjusted targets and missing pipeline
+
+The dashboard compares monthly closed-won sales and open pipeline against monthly targets, then distributes the missed year-to-date target over the remaining months. The official challenge is 2020 WW16, published on 2020-04-14; the article is dated 2020-04-17. These are the only business dates in metadata.
+
+The extracted inputs contain 9,994 pipeline records and 12 target records. Two separate Hyper datasources must remain separate: joining targets to opportunities would multiply targets. The worksheet blends month keys, with Pipeline as primary and Monthly Target as secondary. The sample fixes Today to 2020-04-15 to reproduce its historical business state.
+
+The independent oracle sums each month's closed-won sales and negotiate/proposing pipeline. Before April, closed won totals 87,922.3918 against target 123,000. The shortfall 35,077.6082 is divided by nine remaining months, adding 3,897.5120222222 to each remaining month's target. Missing pipeline is only populated where pipeline exists; in April it also subtracts already closed sales, while future months subtract pipeline alone and clamp negative differences to zero.
+
+Viz uses stacked Closed Won/Pipeline/Missing Pipeline bars, a solid black target Gantt mark, and a dashed per-cell adjusted-target reference line. The dashboard is 800 by 600 and uses no more than three sheets. A full Data worksheet exports all 12 months and nine numeric measures for both workbooks. Button or legend CSV exports are not evidence for these monthly values.
+
+The released SDK baseline 47718436 cannot register secondary datasource dependencies and blend linking fields through its public interface. The data-free reproduction is recorded in evidence/sdk-gap-baseline.json. Released SDK ac191fde0c2f104697c8dd2d2f0417d9b124dd7e implements generic cross-datasource aggregate proxies and native blend configuration with synthetic regression tests. The public-only build, artifact contracts, both full monthly CSV exports, and paired Cloud image review pass. The documented visual result is acceptable_delta; evidence/visual-review.md records the exact reviewed artifact and remaining style differences. The builder must start from TWBEditor("") and use only extracted data plus public APIs.
+
+The original workbook is analysis-only. The Cloud reference package removes only worksheet window hidden flags; provenance and hashes are recorded in evidence/export-provenance.json. No original calculation, layout, or data was changed. REST images and complete monthly CSV were inspected after construction; no browser click or hover execution is claimed.

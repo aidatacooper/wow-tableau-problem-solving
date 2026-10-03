@@ -1,0 +1,84 @@
+schema_version: 1.1.0
+case_id: wow-2020-ww23-excel-style-bars
+iteration_id: 2020-06-05-ww23-excel-style-bars
+post: https://donnacoles.home.blog/2020/06/05/can-you-excel-at-bar-charts/
+legacy_case_ids: {}
+article_date: '2020-06-05'
+challenge_year: 2020
+challenge_week: 23
+challenge_date: '2020-06-02'
+date_evidence:
+  article_date: Declared article publication date in iteration_id
+  challenge: Explicit challenge_year; week declared in iteration_id
+  challenge_date: Official WordPress REST post 3741, slug 2020w23, published 2020-06-02T12:30:00.
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2020w23/
+  article:
+    url: https://donnacoles.home.blog/2020/06/05/can-you-excel-at-bar-charts/
+    path: null
+    sha256: 3f1e6834f01c2057141fbcd18056182abe002bde082a2d07223ae6ae2a1456f2
+  workbook:
+    url: https://public.tableau.com/views/2020_06_03_WW23_Excel_Bar_Chart/2020_06_03_WW23_Excel_Bars
+    filename: author.twbx
+    sha256: 3a1e847bc08cbb7b3abb752e8a3b18be5d6d986a67c3ba0ad9e07078148b4399
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- evidence/cloud-verification.json
+- evidence/export-provenance.json
+- evidence/functional-verification.json
+- evidence/sdk-final-validation.json
+- evidence/sdk-gap-baseline.json
+- evidence/sdk-validation-ac191fde.json
+- evidence/visual-review.md
+- evidence/zero-build-verification.json
+- inputs/source-lock.json
+notes:
+- Generated index views must be refreshed after the workbook is built and verified.
+cwtwb:
+  tested_version: 0.27.1
+  runs:
+  - version: 0.27.1
+    commit: 47718436ae9bc7384d4d275a918c8ba126ae9c58
+    result: blocked
+    evidence: evidence/sdk-gap-baseline.json
+  - version: 0.27.1
+    commit: ac191fde0c2f104697c8dd2d2f0417d9b124dd7e
+    result: pass
+    evidence: evidence/sdk-validation-ac191fde.json
+  - version: 0.27.1
+    commit: 56377c5b170f0df1f5cd853fc483de26962dfed1
+    result: pass
+    evidence: evidence/sdk-final-validation.json
+  tested_commit: 56377c5b170f0df1f5cd853fc483de26962dfed1
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: pass
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/Sample - Superstore.hyper
+acceptance:
+- id: ww23-monthly-sales
+  description: Independently sum all 9,994 transactions into 48 year/month marks totaling
+    2,297,200.8603.
+  mode: automated
+- id: ww23-bar-placement
+  description: Preserve author jitter-then-normalise dates, four-day left aligned
+    native bar sizing and all four palettes.
+  mode: automated
+- id: ww23-cloud-bars
+  description: Paired Cloud REST image and full 48-mark CSV comparison; no browser
+    clicks claimed.
+  mode: automated
+remaining_work: []
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []

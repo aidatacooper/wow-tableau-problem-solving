@@ -1,0 +1,421 @@
+{
+  "case_id": "wow-2020-ww24-moving-average-trend",
+  "captured_at": "2026-10-03T12:17:01.333650+00:00",
+  "source_hashes": {
+    "author": "327ea11171e9a930e32866e86947ea2a250b91a21e91095055172a17a2ac163d",
+    "replica": "522910fd8eed51d10a2a5c0d9945b82aa7f9f38dc507739651e7f3fac3bfacd0"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "89c2c199-ca91-4b85-99cf-8a20c144f683",
+      "name": "cwtwb-review-wow-2020-ww24-moving-average-trend-author-327ea11171e9",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2929645",
+      "views": [
+        {
+          "name": "2020_06_09_WW24_MovingAvg_Covid19",
+          "id": "7aee39b0-d63e-44b6-ae2f-d747be7a1159"
+        },
+        {
+          "name": "Data",
+          "id": "9ba09440-0379-4e6c-8290-d41f42fe9c4e"
+        },
+        {
+          "name": "BAN",
+          "id": "6fffa5e0-cfe7-41dd-a232-3036bf5a989a"
+        },
+        {
+          "name": "Bar&Line",
+          "id": "9daea3c1-6edf-42ac-803f-99595a8ea26d"
+        },
+        {
+          "name": "Map",
+          "id": "9540636b-e4af-4bbf-8761-3a0275634245"
+        },
+        {
+          "name": "Table",
+          "id": "b56d5bf9-ce72-4857-aa50-fb57703e4539"
+        }
+      ]
+    },
+    "replica": {
+      "id": "dc78fc04-9e3b-4a5a-9b3f-dd73178337fa",
+      "name": "cwtwb-review-wow-2020-ww24-moving-average-trend-replica-522910fd8eed",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2929799",
+      "views": [
+        {
+          "name": "BAN",
+          "id": "37f460f6-5b1a-4c56-b456-5d4aa40f1a99"
+        },
+        {
+          "name": "Map",
+          "id": "73da0567-83f1-4d03-bf8b-1aef794b9332"
+        },
+        {
+          "name": "Bar&Line",
+          "id": "a22f8c65-1479-4c4d-a062-4d3b3c30be05"
+        },
+        {
+          "name": "Table",
+          "id": "9fbb23e1-4f53-4720-9afa-74283aa5d847"
+        },
+        {
+          "name": "Data",
+          "id": "4403e3ae-3106-4cde-a265-93bc11d1c813"
+        },
+        {
+          "name": "2020_06_09_WW24_MovingAvg_Covid19",
+          "id": "76869712-0780-4310-9aa2-aadcc752e3e9"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "7aee39b0-d63e-44b6-ae2f-d747be7a1159",
+          "name": "2020_06_09_WW24_MovingAvg_Covid19",
+          "path": "outputs/cloud-author.png",
+          "sha256": "ff402a0cbf3cbf9b949b925648e735209523eea13486dd14e7a74b7ff063442d",
+          "size": [
+            900,
+            2000
+          ]
+        },
+        "replica": {
+          "id": "76869712-0780-4310-9aa2-aadcc752e3e9",
+          "name": "2020_06_09_WW24_MovingAvg_Covid19",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "5659192e21c0329fba93c4a9a2478c178d9724842d4afbac495520c85564b942",
+          "size": [
+            900,
+            2000
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Table",
+          "view_id": "b56d5bf9-ce72-4857-aa50-fb57703e4539",
+          "scope": "Every county of selected state, latest June7 reported/new cases and both moving averages.",
+          "path": "outputs/cloud-author-latest-counties.csv",
+          "sha256": "59c2380b09aa69c7531e2e527ea5bb355987a04d4454115f2688ce4d9e93b433",
+          "bytes": 24960
+        },
+        {
+          "role": "author",
+          "view": "Bar&Line",
+          "view_id": "9daea3c1-6edf-42ac-803f-99595a8ea26d",
+          "scope": "All92 selected county daily records March8-June7 and selected3/14day movingaverage.",
+          "path": "outputs/cloud-author-daily-series.csv",
+          "sha256": "c4b6bd39d5a3271d423b12b21636f23f2fc450ea5a551bde88b5b96acf93f84e",
+          "bytes": 14375
+        },
+        {
+          "role": "author",
+          "view": "BAN",
+          "view_id": "6fffa5e0-cfe7-41dd-a232-3036bf5a989a",
+          "scope": "Selected county latest trend direction and recursive consecutive-day count.",
+          "path": "outputs/cloud-author-trend.csv",
+          "sha256": "386b5ef8d85424b11ae54c775dc67d5c549edd7515cffc0e3a1da910ce621644",
+          "bytes": 97
+        },
+        {
+          "role": "replica",
+          "view": "Table",
+          "view_id": "9fbb23e1-4f53-4720-9afa-74283aa5d847",
+          "scope": "Every county of selected state, latest June7 reported/new cases and both moving averages.",
+          "path": "outputs/cloud-replica-latest-counties.csv",
+          "sha256": "1ca64a8a25da978ba54b8c7f89913129ba1ea8e23536bd5c53d6aff489c8ede7",
+          "bytes": 30051
+        },
+        {
+          "role": "replica",
+          "view": "Bar&Line",
+          "view_id": "a22f8c65-1479-4c4d-a062-4d3b3c30be05",
+          "scope": "All92 selected county daily records March8-June7 and selected3/14day movingaverage.",
+          "path": "outputs/cloud-replica-daily-series.csv",
+          "sha256": "3bcfa84ff5be54c2125b61a2ca76a4b65c4b54d5f14ffbc3bfe9e6574bebdf03",
+          "bytes": 9271
+        },
+        {
+          "role": "replica",
+          "view": "BAN",
+          "view_id": "37f460f6-5b1a-4c56-b456-5d4aa40f1a99",
+          "scope": "Selected county latest trend direction and recursive consecutive-day count.",
+          "path": "outputs/cloud-replica-trend.csv",
+          "sha256": "42205fc98e1cbaa44de56ae8d28a2753c33f9ffc9cb39cbb2aa0946d14987330",
+          "bytes": 125
+        }
+      ]
+    },
+    {
+      "name": "three-day",
+      "parameters": {
+        "Moving Avg Selector": "3"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "7aee39b0-d63e-44b6-ae2f-d747be7a1159",
+          "name": "2020_06_09_WW24_MovingAvg_Covid19",
+          "path": "outputs/cloud-author-three-day.png",
+          "sha256": "5ae8ae79efca6eb6ea9ac2d41e18e3ef933e5e96ec616b4382e217d7ef2b391b",
+          "size": [
+            900,
+            2000
+          ]
+        },
+        "replica": {
+          "id": "76869712-0780-4310-9aa2-aadcc752e3e9",
+          "name": "2020_06_09_WW24_MovingAvg_Covid19",
+          "path": "outputs/cloud-replica-three-day.png",
+          "sha256": "e52226a21ae8e6f3385daf5bcadbca82f3b50be8df46300818460ac4edf3ef01",
+          "size": [
+            900,
+            2000
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Table",
+          "view_id": "b56d5bf9-ce72-4857-aa50-fb57703e4539",
+          "scope": "Every county of selected state, latest June7 reported/new cases and both moving averages.",
+          "path": "outputs/cloud-author-latest-counties-three-day.csv",
+          "sha256": "59c2380b09aa69c7531e2e527ea5bb355987a04d4454115f2688ce4d9e93b433",
+          "bytes": 24960
+        },
+        {
+          "role": "author",
+          "view": "Bar&Line",
+          "view_id": "9daea3c1-6edf-42ac-803f-99595a8ea26d",
+          "scope": "All92 selected county daily records March8-June7 and selected3/14day movingaverage.",
+          "path": "outputs/cloud-author-daily-series-three-day.csv",
+          "sha256": "90958b07fe7b0270bbd97731852f7e97750981cb2ad300f2122c0701c2d63c4c",
+          "bytes": 14203
+        },
+        {
+          "role": "author",
+          "view": "BAN",
+          "view_id": "6fffa5e0-cfe7-41dd-a232-3036bf5a989a",
+          "scope": "Selected county latest trend direction and recursive consecutive-day count.",
+          "path": "outputs/cloud-author-trend-three-day.csv",
+          "sha256": "386b5ef8d85424b11ae54c775dc67d5c549edd7515cffc0e3a1da910ce621644",
+          "bytes": 97
+        },
+        {
+          "role": "replica",
+          "view": "Table",
+          "view_id": "9fbb23e1-4f53-4720-9afa-74283aa5d847",
+          "scope": "Every county of selected state, latest June7 reported/new cases and both moving averages.",
+          "path": "outputs/cloud-replica-latest-counties-three-day.csv",
+          "sha256": "1ca64a8a25da978ba54b8c7f89913129ba1ea8e23536bd5c53d6aff489c8ede7",
+          "bytes": 30051
+        },
+        {
+          "role": "replica",
+          "view": "Bar&Line",
+          "view_id": "a22f8c65-1479-4c4d-a062-4d3b3c30be05",
+          "scope": "All92 selected county daily records March8-June7 and selected3/14day movingaverage.",
+          "path": "outputs/cloud-replica-daily-series-three-day.csv",
+          "sha256": "99ad07a5807067e7abb6b871086f10d766907565c57547c9e822fc1e8a53ce1c",
+          "bytes": 9309
+        },
+        {
+          "role": "replica",
+          "view": "BAN",
+          "view_id": "37f460f6-5b1a-4c56-b456-5d4aa40f1a99",
+          "scope": "Selected county latest trend direction and recursive consecutive-day count.",
+          "path": "outputs/cloud-replica-trend-three-day.csv",
+          "sha256": "42205fc98e1cbaa44de56ae8d28a2753c33f9ffc9cb39cbb2aa0946d14987330",
+          "bytes": 125
+        }
+      ]
+    },
+    {
+      "name": "campbell",
+      "parameters": {
+        "State - County Parameter": "Tennessee - Campbell"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "7aee39b0-d63e-44b6-ae2f-d747be7a1159",
+          "name": "2020_06_09_WW24_MovingAvg_Covid19",
+          "path": "outputs/cloud-author-campbell.png",
+          "sha256": "d87447acb9d6610613ba6952d76e683b30a843ebaeb0ae5abf923a786ea90966",
+          "size": [
+            900,
+            2000
+          ]
+        },
+        "replica": {
+          "id": "76869712-0780-4310-9aa2-aadcc752e3e9",
+          "name": "2020_06_09_WW24_MovingAvg_Covid19",
+          "path": "outputs/cloud-replica-campbell.png",
+          "sha256": "6fd0190ceb49a2a47482f89270d7475a3ebb0a62ff295ec25f1502c0e0c058cd",
+          "size": [
+            900,
+            2000
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Table",
+          "view_id": "b56d5bf9-ce72-4857-aa50-fb57703e4539",
+          "scope": "Every county of selected state, latest June7 reported/new cases and both moving averages.",
+          "path": "outputs/cloud-author-latest-counties-campbell.csv",
+          "sha256": "25b8fea7cab3d04d7e7ae2a7d7eb6295721f3d3a53a1e7af9ad115e364ab3bb8",
+          "bytes": 24960
+        },
+        {
+          "role": "author",
+          "view": "Bar&Line",
+          "view_id": "9daea3c1-6edf-42ac-803f-99595a8ea26d",
+          "scope": "All92 selected county daily records March8-June7 and selected3/14day movingaverage.",
+          "path": "outputs/cloud-author-daily-series-campbell.csv",
+          "sha256": "28e8e0b7062a62e8339d819d4f4926708bfa5d5047c342deb5cb69efd3eae562",
+          "bytes": 14081
+        },
+        {
+          "role": "author",
+          "view": "BAN",
+          "view_id": "6fffa5e0-cfe7-41dd-a232-3036bf5a989a",
+          "scope": "Selected county latest trend direction and recursive consecutive-day count.",
+          "path": "outputs/cloud-author-trend-campbell.csv",
+          "sha256": "d3bbd0db2e01df71dd81c5fd382cf9d055b00695bfd9eb23ed369dc2d70968b3",
+          "bytes": 97
+        },
+        {
+          "role": "replica",
+          "view": "Table",
+          "view_id": "9fbb23e1-4f53-4720-9afa-74283aa5d847",
+          "scope": "Every county of selected state, latest June7 reported/new cases and both moving averages.",
+          "path": "outputs/cloud-replica-latest-counties-campbell.csv",
+          "sha256": "2b61fc702be9ef01a451280b4fb80019787cbbdd02f0966dde5c51b4eac3fe75",
+          "bytes": 30051
+        },
+        {
+          "role": "replica",
+          "view": "Bar&Line",
+          "view_id": "a22f8c65-1479-4c4d-a062-4d3b3c30be05",
+          "scope": "All92 selected county daily records March8-June7 and selected3/14day movingaverage.",
+          "path": "outputs/cloud-replica-daily-series-campbell.csv",
+          "sha256": "9d5f6669324c67e11c5640d0483bb2af0629f9ba26048f96f46aa37bb8cfa35a",
+          "bytes": 7827
+        },
+        {
+          "role": "replica",
+          "view": "BAN",
+          "view_id": "37f460f6-5b1a-4c56-b456-5d4aa40f1a99",
+          "scope": "Selected county latest trend direction and recursive consecutive-day count.",
+          "path": "outputs/cloud-replica-trend-campbell.csv",
+          "sha256": "702d67fef03a1a6f60dbcb3d8834dd9747a98db46c121706c43eb58bbda66b5c",
+          "bytes": 125
+        }
+      ]
+    },
+    {
+      "name": "los-angeles",
+      "parameters": {
+        "State - County Parameter": "California - Los Angeles"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "7aee39b0-d63e-44b6-ae2f-d747be7a1159",
+          "name": "2020_06_09_WW24_MovingAvg_Covid19",
+          "path": "outputs/cloud-author-los-angeles.png",
+          "sha256": "8f7e4de01a92a36e99ae967a3dad6d22307a757251e93ae38a49db85cc1bcaa6",
+          "size": [
+            900,
+            2000
+          ]
+        },
+        "replica": {
+          "id": "76869712-0780-4310-9aa2-aadcc752e3e9",
+          "name": "2020_06_09_WW24_MovingAvg_Covid19",
+          "path": "outputs/cloud-replica-los-angeles.png",
+          "sha256": "2d175756b5b90928decf5de0aa93025d2d6c22d56d24fde0036063658544397e",
+          "size": [
+            900,
+            2000
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Table",
+          "view_id": "b56d5bf9-ce72-4857-aa50-fb57703e4539",
+          "scope": "Every county of selected state, latest June7 reported/new cases and both moving averages.",
+          "path": "outputs/cloud-author-latest-counties-los-angeles.csv",
+          "sha256": "42f6f9830e75f353c8dc11fbe1033e3746277550d626b2937865ceaee12cc58f",
+          "bytes": 16027
+        },
+        {
+          "role": "author",
+          "view": "Bar&Line",
+          "view_id": "9daea3c1-6edf-42ac-803f-99595a8ea26d",
+          "scope": "All92 selected county daily records March8-June7 and selected3/14day movingaverage.",
+          "path": "outputs/cloud-author-daily-series-los-angeles.csv",
+          "sha256": "fa8e235752b8a3d15efeef3435d07cb854437bb70dbb8fcb400f98f53000197d",
+          "bytes": 15775
+        },
+        {
+          "role": "author",
+          "view": "BAN",
+          "view_id": "6fffa5e0-cfe7-41dd-a232-3036bf5a989a",
+          "scope": "Selected county latest trend direction and recursive consecutive-day count.",
+          "path": "outputs/cloud-author-trend-los-angeles.csv",
+          "sha256": "cb9fd1f9916a57d52eaeae88d1da13d0ff55f442acd9f6abb232cba840cdba52",
+          "bytes": 97
+        },
+        {
+          "role": "replica",
+          "view": "Table",
+          "view_id": "9fbb23e1-4f53-4720-9afa-74283aa5d847",
+          "scope": "Every county of selected state, latest June7 reported/new cases and both moving averages.",
+          "path": "outputs/cloud-replica-latest-counties-los-angeles.csv",
+          "sha256": "a8307ffec39868a025fb1db12e845e46c5d7aab993ac2bebc5fec9788a941796",
+          "bytes": 19256
+        },
+        {
+          "role": "replica",
+          "view": "Bar&Line",
+          "view_id": "a22f8c65-1479-4c4d-a062-4d3b3c30be05",
+          "scope": "All92 selected county daily records March8-June7 and selected3/14day movingaverage.",
+          "path": "outputs/cloud-replica-daily-series-los-angeles.csv",
+          "sha256": "075e8c6abddd8d5a092f2bbca4dd090cc4935e73b9800668e42318ccf0994a0d",
+          "bytes": 10679
+        },
+        {
+          "role": "replica",
+          "view": "BAN",
+          "view_id": "37f460f6-5b1a-4c56-b456-5d4aa40f1a99",
+          "scope": "Selected county latest trend direction and recursive consecutive-day count.",
+          "path": "outputs/cloud-replica-trend-los-angeles.csv",
+          "sha256": "23efd4a8cb5b052757ab776a98be981f02a2e7359a09c2ebfaf1cb0f836dec67",
+          "bytes": 125
+        }
+      ]
+    }
+  ],
+  "status": "verified",
+  "independent_review": {
+    "visual_status": "acceptable_delta",
+    "visual_evidence": "evidence/visual-review.md",
+    "functional_evidence": "evidence/functional-verification.json",
+    "scope": "Declared REST worksheet exports and artifact contracts; no browser events executed."
+  }
+}

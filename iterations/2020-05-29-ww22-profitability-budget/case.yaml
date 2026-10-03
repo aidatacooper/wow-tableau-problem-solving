@@ -1,0 +1,87 @@
+schema_version: 1.1.0
+case_id: wow-2020-ww22-profitability-budget
+iteration_id: 2020-05-29-ww22-profitability-budget
+post: https://donnacoles.home.blog/2020/05/29/profitability-spotlight-is-your-budget-recovered/
+legacy_case_ids: {}
+article_date: '2020-05-29'
+challenge_year: 2020
+challenge_week: 22
+challenge_date: '2020-05-26'
+date_evidence:
+  article_date: Declared article publication date in iteration_id
+  challenge: Explicit challenge_year; week declared in iteration_id
+  challenge_date: Official WordPress REST post 3699, 2020w22, published 2020-05-26T18:30:00.
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2020w22/
+  article:
+    url: https://donnacoles.home.blog/2020/05/29/profitability-spotlight-is-your-budget-recovered/
+    path: null
+    sha256: ddf3dbca8f917a8c004a79b6802590c6666234ca94bef71045d0159a06bb6d67
+  workbook:
+    url: https://public.tableau.com/views/2020_05_27_WW22_Profitability_Polygon/2020_05_27_WW22_Profitability_Polygonv2
+    filename: author.twbx
+    sha256: c9028b8fcd97b570d5bbd7b5dc11955f16637f8306ef3350b4356a9bcfc2e1c5
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- evidence/cloud-verification.json
+- evidence/export-provenance.json
+- evidence/functional-verification.json
+- evidence/sdk-final-validation.json
+- evidence/sdk-gap-baseline.json
+- evidence/sdk-validation-ac191fde.json
+- evidence/visual-review.md
+- evidence/zero-build-verification.json
+- inputs/source-lock.json
+notes:
+- Generated index views must be refreshed after the workbook is built and verified.
+cwtwb:
+  tested_version: 0.27.1
+  runs:
+  - version: 0.27.1
+    commit: 47718436ae9bc7384d4d275a918c8ba126ae9c58
+    result: blocked
+    evidence: evidence/sdk-gap-baseline.json
+  - version: 0.27.1
+    commit: ac191fde0c2f104697c8dd2d2f0417d9b124dd7e
+    result: pass
+    evidence: evidence/sdk-validation-ac191fde.json
+  - version: 0.27.1
+    commit: 56377c5b170f0df1f5cd853fc483de26962dfed1
+    result: pass
+    evidence: evidence/sdk-final-validation.json
+  tested_commit: 56377c5b170f0df1f5cd853fc483de26962dfed1
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: pass
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/TEMP_0ehmgcx1xmbjvh19ycl840es2ha0.hyper
+acceptance:
+- id: ww22-profitability-oracle
+  description: 24 raw rows independently give 12 vertex group averages, profit and
+    budget-based margin.
+  mode: automated
+- id: ww22-polygon-contract
+  description: Three-point polygon and two-point review/revenue color line per category.
+  mode: automated
+- id: ww22-expand-action
+  description: Native on-select additive set action source, target and exclude-all
+    clearing contracts; no clicks claimed.
+  mode: automated
+- id: ww22-cloud-polygons
+  description: Default and Chairs-filtered REST images and complete five-metric Data
+    CSV.
+  mode: automated
+remaining_work: []
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []

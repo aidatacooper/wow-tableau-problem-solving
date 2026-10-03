@@ -1,0 +1,10 @@
+{
+  "sdk_version": "0.27.1",
+  "sdk_commit": "47718436ae9bc7384d4d275a918c8ba126ae9c58",
+  "result": "blocked",
+  "findings": [
+    "Baseline generic mark_sizing rejected native mark-alignment-left.",
+    "Baseline YEAR(date) datasource palette emitted quoted year buckets; Cloud rendered default colors rather than supplied palette."
+  ],
+  "resolution": "Generic SDK fixes with author-free synthetic tests coordinated by maintainer; final released SDK run will be appended separately."
+}

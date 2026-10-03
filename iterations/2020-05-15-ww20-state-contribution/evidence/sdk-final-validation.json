@@ -1,0 +1,12 @@
+{
+  "sdk_commit": "56377c5b170f0df1f5cd853fc483de26962dfed1",
+  "sdk_version": "0.27.1",
+  "sdk_tests": {
+    "passed": 629,
+    "skipped": 25
+  },
+  "sdk_ci": "https://github.com/aidatacooper/cwtwb/actions/runs/37121946903",
+  "sdk_ci_status": "success",
+  "environment": "Python 3.11; exact Git SDK installation confirmed by direct_url.json; no editable dependency.",
+  "scope": "SDK repository suite and synthetic regressions; case data and Cloud acceptance are recorded separately."
+}

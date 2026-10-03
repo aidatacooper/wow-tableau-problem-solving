@@ -1,0 +1,13 @@
+{
+  "source_sha256": "214a58b1b7ff2036b55844005aafc130869d7fb8af48edc8cd081cc366efa087",
+  "comparison_sha256": "327ea11171e9a930e32866e86947ea2a250b91a21e91095055172a17a2ac163d",
+  "modification": "Only removed hidden=true from worksheet windows; parsed datasources/worksheets/dashboards and packaged data unchanged.",
+  "exposed_worksheets": [
+    "BAN",
+    "Bar&Line",
+    "Map",
+    "Table"
+  ],
+  "data_members_unchanged": true,
+  "source_workbook_used_by_builder": false
+}

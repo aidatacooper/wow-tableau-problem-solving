@@ -1,0 +1,38 @@
+{
+  "actual_row_count": 92,
+  "plan_row_count": 4,
+  "as_of": "2020-04-23",
+  "elapsed_weekdays": 17,
+  "month_weekdays": 22,
+  "values": [
+    {
+      "Region": "Central",
+      "MTD": 9537.0,
+      "Run Rate": 12342.0,
+      "Plan": 13000.0,
+      "below_plan": true
+    },
+    {
+      "Region": "East",
+      "MTD": 3703.0,
+      "Run Rate": 4792.117647058823,
+      "Plan": 4500.0,
+      "below_plan": false
+    },
+    {
+      "Region": "South",
+      "MTD": 6482.0,
+      "Run Rate": 8388.470588235294,
+      "Plan": 14000.0,
+      "below_plan": true
+    },
+    {
+      "Region": "West",
+      "MTD": 10288.0,
+      "Run Rate": 13313.882352941175,
+      "Plan": 6500.0,
+      "below_plan": false
+    }
+  ],
+  "business_scope": "All four region MTD sums; weekday-only elapsed/full-month denominator; one monthly Plan per region, never repeated by daily actual count."
+}

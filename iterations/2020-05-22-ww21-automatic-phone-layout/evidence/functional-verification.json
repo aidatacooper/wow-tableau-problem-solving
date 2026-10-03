@@ -1,0 +1,227 @@
+{
+  "status": "pass",
+  "artifact_sha256": "d17f844f9f1b8290f0b440c3f122c08ff21d22be07cb2994f062da7cb9d55675",
+  "source_rows": 9994,
+  "annual": {
+    "2018": {
+      "sales": 609205.5980000007,
+      "profit": 81795.17430000019,
+      "sales_change": 0.2947152138217087,
+      "profit_change": 0.32744284012394914
+    },
+    "2019": {
+      "sales": 733215.2551999985,
+      "profit": 93439.26959999988,
+      "sales_change": 0.20355961535336656,
+      "profit_change": 0.1423567514789154
+    }
+  },
+  "monthly": {
+    "(2018, 11)": [
+      79411.96579999996,
+      4011.4074999999984
+    ],
+    "(2018, 6)": [
+      40344.534,
+      4750.378099999999
+    ],
+    "(2019, 4)": [
+      36521.53609999999,
+      933.2899999999994
+    ],
+    "(2018, 12)": [
+      96999.04299999999,
+      17885.309299999986
+    ],
+    "(2019, 7)": [
+      45264.41599999997,
+      6952.621200000002
+    ],
+    "(2018, 1)": [
+      18542.490999999998,
+      2824.8233
+    ],
+    "(2019, 10)": [
+      77776.92319999993,
+      9275.275499999998
+    ],
+    "(2019, 9)": [
+      87866.65200000009,
+      10991.5556
+    ],
+    "(2018, 7)": [
+      39261.963,
+      4432.877899999999
+    ],
+    "(2018, 3)": [
+      51715.87499999999,
+      3611.9679999999994
+    ],
+    "(2018, 9)": [
+      73410.02489999996,
+      9328.657600000002
+    ],
+    "(2019, 12)": [
+      83829.31880000001,
+      8483.346800000001
+    ],
+    "(2019, 11)": [
+      118447.82500000003,
+      9690.103699999994
+    ],
+    "(2019, 5)": [
+      44261.1102,
+      6342.582799999996
+    ],
+    "(2018, 4)": [
+      38750.03899999999,
+      2977.8148999999985
+    ],
+    "(2019, 6)": [
+      52981.725699999995,
+      8223.335699999994
+    ],
+    "(2018, 8)": [
+      31115.374300000014,
+      2062.0693
+    ],
+    "(2019, 2)": [
+      20301.13339999999,
+      1613.8719999999983
+    ],
+    "(2018, 10)": [
+      59687.74500000002,
+      16243.142499999998
+    ],
+    "(2018, 5)": [
+      56987.72799999998,
+      8662.146400000001
+    ],
+    "(2019, 3)": [
+      58872.352799999986,
+      14751.891499999998
+    ],
+    "(2019, 8)": [
+      63120.88799999999,
+      9040.955699999995
+    ],
+    "(2019, 1)": [
+      43971.373999999996,
+      7140.439100000001
+    ],
+    "(2018, 2)": [
+      22978.815000000006,
+      5004.5795
+    ]
+  },
+  "top_sales": {
+    "Canon imageCLASS 2200 Advanced Copier": 61599.824,
+    "Hewlett Packard LaserJet 3310 Copier": 16079.732,
+    "3D Systems Cube Printer, 2nd Generation, Magenta": 14299.89,
+    "GBC Ibimaster 500 Manual ProClick Binding System": 13621.542,
+    "GBC DocuBind TL300 Electric Binding System": 12737.258000000002,
+    "GBC DocuBind P400 Electric Binding System": 12521.108,
+    "Samsung Galaxy Mega 6.3": 12263.708,
+    "HON 5400 Series Task Chairs for Big and Tall": 11846.562,
+    "Martin Yale Chadless Opener Electric Letter Opener": 11825.901999999998,
+    "Global Troy Executive Leather Low-Back Tilter": 10169.894
+  },
+  "extreme_profit": {
+    "Canon imageCLASS 2200 Advanced Copier": 25199.927999999996,
+    "Hewlett Packard LaserJet 3310 Copier": 6407.8931999999995,
+    "3D Systems Cube Printer, 2nd Generation, Magenta": 3717.9713999999994,
+    "HP Designjet T520 Inkjet Large Format Printer - 24\" Color": 2799.9839999999995,
+    "GBC DocuBind TL300 Electric Binding System": 2753.7592999999997,
+    "Ativa V4110MDD Micro-Cut Shredder": 2400.9656999999997,
+    "Honeywell Enviracaire Portable HEPA Air Cleaner for 17' x 22' Room": 2396.1804999999995,
+    "Plantronics CS510 - Over-the-Head monaural Wireless Headset System": 2062.187499999999,
+    "Canon PC1060 Personal Laser Copier": 1889.9729999999997,
+    "Logitech\u00a0Z-906 Speaker sys - home theater - 5.1-CH": 1847.944,
+    "Cubify CubeX 3D Printer Double Head Print": -6239.979200000002,
+    "Cubify CubeX 3D Printer Triple Head Print": -3839.9903999999988,
+    "Lexmark MX611dhe Monochrome Laser Printer": -2719.9840000000013,
+    "Bush Advantage Collection Racetrack Conference Table": -2019.2395999999999,
+    "Ibico EPK-21 Electric Binding System": -1285.1932000000006,
+    "Martin Yale Chadless Opener Electric Letter Opener": -1232.5588,
+    "BoxOffice By Design Rectangular and Half-Moon Meeting Room Tables": -986.5625,
+    "Bretford \u201cJust In Time\u201d Height-Adjustable Multi-Task Work Tables": -964.1940000000004,
+    "Zebra GK420t Direct Thermal/Thermal Transfer Printer": -938.28,
+    "Epson TM-T88V Direct Thermal Printer - Monochrome - Desktop": -935.9594999999999
+  },
+  "phone_layout_scope": "Native automatic Phone/vscroll artifact contract only; no browser or mobile rendering executed.",
+  "source_scope": "Donna full annual 2018/2019 product dashboard, not official YTD/customer brief.",
+  "cloud_checks": [
+    {
+      "path": "outputs/cloud-author-sales-summary.csv",
+      "view": "Sales Summary",
+      "rows": 2,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-sales-line.csv",
+      "view": "Sales Line",
+      "rows": 24,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-top-10-products-by-sales.csv",
+      "view": "Top 10 Products by Sales",
+      "rows": 10,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-profit-summary.csv",
+      "view": "Profit Summary",
+      "rows": 2,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-profit-line.csv",
+      "view": "Profit Line",
+      "rows": 24,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-top-bottom-10-products-by-profit.csv",
+      "view": "Top & Bottom 10 Products by Profit",
+      "rows": 20,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-sales-summary.csv",
+      "view": "Sales Summary",
+      "rows": 2,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-sales-line.csv",
+      "view": "Sales Line",
+      "rows": 24,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-top-10-products-by-sales.csv",
+      "view": "Top 10 Products by Sales",
+      "rows": 10,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-profit-summary.csv",
+      "view": "Profit Summary",
+      "rows": 2,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-profit-line.csv",
+      "view": "Profit Line",
+      "rows": 24,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-top-bottom-10-products-by-profit.csv",
+      "view": "Top & Bottom 10 Products by Profit",
+      "rows": 20,
+      "status": "pass"
+    }
+  ]
+}

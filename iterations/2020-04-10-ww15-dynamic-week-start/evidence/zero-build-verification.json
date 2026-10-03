@@ -1,0 +1,9 @@
+{
+  "case_id": "2020-04-10-ww15-dynamic-week-start",
+  "sdk_commit": "56377c5b170f0df1f5cd853fc483de26962dfed1",
+  "builder_sha256": "544346f70b4aa7c595f8c76c0dec5c77eabc3e2dab499719d7e71e06cc1733f9",
+  "result": "passed",
+  "initial_workbooks_available": 0,
+  "scope": "Copied only builder/verifier, metadata and locked inputs. Built from TWBEditor empty, then ran independent raw-data/artifact oracle without copied Cloud evidence or author workbooks.",
+  "builder_hash_scope": "UTF-8 source text with universal newlines normalized to LF"
+}

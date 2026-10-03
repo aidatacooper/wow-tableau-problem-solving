@@ -1,0 +1,6 @@
+{
+  "original_sha256": "3572c93065ef14504c6dd0c151123d92bb8d8e8c3ee372147431cc4edb6ac658",
+  "export_sha256": "11040201b48a25c82c1730bf0811be303b36d49dce80aa1fb0863d8c61a190ea",
+  "changes": "Only removed hidden attributes from worksheet window elements to expose REST worksheet exports. Calculations, datasource connections, dashboards and actions remain unchanged.",
+  "source_used_by_builder": false
+}

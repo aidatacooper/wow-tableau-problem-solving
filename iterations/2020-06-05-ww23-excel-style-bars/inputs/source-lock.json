@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-03",
+  "source_workbook": {
+    "filename": "author.twbx",
+    "bytes": 66608,
+    "sha256": "3a1e847bc08cbb7b3abb752e8a3b18be5d6d986a67c3ba0ad9e07078148b4399",
+    "url": "https://public.tableau.com/views/2020_06_03_WW23_Excel_Bar_Chart/2020_06_03_WW23_Excel_Bars"
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Datasources/Sample - Superstore.hyper",
+      "file": "inputs/Sample - Superstore.hyper",
+      "bytes": 196608,
+      "sha256": "7841e0c1d5d4ad03dff7e2761a25c74aa20eaf968c68e4146380d25a93284713"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

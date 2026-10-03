@@ -1,0 +1,64 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "state": "default",
+      "file": "outputs/cloud-author-grid.csv",
+      "week_day_cells": 77,
+      "zero_fact_dates": 6,
+      "author_missing_leading_zero_dates": []
+    },
+    {
+      "state": "default",
+      "file": "outputs/cloud-replica-grid.csv",
+      "week_day_cells": 77,
+      "zero_fact_dates": 6,
+      "author_missing_leading_zero_dates": []
+    },
+    {
+      "state": "sunday",
+      "file": "outputs/cloud-author-grid-sunday.csv",
+      "week_day_cells": 35,
+      "zero_fact_dates": 4,
+      "author_missing_leading_zero_dates": []
+    },
+    {
+      "state": "sunday",
+      "file": "outputs/cloud-replica-grid-sunday.csv",
+      "week_day_cells": 35,
+      "zero_fact_dates": 4,
+      "author_missing_leading_zero_dates": []
+    },
+    {
+      "state": "monday",
+      "file": "outputs/cloud-author-grid-monday.csv",
+      "week_day_cells": 14,
+      "zero_fact_dates": 2,
+      "author_missing_leading_zero_dates": []
+    },
+    {
+      "state": "monday",
+      "file": "outputs/cloud-replica-grid-monday.csv",
+      "week_day_cells": 14,
+      "zero_fact_dates": 2,
+      "author_missing_leading_zero_dates": []
+    },
+    {
+      "state": "current-only",
+      "file": "outputs/cloud-author-grid-current-only.csv",
+      "week_day_cells": 6,
+      "zero_fact_dates": 1,
+      "author_missing_leading_zero_dates": [
+        "2019-10-18"
+      ]
+    },
+    {
+      "state": "current-only",
+      "file": "outputs/cloud-replica-grid-current-only.csv",
+      "week_day_cells": 7,
+      "zero_fact_dates": 1,
+      "author_missing_leading_zero_dates": []
+    }
+  ],
+  "scope": "Every current/prior-week weekday cell, zero sales and available tooltip dates; no button CSV proof."
+}

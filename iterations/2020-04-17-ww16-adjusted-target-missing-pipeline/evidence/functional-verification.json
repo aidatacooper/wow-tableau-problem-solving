@@ -1,0 +1,185 @@
+{
+  "case": "ww16",
+  "status": "pass",
+  "artifact_sha256": "07c8aafdaa70136299c3d8844313759d16813d6e1aea933b8e83f64115adfefa",
+  "oracle": {
+    "pipeline_row_count": 9994,
+    "target_row_count": 12,
+    "as_of": "2020-04-15",
+    "values": [
+      {
+        "month": 1,
+        "Closed Won": 39138.1388,
+        "Pipeline": null,
+        "Target": 45000.0,
+        "YTD Closed": 87922.3918,
+        "YTD Target": 123000.0,
+        "Missed Sales Value": 35077.6082,
+        "Remaining Months": 9,
+        "Distributed Missed Sales Value": 3897.5120222222226,
+        "Adjusted Target": null,
+        "Missing Pipeline": null
+      },
+      {
+        "month": 2,
+        "Closed Won": 19759.455,
+        "Pipeline": null,
+        "Target": 38000.0,
+        "YTD Closed": 87922.3918,
+        "YTD Target": 123000.0,
+        "Missed Sales Value": 35077.6082,
+        "Remaining Months": 9,
+        "Distributed Missed Sales Value": 3897.5120222222226,
+        "Adjusted Target": null,
+        "Missing Pipeline": null
+      },
+      {
+        "month": 3,
+        "Closed Won": 29024.798,
+        "Pipeline": null,
+        "Target": 40000.0,
+        "YTD Closed": 87922.3918,
+        "YTD Target": 123000.0,
+        "Missed Sales Value": 35077.6082,
+        "Remaining Months": 9,
+        "Distributed Missed Sales Value": 3897.5120222222226,
+        "Adjusted Target": null,
+        "Missing Pipeline": null
+      },
+      {
+        "month": 4,
+        "Closed Won": 18111.2513,
+        "Pipeline": 13207.531,
+        "Target": 41000.0,
+        "YTD Closed": 87922.3918,
+        "YTD Target": 123000.0,
+        "Missed Sales Value": 35077.6082,
+        "Remaining Months": 9,
+        "Distributed Missed Sales Value": 3897.5120222222226,
+        "Adjusted Target": 44897.512022222225,
+        "Missing Pipeline": 13578.729722222224
+      },
+      {
+        "month": 5,
+        "Closed Won": 0.0,
+        "Pipeline": 44774.9324,
+        "Target": 35000.0,
+        "YTD Closed": 87922.3918,
+        "YTD Target": 123000.0,
+        "Missed Sales Value": 35077.6082,
+        "Remaining Months": 9,
+        "Distributed Missed Sales Value": 3897.5120222222226,
+        "Adjusted Target": 38897.512022222225,
+        "Missing Pipeline": 0.0
+      },
+      {
+        "month": 6,
+        "Closed Won": 0.0,
+        "Pipeline": 47220.4981,
+        "Target": 45000.0,
+        "YTD Closed": 87922.3918,
+        "YTD Target": 123000.0,
+        "Missed Sales Value": 35077.6082,
+        "Remaining Months": 9,
+        "Distributed Missed Sales Value": 3897.5120222222226,
+        "Adjusted Target": 48897.512022222225,
+        "Missing Pipeline": 1677.0139222222278
+      },
+      {
+        "month": 7,
+        "Closed Won": 0.0,
+        "Pipeline": 47183.873,
+        "Target": 40000.0,
+        "YTD Closed": 87922.3918,
+        "YTD Target": 123000.0,
+        "Missed Sales Value": 35077.6082,
+        "Remaining Months": 9,
+        "Distributed Missed Sales Value": 3897.5120222222226,
+        "Adjusted Target": 43897.512022222225,
+        "Missing Pipeline": 0.0
+      },
+      {
+        "month": 8,
+        "Closed Won": 0.0,
+        "Pipeline": 63760.020000000004,
+        "Target": 65000.0,
+        "YTD Closed": 87922.3918,
+        "YTD Target": 123000.0,
+        "Missed Sales Value": 35077.6082,
+        "Remaining Months": 9,
+        "Distributed Missed Sales Value": 3897.5120222222226,
+        "Adjusted Target": 68897.51202222222,
+        "Missing Pipeline": 5137.492022222214
+      },
+      {
+        "month": 9,
+        "Closed Won": 0.0,
+        "Pipeline": 91427.867,
+        "Target": 95000.0,
+        "YTD Closed": 87922.3918,
+        "YTD Target": 123000.0,
+        "Missed Sales Value": 35077.6082,
+        "Remaining Months": 9,
+        "Distributed Missed Sales Value": 3897.5120222222226,
+        "Adjusted Target": 98897.51202222222,
+        "Missing Pipeline": 7469.645022222219
+      },
+      {
+        "month": 10,
+        "Closed Won": 0.0,
+        "Pipeline": 75551.6612,
+        "Target": 85000.0,
+        "YTD Closed": 87922.3918,
+        "YTD Target": 123000.0,
+        "Missed Sales Value": 35077.6082,
+        "Remaining Months": 9,
+        "Distributed Missed Sales Value": 3897.5120222222226,
+        "Adjusted Target": 88897.51202222222,
+        "Missing Pipeline": 13345.850822222215
+      },
+      {
+        "month": 11,
+        "Closed Won": 0.0,
+        "Pipeline": 105200.513,
+        "Target": 110000.0,
+        "YTD Closed": 87922.3918,
+        "YTD Target": 123000.0,
+        "Missed Sales Value": 35077.6082,
+        "Remaining Months": 9,
+        "Distributed Missed Sales Value": 3897.5120222222226,
+        "Adjusted Target": 113897.51202222222,
+        "Missing Pipeline": 8696.999022222211
+      },
+      {
+        "month": 12,
+        "Closed Won": 0.0,
+        "Pipeline": 97053.459,
+        "Target": 100000.0,
+        "YTD Closed": 87922.3918,
+        "YTD Target": 123000.0,
+        "Missed Sales Value": 35077.6082,
+        "Remaining Months": 9,
+        "Distributed Missed Sales Value": 3897.5120222222226,
+        "Adjusted Target": 103897.51202222222,
+        "Missing Pipeline": 6844.053022222215
+      }
+    ],
+    "business_scope": "2020 month aggregates; completed-month closed/target YTD shortfall distributed over nine current/future months. Native blending never multiplies monthly targets by opportunity count."
+  },
+  "cloud_status": "passed",
+  "cloud_checks": [
+    {
+      "file": "outputs/cloud-author-monthly.csv",
+      "months": 12,
+      "metric_cells": 108,
+      "scope": "Full month table, all nine pipeline/target/YTD/shortfall metrics; nullable values checked."
+    },
+    {
+      "file": "outputs/cloud-replica-monthly.csv",
+      "months": 12,
+      "metric_cells": 108,
+      "scope": "Full month table, all nine pipeline/target/YTD/shortfall metrics; nullable values checked."
+    }
+  ],
+  "browser_interaction_executed": false
+}

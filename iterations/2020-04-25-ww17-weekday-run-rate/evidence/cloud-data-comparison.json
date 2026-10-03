@@ -1,0 +1,17 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "file": "outputs/cloud-author-regions.csv",
+      "regions": 4,
+      "metric_cells": 12,
+      "scope": "Every region monthly MTD, run rate and plan; independent17/22-weekday calendar."
+    },
+    {
+      "file": "outputs/cloud-replica-regions.csv",
+      "regions": 4,
+      "metric_cells": 12,
+      "scope": "Every region monthly MTD, run rate and plan; independent17/22-weekday calendar."
+    }
+  ]
+}

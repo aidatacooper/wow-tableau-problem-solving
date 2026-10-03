@@ -523,6 +523,116 @@
       "reason": "Derived from case metadata; consumed means claimed, not verified completed."
     },
     {
+      "case_id": "wow-2020-ww15-dynamic-week-start",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-04-10-ww15-dynamic-week-start",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2020-ww16-adjusted-target-missing-pipeline",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-04-17-ww16-adjusted-target-missing-pipeline",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2020-ww17-weekday-run-rate",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-04-25-ww17-weekday-run-rate",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2020-ww18-most-profitable-products",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-05-03-ww18-most-profitable-products",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2020-ww19-dynamic-date-drilling",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-05-08-ww19-dynamic-date-drilling",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2020-ww20-state-contribution",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-05-15-ww20-state-contribution",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2020-ww21-automatic-phone-layout",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-05-22-ww21-automatic-phone-layout",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2020-ww22-profitability-budget",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-05-29-ww22-profitability-budget",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2020-ww23-excel-style-bars",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-06-05-ww23-excel-style-bars",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2020-ww24-moving-average-trend",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-06-12-ww24-moving-average-trend",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
       "case_id": "wow-2026-ww04-dynamic-moving-average",
       "legacy_case_ids": {
         "donna-2026-02-02-5ebab8421caf": "wow-2026-ww04-dynamic-moving-average"

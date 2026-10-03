@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "generated_from": "iterations/*/case.yaml",
-  "active_case_count": 44,
+  "active_case_count": 54,
   "legacy_case_ids": {
     "donna-2019-07-18-63877b35d19a": "wow-2019-ww29-high-orders",
     "donna-2019-07-25-59a0a144b25b": "wow-2019-ww30-navigation-kpi",
@@ -2609,6 +2609,600 @@
         "Cloud REST state/data plus artifact contracts; no browser events executed."
       ],
       "metadata": "iterations/2020-04-04-ww14-sales-pipeline/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.27.1"
+    },
+    {
+      "case_id": "wow-2020-ww15-dynamic-week-start",
+      "legacy_case_ids": {},
+      "iteration_id": "2020-04-10-ww15-dynamic-week-start",
+      "article_date": "2020-04-10",
+      "challenge_year": 2020,
+      "challenge_week": 15,
+      "challenge_date": "2020-04-08",
+      "date_evidence": {
+        "article_date": "Declared publication date in article URL and locked article HTML",
+        "challenge": "Official WordPress challenge title year/week",
+        "challenge_date": "Official WordPress REST post 3612 date 2020-04-08"
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2020w15/",
+          "wordpress_post_id": 3612
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2020/04/10/can-you-create-a-chart-with-a-dynamic-week-start/",
+          "path": null,
+          "sha256": "d6f756ff42bf2de413cb1265567490d70b754a4c64db542d3c7cc3d16c5336e9"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/profile/donna.coles#!/vizhome/2020_04_08_WW15_DynamicWeekStart/2020_04_08_WW15_Dynamic_Week_Start",
+          "filename": "2020_04_08_WW15_DynamicWeekStart.twbx",
+          "sha256": "3572c93065ef14504c6dd0c151123d92bb8d8e8c3ee372147431cc4edb6ac658"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "pass",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "evidence/cloud-data-comparison.json",
+        "evidence/cloud-verification.json",
+        "evidence/export-provenance.json",
+        "evidence/functional-verification.json",
+        "evidence/sdk-baseline.json",
+        "evidence/sdk-domain-range-baseline.json",
+        "evidence/sdk-final-validation.json",
+        "evidence/sdk-validation-ac191fde.json",
+        "evidence/visual-review.md",
+        "evidence/zero-build-verification.json",
+        "inputs/source-lock.json"
+      ],
+      "notes": [
+        "TWBEditor empty build reads extracted inputs and public SDK APIs only.",
+        "REST state/data and artifact contracts; no browser events executed."
+      ],
+      "metadata": "iterations/2020-04-10-ww15-dynamic-week-start/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.27.1"
+    },
+    {
+      "case_id": "wow-2020-ww16-adjusted-target-missing-pipeline",
+      "legacy_case_ids": {},
+      "iteration_id": "2020-04-17-ww16-adjusted-target-missing-pipeline",
+      "article_date": "2020-04-17",
+      "challenge_year": 2020,
+      "challenge_week": 16,
+      "challenge_date": "2020-04-14",
+      "date_evidence": {
+        "article_date": "Declared publication date in article URL and locked article HTML",
+        "challenge": "Official WordPress challenge title year/week",
+        "challenge_date": "Official WordPress REST post 3619 date 2020-04-14"
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2020w16/",
+          "wordpress_post_id": 3619
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2020/04/17/can-you-show-the-adjusted-target-and-missing-pipeline/",
+          "path": null,
+          "sha256": "83ef1d99210aff4dfca764ddaf4ef7a43d769b952f22081a7fe83452aa126b56"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/profile/donna.coles#!/vizhome/2020_04_15_WW16_Pipeline_v_AdjustedTarget/2020_04_15_Pipeline_V_AdjustedTarget",
+          "filename": "2020_04_15_WW16_Pipeline_v_AdjustedTarget.twbx",
+          "sha256": "0f662a454eac6e9918abd03ec1e58148682386237ab6a596bd6bc723cc6e631f"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "pass",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "evidence/cloud-data-comparison.json",
+        "evidence/cloud-verification.json",
+        "evidence/export-provenance.json",
+        "evidence/functional-verification.json",
+        "evidence/sdk-baseline.json",
+        "evidence/sdk-final-validation.json",
+        "evidence/sdk-gap-baseline.json",
+        "evidence/sdk-validation-ac191fde.json",
+        "evidence/visual-review.md",
+        "evidence/zero-build-verification.json",
+        "inputs/source-lock.json"
+      ],
+      "notes": [
+        "TWBEditor empty build reads extracted inputs and public SDK APIs only.",
+        "REST state/data and artifact contracts; no browser events executed."
+      ],
+      "metadata": "iterations/2020-04-17-ww16-adjusted-target-missing-pipeline/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.27.1"
+    },
+    {
+      "case_id": "wow-2020-ww17-weekday-run-rate",
+      "legacy_case_ids": {},
+      "iteration_id": "2020-04-25-ww17-weekday-run-rate",
+      "article_date": "2020-04-25",
+      "challenge_year": 2020,
+      "challenge_week": 17,
+      "challenge_date": "2020-04-21",
+      "date_evidence": {
+        "article_date": "Declared publication date in article URL and locked article HTML",
+        "challenge": "Official WordPress challenge title year/week",
+        "challenge_date": "Official WordPress REST post 3634 date 2020-04-21"
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2020w17/",
+          "wordpress_post_id": 3634
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2020/04/25/can-you-calculate-weekday-run-rate/",
+          "path": null,
+          "sha256": "fe5f5feddc6321b53e06f2faa6a34682bd405ca460251c7daa611cb5f30fa0aa"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/profile/donna.coles#!/vizhome/2020_04_22_WW17_Weekday_RunRate/2020_04_22_WW17_Weekday_RunRate",
+          "filename": "2020_04_22_WW17_Weekday_RunRate.twbx",
+          "sha256": "a266366e5a80e71248c64eba4c365e3bf634e69056ccda26d8acce8eff3fb95b"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "pass",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "evidence/cloud-data-comparison.json",
+        "evidence/cloud-verification.json",
+        "evidence/export-provenance.json",
+        "evidence/functional-verification.json",
+        "evidence/sdk-baseline.json",
+        "evidence/sdk-final-validation.json",
+        "evidence/sdk-gap-baseline.json",
+        "evidence/sdk-validation-ac191fde.json",
+        "evidence/visual-review.md",
+        "evidence/zero-build-verification.json",
+        "inputs/source-lock.json"
+      ],
+      "notes": [
+        "TWBEditor empty build reads extracted inputs and public SDK APIs only.",
+        "REST state/data and artifact contracts; no browser events executed."
+      ],
+      "metadata": "iterations/2020-04-25-ww17-weekday-run-rate/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.27.1"
+    },
+    {
+      "case_id": "wow-2020-ww18-most-profitable-products",
+      "legacy_case_ids": {},
+      "iteration_id": "2020-05-03-ww18-most-profitable-products",
+      "article_date": "2020-05-03",
+      "challenge_year": 2020,
+      "challenge_week": 18,
+      "challenge_date": "2020-04-28",
+      "date_evidence": {
+        "article_date": "Declared article publication date in iteration_id",
+        "challenge": "2020 Week 18: Which products were most profitable?",
+        "challenge_date": "Official WordPress post 3643 date 2020-04-28T14:27:38"
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2020w18/",
+          "wordpress_post_id": 3643
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2020/05/03/which-products-are-most-profitable/",
+          "path": null,
+          "sha256": "4e2bc5d884bac57b09ab99832fc125133bf145c736129deba9399b943538c848"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2020_04_28_WW18_TopN_Nested_Table_Blogged_Version/2020_04_28_WW18_TopN_Nested_Table_Blogged_Version",
+          "filename": "author.twbx",
+          "sha256": "51a7378cf23b1fc5076f6abb4255e1fa66a041a4f1469bfd02e7f9e0e914b125"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "pass",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "evidence/cloud-data-comparison.json",
+        "evidence/cloud-verification.json",
+        "evidence/export-provenance.json",
+        "evidence/functional-verification.json",
+        "evidence/official-challenge.json",
+        "evidence/sdk-baseline.json",
+        "evidence/sdk-final-validation.json",
+        "evidence/sdk-fit-width-baseline.json",
+        "evidence/sdk-validation-ac191fde.json",
+        "evidence/visual-review.md",
+        "evidence/zero-build-verification.json",
+        "inputs/source-lock.json"
+      ],
+      "notes": [
+        "Empty workbook public API construction; original workbook restricted to analysis."
+      ],
+      "metadata": "iterations/2020-05-03-ww18-most-profitable-products/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.27.1"
+    },
+    {
+      "case_id": "wow-2020-ww19-dynamic-date-drilling",
+      "legacy_case_ids": {},
+      "iteration_id": "2020-05-08-ww19-dynamic-date-drilling",
+      "article_date": "2020-05-08",
+      "challenge_year": 2020,
+      "challenge_week": 19,
+      "challenge_date": "2020-05-05",
+      "date_evidence": {
+        "article_date": "Declared article publication date in iteration_id",
+        "challenge": "2020 Week 19: Can you build a dynamic date drilling chart?",
+        "challenge_date": "Official WordPress post 3657 date 2020-05-05T22:12:44"
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2020w19/",
+          "wordpress_post_id": 3657
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2020/05/08/can-you-build-a-dynamic-date-drilling-chart/",
+          "path": null,
+          "sha256": "3a4171fabdfcf3fae23b75cd88ce832604065d043b84c0235562584ee9a37e67"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2020_05_06_WW19_DateDrillDown/2020_05_06_WW19_DateDrillDown",
+          "filename": "author.twbx",
+          "sha256": "86efeb05e22c29865015216a666318d7d84699de090ee673a458b359c320215d"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "pass",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "evidence/cloud-data-comparison.json",
+        "evidence/cloud-verification.json",
+        "evidence/export-provenance.json",
+        "evidence/functional-verification.json",
+        "evidence/official-challenge.json",
+        "evidence/sdk-baseline.json",
+        "evidence/sdk-final-validation.json",
+        "evidence/sdk-validation-ac191fde.json",
+        "evidence/visual-review.md",
+        "evidence/zero-build-verification.json",
+        "inputs/source-lock.json"
+      ],
+      "notes": [
+        "Empty workbook public API construction; original workbook restricted to analysis."
+      ],
+      "metadata": "iterations/2020-05-08-ww19-dynamic-date-drilling/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.27.1"
+    },
+    {
+      "case_id": "wow-2020-ww20-state-contribution",
+      "legacy_case_ids": {},
+      "iteration_id": "2020-05-15-ww20-state-contribution",
+      "article_date": "2020-05-15",
+      "challenge_year": 2020,
+      "challenge_week": 20,
+      "challenge_date": "2020-05-12",
+      "date_evidence": {
+        "article_date": "Declared article publication date in iteration_id",
+        "challenge": "2020 Week 20: How much do these states contribute to the total?",
+        "challenge_date": "Official WordPress post 3670 date 2020-05-12T15:00:00"
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2020w20/",
+          "wordpress_post_id": 3670
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2020/05/15/how-much-do-these-states-contribute-to-the-total/",
+          "path": null,
+          "sha256": "711bb787329dee86fc34f568b730eee9c056b5b35e76a735d68b801aab868a1e"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2020_05_13_WW20_Remove_Set_Actions/2020_05_13_WW20_Remove_Set_Actions",
+          "filename": "author.twbx",
+          "sha256": "74bc2b6dc62726804f524588afe131d3e8f24440092937a4658eae908b331a96"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "pass",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "evidence/cloud-data-comparison.json",
+        "evidence/cloud-verification.json",
+        "evidence/export-provenance.json",
+        "evidence/functional-verification.json",
+        "evidence/official-challenge.json",
+        "evidence/sdk-baseline.json",
+        "evidence/sdk-final-validation.json",
+        "evidence/sdk-validation-ac191fde.json",
+        "evidence/visual-review.md",
+        "evidence/zero-build-verification.json",
+        "inputs/source-lock.json"
+      ],
+      "notes": [
+        "Empty workbook public API construction; original workbook restricted to analysis."
+      ],
+      "metadata": "iterations/2020-05-15-ww20-state-contribution/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.27.1"
+    },
+    {
+      "case_id": "wow-2020-ww21-automatic-phone-layout",
+      "legacy_case_ids": {},
+      "iteration_id": "2020-05-22-ww21-automatic-phone-layout",
+      "article_date": "2020-05-22",
+      "challenge_year": 2020,
+      "challenge_week": 21,
+      "challenge_date": "2020-05-19",
+      "date_evidence": {
+        "article_date": "2020-05-22 article URL and archived SHA",
+        "challenge": "Official WordPress REST post3679: 2020 Week 21: Can you design for an automatic phone layout?",
+        "challenge_date": "Official date 2020-05-19T15:24:13"
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2020w21/"
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2020/05/22/can-you-design-for-an-automatic-phone-layout/",
+          "path": null,
+          "sha256": "d2a0915f872f9283c5bf0944824e4df02c5d6c33d7f096903c679eba4b0e6985"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/profile/donna.coles#!/vizhome/2020_05_20_WW21_Auto_Phone_Layout/2020_05_19_WW21_Auto_Phone_Layout",
+          "filename": "2020_05_20_WW21_Auto_Phone_Layout.twbx",
+          "sha256": "22d9d2762941ca242cfa49edaf7dee127c0d2096bfdc0d1986a4a91c687cce66"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "pass",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "evidence/cloud-data-comparison.json",
+        "evidence/cloud-verification.json",
+        "evidence/export-provenance.json",
+        "evidence/functional-verification.json",
+        "evidence/sdk-baseline.json",
+        "evidence/sdk-final-validation.json",
+        "evidence/sdk-validation-ac191fde.json",
+        "evidence/visual-review.md",
+        "evidence/zero-build-verification.json",
+        "inputs/source-lock.json"
+      ],
+      "notes": [
+        "Generated index views must be refreshed after the workbook is built and verified."
+      ],
+      "metadata": "iterations/2020-05-22-ww21-automatic-phone-layout/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.27.1"
+    },
+    {
+      "case_id": "wow-2020-ww22-profitability-budget",
+      "legacy_case_ids": {},
+      "iteration_id": "2020-05-29-ww22-profitability-budget",
+      "article_date": "2020-05-29",
+      "challenge_year": 2020,
+      "challenge_week": 22,
+      "challenge_date": "2020-05-26",
+      "date_evidence": {
+        "article_date": "Declared article publication date in iteration_id",
+        "challenge": "Explicit challenge_year; week declared in iteration_id",
+        "challenge_date": "Official WordPress REST post 3699, 2020w22, published 2020-05-26T18:30:00."
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2020w22/"
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2020/05/29/profitability-spotlight-is-your-budget-recovered/",
+          "path": null,
+          "sha256": "ddf3dbca8f917a8c004a79b6802590c6666234ca94bef71045d0159a06bb6d67"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2020_05_27_WW22_Profitability_Polygon/2020_05_27_WW22_Profitability_Polygonv2",
+          "filename": "author.twbx",
+          "sha256": "c9028b8fcd97b570d5bbd7b5dc11955f16637f8306ef3350b4356a9bcfc2e1c5"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "pass",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "evidence/cloud-verification.json",
+        "evidence/export-provenance.json",
+        "evidence/functional-verification.json",
+        "evidence/sdk-final-validation.json",
+        "evidence/sdk-gap-baseline.json",
+        "evidence/sdk-validation-ac191fde.json",
+        "evidence/visual-review.md",
+        "evidence/zero-build-verification.json",
+        "inputs/source-lock.json"
+      ],
+      "notes": [
+        "Generated index views must be refreshed after the workbook is built and verified."
+      ],
+      "metadata": "iterations/2020-05-29-ww22-profitability-budget/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.27.1"
+    },
+    {
+      "case_id": "wow-2020-ww23-excel-style-bars",
+      "legacy_case_ids": {},
+      "iteration_id": "2020-06-05-ww23-excel-style-bars",
+      "article_date": "2020-06-05",
+      "challenge_year": 2020,
+      "challenge_week": 23,
+      "challenge_date": "2020-06-02",
+      "date_evidence": {
+        "article_date": "Declared article publication date in iteration_id",
+        "challenge": "Explicit challenge_year; week declared in iteration_id",
+        "challenge_date": "Official WordPress REST post 3741, slug 2020w23, published 2020-06-02T12:30:00."
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2020w23/"
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2020/06/05/can-you-excel-at-bar-charts/",
+          "path": null,
+          "sha256": "3f1e6834f01c2057141fbcd18056182abe002bde082a2d07223ae6ae2a1456f2"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2020_06_03_WW23_Excel_Bar_Chart/2020_06_03_WW23_Excel_Bars",
+          "filename": "author.twbx",
+          "sha256": "3a1e847bc08cbb7b3abb752e8a3b18be5d6d986a67c3ba0ad9e07078148b4399"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "pass",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "evidence/cloud-verification.json",
+        "evidence/export-provenance.json",
+        "evidence/functional-verification.json",
+        "evidence/sdk-final-validation.json",
+        "evidence/sdk-gap-baseline.json",
+        "evidence/sdk-validation-ac191fde.json",
+        "evidence/visual-review.md",
+        "evidence/zero-build-verification.json",
+        "inputs/source-lock.json"
+      ],
+      "notes": [
+        "Generated index views must be refreshed after the workbook is built and verified."
+      ],
+      "metadata": "iterations/2020-06-05-ww23-excel-style-bars/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.27.1"
+    },
+    {
+      "case_id": "wow-2020-ww24-moving-average-trend",
+      "legacy_case_ids": {},
+      "iteration_id": "2020-06-12-ww24-moving-average-trend",
+      "article_date": "2020-06-12",
+      "challenge_year": 2020,
+      "challenge_week": 24,
+      "challenge_date": "2020-06-09",
+      "date_evidence": {
+        "article_date": "Declared article publication date in iteration_id",
+        "challenge": "Explicit challenge_year; week declared in iteration_id",
+        "challenge_date": "Official WordPress REST post3753,2020w24,published2020-06-09T14:37:14."
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2020w24/"
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2020/06/12/can-you-compare-a-3-day-vs-14-day-moving-average-and-describe-the-latest-trend/",
+          "path": null,
+          "sha256": "bdb3120dc1d13f38c436f7ea8a50c9061557bb1db7d7994703bb9c0947449380"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2020_06_09_WW24_MovingAvg_Covid19/2020_06_09_WW24_MovingAvg_Covid19",
+          "filename": "author.twbx",
+          "sha256": "214a58b1b7ff2036b55844005aafc130869d7fb8af48edc8cd081cc366efa087"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "pass",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "evidence/cloud-verification.json",
+        "evidence/export-provenance.json",
+        "evidence/functional-verification.json",
+        "evidence/sdk-final-validation.json",
+        "evidence/sdk-fit-width-baseline.json",
+        "evidence/sdk-gap-baseline.json",
+        "evidence/sdk-validation-ac191fde.json",
+        "evidence/visual-review.md",
+        "evidence/zero-build-verification.json",
+        "inputs/source-lock.json"
+      ],
+      "notes": [
+        "Generated index views must be refreshed after the workbook is built and verified."
+      ],
+      "metadata": "iterations/2020-06-12-ww24-moving-average-trend/case.yaml",
       "metadata_contract": "1.1.0",
       "tested_sdk_version": "0.27.1"
     },

@@ -1,0 +1,228 @@
+{
+  "case_id": "wow-2020-ww21-automatic-phone-layout",
+  "captured_at": "2026-10-03T12:30:44.481391+00:00",
+  "source_hashes": {
+    "author": "b31d25cd93bc3d0aa2ef14f0d540280841c4bcc40f24445f978de760c7a5222f",
+    "replica": "d17f844f9f1b8290f0b440c3f122c08ff21d22be07cb2994f062da7cb9d55675"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "5245124b-e975-457a-b315-70d1d13adc94",
+      "name": "cwtwb-review-wow-2020-ww21-automatic-phone-layout-author-b31d25cd93bc",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2929695",
+      "views": [
+        {
+          "name": "2020_05_19_WW21_Auto_Phone_Layout",
+          "id": "a40f7973-1107-4a61-9032-8bd1ea0728ff"
+        },
+        {
+          "name": "Profit Line",
+          "id": "1b6426bf-6e24-4132-880c-904a9b28def0"
+        },
+        {
+          "name": "Profit Summary",
+          "id": "0866b5d1-6af0-4eea-bc93-a56482246e48"
+        },
+        {
+          "name": "Sales Line",
+          "id": "acdaac25-3efa-4b0c-8557-c21f954bca36"
+        },
+        {
+          "name": "Sales Summary",
+          "id": "15c7f459-ebe2-4f75-ba52-602195a7eebe"
+        },
+        {
+          "name": "Top & Bottom 10 Products by Profit",
+          "id": "65fb2b65-88b0-4518-9c2d-6037921d1224"
+        },
+        {
+          "name": "Top 10 Products by Sales",
+          "id": "4b840217-8463-47ef-b8df-55c8a4d793d3"
+        }
+      ]
+    },
+    "replica": {
+      "id": "5e46ba3b-a66e-42b3-8263-dbfbc4c8765f",
+      "name": "cwtwb-review-wow-2020-ww21-automatic-phone-layout-replica-d17f844f9f1b",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2929857",
+      "views": [
+        {
+          "name": "Sales Line",
+          "id": "6493a032-5bb4-4063-8f5c-07c92ae2fd36"
+        },
+        {
+          "name": "Sales Summary",
+          "id": "3ea0fcf1-73e9-4c29-8691-84d1011deb45"
+        },
+        {
+          "name": "Profit Line",
+          "id": "34aea44b-001b-436e-bbb1-12d253476f7e"
+        },
+        {
+          "name": "Profit Summary",
+          "id": "be3d7f25-3efa-4af2-b360-98689faf2847"
+        },
+        {
+          "name": "Top 10 Products by Sales",
+          "id": "b296dd36-aebb-4db9-8e42-5a2bb5b89381"
+        },
+        {
+          "name": "Top & Bottom 10 Products by Profit",
+          "id": "e79fecbe-30e0-4e70-9729-46568e0b36cf"
+        },
+        {
+          "name": "2020_05_19_WW21_Auto_Phone_Layout",
+          "id": "89faf647-f2e2-4795-b5d7-099529b48691"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "a40f7973-1107-4a61-9032-8bd1ea0728ff",
+          "name": "2020_05_19_WW21_Auto_Phone_Layout",
+          "path": "outputs/cloud-author.png",
+          "sha256": "65a7d429f103ad7496fdb05bca7c8a39f344273848fc405881102fa90bb24b27",
+          "size": [
+            2400,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "89faf647-f2e2-4795-b5d7-099529b48691",
+          "name": "2020_05_19_WW21_Auto_Phone_Layout",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "70fbda9ad8d55062c934f54bedb07400e22ed7ba521bc48733a9fd50aea941a6",
+          "size": [
+            2400,
+            1600
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Sales Summary",
+          "view_id": "15c7f459-ebe2-4f75-ba52-602195a7eebe",
+          "scope": "Complete worksheet marks; monthly 2018/2019, annual totals and prior-year changes, or full Top10/combinedTopBottom20 product membership.",
+          "path": "outputs/cloud-author-sales-summary.csv",
+          "sha256": "8166583634ba5aa916a1a197fd54be2b527a19c6703cd60acb5d8dabe91cd605",
+          "bytes": 141
+        },
+        {
+          "role": "author",
+          "view": "Sales Line",
+          "view_id": "acdaac25-3efa-4b0c-8557-c21f954bca36",
+          "scope": "Complete worksheet marks; monthly 2018/2019, annual totals and prior-year changes, or full Top10/combinedTopBottom20 product membership.",
+          "path": "outputs/cloud-author-sales-line.csv",
+          "sha256": "4d877cb1fe8c3a12f8457b841ccdabf95952aaaa1e54e3da5361f714844aa396",
+          "bytes": 578
+        },
+        {
+          "role": "author",
+          "view": "Top 10 Products by Sales",
+          "view_id": "4b840217-8463-47ef-b8df-55c8a4d793d3",
+          "scope": "Complete worksheet marks; monthly 2018/2019, annual totals and prior-year changes, or full Top10/combinedTopBottom20 product membership.",
+          "path": "outputs/cloud-author-top-10-products-by-sales.csv",
+          "sha256": "172723feb03bf07602da185f0b64e4098bee2a9d907dab383a798d6687c661d3",
+          "bytes": 545
+        },
+        {
+          "role": "author",
+          "view": "Profit Summary",
+          "view_id": "0866b5d1-6af0-4eea-bc93-a56482246e48",
+          "scope": "Complete worksheet marks; monthly 2018/2019, annual totals and prior-year changes, or full Top10/combinedTopBottom20 product membership.",
+          "path": "outputs/cloud-author-profit-summary.csv",
+          "sha256": "eddabc1d94a47d46d44c718877e83f1c0ee51b6299e0db2b0c515e1bacd2994e",
+          "bytes": 141
+        },
+        {
+          "role": "author",
+          "view": "Profit Line",
+          "view_id": "1b6426bf-6e24-4132-880c-904a9b28def0",
+          "scope": "Complete worksheet marks; monthly 2018/2019, annual totals and prior-year changes, or full Top10/combinedTopBottom20 product membership.",
+          "path": "outputs/cloud-author-profit-line.csv",
+          "sha256": "9db2b0349492a52fa1cecf975008b65aa89f960ad3ca2ffac55f4b6acd46285c",
+          "bytes": 554
+        },
+        {
+          "role": "author",
+          "view": "Top & Bottom 10 Products by Profit",
+          "view_id": "65fb2b65-88b0-4518-9c2d-6037921d1224",
+          "scope": "Complete worksheet marks; monthly 2018/2019, annual totals and prior-year changes, or full Top10/combinedTopBottom20 product membership.",
+          "path": "outputs/cloud-author-top-bottom-10-products-by-profit.csv",
+          "sha256": "624b862beecf82b2b4f0f3b4f762904a39174e239b705a6496b7541273d1912c",
+          "bytes": 1403
+        },
+        {
+          "role": "replica",
+          "view": "Sales Summary",
+          "view_id": "3ea0fcf1-73e9-4c29-8691-84d1011deb45",
+          "scope": "Complete worksheet marks; monthly 2018/2019, annual totals and prior-year changes, or full Top10/combinedTopBottom20 product membership.",
+          "path": "outputs/cloud-replica-sales-summary.csv",
+          "sha256": "b5394ad2ba356e133ca2cecea68e6d40d80b84ca53096fd8877325c9ee6d435c",
+          "bytes": 111
+        },
+        {
+          "role": "replica",
+          "view": "Sales Line",
+          "view_id": "6493a032-5bb4-4063-8f5c-07c92ae2fd36",
+          "scope": "Complete worksheet marks; monthly 2018/2019, annual totals and prior-year changes, or full Top10/combinedTopBottom20 product membership.",
+          "path": "outputs/cloud-replica-sales-line.csv",
+          "sha256": "4d877cb1fe8c3a12f8457b841ccdabf95952aaaa1e54e3da5361f714844aa396",
+          "bytes": 578
+        },
+        {
+          "role": "replica",
+          "view": "Top 10 Products by Sales",
+          "view_id": "b296dd36-aebb-4db9-8e42-5a2bb5b89381",
+          "scope": "Complete worksheet marks; monthly 2018/2019, annual totals and prior-year changes, or full Top10/combinedTopBottom20 product membership.",
+          "path": "outputs/cloud-replica-top-10-products-by-sales.csv",
+          "sha256": "172723feb03bf07602da185f0b64e4098bee2a9d907dab383a798d6687c661d3",
+          "bytes": 545
+        },
+        {
+          "role": "replica",
+          "view": "Profit Summary",
+          "view_id": "be3d7f25-3efa-4af2-b360-98689faf2847",
+          "scope": "Complete worksheet marks; monthly 2018/2019, annual totals and prior-year changes, or full Top10/combinedTopBottom20 product membership.",
+          "path": "outputs/cloud-replica-profit-summary.csv",
+          "sha256": "413d56e347f5ccc383c2d31dc576ea10dd7837ea51e60bbafba10c672a9f7ef9",
+          "bytes": 111
+        },
+        {
+          "role": "replica",
+          "view": "Profit Line",
+          "view_id": "34aea44b-001b-436e-bbb1-12d253476f7e",
+          "scope": "Complete worksheet marks; monthly 2018/2019, annual totals and prior-year changes, or full Top10/combinedTopBottom20 product membership.",
+          "path": "outputs/cloud-replica-profit-line.csv",
+          "sha256": "9db2b0349492a52fa1cecf975008b65aa89f960ad3ca2ffac55f4b6acd46285c",
+          "bytes": 554
+        },
+        {
+          "role": "replica",
+          "view": "Top & Bottom 10 Products by Profit",
+          "view_id": "e79fecbe-30e0-4e70-9729-46568e0b36cf",
+          "scope": "Complete worksheet marks; monthly 2018/2019, annual totals and prior-year changes, or full Top10/combinedTopBottom20 product membership.",
+          "path": "outputs/cloud-replica-top-bottom-10-products-by-profit.csv",
+          "sha256": "20022453160e9c7e465d532043aa3c2f2933af4562c92db2ed3357585df7d16d",
+          "bytes": 1486
+        }
+      ]
+    }
+  ],
+  "status": "verified",
+  "independent_review": {
+    "visual_status": "acceptable_delta",
+    "visual_evidence": "evidence/visual-review.md",
+    "functional_evidence": "evidence/functional-verification.json",
+    "scope": "Declared REST worksheet exports and artifact contracts; no browser events executed."
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "case_id": "wow-2020-ww16-adjusted-target-missing-pipeline",
+  "captured_at": "2026-10-03T12:07:19.781323+00:00",
+  "source_hashes": {
+    "author": "548f2261b637dd5ca44278e2b3eef6f660e175baa7e02389242d7211fd714184",
+    "replica": "07c8aafdaa70136299c3d8844313759d16813d6e1aea933b8e83f64115adfefa"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "41b81efd-680f-4cde-bac2-1f42800e5d13",
+      "name": "cwtwb-review-wow-2020-ww16-adjusted-target-missing-pipeline-author-548f2261b637",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2929639",
+      "views": [
+        {
+          "name": "Data",
+          "id": "25c6eef2-f16a-4acd-8570-071e1f99f328"
+        },
+        {
+          "name": "2020_04_15_Pipeline_V_AdjustedTarget",
+          "id": "6b5416ba-173c-4891-bb2e-d7a28b04d441"
+        },
+        {
+          "name": "Legend",
+          "id": "2fb6543b-8b19-4520-80d7-a0b3ac5f8aef"
+        },
+        {
+          "name": "Viz",
+          "id": "3cf3d51b-c44b-4ed5-8226-e4586e050b3a"
+        }
+      ]
+    },
+    "replica": {
+      "id": "027e7903-fbb0-4931-83ac-f64af70b6b44",
+      "name": "cwtwb-review-wow-2020-ww16-adjusted-target-missing-pipeline-replica-07c8aafdaa70",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2929758",
+      "views": [
+        {
+          "name": "Data",
+          "id": "6217924c-025b-4148-a721-dfc2508e22be"
+        },
+        {
+          "name": "Viz",
+          "id": "f1b30fe5-3f29-492f-90da-a93424e51b4d"
+        },
+        {
+          "name": "2020_04_15_Pipeline_V_AdjustedTarget",
+          "id": "37b5d47e-c8b3-4f96-a9c4-5510e2f4acc5"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "6b5416ba-173c-4891-bb2e-d7a28b04d441",
+          "name": "2020_04_15_Pipeline_V_AdjustedTarget",
+          "path": "outputs/cloud-author.png",
+          "sha256": "e77924f528acc7736e8328b48e90bfc4d37ec7a37cd24aca1746707a0f183e1e",
+          "size": [
+            1600,
+            1200
+          ]
+        },
+        "replica": {
+          "id": "37b5d47e-c8b3-4f96-a9c4-5510e2f4acc5",
+          "name": "2020_04_15_Pipeline_V_AdjustedTarget",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "a1625e7282c24e6cef44e31563def06817da2764a590b663bdbfa11850e2a219",
+          "size": [
+            1600,
+            1200
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Data",
+          "view_id": "25c6eef2-f16a-4acd-8570-071e1f99f328",
+          "scope": "All 12 months and nine numerical target/pipeline measures.",
+          "path": "outputs/cloud-author-monthly.csv",
+          "sha256": "f518020423e85c1f166a15e7c8856f54894276f9c3ae0f3a6df20aed550ea3c8",
+          "bytes": 6656
+        },
+        {
+          "role": "replica",
+          "view": "Data",
+          "view_id": "6217924c-025b-4148-a721-dfc2508e22be",
+          "scope": "All 12 months and nine numerical target/pipeline measures.",
+          "path": "outputs/cloud-replica-monthly.csv",
+          "sha256": "228236db3d0484cc255f0e5d75c92d7d57fb3bc247d9364953b0933354618f2f",
+          "bytes": 1168
+        }
+      ]
+    }
+  ],
+  "status": "verified",
+  "independent_review": {
+    "visual_status": "acceptable_delta",
+    "visual_evidence": "evidence/visual-review.md",
+    "functional_evidence": "evidence/functional-verification.json",
+    "scope": "Declared REST worksheet exports and artifact contracts; no browser events executed."
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "path": "outputs/cloud-author-sales-summary.csv",
+      "view": "Sales Summary",
+      "rows": 2,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-sales-line.csv",
+      "view": "Sales Line",
+      "rows": 24,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-top-10-products-by-sales.csv",
+      "view": "Top 10 Products by Sales",
+      "rows": 10,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-profit-summary.csv",
+      "view": "Profit Summary",
+      "rows": 2,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-profit-line.csv",
+      "view": "Profit Line",
+      "rows": 24,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-top-bottom-10-products-by-profit.csv",
+      "view": "Top & Bottom 10 Products by Profit",
+      "rows": 20,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-sales-summary.csv",
+      "view": "Sales Summary",
+      "rows": 2,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-sales-line.csv",
+      "view": "Sales Line",
+      "rows": 24,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-top-10-products-by-sales.csv",
+      "view": "Top 10 Products by Sales",
+      "rows": 10,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-profit-summary.csv",
+      "view": "Profit Summary",
+      "rows": 2,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-profit-line.csv",
+      "view": "Profit Line",
+      "rows": 24,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-top-bottom-10-products-by-profit.csv",
+      "view": "Top & Bottom 10 Products by Profit",
+      "rows": 20,
+      "status": "pass"
+    }
+  ]
+}

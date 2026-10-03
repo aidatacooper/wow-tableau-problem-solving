@@ -1,0 +1,13 @@
+{
+  "original_sha256": "4698d8d8ddcb68f64b9100775dbe2e4d3d4717d85299f10b3a24322f9d832378",
+  "comparison_sha256": "b31d25cd93bc3d0aa2ef14f0d540280841c4bcc40f24445f978de760c7a5222f",
+  "transform": "Only hidden worksheet windows exposed for complete REST CSV; original data, calculations and dashboard layout unchanged.",
+  "exposed_worksheets": [
+    "Profit Line",
+    "Profit Summary",
+    "Sales Line",
+    "Sales Summary",
+    "Top & Bottom 10 Products by Profit",
+    "Top 10 Products by Sales"
+  ]
+}

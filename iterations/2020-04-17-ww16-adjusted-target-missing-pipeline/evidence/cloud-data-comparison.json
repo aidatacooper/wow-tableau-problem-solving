@@ -1,0 +1,17 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "file": "outputs/cloud-author-monthly.csv",
+      "months": 12,
+      "metric_cells": 108,
+      "scope": "Full month table, all nine pipeline/target/YTD/shortfall metrics; nullable values checked."
+    },
+    {
+      "file": "outputs/cloud-replica-monthly.csv",
+      "months": 12,
+      "metric_cells": 108,
+      "scope": "Full month table, all nine pipeline/target/YTD/shortfall metrics; nullable values checked."
+    }
+  ]
+}

@@ -1,0 +1,237 @@
+County,Is Selected State County?,Measure Names,Province State Name,Report Date,Days in Trend,Increase | Decrease,Measure Values
+Los Angeles,True,New Cases,California,6/7/2020,3,INCREASE,"1,506"
+Los Angeles,True,Reported Cases,California,6/7/2020,3,INCREASE,"63,844"
+Los Angeles,True,3 Day Moving Avg,California,6/7/2020,3,INCREASE,"1,398"
+Los Angeles,True,14 Day Moving Avg,California,6/7/2020,3,INCREASE,"1,346.857142857"
+Riverside,False,New Cases,California,6/7/2020,1,INCREASE,158
+Riverside,False,Reported Cases,California,6/7/2020,1,INCREASE,"8,935"
+Riverside,False,3 Day Moving Avg,California,6/7/2020,1,INCREASE,210.666666667
+Riverside,False,14 Day Moving Avg,California,6/7/2020,1,INCREASE,176.5
+San Diego,False,New Cases,California,6/7/2020,4,INCREASE,131
+San Diego,False,Reported Cases,California,6/7/2020,4,INCREASE,"8,539"
+San Diego,False,3 Day Moving Avg,California,6/7/2020,4,INCREASE,178.666666667
+San Diego,False,14 Day Moving Avg,California,6/7/2020,4,INCREASE,126.785714286
+Orange,False,New Cases,California,6/7/2020,3,INCREASE,185
+Orange,False,Reported Cases,California,6/7/2020,3,INCREASE,"7,576"
+Orange,False,3 Day Moving Avg,California,6/7/2020,3,INCREASE,212.333333333
+Orange,False,14 Day Moving Avg,California,6/7/2020,3,INCREASE,160
+San Bernardino,False,New Cases,California,6/7/2020,1,DECREASE,0
+San Bernardino,False,Reported Cases,California,6/7/2020,1,DECREASE,"6,040"
+San Bernardino,False,3 Day Moving Avg,California,6/7/2020,1,DECREASE,82.333333333
+San Bernardino,False,14 Day Moving Avg,California,6/7/2020,1,DECREASE,119.642857143
+Santa Clara,False,New Cases,California,6/7/2020,2,INCREASE,22
+Santa Clara,False,Reported Cases,California,6/7/2020,2,INCREASE,"2,942"
+Santa Clara,False,3 Day Moving Avg,California,6/7/2020,2,INCREASE,30.666666667
+Santa Clara,False,14 Day Moving Avg,California,6/7/2020,2,INCREASE,23.214285714
+Alameda,False,New Cases,California,6/7/2020,2,INCREASE,69
+Alameda,False,Reported Cases,California,6/7/2020,2,INCREASE,"3,895"
+Alameda,False,3 Day Moving Avg,California,6/7/2020,2,INCREASE,77.666666667
+Alameda,False,14 Day Moving Avg,California,6/7/2020,2,INCREASE,73.357142857
+San Francisco,False,New Cases,California,6/7/2020,3,INCREASE,35
+San Francisco,False,Reported Cases,California,6/7/2020,3,INCREASE,"2,750"
+San Francisco,False,3 Day Moving Avg,California,6/7/2020,3,INCREASE,34.333333333
+San Francisco,False,14 Day Moving Avg,California,6/7/2020,3,INCREASE,27.142857143
+San Mateo,False,New Cases,California,6/7/2020,1,DECREASE,11
+San Mateo,False,Reported Cases,California,6/7/2020,1,DECREASE,"2,342"
+San Mateo,False,3 Day Moving Avg,California,6/7/2020,1,DECREASE,32.666666667
+San Mateo,False,14 Day Moving Avg,California,6/7/2020,1,DECREASE,34.285714286
+Kern,False,New Cases,California,6/7/2020,2,INCREASE,70
+Kern,False,Reported Cases,California,6/7/2020,2,INCREASE,"2,730"
+Kern,False,3 Day Moving Avg,California,6/7/2020,2,INCREASE,86
+Kern,False,14 Day Moving Avg,California,6/7/2020,2,INCREASE,64
+Sacramento,False,New Cases,California,6/7/2020,5,INCREASE,32
+Sacramento,False,Reported Cases,California,6/7/2020,5,INCREASE,"1,568"
+Sacramento,False,3 Day Moving Avg,California,6/7/2020,5,INCREASE,26.333333333
+Sacramento,False,14 Day Moving Avg,California,6/7/2020,5,INCREASE,19.714285714
+Contra Costa,False,New Cases,California,6/7/2020,4,INCREASE,35
+Contra Costa,False,Reported Cases,California,6/7/2020,4,INCREASE,"1,668"
+Contra Costa,False,3 Day Moving Avg,California,6/7/2020,4,INCREASE,40.333333333
+Contra Costa,False,14 Day Moving Avg,California,6/7/2020,4,INCREASE,24.785714286
+Tulare,False,New Cases,California,6/7/2020,6,INCREASE,33
+Tulare,False,Reported Cases,California,6/7/2020,6,INCREASE,"2,213"
+Tulare,False,3 Day Moving Avg,California,6/7/2020,6,INCREASE,43.333333333
+Tulare,False,14 Day Moving Avg,California,6/7/2020,6,INCREASE,37.928571429
+Santa Barbara,False,New Cases,California,6/7/2020,5,INCREASE,20
+Santa Barbara,False,Reported Cases,California,6/7/2020,5,INCREASE,"1,815"
+Santa Barbara,False,3 Day Moving Avg,California,6/7/2020,5,INCREASE,28.666666667
+Santa Barbara,False,14 Day Moving Avg,California,6/7/2020,5,INCREASE,17.785714286
+Fresno,False,New Cases,California,6/7/2020,1,DECREASE,0
+Fresno,False,Reported Cases,California,6/7/2020,1,DECREASE,"2,122"
+Fresno,False,3 Day Moving Avg,California,6/7/2020,1,DECREASE,36
+Fresno,False,14 Day Moving Avg,California,6/7/2020,1,DECREASE,45.714285714
+Imperial,False,New Cases,California,6/7/2020,1,INCREASE,269
+Imperial,False,Reported Cases,California,6/7/2020,1,INCREASE,"3,047"
+Imperial,False,3 Day Moving Avg,California,6/7/2020,1,INCREASE,169
+Imperial,False,14 Day Moving Avg,California,6/7/2020,1,INCREASE,126
+Ventura,False,New Cases,California,6/7/2020,3,INCREASE,29
+Ventura,False,Reported Cases,California,6/7/2020,3,INCREASE,"1,303"
+Ventura,False,3 Day Moving Avg,California,6/7/2020,3,INCREASE,29
+Ventura,False,14 Day Moving Avg,California,6/7/2020,3,INCREASE,24.428571429
+San Joaquin,False,New Cases,California,6/7/2020,1,INCREASE,43
+San Joaquin,False,Reported Cases,California,6/7/2020,1,INCREASE,"1,161"
+San Joaquin,False,3 Day Moving Avg,California,6/7/2020,1,INCREASE,45.666666667
+San Joaquin,False,14 Day Moving Avg,California,6/7/2020,1,INCREASE,28.714285714
+Stanislaus,False,New Cases,California,6/7/2020,9,INCREASE,36
+Stanislaus,False,Reported Cases,California,6/7/2020,9,INCREASE,901
+Stanislaus,False,3 Day Moving Avg,California,6/7/2020,9,INCREASE,28.333333333
+Stanislaus,False,14 Day Moving Avg,California,6/7/2020,9,INCREASE,18.214285714
+Kings,False,New Cases,California,6/7/2020,3,INCREASE,46
+Kings,False,Reported Cases,California,6/7/2020,3,INCREASE,"1,538"
+Kings,False,3 Day Moving Avg,California,6/7/2020,3,INCREASE,117
+Kings,False,14 Day Moving Avg,California,6/7/2020,3,INCREASE,63.642857143
+Solano,False,New Cases,California,6/7/2020,4,DECREASE,0
+Solano,False,Reported Cases,California,6/7/2020,4,DECREASE,571
+Solano,False,3 Day Moving Avg,California,6/7/2020,4,DECREASE,0.333333333
+Solano,False,14 Day Moving Avg,California,6/7/2020,4,DECREASE,7.928571429
+Sonoma,False,New Cases,California,6/7/2020,4,INCREASE,11
+Sonoma,False,Reported Cases,California,6/7/2020,4,INCREASE,653
+Sonoma,False,3 Day Moving Avg,California,6/7/2020,4,INCREASE,14.333333333
+Sonoma,False,14 Day Moving Avg,California,6/7/2020,4,INCREASE,10.928571429
+Marin,False,New Cases,California,6/7/2020,3,INCREASE,18
+Marin,False,Reported Cases,California,6/7/2020,3,INCREASE,589
+Marin,False,3 Day Moving Avg,California,6/7/2020,3,INCREASE,19.666666667
+Marin,False,14 Day Moving Avg,California,6/7/2020,3,INCREASE,13.285714286
+Monterey,False,New Cases,California,6/7/2020,16,INCREASE,65
+Monterey,False,Reported Cases,California,6/7/2020,16,INCREASE,732
+Monterey,False,3 Day Moving Avg,California,6/7/2020,16,INCREASE,37
+Monterey,False,14 Day Moving Avg,California,6/7/2020,16,INCREASE,23.5
+San Luis Obispo,False,New Cases,California,6/7/2020,1,DECREASE,2
+San Luis Obispo,False,Reported Cases,California,6/7/2020,1,DECREASE,295
+San Luis Obispo,False,3 Day Moving Avg,California,6/7/2020,1,DECREASE,2.333333333
+San Luis Obispo,False,14 Day Moving Avg,California,6/7/2020,1,DECREASE,2.642857143
+Placer,False,New Cases,California,6/7/2020,12,INCREASE,9
+Placer,False,Reported Cases,California,6/7/2020,12,INCREASE,284
+Placer,False,3 Day Moving Avg,California,6/7/2020,12,INCREASE,8.333333333
+Placer,False,14 Day Moving Avg,California,6/7/2020,12,INCREASE,7.142857143
+Merced,False,New Cases,California,6/7/2020,1,DECREASE,0
+Merced,False,Reported Cases,California,6/7/2020,1,DECREASE,334
+Merced,False,3 Day Moving Avg,California,6/7/2020,1,DECREASE,4.666666667
+Merced,False,14 Day Moving Avg,California,6/7/2020,1,DECREASE,5.928571429
+Yolo,False,New Cases,California,6/7/2020,2,INCREASE,2
+Yolo,False,Reported Cases,California,6/7/2020,2,INCREASE,223
+Yolo,False,3 Day Moving Avg,California,6/7/2020,2,INCREASE,2.333333333
+Yolo,False,14 Day Moving Avg,California,6/7/2020,2,INCREASE,2.071428571
+Santa Cruz,False,New Cases,California,6/7/2020,1,INCREASE,5
+Santa Cruz,False,Reported Cases,California,6/7/2020,1,INCREASE,231
+Santa Cruz,False,3 Day Moving Avg,California,6/7/2020,1,INCREASE,4
+Santa Cruz,False,14 Day Moving Avg,California,6/7/2020,1,INCREASE,2.785714286
+Napa,False,New Cases,California,6/7/2020,5,INCREASE,0
+Napa,False,Reported Cases,California,6/7/2020,5,INCREASE,142
+Napa,False,3 Day Moving Avg,California,6/7/2020,5,INCREASE,5
+Napa,False,14 Day Moving Avg,California,6/7/2020,5,INCREASE,2.857142857
+Humboldt,False,New Cases,California,6/7/2020,3,INCREASE,1
+Humboldt,False,Reported Cases,California,6/7/2020,3,INCREASE,112
+Humboldt,False,3 Day Moving Avg,California,6/7/2020,3,INCREASE,2.666666667
+Humboldt,False,14 Day Moving Avg,California,6/7/2020,3,INCREASE,1.357142857
+Madera,False,New Cases,California,6/7/2020,13,INCREASE,0
+Madera,False,Reported Cases,California,6/7/2020,13,INCREASE,163
+Madera,False,3 Day Moving Avg,California,6/7/2020,13,INCREASE,7.333333333
+Madera,False,14 Day Moving Avg,California,6/7/2020,13,INCREASE,5.642857143
+San Benito,False,New Cases,California,6/7/2020,1,DECREASE,2
+San Benito,False,Reported Cases,California,6/7/2020,1,DECREASE,107
+San Benito,False,3 Day Moving Avg,California,6/7/2020,1,DECREASE,1.666666667
+San Benito,False,14 Day Moving Avg,California,6/7/2020,1,DECREASE,2.642857143
+El Dorado,False,New Cases,California,6/7/2020,1,DECREASE,0
+El Dorado,False,Reported Cases,California,6/7/2020,1,DECREASE,106
+El Dorado,False,3 Day Moving Avg,California,6/7/2020,1,DECREASE,1.333333333
+El Dorado,False,14 Day Moving Avg,California,6/7/2020,1,DECREASE,2.285714286
+Nevada,False,New Cases,California,6/7/2020,2,DECREASE,0
+Nevada,False,Reported Cases,California,6/7/2020,2,DECREASE,50
+Nevada,False,3 Day Moving Avg,California,6/7/2020,2,DECREASE,0.333333333
+Nevada,False,14 Day Moving Avg,California,6/7/2020,2,DECREASE,0.642857143
+Sutter,False,New Cases,California,6/7/2020,8,INCREASE,3
+Sutter,False,Reported Cases,California,6/7/2020,8,INCREASE,58
+Sutter,False,3 Day Moving Avg,California,6/7/2020,8,INCREASE,2.333333333
+Sutter,False,14 Day Moving Avg,California,6/7/2020,8,INCREASE,1.285714286
+Shasta,False,New Cases,California,6/7/2020,4,INCREASE,2
+Shasta,False,Reported Cases,California,6/7/2020,4,INCREASE,44
+Shasta,False,3 Day Moving Avg,California,6/7/2020,4,INCREASE,0.666666667
+Shasta,False,14 Day Moving Avg,California,6/7/2020,4,INCREASE,0.571428571
+Mono,False,New Cases,California,6/7/2020,5,DECREASE,0
+Mono,False,Reported Cases,California,6/7/2020,5,DECREASE,37
+Mono,False,3 Day Moving Avg,California,6/7/2020,5,DECREASE,0
+Mono,False,14 Day Moving Avg,California,6/7/2020,5,DECREASE,0.214285714
+Butte,False,New Cases,California,6/7/2020,1,DECREASE,0
+Butte,False,Reported Cases,California,6/7/2020,1,DECREASE,65
+Butte,False,3 Day Moving Avg,California,6/7/2020,1,DECREASE,1.666666667
+Butte,False,14 Day Moving Avg,California,6/7/2020,1,DECREASE,2.214285714
+Yuba,False,New Cases,California,6/7/2020,11,INCREASE,0
+Yuba,False,Reported Cases,California,6/7/2020,11,INCREASE,32
+Yuba,False,3 Day Moving Avg,California,6/7/2020,11,INCREASE,0.333333333
+Yuba,False,14 Day Moving Avg,California,6/7/2020,11,INCREASE,0.285714286
+Inyo,False,New Cases,California,6/7/2020,2,INCREASE,0
+Inyo,False,Reported Cases,California,6/7/2020,2,INCREASE,21
+Inyo,False,3 Day Moving Avg,California,6/7/2020,2,INCREASE,0.333333333
+Inyo,False,14 Day Moving Avg,California,6/7/2020,2,INCREASE,0.071428571
+Mendocino,False,New Cases,California,6/7/2020,2,DECREASE,0
+Mendocino,False,Reported Cases,California,6/7/2020,2,DECREASE,33
+Mendocino,False,3 Day Moving Avg,California,6/7/2020,2,DECREASE,0
+Mendocino,False,14 Day Moving Avg,California,6/7/2020,2,DECREASE,0.857142857
+Del Norte,False,New Cases,California,6/7/2020,11,DECREASE,0
+Del Norte,False,Reported Cases,California,6/7/2020,11,DECREASE,47
+Del Norte,False,3 Day Moving Avg,California,6/7/2020,11,DECREASE,0
+Del Norte,False,14 Day Moving Avg,California,6/7/2020,11,DECREASE,1.714285714
+Calaveras,False,New Cases,California,6/7/2020,3,INCREASE,0
+Calaveras,False,Reported Cases,California,6/7/2020,3,INCREASE,19
+Calaveras,False,3 Day Moving Avg,California,6/7/2020,3,INCREASE,1.333333333
+Calaveras,False,14 Day Moving Avg,California,6/7/2020,3,INCREASE,0.428571429
+Lake,False,New Cases,California,6/7/2020,2,DECREASE,0
+Lake,False,Reported Cases,California,6/7/2020,2,DECREASE,30
+Lake,False,3 Day Moving Avg,California,6/7/2020,2,DECREASE,0
+Lake,False,14 Day Moving Avg,California,6/7/2020,2,DECREASE,1.285714286
+Mariposa,False,New Cases,California,6/7/2020,10,DECREASE,0
+Mariposa,False,Reported Cases,California,6/7/2020,10,DECREASE,16
+Mariposa,False,3 Day Moving Avg,California,6/7/2020,10,DECREASE,0
+Mariposa,False,14 Day Moving Avg,California,6/7/2020,10,DECREASE,0.071428571
+Glenn,False,New Cases,California,6/7/2020,7,DECREASE,0
+Glenn,False,Reported Cases,California,6/7/2020,7,DECREASE,18
+Glenn,False,3 Day Moving Avg,California,6/7/2020,7,DECREASE,0.333333333
+Glenn,False,14 Day Moving Avg,California,6/7/2020,7,DECREASE,0.428571429
+Amador,False,New Cases,California,6/7/2020,10,DECREASE,0
+Amador,False,Reported Cases,California,6/7/2020,10,DECREASE,9
+Amador,False,3 Day Moving Avg,California,6/7/2020,10,DECREASE,-0.333333333
+Amador,False,14 Day Moving Avg,California,6/7/2020,10,DECREASE,0
+Siskiyou,False,New Cases,California,6/7/2020,1,DECREASE,0
+Siskiyou,False,Reported Cases,California,6/7/2020,1,DECREASE,9
+Siskiyou,False,3 Day Moving Avg,California,6/7/2020,1,DECREASE,0
+Siskiyou,False,14 Day Moving Avg,California,6/7/2020,1,DECREASE,0.214285714
+Plumas,False,New Cases,California,6/7/2020,4,DECREASE,0
+Plumas,False,Reported Cases,California,6/7/2020,4,DECREASE,4
+Plumas,False,3 Day Moving Avg,California,6/7/2020,4,DECREASE,0
+Plumas,False,14 Day Moving Avg,California,6/7/2020,4,DECREASE,0
+Colusa,False,New Cases,California,6/7/2020,4,DECREASE,0
+Colusa,False,Reported Cases,California,6/7/2020,4,DECREASE,7
+Colusa,False,3 Day Moving Avg,California,6/7/2020,4,DECREASE,0
+Colusa,False,14 Day Moving Avg,California,6/7/2020,4,DECREASE,0.142857143
+Tuolumne,False,New Cases,California,6/7/2020,5,INCREASE,0
+Tuolumne,False,Reported Cases,California,6/7/2020,5,INCREASE,7
+Tuolumne,False,3 Day Moving Avg,California,6/7/2020,5,INCREASE,0.666666667
+Tuolumne,False,14 Day Moving Avg,California,6/7/2020,5,INCREASE,0.285714286
+Tehama,False,New Cases,California,6/7/2020,1,DECREASE,0
+Tehama,False,Reported Cases,California,6/7/2020,1,DECREASE,8
+Tehama,False,3 Day Moving Avg,California,6/7/2020,1,DECREASE,0.333333333
+Tehama,False,14 Day Moving Avg,California,6/7/2020,1,DECREASE,0.357142857
+Alpine,False,New Cases,California,6/7/2020,34,DECREASE,0
+Alpine,False,Reported Cases,California,6/7/2020,34,DECREASE,2
+Alpine,False,3 Day Moving Avg,California,6/7/2020,34,DECREASE,0
+Alpine,False,14 Day Moving Avg,California,6/7/2020,34,DECREASE,0
+Lassen,False,New Cases,California,6/7/2020,2,INCREASE,0
+Lassen,False,Reported Cases,California,6/7/2020,2,INCREASE,6
+Lassen,False,3 Day Moving Avg,California,6/7/2020,2,INCREASE,0.333333333
+Lassen,False,14 Day Moving Avg,California,6/7/2020,2,INCREASE,0.142857143
+Trinity,False,New Cases,California,6/7/2020,3,INCREASE,0
+Trinity,False,Reported Cases,California,6/7/2020,3,INCREASE,3
+Trinity,False,3 Day Moving Avg,California,6/7/2020,3,INCREASE,0.333333333
+Trinity,False,14 Day Moving Avg,California,6/7/2020,3,INCREASE,0.071428571
+Unknown,False,New Cases,California,6/7/2020,15,DECREASE,0
+Unknown,False,Reported Cases,California,6/7/2020,15,DECREASE,0
+Unknown,False,3 Day Moving Avg,California,6/7/2020,15,DECREASE,0
+Unknown,False,14 Day Moving Avg,California,6/7/2020,15,DECREASE,0
+Sierra,False,New Cases,California,6/7/2020,14,DECREASE,0
+Sierra,False,Reported Cases,California,6/7/2020,14,DECREASE,1
+Sierra,False,3 Day Moving Avg,California,6/7/2020,14,DECREASE,0
+Sierra,False,14 Day Moving Avg,California,6/7/2020,14,DECREASE,0
+Modoc,False,New Cases,California,6/7/2020,11,DECREASE,0
+Modoc,False,Reported Cases,California,6/7/2020,11,DECREASE,0
+Modoc,False,3 Day Moving Avg,California,6/7/2020,11,DECREASE,0
+Modoc,False,14 Day Moving Avg,California,6/7/2020,11,DECREASE,0

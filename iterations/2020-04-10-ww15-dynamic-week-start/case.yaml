@@ -1,0 +1,96 @@
+schema_version: 1.1.0
+case_id: wow-2020-ww15-dynamic-week-start
+iteration_id: 2020-04-10-ww15-dynamic-week-start
+post: https://donnacoles.home.blog/2020/04/10/can-you-create-a-chart-with-a-dynamic-week-start/
+legacy_case_ids: {}
+article_date: '2020-04-10'
+challenge_year: 2020
+challenge_week: 15
+challenge_date: '2020-04-08'
+date_evidence:
+  article_date: Declared publication date in article URL and locked article HTML
+  challenge: Official WordPress challenge title year/week
+  challenge_date: Official WordPress REST post 3612 date 2020-04-08
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2020w15/
+    wordpress_post_id: 3612
+  article:
+    url: https://donnacoles.home.blog/2020/04/10/can-you-create-a-chart-with-a-dynamic-week-start/
+    path: null
+    sha256: d6f756ff42bf2de413cb1265567490d70b754a4c64db542d3c7cc3d16c5336e9
+  workbook:
+    url: https://public.tableau.com/profile/donna.coles#!/vizhome/2020_04_08_WW15_DynamicWeekStart/2020_04_08_WW15_Dynamic_Week_Start
+    filename: 2020_04_08_WW15_DynamicWeekStart.twbx
+    sha256: 3572c93065ef14504c6dd0c151123d92bb8d8e8c3ee372147431cc4edb6ac658
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- evidence/cloud-data-comparison.json
+- evidence/cloud-verification.json
+- evidence/export-provenance.json
+- evidence/functional-verification.json
+- evidence/sdk-baseline.json
+- evidence/sdk-domain-range-baseline.json
+- evidence/sdk-final-validation.json
+- evidence/sdk-validation-ac191fde.json
+- evidence/visual-review.md
+- evidence/zero-build-verification.json
+- inputs/source-lock.json
+notes:
+- TWBEditor empty build reads extracted inputs and public SDK APIs only.
+- REST state/data and artifact contracts; no browser events executed.
+cwtwb:
+  tested_version: 0.27.1
+  tested_commit: 56377c5b170f0df1f5cd853fc483de26962dfed1
+  runs:
+  - version: 0.27.1
+    commit: 47718436ae9bc7384d4d275a918c8ba126ae9c58
+    result: pass
+    evidence: evidence/sdk-baseline.json
+  - version: 0.27.1
+    commit: 47718436ae9bc7384d4d275a918c8ba126ae9c58
+    result: blocked
+    evidence: evidence/sdk-domain-range-baseline.json
+  - version: 0.27.1
+    commit: ac191fde0c2f104697c8dd2d2f0417d9b124dd7e
+    result: pass
+    evidence: evidence/sdk-validation-ac191fde.json
+  - version: 0.27.1
+    commit: 56377c5b170f0df1f5cd853fc483de26962dfed1
+    result: pass
+    evidence: evidence/sdk-final-validation.json
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: pass
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/Orders (Sample - Superstore).hyper
+  - inputs/daily-calendar.csv
+  - inputs/daily-calendar.hyper
+acceptance:
+- id: ww15-independent-data
+  description: Independent complete locked-input oracle verifies every business value.
+  mode: automated
+- id: ww15-artifact-contracts
+  description: Generated public-SDK workbook panes, formulas, data and layout contracts.
+  mode: automated
+- id: ww15-cloud-states
+  description: Full declared REST worksheet CSVs and paired images, hash-bound and
+    independently reviewed.
+  mode: automated
+remaining_work: []
+workarounds:
+- Locked daily-calendar CSV/Hyper derived from original facts fills absent boundary
+  dates; independent oracle verifies every daily value and total.
+capability_gaps: []
+related_cwtwb_issues: []
+acceptance_scope: cloud_rest_and_artifact_contracts
+browser_interaction_executed: false

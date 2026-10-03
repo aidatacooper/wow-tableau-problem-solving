@@ -1,0 +1,11 @@
+# Cloud visual and data review ? 2020 WW17
+
+Accepted within the documented scope as `acceptable_delta`. The reviewed artifact SHA256 is `658a4503570bdcedacd0245ea43c701d678a5273f54d7a0149aa269e24926d01`. It was checked with released SDK `ac191fde0c2f104697c8dd2d2f0417d9b124dd7e`.
+
+The paired default-state images [author](../outputs/cloud-author.png) and [replica](../outputs/cloud-replica.png) show the fixed 375 ? 667 phone-sized dashboard, the historical ?Data until 23 Apr 2020? header, and all four complete regional rows. The left MTD, Run Rate, and Plan values are readable. The run-rate bar labels are now visible in white inside each bar; the monthly plan markers are solid black and visibly distinct from the bars. Red marks and red run-rate text identify Central and South as below plan. Gray East and West bars exceed their plan markers. Horizontal separators divide regions without an extra vertical divider.
+
+The [independent verifier](functional-verification.json) and [CSV comparison](cloud-data-comparison.json) pass all four regions and all three measures in each workbook: 12 metric cells per workbook, 24 total. The oracle reads the locked 92 actual rows and four separate monthly plan rows, independently enumerating 17 elapsed and 22 total April weekdays. Run rates are Central 12,342; East 4,792.117647; South 8,388.470588; and West 13,313.882353. Native blend contracts link both Region and month, preserving monthly plan granularity. The complete regional Data CSV is the numerical evidence; title or control CSVs are not used.
+
+Remaining visual differences are the metric captions preceding their values rather than following them, bold region labels, smaller outer/header padding, and slightly different row, bar and marker sizes. The title panel extends to the dashboard edge while the source has an inset panel. All values, bar labels, and target markers remain visible. This is not a pixel-identical result.
+
+Acceptance uses Cloud REST images/data plus the native workbook contracts. Tooltips are disabled. No browser click or hover was executed or claimed. The author export changes only hidden worksheet window flags, as recorded in [export provenance](export-provenance.json).

@@ -1,0 +1,185 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "path": "outputs/cloud-author-map.csv",
+      "status": "pass",
+      "view": "Map",
+      "rows": 49
+    },
+    {
+      "path": "outputs/cloud-author-state-list.csv",
+      "status": "pass",
+      "view": "State List",
+      "rows": 4
+    },
+    {
+      "path": "outputs/cloud-author-sales.csv",
+      "status": "pass",
+      "view": "Sales",
+      "rows": 2
+    },
+    {
+      "path": "outputs/cloud-author-orders.csv",
+      "status": "pass",
+      "view": "Orders",
+      "rows": 2
+    },
+    {
+      "path": "outputs/cloud-author-customers.csv",
+      "status": "pass",
+      "view": "Customers",
+      "rows": 2
+    },
+    {
+      "path": "outputs/cloud-replica-map.csv",
+      "status": "pass",
+      "view": "Map",
+      "rows": 49
+    },
+    {
+      "path": "outputs/cloud-replica-state-list.csv",
+      "status": "pass",
+      "view": "State List",
+      "rows": 4
+    },
+    {
+      "path": "outputs/cloud-replica-sales.csv",
+      "status": "pass",
+      "view": "Sales",
+      "rows": 2
+    },
+    {
+      "path": "outputs/cloud-replica-orders.csv",
+      "status": "pass",
+      "view": "Orders",
+      "rows": 2
+    },
+    {
+      "path": "outputs/cloud-replica-customers.csv",
+      "status": "pass",
+      "view": "Customers",
+      "rows": 2
+    },
+    {
+      "path": "outputs/cloud-author-map-selected-only.csv",
+      "status": "pass",
+      "view": "Map",
+      "rows": 4
+    },
+    {
+      "path": "outputs/cloud-author-state-list-selected-only.csv",
+      "status": "pass",
+      "view": "State List",
+      "rows": 4
+    },
+    {
+      "path": "outputs/cloud-author-sales-selected-only.csv",
+      "status": "pass",
+      "view": "Sales",
+      "rows": 1
+    },
+    {
+      "path": "outputs/cloud-author-orders-selected-only.csv",
+      "status": "pass",
+      "view": "Orders",
+      "rows": 1
+    },
+    {
+      "path": "outputs/cloud-author-customers-selected-only.csv",
+      "status": "pass",
+      "view": "Customers",
+      "rows": 2
+    },
+    {
+      "path": "outputs/cloud-replica-map-selected-only.csv",
+      "status": "pass",
+      "view": "Map",
+      "rows": 4
+    },
+    {
+      "path": "outputs/cloud-replica-state-list-selected-only.csv",
+      "status": "pass",
+      "view": "State List",
+      "rows": 4
+    },
+    {
+      "path": "outputs/cloud-replica-sales-selected-only.csv",
+      "status": "pass",
+      "view": "Sales",
+      "rows": 1
+    },
+    {
+      "path": "outputs/cloud-replica-orders-selected-only.csv",
+      "status": "pass",
+      "view": "Orders",
+      "rows": 1
+    },
+    {
+      "path": "outputs/cloud-replica-customers-selected-only.csv",
+      "status": "pass",
+      "view": "Customers",
+      "rows": 2
+    },
+    {
+      "path": "outputs/cloud-author-map-alabama.csv",
+      "status": "pass",
+      "view": "Map",
+      "rows": 1
+    },
+    {
+      "path": "outputs/cloud-author-state-list-alabama.csv",
+      "status": "pass",
+      "view": "State List",
+      "rows": 1
+    },
+    {
+      "path": "outputs/cloud-author-sales-alabama.csv",
+      "status": "pass",
+      "view": "Sales",
+      "rows": 1
+    },
+    {
+      "path": "outputs/cloud-author-orders-alabama.csv",
+      "status": "pass",
+      "view": "Orders",
+      "rows": 1
+    },
+    {
+      "path": "outputs/cloud-author-customers-alabama.csv",
+      "status": "pass",
+      "view": "Customers",
+      "rows": 2
+    },
+    {
+      "path": "outputs/cloud-replica-map-alabama.csv",
+      "status": "pass",
+      "view": "Map",
+      "rows": 1
+    },
+    {
+      "path": "outputs/cloud-replica-state-list-alabama.csv",
+      "status": "pass",
+      "view": "State List",
+      "rows": 1
+    },
+    {
+      "path": "outputs/cloud-replica-sales-alabama.csv",
+      "status": "pass",
+      "view": "Sales",
+      "rows": 1
+    },
+    {
+      "path": "outputs/cloud-replica-orders-alabama.csv",
+      "status": "pass",
+      "view": "Orders",
+      "rows": 1
+    },
+    {
+      "path": "outputs/cloud-replica-customers-alabama.csv",
+      "status": "pass",
+      "view": "Customers",
+      "rows": 2
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-03",
+  "source_workbook": {
+    "filename": "author.twbx",
+    "bytes": 120875,
+    "sha256": "74bc2b6dc62726804f524588afe131d3e8f24440092937a4658eae908b331a96",
+    "url": "https://public.tableau.com/views/2020_05_13_WW20_Remove_Set_Actions/2020_05_13_WW20_Remove_Set_Actions"
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Datasources/Orders (Sample - Superstore).hyper",
+      "file": "inputs/Orders (Sample - Superstore).hyper",
+      "bytes": 393216,
+      "sha256": "f85c177bdc69c14497a2c8e44358839c00b90fa87916c201e39dd48a83298b09"
+    }
+  ],
+  "source_workbook_used_by_builder": false,
+  "locked_original_sha256": "74bc2b6dc62726804f524588afe131d3e8f24440092937a4658eae908b331a96"
+}

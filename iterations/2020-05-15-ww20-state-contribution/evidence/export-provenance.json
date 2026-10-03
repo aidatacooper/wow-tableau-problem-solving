@@ -1,0 +1,13 @@
+{
+  "original_sha256": "74bc2b6dc62726804f524588afe131d3e8f24440092937a4658eae908b331a96",
+  "comparison_sha256": "5d0e6d9fb7cd0218c325aadeeca4ace7538cf995878b0822207453246274173d",
+  "transformation": "Only change hidden worksheet windows hidden=true to false; formulas, dashboard layout and data remain unchanged.",
+  "exposed_worksheets": [
+    "Customers",
+    "Map",
+    "Orders",
+    "Sales",
+    "State List"
+  ],
+  "browser_interaction_executed": false
+}

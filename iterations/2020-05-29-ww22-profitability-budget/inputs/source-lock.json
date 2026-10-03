@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-03",
+  "source_workbook": {
+    "filename": "author.twbx",
+    "bytes": 20868,
+    "sha256": "c9028b8fcd97b570d5bbd7b5dc11955f16637f8306ef3350b4356a9bcfc2e1c5",
+    "url": "https://public.tableau.com/views/2020_05_27_WW22_Profitability_Polygon/2020_05_27_WW22_Profitability_Polygonv2"
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/TableauTemp/TEMP_0ehmgcx1xmbjvh19ycl840es2ha0.hyper",
+      "file": "inputs/TEMP_0ehmgcx1xmbjvh19ycl840es2ha0.hyper",
+      "bytes": 65536,
+      "sha256": "b2c013001c64ae04b67eb8e6b796a69c7e2383701723da94be6cb94471b91611"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

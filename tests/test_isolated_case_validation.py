@@ -57,6 +57,26 @@ class IsolatedCaseValidationTests(unittest.TestCase):
             self.assertEqual((case / "outputs/replicated-workbook.twbx").read_bytes(), b"accepted Cloud workbook")
             self.assertFalse((case / "outputs/new-evidence.json").exists())
 
+    def test_fresh_build_does_not_reuse_accepted_cloud_hash_binding(self):
+        with tempfile.TemporaryDirectory() as directory:
+            case = self.make_case(Path(directory))
+            (case / "evidence").mkdir()
+            manifest = case / "evidence/cloud-verification.json"
+            manifest.write_bytes(b"accepted hash-bound capture")
+
+            def run(scratch, filename):
+                self.assertFalse((scratch / "evidence/cloud-verification.json").exists())
+                if filename == "build_replication.py":
+                    (scratch / "outputs/replicated-workbook.twbx").write_bytes(b"fresh identity")
+
+            def metadata(scratch):
+                self.assertEqual((scratch / "evidence/cloud-verification.json").read_bytes(), manifest.read_bytes())
+                return {}
+
+            with patch.object(validation, "run_case_script", side_effect=run), patch.object(validation, "validate_metadata", side_effect=metadata), patch.object(validation, "validate_source_lock"), patch.object(validation, "validate_builder_boundary"), patch.object(validation, "validate_identity"):
+                validation.run_case_scripts_isolated(case)
+            self.assertEqual(manifest.read_bytes(), b"accepted hash-bound capture")
+
     def test_no_op_builder_cannot_pass_using_accepted_primary(self):
         with tempfile.TemporaryDirectory() as directory:
             case = self.make_case(Path(directory))

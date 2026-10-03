@@ -1,0 +1,45 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "path": "outputs/cloud-author-viz.csv",
+      "status": "pass",
+      "groups": 4
+    },
+    {
+      "path": "outputs/cloud-replica-viz.csv",
+      "status": "pass",
+      "groups": 4
+    },
+    {
+      "path": "outputs/cloud-author-viz-copiers-expanded.csv",
+      "status": "pass",
+      "groups": 4
+    },
+    {
+      "path": "outputs/cloud-replica-viz-copiers-expanded.csv",
+      "status": "pass",
+      "groups": 4
+    },
+    {
+      "path": "outputs/cloud-author-viz-small-top.csv",
+      "status": "pass",
+      "groups": 2
+    },
+    {
+      "path": "outputs/cloud-replica-viz-small-top.csv",
+      "status": "pass",
+      "groups": 2
+    },
+    {
+      "path": "outputs/cloud-author-viz-others-expanded.csv",
+      "status": "pass",
+      "groups": 4
+    },
+    {
+      "path": "outputs/cloud-replica-viz-others-expanded.csv",
+      "status": "pass",
+      "groups": 4
+    }
+  ]
+}

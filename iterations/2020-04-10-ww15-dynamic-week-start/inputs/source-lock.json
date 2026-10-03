@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "source_workbook": {
+    "filename": "2020_04_08_WW15_DynamicWeekStart.twbx",
+    "bytes": 382786,
+    "sha256": "3572c93065ef14504c6dd0c151123d92bb8d8e8c3ee372147431cc4edb6ac658",
+    "url": "https://public.tableau.com/profile/donna.coles#!/vizhome/2020_04_08_WW15_DynamicWeekStart/2020_04_08_WW15_Dynamic_Week_Start"
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Datasources/Orders (Sample - Superstore).hyper",
+      "file": "inputs/Orders (Sample - Superstore).hyper",
+      "bytes": 983040,
+      "sha256": "4f71b18a766a6e94267310ef099b8a7627f5b35b87c6d17a39813d4d35cbd68c"
+    }
+  ],
+  "source_workbook_used_by_builder": false,
+  "article": {
+    "url": "https://donnacoles.home.blog/2020/04/10/can-you-create-a-chart-with-a-dynamic-week-start/",
+    "sha256": "d6f756ff42bf2de413cb1265567490d70b754a4c64db542d3c7cc3d16c5336e9"
+  },
+  "challenge": {
+    "url": "https://www.workout-wednesday.com/2020w15/",
+    "wordpress_post_id": 3612,
+    "date": "2020-04-08"
+  },
+  "data_files": {
+    "inputs/Orders (Sample - Superstore).hyper": "4f71b18a766a6e94267310ef099b8a7627f5b35b87c6d17a39813d4d35cbd68c",
+    "daily-calendar.csv": "7c2c56ff0152ddeb0f61b084c7d7ccde7a3f1ca6d4616ff4cc4e075d0f98383e",
+    "daily-calendar.hyper": "f992b5b19d758e4add67d2f205fa9032bdd0ec3750cab343e2531b0ff1f6be54"
+  },
+  "derived_data": [
+    {
+      "file": "inputs/daily-calendar.csv",
+      "sha256": "7c2c56ff0152ddeb0f61b084c7d7ccde7a3f1ca6d4616ff4cc4e075d0f98383e",
+      "source": "inputs/Orders (Sample - Superstore).hyper",
+      "method": "Daily math.fsum over all locked facts; full fact-year Gregorian calendar with absent dates zero-filled.",
+      "rows": 1461,
+      "first_date": "2016-01-01",
+      "last_date": "2019-12-31",
+      "bytes": 32463
+    },
+    {
+      "file": "inputs/daily-calendar.hyper",
+      "sha256": "f992b5b19d758e4add67d2f205fa9032bdd0ec3750cab343e2531b0ff1f6be54",
+      "source": "inputs/daily-calendar.csv",
+      "method": "Typed Extract.Extract with date Order Date and double Sales, converted without changing values.",
+      "rows": 1461,
+      "bytes": 65536
+    }
+  ]
+}

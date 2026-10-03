@@ -1,0 +1,7 @@
+{
+  "commit": "47718436ae9bc7384d4d275a918c8ba126ae9c58",
+  "reproducer": "TWBEditor(\"\").configure_datasource_blend(\"Synthetic\", \"Plan\", link_fields=[\"Month\", \"Region\"])",
+  "error": "'TWBEditor' object has no attribute 'configure_datasource_blend'",
+  "data_free": true,
+  "required_scope": "Native aggregate-grain blend bindings, secondary field/chart/calculation references, active month/region links."
+}

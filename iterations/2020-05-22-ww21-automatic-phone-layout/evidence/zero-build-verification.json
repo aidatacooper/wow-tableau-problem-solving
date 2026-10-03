@@ -1,0 +1,9 @@
+{
+  "case_id": "2020-05-22-ww21-automatic-phone-layout",
+  "sdk_commit": "56377c5b170f0df1f5cd853fc483de26962dfed1",
+  "builder_sha256": "0fa88cfe9ca19d4d0805fd1f3d66cbfc481f8cdb12adb66386b43318fee24081",
+  "result": "passed",
+  "initial_workbooks_available": 0,
+  "scope": "Copied only builder/verifier, metadata and locked inputs. Built from TWBEditor empty, then ran independent raw-data/artifact oracle without copied Cloud evidence or author workbooks.",
+  "builder_hash_scope": "UTF-8 source text with universal newlines normalized to LF"
+}

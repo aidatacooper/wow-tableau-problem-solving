@@ -1,0 +1,10 @@
+{
+  "version": "0.27.1",
+  "commit": "47718436ae9bc7384d4d275a918c8ba126ae9c58",
+  "result": "blocked",
+  "scope": "Released capability baseline only, no SDK full-suite or Cloud pass claim.",
+  "missing": [
+    "add_combined_set",
+    "enable_automatic_phone_layout"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "source_workbook": {
+    "filename": "2020_04_22_WW17_Weekday_RunRate.twbx",
+    "bytes": 14622,
+    "sha256": "a266366e5a80e71248c64eba4c365e3bf634e69056ccda26d8acce8eff3fb95b",
+    "url": "https://public.tableau.com/profile/donna.coles#!/vizhome/2020_04_22_WW17_Weekday_RunRate/2020_04_22_WW17_Weekday_RunRate"
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/TableauTemp/TEMP_0w4rjxf1y3op0w154ltbd1f67pji.hyper",
+      "file": "inputs/TEMP_0w4rjxf1y3op0w154ltbd1f67pji.hyper",
+      "bytes": 65536,
+      "sha256": "5b6451dcc317b267e95cb0b712da887adb881072b6449ff9b8c29a629cb2b539"
+    },
+    {
+      "archive_path": "Data/TableauTemp/TEMP_0jid4k908s0rnf1fdypy20ecq2fb.hyper",
+      "file": "inputs/TEMP_0jid4k908s0rnf1fdypy20ecq2fb.hyper",
+      "bytes": 65536,
+      "sha256": "86544a4fa84f382156998e54c9cb675eef292bea931b668e93f30d081c95bfd4"
+    }
+  ],
+  "source_workbook_used_by_builder": false,
+  "article": {
+    "url": "https://donnacoles.home.blog/2020/04/25/can-you-calculate-weekday-run-rate/",
+    "sha256": "fe5f5feddc6321b53e06f2faa6a34682bd405ca460251c7daa611cb5f30fa0aa"
+  },
+  "challenge": {
+    "url": "https://www.workout-wednesday.com/2020w17/",
+    "wordpress_post_id": 3634,
+    "date": "2020-04-21"
+  },
+  "data_files": {
+    "inputs/TEMP_0w4rjxf1y3op0w154ltbd1f67pji.hyper": "5b6451dcc317b267e95cb0b712da887adb881072b6449ff9b8c29a629cb2b539",
+    "inputs/TEMP_0jid4k908s0rnf1fdypy20ecq2fb.hyper": "86544a4fa84f382156998e54c9cb675eef292bea931b668e93f30d081c95bfd4"
+  }
+}

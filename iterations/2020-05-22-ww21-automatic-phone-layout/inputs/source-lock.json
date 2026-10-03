@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-03",
+  "source_workbook": {
+    "filename": "2020_05_20_WW21_Auto_Phone_Layout.twbx",
+    "bytes": 177747,
+    "sha256": "22d9d2762941ca242cfa49edaf7dee127c0d2096bfdc0d1986a4a91c687cce66",
+    "url": "https://public.tableau.com/profile/donna.coles#!/vizhome/2020_05_20_WW21_Auto_Phone_Layout/2020_05_19_WW21_Auto_Phone_Layout"
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/TableauTemp/TEMP_151xfqm0kt34qz10esqhe11mmnal.hyper",
+      "file": "inputs/TEMP_151xfqm0kt34qz10esqhe11mmnal.hyper",
+      "bytes": 458752,
+      "sha256": "9cdafc8f3f41da49607586f0e79754b09a1dbff13ab56a0e1fb949e2a8cdc4d9"
+    }
+  ],
+  "source_workbook_used_by_builder": false,
+  "locked_original_sha256": "4698d8d8ddcb68f64b9100775dbe2e4d3d4717d85299f10b3a24322f9d832378"
+}

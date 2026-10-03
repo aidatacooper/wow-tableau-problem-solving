@@ -1,0 +1,89 @@
+schema_version: 1.1.0
+case_id: wow-2020-ww24-moving-average-trend
+iteration_id: 2020-06-12-ww24-moving-average-trend
+post: https://donnacoles.home.blog/2020/06/12/can-you-compare-a-3-day-vs-14-day-moving-average-and-describe-the-latest-trend/
+legacy_case_ids: {}
+article_date: '2020-06-12'
+challenge_year: 2020
+challenge_week: 24
+challenge_date: '2020-06-09'
+date_evidence:
+  article_date: Declared article publication date in iteration_id
+  challenge: Explicit challenge_year; week declared in iteration_id
+  challenge_date: Official WordPress REST post3753,2020w24,published2020-06-09T14:37:14.
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2020w24/
+  article:
+    url: https://donnacoles.home.blog/2020/06/12/can-you-compare-a-3-day-vs-14-day-moving-average-and-describe-the-latest-trend/
+    path: null
+    sha256: bdb3120dc1d13f38c436f7ea8a50c9061557bb1db7d7994703bb9c0947449380
+  workbook:
+    url: https://public.tableau.com/views/2020_06_09_WW24_MovingAvg_Covid19/2020_06_09_WW24_MovingAvg_Covid19
+    filename: author.twbx
+    sha256: 214a58b1b7ff2036b55844005aafc130869d7fb8af48edc8cd081cc366efa087
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- evidence/cloud-verification.json
+- evidence/export-provenance.json
+- evidence/functional-verification.json
+- evidence/sdk-final-validation.json
+- evidence/sdk-fit-width-baseline.json
+- evidence/sdk-gap-baseline.json
+- evidence/sdk-validation-ac191fde.json
+- evidence/visual-review.md
+- evidence/zero-build-verification.json
+- inputs/source-lock.json
+notes:
+- Generated index views must be refreshed after the workbook is built and verified.
+cwtwb:
+  tested_version: 0.27.1
+  runs:
+  - version: 0.27.1
+    commit: 47718436ae9bc7384d4d275a918c8ba126ae9c58
+    result: blocked
+    evidence: evidence/sdk-gap-baseline.json
+  - version: 0.27.1
+    commit: ac191fde0c2f104697c8dd2d2f0417d9b124dd7e
+    result: blocked
+    evidence: evidence/sdk-fit-width-baseline.json
+  - version: 0.27.1
+    commit: 56377c5b170f0df1f5cd853fc483de26962dfed1
+    result: pass
+    evidence: evidence/sdk-final-validation.json
+  tested_commit: 56377c5b170f0df1f5cd853fc483de26962dfed1
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: pass
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/COVID-19 Activity Extract.hyper
+acceptance:
+- id: ww24-history-oracle
+  description: Independently aggregate all422143 rows across3037county histories,
+    rolling3/14daymeans and recursive consecutive trend days.
+  mode: automated
+- id: ww24-latest-trend
+  description: Retainhistorybeforelate latest-date filtering; defaultDavidson June7
+    new124,total6156,3day108.333,14day101.786,1dayINCREASE.
+  mode: automated
+- id: ww24-geographic-contract
+  description: US county geometry,state context,selectedcountycolor and dynamicstate/county
+    search parameter contracts.
+  mode: automated
+- id: ww24-cloud-states
+  description: Paired default/3day/Campbell/LosAngeles REST images, all selectedstate
+    latest counties,complete92day daily series andtrend BAN CSV.
+  mode: automated
+remaining_work: []
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []

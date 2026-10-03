@@ -1,0 +1,11 @@
+{
+  "source_sha256": "3a1e847bc08cbb7b3abb752e8a3b18be5d6d986a67c3ba0ad9e07078148b4399",
+  "comparison_sha256": "9f343d2a50355f306665e2a71f174a66dec3196e3862f5c88c1478156622209c",
+  "modification": "Only removed hidden=true from worksheet windows to permit REST CSV export. Datasources, calculations, worksheets and dashboards byte-equivalent after parsed serialization.",
+  "exposed_worksheets": [
+    "Bars",
+    "Legend"
+  ],
+  "data_members_unchanged": true,
+  "source_workbook_used_by_builder": false
+}
