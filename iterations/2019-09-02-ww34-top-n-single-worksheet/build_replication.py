@@ -1,4 +1,5 @@
 """Build WW34 independently from extracted Hyper using public cwtwb APIs."""
+
 from pathlib import Path
 from cwtwb import TWBEditor
 
@@ -9,11 +10,21 @@ DASHBOARD_NAME = "2019_08_21_WW34_TopN_Single_Sheet"
 
 
 def addressing():
-    rank = {"ordering_type": "Field", "level_break": "Manfacturer Category", "order": ["Region", "Manfacturer Category"], "sort": {"direction": "DESC", "using": "SUM(Quantity)"}}
+    rank = {
+        "ordering_type": "Field",
+        "level_break": "Manfacturer Category",
+        "order": ["Region", "Manfacturer Category"],
+        "sort": {"direction": "DESC", "using": "SUM(Quantity)"},
+    }
     return {
         "Index": [rank],
         "FILTER Index": [{"ordering_type": "Columns"}, {"field": "Index", **rank}],
-        "LABEL:Manufacturer": [{"ordering_type": "Columns"}, {"field": "Manufacturer + Rank", "ordering_type": "Columns"}, {"field": "Index Rank", "ordering_type": "Columns"}, {"field": "Index", **rank}],
+        "LABEL:Manufacturer": [
+            {"ordering_type": "Columns"},
+            {"field": "Manufacturer + Rank", "ordering_type": "Columns"},
+            {"field": "Index Rank", "ordering_type": "Columns"},
+            {"field": "Index", **rank},
+        ],
     }
 
 
@@ -178,28 +189,120 @@ def build(output_twb: Path, output_twbx: Path) -> Path:
         },
     )
 
-    editor.set_worksheet_rich_title("Viz", runs=[
-        {"text": "Top <[Parameters].[Top n Manufacturers]> Manufacturers by Region using a Single Worksheet", "fontsize": 16, "fontcolor": "#666666", "fontalignment": "1"},
-        {"text": "\nhover to highlight rank", "fontsize": 12, "italic": True, "fontcolor": "#666666", "fontalignment": "1"},
-    ])
-    editor.configure_worksheet_style("Viz", hide_gridlines=True, hide_zeroline=False, hide_table_dividers=True, hide_col_field_labels=True, hide_row_field_labels=True,
+    editor.set_worksheet_rich_title(
+        "Viz",
+        runs=[
+            {
+                "text": "Top <[Parameters].[Top n Manufacturers]> Manufacturers by Region using a Single Worksheet",
+                "fontsize": 16,
+                "fontcolor": "#666666",
+                "fontalignment": "1",
+            },
+            {
+                "text": "\nhover to highlight rank",
+                "fontsize": 12,
+                "italic": True,
+                "fontcolor": "#666666",
+                "fontalignment": "1",
+            },
+        ],
+    )
+    editor.configure_worksheet_style(
+        "Viz",
+        hide_gridlines=True,
+        hide_zeroline=False,
+        hide_table_dividers=True,
+        hide_col_field_labels=True,
+        hide_row_field_labels=True,
         cell_formats=[{"field": "Index", "height": 34}],
         header_formats=[{"height_header": 24}, {"field": "Region", "height": 40}],
-        label_formats=[{"field": "Index", "display": False}, {"field": "Region", "font-size": 14}],
-        axis_style={"per_field": [{"field": field, "attr": "display", "scope": "cols", "class": cls, "value": "false"} for field in ["SUM(Quantity)", "[MIN(0)]"] for cls in ["0", "1"]]},
+        label_formats=[
+            {"field": "Index", "display": False},
+            {"field": "Region", "font-size": 14},
+        ],
+        axis_style={
+            "per_field": [
+                {
+                    "field": field,
+                    "attr": "display",
+                    "scope": "cols",
+                    "class": cls,
+                    "value": "false",
+                }
+                for field in ["SUM(Quantity)", "[MIN(0)]"]
+                for cls in ["0", "1"]
+            ]
+        },
         pane_datalabel_style={"color-mode": "match", "font-size": 10},
-        panes_style={"1": {"cell_style": {"text_align": "left", "vertical_align": "center"}, "datalabel_style": {"color-mode": "match", "font-size": 10}}, "2": {"datalabel_style": {"color-mode": "match", "font-size": 10}}})
+        panes_style={
+            "1": {
+                "cell_style": {"text_align": "left", "vertical_align": "center"},
+                "datalabel_style": {"color-mode": "match", "font-size": 10},
+            },
+            "2": {"datalabel_style": {"color-mode": "match", "font-size": 10}},
+        },
+    )
     # --- Dashboard --------------------------------------------------------
-    layout = {"type": "container", "direction": "floating", "children": [
-        {"type": "worksheet", "name": "Viz", "fit": "standard", "absolute": {"x": 800, "y": 1000, "w": 80000, "h": 90250}},
-        {"type": "paramctrl", "parameter": "Include Other", "mode": "compact", "absolute": {"x": 80800, "y": 1000, "w": 18400, "h": 7500}},
-        {"type": "paramctrl", "parameter": "Top n Manufacturers", "mode": "type_in", "absolute": {"x": 80800, "y": 8500, "w": 18400, "h": 7500}},
-        {"type": "text", "text": "DESIGNED BY : Jeffrey A. Schaffer", "font_size": "8", "absolute": {"x": 800, "y": 91250, "w": 22700, "h": 4055}},
-        {"type": "text", "text": "#WORKOUTWEDNESDAY  |  2019  |  WEEK 34", "font_size": "8", "absolute": {"x": 23500, "y": 91250, "w": 55900, "h": 4055}},
-        {"type": "text", "text": "RECREATED BY : Donna Coles", "font_size": "8", "absolute": {"x": 79400, "y": 91250, "w": 19800, "h": 4055}},
-        {"type": "text", "runs": [{"text": "http://www.workout-wednesday.com/week-34-can-you-build-a-top-n-bar-chart-on-a-single-worksheet/", "font_size": "8", "font_color": "#3093bb", "hyperlink": "http://www.workout-wednesday.com/week-34-can-you-build-a-top-n-bar-chart-on-a-single-worksheet/"}], "absolute": {"x": 15600, "y": 95305, "w": 67600, "h": 3695}},
-        {"type": "text", "text": "DATA : Superstore Sales", "font_size": "8", "absolute": {"x": 83200, "y": 95305, "w": 16000, "h": 3695}},
-    ]}
+    layout = {
+        "type": "container",
+        "direction": "floating",
+        "children": [
+            {
+                "type": "worksheet",
+                "name": "Viz",
+                "fit": "standard",
+                "absolute": {"x": 800, "y": 1000, "w": 80000, "h": 90250},
+            },
+            {
+                "type": "paramctrl",
+                "parameter": "Include Other",
+                "mode": "compact",
+                "absolute": {"x": 80800, "y": 1000, "w": 18400, "h": 7500},
+            },
+            {
+                "type": "paramctrl",
+                "parameter": "Top n Manufacturers",
+                "mode": "type_in",
+                "absolute": {"x": 80800, "y": 8500, "w": 18400, "h": 7500},
+            },
+            {
+                "type": "text",
+                "text": "DESIGNED BY : Jeffrey A. Schaffer",
+                "font_size": "8",
+                "absolute": {"x": 800, "y": 91250, "w": 22700, "h": 4055},
+            },
+            {
+                "type": "text",
+                "text": "#WORKOUTWEDNESDAY  |  2019  |  WEEK 34",
+                "font_size": "8",
+                "absolute": {"x": 23500, "y": 91250, "w": 55900, "h": 4055},
+            },
+            {
+                "type": "text",
+                "text": "RECREATED BY : Donna Coles",
+                "font_size": "8",
+                "absolute": {"x": 79400, "y": 91250, "w": 19800, "h": 4055},
+            },
+            {
+                "type": "text",
+                "runs": [
+                    {
+                        "text": "http://www.workout-wednesday.com/week-34-can-you-build-a-top-n-bar-chart-on-a-single-worksheet/",
+                        "font_size": "8",
+                        "font_color": "#3093bb",
+                        "hyperlink": "http://www.workout-wednesday.com/week-34-can-you-build-a-top-n-bar-chart-on-a-single-worksheet/",
+                    }
+                ],
+                "absolute": {"x": 15600, "y": 95305, "w": 67600, "h": 3695},
+            },
+            {
+                "type": "text",
+                "text": "DATA : Superstore Sales",
+                "font_size": "8",
+                "absolute": {"x": 83200, "y": 95305, "w": 16000, "h": 3695},
+            },
+        ],
+    }
     editor.add_dashboard(
         DASHBOARD_NAME,
         width=1000,
@@ -222,10 +325,14 @@ def build(output_twb: Path, output_twbx: Path) -> Path:
     editor.save(output_twb, validate=False)
     editor.save(output_twbx, validate=False)
 
-
     return output_twb
 
 
-
 if __name__ == "__main__":
-    print(build(OUTPUT_DIR / "2019-09-02-ww34-top-n-single-worksheet-replicated-workbook.twb", OUTPUT_DIR / "replicated-workbook.twbx"))
+    print(
+        build(
+            OUTPUT_DIR
+            / "2019-09-02-ww34-top-n-single-worksheet-replicated-workbook.twb",
+            OUTPUT_DIR / "replicated-workbook.twbx",
+        )
+    )

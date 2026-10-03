@@ -22,12 +22,20 @@ def build(path: Path) -> Path:
     editor._datasource.set("caption", "Orders (Sample - Superstore)")
 
     editor.add_parameter(
-        "Select Category", datatype="string", default_value="Office Supplies",
-        domain_type="list", allowed_values=["Furniture", "Office Supplies", "Technology"],
+        "Select Category",
+        datatype="string",
+        default_value="Office Supplies",
+        domain_type="list",
+        allowed_values=["Furniture", "Office Supplies", "Technology"],
     )
     editor.add_parameter(
-        "Level Param", datatype="integer", default_value="2",
-        domain_type="range", min_value="1", max_value="2", granularity="1",
+        "Level Param",
+        datatype="integer",
+        default_value="2",
+        domain_type="range",
+        min_value="1",
+        max_value="2",
+        granularity="1",
     )
     editor.add_calculated_field(
         "Sales Per Year Per Category",
@@ -51,7 +59,9 @@ def build(path: Path) -> Path:
         "Display",
         "IF [Category] = [Parameters].[Select Category] AND [Level] = 2 THEN "
         "'    ↳ ' + [Sub-Category] ELSE '' END",
-        datatype="string", role="dimension", field_type="nominal",
+        datatype="string",
+        role="dimension",
+        field_type="nominal",
     )
     editor.add_calculated_field(
         "Display Sales",
@@ -61,17 +71,25 @@ def build(path: Path) -> Path:
 
     editor.add_worksheet("Viz")
     editor.configure_chart(
-        "Viz", mark_type="Bar", columns=["YEAR(Order Date)", "MIN(Display Sales)"],
-        rows=["Category", "Display"], label="MIN(Display Sales)",
+        "Viz",
+        mark_type="Bar",
+        columns=["YEAR(Order Date)", "MIN(Display Sales)"],
+        rows=["Category", "Display"],
+        label="MIN(Display Sales)",
         tooltip=["Category", "Sub-Category", "Max Level", "MIN(Display Sales)"],
     )
     editor.configure_subtotals(
-        "Viz", measure_fields=["Display Sales"], aggregation="Sum",
-        subtotal_fields=["Category"], label="",
+        "Viz",
+        measure_fields=["Display Sales"],
+        aggregation="Sum",
+        subtotal_fields=["Category"],
+        label="",
     )
     view = editor._find_worksheet("Viz").find("table/view")
-    category = f'[{editor._datasource.get("name")}].[none:Category:nk]'
-    category_sort = etree.Element("sort", column=category, direction="ASC", **{"class": "manual"})
+    category = f"[{editor._datasource.get('name')}].[none:Category:nk]"
+    category_sort = etree.Element(
+        "sort", column=category, direction="ASC", **{"class": "manual"}
+    )
     dictionary = etree.SubElement(category_sort, "dictionary")
     for value in ("Technology", "Office Supplies", "Furniture"):
         etree.SubElement(dictionary, "bucket").text = f'"{value}"'
@@ -82,25 +100,68 @@ def build(path: Path) -> Path:
         view.append(category_sort)
     else:
         anchor.addprevious(category_sort)
-    editor.set_worksheet_caption("Viz", "Select a category and increase Level Param to drill to sub-categories")
-    editor.configure_worksheet_style("Viz", hide_axes=True, hide_gridlines=True, hide_zeroline=True, hide_col_field_labels=True, hide_row_field_labels=True, pane_datalabel_style={"font-size":"9","font-family":"Tableau Book"}, pane_mark_style={"mark-color":"#eca88f"})
+    editor.set_worksheet_caption(
+        "Viz", "Select a category and increase Level Param to drill to sub-categories"
+    )
+    editor.configure_worksheet_style(
+        "Viz",
+        hide_axes=True,
+        hide_gridlines=True,
+        hide_zeroline=True,
+        hide_col_field_labels=True,
+        hide_row_field_labels=True,
+        pane_datalabel_style={"font-size": "9", "font-family": "Tableau Book"},
+        pane_mark_style={"mark-color": "#eca88f"},
+    )
     editor.add_dashboard(
-        "WW35 Drill Up and Down", width=800, height=650,
-        layout={"type": "container", "direction": "vertical", "children": [
-            {"type":"text","text":"Drill Down & Up on Sales with Subtotals using Parameter Actions\nSales by Category, and Sub-Category\nClick the arrow beside a Category to expand or collapse it","font_size":"11","fixed_size":105},
-            {"type": "worksheet", "name": "Viz", "fit": "entire", "show_title": False, "weight": 1},
-            {"type":"text","text":"#WORKOUTWEDNESDAY  |  2019  |  WEEK 35","font_size":"8","bold":True,"fixed_size":32},
-        ]}, worksheet_names=["Viz"],
+        "WW35 Drill Up and Down",
+        width=800,
+        height=650,
+        layout={
+            "type": "container",
+            "direction": "vertical",
+            "children": [
+                {
+                    "type": "text",
+                    "text": "Drill Down & Up on Sales with Subtotals using Parameter Actions\nSales by Category, and Sub-Category\nClick the arrow beside a Category to expand or collapse it",
+                    "font_size": "11",
+                    "fixed_size": 105,
+                },
+                {
+                    "type": "worksheet",
+                    "name": "Viz",
+                    "fit": "entire",
+                    "show_title": False,
+                    "weight": 1,
+                },
+                {
+                    "type": "text",
+                    "text": "#WORKOUTWEDNESDAY  |  2019  |  WEEK 35",
+                    "font_size": "8",
+                    "bold": True,
+                    "fixed_size": 32,
+                },
+            ],
+        },
+        worksheet_names=["Viz"],
     )
     editor.add_dashboard_action(
-        "WW35 Drill Up and Down", "parameter", "Viz",
-        source_field="Category", target_parameter="Select Category",
-        aggregation="attr", caption="Select Category",
+        "WW35 Drill Up and Down",
+        "parameter",
+        "Viz",
+        source_field="Category",
+        target_parameter="Select Category",
+        aggregation="attr",
+        caption="Select Category",
     )
     editor.add_dashboard_action(
-        "WW35 Drill Up and Down", "parameter", "Viz",
-        source_field="Max Level", target_parameter="Level Param",
-        aggregation="attr", caption="Drill Up or Down",
+        "WW35 Drill Up and Down",
+        "parameter",
+        "Viz",
+        source_field="Max Level",
+        target_parameter="Level Param",
+        aggregation="attr",
+        caption="Drill Up or Down",
     )
     OUTPUTS.mkdir(exist_ok=True)
     editor.save(path, validate=False)
@@ -108,6 +169,8 @@ def build(path: Path) -> Path:
 
 
 if __name__ == "__main__":
-    for name in ("2019-09-04-ww35-drill-up-down-parameter-actions-replicated-workbook.twb", "replicated-workbook.twbx"):
+    for name in (
+        "2019-09-04-ww35-drill-up-down-parameter-actions-replicated-workbook.twb",
+        "replicated-workbook.twbx",
+    ):
         print(build(OUTPUTS / name))
-

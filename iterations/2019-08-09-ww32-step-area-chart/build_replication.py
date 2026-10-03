@@ -92,8 +92,7 @@ CALCULATIONS = [
     {
         "name": "LABEL:Sales in Month Max",
         "formula": (
-            "IF NOT(ZN([LABEL: Max Diff + Shift]) = 0) "
-            "THEN SUM([Sales In Month]) END"
+            "IF NOT(ZN([LABEL: Max Diff + Shift]) = 0) THEN SUM([Sales In Month]) END"
         ),
         "datatype": "real",
         "table_calc": "Rows",
@@ -101,8 +100,7 @@ CALCULATIONS = [
     {
         "name": "LABEL:Sales in Month Min",
         "formula": (
-            "IF NOT(ZN([LABEL: Min Diff + Shift]) = 0) "
-            "THEN SUM([Sales In Month]) END"
+            "IF NOT(ZN([LABEL: Min Diff + Shift]) = 0) THEN SUM([Sales In Month]) END"
         ),
         "datatype": "real",
         "table_calc": "Rows",
@@ -121,9 +119,7 @@ CALCULATIONS = [
     },
     {
         "name": "Sales in Month Dual Axis",
-        "formula": (
-            "IF [Sales Diff] <> 0 THEN SUM([Sales In Month]) END"
-        ),
+        "formula": ("IF [Sales Diff] <> 0 THEN SUM([Sales In Month]) END"),
         "datatype": "real",
         "table_calc": "Rows",
     },
@@ -147,8 +143,7 @@ CALCULATIONS = [
     {
         "name": "Size - Dual Axis",
         "formula": (
-            "IF [Colour:Diff] = 'blue' OR [Colour:Diff] = 'red' "
-            "THEN 2 ELSE 1 END"
+            "IF [Colour:Diff] = 'blue' OR [Colour:Diff] = 'red' THEN 2 ELSE 1 END"
         ),
         "datatype": "integer",
         "table_calc": "Rows",
@@ -421,12 +416,34 @@ def create_editor(
             pane["labels"] = LABELS
             pane["tooltip"] = TOOLTIPS
             pane["label_runs"] = [
-                {"field": "LABEL:Sales in Month Max", "fontcolor": "#666666", "fontsize": 8},
-                {"field": "LABEL:Sales in Month Min", "fontcolor": "#666666", "fontsize": 8},
-                {"field": "LABEL:First Last if not max or min", "fontcolor": "#666666", "fontsize": 8},
+                {
+                    "field": "LABEL:Sales in Month Max",
+                    "fontcolor": "#666666",
+                    "fontsize": 8,
+                },
+                {
+                    "field": "LABEL:Sales in Month Min",
+                    "fontcolor": "#666666",
+                    "fontsize": 8,
+                },
+                {
+                    "field": "LABEL:First Last if not max or min",
+                    "fontcolor": "#666666",
+                    "fontsize": 8,
+                },
                 {"text": "\u00c6\n"},
-                {"field": "LABEL: Min Diff + Shift", "bold": True, "fontcolor": "#da020e", "fontsize": 8},
-                {"field": "LABEL: Max Diff + Shift", "bold": True, "fontcolor": "#305d8a", "fontsize": 8},
+                {
+                    "field": "LABEL: Min Diff + Shift",
+                    "bold": True,
+                    "fontcolor": "#da020e",
+                    "fontsize": 8,
+                },
+                {
+                    "field": "LABEL: Max Diff + Shift",
+                    "bold": True,
+                    "fontcolor": "#305d8a",
+                    "fontsize": 8,
+                },
                 {"text": "\u00c6\n"},
             ]
             pane["mark_style"]["mark-labels-show"] = "true"
@@ -456,28 +473,99 @@ def create_editor(
         hide_row_field_labels=True,
         hide_table_dividers=True,
         pane_datalabel_style={"font-size": "8", "color": "#898989"},
-        axis_style={"per_field": [{"attr": "line-visibility", "scope": "cols", "value": "on"}, {"attr": "line-pattern-only", "scope": "cols", "value": "solid"}, {"attr": "stroke-size", "scope": "cols", "value": "2"}, {"attr": "stroke-color", "scope": "cols", "value": "#666666"}, {"field": "DAYTRUNC(Month Position To Plot)", "attr": "title", "scope": "cols", "class": "0", "value": ""}, {"field": "DAYTRUNC(Month Position To Plot)", "attr": "stroke-size", "scope": "cols", "value": "2"}, {"field": "DAYTRUNC(Month Position To Plot)", "attr": "stroke-color", "scope": "cols", "value": "#666666"}], "encodings": [{"field": "DAYTRUNC(Month Position To Plot)", "scope": "cols", "class": "0", "range_type": "fixed", "min": "#2017-12-01 00:00:00#", "max": "#2019-01-15 00:00:00#", "major_origin": "#2018-01-01 00:00:00#", "major_spacing": "11.0", "major_units": "months", "minor_show": False}]},
-        label_formats=[{"field": "DAYTRUNC(Month Position To Plot)", "text-format": "*mmm yy", "font-size": "8"}],
+        axis_style={
+            "per_field": [
+                {"attr": "line-visibility", "scope": "cols", "value": "on"},
+                {"attr": "line-pattern-only", "scope": "cols", "value": "solid"},
+                {"attr": "stroke-size", "scope": "cols", "value": "2"},
+                {"attr": "stroke-color", "scope": "cols", "value": "#666666"},
+                {
+                    "field": "DAYTRUNC(Month Position To Plot)",
+                    "attr": "title",
+                    "scope": "cols",
+                    "class": "0",
+                    "value": "",
+                },
+                {
+                    "field": "DAYTRUNC(Month Position To Plot)",
+                    "attr": "stroke-size",
+                    "scope": "cols",
+                    "value": "2",
+                },
+                {
+                    "field": "DAYTRUNC(Month Position To Plot)",
+                    "attr": "stroke-color",
+                    "scope": "cols",
+                    "value": "#666666",
+                },
+            ],
+            "encodings": [
+                {
+                    "field": "DAYTRUNC(Month Position To Plot)",
+                    "scope": "cols",
+                    "class": "0",
+                    "range_type": "fixed",
+                    "min": "#2017-12-01 00:00:00#",
+                    "max": "#2019-01-15 00:00:00#",
+                    "major_origin": "#2018-01-01 00:00:00#",
+                    "major_spacing": "11.0",
+                    "major_units": "months",
+                    "minor_show": False,
+                }
+            ],
+        },
+        label_formats=[
+            {
+                "field": "DAYTRUNC(Month Position To Plot)",
+                "text-format": "*mmm yy",
+                "font-size": "8",
+            }
+        ],
     )
     if include_extrema:
-        editor.set_datasource_color_palette("Colour:Diff", {"blue": "#4e79a7", "red": "#e15759", "grey": "#bab0ac"})
-    editor.set_worksheet_rich_title("Viz", runs=[
-        {"text": "WHEN DID 2018 CATEGORY SALES ", "fontsize": 16, "fontcolor": "#898989"},
-        {"text": "DROP", "fontsize": 16, "fontcolor": "#e15759", "bold": True},
-        {"text": " AND ", "fontsize": 16, "fontcolor": "#898989"},
-        {"text": "RISE", "fontsize": 16, "fontcolor": "#4e79a7", "bold": True},
-        {"text": " THE MOST?", "fontsize": 16, "fontcolor": "#898989"},
-    ])
+        editor.set_datasource_color_palette(
+            "Colour:Diff", {"blue": "#4e79a7", "red": "#e15759", "grey": "#bab0ac"}
+        )
+    editor.set_worksheet_rich_title(
+        "Viz",
+        runs=[
+            {
+                "text": "WHEN DID 2018 CATEGORY SALES ",
+                "fontsize": 16,
+                "fontcolor": "#898989",
+            },
+            {"text": "DROP", "fontsize": 16, "fontcolor": "#e15759", "bold": True},
+            {"text": " AND ", "fontsize": 16, "fontcolor": "#898989"},
+            {"text": "RISE", "fontsize": 16, "fontcolor": "#4e79a7", "bold": True},
+            {"text": " THE MOST?", "fontsize": 16, "fontcolor": "#898989"},
+        ],
+    )
     editor.add_dashboard(
         DASHBOARD,
         width=1200,
         height=600,
         worksheet_names=["Viz"],
-        layout={"type": "container", "direction": "vertical", "children": [
-            {"type": "worksheet", "name": "Viz", "fit": "entire", "weight": 1},
-            {"type": "text", "text": "DESIGNED BY: KLAUS SCHULTE                         #WORKOUTWEDNESDAY | 2019 | WEEK 32                         RECREATED BY: DONNA COLES", "font_size": "8", "font_color": "#4e79a7", "fixed_size": 30},
-            {"type": "text", "text": "http://www.workout-wednesday.com/week-32-can-you-create-step-area-charts/", "font_size": "8", "font_color": "#4e79a7", "fixed_size": 25},
-        ]},
+        layout={
+            "type": "container",
+            "direction": "vertical",
+            "children": [
+                {"type": "worksheet", "name": "Viz", "fit": "entire", "weight": 1},
+                {
+                    "type": "text",
+                    "text": "DESIGNED BY: KLAUS SCHULTE                         #WORKOUTWEDNESDAY | 2019 | WEEK 32                         RECREATED BY: DONNA COLES",
+                    "font_size": "8",
+                    "font_color": "#4e79a7",
+                    "fixed_size": 30,
+                },
+                {
+                    "type": "text",
+                    "text": "http://www.workout-wednesday.com/week-32-can-you-create-step-area-charts/",
+                    "font_size": "8",
+                    "font_color": "#4e79a7",
+                    "fixed_size": 25,
+                },
+            ],
+        },
     )
     return editor
 
@@ -491,5 +579,8 @@ def build(output_path: Path) -> Path:
 if __name__ == "__main__":
     if not HYPER.exists():
         raise FileNotFoundError(f"Locked case Hyper is missing: {HYPER}")
-    for filename in ("2019-08-09-ww32-step-area-chart-replicated-workbook.twb", "replicated-workbook.twbx"):
+    for filename in (
+        "2019-08-09-ww32-step-area-chart-replicated-workbook.twb",
+        "replicated-workbook.twbx",
+    ):
         print(build(OUTPUT_DIR / filename))

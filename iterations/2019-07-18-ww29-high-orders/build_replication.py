@@ -15,16 +15,42 @@ def build(output_path: Path) -> Path:
     calculations = [
         ("Count Orders per Segment", "{FIXED [Segment]: COUNTD([Order ID])}"),
         ("Count Days Per Segment", "{FIXED [Segment]: COUNTD([Order Date])}"),
-        ("Count Orders per Segment per Month", "{FIXED [Segment], MONTH([Order Date]): COUNTD([Order ID])}"),
-        ("Count Days Per Segment Per Month", "{FIXED [Segment], MONTH([Order Date]): COUNTD([Order Date])}"),
-        ("Overall Avg Orders Per Day Per Segment", "SUM([Count Orders per Segment]) / SUM([Count Days Per Segment])"),
-        ("Avg Orders Per Day Per Segment Per Month", "SUM([Count Orders per Segment per Month]) / SUM([Count Days Per Segment Per Month])"),
-        ("Difference", "[Avg Orders Per Day Per Segment Per Month] - [Overall Avg Orders Per Day Per Segment]"),
+        (
+            "Count Orders per Segment per Month",
+            "{FIXED [Segment], MONTH([Order Date]): COUNTD([Order ID])}",
+        ),
+        (
+            "Count Days Per Segment Per Month",
+            "{FIXED [Segment], MONTH([Order Date]): COUNTD([Order Date])}",
+        ),
+        (
+            "Overall Avg Orders Per Day Per Segment",
+            "SUM([Count Orders per Segment]) / SUM([Count Days Per Segment])",
+        ),
+        (
+            "Avg Orders Per Day Per Segment Per Month",
+            "SUM([Count Orders per Segment per Month]) / SUM([Count Days Per Segment Per Month])",
+        ),
+        (
+            "Difference",
+            "[Avg Orders Per Day Per Segment Per Month] - [Overall Avg Orders Per Day Per Segment]",
+        ),
         ("% Difference", "[Difference] / [Overall Avg Orders Per Day Per Segment]"),
     ]
     for name, formula in calculations:
-        editor.add_calculated_field(name, formula, default_format="*+0%;-0%" if name == "% Difference" else "n#,##0.00;-#,##0.00")
-    editor.add_calculated_field("COLOUR:Difference", "IF [Difference]>=0 THEN 'green' ELSE 'blue' END", datatype="string", role="measure")
+        editor.add_calculated_field(
+            name,
+            formula,
+            default_format="*+0%;-0%"
+            if name == "% Difference"
+            else "n#,##0.00;-#,##0.00",
+        )
+    editor.add_calculated_field(
+        "COLOUR:Difference",
+        "IF [Difference]>=0 THEN 'green' ELSE 'blue' END",
+        datatype="string",
+        role="measure",
+    )
 
     editor.add_calculated_field("Gantt Size", "-[Difference]")
 
@@ -69,8 +95,33 @@ def build(output_path: Path) -> Path:
         pane_datalabel_style={"color-mode": "auto"},
         hide_col_field_labels=True,
         hide_row_field_labels=True,
-        label_formats=[{"field": "MONTH(Order Date)", "text-format": "iLLL"}, {"field": "AGG(Avg Orders Per Day Per Segment Per Month)", "text-format": "n0.0"}],
-        axis_style={"encodings": [{"field": "AGG(Avg Orders Per Day Per Segment Per Month)", "scope": "rows", "class": "0", "range_type": "independent", "domain_expand": False}], "per_field": [{"field": "AGG(Avg Orders Per Day Per Segment Per Month)", "attr": "title", "scope": "rows", "class": "0", "value": ""}]},
+        label_formats=[
+            {"field": "MONTH(Order Date)", "text-format": "iLLL"},
+            {
+                "field": "AGG(Avg Orders Per Day Per Segment Per Month)",
+                "text-format": "n0.0",
+            },
+        ],
+        axis_style={
+            "encodings": [
+                {
+                    "field": "AGG(Avg Orders Per Day Per Segment Per Month)",
+                    "scope": "rows",
+                    "class": "0",
+                    "range_type": "independent",
+                    "domain_expand": False,
+                }
+            ],
+            "per_field": [
+                {
+                    "field": "AGG(Avg Orders Per Day Per Segment Per Month)",
+                    "attr": "title",
+                    "scope": "rows",
+                    "class": "0",
+                    "value": "",
+                }
+            ],
+        },
     )
 
     layout = {
@@ -79,7 +130,21 @@ def build(output_path: Path) -> Path:
         "children": [
             {
                 "type": "text",
-                "runs": [{"text": "WEEK 29: ", "bold": True, "font_size": "14", "font_color": "#1ba3c6", "font_alignment": "1"}, {"text": "Which months do we see a higher number of orders?", "font_size": "14", "font_color": "#1ba3c6", "font_alignment": "1"}],
+                "runs": [
+                    {
+                        "text": "WEEK 29: ",
+                        "bold": True,
+                        "font_size": "14",
+                        "font_color": "#1ba3c6",
+                        "font_alignment": "1",
+                    },
+                    {
+                        "text": "Which months do we see a higher number of orders?",
+                        "font_size": "14",
+                        "font_color": "#1ba3c6",
+                        "font_alignment": "1",
+                    },
+                ],
                 "font_size": "14",
                 "font_color": "#1ba3c6",
                 "bold": True,
@@ -92,11 +157,55 @@ def build(output_path: Path) -> Path:
                 "fit": "entire",
                 "weight": 1,
             },
-            {"type": "container", "direction": "horizontal", "fixed_size": 40, "children": [
-                {"type": "text", "runs": [{"text": "DESIGNED BY: @LukeStanke", "font_size": "8", "font_color": "#1ba3c6", "font_alignment": "0"}], "weight": 1},
-                {"type": "text", "runs": [{"text": "#WORKOUTWEDNESDAY | 2019 | WEEK 29\n", "font_size": "8", "font_color": "#1ba3c6", "font_alignment": "1"}, {"text": "http://www.workout-wednesday.com/2019-w29/", "font_size": "8", "font_alignment": "1", "hyperlink": "http://www.workout-wednesday.com/2019-w29/"}], "weight": 2},
-                {"type": "text", "runs": [{"text": "RECREATED BY: @donnacoles30", "font_size": "8", "font_color": "#1ba3c6", "font_alignment": "2"}], "weight": 1},
-            ]},
+            {
+                "type": "container",
+                "direction": "horizontal",
+                "fixed_size": 40,
+                "children": [
+                    {
+                        "type": "text",
+                        "runs": [
+                            {
+                                "text": "DESIGNED BY: @LukeStanke",
+                                "font_size": "8",
+                                "font_color": "#1ba3c6",
+                                "font_alignment": "0",
+                            }
+                        ],
+                        "weight": 1,
+                    },
+                    {
+                        "type": "text",
+                        "runs": [
+                            {
+                                "text": "#WORKOUTWEDNESDAY | 2019 | WEEK 29\n",
+                                "font_size": "8",
+                                "font_color": "#1ba3c6",
+                                "font_alignment": "1",
+                            },
+                            {
+                                "text": "http://www.workout-wednesday.com/2019-w29/",
+                                "font_size": "8",
+                                "font_alignment": "1",
+                                "hyperlink": "http://www.workout-wednesday.com/2019-w29/",
+                            },
+                        ],
+                        "weight": 2,
+                    },
+                    {
+                        "type": "text",
+                        "runs": [
+                            {
+                                "text": "RECREATED BY: @donnacoles30",
+                                "font_size": "8",
+                                "font_color": "#1ba3c6",
+                                "font_alignment": "2",
+                            }
+                        ],
+                        "weight": 1,
+                    },
+                ],
+            },
         ],
     }
     editor.add_dashboard(
@@ -113,5 +222,8 @@ def build(output_path: Path) -> Path:
 
 
 if __name__ == "__main__":
-    for filename in ("2019-07-18-ww29-high-orders-replicated-workbook.twb", "replicated-workbook.twbx"):
+    for filename in (
+        "2019-07-18-ww29-high-orders-replicated-workbook.twb",
+        "replicated-workbook.twbx",
+    ):
         print(build(OUTPUT_DIR / filename))

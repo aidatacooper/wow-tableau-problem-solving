@@ -2,6 +2,7 @@
 
 Recreates the 2019-08-14 WW33 Tableau workbook completely via cwtwb SDK.
 """
+
 from __future__ import annotations
 
 import json
@@ -59,35 +60,184 @@ BAR_MARK_SIZE = "1.637182354927063"
 # ── Calculated Fields ─────────────────────────────────────────────────
 CALCULATIONS = [
     # caption, formula, datatype, role, field_type, default_format, internal
-    ("Profit Ratio", "SUM(IF [Region] = [Parameters].[Selected Region] THEN [Profit] END) / SUM(IF [Region] = [Parameters].[Selected Region] THEN [Sales] END)", "real", "measure", "quantitative", PCT_FMT, N_PROFIT_RATIO),
-    ("Total Sales for Year & Category", "{FIXED YEAR([Order Date]), [Sub-Category]: SUM([Sales])}", "real", "measure", "quantitative", "", N_TOTAL_YC),
-    ("% Sales for Selected Region", "SUM(IF [Region] = [Parameters].[Selected Region] THEN [Sales] END) / SUM([Sales])", "real", "measure", "quantitative", PCT_FMT, N_PCT_SEL),
-    ("% Sales All Others", "SUM(IF [Region] != [Parameters].[Selected Region] THEN [Sales] END) / SUM([Sales])", "real", "measure", "quantitative", PCT_FMT, N_PCT_OTHER),
-    ("Highlight", "[% Sales for Selected Region] > ([Parameters].[Highlight Threshold]/100)", "boolean", "measure", "nominal", "", N_HIGHLIGHT),
-
-    ("LABEL:Subcat BOLD", "IF [Highlight] THEN ATTR([Sub-Category]) END", "string", "measure", "nominal", "", N_SUBCAT_B),
-    ("LABEL:Subcat Normal", "IF NOT([Highlight]) THEN ATTR([Sub-Category]) END", "string", "measure", "nominal", "", N_SUBCAT_N),
-    ("LABEL:Sales BOLD", "IF [Highlight] THEN SUM(IF [Region] = [Parameters].[Selected Region] THEN [Sales] END) END", "real", "measure", "ordinal", CURRENCY_FMT, N_SALES_B),
-    ("LABEL:Sales Normal", "IF NOT([Highlight]) THEN SUM(IF [Region] = [Parameters].[Selected Region] THEN [Sales] END) END", "real", "measure", "ordinal", CURRENCY_FMT, N_SALES_N),
-    ("LABEL:Profit BOLD", "IF [Highlight] THEN SUM(IF [Region] = [Parameters].[Selected Region] THEN [Profit] END) END", "real", "measure", "ordinal", CURRENCY_FMT, N_PROFIT_B),
-    ("LABEL:Profit Normal", "IF NOT([Highlight]) THEN SUM(IF [Region] = [Parameters].[Selected Region] THEN [Profit] END) END", "real", "measure", "ordinal", CURRENCY_FMT, N_PROFIT_N),
-    ("LABEL:Profit Ratio BOLD", "IF [Highlight] THEN SUM(IF [Region] = [Parameters].[Selected Region] THEN [Profit] END) / SUM(IF [Region] = [Parameters].[Selected Region] THEN [Sales] END) END", "real", "measure", "ordinal", PCT_FMT, N_PR_B),
-    ("LABEL:Profit Ratio Normal", "IF NOT([Highlight]) THEN SUM(IF [Region] = [Parameters].[Selected Region] THEN [Profit] END) / SUM(IF [Region] = [Parameters].[Selected Region] THEN [Sales] END) END", "real", "measure", "ordinal", PCT_FMT, N_PR_N),
-    ("LABEL:Qty BOLD", "IF [Highlight] THEN SUM(IF [Region] = [Parameters].[Selected Region] THEN [Quantity] END) END", "integer", "measure", "ordinal", INT_FMT, N_QTY_B),
-    ("LABEL:Qty Normal", "IF NOT([Highlight]) THEN SUM(IF [Region] = [Parameters].[Selected Region] THEN [Quantity] END) END", "integer", "measure", "ordinal", INT_FMT, N_QTY_N),
-
-    ("MIN(1) Subcat", "MIN(1)", "integer", "measure", "quantitative", "", N_MIN1_SUBCAT),
-    ("MIN(0) Subcat", "MIN(0)", "integer", "measure", "quantitative", "", N_MIN0_SUBCAT),
+    (
+        "Profit Ratio",
+        "SUM(IF [Region] = [Parameters].[Selected Region] THEN [Profit] END) / SUM(IF [Region] = [Parameters].[Selected Region] THEN [Sales] END)",
+        "real",
+        "measure",
+        "quantitative",
+        PCT_FMT,
+        N_PROFIT_RATIO,
+    ),
+    (
+        "Total Sales for Year & Category",
+        "{FIXED YEAR([Order Date]), [Sub-Category]: SUM([Sales])}",
+        "real",
+        "measure",
+        "quantitative",
+        "",
+        N_TOTAL_YC,
+    ),
+    (
+        "% Sales for Selected Region",
+        "SUM(IF [Region] = [Parameters].[Selected Region] THEN [Sales] END) / SUM([Sales])",
+        "real",
+        "measure",
+        "quantitative",
+        PCT_FMT,
+        N_PCT_SEL,
+    ),
+    (
+        "% Sales All Others",
+        "SUM(IF [Region] != [Parameters].[Selected Region] THEN [Sales] END) / SUM([Sales])",
+        "real",
+        "measure",
+        "quantitative",
+        PCT_FMT,
+        N_PCT_OTHER,
+    ),
+    (
+        "Highlight",
+        "[% Sales for Selected Region] > ([Parameters].[Highlight Threshold]/100)",
+        "boolean",
+        "measure",
+        "nominal",
+        "",
+        N_HIGHLIGHT,
+    ),
+    (
+        "LABEL:Subcat BOLD",
+        "IF [Highlight] THEN ATTR([Sub-Category]) END",
+        "string",
+        "measure",
+        "nominal",
+        "",
+        N_SUBCAT_B,
+    ),
+    (
+        "LABEL:Subcat Normal",
+        "IF NOT([Highlight]) THEN ATTR([Sub-Category]) END",
+        "string",
+        "measure",
+        "nominal",
+        "",
+        N_SUBCAT_N,
+    ),
+    (
+        "LABEL:Sales BOLD",
+        "IF [Highlight] THEN SUM(IF [Region] = [Parameters].[Selected Region] THEN [Sales] END) END",
+        "real",
+        "measure",
+        "ordinal",
+        CURRENCY_FMT,
+        N_SALES_B,
+    ),
+    (
+        "LABEL:Sales Normal",
+        "IF NOT([Highlight]) THEN SUM(IF [Region] = [Parameters].[Selected Region] THEN [Sales] END) END",
+        "real",
+        "measure",
+        "ordinal",
+        CURRENCY_FMT,
+        N_SALES_N,
+    ),
+    (
+        "LABEL:Profit BOLD",
+        "IF [Highlight] THEN SUM(IF [Region] = [Parameters].[Selected Region] THEN [Profit] END) END",
+        "real",
+        "measure",
+        "ordinal",
+        CURRENCY_FMT,
+        N_PROFIT_B,
+    ),
+    (
+        "LABEL:Profit Normal",
+        "IF NOT([Highlight]) THEN SUM(IF [Region] = [Parameters].[Selected Region] THEN [Profit] END) END",
+        "real",
+        "measure",
+        "ordinal",
+        CURRENCY_FMT,
+        N_PROFIT_N,
+    ),
+    (
+        "LABEL:Profit Ratio BOLD",
+        "IF [Highlight] THEN SUM(IF [Region] = [Parameters].[Selected Region] THEN [Profit] END) / SUM(IF [Region] = [Parameters].[Selected Region] THEN [Sales] END) END",
+        "real",
+        "measure",
+        "ordinal",
+        PCT_FMT,
+        N_PR_B,
+    ),
+    (
+        "LABEL:Profit Ratio Normal",
+        "IF NOT([Highlight]) THEN SUM(IF [Region] = [Parameters].[Selected Region] THEN [Profit] END) / SUM(IF [Region] = [Parameters].[Selected Region] THEN [Sales] END) END",
+        "real",
+        "measure",
+        "ordinal",
+        PCT_FMT,
+        N_PR_N,
+    ),
+    (
+        "LABEL:Qty BOLD",
+        "IF [Highlight] THEN SUM(IF [Region] = [Parameters].[Selected Region] THEN [Quantity] END) END",
+        "integer",
+        "measure",
+        "ordinal",
+        INT_FMT,
+        N_QTY_B,
+    ),
+    (
+        "LABEL:Qty Normal",
+        "IF NOT([Highlight]) THEN SUM(IF [Region] = [Parameters].[Selected Region] THEN [Quantity] END) END",
+        "integer",
+        "measure",
+        "ordinal",
+        INT_FMT,
+        N_QTY_N,
+    ),
+    (
+        "MIN(1) Subcat",
+        "MIN(1)",
+        "integer",
+        "measure",
+        "quantitative",
+        "",
+        N_MIN1_SUBCAT,
+    ),
+    (
+        "MIN(0) Subcat",
+        "MIN(0)",
+        "integer",
+        "measure",
+        "quantitative",
+        "",
+        N_MIN0_SUBCAT,
+    ),
     ("MIN(1) A", "MIN(1)", "integer", "measure", "quantitative", "", N_MIN1_A),
     ("MIN(0) Sales", "MIN(0)", "integer", "measure", "quantitative", "", N_MIN0_SALES),
-    ("MIN(0) Profit", "MIN(0)", "integer", "measure", "quantitative", "", N_MIN0_PROFIT),
+    (
+        "MIN(0) Profit",
+        "MIN(0)",
+        "integer",
+        "measure",
+        "quantitative",
+        "",
+        N_MIN0_PROFIT,
+    ),
     ("MIN(1) B", "MIN(1)", "integer", "measure", "quantitative", "", N_MIN1_B),
     ("MIN(0) Ratio", "MIN(0)", "integer", "measure", "quantitative", "", N_MIN0_RATIO),
     ("MIN(1) C", "MIN(1)", "integer", "measure", "quantitative", "", N_MIN1_C),
     ("MIN(0) Qty", "MIN(0)", "integer", "measure", "quantitative", "", N_MIN0_QTY),
-
     ("MIN(1) Bar", "MIN(1)", "integer", "measure", "quantitative", "", N_BAR_MIN1),
-    ("LABEL:Bar", "[Parameters].[Selected Region] + ' vs. All Other Regions'", "string", "dimension", "nominal", "", N_BAR_LABEL),
+    (
+        "LABEL:Bar",
+        "[Parameters].[Selected Region] + ' vs. All Other Regions'",
+        "string",
+        "dimension",
+        "nominal",
+        "",
+        N_BAR_LABEL,
+    ),
 ]
 
 # ── Multi-column Table Column Definitions ─────────────────────────────
@@ -149,16 +299,67 @@ TABLE_COLUMNS = [
 
 # ── Dashboard Layout Tree ─────────────────────────────────────────────
 DASHBOARD_LAYOUT = {
-    "type": "container", "direction": "floating", "children": [
-        {"type": "worksheet", "name": "Title", "absolute": {"x": 889, "y": 1333, "w": 61667, "h": 12000}},
-        {"type": "filter", "worksheet": "Table", "field": "Sub-Category", "mode": "checkdropdown", "absolute": {"x": 62556, "y": 1333, "w": 19778, "h": 12000}},
-        {"type": "paramctrl", "parameter": "Highlight Threshold", "mode": "type_in", "absolute": {"x": 82334, "y": 1333, "w": 16777, "h": 12000}},
-        {"type": "worksheet", "name": "Table", "show_title": False, "fit": "entire", "absolute": {"x": 889, "y": 13333, "w": 58778, "h": 78334}},
-        {"type": "worksheet", "name": "Bar", "show_title": False, "fit": "entire", "absolute": {"x": 59667, "y": 13333, "w": 39444, "h": 74584}},
-        {"type": "text", "text": "DESIGNED BY:Corey Jones", "font_size": "8", "absolute": {"x": 889, "y": 91667, "w": 20333, "h": 7000}},
-        {"type": "text", "runs": [{"text": "#WORKOUTWEDNESDAY | 2019 | WEEK 33\n", "font_size": "8"}, {"text": "http://www.workout-wednesday.com/2019-w33/", "font_size": "8", "font_color": "#3093bb", "hyperlink": "http://www.workout-wednesday.com/2019-w33/"}], "absolute": {"x": 21222, "y": 91667, "w": 56334, "h": 7000}},
-        {"type": "text", "text": "RECREATED BY: Donna Coles", "font_size": "8", "absolute": {"x": 77556, "y": 91667, "w": 21555, "h": 7000}},
-    ]
+    "type": "container",
+    "direction": "floating",
+    "children": [
+        {
+            "type": "worksheet",
+            "name": "Title",
+            "absolute": {"x": 889, "y": 1333, "w": 61667, "h": 12000},
+        },
+        {
+            "type": "filter",
+            "worksheet": "Table",
+            "field": "Sub-Category",
+            "mode": "checkdropdown",
+            "absolute": {"x": 62556, "y": 1333, "w": 19778, "h": 12000},
+        },
+        {
+            "type": "paramctrl",
+            "parameter": "Highlight Threshold",
+            "mode": "type_in",
+            "absolute": {"x": 82334, "y": 1333, "w": 16777, "h": 12000},
+        },
+        {
+            "type": "worksheet",
+            "name": "Table",
+            "show_title": False,
+            "fit": "entire",
+            "absolute": {"x": 889, "y": 13333, "w": 58778, "h": 78334},
+        },
+        {
+            "type": "worksheet",
+            "name": "Bar",
+            "show_title": False,
+            "fit": "entire",
+            "absolute": {"x": 59667, "y": 13333, "w": 39444, "h": 74584},
+        },
+        {
+            "type": "text",
+            "text": "DESIGNED BY:Corey Jones",
+            "font_size": "8",
+            "absolute": {"x": 889, "y": 91667, "w": 20333, "h": 7000},
+        },
+        {
+            "type": "text",
+            "runs": [
+                {"text": "#WORKOUTWEDNESDAY | 2019 | WEEK 33\n", "font_size": "8"},
+                {
+                    "text": "http://www.workout-wednesday.com/2019-w33/",
+                    "font_size": "8",
+                    "font_color": "#3093bb",
+                    "hyperlink": "http://www.workout-wednesday.com/2019-w33/",
+                },
+            ],
+            "absolute": {"x": 21222, "y": 91667, "w": 56334, "h": 7000},
+        },
+        {
+            "type": "text",
+            "text": "RECREATED BY: Donna Coles",
+            "font_size": "8",
+            "absolute": {"x": 77556, "y": 91667, "w": 21555, "h": 7000},
+        },
+    ],
 }
 
 
@@ -257,15 +458,57 @@ def build() -> dict:
         hide_zeroline=True,
         hide_table_dividers=True,
         hide_col_field_labels=True,
-        axis_style={"title": "", "tick-color": "#00000000", "render-fold-reversed": "true", "encodings": [
-            {"field": "% Sales for Selected Region", "class": "0", "scope": "cols", "range_type": "fixed", "min": -0.07, "max": 1.02, "major_show": False, "minor_show": False},
-            {"field": "MIN(1) Bar", "class": "0", "scope": "cols", "fold": True, "synchronized": True},
-        ], "per_field": [
-            {"field": "% Sales for Selected Region", "attr": "display", "class": "0", "scope": "cols", "value": "false"},
-            {"field": "MIN(1) Bar", "attr": "display", "class": "0", "scope": "cols", "value": "false"},
-        ]},
+        axis_style={
+            "title": "",
+            "tick-color": "#00000000",
+            "render-fold-reversed": "true",
+            "encodings": [
+                {
+                    "field": "% Sales for Selected Region",
+                    "class": "0",
+                    "scope": "cols",
+                    "range_type": "fixed",
+                    "min": -0.07,
+                    "max": 1.02,
+                    "major_show": False,
+                    "minor_show": False,
+                },
+                {
+                    "field": "MIN(1) Bar",
+                    "class": "0",
+                    "scope": "cols",
+                    "fold": True,
+                    "synchronized": True,
+                },
+            ],
+            "per_field": [
+                {
+                    "field": "% Sales for Selected Region",
+                    "attr": "display",
+                    "class": "0",
+                    "scope": "cols",
+                    "value": "false",
+                },
+                {
+                    "field": "MIN(1) Bar",
+                    "attr": "display",
+                    "class": "0",
+                    "scope": "cols",
+                    "value": "false",
+                },
+            ],
+        },
         pane_mark_style={"has_stroke": "true", "stroke_color": "#666666"},
-        panes_style={"1": {"cell_style": {"text_align": "left"}, "mark_style": {"has_stroke": "true", "stroke_color": "#666666"}}, "2": {"cell_style": {"text_align": "right"}, "mark_style": {"has_stroke": "true", "stroke_color": "#666666"}}},
+        panes_style={
+            "1": {
+                "cell_style": {"text_align": "left"},
+                "mark_style": {"has_stroke": "true", "stroke_color": "#666666"},
+            },
+            "2": {
+                "cell_style": {"text_align": "right"},
+                "mark_style": {"has_stroke": "true", "stroke_color": "#666666"},
+            },
+        },
         cell_formats=[{"field": "Sub-Category", "height": 38}],
         header_formats=[{"height_header": 44}],
         label_formats=[

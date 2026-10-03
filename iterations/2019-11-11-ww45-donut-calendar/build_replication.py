@@ -143,8 +143,12 @@ def build() -> Path:
     )
 
     # Palette configurations
-    editor.set_datasource_color_palette("Has Shipped?", {"true": "#59a14f", "false": "#d3d3d3"})
-    editor.set_datasource_color_palette("Fully Shipped?", {"true": "#59a14f", "false": "#ffffff"})
+    editor.set_datasource_color_palette(
+        "Has Shipped?", {"true": "#59a14f", "false": "#d3d3d3"}
+    )
+    editor.set_datasource_color_palette(
+        "Fully Shipped?", {"true": "#59a14f", "false": "#ffffff"}
+    )
 
     # 12. Add Worksheets via cwtwb
     editor.add_worksheet("Base")
@@ -273,20 +277,48 @@ def build() -> Path:
         axis_style={
             "tick-color": "#00000000",
             "per_field": [
-                {"field": "MIN(0)", "class": "0", "scope": "cols", "attr": "display", "value": "false"},
+                {
+                    "field": "MIN(0)",
+                    "class": "0",
+                    "scope": "cols",
+                    "attr": "display",
+                    "value": "false",
+                },
             ],
         },
         header_formats=[
             {"attr": "height-header", "value": "12"},
-            {"attr": "border-width", "data_class": "total", "scope": "cols", "value": "0"},
-            {"attr": "border-style", "data_class": "total", "scope": "cols", "value": "none"},
+            {
+                "attr": "border-width",
+                "data_class": "total",
+                "scope": "cols",
+                "value": "0",
+            },
+            {
+                "attr": "border-style",
+                "data_class": "total",
+                "scope": "cols",
+                "value": "none",
+            },
         ],
         label_formats=[
-            {"field": "Baseline Date", "text-format": "*mmm d, 'yy", "text-orientation": "-90", "color": "#ffffff"},
+            {
+                "field": "Baseline Date",
+                "text-format": "*mmm d, 'yy",
+                "text-orientation": "-90",
+                "color": "#ffffff",
+            },
             {"field": "Region", "color": "#ffffff"},
         ],
         table_dividers=[
-            {"scope": "rows", "div-level": "1", "stroke-color": "#d4d4d4", "line-pattern-only": "dotted", "stroke-size": "0", "line-visibility": "off"},
+            {
+                "scope": "rows",
+                "div-level": "1",
+                "stroke-color": "#d4d4d4",
+                "line-pattern-only": "dotted",
+                "stroke-size": "0",
+                "line-visibility": "off",
+            },
             {"scope": "cols", "stroke-size": "0", "line-visibility": "off"},
         ],
     )
@@ -311,24 +343,67 @@ def build() -> Path:
         axis_style={
             "tick-color": "#00000000",
             "per_field": [
-                {"field": "MIN(0)", "class": "0", "scope": "cols", "attr": "display", "value": "false"},
-                {"field": "MIN(0)", "class": "1", "scope": "cols", "attr": "display", "value": "false"},
+                {
+                    "field": "MIN(0)",
+                    "class": "0",
+                    "scope": "cols",
+                    "attr": "display",
+                    "value": "false",
+                },
+                {
+                    "field": "MIN(0)",
+                    "class": "1",
+                    "scope": "cols",
+                    "attr": "display",
+                    "value": "false",
+                },
             ],
         },
         header_formats=[
             {"attr": "height-header", "value": "12"},
-            {"attr": "border-width", "data_class": "total", "scope": "cols", "value": "0"},
-            {"attr": "border-style", "data_class": "total", "scope": "cols", "value": "none"},
-            {"field": "Order Date", "attr": "total-label", "data_class": "total", "value": "Last 7 days"},
-            {"field": "Order Date", "attr": "font-weight", "data_class": "total", "value": "bold"},
+            {
+                "attr": "border-width",
+                "data_class": "total",
+                "scope": "cols",
+                "value": "0",
+            },
+            {
+                "attr": "border-style",
+                "data_class": "total",
+                "scope": "cols",
+                "value": "none",
+            },
+            {
+                "field": "Order Date",
+                "attr": "total-label",
+                "data_class": "total",
+                "value": "Last 7 days",
+            },
+            {
+                "field": "Order Date",
+                "attr": "font-weight",
+                "data_class": "total",
+                "value": "bold",
+            },
             {"field": "Order Date", "attr": "height", "value": "92"},
         ],
         label_formats=[
-            {"field": "Order Date", "text-format": "*mmm d, 'yy", "text-orientation": "-90", "color": "#333333"},
+            {
+                "field": "Order Date",
+                "text-format": "*mmm d, 'yy",
+                "text-orientation": "-90",
+                "color": "#333333",
+            },
             {"field": "Region", "color": "#333333"},
         ],
         table_dividers=[
-            {"scope": "rows", "div-level": "1", "stroke-color": "#d4d4d4", "line-pattern-only": "dotted", "line-visibility": "on"},
+            {
+                "scope": "rows",
+                "div-level": "1",
+                "stroke-color": "#d4d4d4",
+                "line-pattern-only": "dotted",
+                "line-visibility": "on",
+            },
             {"scope": "cols", "stroke-size": "0", "line-visibility": "off"},
         ],
     )
@@ -352,4 +427,3 @@ def build() -> Path:
 
 if __name__ == "__main__":
     print(build())
-
