@@ -1,9 +1,9 @@
 {
   "case_id": "wow-2020-ww11-smart-ranked-lists",
-  "captured_at": "2026-10-03T05:48:47.513790+00:00",
+  "captured_at": "2026-10-03T07:39:07.906770+00:00",
   "source_hashes": {
     "author": "8b24969162e99b77a4c624483ad6b8a511a723b59ab5669b09f2ea497f53ee4f",
-    "replica": "70308ff09fae0b0b4449b649c274fedb5f55c5e6648eac28718463e88befdebe"
+    "replica": "610aa117c94c1991325bb3d7f98c8f8649ce5d754f56b2838e1db6ed2244059d"
   },
   "acceptance_scope": "cloud_rest_and_artifact_contracts",
   "browser_interaction_executed": false,
@@ -36,29 +36,29 @@
       ]
     },
     "replica": {
-      "id": "bdd5d093-8bcd-4933-abb3-cef353b4e219",
-      "name": "cwtwb-review-wow-2020-ww11-smart-ranked-lists-replica-70308ff09fae",
-      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2928116",
+      "id": "f76497a4-344d-4697-beb5-5e07f023025a",
+      "name": "cwtwb-review-wow-2020-ww11-smart-ranked-lists-replica-610aa117c94c",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2928611",
       "views": [
         {
           "name": "Sales Rank",
-          "id": "e48bf6a5-f2d0-4dc4-b8da-0dc4018eaa2f"
+          "id": "4f91cc76-2c61-489e-aeb2-18511971c3f7"
         },
         {
           "name": "Orders Rank",
-          "id": "91e38be2-d077-4817-8433-da0ef11b46b4"
+          "id": "df5db060-34f6-45f6-b4fa-8d3c89e984e8"
         },
         {
           "name": "Qty Rank",
-          "id": "1ffe33db-642d-4031-93ca-20af5c23618b"
+          "id": "5d186611-bde5-4d69-9c75-de30680d0cf4"
         },
         {
           "name": "Title",
-          "id": "d948bd28-31e4-4a8b-aa6c-d7fb5fb05a4a"
+          "id": "70e5cb9e-84f5-4f24-b10f-a69dd0eedb38"
         },
         {
           "name": "2020_03_11_WW11_Smart_Ranking",
-          "id": "e9ecdb3d-135e-4416-9266-a35fc7c0d683"
+          "id": "abbbf367-4bfb-41a5-aa91-585f976fe869"
         }
       ]
     }
@@ -80,10 +80,10 @@
           ]
         },
         "replica": {
-          "id": "e9ecdb3d-135e-4416-9266-a35fc7c0d683",
+          "id": "abbbf367-4bfb-41a5-aa91-585f976fe869",
           "name": "2020_03_11_WW11_Smart_Ranking",
           "path": "outputs/cloud-replica.png",
-          "sha256": "f18f4a20d76b50b07544ce380279d69b7de87f0f1f8fd7ba1d074570bde9caed",
+          "sha256": "dcd461f074dcff52279060803cfb18aad14cf119bcf4125c33152d36f13ff659",
           "size": [
             1400,
             900
@@ -121,7 +121,7 @@
         {
           "role": "replica",
           "view": "Sales Rank",
-          "view_id": "e48bf6a5-f2d0-4dc4-b8da-0dc4018eaa2f",
+          "view_id": "4f91cc76-2c61-489e-aeb2-18511971c3f7",
           "scope": "Complete selected-window same-weekday date list, metric and color classification.",
           "path": "outputs/cloud-replica-sales-rank.csv",
           "sha256": "17ec461e162138be84db825d03e3d8cfe4b91c6483d7367cd3f9090364583562",
@@ -130,7 +130,7 @@
         {
           "role": "replica",
           "view": "Orders Rank",
-          "view_id": "91e38be2-d077-4817-8433-da0ef11b46b4",
+          "view_id": "df5db060-34f6-45f6-b4fa-8d3c89e984e8",
           "scope": "Complete selected-window same-weekday date list, metric and color classification.",
           "path": "outputs/cloud-replica-orders-rank.csv",
           "sha256": "e6b9bcf00040b70199313d2e9bf5c0490ecd0e915ea75a400f5d06d55984f0ec",
@@ -139,7 +139,7 @@
         {
           "role": "replica",
           "view": "Qty Rank",
-          "view_id": "1ffe33db-642d-4031-93ca-20af5c23618b",
+          "view_id": "5d186611-bde5-4d69-9c75-de30680d0cf4",
           "scope": "Complete selected-window same-weekday date list, metric and color classification.",
           "path": "outputs/cloud-replica-qty-rank.csv",
           "sha256": "03b3508ec4d3d6dc0704f676706daebd9b666024dafed43af8f17ddf261b03da",
@@ -165,10 +165,10 @@
           ]
         },
         "replica": {
-          "id": "e9ecdb3d-135e-4416-9266-a35fc7c0d683",
+          "id": "abbbf367-4bfb-41a5-aa91-585f976fe869",
           "name": "2020_03_11_WW11_Smart_Ranking",
           "path": "outputs/cloud-replica-monday.png",
-          "sha256": "b17e95ceaa5d255e34ae48dc61f722066242c8a48b86eb28adfd8b99bd983545",
+          "sha256": "741cfde4be9a7174a62b71150f15339ad443de9e4af10e14a1cc5b42619f390c",
           "size": [
             1400,
             900
@@ -206,7 +206,7 @@
         {
           "role": "replica",
           "view": "Sales Rank",
-          "view_id": "e48bf6a5-f2d0-4dc4-b8da-0dc4018eaa2f",
+          "view_id": "4f91cc76-2c61-489e-aeb2-18511971c3f7",
           "scope": "Complete selected-window same-weekday date list, metric and color classification.",
           "path": "outputs/cloud-replica-sales-rank-monday.csv",
           "sha256": "3ffd9852e7cc62cda36f2a6a12f9449e02444bc63e4f05c3b570857f2d906b32",
@@ -215,7 +215,7 @@
         {
           "role": "replica",
           "view": "Orders Rank",
-          "view_id": "91e38be2-d077-4817-8433-da0ef11b46b4",
+          "view_id": "df5db060-34f6-45f6-b4fa-8d3c89e984e8",
           "scope": "Complete selected-window same-weekday date list, metric and color classification.",
           "path": "outputs/cloud-replica-orders-rank-monday.csv",
           "sha256": "0aa5cb627f70a0ac25e3a556aa635b6f44ff7332fe17913d874a20f7c361fbd0",
@@ -224,7 +224,7 @@
         {
           "role": "replica",
           "view": "Qty Rank",
-          "view_id": "1ffe33db-642d-4031-93ca-20af5c23618b",
+          "view_id": "5d186611-bde5-4d69-9c75-de30680d0cf4",
           "scope": "Complete selected-window same-weekday date list, metric and color classification.",
           "path": "outputs/cloud-replica-qty-rank-monday.csv",
           "sha256": "bbd9a96c6f77f7ff4aaaef15889a259a4e6e5681afa88dea7de88e8310f828a8",
@@ -250,10 +250,10 @@
           ]
         },
         "replica": {
-          "id": "e9ecdb3d-135e-4416-9266-a35fc7c0d683",
+          "id": "abbbf367-4bfb-41a5-aa91-585f976fe869",
           "name": "2020_03_11_WW11_Smart_Ranking",
           "path": "outputs/cloud-replica-year-end.png",
-          "sha256": "a7c15b87e5d6bf96fc1d6561540b3acc67df8c901780af043d4080b784d17081",
+          "sha256": "7908079c0d81cb7ee1d24db34abca985154ee1a4ba25480182a31fe36445602a",
           "size": [
             1400,
             900
@@ -291,7 +291,7 @@
         {
           "role": "replica",
           "view": "Sales Rank",
-          "view_id": "e48bf6a5-f2d0-4dc4-b8da-0dc4018eaa2f",
+          "view_id": "4f91cc76-2c61-489e-aeb2-18511971c3f7",
           "scope": "Complete selected-window same-weekday date list, metric and color classification.",
           "path": "outputs/cloud-replica-sales-rank-year-end.csv",
           "sha256": "659679953881b3bd70100e0c62ce35e71ea2b86666c7efe02aba80f7cdc985a4",
@@ -300,7 +300,7 @@
         {
           "role": "replica",
           "view": "Orders Rank",
-          "view_id": "91e38be2-d077-4817-8433-da0ef11b46b4",
+          "view_id": "df5db060-34f6-45f6-b4fa-8d3c89e984e8",
           "scope": "Complete selected-window same-weekday date list, metric and color classification.",
           "path": "outputs/cloud-replica-orders-rank-year-end.csv",
           "sha256": "4d3979a13844c8a5eeb3db972c2da42d3d0f857627b2b38a5c47ac34b03ec871",
@@ -309,7 +309,7 @@
         {
           "role": "replica",
           "view": "Qty Rank",
-          "view_id": "1ffe33db-642d-4031-93ca-20af5c23618b",
+          "view_id": "5d186611-bde5-4d69-9c75-de30680d0cf4",
           "scope": "Complete selected-window same-weekday date list, metric and color classification.",
           "path": "outputs/cloud-replica-qty-rank-year-end.csv",
           "sha256": "e721f2d0669e61b19601b3ec5b2c411c8dad7cfe59606197eec25894b606a66e",

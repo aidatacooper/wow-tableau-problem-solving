@@ -117,22 +117,22 @@
     "source_rows": 9994,
     "latest_year": 2019,
     "local_execution_date": "2026-10-03",
-    "mapped_yesterday": "2019-10-01",
+    "mapped_yesterday": "2019-10-02",
     "day_counts": {
-      "Days in Current MTD": 1,
+      "Days in Current MTD": 2,
       "Days in Current Full Month": 31
     },
     "metrics": {
-      "Current MTD Sales": 2978.466,
-      "Previous MTD Sales": 1261.8100000000002,
-      "MoM Sales": 1716.6559999999997,
-      "Run Rate Sales": 92332.446,
-      "Current YTD Sales": 456139.6542,
-      "Current MTD Profit": 1013.0729999999999,
-      "Previous MTD Profit": 340.5586,
-      "MoM Profit": 672.5143999999998,
-      "Run Rate Profit": 31405.262999999995,
-      "Current YTD Profit": 67003.6166
+      "Current MTD Sales": 8396.488,
+      "Previous MTD Sales": 10616.664,
+      "MoM Sales": -2220.1760000000013,
+      "Run Rate Sales": 130145.56399999998,
+      "Current YTD Sales": 461557.6762,
+      "Current MTD Profit": -82.4437000000002,
+      "Previous MTD Profit": 2940.7439000000004,
+      "MoM Profit": -3023.1876000000007,
+      "Run Rate Profit": -1277.8773500000032,
+      "Current YTD Profit": 65908.09989999999
     },
     "monthly": {
       "2018-01": {
@@ -220,8 +220,8 @@
         "Profit": 10991.5556
       },
       "2019-10": {
-        "Sales": 2978.466,
-        "Profit": 1013.0729999999999
+        "Sales": 8396.488,
+        "Profit": -82.4437000000002
       }
     },
     "official_reference_2020_03_24": {
@@ -233,22 +233,22 @@
     "source_rows": 9994,
     "latest_year": 2019,
     "local_execution_date": "2026-10-03",
-    "mapped_yesterday": "2019-10-01",
+    "mapped_yesterday": "2019-10-02",
     "day_counts": {
-      "Days in Current MTD": 1,
+      "Days in Current MTD": 2,
       "Days in Current Full Month": 31
     },
     "metrics": {
-      "Current MTD Sales": 2978.466,
-      "Previous MTD Sales": 1261.8100000000002,
-      "MoM Sales": 1716.6559999999997,
-      "Run Rate Sales": 92332.446,
-      "Current YTD Sales": 456139.6542,
-      "Current MTD Profit": 1013.0729999999999,
-      "Previous MTD Profit": 340.5586,
-      "MoM Profit": 672.5143999999998,
-      "Run Rate Profit": 31405.262999999995,
-      "Current YTD Profit": 67003.6166
+      "Current MTD Sales": 8396.488,
+      "Previous MTD Sales": 10616.664,
+      "MoM Sales": -2220.1760000000013,
+      "Run Rate Sales": 130145.56399999998,
+      "Current YTD Sales": 461557.6762,
+      "Current MTD Profit": -82.4437000000002,
+      "Previous MTD Profit": 2940.7439000000004,
+      "MoM Profit": -3023.1876000000007,
+      "Run Rate Profit": -1277.8773500000032,
+      "Current YTD Profit": 65908.09989999999
     },
     "monthly": {
       "2018-01": {
@@ -336,8 +336,8 @@
         "Profit": 10991.5556
       },
       "2019-10": {
-        "Sales": 2978.466,
-        "Profit": 1013.0729999999999
+        "Sales": 8396.488,
+        "Profit": -82.4437000000002
       }
     },
     "official_reference_2020_03_24": {

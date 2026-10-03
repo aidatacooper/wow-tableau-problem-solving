@@ -60,6 +60,7 @@ def verify():
     assert calcs['Connection Duration'] in ('-[Days Since Previous Order]', '-' + days_column)
     assert gantt.xpath('./encodings/size') and gantt.xpath('./encodings/lod')
     assert gantt.xpath('./style/style-rule/format[@attr="mark-color" and @value="#cac4be"]')
+    assert gantt.xpath('./style/style-rule/format[@attr="size" and @value="0.004"]')
     size_ref = gantt.find('encodings/size').get('column').split('.')[-1]
     size_column = table.xpath('./table/view/datasource-dependencies/column-instance[@name=$name]', name=size_ref)[0].get('column')
     assert root.xpath('/workbook/datasources/datasource/column[@name=$name and @caption="Connection Duration"]', name=size_column)
@@ -74,6 +75,8 @@ def verify():
     colors = root.xpath('/workbook/datasources/datasource/style/style-rule/encoding[@attr="color"]')
     assert colors and all({m.findtext('bucket'):m.get('to') for m in c.findall('map')} == {'0':'#cac4be','1':'#5557eb','%null%':'#cac4be'} for c in colors)
     assert table.xpath('./table/style/style-rule[@element="axis"]/format[@attr="render-fold-reversed" and @value="true"]')
+    assert len(root.xpath('//worksheet[@name="BAN"]/table/panes/pane/customized-label/formatted-text/run[@fontsize="24" and @bold="true"]')) == 2
+    assert root.xpath('//dashboard//zone[@type-v2="empty"]/zone-style/format[@attr="background-color" and @value="#d81159"]')
     assert table.xpath('.//shelf-sort-v2[@direction="DESC"]')
     for c in table.xpath('./table/view/datasource-dependencies/column-instance[table-calc]'):
         assert c.get('derivation')=='User',c.attrib

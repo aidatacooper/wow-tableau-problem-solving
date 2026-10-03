@@ -17,7 +17,7 @@
       "view_kind": "chart",
       "state": "default",
       "file": "outputs/cloud-replica-chart.csv",
-      "sha256": "ee52a424293e68e783c9022ef7e48745b66dd875bcfb9fd7938ceb9d5272bc46",
+      "sha256": "f2136efaf5fb67d7317fcffb5503f0c9c6af45d6416eddf054a0f2b25d43fed2",
       "rows": 9,
       "categories_verified": 3,
       "metric_cells_verified": 15
@@ -48,7 +48,7 @@
       "view_kind": "chart",
       "state": "technology-forecast",
       "file": "outputs/cloud-author-chart-technology-forecast.csv",
-      "sha256": "fe8dab41e15930d7229ee19173a7e248255467062ec4f5f4284d9160e6a38463",
+      "sha256": "bfa4dcfca329a5487ba3c2510f66e09d416a5088b4a5740c54940091ac989d0c",
       "rows": 9,
       "categories_verified": 3,
       "metric_cells_verified": 15
@@ -68,7 +68,7 @@
       "view_kind": "labels",
       "state": "technology-forecast",
       "file": "outputs/cloud-author-labels-technology-forecast.csv",
-      "sha256": "fe8dab41e15930d7229ee19173a7e248255467062ec4f5f4284d9160e6a38463",
+      "sha256": "bfa4dcfca329a5487ba3c2510f66e09d416a5088b4a5740c54940091ac989d0c",
       "rows": 9,
       "categories_verified": 3,
       "metric_cells_verified": 15
@@ -109,7 +109,7 @@
       "view_kind": "labels",
       "state": "negative-forecast",
       "file": "outputs/cloud-author-labels-negative-forecast.csv",
-      "sha256": "ecbed135339d54ef0c8c80e1233bb6f33e3e925969af0bf007bd2a65df59ed27",
+      "sha256": "2d8f523027e9aba2ab0ff4423b58c786d1f3cf53416cfbad0c8b5324d9060d11",
       "rows": 9,
       "categories_verified": 3,
       "metric_cells_verified": 15
@@ -150,7 +150,7 @@
       "view_kind": "labels",
       "state": "custom-target",
       "file": "outputs/cloud-author-labels-custom-target.csv",
-      "sha256": "7d866028a487273211931f1fb3dcfe3be9566b9240e327b900a8647f60b3d564",
+      "sha256": "ed568d1042b1b7638bbdf3a44cebeee9e8e237686c6e2a3abd00b9ef33c66fb5",
       "rows": 9,
       "categories_verified": 3,
       "metric_cells_verified": 15
@@ -181,7 +181,7 @@
       "view_kind": "chart",
       "state": "combined",
       "file": "outputs/cloud-replica-chart-combined.csv",
-      "sha256": "ad866f99ccba155d53dca6a16f29de58ef9f2312826a6636d76825b20b806298",
+      "sha256": "6be7a3be8c800bda87e3bba5d5d73fed54102137a566be87a5140ae2b9d51f62",
       "rows": 9,
       "categories_verified": 3,
       "metric_cells_verified": 15
@@ -191,7 +191,7 @@
       "view_kind": "labels",
       "state": "combined",
       "file": "outputs/cloud-author-labels-combined.csv",
-      "sha256": "3c71fc706e909673bc61e0f13e7c18e2ac98307d303b3872774154906b744e30",
+      "sha256": "cf6e4b41af3c398b605665a57ee72c4ac5904131fd7f3ca08fda443dbd59aca5",
       "rows": 9,
       "categories_verified": 3,
       "metric_cells_verified": 15
@@ -212,7 +212,7 @@
       "view_kind": "chart",
       "state": "reset",
       "file": "outputs/cloud-author-chart-reset.csv",
-      "sha256": "e16e17868a3f6b33db5bff439cd7d75037557e9989ff279be63e005abd450f8c",
+      "sha256": "87b8c735973aa65834276ce566ae320871d6d9c2135ee815382e82ca13cd5b29",
       "rows": 9,
       "categories_verified": 3,
       "metric_cells_verified": 15
@@ -222,7 +222,7 @@
       "view_kind": "chart",
       "state": "reset",
       "file": "outputs/cloud-replica-chart-reset.csv",
-      "sha256": "ee52a424293e68e783c9022ef7e48745b66dd875bcfb9fd7938ceb9d5272bc46",
+      "sha256": "f2136efaf5fb67d7317fcffb5503f0c9c6af45d6416eddf054a0f2b25d43fed2",
       "rows": 9,
       "categories_verified": 3,
       "metric_cells_verified": 15

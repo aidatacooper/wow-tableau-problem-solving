@@ -1,0 +1,11 @@
+{
+  "case_commit": "a56b2c3273c0f1fb32612be4dc71012b9c07f493",
+  "sdk_commit": "7096bf154c4505839ae0cafd1430992c6afc6aec",
+  "accepted_artifact_sha256": "15e672963899f40e60a3e6f1e82672c837c4aa9f8e73c77d96d07eb9d95f1542",
+  "states": [
+    "default"
+  ],
+  "cloud_evidence": "https://github.com/aidatacooper/wow-tableau-problem-solving/blob/a56b2c3273c0f1fb32612be4dc71012b9c07f493/iterations/2020-03-28-ww13-simple-sales-dashboard/evidence/cloud-verification.json",
+  "visual_review": "https://github.com/aidatacooper/wow-tableau-problem-solving/blob/a56b2c3273c0f1fb32612be4dc71012b9c07f493/iterations/2020-03-28-ww13-simple-sales-dashboard/evidence/visual-review.md",
+  "note": "Immutable pre-polish acceptance in Git history. Current workbook and captures have new identities."
+}

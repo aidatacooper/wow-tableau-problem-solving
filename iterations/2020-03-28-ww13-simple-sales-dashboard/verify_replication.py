@@ -115,6 +115,13 @@ def verify():
  assert '"Current"' in buckets and '"Previous"' in buckets
  for sheet in ['Sales','Profit']:assert r.find(f'.//worksheet[@name="{sheet}"]//breakdown').get('value')=='off'
  assert len(data['metrics'])==10 and len(data['monthly'])>=12
+ zones=r.findall('.//dashboard/zones//zone')
+ assert any((n.get('type') or n.get('type-v2'))=='empty' and n.find('zone-style/format[@attr="background-color"]') is not None and n.find('zone-style/format[@attr="background-color"]').get('value')=='#f5f5f5' for n in zones)
+ for name in ['Sales','Profit']:
+  zone=next(n for n in zones if n.get('name')==name)
+  assert zone.find('zone-style/format[@attr="background-color"]').get('value')=='#ffffff'
+ assert r.find('.//worksheet[@name="KPI"]/table/style/style-rule[@element="table"]/format[@attr="background-color"]').get('value')=='#ffffff'
+ assert any(n.get('h')=='1333' and (n.get('type') or n.get('type-v2'))=='empty' for n in zones)
  report=cloud_binding();data,checks=verify_cloud(data,report)
  result={'case':'ww13','passed':['ww13-independent-data','ww13-artifact-contracts']+(['ww13-cloud-states'] if checks else []),'cloud_status':'passed' if checks else 'pending','oracle':data,'cloud_checks':checks,'browser_interaction_executed':False}
  (HERE/'outputs/data-oracle.json').write_text(json.dumps(data,indent=2),encoding='utf-8');(HERE/'evidence/functional-verification.json').write_text(json.dumps(result,indent=2),encoding='utf-8');print(json.dumps({'passed':result['passed'],'cloud':result['cloud_status']}));return result

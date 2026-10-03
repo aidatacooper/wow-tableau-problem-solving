@@ -1,9 +1,9 @@
 {
   "case_id": "wow-2020-ww08-concatenated-list",
-  "captured_at": "2026-10-03T05:45:16.992971+00:00",
+  "captured_at": "2026-10-03T07:30:40.391128+00:00",
   "source_hashes": {
     "author": "9a68d51a67683012b8c1843ffa53de562641341b8a2e3fb0d808c39cf951b86c",
-    "replica": "f4e4acd8b4c0fcd9d0812c2a20aa5b460605e73457a02125a5942698a5ac8ba9"
+    "replica": "93e77de9d6e326a27d6ec631fb10772097958968bf387edb8b965054744656b3"
   },
   "acceptance_scope": "cloud_rest_and_artifact_contracts",
   "browser_interaction_executed": false,
@@ -28,17 +28,17 @@
       ]
     },
     "replica": {
-      "id": "038eb2da-5db4-4aa2-9af1-7f9a5e60c96f",
-      "name": "cwtwb-review-wow-2020-ww08-concatenated-list-replica-f4e4acd8b4c0",
-      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2928112",
+      "id": "8578f544-50a8-4f0e-9f04-153788e6c6df",
+      "name": "cwtwb-review-wow-2020-ww08-concatenated-list-replica-93e77de9d6e3",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2928555",
       "views": [
         {
           "name": "Report",
-          "id": "4d4ed8ee-2205-4a1f-92e5-358ae6f9c1b3"
+          "id": "a42ea7f4-2ce7-4856-8853-fe43cffa2bd6"
         },
         {
           "name": "2020_02_19_WW08_Concat_List_of_Values",
-          "id": "85a9236d-97e6-46ba-b8a4-aa713380cb74"
+          "id": "ae8bbe72-7c22-4209-9677-211b1e14ce32"
         }
       ]
     }
@@ -60,10 +60,10 @@
           ]
         },
         "replica": {
-          "id": "85a9236d-97e6-46ba-b8a4-aa713380cb74",
+          "id": "ae8bbe72-7c22-4209-9677-211b1e14ce32",
           "name": "2020_02_19_WW08_Concat_List_of_Values",
           "path": "outputs/cloud-replica.png",
-          "sha256": "93272c525afc690310574c40ff1e902fb6811150b04ce59539fc6fc96d8090e3",
+          "sha256": "e1fcd5d46a434c8adfdef7c345c9a7f26b2bebb326e8d698df88efd511433ea0",
           "size": [
             2200,
             2000
@@ -83,11 +83,11 @@
         {
           "role": "replica",
           "view": "Report",
-          "view_id": "4d4ed8ee-2205-4a1f-92e5-358ae6f9c1b3",
+          "view_id": "a42ea7f4-2ce7-4856-8853-fe43cffa2bd6",
           "scope": "Complete patient profiles and entire concatenated health-check lists after active controls; not dashboard summary-only CSV.",
           "path": "outputs/cloud-replica-report.csv",
-          "sha256": "7b56ae0e5da96eebb2615e3ef4be44d377d7471d7a9f43fb110e5c0b07686846",
-          "bytes": 141124
+          "sha256": "9b74b2697af377ddf39f21f8286299decd6cdcb0028c9ce3c40ff92a5dc2a9e4",
+          "bytes": 142473
         }
       ]
     },
@@ -109,10 +109,10 @@
           ]
         },
         "replica": {
-          "id": "85a9236d-97e6-46ba-b8a4-aa713380cb74",
+          "id": "ae8bbe72-7c22-4209-9677-211b1e14ce32",
           "name": "2020_02_19_WW08_Concat_List_of_Values",
           "path": "outputs/cloud-replica-all.png",
-          "sha256": "19711e352956fa37cef0827dd4cc71cd9a3c8f04066357c5c2259a212c70bb63",
+          "sha256": "bd9e9a254dca8152606b57b4ca3cc5600f43c1f68e1151236e015cf24c8ee0d4",
           "size": [
             2200,
             2000
@@ -132,11 +132,11 @@
         {
           "role": "replica",
           "view": "Report",
-          "view_id": "4d4ed8ee-2205-4a1f-92e5-358ae6f9c1b3",
+          "view_id": "a42ea7f4-2ce7-4856-8853-fe43cffa2bd6",
           "scope": "Complete patient profiles and entire concatenated health-check lists after active controls; not dashboard summary-only CSV.",
           "path": "outputs/cloud-replica-report-all.csv",
-          "sha256": "e9f5436c918433365358f5e0b02a466b80ace233093b58530af9f2909c65b93d",
-          "bytes": 9790955
+          "sha256": "595266bd0e19f88f691fa5b58f239fdd0a6b004b25c7303eecb8455bcaf0a531",
+          "bytes": 9909504
         }
       ]
     },
@@ -158,10 +158,10 @@
           ]
         },
         "replica": {
-          "id": "85a9236d-97e6-46ba-b8a4-aa713380cb74",
+          "id": "ae8bbe72-7c22-4209-9677-211b1e14ce32",
           "name": "2020_02_19_WW08_Concat_List_of_Values",
           "path": "outputs/cloud-replica-flu.png",
-          "sha256": "f5896d296879f31f048de37d16915f59b356f6ee424e8cf0ff710b7575f6ddca",
+          "sha256": "52851d8ce4f2ea63f36cc68e10ce0fa4b9643512a993abcc7acc8e6db0874de4",
           "size": [
             2200,
             2000
@@ -181,11 +181,11 @@
         {
           "role": "replica",
           "view": "Report",
-          "view_id": "4d4ed8ee-2205-4a1f-92e5-358ae6f9c1b3",
+          "view_id": "a42ea7f4-2ce7-4856-8853-fe43cffa2bd6",
           "scope": "Complete patient profiles and entire concatenated health-check lists after active controls; not dashboard summary-only CSV.",
           "path": "outputs/cloud-replica-report-flu.csv",
-          "sha256": "195c1556093b7f4d60298517d2f1ff8a42546ed931ed94aa9a1516fa6e5f1c78",
-          "bytes": 9358200
+          "sha256": "90dd5ee09bae8eefbb2c625acdaaad97b919768e9228cf01171a8c9a957422eb",
+          "bytes": 9471571
         }
       ]
     },
@@ -210,10 +210,10 @@
           ]
         },
         "replica": {
-          "id": "85a9236d-97e6-46ba-b8a4-aa713380cb74",
+          "id": "ae8bbe72-7c22-4209-9677-211b1e14ce32",
           "name": "2020_02_19_WW08_Concat_List_of_Values",
           "path": "outputs/cloud-replica-physician-age.png",
-          "sha256": "09d4bc4ec7c0cd1958c7c8ec566ef1a7a7add5cad219c772aa534e110cb8eaf5",
+          "sha256": "d1e1cafd08c5e6881c81113eea006852a6c4372da0eecf383e536e542039ca96",
           "size": [
             2200,
             2000
@@ -233,11 +233,11 @@
         {
           "role": "replica",
           "view": "Report",
-          "view_id": "4d4ed8ee-2205-4a1f-92e5-358ae6f9c1b3",
+          "view_id": "a42ea7f4-2ce7-4856-8853-fe43cffa2bd6",
           "scope": "Complete patient profiles and entire concatenated health-check lists after active controls; not dashboard summary-only CSV.",
           "path": "outputs/cloud-replica-report-physician-age.csv",
-          "sha256": "b554d0bacf789865135cfd47fc17853cae22a8993fb14f3d49c47316289e8949",
-          "bytes": 4786
+          "sha256": "3bd9133be06de0e228916f941b7cec15152f07f9475cdddcfdf8db34b9e8eb8c",
+          "bytes": 4843
         }
       ]
     }

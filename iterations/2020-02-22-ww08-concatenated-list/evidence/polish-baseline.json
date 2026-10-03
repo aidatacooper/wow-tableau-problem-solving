@@ -1,0 +1,14 @@
+{
+  "case_commit": "a56b2c3273c0f1fb32612be4dc71012b9c07f493",
+  "sdk_commit": "7096bf154c4505839ae0cafd1430992c6afc6aec",
+  "accepted_artifact_sha256": "f4e4acd8b4c0fcd9d0812c2a20aa5b460605e73457a02125a5942698a5ac8ba9",
+  "states": [
+    "default",
+    "all",
+    "flu",
+    "physician-age"
+  ],
+  "cloud_evidence": "https://github.com/aidatacooper/wow-tableau-problem-solving/blob/a56b2c3273c0f1fb32612be4dc71012b9c07f493/iterations/2020-02-22-ww08-concatenated-list/evidence/cloud-verification.json",
+  "visual_review": "https://github.com/aidatacooper/wow-tableau-problem-solving/blob/a56b2c3273c0f1fb32612be4dc71012b9c07f493/iterations/2020-02-22-ww08-concatenated-list/evidence/visual-review.md",
+  "note": "Immutable pre-polish acceptance in Git history. Current workbook and captures have new identities."
+}

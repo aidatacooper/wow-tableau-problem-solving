@@ -2061,8 +2061,10 @@
         "evidence/cloud-verification.json",
         "evidence/export-provenance.json",
         "evidence/functional-verification.json",
+        "evidence/polish-baseline.json",
         "evidence/sdk-baseline.json",
         "evidence/sdk-final-validation.json",
+        "evidence/sdk-polish-validation.json",
         "evidence/visual-review.md",
         "inputs/source-lock.json"
       ],
@@ -2119,8 +2121,10 @@
         "evidence/cloud-verification.json",
         "evidence/export-provenance.json",
         "evidence/functional-verification.json",
+        "evidence/polish-baseline.json",
         "evidence/sdk-baseline.json",
         "evidence/sdk-final-validation.json",
+        "evidence/sdk-polish-validation.json",
         "evidence/visual-review.md",
         "inputs/source-lock.json"
       ],
@@ -2175,10 +2179,11 @@
       "evidence": [
         "evidence/cloud-data-comparison.json",
         "evidence/cloud-verification.json",
-        "evidence/export-provenance.json",
         "evidence/functional-verification.json",
+        "evidence/polish-baseline.json",
         "evidence/sdk-baseline.json",
         "evidence/sdk-final-validation.json",
+        "evidence/sdk-polish-validation.json",
         "evidence/visual-review.md",
         "inputs/source-lock.json"
       ],
@@ -2236,7 +2241,9 @@
         "evidence/cloud-verification.json",
         "evidence/export-provenance.json",
         "evidence/functional-verification.json",
+        "evidence/polish-baseline.json",
         "evidence/sdk-final-validation.json",
+        "evidence/sdk-polish-validation.json",
         "evidence/visual-review.md",
         "inputs/source-lock.json"
       ],
@@ -2295,7 +2302,9 @@
         "evidence/cloud-verification.json",
         "evidence/export-provenance.json",
         "evidence/functional-verification.json",
+        "evidence/polish-baseline.json",
         "evidence/sdk-final-validation.json",
+        "evidence/sdk-polish-validation.json",
         "evidence/visual-review.md",
         "inputs/source-lock.json"
       ],
@@ -2352,8 +2361,10 @@
         "evidence/cloud-verification.json",
         "evidence/export-provenance.json",
         "evidence/functional-verification.json",
+        "evidence/polish-baseline.json",
         "evidence/sdk-baseline.json",
         "evidence/sdk-final-validation.json",
+        "evidence/sdk-polish-validation.json",
         "evidence/visual-review.md",
         "inputs/source-lock.json"
       ],
@@ -2410,7 +2421,9 @@
         "evidence/cloud-verification.json",
         "evidence/export-provenance.json",
         "evidence/functional-verification.json",
+        "evidence/polish-baseline.json",
         "evidence/sdk-final-validation.json",
+        "evidence/sdk-polish-validation.json",
         "evidence/visual-review.md",
         "inputs/source-lock.json"
       ],
@@ -2467,7 +2480,9 @@
         "evidence/cloud-verification.json",
         "evidence/export-provenance.json",
         "evidence/functional-verification.json",
+        "evidence/polish-baseline.json",
         "evidence/sdk-final-validation.json",
+        "evidence/sdk-polish-validation.json",
         "evidence/visual-review.md",
         "inputs/source-lock.json"
       ],
@@ -2524,7 +2539,9 @@
         "evidence/cloud-verification.json",
         "evidence/export-provenance.json",
         "evidence/functional-verification.json",
+        "evidence/polish-baseline.json",
         "evidence/sdk-final-validation.json",
+        "evidence/sdk-polish-validation.json",
         "evidence/visual-review.md",
         "inputs/source-lock.json"
       ],
@@ -2581,7 +2598,9 @@
         "evidence/cloud-verification.json",
         "evidence/export-provenance.json",
         "evidence/functional-verification.json",
+        "evidence/polish-baseline.json",
         "evidence/sdk-final-validation.json",
+        "evidence/sdk-polish-validation.json",
         "evidence/visual-review.md",
         "inputs/source-lock.json"
       ],

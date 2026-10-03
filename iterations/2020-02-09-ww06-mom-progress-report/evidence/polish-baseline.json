@@ -1,0 +1,13 @@
+{
+  "case_commit": "a56b2c3273c0f1fb32612be4dc71012b9c07f493",
+  "sdk_commit": "7096bf154c4505839ae0cafd1430992c6afc6aec",
+  "accepted_artifact_sha256": "5d059f8fb4cae12d170b830f1af96a16fe1ac975b7f9f6c9b125365376d29d67",
+  "states": [
+    "default",
+    "december",
+    "january"
+  ],
+  "cloud_evidence": "https://github.com/aidatacooper/wow-tableau-problem-solving/blob/a56b2c3273c0f1fb32612be4dc71012b9c07f493/iterations/2020-02-09-ww06-mom-progress-report/evidence/cloud-verification.json",
+  "visual_review": "https://github.com/aidatacooper/wow-tableau-problem-solving/blob/a56b2c3273c0f1fb32612be4dc71012b9c07f493/iterations/2020-02-09-ww06-mom-progress-report/evidence/visual-review.md",
+  "note": "Immutable pre-polish acceptance in Git history. Current workbook and captures have new identities."
+}

@@ -196,7 +196,7 @@
     "reset": ""
   },
   "status": "pass",
-  "artifact_sha256": "4ab5812bb26e984c560c2a5108706bc5145b1347514f36db6fbccb6b031aeed7",
+  "artifact_sha256": "16f90f16fec16ee21918f90a33244353b4d6a97fe4acd35111961ed49ec145ea",
   "browser_interaction_executed": false,
   "action_scope": "Serialized select sources, parameter targets, reset empty fields and self-filter clearing; no browser event execution."
 }

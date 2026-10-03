@@ -117,7 +117,11 @@ def verify():
  text=etree.tostring(action).decode();assert 'on-select' in text and 'Selector' in text and 'Selected Sub-Category' in text and 'do-nothing' in text and 'assign' in text
  title=etree.tostring(r.find('.//worksheet[@name="Chart"]/layout-options/title')).decode()
  assert '[Parameters].[Parameter 1]' in title and 'Profit by Orders' in title
- assert 'DESIGNED BY LORNA BROWN' in etree.tostring(r).decode()
+ assert 'DESIGNED BY: LORNA BROWN' in etree.tostring(r).decode()
+ hidden=r.find('.//dashboard/zones//zone[@hidden-by-user="true"]')
+ assert hidden.find('zone-style/format[@attr="border-style"]').get('value')=='dashed'
+ assert hidden.find('zone-style/format[@attr="border-width"]').get('value')=='1'
+ assert all(n.get('hidden-by-user')=='true' for n in hidden.findall('zone'))
  toggle=r.find('.//toggle-action');assert toggle is not None and 'zone-ids=' in toggle.text
  assert r.find('.//zone[@hidden-by-user="true"]') is not None
  for zone in r.findall('.//dashboard/zones//zone'):

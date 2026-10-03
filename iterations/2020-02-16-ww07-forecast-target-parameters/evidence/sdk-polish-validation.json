@@ -1,0 +1,13 @@
+{
+  "sdk_commit": "47718436ae9bc7384d4d275a918c8ba126ae9c58",
+  "sdk_version": "0.27.1",
+  "sdk_tests": {
+    "passed": 575,
+    "skipped": 25
+  },
+  "case_shared_tests": 55,
+  "sdk_ci": "https://github.com/aidatacooper/cwtwb/actions/runs/37107793244",
+  "environment": "Python 3.11; pinned Git SDK installation; public API build.",
+  "source": "SDK output/pytest-polish-final.log; synthetic table-band and legend regressions.",
+  "previous_validation": "evidence/sdk-final-validation.json"
+}

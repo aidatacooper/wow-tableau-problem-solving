@@ -33,10 +33,11 @@ historical_artifacts: []
 evidence:
 - evidence/cloud-data-comparison.json
 - evidence/cloud-verification.json
-- evidence/export-provenance.json
 - evidence/functional-verification.json
+- evidence/polish-baseline.json
 - evidence/sdk-baseline.json
 - evidence/sdk-final-validation.json
+- evidence/sdk-polish-validation.json
 - evidence/visual-review.md
 - inputs/source-lock.json
 notes:
@@ -44,7 +45,7 @@ notes:
 - Cloud REST states and serialized action contracts; no browser events executed.
 cwtwb:
   tested_version: 0.27.1
-  tested_commit: 7096bf154c4505839ae0cafd1430992c6afc6aec
+  tested_commit: 47718436ae9bc7384d4d275a918c8ba126ae9c58
   runs:
   - version: 0.27.1
     commit: 12aae31b38e3790b57b28b4240a44255a0bb01ee
@@ -54,6 +55,10 @@ cwtwb:
     commit: 7096bf154c4505839ae0cafd1430992c6afc6aec
     result: pass
     evidence: evidence/sdk-final-validation.json
+  - version: 0.27.1
+    commit: 47718436ae9bc7384d4d275a918c8ba126ae9c58
+    result: pass
+    evidence: evidence/sdk-polish-validation.json
 analysis_status: completed
 functional_status: replicated
 visual_status: acceptable_delta

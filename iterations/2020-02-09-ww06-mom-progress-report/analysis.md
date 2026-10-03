@@ -21,4 +21,10 @@ hover. Official green #01665e is used; the author's slight #01625a difference
 is a documented source variance. Labels and table cells use Tableau Regular.
 
 Baseline SDK 0.27.1 / 12aae31 builds the contract without enhancement.
-Cloud REST images and complete worksheet CSV review remain pending.
+Cloud REST images and complete worksheet CSV review passed for all three date states; the final accepted scope and remaining visual differences are recorded in `evidence/visual-review.md`.
+
+## Layout polish
+
+Layout polish aligns each metric header with its own pane, increases health mark thickness, removes banding and uses white three-pixel column dividers, emphasizes row/overall labels and places the month control above restored attribution/link footer. Health cell axes use1.03 only for a narrow inter-column visual gutter; the overall axis remains0..1. Business calculations and17-row scope are unchanged.
+
+The previously accepted workbook and complete evidence snapshot are retained in ignored scratch/polish-baseline-ww06. The polished artifact has been recaptured and accepted with documented visual differences; `evidence/visual-review.md` binds the final workbook hash and full evidence scope.

@@ -2,7 +2,7 @@
 
 Decision: `replicated / acceptable_delta` within Cloud REST data/image and artifact-contract scope. This is not a pixel-identical reproduction.
 
-Reviewed artifact SHA-256: `2c6da4e24546c96f1aec4e2b8ab2cdef56041418b72b903489a7af356edf5821`.
+Reviewed artifact SHA-256: `4e2857f25668aa8eece172b51ca39447d88e2616c3580be72c68d47d686a1560`.
 
 [Author advanced dashboard](../outputs/cloud-author.png) | [Replica advanced dashboard](../outputs/cloud-replica.png)
 
@@ -12,6 +12,8 @@ The independent verifier aggregates all9,994 extracted facts by month-of-year an
 
 The author's advanced worksheet CSV is0bytes and explicitly excluded from data proof. Its complete Basic Data/Data Labels worksheets supply author rank and label evidence, while the advanced dashboard PNG supplies visual path/block evidence. Empty CSV does not establish the author advanced axis coordinates. No selector or button CSV is used.
 
-Remaining visual differences are slightly wider chart/blocks and smaller outer margins, a few pixel offsets in row centers, an unbolded title prefix, and lighter attribution/link typography with simplified SDK attribution. Rank position, paths, colors and labels agree. The worksheet uses only Line and GanttBar marks with synchronized reversed axes; no Square or Shape workaround is present. Tooltips and sort controls are disabled in the artifact contract. No browser clicks or hovers were executed.
+Compared with the previously accepted baseline, the title now has a emphasized WEEK5 prefix, footer attribution is split into left/center/right columns, and the smaller blue challenge URL sits entirely inside the image. The months and all eight endpoint labels remain readable, complete lines render above the blocks, and no element is obscured. The paired current images and the archived baseline were inspected.
+
+Remaining visual differences are narrower outer chart margins than the author, slightly different block width/row-center positions, a higher title position and lighter footer/link typography. Attribution names the SDK reconstruction instead of the original author. Rank position, every crossing/plateau, colors and labels agree. The worksheet uses only Line and GanttBar marks with synchronized reversed axes; no Square or Shape workaround is present. Tooltips and sort controls are disabled in the artifact contract. No browser clicks or hovers were executed.
 
 Earlier incorrect partitioning, narrow-block and occluded-line captures are retained only in ignored scratch. The accepted artifact is frozen; final verification must not rebuild it without recapturing Cloud evidence.

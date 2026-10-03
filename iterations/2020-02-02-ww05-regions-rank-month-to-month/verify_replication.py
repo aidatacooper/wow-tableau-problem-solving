@@ -90,6 +90,9 @@ def verify():
             assert sha256((HERE/filename).read_bytes()).hexdigest() == digest
             assert sha256(z.read(next(n for n in z.namelist() if Path(n).name==Path(filename).name))).hexdigest() == digest
     assert root.xpath('worksheets/worksheet/@name') == ['Viz - Advanced']
+    assert root.xpath('dashboards/dashboard/zones//run[@bold="true" and contains(text(),"WEEK 5")]')
+    chart_zone=root.xpath('dashboards/dashboard/zones//zone[@name="Viz - Advanced"]')[0]
+    assert 2000<=int(chart_zone.get('x'))<=2300 and int(chart_zone.get('w'))<96000
     size=root.find('dashboards/dashboard/size'); assert size.get('maxwidth')=='700' and size.get('maxheight')=='350'
     sheet=root.find('worksheets/worksheet/table')
     assert sheet.xpath('panes/pane/mark/@class') == ['Line','GanttBar']

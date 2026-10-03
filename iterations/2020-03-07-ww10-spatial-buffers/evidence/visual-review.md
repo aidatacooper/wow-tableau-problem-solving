@@ -1,37 +1,11 @@
-# Cloud REST review
+# WW10 layout refinement review
 
-Result: acceptable_delta. Reviewed replica SHA-256:
-`4386b948fdd5b60aaec1563c9ae0e40639c8b1e5f62af2e2fc12bdcf33616657`.
-The author export copy changes only worksheet window visibility; original and
-comparison-copy hashes are recorded in export-provenance.json.
+Status: `replicated / acceptable_delta`. Accepted workbook SHA256: `984e3e22723def9565d66f5fed732212f11ac2063f30f9fd4a15762a28de3131`.
 
-All five paired states were inspected: default Hoxton/500m, intermediate map,
-250m radius, Marriott selected with Yelp-rating sorting, and ratings-count
-sorting. The intermediate map shows the same eight hotel buffers and pub-count
-labels (5, 2, 2, 2, 2, 2, 1, 1). The selected-hotel map places the same 32 pubs,
-uses darker red for nearer pubs and larger circles for more distant pubs, and
-shows the selected hotel's gray buffer. The 250m images reduce the buffer, and
-the Marriott images move it to Park Lane and recalculate all pub distances.
-Changing only the sort parameter leaves the closed map unchanged, as expected.
+All five paired Cloud REST states were inspected: default Hoxton/500m, intermediate buffers, Hoxton/250m, Marriott/Yelp-rating and ratings-count. The native size legend now displays its entire numerical domain: 291, 2,000, 4,000, 6,000 and 8,095m for Hoxton; 364, 2,000, 4,000 and 6,010m for Marriott. The color endpoints agree. Increasing the nested legend height alone did not fix clipping; a general SDK correction emits independently floating flow containers beside the tiled root. The accepted capture uses that corrected layout, not an earlier clipped candidate. Compact separate captions include metres, and the selected Marriott hotel name remains readable beside the narrower 160px legend strip. Footer credits use aligned independent zones.
 
-Thirty full worksheet CSV exports were independently checked against the two
-packaged Hyper extracts: all 17 joined hotel/pub pairs, all 32 distinct pub
-name/neighborhood keys and distances, and all 10 hotels' ratings, review counts
-and price bands across all states and both roles. Distance comparison uses an
-independent WGS84 local-curvature calculation with a 1m tolerance for rounded
-labels. A whitespace-only author price band is normalized to empty. These are
-complete pub-list, map and hotel-list exports, not a button CSV or evidence of
-the rendered polygon's geometric radius.
+The smaller 250m buffer and the Marriott location are visible in the appropriate images. The intermediate map preserves all eight nonzero hotel counts (5/2/2/2/2/2/1/1). Independent verification covers all 17 joined hotel/pub pairs, 32 distinct pub coordinates/distances and ten hotels across all five states, using 30 complete worksheet CSV exports and the locked Hyper inputs. Rounded distances use an independent WGS84 calculation with a one metre tolerance. These exports establish worksheet data coverage; dashboard/button CSV is not used to prove map data.
 
-Remaining differences: the intermediate basemap retains more transit/place
-icons; map extents and text placement differ slightly; the replica has a wider
-color legend and omits the author's separate size legend. In the Marriott state,
-the wider color legend covers the beginning of the hotel label. Footer credit,
-legend spacing and radius-control presentation also differ. Both views remain
-readable, and the full hotel identity and distances are checked in CSV. Pixel
-matching is not claimed.
+Remaining visual differences: the map fills a slightly wider viewport than the author's inset map, so basemap labels and margins differ. Pub transparency is lighter; typography and attribution differ. The two legends are stacked in the opposite order, with extra blank legend space, and the radius input is adjacent rather than beneath them. Native legend circles are cropped inside their individual rows in both author and replica, while every numerical tick is visible. These differences do not obscure the scale domain or the selected hotel label; pixel matching is not claimed.
 
-The embedded tooltip sheet, Hotel Name filter, selected-hotel and sort parameter
-actions, their sources and clearing behavior, and native hidden-container toggle
-are verified in the workbook artifact. REST establishes parameter states;
-browser clicks, tooltip hovers and opening the hidden selector were not executed.
+Parameter selection/radius/sort values were supplied through REST. Action events, sources, targets, clearing behavior, embedded tooltip filtering and the native hotel-panel toggle are checked in the serialized workbook. No browser click, hover, toggle event or tooltip appearance was executed or claimed.

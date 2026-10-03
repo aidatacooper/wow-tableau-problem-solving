@@ -1,10 +1,10 @@
 Category,Measure Names,Forecast v Target Diff,Forecast,LABEL: FC Close Bracket,LABEL: FC Open Bracket,Sales v Target Diff,Target,Measure Values,Sales
+Furniture,,,,,, ▼20%,"$270,000",,"$215,387"
+Office Supplies,,,,,, ▼5%,"$260,000",,"$246,097"
+Technology,,▲37%,"$341,731",),(,▲9%,"$250,000",,"$271,731"
 Furniture,Forecast,,,,, ▼20%,"$270,000",,"$215,387"
 Furniture,Sales,,,,, ▼20%,"$270,000","215,387.2692","$215,387"
 Office Supplies,Forecast,,,,, ▼5%,"$260,000",,"$246,097"
 Office Supplies,Sales,,,,, ▼5%,"$260,000","246,097.175","$246,097"
 Technology,Forecast,▲37%,"$341,731",),(,▲9%,"$250,000","341,730.811","$271,731"
 Technology,Sales,▲37%,"$341,731",),(,▲9%,"$250,000","271,730.811","$271,731"
-Furniture,,,,,, ▼20%,"$270,000",,"$215,387"
-Office Supplies,,,,,, ▼5%,"$260,000",,"$246,097"
-Technology,,▲37%,"$341,731",),(,▲9%,"$250,000",,"$271,731"

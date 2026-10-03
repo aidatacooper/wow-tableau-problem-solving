@@ -27,8 +27,8 @@ def dashboard(e, name, sheet, title, extra=None):
         zone('worksheet',12,80 if sheet=='Map_Jedi' else 44,676,544 if sheet=='Map_Jedi' else 580,name=sheet,show_title=False,fit='entire'),
         zone('text',12,6,676,38,text=title,font_size='14',font_color='#333333'),
         *(extra or []),
-        zone('text',12,640,676,20,text='DESIGNED BY: SEAN MILLER          #WOW2020 | WEEK 10          RECREATED WITH CWTWB',font_size='8',font_color='#ec7d18',bold=True),
-        zone('text',12,674,676,20,text='DATA: YELP                    workout-wednesday.com/2020w09/',font_size='8',font_color='#ec7d18',bold=True),
+        *[zone('text',x,640,w,20,text=text,font_size='8',font_color='#f15a60',bold=True) for x,w,text in [(12,210,'DESIGNED BY: SEAN MILLER'),(230,230,'#WOW2020 | WEEK 10'),(468,220,'RECREATED WITH CWTWB')]],
+        zone('text',12,674,676,20,text='DATA: YELP                    workout-wednesday.com/2020w09/',font_size='8',font_color='#f15a60',bold=True),
     ]})
 
 
@@ -80,8 +80,8 @@ def build():
         {'geometry':'Hotel Buffer','detail':'Hotel Label','label':'Hotel Label','mark_type':'Multipolygon','mark_color':'#b4b4b4'},
     ])
     style(e,'Map_Jedi',True)
-    e.configure_worksheet_style('Map_Jedi',panes_style={'1':{'mark_style':{'mark-transparency':'162'}}})
-    e.configure_worksheet_style('Map_Jedi',color_style={'field':'SUM(Distance Selected Hotel-Pub)','palette':'red_10_0','reverse':True},size_style={'field':'SUM(Distance Selected Hotel-Pub)','type':'rangesize','max_size':'1','min_size':'0.08','reverse':False})
+    e.configure_worksheet_style('Map_Jedi',legend_style={'font-size':'8'},panes_style={'1':{'mark_style':{'mark-transparency':'162'}},'2':{'datalabel_style':{'font-size':'8'}}})
+    e.configure_worksheet_style('Map_Jedi',color_style={'field':'SUM(Distance Selected Hotel-Pub)','palette':'red_10_0','reverse':True})
     e.add_worksheet('Hotel Chart')
     e.configure_chart('Hotel Chart',mark_type='Bar',rows=['Name','Yelp Rating Header','Price Rating'],columns=['SUM(Yelp # of Ratings)'],color='Is Selected Hotel?',color_map={'true':'#499894','false':'#b4b4b4'},label='SUM(Yelp # of Ratings)',sort_descending='Chart Sort',sort_field='Name',filters=[{'column':'Location Type','values':['Hotel']}],tooltip=['Yelp Rating','Price Rating','Yelp # of Ratings'])
     style(e,'Hotel Chart')
@@ -97,8 +97,13 @@ def build():
     style(e,'Sort Selector')
     dashboard(e,JEDI,'Map_Jedi','Can you find the pubs closest to a chosen hotel?',[
         zone('container',12,104,465,405,direction='vertical',style={'background-color':'#ffffff'},children=[{'type':'worksheet','name':'Sort Selector','fixed_size':100,'show_title':False,'fit':'entire'},{'type':'worksheet','name':'Hotel Chart','show_title':False,'fit':'entire'}]),
-        zone('color',16,380,220,58,worksheet='Map_Jedi',field='SUM(Distance Selected Hotel-Pub)',style={'background-color':'#f4f4f4'}),
-        zone('paramctrl',16,570,190,45,parameter='Buffer Radius',mode='1'),
+        zone('container',12,373,160,251,direction='vertical',children=[
+            {'type':'text','text':'Size by distance (m)','font_size':'8','fixed_size':14,'style':{'background-color':'#f4f4f4'}},
+            {'type':'size','fixed_size':170,'worksheet':'Map_Jedi','field':'SUM(Distance Selected Hotel-Pub)','pane_index':1,'show_title':False,'style':{'background-color':'#f4f4f4','margin':4}},
+            {'type':'text','text':'Distance (m)','font_size':'8','fixed_size':14,'style':{'background-color':'#f4f4f4'}},
+            {'type':'color','fixed_size':53,'worksheet':'Map_Jedi','field':'SUM(Distance Selected Hotel-Pub)','pane_index':1,'show_title':False,'style':{'background-color':'#f4f4f4'}},
+        ]),
+        zone('paramctrl',176,578,160,46,parameter='Buffer Radius',caption='Hotel Buffer Radius',mode='type_in',style={'background-color':'#f4f4f4'}),
     ])
     e.add_dashboard_toggle_button(JEDI,['Sort Selector','Hotel Chart'],caption_shown='Sort & select a hotel | Click here to close',caption_hidden='Click here to select a hotel',initially_hidden=True,position={'x':12,'y':50,'w':330,'h':30})
     e.add_dashboard_action(JEDI,'parameter',source_sheet='Hotel Chart',source_field='Name',target_parameter='Selected Hotel',event_type='on-select',clear_behavior='keep-current')

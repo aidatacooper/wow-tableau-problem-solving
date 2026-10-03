@@ -34,6 +34,13 @@ def verify():
     assert parameter.find('calculation').get('formula')=='#2019-05-08#'
     assert '-84' in columns['Dates to Include'].find('calculation').get('formula')
     assert 'DATENAME' in columns['Weekdays to Include'].find('calculation').get('formula')
+    question_formula = columns['Question'].find('calculation').get('formula')
+    assert all(token in question_formula for token in ('HOW DOES ', ' COMPARE TO THE PRIOR 12 ', 'MONTH(', 'DAY(', 'YEAR('))
+    title = root.xpath('//worksheet[@name="Title"]')[0]
+    title_binding = title.xpath('./table/panes/pane/encodings/text')[0].get('column')
+    title_runs = title.xpath('./table/panes/pane/customized-label/formatted-text/run')
+    assert len(title_runs) == 1 and title_runs[0].text == '<' + title_binding + '>'
+    assert title_runs[0].get('fontsize') == '10'
     for metric in ['Sales','Orders','Qty']:
         color=columns['COLOUR:'+metric].find('calculation').get('formula')
         assert all(fn in color for fn in ['WINDOW_MAX','WINDOW_MIN','WINDOW_AVG'])
@@ -47,6 +54,10 @@ def verify():
         date_instances=[c for c in sheet.xpath('./table/view/datasource-dependencies/column-instance') if c.get('column') in ['[Order Date]',columns['Order Date Copy'].get('name')]]
         assert date_instances and all(c.get('derivation') in ['None','Attribute'] for c in date_instances)
         assert sheet.xpath('./table/style/style-rule/encoding[@palette="tableau-map-temperatur"]')
+        assert sheet.xpath('./table/style/style-rule[@element="header"]/format[@attr="band-color" and @scope="rows" and @value="#d4d4d4"]')
+        assert sheet.xpath('./table/style/style-rule[@element="table"]/format[@attr="band-level" and @scope="rows" and @value="3"]')
+        assert sheet.xpath('./table/style/style-rule[@element="table"]/format[@attr="band-size" and @scope="rows" and @value="1"]')
+        assert sheet.xpath('./table/style/style-rule[@element="label"]/format[@attr="font-weight" and @value="bold"]')
         for tc in sheet.xpath('./table/view/datasource-dependencies/column-instance/table-calc'):
             assert tc.get('ordering-type')=='Field'
             assert len(tc.findall('order'))==3

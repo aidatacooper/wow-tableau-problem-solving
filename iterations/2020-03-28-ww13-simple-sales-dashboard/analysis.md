@@ -5,3 +5,8 @@ The dashboard shows ten Sales/Profit KPIs: MTD, previous MTD, month-over-month d
 The independent oracle reads raw order dates, sales and profits and evaluates date endpoints, previous-month clipping, MTD/PMTD/YTD and run-rate arithmetic separately in Python. Cloud Date worksheet CSV determines the runtime mapped Yesterday without inferring it from KPI totals; it is independently constrained to the capture date and possible one-day site timezone difference. Both workbooks must expose all ten KPI values and all included year/month bars. Original official challenge date March 24 maps to March 23, 2019; this is contextual evidence, not a claim that runtime captures reproduce the original March metrics.
 
 Date, KPI, Sales and Profit are built from scratch; a CHK Data worksheet exposes all ten measures for complete REST data verification. Data export does not prove browser hover behavior. No dashboard actions exist in the author. KPI rich labels and blue/light-blue year overlay are reviewed visually after Cloud capture.
+
+
+## Layout polish
+
+Public SDK styling preserves calculations and data. Restore the grey main partition with white monthly chart cards, left title and date, and right upper attribution. Cloud recapture is required for the changed workbook hash.

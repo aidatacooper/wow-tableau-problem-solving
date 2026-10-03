@@ -942,7 +942,7 @@
     }
   ],
   "status": "pass",
-  "artifact_sha256": "5d059f8fb4cae12d170b830f1af96a16fe1ac975b7f9f6c9b125365376d29d67",
+  "artifact_sha256": "c5a02a25c1e0be73dec9b7587ac7ecebde0ef28ec8c651ec7e21e4ad47690fe4",
   "browser_interaction_executed": false,
   "tooltip_scope": "Serialized text/field runs only; browser hover not executed."
 }

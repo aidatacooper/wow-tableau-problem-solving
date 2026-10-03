@@ -1,9 +1,9 @@
 {
   "case_id": "wow-2020-ww05-regions-rank-month-to-month",
-  "captured_at": "2026-10-03T05:36:54.684531+00:00",
+  "captured_at": "2026-10-03T07:15:47.513489+00:00",
   "source_hashes": {
     "author": "84a50c53f1a9e545fa727483a54699087ecb3c1dc8e7d361d8ff2f587f41018d",
-    "replica": "2c6da4e24546c96f1aec4e2b8ab2cdef56041418b72b903489a7af356edf5821"
+    "replica": "4e2857f25668aa8eece172b51ca39447d88e2616c3580be72c68d47d686a1560"
   },
   "acceptance_scope": "cloud_rest_and_artifact_contracts",
   "browser_interaction_executed": false,
@@ -48,17 +48,17 @@
       ]
     },
     "replica": {
-      "id": "cfadbc35-530d-4ca7-be4c-437084f7ea67",
-      "name": "cwtwb-review-wow-2020-ww05-regions-rank-month-to-month-replica-2c6da4e24546",
-      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2928099",
+      "id": "070531f6-8b20-4519-a42b-9c5c759e26fa",
+      "name": "cwtwb-review-wow-2020-ww05-regions-rank-month-to-month-replica-4e2857f25668",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2928495",
       "views": [
         {
           "name": "Viz - Advanced",
-          "id": "2861ff76-af46-4491-a1a0-3d9123ad94d3"
+          "id": "4776f5be-ca43-4474-86e5-a8b54380fe69"
         },
         {
           "name": "2020_01_29_WW05_Rank_Bump_Chart - Advanced",
-          "id": "620c01f1-ad85-485c-9d5a-43da160c77a8"
+          "id": "d0a2170b-509f-4854-90b4-d15bd6142291"
         }
       ]
     }
@@ -80,10 +80,10 @@
           ]
         },
         "replica": {
-          "id": "620c01f1-ad85-485c-9d5a-43da160c77a8",
+          "id": "d0a2170b-509f-4854-90b4-d15bd6142291",
           "name": "2020_01_29_WW05_Rank_Bump_Chart - Advanced",
           "path": "outputs/cloud-replica.png",
-          "sha256": "11b4f6398eab96a130ee03562c82ba166c12920f446ca1b3eb5c3322b35f4bf2",
+          "sha256": "30c0dbc20db7647b4e88986cf206f351abe3989fd62bf4eb9ba292709a8b122d",
           "size": [
             1400,
             700
@@ -121,16 +121,16 @@
         {
           "role": "replica",
           "view": "Viz - Advanced",
-          "view_id": "2861ff76-af46-4491-a1a0-3d9123ad94d3",
+          "view_id": "4776f5be-ca43-4474-86e5-a8b54380fe69",
           "scope": "All chart marks; not selector or reset-button CSV.",
           "path": "outputs/cloud-replica-chart.csv",
-          "sha256": "de81bdc96ae84fc139f2686c0dbd6e2720e357bbacf4250ddcda38d918e8da2d",
+          "sha256": "e17185c414036a422d47a16acff4a35240288959644f4428b4c2b537d3a5a102",
           "bytes": 2217
         },
         {
           "role": "replica",
           "view": "Viz - Advanced",
-          "view_id": "2861ff76-af46-4491-a1a0-3d9123ad94d3",
+          "view_id": "4776f5be-ca43-4474-86e5-a8b54380fe69",
           "scope": "Author complete tabular48region-month competitionranks; replica advancedchart numericaxes.",
           "path": "outputs/cloud-replica-basic-data.csv",
           "sha256": "de81bdc96ae84fc139f2686c0dbd6e2720e357bbacf4250ddcda38d918e8da2d",
@@ -139,7 +139,7 @@
         {
           "role": "replica",
           "view": "Viz - Advanced",
-          "view_id": "2861ff76-af46-4491-a1a0-3d9123ad94d3",
+          "view_id": "4776f5be-ca43-4474-86e5-a8b54380fe69",
           "scope": "Author tabular48rankandendpointlabel diagnostics; replica advancedchart numericaxes.",
           "path": "outputs/cloud-replica-data-labels.csv",
           "sha256": "e17185c414036a422d47a16acff4a35240288959644f4428b4c2b537d3a5a102",

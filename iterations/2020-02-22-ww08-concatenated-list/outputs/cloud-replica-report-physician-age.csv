@@ -1,27 +1,27 @@
-Age Category,Gender,Health Check Name,Health Checks Not Complete,Member ID,Member Name,Phone Number,Physician,Health Check Name List
-65-69,F,Annual Flu Vaccine,Health Checks Not Complete,5996200,Jame Hodge,(xxx) xxx-xxxx,Phil Flood,Annual Flu Vaccine
-65-69,F,Colorectal Cancer Screening,Health Checks Not Complete,6908550,Iraida Morgan,(xxx) xxx-xxxx,Phil Flood,"Annual Flu Vaccine, Colorectal Cancer Screening"
-65-69,F,Fall Risk Management,Health Checks Not Complete,3716550,Collin Flores,(xxx) xxx-xxxx,Phil Flood,"Annual Flu Vaccine, Blood Sugar Measurement for Diabetes, Breast Cancer Screening, Colorectal Cancer Screening, Fall Risk Management"
-65-69,F,Fall Risk Management,Health Checks Not Complete,4817800,Arnold Horne,(xxx) xxx-xxxx,Phil Flood,"Annual Flu Vaccine, Fall Risk Management"
-65-69,F,Fall Risk Management,Health Checks Not Complete,4834850,Michel Morales,(xxx) xxx-xxxx,Phil Flood,"Annual Flu Vaccine, Colorectal Cancer Screening, Fall Risk Management"
-65-69,F,Fall Risk Management,Health Checks Not Complete,5800900,Marisol Hatfield,(xxx) xxx-xxxx,Phil Flood,"Annual Flu Vaccine, Fall Risk Management"
-65-69,F,Fall Risk Management,Health Checks Not Complete,6551650,Suk Booker,(xxx) xxx-xxxx,Phil Flood,"Adult BMI Assessment, Annual Flu Vaccine, Breast Cancer Screening, Fall Risk Management"
-65-69,F,Fall Risk Management,Health Checks Not Complete,6561650,Clark Horton,(xxx) xxx-xxxx,Phil Flood,"Annual Flu Vaccine, Fall Risk Management"
-65-69,F,Fall Risk Management,Health Checks Not Complete,6691800,Marvis Snow,(xxx) xxx-xxxx,Phil Flood,"Annual Flu Vaccine, Eye Exam for Diabetes Patients, Fall Risk Management"
-65-69,F,Fall Risk Management,Health Checks Not Complete,6898600,"KANE, DONNA",(xxx) xxx-xxxx,Phil Flood,"Annual Flu Vaccine, Breast Cancer Screening, Colorectal Cancer Screening, Fall Risk Management"
-65-69,F,Fall Risk Management,Health Checks Not Complete,7720200,Esteban Schmitt,(xxx) xxx-xxxx,Phil Flood,"Adult BMI Assessment, Annual Flu Vaccine, Breast Cancer Screening, Care for Older Adults - Functional Status Assessment, Colorectal Cancer Screening, Fall Risk Management"
-65-69,F,Fall Risk Management,Health Checks Not Complete,8166400,Demetrius Arroyo,(xxx) xxx-xxxx,Phil Flood,"Annual Flu Vaccine, Colorectal Cancer Screening, Fall Risk Management"
-65-69,F,Fall Risk Management,Health Checks Not Complete,8578200,Rusty Cummings,(xxx) xxx-xxxx,Phil Flood,"Annual Flu Vaccine, Colorectal Cancer Screening, Fall Risk Management"
-65-69,F,Fall Risk Management,Health Checks Not Complete,8848550,Clark Davies,(xxx) xxx-xxxx,Phil Flood,"Annual Flu Vaccine, Care for Older Adults - Functional Status Assessment, Fall Risk Management"
-65-69,F,Med Adherence: RAS Antagonists,Health Checks Not Complete,4442750,Al Massey,(xxx) xxx-xxxx,Phil Flood,"Annual Flu Vaccine, Med Adherence: RAS Antagonists"
-65-69,M,Annual Flu Vaccine,Health Checks Not Complete,5469450,Wilbert Huerta,(xxx) xxx-xxxx,Phil Flood,Annual Flu Vaccine
-65-69,M,Annual Flu Vaccine,Health Checks Not Complete,7708350,Abram Chandler,(xxx) xxx-xxxx,Phil Flood,Annual Flu Vaccine
-65-69,M,Blood Sugar Measurement for Diabetes,Health Checks Not Complete,5693600,Kristopher Bullis,(xxx) xxx-xxxx,Phil Flood,"Annual Flu Vaccine, Blood Sugar Measurement for Diabetes"
-65-69,M,Fall Risk Management,Health Checks Not Complete,6613150,"ADAMS, CHRISTINA",(xxx) xxx-xxxx,Phil Flood,"Annual Flu Vaccine, Eye Exam for Diabetes Patients, Fall Risk Management"
-65-69,M,Fall Risk Management,Health Checks Not Complete,6640100,Teresa Cole,(xxx) xxx-xxxx,Phil Flood,"Adult BMI Assessment, Annual Flu Vaccine, Care for Older Adults - Functional Status Assessment, Colorectal Cancer Screening, Fall Risk Management"
-65-69,M,Fall Risk Management,Health Checks Not Complete,7058950,Elin Kaiser,(xxx) xxx-xxxx,Phil Flood,"Annual Flu Vaccine, Fall Risk Management"
-65-69,M,Fall Risk Management,Health Checks Not Complete,7191750,Napoleon Lindsey,(xxx) xxx-xxxx,Phil Flood,"Annual Flu Vaccine, Fall Risk Management"
-65-69,M,Fall Risk Management,Health Checks Not Complete,7833850,"BRAMLEY, TODD",(xxx) xxx-xxxx,Phil Flood,"Annual Flu Vaccine, Colorectal Cancer Screening, Fall Risk Management"
-65-69,M,Fall Risk Management,Health Checks Not Complete,8237650,Marty Sexton,(xxx) xxx-xxxx,Phil Flood,"Annual Flu Vaccine, Colorectal Cancer Screening, Fall Risk Management"
-65-69,M,Med Adherence: RAS Antagonists,Health Checks Not Complete,7174200,Normand Reid,(xxx) xxx-xxxx,Phil Flood,"Annual Flu Vaccine, Blood Sugar Measurement for Diabetes, Fall Risk Management, Med Adherence: RAS Antagonists"
-65-69,M,Med Adherence: RAS Antagonists,Health Checks Not Complete,7549850,Cher Frye,(xxx) xxx-xxxx,Phil Flood,"Annual Flu Vaccine, Colorectal Cancer Screening, Fall Risk Management, Med Adherence: RAS Antagonists"
+Age Category,Gender,Health Check Name,Health Checks Not Complete,Member ID,Member Name,Phone Number,Physician,Health Check Name List,Size
+65-69,F,Annual Flu Vaccine,Health Checks Not Complete,5996200,Jame Hodge,(xxx) xxx-xxxx,Phil Flood,Annual Flu Vaccine,1
+65-69,F,Colorectal Cancer Screening,Health Checks Not Complete,6908550,Iraida Morgan,(xxx) xxx-xxxx,Phil Flood,"Annual Flu Vaccine, Colorectal Cancer Screening",2
+65-69,F,Fall Risk Management,Health Checks Not Complete,3716550,Collin Flores,(xxx) xxx-xxxx,Phil Flood,"Annual Flu Vaccine, Blood Sugar Measurement for Diabetes, Breast Cancer Screening, Colorectal Cancer Screening, Fall Risk Management",5
+65-69,F,Fall Risk Management,Health Checks Not Complete,4817800,Arnold Horne,(xxx) xxx-xxxx,Phil Flood,"Annual Flu Vaccine, Fall Risk Management",2
+65-69,F,Fall Risk Management,Health Checks Not Complete,4834850,Michel Morales,(xxx) xxx-xxxx,Phil Flood,"Annual Flu Vaccine, Colorectal Cancer Screening, Fall Risk Management",3
+65-69,F,Fall Risk Management,Health Checks Not Complete,5800900,Marisol Hatfield,(xxx) xxx-xxxx,Phil Flood,"Annual Flu Vaccine, Fall Risk Management",2
+65-69,F,Fall Risk Management,Health Checks Not Complete,6551650,Suk Booker,(xxx) xxx-xxxx,Phil Flood,"Adult BMI Assessment, Annual Flu Vaccine, Breast Cancer Screening, Fall Risk Management",4
+65-69,F,Fall Risk Management,Health Checks Not Complete,6561650,Clark Horton,(xxx) xxx-xxxx,Phil Flood,"Annual Flu Vaccine, Fall Risk Management",2
+65-69,F,Fall Risk Management,Health Checks Not Complete,6691800,Marvis Snow,(xxx) xxx-xxxx,Phil Flood,"Annual Flu Vaccine, Eye Exam for Diabetes Patients, Fall Risk Management",3
+65-69,F,Fall Risk Management,Health Checks Not Complete,6898600,"KANE, DONNA",(xxx) xxx-xxxx,Phil Flood,"Annual Flu Vaccine, Breast Cancer Screening, Colorectal Cancer Screening, Fall Risk Management",4
+65-69,F,Fall Risk Management,Health Checks Not Complete,7720200,Esteban Schmitt,(xxx) xxx-xxxx,Phil Flood,"Adult BMI Assessment, Annual Flu Vaccine, Breast Cancer Screening, Care for Older Adults - Functional Status Assessment, Colorectal Cancer Screening, Fall Risk Management",6
+65-69,F,Fall Risk Management,Health Checks Not Complete,8166400,Demetrius Arroyo,(xxx) xxx-xxxx,Phil Flood,"Annual Flu Vaccine, Colorectal Cancer Screening, Fall Risk Management",3
+65-69,F,Fall Risk Management,Health Checks Not Complete,8578200,Rusty Cummings,(xxx) xxx-xxxx,Phil Flood,"Annual Flu Vaccine, Colorectal Cancer Screening, Fall Risk Management",3
+65-69,F,Fall Risk Management,Health Checks Not Complete,8848550,Clark Davies,(xxx) xxx-xxxx,Phil Flood,"Annual Flu Vaccine, Care for Older Adults - Functional Status Assessment, Fall Risk Management",3
+65-69,F,Med Adherence: RAS Antagonists,Health Checks Not Complete,4442750,Al Massey,(xxx) xxx-xxxx,Phil Flood,"Annual Flu Vaccine, Med Adherence: RAS Antagonists",2
+65-69,M,Annual Flu Vaccine,Health Checks Not Complete,5469450,Wilbert Huerta,(xxx) xxx-xxxx,Phil Flood,Annual Flu Vaccine,1
+65-69,M,Annual Flu Vaccine,Health Checks Not Complete,7708350,Abram Chandler,(xxx) xxx-xxxx,Phil Flood,Annual Flu Vaccine,1
+65-69,M,Blood Sugar Measurement for Diabetes,Health Checks Not Complete,5693600,Kristopher Bullis,(xxx) xxx-xxxx,Phil Flood,"Annual Flu Vaccine, Blood Sugar Measurement for Diabetes",2
+65-69,M,Fall Risk Management,Health Checks Not Complete,6613150,"ADAMS, CHRISTINA",(xxx) xxx-xxxx,Phil Flood,"Annual Flu Vaccine, Eye Exam for Diabetes Patients, Fall Risk Management",3
+65-69,M,Fall Risk Management,Health Checks Not Complete,6640100,Teresa Cole,(xxx) xxx-xxxx,Phil Flood,"Adult BMI Assessment, Annual Flu Vaccine, Care for Older Adults - Functional Status Assessment, Colorectal Cancer Screening, Fall Risk Management",5
+65-69,M,Fall Risk Management,Health Checks Not Complete,7058950,Elin Kaiser,(xxx) xxx-xxxx,Phil Flood,"Annual Flu Vaccine, Fall Risk Management",2
+65-69,M,Fall Risk Management,Health Checks Not Complete,7191750,Napoleon Lindsey,(xxx) xxx-xxxx,Phil Flood,"Annual Flu Vaccine, Fall Risk Management",2
+65-69,M,Fall Risk Management,Health Checks Not Complete,7833850,"BRAMLEY, TODD",(xxx) xxx-xxxx,Phil Flood,"Annual Flu Vaccine, Colorectal Cancer Screening, Fall Risk Management",3
+65-69,M,Fall Risk Management,Health Checks Not Complete,8237650,Marty Sexton,(xxx) xxx-xxxx,Phil Flood,"Annual Flu Vaccine, Colorectal Cancer Screening, Fall Risk Management",3
+65-69,M,Med Adherence: RAS Antagonists,Health Checks Not Complete,7174200,Normand Reid,(xxx) xxx-xxxx,Phil Flood,"Annual Flu Vaccine, Blood Sugar Measurement for Diabetes, Fall Risk Management, Med Adherence: RAS Antagonists",4
+65-69,M,Med Adherence: RAS Antagonists,Health Checks Not Complete,7549850,Cher Frye,(xxx) xxx-xxxx,Phil Flood,"Annual Flu Vaccine, Colorectal Cancer Screening, Fall Risk Management, Med Adherence: RAS Antagonists",4

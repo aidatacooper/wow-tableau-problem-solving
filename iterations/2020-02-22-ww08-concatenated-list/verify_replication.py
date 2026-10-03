@@ -31,10 +31,11 @@ def verify():
     columns = {c.get('caption'): c for c in root.xpath('/workbook/datasources/datasource/column[@caption]')}
     assert columns['Index'].find('calculation').get('formula') == 'INDEX()'
     assert columns['Size'].find('calculation').get('formula') == 'SIZE()'
+    assert columns['Min # of Health Checks'].find('calculation').get('formula') in ('[Size]', columns['Size'].get('name'))
     assert 'PREVIOUS_VALUE' in columns['Health Check Name List'].find('calculation').get('formula')
     sheet = root.xpath('//worksheets/worksheet[@name="Report"]')[0]
     instances = sheet.xpath('./table/view/datasource-dependencies/column-instance')
-    for name in ['Health Check Name List', 'Size', 'Index=Size?', 'FILTER:Health Check Names']:
+    for name in ['Health Check Name List', 'Size', 'Min # of Health Checks', 'Index=Size?', 'FILTER:Health Check Names']:
         instance = next(c for c in instances if c.get('column') == columns[name].get('name'))
         assert instance.get('derivation')=='User', (name, instance.attrib)
         calculations = instance.findall('table-calc')
@@ -46,6 +47,14 @@ def verify():
     assert sheet.xpath('./table/style/style-rule[@element="header"]/format[@attr="width" and @value="420"]')
     assert sheet.xpath('./table/style/style-rule[@element="cell"]/format[@attr="height" and @value="53"]')
     assert root.xpath('//dashboards/dashboard//zone[@type-v2="filter" and @mode="dropdown"]')
+    assert sheet.xpath('./table/panes/pane/mark[@class="Automatic"]'), 'Automatic text table must retain native multiline wrapping'
+    captions = root.xpath('//dashboard//zone[@custom-title="true"]/formatted-text/run/text()')
+    assert 'List Must Contain' in captions
+    count_instance = next(c for c in instances if c.get('column') == columns['Min # of Health Checks'].get('name'))
+    count_reference = count_instance.get('name')
+    count_filter = next(f for f in sheet.xpath('./table/view/filter') if f.get('column', '').endswith('.' + count_reference))
+    assert count_filter.get('class') == 'quantitative' and count_filter.findtext('min') == '1' and count_filter.findtext('max') == '9'
+    assert any(z.get('param', '').endswith('.' + count_reference) for z in root.xpath('//dashboard//zone[@type-v2="filter"]'))
     patients = defaultdict(set)
     with HyperProcess(Telemetry.DO_NOT_SEND_USAGE_DATA_TO_TABLEAU) as hp, Connection(hp.endpoint, str(data)) as connection:
         records = connection.execute_list_query('SELECT "Member ID", "Member Name", "Gender", "Age Category", "Phone Number", "Physician", "Health Check Name" FROM "Extract"."Extract"')

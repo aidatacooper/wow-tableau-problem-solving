@@ -45,3 +45,9 @@ Final style refinement uses the author's native Gantt size1.824088454246521 with
 The Cloud comparison additionally exposed mark stacking: a first Gantt pane hides later line segments when blocks are widened. The final pane order follows the author: Line first, Gantt second. The verifier checks this order and applies centered white labels to Line id1. Earlier occluded captures are archived in ignored scratch.
 
 Pane ordering alone did not change native folded-axis paint order. The final source-consistent axis style additionally sets render-fold-reversed=true; final Cloud confirms complete lines drawn above blocks.
+
+## Layout polish
+
+Layout polish restores15px outer chart margins, a bold WEEK5 title prefix and three separate aligned attribution/footer columns. Native render-fold-reversed and all rank/table-calculation contracts remain intact.
+
+The previously accepted workbook and complete evidence snapshot are retained in ignored scratch/polish-baseline-ww05. New Cloud evidence must be recaptured before accepting the new artifact.

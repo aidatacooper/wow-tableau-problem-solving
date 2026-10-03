@@ -32,20 +32,18 @@ color-map raises an unresolved-field error. A data-free A/B overlay fixture
 records the first failure and the actual case-builder exception records the
 second. The SDK now accepts per-pane breakdown and a virtual Measure Names
 palette. The case uses a two-pane folded chart: Multiple Values contains
-Forecast and Sales, with stack marks off, while Target is a red Gantt mark.
+Forecast and Sales, with stack marks off, while Target is a black Gantt mark.
 Both blue and teal bars retain their correct measure palette.
 
 Six REST states cover default, positive forecast, negative forecast, updated
 targets, combined changes and reset. Full Viz CSV must verify all three
 categories' actual/target/forecast values and both differences. Selector or
-reset CSV alone does not prove chart correctness. Cloud visual/data review
-and final SDK commit pin are pending. No browser clicks or hovers are claimed.
+reset CSV alone does not prove chart correctness. Cloud visual/data review passed for all six states with the tested SDK commit recorded in case metadata. The final scope and remaining differences are recorded in `evidence/visual-review.md`. No browser clicks or hovers are claimed.
 
 Cloud review found that labels applied to both Measure Values bars overlap,
 plain custom percentage strings render decimal ratios without Tableau's
 custom-format prefix, and full-height chart rows do not align with the shorter
-selector views. The revised layout aligns all category rows in a common
-156-pixel band and uses one separate Text label worksheet (six sheets total;
+selector views. The final layout uses a 190-pixel chart and label band with native vertical-flow side panels, keeping each selector associated with its category row. It uses one separate Text label worksheet (six sheets total;
 the challenge allows any number). Chart CSV still binds all five numeric
 metrics as detail fields. Rounded signed percentage strings are calculated
 for the label only; numeric differences retain native p0% formatting.
@@ -54,3 +52,9 @@ Measure Names must also bind the size encoding to make forecast bars thinner
 than actual bars, so both remain visible. SDK2768dc0 omits this virtual size
 binding; a synthetic CSV fixture records that third generic gap. The shared
 SDK fix forwards the virtual field rather than inventing a physical column.
+
+## Layout polish
+
+Layout polish restores420px-high independent gray side-panel containers, enlarges selector and reset marks, corrects hollow/filled target-circle colors, thickens actual/forecast bars and target ticks, removes banding and reinstates title/subtitle/designer/footer hierarchy. Six parameter states and all measure/action contracts are unchanged; labels stay in an independent aligned column for readability.
+
+The previously accepted workbook and complete evidence snapshot are retained in ignored scratch/polish-baseline-ww07. The polished artifact has been recaptured and accepted with documented visual differences; `evidence/visual-review.md` binds the final workbook hash and full evidence scope.

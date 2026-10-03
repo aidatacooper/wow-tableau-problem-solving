@@ -21,7 +21,11 @@ Every builder starts `TWBEditor("")` and uses public SDK APIs with locked extrac
 
 SDK enhancements include independent Hyper sources, sheet tooltips, native collapsible containers, overlaid measure palettes and widths, adaptive axis-unit bar sizing, ordinal/null shapes, qualified table-calculation addressing, repeated-axis pane identities and unique mixed-action names. [SDK changes and source cases](https://github.com/aidatacooper/cwtwb/blob/main/docs/case-driven-enhancements.md) records the problems and synthetic regressions.
 
-Final dependency: `cwtwb` 0.27.1 at the exact Git commit in requirements.txt. SDK: **543 passed, 25 skipped**; shared case tests: **55 passed**. The pinned SDK CI and actual commit are recorded in every sdk-final-validation.json. Case catalogue contains **44 active cases** after this batch.
+Final dependency: `cwtwb` 0.27.1 at the exact Git commit in requirements.txt. SDK: **575 passed, 25 skipped**; shared case tests: **55 passed**. The pinned SDK CI and actual commit are recorded in every sdk-polish-validation.json. Case catalogue contains **44 active cases** after this batch.
+
+## Layout refinement
+
+All ten cases were refined after the initial acceptance. The current evidence is a new Cloud capture bound to the polished workbooks. Improvements include region-chart spacing, separated health-indicator columns, aligned forecast/target side panels, readable concatenated-list controls, larger reorder KPIs and finer connections, compact map legends including the restored size scale, grouped below-average rank shading, native hidden-panel framing, sales dashboard sections and aligned pipeline rows. The reorder filter keeps a stable white/gray layout instead of reproducing the author filtered view?s large magenta empty area. Remaining differences are explicitly reviewed per case; no pixel-level match or browser interaction is claimed. Previous SDK run records are retained, and each polish-baseline.json links the immutable pre-polish evidence in Git history.
 
 ## Default paired images
 

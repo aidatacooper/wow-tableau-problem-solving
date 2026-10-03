@@ -120,6 +120,11 @@ def verify():
     assert table.xpath('panes/pane/view/breakdown/@value')==['off','off']
     assert table.xpath('panes/pane/encodings/size/@column')==table.xpath('panes/pane/encodings/color/@column')
     assert ':Measure Names' in table.xpath('panes/pane/encodings/size/@column')[0]
+    assert table.xpath('panes/pane/style/style-rule[@element="mark"]/format[@attr="size" and @value="1.45"]')
+    panels=root.xpath('dashboards/dashboard/zones//zone[zone-style/format[@attr="background-color" and (@value="#f5f5f5" or @value="#b4b4b4")]][@type-v2="layout-flow"]')
+    assert len(panels)==2 and all(int(p.get('h'))==84000 for p in panels)
+    resets=root.xpath('worksheets/worksheet[contains(@name,"Reset")]//style-rule[@element="datalabel"]/format[@attr="font-size" and @value="20"]')
+    assert len(resets)==2
     assert not table.xpath('panes/pane/encodings/text')
     assert 'Multiple Values' in table.find('cols').text and ' + ' in table.find('cols').text
     assert len(table.xpath('view/filter[contains(@column,":Measure Names")]/groupfilter/groupfilter'))==2

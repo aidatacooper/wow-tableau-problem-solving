@@ -14,6 +14,7 @@ def build(output_path=None):
     specs = [
         ('Index', 'INDEX()', 'integer', 'measure', 'ordinal'),
         ('Size', 'SIZE()', 'integer', 'measure', 'quantitative'),
+        ('Min # of Health Checks', '[Size]', 'integer', 'measure', 'quantitative'),
         ('Index=Size?', '[Index]=[Size]', 'boolean', 'dimension', 'nominal'),
         ('Health Check Name List', "IF [Index]=1 THEN ATTR([Health Check Name]) ELSE PREVIOUS_VALUE(ATTR([Health Check Name])) + ', ' + ATTR([Health Check Name]) END", 'string', 'dimension', 'nominal'),
         ('FILTER:Health Check Names', "CONTAINS([Health Check Name List],[Health Check Name Parameter]) OR [Health Check Name Parameter]='All'", 'boolean', 'dimension', 'nominal'),
@@ -25,23 +26,24 @@ def build(output_path=None):
     overrides = {
         'Health Check Name List': [addressing, dict(addressing, field='Index')],
         'Size': [addressing],
+        'Min # of Health Checks': [addressing, dict(addressing, field='Size')],
         'Index=Size?': [addressing, dict(addressing, field='Index'), dict(addressing, field='Size')],
         'FILTER:Health Check Names': [addressing, dict(addressing, field='Health Check Name List'), dict(addressing, field='Index')],
     }
     e.add_worksheet('Report')
-    e.configure_layered_chart('Report', columns=['Health Checks Not Complete'], rows=['Member ID', 'Member Name', 'Gender', 'Age Category', 'Phone Number', 'Physician'], panes=[{'mark_type': 'Automatic', 'label': 'Health Check Name List', 'detail': 'Health Check Name', 'mark_style': {'mark-labels-show': 'true'}}], filters=[{'column': 'Age Category', 'values': []}, {'column': 'Physician', 'values': []}, {'column': 'Size', 'type': 'quantitative', 'min': '1', 'max': '9'}, {'column': 'Index=Size?', 'values': [True]}, {'column': 'FILTER:Health Check Names', 'values': [True]}], table_calc_overrides=overrides)
+    e.configure_layered_chart('Report', columns=['Health Checks Not Complete'], rows=['Member ID', 'Member Name', 'Gender', 'Age Category', 'Phone Number', 'Physician'], panes=[{'mark_type': 'Automatic', 'label': 'Health Check Name List', 'detail': 'Health Check Name', 'tooltip': ['Size'], 'mark_style': {'mark-labels-show': 'true'}}], filters=[{'column': 'Age Category', 'values': []}, {'column': 'Physician', 'values': []}, {'column': 'Min # of Health Checks', 'type': 'quantitative', 'min': '1', 'max': '9'}, {'column': 'Index=Size?', 'values': [True]}, {'column': 'FILTER:Health Check Names', 'values': [True]}], table_calc_overrides=overrides)
     e.configure_worksheet_style('Report', hide_gridlines=True, hide_zeroline=True, hide_col_field_labels=True,
         cell_formats=[{'width': '420', 'font-size': '8'}, {'field': 'Physician', 'height': '53'}],
         pane_datalabel_style={'font-family': 'Tableau Book', 'font-size': '8', 'text-align': 'left'},
         label_formats=[{'field': f, 'font-family': 'Tableau Book', 'font-size': '8'} for f in ['Member ID', 'Member Name', 'Gender', 'Age Category', 'Phone Number', 'Physician']],
         header_formats=[{'field': 'Member ID', 'width': '74'}, {'field': 'Member Name', 'width': '124'}, {'field': 'Gender', 'width': '56'}, {'field': 'Age Category', 'width': '76'}, {'field': 'Phone Number', 'width': '108'}, {'field': 'Physician', 'width': '120'}, {'field': 'Health Check Name List', 'width': '420'}, {'field': 'Health Checks Not Complete', 'height': '52'}])
     layout = {'type': 'container', 'direction': 'vertical', 'style': {'padding': 8}, 'children': [
-        {'type': 'text', 'text': 'Can you create a concatenated list of values?', 'font_size': 20, 'fixed_size': 60},
-        {'type': 'container', 'direction': 'horizontal', 'fixed_size': 85, 'style': {'background-color': '#f4f4f4', 'padding': 6}, 'children': [
+        {'type': 'text', 'text': 'Can you create a concatenated list of values?', 'font_size': 16, 'fixed_size': 55},
+        {'type': 'container', 'direction': 'horizontal', 'fixed_size': 70, 'style': {'background-color': '#f4f4f4', 'padding': 6}, 'children': [
             {'type': 'filter', 'worksheet': 'Report', 'field': 'Physician', 'mode': 'dropdown'},
             {'type': 'filter', 'worksheet': 'Report', 'field': 'Age Category', 'mode': 'checkdropdown'},
-            {'type': 'filter', 'worksheet': 'Report', 'field': 'Size'},
-            {'type': 'paramctrl', 'parameter': 'Health Check Name Parameter', 'mode': 'compact'}]},
+            {'type': 'filter', 'worksheet': 'Report', 'field': 'Min # of Health Checks'},
+            {'type': 'paramctrl', 'parameter': 'Health Check Name Parameter', 'mode': 'compact', 'caption': 'List Must Contain', 'weight': 2}]},
         {'type': 'worksheet', 'name': 'Report', 'show_title': False, 'fit': 'width'},
         {'type': 'text', 'text': 'DESIGNED BY : SEAN MILLER     |     #WOW2020 WEEK 8     |     RECREATED WITH CWTWB\nhttps://www.workout-wednesday.com/2020w08/', 'font_size': 8, 'fixed_size': 45}]}
     e.add_dashboard(DASHBOARD, width=1100, height=1000, worksheet_names=['Report'], layout=layout)

@@ -1,0 +1,13 @@
+{
+  "case_commit": "a56b2c3273c0f1fb32612be4dc71012b9c07f493",
+  "sdk_commit": "7096bf154c4505839ae0cafd1430992c6afc6aec",
+  "accepted_artifact_sha256": "70308ff09fae0b0b4449b649c274fedb5f55c5e6648eac28718463e88befdebe",
+  "states": [
+    "default",
+    "monday",
+    "year-end"
+  ],
+  "cloud_evidence": "https://github.com/aidatacooper/wow-tableau-problem-solving/blob/a56b2c3273c0f1fb32612be4dc71012b9c07f493/iterations/2020-03-13-ww11-smart-ranked-lists/evidence/cloud-verification.json",
+  "visual_review": "https://github.com/aidatacooper/wow-tableau-problem-solving/blob/a56b2c3273c0f1fb32612be4dc71012b9c07f493/iterations/2020-03-13-ww11-smart-ranked-lists/evidence/visual-review.md",
+  "note": "Immutable pre-polish acceptance in Git history. Current workbook and captures have new identities."
+}

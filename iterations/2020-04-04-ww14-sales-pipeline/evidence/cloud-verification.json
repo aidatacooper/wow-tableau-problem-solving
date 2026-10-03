@@ -1,9 +1,9 @@
 {
   "case_id": "wow-2020-ww14-sales-pipeline",
-  "captured_at": "2026-10-03T05:45:01.138073+00:00",
+  "captured_at": "2026-10-03T07:39:54.098870+00:00",
   "source_hashes": {
     "author": "965f44754f37c4417dc460ef313f2002430bc0ab5610549649a6a0014a971e83",
-    "replica": "0f1ea87d99f96020129c745f553b65fd33d835d93d53c2ffc719b57ef6362e40"
+    "replica": "434938e3a8ce2bb9c770b80875ec15cdb95f400ec1ef4d51cf71985ca4af3c0b"
   },
   "acceptance_scope": "cloud_rest_and_artifact_contracts",
   "browser_interaction_executed": false,
@@ -28,29 +28,29 @@
       ]
     },
     "replica": {
-      "id": "5a0ecdfc-adf2-4963-a605-9e341ab166cf",
-      "name": "cwtwb-review-wow-2020-ww14-sales-pipeline-replica-0f1ea87d99f9",
-      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2928134",
+      "id": "6a2437f3-c82e-4f8d-9fb8-7e6449a81d5f",
+      "name": "cwtwb-review-wow-2020-ww14-sales-pipeline-replica-434938e3a8ce",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2928615",
       "views": [
         {
           "name": "Data",
-          "id": "d78cb0e9-cf44-4e68-bec3-eb706d328990"
+          "id": "564ede5b-a3db-467a-b123-281327c08e27"
         },
         {
           "name": "Current Status",
-          "id": "8795cec3-329f-40d3-8b01-ffe1896763e6"
+          "id": "2fd96550-ce83-4d7b-ab5e-c17fb746abd9"
         },
         {
           "name": "Overall Funnel",
-          "id": "81404903-80b2-4191-862c-1a5c87c57805"
+          "id": "938b29c6-b52a-4dfc-8643-896e7e3d7dbf"
         },
         {
           "name": "Percent to Close",
-          "id": "783b6941-8958-4a57-a917-e983c134ba44"
+          "id": "4fbe5755-a191-4a65-a7b1-becd74bf5d9a"
         },
         {
           "name": "2020_04_01_WW14_Sales_Pipeline_Funnel",
-          "id": "901103f9-1cdf-4497-bdc0-751be50c6d70"
+          "id": "a58ecce5-263b-41d3-97cd-100670601fe7"
         }
       ]
     }
@@ -72,10 +72,10 @@
           ]
         },
         "replica": {
-          "id": "901103f9-1cdf-4497-bdc0-751be50c6d70",
+          "id": "a58ecce5-263b-41d3-97cd-100670601fe7",
           "name": "2020_04_01_WW14_Sales_Pipeline_Funnel",
           "path": "outputs/cloud-replica.png",
-          "sha256": "1973eaf8640694be396eb02ee824d26f499feda68f85cfd63a21cadfaf0001f8",
+          "sha256": "7f70edfa2ef5958014ff56e512c8937d56c9f6e71cc4a7425ad2ae56c491c86d",
           "size": [
             1400,
             800
@@ -95,7 +95,7 @@
         {
           "role": "replica",
           "view": "Data",
-          "view_id": "d78cb0e9-cf44-4e68-bec3-eb706d328990",
+          "view_id": "564ede5b-a3db-467a-b123-281327c08e27",
           "scope": "All six stage current sums, running/window/cumulative/closed/ratio values.",
           "path": "outputs/cloud-replica-pipeline.csv",
           "sha256": "2eed14bbd9374ef7e7564f94c319a91fa3da97e19291841338ddf8563f8eb091",

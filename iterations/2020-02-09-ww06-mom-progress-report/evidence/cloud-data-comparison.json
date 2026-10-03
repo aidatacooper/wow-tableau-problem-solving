@@ -33,7 +33,7 @@
       "role": "replica",
       "state": "december",
       "file": "outputs/cloud-replica-chart-december.csv",
-      "sha256": "8717acb6a8b4a575534bfecf8e4c9a502198b9b21a1a621d8000886ac7c6b16b",
+      "sha256": "a034d61dfa6fbace4d2fb287817fb35ece8c419fe832937be184b04f983c5cec",
       "rows": 68,
       "subcategories": 17,
       "metric_cells_verified": 221
@@ -51,7 +51,7 @@
       "role": "replica",
       "state": "january",
       "file": "outputs/cloud-replica-chart-january.csv",
-      "sha256": "314815487e6b6a8b074a34eb77b775b03c5e6dbac3f289173306f87ad1a56508",
+      "sha256": "e3847bb0162256ab92323ab65102183ce618845e5d4c02618bb4057efbb65636",
       "rows": 68,
       "subcategories": 17,
       "metric_cells_verified": 221

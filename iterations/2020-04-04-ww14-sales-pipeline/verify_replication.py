@@ -108,6 +108,11 @@ def verify():
  for name in ['Current Status','Overall Funnel']:
   axis=r.find(f'.//worksheet[@name="{name}"]/table/style/style-rule[@element="axis"]/encoding[@range-type="fixed"]')
   assert axis.get('min')=='0'
+ zones=r.findall('.//dashboard/zones//zone');sheets=[next(n for n in zones if n.get('name')==name) for name in ['Current Status','Overall Funnel','Percent to Close']]
+ assert len({n.get('y') for n in sheets})==len({n.get('h') for n in sheets})==1
+ for name in ['Current Status','Overall Funnel','Percent to Close']:
+  divs=r.findall(f'.//worksheet[@name="{name}"]/table/style/style-rule[@element="table-div"]/format[@attr="line-visibility"][@scope="rows"]')
+  assert len(divs)==1 and divs[0].get('value')=='on'
  report=cloud_binding();checks=verify_cloud(data,report)
  result={'case':'ww14','passed':['ww14-independent-data','ww14-artifact-contracts']+(['ww14-cloud-states'] if checks else []),'cloud_status':'passed' if checks else 'pending','oracle':data,'cloud_checks':checks,'browser_interaction_executed':False}
  (HERE/'outputs/data-oracle.json').write_text(json.dumps(data,indent=2),encoding='utf-8');(HERE/'evidence/functional-verification.json').write_text(json.dumps(result,indent=2),encoding='utf-8');print(json.dumps({'passed':result['passed'],'cloud':result['cloud_status']}));return result

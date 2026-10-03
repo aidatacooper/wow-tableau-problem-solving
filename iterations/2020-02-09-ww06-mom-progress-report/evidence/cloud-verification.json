@@ -1,9 +1,9 @@
 {
   "case_id": "wow-2020-ww06-mom-progress-report",
-  "captured_at": "2026-10-03T05:10:39.991225+00:00",
+  "captured_at": "2026-10-03T07:24:13.536505+00:00",
   "source_hashes": {
     "author": "f06cc90dc99a2d166522aab38e15532643d1a490e031299fcb1ffa4db435e800",
-    "replica": "5d059f8fb4cae12d170b830f1af96a16fe1ac975b7f9f6c9b125365376d29d67"
+    "replica": "c5a02a25c1e0be73dec9b7587ac7ecebde0ef28ec8c651ec7e21e4ad47690fe4"
   },
   "acceptance_scope": "cloud_rest_and_artifact_contracts",
   "browser_interaction_executed": false,
@@ -24,17 +24,17 @@
       ]
     },
     "replica": {
-      "id": "85793adf-14e7-4b67-a07f-653d21550cde",
-      "name": "cwtwb-review-wow-2020-ww06-mom-progress-report-replica-5d059f8fb4ca",
-      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2927960",
+      "id": "2d7ea516-39c3-4217-9aaf-3e2c79e1add7",
+      "name": "cwtwb-review-wow-2020-ww06-mom-progress-report-replica-c5a02a25c1e0",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2928529",
       "views": [
         {
           "name": "Viz",
-          "id": "05fabef4-ecc8-4c7b-b58e-f16f2e3d17c4"
+          "id": "f7cec8bc-5032-475f-a34d-4e68214a7935"
         },
         {
           "name": "2020_02_05_WW06_Month_By_Month_Progress",
-          "id": "7899c253-5e0e-4e96-a9cb-1b46e4e8a908"
+          "id": "632ed58b-714b-46c0-bf6d-f47c796a2054"
         }
       ]
     }
@@ -56,10 +56,10 @@
           ]
         },
         "replica": {
-          "id": "7899c253-5e0e-4e96-a9cb-1b46e4e8a908",
+          "id": "632ed58b-714b-46c0-bf6d-f47c796a2054",
           "name": "2020_02_05_WW06_Month_By_Month_Progress",
           "path": "outputs/cloud-replica.png",
-          "sha256": "ed7e650f3137aa5233dabecf310573a82a059f34c08f31395344bb96bd8d565b",
+          "sha256": "d5002b2f603ec52107b5e1fefa4e3d66f8fcc22b9c25d29e548f6ee9b8e837df",
           "size": [
             1200,
             1600
@@ -79,7 +79,7 @@
         {
           "role": "replica",
           "view": "Viz",
-          "view_id": "05fabef4-ecc8-4c7b-b58e-f16f2e3d17c4",
+          "view_id": "f7cec8bc-5032-475f-a34d-4e68214a7935",
           "scope": "All chart marks; not selector or reset-button CSV.",
           "path": "outputs/cloud-replica-chart.csv",
           "sha256": "2f69d29b66222ff4a77d924352c552238b76b55982beb599292127c2a8388bb4",
@@ -105,10 +105,10 @@
           ]
         },
         "replica": {
-          "id": "7899c253-5e0e-4e96-a9cb-1b46e4e8a908",
+          "id": "632ed58b-714b-46c0-bf6d-f47c796a2054",
           "name": "2020_02_05_WW06_Month_By_Month_Progress",
           "path": "outputs/cloud-replica-december.png",
-          "sha256": "bb3d562a7b830eb25903fc75c213ceaa15365ad6408493406d1d4b2b329551ad",
+          "sha256": "7c397e53f4944d9c12df50e9a6893c128e8ebb1666a27d9a50782285182c8b04",
           "size": [
             1200,
             1600
@@ -128,10 +128,10 @@
         {
           "role": "replica",
           "view": "Viz",
-          "view_id": "05fabef4-ecc8-4c7b-b58e-f16f2e3d17c4",
+          "view_id": "f7cec8bc-5032-475f-a34d-4e68214a7935",
           "scope": "All chart marks; not selector or reset-button CSV.",
           "path": "outputs/cloud-replica-chart-december.csv",
-          "sha256": "8717acb6a8b4a575534bfecf8e4c9a502198b9b21a1a621d8000886ac7c6b16b",
+          "sha256": "a034d61dfa6fbace4d2fb287817fb35ece8c419fe832937be184b04f983c5cec",
           "bytes": 5567
         }
       ]
@@ -154,10 +154,10 @@
           ]
         },
         "replica": {
-          "id": "7899c253-5e0e-4e96-a9cb-1b46e4e8a908",
+          "id": "632ed58b-714b-46c0-bf6d-f47c796a2054",
           "name": "2020_02_05_WW06_Month_By_Month_Progress",
           "path": "outputs/cloud-replica-january.png",
-          "sha256": "66dc8f01b0173d930ec0da130c96de83b2b9c9ba49ad84db9fa2378ab69317f3",
+          "sha256": "8b02fb284987ed9da60211670d4a1a526dccfc16e13813324b6ab7a3c69d2151",
           "size": [
             1200,
             1600
@@ -177,10 +177,10 @@
         {
           "role": "replica",
           "view": "Viz",
-          "view_id": "05fabef4-ecc8-4c7b-b58e-f16f2e3d17c4",
+          "view_id": "f7cec8bc-5032-475f-a34d-4e68214a7935",
           "scope": "All chart marks; not selector or reset-button CSV.",
           "path": "outputs/cloud-replica-chart-january.csv",
-          "sha256": "314815487e6b6a8b074a34eb77b775b03c5e6dbac3f289173306f87ad1a56508",
+          "sha256": "e3847bb0162256ab92323ab65102183ce618845e5d4c02618bb4057efbb65636",
           "bytes": 5334
         }
       ]

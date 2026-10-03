@@ -71,6 +71,17 @@ def verify():
     assert 'Hotel Name' in embed and 'maxwidth="300"' in embed
     assert tree.xpath('//worksheet[@name="VIT:Pub List"]/table/view/filter[contains(@column,"Tooltip (Hotel Name)")]')
     assert tree.xpath('//worksheet[@name="Map_int"]//pane[@id="1"]//format[@attr="mark-labels-show" and @value="true"]')
+    legends=tree.xpath('//dashboard[@name="2020_03_04_WW10_London_Pubs_Buffer_Jedi"]//zone[@type-v2="color" or @type-v2="size"]')
+    assert {z.get('type-v2') for z in legends} == {'color','size'}
+    assert len({z.get('param') for z in legends}) == 1
+    assert all(z.get('pane-specification-id')=='1' and int(z.get('w')) <= 22858 for z in legends)
+    assert all(z.get('show-title')=='false' for z in legends)
+    control_flow=legends[0].getparent()
+    assert control_flow is legends[1].getparent()
+    assert control_flow.get('type-v2')=='layout-flow' and control_flow.get('param')=='vert'
+    assert control_flow.getparent().tag=='zones'
+    assert int(next(z for z in legends if z.get('type-v2')=='size').get('fixed-size')) >= 125
+    assert tree.xpath('//dashboard//zone[@type-v2="text"]//run[contains(text(),"Size by distance (m)")]')
     # acceptance: hotel-sort-selection-contract
     actions=tree.xpath('./actions/edit-parameter-action')
     assert len(actions)==2
