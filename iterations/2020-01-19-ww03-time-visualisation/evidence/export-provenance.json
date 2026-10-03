@@ -1,0 +1,10 @@
+{
+  "original_sha256": "7ce795d2770dc956d43abc0023555d5cd0058b43cc992cfb998c88bd9b7f6b1b",
+  "comparison_sha256": "ce6ff5bcae92290d090499d6b69545fe17e118626240e986ef9cfcfd398553c2",
+  "transformation": "Only remove hidden=true from author worksheet window metadata to expose full worksheet REST CSV; calculations, dashboard layout, data and actions retained.",
+  "worksheets_exposed": [
+    "By Day",
+    "By Weekday"
+  ],
+  "comparison_used_by_replica_builder": false
+}

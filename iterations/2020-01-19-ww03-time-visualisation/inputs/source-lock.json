@@ -1,0 +1,17 @@
+{
+  "source_workbook_used_by_builder": false,
+  "download_url": "https://public.tableau.com/workbooks/2020_01_15_WW03_Time_Visualisation.twb",
+  "locked_original_sha256": "7ce795d2770dc956d43abc0023555d5cd0058b43cc992cfb998c88bd9b7f6b1b",
+  "download_sha256": "7ce795d2770dc956d43abc0023555d5cd0058b43cc992cfb998c88bd9b7f6b1b",
+  "exact_locked_original": true,
+  "article_url": "https://donnacoles.home.blog/2020/01/19/can-you-visualise-time-in-a-unique-way/",
+  "article_sha256": "1035a366eece954e2f4fa3ba651b8f5a14b287863e3ccdc7506cbc41876e6be3",
+  "extracted_data": [
+    {
+      "file": "inputs/Orders+ (Multiple Connections).hyper",
+      "archive_member": "Data/Datasources/Orders+ (Multiple Connections).hyper",
+      "bytes": 1114112,
+      "sha256": "31dd8066d10c725106cd42cb5a6fb9d41cb20c3e7491b8b7e2f471f8f5f38d02"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "status": "pass",
+  "scope": "Every dated Chart bar in all captured states, independently matched to fact-level metric aggregates; Selector CSV is excluded. CSV ordering does not prove visible sort.",
+  "checks": [
+    {
+      "role": "author",
+      "period": "Last 12 Months",
+      "measure": " Sales ",
+      "file": "outputs/cloud-author-chart.csv",
+      "sha256": "dc1935e392b6ca750f6319eced4b8ce978ebab16841da30945a690c6dc234af9",
+      "bars_verified": 12
+    },
+    {
+      "role": "replica",
+      "period": "Last 12 Months",
+      "measure": " Sales ",
+      "file": "outputs/cloud-replica-chart.csv",
+      "sha256": "9ae8871fdc604f4030122e1a31796487f52662b095ebf659e250bbb09bd5ea52",
+      "bars_verified": 12
+    },
+    {
+      "role": "author",
+      "period": "Last 12 Months",
+      "measure": " Profit Ratio ",
+      "file": "outputs/cloud-author-chart-months-profit-ratio.csv",
+      "sha256": "7131379dec38841d060ccf274fc01d0455524f8db85f040a8e6ddb20b7eaabfc",
+      "bars_verified": 12
+    },
+    {
+      "role": "replica",
+      "period": "Last 12 Months",
+      "measure": " Profit Ratio ",
+      "file": "outputs/cloud-replica-chart-months-profit-ratio.csv",
+      "sha256": "64f997b4190d24b1699885f680411e976d828e14e054a9dd785f484174101c38",
+      "bars_verified": 12
+    },
+    {
+      "role": "author",
+      "period": "Last 12 Months",
+      "measure": " Items Per Order ",
+      "file": "outputs/cloud-author-chart-months-items-per-order.csv",
+      "sha256": "6e669a5e7d90ec73d1d7ab95f6a5a1dade86828788d76a7674253d5792f8ebd6",
+      "bars_verified": 12
+    },
+    {
+      "role": "replica",
+      "period": "Last 12 Months",
+      "measure": " Items Per Order ",
+      "file": "outputs/cloud-replica-chart-months-items-per-order.csv",
+      "sha256": "a6d6eacac11d657023084d56145c6d6710329448f4a91b5a32c18afc56a75b05",
+      "bars_verified": 12
+    },
+    {
+      "role": "author",
+      "period": "Last 13 Weeks",
+      "measure": " Sales ",
+      "file": "outputs/cloud-author-chart-weeks-sales.csv",
+      "sha256": "28e43f527dd981d1379457def94bf00b89e321fa02f028b38052a5e3e351ac77",
+      "bars_verified": 14
+    },
+    {
+      "role": "replica",
+      "period": "Last 13 Weeks",
+      "measure": " Sales ",
+      "file": "outputs/cloud-replica-chart-weeks-sales.csv",
+      "sha256": "088af341c8fdf03815dc1bb217a79ad571aa389aae024f5d8c242193a761350d",
+      "bars_verified": 14
+    },
+    {
+      "role": "author",
+      "period": "Last 13 Weeks",
+      "measure": " Profit Ratio ",
+      "file": "outputs/cloud-author-chart-weeks-profit-ratio.csv",
+      "sha256": "05c6915794145983c008ab2fbed52b7ef68a25f7336e24d8459c5a325de6cef5",
+      "bars_verified": 14
+    },
+    {
+      "role": "replica",
+      "period": "Last 13 Weeks",
+      "measure": " Profit Ratio ",
+      "file": "outputs/cloud-replica-chart-weeks-profit-ratio.csv",
+      "sha256": "9b9e2f63ba2104e4abb07a7d1089b777429f7506c2b0c64a9cb83803f62d2f2f",
+      "bars_verified": 14
+    },
+    {
+      "role": "author",
+      "period": "Last 13 Weeks",
+      "measure": " Items Per Order ",
+      "file": "outputs/cloud-author-chart-weeks-items-per-order.csv",
+      "sha256": "79ac7b67cb41971cdddff06ed7e31789de923c68ed1ca0efa0ea97a3a3aa2476",
+      "bars_verified": 14
+    },
+    {
+      "role": "replica",
+      "period": "Last 13 Weeks",
+      "measure": " Items Per Order ",
+      "file": "outputs/cloud-replica-chart-weeks-items-per-order.csv",
+      "sha256": "90356474de3e3b9819cc7da8b7398555b97545a81d8d291ccc88003c9316c4f3",
+      "bars_verified": 14
+    },
+    {
+      "role": "author",
+      "period": "Last 14 Days",
+      "measure": " Sales ",
+      "file": "outputs/cloud-author-chart-days-sales.csv",
+      "sha256": "fe4f27369581eb304e76dbd71aa7aadb5cd18a29023f4b7eeb60c46cb1d5e0bc",
+      "bars_verified": 13
+    },
+    {
+      "role": "replica",
+      "period": "Last 14 Days",
+      "measure": " Sales ",
+      "file": "outputs/cloud-replica-chart-days-sales.csv",
+      "sha256": "6b5dfe1f8c524933e744dc6e6d52f44e53ccd21e8ae1f9819048e24b1a0a9068",
+      "bars_verified": 13
+    },
+    {
+      "role": "author",
+      "period": "Last 14 Days",
+      "measure": " Profit Ratio ",
+      "file": "outputs/cloud-author-chart-days-profit-ratio.csv",
+      "sha256": "0d5bc6e36331ad70a37eacf88a50b878989d28afc4e79fcee5ce30e1d3323cbb",
+      "bars_verified": 13
+    },
+    {
+      "role": "replica",
+      "period": "Last 14 Days",
+      "measure": " Profit Ratio ",
+      "file": "outputs/cloud-replica-chart-days-profit-ratio.csv",
+      "sha256": "d96fdb70d37cddfbfb630f8abfed139cd31871f1b287c75cf2c1cf7c840142d2",
+      "bars_verified": 13
+    },
+    {
+      "role": "author",
+      "period": "Last 14 Days",
+      "measure": " Items Per Order ",
+      "file": "outputs/cloud-author-chart-days-items-per-order.csv",
+      "sha256": "8f72619a91227835de445e21239fba7f737175c8750231d4027c23ef6c36daea",
+      "bars_verified": 13
+    },
+    {
+      "role": "replica",
+      "period": "Last 14 Days",
+      "measure": " Items Per Order ",
+      "file": "outputs/cloud-replica-chart-days-items-per-order.csv",
+      "sha256": "08a28089eadf57c9f6225e81d8a5c5ab5a0bc17cec00c4e690c10f22ea8c2684",
+      "bars_verified": 13
+    }
+  ],
+  "browser_interaction_executed": false
+}

@@ -1,0 +1,216 @@
+{
+  "case_id": "wow-2020-ww01-single-click-sort",
+  "captured_at": "2026-10-02T18:01:00.561215+00:00",
+  "source_hashes": {
+    "author": "bf57a401a6bd388e0a294f732c8cd283fe0607090d335064cb57a7b3a423ff4e",
+    "replica": "af050d4220864f079f25e821f1491d16a242def927494dda9830ef2a9ae25321"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "90fd4e90-1410-4f7e-8197-c993fbfa6bda",
+      "name": "cwtwb-review-wow-2020-ww01-single-click-sort-author-bf57a401a6bd",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2924956",
+      "views": [
+        {
+          "name": "2020_01_01_WW01_One_Click_Sort",
+          "id": "044cd402-46dc-411e-a7b0-cc9ad673c6a8"
+        },
+        {
+          "name": "2020_01_01_WW01_One_Click_Sort v2",
+          "id": "a801337a-2424-4cb4-bf9c-d8a603773c5b"
+        },
+        {
+          "name": "Header",
+          "id": "5988cf1b-c82d-46fe-a9d1-173a2cfdc404"
+        },
+        {
+          "name": "Header v2",
+          "id": "84ad4aa1-7e1f-4803-9f46-5095c4165076"
+        },
+        {
+          "name": "Table",
+          "id": "a336ce90-a757-4867-bd37-2d18881e53f6"
+        },
+        {
+          "name": "Table v2",
+          "id": "4b19320d-85a9-4dd4-a17a-c163b80307b4"
+        }
+      ]
+    },
+    "replica": {
+      "id": "28d71519-c852-4870-8ed8-5ebfc035b3f2",
+      "name": "cwtwb-review-wow-2020-ww01-single-click-sort-replica-af050d422086",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2924957",
+      "views": [
+        {
+          "name": "Header v2",
+          "id": "3a3f9722-82f2-4be1-bdab-646b311a85cb"
+        },
+        {
+          "name": "Table v2",
+          "id": "ad68a5d3-8aae-40a6-a5df-85e392fad908"
+        },
+        {
+          "name": "2020_01_01_WW01_One_Click_Sort v2",
+          "id": "a3237127-ba04-4c4c-9d0a-4e85ec208271"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "a801337a-2424-4cb4-bf9c-d8a603773c5b",
+          "name": "2020_01_01_WW01_One_Click_Sort v2",
+          "path": "outputs/cloud-author.png",
+          "sha256": "6610ef3704e3339ac5f928858f2ace4a3abe62c7bb78a60cc10bc604b387479b",
+          "size": [
+            1400,
+            1800
+          ]
+        },
+        "replica": {
+          "id": "a3237127-ba04-4c4c-9d0a-4e85ec208271",
+          "name": "2020_01_01_WW01_One_Click_Sort v2",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "7cdce203d429140b3f119ce771601600a70868234a4bc2ee3a121fd1429ed1d8",
+          "size": [
+            1400,
+            1800
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Table v2",
+          "view_id": "4b19320d-85a9-4dd4-a17a-c163b80307b4",
+          "scope": "All 17 sub-category rows of the three-metric table; not header buttons.",
+          "path": "outputs/cloud-author-table.csv",
+          "sha256": "39e3cbed9fc3aee599bc9fa1807304faa959c19cb4b0e7959cd312b3500d8ed4",
+          "bytes": 2448
+        },
+        {
+          "role": "replica",
+          "view": "Table v2",
+          "view_id": "ad68a5d3-8aae-40a6-a5df-85e392fad908",
+          "scope": "All 17 sub-category rows of the three-metric table; not header buttons.",
+          "path": "outputs/cloud-replica-table.csv",
+          "sha256": "96956cd738bfcec084470aa1e17cf156c7f6d7d918804e39fc68eefc8a863a32",
+          "bytes": 2752
+        }
+      ]
+    },
+    {
+      "name": "sales-per-order",
+      "parameters": {
+        "Sort (copy)": " Sales / Order "
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "a801337a-2424-4cb4-bf9c-d8a603773c5b",
+          "name": "2020_01_01_WW01_One_Click_Sort v2",
+          "path": "outputs/cloud-author-sales-per-order.png",
+          "sha256": "96acb99b3bc4af994bae4bfa76b1a5ef896973c704c8b3a6d6533cae74135b81",
+          "size": [
+            1400,
+            1800
+          ]
+        },
+        "replica": {
+          "id": "a3237127-ba04-4c4c-9d0a-4e85ec208271",
+          "name": "2020_01_01_WW01_One_Click_Sort v2",
+          "path": "outputs/cloud-replica-sales-per-order.png",
+          "sha256": "113779803713976bc3e5e5f1afdd7d271cdb7a04c613d218b851628375a3c8f3",
+          "size": [
+            1400,
+            1800
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Table v2",
+          "view_id": "4b19320d-85a9-4dd4-a17a-c163b80307b4",
+          "scope": "All 17 sub-category rows of the three-metric table; not header buttons.",
+          "path": "outputs/cloud-author-table-sales-per-order.csv",
+          "sha256": "31b5bbe0e79f3fa00310fdce165b7efff49aa8f2995db2eb5476ca03822d144f",
+          "bytes": 2175
+        },
+        {
+          "role": "replica",
+          "view": "Table v2",
+          "view_id": "ad68a5d3-8aae-40a6-a5df-85e392fad908",
+          "scope": "All 17 sub-category rows of the three-metric table; not header buttons.",
+          "path": "outputs/cloud-replica-table-sales-per-order.csv",
+          "sha256": "132d7c0176d764ce5268fccc9d144cb106ba664dd70f6298e5f8ce482df362c6",
+          "bytes": 2752
+        }
+      ]
+    },
+    {
+      "name": "profit-ratio",
+      "parameters": {
+        "Sort (copy)": " Profit Ratio "
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "a801337a-2424-4cb4-bf9c-d8a603773c5b",
+          "name": "2020_01_01_WW01_One_Click_Sort v2",
+          "path": "outputs/cloud-author-profit-ratio.png",
+          "sha256": "d5b4441f2e19b75938ceac5ba5f84670631fb79bad0e0ab7acc7b36b225193c7",
+          "size": [
+            1400,
+            1800
+          ]
+        },
+        "replica": {
+          "id": "a3237127-ba04-4c4c-9d0a-4e85ec208271",
+          "name": "2020_01_01_WW01_One_Click_Sort v2",
+          "path": "outputs/cloud-replica-profit-ratio.png",
+          "sha256": "31ae52921a517f8f281965ff1c17ac3240edd5f41e93796ce2d116b9c3d3c8ea",
+          "size": [
+            1400,
+            1800
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Table v2",
+          "view_id": "4b19320d-85a9-4dd4-a17a-c163b80307b4",
+          "scope": "All 17 sub-category rows of the three-metric table; not header buttons.",
+          "path": "outputs/cloud-author-table-profit-ratio.csv",
+          "sha256": "c65c483b168b2c244e8c0e510de148c6e597719d331152ae94468cebca0d28c0",
+          "bytes": 2064
+        },
+        {
+          "role": "replica",
+          "view": "Table v2",
+          "view_id": "ad68a5d3-8aae-40a6-a5df-85e392fad908",
+          "scope": "All 17 sub-category rows of the three-metric table; not header buttons.",
+          "path": "outputs/cloud-replica-table-profit-ratio.csv",
+          "sha256": "bd8e341d74eccdd8d6e84cf15c4ddf4c8d821834ac09c893a1c7171a1b08455c",
+          "bytes": 2650
+        }
+      ]
+    }
+  ],
+  "status": "verified",
+  "independent_review": {
+    "visual_status": "acceptable_delta",
+    "visual_evidence": "evidence/visual-review.md",
+    "functional_evidence": "evidence/functional-verification.json",
+    "scope": "Complete relevant worksheet exports and artifact contracts; no browser events executed."
+  }
+}

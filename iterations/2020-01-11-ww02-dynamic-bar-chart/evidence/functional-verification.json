@@ -1,0 +1,1028 @@
+{
+  "row_count": 9994,
+  "states": [
+    {
+      "period": "Last 12 Months",
+      "measure": " Sales ",
+      "metric": "sales",
+      "start": "2019-01-01",
+      "bars": 12,
+      "values": [
+        {
+          "date": "2019-01-01",
+          "sales": 43971.373999999996,
+          "profit_ratio": 0.16238835520582093,
+          "items_per_order": 8.652173913043478,
+          "orders": 69,
+          "quantity": 597
+        },
+        {
+          "date": "2019-02-01",
+          "sales": 20301.1334,
+          "profit_ratio": 0.07949664524641757,
+          "items_per_order": 6.849056603773585,
+          "orders": 53,
+          "quantity": 363
+        },
+        {
+          "date": "2019-03-01",
+          "sales": 58872.3528,
+          "profit_ratio": 0.2505741795323661,
+          "items_per_order": 7.5,
+          "orders": 118,
+          "quantity": 885
+        },
+        {
+          "date": "2019-04-01",
+          "sales": 36521.5361,
+          "profit_ratio": 0.025554511109405327,
+          "items_per_order": 6.318965517241379,
+          "orders": 116,
+          "quantity": 733
+        },
+        {
+          "date": "2019-05-01",
+          "sales": 44261.1102,
+          "profit_ratio": 0.1432992252417563,
+          "items_per_order": 7.516949152542373,
+          "orders": 118,
+          "quantity": 887
+        },
+        {
+          "date": "2019-06-01",
+          "sales": 52981.7257,
+          "profit_ratio": 0.15521079374732405,
+          "items_per_order": 7.0,
+          "orders": 133,
+          "quantity": 931
+        },
+        {
+          "date": "2019-07-01",
+          "sales": 45264.416000000005,
+          "profit_ratio": 0.15360015249064515,
+          "items_per_order": 7.5675675675675675,
+          "orders": 111,
+          "quantity": 840
+        },
+        {
+          "date": "2019-08-01",
+          "sales": 63120.888000000006,
+          "profit_ratio": 0.14323239083708705,
+          "items_per_order": 7.963963963963964,
+          "orders": 111,
+          "quantity": 884
+        },
+        {
+          "date": "2019-09-01",
+          "sales": 87866.652,
+          "profit_ratio": 0.12509359751182964,
+          "items_per_order": 7.345132743362832,
+          "orders": 226,
+          "quantity": 1660
+        },
+        {
+          "date": "2019-10-01",
+          "sales": 77776.9232,
+          "profit_ratio": 0.11925485244703017,
+          "items_per_order": 7.707482993197279,
+          "orders": 147,
+          "quantity": 1133
+        },
+        {
+          "date": "2019-11-01",
+          "sales": 118447.825,
+          "profit_ratio": 0.08180904714797421,
+          "items_per_order": 7.049808429118774,
+          "orders": 261,
+          "quantity": 1840
+        },
+        {
+          "date": "2019-12-01",
+          "sales": 83829.3188,
+          "profit_ratio": 0.10119784964780125,
+          "items_per_order": 7.691964285714286,
+          "orders": 224,
+          "quantity": 1723
+        }
+      ]
+    },
+    {
+      "period": "Last 12 Months",
+      "measure": " Profit Ratio ",
+      "metric": "profit_ratio",
+      "start": "2019-01-01",
+      "bars": 12,
+      "values": [
+        {
+          "date": "2019-01-01",
+          "sales": 43971.373999999996,
+          "profit_ratio": 0.16238835520582093,
+          "items_per_order": 8.652173913043478,
+          "orders": 69,
+          "quantity": 597
+        },
+        {
+          "date": "2019-02-01",
+          "sales": 20301.1334,
+          "profit_ratio": 0.07949664524641757,
+          "items_per_order": 6.849056603773585,
+          "orders": 53,
+          "quantity": 363
+        },
+        {
+          "date": "2019-03-01",
+          "sales": 58872.3528,
+          "profit_ratio": 0.2505741795323661,
+          "items_per_order": 7.5,
+          "orders": 118,
+          "quantity": 885
+        },
+        {
+          "date": "2019-04-01",
+          "sales": 36521.5361,
+          "profit_ratio": 0.025554511109405327,
+          "items_per_order": 6.318965517241379,
+          "orders": 116,
+          "quantity": 733
+        },
+        {
+          "date": "2019-05-01",
+          "sales": 44261.1102,
+          "profit_ratio": 0.1432992252417563,
+          "items_per_order": 7.516949152542373,
+          "orders": 118,
+          "quantity": 887
+        },
+        {
+          "date": "2019-06-01",
+          "sales": 52981.7257,
+          "profit_ratio": 0.15521079374732405,
+          "items_per_order": 7.0,
+          "orders": 133,
+          "quantity": 931
+        },
+        {
+          "date": "2019-07-01",
+          "sales": 45264.416000000005,
+          "profit_ratio": 0.15360015249064515,
+          "items_per_order": 7.5675675675675675,
+          "orders": 111,
+          "quantity": 840
+        },
+        {
+          "date": "2019-08-01",
+          "sales": 63120.888000000006,
+          "profit_ratio": 0.14323239083708705,
+          "items_per_order": 7.963963963963964,
+          "orders": 111,
+          "quantity": 884
+        },
+        {
+          "date": "2019-09-01",
+          "sales": 87866.652,
+          "profit_ratio": 0.12509359751182964,
+          "items_per_order": 7.345132743362832,
+          "orders": 226,
+          "quantity": 1660
+        },
+        {
+          "date": "2019-10-01",
+          "sales": 77776.9232,
+          "profit_ratio": 0.11925485244703017,
+          "items_per_order": 7.707482993197279,
+          "orders": 147,
+          "quantity": 1133
+        },
+        {
+          "date": "2019-11-01",
+          "sales": 118447.825,
+          "profit_ratio": 0.08180904714797421,
+          "items_per_order": 7.049808429118774,
+          "orders": 261,
+          "quantity": 1840
+        },
+        {
+          "date": "2019-12-01",
+          "sales": 83829.3188,
+          "profit_ratio": 0.10119784964780125,
+          "items_per_order": 7.691964285714286,
+          "orders": 224,
+          "quantity": 1723
+        }
+      ]
+    },
+    {
+      "period": "Last 12 Months",
+      "measure": " Items Per Order ",
+      "metric": "items_per_order",
+      "start": "2019-01-01",
+      "bars": 12,
+      "values": [
+        {
+          "date": "2019-01-01",
+          "sales": 43971.373999999996,
+          "profit_ratio": 0.16238835520582093,
+          "items_per_order": 8.652173913043478,
+          "orders": 69,
+          "quantity": 597
+        },
+        {
+          "date": "2019-02-01",
+          "sales": 20301.1334,
+          "profit_ratio": 0.07949664524641757,
+          "items_per_order": 6.849056603773585,
+          "orders": 53,
+          "quantity": 363
+        },
+        {
+          "date": "2019-03-01",
+          "sales": 58872.3528,
+          "profit_ratio": 0.2505741795323661,
+          "items_per_order": 7.5,
+          "orders": 118,
+          "quantity": 885
+        },
+        {
+          "date": "2019-04-01",
+          "sales": 36521.5361,
+          "profit_ratio": 0.025554511109405327,
+          "items_per_order": 6.318965517241379,
+          "orders": 116,
+          "quantity": 733
+        },
+        {
+          "date": "2019-05-01",
+          "sales": 44261.1102,
+          "profit_ratio": 0.1432992252417563,
+          "items_per_order": 7.516949152542373,
+          "orders": 118,
+          "quantity": 887
+        },
+        {
+          "date": "2019-06-01",
+          "sales": 52981.7257,
+          "profit_ratio": 0.15521079374732405,
+          "items_per_order": 7.0,
+          "orders": 133,
+          "quantity": 931
+        },
+        {
+          "date": "2019-07-01",
+          "sales": 45264.416000000005,
+          "profit_ratio": 0.15360015249064515,
+          "items_per_order": 7.5675675675675675,
+          "orders": 111,
+          "quantity": 840
+        },
+        {
+          "date": "2019-08-01",
+          "sales": 63120.888000000006,
+          "profit_ratio": 0.14323239083708705,
+          "items_per_order": 7.963963963963964,
+          "orders": 111,
+          "quantity": 884
+        },
+        {
+          "date": "2019-09-01",
+          "sales": 87866.652,
+          "profit_ratio": 0.12509359751182964,
+          "items_per_order": 7.345132743362832,
+          "orders": 226,
+          "quantity": 1660
+        },
+        {
+          "date": "2019-10-01",
+          "sales": 77776.9232,
+          "profit_ratio": 0.11925485244703017,
+          "items_per_order": 7.707482993197279,
+          "orders": 147,
+          "quantity": 1133
+        },
+        {
+          "date": "2019-11-01",
+          "sales": 118447.825,
+          "profit_ratio": 0.08180904714797421,
+          "items_per_order": 7.049808429118774,
+          "orders": 261,
+          "quantity": 1840
+        },
+        {
+          "date": "2019-12-01",
+          "sales": 83829.3188,
+          "profit_ratio": 0.10119784964780125,
+          "items_per_order": 7.691964285714286,
+          "orders": 224,
+          "quantity": 1723
+        }
+      ]
+    },
+    {
+      "period": "Last 13 Weeks",
+      "measure": " Sales ",
+      "metric": "sales",
+      "start": "2019-10-02",
+      "bars": 14,
+      "values": [
+        {
+          "date": "2019-09-29",
+          "sales": 14627.098,
+          "profit_ratio": 0.09104441632919938,
+          "items_per_order": 9.181818181818182,
+          "orders": 22,
+          "quantity": 202
+        },
+        {
+          "date": "2019-10-06",
+          "sales": 12228.519,
+          "profit_ratio": 0.05936442507878504,
+          "items_per_order": 7.096774193548387,
+          "orders": 31,
+          "quantity": 220
+        },
+        {
+          "date": "2019-10-13",
+          "sales": 15939.8932,
+          "profit_ratio": 0.015479294428396783,
+          "items_per_order": 6.606060606060606,
+          "orders": 33,
+          "quantity": 218
+        },
+        {
+          "date": "2019-10-20",
+          "sales": 25911.283,
+          "profit_ratio": 0.20201006256618012,
+          "items_per_order": 7.485714285714286,
+          "orders": 35,
+          "quantity": 262
+        },
+        {
+          "date": "2019-10-27",
+          "sales": 15307.48,
+          "profit_ratio": 0.13140766474952115,
+          "items_per_order": 8.735294117647058,
+          "orders": 34,
+          "quantity": 297
+        },
+        {
+          "date": "2019-11-03",
+          "sales": 29397.817,
+          "profit_ratio": -0.02515779658061003,
+          "items_per_order": 6.721311475409836,
+          "orders": 61,
+          "quantity": 410
+        },
+        {
+          "date": "2019-11-10",
+          "sales": 21516.6642,
+          "profit_ratio": 0.01677474243428492,
+          "items_per_order": 6.228571428571429,
+          "orders": 70,
+          "quantity": 436
+        },
+        {
+          "date": "2019-11-17",
+          "sales": 28975.1898,
+          "profit_ratio": 0.19197324464117918,
+          "items_per_order": 7.163934426229508,
+          "orders": 61,
+          "quantity": 437
+        },
+        {
+          "date": "2019-11-24",
+          "sales": 29342.338,
+          "profit_ratio": 0.10967905147844725,
+          "items_per_order": 7.763636363636364,
+          "orders": 55,
+          "quantity": 427
+        },
+        {
+          "date": "2019-12-01",
+          "sales": 23706.170000000002,
+          "profit_ratio": -0.05339776944145768,
+          "items_per_order": 8.546875,
+          "orders": 64,
+          "quantity": 547
+        },
+        {
+          "date": "2019-12-08",
+          "sales": 24289.605,
+          "profit_ratio": 0.14777401279271524,
+          "items_per_order": 8.321428571428571,
+          "orders": 56,
+          "quantity": 466
+        },
+        {
+          "date": "2019-12-15",
+          "sales": 11253.860999999999,
+          "profit_ratio": 0.17442328459539352,
+          "items_per_order": 6.666666666666667,
+          "orders": 39,
+          "quantity": 260
+        },
+        {
+          "date": "2019-12-22",
+          "sales": 20950.3588,
+          "profit_ratio": 0.16471915029923015,
+          "items_per_order": 7.0181818181818185,
+          "orders": 55,
+          "quantity": 386
+        },
+        {
+          "date": "2019-12-29",
+          "sales": 3629.324,
+          "profit_ratio": 0.20553973687661942,
+          "items_per_order": 6.4,
+          "orders": 10,
+          "quantity": 64
+        }
+      ]
+    },
+    {
+      "period": "Last 13 Weeks",
+      "measure": " Profit Ratio ",
+      "metric": "profit_ratio",
+      "start": "2019-10-02",
+      "bars": 14,
+      "values": [
+        {
+          "date": "2019-09-29",
+          "sales": 14627.098,
+          "profit_ratio": 0.09104441632919938,
+          "items_per_order": 9.181818181818182,
+          "orders": 22,
+          "quantity": 202
+        },
+        {
+          "date": "2019-10-06",
+          "sales": 12228.519,
+          "profit_ratio": 0.05936442507878504,
+          "items_per_order": 7.096774193548387,
+          "orders": 31,
+          "quantity": 220
+        },
+        {
+          "date": "2019-10-13",
+          "sales": 15939.8932,
+          "profit_ratio": 0.015479294428396783,
+          "items_per_order": 6.606060606060606,
+          "orders": 33,
+          "quantity": 218
+        },
+        {
+          "date": "2019-10-20",
+          "sales": 25911.283,
+          "profit_ratio": 0.20201006256618012,
+          "items_per_order": 7.485714285714286,
+          "orders": 35,
+          "quantity": 262
+        },
+        {
+          "date": "2019-10-27",
+          "sales": 15307.48,
+          "profit_ratio": 0.13140766474952115,
+          "items_per_order": 8.735294117647058,
+          "orders": 34,
+          "quantity": 297
+        },
+        {
+          "date": "2019-11-03",
+          "sales": 29397.817,
+          "profit_ratio": -0.02515779658061003,
+          "items_per_order": 6.721311475409836,
+          "orders": 61,
+          "quantity": 410
+        },
+        {
+          "date": "2019-11-10",
+          "sales": 21516.6642,
+          "profit_ratio": 0.01677474243428492,
+          "items_per_order": 6.228571428571429,
+          "orders": 70,
+          "quantity": 436
+        },
+        {
+          "date": "2019-11-17",
+          "sales": 28975.1898,
+          "profit_ratio": 0.19197324464117918,
+          "items_per_order": 7.163934426229508,
+          "orders": 61,
+          "quantity": 437
+        },
+        {
+          "date": "2019-11-24",
+          "sales": 29342.338,
+          "profit_ratio": 0.10967905147844725,
+          "items_per_order": 7.763636363636364,
+          "orders": 55,
+          "quantity": 427
+        },
+        {
+          "date": "2019-12-01",
+          "sales": 23706.170000000002,
+          "profit_ratio": -0.05339776944145768,
+          "items_per_order": 8.546875,
+          "orders": 64,
+          "quantity": 547
+        },
+        {
+          "date": "2019-12-08",
+          "sales": 24289.605,
+          "profit_ratio": 0.14777401279271524,
+          "items_per_order": 8.321428571428571,
+          "orders": 56,
+          "quantity": 466
+        },
+        {
+          "date": "2019-12-15",
+          "sales": 11253.860999999999,
+          "profit_ratio": 0.17442328459539352,
+          "items_per_order": 6.666666666666667,
+          "orders": 39,
+          "quantity": 260
+        },
+        {
+          "date": "2019-12-22",
+          "sales": 20950.3588,
+          "profit_ratio": 0.16471915029923015,
+          "items_per_order": 7.0181818181818185,
+          "orders": 55,
+          "quantity": 386
+        },
+        {
+          "date": "2019-12-29",
+          "sales": 3629.324,
+          "profit_ratio": 0.20553973687661942,
+          "items_per_order": 6.4,
+          "orders": 10,
+          "quantity": 64
+        }
+      ]
+    },
+    {
+      "period": "Last 13 Weeks",
+      "measure": " Items Per Order ",
+      "metric": "items_per_order",
+      "start": "2019-10-02",
+      "bars": 14,
+      "values": [
+        {
+          "date": "2019-09-29",
+          "sales": 14627.098,
+          "profit_ratio": 0.09104441632919938,
+          "items_per_order": 9.181818181818182,
+          "orders": 22,
+          "quantity": 202
+        },
+        {
+          "date": "2019-10-06",
+          "sales": 12228.519,
+          "profit_ratio": 0.05936442507878504,
+          "items_per_order": 7.096774193548387,
+          "orders": 31,
+          "quantity": 220
+        },
+        {
+          "date": "2019-10-13",
+          "sales": 15939.8932,
+          "profit_ratio": 0.015479294428396783,
+          "items_per_order": 6.606060606060606,
+          "orders": 33,
+          "quantity": 218
+        },
+        {
+          "date": "2019-10-20",
+          "sales": 25911.283,
+          "profit_ratio": 0.20201006256618012,
+          "items_per_order": 7.485714285714286,
+          "orders": 35,
+          "quantity": 262
+        },
+        {
+          "date": "2019-10-27",
+          "sales": 15307.48,
+          "profit_ratio": 0.13140766474952115,
+          "items_per_order": 8.735294117647058,
+          "orders": 34,
+          "quantity": 297
+        },
+        {
+          "date": "2019-11-03",
+          "sales": 29397.817,
+          "profit_ratio": -0.02515779658061003,
+          "items_per_order": 6.721311475409836,
+          "orders": 61,
+          "quantity": 410
+        },
+        {
+          "date": "2019-11-10",
+          "sales": 21516.6642,
+          "profit_ratio": 0.01677474243428492,
+          "items_per_order": 6.228571428571429,
+          "orders": 70,
+          "quantity": 436
+        },
+        {
+          "date": "2019-11-17",
+          "sales": 28975.1898,
+          "profit_ratio": 0.19197324464117918,
+          "items_per_order": 7.163934426229508,
+          "orders": 61,
+          "quantity": 437
+        },
+        {
+          "date": "2019-11-24",
+          "sales": 29342.338,
+          "profit_ratio": 0.10967905147844725,
+          "items_per_order": 7.763636363636364,
+          "orders": 55,
+          "quantity": 427
+        },
+        {
+          "date": "2019-12-01",
+          "sales": 23706.170000000002,
+          "profit_ratio": -0.05339776944145768,
+          "items_per_order": 8.546875,
+          "orders": 64,
+          "quantity": 547
+        },
+        {
+          "date": "2019-12-08",
+          "sales": 24289.605,
+          "profit_ratio": 0.14777401279271524,
+          "items_per_order": 8.321428571428571,
+          "orders": 56,
+          "quantity": 466
+        },
+        {
+          "date": "2019-12-15",
+          "sales": 11253.860999999999,
+          "profit_ratio": 0.17442328459539352,
+          "items_per_order": 6.666666666666667,
+          "orders": 39,
+          "quantity": 260
+        },
+        {
+          "date": "2019-12-22",
+          "sales": 20950.3588,
+          "profit_ratio": 0.16471915029923015,
+          "items_per_order": 7.0181818181818185,
+          "orders": 55,
+          "quantity": 386
+        },
+        {
+          "date": "2019-12-29",
+          "sales": 3629.324,
+          "profit_ratio": 0.20553973687661942,
+          "items_per_order": 6.4,
+          "orders": 10,
+          "quantity": 64
+        }
+      ]
+    },
+    {
+      "period": "Last 14 Days",
+      "measure": " Sales ",
+      "metric": "sales",
+      "start": "2019-12-18",
+      "bars": 13,
+      "values": [
+        {
+          "date": "2019-12-18",
+          "sales": 3645.9109999999996,
+          "profit_ratio": 0.23061882201732295,
+          "items_per_order": 9.555555555555555,
+          "orders": 9,
+          "quantity": 86
+        },
+        {
+          "date": "2019-12-19",
+          "sales": 1895.926,
+          "profit_ratio": -0.08041431996818435,
+          "items_per_order": 6.0,
+          "orders": 3,
+          "quantity": 18
+        },
+        {
+          "date": "2019-12-20",
+          "sales": 377.736,
+          "profit_ratio": 0.46834694072050326,
+          "items_per_order": 6.5,
+          "orders": 2,
+          "quantity": 13
+        },
+        {
+          "date": "2019-12-21",
+          "sales": 2140.94,
+          "profit_ratio": 0.2665938793240352,
+          "items_per_order": 4.75,
+          "orders": 8,
+          "quantity": 38
+        },
+        {
+          "date": "2019-12-22",
+          "sales": 7442.021,
+          "profit_ratio": 0.12861058844096246,
+          "items_per_order": 8.333333333333334,
+          "orders": 12,
+          "quantity": 100
+        },
+        {
+          "date": "2019-12-23",
+          "sales": 1926.776,
+          "profit_ratio": 0.1474472382882078,
+          "items_per_order": 9.0,
+          "orders": 7,
+          "quantity": 63
+        },
+        {
+          "date": "2019-12-24",
+          "sales": 6233.054,
+          "profit_ratio": 0.25160053161740614,
+          "items_per_order": 4.909090909090909,
+          "orders": 11,
+          "quantity": 54
+        },
+        {
+          "date": "2019-12-25",
+          "sales": 2698.9269999999997,
+          "profit_ratio": 0.1330900391155448,
+          "items_per_order": 8.7,
+          "orders": 10,
+          "quantity": 87
+        },
+        {
+          "date": "2019-12-26",
+          "sales": 814.5939999999999,
+          "profit_ratio": 0.07503148807872387,
+          "items_per_order": 3.0,
+          "orders": 4,
+          "quantity": 12
+        },
+        {
+          "date": "2019-12-27",
+          "sales": 177.636,
+          "profit_ratio": -0.179998423742935,
+          "items_per_order": 6.0,
+          "orders": 1,
+          "quantity": 6
+        },
+        {
+          "date": "2019-12-28",
+          "sales": 1657.3508000000002,
+          "profit_ratio": 0.15272493910160714,
+          "items_per_order": 6.4,
+          "orders": 10,
+          "quantity": 64
+        },
+        {
+          "date": "2019-12-29",
+          "sales": 2915.534,
+          "profit_ratio": 0.22103456862447834,
+          "items_per_order": 6.833333333333333,
+          "orders": 6,
+          "quantity": 41
+        },
+        {
+          "date": "2019-12-30",
+          "sales": 713.7900000000001,
+          "profit_ratio": 0.1422498213760349,
+          "items_per_order": 5.75,
+          "orders": 4,
+          "quantity": 23
+        }
+      ]
+    },
+    {
+      "period": "Last 14 Days",
+      "measure": " Profit Ratio ",
+      "metric": "profit_ratio",
+      "start": "2019-12-18",
+      "bars": 13,
+      "values": [
+        {
+          "date": "2019-12-18",
+          "sales": 3645.9109999999996,
+          "profit_ratio": 0.23061882201732295,
+          "items_per_order": 9.555555555555555,
+          "orders": 9,
+          "quantity": 86
+        },
+        {
+          "date": "2019-12-19",
+          "sales": 1895.926,
+          "profit_ratio": -0.08041431996818435,
+          "items_per_order": 6.0,
+          "orders": 3,
+          "quantity": 18
+        },
+        {
+          "date": "2019-12-20",
+          "sales": 377.736,
+          "profit_ratio": 0.46834694072050326,
+          "items_per_order": 6.5,
+          "orders": 2,
+          "quantity": 13
+        },
+        {
+          "date": "2019-12-21",
+          "sales": 2140.94,
+          "profit_ratio": 0.2665938793240352,
+          "items_per_order": 4.75,
+          "orders": 8,
+          "quantity": 38
+        },
+        {
+          "date": "2019-12-22",
+          "sales": 7442.021,
+          "profit_ratio": 0.12861058844096246,
+          "items_per_order": 8.333333333333334,
+          "orders": 12,
+          "quantity": 100
+        },
+        {
+          "date": "2019-12-23",
+          "sales": 1926.776,
+          "profit_ratio": 0.1474472382882078,
+          "items_per_order": 9.0,
+          "orders": 7,
+          "quantity": 63
+        },
+        {
+          "date": "2019-12-24",
+          "sales": 6233.054,
+          "profit_ratio": 0.25160053161740614,
+          "items_per_order": 4.909090909090909,
+          "orders": 11,
+          "quantity": 54
+        },
+        {
+          "date": "2019-12-25",
+          "sales": 2698.9269999999997,
+          "profit_ratio": 0.1330900391155448,
+          "items_per_order": 8.7,
+          "orders": 10,
+          "quantity": 87
+        },
+        {
+          "date": "2019-12-26",
+          "sales": 814.5939999999999,
+          "profit_ratio": 0.07503148807872387,
+          "items_per_order": 3.0,
+          "orders": 4,
+          "quantity": 12
+        },
+        {
+          "date": "2019-12-27",
+          "sales": 177.636,
+          "profit_ratio": -0.179998423742935,
+          "items_per_order": 6.0,
+          "orders": 1,
+          "quantity": 6
+        },
+        {
+          "date": "2019-12-28",
+          "sales": 1657.3508000000002,
+          "profit_ratio": 0.15272493910160714,
+          "items_per_order": 6.4,
+          "orders": 10,
+          "quantity": 64
+        },
+        {
+          "date": "2019-12-29",
+          "sales": 2915.534,
+          "profit_ratio": 0.22103456862447834,
+          "items_per_order": 6.833333333333333,
+          "orders": 6,
+          "quantity": 41
+        },
+        {
+          "date": "2019-12-30",
+          "sales": 713.7900000000001,
+          "profit_ratio": 0.1422498213760349,
+          "items_per_order": 5.75,
+          "orders": 4,
+          "quantity": 23
+        }
+      ]
+    },
+    {
+      "period": "Last 14 Days",
+      "measure": " Items Per Order ",
+      "metric": "items_per_order",
+      "start": "2019-12-18",
+      "bars": 13,
+      "values": [
+        {
+          "date": "2019-12-18",
+          "sales": 3645.9109999999996,
+          "profit_ratio": 0.23061882201732295,
+          "items_per_order": 9.555555555555555,
+          "orders": 9,
+          "quantity": 86
+        },
+        {
+          "date": "2019-12-19",
+          "sales": 1895.926,
+          "profit_ratio": -0.08041431996818435,
+          "items_per_order": 6.0,
+          "orders": 3,
+          "quantity": 18
+        },
+        {
+          "date": "2019-12-20",
+          "sales": 377.736,
+          "profit_ratio": 0.46834694072050326,
+          "items_per_order": 6.5,
+          "orders": 2,
+          "quantity": 13
+        },
+        {
+          "date": "2019-12-21",
+          "sales": 2140.94,
+          "profit_ratio": 0.2665938793240352,
+          "items_per_order": 4.75,
+          "orders": 8,
+          "quantity": 38
+        },
+        {
+          "date": "2019-12-22",
+          "sales": 7442.021,
+          "profit_ratio": 0.12861058844096246,
+          "items_per_order": 8.333333333333334,
+          "orders": 12,
+          "quantity": 100
+        },
+        {
+          "date": "2019-12-23",
+          "sales": 1926.776,
+          "profit_ratio": 0.1474472382882078,
+          "items_per_order": 9.0,
+          "orders": 7,
+          "quantity": 63
+        },
+        {
+          "date": "2019-12-24",
+          "sales": 6233.054,
+          "profit_ratio": 0.25160053161740614,
+          "items_per_order": 4.909090909090909,
+          "orders": 11,
+          "quantity": 54
+        },
+        {
+          "date": "2019-12-25",
+          "sales": 2698.9269999999997,
+          "profit_ratio": 0.1330900391155448,
+          "items_per_order": 8.7,
+          "orders": 10,
+          "quantity": 87
+        },
+        {
+          "date": "2019-12-26",
+          "sales": 814.5939999999999,
+          "profit_ratio": 0.07503148807872387,
+          "items_per_order": 3.0,
+          "orders": 4,
+          "quantity": 12
+        },
+        {
+          "date": "2019-12-27",
+          "sales": 177.636,
+          "profit_ratio": -0.179998423742935,
+          "items_per_order": 6.0,
+          "orders": 1,
+          "quantity": 6
+        },
+        {
+          "date": "2019-12-28",
+          "sales": 1657.3508000000002,
+          "profit_ratio": 0.15272493910160714,
+          "items_per_order": 6.4,
+          "orders": 10,
+          "quantity": 64
+        },
+        {
+          "date": "2019-12-29",
+          "sales": 2915.534,
+          "profit_ratio": 0.22103456862447834,
+          "items_per_order": 6.833333333333333,
+          "orders": 6,
+          "quantity": 41
+        },
+        {
+          "date": "2019-12-30",
+          "sales": 713.7900000000001,
+          "profit_ratio": 0.1422498213760349,
+          "items_per_order": 5.75,
+          "orders": 4,
+          "quantity": 23
+        }
+      ]
+    }
+  ],
+  "week_start": "sunday",
+  "reference_today": "2020-01-01",
+  "status": "pass",
+  "artifact_sha256": "d6df2322340c537c70a5be0f7e84d097e8341acb31f198902dbd181495605042",
+  "browser_interaction_executed": false,
+  "interaction_scope": "Artifact select/source/parameter target/keep-current and self-filter show-all contracts. REST exports do not execute browser clicks."
+}

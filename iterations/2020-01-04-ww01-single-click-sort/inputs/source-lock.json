@@ -1,0 +1,17 @@
+{
+  "source_workbook_used_by_builder": false,
+  "download_url": "https://public.tableau.com/workbooks/2020_01_01_WW01_One_Click_Sort.twb",
+  "locked_original_sha256": "2cce714425a8b0f87cb3757c9ce16c53137c1f7814e300c786e756e7781f2268",
+  "download_sha256": "2cce714425a8b0f87cb3757c9ce16c53137c1f7814e300c786e756e7781f2268",
+  "exact_locked_original": true,
+  "article_url": "https://donnacoles.home.blog/2020/01/04/can-you-sort-dimensions-with-a-single-click/",
+  "article_sha256": "9185b22ba3f24d1d9ec4bcf5e9cfafcf1dc9d430d6c7cf70047aa4679a66839e",
+  "extracted_data": [
+    {
+      "file": "inputs/Orders (Sample - Superstore).hyper",
+      "archive_member": "Data/Datasources/Orders (Sample - Superstore).hyper",
+      "bytes": 983040,
+      "sha256": "c751e44f8ed8c54c122c13091c5dd93b2a82ecdb9402040928893b889c182c59"
+    }
+  ]
+}

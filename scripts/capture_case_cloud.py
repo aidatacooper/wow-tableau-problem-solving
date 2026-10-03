@@ -67,7 +67,7 @@ def capture(request):
         project = next(p for p in TSC.Pager(server.projects) if p.name == request.get("project", "default"))
         published = {}
         for role, path in (("author", author), ("replica", replica)):
-            item = TSC.WorkbookItem(project.id, name=f"cwtwb-review-{case['case_id']}-{role}", show_tabs=True)
+            item = TSC.WorkbookItem(project.id, name=f"cwtwb-review-{case['case_id']}-{role}-{digest(path)[:12]}", show_tabs=True)
             workbook = retry(lambda: server.workbooks.publish(item, str(path), mode=TSC.Server.PublishMode.Overwrite))
             server.workbooks.populate_views(workbook)
             published[role] = workbook
@@ -90,10 +90,11 @@ def capture(request):
                 options = apply_state(TSC.ImageRequestOptions(imageresolution=TSC.ImageRequestOptions.Resolution.High, maxage=1), state)
                 retry(lambda: server.views.populate_image(view, options))
                 image_path = outputs / f"cloud-{role}{suffix}.png"
-                image_path.write_bytes(view.image)
-                if not view.image.startswith(b"\x89PNG\r\n\x1a\n"):
+                image_bytes = view.image
+                image_path.write_bytes(image_bytes)
+                if not image_bytes.startswith(b"\x89PNG\r\n\x1a\n"):
                     raise ValueError("Cloud did not return PNG bytes")
-                record["views"][role] = {"id": view.id, "name": view.name, "path": image_path.relative_to(case_dir).as_posix(), "sha256": digest(image_path), "size": list(struct.unpack(">II", view.image[16:24]))}
+                record["views"][role] = {"id": view.id, "name": view.name, "path": image_path.relative_to(case_dir).as_posix(), "sha256": digest(image_path), "size": list(struct.unpack(">II", image_bytes[16:24]))}
                 for data_request in request.get("data_views", []):
                     data_view = next(v for v in workbook.views if v.name == data_request[role])
                     csv_options = apply_state(TSC.CSVRequestOptions(maxage=1), state)

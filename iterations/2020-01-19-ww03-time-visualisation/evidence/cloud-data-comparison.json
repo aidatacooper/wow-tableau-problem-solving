@@ -1,0 +1,49 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "role": "author",
+      "parameter": "Weeks",
+      "file": "outputs/cloud-author-by-weekday.csv",
+      "sha256": "1e1d7b5cbbe3da1db97991bf2e589409ce5c8eeebdb883cf9db7b5be2e3773af",
+      "rows": 1129,
+      "circle_marks": 1047,
+      "gantt_spans": 82
+    },
+    {
+      "role": "replica",
+      "parameter": "Weeks",
+      "file": "outputs/cloud-replica-by-weekday.csv",
+      "sha256": "4309263febe408629829e997674382f4c449643fdd302174a011021b4e266998",
+      "rows": 1129,
+      "circle_marks": 1047,
+      "gantt_spans": 82
+    },
+    {
+      "role": "author",
+      "parameter": "Days",
+      "file": "outputs/cloud-author-by-day-days.csv",
+      "sha256": "737e643c9ebfe841705d3c5b148c07bde6ef8e73a5cb0e6418ade5ee2566a884",
+      "rows": 1817,
+      "circle_marks": 1495,
+      "gantt_spans": 322
+    },
+    {
+      "role": "replica",
+      "parameter": "Days",
+      "file": "outputs/cloud-replica-by-day-days.csv",
+      "sha256": "fefc7fb9be6163d8938aac976d34e3799292b580742befb29ed5e96b9e3e2a22",
+      "rows": 1817,
+      "circle_marks": 1495,
+      "gantt_spans": 322
+    }
+  ],
+  "inactive_sheet_exports": [
+    "outputs/cloud-author-by-day.csv",
+    "outputs/cloud-author-by-weekday-days.csv",
+    "outputs/cloud-replica-by-day.csv",
+    "outputs/cloud-replica-by-weekday-days.csv"
+  ],
+  "scope": "Every latest-year circle (distinct order count) and every month/day or month/weekday min-max Gantt span in both active selectors; inactive sheets explicitly empty.",
+  "browser_interaction_executed": false
+}

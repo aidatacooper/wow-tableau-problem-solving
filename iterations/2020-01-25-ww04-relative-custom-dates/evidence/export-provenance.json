@@ -1,0 +1,15 @@
+{
+  "original_sha256": "82f643583831527ebdb92d2e9366cf5a5c32e28966ba53a002a87d129f187265",
+  "comparison_sha256": "9e53bd2a0fb4faf96ae466eb7a31e855121e3e11ba784f69928434081d061a82",
+  "transformation": "Only remove hidden=true from author worksheet window metadata to expose full worksheet REST CSV; calculations, dashboard layout, data and actions retained.",
+  "worksheets_exposed": [
+    "BANs",
+    "Custom Transparent Btm",
+    "Custom Transparent Top",
+    "Ndays Transparent Left",
+    "Ndays Trasparent Right",
+    "Sales trend",
+    "Selector"
+  ],
+  "comparison_used_by_replica_builder": false
+}

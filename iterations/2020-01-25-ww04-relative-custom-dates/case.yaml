@@ -1,0 +1,98 @@
+schema_version: 1.1.0
+case_id: wow-2020-ww04-relative-custom-dates
+iteration_id: 2020-01-25-ww04-relative-custom-dates
+post: https://donnacoles.home.blog/2020/01/25/can-you-combine-relative-custom-dates/
+legacy_case_ids: {}
+article_date: '2020-01-25'
+challenge_year: 2020
+challenge_week: 4
+challenge_date: '2020-01-21'
+date_evidence:
+  article_date: Indexed publication date and article URL
+  challenge: Official 2020w04 challenge title
+  challenge_date: Official WordPress REST post 3423 date 2020-01-21; https://www.workout-wednesday.com/wp-json/wp/v2/posts?slug=2020w04
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2020w04/
+    wordpress_post_id: 3423
+  article:
+    url: https://donnacoles.home.blog/2020/01/25/can-you-combine-relative-custom-dates/
+    path: null
+    sha256: 9389fe72471ea4ac81692093c0bade469d63fa50c8873d79a1c1b620b1d113b3
+  workbook:
+    url: https://public.tableau.com/views/2020_01_22_WW04_Relative_Custom_Dates/2020_01_22_WW04_Relative_and_Custom_Dates
+    filename: 2020_01_22_WW04_Relative_Custom_Dates.twbx
+    path: null
+    sha256: 82f643583831527ebdb92d2e9366cf5a5c32e28966ba53a002a87d129f187265
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- evidence/cloud-data-checks.json
+- evidence/cloud-verification.json
+- evidence/export-provenance.json
+- evidence/functional-verification.json
+- evidence/sdk-validation-12aae31.json
+- evidence/sdk-validation.json
+- evidence/visual-review.md
+- inputs/source-lock.json
+notes:
+- Build starts from an empty workbook using public SDK APIs.
+- Acceptance uses Cloud REST images/data states and artifact action contracts; no
+  browser events executed.
+cwtwb:
+  tested_version: 0.27.1
+  runs:
+  - version: 0.27.1
+    result: pass
+    evidence: evidence/functional-verification.json
+  - version: 0.27.1
+    commit: 9a35d3c9f9795a5e5ca9caa95cd152ffc88bc743
+    result: pass
+    evidence: evidence/sdk-validation.json
+  - version: 0.27.1
+    commit: 12aae31b38e3790b57b28b4240a44255a0bb01ee
+    result: pass
+    evidence: evidence/sdk-validation-12aae31.json
+  tested_commit: 12aae31b38e3790b57b28b4240a44255a0bb01ee
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: pass
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/Orders (Sample - Superstore).hyper
+acceptance:
+- id: ww04-date-oracle
+  description: Relative dates use the locked latest date and strict lower bound; custom
+    dates include both endpoints; every KPI and daily sales value matches the independent
+    oracle.
+  mode: automated
+- id: ww04-selector-action
+  description: Date selector parameter action and self-deselection filter preserve
+    their serialized event, source, target and clear contracts.
+  mode: automated
+- id: ww04-context-controls
+  description: Dynamic zone visibility displays N Days only for Last N Days and date
+    controls only for Custom Dates.
+  mode: automated
+- id: ww04-cloud-states
+  description: Four REST states match all three KPIs and every daily sales value in
+    both workbooks, including verified dual-axis CSV duplicates.
+  mode: automated
+- id: cloud-visual-review
+  description: Original and replica REST images reviewed in each captured state; visual
+    deltas and export limitations recorded.
+  mode: manual
+  evidence: evidence/visual-review.md
+remaining_work: []
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []
+acceptance_scope: cloud_rest_and_artifact_contracts
+browser_interaction_executed: false

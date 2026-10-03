@@ -1,0 +1,221 @@
+{
+  "row_count": 9994,
+  "subcategories": [
+    {
+      "sub_category": "Accessories",
+      "rows": 775,
+      "orders": 718,
+      "sales": 167380.318,
+      "profit": 41936.6357,
+      "sales_per_order": 233.1202200557103,
+      "profit_ratio": 0.2505469950176579
+    },
+    {
+      "sub_category": "Appliances",
+      "rows": 466,
+      "orders": 451,
+      "sales": 107532.161,
+      "profit": 18138.005399999995,
+      "sales_per_order": 238.43051219512193,
+      "profit_ratio": 0.16867516872463853
+    },
+    {
+      "sub_category": "Art",
+      "rows": 796,
+      "orders": 731,
+      "sales": 27118.792,
+      "profit": 6527.786999999999,
+      "sales_per_order": 37.098210670314636,
+      "profit_ratio": 0.2407108325474084
+    },
+    {
+      "sub_category": "Binders",
+      "rows": 1523,
+      "orders": 1316,
+      "sales": 203412.733,
+      "profit": 30221.76329999999,
+      "sales_per_order": 154.56894604863223,
+      "profit_ratio": 0.14857360625502233
+    },
+    {
+      "sub_category": "Bookcases",
+      "rows": 228,
+      "orders": 224,
+      "sales": 114879.9963,
+      "profit": -3472.556000000003,
+      "sales_per_order": 512.8571263392857,
+      "profit_ratio": -0.030227682032054552
+    },
+    {
+      "sub_category": "Chairs",
+      "rows": 617,
+      "orders": 576,
+      "sales": 328449.103,
+      "profit": 26590.16629999999,
+      "sales_per_order": 570.2241371527778,
+      "profit_ratio": 0.08095673289142759
+    },
+    {
+      "sub_category": "Copiers",
+      "rows": 68,
+      "orders": 68,
+      "sales": 149528.03,
+      "profit": 55617.82489999999,
+      "sales_per_order": 2198.9416176470586,
+      "profit_ratio": 0.37195584600425746
+    },
+    {
+      "sub_category": "Envelopes",
+      "rows": 254,
+      "orders": 249,
+      "sales": 16476.402000000002,
+      "profit": 6964.176699999999,
+      "sales_per_order": 66.17028915662651,
+      "profit_ratio": 0.4226758184220073
+    },
+    {
+      "sub_category": "Fasteners",
+      "rows": 217,
+      "orders": 215,
+      "sales": 3024.28,
+      "profit": 949.5182,
+      "sales_per_order": 14.066418604651163,
+      "profit_ratio": 0.3139650429193064
+    },
+    {
+      "sub_category": "Furnishings",
+      "rows": 957,
+      "orders": 877,
+      "sales": 91705.164,
+      "profit": 13059.143599999998,
+      "sales_per_order": 104.56689167616877,
+      "profit_ratio": 0.14240357936658832
+    },
+    {
+      "sub_category": "Labels",
+      "rows": 364,
+      "orders": 346,
+      "sales": 12486.312,
+      "profit": 5546.254,
+      "sales_per_order": 36.087606936416186,
+      "profit_ratio": 0.4441867222283089
+    },
+    {
+      "sub_category": "Machines",
+      "rows": 115,
+      "orders": 112,
+      "sales": 189238.631,
+      "profit": 3384.756899999988,
+      "sales_per_order": 1689.6306339285713,
+      "profit_ratio": 0.017886183609096117
+    },
+    {
+      "sub_category": "Paper",
+      "rows": 1370,
+      "orders": 1191,
+      "sales": 78479.206,
+      "profit": 34053.569299999996,
+      "sales_per_order": 65.89353988245172,
+      "profit_ratio": 0.43391837195702504
+    },
+    {
+      "sub_category": "Phones",
+      "rows": 889,
+      "orders": 814,
+      "sales": 330007.054,
+      "profit": 44515.730599999995,
+      "sales_per_order": 405.41407125307126,
+      "profit_ratio": 0.1348932698874976
+    },
+    {
+      "sub_category": "Storage",
+      "rows": 846,
+      "orders": 777,
+      "sales": 223843.608,
+      "profit": 21278.826399999994,
+      "sales_per_order": 288.0870115830116,
+      "profit_ratio": 0.09506113035847776
+    },
+    {
+      "sub_category": "Supplies",
+      "rows": 190,
+      "orders": 187,
+      "sales": 46673.538,
+      "profit": -1189.099500000001,
+      "sales_per_order": 249.59111229946524,
+      "profit_ratio": -0.025476952272184744
+    },
+    {
+      "sub_category": "Tables",
+      "rows": 319,
+      "orders": 307,
+      "sales": 206965.532,
+      "profit": -17725.481100000005,
+      "sales_per_order": 674.1548273615635,
+      "profit_ratio": -0.0856446043392385
+    }
+  ],
+  "descending_order": {
+    "default": [
+      "Phones",
+      "Chairs",
+      "Storage",
+      "Tables",
+      "Binders",
+      "Machines",
+      "Accessories",
+      "Copiers",
+      "Bookcases",
+      "Appliances",
+      "Furnishings",
+      "Paper",
+      "Supplies",
+      "Art",
+      "Envelopes",
+      "Labels",
+      "Fasteners"
+    ],
+    "sales-per-order": [
+      "Copiers",
+      "Machines",
+      "Tables",
+      "Chairs",
+      "Bookcases",
+      "Phones",
+      "Storage",
+      "Supplies",
+      "Appliances",
+      "Accessories",
+      "Binders",
+      "Furnishings",
+      "Envelopes",
+      "Paper",
+      "Art",
+      "Labels",
+      "Fasteners"
+    ],
+    "profit-ratio": [
+      "Labels",
+      "Paper",
+      "Envelopes",
+      "Copiers",
+      "Fasteners",
+      "Accessories",
+      "Art",
+      "Appliances",
+      "Binders",
+      "Furnishings",
+      "Phones",
+      "Storage",
+      "Chairs",
+      "Machines",
+      "Supplies",
+      "Bookcases",
+      "Tables"
+    ]
+  },
+  "status": "pass",
+  "artifact_sha256": "af050d4220864f079f25e821f1491d16a242def927494dda9830ef2a9ae25321",
+  "browser_interaction_executed": false,
+  "interaction_scope": "Serialized select event, header source, parameter target and keep-current clear behavior; REST states do not execute clicks."
+}

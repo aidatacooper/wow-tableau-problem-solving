@@ -1,0 +1,17 @@
+{
+  "source_workbook_used_by_builder": false,
+  "download_url": "https://public.tableau.com/workbooks/2020_01_08_WW02_Beautiful_Dynamic_Bar_Chart.twb",
+  "locked_original_sha256": "05992b8d51c1454673f9068c6d5c7e7077d98f49cbf8790849e19e39eab067d1",
+  "download_sha256": "05992b8d51c1454673f9068c6d5c7e7077d98f49cbf8790849e19e39eab067d1",
+  "exact_locked_original": true,
+  "article_url": "https://donnacoles.home.blog/2020/01/11/can-you-build-a-beautiful-dynamic-bar-chart/",
+  "article_sha256": "e247255f130cb23845faac260b150b84bc5f7f76e483a4956a65f08ef1b93d69",
+  "extracted_data": [
+    {
+      "file": "inputs/Orders (Sample - Superstore).hyper",
+      "archive_member": "Data/Datasources/Orders (Sample - Superstore).hyper",
+      "bytes": 983040,
+      "sha256": "ab77181f46c150f1c8796355ebe6c2a4de1114c068e776236a864b64aba38a67"
+    }
+  ]
+}

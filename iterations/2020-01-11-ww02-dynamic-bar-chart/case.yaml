@@ -1,0 +1,104 @@
+schema_version: 1.1.0
+case_id: wow-2020-ww02-dynamic-bar-chart
+iteration_id: 2020-01-11-ww02-dynamic-bar-chart
+post: https://donnacoles.home.blog/2020/01/11/can-you-build-a-beautiful-dynamic-bar-chart/
+legacy_case_ids: {}
+article_date: '2020-01-11'
+challenge_year: 2020
+challenge_week: 2
+challenge_date: '2020-01-07'
+date_evidence:
+  article_date: Indexed publication date and article URL
+  challenge: Official 2020w02 challenge title
+  challenge_date: Official WordPress REST post 3354 date 2020-01-07; https://www.workout-wednesday.com/wp-json/wp/v2/posts?slug=2020w02
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2020w02/
+    wordpress_post_id: 3354
+  article:
+    url: https://donnacoles.home.blog/2020/01/11/can-you-build-a-beautiful-dynamic-bar-chart/
+    path: null
+    sha256: e247255f130cb23845faac260b150b84bc5f7f76e483a4956a65f08ef1b93d69
+  workbook:
+    url: https://public.tableau.com/views/2020_01_08_WW02_Beautiful_Dynamic_Bar_Chart/2020_01_08_WW01_Beautiful_Dynamic_Bar_Chart
+    filename: 2020_01_08_WW02_Beautiful_Dynamic_Bar_Chart.twbx
+    path: null
+    sha256: 05992b8d51c1454673f9068c6d5c7e7077d98f49cbf8790849e19e39eab067d1
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- evidence/cloud-data-comparison.json
+- evidence/cloud-verification.json
+- evidence/export-provenance.json
+- evidence/functional-verification.json
+- evidence/sdk-validation-12aae31.json
+- evidence/sdk-validation.json
+- evidence/visual-review.md
+- inputs/source-lock.json
+notes:
+- Build starts from an empty workbook using public SDK APIs.
+- Acceptance uses Cloud REST images/data states and artifact action contracts; no
+  browser events executed.
+cwtwb:
+  tested_version: 0.27.1
+  runs:
+  - version: 0.27.1
+    result: pass
+    evidence: evidence/functional-verification.json
+  - version: 0.27.1
+    commit: 9a35d3c9f9795a5e5ca9caa95cd152ffc88bc743
+    result: pass
+    evidence: evidence/sdk-validation.json
+  - version: 0.27.1
+    commit: 12aae31b38e3790b57b28b4240a44255a0bb01ee
+    result: pass
+    evidence: evidence/sdk-validation-12aae31.json
+  tested_commit: 12aae31b38e3790b57b28b4240a44255a0bb01ee
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: pass
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/Orders (Sample - Superstore).hyper
+acceptance:
+- id: blank-sdk-build
+  description: Build independently from TWBEditor("") using only public SDK APIs and
+    extracted data.
+  mode: automated
+- id: locked-superstore-source
+  description: Packaged Hyper data matches the locked original extract hash.
+  mode: automated
+- id: nine-metric-date-states
+  description: All nine month/week/day and sales/ratio/items combinations match independent
+    dated aggregates.
+  mode: automated
+- id: selected-metric-labels
+  description: Only the selected metric label is populated, with currency, percent
+    or one-decimal formatting as appropriate.
+  mode: automated
+- id: selector-action-contract
+  description: Click parameter action and True-to-False deselection filter preserve
+    their sources, targets and clearing behavior.
+  mode: automated
+- id: cloud-rest-states
+  description: All eighteen author/replica Chart CSV exports match every date, value
+    and active label in nine REST states.
+  mode: automated
+- id: cloud-visual-review
+  description: Original and replica REST images reviewed in each captured state; visual
+    deltas and export limitations recorded.
+  mode: manual
+  evidence: evidence/visual-review.md
+remaining_work: []
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []
+acceptance_scope: cloud_rest_and_artifact_contracts
+browser_interaction_executed: false

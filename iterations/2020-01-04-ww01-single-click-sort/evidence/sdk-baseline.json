@@ -1,0 +1,23 @@
+{
+  "baseline_commit": "f0e385b",
+  "baseline_version": "0.27.1",
+  "case": "wow-2020-ww01-single-click-sort",
+  "checks": [
+    {
+      "request": "configure_layered_chart(fold_axes=False)",
+      "result": "unsupported",
+      "error": "TypeError: ChartsMixin.configure_layered_chart() got an unexpected keyword argument 'fold_axes'"
+    },
+    {
+      "request": "configure_worksheet_style(hide_sort_controls=True)",
+      "result": "unsupported",
+      "evidence": "baseline facade has no hide_sort_controls parameter"
+    },
+    {
+      "request": "add_dashboard_action(action_type='parameter',source_field='Measure Names')",
+      "result": "incorrect_reference",
+      "actual_suffix": "[none:Measure Names:nk]",
+      "expected_suffix": "[:Measure Names]"
+    }
+  ]
+}

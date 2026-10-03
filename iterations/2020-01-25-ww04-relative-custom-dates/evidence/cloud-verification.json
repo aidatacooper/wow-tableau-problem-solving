@@ -1,0 +1,352 @@
+{
+  "case_id": "wow-2020-ww04-relative-custom-dates",
+  "captured_at": "2026-10-02T18:05:48.531964+00:00",
+  "source_hashes": {
+    "author": "9e53bd2a0fb4faf96ae466eb7a31e855121e3e11ba784f69928434081d061a82",
+    "replica": "dd967cd1f4dae9f32531404f5a9f6634acdf9c2d7b12a29db5998abac2ed2cca"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "410c5963-05d5-4d47-a2f6-bf265a943de2",
+      "name": "cwtwb-review-wow-2020-ww04-relative-custom-dates-author-9e53bd2a0fb4",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2924987",
+      "views": [
+        {
+          "name": "2020_01_22_WW04_Relative_and_Custom_Dates",
+          "id": "241c6845-ef91-4a05-bcc9-aeba593a5b43"
+        },
+        {
+          "name": "BANs",
+          "id": "8f376673-8eee-4cac-a184-49b24cd20137"
+        },
+        {
+          "name": "Custom Transparent Btm",
+          "id": "6df4668b-83c7-458b-8a0b-9278603bf4e1"
+        },
+        {
+          "name": "Custom Transparent Top",
+          "id": "fadd2268-ed2f-4f62-9588-b124540b27a6"
+        },
+        {
+          "name": "Ndays Transparent Left",
+          "id": "02661891-8bf0-4d6e-becf-504f53c46ad2"
+        },
+        {
+          "name": "Ndays Trasparent Right",
+          "id": "ef24bc39-4717-4134-85bb-d941863706de"
+        },
+        {
+          "name": "Sales trend",
+          "id": "07d09fb9-8a47-44a3-933d-77a2e1e7fe5b"
+        },
+        {
+          "name": "Selector",
+          "id": "58215cd3-9d17-4f25-a7c5-066436236265"
+        }
+      ]
+    },
+    "replica": {
+      "id": "ab783665-28eb-438e-845d-32653617eb74",
+      "name": "cwtwb-review-wow-2020-ww04-relative-custom-dates-replica-dd967cd1f4da",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2924989",
+      "views": [
+        {
+          "name": "Selector",
+          "id": "2825e58e-5f65-472c-bf06-c2124e259776"
+        },
+        {
+          "name": "BANs",
+          "id": "aeae009a-d9ab-4a87-ac91-3688c56f2030"
+        },
+        {
+          "name": "Sales trend",
+          "id": "c73148c1-f315-4c40-8d9a-96181d3713f8"
+        },
+        {
+          "name": "2020_01_22_WW04_Relative_and_Custom_Dates",
+          "id": "4da05249-66f8-45c7-8690-4c8a505a83c6"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "241c6845-ef91-4a05-bcc9-aeba593a5b43",
+          "name": "2020_01_22_WW04_Relative_and_Custom_Dates",
+          "path": "outputs/cloud-author.png",
+          "sha256": "912cbe824da1c23be65abf514385314c400707ed3a683459bab8c338ccc9b82d",
+          "size": [
+            2200,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "4da05249-66f8-45c7-8690-4c8a505a83c6",
+          "name": "2020_01_22_WW04_Relative_and_Custom_Dates",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "ac1ccd9fefe6e128a56c53be444bc9594d0a4a0e7faf69dd7e534f62a2ca33a1",
+          "size": [
+            2200,
+            1600
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "BANs",
+          "view_id": "8f376673-8eee-4cac-a184-49b24cd20137",
+          "scope": "KPI aggregates across all filtered rows.",
+          "path": "outputs/cloud-author-kpis.csv",
+          "sha256": "9a833e24cd8bbcfdad0e275a3b1fe3284bf4141bbe2e2d8846e1c90774bbb02d",
+          "bytes": 94
+        },
+        {
+          "role": "author",
+          "view": "Sales trend",
+          "view_id": "07d09fb9-8a47-44a3-933d-77a2e1e7fe5b",
+          "scope": "All daily trend values in the selected date interval.",
+          "path": "outputs/cloud-author-trend.csv",
+          "sha256": "9c8c3cc7aa6cc8c23f3c856e3a7ad854aa4be479ad14917e2e6a8ea986f5caad",
+          "bytes": 804
+        },
+        {
+          "role": "replica",
+          "view": "BANs",
+          "view_id": "aeae009a-d9ab-4a87-ac91-3688c56f2030",
+          "scope": "KPI aggregates across all filtered rows.",
+          "path": "outputs/cloud-replica-kpis.csv",
+          "sha256": "9a833e24cd8bbcfdad0e275a3b1fe3284bf4141bbe2e2d8846e1c90774bbb02d",
+          "bytes": 94
+        },
+        {
+          "role": "replica",
+          "view": "Sales trend",
+          "view_id": "c73148c1-f315-4c40-8d9a-96181d3713f8",
+          "scope": "All daily trend values in the selected date interval.",
+          "path": "outputs/cloud-replica-trend.csv",
+          "sha256": "9c8c3cc7aa6cc8c23f3c856e3a7ad854aa4be479ad14917e2e6a8ea986f5caad",
+          "bytes": 804
+        }
+      ]
+    },
+    {
+      "name": "last30",
+      "parameters": {
+        "Date Selector": "Last 30 Days"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "241c6845-ef91-4a05-bcc9-aeba593a5b43",
+          "name": "2020_01_22_WW04_Relative_and_Custom_Dates",
+          "path": "outputs/cloud-author-last30.png",
+          "sha256": "167b1b0ef183e9fbabcba83dac97bbafcf28884480b479937ee999b98fdd0bbd",
+          "size": [
+            2200,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "4da05249-66f8-45c7-8690-4c8a505a83c6",
+          "name": "2020_01_22_WW04_Relative_and_Custom_Dates",
+          "path": "outputs/cloud-replica-last30.png",
+          "sha256": "8e6c9fc1bd4ac1a4c85a149a165e2a64f663b965c1a3612eda8e3eda9b045bcf",
+          "size": [
+            2200,
+            1600
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "BANs",
+          "view_id": "8f376673-8eee-4cac-a184-49b24cd20137",
+          "scope": "KPI aggregates across all filtered rows.",
+          "path": "outputs/cloud-author-kpis-last30.csv",
+          "sha256": "cdd4c3dbc126346f980284a3061a47e93acb5b7905ce3c9c561d8a59cdd7d511",
+          "bytes": 104
+        },
+        {
+          "role": "author",
+          "view": "Sales trend",
+          "view_id": "07d09fb9-8a47-44a3-933d-77a2e1e7fe5b",
+          "scope": "All daily trend values in the selected date interval.",
+          "path": "outputs/cloud-author-trend-last30.csv",
+          "sha256": "95666b23e00b526b56ab36ec8d1d0bb06a735d46d9866c76253f8bc88d7faebc",
+          "bytes": 1622
+        },
+        {
+          "role": "replica",
+          "view": "BANs",
+          "view_id": "aeae009a-d9ab-4a87-ac91-3688c56f2030",
+          "scope": "KPI aggregates across all filtered rows.",
+          "path": "outputs/cloud-replica-kpis-last30.csv",
+          "sha256": "cdd4c3dbc126346f980284a3061a47e93acb5b7905ce3c9c561d8a59cdd7d511",
+          "bytes": 104
+        },
+        {
+          "role": "replica",
+          "view": "Sales trend",
+          "view_id": "c73148c1-f315-4c40-8d9a-96181d3713f8",
+          "scope": "All daily trend values in the selected date interval.",
+          "path": "outputs/cloud-replica-trend-last30.csv",
+          "sha256": "95666b23e00b526b56ab36ec8d1d0bb06a735d46d9866c76253f8bc88d7faebc",
+          "bytes": 1622
+        }
+      ]
+    },
+    {
+      "name": "last-n",
+      "parameters": {
+        "Date Selector": "Last N Days",
+        "N Days": "60"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "241c6845-ef91-4a05-bcc9-aeba593a5b43",
+          "name": "2020_01_22_WW04_Relative_and_Custom_Dates",
+          "path": "outputs/cloud-author-last-n.png",
+          "sha256": "a6b735e06fb29222c2175f46e03da2b1cd1602014d5dcac085d7b411c38bc52a",
+          "size": [
+            2200,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "4da05249-66f8-45c7-8690-4c8a505a83c6",
+          "name": "2020_01_22_WW04_Relative_and_Custom_Dates",
+          "path": "outputs/cloud-replica-last-n.png",
+          "sha256": "2769351035accd7d3d95f6ce42299210a7463d3db34aed679e64ddbbf86c9594",
+          "size": [
+            2200,
+            1600
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "BANs",
+          "view_id": "8f376673-8eee-4cac-a184-49b24cd20137",
+          "scope": "KPI aggregates across all filtered rows.",
+          "path": "outputs/cloud-author-kpis-last-n.csv",
+          "sha256": "13d01023cf555cd910786cd09440d732eca5de52bc698ae2048530d07f12cda0",
+          "bytes": 96
+        },
+        {
+          "role": "author",
+          "view": "Sales trend",
+          "view_id": "07d09fb9-8a47-44a3-933d-77a2e1e7fe5b",
+          "scope": "All daily trend values in the selected date interval.",
+          "path": "outputs/cloud-author-trend-last-n.csv",
+          "sha256": "f4f9f08d4de1b05fd17533bfdba7c6f11f20eb47bed0181e4f57bb13039faf71",
+          "bytes": 3306
+        },
+        {
+          "role": "replica",
+          "view": "BANs",
+          "view_id": "aeae009a-d9ab-4a87-ac91-3688c56f2030",
+          "scope": "KPI aggregates across all filtered rows.",
+          "path": "outputs/cloud-replica-kpis-last-n.csv",
+          "sha256": "13d01023cf555cd910786cd09440d732eca5de52bc698ae2048530d07f12cda0",
+          "bytes": 96
+        },
+        {
+          "role": "replica",
+          "view": "Sales trend",
+          "view_id": "c73148c1-f315-4c40-8d9a-96181d3713f8",
+          "scope": "All daily trend values in the selected date interval.",
+          "path": "outputs/cloud-replica-trend-last-n.csv",
+          "sha256": "f4f9f08d4de1b05fd17533bfdba7c6f11f20eb47bed0181e4f57bb13039faf71",
+          "bytes": 3306
+        }
+      ]
+    },
+    {
+      "name": "custom",
+      "parameters": {
+        "Date Selector": "Custom Dates",
+        "Start Date": "2019-01-01",
+        "End Date": "2019-12-31"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "241c6845-ef91-4a05-bcc9-aeba593a5b43",
+          "name": "2020_01_22_WW04_Relative_and_Custom_Dates",
+          "path": "outputs/cloud-author-custom.png",
+          "sha256": "cf3b422d938a562cf626b9a9de5c25784ba72e9291630b7b8a82a42814369a00",
+          "size": [
+            2200,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "4da05249-66f8-45c7-8690-4c8a505a83c6",
+          "name": "2020_01_22_WW04_Relative_and_Custom_Dates",
+          "path": "outputs/cloud-replica-custom.png",
+          "sha256": "de397d1db5d23be00dccbd28972b05a4a281624048ff44abc299c0845d502e11",
+          "size": [
+            2200,
+            1600
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "BANs",
+          "view_id": "8f376673-8eee-4cac-a184-49b24cd20137",
+          "scope": "KPI aggregates across all filtered rows.",
+          "path": "outputs/cloud-author-kpis-custom.csv",
+          "sha256": "0a634c7922232d01f12e5a3054562b883b669784213e49ae66b88b87a735b2bf",
+          "bytes": 106
+        },
+        {
+          "role": "author",
+          "view": "Sales trend",
+          "view_id": "07d09fb9-8a47-44a3-933d-77a2e1e7fe5b",
+          "scope": "All daily trend values in the selected date interval.",
+          "path": "outputs/cloud-author-trend-custom.csv",
+          "sha256": "64abd0cdad038bec5fcad3756eb3f44569e6418a06fb9e41e91d9465cd71c47d",
+          "bytes": 16318
+        },
+        {
+          "role": "replica",
+          "view": "BANs",
+          "view_id": "aeae009a-d9ab-4a87-ac91-3688c56f2030",
+          "scope": "KPI aggregates across all filtered rows.",
+          "path": "outputs/cloud-replica-kpis-custom.csv",
+          "sha256": "0a634c7922232d01f12e5a3054562b883b669784213e49ae66b88b87a735b2bf",
+          "bytes": 106
+        },
+        {
+          "role": "replica",
+          "view": "Sales trend",
+          "view_id": "c73148c1-f315-4c40-8d9a-96181d3713f8",
+          "scope": "All daily trend values in the selected date interval.",
+          "path": "outputs/cloud-replica-trend-custom.csv",
+          "sha256": "64abd0cdad038bec5fcad3756eb3f44569e6418a06fb9e41e91d9465cd71c47d",
+          "bytes": 16318
+        }
+      ]
+    }
+  ],
+  "status": "verified",
+  "independent_review": {
+    "visual_status": "acceptable_delta",
+    "visual_evidence": "evidence/visual-review.md",
+    "functional_evidence": "evidence/functional-verification.json",
+    "scope": "Complete relevant worksheet exports and artifact contracts; no browser events executed."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "sdk_version": "0.27.1",
+  "sdk_commit": "9a35d3c9f9795a5e5ca9caa95cd152ffc88bc743",
+  "sdk_tests": {
+    "passed": 519,
+    "skipped": 25
+  },
+  "sdk_ci": "https://github.com/aidatacooper/cwtwb/actions/runs/37043042032",
+  "method": "Full SDK pytest suite and case build using locked Git commit; credentials excluded."
+}

@@ -1,0 +1,17 @@
+{
+  "source_workbook_used_by_builder": false,
+  "download_url": "https://public.tableau.com/workbooks/2020_01_22_WW04_Relative_Custom_Dates.twb",
+  "locked_original_sha256": "82f643583831527ebdb92d2e9366cf5a5c32e28966ba53a002a87d129f187265",
+  "download_sha256": "82f643583831527ebdb92d2e9366cf5a5c32e28966ba53a002a87d129f187265",
+  "exact_locked_original": true,
+  "article_url": "https://donnacoles.home.blog/2020/01/25/can-you-combine-relative-custom-dates/",
+  "article_sha256": "9389fe72471ea4ac81692093c0bade469d63fa50c8873d79a1c1b620b1d113b3",
+  "extracted_data": [
+    {
+      "file": "inputs/Orders (Sample - Superstore).hyper",
+      "archive_member": "Data/Datasources/Orders (Sample - Superstore).hyper",
+      "bytes": 983040,
+      "sha256": "2322dc9916d5bedcbacba1d84e4567cb82f61aacd8d70e90512f726ca8a48157"
+    }
+  ]
+}

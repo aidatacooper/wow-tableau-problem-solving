@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "generated_from": "iterations/*/case.yaml",
-  "active_case_count": 30,
+  "active_case_count": 34,
   "legacy_case_ids": {
     "donna-2019-07-18-63877b35d19a": "wow-2019-ww29-high-orders",
     "donna-2019-07-25-59a0a144b25b": "wow-2019-ww30-navigation-kpi",
@@ -1775,6 +1775,244 @@
         "Accepted visual differences include missing horizontal guide lines, missing dollar symbols on bar labels, typography, padding and map margins; not pixel-identical."
       ],
       "metadata": "iterations/2019-12-23-ww51-sales-performance-dashboard/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.27.1"
+    },
+    {
+      "case_id": "wow-2020-ww01-single-click-sort",
+      "legacy_case_ids": {},
+      "iteration_id": "2020-01-04-ww01-single-click-sort",
+      "article_date": "2020-01-04",
+      "challenge_year": 2020,
+      "challenge_week": 1,
+      "challenge_date": "2019-12-31",
+      "date_evidence": {
+        "article_date": "Indexed article publication date and article URL",
+        "challenge": "Official 2020w01 challenge title",
+        "challenge_date": "Official WordPress REST post 3317 date 2019-12-31T18:30:00; https://www.workout-wednesday.com/wp-json/wp/v2/posts?slug=2020w01"
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2020w01/",
+          "wordpress_post_id": 3317
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2020/01/04/can-you-sort-dimensions-with-a-single-click/",
+          "path": null,
+          "sha256": "9185b22ba3f24d1d9ec4bcf5e9cfafcf1dc9d430d6c7cf70047aa4679a66839e"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2020_01_01_WW01_One_Click_Sort/2020_01_01_WW01_One_Click_Sortv2",
+          "filename": "2020_01_01_WW01_One_Click_Sort.twbx",
+          "path": null,
+          "sha256": "2cce714425a8b0f87cb3757c9ce16c53137c1f7814e300c786e756e7781f2268"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "pass",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "evidence/cloud-data-comparison.json",
+        "evidence/cloud-verification.json",
+        "evidence/export-provenance.json",
+        "evidence/functional-verification.json",
+        "evidence/sdk-baseline.json",
+        "evidence/sdk-validation-12aae31.json",
+        "evidence/sdk-validation.json",
+        "evidence/visual-review.md",
+        "inputs/source-lock.json"
+      ],
+      "notes": [
+        "Build starts from an empty workbook using public SDK APIs.",
+        "Acceptance uses Cloud REST images/data states and artifact action contracts; no browser events executed."
+      ],
+      "metadata": "iterations/2020-01-04-ww01-single-click-sort/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.27.1"
+    },
+    {
+      "case_id": "wow-2020-ww02-dynamic-bar-chart",
+      "legacy_case_ids": {},
+      "iteration_id": "2020-01-11-ww02-dynamic-bar-chart",
+      "article_date": "2020-01-11",
+      "challenge_year": 2020,
+      "challenge_week": 2,
+      "challenge_date": "2020-01-07",
+      "date_evidence": {
+        "article_date": "Indexed publication date and article URL",
+        "challenge": "Official 2020w02 challenge title",
+        "challenge_date": "Official WordPress REST post 3354 date 2020-01-07; https://www.workout-wednesday.com/wp-json/wp/v2/posts?slug=2020w02"
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2020w02/",
+          "wordpress_post_id": 3354
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2020/01/11/can-you-build-a-beautiful-dynamic-bar-chart/",
+          "path": null,
+          "sha256": "e247255f130cb23845faac260b150b84bc5f7f76e483a4956a65f08ef1b93d69"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2020_01_08_WW02_Beautiful_Dynamic_Bar_Chart/2020_01_08_WW01_Beautiful_Dynamic_Bar_Chart",
+          "filename": "2020_01_08_WW02_Beautiful_Dynamic_Bar_Chart.twbx",
+          "path": null,
+          "sha256": "05992b8d51c1454673f9068c6d5c7e7077d98f49cbf8790849e19e39eab067d1"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "pass",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "evidence/cloud-data-comparison.json",
+        "evidence/cloud-verification.json",
+        "evidence/export-provenance.json",
+        "evidence/functional-verification.json",
+        "evidence/sdk-validation-12aae31.json",
+        "evidence/sdk-validation.json",
+        "evidence/visual-review.md",
+        "inputs/source-lock.json"
+      ],
+      "notes": [
+        "Build starts from an empty workbook using public SDK APIs.",
+        "Acceptance uses Cloud REST images/data states and artifact action contracts; no browser events executed."
+      ],
+      "metadata": "iterations/2020-01-11-ww02-dynamic-bar-chart/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.27.1"
+    },
+    {
+      "case_id": "wow-2020-ww03-time-visualisation",
+      "legacy_case_ids": {},
+      "iteration_id": "2020-01-19-ww03-time-visualisation",
+      "article_date": "2020-01-19",
+      "challenge_year": 2020,
+      "challenge_week": 3,
+      "challenge_date": "2020-01-14",
+      "date_evidence": {
+        "article_date": "Indexed publication date and article URL",
+        "challenge": "Official 2020w03 challenge title",
+        "challenge_date": "Official WordPress REST post 3393 date 2020-01-14; https://www.workout-wednesday.com/wp-json/wp/v2/posts?slug=2020w03"
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2020w03/",
+          "wordpress_post_id": 3393
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2020/01/19/can-you-visualise-time-in-a-unique-way/",
+          "path": null,
+          "sha256": "1035a366eece954e2f4fa3ba651b8f5a14b287863e3ccdc7506cbc41876e6be3"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2020_01_15_WW03_Time_Visualisation/2020_01_15_WW03_Time_Visualisation",
+          "filename": "2020_01_15_WW03_Time_Visualisation.twbx",
+          "path": null,
+          "sha256": "7ce795d2770dc956d43abc0023555d5cd0058b43cc992cfb998c88bd9b7f6b1b"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "pass",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "evidence/cloud-data-comparison.json",
+        "evidence/cloud-verification.json",
+        "evidence/export-provenance.json",
+        "evidence/functional-verification.json",
+        "evidence/sdk-baseline.json",
+        "evidence/sdk-validation-12aae31.json",
+        "evidence/sdk-validation.json",
+        "evidence/visual-review.md",
+        "inputs/source-lock.json"
+      ],
+      "notes": [
+        "Build starts from an empty workbook using public SDK APIs.",
+        "Acceptance uses Cloud REST images/data states and artifact action contracts; no browser events executed."
+      ],
+      "metadata": "iterations/2020-01-19-ww03-time-visualisation/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.27.1"
+    },
+    {
+      "case_id": "wow-2020-ww04-relative-custom-dates",
+      "legacy_case_ids": {},
+      "iteration_id": "2020-01-25-ww04-relative-custom-dates",
+      "article_date": "2020-01-25",
+      "challenge_year": 2020,
+      "challenge_week": 4,
+      "challenge_date": "2020-01-21",
+      "date_evidence": {
+        "article_date": "Indexed publication date and article URL",
+        "challenge": "Official 2020w04 challenge title",
+        "challenge_date": "Official WordPress REST post 3423 date 2020-01-21; https://www.workout-wednesday.com/wp-json/wp/v2/posts?slug=2020w04"
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2020w04/",
+          "wordpress_post_id": 3423
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2020/01/25/can-you-combine-relative-custom-dates/",
+          "path": null,
+          "sha256": "9389fe72471ea4ac81692093c0bade469d63fa50c8873d79a1c1b620b1d113b3"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2020_01_22_WW04_Relative_Custom_Dates/2020_01_22_WW04_Relative_and_Custom_Dates",
+          "filename": "2020_01_22_WW04_Relative_Custom_Dates.twbx",
+          "path": null,
+          "sha256": "82f643583831527ebdb92d2e9366cf5a5c32e28966ba53a002a87d129f187265"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "pass",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "evidence/cloud-data-checks.json",
+        "evidence/cloud-verification.json",
+        "evidence/export-provenance.json",
+        "evidence/functional-verification.json",
+        "evidence/sdk-validation-12aae31.json",
+        "evidence/sdk-validation.json",
+        "evidence/visual-review.md",
+        "inputs/source-lock.json"
+      ],
+      "notes": [
+        "Build starts from an empty workbook using public SDK APIs.",
+        "Acceptance uses Cloud REST images/data states and artifact action contracts; no browser events executed."
+      ],
+      "metadata": "iterations/2020-01-25-ww04-relative-custom-dates/case.yaml",
       "metadata_contract": "1.1.0",
       "tested_sdk_version": "0.27.1"
     },

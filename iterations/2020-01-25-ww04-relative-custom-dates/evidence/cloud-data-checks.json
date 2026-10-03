@@ -1,0 +1,102 @@
+{
+  "status": "pass",
+  "scope": "All three KPI values and complete daily-sales series for each exported state; no selector-button CSV used as data proof.",
+  "checks": [
+    {
+      "role": "author",
+      "state": "default",
+      "daily_marks": 14,
+      "kpi_rows": 3,
+      "csv_rows": 28,
+      "axis_copies_per_date": 2,
+      "files": {
+        "outputs\\cloud-author-kpis.csv": "9a833e24cd8bbcfdad0e275a3b1fe3284bf4141bbe2e2d8846e1c90774bbb02d",
+        "outputs\\cloud-author-trend.csv": "9c8c3cc7aa6cc8c23f3c856e3a7ad854aa4be479ad14917e2e6a8ea986f5caad"
+      }
+    },
+    {
+      "role": "replica",
+      "state": "default",
+      "daily_marks": 14,
+      "kpi_rows": 3,
+      "csv_rows": 28,
+      "axis_copies_per_date": 2,
+      "files": {
+        "outputs\\cloud-replica-kpis.csv": "9a833e24cd8bbcfdad0e275a3b1fe3284bf4141bbe2e2d8846e1c90774bbb02d",
+        "outputs\\cloud-replica-trend.csv": "9c8c3cc7aa6cc8c23f3c856e3a7ad854aa4be479ad14917e2e6a8ea986f5caad"
+      }
+    },
+    {
+      "role": "author",
+      "state": "last30",
+      "daily_marks": 29,
+      "kpi_rows": 3,
+      "csv_rows": 58,
+      "axis_copies_per_date": 2,
+      "files": {
+        "outputs\\cloud-author-kpis-last30.csv": "cdd4c3dbc126346f980284a3061a47e93acb5b7905ce3c9c561d8a59cdd7d511",
+        "outputs\\cloud-author-trend-last30.csv": "95666b23e00b526b56ab36ec8d1d0bb06a735d46d9866c76253f8bc88d7faebc"
+      }
+    },
+    {
+      "role": "replica",
+      "state": "last30",
+      "daily_marks": 29,
+      "kpi_rows": 3,
+      "csv_rows": 58,
+      "axis_copies_per_date": 2,
+      "files": {
+        "outputs\\cloud-replica-kpis-last30.csv": "cdd4c3dbc126346f980284a3061a47e93acb5b7905ce3c9c561d8a59cdd7d511",
+        "outputs\\cloud-replica-trend-last30.csv": "95666b23e00b526b56ab36ec8d1d0bb06a735d46d9866c76253f8bc88d7faebc"
+      }
+    },
+    {
+      "role": "author",
+      "state": "last-n",
+      "daily_marks": 59,
+      "kpi_rows": 3,
+      "csv_rows": 118,
+      "axis_copies_per_date": 2,
+      "files": {
+        "outputs\\cloud-author-kpis-last-n.csv": "13d01023cf555cd910786cd09440d732eca5de52bc698ae2048530d07f12cda0",
+        "outputs\\cloud-author-trend-last-n.csv": "f4f9f08d4de1b05fd17533bfdba7c6f11f20eb47bed0181e4f57bb13039faf71"
+      }
+    },
+    {
+      "role": "replica",
+      "state": "last-n",
+      "daily_marks": 59,
+      "kpi_rows": 3,
+      "csv_rows": 118,
+      "axis_copies_per_date": 2,
+      "files": {
+        "outputs\\cloud-replica-kpis-last-n.csv": "13d01023cf555cd910786cd09440d732eca5de52bc698ae2048530d07f12cda0",
+        "outputs\\cloud-replica-trend-last-n.csv": "f4f9f08d4de1b05fd17533bfdba7c6f11f20eb47bed0181e4f57bb13039faf71"
+      }
+    },
+    {
+      "role": "author",
+      "state": "custom",
+      "daily_marks": 322,
+      "kpi_rows": 3,
+      "csv_rows": 644,
+      "axis_copies_per_date": 2,
+      "files": {
+        "outputs\\cloud-author-kpis-custom.csv": "0a634c7922232d01f12e5a3054562b883b669784213e49ae66b88b87a735b2bf",
+        "outputs\\cloud-author-trend-custom.csv": "64abd0cdad038bec5fcad3756eb3f44569e6418a06fb9e41e91d9465cd71c47d"
+      }
+    },
+    {
+      "role": "replica",
+      "state": "custom",
+      "daily_marks": 322,
+      "kpi_rows": 3,
+      "csv_rows": 644,
+      "axis_copies_per_date": 2,
+      "files": {
+        "outputs\\cloud-replica-kpis-custom.csv": "0a634c7922232d01f12e5a3054562b883b669784213e49ae66b88b87a735b2bf",
+        "outputs\\cloud-replica-trend-custom.csv": "64abd0cdad038bec5fcad3756eb3f44569e6418a06fb9e41e91d9465cd71c47d"
+      }
+    }
+  ]
+}

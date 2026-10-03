@@ -1,0 +1,506 @@
+{
+  "case_id": "wow-2020-ww02-dynamic-bar-chart",
+  "captured_at": "2026-10-02T17:55:53.428987+00:00",
+  "source_hashes": {
+    "author": "6a6f9e63a532a886df8cdec7b87c892da380d70552d7829b323c80a85a8cd7de",
+    "replica": "d6df2322340c537c70a5be0f7e84d097e8341acb31f198902dbd181495605042"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "b4def0c3-0da3-49b4-a3fe-271f207a220e",
+      "name": "cwtwb-review-wow-2020-ww02-dynamic-bar-chart-author",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2924853",
+      "views": [
+        {
+          "name": "2020_01_08_WW01_Beautiful_Dynamic_Bar_Chart",
+          "id": "04120191-74a9-4951-8be9-abb11657629c"
+        },
+        {
+          "name": "Chart",
+          "id": "072e211b-fa03-48a7-9ae6-06c0d9ee5b6f"
+        },
+        {
+          "name": "Selector",
+          "id": "54b3fbcd-2946-4635-b300-625fddb8fa51"
+        }
+      ]
+    },
+    "replica": {
+      "id": "aa59c561-ba69-4067-94ca-cb84c8531fe4",
+      "name": "cwtwb-review-wow-2020-ww02-dynamic-bar-chart-replica",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2924871",
+      "views": [
+        {
+          "name": "Chart",
+          "id": "41cc1495-c189-48ba-9222-318578206e01"
+        },
+        {
+          "name": "Selector",
+          "id": "fb14db55-1a17-476f-819e-74a234cfc5e2"
+        },
+        {
+          "name": "2020_01_08_WW01_Beautiful_Dynamic_Bar_Chart",
+          "id": "cf010996-c236-4b38-ad04-b52100d68b9e"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "04120191-74a9-4951-8be9-abb11657629c",
+          "name": "2020_01_08_WW01_Beautiful_Dynamic_Bar_Chart",
+          "path": "outputs/cloud-author.png",
+          "sha256": "a0e8528e49b3ee3c038d3752a1b2ee0fab37f89f2a53889cdb9146b95cd59d6c",
+          "size": [
+            2200,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "cf010996-c236-4b38-ad04-b52100d68b9e",
+          "name": "2020_01_08_WW01_Beautiful_Dynamic_Bar_Chart",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "5973d272cfcbdfb61167b7c8a1d42069174d1af2d92ca40c6509aaaecbe3bfa7",
+          "size": [
+            2200,
+            1600
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Chart",
+          "view_id": "072e211b-fa03-48a7-9ae6-06c0d9ee5b6f",
+          "scope": "Complete dynamic bar chart date buckets with active metric.",
+          "path": "outputs/cloud-author-chart.csv",
+          "sha256": "dc1935e392b6ca750f6319eced4b8ce978ebab16841da30945a690c6dc234af9",
+          "bytes": 722
+        },
+        {
+          "role": "replica",
+          "view": "Chart",
+          "view_id": "41cc1495-c189-48ba-9222-318578206e01",
+          "scope": "Complete dynamic bar chart date buckets with active metric.",
+          "path": "outputs/cloud-replica-chart.csv",
+          "sha256": "9ae8871fdc604f4030122e1a31796487f52662b095ebf659e250bbb09bd5ea52",
+          "bytes": 718
+        }
+      ]
+    },
+    {
+      "name": "months-profit-ratio",
+      "parameters": {
+        "Date Period": "Last 12 Months",
+        "Selected Measure": " Profit Ratio "
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "04120191-74a9-4951-8be9-abb11657629c",
+          "name": "2020_01_08_WW01_Beautiful_Dynamic_Bar_Chart",
+          "path": "outputs/cloud-author-months-profit-ratio.png",
+          "sha256": "ad743a26ddb08c7d0cf676e17291b4df6bb935034914b73a119f598fc06ef37c",
+          "size": [
+            2200,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "cf010996-c236-4b38-ad04-b52100d68b9e",
+          "name": "2020_01_08_WW01_Beautiful_Dynamic_Bar_Chart",
+          "path": "outputs/cloud-replica-months-profit-ratio.png",
+          "sha256": "293287a179c356bcde31c09ec0c3740be2d4e686229af1ba274df22b3b303e26",
+          "size": [
+            2200,
+            1600
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Chart",
+          "view_id": "072e211b-fa03-48a7-9ae6-06c0d9ee5b6f",
+          "scope": "Complete dynamic bar chart date buckets with active metric.",
+          "path": "outputs/cloud-author-chart-months-profit-ratio.csv",
+          "sha256": "7131379dec38841d060ccf274fc01d0455524f8db85f040a8e6ddb20b7eaabfc",
+          "bytes": 729
+        },
+        {
+          "role": "replica",
+          "view": "Chart",
+          "view_id": "41cc1495-c189-48ba-9222-318578206e01",
+          "scope": "Complete dynamic bar chart date buckets with active metric.",
+          "path": "outputs/cloud-replica-chart-months-profit-ratio.csv",
+          "sha256": "64f997b4190d24b1699885f680411e976d828e14e054a9dd785f484174101c38",
+          "bytes": 725
+        }
+      ]
+    },
+    {
+      "name": "months-items-per-order",
+      "parameters": {
+        "Date Period": "Last 12 Months",
+        "Selected Measure": " Items Per Order "
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "04120191-74a9-4951-8be9-abb11657629c",
+          "name": "2020_01_08_WW01_Beautiful_Dynamic_Bar_Chart",
+          "path": "outputs/cloud-author-months-items-per-order.png",
+          "sha256": "9f96a18050781dd1e7db17b458dd6b402d9a6b7ab6bbf86f6c6e594cd896754f",
+          "size": [
+            2200,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "cf010996-c236-4b38-ad04-b52100d68b9e",
+          "name": "2020_01_08_WW01_Beautiful_Dynamic_Bar_Chart",
+          "path": "outputs/cloud-replica-months-items-per-order.png",
+          "sha256": "10ab2ff39906ccaa80a41a52a033f0ec2ab330f2d95b38ea0d23111c35a3c942",
+          "size": [
+            2200,
+            1600
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Chart",
+          "view_id": "072e211b-fa03-48a7-9ae6-06c0d9ee5b6f",
+          "scope": "Complete dynamic bar chart date buckets with active metric.",
+          "path": "outputs/cloud-author-chart-months-items-per-order.csv",
+          "sha256": "6e669a5e7d90ec73d1d7ab95f6a5a1dade86828788d76a7674253d5792f8ebd6",
+          "bytes": 726
+        },
+        {
+          "role": "replica",
+          "view": "Chart",
+          "view_id": "41cc1495-c189-48ba-9222-318578206e01",
+          "scope": "Complete dynamic bar chart date buckets with active metric.",
+          "path": "outputs/cloud-replica-chart-months-items-per-order.csv",
+          "sha256": "a6d6eacac11d657023084d56145c6d6710329448f4a91b5a32c18afc56a75b05",
+          "bytes": 722
+        }
+      ]
+    },
+    {
+      "name": "weeks-sales",
+      "parameters": {
+        "Date Period": "Last 13 Weeks",
+        "Selected Measure": " Sales "
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "04120191-74a9-4951-8be9-abb11657629c",
+          "name": "2020_01_08_WW01_Beautiful_Dynamic_Bar_Chart",
+          "path": "outputs/cloud-author-weeks-sales.png",
+          "sha256": "9935bbfc238894325f8a73c6c79d80a071166178d641f4bb52ddd0dc60d4abd5",
+          "size": [
+            2200,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "cf010996-c236-4b38-ad04-b52100d68b9e",
+          "name": "2020_01_08_WW01_Beautiful_Dynamic_Bar_Chart",
+          "path": "outputs/cloud-replica-weeks-sales.png",
+          "sha256": "d0beb3f5b00aced7ced1aae091072b500c2a11c616e61b9ff75da42d5935fb32",
+          "size": [
+            2200,
+            1600
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Chart",
+          "view_id": "072e211b-fa03-48a7-9ae6-06c0d9ee5b6f",
+          "scope": "Complete dynamic bar chart date buckets with active metric.",
+          "path": "outputs/cloud-author-chart-weeks-sales.csv",
+          "sha256": "28e43f527dd981d1379457def94bf00b89e321fa02f028b38052a5e3e351ac77",
+          "bytes": 840
+        },
+        {
+          "role": "replica",
+          "view": "Chart",
+          "view_id": "41cc1495-c189-48ba-9222-318578206e01",
+          "scope": "Complete dynamic bar chart date buckets with active metric.",
+          "path": "outputs/cloud-replica-chart-weeks-sales.csv",
+          "sha256": "088af341c8fdf03815dc1bb217a79ad571aa389aae024f5d8c242193a761350d",
+          "bytes": 836
+        }
+      ]
+    },
+    {
+      "name": "weeks-profit-ratio",
+      "parameters": {
+        "Date Period": "Last 13 Weeks",
+        "Selected Measure": " Profit Ratio "
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "04120191-74a9-4951-8be9-abb11657629c",
+          "name": "2020_01_08_WW01_Beautiful_Dynamic_Bar_Chart",
+          "path": "outputs/cloud-author-weeks-profit-ratio.png",
+          "sha256": "e6d685a269d79874fe79c1ec30399a3113cce886028c2c3e204a0dd750f21ace",
+          "size": [
+            2200,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "cf010996-c236-4b38-ad04-b52100d68b9e",
+          "name": "2020_01_08_WW01_Beautiful_Dynamic_Bar_Chart",
+          "path": "outputs/cloud-replica-weeks-profit-ratio.png",
+          "sha256": "3c4a025aeaff1dd9b1860cd11a2f65f0b701b1104a4ff2dfa5cf80d8e9cbd16c",
+          "size": [
+            2200,
+            1600
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Chart",
+          "view_id": "072e211b-fa03-48a7-9ae6-06c0d9ee5b6f",
+          "scope": "Complete dynamic bar chart date buckets with active metric.",
+          "path": "outputs/cloud-author-chart-weeks-profit-ratio.csv",
+          "sha256": "05c6915794145983c008ab2fbed52b7ef68a25f7336e24d8459c5a325de6cef5",
+          "bytes": 866
+        },
+        {
+          "role": "replica",
+          "view": "Chart",
+          "view_id": "41cc1495-c189-48ba-9222-318578206e01",
+          "scope": "Complete dynamic bar chart date buckets with active metric.",
+          "path": "outputs/cloud-replica-chart-weeks-profit-ratio.csv",
+          "sha256": "9b9e2f63ba2104e4abb07a7d1089b777429f7506c2b0c64a9cb83803f62d2f2f",
+          "bytes": 862
+        }
+      ]
+    },
+    {
+      "name": "weeks-items-per-order",
+      "parameters": {
+        "Date Period": "Last 13 Weeks",
+        "Selected Measure": " Items Per Order "
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "04120191-74a9-4951-8be9-abb11657629c",
+          "name": "2020_01_08_WW01_Beautiful_Dynamic_Bar_Chart",
+          "path": "outputs/cloud-author-weeks-items-per-order.png",
+          "sha256": "344e0c2c419c51c3fb3633ffcd18db7dd2e5c05726c513de5f455c1b94abd6d7",
+          "size": [
+            2200,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "cf010996-c236-4b38-ad04-b52100d68b9e",
+          "name": "2020_01_08_WW01_Beautiful_Dynamic_Bar_Chart",
+          "path": "outputs/cloud-replica-weeks-items-per-order.png",
+          "sha256": "93850056e8b1576ed68cea9d77c09997789d891d5d6a79a77295102967c77301",
+          "size": [
+            2200,
+            1600
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Chart",
+          "view_id": "072e211b-fa03-48a7-9ae6-06c0d9ee5b6f",
+          "scope": "Complete dynamic bar chart date buckets with active metric.",
+          "path": "outputs/cloud-author-chart-weeks-items-per-order.csv",
+          "sha256": "79ac7b67cb41971cdddff06ed7e31789de923c68ed1ca0efa0ea97a3a3aa2476",
+          "bytes": 871
+        },
+        {
+          "role": "replica",
+          "view": "Chart",
+          "view_id": "41cc1495-c189-48ba-9222-318578206e01",
+          "scope": "Complete dynamic bar chart date buckets with active metric.",
+          "path": "outputs/cloud-replica-chart-weeks-items-per-order.csv",
+          "sha256": "90356474de3e3b9819cc7da8b7398555b97545a81d8d291ccc88003c9316c4f3",
+          "bytes": 867
+        }
+      ]
+    },
+    {
+      "name": "days-sales",
+      "parameters": {
+        "Date Period": "Last 14 Days",
+        "Selected Measure": " Sales "
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "04120191-74a9-4951-8be9-abb11657629c",
+          "name": "2020_01_08_WW01_Beautiful_Dynamic_Bar_Chart",
+          "path": "outputs/cloud-author-days-sales.png",
+          "sha256": "27f17994e6a4d97cd7c88d78c7a0c8ce043688c22ea2fc8a3f3577a616699140",
+          "size": [
+            2200,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "cf010996-c236-4b38-ad04-b52100d68b9e",
+          "name": "2020_01_08_WW01_Beautiful_Dynamic_Bar_Chart",
+          "path": "outputs/cloud-replica-days-sales.png",
+          "sha256": "62047277c72e631e3bc949dbf94e44dc921151cb8835aac2881661b9084c44b2",
+          "size": [
+            2200,
+            1600
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Chart",
+          "view_id": "072e211b-fa03-48a7-9ae6-06c0d9ee5b6f",
+          "scope": "Complete dynamic bar chart date buckets with active metric.",
+          "path": "outputs/cloud-author-chart-days-sales.csv",
+          "sha256": "fe4f27369581eb304e76dbd71aa7aadb5cd18a29023f4b7eeb60c46cb1d5e0bc",
+          "bytes": 708
+        },
+        {
+          "role": "replica",
+          "view": "Chart",
+          "view_id": "41cc1495-c189-48ba-9222-318578206e01",
+          "scope": "Complete dynamic bar chart date buckets with active metric.",
+          "path": "outputs/cloud-replica-chart-days-sales.csv",
+          "sha256": "6b5dfe1f8c524933e744dc6e6d52f44e53ccd21e8ae1f9819048e24b1a0a9068",
+          "bytes": 704
+        }
+      ]
+    },
+    {
+      "name": "days-profit-ratio",
+      "parameters": {
+        "Date Period": "Last 14 Days",
+        "Selected Measure": " Profit Ratio "
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "04120191-74a9-4951-8be9-abb11657629c",
+          "name": "2020_01_08_WW01_Beautiful_Dynamic_Bar_Chart",
+          "path": "outputs/cloud-author-days-profit-ratio.png",
+          "sha256": "4b379be20c5035acc8fa73e04c93c49524ae9d77ee57ec504b8304c1a7defa76",
+          "size": [
+            2200,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "cf010996-c236-4b38-ad04-b52100d68b9e",
+          "name": "2020_01_08_WW01_Beautiful_Dynamic_Bar_Chart",
+          "path": "outputs/cloud-replica-days-profit-ratio.png",
+          "sha256": "26d7f8125f23c8e0ca9fbac3f2df1d6f1d6e1aa1ec90ec319fa0ffe0f34b90bf",
+          "size": [
+            2200,
+            1600
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Chart",
+          "view_id": "072e211b-fa03-48a7-9ae6-06c0d9ee5b6f",
+          "scope": "Complete dynamic bar chart date buckets with active metric.",
+          "path": "outputs/cloud-author-chart-days-profit-ratio.csv",
+          "sha256": "0d5bc6e36331ad70a37eacf88a50b878989d28afc4e79fcee5ce30e1d3323cbb",
+          "bytes": 795
+        },
+        {
+          "role": "replica",
+          "view": "Chart",
+          "view_id": "41cc1495-c189-48ba-9222-318578206e01",
+          "scope": "Complete dynamic bar chart date buckets with active metric.",
+          "path": "outputs/cloud-replica-chart-days-profit-ratio.csv",
+          "sha256": "d96fdb70d37cddfbfb630f8abfed139cd31871f1b287c75cf2c1cf7c840142d2",
+          "bytes": 791
+        }
+      ]
+    },
+    {
+      "name": "days-items-per-order",
+      "parameters": {
+        "Date Period": "Last 14 Days",
+        "Selected Measure": " Items Per Order "
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "04120191-74a9-4951-8be9-abb11657629c",
+          "name": "2020_01_08_WW01_Beautiful_Dynamic_Bar_Chart",
+          "path": "outputs/cloud-author-days-items-per-order.png",
+          "sha256": "652e9891c5cbb1dbd8a37ba2bc4c3bcbd896b5d36d0a5ce38b3ed8b6dd97518f",
+          "size": [
+            2200,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "cf010996-c236-4b38-ad04-b52100d68b9e",
+          "name": "2020_01_08_WW01_Beautiful_Dynamic_Bar_Chart",
+          "path": "outputs/cloud-replica-days-items-per-order.png",
+          "sha256": "575098f29b62150b74bd63be45c5bd60966205192d92129efe73b2ba4f4954cd",
+          "size": [
+            2200,
+            1600
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Chart",
+          "view_id": "072e211b-fa03-48a7-9ae6-06c0d9ee5b6f",
+          "scope": "Complete dynamic bar chart date buckets with active metric.",
+          "path": "outputs/cloud-author-chart-days-items-per-order.csv",
+          "sha256": "8f72619a91227835de445e21239fba7f737175c8750231d4027c23ef6c36daea",
+          "bytes": 728
+        },
+        {
+          "role": "replica",
+          "view": "Chart",
+          "view_id": "41cc1495-c189-48ba-9222-318578206e01",
+          "scope": "Complete dynamic bar chart date buckets with active metric.",
+          "path": "outputs/cloud-replica-chart-days-items-per-order.csv",
+          "sha256": "08a28089eadf57c9f6225e81d8a5c5ab5a0bc17cec00c4e690c10f22ea8c2684",
+          "bytes": 724
+        }
+      ]
+    }
+  ],
+  "status": "verified",
+  "independent_review": {
+    "visual_status": "acceptable_delta",
+    "visual_evidence": "evidence/visual-review.md",
+    "functional_evidence": "evidence/functional-verification.json",
+    "scope": "Complete relevant worksheet exports and artifact contracts; no browser events executed."
+  }
+}

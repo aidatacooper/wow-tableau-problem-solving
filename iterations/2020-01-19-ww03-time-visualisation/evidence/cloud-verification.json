@@ -1,0 +1,191 @@
+{
+  "case_id": "wow-2020-ww03-time-visualisation",
+  "captured_at": "2026-10-02T17:57:01.239075+00:00",
+  "source_hashes": {
+    "author": "ce6ff5bcae92290d090499d6b69545fe17e118626240e986ef9cfcfd398553c2",
+    "replica": "5d150eb2c265803e1c00458979620940d6bbccfb49cd0dfd53547456339c711d"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "1908b008-a7e7-4a0c-9ecb-8d66f7fbe49f",
+      "name": "cwtwb-review-wow-2020-ww03-time-visualisation-author",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2924876",
+      "views": [
+        {
+          "name": "2020_01_15_WW03_Time_Visualisation",
+          "id": "c5ac4a3d-5e73-43e2-8b0c-86d27892df85"
+        },
+        {
+          "name": "By Day",
+          "id": "ea9712c1-7434-4028-8b72-bcc677c78303"
+        },
+        {
+          "name": "By Weekday",
+          "id": "e8aeb160-fd48-4d50-8e8e-04467202b55c"
+        }
+      ]
+    },
+    "replica": {
+      "id": "a03de9ff-bbdf-4877-9d69-a5d02d33dcd6",
+      "name": "cwtwb-review-wow-2020-ww03-time-visualisation-replica",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2924877",
+      "views": [
+        {
+          "name": "By Day",
+          "id": "e7537c0b-3056-48b5-b665-dd4ee30aed42"
+        },
+        {
+          "name": "By Weekday",
+          "id": "00161910-5527-4202-a7d6-7bab4625e136"
+        },
+        {
+          "name": "2020_01_15_WW03_Time_Visualisation",
+          "id": "6fb2a7c5-2923-446d-a6dd-5f7e5ba7e698"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "c5ac4a3d-5e73-43e2-8b0c-86d27892df85",
+          "name": "2020_01_15_WW03_Time_Visualisation",
+          "path": "outputs/cloud-author.png",
+          "sha256": "d3a612acb37e5eff1a763d72c9ca3aa49f91215a10bfc243e6635a561b82697b",
+          "size": [
+            2400,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "6fb2a7c5-2923-446d-a6dd-5f7e5ba7e698",
+          "name": "2020_01_15_WW03_Time_Visualisation",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "c94954f920d65a95414cfc977e03964f51b70470b13b8d60d2a2b2c60ec13455",
+          "size": [
+            2400,
+            1600
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "By Day",
+          "view_id": "ea9712c1-7434-4028-8b72-bcc677c78303",
+          "scope": "Complete monthly day/hour matrix.",
+          "path": "outputs/cloud-author-by-day.csv",
+          "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+          "bytes": 1
+        },
+        {
+          "role": "author",
+          "view": "By Weekday",
+          "view_id": "e8aeb160-fd48-4d50-8e8e-04467202b55c",
+          "scope": "Complete quarterly weekday/hour matrix.",
+          "path": "outputs/cloud-author-by-weekday.csv",
+          "sha256": "1e1d7b5cbbe3da1db97991bf2e589409ce5c8eeebdb883cf9db7b5be2e3773af",
+          "bytes": 40831
+        },
+        {
+          "role": "replica",
+          "view": "By Day",
+          "view_id": "e7537c0b-3056-48b5-b665-dd4ee30aed42",
+          "scope": "Complete monthly day/hour matrix.",
+          "path": "outputs/cloud-replica-by-day.csv",
+          "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+          "bytes": 1
+        },
+        {
+          "role": "replica",
+          "view": "By Weekday",
+          "view_id": "00161910-5527-4202-a7d6-7bab4625e136",
+          "scope": "Complete quarterly weekday/hour matrix.",
+          "path": "outputs/cloud-replica-by-weekday.csv",
+          "sha256": "4309263febe408629829e997674382f4c449643fdd302174a011021b4e266998",
+          "bytes": 31008
+        }
+      ]
+    },
+    {
+      "name": "days",
+      "parameters": {
+        "Time Selector": "Days"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "c5ac4a3d-5e73-43e2-8b0c-86d27892df85",
+          "name": "2020_01_15_WW03_Time_Visualisation",
+          "path": "outputs/cloud-author-days.png",
+          "sha256": "d2ee5774a80bd3c5a57ffb5d4303f3a3efe87fe89cef1e922d5b197383493f4b",
+          "size": [
+            2400,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "6fb2a7c5-2923-446d-a6dd-5f7e5ba7e698",
+          "name": "2020_01_15_WW03_Time_Visualisation",
+          "path": "outputs/cloud-replica-days.png",
+          "sha256": "f870cb7af5409eb390a08eb71e4b566b7d869594568f108811720018554001a3",
+          "size": [
+            2400,
+            1600
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "By Day",
+          "view_id": "ea9712c1-7434-4028-8b72-bcc677c78303",
+          "scope": "Complete monthly day/hour matrix.",
+          "path": "outputs/cloud-author-by-day-days.csv",
+          "sha256": "737e643c9ebfe841705d3c5b148c07bde6ef8e73a5cb0e6418ade5ee2566a884",
+          "bytes": 40178
+        },
+        {
+          "role": "author",
+          "view": "By Weekday",
+          "view_id": "e8aeb160-fd48-4d50-8e8e-04467202b55c",
+          "scope": "Complete quarterly weekday/hour matrix.",
+          "path": "outputs/cloud-author-by-weekday-days.csv",
+          "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+          "bytes": 1
+        },
+        {
+          "role": "replica",
+          "view": "By Day",
+          "view_id": "e7537c0b-3056-48b5-b665-dd4ee30aed42",
+          "scope": "Complete monthly day/hour matrix.",
+          "path": "outputs/cloud-replica-by-day-days.csv",
+          "sha256": "fefc7fb9be6163d8938aac976d34e3799292b580742befb29ed5e96b9e3e2a22",
+          "bytes": 40172
+        },
+        {
+          "role": "replica",
+          "view": "By Weekday",
+          "view_id": "00161910-5527-4202-a7d6-7bab4625e136",
+          "scope": "Complete quarterly weekday/hour matrix.",
+          "path": "outputs/cloud-replica-by-weekday-days.csv",
+          "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+          "bytes": 1
+        }
+      ]
+    }
+  ],
+  "status": "verified",
+  "independent_review": {
+    "visual_status": "acceptable_delta",
+    "visual_evidence": "evidence/visual-review.md",
+    "functional_evidence": "evidence/functional-verification.json",
+    "scope": "Complete relevant worksheet exports and artifact contracts; no browser events executed."
+  }
+}

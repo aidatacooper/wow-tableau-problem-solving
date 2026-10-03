@@ -1,0 +1,117 @@
+schema_version: 1.1.0
+case_id: wow-2020-ww03-time-visualisation
+iteration_id: 2020-01-19-ww03-time-visualisation
+post: https://donnacoles.home.blog/2020/01/19/can-you-visualise-time-in-a-unique-way/
+legacy_case_ids: {}
+article_date: '2020-01-19'
+challenge_year: 2020
+challenge_week: 3
+challenge_date: '2020-01-14'
+date_evidence:
+  article_date: Indexed publication date and article URL
+  challenge: Official 2020w03 challenge title
+  challenge_date: Official WordPress REST post 3393 date 2020-01-14; https://www.workout-wednesday.com/wp-json/wp/v2/posts?slug=2020w03
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2020w03/
+    wordpress_post_id: 3393
+  article:
+    url: https://donnacoles.home.blog/2020/01/19/can-you-visualise-time-in-a-unique-way/
+    path: null
+    sha256: 1035a366eece954e2f4fa3ba651b8f5a14b287863e3ccdc7506cbc41876e6be3
+  workbook:
+    url: https://public.tableau.com/views/2020_01_15_WW03_Time_Visualisation/2020_01_15_WW03_Time_Visualisation
+    filename: 2020_01_15_WW03_Time_Visualisation.twbx
+    path: null
+    sha256: 7ce795d2770dc956d43abc0023555d5cd0058b43cc992cfb998c88bd9b7f6b1b
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- evidence/cloud-data-comparison.json
+- evidence/cloud-verification.json
+- evidence/export-provenance.json
+- evidence/functional-verification.json
+- evidence/sdk-baseline.json
+- evidence/sdk-validation-12aae31.json
+- evidence/sdk-validation.json
+- evidence/visual-review.md
+- inputs/source-lock.json
+notes:
+- Build starts from an empty workbook using public SDK APIs.
+- Acceptance uses Cloud REST images/data states and artifact action contracts; no
+  browser events executed.
+cwtwb:
+  tested_version: 0.27.1
+  runs:
+  - version: 0.27.1
+    result: pass
+    evidence: evidence/functional-verification.json
+  - version: 0.27.1
+    commit: 9a35d3c9f9795a5e5ca9caa95cd152ffc88bc743
+    result: pass
+    evidence: evidence/sdk-validation.json
+  - version: 0.27.1
+    commit: 12aae31b38e3790b57b28b4240a44255a0bb01ee
+    result: pass
+    evidence: evidence/sdk-validation-12aae31.json
+  tested_commit: 12aae31b38e3790b57b28b4240a44255a0bb01ee
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: pass
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/Orders+ (Multiple Connections).hyper
+acceptance:
+- id: blank-sdk-build
+  description: Build independently from TWBEditor("") using only public SDK APIs and
+    extracted data.
+  mode: automated
+- id: locked-joined-order-times
+  description: Packaged joined order-time Hyper data matches the locked original hash.
+  mode: automated
+- id: latest-year-small-multiples
+  description: Latest-year filter selects 2019, with twelve months arranged in three
+    columns and four quarter rows.
+  mode: automated
+- id: native-hour-range-gantt
+  description: Gantt marks encode the maximum order hour and negative maximum-minus-minimum
+    span for each month and day/weekday.
+  mode: automated
+- id: native-order-count-circles
+  description: Circle marks encode COUNTD(Order ID) by month, day/weekday and order
+    hour.
+  mode: automated
+- id: days-weekdays-selector
+  description: Days and Weeks parameter states activate the corresponding worksheet;
+    Weeks displays the Weekdays alias.
+  mode: automated
+- id: dotted-linear-trendline
+  description: Each circle pane contains a native Tableau linear trendline with dotted
+    styling.
+  mode: automated
+- id: independent-full-hour-oracle
+  description: Complete active matrix counts and hour spans match independent locked
+    Hyper aggregates, covering all 1,687 latest-year orders.
+  mode: automated
+- id: cloud-rest-day-weekday-matrices
+  description: Both states export complete active worksheets from both workbooks;
+    every coordinate/count/span matches and the inactive worksheet is empty.
+  mode: automated
+- id: cloud-visual-review
+  description: Original and replica REST images reviewed in each captured state; visual
+    deltas and export limitations recorded.
+  mode: manual
+  evidence: evidence/visual-review.md
+remaining_work: []
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []
+acceptance_scope: cloud_rest_and_artifact_contracts
+browser_interaction_executed: false
