@@ -1,0 +1,114 @@
+{
+  "case_id": "wow-2020-ww14-sales-pipeline",
+  "captured_at": "2026-10-03T05:45:01.138073+00:00",
+  "source_hashes": {
+    "author": "965f44754f37c4417dc460ef313f2002430bc0ab5610549649a6a0014a971e83",
+    "replica": "0f1ea87d99f96020129c745f553b65fd33d835d93d53c2ffc719b57ef6362e40"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "cd240c0d-217d-47a1-8a96-e113e96b7613",
+      "name": "cwtwb-review-wow-2020-ww14-sales-pipeline-author-965f44754f37",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2928006",
+      "views": [
+        {
+          "name": "2020_04_01_WW14_Sales_Pipeline_Funnel",
+          "id": "df3c79bc-5d43-424c-8cfa-173568ea0b60"
+        },
+        {
+          "name": "Data",
+          "id": "3df3acb7-2727-4720-a8d7-1b8e6bf1236f"
+        },
+        {
+          "name": "Viz",
+          "id": "61416da9-4c54-466d-87eb-3b7248bc060c"
+        }
+      ]
+    },
+    "replica": {
+      "id": "5a0ecdfc-adf2-4963-a605-9e341ab166cf",
+      "name": "cwtwb-review-wow-2020-ww14-sales-pipeline-replica-0f1ea87d99f9",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2928134",
+      "views": [
+        {
+          "name": "Data",
+          "id": "d78cb0e9-cf44-4e68-bec3-eb706d328990"
+        },
+        {
+          "name": "Current Status",
+          "id": "8795cec3-329f-40d3-8b01-ffe1896763e6"
+        },
+        {
+          "name": "Overall Funnel",
+          "id": "81404903-80b2-4191-862c-1a5c87c57805"
+        },
+        {
+          "name": "Percent to Close",
+          "id": "783b6941-8958-4a57-a917-e983c134ba44"
+        },
+        {
+          "name": "2020_04_01_WW14_Sales_Pipeline_Funnel",
+          "id": "901103f9-1cdf-4497-bdc0-751be50c6d70"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "df3c79bc-5d43-424c-8cfa-173568ea0b60",
+          "name": "2020_04_01_WW14_Sales_Pipeline_Funnel",
+          "path": "outputs/cloud-author.png",
+          "sha256": "e8f7f97082f8d2c1eb9749265e22819d79366251ad76422af03b49571b34185a",
+          "size": [
+            1400,
+            800
+          ]
+        },
+        "replica": {
+          "id": "901103f9-1cdf-4497-bdc0-751be50c6d70",
+          "name": "2020_04_01_WW14_Sales_Pipeline_Funnel",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "1973eaf8640694be396eb02ee824d26f499feda68f85cfd63a21cadfaf0001f8",
+          "size": [
+            1400,
+            800
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Data",
+          "view_id": "3df3acb7-2727-4720-a8d7-1b8e6bf1236f",
+          "scope": "All six stage current sums, running/window/cumulative/closed/ratio values.",
+          "path": "outputs/cloud-author-pipeline.csv",
+          "sha256": "e77f15535e37afc06253ad86707d629dd267ee0d710dc993a063bb0c52da3d81",
+          "bytes": 1406
+        },
+        {
+          "role": "replica",
+          "view": "Data",
+          "view_id": "d78cb0e9-cf44-4e68-bec3-eb706d328990",
+          "scope": "All six stage current sums, running/window/cumulative/closed/ratio values.",
+          "path": "outputs/cloud-replica-pipeline.csv",
+          "sha256": "2eed14bbd9374ef7e7564f94c319a91fa3da97e19291841338ddf8563f8eb091",
+          "bytes": 1264
+        }
+      ]
+    }
+  ],
+  "status": "verified",
+  "independent_review": {
+    "visual_status": "acceptable_delta",
+    "visual_evidence": "evidence/visual-review.md",
+    "functional_evidence": "evidence/functional-verification.json",
+    "scope": "Declared REST worksheet exports and artifact contracts; no browser events executed."
+  }
+}

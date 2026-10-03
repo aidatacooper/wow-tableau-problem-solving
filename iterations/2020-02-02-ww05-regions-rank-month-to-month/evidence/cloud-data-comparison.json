@@ -1,0 +1,57 @@
+{
+  "status": "pass",
+  "scope": "Replica advanced chart: all48region-months, bothrankaxes and8endpointlabels. Author fallback, ifused: complete BasicData ranks and DataLabels ranks/labels; emptyadvanced-chart CSVexcluded and doesnotproveauthoraxispositions.",
+  "author_advanced_csv_empty": true,
+  "checks": [
+    {
+      "role": "author",
+      "source_view_kind": "basic-data",
+      "file": "outputs/cloud-author-basic-data.csv",
+      "sha256": "c9862c24129f34dcf72d1821f32525eb9c0bd19cd55f3c261cb41c6dfc602bf7",
+      "rows": 48,
+      "region_months_verified": 48,
+      "rank_axes_verified": 1,
+      "endpoint_labels_verified": 0
+    },
+    {
+      "role": "author",
+      "source_view_kind": "data-labels",
+      "file": "outputs/cloud-author-data-labels.csv",
+      "sha256": "f27041f7f3475ee3964d78675edc4b0996365dd9a11a5ea9700b97eaf8e146af",
+      "rows": 48,
+      "region_months_verified": 48,
+      "rank_axes_verified": 1,
+      "endpoint_labels_verified": 8
+    },
+    {
+      "role": "replica",
+      "source_view_kind": "chart",
+      "file": "outputs/cloud-replica-chart.csv",
+      "sha256": "de81bdc96ae84fc139f2686c0dbd6e2720e357bbacf4250ddcda38d918e8da2d",
+      "rows": 96,
+      "region_months_verified": 48,
+      "rank_axes_verified": 2,
+      "endpoint_labels_verified": 8
+    },
+    {
+      "role": "replica",
+      "source_view_kind": "basic-data",
+      "file": "outputs/cloud-replica-basic-data.csv",
+      "sha256": "de81bdc96ae84fc139f2686c0dbd6e2720e357bbacf4250ddcda38d918e8da2d",
+      "rows": 96,
+      "region_months_verified": 48,
+      "rank_axes_verified": 2,
+      "endpoint_labels_verified": 8
+    },
+    {
+      "role": "replica",
+      "source_view_kind": "data-labels",
+      "file": "outputs/cloud-replica-data-labels.csv",
+      "sha256": "e17185c414036a422d47a16acff4a35240288959644f4428b4c2b537d3a5a102",
+      "rows": 96,
+      "region_months_verified": 48,
+      "rank_axes_verified": 2,
+      "endpoint_labels_verified": 8
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "source_workbook_used_by_builder": false,
+  "download_url": "https://public.tableau.com/workbooks/2020_03_25_WW13_Sales_Dashboard.twb",
+  "locked_original_sha256": "b65c4d499a37aa534eecd19bced6691c6dcad456ddf5c810b64d0dab3349c2f4",
+  "download_sha256": "b65c4d499a37aa534eecd19bced6691c6dcad456ddf5c810b64d0dab3349c2f4",
+  "exact_locked_original": true,
+  "article_url": "https://donnacoles.home.blog/2020/03/28/do-you-want-to-build-a-simple-sales-dashboard/",
+  "article_sha256": "f4ab99806ebafd4584984c6fb3689453ceaf435c3c2fa73c2b6ab8f444565b04",
+  "extracted_data": [
+    {
+      "file": "inputs/Orders (Sample - Superstore).hyper",
+      "archive_member": "Data/Datasources/Orders (Sample - Superstore).hyper",
+      "bytes": 983040,
+      "sha256": "cc6939f10b0767c6a63bbcb8ecb2c4ff01232cd5b72b307cb66fb116250c7dce"
+    }
+  ]
+}

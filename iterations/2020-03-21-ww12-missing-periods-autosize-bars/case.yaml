@@ -1,0 +1,84 @@
+schema_version: 1.1.0
+case_id: wow-2020-ww12-missing-periods-autosize-bars
+iteration_id: 2020-03-21-ww12-missing-periods-autosize-bars
+post: https://donnacoles.home.blog/2020/03/21/can-you-show-missing-selected-periods-and-autosize-bars/
+legacy_case_ids: {}
+article_date: '2020-03-21'
+challenge_year: 2020
+challenge_week: 12
+challenge_date: '2020-03-17'
+date_evidence:
+  article_date: Article URL/publication date
+  challenge: Official challenge title
+  challenge_date: Official WordPress REST post 3563 date 2020-03-17; https://www.workout-wednesday.com/wp-json/wp/v2/posts?slug=2020w12
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2020w12/
+    wordpress_post_id: 3563
+  article:
+    url: https://donnacoles.home.blog/2020/03/21/can-you-show-missing-selected-periods-and-autosize-bars/
+    path: null
+    sha256: ad5c06ff70e683bf2e0146e7b8b1ae55b408270593e9c97d88dca7c78061cfb7
+  workbook:
+    url: https://public.tableau.com/views/2020_03_18_WW12_Profit_By_Orders/2020_03_18_WW12_Profit_By_Orders
+    filename: 2020_03_18_WW12_Profit_By_Orders.twbx
+    path: null
+    sha256: ea4758278b556609581a1145c1920f064d86d8d8b5f9280bc4a85379c23cc5c3
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- evidence/cloud-verification.json
+- evidence/export-provenance.json
+- evidence/functional-verification.json
+- evidence/sdk-final-validation.json
+- evidence/visual-review.md
+- inputs/source-lock.json
+notes:
+- Build starts TWBEditor("") and uses extracted Hyper and public APIs only.
+- Cloud REST state/data plus artifact contracts; no browser events executed.
+cwtwb:
+  tested_version: 0.27.1
+  tested_commit: 7096bf154c4505839ae0cafd1430992c6afc6aec
+  runs:
+  - version: 0.27.1
+    commit: 7096bf154c4505839ae0cafd1430992c6afc6aec
+    result: pass
+    evidence: evidence/sdk-final-validation.json
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: pass
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/TEMP_15dwgu91thw88n194tdxu1u2mxgk.hyper
+acceptance:
+- id: ww12-independent-data
+  description: Independent Hyper oracle verifies business calculations and complete
+    expected data scope.
+  mode: automated
+- id: ww12-artifact-contracts
+  description: Generated workbook calculation, pane and interaction contracts match
+    declared acceptance scope.
+  mode: automated
+- id: ww12-cloud-states
+  description: Paired Cloud REST images and complete worksheet CSV states are hash-bound
+    and independently checked.
+  mode: automated
+- id: cloud-visual-review
+  description: Paired images reviewed with precise deltas and export limits.
+  mode: manual
+  evidence: evidence/visual-review.md
+remaining_work: []
+workarounds:
+- Unicode circle text selector replaces author shape glyphs; set action semantics
+  retained.
+capability_gaps: []
+related_cwtwb_issues: []
+acceptance_scope: cloud_rest_and_artifact_contracts
+browser_interaction_executed: false

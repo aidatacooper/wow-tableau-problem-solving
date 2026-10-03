@@ -1,0 +1,11 @@
+{
+  "sdk_commit": "12aae31b38e3790b57b28b4240a44255a0bb01ee",
+  "synthetic_fixture": "Empty workbook, Category field; no author assets",
+  "capabilities": {
+    "add_hyper_datasource": false,
+    "select_datasource": false,
+    "add_dashboard_toggle_button": false
+  },
+  "embedded_tooltip_error": "Each tooltip run must define exactly one of 'text' or 'field'.",
+  "result": "blocked"
+}

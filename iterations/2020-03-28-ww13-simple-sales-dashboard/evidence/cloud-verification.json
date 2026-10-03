@@ -1,0 +1,184 @@
+{
+  "case_id": "wow-2020-ww13-simple-sales-dashboard",
+  "captured_at": "2026-10-03T05:36:14.671021+00:00",
+  "source_hashes": {
+    "author": "0a6f47f6ff77524d26c3c2ddf84fbb3b1915b86c3fa41774da6795b3e507731d",
+    "replica": "15e672963899f40e60a3e6f1e82672c837c4aa9f8e73c77d96d07eb9d95f1542"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "94084254-bc06-4f58-9b41-b83b4a10027a",
+      "name": "cwtwb-review-wow-2020-ww13-simple-sales-dashboard-author-0a6f47f6ff77",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2928003",
+      "views": [
+        {
+          "name": "2020_03_25_WW13_Sales_Performance",
+          "id": "4017d75d-7d0d-4074-b26d-0a0465aba9fb"
+        },
+        {
+          "name": "CHK Data",
+          "id": "60bda578-15ff-4f81-91ec-14cfa94b8db2"
+        },
+        {
+          "name": "Date",
+          "id": "54b2dd91-8374-4e8b-9fde-b4dd143529fe"
+        },
+        {
+          "name": "KPI",
+          "id": "6e35afe3-e61b-4f2b-9505-53996486a6d1"
+        },
+        {
+          "name": "Profit",
+          "id": "38b16024-f182-40ab-a371-46e9a2aa36f8"
+        },
+        {
+          "name": "Sales",
+          "id": "d7581975-fb13-411d-9656-a924e346a4ab"
+        }
+      ]
+    },
+    "replica": {
+      "id": "3319536b-0c1e-418c-b271-e165d57a4ea9",
+      "name": "cwtwb-review-wow-2020-ww13-simple-sales-dashboard-replica-15e672963899",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2928094",
+      "views": [
+        {
+          "name": "Date",
+          "id": "ef6ee16d-34ea-4c14-8e0a-8e6c84f9d914"
+        },
+        {
+          "name": "KPI",
+          "id": "d41cba12-de8e-4599-b828-e4ab4c21c58f"
+        },
+        {
+          "name": "Sales",
+          "id": "60eb351b-4de8-42f9-a6ee-1e6eeb96f319"
+        },
+        {
+          "name": "Profit",
+          "id": "5b8edf9a-9078-40a6-955e-b3afbdc70d01"
+        },
+        {
+          "name": "CHK Data",
+          "id": "4620174c-8c4a-4cb3-9432-b22a4db869e2"
+        },
+        {
+          "name": "2020_03_25_WW13_Sales_Performance",
+          "id": "38fd56a6-3cc6-40c8-a147-c9c4962e9150"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "4017d75d-7d0d-4074-b26d-0a0465aba9fb",
+          "name": "2020_03_25_WW13_Sales_Performance",
+          "path": "outputs/cloud-author.png",
+          "sha256": "f2bff682fdeab2476cf961d8fdff1a3e0111195a4ff5031fc6a3088e3361c5df",
+          "size": [
+            1600,
+            1200
+          ]
+        },
+        "replica": {
+          "id": "38fd56a6-3cc6-40c8-a147-c9c4962e9150",
+          "name": "2020_03_25_WW13_Sales_Performance",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "e0583e18413d8fd68c9134d6fe0f97ec2432d5a12d481cba87fa8b3d5818f4ca",
+          "size": [
+            1600,
+            1200
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Date",
+          "view_id": "54b2dd91-8374-4e8b-9fde-b4dd143529fe",
+          "scope": "Mapped Yesterday date as independent runtime baseline.",
+          "path": "outputs/cloud-author-date.csv",
+          "sha256": "eada2646f47f2ec4306a550acf4b47365446def6129b555b0a72d61f69ecf733",
+          "bytes": 20
+        },
+        {
+          "role": "author",
+          "view": "CHK Data",
+          "view_id": "60bda578-15ff-4f81-91ec-14cfa94b8db2",
+          "scope": "All ten Sales/Profit KPI measures.",
+          "path": "outputs/cloud-author-metrics.csv",
+          "sha256": "74660d276b046062fbb9196f6d52fc29b9378702b1e6423d2de66bfece777557",
+          "bytes": 778
+        },
+        {
+          "role": "author",
+          "view": "Sales",
+          "view_id": "d7581975-fb13-411d-9656-a924e346a4ab",
+          "scope": "All included year/month sales bars.",
+          "path": "outputs/cloud-author-sales.csv",
+          "sha256": "08731a018e758ef8abb4cb98100ab2993079e2d4c26fe457c896a90870ffeddc",
+          "bytes": 936
+        },
+        {
+          "role": "author",
+          "view": "Profit",
+          "view_id": "38b16024-f182-40ab-a371-46e9a2aa36f8",
+          "scope": "All included year/month profit bars.",
+          "path": "outputs/cloud-author-profit.csv",
+          "sha256": "ada187871ddb815ca2f94b8dbfc179e915839e9e94f267e2315086138f819734",
+          "bytes": 896
+        },
+        {
+          "role": "replica",
+          "view": "Date",
+          "view_id": "ef6ee16d-34ea-4c14-8e0a-8e6c84f9d914",
+          "scope": "Mapped Yesterday date as independent runtime baseline.",
+          "path": "outputs/cloud-replica-date.csv",
+          "sha256": "eada2646f47f2ec4306a550acf4b47365446def6129b555b0a72d61f69ecf733",
+          "bytes": 20
+        },
+        {
+          "role": "replica",
+          "view": "CHK Data",
+          "view_id": "4620174c-8c4a-4cb3-9432-b22a4db869e2",
+          "scope": "All ten Sales/Profit KPI measures.",
+          "path": "outputs/cloud-replica-metrics.csv",
+          "sha256": "876001475f5122fe350ac10bec3c61272b705acf3b0371f1db6b7beae28161e1",
+          "bytes": 319
+        },
+        {
+          "role": "replica",
+          "view": "Sales",
+          "view_id": "60eb351b-4de8-42f9-a6ee-1e6eeb96f319",
+          "scope": "All included year/month sales bars.",
+          "path": "outputs/cloud-replica-sales.csv",
+          "sha256": "54bc0127d2fbf495d444aa740e30376a479324c666a76d0d5342e82646f4fa82",
+          "bytes": 774
+        },
+        {
+          "role": "replica",
+          "view": "Profit",
+          "view_id": "5b8edf9a-9078-40a6-955e-b3afbdc70d01",
+          "scope": "All included year/month profit bars.",
+          "path": "outputs/cloud-replica-profit.csv",
+          "sha256": "1bbdc3967f3d497c916624271af34c9c976bde24c99565c38331250f6223c593",
+          "bytes": 754
+        }
+      ]
+    }
+  ],
+  "status": "verified",
+  "independent_review": {
+    "visual_status": "acceptable_delta",
+    "visual_evidence": "evidence/visual-review.md",
+    "functional_evidence": "evidence/functional-verification.json",
+    "scope": "Declared REST worksheet exports and artifact contracts; no browser events executed."
+  }
+}

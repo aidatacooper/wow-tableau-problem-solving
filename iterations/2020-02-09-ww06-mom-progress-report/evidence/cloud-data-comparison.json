@@ -1,0 +1,60 @@
+{
+  "status": "pass",
+  "scope": "All 17 subcategories, six month-specific totals, three ratios, three indicators and overall score for all three month pairs; no button CSV.",
+  "checks": [
+    {
+      "role": "author",
+      "state": "default",
+      "file": "outputs/cloud-author-chart.csv",
+      "sha256": "50f02087d8b534dc4ad8a280aa55d8aefe6655cfa816d99d80e1079a4a7fd86c",
+      "rows": 136,
+      "subcategories": 17,
+      "metric_cells_verified": 221
+    },
+    {
+      "role": "replica",
+      "state": "default",
+      "file": "outputs/cloud-replica-chart.csv",
+      "sha256": "2f69d29b66222ff4a77d924352c552238b76b55982beb599292127c2a8388bb4",
+      "rows": 68,
+      "subcategories": 17,
+      "metric_cells_verified": 221
+    },
+    {
+      "role": "author",
+      "state": "december",
+      "file": "outputs/cloud-author-chart-december.csv",
+      "sha256": "a2732db344422cc5f920de086baabf0818c1598ba3cccf5965839a2cddbb50df",
+      "rows": 136,
+      "subcategories": 17,
+      "metric_cells_verified": 221
+    },
+    {
+      "role": "replica",
+      "state": "december",
+      "file": "outputs/cloud-replica-chart-december.csv",
+      "sha256": "8717acb6a8b4a575534bfecf8e4c9a502198b9b21a1a621d8000886ac7c6b16b",
+      "rows": 68,
+      "subcategories": 17,
+      "metric_cells_verified": 221
+    },
+    {
+      "role": "author",
+      "state": "january",
+      "file": "outputs/cloud-author-chart-january.csv",
+      "sha256": "19ebc9d437acad6cbd763389134a378da299bf0e752058456ce633ab0f529116",
+      "rows": 136,
+      "subcategories": 17,
+      "metric_cells_verified": 221
+    },
+    {
+      "role": "replica",
+      "state": "january",
+      "file": "outputs/cloud-replica-chart-january.csv",
+      "sha256": "314815487e6b6a8b074a34eb77b775b03c5e6dbac3f289173306f87ad1a56508",
+      "rows": 68,
+      "subcategories": 17,
+      "metric_cells_verified": 221
+    }
+  ]
+}

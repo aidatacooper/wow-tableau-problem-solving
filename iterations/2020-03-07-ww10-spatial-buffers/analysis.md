@@ -1,0 +1,13 @@
+# London hotel and pub buffers
+
+The article covers both official WW10 challenge variants, and this iteration rebuilds both. The official article's URL uses `2020w09`, but its title explicitly identifies Week 10 and WordPress post 3530 was published on 2020-03-03. The Donna article date is 2020-03-07.
+
+The intermediate variant uses the original extracted spatial inner join: 17 hotel/pub pairs within 500 metres. Its map overlays orange hotel buffers and pub points, labels hotel buffers with the number of joined pubs, and embeds a pub list sorted by ascending distance in the hotel tooltip. Hotels with no matching pubs are absent. Distance sorting uses a descending negative distance calculation, which is equivalent to ascending distance within each hotel.
+
+The Jedi variant uses the independent combined hotel/pub extract. Its selected hotel coordinates are FIXED calculations, its radius parameter drives the gray native BUFFER polygon, and its pub marks are sized and colored by native DISTANCE. Pub identity includes neighbourhood because the dataset contains two Alchemist pubs. A hotel list selects the hotel through a parameter action. Its three sort choices preserve spaced parameter identities and price ascending versus ratings descending. The native show/hide button targets the dedicated hotel/selector container. Clearing preserves parameter values and the selector self-filter clears to all marks.
+
+Baseline SDK 12aae31 cannot add an independent second datasource, embed a filtered worksheet tooltip or create a native collapsible container button. The generic SDK additions are tested with synthetic independent Hyper sources and empty-workbook fixtures. Public APIs implement every builder step; the original TWBX is never read by the builder.
+
+Acceptance uses paired Cloud REST images and complete worksheet exports plus artifact action contracts. A REST-selected hotel/radius/sort state establishes parameter behavior, while serialized native events establish click/clear/toggle contracts. No browser clicks, hovers or tooltip appearance are claimed. The tooltip target worksheet is independently exported; a hotel or sort button CSV cannot prove map correctness.
+
+The independent data oracle reads the two locked Hyper inputs. A WGS84 local-curvature distance calculation checks coordinates and numerical distances independently of Tableau's native DISTANCE, with a one metre tolerance for rounded REST labels. Joined-pair membership is checked against the combined source's complete hotel/pub cross product at 500 metres, and every pub identity/distance plus every hotel rating is checked in the exported data. Visual differences, including any basemap, typography, mark-size and attribution differences, are recorded after image inspection.

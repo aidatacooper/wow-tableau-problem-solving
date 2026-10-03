@@ -1,0 +1,195 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "state": "default",
+      "role": "author",
+      "worksheet": "pub-list",
+      "pairs": 17
+    },
+    {
+      "state": "default",
+      "role": "author",
+      "worksheet": "map",
+      "pubs": 32,
+      "selected_hotel": "The Hoxton - Shoreditch"
+    },
+    {
+      "state": "default",
+      "role": "author",
+      "worksheet": "hotels",
+      "hotels": 10
+    },
+    {
+      "state": "default",
+      "role": "replica",
+      "worksheet": "pub-list",
+      "pairs": 17
+    },
+    {
+      "state": "default",
+      "role": "replica",
+      "worksheet": "map",
+      "pubs": 32,
+      "selected_hotel": "The Hoxton - Shoreditch"
+    },
+    {
+      "state": "default",
+      "role": "replica",
+      "worksheet": "hotels",
+      "hotels": 10
+    },
+    {
+      "state": "intermediate",
+      "role": "author",
+      "worksheet": "pub-list",
+      "pairs": 17
+    },
+    {
+      "state": "intermediate",
+      "role": "author",
+      "worksheet": "map",
+      "pubs": 32,
+      "selected_hotel": "The Hoxton - Shoreditch"
+    },
+    {
+      "state": "intermediate",
+      "role": "author",
+      "worksheet": "hotels",
+      "hotels": 10
+    },
+    {
+      "state": "intermediate",
+      "role": "replica",
+      "worksheet": "pub-list",
+      "pairs": 17
+    },
+    {
+      "state": "intermediate",
+      "role": "replica",
+      "worksheet": "map",
+      "pubs": 32,
+      "selected_hotel": "The Hoxton - Shoreditch"
+    },
+    {
+      "state": "intermediate",
+      "role": "replica",
+      "worksheet": "hotels",
+      "hotels": 10
+    },
+    {
+      "state": "radius250",
+      "role": "author",
+      "worksheet": "pub-list",
+      "pairs": 17
+    },
+    {
+      "state": "radius250",
+      "role": "author",
+      "worksheet": "map",
+      "pubs": 32,
+      "selected_hotel": "The Hoxton - Shoreditch"
+    },
+    {
+      "state": "radius250",
+      "role": "author",
+      "worksheet": "hotels",
+      "hotels": 10
+    },
+    {
+      "state": "radius250",
+      "role": "replica",
+      "worksheet": "pub-list",
+      "pairs": 17
+    },
+    {
+      "state": "radius250",
+      "role": "replica",
+      "worksheet": "map",
+      "pubs": 32,
+      "selected_hotel": "The Hoxton - Shoreditch"
+    },
+    {
+      "state": "radius250",
+      "role": "replica",
+      "worksheet": "hotels",
+      "hotels": 10
+    },
+    {
+      "state": "marriott-rating",
+      "role": "author",
+      "worksheet": "pub-list",
+      "pairs": 17
+    },
+    {
+      "state": "marriott-rating",
+      "role": "author",
+      "worksheet": "map",
+      "pubs": 32,
+      "selected_hotel": "London Marriott Hotel Park Lane"
+    },
+    {
+      "state": "marriott-rating",
+      "role": "author",
+      "worksheet": "hotels",
+      "hotels": 10
+    },
+    {
+      "state": "marriott-rating",
+      "role": "replica",
+      "worksheet": "pub-list",
+      "pairs": 17
+    },
+    {
+      "state": "marriott-rating",
+      "role": "replica",
+      "worksheet": "map",
+      "pubs": 32,
+      "selected_hotel": "London Marriott Hotel Park Lane"
+    },
+    {
+      "state": "marriott-rating",
+      "role": "replica",
+      "worksheet": "hotels",
+      "hotels": 10
+    },
+    {
+      "state": "ratings-count",
+      "role": "author",
+      "worksheet": "pub-list",
+      "pairs": 17
+    },
+    {
+      "state": "ratings-count",
+      "role": "author",
+      "worksheet": "map",
+      "pubs": 32,
+      "selected_hotel": "The Hoxton - Shoreditch"
+    },
+    {
+      "state": "ratings-count",
+      "role": "author",
+      "worksheet": "hotels",
+      "hotels": 10
+    },
+    {
+      "state": "ratings-count",
+      "role": "replica",
+      "worksheet": "pub-list",
+      "pairs": 17
+    },
+    {
+      "state": "ratings-count",
+      "role": "replica",
+      "worksheet": "map",
+      "pubs": 32,
+      "selected_hotel": "The Hoxton - Shoreditch"
+    },
+    {
+      "state": "ratings-count",
+      "role": "replica",
+      "worksheet": "hotels",
+      "hotels": 10
+    }
+  ]
+}

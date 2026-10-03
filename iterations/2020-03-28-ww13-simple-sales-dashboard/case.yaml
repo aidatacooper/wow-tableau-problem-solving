@@ -1,0 +1,82 @@
+schema_version: 1.1.0
+case_id: wow-2020-ww13-simple-sales-dashboard
+iteration_id: 2020-03-28-ww13-simple-sales-dashboard
+post: https://donnacoles.home.blog/2020/03/28/do-you-want-to-build-a-simple-sales-dashboard/
+legacy_case_ids: {}
+article_date: '2020-03-28'
+challenge_year: 2020
+challenge_week: 13
+challenge_date: '2020-03-24'
+date_evidence:
+  article_date: Article URL/publication date
+  challenge: Official challenge title
+  challenge_date: Official WordPress REST post 3591 date 2020-03-24; https://www.workout-wednesday.com/wp-json/wp/v2/posts?slug=2020w13
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2020w13/
+    wordpress_post_id: 3591
+  article:
+    url: https://donnacoles.home.blog/2020/03/28/do-you-want-to-build-a-simple-sales-dashboard/
+    path: null
+    sha256: f4ab99806ebafd4584984c6fb3689453ceaf435c3c2fa73c2b6ab8f444565b04
+  workbook:
+    url: https://public.tableau.com/views/2020_03_25_WW13_Sales_Dashboard/2020_03_25_WW13_Sales_Performance
+    filename: 2020_03_25_WW13_Sales_Dashboard.twbx
+    path: null
+    sha256: b65c4d499a37aa534eecd19bced6691c6dcad456ddf5c810b64d0dab3349c2f4
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- evidence/cloud-verification.json
+- evidence/export-provenance.json
+- evidence/functional-verification.json
+- evidence/sdk-final-validation.json
+- evidence/visual-review.md
+- inputs/source-lock.json
+notes:
+- Build starts TWBEditor("") and uses extracted Hyper and public APIs only.
+- Cloud REST state/data plus artifact contracts; no browser events executed.
+cwtwb:
+  tested_version: 0.27.1
+  tested_commit: 7096bf154c4505839ae0cafd1430992c6afc6aec
+  runs:
+  - version: 0.27.1
+    commit: 7096bf154c4505839ae0cafd1430992c6afc6aec
+    result: pass
+    evidence: evidence/sdk-final-validation.json
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: pass
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/Orders (Sample - Superstore).hyper
+acceptance:
+- id: ww13-independent-data
+  description: Independent Hyper oracle verifies business calculations and complete
+    expected data scope.
+  mode: automated
+- id: ww13-artifact-contracts
+  description: Generated workbook calculation, pane and interaction contracts match
+    declared acceptance scope.
+  mode: automated
+- id: ww13-cloud-states
+  description: Paired Cloud REST images and complete worksheet CSV states are hash-bound
+    and independently checked.
+  mode: automated
+- id: cloud-visual-review
+  description: Paired images reviewed with precise deltas and export limits.
+  mode: manual
+  evidence: evidence/visual-review.md
+remaining_work: []
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []
+acceptance_scope: cloud_rest_and_artifact_contracts
+browser_interaction_executed: false

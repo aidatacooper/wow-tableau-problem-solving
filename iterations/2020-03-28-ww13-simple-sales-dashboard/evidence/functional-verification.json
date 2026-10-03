@@ -1,0 +1,374 @@
+{
+  "case": "ww13",
+  "passed": [
+    "ww13-independent-data",
+    "ww13-artifact-contracts",
+    "ww13-cloud-states"
+  ],
+  "cloud_status": "passed",
+  "oracle": {
+    "source_rows": 9994,
+    "latest_year": 2019,
+    "local_execution_date": "2026-10-03",
+    "mapped_yesterday": "2019-10-02",
+    "day_counts": {
+      "Days in Current MTD": 2,
+      "Days in Current Full Month": 31
+    },
+    "metrics": {
+      "Current MTD Sales": 8396.488,
+      "Previous MTD Sales": 10616.664,
+      "MoM Sales": -2220.1760000000013,
+      "Run Rate Sales": 130145.56399999998,
+      "Current YTD Sales": 461557.6762,
+      "Current MTD Profit": -82.4437000000002,
+      "Previous MTD Profit": 2940.7439000000004,
+      "MoM Profit": -3023.1876000000007,
+      "Run Rate Profit": -1277.8773500000032,
+      "Current YTD Profit": 65908.09989999999
+    },
+    "monthly": {
+      "2018-01": {
+        "Sales": 18542.491,
+        "Profit": 2824.8233
+      },
+      "2018-02": {
+        "Sales": 22978.815000000002,
+        "Profit": 5004.579499999999
+      },
+      "2018-03": {
+        "Sales": 51715.875,
+        "Profit": 3611.967999999999
+      },
+      "2018-04": {
+        "Sales": 38750.039,
+        "Profit": 2977.8148999999985
+      },
+      "2018-05": {
+        "Sales": 56987.728,
+        "Profit": 8662.146399999998
+      },
+      "2018-06": {
+        "Sales": 40344.534,
+        "Profit": 4750.378099999999
+      },
+      "2018-07": {
+        "Sales": 39261.963,
+        "Profit": 4432.8778999999995
+      },
+      "2018-08": {
+        "Sales": 31115.3743,
+        "Profit": 2062.0692999999997
+      },
+      "2018-09": {
+        "Sales": 73410.0249,
+        "Profit": 9328.657599999997
+      },
+      "2018-10": {
+        "Sales": 59687.744999999995,
+        "Profit": 16243.142499999998
+      },
+      "2018-11": {
+        "Sales": 79411.9658,
+        "Profit": 4011.4074999999975
+      },
+      "2018-12": {
+        "Sales": 96999.043,
+        "Profit": 17885.309299999997
+      },
+      "2019-01": {
+        "Sales": 43971.373999999996,
+        "Profit": 7140.439099999999
+      },
+      "2019-02": {
+        "Sales": 20301.1334,
+        "Profit": 1613.871999999999
+      },
+      "2019-03": {
+        "Sales": 58872.3528,
+        "Profit": 14751.891499999998
+      },
+      "2019-04": {
+        "Sales": 36521.5361,
+        "Profit": 933.2899999999977
+      },
+      "2019-05": {
+        "Sales": 44261.1102,
+        "Profit": 6342.582799999998
+      },
+      "2019-06": {
+        "Sales": 52981.7257,
+        "Profit": 8223.335699999998
+      },
+      "2019-07": {
+        "Sales": 45264.416000000005,
+        "Profit": 6952.6212
+      },
+      "2019-08": {
+        "Sales": 63120.888000000006,
+        "Profit": 9040.955699999999
+      },
+      "2019-09": {
+        "Sales": 87866.652,
+        "Profit": 10991.5556
+      },
+      "2019-10": {
+        "Sales": 8396.488,
+        "Profit": -82.4437000000002
+      }
+    },
+    "official_reference_2020_03_24": {
+      "mapped_yesterday": "2019-03-23",
+      "scope": "Original challenge date context only; paired runtime acceptance retains author TODAY and is independently mapped from Date CSV."
+    },
+    "author_cloud_oracle": {
+      "source_rows": 9994,
+      "latest_year": 2019,
+      "local_execution_date": "2026-10-03",
+      "mapped_yesterday": "2019-10-01",
+      "day_counts": {
+        "Days in Current MTD": 1,
+        "Days in Current Full Month": 31
+      },
+      "metrics": {
+        "Current MTD Sales": 2978.466,
+        "Previous MTD Sales": 1261.8100000000002,
+        "MoM Sales": 1716.6559999999997,
+        "Run Rate Sales": 92332.446,
+        "Current YTD Sales": 456139.6542,
+        "Current MTD Profit": 1013.0729999999999,
+        "Previous MTD Profit": 340.5586,
+        "MoM Profit": 672.5143999999998,
+        "Run Rate Profit": 31405.262999999995,
+        "Current YTD Profit": 67003.6166
+      },
+      "monthly": {
+        "2018-01": {
+          "Sales": 18542.491,
+          "Profit": 2824.8233
+        },
+        "2018-02": {
+          "Sales": 22978.815000000002,
+          "Profit": 5004.579499999999
+        },
+        "2018-03": {
+          "Sales": 51715.875,
+          "Profit": 3611.967999999999
+        },
+        "2018-04": {
+          "Sales": 38750.039,
+          "Profit": 2977.8148999999985
+        },
+        "2018-05": {
+          "Sales": 56987.728,
+          "Profit": 8662.146399999998
+        },
+        "2018-06": {
+          "Sales": 40344.534,
+          "Profit": 4750.378099999999
+        },
+        "2018-07": {
+          "Sales": 39261.963,
+          "Profit": 4432.8778999999995
+        },
+        "2018-08": {
+          "Sales": 31115.3743,
+          "Profit": 2062.0692999999997
+        },
+        "2018-09": {
+          "Sales": 73410.0249,
+          "Profit": 9328.657599999997
+        },
+        "2018-10": {
+          "Sales": 59687.744999999995,
+          "Profit": 16243.142499999998
+        },
+        "2018-11": {
+          "Sales": 79411.9658,
+          "Profit": 4011.4074999999975
+        },
+        "2018-12": {
+          "Sales": 96999.043,
+          "Profit": 17885.309299999997
+        },
+        "2019-01": {
+          "Sales": 43971.373999999996,
+          "Profit": 7140.439099999999
+        },
+        "2019-02": {
+          "Sales": 20301.1334,
+          "Profit": 1613.871999999999
+        },
+        "2019-03": {
+          "Sales": 58872.3528,
+          "Profit": 14751.891499999998
+        },
+        "2019-04": {
+          "Sales": 36521.5361,
+          "Profit": 933.2899999999977
+        },
+        "2019-05": {
+          "Sales": 44261.1102,
+          "Profit": 6342.582799999998
+        },
+        "2019-06": {
+          "Sales": 52981.7257,
+          "Profit": 8223.335699999998
+        },
+        "2019-07": {
+          "Sales": 45264.416000000005,
+          "Profit": 6952.6212
+        },
+        "2019-08": {
+          "Sales": 63120.888000000006,
+          "Profit": 9040.955699999999
+        },
+        "2019-09": {
+          "Sales": 87866.652,
+          "Profit": 10991.5556
+        },
+        "2019-10": {
+          "Sales": 2978.466,
+          "Profit": 1013.0729999999999
+        }
+      },
+      "official_reference_2020_03_24": {
+        "mapped_yesterday": "2019-03-23",
+        "scope": "Original challenge date context only; paired runtime acceptance retains author TODAY and is independently mapped from Date CSV."
+      }
+    },
+    "replica_cloud_oracle": {
+      "source_rows": 9994,
+      "latest_year": 2019,
+      "local_execution_date": "2026-10-03",
+      "mapped_yesterday": "2019-10-01",
+      "day_counts": {
+        "Days in Current MTD": 1,
+        "Days in Current Full Month": 31
+      },
+      "metrics": {
+        "Current MTD Sales": 2978.466,
+        "Previous MTD Sales": 1261.8100000000002,
+        "MoM Sales": 1716.6559999999997,
+        "Run Rate Sales": 92332.446,
+        "Current YTD Sales": 456139.6542,
+        "Current MTD Profit": 1013.0729999999999,
+        "Previous MTD Profit": 340.5586,
+        "MoM Profit": 672.5143999999998,
+        "Run Rate Profit": 31405.262999999995,
+        "Current YTD Profit": 67003.6166
+      },
+      "monthly": {
+        "2018-01": {
+          "Sales": 18542.491,
+          "Profit": 2824.8233
+        },
+        "2018-02": {
+          "Sales": 22978.815000000002,
+          "Profit": 5004.579499999999
+        },
+        "2018-03": {
+          "Sales": 51715.875,
+          "Profit": 3611.967999999999
+        },
+        "2018-04": {
+          "Sales": 38750.039,
+          "Profit": 2977.8148999999985
+        },
+        "2018-05": {
+          "Sales": 56987.728,
+          "Profit": 8662.146399999998
+        },
+        "2018-06": {
+          "Sales": 40344.534,
+          "Profit": 4750.378099999999
+        },
+        "2018-07": {
+          "Sales": 39261.963,
+          "Profit": 4432.8778999999995
+        },
+        "2018-08": {
+          "Sales": 31115.3743,
+          "Profit": 2062.0692999999997
+        },
+        "2018-09": {
+          "Sales": 73410.0249,
+          "Profit": 9328.657599999997
+        },
+        "2018-10": {
+          "Sales": 59687.744999999995,
+          "Profit": 16243.142499999998
+        },
+        "2018-11": {
+          "Sales": 79411.9658,
+          "Profit": 4011.4074999999975
+        },
+        "2018-12": {
+          "Sales": 96999.043,
+          "Profit": 17885.309299999997
+        },
+        "2019-01": {
+          "Sales": 43971.373999999996,
+          "Profit": 7140.439099999999
+        },
+        "2019-02": {
+          "Sales": 20301.1334,
+          "Profit": 1613.871999999999
+        },
+        "2019-03": {
+          "Sales": 58872.3528,
+          "Profit": 14751.891499999998
+        },
+        "2019-04": {
+          "Sales": 36521.5361,
+          "Profit": 933.2899999999977
+        },
+        "2019-05": {
+          "Sales": 44261.1102,
+          "Profit": 6342.582799999998
+        },
+        "2019-06": {
+          "Sales": 52981.7257,
+          "Profit": 8223.335699999998
+        },
+        "2019-07": {
+          "Sales": 45264.416000000005,
+          "Profit": 6952.6212
+        },
+        "2019-08": {
+          "Sales": 63120.888000000006,
+          "Profit": 9040.955699999999
+        },
+        "2019-09": {
+          "Sales": 87866.652,
+          "Profit": 10991.5556
+        },
+        "2019-10": {
+          "Sales": 2978.466,
+          "Profit": 1013.0729999999999
+        }
+      },
+      "official_reference_2020_03_24": {
+        "mapped_yesterday": "2019-03-23",
+        "scope": "Original challenge date context only; paired runtime acceptance retains author TODAY and is independently mapped from Date CSV."
+      }
+    }
+  },
+  "cloud_checks": [
+    {
+      "role": "author",
+      "mapped_yesterday_from_date_view": "2019-10-01",
+      "metrics": 10,
+      "monthly_marks": 22,
+      "scope": "All ten KPI calculations and every included year/month Sales and Profit mark; Date export provides independent TODAY mapping baseline."
+    },
+    {
+      "role": "replica",
+      "mapped_yesterday_from_date_view": "2019-10-01",
+      "metrics": 10,
+      "monthly_marks": 22,
+      "scope": "All ten KPI calculations and every included year/month Sales and Profit mark; Date export provides independent TODAY mapping baseline."
+    }
+  ],
+  "browser_interaction_executed": false
+}

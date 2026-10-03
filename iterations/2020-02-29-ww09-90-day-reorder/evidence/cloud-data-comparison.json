@@ -1,0 +1,53 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "path": "outputs/cloud-author-table.csv",
+      "status": "pass",
+      "rows": 90162,
+      "scope": "Complete order-event customer timeline, customer rate/count and previous date."
+    },
+    {
+      "path": "outputs/cloud-author-ban.csv",
+      "status": "pass",
+      "rows": 2,
+      "scope": "Global reorder rate and average eligible reorders per customer."
+    },
+    {
+      "path": "outputs/cloud-replica-table.csv",
+      "status": "pass",
+      "rows": 10018,
+      "scope": "Complete order-event customer timeline, customer rate/count and previous date."
+    },
+    {
+      "path": "outputs/cloud-replica-ban.csv",
+      "status": "pass",
+      "rows": 2,
+      "scope": "Global reorder rate and average eligible reorders per customer."
+    },
+    {
+      "path": "outputs/cloud-author-table-noel.csv",
+      "status": "pass",
+      "rows": 234,
+      "scope": "Complete order-event customer timeline, customer rate/count and previous date."
+    },
+    {
+      "path": "outputs/cloud-author-ban-noel.csv",
+      "status": "pass",
+      "rows": 2,
+      "scope": "Global reorder rate and average eligible reorders per customer."
+    },
+    {
+      "path": "outputs/cloud-replica-table-noel.csv",
+      "status": "pass",
+      "rows": 26,
+      "scope": "Complete order-event customer timeline, customer rate/count and previous date."
+    },
+    {
+      "path": "outputs/cloud-replica-ban-noel.csv",
+      "status": "pass",
+      "rows": 2,
+      "scope": "Global reorder rate and average eligible reorders per customer."
+    }
+  ]
+}

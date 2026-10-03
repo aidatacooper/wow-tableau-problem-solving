@@ -1,0 +1,12 @@
+{
+  "original_sha256": "b65c4d499a37aa534eecd19bced6691c6dcad456ddf5c810b64d0dab3349c2f4",
+  "comparison_sha256": "0a6f47f6ff77524d26c3c2ddf84fbb3b1915b86c3fa41774da6795b3e507731d",
+  "transformation": "Only remove hidden=true from author worksheet window metadata for full worksheet REST CSV export; data, calculations, actions and dashboard unchanged.",
+  "worksheets_exposed": [
+    "Date",
+    "KPI",
+    "Profit",
+    "Sales"
+  ],
+  "comparison_used_by_replica_builder": false
+}

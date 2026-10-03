@@ -1,0 +1,82 @@
+schema_version: 1.1.0
+case_id: wow-2020-ww06-mom-progress-report
+iteration_id: 2020-02-09-ww06-mom-progress-report
+post: https://donnacoles.home.blog/2020/02/09/can-you-build-a-mom-progress-report/
+legacy_case_ids: {}
+article_date: '2020-02-09'
+challenge_year: 2020
+challenge_week: 6
+challenge_date: '2020-02-04'
+date_evidence:
+  article_date: Article URL and indexed publication date
+  challenge_date: Official WordPress post 3458 date 2020-02-04
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2020w06/
+    wordpress_post_id: 3458
+  article:
+    url: https://donnacoles.home.blog/2020/02/09/can-you-build-a-mom-progress-report/
+    path: null
+    sha256: be5de1be1ab977f8960a0100ea5681b452a6618de5ca9eda1b7e3ce472ddf357
+  workbook:
+    url: https://public.tableau.com/views/2020_02_05_WW06_Month_By_Month_Progress/2020_02_05_WW06_Month_By_Month_Progress
+    filename: 2020_02_05_WW06_Month_By_Month_Progress.twbx
+    path: null
+    sha256: ab19e501479dac7bda524a6d56e9345b2aab002bfeab8c19d66ea43508644a1b
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- evidence/cloud-data-comparison.json
+- evidence/cloud-verification.json
+- evidence/export-provenance.json
+- evidence/functional-verification.json
+- evidence/sdk-baseline.json
+- evidence/sdk-final-validation.json
+- evidence/visual-review.md
+- inputs/source-lock.json
+notes:
+- Built from TWBEditor("") using public SDK APIs and extracted Hyper only.
+- Cloud REST states and serialized action contracts; no browser events executed.
+cwtwb:
+  tested_version: 0.27.1
+  tested_commit: 7096bf154c4505839ae0cafd1430992c6afc6aec
+  runs:
+  - version: 0.27.1
+    commit: 7096bf154c4505839ae0cafd1430992c6afc6aec
+    result: pass
+    evidence: evidence/sdk-final-validation.json
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: pass
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/Orders (Sample - Superstore).hyper
+acceptance:
+- id: blank-sdk-build
+  description: Build from empty TWBEditor and public APIs only.
+  mode: automated
+- id: locked-extract
+  description: Input and packaged Hyper SHA256 match original extracted source.
+  mode: automated
+- id: independent-metric-oracle
+  description: All displayed marks match independent fact-level aggregates.
+  mode: automated
+- id: artifact-contract
+  description: Generated chart, computation and action contracts match stated scope.
+  mode: automated
+- id: cloud-rest-states
+  description: Complete chart CSVs match independent data in each captured REST state.
+  mode: automated
+remaining_work: []
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []
+acceptance_scope: cloud_rest_and_artifact_contracts
+browser_interaction_executed: false

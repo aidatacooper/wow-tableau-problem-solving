@@ -86,7 +86,8 @@ def capture(request):
             suffix = "" if name == "default" else "-" + name
             for role in ("author", "replica"):
                 workbook = published[role]
-                view = next(v for v in workbook.views if v.name == request[f"{role}_view"])
+                view_name = state.get(f"{role}_view", request[f"{role}_view"])
+                view = next(v for v in workbook.views if v.name == view_name)
                 options = apply_state(TSC.ImageRequestOptions(imageresolution=TSC.ImageRequestOptions.Resolution.High, maxage=1), state)
                 retry(lambda: server.views.populate_image(view, options))
                 image_path = outputs / f"cloud-{role}{suffix}.png"

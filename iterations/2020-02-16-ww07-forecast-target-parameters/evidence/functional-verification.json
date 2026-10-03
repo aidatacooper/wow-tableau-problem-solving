@@ -1,0 +1,202 @@
+{
+  "row_count": 3312,
+  "sales_year": 2019,
+  "states": [
+    {
+      "name": "default",
+      "forecast_list": "",
+      "target_list": "",
+      "values": [
+        {
+          "category": "Technology",
+          "Sales": 271730.811,
+          "Target": 250000,
+          "Forecast": null,
+          "Sales v Target Diff": 0.08692324399999994,
+          "Forecast v Target Diff": null
+        },
+        {
+          "category": "Office Supplies",
+          "Sales": 246097.17500000002,
+          "Target": 260000,
+          "Forecast": null,
+          "Sales v Target Diff": -0.05347240384615378,
+          "Forecast v Target Diff": null
+        },
+        {
+          "category": "Furniture",
+          "Sales": 215387.2692,
+          "Target": 270000,
+          "Forecast": null,
+          "Sales v Target Diff": -0.2022693733333333,
+          "Forecast v Target Diff": null
+        }
+      ]
+    },
+    {
+      "name": "technology-forecast",
+      "forecast_list": "Technology_70000:",
+      "target_list": "",
+      "values": [
+        {
+          "category": "Technology",
+          "Sales": 271730.811,
+          "Target": 250000,
+          "Forecast": 341730.811,
+          "Sales v Target Diff": 0.08692324399999994,
+          "Forecast v Target Diff": 0.3669232439999999
+        },
+        {
+          "category": "Office Supplies",
+          "Sales": 246097.17500000002,
+          "Target": 260000,
+          "Forecast": null,
+          "Sales v Target Diff": -0.05347240384615378,
+          "Forecast v Target Diff": null
+        },
+        {
+          "category": "Furniture",
+          "Sales": 215387.2692,
+          "Target": 270000,
+          "Forecast": null,
+          "Sales v Target Diff": -0.2022693733333333,
+          "Forecast v Target Diff": null
+        }
+      ]
+    },
+    {
+      "name": "negative-forecast",
+      "forecast_list": "Furniture_-25000:",
+      "target_list": "",
+      "values": [
+        {
+          "category": "Technology",
+          "Sales": 271730.811,
+          "Target": 250000,
+          "Forecast": null,
+          "Sales v Target Diff": 0.08692324399999994,
+          "Forecast v Target Diff": null
+        },
+        {
+          "category": "Office Supplies",
+          "Sales": 246097.17500000002,
+          "Target": 260000,
+          "Forecast": null,
+          "Sales v Target Diff": -0.05347240384615378,
+          "Forecast v Target Diff": null
+        },
+        {
+          "category": "Furniture",
+          "Sales": 215387.2692,
+          "Target": 270000,
+          "Forecast": 190387.2692,
+          "Sales v Target Diff": -0.2022693733333333,
+          "Forecast v Target Diff": -0.2948619659259259
+        }
+      ]
+    },
+    {
+      "name": "custom-target",
+      "forecast_list": "",
+      "target_list": "Office Supplies_310000:Technology_280000:",
+      "values": [
+        {
+          "category": "Technology",
+          "Sales": 271730.811,
+          "Target": 280000,
+          "Forecast": null,
+          "Sales v Target Diff": -0.029532817857142905,
+          "Forecast v Target Diff": null
+        },
+        {
+          "category": "Office Supplies",
+          "Sales": 246097.17500000002,
+          "Target": 310000,
+          "Forecast": null,
+          "Sales v Target Diff": -0.20613814516129025,
+          "Forecast v Target Diff": null
+        },
+        {
+          "category": "Furniture",
+          "Sales": 215387.2692,
+          "Target": 270000,
+          "Forecast": null,
+          "Sales v Target Diff": -0.2022693733333333,
+          "Forecast v Target Diff": null
+        }
+      ]
+    },
+    {
+      "name": "combined",
+      "forecast_list": "Technology_70000:Furniture_-25000:",
+      "target_list": "Office Supplies_310000:Technology_280000:",
+      "values": [
+        {
+          "category": "Technology",
+          "Sales": 271730.811,
+          "Target": 280000,
+          "Forecast": 341730.811,
+          "Sales v Target Diff": -0.029532817857142905,
+          "Forecast v Target Diff": 0.2204671821428571
+        },
+        {
+          "category": "Office Supplies",
+          "Sales": 246097.17500000002,
+          "Target": 310000,
+          "Forecast": null,
+          "Sales v Target Diff": -0.20613814516129025,
+          "Forecast v Target Diff": null
+        },
+        {
+          "category": "Furniture",
+          "Sales": 215387.2692,
+          "Target": 270000,
+          "Forecast": 190387.2692,
+          "Sales v Target Diff": -0.2022693733333333,
+          "Forecast v Target Diff": -0.2948619659259259
+        }
+      ]
+    },
+    {
+      "name": "reset",
+      "forecast_list": "",
+      "target_list": "",
+      "values": [
+        {
+          "category": "Technology",
+          "Sales": 271730.811,
+          "Target": 250000,
+          "Forecast": null,
+          "Sales v Target Diff": 0.08692324399999994,
+          "Forecast v Target Diff": null
+        },
+        {
+          "category": "Office Supplies",
+          "Sales": 246097.17500000002,
+          "Target": 260000,
+          "Forecast": null,
+          "Sales v Target Diff": -0.05347240384615378,
+          "Forecast v Target Diff": null
+        },
+        {
+          "category": "Furniture",
+          "Sales": 215387.2692,
+          "Target": 270000,
+          "Forecast": null,
+          "Sales v Target Diff": -0.2022693733333333,
+          "Forecast v Target Diff": null
+        }
+      ]
+    }
+  ],
+  "replacement_sequence": {
+    "first": "Technology_70000:",
+    "second": "Technology_70000:Furniture_-25000:",
+    "third": "Furniture_-25000:Technology_10000:",
+    "reset": ""
+  },
+  "status": "pass",
+  "artifact_sha256": "4ab5812bb26e984c560c2a5108706bc5145b1347514f36db6fbccb6b031aeed7",
+  "browser_interaction_executed": false,
+  "action_scope": "Serialized select sources, parameter targets, reset empty fields and self-filter clearing; no browser event execution."
+}

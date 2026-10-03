@@ -1,0 +1,68 @@
+{
+  "source_rows": 1000,
+  "stage_count": 6,
+  "total_pipeline_value": 1807416,
+  "closed_value": 84153,
+  "stages": {
+    "Prospect": {
+      "order": 1,
+      "value": 754800,
+      "Running Sum": 754800,
+      "Window Sum": 1807416,
+      "Cumulative Value": 1807416,
+      "Closed Value": 84153,
+      "% To Close": 0.04655984012535022,
+      "record_count": 419
+    },
+    "Lead": {
+      "order": 2,
+      "value": 422819,
+      "Running Sum": 1177619,
+      "Window Sum": 1807416,
+      "Cumulative Value": 1052616,
+      "Closed Value": 84153,
+      "% To Close": 0.0799465332086915,
+      "record_count": 230
+    },
+    "Qualified": {
+      "order": 3,
+      "value": 261347,
+      "Running Sum": 1438966,
+      "Window Sum": 1807416,
+      "Cumulative Value": 629797,
+      "Closed Value": 84153,
+      "% To Close": 0.13361924556642854,
+      "record_count": 147
+    },
+    "Opportunity": {
+      "order": 4,
+      "value": 206103,
+      "Running Sum": 1645069,
+      "Window Sum": 1807416,
+      "Cumulative Value": 368450,
+      "Closed Value": 84153,
+      "% To Close": 0.22839734020898358,
+      "record_count": 114
+    },
+    "Negotiations": {
+      "order": 5,
+      "value": 78194,
+      "Running Sum": 1723263,
+      "Window Sum": 1807416,
+      "Cumulative Value": 162347,
+      "Closed Value": 84153,
+      "% To Close": 0.5183526643547464,
+      "record_count": 43
+    },
+    "Closed": {
+      "order": 6,
+      "value": 84153,
+      "Running Sum": 1807416,
+      "Window Sum": 1807416,
+      "Cumulative Value": 84153,
+      "Closed Value": 84153,
+      "% To Close": 1.0,
+      "record_count": 47
+    }
+  }
+}

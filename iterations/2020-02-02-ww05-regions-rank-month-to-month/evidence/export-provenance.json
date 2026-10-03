@@ -1,0 +1,8 @@
+{
+  "original_sha256": "a428c12243505b03ff116e9f0fc473a3189f3b37e7ee79b30a89ebbf57605554",
+  "comparison_sha256": "84a50c53f1a9e545fa727483a54699087ecb3c1dc8e7d361d8ff2f587f41018d",
+  "changes": [
+    "Removed hidden worksheet window flags for REST data-view export only."
+  ],
+  "comparison_used_as_build_template": false
+}

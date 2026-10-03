@@ -1,0 +1,100 @@
+schema_version: 1.1.0
+case_id: wow-2020-ww10-spatial-buffers
+iteration_id: 2020-03-07-ww10-spatial-buffers
+post: https://donnacoles.home.blog/2020/03/07/can-you-use-spatial-buffer-functions-in-two-ways/
+legacy_case_ids: {}
+article_date: '2020-03-07'
+challenge_year: 2020
+challenge_week: 10
+challenge_date: '2020-03-03'
+date_evidence:
+  article_date: Declared article publication date in iteration_id
+  challenge: Official title says Week 10 although the official URL slug is 2020w09.
+  challenge_date: Official WordPress REST post 3530 date 2020-03-03T12:30:00; title
+    verified as WW10 spatial BUFFER.
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2020w09/
+    wordpress_post_id: 3530
+  article:
+    url: https://donnacoles.home.blog/2020/03/07/can-you-use-spatial-buffer-functions-in-two-ways/
+    path: null
+    sha256: 2ac6425db1a4ae893df30e59f4ff64b90f872815aba0bfea0586391d24fc877d
+  workbook:
+    url: https://public.tableau.com/views/2020_03_04_WW10_London_Pubs_Hotels_Buffer/2020_03_04_WW10_London_Pubs_Buffer_Int
+    filename: author.twbx
+    sha256: 8b3cb0a10e20b08fc9acea3b8792cd7542da5e8131f019024c8430c07ed53854
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- evidence/cloud-data-comparison.json
+- evidence/cloud-verification.json
+- evidence/export-provenance.json
+- evidence/functional-verification.json
+- evidence/sdk-baseline.json
+- evidence/sdk-final-validation.json
+- evidence/visual-review.md
+- inputs/source-lock.json
+notes:
+- Generated index views must be refreshed after the workbook is built and verified.
+cwtwb:
+  tested_version: 0.27.1
+  tested_commit: 7096bf154c4505839ae0cafd1430992c6afc6aec
+  runs:
+  - version: 0.27.1
+    commit: 12aae31b38e3790b57b28b4240a44255a0bb01ee
+    result: blocked
+    evidence: evidence/sdk-baseline.json
+  - version: 0.27.1
+    commit: 7096bf154c4505839ae0cafd1430992c6afc6aec
+    result: pass
+    evidence: evidence/sdk-final-validation.json
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: pass
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/2020_03_04_WW09_London Pubs.csv+ (Multiple Connections).hyper
+  - inputs/2020_03_04_WW09_Hotels_Pubs Combined.hyper
+acceptance:
+- id: empty-public-sdk-build
+  description: Build both dashboards from an empty workbook and two extracted data
+    sources using public APIs.
+  mode: automated
+- id: spatial-data-oracle
+  description: Independently verify all joined hotel/pub pairs, 500m inclusion and
+    every selected-hotel distance.
+  mode: automated
+- id: native-spatial-tooltips
+  description: Native BUFFER and MAKEPOINT map panes plus embedded pub-list tooltip
+    and field filtering contract.
+  mode: automated
+- id: hotel-sort-selection-contract
+  description: Three numeric sort measures, selected hotel parameter actions, clear
+    behavior and native collapsible container.
+  mode: automated
+- id: cloud-complete-map-data
+  description: Complete pub-list, hotel-list and map exports match independent source
+    data across hotel/radius/sort states.
+  mode: automated
+- id: cloud-visual-review
+  description: Review original and replica REST images for both map variants and selected
+    hotel/radius states.
+  mode: manual
+  evidence: evidence/visual-review.md
+remaining_work: []
+workarounds: []
+capability_gaps:
+- Independent Hyper datasources
+- Viz in tooltip with native field filter
+- Native dashboard show/hide button
+related_cwtwb_issues: []
+acceptance_scope: cloud_rest_and_artifact_contracts
+browser_interaction_executed: false

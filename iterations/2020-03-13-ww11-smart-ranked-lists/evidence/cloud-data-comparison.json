@@ -1,0 +1,95 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "path": "outputs/cloud-author-sales-rank.csv",
+      "status": "pass",
+      "dates": 12
+    },
+    {
+      "path": "outputs/cloud-author-orders-rank.csv",
+      "status": "pass",
+      "dates": 12
+    },
+    {
+      "path": "outputs/cloud-author-qty-rank.csv",
+      "status": "pass",
+      "dates": 12
+    },
+    {
+      "path": "outputs/cloud-replica-sales-rank.csv",
+      "status": "pass",
+      "dates": 12
+    },
+    {
+      "path": "outputs/cloud-replica-orders-rank.csv",
+      "status": "pass",
+      "dates": 12
+    },
+    {
+      "path": "outputs/cloud-replica-qty-rank.csv",
+      "status": "pass",
+      "dates": 12
+    },
+    {
+      "path": "outputs/cloud-author-sales-rank-monday.csv",
+      "status": "pass",
+      "dates": 13
+    },
+    {
+      "path": "outputs/cloud-author-orders-rank-monday.csv",
+      "status": "pass",
+      "dates": 13
+    },
+    {
+      "path": "outputs/cloud-author-qty-rank-monday.csv",
+      "status": "pass",
+      "dates": 13
+    },
+    {
+      "path": "outputs/cloud-replica-sales-rank-monday.csv",
+      "status": "pass",
+      "dates": 13
+    },
+    {
+      "path": "outputs/cloud-replica-orders-rank-monday.csv",
+      "status": "pass",
+      "dates": 13
+    },
+    {
+      "path": "outputs/cloud-replica-qty-rank-monday.csv",
+      "status": "pass",
+      "dates": 13
+    },
+    {
+      "path": "outputs/cloud-author-sales-rank-year-end.csv",
+      "status": "pass",
+      "dates": 12
+    },
+    {
+      "path": "outputs/cloud-author-orders-rank-year-end.csv",
+      "status": "pass",
+      "dates": 12
+    },
+    {
+      "path": "outputs/cloud-author-qty-rank-year-end.csv",
+      "status": "pass",
+      "dates": 12
+    },
+    {
+      "path": "outputs/cloud-replica-sales-rank-year-end.csv",
+      "status": "pass",
+      "dates": 12
+    },
+    {
+      "path": "outputs/cloud-replica-orders-rank-year-end.csv",
+      "status": "pass",
+      "dates": 12
+    },
+    {
+      "path": "outputs/cloud-replica-qty-rank-year-end.csv",
+      "status": "pass",
+      "dates": 12
+    }
+  ]
+}

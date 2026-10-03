@@ -1,0 +1,10 @@
+Category,Measure Names,Forecast v Target Diff,Forecast,Sales v Target Diff,Target,Measure Values,Sales
+Furniture,,,,,"$270,000",,"$215,387"
+Office Supplies,,,,,"$260,000",,"$246,097"
+Technology,,,,,"$250,000",,"$271,731"
+Furniture,Forecast,-29%,"$190,387",-20%,"$270,000","190,387.2692","$215,387"
+Furniture,Sales,-29%,"$190,387",-20%,"$270,000","215,387.2692","$215,387"
+Office Supplies,Forecast,,,-5%,"$260,000",,"$246,097"
+Office Supplies,Sales,,,-5%,"$260,000","246,097.175","$246,097"
+Technology,Forecast,,,9%,"$250,000",,"$271,731"
+Technology,Sales,,,9%,"$250,000","271,730.811","$271,731"

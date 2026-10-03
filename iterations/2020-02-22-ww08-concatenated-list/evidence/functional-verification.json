@@ -1,0 +1,68 @@
+{
+  "status": "pass",
+  "artifact_sha256": "f4e4acd8b4c0fcd9d0812c2a20aa5b460605e73457a02125a5942698a5ac8ba9",
+  "input_rows": 179197,
+  "unique_patient_rows": 59272,
+  "states": {
+    "default": {
+      "patient_rows": 672,
+      "oracle_sha256": "3b68bae3641c7bb1e4832d8f422233614473d800f92191b28a2ce42353309036"
+    },
+    "all": {
+      "patient_rows": 59272,
+      "oracle_sha256": "2d5dceace8d5a5a77d1473781009087eff3197378d589071be92823484f3bd83"
+    },
+    "flu": {
+      "patient_rows": 56683,
+      "oracle_sha256": "392cba3673ee67e608ab50ef8f506a4d89ced9d50b68ff9d65d12b0eecf9a194"
+    },
+    "physician-age": {
+      "patient_rows": 26,
+      "oracle_sha256": "e2ebbbee6c8a1727f7f24b4b22e2a32a1a08f53d97a39cd2dff0a78e58238e3b"
+    }
+  },
+  "browser_interaction_executed": false,
+  "scope": "Independent complete patient profiles and concatenated distinct alphabetic checks; native INDEX/SIZE/PREVIOUS_VALUE and filter contracts. Full oracle recomputed from the locked Hyper input; evidence stores count/hash rather than duplicating 59,272 patient profiles.",
+  "cloud_checks": [
+    {
+      "file": "outputs/cloud-author-report.csv",
+      "patient_rows": 672,
+      "status": "pass"
+    },
+    {
+      "file": "outputs/cloud-replica-report.csv",
+      "patient_rows": 672,
+      "status": "pass"
+    },
+    {
+      "file": "outputs/cloud-author-report-all.csv",
+      "patient_rows": 59272,
+      "status": "pass"
+    },
+    {
+      "file": "outputs/cloud-replica-report-all.csv",
+      "patient_rows": 59272,
+      "status": "pass"
+    },
+    {
+      "file": "outputs/cloud-author-report-flu.csv",
+      "patient_rows": 56683,
+      "status": "pass"
+    },
+    {
+      "file": "outputs/cloud-replica-report-flu.csv",
+      "patient_rows": 56683,
+      "status": "pass"
+    },
+    {
+      "file": "outputs/cloud-author-report-physician-age.csv",
+      "patient_rows": 26,
+      "status": "pass"
+    },
+    {
+      "file": "outputs/cloud-replica-report-physician-age.csv",
+      "patient_rows": 26,
+      "status": "pass"
+    }
+  ]
+}

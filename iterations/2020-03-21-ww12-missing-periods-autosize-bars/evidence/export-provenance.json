@@ -1,0 +1,10 @@
+{
+  "original_sha256": "ea4758278b556609581a1145c1920f064d86d8d8b5f9280bc4a85379c23cc5c3",
+  "comparison_sha256": "1637a6d55fc56d91b647e9cb279a6d561cbcb875daec6b3f181120c21e69f470",
+  "transformation": "Only remove hidden=true from author worksheet window metadata for full worksheet REST CSV export; data, calculations, actions and dashboard unchanged.",
+  "worksheets_exposed": [
+    "Chart",
+    "Selector"
+  ],
+  "comparison_used_by_replica_builder": false
+}

@@ -1,0 +1,8 @@
+{
+  "article_url": "https://donnacoles.home.blog/2020/02/29/what-is-the-90-day-reorder-rate/",
+  "article_sha256": "aaaa78dc18d81b4924b7f0f90c54d21b8ef2e281b7db60c89ba41bc4d20db71c",
+  "analysis_copy_repository_path": "scratch/ww09-analysis/article.html",
+  "section_context": "After configuring the shape marks and before dashboard header formatting",
+  "summary": "The author explains that the official requirement calls for a single-color connecting line. Her comparison workbook uses graduated Line colors. She reports that Luke used Gantt marks so each connecting block is fully colored. The replication uses native Gantt intervals with verified previous/current-date endpoints and uniform gray connections; its shape flags retain gray/violet colors.",
+  "source_workbook_used_by_builder": false
+}

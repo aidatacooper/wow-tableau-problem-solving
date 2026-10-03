@@ -1,0 +1,105 @@
+schema_version: 1.1.0
+case_id: wow-2020-ww11-smart-ranked-lists
+iteration_id: 2020-03-13-ww11-smart-ranked-lists
+post: https://donnacoles.home.blog/2020/03/13/can-you-build-smart-ranked-lists/
+legacy_case_ids: {}
+article_date: '2020-03-13'
+challenge_year: 2020
+challenge_week: 11
+challenge_date: '2020-03-10'
+date_evidence:
+  article_date: Indexed publication date and article URL
+  challenge: '2020 Week 11: Can you build smart ranked lists?'
+  challenge_date: Official WordPress post 3543 date 2020-03-10T16:36:33; https://www.workout-wednesday.com/2020w11/
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2020w11/
+    wordpress_post_id: 3543
+  article:
+    url: https://donnacoles.home.blog/2020/03/13/can-you-build-smart-ranked-lists/
+    path: null
+    sha256: 1c1c11f5b3eb71e045cb45bde44db0c3ba05ac19d21fb7a582ffe5848df12916
+  workbook:
+    url: https://public.tableau.com/views/2020_03_11_WW11_Smart_Ranking/2020_03_11_WW11_Smart_Ranking
+    filename: 2020_03_11_WW11_Smart_Ranking.twbx
+    path: null
+    sha256: dd9b84edaaaa2821a02fc33fe19207e157d082e12f04695c3704e9544cffbb0d
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- evidence/cloud-data-comparison.json
+- evidence/cloud-verification.json
+- evidence/export-provenance.json
+- evidence/functional-verification.json
+- evidence/sdk-final-validation.json
+- evidence/visual-review.md
+- inputs/source-lock.json
+notes:
+- Empty workbook, public SDK API construction.
+- Acceptance uses Cloud REST data/images and artifact contracts; no browser events
+  executed.
+cwtwb:
+  tested_version: 0.27.1
+  tested_commit: 7096bf154c4505839ae0cafd1430992c6afc6aec
+  runs:
+  - version: 0.27.1
+    commit: 7096bf154c4505839ae0cafd1430992c6afc6aec
+    result: pass
+    evidence: evidence/sdk-final-validation.json
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: pass
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/federated_08xa5gt11f4gl80zj8uk20.hyper
+acceptance:
+- id: blank-sdk-build
+  description: 'blank sdk build: check native contracts and independent complete data
+    oracle.'
+  mode: automated
+- id: locked-superstore-data
+  description: 'locked superstore data: check native contracts and independent complete
+    data oracle.'
+  mode: automated
+- id: native-84-day-weekday-window
+  description: 'native 84 day weekday window: check native contracts and independent
+    complete data oracle.'
+  mode: automated
+- id: native-three-metric-ranking
+  description: 'native three metric ranking: check native contracts and independent
+    complete data oracle.'
+  mode: automated
+- id: native-average-bands
+  description: 'native average bands: check native contracts and independent complete
+    data oracle.'
+  mode: automated
+- id: selected-date-arrow-rank
+  description: 'selected date arrow rank: check native contracts and independent complete
+    data oracle.'
+  mode: automated
+- id: independent-ranking-oracle
+  description: 'independent ranking oracle: check native contracts and independent
+    complete data oracle.'
+  mode: automated
+- id: cloud-rest-three-lists
+  description: 'cloud rest three lists: check native contracts and independent complete
+    data oracle.'
+  mode: automated
+- id: cloud-visual-review
+  description: 'cloud visual review: check native contracts and independent complete
+    data oracle.'
+  mode: manual
+  evidence: evidence/visual-review.md
+remaining_work: []
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []
+acceptance_scope: cloud_rest_and_artifact_contracts
+browser_interaction_executed: false

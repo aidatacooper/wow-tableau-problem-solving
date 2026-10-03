@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-03",
+  "source_workbook": {
+    "filename": "author.twbx",
+    "bytes": 28808,
+    "sha256": "8b3cb0a10e20b08fc9acea3b8792cd7542da5e8131f019024c8430c07ed53854",
+    "url": null
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Datasources/2020_03_04_WW09_London Pubs.csv+ (Multiple Connections).hyper",
+      "file": "inputs/2020_03_04_WW09_London Pubs.csv+ (Multiple Connections).hyper",
+      "bytes": 65536,
+      "sha256": "4434259a0089197a15ef7c1bb1236cf483f3a23f1ef74b57ff3e2f467a91645f"
+    },
+    {
+      "archive_path": "Data/Datasources/2020_03_04_WW09_Hotels_Pubs Combined.hyper",
+      "file": "inputs/2020_03_04_WW09_Hotels_Pubs Combined.hyper",
+      "bytes": 65536,
+      "sha256": "c1f13e39dd50b95bcb3636f0a36e2802042cede2e1115bc09d2d3d2b732c1f2a"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

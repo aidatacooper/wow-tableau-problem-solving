@@ -1,0 +1,17 @@
+{
+  "source_workbook_used_by_builder": false,
+  "download_url": "https://public.tableau.com/workbooks/2020_03_11_WW11_Smart_Ranking.twb",
+  "locked_original_sha256": "dd9b84edaaaa2821a02fc33fe19207e157d082e12f04695c3704e9544cffbb0d",
+  "download_sha256": "dd9b84edaaaa2821a02fc33fe19207e157d082e12f04695c3704e9544cffbb0d",
+  "exact_locked_original": true,
+  "article_url": "https://donnacoles.home.blog/2020/03/13/can-you-build-smart-ranked-lists/",
+  "article_sha256": "1c1c11f5b3eb71e045cb45bde44db0c3ba05ac19d21fb7a582ffe5848df12916",
+  "extracted_data": [
+    {
+      "file": "inputs/federated_08xa5gt11f4gl80zj8uk20.hyper",
+      "archive_member": "Data/Extracts/federated_08xa5gt11f4gl80zj8uk20.hyper",
+      "bytes": 983040,
+      "sha256": "592182f432543a6386820c870c296cbcb56a638f74c829cd26bef74b2d2b8791"
+    }
+  ]
+}

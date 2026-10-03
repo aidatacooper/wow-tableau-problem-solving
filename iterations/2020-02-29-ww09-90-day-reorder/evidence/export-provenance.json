@@ -1,0 +1,10 @@
+{
+  "original_sha256": "c19f69de71f4deb79ce380868d466420323a08bc40d99a22fb0a29633579e20a",
+  "comparison_sha256": "db1cca219e350749a737faa45e085a3da2a05a15050f6c5c147c52bac004f923",
+  "transformation": "Only remove hidden=true from author worksheet window metadata to expose complete worksheet REST CSV. Calculations, dashboard layout, data and actions retained.",
+  "worksheets_exposed": [
+    "BAN",
+    "Table"
+  ],
+  "comparison_used_by_replica_builder": false
+}

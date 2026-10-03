@@ -1,0 +1,31 @@
+last_stage,last_stage order,Measure Names,Measure Values
+Prospect,1,value,"754,800"
+Prospect,1,Running Sum,"754,800"
+Prospect,1,Window Sum along Table (Down),"1,807,416"
+Prospect,1,Cumulative Value along Table (Down),"1,807,416"
+Prospect,1,% To Close along Table (Down),0.046559840
+Lead,2,value,"422,819"
+Lead,2,Running Sum,"1,177,619"
+Lead,2,Window Sum along Table (Down),"1,807,416"
+Lead,2,Cumulative Value along Table (Down),"1,052,616"
+Lead,2,% To Close along Table (Down),0.079946533
+Qualified,3,value,"261,347"
+Qualified,3,Running Sum,"1,438,966"
+Qualified,3,Window Sum along Table (Down),"1,807,416"
+Qualified,3,Cumulative Value along Table (Down),"629,797"
+Qualified,3,% To Close along Table (Down),0.133619246
+Opportunity,4,value,"206,103"
+Opportunity,4,Running Sum,"1,645,069"
+Opportunity,4,Window Sum along Table (Down),"1,807,416"
+Opportunity,4,Cumulative Value along Table (Down),"368,450"
+Opportunity,4,% To Close along Table (Down),0.228397340
+Negotiations,5,value,"78,194"
+Negotiations,5,Running Sum,"1,723,263"
+Negotiations,5,Window Sum along Table (Down),"1,807,416"
+Negotiations,5,Cumulative Value along Table (Down),"162,347"
+Negotiations,5,% To Close along Table (Down),0.518352664
+Closed,6,value,"84,153"
+Closed,6,Running Sum,"1,807,416"
+Closed,6,Window Sum along Table (Down),"1,807,416"
+Closed,6,Cumulative Value along Table (Down),"84,153"
+Closed,6,% To Close along Table (Down),1

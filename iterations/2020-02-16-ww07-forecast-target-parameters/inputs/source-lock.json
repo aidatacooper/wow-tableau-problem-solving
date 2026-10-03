@@ -1,0 +1,21 @@
+{
+  "original_workbook_sha256": "8f2896c7c9e8bc326d6463576e7af23859ffb08129813bbef23c077720697653",
+  "article_sha256": "89bf81b6ff1b6fc037b620dd8df64af8c8215e4a8d69f55bda54aa68692f1c5c",
+  "data_files": {
+    "inputs/Orders (Sample - Superstore).hyper": "762befccf4fbb9c56b2f5768abd5edc5081d224b62e4ea27fc84840b6e8256ff"
+  },
+  "source_workbook_used_by_builder": false,
+  "download_url": "https://public.tableau.com/workbooks/2020_02_12_WW07_Parameters_as_datasource.twb",
+  "locked_original_sha256": "8f2896c7c9e8bc326d6463576e7af23859ffb08129813bbef23c077720697653",
+  "download_sha256": "8f2896c7c9e8bc326d6463576e7af23859ffb08129813bbef23c077720697653",
+  "exact_locked_original": true,
+  "article_url": "https://donnacoles.home.blog/2020/02/16/what-happens-if-can-you-update-sales-forecast-and-targets-using-only-parameters/",
+  "extracted_data": [
+    {
+      "file": "inputs/Orders (Sample - Superstore).hyper",
+      "archive_member": "Data/Datasources/Orders (Sample - Superstore).hyper",
+      "bytes": 458752,
+      "sha256": "762befccf4fbb9c56b2f5768abd5edc5081d224b62e4ea27fc84840b6e8256ff"
+    }
+  ]
+}

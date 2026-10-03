@@ -1,0 +1,92 @@
+schema_version: 1.1.0
+case_id: wow-2020-ww07-forecast-target-parameters
+iteration_id: 2020-02-16-ww07-forecast-target-parameters
+post: https://donnacoles.home.blog/2020/02/16/what-happens-if-can-you-update-sales-forecast-and-targets-using-only-parameters/
+legacy_case_ids: {}
+article_date: '2020-02-16'
+challenge_year: 2020
+challenge_week: 7
+challenge_date: '2020-02-11'
+date_evidence:
+  article_date: Article URL and indexed publication date
+  challenge_date: Official WordPress post 3470 date 2020-02-11
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2020w07/
+    wordpress_post_id: 3470
+  article:
+    url: https://donnacoles.home.blog/2020/02/16/what-happens-if-can-you-update-sales-forecast-and-targets-using-only-parameters/
+    path: null
+    sha256: 89bf81b6ff1b6fc037b620dd8df64af8c8215e4a8d69f55bda54aa68692f1c5c
+  workbook:
+    url: https://public.tableau.com/views/2020_02_12_WW07_Parameters_as_datasource/2020_02_12_WW07_Parameters_As_Datasource
+    filename: 2020_02_12_WW07_Parameters_as_datasource.twbx
+    path: null
+    sha256: 8f2896c7c9e8bc326d6463576e7af23859ffb08129813bbef23c077720697653
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- evidence/cloud-data-comparison.json
+- evidence/cloud-verification.json
+- evidence/export-provenance.json
+- evidence/functional-verification.json
+- evidence/sdk-baseline.json
+- evidence/sdk-final-validation.json
+- evidence/visual-review.md
+- inputs/source-lock.json
+notes:
+- Built from TWBEditor("") using public SDK APIs and extracted Hyper only.
+- Cloud REST states and serialized action contracts; no browser events executed.
+cwtwb:
+  tested_version: 0.27.1
+  tested_commit: 7096bf154c4505839ae0cafd1430992c6afc6aec
+  runs:
+  - version: 0.27.1
+    commit: 12aae31b38e3790b57b28b4240a44255a0bb01ee
+    result: blocked
+    evidence: evidence/sdk-baseline.json
+  - version: 0.27.1
+    commit: 7096bf154c4505839ae0cafd1430992c6afc6aec
+    result: pass
+    evidence: evidence/sdk-final-validation.json
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: pass
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/Orders (Sample - Superstore).hyper
+acceptance:
+- id: blank-sdk-build
+  description: Build from empty TWBEditor and public APIs only.
+  mode: automated
+- id: locked-extract
+  description: Input and packaged Hyper SHA256 match original extracted source.
+  mode: automated
+- id: independent-metric-oracle
+  description: All displayed marks match independent fact-level aggregates.
+  mode: automated
+- id: artifact-contract
+  description: Generated chart, computation and action contracts match stated scope.
+  mode: automated
+- id: cloud-rest-states
+  description: Complete chart CSVs match independent data in each captured REST state.
+  mode: automated
+remaining_work: []
+workarounds: []
+capability_gaps:
+- capability: Layered pane breakdown=off
+  status: resolved in local SDK, awaiting final pinned commit
+  evidence: evidence/sdk-baseline.json
+- capability: Measure Names color-map palette
+  status: resolved in local SDK, awaiting final pinned commit
+  evidence: evidence/sdk-baseline.json
+related_cwtwb_issues: []
+acceptance_scope: cloud_rest_and_artifact_contracts
+browser_interaction_executed: false

@@ -1,0 +1,23 @@
+{
+  "status": "pass",
+  "artifact_sha256": "4386b948fdd5b60aaec1563c9ae0e40639c8b1e5f62af2e2fc12bdcf33616657",
+  "source_rows": {
+    "joined": 17,
+    "combined": 42
+  },
+  "hotels": 10,
+  "pubs": 32,
+  "joined_hotel_counts": {
+    "The London EDITION": 5,
+    "The Z Hotel Piccadilly": 2,
+    "Great Scotland Yard Hotel": 2,
+    "Savoy Hotel": 2,
+    "The Hoxton - Shoreditch": 2,
+    "Hotel Indigo": 2,
+    "London Marriott Hotel Park Lane": 1,
+    "JW Marriott Grosvenor House London": 1
+  },
+  "distance_oracle": "Independent WGS84 local-curvature calculation; 1m rounded-label tolerance",
+  "cloud_status": "pass",
+  "interaction_scope": "REST parameter states and serialized action/toggle/tooltip contracts; no browser events executed."
+}

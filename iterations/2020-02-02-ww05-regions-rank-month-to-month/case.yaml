@@ -1,0 +1,82 @@
+schema_version: 1.1.0
+case_id: wow-2020-ww05-regions-rank-month-to-month
+iteration_id: 2020-02-02-ww05-regions-rank-month-to-month
+post: https://donnacoles.home.blog/2020/02/02/where-do-regions-rank-month-to-month/
+legacy_case_ids: {}
+article_date: '2020-02-02'
+challenge_year: 2020
+challenge_week: 5
+challenge_date: '2020-01-28'
+date_evidence:
+  article_date: Article URL and indexed publication date
+  challenge_date: Official WordPress post 3444 date 2020-01-28
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2020w05/
+    wordpress_post_id: 3444
+  article:
+    url: https://donnacoles.home.blog/2020/02/02/where-do-regions-rank-month-to-month/
+    path: null
+    sha256: 45ab264f0a6644963b629453942ccad72bd55867637afd8ba5870791b4248cea
+  workbook:
+    url: https://public.tableau.com/views/2020_01_29_WW05_Rank_Bump_Chart/2020_01_29_WW05_Rank_Bump_Chart-Advanced
+    filename: 2020_01_29_WW05_Rank_Bump_Chart.twbx
+    path: null
+    sha256: a428c12243505b03ff116e9f0fc473a3189f3b37e7ee79b30a89ebbf57605554
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- evidence/cloud-data-comparison.json
+- evidence/cloud-verification.json
+- evidence/export-provenance.json
+- evidence/functional-verification.json
+- evidence/sdk-baseline.json
+- evidence/sdk-final-validation.json
+- evidence/visual-review.md
+- inputs/source-lock.json
+notes:
+- Built from TWBEditor("") using public SDK APIs and extracted Hyper only.
+- Cloud REST states and serialized action contracts; no browser events executed.
+cwtwb:
+  tested_version: 0.27.1
+  tested_commit: 7096bf154c4505839ae0cafd1430992c6afc6aec
+  runs:
+  - version: 0.27.1
+    commit: 7096bf154c4505839ae0cafd1430992c6afc6aec
+    result: pass
+    evidence: evidence/sdk-final-validation.json
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: pass
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/Orders (Sample - Superstore).hyper
+acceptance:
+- id: blank-sdk-build
+  description: Build from empty TWBEditor and public APIs only.
+  mode: automated
+- id: locked-extract
+  description: Input and packaged Hyper SHA256 match original extracted source.
+  mode: automated
+- id: independent-metric-oracle
+  description: All displayed marks match independent fact-level aggregates.
+  mode: automated
+- id: artifact-contract
+  description: Generated chart, computation and action contracts match stated scope.
+  mode: automated
+- id: cloud-rest-states
+  description: Complete chart CSVs match independent data in each captured REST state.
+  mode: automated
+remaining_work: []
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []
+acceptance_scope: cloud_rest_and_artifact_contracts
+browser_interaction_executed: false

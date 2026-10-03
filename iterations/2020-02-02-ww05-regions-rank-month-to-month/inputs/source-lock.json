@@ -1,0 +1,21 @@
+{
+  "original_workbook_sha256": "a428c12243505b03ff116e9f0fc473a3189f3b37e7ee79b30a89ebbf57605554",
+  "article_sha256": "45ab264f0a6644963b629453942ccad72bd55867637afd8ba5870791b4248cea",
+  "data_files": {
+    "inputs/Orders (Sample - Superstore).hyper": "35adfd7059e55cc3253c0ddcb1b7d57d42d12f5ca1da012b3e8d6e3b3842d32d"
+  },
+  "source_workbook_used_by_builder": false,
+  "download_url": "https://public.tableau.com/workbooks/2020_01_29_WW05_Rank_Bump_Chart.twb",
+  "locked_original_sha256": "a428c12243505b03ff116e9f0fc473a3189f3b37e7ee79b30a89ebbf57605554",
+  "download_sha256": "a428c12243505b03ff116e9f0fc473a3189f3b37e7ee79b30a89ebbf57605554",
+  "exact_locked_original": true,
+  "article_url": "https://donnacoles.home.blog/2020/02/02/where-do-regions-rank-month-to-month/",
+  "extracted_data": [
+    {
+      "file": "inputs/Orders (Sample - Superstore).hyper",
+      "archive_member": "Data/Datasources/Orders (Sample - Superstore).hyper",
+      "bytes": 983040,
+      "sha256": "35adfd7059e55cc3253c0ddcb1b7d57d42d12f5ca1da012b3e8d6e3b3842d32d"
+    }
+  ]
+}

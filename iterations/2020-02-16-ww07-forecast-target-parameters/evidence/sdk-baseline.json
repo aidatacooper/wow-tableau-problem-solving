@@ -1,0 +1,30 @@
+{
+  "tested_commit": "12aae31b38e3790b57b28b4240a44255a0bb01ee",
+  "tested_version": "0.27.1",
+  "result": "gap",
+  "capability": "Per-pane Stack Marks / breakdown control for overlaid measure values",
+  "requested_pane_breakdown": "off",
+  "actual_pane_breakdown": [
+    "auto",
+    "auto",
+    "auto"
+  ],
+  "problem": "configure_layered_chart ignores breakdown=off and always writes auto, so sales and forecast bars stack instead of overlay.",
+  "synthetic_fixture": "Category A: Actual10 Forecast12 Target15; B:20,24,25; no author data used.",
+  "second_observed_gap": {
+    "capability": "Layered Measure Names palette",
+    "observed_builder_error": "ValueError: Could not resolve layered color field: Measure Names",
+    "baseline_commit": "12aae31b38e3790b57b28b4240a44255a0bb01ee",
+    "source_requirement": "Sales blue #4e79a7 and Forecast teal #76b7b2 share Multiple Values axis",
+    "source_palette_protocol": "[:Measure Names] palette contains quoted fully-qualified column-instance buckets."
+  },
+  "third_observed_gap": {
+    "tested_commit": "2768dc0ddee80e4cbec6b4cd84166d0476a804b5",
+    "capability": "Virtual Measure Names size encoding",
+    "synthetic_fixture": "A/B actual/forecast/target CSV; no author data used",
+    "actual_size_binding": [],
+    "invented_physical_field": [],
+    "expected_size_binding": "[datasource].[:Measure Names]",
+    "reason": "Thin forecast overlay must leave wider actual-sales bar visible."
+  }
+}

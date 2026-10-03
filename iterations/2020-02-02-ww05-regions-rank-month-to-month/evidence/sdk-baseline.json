@@ -1,0 +1,6 @@
+{
+  "tested_version": "0.27.1",
+  "tested_commit": "12aae31b38e3790b57b28b4240a44255a0bb01ee",
+  "result": "pass",
+  "scope": "Current public APIs build all baseline chart/calculation contracts; independent verifier passed."
+}

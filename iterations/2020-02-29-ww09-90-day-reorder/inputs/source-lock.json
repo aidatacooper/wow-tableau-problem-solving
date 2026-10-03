@@ -1,0 +1,17 @@
+{
+  "source_workbook_used_by_builder": false,
+  "download_url": "https://public.tableau.com/workbooks/2020_02_26_WW09_90_Day_Reorder_Rate.twb",
+  "locked_original_sha256": "c19f69de71f4deb79ce380868d466420323a08bc40d99a22fb0a29633579e20a",
+  "download_sha256": "c19f69de71f4deb79ce380868d466420323a08bc40d99a22fb0a29633579e20a",
+  "exact_locked_original": true,
+  "article_url": "https://donnacoles.home.blog/2020/02/29/what-is-the-90-day-reorder-rate/",
+  "article_sha256": "aaaa78dc18d81b4924b7f0f90c54d21b8ef2e281b7db60c89ba41bc4d20db71c",
+  "extracted_data": [
+    {
+      "file": "inputs/Orders (Sample - Superstore).hyper",
+      "archive_member": "Data/Datasources/Orders (Sample - Superstore).hyper",
+      "bytes": 983040,
+      "sha256": "fe1338207294d97eb3c687c8773a4d03632bf1b9419d1733c080bac8cbc4b92c"
+    }
+  ]
+}

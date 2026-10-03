@@ -1,0 +1,328 @@
+{
+  "case_id": "wow-2020-ww11-smart-ranked-lists",
+  "captured_at": "2026-10-03T05:48:47.513790+00:00",
+  "source_hashes": {
+    "author": "8b24969162e99b77a4c624483ad6b8a511a723b59ab5669b09f2ea497f53ee4f",
+    "replica": "70308ff09fae0b0b4449b649c274fedb5f55c5e6648eac28718463e88befdebe"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "f7a87300-b8eb-41a0-8d96-c9d68256653b",
+      "name": "cwtwb-review-wow-2020-ww11-smart-ranked-lists-author-8b24969162e9",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2927993",
+      "views": [
+        {
+          "name": "2020_03_11_WW11_Smart_Ranking",
+          "id": "7c93bad8-514e-4d90-ad3a-f275bab0fd01"
+        },
+        {
+          "name": "Orders Rank",
+          "id": "4182afed-a1c8-4570-aa29-9a17106d6fa7"
+        },
+        {
+          "name": "Qty Rank",
+          "id": "5f311460-d01b-4334-a1dc-8ee36f849c41"
+        },
+        {
+          "name": "Sales Rank",
+          "id": "f24895ba-96e8-4c40-9ae4-e4b52593b566"
+        },
+        {
+          "name": "Title",
+          "id": "711ea119-e067-4360-b23c-fb575e23cdae"
+        }
+      ]
+    },
+    "replica": {
+      "id": "bdd5d093-8bcd-4933-abb3-cef353b4e219",
+      "name": "cwtwb-review-wow-2020-ww11-smart-ranked-lists-replica-70308ff09fae",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2928116",
+      "views": [
+        {
+          "name": "Sales Rank",
+          "id": "e48bf6a5-f2d0-4dc4-b8da-0dc4018eaa2f"
+        },
+        {
+          "name": "Orders Rank",
+          "id": "91e38be2-d077-4817-8433-da0ef11b46b4"
+        },
+        {
+          "name": "Qty Rank",
+          "id": "1ffe33db-642d-4031-93ca-20af5c23618b"
+        },
+        {
+          "name": "Title",
+          "id": "d948bd28-31e4-4a8b-aa6c-d7fb5fb05a4a"
+        },
+        {
+          "name": "2020_03_11_WW11_Smart_Ranking",
+          "id": "e9ecdb3d-135e-4416-9266-a35fc7c0d683"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "7c93bad8-514e-4d90-ad3a-f275bab0fd01",
+          "name": "2020_03_11_WW11_Smart_Ranking",
+          "path": "outputs/cloud-author.png",
+          "sha256": "fada9a77c1bd0b5bcfae033597efa1b6d348d9fc5138f0556e858436910fa2cb",
+          "size": [
+            1400,
+            900
+          ]
+        },
+        "replica": {
+          "id": "e9ecdb3d-135e-4416-9266-a35fc7c0d683",
+          "name": "2020_03_11_WW11_Smart_Ranking",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "f18f4a20d76b50b07544ce380279d69b7de87f0f1f8fd7ba1d074570bde9caed",
+          "size": [
+            1400,
+            900
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Sales Rank",
+          "view_id": "f24895ba-96e8-4c40-9ae4-e4b52593b566",
+          "scope": "Complete selected-window same-weekday date list, metric and color classification.",
+          "path": "outputs/cloud-author-sales-rank.csv",
+          "sha256": "94d38fb8ffa6901359ff0f0275d40ec0d284add1434023f35301536642953d00",
+          "bytes": 687
+        },
+        {
+          "role": "author",
+          "view": "Orders Rank",
+          "view_id": "4182afed-a1c8-4570-aa29-9a17106d6fa7",
+          "scope": "Complete selected-window same-weekday date list, metric and color classification.",
+          "path": "outputs/cloud-author-orders-rank.csv",
+          "sha256": "7f56059eec5d1fea02b0bb9f4efffb8fbe9b842c24066dac8d0c78e83ff5f2e5",
+          "bytes": 630
+        },
+        {
+          "role": "author",
+          "view": "Qty Rank",
+          "view_id": "5f311460-d01b-4334-a1dc-8ee36f849c41",
+          "scope": "Complete selected-window same-weekday date list, metric and color classification.",
+          "path": "outputs/cloud-author-qty-rank.csv",
+          "sha256": "efd924f96726f242bcba0dd3797e6b9dd12259ab88f9fb2fe89f63836ffd2e21",
+          "bytes": 632
+        },
+        {
+          "role": "replica",
+          "view": "Sales Rank",
+          "view_id": "e48bf6a5-f2d0-4dc4-b8da-0dc4018eaa2f",
+          "scope": "Complete selected-window same-weekday date list, metric and color classification.",
+          "path": "outputs/cloud-replica-sales-rank.csv",
+          "sha256": "17ec461e162138be84db825d03e3d8cfe4b91c6483d7367cd3f9090364583562",
+          "bytes": 661
+        },
+        {
+          "role": "replica",
+          "view": "Orders Rank",
+          "view_id": "91e38be2-d077-4817-8433-da0ef11b46b4",
+          "scope": "Complete selected-window same-weekday date list, metric and color classification.",
+          "path": "outputs/cloud-replica-orders-rank.csv",
+          "sha256": "e6b9bcf00040b70199313d2e9bf5c0490ecd0e915ea75a400f5d06d55984f0ec",
+          "bytes": 604
+        },
+        {
+          "role": "replica",
+          "view": "Qty Rank",
+          "view_id": "1ffe33db-642d-4031-93ca-20af5c23618b",
+          "scope": "Complete selected-window same-weekday date list, metric and color classification.",
+          "path": "outputs/cloud-replica-qty-rank.csv",
+          "sha256": "03b3508ec4d3d6dc0704f676706daebd9b666024dafed43af8f17ddf261b03da",
+          "bytes": 606
+        }
+      ]
+    },
+    {
+      "name": "monday",
+      "parameters": {
+        "Order Date Parameter": "2019-05-06"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "7c93bad8-514e-4d90-ad3a-f275bab0fd01",
+          "name": "2020_03_11_WW11_Smart_Ranking",
+          "path": "outputs/cloud-author-monday.png",
+          "sha256": "76f809e5e860c12032fd572e860a1b5ea635347c6111b0a6267dcacf5082f54a",
+          "size": [
+            1400,
+            900
+          ]
+        },
+        "replica": {
+          "id": "e9ecdb3d-135e-4416-9266-a35fc7c0d683",
+          "name": "2020_03_11_WW11_Smart_Ranking",
+          "path": "outputs/cloud-replica-monday.png",
+          "sha256": "b17e95ceaa5d255e34ae48dc61f722066242c8a48b86eb28adfd8b99bd983545",
+          "size": [
+            1400,
+            900
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Sales Rank",
+          "view_id": "f24895ba-96e8-4c40-9ae4-e4b52593b566",
+          "scope": "Complete selected-window same-weekday date list, metric and color classification.",
+          "path": "outputs/cloud-author-sales-rank-monday.csv",
+          "sha256": "a89e93830b26bf18f97d0c6d90828703ecce863972543d1164d5172b9afac066",
+          "bytes": 739
+        },
+        {
+          "role": "author",
+          "view": "Orders Rank",
+          "view_id": "4182afed-a1c8-4570-aa29-9a17106d6fa7",
+          "scope": "Complete selected-window same-weekday date list, metric and color classification.",
+          "path": "outputs/cloud-author-orders-rank-monday.csv",
+          "sha256": "630b82119951e35b1da016f186f9c3561b8196b09b1362ddf08fd04343808b8e",
+          "bytes": 674
+        },
+        {
+          "role": "author",
+          "view": "Qty Rank",
+          "view_id": "5f311460-d01b-4334-a1dc-8ee36f849c41",
+          "scope": "Complete selected-window same-weekday date list, metric and color classification.",
+          "path": "outputs/cloud-author-qty-rank-monday.csv",
+          "sha256": "0db6bfbc18ba7ced27e20b164c30dd64178d9330568279e6c2109314f38201b5",
+          "bytes": 675
+        },
+        {
+          "role": "replica",
+          "view": "Sales Rank",
+          "view_id": "e48bf6a5-f2d0-4dc4-b8da-0dc4018eaa2f",
+          "scope": "Complete selected-window same-weekday date list, metric and color classification.",
+          "path": "outputs/cloud-replica-sales-rank-monday.csv",
+          "sha256": "3ffd9852e7cc62cda36f2a6a12f9449e02444bc63e4f05c3b570857f2d906b32",
+          "bytes": 711
+        },
+        {
+          "role": "replica",
+          "view": "Orders Rank",
+          "view_id": "91e38be2-d077-4817-8433-da0ef11b46b4",
+          "scope": "Complete selected-window same-weekday date list, metric and color classification.",
+          "path": "outputs/cloud-replica-orders-rank-monday.csv",
+          "sha256": "0aa5cb627f70a0ac25e3a556aa635b6f44ff7332fe17913d874a20f7c361fbd0",
+          "bytes": 646
+        },
+        {
+          "role": "replica",
+          "view": "Qty Rank",
+          "view_id": "1ffe33db-642d-4031-93ca-20af5c23618b",
+          "scope": "Complete selected-window same-weekday date list, metric and color classification.",
+          "path": "outputs/cloud-replica-qty-rank-monday.csv",
+          "sha256": "bbd9a96c6f77f7ff4aaaef15889a259a4e6e5681afa88dea7de88e8310f828a8",
+          "bytes": 647
+        }
+      ]
+    },
+    {
+      "name": "year-end",
+      "parameters": {
+        "Order Date Parameter": "2019-12-31"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "7c93bad8-514e-4d90-ad3a-f275bab0fd01",
+          "name": "2020_03_11_WW11_Smart_Ranking",
+          "path": "outputs/cloud-author-year-end.png",
+          "sha256": "f1a9e4a08f425639791bcc6a54f0e8a647d30e16a700f004eaa476b3a3089639",
+          "size": [
+            1400,
+            900
+          ]
+        },
+        "replica": {
+          "id": "e9ecdb3d-135e-4416-9266-a35fc7c0d683",
+          "name": "2020_03_11_WW11_Smart_Ranking",
+          "path": "outputs/cloud-replica-year-end.png",
+          "sha256": "a7c15b87e5d6bf96fc1d6561540b3acc67df8c901780af043d4080b784d17081",
+          "size": [
+            1400,
+            900
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Sales Rank",
+          "view_id": "f24895ba-96e8-4c40-9ae4-e4b52593b566",
+          "scope": "Complete selected-window same-weekday date list, metric and color classification.",
+          "path": "outputs/cloud-author-sales-rank-year-end.csv",
+          "sha256": "b06a946254b886268868a01b85b75aa0caa74f5b242917f1c5b0ca1629516a16",
+          "bytes": 722
+        },
+        {
+          "role": "author",
+          "view": "Orders Rank",
+          "view_id": "4182afed-a1c8-4570-aa29-9a17106d6fa7",
+          "scope": "Complete selected-window same-weekday date list, metric and color classification.",
+          "path": "outputs/cloud-author-orders-rank-year-end.csv",
+          "sha256": "3bb6b550c2406c1affbeabc5da7f29275a492c73c95620892fd87d898cd84e9f",
+          "bytes": 656
+        },
+        {
+          "role": "author",
+          "view": "Qty Rank",
+          "view_id": "5f311460-d01b-4334-a1dc-8ee36f849c41",
+          "scope": "Complete selected-window same-weekday date list, metric and color classification.",
+          "path": "outputs/cloud-author-qty-rank-year-end.csv",
+          "sha256": "e5fc49c98aca49be9363d6ed12bf341a52c0d24359baa8b58b045d109585ab97",
+          "bytes": 655
+        },
+        {
+          "role": "replica",
+          "view": "Sales Rank",
+          "view_id": "e48bf6a5-f2d0-4dc4-b8da-0dc4018eaa2f",
+          "scope": "Complete selected-window same-weekday date list, metric and color classification.",
+          "path": "outputs/cloud-replica-sales-rank-year-end.csv",
+          "sha256": "659679953881b3bd70100e0c62ce35e71ea2b86666c7efe02aba80f7cdc985a4",
+          "bytes": 696
+        },
+        {
+          "role": "replica",
+          "view": "Orders Rank",
+          "view_id": "91e38be2-d077-4817-8433-da0ef11b46b4",
+          "scope": "Complete selected-window same-weekday date list, metric and color classification.",
+          "path": "outputs/cloud-replica-orders-rank-year-end.csv",
+          "sha256": "4d3979a13844c8a5eeb3db972c2da42d3d0f857627b2b38a5c47ac34b03ec871",
+          "bytes": 630
+        },
+        {
+          "role": "replica",
+          "view": "Qty Rank",
+          "view_id": "1ffe33db-642d-4031-93ca-20af5c23618b",
+          "scope": "Complete selected-window same-weekday date list, metric and color classification.",
+          "path": "outputs/cloud-replica-qty-rank-year-end.csv",
+          "sha256": "e721f2d0669e61b19601b3ec5b2c411c8dad7cfe59606197eec25894b606a66e",
+          "bytes": 629
+        }
+      ]
+    }
+  ],
+  "status": "verified",
+  "independent_review": {
+    "visual_status": "acceptable_delta",
+    "visual_evidence": "evidence/visual-review.md",
+    "functional_evidence": "evidence/functional-verification.json",
+    "scope": "Declared REST worksheet exports and artifact contracts; no browser events executed."
+  }
+}

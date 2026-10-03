@@ -1,0 +1,196 @@
+{
+  "case_id": "wow-2020-ww06-mom-progress-report",
+  "captured_at": "2026-10-03T05:10:39.991225+00:00",
+  "source_hashes": {
+    "author": "f06cc90dc99a2d166522aab38e15532643d1a490e031299fcb1ffa4db435e800",
+    "replica": "5d059f8fb4cae12d170b830f1af96a16fe1ac975b7f9f6c9b125365376d29d67"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "74715a2c-d640-436d-ac70-d179fadeea14",
+      "name": "cwtwb-review-wow-2020-ww06-mom-progress-report-author-f06cc90dc99a",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2927959",
+      "views": [
+        {
+          "name": "2020_02_05_WW06_Month_By_Month_Progress",
+          "id": "87f645b2-1787-4b79-90ef-f33450dd4258"
+        },
+        {
+          "name": "Viz",
+          "id": "d7232c15-1483-4066-bd06-c3657c4abe4b"
+        }
+      ]
+    },
+    "replica": {
+      "id": "85793adf-14e7-4b67-a07f-653d21550cde",
+      "name": "cwtwb-review-wow-2020-ww06-mom-progress-report-replica-5d059f8fb4ca",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2927960",
+      "views": [
+        {
+          "name": "Viz",
+          "id": "05fabef4-ecc8-4c7b-b58e-f16f2e3d17c4"
+        },
+        {
+          "name": "2020_02_05_WW06_Month_By_Month_Progress",
+          "id": "7899c253-5e0e-4e96-a9cb-1b46e4e8a908"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "87f645b2-1787-4b79-90ef-f33450dd4258",
+          "name": "2020_02_05_WW06_Month_By_Month_Progress",
+          "path": "outputs/cloud-author.png",
+          "sha256": "b4a8b4a9e2eb85e3df032f54368a73850e2fbbc691d2c254cf03abec3031d054",
+          "size": [
+            1200,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "7899c253-5e0e-4e96-a9cb-1b46e4e8a908",
+          "name": "2020_02_05_WW06_Month_By_Month_Progress",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "ed7e650f3137aa5233dabecf310573a82a059f34c08f31395344bb96bd8d565b",
+          "size": [
+            1200,
+            1600
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Viz",
+          "view_id": "d7232c15-1483-4066-bd06-c3657c4abe4b",
+          "scope": "All chart marks; not selector or reset-button CSV.",
+          "path": "outputs/cloud-author-chart.csv",
+          "sha256": "50f02087d8b534dc4ad8a280aa55d8aefe6655cfa816d99d80e1079a4a7fd86c",
+          "bytes": 15144
+        },
+        {
+          "role": "replica",
+          "view": "Viz",
+          "view_id": "05fabef4-ecc8-4c7b-b58e-f16f2e3d17c4",
+          "scope": "All chart marks; not selector or reset-button CSV.",
+          "path": "outputs/cloud-replica-chart.csv",
+          "sha256": "2f69d29b66222ff4a77d924352c552238b76b55982beb599292127c2a8388bb4",
+          "bytes": 5515
+        }
+      ]
+    },
+    {
+      "name": "december",
+      "parameters": {
+        "Order Date MY Parameter": "2019-12-01"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "87f645b2-1787-4b79-90ef-f33450dd4258",
+          "name": "2020_02_05_WW06_Month_By_Month_Progress",
+          "path": "outputs/cloud-author-december.png",
+          "sha256": "0d0cadf3c1b493fadcd5fba368c82109eccadb5fc194d4ab804d9ed00052e0a0",
+          "size": [
+            1200,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "7899c253-5e0e-4e96-a9cb-1b46e4e8a908",
+          "name": "2020_02_05_WW06_Month_By_Month_Progress",
+          "path": "outputs/cloud-replica-december.png",
+          "sha256": "bb3d562a7b830eb25903fc75c213ceaa15365ad6408493406d1d4b2b329551ad",
+          "size": [
+            1200,
+            1600
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Viz",
+          "view_id": "d7232c15-1483-4066-bd06-c3657c4abe4b",
+          "scope": "All chart marks; not selector or reset-button CSV.",
+          "path": "outputs/cloud-author-chart-december.csv",
+          "sha256": "a2732db344422cc5f920de086baabf0818c1598ba3cccf5965839a2cddbb50df",
+          "bytes": 15336
+        },
+        {
+          "role": "replica",
+          "view": "Viz",
+          "view_id": "05fabef4-ecc8-4c7b-b58e-f16f2e3d17c4",
+          "scope": "All chart marks; not selector or reset-button CSV.",
+          "path": "outputs/cloud-replica-chart-december.csv",
+          "sha256": "8717acb6a8b4a575534bfecf8e4c9a502198b9b21a1a621d8000886ac7c6b16b",
+          "bytes": 5567
+        }
+      ]
+    },
+    {
+      "name": "january",
+      "parameters": {
+        "Order Date MY Parameter": "2019-01-01"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "87f645b2-1787-4b79-90ef-f33450dd4258",
+          "name": "2020_02_05_WW06_Month_By_Month_Progress",
+          "path": "outputs/cloud-author-january.png",
+          "sha256": "be3f86f35a27b2847aee5d677cc35d76dcbea7b94648ff32724a927d7dddcb48",
+          "size": [
+            1200,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "7899c253-5e0e-4e96-a9cb-1b46e4e8a908",
+          "name": "2020_02_05_WW06_Month_By_Month_Progress",
+          "path": "outputs/cloud-replica-january.png",
+          "sha256": "66dc8f01b0173d930ec0da130c96de83b2b9c9ba49ad84db9fa2378ab69317f3",
+          "size": [
+            1200,
+            1600
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Viz",
+          "view_id": "d7232c15-1483-4066-bd06-c3657c4abe4b",
+          "scope": "All chart marks; not selector or reset-button CSV.",
+          "path": "outputs/cloud-author-chart-january.csv",
+          "sha256": "19ebc9d437acad6cbd763389134a378da299bf0e752058456ce633ab0f529116",
+          "bytes": 14720
+        },
+        {
+          "role": "replica",
+          "view": "Viz",
+          "view_id": "05fabef4-ecc8-4c7b-b58e-f16f2e3d17c4",
+          "scope": "All chart marks; not selector or reset-button CSV.",
+          "path": "outputs/cloud-replica-chart-january.csv",
+          "sha256": "314815487e6b6a8b074a34eb77b775b03c5e6dbac3f289173306f87ad1a56508",
+          "bytes": 5334
+        }
+      ]
+    }
+  ],
+  "status": "verified",
+  "independent_review": {
+    "visual_status": "acceptable_delta",
+    "visual_evidence": "evidence/visual-review.md",
+    "functional_evidence": "evidence/functional-verification.json",
+    "scope": "Declared REST worksheet exports and artifact contracts; no browser events executed."
+  }
+}

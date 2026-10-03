@@ -1,0 +1,326 @@
+{
+  "case_id": "wow-2020-ww12-missing-periods-autosize-bars",
+  "captured_at": "2026-10-03T05:51:09.290297+00:00",
+  "source_hashes": {
+    "author": "1637a6d55fc56d91b647e9cb279a6d561cbcb875daec6b3f181120c21e69f470",
+    "replica": "8bf3bb3b92b00ea928d4529332e494b9c5c8a368ef5eba3042a560ef3d4a13ea"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "bc126f26-93f7-4e11-8055-82e55ace7e51",
+      "name": "cwtwb-review-wow-2020-ww12-missing-periods-autosize-bars-author-1637a6d55fc5",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2927999",
+      "views": [
+        {
+          "name": "2020_03_18_WW12_Profit_By_Orders",
+          "id": "eae45f06-3413-4af3-a723-b697e3ca30d0"
+        },
+        {
+          "name": "Chart",
+          "id": "b85e3c38-5d20-4a29-bbe6-23e7fc9d81d9"
+        },
+        {
+          "name": "Selector",
+          "id": "fb67c741-005a-46c8-a928-ac430d3bc554"
+        }
+      ]
+    },
+    "replica": {
+      "id": "d4f23006-6409-4ff5-9880-f48e13ca5653",
+      "name": "cwtwb-review-wow-2020-ww12-missing-periods-autosize-bars-replica-8bf3bb3b92b0",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2928157",
+      "views": [
+        {
+          "name": "Chart",
+          "id": "93b26f3b-d6a4-402d-b6bd-01988306f660"
+        },
+        {
+          "name": "Selector",
+          "id": "13409ba1-ebab-4db0-a96d-1461b83098b3"
+        },
+        {
+          "name": "2020_03_18_WW12_Profit_By_Orders",
+          "id": "416bd38f-f58e-4b03-95e3-15d2a4d33380"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "eae45f06-3413-4af3-a723-b697e3ca30d0",
+          "name": "2020_03_18_WW12_Profit_By_Orders",
+          "path": "outputs/cloud-author.png",
+          "sha256": "468d2513b6d60bbf8308c6b86b5b64f57fb3ab6b5f5c476e419903c56b05ee32",
+          "size": [
+            2000,
+            1200
+          ]
+        },
+        "replica": {
+          "id": "416bd38f-f58e-4b03-95e3-15d2a4d33380",
+          "name": "2020_03_18_WW12_Profit_By_Orders",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "d3a77b3dc28d3f41f5cc97f8d21e86031c50d2145ffa0f0cf5b3924d75ba3a0e",
+          "size": [
+            2000,
+            1200
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Chart",
+          "view_id": "b85e3c38-5d20-4a29-bbe6-23e7fc9d81d9",
+          "scope": "All Tables date-period marks, distinct order count and profit.",
+          "path": "outputs/cloud-author-chart.csv",
+          "sha256": "5dcdd5fc3dbae347317bc69d30977e0d7c370700ad5a1e6d99b050821348d1b8",
+          "bytes": 1598
+        },
+        {
+          "role": "author",
+          "view": "Selector",
+          "view_id": "fb67c741-005a-46c8-a928-ac430d3bc554",
+          "scope": "Sub-category source domains only, not evidence of the full chart.",
+          "path": "outputs/cloud-author-selector.csv",
+          "sha256": "963dfdd379295807ddc0bce1798382e0e743684530168ed3185f4a058d2b8821",
+          "bytes": 500
+        },
+        {
+          "role": "replica",
+          "view": "Chart",
+          "view_id": "93b26f3b-d6a4-402d-b6bd-01988306f660",
+          "scope": "All Tables date-period marks, distinct order count and profit.",
+          "path": "outputs/cloud-replica-chart.csv",
+          "sha256": "5ee2573dc5b7370647326578db65a8aecb48520e1d116977d59ebcbc13223b35",
+          "bytes": 1959
+        },
+        {
+          "role": "replica",
+          "view": "Selector",
+          "view_id": "13409ba1-ebab-4db0-a96d-1461b83098b3",
+          "scope": "Sub-category source domains only, not evidence of the full chart.",
+          "path": "outputs/cloud-replica-selector.csv",
+          "sha256": "f3da75fc49f172d3241e9abc8cd298759bc65d74c0ee3a98c31cd5e7715f50b5",
+          "bytes": 636
+        }
+      ]
+    },
+    {
+      "name": "daily",
+      "parameters": {
+        "Select Period": "day"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "eae45f06-3413-4af3-a723-b697e3ca30d0",
+          "name": "2020_03_18_WW12_Profit_By_Orders",
+          "path": "outputs/cloud-author-daily.png",
+          "sha256": "add99f864f0967eabb3d9f3be23cdb822c3c50e947847c254071fd270695e7d8",
+          "size": [
+            2000,
+            1200
+          ]
+        },
+        "replica": {
+          "id": "416bd38f-f58e-4b03-95e3-15d2a4d33380",
+          "name": "2020_03_18_WW12_Profit_By_Orders",
+          "path": "outputs/cloud-replica-daily.png",
+          "sha256": "c0647434e5e3a463838d825163da646d73a0c2e24290112ed699183ba226bc1a",
+          "size": [
+            2000,
+            1200
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Chart",
+          "view_id": "b85e3c38-5d20-4a29-bbe6-23e7fc9d81d9",
+          "scope": "All Tables date-period marks, distinct order count and profit.",
+          "path": "outputs/cloud-author-chart-daily.csv",
+          "sha256": "882c8a12e487dbee6a6ac5a28a4b69f1f03e48a1089a85f9aaf8c9848c4d06e0",
+          "bytes": 3016
+        },
+        {
+          "role": "author",
+          "view": "Selector",
+          "view_id": "fb67c741-005a-46c8-a928-ac430d3bc554",
+          "scope": "Sub-category source domains only, not evidence of the full chart.",
+          "path": "outputs/cloud-author-selector-daily.csv",
+          "sha256": "963dfdd379295807ddc0bce1798382e0e743684530168ed3185f4a058d2b8821",
+          "bytes": 500
+        },
+        {
+          "role": "replica",
+          "view": "Chart",
+          "view_id": "93b26f3b-d6a4-402d-b6bd-01988306f660",
+          "scope": "All Tables date-period marks, distinct order count and profit.",
+          "path": "outputs/cloud-replica-chart-daily.csv",
+          "sha256": "7ef5530d84b35f15ed7acb68bc464d7c975c6ea52977f19f3ac6f372e1315996",
+          "bytes": 3697
+        },
+        {
+          "role": "replica",
+          "view": "Selector",
+          "view_id": "13409ba1-ebab-4db0-a96d-1461b83098b3",
+          "scope": "Sub-category source domains only, not evidence of the full chart.",
+          "path": "outputs/cloud-replica-selector-daily.csv",
+          "sha256": "f3da75fc49f172d3241e9abc8cd298759bc65d74c0ee3a98c31cd5e7715f50b5",
+          "bytes": 636
+        }
+      ]
+    },
+    {
+      "name": "monthly",
+      "parameters": {
+        "Select Period": "month"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "eae45f06-3413-4af3-a723-b697e3ca30d0",
+          "name": "2020_03_18_WW12_Profit_By_Orders",
+          "path": "outputs/cloud-author-monthly.png",
+          "sha256": "2727094f708a61f17fa733884fdedb6ab6186e255d01aa8debe38b29b99ac342",
+          "size": [
+            2000,
+            1200
+          ]
+        },
+        "replica": {
+          "id": "416bd38f-f58e-4b03-95e3-15d2a4d33380",
+          "name": "2020_03_18_WW12_Profit_By_Orders",
+          "path": "outputs/cloud-replica-monthly.png",
+          "sha256": "16455b3c7f10613f32feecd36af23dc39db7f652b94f7a92630b5581460eff80",
+          "size": [
+            2000,
+            1200
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Chart",
+          "view_id": "b85e3c38-5d20-4a29-bbe6-23e7fc9d81d9",
+          "scope": "All Tables date-period marks, distinct order count and profit.",
+          "path": "outputs/cloud-author-chart-monthly.csv",
+          "sha256": "edc5b86816e98b885738c8aab29a39b8062c1daf2dcb3c7128e14ff6ba83b53d",
+          "bytes": 554
+        },
+        {
+          "role": "author",
+          "view": "Selector",
+          "view_id": "fb67c741-005a-46c8-a928-ac430d3bc554",
+          "scope": "Sub-category source domains only, not evidence of the full chart.",
+          "path": "outputs/cloud-author-selector-monthly.csv",
+          "sha256": "963dfdd379295807ddc0bce1798382e0e743684530168ed3185f4a058d2b8821",
+          "bytes": 500
+        },
+        {
+          "role": "replica",
+          "view": "Chart",
+          "view_id": "93b26f3b-d6a4-402d-b6bd-01988306f660",
+          "scope": "All Tables date-period marks, distinct order count and profit.",
+          "path": "outputs/cloud-replica-chart-monthly.csv",
+          "sha256": "8cd46cb6b3014626e8fc77f66ef2a8281ad7bb35bd0805ed14c1718199303726",
+          "bytes": 640
+        },
+        {
+          "role": "replica",
+          "view": "Selector",
+          "view_id": "13409ba1-ebab-4db0-a96d-1461b83098b3",
+          "scope": "Sub-category source domains only, not evidence of the full chart.",
+          "path": "outputs/cloud-replica-selector-monthly.csv",
+          "sha256": "f3da75fc49f172d3241e9abc8cd298759bc65d74c0ee3a98c31cd5e7715f50b5",
+          "bytes": 636
+        }
+      ]
+    },
+    {
+      "name": "four-years",
+      "parameters": {
+        "Select Period": "month",
+        "Number of Years": "4"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "eae45f06-3413-4af3-a723-b697e3ca30d0",
+          "name": "2020_03_18_WW12_Profit_By_Orders",
+          "path": "outputs/cloud-author-four-years.png",
+          "sha256": "9abca2438f2754db09174012b1be07d425c94868ea54cb8f9ae421fd07c4b924",
+          "size": [
+            2000,
+            1200
+          ]
+        },
+        "replica": {
+          "id": "416bd38f-f58e-4b03-95e3-15d2a4d33380",
+          "name": "2020_03_18_WW12_Profit_By_Orders",
+          "path": "outputs/cloud-replica-four-years.png",
+          "sha256": "eefa3ee127ccb61d33459a4613b8a98cc0ac6b85f05e98b6c35c52ba94a4210d",
+          "size": [
+            2000,
+            1200
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Chart",
+          "view_id": "b85e3c38-5d20-4a29-bbe6-23e7fc9d81d9",
+          "scope": "All Tables date-period marks, distinct order count and profit.",
+          "path": "outputs/cloud-author-chart-four-years.csv",
+          "sha256": "13667e17c6824e06bca2429ed4bb9c499fce9a53c6046522ee92e1f66cd076df",
+          "bytes": 1052
+        },
+        {
+          "role": "author",
+          "view": "Selector",
+          "view_id": "fb67c741-005a-46c8-a928-ac430d3bc554",
+          "scope": "Sub-category source domains only, not evidence of the full chart.",
+          "path": "outputs/cloud-author-selector-four-years.csv",
+          "sha256": "963dfdd379295807ddc0bce1798382e0e743684530168ed3185f4a058d2b8821",
+          "bytes": 500
+        },
+        {
+          "role": "replica",
+          "view": "Chart",
+          "view_id": "93b26f3b-d6a4-402d-b6bd-01988306f660",
+          "scope": "All Tables date-period marks, distinct order count and profit.",
+          "path": "outputs/cloud-replica-chart-four-years.csv",
+          "sha256": "d8fbd47b4119f56ec4d9e5b39c3e7ea53ec5c92996faecfe61855ee5dec33f04",
+          "bytes": 1231
+        },
+        {
+          "role": "replica",
+          "view": "Selector",
+          "view_id": "13409ba1-ebab-4db0-a96d-1461b83098b3",
+          "scope": "Sub-category source domains only, not evidence of the full chart.",
+          "path": "outputs/cloud-replica-selector-four-years.csv",
+          "sha256": "f3da75fc49f172d3241e9abc8cd298759bc65d74c0ee3a98c31cd5e7715f50b5",
+          "bytes": 636
+        }
+      ]
+    }
+  ],
+  "status": "verified",
+  "independent_review": {
+    "visual_status": "acceptable_delta",
+    "visual_evidence": "evidence/visual-review.md",
+    "functional_evidence": "evidence/functional-verification.json",
+    "scope": "Declared REST worksheet exports and artifact contracts; no browser events executed."
+  }
+}

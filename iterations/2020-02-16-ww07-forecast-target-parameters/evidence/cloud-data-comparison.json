@@ -1,0 +1,252 @@
+{
+  "status": "pass",
+  "scope": "Every category actual, forecast, target and both target differences and replica signedformattedpercentlabels in six parameter-list states; all24chart/labelCSVexports checked; selector/reset CSV excluded.",
+  "checks": [
+    {
+      "role": "author",
+      "view_kind": "chart",
+      "state": "default",
+      "file": "outputs/cloud-author-chart.csv",
+      "sha256": "e16e17868a3f6b33db5bff439cd7d75037557e9989ff279be63e005abd450f8c",
+      "rows": 9,
+      "categories_verified": 3,
+      "metric_cells_verified": 15
+    },
+    {
+      "role": "replica",
+      "view_kind": "chart",
+      "state": "default",
+      "file": "outputs/cloud-replica-chart.csv",
+      "sha256": "ee52a424293e68e783c9022ef7e48745b66dd875bcfb9fd7938ceb9d5272bc46",
+      "rows": 9,
+      "categories_verified": 3,
+      "metric_cells_verified": 15
+    },
+    {
+      "role": "author",
+      "view_kind": "labels",
+      "state": "default",
+      "file": "outputs/cloud-author-labels.csv",
+      "sha256": "87b8c735973aa65834276ce566ae320871d6d9c2135ee815382e82ca13cd5b29",
+      "rows": 9,
+      "categories_verified": 3,
+      "metric_cells_verified": 15
+    },
+    {
+      "role": "replica",
+      "view_kind": "labels",
+      "state": "default",
+      "file": "outputs/cloud-replica-labels.csv",
+      "sha256": "63e51c821ac6486f37ecb154cfe6b0ab9e97129205e32439b9359c32de46b607",
+      "rows": 3,
+      "categories_verified": 3,
+      "metric_cells_verified": 15,
+      "formatted_percent_labels_verified": 6
+    },
+    {
+      "role": "author",
+      "view_kind": "chart",
+      "state": "technology-forecast",
+      "file": "outputs/cloud-author-chart-technology-forecast.csv",
+      "sha256": "fe8dab41e15930d7229ee19173a7e248255467062ec4f5f4284d9160e6a38463",
+      "rows": 9,
+      "categories_verified": 3,
+      "metric_cells_verified": 15
+    },
+    {
+      "role": "replica",
+      "view_kind": "chart",
+      "state": "technology-forecast",
+      "file": "outputs/cloud-replica-chart-technology-forecast.csv",
+      "sha256": "a107d93b3a5080ea785e53ecee8db7a5816995aa4abe486b89f79d99404a399e",
+      "rows": 9,
+      "categories_verified": 3,
+      "metric_cells_verified": 15
+    },
+    {
+      "role": "author",
+      "view_kind": "labels",
+      "state": "technology-forecast",
+      "file": "outputs/cloud-author-labels-technology-forecast.csv",
+      "sha256": "fe8dab41e15930d7229ee19173a7e248255467062ec4f5f4284d9160e6a38463",
+      "rows": 9,
+      "categories_verified": 3,
+      "metric_cells_verified": 15
+    },
+    {
+      "role": "replica",
+      "view_kind": "labels",
+      "state": "technology-forecast",
+      "file": "outputs/cloud-replica-labels-technology-forecast.csv",
+      "sha256": "6d6f19fd52ebae4bcf7f661798779913f84ad30ab3117e4df80e803988718108",
+      "rows": 3,
+      "categories_verified": 3,
+      "metric_cells_verified": 15,
+      "formatted_percent_labels_verified": 6
+    },
+    {
+      "role": "author",
+      "view_kind": "chart",
+      "state": "negative-forecast",
+      "file": "outputs/cloud-author-chart-negative-forecast.csv",
+      "sha256": "ecbed135339d54ef0c8c80e1233bb6f33e3e925969af0bf007bd2a65df59ed27",
+      "rows": 9,
+      "categories_verified": 3,
+      "metric_cells_verified": 15
+    },
+    {
+      "role": "replica",
+      "view_kind": "chart",
+      "state": "negative-forecast",
+      "file": "outputs/cloud-replica-chart-negative-forecast.csv",
+      "sha256": "2ddcc32718045cb864c06dcf35cc577d4be4e10388c55115f4b160e15f6f1b3f",
+      "rows": 9,
+      "categories_verified": 3,
+      "metric_cells_verified": 15
+    },
+    {
+      "role": "author",
+      "view_kind": "labels",
+      "state": "negative-forecast",
+      "file": "outputs/cloud-author-labels-negative-forecast.csv",
+      "sha256": "ecbed135339d54ef0c8c80e1233bb6f33e3e925969af0bf007bd2a65df59ed27",
+      "rows": 9,
+      "categories_verified": 3,
+      "metric_cells_verified": 15
+    },
+    {
+      "role": "replica",
+      "view_kind": "labels",
+      "state": "negative-forecast",
+      "file": "outputs/cloud-replica-labels-negative-forecast.csv",
+      "sha256": "fbf5e442c12a02a28d623aa4b0061b97ba41007a5890024ba813e12d5b935c92",
+      "rows": 3,
+      "categories_verified": 3,
+      "metric_cells_verified": 15,
+      "formatted_percent_labels_verified": 6
+    },
+    {
+      "role": "author",
+      "view_kind": "chart",
+      "state": "custom-target",
+      "file": "outputs/cloud-author-chart-custom-target.csv",
+      "sha256": "7d866028a487273211931f1fb3dcfe3be9566b9240e327b900a8647f60b3d564",
+      "rows": 9,
+      "categories_verified": 3,
+      "metric_cells_verified": 15
+    },
+    {
+      "role": "replica",
+      "view_kind": "chart",
+      "state": "custom-target",
+      "file": "outputs/cloud-replica-chart-custom-target.csv",
+      "sha256": "19b4be5ac3eb6d519d8c4e816bb829f6529514794ce495a9e21b55acb428c7ed",
+      "rows": 9,
+      "categories_verified": 3,
+      "metric_cells_verified": 15
+    },
+    {
+      "role": "author",
+      "view_kind": "labels",
+      "state": "custom-target",
+      "file": "outputs/cloud-author-labels-custom-target.csv",
+      "sha256": "7d866028a487273211931f1fb3dcfe3be9566b9240e327b900a8647f60b3d564",
+      "rows": 9,
+      "categories_verified": 3,
+      "metric_cells_verified": 15
+    },
+    {
+      "role": "replica",
+      "view_kind": "labels",
+      "state": "custom-target",
+      "file": "outputs/cloud-replica-labels-custom-target.csv",
+      "sha256": "4aaf4f108cdc2cc7a153c98a88229397afece3d9d7121917a4697121d16537e1",
+      "rows": 3,
+      "categories_verified": 3,
+      "metric_cells_verified": 15,
+      "formatted_percent_labels_verified": 6
+    },
+    {
+      "role": "author",
+      "view_kind": "chart",
+      "state": "combined",
+      "file": "outputs/cloud-author-chart-combined.csv",
+      "sha256": "3c71fc706e909673bc61e0f13e7c18e2ac98307d303b3872774154906b744e30",
+      "rows": 9,
+      "categories_verified": 3,
+      "metric_cells_verified": 15
+    },
+    {
+      "role": "replica",
+      "view_kind": "chart",
+      "state": "combined",
+      "file": "outputs/cloud-replica-chart-combined.csv",
+      "sha256": "ad866f99ccba155d53dca6a16f29de58ef9f2312826a6636d76825b20b806298",
+      "rows": 9,
+      "categories_verified": 3,
+      "metric_cells_verified": 15
+    },
+    {
+      "role": "author",
+      "view_kind": "labels",
+      "state": "combined",
+      "file": "outputs/cloud-author-labels-combined.csv",
+      "sha256": "3c71fc706e909673bc61e0f13e7c18e2ac98307d303b3872774154906b744e30",
+      "rows": 9,
+      "categories_verified": 3,
+      "metric_cells_verified": 15
+    },
+    {
+      "role": "replica",
+      "view_kind": "labels",
+      "state": "combined",
+      "file": "outputs/cloud-replica-labels-combined.csv",
+      "sha256": "394b770dc52cc39ed64d867b64be9f173d1efbfe238468e0f5dcf11254db31c1",
+      "rows": 3,
+      "categories_verified": 3,
+      "metric_cells_verified": 15,
+      "formatted_percent_labels_verified": 6
+    },
+    {
+      "role": "author",
+      "view_kind": "chart",
+      "state": "reset",
+      "file": "outputs/cloud-author-chart-reset.csv",
+      "sha256": "e16e17868a3f6b33db5bff439cd7d75037557e9989ff279be63e005abd450f8c",
+      "rows": 9,
+      "categories_verified": 3,
+      "metric_cells_verified": 15
+    },
+    {
+      "role": "replica",
+      "view_kind": "chart",
+      "state": "reset",
+      "file": "outputs/cloud-replica-chart-reset.csv",
+      "sha256": "ee52a424293e68e783c9022ef7e48745b66dd875bcfb9fd7938ceb9d5272bc46",
+      "rows": 9,
+      "categories_verified": 3,
+      "metric_cells_verified": 15
+    },
+    {
+      "role": "author",
+      "view_kind": "labels",
+      "state": "reset",
+      "file": "outputs/cloud-author-labels-reset.csv",
+      "sha256": "87b8c735973aa65834276ce566ae320871d6d9c2135ee815382e82ca13cd5b29",
+      "rows": 9,
+      "categories_verified": 3,
+      "metric_cells_verified": 15
+    },
+    {
+      "role": "replica",
+      "view_kind": "labels",
+      "state": "reset",
+      "file": "outputs/cloud-replica-labels-reset.csv",
+      "sha256": "63e51c821ac6486f37ecb154cfe6b0ab9e97129205e32439b9359c32de46b607",
+      "rows": 3,
+      "categories_verified": 3,
+      "metric_cells_verified": 15,
+      "formatted_percent_labels_verified": 6
+    }
+  ]
+}

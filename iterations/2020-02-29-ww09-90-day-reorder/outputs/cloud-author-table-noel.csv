@@ -1,0 +1,235 @@
+Customer Name,Measure Names,Order Date,Order ID,90-Day Reorder Rate,Previous Order Date,Reorder Within 90 Days,Tooltip:First,Tooltip:Over 90,Tooltip:Within 90,Measure Values,Total Orders
+Noel Staavos,Avg Reorders per Customer,6/25/2016,CA-2016-159338,67%,,,First Order,,,12,13
+Noel Staavos,Count All Reorders,6/25/2016,CA-2016-159338,67%,,,First Order,,,12,13
+Noel Staavos,"Count Customers along Order Date, Order ID",6/25/2016,CA-2016-159338,67%,,,First Order,,,1,13
+Noel Staavos,Count Reorders <90 days per Customer,6/25/2016,CA-2016-159338,67%,,,First Order,,,8,13
+Noel Staavos,"Days Since Previous Order along Order ID, Order Date",6/25/2016,CA-2016-159338,67%,,,First Order,,,,13
+Noel Staavos,Overall Reorder Rate,6/25/2016,CA-2016-159338,67%,,,First Order,,,0.666666667,13
+Noel Staavos,"Reorder Within 90 Days along Order ID, Order Date",6/25/2016,CA-2016-159338,67%,,,First Order,,,,13
+Noel Staavos,Total Customers,6/25/2016,CA-2016-159338,67%,,,First Order,,,1,13
+Noel Staavos,Total Reorders <90 days,6/25/2016,CA-2016-159338,67%,,,First Order,,,8,13
+Noel Staavos,Avg Reorders per Customer,3/9/2017,CA-2017-123155,67%,6/25/2016,0,,Over 90 days,,,13
+Noel Staavos,Count All Reorders,3/9/2017,CA-2017-123155,67%,6/25/2016,0,,Over 90 days,,,13
+Noel Staavos,"Count Customers along Order Date, Order ID",3/9/2017,CA-2017-123155,67%,6/25/2016,0,,Over 90 days,,,13
+Noel Staavos,Count Reorders <90 days per Customer,3/9/2017,CA-2017-123155,67%,6/25/2016,0,,Over 90 days,,,13
+Noel Staavos,"Days Since Previous Order along Order ID, Order Date",3/9/2017,CA-2017-123155,67%,6/25/2016,0,,Over 90 days,,257,13
+Noel Staavos,Overall Reorder Rate,3/9/2017,CA-2017-123155,67%,6/25/2016,0,,Over 90 days,,,13
+Noel Staavos,"Reorder Within 90 Days along Order ID, Order Date",3/9/2017,CA-2017-123155,67%,6/25/2016,0,,Over 90 days,,0,13
+Noel Staavos,Total Customers,3/9/2017,CA-2017-123155,67%,6/25/2016,0,,Over 90 days,,,13
+Noel Staavos,Total Reorders <90 days,3/9/2017,CA-2017-123155,67%,6/25/2016,0,,Over 90 days,,,13
+Noel Staavos,Avg Reorders per Customer,8/7/2017,CA-2017-163895,67%,3/9/2017,0,,Over 90 days,,,13
+Noel Staavos,Count All Reorders,8/7/2017,CA-2017-163895,67%,3/9/2017,0,,Over 90 days,,,13
+Noel Staavos,"Count Customers along Order Date, Order ID",8/7/2017,CA-2017-163895,67%,3/9/2017,0,,Over 90 days,,,13
+Noel Staavos,Count Reorders <90 days per Customer,8/7/2017,CA-2017-163895,67%,3/9/2017,0,,Over 90 days,,,13
+Noel Staavos,"Days Since Previous Order along Order ID, Order Date",8/7/2017,CA-2017-163895,67%,3/9/2017,0,,Over 90 days,,151,13
+Noel Staavos,Overall Reorder Rate,8/7/2017,CA-2017-163895,67%,3/9/2017,0,,Over 90 days,,,13
+Noel Staavos,"Reorder Within 90 Days along Order ID, Order Date",8/7/2017,CA-2017-163895,67%,3/9/2017,0,,Over 90 days,,0,13
+Noel Staavos,Total Customers,8/7/2017,CA-2017-163895,67%,3/9/2017,0,,Over 90 days,,,13
+Noel Staavos,Total Reorders <90 days,8/7/2017,CA-2017-163895,67%,3/9/2017,0,,Over 90 days,,,13
+Noel Staavos,Avg Reorders per Customer,8/7/2017,US-2017-117492,67%,8/7/2017,1,,,Within 90 days,,13
+Noel Staavos,Count All Reorders,8/7/2017,US-2017-117492,67%,8/7/2017,1,,,Within 90 days,,13
+Noel Staavos,"Count Customers along Order Date, Order ID",8/7/2017,US-2017-117492,67%,8/7/2017,1,,,Within 90 days,,13
+Noel Staavos,Count Reorders <90 days per Customer,8/7/2017,US-2017-117492,67%,8/7/2017,1,,,Within 90 days,,13
+Noel Staavos,"Days Since Previous Order along Order ID, Order Date",8/7/2017,US-2017-117492,67%,8/7/2017,1,,,Within 90 days,0,13
+Noel Staavos,Overall Reorder Rate,8/7/2017,US-2017-117492,67%,8/7/2017,1,,,Within 90 days,,13
+Noel Staavos,"Reorder Within 90 Days along Order ID, Order Date",8/7/2017,US-2017-117492,67%,8/7/2017,1,,,Within 90 days,1,13
+Noel Staavos,Total Customers,8/7/2017,US-2017-117492,67%,8/7/2017,1,,,Within 90 days,,13
+Noel Staavos,Total Reorders <90 days,8/7/2017,US-2017-117492,67%,8/7/2017,1,,,Within 90 days,,13
+Noel Staavos,Avg Reorders per Customer,10/20/2017,US-2017-160563,67%,8/7/2017,1,,,Within 90 days,,13
+Noel Staavos,Count All Reorders,10/20/2017,US-2017-160563,67%,8/7/2017,1,,,Within 90 days,,13
+Noel Staavos,"Count Customers along Order Date, Order ID",10/20/2017,US-2017-160563,67%,8/7/2017,1,,,Within 90 days,,13
+Noel Staavos,Count Reorders <90 days per Customer,10/20/2017,US-2017-160563,67%,8/7/2017,1,,,Within 90 days,,13
+Noel Staavos,"Days Since Previous Order along Order ID, Order Date",10/20/2017,US-2017-160563,67%,8/7/2017,1,,,Within 90 days,74,13
+Noel Staavos,Overall Reorder Rate,10/20/2017,US-2017-160563,67%,8/7/2017,1,,,Within 90 days,,13
+Noel Staavos,"Reorder Within 90 Days along Order ID, Order Date",10/20/2017,US-2017-160563,67%,8/7/2017,1,,,Within 90 days,1,13
+Noel Staavos,Total Customers,10/20/2017,US-2017-160563,67%,8/7/2017,1,,,Within 90 days,,13
+Noel Staavos,Total Reorders <90 days,10/20/2017,US-2017-160563,67%,8/7/2017,1,,,Within 90 days,,13
+Noel Staavos,Avg Reorders per Customer,11/8/2017,CA-2017-108259,67%,10/20/2017,1,,,Within 90 days,,13
+Noel Staavos,Count All Reorders,11/8/2017,CA-2017-108259,67%,10/20/2017,1,,,Within 90 days,,13
+Noel Staavos,"Count Customers along Order Date, Order ID",11/8/2017,CA-2017-108259,67%,10/20/2017,1,,,Within 90 days,,13
+Noel Staavos,Count Reorders <90 days per Customer,11/8/2017,CA-2017-108259,67%,10/20/2017,1,,,Within 90 days,,13
+Noel Staavos,"Days Since Previous Order along Order ID, Order Date",11/8/2017,CA-2017-108259,67%,10/20/2017,1,,,Within 90 days,19,13
+Noel Staavos,Overall Reorder Rate,11/8/2017,CA-2017-108259,67%,10/20/2017,1,,,Within 90 days,,13
+Noel Staavos,"Reorder Within 90 Days along Order ID, Order Date",11/8/2017,CA-2017-108259,67%,10/20/2017,1,,,Within 90 days,1,13
+Noel Staavos,Total Customers,11/8/2017,CA-2017-108259,67%,10/20/2017,1,,,Within 90 days,,13
+Noel Staavos,Total Reorders <90 days,11/8/2017,CA-2017-108259,67%,10/20/2017,1,,,Within 90 days,,13
+Noel Staavos,Avg Reorders per Customer,2/2/2018,CA-2018-144645,67%,11/8/2017,1,,,Within 90 days,,13
+Noel Staavos,Count All Reorders,2/2/2018,CA-2018-144645,67%,11/8/2017,1,,,Within 90 days,,13
+Noel Staavos,"Count Customers along Order Date, Order ID",2/2/2018,CA-2018-144645,67%,11/8/2017,1,,,Within 90 days,,13
+Noel Staavos,Count Reorders <90 days per Customer,2/2/2018,CA-2018-144645,67%,11/8/2017,1,,,Within 90 days,,13
+Noel Staavos,"Days Since Previous Order along Order ID, Order Date",2/2/2018,CA-2018-144645,67%,11/8/2017,1,,,Within 90 days,86,13
+Noel Staavos,Overall Reorder Rate,2/2/2018,CA-2018-144645,67%,11/8/2017,1,,,Within 90 days,,13
+Noel Staavos,"Reorder Within 90 Days along Order ID, Order Date",2/2/2018,CA-2018-144645,67%,11/8/2017,1,,,Within 90 days,1,13
+Noel Staavos,Total Customers,2/2/2018,CA-2018-144645,67%,11/8/2017,1,,,Within 90 days,,13
+Noel Staavos,Total Reorders <90 days,2/2/2018,CA-2018-144645,67%,11/8/2017,1,,,Within 90 days,,13
+Noel Staavos,Avg Reorders per Customer,12/11/2018,CA-2018-162187,67%,2/2/2018,0,,Over 90 days,,,13
+Noel Staavos,Count All Reorders,12/11/2018,CA-2018-162187,67%,2/2/2018,0,,Over 90 days,,,13
+Noel Staavos,"Count Customers along Order Date, Order ID",12/11/2018,CA-2018-162187,67%,2/2/2018,0,,Over 90 days,,,13
+Noel Staavos,Count Reorders <90 days per Customer,12/11/2018,CA-2018-162187,67%,2/2/2018,0,,Over 90 days,,,13
+Noel Staavos,"Days Since Previous Order along Order ID, Order Date",12/11/2018,CA-2018-162187,67%,2/2/2018,0,,Over 90 days,,312,13
+Noel Staavos,Overall Reorder Rate,12/11/2018,CA-2018-162187,67%,2/2/2018,0,,Over 90 days,,,13
+Noel Staavos,"Reorder Within 90 Days along Order ID, Order Date",12/11/2018,CA-2018-162187,67%,2/2/2018,0,,Over 90 days,,0,13
+Noel Staavos,Total Customers,12/11/2018,CA-2018-162187,67%,2/2/2018,0,,Over 90 days,,,13
+Noel Staavos,Total Reorders <90 days,12/11/2018,CA-2018-162187,67%,2/2/2018,0,,Over 90 days,,,13
+Noel Staavos,Avg Reorders per Customer,12/12/2018,CA-2018-169824,67%,12/11/2018,1,,,Within 90 days,,13
+Noel Staavos,Count All Reorders,12/12/2018,CA-2018-169824,67%,12/11/2018,1,,,Within 90 days,,13
+Noel Staavos,"Count Customers along Order Date, Order ID",12/12/2018,CA-2018-169824,67%,12/11/2018,1,,,Within 90 days,,13
+Noel Staavos,Count Reorders <90 days per Customer,12/12/2018,CA-2018-169824,67%,12/11/2018,1,,,Within 90 days,,13
+Noel Staavos,"Days Since Previous Order along Order ID, Order Date",12/12/2018,CA-2018-169824,67%,12/11/2018,1,,,Within 90 days,1,13
+Noel Staavos,Overall Reorder Rate,12/12/2018,CA-2018-169824,67%,12/11/2018,1,,,Within 90 days,,13
+Noel Staavos,"Reorder Within 90 Days along Order ID, Order Date",12/12/2018,CA-2018-169824,67%,12/11/2018,1,,,Within 90 days,1,13
+Noel Staavos,Total Customers,12/12/2018,CA-2018-169824,67%,12/11/2018,1,,,Within 90 days,,13
+Noel Staavos,Total Reorders <90 days,12/12/2018,CA-2018-169824,67%,12/11/2018,1,,,Within 90 days,,13
+Noel Staavos,Avg Reorders per Customer,12/17/2018,CA-2018-131639,67%,12/12/2018,1,,,Within 90 days,,13
+Noel Staavos,Count All Reorders,12/17/2018,CA-2018-131639,67%,12/12/2018,1,,,Within 90 days,,13
+Noel Staavos,"Count Customers along Order Date, Order ID",12/17/2018,CA-2018-131639,67%,12/12/2018,1,,,Within 90 days,,13
+Noel Staavos,Count Reorders <90 days per Customer,12/17/2018,CA-2018-131639,67%,12/12/2018,1,,,Within 90 days,,13
+Noel Staavos,"Days Since Previous Order along Order ID, Order Date",12/17/2018,CA-2018-131639,67%,12/12/2018,1,,,Within 90 days,5,13
+Noel Staavos,Overall Reorder Rate,12/17/2018,CA-2018-131639,67%,12/12/2018,1,,,Within 90 days,,13
+Noel Staavos,"Reorder Within 90 Days along Order ID, Order Date",12/17/2018,CA-2018-131639,67%,12/12/2018,1,,,Within 90 days,1,13
+Noel Staavos,Total Customers,12/17/2018,CA-2018-131639,67%,12/12/2018,1,,,Within 90 days,,13
+Noel Staavos,Total Reorders <90 days,12/17/2018,CA-2018-131639,67%,12/12/2018,1,,,Within 90 days,,13
+Noel Staavos,Avg Reorders per Customer,4/15/2019,CA-2019-134635,67%,12/17/2018,0,,Over 90 days,,,13
+Noel Staavos,Count All Reorders,4/15/2019,CA-2019-134635,67%,12/17/2018,0,,Over 90 days,,,13
+Noel Staavos,"Count Customers along Order Date, Order ID",4/15/2019,CA-2019-134635,67%,12/17/2018,0,,Over 90 days,,,13
+Noel Staavos,Count Reorders <90 days per Customer,4/15/2019,CA-2019-134635,67%,12/17/2018,0,,Over 90 days,,,13
+Noel Staavos,"Days Since Previous Order along Order ID, Order Date",4/15/2019,CA-2019-134635,67%,12/17/2018,0,,Over 90 days,,119,13
+Noel Staavos,Overall Reorder Rate,4/15/2019,CA-2019-134635,67%,12/17/2018,0,,Over 90 days,,,13
+Noel Staavos,"Reorder Within 90 Days along Order ID, Order Date",4/15/2019,CA-2019-134635,67%,12/17/2018,0,,Over 90 days,,0,13
+Noel Staavos,Total Customers,4/15/2019,CA-2019-134635,67%,12/17/2018,0,,Over 90 days,,,13
+Noel Staavos,Total Reorders <90 days,4/15/2019,CA-2019-134635,67%,12/17/2018,0,,Over 90 days,,,13
+Noel Staavos,Avg Reorders per Customer,6/5/2019,CA-2019-141614,67%,4/15/2019,1,,,Within 90 days,,13
+Noel Staavos,Count All Reorders,6/5/2019,CA-2019-141614,67%,4/15/2019,1,,,Within 90 days,,13
+Noel Staavos,"Count Customers along Order Date, Order ID",6/5/2019,CA-2019-141614,67%,4/15/2019,1,,,Within 90 days,,13
+Noel Staavos,Count Reorders <90 days per Customer,6/5/2019,CA-2019-141614,67%,4/15/2019,1,,,Within 90 days,,13
+Noel Staavos,"Days Since Previous Order along Order ID, Order Date",6/5/2019,CA-2019-141614,67%,4/15/2019,1,,,Within 90 days,51,13
+Noel Staavos,Overall Reorder Rate,6/5/2019,CA-2019-141614,67%,4/15/2019,1,,,Within 90 days,,13
+Noel Staavos,"Reorder Within 90 Days along Order ID, Order Date",6/5/2019,CA-2019-141614,67%,4/15/2019,1,,,Within 90 days,1,13
+Noel Staavos,Total Customers,6/5/2019,CA-2019-141614,67%,4/15/2019,1,,,Within 90 days,,13
+Noel Staavos,Total Reorders <90 days,6/5/2019,CA-2019-141614,67%,4/15/2019,1,,,Within 90 days,,13
+Noel Staavos,Avg Reorders per Customer,7/9/2019,CA-2019-115651,67%,6/5/2019,1,,,Within 90 days,,13
+Noel Staavos,Count All Reorders,7/9/2019,CA-2019-115651,67%,6/5/2019,1,,,Within 90 days,,13
+Noel Staavos,"Count Customers along Order Date, Order ID",7/9/2019,CA-2019-115651,67%,6/5/2019,1,,,Within 90 days,,13
+Noel Staavos,Count Reorders <90 days per Customer,7/9/2019,CA-2019-115651,67%,6/5/2019,1,,,Within 90 days,,13
+Noel Staavos,"Days Since Previous Order along Order ID, Order Date",7/9/2019,CA-2019-115651,67%,6/5/2019,1,,,Within 90 days,34,13
+Noel Staavos,Overall Reorder Rate,7/9/2019,CA-2019-115651,67%,6/5/2019,1,,,Within 90 days,,13
+Noel Staavos,"Reorder Within 90 Days along Order ID, Order Date",7/9/2019,CA-2019-115651,67%,6/5/2019,1,,,Within 90 days,1,13
+Noel Staavos,Total Customers,7/9/2019,CA-2019-115651,67%,6/5/2019,1,,,Within 90 days,,13
+Noel Staavos,Total Reorders <90 days,7/9/2019,CA-2019-115651,67%,6/5/2019,1,,,Within 90 days,,13
+Noel Staavos,Avg Reorders per Customer,6/25/2016,CA-2016-159338,67%,,,,,,12,13
+Noel Staavos,Count All Reorders,6/25/2016,CA-2016-159338,67%,,,,,,12,13
+Noel Staavos,"Count Customers along Order Date, Order ID",6/25/2016,CA-2016-159338,67%,,,,,,1,13
+Noel Staavos,Count Reorders <90 days per Customer,6/25/2016,CA-2016-159338,67%,,,,,,8,13
+Noel Staavos,"Days Since Previous Order along Order ID, Order Date",6/25/2016,CA-2016-159338,67%,,,,,,,13
+Noel Staavos,Overall Reorder Rate,6/25/2016,CA-2016-159338,67%,,,,,,0.666666667,13
+Noel Staavos,"Reorder Within 90 Days along Order ID, Order Date",6/25/2016,CA-2016-159338,67%,,,,,,,13
+Noel Staavos,Total Customers,6/25/2016,CA-2016-159338,67%,,,,,,1,13
+Noel Staavos,Total Reorders <90 days,6/25/2016,CA-2016-159338,67%,,,,,,8,13
+Noel Staavos,Avg Reorders per Customer,3/9/2017,CA-2017-123155,67%,6/25/2016,0,,,,,13
+Noel Staavos,Count All Reorders,3/9/2017,CA-2017-123155,67%,6/25/2016,0,,,,,13
+Noel Staavos,"Count Customers along Order Date, Order ID",3/9/2017,CA-2017-123155,67%,6/25/2016,0,,,,,13
+Noel Staavos,Count Reorders <90 days per Customer,3/9/2017,CA-2017-123155,67%,6/25/2016,0,,,,,13
+Noel Staavos,"Days Since Previous Order along Order ID, Order Date",3/9/2017,CA-2017-123155,67%,6/25/2016,0,,,,257,13
+Noel Staavos,Overall Reorder Rate,3/9/2017,CA-2017-123155,67%,6/25/2016,0,,,,,13
+Noel Staavos,"Reorder Within 90 Days along Order ID, Order Date",3/9/2017,CA-2017-123155,67%,6/25/2016,0,,,,0,13
+Noel Staavos,Total Customers,3/9/2017,CA-2017-123155,67%,6/25/2016,0,,,,,13
+Noel Staavos,Total Reorders <90 days,3/9/2017,CA-2017-123155,67%,6/25/2016,0,,,,,13
+Noel Staavos,Avg Reorders per Customer,8/7/2017,CA-2017-163895,67%,3/9/2017,0,,,,,13
+Noel Staavos,Count All Reorders,8/7/2017,CA-2017-163895,67%,3/9/2017,0,,,,,13
+Noel Staavos,"Count Customers along Order Date, Order ID",8/7/2017,CA-2017-163895,67%,3/9/2017,0,,,,,13
+Noel Staavos,Count Reorders <90 days per Customer,8/7/2017,CA-2017-163895,67%,3/9/2017,0,,,,,13
+Noel Staavos,"Days Since Previous Order along Order ID, Order Date",8/7/2017,CA-2017-163895,67%,3/9/2017,0,,,,151,13
+Noel Staavos,Overall Reorder Rate,8/7/2017,CA-2017-163895,67%,3/9/2017,0,,,,,13
+Noel Staavos,"Reorder Within 90 Days along Order ID, Order Date",8/7/2017,CA-2017-163895,67%,3/9/2017,0,,,,0,13
+Noel Staavos,Total Customers,8/7/2017,CA-2017-163895,67%,3/9/2017,0,,,,,13
+Noel Staavos,Total Reorders <90 days,8/7/2017,CA-2017-163895,67%,3/9/2017,0,,,,,13
+Noel Staavos,Avg Reorders per Customer,8/7/2017,US-2017-117492,67%,8/7/2017,1,,,,,13
+Noel Staavos,Count All Reorders,8/7/2017,US-2017-117492,67%,8/7/2017,1,,,,,13
+Noel Staavos,"Count Customers along Order Date, Order ID",8/7/2017,US-2017-117492,67%,8/7/2017,1,,,,,13
+Noel Staavos,Count Reorders <90 days per Customer,8/7/2017,US-2017-117492,67%,8/7/2017,1,,,,,13
+Noel Staavos,"Days Since Previous Order along Order ID, Order Date",8/7/2017,US-2017-117492,67%,8/7/2017,1,,,,0,13
+Noel Staavos,Overall Reorder Rate,8/7/2017,US-2017-117492,67%,8/7/2017,1,,,,,13
+Noel Staavos,"Reorder Within 90 Days along Order ID, Order Date",8/7/2017,US-2017-117492,67%,8/7/2017,1,,,,1,13
+Noel Staavos,Total Customers,8/7/2017,US-2017-117492,67%,8/7/2017,1,,,,,13
+Noel Staavos,Total Reorders <90 days,8/7/2017,US-2017-117492,67%,8/7/2017,1,,,,,13
+Noel Staavos,Avg Reorders per Customer,10/20/2017,US-2017-160563,67%,8/7/2017,1,,,,,13
+Noel Staavos,Count All Reorders,10/20/2017,US-2017-160563,67%,8/7/2017,1,,,,,13
+Noel Staavos,"Count Customers along Order Date, Order ID",10/20/2017,US-2017-160563,67%,8/7/2017,1,,,,,13
+Noel Staavos,Count Reorders <90 days per Customer,10/20/2017,US-2017-160563,67%,8/7/2017,1,,,,,13
+Noel Staavos,"Days Since Previous Order along Order ID, Order Date",10/20/2017,US-2017-160563,67%,8/7/2017,1,,,,74,13
+Noel Staavos,Overall Reorder Rate,10/20/2017,US-2017-160563,67%,8/7/2017,1,,,,,13
+Noel Staavos,"Reorder Within 90 Days along Order ID, Order Date",10/20/2017,US-2017-160563,67%,8/7/2017,1,,,,1,13
+Noel Staavos,Total Customers,10/20/2017,US-2017-160563,67%,8/7/2017,1,,,,,13
+Noel Staavos,Total Reorders <90 days,10/20/2017,US-2017-160563,67%,8/7/2017,1,,,,,13
+Noel Staavos,Avg Reorders per Customer,11/8/2017,CA-2017-108259,67%,10/20/2017,1,,,,,13
+Noel Staavos,Count All Reorders,11/8/2017,CA-2017-108259,67%,10/20/2017,1,,,,,13
+Noel Staavos,"Count Customers along Order Date, Order ID",11/8/2017,CA-2017-108259,67%,10/20/2017,1,,,,,13
+Noel Staavos,Count Reorders <90 days per Customer,11/8/2017,CA-2017-108259,67%,10/20/2017,1,,,,,13
+Noel Staavos,"Days Since Previous Order along Order ID, Order Date",11/8/2017,CA-2017-108259,67%,10/20/2017,1,,,,19,13
+Noel Staavos,Overall Reorder Rate,11/8/2017,CA-2017-108259,67%,10/20/2017,1,,,,,13
+Noel Staavos,"Reorder Within 90 Days along Order ID, Order Date",11/8/2017,CA-2017-108259,67%,10/20/2017,1,,,,1,13
+Noel Staavos,Total Customers,11/8/2017,CA-2017-108259,67%,10/20/2017,1,,,,,13
+Noel Staavos,Total Reorders <90 days,11/8/2017,CA-2017-108259,67%,10/20/2017,1,,,,,13
+Noel Staavos,Avg Reorders per Customer,2/2/2018,CA-2018-144645,67%,11/8/2017,1,,,,,13
+Noel Staavos,Count All Reorders,2/2/2018,CA-2018-144645,67%,11/8/2017,1,,,,,13
+Noel Staavos,"Count Customers along Order Date, Order ID",2/2/2018,CA-2018-144645,67%,11/8/2017,1,,,,,13
+Noel Staavos,Count Reorders <90 days per Customer,2/2/2018,CA-2018-144645,67%,11/8/2017,1,,,,,13
+Noel Staavos,"Days Since Previous Order along Order ID, Order Date",2/2/2018,CA-2018-144645,67%,11/8/2017,1,,,,86,13
+Noel Staavos,Overall Reorder Rate,2/2/2018,CA-2018-144645,67%,11/8/2017,1,,,,,13
+Noel Staavos,"Reorder Within 90 Days along Order ID, Order Date",2/2/2018,CA-2018-144645,67%,11/8/2017,1,,,,1,13
+Noel Staavos,Total Customers,2/2/2018,CA-2018-144645,67%,11/8/2017,1,,,,,13
+Noel Staavos,Total Reorders <90 days,2/2/2018,CA-2018-144645,67%,11/8/2017,1,,,,,13
+Noel Staavos,Avg Reorders per Customer,12/11/2018,CA-2018-162187,67%,2/2/2018,0,,,,,13
+Noel Staavos,Count All Reorders,12/11/2018,CA-2018-162187,67%,2/2/2018,0,,,,,13
+Noel Staavos,"Count Customers along Order Date, Order ID",12/11/2018,CA-2018-162187,67%,2/2/2018,0,,,,,13
+Noel Staavos,Count Reorders <90 days per Customer,12/11/2018,CA-2018-162187,67%,2/2/2018,0,,,,,13
+Noel Staavos,"Days Since Previous Order along Order ID, Order Date",12/11/2018,CA-2018-162187,67%,2/2/2018,0,,,,312,13
+Noel Staavos,Overall Reorder Rate,12/11/2018,CA-2018-162187,67%,2/2/2018,0,,,,,13
+Noel Staavos,"Reorder Within 90 Days along Order ID, Order Date",12/11/2018,CA-2018-162187,67%,2/2/2018,0,,,,0,13
+Noel Staavos,Total Customers,12/11/2018,CA-2018-162187,67%,2/2/2018,0,,,,,13
+Noel Staavos,Total Reorders <90 days,12/11/2018,CA-2018-162187,67%,2/2/2018,0,,,,,13
+Noel Staavos,Avg Reorders per Customer,12/12/2018,CA-2018-169824,67%,12/11/2018,1,,,,,13
+Noel Staavos,Count All Reorders,12/12/2018,CA-2018-169824,67%,12/11/2018,1,,,,,13
+Noel Staavos,"Count Customers along Order Date, Order ID",12/12/2018,CA-2018-169824,67%,12/11/2018,1,,,,,13
+Noel Staavos,Count Reorders <90 days per Customer,12/12/2018,CA-2018-169824,67%,12/11/2018,1,,,,,13
+Noel Staavos,"Days Since Previous Order along Order ID, Order Date",12/12/2018,CA-2018-169824,67%,12/11/2018,1,,,,1,13
+Noel Staavos,Overall Reorder Rate,12/12/2018,CA-2018-169824,67%,12/11/2018,1,,,,,13
+Noel Staavos,"Reorder Within 90 Days along Order ID, Order Date",12/12/2018,CA-2018-169824,67%,12/11/2018,1,,,,1,13
+Noel Staavos,Total Customers,12/12/2018,CA-2018-169824,67%,12/11/2018,1,,,,,13
+Noel Staavos,Total Reorders <90 days,12/12/2018,CA-2018-169824,67%,12/11/2018,1,,,,,13
+Noel Staavos,Avg Reorders per Customer,12/17/2018,CA-2018-131639,67%,12/12/2018,1,,,,,13
+Noel Staavos,Count All Reorders,12/17/2018,CA-2018-131639,67%,12/12/2018,1,,,,,13
+Noel Staavos,"Count Customers along Order Date, Order ID",12/17/2018,CA-2018-131639,67%,12/12/2018,1,,,,,13
+Noel Staavos,Count Reorders <90 days per Customer,12/17/2018,CA-2018-131639,67%,12/12/2018,1,,,,,13
+Noel Staavos,"Days Since Previous Order along Order ID, Order Date",12/17/2018,CA-2018-131639,67%,12/12/2018,1,,,,5,13
+Noel Staavos,Overall Reorder Rate,12/17/2018,CA-2018-131639,67%,12/12/2018,1,,,,,13
+Noel Staavos,"Reorder Within 90 Days along Order ID, Order Date",12/17/2018,CA-2018-131639,67%,12/12/2018,1,,,,1,13
+Noel Staavos,Total Customers,12/17/2018,CA-2018-131639,67%,12/12/2018,1,,,,,13
+Noel Staavos,Total Reorders <90 days,12/17/2018,CA-2018-131639,67%,12/12/2018,1,,,,,13
+Noel Staavos,Avg Reorders per Customer,4/15/2019,CA-2019-134635,67%,12/17/2018,0,,,,,13
+Noel Staavos,Count All Reorders,4/15/2019,CA-2019-134635,67%,12/17/2018,0,,,,,13
+Noel Staavos,"Count Customers along Order Date, Order ID",4/15/2019,CA-2019-134635,67%,12/17/2018,0,,,,,13
+Noel Staavos,Count Reorders <90 days per Customer,4/15/2019,CA-2019-134635,67%,12/17/2018,0,,,,,13
+Noel Staavos,"Days Since Previous Order along Order ID, Order Date",4/15/2019,CA-2019-134635,67%,12/17/2018,0,,,,119,13
+Noel Staavos,Overall Reorder Rate,4/15/2019,CA-2019-134635,67%,12/17/2018,0,,,,,13
+Noel Staavos,"Reorder Within 90 Days along Order ID, Order Date",4/15/2019,CA-2019-134635,67%,12/17/2018,0,,,,0,13
+Noel Staavos,Total Customers,4/15/2019,CA-2019-134635,67%,12/17/2018,0,,,,,13
+Noel Staavos,Total Reorders <90 days,4/15/2019,CA-2019-134635,67%,12/17/2018,0,,,,,13
+Noel Staavos,Avg Reorders per Customer,6/5/2019,CA-2019-141614,67%,4/15/2019,1,,,,,13
+Noel Staavos,Count All Reorders,6/5/2019,CA-2019-141614,67%,4/15/2019,1,,,,,13
+Noel Staavos,"Count Customers along Order Date, Order ID",6/5/2019,CA-2019-141614,67%,4/15/2019,1,,,,,13
+Noel Staavos,Count Reorders <90 days per Customer,6/5/2019,CA-2019-141614,67%,4/15/2019,1,,,,,13
+Noel Staavos,"Days Since Previous Order along Order ID, Order Date",6/5/2019,CA-2019-141614,67%,4/15/2019,1,,,,51,13
+Noel Staavos,Overall Reorder Rate,6/5/2019,CA-2019-141614,67%,4/15/2019,1,,,,,13
+Noel Staavos,"Reorder Within 90 Days along Order ID, Order Date",6/5/2019,CA-2019-141614,67%,4/15/2019,1,,,,1,13
+Noel Staavos,Total Customers,6/5/2019,CA-2019-141614,67%,4/15/2019,1,,,,,13
+Noel Staavos,Total Reorders <90 days,6/5/2019,CA-2019-141614,67%,4/15/2019,1,,,,,13
+Noel Staavos,Avg Reorders per Customer,7/9/2019,CA-2019-115651,67%,6/5/2019,1,,,,,13
+Noel Staavos,Count All Reorders,7/9/2019,CA-2019-115651,67%,6/5/2019,1,,,,,13
+Noel Staavos,"Count Customers along Order Date, Order ID",7/9/2019,CA-2019-115651,67%,6/5/2019,1,,,,,13
+Noel Staavos,Count Reorders <90 days per Customer,7/9/2019,CA-2019-115651,67%,6/5/2019,1,,,,,13
+Noel Staavos,"Days Since Previous Order along Order ID, Order Date",7/9/2019,CA-2019-115651,67%,6/5/2019,1,,,,34,13
+Noel Staavos,Overall Reorder Rate,7/9/2019,CA-2019-115651,67%,6/5/2019,1,,,,,13
+Noel Staavos,"Reorder Within 90 Days along Order ID, Order Date",7/9/2019,CA-2019-115651,67%,6/5/2019,1,,,,1,13
+Noel Staavos,Total Customers,7/9/2019,CA-2019-115651,67%,6/5/2019,1,,,,,13
+Noel Staavos,Total Reorders <90 days,7/9/2019,CA-2019-115651,67%,6/5/2019,1,,,,,13

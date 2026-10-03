@@ -1,0 +1,393 @@
+{
+  "row_count": 9994,
+  "aggregation": "Month-of-year over the complete extract; no year filter.",
+  "values": [
+    {
+      "month": 1,
+      "region": "Central",
+      "sales": 31683.2296,
+      "rank": 1,
+      "rank_line": 1.4,
+      "label": "1st"
+    },
+    {
+      "month": 1,
+      "region": "West",
+      "sales": 24705.125,
+      "rank": 2,
+      "rank_line": 2.4,
+      "label": "2nd"
+    },
+    {
+      "month": 1,
+      "region": "South",
+      "sales": 23185.942,
+      "rank": 3,
+      "rank_line": 3.4,
+      "label": "3rd"
+    },
+    {
+      "month": 1,
+      "region": "East",
+      "sales": 15350.538999999999,
+      "rank": 4,
+      "rank_line": 4.4,
+      "label": "4th"
+    },
+    {
+      "month": 2,
+      "region": "South",
+      "sales": 20981.476000000002,
+      "rank": 1,
+      "rank_line": 1.4,
+      "label": ""
+    },
+    {
+      "month": 2,
+      "region": "West",
+      "sales": 15777.213,
+      "rank": 2,
+      "rank_line": 2.4,
+      "label": ""
+    },
+    {
+      "month": 2,
+      "region": "East",
+      "sales": 14781.252,
+      "rank": 3,
+      "rank_line": 3.4,
+      "label": ""
+    },
+    {
+      "month": 2,
+      "region": "Central",
+      "sales": 8211.3104,
+      "rank": 4,
+      "rank_line": 4.4,
+      "label": ""
+    },
+    {
+      "month": 3,
+      "region": "West",
+      "sales": 73254.175,
+      "rank": 1,
+      "rank_line": 1.4,
+      "label": ""
+    },
+    {
+      "month": 3,
+      "region": "South",
+      "sales": 54115.11,
+      "rank": 2,
+      "rank_line": 2.4,
+      "label": ""
+    },
+    {
+      "month": 3,
+      "region": "Central",
+      "sales": 41216.2618,
+      "rank": 3,
+      "rank_line": 3.4,
+      "label": ""
+    },
+    {
+      "month": 3,
+      "region": "East",
+      "sales": 36419.942,
+      "rank": 4,
+      "rank_line": 4.4,
+      "label": ""
+    },
+    {
+      "month": 4,
+      "region": "West",
+      "sales": 42341.273,
+      "rank": 1,
+      "rank_line": 1.4,
+      "label": ""
+    },
+    {
+      "month": 4,
+      "region": "East",
+      "sales": 38904.576,
+      "rank": 2,
+      "rank_line": 2.4,
+      "label": ""
+    },
+    {
+      "month": 4,
+      "region": "South",
+      "sales": 30316.409,
+      "rank": 3,
+      "rank_line": 3.4,
+      "label": ""
+    },
+    {
+      "month": 4,
+      "region": "Central",
+      "sales": 26199.8706,
+      "rank": 4,
+      "rank_line": 4.4,
+      "label": ""
+    },
+    {
+      "month": 5,
+      "region": "West",
+      "sales": 44916.4865,
+      "rank": 1,
+      "rank_line": 1.4,
+      "label": ""
+    },
+    {
+      "month": 5,
+      "region": "East",
+      "sales": 43440.179,
+      "rank": 2,
+      "rank_line": 2.4,
+      "label": ""
+    },
+    {
+      "month": 5,
+      "region": "Central",
+      "sales": 36005.2282,
+      "rank": 3,
+      "rank_line": 3.4,
+      "label": ""
+    },
+    {
+      "month": 5,
+      "region": "South",
+      "sales": 30666.918,
+      "rank": 4,
+      "rank_line": 4.4,
+      "label": ""
+    },
+    {
+      "month": 6,
+      "region": "West",
+      "sales": 49236.2865,
+      "rank": 1,
+      "rank_line": 1.4,
+      "label": ""
+    },
+    {
+      "month": 6,
+      "region": "East",
+      "sales": 45100.775,
+      "rank": 2,
+      "rank_line": 2.4,
+      "label": ""
+    },
+    {
+      "month": 6,
+      "region": "Central",
+      "sales": 32879.3948,
+      "rank": 3,
+      "rank_line": 3.4,
+      "label": ""
+    },
+    {
+      "month": 6,
+      "region": "South",
+      "sales": 25502.223,
+      "rank": 4,
+      "rank_line": 4.4,
+      "label": ""
+    },
+    {
+      "month": 7,
+      "region": "West",
+      "sales": 64946.801,
+      "rank": 1,
+      "rank_line": 1.4,
+      "label": ""
+    },
+    {
+      "month": 7,
+      "region": "East",
+      "sales": 36286.83,
+      "rank": 2,
+      "rank_line": 2.4,
+      "label": ""
+    },
+    {
+      "month": 7,
+      "region": "Central",
+      "sales": 32113.561,
+      "rank": 3,
+      "rank_line": 3.4,
+      "label": ""
+    },
+    {
+      "month": 7,
+      "region": "South",
+      "sales": 13890.905,
+      "rank": 4,
+      "rank_line": 4.4,
+      "label": ""
+    },
+    {
+      "month": 8,
+      "region": "West",
+      "sales": 63352.336,
+      "rank": 1,
+      "rank_line": 1.4,
+      "label": ""
+    },
+    {
+      "month": 8,
+      "region": "East",
+      "sales": 44069.643000000004,
+      "rank": 2,
+      "rank_line": 2.4,
+      "label": ""
+    },
+    {
+      "month": 8,
+      "region": "South",
+      "sales": 26062.901,
+      "rank": 3,
+      "rank_line": 3.4,
+      "label": ""
+    },
+    {
+      "month": 8,
+      "region": "Central",
+      "sales": 25559.183,
+      "rank": 4,
+      "rank_line": 4.4,
+      "label": ""
+    },
+    {
+      "month": 9,
+      "region": "East",
+      "sales": 107412.36600000001,
+      "rank": 1,
+      "rank_line": 1.4,
+      "label": ""
+    },
+    {
+      "month": 9,
+      "region": "West",
+      "sales": 80327.3745,
+      "rank": 2,
+      "rank_line": 2.4,
+      "label": ""
+    },
+    {
+      "month": 9,
+      "region": "Central",
+      "sales": 76833.41219999999,
+      "rank": 3,
+      "rank_line": 3.4,
+      "label": ""
+    },
+    {
+      "month": 9,
+      "region": "South",
+      "sales": 43076.793,
+      "rank": 4,
+      "rank_line": 4.4,
+      "label": ""
+    },
+    {
+      "month": 10,
+      "region": "East",
+      "sales": 62617.819,
+      "rank": 1,
+      "rank_line": 1.4,
+      "label": ""
+    },
+    {
+      "month": 10,
+      "region": "West",
+      "sales": 59582.568,
+      "rank": 2,
+      "rank_line": 2.4,
+      "label": ""
+    },
+    {
+      "month": 10,
+      "region": "Central",
+      "sales": 53920.9312,
+      "rank": 3,
+      "rank_line": 3.4,
+      "label": ""
+    },
+    {
+      "month": 10,
+      "region": "South",
+      "sales": 24201.6665,
+      "rank": 4,
+      "rank_line": 4.4,
+      "label": ""
+    },
+    {
+      "month": 11,
+      "region": "East",
+      "sales": 137291.26,
+      "rank": 1,
+      "rank_line": 1.4,
+      "label": ""
+    },
+    {
+      "month": 11,
+      "region": "West",
+      "sales": 90605.3125,
+      "rank": 2,
+      "rank_line": 2.4,
+      "label": ""
+    },
+    {
+      "month": 11,
+      "region": "Central",
+      "sales": 65025.949,
+      "rank": 3,
+      "rank_line": 3.4,
+      "label": ""
+    },
+    {
+      "month": 11,
+      "region": "South",
+      "sales": 59538.5495,
+      "rank": 4,
+      "rank_line": 4.4,
+      "label": ""
+    },
+    {
+      "month": 12,
+      "region": "West",
+      "sales": 116412.8735,
+      "rank": 1,
+      "rank_line": 1.4,
+      "label": "West"
+    },
+    {
+      "month": 12,
+      "region": "East",
+      "sales": 97106.059,
+      "rank": 2,
+      "rank_line": 2.4,
+      "label": "East"
+    },
+    {
+      "month": 12,
+      "region": "Central",
+      "sales": 71591.559,
+      "rank": 3,
+      "rank_line": 3.4,
+      "label": "Central"
+    },
+    {
+      "month": 12,
+      "region": "South",
+      "sales": 40183.012,
+      "rank": 4,
+      "rank_line": 4.4,
+      "label": "South"
+    }
+  ],
+  "status": "pass",
+  "artifact_sha256": "2c6da4e24546c96f1aec4e2b8ab2cdef56041418b72b903489a7af356edf5821",
+  "browser_interaction_executed": false
+}

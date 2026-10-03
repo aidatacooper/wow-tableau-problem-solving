@@ -1,0 +1,17 @@
+{
+  "source_workbook_used_by_builder": false,
+  "download_url": "https://public.tableau.com/workbooks/2020_02_18_WW08_Concat_List_of_Values.twb",
+  "locked_original_sha256": "d08c7aa19e427ca5d92d6322b999f80230735ff5f29c20770c3ec234834c4416",
+  "download_sha256": "d08c7aa19e427ca5d92d6322b999f80230735ff5f29c20770c3ec234834c4416",
+  "exact_locked_original": true,
+  "article_url": "https://donnacoles.home.blog/2020/02/22/can-you-create-a-concatenated-list-of-values/",
+  "article_sha256": "0e87b07fcffa62f957890c12afdedf8ee408fbd629565747a5cd58c34e62855b",
+  "extracted_data": [
+    {
+      "file": "inputs/TEMP_1rbe3vv17qzn9c139axro0see4zu.hyper",
+      "archive_member": "Data/TableauTemp/TEMP_1rbe3vv17qzn9c139axro0see4zu.hyper",
+      "bytes": 3080192,
+      "sha256": "5011c723c2237a5e8ded4288d7142d2f9491886c720a615932c4b57965290629"
+    }
+  ]
+}

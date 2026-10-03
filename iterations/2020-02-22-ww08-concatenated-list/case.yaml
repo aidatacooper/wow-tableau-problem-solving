@@ -1,0 +1,99 @@
+schema_version: 1.1.0
+case_id: wow-2020-ww08-concatenated-list
+iteration_id: 2020-02-22-ww08-concatenated-list
+post: https://donnacoles.home.blog/2020/02/22/can-you-create-a-concatenated-list-of-values/
+legacy_case_ids: {}
+article_date: '2020-02-22'
+challenge_year: 2020
+challenge_week: 8
+challenge_date: '2020-02-18'
+date_evidence:
+  article_date: Indexed publication date and article URL
+  challenge: '2020 week 8: Can you create a concatenated list of values?'
+  challenge_date: Official WordPress post 3488 date 2020-02-18T18:30:00; https://www.workout-wednesday.com/2020w08/
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2020w08/
+    wordpress_post_id: 3488
+  article:
+    url: https://donnacoles.home.blog/2020/02/22/can-you-create-a-concatenated-list-of-values/
+    path: null
+    sha256: 0e87b07fcffa62f957890c12afdedf8ee408fbd629565747a5cd58c34e62855b
+  workbook:
+    url: https://public.tableau.com/views/2020_02_18_WW08_Concat_List_of_Values/2020_02_19_WW08_Concat_List_of_Values
+    filename: 2020_02_18_WW08_Concat_List_of_Values.twbx
+    path: null
+    sha256: d08c7aa19e427ca5d92d6322b999f80230735ff5f29c20770c3ec234834c4416
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- evidence/cloud-data-comparison.json
+- evidence/cloud-verification.json
+- evidence/export-provenance.json
+- evidence/functional-verification.json
+- evidence/sdk-final-validation.json
+- evidence/visual-review.md
+- inputs/source-lock.json
+notes:
+- Empty workbook, public SDK API construction.
+- Acceptance uses Cloud REST data/images and artifact contracts; no browser events
+  executed.
+cwtwb:
+  tested_version: 0.27.1
+  tested_commit: 7096bf154c4505839ae0cafd1430992c6afc6aec
+  runs:
+  - version: 0.27.1
+    commit: 7096bf154c4505839ae0cafd1430992c6afc6aec
+    result: pass
+    evidence: evidence/sdk-final-validation.json
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: pass
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/TEMP_1rbe3vv17qzn9c139axro0see4zu.hyper
+acceptance:
+- id: blank-sdk-build
+  description: Empty public SDK construction.
+  mode: automated
+- id: locked-patient-data
+  description: Extracted and packaged data hashes match source lock.
+  mode: automated
+- id: native-concatenated-list
+  description: Native INDEX/PREVIOUS_VALUE builds alphabetic distinct health-check
+    lists per patient.
+  mode: automated
+- id: tablecalc-last-row-filter
+  description: Native INDEX=SIZE retains the final accumulated row, with nested addressing
+    by Health Check Name.
+  mode: automated
+- id: patient-controls
+  description: Physician, Age Category, continuous Size range and list-contains parameter
+    are wired to Report.
+  mode: automated
+- id: independent-patient-oracle
+  description: Independently group all 179197 source rows into 59272 patient profiles
+    and calculate complete lists.
+  mode: automated
+- id: cloud-rest-patient-lists
+  description: Complete report CSVs match every patient profile and entire list for
+    default/all/flu/physician-age states.
+  mode: automated
+- id: cloud-visual-review
+  description: Compare original and replica REST renders; record concrete visual deltas
+    and scope.
+  mode: manual
+  evidence: evidence/visual-review.md
+remaining_work: []
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []
+acceptance_scope: cloud_rest_and_artifact_contracts
+browser_interaction_executed: false

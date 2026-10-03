@@ -1,0 +1,17 @@
+{
+  "source_workbook_used_by_builder": false,
+  "download_url": "https://public.tableau.com/workbooks/2020_03_18_WW12_Profit_By_Orders.twb",
+  "locked_original_sha256": "ea4758278b556609581a1145c1920f064d86d8d8b5f9280bc4a85379c23cc5c3",
+  "download_sha256": "ea4758278b556609581a1145c1920f064d86d8d8b5f9280bc4a85379c23cc5c3",
+  "exact_locked_original": true,
+  "article_url": "https://donnacoles.home.blog/2020/03/21/can-you-show-missing-selected-periods-and-autosize-bars/",
+  "article_sha256": "ad5c06ff70e683bf2e0146e7b8b1ae55b408270593e9c97d88dca7c78061cfb7",
+  "extracted_data": [
+    {
+      "file": "inputs/TEMP_15dwgu91thw88n194tdxu1u2mxgk.hyper",
+      "archive_member": "Data/TableauTemp/TEMP_15dwgu91thw88n194tdxu1u2mxgk.hyper",
+      "bytes": 983040,
+      "sha256": "bc65f594af0e99656fd0e3de71572647d12fa5e3023791f97340626b90bf7be7"
+    }
+  ]
+}

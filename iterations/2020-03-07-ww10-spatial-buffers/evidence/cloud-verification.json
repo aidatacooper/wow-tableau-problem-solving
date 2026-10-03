@@ -1,0 +1,514 @@
+{
+  "case_id": "wow-2020-ww10-spatial-buffers",
+  "captured_at": "2026-10-03T05:34:32.491356+00:00",
+  "source_hashes": {
+    "author": "423549213efcc9d681e84c4bd54a23e5f4630ece4ce835ea11852253a41df331",
+    "replica": "4386b948fdd5b60aaec1563c9ae0e40639c8b1e5f62af2e2fc12bdcf33616657"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "86ecdedf-04f6-445a-9575-880c4615d775",
+      "name": "cwtwb-review-wow-2020-ww10-spatial-buffers-author-423549213efc",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2927989",
+      "views": [
+        {
+          "name": "2020_03_04_WW10_London_Pubs_Buffer_Int",
+          "id": "265454e5-dc69-45ee-b30c-3692fb404c92"
+        },
+        {
+          "name": "2020_03_04_WW10_London_Pubs_Buffer_Jedi",
+          "id": "e83a4dbf-0d5e-4f49-9c10-e4118d20e690"
+        },
+        {
+          "name": "Hotel Chart",
+          "id": "35a08218-14c4-4532-a9c8-afc13249cb59"
+        },
+        {
+          "name": "Map_Jedi",
+          "id": "40c049b1-3339-4373-a3f1-b6fe830afe12"
+        },
+        {
+          "name": "Map_int",
+          "id": "ca139b17-028f-4098-a9ed-62036f1a7e24"
+        },
+        {
+          "name": "Sort Selector",
+          "id": "f675019d-f6ce-40ee-9e2c-2018c8cd8348"
+        },
+        {
+          "name": "VIT:Pub List",
+          "id": "28e102cd-f723-4e96-8247-dc8f091b38e5"
+        }
+      ]
+    },
+    "replica": {
+      "id": "f8433331-e1db-489e-8a9a-20f4d4ab6139",
+      "name": "cwtwb-review-wow-2020-ww10-spatial-buffers-replica-4386b948fdd5",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2928089",
+      "views": [
+        {
+          "name": "Map_int",
+          "id": "e57eb7b7-c45a-449e-8d38-d9fc73877fe7"
+        },
+        {
+          "name": "VIT:Pub List",
+          "id": "1b9bedba-4d88-43e9-aae2-079c38627895"
+        },
+        {
+          "name": "2020_03_04_WW10_London_Pubs_Buffer_Int",
+          "id": "74697074-35e9-43a8-b5e5-9d7d0758d832"
+        },
+        {
+          "name": "Map_Jedi",
+          "id": "fc0aeb46-c248-4f65-97a4-b54f57ee760e"
+        },
+        {
+          "name": "Hotel Chart",
+          "id": "49c76627-b475-4141-ba42-342385ed233f"
+        },
+        {
+          "name": "Sort Selector",
+          "id": "335758d7-3b55-403b-95bc-cb4727c988e2"
+        },
+        {
+          "name": "2020_03_04_WW10_London_Pubs_Buffer_Jedi",
+          "id": "f9cb196d-ba9b-4bf3-bc69-aadf99d83190"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "e83a4dbf-0d5e-4f49-9c10-e4118d20e690",
+          "name": "2020_03_04_WW10_London_Pubs_Buffer_Jedi",
+          "path": "outputs/cloud-author.png",
+          "sha256": "eccb1cfe7b75455e459261e44d571710ad010f7b5fd8c71a0a18ae36b0bfc5f1",
+          "size": [
+            1400,
+            1400
+          ]
+        },
+        "replica": {
+          "id": "f9cb196d-ba9b-4bf3-bc69-aadf99d83190",
+          "name": "2020_03_04_WW10_London_Pubs_Buffer_Jedi",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "82c1294f6d2c606054928502964fee79ccde9f6fc0f1910a61306d6f35c54b03",
+          "size": [
+            1400,
+            1400
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "VIT:Pub List",
+          "view_id": "28e102cd-f723-4e96-8247-dc8f091b38e5",
+          "scope": "Every joined hotel/pub pair and distance; this export is the tooltip target worksheet, not a dashboard/button CSV.",
+          "path": "outputs/cloud-author-pub-list.csv",
+          "sha256": "3d1e383083b469f9f98a23fac17e57bebbc4731f1e6c7431e2630ce2fa0101f6",
+          "bytes": 876
+        },
+        {
+          "role": "author",
+          "view": "Map_Jedi",
+          "view_id": "40c049b1-3339-4373-a3f1-b6fe830afe12",
+          "scope": "Every pub geometry identity and distance to the selected hotel; excludes null pub marks.",
+          "path": "outputs/cloud-author-map.csv",
+          "sha256": "e1512119a7e7cdddfed879c2f88d34c91b5de651ae02ebfb46a76d654f91ae4a",
+          "bytes": 2848
+        },
+        {
+          "role": "author",
+          "view": "Hotel Chart",
+          "view_id": "35a08218-14c4-4532-a9c8-afc13249cb59",
+          "scope": "All hotel names and three sortable ratings measures.",
+          "path": "outputs/cloud-author-hotels.csv",
+          "sha256": "b9b3cf4db28a22f0cae2db06dcf58986cc114649805eb10a2cfc29371ed3300b",
+          "bytes": 528
+        },
+        {
+          "role": "replica",
+          "view": "VIT:Pub List",
+          "view_id": "1b9bedba-4d88-43e9-aae2-079c38627895",
+          "scope": "Every joined hotel/pub pair and distance; this export is the tooltip target worksheet, not a dashboard/button CSV.",
+          "path": "outputs/cloud-replica-pub-list.csv",
+          "sha256": "92ba7d08dcd09fdd72e44d77030ff42a57855681a233892c2ff55804261d6676",
+          "bytes": 1125
+        },
+        {
+          "role": "replica",
+          "view": "Map_Jedi",
+          "view_id": "fc0aeb46-c248-4f65-97a4-b54f57ee760e",
+          "scope": "Every pub geometry identity and distance to the selected hotel; excludes null pub marks.",
+          "path": "outputs/cloud-replica-map.csv",
+          "sha256": "5fa4a75e9d33aed448a2850c9a6142ecafca9916e5ec265dfadeae7ff3411ff8",
+          "bytes": 3282
+        },
+        {
+          "role": "replica",
+          "view": "Hotel Chart",
+          "view_id": "49c76627-b475-4141-ba42-342385ed233f",
+          "scope": "All hotel names and three sortable ratings measures.",
+          "path": "outputs/cloud-replica-hotels.csv",
+          "sha256": "56d271dfd436ce047b9ef876f043f5a62a230a4921aefcd180fed0d09bb2fa9c",
+          "bytes": 578
+        }
+      ]
+    },
+    {
+      "name": "intermediate",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "265454e5-dc69-45ee-b30c-3692fb404c92",
+          "name": "2020_03_04_WW10_London_Pubs_Buffer_Int",
+          "path": "outputs/cloud-author-intermediate.png",
+          "sha256": "890bfaaeb18cfbce7faa09fc46c52e0e5be8582a17490c167ef4424485ca543f",
+          "size": [
+            1400,
+            1400
+          ]
+        },
+        "replica": {
+          "id": "74697074-35e9-43a8-b5e5-9d7d0758d832",
+          "name": "2020_03_04_WW10_London_Pubs_Buffer_Int",
+          "path": "outputs/cloud-replica-intermediate.png",
+          "sha256": "b11ffc6409d6a256f4f55689607f9a56c2b5307c62fd77f54919c693d8d0db2b",
+          "size": [
+            1400,
+            1400
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "VIT:Pub List",
+          "view_id": "28e102cd-f723-4e96-8247-dc8f091b38e5",
+          "scope": "Every joined hotel/pub pair and distance; this export is the tooltip target worksheet, not a dashboard/button CSV.",
+          "path": "outputs/cloud-author-pub-list-intermediate.csv",
+          "sha256": "3d1e383083b469f9f98a23fac17e57bebbc4731f1e6c7431e2630ce2fa0101f6",
+          "bytes": 876
+        },
+        {
+          "role": "author",
+          "view": "Map_Jedi",
+          "view_id": "40c049b1-3339-4373-a3f1-b6fe830afe12",
+          "scope": "Every pub geometry identity and distance to the selected hotel; excludes null pub marks.",
+          "path": "outputs/cloud-author-map-intermediate.csv",
+          "sha256": "9d1c5d13503da748ada87b6aad96f6949df42dfb211d8f72d0d9dc8c6a6d650b",
+          "bytes": 2848
+        },
+        {
+          "role": "author",
+          "view": "Hotel Chart",
+          "view_id": "35a08218-14c4-4532-a9c8-afc13249cb59",
+          "scope": "All hotel names and three sortable ratings measures.",
+          "path": "outputs/cloud-author-hotels-intermediate.csv",
+          "sha256": "b9b3cf4db28a22f0cae2db06dcf58986cc114649805eb10a2cfc29371ed3300b",
+          "bytes": 528
+        },
+        {
+          "role": "replica",
+          "view": "VIT:Pub List",
+          "view_id": "1b9bedba-4d88-43e9-aae2-079c38627895",
+          "scope": "Every joined hotel/pub pair and distance; this export is the tooltip target worksheet, not a dashboard/button CSV.",
+          "path": "outputs/cloud-replica-pub-list-intermediate.csv",
+          "sha256": "92ba7d08dcd09fdd72e44d77030ff42a57855681a233892c2ff55804261d6676",
+          "bytes": 1125
+        },
+        {
+          "role": "replica",
+          "view": "Map_Jedi",
+          "view_id": "fc0aeb46-c248-4f65-97a4-b54f57ee760e",
+          "scope": "Every pub geometry identity and distance to the selected hotel; excludes null pub marks.",
+          "path": "outputs/cloud-replica-map-intermediate.csv",
+          "sha256": "5fa4a75e9d33aed448a2850c9a6142ecafca9916e5ec265dfadeae7ff3411ff8",
+          "bytes": 3282
+        },
+        {
+          "role": "replica",
+          "view": "Hotel Chart",
+          "view_id": "49c76627-b475-4141-ba42-342385ed233f",
+          "scope": "All hotel names and three sortable ratings measures.",
+          "path": "outputs/cloud-replica-hotels-intermediate.csv",
+          "sha256": "56d271dfd436ce047b9ef876f043f5a62a230a4921aefcd180fed0d09bb2fa9c",
+          "bytes": 578
+        }
+      ]
+    },
+    {
+      "name": "radius250",
+      "parameters": {
+        "Buffer Radius": "250"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "e83a4dbf-0d5e-4f49-9c10-e4118d20e690",
+          "name": "2020_03_04_WW10_London_Pubs_Buffer_Jedi",
+          "path": "outputs/cloud-author-radius250.png",
+          "sha256": "e20c868c14333e7b0baa6228b3cfe09678e6fbcb044b2aa40dda618ecc286772",
+          "size": [
+            1400,
+            1400
+          ]
+        },
+        "replica": {
+          "id": "f9cb196d-ba9b-4bf3-bc69-aadf99d83190",
+          "name": "2020_03_04_WW10_London_Pubs_Buffer_Jedi",
+          "path": "outputs/cloud-replica-radius250.png",
+          "sha256": "1d999577f5de1eefda58aa86e45b80d36708fafc86361f76293517bd0d9c44ac",
+          "size": [
+            1400,
+            1400
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "VIT:Pub List",
+          "view_id": "28e102cd-f723-4e96-8247-dc8f091b38e5",
+          "scope": "Every joined hotel/pub pair and distance; this export is the tooltip target worksheet, not a dashboard/button CSV.",
+          "path": "outputs/cloud-author-pub-list-radius250.csv",
+          "sha256": "3d1e383083b469f9f98a23fac17e57bebbc4731f1e6c7431e2630ce2fa0101f6",
+          "bytes": 876
+        },
+        {
+          "role": "author",
+          "view": "Map_Jedi",
+          "view_id": "40c049b1-3339-4373-a3f1-b6fe830afe12",
+          "scope": "Every pub geometry identity and distance to the selected hotel; excludes null pub marks.",
+          "path": "outputs/cloud-author-map-radius250.csv",
+          "sha256": "9d1c5d13503da748ada87b6aad96f6949df42dfb211d8f72d0d9dc8c6a6d650b",
+          "bytes": 2848
+        },
+        {
+          "role": "author",
+          "view": "Hotel Chart",
+          "view_id": "35a08218-14c4-4532-a9c8-afc13249cb59",
+          "scope": "All hotel names and three sortable ratings measures.",
+          "path": "outputs/cloud-author-hotels-radius250.csv",
+          "sha256": "b9b3cf4db28a22f0cae2db06dcf58986cc114649805eb10a2cfc29371ed3300b",
+          "bytes": 528
+        },
+        {
+          "role": "replica",
+          "view": "VIT:Pub List",
+          "view_id": "1b9bedba-4d88-43e9-aae2-079c38627895",
+          "scope": "Every joined hotel/pub pair and distance; this export is the tooltip target worksheet, not a dashboard/button CSV.",
+          "path": "outputs/cloud-replica-pub-list-radius250.csv",
+          "sha256": "92ba7d08dcd09fdd72e44d77030ff42a57855681a233892c2ff55804261d6676",
+          "bytes": 1125
+        },
+        {
+          "role": "replica",
+          "view": "Map_Jedi",
+          "view_id": "fc0aeb46-c248-4f65-97a4-b54f57ee760e",
+          "scope": "Every pub geometry identity and distance to the selected hotel; excludes null pub marks.",
+          "path": "outputs/cloud-replica-map-radius250.csv",
+          "sha256": "5fa4a75e9d33aed448a2850c9a6142ecafca9916e5ec265dfadeae7ff3411ff8",
+          "bytes": 3282
+        },
+        {
+          "role": "replica",
+          "view": "Hotel Chart",
+          "view_id": "49c76627-b475-4141-ba42-342385ed233f",
+          "scope": "All hotel names and three sortable ratings measures.",
+          "path": "outputs/cloud-replica-hotels-radius250.csv",
+          "sha256": "56d271dfd436ce047b9ef876f043f5a62a230a4921aefcd180fed0d09bb2fa9c",
+          "bytes": 578
+        }
+      ]
+    },
+    {
+      "name": "marriott-rating",
+      "parameters": {
+        "Selected Hotel": "London Marriott Hotel Park Lane",
+        "Selected Sort Measure": " Yelp Rating ",
+        "Buffer Radius": "500"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "e83a4dbf-0d5e-4f49-9c10-e4118d20e690",
+          "name": "2020_03_04_WW10_London_Pubs_Buffer_Jedi",
+          "path": "outputs/cloud-author-marriott-rating.png",
+          "sha256": "b25b7ae0b4118f36e3a29f3e05175780d99d01a048f86974f3bb08b937f74e52",
+          "size": [
+            1400,
+            1400
+          ]
+        },
+        "replica": {
+          "id": "f9cb196d-ba9b-4bf3-bc69-aadf99d83190",
+          "name": "2020_03_04_WW10_London_Pubs_Buffer_Jedi",
+          "path": "outputs/cloud-replica-marriott-rating.png",
+          "sha256": "fd1b3361bdb0c079cebd37fd30472daf81829225c27a654d1dcc065d76f1766d",
+          "size": [
+            1400,
+            1400
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "VIT:Pub List",
+          "view_id": "28e102cd-f723-4e96-8247-dc8f091b38e5",
+          "scope": "Every joined hotel/pub pair and distance; this export is the tooltip target worksheet, not a dashboard/button CSV.",
+          "path": "outputs/cloud-author-pub-list-marriott-rating.csv",
+          "sha256": "3d1e383083b469f9f98a23fac17e57bebbc4731f1e6c7431e2630ce2fa0101f6",
+          "bytes": 876
+        },
+        {
+          "role": "author",
+          "view": "Map_Jedi",
+          "view_id": "40c049b1-3339-4373-a3f1-b6fe830afe12",
+          "scope": "Every pub geometry identity and distance to the selected hotel; excludes null pub marks.",
+          "path": "outputs/cloud-author-map-marriott-rating.csv",
+          "sha256": "0c633456144487348bba7a519a9902bced3f1c5652f9b48211f421a1bb4b0378",
+          "bytes": 2848
+        },
+        {
+          "role": "author",
+          "view": "Hotel Chart",
+          "view_id": "35a08218-14c4-4532-a9c8-afc13249cb59",
+          "scope": "All hotel names and three sortable ratings measures.",
+          "path": "outputs/cloud-author-hotels-marriott-rating.csv",
+          "sha256": "9b229747018f8a50c81c19347007c6e7c85d725d266b24a7f67710580b728cb9",
+          "bytes": 532
+        },
+        {
+          "role": "replica",
+          "view": "VIT:Pub List",
+          "view_id": "1b9bedba-4d88-43e9-aae2-079c38627895",
+          "scope": "Every joined hotel/pub pair and distance; this export is the tooltip target worksheet, not a dashboard/button CSV.",
+          "path": "outputs/cloud-replica-pub-list-marriott-rating.csv",
+          "sha256": "92ba7d08dcd09fdd72e44d77030ff42a57855681a233892c2ff55804261d6676",
+          "bytes": 1125
+        },
+        {
+          "role": "replica",
+          "view": "Map_Jedi",
+          "view_id": "fc0aeb46-c248-4f65-97a4-b54f57ee760e",
+          "scope": "Every pub geometry identity and distance to the selected hotel; excludes null pub marks.",
+          "path": "outputs/cloud-replica-map-marriott-rating.csv",
+          "sha256": "04fe5f4e0ac689c9b9decbea465988ab261aabe0e5212a798b2e6d7344392968",
+          "bytes": 3282
+        },
+        {
+          "role": "replica",
+          "view": "Hotel Chart",
+          "view_id": "49c76627-b475-4141-ba42-342385ed233f",
+          "scope": "All hotel names and three sortable ratings measures.",
+          "path": "outputs/cloud-replica-hotels-marriott-rating.csv",
+          "sha256": "84b0aca0e6f196cf6dbc3957f1ffae2633212345a0bcc5f0a6968bb15afe5d6e",
+          "bytes": 582
+        }
+      ]
+    },
+    {
+      "name": "ratings-count",
+      "parameters": {
+        "Selected Sort Measure": " Number of Ratings "
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "e83a4dbf-0d5e-4f49-9c10-e4118d20e690",
+          "name": "2020_03_04_WW10_London_Pubs_Buffer_Jedi",
+          "path": "outputs/cloud-author-ratings-count.png",
+          "sha256": "eccb1cfe7b75455e459261e44d571710ad010f7b5fd8c71a0a18ae36b0bfc5f1",
+          "size": [
+            1400,
+            1400
+          ]
+        },
+        "replica": {
+          "id": "f9cb196d-ba9b-4bf3-bc69-aadf99d83190",
+          "name": "2020_03_04_WW10_London_Pubs_Buffer_Jedi",
+          "path": "outputs/cloud-replica-ratings-count.png",
+          "sha256": "82c1294f6d2c606054928502964fee79ccde9f6fc0f1910a61306d6f35c54b03",
+          "size": [
+            1400,
+            1400
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "VIT:Pub List",
+          "view_id": "28e102cd-f723-4e96-8247-dc8f091b38e5",
+          "scope": "Every joined hotel/pub pair and distance; this export is the tooltip target worksheet, not a dashboard/button CSV.",
+          "path": "outputs/cloud-author-pub-list-ratings-count.csv",
+          "sha256": "3d1e383083b469f9f98a23fac17e57bebbc4731f1e6c7431e2630ce2fa0101f6",
+          "bytes": 876
+        },
+        {
+          "role": "author",
+          "view": "Map_Jedi",
+          "view_id": "40c049b1-3339-4373-a3f1-b6fe830afe12",
+          "scope": "Every pub geometry identity and distance to the selected hotel; excludes null pub marks.",
+          "path": "outputs/cloud-author-map-ratings-count.csv",
+          "sha256": "e1512119a7e7cdddfed879c2f88d34c91b5de651ae02ebfb46a76d654f91ae4a",
+          "bytes": 2848
+        },
+        {
+          "role": "author",
+          "view": "Hotel Chart",
+          "view_id": "35a08218-14c4-4532-a9c8-afc13249cb59",
+          "scope": "All hotel names and three sortable ratings measures.",
+          "path": "outputs/cloud-author-hotels-ratings-count.csv",
+          "sha256": "a0f70d26e5330b09d9c4a2d013cb23aa2f48950539e2b07ab7b41a9c4d023580",
+          "bytes": 531
+        },
+        {
+          "role": "replica",
+          "view": "VIT:Pub List",
+          "view_id": "1b9bedba-4d88-43e9-aae2-079c38627895",
+          "scope": "Every joined hotel/pub pair and distance; this export is the tooltip target worksheet, not a dashboard/button CSV.",
+          "path": "outputs/cloud-replica-pub-list-ratings-count.csv",
+          "sha256": "92ba7d08dcd09fdd72e44d77030ff42a57855681a233892c2ff55804261d6676",
+          "bytes": 1125
+        },
+        {
+          "role": "replica",
+          "view": "Map_Jedi",
+          "view_id": "fc0aeb46-c248-4f65-97a4-b54f57ee760e",
+          "scope": "Every pub geometry identity and distance to the selected hotel; excludes null pub marks.",
+          "path": "outputs/cloud-replica-map-ratings-count.csv",
+          "sha256": "5fa4a75e9d33aed448a2850c9a6142ecafca9916e5ec265dfadeae7ff3411ff8",
+          "bytes": 3282
+        },
+        {
+          "role": "replica",
+          "view": "Hotel Chart",
+          "view_id": "49c76627-b475-4141-ba42-342385ed233f",
+          "scope": "All hotel names and three sortable ratings measures.",
+          "path": "outputs/cloud-replica-hotels-ratings-count.csv",
+          "sha256": "29c6462f34e0cc4e699eb9c48bca8ebed45e24bab1120a1373f0565150d0737e",
+          "bytes": 581
+        }
+      ]
+    }
+  ],
+  "status": "verified",
+  "independent_review": {
+    "visual_status": "acceptable_delta",
+    "visual_evidence": "evidence/visual-review.md",
+    "functional_evidence": "evidence/functional-verification.json",
+    "scope": "Declared REST worksheet exports and artifact contracts; no browser events executed."
+  }
+}

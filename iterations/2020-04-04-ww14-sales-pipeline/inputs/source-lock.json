@@ -1,0 +1,17 @@
+{
+  "source_workbook_used_by_builder": false,
+  "download_url": "https://public.tableau.com/workbooks/2020_04_01_WW14_Sales_Pipeline_Funnel.twb",
+  "locked_original_sha256": "0020774127ddedc203d10469c9b6c22ad0f1bd7825686e727846d90e9c2609ed",
+  "download_sha256": "0020774127ddedc203d10469c9b6c22ad0f1bd7825686e727846d90e9c2609ed",
+  "exact_locked_original": true,
+  "article_url": "https://donnacoles.home.blog/2020/04/04/how-does-the-sales-pipeline-look/",
+  "article_sha256": "fa9397f2117451e4f157741951926d14f20ae953995974cf21a6e3c96b4a6ad5",
+  "extracted_data": [
+    {
+      "file": "inputs/2020_04_01_WW14_sales_funnel_data.hyper",
+      "archive_member": "Data/Datasources/2020_04_01_WW14_sales_funnel_data.hyper",
+      "bytes": 131072,
+      "sha256": "23d062bb66e60ea0dadb28773aa1f446fddf4149c89df4854c33125eabc5c3cd"
+    }
+  ]
+}

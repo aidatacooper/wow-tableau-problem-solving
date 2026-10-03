@@ -1,0 +1,46 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "file": "outputs/cloud-author-report.csv",
+      "patient_rows": 672,
+      "status": "pass"
+    },
+    {
+      "file": "outputs/cloud-replica-report.csv",
+      "patient_rows": 672,
+      "status": "pass"
+    },
+    {
+      "file": "outputs/cloud-author-report-all.csv",
+      "patient_rows": 59272,
+      "status": "pass"
+    },
+    {
+      "file": "outputs/cloud-replica-report-all.csv",
+      "patient_rows": 59272,
+      "status": "pass"
+    },
+    {
+      "file": "outputs/cloud-author-report-flu.csv",
+      "patient_rows": 56683,
+      "status": "pass"
+    },
+    {
+      "file": "outputs/cloud-replica-report-flu.csv",
+      "patient_rows": 56683,
+      "status": "pass"
+    },
+    {
+      "file": "outputs/cloud-author-report-physician-age.csv",
+      "patient_rows": 26,
+      "status": "pass"
+    },
+    {
+      "file": "outputs/cloud-replica-report-physician-age.csv",
+      "patient_rows": 26,
+      "status": "pass"
+    }
+  ],
+  "scope": "Complete patient report rows in each exported state, including entire comma-separated list."
+}

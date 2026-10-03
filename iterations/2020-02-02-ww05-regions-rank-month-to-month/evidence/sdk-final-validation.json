@@ -1,0 +1,12 @@
+{
+  "sdk_commit": "7096bf154c4505839ae0cafd1430992c6afc6aec",
+  "sdk_version": "0.27.1",
+  "sdk_tests": {
+    "passed": 543,
+    "skipped": 25
+  },
+  "case_shared_tests": 55,
+  "sdk_ci": "https://github.com/aidatacooper/cwtwb/actions/runs/37101405731",
+  "environment": "Python 3.11; pinned Git SDK installation; empty public API build; no author-template dependency.",
+  "source": "SDK output/pytest-shape-native-final.log; synthetic regression tests."
+}

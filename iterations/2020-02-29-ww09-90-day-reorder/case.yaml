@@ -1,0 +1,106 @@
+schema_version: 1.1.0
+case_id: wow-2020-ww09-90-day-reorder
+iteration_id: 2020-02-29-ww09-90-day-reorder
+post: https://donnacoles.home.blog/2020/02/29/what-is-the-90-day-reorder-rate/
+legacy_case_ids: {}
+article_date: '2020-02-29'
+challenge_year: 2020
+challenge_week: 9
+challenge_date: '2020-02-25'
+date_evidence:
+  article_date: Indexed publication date and article URL
+  challenge: 'Week 9: What is the 90 day reorder rate?'
+  challenge_date: Official WordPress post 3497 date 2020-02-25T15:13:11; https://www.workout-wednesday.com/week-9-what-is-the-90-day-reorder-rate/
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/week-9-what-is-the-90-day-reorder-rate/
+    wordpress_post_id: 3497
+  article:
+    url: https://donnacoles.home.blog/2020/02/29/what-is-the-90-day-reorder-rate/
+    path: null
+    sha256: aaaa78dc18d81b4924b7f0f90c54d21b8ef2e281b7db60c89ba41bc4d20db71c
+  workbook:
+    url: https://public.tableau.com/views/2020_02_26_WW09_90_Day_Reorder_Rate/2020_02_26_WW09_90_Day_Reorder_Rate
+    filename: 2020_02_26_WW09_90_Day_Reorder_Rate.twbx
+    path: null
+    sha256: c19f69de71f4deb79ce380868d466420323a08bc40d99a22fb0a29633579e20a
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- evidence/article-line-method.json
+- evidence/cloud-data-comparison.json
+- evidence/cloud-verification.json
+- evidence/export-provenance.json
+- evidence/functional-verification.json
+- evidence/sdk-final-validation.json
+- evidence/visual-review.md
+- inputs/source-lock.json
+notes:
+- Empty workbook, public SDK API construction.
+- Acceptance uses Cloud REST data/images and artifact contracts; no browser events
+  executed.
+cwtwb:
+  tested_version: 0.27.1
+  tested_commit: 7096bf154c4505839ae0cafd1430992c6afc6aec
+  runs:
+  - version: 0.27.1
+    commit: 7096bf154c4505839ae0cafd1430992c6afc6aec
+    result: pass
+    evidence: evidence/sdk-final-validation.json
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: pass
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/Orders (Sample - Superstore).hyper
+acceptance:
+- id: blank-sdk-build
+  description: 'blank sdk build: check native contracts and independent complete data
+    oracle.'
+  mode: automated
+- id: locked-superstore-orders
+  description: 'locked superstore orders: check native contracts and independent complete
+    data oracle.'
+  mode: automated
+- id: ordered-native-reorders
+  description: 'ordered native reorders: check native contracts and independent complete
+    data oracle.'
+  mode: automated
+- id: first-order-exclusion
+  description: 'first order exclusion: check native contracts and independent complete
+    data oracle.'
+  mode: automated
+- id: native-customer-timeline
+  description: 'native customer timeline: check native contracts and independent complete
+    data oracle.'
+  mode: automated
+- id: global-reorder-kpis
+  description: 'global reorder kpis: check native contracts and independent complete
+    data oracle.'
+  mode: automated
+- id: independent-reorder-oracle
+  description: 'independent reorder oracle: check native contracts and independent
+    complete data oracle.'
+  mode: automated
+- id: cloud-rest-order-matrices
+  description: 'cloud rest order matrices: check native contracts and independent
+    complete data oracle.'
+  mode: automated
+- id: cloud-visual-review
+  description: 'cloud visual review: check native contracts and independent complete
+    data oracle.'
+  mode: manual
+  evidence: evidence/visual-review.md
+remaining_work: []
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []
+acceptance_scope: cloud_rest_and_artifact_contracts
+browser_interaction_executed: false

@@ -1,0 +1,8 @@
+{
+  "original_sha256": "8b3cb0a10e20b08fc9acea3b8792cd7542da5e8131f019024c8430c07ed53854",
+  "comparison_sha256": "423549213efcc9d681e84c4bd54a23e5f4630ece4ce835ea11852253a41df331",
+  "modifications": [
+    "Remove hidden flags only from worksheet windows for complete REST CSV export."
+  ],
+  "builder_reads_author": false
+}

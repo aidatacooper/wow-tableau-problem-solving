@@ -1,0 +1,12 @@
+{
+  "original_sha256": "dd9b84edaaaa2821a02fc33fe19207e157d082e12f04695c3704e9544cffbb0d",
+  "comparison_sha256": "8b24969162e99b77a4c624483ad6b8a511a723b59ab5669b09f2ea497f53ee4f",
+  "transformation": "Only remove hidden=true from author worksheet window metadata to expose complete worksheet REST CSV. Calculations, dashboard layout, data and actions retained.",
+  "worksheets_exposed": [
+    "Orders Rank",
+    "Qty Rank",
+    "Sales Rank",
+    "Title"
+  ],
+  "comparison_used_by_replica_builder": false
+}

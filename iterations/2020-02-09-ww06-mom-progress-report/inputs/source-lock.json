@@ -1,0 +1,21 @@
+{
+  "original_workbook_sha256": "ab19e501479dac7bda524a6d56e9345b2aab002bfeab8c19d66ea43508644a1b",
+  "article_sha256": "be5de1be1ab977f8960a0100ea5681b452a6618de5ca9eda1b7e3ce472ddf357",
+  "data_files": {
+    "inputs/Orders (Sample - Superstore).hyper": "3996cbe0924b326b08b731c8835222a5784abddd62cf30dacab247614b4ab20a"
+  },
+  "source_workbook_used_by_builder": false,
+  "download_url": "https://public.tableau.com/workbooks/2020_02_05_WW06_Month_By_Month_Progress.twb",
+  "locked_original_sha256": "ab19e501479dac7bda524a6d56e9345b2aab002bfeab8c19d66ea43508644a1b",
+  "download_sha256": "ab19e501479dac7bda524a6d56e9345b2aab002bfeab8c19d66ea43508644a1b",
+  "exact_locked_original": true,
+  "article_url": "https://donnacoles.home.blog/2020/02/09/can-you-build-a-mom-progress-report/",
+  "extracted_data": [
+    {
+      "file": "inputs/Orders (Sample - Superstore).hyper",
+      "archive_member": "Data/Datasources/Orders (Sample - Superstore).hyper",
+      "bytes": 983040,
+      "sha256": "3996cbe0924b326b08b731c8835222a5784abddd62cf30dacab247614b4ab20a"
+    }
+  ]
+}

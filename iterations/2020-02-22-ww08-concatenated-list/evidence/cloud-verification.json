@@ -1,0 +1,252 @@
+{
+  "case_id": "wow-2020-ww08-concatenated-list",
+  "captured_at": "2026-10-03T05:45:16.992971+00:00",
+  "source_hashes": {
+    "author": "9a68d51a67683012b8c1843ffa53de562641341b8a2e3fb0d808c39cf951b86c",
+    "replica": "f4e4acd8b4c0fcd9d0812c2a20aa5b460605e73457a02125a5942698a5ac8ba9"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "f68ee45d-55c0-4441-9838-1bf25d0660c3",
+      "name": "cwtwb-review-wow-2020-ww08-concatenated-list-author-9a68d51a6768",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2927966",
+      "views": [
+        {
+          "name": "CHK:Data",
+          "id": "bd50020f-6ebe-4433-8c14-8c716e0db85f"
+        },
+        {
+          "name": "2020_02_19_WW08_Concat_List_of_Values",
+          "id": "c32bf0ac-158f-4ac3-aad0-c548463f33e9"
+        },
+        {
+          "name": "Report",
+          "id": "5c461695-af96-4132-8412-605006552bdd"
+        }
+      ]
+    },
+    "replica": {
+      "id": "038eb2da-5db4-4aa2-9af1-7f9a5e60c96f",
+      "name": "cwtwb-review-wow-2020-ww08-concatenated-list-replica-f4e4acd8b4c0",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2928112",
+      "views": [
+        {
+          "name": "Report",
+          "id": "4d4ed8ee-2205-4a1f-92e5-358ae6f9c1b3"
+        },
+        {
+          "name": "2020_02_19_WW08_Concat_List_of_Values",
+          "id": "85a9236d-97e6-46ba-b8a4-aa713380cb74"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "c32bf0ac-158f-4ac3-aad0-c548463f33e9",
+          "name": "2020_02_19_WW08_Concat_List_of_Values",
+          "path": "outputs/cloud-author.png",
+          "sha256": "73a6d46d93a15f7a36ebf1eb217369f133611cefaac570067ed32e9e7278f217",
+          "size": [
+            2200,
+            2000
+          ]
+        },
+        "replica": {
+          "id": "85a9236d-97e6-46ba-b8a4-aa713380cb74",
+          "name": "2020_02_19_WW08_Concat_List_of_Values",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "93272c525afc690310574c40ff1e902fb6811150b04ce59539fc6fc96d8090e3",
+          "size": [
+            2200,
+            2000
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Report",
+          "view_id": "5c461695-af96-4132-8412-605006552bdd",
+          "scope": "Complete patient profiles and entire concatenated health-check lists after active controls; not dashboard summary-only CSV.",
+          "path": "outputs/cloud-author-report.csv",
+          "sha256": "1f4bbede9355bdc45a099af351354a2e90280a6f4b8eb7952d3a95bfdae21283",
+          "bytes": 141126
+        },
+        {
+          "role": "replica",
+          "view": "Report",
+          "view_id": "4d4ed8ee-2205-4a1f-92e5-358ae6f9c1b3",
+          "scope": "Complete patient profiles and entire concatenated health-check lists after active controls; not dashboard summary-only CSV.",
+          "path": "outputs/cloud-replica-report.csv",
+          "sha256": "7b56ae0e5da96eebb2615e3ef4be44d377d7471d7a9f43fb110e5c0b07686846",
+          "bytes": 141124
+        }
+      ]
+    },
+    {
+      "name": "all",
+      "parameters": {
+        "Health Check Name Parameter": "All"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "c32bf0ac-158f-4ac3-aad0-c548463f33e9",
+          "name": "2020_02_19_WW08_Concat_List_of_Values",
+          "path": "outputs/cloud-author-all.png",
+          "sha256": "41aeb0f46936e0189f226575b552eaabe919c52d90eb9203ddb5f8d672b4d703",
+          "size": [
+            2200,
+            2000
+          ]
+        },
+        "replica": {
+          "id": "85a9236d-97e6-46ba-b8a4-aa713380cb74",
+          "name": "2020_02_19_WW08_Concat_List_of_Values",
+          "path": "outputs/cloud-replica-all.png",
+          "sha256": "19711e352956fa37cef0827dd4cc71cd9a3c8f04066357c5c2259a212c70bb63",
+          "size": [
+            2200,
+            2000
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Report",
+          "view_id": "5c461695-af96-4132-8412-605006552bdd",
+          "scope": "Complete patient profiles and entire concatenated health-check lists after active controls; not dashboard summary-only CSV.",
+          "path": "outputs/cloud-author-report-all.csv",
+          "sha256": "8547d83b84aee56bd8b61bdf8881d2330104585a01f6d6cf963a66ea7cf74cdd",
+          "bytes": 9790957
+        },
+        {
+          "role": "replica",
+          "view": "Report",
+          "view_id": "4d4ed8ee-2205-4a1f-92e5-358ae6f9c1b3",
+          "scope": "Complete patient profiles and entire concatenated health-check lists after active controls; not dashboard summary-only CSV.",
+          "path": "outputs/cloud-replica-report-all.csv",
+          "sha256": "e9f5436c918433365358f5e0b02a466b80ace233093b58530af9f2909c65b93d",
+          "bytes": 9790955
+        }
+      ]
+    },
+    {
+      "name": "flu",
+      "parameters": {
+        "Health Check Name Parameter": "Annual Flu Vaccine"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "c32bf0ac-158f-4ac3-aad0-c548463f33e9",
+          "name": "2020_02_19_WW08_Concat_List_of_Values",
+          "path": "outputs/cloud-author-flu.png",
+          "sha256": "8f5f9ac001fe957d3ba7999bd480509b2c91aa34ca5122596e12e74311b2355f",
+          "size": [
+            2200,
+            2000
+          ]
+        },
+        "replica": {
+          "id": "85a9236d-97e6-46ba-b8a4-aa713380cb74",
+          "name": "2020_02_19_WW08_Concat_List_of_Values",
+          "path": "outputs/cloud-replica-flu.png",
+          "sha256": "f5896d296879f31f048de37d16915f59b356f6ee424e8cf0ff710b7575f6ddca",
+          "size": [
+            2200,
+            2000
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Report",
+          "view_id": "5c461695-af96-4132-8412-605006552bdd",
+          "scope": "Complete patient profiles and entire concatenated health-check lists after active controls; not dashboard summary-only CSV.",
+          "path": "outputs/cloud-author-report-flu.csv",
+          "sha256": "dffa7dc5d30fbd7c575f891d23e5389c531ec46649afd80acb9fa0d855fb0107",
+          "bytes": 9358202
+        },
+        {
+          "role": "replica",
+          "view": "Report",
+          "view_id": "4d4ed8ee-2205-4a1f-92e5-358ae6f9c1b3",
+          "scope": "Complete patient profiles and entire concatenated health-check lists after active controls; not dashboard summary-only CSV.",
+          "path": "outputs/cloud-replica-report-flu.csv",
+          "sha256": "195c1556093b7f4d60298517d2f1ff8a42546ed931ed94aa9a1516fa6e5f1c78",
+          "bytes": 9358200
+        }
+      ]
+    },
+    {
+      "name": "physician-age",
+      "parameters": {
+        "Health Check Name Parameter": "All"
+      },
+      "filters": {
+        "Physician": "Phil Flood",
+        "Age Category": "65-69"
+      },
+      "views": {
+        "author": {
+          "id": "c32bf0ac-158f-4ac3-aad0-c548463f33e9",
+          "name": "2020_02_19_WW08_Concat_List_of_Values",
+          "path": "outputs/cloud-author-physician-age.png",
+          "sha256": "92444fef12f3fbcbe6e83641cc8c0c1178a30362fce7bc351db61b52f2a1ccb1",
+          "size": [
+            2200,
+            2000
+          ]
+        },
+        "replica": {
+          "id": "85a9236d-97e6-46ba-b8a4-aa713380cb74",
+          "name": "2020_02_19_WW08_Concat_List_of_Values",
+          "path": "outputs/cloud-replica-physician-age.png",
+          "sha256": "09d4bc4ec7c0cd1958c7c8ec566ef1a7a7add5cad219c772aa534e110cb8eaf5",
+          "size": [
+            2200,
+            2000
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Report",
+          "view_id": "5c461695-af96-4132-8412-605006552bdd",
+          "scope": "Complete patient profiles and entire concatenated health-check lists after active controls; not dashboard summary-only CSV.",
+          "path": "outputs/cloud-author-report-physician-age.csv",
+          "sha256": "8091ccbce7ff474e981957cd8f2cb5af78546cd169090a933196f7679fd1ff30",
+          "bytes": 4788
+        },
+        {
+          "role": "replica",
+          "view": "Report",
+          "view_id": "4d4ed8ee-2205-4a1f-92e5-358ae6f9c1b3",
+          "scope": "Complete patient profiles and entire concatenated health-check lists after active controls; not dashboard summary-only CSV.",
+          "path": "outputs/cloud-replica-report-physician-age.csv",
+          "sha256": "b554d0bacf789865135cfd47fc17853cae22a8993fb14f3d49c47316289e8949",
+          "bytes": 4786
+        }
+      ]
+    }
+  ],
+  "status": "verified",
+  "independent_review": {
+    "visual_status": "acceptable_delta",
+    "visual_evidence": "evidence/visual-review.md",
+    "functional_evidence": "evidence/functional-verification.json",
+    "scope": "Declared REST worksheet exports and artifact contracts; no browser events executed."
+  }
+}

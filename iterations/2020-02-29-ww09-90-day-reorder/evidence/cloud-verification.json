@@ -1,0 +1,195 @@
+{
+  "case_id": "wow-2020-ww09-90-day-reorder",
+  "captured_at": "2026-10-03T06:09:19.596197+00:00",
+  "source_hashes": {
+    "author": "db1cca219e350749a737faa45e085a3da2a05a15050f6c5c147c52bac004f923",
+    "replica": "b53b85b5acc0f3aa5a79aa4d83a5dd19c2d968b7e56246abae84404007396df8"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "cb386c6f-95e0-4211-8f81-872ab168e12b",
+      "name": "cwtwb-review-wow-2020-ww09-90-day-reorder-author-db1cca219e35",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2928034",
+      "views": [
+        {
+          "name": "2020_02_26_WW09_90_Day_Reorder_Rate",
+          "id": "03f8da9b-486b-41ca-bfc4-8df3909e0553"
+        },
+        {
+          "name": "CHK:Data",
+          "id": "d580d57c-efe7-495c-bc98-05dc67f3a4bf"
+        },
+        {
+          "name": "BAN",
+          "id": "cf124870-821f-48e4-9604-f4deaa5ea5cf"
+        },
+        {
+          "name": "Table",
+          "id": "521328bc-633b-4d19-826b-5eaeeb8e2bdf"
+        }
+      ]
+    },
+    "replica": {
+      "id": "3b5c9be0-827e-4b84-a668-48b37f48030c",
+      "name": "cwtwb-review-wow-2020-ww09-90-day-reorder-replica-b53b85b5acc0",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2928236",
+      "views": [
+        {
+          "name": "Table",
+          "id": "ec68c90a-c495-4736-a5eb-3d003dec45bd"
+        },
+        {
+          "name": "BAN",
+          "id": "6649cf2a-5571-496a-b705-be33b024de88"
+        },
+        {
+          "name": "2020_02_26_WW09_90_Day_Reorder_Rate",
+          "id": "9f59f07b-b9a0-4e7a-b95f-f9f58079cfb0"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "03f8da9b-486b-41ca-bfc4-8df3909e0553",
+          "name": "2020_02_26_WW09_90_Day_Reorder_Rate",
+          "path": "outputs/cloud-author.png",
+          "sha256": "debed9000072b5cc1ab690852528e9bad0135161794680d539ec3003daee7d03",
+          "size": [
+            1200,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "9f59f07b-b9a0-4e7a-b95f-f9f58079cfb0",
+          "name": "2020_02_26_WW09_90_Day_Reorder_Rate",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "e430fd83fea443d5598aef289457b12a01e838ca53b46204f8b15398ae1e6737",
+          "size": [
+            1200,
+            1600
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Table",
+          "view_id": "521328bc-633b-4d19-826b-5eaeeb8e2bdf",
+          "scope": "Complete order-event customer timeline, customer rate/count and previous date.",
+          "path": "outputs/cloud-author-table.csv",
+          "sha256": "3891e172a823cff155c4fd203034fbeb69697c2f45bd729647e7f25265dd88b5",
+          "bytes": 8920274
+        },
+        {
+          "role": "author",
+          "view": "BAN",
+          "view_id": "cf124870-821f-48e4-9604-f4deaa5ea5cf",
+          "scope": "Global reorder rate and average eligible reorders per customer.",
+          "path": "outputs/cloud-author-ban.csv",
+          "sha256": "36e8857c1e2a3c563a891966bcc481aef75e8cfd5f66f2b2d879f9a7749aed58",
+          "bytes": 208
+        },
+        {
+          "role": "replica",
+          "view": "Table",
+          "view_id": "ec68c90a-c495-4736-a5eb-3d003dec45bd",
+          "scope": "Complete order-event customer timeline, customer rate/count and previous date.",
+          "path": "outputs/cloud-replica-table.csv",
+          "sha256": "c82577587790ea927a923fd6a1855830d4a7a0107ea4cfb84d129c3b04a6491d",
+          "bytes": 851530
+        },
+        {
+          "role": "replica",
+          "view": "BAN",
+          "view_id": "6649cf2a-5571-496a-b705-be33b024de88",
+          "scope": "Global reorder rate and average eligible reorders per customer.",
+          "path": "outputs/cloud-replica-ban.csv",
+          "sha256": "4333c4909a229340c27c4b09a22fece6b2ddd752a27ac87ba6eb3fdaef1f73bc",
+          "bytes": 254
+        }
+      ]
+    },
+    {
+      "name": "noel",
+      "parameters": {},
+      "filters": {
+        "Customer Name": "Noel Staavos"
+      },
+      "views": {
+        "author": {
+          "id": "03f8da9b-486b-41ca-bfc4-8df3909e0553",
+          "name": "2020_02_26_WW09_90_Day_Reorder_Rate",
+          "path": "outputs/cloud-author-noel.png",
+          "sha256": "2a8a8d00327e1ad5aa2ffc252a9698637adc57602ad1a348fa656c7b645c973b",
+          "size": [
+            1200,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "9f59f07b-b9a0-4e7a-b95f-f9f58079cfb0",
+          "name": "2020_02_26_WW09_90_Day_Reorder_Rate",
+          "path": "outputs/cloud-replica-noel.png",
+          "sha256": "e935b37a96d9066426615766a31a34387d883a0a1a2f45379078d519e8d30ca6",
+          "size": [
+            1200,
+            1600
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Table",
+          "view_id": "521328bc-633b-4d19-826b-5eaeeb8e2bdf",
+          "scope": "Complete order-event customer timeline, customer rate/count and previous date.",
+          "path": "outputs/cloud-author-table-noel.csv",
+          "sha256": "16a0fc3525f4e98a127b8d2cd94200211fa9ea4c5c81826902844458a27fa39f",
+          "bytes": 23548
+        },
+        {
+          "role": "author",
+          "view": "BAN",
+          "view_id": "cf124870-821f-48e4-9604-f4deaa5ea5cf",
+          "scope": "Global reorder rate and average eligible reorders per customer.",
+          "path": "outputs/cloud-author-ban-noel.csv",
+          "sha256": "b0a9c39d401330ef56aeb882c068016cb1f00909a1a0f4ee44246757b4eaf0ea",
+          "bytes": 216
+        },
+        {
+          "role": "replica",
+          "view": "Table",
+          "view_id": "ec68c90a-c495-4736-a5eb-3d003dec45bd",
+          "scope": "Complete order-event customer timeline, customer rate/count and previous date.",
+          "path": "outputs/cloud-replica-table-noel.csv",
+          "sha256": "eeb5275ada6ac52c28f7aff4881e1d6df2aaf0853f94b67578c01603dc93f623",
+          "bytes": 2424
+        },
+        {
+          "role": "replica",
+          "view": "BAN",
+          "view_id": "6649cf2a-5571-496a-b705-be33b024de88",
+          "scope": "Global reorder rate and average eligible reorders per customer.",
+          "path": "outputs/cloud-replica-ban-noel.csv",
+          "sha256": "49504ce9a654937acec7f822b3da5d85eae149ba01a81ad2a02422856c6027ba",
+          "bytes": 254
+        }
+      ]
+    }
+  ],
+  "status": "verified",
+  "independent_review": {
+    "visual_status": "acceptable_delta",
+    "visual_evidence": "evidence/visual-review.md",
+    "functional_evidence": "evidence/functional-verification.json",
+    "scope": "Declared REST worksheet exports and artifact contracts; no browser events executed."
+  }
+}

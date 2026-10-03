@@ -1,0 +1,1136 @@
+{
+  "status": "pass",
+  "artifact_sha256": "70308ff09fae0b0b4449b649c274fedb5f55c5e6648eac28718463e88befdebe",
+  "source_rows": 9994,
+  "states": {
+    "default": {
+      "target": "2019-05-08",
+      "weekday": "WEDNESDAY",
+      "metrics": {
+        "Sales": [
+          {
+            "date": "2019-03-13",
+            "value": 4791.35,
+            "rank": 1,
+            "color": 1,
+            "group": "ABOVE\nAVERAGE",
+            "selected": false,
+            "average": 2043.8656666666668
+          },
+          {
+            "date": "2019-05-01",
+            "value": 4108.37,
+            "rank": 2,
+            "color": 2,
+            "group": "ABOVE\nAVERAGE",
+            "selected": false,
+            "average": 2043.8656666666668
+          },
+          {
+            "date": "2019-05-08",
+            "value": 3658.554,
+            "rank": 3,
+            "color": 2,
+            "group": "ABOVE\nAVERAGE",
+            "selected": true,
+            "average": 2043.8656666666668
+          },
+          {
+            "date": "2019-04-17",
+            "value": 3431.4590000000007,
+            "rank": 4,
+            "color": 2,
+            "group": "ABOVE\nAVERAGE",
+            "selected": false,
+            "average": 2043.8656666666668
+          },
+          {
+            "date": "2019-03-27",
+            "value": 2933.516,
+            "rank": 5,
+            "color": 2,
+            "group": "ABOVE\nAVERAGE",
+            "selected": false,
+            "average": 2043.8656666666668
+          },
+          {
+            "date": "2019-02-20",
+            "value": 1150.29,
+            "rank": 6,
+            "color": 3,
+            "group": "BELOW\nAVERAGE",
+            "selected": false,
+            "average": 2043.8656666666668
+          },
+          {
+            "date": "2019-02-13",
+            "value": 1058.43,
+            "rank": 7,
+            "color": 3,
+            "group": "BELOW\nAVERAGE",
+            "selected": false,
+            "average": 2043.8656666666668
+          },
+          {
+            "date": "2019-04-24",
+            "value": 928.5579999999999,
+            "rank": 8,
+            "color": 3,
+            "group": "BELOW\nAVERAGE",
+            "selected": false,
+            "average": 2043.8656666666668
+          },
+          {
+            "date": "2019-03-20",
+            "value": 899.568,
+            "rank": 9,
+            "color": 3,
+            "group": "BELOW\nAVERAGE",
+            "selected": false,
+            "average": 2043.8656666666668
+          },
+          {
+            "date": "2019-03-06",
+            "value": 778.236,
+            "rank": 10,
+            "color": 3,
+            "group": "BELOW\nAVERAGE",
+            "selected": false,
+            "average": 2043.8656666666668
+          },
+          {
+            "date": "2019-04-10",
+            "value": 755.529,
+            "rank": 11,
+            "color": 3,
+            "group": "BELOW\nAVERAGE",
+            "selected": false,
+            "average": 2043.8656666666668
+          },
+          {
+            "date": "2019-04-03",
+            "value": 32.528,
+            "rank": 12,
+            "color": 4,
+            "group": "BELOW\nAVERAGE",
+            "selected": false,
+            "average": 2043.8656666666668
+          }
+        ],
+        "Orders": [
+          {
+            "date": "2019-03-13",
+            "value": 8,
+            "rank": 1,
+            "color": 1,
+            "group": "ABOVE\nAVERAGE",
+            "selected": false,
+            "average": 4.5
+          },
+          {
+            "date": "2019-04-24",
+            "value": 6,
+            "rank": 2,
+            "color": 2,
+            "group": "ABOVE\nAVERAGE",
+            "selected": false,
+            "average": 4.5
+          },
+          {
+            "date": "2019-03-06",
+            "value": 5,
+            "rank": 3,
+            "color": 2,
+            "group": "ABOVE\nAVERAGE",
+            "selected": false,
+            "average": 4.5
+          },
+          {
+            "date": "2019-04-10",
+            "value": 5,
+            "rank": 4,
+            "color": 2,
+            "group": "ABOVE\nAVERAGE",
+            "selected": false,
+            "average": 4.5
+          },
+          {
+            "date": "2019-05-08",
+            "value": 5,
+            "rank": 5,
+            "color": 2,
+            "group": "ABOVE\nAVERAGE",
+            "selected": true,
+            "average": 4.5
+          },
+          {
+            "date": "2019-02-13",
+            "value": 4,
+            "rank": 6,
+            "color": 3,
+            "group": "BELOW\nAVERAGE",
+            "selected": false,
+            "average": 4.5
+          },
+          {
+            "date": "2019-02-20",
+            "value": 4,
+            "rank": 7,
+            "color": 3,
+            "group": "BELOW\nAVERAGE",
+            "selected": false,
+            "average": 4.5
+          },
+          {
+            "date": "2019-03-20",
+            "value": 4,
+            "rank": 8,
+            "color": 3,
+            "group": "BELOW\nAVERAGE",
+            "selected": false,
+            "average": 4.5
+          },
+          {
+            "date": "2019-03-27",
+            "value": 4,
+            "rank": 9,
+            "color": 3,
+            "group": "BELOW\nAVERAGE",
+            "selected": false,
+            "average": 4.5
+          },
+          {
+            "date": "2019-04-17",
+            "value": 4,
+            "rank": 10,
+            "color": 3,
+            "group": "BELOW\nAVERAGE",
+            "selected": false,
+            "average": 4.5
+          },
+          {
+            "date": "2019-05-01",
+            "value": 3,
+            "rank": 11,
+            "color": 3,
+            "group": "BELOW\nAVERAGE",
+            "selected": false,
+            "average": 4.5
+          },
+          {
+            "date": "2019-04-03",
+            "value": 2,
+            "rank": 12,
+            "color": 4,
+            "group": "BELOW\nAVERAGE",
+            "selected": false,
+            "average": 4.5
+          }
+        ],
+        "Qty": [
+          {
+            "date": "2019-03-13",
+            "value": 71,
+            "rank": 1,
+            "color": 1,
+            "group": "ABOVE\nAVERAGE",
+            "selected": false,
+            "average": 33.0
+          },
+          {
+            "date": "2019-04-17",
+            "value": 61,
+            "rank": 2,
+            "color": 2,
+            "group": "ABOVE\nAVERAGE",
+            "selected": false,
+            "average": 33.0
+          },
+          {
+            "date": "2019-03-06",
+            "value": 40,
+            "rank": 3,
+            "color": 2,
+            "group": "ABOVE\nAVERAGE",
+            "selected": false,
+            "average": 33.0
+          },
+          {
+            "date": "2019-03-27",
+            "value": 38,
+            "rank": 4,
+            "color": 2,
+            "group": "ABOVE\nAVERAGE",
+            "selected": false,
+            "average": 33.0
+          },
+          {
+            "date": "2019-02-20",
+            "value": 33,
+            "rank": 5,
+            "color": 2,
+            "group": "ABOVE\nAVERAGE",
+            "selected": false,
+            "average": 33.0
+          },
+          {
+            "date": "2019-04-10",
+            "value": 29,
+            "rank": 6,
+            "color": 3,
+            "group": "BELOW\nAVERAGE",
+            "selected": false,
+            "average": 33.0
+          },
+          {
+            "date": "2019-04-24",
+            "value": 27,
+            "rank": 7,
+            "color": 3,
+            "group": "BELOW\nAVERAGE",
+            "selected": false,
+            "average": 33.0
+          },
+          {
+            "date": "2019-02-13",
+            "value": 25,
+            "rank": 8,
+            "color": 3,
+            "group": "BELOW\nAVERAGE",
+            "selected": false,
+            "average": 33.0
+          },
+          {
+            "date": "2019-05-08",
+            "value": 23,
+            "rank": 9,
+            "color": 3,
+            "group": "BELOW\nAVERAGE",
+            "selected": true,
+            "average": 33.0
+          },
+          {
+            "date": "2019-03-20",
+            "value": 21,
+            "rank": 10,
+            "color": 3,
+            "group": "BELOW\nAVERAGE",
+            "selected": false,
+            "average": 33.0
+          },
+          {
+            "date": "2019-05-01",
+            "value": 21,
+            "rank": 11,
+            "color": 3,
+            "group": "BELOW\nAVERAGE",
+            "selected": false,
+            "average": 33.0
+          },
+          {
+            "date": "2019-04-03",
+            "value": 7,
+            "rank": 12,
+            "color": 4,
+            "group": "BELOW\nAVERAGE",
+            "selected": false,
+            "average": 33.0
+          }
+        ]
+      }
+    },
+    "monday": {
+      "target": "2019-05-06",
+      "weekday": "MONDAY",
+      "metrics": {
+        "Sales": [
+          {
+            "date": "2019-04-08",
+            "value": 6401.93,
+            "rank": 1,
+            "color": 1,
+            "group": "ABOVE\nAVERAGE",
+            "selected": false,
+            "average": 2049.863523076923
+          },
+          {
+            "date": "2019-04-01",
+            "value": 5972.9879999999985,
+            "rank": 2,
+            "color": 2,
+            "group": "ABOVE\nAVERAGE",
+            "selected": false,
+            "average": 2049.863523076923
+          },
+          {
+            "date": "2019-03-25",
+            "value": 3567.0260000000003,
+            "rank": 3,
+            "color": 2,
+            "group": "ABOVE\nAVERAGE",
+            "selected": false,
+            "average": 2049.863523076923
+          },
+          {
+            "date": "2019-05-06",
+            "value": 3183.3698,
+            "rank": 4,
+            "color": 2,
+            "group": "ABOVE\nAVERAGE",
+            "selected": true,
+            "average": 2049.863523076923
+          },
+          {
+            "date": "2019-03-11",
+            "value": 1973.708,
+            "rank": 5,
+            "color": 3,
+            "group": "BELOW\nAVERAGE",
+            "selected": false,
+            "average": 2049.863523076923
+          },
+          {
+            "date": "2019-02-11",
+            "value": 1241.5160000000003,
+            "rank": 6,
+            "color": 3,
+            "group": "BELOW\nAVERAGE",
+            "selected": false,
+            "average": 2049.863523076923
+          },
+          {
+            "date": "2019-04-29",
+            "value": 1053.26,
+            "rank": 7,
+            "color": 3,
+            "group": "BELOW\nAVERAGE",
+            "selected": false,
+            "average": 2049.863523076923
+          },
+          {
+            "date": "2019-03-18",
+            "value": 1027.758,
+            "rank": 8,
+            "color": 3,
+            "group": "BELOW\nAVERAGE",
+            "selected": false,
+            "average": 2049.863523076923
+          },
+          {
+            "date": "2019-04-22",
+            "value": 947.692,
+            "rank": 9,
+            "color": 3,
+            "group": "BELOW\nAVERAGE",
+            "selected": false,
+            "average": 2049.863523076923
+          },
+          {
+            "date": "2019-02-25",
+            "value": 430.492,
+            "rank": 10,
+            "color": 3,
+            "group": "BELOW\nAVERAGE",
+            "selected": false,
+            "average": 2049.863523076923
+          },
+          {
+            "date": "2019-04-15",
+            "value": 332.33799999999997,
+            "rank": 11,
+            "color": 3,
+            "group": "BELOW\nAVERAGE",
+            "selected": false,
+            "average": 2049.863523076923
+          },
+          {
+            "date": "2019-02-18",
+            "value": 287.326,
+            "rank": 12,
+            "color": 3,
+            "group": "BELOW\nAVERAGE",
+            "selected": false,
+            "average": 2049.863523076923
+          },
+          {
+            "date": "2019-03-04",
+            "value": 228.82200000000003,
+            "rank": 13,
+            "color": 4,
+            "group": "BELOW\nAVERAGE",
+            "selected": false,
+            "average": 2049.863523076923
+          }
+        ],
+        "Orders": [
+          {
+            "date": "2019-05-06",
+            "value": 8,
+            "rank": 1,
+            "color": 1,
+            "group": "ABOVE\nAVERAGE",
+            "selected": true,
+            "average": 4.153846153846154
+          },
+          {
+            "date": "2019-03-18",
+            "value": 6,
+            "rank": 2,
+            "color": 2,
+            "group": "ABOVE\nAVERAGE",
+            "selected": false,
+            "average": 4.153846153846154
+          },
+          {
+            "date": "2019-03-25",
+            "value": 6,
+            "rank": 3,
+            "color": 2,
+            "group": "ABOVE\nAVERAGE",
+            "selected": false,
+            "average": 4.153846153846154
+          },
+          {
+            "date": "2019-04-01",
+            "value": 6,
+            "rank": 4,
+            "color": 2,
+            "group": "ABOVE\nAVERAGE",
+            "selected": false,
+            "average": 4.153846153846154
+          },
+          {
+            "date": "2019-04-15",
+            "value": 6,
+            "rank": 5,
+            "color": 2,
+            "group": "ABOVE\nAVERAGE",
+            "selected": false,
+            "average": 4.153846153846154
+          },
+          {
+            "date": "2019-02-11",
+            "value": 4,
+            "rank": 6,
+            "color": 3,
+            "group": "BELOW\nAVERAGE",
+            "selected": false,
+            "average": 4.153846153846154
+          },
+          {
+            "date": "2019-04-08",
+            "value": 4,
+            "rank": 7,
+            "color": 3,
+            "group": "BELOW\nAVERAGE",
+            "selected": false,
+            "average": 4.153846153846154
+          },
+          {
+            "date": "2019-03-04",
+            "value": 3,
+            "rank": 8,
+            "color": 3,
+            "group": "BELOW\nAVERAGE",
+            "selected": false,
+            "average": 4.153846153846154
+          },
+          {
+            "date": "2019-03-11",
+            "value": 3,
+            "rank": 9,
+            "color": 3,
+            "group": "BELOW\nAVERAGE",
+            "selected": false,
+            "average": 4.153846153846154
+          },
+          {
+            "date": "2019-04-22",
+            "value": 3,
+            "rank": 10,
+            "color": 3,
+            "group": "BELOW\nAVERAGE",
+            "selected": false,
+            "average": 4.153846153846154
+          },
+          {
+            "date": "2019-02-25",
+            "value": 2,
+            "rank": 11,
+            "color": 3,
+            "group": "BELOW\nAVERAGE",
+            "selected": false,
+            "average": 4.153846153846154
+          },
+          {
+            "date": "2019-04-29",
+            "value": 2,
+            "rank": 12,
+            "color": 3,
+            "group": "BELOW\nAVERAGE",
+            "selected": false,
+            "average": 4.153846153846154
+          },
+          {
+            "date": "2019-02-18",
+            "value": 1,
+            "rank": 13,
+            "color": 4,
+            "group": "BELOW\nAVERAGE",
+            "selected": false,
+            "average": 4.153846153846154
+          }
+        ],
+        "Qty": [
+          {
+            "date": "2019-05-06",
+            "value": 73,
+            "rank": 1,
+            "color": 1,
+            "group": "ABOVE\nAVERAGE",
+            "selected": true,
+            "average": 27.384615384615383
+          },
+          {
+            "date": "2019-04-01",
+            "value": 60,
+            "rank": 2,
+            "color": 2,
+            "group": "ABOVE\nAVERAGE",
+            "selected": false,
+            "average": 27.384615384615383
+          },
+          {
+            "date": "2019-03-25",
+            "value": 46,
+            "rank": 3,
+            "color": 2,
+            "group": "ABOVE\nAVERAGE",
+            "selected": false,
+            "average": 27.384615384615383
+          },
+          {
+            "date": "2019-03-18",
+            "value": 43,
+            "rank": 4,
+            "color": 2,
+            "group": "ABOVE\nAVERAGE",
+            "selected": false,
+            "average": 27.384615384615383
+          },
+          {
+            "date": "2019-04-08",
+            "value": 32,
+            "rank": 5,
+            "color": 2,
+            "group": "ABOVE\nAVERAGE",
+            "selected": false,
+            "average": 27.384615384615383
+          },
+          {
+            "date": "2019-03-11",
+            "value": 19,
+            "rank": 6,
+            "color": 3,
+            "group": "BELOW\nAVERAGE",
+            "selected": false,
+            "average": 27.384615384615383
+          },
+          {
+            "date": "2019-04-15",
+            "value": 19,
+            "rank": 7,
+            "color": 3,
+            "group": "BELOW\nAVERAGE",
+            "selected": false,
+            "average": 27.384615384615383
+          },
+          {
+            "date": "2019-02-11",
+            "value": 18,
+            "rank": 8,
+            "color": 3,
+            "group": "BELOW\nAVERAGE",
+            "selected": false,
+            "average": 27.384615384615383
+          },
+          {
+            "date": "2019-03-04",
+            "value": 14,
+            "rank": 9,
+            "color": 3,
+            "group": "BELOW\nAVERAGE",
+            "selected": false,
+            "average": 27.384615384615383
+          },
+          {
+            "date": "2019-02-25",
+            "value": 10,
+            "rank": 10,
+            "color": 3,
+            "group": "BELOW\nAVERAGE",
+            "selected": false,
+            "average": 27.384615384615383
+          },
+          {
+            "date": "2019-02-18",
+            "value": 8,
+            "rank": 11,
+            "color": 3,
+            "group": "BELOW\nAVERAGE",
+            "selected": false,
+            "average": 27.384615384615383
+          },
+          {
+            "date": "2019-04-22",
+            "value": 8,
+            "rank": 12,
+            "color": 3,
+            "group": "BELOW\nAVERAGE",
+            "selected": false,
+            "average": 27.384615384615383
+          },
+          {
+            "date": "2019-04-29",
+            "value": 6,
+            "rank": 13,
+            "color": 4,
+            "group": "BELOW\nAVERAGE",
+            "selected": false,
+            "average": 27.384615384615383
+          }
+        ]
+      }
+    },
+    "year-end": {
+      "target": "2019-12-31",
+      "weekday": "TUESDAY",
+      "metrics": {
+        "Sales": [
+          {
+            "date": "2019-10-22",
+            "value": 15158.877,
+            "rank": 1,
+            "color": 1,
+            "group": "ABOVE\nAVERAGE",
+            "selected": false,
+            "average": 4006.853333333333
+          },
+          {
+            "date": "2019-11-19",
+            "value": 7397.271999999999,
+            "rank": 2,
+            "color": 2,
+            "group": "ABOVE\nAVERAGE",
+            "selected": false,
+            "average": 4006.853333333333
+          },
+          {
+            "date": "2019-12-24",
+            "value": 6233.054,
+            "rank": 3,
+            "color": 2,
+            "group": "ABOVE\nAVERAGE",
+            "selected": false,
+            "average": 4006.853333333333
+          },
+          {
+            "date": "2019-11-26",
+            "value": 5048.1720000000005,
+            "rank": 4,
+            "color": 2,
+            "group": "ABOVE\nAVERAGE",
+            "selected": false,
+            "average": 4006.853333333333
+          },
+          {
+            "date": "2019-12-10",
+            "value": 3873.5590000000007,
+            "rank": 5,
+            "color": 3,
+            "group": "BELOW\nAVERAGE",
+            "selected": false,
+            "average": 4006.853333333333
+          },
+          {
+            "date": "2019-11-12",
+            "value": 2911.3860000000004,
+            "rank": 6,
+            "color": 3,
+            "group": "BELOW\nAVERAGE",
+            "selected": false,
+            "average": 4006.853333333333
+          },
+          {
+            "date": "2019-11-05",
+            "value": 2355.0640000000003,
+            "rank": 7,
+            "color": 3,
+            "group": "BELOW\nAVERAGE",
+            "selected": false,
+            "average": 4006.853333333333
+          },
+          {
+            "date": "2019-12-17",
+            "value": 2027.758,
+            "rank": 8,
+            "color": 3,
+            "group": "BELOW\nAVERAGE",
+            "selected": false,
+            "average": 4006.853333333333
+          },
+          {
+            "date": "2019-12-03",
+            "value": 1403.842,
+            "rank": 9,
+            "color": 3,
+            "group": "BELOW\nAVERAGE",
+            "selected": false,
+            "average": 4006.853333333333
+          },
+          {
+            "date": "2019-10-15",
+            "value": 1017.9399999999999,
+            "rank": 10,
+            "color": 3,
+            "group": "BELOW\nAVERAGE",
+            "selected": false,
+            "average": 4006.853333333333
+          },
+          {
+            "date": "2019-10-08",
+            "value": 608.356,
+            "rank": 11,
+            "color": 3,
+            "group": "BELOW\nAVERAGE",
+            "selected": false,
+            "average": 4006.853333333333
+          },
+          {
+            "date": "2019-10-29",
+            "value": 46.96,
+            "rank": 12,
+            "color": 4,
+            "group": "BELOW\nAVERAGE",
+            "selected": false,
+            "average": 4006.853333333333
+          }
+        ],
+        "Orders": [
+          {
+            "date": "2019-11-19",
+            "value": 15,
+            "rank": 1,
+            "color": 1,
+            "group": "ABOVE\nAVERAGE",
+            "selected": false,
+            "average": 8.416666666666666
+          },
+          {
+            "date": "2019-11-12",
+            "value": 14,
+            "rank": 2,
+            "color": 2,
+            "group": "ABOVE\nAVERAGE",
+            "selected": false,
+            "average": 8.416666666666666
+          },
+          {
+            "date": "2019-12-10",
+            "value": 12,
+            "rank": 3,
+            "color": 2,
+            "group": "ABOVE\nAVERAGE",
+            "selected": false,
+            "average": 8.416666666666666
+          },
+          {
+            "date": "2019-12-24",
+            "value": 11,
+            "rank": 4,
+            "color": 2,
+            "group": "ABOVE\nAVERAGE",
+            "selected": false,
+            "average": 8.416666666666666
+          },
+          {
+            "date": "2019-12-17",
+            "value": 9,
+            "rank": 5,
+            "color": 2,
+            "group": "ABOVE\nAVERAGE",
+            "selected": false,
+            "average": 8.416666666666666
+          },
+          {
+            "date": "2019-11-05",
+            "value": 8,
+            "rank": 6,
+            "color": 3,
+            "group": "BELOW\nAVERAGE",
+            "selected": false,
+            "average": 8.416666666666666
+          },
+          {
+            "date": "2019-11-26",
+            "value": 8,
+            "rank": 7,
+            "color": 3,
+            "group": "BELOW\nAVERAGE",
+            "selected": false,
+            "average": 8.416666666666666
+          },
+          {
+            "date": "2019-12-03",
+            "value": 8,
+            "rank": 8,
+            "color": 3,
+            "group": "BELOW\nAVERAGE",
+            "selected": false,
+            "average": 8.416666666666666
+          },
+          {
+            "date": "2019-10-15",
+            "value": 6,
+            "rank": 9,
+            "color": 3,
+            "group": "BELOW\nAVERAGE",
+            "selected": false,
+            "average": 8.416666666666666
+          },
+          {
+            "date": "2019-10-22",
+            "value": 6,
+            "rank": 10,
+            "color": 3,
+            "group": "BELOW\nAVERAGE",
+            "selected": false,
+            "average": 8.416666666666666
+          },
+          {
+            "date": "2019-10-08",
+            "value": 3,
+            "rank": 11,
+            "color": 3,
+            "group": "BELOW\nAVERAGE",
+            "selected": false,
+            "average": 8.416666666666666
+          },
+          {
+            "date": "2019-10-29",
+            "value": 1,
+            "rank": 12,
+            "color": 4,
+            "group": "BELOW\nAVERAGE",
+            "selected": false,
+            "average": 8.416666666666666
+          }
+        ],
+        "Qty": [
+          {
+            "date": "2019-11-19",
+            "value": 114,
+            "rank": 1,
+            "color": 1,
+            "group": "ABOVE\nAVERAGE",
+            "selected": false,
+            "average": 55.666666666666664
+          },
+          {
+            "date": "2019-11-12",
+            "value": 94,
+            "rank": 2,
+            "color": 2,
+            "group": "ABOVE\nAVERAGE",
+            "selected": false,
+            "average": 55.666666666666664
+          },
+          {
+            "date": "2019-12-03",
+            "value": 70,
+            "rank": 3,
+            "color": 2,
+            "group": "ABOVE\nAVERAGE",
+            "selected": false,
+            "average": 55.666666666666664
+          },
+          {
+            "date": "2019-12-10",
+            "value": 70,
+            "rank": 4,
+            "color": 2,
+            "group": "ABOVE\nAVERAGE",
+            "selected": false,
+            "average": 55.666666666666664
+          },
+          {
+            "date": "2019-11-26",
+            "value": 69,
+            "rank": 5,
+            "color": 2,
+            "group": "ABOVE\nAVERAGE",
+            "selected": false,
+            "average": 55.666666666666664
+          },
+          {
+            "date": "2019-11-05",
+            "value": 62,
+            "rank": 6,
+            "color": 2,
+            "group": "ABOVE\nAVERAGE",
+            "selected": false,
+            "average": 55.666666666666664
+          },
+          {
+            "date": "2019-12-24",
+            "value": 54,
+            "rank": 7,
+            "color": 3,
+            "group": "BELOW\nAVERAGE",
+            "selected": false,
+            "average": 55.666666666666664
+          },
+          {
+            "date": "2019-10-22",
+            "value": 49,
+            "rank": 8,
+            "color": 3,
+            "group": "BELOW\nAVERAGE",
+            "selected": false,
+            "average": 55.666666666666664
+          },
+          {
+            "date": "2019-12-17",
+            "value": 38,
+            "rank": 9,
+            "color": 3,
+            "group": "BELOW\nAVERAGE",
+            "selected": false,
+            "average": 55.666666666666664
+          },
+          {
+            "date": "2019-10-15",
+            "value": 28,
+            "rank": 10,
+            "color": 3,
+            "group": "BELOW\nAVERAGE",
+            "selected": false,
+            "average": 55.666666666666664
+          },
+          {
+            "date": "2019-10-08",
+            "value": 12,
+            "rank": 11,
+            "color": 3,
+            "group": "BELOW\nAVERAGE",
+            "selected": false,
+            "average": 55.666666666666664
+          },
+          {
+            "date": "2019-10-29",
+            "value": 8,
+            "rank": 12,
+            "color": 4,
+            "group": "BELOW\nAVERAGE",
+            "selected": false,
+            "average": 55.666666666666664
+          }
+        ]
+      }
+    }
+  },
+  "browser_interaction_executed": false,
+  "scope": "Complete date-window Sales/COUNTD orders/quantity aggregates and ordinal rank ranges; tied rank uniqueness is checked without assuming tie-break date.",
+  "cloud_checks": [
+    {
+      "path": "outputs/cloud-author-sales-rank.csv",
+      "status": "pass",
+      "dates": 12
+    },
+    {
+      "path": "outputs/cloud-author-orders-rank.csv",
+      "status": "pass",
+      "dates": 12
+    },
+    {
+      "path": "outputs/cloud-author-qty-rank.csv",
+      "status": "pass",
+      "dates": 12
+    },
+    {
+      "path": "outputs/cloud-replica-sales-rank.csv",
+      "status": "pass",
+      "dates": 12
+    },
+    {
+      "path": "outputs/cloud-replica-orders-rank.csv",
+      "status": "pass",
+      "dates": 12
+    },
+    {
+      "path": "outputs/cloud-replica-qty-rank.csv",
+      "status": "pass",
+      "dates": 12
+    },
+    {
+      "path": "outputs/cloud-author-sales-rank-monday.csv",
+      "status": "pass",
+      "dates": 13
+    },
+    {
+      "path": "outputs/cloud-author-orders-rank-monday.csv",
+      "status": "pass",
+      "dates": 13
+    },
+    {
+      "path": "outputs/cloud-author-qty-rank-monday.csv",
+      "status": "pass",
+      "dates": 13
+    },
+    {
+      "path": "outputs/cloud-replica-sales-rank-monday.csv",
+      "status": "pass",
+      "dates": 13
+    },
+    {
+      "path": "outputs/cloud-replica-orders-rank-monday.csv",
+      "status": "pass",
+      "dates": 13
+    },
+    {
+      "path": "outputs/cloud-replica-qty-rank-monday.csv",
+      "status": "pass",
+      "dates": 13
+    },
+    {
+      "path": "outputs/cloud-author-sales-rank-year-end.csv",
+      "status": "pass",
+      "dates": 12
+    },
+    {
+      "path": "outputs/cloud-author-orders-rank-year-end.csv",
+      "status": "pass",
+      "dates": 12
+    },
+    {
+      "path": "outputs/cloud-author-qty-rank-year-end.csv",
+      "status": "pass",
+      "dates": 12
+    },
+    {
+      "path": "outputs/cloud-replica-sales-rank-year-end.csv",
+      "status": "pass",
+      "dates": 12
+    },
+    {
+      "path": "outputs/cloud-replica-orders-rank-year-end.csv",
+      "status": "pass",
+      "dates": 12
+    },
+    {
+      "path": "outputs/cloud-replica-qty-rank-year-end.csv",
+      "status": "pass",
+      "dates": 12
+    }
+  ]
+}
