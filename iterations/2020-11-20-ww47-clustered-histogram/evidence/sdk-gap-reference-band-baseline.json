@@ -1,0 +1,22 @@
+{
+  "released_sdk": {
+    "url": "https://github.com/aidatacooper/cwtwb.git",
+    "vcs_info": {
+      "vcs": "git",
+      "commit_id": "e7fa7cd6770ac3d07af55570a5a7fffd18ad6155",
+      "requested_revision": "e7fa7cd6770ac3d07af55570a5a7fffd18ad6155"
+    }
+  },
+  "result": "blocked",
+  "attempt": "Public add_reference_band for two fixed numeric endpoints 2000 and 2100, per-pane, fill #f5f5f5, upper custom label $2000+",
+  "failure": "AttributeError: 'TWBEditor' object has no attribute 'add_reference_band'",
+  "source_contract": {
+    "paired_constant_reference_lines": [
+      2000,
+      2100
+    ],
+    "fill_color": "#f5f5f5",
+    "axis": "continuous sale amount"
+  },
+  "synthetic_proposal": "Generic add_reference_band worksheet API: typed axis expression, finite ordered constant lower/upper, scope, pane_index, fill, endpoint labels; preserve single-line API and arbitrary multiple bands; atomic invalid input checks."
+}

@@ -1,0 +1,19 @@
+{
+  "released_sdk": {
+    "url": "https://github.com/aidatacooper/cwtwb.git",
+    "vcs_info": {
+      "vcs": "git",
+      "commit_id": "e7fa7cd6770ac3d07af55570a5a7fffd18ad6155",
+      "requested_revision": "e7fa7cd6770ac3d07af55570a5a7fffd18ad6155"
+    }
+  },
+  "error_type": "ValueError",
+  "error": "size_style supports rangesize field/min/max/min_size/max_size",
+  "requested_style": {
+    "field": "Measure Names",
+    "type": "catsize",
+    "min_size": 0.875774,
+    "max_size": 1
+  },
+  "required_behavior": "Native categorical Measure Names circle size range so the Cost copy is a slightly larger grey rim"
+}

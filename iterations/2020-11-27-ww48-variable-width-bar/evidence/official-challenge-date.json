@@ -1,0 +1,17 @@
+{
+  "challenge_year": 2020,
+  "challenge_week": 48,
+  "article_date": "2020-11-27",
+  "challenge_date": "2020-11-25",
+  "official_rest_url": "https://www.workout-wednesday.com/wp-json/wp/v2/posts/4092",
+  "response_excerpt": {
+    "id": 4092,
+    "date": "2020-11-25T01:17:56",
+    "slug": "2020w48",
+    "link": "https://www.workout-wednesday.com/2020w48/",
+    "title": {
+      "rendered": "2020 Week 48: Can you create a Variable Width Bar Chart?"
+    }
+  },
+  "scope": "Official WordPress publication calendar date, without inference from workbook filenames or week numbers."
+}

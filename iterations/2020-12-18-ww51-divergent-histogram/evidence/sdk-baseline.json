@@ -1,0 +1,14 @@
+{
+  "status": "pass",
+  "sdk_version": "0.27.1",
+  "sdk_commit": "e7fa7cd6770ac3d07af55570a5a7fffd18ad6155",
+  "sdk_install": "actual Git dependency, noneditable",
+  "artifact_sha256": "1ceecf5ed7fcb7ed245c076a63bf9be812bf076d580a92dc02c94ba1c4ee015e",
+  "builder_sha256": "1395555819165bf3dd3487a0cba09b3298ec99096d500c442e274fc52a57c379",
+  "source_workbook_used_by_builder": false,
+  "released_baseline": "Raw/native verifier passes; Cloud images and actual CSV states not yet captured.",
+  "public_api_choices": [
+    "Boolean HasLifeExpectancy excludes nulls equivalently to source categorical null exclusion; no SDK mutation needed.",
+    "Dynamic Title worksheet uses aggregate year label and public richlabel; original Source Viz worksheet title richruns replaced with same dashboard-visible business heading."
+  ]
+}

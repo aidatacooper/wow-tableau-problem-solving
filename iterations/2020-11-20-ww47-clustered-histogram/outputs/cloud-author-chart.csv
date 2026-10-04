@@ -1,0 +1,62 @@
+SALE AMOUNT,Segment UPPER,# ORDERS,Segment,TOOLTIP : between,TOOLTIP : Lower,TOOLTIP : symbol,TOOLTIP : Upper
+$25,CONSUMER,382,Consumer, between,$0, - ,$100
+$50,CORPORATE,209,Corporate, between,$0, - ,$100
+$75,HOME OFFICE,129,Home Office, between,$0, - ,$100
+$125,CONSUMER,136,Consumer, between,$100, - ,$200
+$150,CORPORATE,62,Corporate, between,$100, - ,$200
+$175,HOME OFFICE,39,Home Office, between,$100, - ,$200
+$225,CONSUMER,90,Consumer, between,$200, - ,$300
+$250,CORPORATE,36,Corporate, between,$200, - ,$300
+$275,HOME OFFICE,27,Home Office, between,$200, - ,$300
+$325,CONSUMER,56,Consumer, between,$300, - ,$400
+$350,CORPORATE,25,Corporate, between,$300, - ,$400
+$375,HOME OFFICE,13,Home Office, between,$300, - ,$400
+$425,CONSUMER,40,Consumer, between,$400, - ,$500
+$450,CORPORATE,22,Corporate, between,$400, - ,$500
+$475,HOME OFFICE,17,Home Office, between,$400, - ,$500
+$525,CONSUMER,31,Consumer, between,$500, - ,$600
+$550,CORPORATE,18,Corporate, between,$500, - ,$600
+$575,HOME OFFICE,13,Home Office, between,$500, - ,$600
+$625,CONSUMER,16,Consumer, between,$600, - ,$700
+$650,CORPORATE,16,Corporate, between,$600, - ,$700
+$675,HOME OFFICE,14,Home Office, between,$600, - ,$700
+$725,CONSUMER,21,Consumer, between,$700, - ,$800
+$750,CORPORATE,14,Corporate, between,$700, - ,$800
+$775,HOME OFFICE,11,Home Office, between,$700, - ,$800
+$825,CONSUMER,18,Consumer, between,$800, - ,$900
+$850,CORPORATE,10,Corporate, between,$800, - ,$900
+$875,HOME OFFICE,11,Home Office, between,$800, - ,$900
+$925,CONSUMER,15,Consumer, between,$900, - ,"$1,000"
+$950,CORPORATE,10,Corporate, between,$900, - ,"$1,000"
+$975,HOME OFFICE,4,Home Office, between,$900, - ,"$1,000"
+"$1,025",CONSUMER,12,Consumer, between,"$1,000", - ,"$1,100"
+"$1,050",CORPORATE,9,Corporate, between,"$1,000", - ,"$1,100"
+"$1,075",HOME OFFICE,4,Home Office, between,"$1,000", - ,"$1,100"
+"$1,125",CONSUMER,4,Consumer, between,"$1,100", - ,"$1,200"
+"$1,150",CORPORATE,7,Corporate, between,"$1,100", - ,"$1,200"
+"$1,175",HOME OFFICE,3,Home Office, between,"$1,100", - ,"$1,200"
+"$1,225",CONSUMER,6,Consumer, between,"$1,200", - ,"$1,300"
+"$1,250",CORPORATE,4,Corporate, between,"$1,200", - ,"$1,300"
+"$1,275",HOME OFFICE,2,Home Office, between,"$1,200", - ,"$1,300"
+"$1,325",CONSUMER,5,Consumer, between,"$1,300", - ,"$1,400"
+"$1,350",CORPORATE,7,Corporate, between,"$1,300", - ,"$1,400"
+"$1,375",HOME OFFICE,2,Home Office, between,"$1,300", - ,"$1,400"
+"$1,425",CONSUMER,2,Consumer, between,"$1,400", - ,"$1,500"
+"$1,450",CORPORATE,8,Corporate, between,"$1,400", - ,"$1,500"
+"$1,475",HOME OFFICE,2,Home Office, between,"$1,400", - ,"$1,500"
+"$1,525",CONSUMER,4,Consumer, between,"$1,500", - ,"$1,600"
+"$1,575",HOME OFFICE,3,Home Office, between,"$1,500", - ,"$1,600"
+"$1,625",CONSUMER,3,Consumer, between,"$1,600", - ,"$1,700"
+"$1,650",CORPORATE,1,Corporate, between,"$1,600", - ,"$1,700"
+"$1,675",HOME OFFICE,2,Home Office, between,"$1,600", - ,"$1,700"
+"$1,725",CONSUMER,2,Consumer, between,"$1,700", - ,"$1,800"
+"$1,750",CORPORATE,1,Corporate, between,"$1,700", - ,"$1,800"
+"$1,775",HOME OFFICE,5,Home Office, between,"$1,700", - ,"$1,800"
+"$1,825",CONSUMER,6,Consumer, between,"$1,800", - ,"$1,900"
+"$1,850",CORPORATE,4,Corporate, between,"$1,800", - ,"$1,900"
+"$1,875",HOME OFFICE,2,Home Office, between,"$1,800", - ,"$1,900"
+"$1,925",CONSUMER,2,Consumer, between,"$1,900", - ,"$2,000"
+"$1,950",CORPORATE,3,Corporate, between,"$1,900", - ,"$2,000"
+"$2,025",CONSUMER,25,Consumer,,,$2000+,
+"$2,050",CORPORATE,27,Corporate,,,$2000+,
+"$2,075",HOME OFFICE,15,Home Office,,,$2000+,

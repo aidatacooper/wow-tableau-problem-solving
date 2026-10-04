@@ -1,0 +1,6 @@
+{
+  "source_sha256": "19e76f4a69da7b91a9bda34b8e9d8762b6e52092dfc15fd2a685a603d86c2349",
+  "export_sha256": "ed1d484f576b97bcb783de8487ad38668f8b971e4a1cf435f3cc98ae4b3ec804",
+  "modifications": "Only remove worksheet/window hidden attributes for REST export. No calculations, filters or parameters edited.",
+  "unhidden_worksheets": []
+}

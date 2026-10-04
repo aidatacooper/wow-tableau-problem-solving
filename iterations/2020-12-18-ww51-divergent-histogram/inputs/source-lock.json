@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-04",
+  "source_workbook": {
+    "filename": "author.twbx",
+    "bytes": 21087,
+    "sha256": "6cf0b36c18ca213e0d076c8e58fac066adcc1873dd8a25038970aab0db8ca04e",
+    "url": "https://public.tableau.com/workbooks/2020_12_16_WW51_Divergent_Histogram.twb"
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Datasources/2020_12_16_WW51_World Indicators_Migrated Data.hyper",
+      "file": "inputs/2020_12_16_WW51_World Indicators_Migrated Data.hyper",
+      "bytes": 65536,
+      "sha256": "da2bc07855706cf91958b9a9dd9f838219d817d08f3532f0f86902df8e25dc65"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

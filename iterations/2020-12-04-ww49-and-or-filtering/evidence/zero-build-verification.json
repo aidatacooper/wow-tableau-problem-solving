@@ -1,0 +1,9 @@
+{
+  "case_id": "2020-12-04-ww49-and-or-filtering",
+  "sdk_commit": "df8c2a52cd48800fa0a43d936f6946d318f5b953",
+  "builder_sha256": "6ab625385849ef86374508c16163bf54a7ade610d526d46ad759703375c341d4",
+  "builder_hash_scope": "UTF-8 source text with universal newlines normalized to LF",
+  "result": "passed",
+  "initial_workbooks_available": 0,
+  "scope": "Copied only builder/verifier, metadata and locked inputs. Built from TWBEditor empty, then ran independent raw-data/artifact oracle without copied Cloud evidence or author workbooks."
+}

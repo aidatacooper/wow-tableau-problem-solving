@@ -1,0 +1,18 @@
+{
+  "sdk": {
+    "url": "https://github.com/aidatacooper/cwtwb.git",
+    "vcs_info": {
+      "vcs": "git",
+      "commit_id": "df8c2a52cd48800fa0a43d936f6946d318f5b953",
+      "requested_revision": "df8c2a52cd48800fa0a43d936f6946d318f5b953"
+    }
+  },
+  "artifact_sha256": "aacc4eb90acb5a94cf8abc634bda660e1ee784e93ae06807e3c55b79e44186e8",
+  "builder_sha256": "34947f94065fce84b58811fbd0824a69fa769d672265935f3ec3dd2cb22868e7",
+  "initial_template": "TWBEditor(\"\")",
+  "source_workbook_used_by_builder": false,
+  "sdk_tests_passed": 844,
+  "sdk_tests_skipped": 25,
+  "scope": "Actual immutable df8 Git build; public pane label alignment, implicit Measure Values lines and currency axis labels refined; raw/native pass; final Cloud acceptance pending.",
+  "previous_rejected_artifact_sha256": "0f6a239df08eb48961d01d0d408e2d2a84e917d24ff1ff728636c774adb73afb"
+}

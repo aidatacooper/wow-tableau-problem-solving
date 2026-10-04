@@ -1,0 +1,281 @@
+{
+  "case_id": "wow-2020-ww51-divergent-histogram",
+  "captured_at": "2026-10-04T13:04:50.001062+00:00",
+  "source_hashes": {
+    "author": "5c9c26cf0ac2ad4e4d2c7c4ef09c331ecd062029b5772fdb48e7d0dc7fbf0f20",
+    "replica": "2f76d2a090b5544cd9d840192296f3b50fba0faf7e201c99fd7f576592c635cf"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "acd2fb05-8596-47ff-a048-9a5d95bc900d",
+      "name": "cwtwb-review-wow-2020-ww51-divergent-histogram-author-5c9c26cf0ac2",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2936017",
+      "views": [
+        {
+          "name": "2020_12_16_WW51_Divergent_Histogram",
+          "id": "23a75cce-d0c0-4ee5-b689-432a085cf162"
+        },
+        {
+          "name": "Data",
+          "id": "3a5c5641-7914-4013-88b9-9538dc8fdde0"
+        },
+        {
+          "name": "Viz",
+          "id": "5aa9d713-2068-4937-8d4d-abcd9d5d6f1e"
+        }
+      ]
+    },
+    "replica": {
+      "id": "bfad7e5c-4c71-49f0-a899-de3951646a8f",
+      "name": "cwtwb-review-wow-2020-ww51-divergent-histogram-replica-2f76d2a090b5",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2936085",
+      "views": [
+        {
+          "name": "Viz",
+          "id": "ba8cd166-3f44-4ad3-9023-1cc40a44f5e3"
+        },
+        {
+          "name": "Title",
+          "id": "cdc52c27-d824-4d7f-9b8c-d23fd0e3256a"
+        },
+        {
+          "name": "2020_12_16_WW51_Divergent_Histogram",
+          "id": "bae8b240-4755-47ac-abc4-ced18e719e24"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "23a75cce-d0c0-4ee5-b689-432a085cf162",
+          "name": "2020_12_16_WW51_Divergent_Histogram",
+          "path": "outputs/cloud-author.png",
+          "sha256": "ed0bd9e3ced5be3a10dd277c4ae4a76bee350bcbebb2245b038f8db7daeeb80d",
+          "size": [
+            2600,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "bae8b240-4755-47ac-abc4-ced18e719e24",
+          "name": "2020_12_16_WW51_Divergent_Histogram",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "7e3532eaced97223f9dce4f532bd22d034bceba8bed58ebee916cd53d1fea972",
+          "size": [
+            2600,
+            1600
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Viz",
+          "view_id": "5aa9d713-2068-4937-8d4d-abcd9d5d6f1e",
+          "scope": "Complete nonnull age/sex countrycounts and tablecalculation refvalues at actualrequestedyear. SourceauxiliaryData default2011 is not used as2012proof. No buttonCSV or browser click/hover proof.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-viz.csv",
+          "sha256": "c02b6e951839204c0a145c058040eedf687aa9709e8839c50533e31b416aaf43",
+          "bytes": 4001
+        },
+        {
+          "role": "replica",
+          "view": "Viz",
+          "view_id": "ba8cd166-3f44-4ad3-9023-1cc40a44f5e3",
+          "scope": "Complete nonnull age/sex countrycounts and tablecalculation refvalues at actualrequestedyear. SourceauxiliaryData default2011 is not used as2012proof. No buttonCSV or browser click/hover proof.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-viz.csv",
+          "sha256": "4d288dc86e2823dd2b0b83242c86cd825b5c5dafd6dbad2cd2b68491218c3e4e",
+          "bytes": 3542
+        }
+      ]
+    },
+    {
+      "name": "year-2011",
+      "parameters": {},
+      "filters": {
+        "year(Year)": "2011"
+      },
+      "views": {
+        "author": {
+          "id": "23a75cce-d0c0-4ee5-b689-432a085cf162",
+          "name": "2020_12_16_WW51_Divergent_Histogram",
+          "path": "outputs/cloud-author-year-2011.png",
+          "sha256": "963bc0541f0ad753e39cd47b2c83717325c45fd99479c12e453b8267bd8aa484",
+          "size": [
+            2600,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "bae8b240-4755-47ac-abc4-ced18e719e24",
+          "name": "2020_12_16_WW51_Divergent_Histogram",
+          "path": "outputs/cloud-replica-year-2011.png",
+          "sha256": "bd96e4dc3d917387c8652b5db14a5a0c46efa9adc868f0a884421353d257e68d",
+          "size": [
+            2600,
+            1600
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Viz",
+          "view_id": "5aa9d713-2068-4937-8d4d-abcd9d5d6f1e",
+          "scope": "Complete nonnull age/sex countrycounts and tablecalculation refvalues at actualrequestedyear. SourceauxiliaryData default2011 is not used as2012proof. No buttonCSV or browser click/hover proof.",
+          "parameters": {},
+          "filters": {
+            "year(Year)": "2011"
+          },
+          "path": "outputs/cloud-author-viz-year-2011.csv",
+          "sha256": "89b5faaf39e7e86c3cc7943ed5aadbc3beed73c7e68388a89392601dda35d7d7",
+          "bytes": 4154
+        },
+        {
+          "role": "replica",
+          "view": "Viz",
+          "view_id": "ba8cd166-3f44-4ad3-9023-1cc40a44f5e3",
+          "scope": "Complete nonnull age/sex countrycounts and tablecalculation refvalues at actualrequestedyear. SourceauxiliaryData default2011 is not used as2012proof. No buttonCSV or browser click/hover proof.",
+          "parameters": {},
+          "filters": {
+            "year(Year)": "2011"
+          },
+          "path": "outputs/cloud-replica-viz-year-2011.csv",
+          "sha256": "ead8a94b3563172c2b98808284d8bf758a781eca0c0f1083bd5f2f9ba83b91aa",
+          "bytes": 3676
+        }
+      ]
+    },
+    {
+      "name": "year-2000",
+      "parameters": {},
+      "filters": {
+        "year(Year)": "2000"
+      },
+      "views": {
+        "author": {
+          "id": "23a75cce-d0c0-4ee5-b689-432a085cf162",
+          "name": "2020_12_16_WW51_Divergent_Histogram",
+          "path": "outputs/cloud-author-year-2000.png",
+          "sha256": "607760a68c3931675decd4946fd495c73a61cb2d835da17af7a8aae4faa46558",
+          "size": [
+            2600,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "bae8b240-4755-47ac-abc4-ced18e719e24",
+          "name": "2020_12_16_WW51_Divergent_Histogram",
+          "path": "outputs/cloud-replica-year-2000.png",
+          "sha256": "1ae3587ffc46a8af1ef0d3df843a2e3d9c613bb990b6afa055ed9a8abafbf333",
+          "size": [
+            2600,
+            1600
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Viz",
+          "view_id": "5aa9d713-2068-4937-8d4d-abcd9d5d6f1e",
+          "scope": "Complete nonnull age/sex countrycounts and tablecalculation refvalues at actualrequestedyear. SourceauxiliaryData default2011 is not used as2012proof. No buttonCSV or browser click/hover proof.",
+          "parameters": {},
+          "filters": {
+            "year(Year)": "2000"
+          },
+          "path": "outputs/cloud-author-viz-year-2000.csv",
+          "sha256": "e39b010532d9697b11e9ee49a7ed86282013c363b1b2153d9b4bd141408a8ff1",
+          "bytes": 4315
+        },
+        {
+          "role": "replica",
+          "view": "Viz",
+          "view_id": "ba8cd166-3f44-4ad3-9023-1cc40a44f5e3",
+          "scope": "Complete nonnull age/sex countrycounts and tablecalculation refvalues at actualrequestedyear. SourceauxiliaryData default2011 is not used as2012proof. No buttonCSV or browser click/hover proof.",
+          "parameters": {},
+          "filters": {
+            "year(Year)": "2000"
+          },
+          "path": "outputs/cloud-replica-viz-year-2000.csv",
+          "sha256": "b6560fb3767d1ae078df33235b67d215223367ab18ad871c9cfc9dcf17f69618",
+          "bytes": 3818
+        }
+      ]
+    },
+    {
+      "name": "year-2001",
+      "parameters": {},
+      "filters": {
+        "year(Year)": "2001"
+      },
+      "views": {
+        "author": {
+          "id": "23a75cce-d0c0-4ee5-b689-432a085cf162",
+          "name": "2020_12_16_WW51_Divergent_Histogram",
+          "path": "outputs/cloud-author-year-2001.png",
+          "sha256": "d7d7700acb2a0500fad4950561fa0a516429adf8c3c8a19f5737025eac240d83",
+          "size": [
+            2600,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "bae8b240-4755-47ac-abc4-ced18e719e24",
+          "name": "2020_12_16_WW51_Divergent_Histogram",
+          "path": "outputs/cloud-replica-year-2001.png",
+          "sha256": "834cf5f5c085b2b35913d08fbf0efc6f88d13af14c23f08c88efa123afbcfae0",
+          "size": [
+            2600,
+            1600
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Viz",
+          "view_id": "5aa9d713-2068-4937-8d4d-abcd9d5d6f1e",
+          "scope": "Complete nonnull age/sex countrycounts and tablecalculation refvalues at actualrequestedyear. SourceauxiliaryData default2011 is not used as2012proof. No buttonCSV or browser click/hover proof.",
+          "parameters": {},
+          "filters": {
+            "year(Year)": "2001"
+          },
+          "path": "outputs/cloud-author-viz-year-2001.csv",
+          "sha256": "f8d07d4d09ac8c9612e5e60982cff736941b148af596ffe40ad62f403b7d5ea7",
+          "bytes": 4105
+        },
+        {
+          "role": "replica",
+          "view": "Viz",
+          "view_id": "ba8cd166-3f44-4ad3-9023-1cc40a44f5e3",
+          "scope": "Complete nonnull age/sex countrycounts and tablecalculation refvalues at actualrequestedyear. SourceauxiliaryData default2011 is not used as2012proof. No buttonCSV or browser click/hover proof.",
+          "parameters": {},
+          "filters": {
+            "year(Year)": "2001"
+          },
+          "path": "outputs/cloud-replica-viz-year-2001.csv",
+          "sha256": "fd2f34abb1aba14c6b71019c531522d6565828b6d3c318c25f475955170f4ce7",
+          "bytes": 3633
+        }
+      ]
+    }
+  ],
+  "status": "verified",
+  "independent_review": {
+    "visual_status": "acceptable_delta",
+    "visual_evidence": "evidence/visual-review.md",
+    "functional_evidence": "evidence/functional-verification.json",
+    "scope": "Declared REST worksheet exports and artifact contracts; no browser events executed."
+  }
+}

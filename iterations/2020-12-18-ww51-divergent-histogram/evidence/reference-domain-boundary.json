@@ -1,0 +1,140 @@
+{
+  "scope": "All13years of original locked Hyper; signedCOUNTRYCOUNT and exact sourceWINDOWMAX mathematics. This is not proof of an actual Cloudvisual asymmetry or of tick-rounded axisbounds.",
+  "browser_interaction_executed": false,
+  "source_workbook_formula_unchanged": true,
+  "years": [
+    {
+      "year": 2000,
+      "female_peak": 18,
+      "male_peak": 13,
+      "source_positive_reference": 18,
+      "source_negative_reference": -18,
+      "absolute_peak": 18,
+      "source_reference_encloses_all_negative_marks": true
+    },
+    {
+      "year": 2001,
+      "female_peak": 14,
+      "male_peak": 15,
+      "source_positive_reference": 14,
+      "source_negative_reference": -14,
+      "absolute_peak": 15,
+      "source_reference_encloses_all_negative_marks": false
+    },
+    {
+      "year": 2002,
+      "female_peak": 14,
+      "male_peak": 16,
+      "source_positive_reference": 14,
+      "source_negative_reference": -14,
+      "absolute_peak": 16,
+      "source_reference_encloses_all_negative_marks": false
+    },
+    {
+      "year": 2003,
+      "female_peak": 18,
+      "male_peak": 13,
+      "source_positive_reference": 18,
+      "source_negative_reference": -18,
+      "absolute_peak": 18,
+      "source_reference_encloses_all_negative_marks": true
+    },
+    {
+      "year": 2004,
+      "female_peak": 17,
+      "male_peak": 15,
+      "source_positive_reference": 17,
+      "source_negative_reference": -17,
+      "absolute_peak": 17,
+      "source_reference_encloses_all_negative_marks": true
+    },
+    {
+      "year": 2005,
+      "female_peak": 15,
+      "male_peak": 16,
+      "source_positive_reference": 15,
+      "source_negative_reference": -15,
+      "absolute_peak": 16,
+      "source_reference_encloses_all_negative_marks": false
+    },
+    {
+      "year": 2006,
+      "female_peak": 21,
+      "male_peak": 17,
+      "source_positive_reference": 21,
+      "source_negative_reference": -21,
+      "absolute_peak": 21,
+      "source_reference_encloses_all_negative_marks": true
+    },
+    {
+      "year": 2007,
+      "female_peak": 21,
+      "male_peak": 13,
+      "source_positive_reference": 21,
+      "source_negative_reference": -21,
+      "absolute_peak": 21,
+      "source_reference_encloses_all_negative_marks": true
+    },
+    {
+      "year": 2008,
+      "female_peak": 21,
+      "male_peak": 13,
+      "source_positive_reference": 21,
+      "source_negative_reference": -21,
+      "absolute_peak": 21,
+      "source_reference_encloses_all_negative_marks": true
+    },
+    {
+      "year": 2009,
+      "female_peak": 24,
+      "male_peak": 16,
+      "source_positive_reference": 24,
+      "source_negative_reference": -24,
+      "absolute_peak": 24,
+      "source_reference_encloses_all_negative_marks": true
+    },
+    {
+      "year": 2010,
+      "female_peak": 23,
+      "male_peak": 12,
+      "source_positive_reference": 23,
+      "source_negative_reference": -23,
+      "absolute_peak": 23,
+      "source_reference_encloses_all_negative_marks": true
+    },
+    {
+      "year": 2011,
+      "female_peak": 21,
+      "male_peak": 14,
+      "source_positive_reference": 21,
+      "source_negative_reference": -21,
+      "absolute_peak": 21,
+      "source_reference_encloses_all_negative_marks": true
+    },
+    {
+      "year": 2012,
+      "female_peak": 19,
+      "male_peak": 13,
+      "source_positive_reference": 19,
+      "source_negative_reference": -19,
+      "absolute_peak": 19,
+      "source_reference_encloses_all_negative_marks": true
+    }
+  ],
+  "cloud_2001_observation": {
+    "artifact_sha256": "89782d983fb5f7c5e974580c2b6946240e47608a373fe40029186a3a3df44f9b",
+    "archive": "scratch/ww51-analysis/initial-cloud-89782",
+    "roles": [
+      "author",
+      "replica"
+    ],
+    "complete_age_sex_rows_per_role": 76,
+    "female_peak": 14,
+    "male_peak": 15,
+    "all_exported_positive_references": 14,
+    "all_exported_negative_references": -14,
+    "all_15_count_peak_bars_and_labels_visible": true,
+    "visual_assessment": "Both paired renders have a slightly raised zero baseline; the source formulas are symmetric reference values but do not alone guarantee identical positive and negative viewport extents. No peak bar or label is clipped.",
+    "browser_interaction_executed": false
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "original_sha256": "a5d4fa1bdd72366a23eb9b8f2792a0a9c221b20f0b743882f531535046c79809",
+  "export_sha256": "63653533db6e71d451f40067e7ed0f0c09aa9aec776381501a85c0e485598133",
+  "transformation": "Only remove hidden attributes from worksheet windows; no business XML changed.",
+  "worksheets_exposed": [
+    "Data",
+    "Viz"
+  ],
+  "all_other_archive_members_unchanged": {
+    "Data/TableauTemp/TEMP_044agg50zcziw71ecvscg1e946q4.hyper": "222b7c9b4cccb51de14d3320d4ef8316b26e607b81f3a02e20771c1270a3ccb4",
+    "TwbxExternalCache/TwbxLQResultsCacheV3/1466094469/.bin": "2a1957d96d59c1cb1f4765238ef221f78865677bedef0a04860a120ca9b605f0",
+    "TwbxExternalCache/TwbxLQResultsCacheV3/1466094469/.key": "85fa4adb070f7f29a01434dcaac88fb5ac8ef3d617eda67774938df6828f51f5",
+    "TwbxExternalCache/TwbxLQResultsCacheV3/174269509/.bin": "9a2241ea2f3b311a7c8d062ddf832c3c4ea4072e38564def6c31a036ea608227",
+    "TwbxExternalCache/TwbxLQResultsCacheV3/174269509/.key": "93b21c0aa7e22cd1e01aa62cb774e283119a4d0a997e9c642abd6af6ef7554d0",
+    "TwbxExternalCache/TwbxLQTimestampsCacheV3/2236060999/.bin": "ce3273010b6c45a80b6403816cc914c9da70f90ad23d127234604ce1b8b4c3d3",
+    "TwbxExternalCache/TwbxLQTimestampsCacheV3/2236060999/.key": "ed8a495886ccbd930285584add0e436220a7a6f5712905ed2729b811d2f9a0b3",
+    "TwbxExternalCache/TwbxLQTimestampsCacheV3/4085093610/.bin": "f68710c9ae9140ab11c4a922cb2b837bcc8eda9b641fb3b5edd218b8ec68585a",
+    "TwbxExternalCache/TwbxLQTimestampsCacheV3/4085093610/.key": "e7349b94980a0578086b1ce54bfa1ad82ef44aeeac342eb455630f61078d348e"
+  },
+  "semantic_xml_equality_after_declared_window_change": true,
+  "semantic_xml_sha256": "be7c54fadb415d74008e1d121cd945c212ef6ca566e5ea6e7e82bb2db916c288"
+}

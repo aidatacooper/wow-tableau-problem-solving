@@ -1,0 +1,21 @@
+SALE AMOUNT,Segment UPPER,# ORDERS,Segment,TOOLTIP : between,TOOLTIP : Lower,TOOLTIP : symbol,TOOLTIP : Upper
+$50,CORPORATE,209,Corporate, between,$0, - ,$100
+$150,CORPORATE,62,Corporate, between,$100, - ,$200
+$250,CORPORATE,36,Corporate, between,$200, - ,$300
+$350,CORPORATE,25,Corporate, between,$300, - ,$400
+$450,CORPORATE,22,Corporate, between,$400, - ,$500
+$550,CORPORATE,18,Corporate, between,$500, - ,$600
+$650,CORPORATE,16,Corporate, between,$600, - ,$700
+$750,CORPORATE,14,Corporate, between,$700, - ,$800
+$850,CORPORATE,10,Corporate, between,$800, - ,$900
+$950,CORPORATE,10,Corporate, between,$900, - ,"$1,000"
+"$1,050",CORPORATE,9,Corporate, between,"$1,000", - ,"$1,100"
+"$1,150",CORPORATE,7,Corporate, between,"$1,100", - ,"$1,200"
+"$1,250",CORPORATE,4,Corporate, between,"$1,200", - ,"$1,300"
+"$1,350",CORPORATE,7,Corporate, between,"$1,300", - ,"$1,400"
+"$1,450",CORPORATE,8,Corporate, between,"$1,400", - ,"$1,500"
+"$1,650",CORPORATE,1,Corporate, between,"$1,600", - ,"$1,700"
+"$1,750",CORPORATE,1,Corporate, between,"$1,700", - ,"$1,800"
+"$1,850",CORPORATE,4,Corporate, between,"$1,800", - ,"$1,900"
+"$1,950",CORPORATE,3,Corporate, between,"$1,900", - ,"$2,000"
+"$2,050",CORPORATE,27,Corporate,,,$2000+,

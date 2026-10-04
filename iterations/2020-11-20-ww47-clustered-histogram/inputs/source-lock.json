@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-04",
+  "source_workbook": {
+    "filename": "author.twbx",
+    "bytes": 50269,
+    "sha256": "19e76f4a69da7b91a9bda34b8e9d8762b6e52092dfc15fd2a685a603d86c2349",
+    "url": "https://public.tableau.com/views/2020_11_18_WW47_Clustered_Histogram/2020_11_18_WW47_Clustered_Histogram"
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Datasources/Orders (Sample - Superstore).hyper",
+      "file": "inputs/Orders (Sample - Superstore).hyper",
+      "bytes": 196608,
+      "sha256": "f286d2a68ecd749e964182c19157e36b8bda00b6e4c1fbc6c061da848110e71f"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

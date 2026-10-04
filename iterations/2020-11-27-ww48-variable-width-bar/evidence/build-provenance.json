@@ -1,0 +1,9 @@
+{
+  "artifact_sha256": "90fcf9ff916639a44c0663f781ab194a91855e6b937ae7cb77e7630a70540b01",
+  "build_initial_workbook": "TWBEditor(\"\")",
+  "author_workbook_read_by_builder": false,
+  "data_only_inputs": true,
+  "built_sdk_commit": "e7fa7cd6770ac3d07af55570a5a7fffd18ad6155",
+  "tested_sdk_provenance": "Immutable Git package installed in case virtual environment, not the SDK working-tree candidate",
+  "builder_sha256": "2eeeb74578e986509f9579ecb3ac36efa21f47089f1ac019ceca6286f4decf23"
+}

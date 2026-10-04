@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "generated_from": "iterations/*/case.yaml",
-  "active_case_count": 74,
+  "active_case_count": 79,
   "legacy_case_ids": {
     "donna-2019-07-18-63877b35d19a": "wow-2019-ww29-high-orders",
     "donna-2019-07-25-59a0a144b25b": "wow-2019-ww30-navigation-kpi",
@@ -4379,6 +4379,319 @@
         "Cloud REST state exports plus native artifact contracts; no browser click or hover execution."
       ],
       "metadata": "iterations/2020-11-13-ww46-premier-league-table/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.27.1"
+    },
+    {
+      "case_id": "wow-2020-ww47-clustered-histogram",
+      "legacy_case_ids": {},
+      "iteration_id": "2020-11-20-ww47-clustered-histogram",
+      "article_date": "2020-11-20",
+      "challenge_year": 2020,
+      "challenge_week": 47,
+      "challenge_date": "2020-11-17",
+      "date_evidence": {
+        "article_date": "Article HTML published time element retained in evidence/article-date.json.",
+        "challenge": "Explicit challenge_year; week declared in iteration_id",
+        "challenge_date": "Official WordPress REST date field retained in evidence/official-challenge-date.json."
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2020w47/"
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2020/11/20/can-you-create-a-clustered-histogram/",
+          "path": null,
+          "sha256": "33239fef51131930d466cff97083e6156effdb5b0b0f119d315cb6cb187ca5fc"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2020_11_18_WW47_Clustered_Histogram/2020_11_18_WW47_Clustered_Histogram",
+          "filename": "author.twbx",
+          "sha256": "19e76f4a69da7b91a9bda34b8e9d8762b6e52092dfc15fd2a685a603d86c2349"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "pass",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "evidence/article-date.json",
+        "evidence/build-provenance.json",
+        "evidence/cloud-verification.json",
+        "evidence/export-provenance.json",
+        "evidence/functional-verification.json",
+        "evidence/official-challenge-date.json",
+        "evidence/refinement-initial-band-label.json",
+        "evidence/sdk-final-validation.json",
+        "evidence/sdk-gap-reference-band-baseline.json",
+        "evidence/visual-review.md",
+        "evidence/zero-build-verification.json",
+        "inputs/source-lock.json"
+      ],
+      "notes": [
+        "Cloud REST data/image states plus artifact contracts; no browser click or hover executed."
+      ],
+      "metadata": "iterations/2020-11-20-ww47-clustered-histogram/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.27.1"
+    },
+    {
+      "case_id": "wow-2020-ww48-variable-width-bar",
+      "legacy_case_ids": {},
+      "iteration_id": "2020-11-27-ww48-variable-width-bar",
+      "article_date": "2020-11-27",
+      "challenge_year": 2020,
+      "challenge_week": 48,
+      "challenge_date": "2020-11-25",
+      "date_evidence": {
+        "article_date": "Article HTML published time element retained in evidence/article-date.json.",
+        "challenge": "Explicit challenge_year; week declared in iteration_id",
+        "challenge_date": "Official WordPress REST date field retained in evidence/official-challenge-date.json."
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2020w48/"
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2020/11/27/can-you-create-a-variable-width-bar-chart/",
+          "path": null,
+          "sha256": "1b9e6553fa1c59a4d47f5c807b634bc8c4284d7c280c2f1b213bfdb9d2444a3d"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2020_11_25_WW48_Variable_Width_Bar_Chart/2020_11_25_WW48_Variable_Width_Bar_Chart",
+          "filename": "author.twbx",
+          "sha256": "428fd7a01d736e98c402e07e0cc69ae03b8bc225ff2079519beee75a7e762b1c"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "pass",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "evidence/article-date.json",
+        "evidence/build-provenance.json",
+        "evidence/cloud-verification.json",
+        "evidence/export-provenance.json",
+        "evidence/functional-verification.json",
+        "evidence/official-challenge-date.json",
+        "evidence/refinement-initial-domain-layout.json",
+        "evidence/sdk-final-validation.json",
+        "evidence/visual-review.md",
+        "evidence/zero-build-verification.json",
+        "inputs/source-lock.json"
+      ],
+      "notes": [
+        "Cloud REST data/image states plus artifact contracts; no browser click or hover executed."
+      ],
+      "metadata": "iterations/2020-11-27-ww48-variable-width-bar/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.27.1"
+    },
+    {
+      "case_id": "wow-2020-ww49-and-or-filtering",
+      "legacy_case_ids": {},
+      "iteration_id": "2020-12-04-ww49-and-or-filtering",
+      "article_date": "2020-12-04",
+      "challenge_year": 2020,
+      "challenge_week": 49,
+      "challenge_date": "2020-12-01",
+      "date_evidence": {
+        "article_date": "Article HTML published time element retained in evidence/article-date.json.",
+        "challenge": "Explicit challenge_year; week declared in iteration_id",
+        "challenge_date": "Official WordPress REST date field retained in evidence/official-challenge-date.json."
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2020w49/"
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2020/12/04/can-you-toggle-between-andor-filtering-logic/",
+          "path": null,
+          "sha256": "8aca5bedd531ebcf10ec06723219547866f3b422cd2d454dbc4301aff6791461"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2020_12_02_WW49_Toggle_AND_OR_Filtering/2020_12_02_WW49_Toggle_AND_OR_Filtering",
+          "filename": "author.twbx",
+          "sha256": "53c99bcec0da970d0378d7ce0d2b5f493d525aa39484a8764bb6ca6fd9b1eeab"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "pass",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "evidence/article-date.json",
+        "evidence/build-provenance-initial.json",
+        "evidence/build-provenance-second.json",
+        "evidence/build-provenance.json",
+        "evidence/cloud-verification.json",
+        "evidence/export-provenance.json",
+        "evidence/functional-verification.json",
+        "evidence/initial-cloud-capture.json",
+        "evidence/initial-cloud-review.json",
+        "evidence/official-challenge-date.json",
+        "evidence/sdk-final-validation.json",
+        "evidence/sdk-gap-multiselect-set-control-baseline.json",
+        "evidence/sdk-gap-use-all-set-baseline.json",
+        "evidence/visual-review.md",
+        "evidence/zero-build-verification.json",
+        "inputs/source-lock.json"
+      ],
+      "notes": [
+        "Cloud REST image/data states plus generated native artifact contracts; no browser actions executed.",
+        "The builder reads locked Hyper data and starts from TWBEditor(\"\"); no author workbook template."
+      ],
+      "metadata": "iterations/2020-12-04-ww49-and-or-filtering/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.27.1"
+    },
+    {
+      "case_id": "wow-2020-ww50-profit-measure-names",
+      "legacy_case_ids": {},
+      "iteration_id": "2020-12-11-ww50-profit-measure-names",
+      "article_date": "2020-12-11",
+      "challenge_year": 2020,
+      "challenge_week": 50,
+      "challenge_date": "2020-12-08",
+      "date_evidence": {
+        "article_date": "Article HTML published time element retained in evidence/article-date.json.",
+        "challenge": "Explicit challenge_year; week declared in iteration_id",
+        "challenge_date": "Official WordPress REST date field retained in evidence/official-challenge-date.json."
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2020w50/"
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2020/12/11/can-you-highlight-profits-with-measure-names/",
+          "path": null,
+          "sha256": "61339f984ec1ae5e3c3f38affe322f5c6dac8f1a43d276033e0ec53095aca7a5"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2020_12_09_WW50_Measure_Names_Dot_Plot/2020_12_09_WW50_Measure_Names_Dot_Plot",
+          "filename": "author.twbx",
+          "sha256": "a5d4fa1bdd72366a23eb9b8f2792a0a9c221b20f0b743882f531535046c79809"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "pass",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "evidence/article-date.json",
+        "evidence/build-provenance-initial.json",
+        "evidence/build-provenance-second.json",
+        "evidence/build-provenance.json",
+        "evidence/cloud-verification.json",
+        "evidence/export-provenance.json",
+        "evidence/functional-verification.json",
+        "evidence/initial-cloud-capture.json",
+        "evidence/initial-cloud-review.json",
+        "evidence/official-challenge-date.json",
+        "evidence/partition-8-9-cloud-capture.json",
+        "evidence/partition-8-9-cloud-review.json",
+        "evidence/sdk-final-validation.json",
+        "evidence/sdk-gap-categorical-size-baseline.json",
+        "evidence/sdk-gap-compound-color-palette-baseline.json",
+        "evidence/second-cloud-capture.json",
+        "evidence/second-cloud-review.json",
+        "evidence/visual-review.md",
+        "evidence/zero-build-verification.json",
+        "inputs/source-lock.json"
+      ],
+      "notes": [
+        "Cloud REST image/data states plus generated native artifact contracts; no browser actions executed.",
+        "The builder reads locked Hyper data and starts from TWBEditor(\"\"); no author workbook template."
+      ],
+      "metadata": "iterations/2020-12-11-ww50-profit-measure-names/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.27.1"
+    },
+    {
+      "case_id": "wow-2020-ww51-divergent-histogram",
+      "legacy_case_ids": {},
+      "iteration_id": "2020-12-18-ww51-divergent-histogram",
+      "article_date": "2020-12-18",
+      "challenge_year": 2020,
+      "challenge_week": 51,
+      "challenge_date": "2020-12-16",
+      "date_evidence": {
+        "article_date": "Article HTML published time element retained in evidence/article-date.json.",
+        "challenge": "Explicit challenge_year; week declared in iteration_id",
+        "challenge_date": "Official WordPress REST date field retained in evidence/official-challenge-date.json."
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2020w51/"
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2020/12/18/can-you-build-a-divergent-histogram/",
+          "path": null,
+          "sha256": "a36da4b4748023ba83214af40571157a3bfaa53a1d82c8287f6b5db4d3a472b0"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/workbooks/2020_12_16_WW51_Divergent_Histogram.twb",
+          "filename": "author.twbx",
+          "sha256": "6cf0b36c18ca213e0d076c8e58fac066adcc1873dd8a25038970aab0db8ca04e"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "pass",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "evidence/article-date.json",
+        "evidence/build-provenance.json",
+        "evidence/cloud-verification.json",
+        "evidence/export-provenance.json",
+        "evidence/functional-verification.json",
+        "evidence/official-challenge-date.json",
+        "evidence/reference-domain-boundary.json",
+        "evidence/sdk-baseline.json",
+        "evidence/sdk-final-validation.json",
+        "evidence/visual-review.md",
+        "evidence/zero-build-verification.json",
+        "inputs/source-lock.json"
+      ],
+      "notes": [
+        "All four actual REST states and complete Viz exports verified; original signed-count reference-domain limitation is documented in visual review and reference-domain-boundary evidence."
+      ],
+      "metadata": "iterations/2020-12-18-ww51-divergent-histogram/case.yaml",
       "metadata_contract": "1.1.0",
       "tested_sdk_version": "0.27.1"
     },

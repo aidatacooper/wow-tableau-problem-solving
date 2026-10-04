@@ -1,0 +1,5 @@
+{
+  "accepted": false,
+  "artifact_sha256": "aacc4eb90acb5a94cf8abc634bda660e1ee784e93ae06807e3c55b79e44186e8",
+  "reason": "Author Viz partition-a requested eight including Copiers but returned only selected Copiers (6 rows). Data returned all eight (24 rows). Partition-b excluded Copiers and genuinely returned all nine (54 rows). An all-domain filter also failed to clear the source selected-mark CSV scope. No full coverage claimed. Final complementary partitions will request sixteen excluding Copiers and Copiers alone; artifact is unchanged."
+}

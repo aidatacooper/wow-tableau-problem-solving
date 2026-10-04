@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-04",
+  "source_workbook": {
+    "filename": "author.twbx",
+    "bytes": 24465,
+    "sha256": "428fd7a01d736e98c402e07e0cc69ae03b8bc225ff2079519beee75a7e762b1c",
+    "url": "https://public.tableau.com/views/2020_11_25_WW48_Variable_Width_Bar_Chart/2020_11_25_WW48_Variable_Width_Bar_Chart"
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Datasources/Turkey Symposium 2020 Extract.hyper",
+      "file": "inputs/Turkey Symposium 2020 Extract.hyper",
+      "bytes": 65536,
+      "sha256": "49c7c8bdad772c96d434daffaed6060c2de5e818caae2683f373d97fb65555b0"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

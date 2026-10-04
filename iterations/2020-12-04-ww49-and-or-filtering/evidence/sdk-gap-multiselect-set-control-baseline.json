@@ -1,0 +1,16 @@
+{
+  "released_sdk": {
+    "url": "https://github.com/aidatacooper/cwtwb.git",
+    "vcs_info": {
+      "vcs": "git",
+      "commit_id": "e977401d862f0754ba610249e6720d61058ebdea",
+      "requested_revision": "e977401d862f0754ba610249e6720d61058ebdea"
+    }
+  },
+  "error_type": "ValueError",
+  "error": "set_control currently supports dropdown mode",
+  "source_native_mode": "checkdropdown",
+  "existing_mode": "dropdown",
+  "required_behavior": "Native multiselect set membership dropdown, retaining set group and linked worksheet identity; native show-apply=\"true\"",
+  "source_control_fragment": "<zone xmlns:user=\"http://www.tableausoftware.com/xml/user\" h=\"6777\" id=\"10\" mode=\"checkdropdown\" name=\"Region\" param=\"[federated.1450wwh06h3vw00zuornm04874gb].[Selected Slicer 1 Values Set]\" show-apply=\"true\" type-v2=\"setMembership\" w=\"24790\" x=\"27478\" y=\"12556\">\n                  <zone-style>\n                    <format attr=\"border-color\" value=\"#000000\"/>\n                    <format attr=\"border-style\" value=\"none\"/>\n                    <format attr=\"border-width\" value=\"0\"/>\n                    <format attr=\"margin\" value=\"4\"/>\n                  </zone-style>\n                </zone>\n              \n\n<zone xmlns:user=\"http://www.tableausoftware.com/xml/user\" h=\"6777\" id=\"11\" mode=\"checkdropdown\" name=\"Region\" param=\"[federated.1450wwh06h3vw00zuornm04874gb].[Selected Slicer 2 Values Set]\" show-apply=\"true\" type-v2=\"setMembership\" w=\"23068\" x=\"52436\" y=\"12556\">\n                  <zone-style>\n                    <format attr=\"border-color\" value=\"#000000\"/>\n                    <format attr=\"border-style\" value=\"none\"/>\n                    <format attr=\"border-width\" value=\"0\"/>\n                    <format attr=\"margin\" value=\"4\"/>\n                  </zone-style>\n                </zone>\n              \n\n<zone xmlns:user=\"http://www.tableausoftware.com/xml/user\" h=\"6777\" id=\"12\" mode=\"checkdropdown\" name=\"Region\" param=\"[federated.1450wwh06h3vw00zuornm04874gb].[Selected Slicer 3 Values Set]\" show-apply=\"true\" type-v2=\"setMembership\" w=\"23068\" x=\"75672\" y=\"12556\">\n                  <zone-style>\n                    <format attr=\"border-color\" value=\"#000000\"/>\n                    <format attr=\"border-style\" value=\"none\"/>\n                    <format attr=\"border-width\" value=\"0\"/>\n                    <format attr=\"margin\" value=\"4\"/>\n                  </zone-style>\n                </zone>\n              \n"
+}

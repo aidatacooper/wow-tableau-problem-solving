@@ -1,0 +1,636 @@
+{
+  "case_id": "wow-2020-ww49-and-or-filtering",
+  "captured_at": "2026-10-04T12:59:41.340873+00:00",
+  "source_hashes": {
+    "author": "368ef24099ea3346e89a0e35219cb92fb25fb3f9a5e0c528ecae44cde612ab6c",
+    "replica": "37b31548ad60b1993a14cf4b9ac1a76408c9abaed597a1009eb07bc09e48bee5"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "01d39807-a6d0-4001-8867-e0f431f54b96",
+      "name": "cwtwb-review-wow-2020-ww49-and-or-filtering-author-368ef24099ea",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2936050",
+      "views": [
+        {
+          "name": "2020_12_02_WW49_Toggle_AND_OR_Filtering",
+          "id": "6be6dd77-1fe7-45cb-8138-241e9638459d"
+        },
+        {
+          "name": "Category",
+          "id": "d276ba27-aa76-4189-9114-f00d08ed6432"
+        },
+        {
+          "name": "Region",
+          "id": "10793be3-e3ff-4f83-b534-7153597f66a0"
+        },
+        {
+          "name": "Segment",
+          "id": "380f878a-2417-4f1d-96d9-c7625cc1ccc4"
+        },
+        {
+          "name": "Ship Mode",
+          "id": "3b6f94cf-34c7-42c3-80f2-6e6cf5e6e767"
+        }
+      ]
+    },
+    "replica": {
+      "id": "2caa2a09-4314-41fb-bbf7-ad7cf034e178",
+      "name": "cwtwb-review-wow-2020-ww49-and-or-filtering-replica-37b31548ad60",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2936051",
+      "views": [
+        {
+          "name": "Region",
+          "id": "2fae75df-0275-4c00-b328-b0f6f8a5e241"
+        },
+        {
+          "name": "Category",
+          "id": "2ee222ba-3873-4bd5-8a27-dcdafc8273a4"
+        },
+        {
+          "name": "Segment",
+          "id": "8b562791-8b40-4d86-b4eb-373883f62aed"
+        },
+        {
+          "name": "Ship Mode",
+          "id": "1e67fd6e-bdec-418a-952d-c4bdd3d23fa0"
+        },
+        {
+          "name": "2020_12_02_WW49_Toggle_AND_OR_Filtering",
+          "id": "07f87cda-4fb8-461c-bebf-6ff8dc83e443"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "6be6dd77-1fe7-45cb-8138-241e9638459d",
+          "name": "2020_12_02_WW49_Toggle_AND_OR_Filtering",
+          "path": "outputs/cloud-author.png",
+          "sha256": "2350f9cfb7c95efb5a186bb5b4fe1d080231a2be3370e091d015692629a123bf",
+          "size": [
+            2380,
+            1800
+          ]
+        },
+        "replica": {
+          "id": "07f87cda-4fb8-461c-bebf-6ff8dc83e443",
+          "name": "2020_12_02_WW49_Toggle_AND_OR_Filtering",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "fb632726c4400945e209e2f2d74d1b8fb015d510b617e836bf1d6f625687cc74",
+          "size": [
+            2380,
+            1800
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Region",
+          "view_id": "10793be3-e3ff-4f83-b534-7153597f66a0",
+          "scope": "Complete worksheet primary CSV at declared REST parameter/filter state. Set selection and hover events are native artifact contracts only.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-region.csv",
+          "sha256": "f733b24722b62369845eabf05b59f566f1889a10b2a8571bb150c162c8eda333",
+          "bytes": 318
+        },
+        {
+          "role": "author",
+          "view": "Category",
+          "view_id": "d276ba27-aa76-4189-9114-f00d08ed6432",
+          "scope": "Complete worksheet primary CSV at declared REST parameter/filter state. Set selection and hover events are native artifact contracts only.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-category.csv",
+          "sha256": "67cff88dca96d6346e48e0d363870cde4e80dd9fe17cba4d289abf6642f9612a",
+          "bytes": 248
+        },
+        {
+          "role": "author",
+          "view": "Segment",
+          "view_id": "380f878a-2417-4f1d-96d9-c7625cc1ccc4",
+          "scope": "Complete worksheet primary CSV at declared REST parameter/filter state. Set selection and hover events are native artifact contracts only.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-segment.csv",
+          "sha256": "4041029538d0a9e8c7061077a77aa6bb142de6a1f0c1c80efad8ac549cb4a88e",
+          "bytes": 242
+        },
+        {
+          "role": "author",
+          "view": "Ship Mode",
+          "view_id": "3b6f94cf-34c7-42c3-80f2-6e6cf5e6e767",
+          "scope": "Complete worksheet primary CSV at declared REST parameter/filter state. Set selection and hover events are native artifact contracts only.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-ship-mode.csv",
+          "sha256": "c8366241a7f3ef7eb6098c730359aa22fe485b479b4cddaa2bdb684efbbd6efb",
+          "bytes": 287
+        },
+        {
+          "role": "replica",
+          "view": "Region",
+          "view_id": "2fae75df-0275-4c00-b328-b0f6f8a5e241",
+          "scope": "Complete worksheet primary CSV at declared REST parameter/filter state. Set selection and hover events are native artifact contracts only.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-region.csv",
+          "sha256": "8cbe1305481721057e0ca0e0b7414c1ae6a4cfd80a984618cbe5cc9583171863",
+          "bytes": 244
+        },
+        {
+          "role": "replica",
+          "view": "Category",
+          "view_id": "2ee222ba-3873-4bd5-8a27-dcdafc8273a4",
+          "scope": "Complete worksheet primary CSV at declared REST parameter/filter state. Set selection and hover events are native artifact contracts only.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-category.csv",
+          "sha256": "0ebac76ccdc720d3b5b5f1efeb069bce39995d5afde81db474bde2776cd70032",
+          "bytes": 224
+        },
+        {
+          "role": "replica",
+          "view": "Segment",
+          "view_id": "8b562791-8b40-4d86-b4eb-373883f62aed",
+          "scope": "Complete worksheet primary CSV at declared REST parameter/filter state. Set selection and hover events are native artifact contracts only.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-segment.csv",
+          "sha256": "f7175d94d7390462154e05cf140397f89580da27c13fa7cd3e2ac14d2d877a69",
+          "bytes": 219
+        },
+        {
+          "role": "replica",
+          "view": "Ship Mode",
+          "view_id": "1e67fd6e-bdec-418a-952d-c4bdd3d23fa0",
+          "scope": "Complete worksheet primary CSV at declared REST parameter/filter state. Set selection and hover events are native artifact contracts only.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-ship-mode.csv",
+          "sha256": "f02aa0f98f60c25c420f69472e6be2a3014a17e99ff6408bc5741ecb8e4a8b0f",
+          "bytes": 274
+        }
+      ]
+    },
+    {
+      "name": "quantity-or",
+      "parameters": {
+        "Selected Measure": "Quantity",
+        "pLogic": "OR"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "6be6dd77-1fe7-45cb-8138-241e9638459d",
+          "name": "2020_12_02_WW49_Toggle_AND_OR_Filtering",
+          "path": "outputs/cloud-author-quantity-or.png",
+          "sha256": "5b2adca92691f47f2199d150095de85d4f3def5eb9b9e3858040e57bbc5ceca8",
+          "size": [
+            2380,
+            1800
+          ]
+        },
+        "replica": {
+          "id": "07f87cda-4fb8-461c-bebf-6ff8dc83e443",
+          "name": "2020_12_02_WW49_Toggle_AND_OR_Filtering",
+          "path": "outputs/cloud-replica-quantity-or.png",
+          "sha256": "5e840ff0386d0a4409cda499e9ea88c3b4b0a47b4a845a32fe73866417cfd840",
+          "size": [
+            2380,
+            1800
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Region",
+          "view_id": "10793be3-e3ff-4f83-b534-7153597f66a0",
+          "scope": "Complete worksheet primary CSV at declared REST parameter/filter state. Set selection and hover events are native artifact contracts only.",
+          "parameters": {
+            "Selected Measure": "Quantity",
+            "pLogic": "OR"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-region-quantity-or.csv",
+          "sha256": "acdd4d06e310be8d9795eb4e7a243cb45db3ad1c79714333dd3573c554e0d6e5",
+          "bytes": 274
+        },
+        {
+          "role": "author",
+          "view": "Category",
+          "view_id": "d276ba27-aa76-4189-9114-f00d08ed6432",
+          "scope": "Complete worksheet primary CSV at declared REST parameter/filter state. Set selection and hover events are native artifact contracts only.",
+          "parameters": {
+            "Selected Measure": "Quantity",
+            "pLogic": "OR"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-category-quantity-or.csv",
+          "sha256": "ff6e9a2dfa27c4700b16406ad6f1db67bdc1ad6cd103f5bb4cc65a2f85621414",
+          "bytes": 210
+        },
+        {
+          "role": "author",
+          "view": "Segment",
+          "view_id": "380f878a-2417-4f1d-96d9-c7625cc1ccc4",
+          "scope": "Complete worksheet primary CSV at declared REST parameter/filter state. Set selection and hover events are native artifact contracts only.",
+          "parameters": {
+            "Selected Measure": "Quantity",
+            "pLogic": "OR"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-segment-quantity-or.csv",
+          "sha256": "6973622d65688d2c8889c75ee8fd3a5c8aa12c80a55a223c82f7e4874baee4be",
+          "bytes": 204
+        },
+        {
+          "role": "author",
+          "view": "Ship Mode",
+          "view_id": "3b6f94cf-34c7-42c3-80f2-6e6cf5e6e767",
+          "scope": "Complete worksheet primary CSV at declared REST parameter/filter state. Set selection and hover events are native artifact contracts only.",
+          "parameters": {
+            "Selected Measure": "Quantity",
+            "pLogic": "OR"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-ship-mode-quantity-or.csv",
+          "sha256": "c0c98ff07ab6df6860ed0ac59d0c5e02b368c44c8a189849fc0f06bb2363aba1",
+          "bytes": 246
+        },
+        {
+          "role": "replica",
+          "view": "Region",
+          "view_id": "2fae75df-0275-4c00-b328-b0f6f8a5e241",
+          "scope": "Complete worksheet primary CSV at declared REST parameter/filter state. Set selection and hover events are native artifact contracts only.",
+          "parameters": {
+            "Selected Measure": "Quantity",
+            "pLogic": "OR"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-region-quantity-or.csv",
+          "sha256": "1d798b2b3a36f607f8765beec14cb77a123f57440e227102a63f3194f96b7ee7",
+          "bytes": 238
+        },
+        {
+          "role": "replica",
+          "view": "Category",
+          "view_id": "2ee222ba-3873-4bd5-8a27-dcdafc8273a4",
+          "scope": "Complete worksheet primary CSV at declared REST parameter/filter state. Set selection and hover events are native artifact contracts only.",
+          "parameters": {
+            "Selected Measure": "Quantity",
+            "pLogic": "OR"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-category-quantity-or.csv",
+          "sha256": "81ddc31d63c14eecfeac0132c12f594d5aa100e513bd5814949508ad63f6739b",
+          "bytes": 219
+        },
+        {
+          "role": "replica",
+          "view": "Segment",
+          "view_id": "8b562791-8b40-4d86-b4eb-373883f62aed",
+          "scope": "Complete worksheet primary CSV at declared REST parameter/filter state. Set selection and hover events are native artifact contracts only.",
+          "parameters": {
+            "Selected Measure": "Quantity",
+            "pLogic": "OR"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-segment-quantity-or.csv",
+          "sha256": "74d4565331c664fe385bc6005bd6732f67a4b8fbf562d68a8ef9254f7f2c066a",
+          "bytes": 213
+        },
+        {
+          "role": "replica",
+          "view": "Ship Mode",
+          "view_id": "1e67fd6e-bdec-418a-952d-c4bdd3d23fa0",
+          "scope": "Complete worksheet primary CSV at declared REST parameter/filter state. Set selection and hover events are native artifact contracts only.",
+          "parameters": {
+            "Selected Measure": "Quantity",
+            "pLogic": "OR"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-ship-mode-quantity-or.csv",
+          "sha256": "6acf800ee97cf53c2cd17f464e213bc5780c81b488618476345187df1f9019a5",
+          "bytes": 265
+        }
+      ]
+    },
+    {
+      "name": "orders-and",
+      "parameters": {
+        "Selected Measure": "Orders",
+        "pLogic": "AND"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "6be6dd77-1fe7-45cb-8138-241e9638459d",
+          "name": "2020_12_02_WW49_Toggle_AND_OR_Filtering",
+          "path": "outputs/cloud-author-orders-and.png",
+          "sha256": "f1059ed7feff0d990e6269a402dc33cf9fce77ebd9b9670f252492b9727248a5",
+          "size": [
+            2380,
+            1800
+          ]
+        },
+        "replica": {
+          "id": "07f87cda-4fb8-461c-bebf-6ff8dc83e443",
+          "name": "2020_12_02_WW49_Toggle_AND_OR_Filtering",
+          "path": "outputs/cloud-replica-orders-and.png",
+          "sha256": "ac98ffc3c0322e9fe22d9d5e7c52ee8a0317ad7f94565b17d8eb984086e8d8de",
+          "size": [
+            2380,
+            1800
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Region",
+          "view_id": "10793be3-e3ff-4f83-b534-7153597f66a0",
+          "scope": "Complete worksheet primary CSV at declared REST parameter/filter state. Set selection and hover events are native artifact contracts only.",
+          "parameters": {
+            "Selected Measure": "Orders",
+            "pLogic": "AND"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-region-orders-and.csv",
+          "sha256": "e250fdd2eeca4e5aff1ac5c112af1ab26dc979d434b320f47a3fe7b9a1120398",
+          "bytes": 268
+        },
+        {
+          "role": "author",
+          "view": "Category",
+          "view_id": "d276ba27-aa76-4189-9114-f00d08ed6432",
+          "scope": "Complete worksheet primary CSV at declared REST parameter/filter state. Set selection and hover events are native artifact contracts only.",
+          "parameters": {
+            "Selected Measure": "Orders",
+            "pLogic": "AND"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-category-orders-and.csv",
+          "sha256": "1a0dd22d898c25d58ca98b93179076950867e2d68ae460debeaaf77f51909e93",
+          "bytes": 209
+        },
+        {
+          "role": "author",
+          "view": "Segment",
+          "view_id": "380f878a-2417-4f1d-96d9-c7625cc1ccc4",
+          "scope": "Complete worksheet primary CSV at declared REST parameter/filter state. Set selection and hover events are native artifact contracts only.",
+          "parameters": {
+            "Selected Measure": "Orders",
+            "pLogic": "AND"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-segment-orders-and.csv",
+          "sha256": "bc6f001c2d3ec334313f2ce9e2ca94940651da113cee3763459d4c6e7df75d78",
+          "bytes": 198
+        },
+        {
+          "role": "author",
+          "view": "Ship Mode",
+          "view_id": "3b6f94cf-34c7-42c3-80f2-6e6cf5e6e767",
+          "scope": "Complete worksheet primary CSV at declared REST parameter/filter state. Set selection and hover events are native artifact contracts only.",
+          "parameters": {
+            "Selected Measure": "Orders",
+            "pLogic": "AND"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-ship-mode-orders-and.csv",
+          "sha256": "6ebeb8f1670e6e5e0e724fc256911ba726c8b3f17025c9b707e371e9b535758f",
+          "bytes": 233
+        },
+        {
+          "role": "replica",
+          "view": "Region",
+          "view_id": "2fae75df-0275-4c00-b328-b0f6f8a5e241",
+          "scope": "Complete worksheet primary CSV at declared REST parameter/filter state. Set selection and hover events are native artifact contracts only.",
+          "parameters": {
+            "Selected Measure": "Orders",
+            "pLogic": "AND"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-region-orders-and.csv",
+          "sha256": "60487884f99d52b81b27d3fdffad4b44e501fe674006e8140847c60b7cdf3537",
+          "bytes": 232
+        },
+        {
+          "role": "replica",
+          "view": "Category",
+          "view_id": "2ee222ba-3873-4bd5-8a27-dcdafc8273a4",
+          "scope": "Complete worksheet primary CSV at declared REST parameter/filter state. Set selection and hover events are native artifact contracts only.",
+          "parameters": {
+            "Selected Measure": "Orders",
+            "pLogic": "AND"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-category-orders-and.csv",
+          "sha256": "3df0cb51c5b808cec42ec979bdeb4dc72962f699331a79dd02c542d2c6e8ceef",
+          "bytes": 218
+        },
+        {
+          "role": "replica",
+          "view": "Segment",
+          "view_id": "8b562791-8b40-4d86-b4eb-373883f62aed",
+          "scope": "Complete worksheet primary CSV at declared REST parameter/filter state. Set selection and hover events are native artifact contracts only.",
+          "parameters": {
+            "Selected Measure": "Orders",
+            "pLogic": "AND"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-segment-orders-and.csv",
+          "sha256": "ee58fe7b5ef0c6cb71890ff321574e44e9b55195a5649b8199a4acc2ca9a6abc",
+          "bytes": 207
+        },
+        {
+          "role": "replica",
+          "view": "Ship Mode",
+          "view_id": "1e67fd6e-bdec-418a-952d-c4bdd3d23fa0",
+          "scope": "Complete worksheet primary CSV at declared REST parameter/filter state. Set selection and hover events are native artifact contracts only.",
+          "parameters": {
+            "Selected Measure": "Orders",
+            "pLogic": "AND"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-ship-mode-orders-and.csv",
+          "sha256": "73dbf52452cb761737ea0dd1dd730c9eb4137a085730a1552a7c2f5b933e2aa9",
+          "bytes": 252
+        }
+      ]
+    },
+    {
+      "name": "region-category-or",
+      "parameters": {
+        "Selected Measure": "Sales",
+        "pLogic": "OR",
+        "Select a Field for Slicer 1:": "\u255a Region",
+        "Select a Field for Slicer 2:": "\u255a Category"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "6be6dd77-1fe7-45cb-8138-241e9638459d",
+          "name": "2020_12_02_WW49_Toggle_AND_OR_Filtering",
+          "path": "outputs/cloud-author-region-category-or.png",
+          "sha256": "2cd7f55cf28dcc840ba620423f093059c7741420182f400f0022b3122ea9e528",
+          "size": [
+            2380,
+            1800
+          ]
+        },
+        "replica": {
+          "id": "07f87cda-4fb8-461c-bebf-6ff8dc83e443",
+          "name": "2020_12_02_WW49_Toggle_AND_OR_Filtering",
+          "path": "outputs/cloud-replica-region-category-or.png",
+          "sha256": "aeeb3256a9f4e32f19ec13dcd445b7316954b72261e1f7fbbb220ae15bdb79c5",
+          "size": [
+            2380,
+            1800
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Region",
+          "view_id": "10793be3-e3ff-4f83-b534-7153597f66a0",
+          "scope": "Complete worksheet primary CSV at declared REST parameter/filter state. Set selection and hover events are native artifact contracts only.",
+          "parameters": {
+            "Selected Measure": "Sales",
+            "pLogic": "OR",
+            "Select a Field for Slicer 1:": "\u255a Region",
+            "Select a Field for Slicer 2:": "\u255a Category"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-region-region-category-or.csv",
+          "sha256": "f733b24722b62369845eabf05b59f566f1889a10b2a8571bb150c162c8eda333",
+          "bytes": 318
+        },
+        {
+          "role": "author",
+          "view": "Category",
+          "view_id": "d276ba27-aa76-4189-9114-f00d08ed6432",
+          "scope": "Complete worksheet primary CSV at declared REST parameter/filter state. Set selection and hover events are native artifact contracts only.",
+          "parameters": {
+            "Selected Measure": "Sales",
+            "pLogic": "OR",
+            "Select a Field for Slicer 1:": "\u255a Region",
+            "Select a Field for Slicer 2:": "\u255a Category"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-category-region-category-or.csv",
+          "sha256": "67cff88dca96d6346e48e0d363870cde4e80dd9fe17cba4d289abf6642f9612a",
+          "bytes": 248
+        },
+        {
+          "role": "author",
+          "view": "Segment",
+          "view_id": "380f878a-2417-4f1d-96d9-c7625cc1ccc4",
+          "scope": "Complete worksheet primary CSV at declared REST parameter/filter state. Set selection and hover events are native artifact contracts only.",
+          "parameters": {
+            "Selected Measure": "Sales",
+            "pLogic": "OR",
+            "Select a Field for Slicer 1:": "\u255a Region",
+            "Select a Field for Slicer 2:": "\u255a Category"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-segment-region-category-or.csv",
+          "sha256": "4041029538d0a9e8c7061077a77aa6bb142de6a1f0c1c80efad8ac549cb4a88e",
+          "bytes": 242
+        },
+        {
+          "role": "author",
+          "view": "Ship Mode",
+          "view_id": "3b6f94cf-34c7-42c3-80f2-6e6cf5e6e767",
+          "scope": "Complete worksheet primary CSV at declared REST parameter/filter state. Set selection and hover events are native artifact contracts only.",
+          "parameters": {
+            "Selected Measure": "Sales",
+            "pLogic": "OR",
+            "Select a Field for Slicer 1:": "\u255a Region",
+            "Select a Field for Slicer 2:": "\u255a Category"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-ship-mode-region-category-or.csv",
+          "sha256": "c8366241a7f3ef7eb6098c730359aa22fe485b479b4cddaa2bdb684efbbd6efb",
+          "bytes": 287
+        },
+        {
+          "role": "replica",
+          "view": "Region",
+          "view_id": "2fae75df-0275-4c00-b328-b0f6f8a5e241",
+          "scope": "Complete worksheet primary CSV at declared REST parameter/filter state. Set selection and hover events are native artifact contracts only.",
+          "parameters": {
+            "Selected Measure": "Sales",
+            "pLogic": "OR",
+            "Select a Field for Slicer 1:": "\u255a Region",
+            "Select a Field for Slicer 2:": "\u255a Category"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-region-region-category-or.csv",
+          "sha256": "8cbe1305481721057e0ca0e0b7414c1ae6a4cfd80a984618cbe5cc9583171863",
+          "bytes": 244
+        },
+        {
+          "role": "replica",
+          "view": "Category",
+          "view_id": "2ee222ba-3873-4bd5-8a27-dcdafc8273a4",
+          "scope": "Complete worksheet primary CSV at declared REST parameter/filter state. Set selection and hover events are native artifact contracts only.",
+          "parameters": {
+            "Selected Measure": "Sales",
+            "pLogic": "OR",
+            "Select a Field for Slicer 1:": "\u255a Region",
+            "Select a Field for Slicer 2:": "\u255a Category"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-category-region-category-or.csv",
+          "sha256": "0ebac76ccdc720d3b5b5f1efeb069bce39995d5afde81db474bde2776cd70032",
+          "bytes": 224
+        },
+        {
+          "role": "replica",
+          "view": "Segment",
+          "view_id": "8b562791-8b40-4d86-b4eb-373883f62aed",
+          "scope": "Complete worksheet primary CSV at declared REST parameter/filter state. Set selection and hover events are native artifact contracts only.",
+          "parameters": {
+            "Selected Measure": "Sales",
+            "pLogic": "OR",
+            "Select a Field for Slicer 1:": "\u255a Region",
+            "Select a Field for Slicer 2:": "\u255a Category"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-segment-region-category-or.csv",
+          "sha256": "f7175d94d7390462154e05cf140397f89580da27c13fa7cd3e2ac14d2d877a69",
+          "bytes": 219
+        },
+        {
+          "role": "replica",
+          "view": "Ship Mode",
+          "view_id": "1e67fd6e-bdec-418a-952d-c4bdd3d23fa0",
+          "scope": "Complete worksheet primary CSV at declared REST parameter/filter state. Set selection and hover events are native artifact contracts only.",
+          "parameters": {
+            "Selected Measure": "Sales",
+            "pLogic": "OR",
+            "Select a Field for Slicer 1:": "\u255a Region",
+            "Select a Field for Slicer 2:": "\u255a Category"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-ship-mode-region-category-or.csv",
+          "sha256": "f02aa0f98f60c25c420f69472e6be2a3014a17e99ff6408bc5741ecb8e4a8b0f",
+          "bytes": 274
+        }
+      ]
+    }
+  ],
+  "status": "captured_requires_independent_review"
+}

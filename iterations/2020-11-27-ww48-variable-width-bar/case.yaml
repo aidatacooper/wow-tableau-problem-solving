@@ -1,0 +1,81 @@
+schema_version: 1.1.0
+case_id: wow-2020-ww48-variable-width-bar
+iteration_id: 2020-11-27-ww48-variable-width-bar
+post: https://donnacoles.home.blog/2020/11/27/can-you-create-a-variable-width-bar-chart/
+legacy_case_ids: {}
+article_date: '2020-11-27'
+challenge_year: 2020
+challenge_week: 48
+challenge_date: '2020-11-25'
+date_evidence:
+  article_date: Article HTML published time element retained in evidence/article-date.json.
+  challenge: Explicit challenge_year; week declared in iteration_id
+  challenge_date: Official WordPress REST date field retained in evidence/official-challenge-date.json.
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2020w48/
+  article:
+    url: https://donnacoles.home.blog/2020/11/27/can-you-create-a-variable-width-bar-chart/
+    path: null
+    sha256: 1b9e6553fa1c59a4d47f5c807b634bc8c4284d7c280c2f1b213bfdb9d2444a3d
+  workbook:
+    url: https://public.tableau.com/views/2020_11_25_WW48_Variable_Width_Bar_Chart/2020_11_25_WW48_Variable_Width_Bar_Chart
+    filename: author.twbx
+    sha256: 428fd7a01d736e98c402e07e0cc69ae03b8bc225ff2079519beee75a7e762b1c
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- evidence/article-date.json
+- evidence/build-provenance.json
+- evidence/cloud-verification.json
+- evidence/export-provenance.json
+- evidence/functional-verification.json
+- evidence/official-challenge-date.json
+- evidence/refinement-initial-domain-layout.json
+- evidence/sdk-final-validation.json
+- evidence/visual-review.md
+- evidence/zero-build-verification.json
+- inputs/source-lock.json
+notes:
+- Cloud REST data/image states plus artifact contracts; no browser click or hover
+  executed.
+cwtwb:
+  tested_version: 0.27.1
+  tested_commit: df8c2a52cd48800fa0a43d936f6946d318f5b953
+  runs:
+  - version: 0.27.1
+    commit: e7fa7cd6770ac3d07af55570a5a7fffd18ad6155
+    result: pass
+    evidence: evidence/functional-verification.json
+  - version: 0.27.1
+    commit: df8c2a52cd48800fa0a43d936f6946d318f5b953
+    result: pass
+    evidence: evidence/sdk-final-validation.json
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: pass
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/Turkey Symposium 2020 Extract.hyper
+acceptance:
+- id: ww48-raw-oracle
+  description: Recompute every locked raw-data fact and business group.
+  mode: automated
+- id: ww48-native-contracts
+  description: Verify native calculations, marks, width, tooltip and dashboard geometry.
+  mode: automated
+- id: ww48-cloud-data
+  description: Pair complete source and replica CSV with independent raw oracle at
+    every REST state.
+  mode: automated
+remaining_work: []
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []

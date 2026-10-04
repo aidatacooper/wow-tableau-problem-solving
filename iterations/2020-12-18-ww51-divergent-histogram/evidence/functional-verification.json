@@ -1,0 +1,6463 @@
+{
+  "status": "pass",
+  "artifact_sha256": "2f76d2a090b5544cd9d840192296f3b50fba0faf7e201c99fd7f576592c635cf",
+  "acceptance_ids": [
+    "distinct-country-bins",
+    "dynamic-symmetric-domain",
+    "native-histogram-layout"
+  ],
+  "oracle": {
+    "raw_rows": 5382,
+    "years": {
+      "2000": {
+        "marks": [
+          {
+            "sex": "Life Expectancy Female",
+            "age": 39,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 42,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 44,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 45,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 46,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 47,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 48,
+            "count": 4,
+            "signed_count": 4
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 49,
+            "count": 6,
+            "signed_count": 6
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 50,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 51,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 52,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 53,
+            "count": 5,
+            "signed_count": 5
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 54,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 56,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 57,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 58,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 59,
+            "count": 4,
+            "signed_count": 4
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 60,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 61,
+            "count": 4,
+            "signed_count": 4
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 62,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 63,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 64,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 65,
+            "count": 4,
+            "signed_count": 4
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 66,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 67,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 68,
+            "count": 5,
+            "signed_count": 5
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 69,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 70,
+            "count": 8,
+            "signed_count": 8
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 71,
+            "count": 7,
+            "signed_count": 7
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 72,
+            "count": 5,
+            "signed_count": 5
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 73,
+            "count": 10,
+            "signed_count": 10
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 74,
+            "count": 11,
+            "signed_count": 11
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 75,
+            "count": 18,
+            "signed_count": 18
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 76,
+            "count": 9,
+            "signed_count": 9
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 77,
+            "count": 6,
+            "signed_count": 6
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 78,
+            "count": 11,
+            "signed_count": 11
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 79,
+            "count": 5,
+            "signed_count": 5
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 80,
+            "count": 11,
+            "signed_count": 11
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 81,
+            "count": 12,
+            "signed_count": 12
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 82,
+            "count": 5,
+            "signed_count": 5
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 83,
+            "count": 4,
+            "signed_count": 4
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 84,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 85,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 37,
+            "count": 1,
+            "signed_count": -1
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 42,
+            "count": 2,
+            "signed_count": -2
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 44,
+            "count": 2,
+            "signed_count": -2
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 45,
+            "count": 1,
+            "signed_count": -1
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 46,
+            "count": 6,
+            "signed_count": -6
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 47,
+            "count": 3,
+            "signed_count": -3
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 48,
+            "count": 3,
+            "signed_count": -3
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 49,
+            "count": 5,
+            "signed_count": -5
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 50,
+            "count": 1,
+            "signed_count": -1
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 51,
+            "count": 5,
+            "signed_count": -5
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 52,
+            "count": 2,
+            "signed_count": -2
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 53,
+            "count": 3,
+            "signed_count": -3
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 54,
+            "count": 4,
+            "signed_count": -4
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 55,
+            "count": 1,
+            "signed_count": -1
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 56,
+            "count": 5,
+            "signed_count": -5
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 57,
+            "count": 2,
+            "signed_count": -2
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 58,
+            "count": 2,
+            "signed_count": -2
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 59,
+            "count": 4,
+            "signed_count": -4
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 60,
+            "count": 8,
+            "signed_count": -8
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 61,
+            "count": 4,
+            "signed_count": -4
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 62,
+            "count": 4,
+            "signed_count": -4
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 63,
+            "count": 4,
+            "signed_count": -4
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 64,
+            "count": 5,
+            "signed_count": -5
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 65,
+            "count": 9,
+            "signed_count": -9
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 66,
+            "count": 5,
+            "signed_count": -5
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 67,
+            "count": 10,
+            "signed_count": -10
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 68,
+            "count": 13,
+            "signed_count": -13
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 69,
+            "count": 8,
+            "signed_count": -8
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 70,
+            "count": 9,
+            "signed_count": -9
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 71,
+            "count": 12,
+            "signed_count": -12
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 72,
+            "count": 8,
+            "signed_count": -8
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 73,
+            "count": 6,
+            "signed_count": -6
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 74,
+            "count": 9,
+            "signed_count": -9
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 75,
+            "count": 11,
+            "signed_count": -11
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 76,
+            "count": 9,
+            "signed_count": -9
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 77,
+            "count": 7,
+            "signed_count": -7
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 78,
+            "count": 3,
+            "signed_count": -3
+          }
+        ],
+        "mark_count": 80,
+        "excluded_null_age_rows": 22,
+        "reference_max": 18,
+        "reference_min": -18,
+        "peaks": {
+          "Life Expectancy Female": {
+            "count": 18,
+            "ages": [
+              75
+            ]
+          },
+          "Life Expectancy Male": {
+            "count": 13,
+            "ages": [
+              68
+            ]
+          }
+        }
+      },
+      "2001": {
+        "marks": [
+          {
+            "sex": "Life Expectancy Female",
+            "age": 40,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 43,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 45,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 46,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 47,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 48,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 49,
+            "count": 4,
+            "signed_count": 4
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 50,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 51,
+            "count": 5,
+            "signed_count": 5
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 52,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 53,
+            "count": 4,
+            "signed_count": 4
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 54,
+            "count": 4,
+            "signed_count": 4
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 56,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 57,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 58,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 59,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 60,
+            "count": 4,
+            "signed_count": 4
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 61,
+            "count": 4,
+            "signed_count": 4
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 62,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 64,
+            "count": 4,
+            "signed_count": 4
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 65,
+            "count": 4,
+            "signed_count": 4
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 66,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 67,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 68,
+            "count": 4,
+            "signed_count": 4
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 70,
+            "count": 10,
+            "signed_count": 10
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 71,
+            "count": 5,
+            "signed_count": 5
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 72,
+            "count": 5,
+            "signed_count": 5
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 73,
+            "count": 10,
+            "signed_count": 10
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 74,
+            "count": 11,
+            "signed_count": 11
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 75,
+            "count": 14,
+            "signed_count": 14
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 76,
+            "count": 12,
+            "signed_count": 12
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 77,
+            "count": 7,
+            "signed_count": 7
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 78,
+            "count": 12,
+            "signed_count": 12
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 79,
+            "count": 5,
+            "signed_count": 5
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 80,
+            "count": 10,
+            "signed_count": 10
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 81,
+            "count": 11,
+            "signed_count": 11
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 82,
+            "count": 8,
+            "signed_count": 8
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 83,
+            "count": 5,
+            "signed_count": 5
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 84,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 85,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 38,
+            "count": 1,
+            "signed_count": -1
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 42,
+            "count": 2,
+            "signed_count": -2
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 43,
+            "count": 1,
+            "signed_count": -1
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 45,
+            "count": 3,
+            "signed_count": -3
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 46,
+            "count": 5,
+            "signed_count": -5
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 47,
+            "count": 3,
+            "signed_count": -3
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 48,
+            "count": 3,
+            "signed_count": -3
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 49,
+            "count": 1,
+            "signed_count": -1
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 50,
+            "count": 4,
+            "signed_count": -4
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 51,
+            "count": 5,
+            "signed_count": -5
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 52,
+            "count": 4,
+            "signed_count": -4
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 53,
+            "count": 2,
+            "signed_count": -2
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 54,
+            "count": 4,
+            "signed_count": -4
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 56,
+            "count": 3,
+            "signed_count": -3
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 57,
+            "count": 4,
+            "signed_count": -4
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 58,
+            "count": 3,
+            "signed_count": -3
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 59,
+            "count": 3,
+            "signed_count": -3
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 60,
+            "count": 6,
+            "signed_count": -6
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 61,
+            "count": 5,
+            "signed_count": -5
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 62,
+            "count": 5,
+            "signed_count": -5
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 63,
+            "count": 4,
+            "signed_count": -4
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 64,
+            "count": 3,
+            "signed_count": -3
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 65,
+            "count": 9,
+            "signed_count": -9
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 66,
+            "count": 6,
+            "signed_count": -6
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 67,
+            "count": 8,
+            "signed_count": -8
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 68,
+            "count": 15,
+            "signed_count": -15
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 69,
+            "count": 5,
+            "signed_count": -5
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 70,
+            "count": 9,
+            "signed_count": -9
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 71,
+            "count": 15,
+            "signed_count": -15
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 72,
+            "count": 6,
+            "signed_count": -6
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 73,
+            "count": 8,
+            "signed_count": -8
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 74,
+            "count": 6,
+            "signed_count": -6
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 75,
+            "count": 7,
+            "signed_count": -7
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 76,
+            "count": 15,
+            "signed_count": -15
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 77,
+            "count": 6,
+            "signed_count": -6
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 78,
+            "count": 6,
+            "signed_count": -6
+          }
+        ],
+        "mark_count": 76,
+        "excluded_null_age_rows": 24,
+        "reference_max": 14,
+        "reference_min": -14,
+        "peaks": {
+          "Life Expectancy Female": {
+            "count": 14,
+            "ages": [
+              75
+            ]
+          },
+          "Life Expectancy Male": {
+            "count": 15,
+            "ages": [
+              68,
+              71,
+              76
+            ]
+          }
+        }
+      },
+      "2002": {
+        "marks": [
+          {
+            "sex": "Life Expectancy Female",
+            "age": 40,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 43,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 44,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 45,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 46,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 47,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 48,
+            "count": 4,
+            "signed_count": 4
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 49,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 50,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 51,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 52,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 53,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 54,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 55,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 56,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 57,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 58,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 59,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 60,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 61,
+            "count": 4,
+            "signed_count": 4
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 62,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 63,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 64,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 65,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 66,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 67,
+            "count": 4,
+            "signed_count": 4
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 68,
+            "count": 4,
+            "signed_count": 4
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 70,
+            "count": 8,
+            "signed_count": 8
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 71,
+            "count": 5,
+            "signed_count": 5
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 72,
+            "count": 6,
+            "signed_count": 6
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 73,
+            "count": 9,
+            "signed_count": 9
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 74,
+            "count": 12,
+            "signed_count": 12
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 75,
+            "count": 13,
+            "signed_count": 13
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 76,
+            "count": 14,
+            "signed_count": 14
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 77,
+            "count": 9,
+            "signed_count": 9
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 78,
+            "count": 9,
+            "signed_count": 9
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 79,
+            "count": 8,
+            "signed_count": 8
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 80,
+            "count": 7,
+            "signed_count": 7
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 81,
+            "count": 12,
+            "signed_count": 12
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 82,
+            "count": 11,
+            "signed_count": 11
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 83,
+            "count": 6,
+            "signed_count": 6
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 85,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 39,
+            "count": 1,
+            "signed_count": -1
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 42,
+            "count": 1,
+            "signed_count": -1
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 43,
+            "count": 2,
+            "signed_count": -2
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 44,
+            "count": 1,
+            "signed_count": -1
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 45,
+            "count": 1,
+            "signed_count": -1
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 46,
+            "count": 5,
+            "signed_count": -5
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 47,
+            "count": 3,
+            "signed_count": -3
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 48,
+            "count": 2,
+            "signed_count": -2
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 49,
+            "count": 1,
+            "signed_count": -1
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 50,
+            "count": 5,
+            "signed_count": -5
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 51,
+            "count": 4,
+            "signed_count": -4
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 52,
+            "count": 6,
+            "signed_count": -6
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 53,
+            "count": 2,
+            "signed_count": -2
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 54,
+            "count": 1,
+            "signed_count": -1
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 55,
+            "count": 3,
+            "signed_count": -3
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 56,
+            "count": 2,
+            "signed_count": -2
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 57,
+            "count": 5,
+            "signed_count": -5
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 58,
+            "count": 2,
+            "signed_count": -2
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 59,
+            "count": 2,
+            "signed_count": -2
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 60,
+            "count": 4,
+            "signed_count": -4
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 61,
+            "count": 5,
+            "signed_count": -5
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 62,
+            "count": 7,
+            "signed_count": -7
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 63,
+            "count": 5,
+            "signed_count": -5
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 64,
+            "count": 4,
+            "signed_count": -4
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 65,
+            "count": 9,
+            "signed_count": -9
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 66,
+            "count": 4,
+            "signed_count": -4
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 67,
+            "count": 7,
+            "signed_count": -7
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 68,
+            "count": 12,
+            "signed_count": -12
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 69,
+            "count": 13,
+            "signed_count": -13
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 70,
+            "count": 8,
+            "signed_count": -8
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 71,
+            "count": 16,
+            "signed_count": -16
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 72,
+            "count": 6,
+            "signed_count": -6
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 73,
+            "count": 5,
+            "signed_count": -5
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 74,
+            "count": 7,
+            "signed_count": -7
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 75,
+            "count": 11,
+            "signed_count": -11
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 76,
+            "count": 12,
+            "signed_count": -12
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 77,
+            "count": 8,
+            "signed_count": -8
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 78,
+            "count": 5,
+            "signed_count": -5
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 79,
+            "count": 2,
+            "signed_count": -2
+          }
+        ],
+        "mark_count": 81,
+        "excluded_null_age_rows": 16,
+        "reference_max": 14,
+        "reference_min": -14,
+        "peaks": {
+          "Life Expectancy Female": {
+            "count": 14,
+            "ages": [
+              76
+            ]
+          },
+          "Life Expectancy Male": {
+            "count": 16,
+            "ages": [
+              71
+            ]
+          }
+        }
+      },
+      "2003": {
+        "marks": [
+          {
+            "sex": "Life Expectancy Female",
+            "age": 41,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 42,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 44,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 45,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 46,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 47,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 48,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 49,
+            "count": 4,
+            "signed_count": 4
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 50,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 51,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 52,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 53,
+            "count": 7,
+            "signed_count": 7
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 54,
+            "count": 4,
+            "signed_count": 4
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 55,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 56,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 57,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 58,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 59,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 60,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 61,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 62,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 63,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 65,
+            "count": 5,
+            "signed_count": 5
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 66,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 67,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 68,
+            "count": 5,
+            "signed_count": 5
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 69,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 70,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 71,
+            "count": 9,
+            "signed_count": 9
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 72,
+            "count": 7,
+            "signed_count": 7
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 73,
+            "count": 6,
+            "signed_count": 6
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 74,
+            "count": 11,
+            "signed_count": 11
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 75,
+            "count": 13,
+            "signed_count": 13
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 76,
+            "count": 18,
+            "signed_count": 18
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 77,
+            "count": 6,
+            "signed_count": 6
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 78,
+            "count": 9,
+            "signed_count": 9
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 79,
+            "count": 9,
+            "signed_count": 9
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 80,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 81,
+            "count": 18,
+            "signed_count": 18
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 82,
+            "count": 10,
+            "signed_count": 10
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 83,
+            "count": 6,
+            "signed_count": 6
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 84,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 85,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 40,
+            "count": 1,
+            "signed_count": -1
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 43,
+            "count": 2,
+            "signed_count": -2
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 44,
+            "count": 2,
+            "signed_count": -2
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 46,
+            "count": 6,
+            "signed_count": -6
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 47,
+            "count": 4,
+            "signed_count": -4
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 48,
+            "count": 1,
+            "signed_count": -1
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 49,
+            "count": 1,
+            "signed_count": -1
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 50,
+            "count": 1,
+            "signed_count": -1
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 51,
+            "count": 8,
+            "signed_count": -8
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 52,
+            "count": 4,
+            "signed_count": -4
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 53,
+            "count": 3,
+            "signed_count": -3
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 54,
+            "count": 1,
+            "signed_count": -1
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 55,
+            "count": 4,
+            "signed_count": -4
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 56,
+            "count": 1,
+            "signed_count": -1
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 57,
+            "count": 4,
+            "signed_count": -4
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 58,
+            "count": 3,
+            "signed_count": -3
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 59,
+            "count": 3,
+            "signed_count": -3
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 60,
+            "count": 3,
+            "signed_count": -3
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 61,
+            "count": 5,
+            "signed_count": -5
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 62,
+            "count": 6,
+            "signed_count": -6
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 63,
+            "count": 5,
+            "signed_count": -5
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 64,
+            "count": 5,
+            "signed_count": -5
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 65,
+            "count": 4,
+            "signed_count": -4
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 66,
+            "count": 10,
+            "signed_count": -10
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 67,
+            "count": 7,
+            "signed_count": -7
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 68,
+            "count": 11,
+            "signed_count": -11
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 69,
+            "count": 10,
+            "signed_count": -10
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 70,
+            "count": 8,
+            "signed_count": -8
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 71,
+            "count": 13,
+            "signed_count": -13
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 72,
+            "count": 10,
+            "signed_count": -10
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 73,
+            "count": 5,
+            "signed_count": -5
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 74,
+            "count": 8,
+            "signed_count": -8
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 75,
+            "count": 8,
+            "signed_count": -8
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 76,
+            "count": 13,
+            "signed_count": -13
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 77,
+            "count": 7,
+            "signed_count": -7
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 78,
+            "count": 7,
+            "signed_count": -7
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 79,
+            "count": 1,
+            "signed_count": -1
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 80,
+            "count": 1,
+            "signed_count": -1
+          }
+        ],
+        "mark_count": 81,
+        "excluded_null_age_rows": 22,
+        "reference_max": 18,
+        "reference_min": -18,
+        "peaks": {
+          "Life Expectancy Female": {
+            "count": 18,
+            "ages": [
+              76,
+              81
+            ]
+          },
+          "Life Expectancy Male": {
+            "count": 13,
+            "ages": [
+              71,
+              76
+            ]
+          }
+        }
+      },
+      "2004": {
+        "marks": [
+          {
+            "sex": "Life Expectancy Female",
+            "age": 42,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 43,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 44,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 46,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 48,
+            "count": 4,
+            "signed_count": 4
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 49,
+            "count": 4,
+            "signed_count": 4
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 50,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 51,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 52,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 53,
+            "count": 6,
+            "signed_count": 6
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 54,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 55,
+            "count": 5,
+            "signed_count": 5
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 56,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 57,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 58,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 59,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 60,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 61,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 62,
+            "count": 4,
+            "signed_count": 4
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 63,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 64,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 65,
+            "count": 4,
+            "signed_count": 4
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 66,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 67,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 68,
+            "count": 4,
+            "signed_count": 4
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 69,
+            "count": 4,
+            "signed_count": 4
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 71,
+            "count": 9,
+            "signed_count": 9
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 72,
+            "count": 9,
+            "signed_count": 9
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 73,
+            "count": 5,
+            "signed_count": 5
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 74,
+            "count": 7,
+            "signed_count": 7
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 75,
+            "count": 15,
+            "signed_count": 15
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 76,
+            "count": 17,
+            "signed_count": 17
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 77,
+            "count": 9,
+            "signed_count": 9
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 78,
+            "count": 8,
+            "signed_count": 8
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 79,
+            "count": 10,
+            "signed_count": 10
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 80,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 81,
+            "count": 13,
+            "signed_count": 13
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 82,
+            "count": 12,
+            "signed_count": 12
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 83,
+            "count": 5,
+            "signed_count": 5
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 84,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 85,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 86,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 41,
+            "count": 1,
+            "signed_count": -1
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 43,
+            "count": 2,
+            "signed_count": -2
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 44,
+            "count": 1,
+            "signed_count": -1
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 45,
+            "count": 1,
+            "signed_count": -1
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 46,
+            "count": 4,
+            "signed_count": -4
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 47,
+            "count": 4,
+            "signed_count": -4
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 48,
+            "count": 3,
+            "signed_count": -3
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 50,
+            "count": 1,
+            "signed_count": -1
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 51,
+            "count": 6,
+            "signed_count": -6
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 52,
+            "count": 5,
+            "signed_count": -5
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 53,
+            "count": 5,
+            "signed_count": -5
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 55,
+            "count": 4,
+            "signed_count": -4
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 56,
+            "count": 2,
+            "signed_count": -2
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 57,
+            "count": 3,
+            "signed_count": -3
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 58,
+            "count": 3,
+            "signed_count": -3
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 59,
+            "count": 4,
+            "signed_count": -4
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 60,
+            "count": 3,
+            "signed_count": -3
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 61,
+            "count": 4,
+            "signed_count": -4
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 62,
+            "count": 4,
+            "signed_count": -4
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 63,
+            "count": 7,
+            "signed_count": -7
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 64,
+            "count": 7,
+            "signed_count": -7
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 65,
+            "count": 2,
+            "signed_count": -2
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 66,
+            "count": 8,
+            "signed_count": -8
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 67,
+            "count": 8,
+            "signed_count": -8
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 68,
+            "count": 7,
+            "signed_count": -7
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 69,
+            "count": 15,
+            "signed_count": -15
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 70,
+            "count": 8,
+            "signed_count": -8
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 71,
+            "count": 9,
+            "signed_count": -9
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 72,
+            "count": 11,
+            "signed_count": -11
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 73,
+            "count": 8,
+            "signed_count": -8
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 74,
+            "count": 4,
+            "signed_count": -4
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 75,
+            "count": 10,
+            "signed_count": -10
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 76,
+            "count": 11,
+            "signed_count": -11
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 77,
+            "count": 8,
+            "signed_count": -8
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 78,
+            "count": 7,
+            "signed_count": -7
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 79,
+            "count": 6,
+            "signed_count": -6
+          }
+        ],
+        "mark_count": 78,
+        "excluded_null_age_rows": 22,
+        "reference_max": 17,
+        "reference_min": -17,
+        "peaks": {
+          "Life Expectancy Female": {
+            "count": 17,
+            "ages": [
+              76
+            ]
+          },
+          "Life Expectancy Male": {
+            "count": 15,
+            "ages": [
+              69
+            ]
+          }
+        }
+      },
+      "2005": {
+        "marks": [
+          {
+            "sex": "Life Expectancy Female",
+            "age": 42,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 43,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 44,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 46,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 47,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 48,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 49,
+            "count": 4,
+            "signed_count": 4
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 50,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 51,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 52,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 53,
+            "count": 6,
+            "signed_count": 6
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 54,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 55,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 56,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 58,
+            "count": 4,
+            "signed_count": 4
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 59,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 60,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 61,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 62,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 63,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 64,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 65,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 66,
+            "count": 6,
+            "signed_count": 6
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 67,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 68,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 69,
+            "count": 5,
+            "signed_count": 5
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 70,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 71,
+            "count": 8,
+            "signed_count": 8
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 72,
+            "count": 10,
+            "signed_count": 10
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 73,
+            "count": 4,
+            "signed_count": 4
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 74,
+            "count": 8,
+            "signed_count": 8
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 75,
+            "count": 12,
+            "signed_count": 12
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 76,
+            "count": 14,
+            "signed_count": 14
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 77,
+            "count": 15,
+            "signed_count": 15
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 78,
+            "count": 6,
+            "signed_count": 6
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 79,
+            "count": 11,
+            "signed_count": 11
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 80,
+            "count": 4,
+            "signed_count": 4
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 81,
+            "count": 11,
+            "signed_count": 11
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 82,
+            "count": 12,
+            "signed_count": 12
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 83,
+            "count": 5,
+            "signed_count": 5
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 84,
+            "count": 6,
+            "signed_count": 6
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 85,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 42,
+            "count": 1,
+            "signed_count": -1
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 43,
+            "count": 1,
+            "signed_count": -1
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 44,
+            "count": 2,
+            "signed_count": -2
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 46,
+            "count": 4,
+            "signed_count": -4
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 47,
+            "count": 4,
+            "signed_count": -4
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 48,
+            "count": 2,
+            "signed_count": -2
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 49,
+            "count": 2,
+            "signed_count": -2
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 50,
+            "count": 2,
+            "signed_count": -2
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 51,
+            "count": 3,
+            "signed_count": -3
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 52,
+            "count": 4,
+            "signed_count": -4
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 53,
+            "count": 3,
+            "signed_count": -3
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 54,
+            "count": 5,
+            "signed_count": -5
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 56,
+            "count": 5,
+            "signed_count": -5
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 57,
+            "count": 1,
+            "signed_count": -1
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 58,
+            "count": 4,
+            "signed_count": -4
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 59,
+            "count": 5,
+            "signed_count": -5
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 60,
+            "count": 4,
+            "signed_count": -4
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 61,
+            "count": 1,
+            "signed_count": -1
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 62,
+            "count": 5,
+            "signed_count": -5
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 63,
+            "count": 5,
+            "signed_count": -5
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 64,
+            "count": 9,
+            "signed_count": -9
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 65,
+            "count": 4,
+            "signed_count": -4
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 66,
+            "count": 6,
+            "signed_count": -6
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 67,
+            "count": 11,
+            "signed_count": -11
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 68,
+            "count": 4,
+            "signed_count": -4
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 69,
+            "count": 16,
+            "signed_count": -16
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 70,
+            "count": 8,
+            "signed_count": -8
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 71,
+            "count": 6,
+            "signed_count": -6
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 72,
+            "count": 14,
+            "signed_count": -14
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 73,
+            "count": 9,
+            "signed_count": -9
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 74,
+            "count": 3,
+            "signed_count": -3
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 75,
+            "count": 9,
+            "signed_count": -9
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 76,
+            "count": 8,
+            "signed_count": -8
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 77,
+            "count": 13,
+            "signed_count": -13
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 78,
+            "count": 7,
+            "signed_count": -7
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 79,
+            "count": 5,
+            "signed_count": -5
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 80,
+            "count": 1,
+            "signed_count": -1
+          }
+        ],
+        "mark_count": 79,
+        "excluded_null_age_rows": 22,
+        "reference_max": 15,
+        "reference_min": -15,
+        "peaks": {
+          "Life Expectancy Female": {
+            "count": 15,
+            "ages": [
+              77
+            ]
+          },
+          "Life Expectancy Male": {
+            "count": 16,
+            "ages": [
+              69
+            ]
+          }
+        }
+      },
+      "2006": {
+        "marks": [
+          {
+            "sex": "Life Expectancy Female",
+            "age": 43,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 44,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 46,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 47,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 49,
+            "count": 4,
+            "signed_count": 4
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 50,
+            "count": 4,
+            "signed_count": 4
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 51,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 52,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 53,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 54,
+            "count": 5,
+            "signed_count": 5
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 55,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 56,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 57,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 58,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 59,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 60,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 61,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 62,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 63,
+            "count": 4,
+            "signed_count": 4
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 65,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 66,
+            "count": 5,
+            "signed_count": 5
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 67,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 68,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 69,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 70,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 71,
+            "count": 6,
+            "signed_count": 6
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 72,
+            "count": 11,
+            "signed_count": 11
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 73,
+            "count": 4,
+            "signed_count": 4
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 74,
+            "count": 8,
+            "signed_count": 8
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 75,
+            "count": 7,
+            "signed_count": 7
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 76,
+            "count": 21,
+            "signed_count": 21
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 77,
+            "count": 15,
+            "signed_count": 15
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 78,
+            "count": 6,
+            "signed_count": 6
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 79,
+            "count": 5,
+            "signed_count": 5
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 80,
+            "count": 11,
+            "signed_count": 11
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 81,
+            "count": 6,
+            "signed_count": 6
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 82,
+            "count": 13,
+            "signed_count": 13
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 83,
+            "count": 10,
+            "signed_count": 10
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 84,
+            "count": 4,
+            "signed_count": 4
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 85,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 86,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 43,
+            "count": 1,
+            "signed_count": -1
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 44,
+            "count": 2,
+            "signed_count": -2
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 46,
+            "count": 4,
+            "signed_count": -4
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 47,
+            "count": 3,
+            "signed_count": -3
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 48,
+            "count": 3,
+            "signed_count": -3
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 49,
+            "count": 2,
+            "signed_count": -2
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 50,
+            "count": 3,
+            "signed_count": -3
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 51,
+            "count": 2,
+            "signed_count": -2
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 52,
+            "count": 3,
+            "signed_count": -3
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 53,
+            "count": 3,
+            "signed_count": -3
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 54,
+            "count": 2,
+            "signed_count": -2
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 55,
+            "count": 4,
+            "signed_count": -4
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 56,
+            "count": 4,
+            "signed_count": -4
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 57,
+            "count": 3,
+            "signed_count": -3
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 58,
+            "count": 3,
+            "signed_count": -3
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 59,
+            "count": 4,
+            "signed_count": -4
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 60,
+            "count": 4,
+            "signed_count": -4
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 61,
+            "count": 2,
+            "signed_count": -2
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 62,
+            "count": 5,
+            "signed_count": -5
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 63,
+            "count": 4,
+            "signed_count": -4
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 64,
+            "count": 8,
+            "signed_count": -8
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 65,
+            "count": 6,
+            "signed_count": -6
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 66,
+            "count": 7,
+            "signed_count": -7
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 67,
+            "count": 8,
+            "signed_count": -8
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 68,
+            "count": 5,
+            "signed_count": -5
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 69,
+            "count": 17,
+            "signed_count": -17
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 70,
+            "count": 7,
+            "signed_count": -7
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 71,
+            "count": 9,
+            "signed_count": -9
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 72,
+            "count": 11,
+            "signed_count": -11
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 73,
+            "count": 10,
+            "signed_count": -10
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 74,
+            "count": 4,
+            "signed_count": -4
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 75,
+            "count": 8,
+            "signed_count": -8
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 76,
+            "count": 8,
+            "signed_count": -8
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 77,
+            "count": 12,
+            "signed_count": -12
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 78,
+            "count": 6,
+            "signed_count": -6
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 79,
+            "count": 8,
+            "signed_count": -8
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 80,
+            "count": 1,
+            "signed_count": -1
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 88,
+            "count": 1,
+            "signed_count": -1
+          }
+        ],
+        "mark_count": 79,
+        "excluded_null_age_rows": 20,
+        "reference_max": 21,
+        "reference_min": -21,
+        "peaks": {
+          "Life Expectancy Female": {
+            "count": 21,
+            "ages": [
+              76
+            ]
+          },
+          "Life Expectancy Male": {
+            "count": 17,
+            "ages": [
+              69
+            ]
+          }
+        }
+      },
+      "2007": {
+        "marks": [
+          {
+            "sex": "Life Expectancy Female",
+            "age": 44,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 45,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 46,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 47,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 48,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 49,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 50,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 51,
+            "count": 4,
+            "signed_count": 4
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 52,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 53,
+            "count": 4,
+            "signed_count": 4
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 54,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 55,
+            "count": 5,
+            "signed_count": 5
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 57,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 58,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 59,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 60,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 61,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 62,
+            "count": 6,
+            "signed_count": 6
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 63,
+            "count": 4,
+            "signed_count": 4
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 66,
+            "count": 5,
+            "signed_count": 5
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 67,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 68,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 69,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 70,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 71,
+            "count": 5,
+            "signed_count": 5
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 72,
+            "count": 10,
+            "signed_count": 10
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 73,
+            "count": 4,
+            "signed_count": 4
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 74,
+            "count": 8,
+            "signed_count": 8
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 75,
+            "count": 6,
+            "signed_count": 6
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 76,
+            "count": 18,
+            "signed_count": 18
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 77,
+            "count": 21,
+            "signed_count": 21
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 78,
+            "count": 5,
+            "signed_count": 5
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 79,
+            "count": 7,
+            "signed_count": 7
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 80,
+            "count": 10,
+            "signed_count": 10
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 81,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 82,
+            "count": 15,
+            "signed_count": 15
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 83,
+            "count": 11,
+            "signed_count": 11
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 84,
+            "count": 5,
+            "signed_count": 5
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 85,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 86,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 43,
+            "count": 1,
+            "signed_count": -1
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 45,
+            "count": 2,
+            "signed_count": -2
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 46,
+            "count": 1,
+            "signed_count": -1
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 47,
+            "count": 5,
+            "signed_count": -5
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 48,
+            "count": 2,
+            "signed_count": -2
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 49,
+            "count": 3,
+            "signed_count": -3
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 50,
+            "count": 1,
+            "signed_count": -1
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 51,
+            "count": 4,
+            "signed_count": -4
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 52,
+            "count": 2,
+            "signed_count": -2
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 53,
+            "count": 3,
+            "signed_count": -3
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 54,
+            "count": 3,
+            "signed_count": -3
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 55,
+            "count": 3,
+            "signed_count": -3
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 56,
+            "count": 3,
+            "signed_count": -3
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 57,
+            "count": 5,
+            "signed_count": -5
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 58,
+            "count": 2,
+            "signed_count": -2
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 59,
+            "count": 5,
+            "signed_count": -5
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 60,
+            "count": 2,
+            "signed_count": -2
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 61,
+            "count": 5,
+            "signed_count": -5
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 62,
+            "count": 3,
+            "signed_count": -3
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 63,
+            "count": 6,
+            "signed_count": -6
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 64,
+            "count": 6,
+            "signed_count": -6
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 65,
+            "count": 7,
+            "signed_count": -7
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 66,
+            "count": 7,
+            "signed_count": -7
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 67,
+            "count": 6,
+            "signed_count": -6
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 68,
+            "count": 6,
+            "signed_count": -6
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 69,
+            "count": 12,
+            "signed_count": -12
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 70,
+            "count": 13,
+            "signed_count": -13
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 71,
+            "count": 8,
+            "signed_count": -8
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 72,
+            "count": 13,
+            "signed_count": -13
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 73,
+            "count": 9,
+            "signed_count": -9
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 74,
+            "count": 5,
+            "signed_count": -5
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 75,
+            "count": 7,
+            "signed_count": -7
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 76,
+            "count": 9,
+            "signed_count": -9
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 77,
+            "count": 10,
+            "signed_count": -10
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 78,
+            "count": 9,
+            "signed_count": -9
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 79,
+            "count": 7,
+            "signed_count": -7
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 80,
+            "count": 2,
+            "signed_count": -2
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 88,
+            "count": 1,
+            "signed_count": -1
+          }
+        ],
+        "mark_count": 78,
+        "excluded_null_age_rows": 18,
+        "reference_max": 21,
+        "reference_min": -21,
+        "peaks": {
+          "Life Expectancy Female": {
+            "count": 21,
+            "ages": [
+              77
+            ]
+          },
+          "Life Expectancy Male": {
+            "count": 13,
+            "ages": [
+              70,
+              72
+            ]
+          }
+        }
+      },
+      "2008": {
+        "marks": [
+          {
+            "sex": "Life Expectancy Female",
+            "age": 44,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 46,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 47,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 48,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 49,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 50,
+            "count": 4,
+            "signed_count": 4
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 51,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 52,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 53,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 54,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 55,
+            "count": 4,
+            "signed_count": 4
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 56,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 57,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 58,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 59,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 60,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 61,
+            "count": 5,
+            "signed_count": 5
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 62,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 63,
+            "count": 5,
+            "signed_count": 5
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 64,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 66,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 67,
+            "count": 5,
+            "signed_count": 5
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 68,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 69,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 70,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 71,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 72,
+            "count": 11,
+            "signed_count": 11
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 73,
+            "count": 5,
+            "signed_count": 5
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 74,
+            "count": 7,
+            "signed_count": 7
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 75,
+            "count": 6,
+            "signed_count": 6
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 76,
+            "count": 14,
+            "signed_count": 14
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 77,
+            "count": 21,
+            "signed_count": 21
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 78,
+            "count": 7,
+            "signed_count": 7
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 79,
+            "count": 7,
+            "signed_count": 7
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 80,
+            "count": 10,
+            "signed_count": 10
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 81,
+            "count": 6,
+            "signed_count": 6
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 82,
+            "count": 12,
+            "signed_count": 12
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 83,
+            "count": 14,
+            "signed_count": 14
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 84,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 85,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 86,
+            "count": 4,
+            "signed_count": 4
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 44,
+            "count": 1,
+            "signed_count": -1
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 45,
+            "count": 1,
+            "signed_count": -1
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 46,
+            "count": 2,
+            "signed_count": -2
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 47,
+            "count": 2,
+            "signed_count": -2
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 48,
+            "count": 4,
+            "signed_count": -4
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 49,
+            "count": 2,
+            "signed_count": -2
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 50,
+            "count": 2,
+            "signed_count": -2
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 51,
+            "count": 3,
+            "signed_count": -3
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 52,
+            "count": 4,
+            "signed_count": -4
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 53,
+            "count": 1,
+            "signed_count": -1
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 54,
+            "count": 3,
+            "signed_count": -3
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 55,
+            "count": 2,
+            "signed_count": -2
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 56,
+            "count": 4,
+            "signed_count": -4
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 57,
+            "count": 4,
+            "signed_count": -4
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 58,
+            "count": 3,
+            "signed_count": -3
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 59,
+            "count": 6,
+            "signed_count": -6
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 60,
+            "count": 2,
+            "signed_count": -2
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 61,
+            "count": 4,
+            "signed_count": -4
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 62,
+            "count": 4,
+            "signed_count": -4
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 63,
+            "count": 5,
+            "signed_count": -5
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 64,
+            "count": 5,
+            "signed_count": -5
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 65,
+            "count": 9,
+            "signed_count": -9
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 66,
+            "count": 4,
+            "signed_count": -4
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 67,
+            "count": 7,
+            "signed_count": -7
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 68,
+            "count": 8,
+            "signed_count": -8
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 69,
+            "count": 9,
+            "signed_count": -9
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 70,
+            "count": 13,
+            "signed_count": -13
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 71,
+            "count": 10,
+            "signed_count": -10
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 72,
+            "count": 13,
+            "signed_count": -13
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 73,
+            "count": 10,
+            "signed_count": -10
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 74,
+            "count": 4,
+            "signed_count": -4
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 75,
+            "count": 7,
+            "signed_count": -7
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 76,
+            "count": 8,
+            "signed_count": -8
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 77,
+            "count": 9,
+            "signed_count": -9
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 78,
+            "count": 13,
+            "signed_count": -13
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 79,
+            "count": 6,
+            "signed_count": -6
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 80,
+            "count": 4,
+            "signed_count": -4
+          }
+        ],
+        "mark_count": 78,
+        "excluded_null_age_rows": 18,
+        "reference_max": 21,
+        "reference_min": -21,
+        "peaks": {
+          "Life Expectancy Female": {
+            "count": 21,
+            "ages": [
+              77
+            ]
+          },
+          "Life Expectancy Male": {
+            "count": 13,
+            "ages": [
+              70,
+              72,
+              78
+            ]
+          }
+        }
+      },
+      "2009": {
+        "marks": [
+          {
+            "sex": "Life Expectancy Female",
+            "age": 45,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 46,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 47,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 48,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 49,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 50,
+            "count": 4,
+            "signed_count": 4
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 51,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 52,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 53,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 54,
+            "count": 4,
+            "signed_count": 4
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 55,
+            "count": 4,
+            "signed_count": 4
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 56,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 57,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 58,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 59,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 60,
+            "count": 4,
+            "signed_count": 4
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 61,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 62,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 63,
+            "count": 5,
+            "signed_count": 5
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 64,
+            "count": 5,
+            "signed_count": 5
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 66,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 67,
+            "count": 4,
+            "signed_count": 4
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 68,
+            "count": 6,
+            "signed_count": 6
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 69,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 70,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 71,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 72,
+            "count": 9,
+            "signed_count": 9
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 73,
+            "count": 8,
+            "signed_count": 8
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 74,
+            "count": 4,
+            "signed_count": 4
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 75,
+            "count": 10,
+            "signed_count": 10
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 76,
+            "count": 7,
+            "signed_count": 7
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 77,
+            "count": 24,
+            "signed_count": 24
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 78,
+            "count": 11,
+            "signed_count": 11
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 79,
+            "count": 5,
+            "signed_count": 5
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 80,
+            "count": 10,
+            "signed_count": 10
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 81,
+            "count": 8,
+            "signed_count": 8
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 82,
+            "count": 8,
+            "signed_count": 8
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 83,
+            "count": 14,
+            "signed_count": 14
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 84,
+            "count": 7,
+            "signed_count": 7
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 85,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 86,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 44,
+            "count": 1,
+            "signed_count": -1
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 46,
+            "count": 2,
+            "signed_count": -2
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 47,
+            "count": 2,
+            "signed_count": -2
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 48,
+            "count": 3,
+            "signed_count": -3
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 49,
+            "count": 2,
+            "signed_count": -2
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 50,
+            "count": 1,
+            "signed_count": -1
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 51,
+            "count": 3,
+            "signed_count": -3
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 52,
+            "count": 6,
+            "signed_count": -6
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 53,
+            "count": 1,
+            "signed_count": -1
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 54,
+            "count": 4,
+            "signed_count": -4
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 55,
+            "count": 1,
+            "signed_count": -1
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 56,
+            "count": 2,
+            "signed_count": -2
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 57,
+            "count": 4,
+            "signed_count": -4
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 58,
+            "count": 4,
+            "signed_count": -4
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 59,
+            "count": 5,
+            "signed_count": -5
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 60,
+            "count": 4,
+            "signed_count": -4
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 61,
+            "count": 5,
+            "signed_count": -5
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 62,
+            "count": 1,
+            "signed_count": -1
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 63,
+            "count": 3,
+            "signed_count": -3
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 64,
+            "count": 7,
+            "signed_count": -7
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 65,
+            "count": 10,
+            "signed_count": -10
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 66,
+            "count": 5,
+            "signed_count": -5
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 67,
+            "count": 4,
+            "signed_count": -4
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 68,
+            "count": 11,
+            "signed_count": -11
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 69,
+            "count": 6,
+            "signed_count": -6
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 70,
+            "count": 16,
+            "signed_count": -16
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 71,
+            "count": 9,
+            "signed_count": -9
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 72,
+            "count": 11,
+            "signed_count": -11
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 73,
+            "count": 13,
+            "signed_count": -13
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 74,
+            "count": 6,
+            "signed_count": -6
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 75,
+            "count": 5,
+            "signed_count": -5
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 76,
+            "count": 5,
+            "signed_count": -5
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 77,
+            "count": 13,
+            "signed_count": -13
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 78,
+            "count": 7,
+            "signed_count": -7
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 79,
+            "count": 9,
+            "signed_count": -9
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 80,
+            "count": 7,
+            "signed_count": -7
+          }
+        ],
+        "mark_count": 77,
+        "excluded_null_age_rows": 18,
+        "reference_max": 24,
+        "reference_min": -24,
+        "peaks": {
+          "Life Expectancy Female": {
+            "count": 24,
+            "ages": [
+              77
+            ]
+          },
+          "Life Expectancy Male": {
+            "count": 16,
+            "ages": [
+              70
+            ]
+          }
+        }
+      },
+      "2010": {
+        "marks": [
+          {
+            "sex": "Life Expectancy Female",
+            "age": 45,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 46,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 48,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 50,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 51,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 52,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 53,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 54,
+            "count": 5,
+            "signed_count": 5
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 55,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 56,
+            "count": 6,
+            "signed_count": 6
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 57,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 58,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 59,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 60,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 61,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 62,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 63,
+            "count": 4,
+            "signed_count": 4
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 64,
+            "count": 6,
+            "signed_count": 6
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 65,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 67,
+            "count": 4,
+            "signed_count": 4
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 68,
+            "count": 6,
+            "signed_count": 6
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 69,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 70,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 71,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 72,
+            "count": 8,
+            "signed_count": 8
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 73,
+            "count": 7,
+            "signed_count": 7
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 74,
+            "count": 5,
+            "signed_count": 5
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 75,
+            "count": 8,
+            "signed_count": 8
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 76,
+            "count": 7,
+            "signed_count": 7
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 77,
+            "count": 23,
+            "signed_count": 23
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 78,
+            "count": 13,
+            "signed_count": 13
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 79,
+            "count": 7,
+            "signed_count": 7
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 80,
+            "count": 6,
+            "signed_count": 6
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 81,
+            "count": 9,
+            "signed_count": 9
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 82,
+            "count": 8,
+            "signed_count": 8
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 83,
+            "count": 11,
+            "signed_count": 11
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 84,
+            "count": 10,
+            "signed_count": 10
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 85,
+            "count": 4,
+            "signed_count": 4
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 86,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 45,
+            "count": 1,
+            "signed_count": -1
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 46,
+            "count": 1,
+            "signed_count": -1
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 47,
+            "count": 3,
+            "signed_count": -3
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 48,
+            "count": 1,
+            "signed_count": -1
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 49,
+            "count": 4,
+            "signed_count": -4
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 50,
+            "count": 1,
+            "signed_count": -1
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 51,
+            "count": 2,
+            "signed_count": -2
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 52,
+            "count": 3,
+            "signed_count": -3
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 53,
+            "count": 5,
+            "signed_count": -5
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 54,
+            "count": 2,
+            "signed_count": -2
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 55,
+            "count": 2,
+            "signed_count": -2
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 56,
+            "count": 2,
+            "signed_count": -2
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 57,
+            "count": 3,
+            "signed_count": -3
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 58,
+            "count": 3,
+            "signed_count": -3
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 59,
+            "count": 4,
+            "signed_count": -4
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 60,
+            "count": 7,
+            "signed_count": -7
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 61,
+            "count": 5,
+            "signed_count": -5
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 62,
+            "count": 1,
+            "signed_count": -1
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 63,
+            "count": 4,
+            "signed_count": -4
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 64,
+            "count": 6,
+            "signed_count": -6
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 65,
+            "count": 9,
+            "signed_count": -9
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 66,
+            "count": 6,
+            "signed_count": -6
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 67,
+            "count": 4,
+            "signed_count": -4
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 68,
+            "count": 8,
+            "signed_count": -8
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 69,
+            "count": 9,
+            "signed_count": -9
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 70,
+            "count": 12,
+            "signed_count": -12
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 71,
+            "count": 12,
+            "signed_count": -12
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 72,
+            "count": 10,
+            "signed_count": -10
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 73,
+            "count": 12,
+            "signed_count": -12
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 74,
+            "count": 8,
+            "signed_count": -8
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 75,
+            "count": 1,
+            "signed_count": -1
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 76,
+            "count": 9,
+            "signed_count": -9
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 77,
+            "count": 10,
+            "signed_count": -10
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 78,
+            "count": 6,
+            "signed_count": -6
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 79,
+            "count": 10,
+            "signed_count": -10
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 80,
+            "count": 10,
+            "signed_count": -10
+          }
+        ],
+        "mark_count": 75,
+        "excluded_null_age_rows": 22,
+        "reference_max": 23,
+        "reference_min": -23,
+        "peaks": {
+          "Life Expectancy Female": {
+            "count": 23,
+            "ages": [
+              77
+            ]
+          },
+          "Life Expectancy Male": {
+            "count": 12,
+            "ages": [
+              70,
+              71,
+              73
+            ]
+          }
+        }
+      },
+      "2011": {
+        "marks": [
+          {
+            "sex": "Life Expectancy Female",
+            "age": 45,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 46,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 48,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 50,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 51,
+            "count": 4,
+            "signed_count": 4
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 52,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 53,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 54,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 55,
+            "count": 4,
+            "signed_count": 4
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 56,
+            "count": 4,
+            "signed_count": 4
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 57,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 58,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 59,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 60,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 61,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 62,
+            "count": 4,
+            "signed_count": 4
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 63,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 64,
+            "count": 6,
+            "signed_count": 6
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 65,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 66,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 67,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 68,
+            "count": 4,
+            "signed_count": 4
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 69,
+            "count": 6,
+            "signed_count": 6
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 70,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 71,
+            "count": 5,
+            "signed_count": 5
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 72,
+            "count": 5,
+            "signed_count": 5
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 73,
+            "count": 7,
+            "signed_count": 7
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 74,
+            "count": 7,
+            "signed_count": 7
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 75,
+            "count": 6,
+            "signed_count": 6
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 76,
+            "count": 7,
+            "signed_count": 7
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 77,
+            "count": 21,
+            "signed_count": 21
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 78,
+            "count": 13,
+            "signed_count": 13
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 79,
+            "count": 9,
+            "signed_count": 9
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 80,
+            "count": 8,
+            "signed_count": 8
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 81,
+            "count": 7,
+            "signed_count": 7
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 82,
+            "count": 9,
+            "signed_count": 9
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 83,
+            "count": 9,
+            "signed_count": 9
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 84,
+            "count": 14,
+            "signed_count": 14
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 85,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 86,
+            "count": 4,
+            "signed_count": 4
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 87,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 45,
+            "count": 1,
+            "signed_count": -1
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 47,
+            "count": 2,
+            "signed_count": -2
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 48,
+            "count": 2,
+            "signed_count": -2
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 49,
+            "count": 4,
+            "signed_count": -4
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 50,
+            "count": 1,
+            "signed_count": -1
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 51,
+            "count": 3,
+            "signed_count": -3
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 52,
+            "count": 1,
+            "signed_count": -1
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 53,
+            "count": 4,
+            "signed_count": -4
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 54,
+            "count": 3,
+            "signed_count": -3
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 55,
+            "count": 4,
+            "signed_count": -4
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 56,
+            "count": 1,
+            "signed_count": -1
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 57,
+            "count": 3,
+            "signed_count": -3
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 58,
+            "count": 1,
+            "signed_count": -1
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 59,
+            "count": 7,
+            "signed_count": -7
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 60,
+            "count": 4,
+            "signed_count": -4
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 61,
+            "count": 6,
+            "signed_count": -6
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 62,
+            "count": 3,
+            "signed_count": -3
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 63,
+            "count": 3,
+            "signed_count": -3
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 64,
+            "count": 5,
+            "signed_count": -5
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 65,
+            "count": 9,
+            "signed_count": -9
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 66,
+            "count": 7,
+            "signed_count": -7
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 67,
+            "count": 4,
+            "signed_count": -4
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 68,
+            "count": 9,
+            "signed_count": -9
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 69,
+            "count": 6,
+            "signed_count": -6
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 70,
+            "count": 9,
+            "signed_count": -9
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 71,
+            "count": 14,
+            "signed_count": -14
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 72,
+            "count": 11,
+            "signed_count": -11
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 73,
+            "count": 12,
+            "signed_count": -12
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 74,
+            "count": 8,
+            "signed_count": -8
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 75,
+            "count": 3,
+            "signed_count": -3
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 76,
+            "count": 8,
+            "signed_count": -8
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 77,
+            "count": 9,
+            "signed_count": -9
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 78,
+            "count": 7,
+            "signed_count": -7
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 79,
+            "count": 11,
+            "signed_count": -11
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 80,
+            "count": 9,
+            "signed_count": -9
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 81,
+            "count": 2,
+            "signed_count": -2
+          }
+        ],
+        "mark_count": 77,
+        "excluded_null_age_rows": 22,
+        "reference_max": 21,
+        "reference_min": -21,
+        "peaks": {
+          "Life Expectancy Female": {
+            "count": 21,
+            "ages": [
+              77
+            ]
+          },
+          "Life Expectancy Male": {
+            "count": 14,
+            "ages": [
+              71
+            ]
+          }
+        }
+      },
+      "2012": {
+        "marks": [
+          {
+            "sex": "Life Expectancy Female",
+            "age": 46,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 48,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 49,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 51,
+            "count": 4,
+            "signed_count": 4
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 52,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 53,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 54,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 55,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 56,
+            "count": 6,
+            "signed_count": 6
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 57,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 58,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 59,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 60,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 61,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 62,
+            "count": 4,
+            "signed_count": 4
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 63,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 64,
+            "count": 4,
+            "signed_count": 4
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 65,
+            "count": 5,
+            "signed_count": 5
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 66,
+            "count": 1,
+            "signed_count": 1
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 67,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 68,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 69,
+            "count": 6,
+            "signed_count": 6
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 70,
+            "count": 2,
+            "signed_count": 2
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 71,
+            "count": 4,
+            "signed_count": 4
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 72,
+            "count": 3,
+            "signed_count": 3
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 73,
+            "count": 9,
+            "signed_count": 9
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 74,
+            "count": 7,
+            "signed_count": 7
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 75,
+            "count": 6,
+            "signed_count": 6
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 76,
+            "count": 7,
+            "signed_count": 7
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 77,
+            "count": 15,
+            "signed_count": 15
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 78,
+            "count": 19,
+            "signed_count": 19
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 79,
+            "count": 8,
+            "signed_count": 8
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 80,
+            "count": 10,
+            "signed_count": 10
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 81,
+            "count": 5,
+            "signed_count": 5
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 82,
+            "count": 10,
+            "signed_count": 10
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 83,
+            "count": 9,
+            "signed_count": 9
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 84,
+            "count": 10,
+            "signed_count": 10
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 85,
+            "count": 6,
+            "signed_count": 6
+          },
+          {
+            "sex": "Life Expectancy Female",
+            "age": 86,
+            "count": 4,
+            "signed_count": 4
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 45,
+            "count": 1,
+            "signed_count": -1
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 48,
+            "count": 3,
+            "signed_count": -3
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 49,
+            "count": 3,
+            "signed_count": -3
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 50,
+            "count": 3,
+            "signed_count": -3
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 51,
+            "count": 1,
+            "signed_count": -1
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 52,
+            "count": 2,
+            "signed_count": -2
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 53,
+            "count": 2,
+            "signed_count": -2
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 54,
+            "count": 3,
+            "signed_count": -3
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 55,
+            "count": 6,
+            "signed_count": -6
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 57,
+            "count": 3,
+            "signed_count": -3
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 58,
+            "count": 3,
+            "signed_count": -3
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 59,
+            "count": 4,
+            "signed_count": -4
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 60,
+            "count": 7,
+            "signed_count": -7
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 61,
+            "count": 4,
+            "signed_count": -4
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 62,
+            "count": 4,
+            "signed_count": -4
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 63,
+            "count": 4,
+            "signed_count": -4
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 64,
+            "count": 2,
+            "signed_count": -2
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 65,
+            "count": 7,
+            "signed_count": -7
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 66,
+            "count": 10,
+            "signed_count": -10
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 67,
+            "count": 3,
+            "signed_count": -3
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 68,
+            "count": 9,
+            "signed_count": -9
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 69,
+            "count": 7,
+            "signed_count": -7
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 70,
+            "count": 11,
+            "signed_count": -11
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 71,
+            "count": 10,
+            "signed_count": -10
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 72,
+            "count": 12,
+            "signed_count": -12
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 73,
+            "count": 13,
+            "signed_count": -13
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 74,
+            "count": 7,
+            "signed_count": -7
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 75,
+            "count": 5,
+            "signed_count": -5
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 76,
+            "count": 5,
+            "signed_count": -5
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 77,
+            "count": 7,
+            "signed_count": -7
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 78,
+            "count": 11,
+            "signed_count": -11
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 79,
+            "count": 8,
+            "signed_count": -8
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 80,
+            "count": 11,
+            "signed_count": -11
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 81,
+            "count": 2,
+            "signed_count": -2
+          },
+          {
+            "sex": "Life Expectancy Male",
+            "age": 82,
+            "count": 1,
+            "signed_count": -1
+          }
+        ],
+        "mark_count": 74,
+        "excluded_null_age_rows": 26,
+        "reference_max": 19,
+        "reference_min": -19,
+        "peaks": {
+          "Life Expectancy Female": {
+            "count": 19,
+            "ages": [
+              78
+            ]
+          },
+          "Life Expectancy Male": {
+            "count": 13,
+            "ages": [
+              73
+            ]
+          }
+        }
+      }
+    },
+    "source_already_pivoted": true
+  },
+  "cloud_checks": [
+    {
+      "state": "default",
+      "role": "author",
+      "year": 2012,
+      "rows": 74,
+      "complete_age_sex_marks": 74,
+      "all_reference_values_checked": true,
+      "passed": true
+    },
+    {
+      "state": "default",
+      "role": "replica",
+      "year": 2012,
+      "rows": 74,
+      "complete_age_sex_marks": 74,
+      "all_reference_values_checked": true,
+      "passed": true
+    },
+    {
+      "state": "year-2011",
+      "role": "author",
+      "year": 2011,
+      "rows": 77,
+      "complete_age_sex_marks": 77,
+      "all_reference_values_checked": true,
+      "passed": true
+    },
+    {
+      "state": "year-2011",
+      "role": "replica",
+      "year": 2011,
+      "rows": 77,
+      "complete_age_sex_marks": 77,
+      "all_reference_values_checked": true,
+      "passed": true
+    },
+    {
+      "state": "year-2000",
+      "role": "author",
+      "year": 2000,
+      "rows": 80,
+      "complete_age_sex_marks": 80,
+      "all_reference_values_checked": true,
+      "passed": true
+    },
+    {
+      "state": "year-2000",
+      "role": "replica",
+      "year": 2000,
+      "rows": 80,
+      "complete_age_sex_marks": 80,
+      "all_reference_values_checked": true,
+      "passed": true
+    },
+    {
+      "state": "year-2001",
+      "role": "author",
+      "year": 2001,
+      "rows": 76,
+      "complete_age_sex_marks": 76,
+      "all_reference_values_checked": true,
+      "passed": true
+    },
+    {
+      "state": "year-2001",
+      "role": "replica",
+      "year": 2001,
+      "rows": 76,
+      "complete_age_sex_marks": 76,
+      "all_reference_values_checked": true,
+      "passed": true
+    }
+  ],
+  "browser_interaction_executed": false
+}

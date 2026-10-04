@@ -1,0 +1,17 @@
+{
+  "challenge_year": 2020,
+  "challenge_week": 49,
+  "article_date": "2020-12-04",
+  "challenge_date": "2020-12-01",
+  "official_rest_url": "https://www.workout-wednesday.com/wp-json/wp/v2/posts/4103",
+  "response_excerpt": {
+    "id": 4103,
+    "date": "2020-12-01T17:47:24",
+    "slug": "2020w49",
+    "link": "https://www.workout-wednesday.com/2020w49/",
+    "title": {
+      "rendered": "2020 Week 49: Can you toggle between AND &#038; OR filtering logic?"
+    }
+  },
+  "scope": "Official WordPress publication calendar date, without inference from workbook filenames or week numbers."
+}

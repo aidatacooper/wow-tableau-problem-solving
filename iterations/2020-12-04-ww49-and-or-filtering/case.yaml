@@ -1,0 +1,97 @@
+schema_version: 1.1.0
+case_id: wow-2020-ww49-and-or-filtering
+iteration_id: 2020-12-04-ww49-and-or-filtering
+post: https://donnacoles.home.blog/2020/12/04/can-you-toggle-between-andor-filtering-logic/
+legacy_case_ids: {}
+article_date: '2020-12-04'
+challenge_year: 2020
+challenge_week: 49
+challenge_date: '2020-12-01'
+date_evidence:
+  article_date: Article HTML published time element retained in evidence/article-date.json.
+  challenge: Explicit challenge_year; week declared in iteration_id
+  challenge_date: Official WordPress REST date field retained in evidence/official-challenge-date.json.
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2020w49/
+  article:
+    url: https://donnacoles.home.blog/2020/12/04/can-you-toggle-between-andor-filtering-logic/
+    path: null
+    sha256: 8aca5bedd531ebcf10ec06723219547866f3b422cd2d454dbc4301aff6791461
+  workbook:
+    url: https://public.tableau.com/views/2020_12_02_WW49_Toggle_AND_OR_Filtering/2020_12_02_WW49_Toggle_AND_OR_Filtering
+    filename: author.twbx
+    sha256: 53c99bcec0da970d0378d7ce0d2b5f493d525aa39484a8764bb6ca6fd9b1eeab
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- evidence/article-date.json
+- evidence/build-provenance-initial.json
+- evidence/build-provenance-second.json
+- evidence/build-provenance.json
+- evidence/cloud-verification.json
+- evidence/export-provenance.json
+- evidence/functional-verification.json
+- evidence/initial-cloud-capture.json
+- evidence/initial-cloud-review.json
+- evidence/official-challenge-date.json
+- evidence/sdk-final-validation.json
+- evidence/sdk-gap-multiselect-set-control-baseline.json
+- evidence/sdk-gap-use-all-set-baseline.json
+- evidence/visual-review.md
+- evidence/zero-build-verification.json
+- inputs/source-lock.json
+notes:
+- Cloud REST image/data states plus generated native artifact contracts; no browser
+  actions executed.
+- The builder reads locked Hyper data and starts from TWBEditor(""); no author workbook
+  template.
+cwtwb:
+  tested_version: 0.27.1
+  tested_commit: df8c2a52cd48800fa0a43d936f6946d318f5b953
+  runs:
+  - version: 0.27.1
+    commit: e7fa7cd6770ac3d07af55570a5a7fffd18ad6155
+    result: blocked
+    evidence: evidence/sdk-gap-use-all-set-baseline.json
+  - version: 0.27.1
+    commit: e977401d862f0754ba610249e6720d61058ebdea
+    result: pass
+    evidence: evidence/build-provenance-initial.json
+  - version: 0.27.1
+    commit: e977401d862f0754ba610249e6720d61058ebdea
+    result: pass
+    scope: Refined existing public API labels, native fit and axes; actual immutable
+      Git rebuild
+    evidence: evidence/build-provenance-second.json
+  - version: 0.27.1
+    commit: df8c2a52cd48800fa0a43d936f6946d318f5b953
+    result: pass
+    scope: Native checkdropdown/show-apply controls; actual immutable Git build
+    evidence: evidence/build-provenance.json
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: pass
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/Orders (Sample - Superstore).hyper
+acceptance:
+- id: raw-fact-oracle
+  description: Independently aggregate every extracted fact and compare complete worksheet
+    exports for declared REST states
+  mode: automated
+- id: native-artifact-contracts
+  description: Verify native sets, formulas, encodings, layout and formatting without
+    browser interaction claims
+  mode: automated
+remaining_work: []
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []

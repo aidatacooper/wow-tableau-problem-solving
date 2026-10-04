@@ -1,0 +1,24 @@
+{
+  "original_sha256": "53c99bcec0da970d0378d7ce0d2b5f493d525aa39484a8764bb6ca6fd9b1eeab",
+  "export_sha256": "368ef24099ea3346e89a0e35219cb92fb25fb3f9a5e0c528ecae44cde612ab6c",
+  "transformation": "Only remove hidden attributes from worksheet windows; no business XML changed.",
+  "worksheets_exposed": [
+    "Category",
+    "Region",
+    "Segment",
+    "Ship Mode"
+  ],
+  "all_other_archive_members_unchanged": {
+    "Data/Datasources/Orders (Sample - Superstore).hyper": "94b2d3c2fb1fa78d8707b7f0195c6d83ab9d670d5393a5e78f8c918445b6ca21",
+    "TwbxExternalCache/TwbxLQResultsCacheV3/2113691275/.bin": "299b6f328b5364ac4b146ec6c4ea55e12b3669acf20cbccb3666d48b60b21fa8",
+    "TwbxExternalCache/TwbxLQResultsCacheV3/2113691275/.key": "f139e6995675ef2de05ebf1ff886203098155a82a06aa85d9015a9f4d5cb2012",
+    "TwbxExternalCache/TwbxLQResultsCacheV3/2461865937/.bin": "02f191787c75f79e0b33067572996fb40990286f30eef4776baae43c749666aa",
+    "TwbxExternalCache/TwbxLQResultsCacheV3/2461865937/.key": "8e4133df50468c29f8526c05d6463076e6e0d7868170f63ad075a1cc56a78cd2",
+    "TwbxExternalCache/TwbxLQTimestampsCacheV3/175241652/.bin": "3b6d764be8a86a57ea98ae7e80a86a652ef534aee85db4e0d69bf82fef870026",
+    "TwbxExternalCache/TwbxLQTimestampsCacheV3/175241652/.key": "7cad2173e702207b717550d5499de8c82e3f4e0c6dcf35edf6aeb922dde80a1f",
+    "TwbxExternalCache/TwbxLQTimestampsCacheV3/3492036861/.bin": "61a72a9ca874e891a6d3a7a7636bd9dccf09955de370d05793cb2d3bb7cc9bc3",
+    "TwbxExternalCache/TwbxLQTimestampsCacheV3/3492036861/.key": "3231a2612481c1f2b202d66bf0b1ec2d15234c260c1193e7eb2e1eb9b4bfd4bd"
+  },
+  "semantic_xml_equality_after_declared_window_change": true,
+  "semantic_xml_sha256": "2de4e5a0977409de05b2300c2a859202ec5a5702b280ff8ff2d28ae2dc88550c"
+}

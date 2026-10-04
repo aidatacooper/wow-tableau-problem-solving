@@ -1,0 +1,417 @@
+{
+  "artifact_sha256": "aacc4eb90acb5a94cf8abc634bda660e1ee784e93ae06807e3c55b79e44186e8",
+  "raw_oracle": {
+    "facts": 9994,
+    "subcategories": {
+      "Bookcases": {
+        "Sales": 114879.9963,
+        "Profit": -3472.556000000003,
+        "Cost": 118352.5523,
+        "Cost (copy)": 118352.5523,
+        "Is Profitable": false
+      },
+      "Chairs": {
+        "Sales": 328449.103,
+        "Profit": 26590.16629999999,
+        "Cost": 301858.9367,
+        "Cost (copy)": 301858.9367,
+        "Is Profitable": true
+      },
+      "Labels": {
+        "Sales": 12486.312,
+        "Profit": 5546.254,
+        "Cost": 6940.058,
+        "Cost (copy)": 6940.058,
+        "Is Profitable": true
+      },
+      "Tables": {
+        "Sales": 206965.532,
+        "Profit": -17725.481100000005,
+        "Cost": 224691.0131,
+        "Cost (copy)": 224691.0131,
+        "Is Profitable": false
+      },
+      "Storage": {
+        "Sales": 223843.608,
+        "Profit": 21278.826399999994,
+        "Cost": 202564.78160000002,
+        "Cost (copy)": 202564.78160000002,
+        "Is Profitable": true
+      },
+      "Furnishings": {
+        "Sales": 91705.164,
+        "Profit": 13059.143599999998,
+        "Cost": 78646.02040000001,
+        "Cost (copy)": 78646.02040000001,
+        "Is Profitable": true
+      },
+      "Art": {
+        "Sales": 27118.792,
+        "Profit": 6527.786999999999,
+        "Cost": 20591.005,
+        "Cost (copy)": 20591.005,
+        "Is Profitable": true
+      },
+      "Phones": {
+        "Sales": 330007.054,
+        "Profit": 44515.730599999995,
+        "Cost": 285491.3234,
+        "Cost (copy)": 285491.3234,
+        "Is Profitable": true
+      },
+      "Binders": {
+        "Sales": 203412.733,
+        "Profit": 30221.76329999999,
+        "Cost": 173190.96970000002,
+        "Cost (copy)": 173190.96970000002,
+        "Is Profitable": true
+      },
+      "Appliances": {
+        "Sales": 107532.161,
+        "Profit": 18138.005399999995,
+        "Cost": 89394.1556,
+        "Cost (copy)": 89394.1556,
+        "Is Profitable": true
+      },
+      "Paper": {
+        "Sales": 78479.206,
+        "Profit": 34053.569299999996,
+        "Cost": 44425.63670000001,
+        "Cost (copy)": 44425.63670000001,
+        "Is Profitable": true
+      },
+      "Accessories": {
+        "Sales": 167380.318,
+        "Profit": 41936.6357,
+        "Cost": 125443.6823,
+        "Cost (copy)": 125443.6823,
+        "Is Profitable": true
+      },
+      "Envelopes": {
+        "Sales": 16476.402000000002,
+        "Profit": 6964.176699999999,
+        "Cost": 9512.225300000002,
+        "Cost (copy)": 9512.225300000002,
+        "Is Profitable": true
+      },
+      "Fasteners": {
+        "Sales": 3024.28,
+        "Profit": 949.5182,
+        "Cost": 2074.7618,
+        "Cost (copy)": 2074.7618,
+        "Is Profitable": true
+      },
+      "Supplies": {
+        "Sales": 46673.538,
+        "Profit": -1189.099500000001,
+        "Cost": 47862.637500000004,
+        "Cost (copy)": 47862.637500000004,
+        "Is Profitable": false
+      },
+      "Machines": {
+        "Sales": 189238.631,
+        "Profit": 3384.756899999988,
+        "Cost": 185853.87410000002,
+        "Cost (copy)": 185853.87410000002,
+        "Is Profitable": true
+      },
+      "Copiers": {
+        "Sales": 149528.03,
+        "Profit": 55617.82489999999,
+        "Cost": 93910.2051,
+        "Cost (copy)": 93910.2051,
+        "Is Profitable": true
+      }
+    },
+    "descending_profit": [
+      "Copiers",
+      "Phones",
+      "Accessories",
+      "Paper",
+      "Binders",
+      "Chairs",
+      "Storage",
+      "Appliances",
+      "Furnishings",
+      "Envelopes",
+      "Art",
+      "Labels",
+      "Machines",
+      "Fasteners",
+      "Supplies",
+      "Bookcases",
+      "Tables"
+    ]
+  },
+  "native_contracts": {
+    "passed": true,
+    "compound_palette_members": 6,
+    "circle_line_panes": 2,
+    "native_measure_values_axes": 2,
+    "browser_events_executed": false
+  },
+  "cloud": {
+    "passed": true,
+    "status": "verified",
+    "exports": [
+      {
+        "state": "default",
+        "role": "author",
+        "view": "Data",
+        "rows": 51,
+        "subcategories": 17,
+        "metric_checks": 51,
+        "complete_business_cells": 51,
+        "native_pane_repetitions": 1,
+        "formatted_currency_tolerance": 0.51,
+        "primary_measure_values_tolerance": 1e-06
+      },
+      {
+        "state": "default",
+        "role": "author",
+        "view": "Viz",
+        "rows": 6,
+        "subcategories": 1,
+        "metric_checks": 6,
+        "complete_business_cells": 3,
+        "native_pane_repetitions": 2,
+        "formatted_currency_tolerance": 0.51,
+        "primary_measure_values_tolerance": 1e-06,
+        "coverage_limitation": {
+          "passed": false,
+          "observed_subcategories": [
+            "Copiers"
+          ],
+          "intended_subcategories": 17,
+          "scope": "Default author Viz CSV is limited to one selected subcategory; not proof of all 17. Complementary partition-a and partition-b REST filter exports jointly verify all 17 separately."
+        }
+      },
+      {
+        "state": "default",
+        "role": "replica",
+        "view": "Data",
+        "rows": 51,
+        "subcategories": 17,
+        "metric_checks": 51,
+        "complete_business_cells": 51,
+        "native_pane_repetitions": 1,
+        "formatted_currency_tolerance": 0.51,
+        "primary_measure_values_tolerance": 1e-06
+      },
+      {
+        "state": "default",
+        "role": "replica",
+        "view": "Viz",
+        "rows": 102,
+        "subcategories": 17,
+        "metric_checks": 153,
+        "complete_business_cells": 51,
+        "native_pane_repetitions": 2,
+        "formatted_currency_tolerance": 0.51,
+        "primary_measure_values_tolerance": 1e-06
+      },
+      {
+        "state": "partition-a",
+        "role": "author",
+        "view": "Data",
+        "rows": 48,
+        "subcategories": 16,
+        "metric_checks": 48,
+        "complete_business_cells": 48,
+        "native_pane_repetitions": 1,
+        "formatted_currency_tolerance": 0.51,
+        "primary_measure_values_tolerance": 1e-06
+      },
+      {
+        "state": "partition-a",
+        "role": "author",
+        "view": "Viz",
+        "rows": 96,
+        "subcategories": 16,
+        "metric_checks": 96,
+        "complete_business_cells": 48,
+        "native_pane_repetitions": 2,
+        "formatted_currency_tolerance": 0.51,
+        "primary_measure_values_tolerance": 1e-06
+      },
+      {
+        "state": "partition-a",
+        "role": "replica",
+        "view": "Data",
+        "rows": 48,
+        "subcategories": 16,
+        "metric_checks": 48,
+        "complete_business_cells": 48,
+        "native_pane_repetitions": 1,
+        "formatted_currency_tolerance": 0.51,
+        "primary_measure_values_tolerance": 1e-06
+      },
+      {
+        "state": "partition-a",
+        "role": "replica",
+        "view": "Viz",
+        "rows": 96,
+        "subcategories": 16,
+        "metric_checks": 144,
+        "complete_business_cells": 48,
+        "native_pane_repetitions": 2,
+        "formatted_currency_tolerance": 0.51,
+        "primary_measure_values_tolerance": 1e-06
+      },
+      {
+        "state": "partition-b",
+        "role": "author",
+        "view": "Data",
+        "rows": 3,
+        "subcategories": 1,
+        "metric_checks": 3,
+        "complete_business_cells": 3,
+        "native_pane_repetitions": 1,
+        "formatted_currency_tolerance": 0.51,
+        "primary_measure_values_tolerance": 1e-06
+      },
+      {
+        "state": "partition-b",
+        "role": "author",
+        "view": "Viz",
+        "rows": 6,
+        "subcategories": 1,
+        "metric_checks": 6,
+        "complete_business_cells": 3,
+        "native_pane_repetitions": 2,
+        "formatted_currency_tolerance": 0.51,
+        "primary_measure_values_tolerance": 1e-06
+      },
+      {
+        "state": "partition-b",
+        "role": "replica",
+        "view": "Data",
+        "rows": 3,
+        "subcategories": 1,
+        "metric_checks": 3,
+        "complete_business_cells": 3,
+        "native_pane_repetitions": 1,
+        "formatted_currency_tolerance": 0.51,
+        "primary_measure_values_tolerance": 1e-06
+      },
+      {
+        "state": "partition-b",
+        "role": "replica",
+        "view": "Viz",
+        "rows": 6,
+        "subcategories": 1,
+        "metric_checks": 9,
+        "complete_business_cells": 3,
+        "native_pane_repetitions": 2,
+        "formatted_currency_tolerance": 0.51,
+        "primary_measure_values_tolerance": 1e-06
+      },
+      {
+        "state": "furniture",
+        "role": "author",
+        "view": "Data",
+        "rows": 12,
+        "subcategories": 4,
+        "metric_checks": 12,
+        "complete_business_cells": 12,
+        "native_pane_repetitions": 1,
+        "formatted_currency_tolerance": 0.51,
+        "primary_measure_values_tolerance": 1e-06
+      },
+      {
+        "state": "furniture",
+        "role": "author",
+        "view": "Viz",
+        "rows": 24,
+        "subcategories": 4,
+        "metric_checks": 24,
+        "complete_business_cells": 12,
+        "native_pane_repetitions": 2,
+        "formatted_currency_tolerance": 0.51,
+        "primary_measure_values_tolerance": 1e-06
+      },
+      {
+        "state": "furniture",
+        "role": "replica",
+        "view": "Data",
+        "rows": 12,
+        "subcategories": 4,
+        "metric_checks": 12,
+        "complete_business_cells": 12,
+        "native_pane_repetitions": 1,
+        "formatted_currency_tolerance": 0.51,
+        "primary_measure_values_tolerance": 1e-06
+      },
+      {
+        "state": "furniture",
+        "role": "replica",
+        "view": "Viz",
+        "rows": 24,
+        "subcategories": 4,
+        "metric_checks": 36,
+        "complete_business_cells": 12,
+        "native_pane_repetitions": 2,
+        "formatted_currency_tolerance": 0.51,
+        "primary_measure_values_tolerance": 1e-06
+      },
+      {
+        "state": "negative",
+        "role": "author",
+        "view": "Data",
+        "rows": 9,
+        "subcategories": 3,
+        "metric_checks": 9,
+        "complete_business_cells": 9,
+        "native_pane_repetitions": 1,
+        "formatted_currency_tolerance": 0.51,
+        "primary_measure_values_tolerance": 1e-06
+      },
+      {
+        "state": "negative",
+        "role": "author",
+        "view": "Viz",
+        "rows": 18,
+        "subcategories": 3,
+        "metric_checks": 18,
+        "complete_business_cells": 9,
+        "native_pane_repetitions": 2,
+        "formatted_currency_tolerance": 0.51,
+        "primary_measure_values_tolerance": 1e-06
+      },
+      {
+        "state": "negative",
+        "role": "replica",
+        "view": "Data",
+        "rows": 9,
+        "subcategories": 3,
+        "metric_checks": 9,
+        "complete_business_cells": 9,
+        "native_pane_repetitions": 1,
+        "formatted_currency_tolerance": 0.51,
+        "primary_measure_values_tolerance": 1e-06
+      },
+      {
+        "state": "negative",
+        "role": "replica",
+        "view": "Viz",
+        "rows": 18,
+        "subcategories": 3,
+        "metric_checks": 27,
+        "complete_business_cells": 9,
+        "native_pane_repetitions": 2,
+        "formatted_currency_tolerance": 0.51,
+        "primary_measure_values_tolerance": 1e-06
+      }
+    ],
+    "source_viz_partition_coverage": {
+      "passed": true,
+      "subcategories": 17,
+      "business_cells": 51,
+      "states": [
+        "partition-a",
+        "partition-b"
+      ]
+    },
+    "scope": "Full Data business CSVs and all requested filtered Viz groups; complementary partitions verify all 17 author Viz groups. Default author Viz remains limited to Copiers. No hover execution."
+  }
+}

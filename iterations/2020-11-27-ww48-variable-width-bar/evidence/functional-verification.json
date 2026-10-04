@@ -1,0 +1,284 @@
+{
+  "artifact_sha256": "90fcf9ff916639a44c0663f781ab194a91855e6b937ae7cb77e7630a70540b01",
+  "status": "passed",
+  "raw_oracle": {
+    "facts": 94333,
+    "sessions": {
+      "08:45": {
+        "facts": 1233,
+        "start": "1899-12-30 08:45:00",
+        "end": "1899-12-30 09:00:00",
+        "location": "Live",
+        "title": "Poult Day Care",
+        "minutes": 15,
+        "attendees": 177,
+        "description": "a baby turkey is called a \u201cpoult\u201d",
+        "day_proportion": 0.010416666666666666
+      },
+      "09:00": {
+        "facts": 7559,
+        "start": "1899-12-30 09:00:00",
+        "end": "1899-12-30 09:30:00",
+        "location": "Live",
+        "title": "Turkey Trot 5K",
+        "minutes": 30,
+        "attendees": 262,
+        "description": "turkeys can clock 18 mph on foot and up to 50 mph in flight",
+        "day_proportion": 0.020833333333333332
+      },
+      "09:30": {
+        "facts": 4246,
+        "start": "1899-12-30 09:30:00",
+        "end": "1899-12-30 09:45:00",
+        "location": "Live",
+        "title": "Jake & Jenny Meet and Greet",
+        "minutes": 15,
+        "attendees": 268,
+        "description": "a yearling male is a \u201cJake\u201d and a yearling female is a \u201cJenny\u201d",
+        "day_proportion": 0.010416666666666666
+      },
+      "09:45": {
+        "facts": 4288,
+        "start": "1899-12-30 09:45:00",
+        "end": "1899-12-30 10:00:00",
+        "location": "Recording",
+        "title": "A Murder Most Fowl Book Reading",
+        "minutes": 15,
+        "attendees": 274,
+        "description": "Turkey Tom's Bestseller",
+        "day_proportion": 0.010416666666666666
+      },
+      "10:00": {
+        "facts": 4417,
+        "start": "1899-12-30 10:00:00",
+        "end": "1899-12-30 10:15:00",
+        "location": "Recording",
+        "title": "Wild & Soothing Meditation",
+        "minutes": 15,
+        "attendees": 279,
+        "description": "sounds include \u201cgobble\u201d, \u201cpurrs,\u201d \u201cyelps\u201d, and \u201ckee-kees.\u201d",
+        "day_proportion": 0.010416666666666666
+      },
+      "10:15": {
+        "facts": 4455,
+        "start": "1899-12-30 10:15:00",
+        "end": "1899-12-30 10:30:00",
+        "location": "Live",
+        "title": "Darkmeat Destiny Concert",
+        "minutes": 15,
+        "attendees": 282,
+        "description": "live performance from the top artist in the turkey community",
+        "day_proportion": 0.010416666666666666
+      },
+      "10:30": {
+        "facts": 4410,
+        "start": "1899-12-30 10:30:00",
+        "end": "1899-12-30 10:45:00",
+        "location": null,
+        "title": "Break",
+        "minutes": 15,
+        "attendees": 284,
+        "description": "stretch and relax",
+        "day_proportion": 0.010416666666666666
+      },
+      "10:45": {
+        "facts": 4523,
+        "start": "1899-12-30 10:45:00",
+        "end": "1899-12-30 11:00:00",
+        "location": "Recording",
+        "title": "Turkey Bowl Highlights",
+        "minutes": 15,
+        "attendees": 282,
+        "description": "Gobble Gladiators vs. The Butterballers",
+        "day_proportion": 0.010416666666666666
+      },
+      "11:00": {
+        "facts": 4383,
+        "start": "1899-12-30 11:00:00",
+        "end": "1899-12-30 11:15:00",
+        "location": "Recording",
+        "title": "Feather Maintenance & Latest Trends",
+        "minutes": 15,
+        "attendees": 276,
+        "description": "an adult turkey has 5,000 to 6,000 feathers",
+        "day_proportion": 0.010416666666666666
+      },
+      "11:15": {
+        "facts": 4389,
+        "start": "1899-12-30 11:15:00",
+        "end": "1899-12-30 11:30:00",
+        "location": "Recording",
+        "title": "Winterize Your Face",
+        "minutes": 15,
+        "attendees": 273,
+        "description": "includes the snood, the caruncle, and the wattle",
+        "day_proportion": 0.010416666666666666
+      },
+      "11:30": {
+        "facts": 4432,
+        "start": "1899-12-30 11:30:00",
+        "end": "1899-12-30 11:45:00",
+        "location": "Live",
+        "title": "Mx. American Turkey Pageant",
+        "minutes": 15,
+        "attendees": 280,
+        "description": "inclusive beauty competition",
+        "day_proportion": 0.010416666666666666
+      },
+      "11:45": {
+        "facts": 8301,
+        "start": "1899-12-30 11:45:00",
+        "end": "1899-12-30 12:15:00",
+        "location": null,
+        "title": "Lunch break",
+        "minutes": 30,
+        "attendees": 292,
+        "description": "seeds, nuts, fruit, insects, small lizards, and river water",
+        "day_proportion": 0.020833333333333332
+      },
+      "12:15": {
+        "facts": 16716,
+        "start": "1899-12-30 12:15:00",
+        "end": "1899-12-30 13:15:00",
+        "location": "Live",
+        "title": "Main Key Note",
+        "minutes": 60,
+        "attendees": 288,
+        "description": "\u201cButter\u201d 2019 White House Pardon Winner",
+        "day_proportion": 0.041666666666666664
+      },
+      "13:15": {
+        "facts": 4309,
+        "start": "1899-12-30 13:15:00",
+        "end": "1899-12-30 13:30:00",
+        "location": "Recording",
+        "title": "Best Strut Fails 2020 Compilation Video",
+        "minutes": 15,
+        "attendees": 272,
+        "description": "strutting is used to describe the courtship display of a wild turkey",
+        "day_proportion": 0.010416666666666666
+      },
+      "13:30": {
+        "facts": 4441,
+        "start": "1899-12-30 13:30:00",
+        "end": "1899-12-30 13:45:00",
+        "location": "Recording",
+        "title": "Which Wildlife Refuge is Right for You?",
+        "minutes": 15,
+        "attendees": 278,
+        "description": "covers nearest locations and exclusive benefits, reserve your spot now",
+        "day_proportion": 0.010416666666666666
+      },
+      "13:45": {
+        "facts": 8403,
+        "start": "1899-12-30 13:45:00",
+        "end": "1899-12-30 14:15:00",
+        "location": "Live",
+        "title": "What Makes a Great Hiding Spot?",
+        "minutes": 30,
+        "attendees": 282,
+        "description": "panel discussion on lessons learned and top tips & tricks",
+        "day_proportion": 0.020833333333333332
+      },
+      "14:15": {
+        "facts": 3828,
+        "start": "1899-12-30 14:15:00",
+        "end": "1899-12-30 14:30:00",
+        "location": "Live",
+        "title": "Pickup 2021 Survival Kit",
+        "minutes": 15,
+        "attendees": 261,
+        "description": "pretty self explanatory",
+        "day_proportion": 0.010416666666666666
+      }
+    }
+  },
+  "native_contracts": "passed",
+  "browser_interaction_executed": false,
+  "cloud_checks": [
+    {
+      "state": "default",
+      "role": "author",
+      "view": "Viz",
+      "records": 34,
+      "passed": true
+    },
+    {
+      "state": "default",
+      "role": "author",
+      "view": "Data",
+      "records": 51,
+      "passed": true
+    },
+    {
+      "state": "default",
+      "role": "replica",
+      "view": "Viz",
+      "records": 34,
+      "passed": true
+    },
+    {
+      "state": "default",
+      "role": "replica",
+      "view": "Data",
+      "records": 51,
+      "passed": true
+    },
+    {
+      "state": "live",
+      "role": "author",
+      "view": "Viz",
+      "records": 16,
+      "passed": true
+    },
+    {
+      "state": "live",
+      "role": "author",
+      "view": "Data",
+      "records": 24,
+      "passed": true
+    },
+    {
+      "state": "live",
+      "role": "replica",
+      "view": "Viz",
+      "records": 16,
+      "passed": true
+    },
+    {
+      "state": "live",
+      "role": "replica",
+      "view": "Data",
+      "records": 24,
+      "passed": true
+    },
+    {
+      "state": "recording",
+      "role": "author",
+      "view": "Viz",
+      "records": 14,
+      "passed": true
+    },
+    {
+      "state": "recording",
+      "role": "author",
+      "view": "Data",
+      "records": 21,
+      "passed": true
+    },
+    {
+      "state": "recording",
+      "role": "replica",
+      "view": "Viz",
+      "records": 14,
+      "passed": true
+    },
+    {
+      "state": "recording",
+      "role": "replica",
+      "view": "Data",
+      "records": 21,
+      "passed": true
+    }
+  ]
+}

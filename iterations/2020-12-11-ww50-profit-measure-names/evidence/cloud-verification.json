@@ -1,0 +1,464 @@
+{
+  "case_id": "wow-2020-ww50-profit-measure-names",
+  "captured_at": "2026-10-04T13:19:44.545193+00:00",
+  "source_hashes": {
+    "author": "63653533db6e71d451f40067e7ed0f0c09aa9aec776381501a85c0e485598133",
+    "replica": "aacc4eb90acb5a94cf8abc634bda660e1ee784e93ae06807e3c55b79e44186e8"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "abffa40e-8ff3-49da-b4b7-973cf4d97522",
+      "name": "cwtwb-review-wow-2020-ww50-profit-measure-names-author-63653533db6e",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2936059",
+      "views": [
+        {
+          "name": "Data",
+          "id": "e9d9850c-b363-46d9-9d6e-3d60c6e871f3"
+        },
+        {
+          "name": "2020_12_09_WW50_Measure_Names_Dot_Plot",
+          "id": "e7ebdead-081b-46e5-9a62-873472e5dbe3"
+        },
+        {
+          "name": "Viz",
+          "id": "83a35b55-5c95-4de9-91db-d578001926e3"
+        }
+      ]
+    },
+    "replica": {
+      "id": "087b5707-8aab-47b7-b63e-7fbfeae01bc2",
+      "name": "cwtwb-review-wow-2020-ww50-profit-measure-names-replica-aacc4eb90acb",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2936134",
+      "views": [
+        {
+          "name": "Data",
+          "id": "c3f97a61-a83d-4d51-8c36-3b3383df7f45"
+        },
+        {
+          "name": "Viz",
+          "id": "502902d4-1868-4963-bb17-abe5e38eeedd"
+        },
+        {
+          "name": "2020_12_09_WW50_Measure_Names_Dot_Plot",
+          "id": "975cf715-5dec-4f5e-b09a-e73f69e1beed"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "e7ebdead-081b-46e5-9a62-873472e5dbe3",
+          "name": "2020_12_09_WW50_Measure_Names_Dot_Plot",
+          "path": "outputs/cloud-author.png",
+          "sha256": "d76db64ec28cab0097849533c3c04abf83653421862f37f8fda8e96fc2fd0525",
+          "size": [
+            1600,
+            1800
+          ]
+        },
+        "replica": {
+          "id": "975cf715-5dec-4f5e-b09a-e73f69e1beed",
+          "name": "2020_12_09_WW50_Measure_Names_Dot_Plot",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "a8d1c5d48802402cad2494df61c5c59c2d69105e353641fe2da7ecc7b8178dd3",
+          "size": [
+            1600,
+            1800
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Data",
+          "view_id": "e9d9850c-b363-46d9-9d6e-3d60c6e871f3",
+          "scope": "Complete worksheet primary CSV at declared REST parameter/filter state. Set selection and hover events are native artifact contracts only.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-data.csv",
+          "sha256": "8cd13693c0637f4ee5b5059d4a15873981ef3e24d2fd272c6069af07d682db6a",
+          "bytes": 1506
+        },
+        {
+          "role": "author",
+          "view": "Viz",
+          "view_id": "83a35b55-5c95-4de9-91db-d578001926e3",
+          "scope": "Complete worksheet primary CSV at declared REST parameter/filter state. Set selection and hover events are native artifact contracts only.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-viz.csv",
+          "sha256": "4f31e2ca09aac7dd8377931f452e1d3cf0d4301dced109914b319ebc23901764",
+          "bytes": 360
+        },
+        {
+          "role": "replica",
+          "view": "Data",
+          "view_id": "c3f97a61-a83d-4d51-8c36-3b3383df7f45",
+          "scope": "Complete worksheet primary CSV at declared REST parameter/filter state. Set selection and hover events are native artifact contracts only.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-data.csv",
+          "sha256": "03f6c12e4f5e77d11f42ad940726e2f78762caef7c55cd94e8f533bcb59c5878",
+          "bytes": 1506
+        },
+        {
+          "role": "replica",
+          "view": "Viz",
+          "view_id": "502902d4-1868-4963-bb17-abe5e38eeedd",
+          "scope": "Complete worksheet primary CSV at declared REST parameter/filter state. Set selection and hover events are native artifact contracts only.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-viz.csv",
+          "sha256": "b78852f44b1668a9d30178623f17d7a248200026630893d285f66edda999e993",
+          "bytes": 5250
+        }
+      ]
+    },
+    {
+      "name": "partition-a",
+      "parameters": {},
+      "filters": {
+        "Sub-Category": "Accessories,Appliances,Art,Binders,Bookcases,Chairs,Envelopes,Fasteners,Furnishings,Labels,Machines,Paper,Phones,Storage,Supplies,Tables"
+      },
+      "views": {
+        "author": {
+          "id": "e7ebdead-081b-46e5-9a62-873472e5dbe3",
+          "name": "2020_12_09_WW50_Measure_Names_Dot_Plot",
+          "path": "outputs/cloud-author-partition-a.png",
+          "sha256": "734ab66104b4352b6cb27f70f4789180301011ce29ae36def6e5bdd6ea9ee16e",
+          "size": [
+            1600,
+            1800
+          ]
+        },
+        "replica": {
+          "id": "975cf715-5dec-4f5e-b09a-e73f69e1beed",
+          "name": "2020_12_09_WW50_Measure_Names_Dot_Plot",
+          "path": "outputs/cloud-replica-partition-a.png",
+          "sha256": "a9920c5bc7291d91ecb8bf362ce3e61196686844c29063ee1fc743875786fa41",
+          "size": [
+            1600,
+            1800
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Data",
+          "view_id": "e9d9850c-b363-46d9-9d6e-3d60c6e871f3",
+          "scope": "Complete worksheet primary CSV at declared REST parameter/filter state. Set selection and hover events are native artifact contracts only.",
+          "parameters": {},
+          "filters": {
+            "Sub-Category": "Accessories,Appliances,Art,Binders,Bookcases,Chairs,Envelopes,Fasteners,Furnishings,Labels,Machines,Paper,Phones,Storage,Supplies,Tables"
+          },
+          "path": "outputs/cloud-author-data-partition-a.csv",
+          "sha256": "eb46f8542057a5ce2b1130632451975e2c047268fefe866d56dbc5ef51a08cb4",
+          "bytes": 1423
+        },
+        {
+          "role": "author",
+          "view": "Viz",
+          "view_id": "83a35b55-5c95-4de9-91db-d578001926e3",
+          "scope": "Complete worksheet primary CSV at declared REST parameter/filter state. Set selection and hover events are native artifact contracts only.",
+          "parameters": {},
+          "filters": {
+            "Sub-Category": "Accessories,Appliances,Art,Binders,Bookcases,Chairs,Envelopes,Fasteners,Furnishings,Labels,Machines,Paper,Phones,Storage,Supplies,Tables"
+          },
+          "path": "outputs/cloud-author-viz-partition-a.csv",
+          "sha256": "36e432fddae3452500931b4d96f5b7e8db67c680ecf4ce403a6551303b03a819",
+          "bytes": 4343
+        },
+        {
+          "role": "replica",
+          "view": "Data",
+          "view_id": "c3f97a61-a83d-4d51-8c36-3b3383df7f45",
+          "scope": "Complete worksheet primary CSV at declared REST parameter/filter state. Set selection and hover events are native artifact contracts only.",
+          "parameters": {},
+          "filters": {
+            "Sub-Category": "Accessories,Appliances,Art,Binders,Bookcases,Chairs,Envelopes,Fasteners,Furnishings,Labels,Machines,Paper,Phones,Storage,Supplies,Tables"
+          },
+          "path": "outputs/cloud-replica-data-partition-a.csv",
+          "sha256": "5524b33bea73f11bb5c3036f6a9b868f150dc4999e6473c7bc72e9d81a052bee",
+          "bytes": 1423
+        },
+        {
+          "role": "replica",
+          "view": "Viz",
+          "view_id": "502902d4-1868-4963-bb17-abe5e38eeedd",
+          "scope": "Complete worksheet primary CSV at declared REST parameter/filter state. Set selection and hover events are native artifact contracts only.",
+          "parameters": {},
+          "filters": {
+            "Sub-Category": "Accessories,Appliances,Art,Binders,Bookcases,Chairs,Envelopes,Fasteners,Furnishings,Labels,Machines,Paper,Phones,Storage,Supplies,Tables"
+          },
+          "path": "outputs/cloud-replica-viz-partition-a.csv",
+          "sha256": "a56fc2c0abf858271eec637ea45144c243c8bd7f6d0ba9b25b9b6aded824ae56",
+          "bytes": 4954
+        }
+      ]
+    },
+    {
+      "name": "partition-b",
+      "parameters": {},
+      "filters": {
+        "Sub-Category": "Copiers"
+      },
+      "views": {
+        "author": {
+          "id": "e7ebdead-081b-46e5-9a62-873472e5dbe3",
+          "name": "2020_12_09_WW50_Measure_Names_Dot_Plot",
+          "path": "outputs/cloud-author-partition-b.png",
+          "sha256": "a4a2d69934507f2b1c2e8ea8651245a46720b8a9b769d7cd96d12b6aac64252f",
+          "size": [
+            1600,
+            1800
+          ]
+        },
+        "replica": {
+          "id": "975cf715-5dec-4f5e-b09a-e73f69e1beed",
+          "name": "2020_12_09_WW50_Measure_Names_Dot_Plot",
+          "path": "outputs/cloud-replica-partition-b.png",
+          "sha256": "c5bef42bb4d94c1868fb44bdc2919deaabc89566ee9bfbb84a067a766321bce1",
+          "size": [
+            1600,
+            1800
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Data",
+          "view_id": "e9d9850c-b363-46d9-9d6e-3d60c6e871f3",
+          "scope": "Complete worksheet primary CSV at declared REST parameter/filter state. Set selection and hover events are native artifact contracts only.",
+          "parameters": {},
+          "filters": {
+            "Sub-Category": "Copiers"
+          },
+          "path": "outputs/cloud-author-data-partition-b.csv",
+          "sha256": "ff7bb17aeea03a7ea48ae0bbcbc1fce5e26d217d3bd9b0202851444ccbc8fc53",
+          "bytes": 125
+        },
+        {
+          "role": "author",
+          "view": "Viz",
+          "view_id": "83a35b55-5c95-4de9-91db-d578001926e3",
+          "scope": "Complete worksheet primary CSV at declared REST parameter/filter state. Set selection and hover events are native artifact contracts only.",
+          "parameters": {},
+          "filters": {
+            "Sub-Category": "Copiers"
+          },
+          "path": "outputs/cloud-author-viz-partition-b.csv",
+          "sha256": "e3440f5454307d08b0f7be8d7de1fa0ec1f6f65bb93318364145dc89055977dc",
+          "bytes": 360
+        },
+        {
+          "role": "replica",
+          "view": "Data",
+          "view_id": "c3f97a61-a83d-4d51-8c36-3b3383df7f45",
+          "scope": "Complete worksheet primary CSV at declared REST parameter/filter state. Set selection and hover events are native artifact contracts only.",
+          "parameters": {},
+          "filters": {
+            "Sub-Category": "Copiers"
+          },
+          "path": "outputs/cloud-replica-data-partition-b.csv",
+          "sha256": "999639d604f71b4d9e914d20395f3aecf58b180fc070a7a034b1eee361fc96e5",
+          "bytes": 125
+        },
+        {
+          "role": "replica",
+          "view": "Viz",
+          "view_id": "502902d4-1868-4963-bb17-abe5e38eeedd",
+          "scope": "Complete worksheet primary CSV at declared REST parameter/filter state. Set selection and hover events are native artifact contracts only.",
+          "parameters": {},
+          "filters": {
+            "Sub-Category": "Copiers"
+          },
+          "path": "outputs/cloud-replica-viz-partition-b.csv",
+          "sha256": "b9071c035d850d44c6c9c313ffaa2a839b16d7f27e277732884890629c9ae716",
+          "bytes": 410
+        }
+      ]
+    },
+    {
+      "name": "furniture",
+      "parameters": {},
+      "filters": {
+        "Sub-Category": "Bookcases,Chairs,Furnishings,Tables"
+      },
+      "views": {
+        "author": {
+          "id": "e7ebdead-081b-46e5-9a62-873472e5dbe3",
+          "name": "2020_12_09_WW50_Measure_Names_Dot_Plot",
+          "path": "outputs/cloud-author-furniture.png",
+          "sha256": "730d95ad8f01a560f9fc10d45ccbf84b6760850c9160c92cb810d384f7deef11",
+          "size": [
+            1600,
+            1800
+          ]
+        },
+        "replica": {
+          "id": "975cf715-5dec-4f5e-b09a-e73f69e1beed",
+          "name": "2020_12_09_WW50_Measure_Names_Dot_Plot",
+          "path": "outputs/cloud-replica-furniture.png",
+          "sha256": "b119dbf1ee3c9663372d67a38a6ca874d8bf369b0e464a83c7181e9bd4ad500d",
+          "size": [
+            1600,
+            1800
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Data",
+          "view_id": "e9d9850c-b363-46d9-9d6e-3d60c6e871f3",
+          "scope": "Complete worksheet primary CSV at declared REST parameter/filter state. Set selection and hover events are native artifact contracts only.",
+          "parameters": {},
+          "filters": {
+            "Sub-Category": "Bookcases,Chairs,Furnishings,Tables"
+          },
+          "path": "outputs/cloud-author-data-furniture.csv",
+          "sha256": "05e7e4bf334a38525ae1d1a8d9a4760cd216e6aadf57f14ece53335db2930f6b",
+          "bytes": 404
+        },
+        {
+          "role": "author",
+          "view": "Viz",
+          "view_id": "83a35b55-5c95-4de9-91db-d578001926e3",
+          "scope": "Complete worksheet primary CSV at declared REST parameter/filter state. Set selection and hover events are native artifact contracts only.",
+          "parameters": {},
+          "filters": {
+            "Sub-Category": "Bookcases,Chairs,Furnishings,Tables"
+          },
+          "path": "outputs/cloud-author-viz-furniture.csv",
+          "sha256": "6aaef8af89cf54a2013846086405d2412c4a95ce69d56e5c54fabcc8c4f05029",
+          "bytes": 1222
+        },
+        {
+          "role": "replica",
+          "view": "Data",
+          "view_id": "c3f97a61-a83d-4d51-8c36-3b3383df7f45",
+          "scope": "Complete worksheet primary CSV at declared REST parameter/filter state. Set selection and hover events are native artifact contracts only.",
+          "parameters": {},
+          "filters": {
+            "Sub-Category": "Bookcases,Chairs,Furnishings,Tables"
+          },
+          "path": "outputs/cloud-replica-data-furniture.csv",
+          "sha256": "6aec04a14b64c4f1ef5ee6edb9eb3a45c02e5df226b2a9df1ee61d4127d5f8e1",
+          "bytes": 404
+        },
+        {
+          "role": "replica",
+          "view": "Viz",
+          "view_id": "502902d4-1868-4963-bb17-abe5e38eeedd",
+          "scope": "Complete worksheet primary CSV at declared REST parameter/filter state. Set selection and hover events are native artifact contracts only.",
+          "parameters": {},
+          "filters": {
+            "Sub-Category": "Bookcases,Chairs,Furnishings,Tables"
+          },
+          "path": "outputs/cloud-replica-viz-furniture.csv",
+          "sha256": "533131225e5d4c14fcaad92bf9fc1c385732e18b93a7404449290a17f6e6c007",
+          "bytes": 1392
+        }
+      ]
+    },
+    {
+      "name": "negative",
+      "parameters": {},
+      "filters": {
+        "Sub-Category": "Bookcases,Supplies,Tables"
+      },
+      "views": {
+        "author": {
+          "id": "e7ebdead-081b-46e5-9a62-873472e5dbe3",
+          "name": "2020_12_09_WW50_Measure_Names_Dot_Plot",
+          "path": "outputs/cloud-author-negative.png",
+          "sha256": "95536300964efb0d2d210c8cec1a3587b97c4c4109537dce2ac33ac85c721ff5",
+          "size": [
+            1600,
+            1800
+          ]
+        },
+        "replica": {
+          "id": "975cf715-5dec-4f5e-b09a-e73f69e1beed",
+          "name": "2020_12_09_WW50_Measure_Names_Dot_Plot",
+          "path": "outputs/cloud-replica-negative.png",
+          "sha256": "f295f9bcc3944dcfaff81afddc14d8739fa5f2100cc49e82c8b70a540b6b2671",
+          "size": [
+            1600,
+            1800
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Data",
+          "view_id": "e9d9850c-b363-46d9-9d6e-3d60c6e871f3",
+          "scope": "Complete worksheet primary CSV at declared REST parameter/filter state. Set selection and hover events are native artifact contracts only.",
+          "parameters": {},
+          "filters": {
+            "Sub-Category": "Bookcases,Supplies,Tables"
+          },
+          "path": "outputs/cloud-author-data-negative.csv",
+          "sha256": "3936a26cb4a5a7afbe235b607cddbaa35d5e5058a680335ecf550da41a2f0c95",
+          "bytes": 302
+        },
+        {
+          "role": "author",
+          "view": "Viz",
+          "view_id": "83a35b55-5c95-4de9-91db-d578001926e3",
+          "scope": "Complete worksheet primary CSV at declared REST parameter/filter state. Set selection and hover events are native artifact contracts only.",
+          "parameters": {},
+          "filters": {
+            "Sub-Category": "Bookcases,Supplies,Tables"
+          },
+          "path": "outputs/cloud-author-viz-negative.csv",
+          "sha256": "27eef18aca4f465394840f5ddaa85ac69f6a3b9fe3119143e171172c00af9842",
+          "bytes": 921
+        },
+        {
+          "role": "replica",
+          "view": "Data",
+          "view_id": "c3f97a61-a83d-4d51-8c36-3b3383df7f45",
+          "scope": "Complete worksheet primary CSV at declared REST parameter/filter state. Set selection and hover events are native artifact contracts only.",
+          "parameters": {},
+          "filters": {
+            "Sub-Category": "Bookcases,Supplies,Tables"
+          },
+          "path": "outputs/cloud-replica-data-negative.csv",
+          "sha256": "4c25a85014f5eb5853f99400823d95a39c34e0095b1b7a66dcb7433ac8dabe6e",
+          "bytes": 302
+        },
+        {
+          "role": "replica",
+          "view": "Viz",
+          "view_id": "502902d4-1868-4963-bb17-abe5e38eeedd",
+          "scope": "Complete worksheet primary CSV at declared REST parameter/filter state. Set selection and hover events are native artifact contracts only.",
+          "parameters": {},
+          "filters": {
+            "Sub-Category": "Bookcases,Supplies,Tables"
+          },
+          "path": "outputs/cloud-replica-viz-negative.csv",
+          "sha256": "e65ca5a847c29c18e1f749ed251ca4a952d7d5fce8ac4df6864969efc2c2ae30",
+          "bytes": 1052
+        }
+      ]
+    }
+  ],
+  "status": "verified",
+  "independent_review": {
+    "visual_status": "acceptable_delta",
+    "visual_evidence": "evidence/visual-review.md",
+    "functional_evidence": "evidence/functional-verification.json",
+    "scope": "Declared REST worksheet exports and artifact contracts; no browser events executed."
+  }
+}

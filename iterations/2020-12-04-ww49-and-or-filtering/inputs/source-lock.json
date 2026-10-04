@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-04",
+  "source_workbook": {
+    "filename": "author.twbx",
+    "bytes": 127799,
+    "sha256": "53c99bcec0da970d0378d7ce0d2b5f493d525aa39484a8764bb6ca6fd9b1eeab",
+    "url": "https://public.tableau.com/views/2020_12_02_WW49_Toggle_AND_OR_Filtering/2020_12_02_WW49_Toggle_AND_OR_Filtering"
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Datasources/Orders (Sample - Superstore).hyper",
+      "file": "inputs/Orders (Sample - Superstore).hyper",
+      "bytes": 327680,
+      "sha256": "94b2d3c2fb1fa78d8707b7f0195c6d83ab9d670d5393a5e78f8c918445b6ca21"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

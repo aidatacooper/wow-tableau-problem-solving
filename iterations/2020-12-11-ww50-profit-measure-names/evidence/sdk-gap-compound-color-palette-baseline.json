@@ -1,0 +1,15 @@
+{
+  "sdk": {
+    "url": "https://github.com/aidatacooper/cwtwb.git",
+    "vcs_info": {
+      "vcs": "git",
+      "commit_id": "e7fa7cd6770ac3d07af55570a5a7fffd18ad6155",
+      "requested_revision": "e7fa7cd6770ac3d07af55570a5a7fffd18ad6155"
+    }
+  },
+  "released_commit": "e7fa7cd6770ac3d07af55570a5a7fffd18ad6155",
+  "api": "set_compound_color_palette",
+  "available": false,
+  "synthetic_proposal": "Measure Names + boolean per-member tuple palette",
+  "case_requires": "Native multibucket tuple palette"
+}

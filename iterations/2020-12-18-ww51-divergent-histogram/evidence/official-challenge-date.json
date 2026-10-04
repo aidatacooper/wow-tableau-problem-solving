@@ -1,0 +1,17 @@
+{
+  "challenge_year": 2020,
+  "challenge_week": 51,
+  "article_date": "2020-12-18",
+  "challenge_date": "2020-12-16",
+  "official_rest_url": "https://www.workout-wednesday.com/wp-json/wp/v2/posts/4174",
+  "response_excerpt": {
+    "id": 4174,
+    "date": "2020-12-16T15:51:48",
+    "slug": "2020w51",
+    "link": "https://www.workout-wednesday.com/2020w51/",
+    "title": {
+      "rendered": "2020 Week 51: Can you build a Divergent Histogram?"
+    }
+  },
+  "scope": "Official WordPress publication calendar date, without inference from workbook filenames or week numbers."
+}

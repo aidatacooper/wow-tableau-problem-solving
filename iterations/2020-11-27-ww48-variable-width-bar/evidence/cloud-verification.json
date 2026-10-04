@@ -1,0 +1,298 @@
+{
+  "case_id": "wow-2020-ww48-variable-width-bar",
+  "captured_at": "2026-10-04T12:51:23.540892+00:00",
+  "source_hashes": {
+    "author": "f4a92665ca98a0a2edb808274a18e04c5c8ae9080ea743fd5df76eac04eb18d8",
+    "replica": "90fcf9ff916639a44c0663f781ab194a91855e6b937ae7cb77e7630a70540b01"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "cf2697a6-3976-4e8b-9c00-286e4ab2a67d",
+      "name": "cwtwb-review-wow-2020-ww48-variable-width-bar-author-f4a92665ca98",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2936002",
+      "views": [
+        {
+          "name": "2020_11_25_WW48_Variable_Width_Bar_Chart",
+          "id": "043abac8-865f-40a2-8595-e954bd55209b"
+        },
+        {
+          "name": "Data",
+          "id": "8bf241d2-245e-475b-b467-48026d0ef58e"
+        },
+        {
+          "name": "Viz",
+          "id": "19af4173-bf67-4f2b-bee5-0bab543e49aa"
+        }
+      ]
+    },
+    "replica": {
+      "id": "16957554-a32a-4092-9e32-06bf7fd21747",
+      "name": "cwtwb-review-wow-2020-ww48-variable-width-bar-replica-90fcf9ff9166",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2936021",
+      "views": [
+        {
+          "name": "Viz",
+          "id": "a8363d40-1835-425f-89df-8f4babe87ba5"
+        },
+        {
+          "name": "Data",
+          "id": "9ece8587-a841-4e27-bf2c-e0cf5cb7e4cd"
+        },
+        {
+          "name": "2020_11_25_WW48_Variable_Width_Bar_Chart",
+          "id": "8f28ba91-9e64-439f-9452-4f441d06208b"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "043abac8-865f-40a2-8595-e954bd55209b",
+          "name": "2020_11_25_WW48_Variable_Width_Bar_Chart",
+          "path": "outputs/cloud-author.png",
+          "sha256": "e8de6db4c953eac5016833e69cdab32a4d90a9816ccd1bfca5c6b9dcf6d05e32",
+          "size": [
+            2000,
+            1200
+          ]
+        },
+        "replica": {
+          "id": "8f28ba91-9e64-439f-9452-4f441d06208b",
+          "name": "2020_11_25_WW48_Variable_Width_Bar_Chart",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "42802874934f1c89ae490a0c7d00a3ce0bbcdd64be409e2aee17842a3d5cd420",
+          "size": [
+            2000,
+            1200
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Viz",
+          "view_id": "19af4173-bf67-4f2b-bee5-0bab543e49aa",
+          "scope": "Complete plotted worksheet data at explicit ordinary REST filter state; no browser interaction.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-viz.csv",
+          "sha256": "eb51a468a68e76f5530daecfed49f8780055a888c3d58d75a3a346137cf6f2f0",
+          "bytes": 4086
+        },
+        {
+          "role": "author",
+          "view": "Data",
+          "view_id": "8bf241d2-245e-475b-b467-48026d0ef58e",
+          "scope": "All session metrics checked independently against every raw attendance fact.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-data.csv",
+          "sha256": "e6090ea8d6350e4077cb110f435209df167e166148bab724bfb074ce646b145e",
+          "bytes": 6562
+        },
+        {
+          "role": "replica",
+          "view": "Viz",
+          "view_id": "a8363d40-1835-425f-89df-8f4babe87ba5",
+          "scope": "Complete plotted worksheet data at explicit ordinary REST filter state; no browser interaction.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-viz.csv",
+          "sha256": "8b9bcded67c746865b203bd0a5ab0a94a22d59d2be91ecf010f269d37e94253f",
+          "bytes": 1317
+        },
+        {
+          "role": "replica",
+          "view": "Data",
+          "view_id": "9ece8587-a841-4e27-bf2c-e0cf5cb7e4cd",
+          "scope": "All session metrics checked independently against every raw attendance fact.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-data.csv",
+          "sha256": "4adc53d255e25d51954228d06c93ff9a45af5f78320cbde70a04bfb973dc188f",
+          "bytes": 4336
+        }
+      ]
+    },
+    {
+      "name": "live",
+      "parameters": {},
+      "filters": {
+        "Location": "Live"
+      },
+      "views": {
+        "author": {
+          "id": "043abac8-865f-40a2-8595-e954bd55209b",
+          "name": "2020_11_25_WW48_Variable_Width_Bar_Chart",
+          "path": "outputs/cloud-author-live.png",
+          "sha256": "b093096c839a7410a4451fcfe555fa929912dade9f84b69614f4e4667354a538",
+          "size": [
+            2000,
+            1200
+          ]
+        },
+        "replica": {
+          "id": "8f28ba91-9e64-439f-9452-4f441d06208b",
+          "name": "2020_11_25_WW48_Variable_Width_Bar_Chart",
+          "path": "outputs/cloud-replica-live.png",
+          "sha256": "59cf4586d73a1bd3f4175a1bcc74b1b621b6458e2f39c29edbe74e2cd7c40a4f",
+          "size": [
+            2000,
+            1200
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Viz",
+          "view_id": "19af4173-bf67-4f2b-bee5-0bab543e49aa",
+          "scope": "Complete plotted worksheet data at explicit ordinary REST filter state; no browser interaction.",
+          "parameters": {},
+          "filters": {
+            "Location": "Live"
+          },
+          "path": "outputs/cloud-author-viz-live.csv",
+          "sha256": "e5f4ae1798f233c3201d7760ba06761bae81cb75860774ff398b1ea2343573a1",
+          "bytes": 1882
+        },
+        {
+          "role": "author",
+          "view": "Data",
+          "view_id": "8bf241d2-245e-475b-b467-48026d0ef58e",
+          "scope": "All session metrics checked independently against every raw attendance fact.",
+          "parameters": {},
+          "filters": {
+            "Location": "Live"
+          },
+          "path": "outputs/cloud-author-data-live.csv",
+          "sha256": "4cea271012450ce155986e4643b620c8f737147c03425265c70f7e05862c8054",
+          "bytes": 2992
+        },
+        {
+          "role": "replica",
+          "view": "Viz",
+          "view_id": "a8363d40-1835-425f-89df-8f4babe87ba5",
+          "scope": "Complete plotted worksheet data at explicit ordinary REST filter state; no browser interaction.",
+          "parameters": {},
+          "filters": {
+            "Location": "Live"
+          },
+          "path": "outputs/cloud-replica-viz-live.csv",
+          "sha256": "6264e59c38249b7230d2ac0bc5c2f4173f0168edd63b367f3816665c52a79636",
+          "bytes": 639
+        },
+        {
+          "role": "replica",
+          "view": "Data",
+          "view_id": "9ece8587-a841-4e27-bf2c-e0cf5cb7e4cd",
+          "scope": "All session metrics checked independently against every raw attendance fact.",
+          "parameters": {},
+          "filters": {
+            "Location": "Live"
+          },
+          "path": "outputs/cloud-replica-data-live.csv",
+          "sha256": "1129ad2fb49e63cfb28f25a8c84a1199b7802f8c52978256df94251af61c82c6",
+          "bytes": 1963
+        }
+      ]
+    },
+    {
+      "name": "recording",
+      "parameters": {},
+      "filters": {
+        "Location": "Recording"
+      },
+      "views": {
+        "author": {
+          "id": "043abac8-865f-40a2-8595-e954bd55209b",
+          "name": "2020_11_25_WW48_Variable_Width_Bar_Chart",
+          "path": "outputs/cloud-author-recording.png",
+          "sha256": "e8217248e74e401cf6d5eea9bcaff1fcdd7bdd79e640e02cc21ad99cb0d6f8a6",
+          "size": [
+            2000,
+            1200
+          ]
+        },
+        "replica": {
+          "id": "8f28ba91-9e64-439f-9452-4f441d06208b",
+          "name": "2020_11_25_WW48_Variable_Width_Bar_Chart",
+          "path": "outputs/cloud-replica-recording.png",
+          "sha256": "e56bd765fe39996b89fbd1c5070324c153dd25a7258afedca4b494ec2ee621a6",
+          "size": [
+            2000,
+            1200
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Viz",
+          "view_id": "19af4173-bf67-4f2b-bee5-0bab543e49aa",
+          "scope": "Complete plotted worksheet data at explicit ordinary REST filter state; no browser interaction.",
+          "parameters": {},
+          "filters": {
+            "Location": "Recording"
+          },
+          "path": "outputs/cloud-author-viz-recording.csv",
+          "sha256": "d1b839da0b23e98175ab76763d158d8e239fbd3ee694f0a7c3fab6a85e39aa4f",
+          "bytes": 1982
+        },
+        {
+          "role": "author",
+          "view": "Data",
+          "view_id": "8bf241d2-245e-475b-b467-48026d0ef58e",
+          "scope": "All session metrics checked independently against every raw attendance fact.",
+          "parameters": {},
+          "filters": {
+            "Location": "Recording"
+          },
+          "path": "outputs/cloud-author-data-recording.csv",
+          "sha256": "e16fe1720cb0a765e08e2b8deb57682bd2211b32b92cec0793aa4499ee4a32ce",
+          "bytes": 3054
+        },
+        {
+          "role": "replica",
+          "view": "Viz",
+          "view_id": "a8363d40-1835-425f-89df-8f4babe87ba5",
+          "scope": "Complete plotted worksheet data at explicit ordinary REST filter state; no browser interaction.",
+          "parameters": {},
+          "filters": {
+            "Location": "Recording"
+          },
+          "path": "outputs/cloud-replica-viz-recording.csv",
+          "sha256": "3bdb505c81f4826c050cde240fcfa3ea1fb57d1822d83e155d678dfc1fae34d4",
+          "bytes": 605
+        },
+        {
+          "role": "replica",
+          "view": "Data",
+          "view_id": "9ece8587-a841-4e27-bf2c-e0cf5cb7e4cd",
+          "scope": "All session metrics checked independently against every raw attendance fact.",
+          "parameters": {},
+          "filters": {
+            "Location": "Recording"
+          },
+          "path": "outputs/cloud-replica-data-recording.csv",
+          "sha256": "aa3f5fcd752abd214cda9126d854f5fe75f692ccf6a4beab36cbae249b9aa460",
+          "bytes": 2004
+        }
+      ]
+    }
+  ],
+  "status": "verified",
+  "independent_review": {
+    "visual_status": "acceptable_delta",
+    "visual_evidence": "evidence/visual-review.md",
+    "functional_evidence": "evidence/functional-verification.json",
+    "scope": "Declared REST worksheet exports and artifact contracts; no browser events executed."
+  }
+}

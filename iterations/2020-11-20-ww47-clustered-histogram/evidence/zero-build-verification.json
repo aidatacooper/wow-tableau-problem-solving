@@ -1,0 +1,9 @@
+{
+  "case_id": "2020-11-20-ww47-clustered-histogram",
+  "sdk_commit": "df8c2a52cd48800fa0a43d936f6946d318f5b953",
+  "builder_sha256": "3ed9b745a9fd0aacc50dda113e342ff25e5de471d7d52f80d15bf5fd2afad637",
+  "builder_hash_scope": "UTF-8 source text with universal newlines normalized to LF",
+  "result": "passed",
+  "initial_workbooks_available": 0,
+  "scope": "Copied only builder/verifier, metadata and locked inputs. Built from TWBEditor empty, then ran independent raw-data/artifact oracle without copied Cloud evidence or author workbooks."
+}

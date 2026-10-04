@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-04",
+  "source_workbook": {
+    "filename": "author.twbx",
+    "bytes": 113550,
+    "sha256": "a5d4fa1bdd72366a23eb9b8f2792a0a9c221b20f0b743882f531535046c79809",
+    "url": "https://public.tableau.com/views/2020_12_09_WW50_Measure_Names_Dot_Plot/2020_12_09_WW50_Measure_Names_Dot_Plot"
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/TableauTemp/TEMP_044agg50zcziw71ecvscg1e946q4.hyper",
+      "file": "inputs/TEMP_044agg50zcziw71ecvscg1e946q4.hyper",
+      "bytes": 327680,
+      "sha256": "222b7c9b4cccb51de14d3320d4ef8316b26e607b81f3a02e20771c1270a3ccb4"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

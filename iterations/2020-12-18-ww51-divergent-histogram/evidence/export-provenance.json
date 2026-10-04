@@ -1,0 +1,15 @@
+{
+  "original_sha256": "6cf0b36c18ca213e0d076c8e58fac066adcc1873dd8a25038970aab0db8ca04e",
+  "export_sha256": "5c9c26cf0ac2ad4e4d2c7c4ef09c331ecd062029b5772fdb48e7d0dc7fbf0f20",
+  "only_changes": "Removed existing worksheet-window hidden attributes; all nonwindow businessXML and nonTWB archive bytes identical.",
+  "business_xml_unchanged": true,
+  "preserved_archive_members": {
+    "Data/Datasources/2020_12_16_WW51_World Indicators_Migrated Data.hyper": "da2bc07855706cf91958b9a9dd9f838219d817d08f3532f0f86902df8e25dc65"
+  },
+  "changed_windows": [
+    {
+      "name": "Viz",
+      "hidden_before": "true"
+    }
+  ]
+}

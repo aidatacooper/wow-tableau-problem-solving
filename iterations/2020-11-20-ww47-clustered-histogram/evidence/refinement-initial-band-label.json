@@ -1,0 +1,210 @@
+{
+  "case_id": "wow-2020-ww47-clustered-histogram",
+  "captured_at": "2026-10-04T12:59:09.488420+00:00",
+  "source_hashes": {
+    "author": "ed1d484f576b97bcb783de8487ad38668f8b971e4a1cf435f3cc98ae4b3ec804",
+    "replica": "a29183047b58745b9ac4b988887ca68571ffa1c0d1dfd97e4f7ef81381681af2"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "712aa6cd-9f4e-4890-92b9-8327c3554b51",
+      "name": "cwtwb-review-wow-2020-ww47-clustered-histogram-author-ed1d484f576b",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2936047",
+      "views": [
+        {
+          "name": "2020_11_18_WW47_Clustered_Histogram",
+          "id": "d02e8a65-3c44-4f44-9fad-b1eaafb00cf8"
+        },
+        {
+          "name": "Chart",
+          "id": "d850220d-e9fd-4672-9997-0d2acaadf219"
+        }
+      ]
+    },
+    "replica": {
+      "id": "be010481-d33b-47f5-a08a-fee56e166230",
+      "name": "cwtwb-review-wow-2020-ww47-clustered-histogram-replica-a29183047b58",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2936048",
+      "views": [
+        {
+          "name": "Chart",
+          "id": "b452c8bd-bbf2-4b1d-9041-bd08b85d3329"
+        },
+        {
+          "name": "2020_11_18_WW47_Clustered_Histogram",
+          "id": "2a381b81-5fca-43fc-9135-4b9111468567"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "d02e8a65-3c44-4f44-9fad-b1eaafb00cf8",
+          "name": "2020_11_18_WW47_Clustered_Histogram",
+          "path": "outputs/cloud-author.png",
+          "sha256": "49fcaf73c17333ca44c5672714976f513f9393041f07c42f59c898f5fd68f355",
+          "size": [
+            2800,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "2a381b81-5fca-43fc-9135-4b9111468567",
+          "name": "2020_11_18_WW47_Clustered_Histogram",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "c7c00c7f217871ccb7cb8563fca9e600c988347a4c8484721a44edc52effde05",
+          "size": [
+            2800,
+            1600
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Chart",
+          "view_id": "d850220d-e9fd-4672-9997-0d2acaadf219",
+          "scope": "Complete plotted worksheet data at explicit ordinary REST filter state; no browser interaction.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-chart.csv",
+          "sha256": "0b0decb3e9fbd4b1ad64b1b6343ea4270b3841e8b75eb3884ff44ad2cc31cc43",
+          "bytes": 3547
+        },
+        {
+          "role": "replica",
+          "view": "Chart",
+          "view_id": "b452c8bd-bbf2-4b1d-9041-bd08b85d3329",
+          "scope": "Complete plotted worksheet data at explicit ordinary REST filter state; no browser interaction.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-chart.csv",
+          "sha256": "d6a67f46b6f8a816a122a1974d4f7078f975629e62f30f42f84e6d94d664d0ba",
+          "bytes": 1249
+        }
+      ]
+    },
+    {
+      "name": "consumer",
+      "parameters": {},
+      "filters": {
+        "Segment": "Consumer"
+      },
+      "views": {
+        "author": {
+          "id": "d02e8a65-3c44-4f44-9fad-b1eaafb00cf8",
+          "name": "2020_11_18_WW47_Clustered_Histogram",
+          "path": "outputs/cloud-author-consumer.png",
+          "sha256": "7e43b477c75125c439921a7a04e37bf0f5e2c9a1578e0bf96b37c14f4bfc55b4",
+          "size": [
+            2800,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "2a381b81-5fca-43fc-9135-4b9111468567",
+          "name": "2020_11_18_WW47_Clustered_Histogram",
+          "path": "outputs/cloud-replica-consumer.png",
+          "sha256": "f6a8706d4845a8f7614059d06ed401e6b441b32f80bca1a1a0cf25111acff4a4",
+          "size": [
+            2800,
+            1600
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Chart",
+          "view_id": "d850220d-e9fd-4672-9997-0d2acaadf219",
+          "scope": "Complete plotted worksheet data at explicit ordinary REST filter state; no browser interaction.",
+          "parameters": {},
+          "filters": {
+            "Segment": "Consumer"
+          },
+          "path": "outputs/cloud-author-chart-consumer.csv",
+          "sha256": "de1fb6c69cdd4c12d7bb1b7d5f64cf1ec60eb23678ab836af59bc6e5f977981b",
+          "bytes": 1244
+        },
+        {
+          "role": "replica",
+          "view": "Chart",
+          "view_id": "b452c8bd-bbf2-4b1d-9041-bd08b85d3329",
+          "scope": "Complete plotted worksheet data at explicit ordinary REST filter state; no browser interaction.",
+          "parameters": {},
+          "filters": {
+            "Segment": "Consumer"
+          },
+          "path": "outputs/cloud-replica-chart-consumer.csv",
+          "sha256": "cc8d526652eb84a0696aa9416c5446b8bb9428e9513bb46c828ab5304238d673",
+          "bytes": 428
+        }
+      ]
+    },
+    {
+      "name": "corporate",
+      "parameters": {},
+      "filters": {
+        "Segment": "Corporate"
+      },
+      "views": {
+        "author": {
+          "id": "d02e8a65-3c44-4f44-9fad-b1eaafb00cf8",
+          "name": "2020_11_18_WW47_Clustered_Histogram",
+          "path": "outputs/cloud-author-corporate.png",
+          "sha256": "4053746c16c8b52882f7a0851a0e530ea956a641ea7d09497a6d314693b46902",
+          "size": [
+            2800,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "2a381b81-5fca-43fc-9135-4b9111468567",
+          "name": "2020_11_18_WW47_Clustered_Histogram",
+          "path": "outputs/cloud-replica-corporate.png",
+          "sha256": "b67ab1cddbb551cfcaefd8e679170d09353208382ddf9cdc7b2efad7616de813",
+          "size": [
+            2800,
+            1600
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Chart",
+          "view_id": "d850220d-e9fd-4672-9997-0d2acaadf219",
+          "scope": "Complete plotted worksheet data at explicit ordinary REST filter state; no browser interaction.",
+          "parameters": {},
+          "filters": {
+            "Segment": "Corporate"
+          },
+          "path": "outputs/cloud-author-chart-corporate.csv",
+          "sha256": "15a2d477cf97581a0f04acb3b9f842ba07c7bce7a4a3927879ee10e6d3a165ab",
+          "bytes": 1222
+        },
+        {
+          "role": "replica",
+          "view": "Chart",
+          "view_id": "b452c8bd-bbf2-4b1d-9041-bd08b85d3329",
+          "scope": "Complete plotted worksheet data at explicit ordinary REST filter state; no browser interaction.",
+          "parameters": {},
+          "filters": {
+            "Segment": "Corporate"
+          },
+          "path": "outputs/cloud-replica-chart-corporate.csv",
+          "sha256": "54219bdb0bb8bd54aa90713a59d3a16d3d695ca6dedd0be054c979d808ea4a1b",
+          "bytes": 426
+        }
+      ]
+    }
+  ],
+  "status": "captured_requires_independent_review"
+}

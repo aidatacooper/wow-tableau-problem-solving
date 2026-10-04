@@ -1,0 +1,1304 @@
+{
+  "artifact_sha256": "f352bf10b9b9795aa4f87a27008146559f743b31d10c9c6abda4e3d435fb0d9f",
+  "raw_oracle": {
+    "facts": 9994,
+    "complete_sheet_totals": {
+      "Region": {
+        "South": {
+          "Sales": 391721.905,
+          "Quantity": 6209,
+          "Orders": 822
+        },
+        "West": {
+          "Sales": 725457.8245,
+          "Quantity": 12266,
+          "Orders": 1611
+        },
+        "Central": {
+          "Sales": 501239.8908,
+          "Quantity": 8780,
+          "Orders": 1175
+        },
+        "East": {
+          "Sales": 678781.24,
+          "Quantity": 10618,
+          "Orders": 1401
+        }
+      },
+      "Category": {
+        "Furniture": {
+          "Sales": 741999.7953,
+          "Quantity": 8028,
+          "Orders": 1764
+        },
+        "Office Supplies": {
+          "Sales": 719047.032,
+          "Quantity": 22906,
+          "Orders": 3742
+        },
+        "Technology": {
+          "Sales": 836154.033,
+          "Quantity": 6939,
+          "Orders": 1544
+        }
+      },
+      "Segment": {
+        "Consumer": {
+          "Sales": 1161401.345,
+          "Quantity": 19521,
+          "Orders": 2586
+        },
+        "Corporate": {
+          "Sales": 706146.3668,
+          "Quantity": 11608,
+          "Orders": 1514
+        },
+        "Home Office": {
+          "Sales": 429653.1485,
+          "Quantity": 6744,
+          "Orders": 909
+        }
+      },
+      "Ship Mode": {
+        "Second Class": {
+          "Sales": 459193.5694,
+          "Quantity": 7423,
+          "Orders": 964
+        },
+        "Standard Class": {
+          "Sales": 1358215.743,
+          "Quantity": 22797,
+          "Orders": 2994
+        },
+        "First Class": {
+          "Sales": 351428.4229,
+          "Quantity": 5693,
+          "Orders": 787
+        },
+        "Same Day": {
+          "Sales": 128363.125,
+          "Quantity": 1960,
+          "Orders": 264
+        }
+      }
+    },
+    "logic_truth_table": [
+      {
+        "active": [
+          false,
+          false,
+          false
+        ],
+        "membership": [
+          true,
+          true,
+          true
+        ],
+        "AND": true,
+        "OR": true
+      },
+      {
+        "active": [
+          false,
+          false,
+          false
+        ],
+        "membership": [
+          true,
+          true,
+          true
+        ],
+        "AND": true,
+        "OR": true
+      },
+      {
+        "active": [
+          false,
+          false,
+          false
+        ],
+        "membership": [
+          true,
+          true,
+          true
+        ],
+        "AND": true,
+        "OR": true
+      },
+      {
+        "active": [
+          false,
+          false,
+          false
+        ],
+        "membership": [
+          true,
+          true,
+          true
+        ],
+        "AND": true,
+        "OR": true
+      },
+      {
+        "active": [
+          false,
+          false,
+          false
+        ],
+        "membership": [
+          true,
+          true,
+          true
+        ],
+        "AND": true,
+        "OR": true
+      },
+      {
+        "active": [
+          false,
+          false,
+          false
+        ],
+        "membership": [
+          true,
+          true,
+          true
+        ],
+        "AND": true,
+        "OR": true
+      },
+      {
+        "active": [
+          false,
+          false,
+          false
+        ],
+        "membership": [
+          true,
+          true,
+          true
+        ],
+        "AND": true,
+        "OR": true
+      },
+      {
+        "active": [
+          false,
+          false,
+          false
+        ],
+        "membership": [
+          true,
+          true,
+          true
+        ],
+        "AND": true,
+        "OR": true
+      },
+      {
+        "active": [
+          false,
+          false,
+          true
+        ],
+        "membership": [
+          true,
+          true,
+          false
+        ],
+        "AND": false,
+        "OR": false
+      },
+      {
+        "active": [
+          false,
+          false,
+          true
+        ],
+        "membership": [
+          true,
+          true,
+          true
+        ],
+        "AND": true,
+        "OR": true
+      },
+      {
+        "active": [
+          false,
+          false,
+          true
+        ],
+        "membership": [
+          true,
+          true,
+          false
+        ],
+        "AND": false,
+        "OR": false
+      },
+      {
+        "active": [
+          false,
+          false,
+          true
+        ],
+        "membership": [
+          true,
+          true,
+          true
+        ],
+        "AND": true,
+        "OR": true
+      },
+      {
+        "active": [
+          false,
+          false,
+          true
+        ],
+        "membership": [
+          true,
+          true,
+          false
+        ],
+        "AND": false,
+        "OR": false
+      },
+      {
+        "active": [
+          false,
+          false,
+          true
+        ],
+        "membership": [
+          true,
+          true,
+          true
+        ],
+        "AND": true,
+        "OR": true
+      },
+      {
+        "active": [
+          false,
+          false,
+          true
+        ],
+        "membership": [
+          true,
+          true,
+          false
+        ],
+        "AND": false,
+        "OR": false
+      },
+      {
+        "active": [
+          false,
+          false,
+          true
+        ],
+        "membership": [
+          true,
+          true,
+          true
+        ],
+        "AND": true,
+        "OR": true
+      },
+      {
+        "active": [
+          false,
+          true,
+          false
+        ],
+        "membership": [
+          true,
+          false,
+          true
+        ],
+        "AND": false,
+        "OR": false
+      },
+      {
+        "active": [
+          false,
+          true,
+          false
+        ],
+        "membership": [
+          true,
+          false,
+          true
+        ],
+        "AND": false,
+        "OR": false
+      },
+      {
+        "active": [
+          false,
+          true,
+          false
+        ],
+        "membership": [
+          true,
+          true,
+          true
+        ],
+        "AND": true,
+        "OR": true
+      },
+      {
+        "active": [
+          false,
+          true,
+          false
+        ],
+        "membership": [
+          true,
+          true,
+          true
+        ],
+        "AND": true,
+        "OR": true
+      },
+      {
+        "active": [
+          false,
+          true,
+          false
+        ],
+        "membership": [
+          true,
+          false,
+          true
+        ],
+        "AND": false,
+        "OR": false
+      },
+      {
+        "active": [
+          false,
+          true,
+          false
+        ],
+        "membership": [
+          true,
+          false,
+          true
+        ],
+        "AND": false,
+        "OR": false
+      },
+      {
+        "active": [
+          false,
+          true,
+          false
+        ],
+        "membership": [
+          true,
+          true,
+          true
+        ],
+        "AND": true,
+        "OR": true
+      },
+      {
+        "active": [
+          false,
+          true,
+          false
+        ],
+        "membership": [
+          true,
+          true,
+          true
+        ],
+        "AND": true,
+        "OR": true
+      },
+      {
+        "active": [
+          false,
+          true,
+          true
+        ],
+        "membership": [
+          true,
+          false,
+          false
+        ],
+        "AND": false,
+        "OR": false
+      },
+      {
+        "active": [
+          false,
+          true,
+          true
+        ],
+        "membership": [
+          true,
+          false,
+          true
+        ],
+        "AND": false,
+        "OR": true
+      },
+      {
+        "active": [
+          false,
+          true,
+          true
+        ],
+        "membership": [
+          true,
+          true,
+          false
+        ],
+        "AND": false,
+        "OR": true
+      },
+      {
+        "active": [
+          false,
+          true,
+          true
+        ],
+        "membership": [
+          true,
+          true,
+          true
+        ],
+        "AND": true,
+        "OR": true
+      },
+      {
+        "active": [
+          false,
+          true,
+          true
+        ],
+        "membership": [
+          true,
+          false,
+          false
+        ],
+        "AND": false,
+        "OR": false
+      },
+      {
+        "active": [
+          false,
+          true,
+          true
+        ],
+        "membership": [
+          true,
+          false,
+          true
+        ],
+        "AND": false,
+        "OR": true
+      },
+      {
+        "active": [
+          false,
+          true,
+          true
+        ],
+        "membership": [
+          true,
+          true,
+          false
+        ],
+        "AND": false,
+        "OR": true
+      },
+      {
+        "active": [
+          false,
+          true,
+          true
+        ],
+        "membership": [
+          true,
+          true,
+          true
+        ],
+        "AND": true,
+        "OR": true
+      },
+      {
+        "active": [
+          true,
+          false,
+          false
+        ],
+        "membership": [
+          false,
+          true,
+          true
+        ],
+        "AND": false,
+        "OR": false
+      },
+      {
+        "active": [
+          true,
+          false,
+          false
+        ],
+        "membership": [
+          false,
+          true,
+          true
+        ],
+        "AND": false,
+        "OR": false
+      },
+      {
+        "active": [
+          true,
+          false,
+          false
+        ],
+        "membership": [
+          false,
+          true,
+          true
+        ],
+        "AND": false,
+        "OR": false
+      },
+      {
+        "active": [
+          true,
+          false,
+          false
+        ],
+        "membership": [
+          false,
+          true,
+          true
+        ],
+        "AND": false,
+        "OR": false
+      },
+      {
+        "active": [
+          true,
+          false,
+          false
+        ],
+        "membership": [
+          true,
+          true,
+          true
+        ],
+        "AND": true,
+        "OR": true
+      },
+      {
+        "active": [
+          true,
+          false,
+          false
+        ],
+        "membership": [
+          true,
+          true,
+          true
+        ],
+        "AND": true,
+        "OR": true
+      },
+      {
+        "active": [
+          true,
+          false,
+          false
+        ],
+        "membership": [
+          true,
+          true,
+          true
+        ],
+        "AND": true,
+        "OR": true
+      },
+      {
+        "active": [
+          true,
+          false,
+          false
+        ],
+        "membership": [
+          true,
+          true,
+          true
+        ],
+        "AND": true,
+        "OR": true
+      },
+      {
+        "active": [
+          true,
+          false,
+          true
+        ],
+        "membership": [
+          false,
+          true,
+          false
+        ],
+        "AND": false,
+        "OR": false
+      },
+      {
+        "active": [
+          true,
+          false,
+          true
+        ],
+        "membership": [
+          false,
+          true,
+          true
+        ],
+        "AND": false,
+        "OR": true
+      },
+      {
+        "active": [
+          true,
+          false,
+          true
+        ],
+        "membership": [
+          false,
+          true,
+          false
+        ],
+        "AND": false,
+        "OR": false
+      },
+      {
+        "active": [
+          true,
+          false,
+          true
+        ],
+        "membership": [
+          false,
+          true,
+          true
+        ],
+        "AND": false,
+        "OR": true
+      },
+      {
+        "active": [
+          true,
+          false,
+          true
+        ],
+        "membership": [
+          true,
+          true,
+          false
+        ],
+        "AND": false,
+        "OR": true
+      },
+      {
+        "active": [
+          true,
+          false,
+          true
+        ],
+        "membership": [
+          true,
+          true,
+          true
+        ],
+        "AND": true,
+        "OR": true
+      },
+      {
+        "active": [
+          true,
+          false,
+          true
+        ],
+        "membership": [
+          true,
+          true,
+          false
+        ],
+        "AND": false,
+        "OR": true
+      },
+      {
+        "active": [
+          true,
+          false,
+          true
+        ],
+        "membership": [
+          true,
+          true,
+          true
+        ],
+        "AND": true,
+        "OR": true
+      },
+      {
+        "active": [
+          true,
+          true,
+          false
+        ],
+        "membership": [
+          false,
+          false,
+          true
+        ],
+        "AND": false,
+        "OR": false
+      },
+      {
+        "active": [
+          true,
+          true,
+          false
+        ],
+        "membership": [
+          false,
+          false,
+          true
+        ],
+        "AND": false,
+        "OR": false
+      },
+      {
+        "active": [
+          true,
+          true,
+          false
+        ],
+        "membership": [
+          false,
+          true,
+          true
+        ],
+        "AND": false,
+        "OR": true
+      },
+      {
+        "active": [
+          true,
+          true,
+          false
+        ],
+        "membership": [
+          false,
+          true,
+          true
+        ],
+        "AND": false,
+        "OR": true
+      },
+      {
+        "active": [
+          true,
+          true,
+          false
+        ],
+        "membership": [
+          true,
+          false,
+          true
+        ],
+        "AND": false,
+        "OR": true
+      },
+      {
+        "active": [
+          true,
+          true,
+          false
+        ],
+        "membership": [
+          true,
+          false,
+          true
+        ],
+        "AND": false,
+        "OR": true
+      },
+      {
+        "active": [
+          true,
+          true,
+          false
+        ],
+        "membership": [
+          true,
+          true,
+          true
+        ],
+        "AND": true,
+        "OR": true
+      },
+      {
+        "active": [
+          true,
+          true,
+          false
+        ],
+        "membership": [
+          true,
+          true,
+          true
+        ],
+        "AND": true,
+        "OR": true
+      },
+      {
+        "active": [
+          true,
+          true,
+          true
+        ],
+        "membership": [
+          false,
+          false,
+          false
+        ],
+        "AND": false,
+        "OR": false
+      },
+      {
+        "active": [
+          true,
+          true,
+          true
+        ],
+        "membership": [
+          false,
+          false,
+          true
+        ],
+        "AND": false,
+        "OR": true
+      },
+      {
+        "active": [
+          true,
+          true,
+          true
+        ],
+        "membership": [
+          false,
+          true,
+          false
+        ],
+        "AND": false,
+        "OR": true
+      },
+      {
+        "active": [
+          true,
+          true,
+          true
+        ],
+        "membership": [
+          false,
+          true,
+          true
+        ],
+        "AND": false,
+        "OR": true
+      },
+      {
+        "active": [
+          true,
+          true,
+          true
+        ],
+        "membership": [
+          true,
+          false,
+          false
+        ],
+        "AND": false,
+        "OR": true
+      },
+      {
+        "active": [
+          true,
+          true,
+          true
+        ],
+        "membership": [
+          true,
+          false,
+          true
+        ],
+        "AND": false,
+        "OR": true
+      },
+      {
+        "active": [
+          true,
+          true,
+          true
+        ],
+        "membership": [
+          true,
+          true,
+          false
+        ],
+        "AND": false,
+        "OR": true
+      },
+      {
+        "active": [
+          true,
+          true,
+          true
+        ],
+        "membership": [
+          true,
+          true,
+          true
+        ],
+        "AND": true,
+        "OR": true
+      }
+    ],
+    "independent_subset_oracles": [
+      {
+        "logic": "AND",
+        "facts": 375,
+        "Sales": 119808.087,
+        "Quantity": 1405,
+        "Orders": 311
+      },
+      {
+        "logic": "OR",
+        "facts": 7398,
+        "Sales": 1742124.2233,
+        "Quantity": 27881,
+        "Orders": 3935
+      }
+    ],
+    "subset_scope": "Raw independent oracle plus native formula contract only; no Cloud set-membership event executed."
+  },
+  "native_contracts": {
+    "passed": true,
+    "dynamic_all_domain_sets": 3,
+    "set_controls": 3,
+    "parameters": 5,
+    "business_sheets": 4,
+    "browser_events_executed": false
+  },
+  "cloud": {
+    "passed": true,
+    "status": "verified",
+    "exports": [
+      {
+        "state": "default",
+        "role": "author",
+        "sheet": "Region",
+        "metric": "Sales",
+        "rows": 4,
+        "groups": 4,
+        "metric_checks": 4
+      },
+      {
+        "state": "default",
+        "role": "author",
+        "sheet": "Category",
+        "metric": "Sales",
+        "rows": 3,
+        "groups": 3,
+        "metric_checks": 3
+      },
+      {
+        "state": "default",
+        "role": "author",
+        "sheet": "Segment",
+        "metric": "Sales",
+        "rows": 3,
+        "groups": 3,
+        "metric_checks": 3
+      },
+      {
+        "state": "default",
+        "role": "author",
+        "sheet": "Ship Mode",
+        "metric": "Sales",
+        "rows": 4,
+        "groups": 4,
+        "metric_checks": 4
+      },
+      {
+        "state": "default",
+        "role": "replica",
+        "sheet": "Region",
+        "metric": "Sales",
+        "rows": 4,
+        "groups": 4,
+        "metric_checks": 4
+      },
+      {
+        "state": "default",
+        "role": "replica",
+        "sheet": "Category",
+        "metric": "Sales",
+        "rows": 3,
+        "groups": 3,
+        "metric_checks": 3
+      },
+      {
+        "state": "default",
+        "role": "replica",
+        "sheet": "Segment",
+        "metric": "Sales",
+        "rows": 3,
+        "groups": 3,
+        "metric_checks": 3
+      },
+      {
+        "state": "default",
+        "role": "replica",
+        "sheet": "Ship Mode",
+        "metric": "Sales",
+        "rows": 4,
+        "groups": 4,
+        "metric_checks": 4
+      },
+      {
+        "state": "quantity-or",
+        "role": "author",
+        "sheet": "Region",
+        "metric": "Quantity",
+        "rows": 4,
+        "groups": 4,
+        "metric_checks": 4
+      },
+      {
+        "state": "quantity-or",
+        "role": "author",
+        "sheet": "Category",
+        "metric": "Quantity",
+        "rows": 3,
+        "groups": 3,
+        "metric_checks": 3
+      },
+      {
+        "state": "quantity-or",
+        "role": "author",
+        "sheet": "Segment",
+        "metric": "Quantity",
+        "rows": 3,
+        "groups": 3,
+        "metric_checks": 3
+      },
+      {
+        "state": "quantity-or",
+        "role": "author",
+        "sheet": "Ship Mode",
+        "metric": "Quantity",
+        "rows": 4,
+        "groups": 4,
+        "metric_checks": 4
+      },
+      {
+        "state": "quantity-or",
+        "role": "replica",
+        "sheet": "Region",
+        "metric": "Quantity",
+        "rows": 4,
+        "groups": 4,
+        "metric_checks": 4
+      },
+      {
+        "state": "quantity-or",
+        "role": "replica",
+        "sheet": "Category",
+        "metric": "Quantity",
+        "rows": 3,
+        "groups": 3,
+        "metric_checks": 3
+      },
+      {
+        "state": "quantity-or",
+        "role": "replica",
+        "sheet": "Segment",
+        "metric": "Quantity",
+        "rows": 3,
+        "groups": 3,
+        "metric_checks": 3
+      },
+      {
+        "state": "quantity-or",
+        "role": "replica",
+        "sheet": "Ship Mode",
+        "metric": "Quantity",
+        "rows": 4,
+        "groups": 4,
+        "metric_checks": 4
+      },
+      {
+        "state": "orders-and",
+        "role": "author",
+        "sheet": "Region",
+        "metric": "Orders",
+        "rows": 4,
+        "groups": 4,
+        "metric_checks": 4
+      },
+      {
+        "state": "orders-and",
+        "role": "author",
+        "sheet": "Category",
+        "metric": "Orders",
+        "rows": 3,
+        "groups": 3,
+        "metric_checks": 3
+      },
+      {
+        "state": "orders-and",
+        "role": "author",
+        "sheet": "Segment",
+        "metric": "Orders",
+        "rows": 3,
+        "groups": 3,
+        "metric_checks": 3
+      },
+      {
+        "state": "orders-and",
+        "role": "author",
+        "sheet": "Ship Mode",
+        "metric": "Orders",
+        "rows": 4,
+        "groups": 4,
+        "metric_checks": 4
+      },
+      {
+        "state": "orders-and",
+        "role": "replica",
+        "sheet": "Region",
+        "metric": "Orders",
+        "rows": 4,
+        "groups": 4,
+        "metric_checks": 4
+      },
+      {
+        "state": "orders-and",
+        "role": "replica",
+        "sheet": "Category",
+        "metric": "Orders",
+        "rows": 3,
+        "groups": 3,
+        "metric_checks": 3
+      },
+      {
+        "state": "orders-and",
+        "role": "replica",
+        "sheet": "Segment",
+        "metric": "Orders",
+        "rows": 3,
+        "groups": 3,
+        "metric_checks": 3
+      },
+      {
+        "state": "orders-and",
+        "role": "replica",
+        "sheet": "Ship Mode",
+        "metric": "Orders",
+        "rows": 4,
+        "groups": 4,
+        "metric_checks": 4
+      },
+      {
+        "state": "region-category-or",
+        "role": "author",
+        "sheet": "Region",
+        "metric": "Sales",
+        "rows": 4,
+        "groups": 4,
+        "metric_checks": 4
+      },
+      {
+        "state": "region-category-or",
+        "role": "author",
+        "sheet": "Category",
+        "metric": "Sales",
+        "rows": 3,
+        "groups": 3,
+        "metric_checks": 3
+      },
+      {
+        "state": "region-category-or",
+        "role": "author",
+        "sheet": "Segment",
+        "metric": "Sales",
+        "rows": 3,
+        "groups": 3,
+        "metric_checks": 3
+      },
+      {
+        "state": "region-category-or",
+        "role": "author",
+        "sheet": "Ship Mode",
+        "metric": "Sales",
+        "rows": 4,
+        "groups": 4,
+        "metric_checks": 4
+      },
+      {
+        "state": "region-category-or",
+        "role": "replica",
+        "sheet": "Region",
+        "metric": "Sales",
+        "rows": 4,
+        "groups": 4,
+        "metric_checks": 4
+      },
+      {
+        "state": "region-category-or",
+        "role": "replica",
+        "sheet": "Category",
+        "metric": "Sales",
+        "rows": 3,
+        "groups": 3,
+        "metric_checks": 3
+      },
+      {
+        "state": "region-category-or",
+        "role": "replica",
+        "sheet": "Segment",
+        "metric": "Sales",
+        "rows": 3,
+        "groups": 3,
+        "metric_checks": 3
+      },
+      {
+        "state": "region-category-or",
+        "role": "replica",
+        "sheet": "Ship Mode",
+        "metric": "Sales",
+        "rows": 4,
+        "groups": 4,
+        "metric_checks": 4
+      }
+    ],
+    "scope": "All four full business worksheets; parameter-state changes plus stored all-domain sets. Subset membership truth tables are independent raw oracles, not browser or REST set execution."
+  }
+}

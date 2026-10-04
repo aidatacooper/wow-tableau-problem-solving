@@ -1,0 +1,17 @@
+{
+  "challenge_year": 2020,
+  "challenge_week": 50,
+  "article_date": "2020-12-11",
+  "challenge_date": "2020-12-08",
+  "official_rest_url": "https://www.workout-wednesday.com/wp-json/wp/v2/posts/4110",
+  "response_excerpt": {
+    "id": 4110,
+    "date": "2020-12-08T12:00:00",
+    "slug": "2020w50",
+    "link": "https://www.workout-wednesday.com/2020w50/",
+    "title": {
+      "rendered": "2020 Week 50: Can you highlight profits with measure names?"
+    }
+  },
+  "scope": "Official WordPress publication calendar date, without inference from workbook filenames or week numbers."
+}

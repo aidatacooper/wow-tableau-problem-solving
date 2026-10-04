@@ -1,0 +1,18 @@
+{
+  "sdk": {
+    "url": "https://github.com/aidatacooper/cwtwb.git",
+    "vcs_info": {
+      "vcs": "git",
+      "commit_id": "df8c2a52cd48800fa0a43d936f6946d318f5b953",
+      "requested_revision": "df8c2a52cd48800fa0a43d936f6946d318f5b953"
+    }
+  },
+  "artifact_sha256": "f352bf10b9b9795aa4f87a27008146559f743b31d10c9c6abda4e3d435fb0d9f",
+  "builder_sha256": "6ab625385849ef86374508c16163bf54a7ade610d526d46ad759703375c341d4",
+  "initial_template": "TWBEditor(\"\")",
+  "source_workbook_used_by_builder": false,
+  "sdk_tests_passed": 844,
+  "sdk_tests_skipped": 25,
+  "scope": "Actual immutable Git build with native multiselect checkdropdown and Apply controls; raw/native pass; final Cloud acceptance pending.",
+  "previous_rejected_artifact_sha256": "37b31548ad60b1993a14cf4b9ac1a76408c9abaed597a1009eb07bc09e48bee5"
+}

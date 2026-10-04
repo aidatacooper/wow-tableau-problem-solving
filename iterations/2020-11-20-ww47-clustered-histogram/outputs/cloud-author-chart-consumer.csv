@@ -1,0 +1,22 @@
+SALE AMOUNT,Segment UPPER,# ORDERS,Segment,TOOLTIP : between,TOOLTIP : Lower,TOOLTIP : symbol,TOOLTIP : Upper
+$25,CONSUMER,382,Consumer, between,$0, - ,$100
+$125,CONSUMER,136,Consumer, between,$100, - ,$200
+$225,CONSUMER,90,Consumer, between,$200, - ,$300
+$325,CONSUMER,56,Consumer, between,$300, - ,$400
+$425,CONSUMER,40,Consumer, between,$400, - ,$500
+$525,CONSUMER,31,Consumer, between,$500, - ,$600
+$625,CONSUMER,16,Consumer, between,$600, - ,$700
+$725,CONSUMER,21,Consumer, between,$700, - ,$800
+$825,CONSUMER,18,Consumer, between,$800, - ,$900
+$925,CONSUMER,15,Consumer, between,$900, - ,"$1,000"
+"$1,025",CONSUMER,12,Consumer, between,"$1,000", - ,"$1,100"
+"$1,125",CONSUMER,4,Consumer, between,"$1,100", - ,"$1,200"
+"$1,225",CONSUMER,6,Consumer, between,"$1,200", - ,"$1,300"
+"$1,325",CONSUMER,5,Consumer, between,"$1,300", - ,"$1,400"
+"$1,425",CONSUMER,2,Consumer, between,"$1,400", - ,"$1,500"
+"$1,525",CONSUMER,4,Consumer, between,"$1,500", - ,"$1,600"
+"$1,625",CONSUMER,3,Consumer, between,"$1,600", - ,"$1,700"
+"$1,725",CONSUMER,2,Consumer, between,"$1,700", - ,"$1,800"
+"$1,825",CONSUMER,6,Consumer, between,"$1,800", - ,"$1,900"
+"$1,925",CONSUMER,2,Consumer, between,"$1,900", - ,"$2,000"
+"$2,025",CONSUMER,25,Consumer,,,$2000+,

@@ -1,0 +1,86 @@
+schema_version: 1.1.0
+case_id: wow-2020-ww47-clustered-histogram
+iteration_id: 2020-11-20-ww47-clustered-histogram
+post: https://donnacoles.home.blog/2020/11/20/can-you-create-a-clustered-histogram/
+legacy_case_ids: {}
+article_date: '2020-11-20'
+challenge_year: 2020
+challenge_week: 47
+challenge_date: '2020-11-17'
+date_evidence:
+  article_date: Article HTML published time element retained in evidence/article-date.json.
+  challenge: Explicit challenge_year; week declared in iteration_id
+  challenge_date: Official WordPress REST date field retained in evidence/official-challenge-date.json.
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2020w47/
+  article:
+    url: https://donnacoles.home.blog/2020/11/20/can-you-create-a-clustered-histogram/
+    path: null
+    sha256: 33239fef51131930d466cff97083e6156effdb5b0b0f119d315cb6cb187ca5fc
+  workbook:
+    url: https://public.tableau.com/views/2020_11_18_WW47_Clustered_Histogram/2020_11_18_WW47_Clustered_Histogram
+    filename: author.twbx
+    sha256: 19e76f4a69da7b91a9bda34b8e9d8762b6e52092dfc15fd2a685a603d86c2349
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- evidence/article-date.json
+- evidence/build-provenance.json
+- evidence/cloud-verification.json
+- evidence/export-provenance.json
+- evidence/functional-verification.json
+- evidence/official-challenge-date.json
+- evidence/refinement-initial-band-label.json
+- evidence/sdk-final-validation.json
+- evidence/sdk-gap-reference-band-baseline.json
+- evidence/visual-review.md
+- evidence/zero-build-verification.json
+- inputs/source-lock.json
+notes:
+- Cloud REST data/image states plus artifact contracts; no browser click or hover
+  executed.
+cwtwb:
+  tested_version: 0.27.1
+  tested_commit: df8c2a52cd48800fa0a43d936f6946d318f5b953
+  runs:
+  - version: 0.27.1
+    commit: e7fa7cd6770ac3d07af55570a5a7fffd18ad6155
+    result: blocked
+    evidence: evidence/sdk-gap-reference-band-baseline.json
+  - version: 0.27.1
+    commit: e977401d862f0754ba610249e6720d61058ebdea
+    result: pass
+    evidence: evidence/functional-verification.json
+  - version: 0.27.1
+    commit: df8c2a52cd48800fa0a43d936f6946d318f5b953
+    result: pass
+    evidence: evidence/sdk-final-validation.json
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: pass
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/Orders (Sample - Superstore).hyper
+acceptance:
+- id: ww47-raw-oracle
+  description: Recompute every locked raw-data fact and business group.
+  mode: automated
+- id: ww47-native-contracts
+  description: Verify native calculations, marks, width, tooltip and dashboard geometry.
+  mode: automated
+- id: ww47-cloud-data
+  description: Pair complete source and replica CSV with independent raw oracle at
+    every REST state.
+  mode: automated
+remaining_work: []
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []

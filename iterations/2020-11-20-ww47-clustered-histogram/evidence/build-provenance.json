@@ -1,0 +1,16 @@
+{
+  "artifact_sha256": "2ab41510854c76f3f43b520b79e2b997ee443e19502a26b2ac55b30ff048c6e8",
+  "built_sdk_commit": "e977401d862f0754ba610249e6720d61058ebdea",
+  "sdk_package": {
+    "url": "https://github.com/aidatacooper/cwtwb.git",
+    "vcs_info": {
+      "vcs": "git",
+      "commit_id": "e977401d862f0754ba610249e6720d61058ebdea",
+      "requested_revision": "e977401d862f0754ba610249e6720d61058ebdea"
+    }
+  },
+  "build_initial_workbook": "TWBEditor(\"\")",
+  "author_workbook_read_by_builder": false,
+  "public_sdk_boundary": "passed",
+  "builder_sha256": "0ab583bb6f1c1eca1888c74018ddb99f289bcc6b2545a5b747ed1dc773fcfbdd"
+}
