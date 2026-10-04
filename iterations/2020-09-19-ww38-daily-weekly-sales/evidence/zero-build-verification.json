@@ -1,0 +1,9 @@
+{
+  "case_id": "2020-09-19-ww38-daily-weekly-sales",
+  "sdk_commit": "eb1380d5da9c1b1bf1b306128cb8397150ba1a53",
+  "builder_sha256": "75866a44af9ded9f0652a8f97f34fc0e5a81aa9a375a2fc9ce4096e242da7a1a",
+  "builder_hash_scope": "UTF-8 source text with universal newlines normalized to LF",
+  "result": "passed",
+  "initial_workbooks_available": 0,
+  "scope": "Copied only builder/verifier, metadata and locked inputs. Built from TWBEditor empty, then ran independent raw-data/artifact oracle without copied Cloud evidence or author workbooks."
+}

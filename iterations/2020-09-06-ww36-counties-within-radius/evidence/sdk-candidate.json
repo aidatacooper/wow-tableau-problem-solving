@@ -1,0 +1,7 @@
+{
+  "version": "0.27.1",
+  "commit": null,
+  "installation": "editable ../wow-next-sdk candidate",
+  "result": "pass",
+  "enhancement": "Generic set_control layout creates native setMembership zone, worksheet card and feature manifest. Build/direct verifier passes for six worksheets and 3142 locked counties. Cloud render/CSV still pending."
+}

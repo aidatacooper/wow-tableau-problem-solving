@@ -1,0 +1,17 @@
+{
+  "original_sha256": "d07994ccffcad6e960b6ad7175176b6be5d427819b05272e6fc43b6fe3890f75",
+  "export_sha256": "efd50bc5fee51b0b86a12af286550b7ee51c7e5e8206abe311a550d5b458ffe6",
+  "transformation": "Only remove hidden attributes on existing worksheet windows. Original formulas, actions, layouts and packaged data remain unchanged.",
+  "worksheets_exposed": [
+    "Curr Page",
+    "Header",
+    "Next Page",
+    "Prev Page",
+    "Table"
+  ],
+  "semantic_xml_equality_after_declared_window_change": true,
+  "semantic_xml_sha256": "f06156fd4602dac95ec6c203525ecc03514843c30d7e68cb920b7ae901b42e91",
+  "all_other_archive_members_unchanged": {
+    "Data/Datasources/2020_09_30_WW40_rushing_data_2017_2019.hyper": "282df88b17e754cf9749aff3780e13c595c1c1abfabde0f1655fd5a1c4f12ee4"
+  }
+}

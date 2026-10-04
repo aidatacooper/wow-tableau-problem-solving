@@ -1,0 +1,21 @@
+{
+  "result": "blocked",
+  "tested_version": "0.27.1",
+  "tested_commit": null,
+  "runtime": "Uncommitted candidate SDK installed editable by coordinator; no release SHA asserted.",
+  "artifact_sha256": "de89d22a36516012d0943ce1b88b0e3768f9117fef4e4e72c7c7ce55f4998397",
+  "observed_failure": "All four worksheets exported empty in all three formal REST parameter states. Full public minimal metric/window/rank probes with the same packaged Hyper exported nonempty.",
+  "independent_isolation": {
+    "formal_current": "All four worksheet CSVs zero bytes.",
+    "formal_local_context": "All four worksheet CSVs zero bytes; local context alone does not resolve.",
+    "formal_no_display_ref_label": "All four worksheet CSVs zero bytes; string role/label alone is not the cause.",
+    "formal_default_address": "Line exported nonempty96axisrows; values/reference addressing incorrect and Rank2/3 empty, so only diagnostic proof that explicit table-calc overrides trigger failure."
+  },
+  "source_native_differences": [
+    "Specific-dimension quarter order uses tqr:Order Date:qk instance in original; candidate override resolver emitted raw Order Date.",
+    "Category ordering-field uses raw Category in original; candidate emitted none:Category:nk instance."
+  ],
+  "required_generic_capability": "Preserve temporal-grain native column instance in table-calc order and use raw local column for None-derived dimension ordering-field.",
+  "proof_scope": "Cloud REST CSV and generated/original native contracts; no browser actions executed.",
+  "candidate_fix_owner": "Coordinator; new synthetic regressions and full exact Git pin required before final acceptance."
+}

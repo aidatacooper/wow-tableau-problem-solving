@@ -1,0 +1,94 @@
+schema_version: 1.1.0
+case_id: wow-2020-ww37-year-on-year-trend
+iteration_id: 2020-09-11-ww37-year-on-year-trend
+post: https://donnacoles.home.blog/2020/09/11/can-you-show-the-year-on-year-trend/
+legacy_case_ids: {}
+article_date: '2020-09-11'
+challenge_year: 2020
+challenge_week: 37
+challenge_date: '2020-09-08'
+date_evidence:
+  article_date: Article publication date preserved in folder; archived article SHA
+    recorded.
+  challenge_date: Official WordPress REST post 3978 date=2020-09-08T17:00:00; verified
+    challenge title includes week 37.
+  challenge: Official WordPress title verifies challenge_year=2020 and challenge_week=37
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2020w37/
+    official_post_id: 3978
+    title: WOW2020 week 37 | Can you show the YoY trend?
+  article:
+    url: https://donnacoles.home.blog/2020/09/11/can-you-show-the-year-on-year-trend/
+    path: null
+    sha256: 414131bf52fee2604acb304ee7428d4f576d61dc805197ff191646328a121f52
+  workbook:
+    url: https://public.tableau.com/workbooks/2020_09_09_WW37_YoY_Trend.twb
+    filename: author.twbx
+    sha256: 1c5ff68c93dd0a43cf231649fff12c6f35d1ae9b5b4e898f57df8adc62a96e6b
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- evidence/cloud-data-comparison.json
+- evidence/cloud-verification.json
+- evidence/export-provenance.json
+- evidence/functional-verification.json
+- evidence/sdk-candidate.json
+- evidence/sdk-final-validation.json
+- evidence/visual-review.md
+- evidence/zero-build-verification.json
+- inputs/source-lock.json
+notes:
+- Acceptance uses Cloud REST image/data states and artifact contracts; browser interactions
+  are not executed.
+cwtwb:
+  tested_version: 0.27.1
+  tested_commit: eb1380d5da9c1b1bf1b306128cb8397150ba1a53
+  runs:
+  - version: 0.27.1
+    commit: null
+    result: pass
+    evidence: evidence/sdk-candidate.json
+  - version: 0.27.1
+    commit: eb1380d5da9c1b1bf1b306128cb8397150ba1a53
+    result: pass
+    evidence: evidence/sdk-final-validation.json
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: pass
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/Signups by State (2020_09_09_WW37_Signups by State).hyper
+acceptance:
+- id: blank-sdk-build
+  description: Builder starts empty and uses only public SDK APIs.
+  mode: automated
+- id: locked-inputs
+  description: Input and packaged Hyper hashes match source lock.
+  mode: automated
+- id: native-calculations
+  description: Native calculated fields and table-calculation/filter/control contracts
+    match the analyzed source.
+  mode: automated
+- id: complete-data-oracle
+  description: Independent calculations cover complete raw input and exported mark
+    grains.
+  mode: automated
+- id: cloud-rest-comparison
+  description: Original and replica applicable REST states are hash-bound and fully
+    compared.
+  mode: automated
+- id: cloud-visual-review
+  description: All paired REST PNGs are inspected with honest documented deltas.
+  mode: automated
+remaining_work: []
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []

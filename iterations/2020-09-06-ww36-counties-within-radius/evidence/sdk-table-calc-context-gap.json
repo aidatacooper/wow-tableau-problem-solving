@@ -1,0 +1,94 @@
+{
+  "result": "resolved_pass",
+  "baseline_artifact_sha256": "62c47f818e4d56e2a4376e7a5ee9c96669c5e75fb21dd0fb85e37200c908f532",
+  "released_initial_baseline_commit": "cbe200a4a148f1825764de67bd3e8f0e6d01a113",
+  "baseline_artifact_sdk_commit": null,
+  "baseline_artifact_sdk_installation": "editable candidate before final generic fix; no uncommitted code represented as a tested Git commit",
+  "failure": "Geographic layered maps with explicit Field addressing emitted an unsuffixed User column instance; all non-null bed ranks were100%, while full raw partition requires varied ranks. Base Columns parity did not fix the runtime result.",
+  "diagnostic_scope": "Root-authorized scratch-only XML diagnostics of SDK-generated blank-build artifact. No author workbook used as template. Not formal build artifacts.",
+  "variants": [
+    {
+      "variant": "a-contextual-ci",
+      "artifact_sha256": "bf0be95ff1fc3d532d3f19e96cdc78bb2821ed014f9f448c37f6ad44a9a48ce2",
+      "status": "pass",
+      "verification_output": "{\n  \"status\": \"pass\",\n  \"artifact_sha256\": \"bf0be95ff1fc3d532d3f19e96cdc78bb2821ed014f9f448c37f6ad44a9a48ce2\",\n  \"checks\": [\n    {\n      \"state\": \"Hawaii\",\n      \"counties\": 5,\n      \"status\": \"pass\"\n    },\n    {\n      \"state\": \"Alaska\",\n      \"counties\": 29,\n      \"status\": \"pass\"\n    }\n  ]\n}",
+      "csvs": [
+        {
+          "view": "Map - HI",
+          "path": "scratch/ww36-analysis/probe-a-contextual-ci-hawaii.csv",
+          "sha256": "40ce40ccd4ffe283a6f72e8ab35113edfadf8580c9983a7736d48ac07b22ed5d"
+        },
+        {
+          "view": "Map - AL",
+          "path": "scratch/ww36-analysis/probe-a-contextual-ci-alaska.csv",
+          "sha256": "554b2419b3dd280276040926b779dc849700f800920f236885030a7a7120bae8"
+        }
+      ]
+    },
+    {
+      "variant": "b-geographic-metadata",
+      "artifact_sha256": "a9ab7cbe791b6ab264e2045a225ddd0097a407ce38a4ef7ff9d21b46fe4be3a3",
+      "status": "fail",
+      "verification_output": "AssertionError: ('Hawaii', 'Hawaii County, Hawaii', 'percentile mismatch', 1.0, 0.6666666666666666)",
+      "csvs": [
+        {
+          "view": "Map - HI",
+          "path": "scratch/ww36-analysis/probe-b-geographic-metadata-hawaii.csv",
+          "sha256": "8468ba99eb7d2db506fdb3bdd0a04dc56e3ac76e1a9acaa7a55c3b006caa446f"
+        },
+        {
+          "view": "Map - AL",
+          "path": "scratch/ww36-analysis/probe-b-geographic-metadata-alaska.csv",
+          "sha256": "6d72c619c83a6322e6e5f507ed1ae969f6658163fb933b76ae1b6e33a5b4123a"
+        }
+      ]
+    },
+    {
+      "variant": "c-county-only",
+      "artifact_sha256": "51285890faa8272b4213ddd854a6a1e86a07501a10f30be7eb8f498b77ac82d5",
+      "status": "fail",
+      "verification_output": "AssertionError: ('Hawaii', 'Hawaii County, Hawaii', 'percentile mismatch', 1.0, 0.6666666666666666)",
+      "csvs": [
+        {
+          "view": "Map - HI",
+          "path": "scratch/ww36-analysis/probe-c-county-only-hawaii.csv",
+          "sha256": "38f53694f6a6b44866a16f38459e882cc315d22cbe8d2b3d4d308791c6182cb3"
+        },
+        {
+          "view": "Map - AL",
+          "path": "scratch/ww36-analysis/probe-c-county-only-alaska.csv",
+          "sha256": "e61b171745839447ffd7a0b0e1869c90a36273e6bd4dedba5ca684d85f47b5e3"
+        }
+      ]
+    }
+  ],
+  "conclusion": "Only contextual calculation-instance identity changed in passing A; resources, geographic county grain and other formulas retained. B geographic metadata parity and C single-pane removal failed. Root implements generic public table_calc_context option and synthetic regressions before case uses it.",
+  "required_public_api": "configure_layered_chart(table_calc_overrides=..., table_calc_context=True) generates native independent contexts and rewrites all dependent encodings/styles to actual instance identity. No literal author suffix or private access in case builder.",
+  "browser_interaction_executed": false,
+  "followup_shared_context_collision": {
+    "failed_formal_artifact_sha256": "2e732369e45caaedf199d7a490f21bef7037975004e7b5234ec89b65bbc28e39",
+    "status": "fail",
+    "csvs": [
+      {
+        "path": "scratch/ww36-analysis/failed-shared-context-2e732/probe-hawaii.csv",
+        "sha256": "8468ba99eb7d2db506fdb3bdd0a04dc56e3ac76e1a9acaa7a55c3b006caa446f"
+      },
+      {
+        "path": "scratch/ww36-analysis/failed-shared-context-2e732/probe-alaska.csv",
+        "sha256": "0191a7466bc5045c064c7d72142d9a692df23169603aff8d8bc24979a1df87a9"
+      }
+    ],
+    "finding": "The first candidate API assigned :1 independently in every worksheet. Cases/Data and Maps have three differing Field-address vectors for the same calculation family, so the workbook reused one identity for conflicting contexts; Map still exported singleton100% ranks. Successful diagnostic A only scoped Map contexts and kept Cases/Data bare.",
+    "fix": "SDK allocates workbook-wide unique contexts per instance family and preserves identities when rebuilding the same worksheet. Formal case only sets public table_calc_context=True; no numeric suffix is specified by the builder.",
+    "unexecuted_control": "scratch/ww36-analysis/probe-variant-d-unique-contexts.twbx is analysis-only and not claimed as an executed or accepted artifact.",
+    "historical_pending_formal_artifact_sha256": "6e987088f510a666965e6619044bef3c134ab5ec8cba48e39056a833d76cf381"
+  },
+  "historical_initial_result": "blocked_pending_generic_context_api",
+  "final_resolution": {
+    "artifact_sha256": "6e987088f510a666965e6619044bef3c134ab5ec8cba48e39056a833d76cf381",
+    "status": "pass",
+    "cloud_csvs": 36,
+    "cloud_pngs_reviewed": 6,
+    "scope": "All3142 global county ranks and local3108/29/5 map partitions plus full raw resource/count scope; native public context API used in formal builder. No author-template or scratch XML path used by build."
+  }
+}

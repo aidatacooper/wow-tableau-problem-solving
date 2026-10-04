@@ -30,6 +30,20 @@ def apply_state(options, state):
     return options
 
 
+def csv_state(state, role, data_request):
+    """Return the actual CSV scope; diagnostic exports may keep all members.
+
+    Role-specific filters remain explicit overrides. Image requests always use
+    the common state, independently of these per-worksheet CSV options.
+    """
+    ignore = data_request.get(f"{role}_ignore_state_filters", False)
+    if not isinstance(ignore, bool):
+        raise ValueError("ignore_state_filters must be a boolean")
+    filters = {} if ignore else dict(state.get("filters", {}))
+    filters.update(state.get(f"{role}_filters", {}))
+    return {"parameters": dict(state.get("parameters", {})), "filters": filters}
+
+
 def retry(operation):
     for attempt in range(3):
         try:
@@ -98,14 +112,12 @@ def capture(request):
                 record["views"][role] = {"id": view.id, "name": view.name, "path": image_path.relative_to(case_dir).as_posix(), "sha256": digest(image_path), "size": list(struct.unpack(">II", image_bytes[16:24]))}
                 for data_request in request.get("data_views", []):
                     data_view = next(v for v in workbook.views if v.name == data_request[role])
-                    csv_options = apply_state(TSC.CSVRequestOptions(maxage=1), state)
-                    # Some authors intentionally use different filter captions.
-                    for key, value in state.get(f"{role}_filters", {}).items():
-                        csv_options.vf(key, str(value))
+                    applied_state = csv_state(state, role, data_request)
+                    csv_options = apply_state(TSC.CSVRequestOptions(maxage=1), applied_state)
                     retry(lambda: server.views.populate_csv(data_view, csv_options))
                     csv_path = outputs / f"cloud-{role}-{data_request['name']}{suffix}.csv"
                     csv_path.write_bytes(b"".join(data_view.csv))
-                    record["data"].append({"role": role, "view": data_view.name, "view_id": data_view.id, "scope": data_request["scope"], "path": csv_path.relative_to(case_dir).as_posix(), "sha256": digest(csv_path), "bytes": csv_path.stat().st_size})
+                    record["data"].append({"role": role, "view": data_view.name, "view_id": data_view.id, "scope": data_request["scope"], **applied_state, "path": csv_path.relative_to(case_dir).as_posix(), "sha256": digest(csv_path), "bytes": csv_path.stat().st_size})
             report["states"].append(record)
             (evidence / "cloud-verification.json").write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
             print(f"Captured {case['case_id']} {name}", flush=True)

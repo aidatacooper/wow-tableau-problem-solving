@@ -1,0 +1,7 @@
+# State/city set-action drill-down
+
+Article 2020-07-24; official 2020 WW30 published 2020-07-21 (WP 3889). The original workbook is analyzed only in scratch. The builder uses only the locked 8,399-record four-column Hyper and public SDK APIs, beginning with TWBEditor("").
+
+The default empty Selected State set plots one state mark: average of FIXED State SUM(Sales/Profit). Assigning the state set changes Display Value to City and the plotted measures to ordinary SUM, while Records to Show removes unselected states. Clearing excludes all set members, returning to state level. The profit horizontal / sales vertical orientation, negative-profit red marks, labels, dynamic title/subtitle and 800x700 dashboard follow the original.
+
+The independent oracle covers every state and state/city aggregate. REST capture covers default and California/Texas State filters; these filters do not assign the set and are not drill-down event evidence. The native action and calculation contracts cover the event behavior authorized for artifact verification. No click, hover or browser event execution is claimed. A windows-only author export unhides existing worksheets without changing data, calculations, filters or layout. Final Cloud CSV validation passed all six exports, and paired review of all six images concluded acceptable_delta with the typography and padding differences recorded in evidence/visual-review.md. The accepted artifact remains frozen.

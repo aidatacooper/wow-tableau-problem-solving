@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0.0",
+  "source_workbook": {
+    "filename": "author.twbx",
+    "bytes": 126981,
+    "sha256": "70acf92e3b575c64feac4da0fc8c4ec863f23b25c393c880cddc903e8a9c2f76",
+    "url": null
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Datasources/Orders (Sample - Superstore).hyper",
+      "file": "inputs/Orders (Sample - Superstore).hyper",
+      "bytes": 393216,
+      "sha256": "ca858c1f0f2adafc98f45c01546c9485684f34cf5e4e84a6af811d2ffd46509a"
+    }
+  ],
+  "source_workbook_used_by_builder": false,
+  "article": {
+    "url": "https://donnacoles.home.blog/2020/07/24/can-you-create-a-drill-down-using-set-actions/",
+    "sha256": "fd1a0c461f8ccdcc88cc613508811fb0bdafc67ffd9d4172333928889f89c721"
+  }
+}

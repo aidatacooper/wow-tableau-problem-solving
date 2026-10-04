@@ -1,0 +1,626 @@
+{
+  "case_id": "wow-2020-ww36-counties-within-radius",
+  "captured_at": "2026-10-04T08:52:53.945399+00:00",
+  "source_hashes": {
+    "author": "384f4e7dfa1a39eae8ae922080efba17b740c05f242c8700acecfd8afe1f5276",
+    "replica": "6e987088f510a666965e6619044bef3c134ab5ec8cba48e39056a833d76cf381"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "a2725c3b-7ef1-41e4-805f-338ea430f02f",
+      "name": "cwtwb-review-wow-2020-ww36-counties-within-radius-author-384f4e7dfa1a",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2934730",
+      "views": [
+        {
+          "name": "2020_09_02_WW36_Covid_Cases_Within_n_Miles",
+          "id": "32896c82-aec2-4859-9440-471bf0b780bb"
+        },
+        {
+          "name": "Data",
+          "id": "e520de06-490c-4c9c-a0cb-2441af46b49f"
+        },
+        {
+          "name": "Cases Bar",
+          "id": "025a2b69-c5ec-484c-950f-8ccc45b29bab"
+        },
+        {
+          "name": "Map - AL",
+          "id": "69279c9e-f529-49e5-bb9a-25c10a2f0b8f"
+        },
+        {
+          "name": "Map - HI",
+          "id": "6b14cc4c-a03d-4f1e-ab4f-9a67faed352b"
+        },
+        {
+          "name": "Map - Main",
+          "id": "84392900-b073-45bb-aa81-549e478c19eb"
+        },
+        {
+          "name": "Utilisation Bar",
+          "id": "66624ef0-685e-4641-9c24-46c30be6bb23"
+        }
+      ]
+    },
+    "replica": {
+      "id": "aeb34655-5b7e-44ab-8eba-b911fbfa0238",
+      "name": "cwtwb-review-wow-2020-ww36-counties-within-radius-replica-6e987088f510",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2934954",
+      "views": [
+        {
+          "name": "Cases Bar",
+          "id": "89339ab3-365f-4759-ab98-ef46fcc24127"
+        },
+        {
+          "name": "Data",
+          "id": "e5a1272a-1103-40db-b56e-71d21362a78c"
+        },
+        {
+          "name": "Map - Main",
+          "id": "b1419001-f171-40a4-b243-976183109bf0"
+        },
+        {
+          "name": "Map - AL",
+          "id": "fbbf9ab2-915a-4657-a3c9-222a3dfce991"
+        },
+        {
+          "name": "Map - HI",
+          "id": "8b87373e-241b-4a29-ba7f-f92aa5833ff1"
+        },
+        {
+          "name": "Utilisation Bar",
+          "id": "bd7f3f88-4dd9-42f0-95b8-bbf7e9ef5742"
+        },
+        {
+          "name": "2020_09_02_WW36_Covid_Cases_Within_n_Miles",
+          "id": "d3e1e0bc-7ad5-4cac-b8a3-bed655ffdd7e"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "32896c82-aec2-4859-9440-471bf0b780bb",
+          "name": "2020_09_02_WW36_Covid_Cases_Within_n_Miles",
+          "path": "outputs/cloud-author.png",
+          "sha256": "d94bc90c25ac198ce16975ccf0560b63ddbdf2ac10aad605a5da455b546b5097",
+          "size": [
+            2732,
+            1936
+          ]
+        },
+        "replica": {
+          "id": "d3e1e0bc-7ad5-4cac-b8a3-bed655ffdd7e",
+          "name": "2020_09_02_WW36_Covid_Cases_Within_n_Miles",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "e789a3830d80bc8c9d36c68e8d61962d5c12cb8911514f347157bb708a3e371f",
+          "size": [
+            2732,
+            1936
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Cases Bar",
+          "view_id": "025a2b69-c5ec-484c-950f-8ccc45b29bab",
+          "scope": "Complete original worksheet marks under default All set. County percentiles use each worksheet filtered partition; map CSV includes a separate state-outline pane. Native set membership selection is not REST-executed.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-cases.csv",
+          "sha256": "56bd95ca8afa90d3b678883eac41c89685c486a6077e4730a3b86ae119e0d27c",
+          "bytes": 158394
+        },
+        {
+          "role": "author",
+          "view": "Data",
+          "view_id": "e520de06-490c-4c9c-a0cb-2441af46b49f",
+          "scope": "Complete original worksheet marks under default All set. County percentiles use each worksheet filtered partition; map CSV includes a separate state-outline pane. Native set membership selection is not REST-executed.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-data.csv",
+          "sha256": "67405fadb3c766e6829530c280a7d815109de22e0d2263dac6c5e7d3bcbd74c5",
+          "bytes": 608427
+        },
+        {
+          "role": "author",
+          "view": "Map - Main",
+          "view_id": "84392900-b073-45bb-aa81-549e478c19eb",
+          "scope": "Complete original worksheet marks under default All set. County percentiles use each worksheet filtered partition; map CSV includes a separate state-outline pane. Native set membership selection is not REST-executed.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-main.csv",
+          "sha256": "6ee6d4386863afc4389cb28488ed658a6bfeadaa19409da5d507dd3859285a69",
+          "bytes": 281004
+        },
+        {
+          "role": "author",
+          "view": "Map - AL",
+          "view_id": "69279c9e-f529-49e5-bb9a-25c10a2f0b8f",
+          "scope": "Complete original worksheet marks under default All set. County percentiles use each worksheet filtered partition; map CSV includes a separate state-outline pane. Native set membership selection is not REST-executed.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-alaska.csv",
+          "sha256": "dd3fcf66372dc32c6e2ae1db34d1d3ae895c5352c7909a7928eea8d993eeed43",
+          "bytes": 2834
+        },
+        {
+          "role": "author",
+          "view": "Map - HI",
+          "view_id": "6b14cc4c-a03d-4f1e-ab4f-9a67faed352b",
+          "scope": "Complete original worksheet marks under default All set. County percentiles use each worksheet filtered partition; map CSV includes a separate state-outline pane. Native set membership selection is not REST-executed.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-hawaii.csv",
+          "sha256": "b8b8ea0723a38e9d818ad5c274d34f30c78192772c131165ddef5a1213bcadb2",
+          "bytes": 636
+        },
+        {
+          "role": "author",
+          "view": "Utilisation Bar",
+          "view_id": "66624ef0-685e-4641-9c24-46c30be6bb23",
+          "scope": "Complete original worksheet marks under default All set. County percentiles use each worksheet filtered partition; map CSV includes a separate state-outline pane. Native set membership selection is not REST-executed.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-resources.csv",
+          "sha256": "ad23234914a9e79b7522ce24fa50d2b4c9d66af0870a2cb0b6bc65d77c824366",
+          "bytes": 98
+        },
+        {
+          "role": "replica",
+          "view": "Cases Bar",
+          "view_id": "89339ab3-365f-4759-ab98-ef46fcc24127",
+          "scope": "Complete original worksheet marks under default All set. County percentiles use each worksheet filtered partition; map CSV includes a separate state-outline pane. Native set membership selection is not REST-executed.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-cases.csv",
+          "sha256": "3e25984025d68305f1c9004343a0f9f36b59516fc3d8f1a566f884e72390b5a1",
+          "bytes": 161536
+        },
+        {
+          "role": "replica",
+          "view": "Data",
+          "view_id": "e5a1272a-1103-40db-b56e-71d21362a78c",
+          "scope": "Complete original worksheet marks under default All set. County percentiles use each worksheet filtered partition; map CSV includes a separate state-outline pane. Native set membership selection is not REST-executed.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-data.csv",
+          "sha256": "03ae06e448a242c0e387cb3484929452abff7f8792b908a8a6c851859cd541ef",
+          "bytes": 452844
+        },
+        {
+          "role": "replica",
+          "view": "Map - Main",
+          "view_id": "b1419001-f171-40a4-b243-976183109bf0",
+          "scope": "Complete original worksheet marks under default All set. County percentiles use each worksheet filtered partition; map CSV includes a separate state-outline pane. Native set membership selection is not REST-executed.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-main.csv",
+          "sha256": "8f0ead11d105d2bdd347c9fa386e784ecd8694c2183f3e9e863c76b70f871d66",
+          "bytes": 284121
+        },
+        {
+          "role": "replica",
+          "view": "Map - AL",
+          "view_id": "fbbf9ab2-915a-4657-a3c9-222a3dfce991",
+          "scope": "Complete original worksheet marks under default All set. County percentiles use each worksheet filtered partition; map CSV includes a separate state-outline pane. Native set membership selection is not REST-executed.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-alaska.csv",
+          "sha256": "b4056d01a96916d1f4ac93ed596c1637d1fe06c9052363f2fcab8b7fbd878ba6",
+          "bytes": 2872
+        },
+        {
+          "role": "replica",
+          "view": "Map - HI",
+          "view_id": "8b87373e-241b-4a29-ba7f-f92aa5833ff1",
+          "scope": "Complete original worksheet marks under default All set. County percentiles use each worksheet filtered partition; map CSV includes a separate state-outline pane. Native set membership selection is not REST-executed.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-hawaii.csv",
+          "sha256": "40ce40ccd4ffe283a6f72e8ab35113edfadf8580c9983a7736d48ac07b22ed5d",
+          "bytes": 650
+        },
+        {
+          "role": "replica",
+          "view": "Utilisation Bar",
+          "view_id": "bd7f3f88-4dd9-42f0-95b8-bbf7e9ef5742",
+          "scope": "Complete original worksheet marks under default All set. County percentiles use each worksheet filtered partition; map CSV includes a separate state-outline pane. Native set membership selection is not REST-executed.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-resources.csv",
+          "sha256": "ad23234914a9e79b7522ce24fa50d2b4c9d66af0870a2cb0b6bc65d77c824366",
+          "bytes": 98
+        }
+      ]
+    },
+    {
+      "name": "miles-50",
+      "parameters": {
+        "n miles": "50"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "32896c82-aec2-4859-9440-471bf0b780bb",
+          "name": "2020_09_02_WW36_Covid_Cases_Within_n_Miles",
+          "path": "outputs/cloud-author-miles-50.png",
+          "sha256": "be304bc4a26dd59a1291fe467d5ad973a9f4db302dfa66536a64d8e3a75bee1d",
+          "size": [
+            2732,
+            1936
+          ]
+        },
+        "replica": {
+          "id": "d3e1e0bc-7ad5-4cac-b8a3-bed655ffdd7e",
+          "name": "2020_09_02_WW36_Covid_Cases_Within_n_Miles",
+          "path": "outputs/cloud-replica-miles-50.png",
+          "sha256": "3195f72dc759936d7d977b06098d5e7c057bc20468beea23d7c4128b07dedbdc",
+          "size": [
+            2732,
+            1936
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Cases Bar",
+          "view_id": "025a2b69-c5ec-484c-950f-8ccc45b29bab",
+          "scope": "Complete original worksheet marks under default All set. County percentiles use each worksheet filtered partition; map CSV includes a separate state-outline pane. Native set membership selection is not REST-executed.",
+          "parameters": {
+            "n miles": "50"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-cases-miles-50.csv",
+          "sha256": "56bd95ca8afa90d3b678883eac41c89685c486a6077e4730a3b86ae119e0d27c",
+          "bytes": 158394
+        },
+        {
+          "role": "author",
+          "view": "Data",
+          "view_id": "e520de06-490c-4c9c-a0cb-2441af46b49f",
+          "scope": "Complete original worksheet marks under default All set. County percentiles use each worksheet filtered partition; map CSV includes a separate state-outline pane. Native set membership selection is not REST-executed.",
+          "parameters": {
+            "n miles": "50"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-data-miles-50.csv",
+          "sha256": "67405fadb3c766e6829530c280a7d815109de22e0d2263dac6c5e7d3bcbd74c5",
+          "bytes": 608427
+        },
+        {
+          "role": "author",
+          "view": "Map - Main",
+          "view_id": "84392900-b073-45bb-aa81-549e478c19eb",
+          "scope": "Complete original worksheet marks under default All set. County percentiles use each worksheet filtered partition; map CSV includes a separate state-outline pane. Native set membership selection is not REST-executed.",
+          "parameters": {
+            "n miles": "50"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-main-miles-50.csv",
+          "sha256": "6ee6d4386863afc4389cb28488ed658a6bfeadaa19409da5d507dd3859285a69",
+          "bytes": 281004
+        },
+        {
+          "role": "author",
+          "view": "Map - AL",
+          "view_id": "69279c9e-f529-49e5-bb9a-25c10a2f0b8f",
+          "scope": "Complete original worksheet marks under default All set. County percentiles use each worksheet filtered partition; map CSV includes a separate state-outline pane. Native set membership selection is not REST-executed.",
+          "parameters": {
+            "n miles": "50"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-alaska-miles-50.csv",
+          "sha256": "db7e4892ad5c6450423de4b5ca346453bc51567000f4011651ec52ea312684c0",
+          "bytes": 2834
+        },
+        {
+          "role": "author",
+          "view": "Map - HI",
+          "view_id": "6b14cc4c-a03d-4f1e-ab4f-9a67faed352b",
+          "scope": "Complete original worksheet marks under default All set. County percentiles use each worksheet filtered partition; map CSV includes a separate state-outline pane. Native set membership selection is not REST-executed.",
+          "parameters": {
+            "n miles": "50"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-hawaii-miles-50.csv",
+          "sha256": "680a2709035037955c5f2c041287a4617280614c63f02bbdb865362720b2a5b6",
+          "bytes": 636
+        },
+        {
+          "role": "author",
+          "view": "Utilisation Bar",
+          "view_id": "66624ef0-685e-4641-9c24-46c30be6bb23",
+          "scope": "Complete original worksheet marks under default All set. County percentiles use each worksheet filtered partition; map CSV includes a separate state-outline pane. Native set membership selection is not REST-executed.",
+          "parameters": {
+            "n miles": "50"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-resources-miles-50.csv",
+          "sha256": "ad23234914a9e79b7522ce24fa50d2b4c9d66af0870a2cb0b6bc65d77c824366",
+          "bytes": 98
+        },
+        {
+          "role": "replica",
+          "view": "Cases Bar",
+          "view_id": "89339ab3-365f-4759-ab98-ef46fcc24127",
+          "scope": "Complete original worksheet marks under default All set. County percentiles use each worksheet filtered partition; map CSV includes a separate state-outline pane. Native set membership selection is not REST-executed.",
+          "parameters": {
+            "n miles": "50"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-cases-miles-50.csv",
+          "sha256": "3e25984025d68305f1c9004343a0f9f36b59516fc3d8f1a566f884e72390b5a1",
+          "bytes": 161536
+        },
+        {
+          "role": "replica",
+          "view": "Data",
+          "view_id": "e5a1272a-1103-40db-b56e-71d21362a78c",
+          "scope": "Complete original worksheet marks under default All set. County percentiles use each worksheet filtered partition; map CSV includes a separate state-outline pane. Native set membership selection is not REST-executed.",
+          "parameters": {
+            "n miles": "50"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-data-miles-50.csv",
+          "sha256": "03ae06e448a242c0e387cb3484929452abff7f8792b908a8a6c851859cd541ef",
+          "bytes": 452844
+        },
+        {
+          "role": "replica",
+          "view": "Map - Main",
+          "view_id": "b1419001-f171-40a4-b243-976183109bf0",
+          "scope": "Complete original worksheet marks under default All set. County percentiles use each worksheet filtered partition; map CSV includes a separate state-outline pane. Native set membership selection is not REST-executed.",
+          "parameters": {
+            "n miles": "50"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-main-miles-50.csv",
+          "sha256": "6b933f7e8d5f47182cedd827ef15f8cb1e41bbbb572e605870448ab7f208eb0c",
+          "bytes": 284121
+        },
+        {
+          "role": "replica",
+          "view": "Map - AL",
+          "view_id": "fbbf9ab2-915a-4657-a3c9-222a3dfce991",
+          "scope": "Complete original worksheet marks under default All set. County percentiles use each worksheet filtered partition; map CSV includes a separate state-outline pane. Native set membership selection is not REST-executed.",
+          "parameters": {
+            "n miles": "50"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-alaska-miles-50.csv",
+          "sha256": "554b2419b3dd280276040926b779dc849700f800920f236885030a7a7120bae8",
+          "bytes": 2872
+        },
+        {
+          "role": "replica",
+          "view": "Map - HI",
+          "view_id": "8b87373e-241b-4a29-ba7f-f92aa5833ff1",
+          "scope": "Complete original worksheet marks under default All set. County percentiles use each worksheet filtered partition; map CSV includes a separate state-outline pane. Native set membership selection is not REST-executed.",
+          "parameters": {
+            "n miles": "50"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-hawaii-miles-50.csv",
+          "sha256": "34bd4f4805f99c99a99bb5ad9ce173496e4522d89e583a2440468389884dfcad",
+          "bytes": 650
+        },
+        {
+          "role": "replica",
+          "view": "Utilisation Bar",
+          "view_id": "bd7f3f88-4dd9-42f0-95b8-bbf7e9ef5742",
+          "scope": "Complete original worksheet marks under default All set. County percentiles use each worksheet filtered partition; map CSV includes a separate state-outline pane. Native set membership selection is not REST-executed.",
+          "parameters": {
+            "n miles": "50"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-resources-miles-50.csv",
+          "sha256": "ad23234914a9e79b7522ce24fa50d2b4c9d66af0870a2cb0b6bc65d77c824366",
+          "bytes": 98
+        }
+      ]
+    },
+    {
+      "name": "miles-250",
+      "parameters": {
+        "n miles": "250"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "32896c82-aec2-4859-9440-471bf0b780bb",
+          "name": "2020_09_02_WW36_Covid_Cases_Within_n_Miles",
+          "path": "outputs/cloud-author-miles-250.png",
+          "sha256": "c194b701e0c56488248229329e33f49bf50f7d1b8ef1ef9b242fcc1ee198eef3",
+          "size": [
+            2732,
+            1936
+          ]
+        },
+        "replica": {
+          "id": "d3e1e0bc-7ad5-4cac-b8a3-bed655ffdd7e",
+          "name": "2020_09_02_WW36_Covid_Cases_Within_n_Miles",
+          "path": "outputs/cloud-replica-miles-250.png",
+          "sha256": "66a208739eef8cb0453b583015325dc1ac1896916daae7e9015fae5bfdcfcef0",
+          "size": [
+            2732,
+            1936
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Cases Bar",
+          "view_id": "025a2b69-c5ec-484c-950f-8ccc45b29bab",
+          "scope": "Complete original worksheet marks under default All set. County percentiles use each worksheet filtered partition; map CSV includes a separate state-outline pane. Native set membership selection is not REST-executed.",
+          "parameters": {
+            "n miles": "250"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-cases-miles-250.csv",
+          "sha256": "56bd95ca8afa90d3b678883eac41c89685c486a6077e4730a3b86ae119e0d27c",
+          "bytes": 158394
+        },
+        {
+          "role": "author",
+          "view": "Data",
+          "view_id": "e520de06-490c-4c9c-a0cb-2441af46b49f",
+          "scope": "Complete original worksheet marks under default All set. County percentiles use each worksheet filtered partition; map CSV includes a separate state-outline pane. Native set membership selection is not REST-executed.",
+          "parameters": {
+            "n miles": "250"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-data-miles-250.csv",
+          "sha256": "67405fadb3c766e6829530c280a7d815109de22e0d2263dac6c5e7d3bcbd74c5",
+          "bytes": 608427
+        },
+        {
+          "role": "author",
+          "view": "Map - Main",
+          "view_id": "84392900-b073-45bb-aa81-549e478c19eb",
+          "scope": "Complete original worksheet marks under default All set. County percentiles use each worksheet filtered partition; map CSV includes a separate state-outline pane. Native set membership selection is not REST-executed.",
+          "parameters": {
+            "n miles": "250"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-main-miles-250.csv",
+          "sha256": "6ee6d4386863afc4389cb28488ed658a6bfeadaa19409da5d507dd3859285a69",
+          "bytes": 281004
+        },
+        {
+          "role": "author",
+          "view": "Map - AL",
+          "view_id": "69279c9e-f529-49e5-bb9a-25c10a2f0b8f",
+          "scope": "Complete original worksheet marks under default All set. County percentiles use each worksheet filtered partition; map CSV includes a separate state-outline pane. Native set membership selection is not REST-executed.",
+          "parameters": {
+            "n miles": "250"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-alaska-miles-250.csv",
+          "sha256": "dd3fcf66372dc32c6e2ae1db34d1d3ae895c5352c7909a7928eea8d993eeed43",
+          "bytes": 2834
+        },
+        {
+          "role": "author",
+          "view": "Map - HI",
+          "view_id": "6b14cc4c-a03d-4f1e-ab4f-9a67faed352b",
+          "scope": "Complete original worksheet marks under default All set. County percentiles use each worksheet filtered partition; map CSV includes a separate state-outline pane. Native set membership selection is not REST-executed.",
+          "parameters": {
+            "n miles": "250"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-hawaii-miles-250.csv",
+          "sha256": "680a2709035037955c5f2c041287a4617280614c63f02bbdb865362720b2a5b6",
+          "bytes": 636
+        },
+        {
+          "role": "author",
+          "view": "Utilisation Bar",
+          "view_id": "66624ef0-685e-4641-9c24-46c30be6bb23",
+          "scope": "Complete original worksheet marks under default All set. County percentiles use each worksheet filtered partition; map CSV includes a separate state-outline pane. Native set membership selection is not REST-executed.",
+          "parameters": {
+            "n miles": "250"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-resources-miles-250.csv",
+          "sha256": "ad23234914a9e79b7522ce24fa50d2b4c9d66af0870a2cb0b6bc65d77c824366",
+          "bytes": 98
+        },
+        {
+          "role": "replica",
+          "view": "Cases Bar",
+          "view_id": "89339ab3-365f-4759-ab98-ef46fcc24127",
+          "scope": "Complete original worksheet marks under default All set. County percentiles use each worksheet filtered partition; map CSV includes a separate state-outline pane. Native set membership selection is not REST-executed.",
+          "parameters": {
+            "n miles": "250"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-cases-miles-250.csv",
+          "sha256": "3e25984025d68305f1c9004343a0f9f36b59516fc3d8f1a566f884e72390b5a1",
+          "bytes": 161536
+        },
+        {
+          "role": "replica",
+          "view": "Data",
+          "view_id": "e5a1272a-1103-40db-b56e-71d21362a78c",
+          "scope": "Complete original worksheet marks under default All set. County percentiles use each worksheet filtered partition; map CSV includes a separate state-outline pane. Native set membership selection is not REST-executed.",
+          "parameters": {
+            "n miles": "250"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-data-miles-250.csv",
+          "sha256": "03ae06e448a242c0e387cb3484929452abff7f8792b908a8a6c851859cd541ef",
+          "bytes": 452844
+        },
+        {
+          "role": "replica",
+          "view": "Map - Main",
+          "view_id": "b1419001-f171-40a4-b243-976183109bf0",
+          "scope": "Complete original worksheet marks under default All set. County percentiles use each worksheet filtered partition; map CSV includes a separate state-outline pane. Native set membership selection is not REST-executed.",
+          "parameters": {
+            "n miles": "250"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-main-miles-250.csv",
+          "sha256": "8f0ead11d105d2bdd347c9fa386e784ecd8694c2183f3e9e863c76b70f871d66",
+          "bytes": 284121
+        },
+        {
+          "role": "replica",
+          "view": "Map - AL",
+          "view_id": "fbbf9ab2-915a-4657-a3c9-222a3dfce991",
+          "scope": "Complete original worksheet marks under default All set. County percentiles use each worksheet filtered partition; map CSV includes a separate state-outline pane. Native set membership selection is not REST-executed.",
+          "parameters": {
+            "n miles": "250"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-alaska-miles-250.csv",
+          "sha256": "b4056d01a96916d1f4ac93ed596c1637d1fe06c9052363f2fcab8b7fbd878ba6",
+          "bytes": 2872
+        },
+        {
+          "role": "replica",
+          "view": "Map - HI",
+          "view_id": "8b87373e-241b-4a29-ba7f-f92aa5833ff1",
+          "scope": "Complete original worksheet marks under default All set. County percentiles use each worksheet filtered partition; map CSV includes a separate state-outline pane. Native set membership selection is not REST-executed.",
+          "parameters": {
+            "n miles": "250"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-hawaii-miles-250.csv",
+          "sha256": "40ce40ccd4ffe283a6f72e8ab35113edfadf8580c9983a7736d48ac07b22ed5d",
+          "bytes": 650
+        },
+        {
+          "role": "replica",
+          "view": "Utilisation Bar",
+          "view_id": "bd7f3f88-4dd9-42f0-95b8-bbf7e9ef5742",
+          "scope": "Complete original worksheet marks under default All set. County percentiles use each worksheet filtered partition; map CSV includes a separate state-outline pane. Native set membership selection is not REST-executed.",
+          "parameters": {
+            "n miles": "250"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-resources-miles-250.csv",
+          "sha256": "ad23234914a9e79b7522ce24fa50d2b4c9d66af0870a2cb0b6bc65d77c824366",
+          "bytes": 98
+        }
+      ]
+    }
+  ],
+  "status": "verified",
+  "independent_review": {
+    "visual_status": "acceptable_delta",
+    "visual_evidence": "evidence/visual-review.md",
+    "functional_evidence": "evidence/functional-verification.json",
+    "scope": "Declared REST worksheet exports and artifact contracts; no browser events executed."
+  }
+}

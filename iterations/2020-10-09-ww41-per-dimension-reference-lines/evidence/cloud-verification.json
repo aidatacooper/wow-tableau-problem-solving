@@ -1,0 +1,462 @@
+{
+  "case_id": "wow-2020-ww41-per-dimension-reference-lines",
+  "captured_at": "2026-10-04T09:22:30.798514+00:00",
+  "source_hashes": {
+    "author": "edd5c241a8c61d25f7b6a712fc37fb261daced982d3288537a3fc84346eb1d46",
+    "replica": "c97e5fb4332a42b941be9de3c7a23899f4d8880e729055275c0afe097322e420"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "c970e777-dfc3-48a6-a584-34a9d5ec2f5e",
+      "name": "cwtwb-review-wow-2020-ww41-per-dimension-reference-lines-author-edd5c241a8c6",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2934687",
+      "views": [
+        {
+          "name": "2020_10_07_WW41_RefLine by DImension",
+          "id": "0e934e26-af44-494d-b5e2-70559d6c090a"
+        },
+        {
+          "name": "Line",
+          "id": "c8110a2c-1c2e-4e1a-a629-d16767430ec2"
+        },
+        {
+          "name": "Rank1",
+          "id": "e9f5c399-ba4e-448e-a463-9d554e1561fe"
+        },
+        {
+          "name": "Rank2",
+          "id": "0c8a0e77-8e6b-4e42-a392-d56e62f35df4"
+        },
+        {
+          "name": "Rank3",
+          "id": "70e5be8a-bf97-46c9-91a3-970b71027673"
+        }
+      ]
+    },
+    "replica": {
+      "id": "958f8687-074e-4aae-818c-bfc8f28b759c",
+      "name": "cwtwb-review-wow-2020-ww41-per-dimension-reference-lines-replica-c97e5fb4332a",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2935090",
+      "views": [
+        {
+          "name": "Line",
+          "id": "ac3f4801-bbd5-4978-a69b-c3c235c0d60b"
+        },
+        {
+          "name": "Rank1",
+          "id": "d2b1a16e-99e3-47c1-9648-95cdc974f526"
+        },
+        {
+          "name": "Rank2",
+          "id": "1050028c-9937-401f-b159-bfb674898318"
+        },
+        {
+          "name": "Rank3",
+          "id": "851a027e-2754-47fc-980a-fac78c093102"
+        },
+        {
+          "name": "2020_10_07_WW41_RefLine by DImension",
+          "id": "05f55ec3-f96d-49a1-93e9-d56971ccb358"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "0e934e26-af44-494d-b5e2-70559d6c090a",
+          "name": "2020_10_07_WW41_RefLine by DImension",
+          "path": "outputs/cloud-author.png",
+          "sha256": "e10569265e8a10ec00b06ab0609d2b6345ea1ae3acc175065e2e2853a5a7df46",
+          "size": [
+            2200,
+            1100
+          ]
+        },
+        "replica": {
+          "id": "05f55ec3-f96d-49a1-93e9-d56971ccb358",
+          "name": "2020_10_07_WW41_RefLine by DImension",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "7417a0ddf79f2f04fc0abd7edce046864dbd7e0cc47189e1e264b46590763b88",
+          "size": [
+            2200,
+            1100
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Line",
+          "view_id": "c8110a2c-1c2e-4e1a-a629-d16767430ec2",
+          "scope": "All quarter/category line marks and reference calculations, or complete rank-card category/metric outputs; no button-only data claims.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-line.csv",
+          "sha256": "51d9cef7cffe66fbb849f55815faf9a4fa67a2141ae09fb758ea4cbc15afc75f",
+          "bytes": 6187
+        },
+        {
+          "role": "author",
+          "view": "Rank1",
+          "view_id": "e9f5c399-ba4e-448e-a463-9d554e1561fe",
+          "scope": "All quarter/category line marks and reference calculations, or complete rank-card category/metric outputs; no button-only data claims.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-rank1.csv",
+          "sha256": "062026be399efeadd0b00bb052251ef585af530acd37b88d96b0eb675a9bd40c",
+          "bytes": 107
+        },
+        {
+          "role": "author",
+          "view": "Rank2",
+          "view_id": "0c8a0e77-8e6b-4e42-a392-d56e62f35df4",
+          "scope": "All quarter/category line marks and reference calculations, or complete rank-card category/metric outputs; no button-only data claims.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-rank2.csv",
+          "sha256": "487a0d49c3e5ba69dcc774052a402dd3ad088024d85964755fbcf465378785e6",
+          "bytes": 106
+        },
+        {
+          "role": "author",
+          "view": "Rank3",
+          "view_id": "70e5be8a-bf97-46c9-91a3-970b71027673",
+          "scope": "All quarter/category line marks and reference calculations, or complete rank-card category/metric outputs; no button-only data claims.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-rank3.csv",
+          "sha256": "8fb3640db5b89fdb770fe523f3e2238f17516cfc1cc395d280aab6ddedaad567",
+          "bytes": 112
+        },
+        {
+          "role": "replica",
+          "view": "Line",
+          "view_id": "ac3f4801-bbd5-4978-a69b-c3c235c0d60b",
+          "scope": "All quarter/category line marks and reference calculations, or complete rank-card category/metric outputs; no button-only data claims.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-line.csv",
+          "sha256": "c55402e294b9e96dbdaf35d9fa0cefad9bdbcf34bc549f01d5fe8b02d6d6a6ff",
+          "bytes": 6202
+        },
+        {
+          "role": "replica",
+          "view": "Rank1",
+          "view_id": "d2b1a16e-99e3-47c1-9648-95cdc974f526",
+          "scope": "All quarter/category line marks and reference calculations, or complete rank-card category/metric outputs; no button-only data claims.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-rank1.csv",
+          "sha256": "765887bfd68ff1d217d7276f659a89fc649970b4b2e64ba026046ca3c29e7bec",
+          "bytes": 100
+        },
+        {
+          "role": "replica",
+          "view": "Rank2",
+          "view_id": "1050028c-9937-401f-b159-bfb674898318",
+          "scope": "All quarter/category line marks and reference calculations, or complete rank-card category/metric outputs; no button-only data claims.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-rank2.csv",
+          "sha256": "2c400f4b65513f3ae2bdb32d51a8d97de1b1ee66263cc6ec661f4f7961a3e6e3",
+          "bytes": 99
+        },
+        {
+          "role": "replica",
+          "view": "Rank3",
+          "view_id": "851a027e-2754-47fc-980a-fac78c093102",
+          "scope": "All quarter/category line marks and reference calculations, or complete rank-card category/metric outputs; no button-only data claims.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-rank3.csv",
+          "sha256": "4f9f5e32c330579ba7cd854076947b637b17186f1449a0b32e1c6d9c32f8f4a3",
+          "bytes": 105
+        }
+      ]
+    },
+    {
+      "name": "profit-ratio",
+      "parameters": {
+        "SELECT A MEASURE": "Profit Ratio"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "0e934e26-af44-494d-b5e2-70559d6c090a",
+          "name": "2020_10_07_WW41_RefLine by DImension",
+          "path": "outputs/cloud-author-profit-ratio.png",
+          "sha256": "e4435f21d64fb18d1af1d80839f6ea8faff2f371c5685f2774c8920309f03e20",
+          "size": [
+            2200,
+            1100
+          ]
+        },
+        "replica": {
+          "id": "05f55ec3-f96d-49a1-93e9-d56971ccb358",
+          "name": "2020_10_07_WW41_RefLine by DImension",
+          "path": "outputs/cloud-replica-profit-ratio.png",
+          "sha256": "0c1928bade704282ee6d9b4c49c449ab2c668f18ad3d47530dfd4d53b8c08b28",
+          "size": [
+            2200,
+            1100
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Line",
+          "view_id": "c8110a2c-1c2e-4e1a-a629-d16767430ec2",
+          "scope": "All quarter/category line marks and reference calculations, or complete rank-card category/metric outputs; no button-only data claims.",
+          "parameters": {
+            "SELECT A MEASURE": "Profit Ratio"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-line-profit-ratio.csv",
+          "sha256": "5957b5e7f1973d0b5f61ded374111e9bfe4bb1ef867f383dd90e70464ba6ab1a",
+          "bytes": 5816
+        },
+        {
+          "role": "author",
+          "view": "Rank1",
+          "view_id": "e9f5c399-ba4e-448e-a463-9d554e1561fe",
+          "scope": "All quarter/category line marks and reference calculations, or complete rank-card category/metric outputs; no button-only data claims.",
+          "parameters": {
+            "SELECT A MEASURE": "Profit Ratio"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-rank1-profit-ratio.csv",
+          "sha256": "211bf116a6f56fd235f90da38c4f9cdb4b38ce6263664c443a15bf5cb1ed3851",
+          "bytes": 109
+        },
+        {
+          "role": "author",
+          "view": "Rank2",
+          "view_id": "0c8a0e77-8e6b-4e42-a392-d56e62f35df4",
+          "scope": "All quarter/category line marks and reference calculations, or complete rank-card category/metric outputs; no button-only data claims.",
+          "parameters": {
+            "SELECT A MEASURE": "Profit Ratio"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-rank2-profit-ratio.csv",
+          "sha256": "d054d240a85424e70510e844282a4a8ae4b702e4ecdf09e5ecf21f283a407ac0",
+          "bytes": 112
+        },
+        {
+          "role": "author",
+          "view": "Rank3",
+          "view_id": "70e5be8a-bf97-46c9-91a3-970b71027673",
+          "scope": "All quarter/category line marks and reference calculations, or complete rank-card category/metric outputs; no button-only data claims.",
+          "parameters": {
+            "SELECT A MEASURE": "Profit Ratio"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-rank3-profit-ratio.csv",
+          "sha256": "5cb1a7250aa39369e102ceda029439a18dbd426941d5f40222f85792a4f087a5",
+          "bytes": 106
+        },
+        {
+          "role": "replica",
+          "view": "Line",
+          "view_id": "ac3f4801-bbd5-4978-a69b-c3c235c0d60b",
+          "scope": "All quarter/category line marks and reference calculations, or complete rank-card category/metric outputs; no button-only data claims.",
+          "parameters": {
+            "SELECT A MEASURE": "Profit Ratio"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-line-profit-ratio.csv",
+          "sha256": "39514ebc2204c4913b5501846d2046b90d368b48cc6fb017f4c9074333b4a464",
+          "bytes": 5831
+        },
+        {
+          "role": "replica",
+          "view": "Rank1",
+          "view_id": "d2b1a16e-99e3-47c1-9648-95cdc974f526",
+          "scope": "All quarter/category line marks and reference calculations, or complete rank-card category/metric outputs; no button-only data claims.",
+          "parameters": {
+            "SELECT A MEASURE": "Profit Ratio"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-rank1-profit-ratio.csv",
+          "sha256": "7a7e60608f08f96ac67767c6a2703d4989fd68030df647b2b2baf42c11386803",
+          "bytes": 102
+        },
+        {
+          "role": "replica",
+          "view": "Rank2",
+          "view_id": "1050028c-9937-401f-b159-bfb674898318",
+          "scope": "All quarter/category line marks and reference calculations, or complete rank-card category/metric outputs; no button-only data claims.",
+          "parameters": {
+            "SELECT A MEASURE": "Profit Ratio"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-rank2-profit-ratio.csv",
+          "sha256": "2878b243204eb5c8c81be3710dc8799c4a9eb3f52abf4c3f88c2a28dc4224979",
+          "bytes": 105
+        },
+        {
+          "role": "replica",
+          "view": "Rank3",
+          "view_id": "851a027e-2754-47fc-980a-fac78c093102",
+          "scope": "All quarter/category line marks and reference calculations, or complete rank-card category/metric outputs; no button-only data claims.",
+          "parameters": {
+            "SELECT A MEASURE": "Profit Ratio"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-rank3-profit-ratio.csv",
+          "sha256": "43593bc8e7d8c866866e20dc615836bc5bf774030d622399600f5d10074d6a83",
+          "bytes": 99
+        }
+      ]
+    },
+    {
+      "name": "items-per-order",
+      "parameters": {
+        "SELECT A MEASURE": "Items Per Order"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "0e934e26-af44-494d-b5e2-70559d6c090a",
+          "name": "2020_10_07_WW41_RefLine by DImension",
+          "path": "outputs/cloud-author-items-per-order.png",
+          "sha256": "94c2363e9d5dea1eb3d772a7620ae487f8dd814b28dcd2050d394b1d7da16a99",
+          "size": [
+            2200,
+            1100
+          ]
+        },
+        "replica": {
+          "id": "05f55ec3-f96d-49a1-93e9-d56971ccb358",
+          "name": "2020_10_07_WW41_RefLine by DImension",
+          "path": "outputs/cloud-replica-items-per-order.png",
+          "sha256": "82ba49ab9e78c46812b944c31b44ccfe8589b6b6b17e401dbcef1423e67d7776",
+          "size": [
+            2200,
+            1100
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Line",
+          "view_id": "c8110a2c-1c2e-4e1a-a629-d16767430ec2",
+          "scope": "All quarter/category line marks and reference calculations, or complete rank-card category/metric outputs; no button-only data claims.",
+          "parameters": {
+            "SELECT A MEASURE": "Items Per Order"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-line-items-per-order.csv",
+          "sha256": "c3cb7e0941d04475858c33965a73181ad3439ba003b3d317d3bd7f7c4f0ecb0f",
+          "bytes": 6246
+        },
+        {
+          "role": "author",
+          "view": "Rank1",
+          "view_id": "e9f5c399-ba4e-448e-a463-9d554e1561fe",
+          "scope": "All quarter/category line marks and reference calculations, or complete rank-card category/metric outputs; no button-only data claims.",
+          "parameters": {
+            "SELECT A MEASURE": "Items Per Order"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-rank1-items-per-order.csv",
+          "sha256": "13c8159f7b868c7d39ea2869d62209d4efd7619b575aea9e1e4dd42a016bad47",
+          "bytes": 113
+        },
+        {
+          "role": "author",
+          "view": "Rank2",
+          "view_id": "0c8a0e77-8e6b-4e42-a392-d56e62f35df4",
+          "scope": "All quarter/category line marks and reference calculations, or complete rank-card category/metric outputs; no button-only data claims.",
+          "parameters": {
+            "SELECT A MEASURE": "Items Per Order"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-rank2-items-per-order.csv",
+          "sha256": "7c37a975eb8d9a3dd03480dbf3ff1b0a23b89a1e6537910604d99916270c32c2",
+          "bytes": 107
+        },
+        {
+          "role": "author",
+          "view": "Rank3",
+          "view_id": "70e5be8a-bf97-46c9-91a3-970b71027673",
+          "scope": "All quarter/category line marks and reference calculations, or complete rank-card category/metric outputs; no button-only data claims.",
+          "parameters": {
+            "SELECT A MEASURE": "Items Per Order"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-rank3-items-per-order.csv",
+          "sha256": "37431f4f5a4eb9468dab59966095d185574c7938ac934e9a8998cc3db6aa0763",
+          "bytes": 108
+        },
+        {
+          "role": "replica",
+          "view": "Line",
+          "view_id": "ac3f4801-bbd5-4978-a69b-c3c235c0d60b",
+          "scope": "All quarter/category line marks and reference calculations, or complete rank-card category/metric outputs; no button-only data claims.",
+          "parameters": {
+            "SELECT A MEASURE": "Items Per Order"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-line-items-per-order.csv",
+          "sha256": "9cb756193884dbb6dcf7582b3dbb07a2cc4d53cbd0bec7a6bfa5e350ede313b0",
+          "bytes": 6261
+        },
+        {
+          "role": "replica",
+          "view": "Rank1",
+          "view_id": "d2b1a16e-99e3-47c1-9648-95cdc974f526",
+          "scope": "All quarter/category line marks and reference calculations, or complete rank-card category/metric outputs; no button-only data claims.",
+          "parameters": {
+            "SELECT A MEASURE": "Items Per Order"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-rank1-items-per-order.csv",
+          "sha256": "2bae738947e437b4bb02856713e79a02eaa12382719e4f73b0847c34bc9cfe89",
+          "bytes": 106
+        },
+        {
+          "role": "replica",
+          "view": "Rank2",
+          "view_id": "1050028c-9937-401f-b159-bfb674898318",
+          "scope": "All quarter/category line marks and reference calculations, or complete rank-card category/metric outputs; no button-only data claims.",
+          "parameters": {
+            "SELECT A MEASURE": "Items Per Order"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-rank2-items-per-order.csv",
+          "sha256": "bd75c2214964a410ed5d24a915b368182f978fa22abafc5e1dbed33ded9f6cea",
+          "bytes": 100
+        },
+        {
+          "role": "replica",
+          "view": "Rank3",
+          "view_id": "851a027e-2754-47fc-980a-fac78c093102",
+          "scope": "All quarter/category line marks and reference calculations, or complete rank-card category/metric outputs; no button-only data claims.",
+          "parameters": {
+            "SELECT A MEASURE": "Items Per Order"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-rank3-items-per-order.csv",
+          "sha256": "631119e93f3ed4b2eb6fead6e2abc3c6f8231addaae6ae15d45c37b7fb0c24ec",
+          "bytes": 101
+        }
+      ]
+    }
+  ],
+  "status": "verified",
+  "independent_review": {
+    "visual_status": "acceptable_delta",
+    "visual_evidence": "evidence/visual-review.md",
+    "functional_evidence": "evidence/functional-verification.json",
+    "scope": "Declared REST worksheet exports and artifact contracts; no browser events executed."
+  }
+}

@@ -1,0 +1,171 @@
+COLOUR Country,Country Name,Is Host?,Year,# Medals,Score,Top 10 Rank Only,Hosted | Participated,Bronze,Gold,Silver
+,Algeria,,2016,2,4,,participated,,,2
+,Argentina,,2016,4,11,,participated,,3,1
+,Armenia,,2016,4,9,,participated,,1,3
+,Australia,,2016,29,56,8,participated,10,8,11
+,Austria,,2016,1,1,,participated,1,,
+,Azerbaijan,,2016,18,27,,participated,10,1,7
+,Bahamas,,2016,2,4,,participated,1,1,
+,Bahrain,,2016,2,5,,participated,,1,1
+,Belarus,,2016,9,15,,participated,4,1,4
+,Belgium,,2016,6,12,,participated,2,2,2
+,Brazil,,2016,19,39,,hosted,6,7,6
+,Bulgaria,,2016,3,4,,participated,2,,1
+,Burundi,,2016,1,2,,participated,,,1
+,Canada,,2016,22,33,,participated,15,4,3
+,China,,2016,70,140,3,participated,26,26,18
+,Chinese Taipei,,2016,3,5,,participated,2,1,
+,Colombia,,2016,8,16,,participated,3,3,2
+,Croatia,,2016,10,23,,participated,2,5,3
+,Cuba,,2016,11,23,,participated,4,5,2
+,Czech Republic,,2016,10,14,,participated,7,1,2
+,Denmark,,2016,15,25,,participated,7,2,6
+,Dominican Republic,,2016,1,1,,participated,1,,
+,Egypt,,2016,3,3,,participated,3,,
+,Estonia,,2016,1,1,,participated,1,,
+,Ethiopia,,2016,8,12,,participated,5,1,2
+,Fiji,,2016,1,3,,participated,,1,
+,Finland,,2016,1,1,,participated,1,,
+,France,,2016,42,80,6,participated,14,10,18
+,Georgia,,2016,7,12,,participated,4,2,1
+,Germany,,2016,42,86,5,participated,15,17,10
+,Great Britain,,2016,66,142,2,participated,17,27,22
+,Greece,,2016,6,13,,participated,2,3,1
+,Grenada,,2016,1,2,,participated,,,1
+,Hungary,,2016,15,34,,participated,4,8,3
+,Independent Olympic Athletes,,2016,2,4,,participated,1,1,
+,India,,2016,2,3,,participated,1,,1
+,Indonesia,,2016,3,7,,participated,,1,2
+,Iran,,2016,8,15,,participated,4,3,1
+,Ireland,,2016,2,4,,participated,,,2
+,Israel,,2016,2,2,,participated,2,,
+,Italy,,2016,28,56,9,participated,8,8,12
+,Jamaica,,2016,11,26,,participated,2,6,3
+,Japan,,2016,41,73,7,participated,21,12,8
+,Jordan,,2016,1,3,,participated,,1,
+,Kazakhstan,,2016,18,29,,participated,10,3,5
+,Kenya,,2016,13,31,,participated,1,6,6
+,Kosovo,,2016,1,3,,participated,,1,
+,Lithuania,,2016,4,5,,participated,3,,1
+,Malaysia,,2016,5,9,,participated,1,,4
+,Mexico,,2016,5,8,,participated,2,,3
+,Mongolia,,2016,2,3,,participated,1,,1
+,Morocco,,2016,1,1,,participated,1,,
+,Netherlands,,2016,19,42,10,participated,4,8,7
+,New Zealand,,2016,18,35,,participated,5,4,9
+,Niger,,2016,1,2,,participated,,,1
+,Nigeria,,2016,1,1,,participated,1,,
+,North Korea,,2016,7,14,,participated,2,2,3
+,Norway,,2016,4,4,,participated,4,,
+,Philippines,,2016,1,2,,participated,,,1
+,Poland,,2016,11,18,,participated,6,2,3
+,Portugal,,2016,1,1,,participated,1,,
+,Puerto Rico,,2016,1,3,,participated,,1,
+,Qatar,,2016,1,2,,participated,,,1
+,Romania,,2016,4,7,,participated,2,1,1
+,Russia,,2016,55,110,4,participated,19,19,17
+,Serbia,,2016,8,16,,participated,2,2,4
+,Singapore,,2016,1,3,,participated,,1,
+,Slovakia,,2016,4,10,,participated,,2,2
+,Slovenia,,2016,4,8,,participated,1,1,2
+,South Africa,,2016,10,20,,participated,2,2,6
+,South Korea,,2016,21,42,,participated,9,9,3
+,Spain,,2016,17,35,,participated,6,7,4
+,Sweden,,2016,11,21,,participated,3,2,6
+,Switzerland,,2016,7,15,,participated,2,3,2
+,Tajikistan,,2016,1,3,,participated,,1,
+,Thailand,,2016,6,12,,participated,2,2,2
+,Trinidad and Tobago,,2016,1,1,,participated,1,,
+,Tunisia,,2016,3,3,,participated,3,,
+,Turkey,,2016,8,13,,participated,4,1,3
+,Ukraine,,2016,11,20,,participated,4,2,5
+,United Arab Emirates,,2016,1,1,,participated,1,,
+,United States,,2016,121,250,1,participated,38,46,37
+,Uzbekistan,,2016,13,23,,participated,7,4,2
+,Venezuela,,2016,3,4,,participated,2,,1
+,Vietnam,,2016,2,5,,participated,,1,1
+,Algeria,False,2016,2,4,,participated,,,2
+,Argentina,False,2016,4,11,,participated,,3,1
+,Armenia,False,2016,4,9,,participated,,1,3
+,Australia,False,2016,29,56,8,participated,10,8,11
+,Austria,False,2016,1,1,,participated,1,,
+,Azerbaijan,False,2016,18,27,,participated,10,1,7
+,Bahamas,False,2016,2,4,,participated,1,1,
+,Bahrain,False,2016,2,5,,participated,,1,1
+,Belarus,False,2016,9,15,,participated,4,1,4
+,Belgium,False,2016,6,12,,participated,2,2,2
+Brazil,Brazil,True,2016,19,39,,hosted,6,7,6
+,Bulgaria,False,2016,3,4,,participated,2,,1
+,Burundi,False,2016,1,2,,participated,,,1
+,Canada,False,2016,22,33,,participated,15,4,3
+,China,False,2016,70,140,3,participated,26,26,18
+,Chinese Taipei,False,2016,3,5,,participated,2,1,
+,Colombia,False,2016,8,16,,participated,3,3,2
+,Croatia,False,2016,10,23,,participated,2,5,3
+,Cuba,False,2016,11,23,,participated,4,5,2
+,Czech Republic,False,2016,10,14,,participated,7,1,2
+,Denmark,False,2016,15,25,,participated,7,2,6
+,Dominican Republic,False,2016,1,1,,participated,1,,
+,Egypt,False,2016,3,3,,participated,3,,
+,Estonia,False,2016,1,1,,participated,1,,
+,Ethiopia,False,2016,8,12,,participated,5,1,2
+,Fiji,False,2016,1,3,,participated,,1,
+,Finland,False,2016,1,1,,participated,1,,
+,France,False,2016,42,80,6,participated,14,10,18
+,Georgia,False,2016,7,12,,participated,4,2,1
+,Germany,False,2016,42,86,5,participated,15,17,10
+,Great Britain,False,2016,66,142,2,participated,17,27,22
+,Greece,False,2016,6,13,,participated,2,3,1
+,Grenada,False,2016,1,2,,participated,,,1
+,Hungary,False,2016,15,34,,participated,4,8,3
+,Independent Olympic Athletes,False,2016,2,4,,participated,1,1,
+,India,False,2016,2,3,,participated,1,,1
+,Indonesia,False,2016,3,7,,participated,,1,2
+,Iran,False,2016,8,15,,participated,4,3,1
+,Ireland,False,2016,2,4,,participated,,,2
+,Israel,False,2016,2,2,,participated,2,,
+,Italy,False,2016,28,56,9,participated,8,8,12
+,Jamaica,False,2016,11,26,,participated,2,6,3
+,Japan,False,2016,41,73,7,participated,21,12,8
+,Jordan,False,2016,1,3,,participated,,1,
+,Kazakhstan,False,2016,18,29,,participated,10,3,5
+,Kenya,False,2016,13,31,,participated,1,6,6
+,Kosovo,False,2016,1,3,,participated,,1,
+,Lithuania,False,2016,4,5,,participated,3,,1
+,Malaysia,False,2016,5,9,,participated,1,,4
+,Mexico,False,2016,5,8,,participated,2,,3
+,Mongolia,False,2016,2,3,,participated,1,,1
+,Morocco,False,2016,1,1,,participated,1,,
+,Netherlands,False,2016,19,42,10,participated,4,8,7
+,New Zealand,False,2016,18,35,,participated,5,4,9
+,Niger,False,2016,1,2,,participated,,,1
+,Nigeria,False,2016,1,1,,participated,1,,
+,North Korea,False,2016,7,14,,participated,2,2,3
+,Norway,False,2016,4,4,,participated,4,,
+,Philippines,False,2016,1,2,,participated,,,1
+,Poland,False,2016,11,18,,participated,6,2,3
+,Portugal,False,2016,1,1,,participated,1,,
+,Puerto Rico,False,2016,1,3,,participated,,1,
+,Qatar,False,2016,1,2,,participated,,,1
+,Romania,False,2016,4,7,,participated,2,1,1
+,Russia,False,2016,55,110,4,participated,19,19,17
+,Serbia,False,2016,8,16,,participated,2,2,4
+,Singapore,False,2016,1,3,,participated,,1,
+,Slovakia,False,2016,4,10,,participated,,2,2
+,Slovenia,False,2016,4,8,,participated,1,1,2
+,South Africa,False,2016,10,20,,participated,2,2,6
+,South Korea,False,2016,21,42,,participated,9,9,3
+,Spain,False,2016,17,35,,participated,6,7,4
+,Sweden,False,2016,11,21,,participated,3,2,6
+,Switzerland,False,2016,7,15,,participated,2,3,2
+,Tajikistan,False,2016,1,3,,participated,,1,
+,Thailand,False,2016,6,12,,participated,2,2,2
+,Trinidad and Tobago,False,2016,1,1,,participated,1,,
+,Tunisia,False,2016,3,3,,participated,3,,
+,Turkey,False,2016,8,13,,participated,4,1,3
+,Ukraine,False,2016,11,20,,participated,4,2,5
+,United Arab Emirates,False,2016,1,1,,participated,1,,
+,United States,False,2016,121,250,1,participated,38,46,37
+,Uzbekistan,False,2016,13,23,,participated,7,4,2
+,Venezuela,False,2016,3,4,,participated,2,,1
+,Vietnam,False,2016,2,5,,participated,,1,1

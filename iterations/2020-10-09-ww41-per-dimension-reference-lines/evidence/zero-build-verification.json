@@ -1,0 +1,9 @@
+{
+  "case_id": "2020-10-09-ww41-per-dimension-reference-lines",
+  "sdk_commit": "eb1380d5da9c1b1bf1b306128cb8397150ba1a53",
+  "builder_sha256": "e3c0ca2fb3dcb53aa8a5b4f1dbde1e5d19bdd8145d29ad4c0580b95529027767",
+  "builder_hash_scope": "UTF-8 source text with universal newlines normalized to LF",
+  "result": "passed",
+  "initial_workbooks_available": 0,
+  "scope": "Copied only builder/verifier, metadata and locked inputs. Built from TWBEditor empty, then ran independent raw-data/artifact oracle without copied Cloud evidence or author workbooks."
+}

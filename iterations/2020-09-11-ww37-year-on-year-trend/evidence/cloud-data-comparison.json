@@ -1,0 +1,119 @@
+{
+  "status": "pass",
+  "artifact_sha256": "35439de0c20e54eddf91efad1b67987cc3fd90143ca184ce1afbf71320fdadd4",
+  "comparisons": [
+    {
+      "state": "default",
+      "role": "author",
+      "view": "Map",
+      "csv_rows": 96,
+      "status": "pass"
+    },
+    {
+      "state": "default",
+      "role": "author",
+      "view": "Trend",
+      "csv_rows": 2592,
+      "status": "pass"
+    },
+    {
+      "state": "default",
+      "role": "replica",
+      "view": "Map",
+      "csv_rows": 96,
+      "status": "pass"
+    },
+    {
+      "state": "default",
+      "role": "replica",
+      "view": "Trend",
+      "csv_rows": 2592,
+      "status": "pass"
+    },
+    {
+      "state": "california",
+      "role": "author",
+      "view": "Map",
+      "csv_rows": 2,
+      "status": "pass"
+    },
+    {
+      "state": "california",
+      "role": "author",
+      "view": "Trend",
+      "csv_rows": 54,
+      "status": "pass"
+    },
+    {
+      "state": "california",
+      "role": "replica",
+      "view": "Map",
+      "csv_rows": 2,
+      "status": "pass"
+    },
+    {
+      "state": "california",
+      "role": "replica",
+      "view": "Trend",
+      "csv_rows": 54,
+      "status": "pass"
+    },
+    {
+      "state": "june-dates",
+      "role": "author",
+      "view": "Map",
+      "csv_rows": 96,
+      "status": "pass"
+    },
+    {
+      "state": "june-dates",
+      "role": "author",
+      "view": "Trend",
+      "csv_rows": 384,
+      "status": "pass"
+    },
+    {
+      "state": "june-dates",
+      "role": "replica",
+      "view": "Map",
+      "csv_rows": 96,
+      "status": "pass"
+    },
+    {
+      "state": "june-dates",
+      "role": "replica",
+      "view": "Trend",
+      "csv_rows": 384,
+      "status": "pass"
+    },
+    {
+      "state": "may-june-dates",
+      "role": "author",
+      "view": "Map",
+      "csv_rows": 96,
+      "status": "pass"
+    },
+    {
+      "state": "may-june-dates",
+      "role": "author",
+      "view": "Trend",
+      "csv_rows": 672,
+      "status": "pass"
+    },
+    {
+      "state": "may-june-dates",
+      "role": "replica",
+      "view": "Map",
+      "csv_rows": 96,
+      "status": "pass"
+    },
+    {
+      "state": "may-june-dates",
+      "role": "replica",
+      "view": "Trend",
+      "csv_rows": 672,
+      "status": "pass"
+    }
+  ],
+  "scope": "Map CY/PY/YoY/share and complete Trend State/year/date marks. REST date equality lists are post-context subsets of the unchanged January 1-July 14 context; all captured states remain weekly, Wednesday-aligned. Daily/window switching is independently checked from raw data plus native contracts, not claimed as REST execution. Tooltip execution is artifact-only."
+}

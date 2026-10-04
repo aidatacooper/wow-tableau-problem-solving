@@ -1,0 +1,10 @@
+{
+  "commit": "cbe200a4a148f1825764de67bd3e8f0e6d01a113",
+  "result": "blocked",
+  "module": "C:\\Users\\imgwho\\Desktop\\project\\wow-next-case\\scratch\\sdk-cbe200a-source\\src\\cwtwb\\__init__.py",
+  "sort_mode_available": false,
+  "signature": "(self, worksheet_name: str, *, columns: Optional[list[str]] = None, rows: Optional[list[str]] = None, panes: Optional[list[dict]] = None, axis_shelf: str = 'rows', synchronized: bool = True, fold_axes: bool = True, hide_axes: bool = False, sort_descending: Optional[str] = None, table_calc_overrides: Optional[dict[str, list[dict]]] = None, sort_field: Optional[str] = None, filters: Optional[list[dict]] = None) -> str",
+  "scope": "Released public layered API lacks explicit computed sort on an on-shelf dimension. Fresh Cloud 8336 has correct raw/group metrics but page-two/last-page membership is wrong under shelf-sort-v2. Author uses computed-sort before INDEX pagination. Generic coordinated sort_mode enhancement restores that native contract.",
+  "failed_corrected_case_artifact": "8336dcace0339f1d2c21732ff46462bce8498ac6e81138c51372db7974afb77d",
+  "synthetic_public_call_error": "ChartsMixin.configure_layered_chart() got an unexpected keyword argument 'sort_mode'"
+}

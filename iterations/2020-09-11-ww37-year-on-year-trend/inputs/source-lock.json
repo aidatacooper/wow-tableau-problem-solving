@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-04",
+  "source_workbook": {
+    "filename": "author.twbx",
+    "bytes": 127198,
+    "sha256": "1c5ff68c93dd0a43cf231649fff12c6f35d1ae9b5b4e898f57df8adc62a96e6b",
+    "url": null
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Datasources/Signups by State (2020_09_09_WW37_Signups by State).hyper",
+      "file": "inputs/Signups by State (2020_09_09_WW37_Signups by State).hyper",
+      "bytes": 262144,
+      "sha256": "d45a545afe631eb8be26c7b0f4460e3778823bdc9b4a76f6f1bcb64e21a7b521"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

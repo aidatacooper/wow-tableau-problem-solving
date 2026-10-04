@@ -1,0 +1,9 @@
+{
+  "case_id": "2020-08-07-ww32-covid-state-cartogram",
+  "sdk_commit": "eb1380d5da9c1b1bf1b306128cb8397150ba1a53",
+  "builder_sha256": "0c1963fa73a8d017a3a53fee948639cdb8837f635a613f25f7fcff46a3315ea1",
+  "builder_hash_scope": "UTF-8 source text with universal newlines normalized to LF",
+  "result": "passed",
+  "initial_workbooks_available": 0,
+  "scope": "Copied only builder/verifier, metadata and locked inputs. Built from TWBEditor empty, then ran independent raw-data/artifact oracle without copied Cloud evidence or author workbooks."
+}

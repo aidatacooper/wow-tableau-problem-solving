@@ -1,0 +1,11 @@
+{
+  "tested_commit": "cbe200a4a148f1825764de67bd3e8f0e6d01a113",
+  "result": "blocked",
+  "source_module": "C:\\Users\\imgwho\\Desktop\\project\\wow-next-case\\scratch\\sdk-cbe200a-source\\src\\cwtwb\\__init__.py",
+  "gap": "Continuous quarter date grain cannot be requested through a native date derivation; QUARTER gives discrete Quarter:ok while source requires Quarter-Trunc/tqr:qk. A truncated date calc is numerical equivalent but renders unintended exact-date axis ticks.",
+  "probe_expression": "QUARTERTRUNC(Order Date)",
+  "exception": "Unsupported aggregation function: QUARTERTRUNC. Supported: SUM, AVG, COUNT, COUNTD, MIN, MAX, MEDIAN, ATTR, COLLECT, AGG, YEAR, QUARTER, MONTH, DAY, WEEK, WEEKDAY, MY, DAYTRUNC, EXACTDATE",
+  "initial_capture": "3c76a1751e1a5bb3786cf26f736d1160ae105ab04e8fd2c5833557e085ed3180",
+  "initial_local_contract_scope": "Raw numerical/local checks passed; subsequent Cloud layout review rejected blank Rank1 labels and exact-date ticks.",
+  "generic_solution": "QUARTERTRUNC plus common YEARTRUNC/MONTHTRUNC date derivations; root synthetic tests cover actual chart/save contracts."
+}

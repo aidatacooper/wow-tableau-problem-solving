@@ -1,0 +1,220 @@
+{
+  "case_id": "wow-2020-ww30-set-action-drill-down",
+  "captured_at": "2026-10-04T08:21:17.846336+00:00",
+  "source_hashes": {
+    "author": "cb255768f1ef59958a34333260168f9959fc97b08927cb4e1fff066c0fc12c23",
+    "replica": "ad342c380c6d6f315cb60f70d6e7a913045e6c66134b9c6cadd48c17af13fa32"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "1e85b08d-9086-4ee9-99ee-cbed2a79bd45",
+      "name": "cwtwb-review-wow-2020-ww30-set-action-drill-down-author-cb255768f1ef",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2934681",
+      "views": [
+        {
+          "name": "2020_07_22_WW30_SetAction_DrillDown",
+          "id": "afcea98e-0899-4193-8a53-b9e9749c3df6"
+        },
+        {
+          "name": "CHK:Data",
+          "id": "9c94a0e7-f974-4a01-b8c9-4eb00d5b4232"
+        },
+        {
+          "name": "Scatter",
+          "id": "6992803e-072c-4565-9edb-d0b3d9ac93c7"
+        }
+      ]
+    },
+    "replica": {
+      "id": "0aac9686-7d17-484d-b5a3-6c6e8c49f7fd",
+      "name": "cwtwb-review-wow-2020-ww30-set-action-drill-down-replica-ad342c380c6d",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2934794",
+      "views": [
+        {
+          "name": "Scatter",
+          "id": "27bd33be-64c1-4587-9ddd-ca44c1227bd5"
+        },
+        {
+          "name": "2020_07_22_WW30_SetAction_DrillDown",
+          "id": "599d3d82-ef81-4d50-8577-4c9e11c4d495"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "afcea98e-0899-4193-8a53-b9e9749c3df6",
+          "name": "2020_07_22_WW30_SetAction_DrillDown",
+          "path": "outputs/cloud-author.png",
+          "sha256": "389aa803754c5ba55cc2b1928e4e12fcb82c143e311f2906b3abdf96cbb42df4",
+          "size": [
+            1600,
+            1400
+          ]
+        },
+        "replica": {
+          "id": "599d3d82-ef81-4d50-8577-4c9e11c4d495",
+          "name": "2020_07_22_WW30_SetAction_DrillDown",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "46b2dfa7318e973961413174b2a36d83fa5bb0a22edf3410d545b3d69c1f76d4",
+          "size": [
+            1600,
+            1400
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Scatter",
+          "view_id": "6992803e-072c-4565-9edb-d0b3d9ac93c7",
+          "scope": "Entire existing scatter worksheet. REST State filters do not execute a native set action.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-scatter.csv",
+          "sha256": "ec243441c97f9f030a7e7e5c7dc6398ab3e765e32c7e45f6c3392b1516a598e5",
+          "bytes": 5929
+        },
+        {
+          "role": "replica",
+          "view": "Scatter",
+          "view_id": "27bd33be-64c1-4587-9ddd-ca44c1227bd5",
+          "scope": "Entire existing scatter worksheet. REST State filters do not execute a native set action.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-scatter.csv",
+          "sha256": "ec243441c97f9f030a7e7e5c7dc6398ab3e765e32c7e45f6c3392b1516a598e5",
+          "bytes": 5929
+        }
+      ]
+    },
+    {
+      "name": "california",
+      "parameters": {},
+      "filters": {
+        "State": "California"
+      },
+      "views": {
+        "author": {
+          "id": "afcea98e-0899-4193-8a53-b9e9749c3df6",
+          "name": "2020_07_22_WW30_SetAction_DrillDown",
+          "path": "outputs/cloud-author-california.png",
+          "sha256": "85fe4ab41d552c9e6f6133d5a904fb7077ec3a028ceb77b0c6b56ed4570403dd",
+          "size": [
+            1600,
+            1400
+          ]
+        },
+        "replica": {
+          "id": "599d3d82-ef81-4d50-8577-4c9e11c4d495",
+          "name": "2020_07_22_WW30_SetAction_DrillDown",
+          "path": "outputs/cloud-replica-california.png",
+          "sha256": "a3fcdf0168fc9e7cc6049f9c19bfda0f6bb1fc280ef32ee0b41e937e349bb7a9",
+          "size": [
+            1600,
+            1400
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Scatter",
+          "view_id": "6992803e-072c-4565-9edb-d0b3d9ac93c7",
+          "scope": "Entire existing scatter worksheet. REST State filters do not execute a native set action.",
+          "parameters": {},
+          "filters": {
+            "State": "California"
+          },
+          "path": "outputs/cloud-author-scatter-california.csv",
+          "sha256": "71c7cd6d64d1b1ccb24334fb1c174c3c46864a993bff3f137757653d831fbeb6",
+          "bytes": 208
+        },
+        {
+          "role": "replica",
+          "view": "Scatter",
+          "view_id": "27bd33be-64c1-4587-9ddd-ca44c1227bd5",
+          "scope": "Entire existing scatter worksheet. REST State filters do not execute a native set action.",
+          "parameters": {},
+          "filters": {
+            "State": "California"
+          },
+          "path": "outputs/cloud-replica-scatter-california.csv",
+          "sha256": "71c7cd6d64d1b1ccb24334fb1c174c3c46864a993bff3f137757653d831fbeb6",
+          "bytes": 208
+        }
+      ]
+    },
+    {
+      "name": "texas",
+      "parameters": {},
+      "filters": {
+        "State": "Texas"
+      },
+      "views": {
+        "author": {
+          "id": "afcea98e-0899-4193-8a53-b9e9749c3df6",
+          "name": "2020_07_22_WW30_SetAction_DrillDown",
+          "path": "outputs/cloud-author-texas.png",
+          "sha256": "eaaab0b01658980c0fe1beff5769d1c1ac419737b308b28b4f7b6e337b54cf98",
+          "size": [
+            1600,
+            1400
+          ]
+        },
+        "replica": {
+          "id": "599d3d82-ef81-4d50-8577-4c9e11c4d495",
+          "name": "2020_07_22_WW30_SetAction_DrillDown",
+          "path": "outputs/cloud-replica-texas.png",
+          "sha256": "a6b762a2bd257b1da46334e8431163ea2038fb5320c16efeea371e6a9a32991a",
+          "size": [
+            1600,
+            1400
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Scatter",
+          "view_id": "6992803e-072c-4565-9edb-d0b3d9ac93c7",
+          "scope": "Entire existing scatter worksheet. REST State filters do not execute a native set action.",
+          "parameters": {},
+          "filters": {
+            "State": "Texas"
+          },
+          "path": "outputs/cloud-author-scatter-texas.csv",
+          "sha256": "04a8afe1a75707b35454a462eb42293dcb0052358d61c090faee3b594c19b34e",
+          "bytes": 202
+        },
+        {
+          "role": "replica",
+          "view": "Scatter",
+          "view_id": "27bd33be-64c1-4587-9ddd-ca44c1227bd5",
+          "scope": "Entire existing scatter worksheet. REST State filters do not execute a native set action.",
+          "parameters": {},
+          "filters": {
+            "State": "Texas"
+          },
+          "path": "outputs/cloud-replica-scatter-texas.csv",
+          "sha256": "04a8afe1a75707b35454a462eb42293dcb0052358d61c090faee3b594c19b34e",
+          "bytes": 202
+        }
+      ]
+    }
+  ],
+  "status": "verified",
+  "independent_review": {
+    "visual_status": "acceptable_delta",
+    "visual_evidence": "evidence/visual-review.md",
+    "functional_evidence": "evidence/functional-verification.json",
+    "scope": "Declared REST worksheet exports and artifact contracts; no browser events executed."
+  }
+}

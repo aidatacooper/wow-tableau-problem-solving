@@ -1,0 +1,397 @@
+{
+  "case_id": "wow-2020-ww37-year-on-year-trend",
+  "captured_at": "2026-10-04T08:36:21.425424+00:00",
+  "source_hashes": {
+    "author": "b1e8c12f0241ddaf1d910a087aeec76413bb0c1b48f5c373ec40d62c587e92b8",
+    "replica": "35439de0c20e54eddf91efad1b67987cc3fd90143ca184ce1afbf71320fdadd4"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "a6ac09f8-64ac-4026-8802-abeed02e1d3b",
+      "name": "cwtwb-review-wow-2020-ww37-year-on-year-trend-author-b1e8c12f0241",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2934767",
+      "views": [
+        {
+          "name": "2020_09_09_WW37_YoY_Trend",
+          "id": "675b72bb-d74d-488f-b250-9711d75dca34"
+        },
+        {
+          "name": "CHK:Data by State",
+          "id": "c331686c-d0c7-4c17-be84-c3ccb7d1a1a7"
+        },
+        {
+          "name": "CHK:Data for State & Date",
+          "id": "84c7b2ce-b545-4095-b3ba-7de89d375d1e"
+        },
+        {
+          "name": "# Subs Legend",
+          "id": "1e26336a-8e91-4eb0-a3f1-fe0ca8c8fa5d"
+        },
+        {
+          "name": "Map",
+          "id": "ecc314fd-d8c7-4b67-bd75-c0bac309cb30"
+        },
+        {
+          "name": "Trend",
+          "id": "f36451d0-5c1b-413f-b3e4-6d5845f3d6af"
+        }
+      ]
+    },
+    "replica": {
+      "id": "33056306-0d1e-47cd-82ed-72a464449732",
+      "name": "cwtwb-review-wow-2020-ww37-year-on-year-trend-replica-35439de0c20e",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2934874",
+      "views": [
+        {
+          "name": "Trend",
+          "id": "584b9ae4-69d0-469c-a236-252aea25a292"
+        },
+        {
+          "name": "Map",
+          "id": "cd70a5d8-af8c-4b30-a9bb-484e9e5f9b33"
+        },
+        {
+          "name": "# Subs Legend",
+          "id": "1fa6c6ec-589c-46ec-90e2-94598d108061"
+        },
+        {
+          "name": "2020_09_09_WW37_YoY_Trend",
+          "id": "2a53cef7-9f3f-4fd7-a2a0-2e672d19068c"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "675b72bb-d74d-488f-b250-9711d75dca34",
+          "name": "2020_09_09_WW37_YoY_Trend",
+          "path": "outputs/cloud-author.png",
+          "sha256": "1de358010d6d9cfb9893b03d7a0274d134d702eacb703fcfdb61219af91c498f",
+          "size": [
+            2000,
+            1400
+          ]
+        },
+        "replica": {
+          "id": "2a53cef7-9f3f-4fd7-a2a0-2e672d19068c",
+          "name": "2020_09_09_WW37_YoY_Trend",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "5bab60679007c2ae6ec71ab60c58a449bee00d1c409fb22a515866e7bef8738e",
+          "size": [
+            2000,
+            1400
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Map",
+          "view_id": "ecc314fd-d8c7-4b67-bd75-c0bac309cb30",
+          "scope": "All displayed State-level CY, PY, YoY and percent-of-CY tooltip metrics across both native map panes. Native context remains Jan1-Jul14; date-list REST queries are additional postcontext subsets and do not execute dynamic daily/week switching.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-map.csv",
+          "sha256": "359d9e5dab7955a69a1ceaff224e7729f28b092fc48956085866cc0d4160a393",
+          "bytes": 5200
+        },
+        {
+          "role": "author",
+          "view": "Trend",
+          "view_id": "f36451d0-5c1b-413f-b3e4-6d5845f3d6af",
+          "scope": "Full State/year/normalized plotted-date subscription sums in daily or source-aligned weekly mode. REST export is direct; tooltip hover execution not claimed. Native context remains Jan1-Jul14; date-list REST queries are additional postcontext subsets and do not execute dynamic daily/week switching.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-trend.csv",
+          "sha256": "80c48735913a8057900ba5e5ac60f4876fa8682b3e5459f1388eec976d0c76e8",
+          "bytes": 83059
+        },
+        {
+          "role": "replica",
+          "view": "Map",
+          "view_id": "cd70a5d8-af8c-4b30-a9bb-484e9e5f9b33",
+          "scope": "All displayed State-level CY, PY, YoY and percent-of-CY tooltip metrics across both native map panes. Native context remains Jan1-Jul14; date-list REST queries are additional postcontext subsets and do not execute dynamic daily/week switching.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-map.csv",
+          "sha256": "683237062862972ed54999f8f542f78cadfbcf53e6cec9253f1daddfc70b69ec",
+          "bytes": 6468
+        },
+        {
+          "role": "replica",
+          "view": "Trend",
+          "view_id": "584b9ae4-69d0-469c-a236-252aea25a292",
+          "scope": "Full State/year/normalized plotted-date subscription sums in daily or source-aligned weekly mode. REST export is direct; tooltip hover execution not claimed. Native context remains Jan1-Jul14; date-list REST queries are additional postcontext subsets and do not execute dynamic daily/week switching.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-trend.csv",
+          "sha256": "5d3dc15f3cd3eca2add15e909df52bf170bb7ba841de3a74e512d28ba79006e4",
+          "bytes": 132335
+        }
+      ]
+    },
+    {
+      "name": "california",
+      "parameters": {},
+      "filters": {
+        "State": "California"
+      },
+      "views": {
+        "author": {
+          "id": "675b72bb-d74d-488f-b250-9711d75dca34",
+          "name": "2020_09_09_WW37_YoY_Trend",
+          "path": "outputs/cloud-author-california.png",
+          "sha256": "56cd1e0da35d104f8385b9a570d426dd1d5d8790c1369b9c7053bc46e1fc24b5",
+          "size": [
+            2000,
+            1400
+          ]
+        },
+        "replica": {
+          "id": "2a53cef7-9f3f-4fd7-a2a0-2e672d19068c",
+          "name": "2020_09_09_WW37_YoY_Trend",
+          "path": "outputs/cloud-replica-california.png",
+          "sha256": "75df7636dbd67b73367bffb6d19e27b754ea3c77e8ef840e6a97c139b0a20057",
+          "size": [
+            2000,
+            1400
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Map",
+          "view_id": "ecc314fd-d8c7-4b67-bd75-c0bac309cb30",
+          "scope": "All displayed State-level CY, PY, YoY and percent-of-CY tooltip metrics across both native map panes. Native context remains Jan1-Jul14; date-list REST queries are additional postcontext subsets and do not execute dynamic daily/week switching.",
+          "parameters": {},
+          "filters": {
+            "State": "California"
+          },
+          "path": "outputs/cloud-author-map-california.csv",
+          "sha256": "bc529ed5c7544aeb243d932eea9defdb23f98b85916bf6859694d50911914caf",
+          "bytes": 178
+        },
+        {
+          "role": "author",
+          "view": "Trend",
+          "view_id": "f36451d0-5c1b-413f-b3e4-6d5845f3d6af",
+          "scope": "Full State/year/normalized plotted-date subscription sums in daily or source-aligned weekly mode. REST export is direct; tooltip hover execution not claimed. Native context remains Jan1-Jul14; date-list REST queries are additional postcontext subsets and do not execute dynamic daily/week switching.",
+          "parameters": {},
+          "filters": {
+            "State": "California"
+          },
+          "path": "outputs/cloud-author-trend-california.csv",
+          "sha256": "311f5db45b012cea96efa9263dc65a26ab905cc88448fc7f77daf9b25018b590",
+          "bytes": 1913
+        },
+        {
+          "role": "replica",
+          "view": "Map",
+          "view_id": "cd70a5d8-af8c-4b30-a9bb-484e9e5f9b33",
+          "scope": "All displayed State-level CY, PY, YoY and percent-of-CY tooltip metrics across both native map panes. Native context remains Jan1-Jul14; date-list REST queries are additional postcontext subsets and do not execute dynamic daily/week switching.",
+          "parameters": {},
+          "filters": {
+            "State": "California"
+          },
+          "path": "outputs/cloud-replica-map-california.csv",
+          "sha256": "94b5b44bee8a8dc18c2bd17d9439bcb4afd46808c8d0876cbd29559e45d563ca",
+          "bytes": 252
+        },
+        {
+          "role": "replica",
+          "view": "Trend",
+          "view_id": "584b9ae4-69d0-469c-a236-252aea25a292",
+          "scope": "Full State/year/normalized plotted-date subscription sums in daily or source-aligned weekly mode. REST export is direct; tooltip hover execution not claimed. Native context remains Jan1-Jul14; date-list REST queries are additional postcontext subsets and do not execute dynamic daily/week switching.",
+          "parameters": {},
+          "filters": {
+            "State": "California"
+          },
+          "path": "outputs/cloud-replica-trend-california.csv",
+          "sha256": "9a1d8454ac523d5b10b5d93d81df941cd5a4d6791d7ceddda02ed623bf20773a",
+          "bytes": 2967
+        }
+      ]
+    },
+    {
+      "name": "june-dates",
+      "parameters": {},
+      "filters": {
+        "Baseline Date": "2020-06-01,2020-06-02,2020-06-03,2020-06-04,2020-06-05,2020-06-06,2020-06-07,2020-06-08,2020-06-09,2020-06-10,2020-06-11,2020-06-12,2020-06-13,2020-06-14,2020-06-15,2020-06-16,2020-06-17,2020-06-18,2020-06-19,2020-06-20,2020-06-21"
+      },
+      "views": {
+        "author": {
+          "id": "675b72bb-d74d-488f-b250-9711d75dca34",
+          "name": "2020_09_09_WW37_YoY_Trend",
+          "path": "outputs/cloud-author-june-dates.png",
+          "sha256": "e3a1bd6469ef3a75213212a4af7c4096c076dc1ea43748834d27820d1fbc67ca",
+          "size": [
+            2000,
+            1400
+          ]
+        },
+        "replica": {
+          "id": "2a53cef7-9f3f-4fd7-a2a0-2e672d19068c",
+          "name": "2020_09_09_WW37_YoY_Trend",
+          "path": "outputs/cloud-replica-june-dates.png",
+          "sha256": "d7d67e2e3daa5029d387221a28d33f7401247e925d8a7054e09fbb3135e4019b",
+          "size": [
+            2000,
+            1400
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Map",
+          "view_id": "ecc314fd-d8c7-4b67-bd75-c0bac309cb30",
+          "scope": "All displayed State-level CY, PY, YoY and percent-of-CY tooltip metrics across both native map panes. Native context remains Jan1-Jul14; date-list REST queries are additional postcontext subsets and do not execute dynamic daily/week switching.",
+          "parameters": {},
+          "filters": {
+            "Baseline Date": "2020-06-01,2020-06-02,2020-06-03,2020-06-04,2020-06-05,2020-06-06,2020-06-07,2020-06-08,2020-06-09,2020-06-10,2020-06-11,2020-06-12,2020-06-13,2020-06-14,2020-06-15,2020-06-16,2020-06-17,2020-06-18,2020-06-19,2020-06-20,2020-06-21"
+          },
+          "path": "outputs/cloud-author-map-june-dates.csv",
+          "sha256": "8bee35c0373b317860b0159faabd533624ff8297dc460b52603d42b88a72546b",
+          "bytes": 4624
+        },
+        {
+          "role": "author",
+          "view": "Trend",
+          "view_id": "f36451d0-5c1b-413f-b3e4-6d5845f3d6af",
+          "scope": "Full State/year/normalized plotted-date subscription sums in daily or source-aligned weekly mode. REST export is direct; tooltip hover execution not claimed. Native context remains Jan1-Jul14; date-list REST queries are additional postcontext subsets and do not execute dynamic daily/week switching.",
+          "parameters": {},
+          "filters": {
+            "Baseline Date": "2020-06-01,2020-06-02,2020-06-03,2020-06-04,2020-06-05,2020-06-06,2020-06-07,2020-06-08,2020-06-09,2020-06-10,2020-06-11,2020-06-12,2020-06-13,2020-06-14,2020-06-15,2020-06-16,2020-06-17,2020-06-18,2020-06-19,2020-06-20,2020-06-21"
+          },
+          "path": "outputs/cloud-author-trend-june-dates.csv",
+          "sha256": "041eb22ea4787f4f780a90e75f3dabe2187be51d22732593edbc400e41b9a50e",
+          "bytes": 12281
+        },
+        {
+          "role": "replica",
+          "view": "Map",
+          "view_id": "cd70a5d8-af8c-4b30-a9bb-484e9e5f9b33",
+          "scope": "All displayed State-level CY, PY, YoY and percent-of-CY tooltip metrics across both native map panes. Native context remains Jan1-Jul14; date-list REST queries are additional postcontext subsets and do not execute dynamic daily/week switching.",
+          "parameters": {},
+          "filters": {
+            "Baseline Date": "2020-06-01,2020-06-02,2020-06-03,2020-06-04,2020-06-05,2020-06-06,2020-06-07,2020-06-08,2020-06-09,2020-06-10,2020-06-11,2020-06-12,2020-06-13,2020-06-14,2020-06-15,2020-06-16,2020-06-17,2020-06-18,2020-06-19,2020-06-20,2020-06-21"
+          },
+          "path": "outputs/cloud-replica-map-june-dates.csv",
+          "sha256": "e29b04c7a3f8653dbd5c244a327b0b723a322315b624c4a17354554d6e60e410",
+          "bytes": 5898
+        },
+        {
+          "role": "replica",
+          "view": "Trend",
+          "view_id": "584b9ae4-69d0-469c-a236-252aea25a292",
+          "scope": "Full State/year/normalized plotted-date subscription sums in daily or source-aligned weekly mode. REST export is direct; tooltip hover execution not claimed. Native context remains Jan1-Jul14; date-list REST queries are additional postcontext subsets and do not execute dynamic daily/week switching.",
+          "parameters": {},
+          "filters": {
+            "Baseline Date": "2020-06-01,2020-06-02,2020-06-03,2020-06-04,2020-06-05,2020-06-06,2020-06-07,2020-06-08,2020-06-09,2020-06-10,2020-06-11,2020-06-12,2020-06-13,2020-06-14,2020-06-15,2020-06-16,2020-06-17,2020-06-18,2020-06-19,2020-06-20,2020-06-21"
+          },
+          "path": "outputs/cloud-replica-trend-june-dates.csv",
+          "sha256": "aea63ce9d9478c95088014ce2af179e020e253d48ba530b287385a23a3bdf354",
+          "bytes": 19605
+        }
+      ]
+    },
+    {
+      "name": "may-june-dates",
+      "parameters": {},
+      "filters": {
+        "Baseline Date": "2020-05-04,2020-05-05,2020-05-06,2020-05-07,2020-05-08,2020-05-09,2020-05-10,2020-05-11,2020-05-12,2020-05-13,2020-05-14,2020-05-15,2020-05-16,2020-05-17,2020-05-18,2020-05-19,2020-05-20,2020-05-21,2020-05-22,2020-05-23,2020-05-24,2020-05-25,2020-05-26,2020-05-27,2020-05-28,2020-05-29,2020-05-30,2020-05-31,2020-06-01,2020-06-02,2020-06-03,2020-06-04,2020-06-05,2020-06-06,2020-06-07,2020-06-08,2020-06-09,2020-06-10,2020-06-11,2020-06-12,2020-06-13,2020-06-14"
+      },
+      "views": {
+        "author": {
+          "id": "675b72bb-d74d-488f-b250-9711d75dca34",
+          "name": "2020_09_09_WW37_YoY_Trend",
+          "path": "outputs/cloud-author-may-june-dates.png",
+          "sha256": "b491a50f8d969c044c7e001889fef6e533b0795364446d29ef763aac49c94b1e",
+          "size": [
+            2000,
+            1400
+          ]
+        },
+        "replica": {
+          "id": "2a53cef7-9f3f-4fd7-a2a0-2e672d19068c",
+          "name": "2020_09_09_WW37_YoY_Trend",
+          "path": "outputs/cloud-replica-may-june-dates.png",
+          "sha256": "dd62e803ea5d0c9d08547430ebe7349e3ac2d489db1f5660af34b8de34a62aff",
+          "size": [
+            2000,
+            1400
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Map",
+          "view_id": "ecc314fd-d8c7-4b67-bd75-c0bac309cb30",
+          "scope": "All displayed State-level CY, PY, YoY and percent-of-CY tooltip metrics across both native map panes. Native context remains Jan1-Jul14; date-list REST queries are additional postcontext subsets and do not execute dynamic daily/week switching.",
+          "parameters": {},
+          "filters": {
+            "Baseline Date": "2020-05-04,2020-05-05,2020-05-06,2020-05-07,2020-05-08,2020-05-09,2020-05-10,2020-05-11,2020-05-12,2020-05-13,2020-05-14,2020-05-15,2020-05-16,2020-05-17,2020-05-18,2020-05-19,2020-05-20,2020-05-21,2020-05-22,2020-05-23,2020-05-24,2020-05-25,2020-05-26,2020-05-27,2020-05-28,2020-05-29,2020-05-30,2020-05-31,2020-06-01,2020-06-02,2020-06-03,2020-06-04,2020-06-05,2020-06-06,2020-06-07,2020-06-08,2020-06-09,2020-06-10,2020-06-11,2020-06-12,2020-06-13,2020-06-14"
+          },
+          "path": "outputs/cloud-author-map-may-june-dates.csv",
+          "sha256": "e6994bd85cd657f4915e0cef6a37a8fc1268265fbd68176e83b5bda660890e29",
+          "bytes": 4766
+        },
+        {
+          "role": "author",
+          "view": "Trend",
+          "view_id": "f36451d0-5c1b-413f-b3e4-6d5845f3d6af",
+          "scope": "Full State/year/normalized plotted-date subscription sums in daily or source-aligned weekly mode. REST export is direct; tooltip hover execution not claimed. Native context remains Jan1-Jul14; date-list REST queries are additional postcontext subsets and do not execute dynamic daily/week switching.",
+          "parameters": {},
+          "filters": {
+            "Baseline Date": "2020-05-04,2020-05-05,2020-05-06,2020-05-07,2020-05-08,2020-05-09,2020-05-10,2020-05-11,2020-05-12,2020-05-13,2020-05-14,2020-05-15,2020-05-16,2020-05-17,2020-05-18,2020-05-19,2020-05-20,2020-05-21,2020-05-22,2020-05-23,2020-05-24,2020-05-25,2020-05-26,2020-05-27,2020-05-28,2020-05-29,2020-05-30,2020-05-31,2020-06-01,2020-06-02,2020-06-03,2020-06-04,2020-06-05,2020-06-06,2020-06-07,2020-06-08,2020-06-09,2020-06-10,2020-06-11,2020-06-12,2020-06-13,2020-06-14"
+          },
+          "path": "outputs/cloud-author-trend-may-june-dates.csv",
+          "sha256": "45a2ea43f781130418f10440321445e9fdafd5a18f9e19af83b0edd4f2218a2e",
+          "bytes": 21491
+        },
+        {
+          "role": "replica",
+          "view": "Map",
+          "view_id": "cd70a5d8-af8c-4b30-a9bb-484e9e5f9b33",
+          "scope": "All displayed State-level CY, PY, YoY and percent-of-CY tooltip metrics across both native map panes. Native context remains Jan1-Jul14; date-list REST queries are additional postcontext subsets and do not execute dynamic daily/week switching.",
+          "parameters": {},
+          "filters": {
+            "Baseline Date": "2020-05-04,2020-05-05,2020-05-06,2020-05-07,2020-05-08,2020-05-09,2020-05-10,2020-05-11,2020-05-12,2020-05-13,2020-05-14,2020-05-15,2020-05-16,2020-05-17,2020-05-18,2020-05-19,2020-05-20,2020-05-21,2020-05-22,2020-05-23,2020-05-24,2020-05-25,2020-05-26,2020-05-27,2020-05-28,2020-05-29,2020-05-30,2020-05-31,2020-06-01,2020-06-02,2020-06-03,2020-06-04,2020-06-05,2020-06-06,2020-06-07,2020-06-08,2020-06-09,2020-06-10,2020-06-11,2020-06-12,2020-06-13,2020-06-14"
+          },
+          "path": "outputs/cloud-replica-map-may-june-dates.csv",
+          "sha256": "122fde64ea1e7f383fdc1e4f05ff4a458c7002a8ec52557e1ac6b541246110ce",
+          "bytes": 6042
+        },
+        {
+          "role": "replica",
+          "view": "Trend",
+          "view_id": "584b9ae4-69d0-469c-a236-252aea25a292",
+          "scope": "Full State/year/normalized plotted-date subscription sums in daily or source-aligned weekly mode. REST export is direct; tooltip hover execution not claimed. Native context remains Jan1-Jul14; date-list REST queries are additional postcontext subsets and do not execute dynamic daily/week switching.",
+          "parameters": {},
+          "filters": {
+            "Baseline Date": "2020-05-04,2020-05-05,2020-05-06,2020-05-07,2020-05-08,2020-05-09,2020-05-10,2020-05-11,2020-05-12,2020-05-13,2020-05-14,2020-05-15,2020-05-16,2020-05-17,2020-05-18,2020-05-19,2020-05-20,2020-05-21,2020-05-22,2020-05-23,2020-05-24,2020-05-25,2020-05-26,2020-05-27,2020-05-28,2020-05-29,2020-05-30,2020-05-31,2020-06-01,2020-06-02,2020-06-03,2020-06-04,2020-06-05,2020-06-06,2020-06-07,2020-06-08,2020-06-09,2020-06-10,2020-06-11,2020-06-12,2020-06-13,2020-06-14"
+          },
+          "path": "outputs/cloud-replica-trend-may-june-dates.csv",
+          "sha256": "2a73e7bb4200364e09eada6a8073d6b7c0941720c6cc6de35ef98f2526c4634b",
+          "bytes": 34287
+        }
+      ]
+    }
+  ],
+  "status": "verified",
+  "independent_review": {
+    "visual_status": "acceptable_delta",
+    "visual_evidence": "evidence/visual-review.md",
+    "functional_evidence": "evidence/functional-verification.json",
+    "scope": "Declared REST worksheet exports and artifact contracts; no browser events executed."
+  }
+}

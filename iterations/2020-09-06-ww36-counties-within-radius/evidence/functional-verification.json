@@ -1,0 +1,310 @@
+{
+  "status": "pass",
+  "artifact_sha256": "6e987088f510a666965e6619044bef3c134ab5ec8cba48e39056a833d76cf381",
+  "counties": 3142,
+  "raw_totals": {
+    "cases": 6645958,
+    "beds": 893691,
+    "icu": 98704,
+    "vents": 64360
+  },
+  "map_counts": {
+    "Map - Main": 3108,
+    "Map - AL": 29,
+    "Map - HI": 5
+  },
+  "native_percentile_contexts": {
+    "Map - Main": {
+      "base_ordering": "Columns",
+      "instance_ordering": "Field",
+      "addressing": [
+        "County",
+        "County, State",
+        "State"
+      ],
+      "binding": "[federated.0ahyg8e1xelf3914bag3r0yukuro].[usr:Calculation_DDFAEBFBFC8148E790E5C67C91AF744F:qk:3]"
+    },
+    "Map - AL": {
+      "base_ordering": "Columns",
+      "instance_ordering": "Field",
+      "addressing": [
+        "County",
+        "County, State",
+        "State"
+      ],
+      "binding": "[federated.0ahyg8e1xelf3914bag3r0yukuro].[usr:Calculation_DDFAEBFBFC8148E790E5C67C91AF744F:qk:4]"
+    },
+    "Map - HI": {
+      "base_ordering": "Columns",
+      "instance_ordering": "Field",
+      "addressing": [
+        "County",
+        "County, State",
+        "State"
+      ],
+      "binding": "[federated.0ahyg8e1xelf3914bag3r0yukuro].[usr:Calculation_DDFAEBFBFC8148E790E5C67C91AF744F:qk:5]"
+    }
+  },
+  "radius_scenarios": [
+    {
+      "anchor": "Autauga County, Alabama",
+      "radius_miles": 0,
+      "county_count": 1,
+      "cases": 1281,
+      "hospital_beds": 55,
+      "method": "Independent spherical great-circle computation; not a REST-executed set selection. Source native DISTANCE contract separately checked."
+    },
+    {
+      "anchor": "Autauga County, Alabama",
+      "radius_miles": 50,
+      "county_count": 9,
+      "cases": 14757,
+      "hospital_beds": 1303,
+      "method": "Independent spherical great-circle computation; not a REST-executed set selection. Source native DISTANCE contract separately checked."
+    },
+    {
+      "anchor": "Autauga County, Alabama",
+      "radius_miles": 100,
+      "county_count": 42,
+      "cases": 66538,
+      "hospital_beds": 9095,
+      "method": "Independent spherical great-circle computation; not a REST-executed set selection. Source native DISTANCE contract separately checked."
+    },
+    {
+      "anchor": "Autauga County, Alabama",
+      "radius_miles": 250,
+      "county_count": 328,
+      "cases": 481400,
+      "hospital_beds": 55478,
+      "method": "Independent spherical great-circle computation; not a REST-executed set selection. Source native DISTANCE contract separately checked."
+    },
+    {
+      "anchor": "Autauga County, Alabama",
+      "radius_miles": 500,
+      "county_count": 1036,
+      "cases": 1472567,
+      "hospital_beds": 206656,
+      "method": "Independent spherical great-circle computation; not a REST-executed set selection. Source native DISTANCE contract separately checked."
+    }
+  ],
+  "browser_interaction_executed": false,
+  "scope": "Default All set and mile parameter REST states. Single-county membership is an artifact/formula and independent-distance scope; no REST set-member manipulation has been validated.",
+  "cloud_checks": [
+    {
+      "path": "outputs/cloud-author-cases.csv",
+      "rows": 3142,
+      "view": "Cases Bar",
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-data.csv",
+      "rows": 6284,
+      "view": "Data",
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-main.csv",
+      "rows": 3157,
+      "view": "Map - Main",
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-alaska.csv",
+      "rows": 30,
+      "view": "Map - AL",
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-hawaii.csv",
+      "rows": 6,
+      "view": "Map - HI",
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-resources.csv",
+      "rows": 3,
+      "view": "Utilisation Bar",
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-cases.csv",
+      "rows": 3142,
+      "view": "Cases Bar",
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-data.csv",
+      "rows": 6284,
+      "view": "Data",
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-main.csv",
+      "rows": 3157,
+      "view": "Map - Main",
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-alaska.csv",
+      "rows": 30,
+      "view": "Map - AL",
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-hawaii.csv",
+      "rows": 6,
+      "view": "Map - HI",
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-resources.csv",
+      "rows": 3,
+      "view": "Utilisation Bar",
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-cases-miles-50.csv",
+      "rows": 3142,
+      "view": "Cases Bar",
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-data-miles-50.csv",
+      "rows": 6284,
+      "view": "Data",
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-main-miles-50.csv",
+      "rows": 3157,
+      "view": "Map - Main",
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-alaska-miles-50.csv",
+      "rows": 30,
+      "view": "Map - AL",
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-hawaii-miles-50.csv",
+      "rows": 6,
+      "view": "Map - HI",
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-resources-miles-50.csv",
+      "rows": 3,
+      "view": "Utilisation Bar",
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-cases-miles-50.csv",
+      "rows": 3142,
+      "view": "Cases Bar",
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-data-miles-50.csv",
+      "rows": 6284,
+      "view": "Data",
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-main-miles-50.csv",
+      "rows": 3157,
+      "view": "Map - Main",
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-alaska-miles-50.csv",
+      "rows": 30,
+      "view": "Map - AL",
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-hawaii-miles-50.csv",
+      "rows": 6,
+      "view": "Map - HI",
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-resources-miles-50.csv",
+      "rows": 3,
+      "view": "Utilisation Bar",
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-cases-miles-250.csv",
+      "rows": 3142,
+      "view": "Cases Bar",
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-data-miles-250.csv",
+      "rows": 6284,
+      "view": "Data",
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-main-miles-250.csv",
+      "rows": 3157,
+      "view": "Map - Main",
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-alaska-miles-250.csv",
+      "rows": 30,
+      "view": "Map - AL",
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-hawaii-miles-250.csv",
+      "rows": 6,
+      "view": "Map - HI",
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-resources-miles-250.csv",
+      "rows": 3,
+      "view": "Utilisation Bar",
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-cases-miles-250.csv",
+      "rows": 3142,
+      "view": "Cases Bar",
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-data-miles-250.csv",
+      "rows": 6284,
+      "view": "Data",
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-main-miles-250.csv",
+      "rows": 3157,
+      "view": "Map - Main",
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-alaska-miles-250.csv",
+      "rows": 30,
+      "view": "Map - AL",
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-hawaii-miles-250.csv",
+      "rows": 6,
+      "view": "Map - HI",
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-resources-miles-250.csv",
+      "rows": 3,
+      "view": "Utilisation Bar",
+      "status": "pass"
+    }
+  ]
+}

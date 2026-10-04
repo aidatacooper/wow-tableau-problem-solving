@@ -1,0 +1,15 @@
+# Cloud comparison: 2020 WW31
+
+Verdict: **acceptable_delta** for frozen replica TWBX SHA-256 `2ef6550a25fc078ec2265e5fdb90f32f4e9ecbfab7676368cdb37214036f95d9`. All six original/replica full-size PNGs were inspected for the full timeline and Year 2008/2016. All thirty worksheet CSV files and their manifest hashes were independently checked with their actual scopes.
+
+The main bump chart now retains ten unique reversed ranks per Olympic year, the original country paths and gaps, grey ordinary-country dots and colored host stars. The host stars' positions correspond to the original across the timeline, including China's first rank in 2008 and Brazil's absence from the top ten in 2016. Year labels, heading and full footer credit are readable. The host strip has visible red X marks for 1964/1972/2004/2016 and small positive circles for other years, matching the meaning of the source. Year 2016 displays the negative X and Year 2008 the positive circle. A quantitative alias of the same flag and public reversed size range reproduces the original ordinal-size direction without changing the flag calculation.
+
+The complete raw oracle covers 1,242 country/year medal facts, weighted scores (3 Gold + 2 Silver + Bronze), valid tie-rank intervals, 33,203 athlete/medal facts and 28 host years. Bump exports contain 280/10/10 visible top-ten ranks per role. Default country/year domains also contain Tableau-padded zero-fact keys; those rows must have zero measures and no top-ten rank. They are not additional original facts.
+
+The Medals exports independently verify all gold/silver/bronze measures for every original country/year key in scope. Athlete exports verify the complete medal groups for the independently derived weighted-score top-ten athletes and their exact medal counts. Host exports verify weighted score, total medals and the top-ten flag. Replica Top 10 Countries values are checked against country scores and host/top-ten inclusion. The original Top 10 Countries exports are empty outside the triggering Viz-in-Tooltip, so those three empty CSVs are not offered as data proof.
+
+Two-field Year/Country tooltip filtering and context-before-athlete-top-ten behavior are verified from the native embedded-sheet/group/filter contracts. REST Year filters are ordinary filters; no hover, tooltip activation or browser event was executed. Five independently exported sheets demonstrate their own observed scope only.
+
+Remaining visual differences are smaller ordinary grey dots and positive host circles, slightly different plot padding, thin plot/strip boundaries and simpler footer/link typography. The source enlarges a positive circle when a single year is filtered; the replica retains its fixed small-circle size. All positive/negative host indicators remain distinguishable. No pixel-match claim is made.
+
+Evidence: [Cloud manifest](cloud-verification.json), [independent verification](functional-verification.json), [source export provenance](export-provenance.json), and the paired `outputs/cloud-{author,replica}[-year-2008|-year-2016].png` files.

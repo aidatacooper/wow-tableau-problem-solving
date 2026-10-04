@@ -1,0 +1,69 @@
+{
+  "passed": true,
+  "artifact_sha256": "8a8f2b00cc73b4f4ce51cb422d96f6e5cd9df746b0422743f094972b682f466a",
+  "independent_state_days": 7803,
+  "cloud_status": "passed",
+  "cloud_checks": [
+    {
+      "role": "author",
+      "state": "default",
+      "export_rows": 52785,
+      "complete_mapped_state_days": 7803,
+      "export_scope": "Unfiltered original Data: all 51 mapped states/DC",
+      "source_data_state_filter_applied": false,
+      "unmapped_rows_outside_cartogram_scope": 13770,
+      "passed": true
+    },
+    {
+      "role": "replica",
+      "state": "default",
+      "export_rows": 15606,
+      "complete_mapped_state_days": 7803,
+      "export_scope": "Map filtered by requested REST state",
+      "source_data_state_filter_applied": null,
+      "unmapped_rows_outside_cartogram_scope": 0,
+      "passed": true
+    },
+    {
+      "role": "author",
+      "state": "california",
+      "export_rows": 52785,
+      "complete_mapped_state_days": 7803,
+      "export_scope": "Unfiltered original Data: all 51 mapped states/DC",
+      "source_data_state_filter_applied": false,
+      "unmapped_rows_outside_cartogram_scope": 13770,
+      "passed": true
+    },
+    {
+      "role": "replica",
+      "state": "california",
+      "export_rows": 306,
+      "complete_mapped_state_days": 153,
+      "export_scope": "Map filtered by requested REST state",
+      "source_data_state_filter_applied": null,
+      "unmapped_rows_outside_cartogram_scope": 0,
+      "passed": true
+    },
+    {
+      "role": "author",
+      "state": "texas",
+      "export_rows": 52785,
+      "complete_mapped_state_days": 7803,
+      "export_scope": "Unfiltered original Data: all 51 mapped states/DC",
+      "source_data_state_filter_applied": false,
+      "unmapped_rows_outside_cartogram_scope": 13770,
+      "passed": true
+    },
+    {
+      "role": "replica",
+      "state": "texas",
+      "export_rows": 306,
+      "complete_mapped_state_days": 153,
+      "export_scope": "Map filtered by requested REST state",
+      "source_data_state_filter_applied": null,
+      "unmapped_rows_outside_cartogram_scope": 0,
+      "passed": true
+    }
+  ],
+  "browser_interaction_executed": false
+}

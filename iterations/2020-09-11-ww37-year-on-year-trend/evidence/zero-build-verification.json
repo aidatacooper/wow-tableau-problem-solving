@@ -1,0 +1,9 @@
+{
+  "case_id": "2020-09-11-ww37-year-on-year-trend",
+  "sdk_commit": "eb1380d5da9c1b1bf1b306128cb8397150ba1a53",
+  "builder_sha256": "791eb889ca0830836d3beb192a275f1bf40777ac578b9282777ec9593e9e2d79",
+  "builder_hash_scope": "UTF-8 source text with universal newlines normalized to LF",
+  "result": "passed",
+  "initial_workbooks_available": 0,
+  "scope": "Copied only builder/verifier, metadata and locked inputs. Built from TWBEditor empty, then ran independent raw-data/artifact oracle without copied Cloud evidence or author workbooks."
+}

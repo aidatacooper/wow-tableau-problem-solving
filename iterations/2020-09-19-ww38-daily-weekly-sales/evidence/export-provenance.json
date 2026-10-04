@@ -1,0 +1,9 @@
+{
+  "original_sha256": "e58e8c7eb44af7ca3dcaa8157cb50c967c1ba5260d961149b91c0e923fdef008",
+  "comparison_sha256": "e0b40fc514118f9452a43557ff883d56e59ab12011f9cdfd3d855a349b10ff64",
+  "transformation": "Only expose hidden worksheet windows; formulas, layout, filters and packaged data remain unchanged.",
+  "exposed_worksheets": [
+    "Viz"
+  ],
+  "browser_interaction_executed": false
+}

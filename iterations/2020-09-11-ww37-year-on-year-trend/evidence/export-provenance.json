@@ -1,0 +1,11 @@
+{
+  "original_sha256": "1c5ff68c93dd0a43cf231649fff12c6f35d1ae9b5b4e898f57df8adc62a96e6b",
+  "comparison_sha256": "b1e8c12f0241ddaf1d910a087aeec76413bb0c1b48f5c373ec40d62c587e92b8",
+  "transformation": "Only expose hidden worksheet windows; formulas, layout, filters and packaged data remain unchanged.",
+  "exposed_worksheets": [
+    "# Subs Legend",
+    "Map",
+    "Trend"
+  ],
+  "browser_interaction_executed": false
+}

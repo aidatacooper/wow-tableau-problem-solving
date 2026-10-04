@@ -1,0 +1,5415 @@
+COLOUR Country,Country Name,Is Host?,Year,# Medals,Score,Top 10 Rank Only,Hosted | Participated,Bronze,Gold,Silver
+,Afghanistan,False,2008,1,1,,participated,1,,
+,Afghanistan,False,2012,1,1,,participated,1,,
+,Algeria,False,1984,2,2,,participated,2,,
+,Algeria,False,1992,2,4,,participated,1,1,
+,Algeria,False,1996,3,7,,participated,1,2,
+,Algeria,False,2000,5,8,,participated,3,1,1
+,Algeria,False,2008,2,3,,participated,1,,1
+,Algeria,False,2012,1,3,,participated,,1,
+,Algeria,False,2016,2,4,,participated,,,2
+,Argentina,False,1924,6,11,,participated,2,1,3
+,Argentina,False,1928,7,16,,participated,1,3,3
+,Argentina,False,1932,4,11,,participated,,3,1
+,Argentina,False,1936,7,13,,participated,3,2,2
+,Argentina,False,1948,7,16,,participated,1,3,3
+,Argentina,False,1952,5,9,,participated,2,1,2
+,Argentina,False,1956,2,3,,participated,1,,1
+,Argentina,False,1960,2,3,,participated,1,,1
+,Argentina,False,1964,1,2,,participated,,,1
+,Argentina,False,1968,2,2,,participated,2,,
+,Argentina,False,1972,1,2,,participated,,,1
+,Argentina,False,1988,2,3,,participated,1,,1
+,Argentina,False,1992,1,1,,participated,1,,
+,Argentina,False,1996,3,5,,participated,1,,2
+,Argentina,False,2000,4,6,,participated,2,,2
+,Argentina,False,2004,6,10,,participated,4,2,
+,Argentina,False,2008,6,10,,participated,4,2,
+,Argentina,False,2012,4,7,,participated,2,1,1
+,Argentina,False,2016,4,11,,participated,,3,1
+,Armenia,False,1996,2,5,,participated,,1,1
+,Armenia,False,2000,1,1,,participated,1,,
+,Armenia,False,2008,6,6,,participated,6,,
+,Armenia,False,2012,2,3,,participated,1,,1
+,Armenia,False,2016,4,9,,participated,,1,3
+,Australasia,False,1908,5,9,,participated,2,1,2
+,Australasia,False,1912,7,13,,participated,3,2,2
+,Australia,False,1896,2,6,10,participated,,2,
+,Australia,False,1900,5,9,10,participated,3,2,
+,Australia,False,1920,3,5,,participated,1,,2
+,Australia,False,1924,6,13,,participated,2,3,1
+,Australia,False,1928,4,8,,participated,1,1,2
+,Australia,False,1932,5,12,,participated,1,3,1
+,Australia,False,1936,1,1,,participated,1,,
+,Australia,False,1948,13,23,,participated,5,2,6
+,Australia,False,1952,11,25,10,participated,3,6,2
+,Australia,False,1960,22,46,5,participated,6,8,8
+,Australia,False,1964,18,32,9,participated,10,6,2
+,Australia,False,1968,17,34,7,participated,5,5,7
+,Australia,False,1972,17,40,8,participated,2,8,7
+,Australia,False,1976,5,6,,participated,4,,1
+,Australia,False,1980,9,15,,participated,5,2,2
+,Australia,False,1984,24,40,10,participated,12,4,8
+,Australia,False,1988,14,26,,participated,5,3,6
+,Australia,False,1992,27,50,9,participated,11,7,9
+,Australia,False,1996,41,68,7,participated,23,9,9
+,Australia,False,2004,49,99,4,participated,16,17,16
+,Australia,False,2008,46,89,5,participated,17,14,15
+,Australia,False,2012,35,66,7,participated,12,8,15
+,Australia,False,2016,29,56,8,participated,10,8,11
+Australia,Australia,True,1956,35,69,3,hosted,14,13,8
+Australia,Australia,True,2000,58,115,4,hosted,17,16,25
+,Austria,False,1896,5,10,7,participated,2,2,1
+,Austria,False,1900,6,9,,participated,3,,3
+,Austria,False,1904,1,1,10,participated,1,,
+,Austria,False,1908,1,1,,participated,1,,
+,Austria,False,1912,4,6,,participated,2,,2
+,Austria,False,1924,4,7,,participated,1,,3
+,Austria,False,1928,3,7,,participated,1,2,
+,Austria,False,1932,5,8,,participated,3,1,1
+,Austria,False,1936,13,27,,participated,3,4,6
+,Austria,False,1948,4,6,,participated,3,1,
+,Austria,False,1952,2,3,,participated,1,,1
+,Austria,False,1956,2,2,,participated,2,,
+,Austria,False,1960,2,5,,participated,,1,1
+,Austria,False,1968,4,6,,participated,2,,2
+,Austria,False,1972,3,4,,participated,2,,1
+,Austria,False,1976,1,1,,participated,1,,
+,Austria,False,1980,4,8,,participated,1,1,2
+,Austria,False,1984,3,6,,participated,1,1,1
+,Austria,False,1988,1,3,,participated,,1,
+,Austria,False,1992,2,4,,participated,,,2
+,Austria,False,1996,3,4,,participated,2,,1
+,Austria,False,2000,3,8,,participated,,2,1
+,Austria,False,2004,7,15,,participated,1,2,4
+,Austria,False,2008,3,4,,participated,2,,1
+,Austria,False,2016,1,1,,participated,1,,
+,Azerbaijan,False,1996,1,2,,participated,,,1
+,Azerbaijan,False,2000,3,7,,participated,1,2,
+,Azerbaijan,False,2004,5,7,,participated,4,1,
+,Azerbaijan,False,2008,7,11,,participated,4,1,2
+,Azerbaijan,False,2012,10,16,,participated,6,2,2
+,Azerbaijan,False,2016,18,27,,participated,10,1,7
+,Bahamas,False,1956,1,1,,participated,1,,
+,Bahamas,False,1964,1,3,,participated,,1,
+,Bahamas,False,1992,1,1,,participated,1,,
+,Bahamas,False,1996,1,2,,participated,,,1
+,Bahamas,False,2000,2,6,,participated,,2,
+,Bahamas,False,2004,2,4,,participated,1,1,
+,Bahamas,False,2008,2,3,,participated,1,,1
+,Bahamas,False,2012,1,3,,participated,,1,
+,Bahamas,False,2016,2,4,,participated,1,1,
+,Bahrain,False,2012,1,3,,participated,,1,
+,Bahrain,False,2016,2,5,,participated,,1,1
+,Barbados,False,2000,1,1,,participated,1,,
+,Belarus,False,1996,15,23,,participated,8,1,6
+,Belarus,False,2000,17,26,,participated,11,3,3
+,Belarus,False,2004,15,25,,participated,7,2,6
+,Belarus,False,2008,19,32,,participated,10,4,5
+,Belarus,False,2012,10,19,,participated,3,2,5
+,Belarus,False,2016,9,15,,participated,4,1,4
+,Belgium,False,1900,15,30,4,participated,5,5,5
+,Belgium,False,1908,8,15,8,participated,2,1,5
+,Belgium,False,1912,6,11,,participated,3,2,1
+,Belgium,False,1924,13,26,8,participated,3,3,7
+,Belgium,False,1928,3,4,,participated,2,,1
+,Belgium,False,1936,2,2,,participated,2,,
+,Belgium,False,1948,7,13,,participated,3,2,2
+,Belgium,False,1952,4,10,,participated,,2,2
+,Belgium,False,1956,2,4,,participated,,,2
+,Belgium,False,1960,4,6,,participated,2,,2
+,Belgium,False,1964,3,7,,participated,1,2,
+,Belgium,False,1968,2,3,,participated,1,,1
+,Belgium,False,1972,2,4,,participated,,,2
+,Belgium,False,1976,6,9,,participated,3,,3
+,Belgium,False,1980,1,3,,participated,,1,
+,Belgium,False,1984,4,7,,participated,2,1,1
+,Belgium,False,1988,2,2,,participated,2,,
+,Belgium,False,1992,3,4,,participated,2,,1
+,Belgium,False,1996,6,12,,participated,2,2,2
+,Belgium,False,2000,5,7,,participated,3,,2
+,Belgium,False,2004,3,5,,participated,2,1,
+,Belgium,False,2008,2,5,,participated,,1,1
+,Belgium,False,2012,3,4,,participated,2,,1
+,Belgium,False,2016,6,12,,participated,2,2,2
+Belgium,Belgium,True,1920,36,75,5,hosted,11,14,11
+,Bermuda,False,1976,1,1,,participated,1,,
+,Bohemia,False,1900,2,3,,participated,1,,1
+,Bohemia,False,1908,2,2,,participated,2,,
+,Botswana,False,2012,1,2,,participated,,,1
+,Brazil,False,1920,3,6,,participated,1,1,1
+,Brazil,False,1948,1,1,,participated,1,,
+,Brazil,False,1952,3,5,,participated,2,1,
+,Brazil,False,1956,1,3,,participated,,1,
+,Brazil,False,1960,2,2,,participated,2,,
+,Brazil,False,1964,1,1,,participated,1,,
+,Brazil,False,1968,3,4,,participated,2,,1
+,Brazil,False,1972,2,2,,participated,2,,
+,Brazil,False,1976,2,2,,participated,2,,
+,Brazil,False,1980,4,8,,participated,2,2,
+,Brazil,False,1984,8,15,,participated,2,1,5
+,Brazil,False,1988,6,10,,participated,3,1,2
+,Brazil,False,1992,3,8,,participated,,2,1
+,Brazil,False,1996,15,24,,participated,9,3,3
+,Brazil,False,2000,12,18,,participated,6,,6
+,Brazil,False,2004,10,22,,participated,3,5,2
+,Brazil,False,2008,15,25,,participated,8,3,4
+,Brazil,False,2012,17,28,,participated,9,3,5
+Brazil,Brazil,True,2016,19,39,,hosted,6,7,6
+,British West Indies,False,1960,2,2,,participated,2,,
+,Bulgaria,False,1952,1,1,,participated,1,,
+,Bulgaria,False,1956,5,10,,participated,1,1,3
+,Bulgaria,False,1960,7,12,,participated,3,1,3
+,Bulgaria,False,1964,10,21,,participated,2,3,5
+,Bulgaria,False,1968,9,17,,participated,3,2,4
+,Bulgaria,False,1972,21,43,7,participated,5,6,10
+,Bulgaria,False,1976,22,43,8,participated,7,6,9
+,Bulgaria,False,1980,41,73,3,participated,17,8,16
+,Bulgaria,False,1988,35,67,5,participated,13,10,12
+,Bulgaria,False,1992,16,29,,participated,6,3,7
+,Bulgaria,False,1996,15,28,,participated,5,3,7
+,Bulgaria,False,2000,13,29,,participated,2,5,6
+,Bulgaria,False,2004,12,17,,participated,9,2,1
+,Bulgaria,False,2008,5,8,,participated,3,1,1
+,Bulgaria,False,2012,3,5,,participated,1,,2
+,Bulgaria,False,2016,3,4,,participated,2,,1
+,Burundi,False,1996,1,3,,participated,,1,
+,Burundi,False,2016,1,2,,participated,,,1
+,Cameroon,False,1968,1,2,,participated,,,1
+,Cameroon,False,1984,1,1,,participated,1,,
+,Cameroon,False,2000,1,3,,participated,,1,
+,Cameroon,False,2004,1,3,,participated,,1,
+,Cameroon,False,2008,1,3,,participated,,1,
+,Cameroon,False,2012,1,1,,participated,1,,
+,Canada,False,1900,2,4,,participated,1,1,
+,Canada,False,1904,5,14,4,participated,,4,1
+,Canada,False,1908,15,24,6,participated,9,3,3
+,Canada,False,1912,8,16,9,participated,3,3,2
+,Canada,False,1920,9,18,,participated,3,3,3
+,Canada,False,1924,4,7,,participated,1,,3
+,Canada,False,1928,15,27,10,participated,7,4,4
+,Canada,False,1932,15,24,10,participated,8,2,5
+,Canada,False,1936,9,14,,participated,5,1,3
+,Canada,False,1948,3,4,,participated,2,,1
+,Canada,False,1952,3,7,,participated,,1,2
+,Canada,False,1956,6,11,,participated,3,2,1
+,Canada,False,1960,1,2,,participated,,,1
+,Canada,False,1964,4,8,,participated,1,1,2
+,Canada,False,1968,5,10,,participated,1,1,3
+,Canada,False,1972,5,7,,participated,3,,2
+,Canada,False,1984,44,82,4,participated,16,10,18
+,Canada,False,1988,10,18,,participated,5,3,2
+,Canada,False,1992,18,36,,participated,7,7,4
+,Canada,False,1996,22,39,,participated,8,3,11
+,Canada,False,2000,14,23,,participated,8,3,3
+,Canada,False,2004,12,24,,participated,3,3,6
+,Canada,False,2008,18,33,,participated,6,3,9
+,Canada,False,2012,18,27,,participated,11,2,5
+,Canada,False,2016,22,33,,participated,15,4,3
+Canada,Canada,True,1976,11,16,,hosted,6,,5
+,Chile,False,1928,1,2,,participated,,,1
+,Chile,False,1952,2,4,,participated,,,2
+,Chile,False,1956,4,6,,participated,2,,2
+,Chile,False,1988,1,2,,participated,,,1
+,Chile,False,2000,1,1,,participated,1,,
+,Chile,False,2004,3,7,,participated,1,2,
+,Chile,False,2008,1,2,,participated,,,1
+,China,False,1984,32,70,5,participated,9,15,8
+,China,False,1988,28,49,8,participated,12,5,11
+,China,False,1992,53,107,4,participated,15,16,22
+,China,False,1996,50,104,4,participated,12,16,22
+,China,False,2000,58,130,3,participated,14,28,16
+,China,False,2004,63,144,3,participated,14,32,17
+,China,False,2012,91,196,2,participated,22,36,33
+,China,False,2016,70,140,3,participated,26,26,18
+China,China,True,2008,100,223,1,hosted,28,51,21
+,Chinese Taipei,False,1960,1,2,,participated,,,1
+,Chinese Taipei,False,1968,1,1,,participated,1,,
+,Chinese Taipei,False,1984,1,1,,participated,1,,
+,Chinese Taipei,False,1992,1,2,,participated,,,1
+,Chinese Taipei,False,1996,1,2,,participated,,,1
+,Chinese Taipei,False,2000,5,6,,participated,4,,1
+,Chinese Taipei,False,2004,5,11,,participated,1,2,2
+,Chinese Taipei,False,2008,4,4,,participated,4,,
+,Chinese Taipei,False,2012,2,4,,participated,1,1,
+,Chinese Taipei,False,2016,3,5,,participated,2,1,
+,Colombia,False,1972,3,4,,participated,2,,1
+,Colombia,False,1984,1,2,,participated,,,1
+,Colombia,False,1988,1,1,,participated,1,,
+,Colombia,False,1992,1,1,,participated,1,,
+,Colombia,False,2000,1,3,,participated,,1,
+,Colombia,False,2004,2,2,,participated,2,,
+,Colombia,False,2008,2,3,,participated,1,,1
+,Colombia,False,2012,8,13,,participated,4,1,3
+,Colombia,False,2016,8,16,,participated,3,3,2
+,Costa Rica,False,1988,1,2,,participated,,,1
+,Costa Rica,False,1996,1,3,,participated,,1,
+,Costa Rica,False,2000,2,2,,participated,2,,
+,Côte d'Ivoire,False,1984,1,2,,participated,,,1
+,Croatia,False,1992,3,4,,participated,2,,1
+,Croatia,False,1996,2,5,,participated,,1,1
+,Croatia,False,2000,2,4,,participated,1,1,
+,Croatia,False,2004,5,9,,participated,2,1,2
+,Croatia,False,2008,5,7,,participated,3,,2
+,Croatia,False,2012,6,13,,participated,2,3,1
+,Croatia,False,2016,10,23,,participated,2,5,3
+,Cuba,False,1900,2,5,,participated,,1,1
+,Cuba,False,1904,9,19,3,participated,3,4,2
+,Cuba,False,1948,1,2,,participated,,,1
+,Cuba,False,1964,1,2,,participated,,,1
+,Cuba,False,1968,4,8,,participated,,,4
+,Cuba,False,1972,8,15,,participated,4,3,1
+,Cuba,False,1976,13,29,10,participated,3,6,4
+,Cuba,False,1980,20,43,6,participated,5,8,7
+,Cuba,False,1992,31,65,5,participated,11,14,6
+,Cuba,False,1996,25,51,9,participated,8,9,8
+,Cuba,False,2000,29,62,8,participated,7,11,11
+,Cuba,False,2004,27,52,,participated,11,9,7
+,Cuba,False,2008,24,39,,participated,11,2,11
+,Cuba,False,2012,15,28,,participated,7,5,3
+,Cuba,False,2016,11,23,,participated,4,5,2
+,Cyprus,False,2012,1,2,,participated,,,1
+,Czech Republic,False,1996,11,22,,participated,4,4,3
+,Czech Republic,False,2000,8,15,,participated,3,2,3
+,Czech Republic,False,2004,8,13,,participated,4,1,3
+,Czech Republic,False,2008,6,15,,participated,,3,3
+,Czech Republic,False,2012,11,22,,participated,4,4,3
+,Czech Republic,False,2016,10,14,,participated,7,1,2
+,Czechoslovakia,False,1920,2,2,,participated,2,,
+,Czechoslovakia,False,1924,10,16,,participated,5,1,4
+,Czechoslovakia,False,1928,9,18,,participated,2,2,5
+,Czechoslovakia,False,1932,4,8,,participated,1,1,2
+,Czechoslovakia,False,1936,8,19,,participated,,3,5
+,Czechoslovakia,False,1948,11,25,,participated,3,6,2
+,Czechoslovakia,False,1952,13,30,9,participated,3,7,3
+,Czechoslovakia,False,1956,6,12,,participated,1,1,4
+,Czechoslovakia,False,1960,8,16,,participated,3,3,2
+,Czechoslovakia,False,1964,14,30,10,participated,3,5,6
+,Czechoslovakia,False,1968,13,29,10,participated,4,7,2
+,Czechoslovakia,False,1972,8,16,,participated,2,2,4
+,Czechoslovakia,False,1976,8,14,,participated,4,2,2
+,Czechoslovakia,False,1980,14,21,,participated,9,2,3
+,Czechoslovakia,False,1988,8,17,,participated,2,3,3
+,Czechoslovakia,False,1992,7,17,,participated,1,4,2
+,Denmark,False,1896,6,10,8,participated,3,1,2
+,Denmark,False,1900,6,11,8,participated,2,1,3
+,Denmark,False,1908,5,7,,participated,3,,2
+,Denmark,False,1912,12,20,7,participated,5,1,6
+,Denmark,False,1920,13,28,9,participated,1,3,9
+,Denmark,False,1924,9,18,,participated,2,2,5
+,Denmark,False,1928,7,14,,participated,3,3,1
+,Denmark,False,1932,6,9,,participated,3,,3
+,Denmark,False,1936,5,7,,participated,3,,2
+,Denmark,False,1948,20,37,8,participated,8,5,7
+,Denmark,False,1952,6,11,,participated,3,2,1
+,Denmark,False,1956,4,8,,participated,1,1,2
+,Denmark,False,1960,6,13,,participated,1,2,3
+,Denmark,False,1964,6,11,,participated,3,2,1
+,Denmark,False,1968,8,14,,participated,3,1,4
+,Denmark,False,1972,1,3,,participated,,1,
+,Denmark,False,1976,3,5,,participated,2,1,
+,Denmark,False,1980,5,10,,participated,2,2,1
+,Denmark,False,1984,6,9,,participated,3,,3
+,Denmark,False,1988,4,9,,participated,1,2,1
+,Denmark,False,1992,6,9,,participated,4,1,1
+,Denmark,False,1996,6,15,,participated,1,4,1
+,Denmark,False,2000,6,13,,participated,1,2,3
+,Denmark,False,2004,8,12,,participated,6,2,
+,Denmark,False,2008,7,13,,participated,3,2,2
+,Denmark,False,2012,9,17,,participated,3,2,4
+,Denmark,False,2016,15,25,,participated,7,2,6
+,Djibouti,False,1988,1,1,,participated,1,,
+,Dominican Republic,False,1984,1,1,,participated,1,,
+,Dominican Republic,False,2004,1,3,,participated,,1,
+,Dominican Republic,False,2008,2,5,,participated,,1,1
+,Dominican Republic,False,2012,2,5,,participated,,1,1
+,Dominican Republic,False,2016,1,1,,participated,1,,
+,East Germany,False,1968,25,52,5,participated,7,9,9
+,East Germany,False,1972,66,129,3,participated,23,20,23
+,East Germany,False,1976,90,195,3,participated,25,40,25
+,East Germany,False,1980,126,257,2,participated,42,47,37
+,East Germany,False,1988,102,211,2,participated,30,37,35
+,Ecuador,False,1996,1,3,,participated,,1,
+,Ecuador,False,2008,1,2,,participated,,,1
+,Egypt,False,1928,4,9,,participated,1,2,1
+,Egypt,False,1936,5,10,,participated,2,2,1
+,Egypt,False,1948,5,11,,participated,1,2,2
+,Egypt,False,1952,1,1,,participated,1,,
+,Egypt,False,1960,2,3,,participated,1,,1
+,Egypt,False,1984,1,2,,participated,,,1
+,Egypt,False,2004,5,8,,participated,3,1,1
+,Egypt,False,2008,1,1,,participated,1,,
+,Egypt,False,2012,4,7,,participated,1,,3
+,Egypt,False,2016,3,3,,participated,3,,
+,Eritrea,False,2004,1,1,,participated,1,,
+,Estonia,False,1920,3,7,,participated,,1,2
+,Estonia,False,1924,6,9,,participated,4,1,1
+,Estonia,False,1928,5,10,,participated,2,2,1
+,Estonia,False,1936,7,13,,participated,3,2,2
+,Estonia,False,1992,2,4,,participated,1,1,
+,Estonia,False,2000,3,5,,participated,2,1,
+,Estonia,False,2004,3,4,,participated,2,,1
+,Estonia,False,2008,2,5,,participated,,1,1
+,Estonia,False,2012,2,3,,participated,1,,1
+,Estonia,False,2016,1,1,,participated,1,,
+,Ethiopia,False,1960,1,3,,participated,,1,
+,Ethiopia,False,1964,1,3,,participated,,1,
+,Ethiopia,False,1968,2,5,,participated,,1,1
+,Ethiopia,False,1972,2,2,,participated,2,,
+,Ethiopia,False,1980,4,8,,participated,2,2,
+,Ethiopia,False,1992,3,5,,participated,2,1,
+,Ethiopia,False,1996,3,7,,participated,1,2,
+,Ethiopia,False,2000,8,17,,participated,3,4,1
+,Ethiopia,False,2004,7,14,,participated,2,2,3
+,Ethiopia,False,2008,7,16,,participated,2,4,1
+,Ethiopia,False,2012,8,16,,participated,3,3,2
+,Ethiopia,False,2016,8,12,,participated,5,1,2
+,Fiji,False,2016,1,3,,participated,,1,
+,Finland,False,1908,5,8,,participated,3,1,1
+,Finland,False,1912,26,52,4,participated,9,9,8
+,Finland,False,1920,34,74,6,participated,9,15,10
+,Finland,False,1924,37,78,2,participated,10,14,13
+,Finland,False,1928,25,49,3,participated,9,8,8
+,Finland,False,1932,25,43,5,participated,12,5,8
+,Finland,False,1936,19,39,4,participated,6,7,6
+,Finland,False,1948,18,37,9,participated,5,6,7
+,Finland,False,1956,15,22,,participated,11,3,1
+,Finland,False,1960,5,8,,participated,3,1,1
+,Finland,False,1964,5,11,,participated,2,3,
+,Finland,False,1968,4,8,,participated,1,1,2
+,Finland,False,1972,8,15,,participated,4,3,1
+,Finland,False,1976,6,16,,participated,,4,2
+,Finland,False,1980,8,15,,participated,4,3,1
+,Finland,False,1984,12,22,,participated,6,4,2
+,Finland,False,1988,4,7,,participated,2,1,1
+,Finland,False,1992,5,9,,participated,2,1,2
+,Finland,False,1996,4,8,,participated,1,1,2
+,Finland,False,2000,4,9,,participated,1,2,1
+,Finland,False,2004,2,4,,participated,,,2
+,Finland,False,2008,4,7,,participated,2,1,1
+,Finland,False,2012,3,5,,participated,1,,2
+,Finland,False,2016,1,1,,participated,1,,
+Finland,Finland,True,1952,22,37,6,hosted,13,6,3
+,France,False,1896,11,25,4,participated,2,5,4
+,France,False,1908,19,34,4,participated,9,5,5
+,France,False,1912,14,32,6,participated,3,7,4
+,France,False,1920,41,78,4,participated,13,9,19
+,France,False,1928,21,44,5,participated,5,7,9
+,France,False,1932,19,44,4,participated,4,10,5
+,France,False,1936,19,39,5,participated,6,7,6
+,France,False,1948,29,55,3,participated,13,10,6
+,France,False,1952,18,36,7,participated,6,6,6
+,France,False,1956,14,26,10,participated,6,4,4
+,France,False,1960,5,7,,participated,3,,2
+,France,False,1964,15,25,,participated,6,1,8
+,France,False,1968,15,32,8,participated,5,7,3
+,France,False,1972,13,21,,participated,7,2,4
+,France,False,1976,9,16,,participated,4,2,3
+,France,False,1980,14,31,10,participated,3,6,5
+,France,False,1984,28,45,9,participated,16,5,7
+,France,False,1988,16,32,,participated,6,6,4
+,France,False,1992,29,50,10,participated,16,8,5
+,France,False,1996,37,74,5,participated,15,15,7
+,France,False,2000,38,78,6,participated,11,13,14
+,France,False,2004,33,64,7,participated,13,11,9
+,France,False,2008,41,71,7,participated,18,7,16
+,France,False,2012,35,68,6,participated,13,11,11
+,France,False,2016,42,80,6,participated,14,10,18
+France,France,True,1900,87,171,1,hosted,27,24,36
+France,France,True,1924,37,77,3,hosted,10,13,14
+,Gabon,False,2012,1,2,,participated,,,1
+,Georgia,False,1996,2,2,,participated,2,,
+,Georgia,False,2000,6,6,,participated,6,,
+,Georgia,False,2004,4,10,,participated,,2,2
+,Georgia,False,2008,6,12,,participated,3,3,
+,Georgia,False,2012,7,12,,participated,3,1,3
+,Georgia,False,2016,7,12,,participated,4,2,1
+,Germany,False,1896,13,30,3,participated,2,6,5
+,Germany,False,1900,6,14,7,participated,1,3,2
+,Germany,False,1904,13,25,2,participated,5,4,4
+,Germany,False,1908,14,25,5,participated,6,3,5
+,Germany,False,1912,25,48,5,participated,7,5,13
+,Germany,False,1928,31,58,2,participated,14,10,7
+,Germany,False,1932,20,38,7,participated,5,3,12
+,Germany,False,1952,24,31,8,participated,17,,7
+,Germany,False,1992,82,169,3,participated,28,33,21
+,Germany,False,1996,65,123,3,participated,27,20,18
+,Germany,False,2000,56,99,5,participated,26,13,17
+,Germany,False,2004,49,91,5,participated,20,13,16
+,Germany,False,2008,41,83,6,participated,15,16,10
+,Germany,False,2012,44,86,5,participated,13,11,20
+,Germany,False,2016,42,86,5,participated,15,17,10
+Germany,Germany,True,1936,89,181,1,hosted,30,33,26
+,Ghana,False,1960,1,2,,participated,,,1
+,Ghana,False,1964,1,1,,participated,1,,
+,Ghana,False,1972,1,1,,participated,1,,
+,Ghana,False,1992,1,1,,participated,1,,
+,Great Britain,False,1896,7,14,5,participated,2,2,3
+,Great Britain,False,1900,29,65,3,participated,8,15,6
+,Great Britain,False,1904,2,5,6,participated,,1,1
+,Great Britain,False,1912,41,76,3,participated,16,10,15
+,Great Britain,False,1920,43,88,3,participated,13,15,15
+,Great Britain,False,1924,34,65,4,participated,12,9,13
+,Great Britain,False,1928,20,36,7,participated,7,3,10
+,Great Britain,False,1932,16,31,8,participated,5,4,7
+,Great Britain,False,1936,14,29,10,participated,3,4,7
+,Great Britain,False,1952,11,15,,participated,8,1,2
+,Great Britain,False,1956,24,43,7,participated,11,6,7
+,Great Britain,False,1960,20,30,9,participated,12,2,6
+,Great Britain,False,1964,18,38,8,participated,2,4,12
+,Great Britain,False,1968,13,28,,participated,3,5,5
+,Great Britain,False,1972,18,31,10,participated,9,4,5
+,Great Britain,False,1976,13,24,,participated,5,3,5
+,Great Britain,False,1980,21,38,8,participated,9,5,7
+,Great Britain,False,1984,37,58,7,participated,21,5,11
+,Great Britain,False,1988,24,44,10,participated,9,5,10
+,Great Britain,False,1992,20,33,,participated,12,5,3
+,Great Britain,False,1996,15,25,,participated,6,1,8
+,Great Britain,False,2000,28,60,9,participated,7,11,10
+,Great Britain,False,2004,30,57,10,participated,12,9,9
+,Great Britain,False,2008,47,98,4,participated,15,19,13
+,Great Britain,False,2016,66,142,2,participated,17,27,22
+Great Britain,Great Britain,True,1908,141,303,1,hosted,35,56,50
+Great Britain,Great Britain,True,1948,23,43,6,hosted,6,3,14
+Great Britain,Great Britain,True,2012,65,140,3,hosted,19,29,17
+,Greece,False,1904,2,4,8,participated,1,1,
+,Greece,False,1908,3,6,,participated,,,3
+,Greece,False,1912,2,4,,participated,1,1,
+,Greece,False,1920,1,2,,participated,,,1
+,Greece,False,1956,1,1,,participated,1,,
+,Greece,False,1960,1,3,,participated,,1,
+,Greece,False,1968,1,1,,participated,1,,
+,Greece,False,1972,2,4,,participated,,,2
+,Greece,False,1980,3,5,,participated,2,1,
+,Greece,False,1984,2,3,,participated,1,,1
+,Greece,False,1988,1,1,,participated,1,,
+,Greece,False,1992,2,6,,participated,,2,
+,Greece,False,1996,8,20,,participated,,4,4
+,Greece,False,2000,13,27,,participated,3,4,6
+,Greece,False,2008,4,6,,participated,2,,2
+,Greece,False,2012,2,2,,participated,2,,
+,Greece,False,2016,6,13,,participated,2,3,1
+Greece,Greece,True,1896,45,82,1,hosted,18,10,17
+Greece,Greece,True,2004,16,34,,hosted,4,6,6
+,Grenada,False,2012,1,3,,participated,,1,
+,Grenada,False,2016,1,2,,participated,,,1
+,Guatemala,False,2012,1,2,,participated,,,1
+,Guyana,False,1980,1,1,,participated,1,,
+,Haiti,False,1924,1,1,,participated,1,,
+,Haiti,False,1928,1,2,,participated,,,1
+,Hong Kong,False,1996,1,3,,participated,,1,
+,Hong Kong,False,2004,1,2,,participated,,,1
+,Hong Kong,False,2012,1,1,,participated,1,,
+,Hungary,False,1896,6,11,6,participated,3,2,1
+,Hungary,False,1900,5,9,,participated,2,1,2
+,Hungary,False,1904,4,9,5,participated,1,2,1
+,Hungary,False,1908,9,19,7,participated,2,3,4
+,Hungary,False,1912,8,16,10,participated,3,3,2
+,Hungary,False,1924,9,16,,participated,4,2,3
+,Hungary,False,1928,9,22,,participated,,4,5
+,Hungary,False,1932,15,31,9,participated,5,6,4
+,Hungary,False,1936,16,37,6,participated,5,10,1
+,Hungary,False,1948,26,51,5,participated,11,10,5
+,Hungary,False,1952,42,84,3,participated,16,16,10
+,Hungary,False,1956,26,54,4,participated,7,9,10
+,Hungary,False,1960,21,41,6,participated,7,6,8
+,Hungary,False,1964,22,49,6,participated,5,10,7
+,Hungary,False,1968,32,62,3,participated,12,10,10
+,Hungary,False,1972,35,60,6,participated,16,6,13
+,Hungary,False,1976,22,35,9,participated,13,4,5
+,Hungary,False,1980,32,56,4,participated,15,7,10
+,Hungary,False,1988,23,51,7,participated,6,11,6
+,Hungary,False,1992,30,64,6,participated,7,11,12
+,Hungary,False,1996,21,39,,participated,10,7,4
+,Hungary,False,2000,17,39,,participated,3,8,6
+,Hungary,False,2004,17,39,,participated,3,8,6
+,Hungary,False,2008,10,21,,participated,2,3,5
+,Hungary,False,2012,18,38,,participated,6,8,4
+,Hungary,False,2016,15,34,,participated,4,8,3
+,Iceland,False,1956,1,2,,participated,,,1
+,Iceland,False,1984,1,1,,participated,1,,
+,Iceland,False,2000,1,1,,participated,1,,
+,Iceland,False,2008,1,2,,participated,,,1
+,Independent Olympic Athletes,False,2016,2,4,,participated,1,1,
+,Independent Olympic Participants,False,1992,3,4,,participated,2,,1
+,India,False,1900,2,4,,participated,,,2
+,India,False,1928,1,3,,participated,,1,
+,India,False,1932,1,3,,participated,,1,
+,India,False,1936,1,3,,participated,,1,
+,India,False,1948,1,3,,participated,,1,
+,India,False,1952,2,4,,participated,1,1,
+,India,False,1956,1,3,,participated,,1,
+,India,False,1960,1,2,,participated,,,1
+,India,False,1964,1,3,,participated,,1,
+,India,False,1968,1,1,,participated,1,,
+,India,False,1972,1,1,,participated,1,,
+,India,False,1980,1,3,,participated,,1,
+,India,False,1996,1,1,,participated,1,,
+,India,False,2000,1,1,,participated,1,,
+,India,False,2004,1,2,,participated,,,1
+,India,False,2008,3,5,,participated,2,1,
+,India,False,2012,6,8,,participated,4,,2
+,India,False,2016,2,3,,participated,1,,1
+,Indonesia,False,1988,1,2,,participated,,,1
+,Indonesia,False,1992,5,11,,participated,1,2,2
+,Indonesia,False,1996,4,7,,participated,2,1,1
+,Indonesia,False,2000,6,11,,participated,2,1,3
+,Indonesia,False,2004,4,7,,participated,2,1,1
+,Indonesia,False,2008,5,8,,participated,3,1,1
+,Indonesia,False,2012,3,5,,participated,1,,2
+,Indonesia,False,2016,3,7,,participated,,1,2
+,Iran,False,1948,1,1,,participated,1,,
+,Iran,False,1952,7,10,,participated,4,,3
+,Iran,False,1956,5,11,,participated,1,2,2
+,Iran,False,1960,4,5,,participated,3,,1
+,Iran,False,1964,2,2,,participated,2,,
+,Iran,False,1968,5,10,,participated,2,2,1
+,Iran,False,1972,3,5,,participated,1,,2
+,Iran,False,1976,2,3,,participated,1,,1
+,Iran,False,1988,1,2,,participated,,,1
+,Iran,False,1992,3,4,,participated,2,,1
+,Iran,False,1996,3,6,,participated,1,1,1
+,Iran,False,2000,4,10,,participated,1,3,
+,Iran,False,2004,6,12,,participated,2,2,2
+,Iran,False,2008,2,4,,participated,1,1,
+,Iran,False,2012,13,30,,participated,2,6,5
+,Iran,False,2016,8,15,,participated,4,3,1
+,Iraq,False,1960,1,1,,participated,1,,
+,Ireland,False,1928,1,3,,participated,,1,
+,Ireland,False,1932,2,6,,participated,,2,
+,Ireland,False,1952,1,2,,participated,,,1
+,Ireland,False,1956,5,8,,participated,3,1,1
+,Ireland,False,1964,1,1,,participated,1,,
+,Ireland,False,1980,2,3,,participated,1,,1
+,Ireland,False,1984,1,2,,participated,,,1
+,Ireland,False,1992,2,5,,participated,,1,1
+,Ireland,False,1996,4,10,,participated,1,3,
+,Ireland,False,2000,1,2,,participated,,,1
+,Ireland,False,2008,3,4,,participated,2,,1
+,Ireland,False,2012,6,9,,participated,4,1,1
+,Ireland,False,2016,2,4,,participated,,,2
+,Israel,False,1992,2,3,,participated,1,,1
+,Israel,False,1996,1,1,,participated,1,,
+,Israel,False,2000,1,1,,participated,1,,
+,Israel,False,2004,2,4,,participated,1,1,
+,Israel,False,2008,1,1,,participated,1,,
+,Israel,False,2016,2,2,,participated,2,,
+,Italy,False,1900,4,10,9,participated,,2,2
+,Italy,False,1908,4,10,10,participated,,2,2
+,Italy,False,1912,6,13,,participated,2,3,1
+,Italy,False,1920,22,53,8,participated,4,13,5
+,Italy,False,1924,16,35,7,participated,5,8,3
+,Italy,False,1928,18,35,8,participated,7,6,5
+,Italy,False,1932,36,72,2,participated,12,12,12
+,Italy,False,1936,22,47,3,participated,5,8,9
+,Italy,False,1948,27,54,4,participated,8,8,11
+,Italy,False,1952,21,46,5,participated,4,8,9
+,Italy,False,1956,25,49,6,participated,9,8,8
+,Italy,False,1964,27,57,5,participated,7,10,10
+,Italy,False,1968,16,26,,participated,9,3,4
+,Italy,False,1972,18,31,,participated,10,5,3
+,Italy,False,1976,13,24,,participated,4,2,7
+,Italy,False,1980,15,34,9,participated,4,8,3
+,Italy,False,1984,32,66,6,participated,12,14,6
+,Italy,False,1988,14,30,,participated,4,6,4
+,Italy,False,1992,19,36,,participated,8,6,5
+,Italy,False,1996,35,71,6,participated,12,13,10
+,Italy,False,2000,34,68,7,participated,13,13,8
+,Italy,False,2004,32,63,8,participated,11,10,11
+,Italy,False,2008,27,52,9,participated,10,8,9
+,Italy,False,2012,28,53,10,participated,11,8,9
+,Italy,False,2016,28,56,9,participated,8,8,12
+Italy,Italy,True,1960,36,72,4,hosted,13,13,10
+,Jamaica,False,1948,3,7,,participated,,1,2
+,Jamaica,False,1952,5,12,,participated,,2,3
+,Jamaica,False,1968,1,2,,participated,,,1
+,Jamaica,False,1972,1,1,,participated,1,,
+,Jamaica,False,1976,2,5,,participated,,1,1
+,Jamaica,False,1980,3,3,,participated,3,,
+,Jamaica,False,1984,3,4,,participated,2,,1
+,Jamaica,False,1988,2,4,,participated,,,2
+,Jamaica,False,1992,4,7,,participated,1,,3
+,Jamaica,False,1996,6,11,,participated,2,1,3
+,Jamaica,False,2000,9,14,,participated,4,,5
+,Jamaica,False,2004,5,10,,participated,2,2,1
+,Jamaica,False,2008,10,24,,participated,2,6,2
+,Jamaica,False,2012,12,25,,participated,3,4,5
+,Jamaica,False,2016,11,26,,participated,2,6,3
+,Japan,False,1920,2,4,,participated,,,2
+,Japan,False,1924,1,1,,participated,1,,
+,Japan,False,1928,5,11,,participated,1,2,2
+,Japan,False,1932,18,39,6,participated,4,7,7
+,Japan,False,1936,18,34,8,participated,8,6,4
+,Japan,False,1952,8,16,,participated,1,1,6
+,Japan,False,1956,17,35,9,participated,3,4,10
+,Japan,False,1960,18,33,8,participated,7,4,7
+,Japan,False,1968,25,54,4,participated,7,11,7
+,Japan,False,1972,29,63,5,participated,8,13,8
+,Japan,False,1976,25,49,5,participated,10,9,6
+,Japan,False,1984,31,58,8,participated,14,10,7
+,Japan,False,1988,14,25,,participated,7,4,3
+,Japan,False,1992,22,36,,participated,11,3,8
+,Japan,False,1996,14,26,,participated,5,3,6
+,Japan,False,2000,18,36,,participated,5,5,8
+,Japan,False,2004,37,78,6,participated,12,16,9
+,Japan,False,2008,25,49,10,participated,10,9,6
+,Japan,False,2012,38,66,8,participated,17,7,14
+,Japan,False,2016,41,73,7,participated,21,12,8
+Japan,Japan,True,1964,29,66,4,hosted,8,16,5
+,Jordan,False,2016,1,3,,participated,,1,
+,Kazakhstan,False,1996,11,21,,participated,4,3,4
+,Kazakhstan,False,2000,7,17,,participated,,3,4
+,Kazakhstan,False,2004,8,14,,participated,3,1,4
+,Kazakhstan,False,2008,13,21,,participated,7,2,4
+,Kazakhstan,False,2012,10,17,,participated,6,3,1
+,Kazakhstan,False,2016,18,29,,participated,10,3,5
+,Kenya,False,1964,1,1,,participated,1,,
+,Kenya,False,1968,9,19,,participated,2,3,4
+,Kenya,False,1972,9,16,,participated,4,2,3
+,Kenya,False,1984,3,5,,participated,2,1,
+,Kenya,False,1988,9,21,,participated,2,5,2
+,Kenya,False,1992,8,16,,participated,2,2,4
+,Kenya,False,1996,8,14,,participated,3,1,4
+,Kenya,False,2000,7,14,,participated,2,2,3
+,Kenya,False,2004,7,13,,participated,2,1,4
+,Kenya,False,2008,14,30,,participated,4,6,4
+,Kenya,False,2012,12,20,,participated,6,2,4
+,Kenya,False,2016,13,31,,participated,1,6,6
+,Kosovo,False,2016,1,3,,participated,,1,
+,Kuwait,False,2000,1,1,,participated,1,,
+,Kuwait,False,2012,1,1,,participated,1,,
+,Kyrgyzstan,False,2000,1,1,,participated,1,,
+,Kyrgyzstan,False,2008,2,3,,participated,1,,1
+,Latvia,False,1932,1,2,,participated,,,1
+,Latvia,False,1936,2,3,,participated,1,,1
+,Latvia,False,1992,3,5,,participated,1,,2
+,Latvia,False,1996,1,2,,participated,,,1
+,Latvia,False,2000,3,6,,participated,1,1,1
+,Latvia,False,2004,4,8,,participated,,,4
+,Latvia,False,2008,3,6,,participated,1,1,1
+,Latvia,False,2012,2,4,,participated,1,1,
+,Lebanon,False,1952,2,3,,participated,1,,1
+,Lebanon,False,1972,1,2,,participated,,,1
+,Lebanon,False,1980,1,1,,participated,1,,
+,Lithuania,False,1992,2,4,,participated,1,1,
+,Lithuania,False,1996,1,1,,participated,1,,
+,Lithuania,False,2000,5,9,,participated,3,2,
+,Lithuania,False,2004,3,7,,participated,,1,2
+,Lithuania,False,2008,5,7,,participated,3,,2
+,Lithuania,False,2012,5,10,,participated,2,2,1
+,Lithuania,False,2016,4,5,,participated,3,,1
+,Luxembourg,False,1920,1,2,,participated,,,1
+,Luxembourg,False,1952,1,3,,participated,,1,
+,Macedonia,False,2000,1,1,,participated,1,,
+,Malaysia,False,1992,1,1,,participated,1,,
+,Malaysia,False,1996,2,3,,participated,1,,1
+,Malaysia,False,2008,1,2,,participated,,,1
+,Malaysia,False,2012,2,3,,participated,1,,1
+,Malaysia,False,2016,5,9,,participated,1,,4
+,Mauritius,False,2008,1,1,,participated,1,,
+,Mexico,False,1932,2,4,,participated,,,2
+,Mexico,False,1936,3,3,,participated,3,,
+,Mexico,False,1948,5,10,,participated,2,2,1
+,Mexico,False,1952,1,2,,participated,,,1
+,Mexico,False,1956,2,4,,participated,1,1,
+,Mexico,False,1960,1,1,,participated,1,,
+,Mexico,False,1964,1,1,,participated,1,,
+,Mexico,False,1972,1,2,,participated,,,1
+,Mexico,False,1976,2,4,,participated,1,1,
+,Mexico,False,1980,4,5,,participated,3,,1
+,Mexico,False,1984,6,13,,participated,1,2,3
+,Mexico,False,1988,2,2,,participated,2,,
+,Mexico,False,1992,1,2,,participated,,,1
+,Mexico,False,1996,1,1,,participated,1,,
+,Mexico,False,2000,6,10,,participated,3,1,2
+,Mexico,False,2004,4,7,,participated,1,,3
+,Mexico,False,2008,3,7,,participated,1,2,
+,Mexico,False,2012,8,13,,participated,4,1,3
+,Mexico,False,2016,5,8,,participated,2,,3
+Mexico,Mexico,True,1968,9,18,,hosted,3,3,3
+,Mixed team,False,1896,3,6,,participated,1,1,1
+,Mixed team,False,1900,9,20,5,participated,2,4,3
+,Mixed team,False,1904,2,5,7,participated,,1,1
+,Moldova,False,1996,2,3,,participated,1,,1
+,Moldova,False,2000,2,3,,participated,1,,1
+,Moldova,False,2008,1,1,,participated,1,,
+,Mongolia,False,1968,4,5,,participated,3,,1
+,Mongolia,False,1972,1,2,,participated,,,1
+,Mongolia,False,1976,1,2,,participated,,,1
+,Mongolia,False,1980,4,6,,participated,2,,2
+,Mongolia,False,1988,1,1,,participated,1,,
+,Mongolia,False,1992,2,2,,participated,2,,
+,Mongolia,False,1996,1,1,,participated,1,,
+,Mongolia,False,2004,1,1,,participated,1,,
+,Mongolia,False,2008,4,10,,participated,,2,2
+,Mongolia,False,2012,5,7,,participated,3,,2
+,Mongolia,False,2016,2,3,,participated,1,,1
+,Montenegro,False,2012,1,2,,participated,,,1
+,Morocco,False,1960,1,2,,participated,,,1
+,Morocco,False,1984,2,6,,participated,,2,
+,Morocco,False,1988,3,5,,participated,2,1,
+,Morocco,False,1992,3,6,,participated,1,1,1
+,Morocco,False,1996,2,2,,participated,2,,
+,Morocco,False,2000,5,6,,participated,4,,1
+,Morocco,False,2004,3,8,,participated,,2,1
+,Morocco,False,2008,2,3,,participated,1,,1
+,Morocco,False,2012,1,1,,participated,1,,
+,Morocco,False,2016,1,1,,participated,1,,
+,Mozambique,False,1996,1,1,,participated,1,,
+,Mozambique,False,2000,1,3,,participated,,1,
+,Namibia,False,1992,2,4,,participated,,,2
+,Namibia,False,1996,2,4,,participated,,,2
+,Netherlands,False,1900,4,5,,participated,3,,1
+,Netherlands,False,1908,1,1,,participated,1,,
+,Netherlands,False,1912,3,3,,participated,3,,
+,Netherlands,False,1920,11,21,10,participated,5,4,2
+,Netherlands,False,1924,10,19,10,participated,5,4,1
+,Netherlands,False,1932,7,16,,participated,,2,5
+,Netherlands,False,1936,17,33,9,participated,7,6,4
+,Netherlands,False,1948,16,28,10,participated,9,5,2
+,Netherlands,False,1952,5,10,,participated,,,5
+,Netherlands,False,1960,3,4,,participated,2,,1
+,Netherlands,False,1964,10,18,,participated,4,2,4
+,Netherlands,False,1968,7,16,,participated,1,3,3
+,Netherlands,False,1972,5,12,,participated,1,3,1
+,Netherlands,False,1976,5,7,,participated,3,,2
+,Netherlands,False,1980,3,4,,participated,2,,1
+,Netherlands,False,1984,13,25,,participated,6,5,2
+,Netherlands,False,1988,9,15,,participated,5,2,2
+,Netherlands,False,1992,15,25,,participated,7,2,6
+,Netherlands,False,1996,19,32,,participated,10,4,5
+,Netherlands,False,2000,25,58,10,participated,4,12,9
+,Netherlands,False,2004,22,39,,participated,9,4,9
+,Netherlands,False,2008,16,35,,participated,4,7,5
+,Netherlands,False,2012,20,38,,participated,8,6,6
+,Netherlands,False,2016,19,42,10,participated,4,8,7
+Netherlands,Netherlands,True,1928,20,42,6,hosted,4,6,10
+,Netherlands Antilles,False,1988,1,2,,participated,,,1
+,New Zealand,False,1920,1,1,,participated,1,,
+,New Zealand,False,1924,1,1,,participated,1,,
+,New Zealand,False,1928,1,3,,participated,,1,
+,New Zealand,False,1932,1,2,,participated,,,1
+,New Zealand,False,1936,1,3,,participated,,1,
+,New Zealand,False,1952,3,5,,participated,2,1,
+,New Zealand,False,1956,2,6,,participated,,2,
+,New Zealand,False,1960,3,7,,participated,1,2,
+,New Zealand,False,1964,5,11,,participated,2,3,
+,New Zealand,False,1968,3,5,,participated,2,1,
+,New Zealand,False,1972,3,6,,participated,1,1,1
+,New Zealand,False,1976,4,9,,participated,1,2,1
+,New Zealand,False,1984,11,28,,participated,2,8,1
+,New Zealand,False,1988,13,21,,participated,8,3,2
+,New Zealand,False,1992,10,16,,participated,5,1,4
+,New Zealand,False,1996,6,14,,participated,1,3,2
+,New Zealand,False,2000,4,6,,participated,3,1,
+,New Zealand,False,2004,5,13,,participated,,3,2
+,New Zealand,False,2008,9,17,,participated,4,3,2
+,New Zealand,False,2012,13,27,,participated,5,6,2
+,New Zealand,False,2016,18,35,,participated,5,4,9
+,Niger,False,1972,1,1,,participated,1,,
+,Niger,False,2016,1,2,,participated,,,1
+,Nigeria,False,1964,1,1,,participated,1,,
+,Nigeria,False,1972,1,1,,participated,1,,
+,Nigeria,False,1984,2,3,,participated,1,,1
+,Nigeria,False,1992,4,7,,participated,1,,3
+,Nigeria,False,1996,6,11,,participated,3,2,1
+,Nigeria,False,2000,3,6,,participated,,,3
+,Nigeria,False,2004,2,2,,participated,2,,
+,Nigeria,False,2008,4,5,,participated,3,,1
+,Nigeria,False,2016,1,1,,participated,1,,
+,North Korea,False,1972,5,8,,participated,3,1,1
+,North Korea,False,1976,2,5,,participated,,1,1
+,North Korea,False,1980,5,8,,participated,2,,3
+,North Korea,False,1992,9,17,,participated,5,4,
+,North Korea,False,1996,5,10,,participated,2,2,1
+,North Korea,False,2000,4,5,,participated,3,,1
+,North Korea,False,2004,5,9,,participated,1,,4
+,North Korea,False,2008,6,11,,participated,3,2,1
+,North Korea,False,2012,6,14,,participated,2,4,
+,North Korea,False,2016,7,14,,participated,2,2,3
+,Norway,False,1900,5,7,,participated,3,,2
+,Norway,False,1908,8,15,9,participated,3,2,3
+,Norway,False,1912,9,18,8,participated,4,4,1
+,Norway,False,1920,32,68,7,participated,9,13,10
+,Norway,False,1924,10,22,9,participated,3,5,2
+,Norway,False,1928,4,8,,participated,1,1,2
+,Norway,False,1936,6,11,,participated,2,1,3
+,Norway,False,1948,7,12,,participated,3,1,3
+,Norway,False,1952,5,13,,participated,,3,2
+,Norway,False,1956,3,5,,participated,2,1,
+,Norway,False,1960,1,3,,participated,,1,
+,Norway,False,1968,2,5,,participated,,1,1
+,Norway,False,1972,4,9,,participated,1,2,1
+,Norway,False,1976,2,5,,participated,,1,1
+,Norway,False,1984,3,4,,participated,2,,1
+,Norway,False,1988,5,12,,participated,,2,3
+,Norway,False,1992,7,15,,participated,1,2,4
+,Norway,False,1996,7,13,,participated,3,2,2
+,Norway,False,2000,10,21,,participated,3,4,3
+,Norway,False,2004,6,16,,participated,1,5,
+,Norway,False,2008,9,20,,participated,1,3,5
+,Norway,False,2012,4,9,,participated,1,2,1
+,Norway,False,2016,4,4,,participated,4,,
+,Pakistan,False,1956,1,2,,participated,,,1
+,Pakistan,False,1960,2,4,,participated,1,1,
+,Pakistan,False,1964,1,2,,participated,,,1
+,Pakistan,False,1968,1,3,,participated,,1,
+,Pakistan,False,1972,1,2,,participated,,,1
+,Pakistan,False,1976,1,1,,participated,1,,
+,Pakistan,False,1984,1,3,,participated,,1,
+,Pakistan,False,1988,1,1,,participated,1,,
+,Pakistan,False,1992,1,1,,participated,1,,
+,Panama,False,1948,2,2,,participated,2,,
+,Panama,False,2008,1,3,,participated,,1,
+,Paraguay,False,2004,1,2,,participated,,,1
+,Peru,False,1948,1,3,,participated,,1,
+,Peru,False,1984,1,2,,participated,,,1
+,Peru,False,1988,1,2,,participated,,,1
+,Peru,False,1992,1,2,,participated,,,1
+,Philippines,False,1928,1,1,,participated,1,,
+,Philippines,False,1932,3,3,,participated,3,,
+,Philippines,False,1936,1,1,,participated,1,,
+,Philippines,False,1964,1,2,,participated,,,1
+,Philippines,False,1988,1,1,,participated,1,,
+,Philippines,False,1992,1,1,,participated,1,,
+,Philippines,False,1996,1,2,,participated,,,1
+,Philippines,False,2016,1,2,,participated,,,1
+,Poland,False,1924,2,3,,participated,1,,1
+,Poland,False,1928,5,8,,participated,3,1,1
+,Poland,False,1932,7,12,,participated,4,2,1
+,Poland,False,1936,6,9,,participated,3,,3
+,Poland,False,1948,1,1,,participated,1,,
+,Poland,False,1952,4,8,,participated,1,1,2
+,Poland,False,1956,9,15,,participated,4,1,4
+,Poland,False,1960,21,35,7,participated,11,4,6
+,Poland,False,1964,23,43,7,participated,10,7,6
+,Poland,False,1968,18,30,9,participated,11,5,2
+,Poland,False,1972,21,40,9,participated,9,7,5
+,Poland,False,1976,26,46,6,participated,13,7,6
+,Poland,False,1980,32,52,5,participated,15,3,14
+,Poland,False,1988,16,25,,participated,9,2,5
+,Poland,False,1992,19,31,,participated,10,3,6
+,Poland,False,1996,17,36,,participated,5,7,5
+,Poland,False,2000,14,31,,participated,3,6,5
+,Poland,False,2004,10,18,,participated,5,3,2
+,Poland,False,2008,10,22,,participated,1,3,6
+,Poland,False,2012,11,19,,participated,6,3,2
+,Poland,False,2016,11,18,,participated,6,2,3
+,Portugal,False,1924,1,1,,participated,1,,
+,Portugal,False,1936,1,1,,participated,1,,
+,Portugal,False,1948,2,3,,participated,1,,1
+,Portugal,False,1952,1,1,,participated,1,,
+,Portugal,False,1960,1,2,,participated,,,1
+,Portugal,False,1976,2,4,,participated,,,2
+,Portugal,False,1984,3,5,,participated,2,1,
+,Portugal,False,1988,1,3,,participated,,1,
+,Portugal,False,1996,2,4,,participated,1,1,
+,Portugal,False,2000,2,2,,participated,2,,
+,Portugal,False,2004,3,5,,participated,1,,2
+,Portugal,False,2008,2,5,,participated,,1,1
+,Portugal,False,2012,1,2,,participated,,,1
+,Portugal,False,2016,1,1,,participated,1,,
+,Puerto Rico,False,1948,1,1,,participated,1,,
+,Puerto Rico,False,1976,1,1,,participated,1,,
+,Puerto Rico,False,1984,2,3,,participated,1,,1
+,Puerto Rico,False,1992,1,1,,participated,1,,
+,Puerto Rico,False,1996,1,1,,participated,1,,
+,Puerto Rico,False,2012,2,3,,participated,1,,1
+,Puerto Rico,False,2016,1,3,,participated,,1,
+,Qatar,False,1992,1,1,,participated,1,,
+,Qatar,False,2000,1,1,,participated,1,,
+,Qatar,False,2012,2,2,,participated,2,,
+,Qatar,False,2016,1,2,,participated,,,1
+,Romania,False,1924,1,1,,participated,1,,
+,Romania,False,1936,1,2,,participated,,,1
+,Romania,False,1952,4,7,,participated,2,1,1
+,Romania,False,1956,13,26,,participated,5,5,3
+,Romania,False,1960,10,17,,participated,6,3,1
+,Romania,False,1964,12,20,,participated,6,2,4
+,Romania,False,1968,15,29,,participated,5,4,6
+,Romania,False,1972,16,28,,participated,7,3,6
+,Romania,False,1976,27,44,7,participated,14,4,9
+,Romania,False,1980,25,43,7,participated,13,6,6
+,Romania,False,1984,52,106,3,participated,17,19,16
+,Romania,False,1988,24,49,9,participated,6,7,11
+,Romania,False,1992,18,32,,participated,8,4,6
+,Romania,False,1996,19,34,,participated,8,4,7
+,Romania,False,2000,26,54,,participated,9,11,6
+,Romania,False,2004,19,40,,participated,6,8,5
+,Romania,False,2008,8,17,,participated,3,4,1
+,Romania,False,2012,9,18,,participated,2,2,5
+,Romania,False,2016,4,7,,participated,2,1,1
+,Russia,False,1996,63,136,2,participated,16,26,21
+,Russia,False,2000,89,181,2,participated,29,32,28
+,Russia,False,2004,92,173,2,participated,38,27,27
+,Russia,False,2008,72,139,3,participated,28,23,21
+,Russia,False,2012,69,127,4,participated,30,19,20
+,Russia,False,2016,55,110,4,participated,19,19,17
+,Russian Empire,False,1908,3,7,,participated,,1,2
+,Russian Empire,False,1912,5,7,,participated,3,,2
+,Saudi Arabia,False,2000,2,3,,participated,1,,1
+,Saudi Arabia,False,2012,1,1,,participated,1,,
+,Senegal,False,1988,1,2,,participated,,,1
+,Serbia,False,2008,3,4,,participated,2,,1
+,Serbia,False,2012,4,7,,participated,2,1,1
+,Serbia,False,2016,8,16,,participated,2,2,4
+,Serbia and Montenegro,False,2004,2,4,,participated,,,2
+,Singapore,False,1960,1,2,,participated,,,1
+,Singapore,False,2008,1,2,,participated,,,1
+,Singapore,False,2012,2,2,,participated,2,,
+,Singapore,False,2016,1,3,,participated,,1,
+,Slovakia,False,1996,3,6,,participated,1,1,1
+,Slovakia,False,2000,5,10,,participated,1,1,3
+,Slovakia,False,2004,6,12,,participated,2,2,2
+,Slovakia,False,2008,6,14,,participated,1,3,2
+,Slovakia,False,2012,4,5,,participated,3,,1
+,Slovakia,False,2016,4,10,,participated,,2,2
+,Slovenia,False,1992,2,2,,participated,2,,
+,Slovenia,False,1996,2,4,,participated,,,2
+,Slovenia,False,2000,2,6,,participated,,2,
+,Slovenia,False,2004,4,5,,participated,3,,1
+,Slovenia,False,2008,5,9,,participated,2,1,2
+,Slovenia,False,2012,4,7,,participated,2,1,1
+,Slovenia,False,2016,4,8,,participated,1,1,2
+,South Africa,False,1908,2,5,,participated,,1,1
+,South Africa,False,1912,6,16,,participated,,4,2
+,South Africa,False,1920,10,20,,participated,3,3,4
+,South Africa,False,1924,3,6,,participated,1,1,1
+,South Africa,False,1928,3,5,,participated,2,1,
+,South Africa,False,1932,5,9,,participated,3,2,
+,South Africa,False,1936,1,2,,participated,,,1
+,South Africa,False,1948,4,9,,participated,1,2,1
+,South Africa,False,1952,10,18,,participated,4,2,4
+,South Africa,False,1956,4,4,,participated,4,,
+,South Africa,False,1960,3,4,,participated,2,,1
+,South Africa,False,1992,2,4,,participated,,,2
+,South Africa,False,1996,5,12,,participated,1,3,1
+,South Africa,False,2000,5,7,,participated,3,,2
+,South Africa,False,2004,6,11,,participated,2,1,3
+,South Africa,False,2008,1,2,,participated,,,1
+,South Africa,False,2012,6,14,,participated,1,3,2
+,South Africa,False,2016,10,20,,participated,2,2,6
+,South Korea,False,1948,2,2,,participated,2,,
+,South Korea,False,1952,2,2,,participated,2,,
+,South Korea,False,1956,2,3,,participated,1,,1
+,South Korea,False,1964,3,5,,participated,1,,2
+,South Korea,False,1968,2,3,,participated,1,,1
+,South Korea,False,1972,1,2,,participated,,,1
+,South Korea,False,1976,6,9,,participated,4,1,1
+,South Korea,False,1984,19,37,,participated,7,6,6
+,South Korea,False,1992,28,57,7,participated,11,12,5
+,South Korea,False,1996,27,56,8,participated,5,7,15
+,South Korea,False,2000,28,54,,participated,10,8,10
+,South Korea,False,2004,30,60,9,participated,9,9,12
+,South Korea,False,2008,31,67,8,participated,8,13,10
+,South Korea,False,2012,30,65,9,participated,8,13,9
+,South Korea,False,2016,21,42,,participated,9,9,3
+South Korea,South Korea,True,1988,33,67,6,hosted,11,12,10
+,Soviet Union,False,1952,70,143,2,participated,19,22,29
+,Soviet Union,False,1956,98,201,1,participated,32,37,29
+,Soviet Union,False,1960,103,218,1,participated,31,43,29
+,Soviet Union,False,1964,93,183,2,participated,33,30,30
+,Soviet Union,False,1968,91,181,2,participated,30,29,32
+,Soviet Union,False,1972,99,226,1,participated,22,50,27
+,Soviet Union,False,1976,125,264,1,participated,35,49,41
+,Soviet Union,False,1988,131,270,1,participated,46,54,31
+Soviet Union,Soviet Union,True,1980,195,424,1,hosted,46,80,69
+,Spain,False,1900,1,3,,participated,,1,
+,Spain,False,1920,2,4,,participated,,,2
+,Spain,False,1928,1,3,,participated,,1,
+,Spain,False,1932,1,1,,participated,1,,
+,Spain,False,1948,1,2,,participated,,,1
+,Spain,False,1952,1,2,,participated,,,1
+,Spain,False,1960,1,1,,participated,1,,
+,Spain,False,1972,1,1,,participated,1,,
+,Spain,False,1976,2,4,,participated,,,2
+,Spain,False,1980,6,11,,participated,2,1,3
+,Spain,False,1984,5,9,,participated,2,1,2
+,Spain,False,1988,4,7,,participated,2,1,1
+,Spain,False,1996,17,33,,participated,6,5,6
+,Spain,False,2000,11,20,,participated,5,3,3
+,Spain,False,2004,18,34,,participated,5,3,10
+,Spain,False,2008,18,38,,participated,3,5,10
+,Spain,False,2012,18,36,,participated,4,4,10
+,Spain,False,2016,17,35,,participated,6,7,4
+Spain,Spain,True,1992,22,55,8,hosted,2,13,7
+,Sri Lanka,False,1948,1,2,,participated,,,1
+,Sri Lanka,False,2000,1,2,,participated,,,1
+,Sudan,False,2008,1,2,,participated,,,1
+,Suriname,False,1988,1,3,,participated,,1,
+,Suriname,False,1992,1,1,,participated,1,,
+,Sweden,False,1900,1,1,,participated,1,,
+,Sweden,False,1908,24,46,3,participated,10,8,6
+,Sweden,False,1920,60,114,2,participated,24,18,18
+,Sweden,False,1924,29,50,5,participated,12,4,13
+,Sweden,False,1928,25,45,4,participated,12,7,6
+,Sweden,False,1932,23,46,3,participated,9,9,5
+,Sweden,False,1936,20,37,7,participated,9,6,5
+,Sweden,False,1948,44,87,2,participated,17,16,11
+,Sweden,False,1952,35,72,4,participated,10,12,13
+,Sweden,False,1956,19,40,8,participated,6,8,5
+,Sweden,False,1960,6,10,,participated,3,1,2
+,Sweden,False,1964,8,14,,participated,4,2,2
+,Sweden,False,1968,4,9,,participated,1,2,1
+,Sweden,False,1972,16,30,,participated,6,4,6
+,Sweden,False,1976,5,14,,participated,,4,1
+,Sweden,False,1980,12,21,,participated,6,3,3
+,Sweden,False,1984,19,34,,participated,6,2,11
+,Sweden,False,1988,11,15,,participated,7,,4
+,Sweden,False,1992,12,21,,participated,4,1,7
+,Sweden,False,1996,8,16,,participated,2,2,4
+,Sweden,False,2000,12,25,,participated,3,4,5
+,Sweden,False,2004,7,17,,participated,1,4,2
+,Sweden,False,2008,5,9,,participated,1,,4
+,Sweden,False,2012,8,14,,participated,3,1,4
+,Sweden,False,2016,11,21,,participated,3,2,6
+Sweden,Sweden,True,1912,65,137,1,hosted,17,24,24
+,Switzerland,False,1896,3,7,9,participated,,1,2
+,Switzerland,False,1900,7,18,6,participated,1,5,1
+,Switzerland,False,1904,2,4,9,participated,1,1,
+,Switzerland,False,1920,11,17,,participated,7,2,2
+,Switzerland,False,1924,25,47,6,participated,10,7,8
+,Switzerland,False,1928,15,33,9,participated,4,7,4
+,Switzerland,False,1932,1,2,,participated,,,1
+,Switzerland,False,1936,15,26,,participated,5,1,9
+,Switzerland,False,1948,19,39,7,participated,4,5,10
+,Switzerland,False,1952,14,24,,participated,6,2,6
+,Switzerland,False,1956,1,1,,participated,1,,
+,Switzerland,False,1960,6,9,,participated,3,,3
+,Switzerland,False,1964,4,8,,participated,1,1,2
+,Switzerland,False,1968,5,6,,participated,4,,1
+,Switzerland,False,1972,3,6,,participated,,,3
+,Switzerland,False,1976,4,7,,participated,2,1,1
+,Switzerland,False,1980,2,6,,participated,,2,
+,Switzerland,False,1984,8,12,,participated,4,,4
+,Switzerland,False,1988,4,6,,participated,2,,2
+,Switzerland,False,1992,1,3,,participated,,1,
+,Switzerland,False,1996,7,18,,participated,,4,3
+,Switzerland,False,2000,9,17,,participated,2,1,6
+,Switzerland,False,2004,5,8,,participated,3,1,1
+,Switzerland,False,2008,7,11,,participated,5,2,
+,Switzerland,False,2012,4,10,,participated,,2,2
+,Switzerland,False,2016,7,15,,participated,2,3,2
+,Syria,False,1984,1,2,,participated,,,1
+,Syria,False,1996,1,3,,participated,,1,
+,Syria,False,2004,1,1,,participated,1,,
+,Tajikistan,False,2008,2,3,,participated,1,,1
+,Tajikistan,False,2012,1,1,,participated,1,,
+,Tajikistan,False,2016,1,3,,participated,,1,
+,Tanzania,False,1980,2,4,,participated,,,2
+,Thailand,False,1976,1,1,,participated,1,,
+,Thailand,False,1984,1,2,,participated,,,1
+,Thailand,False,1988,1,1,,participated,1,,
+,Thailand,False,1992,1,1,,participated,1,,
+,Thailand,False,1996,2,4,,participated,1,1,
+,Thailand,False,2000,3,5,,participated,2,1,
+,Thailand,False,2004,8,15,,participated,4,3,1
+,Thailand,False,2008,4,10,,participated,,2,2
+,Thailand,False,2012,4,6,,participated,2,,2
+,Thailand,False,2016,6,12,,participated,2,2,2
+,Togo,False,2008,1,1,,participated,1,,
+,Tonga,False,1996,1,2,,participated,,,1
+,Trinidad and Tobago,False,1948,1,2,,participated,,,1
+,Trinidad and Tobago,False,1952,2,2,,participated,2,,
+,Trinidad and Tobago,False,1964,3,4,,participated,2,,1
+,Trinidad and Tobago,False,1976,1,3,,participated,,1,
+,Trinidad and Tobago,False,1996,2,2,,participated,2,,
+,Trinidad and Tobago,False,2000,2,3,,participated,1,,1
+,Trinidad and Tobago,False,2004,1,1,,participated,1,,
+,Trinidad and Tobago,False,2008,2,4,,participated,,,2
+,Trinidad and Tobago,False,2012,4,7,,participated,2,1,1
+,Trinidad and Tobago,False,2016,1,1,,participated,1,,
+,Tunisia,False,1964,2,3,,participated,1,,1
+,Tunisia,False,1968,2,4,,participated,1,1,
+,Tunisia,False,1972,1,2,,participated,,,1
+,Tunisia,False,1996,1,1,,participated,1,,
+,Tunisia,False,2008,1,3,,participated,,1,
+,Tunisia,False,2012,3,7,,participated,1,2,
+,Tunisia,False,2016,3,3,,participated,3,,
+,Turkey,False,1936,2,4,,participated,1,1,
+,Turkey,False,1948,12,28,,participated,2,6,4
+,Turkey,False,1952,3,7,,participated,1,2,
+,Turkey,False,1956,7,15,,participated,2,3,2
+,Turkey,False,1960,9,25,10,participated,,7,2
+,Turkey,False,1964,6,13,,participated,1,2,3
+,Turkey,False,1968,2,6,,participated,,2,
+,Turkey,False,1972,1,2,,participated,,,1
+,Turkey,False,1984,3,3,,participated,3,,
+,Turkey,False,1988,2,5,,participated,,1,1
+,Turkey,False,1992,6,12,,participated,2,2,2
+,Turkey,False,1996,6,15,,participated,1,4,1
+,Turkey,False,2000,5,11,,participated,2,3,
+,Turkey,False,2004,10,19,,participated,4,3,3
+,Turkey,False,2008,8,14,,participated,3,1,4
+,Turkey,False,2012,3,6,,participated,1,1,1
+,Turkey,False,2016,8,13,,participated,4,1,3
+,Uganda,False,1968,2,3,,participated,1,,1
+,Uganda,False,1972,2,5,,participated,,1,1
+,Uganda,False,1980,1,2,,participated,,,1
+,Uganda,False,1996,1,1,,participated,1,,
+,Uganda,False,2012,1,3,,participated,,1,
+,Ukraine,False,1996,23,43,10,participated,12,9,2
+,Ukraine,False,2000,23,39,,participated,10,3,10
+,Ukraine,False,2004,23,46,,participated,9,9,5
+,Ukraine,False,2008,27,46,,participated,15,7,5
+,Ukraine,False,2012,19,33,,participated,10,5,4
+,Ukraine,False,2016,11,20,,participated,4,2,5
+,Unified Team,False,1992,112,240,1,participated,29,45,38
+,United Arab Emirates,False,2004,1,3,,participated,,1,
+,United Arab Emirates,False,2016,1,1,,participated,1,,
+,United States,False,1896,19,47,2,participated,2,11,6
+,United States,False,1900,47,99,2,participated,14,19,14
+,United States,False,1908,46,102,2,participated,12,22,12
+,United States,False,1912,62,130,2,participated,19,25,18
+,United States,False,1920,95,204,1,participated,27,41,27
+,United States,False,1924,99,216,1,participated,27,45,27
+,United States,False,1928,56,118,1,participated,16,22,18
+,United States,False,1936,56,124,2,participated,12,24,20
+,United States,False,1948,84,187,1,participated,19,38,27
+,United States,False,1952,76,175,1,participated,17,40,19
+,United States,False,1956,74,163,2,participated,17,32,25
+,United States,False,1960,71,160,2,participated,16,34,21
+,United States,False,1964,90,188,1,participated,28,36,26
+,United States,False,1968,107,225,1,participated,34,45,28
+,United States,False,1972,94,191,2,participated,30,33,31
+,United States,False,1976,94,197,2,participated,25,34,35
+,United States,False,1988,94,197,3,participated,27,36,31
+,United States,False,1992,108,216,2,participated,37,37,34
+,United States,False,2000,92,188,1,participated,32,36,24
+,United States,False,2004,102,213,1,participated,27,36,39
+,United States,False,2008,110,220,2,participated,36,36,38
+,United States,False,2012,103,223,1,participated,29,46,28
+,United States,False,2016,121,250,1,participated,38,46,37
+United States,United States,True,1904,233,469,1,hosted,74,77,82
+United States,United States,True,1932,103,217,1,hosted,30,41,32
+United States,United States,True,1984,173,398,1,hosted,30,82,61
+United States,United States,True,1996,101,221,1,hosted,25,44,32
+,United Team of Germany,False,1956,26,51,5,participated,7,6,13
+,United Team of Germany,False,1960,42,85,3,participated,11,12,19
+,United Team of Germany,False,1964,50,92,3,participated,18,10,22
+,Uruguay,False,1924,1,3,,participated,,1,
+,Uruguay,False,1928,1,3,,participated,,1,
+,Uruguay,False,1932,1,1,,participated,1,,
+,Uruguay,False,1948,2,3,,participated,1,,1
+,Uruguay,False,1952,2,2,,participated,2,,
+,Uruguay,False,1956,1,1,,participated,1,,
+,Uruguay,False,1964,1,1,,participated,1,,
+,Uruguay,False,2000,1,2,,participated,,,1
+,Uzbekistan,False,1996,2,3,,participated,1,,1
+,Uzbekistan,False,2000,4,7,,participated,2,1,1
+,Uzbekistan,False,2004,5,10,,participated,2,2,1
+,Uzbekistan,False,2008,6,10,,participated,3,1,2
+,Uzbekistan,False,2012,4,6,,participated,3,1,
+,Uzbekistan,False,2016,13,23,,participated,7,4,2
+,Venezuela,False,1952,1,1,,participated,1,,
+,Venezuela,False,1960,1,1,,participated,1,,
+,Venezuela,False,1968,1,3,,participated,,1,
+,Venezuela,False,1976,1,2,,participated,,,1
+,Venezuela,False,1980,1,2,,participated,,,1
+,Venezuela,False,1984,3,3,,participated,3,,
+,Venezuela,False,2004,2,2,,participated,2,,
+,Venezuela,False,2008,1,1,,participated,1,,
+,Venezuela,False,2012,1,3,,participated,,1,
+,Venezuela,False,2016,3,4,,participated,2,,1
+,Vietnam,False,2000,1,2,,participated,,,1
+,Vietnam,False,2008,1,2,,participated,,,1
+,Vietnam,False,2016,2,5,,participated,,1,1
+,Virgin Islands,False,1988,1,2,,participated,,,1
+,West Germany,False,1968,26,47,6,participated,10,5,11
+,West Germany,False,1976,39,71,4,participated,17,10,12
+,West Germany,False,1984,59,112,2,participated,23,17,19
+,West Germany,False,1988,40,76,4,participated,15,11,14
+West Germany,West Germany,True,1972,40,77,4,hosted,16,13,11
+,Yugoslavia,False,1924,2,6,,participated,,2,
+,Yugoslavia,False,1928,5,8,,participated,3,1,1
+,Yugoslavia,False,1936,1,2,,participated,,,1
+,Yugoslavia,False,1948,2,4,,participated,,,2
+,Yugoslavia,False,1952,3,7,,participated,,1,2
+,Yugoslavia,False,1956,3,6,,participated,,,3
+,Yugoslavia,False,1960,2,5,,participated,,1,1
+,Yugoslavia,False,1964,5,10,,participated,2,2,1
+,Yugoslavia,False,1968,8,17,,participated,2,3,3
+,Yugoslavia,False,1972,5,10,,participated,2,2,1
+,Yugoslavia,False,1976,8,15,,participated,3,2,3
+,Yugoslavia,False,1980,9,16,,participated,4,2,3
+,Yugoslavia,False,1984,18,36,,participated,7,7,4
+,Yugoslavia,False,1988,12,22,,participated,5,3,4
+,Yugoslavia,False,1996,4,7,,participated,2,1,1
+,Yugoslavia,False,2000,3,6,,participated,1,1,1
+,Zambia,False,1984,1,1,,participated,1,,
+,Zambia,False,1996,1,2,,participated,,,1
+,Zimbabwe,False,1980,1,3,,participated,,1,
+,Zimbabwe,False,2004,3,6,,participated,1,1,1
+,Zimbabwe,False,2008,4,9,,participated,,1,3
+,Afghanistan,,1896,0,0,,,,,
+,Afghanistan,,1900,0,0,,,,,
+,Afghanistan,,1904,0,0,,,,,
+,Afghanistan,,1908,0,0,,,,,
+,Afghanistan,,1912,0,0,,,,,
+,Afghanistan,,1920,0,0,,,,,
+,Afghanistan,,1924,0,0,,,,,
+,Afghanistan,,1928,0,0,,,,,
+,Afghanistan,,1932,0,0,,,,,
+,Afghanistan,,1936,0,0,,,,,
+,Afghanistan,,1948,0,0,,,,,
+,Afghanistan,,1952,0,0,,,,,
+,Afghanistan,,1956,0,0,,,,,
+,Afghanistan,,1960,0,0,,,,,
+,Afghanistan,,1964,0,0,,,,,
+,Afghanistan,,1968,0,0,,,,,
+,Afghanistan,,1972,0,0,,,,,
+,Afghanistan,,1976,0,0,,,,,
+,Afghanistan,,1980,0,0,,,,,
+,Afghanistan,,1984,0,0,,,,,
+,Afghanistan,,1988,0,0,,,,,
+,Afghanistan,,1992,0,0,,,,,
+,Afghanistan,,1996,0,0,,,,,
+,Afghanistan,,2000,0,0,,,,,
+,Afghanistan,,2004,0,0,,,,,
+,Afghanistan,,2008,1,1,,participated,1,,
+,Afghanistan,,2012,1,1,,participated,1,,
+,Afghanistan,,2016,0,0,,,,,
+,Algeria,,1896,0,0,,,,,
+,Algeria,,1900,0,0,,,,,
+,Algeria,,1904,0,0,,,,,
+,Algeria,,1908,0,0,,,,,
+,Algeria,,1912,0,0,,,,,
+,Algeria,,1920,0,0,,,,,
+,Algeria,,1924,0,0,,,,,
+,Algeria,,1928,0,0,,,,,
+,Algeria,,1932,0,0,,,,,
+,Algeria,,1936,0,0,,,,,
+,Algeria,,1948,0,0,,,,,
+,Algeria,,1952,0,0,,,,,
+,Algeria,,1956,0,0,,,,,
+,Algeria,,1960,0,0,,,,,
+,Algeria,,1964,0,0,,,,,
+,Algeria,,1968,0,0,,,,,
+,Algeria,,1972,0,0,,,,,
+,Algeria,,1976,0,0,,,,,
+,Algeria,,1980,0,0,,,,,
+,Algeria,,1984,2,2,,participated,2,,
+,Algeria,,1988,0,0,,,,,
+,Algeria,,1992,2,4,,participated,1,1,
+,Algeria,,1996,3,7,,participated,1,2,
+,Algeria,,2000,5,8,,participated,3,1,1
+,Algeria,,2004,0,0,,,,,
+,Algeria,,2008,2,3,,participated,1,,1
+,Algeria,,2012,1,3,,participated,,1,
+,Algeria,,2016,2,4,,participated,,,2
+,Argentina,,1896,0,0,,,,,
+,Argentina,,1900,0,0,,,,,
+,Argentina,,1904,0,0,,,,,
+,Argentina,,1908,0,0,,,,,
+,Argentina,,1912,0,0,,,,,
+,Argentina,,1920,0,0,,,,,
+,Argentina,,1924,6,11,,participated,2,1,3
+,Argentina,,1928,7,16,,participated,1,3,3
+,Argentina,,1932,4,11,,participated,,3,1
+,Argentina,,1936,7,13,,participated,3,2,2
+,Argentina,,1948,7,16,,participated,1,3,3
+,Argentina,,1952,5,9,,participated,2,1,2
+,Argentina,,1956,2,3,,participated,1,,1
+,Argentina,,1960,2,3,,participated,1,,1
+,Argentina,,1964,1,2,,participated,,,1
+,Argentina,,1968,2,2,,participated,2,,
+,Argentina,,1972,1,2,,participated,,,1
+,Argentina,,1976,0,0,,,,,
+,Argentina,,1980,0,0,,,,,
+,Argentina,,1984,0,0,,,,,
+,Argentina,,1988,2,3,,participated,1,,1
+,Argentina,,1992,1,1,,participated,1,,
+,Argentina,,1996,3,5,,participated,1,,2
+,Argentina,,2000,4,6,,participated,2,,2
+,Argentina,,2004,6,10,,participated,4,2,
+,Argentina,,2008,6,10,,participated,4,2,
+,Argentina,,2012,4,7,,participated,2,1,1
+,Argentina,,2016,4,11,,participated,,3,1
+,Armenia,,1896,0,0,,,,,
+,Armenia,,1900,0,0,,,,,
+,Armenia,,1904,0,0,,,,,
+,Armenia,,1908,0,0,,,,,
+,Armenia,,1912,0,0,,,,,
+,Armenia,,1920,0,0,,,,,
+,Armenia,,1924,0,0,,,,,
+,Armenia,,1928,0,0,,,,,
+,Armenia,,1932,0,0,,,,,
+,Armenia,,1936,0,0,,,,,
+,Armenia,,1948,0,0,,,,,
+,Armenia,,1952,0,0,,,,,
+,Armenia,,1956,0,0,,,,,
+,Armenia,,1960,0,0,,,,,
+,Armenia,,1964,0,0,,,,,
+,Armenia,,1968,0,0,,,,,
+,Armenia,,1972,0,0,,,,,
+,Armenia,,1976,0,0,,,,,
+,Armenia,,1980,0,0,,,,,
+,Armenia,,1984,0,0,,,,,
+,Armenia,,1988,0,0,,,,,
+,Armenia,,1992,0,0,,,,,
+,Armenia,,1996,2,5,,participated,,1,1
+,Armenia,,2000,1,1,,participated,1,,
+,Armenia,,2004,0,0,,,,,
+,Armenia,,2008,6,6,,participated,6,,
+,Armenia,,2012,2,3,,participated,1,,1
+,Armenia,,2016,4,9,,participated,,1,3
+,Australasia,,1896,0,0,,,,,
+,Australasia,,1900,0,0,,,,,
+,Australasia,,1904,0,0,,,,,
+,Australasia,,1908,5,9,,participated,2,1,2
+,Australasia,,1912,7,13,,participated,3,2,2
+,Australasia,,1920,0,0,,,,,
+,Australasia,,1924,0,0,,,,,
+,Australasia,,1928,0,0,,,,,
+,Australasia,,1932,0,0,,,,,
+,Australasia,,1936,0,0,,,,,
+,Australasia,,1948,0,0,,,,,
+,Australasia,,1952,0,0,,,,,
+,Australasia,,1956,0,0,,,,,
+,Australasia,,1960,0,0,,,,,
+,Australasia,,1964,0,0,,,,,
+,Australasia,,1968,0,0,,,,,
+,Australasia,,1972,0,0,,,,,
+,Australasia,,1976,0,0,,,,,
+,Australasia,,1980,0,0,,,,,
+,Australasia,,1984,0,0,,,,,
+,Australasia,,1988,0,0,,,,,
+,Australasia,,1992,0,0,,,,,
+,Australasia,,1996,0,0,,,,,
+,Australasia,,2000,0,0,,,,,
+,Australasia,,2004,0,0,,,,,
+,Australasia,,2008,0,0,,,,,
+,Australasia,,2012,0,0,,,,,
+,Australasia,,2016,0,0,,,,,
+,Australia,,1896,2,6,10,participated,,2,
+,Australia,,1900,5,9,10,participated,3,2,
+,Australia,,1904,0,0,,,,,
+,Australia,,1908,0,0,,,,,
+,Australia,,1912,0,0,,,,,
+,Australia,,1920,3,5,,participated,1,,2
+,Australia,,1924,6,13,,participated,2,3,1
+,Australia,,1928,4,8,,participated,1,1,2
+,Australia,,1932,5,12,,participated,1,3,1
+,Australia,,1936,1,1,,participated,1,,
+,Australia,,1948,13,23,,participated,5,2,6
+,Australia,,1952,11,25,10,participated,3,6,2
+,Australia,,1956,35,69,3,hosted,14,13,8
+,Australia,,1960,22,46,5,participated,6,8,8
+,Australia,,1964,18,32,9,participated,10,6,2
+,Australia,,1968,17,34,7,participated,5,5,7
+,Australia,,1972,17,40,8,participated,2,8,7
+,Australia,,1976,5,6,,participated,4,,1
+,Australia,,1980,9,15,,participated,5,2,2
+,Australia,,1984,24,40,10,participated,12,4,8
+,Australia,,1988,14,26,,participated,5,3,6
+,Australia,,1992,27,50,9,participated,11,7,9
+,Australia,,1996,41,68,7,participated,23,9,9
+,Australia,,2000,58,115,4,hosted,17,16,25
+,Australia,,2004,49,99,4,participated,16,17,16
+,Australia,,2008,46,89,5,participated,17,14,15
+,Australia,,2012,35,66,7,participated,12,8,15
+,Australia,,2016,29,56,8,participated,10,8,11
+,Austria,,1896,5,10,7,participated,2,2,1
+,Austria,,1900,6,9,,participated,3,,3
+,Austria,,1904,1,1,10,participated,1,,
+,Austria,,1908,1,1,,participated,1,,
+,Austria,,1912,4,6,,participated,2,,2
+,Austria,,1920,0,0,,,,,
+,Austria,,1924,4,7,,participated,1,,3
+,Austria,,1928,3,7,,participated,1,2,
+,Austria,,1932,5,8,,participated,3,1,1
+,Austria,,1936,13,27,,participated,3,4,6
+,Austria,,1948,4,6,,participated,3,1,
+,Austria,,1952,2,3,,participated,1,,1
+,Austria,,1956,2,2,,participated,2,,
+,Austria,,1960,2,5,,participated,,1,1
+,Austria,,1964,0,0,,,,,
+,Austria,,1968,4,6,,participated,2,,2
+,Austria,,1972,3,4,,participated,2,,1
+,Austria,,1976,1,1,,participated,1,,
+,Austria,,1980,4,8,,participated,1,1,2
+,Austria,,1984,3,6,,participated,1,1,1
+,Austria,,1988,1,3,,participated,,1,
+,Austria,,1992,2,4,,participated,,,2
+,Austria,,1996,3,4,,participated,2,,1
+,Austria,,2000,3,8,,participated,,2,1
+,Austria,,2004,7,15,,participated,1,2,4
+,Austria,,2008,3,4,,participated,2,,1
+,Austria,,2012,0,0,,,,,
+,Austria,,2016,1,1,,participated,1,,
+,Azerbaijan,,1896,0,0,,,,,
+,Azerbaijan,,1900,0,0,,,,,
+,Azerbaijan,,1904,0,0,,,,,
+,Azerbaijan,,1908,0,0,,,,,
+,Azerbaijan,,1912,0,0,,,,,
+,Azerbaijan,,1920,0,0,,,,,
+,Azerbaijan,,1924,0,0,,,,,
+,Azerbaijan,,1928,0,0,,,,,
+,Azerbaijan,,1932,0,0,,,,,
+,Azerbaijan,,1936,0,0,,,,,
+,Azerbaijan,,1948,0,0,,,,,
+,Azerbaijan,,1952,0,0,,,,,
+,Azerbaijan,,1956,0,0,,,,,
+,Azerbaijan,,1960,0,0,,,,,
+,Azerbaijan,,1964,0,0,,,,,
+,Azerbaijan,,1968,0,0,,,,,
+,Azerbaijan,,1972,0,0,,,,,
+,Azerbaijan,,1976,0,0,,,,,
+,Azerbaijan,,1980,0,0,,,,,
+,Azerbaijan,,1984,0,0,,,,,
+,Azerbaijan,,1988,0,0,,,,,
+,Azerbaijan,,1992,0,0,,,,,
+,Azerbaijan,,1996,1,2,,participated,,,1
+,Azerbaijan,,2000,3,7,,participated,1,2,
+,Azerbaijan,,2004,5,7,,participated,4,1,
+,Azerbaijan,,2008,7,11,,participated,4,1,2
+,Azerbaijan,,2012,10,16,,participated,6,2,2
+,Azerbaijan,,2016,18,27,,participated,10,1,7
+,Bahamas,,1896,0,0,,,,,
+,Bahamas,,1900,0,0,,,,,
+,Bahamas,,1904,0,0,,,,,
+,Bahamas,,1908,0,0,,,,,
+,Bahamas,,1912,0,0,,,,,
+,Bahamas,,1920,0,0,,,,,
+,Bahamas,,1924,0,0,,,,,
+,Bahamas,,1928,0,0,,,,,
+,Bahamas,,1932,0,0,,,,,
+,Bahamas,,1936,0,0,,,,,
+,Bahamas,,1948,0,0,,,,,
+,Bahamas,,1952,0,0,,,,,
+,Bahamas,,1956,1,1,,participated,1,,
+,Bahamas,,1960,0,0,,,,,
+,Bahamas,,1964,1,3,,participated,,1,
+,Bahamas,,1968,0,0,,,,,
+,Bahamas,,1972,0,0,,,,,
+,Bahamas,,1976,0,0,,,,,
+,Bahamas,,1980,0,0,,,,,
+,Bahamas,,1984,0,0,,,,,
+,Bahamas,,1988,0,0,,,,,
+,Bahamas,,1992,1,1,,participated,1,,
+,Bahamas,,1996,1,2,,participated,,,1
+,Bahamas,,2000,2,6,,participated,,2,
+,Bahamas,,2004,2,4,,participated,1,1,
+,Bahamas,,2008,2,3,,participated,1,,1
+,Bahamas,,2012,1,3,,participated,,1,
+,Bahamas,,2016,2,4,,participated,1,1,
+,Bahrain,,1896,0,0,,,,,
+,Bahrain,,1900,0,0,,,,,
+,Bahrain,,1904,0,0,,,,,
+,Bahrain,,1908,0,0,,,,,
+,Bahrain,,1912,0,0,,,,,
+,Bahrain,,1920,0,0,,,,,
+,Bahrain,,1924,0,0,,,,,
+,Bahrain,,1928,0,0,,,,,
+,Bahrain,,1932,0,0,,,,,
+,Bahrain,,1936,0,0,,,,,
+,Bahrain,,1948,0,0,,,,,
+,Bahrain,,1952,0,0,,,,,
+,Bahrain,,1956,0,0,,,,,
+,Bahrain,,1960,0,0,,,,,
+,Bahrain,,1964,0,0,,,,,
+,Bahrain,,1968,0,0,,,,,
+,Bahrain,,1972,0,0,,,,,
+,Bahrain,,1976,0,0,,,,,
+,Bahrain,,1980,0,0,,,,,
+,Bahrain,,1984,0,0,,,,,
+,Bahrain,,1988,0,0,,,,,
+,Bahrain,,1992,0,0,,,,,
+,Bahrain,,1996,0,0,,,,,
+,Bahrain,,2000,0,0,,,,,
+,Bahrain,,2004,0,0,,,,,
+,Bahrain,,2008,0,0,,,,,
+,Bahrain,,2012,1,3,,participated,,1,
+,Bahrain,,2016,2,5,,participated,,1,1
+,Barbados,,1896,0,0,,,,,
+,Barbados,,1900,0,0,,,,,
+,Barbados,,1904,0,0,,,,,
+,Barbados,,1908,0,0,,,,,
+,Barbados,,1912,0,0,,,,,
+,Barbados,,1920,0,0,,,,,
+,Barbados,,1924,0,0,,,,,
+,Barbados,,1928,0,0,,,,,
+,Barbados,,1932,0,0,,,,,
+,Barbados,,1936,0,0,,,,,
+,Barbados,,1948,0,0,,,,,
+,Barbados,,1952,0,0,,,,,
+,Barbados,,1956,0,0,,,,,
+,Barbados,,1960,0,0,,,,,
+,Barbados,,1964,0,0,,,,,
+,Barbados,,1968,0,0,,,,,
+,Barbados,,1972,0,0,,,,,
+,Barbados,,1976,0,0,,,,,
+,Barbados,,1980,0,0,,,,,
+,Barbados,,1984,0,0,,,,,
+,Barbados,,1988,0,0,,,,,
+,Barbados,,1992,0,0,,,,,
+,Barbados,,1996,0,0,,,,,
+,Barbados,,2000,1,1,,participated,1,,
+,Barbados,,2004,0,0,,,,,
+,Barbados,,2008,0,0,,,,,
+,Barbados,,2012,0,0,,,,,
+,Barbados,,2016,0,0,,,,,
+,Belarus,,1896,0,0,,,,,
+,Belarus,,1900,0,0,,,,,
+,Belarus,,1904,0,0,,,,,
+,Belarus,,1908,0,0,,,,,
+,Belarus,,1912,0,0,,,,,
+,Belarus,,1920,0,0,,,,,
+,Belarus,,1924,0,0,,,,,
+,Belarus,,1928,0,0,,,,,
+,Belarus,,1932,0,0,,,,,
+,Belarus,,1936,0,0,,,,,
+,Belarus,,1948,0,0,,,,,
+,Belarus,,1952,0,0,,,,,
+,Belarus,,1956,0,0,,,,,
+,Belarus,,1960,0,0,,,,,
+,Belarus,,1964,0,0,,,,,
+,Belarus,,1968,0,0,,,,,
+,Belarus,,1972,0,0,,,,,
+,Belarus,,1976,0,0,,,,,
+,Belarus,,1980,0,0,,,,,
+,Belarus,,1984,0,0,,,,,
+,Belarus,,1988,0,0,,,,,
+,Belarus,,1992,0,0,,,,,
+,Belarus,,1996,15,23,,participated,8,1,6
+,Belarus,,2000,17,26,,participated,11,3,3
+,Belarus,,2004,15,25,,participated,7,2,6
+,Belarus,,2008,19,32,,participated,10,4,5
+,Belarus,,2012,10,19,,participated,3,2,5
+,Belarus,,2016,9,15,,participated,4,1,4
+,Belgium,,1896,0,0,,,,,
+,Belgium,,1900,15,30,4,participated,5,5,5
+,Belgium,,1904,0,0,,,,,
+,Belgium,,1908,8,15,8,participated,2,1,5
+,Belgium,,1912,6,11,,participated,3,2,1
+,Belgium,,1920,36,75,5,hosted,11,14,11
+,Belgium,,1924,13,26,8,participated,3,3,7
+,Belgium,,1928,3,4,,participated,2,,1
+,Belgium,,1932,0,0,,,,,
+,Belgium,,1936,2,2,,participated,2,,
+,Belgium,,1948,7,13,,participated,3,2,2
+,Belgium,,1952,4,10,,participated,,2,2
+,Belgium,,1956,2,4,,participated,,,2
+,Belgium,,1960,4,6,,participated,2,,2
+,Belgium,,1964,3,7,,participated,1,2,
+,Belgium,,1968,2,3,,participated,1,,1
+,Belgium,,1972,2,4,,participated,,,2
+,Belgium,,1976,6,9,,participated,3,,3
+,Belgium,,1980,1,3,,participated,,1,
+,Belgium,,1984,4,7,,participated,2,1,1
+,Belgium,,1988,2,2,,participated,2,,
+,Belgium,,1992,3,4,,participated,2,,1
+,Belgium,,1996,6,12,,participated,2,2,2
+,Belgium,,2000,5,7,,participated,3,,2
+,Belgium,,2004,3,5,,participated,2,1,
+,Belgium,,2008,2,5,,participated,,1,1
+,Belgium,,2012,3,4,,participated,2,,1
+,Belgium,,2016,6,12,,participated,2,2,2
+,Bermuda,,1896,0,0,,,,,
+,Bermuda,,1900,0,0,,,,,
+,Bermuda,,1904,0,0,,,,,
+,Bermuda,,1908,0,0,,,,,
+,Bermuda,,1912,0,0,,,,,
+,Bermuda,,1920,0,0,,,,,
+,Bermuda,,1924,0,0,,,,,
+,Bermuda,,1928,0,0,,,,,
+,Bermuda,,1932,0,0,,,,,
+,Bermuda,,1936,0,0,,,,,
+,Bermuda,,1948,0,0,,,,,
+,Bermuda,,1952,0,0,,,,,
+,Bermuda,,1956,0,0,,,,,
+,Bermuda,,1960,0,0,,,,,
+,Bermuda,,1964,0,0,,,,,
+,Bermuda,,1968,0,0,,,,,
+,Bermuda,,1972,0,0,,,,,
+,Bermuda,,1976,1,1,,participated,1,,
+,Bermuda,,1980,0,0,,,,,
+,Bermuda,,1984,0,0,,,,,
+,Bermuda,,1988,0,0,,,,,
+,Bermuda,,1992,0,0,,,,,
+,Bermuda,,1996,0,0,,,,,
+,Bermuda,,2000,0,0,,,,,
+,Bermuda,,2004,0,0,,,,,
+,Bermuda,,2008,0,0,,,,,
+,Bermuda,,2012,0,0,,,,,
+,Bermuda,,2016,0,0,,,,,
+,Bohemia,,1896,0,0,,,,,
+,Bohemia,,1900,2,3,,participated,1,,1
+,Bohemia,,1904,0,0,,,,,
+,Bohemia,,1908,2,2,,participated,2,,
+,Bohemia,,1912,0,0,,,,,
+,Bohemia,,1920,0,0,,,,,
+,Bohemia,,1924,0,0,,,,,
+,Bohemia,,1928,0,0,,,,,
+,Bohemia,,1932,0,0,,,,,
+,Bohemia,,1936,0,0,,,,,
+,Bohemia,,1948,0,0,,,,,
+,Bohemia,,1952,0,0,,,,,
+,Bohemia,,1956,0,0,,,,,
+,Bohemia,,1960,0,0,,,,,
+,Bohemia,,1964,0,0,,,,,
+,Bohemia,,1968,0,0,,,,,
+,Bohemia,,1972,0,0,,,,,
+,Bohemia,,1976,0,0,,,,,
+,Bohemia,,1980,0,0,,,,,
+,Bohemia,,1984,0,0,,,,,
+,Bohemia,,1988,0,0,,,,,
+,Bohemia,,1992,0,0,,,,,
+,Bohemia,,1996,0,0,,,,,
+,Bohemia,,2000,0,0,,,,,
+,Bohemia,,2004,0,0,,,,,
+,Bohemia,,2008,0,0,,,,,
+,Bohemia,,2012,0,0,,,,,
+,Bohemia,,2016,0,0,,,,,
+,Botswana,,1896,0,0,,,,,
+,Botswana,,1900,0,0,,,,,
+,Botswana,,1904,0,0,,,,,
+,Botswana,,1908,0,0,,,,,
+,Botswana,,1912,0,0,,,,,
+,Botswana,,1920,0,0,,,,,
+,Botswana,,1924,0,0,,,,,
+,Botswana,,1928,0,0,,,,,
+,Botswana,,1932,0,0,,,,,
+,Botswana,,1936,0,0,,,,,
+,Botswana,,1948,0,0,,,,,
+,Botswana,,1952,0,0,,,,,
+,Botswana,,1956,0,0,,,,,
+,Botswana,,1960,0,0,,,,,
+,Botswana,,1964,0,0,,,,,
+,Botswana,,1968,0,0,,,,,
+,Botswana,,1972,0,0,,,,,
+,Botswana,,1976,0,0,,,,,
+,Botswana,,1980,0,0,,,,,
+,Botswana,,1984,0,0,,,,,
+,Botswana,,1988,0,0,,,,,
+,Botswana,,1992,0,0,,,,,
+,Botswana,,1996,0,0,,,,,
+,Botswana,,2000,0,0,,,,,
+,Botswana,,2004,0,0,,,,,
+,Botswana,,2008,0,0,,,,,
+,Botswana,,2012,1,2,,participated,,,1
+,Botswana,,2016,0,0,,,,,
+,Brazil,,1896,0,0,,,,,
+,Brazil,,1900,0,0,,,,,
+,Brazil,,1904,0,0,,,,,
+,Brazil,,1908,0,0,,,,,
+,Brazil,,1912,0,0,,,,,
+,Brazil,,1920,3,6,,participated,1,1,1
+,Brazil,,1924,0,0,,,,,
+,Brazil,,1928,0,0,,,,,
+,Brazil,,1932,0,0,,,,,
+,Brazil,,1936,0,0,,,,,
+,Brazil,,1948,1,1,,participated,1,,
+,Brazil,,1952,3,5,,participated,2,1,
+,Brazil,,1956,1,3,,participated,,1,
+,Brazil,,1960,2,2,,participated,2,,
+,Brazil,,1964,1,1,,participated,1,,
+,Brazil,,1968,3,4,,participated,2,,1
+,Brazil,,1972,2,2,,participated,2,,
+,Brazil,,1976,2,2,,participated,2,,
+,Brazil,,1980,4,8,,participated,2,2,
+,Brazil,,1984,8,15,,participated,2,1,5
+,Brazil,,1988,6,10,,participated,3,1,2
+,Brazil,,1992,3,8,,participated,,2,1
+,Brazil,,1996,15,24,,participated,9,3,3
+,Brazil,,2000,12,18,,participated,6,,6
+,Brazil,,2004,10,22,,participated,3,5,2
+,Brazil,,2008,15,25,,participated,8,3,4
+,Brazil,,2012,17,28,,participated,9,3,5
+,Brazil,,2016,19,39,,hosted,6,7,6
+,British West Indies,,1896,0,0,,,,,
+,British West Indies,,1900,0,0,,,,,
+,British West Indies,,1904,0,0,,,,,
+,British West Indies,,1908,0,0,,,,,
+,British West Indies,,1912,0,0,,,,,
+,British West Indies,,1920,0,0,,,,,
+,British West Indies,,1924,0,0,,,,,
+,British West Indies,,1928,0,0,,,,,
+,British West Indies,,1932,0,0,,,,,
+,British West Indies,,1936,0,0,,,,,
+,British West Indies,,1948,0,0,,,,,
+,British West Indies,,1952,0,0,,,,,
+,British West Indies,,1956,0,0,,,,,
+,British West Indies,,1960,2,2,,participated,2,,
+,British West Indies,,1964,0,0,,,,,
+,British West Indies,,1968,0,0,,,,,
+,British West Indies,,1972,0,0,,,,,
+,British West Indies,,1976,0,0,,,,,
+,British West Indies,,1980,0,0,,,,,
+,British West Indies,,1984,0,0,,,,,
+,British West Indies,,1988,0,0,,,,,
+,British West Indies,,1992,0,0,,,,,
+,British West Indies,,1996,0,0,,,,,
+,British West Indies,,2000,0,0,,,,,
+,British West Indies,,2004,0,0,,,,,
+,British West Indies,,2008,0,0,,,,,
+,British West Indies,,2012,0,0,,,,,
+,British West Indies,,2016,0,0,,,,,
+,Bulgaria,,1896,0,0,,,,,
+,Bulgaria,,1900,0,0,,,,,
+,Bulgaria,,1904,0,0,,,,,
+,Bulgaria,,1908,0,0,,,,,
+,Bulgaria,,1912,0,0,,,,,
+,Bulgaria,,1920,0,0,,,,,
+,Bulgaria,,1924,0,0,,,,,
+,Bulgaria,,1928,0,0,,,,,
+,Bulgaria,,1932,0,0,,,,,
+,Bulgaria,,1936,0,0,,,,,
+,Bulgaria,,1948,0,0,,,,,
+,Bulgaria,,1952,1,1,,participated,1,,
+,Bulgaria,,1956,5,10,,participated,1,1,3
+,Bulgaria,,1960,7,12,,participated,3,1,3
+,Bulgaria,,1964,10,21,,participated,2,3,5
+,Bulgaria,,1968,9,17,,participated,3,2,4
+,Bulgaria,,1972,21,43,7,participated,5,6,10
+,Bulgaria,,1976,22,43,8,participated,7,6,9
+,Bulgaria,,1980,41,73,3,participated,17,8,16
+,Bulgaria,,1984,0,0,,,,,
+,Bulgaria,,1988,35,67,5,participated,13,10,12
+,Bulgaria,,1992,16,29,,participated,6,3,7
+,Bulgaria,,1996,15,28,,participated,5,3,7
+,Bulgaria,,2000,13,29,,participated,2,5,6
+,Bulgaria,,2004,12,17,,participated,9,2,1
+,Bulgaria,,2008,5,8,,participated,3,1,1
+,Bulgaria,,2012,3,5,,participated,1,,2
+,Bulgaria,,2016,3,4,,participated,2,,1
+,Burundi,,1896,0,0,,,,,
+,Burundi,,1900,0,0,,,,,
+,Burundi,,1904,0,0,,,,,
+,Burundi,,1908,0,0,,,,,
+,Burundi,,1912,0,0,,,,,
+,Burundi,,1920,0,0,,,,,
+,Burundi,,1924,0,0,,,,,
+,Burundi,,1928,0,0,,,,,
+,Burundi,,1932,0,0,,,,,
+,Burundi,,1936,0,0,,,,,
+,Burundi,,1948,0,0,,,,,
+,Burundi,,1952,0,0,,,,,
+,Burundi,,1956,0,0,,,,,
+,Burundi,,1960,0,0,,,,,
+,Burundi,,1964,0,0,,,,,
+,Burundi,,1968,0,0,,,,,
+,Burundi,,1972,0,0,,,,,
+,Burundi,,1976,0,0,,,,,
+,Burundi,,1980,0,0,,,,,
+,Burundi,,1984,0,0,,,,,
+,Burundi,,1988,0,0,,,,,
+,Burundi,,1992,0,0,,,,,
+,Burundi,,1996,1,3,,participated,,1,
+,Burundi,,2000,0,0,,,,,
+,Burundi,,2004,0,0,,,,,
+,Burundi,,2008,0,0,,,,,
+,Burundi,,2012,0,0,,,,,
+,Burundi,,2016,1,2,,participated,,,1
+,Cameroon,,1896,0,0,,,,,
+,Cameroon,,1900,0,0,,,,,
+,Cameroon,,1904,0,0,,,,,
+,Cameroon,,1908,0,0,,,,,
+,Cameroon,,1912,0,0,,,,,
+,Cameroon,,1920,0,0,,,,,
+,Cameroon,,1924,0,0,,,,,
+,Cameroon,,1928,0,0,,,,,
+,Cameroon,,1932,0,0,,,,,
+,Cameroon,,1936,0,0,,,,,
+,Cameroon,,1948,0,0,,,,,
+,Cameroon,,1952,0,0,,,,,
+,Cameroon,,1956,0,0,,,,,
+,Cameroon,,1960,0,0,,,,,
+,Cameroon,,1964,0,0,,,,,
+,Cameroon,,1968,1,2,,participated,,,1
+,Cameroon,,1972,0,0,,,,,
+,Cameroon,,1976,0,0,,,,,
+,Cameroon,,1980,0,0,,,,,
+,Cameroon,,1984,1,1,,participated,1,,
+,Cameroon,,1988,0,0,,,,,
+,Cameroon,,1992,0,0,,,,,
+,Cameroon,,1996,0,0,,,,,
+,Cameroon,,2000,1,3,,participated,,1,
+,Cameroon,,2004,1,3,,participated,,1,
+,Cameroon,,2008,1,3,,participated,,1,
+,Cameroon,,2012,1,1,,participated,1,,
+,Cameroon,,2016,0,0,,,,,
+,Canada,,1896,0,0,,,,,
+,Canada,,1900,2,4,,participated,1,1,
+,Canada,,1904,5,14,4,participated,,4,1
+,Canada,,1908,15,24,6,participated,9,3,3
+,Canada,,1912,8,16,9,participated,3,3,2
+,Canada,,1920,9,18,,participated,3,3,3
+,Canada,,1924,4,7,,participated,1,,3
+,Canada,,1928,15,27,10,participated,7,4,4
+,Canada,,1932,15,24,10,participated,8,2,5
+,Canada,,1936,9,14,,participated,5,1,3
+,Canada,,1948,3,4,,participated,2,,1
+,Canada,,1952,3,7,,participated,,1,2
+,Canada,,1956,6,11,,participated,3,2,1
+,Canada,,1960,1,2,,participated,,,1
+,Canada,,1964,4,8,,participated,1,1,2
+,Canada,,1968,5,10,,participated,1,1,3
+,Canada,,1972,5,7,,participated,3,,2
+,Canada,,1976,11,16,,hosted,6,,5
+,Canada,,1980,0,0,,,,,
+,Canada,,1984,44,82,4,participated,16,10,18
+,Canada,,1988,10,18,,participated,5,3,2
+,Canada,,1992,18,36,,participated,7,7,4
+,Canada,,1996,22,39,,participated,8,3,11
+,Canada,,2000,14,23,,participated,8,3,3
+,Canada,,2004,12,24,,participated,3,3,6
+,Canada,,2008,18,33,,participated,6,3,9
+,Canada,,2012,18,27,,participated,11,2,5
+,Canada,,2016,22,33,,participated,15,4,3
+,Chile,,1896,0,0,,,,,
+,Chile,,1900,0,0,,,,,
+,Chile,,1904,0,0,,,,,
+,Chile,,1908,0,0,,,,,
+,Chile,,1912,0,0,,,,,
+,Chile,,1920,0,0,,,,,
+,Chile,,1924,0,0,,,,,
+,Chile,,1928,1,2,,participated,,,1
+,Chile,,1932,0,0,,,,,
+,Chile,,1936,0,0,,,,,
+,Chile,,1948,0,0,,,,,
+,Chile,,1952,2,4,,participated,,,2
+,Chile,,1956,4,6,,participated,2,,2
+,Chile,,1960,0,0,,,,,
+,Chile,,1964,0,0,,,,,
+,Chile,,1968,0,0,,,,,
+,Chile,,1972,0,0,,,,,
+,Chile,,1976,0,0,,,,,
+,Chile,,1980,0,0,,,,,
+,Chile,,1984,0,0,,,,,
+,Chile,,1988,1,2,,participated,,,1
+,Chile,,1992,0,0,,,,,
+,Chile,,1996,0,0,,,,,
+,Chile,,2000,1,1,,participated,1,,
+,Chile,,2004,3,7,,participated,1,2,
+,Chile,,2008,1,2,,participated,,,1
+,Chile,,2012,0,0,,,,,
+,Chile,,2016,0,0,,,,,
+,China,,1896,0,0,,,,,
+,China,,1900,0,0,,,,,
+,China,,1904,0,0,,,,,
+,China,,1908,0,0,,,,,
+,China,,1912,0,0,,,,,
+,China,,1920,0,0,,,,,
+,China,,1924,0,0,,,,,
+,China,,1928,0,0,,,,,
+,China,,1932,0,0,,,,,
+,China,,1936,0,0,,,,,
+,China,,1948,0,0,,,,,
+,China,,1952,0,0,,,,,
+,China,,1956,0,0,,,,,
+,China,,1960,0,0,,,,,
+,China,,1964,0,0,,,,,
+,China,,1968,0,0,,,,,
+,China,,1972,0,0,,,,,
+,China,,1976,0,0,,,,,
+,China,,1980,0,0,,,,,
+,China,,1984,32,70,5,participated,9,15,8
+,China,,1988,28,49,8,participated,12,5,11
+,China,,1992,53,107,4,participated,15,16,22
+,China,,1996,50,104,4,participated,12,16,22
+,China,,2000,58,130,3,participated,14,28,16
+,China,,2004,63,144,3,participated,14,32,17
+,China,,2008,100,223,1,hosted,28,51,21
+,China,,2012,91,196,2,participated,22,36,33
+,China,,2016,70,140,3,participated,26,26,18
+,Chinese Taipei,,1896,0,0,,,,,
+,Chinese Taipei,,1900,0,0,,,,,
+,Chinese Taipei,,1904,0,0,,,,,
+,Chinese Taipei,,1908,0,0,,,,,
+,Chinese Taipei,,1912,0,0,,,,,
+,Chinese Taipei,,1920,0,0,,,,,
+,Chinese Taipei,,1924,0,0,,,,,
+,Chinese Taipei,,1928,0,0,,,,,
+,Chinese Taipei,,1932,0,0,,,,,
+,Chinese Taipei,,1936,0,0,,,,,
+,Chinese Taipei,,1948,0,0,,,,,
+,Chinese Taipei,,1952,0,0,,,,,
+,Chinese Taipei,,1956,0,0,,,,,
+,Chinese Taipei,,1960,1,2,,participated,,,1
+,Chinese Taipei,,1964,0,0,,,,,
+,Chinese Taipei,,1968,1,1,,participated,1,,
+,Chinese Taipei,,1972,0,0,,,,,
+,Chinese Taipei,,1976,0,0,,,,,
+,Chinese Taipei,,1980,0,0,,,,,
+,Chinese Taipei,,1984,1,1,,participated,1,,
+,Chinese Taipei,,1988,0,0,,,,,
+,Chinese Taipei,,1992,1,2,,participated,,,1
+,Chinese Taipei,,1996,1,2,,participated,,,1
+,Chinese Taipei,,2000,5,6,,participated,4,,1
+,Chinese Taipei,,2004,5,11,,participated,1,2,2
+,Chinese Taipei,,2008,4,4,,participated,4,,
+,Chinese Taipei,,2012,2,4,,participated,1,1,
+,Chinese Taipei,,2016,3,5,,participated,2,1,
+,Colombia,,1896,0,0,,,,,
+,Colombia,,1900,0,0,,,,,
+,Colombia,,1904,0,0,,,,,
+,Colombia,,1908,0,0,,,,,
+,Colombia,,1912,0,0,,,,,
+,Colombia,,1920,0,0,,,,,
+,Colombia,,1924,0,0,,,,,
+,Colombia,,1928,0,0,,,,,
+,Colombia,,1932,0,0,,,,,
+,Colombia,,1936,0,0,,,,,
+,Colombia,,1948,0,0,,,,,
+,Colombia,,1952,0,0,,,,,
+,Colombia,,1956,0,0,,,,,
+,Colombia,,1960,0,0,,,,,
+,Colombia,,1964,0,0,,,,,
+,Colombia,,1968,0,0,,,,,
+,Colombia,,1972,3,4,,participated,2,,1
+,Colombia,,1976,0,0,,,,,
+,Colombia,,1980,0,0,,,,,
+,Colombia,,1984,1,2,,participated,,,1
+,Colombia,,1988,1,1,,participated,1,,
+,Colombia,,1992,1,1,,participated,1,,
+,Colombia,,1996,0,0,,,,,
+,Colombia,,2000,1,3,,participated,,1,
+,Colombia,,2004,2,2,,participated,2,,
+,Colombia,,2008,2,3,,participated,1,,1
+,Colombia,,2012,8,13,,participated,4,1,3
+,Colombia,,2016,8,16,,participated,3,3,2
+,Costa Rica,,1896,0,0,,,,,
+,Costa Rica,,1900,0,0,,,,,
+,Costa Rica,,1904,0,0,,,,,
+,Costa Rica,,1908,0,0,,,,,
+,Costa Rica,,1912,0,0,,,,,
+,Costa Rica,,1920,0,0,,,,,
+,Costa Rica,,1924,0,0,,,,,
+,Costa Rica,,1928,0,0,,,,,
+,Costa Rica,,1932,0,0,,,,,
+,Costa Rica,,1936,0,0,,,,,
+,Costa Rica,,1948,0,0,,,,,
+,Costa Rica,,1952,0,0,,,,,
+,Costa Rica,,1956,0,0,,,,,
+,Costa Rica,,1960,0,0,,,,,
+,Costa Rica,,1964,0,0,,,,,
+,Costa Rica,,1968,0,0,,,,,
+,Costa Rica,,1972,0,0,,,,,
+,Costa Rica,,1976,0,0,,,,,
+,Costa Rica,,1980,0,0,,,,,
+,Costa Rica,,1984,0,0,,,,,
+,Costa Rica,,1988,1,2,,participated,,,1
+,Costa Rica,,1992,0,0,,,,,
+,Costa Rica,,1996,1,3,,participated,,1,
+,Costa Rica,,2000,2,2,,participated,2,,
+,Costa Rica,,2004,0,0,,,,,
+,Costa Rica,,2008,0,0,,,,,
+,Costa Rica,,2012,0,0,,,,,
+,Costa Rica,,2016,0,0,,,,,
+,Côte d'Ivoire,,1896,0,0,,,,,
+,Côte d'Ivoire,,1900,0,0,,,,,
+,Côte d'Ivoire,,1904,0,0,,,,,
+,Côte d'Ivoire,,1908,0,0,,,,,
+,Côte d'Ivoire,,1912,0,0,,,,,
+,Côte d'Ivoire,,1920,0,0,,,,,
+,Côte d'Ivoire,,1924,0,0,,,,,
+,Côte d'Ivoire,,1928,0,0,,,,,
+,Côte d'Ivoire,,1932,0,0,,,,,
+,Côte d'Ivoire,,1936,0,0,,,,,
+,Côte d'Ivoire,,1948,0,0,,,,,
+,Côte d'Ivoire,,1952,0,0,,,,,
+,Côte d'Ivoire,,1956,0,0,,,,,
+,Côte d'Ivoire,,1960,0,0,,,,,
+,Côte d'Ivoire,,1964,0,0,,,,,
+,Côte d'Ivoire,,1968,0,0,,,,,
+,Côte d'Ivoire,,1972,0,0,,,,,
+,Côte d'Ivoire,,1976,0,0,,,,,
+,Côte d'Ivoire,,1980,0,0,,,,,
+,Côte d'Ivoire,,1984,1,2,,participated,,,1
+,Côte d'Ivoire,,1988,0,0,,,,,
+,Côte d'Ivoire,,1992,0,0,,,,,
+,Côte d'Ivoire,,1996,0,0,,,,,
+,Côte d'Ivoire,,2000,0,0,,,,,
+,Côte d'Ivoire,,2004,0,0,,,,,
+,Côte d'Ivoire,,2008,0,0,,,,,
+,Côte d'Ivoire,,2012,0,0,,,,,
+,Côte d'Ivoire,,2016,0,0,,,,,
+,Croatia,,1896,0,0,,,,,
+,Croatia,,1900,0,0,,,,,
+,Croatia,,1904,0,0,,,,,
+,Croatia,,1908,0,0,,,,,
+,Croatia,,1912,0,0,,,,,
+,Croatia,,1920,0,0,,,,,
+,Croatia,,1924,0,0,,,,,
+,Croatia,,1928,0,0,,,,,
+,Croatia,,1932,0,0,,,,,
+,Croatia,,1936,0,0,,,,,
+,Croatia,,1948,0,0,,,,,
+,Croatia,,1952,0,0,,,,,
+,Croatia,,1956,0,0,,,,,
+,Croatia,,1960,0,0,,,,,
+,Croatia,,1964,0,0,,,,,
+,Croatia,,1968,0,0,,,,,
+,Croatia,,1972,0,0,,,,,
+,Croatia,,1976,0,0,,,,,
+,Croatia,,1980,0,0,,,,,
+,Croatia,,1984,0,0,,,,,
+,Croatia,,1988,0,0,,,,,
+,Croatia,,1992,3,4,,participated,2,,1
+,Croatia,,1996,2,5,,participated,,1,1
+,Croatia,,2000,2,4,,participated,1,1,
+,Croatia,,2004,5,9,,participated,2,1,2
+,Croatia,,2008,5,7,,participated,3,,2
+,Croatia,,2012,6,13,,participated,2,3,1
+,Croatia,,2016,10,23,,participated,2,5,3
+,Cuba,,1896,0,0,,,,,
+,Cuba,,1900,2,5,,participated,,1,1
+,Cuba,,1904,9,19,3,participated,3,4,2
+,Cuba,,1908,0,0,,,,,
+,Cuba,,1912,0,0,,,,,
+,Cuba,,1920,0,0,,,,,
+,Cuba,,1924,0,0,,,,,
+,Cuba,,1928,0,0,,,,,
+,Cuba,,1932,0,0,,,,,
+,Cuba,,1936,0,0,,,,,
+,Cuba,,1948,1,2,,participated,,,1
+,Cuba,,1952,0,0,,,,,
+,Cuba,,1956,0,0,,,,,
+,Cuba,,1960,0,0,,,,,
+,Cuba,,1964,1,2,,participated,,,1
+,Cuba,,1968,4,8,,participated,,,4
+,Cuba,,1972,8,15,,participated,4,3,1
+,Cuba,,1976,13,29,10,participated,3,6,4
+,Cuba,,1980,20,43,6,participated,5,8,7
+,Cuba,,1984,0,0,,,,,
+,Cuba,,1988,0,0,,,,,
+,Cuba,,1992,31,65,5,participated,11,14,6
+,Cuba,,1996,25,51,9,participated,8,9,8
+,Cuba,,2000,29,62,8,participated,7,11,11
+,Cuba,,2004,27,52,,participated,11,9,7
+,Cuba,,2008,24,39,,participated,11,2,11
+,Cuba,,2012,15,28,,participated,7,5,3
+,Cuba,,2016,11,23,,participated,4,5,2
+,Cyprus,,1896,0,0,,,,,
+,Cyprus,,1900,0,0,,,,,
+,Cyprus,,1904,0,0,,,,,
+,Cyprus,,1908,0,0,,,,,
+,Cyprus,,1912,0,0,,,,,
+,Cyprus,,1920,0,0,,,,,
+,Cyprus,,1924,0,0,,,,,
+,Cyprus,,1928,0,0,,,,,
+,Cyprus,,1932,0,0,,,,,
+,Cyprus,,1936,0,0,,,,,
+,Cyprus,,1948,0,0,,,,,
+,Cyprus,,1952,0,0,,,,,
+,Cyprus,,1956,0,0,,,,,
+,Cyprus,,1960,0,0,,,,,
+,Cyprus,,1964,0,0,,,,,
+,Cyprus,,1968,0,0,,,,,
+,Cyprus,,1972,0,0,,,,,
+,Cyprus,,1976,0,0,,,,,
+,Cyprus,,1980,0,0,,,,,
+,Cyprus,,1984,0,0,,,,,
+,Cyprus,,1988,0,0,,,,,
+,Cyprus,,1992,0,0,,,,,
+,Cyprus,,1996,0,0,,,,,
+,Cyprus,,2000,0,0,,,,,
+,Cyprus,,2004,0,0,,,,,
+,Cyprus,,2008,0,0,,,,,
+,Cyprus,,2012,1,2,,participated,,,1
+,Cyprus,,2016,0,0,,,,,
+,Czech Republic,,1896,0,0,,,,,
+,Czech Republic,,1900,0,0,,,,,
+,Czech Republic,,1904,0,0,,,,,
+,Czech Republic,,1908,0,0,,,,,
+,Czech Republic,,1912,0,0,,,,,
+,Czech Republic,,1920,0,0,,,,,
+,Czech Republic,,1924,0,0,,,,,
+,Czech Republic,,1928,0,0,,,,,
+,Czech Republic,,1932,0,0,,,,,
+,Czech Republic,,1936,0,0,,,,,
+,Czech Republic,,1948,0,0,,,,,
+,Czech Republic,,1952,0,0,,,,,
+,Czech Republic,,1956,0,0,,,,,
+,Czech Republic,,1960,0,0,,,,,
+,Czech Republic,,1964,0,0,,,,,
+,Czech Republic,,1968,0,0,,,,,
+,Czech Republic,,1972,0,0,,,,,
+,Czech Republic,,1976,0,0,,,,,
+,Czech Republic,,1980,0,0,,,,,
+,Czech Republic,,1984,0,0,,,,,
+,Czech Republic,,1988,0,0,,,,,
+,Czech Republic,,1992,0,0,,,,,
+,Czech Republic,,1996,11,22,,participated,4,4,3
+,Czech Republic,,2000,8,15,,participated,3,2,3
+,Czech Republic,,2004,8,13,,participated,4,1,3
+,Czech Republic,,2008,6,15,,participated,,3,3
+,Czech Republic,,2012,11,22,,participated,4,4,3
+,Czech Republic,,2016,10,14,,participated,7,1,2
+,Czechoslovakia,,1896,0,0,,,,,
+,Czechoslovakia,,1900,0,0,,,,,
+,Czechoslovakia,,1904,0,0,,,,,
+,Czechoslovakia,,1908,0,0,,,,,
+,Czechoslovakia,,1912,0,0,,,,,
+,Czechoslovakia,,1920,2,2,,participated,2,,
+,Czechoslovakia,,1924,10,16,,participated,5,1,4
+,Czechoslovakia,,1928,9,18,,participated,2,2,5
+,Czechoslovakia,,1932,4,8,,participated,1,1,2
+,Czechoslovakia,,1936,8,19,,participated,,3,5
+,Czechoslovakia,,1948,11,25,,participated,3,6,2
+,Czechoslovakia,,1952,13,30,9,participated,3,7,3
+,Czechoslovakia,,1956,6,12,,participated,1,1,4
+,Czechoslovakia,,1960,8,16,,participated,3,3,2
+,Czechoslovakia,,1964,14,30,10,participated,3,5,6
+,Czechoslovakia,,1968,13,29,10,participated,4,7,2
+,Czechoslovakia,,1972,8,16,,participated,2,2,4
+,Czechoslovakia,,1976,8,14,,participated,4,2,2
+,Czechoslovakia,,1980,14,21,,participated,9,2,3
+,Czechoslovakia,,1984,0,0,,,,,
+,Czechoslovakia,,1988,8,17,,participated,2,3,3
+,Czechoslovakia,,1992,7,17,,participated,1,4,2
+,Czechoslovakia,,1996,0,0,,,,,
+,Czechoslovakia,,2000,0,0,,,,,
+,Czechoslovakia,,2004,0,0,,,,,
+,Czechoslovakia,,2008,0,0,,,,,
+,Czechoslovakia,,2012,0,0,,,,,
+,Czechoslovakia,,2016,0,0,,,,,
+,Denmark,,1896,6,10,8,participated,3,1,2
+,Denmark,,1900,6,11,8,participated,2,1,3
+,Denmark,,1904,0,0,,,,,
+,Denmark,,1908,5,7,,participated,3,,2
+,Denmark,,1912,12,20,7,participated,5,1,6
+,Denmark,,1920,13,28,9,participated,1,3,9
+,Denmark,,1924,9,18,,participated,2,2,5
+,Denmark,,1928,7,14,,participated,3,3,1
+,Denmark,,1932,6,9,,participated,3,,3
+,Denmark,,1936,5,7,,participated,3,,2
+,Denmark,,1948,20,37,8,participated,8,5,7
+,Denmark,,1952,6,11,,participated,3,2,1
+,Denmark,,1956,4,8,,participated,1,1,2
+,Denmark,,1960,6,13,,participated,1,2,3
+,Denmark,,1964,6,11,,participated,3,2,1
+,Denmark,,1968,8,14,,participated,3,1,4
+,Denmark,,1972,1,3,,participated,,1,
+,Denmark,,1976,3,5,,participated,2,1,
+,Denmark,,1980,5,10,,participated,2,2,1
+,Denmark,,1984,6,9,,participated,3,,3
+,Denmark,,1988,4,9,,participated,1,2,1
+,Denmark,,1992,6,9,,participated,4,1,1
+,Denmark,,1996,6,15,,participated,1,4,1
+,Denmark,,2000,6,13,,participated,1,2,3
+,Denmark,,2004,8,12,,participated,6,2,
+,Denmark,,2008,7,13,,participated,3,2,2
+,Denmark,,2012,9,17,,participated,3,2,4
+,Denmark,,2016,15,25,,participated,7,2,6
+,Djibouti,,1896,0,0,,,,,
+,Djibouti,,1900,0,0,,,,,
+,Djibouti,,1904,0,0,,,,,
+,Djibouti,,1908,0,0,,,,,
+,Djibouti,,1912,0,0,,,,,
+,Djibouti,,1920,0,0,,,,,
+,Djibouti,,1924,0,0,,,,,
+,Djibouti,,1928,0,0,,,,,
+,Djibouti,,1932,0,0,,,,,
+,Djibouti,,1936,0,0,,,,,
+,Djibouti,,1948,0,0,,,,,
+,Djibouti,,1952,0,0,,,,,
+,Djibouti,,1956,0,0,,,,,
+,Djibouti,,1960,0,0,,,,,
+,Djibouti,,1964,0,0,,,,,
+,Djibouti,,1968,0,0,,,,,
+,Djibouti,,1972,0,0,,,,,
+,Djibouti,,1976,0,0,,,,,
+,Djibouti,,1980,0,0,,,,,
+,Djibouti,,1984,0,0,,,,,
+,Djibouti,,1988,1,1,,participated,1,,
+,Djibouti,,1992,0,0,,,,,
+,Djibouti,,1996,0,0,,,,,
+,Djibouti,,2000,0,0,,,,,
+,Djibouti,,2004,0,0,,,,,
+,Djibouti,,2008,0,0,,,,,
+,Djibouti,,2012,0,0,,,,,
+,Djibouti,,2016,0,0,,,,,
+,Dominican Republic,,1896,0,0,,,,,
+,Dominican Republic,,1900,0,0,,,,,
+,Dominican Republic,,1904,0,0,,,,,
+,Dominican Republic,,1908,0,0,,,,,
+,Dominican Republic,,1912,0,0,,,,,
+,Dominican Republic,,1920,0,0,,,,,
+,Dominican Republic,,1924,0,0,,,,,
+,Dominican Republic,,1928,0,0,,,,,
+,Dominican Republic,,1932,0,0,,,,,
+,Dominican Republic,,1936,0,0,,,,,
+,Dominican Republic,,1948,0,0,,,,,
+,Dominican Republic,,1952,0,0,,,,,
+,Dominican Republic,,1956,0,0,,,,,
+,Dominican Republic,,1960,0,0,,,,,
+,Dominican Republic,,1964,0,0,,,,,
+,Dominican Republic,,1968,0,0,,,,,
+,Dominican Republic,,1972,0,0,,,,,
+,Dominican Republic,,1976,0,0,,,,,
+,Dominican Republic,,1980,0,0,,,,,
+,Dominican Republic,,1984,1,1,,participated,1,,
+,Dominican Republic,,1988,0,0,,,,,
+,Dominican Republic,,1992,0,0,,,,,
+,Dominican Republic,,1996,0,0,,,,,
+,Dominican Republic,,2000,0,0,,,,,
+,Dominican Republic,,2004,1,3,,participated,,1,
+,Dominican Republic,,2008,2,5,,participated,,1,1
+,Dominican Republic,,2012,2,5,,participated,,1,1
+,Dominican Republic,,2016,1,1,,participated,1,,
+,East Germany,,1896,0,0,,,,,
+,East Germany,,1900,0,0,,,,,
+,East Germany,,1904,0,0,,,,,
+,East Germany,,1908,0,0,,,,,
+,East Germany,,1912,0,0,,,,,
+,East Germany,,1920,0,0,,,,,
+,East Germany,,1924,0,0,,,,,
+,East Germany,,1928,0,0,,,,,
+,East Germany,,1932,0,0,,,,,
+,East Germany,,1936,0,0,,,,,
+,East Germany,,1948,0,0,,,,,
+,East Germany,,1952,0,0,,,,,
+,East Germany,,1956,0,0,,,,,
+,East Germany,,1960,0,0,,,,,
+,East Germany,,1964,0,0,,,,,
+,East Germany,,1968,25,52,5,participated,7,9,9
+,East Germany,,1972,66,129,3,participated,23,20,23
+,East Germany,,1976,90,195,3,participated,25,40,25
+,East Germany,,1980,126,257,2,participated,42,47,37
+,East Germany,,1984,0,0,,,,,
+,East Germany,,1988,102,211,2,participated,30,37,35
+,East Germany,,1992,0,0,,,,,
+,East Germany,,1996,0,0,,,,,
+,East Germany,,2000,0,0,,,,,
+,East Germany,,2004,0,0,,,,,
+,East Germany,,2008,0,0,,,,,
+,East Germany,,2012,0,0,,,,,
+,East Germany,,2016,0,0,,,,,
+,Ecuador,,1896,0,0,,,,,
+,Ecuador,,1900,0,0,,,,,
+,Ecuador,,1904,0,0,,,,,
+,Ecuador,,1908,0,0,,,,,
+,Ecuador,,1912,0,0,,,,,
+,Ecuador,,1920,0,0,,,,,
+,Ecuador,,1924,0,0,,,,,
+,Ecuador,,1928,0,0,,,,,
+,Ecuador,,1932,0,0,,,,,
+,Ecuador,,1936,0,0,,,,,
+,Ecuador,,1948,0,0,,,,,
+,Ecuador,,1952,0,0,,,,,
+,Ecuador,,1956,0,0,,,,,
+,Ecuador,,1960,0,0,,,,,
+,Ecuador,,1964,0,0,,,,,
+,Ecuador,,1968,0,0,,,,,
+,Ecuador,,1972,0,0,,,,,
+,Ecuador,,1976,0,0,,,,,
+,Ecuador,,1980,0,0,,,,,
+,Ecuador,,1984,0,0,,,,,
+,Ecuador,,1988,0,0,,,,,
+,Ecuador,,1992,0,0,,,,,
+,Ecuador,,1996,1,3,,participated,,1,
+,Ecuador,,2000,0,0,,,,,
+,Ecuador,,2004,0,0,,,,,
+,Ecuador,,2008,1,2,,participated,,,1
+,Ecuador,,2012,0,0,,,,,
+,Ecuador,,2016,0,0,,,,,
+,Egypt,,1896,0,0,,,,,
+,Egypt,,1900,0,0,,,,,
+,Egypt,,1904,0,0,,,,,
+,Egypt,,1908,0,0,,,,,
+,Egypt,,1912,0,0,,,,,
+,Egypt,,1920,0,0,,,,,
+,Egypt,,1924,0,0,,,,,
+,Egypt,,1928,4,9,,participated,1,2,1
+,Egypt,,1932,0,0,,,,,
+,Egypt,,1936,5,10,,participated,2,2,1
+,Egypt,,1948,5,11,,participated,1,2,2
+,Egypt,,1952,1,1,,participated,1,,
+,Egypt,,1956,0,0,,,,,
+,Egypt,,1960,2,3,,participated,1,,1
+,Egypt,,1964,0,0,,,,,
+,Egypt,,1968,0,0,,,,,
+,Egypt,,1972,0,0,,,,,
+,Egypt,,1976,0,0,,,,,
+,Egypt,,1980,0,0,,,,,
+,Egypt,,1984,1,2,,participated,,,1
+,Egypt,,1988,0,0,,,,,
+,Egypt,,1992,0,0,,,,,
+,Egypt,,1996,0,0,,,,,
+,Egypt,,2000,0,0,,,,,
+,Egypt,,2004,5,8,,participated,3,1,1
+,Egypt,,2008,1,1,,participated,1,,
+,Egypt,,2012,4,7,,participated,1,,3
+,Egypt,,2016,3,3,,participated,3,,
+,Eritrea,,1896,0,0,,,,,
+,Eritrea,,1900,0,0,,,,,
+,Eritrea,,1904,0,0,,,,,
+,Eritrea,,1908,0,0,,,,,
+,Eritrea,,1912,0,0,,,,,
+,Eritrea,,1920,0,0,,,,,
+,Eritrea,,1924,0,0,,,,,
+,Eritrea,,1928,0,0,,,,,
+,Eritrea,,1932,0,0,,,,,
+,Eritrea,,1936,0,0,,,,,
+,Eritrea,,1948,0,0,,,,,
+,Eritrea,,1952,0,0,,,,,
+,Eritrea,,1956,0,0,,,,,
+,Eritrea,,1960,0,0,,,,,
+,Eritrea,,1964,0,0,,,,,
+,Eritrea,,1968,0,0,,,,,
+,Eritrea,,1972,0,0,,,,,
+,Eritrea,,1976,0,0,,,,,
+,Eritrea,,1980,0,0,,,,,
+,Eritrea,,1984,0,0,,,,,
+,Eritrea,,1988,0,0,,,,,
+,Eritrea,,1992,0,0,,,,,
+,Eritrea,,1996,0,0,,,,,
+,Eritrea,,2000,0,0,,,,,
+,Eritrea,,2004,1,1,,participated,1,,
+,Eritrea,,2008,0,0,,,,,
+,Eritrea,,2012,0,0,,,,,
+,Eritrea,,2016,0,0,,,,,
+,Estonia,,1896,0,0,,,,,
+,Estonia,,1900,0,0,,,,,
+,Estonia,,1904,0,0,,,,,
+,Estonia,,1908,0,0,,,,,
+,Estonia,,1912,0,0,,,,,
+,Estonia,,1920,3,7,,participated,,1,2
+,Estonia,,1924,6,9,,participated,4,1,1
+,Estonia,,1928,5,10,,participated,2,2,1
+,Estonia,,1932,0,0,,,,,
+,Estonia,,1936,7,13,,participated,3,2,2
+,Estonia,,1948,0,0,,,,,
+,Estonia,,1952,0,0,,,,,
+,Estonia,,1956,0,0,,,,,
+,Estonia,,1960,0,0,,,,,
+,Estonia,,1964,0,0,,,,,
+,Estonia,,1968,0,0,,,,,
+,Estonia,,1972,0,0,,,,,
+,Estonia,,1976,0,0,,,,,
+,Estonia,,1980,0,0,,,,,
+,Estonia,,1984,0,0,,,,,
+,Estonia,,1988,0,0,,,,,
+,Estonia,,1992,2,4,,participated,1,1,
+,Estonia,,1996,0,0,,,,,
+,Estonia,,2000,3,5,,participated,2,1,
+,Estonia,,2004,3,4,,participated,2,,1
+,Estonia,,2008,2,5,,participated,,1,1
+,Estonia,,2012,2,3,,participated,1,,1
+,Estonia,,2016,1,1,,participated,1,,
+,Ethiopia,,1896,0,0,,,,,
+,Ethiopia,,1900,0,0,,,,,
+,Ethiopia,,1904,0,0,,,,,
+,Ethiopia,,1908,0,0,,,,,
+,Ethiopia,,1912,0,0,,,,,
+,Ethiopia,,1920,0,0,,,,,
+,Ethiopia,,1924,0,0,,,,,
+,Ethiopia,,1928,0,0,,,,,
+,Ethiopia,,1932,0,0,,,,,
+,Ethiopia,,1936,0,0,,,,,
+,Ethiopia,,1948,0,0,,,,,
+,Ethiopia,,1952,0,0,,,,,
+,Ethiopia,,1956,0,0,,,,,
+,Ethiopia,,1960,1,3,,participated,,1,
+,Ethiopia,,1964,1,3,,participated,,1,
+,Ethiopia,,1968,2,5,,participated,,1,1
+,Ethiopia,,1972,2,2,,participated,2,,
+,Ethiopia,,1976,0,0,,,,,
+,Ethiopia,,1980,4,8,,participated,2,2,
+,Ethiopia,,1984,0,0,,,,,
+,Ethiopia,,1988,0,0,,,,,
+,Ethiopia,,1992,3,5,,participated,2,1,
+,Ethiopia,,1996,3,7,,participated,1,2,
+,Ethiopia,,2000,8,17,,participated,3,4,1
+,Ethiopia,,2004,7,14,,participated,2,2,3
+,Ethiopia,,2008,7,16,,participated,2,4,1
+,Ethiopia,,2012,8,16,,participated,3,3,2
+,Ethiopia,,2016,8,12,,participated,5,1,2
+,Fiji,,1896,0,0,,,,,
+,Fiji,,1900,0,0,,,,,
+,Fiji,,1904,0,0,,,,,
+,Fiji,,1908,0,0,,,,,
+,Fiji,,1912,0,0,,,,,
+,Fiji,,1920,0,0,,,,,
+,Fiji,,1924,0,0,,,,,
+,Fiji,,1928,0,0,,,,,
+,Fiji,,1932,0,0,,,,,
+,Fiji,,1936,0,0,,,,,
+,Fiji,,1948,0,0,,,,,
+,Fiji,,1952,0,0,,,,,
+,Fiji,,1956,0,0,,,,,
+,Fiji,,1960,0,0,,,,,
+,Fiji,,1964,0,0,,,,,
+,Fiji,,1968,0,0,,,,,
+,Fiji,,1972,0,0,,,,,
+,Fiji,,1976,0,0,,,,,
+,Fiji,,1980,0,0,,,,,
+,Fiji,,1984,0,0,,,,,
+,Fiji,,1988,0,0,,,,,
+,Fiji,,1992,0,0,,,,,
+,Fiji,,1996,0,0,,,,,
+,Fiji,,2000,0,0,,,,,
+,Fiji,,2004,0,0,,,,,
+,Fiji,,2008,0,0,,,,,
+,Fiji,,2012,0,0,,,,,
+,Fiji,,2016,1,3,,participated,,1,
+,Finland,,1896,0,0,,,,,
+,Finland,,1900,0,0,,,,,
+,Finland,,1904,0,0,,,,,
+,Finland,,1908,5,8,,participated,3,1,1
+,Finland,,1912,26,52,4,participated,9,9,8
+,Finland,,1920,34,74,6,participated,9,15,10
+,Finland,,1924,37,78,2,participated,10,14,13
+,Finland,,1928,25,49,3,participated,9,8,8
+,Finland,,1932,25,43,5,participated,12,5,8
+,Finland,,1936,19,39,4,participated,6,7,6
+,Finland,,1948,18,37,9,participated,5,6,7
+,Finland,,1952,22,37,6,hosted,13,6,3
+,Finland,,1956,15,22,,participated,11,3,1
+,Finland,,1960,5,8,,participated,3,1,1
+,Finland,,1964,5,11,,participated,2,3,
+,Finland,,1968,4,8,,participated,1,1,2
+,Finland,,1972,8,15,,participated,4,3,1
+,Finland,,1976,6,16,,participated,,4,2
+,Finland,,1980,8,15,,participated,4,3,1
+,Finland,,1984,12,22,,participated,6,4,2
+,Finland,,1988,4,7,,participated,2,1,1
+,Finland,,1992,5,9,,participated,2,1,2
+,Finland,,1996,4,8,,participated,1,1,2
+,Finland,,2000,4,9,,participated,1,2,1
+,Finland,,2004,2,4,,participated,,,2
+,Finland,,2008,4,7,,participated,2,1,1
+,Finland,,2012,3,5,,participated,1,,2
+,Finland,,2016,1,1,,participated,1,,
+,France,,1896,11,25,4,participated,2,5,4
+,France,,1900,87,171,1,hosted,27,24,36
+,France,,1904,0,0,,,,,
+,France,,1908,19,34,4,participated,9,5,5
+,France,,1912,14,32,6,participated,3,7,4
+,France,,1920,41,78,4,participated,13,9,19
+,France,,1924,37,77,3,hosted,10,13,14
+,France,,1928,21,44,5,participated,5,7,9
+,France,,1932,19,44,4,participated,4,10,5
+,France,,1936,19,39,5,participated,6,7,6
+,France,,1948,29,55,3,participated,13,10,6
+,France,,1952,18,36,7,participated,6,6,6
+,France,,1956,14,26,10,participated,6,4,4
+,France,,1960,5,7,,participated,3,,2
+,France,,1964,15,25,,participated,6,1,8
+,France,,1968,15,32,8,participated,5,7,3
+,France,,1972,13,21,,participated,7,2,4
+,France,,1976,9,16,,participated,4,2,3
+,France,,1980,14,31,10,participated,3,6,5
+,France,,1984,28,45,9,participated,16,5,7
+,France,,1988,16,32,,participated,6,6,4
+,France,,1992,29,50,10,participated,16,8,5
+,France,,1996,37,74,5,participated,15,15,7
+,France,,2000,38,78,6,participated,11,13,14
+,France,,2004,33,64,7,participated,13,11,9
+,France,,2008,41,71,7,participated,18,7,16
+,France,,2012,35,68,6,participated,13,11,11
+,France,,2016,42,80,6,participated,14,10,18
+,Gabon,,1896,0,0,,,,,
+,Gabon,,1900,0,0,,,,,
+,Gabon,,1904,0,0,,,,,
+,Gabon,,1908,0,0,,,,,
+,Gabon,,1912,0,0,,,,,
+,Gabon,,1920,0,0,,,,,
+,Gabon,,1924,0,0,,,,,
+,Gabon,,1928,0,0,,,,,
+,Gabon,,1932,0,0,,,,,
+,Gabon,,1936,0,0,,,,,
+,Gabon,,1948,0,0,,,,,
+,Gabon,,1952,0,0,,,,,
+,Gabon,,1956,0,0,,,,,
+,Gabon,,1960,0,0,,,,,
+,Gabon,,1964,0,0,,,,,
+,Gabon,,1968,0,0,,,,,
+,Gabon,,1972,0,0,,,,,
+,Gabon,,1976,0,0,,,,,
+,Gabon,,1980,0,0,,,,,
+,Gabon,,1984,0,0,,,,,
+,Gabon,,1988,0,0,,,,,
+,Gabon,,1992,0,0,,,,,
+,Gabon,,1996,0,0,,,,,
+,Gabon,,2000,0,0,,,,,
+,Gabon,,2004,0,0,,,,,
+,Gabon,,2008,0,0,,,,,
+,Gabon,,2012,1,2,,participated,,,1
+,Gabon,,2016,0,0,,,,,
+,Georgia,,1896,0,0,,,,,
+,Georgia,,1900,0,0,,,,,
+,Georgia,,1904,0,0,,,,,
+,Georgia,,1908,0,0,,,,,
+,Georgia,,1912,0,0,,,,,
+,Georgia,,1920,0,0,,,,,
+,Georgia,,1924,0,0,,,,,
+,Georgia,,1928,0,0,,,,,
+,Georgia,,1932,0,0,,,,,
+,Georgia,,1936,0,0,,,,,
+,Georgia,,1948,0,0,,,,,
+,Georgia,,1952,0,0,,,,,
+,Georgia,,1956,0,0,,,,,
+,Georgia,,1960,0,0,,,,,
+,Georgia,,1964,0,0,,,,,
+,Georgia,,1968,0,0,,,,,
+,Georgia,,1972,0,0,,,,,
+,Georgia,,1976,0,0,,,,,
+,Georgia,,1980,0,0,,,,,
+,Georgia,,1984,0,0,,,,,
+,Georgia,,1988,0,0,,,,,
+,Georgia,,1992,0,0,,,,,
+,Georgia,,1996,2,2,,participated,2,,
+,Georgia,,2000,6,6,,participated,6,,
+,Georgia,,2004,4,10,,participated,,2,2
+,Georgia,,2008,6,12,,participated,3,3,
+,Georgia,,2012,7,12,,participated,3,1,3
+,Georgia,,2016,7,12,,participated,4,2,1
+,Germany,,1896,13,30,3,participated,2,6,5
+,Germany,,1900,6,14,7,participated,1,3,2
+,Germany,,1904,13,25,2,participated,5,4,4
+,Germany,,1908,14,25,5,participated,6,3,5
+,Germany,,1912,25,48,5,participated,7,5,13
+,Germany,,1920,0,0,,,,,
+,Germany,,1924,0,0,,,,,
+,Germany,,1928,31,58,2,participated,14,10,7
+,Germany,,1932,20,38,7,participated,5,3,12
+,Germany,,1936,89,181,1,hosted,30,33,26
+,Germany,,1948,0,0,,,,,
+,Germany,,1952,24,31,8,participated,17,,7
+,Germany,,1956,0,0,,,,,
+,Germany,,1960,0,0,,,,,
+,Germany,,1964,0,0,,,,,
+,Germany,,1968,0,0,,,,,
+,Germany,,1972,0,0,,,,,
+,Germany,,1976,0,0,,,,,
+,Germany,,1980,0,0,,,,,
+,Germany,,1984,0,0,,,,,
+,Germany,,1988,0,0,,,,,
+,Germany,,1992,82,169,3,participated,28,33,21
+,Germany,,1996,65,123,3,participated,27,20,18
+,Germany,,2000,56,99,5,participated,26,13,17
+,Germany,,2004,49,91,5,participated,20,13,16
+,Germany,,2008,41,83,6,participated,15,16,10
+,Germany,,2012,44,86,5,participated,13,11,20
+,Germany,,2016,42,86,5,participated,15,17,10
+,Ghana,,1896,0,0,,,,,
+,Ghana,,1900,0,0,,,,,
+,Ghana,,1904,0,0,,,,,
+,Ghana,,1908,0,0,,,,,
+,Ghana,,1912,0,0,,,,,
+,Ghana,,1920,0,0,,,,,
+,Ghana,,1924,0,0,,,,,
+,Ghana,,1928,0,0,,,,,
+,Ghana,,1932,0,0,,,,,
+,Ghana,,1936,0,0,,,,,
+,Ghana,,1948,0,0,,,,,
+,Ghana,,1952,0,0,,,,,
+,Ghana,,1956,0,0,,,,,
+,Ghana,,1960,1,2,,participated,,,1
+,Ghana,,1964,1,1,,participated,1,,
+,Ghana,,1968,0,0,,,,,
+,Ghana,,1972,1,1,,participated,1,,
+,Ghana,,1976,0,0,,,,,
+,Ghana,,1980,0,0,,,,,
+,Ghana,,1984,0,0,,,,,
+,Ghana,,1988,0,0,,,,,
+,Ghana,,1992,1,1,,participated,1,,
+,Ghana,,1996,0,0,,,,,
+,Ghana,,2000,0,0,,,,,
+,Ghana,,2004,0,0,,,,,
+,Ghana,,2008,0,0,,,,,
+,Ghana,,2012,0,0,,,,,
+,Ghana,,2016,0,0,,,,,
+,Great Britain,,1896,7,14,5,participated,2,2,3
+,Great Britain,,1900,29,65,3,participated,8,15,6
+,Great Britain,,1904,2,5,6,participated,,1,1
+,Great Britain,,1908,141,303,1,hosted,35,56,50
+,Great Britain,,1912,41,76,3,participated,16,10,15
+,Great Britain,,1920,43,88,3,participated,13,15,15
+,Great Britain,,1924,34,65,4,participated,12,9,13
+,Great Britain,,1928,20,36,7,participated,7,3,10
+,Great Britain,,1932,16,31,8,participated,5,4,7
+,Great Britain,,1936,14,29,10,participated,3,4,7
+,Great Britain,,1948,23,43,6,hosted,6,3,14
+,Great Britain,,1952,11,15,,participated,8,1,2
+,Great Britain,,1956,24,43,7,participated,11,6,7
+,Great Britain,,1960,20,30,9,participated,12,2,6
+,Great Britain,,1964,18,38,8,participated,2,4,12
+,Great Britain,,1968,13,28,,participated,3,5,5
+,Great Britain,,1972,18,31,10,participated,9,4,5
+,Great Britain,,1976,13,24,,participated,5,3,5
+,Great Britain,,1980,21,38,8,participated,9,5,7
+,Great Britain,,1984,37,58,7,participated,21,5,11
+,Great Britain,,1988,24,44,10,participated,9,5,10
+,Great Britain,,1992,20,33,,participated,12,5,3
+,Great Britain,,1996,15,25,,participated,6,1,8
+,Great Britain,,2000,28,60,9,participated,7,11,10
+,Great Britain,,2004,30,57,10,participated,12,9,9
+,Great Britain,,2008,47,98,4,participated,15,19,13
+,Great Britain,,2012,65,140,3,hosted,19,29,17
+,Great Britain,,2016,66,142,2,participated,17,27,22
+,Greece,,1896,45,82,1,hosted,18,10,17
+,Greece,,1900,0,0,,,,,
+,Greece,,1904,2,4,8,participated,1,1,
+,Greece,,1908,3,6,,participated,,,3
+,Greece,,1912,2,4,,participated,1,1,
+,Greece,,1920,1,2,,participated,,,1
+,Greece,,1924,0,0,,,,,
+,Greece,,1928,0,0,,,,,
+,Greece,,1932,0,0,,,,,
+,Greece,,1936,0,0,,,,,
+,Greece,,1948,0,0,,,,,
+,Greece,,1952,0,0,,,,,
+,Greece,,1956,1,1,,participated,1,,
+,Greece,,1960,1,3,,participated,,1,
+,Greece,,1964,0,0,,,,,
+,Greece,,1968,1,1,,participated,1,,
+,Greece,,1972,2,4,,participated,,,2
+,Greece,,1976,0,0,,,,,
+,Greece,,1980,3,5,,participated,2,1,
+,Greece,,1984,2,3,,participated,1,,1
+,Greece,,1988,1,1,,participated,1,,
+,Greece,,1992,2,6,,participated,,2,
+,Greece,,1996,8,20,,participated,,4,4
+,Greece,,2000,13,27,,participated,3,4,6
+,Greece,,2004,16,34,,hosted,4,6,6
+,Greece,,2008,4,6,,participated,2,,2
+,Greece,,2012,2,2,,participated,2,,
+,Greece,,2016,6,13,,participated,2,3,1
+,Grenada,,1896,0,0,,,,,
+,Grenada,,1900,0,0,,,,,
+,Grenada,,1904,0,0,,,,,
+,Grenada,,1908,0,0,,,,,
+,Grenada,,1912,0,0,,,,,
+,Grenada,,1920,0,0,,,,,
+,Grenada,,1924,0,0,,,,,
+,Grenada,,1928,0,0,,,,,
+,Grenada,,1932,0,0,,,,,
+,Grenada,,1936,0,0,,,,,
+,Grenada,,1948,0,0,,,,,
+,Grenada,,1952,0,0,,,,,
+,Grenada,,1956,0,0,,,,,
+,Grenada,,1960,0,0,,,,,
+,Grenada,,1964,0,0,,,,,
+,Grenada,,1968,0,0,,,,,
+,Grenada,,1972,0,0,,,,,
+,Grenada,,1976,0,0,,,,,
+,Grenada,,1980,0,0,,,,,
+,Grenada,,1984,0,0,,,,,
+,Grenada,,1988,0,0,,,,,
+,Grenada,,1992,0,0,,,,,
+,Grenada,,1996,0,0,,,,,
+,Grenada,,2000,0,0,,,,,
+,Grenada,,2004,0,0,,,,,
+,Grenada,,2008,0,0,,,,,
+,Grenada,,2012,1,3,,participated,,1,
+,Grenada,,2016,1,2,,participated,,,1
+,Guatemala,,1896,0,0,,,,,
+,Guatemala,,1900,0,0,,,,,
+,Guatemala,,1904,0,0,,,,,
+,Guatemala,,1908,0,0,,,,,
+,Guatemala,,1912,0,0,,,,,
+,Guatemala,,1920,0,0,,,,,
+,Guatemala,,1924,0,0,,,,,
+,Guatemala,,1928,0,0,,,,,
+,Guatemala,,1932,0,0,,,,,
+,Guatemala,,1936,0,0,,,,,
+,Guatemala,,1948,0,0,,,,,
+,Guatemala,,1952,0,0,,,,,
+,Guatemala,,1956,0,0,,,,,
+,Guatemala,,1960,0,0,,,,,
+,Guatemala,,1964,0,0,,,,,
+,Guatemala,,1968,0,0,,,,,
+,Guatemala,,1972,0,0,,,,,
+,Guatemala,,1976,0,0,,,,,
+,Guatemala,,1980,0,0,,,,,
+,Guatemala,,1984,0,0,,,,,
+,Guatemala,,1988,0,0,,,,,
+,Guatemala,,1992,0,0,,,,,
+,Guatemala,,1996,0,0,,,,,
+,Guatemala,,2000,0,0,,,,,
+,Guatemala,,2004,0,0,,,,,
+,Guatemala,,2008,0,0,,,,,
+,Guatemala,,2012,1,2,,participated,,,1
+,Guatemala,,2016,0,0,,,,,
+,Guyana,,1896,0,0,,,,,
+,Guyana,,1900,0,0,,,,,
+,Guyana,,1904,0,0,,,,,
+,Guyana,,1908,0,0,,,,,
+,Guyana,,1912,0,0,,,,,
+,Guyana,,1920,0,0,,,,,
+,Guyana,,1924,0,0,,,,,
+,Guyana,,1928,0,0,,,,,
+,Guyana,,1932,0,0,,,,,
+,Guyana,,1936,0,0,,,,,
+,Guyana,,1948,0,0,,,,,
+,Guyana,,1952,0,0,,,,,
+,Guyana,,1956,0,0,,,,,
+,Guyana,,1960,0,0,,,,,
+,Guyana,,1964,0,0,,,,,
+,Guyana,,1968,0,0,,,,,
+,Guyana,,1972,0,0,,,,,
+,Guyana,,1976,0,0,,,,,
+,Guyana,,1980,1,1,,participated,1,,
+,Guyana,,1984,0,0,,,,,
+,Guyana,,1988,0,0,,,,,
+,Guyana,,1992,0,0,,,,,
+,Guyana,,1996,0,0,,,,,
+,Guyana,,2000,0,0,,,,,
+,Guyana,,2004,0,0,,,,,
+,Guyana,,2008,0,0,,,,,
+,Guyana,,2012,0,0,,,,,
+,Guyana,,2016,0,0,,,,,
+,Haiti,,1896,0,0,,,,,
+,Haiti,,1900,0,0,,,,,
+,Haiti,,1904,0,0,,,,,
+,Haiti,,1908,0,0,,,,,
+,Haiti,,1912,0,0,,,,,
+,Haiti,,1920,0,0,,,,,
+,Haiti,,1924,1,1,,participated,1,,
+,Haiti,,1928,1,2,,participated,,,1
+,Haiti,,1932,0,0,,,,,
+,Haiti,,1936,0,0,,,,,
+,Haiti,,1948,0,0,,,,,
+,Haiti,,1952,0,0,,,,,
+,Haiti,,1956,0,0,,,,,
+,Haiti,,1960,0,0,,,,,
+,Haiti,,1964,0,0,,,,,
+,Haiti,,1968,0,0,,,,,
+,Haiti,,1972,0,0,,,,,
+,Haiti,,1976,0,0,,,,,
+,Haiti,,1980,0,0,,,,,
+,Haiti,,1984,0,0,,,,,
+,Haiti,,1988,0,0,,,,,
+,Haiti,,1992,0,0,,,,,
+,Haiti,,1996,0,0,,,,,
+,Haiti,,2000,0,0,,,,,
+,Haiti,,2004,0,0,,,,,
+,Haiti,,2008,0,0,,,,,
+,Haiti,,2012,0,0,,,,,
+,Haiti,,2016,0,0,,,,,
+,Hong Kong,,1896,0,0,,,,,
+,Hong Kong,,1900,0,0,,,,,
+,Hong Kong,,1904,0,0,,,,,
+,Hong Kong,,1908,0,0,,,,,
+,Hong Kong,,1912,0,0,,,,,
+,Hong Kong,,1920,0,0,,,,,
+,Hong Kong,,1924,0,0,,,,,
+,Hong Kong,,1928,0,0,,,,,
+,Hong Kong,,1932,0,0,,,,,
+,Hong Kong,,1936,0,0,,,,,
+,Hong Kong,,1948,0,0,,,,,
+,Hong Kong,,1952,0,0,,,,,
+,Hong Kong,,1956,0,0,,,,,
+,Hong Kong,,1960,0,0,,,,,
+,Hong Kong,,1964,0,0,,,,,
+,Hong Kong,,1968,0,0,,,,,
+,Hong Kong,,1972,0,0,,,,,
+,Hong Kong,,1976,0,0,,,,,
+,Hong Kong,,1980,0,0,,,,,
+,Hong Kong,,1984,0,0,,,,,
+,Hong Kong,,1988,0,0,,,,,
+,Hong Kong,,1992,0,0,,,,,
+,Hong Kong,,1996,1,3,,participated,,1,
+,Hong Kong,,2000,0,0,,,,,
+,Hong Kong,,2004,1,2,,participated,,,1
+,Hong Kong,,2008,0,0,,,,,
+,Hong Kong,,2012,1,1,,participated,1,,
+,Hong Kong,,2016,0,0,,,,,
+,Hungary,,1896,6,11,6,participated,3,2,1
+,Hungary,,1900,5,9,,participated,2,1,2
+,Hungary,,1904,4,9,5,participated,1,2,1
+,Hungary,,1908,9,19,7,participated,2,3,4
+,Hungary,,1912,8,16,10,participated,3,3,2
+,Hungary,,1920,0,0,,,,,
+,Hungary,,1924,9,16,,participated,4,2,3
+,Hungary,,1928,9,22,,participated,,4,5
+,Hungary,,1932,15,31,9,participated,5,6,4
+,Hungary,,1936,16,37,6,participated,5,10,1
+,Hungary,,1948,26,51,5,participated,11,10,5
+,Hungary,,1952,42,84,3,participated,16,16,10
+,Hungary,,1956,26,54,4,participated,7,9,10
+,Hungary,,1960,21,41,6,participated,7,6,8
+,Hungary,,1964,22,49,6,participated,5,10,7
+,Hungary,,1968,32,62,3,participated,12,10,10
+,Hungary,,1972,35,60,6,participated,16,6,13
+,Hungary,,1976,22,35,9,participated,13,4,5
+,Hungary,,1980,32,56,4,participated,15,7,10
+,Hungary,,1984,0,0,,,,,
+,Hungary,,1988,23,51,7,participated,6,11,6
+,Hungary,,1992,30,64,6,participated,7,11,12
+,Hungary,,1996,21,39,,participated,10,7,4
+,Hungary,,2000,17,39,,participated,3,8,6
+,Hungary,,2004,17,39,,participated,3,8,6
+,Hungary,,2008,10,21,,participated,2,3,5
+,Hungary,,2012,18,38,,participated,6,8,4
+,Hungary,,2016,15,34,,participated,4,8,3
+,Iceland,,1896,0,0,,,,,
+,Iceland,,1900,0,0,,,,,
+,Iceland,,1904,0,0,,,,,
+,Iceland,,1908,0,0,,,,,
+,Iceland,,1912,0,0,,,,,
+,Iceland,,1920,0,0,,,,,
+,Iceland,,1924,0,0,,,,,
+,Iceland,,1928,0,0,,,,,
+,Iceland,,1932,0,0,,,,,
+,Iceland,,1936,0,0,,,,,
+,Iceland,,1948,0,0,,,,,
+,Iceland,,1952,0,0,,,,,
+,Iceland,,1956,1,2,,participated,,,1
+,Iceland,,1960,0,0,,,,,
+,Iceland,,1964,0,0,,,,,
+,Iceland,,1968,0,0,,,,,
+,Iceland,,1972,0,0,,,,,
+,Iceland,,1976,0,0,,,,,
+,Iceland,,1980,0,0,,,,,
+,Iceland,,1984,1,1,,participated,1,,
+,Iceland,,1988,0,0,,,,,
+,Iceland,,1992,0,0,,,,,
+,Iceland,,1996,0,0,,,,,
+,Iceland,,2000,1,1,,participated,1,,
+,Iceland,,2004,0,0,,,,,
+,Iceland,,2008,1,2,,participated,,,1
+,Iceland,,2012,0,0,,,,,
+,Iceland,,2016,0,0,,,,,
+,Independent Olympic Athletes,,1896,0,0,,,,,
+,Independent Olympic Athletes,,1900,0,0,,,,,
+,Independent Olympic Athletes,,1904,0,0,,,,,
+,Independent Olympic Athletes,,1908,0,0,,,,,
+,Independent Olympic Athletes,,1912,0,0,,,,,
+,Independent Olympic Athletes,,1920,0,0,,,,,
+,Independent Olympic Athletes,,1924,0,0,,,,,
+,Independent Olympic Athletes,,1928,0,0,,,,,
+,Independent Olympic Athletes,,1932,0,0,,,,,
+,Independent Olympic Athletes,,1936,0,0,,,,,
+,Independent Olympic Athletes,,1948,0,0,,,,,
+,Independent Olympic Athletes,,1952,0,0,,,,,
+,Independent Olympic Athletes,,1956,0,0,,,,,
+,Independent Olympic Athletes,,1960,0,0,,,,,
+,Independent Olympic Athletes,,1964,0,0,,,,,
+,Independent Olympic Athletes,,1968,0,0,,,,,
+,Independent Olympic Athletes,,1972,0,0,,,,,
+,Independent Olympic Athletes,,1976,0,0,,,,,
+,Independent Olympic Athletes,,1980,0,0,,,,,
+,Independent Olympic Athletes,,1984,0,0,,,,,
+,Independent Olympic Athletes,,1988,0,0,,,,,
+,Independent Olympic Athletes,,1992,0,0,,,,,
+,Independent Olympic Athletes,,1996,0,0,,,,,
+,Independent Olympic Athletes,,2000,0,0,,,,,
+,Independent Olympic Athletes,,2004,0,0,,,,,
+,Independent Olympic Athletes,,2008,0,0,,,,,
+,Independent Olympic Athletes,,2012,0,0,,,,,
+,Independent Olympic Athletes,,2016,2,4,,participated,1,1,
+,Independent Olympic Participants,,1896,0,0,,,,,
+,Independent Olympic Participants,,1900,0,0,,,,,
+,Independent Olympic Participants,,1904,0,0,,,,,
+,Independent Olympic Participants,,1908,0,0,,,,,
+,Independent Olympic Participants,,1912,0,0,,,,,
+,Independent Olympic Participants,,1920,0,0,,,,,
+,Independent Olympic Participants,,1924,0,0,,,,,
+,Independent Olympic Participants,,1928,0,0,,,,,
+,Independent Olympic Participants,,1932,0,0,,,,,
+,Independent Olympic Participants,,1936,0,0,,,,,
+,Independent Olympic Participants,,1948,0,0,,,,,
+,Independent Olympic Participants,,1952,0,0,,,,,
+,Independent Olympic Participants,,1956,0,0,,,,,
+,Independent Olympic Participants,,1960,0,0,,,,,
+,Independent Olympic Participants,,1964,0,0,,,,,
+,Independent Olympic Participants,,1968,0,0,,,,,
+,Independent Olympic Participants,,1972,0,0,,,,,
+,Independent Olympic Participants,,1976,0,0,,,,,
+,Independent Olympic Participants,,1980,0,0,,,,,
+,Independent Olympic Participants,,1984,0,0,,,,,
+,Independent Olympic Participants,,1988,0,0,,,,,
+,Independent Olympic Participants,,1992,3,4,,participated,2,,1
+,Independent Olympic Participants,,1996,0,0,,,,,
+,Independent Olympic Participants,,2000,0,0,,,,,
+,Independent Olympic Participants,,2004,0,0,,,,,
+,Independent Olympic Participants,,2008,0,0,,,,,
+,Independent Olympic Participants,,2012,0,0,,,,,
+,Independent Olympic Participants,,2016,0,0,,,,,
+,India,,1896,0,0,,,,,
+,India,,1900,2,4,,participated,,,2
+,India,,1904,0,0,,,,,
+,India,,1908,0,0,,,,,
+,India,,1912,0,0,,,,,
+,India,,1920,0,0,,,,,
+,India,,1924,0,0,,,,,
+,India,,1928,1,3,,participated,,1,
+,India,,1932,1,3,,participated,,1,
+,India,,1936,1,3,,participated,,1,
+,India,,1948,1,3,,participated,,1,
+,India,,1952,2,4,,participated,1,1,
+,India,,1956,1,3,,participated,,1,
+,India,,1960,1,2,,participated,,,1
+,India,,1964,1,3,,participated,,1,
+,India,,1968,1,1,,participated,1,,
+,India,,1972,1,1,,participated,1,,
+,India,,1976,0,0,,,,,
+,India,,1980,1,3,,participated,,1,
+,India,,1984,0,0,,,,,
+,India,,1988,0,0,,,,,
+,India,,1992,0,0,,,,,
+,India,,1996,1,1,,participated,1,,
+,India,,2000,1,1,,participated,1,,
+,India,,2004,1,2,,participated,,,1
+,India,,2008,3,5,,participated,2,1,
+,India,,2012,6,8,,participated,4,,2
+,India,,2016,2,3,,participated,1,,1
+,Indonesia,,1896,0,0,,,,,
+,Indonesia,,1900,0,0,,,,,
+,Indonesia,,1904,0,0,,,,,
+,Indonesia,,1908,0,0,,,,,
+,Indonesia,,1912,0,0,,,,,
+,Indonesia,,1920,0,0,,,,,
+,Indonesia,,1924,0,0,,,,,
+,Indonesia,,1928,0,0,,,,,
+,Indonesia,,1932,0,0,,,,,
+,Indonesia,,1936,0,0,,,,,
+,Indonesia,,1948,0,0,,,,,
+,Indonesia,,1952,0,0,,,,,
+,Indonesia,,1956,0,0,,,,,
+,Indonesia,,1960,0,0,,,,,
+,Indonesia,,1964,0,0,,,,,
+,Indonesia,,1968,0,0,,,,,
+,Indonesia,,1972,0,0,,,,,
+,Indonesia,,1976,0,0,,,,,
+,Indonesia,,1980,0,0,,,,,
+,Indonesia,,1984,0,0,,,,,
+,Indonesia,,1988,1,2,,participated,,,1
+,Indonesia,,1992,5,11,,participated,1,2,2
+,Indonesia,,1996,4,7,,participated,2,1,1
+,Indonesia,,2000,6,11,,participated,2,1,3
+,Indonesia,,2004,4,7,,participated,2,1,1
+,Indonesia,,2008,5,8,,participated,3,1,1
+,Indonesia,,2012,3,5,,participated,1,,2
+,Indonesia,,2016,3,7,,participated,,1,2
+,Iran,,1896,0,0,,,,,
+,Iran,,1900,0,0,,,,,
+,Iran,,1904,0,0,,,,,
+,Iran,,1908,0,0,,,,,
+,Iran,,1912,0,0,,,,,
+,Iran,,1920,0,0,,,,,
+,Iran,,1924,0,0,,,,,
+,Iran,,1928,0,0,,,,,
+,Iran,,1932,0,0,,,,,
+,Iran,,1936,0,0,,,,,
+,Iran,,1948,1,1,,participated,1,,
+,Iran,,1952,7,10,,participated,4,,3
+,Iran,,1956,5,11,,participated,1,2,2
+,Iran,,1960,4,5,,participated,3,,1
+,Iran,,1964,2,2,,participated,2,,
+,Iran,,1968,5,10,,participated,2,2,1
+,Iran,,1972,3,5,,participated,1,,2
+,Iran,,1976,2,3,,participated,1,,1
+,Iran,,1980,0,0,,,,,
+,Iran,,1984,0,0,,,,,
+,Iran,,1988,1,2,,participated,,,1
+,Iran,,1992,3,4,,participated,2,,1
+,Iran,,1996,3,6,,participated,1,1,1
+,Iran,,2000,4,10,,participated,1,3,
+,Iran,,2004,6,12,,participated,2,2,2
+,Iran,,2008,2,4,,participated,1,1,
+,Iran,,2012,13,30,,participated,2,6,5
+,Iran,,2016,8,15,,participated,4,3,1
+,Iraq,,1896,0,0,,,,,
+,Iraq,,1900,0,0,,,,,
+,Iraq,,1904,0,0,,,,,
+,Iraq,,1908,0,0,,,,,
+,Iraq,,1912,0,0,,,,,
+,Iraq,,1920,0,0,,,,,
+,Iraq,,1924,0,0,,,,,
+,Iraq,,1928,0,0,,,,,
+,Iraq,,1932,0,0,,,,,
+,Iraq,,1936,0,0,,,,,
+,Iraq,,1948,0,0,,,,,
+,Iraq,,1952,0,0,,,,,
+,Iraq,,1956,0,0,,,,,
+,Iraq,,1960,1,1,,participated,1,,
+,Iraq,,1964,0,0,,,,,
+,Iraq,,1968,0,0,,,,,
+,Iraq,,1972,0,0,,,,,
+,Iraq,,1976,0,0,,,,,
+,Iraq,,1980,0,0,,,,,
+,Iraq,,1984,0,0,,,,,
+,Iraq,,1988,0,0,,,,,
+,Iraq,,1992,0,0,,,,,
+,Iraq,,1996,0,0,,,,,
+,Iraq,,2000,0,0,,,,,
+,Iraq,,2004,0,0,,,,,
+,Iraq,,2008,0,0,,,,,
+,Iraq,,2012,0,0,,,,,
+,Iraq,,2016,0,0,,,,,
+,Ireland,,1896,0,0,,,,,
+,Ireland,,1900,0,0,,,,,
+,Ireland,,1904,0,0,,,,,
+,Ireland,,1908,0,0,,,,,
+,Ireland,,1912,0,0,,,,,
+,Ireland,,1920,0,0,,,,,
+,Ireland,,1924,0,0,,,,,
+,Ireland,,1928,1,3,,participated,,1,
+,Ireland,,1932,2,6,,participated,,2,
+,Ireland,,1936,0,0,,,,,
+,Ireland,,1948,0,0,,,,,
+,Ireland,,1952,1,2,,participated,,,1
+,Ireland,,1956,5,8,,participated,3,1,1
+,Ireland,,1960,0,0,,,,,
+,Ireland,,1964,1,1,,participated,1,,
+,Ireland,,1968,0,0,,,,,
+,Ireland,,1972,0,0,,,,,
+,Ireland,,1976,0,0,,,,,
+,Ireland,,1980,2,3,,participated,1,,1
+,Ireland,,1984,1,2,,participated,,,1
+,Ireland,,1988,0,0,,,,,
+,Ireland,,1992,2,5,,participated,,1,1
+,Ireland,,1996,4,10,,participated,1,3,
+,Ireland,,2000,1,2,,participated,,,1
+,Ireland,,2004,0,0,,,,,
+,Ireland,,2008,3,4,,participated,2,,1
+,Ireland,,2012,6,9,,participated,4,1,1
+,Ireland,,2016,2,4,,participated,,,2
+,Israel,,1896,0,0,,,,,
+,Israel,,1900,0,0,,,,,
+,Israel,,1904,0,0,,,,,
+,Israel,,1908,0,0,,,,,
+,Israel,,1912,0,0,,,,,
+,Israel,,1920,0,0,,,,,
+,Israel,,1924,0,0,,,,,
+,Israel,,1928,0,0,,,,,
+,Israel,,1932,0,0,,,,,
+,Israel,,1936,0,0,,,,,
+,Israel,,1948,0,0,,,,,
+,Israel,,1952,0,0,,,,,
+,Israel,,1956,0,0,,,,,
+,Israel,,1960,0,0,,,,,
+,Israel,,1964,0,0,,,,,
+,Israel,,1968,0,0,,,,,
+,Israel,,1972,0,0,,,,,
+,Israel,,1976,0,0,,,,,
+,Israel,,1980,0,0,,,,,
+,Israel,,1984,0,0,,,,,
+,Israel,,1988,0,0,,,,,
+,Israel,,1992,2,3,,participated,1,,1
+,Israel,,1996,1,1,,participated,1,,
+,Israel,,2000,1,1,,participated,1,,
+,Israel,,2004,2,4,,participated,1,1,
+,Israel,,2008,1,1,,participated,1,,
+,Israel,,2012,0,0,,,,,
+,Israel,,2016,2,2,,participated,2,,
+,Italy,,1896,0,0,,,,,
+,Italy,,1900,4,10,9,participated,,2,2
+,Italy,,1904,0,0,,,,,
+,Italy,,1908,4,10,10,participated,,2,2
+,Italy,,1912,6,13,,participated,2,3,1
+,Italy,,1920,22,53,8,participated,4,13,5
+,Italy,,1924,16,35,7,participated,5,8,3
+,Italy,,1928,18,35,8,participated,7,6,5
+,Italy,,1932,36,72,2,participated,12,12,12
+,Italy,,1936,22,47,3,participated,5,8,9
+,Italy,,1948,27,54,4,participated,8,8,11
+,Italy,,1952,21,46,5,participated,4,8,9
+,Italy,,1956,25,49,6,participated,9,8,8
+,Italy,,1960,36,72,4,hosted,13,13,10
+,Italy,,1964,27,57,5,participated,7,10,10
+,Italy,,1968,16,26,,participated,9,3,4
+,Italy,,1972,18,31,,participated,10,5,3
+,Italy,,1976,13,24,,participated,4,2,7
+,Italy,,1980,15,34,9,participated,4,8,3
+,Italy,,1984,32,66,6,participated,12,14,6
+,Italy,,1988,14,30,,participated,4,6,4
+,Italy,,1992,19,36,,participated,8,6,5
+,Italy,,1996,35,71,6,participated,12,13,10
+,Italy,,2000,34,68,7,participated,13,13,8
+,Italy,,2004,32,63,8,participated,11,10,11
+,Italy,,2008,27,52,9,participated,10,8,9
+,Italy,,2012,28,53,10,participated,11,8,9
+,Italy,,2016,28,56,9,participated,8,8,12
+,Jamaica,,1896,0,0,,,,,
+,Jamaica,,1900,0,0,,,,,
+,Jamaica,,1904,0,0,,,,,
+,Jamaica,,1908,0,0,,,,,
+,Jamaica,,1912,0,0,,,,,
+,Jamaica,,1920,0,0,,,,,
+,Jamaica,,1924,0,0,,,,,
+,Jamaica,,1928,0,0,,,,,
+,Jamaica,,1932,0,0,,,,,
+,Jamaica,,1936,0,0,,,,,
+,Jamaica,,1948,3,7,,participated,,1,2
+,Jamaica,,1952,5,12,,participated,,2,3
+,Jamaica,,1956,0,0,,,,,
+,Jamaica,,1960,0,0,,,,,
+,Jamaica,,1964,0,0,,,,,
+,Jamaica,,1968,1,2,,participated,,,1
+,Jamaica,,1972,1,1,,participated,1,,
+,Jamaica,,1976,2,5,,participated,,1,1
+,Jamaica,,1980,3,3,,participated,3,,
+,Jamaica,,1984,3,4,,participated,2,,1
+,Jamaica,,1988,2,4,,participated,,,2
+,Jamaica,,1992,4,7,,participated,1,,3
+,Jamaica,,1996,6,11,,participated,2,1,3
+,Jamaica,,2000,9,14,,participated,4,,5
+,Jamaica,,2004,5,10,,participated,2,2,1
+,Jamaica,,2008,10,24,,participated,2,6,2
+,Jamaica,,2012,12,25,,participated,3,4,5
+,Jamaica,,2016,11,26,,participated,2,6,3
+,Japan,,1896,0,0,,,,,
+,Japan,,1900,0,0,,,,,
+,Japan,,1904,0,0,,,,,
+,Japan,,1908,0,0,,,,,
+,Japan,,1912,0,0,,,,,
+,Japan,,1920,2,4,,participated,,,2
+,Japan,,1924,1,1,,participated,1,,
+,Japan,,1928,5,11,,participated,1,2,2
+,Japan,,1932,18,39,6,participated,4,7,7
+,Japan,,1936,18,34,8,participated,8,6,4
+,Japan,,1948,0,0,,,,,
+,Japan,,1952,8,16,,participated,1,1,6
+,Japan,,1956,17,35,9,participated,3,4,10
+,Japan,,1960,18,33,8,participated,7,4,7
+,Japan,,1964,29,66,4,hosted,8,16,5
+,Japan,,1968,25,54,4,participated,7,11,7
+,Japan,,1972,29,63,5,participated,8,13,8
+,Japan,,1976,25,49,5,participated,10,9,6
+,Japan,,1980,0,0,,,,,
+,Japan,,1984,31,58,8,participated,14,10,7
+,Japan,,1988,14,25,,participated,7,4,3
+,Japan,,1992,22,36,,participated,11,3,8
+,Japan,,1996,14,26,,participated,5,3,6
+,Japan,,2000,18,36,,participated,5,5,8
+,Japan,,2004,37,78,6,participated,12,16,9
+,Japan,,2008,25,49,10,participated,10,9,6
+,Japan,,2012,38,66,8,participated,17,7,14
+,Japan,,2016,41,73,7,participated,21,12,8
+,Jordan,,1896,0,0,,,,,
+,Jordan,,1900,0,0,,,,,
+,Jordan,,1904,0,0,,,,,
+,Jordan,,1908,0,0,,,,,
+,Jordan,,1912,0,0,,,,,
+,Jordan,,1920,0,0,,,,,
+,Jordan,,1924,0,0,,,,,
+,Jordan,,1928,0,0,,,,,
+,Jordan,,1932,0,0,,,,,
+,Jordan,,1936,0,0,,,,,
+,Jordan,,1948,0,0,,,,,
+,Jordan,,1952,0,0,,,,,
+,Jordan,,1956,0,0,,,,,
+,Jordan,,1960,0,0,,,,,
+,Jordan,,1964,0,0,,,,,
+,Jordan,,1968,0,0,,,,,
+,Jordan,,1972,0,0,,,,,
+,Jordan,,1976,0,0,,,,,
+,Jordan,,1980,0,0,,,,,
+,Jordan,,1984,0,0,,,,,
+,Jordan,,1988,0,0,,,,,
+,Jordan,,1992,0,0,,,,,
+,Jordan,,1996,0,0,,,,,
+,Jordan,,2000,0,0,,,,,
+,Jordan,,2004,0,0,,,,,
+,Jordan,,2008,0,0,,,,,
+,Jordan,,2012,0,0,,,,,
+,Jordan,,2016,1,3,,participated,,1,
+,Kazakhstan,,1896,0,0,,,,,
+,Kazakhstan,,1900,0,0,,,,,
+,Kazakhstan,,1904,0,0,,,,,
+,Kazakhstan,,1908,0,0,,,,,
+,Kazakhstan,,1912,0,0,,,,,
+,Kazakhstan,,1920,0,0,,,,,
+,Kazakhstan,,1924,0,0,,,,,
+,Kazakhstan,,1928,0,0,,,,,
+,Kazakhstan,,1932,0,0,,,,,
+,Kazakhstan,,1936,0,0,,,,,
+,Kazakhstan,,1948,0,0,,,,,
+,Kazakhstan,,1952,0,0,,,,,
+,Kazakhstan,,1956,0,0,,,,,
+,Kazakhstan,,1960,0,0,,,,,
+,Kazakhstan,,1964,0,0,,,,,
+,Kazakhstan,,1968,0,0,,,,,
+,Kazakhstan,,1972,0,0,,,,,
+,Kazakhstan,,1976,0,0,,,,,
+,Kazakhstan,,1980,0,0,,,,,
+,Kazakhstan,,1984,0,0,,,,,
+,Kazakhstan,,1988,0,0,,,,,
+,Kazakhstan,,1992,0,0,,,,,
+,Kazakhstan,,1996,11,21,,participated,4,3,4
+,Kazakhstan,,2000,7,17,,participated,,3,4
+,Kazakhstan,,2004,8,14,,participated,3,1,4
+,Kazakhstan,,2008,13,21,,participated,7,2,4
+,Kazakhstan,,2012,10,17,,participated,6,3,1
+,Kazakhstan,,2016,18,29,,participated,10,3,5
+,Kenya,,1896,0,0,,,,,
+,Kenya,,1900,0,0,,,,,
+,Kenya,,1904,0,0,,,,,
+,Kenya,,1908,0,0,,,,,
+,Kenya,,1912,0,0,,,,,
+,Kenya,,1920,0,0,,,,,
+,Kenya,,1924,0,0,,,,,
+,Kenya,,1928,0,0,,,,,
+,Kenya,,1932,0,0,,,,,
+,Kenya,,1936,0,0,,,,,
+,Kenya,,1948,0,0,,,,,
+,Kenya,,1952,0,0,,,,,
+,Kenya,,1956,0,0,,,,,
+,Kenya,,1960,0,0,,,,,
+,Kenya,,1964,1,1,,participated,1,,
+,Kenya,,1968,9,19,,participated,2,3,4
+,Kenya,,1972,9,16,,participated,4,2,3
+,Kenya,,1976,0,0,,,,,
+,Kenya,,1980,0,0,,,,,
+,Kenya,,1984,3,5,,participated,2,1,
+,Kenya,,1988,9,21,,participated,2,5,2
+,Kenya,,1992,8,16,,participated,2,2,4
+,Kenya,,1996,8,14,,participated,3,1,4
+,Kenya,,2000,7,14,,participated,2,2,3
+,Kenya,,2004,7,13,,participated,2,1,4
+,Kenya,,2008,14,30,,participated,4,6,4
+,Kenya,,2012,12,20,,participated,6,2,4
+,Kenya,,2016,13,31,,participated,1,6,6
+,Kosovo,,1896,0,0,,,,,
+,Kosovo,,1900,0,0,,,,,
+,Kosovo,,1904,0,0,,,,,
+,Kosovo,,1908,0,0,,,,,
+,Kosovo,,1912,0,0,,,,,
+,Kosovo,,1920,0,0,,,,,
+,Kosovo,,1924,0,0,,,,,
+,Kosovo,,1928,0,0,,,,,
+,Kosovo,,1932,0,0,,,,,
+,Kosovo,,1936,0,0,,,,,
+,Kosovo,,1948,0,0,,,,,
+,Kosovo,,1952,0,0,,,,,
+,Kosovo,,1956,0,0,,,,,
+,Kosovo,,1960,0,0,,,,,
+,Kosovo,,1964,0,0,,,,,
+,Kosovo,,1968,0,0,,,,,
+,Kosovo,,1972,0,0,,,,,
+,Kosovo,,1976,0,0,,,,,
+,Kosovo,,1980,0,0,,,,,
+,Kosovo,,1984,0,0,,,,,
+,Kosovo,,1988,0,0,,,,,
+,Kosovo,,1992,0,0,,,,,
+,Kosovo,,1996,0,0,,,,,
+,Kosovo,,2000,0,0,,,,,
+,Kosovo,,2004,0,0,,,,,
+,Kosovo,,2008,0,0,,,,,
+,Kosovo,,2012,0,0,,,,,
+,Kosovo,,2016,1,3,,participated,,1,
+,Kuwait,,1896,0,0,,,,,
+,Kuwait,,1900,0,0,,,,,
+,Kuwait,,1904,0,0,,,,,
+,Kuwait,,1908,0,0,,,,,
+,Kuwait,,1912,0,0,,,,,
+,Kuwait,,1920,0,0,,,,,
+,Kuwait,,1924,0,0,,,,,
+,Kuwait,,1928,0,0,,,,,
+,Kuwait,,1932,0,0,,,,,
+,Kuwait,,1936,0,0,,,,,
+,Kuwait,,1948,0,0,,,,,
+,Kuwait,,1952,0,0,,,,,
+,Kuwait,,1956,0,0,,,,,
+,Kuwait,,1960,0,0,,,,,
+,Kuwait,,1964,0,0,,,,,
+,Kuwait,,1968,0,0,,,,,
+,Kuwait,,1972,0,0,,,,,
+,Kuwait,,1976,0,0,,,,,
+,Kuwait,,1980,0,0,,,,,
+,Kuwait,,1984,0,0,,,,,
+,Kuwait,,1988,0,0,,,,,
+,Kuwait,,1992,0,0,,,,,
+,Kuwait,,1996,0,0,,,,,
+,Kuwait,,2000,1,1,,participated,1,,
+,Kuwait,,2004,0,0,,,,,
+,Kuwait,,2008,0,0,,,,,
+,Kuwait,,2012,1,1,,participated,1,,
+,Kuwait,,2016,0,0,,,,,
+,Kyrgyzstan,,1896,0,0,,,,,
+,Kyrgyzstan,,1900,0,0,,,,,
+,Kyrgyzstan,,1904,0,0,,,,,
+,Kyrgyzstan,,1908,0,0,,,,,
+,Kyrgyzstan,,1912,0,0,,,,,
+,Kyrgyzstan,,1920,0,0,,,,,
+,Kyrgyzstan,,1924,0,0,,,,,
+,Kyrgyzstan,,1928,0,0,,,,,
+,Kyrgyzstan,,1932,0,0,,,,,
+,Kyrgyzstan,,1936,0,0,,,,,
+,Kyrgyzstan,,1948,0,0,,,,,
+,Kyrgyzstan,,1952,0,0,,,,,
+,Kyrgyzstan,,1956,0,0,,,,,
+,Kyrgyzstan,,1960,0,0,,,,,
+,Kyrgyzstan,,1964,0,0,,,,,
+,Kyrgyzstan,,1968,0,0,,,,,
+,Kyrgyzstan,,1972,0,0,,,,,
+,Kyrgyzstan,,1976,0,0,,,,,
+,Kyrgyzstan,,1980,0,0,,,,,
+,Kyrgyzstan,,1984,0,0,,,,,
+,Kyrgyzstan,,1988,0,0,,,,,
+,Kyrgyzstan,,1992,0,0,,,,,
+,Kyrgyzstan,,1996,0,0,,,,,
+,Kyrgyzstan,,2000,1,1,,participated,1,,
+,Kyrgyzstan,,2004,0,0,,,,,
+,Kyrgyzstan,,2008,2,3,,participated,1,,1
+,Kyrgyzstan,,2012,0,0,,,,,
+,Kyrgyzstan,,2016,0,0,,,,,
+,Latvia,,1896,0,0,,,,,
+,Latvia,,1900,0,0,,,,,
+,Latvia,,1904,0,0,,,,,
+,Latvia,,1908,0,0,,,,,
+,Latvia,,1912,0,0,,,,,
+,Latvia,,1920,0,0,,,,,
+,Latvia,,1924,0,0,,,,,
+,Latvia,,1928,0,0,,,,,
+,Latvia,,1932,1,2,,participated,,,1
+,Latvia,,1936,2,3,,participated,1,,1
+,Latvia,,1948,0,0,,,,,
+,Latvia,,1952,0,0,,,,,
+,Latvia,,1956,0,0,,,,,
+,Latvia,,1960,0,0,,,,,
+,Latvia,,1964,0,0,,,,,
+,Latvia,,1968,0,0,,,,,
+,Latvia,,1972,0,0,,,,,
+,Latvia,,1976,0,0,,,,,
+,Latvia,,1980,0,0,,,,,
+,Latvia,,1984,0,0,,,,,
+,Latvia,,1988,0,0,,,,,
+,Latvia,,1992,3,5,,participated,1,,2
+,Latvia,,1996,1,2,,participated,,,1
+,Latvia,,2000,3,6,,participated,1,1,1
+,Latvia,,2004,4,8,,participated,,,4
+,Latvia,,2008,3,6,,participated,1,1,1
+,Latvia,,2012,2,4,,participated,1,1,
+,Latvia,,2016,0,0,,,,,
+,Lebanon,,1896,0,0,,,,,
+,Lebanon,,1900,0,0,,,,,
+,Lebanon,,1904,0,0,,,,,
+,Lebanon,,1908,0,0,,,,,
+,Lebanon,,1912,0,0,,,,,
+,Lebanon,,1920,0,0,,,,,
+,Lebanon,,1924,0,0,,,,,
+,Lebanon,,1928,0,0,,,,,
+,Lebanon,,1932,0,0,,,,,
+,Lebanon,,1936,0,0,,,,,
+,Lebanon,,1948,0,0,,,,,
+,Lebanon,,1952,2,3,,participated,1,,1
+,Lebanon,,1956,0,0,,,,,
+,Lebanon,,1960,0,0,,,,,
+,Lebanon,,1964,0,0,,,,,
+,Lebanon,,1968,0,0,,,,,
+,Lebanon,,1972,1,2,,participated,,,1
+,Lebanon,,1976,0,0,,,,,
+,Lebanon,,1980,1,1,,participated,1,,
+,Lebanon,,1984,0,0,,,,,
+,Lebanon,,1988,0,0,,,,,
+,Lebanon,,1992,0,0,,,,,
+,Lebanon,,1996,0,0,,,,,
+,Lebanon,,2000,0,0,,,,,
+,Lebanon,,2004,0,0,,,,,
+,Lebanon,,2008,0,0,,,,,
+,Lebanon,,2012,0,0,,,,,
+,Lebanon,,2016,0,0,,,,,
+,Lithuania,,1896,0,0,,,,,
+,Lithuania,,1900,0,0,,,,,
+,Lithuania,,1904,0,0,,,,,
+,Lithuania,,1908,0,0,,,,,
+,Lithuania,,1912,0,0,,,,,
+,Lithuania,,1920,0,0,,,,,
+,Lithuania,,1924,0,0,,,,,
+,Lithuania,,1928,0,0,,,,,
+,Lithuania,,1932,0,0,,,,,
+,Lithuania,,1936,0,0,,,,,
+,Lithuania,,1948,0,0,,,,,
+,Lithuania,,1952,0,0,,,,,
+,Lithuania,,1956,0,0,,,,,
+,Lithuania,,1960,0,0,,,,,
+,Lithuania,,1964,0,0,,,,,
+,Lithuania,,1968,0,0,,,,,
+,Lithuania,,1972,0,0,,,,,
+,Lithuania,,1976,0,0,,,,,
+,Lithuania,,1980,0,0,,,,,
+,Lithuania,,1984,0,0,,,,,
+,Lithuania,,1988,0,0,,,,,
+,Lithuania,,1992,2,4,,participated,1,1,
+,Lithuania,,1996,1,1,,participated,1,,
+,Lithuania,,2000,5,9,,participated,3,2,
+,Lithuania,,2004,3,7,,participated,,1,2
+,Lithuania,,2008,5,7,,participated,3,,2
+,Lithuania,,2012,5,10,,participated,2,2,1
+,Lithuania,,2016,4,5,,participated,3,,1
+,Luxembourg,,1896,0,0,,,,,
+,Luxembourg,,1900,0,0,,,,,
+,Luxembourg,,1904,0,0,,,,,
+,Luxembourg,,1908,0,0,,,,,
+,Luxembourg,,1912,0,0,,,,,
+,Luxembourg,,1920,1,2,,participated,,,1
+,Luxembourg,,1924,0,0,,,,,
+,Luxembourg,,1928,0,0,,,,,
+,Luxembourg,,1932,0,0,,,,,
+,Luxembourg,,1936,0,0,,,,,
+,Luxembourg,,1948,0,0,,,,,
+,Luxembourg,,1952,1,3,,participated,,1,
+,Luxembourg,,1956,0,0,,,,,
+,Luxembourg,,1960,0,0,,,,,
+,Luxembourg,,1964,0,0,,,,,
+,Luxembourg,,1968,0,0,,,,,
+,Luxembourg,,1972,0,0,,,,,
+,Luxembourg,,1976,0,0,,,,,
+,Luxembourg,,1980,0,0,,,,,
+,Luxembourg,,1984,0,0,,,,,
+,Luxembourg,,1988,0,0,,,,,
+,Luxembourg,,1992,0,0,,,,,
+,Luxembourg,,1996,0,0,,,,,
+,Luxembourg,,2000,0,0,,,,,
+,Luxembourg,,2004,0,0,,,,,
+,Luxembourg,,2008,0,0,,,,,
+,Luxembourg,,2012,0,0,,,,,
+,Luxembourg,,2016,0,0,,,,,
+,Macedonia,,1896,0,0,,,,,
+,Macedonia,,1900,0,0,,,,,
+,Macedonia,,1904,0,0,,,,,
+,Macedonia,,1908,0,0,,,,,
+,Macedonia,,1912,0,0,,,,,
+,Macedonia,,1920,0,0,,,,,
+,Macedonia,,1924,0,0,,,,,
+,Macedonia,,1928,0,0,,,,,
+,Macedonia,,1932,0,0,,,,,
+,Macedonia,,1936,0,0,,,,,
+,Macedonia,,1948,0,0,,,,,
+,Macedonia,,1952,0,0,,,,,
+,Macedonia,,1956,0,0,,,,,
+,Macedonia,,1960,0,0,,,,,
+,Macedonia,,1964,0,0,,,,,
+,Macedonia,,1968,0,0,,,,,
+,Macedonia,,1972,0,0,,,,,
+,Macedonia,,1976,0,0,,,,,
+,Macedonia,,1980,0,0,,,,,
+,Macedonia,,1984,0,0,,,,,
+,Macedonia,,1988,0,0,,,,,
+,Macedonia,,1992,0,0,,,,,
+,Macedonia,,1996,0,0,,,,,
+,Macedonia,,2000,1,1,,participated,1,,
+,Macedonia,,2004,0,0,,,,,
+,Macedonia,,2008,0,0,,,,,
+,Macedonia,,2012,0,0,,,,,
+,Macedonia,,2016,0,0,,,,,
+,Malaysia,,1896,0,0,,,,,
+,Malaysia,,1900,0,0,,,,,
+,Malaysia,,1904,0,0,,,,,
+,Malaysia,,1908,0,0,,,,,
+,Malaysia,,1912,0,0,,,,,
+,Malaysia,,1920,0,0,,,,,
+,Malaysia,,1924,0,0,,,,,
+,Malaysia,,1928,0,0,,,,,
+,Malaysia,,1932,0,0,,,,,
+,Malaysia,,1936,0,0,,,,,
+,Malaysia,,1948,0,0,,,,,
+,Malaysia,,1952,0,0,,,,,
+,Malaysia,,1956,0,0,,,,,
+,Malaysia,,1960,0,0,,,,,
+,Malaysia,,1964,0,0,,,,,
+,Malaysia,,1968,0,0,,,,,
+,Malaysia,,1972,0,0,,,,,
+,Malaysia,,1976,0,0,,,,,
+,Malaysia,,1980,0,0,,,,,
+,Malaysia,,1984,0,0,,,,,
+,Malaysia,,1988,0,0,,,,,
+,Malaysia,,1992,1,1,,participated,1,,
+,Malaysia,,1996,2,3,,participated,1,,1
+,Malaysia,,2000,0,0,,,,,
+,Malaysia,,2004,0,0,,,,,
+,Malaysia,,2008,1,2,,participated,,,1
+,Malaysia,,2012,2,3,,participated,1,,1
+,Malaysia,,2016,5,9,,participated,1,,4
+,Mauritius,,1896,0,0,,,,,
+,Mauritius,,1900,0,0,,,,,
+,Mauritius,,1904,0,0,,,,,
+,Mauritius,,1908,0,0,,,,,
+,Mauritius,,1912,0,0,,,,,
+,Mauritius,,1920,0,0,,,,,
+,Mauritius,,1924,0,0,,,,,
+,Mauritius,,1928,0,0,,,,,
+,Mauritius,,1932,0,0,,,,,
+,Mauritius,,1936,0,0,,,,,
+,Mauritius,,1948,0,0,,,,,
+,Mauritius,,1952,0,0,,,,,
+,Mauritius,,1956,0,0,,,,,
+,Mauritius,,1960,0,0,,,,,
+,Mauritius,,1964,0,0,,,,,
+,Mauritius,,1968,0,0,,,,,
+,Mauritius,,1972,0,0,,,,,
+,Mauritius,,1976,0,0,,,,,
+,Mauritius,,1980,0,0,,,,,
+,Mauritius,,1984,0,0,,,,,
+,Mauritius,,1988,0,0,,,,,
+,Mauritius,,1992,0,0,,,,,
+,Mauritius,,1996,0,0,,,,,
+,Mauritius,,2000,0,0,,,,,
+,Mauritius,,2004,0,0,,,,,
+,Mauritius,,2008,1,1,,participated,1,,
+,Mauritius,,2012,0,0,,,,,
+,Mauritius,,2016,0,0,,,,,
+,Mexico,,1896,0,0,,,,,
+,Mexico,,1900,0,0,,,,,
+,Mexico,,1904,0,0,,,,,
+,Mexico,,1908,0,0,,,,,
+,Mexico,,1912,0,0,,,,,
+,Mexico,,1920,0,0,,,,,
+,Mexico,,1924,0,0,,,,,
+,Mexico,,1928,0,0,,,,,
+,Mexico,,1932,2,4,,participated,,,2
+,Mexico,,1936,3,3,,participated,3,,
+,Mexico,,1948,5,10,,participated,2,2,1
+,Mexico,,1952,1,2,,participated,,,1
+,Mexico,,1956,2,4,,participated,1,1,
+,Mexico,,1960,1,1,,participated,1,,
+,Mexico,,1964,1,1,,participated,1,,
+,Mexico,,1968,9,18,,hosted,3,3,3
+,Mexico,,1972,1,2,,participated,,,1
+,Mexico,,1976,2,4,,participated,1,1,
+,Mexico,,1980,4,5,,participated,3,,1
+,Mexico,,1984,6,13,,participated,1,2,3
+,Mexico,,1988,2,2,,participated,2,,
+,Mexico,,1992,1,2,,participated,,,1
+,Mexico,,1996,1,1,,participated,1,,
+,Mexico,,2000,6,10,,participated,3,1,2
+,Mexico,,2004,4,7,,participated,1,,3
+,Mexico,,2008,3,7,,participated,1,2,
+,Mexico,,2012,8,13,,participated,4,1,3
+,Mexico,,2016,5,8,,participated,2,,3
+,Mixed team,,1896,3,6,,participated,1,1,1
+,Mixed team,,1900,9,20,5,participated,2,4,3
+,Mixed team,,1904,2,5,7,participated,,1,1
+,Mixed team,,1908,0,0,,,,,
+,Mixed team,,1912,0,0,,,,,
+,Mixed team,,1920,0,0,,,,,
+,Mixed team,,1924,0,0,,,,,
+,Mixed team,,1928,0,0,,,,,
+,Mixed team,,1932,0,0,,,,,
+,Mixed team,,1936,0,0,,,,,
+,Mixed team,,1948,0,0,,,,,
+,Mixed team,,1952,0,0,,,,,
+,Mixed team,,1956,0,0,,,,,
+,Mixed team,,1960,0,0,,,,,
+,Mixed team,,1964,0,0,,,,,
+,Mixed team,,1968,0,0,,,,,
+,Mixed team,,1972,0,0,,,,,
+,Mixed team,,1976,0,0,,,,,
+,Mixed team,,1980,0,0,,,,,
+,Mixed team,,1984,0,0,,,,,
+,Mixed team,,1988,0,0,,,,,
+,Mixed team,,1992,0,0,,,,,
+,Mixed team,,1996,0,0,,,,,
+,Mixed team,,2000,0,0,,,,,
+,Mixed team,,2004,0,0,,,,,
+,Mixed team,,2008,0,0,,,,,
+,Mixed team,,2012,0,0,,,,,
+,Mixed team,,2016,0,0,,,,,
+,Moldova,,1896,0,0,,,,,
+,Moldova,,1900,0,0,,,,,
+,Moldova,,1904,0,0,,,,,
+,Moldova,,1908,0,0,,,,,
+,Moldova,,1912,0,0,,,,,
+,Moldova,,1920,0,0,,,,,
+,Moldova,,1924,0,0,,,,,
+,Moldova,,1928,0,0,,,,,
+,Moldova,,1932,0,0,,,,,
+,Moldova,,1936,0,0,,,,,
+,Moldova,,1948,0,0,,,,,
+,Moldova,,1952,0,0,,,,,
+,Moldova,,1956,0,0,,,,,
+,Moldova,,1960,0,0,,,,,
+,Moldova,,1964,0,0,,,,,
+,Moldova,,1968,0,0,,,,,
+,Moldova,,1972,0,0,,,,,
+,Moldova,,1976,0,0,,,,,
+,Moldova,,1980,0,0,,,,,
+,Moldova,,1984,0,0,,,,,
+,Moldova,,1988,0,0,,,,,
+,Moldova,,1992,0,0,,,,,
+,Moldova,,1996,2,3,,participated,1,,1
+,Moldova,,2000,2,3,,participated,1,,1
+,Moldova,,2004,0,0,,,,,
+,Moldova,,2008,1,1,,participated,1,,
+,Moldova,,2012,0,0,,,,,
+,Moldova,,2016,0,0,,,,,
+,Mongolia,,1896,0,0,,,,,
+,Mongolia,,1900,0,0,,,,,
+,Mongolia,,1904,0,0,,,,,
+,Mongolia,,1908,0,0,,,,,
+,Mongolia,,1912,0,0,,,,,
+,Mongolia,,1920,0,0,,,,,
+,Mongolia,,1924,0,0,,,,,
+,Mongolia,,1928,0,0,,,,,
+,Mongolia,,1932,0,0,,,,,
+,Mongolia,,1936,0,0,,,,,
+,Mongolia,,1948,0,0,,,,,
+,Mongolia,,1952,0,0,,,,,
+,Mongolia,,1956,0,0,,,,,
+,Mongolia,,1960,0,0,,,,,
+,Mongolia,,1964,0,0,,,,,
+,Mongolia,,1968,4,5,,participated,3,,1
+,Mongolia,,1972,1,2,,participated,,,1
+,Mongolia,,1976,1,2,,participated,,,1
+,Mongolia,,1980,4,6,,participated,2,,2
+,Mongolia,,1984,0,0,,,,,
+,Mongolia,,1988,1,1,,participated,1,,
+,Mongolia,,1992,2,2,,participated,2,,
+,Mongolia,,1996,1,1,,participated,1,,
+,Mongolia,,2000,0,0,,,,,
+,Mongolia,,2004,1,1,,participated,1,,
+,Mongolia,,2008,4,10,,participated,,2,2
+,Mongolia,,2012,5,7,,participated,3,,2
+,Mongolia,,2016,2,3,,participated,1,,1
+,Montenegro,,1896,0,0,,,,,
+,Montenegro,,1900,0,0,,,,,
+,Montenegro,,1904,0,0,,,,,
+,Montenegro,,1908,0,0,,,,,
+,Montenegro,,1912,0,0,,,,,
+,Montenegro,,1920,0,0,,,,,
+,Montenegro,,1924,0,0,,,,,
+,Montenegro,,1928,0,0,,,,,
+,Montenegro,,1932,0,0,,,,,
+,Montenegro,,1936,0,0,,,,,
+,Montenegro,,1948,0,0,,,,,
+,Montenegro,,1952,0,0,,,,,
+,Montenegro,,1956,0,0,,,,,
+,Montenegro,,1960,0,0,,,,,
+,Montenegro,,1964,0,0,,,,,
+,Montenegro,,1968,0,0,,,,,
+,Montenegro,,1972,0,0,,,,,
+,Montenegro,,1976,0,0,,,,,
+,Montenegro,,1980,0,0,,,,,
+,Montenegro,,1984,0,0,,,,,
+,Montenegro,,1988,0,0,,,,,
+,Montenegro,,1992,0,0,,,,,
+,Montenegro,,1996,0,0,,,,,
+,Montenegro,,2000,0,0,,,,,
+,Montenegro,,2004,0,0,,,,,
+,Montenegro,,2008,0,0,,,,,
+,Montenegro,,2012,1,2,,participated,,,1
+,Montenegro,,2016,0,0,,,,,
+,Morocco,,1896,0,0,,,,,
+,Morocco,,1900,0,0,,,,,
+,Morocco,,1904,0,0,,,,,
+,Morocco,,1908,0,0,,,,,
+,Morocco,,1912,0,0,,,,,
+,Morocco,,1920,0,0,,,,,
+,Morocco,,1924,0,0,,,,,
+,Morocco,,1928,0,0,,,,,
+,Morocco,,1932,0,0,,,,,
+,Morocco,,1936,0,0,,,,,
+,Morocco,,1948,0,0,,,,,
+,Morocco,,1952,0,0,,,,,
+,Morocco,,1956,0,0,,,,,
+,Morocco,,1960,1,2,,participated,,,1
+,Morocco,,1964,0,0,,,,,
+,Morocco,,1968,0,0,,,,,
+,Morocco,,1972,0,0,,,,,
+,Morocco,,1976,0,0,,,,,
+,Morocco,,1980,0,0,,,,,
+,Morocco,,1984,2,6,,participated,,2,
+,Morocco,,1988,3,5,,participated,2,1,
+,Morocco,,1992,3,6,,participated,1,1,1
+,Morocco,,1996,2,2,,participated,2,,
+,Morocco,,2000,5,6,,participated,4,,1
+,Morocco,,2004,3,8,,participated,,2,1
+,Morocco,,2008,2,3,,participated,1,,1
+,Morocco,,2012,1,1,,participated,1,,
+,Morocco,,2016,1,1,,participated,1,,
+,Mozambique,,1896,0,0,,,,,
+,Mozambique,,1900,0,0,,,,,
+,Mozambique,,1904,0,0,,,,,
+,Mozambique,,1908,0,0,,,,,
+,Mozambique,,1912,0,0,,,,,
+,Mozambique,,1920,0,0,,,,,
+,Mozambique,,1924,0,0,,,,,
+,Mozambique,,1928,0,0,,,,,
+,Mozambique,,1932,0,0,,,,,
+,Mozambique,,1936,0,0,,,,,
+,Mozambique,,1948,0,0,,,,,
+,Mozambique,,1952,0,0,,,,,
+,Mozambique,,1956,0,0,,,,,
+,Mozambique,,1960,0,0,,,,,
+,Mozambique,,1964,0,0,,,,,
+,Mozambique,,1968,0,0,,,,,
+,Mozambique,,1972,0,0,,,,,
+,Mozambique,,1976,0,0,,,,,
+,Mozambique,,1980,0,0,,,,,
+,Mozambique,,1984,0,0,,,,,
+,Mozambique,,1988,0,0,,,,,
+,Mozambique,,1992,0,0,,,,,
+,Mozambique,,1996,1,1,,participated,1,,
+,Mozambique,,2000,1,3,,participated,,1,
+,Mozambique,,2004,0,0,,,,,
+,Mozambique,,2008,0,0,,,,,
+,Mozambique,,2012,0,0,,,,,
+,Mozambique,,2016,0,0,,,,,
+,Namibia,,1896,0,0,,,,,
+,Namibia,,1900,0,0,,,,,
+,Namibia,,1904,0,0,,,,,
+,Namibia,,1908,0,0,,,,,
+,Namibia,,1912,0,0,,,,,
+,Namibia,,1920,0,0,,,,,
+,Namibia,,1924,0,0,,,,,
+,Namibia,,1928,0,0,,,,,
+,Namibia,,1932,0,0,,,,,
+,Namibia,,1936,0,0,,,,,
+,Namibia,,1948,0,0,,,,,
+,Namibia,,1952,0,0,,,,,
+,Namibia,,1956,0,0,,,,,
+,Namibia,,1960,0,0,,,,,
+,Namibia,,1964,0,0,,,,,
+,Namibia,,1968,0,0,,,,,
+,Namibia,,1972,0,0,,,,,
+,Namibia,,1976,0,0,,,,,
+,Namibia,,1980,0,0,,,,,
+,Namibia,,1984,0,0,,,,,
+,Namibia,,1988,0,0,,,,,
+,Namibia,,1992,2,4,,participated,,,2
+,Namibia,,1996,2,4,,participated,,,2
+,Namibia,,2000,0,0,,,,,
+,Namibia,,2004,0,0,,,,,
+,Namibia,,2008,0,0,,,,,
+,Namibia,,2012,0,0,,,,,
+,Namibia,,2016,0,0,,,,,
+,Netherlands,,1896,0,0,,,,,
+,Netherlands,,1900,4,5,,participated,3,,1
+,Netherlands,,1904,0,0,,,,,
+,Netherlands,,1908,1,1,,participated,1,,
+,Netherlands,,1912,3,3,,participated,3,,
+,Netherlands,,1920,11,21,10,participated,5,4,2
+,Netherlands,,1924,10,19,10,participated,5,4,1
+,Netherlands,,1928,20,42,6,hosted,4,6,10
+,Netherlands,,1932,7,16,,participated,,2,5
+,Netherlands,,1936,17,33,9,participated,7,6,4
+,Netherlands,,1948,16,28,10,participated,9,5,2
+,Netherlands,,1952,5,10,,participated,,,5
+,Netherlands,,1956,0,0,,,,,
+,Netherlands,,1960,3,4,,participated,2,,1
+,Netherlands,,1964,10,18,,participated,4,2,4
+,Netherlands,,1968,7,16,,participated,1,3,3
+,Netherlands,,1972,5,12,,participated,1,3,1
+,Netherlands,,1976,5,7,,participated,3,,2
+,Netherlands,,1980,3,4,,participated,2,,1
+,Netherlands,,1984,13,25,,participated,6,5,2
+,Netherlands,,1988,9,15,,participated,5,2,2
+,Netherlands,,1992,15,25,,participated,7,2,6
+,Netherlands,,1996,19,32,,participated,10,4,5
+,Netherlands,,2000,25,58,10,participated,4,12,9
+,Netherlands,,2004,22,39,,participated,9,4,9
+,Netherlands,,2008,16,35,,participated,4,7,5
+,Netherlands,,2012,20,38,,participated,8,6,6
+,Netherlands,,2016,19,42,10,participated,4,8,7
+,Netherlands Antilles,,1896,0,0,,,,,
+,Netherlands Antilles,,1900,0,0,,,,,
+,Netherlands Antilles,,1904,0,0,,,,,
+,Netherlands Antilles,,1908,0,0,,,,,
+,Netherlands Antilles,,1912,0,0,,,,,
+,Netherlands Antilles,,1920,0,0,,,,,
+,Netherlands Antilles,,1924,0,0,,,,,
+,Netherlands Antilles,,1928,0,0,,,,,
+,Netherlands Antilles,,1932,0,0,,,,,
+,Netherlands Antilles,,1936,0,0,,,,,
+,Netherlands Antilles,,1948,0,0,,,,,
+,Netherlands Antilles,,1952,0,0,,,,,
+,Netherlands Antilles,,1956,0,0,,,,,
+,Netherlands Antilles,,1960,0,0,,,,,
+,Netherlands Antilles,,1964,0,0,,,,,
+,Netherlands Antilles,,1968,0,0,,,,,
+,Netherlands Antilles,,1972,0,0,,,,,
+,Netherlands Antilles,,1976,0,0,,,,,
+,Netherlands Antilles,,1980,0,0,,,,,
+,Netherlands Antilles,,1984,0,0,,,,,
+,Netherlands Antilles,,1988,1,2,,participated,,,1
+,Netherlands Antilles,,1992,0,0,,,,,
+,Netherlands Antilles,,1996,0,0,,,,,
+,Netherlands Antilles,,2000,0,0,,,,,
+,Netherlands Antilles,,2004,0,0,,,,,
+,Netherlands Antilles,,2008,0,0,,,,,
+,Netherlands Antilles,,2012,0,0,,,,,
+,Netherlands Antilles,,2016,0,0,,,,,
+,New Zealand,,1896,0,0,,,,,
+,New Zealand,,1900,0,0,,,,,
+,New Zealand,,1904,0,0,,,,,
+,New Zealand,,1908,0,0,,,,,
+,New Zealand,,1912,0,0,,,,,
+,New Zealand,,1920,1,1,,participated,1,,
+,New Zealand,,1924,1,1,,participated,1,,
+,New Zealand,,1928,1,3,,participated,,1,
+,New Zealand,,1932,1,2,,participated,,,1
+,New Zealand,,1936,1,3,,participated,,1,
+,New Zealand,,1948,0,0,,,,,
+,New Zealand,,1952,3,5,,participated,2,1,
+,New Zealand,,1956,2,6,,participated,,2,
+,New Zealand,,1960,3,7,,participated,1,2,
+,New Zealand,,1964,5,11,,participated,2,3,
+,New Zealand,,1968,3,5,,participated,2,1,
+,New Zealand,,1972,3,6,,participated,1,1,1
+,New Zealand,,1976,4,9,,participated,1,2,1
+,New Zealand,,1980,0,0,,,,,
+,New Zealand,,1984,11,28,,participated,2,8,1
+,New Zealand,,1988,13,21,,participated,8,3,2
+,New Zealand,,1992,10,16,,participated,5,1,4
+,New Zealand,,1996,6,14,,participated,1,3,2
+,New Zealand,,2000,4,6,,participated,3,1,
+,New Zealand,,2004,5,13,,participated,,3,2
+,New Zealand,,2008,9,17,,participated,4,3,2
+,New Zealand,,2012,13,27,,participated,5,6,2
+,New Zealand,,2016,18,35,,participated,5,4,9
+,Niger,,1896,0,0,,,,,
+,Niger,,1900,0,0,,,,,
+,Niger,,1904,0,0,,,,,
+,Niger,,1908,0,0,,,,,
+,Niger,,1912,0,0,,,,,
+,Niger,,1920,0,0,,,,,
+,Niger,,1924,0,0,,,,,
+,Niger,,1928,0,0,,,,,
+,Niger,,1932,0,0,,,,,
+,Niger,,1936,0,0,,,,,
+,Niger,,1948,0,0,,,,,
+,Niger,,1952,0,0,,,,,
+,Niger,,1956,0,0,,,,,
+,Niger,,1960,0,0,,,,,
+,Niger,,1964,0,0,,,,,
+,Niger,,1968,0,0,,,,,
+,Niger,,1972,1,1,,participated,1,,
+,Niger,,1976,0,0,,,,,
+,Niger,,1980,0,0,,,,,
+,Niger,,1984,0,0,,,,,
+,Niger,,1988,0,0,,,,,
+,Niger,,1992,0,0,,,,,
+,Niger,,1996,0,0,,,,,
+,Niger,,2000,0,0,,,,,
+,Niger,,2004,0,0,,,,,
+,Niger,,2008,0,0,,,,,
+,Niger,,2012,0,0,,,,,
+,Niger,,2016,1,2,,participated,,,1
+,Nigeria,,1896,0,0,,,,,
+,Nigeria,,1900,0,0,,,,,
+,Nigeria,,1904,0,0,,,,,
+,Nigeria,,1908,0,0,,,,,
+,Nigeria,,1912,0,0,,,,,
+,Nigeria,,1920,0,0,,,,,
+,Nigeria,,1924,0,0,,,,,
+,Nigeria,,1928,0,0,,,,,
+,Nigeria,,1932,0,0,,,,,
+,Nigeria,,1936,0,0,,,,,
+,Nigeria,,1948,0,0,,,,,
+,Nigeria,,1952,0,0,,,,,
+,Nigeria,,1956,0,0,,,,,
+,Nigeria,,1960,0,0,,,,,
+,Nigeria,,1964,1,1,,participated,1,,
+,Nigeria,,1968,0,0,,,,,
+,Nigeria,,1972,1,1,,participated,1,,
+,Nigeria,,1976,0,0,,,,,
+,Nigeria,,1980,0,0,,,,,
+,Nigeria,,1984,2,3,,participated,1,,1
+,Nigeria,,1988,0,0,,,,,
+,Nigeria,,1992,4,7,,participated,1,,3
+,Nigeria,,1996,6,11,,participated,3,2,1
+,Nigeria,,2000,3,6,,participated,,,3
+,Nigeria,,2004,2,2,,participated,2,,
+,Nigeria,,2008,4,5,,participated,3,,1
+,Nigeria,,2012,0,0,,,,,
+,Nigeria,,2016,1,1,,participated,1,,
+,North Korea,,1896,0,0,,,,,
+,North Korea,,1900,0,0,,,,,
+,North Korea,,1904,0,0,,,,,
+,North Korea,,1908,0,0,,,,,
+,North Korea,,1912,0,0,,,,,
+,North Korea,,1920,0,0,,,,,
+,North Korea,,1924,0,0,,,,,
+,North Korea,,1928,0,0,,,,,
+,North Korea,,1932,0,0,,,,,
+,North Korea,,1936,0,0,,,,,
+,North Korea,,1948,0,0,,,,,
+,North Korea,,1952,0,0,,,,,
+,North Korea,,1956,0,0,,,,,
+,North Korea,,1960,0,0,,,,,
+,North Korea,,1964,0,0,,,,,
+,North Korea,,1968,0,0,,,,,
+,North Korea,,1972,5,8,,participated,3,1,1
+,North Korea,,1976,2,5,,participated,,1,1
+,North Korea,,1980,5,8,,participated,2,,3
+,North Korea,,1984,0,0,,,,,
+,North Korea,,1988,0,0,,,,,
+,North Korea,,1992,9,17,,participated,5,4,
+,North Korea,,1996,5,10,,participated,2,2,1
+,North Korea,,2000,4,5,,participated,3,,1
+,North Korea,,2004,5,9,,participated,1,,4
+,North Korea,,2008,6,11,,participated,3,2,1
+,North Korea,,2012,6,14,,participated,2,4,
+,North Korea,,2016,7,14,,participated,2,2,3
+,Norway,,1896,0,0,,,,,
+,Norway,,1900,5,7,,participated,3,,2
+,Norway,,1904,0,0,,,,,
+,Norway,,1908,8,15,9,participated,3,2,3
+,Norway,,1912,9,18,8,participated,4,4,1
+,Norway,,1920,32,68,7,participated,9,13,10
+,Norway,,1924,10,22,9,participated,3,5,2
+,Norway,,1928,4,8,,participated,1,1,2
+,Norway,,1932,0,0,,,,,
+,Norway,,1936,6,11,,participated,2,1,3
+,Norway,,1948,7,12,,participated,3,1,3
+,Norway,,1952,5,13,,participated,,3,2
+,Norway,,1956,3,5,,participated,2,1,
+,Norway,,1960,1,3,,participated,,1,
+,Norway,,1964,0,0,,,,,
+,Norway,,1968,2,5,,participated,,1,1
+,Norway,,1972,4,9,,participated,1,2,1
+,Norway,,1976,2,5,,participated,,1,1
+,Norway,,1980,0,0,,,,,
+,Norway,,1984,3,4,,participated,2,,1
+,Norway,,1988,5,12,,participated,,2,3
+,Norway,,1992,7,15,,participated,1,2,4
+,Norway,,1996,7,13,,participated,3,2,2
+,Norway,,2000,10,21,,participated,3,4,3
+,Norway,,2004,6,16,,participated,1,5,
+,Norway,,2008,9,20,,participated,1,3,5
+,Norway,,2012,4,9,,participated,1,2,1
+,Norway,,2016,4,4,,participated,4,,
+,Pakistan,,1896,0,0,,,,,
+,Pakistan,,1900,0,0,,,,,
+,Pakistan,,1904,0,0,,,,,
+,Pakistan,,1908,0,0,,,,,
+,Pakistan,,1912,0,0,,,,,
+,Pakistan,,1920,0,0,,,,,
+,Pakistan,,1924,0,0,,,,,
+,Pakistan,,1928,0,0,,,,,
+,Pakistan,,1932,0,0,,,,,
+,Pakistan,,1936,0,0,,,,,
+,Pakistan,,1948,0,0,,,,,
+,Pakistan,,1952,0,0,,,,,
+,Pakistan,,1956,1,2,,participated,,,1
+,Pakistan,,1960,2,4,,participated,1,1,
+,Pakistan,,1964,1,2,,participated,,,1
+,Pakistan,,1968,1,3,,participated,,1,
+,Pakistan,,1972,1,2,,participated,,,1
+,Pakistan,,1976,1,1,,participated,1,,
+,Pakistan,,1980,0,0,,,,,
+,Pakistan,,1984,1,3,,participated,,1,
+,Pakistan,,1988,1,1,,participated,1,,
+,Pakistan,,1992,1,1,,participated,1,,
+,Pakistan,,1996,0,0,,,,,
+,Pakistan,,2000,0,0,,,,,
+,Pakistan,,2004,0,0,,,,,
+,Pakistan,,2008,0,0,,,,,
+,Pakistan,,2012,0,0,,,,,
+,Pakistan,,2016,0,0,,,,,
+,Panama,,1896,0,0,,,,,
+,Panama,,1900,0,0,,,,,
+,Panama,,1904,0,0,,,,,
+,Panama,,1908,0,0,,,,,
+,Panama,,1912,0,0,,,,,
+,Panama,,1920,0,0,,,,,
+,Panama,,1924,0,0,,,,,
+,Panama,,1928,0,0,,,,,
+,Panama,,1932,0,0,,,,,
+,Panama,,1936,0,0,,,,,
+,Panama,,1948,2,2,,participated,2,,
+,Panama,,1952,0,0,,,,,
+,Panama,,1956,0,0,,,,,
+,Panama,,1960,0,0,,,,,
+,Panama,,1964,0,0,,,,,
+,Panama,,1968,0,0,,,,,
+,Panama,,1972,0,0,,,,,
+,Panama,,1976,0,0,,,,,
+,Panama,,1980,0,0,,,,,
+,Panama,,1984,0,0,,,,,
+,Panama,,1988,0,0,,,,,
+,Panama,,1992,0,0,,,,,
+,Panama,,1996,0,0,,,,,
+,Panama,,2000,0,0,,,,,
+,Panama,,2004,0,0,,,,,
+,Panama,,2008,1,3,,participated,,1,
+,Panama,,2012,0,0,,,,,
+,Panama,,2016,0,0,,,,,
+,Paraguay,,1896,0,0,,,,,
+,Paraguay,,1900,0,0,,,,,
+,Paraguay,,1904,0,0,,,,,
+,Paraguay,,1908,0,0,,,,,
+,Paraguay,,1912,0,0,,,,,
+,Paraguay,,1920,0,0,,,,,
+,Paraguay,,1924,0,0,,,,,
+,Paraguay,,1928,0,0,,,,,
+,Paraguay,,1932,0,0,,,,,
+,Paraguay,,1936,0,0,,,,,
+,Paraguay,,1948,0,0,,,,,
+,Paraguay,,1952,0,0,,,,,
+,Paraguay,,1956,0,0,,,,,
+,Paraguay,,1960,0,0,,,,,
+,Paraguay,,1964,0,0,,,,,
+,Paraguay,,1968,0,0,,,,,
+,Paraguay,,1972,0,0,,,,,
+,Paraguay,,1976,0,0,,,,,
+,Paraguay,,1980,0,0,,,,,
+,Paraguay,,1984,0,0,,,,,
+,Paraguay,,1988,0,0,,,,,
+,Paraguay,,1992,0,0,,,,,
+,Paraguay,,1996,0,0,,,,,
+,Paraguay,,2000,0,0,,,,,
+,Paraguay,,2004,1,2,,participated,,,1
+,Paraguay,,2008,0,0,,,,,
+,Paraguay,,2012,0,0,,,,,
+,Paraguay,,2016,0,0,,,,,
+,Peru,,1896,0,0,,,,,
+,Peru,,1900,0,0,,,,,
+,Peru,,1904,0,0,,,,,
+,Peru,,1908,0,0,,,,,
+,Peru,,1912,0,0,,,,,
+,Peru,,1920,0,0,,,,,
+,Peru,,1924,0,0,,,,,
+,Peru,,1928,0,0,,,,,
+,Peru,,1932,0,0,,,,,
+,Peru,,1936,0,0,,,,,
+,Peru,,1948,1,3,,participated,,1,
+,Peru,,1952,0,0,,,,,
+,Peru,,1956,0,0,,,,,
+,Peru,,1960,0,0,,,,,
+,Peru,,1964,0,0,,,,,
+,Peru,,1968,0,0,,,,,
+,Peru,,1972,0,0,,,,,
+,Peru,,1976,0,0,,,,,
+,Peru,,1980,0,0,,,,,
+,Peru,,1984,1,2,,participated,,,1
+,Peru,,1988,1,2,,participated,,,1
+,Peru,,1992,1,2,,participated,,,1
+,Peru,,1996,0,0,,,,,
+,Peru,,2000,0,0,,,,,
+,Peru,,2004,0,0,,,,,
+,Peru,,2008,0,0,,,,,
+,Peru,,2012,0,0,,,,,
+,Peru,,2016,0,0,,,,,
+,Philippines,,1896,0,0,,,,,
+,Philippines,,1900,0,0,,,,,
+,Philippines,,1904,0,0,,,,,
+,Philippines,,1908,0,0,,,,,
+,Philippines,,1912,0,0,,,,,
+,Philippines,,1920,0,0,,,,,
+,Philippines,,1924,0,0,,,,,
+,Philippines,,1928,1,1,,participated,1,,
+,Philippines,,1932,3,3,,participated,3,,
+,Philippines,,1936,1,1,,participated,1,,
+,Philippines,,1948,0,0,,,,,
+,Philippines,,1952,0,0,,,,,
+,Philippines,,1956,0,0,,,,,
+,Philippines,,1960,0,0,,,,,
+,Philippines,,1964,1,2,,participated,,,1
+,Philippines,,1968,0,0,,,,,
+,Philippines,,1972,0,0,,,,,
+,Philippines,,1976,0,0,,,,,
+,Philippines,,1980,0,0,,,,,
+,Philippines,,1984,0,0,,,,,
+,Philippines,,1988,1,1,,participated,1,,
+,Philippines,,1992,1,1,,participated,1,,
+,Philippines,,1996,1,2,,participated,,,1
+,Philippines,,2000,0,0,,,,,
+,Philippines,,2004,0,0,,,,,
+,Philippines,,2008,0,0,,,,,
+,Philippines,,2012,0,0,,,,,
+,Philippines,,2016,1,2,,participated,,,1
+,Poland,,1896,0,0,,,,,
+,Poland,,1900,0,0,,,,,
+,Poland,,1904,0,0,,,,,
+,Poland,,1908,0,0,,,,,
+,Poland,,1912,0,0,,,,,
+,Poland,,1920,0,0,,,,,
+,Poland,,1924,2,3,,participated,1,,1
+,Poland,,1928,5,8,,participated,3,1,1
+,Poland,,1932,7,12,,participated,4,2,1
+,Poland,,1936,6,9,,participated,3,,3
+,Poland,,1948,1,1,,participated,1,,
+,Poland,,1952,4,8,,participated,1,1,2
+,Poland,,1956,9,15,,participated,4,1,4
+,Poland,,1960,21,35,7,participated,11,4,6
+,Poland,,1964,23,43,7,participated,10,7,6
+,Poland,,1968,18,30,9,participated,11,5,2
+,Poland,,1972,21,40,9,participated,9,7,5
+,Poland,,1976,26,46,6,participated,13,7,6
+,Poland,,1980,32,52,5,participated,15,3,14
+,Poland,,1984,0,0,,,,,
+,Poland,,1988,16,25,,participated,9,2,5
+,Poland,,1992,19,31,,participated,10,3,6
+,Poland,,1996,17,36,,participated,5,7,5
+,Poland,,2000,14,31,,participated,3,6,5
+,Poland,,2004,10,18,,participated,5,3,2
+,Poland,,2008,10,22,,participated,1,3,6
+,Poland,,2012,11,19,,participated,6,3,2
+,Poland,,2016,11,18,,participated,6,2,3
+,Portugal,,1896,0,0,,,,,
+,Portugal,,1900,0,0,,,,,
+,Portugal,,1904,0,0,,,,,
+,Portugal,,1908,0,0,,,,,
+,Portugal,,1912,0,0,,,,,
+,Portugal,,1920,0,0,,,,,
+,Portugal,,1924,1,1,,participated,1,,
+,Portugal,,1928,0,0,,,,,
+,Portugal,,1932,0,0,,,,,
+,Portugal,,1936,1,1,,participated,1,,
+,Portugal,,1948,2,3,,participated,1,,1
+,Portugal,,1952,1,1,,participated,1,,
+,Portugal,,1956,0,0,,,,,
+,Portugal,,1960,1,2,,participated,,,1
+,Portugal,,1964,0,0,,,,,
+,Portugal,,1968,0,0,,,,,
+,Portugal,,1972,0,0,,,,,
+,Portugal,,1976,2,4,,participated,,,2
+,Portugal,,1980,0,0,,,,,
+,Portugal,,1984,3,5,,participated,2,1,
+,Portugal,,1988,1,3,,participated,,1,
+,Portugal,,1992,0,0,,,,,
+,Portugal,,1996,2,4,,participated,1,1,
+,Portugal,,2000,2,2,,participated,2,,
+,Portugal,,2004,3,5,,participated,1,,2
+,Portugal,,2008,2,5,,participated,,1,1
+,Portugal,,2012,1,2,,participated,,,1
+,Portugal,,2016,1,1,,participated,1,,
+,Puerto Rico,,1896,0,0,,,,,
+,Puerto Rico,,1900,0,0,,,,,
+,Puerto Rico,,1904,0,0,,,,,
+,Puerto Rico,,1908,0,0,,,,,
+,Puerto Rico,,1912,0,0,,,,,
+,Puerto Rico,,1920,0,0,,,,,
+,Puerto Rico,,1924,0,0,,,,,
+,Puerto Rico,,1928,0,0,,,,,
+,Puerto Rico,,1932,0,0,,,,,
+,Puerto Rico,,1936,0,0,,,,,
+,Puerto Rico,,1948,1,1,,participated,1,,
+,Puerto Rico,,1952,0,0,,,,,
+,Puerto Rico,,1956,0,0,,,,,
+,Puerto Rico,,1960,0,0,,,,,
+,Puerto Rico,,1964,0,0,,,,,
+,Puerto Rico,,1968,0,0,,,,,
+,Puerto Rico,,1972,0,0,,,,,
+,Puerto Rico,,1976,1,1,,participated,1,,
+,Puerto Rico,,1980,0,0,,,,,
+,Puerto Rico,,1984,2,3,,participated,1,,1
+,Puerto Rico,,1988,0,0,,,,,
+,Puerto Rico,,1992,1,1,,participated,1,,
+,Puerto Rico,,1996,1,1,,participated,1,,
+,Puerto Rico,,2000,0,0,,,,,
+,Puerto Rico,,2004,0,0,,,,,
+,Puerto Rico,,2008,0,0,,,,,
+,Puerto Rico,,2012,2,3,,participated,1,,1
+,Puerto Rico,,2016,1,3,,participated,,1,
+,Qatar,,1896,0,0,,,,,
+,Qatar,,1900,0,0,,,,,
+,Qatar,,1904,0,0,,,,,
+,Qatar,,1908,0,0,,,,,
+,Qatar,,1912,0,0,,,,,
+,Qatar,,1920,0,0,,,,,
+,Qatar,,1924,0,0,,,,,
+,Qatar,,1928,0,0,,,,,
+,Qatar,,1932,0,0,,,,,
+,Qatar,,1936,0,0,,,,,
+,Qatar,,1948,0,0,,,,,
+,Qatar,,1952,0,0,,,,,
+,Qatar,,1956,0,0,,,,,
+,Qatar,,1960,0,0,,,,,
+,Qatar,,1964,0,0,,,,,
+,Qatar,,1968,0,0,,,,,
+,Qatar,,1972,0,0,,,,,
+,Qatar,,1976,0,0,,,,,
+,Qatar,,1980,0,0,,,,,
+,Qatar,,1984,0,0,,,,,
+,Qatar,,1988,0,0,,,,,
+,Qatar,,1992,1,1,,participated,1,,
+,Qatar,,1996,0,0,,,,,
+,Qatar,,2000,1,1,,participated,1,,
+,Qatar,,2004,0,0,,,,,
+,Qatar,,2008,0,0,,,,,
+,Qatar,,2012,2,2,,participated,2,,
+,Qatar,,2016,1,2,,participated,,,1
+,Romania,,1896,0,0,,,,,
+,Romania,,1900,0,0,,,,,
+,Romania,,1904,0,0,,,,,
+,Romania,,1908,0,0,,,,,
+,Romania,,1912,0,0,,,,,
+,Romania,,1920,0,0,,,,,
+,Romania,,1924,1,1,,participated,1,,
+,Romania,,1928,0,0,,,,,
+,Romania,,1932,0,0,,,,,
+,Romania,,1936,1,2,,participated,,,1
+,Romania,,1948,0,0,,,,,
+,Romania,,1952,4,7,,participated,2,1,1
+,Romania,,1956,13,26,,participated,5,5,3
+,Romania,,1960,10,17,,participated,6,3,1
+,Romania,,1964,12,20,,participated,6,2,4
+,Romania,,1968,15,29,,participated,5,4,6
+,Romania,,1972,16,28,,participated,7,3,6
+,Romania,,1976,27,44,7,participated,14,4,9
+,Romania,,1980,25,43,7,participated,13,6,6
+,Romania,,1984,52,106,3,participated,17,19,16
+,Romania,,1988,24,49,9,participated,6,7,11
+,Romania,,1992,18,32,,participated,8,4,6
+,Romania,,1996,19,34,,participated,8,4,7
+,Romania,,2000,26,54,,participated,9,11,6
+,Romania,,2004,19,40,,participated,6,8,5
+,Romania,,2008,8,17,,participated,3,4,1
+,Romania,,2012,9,18,,participated,2,2,5
+,Romania,,2016,4,7,,participated,2,1,1
+,Russia,,1896,0,0,,,,,
+,Russia,,1900,0,0,,,,,
+,Russia,,1904,0,0,,,,,
+,Russia,,1908,0,0,,,,,
+,Russia,,1912,0,0,,,,,
+,Russia,,1920,0,0,,,,,
+,Russia,,1924,0,0,,,,,
+,Russia,,1928,0,0,,,,,
+,Russia,,1932,0,0,,,,,
+,Russia,,1936,0,0,,,,,
+,Russia,,1948,0,0,,,,,
+,Russia,,1952,0,0,,,,,
+,Russia,,1956,0,0,,,,,
+,Russia,,1960,0,0,,,,,
+,Russia,,1964,0,0,,,,,
+,Russia,,1968,0,0,,,,,
+,Russia,,1972,0,0,,,,,
+,Russia,,1976,0,0,,,,,
+,Russia,,1980,0,0,,,,,
+,Russia,,1984,0,0,,,,,
+,Russia,,1988,0,0,,,,,
+,Russia,,1992,0,0,,,,,
+,Russia,,1996,63,136,2,participated,16,26,21
+,Russia,,2000,89,181,2,participated,29,32,28
+,Russia,,2004,92,173,2,participated,38,27,27
+,Russia,,2008,72,139,3,participated,28,23,21
+,Russia,,2012,69,127,4,participated,30,19,20
+,Russia,,2016,55,110,4,participated,19,19,17
+,Russian Empire,,1896,0,0,,,,,
+,Russian Empire,,1900,0,0,,,,,
+,Russian Empire,,1904,0,0,,,,,
+,Russian Empire,,1908,3,7,,participated,,1,2
+,Russian Empire,,1912,5,7,,participated,3,,2
+,Russian Empire,,1920,0,0,,,,,
+,Russian Empire,,1924,0,0,,,,,
+,Russian Empire,,1928,0,0,,,,,
+,Russian Empire,,1932,0,0,,,,,
+,Russian Empire,,1936,0,0,,,,,
+,Russian Empire,,1948,0,0,,,,,
+,Russian Empire,,1952,0,0,,,,,
+,Russian Empire,,1956,0,0,,,,,
+,Russian Empire,,1960,0,0,,,,,
+,Russian Empire,,1964,0,0,,,,,
+,Russian Empire,,1968,0,0,,,,,
+,Russian Empire,,1972,0,0,,,,,
+,Russian Empire,,1976,0,0,,,,,
+,Russian Empire,,1980,0,0,,,,,
+,Russian Empire,,1984,0,0,,,,,
+,Russian Empire,,1988,0,0,,,,,
+,Russian Empire,,1992,0,0,,,,,
+,Russian Empire,,1996,0,0,,,,,
+,Russian Empire,,2000,0,0,,,,,
+,Russian Empire,,2004,0,0,,,,,
+,Russian Empire,,2008,0,0,,,,,
+,Russian Empire,,2012,0,0,,,,,
+,Russian Empire,,2016,0,0,,,,,
+,Saudi Arabia,,1896,0,0,,,,,
+,Saudi Arabia,,1900,0,0,,,,,
+,Saudi Arabia,,1904,0,0,,,,,
+,Saudi Arabia,,1908,0,0,,,,,
+,Saudi Arabia,,1912,0,0,,,,,
+,Saudi Arabia,,1920,0,0,,,,,
+,Saudi Arabia,,1924,0,0,,,,,
+,Saudi Arabia,,1928,0,0,,,,,
+,Saudi Arabia,,1932,0,0,,,,,
+,Saudi Arabia,,1936,0,0,,,,,
+,Saudi Arabia,,1948,0,0,,,,,
+,Saudi Arabia,,1952,0,0,,,,,
+,Saudi Arabia,,1956,0,0,,,,,
+,Saudi Arabia,,1960,0,0,,,,,
+,Saudi Arabia,,1964,0,0,,,,,
+,Saudi Arabia,,1968,0,0,,,,,
+,Saudi Arabia,,1972,0,0,,,,,
+,Saudi Arabia,,1976,0,0,,,,,
+,Saudi Arabia,,1980,0,0,,,,,
+,Saudi Arabia,,1984,0,0,,,,,
+,Saudi Arabia,,1988,0,0,,,,,
+,Saudi Arabia,,1992,0,0,,,,,
+,Saudi Arabia,,1996,0,0,,,,,
+,Saudi Arabia,,2000,2,3,,participated,1,,1
+,Saudi Arabia,,2004,0,0,,,,,
+,Saudi Arabia,,2008,0,0,,,,,
+,Saudi Arabia,,2012,1,1,,participated,1,,
+,Saudi Arabia,,2016,0,0,,,,,
+,Senegal,,1896,0,0,,,,,
+,Senegal,,1900,0,0,,,,,
+,Senegal,,1904,0,0,,,,,
+,Senegal,,1908,0,0,,,,,
+,Senegal,,1912,0,0,,,,,
+,Senegal,,1920,0,0,,,,,
+,Senegal,,1924,0,0,,,,,
+,Senegal,,1928,0,0,,,,,
+,Senegal,,1932,0,0,,,,,
+,Senegal,,1936,0,0,,,,,
+,Senegal,,1948,0,0,,,,,
+,Senegal,,1952,0,0,,,,,
+,Senegal,,1956,0,0,,,,,
+,Senegal,,1960,0,0,,,,,
+,Senegal,,1964,0,0,,,,,
+,Senegal,,1968,0,0,,,,,
+,Senegal,,1972,0,0,,,,,
+,Senegal,,1976,0,0,,,,,
+,Senegal,,1980,0,0,,,,,
+,Senegal,,1984,0,0,,,,,
+,Senegal,,1988,1,2,,participated,,,1
+,Senegal,,1992,0,0,,,,,
+,Senegal,,1996,0,0,,,,,
+,Senegal,,2000,0,0,,,,,
+,Senegal,,2004,0,0,,,,,
+,Senegal,,2008,0,0,,,,,
+,Senegal,,2012,0,0,,,,,
+,Senegal,,2016,0,0,,,,,
+,Serbia,,1896,0,0,,,,,
+,Serbia,,1900,0,0,,,,,
+,Serbia,,1904,0,0,,,,,
+,Serbia,,1908,0,0,,,,,
+,Serbia,,1912,0,0,,,,,
+,Serbia,,1920,0,0,,,,,
+,Serbia,,1924,0,0,,,,,
+,Serbia,,1928,0,0,,,,,
+,Serbia,,1932,0,0,,,,,
+,Serbia,,1936,0,0,,,,,
+,Serbia,,1948,0,0,,,,,
+,Serbia,,1952,0,0,,,,,
+,Serbia,,1956,0,0,,,,,
+,Serbia,,1960,0,0,,,,,
+,Serbia,,1964,0,0,,,,,
+,Serbia,,1968,0,0,,,,,
+,Serbia,,1972,0,0,,,,,
+,Serbia,,1976,0,0,,,,,
+,Serbia,,1980,0,0,,,,,
+,Serbia,,1984,0,0,,,,,
+,Serbia,,1988,0,0,,,,,
+,Serbia,,1992,0,0,,,,,
+,Serbia,,1996,0,0,,,,,
+,Serbia,,2000,0,0,,,,,
+,Serbia,,2004,0,0,,,,,
+,Serbia,,2008,3,4,,participated,2,,1
+,Serbia,,2012,4,7,,participated,2,1,1
+,Serbia,,2016,8,16,,participated,2,2,4
+,Serbia and Montenegro,,1896,0,0,,,,,
+,Serbia and Montenegro,,1900,0,0,,,,,
+,Serbia and Montenegro,,1904,0,0,,,,,
+,Serbia and Montenegro,,1908,0,0,,,,,
+,Serbia and Montenegro,,1912,0,0,,,,,
+,Serbia and Montenegro,,1920,0,0,,,,,
+,Serbia and Montenegro,,1924,0,0,,,,,
+,Serbia and Montenegro,,1928,0,0,,,,,
+,Serbia and Montenegro,,1932,0,0,,,,,
+,Serbia and Montenegro,,1936,0,0,,,,,
+,Serbia and Montenegro,,1948,0,0,,,,,
+,Serbia and Montenegro,,1952,0,0,,,,,
+,Serbia and Montenegro,,1956,0,0,,,,,
+,Serbia and Montenegro,,1960,0,0,,,,,
+,Serbia and Montenegro,,1964,0,0,,,,,
+,Serbia and Montenegro,,1968,0,0,,,,,
+,Serbia and Montenegro,,1972,0,0,,,,,
+,Serbia and Montenegro,,1976,0,0,,,,,
+,Serbia and Montenegro,,1980,0,0,,,,,
+,Serbia and Montenegro,,1984,0,0,,,,,
+,Serbia and Montenegro,,1988,0,0,,,,,
+,Serbia and Montenegro,,1992,0,0,,,,,
+,Serbia and Montenegro,,1996,0,0,,,,,
+,Serbia and Montenegro,,2000,0,0,,,,,
+,Serbia and Montenegro,,2004,2,4,,participated,,,2
+,Serbia and Montenegro,,2008,0,0,,,,,
+,Serbia and Montenegro,,2012,0,0,,,,,
+,Serbia and Montenegro,,2016,0,0,,,,,
+,Singapore,,1896,0,0,,,,,
+,Singapore,,1900,0,0,,,,,
+,Singapore,,1904,0,0,,,,,
+,Singapore,,1908,0,0,,,,,
+,Singapore,,1912,0,0,,,,,
+,Singapore,,1920,0,0,,,,,
+,Singapore,,1924,0,0,,,,,
+,Singapore,,1928,0,0,,,,,
+,Singapore,,1932,0,0,,,,,
+,Singapore,,1936,0,0,,,,,
+,Singapore,,1948,0,0,,,,,
+,Singapore,,1952,0,0,,,,,
+,Singapore,,1956,0,0,,,,,
+,Singapore,,1960,1,2,,participated,,,1
+,Singapore,,1964,0,0,,,,,
+,Singapore,,1968,0,0,,,,,
+,Singapore,,1972,0,0,,,,,
+,Singapore,,1976,0,0,,,,,
+,Singapore,,1980,0,0,,,,,
+,Singapore,,1984,0,0,,,,,
+,Singapore,,1988,0,0,,,,,
+,Singapore,,1992,0,0,,,,,
+,Singapore,,1996,0,0,,,,,
+,Singapore,,2000,0,0,,,,,
+,Singapore,,2004,0,0,,,,,
+,Singapore,,2008,1,2,,participated,,,1
+,Singapore,,2012,2,2,,participated,2,,
+,Singapore,,2016,1,3,,participated,,1,
+,Slovakia,,1896,0,0,,,,,
+,Slovakia,,1900,0,0,,,,,
+,Slovakia,,1904,0,0,,,,,
+,Slovakia,,1908,0,0,,,,,
+,Slovakia,,1912,0,0,,,,,
+,Slovakia,,1920,0,0,,,,,
+,Slovakia,,1924,0,0,,,,,
+,Slovakia,,1928,0,0,,,,,
+,Slovakia,,1932,0,0,,,,,
+,Slovakia,,1936,0,0,,,,,
+,Slovakia,,1948,0,0,,,,,
+,Slovakia,,1952,0,0,,,,,
+,Slovakia,,1956,0,0,,,,,
+,Slovakia,,1960,0,0,,,,,
+,Slovakia,,1964,0,0,,,,,
+,Slovakia,,1968,0,0,,,,,
+,Slovakia,,1972,0,0,,,,,
+,Slovakia,,1976,0,0,,,,,
+,Slovakia,,1980,0,0,,,,,
+,Slovakia,,1984,0,0,,,,,
+,Slovakia,,1988,0,0,,,,,
+,Slovakia,,1992,0,0,,,,,
+,Slovakia,,1996,3,6,,participated,1,1,1
+,Slovakia,,2000,5,10,,participated,1,1,3
+,Slovakia,,2004,6,12,,participated,2,2,2
+,Slovakia,,2008,6,14,,participated,1,3,2
+,Slovakia,,2012,4,5,,participated,3,,1
+,Slovakia,,2016,4,10,,participated,,2,2
+,Slovenia,,1896,0,0,,,,,
+,Slovenia,,1900,0,0,,,,,
+,Slovenia,,1904,0,0,,,,,
+,Slovenia,,1908,0,0,,,,,
+,Slovenia,,1912,0,0,,,,,
+,Slovenia,,1920,0,0,,,,,
+,Slovenia,,1924,0,0,,,,,
+,Slovenia,,1928,0,0,,,,,
+,Slovenia,,1932,0,0,,,,,
+,Slovenia,,1936,0,0,,,,,
+,Slovenia,,1948,0,0,,,,,
+,Slovenia,,1952,0,0,,,,,
+,Slovenia,,1956,0,0,,,,,
+,Slovenia,,1960,0,0,,,,,
+,Slovenia,,1964,0,0,,,,,
+,Slovenia,,1968,0,0,,,,,
+,Slovenia,,1972,0,0,,,,,
+,Slovenia,,1976,0,0,,,,,
+,Slovenia,,1980,0,0,,,,,
+,Slovenia,,1984,0,0,,,,,
+,Slovenia,,1988,0,0,,,,,
+,Slovenia,,1992,2,2,,participated,2,,
+,Slovenia,,1996,2,4,,participated,,,2
+,Slovenia,,2000,2,6,,participated,,2,
+,Slovenia,,2004,4,5,,participated,3,,1
+,Slovenia,,2008,5,9,,participated,2,1,2
+,Slovenia,,2012,4,7,,participated,2,1,1
+,Slovenia,,2016,4,8,,participated,1,1,2
+,South Africa,,1896,0,0,,,,,
+,South Africa,,1900,0,0,,,,,
+,South Africa,,1904,0,0,,,,,
+,South Africa,,1908,2,5,,participated,,1,1
+,South Africa,,1912,6,16,,participated,,4,2
+,South Africa,,1920,10,20,,participated,3,3,4
+,South Africa,,1924,3,6,,participated,1,1,1
+,South Africa,,1928,3,5,,participated,2,1,
+,South Africa,,1932,5,9,,participated,3,2,
+,South Africa,,1936,1,2,,participated,,,1
+,South Africa,,1948,4,9,,participated,1,2,1
+,South Africa,,1952,10,18,,participated,4,2,4
+,South Africa,,1956,4,4,,participated,4,,
+,South Africa,,1960,3,4,,participated,2,,1
+,South Africa,,1964,0,0,,,,,
+,South Africa,,1968,0,0,,,,,
+,South Africa,,1972,0,0,,,,,
+,South Africa,,1976,0,0,,,,,
+,South Africa,,1980,0,0,,,,,
+,South Africa,,1984,0,0,,,,,
+,South Africa,,1988,0,0,,,,,
+,South Africa,,1992,2,4,,participated,,,2
+,South Africa,,1996,5,12,,participated,1,3,1
+,South Africa,,2000,5,7,,participated,3,,2
+,South Africa,,2004,6,11,,participated,2,1,3
+,South Africa,,2008,1,2,,participated,,,1
+,South Africa,,2012,6,14,,participated,1,3,2
+,South Africa,,2016,10,20,,participated,2,2,6
+,South Korea,,1896,0,0,,,,,
+,South Korea,,1900,0,0,,,,,
+,South Korea,,1904,0,0,,,,,
+,South Korea,,1908,0,0,,,,,
+,South Korea,,1912,0,0,,,,,
+,South Korea,,1920,0,0,,,,,
+,South Korea,,1924,0,0,,,,,
+,South Korea,,1928,0,0,,,,,
+,South Korea,,1932,0,0,,,,,
+,South Korea,,1936,0,0,,,,,
+,South Korea,,1948,2,2,,participated,2,,
+,South Korea,,1952,2,2,,participated,2,,
+,South Korea,,1956,2,3,,participated,1,,1
+,South Korea,,1960,0,0,,,,,
+,South Korea,,1964,3,5,,participated,1,,2
+,South Korea,,1968,2,3,,participated,1,,1
+,South Korea,,1972,1,2,,participated,,,1
+,South Korea,,1976,6,9,,participated,4,1,1
+,South Korea,,1980,0,0,,,,,
+,South Korea,,1984,19,37,,participated,7,6,6
+,South Korea,,1988,33,67,6,hosted,11,12,10
+,South Korea,,1992,28,57,7,participated,11,12,5
+,South Korea,,1996,27,56,8,participated,5,7,15
+,South Korea,,2000,28,54,,participated,10,8,10
+,South Korea,,2004,30,60,9,participated,9,9,12
+,South Korea,,2008,31,67,8,participated,8,13,10
+,South Korea,,2012,30,65,9,participated,8,13,9
+,South Korea,,2016,21,42,,participated,9,9,3
+,Soviet Union,,1896,0,0,,,,,
+,Soviet Union,,1900,0,0,,,,,
+,Soviet Union,,1904,0,0,,,,,
+,Soviet Union,,1908,0,0,,,,,
+,Soviet Union,,1912,0,0,,,,,
+,Soviet Union,,1920,0,0,,,,,
+,Soviet Union,,1924,0,0,,,,,
+,Soviet Union,,1928,0,0,,,,,
+,Soviet Union,,1932,0,0,,,,,
+,Soviet Union,,1936,0,0,,,,,
+,Soviet Union,,1948,0,0,,,,,
+,Soviet Union,,1952,70,143,2,participated,19,22,29
+,Soviet Union,,1956,98,201,1,participated,32,37,29
+,Soviet Union,,1960,103,218,1,participated,31,43,29
+,Soviet Union,,1964,93,183,2,participated,33,30,30
+,Soviet Union,,1968,91,181,2,participated,30,29,32
+,Soviet Union,,1972,99,226,1,participated,22,50,27
+,Soviet Union,,1976,125,264,1,participated,35,49,41
+,Soviet Union,,1980,195,424,1,hosted,46,80,69
+,Soviet Union,,1984,0,0,,,,,
+,Soviet Union,,1988,131,270,1,participated,46,54,31
+,Soviet Union,,1992,0,0,,,,,
+,Soviet Union,,1996,0,0,,,,,
+,Soviet Union,,2000,0,0,,,,,
+,Soviet Union,,2004,0,0,,,,,
+,Soviet Union,,2008,0,0,,,,,
+,Soviet Union,,2012,0,0,,,,,
+,Soviet Union,,2016,0,0,,,,,
+,Spain,,1896,0,0,,,,,
+,Spain,,1900,1,3,,participated,,1,
+,Spain,,1904,0,0,,,,,
+,Spain,,1908,0,0,,,,,
+,Spain,,1912,0,0,,,,,
+,Spain,,1920,2,4,,participated,,,2
+,Spain,,1924,0,0,,,,,
+,Spain,,1928,1,3,,participated,,1,
+,Spain,,1932,1,1,,participated,1,,
+,Spain,,1936,0,0,,,,,
+,Spain,,1948,1,2,,participated,,,1
+,Spain,,1952,1,2,,participated,,,1
+,Spain,,1956,0,0,,,,,
+,Spain,,1960,1,1,,participated,1,,
+,Spain,,1964,0,0,,,,,
+,Spain,,1968,0,0,,,,,
+,Spain,,1972,1,1,,participated,1,,
+,Spain,,1976,2,4,,participated,,,2
+,Spain,,1980,6,11,,participated,2,1,3
+,Spain,,1984,5,9,,participated,2,1,2
+,Spain,,1988,4,7,,participated,2,1,1
+,Spain,,1992,22,55,8,hosted,2,13,7
+,Spain,,1996,17,33,,participated,6,5,6
+,Spain,,2000,11,20,,participated,5,3,3
+,Spain,,2004,18,34,,participated,5,3,10
+,Spain,,2008,18,38,,participated,3,5,10
+,Spain,,2012,18,36,,participated,4,4,10
+,Spain,,2016,17,35,,participated,6,7,4
+,Sri Lanka,,1896,0,0,,,,,
+,Sri Lanka,,1900,0,0,,,,,
+,Sri Lanka,,1904,0,0,,,,,
+,Sri Lanka,,1908,0,0,,,,,
+,Sri Lanka,,1912,0,0,,,,,
+,Sri Lanka,,1920,0,0,,,,,
+,Sri Lanka,,1924,0,0,,,,,
+,Sri Lanka,,1928,0,0,,,,,
+,Sri Lanka,,1932,0,0,,,,,
+,Sri Lanka,,1936,0,0,,,,,
+,Sri Lanka,,1948,1,2,,participated,,,1
+,Sri Lanka,,1952,0,0,,,,,
+,Sri Lanka,,1956,0,0,,,,,
+,Sri Lanka,,1960,0,0,,,,,
+,Sri Lanka,,1964,0,0,,,,,
+,Sri Lanka,,1968,0,0,,,,,
+,Sri Lanka,,1972,0,0,,,,,
+,Sri Lanka,,1976,0,0,,,,,
+,Sri Lanka,,1980,0,0,,,,,
+,Sri Lanka,,1984,0,0,,,,,
+,Sri Lanka,,1988,0,0,,,,,
+,Sri Lanka,,1992,0,0,,,,,
+,Sri Lanka,,1996,0,0,,,,,
+,Sri Lanka,,2000,1,2,,participated,,,1
+,Sri Lanka,,2004,0,0,,,,,
+,Sri Lanka,,2008,0,0,,,,,
+,Sri Lanka,,2012,0,0,,,,,
+,Sri Lanka,,2016,0,0,,,,,
+,Sudan,,1896,0,0,,,,,
+,Sudan,,1900,0,0,,,,,
+,Sudan,,1904,0,0,,,,,
+,Sudan,,1908,0,0,,,,,
+,Sudan,,1912,0,0,,,,,
+,Sudan,,1920,0,0,,,,,
+,Sudan,,1924,0,0,,,,,
+,Sudan,,1928,0,0,,,,,
+,Sudan,,1932,0,0,,,,,
+,Sudan,,1936,0,0,,,,,
+,Sudan,,1948,0,0,,,,,
+,Sudan,,1952,0,0,,,,,
+,Sudan,,1956,0,0,,,,,
+,Sudan,,1960,0,0,,,,,
+,Sudan,,1964,0,0,,,,,
+,Sudan,,1968,0,0,,,,,
+,Sudan,,1972,0,0,,,,,
+,Sudan,,1976,0,0,,,,,
+,Sudan,,1980,0,0,,,,,
+,Sudan,,1984,0,0,,,,,
+,Sudan,,1988,0,0,,,,,
+,Sudan,,1992,0,0,,,,,
+,Sudan,,1996,0,0,,,,,
+,Sudan,,2000,0,0,,,,,
+,Sudan,,2004,0,0,,,,,
+,Sudan,,2008,1,2,,participated,,,1
+,Sudan,,2012,0,0,,,,,
+,Sudan,,2016,0,0,,,,,
+,Suriname,,1896,0,0,,,,,
+,Suriname,,1900,0,0,,,,,
+,Suriname,,1904,0,0,,,,,
+,Suriname,,1908,0,0,,,,,
+,Suriname,,1912,0,0,,,,,
+,Suriname,,1920,0,0,,,,,
+,Suriname,,1924,0,0,,,,,
+,Suriname,,1928,0,0,,,,,
+,Suriname,,1932,0,0,,,,,
+,Suriname,,1936,0,0,,,,,
+,Suriname,,1948,0,0,,,,,
+,Suriname,,1952,0,0,,,,,
+,Suriname,,1956,0,0,,,,,
+,Suriname,,1960,0,0,,,,,
+,Suriname,,1964,0,0,,,,,
+,Suriname,,1968,0,0,,,,,
+,Suriname,,1972,0,0,,,,,
+,Suriname,,1976,0,0,,,,,
+,Suriname,,1980,0,0,,,,,
+,Suriname,,1984,0,0,,,,,
+,Suriname,,1988,1,3,,participated,,1,
+,Suriname,,1992,1,1,,participated,1,,
+,Suriname,,1996,0,0,,,,,
+,Suriname,,2000,0,0,,,,,
+,Suriname,,2004,0,0,,,,,
+,Suriname,,2008,0,0,,,,,
+,Suriname,,2012,0,0,,,,,
+,Suriname,,2016,0,0,,,,,
+,Sweden,,1896,0,0,,,,,
+,Sweden,,1900,1,1,,participated,1,,
+,Sweden,,1904,0,0,,,,,
+,Sweden,,1908,24,46,3,participated,10,8,6
+,Sweden,,1912,65,137,1,hosted,17,24,24
+,Sweden,,1920,60,114,2,participated,24,18,18
+,Sweden,,1924,29,50,5,participated,12,4,13
+,Sweden,,1928,25,45,4,participated,12,7,6
+,Sweden,,1932,23,46,3,participated,9,9,5
+,Sweden,,1936,20,37,7,participated,9,6,5
+,Sweden,,1948,44,87,2,participated,17,16,11
+,Sweden,,1952,35,72,4,participated,10,12,13
+,Sweden,,1956,19,40,8,participated,6,8,5
+,Sweden,,1960,6,10,,participated,3,1,2
+,Sweden,,1964,8,14,,participated,4,2,2
+,Sweden,,1968,4,9,,participated,1,2,1
+,Sweden,,1972,16,30,,participated,6,4,6
+,Sweden,,1976,5,14,,participated,,4,1
+,Sweden,,1980,12,21,,participated,6,3,3
+,Sweden,,1984,19,34,,participated,6,2,11
+,Sweden,,1988,11,15,,participated,7,,4
+,Sweden,,1992,12,21,,participated,4,1,7
+,Sweden,,1996,8,16,,participated,2,2,4
+,Sweden,,2000,12,25,,participated,3,4,5
+,Sweden,,2004,7,17,,participated,1,4,2
+,Sweden,,2008,5,9,,participated,1,,4
+,Sweden,,2012,8,14,,participated,3,1,4
+,Sweden,,2016,11,21,,participated,3,2,6
+,Switzerland,,1896,3,7,9,participated,,1,2
+,Switzerland,,1900,7,18,6,participated,1,5,1
+,Switzerland,,1904,2,4,9,participated,1,1,
+,Switzerland,,1908,0,0,,,,,
+,Switzerland,,1912,0,0,,,,,
+,Switzerland,,1920,11,17,,participated,7,2,2
+,Switzerland,,1924,25,47,6,participated,10,7,8
+,Switzerland,,1928,15,33,9,participated,4,7,4
+,Switzerland,,1932,1,2,,participated,,,1
+,Switzerland,,1936,15,26,,participated,5,1,9
+,Switzerland,,1948,19,39,7,participated,4,5,10
+,Switzerland,,1952,14,24,,participated,6,2,6
+,Switzerland,,1956,1,1,,participated,1,,
+,Switzerland,,1960,6,9,,participated,3,,3
+,Switzerland,,1964,4,8,,participated,1,1,2
+,Switzerland,,1968,5,6,,participated,4,,1
+,Switzerland,,1972,3,6,,participated,,,3
+,Switzerland,,1976,4,7,,participated,2,1,1
+,Switzerland,,1980,2,6,,participated,,2,
+,Switzerland,,1984,8,12,,participated,4,,4
+,Switzerland,,1988,4,6,,participated,2,,2
+,Switzerland,,1992,1,3,,participated,,1,
+,Switzerland,,1996,7,18,,participated,,4,3
+,Switzerland,,2000,9,17,,participated,2,1,6
+,Switzerland,,2004,5,8,,participated,3,1,1
+,Switzerland,,2008,7,11,,participated,5,2,
+,Switzerland,,2012,4,10,,participated,,2,2
+,Switzerland,,2016,7,15,,participated,2,3,2
+,Syria,,1896,0,0,,,,,
+,Syria,,1900,0,0,,,,,
+,Syria,,1904,0,0,,,,,
+,Syria,,1908,0,0,,,,,
+,Syria,,1912,0,0,,,,,
+,Syria,,1920,0,0,,,,,
+,Syria,,1924,0,0,,,,,
+,Syria,,1928,0,0,,,,,
+,Syria,,1932,0,0,,,,,
+,Syria,,1936,0,0,,,,,
+,Syria,,1948,0,0,,,,,
+,Syria,,1952,0,0,,,,,
+,Syria,,1956,0,0,,,,,
+,Syria,,1960,0,0,,,,,
+,Syria,,1964,0,0,,,,,
+,Syria,,1968,0,0,,,,,
+,Syria,,1972,0,0,,,,,
+,Syria,,1976,0,0,,,,,
+,Syria,,1980,0,0,,,,,
+,Syria,,1984,1,2,,participated,,,1
+,Syria,,1988,0,0,,,,,
+,Syria,,1992,0,0,,,,,
+,Syria,,1996,1,3,,participated,,1,
+,Syria,,2000,0,0,,,,,
+,Syria,,2004,1,1,,participated,1,,
+,Syria,,2008,0,0,,,,,
+,Syria,,2012,0,0,,,,,
+,Syria,,2016,0,0,,,,,
+,Tajikistan,,1896,0,0,,,,,
+,Tajikistan,,1900,0,0,,,,,
+,Tajikistan,,1904,0,0,,,,,
+,Tajikistan,,1908,0,0,,,,,
+,Tajikistan,,1912,0,0,,,,,
+,Tajikistan,,1920,0,0,,,,,
+,Tajikistan,,1924,0,0,,,,,
+,Tajikistan,,1928,0,0,,,,,
+,Tajikistan,,1932,0,0,,,,,
+,Tajikistan,,1936,0,0,,,,,
+,Tajikistan,,1948,0,0,,,,,
+,Tajikistan,,1952,0,0,,,,,
+,Tajikistan,,1956,0,0,,,,,
+,Tajikistan,,1960,0,0,,,,,
+,Tajikistan,,1964,0,0,,,,,
+,Tajikistan,,1968,0,0,,,,,
+,Tajikistan,,1972,0,0,,,,,
+,Tajikistan,,1976,0,0,,,,,
+,Tajikistan,,1980,0,0,,,,,
+,Tajikistan,,1984,0,0,,,,,
+,Tajikistan,,1988,0,0,,,,,
+,Tajikistan,,1992,0,0,,,,,
+,Tajikistan,,1996,0,0,,,,,
+,Tajikistan,,2000,0,0,,,,,
+,Tajikistan,,2004,0,0,,,,,
+,Tajikistan,,2008,2,3,,participated,1,,1
+,Tajikistan,,2012,1,1,,participated,1,,
+,Tajikistan,,2016,1,3,,participated,,1,
+,Tanzania,,1896,0,0,,,,,
+,Tanzania,,1900,0,0,,,,,
+,Tanzania,,1904,0,0,,,,,
+,Tanzania,,1908,0,0,,,,,
+,Tanzania,,1912,0,0,,,,,
+,Tanzania,,1920,0,0,,,,,
+,Tanzania,,1924,0,0,,,,,
+,Tanzania,,1928,0,0,,,,,
+,Tanzania,,1932,0,0,,,,,
+,Tanzania,,1936,0,0,,,,,
+,Tanzania,,1948,0,0,,,,,
+,Tanzania,,1952,0,0,,,,,
+,Tanzania,,1956,0,0,,,,,
+,Tanzania,,1960,0,0,,,,,
+,Tanzania,,1964,0,0,,,,,
+,Tanzania,,1968,0,0,,,,,
+,Tanzania,,1972,0,0,,,,,
+,Tanzania,,1976,0,0,,,,,
+,Tanzania,,1980,2,4,,participated,,,2
+,Tanzania,,1984,0,0,,,,,
+,Tanzania,,1988,0,0,,,,,
+,Tanzania,,1992,0,0,,,,,
+,Tanzania,,1996,0,0,,,,,
+,Tanzania,,2000,0,0,,,,,
+,Tanzania,,2004,0,0,,,,,
+,Tanzania,,2008,0,0,,,,,
+,Tanzania,,2012,0,0,,,,,
+,Tanzania,,2016,0,0,,,,,
+,Thailand,,1896,0,0,,,,,
+,Thailand,,1900,0,0,,,,,
+,Thailand,,1904,0,0,,,,,
+,Thailand,,1908,0,0,,,,,
+,Thailand,,1912,0,0,,,,,
+,Thailand,,1920,0,0,,,,,
+,Thailand,,1924,0,0,,,,,
+,Thailand,,1928,0,0,,,,,
+,Thailand,,1932,0,0,,,,,
+,Thailand,,1936,0,0,,,,,
+,Thailand,,1948,0,0,,,,,
+,Thailand,,1952,0,0,,,,,
+,Thailand,,1956,0,0,,,,,
+,Thailand,,1960,0,0,,,,,
+,Thailand,,1964,0,0,,,,,
+,Thailand,,1968,0,0,,,,,
+,Thailand,,1972,0,0,,,,,
+,Thailand,,1976,1,1,,participated,1,,
+,Thailand,,1980,0,0,,,,,
+,Thailand,,1984,1,2,,participated,,,1
+,Thailand,,1988,1,1,,participated,1,,
+,Thailand,,1992,1,1,,participated,1,,
+,Thailand,,1996,2,4,,participated,1,1,
+,Thailand,,2000,3,5,,participated,2,1,
+,Thailand,,2004,8,15,,participated,4,3,1
+,Thailand,,2008,4,10,,participated,,2,2
+,Thailand,,2012,4,6,,participated,2,,2
+,Thailand,,2016,6,12,,participated,2,2,2
+,Togo,,1896,0,0,,,,,
+,Togo,,1900,0,0,,,,,
+,Togo,,1904,0,0,,,,,
+,Togo,,1908,0,0,,,,,
+,Togo,,1912,0,0,,,,,
+,Togo,,1920,0,0,,,,,
+,Togo,,1924,0,0,,,,,
+,Togo,,1928,0,0,,,,,
+,Togo,,1932,0,0,,,,,
+,Togo,,1936,0,0,,,,,
+,Togo,,1948,0,0,,,,,
+,Togo,,1952,0,0,,,,,
+,Togo,,1956,0,0,,,,,
+,Togo,,1960,0,0,,,,,
+,Togo,,1964,0,0,,,,,
+,Togo,,1968,0,0,,,,,
+,Togo,,1972,0,0,,,,,
+,Togo,,1976,0,0,,,,,
+,Togo,,1980,0,0,,,,,
+,Togo,,1984,0,0,,,,,
+,Togo,,1988,0,0,,,,,
+,Togo,,1992,0,0,,,,,
+,Togo,,1996,0,0,,,,,
+,Togo,,2000,0,0,,,,,
+,Togo,,2004,0,0,,,,,
+,Togo,,2008,1,1,,participated,1,,
+,Togo,,2012,0,0,,,,,
+,Togo,,2016,0,0,,,,,
+,Tonga,,1896,0,0,,,,,
+,Tonga,,1900,0,0,,,,,
+,Tonga,,1904,0,0,,,,,
+,Tonga,,1908,0,0,,,,,
+,Tonga,,1912,0,0,,,,,
+,Tonga,,1920,0,0,,,,,
+,Tonga,,1924,0,0,,,,,
+,Tonga,,1928,0,0,,,,,
+,Tonga,,1932,0,0,,,,,
+,Tonga,,1936,0,0,,,,,
+,Tonga,,1948,0,0,,,,,
+,Tonga,,1952,0,0,,,,,
+,Tonga,,1956,0,0,,,,,
+,Tonga,,1960,0,0,,,,,
+,Tonga,,1964,0,0,,,,,
+,Tonga,,1968,0,0,,,,,
+,Tonga,,1972,0,0,,,,,
+,Tonga,,1976,0,0,,,,,
+,Tonga,,1980,0,0,,,,,
+,Tonga,,1984,0,0,,,,,
+,Tonga,,1988,0,0,,,,,
+,Tonga,,1992,0,0,,,,,
+,Tonga,,1996,1,2,,participated,,,1
+,Tonga,,2000,0,0,,,,,
+,Tonga,,2004,0,0,,,,,
+,Tonga,,2008,0,0,,,,,
+,Tonga,,2012,0,0,,,,,
+,Tonga,,2016,0,0,,,,,
+,Trinidad and Tobago,,1896,0,0,,,,,
+,Trinidad and Tobago,,1900,0,0,,,,,
+,Trinidad and Tobago,,1904,0,0,,,,,
+,Trinidad and Tobago,,1908,0,0,,,,,
+,Trinidad and Tobago,,1912,0,0,,,,,
+,Trinidad and Tobago,,1920,0,0,,,,,
+,Trinidad and Tobago,,1924,0,0,,,,,
+,Trinidad and Tobago,,1928,0,0,,,,,
+,Trinidad and Tobago,,1932,0,0,,,,,
+,Trinidad and Tobago,,1936,0,0,,,,,
+,Trinidad and Tobago,,1948,1,2,,participated,,,1
+,Trinidad and Tobago,,1952,2,2,,participated,2,,
+,Trinidad and Tobago,,1956,0,0,,,,,
+,Trinidad and Tobago,,1960,0,0,,,,,
+,Trinidad and Tobago,,1964,3,4,,participated,2,,1
+,Trinidad and Tobago,,1968,0,0,,,,,
+,Trinidad and Tobago,,1972,0,0,,,,,
+,Trinidad and Tobago,,1976,1,3,,participated,,1,
+,Trinidad and Tobago,,1980,0,0,,,,,
+,Trinidad and Tobago,,1984,0,0,,,,,
+,Trinidad and Tobago,,1988,0,0,,,,,
+,Trinidad and Tobago,,1992,0,0,,,,,
+,Trinidad and Tobago,,1996,2,2,,participated,2,,
+,Trinidad and Tobago,,2000,2,3,,participated,1,,1
+,Trinidad and Tobago,,2004,1,1,,participated,1,,
+,Trinidad and Tobago,,2008,2,4,,participated,,,2
+,Trinidad and Tobago,,2012,4,7,,participated,2,1,1
+,Trinidad and Tobago,,2016,1,1,,participated,1,,
+,Tunisia,,1896,0,0,,,,,
+,Tunisia,,1900,0,0,,,,,
+,Tunisia,,1904,0,0,,,,,
+,Tunisia,,1908,0,0,,,,,
+,Tunisia,,1912,0,0,,,,,
+,Tunisia,,1920,0,0,,,,,
+,Tunisia,,1924,0,0,,,,,
+,Tunisia,,1928,0,0,,,,,
+,Tunisia,,1932,0,0,,,,,
+,Tunisia,,1936,0,0,,,,,
+,Tunisia,,1948,0,0,,,,,
+,Tunisia,,1952,0,0,,,,,
+,Tunisia,,1956,0,0,,,,,
+,Tunisia,,1960,0,0,,,,,
+,Tunisia,,1964,2,3,,participated,1,,1
+,Tunisia,,1968,2,4,,participated,1,1,
+,Tunisia,,1972,1,2,,participated,,,1
+,Tunisia,,1976,0,0,,,,,
+,Tunisia,,1980,0,0,,,,,
+,Tunisia,,1984,0,0,,,,,
+,Tunisia,,1988,0,0,,,,,
+,Tunisia,,1992,0,0,,,,,
+,Tunisia,,1996,1,1,,participated,1,,
+,Tunisia,,2000,0,0,,,,,
+,Tunisia,,2004,0,0,,,,,
+,Tunisia,,2008,1,3,,participated,,1,
+,Tunisia,,2012,3,7,,participated,1,2,
+,Tunisia,,2016,3,3,,participated,3,,
+,Turkey,,1896,0,0,,,,,
+,Turkey,,1900,0,0,,,,,
+,Turkey,,1904,0,0,,,,,
+,Turkey,,1908,0,0,,,,,
+,Turkey,,1912,0,0,,,,,
+,Turkey,,1920,0,0,,,,,
+,Turkey,,1924,0,0,,,,,
+,Turkey,,1928,0,0,,,,,
+,Turkey,,1932,0,0,,,,,
+,Turkey,,1936,2,4,,participated,1,1,
+,Turkey,,1948,12,28,,participated,2,6,4
+,Turkey,,1952,3,7,,participated,1,2,
+,Turkey,,1956,7,15,,participated,2,3,2
+,Turkey,,1960,9,25,10,participated,,7,2
+,Turkey,,1964,6,13,,participated,1,2,3
+,Turkey,,1968,2,6,,participated,,2,
+,Turkey,,1972,1,2,,participated,,,1
+,Turkey,,1976,0,0,,,,,
+,Turkey,,1980,0,0,,,,,
+,Turkey,,1984,3,3,,participated,3,,
+,Turkey,,1988,2,5,,participated,,1,1
+,Turkey,,1992,6,12,,participated,2,2,2
+,Turkey,,1996,6,15,,participated,1,4,1
+,Turkey,,2000,5,11,,participated,2,3,
+,Turkey,,2004,10,19,,participated,4,3,3
+,Turkey,,2008,8,14,,participated,3,1,4
+,Turkey,,2012,3,6,,participated,1,1,1
+,Turkey,,2016,8,13,,participated,4,1,3
+,Uganda,,1896,0,0,,,,,
+,Uganda,,1900,0,0,,,,,
+,Uganda,,1904,0,0,,,,,
+,Uganda,,1908,0,0,,,,,
+,Uganda,,1912,0,0,,,,,
+,Uganda,,1920,0,0,,,,,
+,Uganda,,1924,0,0,,,,,
+,Uganda,,1928,0,0,,,,,
+,Uganda,,1932,0,0,,,,,
+,Uganda,,1936,0,0,,,,,
+,Uganda,,1948,0,0,,,,,
+,Uganda,,1952,0,0,,,,,
+,Uganda,,1956,0,0,,,,,
+,Uganda,,1960,0,0,,,,,
+,Uganda,,1964,0,0,,,,,
+,Uganda,,1968,2,3,,participated,1,,1
+,Uganda,,1972,2,5,,participated,,1,1
+,Uganda,,1976,0,0,,,,,
+,Uganda,,1980,1,2,,participated,,,1
+,Uganda,,1984,0,0,,,,,
+,Uganda,,1988,0,0,,,,,
+,Uganda,,1992,0,0,,,,,
+,Uganda,,1996,1,1,,participated,1,,
+,Uganda,,2000,0,0,,,,,
+,Uganda,,2004,0,0,,,,,
+,Uganda,,2008,0,0,,,,,
+,Uganda,,2012,1,3,,participated,,1,
+,Uganda,,2016,0,0,,,,,
+,Ukraine,,1896,0,0,,,,,
+,Ukraine,,1900,0,0,,,,,
+,Ukraine,,1904,0,0,,,,,
+,Ukraine,,1908,0,0,,,,,
+,Ukraine,,1912,0,0,,,,,
+,Ukraine,,1920,0,0,,,,,
+,Ukraine,,1924,0,0,,,,,
+,Ukraine,,1928,0,0,,,,,
+,Ukraine,,1932,0,0,,,,,
+,Ukraine,,1936,0,0,,,,,
+,Ukraine,,1948,0,0,,,,,
+,Ukraine,,1952,0,0,,,,,
+,Ukraine,,1956,0,0,,,,,
+,Ukraine,,1960,0,0,,,,,
+,Ukraine,,1964,0,0,,,,,
+,Ukraine,,1968,0,0,,,,,
+,Ukraine,,1972,0,0,,,,,
+,Ukraine,,1976,0,0,,,,,
+,Ukraine,,1980,0,0,,,,,
+,Ukraine,,1984,0,0,,,,,
+,Ukraine,,1988,0,0,,,,,
+,Ukraine,,1992,0,0,,,,,
+,Ukraine,,1996,23,43,10,participated,12,9,2
+,Ukraine,,2000,23,39,,participated,10,3,10
+,Ukraine,,2004,23,46,,participated,9,9,5
+,Ukraine,,2008,27,46,,participated,15,7,5
+,Ukraine,,2012,19,33,,participated,10,5,4
+,Ukraine,,2016,11,20,,participated,4,2,5
+,Unified Team,,1896,0,0,,,,,
+,Unified Team,,1900,0,0,,,,,
+,Unified Team,,1904,0,0,,,,,
+,Unified Team,,1908,0,0,,,,,
+,Unified Team,,1912,0,0,,,,,
+,Unified Team,,1920,0,0,,,,,
+,Unified Team,,1924,0,0,,,,,
+,Unified Team,,1928,0,0,,,,,
+,Unified Team,,1932,0,0,,,,,
+,Unified Team,,1936,0,0,,,,,
+,Unified Team,,1948,0,0,,,,,
+,Unified Team,,1952,0,0,,,,,
+,Unified Team,,1956,0,0,,,,,
+,Unified Team,,1960,0,0,,,,,
+,Unified Team,,1964,0,0,,,,,
+,Unified Team,,1968,0,0,,,,,
+,Unified Team,,1972,0,0,,,,,
+,Unified Team,,1976,0,0,,,,,
+,Unified Team,,1980,0,0,,,,,
+,Unified Team,,1984,0,0,,,,,
+,Unified Team,,1988,0,0,,,,,
+,Unified Team,,1992,112,240,1,participated,29,45,38
+,Unified Team,,1996,0,0,,,,,
+,Unified Team,,2000,0,0,,,,,
+,Unified Team,,2004,0,0,,,,,
+,Unified Team,,2008,0,0,,,,,
+,Unified Team,,2012,0,0,,,,,
+,Unified Team,,2016,0,0,,,,,
+,United Arab Emirates,,1896,0,0,,,,,
+,United Arab Emirates,,1900,0,0,,,,,
+,United Arab Emirates,,1904,0,0,,,,,
+,United Arab Emirates,,1908,0,0,,,,,
+,United Arab Emirates,,1912,0,0,,,,,
+,United Arab Emirates,,1920,0,0,,,,,
+,United Arab Emirates,,1924,0,0,,,,,
+,United Arab Emirates,,1928,0,0,,,,,
+,United Arab Emirates,,1932,0,0,,,,,
+,United Arab Emirates,,1936,0,0,,,,,
+,United Arab Emirates,,1948,0,0,,,,,
+,United Arab Emirates,,1952,0,0,,,,,
+,United Arab Emirates,,1956,0,0,,,,,
+,United Arab Emirates,,1960,0,0,,,,,
+,United Arab Emirates,,1964,0,0,,,,,
+,United Arab Emirates,,1968,0,0,,,,,
+,United Arab Emirates,,1972,0,0,,,,,
+,United Arab Emirates,,1976,0,0,,,,,
+,United Arab Emirates,,1980,0,0,,,,,
+,United Arab Emirates,,1984,0,0,,,,,
+,United Arab Emirates,,1988,0,0,,,,,
+,United Arab Emirates,,1992,0,0,,,,,
+,United Arab Emirates,,1996,0,0,,,,,
+,United Arab Emirates,,2000,0,0,,,,,
+,United Arab Emirates,,2004,1,3,,participated,,1,
+,United Arab Emirates,,2008,0,0,,,,,
+,United Arab Emirates,,2012,0,0,,,,,
+,United Arab Emirates,,2016,1,1,,participated,1,,
+,United States,,1896,19,47,2,participated,2,11,6
+,United States,,1900,47,99,2,participated,14,19,14
+,United States,,1904,233,469,1,hosted,74,77,82
+,United States,,1908,46,102,2,participated,12,22,12
+,United States,,1912,62,130,2,participated,19,25,18
+,United States,,1920,95,204,1,participated,27,41,27
+,United States,,1924,99,216,1,participated,27,45,27
+,United States,,1928,56,118,1,participated,16,22,18
+,United States,,1932,103,217,1,hosted,30,41,32
+,United States,,1936,56,124,2,participated,12,24,20
+,United States,,1948,84,187,1,participated,19,38,27
+,United States,,1952,76,175,1,participated,17,40,19
+,United States,,1956,74,163,2,participated,17,32,25
+,United States,,1960,71,160,2,participated,16,34,21
+,United States,,1964,90,188,1,participated,28,36,26
+,United States,,1968,107,225,1,participated,34,45,28
+,United States,,1972,94,191,2,participated,30,33,31
+,United States,,1976,94,197,2,participated,25,34,35
+,United States,,1980,0,0,,,,,
+,United States,,1984,173,398,1,hosted,30,82,61
+,United States,,1988,94,197,3,participated,27,36,31
+,United States,,1992,108,216,2,participated,37,37,34
+,United States,,1996,101,221,1,hosted,25,44,32
+,United States,,2000,92,188,1,participated,32,36,24
+,United States,,2004,102,213,1,participated,27,36,39
+,United States,,2008,110,220,2,participated,36,36,38
+,United States,,2012,103,223,1,participated,29,46,28
+,United States,,2016,121,250,1,participated,38,46,37
+,United Team of Germany,,1896,0,0,,,,,
+,United Team of Germany,,1900,0,0,,,,,
+,United Team of Germany,,1904,0,0,,,,,
+,United Team of Germany,,1908,0,0,,,,,
+,United Team of Germany,,1912,0,0,,,,,
+,United Team of Germany,,1920,0,0,,,,,
+,United Team of Germany,,1924,0,0,,,,,
+,United Team of Germany,,1928,0,0,,,,,
+,United Team of Germany,,1932,0,0,,,,,
+,United Team of Germany,,1936,0,0,,,,,
+,United Team of Germany,,1948,0,0,,,,,
+,United Team of Germany,,1952,0,0,,,,,
+,United Team of Germany,,1956,26,51,5,participated,7,6,13
+,United Team of Germany,,1960,42,85,3,participated,11,12,19
+,United Team of Germany,,1964,50,92,3,participated,18,10,22
+,United Team of Germany,,1968,0,0,,,,,
+,United Team of Germany,,1972,0,0,,,,,
+,United Team of Germany,,1976,0,0,,,,,
+,United Team of Germany,,1980,0,0,,,,,
+,United Team of Germany,,1984,0,0,,,,,
+,United Team of Germany,,1988,0,0,,,,,
+,United Team of Germany,,1992,0,0,,,,,
+,United Team of Germany,,1996,0,0,,,,,
+,United Team of Germany,,2000,0,0,,,,,
+,United Team of Germany,,2004,0,0,,,,,
+,United Team of Germany,,2008,0,0,,,,,
+,United Team of Germany,,2012,0,0,,,,,
+,United Team of Germany,,2016,0,0,,,,,
+,Uruguay,,1896,0,0,,,,,
+,Uruguay,,1900,0,0,,,,,
+,Uruguay,,1904,0,0,,,,,
+,Uruguay,,1908,0,0,,,,,
+,Uruguay,,1912,0,0,,,,,
+,Uruguay,,1920,0,0,,,,,
+,Uruguay,,1924,1,3,,participated,,1,
+,Uruguay,,1928,1,3,,participated,,1,
+,Uruguay,,1932,1,1,,participated,1,,
+,Uruguay,,1936,0,0,,,,,
+,Uruguay,,1948,2,3,,participated,1,,1
+,Uruguay,,1952,2,2,,participated,2,,
+,Uruguay,,1956,1,1,,participated,1,,
+,Uruguay,,1960,0,0,,,,,
+,Uruguay,,1964,1,1,,participated,1,,
+,Uruguay,,1968,0,0,,,,,
+,Uruguay,,1972,0,0,,,,,
+,Uruguay,,1976,0,0,,,,,
+,Uruguay,,1980,0,0,,,,,
+,Uruguay,,1984,0,0,,,,,
+,Uruguay,,1988,0,0,,,,,
+,Uruguay,,1992,0,0,,,,,
+,Uruguay,,1996,0,0,,,,,
+,Uruguay,,2000,1,2,,participated,,,1
+,Uruguay,,2004,0,0,,,,,
+,Uruguay,,2008,0,0,,,,,
+,Uruguay,,2012,0,0,,,,,
+,Uruguay,,2016,0,0,,,,,
+,Uzbekistan,,1896,0,0,,,,,
+,Uzbekistan,,1900,0,0,,,,,
+,Uzbekistan,,1904,0,0,,,,,
+,Uzbekistan,,1908,0,0,,,,,
+,Uzbekistan,,1912,0,0,,,,,
+,Uzbekistan,,1920,0,0,,,,,
+,Uzbekistan,,1924,0,0,,,,,
+,Uzbekistan,,1928,0,0,,,,,
+,Uzbekistan,,1932,0,0,,,,,
+,Uzbekistan,,1936,0,0,,,,,
+,Uzbekistan,,1948,0,0,,,,,
+,Uzbekistan,,1952,0,0,,,,,
+,Uzbekistan,,1956,0,0,,,,,
+,Uzbekistan,,1960,0,0,,,,,
+,Uzbekistan,,1964,0,0,,,,,
+,Uzbekistan,,1968,0,0,,,,,
+,Uzbekistan,,1972,0,0,,,,,
+,Uzbekistan,,1976,0,0,,,,,
+,Uzbekistan,,1980,0,0,,,,,
+,Uzbekistan,,1984,0,0,,,,,
+,Uzbekistan,,1988,0,0,,,,,
+,Uzbekistan,,1992,0,0,,,,,
+,Uzbekistan,,1996,2,3,,participated,1,,1
+,Uzbekistan,,2000,4,7,,participated,2,1,1
+,Uzbekistan,,2004,5,10,,participated,2,2,1
+,Uzbekistan,,2008,6,10,,participated,3,1,2
+,Uzbekistan,,2012,4,6,,participated,3,1,
+,Uzbekistan,,2016,13,23,,participated,7,4,2
+,Venezuela,,1896,0,0,,,,,
+,Venezuela,,1900,0,0,,,,,
+,Venezuela,,1904,0,0,,,,,
+,Venezuela,,1908,0,0,,,,,
+,Venezuela,,1912,0,0,,,,,
+,Venezuela,,1920,0,0,,,,,
+,Venezuela,,1924,0,0,,,,,
+,Venezuela,,1928,0,0,,,,,
+,Venezuela,,1932,0,0,,,,,
+,Venezuela,,1936,0,0,,,,,
+,Venezuela,,1948,0,0,,,,,
+,Venezuela,,1952,1,1,,participated,1,,
+,Venezuela,,1956,0,0,,,,,
+,Venezuela,,1960,1,1,,participated,1,,
+,Venezuela,,1964,0,0,,,,,
+,Venezuela,,1968,1,3,,participated,,1,
+,Venezuela,,1972,0,0,,,,,
+,Venezuela,,1976,1,2,,participated,,,1
+,Venezuela,,1980,1,2,,participated,,,1
+,Venezuela,,1984,3,3,,participated,3,,
+,Venezuela,,1988,0,0,,,,,
+,Venezuela,,1992,0,0,,,,,
+,Venezuela,,1996,0,0,,,,,
+,Venezuela,,2000,0,0,,,,,
+,Venezuela,,2004,2,2,,participated,2,,
+,Venezuela,,2008,1,1,,participated,1,,
+,Venezuela,,2012,1,3,,participated,,1,
+,Venezuela,,2016,3,4,,participated,2,,1
+,Vietnam,,1896,0,0,,,,,
+,Vietnam,,1900,0,0,,,,,
+,Vietnam,,1904,0,0,,,,,
+,Vietnam,,1908,0,0,,,,,
+,Vietnam,,1912,0,0,,,,,
+,Vietnam,,1920,0,0,,,,,
+,Vietnam,,1924,0,0,,,,,
+,Vietnam,,1928,0,0,,,,,
+,Vietnam,,1932,0,0,,,,,
+,Vietnam,,1936,0,0,,,,,
+,Vietnam,,1948,0,0,,,,,
+,Vietnam,,1952,0,0,,,,,
+,Vietnam,,1956,0,0,,,,,
+,Vietnam,,1960,0,0,,,,,
+,Vietnam,,1964,0,0,,,,,
+,Vietnam,,1968,0,0,,,,,
+,Vietnam,,1972,0,0,,,,,
+,Vietnam,,1976,0,0,,,,,
+,Vietnam,,1980,0,0,,,,,
+,Vietnam,,1984,0,0,,,,,
+,Vietnam,,1988,0,0,,,,,
+,Vietnam,,1992,0,0,,,,,
+,Vietnam,,1996,0,0,,,,,
+,Vietnam,,2000,1,2,,participated,,,1
+,Vietnam,,2004,0,0,,,,,
+,Vietnam,,2008,1,2,,participated,,,1
+,Vietnam,,2012,0,0,,,,,
+,Vietnam,,2016,2,5,,participated,,1,1
+,Virgin Islands,,1896,0,0,,,,,
+,Virgin Islands,,1900,0,0,,,,,
+,Virgin Islands,,1904,0,0,,,,,
+,Virgin Islands,,1908,0,0,,,,,
+,Virgin Islands,,1912,0,0,,,,,
+,Virgin Islands,,1920,0,0,,,,,
+,Virgin Islands,,1924,0,0,,,,,
+,Virgin Islands,,1928,0,0,,,,,
+,Virgin Islands,,1932,0,0,,,,,
+,Virgin Islands,,1936,0,0,,,,,
+,Virgin Islands,,1948,0,0,,,,,
+,Virgin Islands,,1952,0,0,,,,,
+,Virgin Islands,,1956,0,0,,,,,
+,Virgin Islands,,1960,0,0,,,,,
+,Virgin Islands,,1964,0,0,,,,,
+,Virgin Islands,,1968,0,0,,,,,
+,Virgin Islands,,1972,0,0,,,,,
+,Virgin Islands,,1976,0,0,,,,,
+,Virgin Islands,,1980,0,0,,,,,
+,Virgin Islands,,1984,0,0,,,,,
+,Virgin Islands,,1988,1,2,,participated,,,1
+,Virgin Islands,,1992,0,0,,,,,
+,Virgin Islands,,1996,0,0,,,,,
+,Virgin Islands,,2000,0,0,,,,,
+,Virgin Islands,,2004,0,0,,,,,
+,Virgin Islands,,2008,0,0,,,,,
+,Virgin Islands,,2012,0,0,,,,,
+,Virgin Islands,,2016,0,0,,,,,
+,West Germany,,1896,0,0,,,,,
+,West Germany,,1900,0,0,,,,,
+,West Germany,,1904,0,0,,,,,
+,West Germany,,1908,0,0,,,,,
+,West Germany,,1912,0,0,,,,,
+,West Germany,,1920,0,0,,,,,
+,West Germany,,1924,0,0,,,,,
+,West Germany,,1928,0,0,,,,,
+,West Germany,,1932,0,0,,,,,
+,West Germany,,1936,0,0,,,,,
+,West Germany,,1948,0,0,,,,,
+,West Germany,,1952,0,0,,,,,
+,West Germany,,1956,0,0,,,,,
+,West Germany,,1960,0,0,,,,,
+,West Germany,,1964,0,0,,,,,
+,West Germany,,1968,26,47,6,participated,10,5,11
+,West Germany,,1972,40,77,4,hosted,16,13,11
+,West Germany,,1976,39,71,4,participated,17,10,12
+,West Germany,,1980,0,0,,,,,
+,West Germany,,1984,59,112,2,participated,23,17,19
+,West Germany,,1988,40,76,4,participated,15,11,14
+,West Germany,,1992,0,0,,,,,
+,West Germany,,1996,0,0,,,,,
+,West Germany,,2000,0,0,,,,,
+,West Germany,,2004,0,0,,,,,
+,West Germany,,2008,0,0,,,,,
+,West Germany,,2012,0,0,,,,,
+,West Germany,,2016,0,0,,,,,
+,Yugoslavia,,1896,0,0,,,,,
+,Yugoslavia,,1900,0,0,,,,,
+,Yugoslavia,,1904,0,0,,,,,
+,Yugoslavia,,1908,0,0,,,,,
+,Yugoslavia,,1912,0,0,,,,,
+,Yugoslavia,,1920,0,0,,,,,
+,Yugoslavia,,1924,2,6,,participated,,2,
+,Yugoslavia,,1928,5,8,,participated,3,1,1
+,Yugoslavia,,1932,0,0,,,,,
+,Yugoslavia,,1936,1,2,,participated,,,1
+,Yugoslavia,,1948,2,4,,participated,,,2
+,Yugoslavia,,1952,3,7,,participated,,1,2
+,Yugoslavia,,1956,3,6,,participated,,,3
+,Yugoslavia,,1960,2,5,,participated,,1,1
+,Yugoslavia,,1964,5,10,,participated,2,2,1
+,Yugoslavia,,1968,8,17,,participated,2,3,3
+,Yugoslavia,,1972,5,10,,participated,2,2,1
+,Yugoslavia,,1976,8,15,,participated,3,2,3
+,Yugoslavia,,1980,9,16,,participated,4,2,3
+,Yugoslavia,,1984,18,36,,participated,7,7,4
+,Yugoslavia,,1988,12,22,,participated,5,3,4
+,Yugoslavia,,1992,0,0,,,,,
+,Yugoslavia,,1996,4,7,,participated,2,1,1
+,Yugoslavia,,2000,3,6,,participated,1,1,1
+,Yugoslavia,,2004,0,0,,,,,
+,Yugoslavia,,2008,0,0,,,,,
+,Yugoslavia,,2012,0,0,,,,,
+,Yugoslavia,,2016,0,0,,,,,
+,Zambia,,1896,0,0,,,,,
+,Zambia,,1900,0,0,,,,,
+,Zambia,,1904,0,0,,,,,
+,Zambia,,1908,0,0,,,,,
+,Zambia,,1912,0,0,,,,,
+,Zambia,,1920,0,0,,,,,
+,Zambia,,1924,0,0,,,,,
+,Zambia,,1928,0,0,,,,,
+,Zambia,,1932,0,0,,,,,
+,Zambia,,1936,0,0,,,,,
+,Zambia,,1948,0,0,,,,,
+,Zambia,,1952,0,0,,,,,
+,Zambia,,1956,0,0,,,,,
+,Zambia,,1960,0,0,,,,,
+,Zambia,,1964,0,0,,,,,
+,Zambia,,1968,0,0,,,,,
+,Zambia,,1972,0,0,,,,,
+,Zambia,,1976,0,0,,,,,
+,Zambia,,1980,0,0,,,,,
+,Zambia,,1984,1,1,,participated,1,,
+,Zambia,,1988,0,0,,,,,
+,Zambia,,1992,0,0,,,,,
+,Zambia,,1996,1,2,,participated,,,1
+,Zambia,,2000,0,0,,,,,
+,Zambia,,2004,0,0,,,,,
+,Zambia,,2008,0,0,,,,,
+,Zambia,,2012,0,0,,,,,
+,Zambia,,2016,0,0,,,,,
+,Zimbabwe,,1896,0,0,,,,,
+,Zimbabwe,,1900,0,0,,,,,
+,Zimbabwe,,1904,0,0,,,,,
+,Zimbabwe,,1908,0,0,,,,,
+,Zimbabwe,,1912,0,0,,,,,
+,Zimbabwe,,1920,0,0,,,,,
+,Zimbabwe,,1924,0,0,,,,,
+,Zimbabwe,,1928,0,0,,,,,
+,Zimbabwe,,1932,0,0,,,,,
+,Zimbabwe,,1936,0,0,,,,,
+,Zimbabwe,,1948,0,0,,,,,
+,Zimbabwe,,1952,0,0,,,,,
+,Zimbabwe,,1956,0,0,,,,,
+,Zimbabwe,,1960,0,0,,,,,
+,Zimbabwe,,1964,0,0,,,,,
+,Zimbabwe,,1968,0,0,,,,,
+,Zimbabwe,,1972,0,0,,,,,
+,Zimbabwe,,1976,0,0,,,,,
+,Zimbabwe,,1980,1,3,,participated,,1,
+,Zimbabwe,,1984,0,0,,,,,
+,Zimbabwe,,1988,0,0,,,,,
+,Zimbabwe,,1992,0,0,,,,,
+,Zimbabwe,,1996,0,0,,,,,
+,Zimbabwe,,2000,0,0,,,,,
+,Zimbabwe,,2004,3,6,,participated,1,1,1
+,Zimbabwe,,2008,4,9,,participated,,1,3
+,Zimbabwe,,2012,0,0,,,,,
+,Zimbabwe,,2016,0,0,,,,,

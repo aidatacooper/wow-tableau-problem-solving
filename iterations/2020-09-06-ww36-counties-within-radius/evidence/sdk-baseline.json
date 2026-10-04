@@ -1,0 +1,6 @@
+{
+  "sdk_commit": "cbe200a4a148f1825764de67bd3e8f0e6d01a113",
+  "result": "blocked",
+  "error": "Unsupported dashboard layout node type 'set_control' at layout.children[1]. Expected one of: color, container, empty, filter, floating, horizontal, navigation_button, paramctrl, size, text, tiled, vertical, worksheet.",
+  "reason": "No public layout type renders native setMembership zone or matching worksheet card."
+}

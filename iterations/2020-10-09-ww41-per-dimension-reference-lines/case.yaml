@@ -1,0 +1,94 @@
+schema_version: 1.1.0
+case_id: wow-2020-ww41-per-dimension-reference-lines
+iteration_id: 2020-10-09-ww41-per-dimension-reference-lines
+post: https://donnacoles.home.blog/2020/10/09/can-you-create-a-reference-line-for-each-dimension/
+legacy_case_ids: {}
+article_date: '2020-10-09'
+challenge_year: 2020
+challenge_week: 41
+challenge_date: '2020-10-07'
+date_evidence:
+  article_date: Declared article publication date in iteration_id
+  challenge: Explicit challenge_year; week declared in iteration_id
+  challenge_date: Official WordPress REST post 4019 date field; scratch source response
+    retained, challenge URL recorded.
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2020w41/
+  article:
+    url: https://donnacoles.home.blog/2020/10/09/can-you-create-a-reference-line-for-each-dimension/
+    sha256: 0e7f696125e0613e83c9fb5ef97bd0fd64abd651a58ef8cf16a63812283413fa
+  workbook:
+    url: https://public.tableau.com/workbooks/2020_10_07_WW41_RefLineByDimension.twb
+    filename: author.twbx
+    sha256: 2e7d06f59b1ec7d2a97ed2dbd2fd90fb737fb54b4d3dffe5c28adca31dccad91
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- evidence/cloud-verification.json
+- evidence/export-provenance.json
+- evidence/functional-verification.json
+- evidence/sdk-baseline.json
+- evidence/sdk-custom-parameter-gap-baseline.json
+- evidence/sdk-final-validation.json
+- evidence/sdk-gap-baseline.json
+- evidence/sdk-table-calc-addressing-gap.json
+- evidence/visual-review.md
+- evidence/zero-build-verification.json
+- inputs/source-lock.json
+notes:
+- Generated index views must be refreshed after the workbook is built and verified.
+cwtwb:
+  tested_version: 0.27.1
+  tested_commit: eb1380d5da9c1b1bf1b306128cb8397150ba1a53
+  runs:
+  - version: 0.27.1
+    commit: cbe200a4a148f1825764de67bd3e8f0e6d01a113
+    result: pass
+    evidence: evidence/sdk-baseline.json
+  - version: 0.27.1
+    commit: cbe200a4a148f1825764de67bd3e8f0e6d01a113
+    result: blocked
+    evidence: evidence/sdk-gap-baseline.json
+  - version: 0.27.1
+    commit: cbe200a4a148f1825764de67bd3e8f0e6d01a113
+    result: blocked
+    evidence: evidence/sdk-custom-parameter-gap-baseline.json
+  - version: 0.27.1
+    commit: eb1380d5da9c1b1bf1b306128cb8397150ba1a53
+    result: pass
+    evidence: evidence/sdk-final-validation.json
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: pass
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/Orders (Sample - Superstore).hyper
+acceptance:
+- id: ww41-raw-quarter-oracle
+  description: Independent full 9994-row oracle for 48 quarter/category metrics in
+    each measure state.
+  mode: automated
+- id: ww41-reference-contracts
+  description: Three coloured category reference lines plus synchronized transparent-label
+    axis preserve quarterly equal-weight averages.
+  mode: automated
+- id: ww41-rank-blocks
+  description: Ranked blocks use full-category metrics and nested Category rank addressing
+    rather than quarterly averages.
+  mode: automated
+- id: ww41-cloud-states
+  description: All paired dashboard images and complete worksheet CSVs for the three
+    measure parameter states.
+  mode: automated
+remaining_work: []
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []

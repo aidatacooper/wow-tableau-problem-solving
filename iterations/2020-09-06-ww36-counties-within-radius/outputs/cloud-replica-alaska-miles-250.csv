@@ -1,0 +1,31 @@
+County,"County, State",State,States with n miles,Percentile Beds,Date,Latitude (generated),Longitude (generated),Cumulative Case Count,num_icu_beds,num_staffed_beds,num_ventilators_est
+,,,Alaska,,,64,-150,,,,
+Aleutians East,"Aleutians East County, Alaska",Alaska,,,08/26/2020,55.8579,-161.4064,2,,,
+Aleutians West,"Aleutians West County, Alaska",Alaska,,,08/26/2020,53.6298,-166.6587,6,,,
+Anchorage,"Anchorage County, Alaska",Alaska,,100.00%,08/26/2020,61.1094,-149.2032,"2,777",109,973,71
+Bethel,"Bethel County, Alaska",Alaska,,66.67%,08/26/2020,60.4765,-160.8218,55,6,34,4
+Bristol Bay,"Bristol Bay County, Alaska",Alaska,,,08/26/2020,58.753,-156.6908,11,,,
+Denali,"Denali County, Alaska",Alaska,,,08/26/2020,63.5543,-149.9189,1,,,
+Dillingham,"Dillingham County, Alaska",Alaska,,20.00%,08/26/2020,59.7435,-158.1036,5,3,16,2
+Fairbanks North Star,"Fairbanks North Star County, Alaska",Alaska,,93.33%,08/26/2020,64.8624,-146.3565,575,13,145,8
+Haines,"Haines County, Alaska",Alaska,,,08/26/2020,58.9776,-135.4912,5,,,
+Hoonah-Angoon,"Hoonah-Angoon County, Alaska",Alaska,,,08/26/2020,58.7416,-137.1836,0,,,
+Juneau,"Juneau County, Alaska",Alaska,,73.33%,08/26/2020,58.3893,-134.411,164,9,45,6
+Kenai Peninsula,"Kenai Peninsula County, Alaska",Alaska,,86.67%,08/26/2020,60.1107,-150.509,406,11,76,7
+Ketchikan Gateway,"Ketchikan Gateway County, Alaska",Alaska,,53.33%,08/26/2020,55.5925,-130.4203,43,4,25,3
+Kodiak Island,"Kodiak Island County, Alaska",Alaska,,46.67%,08/26/2020,57.377,-153.1926,14,4,24,3
+Kusilvak,"Kusilvak County, Alaska",Alaska,,,08/26/2020,62.1211,-163.3051,8,,,
+Lake and Peninsula,"Lake and Peninsula County, Alaska",Alaska,,,08/26/2020,58.3702,-156.0031,0,,,
+Matanuska-Susitna,"Matanuska-Susitna County, Alaska",Alaska,,80.00%,08/26/2020,62.3637,-149.7135,454,14,74,9
+Nome,"Nome County, Alaska",Alaska,,33.33%,08/26/2020,64.8563,-163.8418,32,3,18,2
+North Slope,"North Slope County, Alaska",Alaska,,13.33%,08/26/2020,69.7626,-152.3077,34,3,14,2
+Northwest Arctic,"Northwest Arctic County, Alaska",Alaska,,26.67%,08/26/2020,66.9104,-157.9177,65,3,17,2
+Petersburg,"Petersburg County, Alaska",Alaska,,6.67%,08/26/2020,57.0658,-132.5147,7,2,12,1
+Prince of Wales-Hyder,"Prince of Wales-Hyder County, Alaska",Alaska,,,08/26/2020,55.5326,-132.8294,20,,,
+Sitka,"Sitka County, Alaska",Alaska,,60.00%,08/26/2020,56.8688,-135.0895,34,4,27,3
+Skagway,"Skagway County, Alaska",Alaska,,,08/26/2020,59.5824,-135.3234,0,,,
+Southeast Fairbanks,"Southeast Fairbanks County, Alaska",Alaska,,,08/26/2020,64.0024,-143.9917,18,,,
+Valdez-Cordova,"Valdez-Cordova County, Alaska",Alaska,,46.67%,08/26/2020,61.8868,-143.9643,71,4,24,3
+Wrangell,"Wrangell County, Alaska",Alaska,,0.00%,08/26/2020,56.2747,-131.4735,9,1,8,1
+Yakutat,"Yakutat County, Alaska",Alaska,,,08/26/2020,59.6726,-138.8519,11,,,
+Yukon-Koyukuk,"Yukon-Koyukuk County, Alaska",Alaska,,,08/26/2020,65.4302,-152.9479,66,,,

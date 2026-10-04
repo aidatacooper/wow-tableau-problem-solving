@@ -1,0 +1,13 @@
+{
+  "original_sha256": "dc8b0b61918bcc83aa4b9ce4a488366cb807d633649c8c31001d3082e7e58260",
+  "comparison_sha256": "384f4e7dfa1a39eae8ae922080efba17b740c05f242c8700acecfd8afe1f5276",
+  "transformation": "Only expose hidden worksheet windows; formulas, layout, filters and packaged data remain unchanged.",
+  "exposed_worksheets": [
+    "Cases Bar",
+    "Map - AL",
+    "Map - HI",
+    "Map - Main",
+    "Utilisation Bar"
+  ],
+  "browser_interaction_executed": false
+}

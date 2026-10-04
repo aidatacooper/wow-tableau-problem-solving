@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "artifact_sha256": "ad342c380c6d6f315cb60f70d6e7a913045e6c66134b9c6cadd48c17af13fa32",
+  "independent_data_rows": 8399,
+  "cloud_status": "passed",
+  "cloud_checks": [
+    {
+      "state": "default",
+      "role": "author",
+      "rows": 48,
+      "passed": true
+    },
+    {
+      "state": "default",
+      "role": "replica",
+      "rows": 48,
+      "passed": true
+    },
+    {
+      "state": "california",
+      "role": "author",
+      "rows": 1,
+      "passed": true
+    },
+    {
+      "state": "california",
+      "role": "replica",
+      "rows": 1,
+      "passed": true
+    },
+    {
+      "state": "texas",
+      "role": "author",
+      "rows": 1,
+      "passed": true
+    },
+    {
+      "state": "texas",
+      "role": "replica",
+      "rows": 1,
+      "passed": true
+    }
+  ],
+  "browser_interaction_executed": false
+}

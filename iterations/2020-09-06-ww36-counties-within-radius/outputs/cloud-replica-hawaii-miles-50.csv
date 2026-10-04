@@ -1,0 +1,7 @@
+County,"County, State",State,States with n miles,Percentile Beds,Date,Latitude (generated),Longitude (generated),Cumulative Case Count,num_icu_beds,num_staffed_beds,num_ventilators_est
+Hawaii,"Hawaii County, Hawaii",Hawaii,,66.67%,08/26/2020,19.591,-155.4494,243,28,296,18
+Honolulu,"Honolulu County, Hawaii",Hawaii,,100.00%,08/26/2020,21.484,-158.0381,"6,626",155,"2,810",101
+Kalawao,"Kalawao County, Hawaii",Hawaii,,,08/26/2020,21.1709,-156.9468,0,,,
+Kauai,"Kauai County, Hawaii",Hawaii,,0.00%,08/26/2020,22.0505,-159.559,56,10,102,6
+Maui,"Maui County, Hawaii",Hawaii,,33.33%,08/26/2020,20.8031,-156.3111,311,26,247,17
+,,,Hawaii,,,20.79,-156.34,,,,

@@ -1,0 +1,302 @@
+{
+  "case_id": "wow-2020-ww33-connected-profit-quantity-scatter",
+  "captured_at": "2026-10-04T08:35:42.967154+00:00",
+  "source_hashes": {
+    "author": "fb71f15d0074a89cb87b99cc0340f785420e3e5f8105c2d775c73c6b383ff5a3",
+    "replica": "ff3222a42847f7ce1dc5820096ff93ed79958516cb6d933dd72b3c5da734e6f3"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "d58b589c-6be9-4671-a8e5-3e25ac5b4e71",
+      "name": "cwtwb-review-wow-2020-ww33-connected-profit-quantity-scatter-author-fb71f15d0074",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2934812",
+      "views": [
+        {
+          "name": "2020_08_12_WW34_Connected_Scatter",
+          "id": "2ab59a40-df51-4046-8db8-346ea5a949e6"
+        },
+        {
+          "name": "Data",
+          "id": "7b3d418f-58aa-48d4-b6e2-5e75ddca690a"
+        },
+        {
+          "name": "Insights",
+          "id": "fda0f489-03f0-4e6c-9efc-148c64042a89"
+        },
+        {
+          "name": "Scatter",
+          "id": "d61f03fc-4cd1-4357-b143-a5645fd51243"
+        }
+      ]
+    },
+    "replica": {
+      "id": "340beded-7fdd-41bf-ae47-29dd111adf2d",
+      "name": "cwtwb-review-wow-2020-ww33-connected-profit-quantity-scatter-replica-ff3222a42847",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2934869",
+      "views": [
+        {
+          "name": "Scatter",
+          "id": "4d7db98e-80d3-4eb9-b7a4-33a936603fe2"
+        },
+        {
+          "name": "Insights",
+          "id": "7695480e-8518-43b2-a8e2-fa99900e2023"
+        },
+        {
+          "name": "2020_08_12_WW34_Connected_Scatter",
+          "id": "6434a789-764b-48f1-897c-b3c1bc607432"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "2ab59a40-df51-4046-8db8-346ea5a949e6",
+          "name": "2020_08_12_WW34_Connected_Scatter",
+          "path": "outputs/cloud-author.png",
+          "sha256": "2357841b21f82be765def0be064d5526edccab2dc484bc5415cd7a34e032ce24",
+          "size": [
+            2400,
+            2000
+          ]
+        },
+        "replica": {
+          "id": "6434a789-764b-48f1-897c-b3c1bc607432",
+          "name": "2020_08_12_WW34_Connected_Scatter",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "4091a1084f5a75d4958738a777f498d18bbc2a670f3b5b2333f1c6d5365fee51",
+          "size": [
+            2400,
+            2000
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Scatter",
+          "view_id": "d61f03fc-4cd1-4357-b143-a5645fd51243",
+          "scope": "Complete existing worksheet REST state. Embedded tooltip/selection event execution is not claimed; raw Hyper independently covers entire data.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-scatter.csv",
+          "sha256": "6c511bea21ee1d05eccb554769abab85570072cf93f1ba936869a0f6dbba800f",
+          "bytes": 4856
+        },
+        {
+          "role": "author",
+          "view": "Insights",
+          "view_id": "fda0f489-03f0-4e6c-9efc-148c64042a89",
+          "scope": "Complete existing worksheet REST state. Embedded tooltip/selection event execution is not claimed; raw Hyper independently covers entire data.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-insights.csv",
+          "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+          "bytes": 1
+        },
+        {
+          "role": "replica",
+          "view": "Scatter",
+          "view_id": "4d7db98e-80d3-4eb9-b7a4-33a936603fe2",
+          "scope": "Complete existing worksheet REST state. Embedded tooltip/selection event execution is not claimed; raw Hyper independently covers entire data.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-scatter.csv",
+          "sha256": "6c511bea21ee1d05eccb554769abab85570072cf93f1ba936869a0f6dbba800f",
+          "bytes": 4856
+        },
+        {
+          "role": "replica",
+          "view": "Insights",
+          "view_id": "7695480e-8518-43b2-a8e2-fa99900e2023",
+          "scope": "Complete existing worksheet REST state. Embedded tooltip/selection event execution is not claimed; raw Hyper independently covers entire data.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-insights.csv",
+          "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+          "bytes": 1
+        }
+      ]
+    },
+    {
+      "name": "technology",
+      "parameters": {},
+      "filters": {
+        "Category": "Technology"
+      },
+      "views": {
+        "author": {
+          "id": "2ab59a40-df51-4046-8db8-346ea5a949e6",
+          "name": "2020_08_12_WW34_Connected_Scatter",
+          "path": "outputs/cloud-author-technology.png",
+          "sha256": "591087cde927e361294c77209a8939ee36dc279f8828a219904a9e023e3133a5",
+          "size": [
+            2400,
+            2000
+          ]
+        },
+        "replica": {
+          "id": "6434a789-764b-48f1-897c-b3c1bc607432",
+          "name": "2020_08_12_WW34_Connected_Scatter",
+          "path": "outputs/cloud-replica-technology.png",
+          "sha256": "397cc73736bb33890daf7e781c5447e5dd33a6f6f022fc4edca369d48e3ad5be",
+          "size": [
+            2400,
+            2000
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Scatter",
+          "view_id": "d61f03fc-4cd1-4357-b143-a5645fd51243",
+          "scope": "Complete existing worksheet REST state. Embedded tooltip/selection event execution is not claimed; raw Hyper independently covers entire data.",
+          "parameters": {},
+          "filters": {
+            "Category": "Technology"
+          },
+          "path": "outputs/cloud-author-scatter-technology.csv",
+          "sha256": "c98e8eb232b7d54949379c1918e10710483518490fb7cf7be79852bd6f530b05",
+          "bytes": 1590
+        },
+        {
+          "role": "author",
+          "view": "Insights",
+          "view_id": "fda0f489-03f0-4e6c-9efc-148c64042a89",
+          "scope": "Complete existing worksheet REST state. Embedded tooltip/selection event execution is not claimed; raw Hyper independently covers entire data.",
+          "parameters": {},
+          "filters": {
+            "Category": "Technology"
+          },
+          "path": "outputs/cloud-author-insights-technology.csv",
+          "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+          "bytes": 1
+        },
+        {
+          "role": "replica",
+          "view": "Scatter",
+          "view_id": "4d7db98e-80d3-4eb9-b7a4-33a936603fe2",
+          "scope": "Complete existing worksheet REST state. Embedded tooltip/selection event execution is not claimed; raw Hyper independently covers entire data.",
+          "parameters": {},
+          "filters": {
+            "Category": "Technology"
+          },
+          "path": "outputs/cloud-replica-scatter-technology.csv",
+          "sha256": "c98e8eb232b7d54949379c1918e10710483518490fb7cf7be79852bd6f530b05",
+          "bytes": 1590
+        },
+        {
+          "role": "replica",
+          "view": "Insights",
+          "view_id": "7695480e-8518-43b2-a8e2-fa99900e2023",
+          "scope": "Complete existing worksheet REST state. Embedded tooltip/selection event execution is not claimed; raw Hyper independently covers entire data.",
+          "parameters": {},
+          "filters": {
+            "Category": "Technology"
+          },
+          "path": "outputs/cloud-replica-insights-technology.csv",
+          "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+          "bytes": 1
+        }
+      ]
+    },
+    {
+      "name": "furniture",
+      "parameters": {},
+      "filters": {
+        "Category": "Furniture"
+      },
+      "views": {
+        "author": {
+          "id": "2ab59a40-df51-4046-8db8-346ea5a949e6",
+          "name": "2020_08_12_WW34_Connected_Scatter",
+          "path": "outputs/cloud-author-furniture.png",
+          "sha256": "567394eeeaa111553dff9a311f78e0b4b62955d4e6a441124a045bf4c00e6421",
+          "size": [
+            2400,
+            2000
+          ]
+        },
+        "replica": {
+          "id": "6434a789-764b-48f1-897c-b3c1bc607432",
+          "name": "2020_08_12_WW34_Connected_Scatter",
+          "path": "outputs/cloud-replica-furniture.png",
+          "sha256": "895d58b7567f3b0535604d7ba6a2e88ff9cdfe549d7efe03b3fff83657cd0fd0",
+          "size": [
+            2400,
+            2000
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Scatter",
+          "view_id": "d61f03fc-4cd1-4357-b143-a5645fd51243",
+          "scope": "Complete existing worksheet REST state. Embedded tooltip/selection event execution is not claimed; raw Hyper independently covers entire data.",
+          "parameters": {},
+          "filters": {
+            "Category": "Furniture"
+          },
+          "path": "outputs/cloud-author-scatter-furniture.csv",
+          "sha256": "8ddc45a93a3978084d69e97a3b9cc4a288d4925036be86d18f4520f14a9e0972",
+          "bytes": 1516
+        },
+        {
+          "role": "author",
+          "view": "Insights",
+          "view_id": "fda0f489-03f0-4e6c-9efc-148c64042a89",
+          "scope": "Complete existing worksheet REST state. Embedded tooltip/selection event execution is not claimed; raw Hyper independently covers entire data.",
+          "parameters": {},
+          "filters": {
+            "Category": "Furniture"
+          },
+          "path": "outputs/cloud-author-insights-furniture.csv",
+          "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+          "bytes": 1
+        },
+        {
+          "role": "replica",
+          "view": "Scatter",
+          "view_id": "4d7db98e-80d3-4eb9-b7a4-33a936603fe2",
+          "scope": "Complete existing worksheet REST state. Embedded tooltip/selection event execution is not claimed; raw Hyper independently covers entire data.",
+          "parameters": {},
+          "filters": {
+            "Category": "Furniture"
+          },
+          "path": "outputs/cloud-replica-scatter-furniture.csv",
+          "sha256": "8ddc45a93a3978084d69e97a3b9cc4a288d4925036be86d18f4520f14a9e0972",
+          "bytes": 1516
+        },
+        {
+          "role": "replica",
+          "view": "Insights",
+          "view_id": "7695480e-8518-43b2-a8e2-fa99900e2023",
+          "scope": "Complete existing worksheet REST state. Embedded tooltip/selection event execution is not claimed; raw Hyper independently covers entire data.",
+          "parameters": {},
+          "filters": {
+            "Category": "Furniture"
+          },
+          "path": "outputs/cloud-replica-insights-furniture.csv",
+          "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+          "bytes": 1
+        }
+      ]
+    }
+  ],
+  "status": "verified",
+  "independent_review": {
+    "visual_status": "acceptable_delta",
+    "visual_evidence": "evidence/visual-review.md",
+    "functional_evidence": "evidence/functional-verification.json",
+    "scope": "Declared REST worksheet exports and artifact contracts; no browser events executed."
+  }
+}

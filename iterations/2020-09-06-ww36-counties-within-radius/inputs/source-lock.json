@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-04",
+  "source_workbook": {
+    "filename": "author.twbx",
+    "bytes": 160104,
+    "sha256": "dc8b0b61918bcc83aa4b9ce4a488366cb807d633649c8c31001d3082e7e58260",
+    "url": null
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Datasources/2020_09_02_WW26_County Case Count Extract.hyper",
+      "file": "inputs/2020_09_02_WW26_County Case Count Extract.hyper",
+      "bytes": 393216,
+      "sha256": "8e8956f946bea725ae5289ef102ee0703f9ae82cdb6fecc971ea66a0918949ab"
+    },
+    {
+      "file": "inputs/county-members.csv",
+      "sha256": "5e8693c880aacb480fd0d8ecedc6011a124fca87734ef6a5933311347e5d447c",
+      "bytes": 116871,
+      "provenance": "Deterministic County, State and State projection of original locked Hyper; all initial Selected County membership."
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

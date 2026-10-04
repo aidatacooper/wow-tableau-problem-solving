@@ -1,0 +1,783 @@
+{
+  "raw_rows": 9994,
+  "states": {
+    "Sales Per Order": {
+      "quarters": [
+        {
+          "quarter": "2016-01-01",
+          "category": "Furniture",
+          "value": 462.0
+        },
+        {
+          "quarter": "2016-01-01",
+          "category": "Office Supplies",
+          "value": 137.0
+        },
+        {
+          "quarter": "2016-01-01",
+          "category": "Technology",
+          "value": 1129.0
+        },
+        {
+          "quarter": "2016-04-01",
+          "category": "Furniture",
+          "value": 407.0
+        },
+        {
+          "quarter": "2016-04-01",
+          "category": "Office Supplies",
+          "value": 213.0
+        },
+        {
+          "quarter": "2016-04-01",
+          "category": "Technology",
+          "value": 462.0
+        },
+        {
+          "quarter": "2016-07-01",
+          "category": "Furniture",
+          "value": 433.0
+        },
+        {
+          "quarter": "2016-07-01",
+          "category": "Office Supplies",
+          "value": 254.0
+        },
+        {
+          "quarter": "2016-07-01",
+          "category": "Technology",
+          "value": 597.0
+        },
+        {
+          "quarter": "2016-10-01",
+          "category": "Furniture",
+          "value": 468.0
+        },
+        {
+          "quarter": "2016-10-01",
+          "category": "Office Supplies",
+          "value": 185.0
+        },
+        {
+          "quarter": "2016-10-01",
+          "category": "Technology",
+          "value": 530.0
+        },
+        {
+          "quarter": "2017-01-01",
+          "category": "Furniture",
+          "value": 608.0
+        },
+        {
+          "quarter": "2017-01-01",
+          "category": "Office Supplies",
+          "value": 228.0
+        },
+        {
+          "quarter": "2017-01-01",
+          "category": "Technology",
+          "value": 449.0
+        },
+        {
+          "quarter": "2017-04-01",
+          "category": "Furniture",
+          "value": 388.0
+        },
+        {
+          "quarter": "2017-04-01",
+          "category": "Office Supplies",
+          "value": 198.0
+        },
+        {
+          "quarter": "2017-04-01",
+          "category": "Technology",
+          "value": 401.0
+        },
+        {
+          "quarter": "2017-07-01",
+          "category": "Furniture",
+          "value": 463.0
+        },
+        {
+          "quarter": "2017-07-01",
+          "category": "Office Supplies",
+          "value": 168.0
+        },
+        {
+          "quarter": "2017-07-01",
+          "category": "Technology",
+          "value": 548.0
+        },
+        {
+          "quarter": "2017-10-01",
+          "category": "Furniture",
+          "value": 446.0
+        },
+        {
+          "quarter": "2017-10-01",
+          "category": "Office Supplies",
+          "value": 153.0
+        },
+        {
+          "quarter": "2017-10-01",
+          "category": "Technology",
+          "value": 494.0
+        },
+        {
+          "quarter": "2018-01-01",
+          "category": "Furniture",
+          "value": 334.0
+        },
+        {
+          "quarter": "2018-01-01",
+          "category": "Office Supplies",
+          "value": 245.0
+        },
+        {
+          "quarter": "2018-01-01",
+          "category": "Technology",
+          "value": 657.0
+        },
+        {
+          "quarter": "2018-04-01",
+          "category": "Furniture",
+          "value": 410.0
+        },
+        {
+          "quarter": "2018-04-01",
+          "category": "Office Supplies",
+          "value": 159.0
+        },
+        {
+          "quarter": "2018-04-01",
+          "category": "Technology",
+          "value": 724.0
+        },
+        {
+          "quarter": "2018-07-01",
+          "category": "Furniture",
+          "value": 423.0
+        },
+        {
+          "quarter": "2018-07-01",
+          "category": "Office Supplies",
+          "value": 157.0
+        },
+        {
+          "quarter": "2018-07-01",
+          "category": "Technology",
+          "value": 432.0
+        },
+        {
+          "quarter": "2018-10-01",
+          "category": "Furniture",
+          "value": 454.0
+        },
+        {
+          "quarter": "2018-10-01",
+          "category": "Office Supplies",
+          "value": 233.0
+        },
+        {
+          "quarter": "2018-10-01",
+          "category": "Technology",
+          "value": 579.0
+        },
+        {
+          "quarter": "2019-01-01",
+          "category": "Furniture",
+          "value": 325.0
+        },
+        {
+          "quarter": "2019-01-01",
+          "category": "Office Supplies",
+          "value": 236.0
+        },
+        {
+          "quarter": "2019-01-01",
+          "category": "Technology",
+          "value": 631.0
+        },
+        {
+          "quarter": "2019-04-01",
+          "category": "Furniture",
+          "value": 363.0
+        },
+        {
+          "quarter": "2019-04-01",
+          "category": "Office Supplies",
+          "value": 162.0
+        },
+        {
+          "quarter": "2019-04-01",
+          "category": "Technology",
+          "value": 426.0
+        },
+        {
+          "quarter": "2019-07-01",
+          "category": "Furniture",
+          "value": 396.0
+        },
+        {
+          "quarter": "2019-07-01",
+          "category": "Office Supplies",
+          "value": 210.0
+        },
+        {
+          "quarter": "2019-07-01",
+          "category": "Technology",
+          "value": 461.0
+        },
+        {
+          "quarter": "2019-10-01",
+          "category": "Furniture",
+          "value": 402.0
+        },
+        {
+          "quarter": "2019-10-01",
+          "category": "Office Supplies",
+          "value": 183.0
+        },
+        {
+          "quarter": "2019-10-01",
+          "category": "Technology",
+          "value": 554.0
+        }
+      ],
+      "references": {
+        "Furniture": 423.875,
+        "Office Supplies": 195.0625,
+        "Technology": 567.125
+      },
+      "cards": {
+        "Furniture": 421.0,
+        "Office Supplies": 192.0,
+        "Technology": 542.0
+      },
+      "ranks": {
+        "Technology": 1,
+        "Furniture": 2,
+        "Office Supplies": 3
+      }
+    },
+    "Profit Ratio": {
+      "quarters": [
+        {
+          "quarter": "2016-01-01",
+          "category": "Furniture",
+          "value": -0.9
+        },
+        {
+          "quarter": "2016-01-01",
+          "category": "Office Supplies",
+          "value": 15.4
+        },
+        {
+          "quarter": "2016-01-01",
+          "category": "Technology",
+          "value": 4.8
+        },
+        {
+          "quarter": "2016-04-01",
+          "category": "Furniture",
+          "value": 2.9
+        },
+        {
+          "quarter": "2016-04-01",
+          "category": "Office Supplies",
+          "value": 18.5
+        },
+        {
+          "quarter": "2016-04-01",
+          "category": "Technology",
+          "value": 17.0
+        },
+        {
+          "quarter": "2016-07-01",
+          "category": "Furniture",
+          "value": 6.9
+        },
+        {
+          "quarter": "2016-07-01",
+          "category": "Office Supplies",
+          "value": 13.0
+        },
+        {
+          "quarter": "2016-07-01",
+          "category": "Technology",
+          "value": 6.1
+        },
+        {
+          "quarter": "2016-10-01",
+          "category": "Furniture",
+          "value": 3.0
+        },
+        {
+          "quarter": "2016-10-01",
+          "category": "Office Supplies",
+          "value": 14.6
+        },
+        {
+          "quarter": "2016-10-01",
+          "category": "Technology",
+          "value": 19.3
+        },
+        {
+          "quarter": "2017-01-01",
+          "category": "Furniture",
+          "value": -4.3
+        },
+        {
+          "quarter": "2017-01-01",
+          "category": "Office Supplies",
+          "value": 33.9
+        },
+        {
+          "quarter": "2017-01-01",
+          "category": "Technology",
+          "value": 14.2
+        },
+        {
+          "quarter": "2017-04-01",
+          "category": "Furniture",
+          "value": 3.0
+        },
+        {
+          "quarter": "2017-04-01",
+          "category": "Office Supplies",
+          "value": 16.7
+        },
+        {
+          "quarter": "2017-04-01",
+          "category": "Technology",
+          "value": 20.4
+        },
+        {
+          "quarter": "2017-07-01",
+          "category": "Furniture",
+          "value": 1.1
+        },
+        {
+          "quarter": "2017-07-01",
+          "category": "Office Supplies",
+          "value": 15.0
+        },
+        {
+          "quarter": "2017-07-01",
+          "category": "Technology",
+          "value": 24.4
+        },
+        {
+          "quarter": "2017-10-01",
+          "category": "Furniture",
+          "value": 4.3
+        },
+        {
+          "quarter": "2017-10-01",
+          "category": "Office Supplies",
+          "value": 14.2
+        },
+        {
+          "quarter": "2017-10-01",
+          "category": "Technology",
+          "value": 19.9
+        },
+        {
+          "quarter": "2018-01-01",
+          "category": "Furniture",
+          "value": 0.5
+        },
+        {
+          "quarter": "2018-01-01",
+          "category": "Office Supplies",
+          "value": 13.6
+        },
+        {
+          "quarter": "2018-01-01",
+          "category": "Technology",
+          "value": 18.6
+        },
+        {
+          "quarter": "2018-04-01",
+          "category": "Furniture",
+          "value": 5.0
+        },
+        {
+          "quarter": "2018-04-01",
+          "category": "Office Supplies",
+          "value": 10.9
+        },
+        {
+          "quarter": "2018-04-01",
+          "category": "Technology",
+          "value": 17.5
+        },
+        {
+          "quarter": "2018-07-01",
+          "category": "Furniture",
+          "value": 2.4
+        },
+        {
+          "quarter": "2018-07-01",
+          "category": "Office Supplies",
+          "value": 14.3
+        },
+        {
+          "quarter": "2018-07-01",
+          "category": "Technology",
+          "value": 17.7
+        },
+        {
+          "quarter": "2018-10-01",
+          "category": "Furniture",
+          "value": 4.4
+        },
+        {
+          "quarter": "2018-10-01",
+          "category": "Office Supplies",
+          "value": 27.9
+        },
+        {
+          "quarter": "2018-10-01",
+          "category": "Technology",
+          "value": 17.0
+        },
+        {
+          "quarter": "2019-01-01",
+          "category": "Furniture",
+          "value": 3.2
+        },
+        {
+          "quarter": "2019-01-01",
+          "category": "Office Supplies",
+          "value": 16.0
+        },
+        {
+          "quarter": "2019-01-01",
+          "category": "Technology",
+          "value": 28.1
+        },
+        {
+          "quarter": "2019-04-01",
+          "category": "Furniture",
+          "value": 2.3
+        },
+        {
+          "quarter": "2019-04-01",
+          "category": "Office Supplies",
+          "value": 21.7
+        },
+        {
+          "quarter": "2019-04-01",
+          "category": "Technology",
+          "value": 10.6
+        },
+        {
+          "quarter": "2019-07-01",
+          "category": "Furniture",
+          "value": 3.9
+        },
+        {
+          "quarter": "2019-07-01",
+          "category": "Office Supplies",
+          "value": 18.7
+        },
+        {
+          "quarter": "2019-07-01",
+          "category": "Technology",
+          "value": 16.7
+        },
+        {
+          "quarter": "2019-10-01",
+          "category": "Furniture",
+          "value": -1.1
+        },
+        {
+          "quarter": "2019-10-01",
+          "category": "Office Supplies",
+          "value": 11.1
+        },
+        {
+          "quarter": "2019-10-01",
+          "category": "Technology",
+          "value": 18.1
+        }
+      ],
+      "references": {
+        "Furniture": 2.2875,
+        "Office Supplies": 17.21875,
+        "Technology": 16.9
+      },
+      "cards": {
+        "Furniture": 2.5,
+        "Office Supplies": 17.0,
+        "Technology": 17.4
+      },
+      "ranks": {
+        "Technology": 1,
+        "Office Supplies": 2,
+        "Furniture": 3
+      }
+    },
+    "Items Per Order": {
+      "quarters": [
+        {
+          "quarter": "2016-01-01",
+          "category": "Furniture",
+          "value": 4.57
+        },
+        {
+          "quarter": "2016-01-01",
+          "category": "Office Supplies",
+          "value": 6.06
+        },
+        {
+          "quarter": "2016-01-01",
+          "category": "Technology",
+          "value": 4.91
+        },
+        {
+          "quarter": "2016-04-01",
+          "category": "Furniture",
+          "value": 4.35
+        },
+        {
+          "quarter": "2016-04-01",
+          "category": "Office Supplies",
+          "value": 6.45
+        },
+        {
+          "quarter": "2016-04-01",
+          "category": "Technology",
+          "value": 4.66
+        },
+        {
+          "quarter": "2016-07-01",
+          "category": "Furniture",
+          "value": 4.42
+        },
+        {
+          "quarter": "2016-07-01",
+          "category": "Office Supplies",
+          "value": 6.29
+        },
+        {
+          "quarter": "2016-07-01",
+          "category": "Technology",
+          "value": 4.96
+        },
+        {
+          "quarter": "2016-10-01",
+          "category": "Furniture",
+          "value": 4.86
+        },
+        {
+          "quarter": "2016-10-01",
+          "category": "Office Supplies",
+          "value": 5.86
+        },
+        {
+          "quarter": "2016-10-01",
+          "category": "Technology",
+          "value": 4.66
+        },
+        {
+          "quarter": "2017-01-01",
+          "category": "Furniture",
+          "value": 5.42
+        },
+        {
+          "quarter": "2017-01-01",
+          "category": "Office Supplies",
+          "value": 5.67
+        },
+        {
+          "quarter": "2017-01-01",
+          "category": "Technology",
+          "value": 4.22
+        },
+        {
+          "quarter": "2017-04-01",
+          "category": "Furniture",
+          "value": 4.86
+        },
+        {
+          "quarter": "2017-04-01",
+          "category": "Office Supplies",
+          "value": 5.87
+        },
+        {
+          "quarter": "2017-04-01",
+          "category": "Technology",
+          "value": 4.15
+        },
+        {
+          "quarter": "2017-07-01",
+          "category": "Furniture",
+          "value": 4.48
+        },
+        {
+          "quarter": "2017-07-01",
+          "category": "Office Supplies",
+          "value": 6.33
+        },
+        {
+          "quarter": "2017-07-01",
+          "category": "Technology",
+          "value": 5.05
+        },
+        {
+          "quarter": "2017-10-01",
+          "category": "Furniture",
+          "value": 4.78
+        },
+        {
+          "quarter": "2017-10-01",
+          "category": "Office Supplies",
+          "value": 6.11
+        },
+        {
+          "quarter": "2017-10-01",
+          "category": "Technology",
+          "value": 4.22
+        },
+        {
+          "quarter": "2018-01-01",
+          "category": "Furniture",
+          "value": 4.55
+        },
+        {
+          "quarter": "2018-01-01",
+          "category": "Office Supplies",
+          "value": 5.47
+        },
+        {
+          "quarter": "2018-01-01",
+          "category": "Technology",
+          "value": 4.25
+        },
+        {
+          "quarter": "2018-04-01",
+          "category": "Furniture",
+          "value": 4.5
+        },
+        {
+          "quarter": "2018-04-01",
+          "category": "Office Supplies",
+          "value": 6.54
+        },
+        {
+          "quarter": "2018-04-01",
+          "category": "Technology",
+          "value": 4.41
+        },
+        {
+          "quarter": "2018-07-01",
+          "category": "Furniture",
+          "value": 4.46
+        },
+        {
+          "quarter": "2018-07-01",
+          "category": "Office Supplies",
+          "value": 6.08
+        },
+        {
+          "quarter": "2018-07-01",
+          "category": "Technology",
+          "value": 4.33
+        },
+        {
+          "quarter": "2018-10-01",
+          "category": "Furniture",
+          "value": 4.79
+        },
+        {
+          "quarter": "2018-10-01",
+          "category": "Office Supplies",
+          "value": 6.61
+        },
+        {
+          "quarter": "2018-10-01",
+          "category": "Technology",
+          "value": 4.41
+        },
+        {
+          "quarter": "2019-01-01",
+          "category": "Furniture",
+          "value": 3.84
+        },
+        {
+          "quarter": "2019-01-01",
+          "category": "Office Supplies",
+          "value": 6.42
+        },
+        {
+          "quarter": "2019-01-01",
+          "category": "Technology",
+          "value": 4.39
+        },
+        {
+          "quarter": "2019-04-01",
+          "category": "Furniture",
+          "value": 4.31
+        },
+        {
+          "quarter": "2019-04-01",
+          "category": "Office Supplies",
+          "value": 5.58
+        },
+        {
+          "quarter": "2019-04-01",
+          "category": "Technology",
+          "value": 4.34
+        },
+        {
+          "quarter": "2019-07-01",
+          "category": "Furniture",
+          "value": 4.31
+        },
+        {
+          "quarter": "2019-07-01",
+          "category": "Office Supplies",
+          "value": 6.17
+        },
+        {
+          "quarter": "2019-07-01",
+          "category": "Technology",
+          "value": 4.45
+        },
+        {
+          "quarter": "2019-10-01",
+          "category": "Furniture",
+          "value": 4.49
+        },
+        {
+          "quarter": "2019-10-01",
+          "category": "Office Supplies",
+          "value": 6.06
+        },
+        {
+          "quarter": "2019-10-01",
+          "category": "Technology",
+          "value": 4.66
+        }
+      ],
+      "references": {
+        "Furniture": 4.561875,
+        "Office Supplies": 6.098125,
+        "Technology": 4.504375
+      },
+      "cards": {
+        "Furniture": 4.55,
+        "Office Supplies": 6.12,
+        "Technology": 4.49
+      },
+      "ranks": {
+        "Office Supplies": 1,
+        "Furniture": 2,
+        "Technology": 3
+      }
+    }
+  },
+  "scope": "All 9994 source order lines; 48 quarter/category aggregates per measure. Line references average 16 rounded quarter values equally; ranking cards use independently rounded full-category aggregates because the original card query has no quarter dimension."
+}

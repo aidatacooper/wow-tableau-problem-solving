@@ -1,0 +1,9 @@
+{
+  "case_id": "2020-07-24-ww30-set-action-drill-down",
+  "sdk_commit": "eb1380d5da9c1b1bf1b306128cb8397150ba1a53",
+  "builder_sha256": "1fabea92c0be72fcb77978fc28e160a8e796de15726469f9bb5eab5f653d48be",
+  "builder_hash_scope": "UTF-8 source text with universal newlines normalized to LF",
+  "result": "passed",
+  "initial_workbooks_available": 0,
+  "scope": "Copied only builder/verifier, metadata and locked inputs. Built from TWBEditor empty, then ran independent raw-data/artifact oracle without copied Cloud evidence or author workbooks."
+}

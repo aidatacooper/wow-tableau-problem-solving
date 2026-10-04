@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0.0",
+  "source_workbook": {
+    "filename": "author.twbx",
+    "bytes": 329928,
+    "sha256": "04f92d76edbe006d9fc2aa552504c28feab27bf1f6fa25595fe4b79859d43540",
+    "url": null
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Datasources/COVID-19 Activity (1) Extract.hyper",
+      "file": "inputs/COVID-19 Activity (1) Extract.hyper",
+      "bytes": 589824,
+      "sha256": "9beec4a2135d2fbb3212e9476c5457f8cfef7762c9ae3f813bfba3d76f9604c4"
+    }
+  ],
+  "source_workbook_used_by_builder": false,
+  "article": {
+    "url": "https://donnacoles.home.blog/2020/08/07/covid-19-new-case-trends-cartogram/",
+    "sha256": "aa8b20e9ca08567068d3889dcf749785c7ea22a6f809a60f74bd95a7dee2275b"
+  },
+  "derived_data": [
+    {
+      "file": "inputs/cartogram-positions.json",
+      "bytes": 1989,
+      "sha256": "052345ae3f528cd551c38f780a0e9b1d7d2b9ba0be1139e90adc21b47b2e30e2",
+      "provenance": "Business geometry mapping extracted during analysis from original Rows/Columns CASE calculations; no workbook XML/template content."
+    }
+  ]
+}

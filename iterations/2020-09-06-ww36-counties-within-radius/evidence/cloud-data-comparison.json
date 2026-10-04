@@ -1,0 +1,221 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "path": "outputs/cloud-author-cases.csv",
+      "rows": 3142,
+      "view": "Cases Bar",
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-data.csv",
+      "rows": 6284,
+      "view": "Data",
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-main.csv",
+      "rows": 3157,
+      "view": "Map - Main",
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-alaska.csv",
+      "rows": 30,
+      "view": "Map - AL",
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-hawaii.csv",
+      "rows": 6,
+      "view": "Map - HI",
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-resources.csv",
+      "rows": 3,
+      "view": "Utilisation Bar",
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-cases.csv",
+      "rows": 3142,
+      "view": "Cases Bar",
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-data.csv",
+      "rows": 6284,
+      "view": "Data",
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-main.csv",
+      "rows": 3157,
+      "view": "Map - Main",
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-alaska.csv",
+      "rows": 30,
+      "view": "Map - AL",
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-hawaii.csv",
+      "rows": 6,
+      "view": "Map - HI",
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-resources.csv",
+      "rows": 3,
+      "view": "Utilisation Bar",
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-cases-miles-50.csv",
+      "rows": 3142,
+      "view": "Cases Bar",
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-data-miles-50.csv",
+      "rows": 6284,
+      "view": "Data",
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-main-miles-50.csv",
+      "rows": 3157,
+      "view": "Map - Main",
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-alaska-miles-50.csv",
+      "rows": 30,
+      "view": "Map - AL",
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-hawaii-miles-50.csv",
+      "rows": 6,
+      "view": "Map - HI",
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-resources-miles-50.csv",
+      "rows": 3,
+      "view": "Utilisation Bar",
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-cases-miles-50.csv",
+      "rows": 3142,
+      "view": "Cases Bar",
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-data-miles-50.csv",
+      "rows": 6284,
+      "view": "Data",
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-main-miles-50.csv",
+      "rows": 3157,
+      "view": "Map - Main",
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-alaska-miles-50.csv",
+      "rows": 30,
+      "view": "Map - AL",
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-hawaii-miles-50.csv",
+      "rows": 6,
+      "view": "Map - HI",
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-resources-miles-50.csv",
+      "rows": 3,
+      "view": "Utilisation Bar",
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-cases-miles-250.csv",
+      "rows": 3142,
+      "view": "Cases Bar",
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-data-miles-250.csv",
+      "rows": 6284,
+      "view": "Data",
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-main-miles-250.csv",
+      "rows": 3157,
+      "view": "Map - Main",
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-alaska-miles-250.csv",
+      "rows": 30,
+      "view": "Map - AL",
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-hawaii-miles-250.csv",
+      "rows": 6,
+      "view": "Map - HI",
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-resources-miles-250.csv",
+      "rows": 3,
+      "view": "Utilisation Bar",
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-cases-miles-250.csv",
+      "rows": 3142,
+      "view": "Cases Bar",
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-data-miles-250.csv",
+      "rows": 6284,
+      "view": "Data",
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-main-miles-250.csv",
+      "rows": 3157,
+      "view": "Map - Main",
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-alaska-miles-250.csv",
+      "rows": 30,
+      "view": "Map - AL",
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-hawaii-miles-250.csv",
+      "rows": 6,
+      "view": "Map - HI",
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-resources-miles-250.csv",
+      "rows": 3,
+      "view": "Utilisation Bar",
+      "status": "pass"
+    }
+  ]
+}

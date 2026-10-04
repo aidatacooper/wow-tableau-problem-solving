@@ -1,0 +1,13 @@
+false,Header Label1,Header Label2,Header Label3,Header Label4,Header Position,Header Selected1,Header Selected2,Header Selected3,Header Selected4,Measure1 | tf,Measure2 | tf,Measure3 | tf,Measure4 | tf,Player Header,position,true,Measure1,Measure2,Measure3,Measure4,Min. First Page No
+False,,,▲,,1,,,False,,,,False,,Player ID,P,True,,,0,,1
+False,,,▼,,-1,,,False,,,,False,,Player ID,FB,True,,,0,,1
+False,,,Avg YPC,,0,,,False,,,,False,,Player ID,H,True,,,0,,1
+False,,,,▲,1,,,,False,,,,False,Player ID,P,True,,,,0,1
+False,,,,▼,-1,,,,False,,,,False,Player ID,FB,True,,,,0,1
+False,,,,TDs,0,,,,False,,,,False,Player ID,H,True,,,,0,1
+False,▼,,,,-1,True,,,,True,,,,Player ID,FB,True,0,,,,1
+False,Carries,,,,0,True,,,,False,,,,Player ID,H,True,0,,,,1
+False,▲,,,,1,False,,,,False,,,,Player ID,P,True,0,,,,1
+False,,▼,,,-1,,False,,,,False,,,Player ID,FB,True,,0,,,1
+False,,Yards,,,0,,False,,,,False,,,Player ID,H,True,,0,,,1
+False,,▲,,,1,,False,,,,False,,,Player ID,P,True,,0,,,1

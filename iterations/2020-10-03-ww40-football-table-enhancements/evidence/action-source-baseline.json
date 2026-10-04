@@ -1,0 +1,6 @@
+{
+  "status": "blocked",
+  "artifact_sha256": "da7fc94379db81c8ca1003fa864eae8c7b0ca7320fcce15ddeebedbc808d6231",
+  "finding": "Set Level action referenced global Max Level, whose column-instance was absent from Table marks. Author uses per-player DD Level, present on Table marks; clicking another player while one is expanded must use DD Level=1 rather than global Max Level=2. REST states and all numeric exports passed but did not prove this action binding.",
+  "resolution": "Existing public parameter-action API source field DD Level; no SDK change."
+}

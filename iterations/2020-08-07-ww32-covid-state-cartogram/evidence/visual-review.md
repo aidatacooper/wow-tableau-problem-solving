@@ -1,0 +1,13 @@
+# Cloud comparison: 2020 WW32
+
+Verdict: **acceptable_delta**. All six full-size original/replica PNGs were examined for default, California and Texas. Accepted replica TWBX SHA-256: `8a8f2b00cc73b4f4ce51cb422d96f6e5cd9df746b0422743f094972b682f466a`.
+
+The 51-state/DC cartogram retains the original eight-row/twelve-column placement, normalized blue area trends, state names, peak labels, three-line heading and footer. Native date addressing, complete-state filtering and the fixed synchronized 0..2 mark domain are present. California and Texas show the matching rising series and peak labels 10,019 and 10,461. District of Columbia is deliberately wrapped into two readable lines instead of the original clipped single-line label. The complete default curves and their geographic positions match the source pattern.
+
+All six CSVs passed the independent 529,950-fact Hyper oracle. Original **Data**, exported without state filters, has 52,785 long-form rows on each request: 39,015 measure rows covering all 7,803 mapped state/day keys, plus 13,770 rows for provinces outside this cartogram's scope. Original **Map** yields zero-byte CSV and is never offered as data proof. Applying a state filter to original Data converts the selected province to NULL; the final capture therefore explicitly preserves its full unfiltered scope and the manifest records the actual empty CSV filter dictionary.
+
+Replica **Map** exports 15,606 rows in default and 306 in each filtered state; its text/area layers deduplicate to 7,803/153/153 state/day keys. Every mapped daily case count, seven-day mean, state maximum, normalized value, first-six-date NULL and May 16 label position is checked. Coordinate formulas must equal separately locked source-derived cartogram positions. Original dashboard images and replica images both retain California/Texas REST filters. All PNG/CSV hashes are verified against the manifest.
+
+Remaining visual differences are small padding and typography shifts, plain footer links, and faint dashed row baselines in the replica rather than the original black per-cell baselines. Adjacent peak labels are closely spaced in both renders, and the wrapped DC label occupies more vertical space. These do not change the independently verified values or state identity. No pixel-match or browser click/hover execution is claimed.
+
+Evidence: [Cloud manifest](cloud-verification.json), [independent full-scope verification](functional-verification.json), [source export provenance](export-provenance.json), and all paired `outputs/cloud-{author,replica}[-california|-texas].png` files.

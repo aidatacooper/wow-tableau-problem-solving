@@ -1,0 +1,25 @@
+{
+  "original_sha256": "048f41027f4c531e8e33220372a53b1e1d37373cdb2feeb71c3a61cee02c05d5",
+  "export_sha256": "faf8c4355f1a6edf9c18ffb59618fd15ba478a2fdff8a0ef12ef4e3733f34b0f",
+  "transformation": "Only remove hidden attributes on existing worksheet windows. Original formulas, actions, layouts and packaged data remain unchanged.",
+  "worksheets_exposed": [
+    "BAN",
+    "Calendar",
+    "Line ",
+    "Month",
+    "Month Name",
+    "Next Month Control",
+    "Prev Month Control",
+    "Selected Period",
+    "Year"
+  ],
+  "semantic_xml_equality_after_declared_window_change": true,
+  "semantic_xml_sha256": "46ecfb0d5e3306e028fe47047891020f00ff60216040890fe8a7c41fbf44d319",
+  "all_other_archive_members_unchanged": {
+    "Data/Datasources/2020_09_23_WW39_Dates Table.csv+ (Multiple Connections).hyper": "660d9b0185d6b9ea1968511e597db50abf7ad6bebce5b852f661c8eabaf7c981",
+    "TwbxExternalCache/TwbxLQResultsCacheV3/323111963/.bin": "5a548473823126d1dc00116b7c2489ea0ccb567b0610df665e4a7b80a15e5d82",
+    "TwbxExternalCache/TwbxLQResultsCacheV3/323111963/.key": "b6601a5746ddd72c17fb90e07437de2de88362e05d46a629452ef210f233d4f0",
+    "TwbxExternalCache/TwbxLQTimestampsCacheV3/1348734074/.bin": "0c89f30f8fa048b552f33b12c020aba4ce8bfdccc87b6d0faac2d5160f85ffda",
+    "TwbxExternalCache/TwbxLQTimestampsCacheV3/1348734074/.key": "a793a3fe3be30e0613e4d472b69b002a1d0f704efa67fc5791909135b005027d"
+  }
+}

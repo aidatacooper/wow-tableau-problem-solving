@@ -1,0 +1,1194 @@
+{
+  "case_id": "wow-2020-ww39-mobile-calendar-picker",
+  "captured_at": "2026-10-04T09:16:58.741840+00:00",
+  "source_hashes": {
+    "author": "faf8c4355f1a6edf9c18ffb59618fd15ba478a2fdff8a0ef12ef4e3733f34b0f",
+    "replica": "74b282f80fda0bc0cc519f4dfe7927bcae6a85044dc5fb67e4d7f5360e4ea8f7"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "1005e5d7-eff0-4399-8f60-728b4deb6349",
+      "name": "cwtwb-review-wow-2020-ww39-mobile-calendar-picker-author-faf8c4355f1a",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2934824",
+      "views": [
+        {
+          "name": "2020_09_23_WW39_Mobile_Calendar_Picker",
+          "id": "801632e2-5a51-457e-a47d-1bc2fea69acc"
+        },
+        {
+          "name": "BAN",
+          "id": "bb7547be-893f-430e-b1d9-ca3c93a8baff"
+        },
+        {
+          "name": "Calendar",
+          "id": "94a6e99f-e8e0-462f-965f-917b4f119c31"
+        },
+        {
+          "name": "Line ",
+          "id": "3a77d8ba-4921-4526-8d04-7702aa05132d"
+        },
+        {
+          "name": "Month",
+          "id": "f26d5ae9-1597-40ba-9f8e-cd2c6344cfb8"
+        },
+        {
+          "name": "Month Name",
+          "id": "d77cacdc-f814-45bc-b802-ce8cee7caf02"
+        },
+        {
+          "name": "Next Month Control",
+          "id": "86e4526c-a3aa-4a64-aad3-2500026171ad"
+        },
+        {
+          "name": "Prev Month Control",
+          "id": "82f4c288-337b-4334-9427-b9cad6c08222"
+        },
+        {
+          "name": "Selected Period",
+          "id": "081bd176-a8ba-473c-855c-ccce2e0c534e"
+        },
+        {
+          "name": "Year",
+          "id": "c82d54de-b214-4e17-90b7-b7a1da78fbf3"
+        }
+      ]
+    },
+    "replica": {
+      "id": "37ccf7e6-7082-4113-9393-8ec3b9cd48eb",
+      "name": "cwtwb-review-wow-2020-ww39-mobile-calendar-picker-replica-74b282f80fda",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2935067",
+      "views": [
+        {
+          "name": "Calendar",
+          "id": "92a5fae7-69fd-4249-b751-6dbe0f90800b"
+        },
+        {
+          "name": "BAN",
+          "id": "8f3e6e3c-a270-416b-981e-c4232832836b"
+        },
+        {
+          "name": "Line ",
+          "id": "fa23fd75-6dc3-42ad-8812-300c764a87b7"
+        },
+        {
+          "name": "Month",
+          "id": "af416b9e-8520-47de-9f87-b124b9fba600"
+        },
+        {
+          "name": "Month Name",
+          "id": "585bed30-05ac-44d2-a603-81a44def66f6"
+        },
+        {
+          "name": "Next Month Control",
+          "id": "62833670-43c0-464d-b2e1-bf048c78df5a"
+        },
+        {
+          "name": "Prev Month Control",
+          "id": "dbee3a7f-8e82-48b2-b0c8-ab5472b559a0"
+        },
+        {
+          "name": "Selected Period",
+          "id": "66cc67ea-9802-4444-aebf-efd3985dae88"
+        },
+        {
+          "name": "Year",
+          "id": "3d778826-300a-4bc0-953d-70c73eaf5f2c"
+        },
+        {
+          "name": "2020_09_23_WW39_Mobile_Calendar_Picker",
+          "id": "c743df9a-3d05-44b2-9f9b-9bf1fa007d36"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "801632e2-5a51-457e-a47d-1bc2fea69acc",
+          "name": "2020_09_23_WW39_Mobile_Calendar_Picker",
+          "path": "outputs/cloud-author.png",
+          "sha256": "badf755b4663a27f81dcf49740e217225fa177efb7295c7728f2c37b56dc8160",
+          "size": [
+            700,
+            1400
+          ]
+        },
+        "replica": {
+          "id": "c743df9a-3d05-44b2-9f9b-9bf1fa007d36",
+          "name": "2020_09_23_WW39_Mobile_Calendar_Picker",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "54a0d935cd266405f1ee794d17e6e66e4f1a97b1fad869ebca485b3d3d7aad5d",
+          "size": [
+            700,
+            1400
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "BAN",
+          "view_id": "bb7547be-893f-430e-b1d9-ca3c93a8baff",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-ban.csv",
+          "sha256": "dc8036c4351b108c2408656dfa623f353e44c13ea3d5528b51bd80fae768c32f",
+          "bytes": 82
+        },
+        {
+          "role": "author",
+          "view": "Calendar",
+          "view_id": "94a6e99f-e8e0-462f-965f-917b4f119c31",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-calendar.csv",
+          "sha256": "6a55bcd15b8f70699602ed519022b8817a89103fcf196694d60693049b7a4975",
+          "bytes": 2012
+        },
+        {
+          "role": "author",
+          "view": "Line ",
+          "view_id": "3a77d8ba-4921-4526-8d04-7702aa05132d",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-line.csv",
+          "sha256": "f0fb50751501d1fcf2ff1f42a1b2a84348fc34755ba7e0dd5b26233647cdf1d9",
+          "bytes": 420
+        },
+        {
+          "role": "author",
+          "view": "Month",
+          "view_id": "f26d5ae9-1597-40ba-9f8e-cd2c6344cfb8",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-month.csv",
+          "sha256": "d8c21efc5825bdeaea6cedef4159219ef4d3d5d23f073d24d74ec057d819eda6",
+          "bytes": 595
+        },
+        {
+          "role": "author",
+          "view": "Month Name",
+          "view_id": "d77cacdc-f814-45bc-b802-ce8cee7caf02",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-month-name.csv",
+          "sha256": "1046fb1685682e69ce288259b0874866e1fd916e08143e73b0161d30cf89bc50",
+          "bytes": 20
+        },
+        {
+          "role": "author",
+          "view": "Next Month Control",
+          "view_id": "86e4526c-a3aa-4a64-aad3-2500026171ad",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-next-month-control.csv",
+          "sha256": "473858d50175e4f03ca8c9e3ceb959b4b761a66cb7a6a9791227c543ea419ffd",
+          "bytes": 20
+        },
+        {
+          "role": "author",
+          "view": "Prev Month Control",
+          "view_id": "82f4c288-337b-4334-9427-b9cad6c08222",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-prev-month-control.csv",
+          "sha256": "1322f1ba8aa4bfe0316d8d2af16620723e1c3adf791b767dbde0f07dbada7842",
+          "bytes": 20
+        },
+        {
+          "role": "author",
+          "view": "Selected Period",
+          "view_id": "081bd176-a8ba-473c-855c-ccce2e0c534e",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-selected-period.csv",
+          "sha256": "f5352b50dc10823d1135d201d92c7608176087c02bb406d86a6d256c48f4bd2b",
+          "bytes": 59
+        },
+        {
+          "role": "author",
+          "view": "Year",
+          "view_id": "c82d54de-b214-4e17-90b7-b7a1da78fbf3",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-year.csv",
+          "sha256": "7a70ad358ea31a9cf68656df0a27665b986ee53d783f52de7471fa84a3f894cb",
+          "bytes": 201
+        },
+        {
+          "role": "replica",
+          "view": "BAN",
+          "view_id": "8f3e6e3c-a270-416b-981e-c4232832836b",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-ban.csv",
+          "sha256": "dc8036c4351b108c2408656dfa623f353e44c13ea3d5528b51bd80fae768c32f",
+          "bytes": 82
+        },
+        {
+          "role": "replica",
+          "view": "Calendar",
+          "view_id": "92a5fae7-69fd-4249-b751-6dbe0f90800b",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-calendar.csv",
+          "sha256": "bbd818e76d69267d04bacf9d520c02aa6786847e886b1fe808b36ff4e13ff899",
+          "bytes": 1887
+        },
+        {
+          "role": "replica",
+          "view": "Line ",
+          "view_id": "fa23fd75-6dc3-42ad-8812-300c764a87b7",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-line.csv",
+          "sha256": "f6e2360bad9f469964184f3329a9f81034f4208d7b486a738ecab6209a78d320",
+          "bytes": 399
+        },
+        {
+          "role": "replica",
+          "view": "Month",
+          "view_id": "af416b9e-8520-47de-9f87-b124b9fba600",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-month.csv",
+          "sha256": "a983d01eeab2111352325791221e19a2b49bfb015e8fb5cf645660fffb21540c",
+          "bytes": 566
+        },
+        {
+          "role": "replica",
+          "view": "Month Name",
+          "view_id": "585bed30-05ac-44d2-a603-81a44def66f6",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-month-name.csv",
+          "sha256": "c41cf3a2879f4d3d9beb474fed295b6f6038c97901e355a0c0af9499b212b8b3",
+          "bytes": 25
+        },
+        {
+          "role": "replica",
+          "view": "Next Month Control",
+          "view_id": "62833670-43c0-464d-b2e1-bf048c78df5a",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-next-month-control.csv",
+          "sha256": "2964b246ae05759dd53729d7982e6043a261a364c1e87b574720165bc2eb196f",
+          "bytes": 50
+        },
+        {
+          "role": "replica",
+          "view": "Prev Month Control",
+          "view_id": "dbee3a7f-8e82-48b2-b0c8-ab5472b559a0",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-prev-month-control.csv",
+          "sha256": "6392d2f5c040d9935f18a71e73ad0cdcfc59799c676dde97b6e08bf3304abe03",
+          "bytes": 48
+        },
+        {
+          "role": "replica",
+          "view": "Selected Period",
+          "view_id": "66cc67ea-9802-4444-aebf-efd3985dae88",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-selected-period.csv",
+          "sha256": "a8520ad0d01d1872878e37a20c61f08e3a3f320da558e8d178387ffb69a6a234",
+          "bytes": 69
+        },
+        {
+          "role": "replica",
+          "view": "Year",
+          "view_id": "3d778826-300a-4bc0-953d-70c73eaf5f2c",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-year.csv",
+          "sha256": "212021b3ba2af89541e0599829612ef68183529da6caec79bf502df4b1b6538d",
+          "bytes": 202
+        }
+      ]
+    },
+    {
+      "name": "july",
+      "parameters": {
+        "pMonthSelected": "2019-07-01",
+        "pSelectedDates": "2019-07-01|2019-07-07"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "801632e2-5a51-457e-a47d-1bc2fea69acc",
+          "name": "2020_09_23_WW39_Mobile_Calendar_Picker",
+          "path": "outputs/cloud-author-july.png",
+          "sha256": "62bd625adffd16905f27406ae6c52ee2c56df8ea5353c5eeb387d41c44e35079",
+          "size": [
+            700,
+            1400
+          ]
+        },
+        "replica": {
+          "id": "c743df9a-3d05-44b2-9f9b-9bf1fa007d36",
+          "name": "2020_09_23_WW39_Mobile_Calendar_Picker",
+          "path": "outputs/cloud-replica-july.png",
+          "sha256": "4a8709a771d4de3aefe723dcd2ab1376cc535297bf48f06c2bfe56b893ba31ce",
+          "size": [
+            700,
+            1400
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "BAN",
+          "view_id": "bb7547be-893f-430e-b1d9-ca3c93a8baff",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {
+            "pMonthSelected": "2019-07-01",
+            "pSelectedDates": "2019-07-01|2019-07-07"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-ban-july.csv",
+          "sha256": "1fbd6c51605c6f1bc9de268b9a9e1b900f9fa808baa04d79948c1402717916af",
+          "bytes": 80
+        },
+        {
+          "role": "author",
+          "view": "Calendar",
+          "view_id": "94a6e99f-e8e0-462f-965f-917b4f119c31",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {
+            "pMonthSelected": "2019-07-01",
+            "pSelectedDates": "2019-07-01|2019-07-07"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-calendar-july.csv",
+          "sha256": "8f766a25ea53cd3ee856bf6dc48480318fbf0a00d0890e95840f5ea0f7b64b48",
+          "bytes": 2082
+        },
+        {
+          "role": "author",
+          "view": "Line ",
+          "view_id": "3a77d8ba-4921-4526-8d04-7702aa05132d",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {
+            "pMonthSelected": "2019-07-01",
+            "pSelectedDates": "2019-07-01|2019-07-07"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-line-july.csv",
+          "sha256": "8ed2a2a8b3c15ccd0a48afec40aa225aae4f19c581699692b64eb5161053cad1",
+          "bytes": 223
+        },
+        {
+          "role": "author",
+          "view": "Month",
+          "view_id": "f26d5ae9-1597-40ba-9f8e-cd2c6344cfb8",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {
+            "pMonthSelected": "2019-07-01",
+            "pSelectedDates": "2019-07-01|2019-07-07"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-month-july.csv",
+          "sha256": "0c62e845f49c0946ad86664d1d35019952c948626bcd0bec8efa4f1ea8527c3c",
+          "bytes": 595
+        },
+        {
+          "role": "author",
+          "view": "Month Name",
+          "view_id": "d77cacdc-f814-45bc-b802-ce8cee7caf02",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {
+            "pMonthSelected": "2019-07-01",
+            "pSelectedDates": "2019-07-01|2019-07-07"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-month-name-july.csv",
+          "sha256": "81dad8c2c6942d2ae7a1fc6c00cae8ca45d7fcc477feeeb12966a82b3f4d47bb",
+          "bytes": 20
+        },
+        {
+          "role": "author",
+          "view": "Next Month Control",
+          "view_id": "86e4526c-a3aa-4a64-aad3-2500026171ad",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {
+            "pMonthSelected": "2019-07-01",
+            "pSelectedDates": "2019-07-01|2019-07-07"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-next-month-control-july.csv",
+          "sha256": "98181eef8399332aa4b027a1579aa0ed51d95e0d10e41b8d8a892b2469290184",
+          "bytes": 20
+        },
+        {
+          "role": "author",
+          "view": "Prev Month Control",
+          "view_id": "82f4c288-337b-4334-9427-b9cad6c08222",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {
+            "pMonthSelected": "2019-07-01",
+            "pSelectedDates": "2019-07-01|2019-07-07"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-prev-month-control-july.csv",
+          "sha256": "c3e620c526f39279cc7274a66fbf24ea12e7adab5bc0dd19090dc1e311896a1e",
+          "bytes": 20
+        },
+        {
+          "role": "author",
+          "view": "Selected Period",
+          "view_id": "081bd176-a8ba-473c-855c-ccce2e0c534e",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {
+            "pMonthSelected": "2019-07-01",
+            "pSelectedDates": "2019-07-01|2019-07-07"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-selected-period-july.csv",
+          "sha256": "beba50ba85e7556894b1a537d2bd9abd0bb97c39e2adadff06cdf091a96f516a",
+          "bytes": 58
+        },
+        {
+          "role": "author",
+          "view": "Year",
+          "view_id": "c82d54de-b214-4e17-90b7-b7a1da78fbf3",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {
+            "pMonthSelected": "2019-07-01",
+            "pSelectedDates": "2019-07-01|2019-07-07"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-year-july.csv",
+          "sha256": "8cd0087f33d515f5bb87cf9dc23fdc9ca4b29dec7876d825e42543dff84f21b6",
+          "bytes": 201
+        },
+        {
+          "role": "replica",
+          "view": "BAN",
+          "view_id": "8f3e6e3c-a270-416b-981e-c4232832836b",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {
+            "pMonthSelected": "2019-07-01",
+            "pSelectedDates": "2019-07-01|2019-07-07"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-ban-july.csv",
+          "sha256": "1fbd6c51605c6f1bc9de268b9a9e1b900f9fa808baa04d79948c1402717916af",
+          "bytes": 80
+        },
+        {
+          "role": "replica",
+          "view": "Calendar",
+          "view_id": "92a5fae7-69fd-4249-b751-6dbe0f90800b",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {
+            "pMonthSelected": "2019-07-01",
+            "pSelectedDates": "2019-07-01|2019-07-07"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-calendar-july.csv",
+          "sha256": "fd8ccb208a8982b0e8d121bb1cbcebb10398d64ac049ff9c42dfd0dd61b3c1cc",
+          "bytes": 1952
+        },
+        {
+          "role": "replica",
+          "view": "Line ",
+          "view_id": "fa23fd75-6dc3-42ad-8812-300c764a87b7",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {
+            "pMonthSelected": "2019-07-01",
+            "pSelectedDates": "2019-07-01|2019-07-07"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-line-july.csv",
+          "sha256": "e18d06ac436a0cc712126f005d7301309688f419c7a75d697d911fadb09b1559",
+          "bytes": 218
+        },
+        {
+          "role": "replica",
+          "view": "Month",
+          "view_id": "af416b9e-8520-47de-9f87-b124b9fba600",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {
+            "pMonthSelected": "2019-07-01",
+            "pSelectedDates": "2019-07-01|2019-07-07"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-month-july.csv",
+          "sha256": "717805408348021cf40fedbeccdbdc0f57a672fe9fb20837059421342d65d08f",
+          "bytes": 566
+        },
+        {
+          "role": "replica",
+          "view": "Month Name",
+          "view_id": "585bed30-05ac-44d2-a603-81a44def66f6",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {
+            "pMonthSelected": "2019-07-01",
+            "pSelectedDates": "2019-07-01|2019-07-07"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-month-name-july.csv",
+          "sha256": "70104e0397c9b2d99ad3ced4fcce6af68f3f8fdf8e3ba922ce4987ed7fc29173",
+          "bytes": 25
+        },
+        {
+          "role": "replica",
+          "view": "Next Month Control",
+          "view_id": "62833670-43c0-464d-b2e1-bf048c78df5a",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {
+            "pMonthSelected": "2019-07-01",
+            "pSelectedDates": "2019-07-01|2019-07-07"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-next-month-control-july.csv",
+          "sha256": "c056ccbb0382ac21849e032deee55dd5b8c58d6bea16b0e889ede6e1bbc02675",
+          "bytes": 50
+        },
+        {
+          "role": "replica",
+          "view": "Prev Month Control",
+          "view_id": "dbee3a7f-8e82-48b2-b0c8-ab5472b559a0",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {
+            "pMonthSelected": "2019-07-01",
+            "pSelectedDates": "2019-07-01|2019-07-07"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-prev-month-control-july.csv",
+          "sha256": "7e05e777fd083a7e8bf3da8a83236bd9ea1c4bdb2021f0a40a1bcdeb24f0478f",
+          "bytes": 48
+        },
+        {
+          "role": "replica",
+          "view": "Selected Period",
+          "view_id": "66cc67ea-9802-4444-aebf-efd3985dae88",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {
+            "pMonthSelected": "2019-07-01",
+            "pSelectedDates": "2019-07-01|2019-07-07"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-selected-period-july.csv",
+          "sha256": "06d78f46209cca189c985e4f2421f24783b3303efc991c219a47bbd8a015daf4",
+          "bytes": 68
+        },
+        {
+          "role": "replica",
+          "view": "Year",
+          "view_id": "3d778826-300a-4bc0-953d-70c73eaf5f2c",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {
+            "pMonthSelected": "2019-07-01",
+            "pSelectedDates": "2019-07-01|2019-07-07"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-year-july.csv",
+          "sha256": "6116ca9613fce42794bca33612cfdb1fda5f91b82c18f966220abde49ac81322",
+          "bytes": 202
+        }
+      ]
+    },
+    {
+      "name": "leap-february",
+      "parameters": {
+        "pMonthSelected": "2016-02-01",
+        "pSelectedDates": "2016-02-10|2016-02-29"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "801632e2-5a51-457e-a47d-1bc2fea69acc",
+          "name": "2020_09_23_WW39_Mobile_Calendar_Picker",
+          "path": "outputs/cloud-author-leap-february.png",
+          "sha256": "79ea0aee255c280ff8f1a92df8e6b5307f920d2a12602cf9dc15ef10224bacc3",
+          "size": [
+            700,
+            1400
+          ]
+        },
+        "replica": {
+          "id": "c743df9a-3d05-44b2-9f9b-9bf1fa007d36",
+          "name": "2020_09_23_WW39_Mobile_Calendar_Picker",
+          "path": "outputs/cloud-replica-leap-february.png",
+          "sha256": "dc4ab76ed49339edcc8924c131d68c68d966c85d32ce958e1bb0fe10d7d509ec",
+          "size": [
+            700,
+            1400
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "BAN",
+          "view_id": "bb7547be-893f-430e-b1d9-ca3c93a8baff",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {
+            "pMonthSelected": "2016-02-01",
+            "pSelectedDates": "2016-02-10|2016-02-29"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-ban-leap-february.csv",
+          "sha256": "58c3579e1700df8cda6aa6b597051249cb488b7e765c691fa1321d08dc1b2fcc",
+          "bytes": 76
+        },
+        {
+          "role": "author",
+          "view": "Calendar",
+          "view_id": "94a6e99f-e8e0-462f-965f-917b4f119c31",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {
+            "pMonthSelected": "2016-02-01",
+            "pSelectedDates": "2016-02-10|2016-02-29"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-calendar-leap-february.csv",
+          "sha256": "348f56b87020e1e2ca5a36712490383243d5bec3d9dfefa0875596f674e5d4e3",
+          "bytes": 1942
+        },
+        {
+          "role": "author",
+          "view": "Line ",
+          "view_id": "3a77d8ba-4921-4526-8d04-7702aa05132d",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {
+            "pMonthSelected": "2016-02-01",
+            "pSelectedDates": "2016-02-10|2016-02-29"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-line-leap-february.csv",
+          "sha256": "83b6706b8227b04a0b9277d24a2f2b46b54ce66ee2b0e70f3642ad96f61584f1",
+          "bytes": 469
+        },
+        {
+          "role": "author",
+          "view": "Month",
+          "view_id": "f26d5ae9-1597-40ba-9f8e-cd2c6344cfb8",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {
+            "pMonthSelected": "2016-02-01",
+            "pSelectedDates": "2016-02-10|2016-02-29"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-month-leap-february.csv",
+          "sha256": "4bac37a43c8f4a39d8e0ae35c93f7d1617f18e1e4f4478a27460826f9a0eb1d8",
+          "bytes": 595
+        },
+        {
+          "role": "author",
+          "view": "Month Name",
+          "view_id": "d77cacdc-f814-45bc-b802-ce8cee7caf02",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {
+            "pMonthSelected": "2016-02-01",
+            "pSelectedDates": "2016-02-10|2016-02-29"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-month-name-leap-february.csv",
+          "sha256": "4c1667c3467cf680ec6d95ec30e39d62029b88aef2aa9b4e492d69a503aceb6f",
+          "bytes": 20
+        },
+        {
+          "role": "author",
+          "view": "Next Month Control",
+          "view_id": "86e4526c-a3aa-4a64-aad3-2500026171ad",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {
+            "pMonthSelected": "2016-02-01",
+            "pSelectedDates": "2016-02-10|2016-02-29"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-next-month-control-leap-february.csv",
+          "sha256": "1d924ae9e2af5489beef77959b221d1d3849088daf31bf42dad5997f33be5b58",
+          "bytes": 20
+        },
+        {
+          "role": "author",
+          "view": "Prev Month Control",
+          "view_id": "82f4c288-337b-4334-9427-b9cad6c08222",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {
+            "pMonthSelected": "2016-02-01",
+            "pSelectedDates": "2016-02-10|2016-02-29"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-prev-month-control-leap-february.csv",
+          "sha256": "0cfa7dd885f2d123ba4c32ebbe0173fe651b98a63867c627e00000cf6baf3b7b",
+          "bytes": 20
+        },
+        {
+          "role": "author",
+          "view": "Selected Period",
+          "view_id": "081bd176-a8ba-473c-855c-ccce2e0c534e",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {
+            "pMonthSelected": "2016-02-01",
+            "pSelectedDates": "2016-02-10|2016-02-29"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-selected-period-leap-february.csv",
+          "sha256": "61b98dfb68bb5ca144de80ece95c2f9ff37a054e5bd25fb9e09a7daddf3bbfa7",
+          "bytes": 60
+        },
+        {
+          "role": "author",
+          "view": "Year",
+          "view_id": "c82d54de-b214-4e17-90b7-b7a1da78fbf3",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {
+            "pMonthSelected": "2016-02-01",
+            "pSelectedDates": "2016-02-10|2016-02-29"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-year-leap-february.csv",
+          "sha256": "282f675579820bd198b8becf999e884a63fff13635fd6176a9d208373d146cd9",
+          "bytes": 217
+        },
+        {
+          "role": "replica",
+          "view": "BAN",
+          "view_id": "8f3e6e3c-a270-416b-981e-c4232832836b",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {
+            "pMonthSelected": "2016-02-01",
+            "pSelectedDates": "2016-02-10|2016-02-29"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-ban-leap-february.csv",
+          "sha256": "58c3579e1700df8cda6aa6b597051249cb488b7e765c691fa1321d08dc1b2fcc",
+          "bytes": 76
+        },
+        {
+          "role": "replica",
+          "view": "Calendar",
+          "view_id": "92a5fae7-69fd-4249-b751-6dbe0f90800b",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {
+            "pMonthSelected": "2016-02-01",
+            "pSelectedDates": "2016-02-10|2016-02-29"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-calendar-leap-february.csv",
+          "sha256": "ba637b4d92e3f40932973e4bca01a185e102e0f7a3ce0b9d0b54befd837a5f96",
+          "bytes": 1938
+        },
+        {
+          "role": "replica",
+          "view": "Line ",
+          "view_id": "fa23fd75-6dc3-42ad-8812-300c764a87b7",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {
+            "pMonthSelected": "2016-02-01",
+            "pSelectedDates": "2016-02-10|2016-02-29"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-line-leap-february.csv",
+          "sha256": "823aaf99bba3db73f28968e2d80c35e6afd008172dae853943edfea492e4c3a7",
+          "bytes": 466
+        },
+        {
+          "role": "replica",
+          "view": "Month",
+          "view_id": "af416b9e-8520-47de-9f87-b124b9fba600",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {
+            "pMonthSelected": "2016-02-01",
+            "pSelectedDates": "2016-02-10|2016-02-29"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-month-leap-february.csv",
+          "sha256": "8ced79c5b436778572cf2cc20bf54460589276f62b23fe157a53c5da8dc3c45a",
+          "bytes": 566
+        },
+        {
+          "role": "replica",
+          "view": "Month Name",
+          "view_id": "585bed30-05ac-44d2-a603-81a44def66f6",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {
+            "pMonthSelected": "2016-02-01",
+            "pSelectedDates": "2016-02-10|2016-02-29"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-month-name-leap-february.csv",
+          "sha256": "ae1cde7b61e4c20d4b65d98f30f30dd2660f9634bd1417e1ff0104acd3702f4f",
+          "bytes": 25
+        },
+        {
+          "role": "replica",
+          "view": "Next Month Control",
+          "view_id": "62833670-43c0-464d-b2e1-bf048c78df5a",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {
+            "pMonthSelected": "2016-02-01",
+            "pSelectedDates": "2016-02-10|2016-02-29"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-next-month-control-leap-february.csv",
+          "sha256": "6cc5812e0a7931984ef51a28577c87df3f8d27b01947ab0aaa9bf236ffca46a7",
+          "bytes": 50
+        },
+        {
+          "role": "replica",
+          "view": "Prev Month Control",
+          "view_id": "dbee3a7f-8e82-48b2-b0c8-ab5472b559a0",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {
+            "pMonthSelected": "2016-02-01",
+            "pSelectedDates": "2016-02-10|2016-02-29"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-prev-month-control-leap-february.csv",
+          "sha256": "b9bcd924bf86b1382b89717abe167f8b0ecd0b4edf54ac8ef854b8c7bee987ce",
+          "bytes": 48
+        },
+        {
+          "role": "replica",
+          "view": "Selected Period",
+          "view_id": "66cc67ea-9802-4444-aebf-efd3985dae88",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {
+            "pMonthSelected": "2016-02-01",
+            "pSelectedDates": "2016-02-10|2016-02-29"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-selected-period-leap-february.csv",
+          "sha256": "824e86e71005f9bbbed1d4bd59e3abd22df033b8d1f0ca742546e003b6ae6e12",
+          "bytes": 70
+        },
+        {
+          "role": "replica",
+          "view": "Year",
+          "view_id": "3d778826-300a-4bc0-953d-70c73eaf5f2c",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {
+            "pMonthSelected": "2016-02-01",
+            "pSelectedDates": "2016-02-10|2016-02-29"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-year-leap-february.csv",
+          "sha256": "849e1574173ca875a447368a74a5f2b6452a8dbc45d0aef4373c5d28cc8bfc33",
+          "bytes": 202
+        }
+      ]
+    },
+    {
+      "name": "december",
+      "parameters": {
+        "pMonthSelected": "2018-12-01",
+        "pSelectedDates": "2018-12-18|2018-12-31"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "801632e2-5a51-457e-a47d-1bc2fea69acc",
+          "name": "2020_09_23_WW39_Mobile_Calendar_Picker",
+          "path": "outputs/cloud-author-december.png",
+          "sha256": "7fd7a3e57a5f73fd0ceac42195cbc65001e2378896136b0e4f6f3391e1a2b12c",
+          "size": [
+            700,
+            1400
+          ]
+        },
+        "replica": {
+          "id": "c743df9a-3d05-44b2-9f9b-9bf1fa007d36",
+          "name": "2020_09_23_WW39_Mobile_Calendar_Picker",
+          "path": "outputs/cloud-replica-december.png",
+          "sha256": "5bc9a3b4675e6915e02f8f9225c759624c5e119dc60c47f97c271d4a124ca1f8",
+          "size": [
+            700,
+            1400
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "BAN",
+          "view_id": "bb7547be-893f-430e-b1d9-ca3c93a8baff",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {
+            "pMonthSelected": "2018-12-01",
+            "pSelectedDates": "2018-12-18|2018-12-31"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-ban-december.csv",
+          "sha256": "4dab612b29386edcf17832026608ace810727226f8458e15e20139d7623a4967",
+          "bytes": 81
+        },
+        {
+          "role": "author",
+          "view": "Calendar",
+          "view_id": "94a6e99f-e8e0-462f-965f-917b4f119c31",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {
+            "pMonthSelected": "2018-12-01",
+            "pSelectedDates": "2018-12-18|2018-12-31"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-calendar-december.csv",
+          "sha256": "81cbf93615bd3092e6caf03c28f60c4988cd1f251c15a079b8d421cd6e100cf5",
+          "bytes": 2168
+        },
+        {
+          "role": "author",
+          "view": "Line ",
+          "view_id": "3a77d8ba-4921-4526-8d04-7702aa05132d",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {
+            "pMonthSelected": "2018-12-01",
+            "pSelectedDates": "2018-12-18|2018-12-31"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-line-december.csv",
+          "sha256": "d82f6d8556a10e758b4fb39d93efd073f68f45ed07708b78a1c3f86c58bac936",
+          "bytes": 462
+        },
+        {
+          "role": "author",
+          "view": "Month",
+          "view_id": "f26d5ae9-1597-40ba-9f8e-cd2c6344cfb8",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {
+            "pMonthSelected": "2018-12-01",
+            "pSelectedDates": "2018-12-18|2018-12-31"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-month-december.csv",
+          "sha256": "51af5e31d65f34d567514ddc0c99f44512ec4d379b1a4862bcb8333c518cd02e",
+          "bytes": 595
+        },
+        {
+          "role": "author",
+          "view": "Month Name",
+          "view_id": "d77cacdc-f814-45bc-b802-ce8cee7caf02",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {
+            "pMonthSelected": "2018-12-01",
+            "pSelectedDates": "2018-12-18|2018-12-31"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-month-name-december.csv",
+          "sha256": "2c4579a5399c3c2a5600b2065b3ada95c5d482c3000f91ed72267843dcebcfbe",
+          "bytes": 21
+        },
+        {
+          "role": "author",
+          "view": "Next Month Control",
+          "view_id": "86e4526c-a3aa-4a64-aad3-2500026171ad",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {
+            "pMonthSelected": "2018-12-01",
+            "pSelectedDates": "2018-12-18|2018-12-31"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-next-month-control-december.csv",
+          "sha256": "428c1569e7510716e8bd148201855fef178bd1e10b67ef4142e4d8f55aa07cc0",
+          "bytes": 20
+        },
+        {
+          "role": "author",
+          "view": "Prev Month Control",
+          "view_id": "82f4c288-337b-4334-9427-b9cad6c08222",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {
+            "pMonthSelected": "2018-12-01",
+            "pSelectedDates": "2018-12-18|2018-12-31"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-prev-month-control-december.csv",
+          "sha256": "d36330ed012f3dd1c11d4c8890ea79e9dcb32bce8c26e14b5939499b5cb97739",
+          "bytes": 21
+        },
+        {
+          "role": "author",
+          "view": "Selected Period",
+          "view_id": "081bd176-a8ba-473c-855c-ccce2e0c534e",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {
+            "pMonthSelected": "2018-12-01",
+            "pSelectedDates": "2018-12-18|2018-12-31"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-selected-period-december.csv",
+          "sha256": "60c23474dd630156a7649a99073a919e416f33f6edd5b1d3057f79480e9e2270",
+          "bytes": 62
+        },
+        {
+          "role": "author",
+          "view": "Year",
+          "view_id": "c82d54de-b214-4e17-90b7-b7a1da78fbf3",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {
+            "pMonthSelected": "2018-12-01",
+            "pSelectedDates": "2018-12-18|2018-12-31"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-year-december.csv",
+          "sha256": "777df4f3e103e1eb83fcaff95f270d06306f087c7736fdc3bfa391951a25f9cd",
+          "bytes": 217
+        },
+        {
+          "role": "replica",
+          "view": "BAN",
+          "view_id": "8f3e6e3c-a270-416b-981e-c4232832836b",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {
+            "pMonthSelected": "2018-12-01",
+            "pSelectedDates": "2018-12-18|2018-12-31"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-ban-december.csv",
+          "sha256": "4dab612b29386edcf17832026608ace810727226f8458e15e20139d7623a4967",
+          "bytes": 81
+        },
+        {
+          "role": "replica",
+          "view": "Calendar",
+          "view_id": "92a5fae7-69fd-4249-b751-6dbe0f90800b",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {
+            "pMonthSelected": "2018-12-01",
+            "pSelectedDates": "2018-12-18|2018-12-31"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-calendar-december.csv",
+          "sha256": "2a8a1b6e7ad62948c405fe38287ac2602090a2c73714d6579b42a504c4eeae9f",
+          "bytes": 2131
+        },
+        {
+          "role": "replica",
+          "view": "Line ",
+          "view_id": "fa23fd75-6dc3-42ad-8812-300c764a87b7",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {
+            "pMonthSelected": "2018-12-01",
+            "pSelectedDates": "2018-12-18|2018-12-31"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-line-december.csv",
+          "sha256": "e39fceb8e6380e92a749ab6e7bfd3e7c28e2943ecd75a57f0379cc6560fc9e7a",
+          "bytes": 439
+        },
+        {
+          "role": "replica",
+          "view": "Month",
+          "view_id": "af416b9e-8520-47de-9f87-b124b9fba600",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {
+            "pMonthSelected": "2018-12-01",
+            "pSelectedDates": "2018-12-18|2018-12-31"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-month-december.csv",
+          "sha256": "384166166e8a701627ef511670be7bbcfe97a780df9cff9a568e0edd7bdf7f0e",
+          "bytes": 566
+        },
+        {
+          "role": "replica",
+          "view": "Month Name",
+          "view_id": "585bed30-05ac-44d2-a603-81a44def66f6",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {
+            "pMonthSelected": "2018-12-01",
+            "pSelectedDates": "2018-12-18|2018-12-31"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-month-name-december.csv",
+          "sha256": "6c91c7bdc59c270166447fafb31391a05d7a553409a20851ae960309ab983ddc",
+          "bytes": 26
+        },
+        {
+          "role": "replica",
+          "view": "Next Month Control",
+          "view_id": "62833670-43c0-464d-b2e1-bf048c78df5a",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {
+            "pMonthSelected": "2018-12-01",
+            "pSelectedDates": "2018-12-18|2018-12-31"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-next-month-control-december.csv",
+          "sha256": "da4289ba5e32d048aa3fa6c987b6e78baa1ed3e0019b64f77aed9a4a242fc4be",
+          "bytes": 50
+        },
+        {
+          "role": "replica",
+          "view": "Prev Month Control",
+          "view_id": "dbee3a7f-8e82-48b2-b0c8-ab5472b559a0",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {
+            "pMonthSelected": "2018-12-01",
+            "pSelectedDates": "2018-12-18|2018-12-31"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-prev-month-control-december.csv",
+          "sha256": "945c25be203ae595bdfbb141d5a4140c4bd63cf457eb05539942d1815637cace",
+          "bytes": 49
+        },
+        {
+          "role": "replica",
+          "view": "Selected Period",
+          "view_id": "66cc67ea-9802-4444-aebf-efd3985dae88",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {
+            "pMonthSelected": "2018-12-01",
+            "pSelectedDates": "2018-12-18|2018-12-31"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-selected-period-december.csv",
+          "sha256": "5e83160e832106cd0d6a8c5b046ca9c5062a3505342dd00b5bfeef31f42b01e4",
+          "bytes": 72
+        },
+        {
+          "role": "replica",
+          "view": "Year",
+          "view_id": "3d778826-300a-4bc0-953d-70c73eaf5f2c",
+          "scope": "All calendar dates or complete fact-backed metrics and native picker/control marks; no claim of browser selection, toggle execution or mobile rendering.",
+          "parameters": {
+            "pMonthSelected": "2018-12-01",
+            "pSelectedDates": "2018-12-18|2018-12-31"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-year-december.csv",
+          "sha256": "50b5c401814e740eaaf1269142baff3f59bf6d62f649149e526d1bf902043806",
+          "bytes": 206
+        }
+      ]
+    }
+  ],
+  "status": "verified",
+  "independent_review": {
+    "visual_status": "acceptable_delta",
+    "visual_evidence": "evidence/visual-review.md",
+    "functional_evidence": "evidence/functional-verification.json",
+    "scope": "Declared REST worksheet exports and artifact contracts; no browser events executed."
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "path": "outputs/cloud-author-viz.csv",
+      "rows": 5976,
+      "daily_marks": 5040,
+      "weekly_marks": 936,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-daily.csv",
+      "rows": 1141,
+      "daily_marks": 1141,
+      "weekly_marks": 0,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-weekly.csv",
+      "rows": 312,
+      "daily_marks": 0,
+      "weekly_marks": 78,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-viz.csv",
+      "rows": 5976,
+      "daily_marks": 5040,
+      "weekly_marks": 936,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-daily.csv",
+      "rows": 1141,
+      "daily_marks": 1141,
+      "weekly_marks": 0,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-weekly.csv",
+      "rows": 312,
+      "daily_marks": 0,
+      "weekly_marks": 78,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-viz-yoy.csv",
+      "rows": 5976,
+      "daily_marks": 5040,
+      "weekly_marks": 936,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-daily-yoy.csv",
+      "rows": 1141,
+      "daily_marks": 1141,
+      "weekly_marks": 0,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-weekly-yoy.csv",
+      "rows": 312,
+      "daily_marks": 0,
+      "weekly_marks": 78,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-viz-yoy.csv",
+      "rows": 5976,
+      "daily_marks": 5040,
+      "weekly_marks": 936,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-daily-yoy.csv",
+      "rows": 1141,
+      "daily_marks": 1141,
+      "weekly_marks": 0,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-weekly-yoy.csv",
+      "rows": 312,
+      "daily_marks": 0,
+      "weekly_marks": 78,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-viz-spring.csv",
+      "rows": 2043,
+      "daily_marks": 1785,
+      "weekly_marks": 258,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-daily-spring.csv",
+      "rows": 1141,
+      "daily_marks": 1141,
+      "weekly_marks": 0,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-weekly-spring.csv",
+      "rows": 312,
+      "daily_marks": 0,
+      "weekly_marks": 78,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-viz-spring.csv",
+      "rows": 2043,
+      "daily_marks": 1785,
+      "weekly_marks": 258,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-daily-spring.csv",
+      "rows": 1141,
+      "daily_marks": 1141,
+      "weekly_marks": 0,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-weekly-spring.csv",
+      "rows": 312,
+      "daily_marks": 0,
+      "weekly_marks": 78,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-viz-fall-yoy.csv",
+      "rows": 3723,
+      "daily_marks": 3255,
+      "weekly_marks": 468,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-daily-fall-yoy.csv",
+      "rows": 1141,
+      "daily_marks": 1141,
+      "weekly_marks": 0,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-author-weekly-fall-yoy.csv",
+      "rows": 312,
+      "daily_marks": 0,
+      "weekly_marks": 78,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-viz-fall-yoy.csv",
+      "rows": 3723,
+      "daily_marks": 3255,
+      "weekly_marks": 468,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-daily-fall-yoy.csv",
+      "rows": 1141,
+      "daily_marks": 1141,
+      "weekly_marks": 0,
+      "status": "pass"
+    },
+    {
+      "path": "outputs/cloud-replica-weekly-fall-yoy.csv",
+      "rows": 312,
+      "daily_marks": 0,
+      "weekly_marks": 78,
+      "status": "pass"
+    }
+  ]
+}

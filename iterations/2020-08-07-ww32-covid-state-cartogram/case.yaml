@@ -1,0 +1,81 @@
+schema_version: 1.1.0
+case_id: wow-2020-ww32-covid-state-cartogram
+iteration_id: 2020-08-07-ww32-covid-state-cartogram
+post: https://donnacoles.home.blog/2020/08/07/covid-19-new-case-trends-cartogram/
+legacy_case_ids: {}
+article_date: '2020-08-07'
+challenge_year: 2020
+challenge_week: 32
+challenge_date: '2020-08-04'
+date_evidence:
+  article_date: Declared article publication date in iteration_id
+  challenge: Explicit challenge_year; week declared in iteration_id
+  challenge_date: Explicit official challenge publication date and URL
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/wow2020w32/
+  article:
+    url: https://donnacoles.home.blog/2020/08/07/covid-19-new-case-trends-cartogram/
+    path: null
+    sha256: aa8b20e9ca08567068d3889dcf749785c7ea22a6f809a60f74bd95a7dee2275b
+  workbook:
+    url: https://public.tableau.com/views/2020_08_05_WW32_Covid_State_Small_Multiples/2020_08_05_WW32_Covid_State_Small_Multiple
+    filename: author.twbx
+    sha256: 04f92d76edbe006d9fc2aa552504c28feab27bf1f6fa25595fe4b79859d43540
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- evidence/cloud-verification.json
+- evidence/export-provenance.json
+- evidence/functional-verification.json
+- evidence/sdk-final-validation.json
+- evidence/visual-review.md
+- evidence/zero-build-verification.json
+- inputs/source-lock.json
+notes:
+- Generated index views must be refreshed after the workbook is built and verified.
+cwtwb:
+  tested_version: 0.27.1
+  runs:
+  - version: 0.27.1
+    commit: null
+    result: pass
+    evidence: evidence/functional-verification.json
+  - version: 0.27.1
+    commit: eb1380d5da9c1b1bf1b306128cb8397150ba1a53
+    result: pass
+    evidence: evidence/sdk-final-validation.json
+  tested_commit: eb1380d5da9c1b1bf1b306128cb8397150ba1a53
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: pass
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/COVID-19 Activity (1) Extract.hyper
+  - inputs/cartogram-positions.json
+acceptance:
+- id: ww32-full-state-day-oracle
+  description: Independently aggregate every raw county-day record into all mapped
+    state/day totals, seven-row means and per-state normalisation.
+  mode: automated
+- id: ww32-native-cartogram
+  description: 51-state/DC grid positions, synchronized Text/Area layers, March-July
+    dates and explicit nested date addressing.
+  mode: automated
+- id: ww32-cloud-rest
+  description: Full Map CSV and paired images for all states and California/Texas
+    REST filters.
+  mode: automated
+remaining_work: []
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []
+acceptance_scope: cloud_rest_and_artifact_contracts
+browser_interaction_executed: false

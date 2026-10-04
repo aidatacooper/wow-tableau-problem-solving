@@ -1,0 +1,1082 @@
+{
+  "case_id": "wow-2020-ww40-football-table-enhancements",
+  "captured_at": "2026-10-04T09:14:29.875841+00:00",
+  "source_hashes": {
+    "author": "efd50bc5fee51b0b86a12af286550b7ee51c7e5e8206abe311a550d5b458ffe6",
+    "replica": "7d4dd106da75f63e64bfed50975621b5e8e47f4833ce26d408b62ab6c3676a9f"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "a2f0cf2e-b3f8-43f7-a50d-a6d2f40eb8ac",
+      "name": "cwtwb-review-wow-2020-ww40-football-table-enhancements-author-efd50bc5fee5",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2934731",
+      "views": [
+        {
+          "name": "2020_09_30_WW40_NFLStats_Table_Layout",
+          "id": "7bb8ca37-5f71-4793-86cf-cf1e67cadc67"
+        },
+        {
+          "name": "Curr Page",
+          "id": "6221e87c-81bb-4da3-a491-21920033ead6"
+        },
+        {
+          "name": "Header",
+          "id": "126a35a7-56a1-40ad-aa63-8417c8b688cf"
+        },
+        {
+          "name": "Next Page",
+          "id": "b430999e-ad1e-4c90-9a5f-eaa019e612c6"
+        },
+        {
+          "name": "Prev Page",
+          "id": "4723bfee-59bf-4888-aabb-dfc67cadede7"
+        },
+        {
+          "name": "Table",
+          "id": "80180055-c678-43c0-9599-50ca66ec7a28"
+        }
+      ]
+    },
+    "replica": {
+      "id": "c73ca399-a862-4a6e-b8f1-dd53321ead1d",
+      "name": "cwtwb-review-wow-2020-ww40-football-table-enhancements-replica-7d4dd106da75",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2935059",
+      "views": [
+        {
+          "name": "Header",
+          "id": "321b11f3-e859-44c5-8417-161f9f2c15b8"
+        },
+        {
+          "name": "Table",
+          "id": "3f817064-4041-46f0-a275-66413b51ee2d"
+        },
+        {
+          "name": "Prev Page",
+          "id": "7435c100-15a3-46e8-8604-50bff4a54aad"
+        },
+        {
+          "name": "Curr Page",
+          "id": "b6aeb8c0-6e84-4444-a8f6-3f528d47324c"
+        },
+        {
+          "name": "Next Page",
+          "id": "8beac5ae-e80b-4bed-8a94-cb44a2668d48"
+        },
+        {
+          "name": "2020_09_30_WW40_NFLStats_Table_Layout",
+          "id": "ed425a28-0838-4cd2-ac24-c67c698a5856"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "7bb8ca37-5f71-4793-86cf-cf1e67cadc67",
+          "name": "2020_09_30_WW40_NFLStats_Table_Layout",
+          "path": "outputs/cloud-author.png",
+          "sha256": "af4dd4a93fd0db29a64268cfe0e787239e0fa150e211c9df6f159642d0e3fc8d",
+          "size": [
+            1800,
+            1200
+          ]
+        },
+        "replica": {
+          "id": "ed425a28-0838-4cd2-ac24-c67c698a5856",
+          "name": "2020_09_30_WW40_NFLStats_Table_Layout",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "44ae7ea88e3c0705e0953f5813bc9a013c8c305cc568cc5bfa1caa4ee5b714eb",
+          "size": [
+            1800,
+            1200
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Table",
+          "view_id": "80180055-c678-43c0-9599-50ca66ec7a28",
+          "scope": "Complete requested page of all four NFL metrics or all header/pager control marks. Raw oracle covers the full roster; REST exports cover only requested pages.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-table.csv",
+          "sha256": "6474cd8aa9c9baec14409a330835f770813ec97774fc0f59a2f01c71c44deb4c",
+          "bytes": 1358
+        },
+        {
+          "role": "author",
+          "view": "Header",
+          "view_id": "126a35a7-56a1-40ad-aa63-8417c8b688cf",
+          "scope": "Complete requested page of all four NFL metrics or all header/pager control marks. Raw oracle covers the full roster; REST exports cover only requested pages.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-header.csv",
+          "sha256": "0e81121a3d25b5021798ff683af4bd412f9632028600be278653f53505e2360a",
+          "bytes": 1186
+        },
+        {
+          "role": "author",
+          "view": "Prev Page",
+          "view_id": "4723bfee-59bf-4888-aabb-dfc67cadede7",
+          "scope": "Complete requested page of all four NFL metrics or all header/pager control marks. Raw oracle covers the full roster; REST exports cover only requested pages.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-prev-page.csv",
+          "sha256": "35e32bf2419a245c772d72659454478243d5401b5383d7bd4d04ffef8da24f81",
+          "bytes": 46
+        },
+        {
+          "role": "author",
+          "view": "Curr Page",
+          "view_id": "6221e87c-81bb-4da3-a491-21920033ead6",
+          "scope": "Complete requested page of all four NFL metrics or all header/pager control marks. Raw oracle covers the full roster; REST exports cover only requested pages.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-curr-page.csv",
+          "sha256": "e02a0fedd70795cd7dac7ccaaebff01c614d6fe46dab914ccac40546d99109fa",
+          "bytes": 33
+        },
+        {
+          "role": "author",
+          "view": "Next Page",
+          "view_id": "b430999e-ad1e-4c90-9a5f-eaa019e612c6",
+          "scope": "Complete requested page of all four NFL metrics or all header/pager control marks. Raw oracle covers the full roster; REST exports cover only requested pages.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-next-page.csv",
+          "sha256": "e2fdc13c0db97b614b12c87c318f80a86ebc0cdedf0d19510f85c2c337aa949e",
+          "bytes": 45
+        },
+        {
+          "role": "replica",
+          "view": "Table",
+          "view_id": "3f817064-4041-46f0-a275-66413b51ee2d",
+          "scope": "Complete requested page of all four NFL metrics or all header/pager control marks. Raw oracle covers the full roster; REST exports cover only requested pages.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-table.csv",
+          "sha256": "9263a52e2bcbf62849a16a61e12c60dcd6d1a1be15c2e0188c875ad2914db4b3",
+          "bytes": 1358
+        },
+        {
+          "role": "replica",
+          "view": "Header",
+          "view_id": "321b11f3-e859-44c5-8417-161f9f2c15b8",
+          "scope": "Complete requested page of all four NFL metrics or all header/pager control marks. Raw oracle covers the full roster; REST exports cover only requested pages.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-header.csv",
+          "sha256": "901703493e20d2b855324681a1318762719d3a0b7236f8bcf6c021f8b4c8c4c9",
+          "bytes": 984
+        },
+        {
+          "role": "replica",
+          "view": "Prev Page",
+          "view_id": "7435c100-15a3-46e8-8604-50bff4a54aad",
+          "scope": "Complete requested page of all four NFL metrics or all header/pager control marks. Raw oracle covers the full roster; REST exports cover only requested pages.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-prev-page.csv",
+          "sha256": "9db18d0f476e2d5a880b04fd056e9a65685826ef63ea43ba3f30b489808f37d5",
+          "bytes": 69
+        },
+        {
+          "role": "replica",
+          "view": "Curr Page",
+          "view_id": "b6aeb8c0-6e84-4444-a8f6-3f528d47324c",
+          "scope": "Complete requested page of all four NFL metrics or all header/pager control marks. Raw oracle covers the full roster; REST exports cover only requested pages.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-curr-page.csv",
+          "sha256": "8972e476f9b5082fda1391b23371c6bd610be751108f612564604405e9e61284",
+          "bytes": 43
+        },
+        {
+          "role": "replica",
+          "view": "Next Page",
+          "view_id": "8beac5ae-e80b-4bed-8a94-cb44a2668d48",
+          "scope": "Complete requested page of all four NFL metrics or all header/pager control marks. Raw oracle covers the full roster; REST exports cover only requested pages.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-next-page.csv",
+          "sha256": "0423f00dd3ce9c9f6e15e6ef1f614646b7645d3a8dbacb8854cf65991a055ca6",
+          "bytes": 64
+        }
+      ]
+    },
+    {
+      "name": "page-two",
+      "parameters": {
+        "pPage No": "2"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "7bb8ca37-5f71-4793-86cf-cf1e67cadc67",
+          "name": "2020_09_30_WW40_NFLStats_Table_Layout",
+          "path": "outputs/cloud-author-page-two.png",
+          "sha256": "be09589e0961c1e0028a51e705fa539d9252589b0a550a2b4dad795e34833762",
+          "size": [
+            1800,
+            1200
+          ]
+        },
+        "replica": {
+          "id": "ed425a28-0838-4cd2-ac24-c67c698a5856",
+          "name": "2020_09_30_WW40_NFLStats_Table_Layout",
+          "path": "outputs/cloud-replica-page-two.png",
+          "sha256": "1f468c8d4375b1357731e05f4f56465d2f9159d30a5c463a787e8db420e6f87b",
+          "size": [
+            1800,
+            1200
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Table",
+          "view_id": "80180055-c678-43c0-9599-50ca66ec7a28",
+          "scope": "Complete requested page of all four NFL metrics or all header/pager control marks. Raw oracle covers the full roster; REST exports cover only requested pages.",
+          "parameters": {
+            "pPage No": "2"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-table-page-two.csv",
+          "sha256": "936d47160f0a1e93fe5cd5b8957a4a2b95257b608cddbc85bf8ddf12bc7bd05f",
+          "bytes": 1334
+        },
+        {
+          "role": "author",
+          "view": "Header",
+          "view_id": "126a35a7-56a1-40ad-aa63-8417c8b688cf",
+          "scope": "Complete requested page of all four NFL metrics or all header/pager control marks. Raw oracle covers the full roster; REST exports cover only requested pages.",
+          "parameters": {
+            "pPage No": "2"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-header-page-two.csv",
+          "sha256": "221c3181939ea7e65c5a45536a97f822489db2dd14088ad28055a34e1f089006",
+          "bytes": 1186
+        },
+        {
+          "role": "author",
+          "view": "Prev Page",
+          "view_id": "4723bfee-59bf-4888-aabb-dfc67cadede7",
+          "scope": "Complete requested page of all four NFL metrics or all header/pager control marks. Raw oracle covers the full roster; REST exports cover only requested pages.",
+          "parameters": {
+            "pPage No": "2"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-prev-page-page-two.csv",
+          "sha256": "35e32bf2419a245c772d72659454478243d5401b5383d7bd4d04ffef8da24f81",
+          "bytes": 46
+        },
+        {
+          "role": "author",
+          "view": "Curr Page",
+          "view_id": "6221e87c-81bb-4da3-a491-21920033ead6",
+          "scope": "Complete requested page of all four NFL metrics or all header/pager control marks. Raw oracle covers the full roster; REST exports cover only requested pages.",
+          "parameters": {
+            "pPage No": "2"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-curr-page-page-two.csv",
+          "sha256": "69a4836d4fd50ddfac47850e91e001ae784246a036a9366449094c240860289e",
+          "bytes": 33
+        },
+        {
+          "role": "author",
+          "view": "Next Page",
+          "view_id": "b430999e-ad1e-4c90-9a5f-eaa019e612c6",
+          "scope": "Complete requested page of all four NFL metrics or all header/pager control marks. Raw oracle covers the full roster; REST exports cover only requested pages.",
+          "parameters": {
+            "pPage No": "2"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-next-page-page-two.csv",
+          "sha256": "7b0d991929c4ab21eefb84ef601c19252d7a9bd0606df820bf8a9f6d4390562f",
+          "bytes": 45
+        },
+        {
+          "role": "replica",
+          "view": "Table",
+          "view_id": "3f817064-4041-46f0-a275-66413b51ee2d",
+          "scope": "Complete requested page of all four NFL metrics or all header/pager control marks. Raw oracle covers the full roster; REST exports cover only requested pages.",
+          "parameters": {
+            "pPage No": "2"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-table-page-two.csv",
+          "sha256": "dff6872daf8d8d9918cf53552978740447f67f31512bba2d3f9e1bae0978dc18",
+          "bytes": 1334
+        },
+        {
+          "role": "replica",
+          "view": "Header",
+          "view_id": "321b11f3-e859-44c5-8417-161f9f2c15b8",
+          "scope": "Complete requested page of all four NFL metrics or all header/pager control marks. Raw oracle covers the full roster; REST exports cover only requested pages.",
+          "parameters": {
+            "pPage No": "2"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-header-page-two.csv",
+          "sha256": "2cc9d3b82105a543b44ef351573102ae101d5d59986bcf57e90cc46eefcfaa2d",
+          "bytes": 984
+        },
+        {
+          "role": "replica",
+          "view": "Prev Page",
+          "view_id": "7435c100-15a3-46e8-8604-50bff4a54aad",
+          "scope": "Complete requested page of all four NFL metrics or all header/pager control marks. Raw oracle covers the full roster; REST exports cover only requested pages.",
+          "parameters": {
+            "pPage No": "2"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-prev-page-page-two.csv",
+          "sha256": "9db18d0f476e2d5a880b04fd056e9a65685826ef63ea43ba3f30b489808f37d5",
+          "bytes": 69
+        },
+        {
+          "role": "replica",
+          "view": "Curr Page",
+          "view_id": "b6aeb8c0-6e84-4444-a8f6-3f528d47324c",
+          "scope": "Complete requested page of all four NFL metrics or all header/pager control marks. Raw oracle covers the full roster; REST exports cover only requested pages.",
+          "parameters": {
+            "pPage No": "2"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-curr-page-page-two.csv",
+          "sha256": "ae964bd417f24ab854ab45c60e43894613624b997c199b0428bba61f64705864",
+          "bytes": 43
+        },
+        {
+          "role": "replica",
+          "view": "Next Page",
+          "view_id": "8beac5ae-e80b-4bed-8a94-cb44a2668d48",
+          "scope": "Complete requested page of all four NFL metrics or all header/pager control marks. Raw oracle covers the full roster; REST exports cover only requested pages.",
+          "parameters": {
+            "pPage No": "2"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-next-page-page-two.csv",
+          "sha256": "1c4970aa27258af05f2793495d92a184c0d9d36089783c2e218b0c151d50f891",
+          "bytes": 64
+        }
+      ]
+    },
+    {
+      "name": "expanded-top-player",
+      "parameters": {
+        "pLevel": "1",
+        "pSelected Player ID": "10638"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "7bb8ca37-5f71-4793-86cf-cf1e67cadc67",
+          "name": "2020_09_30_WW40_NFLStats_Table_Layout",
+          "path": "outputs/cloud-author-expanded-top-player.png",
+          "sha256": "f1db0cc2c1d404830c74213dceedeb370ce889ad8ee373863acae7dbe6e6f22a",
+          "size": [
+            1800,
+            1200
+          ]
+        },
+        "replica": {
+          "id": "ed425a28-0838-4cd2-ac24-c67c698a5856",
+          "name": "2020_09_30_WW40_NFLStats_Table_Layout",
+          "path": "outputs/cloud-replica-expanded-top-player.png",
+          "sha256": "9a1f3e425593db130a8e7a7d76856fa5f38a4dce0faf2427b6201986a0a00765",
+          "size": [
+            1800,
+            1200
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Table",
+          "view_id": "80180055-c678-43c0-9599-50ca66ec7a28",
+          "scope": "Complete requested page of all four NFL metrics or all header/pager control marks. Raw oracle covers the full roster; REST exports cover only requested pages.",
+          "parameters": {
+            "pLevel": "1",
+            "pSelected Player ID": "10638"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-table-expanded-top-player.csv",
+          "sha256": "c154f4f05a436109351702dcb93326b29e03160c1c4554a8a3e993d984daf872",
+          "bytes": 1783
+        },
+        {
+          "role": "author",
+          "view": "Header",
+          "view_id": "126a35a7-56a1-40ad-aa63-8417c8b688cf",
+          "scope": "Complete requested page of all four NFL metrics or all header/pager control marks. Raw oracle covers the full roster; REST exports cover only requested pages.",
+          "parameters": {
+            "pLevel": "1",
+            "pSelected Player ID": "10638"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-header-expanded-top-player.csv",
+          "sha256": "12d70021fb4c74a9909caac2623dd1b76db0145845d1165beb74fa8dc871ca84",
+          "bytes": 1186
+        },
+        {
+          "role": "author",
+          "view": "Prev Page",
+          "view_id": "4723bfee-59bf-4888-aabb-dfc67cadede7",
+          "scope": "Complete requested page of all four NFL metrics or all header/pager control marks. Raw oracle covers the full roster; REST exports cover only requested pages.",
+          "parameters": {
+            "pLevel": "1",
+            "pSelected Player ID": "10638"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-prev-page-expanded-top-player.csv",
+          "sha256": "35e32bf2419a245c772d72659454478243d5401b5383d7bd4d04ffef8da24f81",
+          "bytes": 46
+        },
+        {
+          "role": "author",
+          "view": "Curr Page",
+          "view_id": "6221e87c-81bb-4da3-a491-21920033ead6",
+          "scope": "Complete requested page of all four NFL metrics or all header/pager control marks. Raw oracle covers the full roster; REST exports cover only requested pages.",
+          "parameters": {
+            "pLevel": "1",
+            "pSelected Player ID": "10638"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-curr-page-expanded-top-player.csv",
+          "sha256": "e02a0fedd70795cd7dac7ccaaebff01c614d6fe46dab914ccac40546d99109fa",
+          "bytes": 33
+        },
+        {
+          "role": "author",
+          "view": "Next Page",
+          "view_id": "b430999e-ad1e-4c90-9a5f-eaa019e612c6",
+          "scope": "Complete requested page of all four NFL metrics or all header/pager control marks. Raw oracle covers the full roster; REST exports cover only requested pages.",
+          "parameters": {
+            "pLevel": "1",
+            "pSelected Player ID": "10638"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-next-page-expanded-top-player.csv",
+          "sha256": "e2fdc13c0db97b614b12c87c318f80a86ebc0cdedf0d19510f85c2c337aa949e",
+          "bytes": 45
+        },
+        {
+          "role": "replica",
+          "view": "Table",
+          "view_id": "3f817064-4041-46f0-a275-66413b51ee2d",
+          "scope": "Complete requested page of all four NFL metrics or all header/pager control marks. Raw oracle covers the full roster; REST exports cover only requested pages.",
+          "parameters": {
+            "pLevel": "1",
+            "pSelected Player ID": "10638"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-table-expanded-top-player.csv",
+          "sha256": "8df584cd28c0e54539134000b00593eaa2be1036a6ceca4632f25d48a55b9163",
+          "bytes": 1783
+        },
+        {
+          "role": "replica",
+          "view": "Header",
+          "view_id": "321b11f3-e859-44c5-8417-161f9f2c15b8",
+          "scope": "Complete requested page of all four NFL metrics or all header/pager control marks. Raw oracle covers the full roster; REST exports cover only requested pages.",
+          "parameters": {
+            "pLevel": "1",
+            "pSelected Player ID": "10638"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-header-expanded-top-player.csv",
+          "sha256": "f502a7dbac2538d7dca11a832195da9aa370e444a6f920d359a3e26cccd77fcf",
+          "bytes": 984
+        },
+        {
+          "role": "replica",
+          "view": "Prev Page",
+          "view_id": "7435c100-15a3-46e8-8604-50bff4a54aad",
+          "scope": "Complete requested page of all four NFL metrics or all header/pager control marks. Raw oracle covers the full roster; REST exports cover only requested pages.",
+          "parameters": {
+            "pLevel": "1",
+            "pSelected Player ID": "10638"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-prev-page-expanded-top-player.csv",
+          "sha256": "9db18d0f476e2d5a880b04fd056e9a65685826ef63ea43ba3f30b489808f37d5",
+          "bytes": 69
+        },
+        {
+          "role": "replica",
+          "view": "Curr Page",
+          "view_id": "b6aeb8c0-6e84-4444-a8f6-3f528d47324c",
+          "scope": "Complete requested page of all four NFL metrics or all header/pager control marks. Raw oracle covers the full roster; REST exports cover only requested pages.",
+          "parameters": {
+            "pLevel": "1",
+            "pSelected Player ID": "10638"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-curr-page-expanded-top-player.csv",
+          "sha256": "8972e476f9b5082fda1391b23371c6bd610be751108f612564604405e9e61284",
+          "bytes": 43
+        },
+        {
+          "role": "replica",
+          "view": "Next Page",
+          "view_id": "8beac5ae-e80b-4bed-8a94-cb44a2668d48",
+          "scope": "Complete requested page of all four NFL metrics or all header/pager control marks. Raw oracle covers the full roster; REST exports cover only requested pages.",
+          "parameters": {
+            "pLevel": "1",
+            "pSelected Player ID": "10638"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-next-page-expanded-top-player.csv",
+          "sha256": "0423f00dd3ce9c9f6e15e6ef1f614646b7645d3a8dbacb8854cf65991a055ca6",
+          "bytes": 64
+        }
+      ]
+    },
+    {
+      "name": "yards-ascending",
+      "parameters": {
+        "pHeader MeasureNames ": "Measure2",
+        "pHeader Position": "P"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "7bb8ca37-5f71-4793-86cf-cf1e67cadc67",
+          "name": "2020_09_30_WW40_NFLStats_Table_Layout",
+          "path": "outputs/cloud-author-yards-ascending.png",
+          "sha256": "33c0bcf43317c8095fc55662ecd1c175ac11f5ad62b2b0273115085bb64403e6",
+          "size": [
+            1800,
+            1200
+          ]
+        },
+        "replica": {
+          "id": "ed425a28-0838-4cd2-ac24-c67c698a5856",
+          "name": "2020_09_30_WW40_NFLStats_Table_Layout",
+          "path": "outputs/cloud-replica-yards-ascending.png",
+          "sha256": "d60f7d517cca3c66b58d65e57675f086730cdf59be19b6099bc56ec6f3616408",
+          "size": [
+            1800,
+            1200
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Table",
+          "view_id": "80180055-c678-43c0-9599-50ca66ec7a28",
+          "scope": "Complete requested page of all four NFL metrics or all header/pager control marks. Raw oracle covers the full roster; REST exports cover only requested pages.",
+          "parameters": {
+            "pHeader MeasureNames ": "Measure2",
+            "pHeader Position": "P"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-table-yards-ascending.csv",
+          "sha256": "63e801e39acab289fcecffeb52a88b01692282488c97a5fb81c385f73702e41e",
+          "bytes": 1258
+        },
+        {
+          "role": "author",
+          "view": "Header",
+          "view_id": "126a35a7-56a1-40ad-aa63-8417c8b688cf",
+          "scope": "Complete requested page of all four NFL metrics or all header/pager control marks. Raw oracle covers the full roster; REST exports cover only requested pages.",
+          "parameters": {
+            "pHeader MeasureNames ": "Measure2",
+            "pHeader Position": "P"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-header-yards-ascending.csv",
+          "sha256": "44f3443a552407c89ed0bb60828ee58fb0bb1e521af8f1837fe1e6c7ca624be0",
+          "bytes": 1186
+        },
+        {
+          "role": "author",
+          "view": "Prev Page",
+          "view_id": "4723bfee-59bf-4888-aabb-dfc67cadede7",
+          "scope": "Complete requested page of all four NFL metrics or all header/pager control marks. Raw oracle covers the full roster; REST exports cover only requested pages.",
+          "parameters": {
+            "pHeader MeasureNames ": "Measure2",
+            "pHeader Position": "P"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-prev-page-yards-ascending.csv",
+          "sha256": "35e32bf2419a245c772d72659454478243d5401b5383d7bd4d04ffef8da24f81",
+          "bytes": 46
+        },
+        {
+          "role": "author",
+          "view": "Curr Page",
+          "view_id": "6221e87c-81bb-4da3-a491-21920033ead6",
+          "scope": "Complete requested page of all four NFL metrics or all header/pager control marks. Raw oracle covers the full roster; REST exports cover only requested pages.",
+          "parameters": {
+            "pHeader MeasureNames ": "Measure2",
+            "pHeader Position": "P"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-curr-page-yards-ascending.csv",
+          "sha256": "e02a0fedd70795cd7dac7ccaaebff01c614d6fe46dab914ccac40546d99109fa",
+          "bytes": 33
+        },
+        {
+          "role": "author",
+          "view": "Next Page",
+          "view_id": "b430999e-ad1e-4c90-9a5f-eaa019e612c6",
+          "scope": "Complete requested page of all four NFL metrics or all header/pager control marks. Raw oracle covers the full roster; REST exports cover only requested pages.",
+          "parameters": {
+            "pHeader MeasureNames ": "Measure2",
+            "pHeader Position": "P"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-next-page-yards-ascending.csv",
+          "sha256": "e2fdc13c0db97b614b12c87c318f80a86ebc0cdedf0d19510f85c2c337aa949e",
+          "bytes": 45
+        },
+        {
+          "role": "replica",
+          "view": "Table",
+          "view_id": "3f817064-4041-46f0-a275-66413b51ee2d",
+          "scope": "Complete requested page of all four NFL metrics or all header/pager control marks. Raw oracle covers the full roster; REST exports cover only requested pages.",
+          "parameters": {
+            "pHeader MeasureNames ": "Measure2",
+            "pHeader Position": "P"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-table-yards-ascending.csv",
+          "sha256": "4c635f66098a61eccd47424a2383dec70f5a5572d28af53fb82d8e59c641d2de",
+          "bytes": 1258
+        },
+        {
+          "role": "replica",
+          "view": "Header",
+          "view_id": "321b11f3-e859-44c5-8417-161f9f2c15b8",
+          "scope": "Complete requested page of all four NFL metrics or all header/pager control marks. Raw oracle covers the full roster; REST exports cover only requested pages.",
+          "parameters": {
+            "pHeader MeasureNames ": "Measure2",
+            "pHeader Position": "P"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-header-yards-ascending.csv",
+          "sha256": "251d7808f8b15d0891801a96fb7881b77a8ebce4e265612e1a3598fb6e4effcb",
+          "bytes": 984
+        },
+        {
+          "role": "replica",
+          "view": "Prev Page",
+          "view_id": "7435c100-15a3-46e8-8604-50bff4a54aad",
+          "scope": "Complete requested page of all four NFL metrics or all header/pager control marks. Raw oracle covers the full roster; REST exports cover only requested pages.",
+          "parameters": {
+            "pHeader MeasureNames ": "Measure2",
+            "pHeader Position": "P"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-prev-page-yards-ascending.csv",
+          "sha256": "9db18d0f476e2d5a880b04fd056e9a65685826ef63ea43ba3f30b489808f37d5",
+          "bytes": 69
+        },
+        {
+          "role": "replica",
+          "view": "Curr Page",
+          "view_id": "b6aeb8c0-6e84-4444-a8f6-3f528d47324c",
+          "scope": "Complete requested page of all four NFL metrics or all header/pager control marks. Raw oracle covers the full roster; REST exports cover only requested pages.",
+          "parameters": {
+            "pHeader MeasureNames ": "Measure2",
+            "pHeader Position": "P"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-curr-page-yards-ascending.csv",
+          "sha256": "8972e476f9b5082fda1391b23371c6bd610be751108f612564604405e9e61284",
+          "bytes": 43
+        },
+        {
+          "role": "replica",
+          "view": "Next Page",
+          "view_id": "8beac5ae-e80b-4bed-8a94-cb44a2668d48",
+          "scope": "Complete requested page of all four NFL metrics or all header/pager control marks. Raw oracle covers the full roster; REST exports cover only requested pages.",
+          "parameters": {
+            "pHeader MeasureNames ": "Measure2",
+            "pHeader Position": "P"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-next-page-yards-ascending.csv",
+          "sha256": "0423f00dd3ce9c9f6e15e6ef1f614646b7645d3a8dbacb8854cf65991a055ca6",
+          "bytes": 64
+        }
+      ]
+    },
+    {
+      "name": "average-descending",
+      "parameters": {
+        "pHeader MeasureNames ": "Measure3",
+        "pHeader Position": "FB"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "7bb8ca37-5f71-4793-86cf-cf1e67cadc67",
+          "name": "2020_09_30_WW40_NFLStats_Table_Layout",
+          "path": "outputs/cloud-author-average-descending.png",
+          "sha256": "73418de9ba8804ec0b4f0fa097561504af0f881b3426074c20d97c63abec6a01",
+          "size": [
+            1800,
+            1200
+          ]
+        },
+        "replica": {
+          "id": "ed425a28-0838-4cd2-ac24-c67c698a5856",
+          "name": "2020_09_30_WW40_NFLStats_Table_Layout",
+          "path": "outputs/cloud-replica-average-descending.png",
+          "sha256": "2733a2f2d4e0b464ac7ad36168b6d512c157b75a9074c455979e245585160eac",
+          "size": [
+            1800,
+            1200
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Table",
+          "view_id": "80180055-c678-43c0-9599-50ca66ec7a28",
+          "scope": "Complete requested page of all four NFL metrics or all header/pager control marks. Raw oracle covers the full roster; REST exports cover only requested pages.",
+          "parameters": {
+            "pHeader MeasureNames ": "Measure3",
+            "pHeader Position": "FB"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-table-average-descending.csv",
+          "sha256": "9f28d4da7f716a667efb17355cbf2c9b8428a827b3b2dea02dc6853c3a25bba7",
+          "bytes": 1203
+        },
+        {
+          "role": "author",
+          "view": "Header",
+          "view_id": "126a35a7-56a1-40ad-aa63-8417c8b688cf",
+          "scope": "Complete requested page of all four NFL metrics or all header/pager control marks. Raw oracle covers the full roster; REST exports cover only requested pages.",
+          "parameters": {
+            "pHeader MeasureNames ": "Measure3",
+            "pHeader Position": "FB"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-header-average-descending.csv",
+          "sha256": "2c9cc9a7795192f933e9fa4b4414ec8c750a5383dc305cb8b2dbec3fc1b56f62",
+          "bytes": 1186
+        },
+        {
+          "role": "author",
+          "view": "Prev Page",
+          "view_id": "4723bfee-59bf-4888-aabb-dfc67cadede7",
+          "scope": "Complete requested page of all four NFL metrics or all header/pager control marks. Raw oracle covers the full roster; REST exports cover only requested pages.",
+          "parameters": {
+            "pHeader MeasureNames ": "Measure3",
+            "pHeader Position": "FB"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-prev-page-average-descending.csv",
+          "sha256": "35e32bf2419a245c772d72659454478243d5401b5383d7bd4d04ffef8da24f81",
+          "bytes": 46
+        },
+        {
+          "role": "author",
+          "view": "Curr Page",
+          "view_id": "6221e87c-81bb-4da3-a491-21920033ead6",
+          "scope": "Complete requested page of all four NFL metrics or all header/pager control marks. Raw oracle covers the full roster; REST exports cover only requested pages.",
+          "parameters": {
+            "pHeader MeasureNames ": "Measure3",
+            "pHeader Position": "FB"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-curr-page-average-descending.csv",
+          "sha256": "e02a0fedd70795cd7dac7ccaaebff01c614d6fe46dab914ccac40546d99109fa",
+          "bytes": 33
+        },
+        {
+          "role": "author",
+          "view": "Next Page",
+          "view_id": "b430999e-ad1e-4c90-9a5f-eaa019e612c6",
+          "scope": "Complete requested page of all four NFL metrics or all header/pager control marks. Raw oracle covers the full roster; REST exports cover only requested pages.",
+          "parameters": {
+            "pHeader MeasureNames ": "Measure3",
+            "pHeader Position": "FB"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-next-page-average-descending.csv",
+          "sha256": "e2fdc13c0db97b614b12c87c318f80a86ebc0cdedf0d19510f85c2c337aa949e",
+          "bytes": 45
+        },
+        {
+          "role": "replica",
+          "view": "Table",
+          "view_id": "3f817064-4041-46f0-a275-66413b51ee2d",
+          "scope": "Complete requested page of all four NFL metrics or all header/pager control marks. Raw oracle covers the full roster; REST exports cover only requested pages.",
+          "parameters": {
+            "pHeader MeasureNames ": "Measure3",
+            "pHeader Position": "FB"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-table-average-descending.csv",
+          "sha256": "325a12b38a4b4c7c05a0cb95f0dbed974dc2ac7aeb25e27fd9fdb6c0d5637411",
+          "bytes": 1203
+        },
+        {
+          "role": "replica",
+          "view": "Header",
+          "view_id": "321b11f3-e859-44c5-8417-161f9f2c15b8",
+          "scope": "Complete requested page of all four NFL metrics or all header/pager control marks. Raw oracle covers the full roster; REST exports cover only requested pages.",
+          "parameters": {
+            "pHeader MeasureNames ": "Measure3",
+            "pHeader Position": "FB"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-header-average-descending.csv",
+          "sha256": "f2fd6ec18a36126cbbc4dac7b242d33af0f48449b4342cd0a392cfafd3501e2f",
+          "bytes": 984
+        },
+        {
+          "role": "replica",
+          "view": "Prev Page",
+          "view_id": "7435c100-15a3-46e8-8604-50bff4a54aad",
+          "scope": "Complete requested page of all four NFL metrics or all header/pager control marks. Raw oracle covers the full roster; REST exports cover only requested pages.",
+          "parameters": {
+            "pHeader MeasureNames ": "Measure3",
+            "pHeader Position": "FB"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-prev-page-average-descending.csv",
+          "sha256": "9db18d0f476e2d5a880b04fd056e9a65685826ef63ea43ba3f30b489808f37d5",
+          "bytes": 69
+        },
+        {
+          "role": "replica",
+          "view": "Curr Page",
+          "view_id": "b6aeb8c0-6e84-4444-a8f6-3f528d47324c",
+          "scope": "Complete requested page of all four NFL metrics or all header/pager control marks. Raw oracle covers the full roster; REST exports cover only requested pages.",
+          "parameters": {
+            "pHeader MeasureNames ": "Measure3",
+            "pHeader Position": "FB"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-curr-page-average-descending.csv",
+          "sha256": "8972e476f9b5082fda1391b23371c6bd610be751108f612564604405e9e61284",
+          "bytes": 43
+        },
+        {
+          "role": "replica",
+          "view": "Next Page",
+          "view_id": "8beac5ae-e80b-4bed-8a94-cb44a2668d48",
+          "scope": "Complete requested page of all four NFL metrics or all header/pager control marks. Raw oracle covers the full roster; REST exports cover only requested pages.",
+          "parameters": {
+            "pHeader MeasureNames ": "Measure3",
+            "pHeader Position": "FB"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-next-page-average-descending.csv",
+          "sha256": "0423f00dd3ce9c9f6e15e6ef1f614646b7645d3a8dbacb8854cf65991a055ca6",
+          "bytes": 64
+        }
+      ]
+    },
+    {
+      "name": "touchdowns-last-page",
+      "parameters": {
+        "pHeader MeasureNames ": "Measure4",
+        "pHeader Position": "FB",
+        "pPage No": "56"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "7bb8ca37-5f71-4793-86cf-cf1e67cadc67",
+          "name": "2020_09_30_WW40_NFLStats_Table_Layout",
+          "path": "outputs/cloud-author-touchdowns-last-page.png",
+          "sha256": "63fd8b58b6fbaab3252c6876a8aa6ba4fab0586c6aa7eb70000b0c8bb9a71e21",
+          "size": [
+            1800,
+            1200
+          ]
+        },
+        "replica": {
+          "id": "ed425a28-0838-4cd2-ac24-c67c698a5856",
+          "name": "2020_09_30_WW40_NFLStats_Table_Layout",
+          "path": "outputs/cloud-replica-touchdowns-last-page.png",
+          "sha256": "fb6e660748d799fc3078d4959d87e1190eeba3622b65a4dfc1c9b6bb2755997c",
+          "size": [
+            1800,
+            1200
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Table",
+          "view_id": "80180055-c678-43c0-9599-50ca66ec7a28",
+          "scope": "Complete requested page of all four NFL metrics or all header/pager control marks. Raw oracle covers the full roster; REST exports cover only requested pages.",
+          "parameters": {
+            "pHeader MeasureNames ": "Measure4",
+            "pHeader Position": "FB",
+            "pPage No": "56"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-table-touchdowns-last-page.csv",
+          "sha256": "f3f8a690fc18815f9097b588b9d207884ab4627c9ddb258ae31af03fd1b30e93",
+          "bytes": 764
+        },
+        {
+          "role": "author",
+          "view": "Header",
+          "view_id": "126a35a7-56a1-40ad-aa63-8417c8b688cf",
+          "scope": "Complete requested page of all four NFL metrics or all header/pager control marks. Raw oracle covers the full roster; REST exports cover only requested pages.",
+          "parameters": {
+            "pHeader MeasureNames ": "Measure4",
+            "pHeader Position": "FB",
+            "pPage No": "56"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-header-touchdowns-last-page.csv",
+          "sha256": "db154bb69bb98b8fa8a0bc0e66c3ec2ac2b4b990c8f22e635ccfa05c5ce73931",
+          "bytes": 1186
+        },
+        {
+          "role": "author",
+          "view": "Prev Page",
+          "view_id": "4723bfee-59bf-4888-aabb-dfc67cadede7",
+          "scope": "Complete requested page of all four NFL metrics or all header/pager control marks. Raw oracle covers the full roster; REST exports cover only requested pages.",
+          "parameters": {
+            "pHeader MeasureNames ": "Measure4",
+            "pHeader Position": "FB",
+            "pPage No": "56"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-prev-page-touchdowns-last-page.csv",
+          "sha256": "f2189e36be89b6771b72fd7523e2a38ff0ea7d1b1bb69a6dac04a4802647f352",
+          "bytes": 47
+        },
+        {
+          "role": "author",
+          "view": "Curr Page",
+          "view_id": "6221e87c-81bb-4da3-a491-21920033ead6",
+          "scope": "Complete requested page of all four NFL metrics or all header/pager control marks. Raw oracle covers the full roster; REST exports cover only requested pages.",
+          "parameters": {
+            "pHeader MeasureNames ": "Measure4",
+            "pHeader Position": "FB",
+            "pPage No": "56"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-curr-page-touchdowns-last-page.csv",
+          "sha256": "6fe98cb63038fdbb1a1359164bb8be546c14ca6eb0bb9b39153d96ddc05eb9ea",
+          "bytes": 34
+        },
+        {
+          "role": "author",
+          "view": "Next Page",
+          "view_id": "b430999e-ad1e-4c90-9a5f-eaa019e612c6",
+          "scope": "Complete requested page of all four NFL metrics or all header/pager control marks. Raw oracle covers the full roster; REST exports cover only requested pages.",
+          "parameters": {
+            "pHeader MeasureNames ": "Measure4",
+            "pHeader Position": "FB",
+            "pPage No": "56"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-next-page-touchdowns-last-page.csv",
+          "sha256": "0a26a4e10307ff798bad8f3edbb8c851490317d27a1d5440e9946b3fbdd1cedd",
+          "bytes": 46
+        },
+        {
+          "role": "replica",
+          "view": "Table",
+          "view_id": "3f817064-4041-46f0-a275-66413b51ee2d",
+          "scope": "Complete requested page of all four NFL metrics or all header/pager control marks. Raw oracle covers the full roster; REST exports cover only requested pages.",
+          "parameters": {
+            "pHeader MeasureNames ": "Measure4",
+            "pHeader Position": "FB",
+            "pPage No": "56"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-table-touchdowns-last-page.csv",
+          "sha256": "1042c8478d5ae8138bb8c15be50ab80f32e574cc9d5731cafdb526bd3f796b2e",
+          "bytes": 764
+        },
+        {
+          "role": "replica",
+          "view": "Header",
+          "view_id": "321b11f3-e859-44c5-8417-161f9f2c15b8",
+          "scope": "Complete requested page of all four NFL metrics or all header/pager control marks. Raw oracle covers the full roster; REST exports cover only requested pages.",
+          "parameters": {
+            "pHeader MeasureNames ": "Measure4",
+            "pHeader Position": "FB",
+            "pPage No": "56"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-header-touchdowns-last-page.csv",
+          "sha256": "eb60d53668c9de7b1cc45c2cc93468d71f7e65c63c0f7f3a4a840a89da186749",
+          "bytes": 984
+        },
+        {
+          "role": "replica",
+          "view": "Prev Page",
+          "view_id": "7435c100-15a3-46e8-8604-50bff4a54aad",
+          "scope": "Complete requested page of all four NFL metrics or all header/pager control marks. Raw oracle covers the full roster; REST exports cover only requested pages.",
+          "parameters": {
+            "pHeader MeasureNames ": "Measure4",
+            "pHeader Position": "FB",
+            "pPage No": "56"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-prev-page-touchdowns-last-page.csv",
+          "sha256": "68807bfa5a804b1cff6b99cfac19cf44bc96d079b208892e87344d4366b809f2",
+          "bytes": 70
+        },
+        {
+          "role": "replica",
+          "view": "Curr Page",
+          "view_id": "b6aeb8c0-6e84-4444-a8f6-3f528d47324c",
+          "scope": "Complete requested page of all four NFL metrics or all header/pager control marks. Raw oracle covers the full roster; REST exports cover only requested pages.",
+          "parameters": {
+            "pHeader MeasureNames ": "Measure4",
+            "pHeader Position": "FB",
+            "pPage No": "56"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-curr-page-touchdowns-last-page.csv",
+          "sha256": "c76276faa8c79742ac14698639dc44eda75b77040825810eabd549e32b87c2e0",
+          "bytes": 44
+        },
+        {
+          "role": "replica",
+          "view": "Next Page",
+          "view_id": "8beac5ae-e80b-4bed-8a94-cb44a2668d48",
+          "scope": "Complete requested page of all four NFL metrics or all header/pager control marks. Raw oracle covers the full roster; REST exports cover only requested pages.",
+          "parameters": {
+            "pHeader MeasureNames ": "Measure4",
+            "pHeader Position": "FB",
+            "pPage No": "56"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-next-page-touchdowns-last-page.csv",
+          "sha256": "678c1206468d28bd7f1575ea372332d073e72d27718f2cfd254b6169a4650f02",
+          "bytes": 65
+        }
+      ]
+    }
+  ],
+  "status": "verified",
+  "independent_review": {
+    "visual_status": "acceptable_delta",
+    "visual_evidence": "evidence/visual-review.md",
+    "functional_evidence": "evidence/functional-verification.json",
+    "scope": "Declared REST worksheet exports and artifact contracts; no browser events executed."
+  }
+}

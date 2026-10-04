@@ -1,0 +1,9 @@
+{
+  "case_id": "2020-08-12-ww33-connected-profit-quantity-scatter",
+  "sdk_commit": "eb1380d5da9c1b1bf1b306128cb8397150ba1a53",
+  "builder_sha256": "51e32d73cd5c3ab8a47e318a8dc3007db611d172e391bfb8d7f42090c43cd985",
+  "builder_hash_scope": "UTF-8 source text with universal newlines normalized to LF",
+  "result": "passed",
+  "initial_workbooks_available": 0,
+  "scope": "Copied only builder/verifier, metadata and locked inputs. Built from TWBEditor empty, then ran independent raw-data/artifact oracle without copied Cloud evidence or author workbooks."
+}

@@ -1,0 +1,414 @@
+{
+  "case_id": "wow-2020-ww38-daily-weekly-sales",
+  "captured_at": "2026-10-04T08:13:13.530345+00:00",
+  "source_hashes": {
+    "author": "e0b40fc514118f9452a43557ff883d56e59ab12011f9cdfd3d855a349b10ff64",
+    "replica": "56426ee86c1e6680cf43c17ee5de9c74c000e41df864eda29ffeb9d9d12b638b"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "92c51be8-dd9b-45e9-96cd-4cc308536a5d",
+      "name": "cwtwb-review-wow-2020-ww38-daily-weekly-sales-author-e0b40fc51411",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2934714",
+      "views": [
+        {
+          "name": "2020_09_16_WW38_Daily_Weekly_Sales",
+          "id": "bfdb568e-3f52-4ea4-ab4d-b8872a6b73ad"
+        },
+        {
+          "name": "CHK:Daily Data",
+          "id": "c6d0e303-0eea-488f-a54b-2a52c2364599"
+        },
+        {
+          "name": "CHK:Weekly Data",
+          "id": "821875bd-8bf5-41c6-a1ae-680fb9bf87c6"
+        },
+        {
+          "name": "Viz-Part1",
+          "id": "b4874d98-3238-4793-ab1c-33b49119d882"
+        },
+        {
+          "name": "Viz-Part2",
+          "id": "ecd0c4a8-9dd0-4154-9937-368b97b23044"
+        },
+        {
+          "name": "Viz",
+          "id": "91044fe2-6b20-413a-9773-80b69bf45a58"
+        }
+      ]
+    },
+    "replica": {
+      "id": "5394fd60-8679-4ec9-8e84-14d2ab58c407",
+      "name": "cwtwb-review-wow-2020-ww38-daily-weekly-sales-replica-56426ee86c1e",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2934760",
+      "views": [
+        {
+          "name": "Viz",
+          "id": "cd512a0b-fbe9-43bc-b4b4-22c2f220585a"
+        },
+        {
+          "name": "CHK:Daily Data",
+          "id": "3d475c82-bda8-4050-8327-dcb2bb9a9f8a"
+        },
+        {
+          "name": "CHK:Weekly Data",
+          "id": "dc63a307-926a-45dd-9d91-ecc6de8b71d7"
+        },
+        {
+          "name": "2020_09_16_WW38_Daily_Weekly_Sales",
+          "id": "2c367aca-da48-4599-9f38-619571f7b82a"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "bfdb568e-3f52-4ea4-ab4d-b8872a6b73ad",
+          "name": "2020_09_16_WW38_Daily_Weekly_Sales",
+          "path": "outputs/cloud-author.png",
+          "sha256": "1377d4a90a50d3a40232286ff2b2276c9e66d11d60c00a387dcdee010d9c1f43",
+          "size": [
+            3200,
+            1800
+          ]
+        },
+        "replica": {
+          "id": "2c367aca-da48-4599-9f38-619571f7b82a",
+          "name": "2020_09_16_WW38_Daily_Weekly_Sales",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "5b0017b9c9b37ebb063535c5c7869f4818f22cef2867bff8dc8bcafb980373d5",
+          "size": [
+            3200,
+            1800
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Viz",
+          "view_id": "91044fe2-6b20-413a-9773-80b69bf45a58",
+          "scope": "Complete main worksheet daily and weekly aggregate marks for selected Event Group; tooltip fields supply sales and weekly cumulative percentage.",
+          "path": "outputs/cloud-author-viz.csv",
+          "sha256": "bca54d9c1f642a805d0bd8ba04a80cb9d06739c2955982b656854fad68c9009c",
+          "bytes": 335307
+        },
+        {
+          "role": "author",
+          "view": "CHK:Daily Data",
+          "view_id": "c6d0e303-0eea-488f-a54b-2a52c2364599",
+          "scope": "Original diagnostic is explicitly restricted to 2019 EVENT #1,2020 EVENT #1,2020 EVENT #6; this CSV does not prove all activities.",
+          "path": "outputs/cloud-author-daily.csv",
+          "sha256": "cf5efd562f945deeb5119c98a79c80c2fc198e04a05d02e683eda092e34c32e4",
+          "bytes": 70229
+        },
+        {
+          "role": "author",
+          "view": "CHK:Weekly Data",
+          "view_id": "821875bd-8bf5-41c6-a1ae-680fb9bf87c6",
+          "scope": "Original diagnostic is explicitly restricted to 2020 EVENT #6; complete other activities are checked via Viz and independent raw-data oracle.",
+          "path": "outputs/cloud-author-weekly.csv",
+          "sha256": "cc279bd1552170168b057a0a093930e482dbd26137d4d16b9c814474376a6475",
+          "bytes": 18452
+        },
+        {
+          "role": "replica",
+          "view": "Viz",
+          "view_id": "cd512a0b-fbe9-43bc-b4b4-22c2f220585a",
+          "scope": "Complete main worksheet daily and weekly aggregate marks for selected Event Group; tooltip fields supply sales and weekly cumulative percentage.",
+          "path": "outputs/cloud-replica-viz.csv",
+          "sha256": "49198fa484964375846cb17d83c6b15571b6184e004bc7df93f16f0ae7ed6817",
+          "bytes": 352524
+        },
+        {
+          "role": "replica",
+          "view": "CHK:Daily Data",
+          "view_id": "3d475c82-bda8-4050-8327-dcb2bb9a9f8a",
+          "scope": "Original diagnostic is explicitly restricted to 2019 EVENT #1,2020 EVENT #1,2020 EVENT #6; this CSV does not prove all activities.",
+          "path": "outputs/cloud-replica-daily.csv",
+          "sha256": "d4d5ea86058f73aca9a9b842cbb409d7f15566805967f205bfc496f0d7ee23b2",
+          "bytes": 46950
+        },
+        {
+          "role": "replica",
+          "view": "CHK:Weekly Data",
+          "view_id": "dc63a307-926a-45dd-9d91-ecc6de8b71d7",
+          "scope": "Original diagnostic is explicitly restricted to 2020 EVENT #6; complete other activities are checked via Viz and independent raw-data oracle.",
+          "path": "outputs/cloud-replica-weekly.csv",
+          "sha256": "0bb217cd3978830938845276f90c82b813b192b5ad00d8fcdf06565066faa753",
+          "bytes": 19622
+        }
+      ]
+    },
+    {
+      "name": "yoy",
+      "parameters": {
+        "Comparison": "YoY Event"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "bfdb568e-3f52-4ea4-ab4d-b8872a6b73ad",
+          "name": "2020_09_16_WW38_Daily_Weekly_Sales",
+          "path": "outputs/cloud-author-yoy.png",
+          "sha256": "66f27bbbb20a7f06dc6fc24bb66803307e6d88d79813a9f57a0e1bdad9e10db1",
+          "size": [
+            3200,
+            1800
+          ]
+        },
+        "replica": {
+          "id": "2c367aca-da48-4599-9f38-619571f7b82a",
+          "name": "2020_09_16_WW38_Daily_Weekly_Sales",
+          "path": "outputs/cloud-replica-yoy.png",
+          "sha256": "1734df9ed6492ebd1c289f1d3714c5e32e3ad230c20a031c3b182651b1380572",
+          "size": [
+            3200,
+            1800
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Viz",
+          "view_id": "91044fe2-6b20-413a-9773-80b69bf45a58",
+          "scope": "Complete main worksheet daily and weekly aggregate marks for selected Event Group; tooltip fields supply sales and weekly cumulative percentage.",
+          "path": "outputs/cloud-author-viz-yoy.csv",
+          "sha256": "d795a757ce9e580ccae71b632a040ee192650bc33729ec864d87dd45774096ca",
+          "bytes": 323355
+        },
+        {
+          "role": "author",
+          "view": "CHK:Daily Data",
+          "view_id": "c6d0e303-0eea-488f-a54b-2a52c2364599",
+          "scope": "Original diagnostic is explicitly restricted to 2019 EVENT #1,2020 EVENT #1,2020 EVENT #6; this CSV does not prove all activities.",
+          "path": "outputs/cloud-author-daily-yoy.csv",
+          "sha256": "aabab19d674224b4d91193c4d2291e92701ae01c5a309bf79a0148021b32db0d",
+          "bytes": 67947
+        },
+        {
+          "role": "author",
+          "view": "CHK:Weekly Data",
+          "view_id": "821875bd-8bf5-41c6-a1ae-680fb9bf87c6",
+          "scope": "Original diagnostic is explicitly restricted to 2020 EVENT #6; complete other activities are checked via Viz and independent raw-data oracle.",
+          "path": "outputs/cloud-author-weekly-yoy.csv",
+          "sha256": "cc279bd1552170168b057a0a093930e482dbd26137d4d16b9c814474376a6475",
+          "bytes": 18452
+        },
+        {
+          "role": "replica",
+          "view": "Viz",
+          "view_id": "cd512a0b-fbe9-43bc-b4b4-22c2f220585a",
+          "scope": "Complete main worksheet daily and weekly aggregate marks for selected Event Group; tooltip fields supply sales and weekly cumulative percentage.",
+          "path": "outputs/cloud-replica-viz-yoy.csv",
+          "sha256": "efc6de46d5f521e11ae128cee04a7fca4763884101a6d18c75c7730cde6522c2",
+          "bytes": 340572
+        },
+        {
+          "role": "replica",
+          "view": "CHK:Daily Data",
+          "view_id": "3d475c82-bda8-4050-8327-dcb2bb9a9f8a",
+          "scope": "Original diagnostic is explicitly restricted to 2019 EVENT #1,2020 EVENT #1,2020 EVENT #6; this CSV does not prove all activities.",
+          "path": "outputs/cloud-replica-daily-yoy.csv",
+          "sha256": "d4d5ea86058f73aca9a9b842cbb409d7f15566805967f205bfc496f0d7ee23b2",
+          "bytes": 46950
+        },
+        {
+          "role": "replica",
+          "view": "CHK:Weekly Data",
+          "view_id": "dc63a307-926a-45dd-9d91-ecc6de8b71d7",
+          "scope": "Original diagnostic is explicitly restricted to 2020 EVENT #6; complete other activities are checked via Viz and independent raw-data oracle.",
+          "path": "outputs/cloud-replica-weekly-yoy.csv",
+          "sha256": "0bb217cd3978830938845276f90c82b813b192b5ad00d8fcdf06565066faa753",
+          "bytes": 19622
+        }
+      ]
+    },
+    {
+      "name": "spring",
+      "parameters": {
+        "Event Group": "1"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "bfdb568e-3f52-4ea4-ab4d-b8872a6b73ad",
+          "name": "2020_09_16_WW38_Daily_Weekly_Sales",
+          "path": "outputs/cloud-author-spring.png",
+          "sha256": "5817d07d524d11742627cc4f47afdf03ecf26e0748bc5b25bb0a4fe1aaa0a85c",
+          "size": [
+            3200,
+            1800
+          ]
+        },
+        "replica": {
+          "id": "2c367aca-da48-4599-9f38-619571f7b82a",
+          "name": "2020_09_16_WW38_Daily_Weekly_Sales",
+          "path": "outputs/cloud-replica-spring.png",
+          "sha256": "ff5e9fdabf4ce47b5ad79e8bd3d411182dedcf5cd720b1fe6574978e716acaa7",
+          "size": [
+            3200,
+            1800
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Viz",
+          "view_id": "91044fe2-6b20-413a-9773-80b69bf45a58",
+          "scope": "Complete main worksheet daily and weekly aggregate marks for selected Event Group; tooltip fields supply sales and weekly cumulative percentage.",
+          "path": "outputs/cloud-author-viz-spring.csv",
+          "sha256": "66a5ba338802a52ced874e8259139ecaf7db550fa63506077505c052aec0d2c1",
+          "bytes": 115906
+        },
+        {
+          "role": "author",
+          "view": "CHK:Daily Data",
+          "view_id": "c6d0e303-0eea-488f-a54b-2a52c2364599",
+          "scope": "Original diagnostic is explicitly restricted to 2019 EVENT #1,2020 EVENT #1,2020 EVENT #6; this CSV does not prove all activities.",
+          "path": "outputs/cloud-author-daily-spring.csv",
+          "sha256": "0ea340c7b15b33b879399e0be7ee5c30b3fb3473f3485a51708a7851129b5ae1",
+          "bytes": 70775
+        },
+        {
+          "role": "author",
+          "view": "CHK:Weekly Data",
+          "view_id": "821875bd-8bf5-41c6-a1ae-680fb9bf87c6",
+          "scope": "Original diagnostic is explicitly restricted to 2020 EVENT #6; complete other activities are checked via Viz and independent raw-data oracle.",
+          "path": "outputs/cloud-author-weekly-spring.csv",
+          "sha256": "cc279bd1552170168b057a0a093930e482dbd26137d4d16b9c814474376a6475",
+          "bytes": 18452
+        },
+        {
+          "role": "replica",
+          "view": "Viz",
+          "view_id": "cd512a0b-fbe9-43bc-b4b4-22c2f220585a",
+          "scope": "Complete main worksheet daily and weekly aggregate marks for selected Event Group; tooltip fields supply sales and weekly cumulative percentage.",
+          "path": "outputs/cloud-replica-viz-spring.csv",
+          "sha256": "66585348204257643d9ce06d34d28562efb2c346f9c46aea2237291bd24b1d6f",
+          "bytes": 120968
+        },
+        {
+          "role": "replica",
+          "view": "CHK:Daily Data",
+          "view_id": "3d475c82-bda8-4050-8327-dcb2bb9a9f8a",
+          "scope": "Original diagnostic is explicitly restricted to 2019 EVENT #1,2020 EVENT #1,2020 EVENT #6; this CSV does not prove all activities.",
+          "path": "outputs/cloud-replica-daily-spring.csv",
+          "sha256": "d4d5ea86058f73aca9a9b842cbb409d7f15566805967f205bfc496f0d7ee23b2",
+          "bytes": 46950
+        },
+        {
+          "role": "replica",
+          "view": "CHK:Weekly Data",
+          "view_id": "dc63a307-926a-45dd-9d91-ecc6de8b71d7",
+          "scope": "Original diagnostic is explicitly restricted to 2020 EVENT #6; complete other activities are checked via Viz and independent raw-data oracle.",
+          "path": "outputs/cloud-replica-weekly-spring.csv",
+          "sha256": "0bb217cd3978830938845276f90c82b813b192b5ad00d8fcdf06565066faa753",
+          "bytes": 19622
+        }
+      ]
+    },
+    {
+      "name": "fall-yoy",
+      "parameters": {
+        "Event Group": "2",
+        "Comparison": "YoY Event"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "bfdb568e-3f52-4ea4-ab4d-b8872a6b73ad",
+          "name": "2020_09_16_WW38_Daily_Weekly_Sales",
+          "path": "outputs/cloud-author-fall-yoy.png",
+          "sha256": "5997a69fa633b06935507cbfd6acc7dbaa74b19de7a14fa0af8d9f732743275f",
+          "size": [
+            3200,
+            1800
+          ]
+        },
+        "replica": {
+          "id": "2c367aca-da48-4599-9f38-619571f7b82a",
+          "name": "2020_09_16_WW38_Daily_Weekly_Sales",
+          "path": "outputs/cloud-replica-fall-yoy.png",
+          "sha256": "4f8bba1bceb0e63c39b5630200637a5d424f8fe7f692501d0c39e9276012fb6c",
+          "size": [
+            3200,
+            1800
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Viz",
+          "view_id": "91044fe2-6b20-413a-9773-80b69bf45a58",
+          "scope": "Complete main worksheet daily and weekly aggregate marks for selected Event Group; tooltip fields supply sales and weekly cumulative percentage.",
+          "path": "outputs/cloud-author-viz-fall-yoy.csv",
+          "sha256": "a55d0dad2e69f7ef0a0c03d6fdae0cf860adde4be0622e87f0f1a0319c843091",
+          "bytes": 201919
+        },
+        {
+          "role": "author",
+          "view": "CHK:Daily Data",
+          "view_id": "c6d0e303-0eea-488f-a54b-2a52c2364599",
+          "scope": "Original diagnostic is explicitly restricted to 2019 EVENT #1,2020 EVENT #1,2020 EVENT #6; this CSV does not prove all activities.",
+          "path": "outputs/cloud-author-daily-fall-yoy.csv",
+          "sha256": "1affa6604b1aa4a79c3a8d7e2cc0d2c580156710cc35daab71c0de65a7c362c9",
+          "bytes": 68542
+        },
+        {
+          "role": "author",
+          "view": "CHK:Weekly Data",
+          "view_id": "821875bd-8bf5-41c6-a1ae-680fb9bf87c6",
+          "scope": "Original diagnostic is explicitly restricted to 2020 EVENT #6; complete other activities are checked via Viz and independent raw-data oracle.",
+          "path": "outputs/cloud-author-weekly-fall-yoy.csv",
+          "sha256": "cc279bd1552170168b057a0a093930e482dbd26137d4d16b9c814474376a6475",
+          "bytes": 18452
+        },
+        {
+          "role": "replica",
+          "view": "Viz",
+          "view_id": "cd512a0b-fbe9-43bc-b4b4-22c2f220585a",
+          "scope": "Complete main worksheet daily and weekly aggregate marks for selected Event Group; tooltip fields supply sales and weekly cumulative percentage.",
+          "path": "outputs/cloud-replica-viz-fall-yoy.csv",
+          "sha256": "bfe4f6aa37aa11d26e24df5dd007fc11c615c20397dea2ebd870b2b44fe305ae",
+          "bytes": 211423
+        },
+        {
+          "role": "replica",
+          "view": "CHK:Daily Data",
+          "view_id": "3d475c82-bda8-4050-8327-dcb2bb9a9f8a",
+          "scope": "Original diagnostic is explicitly restricted to 2019 EVENT #1,2020 EVENT #1,2020 EVENT #6; this CSV does not prove all activities.",
+          "path": "outputs/cloud-replica-daily-fall-yoy.csv",
+          "sha256": "d4d5ea86058f73aca9a9b842cbb409d7f15566805967f205bfc496f0d7ee23b2",
+          "bytes": 46950
+        },
+        {
+          "role": "replica",
+          "view": "CHK:Weekly Data",
+          "view_id": "dc63a307-926a-45dd-9d91-ecc6de8b71d7",
+          "scope": "Original diagnostic is explicitly restricted to 2020 EVENT #6; complete other activities are checked via Viz and independent raw-data oracle.",
+          "path": "outputs/cloud-replica-weekly-fall-yoy.csv",
+          "sha256": "0bb217cd3978830938845276f90c82b813b192b5ad00d8fcdf06565066faa753",
+          "bytes": 19622
+        }
+      ]
+    }
+  ],
+  "status": "verified",
+  "independent_review": {
+    "visual_status": "acceptable_delta",
+    "visual_evidence": "evidence/visual-review.md",
+    "functional_evidence": "evidence/functional-verification.json",
+    "scope": "Declared REST worksheet exports and artifact contracts; no browser events executed."
+  }
+}

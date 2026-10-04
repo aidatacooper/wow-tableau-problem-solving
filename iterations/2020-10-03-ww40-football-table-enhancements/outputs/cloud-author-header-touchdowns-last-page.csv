@@ -1,0 +1,13 @@
+"""Player ID""",false,First Page No,Measure Names,Measure Rows,Measure Rows,Measure1 | tf,Measure1 |Off,Measure1 |On,Measure2 | tf,Measure2 |Off,Measure2 |On,Measure3 | tf,Measure3 |Off,Measure3 |On,Measure4 | tf,Measure4 |Off,Measure4 |On,Position,true,Measure1,Measure2,Measure3,Measure4,Tooltip - Sort
+Player ID,False,1,Measure2,-1,-1,,,,False,,,,,,,,,FB,True,,0,,,Sort Descending
+Player ID,False,1,Measure2,0,0,,,,False,Yards,,,,,,,,H,True,,0,,,
+Player ID,False,1,Measure2,1,1,,,,False,,,,,,,,,P,True,,0,,,Sort Ascending
+Player ID,False,1,Measure3,-1,-1,,,,,,,False,,,,,,FB,True,,,0,,Sort Descending
+Player ID,False,1,Measure3,0,0,,,,,,,False,Avg YPC,,,,,H,True,,,0,,
+Player ID,False,1,Measure3,1,1,,,,,,,False,,,,,,P,True,,,0,,Sort Ascending
+Player ID,False,1,Measure1,-1,-1,False,,,,,,,,,,,,FB,True,0,,,,Sort Descending
+Player ID,False,1,Measure1,0,0,False,Carries,,,,,,,,,,,H,True,0,,,,
+Player ID,False,1,Measure1,1,1,False,,,,,,,,,,,,P,True,0,,,,Sort Ascending
+Player ID,False,1,Measure4,-1,-1,,,,,,,,,,True,,,FB,True,,,,0,Sort Descending
+Player ID,False,1,Measure4,0,0,,,,,,,,,,False,,TDs,H,True,,,,0,
+Player ID,False,1,Measure4,1,1,,,,,,,,,,False,,,P,True,,,,0,Sort Ascending

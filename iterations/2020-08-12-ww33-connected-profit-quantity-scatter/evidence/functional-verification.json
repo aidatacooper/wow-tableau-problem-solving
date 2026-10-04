@@ -1,0 +1,50 @@
+{
+  "passed": true,
+  "artifact_sha256": "ff3222a42847f7ce1dc5820096ff93ed79958516cb6d933dd72b3c5da734e6f3",
+  "cloud_status": "passed",
+  "cloud_checks": [
+    {
+      "state": "default",
+      "role": "author",
+      "complete_category_months": 72,
+      "initial_insights_empty": true,
+      "passed": true
+    },
+    {
+      "state": "default",
+      "role": "replica",
+      "complete_category_months": 72,
+      "initial_insights_empty": true,
+      "passed": true
+    },
+    {
+      "state": "technology",
+      "role": "author",
+      "complete_category_months": 24,
+      "initial_insights_empty": true,
+      "passed": true
+    },
+    {
+      "state": "technology",
+      "role": "replica",
+      "complete_category_months": 24,
+      "initial_insights_empty": true,
+      "passed": true
+    },
+    {
+      "state": "furniture",
+      "role": "author",
+      "complete_category_months": 24,
+      "initial_insights_empty": true,
+      "passed": true
+    },
+    {
+      "state": "furniture",
+      "role": "replica",
+      "complete_category_months": 24,
+      "initial_insights_empty": true,
+      "passed": true
+    }
+  ],
+  "browser_interaction_executed": false
+}

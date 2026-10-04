@@ -1,0 +1,1445 @@
+{
+  "status": "pass",
+  "artifact_sha256": "74b282f80fda0bc0cc519f4dfe7927bcae6a85044dc5fb67e4d7f5360e4ea8f7",
+  "acceptance_ids": [
+    "ww39-calendar-fact-oracle",
+    "ww39-date-range-parameter-actions",
+    "ww39-phone-picker-contract",
+    "ww39-cloud-states"
+  ],
+  "oracle": {
+    "facts": 9994,
+    "distinct_dates": 1461,
+    "states": {
+      "default": {
+        "month": "2019-06-01",
+        "start": "2019-06-06",
+        "end": "2019-06-18",
+        "calendar": [
+          {
+            "date": "2019-06-01",
+            "weekday": "Sat",
+            "color": "White"
+          },
+          {
+            "date": "2019-06-02",
+            "weekday": "Sun",
+            "color": "White"
+          },
+          {
+            "date": "2019-06-03",
+            "weekday": "Mon",
+            "color": "White"
+          },
+          {
+            "date": "2019-06-04",
+            "weekday": "Tue",
+            "color": "White"
+          },
+          {
+            "date": "2019-06-05",
+            "weekday": "Wed",
+            "color": "White"
+          },
+          {
+            "date": "2019-06-06",
+            "weekday": "Thu",
+            "color": "Hot Pink"
+          },
+          {
+            "date": "2019-06-07",
+            "weekday": "Fri",
+            "color": "Pink"
+          },
+          {
+            "date": "2019-06-08",
+            "weekday": "Sat",
+            "color": "Pink"
+          },
+          {
+            "date": "2019-06-09",
+            "weekday": "Sun",
+            "color": "Pink"
+          },
+          {
+            "date": "2019-06-10",
+            "weekday": "Mon",
+            "color": "Pink"
+          },
+          {
+            "date": "2019-06-11",
+            "weekday": "Tue",
+            "color": "Pink"
+          },
+          {
+            "date": "2019-06-12",
+            "weekday": "Wed",
+            "color": "Pink"
+          },
+          {
+            "date": "2019-06-13",
+            "weekday": "Thu",
+            "color": "Pink"
+          },
+          {
+            "date": "2019-06-14",
+            "weekday": "Fri",
+            "color": "Pink"
+          },
+          {
+            "date": "2019-06-15",
+            "weekday": "Sat",
+            "color": "Pink"
+          },
+          {
+            "date": "2019-06-16",
+            "weekday": "Sun",
+            "color": "Pink"
+          },
+          {
+            "date": "2019-06-17",
+            "weekday": "Mon",
+            "color": "Pink"
+          },
+          {
+            "date": "2019-06-18",
+            "weekday": "Tue",
+            "color": "Hot Pink"
+          },
+          {
+            "date": "2019-06-19",
+            "weekday": "Wed",
+            "color": "White"
+          },
+          {
+            "date": "2019-06-20",
+            "weekday": "Thu",
+            "color": "White"
+          },
+          {
+            "date": "2019-06-21",
+            "weekday": "Fri",
+            "color": "White"
+          },
+          {
+            "date": "2019-06-22",
+            "weekday": "Sat",
+            "color": "White"
+          },
+          {
+            "date": "2019-06-23",
+            "weekday": "Sun",
+            "color": "White"
+          },
+          {
+            "date": "2019-06-24",
+            "weekday": "Mon",
+            "color": "White"
+          },
+          {
+            "date": "2019-06-25",
+            "weekday": "Tue",
+            "color": "White"
+          },
+          {
+            "date": "2019-06-26",
+            "weekday": "Wed",
+            "color": "White"
+          },
+          {
+            "date": "2019-06-27",
+            "weekday": "Thu",
+            "color": "White"
+          },
+          {
+            "date": "2019-06-28",
+            "weekday": "Fri",
+            "color": "White"
+          },
+          {
+            "date": "2019-06-29",
+            "weekday": "Sat",
+            "color": "White"
+          },
+          {
+            "date": "2019-06-30",
+            "weekday": "Sun",
+            "color": "White"
+          }
+        ],
+        "daily": [
+          {
+            "date": "2019-06-06",
+            "Sales": 31.35,
+            "Profit": 2.1780000000000004,
+            "Quantity": 6
+          },
+          {
+            "date": "2019-06-08",
+            "Sales": 2227.038,
+            "Profit": 134.16190000000003,
+            "Quantity": 32
+          },
+          {
+            "date": "2019-06-09",
+            "Sales": 939.1330000000002,
+            "Profit": 2.2272999999999694,
+            "Quantity": 21
+          },
+          {
+            "date": "2019-06-10",
+            "Sales": 2513.3430000000003,
+            "Profit": 186.4922999999999,
+            "Quantity": 58
+          },
+          {
+            "date": "2019-06-11",
+            "Sales": 1580.8940000000002,
+            "Profit": 274.9411999999999,
+            "Quantity": 44
+          },
+          {
+            "date": "2019-06-12",
+            "Sales": 1679.9679999999998,
+            "Profit": 314.91439999999994,
+            "Quantity": 33
+          },
+          {
+            "date": "2019-06-13",
+            "Sales": 1156.018,
+            "Profit": -95.02220000000005,
+            "Quantity": 24
+          },
+          {
+            "date": "2019-06-15",
+            "Sales": 4057.51,
+            "Profit": 404.4218,
+            "Quantity": 57
+          },
+          {
+            "date": "2019-06-16",
+            "Sales": 2724.194,
+            "Profit": 521.3649999999999,
+            "Quantity": 47
+          },
+          {
+            "date": "2019-06-17",
+            "Sales": 3896.672,
+            "Profit": 1696.4659,
+            "Quantity": 28
+          },
+          {
+            "date": "2019-06-18",
+            "Sales": 1031.1554999999998,
+            "Profit": 117.87989999999989,
+            "Quantity": 18
+          }
+        ],
+        "totals": {
+          "Sales": 21837.2755,
+          "Profit": 3560.0254999999993,
+          "Quantity": 368.0
+        },
+        "year_picker": [
+          2016,
+          2017,
+          2018,
+          2019
+        ],
+        "month_picker": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "july": {
+        "month": "2019-07-01",
+        "start": "2019-07-01",
+        "end": "2019-07-07",
+        "calendar": [
+          {
+            "date": "2019-07-01",
+            "weekday": "Mon",
+            "color": "Hot Pink"
+          },
+          {
+            "date": "2019-07-02",
+            "weekday": "Tue",
+            "color": "Pink"
+          },
+          {
+            "date": "2019-07-03",
+            "weekday": "Wed",
+            "color": "Pink"
+          },
+          {
+            "date": "2019-07-04",
+            "weekday": "Thu",
+            "color": "Pink"
+          },
+          {
+            "date": "2019-07-05",
+            "weekday": "Fri",
+            "color": "Pink"
+          },
+          {
+            "date": "2019-07-06",
+            "weekday": "Sat",
+            "color": "Pink"
+          },
+          {
+            "date": "2019-07-07",
+            "weekday": "Sun",
+            "color": "Hot Pink"
+          },
+          {
+            "date": "2019-07-08",
+            "weekday": "Mon",
+            "color": "White"
+          },
+          {
+            "date": "2019-07-09",
+            "weekday": "Tue",
+            "color": "White"
+          },
+          {
+            "date": "2019-07-10",
+            "weekday": "Wed",
+            "color": "White"
+          },
+          {
+            "date": "2019-07-11",
+            "weekday": "Thu",
+            "color": "White"
+          },
+          {
+            "date": "2019-07-12",
+            "weekday": "Fri",
+            "color": "White"
+          },
+          {
+            "date": "2019-07-13",
+            "weekday": "Sat",
+            "color": "White"
+          },
+          {
+            "date": "2019-07-14",
+            "weekday": "Sun",
+            "color": "White"
+          },
+          {
+            "date": "2019-07-15",
+            "weekday": "Mon",
+            "color": "White"
+          },
+          {
+            "date": "2019-07-16",
+            "weekday": "Tue",
+            "color": "White"
+          },
+          {
+            "date": "2019-07-17",
+            "weekday": "Wed",
+            "color": "White"
+          },
+          {
+            "date": "2019-07-18",
+            "weekday": "Thu",
+            "color": "White"
+          },
+          {
+            "date": "2019-07-19",
+            "weekday": "Fri",
+            "color": "White"
+          },
+          {
+            "date": "2019-07-20",
+            "weekday": "Sat",
+            "color": "White"
+          },
+          {
+            "date": "2019-07-21",
+            "weekday": "Sun",
+            "color": "White"
+          },
+          {
+            "date": "2019-07-22",
+            "weekday": "Mon",
+            "color": "White"
+          },
+          {
+            "date": "2019-07-23",
+            "weekday": "Tue",
+            "color": "White"
+          },
+          {
+            "date": "2019-07-24",
+            "weekday": "Wed",
+            "color": "White"
+          },
+          {
+            "date": "2019-07-25",
+            "weekday": "Thu",
+            "color": "White"
+          },
+          {
+            "date": "2019-07-26",
+            "weekday": "Fri",
+            "color": "White"
+          },
+          {
+            "date": "2019-07-27",
+            "weekday": "Sat",
+            "color": "White"
+          },
+          {
+            "date": "2019-07-28",
+            "weekday": "Sun",
+            "color": "White"
+          },
+          {
+            "date": "2019-07-29",
+            "weekday": "Mon",
+            "color": "White"
+          },
+          {
+            "date": "2019-07-30",
+            "weekday": "Tue",
+            "color": "White"
+          },
+          {
+            "date": "2019-07-31",
+            "weekday": "Wed",
+            "color": "White"
+          }
+        ],
+        "daily": [
+          {
+            "date": "2019-07-01",
+            "Sales": 639.83,
+            "Profit": 103.95460000000003,
+            "Quantity": 9
+          },
+          {
+            "date": "2019-07-02",
+            "Sales": 169.192,
+            "Profit": 51.3259,
+            "Quantity": 9
+          },
+          {
+            "date": "2019-07-03",
+            "Sales": 6963.404,
+            "Profit": 1488.1451,
+            "Quantity": 77
+          },
+          {
+            "date": "2019-07-05",
+            "Sales": 476.35400000000004,
+            "Profit": -337.40990000000005,
+            "Quantity": 32
+          },
+          {
+            "date": "2019-07-06",
+            "Sales": 380.37800000000004,
+            "Profit": 13.745400000000014,
+            "Quantity": 9
+          },
+          {
+            "date": "2019-07-07",
+            "Sales": 1620.25,
+            "Profit": 37.40289999999985,
+            "Quantity": 26
+          }
+        ],
+        "totals": {
+          "Sales": 10249.408000000001,
+          "Profit": 1357.1639999999998,
+          "Quantity": 162.0
+        },
+        "year_picker": [
+          2016,
+          2017,
+          2018,
+          2019
+        ],
+        "month_picker": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "leap-february": {
+        "month": "2016-02-01",
+        "start": "2016-02-10",
+        "end": "2016-02-29",
+        "calendar": [
+          {
+            "date": "2016-02-01",
+            "weekday": "Mon",
+            "color": "White"
+          },
+          {
+            "date": "2016-02-02",
+            "weekday": "Tue",
+            "color": "White"
+          },
+          {
+            "date": "2016-02-03",
+            "weekday": "Wed",
+            "color": "White"
+          },
+          {
+            "date": "2016-02-04",
+            "weekday": "Thu",
+            "color": "White"
+          },
+          {
+            "date": "2016-02-05",
+            "weekday": "Fri",
+            "color": "White"
+          },
+          {
+            "date": "2016-02-06",
+            "weekday": "Sat",
+            "color": "White"
+          },
+          {
+            "date": "2016-02-07",
+            "weekday": "Sun",
+            "color": "White"
+          },
+          {
+            "date": "2016-02-08",
+            "weekday": "Mon",
+            "color": "White"
+          },
+          {
+            "date": "2016-02-09",
+            "weekday": "Tue",
+            "color": "White"
+          },
+          {
+            "date": "2016-02-10",
+            "weekday": "Wed",
+            "color": "Hot Pink"
+          },
+          {
+            "date": "2016-02-11",
+            "weekday": "Thu",
+            "color": "Pink"
+          },
+          {
+            "date": "2016-02-12",
+            "weekday": "Fri",
+            "color": "Pink"
+          },
+          {
+            "date": "2016-02-13",
+            "weekday": "Sat",
+            "color": "Pink"
+          },
+          {
+            "date": "2016-02-14",
+            "weekday": "Sun",
+            "color": "Pink"
+          },
+          {
+            "date": "2016-02-15",
+            "weekday": "Mon",
+            "color": "Pink"
+          },
+          {
+            "date": "2016-02-16",
+            "weekday": "Tue",
+            "color": "Pink"
+          },
+          {
+            "date": "2016-02-17",
+            "weekday": "Wed",
+            "color": "Pink"
+          },
+          {
+            "date": "2016-02-18",
+            "weekday": "Thu",
+            "color": "Pink"
+          },
+          {
+            "date": "2016-02-19",
+            "weekday": "Fri",
+            "color": "Pink"
+          },
+          {
+            "date": "2016-02-20",
+            "weekday": "Sat",
+            "color": "Pink"
+          },
+          {
+            "date": "2016-02-21",
+            "weekday": "Sun",
+            "color": "Pink"
+          },
+          {
+            "date": "2016-02-22",
+            "weekday": "Mon",
+            "color": "Pink"
+          },
+          {
+            "date": "2016-02-23",
+            "weekday": "Tue",
+            "color": "Pink"
+          },
+          {
+            "date": "2016-02-24",
+            "weekday": "Wed",
+            "color": "Pink"
+          },
+          {
+            "date": "2016-02-25",
+            "weekday": "Thu",
+            "color": "Pink"
+          },
+          {
+            "date": "2016-02-26",
+            "weekday": "Fri",
+            "color": "Pink"
+          },
+          {
+            "date": "2016-02-27",
+            "weekday": "Sat",
+            "color": "Pink"
+          },
+          {
+            "date": "2016-02-28",
+            "weekday": "Sun",
+            "color": "Pink"
+          },
+          {
+            "date": "2016-02-29",
+            "weekday": "Mon",
+            "color": "Hot Pink"
+          }
+        ],
+        "daily": [
+          {
+            "date": "2016-02-11",
+            "Sales": 2043.4,
+            "Profit": 293.52849999999995,
+            "Quantity": 25
+          },
+          {
+            "date": "2016-02-12",
+            "Sales": 129.568,
+            "Profit": -24.29400000000002,
+            "Quantity": 2
+          },
+          {
+            "date": "2016-02-14",
+            "Sales": 576.726,
+            "Profit": 120.17639999999999,
+            "Quantity": 10
+          },
+          {
+            "date": "2016-02-15",
+            "Sales": 21.36,
+            "Profit": 7.209,
+            "Quantity": 5
+          },
+          {
+            "date": "2016-02-16",
+            "Sales": 9.039999999999997,
+            "Profit": -15.658000000000003,
+            "Quantity": 5
+          },
+          {
+            "date": "2016-02-17",
+            "Sales": 54.208,
+            "Profit": 8.808799999999998,
+            "Quantity": 14
+          },
+          {
+            "date": "2016-02-18",
+            "Sales": 37.784,
+            "Profit": -13.846800000000002,
+            "Quantity": 7
+          },
+          {
+            "date": "2016-02-20",
+            "Sales": 95.59,
+            "Profit": 35.5612,
+            "Quantity": 9
+          },
+          {
+            "date": "2016-02-21",
+            "Sales": 8.849999999999998,
+            "Profit": -13.717499999999998,
+            "Quantity": 5
+          },
+          {
+            "date": "2016-02-22",
+            "Sales": 19.44,
+            "Profit": 9.3312,
+            "Quantity": 3
+          },
+          {
+            "date": "2016-02-23",
+            "Sales": 11.364,
+            "Profit": -4.522499999999998,
+            "Quantity": 6
+          },
+          {
+            "date": "2016-02-24",
+            "Sales": 55.672000000000004,
+            "Profit": 18.789299999999997,
+            "Quantity": 7
+          },
+          {
+            "date": "2016-02-27",
+            "Sales": 19.456000000000003,
+            "Profit": 3.404799999999998,
+            "Quantity": 4
+          }
+        ],
+        "totals": {
+          "Sales": 3082.458,
+          "Profit": 424.77039999999994,
+          "Quantity": 102.0
+        },
+        "year_picker": [
+          2016,
+          2017,
+          2018,
+          2019
+        ],
+        "month_picker": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "december": {
+        "month": "2018-12-01",
+        "start": "2018-12-18",
+        "end": "2018-12-31",
+        "calendar": [
+          {
+            "date": "2018-12-01",
+            "weekday": "Sat",
+            "color": "White"
+          },
+          {
+            "date": "2018-12-02",
+            "weekday": "Sun",
+            "color": "White"
+          },
+          {
+            "date": "2018-12-03",
+            "weekday": "Mon",
+            "color": "White"
+          },
+          {
+            "date": "2018-12-04",
+            "weekday": "Tue",
+            "color": "White"
+          },
+          {
+            "date": "2018-12-05",
+            "weekday": "Wed",
+            "color": "White"
+          },
+          {
+            "date": "2018-12-06",
+            "weekday": "Thu",
+            "color": "White"
+          },
+          {
+            "date": "2018-12-07",
+            "weekday": "Fri",
+            "color": "White"
+          },
+          {
+            "date": "2018-12-08",
+            "weekday": "Sat",
+            "color": "White"
+          },
+          {
+            "date": "2018-12-09",
+            "weekday": "Sun",
+            "color": "White"
+          },
+          {
+            "date": "2018-12-10",
+            "weekday": "Mon",
+            "color": "White"
+          },
+          {
+            "date": "2018-12-11",
+            "weekday": "Tue",
+            "color": "White"
+          },
+          {
+            "date": "2018-12-12",
+            "weekday": "Wed",
+            "color": "White"
+          },
+          {
+            "date": "2018-12-13",
+            "weekday": "Thu",
+            "color": "White"
+          },
+          {
+            "date": "2018-12-14",
+            "weekday": "Fri",
+            "color": "White"
+          },
+          {
+            "date": "2018-12-15",
+            "weekday": "Sat",
+            "color": "White"
+          },
+          {
+            "date": "2018-12-16",
+            "weekday": "Sun",
+            "color": "White"
+          },
+          {
+            "date": "2018-12-17",
+            "weekday": "Mon",
+            "color": "White"
+          },
+          {
+            "date": "2018-12-18",
+            "weekday": "Tue",
+            "color": "Hot Pink"
+          },
+          {
+            "date": "2018-12-19",
+            "weekday": "Wed",
+            "color": "Pink"
+          },
+          {
+            "date": "2018-12-20",
+            "weekday": "Thu",
+            "color": "Pink"
+          },
+          {
+            "date": "2018-12-21",
+            "weekday": "Fri",
+            "color": "Pink"
+          },
+          {
+            "date": "2018-12-22",
+            "weekday": "Sat",
+            "color": "Pink"
+          },
+          {
+            "date": "2018-12-23",
+            "weekday": "Sun",
+            "color": "Pink"
+          },
+          {
+            "date": "2018-12-24",
+            "weekday": "Mon",
+            "color": "Pink"
+          },
+          {
+            "date": "2018-12-25",
+            "weekday": "Tue",
+            "color": "Pink"
+          },
+          {
+            "date": "2018-12-26",
+            "weekday": "Wed",
+            "color": "Pink"
+          },
+          {
+            "date": "2018-12-27",
+            "weekday": "Thu",
+            "color": "Pink"
+          },
+          {
+            "date": "2018-12-28",
+            "weekday": "Fri",
+            "color": "Pink"
+          },
+          {
+            "date": "2018-12-29",
+            "weekday": "Sat",
+            "color": "Pink"
+          },
+          {
+            "date": "2018-12-30",
+            "weekday": "Sun",
+            "color": "Pink"
+          },
+          {
+            "date": "2018-12-31",
+            "weekday": "Mon",
+            "color": "Hot Pink"
+          }
+        ],
+        "daily": [
+          {
+            "date": "2018-12-18",
+            "Sales": 7051.35,
+            "Profit": 727.4943999999999,
+            "Quantity": 86
+          },
+          {
+            "date": "2018-12-19",
+            "Sales": 815.1120000000001,
+            "Profit": -251.3853,
+            "Quantity": 29
+          },
+          {
+            "date": "2018-12-20",
+            "Sales": 134.54000000000002,
+            "Profit": 38.530800000000006,
+            "Quantity": 14
+          },
+          {
+            "date": "2018-12-22",
+            "Sales": 1043.1280000000002,
+            "Profit": 228.14339999999999,
+            "Quantity": 32
+          },
+          {
+            "date": "2018-12-23",
+            "Sales": 6965.857,
+            "Profit": 1008.2603999999998,
+            "Quantity": 68
+          },
+          {
+            "date": "2018-12-24",
+            "Sales": 1938.26,
+            "Profit": 323.5229,
+            "Quantity": 45
+          },
+          {
+            "date": "2018-12-25",
+            "Sales": 10488.055,
+            "Profit": 1393.3961,
+            "Quantity": 77
+          },
+          {
+            "date": "2018-12-26",
+            "Sales": 1829.418,
+            "Profit": 155.94160000000005,
+            "Quantity": 34
+          },
+          {
+            "date": "2018-12-27",
+            "Sales": 959.4899999999999,
+            "Profit": 16.7585999999999,
+            "Quantity": 30
+          },
+          {
+            "date": "2018-12-29",
+            "Sales": 1277.6799999999998,
+            "Profit": 192.49550000000002,
+            "Quantity": 48
+          },
+          {
+            "date": "2018-12-30",
+            "Sales": 773.774,
+            "Profit": 146.86319999999998,
+            "Quantity": 25
+          },
+          {
+            "date": "2018-12-31",
+            "Sales": 731.768,
+            "Profit": 68.24350000000003,
+            "Quantity": 27
+          }
+        ],
+        "totals": {
+          "Sales": 34008.432,
+          "Profit": 4048.2650999999996,
+          "Quantity": 515.0
+        },
+        "year_picker": [
+          2016,
+          2017,
+          2018,
+          2019
+        ],
+        "month_picker": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    }
+  },
+  "cloud_checks": [
+    {
+      "state": "default",
+      "role": "author",
+      "view": "BAN",
+      "rows": 3
+    },
+    {
+      "state": "default",
+      "role": "author",
+      "view": "Calendar",
+      "rows": 30
+    },
+    {
+      "state": "default",
+      "role": "author",
+      "view": "Line ",
+      "rows": 13
+    },
+    {
+      "state": "default",
+      "role": "author",
+      "view": "Month",
+      "rows": 12
+    },
+    {
+      "state": "default",
+      "role": "author",
+      "view": "Month Name",
+      "rows": 1
+    },
+    {
+      "state": "default",
+      "role": "author",
+      "view": "Next Month Control",
+      "rows": 1
+    },
+    {
+      "state": "default",
+      "role": "author",
+      "view": "Prev Month Control",
+      "rows": 1
+    },
+    {
+      "state": "default",
+      "role": "author",
+      "view": "Selected Period",
+      "rows": 1
+    },
+    {
+      "state": "default",
+      "role": "author",
+      "view": "Year",
+      "rows": 4
+    },
+    {
+      "state": "default",
+      "role": "replica",
+      "view": "BAN",
+      "rows": 3
+    },
+    {
+      "state": "default",
+      "role": "replica",
+      "view": "Calendar",
+      "rows": 30
+    },
+    {
+      "state": "default",
+      "role": "replica",
+      "view": "Line ",
+      "rows": 13
+    },
+    {
+      "state": "default",
+      "role": "replica",
+      "view": "Month",
+      "rows": 12
+    },
+    {
+      "state": "default",
+      "role": "replica",
+      "view": "Month Name",
+      "rows": 1
+    },
+    {
+      "state": "default",
+      "role": "replica",
+      "view": "Next Month Control",
+      "rows": 1
+    },
+    {
+      "state": "default",
+      "role": "replica",
+      "view": "Prev Month Control",
+      "rows": 1
+    },
+    {
+      "state": "default",
+      "role": "replica",
+      "view": "Selected Period",
+      "rows": 1
+    },
+    {
+      "state": "default",
+      "role": "replica",
+      "view": "Year",
+      "rows": 4
+    },
+    {
+      "state": "july",
+      "role": "author",
+      "view": "BAN",
+      "rows": 3
+    },
+    {
+      "state": "july",
+      "role": "author",
+      "view": "Calendar",
+      "rows": 31
+    },
+    {
+      "state": "july",
+      "role": "author",
+      "view": "Line ",
+      "rows": 7
+    },
+    {
+      "state": "july",
+      "role": "author",
+      "view": "Month",
+      "rows": 12
+    },
+    {
+      "state": "july",
+      "role": "author",
+      "view": "Month Name",
+      "rows": 1
+    },
+    {
+      "state": "july",
+      "role": "author",
+      "view": "Next Month Control",
+      "rows": 1
+    },
+    {
+      "state": "july",
+      "role": "author",
+      "view": "Prev Month Control",
+      "rows": 1
+    },
+    {
+      "state": "july",
+      "role": "author",
+      "view": "Selected Period",
+      "rows": 1
+    },
+    {
+      "state": "july",
+      "role": "author",
+      "view": "Year",
+      "rows": 4
+    },
+    {
+      "state": "july",
+      "role": "replica",
+      "view": "BAN",
+      "rows": 3
+    },
+    {
+      "state": "july",
+      "role": "replica",
+      "view": "Calendar",
+      "rows": 31
+    },
+    {
+      "state": "july",
+      "role": "replica",
+      "view": "Line ",
+      "rows": 7
+    },
+    {
+      "state": "july",
+      "role": "replica",
+      "view": "Month",
+      "rows": 12
+    },
+    {
+      "state": "july",
+      "role": "replica",
+      "view": "Month Name",
+      "rows": 1
+    },
+    {
+      "state": "july",
+      "role": "replica",
+      "view": "Next Month Control",
+      "rows": 1
+    },
+    {
+      "state": "july",
+      "role": "replica",
+      "view": "Prev Month Control",
+      "rows": 1
+    },
+    {
+      "state": "july",
+      "role": "replica",
+      "view": "Selected Period",
+      "rows": 1
+    },
+    {
+      "state": "july",
+      "role": "replica",
+      "view": "Year",
+      "rows": 4
+    },
+    {
+      "state": "leap-february",
+      "role": "author",
+      "view": "BAN",
+      "rows": 3
+    },
+    {
+      "state": "leap-february",
+      "role": "author",
+      "view": "Calendar",
+      "rows": 29
+    },
+    {
+      "state": "leap-february",
+      "role": "author",
+      "view": "Line ",
+      "rows": 20
+    },
+    {
+      "state": "leap-february",
+      "role": "author",
+      "view": "Month",
+      "rows": 12
+    },
+    {
+      "state": "leap-february",
+      "role": "author",
+      "view": "Month Name",
+      "rows": 1
+    },
+    {
+      "state": "leap-february",
+      "role": "author",
+      "view": "Next Month Control",
+      "rows": 1
+    },
+    {
+      "state": "leap-february",
+      "role": "author",
+      "view": "Prev Month Control",
+      "rows": 1
+    },
+    {
+      "state": "leap-february",
+      "role": "author",
+      "view": "Selected Period",
+      "rows": 1
+    },
+    {
+      "state": "leap-february",
+      "role": "author",
+      "view": "Year",
+      "rows": 4
+    },
+    {
+      "state": "leap-february",
+      "role": "replica",
+      "view": "BAN",
+      "rows": 3
+    },
+    {
+      "state": "leap-february",
+      "role": "replica",
+      "view": "Calendar",
+      "rows": 29
+    },
+    {
+      "state": "leap-february",
+      "role": "replica",
+      "view": "Line ",
+      "rows": 20
+    },
+    {
+      "state": "leap-february",
+      "role": "replica",
+      "view": "Month",
+      "rows": 12
+    },
+    {
+      "state": "leap-february",
+      "role": "replica",
+      "view": "Month Name",
+      "rows": 1
+    },
+    {
+      "state": "leap-february",
+      "role": "replica",
+      "view": "Next Month Control",
+      "rows": 1
+    },
+    {
+      "state": "leap-february",
+      "role": "replica",
+      "view": "Prev Month Control",
+      "rows": 1
+    },
+    {
+      "state": "leap-february",
+      "role": "replica",
+      "view": "Selected Period",
+      "rows": 1
+    },
+    {
+      "state": "leap-february",
+      "role": "replica",
+      "view": "Year",
+      "rows": 4
+    },
+    {
+      "state": "december",
+      "role": "author",
+      "view": "BAN",
+      "rows": 3
+    },
+    {
+      "state": "december",
+      "role": "author",
+      "view": "Calendar",
+      "rows": 31
+    },
+    {
+      "state": "december",
+      "role": "author",
+      "view": "Line ",
+      "rows": 14
+    },
+    {
+      "state": "december",
+      "role": "author",
+      "view": "Month",
+      "rows": 12
+    },
+    {
+      "state": "december",
+      "role": "author",
+      "view": "Month Name",
+      "rows": 1
+    },
+    {
+      "state": "december",
+      "role": "author",
+      "view": "Next Month Control",
+      "rows": 1
+    },
+    {
+      "state": "december",
+      "role": "author",
+      "view": "Prev Month Control",
+      "rows": 1
+    },
+    {
+      "state": "december",
+      "role": "author",
+      "view": "Selected Period",
+      "rows": 1
+    },
+    {
+      "state": "december",
+      "role": "author",
+      "view": "Year",
+      "rows": 4
+    },
+    {
+      "state": "december",
+      "role": "replica",
+      "view": "BAN",
+      "rows": 3
+    },
+    {
+      "state": "december",
+      "role": "replica",
+      "view": "Calendar",
+      "rows": 31
+    },
+    {
+      "state": "december",
+      "role": "replica",
+      "view": "Line ",
+      "rows": 14
+    },
+    {
+      "state": "december",
+      "role": "replica",
+      "view": "Month",
+      "rows": 12
+    },
+    {
+      "state": "december",
+      "role": "replica",
+      "view": "Month Name",
+      "rows": 1
+    },
+    {
+      "state": "december",
+      "role": "replica",
+      "view": "Next Month Control",
+      "rows": 1
+    },
+    {
+      "state": "december",
+      "role": "replica",
+      "view": "Prev Month Control",
+      "rows": 1
+    },
+    {
+      "state": "december",
+      "role": "replica",
+      "view": "Selected Period",
+      "rows": 1
+    },
+    {
+      "state": "december",
+      "role": "replica",
+      "view": "Year",
+      "rows": 4
+    }
+  ],
+  "browser_interaction_executed": false,
+  "phone_browser_render_executed": false
+}

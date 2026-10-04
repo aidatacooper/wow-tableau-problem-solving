@@ -1,0 +1,14 @@
+{
+  "result": "blocked",
+  "scope": "Initial exact released-SDK build passed raw/native checks but failed Tableau Cloud functional acceptance. This is a case-builder defect, not evidence of a missing SDK primitive.",
+  "artifact_sha256": "4b7515c2e915a1d730b689aeaee6fc783db40db6b23b3853bbd426ba27cb500b",
+  "observed": "All six replica Table exports were empty; Header text not rendered; pagination displayed summed current page 40736.",
+  "root_causes": [
+    "Corrupted/unclosed Player ID Arrow string",
+    "Forward references Max Level and Total Pages normalized before their calculated columns were registered",
+    "Header column axes used default rows axis shelf",
+    "Pagination measures lacked explicit MIN aggregation"
+  ],
+  "archived_evidence": "scratch/ww40-analysis/baseline-4b7515",
+  "resolution": "Existing public API usage corrected; fresh Cloud verification pending."
+}

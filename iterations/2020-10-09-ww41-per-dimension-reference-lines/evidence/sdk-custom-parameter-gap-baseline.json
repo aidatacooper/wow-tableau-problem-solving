@@ -1,0 +1,9 @@
+{
+  "commit": "cbe200a4a148f1825764de67bd3e8f0e6d01a113",
+  "result": "blocked",
+  "synthetic_fixture": "Two generated CSV rows Group=A/B,Value=10/20; custom integer parameter ThresholdControl referenced through aggregate calculated field. No author data or workbook used.",
+  "module": "C:\\Users\\imgwho\\Desktop\\project\\wow-next-case\\scratch\\sdk-cbe200a-source\\src\\cwtwb\\__init__.py",
+  "observed_fake_physical_dependencies": 1,
+  "cause": "Recursive dependency walk skips only Parameter-space numbered names; custom parameter internal names are added as physical columns.",
+  "cloud_failure_artifact": "8519d45c50b95be17e6fe79e7e3ad1376c6c81d9a4673aee7e46e3c455cd13f8"
+}

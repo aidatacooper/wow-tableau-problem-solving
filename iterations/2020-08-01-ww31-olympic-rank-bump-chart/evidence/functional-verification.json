@@ -1,0 +1,68 @@
+{
+  "passed": true,
+  "artifact_sha256": "2ef6550a25fc078ec2265e5fdb90f32f4e9ecbfab7676368cdb37214036f95d9",
+  "cloud_status": "passed",
+  "cloud_checks": [
+    {
+      "state": "default",
+      "role": "author",
+      "visible_top10_marks": 280,
+      "exported_country_years_including_domain_padding": 4172,
+      "original_fact_country_years": 1242,
+      "five_sheet_exports": true,
+      "original_top_countries_scope": "Empty outside triggering VIT; not offered as data proof",
+      "passed": true
+    },
+    {
+      "state": "default",
+      "role": "replica",
+      "visible_top10_marks": 280,
+      "exported_country_years_including_domain_padding": 4172,
+      "original_fact_country_years": 1242,
+      "five_sheet_exports": true,
+      "original_top_countries_scope": "Empty outside triggering VIT; not offered as data proof",
+      "passed": true
+    },
+    {
+      "state": "year-2008",
+      "role": "author",
+      "visible_top10_marks": 10,
+      "exported_country_years_including_domain_padding": 86,
+      "original_fact_country_years": 86,
+      "five_sheet_exports": true,
+      "original_top_countries_scope": "Empty outside triggering VIT; not offered as data proof",
+      "passed": true
+    },
+    {
+      "state": "year-2008",
+      "role": "replica",
+      "visible_top10_marks": 10,
+      "exported_country_years_including_domain_padding": 86,
+      "original_fact_country_years": 86,
+      "five_sheet_exports": true,
+      "original_top_countries_scope": "Empty outside triggering VIT; not offered as data proof",
+      "passed": true
+    },
+    {
+      "state": "year-2016",
+      "role": "author",
+      "visible_top10_marks": 10,
+      "exported_country_years_including_domain_padding": 85,
+      "original_fact_country_years": 85,
+      "five_sheet_exports": true,
+      "original_top_countries_scope": "Empty outside triggering VIT; not offered as data proof",
+      "passed": true
+    },
+    {
+      "state": "year-2016",
+      "role": "replica",
+      "visible_top10_marks": 10,
+      "exported_country_years_including_domain_padding": 85,
+      "original_fact_country_years": 85,
+      "five_sheet_exports": true,
+      "original_top_countries_scope": "Empty outside triggering VIT; not offered as data proof",
+      "passed": true
+    }
+  ],
+  "browser_interaction_executed": false
+}

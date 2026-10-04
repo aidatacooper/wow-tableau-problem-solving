@@ -1,0 +1,16 @@
+{
+  "tested_commit": "cbe200a4a148f1825764de67bd3e8f0e6d01a113",
+  "actual_import": "C:\\Users\\imgwho\\Desktop\\project\\wow-next-case\\.venv\\Lib\\site-packages\\cwtwb",
+  "direct_url": {
+    "url": "https://github.com/aidatacooper/cwtwb.git",
+    "vcs_info": {
+      "vcs": "git",
+      "commit_id": "cbe200a4a148f1825764de67bd3e8f0e6d01a113",
+      "requested_revision": "cbe200a4a148f1825764de67bd3e8f0e6d01a113"
+    }
+  },
+  "result": "pass",
+  "scope": "Released exact Git SDK build and complete raw/native verifier passed; Cloud validation pending.",
+  "builder_sha256": "4805720a06c69a1ae36890874bd554f086e154b1216dd0843b64e63caa1f8328",
+  "artifact_sha256": "3c76a1751e1a5bb3786cf26f736d1160ae105ab04e8fd2c5833557e085ed3180"
+}

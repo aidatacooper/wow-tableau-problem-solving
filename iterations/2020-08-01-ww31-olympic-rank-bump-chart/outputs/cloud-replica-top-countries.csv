@@ -1,0 +1,285 @@
+Country Name,Host Country,Year,COLOUR Host,Is Host or Top 10,Score
+Australia,Australia,1956,Blue,True,69
+Australia,Australia,2000,Blue,True,115
+Australia,Brazil,2016,Grey,True,56
+Australia,China,2008,Grey,True,89
+Australia,Finland,1952,Grey,True,25
+Australia,Great Britain,2012,Grey,True,66
+Australia,Greece,2004,Grey,True,99
+Australia,Italy,1960,Grey,True,46
+Australia,Japan,1964,Grey,True,32
+Australia,Mexico,1968,Grey,True,34
+Australia,Spain,1992,Grey,True,50
+Australia,United States,1984,Grey,True,40
+Australia,United States,1996,Grey,True,68
+Australia,West Germany,1972,Grey,True,40
+Austria,Greece,1896,Grey,True,10
+Austria,United States,1904,Grey,True,1
+Belgium,Belgium,1920,Blue,True,75
+Belgium,France,1900,Grey,True,30
+Belgium,France,1924,Grey,True,26
+Belgium,Great Britain,1908,Grey,True,15
+Brazil,Brazil,2016,Red,True,39
+Bulgaria,Canada,1976,Grey,True,43
+Bulgaria,South Korea,1988,Grey,True,67
+Bulgaria,Soviet Union,1980,Grey,True,73
+Bulgaria,West Germany,1972,Grey,True,43
+Canada,Canada,1976,Red,True,16
+Canada,Great Britain,1908,Grey,True,24
+Canada,Netherlands,1928,Grey,True,27
+Canada,United States,1904,Grey,True,14
+Canada,United States,1932,Grey,True,24
+Canada,United States,1984,Grey,True,82
+China,Australia,2000,Grey,True,130
+China,Brazil,2016,Grey,True,140
+China,China,2008,Blue,True,223
+China,Great Britain,2012,Grey,True,196
+China,Greece,2004,Grey,True,144
+China,South Korea,1988,Grey,True,49
+China,Spain,1992,Grey,True,107
+China,United States,1984,Grey,True,70
+China,United States,1996,Grey,True,104
+Cuba,Australia,2000,Grey,True,62
+Cuba,Canada,1976,Grey,True,29
+Cuba,Soviet Union,1980,Grey,True,43
+Cuba,Spain,1992,Grey,True,65
+Cuba,United States,1904,Grey,True,19
+Cuba,United States,1996,Grey,True,51
+Czechoslovakia,Finland,1952,Grey,True,30
+Czechoslovakia,Japan,1964,Grey,True,30
+Denmark,Belgium,1920,Grey,True,28
+Denmark,France,1900,Grey,True,11
+Denmark,Great Britain,1948,Grey,True,37
+Denmark,Greece,1896,Grey,True,10
+Denmark,Sweden,1912,Grey,True,20
+East Germany,Canada,1976,Grey,True,195
+East Germany,Mexico,1968,Grey,True,52
+East Germany,South Korea,1988,Grey,True,211
+East Germany,Soviet Union,1980,Grey,True,257
+East Germany,West Germany,1972,Grey,True,129
+Finland,Belgium,1920,Grey,True,74
+Finland,Finland,1952,Blue,True,37
+Finland,France,1924,Grey,True,78
+Finland,Germany,1936,Grey,True,39
+Finland,Great Britain,1948,Grey,True,37
+Finland,Netherlands,1928,Grey,True,49
+Finland,Sweden,1912,Grey,True,52
+Finland,United States,1932,Grey,True,43
+France,Australia,2000,Grey,True,78
+France,Belgium,1920,Grey,True,78
+France,Brazil,2016,Grey,True,80
+France,China,2008,Grey,True,71
+France,Finland,1952,Grey,True,36
+France,France,1900,Blue,True,171
+France,France,1924,Blue,True,77
+France,Germany,1936,Grey,True,39
+France,Great Britain,1908,Grey,True,34
+France,Great Britain,1948,Grey,True,55
+France,Great Britain,2012,Grey,True,68
+France,Greece,1896,Grey,True,25
+France,Greece,2004,Grey,True,64
+France,Mexico,1968,Grey,True,32
+France,Netherlands,1928,Grey,True,44
+France,Soviet Union,1980,Grey,True,31
+France,Spain,1992,Grey,True,50
+France,Sweden,1912,Grey,True,32
+France,United States,1932,Grey,True,44
+France,United States,1984,Grey,True,45
+France,United States,1996,Grey,True,74
+Germany,Australia,2000,Grey,True,99
+Germany,Brazil,2016,Grey,True,86
+Germany,China,2008,Grey,True,83
+Germany,Finland,1952,Grey,True,31
+Germany,France,1900,Grey,True,14
+Germany,Germany,1936,Blue,True,181
+Germany,Great Britain,1908,Grey,True,25
+Germany,Great Britain,2012,Grey,True,86
+Germany,Greece,1896,Grey,True,30
+Germany,Greece,2004,Grey,True,91
+Germany,Netherlands,1928,Grey,True,58
+Germany,Spain,1992,Grey,True,169
+Germany,Sweden,1912,Grey,True,48
+Germany,United States,1904,Grey,True,25
+Germany,United States,1932,Grey,True,38
+Germany,United States,1996,Grey,True,123
+Great Britain,Australia,1956,Grey,True,43
+Great Britain,Australia,2000,Grey,True,60
+Great Britain,Belgium,1920,Grey,True,88
+Great Britain,Brazil,2016,Grey,True,142
+Great Britain,China,2008,Grey,True,98
+Great Britain,France,1900,Grey,True,65
+Great Britain,France,1924,Grey,True,65
+Great Britain,Germany,1936,Grey,True,29
+Great Britain,Great Britain,1908,Blue,True,303
+Great Britain,Great Britain,1948,Blue,True,43
+Great Britain,Great Britain,2012,Blue,True,140
+Great Britain,Greece,1896,Grey,True,14
+Great Britain,Greece,2004,Grey,True,57
+Great Britain,Italy,1960,Grey,True,30
+Great Britain,Japan,1964,Grey,True,38
+Great Britain,Netherlands,1928,Grey,True,36
+Great Britain,South Korea,1988,Grey,True,44
+Great Britain,Soviet Union,1980,Grey,True,38
+Great Britain,Sweden,1912,Grey,True,76
+Great Britain,United States,1904,Grey,True,5
+Great Britain,United States,1932,Grey,True,31
+Great Britain,United States,1984,Grey,True,58
+Greece,Greece,1896,Blue,True,82
+Greece,Greece,2004,Red,True,34
+Greece,United States,1904,Grey,True,4
+Hungary,Australia,1956,Grey,True,54
+Hungary,Canada,1976,Grey,True,35
+Hungary,Finland,1952,Grey,True,84
+Hungary,France,1900,Grey,True,9
+Hungary,Germany,1936,Grey,True,37
+Hungary,Great Britain,1908,Grey,True,19
+Hungary,Great Britain,1948,Grey,True,51
+Hungary,Greece,1896,Grey,True,11
+Hungary,Italy,1960,Grey,True,41
+Hungary,Japan,1964,Grey,True,49
+Hungary,Mexico,1968,Grey,True,62
+Hungary,South Korea,1988,Grey,True,51
+Hungary,Soviet Union,1980,Grey,True,56
+Hungary,Spain,1992,Grey,True,64
+Hungary,Sweden,1912,Grey,True,16
+Hungary,United States,1904,Grey,True,9
+Hungary,United States,1932,Grey,True,31
+Hungary,West Germany,1972,Grey,True,60
+Italy,Australia,1956,Grey,True,49
+Italy,Australia,2000,Grey,True,68
+Italy,Belgium,1920,Grey,True,53
+Italy,Brazil,2016,Grey,True,56
+Italy,China,2008,Grey,True,52
+Italy,Finland,1952,Grey,True,46
+Italy,France,1900,Grey,True,10
+Italy,France,1924,Grey,True,35
+Italy,Germany,1936,Grey,True,47
+Italy,Great Britain,1908,Grey,True,10
+Italy,Great Britain,1948,Grey,True,54
+Italy,Great Britain,2012,Grey,True,53
+Italy,Greece,2004,Grey,True,63
+Italy,Italy,1960,Blue,True,72
+Italy,Japan,1964,Grey,True,57
+Italy,Netherlands,1928,Grey,True,35
+Italy,Soviet Union,1980,Grey,True,34
+Italy,United States,1932,Grey,True,72
+Italy,United States,1984,Grey,True,66
+Italy,United States,1996,Grey,True,71
+Italy,West Germany,1972,Grey,True,31
+Japan,Australia,1956,Grey,True,35
+Japan,Brazil,2016,Grey,True,73
+Japan,Canada,1976,Grey,True,49
+Japan,China,2008,Grey,True,49
+Japan,Germany,1936,Grey,True,34
+Japan,Great Britain,2012,Grey,True,66
+Japan,Greece,2004,Grey,True,78
+Japan,Italy,1960,Grey,True,33
+Japan,Japan,1964,Blue,True,66
+Japan,Mexico,1968,Grey,True,54
+Japan,United States,1932,Grey,True,39
+Japan,United States,1984,Grey,True,58
+Japan,West Germany,1972,Grey,True,63
+Mexico,Mexico,1968,Red,True,18
+Mixed team,France,1900,Grey,True,20
+Mixed team,Greece,1896,Grey,True,6
+Mixed team,United States,1904,Grey,True,5
+Netherlands,Australia,2000,Grey,True,58
+Netherlands,Belgium,1920,Grey,True,21
+Netherlands,France,1924,Grey,True,19
+Netherlands,Germany,1936,Grey,True,33
+Netherlands,Netherlands,1928,Blue,True,42
+Norway,Belgium,1920,Grey,True,68
+Norway,France,1924,Grey,True,22
+Norway,Great Britain,1908,Grey,True,15
+Norway,Sweden,1912,Grey,True,18
+Poland,Canada,1976,Grey,True,46
+Poland,Italy,1960,Grey,True,35
+Poland,Japan,1964,Grey,True,43
+Poland,Mexico,1968,Grey,True,30
+Poland,Soviet Union,1980,Grey,True,52
+Poland,West Germany,1972,Grey,True,40
+Romania,Australia,1956,Grey,True,26
+Romania,Canada,1976,Grey,True,44
+Romania,Mexico,1968,Grey,True,29
+Romania,South Korea,1988,Grey,True,49
+Romania,Soviet Union,1980,Grey,True,43
+Romania,United States,1984,Grey,True,106
+Russia,Australia,2000,Grey,True,181
+Russia,Brazil,2016,Grey,True,110
+Russia,China,2008,Grey,True,139
+Russia,Great Britain,2012,Grey,True,127
+Russia,Greece,2004,Grey,True,173
+Russia,United States,1996,Grey,True,136
+South Africa,Sweden,1912,Grey,True,16
+South Korea,Brazil,2016,Grey,True,42
+South Korea,China,2008,Grey,True,67
+South Korea,Great Britain,2012,Grey,True,65
+South Korea,Greece,2004,Grey,True,60
+South Korea,South Korea,1988,Blue,True,67
+South Korea,Spain,1992,Grey,True,57
+South Korea,United States,1996,Grey,True,56
+Soviet Union,Australia,1956,Grey,True,201
+Soviet Union,Canada,1976,Grey,True,264
+Soviet Union,Finland,1952,Grey,True,143
+Soviet Union,Italy,1960,Grey,True,218
+Soviet Union,Japan,1964,Grey,True,183
+Soviet Union,Mexico,1968,Grey,True,181
+Soviet Union,South Korea,1988,Grey,True,270
+Soviet Union,Soviet Union,1980,Blue,True,424
+Soviet Union,West Germany,1972,Grey,True,226
+Spain,Spain,1992,Blue,True,55
+Sweden,Australia,1956,Grey,True,40
+Sweden,Belgium,1920,Grey,True,114
+Sweden,Finland,1952,Grey,True,72
+Sweden,France,1924,Grey,True,50
+Sweden,Germany,1936,Grey,True,37
+Sweden,Great Britain,1908,Grey,True,46
+Sweden,Great Britain,1948,Grey,True,87
+Sweden,Netherlands,1928,Grey,True,45
+Sweden,Sweden,1912,Blue,True,137
+Sweden,United States,1932,Grey,True,46
+Switzerland,France,1900,Grey,True,18
+Switzerland,France,1924,Grey,True,47
+Switzerland,Great Britain,1948,Grey,True,39
+Switzerland,Greece,1896,Grey,True,7
+Switzerland,Netherlands,1928,Grey,True,33
+Switzerland,United States,1904,Grey,True,4
+Turkey,Great Britain,1948,Grey,True,28
+Turkey,Italy,1960,Grey,True,25
+Ukraine,United States,1996,Grey,True,43
+Unified Team,Spain,1992,Grey,True,240
+United States,Australia,1956,Grey,True,163
+United States,Australia,2000,Grey,True,188
+United States,Belgium,1920,Grey,True,204
+United States,Brazil,2016,Grey,True,250
+United States,Canada,1976,Grey,True,197
+United States,China,2008,Grey,True,220
+United States,Finland,1952,Grey,True,175
+United States,France,1900,Grey,True,99
+United States,France,1924,Grey,True,216
+United States,Germany,1936,Grey,True,124
+United States,Great Britain,1908,Grey,True,102
+United States,Great Britain,1948,Grey,True,187
+United States,Great Britain,2012,Grey,True,223
+United States,Greece,1896,Grey,True,47
+United States,Greece,2004,Grey,True,213
+United States,Italy,1960,Grey,True,160
+United States,Japan,1964,Grey,True,188
+United States,Mexico,1968,Grey,True,225
+United States,Netherlands,1928,Grey,True,118
+United States,South Korea,1988,Grey,True,197
+United States,Spain,1992,Grey,True,216
+United States,Sweden,1912,Grey,True,130
+United States,United States,1904,Blue,True,469
+United States,United States,1932,Blue,True,217
+United States,United States,1984,Blue,True,398
+United States,United States,1996,Blue,True,221
+United States,West Germany,1972,Grey,True,191
+United Team of Germany,Australia,1956,Grey,True,51
+United Team of Germany,Italy,1960,Grey,True,85
+United Team of Germany,Japan,1964,Grey,True,92
+West Germany,Canada,1976,Grey,True,71
+West Germany,Mexico,1968,Grey,True,47
+West Germany,South Korea,1988,Grey,True,76
+West Germany,United States,1984,Grey,True,112
+West Germany,West Germany,1972,Blue,True,77

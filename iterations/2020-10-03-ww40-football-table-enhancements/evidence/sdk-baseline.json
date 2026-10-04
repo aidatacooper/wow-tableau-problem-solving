@@ -1,0 +1,9 @@
+{
+  "tested_commit": "cbe200a4a148f1825764de67bd3e8f0e6d01a113",
+  "result": "pass",
+  "scope": "Build imported src/cwtwb from exact git archive cbe200a in isolated subprocess, ahead of temporarily editable SDK. Raw/native verifier passed; Cloud pending.",
+  "module_path": "C:\\Users\\imgwho\\Desktop\\project\\wow-next-case\\scratch\\sdk-cbe200a-source\\src\\cwtwb\\__init__.py",
+  "source_archive_sha256": "7dbb967c29016c970fad98bf2bf20bcae94a4ed33d544a63ed55d8f89a2ea028",
+  "builder_sha256": "410fd9b9dc08f06e9ade4ec01a08e939d85b8c43f3cea56b131d3fb13e4a7638",
+  "artifact_sha256": "4b7515c2e915a1d730b689aeaee6fc783db40db6b23b3853bbd426ba27cb500b"
+}

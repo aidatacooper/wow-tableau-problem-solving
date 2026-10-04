@@ -1,0 +1,24 @@
+{
+  "original_sha256": "2e7d06f59b1ec7d2a97ed2dbd2fd90fb737fb54b4d3dffe5c28adca31dccad91",
+  "export_sha256": "edd5c241a8c61d25f7b6a712fc37fb261daced982d3288537a3fc84346eb1d46",
+  "transformation": "Only remove hidden attributes on existing worksheet windows. Original formulas, actions, layouts and packaged data remain unchanged.",
+  "worksheets_exposed": [
+    "Line",
+    "Rank1",
+    "Rank2",
+    "Rank3"
+  ],
+  "semantic_xml_equality_after_declared_window_change": true,
+  "semantic_xml_sha256": "7117d9d2ef1d34f8ee460a6f2ccac98cb0a097ff0653a8acd757aaf504735069",
+  "all_other_archive_members_unchanged": {
+    "Data/Datasources/Orders (Sample - Superstore).hyper": "74503d5feee6c12ea4cbcd4013c0459aeab2738143b9aa46edba19feb598a7a5",
+    "TwbxExternalCache/TwbxLQResultsCacheV3/1899293255/.bin": "81081db77b23a0bbb5db1f1bd833dec9291c7aeb508a39aff90e76d4834d7ab6",
+    "TwbxExternalCache/TwbxLQResultsCacheV3/1899293255/.key": "219cba75c2ce1b24b5d2678bb229663a04670e26984e6936b2bb589ff77c82e1",
+    "TwbxExternalCache/TwbxLQResultsCacheV3/4186933795/.bin": "299b6f328b5364ac4b146ec6c4ea55e12b3669acf20cbccb3666d48b60b21fa8",
+    "TwbxExternalCache/TwbxLQResultsCacheV3/4186933795/.key": "9cd601f54ed2d3d428fd3072225890de0cd567b92fc7ce61dc5faeee3dc76316",
+    "TwbxExternalCache/TwbxLQTimestampsCacheV3/3731027551/.bin": "090b8679b90df475582cedf79e9767b68c5d1ecdfc68d3688aee779f18769847",
+    "TwbxExternalCache/TwbxLQTimestampsCacheV3/3731027551/.key": "54c4c6cbd083b3a2c2563d433c762f12a688abce1ab5093ea71e99c2dcac0926",
+    "TwbxExternalCache/TwbxLQTimestampsCacheV3/379837746/.bin": "b647ee72bbd378ccc4949a54f80e500a9f72c62fec1e6868161f30577a5f041e",
+    "TwbxExternalCache/TwbxLQTimestampsCacheV3/379837746/.key": "1d44f71a1838c1bb5afd009ee3087a2c67735471eb58d5c08f32814e2838d874"
+  }
+}

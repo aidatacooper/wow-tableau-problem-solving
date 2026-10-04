@@ -1,0 +1,84 @@
+schema_version: 1.1.0
+case_id: wow-2020-ww31-olympic-rank-bump-chart
+iteration_id: 2020-08-01-ww31-olympic-rank-bump-chart
+post: https://donnacoles.home.blog/2020/08/01/can-you-show-the-top-10-rank-over-time-for-each-olympic-country/
+legacy_case_ids: {}
+article_date: '2020-08-01'
+challenge_year: 2020
+challenge_week: 31
+challenge_date: '2020-07-29'
+date_evidence:
+  article_date: Declared article publication date in iteration_id
+  challenge: Explicit challenge_year; week declared in iteration_id
+  challenge_date: Explicit official challenge publication date and URL
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2020w31/
+  article:
+    url: https://donnacoles.home.blog/2020/08/01/can-you-show-the-top-10-rank-over-time-for-each-olympic-country/
+    path: null
+    sha256: cc5324a92f55e3d5991ffbcacffa71e2fdd36ff61b88f47102dee24ca5d7c20a
+  workbook:
+    url: https://public.tableau.com/views/2020_07_29_WW31_Olympics_Rank_Bump_Chart/2020_07_29_WW31_Olympic_Rank_Bump_Chart
+    filename: author.twbx
+    sha256: bf5171201414aad93f1a088bd31979bc3fcde57c3ce93f7b022142a203705656
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- evidence/cloud-verification.json
+- evidence/export-provenance.json
+- evidence/functional-verification.json
+- evidence/sdk-final-validation.json
+- evidence/sdk-gap-baseline.json
+- evidence/visual-review.md
+- evidence/zero-build-verification.json
+- inputs/source-lock.json
+notes:
+- Generated index views must be refreshed after the workbook is built and verified.
+cwtwb:
+  tested_version: 0.27.1
+  runs:
+  - version: 0.27.1
+    commit: cbe200a
+    result: blocked
+    evidence: evidence/sdk-gap-baseline.json
+  - version: 0.27.1
+    commit: null
+    result: pass
+    evidence: evidence/functional-verification.json
+  - version: 0.27.1
+    commit: eb1380d5da9c1b1bf1b306128cb8397150ba1a53
+    result: pass
+    evidence: evidence/sdk-final-validation.json
+  tested_commit: eb1380d5da9c1b1bf1b306128cb8397150ba1a53
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: pass
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/Extract (Multiple Connections).hyper
+acceptance:
+- id: ww31-three-table-oracle
+  description: Complete raw Hyper country-year/athlete/host totals and rank tie ranges.
+  mode: automated
+- id: ww31-native-rank-vit
+  description: Native five charts, top10 nullable rank paths, reversed axes and multi-field
+    VIT/context filters.
+  mode: automated
+- id: ww31-cloud-rest
+  description: Paired full workbook renders and all five worksheet CSVs for default
+    / Year2008 / Year2016.
+  mode: automated
+remaining_work: []
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []
+acceptance_scope: cloud_rest_and_artifact_contracts
+browser_interaction_executed: false

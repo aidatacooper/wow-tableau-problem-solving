@@ -1,0 +1,7 @@
+{
+  "commit": "cbe200a4a148f1825764de67bd3e8f0e6d01a113",
+  "module": "C:\\Users\\imgwho\\Desktop\\project\\wow-next-case\\scratch\\sdk-cbe200a-source\\src\\cwtwb\\__init__.py",
+  "copy_default_device_layout_available": false,
+  "result": "blocked",
+  "reason": "Released SDK lacks explicit Phone device-layout copy; current enhanced SDK must be verified separately."
+}

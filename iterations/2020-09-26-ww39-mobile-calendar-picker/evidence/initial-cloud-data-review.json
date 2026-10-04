@@ -1,0 +1,439 @@
+{
+  "status": "data_pass_layout_blocked",
+  "artifact_sha256": "ff20461ca62906c22ba54c47725989207c019aed625fdc17ba3bd4d591bb8b53",
+  "checks": [
+    {
+      "state": "default",
+      "role": "author",
+      "view": "BAN",
+      "rows": 3
+    },
+    {
+      "state": "default",
+      "role": "author",
+      "view": "Calendar",
+      "rows": 30
+    },
+    {
+      "state": "default",
+      "role": "author",
+      "view": "Line ",
+      "rows": 13
+    },
+    {
+      "state": "default",
+      "role": "author",
+      "view": "Month",
+      "rows": 12
+    },
+    {
+      "state": "default",
+      "role": "author",
+      "view": "Month Name",
+      "rows": 1
+    },
+    {
+      "state": "default",
+      "role": "author",
+      "view": "Next Month Control",
+      "rows": 1
+    },
+    {
+      "state": "default",
+      "role": "author",
+      "view": "Prev Month Control",
+      "rows": 1
+    },
+    {
+      "state": "default",
+      "role": "author",
+      "view": "Selected Period",
+      "rows": 1
+    },
+    {
+      "state": "default",
+      "role": "author",
+      "view": "Year",
+      "rows": 4
+    },
+    {
+      "state": "default",
+      "role": "replica",
+      "view": "BAN",
+      "rows": 3
+    },
+    {
+      "state": "default",
+      "role": "replica",
+      "view": "Calendar",
+      "rows": 30
+    },
+    {
+      "state": "default",
+      "role": "replica",
+      "view": "Line ",
+      "rows": 13
+    },
+    {
+      "state": "default",
+      "role": "replica",
+      "view": "Month",
+      "rows": 12
+    },
+    {
+      "state": "default",
+      "role": "replica",
+      "view": "Month Name",
+      "rows": 1
+    },
+    {
+      "state": "default",
+      "role": "replica",
+      "view": "Next Month Control",
+      "rows": 1
+    },
+    {
+      "state": "default",
+      "role": "replica",
+      "view": "Prev Month Control",
+      "rows": 1
+    },
+    {
+      "state": "default",
+      "role": "replica",
+      "view": "Selected Period",
+      "rows": 1
+    },
+    {
+      "state": "default",
+      "role": "replica",
+      "view": "Year",
+      "rows": 4
+    },
+    {
+      "state": "july",
+      "role": "author",
+      "view": "BAN",
+      "rows": 3
+    },
+    {
+      "state": "july",
+      "role": "author",
+      "view": "Calendar",
+      "rows": 31
+    },
+    {
+      "state": "july",
+      "role": "author",
+      "view": "Line ",
+      "rows": 7
+    },
+    {
+      "state": "july",
+      "role": "author",
+      "view": "Month",
+      "rows": 12
+    },
+    {
+      "state": "july",
+      "role": "author",
+      "view": "Month Name",
+      "rows": 1
+    },
+    {
+      "state": "july",
+      "role": "author",
+      "view": "Next Month Control",
+      "rows": 1
+    },
+    {
+      "state": "july",
+      "role": "author",
+      "view": "Prev Month Control",
+      "rows": 1
+    },
+    {
+      "state": "july",
+      "role": "author",
+      "view": "Selected Period",
+      "rows": 1
+    },
+    {
+      "state": "july",
+      "role": "author",
+      "view": "Year",
+      "rows": 4
+    },
+    {
+      "state": "july",
+      "role": "replica",
+      "view": "BAN",
+      "rows": 3
+    },
+    {
+      "state": "july",
+      "role": "replica",
+      "view": "Calendar",
+      "rows": 31
+    },
+    {
+      "state": "july",
+      "role": "replica",
+      "view": "Line ",
+      "rows": 7
+    },
+    {
+      "state": "july",
+      "role": "replica",
+      "view": "Month",
+      "rows": 12
+    },
+    {
+      "state": "july",
+      "role": "replica",
+      "view": "Month Name",
+      "rows": 1
+    },
+    {
+      "state": "july",
+      "role": "replica",
+      "view": "Next Month Control",
+      "rows": 1
+    },
+    {
+      "state": "july",
+      "role": "replica",
+      "view": "Prev Month Control",
+      "rows": 1
+    },
+    {
+      "state": "july",
+      "role": "replica",
+      "view": "Selected Period",
+      "rows": 1
+    },
+    {
+      "state": "july",
+      "role": "replica",
+      "view": "Year",
+      "rows": 4
+    },
+    {
+      "state": "leap-february",
+      "role": "author",
+      "view": "BAN",
+      "rows": 3
+    },
+    {
+      "state": "leap-february",
+      "role": "author",
+      "view": "Calendar",
+      "rows": 29
+    },
+    {
+      "state": "leap-february",
+      "role": "author",
+      "view": "Line ",
+      "rows": 20
+    },
+    {
+      "state": "leap-february",
+      "role": "author",
+      "view": "Month",
+      "rows": 12
+    },
+    {
+      "state": "leap-february",
+      "role": "author",
+      "view": "Month Name",
+      "rows": 1
+    },
+    {
+      "state": "leap-february",
+      "role": "author",
+      "view": "Next Month Control",
+      "rows": 1
+    },
+    {
+      "state": "leap-february",
+      "role": "author",
+      "view": "Prev Month Control",
+      "rows": 1
+    },
+    {
+      "state": "leap-february",
+      "role": "author",
+      "view": "Selected Period",
+      "rows": 1
+    },
+    {
+      "state": "leap-february",
+      "role": "author",
+      "view": "Year",
+      "rows": 4
+    },
+    {
+      "state": "leap-february",
+      "role": "replica",
+      "view": "BAN",
+      "rows": 3
+    },
+    {
+      "state": "leap-february",
+      "role": "replica",
+      "view": "Calendar",
+      "rows": 29
+    },
+    {
+      "state": "leap-february",
+      "role": "replica",
+      "view": "Line ",
+      "rows": 20
+    },
+    {
+      "state": "leap-february",
+      "role": "replica",
+      "view": "Month",
+      "rows": 12
+    },
+    {
+      "state": "leap-february",
+      "role": "replica",
+      "view": "Month Name",
+      "rows": 1
+    },
+    {
+      "state": "leap-february",
+      "role": "replica",
+      "view": "Next Month Control",
+      "rows": 1
+    },
+    {
+      "state": "leap-february",
+      "role": "replica",
+      "view": "Prev Month Control",
+      "rows": 1
+    },
+    {
+      "state": "leap-february",
+      "role": "replica",
+      "view": "Selected Period",
+      "rows": 1
+    },
+    {
+      "state": "leap-february",
+      "role": "replica",
+      "view": "Year",
+      "rows": 4
+    },
+    {
+      "state": "december",
+      "role": "author",
+      "view": "BAN",
+      "rows": 3
+    },
+    {
+      "state": "december",
+      "role": "author",
+      "view": "Calendar",
+      "rows": 31
+    },
+    {
+      "state": "december",
+      "role": "author",
+      "view": "Line ",
+      "rows": 14
+    },
+    {
+      "state": "december",
+      "role": "author",
+      "view": "Month",
+      "rows": 12
+    },
+    {
+      "state": "december",
+      "role": "author",
+      "view": "Month Name",
+      "rows": 1
+    },
+    {
+      "state": "december",
+      "role": "author",
+      "view": "Next Month Control",
+      "rows": 1
+    },
+    {
+      "state": "december",
+      "role": "author",
+      "view": "Prev Month Control",
+      "rows": 1
+    },
+    {
+      "state": "december",
+      "role": "author",
+      "view": "Selected Period",
+      "rows": 1
+    },
+    {
+      "state": "december",
+      "role": "author",
+      "view": "Year",
+      "rows": 4
+    },
+    {
+      "state": "december",
+      "role": "replica",
+      "view": "BAN",
+      "rows": 3
+    },
+    {
+      "state": "december",
+      "role": "replica",
+      "view": "Calendar",
+      "rows": 31
+    },
+    {
+      "state": "december",
+      "role": "replica",
+      "view": "Line ",
+      "rows": 14
+    },
+    {
+      "state": "december",
+      "role": "replica",
+      "view": "Month",
+      "rows": 12
+    },
+    {
+      "state": "december",
+      "role": "replica",
+      "view": "Month Name",
+      "rows": 1
+    },
+    {
+      "state": "december",
+      "role": "replica",
+      "view": "Next Month Control",
+      "rows": 1
+    },
+    {
+      "state": "december",
+      "role": "replica",
+      "view": "Prev Month Control",
+      "rows": 1
+    },
+    {
+      "state": "december",
+      "role": "replica",
+      "view": "Selected Period",
+      "rows": 1
+    },
+    {
+      "state": "december",
+      "role": "replica",
+      "view": "Year",
+      "rows": 4
+    }
+  ],
+  "scope": "Calendar full dates/colors and BAN exact full sums; all fact-backed daily values. Source daily CSV full precision; current replica daily currency CSV rounded to whole dollars, checked with 0.501 tolerance; controls require source-field grain correction."
+}

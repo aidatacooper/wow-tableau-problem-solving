@@ -1,0 +1,11 @@
+{
+  "version": "0.27.1",
+  "commit": "cbe200a4a148f1825764de67bd3e8f0e6d01a113",
+  "result": "pass",
+  "checks": [
+    "Native two-axis daily/weekly Gantt construction",
+    "Week addressing and nested TOTAL metadata",
+    "5040 raw records and 720 independent event/week sums"
+  ],
+  "limitation": "Source uses stepped green gradient; baseline API supports continuous custom colors only. Cloud rendering remains untested."
+}

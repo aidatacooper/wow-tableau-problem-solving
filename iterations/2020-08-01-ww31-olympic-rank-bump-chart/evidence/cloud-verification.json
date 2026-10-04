@@ -1,0 +1,552 @@
+{
+  "case_id": "wow-2020-ww31-olympic-rank-bump-chart",
+  "captured_at": "2026-10-04T08:39:02.139162+00:00",
+  "source_hashes": {
+    "author": "5d4387203a6220843d09ddd8b98a29730717eaa680dc662ecef9402dbfda1ab5",
+    "replica": "2ef6550a25fc078ec2265e5fdb90f32f4e9ecbfab7676368cdb37214036f95d9"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "1e4b3a59-fcfb-4066-859f-59f13b152af6",
+      "name": "cwtwb-review-wow-2020-ww31-olympic-rank-bump-chart-author-5d4387203a62",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2934796",
+      "views": [
+        {
+          "name": "2020_07_29_WW31_Olympic_Rank_Bump_Chart",
+          "id": "1b3613cd-dff2-43fc-94f2-3520f1172dd8"
+        },
+        {
+          "name": "Data",
+          "id": "762ae130-5bb9-4a84-bf2f-a683965c8db7"
+        },
+        {
+          "name": "Host in Top 10 Data",
+          "id": "949e587d-4f08-484e-8d97-c9acae45e42c"
+        },
+        {
+          "name": "Bump",
+          "id": "dac61de0-aed3-4cb4-865d-e85cc713a316"
+        },
+        {
+          "name": "Host in Top 10",
+          "id": "bfd2b7f9-0672-4d50-84b9-a34bec195308"
+        },
+        {
+          "name": "Medals",
+          "id": "b930b98a-3109-43cd-be7e-7ae10784c1e8"
+        },
+        {
+          "name": "Top 10 Countries",
+          "id": "4cd11e9f-9275-40e1-ad2a-1fb9362cbf6e"
+        },
+        {
+          "name": "Top 10 Medalists",
+          "id": "2336a0cf-190b-4841-8182-46383ff8742a"
+        }
+      ]
+    },
+    "replica": {
+      "id": "787354d7-f4e7-4802-9e46-acdcde2cef06",
+      "name": "cwtwb-review-wow-2020-ww31-olympic-rank-bump-chart-replica-2ef6550a25fc",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2934889",
+      "views": [
+        {
+          "name": "Bump",
+          "id": "2b712fb3-31b2-4cc6-8699-6a3ef244691c"
+        },
+        {
+          "name": "Medals",
+          "id": "ef4e6ee9-bb31-435f-8d99-d69abef0b1ab"
+        },
+        {
+          "name": "Top 10 Medalists",
+          "id": "4a7953ae-ffdc-483f-941d-0b3e71826cdb"
+        },
+        {
+          "name": "Top 10 Countries",
+          "id": "278c7dd9-4fd3-4299-8929-58adf8621e7a"
+        },
+        {
+          "name": "Host in Top 10",
+          "id": "905992a7-48c9-4b87-9dfa-911d95702f23"
+        },
+        {
+          "name": "2020_07_29_WW31_Olympic_Rank_Bump_Chart",
+          "id": "2ce5c998-a001-4570-840e-4153c6d38104"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "1b3613cd-dff2-43fc-94f2-3520f1172dd8",
+          "name": "2020_07_29_WW31_Olympic_Rank_Bump_Chart",
+          "path": "outputs/cloud-author.png",
+          "sha256": "53cffafb12df9e9a48e3f108f9bd33625441d359d025f76101f5ad1a0a1b41f0",
+          "size": [
+            2000,
+            1400
+          ]
+        },
+        "replica": {
+          "id": "2ce5c998-a001-4570-840e-4153c6d38104",
+          "name": "2020_07_29_WW31_Olympic_Rank_Bump_Chart",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "5071cd0c9ec054960587b3377e34493f13145cd33c6da04893eee3ac6541f01b",
+          "size": [
+            2000,
+            1400
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Bump",
+          "view_id": "dac61de0-aed3-4cb4-865d-e85cc713a316",
+          "scope": "Complete existing worksheet REST state. Embedded tooltip/selection event execution is not claimed; raw Hyper independently covers entire data.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-bump.csv",
+          "sha256": "bf6af2b1f43b78a36bb40c7aff4f444650d2feb18cdf3d4c65d0c46eb3facddd",
+          "bytes": 205551
+        },
+        {
+          "role": "author",
+          "view": "Host in Top 10",
+          "view_id": "bfd2b7f9-0672-4d50-84b9-a34bec195308",
+          "scope": "Complete existing worksheet REST state. Embedded tooltip/selection event execution is not claimed; raw Hyper independently covers entire data.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-host.csv",
+          "sha256": "7bb9557f3093f3bd616645529a32f7cb784470a394e7160a187560b9a5fa174c",
+          "bytes": 1049
+        },
+        {
+          "role": "author",
+          "view": "Medals",
+          "view_id": "b930b98a-3109-43cd-be7e-7ae10784c1e8",
+          "scope": "Complete existing worksheet REST state. Embedded tooltip/selection event execution is not claimed; raw Hyper independently covers entire data.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-medals.csv",
+          "sha256": "153bcd111902772b30543ace27a795fd3c5c0b5b1cd7817cfa5fdc816f9a1052",
+          "bytes": 83131
+        },
+        {
+          "role": "author",
+          "view": "Top 10 Medalists",
+          "view_id": "2336a0cf-190b-4841-8182-46383ff8742a",
+          "scope": "Complete existing worksheet REST state. Embedded tooltip/selection event execution is not claimed; raw Hyper independently covers entire data.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-athletes.csv",
+          "sha256": "b9e445b00bb677b14c11e6d4be2b856a82da5711d5675e68ec193956c3168a12",
+          "bytes": 2931
+        },
+        {
+          "role": "author",
+          "view": "Top 10 Countries",
+          "view_id": "4cd11e9f-9275-40e1-ad2a-1fb9362cbf6e",
+          "scope": "Complete existing worksheet REST state. Embedded tooltip/selection event execution is not claimed; raw Hyper independently covers entire data.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-top-countries.csv",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        {
+          "role": "replica",
+          "view": "Bump",
+          "view_id": "2b712fb3-31b2-4cc6-8699-6a3ef244691c",
+          "scope": "Complete existing worksheet REST state. Embedded tooltip/selection event execution is not claimed; raw Hyper independently covers entire data.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-bump.csv",
+          "sha256": "bc9bd5e9e64d202c8109ba44d4bf660fc35f9f18768ab31c4e25b181ae498eca",
+          "bytes": 183665
+        },
+        {
+          "role": "replica",
+          "view": "Host in Top 10",
+          "view_id": "905992a7-48c9-4b87-9dfa-911d95702f23",
+          "scope": "Complete existing worksheet REST state. Embedded tooltip/selection event execution is not claimed; raw Hyper independently covers entire data.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-host.csv",
+          "sha256": "0bf13ee6df3129fa9f68feac89ed135d38293957f7487cefdf21e44933f5dee4",
+          "bytes": 1272
+        },
+        {
+          "role": "replica",
+          "view": "Medals",
+          "view_id": "ef4e6ee9-bb31-435f-8d99-d69abef0b1ab",
+          "scope": "Complete existing worksheet REST state. Embedded tooltip/selection event execution is not claimed; raw Hyper independently covers entire data.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-medals.csv",
+          "sha256": "5e089ba2a05438017e6c9e5b4f0f67be22182eed69ced3c8e5976d0b57c7c3d4",
+          "bytes": 83125
+        },
+        {
+          "role": "replica",
+          "view": "Top 10 Medalists",
+          "view_id": "4a7953ae-ffdc-483f-941d-0b3e71826cdb",
+          "scope": "Complete existing worksheet REST state. Embedded tooltip/selection event execution is not claimed; raw Hyper independently covers entire data.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-athletes.csv",
+          "sha256": "62a0decb26f91a354c0af0104f55e17850eaea4b0798cdea8ed96fa5dbfeacbc",
+          "bytes": 2921
+        },
+        {
+          "role": "replica",
+          "view": "Top 10 Countries",
+          "view_id": "278c7dd9-4fd3-4299-8929-58adf8621e7a",
+          "scope": "Complete existing worksheet REST state. Embedded tooltip/selection event execution is not claimed; raw Hyper independently covers entire data.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-top-countries.csv",
+          "sha256": "042a28cb5922e0d150f1cf3e4266cca3461ab87ccfc9641a5c9bd5281815001f",
+          "bytes": 10655
+        }
+      ]
+    },
+    {
+      "name": "year-2008",
+      "parameters": {},
+      "filters": {
+        "Year": "2008"
+      },
+      "views": {
+        "author": {
+          "id": "1b3613cd-dff2-43fc-94f2-3520f1172dd8",
+          "name": "2020_07_29_WW31_Olympic_Rank_Bump_Chart",
+          "path": "outputs/cloud-author-year-2008.png",
+          "sha256": "5ccfc73a9246e5259d0e88f42119813091435c69847feebd278fd48a05250968",
+          "size": [
+            2000,
+            1400
+          ]
+        },
+        "replica": {
+          "id": "2ce5c998-a001-4570-840e-4153c6d38104",
+          "name": "2020_07_29_WW31_Olympic_Rank_Bump_Chart",
+          "path": "outputs/cloud-replica-year-2008.png",
+          "sha256": "f56d46606c3823ab321da0bfb755af4c855f7c11185e74e5c086517458468384",
+          "size": [
+            2000,
+            1400
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Bump",
+          "view_id": "dac61de0-aed3-4cb4-865d-e85cc713a316",
+          "scope": "Complete existing worksheet REST state. Embedded tooltip/selection event execution is not claimed; raw Hyper independently covers entire data.",
+          "parameters": {},
+          "filters": {
+            "Year": "2008"
+          },
+          "path": "outputs/cloud-author-bump-year-2008.csv",
+          "sha256": "a7b6288f598a595918f873e893f883f26a3c6604262407bcc7d679ca716cfc8a",
+          "bytes": 8411
+        },
+        {
+          "role": "author",
+          "view": "Host in Top 10",
+          "view_id": "bfd2b7f9-0672-4d50-84b9-a34bec195308",
+          "scope": "Complete existing worksheet REST state. Embedded tooltip/selection event execution is not claimed; raw Hyper independently covers entire data.",
+          "parameters": {},
+          "filters": {
+            "Year": "2008"
+          },
+          "path": "outputs/cloud-author-host-year-2008.csv",
+          "sha256": "77f191ceac6fa655f97b42c10c35581caaec893bde64c30d55d90f33ee056e44",
+          "bytes": 117
+        },
+        {
+          "role": "author",
+          "view": "Medals",
+          "view_id": "b930b98a-3109-43cd-be7e-7ae10784c1e8",
+          "scope": "Complete existing worksheet REST state. Embedded tooltip/selection event execution is not claimed; raw Hyper independently covers entire data.",
+          "parameters": {},
+          "filters": {
+            "Year": "2008"
+          },
+          "path": "outputs/cloud-author-medals-year-2008.csv",
+          "sha256": "ceb71f7f1b6e84065d897d88c5f3d78494b405659750fd66ed15c58bff458776",
+          "bytes": 5747
+        },
+        {
+          "role": "author",
+          "view": "Top 10 Medalists",
+          "view_id": "2336a0cf-190b-4841-8182-46383ff8742a",
+          "scope": "Complete existing worksheet REST state. Embedded tooltip/selection event execution is not claimed; raw Hyper independently covers entire data.",
+          "parameters": {},
+          "filters": {
+            "Year": "2008"
+          },
+          "path": "outputs/cloud-author-athletes-year-2008.csv",
+          "sha256": "b965f69831b69d392f93ad40caab50147115ac99740add7d1f8a24ae41dee4c2",
+          "bytes": 101
+        },
+        {
+          "role": "author",
+          "view": "Top 10 Countries",
+          "view_id": "4cd11e9f-9275-40e1-ad2a-1fb9362cbf6e",
+          "scope": "Complete existing worksheet REST state. Embedded tooltip/selection event execution is not claimed; raw Hyper independently covers entire data.",
+          "parameters": {},
+          "filters": {
+            "Year": "2008"
+          },
+          "path": "outputs/cloud-author-top-countries-year-2008.csv",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        {
+          "role": "replica",
+          "view": "Bump",
+          "view_id": "2b712fb3-31b2-4cc6-8699-6a3ef244691c",
+          "scope": "Complete existing worksheet REST state. Embedded tooltip/selection event execution is not claimed; raw Hyper independently covers entire data.",
+          "parameters": {},
+          "filters": {
+            "Year": "2008"
+          },
+          "path": "outputs/cloud-replica-bump-year-2008.csv",
+          "sha256": "58834f89615403fd1161fc6dac4b2fa3529d8360313bdac107e05e5698077bba",
+          "bytes": 7469
+        },
+        {
+          "role": "replica",
+          "view": "Host in Top 10",
+          "view_id": "905992a7-48c9-4b87-9dfa-911d95702f23",
+          "scope": "Complete existing worksheet REST state. Embedded tooltip/selection event execution is not claimed; raw Hyper independently covers entire data.",
+          "parameters": {},
+          "filters": {
+            "Year": "2008"
+          },
+          "path": "outputs/cloud-replica-host-year-2008.csv",
+          "sha256": "a8561a511638a58b226dea67317acaf199c851d49234edf321645ee73b5ee12f",
+          "bytes": 151
+        },
+        {
+          "role": "replica",
+          "view": "Medals",
+          "view_id": "ef4e6ee9-bb31-435f-8d99-d69abef0b1ab",
+          "scope": "Complete existing worksheet REST state. Embedded tooltip/selection event execution is not claimed; raw Hyper independently covers entire data.",
+          "parameters": {},
+          "filters": {
+            "Year": "2008"
+          },
+          "path": "outputs/cloud-replica-medals-year-2008.csv",
+          "sha256": "0cd9897bf1dd74b79ae9d33719e5c5095435a76561e9aca3a312fcc06698b43b",
+          "bytes": 5741
+        },
+        {
+          "role": "replica",
+          "view": "Top 10 Medalists",
+          "view_id": "4a7953ae-ffdc-483f-941d-0b3e71826cdb",
+          "scope": "Complete existing worksheet REST state. Embedded tooltip/selection event execution is not claimed; raw Hyper independently covers entire data.",
+          "parameters": {},
+          "filters": {
+            "Year": "2008"
+          },
+          "path": "outputs/cloud-replica-athletes-year-2008.csv",
+          "sha256": "69fb8215ce7993b51205289e7178ce22140c04e820dcdf75bf593770887fbb72",
+          "bytes": 91
+        },
+        {
+          "role": "replica",
+          "view": "Top 10 Countries",
+          "view_id": "278c7dd9-4fd3-4299-8929-58adf8621e7a",
+          "scope": "Complete existing worksheet REST state. Embedded tooltip/selection event execution is not claimed; raw Hyper independently covers entire data.",
+          "parameters": {},
+          "filters": {
+            "Year": "2008"
+          },
+          "path": "outputs/cloud-replica-top-countries-year-2008.csv",
+          "sha256": "e99687024d5d43bfec6b8cd307c681c56bcc8d91fde33385f42034f243d954b0",
+          "bytes": 400
+        }
+      ]
+    },
+    {
+      "name": "year-2016",
+      "parameters": {},
+      "filters": {
+        "Year": "2016"
+      },
+      "views": {
+        "author": {
+          "id": "1b3613cd-dff2-43fc-94f2-3520f1172dd8",
+          "name": "2020_07_29_WW31_Olympic_Rank_Bump_Chart",
+          "path": "outputs/cloud-author-year-2016.png",
+          "sha256": "7dcd53b2cf7c03e78e8b5a6b9596294bc0d7a71b7bc3ba7870d3c6df8029bf0e",
+          "size": [
+            2000,
+            1400
+          ]
+        },
+        "replica": {
+          "id": "2ce5c998-a001-4570-840e-4153c6d38104",
+          "name": "2020_07_29_WW31_Olympic_Rank_Bump_Chart",
+          "path": "outputs/cloud-replica-year-2016.png",
+          "sha256": "f4ad2a3ad0f9696b2a6bbef721feec4b92e2c87c800b03e7f94e826236b506f4",
+          "size": [
+            2000,
+            1400
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Bump",
+          "view_id": "dac61de0-aed3-4cb4-865d-e85cc713a316",
+          "scope": "Complete existing worksheet REST state. Embedded tooltip/selection event execution is not claimed; raw Hyper independently covers entire data.",
+          "parameters": {},
+          "filters": {
+            "Year": "2016"
+          },
+          "path": "outputs/cloud-author-bump-year-2016.csv",
+          "sha256": "7feb2e2f999644532bfbd1f7f41a7c6df5a08025cb246bbacafaa83595cd9886",
+          "bytes": 8403
+        },
+        {
+          "role": "author",
+          "view": "Host in Top 10",
+          "view_id": "bfd2b7f9-0672-4d50-84b9-a34bec195308",
+          "scope": "Complete existing worksheet REST state. Embedded tooltip/selection event execution is not claimed; raw Hyper independently covers entire data.",
+          "parameters": {},
+          "filters": {
+            "Year": "2016"
+          },
+          "path": "outputs/cloud-author-host-year-2016.csv",
+          "sha256": "7745c0c053898d5fe76db09a5fdc257d0d2200eb8b735e4d767dc71783cf6466",
+          "bytes": 115
+        },
+        {
+          "role": "author",
+          "view": "Medals",
+          "view_id": "b930b98a-3109-43cd-be7e-7ae10784c1e8",
+          "scope": "Complete existing worksheet REST state. Embedded tooltip/selection event execution is not claimed; raw Hyper independently covers entire data.",
+          "parameters": {},
+          "filters": {
+            "Year": "2016"
+          },
+          "path": "outputs/cloud-author-medals-year-2016.csv",
+          "sha256": "324bc5fb77c3ed14b1feb988af32abacd98aac253e3d9e9141ff565f926f077a",
+          "bytes": 5775
+        },
+        {
+          "role": "author",
+          "view": "Top 10 Medalists",
+          "view_id": "2336a0cf-190b-4841-8182-46383ff8742a",
+          "scope": "Complete existing worksheet REST state. Embedded tooltip/selection event execution is not claimed; raw Hyper independently covers entire data.",
+          "parameters": {},
+          "filters": {
+            "Year": "2016"
+          },
+          "path": "outputs/cloud-author-athletes-year-2016.csv",
+          "sha256": "ad89b9ab5cf1af2d763b6dafa7d8243e4b5117a057f63994c551c548396e3b69",
+          "bytes": 141
+        },
+        {
+          "role": "author",
+          "view": "Top 10 Countries",
+          "view_id": "4cd11e9f-9275-40e1-ad2a-1fb9362cbf6e",
+          "scope": "Complete existing worksheet REST state. Embedded tooltip/selection event execution is not claimed; raw Hyper independently covers entire data.",
+          "parameters": {},
+          "filters": {
+            "Year": "2016"
+          },
+          "path": "outputs/cloud-author-top-countries-year-2016.csv",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        {
+          "role": "replica",
+          "view": "Bump",
+          "view_id": "2b712fb3-31b2-4cc6-8699-6a3ef244691c",
+          "scope": "Complete existing worksheet REST state. Embedded tooltip/selection event execution is not claimed; raw Hyper independently covers entire data.",
+          "parameters": {},
+          "filters": {
+            "Year": "2016"
+          },
+          "path": "outputs/cloud-replica-bump-year-2016.csv",
+          "sha256": "2497985e5a7b7ef36af9cc4f21f572b0f9f09262d5421c29560e1a069de8f040",
+          "bytes": 7471
+        },
+        {
+          "role": "replica",
+          "view": "Host in Top 10",
+          "view_id": "905992a7-48c9-4b87-9dfa-911d95702f23",
+          "scope": "Complete existing worksheet REST state. Embedded tooltip/selection event execution is not claimed; raw Hyper independently covers entire data.",
+          "parameters": {},
+          "filters": {
+            "Year": "2016"
+          },
+          "path": "outputs/cloud-replica-host-year-2016.csv",
+          "sha256": "1ef6cc2e9d9cee017748ca0b74642ae598bf28ab0b4b1421ecb3263c3cd092c1",
+          "bytes": 149
+        },
+        {
+          "role": "replica",
+          "view": "Medals",
+          "view_id": "ef4e6ee9-bb31-435f-8d99-d69abef0b1ab",
+          "scope": "Complete existing worksheet REST state. Embedded tooltip/selection event execution is not claimed; raw Hyper independently covers entire data.",
+          "parameters": {},
+          "filters": {
+            "Year": "2016"
+          },
+          "path": "outputs/cloud-replica-medals-year-2016.csv",
+          "sha256": "5ef90f4a94efedecc07669d99bd54261a7fc97b1a3f75f9c6661bc21db9b18fa",
+          "bytes": 5769
+        },
+        {
+          "role": "replica",
+          "view": "Top 10 Medalists",
+          "view_id": "4a7953ae-ffdc-483f-941d-0b3e71826cdb",
+          "scope": "Complete existing worksheet REST state. Embedded tooltip/selection event execution is not claimed; raw Hyper independently covers entire data.",
+          "parameters": {},
+          "filters": {
+            "Year": "2016"
+          },
+          "path": "outputs/cloud-replica-athletes-year-2016.csv",
+          "sha256": "493f08a45116958c1ffbbde978f14da3d508e261506f9240e8b3030b89645b83",
+          "bytes": 131
+        },
+        {
+          "role": "replica",
+          "view": "Top 10 Countries",
+          "view_id": "278c7dd9-4fd3-4299-8929-58adf8621e7a",
+          "scope": "Complete existing worksheet REST state. Embedded tooltip/selection event execution is not claimed; raw Hyper independently covers entire data.",
+          "parameters": {},
+          "filters": {
+            "Year": "2016"
+          },
+          "path": "outputs/cloud-replica-top-countries-year-2016.csv",
+          "sha256": "eaf6db1773f5c1e0f0efc21f3b30097d67810bb64550cc76937eba9eba1f202d",
+          "bytes": 442
+        }
+      ]
+    }
+  ],
+  "status": "verified",
+  "independent_review": {
+    "visual_status": "acceptable_delta",
+    "visual_evidence": "evidence/visual-review.md",
+    "functional_evidence": "evidence/functional-verification.json",
+    "scope": "Declared REST worksheet exports and artifact contracts; no browser events executed."
+  }
+}

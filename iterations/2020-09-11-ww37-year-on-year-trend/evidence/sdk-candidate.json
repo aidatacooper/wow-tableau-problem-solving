@@ -1,0 +1,7 @@
+{
+  "version": "0.27.1",
+  "commit": null,
+  "installation": "editable ../wow-next-sdk candidate",
+  "result": "pass",
+  "scope": "Uses existing public context date filters, geocoding, layered map and viz-in-tooltip APIs. No new case-driven SDK primitive required. Build/direct verifier pass; Cloud actual date-state rendering pending."
+}

@@ -1,0 +1,97 @@
+$ Label Prefix,% Label Suffix,Category,Label:Category,Quarter of Order Date,Display Measure,Display Ref Line,Ref Line - Furniture,Ref Line - OS,Ref Line - Tech,Ref Line per Category,SELECT A MEASURE
+,,Furniture,,2016 Q1,4.57,,4.561875,,,,Items Per Order
+,,Furniture,,2016 Q2,4.35,,4.561875,,,,Items Per Order
+,,Furniture,,2016 Q3,4.42,,4.561875,,,,Items Per Order
+,,Furniture,,2016 Q4,4.86,,4.561875,,,,Items Per Order
+,,Furniture,,2017 Q1,5.42,,4.561875,,,,Items Per Order
+,,Furniture,,2017 Q2,4.86,,4.561875,,,,Items Per Order
+,,Furniture,,2017 Q3,4.48,,4.561875,,,,Items Per Order
+,,Furniture,,2017 Q4,4.78,,4.561875,,,,Items Per Order
+,,Furniture,,2018 Q1,4.55,,4.561875,,,,Items Per Order
+,,Furniture,,2018 Q2,4.5,,4.561875,,,,Items Per Order
+,,Furniture,,2018 Q3,4.46,,4.561875,,,,Items Per Order
+,,Furniture,,2018 Q4,4.79,,4.561875,,,,Items Per Order
+,,Furniture,,2019 Q1,3.84,,4.561875,,,,Items Per Order
+,,Furniture,,2019 Q2,4.31,,4.561875,,,,Items Per Order
+,,Furniture,,2019 Q3,4.31,,4.561875,,,,Items Per Order
+,,Furniture,,2019 Q4,4.49,,4.561875,,,,Items Per Order
+,,Office Supplies,,2016 Q1,6.06,,,6.098125,,,Items Per Order
+,,Office Supplies,,2016 Q2,6.45,,,6.098125,,,Items Per Order
+,,Office Supplies,,2016 Q3,6.29,,,6.098125,,,Items Per Order
+,,Office Supplies,,2016 Q4,5.86,,,6.098125,,,Items Per Order
+,,Office Supplies,,2017 Q1,5.67,,,6.098125,,,Items Per Order
+,,Office Supplies,,2017 Q2,5.87,,,6.098125,,,Items Per Order
+,,Office Supplies,,2017 Q3,6.33,,,6.098125,,,Items Per Order
+,,Office Supplies,,2017 Q4,6.11,,,6.098125,,,Items Per Order
+,,Office Supplies,,2018 Q1,5.47,,,6.098125,,,Items Per Order
+,,Office Supplies,,2018 Q2,6.54,,,6.098125,,,Items Per Order
+,,Office Supplies,,2018 Q3,6.08,,,6.098125,,,Items Per Order
+,,Office Supplies,,2018 Q4,6.61,,,6.098125,,,Items Per Order
+,,Office Supplies,,2019 Q1,6.42,,,6.098125,,,Items Per Order
+,,Office Supplies,,2019 Q2,5.58,,,6.098125,,,Items Per Order
+,,Office Supplies,,2019 Q3,6.17,,,6.098125,,,Items Per Order
+,,Office Supplies,,2019 Q4,6.06,,,6.098125,,,Items Per Order
+,,Technology,,2016 Q1,4.91,,,,4.504375,,Items Per Order
+,,Technology,,2016 Q2,4.66,,,,4.504375,,Items Per Order
+,,Technology,,2016 Q3,4.96,,,,4.504375,,Items Per Order
+,,Technology,,2016 Q4,4.66,,,,4.504375,,Items Per Order
+,,Technology,,2017 Q1,4.22,,,,4.504375,,Items Per Order
+,,Technology,,2017 Q2,4.15,,,,4.504375,,Items Per Order
+,,Technology,,2017 Q3,5.05,,,,4.504375,,Items Per Order
+,,Technology,,2017 Q4,4.22,,,,4.504375,,Items Per Order
+,,Technology,,2018 Q1,4.25,,,,4.504375,,Items Per Order
+,,Technology,,2018 Q2,4.41,,,,4.504375,,Items Per Order
+,,Technology,,2018 Q3,4.33,,,,4.504375,,Items Per Order
+,,Technology,,2018 Q4,4.41,,,,4.504375,,Items Per Order
+,,Technology,,2019 Q1,4.39,,,,4.504375,,Items Per Order
+,,Technology,,2019 Q2,4.34,,,,4.504375,,Items Per Order
+,,Technology,,2019 Q3,4.45,,,,4.504375,,Items Per Order
+,,Technology,,2019 Q4,4.66,,,,4.504375,,Items Per Order
+,,Furniture,FURNITURE,2016 Q1,,4.56,,,,4.561875,Items Per Order
+,,Furniture,FURNITURE,2016 Q2,,4.56,,,,4.561875,Items Per Order
+,,Furniture,FURNITURE,2016 Q3,,4.56,,,,4.561875,Items Per Order
+,,Furniture,FURNITURE,2016 Q4,,4.56,,,,4.561875,Items Per Order
+,,Furniture,FURNITURE,2017 Q1,,4.56,,,,4.561875,Items Per Order
+,,Furniture,FURNITURE,2017 Q2,,4.56,,,,4.561875,Items Per Order
+,,Furniture,FURNITURE,2017 Q3,,4.56,,,,4.561875,Items Per Order
+,,Furniture,FURNITURE,2017 Q4,,4.56,,,,4.561875,Items Per Order
+,,Furniture,FURNITURE,2018 Q1,,4.56,,,,4.561875,Items Per Order
+,,Furniture,FURNITURE,2018 Q2,,4.56,,,,4.561875,Items Per Order
+,,Furniture,FURNITURE,2018 Q3,,4.56,,,,4.561875,Items Per Order
+,,Furniture,FURNITURE,2018 Q4,,4.56,,,,4.561875,Items Per Order
+,,Furniture,FURNITURE,2019 Q1,,4.56,,,,4.561875,Items Per Order
+,,Furniture,FURNITURE,2019 Q2,,4.56,,,,4.561875,Items Per Order
+,,Furniture,FURNITURE,2019 Q3,,4.56,,,,4.561875,Items Per Order
+,,Furniture,FURNITURE,2019 Q4,,4.56,,,,4.561875,Items Per Order
+,,Office Supplies,OFFICE SUPPLIES,2016 Q1,,6.10,,,,6.098125,Items Per Order
+,,Office Supplies,OFFICE SUPPLIES,2016 Q2,,6.10,,,,6.098125,Items Per Order
+,,Office Supplies,OFFICE SUPPLIES,2016 Q3,,6.10,,,,6.098125,Items Per Order
+,,Office Supplies,OFFICE SUPPLIES,2016 Q4,,6.10,,,,6.098125,Items Per Order
+,,Office Supplies,OFFICE SUPPLIES,2017 Q1,,6.10,,,,6.098125,Items Per Order
+,,Office Supplies,OFFICE SUPPLIES,2017 Q2,,6.10,,,,6.098125,Items Per Order
+,,Office Supplies,OFFICE SUPPLIES,2017 Q3,,6.10,,,,6.098125,Items Per Order
+,,Office Supplies,OFFICE SUPPLIES,2017 Q4,,6.10,,,,6.098125,Items Per Order
+,,Office Supplies,OFFICE SUPPLIES,2018 Q1,,6.10,,,,6.098125,Items Per Order
+,,Office Supplies,OFFICE SUPPLIES,2018 Q2,,6.10,,,,6.098125,Items Per Order
+,,Office Supplies,OFFICE SUPPLIES,2018 Q3,,6.10,,,,6.098125,Items Per Order
+,,Office Supplies,OFFICE SUPPLIES,2018 Q4,,6.10,,,,6.098125,Items Per Order
+,,Office Supplies,OFFICE SUPPLIES,2019 Q1,,6.10,,,,6.098125,Items Per Order
+,,Office Supplies,OFFICE SUPPLIES,2019 Q2,,6.10,,,,6.098125,Items Per Order
+,,Office Supplies,OFFICE SUPPLIES,2019 Q3,,6.10,,,,6.098125,Items Per Order
+,,Office Supplies,OFFICE SUPPLIES,2019 Q4,,6.10,,,,6.098125,Items Per Order
+,,Technology,TECHNOLOGY,2016 Q1,,4.50,,,,4.504375,Items Per Order
+,,Technology,TECHNOLOGY,2016 Q2,,4.50,,,,4.504375,Items Per Order
+,,Technology,TECHNOLOGY,2016 Q3,,4.50,,,,4.504375,Items Per Order
+,,Technology,TECHNOLOGY,2016 Q4,,4.50,,,,4.504375,Items Per Order
+,,Technology,TECHNOLOGY,2017 Q1,,4.50,,,,4.504375,Items Per Order
+,,Technology,TECHNOLOGY,2017 Q2,,4.50,,,,4.504375,Items Per Order
+,,Technology,TECHNOLOGY,2017 Q3,,4.50,,,,4.504375,Items Per Order
+,,Technology,TECHNOLOGY,2017 Q4,,4.50,,,,4.504375,Items Per Order
+,,Technology,TECHNOLOGY,2018 Q1,,4.50,,,,4.504375,Items Per Order
+,,Technology,TECHNOLOGY,2018 Q2,,4.50,,,,4.504375,Items Per Order
+,,Technology,TECHNOLOGY,2018 Q3,,4.50,,,,4.504375,Items Per Order
+,,Technology,TECHNOLOGY,2018 Q4,,4.50,,,,4.504375,Items Per Order
+,,Technology,TECHNOLOGY,2019 Q1,,4.50,,,,4.504375,Items Per Order
+,,Technology,TECHNOLOGY,2019 Q2,,4.50,,,,4.504375,Items Per Order
+,,Technology,TECHNOLOGY,2019 Q3,,4.50,,,,4.504375,Items Per Order
+,,Technology,TECHNOLOGY,2019 Q4,,4.50,,,,4.504375,Items Per Order

@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-04",
+  "source_workbook": {
+    "filename": "author.twbx",
+    "bytes": 43232,
+    "sha256": "e58e8c7eb44af7ca3dcaa8157cb50c967c1ba5260d961149b91c0e923fdef008",
+    "url": null
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Datasources/2020_09_16_WW38_EventTicketSales Extract Extract.hyper",
+      "file": "inputs/2020_09_16_WW38_EventTicketSales Extract Extract.hyper",
+      "bytes": 131072,
+      "sha256": "b64f97808b5d6fe90525ae9b93dacab1f161c108f82111b8593bfc1ef038f280"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

@@ -1,0 +1,6 @@
+{
+  "status": "blocked",
+  "artifact_sha256": "3237ff55413b339d034a5a0e514f02f6ce277ed98943f274bf11597dcd049874",
+  "finding": "Set dates parameter action referenced a bare None derivation of Date Control absent from Calendar marks. Actual Calendar has the Attribute instance; author Set Start also uses Attribute. REST parameter snapshots do not prove event-source validity.",
+  "resolution": "Existing public source_field ATTR(Date Control), matching the real worksheet instance and author source. Date-selection formula and targets unchanged."
+}

@@ -688,6 +688,116 @@
       "reason": "Derived from case metadata; consumed means claimed, not verified completed."
     },
     {
+      "case_id": "wow-2020-ww30-set-action-drill-down",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-07-24-ww30-set-action-drill-down",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2020-ww31-olympic-rank-bump-chart",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-08-01-ww31-olympic-rank-bump-chart",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2020-ww32-covid-state-cartogram",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-08-07-ww32-covid-state-cartogram",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2020-ww33-connected-profit-quantity-scatter",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-08-12-ww33-connected-profit-quantity-scatter",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2020-ww36-counties-within-radius",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-09-06-ww36-counties-within-radius",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2020-ww37-year-on-year-trend",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-09-11-ww37-year-on-year-trend",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2020-ww38-daily-weekly-sales",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-09-19-ww38-daily-weekly-sales",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2020-ww39-mobile-calendar-picker",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-09-26-ww39-mobile-calendar-picker",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2020-ww40-football-table-enhancements",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-10-03-ww40-football-table-enhancements",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2020-ww41-per-dimension-reference-lines",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-10-09-ww41-per-dimension-reference-lines",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
       "case_id": "wow-2026-ww04-dynamic-moving-average",
       "legacy_case_ids": {
         "donna-2026-02-02-5ebab8421caf": "wow-2026-ww04-dynamic-moving-average"

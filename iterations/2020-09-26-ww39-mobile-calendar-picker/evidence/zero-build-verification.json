@@ -1,0 +1,9 @@
+{
+  "case_id": "2020-09-26-ww39-mobile-calendar-picker",
+  "sdk_commit": "eb1380d5da9c1b1bf1b306128cb8397150ba1a53",
+  "builder_sha256": "10a1bec01f442aac4998f5fa7db1de5aca708363d60a1d0912b0bfbf08a5ec9d",
+  "builder_hash_scope": "UTF-8 source text with universal newlines normalized to LF",
+  "result": "passed",
+  "initial_workbooks_available": 0,
+  "scope": "Copied only builder/verifier, metadata and locked inputs. Built from TWBEditor empty, then ran independent raw-data/artifact oracle without copied Cloud evidence or author workbooks."
+}

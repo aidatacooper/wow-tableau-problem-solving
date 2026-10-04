@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-04",
+  "source_workbook": {
+    "filename": "author.twbx",
+    "bytes": 180051,
+    "sha256": "048f41027f4c531e8e33220372a53b1e1d37373cdb2feeb71c3a61cee02c05d5",
+    "url": null
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Datasources/2020_09_23_WW39_Dates Table.csv+ (Multiple Connections).hyper",
+      "file": "inputs/2020_09_23_WW39_Dates Table.csv+ (Multiple Connections).hyper",
+      "bytes": 393216,
+      "sha256": "660d9b0185d6b9ea1968511e597db50abf7ad6bebce5b852f661c8eabaf7c981"
+    }
+  ],
+  "source_workbook_used_by_builder": false,
+  "derived_data": [
+    {
+      "file": "inputs/next-month-arrow.png",
+      "bytes": 1115,
+      "sha256": "af2742572309ac6dfd773d78980b8c3aa80e6cb7111a33fb5659dae3589d326b",
+      "source": "Original embedded PNG external/shapes/Arrows/1-3.png; analysis-only base64 extraction; no raster modification."
+    },
+    {
+      "file": "inputs/previous-month-arrow.png",
+      "bytes": 1122,
+      "sha256": "86415d26a17613d80ba7d45851f54631d2be5c9a5850f5c28202dda476d76cd4",
+      "source": "Original embedded PNG external/shapes/Arrows/1-7.png; analysis-only base64 extraction; no raster modification."
+    }
+  ]
+}

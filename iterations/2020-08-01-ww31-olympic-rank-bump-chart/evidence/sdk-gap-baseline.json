@@ -1,0 +1,10 @@
+{
+  "baseline_commit": "cbe200a",
+  "tested_version": "0.27.1",
+  "passed": false,
+  "api": "configure_custom_tooltip",
+  "scenario": "Year and Country jointly filter Medals and Top10Medalists VIT targets.",
+  "error_type": "ValueError",
+  "error": "Tooltip embedding currently supports one explicit filter field",
+  "execution": "Observed build failure using released Git SDK before root switched case environment to editable enhanced SDK."
+}

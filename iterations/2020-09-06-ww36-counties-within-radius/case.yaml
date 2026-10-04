@@ -1,0 +1,102 @@
+schema_version: 1.1.0
+case_id: wow-2020-ww36-counties-within-radius
+iteration_id: 2020-09-06-ww36-counties-within-radius
+post: https://donnacoles.home.blog/2020/09/06/can-you-find-all-counties-within-n-miles-of-a-selected-county/
+legacy_case_ids: {}
+article_date: '2020-09-06'
+challenge_year: 2020
+challenge_week: 36
+challenge_date: '2020-09-02'
+date_evidence:
+  article_date: Article publication date preserved in folder; archived article SHA
+    recorded.
+  challenge_date: Official WordPress REST post 3969 date=2020-09-02T03:14:47; verified
+    challenge title includes week 36.
+  challenge: Official WordPress title verifies challenge_year=2020 and challenge_week=36
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/wow2020w36/
+    official_post_id: 3969
+    title: WOW2020 | week 36 | Can you find all counties within n miles of a selected
+      county?
+  article:
+    url: https://donnacoles.home.blog/2020/09/06/can-you-find-all-counties-within-n-miles-of-a-selected-county/
+    path: null
+    sha256: b8b834e806806cea7ed5a80d4454756e45daa5c666aa0b0100685603d930c158
+  workbook:
+    url: https://public.tableau.com/workbooks/2020_09_02_WW36_Covid_Cases_Within_n_Miles.twb
+    filename: author.twbx
+    sha256: dc8b0b61918bcc83aa4b9ce4a488366cb807d633649c8c31001d3082e7e58260
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- evidence/cloud-data-comparison.json
+- evidence/cloud-verification.json
+- evidence/export-provenance.json
+- evidence/functional-verification.json
+- evidence/sdk-baseline.json
+- evidence/sdk-candidate.json
+- evidence/sdk-final-validation.json
+- evidence/sdk-table-calc-context-gap.json
+- evidence/visual-review.md
+- evidence/zero-build-verification.json
+- inputs/source-lock.json
+notes:
+- Acceptance uses Cloud REST image/data states and artifact contracts; browser interactions
+  are not executed.
+cwtwb:
+  tested_version: 0.27.1
+  tested_commit: eb1380d5da9c1b1bf1b306128cb8397150ba1a53
+  runs:
+  - version: 0.27.1
+    commit: cbe200a4a148f1825764de67bd3e8f0e6d01a113
+    result: blocked
+    evidence: evidence/sdk-baseline.json
+  - version: 0.27.1
+    commit: null
+    result: pass
+    evidence: evidence/sdk-candidate.json
+  - version: 0.27.1
+    commit: eb1380d5da9c1b1bf1b306128cb8397150ba1a53
+    result: pass
+    evidence: evidence/sdk-final-validation.json
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: pass
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/2020_09_02_WW26_County Case Count Extract.hyper
+  - inputs/county-members.csv
+acceptance:
+- id: blank-sdk-build
+  description: Builder starts empty and uses only public SDK APIs.
+  mode: automated
+- id: locked-inputs
+  description: Input and packaged Hyper hashes match source lock.
+  mode: automated
+- id: native-calculations
+  description: Native calculated fields and table-calculation/filter/control contracts
+    match the analyzed source.
+  mode: automated
+- id: complete-data-oracle
+  description: Independent calculations cover complete raw input and exported mark
+    grains.
+  mode: automated
+- id: cloud-rest-comparison
+  description: Original and replica applicable REST states are hash-bound and fully
+    compared.
+  mode: automated
+- id: cloud-visual-review
+  description: All paired REST PNGs are inspected with honest documented deltas.
+  mode: automated
+remaining_work: []
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []

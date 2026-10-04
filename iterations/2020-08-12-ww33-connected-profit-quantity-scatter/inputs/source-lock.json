@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0.0",
+  "source_workbook": {
+    "filename": "author.twbx",
+    "bytes": 132585,
+    "sha256": "535167fc4cea4589cc3fa33e895f3688dfca63cec6151331e2aaea130170f4b9",
+    "url": null
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Datasources/Orders (Sample - Superstore).hyper",
+      "file": "inputs/Orders (Sample - Superstore).hyper",
+      "bytes": 393216,
+      "sha256": "bb36c189187275050d5dc4457442d3de7c2899fbefab635a0445e0be9c6a7e73"
+    }
+  ],
+  "source_workbook_used_by_builder": false,
+  "article": {
+    "url": "https://donnacoles.home.blog/2020/08/12/is-profit-ratio-influenced-by-quantity/",
+    "sha256": "5d8398f76898d032eacf25aec4cfeb6bce4b7580232272a345d2774742d90dda"
+  }
+}

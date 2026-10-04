@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-04",
+  "source_workbook": {
+    "filename": "author.twbx",
+    "bytes": 54709,
+    "sha256": "d07994ccffcad6e960b6ad7175176b6be5d427819b05272e6fc43b6fe3890f75",
+    "url": null
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Datasources/2020_09_30_WW40_rushing_data_2017_2019.hyper",
+      "file": "inputs/2020_09_30_WW40_rushing_data_2017_2019.hyper",
+      "bytes": 131072,
+      "sha256": "282df88b17e754cf9749aff3780e13c595c1c1abfabde0f1655fd5a1c4f12ee4"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

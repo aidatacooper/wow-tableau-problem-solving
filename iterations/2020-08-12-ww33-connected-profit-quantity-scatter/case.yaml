@@ -1,0 +1,82 @@
+schema_version: 1.1.0
+case_id: wow-2020-ww33-connected-profit-quantity-scatter
+iteration_id: 2020-08-12-ww33-connected-profit-quantity-scatter
+post: https://donnacoles.home.blog/2020/08/12/is-profit-ratio-influenced-by-quantity/
+legacy_case_ids: {}
+article_date: '2020-08-12'
+challenge_year: 2020
+challenge_week: 33
+challenge_date: '2020-08-11'
+date_evidence:
+  article_date: Declared article publication date in iteration_id
+  challenge: Explicit challenge_year; week declared in iteration_id
+  challenge_date: Explicit official challenge publication date and URL
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2020w33/
+  article:
+    url: https://donnacoles.home.blog/2020/08/12/is-profit-ratio-influenced-by-quantity/
+    path: null
+    sha256: 5d8398f76898d032eacf25aec4cfeb6bce4b7580232272a345d2774742d90dda
+  workbook:
+    url: https://public.tableau.com/views/2020_08_12_WW34_Connected_Scatter_Plot/2020_08_12_WW34_Connected_Scatter
+    filename: author.twbx
+    sha256: 535167fc4cea4589cc3fa33e895f3688dfca63cec6151331e2aaea130170f4b9
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- evidence/cloud-verification.json
+- evidence/export-provenance.json
+- evidence/functional-verification.json
+- evidence/sdk-final-validation.json
+- evidence/visual-review.md
+- evidence/zero-build-verification.json
+- inputs/source-lock.json
+notes:
+- Author article/workbook mislabel WW34 and link the wrong challenge; official WP3929
+  matching title establishes2020WW33 dated2020-08-11. Workbook name is preserved for
+  source comparison.
+cwtwb:
+  tested_version: 0.27.1
+  runs:
+  - version: 0.27.1
+    commit: null
+    result: pass
+    evidence: evidence/functional-verification.json
+  - version: 0.27.1
+    commit: eb1380d5da9c1b1bf1b306128cb8397150ba1a53
+    result: pass
+    evidence: evidence/sdk-final-validation.json
+  tested_commit: eb1380d5da9c1b1bf1b306128cb8397150ba1a53
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: pass
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/Orders (Sample - Superstore).hyper
+acceptance:
+- id: ww33-monthly-oracle
+  description: All72 category-month sums/ratios and four extrema plus tie-last-month
+    dates from raw Hyper.
+  mode: automated
+- id: ww33-native-set-insights
+  description: Empty initial category set, Circle/Line folded chart, single-select
+    assign/clear exclude-all and dynamic Insight filter/window contracts.
+  mode: automated
+- id: ww33-cloud-rest
+  description: Default and Category Technology/Furniture paired images/fullScatter
+    CSV; empty initial Insights expected, event states verified by artifact contracts.
+  mode: automated
+remaining_work: []
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []
+acceptance_scope: cloud_rest_and_artifact_contracts
+browser_interaction_executed: false

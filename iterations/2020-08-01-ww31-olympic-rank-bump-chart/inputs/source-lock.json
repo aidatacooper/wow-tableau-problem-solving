@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0.0",
+  "source_workbook": {
+    "filename": "author.twbx",
+    "bytes": 360948,
+    "sha256": "bf5171201414aad93f1a088bd31979bc3fcde57c3ce93f7b022142a203705656",
+    "url": null
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Datasources/Extract (Multiple Connections).hyper",
+      "file": "inputs/Extract (Multiple Connections).hyper",
+      "bytes": 655360,
+      "sha256": "8f162e47a4b2cfc6d78bfa2800f7243b1785105e8875d8e30869c92b64e6091e"
+    }
+  ],
+  "source_workbook_used_by_builder": false,
+  "article": {
+    "url": "https://donnacoles.home.blog/2020/08/01/can-you-show-the-top-10-rank-over-time-for-each-olympic-country/",
+    "sha256": "cc5324a92f55e3d5991ffbcacffa71e2fdd36ff61b88f47102dee24ca5d7c20a"
+  }
+}
