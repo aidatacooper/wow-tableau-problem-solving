@@ -1,0 +1,10 @@
+{
+  "status": "pass",
+  "sdk_version": "0.27.1",
+  "sdk_commit": "df8c2a52cd48800fa0a43d936f6946d318f5b953",
+  "sdk_install": "actual Git dependency, noneditable",
+  "artifact_sha256": "7aa1f987582b3289adaac1620cd59fcedd9e6892f85ba5259dd4e206f20e7b16",
+  "builder_sha256": "1275e2ce70a352c5fd6000b5628c099d1f770b3a70f986cc90dcbf8305ca18c1",
+  "source_workbook_used_by_builder": false,
+  "validation": "Independent original raw orders/cohort sales/two gap cells and native nested TC, exact date, custom palette contracts passed. Final Cloud acceptance pending."
+}

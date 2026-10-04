@@ -1,0 +1,308 @@
+{
+  "source_contract": "Chart classification uses all-visible-weeks WINDOW_AVG inside nested Rows context, while band and auxiliary Data use each-year mean. Weekly WINDOW_STDEV remains partitioned by year.",
+  "states": {
+    "default": {
+      "global_mean": 202.95205479452054,
+      "source_chart_mismatches_to_context_oracle": 0,
+      "unique_classification_differences_to_band": 12,
+      "differences": [
+        {
+          "day": "2018-11-12",
+          "count": 164,
+          "band_lower": 176.5161166378018,
+          "band_upper": 260.9555814754058,
+          "author_chart_within": true,
+          "annual_band_within": false
+        },
+        {
+          "day": "2018-10-08",
+          "count": 170,
+          "band_lower": 176.5161166378018,
+          "band_upper": 260.9555814754058,
+          "author_chart_within": true,
+          "annual_band_within": false
+        },
+        {
+          "day": "2018-01-01",
+          "count": 172,
+          "band_lower": 176.5161166378018,
+          "band_upper": 260.9555814754058,
+          "author_chart_within": true,
+          "annual_band_within": false
+        },
+        {
+          "day": "2018-11-19",
+          "count": 173,
+          "band_lower": 176.5161166378018,
+          "band_upper": 260.9555814754058,
+          "author_chart_within": true,
+          "annual_band_within": false
+        },
+        {
+          "day": "2018-01-29",
+          "count": 248,
+          "band_lower": 176.5161166378018,
+          "band_upper": 260.9555814754058,
+          "author_chart_within": false,
+          "annual_band_within": true
+        },
+        {
+          "day": "2018-07-30",
+          "count": 257,
+          "band_lower": 176.5161166378018,
+          "band_upper": 260.9555814754058,
+          "author_chart_within": false,
+          "annual_band_within": true
+        },
+        {
+          "day": "2019-12-16",
+          "count": 154,
+          "band_lower": 153.0387503020865,
+          "band_upper": 232.76894200560582,
+          "author_chart_within": false,
+          "annual_band_within": true
+        },
+        {
+          "day": "2019-03-04",
+          "count": 159,
+          "band_lower": 153.0387503020865,
+          "band_upper": 232.76894200560582,
+          "author_chart_within": false,
+          "annual_band_within": true
+        },
+        {
+          "day": "2019-12-02",
+          "count": 159,
+          "band_lower": 153.0387503020865,
+          "band_upper": 232.76894200560582,
+          "author_chart_within": false,
+          "annual_band_within": true
+        },
+        {
+          "day": "2019-09-02",
+          "count": 160,
+          "band_lower": 153.0387503020865,
+          "band_upper": 232.76894200560582,
+          "author_chart_within": false,
+          "annual_band_within": true
+        },
+        {
+          "day": "2019-11-18",
+          "count": 161,
+          "band_lower": 153.0387503020865,
+          "band_upper": 232.76894200560582,
+          "author_chart_within": false,
+          "annual_band_within": true
+        },
+        {
+          "day": "2020-08-31",
+          "count": 248,
+          "band_lower": 146.52884186480924,
+          "band_upper": 244.05652398884928,
+          "author_chart_within": true,
+          "annual_band_within": false
+        }
+      ]
+    },
+    "received-3-years-1-std": {
+      "global_mean": 202.7123287671233,
+      "source_chart_mismatches_to_context_oracle": 0,
+      "unique_classification_differences_to_band": 17,
+      "differences": [
+        {
+          "day": "2018-12-31",
+          "count": 163,
+          "band_lower": 171.89914119489913,
+          "band_upper": 265.421613522082,
+          "author_chart_within": true,
+          "annual_band_within": false
+        },
+        {
+          "day": "2018-01-01",
+          "count": 166,
+          "band_lower": 171.89914119489913,
+          "band_upper": 265.421613522082,
+          "author_chart_within": true,
+          "annual_band_within": false
+        },
+        {
+          "day": "2018-01-08",
+          "count": 167,
+          "band_lower": 171.89914119489913,
+          "band_upper": 265.421613522082,
+          "author_chart_within": true,
+          "annual_band_within": false
+        },
+        {
+          "day": "2018-04-30",
+          "count": 255,
+          "band_lower": 171.89914119489913,
+          "band_upper": 265.421613522082,
+          "author_chart_within": false,
+          "annual_band_within": true
+        },
+        {
+          "day": "2019-12-09",
+          "count": 173,
+          "band_lower": 167.56613785357646,
+          "band_upper": 218.2800159925774,
+          "author_chart_within": false,
+          "annual_band_within": true
+        },
+        {
+          "day": "2019-01-21",
+          "count": 174,
+          "band_lower": 167.56613785357646,
+          "band_upper": 218.2800159925774,
+          "author_chart_within": false,
+          "annual_band_within": true
+        },
+        {
+          "day": "2019-07-01",
+          "count": 175,
+          "band_lower": 167.56613785357646,
+          "band_upper": 218.2800159925774,
+          "author_chart_within": false,
+          "annual_band_within": true
+        },
+        {
+          "day": "2019-10-28",
+          "count": 175,
+          "band_lower": 167.56613785357646,
+          "band_upper": 218.2800159925774,
+          "author_chart_within": false,
+          "annual_band_within": true
+        },
+        {
+          "day": "2019-09-16",
+          "count": 176,
+          "band_lower": 167.56613785357646,
+          "band_upper": 218.2800159925774,
+          "author_chart_within": false,
+          "annual_band_within": true
+        },
+        {
+          "day": "2019-06-03",
+          "count": 219,
+          "band_lower": 167.56613785357646,
+          "band_upper": 218.2800159925774,
+          "author_chart_within": true,
+          "annual_band_within": false
+        },
+        {
+          "day": "2019-06-10",
+          "count": 219,
+          "band_lower": 167.56613785357646,
+          "band_upper": 218.2800159925774,
+          "author_chart_within": true,
+          "annual_band_within": false
+        },
+        {
+          "day": "2019-04-01",
+          "count": 220,
+          "band_lower": 167.56613785357646,
+          "band_upper": 218.2800159925774,
+          "author_chart_within": true,
+          "annual_band_within": false
+        },
+        {
+          "day": "2019-07-29",
+          "count": 220,
+          "band_lower": 167.56613785357646,
+          "band_upper": 218.2800159925774,
+          "author_chart_within": true,
+          "annual_band_within": false
+        },
+        {
+          "day": "2019-03-04",
+          "count": 221,
+          "band_lower": 167.56613785357646,
+          "band_upper": 218.2800159925774,
+          "author_chart_within": true,
+          "annual_band_within": false
+        },
+        {
+          "day": "2019-03-25",
+          "count": 222,
+          "band_lower": 167.56613785357646,
+          "band_upper": 218.2800159925774,
+          "author_chart_within": true,
+          "annual_band_within": false
+        },
+        {
+          "day": "2019-05-13",
+          "count": 224,
+          "band_lower": 167.56613785357646,
+          "band_upper": 218.2800159925774,
+          "author_chart_within": true,
+          "annual_band_within": false
+        },
+        {
+          "day": "2020-09-07",
+          "count": 248,
+          "band_lower": 144.70651173580563,
+          "band_upper": 244.31787850809678,
+          "author_chart_within": true,
+          "annual_band_within": false
+        }
+      ]
+    },
+    "submitted-1-year-2-std": {
+      "global_mean": 195.29268292682926,
+      "source_chart_mismatches_to_context_oracle": 0,
+      "unique_classification_differences_to_band": 0,
+      "differences": []
+    },
+    "received-5-years-3-std": {
+      "global_mean": 185.368,
+      "source_chart_mismatches_to_context_oracle": 0,
+      "unique_classification_differences_to_band": 3,
+      "differences": [
+        {
+          "day": "2016-05-30",
+          "count": 77,
+          "band_lower": 55.72122854136252,
+          "band_upper": 219.47107915094517,
+          "author_chart_within": false,
+          "annual_band_within": true
+        },
+        {
+          "day": "2016-04-04",
+          "count": 96,
+          "band_lower": 55.72122854136252,
+          "band_upper": 219.47107915094517,
+          "author_chart_within": false,
+          "annual_band_within": true
+        },
+        {
+          "day": "2016-07-04",
+          "count": 97,
+          "band_lower": 55.72122854136252,
+          "band_upper": 219.47107915094517,
+          "author_chart_within": false,
+          "annual_band_within": true
+        }
+      ]
+    }
+  },
+  "author_workbook_sha256": "13965837eb4a313a839d7c6ec0170fb859f54b555f6b3df3e8bea39b1617870b",
+  "locked_hyper_sha256": "14a6d53a992c0d7d29191c1f61577203a53b42cba70071fc59a21c49aba17311",
+  "author_csv_sha256": {
+    "outputs/cloud-author-chart.csv": "49f706b1b966a714537f619fdf808a6a6a1ab1491c7dc3d8c22fa3569fc8e92a",
+    "outputs/cloud-author-data.csv": "be1364d0621cd38d252992dbd92956705409718be7c2e098e86ab0cbb2c3f6b9",
+    "outputs/cloud-author-chart-received-3-years-1-std.csv": "54dd9ed423ebfd77b3e08a3358ad9f038b4129afc72cc8836687a897ecdc0f14",
+    "outputs/cloud-author-data-received-3-years-1-std.csv": "f012bd6b9c1daa87413766526b45eb8568323d9806cf4759ccfc4ea2a817697f",
+    "outputs/cloud-author-chart-submitted-1-year-2-std.csv": "e93c15dcd110018b6816620037e6edeb30013e0972a1c06ef946b7e78436375f",
+    "outputs/cloud-author-data-submitted-1-year-2-std.csv": "b50be5e58ceb5d08149bd648c81c99290f737934c69167d25185c9d3e15faeeb",
+    "outputs/cloud-author-chart-received-5-years-3-std.csv": "3859e11526074ff8c44aaecb6a51cf5ee1b19953408821a7ed5282ddcd95ddd6",
+    "outputs/cloud-author-data-received-5-years-3-std.csv": "ce2c1840254853941fa77fd0cd08f4ed5d53f7c16606882d3bf2d10dcba834d2"
+  },
+  "native_context": {
+    "chart_within_top": "Rows",
+    "chart_within_nested_average": "Rows",
+    "chart_within_nested_upper_stdev": "Field: WEEK(Date to Plot)",
+    "chart_within_nested_lower_stdev": "Field: WEEK(Date to Plot)",
+    "band_nested_average": "Field: WEEK(Date to Plot)",
+    "auxiliary_data_nested_average": "Field: Date to Plot, Date To"
+  }
+}

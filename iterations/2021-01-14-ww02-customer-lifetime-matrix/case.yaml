@@ -1,0 +1,84 @@
+schema_version: 1.1.0
+case_id: wow-2021-ww02-customer-lifetime-matrix
+iteration_id: 2021-01-14-ww02-customer-lifetime-matrix
+post: https://donnacoles.home.blog/2021/01/14/can-you-build-a-customer-lifetime-value-matrix/
+legacy_case_ids: {}
+article_date: '2021-01-14'
+challenge_year: 2021
+challenge_week: 2
+challenge_date: '2021-01-12'
+date_evidence:
+  article_date: Article HTML published time element retained in evidence/article-date.json.
+  challenge: Explicit challenge_year; week declared in iteration_id
+  challenge_date: Official WordPress REST date field retained in evidence/official-challenge-date.json.
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2021w02tab/
+  article:
+    url: https://donnacoles.home.blog/2021/01/14/can-you-build-a-customer-lifetime-value-matrix/
+    path: null
+    sha256: 8aa834cd2a95a6214cf4199247cd6bdf92e1850a0a3dca467e5fb29e79192d22
+  workbook:
+    filename: author.twbx
+    sha256: 74b46705c55d9b68b14521a2f179c29bb285274dfc1ad94f747974faf9e00ca2
+    url: https://public.tableau.com/workbooks/2021_01_13_WW02_Customer_Lifetime_Matrix.twb
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- evidence/article-date.json
+- evidence/build-provenance.json
+- evidence/cloud-verification.json
+- evidence/export-provenance.json
+- evidence/functional-verification.json
+- evidence/official-challenge-date.json
+- evidence/refinement-initial-domain-palette.json
+- evidence/sdk-baseline.json
+- evidence/sdk-final-validation.json
+- evidence/visual-review.md
+- evidence/zero-build-verification.json
+- inputs/source-lock.json
+notes:
+- Fresh full matrix source and replica Viz exports each verify all136cells and two
+  internal missing-sales gaps. No native controls or browser-event claim.
+cwtwb:
+  tested_version: 0.27.1
+  tested_commit: fe9f33b4dfbe5b1ecec7c56d41138a2888971375
+  runs:
+  - version: 0.27.1
+    commit: df8c2a52cd48800fa0a43d936f6946d318f5b953
+    result: pass
+    evidence: evidence/sdk-baseline.json
+  - version: 0.27.1
+    commit: fe9f33b4dfbe5b1ecec7c56d41138a2888971375
+    result: pass
+    evidence: evidence/build-provenance.json
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: pass
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/Orders (Sample - Superstore).hyper
+acceptance:
+- id: cohort-lifetime-values
+  mode: automated
+  description: All cohort/elapsed-quarter sales, cohort customers and cumulative lifetime
+    values independently derived from original raw orders.
+- id: single-gap-densification
+  mode: automated
+  description: Nested table calculations fill internal single-quarter gaps and exclude
+    trailing null cells.
+- id: matrix-native-layout
+  mode: automated
+  description: Discrete cohort/customer row headers, elapsed-quarter columns, square
+    sequential heatmap, currency labels and tooltip bindings.
+remaining_work: []
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []

@@ -1,0 +1,1410 @@
+{
+  "status": "pass",
+  "artifact_sha256": "28376408fa2c1fc8d9db584ae908915d6fb01192b9ecf452623d7ff28b067c8f",
+  "acceptance_ids": [
+    "cohort-lifetime-values",
+    "single-gap-densification",
+    "matrix-native-layout"
+  ],
+  "oracle": {
+    "raw_rows": 9994,
+    "distinct_customers": 793,
+    "cohorts": 16,
+    "observed_sales_cells": 134,
+    "visible_matrix_cells": 136,
+    "filled_gaps": [
+      {
+        "cohort": "Q3 2018",
+        "age": 1
+      },
+      {
+        "cohort": "Q2 2019",
+        "age": 1
+      }
+    ],
+    "cells": [
+      {
+        "cohort": "Q1 2016",
+        "age": 0,
+        "customers": 121,
+        "quarter_sales": 74447.79600000003,
+        "running_sales": 74447.79600000003,
+        "cltv": 615.2710413223143,
+        "filled_gap": false,
+        "raw_order_lines": 282
+      },
+      {
+        "cohort": "Q1 2016",
+        "age": 1,
+        "customers": 121,
+        "quarter_sales": 10054.2256,
+        "running_sales": 84502.02160000004,
+        "cltv": 698.3638148760333,
+        "filled_gap": false,
+        "raw_order_lines": 54
+      },
+      {
+        "cohort": "Q1 2016",
+        "age": 2,
+        "customers": 121,
+        "quarter_sales": 22240.234999999997,
+        "running_sales": 106742.25660000004,
+        "cltv": 882.1674099173557,
+        "filled_gap": false,
+        "raw_order_lines": 74
+      },
+      {
+        "cohort": "Q1 2016",
+        "age": 3,
+        "customers": 121,
+        "quarter_sales": 36324.72199999998,
+        "running_sales": 143066.97860000003,
+        "cltv": 1182.3717239669425,
+        "filled_gap": false,
+        "raw_order_lines": 100
+      },
+      {
+        "cohort": "Q1 2016",
+        "age": 4,
+        "customers": 121,
+        "quarter_sales": 5553.6064,
+        "running_sales": 148620.58500000002,
+        "cltv": 1228.2692975206614,
+        "filled_gap": false,
+        "raw_order_lines": 31
+      },
+      {
+        "cohort": "Q1 2016",
+        "age": 5,
+        "customers": 121,
+        "quarter_sales": 14410.369500000006,
+        "running_sales": 163030.95450000002,
+        "cltv": 1347.3632603305787,
+        "filled_gap": false,
+        "raw_order_lines": 65
+      },
+      {
+        "cohort": "Q1 2016",
+        "age": 6,
+        "customers": 121,
+        "quarter_sales": 16757.031999999996,
+        "running_sales": 179787.98650000003,
+        "cltv": 1485.8511280991738,
+        "filled_gap": false,
+        "raw_order_lines": 79
+      },
+      {
+        "cohort": "Q1 2016",
+        "age": 7,
+        "customers": 121,
+        "quarter_sales": 30945.016799999987,
+        "running_sales": 210733.0033,
+        "cltv": 1741.5950685950413,
+        "filled_gap": false,
+        "raw_order_lines": 113
+      },
+      {
+        "cohort": "Q1 2016",
+        "age": 8,
+        "customers": 121,
+        "quarter_sales": 15962.167,
+        "running_sales": 226695.1703,
+        "cltv": 1873.5138041322314,
+        "filled_gap": false,
+        "raw_order_lines": 51
+      },
+      {
+        "cohort": "Q1 2016",
+        "age": 9,
+        "customers": 121,
+        "quarter_sales": 18310.368,
+        "running_sales": 245005.5383,
+        "cltv": 2024.839159504132,
+        "filled_gap": false,
+        "raw_order_lines": 92
+      },
+      {
+        "cohort": "Q1 2016",
+        "age": 10,
+        "customers": 121,
+        "quarter_sales": 20427.824999999997,
+        "running_sales": 265433.36329999997,
+        "cltv": 2193.664159504132,
+        "filled_gap": false,
+        "raw_order_lines": 113
+      },
+      {
+        "cohort": "Q1 2016",
+        "age": 11,
+        "customers": 121,
+        "quarter_sales": 37469.01599999999,
+        "running_sales": 302902.3793,
+        "cltv": 2503.3254487603303,
+        "filled_gap": false,
+        "raw_order_lines": 133
+      },
+      {
+        "cohort": "Q1 2016",
+        "age": 12,
+        "customers": 121,
+        "quarter_sales": 17202.782,
+        "running_sales": 320105.1613,
+        "cltv": 2645.4972008264463,
+        "filled_gap": false,
+        "raw_order_lines": 83
+      },
+      {
+        "cohort": "Q1 2016",
+        "age": 13,
+        "customers": 121,
+        "quarter_sales": 24459.0064,
+        "running_sales": 344564.1677,
+        "cltv": 2847.637749586777,
+        "filled_gap": false,
+        "raw_order_lines": 119
+      },
+      {
+        "cohort": "Q1 2016",
+        "age": 14,
+        "customers": 121,
+        "quarter_sales": 23049.697999999997,
+        "running_sales": 367613.86569999997,
+        "cltv": 3038.131121487603,
+        "filled_gap": false,
+        "raw_order_lines": 110
+      },
+      {
+        "cohort": "Q1 2016",
+        "age": 15,
+        "customers": 121,
+        "quarter_sales": 38104.1052,
+        "running_sales": 405717.97089999996,
+        "cltv": 3353.0410818181813,
+        "filled_gap": false,
+        "raw_order_lines": 162
+      },
+      {
+        "cohort": "Q2 2016",
+        "age": 0,
+        "customers": 160,
+        "quarter_sales": 76484.534,
+        "running_sales": 76484.534,
+        "cltv": 478.0283375,
+        "filled_gap": false,
+        "raw_order_lines": 338
+      },
+      {
+        "cohort": "Q2 2016",
+        "age": 1,
+        "customers": 160,
+        "quarter_sales": 18324.626000000007,
+        "running_sales": 94809.16,
+        "cltv": 592.5572500000001,
+        "filled_gap": false,
+        "raw_order_lines": 89
+      },
+      {
+        "cohort": "Q2 2016",
+        "age": 2,
+        "customers": 160,
+        "quarter_sales": 38881.14700000002,
+        "running_sales": 133690.30700000003,
+        "cltv": 835.5644187500002,
+        "filled_gap": false,
+        "raw_order_lines": 147
+      },
+      {
+        "cohort": "Q2 2016",
+        "age": 3,
+        "customers": 160,
+        "quarter_sales": 10944.249999999998,
+        "running_sales": 144634.55700000003,
+        "cltv": 903.9659812500001,
+        "filled_gap": false,
+        "raw_order_lines": 54
+      },
+      {
+        "cohort": "Q2 2016",
+        "age": 4,
+        "customers": 160,
+        "quarter_sales": 28528.668999999998,
+        "running_sales": 173163.22600000002,
+        "cltv": 1082.2701625000002,
+        "filled_gap": false,
+        "raw_order_lines": 123
+      },
+      {
+        "cohort": "Q2 2016",
+        "age": 5,
+        "customers": 160,
+        "quarter_sales": 28915.281999999996,
+        "running_sales": 202078.50800000003,
+        "cltv": 1262.9906750000002,
+        "filled_gap": false,
+        "raw_order_lines": 120
+      },
+      {
+        "cohort": "Q2 2016",
+        "age": 6,
+        "customers": 160,
+        "quarter_sales": 38494.89219999999,
+        "running_sales": 240573.40020000003,
+        "cltv": 1503.5837512500002,
+        "filled_gap": false,
+        "raw_order_lines": 189
+      },
+      {
+        "cohort": "Q2 2016",
+        "age": 7,
+        "customers": 160,
+        "quarter_sales": 26663.689,
+        "running_sales": 267237.08920000005,
+        "cltv": 1670.2318075000003,
+        "filled_gap": false,
+        "raw_order_lines": 73
+      },
+      {
+        "cohort": "Q2 2016",
+        "age": 8,
+        "customers": 160,
+        "quarter_sales": 36878.684,
+        "running_sales": 304115.77320000005,
+        "cltv": 1900.7235825000002,
+        "filled_gap": false,
+        "raw_order_lines": 115
+      },
+      {
+        "cohort": "Q2 2016",
+        "age": 9,
+        "customers": 160,
+        "quarter_sales": 27222.798000000003,
+        "running_sales": 331338.57120000006,
+        "cltv": 2070.8660700000005,
+        "filled_gap": false,
+        "raw_order_lines": 143
+      },
+      {
+        "cohort": "Q2 2016",
+        "age": 10,
+        "customers": 160,
+        "quarter_sales": 45108.96399999996,
+        "running_sales": 376447.53520000004,
+        "cltv": 2352.7970950000004,
+        "filled_gap": false,
+        "raw_order_lines": 236
+      },
+      {
+        "cohort": "Q2 2016",
+        "age": 11,
+        "customers": 160,
+        "quarter_sales": 14146.020799999998,
+        "running_sales": 390593.55600000004,
+        "cltv": 2441.209725,
+        "filled_gap": false,
+        "raw_order_lines": 80
+      },
+      {
+        "cohort": "Q2 2016",
+        "age": 12,
+        "customers": 160,
+        "quarter_sales": 27484.102800000004,
+        "running_sales": 418077.65880000003,
+        "cltv": 2612.9853675000004,
+        "filled_gap": false,
+        "raw_order_lines": 141
+      },
+      {
+        "cohort": "Q2 2016",
+        "age": 13,
+        "customers": 160,
+        "quarter_sales": 31911.36699999999,
+        "running_sales": 449989.0258,
+        "cltv": 2812.43141125,
+        "filled_gap": false,
+        "raw_order_lines": 173
+      },
+      {
+        "cohort": "Q2 2016",
+        "age": 14,
+        "customers": 160,
+        "quarter_sales": 55507.23819999996,
+        "running_sales": 505496.26399999997,
+        "cltv": 3159.3516499999996,
+        "filled_gap": false,
+        "raw_order_lines": 222
+      },
+      {
+        "cohort": "Q3 2016",
+        "age": 0,
+        "customers": 161,
+        "quarter_sales": 103068.35129999992,
+        "running_sales": 103068.35129999992,
+        "cltv": 640.1760950310554,
+        "filled_gap": false,
+        "raw_order_lines": 401
+      },
+      {
+        "cohort": "Q3 2016",
+        "age": 1,
+        "customers": 161,
+        "quarter_sales": 23434.236499999995,
+        "running_sales": 126502.58779999992,
+        "cltv": 785.7303590062107,
+        "filled_gap": false,
+        "raw_order_lines": 129
+      },
+      {
+        "cohort": "Q3 2016",
+        "age": 2,
+        "customers": 161,
+        "quarter_sales": 17571.782999999992,
+        "running_sales": 144074.37079999992,
+        "cltv": 894.8718683229808,
+        "filled_gap": false,
+        "raw_order_lines": 62
+      },
+      {
+        "cohort": "Q3 2016",
+        "age": 3,
+        "customers": 161,
+        "quarter_sales": 14895.876000000004,
+        "running_sales": 158970.2467999999,
+        "cltv": 987.3928372670802,
+        "filled_gap": false,
+        "raw_order_lines": 87
+      },
+      {
+        "cohort": "Q3 2016",
+        "age": 4,
+        "customers": 161,
+        "quarter_sales": 21596.423999999995,
+        "running_sales": 180566.6707999999,
+        "cltv": 1121.5321167701857,
+        "filled_gap": false,
+        "raw_order_lines": 114
+      },
+      {
+        "cohort": "Q3 2016",
+        "age": 5,
+        "customers": 161,
+        "quarter_sales": 45621.84699999999,
+        "running_sales": 226188.51779999989,
+        "cltv": 1404.8976260869558,
+        "filled_gap": false,
+        "raw_order_lines": 191
+      },
+      {
+        "cohort": "Q3 2016",
+        "age": 6,
+        "customers": 161,
+        "quarter_sales": 13479.748,
+        "running_sales": 239668.26579999988,
+        "cltv": 1488.6227689440987,
+        "filled_gap": false,
+        "raw_order_lines": 65
+      },
+      {
+        "cohort": "Q3 2016",
+        "age": 7,
+        "customers": 161,
+        "quarter_sales": 16902.839999999997,
+        "running_sales": 256571.10579999987,
+        "cltv": 1593.6093527950302,
+        "filled_gap": false,
+        "raw_order_lines": 112
+      },
+      {
+        "cohort": "Q3 2016",
+        "age": 8,
+        "customers": 161,
+        "quarter_sales": 26255.104800000005,
+        "running_sales": 282826.2105999999,
+        "cltv": 1756.684537888198,
+        "filled_gap": false,
+        "raw_order_lines": 157
+      },
+      {
+        "cohort": "Q3 2016",
+        "age": 9,
+        "customers": 161,
+        "quarter_sales": 50426.38579999999,
+        "running_sales": 333252.59639999986,
+        "cltv": 2069.8919031055893,
+        "filled_gap": false,
+        "raw_order_lines": 201
+      },
+      {
+        "cohort": "Q3 2016",
+        "age": 10,
+        "customers": 161,
+        "quarter_sales": 10051.71,
+        "running_sales": 343304.3063999999,
+        "cltv": 2132.324884472049,
+        "filled_gap": false,
+        "raw_order_lines": 69
+      },
+      {
+        "cohort": "Q3 2016",
+        "age": 11,
+        "customers": 161,
+        "quarter_sales": 31036.892700000004,
+        "running_sales": 374341.1990999999,
+        "cltv": 2325.1006155279497,
+        "filled_gap": false,
+        "raw_order_lines": 143
+      },
+      {
+        "cohort": "Q3 2016",
+        "age": 12,
+        "customers": 161,
+        "quarter_sales": 45281.60800000001,
+        "running_sales": 419622.8070999999,
+        "cltv": 2606.3528391304344,
+        "filled_gap": false,
+        "raw_order_lines": 192
+      },
+      {
+        "cohort": "Q3 2016",
+        "age": 13,
+        "customers": 161,
+        "quarter_sales": 61973.03500000001,
+        "running_sales": 481595.84209999995,
+        "cltv": 2991.278522360248,
+        "filled_gap": false,
+        "raw_order_lines": 252
+      },
+      {
+        "cohort": "Q4 2016",
+        "age": 0,
+        "customers": 153,
+        "quarter_sales": 80987.62469999997,
+        "running_sales": 80987.62469999997,
+        "cltv": 529.3308803921567,
+        "filled_gap": false,
+        "raw_order_lines": 379
+      },
+      {
+        "cohort": "Q4 2016",
+        "age": 1,
+        "customers": 153,
+        "quarter_sales": 17154.283,
+        "running_sales": 98141.90769999997,
+        "cltv": 641.4503771241828,
+        "filled_gap": false,
+        "raw_order_lines": 51
+      },
+      {
+        "cohort": "Q4 2016",
+        "age": 2,
+        "customers": 153,
+        "quarter_sales": 13088.887999999997,
+        "running_sales": 111230.79569999996,
+        "cltv": 726.9986647058821,
+        "filled_gap": false,
+        "raw_order_lines": 67
+      },
+      {
+        "cohort": "Q4 2016",
+        "age": 3,
+        "customers": 153,
+        "quarter_sales": 31628.92619999999,
+        "running_sales": 142859.72189999995,
+        "cltv": 933.7236725490193,
+        "filled_gap": false,
+        "raw_order_lines": 134
+      },
+      {
+        "cohort": "Q4 2016",
+        "age": 4,
+        "customers": 153,
+        "quarter_sales": 29036.867699999984,
+        "running_sales": 171896.58959999992,
+        "cltv": 1123.5071215686269,
+        "filled_gap": false,
+        "raw_order_lines": 150
+      },
+      {
+        "cohort": "Q4 2016",
+        "age": 5,
+        "customers": 153,
+        "quarter_sales": 18495.665999999997,
+        "running_sales": 190392.25559999992,
+        "cltv": 1244.3938274509799,
+        "filled_gap": false,
+        "raw_order_lines": 54
+      },
+      {
+        "cohort": "Q4 2016",
+        "age": 6,
+        "customers": 153,
+        "quarter_sales": 21807.620000000003,
+        "running_sales": 212199.8755999999,
+        "cltv": 1386.9272915032675,
+        "filled_gap": false,
+        "raw_order_lines": 119
+      },
+      {
+        "cohort": "Q4 2016",
+        "age": 7,
+        "customers": 153,
+        "quarter_sales": 24974.0975,
+        "running_sales": 237173.97309999992,
+        "cltv": 1550.1566869281041,
+        "filled_gap": false,
+        "raw_order_lines": 143
+      },
+      {
+        "cohort": "Q4 2016",
+        "age": 8,
+        "customers": 153,
+        "quarter_sales": 54523.43099999999,
+        "running_sales": 291697.4040999999,
+        "cltv": 1906.5189810457512,
+        "filled_gap": false,
+        "raw_order_lines": 152
+      },
+      {
+        "cohort": "Q4 2016",
+        "age": 9,
+        "customers": 153,
+        "quarter_sales": 34435.16499999999,
+        "running_sales": 326132.5690999999,
+        "cltv": 2131.585418954248,
+        "filled_gap": false,
+        "raw_order_lines": 95
+      },
+      {
+        "cohort": "Q4 2016",
+        "age": 10,
+        "customers": 153,
+        "quarter_sales": 23611.424499999986,
+        "running_sales": 349743.99359999987,
+        "cltv": 2285.90845490196,
+        "filled_gap": false,
+        "raw_order_lines": 131
+      },
+      {
+        "cohort": "Q4 2016",
+        "age": 11,
+        "customers": 153,
+        "quarter_sales": 38373.18199999999,
+        "running_sales": 388117.17559999984,
+        "cltv": 2536.7135660130707,
+        "filled_gap": false,
+        "raw_order_lines": 187
+      },
+      {
+        "cohort": "Q4 2016",
+        "age": 12,
+        "customers": 153,
+        "quarter_sales": 56397.35799999999,
+        "running_sales": 444514.53359999985,
+        "cltv": 2905.323749019607,
+        "filled_gap": false,
+        "raw_order_lines": 262
+      },
+      {
+        "cohort": "Q1 2017",
+        "age": 0,
+        "customers": 32,
+        "quarter_sales": 17627.8162,
+        "running_sales": 17627.8162,
+        "cltv": 550.86925625,
+        "filled_gap": false,
+        "raw_order_lines": 62
+      },
+      {
+        "cohort": "Q1 2017",
+        "age": 1,
+        "customers": 32,
+        "quarter_sales": 6014.4365,
+        "running_sales": 23642.2527,
+        "cltv": 738.820396875,
+        "filled_gap": false,
+        "raw_order_lines": 30
+      },
+      {
+        "cohort": "Q1 2017",
+        "age": 2,
+        "customers": 32,
+        "quarter_sales": 4934.358,
+        "running_sales": 28576.6107,
+        "cltv": 893.019084375,
+        "filled_gap": false,
+        "raw_order_lines": 24
+      },
+      {
+        "cohort": "Q1 2017",
+        "age": 3,
+        "customers": 32,
+        "quarter_sales": 5689.603,
+        "running_sales": 34266.2137,
+        "cltv": 1070.819178125,
+        "filled_gap": false,
+        "raw_order_lines": 18
+      },
+      {
+        "cohort": "Q1 2017",
+        "age": 4,
+        "customers": 32,
+        "quarter_sales": 3419.2970000000005,
+        "running_sales": 37685.5107,
+        "cltv": 1177.672209375,
+        "filled_gap": false,
+        "raw_order_lines": 17
+      },
+      {
+        "cohort": "Q1 2017",
+        "age": 5,
+        "customers": 32,
+        "quarter_sales": 482.0,
+        "running_sales": 38167.5107,
+        "cltv": 1192.734709375,
+        "filled_gap": false,
+        "raw_order_lines": 11
+      },
+      {
+        "cohort": "Q1 2017",
+        "age": 6,
+        "customers": 32,
+        "quarter_sales": 3390.1615,
+        "running_sales": 41557.6722,
+        "cltv": 1298.67725625,
+        "filled_gap": false,
+        "raw_order_lines": 21
+      },
+      {
+        "cohort": "Q1 2017",
+        "age": 7,
+        "customers": 32,
+        "quarter_sales": 10383.286000000002,
+        "running_sales": 51940.9582,
+        "cltv": 1623.15494375,
+        "filled_gap": false,
+        "raw_order_lines": 49
+      },
+      {
+        "cohort": "Q1 2017",
+        "age": 8,
+        "customers": 32,
+        "quarter_sales": 9680.8344,
+        "running_sales": 61621.7926,
+        "cltv": 1925.68101875,
+        "filled_gap": false,
+        "raw_order_lines": 30
+      },
+      {
+        "cohort": "Q1 2017",
+        "age": 9,
+        "customers": 32,
+        "quarter_sales": 4747.37,
+        "running_sales": 66369.1626,
+        "cltv": 2074.03633125,
+        "filled_gap": false,
+        "raw_order_lines": 25
+      },
+      {
+        "cohort": "Q1 2017",
+        "age": 10,
+        "customers": 32,
+        "quarter_sales": 11036.142000000002,
+        "running_sales": 77405.3046,
+        "cltv": 2418.91576875,
+        "filled_gap": false,
+        "raw_order_lines": 29
+      },
+      {
+        "cohort": "Q1 2017",
+        "age": 11,
+        "customers": 32,
+        "quarter_sales": 11795.706000000002,
+        "running_sales": 89201.01060000001,
+        "cltv": 2787.5315812500003,
+        "filled_gap": false,
+        "raw_order_lines": 56
+      },
+      {
+        "cohort": "Q2 2017",
+        "age": 0,
+        "customers": 36,
+        "quarter_sales": 12185.948000000004,
+        "running_sales": 12185.948000000004,
+        "cltv": 338.49855555555564,
+        "filled_gap": false,
+        "raw_order_lines": 72
+      },
+      {
+        "cohort": "Q2 2017",
+        "age": 1,
+        "customers": 36,
+        "quarter_sales": 8318.090000000002,
+        "running_sales": 20504.038000000008,
+        "cltv": 569.5566111111114,
+        "filled_gap": false,
+        "raw_order_lines": 31
+      },
+      {
+        "cohort": "Q2 2017",
+        "age": 2,
+        "customers": 36,
+        "quarter_sales": 8219.306,
+        "running_sales": 28723.34400000001,
+        "cltv": 797.8706666666669,
+        "filled_gap": false,
+        "raw_order_lines": 31
+      },
+      {
+        "cohort": "Q2 2017",
+        "age": 3,
+        "customers": 36,
+        "quarter_sales": 6477.312,
+        "running_sales": 35200.65600000001,
+        "cltv": 977.7960000000003,
+        "filled_gap": false,
+        "raw_order_lines": 27
+      },
+      {
+        "cohort": "Q2 2017",
+        "age": 4,
+        "customers": 36,
+        "quarter_sales": 13675.044000000002,
+        "running_sales": 48875.70000000001,
+        "cltv": 1357.6583333333338,
+        "filled_gap": false,
+        "raw_order_lines": 38
+      },
+      {
+        "cohort": "Q2 2017",
+        "age": 5,
+        "customers": 36,
+        "quarter_sales": 11761.401600000001,
+        "running_sales": 60637.10160000001,
+        "cltv": 1684.3639333333335,
+        "filled_gap": false,
+        "raw_order_lines": 39
+      },
+      {
+        "cohort": "Q2 2017",
+        "age": 6,
+        "customers": 36,
+        "quarter_sales": 11065.195,
+        "running_sales": 71702.2966,
+        "cltv": 1991.7304611111113,
+        "filled_gap": false,
+        "raw_order_lines": 33
+      },
+      {
+        "cohort": "Q2 2017",
+        "age": 7,
+        "customers": 36,
+        "quarter_sales": 3631.899000000001,
+        "running_sales": 75334.1956,
+        "cltv": 2092.6165444444446,
+        "filled_gap": false,
+        "raw_order_lines": 24
+      },
+      {
+        "cohort": "Q2 2017",
+        "age": 8,
+        "customers": 36,
+        "quarter_sales": 533.748,
+        "running_sales": 75867.94360000001,
+        "cltv": 2107.442877777778,
+        "filled_gap": false,
+        "raw_order_lines": 12
+      },
+      {
+        "cohort": "Q2 2017",
+        "age": 9,
+        "customers": 36,
+        "quarter_sales": 7580.306,
+        "running_sales": 83448.24960000001,
+        "cltv": 2318.0069333333336,
+        "filled_gap": false,
+        "raw_order_lines": 45
+      },
+      {
+        "cohort": "Q2 2017",
+        "age": 10,
+        "customers": 36,
+        "quarter_sales": 18333.394999999993,
+        "running_sales": 101781.6446,
+        "cltv": 2827.2679055555554,
+        "filled_gap": false,
+        "raw_order_lines": 59
+      },
+      {
+        "cohort": "Q3 2017",
+        "age": 0,
+        "customers": 36,
+        "quarter_sales": 18109.462999999996,
+        "running_sales": 18109.462999999996,
+        "cltv": 503.0406388888888,
+        "filled_gap": false,
+        "raw_order_lines": 90
+      },
+      {
+        "cohort": "Q3 2017",
+        "age": 1,
+        "customers": 36,
+        "quarter_sales": 7611.614000000001,
+        "running_sales": 25721.076999999997,
+        "cltv": 714.4743611111111,
+        "filled_gap": false,
+        "raw_order_lines": 39
+      },
+      {
+        "cohort": "Q3 2017",
+        "age": 2,
+        "customers": 36,
+        "quarter_sales": 3428.4439999999995,
+        "running_sales": 29149.520999999997,
+        "cltv": 809.7089166666666,
+        "filled_gap": false,
+        "raw_order_lines": 23
+      },
+      {
+        "cohort": "Q3 2017",
+        "age": 3,
+        "customers": 36,
+        "quarter_sales": 2138.563,
+        "running_sales": 31288.083999999995,
+        "cltv": 869.1134444444443,
+        "filled_gap": false,
+        "raw_order_lines": 14
+      },
+      {
+        "cohort": "Q3 2017",
+        "age": 4,
+        "customers": 36,
+        "quarter_sales": 7226.700000000001,
+        "running_sales": 38514.784,
+        "cltv": 1069.855111111111,
+        "filled_gap": false,
+        "raw_order_lines": 30
+      },
+      {
+        "cohort": "Q3 2017",
+        "age": 5,
+        "customers": 36,
+        "quarter_sales": 7576.478999999998,
+        "running_sales": 46091.263,
+        "cltv": 1280.312861111111,
+        "filled_gap": false,
+        "raw_order_lines": 38
+      },
+      {
+        "cohort": "Q3 2017",
+        "age": 6,
+        "customers": 36,
+        "quarter_sales": 3386.7479999999996,
+        "running_sales": 49478.011,
+        "cltv": 1374.3891944444445,
+        "filled_gap": false,
+        "raw_order_lines": 29
+      },
+      {
+        "cohort": "Q3 2017",
+        "age": 7,
+        "customers": 36,
+        "quarter_sales": 11771.317000000001,
+        "running_sales": 61249.328,
+        "cltv": 1701.3702222222223,
+        "filled_gap": false,
+        "raw_order_lines": 57
+      },
+      {
+        "cohort": "Q3 2017",
+        "age": 8,
+        "customers": 36,
+        "quarter_sales": 16048.28,
+        "running_sales": 77297.60800000001,
+        "cltv": 2147.155777777778,
+        "filled_gap": false,
+        "raw_order_lines": 64
+      },
+      {
+        "cohort": "Q3 2017",
+        "age": 9,
+        "customers": 36,
+        "quarter_sales": 7776.983999999999,
+        "running_sales": 85074.592,
+        "cltv": 2363.1831111111114,
+        "filled_gap": false,
+        "raw_order_lines": 45
+      },
+      {
+        "cohort": "Q4 2017",
+        "age": 0,
+        "customers": 32,
+        "quarter_sales": 16677.861500000003,
+        "running_sales": 16677.861500000003,
+        "cltv": 521.1831718750001,
+        "filled_gap": false,
+        "raw_order_lines": 75
+      },
+      {
+        "cohort": "Q4 2017",
+        "age": 1,
+        "customers": 32,
+        "quarter_sales": 406.326,
+        "running_sales": 17084.187500000004,
+        "cltv": 533.8808593750001,
+        "filled_gap": false,
+        "raw_order_lines": 3
+      },
+      {
+        "cohort": "Q4 2017",
+        "age": 2,
+        "customers": 32,
+        "quarter_sales": 3333.82,
+        "running_sales": 20418.007500000003,
+        "cltv": 638.0627343750001,
+        "filled_gap": false,
+        "raw_order_lines": 22
+      },
+      {
+        "cohort": "Q4 2017",
+        "age": 3,
+        "customers": 32,
+        "quarter_sales": 8605.132799999998,
+        "running_sales": 29023.1403,
+        "cltv": 906.973134375,
+        "filled_gap": false,
+        "raw_order_lines": 25
+      },
+      {
+        "cohort": "Q4 2017",
+        "age": 4,
+        "customers": 32,
+        "quarter_sales": 6124.412000000003,
+        "running_sales": 35147.5523,
+        "cltv": 1098.361009375,
+        "filled_gap": false,
+        "raw_order_lines": 28
+      },
+      {
+        "cohort": "Q4 2017",
+        "age": 5,
+        "customers": 32,
+        "quarter_sales": 3170.3039999999996,
+        "running_sales": 38317.8563,
+        "cltv": 1197.433009375,
+        "filled_gap": false,
+        "raw_order_lines": 26
+      },
+      {
+        "cohort": "Q4 2017",
+        "age": 6,
+        "customers": 32,
+        "quarter_sales": 526.49,
+        "running_sales": 38844.3463,
+        "cltv": 1213.885821875,
+        "filled_gap": false,
+        "raw_order_lines": 12
+      },
+      {
+        "cohort": "Q4 2017",
+        "age": 7,
+        "customers": 32,
+        "quarter_sales": 10399.283,
+        "running_sales": 49243.6293,
+        "cltv": 1538.863415625,
+        "filled_gap": false,
+        "raw_order_lines": 32
+      },
+      {
+        "cohort": "Q4 2017",
+        "age": 8,
+        "customers": 32,
+        "quarter_sales": 11353.689799999998,
+        "running_sales": 60597.3191,
+        "cltv": 1893.666221875,
+        "filled_gap": false,
+        "raw_order_lines": 45
+      },
+      {
+        "cohort": "Q1 2018",
+        "age": 0,
+        "customers": 14,
+        "quarter_sales": 4904.532,
+        "running_sales": 4904.532,
+        "cltv": 350.3237142857143,
+        "filled_gap": false,
+        "raw_order_lines": 22
+      },
+      {
+        "cohort": "Q1 2018",
+        "age": 1,
+        "customers": 14,
+        "quarter_sales": 5243.392,
+        "running_sales": 10147.923999999999,
+        "cltv": 724.8517142857143,
+        "filled_gap": false,
+        "raw_order_lines": 11
+      },
+      {
+        "cohort": "Q1 2018",
+        "age": 2,
+        "customers": 14,
+        "quarter_sales": 485.56000000000006,
+        "running_sales": 10633.483999999999,
+        "cltv": 759.5345714285713,
+        "filled_gap": false,
+        "raw_order_lines": 14
+      },
+      {
+        "cohort": "Q1 2018",
+        "age": 3,
+        "customers": 14,
+        "quarter_sales": 2728.025,
+        "running_sales": 13361.508999999998,
+        "cltv": 954.3934999999999,
+        "filled_gap": false,
+        "raw_order_lines": 15
+      },
+      {
+        "cohort": "Q1 2018",
+        "age": 4,
+        "customers": 14,
+        "quarter_sales": 4292.078,
+        "running_sales": 17653.587,
+        "cltv": 1260.9705,
+        "filled_gap": false,
+        "raw_order_lines": 22
+      },
+      {
+        "cohort": "Q1 2018",
+        "age": 5,
+        "customers": 14,
+        "quarter_sales": 6392.029999999998,
+        "running_sales": 24045.617,
+        "cltv": 1717.5440714285712,
+        "filled_gap": false,
+        "raw_order_lines": 17
+      },
+      {
+        "cohort": "Q1 2018",
+        "age": 6,
+        "customers": 14,
+        "quarter_sales": 5460.9439999999995,
+        "running_sales": 29506.560999999998,
+        "cltv": 2107.6115,
+        "filled_gap": false,
+        "raw_order_lines": 24
+      },
+      {
+        "cohort": "Q1 2018",
+        "age": 7,
+        "customers": 14,
+        "quarter_sales": 4004.7478000000006,
+        "running_sales": 33511.3088,
+        "cltv": 2393.664914285714,
+        "filled_gap": false,
+        "raw_order_lines": 26
+      },
+      {
+        "cohort": "Q2 2018",
+        "age": 0,
+        "customers": 22,
+        "quarter_sales": 17309.969999999998,
+        "running_sales": 17309.969999999998,
+        "cltv": 786.8168181818181,
+        "filled_gap": false,
+        "raw_order_lines": 60
+      },
+      {
+        "cohort": "Q2 2018",
+        "age": 1,
+        "customers": 22,
+        "quarter_sales": 11343.737,
+        "running_sales": 28653.706999999995,
+        "cltv": 1302.441227272727,
+        "filled_gap": false,
+        "raw_order_lines": 42
+      },
+      {
+        "cohort": "Q2 2018",
+        "age": 2,
+        "customers": 22,
+        "quarter_sales": 5332.709999999999,
+        "running_sales": 33986.416999999994,
+        "cltv": 1544.837136363636,
+        "filled_gap": false,
+        "raw_order_lines": 15
+      },
+      {
+        "cohort": "Q2 2018",
+        "age": 3,
+        "customers": 22,
+        "quarter_sales": 19664.152999999995,
+        "running_sales": 53650.56999999999,
+        "cltv": 2438.6622727272725,
+        "filled_gap": false,
+        "raw_order_lines": 21
+      },
+      {
+        "cohort": "Q2 2018",
+        "age": 4,
+        "customers": 22,
+        "quarter_sales": 1561.2915999999998,
+        "running_sales": 55211.86159999999,
+        "cltv": 2509.6300727272724,
+        "filled_gap": false,
+        "raw_order_lines": 16
+      },
+      {
+        "cohort": "Q2 2018",
+        "age": 5,
+        "customers": 22,
+        "quarter_sales": 2472.862,
+        "running_sales": 57684.72359999999,
+        "cltv": 2622.0328909090904,
+        "filled_gap": false,
+        "raw_order_lines": 28
+      },
+      {
+        "cohort": "Q2 2018",
+        "age": 6,
+        "customers": 22,
+        "quarter_sales": 5676.745,
+        "running_sales": 63361.46859999999,
+        "cltv": 2880.0667545454544,
+        "filled_gap": false,
+        "raw_order_lines": 30
+      },
+      {
+        "cohort": "Q3 2018",
+        "age": 0,
+        "customers": 6,
+        "quarter_sales": 2094.844,
+        "running_sales": 2094.844,
+        "cltv": 349.1406666666667,
+        "filled_gap": false,
+        "raw_order_lines": 13
+      },
+      {
+        "cohort": "Q3 2018",
+        "age": 1,
+        "customers": 6,
+        "quarter_sales": null,
+        "running_sales": 2094.844,
+        "cltv": 349.1406666666667,
+        "filled_gap": true,
+        "raw_order_lines": 0
+      },
+      {
+        "cohort": "Q3 2018",
+        "age": 2,
+        "customers": 6,
+        "quarter_sales": 1331.5590000000002,
+        "running_sales": 3426.4030000000002,
+        "cltv": 571.0671666666667,
+        "filled_gap": false,
+        "raw_order_lines": 9
+      },
+      {
+        "cohort": "Q3 2018",
+        "age": 3,
+        "customers": 6,
+        "quarter_sales": 1324.9640000000002,
+        "running_sales": 4751.367,
+        "cltv": 791.8945,
+        "filled_gap": false,
+        "raw_order_lines": 11
+      },
+      {
+        "cohort": "Q3 2018",
+        "age": 4,
+        "customers": 6,
+        "quarter_sales": 1169.694,
+        "running_sales": 5921.061,
+        "cltv": 986.8435,
+        "filled_gap": false,
+        "raw_order_lines": 1
+      },
+      {
+        "cohort": "Q3 2018",
+        "age": 5,
+        "customers": 6,
+        "quarter_sales": 2614.536,
+        "running_sales": 8535.597,
+        "cltv": 1422.5995,
+        "filled_gap": false,
+        "raw_order_lines": 16
+      },
+      {
+        "cohort": "Q4 2018",
+        "age": 0,
+        "customers": 9,
+        "quarter_sales": 5360.85,
+        "running_sales": 5360.85,
+        "cltv": 595.6500000000001,
+        "filled_gap": false,
+        "raw_order_lines": 18
+      },
+      {
+        "cohort": "Q4 2018",
+        "age": 1,
+        "customers": 9,
+        "quarter_sales": 1666.5569999999998,
+        "running_sales": 7027.407,
+        "cltv": 780.823,
+        "filled_gap": false,
+        "raw_order_lines": 8
+      },
+      {
+        "cohort": "Q4 2018",
+        "age": 2,
+        "customers": 9,
+        "quarter_sales": 244.65,
+        "running_sales": 7272.057,
+        "cltv": 808.0063333333333,
+        "filled_gap": false,
+        "raw_order_lines": 2
+      },
+      {
+        "cohort": "Q4 2018",
+        "age": 3,
+        "customers": 9,
+        "quarter_sales": 291.444,
+        "running_sales": 7563.501,
+        "cltv": 840.389,
+        "filled_gap": false,
+        "raw_order_lines": 5
+      },
+      {
+        "cohort": "Q4 2018",
+        "age": 4,
+        "customers": 9,
+        "quarter_sales": 2738.0029999999997,
+        "running_sales": 10301.504,
+        "cltv": 1144.6115555555557,
+        "filled_gap": false,
+        "raw_order_lines": 19
+      },
+      {
+        "cohort": "Q1 2019",
+        "age": 0,
+        "customers": 3,
+        "quarter_sales": 485.05,
+        "running_sales": 485.05,
+        "cltv": 161.68333333333334,
+        "filled_gap": false,
+        "raw_order_lines": 4
+      },
+      {
+        "cohort": "Q1 2019",
+        "age": 1,
+        "customers": 3,
+        "quarter_sales": 6.369999999999998,
+        "running_sales": 491.42,
+        "cltv": 163.80666666666667,
+        "filled_gap": false,
+        "raw_order_lines": 1
+      },
+      {
+        "cohort": "Q1 2019",
+        "age": 2,
+        "customers": 3,
+        "quarter_sales": 768.818,
+        "running_sales": 1260.238,
+        "cltv": 420.07933333333335,
+        "filled_gap": false,
+        "raw_order_lines": 3
+      },
+      {
+        "cohort": "Q1 2019",
+        "age": 3,
+        "customers": 3,
+        "quarter_sales": 674.8720000000001,
+        "running_sales": 1935.1100000000001,
+        "cltv": 645.0366666666667,
+        "filled_gap": false,
+        "raw_order_lines": 2
+      },
+      {
+        "cohort": "Q2 2019",
+        "age": 0,
+        "customers": 2,
+        "quarter_sales": 64.715,
+        "running_sales": 64.715,
+        "cltv": 32.3575,
+        "filled_gap": false,
+        "raw_order_lines": 3
+      },
+      {
+        "cohort": "Q2 2019",
+        "age": 1,
+        "customers": 2,
+        "quarter_sales": null,
+        "running_sales": 64.715,
+        "cltv": 32.3575,
+        "filled_gap": true,
+        "raw_order_lines": 0
+      },
+      {
+        "cohort": "Q2 2019",
+        "age": 2,
+        "customers": 2,
+        "quarter_sales": 65.856,
+        "running_sales": 130.571,
+        "cltv": 65.2855,
+        "filled_gap": false,
+        "raw_order_lines": 3
+      },
+      {
+        "cohort": "Q3 2019",
+        "age": 0,
+        "customers": 3,
+        "quarter_sales": 2408.328,
+        "running_sales": 2408.328,
+        "cltv": 802.776,
+        "filled_gap": false,
+        "raw_order_lines": 10
+      },
+      {
+        "cohort": "Q3 2019",
+        "age": 1,
+        "customers": 3,
+        "quarter_sales": 238.68400000000003,
+        "running_sales": 2647.012,
+        "cltv": 882.3373333333334,
+        "filled_gap": false,
+        "raw_order_lines": 4
+      },
+      {
+        "cohort": "Q4 2019",
+        "age": 0,
+        "customers": 3,
+        "quarter_sales": 2799.112,
+        "running_sales": 2799.112,
+        "cltv": 933.0373333333333,
+        "filled_gap": false,
+        "raw_order_lines": 16
+      }
+    ],
+    "trailing_null_cells_excluded": 120
+  },
+  "cloud_checks": [
+    {
+      "state": "default",
+      "role": "author",
+      "view": "Viz",
+      "rows_checked": 136,
+      "complete_matrix": true,
+      "filled_gap_cells_checked": 2,
+      "currency_rounding_tolerance": 0.501
+    },
+    {
+      "state": "default",
+      "role": "replica",
+      "view": "Viz",
+      "rows_checked": 136,
+      "complete_matrix": true,
+      "filled_gap_cells_checked": 2,
+      "currency_rounding_tolerance": 0.501
+    }
+  ],
+  "browser_interaction_executed": false
+}

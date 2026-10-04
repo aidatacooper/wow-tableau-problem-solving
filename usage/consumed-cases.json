@@ -908,6 +908,39 @@
       "reason": "Derived from case metadata; consumed means claimed, not verified completed."
     },
     {
+      "case_id": "wow-2021-ww01-line-variance",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2021-01-08-ww01-line-variance",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2021-ww02-customer-lifetime-matrix",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2021-01-14-ww02-customer-lifetime-matrix",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2021-ww03-control-chart",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2021-01-22-ww03-control-chart",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
       "case_id": "wow-2026-ww04-dynamic-moving-average",
       "legacy_case_ids": {
         "donna-2026-02-02-5ebab8421caf": "wow-2026-ww04-dynamic-moving-average"

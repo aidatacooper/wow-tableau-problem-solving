@@ -1,0 +1,566 @@
+{
+  "case_id": "wow-2021-ww01-line-variance",
+  "captured_at": "2026-10-04T15:58:29.395600+00:00",
+  "source_hashes": {
+    "author": "3d4165cce0763b163e9ceb2a025f11e3a43a7c3d65c6c8c5c380473d4548f7bf",
+    "replica": "0277a239831ed22cf3d41c311a906ba671294525faeaf1332bd632210944e42a"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "11ba9d13-7e4a-49d7-a915-0cccdcc623c6",
+      "name": "cwtwb-review-wow-2021-ww01-line-variance-author-3d4165cce076",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2936825",
+      "views": [
+        {
+          "name": "2021_01_06_WW01_Line_Variance_Table_Calcs",
+          "id": "f52e610d-ee29-4365-b62f-cc5620ce44e6"
+        },
+        {
+          "name": "Data",
+          "id": "fee1da0a-1437-4362-8fdc-bcb94ed186ba"
+        },
+        {
+          "name": "Viz",
+          "id": "9e79adb3-6b0c-421c-9432-4350246b2e31"
+        }
+      ]
+    },
+    "replica": {
+      "id": "850af86e-067b-4918-9fbf-bc4647e94555",
+      "name": "cwtwb-review-wow-2021-ww01-line-variance-replica-0277a239831e",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2936826",
+      "views": [
+        {
+          "name": "Data",
+          "id": "fc277822-b04a-435c-b59b-09408cd3e558"
+        },
+        {
+          "name": "Viz",
+          "id": "93c4ba12-0594-4951-91f8-613f9396c05e"
+        },
+        {
+          "name": "Title",
+          "id": "45c5c06b-40e9-428a-a973-f16f5e867d39"
+        },
+        {
+          "name": "2021_01_06_WW01_Line_Variance_Table_Calcs",
+          "id": "932ae6f9-9930-4da0-bb9f-cc6716bce0d0"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "f52e610d-ee29-4365-b62f-cc5620ce44e6",
+          "name": "2021_01_06_WW01_Line_Variance_Table_Calcs",
+          "path": "outputs/cloud-author.png",
+          "sha256": "14faad539b8767832988fb5c0d7146783666517793963c5455d353024d5c1de8",
+          "size": [
+            2000,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "932ae6f9-9930-4da0-bb9f-cc6716bce0d0",
+          "name": "2021_01_06_WW01_Line_Variance_Table_Calcs",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "a0508df80235a077c4ca1e766e0eddd4a0a73864d30c16b544a4de86f71a07b6",
+          "size": [
+            2000,
+            1600
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Viz",
+          "view_id": "9e79adb3-6b0c-421c-9432-4350246b2e31",
+          "scope": "Entire 25-year trend with selected/comparison sparse-circle measures and WINDOW_MAX selected/difference indicators under actual parameters.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-viz.csv",
+          "sha256": "01b83a5e63bd9d3b23f3320edc71bf12bfead9634bcc55a7cb3273d0d33fa89d",
+          "bytes": 3740
+        },
+        {
+          "role": "author",
+          "view": "Data",
+          "view_id": "fee1da0a-1437-4362-8fdc-bcb94ed186ba",
+          "scope": "Full 25-year diagnostic measure table; used to independently verify nested table calculations, not action execution.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-data.csv",
+          "sha256": "7213f2e0538d062af5eceb2572b823d0cfc963e3f326fb128fff5d3b402f88d9",
+          "bytes": 10772
+        },
+        {
+          "role": "replica",
+          "view": "Viz",
+          "view_id": "93c4ba12-0594-4951-91f8-613f9396c05e",
+          "scope": "Entire 25-year trend with selected/comparison sparse-circle measures and WINDOW_MAX selected/difference indicators under actual parameters.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-viz.csv",
+          "sha256": "5248fdcc0e4b0484a3d2a97485c189ab8f3c602b198ced4cf24ec4e2757115c6",
+          "bytes": 3671
+        },
+        {
+          "role": "replica",
+          "view": "Data",
+          "view_id": "fc277822-b04a-435c-b59b-09408cd3e558",
+          "scope": "Full 25-year diagnostic measure table; used to independently verify nested table calculations, not action execution.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-data.csv",
+          "sha256": "2f27ff964c8b7f537cfcda9afa9f78d9c6100b9524a2f0ff091d90ddf6232175",
+          "bytes": 11181
+        }
+      ]
+    },
+    {
+      "name": "first-year",
+      "parameters": {
+        "pComparison": "0"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "f52e610d-ee29-4365-b62f-cc5620ce44e6",
+          "name": "2021_01_06_WW01_Line_Variance_Table_Calcs",
+          "path": "outputs/cloud-author-first-year.png",
+          "sha256": "c2e1b7762345713b9aed59c38ee22548c2764a7133f84744cb0bd42c90256f7e",
+          "size": [
+            2000,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "932ae6f9-9930-4da0-bb9f-cc6716bce0d0",
+          "name": "2021_01_06_WW01_Line_Variance_Table_Calcs",
+          "path": "outputs/cloud-replica-first-year.png",
+          "sha256": "403a4711c1dcde0486dc8b0cec758a138a9bbcc6005c2faa1cf50dcbbfa18284",
+          "size": [
+            2000,
+            1600
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Viz",
+          "view_id": "9e79adb3-6b0c-421c-9432-4350246b2e31",
+          "scope": "Entire 25-year trend with selected/comparison sparse-circle measures and WINDOW_MAX selected/difference indicators under actual parameters.",
+          "parameters": {
+            "pComparison": "0"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-viz-first-year.csv",
+          "sha256": "b7bde9021fa622bc5928fd88b3faaa10628b595311386d49dbf2e3ba54521bf7",
+          "bytes": 3741
+        },
+        {
+          "role": "author",
+          "view": "Data",
+          "view_id": "fee1da0a-1437-4362-8fdc-bcb94ed186ba",
+          "scope": "Full 25-year diagnostic measure table; used to independently verify nested table calculations, not action execution.",
+          "parameters": {
+            "pComparison": "0"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-data-first-year.csv",
+          "sha256": "78642254abc3b8167cfd27501ec9314f5410095458b17a2d6542ddc53cf39728",
+          "bytes": 11148
+        },
+        {
+          "role": "replica",
+          "view": "Viz",
+          "view_id": "93c4ba12-0594-4951-91f8-613f9396c05e",
+          "scope": "Entire 25-year trend with selected/comparison sparse-circle measures and WINDOW_MAX selected/difference indicators under actual parameters.",
+          "parameters": {
+            "pComparison": "0"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-viz-first-year.csv",
+          "sha256": "ccdd926de62a8cadfeb9f4f15c56b623819fa6216b86e63adc79c4b93a1aaa3e",
+          "bytes": 3672
+        },
+        {
+          "role": "replica",
+          "view": "Data",
+          "view_id": "fc277822-b04a-435c-b59b-09408cd3e558",
+          "scope": "Full 25-year diagnostic measure table; used to independently verify nested table calculations, not action execution.",
+          "parameters": {
+            "pComparison": "0"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-data-first-year.csv",
+          "sha256": "f236fa17d4ab337c119775562b4ef4b03e99319ba134d4dba6fa8ee44862a780",
+          "bytes": 11557
+        }
+      ]
+    },
+    {
+      "name": "most-recent",
+      "parameters": {
+        "pComparison": "1"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "f52e610d-ee29-4365-b62f-cc5620ce44e6",
+          "name": "2021_01_06_WW01_Line_Variance_Table_Calcs",
+          "path": "outputs/cloud-author-most-recent.png",
+          "sha256": "94832f614050ed95de99e77ecc9756026633d5590ec7638ae60e79838fb595b4",
+          "size": [
+            2000,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "932ae6f9-9930-4da0-bb9f-cc6716bce0d0",
+          "name": "2021_01_06_WW01_Line_Variance_Table_Calcs",
+          "path": "outputs/cloud-replica-most-recent.png",
+          "sha256": "aa5f62277c1b2022d0a9598e2d723098a5466bb6a841399cbebfaf1720576058",
+          "size": [
+            2000,
+            1600
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Viz",
+          "view_id": "9e79adb3-6b0c-421c-9432-4350246b2e31",
+          "scope": "Entire 25-year trend with selected/comparison sparse-circle measures and WINDOW_MAX selected/difference indicators under actual parameters.",
+          "parameters": {
+            "pComparison": "1"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-viz-most-recent.csv",
+          "sha256": "7df09959280bb23c5883317ea381b0303104985375485014b14dd521126ed94c",
+          "bytes": 3741
+        },
+        {
+          "role": "author",
+          "view": "Data",
+          "view_id": "fee1da0a-1437-4362-8fdc-bcb94ed186ba",
+          "scope": "Full 25-year diagnostic measure table; used to independently verify nested table calculations, not action execution.",
+          "parameters": {
+            "pComparison": "1"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-data-most-recent.csv",
+          "sha256": "338d78c8df527237d5117f0549a765ba78ecca777a003dd9d18a0112f5b06f6e",
+          "bytes": 11123
+        },
+        {
+          "role": "replica",
+          "view": "Viz",
+          "view_id": "93c4ba12-0594-4951-91f8-613f9396c05e",
+          "scope": "Entire 25-year trend with selected/comparison sparse-circle measures and WINDOW_MAX selected/difference indicators under actual parameters.",
+          "parameters": {
+            "pComparison": "1"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-viz-most-recent.csv",
+          "sha256": "cb6eba940d67d0fab6684f28d0ec444aee13be07653389c4c2ad61aff63b394c",
+          "bytes": 3672
+        },
+        {
+          "role": "replica",
+          "view": "Data",
+          "view_id": "fc277822-b04a-435c-b59b-09408cd3e558",
+          "scope": "Full 25-year diagnostic measure table; used to independently verify nested table calculations, not action execution.",
+          "parameters": {
+            "pComparison": "1"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-data-most-recent.csv",
+          "sha256": "2e80f5bcb88a6b8c53466139221fc6e9d46f48a6c01272de616babae82cc18ca",
+          "bytes": 11532
+        }
+      ]
+    },
+    {
+      "name": "year-1995-previous",
+      "parameters": {
+        "pSelected Year": "1995",
+        "pComparison": "2"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "f52e610d-ee29-4365-b62f-cc5620ce44e6",
+          "name": "2021_01_06_WW01_Line_Variance_Table_Calcs",
+          "path": "outputs/cloud-author-year-1995-previous.png",
+          "sha256": "f176155ad025369ab2b7d01652106a83ccf38f25db213000d6526202e4fbfffc",
+          "size": [
+            2000,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "932ae6f9-9930-4da0-bb9f-cc6716bce0d0",
+          "name": "2021_01_06_WW01_Line_Variance_Table_Calcs",
+          "path": "outputs/cloud-replica-year-1995-previous.png",
+          "sha256": "c9a425c157f1b2f8da8babb0408e14087a16907e12bad6c1f47941a41e9a140b",
+          "size": [
+            2000,
+            1600
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Viz",
+          "view_id": "9e79adb3-6b0c-421c-9432-4350246b2e31",
+          "scope": "Entire 25-year trend with selected/comparison sparse-circle measures and WINDOW_MAX selected/difference indicators under actual parameters.",
+          "parameters": {
+            "pSelected Year": "1995",
+            "pComparison": "2"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-viz-year-1995-previous.csv",
+          "sha256": "964d80ff130b12bfc8235a6b8a17ac3ad2f666c90dc0e92a4e51e691c199dbdd",
+          "bytes": 3436
+        },
+        {
+          "role": "author",
+          "view": "Data",
+          "view_id": "fee1da0a-1437-4362-8fdc-bcb94ed186ba",
+          "scope": "Full 25-year diagnostic measure table; used to independently verify nested table calculations, not action execution.",
+          "parameters": {
+            "pSelected Year": "1995",
+            "pComparison": "2"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-data-year-1995-previous.csv",
+          "sha256": "93ed613c6c334e16b39e4cfb2f55e6b1a3eeb4024a0e77d797402e1aa7bebc36",
+          "bytes": 10439
+        },
+        {
+          "role": "replica",
+          "view": "Viz",
+          "view_id": "93c4ba12-0594-4951-91f8-613f9396c05e",
+          "scope": "Entire 25-year trend with selected/comparison sparse-circle measures and WINDOW_MAX selected/difference indicators under actual parameters.",
+          "parameters": {
+            "pSelected Year": "1995",
+            "pComparison": "2"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-viz-year-1995-previous.csv",
+          "sha256": "4b76ed435b0fe149fc404bbcfe8aa1a45312f5e427bfc9d62422dd3edec2f3af",
+          "bytes": 3367
+        },
+        {
+          "role": "replica",
+          "view": "Data",
+          "view_id": "fc277822-b04a-435c-b59b-09408cd3e558",
+          "scope": "Full 25-year diagnostic measure table; used to independently verify nested table calculations, not action execution.",
+          "parameters": {
+            "pSelected Year": "1995",
+            "pComparison": "2"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-data-year-1995-previous.csv",
+          "sha256": "2b816a160a8f0e6ce6d76b3d124d5360573c2db4ed8ca74b09b06ca1017c7844",
+          "bytes": 10848
+        }
+      ]
+    },
+    {
+      "name": "year-1995-first",
+      "parameters": {
+        "pSelected Year": "1995",
+        "pComparison": "0"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "f52e610d-ee29-4365-b62f-cc5620ce44e6",
+          "name": "2021_01_06_WW01_Line_Variance_Table_Calcs",
+          "path": "outputs/cloud-author-year-1995-first.png",
+          "sha256": "dfe4dae1d2878eb62df677ef961f45067587e6be9108d3877dcf64e0c229e4fd",
+          "size": [
+            2000,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "932ae6f9-9930-4da0-bb9f-cc6716bce0d0",
+          "name": "2021_01_06_WW01_Line_Variance_Table_Calcs",
+          "path": "outputs/cloud-replica-year-1995-first.png",
+          "sha256": "88f0d0a6decd11477300e5d5f180c4979e7c122841a7e2728cc584a2957fd3ab",
+          "size": [
+            2000,
+            1600
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Viz",
+          "view_id": "9e79adb3-6b0c-421c-9432-4350246b2e31",
+          "scope": "Entire 25-year trend with selected/comparison sparse-circle measures and WINDOW_MAX selected/difference indicators under actual parameters.",
+          "parameters": {
+            "pSelected Year": "1995",
+            "pComparison": "0"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-viz-year-1995-first.csv",
+          "sha256": "5329b8bad1501252a98264c44fd943a0463eb32b17ce4954e2b0c0d5dc98a27c",
+          "bytes": 3441
+        },
+        {
+          "role": "author",
+          "view": "Data",
+          "view_id": "fee1da0a-1437-4362-8fdc-bcb94ed186ba",
+          "scope": "Full 25-year diagnostic measure table; used to independently verify nested table calculations, not action execution.",
+          "parameters": {
+            "pSelected Year": "1995",
+            "pComparison": "0"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-data-year-1995-first.csv",
+          "sha256": "a0dcad1f64e985435875fc3866543a1d2a65acb6cbc6011393873f6c78593aed",
+          "bytes": 10594
+        },
+        {
+          "role": "replica",
+          "view": "Viz",
+          "view_id": "93c4ba12-0594-4951-91f8-613f9396c05e",
+          "scope": "Entire 25-year trend with selected/comparison sparse-circle measures and WINDOW_MAX selected/difference indicators under actual parameters.",
+          "parameters": {
+            "pSelected Year": "1995",
+            "pComparison": "0"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-viz-year-1995-first.csv",
+          "sha256": "e6951140eba4afc172fe8f86711b051b23b9eae76cce780d0ef936ca011e26e5",
+          "bytes": 3372
+        },
+        {
+          "role": "replica",
+          "view": "Data",
+          "view_id": "fc277822-b04a-435c-b59b-09408cd3e558",
+          "scope": "Full 25-year diagnostic measure table; used to independently verify nested table calculations, not action execution.",
+          "parameters": {
+            "pSelected Year": "1995",
+            "pComparison": "0"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-data-year-1995-first.csv",
+          "sha256": "704289a10b9a072476a7df1fd41d124a5f28381b409e37a5188f587ade01f4e1",
+          "bytes": 11003
+        }
+      ]
+    },
+    {
+      "name": "year-2011-first",
+      "parameters": {
+        "pSelected Year": "2011",
+        "pComparison": "0"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "f52e610d-ee29-4365-b62f-cc5620ce44e6",
+          "name": "2021_01_06_WW01_Line_Variance_Table_Calcs",
+          "path": "outputs/cloud-author-year-2011-first.png",
+          "sha256": "4ca75f3303b5fb9cf85018de14976f7ed394ff385216e9da58443e40b9fa248f",
+          "size": [
+            2000,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "932ae6f9-9930-4da0-bb9f-cc6716bce0d0",
+          "name": "2021_01_06_WW01_Line_Variance_Table_Calcs",
+          "path": "outputs/cloud-replica-year-2011-first.png",
+          "sha256": "142197ea8e1afce52f41e3168d338a7b982243fa8e43057abc16634a59acd6a6",
+          "size": [
+            2000,
+            1600
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Viz",
+          "view_id": "9e79adb3-6b0c-421c-9432-4350246b2e31",
+          "scope": "Entire 25-year trend with selected/comparison sparse-circle measures and WINDOW_MAX selected/difference indicators under actual parameters.",
+          "parameters": {
+            "pSelected Year": "2011",
+            "pComparison": "0"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-viz-year-2011-first.csv",
+          "sha256": "16e4f845324dbc51652514bc08f88140e1957634c8ab694a4d576e0998121df9",
+          "bytes": 3741
+        },
+        {
+          "role": "author",
+          "view": "Data",
+          "view_id": "fee1da0a-1437-4362-8fdc-bcb94ed186ba",
+          "scope": "Full 25-year diagnostic measure table; used to independently verify nested table calculations, not action execution.",
+          "parameters": {
+            "pSelected Year": "2011",
+            "pComparison": "0"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-data-year-2011-first.csv",
+          "sha256": "75aef1c04e23597c600428a377eac7c32436326452c6a0cc87dc36262d29c55c",
+          "bytes": 10624
+        },
+        {
+          "role": "replica",
+          "view": "Viz",
+          "view_id": "93c4ba12-0594-4951-91f8-613f9396c05e",
+          "scope": "Entire 25-year trend with selected/comparison sparse-circle measures and WINDOW_MAX selected/difference indicators under actual parameters.",
+          "parameters": {
+            "pSelected Year": "2011",
+            "pComparison": "0"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-viz-year-2011-first.csv",
+          "sha256": "a45c91512cfe34bce956f0d1e40b405348614e89dfb4e002ae98f4c43280be18",
+          "bytes": 3672
+        },
+        {
+          "role": "replica",
+          "view": "Data",
+          "view_id": "fc277822-b04a-435c-b59b-09408cd3e558",
+          "scope": "Full 25-year diagnostic measure table; used to independently verify nested table calculations, not action execution.",
+          "parameters": {
+            "pSelected Year": "2011",
+            "pComparison": "0"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-data-year-2011-first.csv",
+          "sha256": "c536b00f3f2602576d7c40116b2460553a05de2a278417bb6a54135f5014b46d",
+          "bytes": 11033
+        }
+      ]
+    }
+  ],
+  "status": "verified",
+  "independent_review": {
+    "visual_status": "acceptable_delta",
+    "visual_evidence": "evidence/visual-review.md",
+    "functional_evidence": "evidence/functional-verification.json",
+    "scope": "Declared REST worksheet exports and artifact contracts; no browser events executed."
+  }
+}

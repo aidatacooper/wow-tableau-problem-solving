@@ -1,0 +1,9 @@
+{
+  "case_id": "wow-2021-ww02-customer-lifetime-matrix",
+  "sdk_commit": "fe9f33b4dfbe5b1ecec7c56d41138a2888971375",
+  "builder_sha256": "33a804e375f32bd12fcdf113773543b050f14313b014cc8a233f2a186192c28c",
+  "builder_hash_scope": "UTF-8 source text with universal newlines normalized to LF",
+  "result": "passed",
+  "initial_workbooks_available": 0,
+  "scope": "Copied only builder/verifier, metadata and locked inputs. Built from TWBEditor empty, then ran independent raw-data/artifact oracle without copied Cloud evidence or author workbooks."
+}

@@ -1,0 +1,9 @@
+{
+  "status": "rejected_diagnostic",
+  "workbook_sha256": "a49a6f802fb322be84f022d17c9db8fccc9330c8ae87396791d6be4fc7b8403d",
+  "reason": "An additional Week Number detail dimension partitioned each week separately; WINDOW_STDEV was null and original line/band/outlier styling absent. Data table addressed Date From alone while Date To remained a partition dimension.",
+  "default_author_chart_rows": 292,
+  "default_replica_chart_rows": 15476,
+  "accepted_as_final": false,
+  "resolution": "Use one explicit weekly identity on the column shelf and jointly address both date dimensions in the auxiliary table; fresh publication/capture required."
+}

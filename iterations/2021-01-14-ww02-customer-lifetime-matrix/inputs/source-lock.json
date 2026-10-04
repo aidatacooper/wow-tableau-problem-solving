@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-04",
+  "source_workbook": {
+    "filename": "author.twbx",
+    "bytes": 80784,
+    "sha256": "74b46705c55d9b68b14521a2f179c29bb285274dfc1ad94f747974faf9e00ca2",
+    "url": "https://public.tableau.com/workbooks/2021_01_13_WW02_Customer_Lifetime_Matrix.twb"
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Datasources/Orders (Sample - Superstore).hyper",
+      "file": "inputs/Orders (Sample - Superstore).hyper",
+      "bytes": 262144,
+      "sha256": "ff8de2f6fac6948f428ed9731fabcf2ac920a10523754f0816f3636b4628a552"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

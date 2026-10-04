@@ -1,0 +1,7 @@
+{
+  "original_source_workbook_sha256": "baad9f162e114c13ac0ac8f0ffbce40d9f6a41c359549294d6548a6733ed6910",
+  "published_author_comparison_sha256": "13965837eb4a313a839d7c6ec0170fb859f54b555f6b3df3e8bea39b1617870b",
+  "comparison_preparation": "Unhide worksheet windows for REST exports; retain all datasource calculations, worksheet contracts, dashboards, actions and packaged Hyper data. XML serialization changes packaging hash only.",
+  "business_calculations_changed": false,
+  "author_used_as_build_template": false
+}

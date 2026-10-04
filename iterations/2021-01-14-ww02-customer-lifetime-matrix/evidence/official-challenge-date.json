@@ -1,0 +1,17 @@
+{
+  "challenge_year": 2021,
+  "challenge_week": 2,
+  "article_date": "2021-01-14",
+  "challenge_date": "2021-01-12",
+  "official_rest_url": "https://www.workout-wednesday.com/wp-json/wp/v2/posts/4322",
+  "response_excerpt": {
+    "id": 4322,
+    "date": "2021-01-12T23:46:43",
+    "slug": "2021w02tab",
+    "link": "https://www.workout-wednesday.com/2021w02tab/",
+    "title": {
+      "rendered": "2021 Week 2 | Tableau : Can you build a Customer Lifetime Value Matrix?"
+    }
+  },
+  "scope": "Official WordPress publication calendar date, without inference from workbook filenames or week numbers."
+}

@@ -1,0 +1,21 @@
+{
+  "sdk_commit": "df8c2a52cd48800fa0a43d936f6946d318f5b953",
+  "synthetic_author_free": true,
+  "results": [
+    {
+      "capability": "field-backed-band",
+      "error_type": "TypeError",
+      "error": "TWBEditor.add_reference_band() got an unexpected keyword argument 'lower_field'"
+    },
+    {
+      "capability": "cross-dashboard-filter",
+      "error_type": "TypeError",
+      "error": "DashboardsMixin.add_dashboard_action() got an unexpected keyword argument 'target_dashboard'"
+    },
+    {
+      "capability": "parameter-panel-toggle",
+      "error_type": "TypeError",
+      "error": "DashboardsMixin.add_dashboard_toggle_button() got an unexpected keyword argument 'target_parameters'"
+    }
+  ]
+}

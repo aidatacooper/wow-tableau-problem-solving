@@ -1,0 +1,107 @@
+{
+  "case_id": "wow-2021-ww02-customer-lifetime-matrix",
+  "captured_at": "2026-10-04T15:44:56.265379+00:00",
+  "source_hashes": {
+    "author": "96dc290bbf88147b14b814d4ef887e455908296d8f819708a3e94bf7d0304df3",
+    "replica": "28376408fa2c1fc8d9db584ae908915d6fb01192b9ecf452623d7ff28b067c8f"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "05707abf-0357-46c4-9558-ba2bcdcea231",
+      "name": "cwtwb-review-wow-2021-ww02-customer-lifetime-matrix-author-96dc290bbf88",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2936713",
+      "views": [
+        {
+          "name": "2021_01_13_WW02_Customer_Lifetime_Matrix",
+          "id": "be146cf6-1a10-4543-acff-58325bb17a62"
+        },
+        {
+          "name": "Data",
+          "id": "9c347e43-a319-452f-8834-c35b8476b58d"
+        },
+        {
+          "name": "Viz",
+          "id": "91838075-fdbb-403f-be01-8ba4258b5191"
+        }
+      ]
+    },
+    "replica": {
+      "id": "c8016cad-41e7-4d62-ab44-96f66914c819",
+      "name": "cwtwb-review-wow-2021-ww02-customer-lifetime-matrix-replica-28376408fa2c",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2936747",
+      "views": [
+        {
+          "name": "Viz",
+          "id": "26ae715a-81d5-4dc6-a023-2ade846501a6"
+        },
+        {
+          "name": "2021_01_13_WW02_Customer_Lifetime_Matrix",
+          "id": "79a4a32b-dae3-4a45-ba45-e9e707fa1f39"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "be146cf6-1a10-4543-acff-58325bb17a62",
+          "name": "2021_01_13_WW02_Customer_Lifetime_Matrix",
+          "path": "outputs/cloud-author.png",
+          "sha256": "5d3c743840d2e52fffbd9cc4f69894e1b9043dc1fc618e5c73e441fab967efe8",
+          "size": [
+            2800,
+            2000
+          ]
+        },
+        "replica": {
+          "id": "79a4a32b-dae3-4a45-ba45-e9e707fa1f39",
+          "name": "2021_01_13_WW02_Customer_Lifetime_Matrix",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "5a0b9c053d52735ec75527dee42eee2a732ccc381479e0b22590372f9ae1c377",
+          "size": [
+            2800,
+            2000
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Viz",
+          "view_id": "91838075-fdbb-403f-be01-8ba4258b5191",
+          "scope": "Complete cohort/acquisition-quarter/customer/elapsed-quarter matrix with CLTV. No button or auxiliary Data CSV used to prove matrix.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-viz.csv",
+          "sha256": "250bb29013a0a191f376ef62f7fdd78f56ef56203008b3eb5ecb60e244c191ed",
+          "bytes": 2913
+        },
+        {
+          "role": "replica",
+          "view": "Viz",
+          "view_id": "26ae715a-81d5-4dc6-a023-2ade846501a6",
+          "scope": "Complete cohort/acquisition-quarter/customer/elapsed-quarter matrix with CLTV. No button or auxiliary Data CSV used to prove matrix.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-viz.csv",
+          "sha256": "250bb29013a0a191f376ef62f7fdd78f56ef56203008b3eb5ecb60e244c191ed",
+          "bytes": 2913
+        }
+      ]
+    }
+  ],
+  "status": "verified",
+  "verification": "Both hash-bound PNGs reviewed acceptable_delta; both complete Viz CSVs independently validate all136cells including both filled gaps. Native formulas/layout/tooltip contracts and isolated zero build pass. No browser interaction executed.",
+  "independent_review": {
+    "visual_status": "acceptable_delta",
+    "visual_evidence": "evidence/visual-review.md",
+    "functional_evidence": "evidence/functional-verification.json",
+    "scope": "Declared REST worksheet exports and artifact contracts; no browser events executed."
+  }
+}

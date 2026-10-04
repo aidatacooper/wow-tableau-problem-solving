@@ -1,0 +1,10 @@
+{
+  "status": "pass",
+  "sdk_version": "0.27.1",
+  "sdk_commit": "fe9f33b4dfbe5b1ecec7c56d41138a2888971375",
+  "sdk_install": "actual Git dependency, noneditable",
+  "artifact_sha256": "28376408fa2c1fc8d9db584ae908915d6fb01192b9ecf452623d7ff28b067c8f",
+  "builder_sha256": "a474ac40f9aa62cbdf031398a3f25103071ef58125e0466107345e38ab5307f7",
+  "source_workbook_used_by_builder": false,
+  "validation": "Independent raw/native verifier passed and fresh final Cloud complete source/replica136-cell exports passed. Both hash-bound PNGs reviewed: acceptable_delta."
+}

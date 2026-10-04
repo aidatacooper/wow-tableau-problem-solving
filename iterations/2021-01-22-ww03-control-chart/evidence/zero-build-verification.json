@@ -1,0 +1,9 @@
+{
+  "case_id": "2021-01-22-ww03-control-chart",
+  "sdk_commit": "fe9f33b4dfbe5b1ecec7c56d41138a2888971375",
+  "builder_sha256": "bc01cef3e2e425b9760409b59ca01ba46e7c97312412c4a0a1f42a0e423a9a75",
+  "builder_hash_scope": "UTF-8 source text with universal newlines normalized to LF",
+  "result": "passed",
+  "initial_workbooks_available": 0,
+  "scope": "Copied only public builder/verifier, metadata/docs and locked inputs, with no author/generated workbook or Cloud evidence; independently built and verified raw mathematics plus native contracts."
+}

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "generated_from": "iterations/*/case.yaml",
-  "active_case_count": 79,
+  "active_case_count": 82,
   "legacy_case_ids": {
     "donna-2019-07-18-63877b35d19a": "wow-2019-ww29-high-orders",
     "donna-2019-07-25-59a0a144b25b": "wow-2019-ww30-navigation-kpi",
@@ -4692,6 +4692,186 @@
         "All four actual REST states and complete Viz exports verified; original signed-count reference-domain limitation is documented in visual review and reference-domain-boundary evidence."
       ],
       "metadata": "iterations/2020-12-18-ww51-divergent-histogram/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.27.1"
+    },
+    {
+      "case_id": "wow-2021-ww01-line-variance",
+      "legacy_case_ids": {},
+      "iteration_id": "2021-01-08-ww01-line-variance",
+      "article_date": "2021-01-08",
+      "challenge_year": 2021,
+      "challenge_week": 1,
+      "challenge_date": "2021-01-05",
+      "date_evidence": {
+        "article_date": "Article HTML published time element retained in evidence/article-date.json.",
+        "challenge": "Official 2021 Week 1 article title.",
+        "challenge_date": "Official WordPress REST date field retained in evidence/official-challenge-date.json."
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/wow2021w1tab/",
+          "wordpress_post_id": 4199
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2021/01/08/can-you-find-the-variance-along-a-line/",
+          "path": null,
+          "sha256": "b68442f5bd96a2bee7274362d6815c1743f44fd9a6f5922ed7adae6af9f4fe6e"
+        },
+        "workbook": {
+          "filename": "author.twbx",
+          "bytes": 12869,
+          "sha256": "23d81f3549e4d0c23768b9a3abdf3725b65c4da330818b2886ab7d180a9cdfb4",
+          "url": "https://public.tableau.com/workbooks/2021_01_06_WW01_Line_Variance_Table_Calc.twb"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "pass",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "evidence/article-date.json",
+        "evidence/build-provenance.json",
+        "evidence/cloud-verification.json",
+        "evidence/export-provenance.json",
+        "evidence/functional-verification.json",
+        "evidence/official-challenge-date.json",
+        "evidence/sdk-baseline.json",
+        "evidence/sdk-final-validation.json",
+        "evidence/visual-review.md",
+        "evidence/zero-build-verification.json",
+        "inputs/source-lock.json"
+      ],
+      "notes": [],
+      "metadata": "iterations/2021-01-08-ww01-line-variance/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.27.1"
+    },
+    {
+      "case_id": "wow-2021-ww02-customer-lifetime-matrix",
+      "legacy_case_ids": {},
+      "iteration_id": "2021-01-14-ww02-customer-lifetime-matrix",
+      "article_date": "2021-01-14",
+      "challenge_year": 2021,
+      "challenge_week": 2,
+      "challenge_date": "2021-01-12",
+      "date_evidence": {
+        "article_date": "Article HTML published time element retained in evidence/article-date.json.",
+        "challenge": "Explicit challenge_year; week declared in iteration_id",
+        "challenge_date": "Official WordPress REST date field retained in evidence/official-challenge-date.json."
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2021w02tab/"
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2021/01/14/can-you-build-a-customer-lifetime-value-matrix/",
+          "path": null,
+          "sha256": "8aa834cd2a95a6214cf4199247cd6bdf92e1850a0a3dca467e5fb29e79192d22"
+        },
+        "workbook": {
+          "filename": "author.twbx",
+          "sha256": "74b46705c55d9b68b14521a2f179c29bb285274dfc1ad94f747974faf9e00ca2",
+          "url": "https://public.tableau.com/workbooks/2021_01_13_WW02_Customer_Lifetime_Matrix.twb"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "pass",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "evidence/article-date.json",
+        "evidence/build-provenance.json",
+        "evidence/cloud-verification.json",
+        "evidence/export-provenance.json",
+        "evidence/functional-verification.json",
+        "evidence/official-challenge-date.json",
+        "evidence/refinement-initial-domain-palette.json",
+        "evidence/sdk-baseline.json",
+        "evidence/sdk-final-validation.json",
+        "evidence/visual-review.md",
+        "evidence/zero-build-verification.json",
+        "inputs/source-lock.json"
+      ],
+      "notes": [
+        "Fresh full matrix source and replica Viz exports each verify all136cells and two internal missing-sales gaps. No native controls or browser-event claim."
+      ],
+      "metadata": "iterations/2021-01-14-ww02-customer-lifetime-matrix/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.27.1"
+    },
+    {
+      "case_id": "wow-2021-ww03-control-chart",
+      "legacy_case_ids": {},
+      "iteration_id": "2021-01-22-ww03-control-chart",
+      "article_date": "2021-01-22",
+      "challenge_year": 2021,
+      "challenge_week": 3,
+      "challenge_date": "2021-01-19",
+      "date_evidence": {
+        "article_date": "Article HTML published time element retained in evidence/article-date.json.",
+        "challenge_date": "Official WordPress REST date field retained in evidence/official-challenge-date.json."
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2021w03tab/"
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2021/01/22/can-you-build-a-control-chart/",
+          "path": null,
+          "sha256": "e2bb31bca8ab924da3ba9c8eaa61a4d6062c3b773fd04b7d9a0a5313701b46be"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/workbooks/2021_01_20_WW03_Control_Chart.twb",
+          "filename": "author.twbx",
+          "sha256": "baad9f162e114c13ac0ac8f0ffbce40d9f6a41c359549294d6548a6733ed6910"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "pass",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "evidence/article-date.json",
+        "evidence/build-provenance.json",
+        "evidence/cloud-detail-default.json",
+        "evidence/cloud-verification.json",
+        "evidence/export-provenance.json",
+        "evidence/functional-verification.json",
+        "evidence/official-challenge-date.json",
+        "evidence/rejected-initial-partition.json",
+        "evidence/sdk-baseline.json",
+        "evidence/sdk-final-validation.json",
+        "evidence/source-classification-context.json",
+        "evidence/visual-review.md",
+        "evidence/zero-build-verification.json",
+        "inputs/source-lock.json"
+      ],
+      "notes": [
+        "Original Chart point classification uses a different nested-average scope from the annual gray band; 12/17/0/3 weekly classification differences are documented and faithfully retained across four REST states."
+      ],
+      "metadata": "iterations/2021-01-22-ww03-control-chart/case.yaml",
       "metadata_contract": "1.1.0",
       "tested_sdk_version": "0.27.1"
     },

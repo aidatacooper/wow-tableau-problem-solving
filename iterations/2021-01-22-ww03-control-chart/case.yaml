@@ -1,0 +1,91 @@
+schema_version: 1.1.0
+case_id: wow-2021-ww03-control-chart
+iteration_id: 2021-01-22-ww03-control-chart
+post: https://donnacoles.home.blog/2021/01/22/can-you-build-a-control-chart/
+legacy_case_ids: {}
+article_date: '2021-01-22'
+challenge_year: 2021
+challenge_week: 3
+challenge_date: '2021-01-19'
+date_evidence:
+  article_date: Article HTML published time element retained in evidence/article-date.json.
+  challenge_date: Official WordPress REST date field retained in evidence/official-challenge-date.json.
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2021w03tab/
+  article:
+    url: https://donnacoles.home.blog/2021/01/22/can-you-build-a-control-chart/
+    path: null
+    sha256: e2bb31bca8ab924da3ba9c8eaa61a4d6062c3b773fd04b7d9a0a5313701b46be
+  workbook:
+    url: https://public.tableau.com/workbooks/2021_01_20_WW03_Control_Chart.twb
+    filename: author.twbx
+    sha256: baad9f162e114c13ac0ac8f0ffbce40d9f6a41c359549294d6548a6733ed6910
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- evidence/article-date.json
+- evidence/build-provenance.json
+- evidence/cloud-detail-default.json
+- evidence/cloud-verification.json
+- evidence/export-provenance.json
+- evidence/functional-verification.json
+- evidence/official-challenge-date.json
+- evidence/rejected-initial-partition.json
+- evidence/sdk-baseline.json
+- evidence/sdk-final-validation.json
+- evidence/source-classification-context.json
+- evidence/visual-review.md
+- evidence/zero-build-verification.json
+- inputs/source-lock.json
+notes:
+- Original Chart point classification uses a different nested-average scope from the
+  annual gray band; 12/17/0/3 weekly classification differences are documented and
+  faithfully retained across four REST states.
+cwtwb:
+  tested_version: 0.27.1
+  tested_commit: fe9f33b4dfbe5b1ecec7c56d41138a2888971375
+  runs:
+  - version: 0.27.1
+    commit: df8c2a52cd48800fa0a43d936f6946d318f5b953
+    result: blocked
+    evidence: evidence/sdk-baseline.json
+  - version: 0.27.1
+    commit: fe9f33b4dfbe5b1ecec7c56d41138a2888971375
+    result: pass
+    evidence: evidence/build-provenance.json
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: pass
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/consumer-complaints.hyper
+acceptance:
+- id: weekly-complaint-counts
+  description: Every selected-date Monday week count is independently computed from
+    all 75513 source complaints.
+  mode: automated
+- id: year-partitioned-control-limits
+  description: Yearly band and auxiliary Data limits use sample standard deviation
+    and annual mean; Chart classification independently matches the original all-visible-week
+    mean plus each-year standard deviation context.
+  mode: automated
+- id: native-controls-drilldown
+  description: Two synchronized line/circle layers, dynamic field band, parameter-panel
+    toggle, detail filter on-select/clear-none and Back navigation are verified as
+    native artifact contracts.
+  mode: automated
+remaining_work: []
+workarounds:
+- Separate Heading worksheet binds dynamic subtitle. Integer Week Number dimension
+  supplies explicit selected-year/week drilldown identity; it is derived from the
+  same Date to Plot used by the source.
+capability_gaps: []
+related_cwtwb_issues: []

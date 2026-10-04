@@ -1,0 +1,85 @@
+schema_version: 1.1.0
+case_id: wow-2021-ww01-line-variance
+iteration_id: 2021-01-08-ww01-line-variance
+post: https://donnacoles.home.blog/2021/01/08/can-you-find-the-variance-along-a-line/
+legacy_case_ids: {}
+article_date: '2021-01-08'
+challenge_year: 2021
+challenge_week: 1
+challenge_date: '2021-01-05'
+date_evidence:
+  article_date: Article HTML published time element retained in evidence/article-date.json.
+  challenge: Official 2021 Week 1 article title.
+  challenge_date: Official WordPress REST date field retained in evidence/official-challenge-date.json.
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/wow2021w1tab/
+    wordpress_post_id: 4199
+  article:
+    url: https://donnacoles.home.blog/2021/01/08/can-you-find-the-variance-along-a-line/
+    path: null
+    sha256: b68442f5bd96a2bee7274362d6815c1743f44fd9a6f5922ed7adae6af9f4fe6e
+  workbook:
+    filename: author.twbx
+    bytes: 12869
+    sha256: 23d81f3549e4d0c23768b9a3abdf3725b65c4da330818b2886ab7d180a9cdfb4
+    url: https://public.tableau.com/workbooks/2021_01_06_WW01_Line_Variance_Table_Calc.twb
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- evidence/article-date.json
+- evidence/build-provenance.json
+- evidence/cloud-verification.json
+- evidence/export-provenance.json
+- evidence/functional-verification.json
+- evidence/official-challenge-date.json
+- evidence/sdk-baseline.json
+- evidence/sdk-final-validation.json
+- evidence/visual-review.md
+- evidence/zero-build-verification.json
+- inputs/source-lock.json
+notes: []
+cwtwb:
+  tested_version: 0.27.1
+  tested_commit: fe9f33b4dfbe5b1ecec7c56d41138a2888971375
+  runs:
+  - version: 0.27.1
+    commit: df8c2a52cd48800fa0a43d936f6946d318f5b953
+    result: pass
+    evidence: evidence/sdk-baseline.json
+  - version: 0.27.1
+    commit: fe9f33b4dfbe5b1ecec7c56d41138a2888971375
+    result: pass
+    evidence: evidence/build-provenance.json
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: pass
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/federated_0x2sama1bobbkv1gnvwr91.hyper
+acceptance:
+- id: all-year-comparison-oracle
+  mode: automated
+  description: Independent raw oracle covers 25 years by all three comparison modes,
+    including missing previous year.
+- id: native-line-circles-calculations
+  mode: automated
+  description: Original WINDOW_MIN/MAX nested calculations, synchronized line/circle
+    axes, magenta selected and black comparison circles.
+- id: cloud-state-data-layout
+  mode: automated
+  description: Actual REST parameter states and complete trend/comparison exports
+    agree with raw oracle; paired image layouts reviewed.
+remaining_work: []
+workarounds:
+- Dynamic title uses a separate Text worksheet with equivalent FIXED aggregate header
+  values; business trend and comparison use original nested table calculations.
+capability_gaps: []
+related_cwtwb_issues: []

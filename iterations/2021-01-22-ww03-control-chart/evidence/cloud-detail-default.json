@@ -1,0 +1,42 @@
+{
+  "source_hashes": {
+    "author": "13965837eb4a313a839d7c6ec0170fb859f54b555f6b3df3e8bea39b1617870b",
+    "replica": "55fc9aaeb2913767cceefc73117eb3cf716bd0759fd2f03f14a7edbf1479f58a"
+  },
+  "captured_at": "2026-10-04T16:03:07.925055+00:00",
+  "scope": "Default initialized Detail dashboard only; no browser click or action execution.",
+  "browser_interaction_executed": false,
+  "state": "default-no-action-selection",
+  "views": {
+    "author": {
+      "workbook_id": "23d0f074-738b-4c81-b9bd-d97229beccf0",
+      "view_id": "d43f7fa3-bba9-4c0e-8d11-13d11f9775b3",
+      "name": "2021_01_20_WW03_Control_Chart_Detail",
+      "path": "outputs/cloud-author-detail-default.png",
+      "sha256": "70faf8766971f7340ea7e13fcc5037ab1defaa5446d8d4c477687e64673529db"
+    },
+    "replica": {
+      "workbook_id": "43eea1bb-c596-4655-9d37-0ecc23c4af25",
+      "view_id": "76ecd10b-85e4-4e48-99e6-2bb542e9ae82",
+      "name": "2021_01_20_WW03_Control_Chart_Detail",
+      "path": "outputs/cloud-replica-detail-default.png",
+      "sha256": "d273cef7c38992a5ce89a47fa69b399538c44a273f55f8112c305e8050fe4c7a"
+    }
+  },
+  "data": {
+    "author": {
+      "view_id": "689265fd-d95e-4201-91bb-0ab277de5926",
+      "name": "Detail",
+      "path": "outputs/cloud-author-detail-default.csv",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "scope": "Default unselected Detail worksheet only; does not prove selected drilldown or action execution."
+    },
+    "replica": {
+      "view_id": "37a5844a-afbd-420a-902c-3748f9a4f425",
+      "name": "Detail",
+      "path": "outputs/cloud-replica-detail-default.csv",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "scope": "Default unselected Detail worksheet only; does not prove selected drilldown or action execution."
+    }
+  }
+}

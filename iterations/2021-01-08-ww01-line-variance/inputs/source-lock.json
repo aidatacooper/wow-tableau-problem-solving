@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-04",
+  "source_workbook": {
+    "filename": "author.twbx",
+    "bytes": 12869,
+    "sha256": "23d81f3549e4d0c23768b9a3abdf3725b65c4da330818b2886ab7d180a9cdfb4",
+    "url": "https://public.tableau.com/workbooks/2021_01_06_WW01_Line_Variance_Table_Calc.twb"
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Extracts/federated_0x2sama1bobbkv1gnvwr91.hyper",
+      "file": "inputs/federated_0x2sama1bobbkv1gnvwr91.hyper",
+      "bytes": 65536,
+      "sha256": "b8fb9b0e9e89de3798b4d7de7af9a50e2e8dad61a5a3dbd6a85ae7a185abc034"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

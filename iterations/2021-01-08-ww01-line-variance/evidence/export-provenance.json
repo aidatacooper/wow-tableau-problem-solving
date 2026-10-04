@@ -1,0 +1,9 @@
+{
+  "source_sha256": "23d81f3549e4d0c23768b9a3abdf3725b65c4da330818b2886ab7d180a9cdfb4",
+  "export_sha256": "3d4165cce0763b163e9ceb2a025f11e3a43a7c3d65c6c8c5c380473d4548f7bf",
+  "changes": [
+    "Worksheet window visibility only, for complete REST CSV export."
+  ],
+  "business_formulas_changed": false,
+  "used_as_build_template": false
+}

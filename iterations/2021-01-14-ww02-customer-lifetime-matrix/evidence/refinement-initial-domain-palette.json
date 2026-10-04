@@ -1,0 +1,13 @@
+{
+  "initial_artifact_sha256": "5ebcebc8d44c07f5673b97d5748185815aa265cd903423f6e6fbbe484ceee16c",
+  "status": "rejected_diagnostic",
+  "source_full_matrix_csv_rows": 136,
+  "source_cohorts": 16,
+  "reasons": [
+    "Initial bare date defaulted to Month, collapsing quarter/year identity.",
+    "Custom CB_PuBuGn palette not installed; named palette fell back to default.",
+    "Dashboard title run schema/geometry did not match author."
+  ],
+  "resolution": "Explicit bracket exactdate expression, public custom-interpolated palette with original nine hex stops, public text run layout keys and field-scoped header styles.",
+  "fresh_cloud_capture_required": true
+}

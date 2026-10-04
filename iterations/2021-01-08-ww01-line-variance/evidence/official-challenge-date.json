@@ -1,0 +1,17 @@
+{
+  "challenge_year": 2021,
+  "challenge_week": 1,
+  "article_date": "2021-01-08",
+  "challenge_date": "2021-01-05",
+  "official_rest_url": "https://www.workout-wednesday.com/wp-json/wp/v2/posts/4199",
+  "response_excerpt": {
+    "id": 4199,
+    "date": "2021-01-05T12:00:00",
+    "slug": "wow2021w1tab",
+    "link": "https://www.workout-wednesday.com/wow2021w1tab/",
+    "title": {
+      "rendered": "2021 Week 1: Can You Find the Variance Along the Line?"
+    }
+  },
+  "scope": "Official WordPress publication calendar date, without inference from workbook filenames or week numbers."
+}

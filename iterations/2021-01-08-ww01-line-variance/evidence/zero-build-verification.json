@@ -1,0 +1,9 @@
+{
+  "case_id": "wow-2021-ww01-line-variance",
+  "sdk_commit": "fe9f33b4dfbe5b1ecec7c56d41138a2888971375",
+  "builder_sha256": "ef8ce51f7d725d81b9b7d10c820867f1f9e20449e88c4a3a70c20b8eff0b6e92",
+  "builder_hash_scope": "UTF-8 source text with universal newlines normalized to LF",
+  "result": "passed",
+  "initial_workbooks_available": 0,
+  "scope": "Copied only builder/verifier, metadata and locked inputs. Built from TWBEditor empty, then ran independent raw-data/artifact oracle without copied Cloud evidence or author workbooks."
+}
