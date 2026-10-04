@@ -1,0 +1,7 @@
+{
+  "source_sha256": "f2456619113d27299519c9ae5bcbfb85227d6f8e60713d85739362ea14fe4153",
+  "export_sha256": "7d7540155c290657763890888b3bb7c37ae458d8d4f976a42d0aa4c45f1855d0",
+  "transformation": "Only remove hidden from existing worksheet windows; no calculations, filters, actions, layout or packaged data changes.",
+  "source_path": "scratch/ww44-analysis/author.twbx",
+  "export_path": "scratch/ww44-analysis/author-export.twbx"
+}

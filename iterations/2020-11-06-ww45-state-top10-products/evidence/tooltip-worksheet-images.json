@@ -1,0 +1,146 @@
+{
+  "captured_at": "2026-10-04T11:09:24.259252+00:00",
+  "source_hashes": {
+    "author": "7f1076586e7d8799d4081abd1050aa70691c3646f88b683173d0cb082846d697",
+    "replica": "45fa3d27e106a459d7f4878e351f9a7847a80ffa904ca1d0d343aefd7664c749"
+  },
+  "parent_capture_path": "evidence/tooltip-parent-capture.json",
+  "main_capture_manifest_sha256": "944ddd95a299545c6dbb929cab427d4a6a496de05cf13d18e41accf7cd5c8545",
+  "scope": "Standalone Top 10 Products worksheet images at ordinary State REST filter states. They display global Top10 members surviving the State filter, not an executed compound tooltip context. The native 500x350 tooltip viewport is inspected in the artifact and not browser-rendered.",
+  "browser_interaction_executed": false,
+  "native_tooltip_hover_executed": false,
+  "images": [
+    {
+      "role": "author",
+      "state": "default",
+      "parameters": {},
+      "filters": {},
+      "workbook_id": "4393c239-89f7-47e6-9255-57a50fb0a7c4",
+      "view_id": "6b55ad5b-6817-489c-be01-29ddc8cb634d",
+      "view": "Top 10 Products",
+      "path": "outputs/cloud-author-top10-image.png",
+      "sha256": "9a70aa557cb268e773aa1932d72f6c32f777cec85b56f4e4b6959408628f51ed",
+      "size": [
+        1558,
+        1674
+      ]
+    },
+    {
+      "role": "author",
+      "state": "california",
+      "parameters": {},
+      "filters": {
+        "State": "California"
+      },
+      "workbook_id": "4393c239-89f7-47e6-9255-57a50fb0a7c4",
+      "view_id": "6b55ad5b-6817-489c-be01-29ddc8cb634d",
+      "view": "Top 10 Products",
+      "path": "outputs/cloud-author-top10-image-california.png",
+      "sha256": "04e663c32f4e99b971521db91b53bc91f21827c2e39e4d68f29e25122888fcee",
+      "size": [
+        1558,
+        1674
+      ]
+    },
+    {
+      "role": "author",
+      "state": "texas",
+      "parameters": {},
+      "filters": {
+        "State": "Texas"
+      },
+      "workbook_id": "4393c239-89f7-47e6-9255-57a50fb0a7c4",
+      "view_id": "6b55ad5b-6817-489c-be01-29ddc8cb634d",
+      "view": "Top 10 Products",
+      "path": "outputs/cloud-author-top10-image-texas.png",
+      "sha256": "5aa3a7ea34613bc107c73a3b6c0b696fd9592aa05a573da95e453135b845a518",
+      "size": [
+        1558,
+        1674
+      ]
+    },
+    {
+      "role": "author",
+      "state": "new-york",
+      "parameters": {},
+      "filters": {
+        "State": "New York"
+      },
+      "workbook_id": "4393c239-89f7-47e6-9255-57a50fb0a7c4",
+      "view_id": "6b55ad5b-6817-489c-be01-29ddc8cb634d",
+      "view": "Top 10 Products",
+      "path": "outputs/cloud-author-top10-image-new-york.png",
+      "sha256": "f269985b02eed56e63a584f83491071d5b0e5c57a54032c4c804c86afdc738f3",
+      "size": [
+        1558,
+        1674
+      ]
+    },
+    {
+      "role": "replica",
+      "state": "default",
+      "parameters": {},
+      "filters": {},
+      "workbook_id": "443bf791-ebe3-4915-ac79-8b086e15c68c",
+      "view_id": "e7d7e612-2ad4-4ebc-80e9-66f1b4ad7f4a",
+      "view": "Top 10 Products",
+      "path": "outputs/cloud-replica-top10-image.png",
+      "sha256": "7386e12848ccf1ee0f9596b6c77108bd1c280a362618992e3e9773072a44971d",
+      "size": [
+        1584,
+        1670
+      ]
+    },
+    {
+      "role": "replica",
+      "state": "california",
+      "parameters": {},
+      "filters": {
+        "State": "California"
+      },
+      "workbook_id": "443bf791-ebe3-4915-ac79-8b086e15c68c",
+      "view_id": "e7d7e612-2ad4-4ebc-80e9-66f1b4ad7f4a",
+      "view": "Top 10 Products",
+      "path": "outputs/cloud-replica-top10-image-california.png",
+      "sha256": "f924b1ca93d0eb32551f779158df49f0b2c2ab29acd421422133223d82dc5549",
+      "size": [
+        1584,
+        1670
+      ]
+    },
+    {
+      "role": "replica",
+      "state": "texas",
+      "parameters": {},
+      "filters": {
+        "State": "Texas"
+      },
+      "workbook_id": "443bf791-ebe3-4915-ac79-8b086e15c68c",
+      "view_id": "e7d7e612-2ad4-4ebc-80e9-66f1b4ad7f4a",
+      "view": "Top 10 Products",
+      "path": "outputs/cloud-replica-top10-image-texas.png",
+      "sha256": "75fca39484f6e19a3cb77862b52fa14b3bdc3d9b7919b639d90c7f607971bc6a",
+      "size": [
+        1584,
+        1670
+      ]
+    },
+    {
+      "role": "replica",
+      "state": "new-york",
+      "parameters": {},
+      "filters": {
+        "State": "New York"
+      },
+      "workbook_id": "443bf791-ebe3-4915-ac79-8b086e15c68c",
+      "view_id": "e7d7e612-2ad4-4ebc-80e9-66f1b4ad7f4a",
+      "view": "Top 10 Products",
+      "path": "outputs/cloud-replica-top10-image-new-york.png",
+      "sha256": "f137568707ed98a19f8e0f2272aa77cac1a4e7f5f392197f477034587d35e352",
+      "size": [
+        1584,
+        1670
+      ]
+    }
+  ]
+}

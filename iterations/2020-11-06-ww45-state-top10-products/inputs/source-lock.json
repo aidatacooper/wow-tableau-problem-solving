@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-04",
+  "source_workbook": {
+    "filename": "author.twbx",
+    "bytes": 217745,
+    "sha256": "1371fb5db204bfba4e0f0d358aca9b906a0e91f19549d7f8937445dd209f2b96",
+    "url": "https://public.tableau.com/profile/donna.coles#!/vizhome/2020_11_04_WW45_Top10Products_Map/2020_11_04_WW45_Top10Products_Map"
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/TableauTemp/TEMP_1os3cs61c7l9y217lvvel1fi1aip.hyper",
+      "file": "inputs/TEMP_1os3cs61c7l9y217lvvel1fi1aip.hyper",
+      "bytes": 589824,
+      "sha256": "3de10155b495f554b263568a9654c307b1bac8dd0c74c6fb2ff1cecfa41a9b78"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

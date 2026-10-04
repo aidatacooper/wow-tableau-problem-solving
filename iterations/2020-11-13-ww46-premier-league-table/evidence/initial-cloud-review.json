@@ -1,0 +1,7 @@
+{
+  "workbook_sha256": "d8c42547e97638ff18b8618d1727f6e2abcc1c80792235458fc01f7519c54e3f",
+  "result": "blocked",
+  "scope": "Case API usage, not a new SDK capability gap",
+  "failure": "Layered panes missing axis fields: unbound Bar/Gantt panes duplicate fallback blue marks; Chart REST CSV empty and all five-result circles absent",
+  "archive": "scratch/ww46-analysis/d8c-unbound-panes"
+}

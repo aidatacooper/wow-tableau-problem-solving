@@ -1,0 +1,9 @@
+{
+  "sdk_commit": "682f45db98a23042495275d976dddaffdabbf310",
+  "sdk_version": "0.27.1",
+  "source": "Installed immutable Git package direct_url.json",
+  "api": "TWBEditor.configure_custom_label",
+  "available": false,
+  "problem": "Native dual-axis monthly text marks require field and literal runs with independent font sizes, while the public post-configuration facade exposes rich tooltip runs but no rich label runs.",
+  "scope": "Public API existence test, no author workbook or author data."
+}

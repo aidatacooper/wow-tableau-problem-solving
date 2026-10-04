@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-04",
+  "source_workbook": {
+    "filename": "author.twbx",
+    "bytes": 45232,
+    "sha256": "8aed879225c794a1d3fd6a1b37189c3075652cfade97021c9adea6199389b858",
+    "url": "https://public.tableau.com/profile/donna.coles#!/vizhome/2020_11_11_WW46_PremierLeagueTable/2020_11_11_WW46_Premier_League_Table"
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/TableauTemp/TEMP_1f3qskj0te9n9v1f3avp71ojhhal.hyper",
+      "file": "inputs/TEMP_1f3qskj0te9n9v1f3avp71ojhhal.hyper",
+      "bytes": 65536,
+      "sha256": "c432a2827b0c04ae961f8fa0062497d66b40348d4da0234d287bc97fca4ed992"
+    },
+    {
+      "archive_path": "Data/TableauTemp/TEMP_0jwezo318cddv716gtx140t8vf36.hyper",
+      "file": "inputs/TEMP_0jwezo318cddv716gtx140t8vf36.hyper",
+      "bytes": 65536,
+      "sha256": "688ddfd1bbf2e4176473f19463e4ce41cfef41748d182ecf9efc03000e4a7bc7"
+    },
+    {
+      "archive_path": "Data/TableauTemp/TEMP_1utfxg4148kl101dumirh0r0cn6d.hyper",
+      "file": "inputs/TEMP_1utfxg4148kl101dumirh0r0cn6d.hyper",
+      "bytes": 65536,
+      "sha256": "9325040de6a1f69b66d17055e1b69e079ad403e4403eee1ace3568b34b777325"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

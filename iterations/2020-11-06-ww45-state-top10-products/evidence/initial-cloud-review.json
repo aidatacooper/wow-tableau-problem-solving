@@ -1,0 +1,13 @@
+{
+  "workbook_sha256": "563f42f89c0e8c20429aa0104fff30780f3f729d2257832019ad4a9fcb2a6c9f",
+  "states": ["default", "california", "texas", "new-york"],
+  "csv_status": "All 24 complete worksheet CSV exports independently match the raw business oracle within actual ordinary State REST scope.",
+  "product_body_groups_per_role": {"default": 52, "california": 4, "texas": 6, "new-york": 7},
+  "product_metric_values_per_role": {"default": 156, "california": 12, "texas": 18, "new-york": 21},
+  "product_grand_totals": "Three totals per role/state verified against complete selected raw records.",
+  "visual_status": "blocked",
+  "cause": "Case helper incorrectly supplied absolute=True plus unsupported position. Native worksheet zones filled the canvas and text zones overlapped. Correct public absolute rectangle mapping fixes the layout. Full Cell range also used the wrong range payload keys; replaced with explicit min/max/field/scope.",
+  "is_sdk_gap": false,
+  "archived_evidence": "Analysis scratch baseline-563f42-layout preserves all paired PNG/CSV, manifest, workbook and numeric verification; no accepted claim made for this artifact.",
+  "browser_interaction_executed": false
+}

@@ -1,0 +1,10 @@
+{
+  "sdk_version": "0.27.1",
+  "sdk_commit": "eb1380d5da9c1b1bf1b306128cb8397150ba1a53",
+  "installation": "Exact released src package from git archive loaded through a dedicated PYTHONPATH subprocess; synthetic Hyper contains only A/B/2020-01-01.",
+  "result": "blocked",
+  "synthetic_request": "import_blended_field('Opposition', secondary, 'ATTR(Opponent)')",
+  "observed_error": "ValueError: Calculated field 'Opposition': Unknown Tableau function ATTRIBUTE().",
+  "required_generic_contract": "Translate native Attribute derivation to Tableau ATTR() while preserving nominal string aggregate proxy semantics.",
+  "author_data_used_by_synthetic_probe": false
+}

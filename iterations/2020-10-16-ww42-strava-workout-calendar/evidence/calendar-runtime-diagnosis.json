@@ -1,0 +1,436 @@
+{
+  "source_only_analysis": true,
+  "browser_interaction_executed": false,
+  "formal_acceptance": "passed: final actual-Git e7fa7cd three-state Cloud images and18complete business exports",
+  "diagnosis": [
+    {
+      "finding": "Conditional text dimensions require the same exact Date mark detail as daily bars",
+      "evidence": "Public incremental conditional-label probes without Text ExactDate were empty; with Text ExactDate all366daily raw values matched."
+    },
+    {
+      "finding": "Addressing Cols/Rows spans all month partitions",
+      "evidence": "Native-dual-source-address12month totals all511annualhours; native-dual-simple-address DAY+ExactDate partitioning matches all12rawmonthlytotals."
+    },
+    {
+      "finding": "Richlabel conditional dimensions must also be addressed",
+      "evidence": "NativeDual richlabel addressesDay/Date/MonthName/HOURS, with732rows/366unique dates/12totals rawPASS."
+    },
+    {
+      "finding": "Native dual axis defaults are folded despite fold_axis=False controlling render order",
+      "evidence": "Explicit public axis_style encodings fold=False restored source upperText/lowerBars proportions, no private or XML construction."
+    }
+  ],
+  "probes": [
+    {
+      "name": "native-dual-calendar-oracle-review",
+      "verification": {
+        "source-address": {
+          "rows": 732,
+          "unique_dates": 366,
+          "monthly_values": {
+            "1": 511.0,
+            "5": 511.0,
+            "9": 511.0,
+            "2": 511.0,
+            "6": 511.0,
+            "10": 511.0,
+            "3": 511.0,
+            "7": 511.0,
+            "11": 511.0,
+            "4": 511.0,
+            "8": 511.0,
+            "12": 511.0
+          },
+          "bad_count": 24,
+          "bad": [
+            [
+              "month",
+              {
+                "Cols": "0",
+                "Date": "1/28/2020",
+                "Day of Date": "28",
+                "Rows": "0",
+                "Hours in Month": "511",
+                "Hours": "1.0",
+                "Monthly Summary Axis": "0"
+              },
+              34.6575
+            ],
+            [
+              "month",
+              {
+                "Cols": "0",
+                "Date": "5/28/2020",
+                "Day of Date": "28",
+                "Rows": "1",
+                "Hours in Month": "511",
+                "Hours": "2.9",
+                "Monthly Summary Axis": "0"
+              },
+              73.39083333333333
+            ],
+            [
+              "month",
+              {
+                "Cols": "0",
+                "Date": "9/28/2020",
+                "Day of Date": "28",
+                "Rows": "2",
+                "Hours in Month": "511",
+                "Hours": "0.0",
+                "Monthly Summary Axis": "0"
+              },
+              0.0
+            ],
+            [
+              "month",
+              {
+                "Cols": "1",
+                "Date": "2/28/2020",
+                "Day of Date": "28",
+                "Rows": "0",
+                "Hours in Month": "511",
+                "Hours": "0.0",
+                "Monthly Summary Axis": "0"
+              },
+              30.941388888888888
+            ],
+            [
+              "month",
+              {
+                "Cols": "1",
+                "Date": "6/28/2020",
+                "Day of Date": "28",
+                "Rows": "1",
+                "Hours in Month": "511",
+                "Hours": "4.8",
+                "Monthly Summary Axis": "0"
+              },
+              82.07666666666667
+            ],
+            [
+              "month",
+              {
+                "Cols": "1",
+                "Date": "10/28/2020",
+                "Day of Date": "28",
+                "Rows": "2",
+                "Hours in Month": "511",
+                "Hours": "0.0",
+                "Monthly Summary Axis": "0"
+              },
+              0.0
+            ],
+            [
+              "month",
+              {
+                "Cols": "2",
+                "Date": "3/28/2020",
+                "Day of Date": "28",
+                "Rows": "0",
+                "Hours in Month": "511",
+                "Hours": "3.5",
+                "Monthly Summary Axis": "0"
+              },
+              52.44972222222222
+            ],
+            [
+              "month",
+              {
+                "Cols": "2",
+                "Date": "7/28/2020",
+                "Day of Date": "28",
+                "Rows": "1",
+                "Hours in Month": "511",
+                "Hours": "1.8",
+                "Monthly Summary Axis": "0"
+              },
+              82.95944444444444
+            ],
+            [
+              "month",
+              {
+                "Cols": "2",
+                "Date": "11/28/2020",
+                "Day of Date": "28",
+                "Rows": "2",
+                "Hours in Month": "511",
+                "Hours": "0.0",
+                "Monthly Summary Axis": "0"
+              },
+              0.0
+            ],
+            [
+              "month",
+              {
+                "Cols": "3",
+                "Date": "4/28/2020",
+                "Day of Date": "28",
+                "Rows": "0",
+                "Hours in Month": "511",
+                "Hours": "1.2",
+                "Monthly Summary Axis": "0"
+              },
+              69.15333333333334
+            ],
+            [
+              "month",
+              {
+                "Cols": "3",
+                "Date": "8/28/2020",
+                "Day of Date": "28",
+                "Rows": "1",
+                "Hours in Month": "511",
+                "Hours": "0.5",
+                "Monthly Summary Axis": "0"
+              },
+              85.85527777777777
+            ],
+            [
+              "month",
+              {
+                "Cols": "3",
+                "Date": "12/28/2020",
+                "Day of Date": "28",
+                "Rows": "2",
+                "Hours in Month": "511",
+                "Hours": "0.0",
+                "Monthly Summary Axis": "0"
+              },
+              0.0
+            ],
+            [
+              "month",
+              {
+                "Cols": "0",
+                "Date": "1/28/2020",
+                "Day of Date": "28",
+                "Rows": "0",
+                "Hours in Month": "511",
+                "Hours": "1.0",
+                "Monthly Summary Axis": "0"
+              },
+              34.6575
+            ],
+            [
+              "month",
+              {
+                "Cols": "0",
+                "Date": "5/28/2020",
+                "Day of Date": "28",
+                "Rows": "1",
+                "Hours in Month": "511",
+                "Hours": "2.9",
+                "Monthly Summary Axis": "0"
+              },
+              73.39083333333333
+            ],
+            [
+              "month",
+              {
+                "Cols": "0",
+                "Date": "9/28/2020",
+                "Day of Date": "28",
+                "Rows": "2",
+                "Hours in Month": "511",
+                "Hours": "0.0",
+                "Monthly Summary Axis": "0"
+              },
+              0.0
+            ],
+            [
+              "month",
+              {
+                "Cols": "1",
+                "Date": "2/28/2020",
+                "Day of Date": "28",
+                "Rows": "0",
+                "Hours in Month": "511",
+                "Hours": "0.0",
+                "Monthly Summary Axis": "0"
+              },
+              30.941388888888888
+            ],
+            [
+              "month",
+              {
+                "Cols": "1",
+                "Date": "6/28/2020",
+                "Day of Date": "28",
+                "Rows": "1",
+                "Hours in Month": "511",
+                "Hours": "4.8",
+                "Monthly Summary Axis": "0"
+              },
+              82.07666666666667
+            ],
+            [
+              "month",
+              {
+                "Cols": "1",
+                "Date": "10/28/2020",
+                "Day of Date": "28",
+                "Rows": "2",
+                "Hours in Month": "511",
+                "Hours": "0.0",
+                "Monthly Summary Axis": "0"
+              },
+              0.0
+            ],
+            [
+              "month",
+              {
+                "Cols": "2",
+                "Date": "3/28/2020",
+                "Day of Date": "28",
+                "Rows": "0",
+                "Hours in Month": "511",
+                "Hours": "3.5",
+                "Monthly Summary Axis": "0"
+              },
+              52.44972222222222
+            ],
+            [
+              "month",
+              {
+                "Cols": "2",
+                "Date": "7/28/2020",
+                "Day of Date": "28",
+                "Rows": "1",
+                "Hours in Month": "511",
+                "Hours": "1.8",
+                "Monthly Summary Axis": "0"
+              },
+              82.95944444444444
+            ],
+            [
+              "month",
+              {
+                "Cols": "2",
+                "Date": "11/28/2020",
+                "Day of Date": "28",
+                "Rows": "2",
+                "Hours in Month": "511",
+                "Hours": "0.0",
+                "Monthly Summary Axis": "0"
+              },
+              0.0
+            ],
+            [
+              "month",
+              {
+                "Cols": "3",
+                "Date": "4/28/2020",
+                "Day of Date": "28",
+                "Rows": "0",
+                "Hours in Month": "511",
+                "Hours": "1.2",
+                "Monthly Summary Axis": "0"
+              },
+              69.15333333333334
+            ],
+            [
+              "month",
+              {
+                "Cols": "3",
+                "Date": "8/28/2020",
+                "Day of Date": "28",
+                "Rows": "1",
+                "Hours in Month": "511",
+                "Hours": "0.5",
+                "Monthly Summary Axis": "0"
+              },
+              85.85527777777777
+            ],
+            [
+              "month",
+              {
+                "Cols": "3",
+                "Date": "12/28/2020",
+                "Day of Date": "28",
+                "Rows": "2",
+                "Hours in Month": "511",
+                "Hours": "0.0",
+                "Monthly Summary Axis": "0"
+              },
+              0.0
+            ]
+          ],
+          "passed": false
+        },
+        "simple-address": {
+          "rows": 732,
+          "unique_dates": 366,
+          "monthly_values": {
+            "1": 35.0,
+            "5": 73.0,
+            "9": 0.0,
+            "2": 31.0,
+            "6": 82.0,
+            "10": 0.0,
+            "3": 52.0,
+            "7": 83.0,
+            "11": 0.0,
+            "4": 69.0,
+            "8": 86.0,
+            "12": 0.0
+          },
+          "bad_count": 0,
+          "bad": [],
+          "passed": true
+        }
+      }
+    },
+    {
+      "name": "native-dual-rich-label-oracle-review",
+      "verification": {
+        "passed": true,
+        "rows": 732,
+        "days": 366,
+        "daily_multiplicity": [
+          1
+        ],
+        "months": {
+          "1": 35.0,
+          "5": 73.0,
+          "9": 0.0,
+          "2": 31.0,
+          "6": 82.0,
+          "10": 0.0,
+          "3": 52.0,
+          "7": 83.0,
+          "11": 0.0,
+          "4": 69.0,
+          "8": 86.0,
+          "12": 0.0
+        }
+      }
+    },
+    {
+      "name": "native-dual-rich-label-unfolded-oracle-review",
+      "verification": {
+        "passed": true,
+        "rows": 732,
+        "days": 366,
+        "daily_multiplicity": [
+          1
+        ],
+        "months": {
+          "1": 35.0,
+          "2": 31.0,
+          "3": 52.0,
+          "4": 69.0,
+          "5": 73.0,
+          "6": 82.0,
+          "7": 83.0,
+          "8": 86.0,
+          "9": 0.0,
+          "10": 0.0,
+          "11": 0.0,
+          "12": 0.0
+        }
+      }
+    }
+  ],
+  "artifact_sha256": "7e3416e668a8d316f6ba3a673349745df60440ac539021bd099369ff45a76015"
+}

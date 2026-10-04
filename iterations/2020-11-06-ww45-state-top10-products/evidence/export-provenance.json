@@ -1,0 +1,23 @@
+{
+  "original_sha256": "1371fb5db204bfba4e0f0d358aca9b906a0e91f19549d7f8937445dd209f2b96",
+  "export_sha256": "7f1076586e7d8799d4081abd1050aa70691c3646f88b683173d0cb082846d697",
+  "transformation": "Only remove hidden attributes on existing worksheet windows. Formulas, actions, layouts and packaged data unchanged.",
+  "worksheets_exposed": [
+    "Map",
+    "Seaboard States",
+    "Top 10 Products"
+  ],
+  "semantic_xml_equality_after_declared_window_change": true,
+  "semantic_xml_sha256": "1e70dd6bb7e788e09f3731c4f37d5335fcf8c51135cd450acdfc5b80accc3e61",
+  "all_other_archive_members_unchanged": {
+    "Data/TableauTemp/TEMP_1os3cs61c7l9y217lvvel1fi1aip.hyper": "3de10155b495f554b263568a9654c307b1bac8dd0c74c6fb2ff1cecfa41a9b78",
+    "TwbxExternalCache/TwbxLQResultsCacheV3/1593692202/.bin": "31189ad2c18444dcfe5824a6f5ca4a59c978806081cb78aefa98b40c8aa3a114",
+    "TwbxExternalCache/TwbxLQResultsCacheV3/1593692202/.key": "58b61d7dd196af7b9096f86e9237193f4ec506348c7841312d8913053751abdb",
+    "TwbxExternalCache/TwbxLQResultsCacheV3/4291927649/.bin": "299b6f328b5364ac4b146ec6c4ea55e12b3669acf20cbccb3666d48b60b21fa8",
+    "TwbxExternalCache/TwbxLQResultsCacheV3/4291927649/.key": "11451b2ea74e0f555730dddea1296d8c56b315672f158ff84fd4f7d4ed7d6098",
+    "TwbxExternalCache/TwbxLQTimestampsCacheV3/387309894/.bin": "c7b1f7b4eded2c9da7e64efd385d8084b2bc604f5df0fb45bb51c28a720c2dda",
+    "TwbxExternalCache/TwbxLQTimestampsCacheV3/387309894/.key": "623afbd0c9fc1ec37e29a613cda7f4af79cf758054a22948c1c2105ae03ed645",
+    "TwbxExternalCache/TwbxLQTimestampsCacheV3/3969545225/.bin": "ba8c76fcec4aafc24b917f2eac6b68d8c92d975560c7b3a22693c62e035a9f75",
+    "TwbxExternalCache/TwbxLQTimestampsCacheV3/3969545225/.key": "124ff41faa558dc816ca9bd7ed4e8f7091ee84ec533795b3a7eb25e61d699341"
+  }
+}

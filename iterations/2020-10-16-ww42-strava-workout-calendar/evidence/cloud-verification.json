@@ -1,0 +1,380 @@
+{
+  "case_id": "wow-2020-ww42-strava-workout-calendar",
+  "captured_at": "2026-10-04T11:51:18.783510+00:00",
+  "source_hashes": {
+    "author": "d57d87e04688c9b52f5d980862eb1a55c377a921477e271d3a5f069575fa97c6",
+    "replica": "7e3416e668a8d316f6ba3a673349745df60440ac539021bd099369ff45a76015"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "ef2518c3-2f26-4a96-856b-b205744de429",
+      "name": "cwtwb-review-wow-2020-ww42-strava-workout-calendar-author-d57d87e04688",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2935440",
+      "views": [
+        {
+          "name": "2020_10_14_WW42_Strava_Dashboard",
+          "id": "dfc40ea4-571b-4efa-86d1-f921efa18701"
+        },
+        {
+          "name": "BANs",
+          "id": "c093018c-8cbd-4a6c-80ee-a5f9dcf3275f"
+        },
+        {
+          "name": "Calendar",
+          "id": "9e34058f-b250-4d5f-9733-718290a2d567"
+        },
+        {
+          "name": "Weekly Profile",
+          "id": "2a2288d5-5189-448e-ba01-e16d4f049d0e"
+        }
+      ]
+    },
+    "replica": {
+      "id": "33a6f364-61c7-414e-a4ce-ce114ab8b2f3",
+      "name": "cwtwb-review-wow-2020-ww42-strava-workout-calendar-replica-7e3416e668a8",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2935779",
+      "views": [
+        {
+          "name": "Calendar",
+          "id": "b2eadc32-0708-437d-b7f0-cc0e36f84625"
+        },
+        {
+          "name": "Weekly Profile",
+          "id": "09cd90be-d01d-4bf3-b5ff-912c8b8fd02e"
+        },
+        {
+          "name": "BANs",
+          "id": "47cf4bf1-acfb-4717-bf42-9e9ec6537704"
+        },
+        {
+          "name": "2020_10_14_WW42_Strava_Dashboard",
+          "id": "c3fa852a-09ea-4a56-a772-5b0dcd176ef1"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "dfc40ea4-571b-4efa-86d1-f921efa18701",
+          "name": "2020_10_14_WW42_Strava_Dashboard",
+          "path": "outputs/cloud-author.png",
+          "sha256": "1fb2d50d45b5b85c1c71542b1d6992754622c9c68c4465a23bf246c2d73dd8d9",
+          "size": [
+            3360,
+            2040
+          ]
+        },
+        "replica": {
+          "id": "c3fa852a-09ea-4a56-a772-5b0dcd176ef1",
+          "name": "2020_10_14_WW42_Strava_Dashboard",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "0047cae8b46e51c2d66f4c9673f4baab7b3fc0b7c5bf2849a31f6a339f21b202",
+          "size": [
+            3360,
+            2040
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Calendar",
+          "view_id": "9e34058f-b250-4d5f-9733-718290a2d567",
+          "scope": "All selected-year daily/blended/monthly summary marks, all native week totals, and complete year BANs; no button-only proof.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-calendar.csv",
+          "sha256": "298de7a2bb45fea6e1fea18501a60567bcb7962568932c6ea8bf38390dedc540",
+          "bytes": 26064
+        },
+        {
+          "role": "author",
+          "view": "Weekly Profile",
+          "view_id": "2a2288d5-5189-448e-ba01-e16d4f049d0e",
+          "scope": "All selected-year daily/blended/monthly summary marks, all native week totals, and complete year BANs; no button-only proof.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-weekly-profile.csv",
+          "sha256": "13bcdddb92332beb335a3879d8d0005ab2bb73a796e68dfac6295ec1a774ebe6",
+          "bytes": 1552
+        },
+        {
+          "role": "author",
+          "view": "BANs",
+          "view_id": "c093018c-8cbd-4a6c-80ee-a5f9dcf3275f",
+          "scope": "All selected-year daily/blended/monthly summary marks, all native week totals, and complete year BANs; no button-only proof.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-bans.csv",
+          "sha256": "f1d5741fcaa214d256de1b895bc5985af5a11d7a3189860320bd67e2f1fe37c3",
+          "bytes": 139
+        },
+        {
+          "role": "replica",
+          "view": "Calendar",
+          "view_id": "b2eadc32-0708-437d-b7f0-cc0e36f84625",
+          "scope": "All selected-year daily/blended/monthly summary marks, all native week totals, and complete year BANs; no button-only proof.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-calendar.csv",
+          "sha256": "5507973c40d48a4c5016198acf3c9660dc9993c390748ceb22e089823861b9c8",
+          "bytes": 17535
+        },
+        {
+          "role": "replica",
+          "view": "Weekly Profile",
+          "view_id": "09cd90be-d01d-4bf3-b5ff-912c8b8fd02e",
+          "scope": "All selected-year daily/blended/monthly summary marks, all native week totals, and complete year BANs; no button-only proof.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-weekly-profile.csv",
+          "sha256": "13bcdddb92332beb335a3879d8d0005ab2bb73a796e68dfac6295ec1a774ebe6",
+          "bytes": 1552
+        },
+        {
+          "role": "replica",
+          "view": "BANs",
+          "view_id": "47cf4bf1-acfb-4717-bf42-9e9ec6537704",
+          "scope": "All selected-year daily/blended/monthly summary marks, all native week totals, and complete year BANs; no button-only proof.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-bans.csv",
+          "sha256": "d8c7503cbcfbca070ea5ca402bb3cd21e2670b68723a520c23e298dab27a827b",
+          "bytes": 184
+        }
+      ]
+    },
+    {
+      "name": "year-2019",
+      "parameters": {},
+      "filters": {
+        "year(BLEND: Date)": "2019"
+      },
+      "views": {
+        "author": {
+          "id": "dfc40ea4-571b-4efa-86d1-f921efa18701",
+          "name": "2020_10_14_WW42_Strava_Dashboard",
+          "path": "outputs/cloud-author-year-2019.png",
+          "sha256": "dace8c4235139d0666829fd82ef06acfe4fa67e9696c7049905c7cda33ffe27b",
+          "size": [
+            3360,
+            2040
+          ]
+        },
+        "replica": {
+          "id": "c3fa852a-09ea-4a56-a772-5b0dcd176ef1",
+          "name": "2020_10_14_WW42_Strava_Dashboard",
+          "path": "outputs/cloud-replica-year-2019.png",
+          "sha256": "e7915001280cac1ce0b4ca268117afd858a88df10eae58e52e26bf2972e4dbe2",
+          "size": [
+            3360,
+            2040
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Calendar",
+          "view_id": "9e34058f-b250-4d5f-9733-718290a2d567",
+          "scope": "All selected-year daily/blended/monthly summary marks, all native week totals, and complete year BANs; no button-only proof.",
+          "parameters": {},
+          "filters": {
+            "year(BLEND: Date)": "2019"
+          },
+          "path": "outputs/cloud-author-calendar-year-2019.csv",
+          "sha256": "6fb5455260aabb107cd2cb0e1762a6a454c639a89863089c2924f4b1e2360dc4",
+          "bytes": 25997
+        },
+        {
+          "role": "author",
+          "view": "Weekly Profile",
+          "view_id": "2a2288d5-5189-448e-ba01-e16d4f049d0e",
+          "scope": "All selected-year daily/blended/monthly summary marks, all native week totals, and complete year BANs; no button-only proof.",
+          "parameters": {},
+          "filters": {
+            "year(BLEND: Date)": "2019"
+          },
+          "path": "outputs/cloud-author-weekly-profile-year-2019.csv",
+          "sha256": "b13fc335384e6a1916e2c50c0b2eb8d56e4a891a4c07fd9e7d6a166711892c18",
+          "bytes": 1544
+        },
+        {
+          "role": "author",
+          "view": "BANs",
+          "view_id": "c093018c-8cbd-4a6c-80ee-a5f9dcf3275f",
+          "scope": "All selected-year daily/blended/monthly summary marks, all native week totals, and complete year BANs; no button-only proof.",
+          "parameters": {},
+          "filters": {
+            "year(BLEND: Date)": "2019"
+          },
+          "path": "outputs/cloud-author-bans-year-2019.csv",
+          "sha256": "60842973131f7ac12f50c20b9f9795e9f1fd483fd29f2279133f5a4c776dce7d",
+          "bytes": 139
+        },
+        {
+          "role": "replica",
+          "view": "Calendar",
+          "view_id": "b2eadc32-0708-437d-b7f0-cc0e36f84625",
+          "scope": "All selected-year daily/blended/monthly summary marks, all native week totals, and complete year BANs; no button-only proof.",
+          "parameters": {},
+          "filters": {
+            "year(BLEND: Date)": "2019"
+          },
+          "path": "outputs/cloud-replica-calendar-year-2019.csv",
+          "sha256": "2b1f64593aca8e8d21f027348bb75cfa7704ac344cb563c67086444b59c6b0a6",
+          "bytes": 17491
+        },
+        {
+          "role": "replica",
+          "view": "Weekly Profile",
+          "view_id": "09cd90be-d01d-4bf3-b5ff-912c8b8fd02e",
+          "scope": "All selected-year daily/blended/monthly summary marks, all native week totals, and complete year BANs; no button-only proof.",
+          "parameters": {},
+          "filters": {
+            "year(BLEND: Date)": "2019"
+          },
+          "path": "outputs/cloud-replica-weekly-profile-year-2019.csv",
+          "sha256": "b13fc335384e6a1916e2c50c0b2eb8d56e4a891a4c07fd9e7d6a166711892c18",
+          "bytes": 1544
+        },
+        {
+          "role": "replica",
+          "view": "BANs",
+          "view_id": "47cf4bf1-acfb-4717-bf42-9e9ec6537704",
+          "scope": "All selected-year daily/blended/monthly summary marks, all native week totals, and complete year BANs; no button-only proof.",
+          "parameters": {},
+          "filters": {
+            "year(BLEND: Date)": "2019"
+          },
+          "path": "outputs/cloud-replica-bans-year-2019.csv",
+          "sha256": "1f321e1c73587bf68ad559ce80399efd1526939f68d6b665c5d5253d133bbce2",
+          "bytes": 184
+        }
+      ]
+    },
+    {
+      "name": "year-2018",
+      "parameters": {},
+      "filters": {
+        "year(BLEND: Date)": "2018"
+      },
+      "views": {
+        "author": {
+          "id": "dfc40ea4-571b-4efa-86d1-f921efa18701",
+          "name": "2020_10_14_WW42_Strava_Dashboard",
+          "path": "outputs/cloud-author-year-2018.png",
+          "sha256": "a9b7e93b8d1e2fccdf872e469fb780abbd6626bcb3d6f7889ff43e2d95ca0068",
+          "size": [
+            3360,
+            2040
+          ]
+        },
+        "replica": {
+          "id": "c3fa852a-09ea-4a56-a772-5b0dcd176ef1",
+          "name": "2020_10_14_WW42_Strava_Dashboard",
+          "path": "outputs/cloud-replica-year-2018.png",
+          "sha256": "a45537e59634319268e243b2a3c7bf910c19741fc5bf8ee59489342b0f5ed59e",
+          "size": [
+            3360,
+            2040
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Calendar",
+          "view_id": "9e34058f-b250-4d5f-9733-718290a2d567",
+          "scope": "All selected-year daily/blended/monthly summary marks, all native week totals, and complete year BANs; no button-only proof.",
+          "parameters": {},
+          "filters": {
+            "year(BLEND: Date)": "2018"
+          },
+          "path": "outputs/cloud-author-calendar-year-2018.csv",
+          "sha256": "bd38a0427224e19e9ea310a30c4701219a705dc7e02568e5970d23d99e6b3d4d",
+          "bytes": 25997
+        },
+        {
+          "role": "author",
+          "view": "Weekly Profile",
+          "view_id": "2a2288d5-5189-448e-ba01-e16d4f049d0e",
+          "scope": "All selected-year daily/blended/monthly summary marks, all native week totals, and complete year BANs; no button-only proof.",
+          "parameters": {},
+          "filters": {
+            "year(BLEND: Date)": "2018"
+          },
+          "path": "outputs/cloud-author-weekly-profile-year-2018.csv",
+          "sha256": "32a9d438d186d7b192a94e48a00f778e7bbb20bd59a42b0eea88af7c0901e9a6",
+          "bytes": 1541
+        },
+        {
+          "role": "author",
+          "view": "BANs",
+          "view_id": "c093018c-8cbd-4a6c-80ee-a5f9dcf3275f",
+          "scope": "All selected-year daily/blended/monthly summary marks, all native week totals, and complete year BANs; no button-only proof.",
+          "parameters": {},
+          "filters": {
+            "year(BLEND: Date)": "2018"
+          },
+          "path": "outputs/cloud-author-bans-year-2018.csv",
+          "sha256": "f8a0765d54e819d441b4ba8f202b513b98ab27d8f28fb3362d08d7af11bbdd1f",
+          "bytes": 139
+        },
+        {
+          "role": "replica",
+          "view": "Calendar",
+          "view_id": "b2eadc32-0708-437d-b7f0-cc0e36f84625",
+          "scope": "All selected-year daily/blended/monthly summary marks, all native week totals, and complete year BANs; no button-only proof.",
+          "parameters": {},
+          "filters": {
+            "year(BLEND: Date)": "2018"
+          },
+          "path": "outputs/cloud-replica-calendar-year-2018.csv",
+          "sha256": "be329b3c2101385cbe6d3aaa518005b2bc0e8e5c802c8b4c5012bdc79640f0ae",
+          "bytes": 17491
+        },
+        {
+          "role": "replica",
+          "view": "Weekly Profile",
+          "view_id": "09cd90be-d01d-4bf3-b5ff-912c8b8fd02e",
+          "scope": "All selected-year daily/blended/monthly summary marks, all native week totals, and complete year BANs; no button-only proof.",
+          "parameters": {},
+          "filters": {
+            "year(BLEND: Date)": "2018"
+          },
+          "path": "outputs/cloud-replica-weekly-profile-year-2018.csv",
+          "sha256": "32a9d438d186d7b192a94e48a00f778e7bbb20bd59a42b0eea88af7c0901e9a6",
+          "bytes": 1541
+        },
+        {
+          "role": "replica",
+          "view": "BANs",
+          "view_id": "47cf4bf1-acfb-4717-bf42-9e9ec6537704",
+          "scope": "All selected-year daily/blended/monthly summary marks, all native week totals, and complete year BANs; no button-only proof.",
+          "parameters": {},
+          "filters": {
+            "year(BLEND: Date)": "2018"
+          },
+          "path": "outputs/cloud-replica-bans-year-2018.csv",
+          "sha256": "a13a298c6a335074204b57a28bf80abe2f8ab41c02beb6025f78a3d547879f6f",
+          "bytes": 184
+        }
+      ]
+    }
+  ],
+  "status": "verified",
+  "independent_review": {
+    "visual_status": "acceptable_delta",
+    "visual_evidence": "evidence/visual-review.md",
+    "functional_evidence": "evidence/functional-verification.json",
+    "scope": "Declared REST worksheet exports and artifact contracts; no browser events executed."
+  }
+}

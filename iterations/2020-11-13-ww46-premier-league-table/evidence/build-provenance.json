@@ -1,0 +1,12 @@
+{
+  "workbook_sha256": "939c2210723255e049c9727caeca18af831c108d15a7f0ed4fd336e765f393d9",
+  "build_python": ".venv/Scripts/python.exe",
+  "build_command": ".venv/Scripts/python.exe iterations/2020-11-13-ww46-premier-league-table/build_replication.py",
+  "workbook_created_and_written_utc": "2026-10-04T11:13:21Z",
+  "sdk_installation_written_utc": "2026-10-04T11:12:19Z",
+  "sdk_commit": "682f45db98a23042495275d976dddaffdabbf310",
+  "sdk_version": "0.27.1",
+  "sdk_source": "Git installation from https://github.com/aidatacooper/cwtwb.git; direct_url.json commit_id and requested_revision match",
+  "evidence": "Both direct_url.json and installed field_registry.py creation/write time precede the final builder process's output timestamp. Builder and verifier used the shared case virtual environment. This corrects an earlier coordinator message that referred to the previously installed 2056efc commit; no explicit older environment was used.",
+  "rebuild_after_capture": false
+}

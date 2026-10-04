@@ -1,0 +1,10 @@
+{
+  "sdk_version": "0.27.1",
+  "sdk_commit": "eb1380d5da9c1b1bf1b306128cb8397150ba1a53",
+  "installation": "Exact Git distribution direct_url.json verified before the probe; not editable",
+  "result": "blocked",
+  "synthetic_request": "TWBEditor(''); add_worksheet('Synthetic'); register constant Region/Sales/Profit; configure_chart('Synthetic', mark_type='Square', rows=['Region'], color='Multiple Values', measure_values=['SUM(Sales)', 'SUM(Profit)'])",
+  "observed_error": "KeyError: Unknown field 'Multiple Values'. Register the field before use, or enable allow_unknown_fields for compatibility.",
+  "required_generic_contract": "Preserve Square marks, encode color and text from native Multiple Values, and expose separate_measure_domains to apply separate-domains=true to both encodings.",
+  "author_data_used_by_synthetic_probe": false
+}

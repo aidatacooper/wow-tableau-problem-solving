@@ -1,0 +1,7 @@
+{
+  "tested_version": "0.27.1",
+  "tested_commit": "eb1380d5da9c1b1bf1b306128cb8397150ba1a53",
+  "result": "blocked",
+  "scope": "Released public SDK from-zero construction; final Cloud acceptance pending.",
+  "browser_events_executed": false
+}

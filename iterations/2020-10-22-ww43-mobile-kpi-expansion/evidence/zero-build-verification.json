@@ -1,0 +1,9 @@
+{
+  "case_id": "2020-10-22-ww43-mobile-kpi-expansion",
+  "sdk_commit": "e7fa7cd6770ac3d07af55570a5a7fffd18ad6155",
+  "builder_sha256": "cd10a9cd68d269e03432d790fb654c97662e27b3a9698df6ab3a272c71814779",
+  "builder_hash_scope": "UTF-8 source text with universal newlines normalized to LF",
+  "result": "passed",
+  "initial_workbooks_available": 0,
+  "scope": "Copied only builder/verifier, metadata and locked inputs. Built from TWBEditor empty, then ran independent raw-data/artifact oracle without copied Cloud evidence or author workbooks."
+}

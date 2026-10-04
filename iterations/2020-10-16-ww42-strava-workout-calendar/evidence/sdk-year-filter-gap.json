@@ -1,0 +1,13 @@
+{
+  "released_sdk_commit": "eb1380d5da9c1b1bf1b306128cb8397150ba1a53",
+  "released_artifact_sha256": "e4d84328983346a05dc77a0ee00614e43652f6a8faab48e71193da12b50fe315",
+  "released_result": "blocked",
+  "observed_failures": [
+    "Explicit filter layout show_slider=False absent from generated native zone.",
+    "YEAR(BLEND: Date) dashboard filter missing base-column and Year column-instance dependencies, although rendered control referenced the Year instance."
+  ],
+  "generic_resolution": "Boolean filter show_slider emission and parsed column-instance base-field resolution in dashboard filter dependencies.",
+  "candidate_commit": null,
+  "candidate_result": "Static artifact and independent raw oracle pass; actual Cloud acceptance pending.",
+  "browser_interaction_executed": false
+}

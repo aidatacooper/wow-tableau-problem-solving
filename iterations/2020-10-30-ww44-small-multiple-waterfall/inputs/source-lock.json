@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-04",
+  "source_workbook": {
+    "filename": "author.twbx",
+    "bytes": 75163,
+    "sha256": "f2456619113d27299519c9ae5bcbfb85227d6f8e60713d85739362ea14fe4153",
+    "url": "https://public.tableau.com/workbooks/2020_10_28_WW44_Waterfall_Small_Multiple.twb"
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Extracts/federated_03ebrgu1xvdg9z11wom4g1.hyper",
+      "file": "inputs/federated_03ebrgu1xvdg9z11wom4g1.hyper",
+      "bytes": 196608,
+      "sha256": "bc0bb09f1d55225a0c74b58a07dc5324a83ad22a1d188286bdfdbee6512a06f7"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

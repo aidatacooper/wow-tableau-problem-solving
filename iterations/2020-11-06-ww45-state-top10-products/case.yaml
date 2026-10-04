@@ -1,0 +1,111 @@
+schema_version: 1.1.0
+case_id: wow-2020-ww45-state-top10-products
+iteration_id: 2020-11-06-ww45-state-top10-products
+post: https://donnacoles.home.blog/2020/11/06/can-you-show-the-top-10-products-for-each-state/
+legacy_case_ids: {}
+article_date: '2020-11-06'
+challenge_year: 2020
+challenge_week: 45
+challenge_date: '2020-11-03'
+date_evidence:
+  article_date: Article URL publication calendar date, matching original article metadata.
+  challenge: Explicit challenge_year; week declared in iteration_id
+  challenge_date: Official WordPress REST date field; retained in evidence/official-challenge-date.json.
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2020w45/
+  article:
+    url: https://donnacoles.home.blog/2020/11/06/can-you-show-the-top-10-products-for-each-state/
+    path: null
+    sha256: f557524f0e7450bce332b4add5fc4dcc17155e702b29ce9a84905e71c3fcb3a7
+  workbook:
+    url: https://public.tableau.com/profile/donna.coles#!/vizhome/2020_11_04_WW45_Top10Products_Map/2020_11_04_WW45_Top10Products_Map
+    filename: author.twbx
+    sha256: 1371fb5db204bfba4e0f0d358aca9b906a0e91f19549d7f8937445dd209f2b96
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- evidence/cloud-verification.json
+- evidence/export-provenance.json
+- evidence/functional-verification.json
+- evidence/initial-cloud-review.json
+- evidence/official-challenge-date.json
+- evidence/refinement-f0c3-layout-refinement.json
+- evidence/sdk-final-validation.json
+- evidence/sdk-gap-baseline.json
+- evidence/sdk-gap-tooltip_target_dependencies-baseline.json
+- evidence/sdk-validation-682f45db.json
+- evidence/tooltip-parent-capture.json
+- evidence/tooltip-worksheet-images.json
+- evidence/visual-review.md
+- evidence/vit-target-gap-baseline.json
+- evidence/zero-build-verification.json
+- inputs/source-lock.json
+notes:
+- Cloud REST state exports plus native artifact contracts; no browser click or hover
+  execution.
+cwtwb:
+  tested_version: 0.27.1
+  runs:
+  - version: 0.27.1
+    commit: eb1380d5da9c1b1bf1b306128cb8397150ba1a53
+    result: blocked
+    evidence: evidence/sdk-gap-baseline.json
+  - version: 0.27.1
+    result: pass
+    scope: Local working-tree candidate after generic Multiple Values enhancement;
+      exact final Git validation will be appended by coordinator
+    evidence: evidence/functional-verification.json
+  - version: 0.27.1
+    result: blocked
+    scope: Multiple Values candidate e598 native VIT target dependency gap found before
+      acceptance; no exact Git candidate SHA claimed
+    evidence: evidence/vit-target-gap-baseline.json
+  - version: 0.27.1
+    result: blocked
+    commit: eb1380d5da9c1b1bf1b306128cb8397150ba1a53
+    evidence: evidence/sdk-gap-tooltip_target_dependencies-baseline.json
+  - version: 0.27.1
+    result: pass
+    scope: Local current working-tree candidate after recursive VIT source and target
+      dependency fix; raw and strengthened native target-member contracts pass, fresh
+      Cloud capture pending; exact Git run appended by coordinator
+    evidence: evidence/functional-verification.json
+  - version: 0.27.1
+    commit: 682f45db98a23042495275d976dddaffdabbf310
+    result: pass
+    evidence: evidence/sdk-validation-682f45db.json
+  - version: 0.27.1
+    commit: e7fa7cd6770ac3d07af55570a5a7fffd18ad6155
+    result: pass
+    evidence: evidence/sdk-final-validation.json
+  tested_commit: e7fa7cd6770ac3d07af55570a5a7fffd18ad6155
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: pass
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/TEMP_1os3cs61c7l9y217lvvel1fi1aip.hyper
+acceptance:
+- id: ww45-raw-data
+  description: Independent full locked raw-data business oracle and packaged-data
+    hash equality.
+  mode: automated
+- id: ww45-native-contracts
+  description: Native calculation, mark, layout and tooltip/source-instance contracts.
+  mode: automated
+- id: ww45-cloud-states
+  description: All main worksheet CSV exports and paired images in every declared
+    REST state.
+  mode: automated
+remaining_work: []
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []

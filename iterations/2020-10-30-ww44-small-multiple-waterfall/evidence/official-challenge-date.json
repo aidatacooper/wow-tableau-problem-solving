@@ -1,0 +1,17 @@
+{
+  "challenge_year": 2020,
+  "challenge_week": 44,
+  "article_date": "2020-10-30",
+  "challenge_date": "2020-10-27",
+  "official_rest_url": "https://www.workout-wednesday.com/wp-json/wp/v2/posts/4048",
+  "response_excerpt": {
+    "id": 4048,
+    "date": "2020-10-27T16:21:33",
+    "slug": "2020w44",
+    "link": "https://www.workout-wednesday.com/2020w44/",
+    "title": {
+      "rendered": "2020 Week 44: Can you create a small multiple waterfall chart?"
+    }
+  },
+  "scope": "Retained excerpt of the official WordPress REST response used to establish challenge_date; article_date independently identifies the article folder."
+}

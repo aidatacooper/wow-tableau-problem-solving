@@ -1,0 +1,298 @@
+{
+  "case_id": "wow-2020-ww44-small-multiple-waterfall",
+  "captured_at": "2026-10-04T10:56:26.606449+00:00",
+  "source_hashes": {
+    "author": "7d7540155c290657763890888b3bb7c37ae458d8d4f976a42d0aa4c45f1855d0",
+    "replica": "628bdc0e96b2c9fb30d8105b4d43103d48404e6539861777feb6c55c73ec27cf"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "239f1b0f-e177-45e4-93ec-635c6d339906",
+      "name": "cwtwb-review-wow-2020-ww44-small-multiple-waterfall-author-7d7540155c29",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2935402",
+      "views": [
+        {
+          "name": "2020_10_28_WW44_Waterfall_Small_Multiple",
+          "id": "8bddc862-d4ff-40c9-b8a6-918fdcd95560"
+        },
+        {
+          "name": "Chart",
+          "id": "6bff42cd-5b58-4fbf-ba9b-a7bb6d0972dd"
+        },
+        {
+          "name": "Data",
+          "id": "f0df2491-6093-4652-9bb1-23f6ca46d4a0"
+        }
+      ]
+    },
+    "replica": {
+      "id": "6223705b-b41b-4d01-804f-a403b17a1e4a",
+      "name": "cwtwb-review-wow-2020-ww44-small-multiple-waterfall-replica-628bdc0e96b2",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2935508",
+      "views": [
+        {
+          "name": "Chart",
+          "id": "0b6dba72-a72d-43e4-8718-17f4f5db72db"
+        },
+        {
+          "name": "Data",
+          "id": "05abe4a3-006b-4bcc-bb8b-34890c53cc29"
+        },
+        {
+          "name": "2020_10_28_WW44_Waterfall_Small_Multiple",
+          "id": "02fb17db-b1fe-4f37-8271-3e4b8865c4ef"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "8bddc862-d4ff-40c9-b8a6-918fdcd95560",
+          "name": "2020_10_28_WW44_Waterfall_Small_Multiple",
+          "path": "outputs/cloud-author.png",
+          "sha256": "cf01566ab2c43242c4451c1307a092f0db9a9e86e2a1cd1af5ce96d5b300d0a4",
+          "size": [
+            1800,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "02fb17db-b1fe-4f37-8271-3e4b8865c4ef",
+          "name": "2020_10_28_WW44_Waterfall_Small_Multiple",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "7ae22162bb29de6f33c0f8cda57fb88986fe484e556c50746b98ae7c0e142920",
+          "size": [
+            1800,
+            1600
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Chart",
+          "view_id": "6bff42cd-5b58-4fbf-ba9b-a7bb6d0972dd",
+          "scope": "Complete daily/month-subtotal profits, cumulative endpoints and monthly label measures for native2020 year filter and requested month filter; no actions/browser interactions.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-chart.csv",
+          "sha256": "68a5a5bd96f97f377f68189cadbea6ea886dc326bfebac9f504f0ecea7c14b8c",
+          "bytes": 61454
+        },
+        {
+          "role": "author",
+          "view": "Data",
+          "view_id": "f0df2491-6093-4652-9bb1-23f6ca46d4a0",
+          "scope": "Complete daily/month-subtotal profits, cumulative endpoints and monthly label measures for native2020 year filter and requested month filter; no actions/browser interactions.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-data.csv",
+          "sha256": "d1e5b33c18dded710cca2e3cbcdd4579248dbc732ea97a9aae0ca1d3ba84a0f2",
+          "bytes": 148518
+        },
+        {
+          "role": "replica",
+          "view": "Chart",
+          "view_id": "0b6dba72-a72d-43e4-8718-17f4f5db72db",
+          "scope": "Complete daily/month-subtotal profits, cumulative endpoints and monthly label measures for native2020 year filter and requested month filter; no actions/browser interactions.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-chart.csv",
+          "sha256": "c06ce232f46359e45c857e5116fddf32ced2bf7b941b1b196ae64b06e2d63a73",
+          "bytes": 52243
+        },
+        {
+          "role": "replica",
+          "view": "Data",
+          "view_id": "05abe4a3-006b-4bcc-bb8b-34890c53cc29",
+          "scope": "Complete daily/month-subtotal profits, cumulative endpoints and monthly label measures for native2020 year filter and requested month filter; no actions/browser interactions.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-data.csv",
+          "sha256": "92b20ab1b89cdad4b2a68591ccab14245181b39d17039bb15021d30c143d3f0a",
+          "bytes": 136077
+        }
+      ]
+    },
+    {
+      "name": "june",
+      "parameters": {},
+      "filters": {
+        "Order Date": "2020-06-01,2020-06-02,2020-06-03,2020-06-04,2020-06-05,2020-06-06,2020-06-07,2020-06-08,2020-06-09,2020-06-10,2020-06-11,2020-06-12,2020-06-13,2020-06-14,2020-06-15,2020-06-16,2020-06-17,2020-06-18,2020-06-19,2020-06-20,2020-06-21,2020-06-22,2020-06-23,2020-06-24,2020-06-25,2020-06-26,2020-06-27,2020-06-28,2020-06-29,2020-06-30"
+      },
+      "views": {
+        "author": {
+          "id": "8bddc862-d4ff-40c9-b8a6-918fdcd95560",
+          "name": "2020_10_28_WW44_Waterfall_Small_Multiple",
+          "path": "outputs/cloud-author-june.png",
+          "sha256": "7b61b56b73496305b321f6053cc5aa1dc300d2ea2209f6dc9f95f7a8fbd25ce5",
+          "size": [
+            1800,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "02fb17db-b1fe-4f37-8271-3e4b8865c4ef",
+          "name": "2020_10_28_WW44_Waterfall_Small_Multiple",
+          "path": "outputs/cloud-replica-june.png",
+          "sha256": "77bbdca0a772e010d4968897390b5e9c33cde193fd2ed0e1e7b5f08dcd53f4c0",
+          "size": [
+            1800,
+            1600
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Chart",
+          "view_id": "6bff42cd-5b58-4fbf-ba9b-a7bb6d0972dd",
+          "scope": "Complete daily/month-subtotal profits, cumulative endpoints and monthly label measures for native2020 year filter and requested month filter; no actions/browser interactions.",
+          "parameters": {},
+          "filters": {
+            "Order Date": "2020-06-01,2020-06-02,2020-06-03,2020-06-04,2020-06-05,2020-06-06,2020-06-07,2020-06-08,2020-06-09,2020-06-10,2020-06-11,2020-06-12,2020-06-13,2020-06-14,2020-06-15,2020-06-16,2020-06-17,2020-06-18,2020-06-19,2020-06-20,2020-06-21,2020-06-22,2020-06-23,2020-06-24,2020-06-25,2020-06-26,2020-06-27,2020-06-28,2020-06-29,2020-06-30"
+          },
+          "path": "outputs/cloud-author-chart-june.csv",
+          "sha256": "7f3eb2f36e7b2fbe301cb7fa0bb7572d229540c2a26a7f57e4feac236c0a595c",
+          "bytes": 5104
+        },
+        {
+          "role": "author",
+          "view": "Data",
+          "view_id": "f0df2491-6093-4652-9bb1-23f6ca46d4a0",
+          "scope": "Complete daily/month-subtotal profits, cumulative endpoints and monthly label measures for native2020 year filter and requested month filter; no actions/browser interactions.",
+          "parameters": {},
+          "filters": {
+            "Order Date": "2020-06-01,2020-06-02,2020-06-03,2020-06-04,2020-06-05,2020-06-06,2020-06-07,2020-06-08,2020-06-09,2020-06-10,2020-06-11,2020-06-12,2020-06-13,2020-06-14,2020-06-15,2020-06-16,2020-06-17,2020-06-18,2020-06-19,2020-06-20,2020-06-21,2020-06-22,2020-06-23,2020-06-24,2020-06-25,2020-06-26,2020-06-27,2020-06-28,2020-06-29,2020-06-30"
+          },
+          "path": "outputs/cloud-author-data-june.csv",
+          "sha256": "62c68b7f9ca472091eec04ee143eb46a6283b006150c735351b3cffd851b76f8",
+          "bytes": 11419
+        },
+        {
+          "role": "replica",
+          "view": "Chart",
+          "view_id": "0b6dba72-a72d-43e4-8718-17f4f5db72db",
+          "scope": "Complete daily/month-subtotal profits, cumulative endpoints and monthly label measures for native2020 year filter and requested month filter; no actions/browser interactions.",
+          "parameters": {},
+          "filters": {
+            "Order Date": "2020-06-01,2020-06-02,2020-06-03,2020-06-04,2020-06-05,2020-06-06,2020-06-07,2020-06-08,2020-06-09,2020-06-10,2020-06-11,2020-06-12,2020-06-13,2020-06-14,2020-06-15,2020-06-16,2020-06-17,2020-06-18,2020-06-19,2020-06-20,2020-06-21,2020-06-22,2020-06-23,2020-06-24,2020-06-25,2020-06-26,2020-06-27,2020-06-28,2020-06-29,2020-06-30"
+          },
+          "path": "outputs/cloud-replica-chart-june.csv",
+          "sha256": "9e95c3e4ffe05478fcfc92515c2127eddd22e9c50d90d679a22012dca05a1e06",
+          "bytes": 4345
+        },
+        {
+          "role": "replica",
+          "view": "Data",
+          "view_id": "05abe4a3-006b-4bcc-bb8b-34890c53cc29",
+          "scope": "Complete daily/month-subtotal profits, cumulative endpoints and monthly label measures for native2020 year filter and requested month filter; no actions/browser interactions.",
+          "parameters": {},
+          "filters": {
+            "Order Date": "2020-06-01,2020-06-02,2020-06-03,2020-06-04,2020-06-05,2020-06-06,2020-06-07,2020-06-08,2020-06-09,2020-06-10,2020-06-11,2020-06-12,2020-06-13,2020-06-14,2020-06-15,2020-06-16,2020-06-17,2020-06-18,2020-06-19,2020-06-20,2020-06-21,2020-06-22,2020-06-23,2020-06-24,2020-06-25,2020-06-26,2020-06-27,2020-06-28,2020-06-29,2020-06-30"
+          },
+          "path": "outputs/cloud-replica-data-june.csv",
+          "sha256": "aca1ee6ea9a6f22b93c86eac2d9f7b4ac51a899ac55623aa33a75481c04728c5",
+          "bytes": 10396
+        }
+      ]
+    },
+    {
+      "name": "november",
+      "parameters": {},
+      "filters": {
+        "Order Date": "2020-11-01,2020-11-02,2020-11-03,2020-11-04,2020-11-05,2020-11-06,2020-11-07,2020-11-08,2020-11-09,2020-11-10,2020-11-11,2020-11-12,2020-11-13,2020-11-14,2020-11-15,2020-11-16,2020-11-17,2020-11-18,2020-11-19,2020-11-20,2020-11-21,2020-11-22,2020-11-23,2020-11-24,2020-11-25,2020-11-26,2020-11-27,2020-11-28,2020-11-29,2020-11-30"
+      },
+      "views": {
+        "author": {
+          "id": "8bddc862-d4ff-40c9-b8a6-918fdcd95560",
+          "name": "2020_10_28_WW44_Waterfall_Small_Multiple",
+          "path": "outputs/cloud-author-november.png",
+          "sha256": "abc3bf355340a29b29f08e630833679a8ea51bb4c5a2e0f49846e3191c3a8e4b",
+          "size": [
+            1800,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "02fb17db-b1fe-4f37-8271-3e4b8865c4ef",
+          "name": "2020_10_28_WW44_Waterfall_Small_Multiple",
+          "path": "outputs/cloud-replica-november.png",
+          "sha256": "e95a264ef4c706c389b2c5fae24e0929f9c0b2d2a117794132be0170b9019f24",
+          "size": [
+            1800,
+            1600
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Chart",
+          "view_id": "6bff42cd-5b58-4fbf-ba9b-a7bb6d0972dd",
+          "scope": "Complete daily/month-subtotal profits, cumulative endpoints and monthly label measures for native2020 year filter and requested month filter; no actions/browser interactions.",
+          "parameters": {},
+          "filters": {
+            "Order Date": "2020-11-01,2020-11-02,2020-11-03,2020-11-04,2020-11-05,2020-11-06,2020-11-07,2020-11-08,2020-11-09,2020-11-10,2020-11-11,2020-11-12,2020-11-13,2020-11-14,2020-11-15,2020-11-16,2020-11-17,2020-11-18,2020-11-19,2020-11-20,2020-11-21,2020-11-22,2020-11-23,2020-11-24,2020-11-25,2020-11-26,2020-11-27,2020-11-28,2020-11-29,2020-11-30"
+          },
+          "path": "outputs/cloud-author-chart-november.csv",
+          "sha256": "f1f4eae505195a2c6f395199ae49e99a3f24393068be734c01db6f0169335ce9",
+          "bytes": 5774
+        },
+        {
+          "role": "author",
+          "view": "Data",
+          "view_id": "f0df2491-6093-4652-9bb1-23f6ca46d4a0",
+          "scope": "Complete daily/month-subtotal profits, cumulative endpoints and monthly label measures for native2020 year filter and requested month filter; no actions/browser interactions.",
+          "parameters": {},
+          "filters": {
+            "Order Date": "2020-11-01,2020-11-02,2020-11-03,2020-11-04,2020-11-05,2020-11-06,2020-11-07,2020-11-08,2020-11-09,2020-11-10,2020-11-11,2020-11-12,2020-11-13,2020-11-14,2020-11-15,2020-11-16,2020-11-17,2020-11-18,2020-11-19,2020-11-20,2020-11-21,2020-11-22,2020-11-23,2020-11-24,2020-11-25,2020-11-26,2020-11-27,2020-11-28,2020-11-29,2020-11-30"
+          },
+          "path": "outputs/cloud-author-data-november.csv",
+          "sha256": "b191ee03850a9c70a4a8e1cb80c1718cfc6fac68dfefd81eb99c7231e8a5160e",
+          "bytes": 13222
+        },
+        {
+          "role": "replica",
+          "view": "Chart",
+          "view_id": "0b6dba72-a72d-43e4-8718-17f4f5db72db",
+          "scope": "Complete daily/month-subtotal profits, cumulative endpoints and monthly label measures for native2020 year filter and requested month filter; no actions/browser interactions.",
+          "parameters": {},
+          "filters": {
+            "Order Date": "2020-11-01,2020-11-02,2020-11-03,2020-11-04,2020-11-05,2020-11-06,2020-11-07,2020-11-08,2020-11-09,2020-11-10,2020-11-11,2020-11-12,2020-11-13,2020-11-14,2020-11-15,2020-11-16,2020-11-17,2020-11-18,2020-11-19,2020-11-20,2020-11-21,2020-11-22,2020-11-23,2020-11-24,2020-11-25,2020-11-26,2020-11-27,2020-11-28,2020-11-29,2020-11-30"
+          },
+          "path": "outputs/cloud-replica-chart-november.csv",
+          "sha256": "29b65af2c1ba30358e1f4f74642b2113f4cbab4c43498c169d0c99bcbf35fdb6",
+          "bytes": 4879
+        },
+        {
+          "role": "replica",
+          "view": "Data",
+          "view_id": "05abe4a3-006b-4bcc-bb8b-34890c53cc29",
+          "scope": "Complete daily/month-subtotal profits, cumulative endpoints and monthly label measures for native2020 year filter and requested month filter; no actions/browser interactions.",
+          "parameters": {},
+          "filters": {
+            "Order Date": "2020-11-01,2020-11-02,2020-11-03,2020-11-04,2020-11-05,2020-11-06,2020-11-07,2020-11-08,2020-11-09,2020-11-10,2020-11-11,2020-11-12,2020-11-13,2020-11-14,2020-11-15,2020-11-16,2020-11-17,2020-11-18,2020-11-19,2020-11-20,2020-11-21,2020-11-22,2020-11-23,2020-11-24,2020-11-25,2020-11-26,2020-11-27,2020-11-28,2020-11-29,2020-11-30"
+          },
+          "path": "outputs/cloud-replica-data-november.csv",
+          "sha256": "ae11bc9864e5f89e6c9729e4491da9cf3a0df0cbc9d441d329f1019d4b6fb276",
+          "bytes": 12199
+        }
+      ]
+    }
+  ],
+  "status": "verified",
+  "independent_review": {
+    "visual_status": "acceptable_delta",
+    "visual_evidence": "evidence/visual-review.md",
+    "functional_evidence": "evidence/functional-verification.json",
+    "scope": "Declared REST worksheet exports and artifact contracts; no browser events executed."
+  }
+}

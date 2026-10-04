@@ -1,0 +1,7 @@
+{
+  "workbook_sha256": "f0c3e22c4d660720d760758d87d32052532761c3c300f2f592c33a8d50410e87",
+  "failure": "Strip range field literal ignored, yielding half-width bars; title wrapped; all numeric exports passed",
+  "result": "blocked",
+  "scope": "Case public API usage and layout refinement; does not assert a new SDK gap",
+  "archive": "scratch/ww45-analysis/f0c3-layout-refinement"
+}

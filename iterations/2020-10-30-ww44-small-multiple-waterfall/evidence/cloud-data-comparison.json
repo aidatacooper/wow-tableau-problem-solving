@@ -1,0 +1,691 @@
+{
+  "status": "pass",
+  "artifact_sha256": "628bdc0e96b2c9fb30d8105b4d43103d48404e6539861777feb6c55c73ec27cf",
+  "checks": [
+    {
+      "role": "author",
+      "view": "Chart",
+      "state": "default",
+      "csv_rows": 754,
+      "compared_values": 4176,
+      "calendar_days": 365,
+      "fact_days": 322,
+      "daily_keys": {
+        "actual": 365,
+        "negative": 322,
+        "maximum": 322,
+        "monthly": 322,
+        "running": 363,
+        "profit": 322
+      },
+      "subtotal_months": {
+        "actual": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "negative": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "maximum": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "monthly": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "running": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "profit": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "role": "author",
+      "view": "Data",
+      "state": "default",
+      "csv_rows": 2262,
+      "compared_values": 2131,
+      "calendar_days": 365,
+      "fact_days": 322,
+      "daily_keys": {
+        "profit": 322,
+        "running": 363,
+        "monthly": 322,
+        "maximum": 322,
+        "actual": 365,
+        "year_running": 365
+      },
+      "subtotal_months": {
+        "profit": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "running": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "monthly": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "maximum": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "actual": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "year_running": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "role": "replica",
+      "view": "Chart",
+      "state": "default",
+      "csv_rows": 754,
+      "compared_values": 3508,
+      "calendar_days": 365,
+      "fact_days": 322,
+      "daily_keys": {
+        "actual": 365,
+        "negative": 322,
+        "running": 363,
+        "maximum": 322,
+        "monthly": 322
+      },
+      "subtotal_months": {
+        "actual": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "negative": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "running": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "maximum": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "monthly": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "role": "replica",
+      "view": "Data",
+      "state": "default",
+      "csv_rows": 2262,
+      "compared_values": 2131,
+      "calendar_days": 365,
+      "fact_days": 322,
+      "daily_keys": {
+        "profit": 322,
+        "running": 363,
+        "monthly": 322,
+        "maximum": 322,
+        "actual": 365,
+        "year_running": 365
+      },
+      "subtotal_months": {
+        "profit": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "running": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "monthly": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "maximum": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "actual": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "year_running": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "role": "author",
+      "view": "Chart",
+      "state": "june",
+      "csv_rows": 62,
+      "compared_values": 340,
+      "calendar_days": 30,
+      "fact_days": 26,
+      "daily_keys": {
+        "actual": 30,
+        "negative": 26,
+        "maximum": 26,
+        "monthly": 26,
+        "running": 30,
+        "profit": 26
+      },
+      "subtotal_months": {
+        "actual": [
+          6
+        ],
+        "negative": [
+          6
+        ],
+        "maximum": [
+          6
+        ],
+        "monthly": [
+          6
+        ],
+        "running": [
+          6
+        ],
+        "profit": [
+          6
+        ]
+      }
+    },
+    {
+      "role": "author",
+      "view": "Data",
+      "state": "june",
+      "csv_rows": 186,
+      "compared_values": 174,
+      "calendar_days": 30,
+      "fact_days": 26,
+      "daily_keys": {
+        "profit": 26,
+        "running": 30,
+        "monthly": 26,
+        "maximum": 26,
+        "actual": 30,
+        "year_running": 30
+      },
+      "subtotal_months": {
+        "profit": [
+          6
+        ],
+        "running": [
+          6
+        ],
+        "monthly": [
+          6
+        ],
+        "maximum": [
+          6
+        ],
+        "actual": [
+          6
+        ],
+        "year_running": [
+          6
+        ]
+      }
+    },
+    {
+      "role": "replica",
+      "view": "Chart",
+      "state": "june",
+      "csv_rows": 62,
+      "compared_values": 286,
+      "calendar_days": 30,
+      "fact_days": 26,
+      "daily_keys": {
+        "actual": 30,
+        "negative": 26,
+        "running": 30,
+        "maximum": 26,
+        "monthly": 26
+      },
+      "subtotal_months": {
+        "actual": [
+          6
+        ],
+        "negative": [
+          6
+        ],
+        "running": [
+          6
+        ],
+        "maximum": [
+          6
+        ],
+        "monthly": [
+          6
+        ]
+      }
+    },
+    {
+      "role": "replica",
+      "view": "Data",
+      "state": "june",
+      "csv_rows": 186,
+      "compared_values": 174,
+      "calendar_days": 30,
+      "fact_days": 26,
+      "daily_keys": {
+        "profit": 26,
+        "running": 30,
+        "monthly": 26,
+        "maximum": 26,
+        "actual": 30,
+        "year_running": 30
+      },
+      "subtotal_months": {
+        "profit": [
+          6
+        ],
+        "running": [
+          6
+        ],
+        "monthly": [
+          6
+        ],
+        "maximum": [
+          6
+        ],
+        "actual": [
+          6
+        ],
+        "year_running": [
+          6
+        ]
+      }
+    },
+    {
+      "role": "author",
+      "view": "Chart",
+      "state": "november",
+      "csv_rows": 62,
+      "compared_values": 372,
+      "calendar_days": 30,
+      "fact_days": 30,
+      "daily_keys": {
+        "actual": 30,
+        "negative": 30,
+        "maximum": 30,
+        "monthly": 30,
+        "running": 30,
+        "profit": 30
+      },
+      "subtotal_months": {
+        "actual": [
+          11
+        ],
+        "negative": [
+          11
+        ],
+        "maximum": [
+          11
+        ],
+        "monthly": [
+          11
+        ],
+        "running": [
+          11
+        ],
+        "profit": [
+          11
+        ]
+      }
+    },
+    {
+      "role": "author",
+      "view": "Data",
+      "state": "november",
+      "csv_rows": 186,
+      "compared_values": 186,
+      "calendar_days": 30,
+      "fact_days": 30,
+      "daily_keys": {
+        "profit": 30,
+        "running": 30,
+        "monthly": 30,
+        "maximum": 30,
+        "actual": 30,
+        "year_running": 30
+      },
+      "subtotal_months": {
+        "profit": [
+          11
+        ],
+        "running": [
+          11
+        ],
+        "monthly": [
+          11
+        ],
+        "maximum": [
+          11
+        ],
+        "actual": [
+          11
+        ],
+        "year_running": [
+          11
+        ]
+      }
+    },
+    {
+      "role": "replica",
+      "view": "Chart",
+      "state": "november",
+      "csv_rows": 62,
+      "compared_values": 310,
+      "calendar_days": 30,
+      "fact_days": 30,
+      "daily_keys": {
+        "actual": 30,
+        "negative": 30,
+        "running": 30,
+        "maximum": 30,
+        "monthly": 30
+      },
+      "subtotal_months": {
+        "actual": [
+          11
+        ],
+        "negative": [
+          11
+        ],
+        "running": [
+          11
+        ],
+        "maximum": [
+          11
+        ],
+        "monthly": [
+          11
+        ]
+      }
+    },
+    {
+      "role": "replica",
+      "view": "Data",
+      "state": "november",
+      "csv_rows": 186,
+      "compared_values": 186,
+      "calendar_days": 30,
+      "fact_days": 30,
+      "daily_keys": {
+        "profit": 30,
+        "running": 30,
+        "monthly": 30,
+        "maximum": 30,
+        "actual": 30,
+        "year_running": 30
+      },
+      "subtotal_months": {
+        "profit": [
+          11
+        ],
+        "running": [
+          11
+        ],
+        "monthly": [
+          11
+        ],
+        "maximum": [
+          11
+        ],
+        "actual": [
+          11
+        ],
+        "year_running": [
+          11
+        ]
+      }
+    }
+  ]
+}

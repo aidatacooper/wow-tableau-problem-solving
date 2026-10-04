@@ -1,0 +1,101 @@
+Colour WLD Circle,Date,Team,Win-Loss-Draw,Index To Plot,Opposition,Opposition Score,Points,Team Score
+L,10/3/2020,Crystal Palace,L,1,Chelsea,4,0,0
+L,10/3/2020,Brighton,L,1,Everton,4,0,2
+L,10/3/2020,Burnley,L,1,Newcastle,3,0,1
+L,10/4/2020,Leicester,L,1,West Ham,3,0,0
+L,10/4/2020,Liverpool,L,1,Aston Villa,7,0,2
+L,10/4/2020,Man United,L,1,Tottenham,6,0,1
+L,10/4/2020,Fulham,L,1,Wolves,1,0,0
+L,10/4/2020,West Brom,L,1,Southampton,2,0,0
+L,10/4/2020,Sheffield United,L,1,Arsenal,2,0,1
+L,10/17/2020,Arsenal,L,2,Man City,1,0,0
+L,10/17/2020,Newcastle,L,2,Man United,4,0,1
+L,10/18/2020,Leicester,L,2,Aston Villa,1,0,0
+L,10/19/2020,Leeds,L,2,Wolves,1,0,0
+L,10/23/2020,Aston Villa,L,3,Leeds,3,0,0
+L,10/24/2020,Fulham,L,3,Crystal Palace,2,0,1
+L,10/24/2020,Sheffield United,L,3,Liverpool,2,0,1
+L,10/25/2020,Everton,L,3,Southampton,2,0,0
+L,10/25/2020,Arsenal,L,3,Leicester,1,0,0
+L,10/26/2020,Burnley,L,3,Tottenham,1,0,0
+L,10/30/2020,Crystal Palace,L,4,Wolves,2,0,0
+L,10/31/2020,West Ham,L,4,Liverpool,2,0,1
+L,10/31/2020,Burnley,L,4,Chelsea,3,0,0
+L,10/31/2020,Sheffield United,L,4,Man City,1,0,0
+L,11/1/2020,Aston Villa,L,4,Southampton,4,0,3
+L,11/1/2020,Everton,L,4,Newcastle,2,0,1
+L,11/1/2020,Man United,L,4,Arsenal,1,0,0
+L,11/1/2020,Brighton,L,4,Tottenham,2,0,1
+L,11/2/2020,Leeds,L,4,Leicester,4,0,1
+L,11/2/2020,West Brom,L,4,Fulham,2,0,0
+L,11/6/2020,Newcastle,L,5,Southampton,2,0,0
+L,11/7/2020,Everton,L,5,Man United,3,0,1
+L,11/7/2020,Leeds,L,5,Crystal Palace,4,0,1
+L,11/7/2020,Fulham,L,5,West Ham,1,0,0
+L,11/7/2020,Sheffield United,L,5,Chelsea,4,0,1
+L,11/8/2020,Wolves,L,5,Leicester,1,0,0
+L,11/8/2020,Arsenal,L,5,Aston Villa,3,0,0
+L,11/8/2020,West Brom,L,5,Tottenham,1,0,0
+T,10/3/2020,Man City,T,1,Leeds,1,1,1
+T,10/3/2020,Leeds,T,1,Man City,1,1,1
+T,10/17/2020,Liverpool,T,2,Everton,2,1,2
+T,10/17/2020,Southampton,T,2,Chelsea,3,1,3
+T,10/17/2020,Chelsea,T,2,Southampton,3,1,3
+T,10/17/2020,Everton,T,2,Liverpool,2,1,2
+T,10/18/2020,Tottenham,T,2,West Ham,3,1,3
+T,10/18/2020,Crystal Palace,T,2,Brighton,1,1,1
+T,10/18/2020,West Ham,T,2,Tottenham,3,1,3
+T,10/18/2020,Brighton,T,2,Crystal Palace,1,1,1
+T,10/18/2020,Fulham,T,2,Sheffield United,1,1,1
+T,10/18/2020,Sheffield United,T,2,Fulham,1,1,1
+T,10/19/2020,West Brom,T,2,Burnley,0,1,0
+T,10/19/2020,Burnley,T,2,West Brom,0,1,0
+T,10/24/2020,Chelsea,T,3,Man United,0,1,0
+T,10/24/2020,Man City,T,3,West Ham,1,1,1
+T,10/24/2020,West Ham,T,3,Man City,1,1,1
+T,10/24/2020,Man United,T,3,Chelsea,0,1,0
+T,10/25/2020,Wolves,T,3,Newcastle,1,1,1
+T,10/25/2020,Newcastle,T,3,Wolves,1,1,1
+T,10/26/2020,Brighton,T,3,West Brom,1,1,1
+T,10/26/2020,West Brom,T,3,Brighton,1,1,1
+T,11/6/2020,Brighton,T,5,Burnley,0,1,0
+T,11/6/2020,Burnley,T,5,Brighton,0,1,0
+T,11/8/2020,Liverpool,T,5,Man City,1,1,1
+T,11/8/2020,Man City,T,5,Liverpool,1,1,1
+W,10/3/2020,Chelsea,W,1,Crystal Palace,0,3,4
+W,10/3/2020,Everton,W,1,Brighton,2,3,4
+W,10/3/2020,Newcastle,W,1,Burnley,1,3,3
+W,10/4/2020,Tottenham,W,1,Man United,1,3,6
+W,10/4/2020,Southampton,W,1,West Brom,0,3,2
+W,10/4/2020,Aston Villa,W,1,Liverpool,2,3,7
+W,10/4/2020,Wolves,W,1,Fulham,0,3,1
+W,10/4/2020,Arsenal,W,1,Sheffield United,1,3,2
+W,10/4/2020,West Ham,W,1,Leicester,0,3,3
+W,10/17/2020,Man City,W,2,Arsenal,0,3,1
+W,10/17/2020,Man United,W,2,Newcastle,1,3,4
+W,10/18/2020,Aston Villa,W,2,Leicester,0,3,1
+W,10/19/2020,Wolves,W,2,Leeds,0,3,1
+W,10/23/2020,Leeds,W,3,Aston Villa,0,3,3
+W,10/24/2020,Liverpool,W,3,Sheffield United,1,3,2
+W,10/24/2020,Crystal Palace,W,3,Fulham,1,3,2
+W,10/25/2020,Leicester,W,3,Arsenal,0,3,1
+W,10/25/2020,Southampton,W,3,Everton,0,3,2
+W,10/26/2020,Tottenham,W,3,Burnley,0,3,1
+W,10/30/2020,Wolves,W,4,Crystal Palace,0,3,2
+W,10/31/2020,Liverpool,W,4,West Ham,1,3,2
+W,10/31/2020,Chelsea,W,4,Burnley,0,3,3
+W,10/31/2020,Man City,W,4,Sheffield United,0,3,1
+W,11/1/2020,Tottenham,W,4,Brighton,1,3,2
+W,11/1/2020,Southampton,W,4,Aston Villa,3,3,4
+W,11/1/2020,Arsenal,W,4,Man United,0,3,1
+W,11/1/2020,Newcastle,W,4,Everton,1,3,2
+W,11/2/2020,Leicester,W,4,Leeds,1,3,4
+W,11/2/2020,Fulham,W,4,West Brom,0,3,2
+W,11/6/2020,Southampton,W,5,Newcastle,0,3,2
+W,11/7/2020,Chelsea,W,5,Sheffield United,1,3,4
+W,11/7/2020,Crystal Palace,W,5,Leeds,1,3,4
+W,11/7/2020,West Ham,W,5,Fulham,0,3,1
+W,11/7/2020,Man United,W,5,Everton,1,3,3
+W,11/8/2020,Leicester,W,5,Wolves,0,3,1
+W,11/8/2020,Tottenham,W,5,West Brom,0,3,1
+W,11/8/2020,Aston Villa,W,5,Arsenal,0,3,3

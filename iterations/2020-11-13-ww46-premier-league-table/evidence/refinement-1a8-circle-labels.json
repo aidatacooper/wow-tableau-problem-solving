@@ -1,0 +1,6 @@
+{
+  "workbook_sha256": "1a8b74227fa901f5403584b8dd1ed54c819af799fc509e06bc9124a19ffff3d6",
+  "numeric_status": "passed",
+  "visual_status": "refinement_required",
+  "reason": "All24CSV values and full100 matches pass; result labels black beside circles and visible Gantt endpoint ticks differ from source. Existing public worksheet pane styles restore centred color-matched bold8 labels; transparent Gantt markers preserve total labels."
+}

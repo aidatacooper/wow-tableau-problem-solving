@@ -1,0 +1,97 @@
+schema_version: 1.1.0
+case_id: wow-2020-ww44-small-multiple-waterfall
+iteration_id: 2020-10-30-ww44-small-multiple-waterfall
+post: https://donnacoles.home.blog/2020/10/30/can-you-create-a-small-multiple-waterfall-chart/
+legacy_case_ids: {}
+article_date: '2020-10-30'
+challenge_year: 2020
+challenge_week: 44
+challenge_date: '2020-10-27'
+date_evidence:
+  article_date: Archived article 2020-10-30 URL and scratch/ww44-analysis/article.html
+  challenge: Official WordPress post4048 title explicitly2020 Week44
+  challenge_date: Official WordPress REST date field; retained in evidence/official-challenge-date.json.
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2020w44/
+  article:
+    url: https://donnacoles.home.blog/2020/10/30/can-you-create-a-small-multiple-waterfall-chart/
+    path: null
+    sha256: 703ae3d78e08096be4e6f6a52763ae3052577468bcc4e3a703cca0a52d8742bb
+  workbook:
+    url: https://public.tableau.com/workbooks/2020_10_28_WW44_Waterfall_Small_Multiple.twb
+    filename: author.twbx
+    sha256: f2456619113d27299519c9ae5bcbfb85227d6f8e60713d85739362ea14fe4153
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- evidence/cloud-data-comparison.json
+- evidence/cloud-verification.json
+- evidence/export-provenance.json
+- evidence/functional-verification.json
+- evidence/official-challenge-date.json
+- evidence/sdk-candidate.json
+- evidence/sdk-domain-range-gap-baseline.json
+- evidence/sdk-final-validation.json
+- evidence/sdk-gap-discrete_date_truncation-baseline.json
+- evidence/sdk-validation-682f45db.json
+- evidence/visual-review.md
+- evidence/zero-build-verification.json
+- inputs/source-lock.json
+notes:
+- Original has no parameters or dashboard actions. Phone automatic layout is artifact-only;
+  no mobile browser render is claimed.
+cwtwb:
+  tested_version: 0.27.1
+  tested_commit: e7fa7cd6770ac3d07af55570a5a7fffd18ad6155
+  runs:
+  - version: 0.27.1
+    commit: eb1380d5da9c1b1bf1b306128cb8397150ba1a53
+    result: blocked
+    evidence: evidence/sdk-domain-range-gap-baseline.json
+  - version: 0.27.1
+    commit: eb1380d5da9c1b1bf1b306128cb8397150ba1a53
+    result: blocked
+    evidence: evidence/sdk-gap-discrete_date_truncation-baseline.json
+  - version: 0.27.1
+    commit: null
+    result: pass
+    evidence: evidence/sdk-candidate.json
+  - version: 0.27.1
+    commit: 682f45db98a23042495275d976dddaffdabbf310
+    result: pass
+    evidence: evidence/sdk-validation-682f45db.json
+  - version: 0.27.1
+    commit: e7fa7cd6770ac3d07af55570a5a7fffd18ad6155
+    result: pass
+    evidence: evidence/sdk-final-validation.json
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: pass
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/federated_03ebrgu1xvdg9z11wom4g1.hyper
+acceptance:
+- id: daily-waterfall
+  description: Every daily profit, running total, negative Gantt duration and month
+    subtotal agrees with independently aggregated locked raw facts.
+  mode: automated
+- id: native-completion
+  description: Datepart day addressing, full-range date completion, month subtotals,
+    transparent month labels and 4x3 layout match native contracts.
+  mode: automated
+- id: cloud-matrix
+  description: Default and June/November REST filters export both complete worksheet
+    data and paired PNGs; no browser event claim.
+  mode: automated
+remaining_work: []
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []

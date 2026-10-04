@@ -1,0 +1,10 @@
+{
+  "workbook_sha256": "e5985e9a9164b35b28dfd5a60d549695cd244f98be2c0eb6ce2c9564809f0424",
+  "result": "blocked",
+  "scope": "Native compound VIT target contract; REST ordinary State exports do not execute hover context",
+  "failure": "Target context group references State Abbrev but target worksheet omits its calculated column/column-instance dependency",
+  "synthetic_reproducer": "scratch/ww45-analysis/probe_vit_target_dependencies.py",
+  "released_reproducer_commit": "eb1380d5da9c1b1bf1b306128cb8397150ba1a53",
+  "baseline_capture_archive": "scratch/ww45-analysis/e598-vit-target-gap",
+  "candidate_fix": "Generic recursive dependency registration on source and target worksheets; independent native assertions added"
+}

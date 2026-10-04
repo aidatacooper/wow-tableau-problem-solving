@@ -1,0 +1,87 @@
+schema_version: 1.1.0
+case_id: wow-2020-ww43-mobile-kpi-expansion
+iteration_id: 2020-10-22-ww43-mobile-kpi-expansion
+post: https://donnacoles.home.blog/2020/10/22/designing-kpis-for-mobile/
+legacy_case_ids: {}
+article_date: '2020-10-22'
+challenge_year: 2020
+challenge_week: 43
+challenge_date: '2020-10-20'
+date_evidence:
+  article_date: Article HTML article:published_time agrees with archived manifest
+    date.
+  challenge: Explicit challenge_year; week declared in iteration_id
+  challenge_date: Official WordPress REST date field; retained in evidence/official-challenge-date.json.
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2020-week-43-mobile-dashboard-challenge/
+  article:
+    url: https://donnacoles.home.blog/2020/10/22/designing-kpis-for-mobile/
+    path: null
+    sha256: b014d92004d812fba1a4901e81f72799358b4eef13a3903f5745169f138f5fda
+  workbook:
+    url: https://public.tableau.com/workbooks/2020_10_21_WW43_Mobile_KPIs.twb
+    filename: author.twbx
+    sha256: e1cef00221580818ec0479dc6fac08f08b71525bc4671bc6e99bad041e1ccdf3
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- evidence/cloud-verification.json
+- evidence/export-provenance.json
+- evidence/functional-verification.json
+- evidence/official-challenge-date.json
+- evidence/sdk-baseline.json
+- evidence/sdk-final-validation.json
+- evidence/sdk-validation-682f45db.json
+- evidence/visual-review.md
+- evidence/zero-build-verification.json
+- inputs/source-lock.json
+notes:
+- Generated index views must be refreshed after the workbook is built and verified.
+cwtwb:
+  tested_version: 0.27.1
+  tested_commit: e7fa7cd6770ac3d07af55570a5a7fffd18ad6155
+  runs:
+  - version: 0.27.1
+    commit: eb1380d5da9c1b1bf1b306128cb8397150ba1a53
+    result: pass
+    evidence: evidence/sdk-baseline.json
+  - version: 0.27.1
+    commit: 682f45db98a23042495275d976dddaffdabbf310
+    result: pass
+    evidence: evidence/sdk-validation-682f45db.json
+  - version: 0.27.1
+    commit: e7fa7cd6770ac3d07af55570a5a7fffd18ad6155
+    result: pass
+    evidence: evidence/sdk-final-validation.json
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: pass
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/federated_07b8coq1x0qr8f1gej4uy1.hyper
+acceptance:
+- id: closed-four-kpis
+  mode: automated
+  description: Empty parameter shows four complete full-dataset KPIs and no monthly
+    charts.
+- id: four-expanded-states
+  mode: automated
+  description: Each of SALES/PROFIT/MARGIN/CUSTOMERS shows exactly its complete 12-month
+    bars and hides other monthly charts.
+- id: native-action-controls
+  mode: automated
+  description: Four parameter toggle actions and four self-filter deselection actions
+    bind source fields on both KPI axes; original narrow default flow without Phone
+    layout.
+remaining_work: []
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []

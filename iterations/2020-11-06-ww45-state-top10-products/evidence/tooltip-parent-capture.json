@@ -1,0 +1,483 @@
+{
+  "case_id": "wow-2020-ww45-state-top10-products",
+  "captured_at": "2026-10-04T11:07:25.081942+00:00",
+  "source_hashes": {
+    "author": "7f1076586e7d8799d4081abd1050aa70691c3646f88b683173d0cb082846d697",
+    "replica": "45fa3d27e106a459d7f4878e351f9a7847a80ffa904ca1d0d343aefd7664c749"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "4393c239-89f7-47e6-9255-57a50fb0a7c4",
+      "name": "cwtwb-review-wow-2020-ww45-state-top10-products-author-7f1076586e7d",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2935409",
+      "views": [
+        {
+          "name": "2020_11_04_WW45_Top10Products_Map",
+          "id": "e65a9243-434d-4299-b417-b32fe2873d8b"
+        },
+        {
+          "name": "Map",
+          "id": "241b1db8-eb6e-4556-b28d-47e265fb2915"
+        },
+        {
+          "name": "Seaboard States",
+          "id": "9388925e-062f-462d-bb36-c57823a916d6"
+        },
+        {
+          "name": "Top 10 Products",
+          "id": "6b55ad5b-6817-489c-be01-29ddc8cb634d"
+        }
+      ]
+    },
+    "replica": {
+      "id": "443bf791-ebe3-4915-ac79-8b086e15c68c",
+      "name": "cwtwb-review-wow-2020-ww45-state-top10-products-replica-45fa3d27e106",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2935566",
+      "views": [
+        {
+          "name": "Map",
+          "id": "1a554191-530a-4035-898c-9ec47c28203d"
+        },
+        {
+          "name": "Seaboard States",
+          "id": "8773173d-d951-42e5-beb6-d3b897156428"
+        },
+        {
+          "name": "Top 10 Products",
+          "id": "e7d7e612-2ad4-4ebc-80e9-66f1b4ad7f4a"
+        },
+        {
+          "name": "2020_11_04_WW45_Top10Products_Map",
+          "id": "4744fcc8-5666-4679-a67c-cd13524e6009"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "e65a9243-434d-4299-b417-b32fe2873d8b",
+          "name": "2020_11_04_WW45_Top10Products_Map",
+          "path": "outputs/cloud-author.png",
+          "sha256": "2aab17b6f94d1dbfa6f55af08e712ec595dd4fdf02f81322ea79d09595c78459",
+          "size": [
+            2000,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "4744fcc8-5666-4679-a67c-cd13524e6009",
+          "name": "2020_11_04_WW45_Top10Products_Map",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "57abf7beffcd3eda5a3072a0f806f0a8ac5370c9b5e6fb9f5a59b1ecb5f28eb7",
+          "size": [
+            2000,
+            1600
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Map",
+          "view_id": "241b1db8-eb6e-4556-b28d-47e265fb2915",
+          "scope": "Complete primary worksheet CSV at requested ordinary filter state; no browser hover or click execution.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-map.csv",
+          "sha256": "ca889f28b288f186ee0b9e1061665ca4da712ca4c35443ce7871f3bab33a11a6",
+          "bytes": 1752
+        },
+        {
+          "role": "author",
+          "view": "Seaboard States",
+          "view_id": "9388925e-062f-462d-bb36-c57823a916d6",
+          "scope": "Complete primary worksheet CSV at requested ordinary filter state; no browser hover or click execution.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-seaboard-states.csv",
+          "sha256": "7bfcb202b2c9bf4ab09350fe371d88ca89b211fafc3a309bdb72fbcfaf2193f5",
+          "bytes": 182
+        },
+        {
+          "role": "author",
+          "view": "Top 10 Products",
+          "view_id": "6b55ad5b-6817-489c-be01-29ddc8cb634d",
+          "scope": "Complete primary worksheet CSV at requested ordinary filter state; no browser hover or click execution.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-top-10-products.csv",
+          "sha256": "113dbaa77311dcb1d5f9d96836c4d0793f9a16301c454a5f6bbba3b1f57610f4",
+          "bytes": 11644
+        },
+        {
+          "role": "replica",
+          "view": "Map",
+          "view_id": "1a554191-530a-4035-898c-9ec47c28203d",
+          "scope": "Complete primary worksheet CSV at requested ordinary filter state; no browser hover or click execution.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-map.csv",
+          "sha256": "fe13158930f539f353ff08c605899c16fe4a4a6dc7cdfde49ac2f17bb15efff3",
+          "bytes": 2237
+        },
+        {
+          "role": "replica",
+          "view": "Seaboard States",
+          "view_id": "8773173d-d951-42e5-beb6-d3b897156428",
+          "scope": "Complete primary worksheet CSV at requested ordinary filter state; no browser hover or click execution.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-seaboard-states.csv",
+          "sha256": "035988031d2b73971baa5881c44cbc1341a838d970c7916352c786d2f03d3f8e",
+          "bytes": 226
+        },
+        {
+          "role": "replica",
+          "view": "Top 10 Products",
+          "view_id": "e7d7e612-2ad4-4ebc-80e9-66f1b4ad7f4a",
+          "scope": "Complete primary worksheet CSV at requested ordinary filter state; no browser hover or click execution.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-top-10-products.csv",
+          "sha256": "f9847a2da5bfa5854b5f29229d076a2dfc4ea5b7a10635235b6eb748a5f7369e",
+          "bytes": 11538
+        }
+      ]
+    },
+    {
+      "name": "california",
+      "parameters": {},
+      "filters": {
+        "State": "California"
+      },
+      "views": {
+        "author": {
+          "id": "e65a9243-434d-4299-b417-b32fe2873d8b",
+          "name": "2020_11_04_WW45_Top10Products_Map",
+          "path": "outputs/cloud-author-california.png",
+          "sha256": "b13d5ed7465e78f63bce72de23a252bd95832c1bf52869eb8d6e87da737e2abc",
+          "size": [
+            2000,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "4744fcc8-5666-4679-a67c-cd13524e6009",
+          "name": "2020_11_04_WW45_Top10Products_Map",
+          "path": "outputs/cloud-replica-california.png",
+          "sha256": "7b41354646b044a4e96f253f2e61a5170a75a7326b04f16f230d43fff62cab43",
+          "size": [
+            2000,
+            1600
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Map",
+          "view_id": "241b1db8-eb6e-4556-b28d-47e265fb2915",
+          "scope": "Complete primary worksheet CSV at requested ordinary filter state; no browser hover or click execution.",
+          "parameters": {},
+          "filters": {
+            "State": "California"
+          },
+          "path": "outputs/cloud-author-map-california.csv",
+          "sha256": "b7692fcb9fa3673ce31118844835d37708013c0d42c84cdcd0b7f7e23d8e4bf8",
+          "bytes": 107
+        },
+        {
+          "role": "author",
+          "view": "Seaboard States",
+          "view_id": "9388925e-062f-462d-bb36-c57823a916d6",
+          "scope": "Complete primary worksheet CSV at requested ordinary filter state; no browser hover or click execution.",
+          "parameters": {},
+          "filters": {
+            "State": "California"
+          },
+          "path": "outputs/cloud-author-seaboard-states-california.csv",
+          "sha256": "ebf492a46c0f5b3b99e1512dae93847119a18fe862e99ac7ea732377bae114c9",
+          "bytes": 42
+        },
+        {
+          "role": "author",
+          "view": "Top 10 Products",
+          "view_id": "6b55ad5b-6817-489c-be01-29ddc8cb634d",
+          "scope": "Complete primary worksheet CSV at requested ordinary filter state; no browser hover or click execution.",
+          "parameters": {},
+          "filters": {
+            "State": "California"
+          },
+          "path": "outputs/cloud-author-top-10-products-california.csv",
+          "sha256": "3506f905999a20abf778b62a3e7d41dae67bb135c808b26726dff0b96dbc80a0",
+          "bytes": 1045
+        },
+        {
+          "role": "replica",
+          "view": "Map",
+          "view_id": "1a554191-530a-4035-898c-9ec47c28203d",
+          "scope": "Complete primary worksheet CSV at requested ordinary filter state; no browser hover or click execution.",
+          "parameters": {},
+          "filters": {
+            "State": "California"
+          },
+          "path": "outputs/cloud-replica-map-california.csv",
+          "sha256": "4695cab04418e6ac4a81cd40346af919efe18da560d5c2286d2870909431505f",
+          "bytes": 124
+        },
+        {
+          "role": "replica",
+          "view": "Seaboard States",
+          "view_id": "8773173d-d951-42e5-beb6-d3b897156428",
+          "scope": "Complete primary worksheet CSV at requested ordinary filter state; no browser hover or click execution.",
+          "parameters": {},
+          "filters": {
+            "State": "California"
+          },
+          "path": "outputs/cloud-replica-seaboard-states-california.csv",
+          "sha256": "b199ec9a3c54303e4371e6e3c9bf68a5045c26b47b49176018c32fefd9d280e8",
+          "bytes": 69
+        },
+        {
+          "role": "replica",
+          "view": "Top 10 Products",
+          "view_id": "e7d7e612-2ad4-4ebc-80e9-66f1b4ad7f4a",
+          "scope": "Complete primary worksheet CSV at requested ordinary filter state; no browser hover or click execution.",
+          "parameters": {},
+          "filters": {
+            "State": "California"
+          },
+          "path": "outputs/cloud-replica-top-10-products-california.csv",
+          "sha256": "d43b852f9f45b7b500ce92f591761fd56c1b18675cc719af5769724756709a49",
+          "bytes": 1035
+        }
+      ]
+    },
+    {
+      "name": "texas",
+      "parameters": {},
+      "filters": {
+        "State": "Texas"
+      },
+      "views": {
+        "author": {
+          "id": "e65a9243-434d-4299-b417-b32fe2873d8b",
+          "name": "2020_11_04_WW45_Top10Products_Map",
+          "path": "outputs/cloud-author-texas.png",
+          "sha256": "2123f8b36cdccbcc1c5dae2577086f214776f62c9039c22e35f3ac489348f24b",
+          "size": [
+            2000,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "4744fcc8-5666-4679-a67c-cd13524e6009",
+          "name": "2020_11_04_WW45_Top10Products_Map",
+          "path": "outputs/cloud-replica-texas.png",
+          "sha256": "d479217393ab059c89d5898fe072ab2d169827e9ea7e847ead74ef2f02e19626",
+          "size": [
+            2000,
+            1600
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Map",
+          "view_id": "241b1db8-eb6e-4556-b28d-47e265fb2915",
+          "scope": "Complete primary worksheet CSV at requested ordinary filter state; no browser hover or click execution.",
+          "parameters": {},
+          "filters": {
+            "State": "Texas"
+          },
+          "path": "outputs/cloud-author-map-texas.csv",
+          "sha256": "4d983f1978e1d374360eaba6183d85dea5d973827b6ecd40ffda49bb472ae646",
+          "bytes": 102
+        },
+        {
+          "role": "author",
+          "view": "Seaboard States",
+          "view_id": "9388925e-062f-462d-bb36-c57823a916d6",
+          "scope": "Complete primary worksheet CSV at requested ordinary filter state; no browser hover or click execution.",
+          "parameters": {},
+          "filters": {
+            "State": "Texas"
+          },
+          "path": "outputs/cloud-author-seaboard-states-texas.csv",
+          "sha256": "a98d193d3d60ba24c8f7ffdaf194e73fef83f3d785bf8a38561cfd672c258ba5",
+          "bytes": 37
+        },
+        {
+          "role": "author",
+          "view": "Top 10 Products",
+          "view_id": "6b55ad5b-6817-489c-be01-29ddc8cb634d",
+          "scope": "Complete primary worksheet CSV at requested ordinary filter state; no browser hover or click execution.",
+          "parameters": {},
+          "filters": {
+            "State": "Texas"
+          },
+          "path": "outputs/cloud-author-top-10-products-texas.csv",
+          "sha256": "5675288f29188ae32d522a45d03770ae778807cfc441164f09c1a753c612bc75",
+          "bytes": 1407
+        },
+        {
+          "role": "replica",
+          "view": "Map",
+          "view_id": "1a554191-530a-4035-898c-9ec47c28203d",
+          "scope": "Complete primary worksheet CSV at requested ordinary filter state; no browser hover or click execution.",
+          "parameters": {},
+          "filters": {
+            "State": "Texas"
+          },
+          "path": "outputs/cloud-replica-map-texas.csv",
+          "sha256": "ceb81f9b923dea054dfa6782ce4bd08a5af6cbd1198d882a93ce66e51e1b58ff",
+          "bytes": 114
+        },
+        {
+          "role": "replica",
+          "view": "Seaboard States",
+          "view_id": "8773173d-d951-42e5-beb6-d3b897156428",
+          "scope": "Complete primary worksheet CSV at requested ordinary filter state; no browser hover or click execution.",
+          "parameters": {},
+          "filters": {
+            "State": "Texas"
+          },
+          "path": "outputs/cloud-replica-seaboard-states-texas.csv",
+          "sha256": "58afb5a0820aec687cb9d624ead6d3e1cee50942e5baed0a6b9b7d702515c043",
+          "bytes": 64
+        },
+        {
+          "role": "replica",
+          "view": "Top 10 Products",
+          "view_id": "e7d7e612-2ad4-4ebc-80e9-66f1b4ad7f4a",
+          "scope": "Complete primary worksheet CSV at requested ordinary filter state; no browser hover or click execution.",
+          "parameters": {},
+          "filters": {
+            "State": "Texas"
+          },
+          "path": "outputs/cloud-replica-top-10-products-texas.csv",
+          "sha256": "0a68ed2a1fea78a9cd7cbb9a56764e02cb79b815b9971a85321848bfeff661a6",
+          "bytes": 1393
+        }
+      ]
+    },
+    {
+      "name": "new-york",
+      "parameters": {},
+      "filters": {
+        "State": "New York"
+      },
+      "views": {
+        "author": {
+          "id": "e65a9243-434d-4299-b417-b32fe2873d8b",
+          "name": "2020_11_04_WW45_Top10Products_Map",
+          "path": "outputs/cloud-author-new-york.png",
+          "sha256": "e21ede0e9c2bc8b9d4bfdd48d99e10c9c63171d41bd426faed95893abf4f2e06",
+          "size": [
+            2000,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "4744fcc8-5666-4679-a67c-cd13524e6009",
+          "name": "2020_11_04_WW45_Top10Products_Map",
+          "path": "outputs/cloud-replica-new-york.png",
+          "sha256": "7773595a5b7998053e7f8e249566260c6643d3825cde249750e19089d11ac7f3",
+          "size": [
+            2000,
+            1600
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Map",
+          "view_id": "241b1db8-eb6e-4556-b28d-47e265fb2915",
+          "scope": "Complete primary worksheet CSV at requested ordinary filter state; no browser hover or click execution.",
+          "parameters": {},
+          "filters": {
+            "State": "New York"
+          },
+          "path": "outputs/cloud-author-map-new-york.csv",
+          "sha256": "7bffa9d1fe5cba9cdc178dadc8ef60012a0088f65c379094788e7e5dec588d92",
+          "bytes": 101
+        },
+        {
+          "role": "author",
+          "view": "Seaboard States",
+          "view_id": "9388925e-062f-462d-bb36-c57823a916d6",
+          "scope": "Complete primary worksheet CSV at requested ordinary filter state; no browser hover or click execution.",
+          "parameters": {},
+          "filters": {
+            "State": "New York"
+          },
+          "path": "outputs/cloud-author-seaboard-states-new-york.csv",
+          "sha256": "f6853f88da0a39246bcd08e1ff4511d60801a7c6e387ae2ea732ebe0a7619717",
+          "bytes": 40
+        },
+        {
+          "role": "author",
+          "view": "Top 10 Products",
+          "view_id": "6b55ad5b-6817-489c-be01-29ddc8cb634d",
+          "scope": "Complete primary worksheet CSV at requested ordinary filter state; no browser hover or click execution.",
+          "parameters": {},
+          "filters": {
+            "State": "New York"
+          },
+          "path": "outputs/cloud-author-top-10-products-new-york.csv",
+          "sha256": "e57f8ebc056ac57e6db798fd4c9e4f8627604b0619d57ffea492ef3be564976c",
+          "bytes": 1706
+        },
+        {
+          "role": "replica",
+          "view": "Map",
+          "view_id": "1a554191-530a-4035-898c-9ec47c28203d",
+          "scope": "Complete primary worksheet CSV at requested ordinary filter state; no browser hover or click execution.",
+          "parameters": {},
+          "filters": {
+            "State": "New York"
+          },
+          "path": "outputs/cloud-replica-map-new-york.csv",
+          "sha256": "efa6e5da0596fd20bd2952a070bf97e82251dc29bc571b2d7deabb37da43c9f8",
+          "bytes": 116
+        },
+        {
+          "role": "replica",
+          "view": "Seaboard States",
+          "view_id": "8773173d-d951-42e5-beb6-d3b897156428",
+          "scope": "Complete primary worksheet CSV at requested ordinary filter state; no browser hover or click execution.",
+          "parameters": {},
+          "filters": {
+            "State": "New York"
+          },
+          "path": "outputs/cloud-replica-seaboard-states-new-york.csv",
+          "sha256": "f2dd53f9de988d7f143c586ab922dbfc57d309ef00213e612ce04ed6fccf5520",
+          "bytes": 67
+        },
+        {
+          "role": "replica",
+          "view": "Top 10 Products",
+          "view_id": "e7d7e612-2ad4-4ebc-80e9-66f1b4ad7f4a",
+          "scope": "Complete primary worksheet CSV at requested ordinary filter state; no browser hover or click execution.",
+          "parameters": {},
+          "filters": {
+            "State": "New York"
+          },
+          "path": "outputs/cloud-replica-top-10-products-new-york.csv",
+          "sha256": "b39406b4660fcc0f2d51902b17a4565902eade713d6c383bf768765d175fc1de",
+          "bytes": 1690
+        }
+      ]
+    }
+  ],
+  "status": "captured_requires_independent_review"
+}

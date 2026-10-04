@@ -1,0 +1,97 @@
+schema_version: 1.1.0
+case_id: wow-2020-ww46-premier-league-table
+iteration_id: 2020-11-13-ww46-premier-league-table
+post: https://donnacoles.home.blog/2020/11/13/can-you-build-a-premier-league-table/
+legacy_case_ids: {}
+article_date: '2020-11-13'
+challenge_year: 2020
+challenge_week: 46
+challenge_date: '2020-11-10'
+date_evidence:
+  article_date: Article URL publication calendar date, matching original article metadata.
+  challenge: Explicit challenge_year; week declared in iteration_id
+  challenge_date: Official WordPress REST date field; retained in evidence/official-challenge-date.json.
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2020w46/
+  article:
+    url: https://donnacoles.home.blog/2020/11/13/can-you-build-a-premier-league-table/
+    path: null
+    sha256: 7dbd2b233bfb5715bb285463e0f224744a871ace818e85b4f57f0bdb2c14d693
+  workbook:
+    url: https://public.tableau.com/profile/donna.coles#!/vizhome/2020_11_11_WW46_PremierLeagueTable/2020_11_11_WW46_Premier_League_Table
+    filename: author.twbx
+    sha256: 8aed879225c794a1d3fd6a1b37189c3075652cfade97021c9adea6199389b858
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- evidence/build-provenance.json
+- evidence/cloud-verification.json
+- evidence/export-provenance.json
+- evidence/functional-verification.json
+- evidence/initial-cloud-review.json
+- evidence/official-challenge-date.json
+- evidence/raw-data-baseline.json
+- evidence/refinement-1a8-circle-labels.json
+- evidence/refinement-4c4-month-grain-failure.json
+- evidence/sdk-final-validation.json
+- evidence/sdk-gap-baseline.json
+- evidence/sdk-validation-682f45db.json
+- evidence/visual-review.md
+- evidence/zero-build-verification.json
+- inputs/source-lock.json
+notes:
+- Cloud REST state exports plus native artifact contracts; no browser click or hover
+  execution.
+cwtwb:
+  tested_version: 0.27.1
+  runs:
+  - version: 0.27.1
+    commit: eb1380d5da9c1b1bf1b306128cb8397150ba1a53
+    result: blocked
+    evidence: evidence/sdk-gap-baseline.json
+  - version: 0.27.1
+    result: pass
+    scope: Working-tree candidate generic native blended ATTR/string semantics fix;
+      final exact Git run coordinated separately
+    evidence: evidence/functional-verification.json
+  - version: 0.27.1
+    commit: 682f45db98a23042495275d976dddaffdabbf310
+    result: pass
+    evidence: evidence/sdk-validation-682f45db.json
+  - version: 0.27.1
+    commit: e7fa7cd6770ac3d07af55570a5a7fffd18ad6155
+    result: pass
+    evidence: evidence/sdk-final-validation.json
+  tested_commit: e7fa7cd6770ac3d07af55570a5a7fffd18ad6155
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: pass
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/TEMP_1f3qskj0te9n9v1f3avp71ojhhal.hyper
+  - inputs/TEMP_0jwezo318cddv716gtx140t8vf36.hyper
+  - inputs/TEMP_1utfxg4148kl101dumirh0r0cn6d.hyper
+acceptance:
+- id: ww46-raw-data
+  description: Independent full locked raw-data business oracle and packaged-data
+    hash equality.
+  mode: automated
+- id: ww46-native-contracts
+  description: Native calculation, mark, layout and tooltip/source-instance contracts.
+  mode: automated
+- id: ww46-cloud-states
+  description: All main worksheet CSV exports and paired images in every declared
+    REST state.
+  mode: automated
+remaining_work: []
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []

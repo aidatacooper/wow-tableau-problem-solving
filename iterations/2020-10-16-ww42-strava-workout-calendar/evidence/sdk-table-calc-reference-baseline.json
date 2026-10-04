@@ -1,0 +1,22 @@
+{
+  "synthetic_only": true,
+  "author_inputs_used": false,
+  "public_api": "configure_layered_chart(table_calc_overrides)",
+  "fixture": "Synthetic Cols=0 integer ordinal; Synthetic Window=WINDOW_SUM(SUM(Sales)); level_address and first order item use field/reference mapping.",
+  "baseline": {
+    "tested_sdk_commit": "2056efc58cec23e05a980840e29c6d01726643f7",
+    "status": "blocked",
+    "exception_type": "KeyError",
+    "actual_exception_excerpt": "Unknown field '{'field': 'Synthetic Cols', 'reference': 'instance'}'. Register the field before use",
+    "observation": "The first actual invocation failed in column_reference(str(value)); its uncaught traceback was retained in the execution log."
+  },
+  "enhanced": {
+    "status": "supported",
+    "tested_sdk_commit": "682f45db98a23042495275d976dddaffdabbf310",
+    "synthetic_only": true,
+    "author_inputs_used": false,
+    "public_api": "configure_layered_chart(table_calc_overrides)",
+    "required_capability": "Explicit instance or column references for table-calc order and level addressing while preserving default column-reference behavior",
+    "real_case_trigger": "Calendar monthly WINDOW_SUM level-address must bind Cols typed instance; released API only resolves physical column."
+  }
+}

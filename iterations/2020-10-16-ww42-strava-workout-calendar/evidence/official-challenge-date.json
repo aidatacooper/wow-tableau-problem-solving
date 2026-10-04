@@ -1,0 +1,17 @@
+{
+  "challenge_year": 2020,
+  "challenge_week": 42,
+  "article_date": "2020-10-16",
+  "challenge_date": "2020-10-13",
+  "official_rest_url": "https://www.workout-wednesday.com/wp-json/wp/v2/posts/4029",
+  "response_excerpt": {
+    "id": 4029,
+    "date": "2020-10-13T17:00:00",
+    "slug": "2020w42",
+    "link": "https://www.workout-wednesday.com/2020w42/",
+    "title": {
+      "rendered": "2020 Week 42: Can you build a Strava Workout Calendar?"
+    }
+  },
+  "scope": "Retained excerpt of the official WordPress REST response used to establish challenge_date; article_date independently identifies the article folder."
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-04",
+  "source_workbook": {
+    "filename": "author.twbx",
+    "bytes": 387440,
+    "sha256": "e1cef00221580818ec0479dc6fac08f08b71525bc4671bc6e99bad041e1ccdf3",
+    "url": "https://public.tableau.com/workbooks/2020_10_21_WW43_Mobile_KPIs.twb"
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Extracts/federated_07b8coq1x0qr8f1gej4uy1.hyper",
+      "file": "inputs/federated_07b8coq1x0qr8f1gej4uy1.hyper",
+      "bytes": 983040,
+      "sha256": "ba9c4a2fbc12d03d54dcdd17d9026b31942cfb023131457ced008ac5d20f6caa"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

@@ -1,0 +1,9 @@
+{
+  "case_id": "2020-10-30-ww44-small-multiple-waterfall",
+  "sdk_commit": "e7fa7cd6770ac3d07af55570a5a7fffd18ad6155",
+  "builder_sha256": "08be0d9133aed579fb39aca6c4883ed40a027d883fd1ffd0a3c691c7dce22343",
+  "builder_hash_scope": "UTF-8 source text with universal newlines normalized to LF",
+  "result": "passed",
+  "initial_workbooks_available": 0,
+  "scope": "Copied only builder/verifier, metadata and locked inputs. Built from TWBEditor empty, then ran independent raw-data/artifact oracle without copied Cloud evidence or author workbooks."
+}

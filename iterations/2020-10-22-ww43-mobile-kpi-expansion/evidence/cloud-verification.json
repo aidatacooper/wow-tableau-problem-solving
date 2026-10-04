@@ -1,0 +1,1268 @@
+{
+  "case_id": "wow-2020-ww43-mobile-kpi-expansion",
+  "captured_at": "2026-10-04T10:53:19.154914+00:00",
+  "source_hashes": {
+    "author": "e56cac5a906f5e2f2f91361ee38951ed32a4cd37fc95a79bc0806f4e857e99c7",
+    "replica": "b34cf56dee1d63ce8e6194301d679f72ca406b03d3d25d7494c0b96af73caa95"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "7af60a2a-c4a2-4333-9702-60bf8406f225",
+      "name": "cwtwb-review-wow-2020-ww43-mobile-kpi-expansion-author-e56cac5a906f",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2935415",
+      "views": [
+        {
+          "name": "2020_10_21_WW43_Mobile_KPIs",
+          "id": "61ad9449-79da-420c-9f03-6ba4c1c510a1"
+        },
+        {
+          "name": "Bar - Customers",
+          "id": "ce0f469e-cd7a-4fc2-88d9-18e98ceb70d1"
+        },
+        {
+          "name": "Bar - Margin",
+          "id": "a7128868-b302-4da8-903b-b923c05391c1"
+        },
+        {
+          "name": "Bar - Profit",
+          "id": "4fb81a90-d045-4f1a-9218-86b165981ebc"
+        },
+        {
+          "name": "Bar - Sales",
+          "id": "810d5bdf-810e-44c6-a53d-69ee6d0262ee"
+        },
+        {
+          "name": "KPI - Customer",
+          "id": "a174a55b-4c9b-41e5-8781-2c12127c8da2"
+        },
+        {
+          "name": "KPI - Margin",
+          "id": "274523a2-01a2-4be0-9e44-4a85045f12f0"
+        },
+        {
+          "name": "KPI - Profit",
+          "id": "8d365c24-f393-4002-9bac-7086eee15042"
+        },
+        {
+          "name": "KPI - Sales",
+          "id": "8c31c1e9-197a-4deb-a081-5a731410eca8"
+        }
+      ]
+    },
+    "replica": {
+      "id": "b6c0c910-918d-4da8-9394-1eaa022eaeb4",
+      "name": "cwtwb-review-wow-2020-ww43-mobile-kpi-expansion-replica-b34cf56dee1d",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2935492",
+      "views": [
+        {
+          "name": "KPI - Sales",
+          "id": "1b3f8458-857e-4ab8-ba77-abd585f5a619"
+        },
+        {
+          "name": "Bar - Sales",
+          "id": "0f3945d3-e3c0-407b-a6ab-c85be1f35089"
+        },
+        {
+          "name": "KPI - Profit",
+          "id": "09c1bc3f-acd9-48eb-aceb-2aff9c78bcb5"
+        },
+        {
+          "name": "Bar - Profit",
+          "id": "ad705179-b54d-4032-b5dd-036444723f9e"
+        },
+        {
+          "name": "KPI - Margin",
+          "id": "b5a18f55-e0cc-475c-8213-b99ef9d9f889"
+        },
+        {
+          "name": "Bar - Margin",
+          "id": "773cf316-737c-41b4-adcb-7ed17f87a2f9"
+        },
+        {
+          "name": "KPI - Customer",
+          "id": "bc8b54d0-7f5d-4e6e-9501-327461833286"
+        },
+        {
+          "name": "Bar - Customers",
+          "id": "d873ecdd-a3ce-4e6a-ad6d-42d1dcc2c991"
+        },
+        {
+          "name": "2020_10_21_WW43_Mobile_KPIs",
+          "id": "427adba1-8752-4b54-adf2-db90b1f25e15"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "61ad9449-79da-420c-9f03-6ba4c1c510a1",
+          "name": "2020_10_21_WW43_Mobile_KPIs",
+          "path": "outputs/cloud-author.png",
+          "sha256": "c805abc1c2910ae03361abb2856639beef8d10926505624b4e5866912179bbd9",
+          "size": [
+            800,
+            1200
+          ]
+        },
+        "replica": {
+          "id": "427adba1-8752-4b54-adf2-db90b1f25e15",
+          "name": "2020_10_21_WW43_Mobile_KPIs",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "ff7a3d0e161175636c1657305e662e3dde3feeed578790b3b03478f402de6958",
+          "size": [
+            800,
+            1200
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Bar - Sales",
+          "view_id": "810d5bdf-810e-44c6-a53d-69ee6d0262ee",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-bar---sales.csv",
+          "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+          "bytes": 1
+        },
+        {
+          "role": "author",
+          "view": "Bar - Profit",
+          "view_id": "4fb81a90-d045-4f1a-9218-86b165981ebc",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-bar---profit.csv",
+          "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+          "bytes": 1
+        },
+        {
+          "role": "author",
+          "view": "Bar - Margin",
+          "view_id": "a7128868-b302-4da8-903b-b923c05391c1",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-bar---margin.csv",
+          "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+          "bytes": 1
+        },
+        {
+          "role": "author",
+          "view": "Bar - Customers",
+          "view_id": "ce0f469e-cd7a-4fc2-88d9-18e98ceb70d1",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-bar---customers.csv",
+          "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+          "bytes": 1
+        },
+        {
+          "role": "author",
+          "view": "KPI - Sales",
+          "view_id": "8c31c1e9-197a-4deb-a081-5a731410eca8",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-kpi---sales.csv",
+          "sha256": "f6106d739b19b1bfffd9d09f5e1480835ad2341d551ae68962824cf98d48f894",
+          "bytes": 124
+        },
+        {
+          "role": "author",
+          "view": "KPI - Profit",
+          "view_id": "8d365c24-f393-4002-9bac-7086eee15042",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-kpi---profit.csv",
+          "sha256": "c6cd80f00677621d96db96e798f98e9023c10dae81e67896ace3f4ad87135db8",
+          "bytes": 127
+        },
+        {
+          "role": "author",
+          "view": "KPI - Margin",
+          "view_id": "274523a2-01a2-4be0-9e44-4a85045f12f0",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-kpi---margin.csv",
+          "sha256": "089523057bd3b02b113e3c1d57774fd5c0d402186a6359159fafe08fb5aba542",
+          "bytes": 122
+        },
+        {
+          "role": "author",
+          "view": "KPI - Customer",
+          "view_id": "a174a55b-4c9b-41e5-8781-2c12127c8da2",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-kpi---customer.csv",
+          "sha256": "1c44536f39b4f5402b4a6adb08e4acd958649fbb9a5126763ac4018d5bf92c45",
+          "bytes": 133
+        },
+        {
+          "role": "replica",
+          "view": "Bar - Sales",
+          "view_id": "0f3945d3-e3c0-407b-a6ab-c85be1f35089",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-bar---sales.csv",
+          "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+          "bytes": 1
+        },
+        {
+          "role": "replica",
+          "view": "Bar - Profit",
+          "view_id": "ad705179-b54d-4032-b5dd-036444723f9e",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-bar---profit.csv",
+          "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+          "bytes": 1
+        },
+        {
+          "role": "replica",
+          "view": "Bar - Margin",
+          "view_id": "773cf316-737c-41b4-adcb-7ed17f87a2f9",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-bar---margin.csv",
+          "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+          "bytes": 1
+        },
+        {
+          "role": "replica",
+          "view": "Bar - Customers",
+          "view_id": "d873ecdd-a3ce-4e6a-ad6d-42d1dcc2c991",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-bar---customers.csv",
+          "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+          "bytes": 1
+        },
+        {
+          "role": "replica",
+          "view": "KPI - Sales",
+          "view_id": "1b3f8458-857e-4ab8-ba77-abd585f5a619",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-kpi---sales.csv",
+          "sha256": "0fb843e27d1b6a1cd166d8e4672ddb07a4cc3d7a34696ffcf07307ebc6bf4e28",
+          "bytes": 134
+        },
+        {
+          "role": "replica",
+          "view": "KPI - Profit",
+          "view_id": "09c1bc3f-acd9-48eb-aceb-2aff9c78bcb5",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-kpi---profit.csv",
+          "sha256": "c85734a03220971534b7226fbb4779702cb9f1cb17bf7358b0af338b3c2a5f67",
+          "bytes": 137
+        },
+        {
+          "role": "replica",
+          "view": "KPI - Margin",
+          "view_id": "b5a18f55-e0cc-475c-8213-b99ef9d9f889",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-kpi---margin.csv",
+          "sha256": "d8a37d92f63e74d262569cc9e53ab25c53175bb07d8318ac9f12e3bb89747dcd",
+          "bytes": 132
+        },
+        {
+          "role": "replica",
+          "view": "KPI - Customer",
+          "view_id": "bc8b54d0-7f5d-4e6e-9501-327461833286",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-kpi---customer.csv",
+          "sha256": "13fb563b560213dfcb98ef94153f69867879a8e4bfdc204e3c010de709982d92",
+          "bytes": 143
+        }
+      ]
+    },
+    {
+      "name": "sales",
+      "parameters": {
+        "Selected Measure": "SALES"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "61ad9449-79da-420c-9f03-6ba4c1c510a1",
+          "name": "2020_10_21_WW43_Mobile_KPIs",
+          "path": "outputs/cloud-author-sales.png",
+          "sha256": "cb1922b0801b47527f0af1eb1597439698e02a1a4eb703c8816d45c0788ba519",
+          "size": [
+            800,
+            1200
+          ]
+        },
+        "replica": {
+          "id": "427adba1-8752-4b54-adf2-db90b1f25e15",
+          "name": "2020_10_21_WW43_Mobile_KPIs",
+          "path": "outputs/cloud-replica-sales.png",
+          "sha256": "b54840572ffe9dc694b1d0f56ad50375f040dbe2e50e915468be2e31056a3c19",
+          "size": [
+            800,
+            1200
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Bar - Sales",
+          "view_id": "810d5bdf-810e-44c6-a53d-69ee6d0262ee",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {
+            "Selected Measure": "SALES"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-bar---sales-sales.csv",
+          "sha256": "a85368c2282f02caac35ad4231ba08f06a60753207c2675cf9778058d782d388",
+          "bytes": 511
+        },
+        {
+          "role": "author",
+          "view": "Bar - Profit",
+          "view_id": "4fb81a90-d045-4f1a-9218-86b165981ebc",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {
+            "Selected Measure": "SALES"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-bar---profit-sales.csv",
+          "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+          "bytes": 1
+        },
+        {
+          "role": "author",
+          "view": "Bar - Margin",
+          "view_id": "a7128868-b302-4da8-903b-b923c05391c1",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {
+            "Selected Measure": "SALES"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-bar---margin-sales.csv",
+          "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+          "bytes": 1
+        },
+        {
+          "role": "author",
+          "view": "Bar - Customers",
+          "view_id": "ce0f469e-cd7a-4fc2-88d9-18e98ceb70d1",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {
+            "Selected Measure": "SALES"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-bar---customers-sales.csv",
+          "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+          "bytes": 1
+        },
+        {
+          "role": "author",
+          "view": "KPI - Sales",
+          "view_id": "8c31c1e9-197a-4deb-a081-5a731410eca8",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {
+            "Selected Measure": "SALES"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-kpi---sales-sales.csv",
+          "sha256": "47c73f44ef78d4bdf9fe1da2153942ff11811466fe44918d360329a5a8c7d0ed",
+          "bytes": 114
+        },
+        {
+          "role": "author",
+          "view": "KPI - Profit",
+          "view_id": "8d365c24-f393-4002-9bac-7086eee15042",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {
+            "Selected Measure": "SALES"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-kpi---profit-sales.csv",
+          "sha256": "a8247edead8d5cad4865327c195102eff09a8d0e178b6ff3c4e454c5e13676ce",
+          "bytes": 127
+        },
+        {
+          "role": "author",
+          "view": "KPI - Margin",
+          "view_id": "274523a2-01a2-4be0-9e44-4a85045f12f0",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {
+            "Selected Measure": "SALES"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-kpi---margin-sales.csv",
+          "sha256": "7fd37c0ce90c3e0dc63a55cc0fb8379581cf4bb03d562820eeda336c84ca8e3b",
+          "bytes": 122
+        },
+        {
+          "role": "author",
+          "view": "KPI - Customer",
+          "view_id": "a174a55b-4c9b-41e5-8781-2c12127c8da2",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {
+            "Selected Measure": "SALES"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-kpi---customer-sales.csv",
+          "sha256": "1c44536f39b4f5402b4a6adb08e4acd958649fbb9a5126763ac4018d5bf92c45",
+          "bytes": 133
+        },
+        {
+          "role": "replica",
+          "view": "Bar - Sales",
+          "view_id": "0f3945d3-e3c0-407b-a6ab-c85be1f35089",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {
+            "Selected Measure": "SALES"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-bar---sales-sales.csv",
+          "sha256": "7f5813a8b6d90f069392ca2e3b4c9f67b6daaf1cb83dbfa1322fe155b2646bb5",
+          "bytes": 405
+        },
+        {
+          "role": "replica",
+          "view": "Bar - Profit",
+          "view_id": "ad705179-b54d-4032-b5dd-036444723f9e",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {
+            "Selected Measure": "SALES"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-bar---profit-sales.csv",
+          "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+          "bytes": 1
+        },
+        {
+          "role": "replica",
+          "view": "Bar - Margin",
+          "view_id": "773cf316-737c-41b4-adcb-7ed17f87a2f9",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {
+            "Selected Measure": "SALES"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-bar---margin-sales.csv",
+          "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+          "bytes": 1
+        },
+        {
+          "role": "replica",
+          "view": "Bar - Customers",
+          "view_id": "d873ecdd-a3ce-4e6a-ad6d-42d1dcc2c991",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {
+            "Selected Measure": "SALES"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-bar---customers-sales.csv",
+          "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+          "bytes": 1
+        },
+        {
+          "role": "replica",
+          "view": "KPI - Sales",
+          "view_id": "1b3f8458-857e-4ab8-ba77-abd585f5a619",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {
+            "Selected Measure": "SALES"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-kpi---sales-sales.csv",
+          "sha256": "d31e6d8b7b5a97b4e8dd80a502ed07bea7a2a65efb07f4268e65f3c691a03fff",
+          "bytes": 124
+        },
+        {
+          "role": "replica",
+          "view": "KPI - Profit",
+          "view_id": "09c1bc3f-acd9-48eb-aceb-2aff9c78bcb5",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {
+            "Selected Measure": "SALES"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-kpi---profit-sales.csv",
+          "sha256": "c85734a03220971534b7226fbb4779702cb9f1cb17bf7358b0af338b3c2a5f67",
+          "bytes": 137
+        },
+        {
+          "role": "replica",
+          "view": "KPI - Margin",
+          "view_id": "b5a18f55-e0cc-475c-8213-b99ef9d9f889",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {
+            "Selected Measure": "SALES"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-kpi---margin-sales.csv",
+          "sha256": "d8a37d92f63e74d262569cc9e53ab25c53175bb07d8318ac9f12e3bb89747dcd",
+          "bytes": 132
+        },
+        {
+          "role": "replica",
+          "view": "KPI - Customer",
+          "view_id": "bc8b54d0-7f5d-4e6e-9501-327461833286",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {
+            "Selected Measure": "SALES"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-kpi---customer-sales.csv",
+          "sha256": "13fb563b560213dfcb98ef94153f69867879a8e4bfdc204e3c010de709982d92",
+          "bytes": 143
+        }
+      ]
+    },
+    {
+      "name": "profit",
+      "parameters": {
+        "Selected Measure": "PROFIT"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "61ad9449-79da-420c-9f03-6ba4c1c510a1",
+          "name": "2020_10_21_WW43_Mobile_KPIs",
+          "path": "outputs/cloud-author-profit.png",
+          "sha256": "08c5685d6647b5cd3652b645fbfcf1c0a0c7874d9fa6f103a78859c78ee46e3e",
+          "size": [
+            800,
+            1200
+          ]
+        },
+        "replica": {
+          "id": "427adba1-8752-4b54-adf2-db90b1f25e15",
+          "name": "2020_10_21_WW43_Mobile_KPIs",
+          "path": "outputs/cloud-replica-profit.png",
+          "sha256": "681ca3e86013b1e405da43767245ea011d9b4d0e468052c1d487121efe002cd3",
+          "size": [
+            800,
+            1200
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Bar - Sales",
+          "view_id": "810d5bdf-810e-44c6-a53d-69ee6d0262ee",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {
+            "Selected Measure": "PROFIT"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-bar---sales-profit.csv",
+          "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+          "bytes": 1
+        },
+        {
+          "role": "author",
+          "view": "Bar - Profit",
+          "view_id": "4fb81a90-d045-4f1a-9218-86b165981ebc",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {
+            "Selected Measure": "PROFIT"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-bar---profit-profit.csv",
+          "sha256": "bb446d14919b063d9838dfbb714b25216259b703f34d4ebbfafc5d7bda651ab6",
+          "bytes": 501
+        },
+        {
+          "role": "author",
+          "view": "Bar - Margin",
+          "view_id": "a7128868-b302-4da8-903b-b923c05391c1",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {
+            "Selected Measure": "PROFIT"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-bar---margin-profit.csv",
+          "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+          "bytes": 1
+        },
+        {
+          "role": "author",
+          "view": "Bar - Customers",
+          "view_id": "ce0f469e-cd7a-4fc2-88d9-18e98ceb70d1",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {
+            "Selected Measure": "PROFIT"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-bar---customers-profit.csv",
+          "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+          "bytes": 1
+        },
+        {
+          "role": "author",
+          "view": "KPI - Sales",
+          "view_id": "8c31c1e9-197a-4deb-a081-5a731410eca8",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {
+            "Selected Measure": "PROFIT"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-kpi---sales-profit.csv",
+          "sha256": "f28faf20d414b522dfb6a810881c670f30915b54f53a16de406b47bbf0be2715",
+          "bytes": 124
+        },
+        {
+          "role": "author",
+          "view": "KPI - Profit",
+          "view_id": "8d365c24-f393-4002-9bac-7086eee15042",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {
+            "Selected Measure": "PROFIT"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-kpi---profit-profit.csv",
+          "sha256": "ca79770c5e217a8850a1854ab3aaabbf3cbd5daad8e44e3a3bcc9cb1cf5ad4fb",
+          "bytes": 115
+        },
+        {
+          "role": "author",
+          "view": "KPI - Margin",
+          "view_id": "274523a2-01a2-4be0-9e44-4a85045f12f0",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {
+            "Selected Measure": "PROFIT"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-kpi---margin-profit.csv",
+          "sha256": "089523057bd3b02b113e3c1d57774fd5c0d402186a6359159fafe08fb5aba542",
+          "bytes": 122
+        },
+        {
+          "role": "author",
+          "view": "KPI - Customer",
+          "view_id": "a174a55b-4c9b-41e5-8781-2c12127c8da2",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {
+            "Selected Measure": "PROFIT"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-kpi---customer-profit.csv",
+          "sha256": "76a26c48e55fdfd3a1daf0dab2524015a6c6c32207d93e81b9c7845f380d6d71",
+          "bytes": 133
+        },
+        {
+          "role": "replica",
+          "view": "Bar - Sales",
+          "view_id": "0f3945d3-e3c0-407b-a6ab-c85be1f35089",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {
+            "Selected Measure": "PROFIT"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-bar---sales-profit.csv",
+          "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+          "bytes": 1
+        },
+        {
+          "role": "replica",
+          "view": "Bar - Profit",
+          "view_id": "ad705179-b54d-4032-b5dd-036444723f9e",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {
+            "Selected Measure": "PROFIT"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-bar---profit-profit.csv",
+          "sha256": "deecf226033ff5f0027998a3a604332bad91118c4215676e6d64608670a00d7a",
+          "bytes": 395
+        },
+        {
+          "role": "replica",
+          "view": "Bar - Margin",
+          "view_id": "773cf316-737c-41b4-adcb-7ed17f87a2f9",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {
+            "Selected Measure": "PROFIT"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-bar---margin-profit.csv",
+          "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+          "bytes": 1
+        },
+        {
+          "role": "replica",
+          "view": "Bar - Customers",
+          "view_id": "d873ecdd-a3ce-4e6a-ad6d-42d1dcc2c991",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {
+            "Selected Measure": "PROFIT"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-bar---customers-profit.csv",
+          "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+          "bytes": 1
+        },
+        {
+          "role": "replica",
+          "view": "KPI - Sales",
+          "view_id": "1b3f8458-857e-4ab8-ba77-abd585f5a619",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {
+            "Selected Measure": "PROFIT"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-kpi---sales-profit.csv",
+          "sha256": "3f472f1d1275f7920bc1a8e8c702b374a2d7f57bccf36426f24d0b13c8b920a5",
+          "bytes": 134
+        },
+        {
+          "role": "replica",
+          "view": "KPI - Profit",
+          "view_id": "09c1bc3f-acd9-48eb-aceb-2aff9c78bcb5",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {
+            "Selected Measure": "PROFIT"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-kpi---profit-profit.csv",
+          "sha256": "a41433bef060c4fcfe4b53f8bde20beae5000c41309cfcb09d76ed491776abde",
+          "bytes": 125
+        },
+        {
+          "role": "replica",
+          "view": "KPI - Margin",
+          "view_id": "b5a18f55-e0cc-475c-8213-b99ef9d9f889",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {
+            "Selected Measure": "PROFIT"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-kpi---margin-profit.csv",
+          "sha256": "ab9a8586a44345f449d5e227ef88204288967d0e2a603e2cc3fbb4ae477837d8",
+          "bytes": 132
+        },
+        {
+          "role": "replica",
+          "view": "KPI - Customer",
+          "view_id": "bc8b54d0-7f5d-4e6e-9501-327461833286",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {
+            "Selected Measure": "PROFIT"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-kpi---customer-profit.csv",
+          "sha256": "8b4fe41069f4fd99d01a358b074f6beac6b7461800ac4b1f7b557630427cd2e2",
+          "bytes": 143
+        }
+      ]
+    },
+    {
+      "name": "margin",
+      "parameters": {
+        "Selected Measure": "MARGIN"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "61ad9449-79da-420c-9f03-6ba4c1c510a1",
+          "name": "2020_10_21_WW43_Mobile_KPIs",
+          "path": "outputs/cloud-author-margin.png",
+          "sha256": "d5c7017cc056cd7a016020856412fea098ac5373679ee50b2f9234fd766ef389",
+          "size": [
+            800,
+            1200
+          ]
+        },
+        "replica": {
+          "id": "427adba1-8752-4b54-adf2-db90b1f25e15",
+          "name": "2020_10_21_WW43_Mobile_KPIs",
+          "path": "outputs/cloud-replica-margin.png",
+          "sha256": "f5dc9a3845531183f0b2c666af83ac38557eff9ba69eecda30e741549f5f0586",
+          "size": [
+            800,
+            1200
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Bar - Sales",
+          "view_id": "810d5bdf-810e-44c6-a53d-69ee6d0262ee",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {
+            "Selected Measure": "MARGIN"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-bar---sales-margin.csv",
+          "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+          "bytes": 1
+        },
+        {
+          "role": "author",
+          "view": "Bar - Profit",
+          "view_id": "4fb81a90-d045-4f1a-9218-86b165981ebc",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {
+            "Selected Measure": "MARGIN"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-bar---profit-margin.csv",
+          "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+          "bytes": 1
+        },
+        {
+          "role": "author",
+          "view": "Bar - Margin",
+          "view_id": "a7128868-b302-4da8-903b-b923c05391c1",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {
+            "Selected Measure": "MARGIN"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-bar---margin-margin.csv",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        {
+          "role": "author",
+          "view": "Bar - Customers",
+          "view_id": "ce0f469e-cd7a-4fc2-88d9-18e98ceb70d1",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {
+            "Selected Measure": "MARGIN"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-bar---customers-margin.csv",
+          "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+          "bytes": 1
+        },
+        {
+          "role": "author",
+          "view": "KPI - Sales",
+          "view_id": "8c31c1e9-197a-4deb-a081-5a731410eca8",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {
+            "Selected Measure": "MARGIN"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-kpi---sales-margin.csv",
+          "sha256": "f6106d739b19b1bfffd9d09f5e1480835ad2341d551ae68962824cf98d48f894",
+          "bytes": 124
+        },
+        {
+          "role": "author",
+          "view": "KPI - Profit",
+          "view_id": "8d365c24-f393-4002-9bac-7086eee15042",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {
+            "Selected Measure": "MARGIN"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-kpi---profit-margin.csv",
+          "sha256": "c6cd80f00677621d96db96e798f98e9023c10dae81e67896ace3f4ad87135db8",
+          "bytes": 127
+        },
+        {
+          "role": "author",
+          "view": "KPI - Margin",
+          "view_id": "274523a2-01a2-4be0-9e44-4a85045f12f0",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {
+            "Selected Measure": "MARGIN"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-kpi---margin-margin.csv",
+          "sha256": "a1ed3578eb8f7055cf5395bad8951aed685fb47f1e3e33ab03477ec4d368105a",
+          "bytes": 110
+        },
+        {
+          "role": "author",
+          "view": "KPI - Customer",
+          "view_id": "a174a55b-4c9b-41e5-8781-2c12127c8da2",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {
+            "Selected Measure": "MARGIN"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-kpi---customer-margin.csv",
+          "sha256": "76a26c48e55fdfd3a1daf0dab2524015a6c6c32207d93e81b9c7845f380d6d71",
+          "bytes": 133
+        },
+        {
+          "role": "replica",
+          "view": "Bar - Sales",
+          "view_id": "0f3945d3-e3c0-407b-a6ab-c85be1f35089",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {
+            "Selected Measure": "MARGIN"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-bar---sales-margin.csv",
+          "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+          "bytes": 1
+        },
+        {
+          "role": "replica",
+          "view": "Bar - Profit",
+          "view_id": "ad705179-b54d-4032-b5dd-036444723f9e",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {
+            "Selected Measure": "MARGIN"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-bar---profit-margin.csv",
+          "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+          "bytes": 1
+        },
+        {
+          "role": "replica",
+          "view": "Bar - Margin",
+          "view_id": "773cf316-737c-41b4-adcb-7ed17f87a2f9",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {
+            "Selected Measure": "MARGIN"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-bar---margin-margin.csv",
+          "sha256": "74e961ffff17b4416dfd844ac262c198105ca7766053bab8d4e9175804641f21",
+          "bytes": 345
+        },
+        {
+          "role": "replica",
+          "view": "Bar - Customers",
+          "view_id": "d873ecdd-a3ce-4e6a-ad6d-42d1dcc2c991",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {
+            "Selected Measure": "MARGIN"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-bar---customers-margin.csv",
+          "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+          "bytes": 1
+        },
+        {
+          "role": "replica",
+          "view": "KPI - Sales",
+          "view_id": "1b3f8458-857e-4ab8-ba77-abd585f5a619",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {
+            "Selected Measure": "MARGIN"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-kpi---sales-margin.csv",
+          "sha256": "3f472f1d1275f7920bc1a8e8c702b374a2d7f57bccf36426f24d0b13c8b920a5",
+          "bytes": 134
+        },
+        {
+          "role": "replica",
+          "view": "KPI - Profit",
+          "view_id": "09c1bc3f-acd9-48eb-aceb-2aff9c78bcb5",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {
+            "Selected Measure": "MARGIN"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-kpi---profit-margin.csv",
+          "sha256": "4acd7f994c1b7ee04040d68d6dcee0716469cf50632878b21fad2d93bdee230e",
+          "bytes": 137
+        },
+        {
+          "role": "replica",
+          "view": "KPI - Margin",
+          "view_id": "b5a18f55-e0cc-475c-8213-b99ef9d9f889",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {
+            "Selected Measure": "MARGIN"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-kpi---margin-margin.csv",
+          "sha256": "437286dd769f90a948db4dac4745e8bea80d2eeb177e374f0e77579fa11da697",
+          "bytes": 120
+        },
+        {
+          "role": "replica",
+          "view": "KPI - Customer",
+          "view_id": "bc8b54d0-7f5d-4e6e-9501-327461833286",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {
+            "Selected Measure": "MARGIN"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-kpi---customer-margin.csv",
+          "sha256": "8b4fe41069f4fd99d01a358b074f6beac6b7461800ac4b1f7b557630427cd2e2",
+          "bytes": 143
+        }
+      ]
+    },
+    {
+      "name": "customers",
+      "parameters": {
+        "Selected Measure": "CUSTOMERS"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "61ad9449-79da-420c-9f03-6ba4c1c510a1",
+          "name": "2020_10_21_WW43_Mobile_KPIs",
+          "path": "outputs/cloud-author-customers.png",
+          "sha256": "2bd3de78605c32584d8995fbb35735f87afb417322fd12e4e195177c962602cf",
+          "size": [
+            800,
+            1200
+          ]
+        },
+        "replica": {
+          "id": "427adba1-8752-4b54-adf2-db90b1f25e15",
+          "name": "2020_10_21_WW43_Mobile_KPIs",
+          "path": "outputs/cloud-replica-customers.png",
+          "sha256": "b6d9c8eee8b7a4a1470f42fe406248e2bc96abf1667964d08977f7e896ad9d57",
+          "size": [
+            800,
+            1200
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Bar - Sales",
+          "view_id": "810d5bdf-810e-44c6-a53d-69ee6d0262ee",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {
+            "Selected Measure": "CUSTOMERS"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-bar---sales-customers.csv",
+          "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+          "bytes": 1
+        },
+        {
+          "role": "author",
+          "view": "Bar - Profit",
+          "view_id": "4fb81a90-d045-4f1a-9218-86b165981ebc",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {
+            "Selected Measure": "CUSTOMERS"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-bar---profit-customers.csv",
+          "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+          "bytes": 1
+        },
+        {
+          "role": "author",
+          "view": "Bar - Margin",
+          "view_id": "a7128868-b302-4da8-903b-b923c05391c1",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {
+            "Selected Measure": "CUSTOMERS"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-bar---margin-customers.csv",
+          "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+          "bytes": 1
+        },
+        {
+          "role": "author",
+          "view": "Bar - Customers",
+          "view_id": "ce0f469e-cd7a-4fc2-88d9-18e98ceb70d1",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {
+            "Selected Measure": "CUSTOMERS"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-bar---customers-customers.csv",
+          "sha256": "f10f4e86a45e572d4eab931009e67f382117d5866292ae9515df1f8bf53746c7",
+          "bytes": 433
+        },
+        {
+          "role": "author",
+          "view": "KPI - Sales",
+          "view_id": "8c31c1e9-197a-4deb-a081-5a731410eca8",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {
+            "Selected Measure": "CUSTOMERS"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-kpi---sales-customers.csv",
+          "sha256": "f6106d739b19b1bfffd9d09f5e1480835ad2341d551ae68962824cf98d48f894",
+          "bytes": 124
+        },
+        {
+          "role": "author",
+          "view": "KPI - Profit",
+          "view_id": "8d365c24-f393-4002-9bac-7086eee15042",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {
+            "Selected Measure": "CUSTOMERS"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-kpi---profit-customers.csv",
+          "sha256": "a8247edead8d5cad4865327c195102eff09a8d0e178b6ff3c4e454c5e13676ce",
+          "bytes": 127
+        },
+        {
+          "role": "author",
+          "view": "KPI - Margin",
+          "view_id": "274523a2-01a2-4be0-9e44-4a85045f12f0",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {
+            "Selected Measure": "CUSTOMERS"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-kpi---margin-customers.csv",
+          "sha256": "7fd37c0ce90c3e0dc63a55cc0fb8379581cf4bb03d562820eeda336c84ca8e3b",
+          "bytes": 122
+        },
+        {
+          "role": "author",
+          "view": "KPI - Customer",
+          "view_id": "a174a55b-4c9b-41e5-8781-2c12127c8da2",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {
+            "Selected Measure": "CUSTOMERS"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-kpi---customer-customers.csv",
+          "sha256": "310a53a6b35abd5ca899837d45a5976410dd5051937f073bed71e4a1a6d8789e",
+          "bytes": 115
+        },
+        {
+          "role": "replica",
+          "view": "Bar - Sales",
+          "view_id": "0f3945d3-e3c0-407b-a6ab-c85be1f35089",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {
+            "Selected Measure": "CUSTOMERS"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-bar---sales-customers.csv",
+          "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+          "bytes": 1
+        },
+        {
+          "role": "replica",
+          "view": "Bar - Profit",
+          "view_id": "ad705179-b54d-4032-b5dd-036444723f9e",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {
+            "Selected Measure": "CUSTOMERS"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-bar---profit-customers.csv",
+          "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+          "bytes": 1
+        },
+        {
+          "role": "replica",
+          "view": "Bar - Margin",
+          "view_id": "773cf316-737c-41b4-adcb-7ed17f87a2f9",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {
+            "Selected Measure": "CUSTOMERS"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-bar---margin-customers.csv",
+          "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+          "bytes": 1
+        },
+        {
+          "role": "replica",
+          "view": "Bar - Customers",
+          "view_id": "d873ecdd-a3ce-4e6a-ad6d-42d1dcc2c991",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {
+            "Selected Measure": "CUSTOMERS"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-bar---customers-customers.csv",
+          "sha256": "8a94e9ebdafc5536af123669bef3210d3e0c3ef0b4937ec3a8103d5611d28499",
+          "bytes": 327
+        },
+        {
+          "role": "replica",
+          "view": "KPI - Sales",
+          "view_id": "1b3f8458-857e-4ab8-ba77-abd585f5a619",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {
+            "Selected Measure": "CUSTOMERS"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-kpi---sales-customers.csv",
+          "sha256": "3f472f1d1275f7920bc1a8e8c702b374a2d7f57bccf36426f24d0b13c8b920a5",
+          "bytes": 134
+        },
+        {
+          "role": "replica",
+          "view": "KPI - Profit",
+          "view_id": "09c1bc3f-acd9-48eb-aceb-2aff9c78bcb5",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {
+            "Selected Measure": "CUSTOMERS"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-kpi---profit-customers.csv",
+          "sha256": "4acd7f994c1b7ee04040d68d6dcee0716469cf50632878b21fad2d93bdee230e",
+          "bytes": 137
+        },
+        {
+          "role": "replica",
+          "view": "KPI - Margin",
+          "view_id": "b5a18f55-e0cc-475c-8213-b99ef9d9f889",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {
+            "Selected Measure": "CUSTOMERS"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-kpi---margin-customers.csv",
+          "sha256": "d8a37d92f63e74d262569cc9e53ab25c53175bb07d8318ac9f12e3bb89747dcd",
+          "bytes": 132
+        },
+        {
+          "role": "replica",
+          "view": "KPI - Customer",
+          "view_id": "bc8b54d0-7f5d-4e6e-9501-327461833286",
+          "scope": "Complete business worksheet outputs. Intentionally inactive KPI monthly chart exports may be empty; active monthly charts must cover all 12 months.",
+          "parameters": {
+            "Selected Measure": "CUSTOMERS"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-kpi---customer-customers.csv",
+          "sha256": "f4f7a9ef42484cef2dd4c1f3153530649b0f75cfdbc3f2c8612a4983e68c6801",
+          "bytes": 125
+        }
+      ]
+    }
+  ],
+  "status": "verified",
+  "independent_review": {
+    "visual_status": "acceptable_delta",
+    "visual_evidence": "evidence/visual-review.md",
+    "functional_evidence": "evidence/functional-verification.json",
+    "scope": "Declared REST worksheet exports and artifact contracts; no browser events executed."
+  }
+}

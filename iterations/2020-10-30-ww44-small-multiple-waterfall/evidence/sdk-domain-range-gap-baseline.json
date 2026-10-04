@@ -1,0 +1,10 @@
+{
+  "schema_version": "1.0.0",
+  "result": "blocked",
+  "sdk_version": "0.27.1",
+  "sdk_commit": "eb1380d5da9c1b1bf1b306128cb8397150ba1a53",
+  "scope": "Public empty-workbook build; native domain completion fails before saving, no Cloud acceptance.",
+  "error": "ValueError: Field '[Order Date]' must be present in the worksheet view.",
+  "cause": "Released domain-range API only accepts an exact-date column instance even if the date field is used in discrete datepart shelves.",
+  "source_contract": "Chart uses Year/Quarter/Month/Day datepart instances and show-full-range column=[datasource].[Order Date]."
+}

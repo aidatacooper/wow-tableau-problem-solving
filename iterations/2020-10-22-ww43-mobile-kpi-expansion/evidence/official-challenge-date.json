@@ -1,0 +1,17 @@
+{
+  "challenge_year": 2020,
+  "challenge_week": 43,
+  "article_date": "2020-10-22",
+  "challenge_date": "2020-10-20",
+  "official_rest_url": "https://www.workout-wednesday.com/wp-json/wp/v2/posts/4039",
+  "response_excerpt": {
+    "id": 4039,
+    "date": "2020-10-20T12:00:00",
+    "slug": "2020-week-43-mobile-dashboard-challenge",
+    "link": "https://www.workout-wednesday.com/2020-week-43-mobile-dashboard-challenge/",
+    "title": {
+      "rendered": "2020 Week 43: Mobile Dashboard Challenge"
+    }
+  },
+  "scope": "Retained excerpt of the official WordPress REST response used to establish challenge_date; article_date independently identifies the article folder."
+}

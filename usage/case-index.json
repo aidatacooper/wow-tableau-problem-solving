@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "generated_from": "iterations/*/case.yaml",
-  "active_case_count": 69,
+  "active_case_count": 74,
   "legacy_case_ids": {
     "donna-2019-07-18-63877b35d19a": "wow-2019-ww29-high-orders",
     "donna-2019-07-25-59a0a144b25b": "wow-2019-ww30-navigation-kpi",
@@ -4070,6 +4070,315 @@
         "Generated index views must be refreshed after the workbook is built and verified."
       ],
       "metadata": "iterations/2020-10-09-ww41-per-dimension-reference-lines/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.27.1"
+    },
+    {
+      "case_id": "wow-2020-ww42-strava-workout-calendar",
+      "legacy_case_ids": {},
+      "iteration_id": "2020-10-16-ww42-strava-workout-calendar",
+      "article_date": "2020-10-16",
+      "challenge_year": 2020,
+      "challenge_week": 42,
+      "challenge_date": "2020-10-13",
+      "date_evidence": {
+        "article_date": "Article HTML article:published_time agrees with archived manifest date.",
+        "challenge": "Explicit challenge_year; week declared in iteration_id",
+        "challenge_date": "Official WordPress REST date field; retained in evidence/official-challenge-date.json."
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2020w42/"
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2020/10/16/can-you-build-a-strava-workout-calendar/",
+          "path": null,
+          "sha256": "4a7c319756d6193fc4dc08d935fd20b24df0776daa6d95e39670647290883033"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/workbooks/2020_10_14_WW42_Strava_Dashboard.twb",
+          "filename": "author.twbx",
+          "sha256": "e4de7f59e8d9f71e457596ea9f24e0dcd66dc264da01b70ac0d5b8bf76707651"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "pass",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "evidence/build-provenance.json",
+        "evidence/calendar-runtime-diagnosis.json",
+        "evidence/cloud-verification.json",
+        "evidence/export-provenance.json",
+        "evidence/functional-verification.json",
+        "evidence/official-challenge-date.json",
+        "evidence/sdk-baseline.json",
+        "evidence/sdk-final-validation.json",
+        "evidence/sdk-gap-instance-references-baseline.json",
+        "evidence/sdk-gap-rich-label-baseline.json",
+        "evidence/sdk-table-calc-reference-baseline.json",
+        "evidence/sdk-year-filter-gap.json",
+        "evidence/visual-review.md",
+        "evidence/zero-build-verification.json",
+        "inputs/source-lock.json"
+      ],
+      "notes": [
+        "Generated index views must be refreshed after the workbook is built and verified."
+      ],
+      "metadata": "iterations/2020-10-16-ww42-strava-workout-calendar/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.27.1"
+    },
+    {
+      "case_id": "wow-2020-ww43-mobile-kpi-expansion",
+      "legacy_case_ids": {},
+      "iteration_id": "2020-10-22-ww43-mobile-kpi-expansion",
+      "article_date": "2020-10-22",
+      "challenge_year": 2020,
+      "challenge_week": 43,
+      "challenge_date": "2020-10-20",
+      "date_evidence": {
+        "article_date": "Article HTML article:published_time agrees with archived manifest date.",
+        "challenge": "Explicit challenge_year; week declared in iteration_id",
+        "challenge_date": "Official WordPress REST date field; retained in evidence/official-challenge-date.json."
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2020-week-43-mobile-dashboard-challenge/"
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2020/10/22/designing-kpis-for-mobile/",
+          "path": null,
+          "sha256": "b014d92004d812fba1a4901e81f72799358b4eef13a3903f5745169f138f5fda"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/workbooks/2020_10_21_WW43_Mobile_KPIs.twb",
+          "filename": "author.twbx",
+          "sha256": "e1cef00221580818ec0479dc6fac08f08b71525bc4671bc6e99bad041e1ccdf3"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "pass",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "evidence/cloud-verification.json",
+        "evidence/export-provenance.json",
+        "evidence/functional-verification.json",
+        "evidence/official-challenge-date.json",
+        "evidence/sdk-baseline.json",
+        "evidence/sdk-final-validation.json",
+        "evidence/sdk-validation-682f45db.json",
+        "evidence/visual-review.md",
+        "evidence/zero-build-verification.json",
+        "inputs/source-lock.json"
+      ],
+      "notes": [
+        "Generated index views must be refreshed after the workbook is built and verified."
+      ],
+      "metadata": "iterations/2020-10-22-ww43-mobile-kpi-expansion/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.27.1"
+    },
+    {
+      "case_id": "wow-2020-ww44-small-multiple-waterfall",
+      "legacy_case_ids": {},
+      "iteration_id": "2020-10-30-ww44-small-multiple-waterfall",
+      "article_date": "2020-10-30",
+      "challenge_year": 2020,
+      "challenge_week": 44,
+      "challenge_date": "2020-10-27",
+      "date_evidence": {
+        "article_date": "Archived article 2020-10-30 URL and scratch/ww44-analysis/article.html",
+        "challenge": "Official WordPress post4048 title explicitly2020 Week44",
+        "challenge_date": "Official WordPress REST date field; retained in evidence/official-challenge-date.json."
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2020w44/"
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2020/10/30/can-you-create-a-small-multiple-waterfall-chart/",
+          "path": null,
+          "sha256": "703ae3d78e08096be4e6f6a52763ae3052577468bcc4e3a703cca0a52d8742bb"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/workbooks/2020_10_28_WW44_Waterfall_Small_Multiple.twb",
+          "filename": "author.twbx",
+          "sha256": "f2456619113d27299519c9ae5bcbfb85227d6f8e60713d85739362ea14fe4153"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "pass",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "evidence/cloud-data-comparison.json",
+        "evidence/cloud-verification.json",
+        "evidence/export-provenance.json",
+        "evidence/functional-verification.json",
+        "evidence/official-challenge-date.json",
+        "evidence/sdk-candidate.json",
+        "evidence/sdk-domain-range-gap-baseline.json",
+        "evidence/sdk-final-validation.json",
+        "evidence/sdk-gap-discrete_date_truncation-baseline.json",
+        "evidence/sdk-validation-682f45db.json",
+        "evidence/visual-review.md",
+        "evidence/zero-build-verification.json",
+        "inputs/source-lock.json"
+      ],
+      "notes": [
+        "Original has no parameters or dashboard actions. Phone automatic layout is artifact-only; no mobile browser render is claimed."
+      ],
+      "metadata": "iterations/2020-10-30-ww44-small-multiple-waterfall/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.27.1"
+    },
+    {
+      "case_id": "wow-2020-ww45-state-top10-products",
+      "legacy_case_ids": {},
+      "iteration_id": "2020-11-06-ww45-state-top10-products",
+      "article_date": "2020-11-06",
+      "challenge_year": 2020,
+      "challenge_week": 45,
+      "challenge_date": "2020-11-03",
+      "date_evidence": {
+        "article_date": "Article URL publication calendar date, matching original article metadata.",
+        "challenge": "Explicit challenge_year; week declared in iteration_id",
+        "challenge_date": "Official WordPress REST date field; retained in evidence/official-challenge-date.json."
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2020w45/"
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2020/11/06/can-you-show-the-top-10-products-for-each-state/",
+          "path": null,
+          "sha256": "f557524f0e7450bce332b4add5fc4dcc17155e702b29ce9a84905e71c3fcb3a7"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/profile/donna.coles#!/vizhome/2020_11_04_WW45_Top10Products_Map/2020_11_04_WW45_Top10Products_Map",
+          "filename": "author.twbx",
+          "sha256": "1371fb5db204bfba4e0f0d358aca9b906a0e91f19549d7f8937445dd209f2b96"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "pass",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "evidence/cloud-verification.json",
+        "evidence/export-provenance.json",
+        "evidence/functional-verification.json",
+        "evidence/initial-cloud-review.json",
+        "evidence/official-challenge-date.json",
+        "evidence/refinement-f0c3-layout-refinement.json",
+        "evidence/sdk-final-validation.json",
+        "evidence/sdk-gap-baseline.json",
+        "evidence/sdk-gap-tooltip_target_dependencies-baseline.json",
+        "evidence/sdk-validation-682f45db.json",
+        "evidence/tooltip-parent-capture.json",
+        "evidence/tooltip-worksheet-images.json",
+        "evidence/visual-review.md",
+        "evidence/vit-target-gap-baseline.json",
+        "evidence/zero-build-verification.json",
+        "inputs/source-lock.json"
+      ],
+      "notes": [
+        "Cloud REST state exports plus native artifact contracts; no browser click or hover execution."
+      ],
+      "metadata": "iterations/2020-11-06-ww45-state-top10-products/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.27.1"
+    },
+    {
+      "case_id": "wow-2020-ww46-premier-league-table",
+      "legacy_case_ids": {},
+      "iteration_id": "2020-11-13-ww46-premier-league-table",
+      "article_date": "2020-11-13",
+      "challenge_year": 2020,
+      "challenge_week": 46,
+      "challenge_date": "2020-11-10",
+      "date_evidence": {
+        "article_date": "Article URL publication calendar date, matching original article metadata.",
+        "challenge": "Explicit challenge_year; week declared in iteration_id",
+        "challenge_date": "Official WordPress REST date field; retained in evidence/official-challenge-date.json."
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2020w46/"
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2020/11/13/can-you-build-a-premier-league-table/",
+          "path": null,
+          "sha256": "7dbd2b233bfb5715bb285463e0f224744a871ace818e85b4f57f0bdb2c14d693"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/profile/donna.coles#!/vizhome/2020_11_11_WW46_PremierLeagueTable/2020_11_11_WW46_Premier_League_Table",
+          "filename": "author.twbx",
+          "sha256": "8aed879225c794a1d3fd6a1b37189c3075652cfade97021c9adea6199389b858"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "pass",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "evidence/build-provenance.json",
+        "evidence/cloud-verification.json",
+        "evidence/export-provenance.json",
+        "evidence/functional-verification.json",
+        "evidence/initial-cloud-review.json",
+        "evidence/official-challenge-date.json",
+        "evidence/raw-data-baseline.json",
+        "evidence/refinement-1a8-circle-labels.json",
+        "evidence/refinement-4c4-month-grain-failure.json",
+        "evidence/sdk-final-validation.json",
+        "evidence/sdk-gap-baseline.json",
+        "evidence/sdk-validation-682f45db.json",
+        "evidence/visual-review.md",
+        "evidence/zero-build-verification.json",
+        "inputs/source-lock.json"
+      ],
+      "notes": [
+        "Cloud REST state exports plus native artifact contracts; no browser click or hover execution."
+      ],
+      "metadata": "iterations/2020-11-13-ww46-premier-league-table/case.yaml",
       "metadata_contract": "1.1.0",
       "tested_sdk_version": "0.27.1"
     },

@@ -1,0 +1,20 @@
+{
+  "original_sha256": "e1cef00221580818ec0479dc6fac08f08b71525bc4671bc6e99bad041e1ccdf3",
+  "export_sha256": "e56cac5a906f5e2f2f91361ee38951ed32a4cd37fc95a79bc0806f4e857e99c7",
+  "transformation": "Only remove hidden attributes on worksheet windows; no calculations, data, sheets, dashboards, actions, filters or parameters changed.",
+  "worksheets_exposed": [
+    "Bar - Customers",
+    "Bar - Margin",
+    "Bar - Profit",
+    "Bar - Sales",
+    "KPI - Customer",
+    "KPI - Margin",
+    "KPI - Profit",
+    "KPI - Sales"
+  ],
+  "semantic_xml_equality_after_declared_window_change": true,
+  "all_other_archive_members_unchanged": {
+    "Data/Extracts/federated_07b8coq1x0qr8f1gej4uy1.hyper": "ba9c4a2fbc12d03d54dcdd17d9026b31942cfb023131457ced008ac5d20f6caa"
+  },
+  "browser_events_executed": false
+}

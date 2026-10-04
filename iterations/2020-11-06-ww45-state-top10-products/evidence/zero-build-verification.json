@@ -1,0 +1,9 @@
+{
+  "case_id": "2020-11-06-ww45-state-top10-products",
+  "sdk_commit": "e7fa7cd6770ac3d07af55570a5a7fffd18ad6155",
+  "builder_sha256": "dd7bbfac13a57584c5e698a98c5d9312094d309d5d7296afa9dc0076866af0d0",
+  "builder_hash_scope": "UTF-8 source text with universal newlines normalized to LF",
+  "result": "passed",
+  "initial_workbooks_available": 0,
+  "scope": "Copied only builder/verifier, metadata and locked inputs. Built from TWBEditor empty, then ran independent raw-data/artifact oracle without copied Cloud evidence or author workbooks."
+}

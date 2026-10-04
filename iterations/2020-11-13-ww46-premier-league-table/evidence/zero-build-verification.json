@@ -1,0 +1,9 @@
+{
+  "case_id": "2020-11-13-ww46-premier-league-table",
+  "sdk_commit": "e7fa7cd6770ac3d07af55570a5a7fffd18ad6155",
+  "builder_sha256": "f2d008dd79ac807d8f249eae0f1d3209fbe5c8c2b3ccafdb9e7f5a2bac4cfa06",
+  "builder_hash_scope": "UTF-8 source text with universal newlines normalized to LF",
+  "result": "passed",
+  "initial_workbooks_available": 0,
+  "scope": "Copied only builder/verifier, metadata and locked inputs. Built from TWBEditor empty, then ran independent raw-data/artifact oracle without copied Cloud evidence or author workbooks."
+}

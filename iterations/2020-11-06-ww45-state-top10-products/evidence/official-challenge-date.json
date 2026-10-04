@@ -1,0 +1,17 @@
+{
+  "challenge_year": 2020,
+  "challenge_week": 45,
+  "article_date": "2020-11-06",
+  "challenge_date": "2020-11-03",
+  "official_rest_url": "https://www.workout-wednesday.com/wp-json/wp/v2/posts/4060",
+  "response_excerpt": {
+    "id": 4060,
+    "date": "2020-11-03T18:06:00",
+    "slug": "2020w45",
+    "link": "https://www.workout-wednesday.com/2020w45/",
+    "title": {
+      "rendered": "2020 Week 45: Can you show the top 10 products for each state?"
+    }
+  },
+  "scope": "Retained excerpt of the official WordPress REST response used to establish challenge_date; article_date independently identifies the article folder."
+}

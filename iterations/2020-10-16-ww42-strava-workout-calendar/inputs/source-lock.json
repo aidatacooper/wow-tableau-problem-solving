@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-04",
+  "source_workbook": {
+    "filename": "author.twbx",
+    "bytes": 105391,
+    "sha256": "e4de7f59e8d9f71e457596ea9f24e0dcd66dc264da01b70ac0d5b8bf76707651",
+    "url": "https://public.tableau.com/workbooks/2020_10_14_WW42_Strava_Dashboard.twb"
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/TableauTemp/TEMP_04r3f5b0jg8h101drwlwq0pqgfqk.hyper",
+      "file": "inputs/TEMP_04r3f5b0jg8h101drwlwq0pqgfqk.hyper",
+      "bytes": 262144,
+      "sha256": "0cf6f6d2b8cdcd887868645abe3e20f6d5e9151dbe775bb5b85eb7fd3aedf8c9"
+    },
+    {
+      "archive_path": "Data/TableauTemp/TEMP_1bdxkpy13x6eq915qhj8e16rn32h.hyper",
+      "file": "inputs/TEMP_1bdxkpy13x6eq915qhj8e16rn32h.hyper",
+      "bytes": 131072,
+      "sha256": "499bc2d22b981622ed202fbc3b175d4e937bc872237ad31f7b61121ac903a31d"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

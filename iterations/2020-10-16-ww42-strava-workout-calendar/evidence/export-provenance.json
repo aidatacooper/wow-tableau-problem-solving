@@ -1,0 +1,20 @@
+{
+  "original_sha256": "e4de7f59e8d9f71e457596ea9f24e0dcd66dc264da01b70ac0d5b8bf76707651",
+  "export_sha256": "d57d87e04688c9b52f5d980862eb1a55c377a921477e271d3a5f069575fa97c6",
+  "transformation": "Only remove hidden attributes on worksheet windows; no calculations, data, sheets, dashboards, actions, filters or parameters changed.",
+  "worksheets_exposed": [
+    "BANs",
+    "Calendar",
+    "Weekly Profile"
+  ],
+  "semantic_xml_equality_after_declared_window_change": true,
+  "all_other_archive_members_unchanged": {
+    "Data/TableauTemp/TEMP_04r3f5b0jg8h101drwlwq0pqgfqk.hyper": "0cf6f6d2b8cdcd887868645abe3e20f6d5e9151dbe775bb5b85eb7fd3aedf8c9",
+    "Data/TableauTemp/TEMP_1bdxkpy13x6eq915qhj8e16rn32h.hyper": "499bc2d22b981622ed202fbc3b175d4e937bc872237ad31f7b61121ac903a31d",
+    "TwbxExternalCache/TwbxLQResultsCacheV3/3911600265/.bin": "200b282d7c6928dedcfdeec28757974cfbb7f2225e43be281356e0a426dee3e3",
+    "TwbxExternalCache/TwbxLQResultsCacheV3/3911600265/.key": "9ef9101fb29a4eb902de3f23c3662b6cb904c815ede5af423d6b7411f9e53098",
+    "TwbxExternalCache/TwbxLQTimestampsCacheV3/4159081639/.bin": "f1973468caf4b1169c65291be73dea4c01af67883adc550aa8373d22e09c09cd",
+    "TwbxExternalCache/TwbxLQTimestampsCacheV3/4159081639/.key": "879406d8abcfad82678798d45bbd364e4180bcb15922f6c9191dec83908ee2ff"
+  },
+  "browser_events_executed": false
+}

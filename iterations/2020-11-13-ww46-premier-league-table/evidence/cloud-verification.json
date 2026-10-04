@@ -1,0 +1,497 @@
+{
+  "case_id": "wow-2020-ww46-premier-league-table",
+  "captured_at": "2026-10-04T11:15:16.286655+00:00",
+  "source_hashes": {
+    "author": "2eb9a0e8ad8fe07ba82ba984d80f431d0dacd87039944ce5ea0ea726ef988ef5",
+    "replica": "939c2210723255e049c9727caeca18af831c108d15a7f0ed4fd336e765f393d9"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "18b90aac-87ac-4025-8544-be72fef04f32",
+      "name": "cwtwb-review-wow-2020-ww46-premier-league-table-author-2eb9a0e8ad8f",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2935481",
+      "views": [
+        {
+          "name": "2020_11_11_WW46_Premier_League_Table",
+          "id": "3191d11d-29fb-458d-bdda-fc11dd7b9195"
+        },
+        {
+          "name": "Data",
+          "id": "410a01e9-416e-4559-8dad-c55a0deb6d42"
+        },
+        {
+          "name": "Bar(original)",
+          "id": "eb16211b-a329-4b35-9db9-50f64921d2bc"
+        },
+        {
+          "name": "Bar",
+          "id": "ed4c87ee-2cbe-463a-a9ee-27baf0284243"
+        },
+        {
+          "name": "Chart",
+          "id": "d484f123-72e8-407c-bf40-86c2937e0880"
+        },
+        {
+          "name": "Table",
+          "id": "f54c60a7-d259-41b5-b6df-1ecc33785b97"
+        }
+      ]
+    },
+    "replica": {
+      "id": "24c6d6e5-8fbd-4e6d-a0f1-6d3970a97fb8",
+      "name": "cwtwb-review-wow-2020-ww46-premier-league-table-replica-939c22107232",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2935604",
+      "views": [
+        {
+          "name": "Table",
+          "id": "48a6e917-f0bd-4ffe-b537-be8d232ab169"
+        },
+        {
+          "name": "Bar",
+          "id": "562a046c-94a9-42fd-a90f-428f629af959"
+        },
+        {
+          "name": "Chart",
+          "id": "8d769fce-98e6-4228-ba27-bb195476f14e"
+        },
+        {
+          "name": "2020_11_11_WW46_Premier_League_Table",
+          "id": "74ab6ead-c623-447c-b759-288957aea95d"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "3191d11d-29fb-458d-bdda-fc11dd7b9195",
+          "name": "2020_11_11_WW46_Premier_League_Table",
+          "path": "outputs/cloud-author.png",
+          "sha256": "c1d9abec859554f2a0cdb55f9ffafc650802053d13fd37c8e404fa19ad537a65",
+          "size": [
+            1600,
+            1470
+          ]
+        },
+        "replica": {
+          "id": "74ab6ead-c623-447c-b759-288957aea95d",
+          "name": "2020_11_11_WW46_Premier_League_Table",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "b15169e816044647437751394ba12a266bbfc7c829b7e96bf21d3429ba484ea4",
+          "size": [
+            1600,
+            1470
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Table",
+          "view_id": "f54c60a7-d259-41b5-b6df-1ecc33785b97",
+          "scope": "Complete primary worksheet CSV at requested ordinary filter state; no browser hover or click execution.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-table.csv",
+          "sha256": "a1ae4ac965c616658b273449510955dbbafb43685d977717ed071f5c61bba996",
+          "bytes": 1618
+        },
+        {
+          "role": "author",
+          "view": "Bar",
+          "view_id": "ed4c87ee-2cbe-463a-a9ee-27baf0284243",
+          "scope": "Complete primary worksheet CSV at requested ordinary filter state; no browser hover or click execution.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-bar.csv",
+          "sha256": "ebccceb2744259eff49bd6b676135c5b31a7f1c65d90f7f8f4a59d086f0a9017",
+          "bytes": 1168
+        },
+        {
+          "role": "author",
+          "view": "Chart",
+          "view_id": "d484f123-72e8-407c-bf40-86c2937e0880",
+          "scope": "Complete primary worksheet CSV at requested ordinary filter state; no browser hover or click execution.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-chart.csv",
+          "sha256": "963454b175d68c212ecfacbd8acb9715918f6f2e65c6861314994a9ebeab95e2",
+          "bytes": 4310
+        },
+        {
+          "role": "replica",
+          "view": "Table",
+          "view_id": "48a6e917-f0bd-4ffe-b537-be8d232ab169",
+          "scope": "Complete primary worksheet CSV at requested ordinary filter state; no browser hover or click execution.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-table.csv",
+          "sha256": "a1ae4ac965c616658b273449510955dbbafb43685d977717ed071f5c61bba996",
+          "bytes": 1618
+        },
+        {
+          "role": "replica",
+          "view": "Bar",
+          "view_id": "562a046c-94a9-42fd-a90f-428f629af959",
+          "scope": "Complete primary worksheet CSV at requested ordinary filter state; no browser hover or click execution.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-bar.csv",
+          "sha256": "ebccceb2744259eff49bd6b676135c5b31a7f1c65d90f7f8f4a59d086f0a9017",
+          "bytes": 1168
+        },
+        {
+          "role": "replica",
+          "view": "Chart",
+          "view_id": "8d769fce-98e6-4228-ba27-bb195476f14e",
+          "scope": "Complete primary worksheet CSV at requested ordinary filter state; no browser hover or click execution.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-chart.csv",
+          "sha256": "716354db6cd9b2504fcf2e5c9c043cf9eaec7de1f37bc29e1f64223cf090d93a",
+          "bytes": 4310
+        }
+      ]
+    },
+    {
+      "name": "arsenal",
+      "parameters": {},
+      "filters": {
+        "Team": "Arsenal"
+      },
+      "views": {
+        "author": {
+          "id": "3191d11d-29fb-458d-bdda-fc11dd7b9195",
+          "name": "2020_11_11_WW46_Premier_League_Table",
+          "path": "outputs/cloud-author-arsenal.png",
+          "sha256": "a97a149df982bdd8e109f5700b727cc6621c4c5230c1451ff09876115ac286be",
+          "size": [
+            1600,
+            1470
+          ]
+        },
+        "replica": {
+          "id": "74ab6ead-c623-447c-b759-288957aea95d",
+          "name": "2020_11_11_WW46_Premier_League_Table",
+          "path": "outputs/cloud-replica-arsenal.png",
+          "sha256": "998a82fa1add8be7c8dd5b3790738ecfe977df8f96582e3fd346d9233b350b0d",
+          "size": [
+            1600,
+            1470
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Table",
+          "view_id": "f54c60a7-d259-41b5-b6df-1ecc33785b97",
+          "scope": "Complete primary worksheet CSV at requested ordinary filter state; no browser hover or click execution.",
+          "parameters": {},
+          "filters": {
+            "Team": "Arsenal"
+          },
+          "path": "outputs/cloud-author-table-arsenal.csv",
+          "sha256": "42bd7407d0cf6ecea2bb1addf2a3e3152bf76695c9c626fa6d8b4baed05bf768",
+          "bytes": 106
+        },
+        {
+          "role": "author",
+          "view": "Bar",
+          "view_id": "ed4c87ee-2cbe-463a-a9ee-27baf0284243",
+          "scope": "Complete primary worksheet CSV at requested ordinary filter state; no browser hover or click execution.",
+          "parameters": {},
+          "filters": {
+            "Team": "Arsenal"
+          },
+          "path": "outputs/cloud-author-bar-arsenal.csv",
+          "sha256": "4c5ba1e2b7612ce88eea1511bd11dccf4c5afa3d0972b1171d6b79485efec7ed",
+          "bytes": 81
+        },
+        {
+          "role": "author",
+          "view": "Chart",
+          "view_id": "d484f123-72e8-407c-bf40-86c2937e0880",
+          "scope": "Complete primary worksheet CSV at requested ordinary filter state; no browser hover or click execution.",
+          "parameters": {},
+          "filters": {
+            "Team": "Arsenal"
+          },
+          "path": "outputs/cloud-author-chart-arsenal.csv",
+          "sha256": "36812b16c95a1efabf87e8d5ad4c5a1dfc71fd64d448621677c8a3712a1789e2",
+          "bytes": 313
+        },
+        {
+          "role": "replica",
+          "view": "Table",
+          "view_id": "48a6e917-f0bd-4ffe-b537-be8d232ab169",
+          "scope": "Complete primary worksheet CSV at requested ordinary filter state; no browser hover or click execution.",
+          "parameters": {},
+          "filters": {
+            "Team": "Arsenal"
+          },
+          "path": "outputs/cloud-replica-table-arsenal.csv",
+          "sha256": "42bd7407d0cf6ecea2bb1addf2a3e3152bf76695c9c626fa6d8b4baed05bf768",
+          "bytes": 106
+        },
+        {
+          "role": "replica",
+          "view": "Bar",
+          "view_id": "562a046c-94a9-42fd-a90f-428f629af959",
+          "scope": "Complete primary worksheet CSV at requested ordinary filter state; no browser hover or click execution.",
+          "parameters": {},
+          "filters": {
+            "Team": "Arsenal"
+          },
+          "path": "outputs/cloud-replica-bar-arsenal.csv",
+          "sha256": "953d1623b6821ea9702d71d6d2e66a2a07c3021bc9a872373a1b50e78bc0c9d5",
+          "bytes": 81
+        },
+        {
+          "role": "replica",
+          "view": "Chart",
+          "view_id": "8d769fce-98e6-4228-ba27-bb195476f14e",
+          "scope": "Complete primary worksheet CSV at requested ordinary filter state; no browser hover or click execution.",
+          "parameters": {},
+          "filters": {
+            "Team": "Arsenal"
+          },
+          "path": "outputs/cloud-replica-chart-arsenal.csv",
+          "sha256": "36812b16c95a1efabf87e8d5ad4c5a1dfc71fd64d448621677c8a3712a1789e2",
+          "bytes": 313
+        }
+      ]
+    },
+    {
+      "name": "liverpool",
+      "parameters": {},
+      "filters": {
+        "Team": "Liverpool"
+      },
+      "views": {
+        "author": {
+          "id": "3191d11d-29fb-458d-bdda-fc11dd7b9195",
+          "name": "2020_11_11_WW46_Premier_League_Table",
+          "path": "outputs/cloud-author-liverpool.png",
+          "sha256": "3c9fe793815cad8595b00027925dad5ee126139cde4a29bc87e5eb5ca3263c87",
+          "size": [
+            1600,
+            1470
+          ]
+        },
+        "replica": {
+          "id": "74ab6ead-c623-447c-b759-288957aea95d",
+          "name": "2020_11_11_WW46_Premier_League_Table",
+          "path": "outputs/cloud-replica-liverpool.png",
+          "sha256": "c6e8295f583c9027d6c4a07718337032035bb4c4b81ba99da0dc183f988845db",
+          "size": [
+            1600,
+            1470
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Table",
+          "view_id": "f54c60a7-d259-41b5-b6df-1ecc33785b97",
+          "scope": "Complete primary worksheet CSV at requested ordinary filter state; no browser hover or click execution.",
+          "parameters": {},
+          "filters": {
+            "Team": "Liverpool"
+          },
+          "path": "outputs/cloud-author-table-liverpool.csv",
+          "sha256": "57e5fdd8d8cdec5d4504bf93a999923daec041140946467b442e1960c024e371",
+          "bytes": 114
+        },
+        {
+          "role": "author",
+          "view": "Bar",
+          "view_id": "ed4c87ee-2cbe-463a-a9ee-27baf0284243",
+          "scope": "Complete primary worksheet CSV at requested ordinary filter state; no browser hover or click execution.",
+          "parameters": {},
+          "filters": {
+            "Team": "Liverpool"
+          },
+          "path": "outputs/cloud-author-bar-liverpool.csv",
+          "sha256": "91a96b15d75a3a4b06b17e73c7a7b641f5ddf2ac78c0db15a16d5afbbd498da5",
+          "bytes": 102
+        },
+        {
+          "role": "author",
+          "view": "Chart",
+          "view_id": "d484f123-72e8-407c-bf40-86c2937e0880",
+          "scope": "Complete primary worksheet CSV at requested ordinary filter state; no browser hover or click execution.",
+          "parameters": {},
+          "filters": {
+            "Team": "Liverpool"
+          },
+          "path": "outputs/cloud-author-chart-liverpool.csv",
+          "sha256": "ecb259ec572f03f497110f0ee94e951c156885196b143cfa441ca30255fcd691",
+          "bytes": 320
+        },
+        {
+          "role": "replica",
+          "view": "Table",
+          "view_id": "48a6e917-f0bd-4ffe-b537-be8d232ab169",
+          "scope": "Complete primary worksheet CSV at requested ordinary filter state; no browser hover or click execution.",
+          "parameters": {},
+          "filters": {
+            "Team": "Liverpool"
+          },
+          "path": "outputs/cloud-replica-table-liverpool.csv",
+          "sha256": "57e5fdd8d8cdec5d4504bf93a999923daec041140946467b442e1960c024e371",
+          "bytes": 114
+        },
+        {
+          "role": "replica",
+          "view": "Bar",
+          "view_id": "562a046c-94a9-42fd-a90f-428f629af959",
+          "scope": "Complete primary worksheet CSV at requested ordinary filter state; no browser hover or click execution.",
+          "parameters": {},
+          "filters": {
+            "Team": "Liverpool"
+          },
+          "path": "outputs/cloud-replica-bar-liverpool.csv",
+          "sha256": "91a96b15d75a3a4b06b17e73c7a7b641f5ddf2ac78c0db15a16d5afbbd498da5",
+          "bytes": 102
+        },
+        {
+          "role": "replica",
+          "view": "Chart",
+          "view_id": "8d769fce-98e6-4228-ba27-bb195476f14e",
+          "scope": "Complete primary worksheet CSV at requested ordinary filter state; no browser hover or click execution.",
+          "parameters": {},
+          "filters": {
+            "Team": "Liverpool"
+          },
+          "path": "outputs/cloud-replica-chart-liverpool.csv",
+          "sha256": "ecb259ec572f03f497110f0ee94e951c156885196b143cfa441ca30255fcd691",
+          "bytes": 320
+        }
+      ]
+    },
+    {
+      "name": "chelsea",
+      "parameters": {},
+      "filters": {
+        "Team": "Chelsea"
+      },
+      "views": {
+        "author": {
+          "id": "3191d11d-29fb-458d-bdda-fc11dd7b9195",
+          "name": "2020_11_11_WW46_Premier_League_Table",
+          "path": "outputs/cloud-author-chelsea.png",
+          "sha256": "99f4d4c84789d098df18d7903b06ae0316a2ba02d85416dcc2679a4079bf6b6f",
+          "size": [
+            1600,
+            1470
+          ]
+        },
+        "replica": {
+          "id": "74ab6ead-c623-447c-b759-288957aea95d",
+          "name": "2020_11_11_WW46_Premier_League_Table",
+          "path": "outputs/cloud-replica-chelsea.png",
+          "sha256": "bd36aa4bb2b24ce81c4f68a6d2b7a983dee59cf234ad21018b39b065b90bf9d2",
+          "size": [
+            1600,
+            1470
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Table",
+          "view_id": "f54c60a7-d259-41b5-b6df-1ecc33785b97",
+          "scope": "Complete primary worksheet CSV at requested ordinary filter state; no browser hover or click execution.",
+          "parameters": {},
+          "filters": {
+            "Team": "Chelsea"
+          },
+          "path": "outputs/cloud-author-table-chelsea.csv",
+          "sha256": "79e5a0d3356b3983dde4e640a38d7bbf08289c628561e1856d4d0bffbb5f652a",
+          "bytes": 106
+        },
+        {
+          "role": "author",
+          "view": "Bar",
+          "view_id": "ed4c87ee-2cbe-463a-a9ee-27baf0284243",
+          "scope": "Complete primary worksheet CSV at requested ordinary filter state; no browser hover or click execution.",
+          "parameters": {},
+          "filters": {
+            "Team": "Chelsea"
+          },
+          "path": "outputs/cloud-author-bar-chelsea.csv",
+          "sha256": "9970d24f06502a1acce137447013bb0a34d8c91ec822358dd922a8e11e704645",
+          "bytes": 94
+        },
+        {
+          "role": "author",
+          "view": "Chart",
+          "view_id": "d484f123-72e8-407c-bf40-86c2937e0880",
+          "scope": "Complete primary worksheet CSV at requested ordinary filter state; no browser hover or click execution.",
+          "parameters": {},
+          "filters": {
+            "Team": "Chelsea"
+          },
+          "path": "outputs/cloud-author-chart-chelsea.csv",
+          "sha256": "ee0d15f292a670094fd27d5b5857b295ca407038354bfac6a0fb653a4dc9d9e5",
+          "bytes": 318
+        },
+        {
+          "role": "replica",
+          "view": "Table",
+          "view_id": "48a6e917-f0bd-4ffe-b537-be8d232ab169",
+          "scope": "Complete primary worksheet CSV at requested ordinary filter state; no browser hover or click execution.",
+          "parameters": {},
+          "filters": {
+            "Team": "Chelsea"
+          },
+          "path": "outputs/cloud-replica-table-chelsea.csv",
+          "sha256": "79e5a0d3356b3983dde4e640a38d7bbf08289c628561e1856d4d0bffbb5f652a",
+          "bytes": 106
+        },
+        {
+          "role": "replica",
+          "view": "Bar",
+          "view_id": "562a046c-94a9-42fd-a90f-428f629af959",
+          "scope": "Complete primary worksheet CSV at requested ordinary filter state; no browser hover or click execution.",
+          "parameters": {},
+          "filters": {
+            "Team": "Chelsea"
+          },
+          "path": "outputs/cloud-replica-bar-chelsea.csv",
+          "sha256": "9970d24f06502a1acce137447013bb0a34d8c91ec822358dd922a8e11e704645",
+          "bytes": 94
+        },
+        {
+          "role": "replica",
+          "view": "Chart",
+          "view_id": "8d769fce-98e6-4228-ba27-bb195476f14e",
+          "scope": "Complete primary worksheet CSV at requested ordinary filter state; no browser hover or click execution.",
+          "parameters": {},
+          "filters": {
+            "Team": "Chelsea"
+          },
+          "path": "outputs/cloud-replica-chart-chelsea.csv",
+          "sha256": "ee0d15f292a670094fd27d5b5857b295ca407038354bfac6a0fb653a4dc9d9e5",
+          "bytes": 318
+        }
+      ]
+    }
+  ],
+  "status": "verified",
+  "independent_review": {
+    "visual_status": "acceptable_delta",
+    "visual_evidence": "evidence/visual-review.md",
+    "functional_evidence": "evidence/functional-verification.json",
+    "scope": "Declared REST worksheet exports and artifact contracts; no browser events executed."
+  }
+}

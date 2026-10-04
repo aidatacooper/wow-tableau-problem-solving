@@ -1,0 +1,7 @@
+{
+  "workbook_sha256": "4c4dd5f7833785d2ec566d424716bba9ade4f607f2d1d404d2a51a3222433016",
+  "failure": "Chart detail defaulted to Month(Date) instead of exact fixture dates; Chart CSV remained empty while Table and stacked Bar repaired",
+  "result": "blocked",
+  "scope": "Case public API usage and layout refinement; does not assert a new SDK gap",
+  "archive": "scratch/ww46-analysis/4c4-month-grain-failure"
+}

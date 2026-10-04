@@ -1,0 +1,9 @@
+{
+  "result": "pass",
+  "version": "0.27.1",
+  "commit": null,
+  "source_state": "Editable local SDK working tree with coordinated native domain-range and discrete date-truncation fixes; not yet an immutable Git revision.",
+  "scope": "Case builder plus direct raw/native verifier only; no Cloud data or visual acceptance yet.",
+  "sdk_regression": "11 focused domain-range tests passed; coordinator reported24 related discrete-date tests passed. Full final SDK suite and immutable pin coordinated separately.",
+  "artifact_sha256": "628bdc0e96b2c9fb30d8105b4d43103d48404e6539861777feb6c55c73ec27cf"
+}
