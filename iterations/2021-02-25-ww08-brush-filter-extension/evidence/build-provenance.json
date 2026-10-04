@@ -13,5 +13,6 @@
   "builder_sha256": "69af20b3a8889168e31ff8e9be757f081fbb516b1e13fab63a328140dc79ca9c",
   "empty_workbook_constructor": "TWBEditor(\"\")",
   "source_workbook_used_by_builder": false,
-  "public_sdk_only": true
+  "public_sdk_only": true,
+  "builder_hash_scope": "UTF-8 source text with universal newlines normalized to LF"
 }

@@ -261,9 +261,15 @@ def verify():
     proof_path = HERE / "evidence/build-provenance.json"
     if proof_path.exists() and (HERE / "evidence/cloud-verification.json").exists():
         proof = json.loads(proof_path.read_text())
-        assert proof["artifact_sha256"] == digest(path) and proof[
-            "builder_sha256"
-        ] == digest(HERE / "build_replication.py")
+        assert (
+            proof["artifact_sha256"] == digest(path)
+            and proof["builder_sha256"]
+            == hashlib.sha256(
+                (HERE / "build_replication.py")
+                .read_text(encoding="utf-8")
+                .encode("utf-8")
+            ).hexdigest()
+        )
         assert (
             proof["source_workbook_used_by_builder"] is False
             and proof["public_sdk_only"] is True
