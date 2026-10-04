@@ -1,0 +1,5 @@
+{
+  "source_sha256": "2599b94a33183c0ea6c7f87dc7c75cfb35cce634574a357e95c1ec91792616e7",
+  "export_sha256": "001a83b23185351e3197efe3c1bc872128f72e5b40d7682e1001ba5f4599e821",
+  "change": "Only removed hidden attribute from worksheet windows to expose by Borough for REST CSV. No source calculations, data, extension or dashboard changed."
+}

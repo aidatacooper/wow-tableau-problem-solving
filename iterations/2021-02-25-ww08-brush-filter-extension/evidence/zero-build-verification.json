@@ -1,0 +1,9 @@
+{
+  "case_id": "wow-2021-ww08-brush-filter-extension",
+  "sdk_commit": "e076cd03021f39a95b23646f45f7f912733be69c",
+  "builder_sha256": "69af20b3a8889168e31ff8e9be757f081fbb516b1e13fab63a328140dc79ca9c",
+  "builder_hash_scope": "UTF-8 source text with universal newlines normalized to LF",
+  "result": "passed",
+  "initial_workbooks_available": 0,
+  "scope": "Copied only builder/verifier, metadata and locked inputs. Built from TWBEditor empty, then ran independent raw-data/artifact oracle without copied Cloud evidence or author workbooks."
+}

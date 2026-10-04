@@ -1,0 +1,132 @@
+{
+  "case_id": "wow-2021-ww04-map-layers",
+  "captured_at": "2026-10-04T16:44:42.519097+00:00",
+  "source_hashes": {
+    "author": "2b363287b0eca56ec7ce4be1360a4e5b49d0320100b2f83b680079c1cd170519",
+    "replica": "9e27bf95043518018f7d85db9c2fff3d6854cc94074f34b912f1381bc1fafef7"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "f3048a05-2655-4573-8824-8107bedbf4a8",
+      "name": "cwtwb-review-wow-2021-ww04-map-layers-author-2b363287b0ec",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2936953",
+      "views": [
+        {
+          "name": "2021_01_27_WW04_Map_Layers",
+          "id": "1eeefceb-3b4c-4563-a3fd-de8fe76db19e"
+        },
+        {
+          "name": "Bar",
+          "id": "af065981-70e7-42e1-9465-c428e92fe5c7"
+        },
+        {
+          "name": "Map",
+          "id": "946aaccf-7dbf-4414-94ed-d736d97d9b11"
+        }
+      ]
+    },
+    "replica": {
+      "id": "226b28b1-2889-4fcf-abc8-4ce5f54e03c8",
+      "name": "cwtwb-review-wow-2021-ww04-map-layers-replica-9e27bf950435",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2937041",
+      "views": [
+        {
+          "name": "Map",
+          "id": "fa9fda81-60bd-4f06-8c28-280302b2f91b"
+        },
+        {
+          "name": "Bar",
+          "id": "bae6fdbc-1bfb-4fa9-9b83-65e07dfe7d0b"
+        },
+        {
+          "name": "2021_01_27_WW04_Map_Layers",
+          "id": "df2266b9-7130-40f0-8335-3d14e59eb52c"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "1eeefceb-3b4c-4563-a3fd-de8fe76db19e",
+          "name": "2021_01_27_WW04_Map_Layers",
+          "path": "outputs/cloud-author.png",
+          "sha256": "00ba2c6c69190b2c58ff5b2ce728d143111aee8f7578eed7e4c90adfe35cbd20",
+          "size": [
+            2732,
+            1536
+          ]
+        },
+        "replica": {
+          "id": "df2266b9-7130-40f0-8335-3d14e59eb52c",
+          "name": "2021_01_27_WW04_Map_Layers",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "5684b9c6f84f62a2fb5bb4164dfa4fc9585a15c99edf8a4b6c10f5e2d904c6d6",
+          "size": [
+            2732,
+            1536
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Map",
+          "view_id": "946aaccf-7dbf-4414-94ed-d736d97d9b11",
+          "scope": "All state polygons and city-state circle marks; native multi-layer exports, not button data.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-map.csv",
+          "sha256": "b23014e5f6af8279b4185555fbb6f4c6b65cfd5dbb38364d6894947a05a649fa",
+          "bytes": 36031
+        },
+        {
+          "role": "author",
+          "view": "Bar",
+          "view_id": "af065981-70e7-42e1-9465-c428e92fe5c7",
+          "scope": "Complete city-state profit bars including tooltip signed values and hover-highlight contract.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-bar.csv",
+          "sha256": "15d636cd89da1c37dab04cd3fe9039bcfc42a067a8018803c82001ea4fa7bd29",
+          "bytes": 27857
+        },
+        {
+          "role": "replica",
+          "view": "Map",
+          "view_id": "fa9fda81-60bd-4f06-8c28-280302b2f91b",
+          "scope": "All state polygons and city-state circle marks; native multi-layer exports, not button data.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-map.csv",
+          "sha256": "b47dd420257f0e7a5aaa6e27f4900fde27ba624d384e17e2f7fa76fbb0d273b7",
+          "bytes": 36031
+        },
+        {
+          "role": "replica",
+          "view": "Bar",
+          "view_id": "bae6fdbc-1bfb-4fa9-9b83-65e07dfe7d0b",
+          "scope": "Complete city-state profit bars including tooltip signed values and hover-highlight contract.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-bar.csv",
+          "sha256": "f1995b3ce011c3e82a30fe94aa946e03ecb5c01ef110a52be6a58557fe29d924",
+          "bytes": 33933
+        }
+      ]
+    }
+  ],
+  "status": "verified",
+  "independent_review": {
+    "visual_status": "acceptable_delta",
+    "visual_evidence": "evidence/visual-review.md",
+    "functional_evidence": "evidence/functional-verification.json",
+    "scope": "Declared REST worksheet exports and artifact contracts; no browser events executed."
+  }
+}

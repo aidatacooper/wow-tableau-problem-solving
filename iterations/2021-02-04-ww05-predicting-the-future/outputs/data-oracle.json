@@ -1,0 +1,197 @@
+{
+  "training_rows": 26,
+  "training_years": [
+    1993,
+    1994,
+    1995,
+    1996,
+    1997,
+    1998,
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018
+  ],
+  "prediction_years": [
+    1993,
+    1994,
+    1995,
+    1996,
+    1997,
+    1998,
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+  ],
+  "values": {
+    "1993": {
+      "Total Enrollment": 282856,
+      "% Black Students": 0.8173699691715927,
+      "% Non-Black Students": 0.18263003082840734
+    },
+    "1994": {
+      "Total Enrollment": 280071,
+      "% Black Students": 0.821798758172035,
+      "% Non-Black Students": 0.17820124182796504
+    },
+    "1995": {
+      "Total Enrollment": 278725,
+      "% Black Students": 0.8230980356982689,
+      "% Non-Black Students": 0.1769019643017311
+    },
+    "1996": {
+      "Total Enrollment": 273018,
+      "% Black Students": 0.8211949395277967,
+      "% Non-Black Students": 0.17880506047220335
+    },
+    "1997": {
+      "Total Enrollment": 269167,
+      "% Black Students": 0.8259965003139315,
+      "% Non-Black Students": 0.17400349968606854
+    },
+    "1998": {
+      "Total Enrollment": 273472,
+      "% Black Students": 0.8181641996255559,
+      "% Non-Black Students": 0.18183580037444413
+    },
+    "1999": {
+      "Total Enrollment": 274321,
+      "% Black Students": 0.8260104038699189,
+      "% Non-Black Students": 0.17398959613008114
+    },
+    "2000": {
+      "Total Enrollment": 275680,
+      "% Black Students": 0.8242854033662217,
+      "% Non-Black Students": 0.1757145966337783
+    },
+    "2001": {
+      "Total Enrollment": 289985,
+      "% Black Students": 0.8229322206321017,
+      "% Non-Black Students": 0.1770677793678983
+    },
+    "2002": {
+      "Total Enrollment": 299041,
+      "% Black Students": 0.8269501506482388,
+      "% Non-Black Students": 0.17304984935176115
+    },
+    "2003": {
+      "Total Enrollment": 306727,
+      "% Black Students": 0.8256756007785425,
+      "% Non-Black Students": 0.17432439922145748
+    },
+    "2004": {
+      "Total Enrollment": 308939,
+      "% Black Students": 0.8336435348078424,
+      "% Non-Black Students": 0.16635646519215763
+    },
+    "2005": {
+      "Total Enrollment": 311768,
+      "% Black Students": 0.822996587205871,
+      "% Non-Black Students": 0.177003412794129
+    },
+    "2006": {
+      "Total Enrollment": 308774,
+      "% Black Students": 0.8263130963099224,
+      "% Non-Black Students": 0.17368690369007755
+    },
+    "2007": {
+      "Total Enrollment": 306742,
+      "% Black Students": 0.8255830632909742,
+      "% Non-Black Students": 0.1744169367090258
+    },
+    "2008": {
+      "Total Enrollment": 313491,
+      "% Black Students": 0.8242724671521671,
+      "% Non-Black Students": 0.17572753284783293
+    },
+    "2009": {
+      "Total Enrollment": 322860,
+      "% Black Students": 0.8179768320634331,
+      "% Non-Black Students": 0.18202316793656692
+    },
+    "2010": {
+      "Total Enrollment": 326614,
+      "% Black Students": 0.8141353401874997,
+      "% Non-Black Students": 0.18586465981250033
+    },
+    "2011": {
+      "Total Enrollment": 323648,
+      "% Black Students": 0.8139552847538066,
+      "% Non-Black Students": 0.18604471524619337
+    },
+    "2012": {
+      "Total Enrollment": 312438,
+      "% Black Students": 0.8050461211504363,
+      "% Non-Black Students": 0.19495387884956372
+    },
+    "2013": {
+      "Total Enrollment": 303191,
+      "% Black Students": 0.7964781276489078,
+      "% Non-Black Students": 0.2035218723510922
+    },
+    "2014": {
+      "Total Enrollment": 294316,
+      "% Black Students": 0.7878912461436007,
+      "% Non-Black Students": 0.21210875385639927
+    },
+    "2015": {
+      "Total Enrollment": 293304,
+      "% Black Students": 0.7775618470938003,
+      "% Non-Black Students": 0.22243815290619973
+    },
+    "2016": {
+      "Total Enrollment": 292083,
+      "% Black Students": 0.7652345394973347,
+      "% Non-Black Students": 0.23476546050266534
+    },
+    "2017": {
+      "Total Enrollment": 298134,
+      "% Black Students": 0.760889398726747,
+      "% Non-Black Students": 0.239110601273253
+    },
+    "2018": {
+      "Total Enrollment": 291767,
+      "% Black Students": 0.7648671714073216,
+      "% Non-Black Students": 0.23513282859267837
+    }
+  },
+  "model_validation_scope": "Raw actual measures and residual/title arithmetic independently recomputed. Tableau GP outputs compared with source for every date/metric; no independent GP parameter fitting claimed."
+}

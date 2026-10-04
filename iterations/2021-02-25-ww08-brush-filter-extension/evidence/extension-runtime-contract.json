@@ -1,0 +1,37 @@
+{
+  "endpoint_checks": [
+    {
+      "url": "https://extensions.tableauusercontent.com/sandbox/brush-filter/index.html",
+      "sha256": "704e22c16284cd44bfdc462158036133d2e3aa1b4ac525ab81602ac60598cbe9",
+      "bytes": 18072
+    },
+    {
+      "url": "https://extensions.tableauusercontent.com/private-content/brush-filter/index.html",
+      "sha256": "f5031545098e3d8c5ddd02952fe25077c4731f4003229bd4bb62d55fe2f8d175",
+      "bytes": 1222
+    },
+    {
+      "url": "https://extensions.tableauusercontent.com/private-content/brush-filter/d3brush_integration.js",
+      "sha256": "5efd85bcf2572c0cc880e94aa8d1cc1604e5917f7483b1cf42d11477e33f87f0",
+      "bytes": 3681
+    },
+    {
+      "url": "https://extensions.tableauusercontent.com/private-content/brush-filter/d3brush_handler.js",
+      "sha256": "3f829174009ba362912be88f2ee953c53d9b42c25bf8882845b6b45d64accfab",
+      "bytes": 4098
+    },
+    {
+      "url": "https://extensions.tableauusercontent.com/private-content/brush-filter/viz.js",
+      "sha256": "66e673e1f4eb7b1eb584cc0c580aa33fda03c1abafe8a12a9d8e50ad30255b76",
+      "bytes": 1685
+    }
+  ],
+  "integration_analysis": {
+    "data_source": "Dashboard worksheet at configured index 0, getSummaryDataAsync includeAllColumns/ignoreSelection/ignoreAliases",
+    "x_filter_initialization": "The extension clears the configured x-axis filter during initialization before fetching its base overview data.",
+    "duplicate_month_aggregation": "Code increments property priceee for later rows of the same month, while the draw handler uses the configured y-axis field directly. Thus the first borough value is retained, rather than the sum of five boroughs.",
+    "source_scope": "Observed source overview is preserved as real extension behavior. It does not serve as all-borough numeric acceptance evidence.",
+    "brushing_contract": "D3 brushX end event maps selected extent to the configured worksheet date filter; actual browser drag execution is not asserted."
+  },
+  "browser_interaction_executed": false
+}

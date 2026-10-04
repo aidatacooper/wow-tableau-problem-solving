@@ -1,0 +1,93 @@
+{
+  "status": "acceptable_delta",
+  "artifact_sha256": "9ee1e7888321185fb65c7ff298f9996c0225a0ff37669b9f1c1a77f2f4ee7ead",
+  "source_hashes": {
+    "author": "cb37b17d139d29a8d63cb75bfcabe916045cd61223f2a235ac28b9be9dae5bdd",
+    "replica": "9ee1e7888321185fb65c7ff298f9996c0225a0ff37669b9f1c1a77f2f4ee7ead"
+  },
+  "scope": "Cloud REST images/data plus native artifact contracts",
+  "browser_interaction_executed": false,
+  "pixel_perfect_match_claimed": false,
+  "reviewed_state_image_pairs": [
+    {
+      "state": "default",
+      "author": {
+        "id": "f27ce32e-1192-46a6-a1c1-d79337b821d4",
+        "name": "2021_02_03_WW05_Predicting_The_Future",
+        "path": "outputs/cloud-author.png",
+        "sha256": "f449a10d291ccd15d05b46893dc5655854c4c0459065e3eff71b0ccdbb213f13",
+        "size": [
+          2400,
+          1200
+        ]
+      },
+      "replica": {
+        "id": "74354d9c-9708-42ad-9bc3-3fbd981b8c57",
+        "name": "2021_02_03_WW05_Predicting_The_Future",
+        "path": "outputs/cloud-replica.png",
+        "sha256": "bbe6e8e81a4fa464189403a4d018bf0560fde32bc7ed55dce3384098cf498c8f",
+        "size": [
+          2400,
+          1200
+        ]
+      }
+    },
+    {
+      "state": "black-students",
+      "author": {
+        "id": "f27ce32e-1192-46a6-a1c1-d79337b821d4",
+        "name": "2021_02_03_WW05_Predicting_The_Future",
+        "path": "outputs/cloud-author-black-students.png",
+        "sha256": "c79d4aa96c435a63cd6603ff1a70bb9a0d06f3a0fa5262f558afbbc2af0c22f4",
+        "size": [
+          2400,
+          1200
+        ]
+      },
+      "replica": {
+        "id": "74354d9c-9708-42ad-9bc3-3fbd981b8c57",
+        "name": "2021_02_03_WW05_Predicting_The_Future",
+        "path": "outputs/cloud-replica-black-students.png",
+        "sha256": "d2df9041e4d1cee1218a42819a1c27ee515a169b5b73368c7e5a3f0d8bea5d91",
+        "size": [
+          2400,
+          1200
+        ]
+      }
+    },
+    {
+      "state": "non-black-students",
+      "author": {
+        "id": "f27ce32e-1192-46a6-a1c1-d79337b821d4",
+        "name": "2021_02_03_WW05_Predicting_The_Future",
+        "path": "outputs/cloud-author-non-black-students.png",
+        "sha256": "9f45b2838324854868d2006b1cd36335dde2977deed9621bf7d94119ebcbc74b",
+        "size": [
+          2400,
+          1200
+        ]
+      },
+      "replica": {
+        "id": "74354d9c-9708-42ad-9bc3-3fbd981b8c57",
+        "name": "2021_02_03_WW05_Predicting_The_Future",
+        "path": "outputs/cloud-replica-non-black-students.png",
+        "sha256": "90addcefed73baa0e5a4d07423814afbbb032fbd3f14bb483248f443659fdf8e",
+        "size": [
+          2400,
+          1200
+        ]
+      }
+    }
+  ],
+  "accepted_behavior": [
+    "All three measure states show the same source prediction/actual trends and correct title endpoint values.",
+    "Actual area stops in 2018 while the predictive line extends to 2023.",
+    "Three teal selector rows occupy the source-like top sidebar region, with full visible labels."
+  ],
+  "known_visual_deltas": [
+    "Year-axis ticks are denser than the source automatic tick placement.",
+    "Title and selector label font weight/size and small plot/selector padding differ.",
+    "Footer credits intentionally identify SDK reconstruction and have small typography differences."
+  ],
+  "numerical_scope": "Three metrics by 31 distinct years, all 93 predictions cross-checked against source; 78 actual values and residual/title arithmetic independently checked from raw data. CSV contains two identical pane rows per year in each role. No independent GP fitting claimed."
+}

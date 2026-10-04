@@ -1,0 +1,388 @@
+{
+  "case_id": "wow-2021-ww07-emoji-sentiment-rating",
+  "captured_at": "2026-10-04T16:48:43.732168+00:00",
+  "source_hashes": {
+    "author": "f2c2bd9be88e56173af0ca0df5613f3b85d2136e4264e8eba5d4183337b9dbdd",
+    "replica": "db63ce98961a28f84422c28a76ebbde66db5ece812423176095333b62cf4fa32"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "98b92c31-8c24-49fe-8e4a-53f623019b21",
+      "name": "cwtwb-review-wow-2021-ww07-emoji-sentiment-rating-author-f2c2bd9be88e",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2936982",
+      "views": [
+        {
+          "name": "2021_02_17_WW07_Emoji_Sentiment_Rating",
+          "id": "d18b8dd4-835b-412f-a0c7-2a19559bd568"
+        },
+        {
+          "name": "Avg",
+          "id": "13e700dc-2e07-424a-a21d-feeb725bdbdb"
+        },
+        {
+          "name": "Info",
+          "id": "df30a048-8caa-494d-b7fd-cfb1ad6b2342"
+        },
+        {
+          "name": "Top 20",
+          "id": "a276b7cf-ee03-4694-a635-157d37388f5a"
+        },
+        {
+          "name": "by Group",
+          "id": "666eab94-48a6-4fab-a774-c46b738a573b"
+        }
+      ]
+    },
+    "replica": {
+      "id": "22373947-057a-44ec-ac83-d72f1f33e790",
+      "name": "cwtwb-review-wow-2021-ww07-emoji-sentiment-rating-replica-db63ce98961a",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2937061",
+      "views": [
+        {
+          "name": "Top 20",
+          "id": "7ddb20c5-9ba9-4b08-841e-15b82b2a88ca"
+        },
+        {
+          "name": "Avg",
+          "id": "3decd4a3-3bd7-4d7a-8ad4-fc7487b10263"
+        },
+        {
+          "name": "by Group",
+          "id": "dd498b37-a617-4799-bf94-b4259e624519"
+        },
+        {
+          "name": "Info",
+          "id": "9088a25e-2ce6-400f-85ee-a3c1a5d4dfff"
+        },
+        {
+          "name": "2021_02_17_WW07_Emoji_Sentiment_Rating",
+          "id": "f17e960b-feaa-4e47-a49c-e3f722f7d8c7"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "d18b8dd4-835b-412f-a0c7-2a19559bd568",
+          "name": "2021_02_17_WW07_Emoji_Sentiment_Rating",
+          "path": "outputs/cloud-author.png",
+          "sha256": "d16e291a9656918c9632ad231c7e928938060c262a41e8dc4387f8d99050d805",
+          "size": [
+            2400,
+            1200
+          ]
+        },
+        "replica": {
+          "id": "f17e960b-feaa-4e47-a49c-e3f722f7d8c7",
+          "name": "2021_02_17_WW07_Emoji_Sentiment_Rating",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "8f75d778a622a98ac0a3e24f7c7aa9ee657d0e4eff92aec5eebf967618e0dd2f",
+          "size": [
+            2400,
+            1200
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Top 20",
+          "view_id": "a276b7cf-ee03-4694-a635-157d37388f5a",
+          "scope": "Complete context-filtered Top20 emoji marks and three sentiment percentages/position/occurrences.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-top20.csv",
+          "sha256": "a21919f5a52f29fd0f79b0f835c9b8aad9180dd92191e8363a232613629eb806",
+          "bytes": 6050
+        },
+        {
+          "role": "author",
+          "view": "by Group",
+          "view_id": "666eab94-48a6-4fab-a774-c46b738a573b",
+          "scope": "Eight category occurrence sums, rounded-line endpoints.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-groups.csv",
+          "sha256": "c0dbf10cbfa73f5fc15c488b03f0f35028dc2d6e0f03bda3c2b66d435b1565df",
+          "bytes": 601
+        },
+        {
+          "role": "author",
+          "view": "Avg",
+          "view_id": "13e700dc-2e07-424a-a21d-feeb725bdbdb",
+          "scope": "Complete average legend values for related non-null categories.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-average.csv",
+          "sha256": "44f41275b771c961b13ebf6eeb60d70b5ac0858bb5cc1c58cffea45e04397b98",
+          "bytes": 330
+        },
+        {
+          "role": "replica",
+          "view": "Top 20",
+          "view_id": "7ddb20c5-9ba9-4b08-841e-15b82b2a88ca",
+          "scope": "Complete context-filtered Top20 emoji marks and three sentiment percentages/position/occurrences.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-top20.csv",
+          "sha256": "3491552020189129a6fbdf254eb59b670627d3614924b7e32d7245927513b64b",
+          "bytes": 6463
+        },
+        {
+          "role": "replica",
+          "view": "by Group",
+          "view_id": "dd498b37-a617-4799-bf94-b4259e624519",
+          "scope": "Eight category occurrence sums, rounded-line endpoints.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-groups.csv",
+          "sha256": "f6b55c6b9349ee2760c6d36f33fc81b19bc9bf914f401f957ec6e67b60485ef1",
+          "bytes": 585
+        },
+        {
+          "role": "replica",
+          "view": "Avg",
+          "view_id": "3decd4a3-3bd7-4d7a-8ad4-fc7487b10263",
+          "scope": "Complete average legend values for related non-null categories.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-average.csv",
+          "sha256": "6db3b147318711434943e5d083a8a6c683349e50765e1f462fac668bec67c54d",
+          "bytes": 365
+        }
+      ]
+    },
+    {
+      "name": "animals-nature",
+      "parameters": {},
+      "filters": {
+        "Group (group)": "Animals & Nature"
+      },
+      "views": {
+        "author": {
+          "id": "d18b8dd4-835b-412f-a0c7-2a19559bd568",
+          "name": "2021_02_17_WW07_Emoji_Sentiment_Rating",
+          "path": "outputs/cloud-author-animals-nature.png",
+          "sha256": "d16e291a9656918c9632ad231c7e928938060c262a41e8dc4387f8d99050d805",
+          "size": [
+            2400,
+            1200
+          ]
+        },
+        "replica": {
+          "id": "f17e960b-feaa-4e47-a49c-e3f722f7d8c7",
+          "name": "2021_02_17_WW07_Emoji_Sentiment_Rating",
+          "path": "outputs/cloud-replica-animals-nature.png",
+          "sha256": "8f75d778a622a98ac0a3e24f7c7aa9ee657d0e4eff92aec5eebf967618e0dd2f",
+          "size": [
+            2400,
+            1200
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Top 20",
+          "view_id": "a276b7cf-ee03-4694-a635-157d37388f5a",
+          "scope": "Complete context-filtered Top20 emoji marks and three sentiment percentages/position/occurrences.",
+          "parameters": {},
+          "filters": {
+            "Group (group)": "Animals & Nature"
+          },
+          "path": "outputs/cloud-author-top20-animals-nature.csv",
+          "sha256": "9b148b1ef01127f6c7ea31e10d85552e993af8a87b31eb99ae2754ec59152f77",
+          "bytes": 4874
+        },
+        {
+          "role": "author",
+          "view": "by Group",
+          "view_id": "666eab94-48a6-4fab-a774-c46b738a573b",
+          "scope": "Eight category occurrence sums, rounded-line endpoints.",
+          "parameters": {},
+          "filters": {
+            "Group (group)": "Animals & Nature"
+          },
+          "path": "outputs/cloud-author-groups-animals-nature.csv",
+          "sha256": "ad4c8bc6ce265ee14cb9d2a9ccc0a008e9c2e19663014dd42b5ae568e74a3eef",
+          "bytes": 568
+        },
+        {
+          "role": "author",
+          "view": "Avg",
+          "view_id": "13e700dc-2e07-424a-a21d-feeb725bdbdb",
+          "scope": "Complete average legend values for related non-null categories.",
+          "parameters": {},
+          "filters": {
+            "Group (group)": "Animals & Nature"
+          },
+          "path": "outputs/cloud-author-average-animals-nature.csv",
+          "sha256": "bcfb493143693d6ae3b18b31d2359c2fb27a730985e167e87f72424421daf49e",
+          "bytes": 330
+        },
+        {
+          "role": "replica",
+          "view": "Top 20",
+          "view_id": "7ddb20c5-9ba9-4b08-841e-15b82b2a88ca",
+          "scope": "Complete context-filtered Top20 emoji marks and three sentiment percentages/position/occurrences.",
+          "parameters": {},
+          "filters": {
+            "Group (group)": "Animals & Nature"
+          },
+          "path": "outputs/cloud-replica-top20-animals-nature.csv",
+          "sha256": "b722769666e2d51b6e406664812c424acf4ebf8cdf0314240828edb55e93d55b",
+          "bytes": 4947
+        },
+        {
+          "role": "replica",
+          "view": "by Group",
+          "view_id": "dd498b37-a617-4799-bf94-b4259e624519",
+          "scope": "Eight category occurrence sums, rounded-line endpoints.",
+          "parameters": {},
+          "filters": {
+            "Group (group)": "Animals & Nature"
+          },
+          "path": "outputs/cloud-replica-groups-animals-nature.csv",
+          "sha256": "e17bac918fdc9663f87d8d39adb8ba42b9c5c5abb75941e0d48b9d5eea54e72c",
+          "bytes": 552
+        },
+        {
+          "role": "replica",
+          "view": "Avg",
+          "view_id": "3decd4a3-3bd7-4d7a-8ad4-fc7487b10263",
+          "scope": "Complete average legend values for related non-null categories.",
+          "parameters": {},
+          "filters": {
+            "Group (group)": "Animals & Nature"
+          },
+          "path": "outputs/cloud-replica-average-animals-nature.csv",
+          "sha256": "74043e2922ca3172ca33738250ece850e2cfc04efc8d98a06aff3c94120203bb",
+          "bytes": 365
+        }
+      ]
+    },
+    {
+      "name": "flags",
+      "parameters": {},
+      "filters": {
+        "Group (group)": "Flags"
+      },
+      "views": {
+        "author": {
+          "id": "d18b8dd4-835b-412f-a0c7-2a19559bd568",
+          "name": "2021_02_17_WW07_Emoji_Sentiment_Rating",
+          "path": "outputs/cloud-author-flags.png",
+          "sha256": "d16e291a9656918c9632ad231c7e928938060c262a41e8dc4387f8d99050d805",
+          "size": [
+            2400,
+            1200
+          ]
+        },
+        "replica": {
+          "id": "f17e960b-feaa-4e47-a49c-e3f722f7d8c7",
+          "name": "2021_02_17_WW07_Emoji_Sentiment_Rating",
+          "path": "outputs/cloud-replica-flags.png",
+          "sha256": "8f75d778a622a98ac0a3e24f7c7aa9ee657d0e4eff92aec5eebf967618e0dd2f",
+          "size": [
+            2400,
+            1200
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Top 20",
+          "view_id": "a276b7cf-ee03-4694-a635-157d37388f5a",
+          "scope": "Complete context-filtered Top20 emoji marks and three sentiment percentages/position/occurrences.",
+          "parameters": {},
+          "filters": {
+            "Group (group)": "Flags"
+          },
+          "path": "outputs/cloud-author-top20-flags.csv",
+          "sha256": "234cc6cca17cae4a5422080a3c5b78564e840968e0b2c42dca70e402e35f2ee0",
+          "bytes": 851
+        },
+        {
+          "role": "author",
+          "view": "by Group",
+          "view_id": "666eab94-48a6-4fab-a774-c46b738a573b",
+          "scope": "Eight category occurrence sums, rounded-line endpoints.",
+          "parameters": {},
+          "filters": {
+            "Group (group)": "Flags"
+          },
+          "path": "outputs/cloud-author-groups-flags.csv",
+          "sha256": "45466a0a89bdef8383ea219c0665129bdb4db6946d4c8e36e0eeed76a5da1a16",
+          "bytes": 605
+        },
+        {
+          "role": "author",
+          "view": "Avg",
+          "view_id": "13e700dc-2e07-424a-a21d-feeb725bdbdb",
+          "scope": "Complete average legend values for related non-null categories.",
+          "parameters": {},
+          "filters": {
+            "Group (group)": "Flags"
+          },
+          "path": "outputs/cloud-author-average-flags.csv",
+          "sha256": "3fe419f42f270a369f2a2b1c9c55f199c19ab708ece6baf8b0eaa5fe93713de2",
+          "bytes": 330
+        },
+        {
+          "role": "replica",
+          "view": "Top 20",
+          "view_id": "7ddb20c5-9ba9-4b08-841e-15b82b2a88ca",
+          "scope": "Complete context-filtered Top20 emoji marks and three sentiment percentages/position/occurrences.",
+          "parameters": {},
+          "filters": {
+            "Group (group)": "Flags"
+          },
+          "path": "outputs/cloud-replica-top20-flags.csv",
+          "sha256": "4c1d532d947445639add6c2f56478d9c3a155768f991decb4907b9c596b60d7a",
+          "bytes": 852
+        },
+        {
+          "role": "replica",
+          "view": "by Group",
+          "view_id": "dd498b37-a617-4799-bf94-b4259e624519",
+          "scope": "Eight category occurrence sums, rounded-line endpoints.",
+          "parameters": {},
+          "filters": {
+            "Group (group)": "Flags"
+          },
+          "path": "outputs/cloud-replica-groups-flags.csv",
+          "sha256": "366de2a2453bc618884e64bd054b190afe438ebb4bfc9fdb991c995b9a4e8924",
+          "bytes": 589
+        },
+        {
+          "role": "replica",
+          "view": "Avg",
+          "view_id": "3decd4a3-3bd7-4d7a-8ad4-fc7487b10263",
+          "scope": "Complete average legend values for related non-null categories.",
+          "parameters": {},
+          "filters": {
+            "Group (group)": "Flags"
+          },
+          "path": "outputs/cloud-replica-average-flags.csv",
+          "sha256": "9eadeff57d267df6ea40c2303d94cd2b46ccab3c6450ee3d202c64ac9fbf4db8",
+          "bytes": 365
+        }
+      ]
+    }
+  ],
+  "status": "verified",
+  "independent_review": {
+    "visual_status": "acceptable_delta",
+    "visual_evidence": "evidence/visual-review.md",
+    "functional_evidence": "evidence/functional-verification.json",
+    "scope": "Declared REST worksheet exports and artifact contracts; no browser events executed."
+  }
+}

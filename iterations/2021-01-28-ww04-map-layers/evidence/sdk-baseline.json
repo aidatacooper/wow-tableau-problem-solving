@@ -1,0 +1,25 @@
+{
+  "sdk_commit": "fe9f33b4dfbe5b1ecec7c56d41138a2888971375",
+  "layer_request_inert_and_disable_tooltip": true,
+  "output_layers": [
+    {
+      "mark": "Automatic",
+      "inert": null,
+      "selection_relaxation": "selection-relaxation-disallow",
+      "tooltip": null
+    },
+    {
+      "mark": "Multipolygon",
+      "inert": null,
+      "selection_relaxation": "selection-relaxation-disallow",
+      "tooltip": null
+    },
+    {
+      "mark": "Circle",
+      "inert": null,
+      "selection_relaxation": "selection-relaxation-allow",
+      "tooltip": null
+    }
+  ],
+  "centered_size_error": "size_style supports rangesize or catsize field/min_size/max_size"
+}

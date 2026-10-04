@@ -1,0 +1,163 @@
+{
+  "case_id": "wow-2021-ww08-brush-filter-extension",
+  "captured_at": "2026-10-04T16:45:51.087576+00:00",
+  "source_hashes": {
+    "author": "001a83b23185351e3197efe3c1bc872128f72e5b40d7682e1001ba5f4599e821",
+    "replica": "9ef30793f1e0d9169b198da5d1acf64e8ee4c1973202d3fee858d60a730f8164"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "6a11c423-7bcf-493c-ba23-89d8698864ec",
+      "name": "cwtwb-review-wow-2021-ww08-brush-filter-extension-author-001a83b23185",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2936974",
+      "views": [
+        {
+          "name": "2021_02_24_WW08_Brush_Filter_Extension",
+          "id": "b3ea6e53-cf73-4282-98c3-7b06c4981ff4"
+        },
+        {
+          "name": "Data",
+          "id": "234ab6f3-230b-47e2-b4e5-e67ef5376c35"
+        },
+        {
+          "name": "by Borough",
+          "id": "4ee28919-4d47-45b2-bb3f-7610f227a915"
+        }
+      ]
+    },
+    "replica": {
+      "id": "53c516d6-f0d8-4ea6-ab31-18967bc9b1f9",
+      "name": "cwtwb-review-wow-2021-ww08-brush-filter-extension-replica-9ef30793f1e0",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2937047",
+      "views": [
+        {
+          "name": "by Borough",
+          "id": "5173a6b8-c146-42b8-ac04-3c86ae59bc01"
+        },
+        {
+          "name": "2021_02_24_WW08_Brush_Filter_Extension",
+          "id": "13a4d74d-020c-40c3-9bd7-c46d1c859f25"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "b3ea6e53-cf73-4282-98c3-7b06c4981ff4",
+          "name": "2021_02_24_WW08_Brush_Filter_Extension",
+          "path": "outputs/cloud-author.png",
+          "sha256": "a58e8392808b03372617f34f9fcd0b5a2187a6a8153bacfb895911d111a58df4",
+          "size": [
+            2732,
+            1536
+          ]
+        },
+        "replica": {
+          "id": "13a4d74d-020c-40c3-9bd7-c46d1c859f25",
+          "name": "2021_02_24_WW08_Brush_Filter_Extension",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "8b190c99ae6ad92e7358af641d6ce4c3646f9353f2442baa724fdcaba756c873",
+          "size": [
+            2732,
+            1536
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "by Borough",
+          "view_id": "4ee28919-4d47-45b2-bb3f-7610f227a915",
+          "scope": "Complete visible borough by month trend including all counts and endpoint-change classifications. Extension code/settings contract is audited independently; REST requests do not simulate mouse brushing.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-borough.csv",
+          "sha256": "7546653814729975bc72ee6d705ff0785a5c224a18c12153f0ad4f8dfe75eb7b",
+          "bytes": 41053
+        },
+        {
+          "role": "replica",
+          "view": "by Borough",
+          "view_id": "5173a6b8-c146-42b8-ac04-3c86ae59bc01",
+          "scope": "Complete visible borough by month trend including all counts and endpoint-change classifications. Extension code/settings contract is audited independently; REST requests do not simulate mouse brushing.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-borough.csv",
+          "sha256": "f7dedcc4908aa33477d9c0dde145cde5bd2f3b1da9d2adf3ef76081e9d97c32a",
+          "bytes": 43782
+        }
+      ]
+    },
+    {
+      "name": "exclude-brooklyn",
+      "parameters": {},
+      "filters": {
+        "Borough": "BROOKLYN"
+      },
+      "views": {
+        "author": {
+          "id": "b3ea6e53-cf73-4282-98c3-7b06c4981ff4",
+          "name": "2021_02_24_WW08_Brush_Filter_Extension",
+          "path": "outputs/cloud-author-exclude-brooklyn.png",
+          "sha256": "a58e8392808b03372617f34f9fcd0b5a2187a6a8153bacfb895911d111a58df4",
+          "size": [
+            2732,
+            1536
+          ]
+        },
+        "replica": {
+          "id": "13a4d74d-020c-40c3-9bd7-c46d1c859f25",
+          "name": "2021_02_24_WW08_Brush_Filter_Extension",
+          "path": "outputs/cloud-replica-exclude-brooklyn.png",
+          "sha256": "8b190c99ae6ad92e7358af641d6ce4c3646f9353f2442baa724fdcaba756c873",
+          "size": [
+            2732,
+            1536
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "by Borough",
+          "view_id": "4ee28919-4d47-45b2-bb3f-7610f227a915",
+          "scope": "Complete visible borough by month trend including all counts and endpoint-change classifications. Extension code/settings contract is audited independently; REST requests do not simulate mouse brushing.",
+          "parameters": {},
+          "filters": {
+            "Borough": "BROOKLYN"
+          },
+          "path": "outputs/cloud-author-borough-exclude-brooklyn.csv",
+          "sha256": "75fac5027f2db4c37e1a0e5cd40c15805c7ecff3391234f85085b4d0a0bb30b2",
+          "bytes": 33768
+        },
+        {
+          "role": "replica",
+          "view": "by Borough",
+          "view_id": "5173a6b8-c146-42b8-ac04-3c86ae59bc01",
+          "scope": "Complete visible borough by month trend including all counts and endpoint-change classifications. Extension code/settings contract is audited independently; REST requests do not simulate mouse brushing.",
+          "parameters": {},
+          "filters": {
+            "Borough": "BROOKLYN"
+          },
+          "path": "outputs/cloud-replica-borough-exclude-brooklyn.csv",
+          "sha256": "e902a074acd5b890798376087b2ff63c85f4288d84ce71af9ddab1b3ca69627c",
+          "bytes": 35858
+        }
+      ]
+    }
+  ],
+  "status": "verified",
+  "independent_review": {
+    "visual_status": "acceptable_delta",
+    "visual_evidence": "evidence/visual-review.json",
+    "functional_evidence": "evidence/functional-verification.json",
+    "scope": "Declared REST worksheet exports and artifact contracts; no browser events executed."
+  }
+}

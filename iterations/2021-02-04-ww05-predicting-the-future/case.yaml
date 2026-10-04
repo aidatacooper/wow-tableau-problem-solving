@@ -1,0 +1,90 @@
+schema_version: 1.1.0
+case_id: wow-2021-ww05-predicting-the-future
+iteration_id: 2021-02-04-ww05-predicting-the-future
+post: https://donnacoles.home.blog/2021/02/04/can-you-predict-the-future/
+legacy_case_ids: {}
+article_date: '2021-02-04'
+challenge_year: 2021
+challenge_week: 5
+challenge_date: '2021-02-02'
+date_evidence:
+  article_date: HTML published time element in evidence/article-date.json.
+  challenge: Explicit challenge_year; week declared in iteration_id
+  challenge_date: Official WordPress REST date field in evidence/official-challenge-date.json.
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2021w05tab/
+  article:
+    url: https://donnacoles.home.blog/2021/02/04/can-you-predict-the-future/
+    path: null
+    sha256: 20e8806b30b7337394c35270dab2155a4eb95ba7a1965b0afb86f3037f095ea3
+  workbook:
+    filename: author.twbx
+    sha256: 828b796e0cc0089d990abbb39822671755a5052a22cca607228afc99817e2236
+    url: https://public.tableau.com/workbooks/2021_02_03_WW05_Predicting_The_Future.twb
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- evidence/article-date.json
+- evidence/author-export-contract.json
+- evidence/build-provenance.json
+- evidence/cloud-verification.json
+- evidence/functional-verification.json
+- evidence/official-challenge-date.json
+- evidence/sdk-final-validation.json
+- evidence/sdk-gap-baseline.json
+- evidence/visual-review.json
+- evidence/zero-build-verification.json
+- inputs/source-lock.json
+notes:
+- Full prediction CSV covers 31 distinct years with two identical pane rows per year
+  in each role and three parameter states. GP predictions are cross-checked against
+  author, actual values and arithmetic independently against raw data; independent
+  Tableau GP fitting is not claimed.
+cwtwb:
+  tested_version: 0.27.1
+  tested_commit: e076cd03021f39a95b23646f45f7f912733be69c
+  runs:
+  - version: 0.27.1
+    commit: fe9f33b4dfbe5b1ecec7c56d41138a2888971375
+    result: blocked
+    evidence: evidence/sdk-gap-baseline.json
+  - version: 0.27.1
+    commit: 85643b0866f6d3b3cdf07c3f61762cd586a67589
+    result: pass
+    evidence: evidence/build-provenance.json
+  - version: 0.27.1
+    commit: e076cd03021f39a95b23646f45f7f912733be69c
+    result: pass
+    evidence: evidence/sdk-final-validation.json
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: pass
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/Digest 2019 Table 313.20 (2021_02_03_WW05_HBCU Fall Enrollment 1976-2018).hyper
+acceptance:
+- id: three-measure-model
+  mode: automated
+  description: Native Gaussian-process MODEL_QUANTILE for all three measures; 26 actual
+    training years independently recomputed from raw enrollment.
+- id: five-future-years
+  mode: automated
+  description: Continuous year domain extends through 2023; complete 31 distinct years
+    under three actual REST parameter states with full chart CSV and source prediction
+    comparison.
+- id: measure-selector-action
+  mode: automated
+  description: Three native measure selector bars, selection source, target parameter,
+    ATTR aggregation and keep-current clearing verified through artifact contracts.
+remaining_work: []
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []

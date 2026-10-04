@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-05",
+  "source_workbook": {
+    "filename": "author.twbx",
+    "bytes": 244362,
+    "sha256": "5375f42bf0964ba0fdc426296817d2783f2ab763d8687ca42cf402b556d12636",
+    "url": "https://public.tableau.com/workbooks/2021_02_17_WW07_Emoji_Sentiment_Rating.twb"
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/TableauTemp/TEMP_1kvi1ok1gjuwra123at7r0vm5038.hyper",
+      "file": "inputs/TEMP_1kvi1ok1gjuwra123at7r0vm5038.hyper",
+      "bytes": 262144,
+      "sha256": "618705c1b3e8ac665883147a92319cf68224d0f92bc197a672271a3a02b336af"
+    },
+    {
+      "file": "inputs/extension-category-image.png",
+      "bytes": 39392,
+      "sha256": "823ed54a4e5e038b26cc6b8fa3ce84a7ffc5ab32e15fc1537648c3137529041b",
+      "source": "Analysis-derived mapping/structured configuration or extracted image resource; no author XML."
+    },
+    {
+      "file": "inputs/extension-icon.png",
+      "bytes": 6632,
+      "sha256": "93fafe7cdda64cc3e36e1ce80f9f32fd2420192c0fa3340f829f93b734864c7d",
+      "source": "Analysis-derived mapping/structured configuration or extracted image resource; no author XML."
+    },
+    {
+      "file": "inputs/extension-manifest.json",
+      "bytes": 677,
+      "sha256": "13db123cb88dc328ef62dc9fcca183d0a4637dd1eab640aaacaf90ff69c5e976",
+      "source": "Analysis-derived mapping/structured configuration or extracted image resource; no author XML."
+    },
+    {
+      "file": "inputs/extension-settings.json",
+      "bytes": 4734,
+      "sha256": "2c29f2c9f972269e167ab86df584a3e362a3b7f87001a00dd6da6da5dda9bd60",
+      "source": "Analysis-derived mapping/structured configuration or extracted image resource; no author XML."
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

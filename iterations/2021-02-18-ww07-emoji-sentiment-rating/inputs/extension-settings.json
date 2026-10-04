@@ -1,0 +1,256 @@
+{
+  "configured": true,
+  "dimensions": [
+    "Group (group)"
+  ],
+  "imageDimensions": [
+    259,
+    413
+  ],
+  "scaling": 0,
+  "shapes": [
+    {
+      "id": "1613503872591",
+      "type": "rectangle",
+      "coords": [
+        32.375,
+        14.340277777777779
+      ],
+      "points": [
+        [
+          32.375,
+          14.340277777777779
+        ]
+      ],
+      "dimensions": [
+        209.70170454545456,
+        45.88888888888888
+      ],
+      "radius": [
+        0,
+        0
+      ],
+      "originalPoints": [],
+      "values": [
+        {
+          "field": "Group (group)",
+          "value": "Smileys & People"
+        }
+      ],
+      "active": false
+    },
+    {
+      "id": "1613503883837",
+      "type": "rectangle",
+      "coords": [
+        32.375,
+        60.22916666666667
+      ],
+      "points": [
+        [
+          32.375,
+          60.22916666666667
+        ]
+      ],
+      "dimensions": [
+        209.70170454545456,
+        43.737847222222214
+      ],
+      "radius": [
+        0,
+        0
+      ],
+      "originalPoints": [],
+      "values": [
+        {
+          "field": "Group (group)",
+          "value": "Animals & Nature"
+        }
+      ],
+      "active": false
+    },
+    {
+      "id": "1613503894200",
+      "type": "rectangle",
+      "coords": [
+        32.375,
+        104.68402777777777
+      ],
+      "points": [
+        [
+          32.375,
+          104.68402777777777
+        ]
+      ],
+      "dimensions": [
+        210.4375,
+        48.75694444444444
+      ],
+      "radius": [
+        0,
+        0
+      ],
+      "originalPoints": [],
+      "values": [
+        {
+          "field": "Group (group)",
+          "value": "Food & Drink"
+        }
+      ],
+      "active": false
+    },
+    {
+      "id": "1613503904335",
+      "type": "rectangle",
+      "coords": [
+        32.375,
+        153.44097222222223
+      ],
+      "points": [
+        [
+          32.375,
+          153.44097222222223
+        ]
+      ],
+      "dimensions": [
+        209.70170454545456,
+        45.88888888888888
+      ],
+      "radius": [
+        0,
+        0
+      ],
+      "originalPoints": [],
+      "values": [
+        {
+          "field": "Group (group)",
+          "value": "Activities"
+        }
+      ],
+      "active": false
+    },
+    {
+      "id": "1613503912116",
+      "type": "rectangle",
+      "coords": [
+        31.639204545454543,
+        199.32986111111114
+      ],
+      "points": [
+        [
+          31.639204545454543,
+          199.32986111111114
+        ]
+      ],
+      "dimensions": [
+        210.4375,
+        49.473958333333336
+      ],
+      "radius": [
+        0,
+        0
+      ],
+      "originalPoints": [],
+      "values": [
+        {
+          "field": "Group (group)",
+          "value": "Travel & Places"
+        }
+      ],
+      "active": false
+    },
+    {
+      "id": "1613503925097",
+      "type": "rectangle",
+      "coords": [
+        30.903409090909097,
+        249.52083333333331
+      ],
+      "points": [
+        [
+          30.903409090909097,
+          249.52083333333331
+        ]
+      ],
+      "dimensions": [
+        211.17329545454544,
+        48.03993055555556
+      ],
+      "radius": [
+        0,
+        0
+      ],
+      "originalPoints": [],
+      "values": [
+        {
+          "field": "Group (group)",
+          "value": "Objects"
+        }
+      ],
+      "active": false
+    },
+    {
+      "id": "1613503934430",
+      "type": "rectangle",
+      "coords": [
+        32.375,
+        297.56076388888897
+      ],
+      "points": [
+        [
+          32.375,
+          297.56076388888897
+        ]
+      ],
+      "dimensions": [
+        209.70170454545456,
+        46.605902777777786
+      ],
+      "radius": [
+        0,
+        0
+      ],
+      "originalPoints": [],
+      "values": [
+        {
+          "field": "Group (group)",
+          "value": "Symbols"
+        }
+      ],
+      "active": false
+    },
+    {
+      "id": "1613503943123",
+      "type": "rectangle",
+      "coords": [
+        33.11079545454545,
+        344.1666666666667
+      ],
+      "points": [
+        [
+          33.11079545454545,
+          344.1666666666667
+        ]
+      ],
+      "dimensions": [
+        209.70170454545456,
+        45.171875
+      ],
+      "radius": [
+        0,
+        0
+      ],
+      "originalPoints": [],
+      "values": [
+        {
+          "field": "Group (group)",
+          "value": "Flags"
+        }
+      ],
+      "active": false
+    }
+  ],
+  "worksheets": [
+    "Top 20"
+  ]
+}

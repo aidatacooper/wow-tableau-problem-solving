@@ -1,0 +1,16 @@
+{
+  "challenge_year": 2021,
+  "challenge_week": 8,
+  "article_date": "2021-02-25",
+  "challenge_date": "2021-02-23",
+  "official_rest_url": "https://www.workout-wednesday.com/wp-json/wp/v2/posts/4586",
+  "response_excerpt": {
+    "id": 4586,
+    "date": "2021-02-23T17:48:33",
+    "link": "https://www.workout-wednesday.com/2021w08tab/",
+    "title": {
+      "rendered": "#WOW2021 | 08 | Can you use the Brush Filter extension?"
+    }
+  },
+  "scope": "Official WordPress date field, without inference from week numbers or workbook filenames."
+}

@@ -1,0 +1,4155 @@
+{
+  "status": "pass",
+  "artifact_sha256": "9ef30793f1e0d9169b198da5d1acf64e8ee4c1973202d3fee858d60a730f8164",
+  "acceptance_ids": [
+    "monthly-borough-counts",
+    "endpoint-change-colors",
+    "real-brush-extension-contract"
+  ],
+  "oracle": {
+    "raw_rows": 158923,
+    "null_dates": 0,
+    "visible_cells": 670,
+    "visible_sightings": 158914,
+    "outside_date_range_rows": {},
+    "default_excluded_unspecified_rows": 9,
+    "endpoints": {
+      "BROOKLYN": {
+        "first_month": "2010-01-01",
+        "last_month": "2021-02-01",
+        "start_count": 167,
+        "end_count": 196,
+        "change": "INCREASE"
+      },
+      "MANHATTAN": {
+        "first_month": "2010-01-01",
+        "last_month": "2021-02-01",
+        "start_count": 137,
+        "end_count": 180,
+        "change": "INCREASE"
+      },
+      "BRONX": {
+        "first_month": "2010-01-01",
+        "last_month": "2021-02-01",
+        "start_count": 118,
+        "end_count": 117,
+        "change": "DECREASE"
+      },
+      "QUEENS": {
+        "first_month": "2010-01-01",
+        "last_month": "2021-02-01",
+        "start_count": 73,
+        "end_count": 85,
+        "change": "INCREASE"
+      },
+      "STATEN ISLAND": {
+        "first_month": "2010-01-01",
+        "last_month": "2021-02-01",
+        "start_count": 33,
+        "end_count": 17,
+        "change": "DECREASE"
+      },
+      "Unspecified": {
+        "first_month": "2012-05-01",
+        "last_month": "2020-09-01",
+        "start_count": 1,
+        "end_count": 1,
+        "change": "NO CHANGE"
+      }
+    },
+    "cells": [
+      {
+        "borough": "BROOKLYN",
+        "month": "2010-01-01",
+        "sightings": 167,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2010-02-01",
+        "sightings": 129,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2010-03-01",
+        "sightings": 279,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2010-04-01",
+        "sightings": 289,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2010-05-01",
+        "sightings": 370,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2010-06-01",
+        "sightings": 371,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2010-07-01",
+        "sightings": 389,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2010-08-01",
+        "sightings": 422,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2010-09-01",
+        "sightings": 365,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2010-10-01",
+        "sightings": 267,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2010-11-01",
+        "sightings": 211,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2010-12-01",
+        "sightings": 140,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2011-01-01",
+        "sightings": 162,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2011-02-01",
+        "sightings": 186,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2011-03-01",
+        "sightings": 298,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2011-04-01",
+        "sightings": 349,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2011-05-01",
+        "sightings": 433,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2011-06-01",
+        "sightings": 465,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2011-07-01",
+        "sightings": 364,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2011-08-01",
+        "sightings": 386,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2011-09-01",
+        "sightings": 362,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2011-10-01",
+        "sightings": 299,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2011-11-01",
+        "sightings": 192,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2011-12-01",
+        "sightings": 175,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2012-01-01",
+        "sightings": 225,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2012-02-01",
+        "sightings": 187,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2012-03-01",
+        "sightings": 268,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2012-04-01",
+        "sightings": 269,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2012-05-01",
+        "sightings": 381,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2012-06-01",
+        "sightings": 366,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2012-07-01",
+        "sightings": 425,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2012-08-01",
+        "sightings": 441,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2012-09-01",
+        "sightings": 349,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2012-10-01",
+        "sightings": 298,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2012-11-01",
+        "sightings": 181,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2012-12-01",
+        "sightings": 210,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2013-01-01",
+        "sightings": 240,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2013-02-01",
+        "sightings": 190,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2013-03-01",
+        "sightings": 256,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2013-04-01",
+        "sightings": 297,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2013-05-01",
+        "sightings": 334,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2013-06-01",
+        "sightings": 370,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2013-07-01",
+        "sightings": 381,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2013-08-01",
+        "sightings": 356,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2013-09-01",
+        "sightings": 300,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2013-10-01",
+        "sightings": 270,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2013-11-01",
+        "sightings": 165,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2013-12-01",
+        "sightings": 141,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2014-01-01",
+        "sightings": 147,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2014-02-01",
+        "sightings": 173,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2014-03-01",
+        "sightings": 193,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2014-04-01",
+        "sightings": 305,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2014-05-01",
+        "sightings": 386,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2014-06-01",
+        "sightings": 442,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2014-07-01",
+        "sightings": 504,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2014-08-01",
+        "sightings": 475,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2014-09-01",
+        "sightings": 427,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2014-10-01",
+        "sightings": 440,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2014-11-01",
+        "sightings": 247,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2014-12-01",
+        "sightings": 229,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2015-01-01",
+        "sightings": 226,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2015-02-01",
+        "sightings": 202,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2015-03-01",
+        "sightings": 321,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2015-04-01",
+        "sightings": 436,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2015-05-01",
+        "sightings": 542,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2015-06-01",
+        "sightings": 630,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2015-07-01",
+        "sightings": 610,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2015-08-01",
+        "sightings": 539,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2015-09-01",
+        "sightings": 539,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2015-10-01",
+        "sightings": 504,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2015-11-01",
+        "sightings": 369,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2015-12-01",
+        "sightings": 346,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2016-01-01",
+        "sightings": 292,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2016-02-01",
+        "sightings": 298,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2016-03-01",
+        "sightings": 399,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2016-04-01",
+        "sightings": 457,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2016-05-01",
+        "sightings": 678,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2016-06-01",
+        "sightings": 681,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2016-07-01",
+        "sightings": 628,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2016-08-01",
+        "sightings": 675,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2016-09-01",
+        "sightings": 591,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2016-10-01",
+        "sightings": 544,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2016-11-01",
+        "sightings": 401,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2016-12-01",
+        "sightings": 335,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2017-01-01",
+        "sightings": 383,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2017-02-01",
+        "sightings": 492,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2017-03-01",
+        "sightings": 490,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2017-04-01",
+        "sightings": 703,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2017-05-01",
+        "sightings": 718,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2017-06-01",
+        "sightings": 770,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2017-07-01",
+        "sightings": 853,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2017-08-01",
+        "sightings": 773,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2017-09-01",
+        "sightings": 641,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2017-10-01",
+        "sightings": 666,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2017-11-01",
+        "sightings": 446,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2017-12-01",
+        "sightings": 318,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2018-01-01",
+        "sightings": 359,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2018-02-01",
+        "sightings": 390,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2018-03-01",
+        "sightings": 412,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2018-04-01",
+        "sightings": 580,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2018-05-01",
+        "sightings": 719,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2018-06-01",
+        "sightings": 743,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2018-07-01",
+        "sightings": 706,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2018-08-01",
+        "sightings": 728,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2018-09-01",
+        "sightings": 608,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2018-10-01",
+        "sightings": 591,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2018-11-01",
+        "sightings": 403,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2018-12-01",
+        "sightings": 329,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2019-01-01",
+        "sightings": 353,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2019-02-01",
+        "sightings": 307,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2019-03-01",
+        "sightings": 413,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2019-04-01",
+        "sightings": 647,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2019-05-01",
+        "sightings": 794,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2019-06-01",
+        "sightings": 692,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2019-07-01",
+        "sightings": 669,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2019-08-01",
+        "sightings": 669,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2019-09-01",
+        "sightings": 635,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2019-10-01",
+        "sightings": 543,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2019-11-01",
+        "sightings": 402,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2019-12-01",
+        "sightings": 290,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2020-01-01",
+        "sightings": 405,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2020-02-01",
+        "sightings": 405,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2020-03-01",
+        "sightings": 358,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2020-04-01",
+        "sightings": 368,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2020-05-01",
+        "sightings": 638,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2020-06-01",
+        "sightings": 648,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2020-07-01",
+        "sightings": 714,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2020-08-01",
+        "sightings": 632,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2020-09-01",
+        "sightings": 618,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2020-10-01",
+        "sightings": 533,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2020-11-01",
+        "sightings": 358,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2020-12-01",
+        "sightings": 317,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2021-01-01",
+        "sightings": 412,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BROOKLYN",
+        "month": "2021-02-01",
+        "sightings": 196,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2010-01-01",
+        "sightings": 137,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2010-02-01",
+        "sightings": 120,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2010-03-01",
+        "sightings": 260,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2010-04-01",
+        "sightings": 242,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2010-05-01",
+        "sightings": 279,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2010-06-01",
+        "sightings": 300,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2010-07-01",
+        "sightings": 362,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2010-08-01",
+        "sightings": 356,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2010-09-01",
+        "sightings": 267,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2010-10-01",
+        "sightings": 244,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2010-11-01",
+        "sightings": 205,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2010-12-01",
+        "sightings": 95,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2011-01-01",
+        "sightings": 126,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2011-02-01",
+        "sightings": 140,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2011-03-01",
+        "sightings": 193,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2011-04-01",
+        "sightings": 258,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2011-05-01",
+        "sightings": 255,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2011-06-01",
+        "sightings": 271,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2011-07-01",
+        "sightings": 213,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2011-08-01",
+        "sightings": 258,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2011-09-01",
+        "sightings": 273,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2011-10-01",
+        "sightings": 172,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2011-11-01",
+        "sightings": 158,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2011-12-01",
+        "sightings": 144,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2012-01-01",
+        "sightings": 212,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2012-02-01",
+        "sightings": 162,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2012-03-01",
+        "sightings": 202,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2012-04-01",
+        "sightings": 216,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2012-05-01",
+        "sightings": 303,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2012-06-01",
+        "sightings": 272,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2012-07-01",
+        "sightings": 281,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2012-08-01",
+        "sightings": 312,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2012-09-01",
+        "sightings": 253,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2012-10-01",
+        "sightings": 264,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2012-11-01",
+        "sightings": 191,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2012-12-01",
+        "sightings": 189,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2013-01-01",
+        "sightings": 209,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2013-02-01",
+        "sightings": 193,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2013-03-01",
+        "sightings": 239,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2013-04-01",
+        "sightings": 281,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2013-05-01",
+        "sightings": 313,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2013-06-01",
+        "sightings": 332,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2013-07-01",
+        "sightings": 334,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2013-08-01",
+        "sightings": 273,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2013-09-01",
+        "sightings": 270,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2013-10-01",
+        "sightings": 242,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2013-11-01",
+        "sightings": 181,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2013-12-01",
+        "sightings": 151,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2014-01-01",
+        "sightings": 157,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2014-02-01",
+        "sightings": 145,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2014-03-01",
+        "sightings": 244,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2014-04-01",
+        "sightings": 288,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2014-05-01",
+        "sightings": 346,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2014-06-01",
+        "sightings": 386,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2014-07-01",
+        "sightings": 346,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2014-08-01",
+        "sightings": 332,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2014-09-01",
+        "sightings": 349,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2014-10-01",
+        "sightings": 456,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2014-11-01",
+        "sightings": 263,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2014-12-01",
+        "sightings": 229,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2015-01-01",
+        "sightings": 211,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2015-02-01",
+        "sightings": 153,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2015-03-01",
+        "sightings": 267,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2015-04-01",
+        "sightings": 344,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2015-05-01",
+        "sightings": 434,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2015-06-01",
+        "sightings": 333,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2015-07-01",
+        "sightings": 447,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2015-08-01",
+        "sightings": 398,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2015-09-01",
+        "sightings": 466,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2015-10-01",
+        "sightings": 451,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2015-11-01",
+        "sightings": 329,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2015-12-01",
+        "sightings": 291,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2016-01-01",
+        "sightings": 297,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2016-02-01",
+        "sightings": 344,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2016-03-01",
+        "sightings": 357,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2016-04-01",
+        "sightings": 380,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2016-05-01",
+        "sightings": 471,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2016-06-01",
+        "sightings": 462,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2016-07-01",
+        "sightings": 441,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2016-08-01",
+        "sightings": 422,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2016-09-01",
+        "sightings": 493,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2016-10-01",
+        "sightings": 376,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2016-11-01",
+        "sightings": 306,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2016-12-01",
+        "sightings": 261,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2017-01-01",
+        "sightings": 306,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2017-02-01",
+        "sightings": 361,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2017-03-01",
+        "sightings": 342,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2017-04-01",
+        "sightings": 363,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2017-05-01",
+        "sightings": 417,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2017-06-01",
+        "sightings": 376,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2017-07-01",
+        "sightings": 492,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2017-08-01",
+        "sightings": 481,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2017-09-01",
+        "sightings": 402,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2017-10-01",
+        "sightings": 462,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2017-11-01",
+        "sightings": 287,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2017-12-01",
+        "sightings": 218,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2018-01-01",
+        "sightings": 230,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2018-02-01",
+        "sightings": 253,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2018-03-01",
+        "sightings": 268,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2018-04-01",
+        "sightings": 343,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2018-05-01",
+        "sightings": 426,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2018-06-01",
+        "sightings": 442,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2018-07-01",
+        "sightings": 452,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2018-08-01",
+        "sightings": 460,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2018-09-01",
+        "sightings": 443,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2018-10-01",
+        "sightings": 459,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2018-11-01",
+        "sightings": 270,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2018-12-01",
+        "sightings": 250,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2019-01-01",
+        "sightings": 268,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2019-02-01",
+        "sightings": 229,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2019-03-01",
+        "sightings": 282,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2019-04-01",
+        "sightings": 398,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2019-05-01",
+        "sightings": 511,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2019-06-01",
+        "sightings": 474,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2019-07-01",
+        "sightings": 484,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2019-08-01",
+        "sightings": 456,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2019-09-01",
+        "sightings": 404,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2019-10-01",
+        "sightings": 357,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2019-11-01",
+        "sightings": 245,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2019-12-01",
+        "sightings": 210,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2020-01-01",
+        "sightings": 303,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2020-02-01",
+        "sightings": 303,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2020-03-01",
+        "sightings": 270,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2020-04-01",
+        "sightings": 284,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2020-05-01",
+        "sightings": 417,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2020-06-01",
+        "sightings": 366,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2020-07-01",
+        "sightings": 401,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2020-08-01",
+        "sightings": 481,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2020-09-01",
+        "sightings": 436,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2020-10-01",
+        "sightings": 372,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2020-11-01",
+        "sightings": 311,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2020-12-01",
+        "sightings": 236,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2021-01-01",
+        "sightings": 423,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "MANHATTAN",
+        "month": "2021-02-01",
+        "sightings": 180,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2010-01-01",
+        "sightings": 118,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2010-02-01",
+        "sightings": 107,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2010-03-01",
+        "sightings": 160,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2010-04-01",
+        "sightings": 173,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2010-05-01",
+        "sightings": 180,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2010-06-01",
+        "sightings": 210,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2010-07-01",
+        "sightings": 227,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2010-08-01",
+        "sightings": 236,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2010-09-01",
+        "sightings": 188,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2010-10-01",
+        "sightings": 208,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2010-11-01",
+        "sightings": 127,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2010-12-01",
+        "sightings": 133,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2011-01-01",
+        "sightings": 107,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2011-02-01",
+        "sightings": 145,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2011-03-01",
+        "sightings": 183,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2011-04-01",
+        "sightings": 199,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2011-05-01",
+        "sightings": 203,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2011-06-01",
+        "sightings": 206,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2011-07-01",
+        "sightings": 235,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2011-08-01",
+        "sightings": 215,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2011-09-01",
+        "sightings": 207,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2011-10-01",
+        "sightings": 191,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2011-11-01",
+        "sightings": 119,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2011-12-01",
+        "sightings": 164,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2012-01-01",
+        "sightings": 130,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2012-02-01",
+        "sightings": 137,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2012-03-01",
+        "sightings": 167,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2012-04-01",
+        "sightings": 163,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2012-05-01",
+        "sightings": 250,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2012-06-01",
+        "sightings": 209,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2012-07-01",
+        "sightings": 219,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2012-08-01",
+        "sightings": 216,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2012-09-01",
+        "sightings": 195,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2012-10-01",
+        "sightings": 183,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2012-11-01",
+        "sightings": 116,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2012-12-01",
+        "sightings": 140,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2013-01-01",
+        "sightings": 172,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2013-02-01",
+        "sightings": 141,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2013-03-01",
+        "sightings": 183,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2013-04-01",
+        "sightings": 193,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2013-05-01",
+        "sightings": 195,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2013-06-01",
+        "sightings": 191,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2013-07-01",
+        "sightings": 215,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2013-08-01",
+        "sightings": 199,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2013-09-01",
+        "sightings": 195,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2013-10-01",
+        "sightings": 163,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2013-11-01",
+        "sightings": 120,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2013-12-01",
+        "sightings": 153,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2014-01-01",
+        "sightings": 145,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2014-02-01",
+        "sightings": 139,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2014-03-01",
+        "sightings": 189,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2014-04-01",
+        "sightings": 215,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2014-05-01",
+        "sightings": 264,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2014-06-01",
+        "sightings": 273,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2014-07-01",
+        "sightings": 252,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2014-08-01",
+        "sightings": 288,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2014-09-01",
+        "sightings": 279,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2014-10-01",
+        "sightings": 290,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2014-11-01",
+        "sightings": 234,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2014-12-01",
+        "sightings": 175,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2015-01-01",
+        "sightings": 191,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2015-02-01",
+        "sightings": 148,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2015-03-01",
+        "sightings": 209,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2015-04-01",
+        "sightings": 249,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2015-05-01",
+        "sightings": 267,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2015-06-01",
+        "sightings": 301,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2015-07-01",
+        "sightings": 464,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2015-08-01",
+        "sightings": 312,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2015-09-01",
+        "sightings": 325,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2015-10-01",
+        "sightings": 298,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2015-11-01",
+        "sightings": 229,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2015-12-01",
+        "sightings": 208,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2016-01-01",
+        "sightings": 209,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2016-02-01",
+        "sightings": 241,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2016-03-01",
+        "sightings": 290,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2016-04-01",
+        "sightings": 233,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2016-05-01",
+        "sightings": 329,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2016-06-01",
+        "sightings": 327,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2016-07-01",
+        "sightings": 337,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2016-08-01",
+        "sightings": 346,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2016-09-01",
+        "sightings": 357,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2016-10-01",
+        "sightings": 334,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2016-11-01",
+        "sightings": 242,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2016-12-01",
+        "sightings": 252,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2017-01-01",
+        "sightings": 254,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2017-02-01",
+        "sightings": 379,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2017-03-01",
+        "sightings": 328,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2017-04-01",
+        "sightings": 345,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2017-05-01",
+        "sightings": 303,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2017-06-01",
+        "sightings": 338,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2017-07-01",
+        "sightings": 356,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2017-08-01",
+        "sightings": 326,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2017-09-01",
+        "sightings": 324,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2017-10-01",
+        "sightings": 329,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2017-11-01",
+        "sightings": 233,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2017-12-01",
+        "sightings": 231,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2018-01-01",
+        "sightings": 221,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2018-02-01",
+        "sightings": 218,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2018-03-01",
+        "sightings": 199,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2018-04-01",
+        "sightings": 236,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2018-05-01",
+        "sightings": 346,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2018-06-01",
+        "sightings": 286,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2018-07-01",
+        "sightings": 292,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2018-08-01",
+        "sightings": 327,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2018-09-01",
+        "sightings": 332,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2018-10-01",
+        "sightings": 327,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2018-11-01",
+        "sightings": 195,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2018-12-01",
+        "sightings": 156,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2019-01-01",
+        "sightings": 223,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2019-02-01",
+        "sightings": 237,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2019-03-01",
+        "sightings": 221,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2019-04-01",
+        "sightings": 225,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2019-05-01",
+        "sightings": 262,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2019-06-01",
+        "sightings": 244,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2019-07-01",
+        "sightings": 260,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2019-08-01",
+        "sightings": 309,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2019-09-01",
+        "sightings": 252,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2019-10-01",
+        "sightings": 253,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2019-11-01",
+        "sightings": 156,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2019-12-01",
+        "sightings": 148,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2020-01-01",
+        "sightings": 180,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2020-02-01",
+        "sightings": 136,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2020-03-01",
+        "sightings": 151,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2020-04-01",
+        "sightings": 131,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2020-05-01",
+        "sightings": 270,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2020-06-01",
+        "sightings": 258,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2020-07-01",
+        "sightings": 258,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2020-08-01",
+        "sightings": 305,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2020-09-01",
+        "sightings": 290,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2020-10-01",
+        "sightings": 331,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2020-11-01",
+        "sightings": 218,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2020-12-01",
+        "sightings": 234,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2021-01-01",
+        "sightings": 224,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "BRONX",
+        "month": "2021-02-01",
+        "sightings": 117,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2010-01-01",
+        "sightings": 73,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2010-02-01",
+        "sightings": 61,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2010-03-01",
+        "sightings": 105,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2010-04-01",
+        "sightings": 159,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2010-05-01",
+        "sightings": 143,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2010-06-01",
+        "sightings": 197,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2010-07-01",
+        "sightings": 210,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2010-08-01",
+        "sightings": 216,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2010-09-01",
+        "sightings": 155,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2010-10-01",
+        "sightings": 115,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2010-11-01",
+        "sightings": 81,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2010-12-01",
+        "sightings": 54,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2011-01-01",
+        "sightings": 50,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2011-02-01",
+        "sightings": 71,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2011-03-01",
+        "sightings": 101,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2011-04-01",
+        "sightings": 124,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2011-05-01",
+        "sightings": 174,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2011-06-01",
+        "sightings": 218,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2011-07-01",
+        "sightings": 170,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2011-08-01",
+        "sightings": 206,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2011-09-01",
+        "sightings": 178,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2011-10-01",
+        "sightings": 137,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2011-11-01",
+        "sightings": 98,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2011-12-01",
+        "sightings": 73,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2012-01-01",
+        "sightings": 83,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2012-02-01",
+        "sightings": 73,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2012-03-01",
+        "sightings": 117,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2012-04-01",
+        "sightings": 116,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2012-05-01",
+        "sightings": 144,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2012-06-01",
+        "sightings": 170,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2012-07-01",
+        "sightings": 173,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2012-08-01",
+        "sightings": 208,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2012-09-01",
+        "sightings": 174,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2012-10-01",
+        "sightings": 114,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2012-11-01",
+        "sightings": 69,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2012-12-01",
+        "sightings": 81,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2013-01-01",
+        "sightings": 78,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2013-02-01",
+        "sightings": 81,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2013-03-01",
+        "sightings": 102,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2013-04-01",
+        "sightings": 156,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2013-05-01",
+        "sightings": 246,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2013-06-01",
+        "sightings": 175,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2013-07-01",
+        "sightings": 214,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2013-08-01",
+        "sightings": 204,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2013-09-01",
+        "sightings": 156,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2013-10-01",
+        "sightings": 120,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2013-11-01",
+        "sightings": 76,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2013-12-01",
+        "sightings": 52,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2014-01-01",
+        "sightings": 63,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2014-02-01",
+        "sightings": 67,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2014-03-01",
+        "sightings": 113,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2014-04-01",
+        "sightings": 128,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2014-05-01",
+        "sightings": 153,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2014-06-01",
+        "sightings": 222,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2014-07-01",
+        "sightings": 223,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2014-08-01",
+        "sightings": 229,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2014-09-01",
+        "sightings": 195,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2014-10-01",
+        "sightings": 170,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2014-11-01",
+        "sightings": 97,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2014-12-01",
+        "sightings": 88,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2015-01-01",
+        "sightings": 86,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2015-02-01",
+        "sightings": 86,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2015-03-01",
+        "sightings": 162,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2015-04-01",
+        "sightings": 162,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2015-05-01",
+        "sightings": 200,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2015-06-01",
+        "sightings": 210,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2015-07-01",
+        "sightings": 292,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2015-08-01",
+        "sightings": 228,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2015-09-01",
+        "sightings": 220,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2015-10-01",
+        "sightings": 198,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2015-11-01",
+        "sightings": 135,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2015-12-01",
+        "sightings": 124,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2016-01-01",
+        "sightings": 123,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2016-02-01",
+        "sightings": 142,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2016-03-01",
+        "sightings": 167,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2016-04-01",
+        "sightings": 162,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2016-05-01",
+        "sightings": 254,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2016-06-01",
+        "sightings": 268,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2016-07-01",
+        "sightings": 248,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2016-08-01",
+        "sightings": 307,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2016-09-01",
+        "sightings": 261,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2016-10-01",
+        "sightings": 211,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2016-11-01",
+        "sightings": 143,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2016-12-01",
+        "sightings": 124,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2017-01-01",
+        "sightings": 181,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2017-02-01",
+        "sightings": 225,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2017-03-01",
+        "sightings": 210,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2017-04-01",
+        "sightings": 228,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2017-05-01",
+        "sightings": 220,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2017-06-01",
+        "sightings": 271,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2017-07-01",
+        "sightings": 383,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2017-08-01",
+        "sightings": 331,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2017-09-01",
+        "sightings": 272,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2017-10-01",
+        "sightings": 234,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2017-11-01",
+        "sightings": 165,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2017-12-01",
+        "sightings": 142,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2018-01-01",
+        "sightings": 125,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2018-02-01",
+        "sightings": 161,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2018-03-01",
+        "sightings": 159,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2018-04-01",
+        "sightings": 185,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2018-05-01",
+        "sightings": 306,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2018-06-01",
+        "sightings": 298,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2018-07-01",
+        "sightings": 278,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2018-08-01",
+        "sightings": 296,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2018-09-01",
+        "sightings": 233,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2018-10-01",
+        "sightings": 250,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2018-11-01",
+        "sightings": 157,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2018-12-01",
+        "sightings": 158,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2019-01-01",
+        "sightings": 147,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2019-02-01",
+        "sightings": 145,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2019-03-01",
+        "sightings": 182,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2019-04-01",
+        "sightings": 195,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2019-05-01",
+        "sightings": 232,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2019-06-01",
+        "sightings": 272,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2019-07-01",
+        "sightings": 308,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2019-08-01",
+        "sightings": 332,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2019-09-01",
+        "sightings": 275,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2019-10-01",
+        "sightings": 186,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2019-11-01",
+        "sightings": 133,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2019-12-01",
+        "sightings": 115,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2020-01-01",
+        "sightings": 146,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2020-02-01",
+        "sightings": 146,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2020-03-01",
+        "sightings": 156,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2020-04-01",
+        "sightings": 143,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2020-05-01",
+        "sightings": 272,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2020-06-01",
+        "sightings": 309,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2020-07-01",
+        "sightings": 341,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2020-08-01",
+        "sightings": 324,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2020-09-01",
+        "sightings": 265,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2020-10-01",
+        "sightings": 271,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2020-11-01",
+        "sightings": 194,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2020-12-01",
+        "sightings": 144,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2021-01-01",
+        "sightings": 158,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "QUEENS",
+        "month": "2021-02-01",
+        "sightings": 85,
+        "change": "INCREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2010-01-01",
+        "sightings": 33,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2010-02-01",
+        "sightings": 8,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2010-03-01",
+        "sightings": 27,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2010-04-01",
+        "sightings": 49,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2010-05-01",
+        "sightings": 94,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2010-06-01",
+        "sightings": 83,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2010-07-01",
+        "sightings": 101,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2010-08-01",
+        "sightings": 91,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2010-09-01",
+        "sightings": 65,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2010-10-01",
+        "sightings": 41,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2010-11-01",
+        "sightings": 27,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2010-12-01",
+        "sightings": 13,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2011-01-01",
+        "sightings": 14,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2011-02-01",
+        "sightings": 21,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2011-03-01",
+        "sightings": 50,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2011-04-01",
+        "sightings": 47,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2011-05-01",
+        "sightings": 61,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2011-06-01",
+        "sightings": 90,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2011-07-01",
+        "sightings": 59,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2011-08-01",
+        "sightings": 66,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2011-09-01",
+        "sightings": 64,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2011-10-01",
+        "sightings": 36,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2011-11-01",
+        "sightings": 28,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2011-12-01",
+        "sightings": 12,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2012-01-01",
+        "sightings": 19,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2012-02-01",
+        "sightings": 30,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2012-03-01",
+        "sightings": 37,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2012-04-01",
+        "sightings": 34,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2012-05-01",
+        "sightings": 64,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2012-06-01",
+        "sightings": 59,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2012-07-01",
+        "sightings": 79,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2012-08-01",
+        "sightings": 92,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2012-09-01",
+        "sightings": 53,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2012-10-01",
+        "sightings": 40,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2012-11-01",
+        "sightings": 11,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2012-12-01",
+        "sightings": 20,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2013-01-01",
+        "sightings": 30,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2013-02-01",
+        "sightings": 35,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2013-03-01",
+        "sightings": 58,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2013-04-01",
+        "sightings": 74,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2013-05-01",
+        "sightings": 71,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2013-06-01",
+        "sightings": 69,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2013-07-01",
+        "sightings": 73,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2013-08-01",
+        "sightings": 73,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2013-09-01",
+        "sightings": 60,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2013-10-01",
+        "sightings": 60,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2013-11-01",
+        "sightings": 27,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2013-12-01",
+        "sightings": 11,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2014-01-01",
+        "sightings": 9,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2014-02-01",
+        "sightings": 17,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2014-03-01",
+        "sightings": 43,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2014-04-01",
+        "sightings": 54,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2014-05-01",
+        "sightings": 87,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2014-06-01",
+        "sightings": 88,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2014-07-01",
+        "sightings": 72,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2014-08-01",
+        "sightings": 91,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2014-09-01",
+        "sightings": 54,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2014-10-01",
+        "sightings": 61,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2014-11-01",
+        "sightings": 15,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2014-12-01",
+        "sightings": 26,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2015-01-01",
+        "sightings": 14,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2015-02-01",
+        "sightings": 19,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2015-03-01",
+        "sightings": 43,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2015-04-01",
+        "sightings": 56,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2015-05-01",
+        "sightings": 54,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2015-06-01",
+        "sightings": 76,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2015-07-01",
+        "sightings": 94,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2015-08-01",
+        "sightings": 73,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2015-09-01",
+        "sightings": 63,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2015-10-01",
+        "sightings": 50,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2015-11-01",
+        "sightings": 27,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2015-12-01",
+        "sightings": 25,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2016-01-01",
+        "sightings": 23,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2016-02-01",
+        "sightings": 19,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2016-03-01",
+        "sightings": 48,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2016-04-01",
+        "sightings": 52,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2016-05-01",
+        "sightings": 81,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2016-06-01",
+        "sightings": 102,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2016-07-01",
+        "sightings": 115,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2016-08-01",
+        "sightings": 104,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2016-09-01",
+        "sightings": 73,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2016-10-01",
+        "sightings": 59,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2016-11-01",
+        "sightings": 29,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2016-12-01",
+        "sightings": 29,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2017-01-01",
+        "sightings": 34,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2017-02-01",
+        "sightings": 37,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2017-03-01",
+        "sightings": 36,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2017-04-01",
+        "sightings": 49,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2017-05-01",
+        "sightings": 81,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2017-06-01",
+        "sightings": 127,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2017-07-01",
+        "sightings": 115,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2017-08-01",
+        "sightings": 100,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2017-09-01",
+        "sightings": 72,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2017-10-01",
+        "sightings": 65,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2017-11-01",
+        "sightings": 38,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2017-12-01",
+        "sightings": 30,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2018-01-01",
+        "sightings": 30,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2018-02-01",
+        "sightings": 36,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2018-03-01",
+        "sightings": 49,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2018-04-01",
+        "sightings": 50,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2018-05-01",
+        "sightings": 92,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2018-06-01",
+        "sightings": 100,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2018-07-01",
+        "sightings": 99,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2018-08-01",
+        "sightings": 99,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2018-09-01",
+        "sightings": 74,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2018-10-01",
+        "sightings": 61,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2018-11-01",
+        "sightings": 25,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2018-12-01",
+        "sightings": 30,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2019-01-01",
+        "sightings": 29,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2019-02-01",
+        "sightings": 38,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2019-03-01",
+        "sightings": 28,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2019-04-01",
+        "sightings": 45,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2019-05-01",
+        "sightings": 63,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2019-06-01",
+        "sightings": 140,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2019-07-01",
+        "sightings": 101,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2019-08-01",
+        "sightings": 95,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2019-09-01",
+        "sightings": 74,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2019-10-01",
+        "sightings": 66,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2019-11-01",
+        "sightings": 44,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2019-12-01",
+        "sightings": 37,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2020-01-01",
+        "sightings": 32,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2020-02-01",
+        "sightings": 41,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2020-03-01",
+        "sightings": 33,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2020-04-01",
+        "sightings": 23,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2020-05-01",
+        "sightings": 70,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2020-06-01",
+        "sightings": 80,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2020-07-01",
+        "sightings": 74,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2020-08-01",
+        "sightings": 92,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2020-09-01",
+        "sightings": 62,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2020-10-01",
+        "sightings": 45,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2020-11-01",
+        "sightings": 27,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2020-12-01",
+        "sightings": 35,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2021-01-01",
+        "sightings": 33,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "month": "2021-02-01",
+        "sightings": 17,
+        "change": "DECREASE"
+      },
+      {
+        "borough": "Unspecified",
+        "month": "2012-05-01",
+        "sightings": 1,
+        "change": "NO CHANGE"
+      },
+      {
+        "borough": "Unspecified",
+        "month": "2018-04-01",
+        "sightings": 3,
+        "change": "NO CHANGE"
+      },
+      {
+        "borough": "Unspecified",
+        "month": "2019-05-01",
+        "sightings": 1,
+        "change": "NO CHANGE"
+      },
+      {
+        "borough": "Unspecified",
+        "month": "2019-07-01",
+        "sightings": 2,
+        "change": "NO CHANGE"
+      },
+      {
+        "borough": "Unspecified",
+        "month": "2019-08-01",
+        "sightings": 1,
+        "change": "NO CHANGE"
+      },
+      {
+        "borough": "Unspecified",
+        "month": "2020-09-01",
+        "sightings": 1,
+        "change": "NO CHANGE"
+      }
+    ]
+  },
+  "cloud_checks": [
+    {
+      "state": "default",
+      "role": "author",
+      "csv_cells": 670,
+      "raw_monthly_counts_and_change": "pass",
+      "file": "outputs\\cloud-author-borough.csv",
+      "sha256": "7546653814729975bc72ee6d705ff0785a5c224a18c12153f0ad4f8dfe75eb7b"
+    },
+    {
+      "state": "default",
+      "role": "replica",
+      "csv_cells": 670,
+      "raw_monthly_counts_and_change": "pass",
+      "file": "outputs\\cloud-replica-borough.csv",
+      "sha256": "f7dedcc4908aa33477d9c0dde145cde5bd2f3b1da9d2adf3ef76081e9d97c32a"
+    },
+    {
+      "state": "exclude-brooklyn",
+      "role": "author",
+      "csv_cells": 542,
+      "raw_monthly_counts_and_change": "pass",
+      "file": "outputs\\cloud-author-borough-exclude-brooklyn.csv",
+      "sha256": "75fac5027f2db4c37e1a0e5cd40c15805c7ecff3391234f85085b4d0a0bb30b2"
+    },
+    {
+      "state": "exclude-brooklyn",
+      "role": "replica",
+      "csv_cells": 542,
+      "raw_monthly_counts_and_change": "pass",
+      "file": "outputs\\cloud-replica-borough-exclude-brooklyn.csv",
+      "sha256": "e902a074acd5b890798376087b2ff63c85f4288d84ce71af9ddab1b3ca69627c"
+    }
+  ],
+  "extension_contract": "Real identity, HTTPS sandbox endpoint, settings, bound sheet 0 and configuration menu verified",
+  "browser_interaction_executed": false
+}

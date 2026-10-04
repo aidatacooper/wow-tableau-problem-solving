@@ -1,0 +1,654 @@
+City,State,+ve Profit,-ve Profit,Profit +ve?,State Abbrev,Latitude (generated),Longitude (generated),Profit
+,Alabama,,,,,32.75,-86.75,"$5,787"
+,Arizona,,,,,34.5,-111.5,"($3,428)"
+,Arkansas,,,,,34.75,-92.5,"$4,009"
+,California,,,,,37.25,-119.75,"$76,381"
+,Colorado,,,,,39,-105.5,"($6,528)"
+,Connecticut,,,,,41.6227,-72.7028,"$3,511"
+,Delaware,,,,,38.6716,-75.4165,"$9,977"
+,District of Columbia,,,,,38.91,-77,"$1,060"
+,Florida,,,,,28.42,-81.55,"($3,399)"
+,Georgia,,,,,32.1598,-83.4715,"$16,250"
+,Idaho,,,,,44.0739,-114.542,$827
+,Illinois,,,,,40,-89.25,"($12,608)"
+,Indiana,,,,,40,-86.25,"$18,383"
+,Iowa,,,,,42,-93.5,"$1,184"
+,Kansas,,,,,38.5,-98.5,$836
+,Kentucky,,,,,37.79,-84.87,"$11,200"
+,Louisiana,,,,,30.6935,-92.241,"$2,196"
+,Maine,,,,,45.5,-69.24,$454
+,Maryland,,,,,39.4444,-77.0834,"$7,031"
+,Massachusetts,,,,,42.3616,-72.1839,"$6,786"
+,Michigan,,,,,43.1045,-84.6165,"$24,463"
+,Minnesota,,,,,46.25,-94.25,"$10,823"
+,Mississippi,,,,,33.503,-89.8071,"$3,173"
+,Missouri,,,,,38.25,-92.5,"$6,436"
+,Montana,,,,,47,-109.75,"$1,833"
+,Nebraska,,,,,41.5,-99.75,"$2,037"
+,Nevada,,,,,39.25,-116.75,"$3,317"
+,New Hampshire,,,,,43.66,-71.49,"$1,707"
+,New Jersey,,,,,40.16,-74.49,"$9,773"
+,New Mexico,,,,,34.5,-106,"$1,157"
+,New York,,,,,43,-75.49,"$74,039"
+,North Carolina,,,,,35.5,-80,"($7,491)"
+,North Dakota,,,,,47.5,-100,$230
+,Ohio,,,,,40.25,-83,"($16,971)"
+,Oklahoma,,,,,35.5,-97.5,"$4,854"
+,Oregon,,,,,44,-120.5,"($1,190)"
+,Pennsylvania,,,,,40.86,-77.9,"($15,560)"
+,Rhode Island,,,,,41.4966,-71.4757,"$7,286"
+,South Carolina,,,,,34,-81,"$1,769"
+,South Dakota,,,,,44.5,-100.25,$395
+,Tennessee,,,,,35.75,-86.25,"($5,342)"
+,Texas,,,,,31.25,-99.25,"($25,729)"
+,Utah,,,,,39.25,-111.75,"$2,547"
+,Vermont,,,,,44.1584,-72.7678,"$2,245"
+,Virginia,,,,,37.77,-78.24,"$18,598"
+,Washington,,,,,47.5,-120.5,"$33,403"
+,West Virginia,,,,,38.63,-80.73,$186
+,Wisconsin,,,,,44.5,-90,"$8,402"
+,Wyoming,,,,,43,-107.5,$100
+Aberdeen,South Dakota,$7,,True,SD,45.465,-98.4878,$7
+Abilene,Texas,,($4),False,TX,32.4465,-99.7333,($4)
+Akron,Ohio,,($187),False,OH,41.0831,-81.5185,($187)
+Albuquerque,New Mexico,$634,,True,NM,35.0841,-106.651,$634
+Alexandria,Virginia,$319,,True,VA,38.8051,-77.047,$319
+Allen,Texas,,($40),False,TX,33.1032,-96.6706,($40)
+Allentown,Pennsylvania,,($226),False,PA,40.6022,-75.4713,($226)
+Altoona,Pennsylvania,,($1),False,PA,40.5187,-78.3947,($1)
+Amarillo,Texas,,($388),False,TX,35.2072,-101.8338,($388)
+Anaheim,California,"$1,234",,True,CA,33.8348,-117.9117,"$1,234"
+Andover,Massachusetts,$124,,True,MA,42.6572,-71.1409,$124
+Ann Arbor,Michigan,$229,,True,MI,42.2682,-83.7312,$229
+Antioch,California,$9,,True,CA,38.0049,-121.8058,$9
+Apopka,Florida,$54,,True,FL,28.678,-81.5115,$54
+Apple Valley,California,$284,,True,CA,34.5008,-117.1859,$284
+Apple Valley,Minnesota,$9,,True,MN,44.7319,-93.2177,$9
+Appleton,Wisconsin,$555,,True,WI,44.2611,-88.4068,$555
+Arlington,Texas,,($254),False,TX,32.7356,-97.1071,($254)
+Arlington,Virginia,"$4,424",,True,VA,38.8769,-77.0893,"$4,424"
+Arlington Heights,Illinois,$1,,True,IL,42.0813,-87.9801,$1
+Arvada,Colorado,$60,,True,CO,39.8028,-105.0875,$60
+Asheville,North Carolina,$78,,True,NC,35.6009,-82.554,$78
+Athens,Georgia,$479,,True,GA,33.9596,-83.3767,$479
+Atlanta,Georgia,"$6,994",,True,GA,33.7491,-84.3902,"$6,994"
+Atlantic City,New Jersey,$12,,True,NJ,39.3643,-74.4229,$12
+Auburn,Alabama,$453,,True,AL,32.6099,-85.4808,$453
+Auburn,New York,$281,,True,NY,42.932,-76.5672,$281
+Auburn,Washington,$2,,True,WA,47.3075,-122.2302,$2
+Aurora,Colorado,,($797),False,CO,39.7294,-104.8319,($797)
+Aurora,Illinois,,"($1,895)",False,IL,41.7606,-88.3201,"($1,895)"
+Austin,Texas,,($20),False,TX,30.2711,-97.7437,($20)
+Avondale,Arizona,$76,,True,AZ,33.4359,-112.3405,$76
+Bakersfield,California,$188,,True,CA,35.3739,-119.0195,$188
+Baltimore,Maryland,"$1,676",,True,MD,39.2909,-76.6108,"$1,676"
+Bangor,Maine,$422,,True,ME,44.8012,-68.7778,$422
+Bartlett,Tennessee,$10,,True,TN,35.2045,-89.874,$10
+Bayonne,New Jersey,$79,,True,NJ,40.6687,-74.1143,$79
+Baytown,Texas,$4,,True,TX,29.7355,-94.9774,$4
+Beaumont,Texas,$59,,True,TX,30.086,-94.1018,$59
+Bedford,Texas,$11,,True,TX,32.844,-97.1431,$11
+Belleville,New Jersey,$284,,True,NJ,40.7937,-74.1501,$284
+Bellevue,Washington,$37,,True,WA,47.6144,-122.1923,$37
+Bellingham,Washington,$611,,True,WA,48.7544,-122.4789,$611
+Bethlehem,Pennsylvania,,"($1,003)",False,PA,40.6179,-75.3787,"($1,003)"
+Beverly,Massachusetts,$655,,True,MA,42.5584,-70.88,$655
+Billings,Montana,$3,,True,MT,45.7875,-108.4961,$3
+Bloomington,Illinois,,($432),False,IL,40.4731,-88.9941,($432)
+Bloomington,Indiana,$183,,True,IN,39.167,-86.5343,$183
+Boca Raton,Florida,,($23),False,FL,26.3587,-80.0831,($23)
+Boise,Idaho,$222,,True,ID,43.615,-116.2044,$222
+Bolingbrook,Illinois,,($5),False,IL,41.7003,-88.0718,($5)
+Bossier City,Louisiana,$337,,True,LA,32.516,-93.7321,$337
+Bowling Green,Kentucky,$67,,True,KY,36.9903,-86.4436,$67
+Bowling Green,Ohio,$150,,True,OH,41.3748,-83.6513,$150
+Boynton Beach,Florida,$51,,True,FL,26.5253,-80.0664,$51
+Bozeman,Montana,$21,,True,MT,45.68,-111.0447,$21
+Brentwood,California,"$1,217",,True,CA,37.9318,-121.696,"$1,217"
+Bridgeton,New Jersey,$3,,True,NJ,39.4273,-75.2341,$3
+Bristol,Connecticut,$208,,True,CT,41.6736,-72.9464,$208
+Bristol,Tennessee,,($127),False,TN,36.5951,-82.1887,($127)
+Broken Arrow,Oklahoma,$576,,True,OK,36.0526,-95.7908,$576
+Broomfield,Colorado,$62,,True,CO,39.938,-105.0587,$62
+Brownsville,Texas,$202,,True,TX,25.914,-97.4891,$202
+Bryan,Texas,,($214),False,TX,30.6744,-96.37,($214)
+Buffalo,New York,$993,,True,NY,42.9333,-78.877,$993
+Buffalo Grove,Illinois,,($90),False,IL,42.14,-87.98,($90)
+Bullhead City,Arizona,$7,,True,AZ,35.1478,-114.5683,$7
+Burbank,California,$765,,True,CA,34.1816,-118.3259,$765
+Burlington,Iowa,$27,,True,IA,40.8075,-91.1129,$27
+Burlington,North Carolina,,"($5,895)",False,NC,36.0957,-79.4378,"($5,895)"
+Burlington,Vermont,"$2,245",,True,VT,44.4724,-73.2115,"$2,245"
+Caldwell,Idaho,$59,,True,ID,43.6679,-116.6894,$59
+Camarillo,California,$159,,True,CA,34.2164,-119.0376,$159
+Cambridge,Massachusetts,$174,,True,MA,42.3751,-71.1056,$174
+Canton,Michigan,$149,,True,MI,42.3074,-83.4869,$149
+Carlsbad,New Mexico,$158,,True,NM,32.4207,-104.2288,$158
+Carol Stream,Illinois,,($40),False,IL,41.9125,-88.1348,($40)
+Carrollton,Texas,,($470),False,TX,33.001,-96.8922,($470)
+Cary,North Carolina,$54,,True,NC,35.7883,-78.7812,$54
+Cedar Hill,Texas,$43,,True,TX,32.5889,-96.9559,$43
+Cedar Rapids,Iowa,$81,,True,IA,41.9759,-91.6704,$81
+Champaign,Illinois,,($182),False,IL,40.1164,-88.2434,($182)
+Chandler,Arizona,$81,,True,AZ,33.3067,-111.8408,$81
+Chapel Hill,North Carolina,$5,,True,NC,35.9132,-79.0558,$5
+Charlotte,North Carolina,,($430),False,NC,35.2271,-80.8431,($430)
+Charlottesville,Virginia,$23,,True,VA,38.0293,-78.4767,$23
+Chattanooga,Tennessee,$27,,True,TN,35.0456,-85.3097,$27
+Chesapeake,Virginia,"$1,263",,True,VA,36.7184,-76.2467,"$1,263"
+Chester,Pennsylvania,$48,,True,PA,39.8496,-75.3557,$48
+Cheyenne,Wyoming,$100,,True,WY,41.14,-104.8202,$100
+Chicago,Illinois,,"($6,655)",False,IL,41.8756,-87.6244,"($6,655)"
+Chico,California,$205,,True,CA,39.7285,-121.8375,$205
+Chula Vista,California,$248,,True,CA,32.6401,-117.0842,$248
+Cincinnati,Ohio,$175,,True,OH,39.1015,-84.5125,$175
+Citrus Heights,California,$54,,True,CA,38.7071,-121.2811,$54
+Clarksville,Tennessee,,"($1,055)",False,TN,36.5286,-87.3099,"($1,055)"
+Cleveland,Ohio,,($848),False,OH,41.5052,-81.6934,($848)
+Clifton,New Jersey,$99,,True,NJ,40.8584,-74.1638,$99
+Clinton,Maryland,"$1,274",,True,MD,38.7651,-76.8983,"$1,274"
+Clovis,New Mexico,$12,,True,NM,34.4055,-103.2051,$12
+Coachella,California,$47,,True,CA,33.6796,-116.1763,$47
+College Station,Texas,,($118),False,TX,30.6263,-96.3347,($118)
+Colorado Springs,Colorado,,($957),False,CO,38.834,-104.8253,($957)
+Columbia,Maryland,"$3,775",,True,MD,39.2156,-76.8582,"$3,775"
+Columbia,Missouri,"$1,107",,True,MO,38.9519,-92.3337,"$1,107"
+Columbia,South Carolina,"$1,388",,True,SC,34.0007,-81.0343,"$1,388"
+Columbia,Tennessee,,($664),False,TN,35.6151,-87.0353,($664)
+Columbus,Georgia,"$4,104",,True,GA,32.461,-84.9877,"$4,104"
+Columbus,Indiana,"$2,522",,True,IN,39.2014,-85.9214,"$2,522"
+Columbus,Ohio,,($730),False,OH,39.9623,-83.0007,($730)
+Commerce City,Colorado,,($33),False,CO,39.8083,-104.9339,($33)
+Concord,California,$282,,True,CA,37.978,-122.0311,$282
+Concord,New Hampshire,$788,,True,NH,43.2071,-71.537,$788
+Concord,North Carolina,,"($1,789)",False,NC,35.4094,-80.5797,"($1,789)"
+Conroe,Texas,$7,,True,TX,30.3119,-95.4561,$7
+Conway,Arkansas,$45,,True,AR,35.0887,-92.4421,$45
+Coon Rapids,Minnesota,$136,,True,MN,45.12,-93.2877,$136
+Coppell,Texas,$41,,True,TX,32.9553,-97.0156,$41
+Coral Gables,Florida,$22,,True,FL,25.7215,-80.2684,$22
+Coral Springs,Florida,$19,,True,FL,26.2712,-80.2706,$19
+Corpus Christi,Texas,,($44),False,TX,27.8003,-97.3956,($44)
+Costa Mesa,California,$297,,True,CA,33.6633,-117.9033,$297
+Cottage Grove,Minnesota,$55,,True,MN,44.8277,-92.9438,$55
+Covington,Washington,$115,,True,WA,47.3658,-122.1002,$115
+Cranston,Rhode Island,$637,,True,RI,41.781,-71.4371,$637
+Cuyahoga Falls,Ohio,,($13),False,OH,41.1348,-81.4848,($13)
+Dallas,Texas,,"($2,847)",False,TX,32.7763,-96.7969,"($2,847)"
+Danbury,Connecticut,$10,,True,CT,41.3948,-73.454,$10
+Danville,California,$282,,True,CA,37.8216,-122,$282
+Danville,Illinois,,($69),False,IL,40.1252,-87.6305,($69)
+Davis,California,$16,,True,CA,38.5454,-121.7446,$16
+Daytona Beach,Florida,,($52),False,FL,29.2108,-81.0228,($52)
+Dearborn,Michigan,$467,,True,MI,42.3223,-83.1763,$467
+Dearborn Heights,Michigan,$141,,True,MI,42.337,-83.2733,$141
+Decatur,Alabama,"$1,000",,True,AL,34.6059,-86.9833,"$1,000"
+Decatur,Illinois,,($311),False,IL,39.8454,-88.9524,($311)
+Deer Park,Texas,,($10),False,TX,29.7052,-95.1238,($10)
+Delray Beach,Florida,$29,,True,FL,26.4615,-80.0728,$29
+Deltona,Florida,$122,,True,FL,28.9005,-81.2637,$122
+Denver,Colorado,,($245),False,CO,39.7348,-104.9653,($245)
+Des Moines,Iowa,$360,,True,IA,41.5911,-93.6037,$360
+Des Moines,Washington,"$1,250",,True,WA,47.3988,-122.3099,"$1,250"
+Des Plaines,Illinois,,($237),False,IL,42.0416,-87.8874,($237)
+Detroit,Michigan,"$13,182",,True,MI,42.3487,-83.0567,"$13,182"
+Dover,Delaware,$116,,True,DE,39.1582,-75.5244,$116
+Dover,New Hampshire,$905,,True,NH,43.1981,-70.8739,$905
+Draper,Utah,$93,,True,UT,40.5247,-111.8638,$93
+Dublin,California,$1,,True,CA,37.7022,-121.9358,$1
+Dublin,Ohio,,($351),False,OH,40.0992,-83.1141,($351)
+Dubuque,Iowa,$478,,True,IA,42.5006,-90.6648,$478
+Durham,North Carolina,$117,,True,NC,35.994,-78.8986,$117
+Eagan,Minnesota,$87,,True,MN,44.8182,-93.1659,$87
+East Orange,New Jersey,$175,,True,NJ,40.7673,-74.2049,$175
+East Point,Georgia,$102,,True,GA,33.6796,-84.4394,$102
+Eau Claire,Wisconsin,$427,,True,WI,44.8113,-91.4985,$427
+Edinburg,Texas,$28,,True,TX,26.3014,-98.1625,$28
+Edmond,Oklahoma,$243,,True,OK,35.6571,-97.4649,$243
+Edmonds,Washington,$634,,True,WA,47.8106,-122.3775,$634
+El Cajon,California,$53,,True,CA,32.7948,-116.9625,$53
+El Paso,Texas,,($180),False,TX,31.8064,-106.2221,($180)
+Elkhart,Indiana,$17,,True,IN,41.682,-85.9767,$17
+Elmhurst,Illinois,,($212),False,IL,41.8995,-87.9403,($212)
+Elyria,Ohio,,($1),False,OH,41.3684,-82.1076,($1)
+Encinitas,California,$71,,True,CA,33.037,-117.292,$71
+Englewood,Colorado,$14,,True,CO,39.6482,-104.988,$14
+Escondido,California,$28,,True,CA,33.1217,-117.0815,$28
+Eugene,Oregon,$134,,True,OR,44.0505,-123.0951,$134
+Evanston,Illinois,$412,,True,IL,42.0447,-87.693,$412
+Everett,Massachusetts,"$1,360",,True,MA,42.4084,-71.0537,"$1,360"
+Everett,Washington,$1,,True,WA,47.9673,-122.2014,$1
+Fairfield,California,$118,,True,CA,38.2494,-122.04,$118
+Fairfield,Connecticut,"$1,222",,True,CT,41.1412,-73.2637,"$1,222"
+Fairfield,Ohio,,($129),False,OH,39.3459,-84.5605,($129)
+Fargo,North Dakota,$230,,True,ND,46.8772,-96.7898,$230
+Farmington,New Mexico,$169,,True,NM,36.7304,-108.2089,$169
+Fayetteville,Arkansas,"$1,692",,True,AR,36.0626,-94.1574,"$1,692"
+Fayetteville,North Carolina,$127,,True,NC,35.053,-78.8787,$127
+Florence,Alabama,$249,,True,AL,34.7998,-87.6773,$249
+Florence,Kentucky,"$1,837",,True,KY,38.9989,-84.6266,"$1,837"
+Florence,South Carolina,$83,,True,SC,34.1984,-79.7672,$83
+Fort Collins,Colorado,,($253),False,CO,40.5509,-105.0668,($253)
+Fort Lauderdale,Florida,,($161),False,FL,26.1223,-80.1434,($161)
+Fort Worth,Texas,$299,,True,TX,32.7532,-97.3327,$299
+Frankfort,Illinois,,($26),False,IL,41.4959,-87.8487,($26)
+Franklin,Massachusetts,$465,,True,MA,42.0834,-71.3967,$465
+Franklin,Tennessee,,($93),False,TN,35.9252,-86.8689,($93)
+Franklin,Wisconsin,"$1,293",,True,WI,42.8886,-88.0384,"$1,293"
+Freeport,Illinois,,($127),False,IL,42.2967,-89.6212,($127)
+Freeport,New York,$107,,True,NY,40.6576,-73.5832,$107
+Fremont,Nebraska,$179,,True,NE,41.4338,-96.4985,$179
+Fresno,California,$948,,True,CA,36.6714,-119.8155,$948
+Frisco,Texas,,($19),False,TX,33.1507,-96.8236,($19)
+Gaithersburg,Maryland,$106,,True,MD,39.1434,-77.2014,$106
+Garden City,Kansas,$91,,True,KS,37.9717,-100.8727,$91
+Garland,Texas,,($32),False,TX,32.9126,-96.6389,($32)
+Gastonia,North Carolina,,($15),False,NC,35.2621,-81.1873,($15)
+Georgetown,Kentucky,$403,,True,KY,38.2098,-84.5588,$403
+Gilbert,Arizona,$138,,True,AZ,33.3528,-111.789,$138
+Gladstone,Missouri,$53,,True,MO,39.2039,-94.5547,$53
+Glendale,Arizona,$183,,True,AZ,33.539,-112.1858,$183
+Glenview,Illinois,$14,,True,IL,42.0701,-87.8114,$14
+Goldsboro,North Carolina,$3,,True,NC,35.3849,-77.9928,$3
+Grand Island,Nebraska,$8,,True,NE,40.9243,-98.3387,$8
+Grand Prairie,Texas,,($85),False,TX,32.746,-96.9978,($85)
+Grand Rapids,Michigan,$234,,True,MI,42.9632,-85.6679,$234
+Grapevine,Texas,$9,,True,TX,32.9343,-97.0781,$9
+Great Falls,Montana,"$1,583",,True,MT,47.5049,-111.2919,"$1,583"
+Greeley,Colorado,$10,,True,CO,40.4233,-104.7091,$10
+Green Bay,Wisconsin,$228,,True,WI,44.5299,-88.0248,$228
+Greensboro,North Carolina,,($123),False,NC,36.0726,-79.792,($123)
+Greenville,North Carolina,,($549),False,NC,35.6127,-77.3664,($549)
+Greenwood,Indiana,$472,,True,IN,39.6137,-86.1067,$472
+Gresham,Oregon,$151,,True,OR,45.5067,-122.4367,$151
+Grove City,Ohio,$13,,True,OH,39.8815,-83.093,$13
+Gulfport,Mississippi,$78,,True,MS,30.3674,-89.0928,$78
+Hackensack,New Jersey,$451,,True,NJ,40.8859,-74.0435,$451
+Hagerstown,Maryland,$21,,True,MD,39.6419,-77.7203,$21
+Haltom City,Texas,$52,,True,TX,32.7996,-97.2692,$52
+Hamilton,Ohio,,($9),False,OH,39.3995,-84.5613,($9)
+Hampton,Virginia,$954,,True,VA,37.0301,-76.3452,$954
+Harlingen,Texas,$18,,True,TX,26.1906,-97.6961,$18
+Harrisonburg,Virginia,$890,,True,VA,38.4493,-78.8689,$890
+Hattiesburg,Mississippi,$582,,True,MS,31.3271,-89.2903,$582
+Helena,Montana,$75,,True,MT,46.5927,-112.0361,$75
+Hempstead,New York,$629,,True,NY,40.7063,-73.6187,$629
+Henderson,Kentucky,"$4,519",,True,KY,37.7672,-87.5574,"$4,519"
+Henderson,Nevada,$393,,True,NV,36.0391,-114.9819,$393
+Hendersonville,Tennessee,,($45),False,TN,36.3048,-86.62,($45)
+Hesperia,California,$99,,True,CA,34.4264,-117.3009,$99
+Hialeah,Florida,,($179),False,FL,25.8576,-80.2781,($179)
+Hickory,North Carolina,,($1),False,NC,35.7332,-81.3412,($1)
+Highland Park,Illinois,,($170),False,IL,42.1817,-87.8003,($170)
+Hillsboro,Oregon,$2,,True,OR,45.5229,-122.9898,$2
+Holland,Michigan,$67,,True,MI,42.7876,-86.1091,$67
+Hollywood,Florida,$108,,True,FL,26.0112,-80.1495,$108
+Holyoke,Massachusetts,$60,,True,MA,42.2043,-72.6162,$60
+Homestead,Florida,$22,,True,FL,25.4687,-80.4776,$22
+Hoover,Alabama,$19,,True,AL,33.3849,-86.807,$19
+Hot Springs,Arkansas,$62,,True,AR,34.5038,-93.0552,$62
+Houston,Texas,,"($10,154)",False,TX,29.7589,-95.3677,"($10,154)"
+Huntington Beach,California,$880,,True,CA,33.6781,-118,$880
+Huntsville,Alabama,"$1,005",,True,AL,34.7298,-86.5859,"$1,005"
+Huntsville,Texas,,($843),False,TX,30.7235,-95.5508,($843)
+Independence,Missouri,$976,,True,MO,39.0911,-94.4155,$976
+Indianapolis,Indiana,"$2,742",,True,IN,39.7683,-86.1584,"$2,742"
+Inglewood,California,"$1,027",,True,CA,33.9617,-118.3531,"$1,027"
+Iowa City,Iowa,$4,,True,IA,41.6613,-91.5299,$4
+Irving,Texas,,($101),False,TX,32.814,-96.9489,($101)
+Jackson,Michigan,"$5,525",,True,MI,42.2465,-84.4017,"$5,525"
+Jackson,Mississippi,"$2,100",,True,MS,32.299,-90.1848,"$2,100"
+Jackson,Tennessee,,($44),False,TN,35.6145,-88.8139,($44)
+Jacksonville,Florida,,"($2,446)",False,FL,30.3322,-81.6557,"($2,446)"
+Jacksonville,North Carolina,$122,,True,NC,34.7541,-77.4302,$122
+Jamestown,New York,"$1,286",,True,NY,42.097,-79.2353,"$1,286"
+Jefferson City,Missouri,$9,,True,MO,38.5774,-92.1724,$9
+Johnson City,Tennessee,$12,,True,TN,36.3134,-82.3535,$12
+Jonesboro,Arkansas,$801,,True,AR,35.8429,-90.7035,$801
+Jupiter,Florida,$0,,True,FL,26.9342,-80.0942,$0
+Keller,Texas,$2,,True,TX,32.93,-97.2271,$2
+Kenner,Louisiana,$20,,True,LA,29.9942,-90.2418,$20
+Kenosha,Wisconsin,"$1,028",,True,WI,42.5847,-87.8212,"$1,028"
+Kent,Ohio,,($11),False,OH,41.1537,-81.3579,($11)
+Kent,Washington,$603,,True,WA,47.3827,-122.227,$603
+Kirkwood,Missouri,$47,,True,MO,38.5834,-90.4068,$47
+Kissimmee,Florida,$85,,True,FL,28.292,-81.4078,$85
+Knoxville,Tennessee,,"($1,165)",False,TN,35.9604,-83.921,"($1,165)"
+La Crosse,Wisconsin,$272,,True,WI,43.8014,-91.2396,$272
+La Mesa,California,$114,,True,CA,32.7678,-117.0231,$114
+La Porte,Indiana,$225,,True,IN,41.61,-86.72,$225
+La Porte,Texas,,($33),False,TX,29.6658,-95.0194,($33)
+La Quinta,California,$18,,True,CA,33.6775,-116.2959,$18
+Lafayette,Indiana,"$8,976",,True,IN,40.4167,-86.8753,"$8,976"
+Lafayette,Louisiana,"$1,042",,True,LA,30.2241,-92.0198,"$1,042"
+Laguna Niguel,California,$42,,True,CA,33.5225,-117.7076,$42
+Lake Charles,Louisiana,$241,,True,LA,30.2266,-93.2174,$241
+Lake Elsinore,California,$18,,True,CA,33.6681,-117.3273,$18
+Lake Forest,California,$328,,True,CA,33.647,-117.6892,$328
+Lakeland,Florida,,($189),False,FL,28.0395,-81.9498,($189)
+Lakeville,Minnesota,"$1,347",,True,MN,44.6501,-93.2433,"$1,347"
+Lakewood,California,$44,,True,CA,33.8503,-118.1172,$44
+Lakewood,New Jersey,"$3,527",,True,NJ,40.0979,-74.2176,"$3,527"
+Lakewood,Ohio,,($337),False,OH,41.482,-81.7982,($337)
+Lancaster,California,$79,,True,CA,34.6981,-118.1366,$79
+Lancaster,Ohio,,"($7,150)",False,OH,39.7137,-82.5993,"($7,150)"
+Lancaster,Pennsylvania,,($169),False,PA,40.0381,-76.3057,($169)
+Lansing,Michigan,$413,,True,MI,42.7338,-84.5554,$413
+Laredo,Texas,,($55),False,TX,27.5061,-99.5089,($55)
+Las Cruces,New Mexico,$44,,True,NM,32.314,-106.7798,$44
+Las Vegas,Nevada,$332,,True,NV,36.1663,-115.1492,$332
+Laurel,Maryland,$46,,True,MD,39.0993,-76.8483,$46
+Lawrence,Indiana,$533,,True,IN,39.8387,-86.0253,$533
+Lawrence,Massachusetts,"$1,849",,True,MA,42.707,-71.1631,"$1,849"
+Lawton,Oklahoma,$236,,True,OK,34.6087,-98.3903,$236
+Layton,Utah,$2,,True,UT,41.0603,-111.9661,$2
+League City,Texas,,($31),False,TX,29.5075,-95.0949,($31)
+Lebanon,Tennessee,$84,,True,TN,36.2081,-86.2905,$84
+Lehi,Utah,$452,,True,UT,40.3881,-111.8492,$452
+Leominster,Massachusetts,$80,,True,MA,42.5251,-71.7598,$80
+Lewiston,Idaho,$3,,True,ID,46.4166,-117.0177,$3
+Lewiston,Maine,$32,,True,ME,44.1004,-70.2148,$32
+Lincoln Park,Michigan,$68,,True,MI,42.2506,-83.1785,$68
+Linden,New Jersey,$50,,True,NJ,40.622,-74.2446,$50
+Lindenhurst,New York,$27,,True,NY,40.6868,-73.3735,$27
+Little Rock,Arkansas,"$1,155",,True,AR,34.7465,-92.2896,"$1,155"
+Littleton,Colorado,,($99),False,CO,39.6133,-105.0166,($99)
+Lodi,California,$44,,True,CA,38.1302,-121.2724,$44
+Logan,Utah,$47,,True,UT,41.7313,-111.8349,$47
+Long Beach,California,$746,,True,CA,33.7775,-118.1885,$746
+Long Beach,New York,"$1,363",,True,NY,40.5885,-73.6579,"$1,363"
+Longmont,Colorado,$35,,True,CO,40.1672,-105.1019,$35
+Longview,Washington,$39,,True,WA,46.1427,-122.9556,$39
+Lorain,Ohio,,($633),False,OH,41.4528,-82.1824,($633)
+Los Angeles,California,"$30,441",,True,CA,34.0544,-118.2439,"$30,441"
+Louisville,Colorado,,"($3,406)",False,CO,39.9778,-105.1319,"($3,406)"
+Louisville,Kentucky,"$1,976",,True,KY,38.2542,-85.7594,"$1,976"
+Loveland,Colorado,$4,,True,CO,40.3978,-105.075,$4
+Lowell,Massachusetts,"$1,313",,True,MA,42.6334,-71.3162,"$1,313"
+Lubbock,Texas,$147,,True,TX,33.5779,-101.8552,$147
+Macon,Georgia,$145,,True,GA,32.8407,-83.6324,$145
+Madison,Wisconsin,"$1,124",,True,WI,43.0748,-89.3838,"$1,124"
+Malden,Massachusetts,$31,,True,MA,42.4251,-71.0662,$31
+Manchester,Connecticut,$601,,True,CT,41.7759,-72.5215,$601
+Manhattan,Kansas,$11,,True,KS,39.1836,-96.5717,$11
+Mansfield,Texas,,($67),False,TX,32.5632,-97.1417,($67)
+Manteca,California,$172,,True,CA,37.7986,-121.2117,$172
+Maple Grove,Minnesota,$385,,True,MN,45.076,-93.4561,$385
+Margate,Florida,$2,,True,FL,26.2445,-80.2064,$2
+Marietta,Georgia,$512,,True,GA,33.9528,-84.5496,$512
+Marion,Iowa,$164,,True,IA,42.0342,-91.5977,$164
+Marion,Ohio,,($545),False,OH,40.5887,-83.1285,($545)
+Marlborough,Massachusetts,$68,,True,MA,42.3459,-71.5523,$68
+Marysville,Washington,$3,,True,WA,48.0627,-122.1633,$3
+Mason,Ohio,,($4),False,OH,39.3601,-84.3099,($4)
+Mcallen,Texas,,($164),False,TX,26.2044,-98.2301,($164)
+Medford,Oregon,$20,,True,OR,42.3264,-122.8719,$20
+Medina,Ohio,,"($1,343)",False,OH,41.1384,-81.8637,"($1,343)"
+Melbourne,Florida,$10,,True,FL,28.0836,-80.6081,$10
+Memphis,Tennessee,,"($1,479)",False,TN,35.149,-90.0516,"($1,479)"
+Mentor,Ohio,,($123),False,OH,41.6662,-81.3396,($123)
+Meriden,Connecticut,$470,,True,CT,41.5382,-72.807,$470
+Meridian,Idaho,$95,,True,ID,43.6086,-116.3923,$95
+Mesa,Arizona,,($559),False,AZ,33.4153,-111.8313,($559)
+Mesquite,Texas,,($88),False,TX,32.7666,-96.5995,($88)
+Miami,Florida,,"($1,150)",False,FL,25.7743,-80.1937,"($1,150)"
+Middletown,Connecticut,$158,,True,CT,41.5623,-72.6506,$158
+Midland,Michigan,"$2,294",,True,MI,43.6156,-84.2472,"$2,294"
+Milford,Connecticut,$319,,True,CT,41.2223,-73.0565,$319
+Milwaukee,Wisconsin,"$2,793",,True,WI,43.0115,-87.9735,"$2,793"
+Minneapolis,Minnesota,"$6,825",,True,MN,44.9773,-93.2655,"$6,825"
+Miramar,Florida,$32,,True,FL,25.9873,-80.2323,$32
+Mishawaka,Indiana,$97,,True,IN,41.662,-86.1586,$97
+Mission Viejo,California,$151,,True,CA,33.5966,-117.6594,$151
+Missoula,Montana,$152,,True,MT,46.8701,-113.9953,$152
+Missouri City,Texas,,($10),False,TX,29.6186,-95.5377,($10)
+Mobile,Alabama,"$2,176",,True,AL,30.6488,-88.1946,"$2,176"
+Modesto,California,$20,,True,CA,37.6391,-120.9969,$20
+Monroe,Louisiana,$556,,True,LA,32.5093,-92.1193,$556
+Monroe,North Carolina,$141,,True,NC,34.9854,-80.5495,$141
+Montebello,California,$4,,True,CA,34.0159,-118.112,$4
+Montgomery,Alabama,$835,,True,AL,32.367,-86.3006,$835
+Moorhead,Minnesota,$101,,True,MN,46.8739,-96.7539,$101
+Moreno Valley,California,$354,,True,CA,33.9375,-117.2306,$354
+Morgan Hill,California,$8,,True,CA,37.1304,-121.6545,$8
+Morristown,New Jersey,"$1,838",,True,NJ,40.797,-74.481,"$1,838"
+Mount Pleasant,Michigan,$6,,True,MI,43.5976,-84.7668,$6
+Mount Pleasant,South Carolina,$87,,True,SC,32.7941,-79.8626,$87
+Mount Vernon,New York,$663,,True,NY,40.9126,-73.8371,$663
+Murfreesboro,Tennessee,$16,,True,TN,35.846,-86.392,$16
+Murray,Kentucky,$94,,True,KY,36.6103,-88.3148,$94
+Murray,Utah,$37,,True,UT,40.6668,-111.8884,$37
+Murrieta,California,$92,,True,CA,33.5608,-117.2107,$92
+Muskogee,Oklahoma,$443,,True,OK,35.663,-95.3928,$443
+Naperville,Illinois,,($147),False,IL,41.7729,-88.1479,($147)
+Nashua,New Hampshire,$14,,True,NH,42.7654,-71.4676,$14
+Nashville,Tennessee,,($837),False,TN,36.1622,-86.7744,($837)
+New Albany,Indiana,$73,,True,IN,38.2856,-85.8241,$73
+New Bedford,Massachusetts,$50,,True,MA,41.6362,-70.9342,$50
+New Brunswick,New Jersey,$7,,True,NJ,40.4862,-74.4518,$7
+New Castle,Indiana,$23,,True,IN,39.9289,-85.3702,$23
+New Rochelle,New York,$368,,True,NY,40.9115,-73.7826,$368
+New York City,New York,"$62,037",,True,NY,40.7648,-73.9808,"$62,037"
+Newark,Delaware,"$8,086",,True,DE,39.6852,-75.7508,"$8,086"
+Newark,Ohio,,"($2,292)",False,OH,40.0581,-82.4013,"($2,292)"
+Newport News,Virginia,"$1,197",,True,VA,37.0168,-76.4505,"$1,197"
+Niagara Falls,New York,$59,,True,NY,43.1031,-79.0303,$59
+Noblesville,Indiana,$353,,True,IN,40.0456,-86.0086,$353
+Norfolk,Nebraska,$8,,True,NE,42.0283,-97.417,$8
+Normal,Illinois,,($110),False,IL,40.5118,-88.9945,($110)
+Norman,Oklahoma,$270,,True,OK,35.2226,-97.4395,$270
+North Charleston,South Carolina,$10,,True,SC,32.8546,-79.9748,$10
+North Las Vegas,Nevada,"$2,248",,True,NV,36.2008,-115.1121,"$2,248"
+North Miami,Florida,$3,,True,FL,25.8901,-80.1867,$3
+Norwich,Connecticut,$164,,True,CT,41.5243,-72.0759,$164
+Oak Park,Illinois,$1,,True,IL,41.885,-87.7845,$1
+Oak Park,Michigan,$151,,True,MI,42.4595,-83.1827,$151
+Oakland,California,$834,,True,CA,37.8045,-122.2714,$834
+Oceanside,California,$118,,True,CA,33.1959,-117.3795,$118
+Oceanside,New York,$655,,True,NY,40.6387,-73.6401,$655
+Odessa,Texas,,($70),False,TX,31.8457,-102.3677,($70)
+Oklahoma City,Oklahoma,"$1,581",,True,OK,35.473,-97.5171,"$1,581"
+Olathe,Kansas,$207,,True,KS,38.8844,-94.8161,$207
+Olympia,Washington,$140,,True,WA,47.045,-122.8949,$140
+Omaha,Nebraska,"$1,842",,True,NE,41.2587,-95.9379,"$1,842"
+Ontario,California,,($46),False,CA,34.0658,-117.6484,($46)
+Orange,New Jersey,$67,,True,NJ,40.77,-74.23,$67
+Orem,Utah,$515,,True,UT,40.2975,-111.6945,$515
+Orland Park,Illinois,$68,,True,IL,41.6303,-87.8539,$68
+Orlando,Florida,$378,,True,FL,28.5421,-81.379,$378
+Ormond Beach,Florida,,($2),False,FL,29.2858,-81.0559,($2)
+Oswego,Illinois,,($536),False,IL,41.6828,-88.3515,($536)
+Overland Park,Kansas,$204,,True,KS,38.9822,-94.6708,$204
+Owensboro,Kentucky,$28,,True,KY,37.7742,-87.1133,$28
+Oxnard,California,$346,,True,CA,34.1975,-119.1771,$346
+Palatine,Illinois,$23,,True,IL,42.1103,-88.0342,$23
+Palm Coast,Florida,$18,,True,FL,29.5541,-81.2208,$18
+Park Ridge,Illinois,,($238),False,IL,42.0111,-87.8406,($238)
+Parker,Colorado,,($164),False,CO,39.5185,-104.7613,($164)
+Parma,Ohio,$31,,True,OH,41.3822,-81.7356,$31
+Pasadena,California,$430,,True,CA,34.1476,-118.1445,$430
+Pasadena,Texas,,($340),False,TX,29.6911,-95.2091,($340)
+Pasco,Washington,$358,,True,WA,46.2396,-119.1006,$358
+Passaic,New Jersey,$357,,True,NJ,40.8568,-74.1285,$357
+Paterson,New Jersey,$740,,True,NJ,40.9168,-74.1718,$740
+Pearland,Texas,$39,,True,TX,29.564,-95.2864,$39
+Pembroke Pines,Florida,,($72),False,FL,26.01,-80.34,($72)
+Pensacola,Florida,,($1),False,FL,30.4213,-87.2169,($1)
+Peoria,Arizona,,($55),False,AZ,33.5766,-112.2398,($55)
+Peoria,Illinois,,($73),False,IL,40.6939,-89.5891,($73)
+Perth Amboy,New Jersey,$634,,True,NJ,40.5068,-74.2654,$634
+Pharr,Texas,,($238),False,TX,26.1948,-98.1836,($238)
+Philadelphia,Pennsylvania,,"($13,838)",False,PA,40.0115,-75.1327,"($13,838)"
+Phoenix,Arizona,,"($2,791)",False,AZ,33.4486,-112.0773,"($2,791)"
+Pico Rivera,California,$63,,True,CA,33.9831,-118.0967,$63
+Pine Bluff,Arkansas,$70,,True,AR,34.2284,-92.0032,$70
+Plainfield,New Jersey,"$1,236",,True,NJ,40.6337,-74.4074,"$1,236"
+Plano,Texas,,($383),False,TX,33.0137,-96.6925,($383)
+Plantation,Florida,$12,,True,FL,26.1172,-80.2538,$12
+Pleasant Grove,Utah,$581,,True,UT,40.3641,-111.7385,$581
+Pocatello,Idaho,$181,,True,ID,42.8689,-112.4401,$181
+Pomona,California,$150,,True,CA,34.0554,-117.7517,$150
+Pompano Beach,Florida,$15,,True,FL,26.2379,-80.1248,$15
+Port Arthur,Texas,$106,,True,TX,29.8988,-93.9288,$106
+Port Orange,Florida,$3,,True,FL,29.1383,-80.9956,$3
+Port Saint Lucie,Florida,$4,,True,FL,27.2939,-80.3503,$4
+Portage,Indiana,$7,,True,IN,41.5759,-87.1761,$7
+Portland,Oregon,$10,,True,OR,45.5202,-122.6742,$10
+Providence,Rhode Island,"$5,506",,True,RI,41.824,-71.4128,"$5,506"
+Provo,Utah,$389,,True,UT,40.2338,-111.6585,$389
+Pueblo,Colorado,,($901),False,CO,38.2544,-104.6091,($901)
+Quincy,Illinois,$49,,True,IL,39.9356,-91.4099,$49
+Quincy,Massachusetts,$298,,True,MA,42.2529,-71.0023,$298
+Raleigh,North Carolina,$473,,True,NC,35.7804,-78.6391,$473
+Rancho Cucamonga,California,$74,,True,CA,34.1033,-117.5752,$74
+Rapid City,South Dakota,$45,,True,SD,44.0812,-103.228,$45
+Reading,Pennsylvania,,($269),False,PA,40.3353,-75.9279,($269)
+Redding,California,$25,,True,CA,40.5864,-122.3917,$25
+Redlands,California,$454,,True,CA,34.0557,-117.1889,$454
+Redmond,Oregon,,($174),False,OR,44.2726,-121.1739,($174)
+Redmond,Washington,$21,,True,WA,47.6694,-122.1239,$21
+Redondo Beach,California,$176,,True,CA,33.8456,-118.3887,$176
+Redwood City,California,$14,,True,CA,37.4852,-122.2364,$14
+Reno,Nevada,$115,,True,NV,39.5293,-119.8137,$115
+Renton,Washington,$185,,True,WA,47.4799,-122.2034,$185
+Revere,Massachusetts,$259,,True,MA,42.4084,-71.012,$259
+Richardson,Texas,,($24),False,TX,32.9482,-96.7297,($24)
+Richmond,Indiana,"$1,882",,True,IN,39.8287,-84.8899,"$1,882"
+Richmond,Kentucky,"$2,276",,True,KY,37.7479,-84.2947,"$2,276"
+Richmond,Virginia,"$1,410",,True,VA,37.5385,-77.4343,"$1,410"
+Rio Rancho,New Mexico,$120,,True,NM,35.2334,-106.6645,$120
+Riverside,California,$375,,True,CA,33.9534,-117.3962,$375
+Rochester,Minnesota,$520,,True,MN,44.0233,-92.463,$520
+Rochester,New York,"$1,223",,True,NY,43.1573,-77.6152,"$1,223"
+Rochester Hills,Michigan,$54,,True,MI,42.6584,-83.1499,$54
+Rock Hill,South Carolina,$4,,True,SC,34.9249,-81.0251,$4
+Rockford,Illinois,,"($1,150)",False,IL,42.2714,-89.094,"($1,150)"
+Rockville,Maryland,$133,,True,MD,39.084,-77.1528,$133
+Rogers,Arkansas,$19,,True,AR,36.332,-94.1185,$19
+Rome,New York,$154,,True,NY,43.2128,-75.4557,$154
+Romeoville,Illinois,,($15),False,IL,41.6475,-88.0895,($15)
+Roseville,California,$317,,True,CA,38.7521,-121.288,$317
+Roseville,Michigan,$269,,True,MI,42.4973,-82.9371,$269
+Roseville,Minnesota,$668,,True,MN,45.0061,-93.1566,$668
+Roswell,Georgia,"$2,427",,True,GA,34.0233,-84.36,"$2,427"
+Round Rock,Texas,,"($1,183)",False,TX,30.5082,-97.6789,"($1,183)"
+Royal Oak,Michigan,$17,,True,MI,42.4895,-83.1446,$17
+Sacramento,California,"$2,070",,True,CA,38.4732,-121.2981,"$2,070"
+Saginaw,Michigan,$77,,True,MI,43.42,-83.949,$77
+Saint Charles,Illinois,$217,,True,IL,41.9142,-88.3087,$217
+Saint Charles,Missouri,$95,,True,MO,38.79,-90.5,$95
+Saint Cloud,Minnesota,$470,,True,MN,45.5616,-94.1642,$470
+Saint Louis,Missouri,$99,,True,MO,38.63,-90.19,$99
+Saint Paul,Minnesota,$25,,True,MN,44.9504,-93.1015,$25
+Saint Peters,Missouri,$146,,True,MO,38.8,-90.62,$146
+Saint Petersburg,Florida,$152,,True,FL,27.77,-82.65,$152
+Salem,Oregon,,($262),False,OR,44.9392,-123.0331,($262)
+Salem,Virginia,$533,,True,VA,37.2934,-80.0547,$533
+Salinas,California,$271,,True,CA,36.6777,-121.656,$271
+Salt Lake City,Utah,$329,,True,UT,40.767,-111.8904,$329
+San Angelo,Texas,,($59),False,TX,31.4648,-100.4398,($59)
+San Antonio,Texas,,"($7,299)",False,TX,29.4246,-98.4951,"($7,299)"
+San Bernardino,California,$70,,True,CA,34.1083,-117.2898,$70
+San Clemente,California,$43,,True,CA,33.427,-117.6124,$43
+San Diego,California,"$6,377",,True,CA,32.7174,-117.1628,"$6,377"
+San Francisco,California,"$17,507",,True,CA,37.7648,-122.463,"$17,507"
+San Gabriel,California,$291,,True,CA,34.0991,-118.1086,$291
+San Jose,California,"$1,216",,True,CA,37.2751,-121.8261,"$1,216"
+San Luis Obispo,California,$1,,True,CA,35.2828,-120.6596,$1
+San Marcos,Texas,,($19),False,TX,29.8826,-97.9406,($19)
+San Mateo,California,$35,,True,CA,37.5446,-122.3091,$35
+Sandy Springs,Georgia,$521,,True,GA,33.9868,-84.3481,$521
+Sanford,Florida,,($12),False,FL,28.8117,-81.268,($12)
+Santa Ana,California,$837,,True,CA,33.7495,-117.8732,$837
+Santa Barbara,California,$457,,True,CA,34.4098,-119.697,$457
+Santa Clara,California,$76,,True,CA,37.3541,-121.9552,$76
+Santa Fe,New Mexico,$21,,True,NM,35.687,-105.9378,$21
+Santa Maria,California,$30,,True,CA,34.9531,-120.4359,$30
+Scottsdale,Arizona,,($89),False,AZ,33.5091,-111.8992,($89)
+Seattle,Washington,"$29,156",,True,WA,47.6038,-122.3301,"$29,156"
+Sheboygan,Wisconsin,$34,,True,WI,43.7508,-87.7145,$34
+Shelton,Connecticut,$21,,True,CT,41.3165,-73.0932,$21
+Sierra Vista,Arizona,$17,,True,AZ,31.5545,-110.3037,$17
+Sioux Falls,South Dakota,$343,,True,SD,43.55,-96.7003,$343
+Skokie,Illinois,,($347),False,IL,42.0334,-87.7334,($347)
+Smyrna,Georgia,$807,,True,GA,33.884,-84.5147,$807
+Smyrna,Tennessee,$19,,True,TN,35.9828,-86.5186,$19
+South Bend,Indiana,$280,,True,IN,41.6834,-86.25,$280
+Southaven,Mississippi,$413,,True,MS,34.989,-90.0126,$413
+Sparks,Nevada,$229,,True,NV,39.5348,-119.7528,$229
+Spokane,Washington,$172,,True,WA,47.6589,-117.4247,$172
+Springdale,Arkansas,$1,,True,AR,36.1867,-94.1288,$1
+Springfield,Missouri,"$3,906",,True,MO,37.2153,-93.2983,"$3,906"
+Springfield,Ohio,,"($1,420)",False,OH,39.9242,-83.8088,"($1,420)"
+Springfield,Oregon,,($853),False,OR,44.0462,-123.022,($853)
+Springfield,Virginia,"$4,569",,True,VA,38.7891,-77.187,"$4,569"
+Sterling Heights,Michigan,$33,,True,MI,42.5803,-83.0302,$33
+Stockton,California,$340,,True,CA,37.9577,-121.2908,$340
+Suffolk,Virginia,$390,,True,VA,36.7282,-76.5836,$390
+Summerville,South Carolina,$197,,True,SC,33.0185,-80.1756,$197
+Sunnyvale,California,$108,,True,CA,37.3688,-122.0363,$108
+Superior,Wisconsin,$514,,True,WI,46.7208,-92.1041,$514
+Tallahassee,Florida,$393,,True,FL,30.4381,-84.2809,$393
+Tamarac,Florida,,($352),False,FL,26.2129,-80.2498,($352)
+Tampa,Florida,,($325),False,FL,27.9478,-82.4584,($325)
+Taylor,Michigan,$45,,True,MI,42.2409,-83.2697,$45
+Temecula,California,$102,,True,CA,33.4946,-117.1474,$102
+Tempe,Arizona,$95,,True,AZ,33.4144,-111.9094,$95
+Texarkana,Arkansas,$163,,True,AR,33.4418,-94.0377,$163
+Texas City,Texas,$20,,True,TX,29.3838,-94.9027,$20
+The Colony,Texas,$32,,True,TX,33.089,-96.8864,$32
+Thomasville,North Carolina,$33,,True,NC,35.8832,-80.0818,$33
+Thornton,Colorado,$141,,True,CO,39.93,-104.93,$141
+Thousand Oaks,California,$100,,True,CA,34.1706,-118.8376,$100
+Tigard,Oregon,,($216),False,OR,45.4307,-122.7719,($216)
+Tinley Park,Illinois,,($9),False,IL,41.5734,-87.7845,($9)
+Toledo,Ohio,,($340),False,OH,41.6787,-83.5127,($340)
+Torrance,California,$545,,True,CA,33.8358,-118.3406,$545
+Trenton,Michigan,$652,,True,MI,42.1407,-83.1801,$652
+Troy,New York,$330,,True,NY,42.7284,-73.6918,$330
+Troy,Ohio,,($875),False,OH,40.0395,-84.2033,($875)
+Tucson,Arizona,,($65),False,AZ,32.2217,-110.9265,($65)
+Tulsa,Oklahoma,"$1,507",,True,OK,36.1012,-95.9251,"$1,507"
+Tuscaloosa,Alabama,$51,,True,AL,33.2096,-87.5675,$51
+Twin Falls,Idaho,$266,,True,ID,42.2729,-114.6972,$266
+Tyler,Texas,,($444),False,TX,32.3513,-95.3011,($444)
+Urbandale,Iowa,$58,,True,IA,41.6275,-93.7381,$58
+Utica,New York,$189,,True,NY,43.1009,-75.2327,$189
+Vacaville,California,$110,,True,CA,38.3566,-121.9877,$110
+Vallejo,California,$336,,True,CA,38.1041,-122.2566,$336
+Vancouver,Washington,$75,,True,WA,45.6307,-122.6745,$75
+Vineland,New Jersey,$62,,True,NJ,39.4862,-75.0257,$62
+Virginia Beach,Virginia,"$2,025",,True,VA,36.853,-75.9774,"$2,025"
+Visalia,California,$88,,True,CA,36.3302,-119.2921,$88
+Waco,Texas,,($520),False,TX,31.5493,-97.1467,($520)
+Warner Robins,Georgia,$54,,True,GA,32.621,-83.5999,$54
+Warwick,Rhode Island,"$1,064",,True,RI,41.7002,-71.4161,"$1,064"
+Washington,District of Columbia,"$1,060",,True,DC,38.895,-77.0366,"$1,060"
+Waterbury,Connecticut,$339,,True,CT,41.5582,-73.0515,$339
+Waterloo,Iowa,$12,,True,IA,42.4983,-92.3369,$12
+Watertown,New York,$907,,True,NY,43.9748,-75.9108,$907
+Waukesha,Wisconsin,$14,,True,WI,43.0117,-88.2315,$14
+Wausau,Wisconsin,$90,,True,WI,44.9596,-89.6298,$90
+Waynesboro,Virginia,$603,,True,VA,38.0677,-78.8902,$603
+West Allis,Wisconsin,$28,,True,WI,43.0167,-88.007,$28
+West Jordan,Utah,$103,,True,UT,40.6097,-111.9391,$103
+West Palm Beach,Florida,$32,,True,FL,26.7153,-80.0534,$32
+Westfield,New Jersey,$153,,True,NJ,40.659,-74.3474,$153
+Westland,Michigan,$390,,True,MI,42.3238,-83.4005,$390
+Westminster,California,$764,,True,CA,33.7578,-117.9859,$764
+Wheeling,Illinois,,($293),False,IL,42.1392,-87.929,($293)
+Wheeling,West Virginia,$186,,True,WV,40.064,-80.7209,$186
+Whittier,California,$44,,True,CA,33.9749,-118.0337,$44
+Wichita,Kansas,$324,,True,KS,37.6922,-97.3375,$324
+Wilmington,Delaware,"$1,775",,True,DE,39.7459,-75.5466,"$1,775"
+Wilmington,North Carolina,$173,,True,NC,34.2257,-77.9447,$173
+Wilson,North Carolina,,($14),False,NC,35.7213,-77.9155,($14)
+Woodbury,Minnesota,$196,,True,MN,44.9232,-92.9588,$196
+Woodland,California,$33,,True,CA,38.6786,-121.7733,$33
+Woodstock,Georgia,$105,,True,GA,34.1015,-84.5194,$105
+Woodstock,Illinois,,($25),False,IL,42.315,-88.4475,($25)
+Woonsocket,Rhode Island,$79,,True,RI,42.0029,-71.5148,$79
+Yonkers,New York,"$2,768",,True,NY,40.9312,-73.8987,"$2,768"
+York,Pennsylvania,,($102),False,PA,39.9624,-76.7274,($102)
+Yucaipa,California,$13,,True,CA,34.0336,-117.0431,$13
+Yuma,Arizona,,($466),False,AZ,32.7253,-114.6244,($466)

@@ -1,0 +1,60 @@
+{
+  "status": "pass",
+  "acceptance_ids": [
+    "complete-state-city-profit",
+    "native-layer-size-highlight",
+    "cloud-layout-data"
+  ],
+  "artifact_sha256": "9e27bf95043518018f7d85db9c2fff3d6854cc94074f34b912f1381bc1fafef7",
+  "raw_oracle": {
+    "raw_rows": 9994,
+    "state_count": 49,
+    "city_state_count": 604,
+    "total_profit": 286397.0217
+  },
+  "native": {
+    "state_inert": true,
+    "city_circle": true,
+    "centered_absolute_size": true,
+    "red_black_center_zero": true,
+    "hover_highlight_artifact_only": true
+  },
+  "cloud": {
+    "status": "passed",
+    "checks": [
+      {
+        "file": "cloud-author-map.csv",
+        "rows": 653,
+        "city_keys": 604,
+        "state_keys": 49,
+        "status": "pass",
+        "sha256": "b23014e5f6af8279b4185555fbb6f4c6b65cfd5dbb38364d6894947a05a649fa"
+      },
+      {
+        "file": "cloud-author-bar.csv",
+        "rows": 604,
+        "city_keys": 604,
+        "state_keys": 0,
+        "status": "pass",
+        "sha256": "15d636cd89da1c37dab04cd3fe9039bcfc42a067a8018803c82001ea4fa7bd29"
+      },
+      {
+        "file": "cloud-replica-map.csv",
+        "rows": 653,
+        "city_keys": 604,
+        "state_keys": 49,
+        "status": "pass",
+        "sha256": "b47dd420257f0e7a5aaa6e27f4900fde27ba624d384e17e2f7fa76fbb0d273b7"
+      },
+      {
+        "file": "cloud-replica-bar.csv",
+        "rows": 604,
+        "city_keys": 604,
+        "state_keys": 0,
+        "status": "pass",
+        "sha256": "f1995b3ce011c3e82a30fe94aa946e03ecb5c01ef110a52be6a58557fe29d924"
+      }
+    ],
+    "numeric_scope": "Complete 604 city-state profits and 49 state profits; zero-decimal dollars checked within 0.501 rounding tolerance. Actions are native artifact contracts only."
+  }
+}

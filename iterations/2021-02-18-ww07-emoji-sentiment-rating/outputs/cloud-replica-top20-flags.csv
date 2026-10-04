@@ -1,0 +1,13 @@
+Emoji,Measure Names,Unicode name,#,% Negative,% Neutral,% Positive,One,Measure Values,Occurrences,Position
+🎌,% Positive,CROSSED FLAGS,3,0.0%,0.0%,100.0%,,1,3,
+🎌,% Neutral,CROSSED FLAGS,3,0.0%,0.0%,100.0%,,0,3,
+🎌,% Negative,CROSSED FLAGS,3,0.0%,0.0%,100.0%,,0,3,
+🏁,% Positive,CHEQUERED FLAG,21,0.0%,42.9%,57.1%,,0.571428571,21,
+🏁,% Neutral,CHEQUERED FLAG,21,0.0%,42.9%,57.1%,,0.428571429,21,
+🏁,% Negative,CHEQUERED FLAG,21,0.0%,42.9%,57.1%,,0,21,
+🚩,% Positive,TRIANGULAR FLAG ON POST,7,42.9%,42.9%,14.3%,,0.142857143,7,
+🚩,% Neutral,TRIANGULAR FLAG ON POST,7,42.9%,42.9%,14.3%,,0.428571429,7,
+🚩,% Negative,TRIANGULAR FLAG ON POST,7,42.9%,42.9%,14.3%,,0.428571429,7,
+🎌,,CROSSED FLAGS,3,0.0%,0.0%,100.0%,1,,3,0.72
+🏁,,CHEQUERED FLAG,21,0.0%,42.9%,57.1%,1,,21,0.62
+🚩,,TRIANGULAR FLAG ON POST,7,42.9%,42.9%,14.3%,1,,7,0.15

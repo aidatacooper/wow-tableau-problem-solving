@@ -1,0 +1,5642 @@
+{
+  "raw_rows": 9994,
+  "state_count": 49,
+  "city_state_count": 604,
+  "total_profit": 286397.0217,
+  "cities": [
+    {
+      "state": "Alabama",
+      "city": "Auburn",
+      "profit": 452.60710000000006,
+      "positive": true,
+      "absolute_size": 452.60710000000006,
+      "positive_profit": 452.60710000000006,
+      "negative_profit": null
+    },
+    {
+      "state": "Alabama",
+      "city": "Decatur",
+      "profit": 1000.0881000000002,
+      "positive": true,
+      "absolute_size": 1000.0881000000002,
+      "positive_profit": 1000.0881000000002,
+      "negative_profit": null
+    },
+    {
+      "state": "Alabama",
+      "city": "Florence",
+      "profit": 248.65890000000002,
+      "positive": true,
+      "absolute_size": 248.65890000000002,
+      "positive_profit": 248.65890000000002,
+      "negative_profit": null
+    },
+    {
+      "state": "Alabama",
+      "city": "Hoover",
+      "profit": 18.71730000000001,
+      "positive": true,
+      "absolute_size": 18.71730000000001,
+      "positive_profit": 18.71730000000001,
+      "negative_profit": null
+    },
+    {
+      "state": "Alabama",
+      "city": "Huntsville",
+      "profit": 1005.2572,
+      "positive": true,
+      "absolute_size": 1005.2572,
+      "positive_profit": 1005.2572,
+      "negative_profit": null
+    },
+    {
+      "state": "Alabama",
+      "city": "Mobile",
+      "profit": 2175.8292,
+      "positive": true,
+      "absolute_size": 2175.8292,
+      "positive_profit": 2175.8292,
+      "negative_profit": null
+    },
+    {
+      "state": "Alabama",
+      "city": "Montgomery",
+      "profit": 834.6571000000001,
+      "positive": true,
+      "absolute_size": 834.6571000000001,
+      "positive_profit": 834.6571000000001,
+      "negative_profit": null
+    },
+    {
+      "state": "Alabama",
+      "city": "Tuscaloosa",
+      "profit": 51.01040000000001,
+      "positive": true,
+      "absolute_size": 51.01040000000001,
+      "positive_profit": 51.01040000000001,
+      "negative_profit": null
+    },
+    {
+      "state": "Arizona",
+      "city": "Avondale",
+      "profit": 76.16899999999991,
+      "positive": true,
+      "absolute_size": 76.16899999999991,
+      "positive_profit": 76.16899999999991,
+      "negative_profit": null
+    },
+    {
+      "state": "Arizona",
+      "city": "Bullhead City",
+      "profit": 6.723199999999999,
+      "positive": true,
+      "absolute_size": 6.723199999999999,
+      "positive_profit": 6.723199999999999,
+      "negative_profit": null
+    },
+    {
+      "state": "Arizona",
+      "city": "Chandler",
+      "profit": 81.46049999999988,
+      "positive": true,
+      "absolute_size": 81.46049999999988,
+      "positive_profit": 81.46049999999988,
+      "negative_profit": null
+    },
+    {
+      "state": "Arizona",
+      "city": "Gilbert",
+      "profit": 138.25299999999987,
+      "positive": true,
+      "absolute_size": 138.25299999999987,
+      "positive_profit": 138.25299999999987,
+      "negative_profit": null
+    },
+    {
+      "state": "Arizona",
+      "city": "Glendale",
+      "profit": 182.85979999999995,
+      "positive": true,
+      "absolute_size": 182.85979999999995,
+      "positive_profit": 182.85979999999995,
+      "negative_profit": null
+    },
+    {
+      "state": "Arizona",
+      "city": "Mesa",
+      "profit": -559.2313999999998,
+      "positive": false,
+      "absolute_size": 559.2313999999998,
+      "positive_profit": null,
+      "negative_profit": -559.2313999999998
+    },
+    {
+      "state": "Arizona",
+      "city": "Peoria",
+      "profit": -55.10760000000003,
+      "positive": false,
+      "absolute_size": 55.10760000000003,
+      "positive_profit": null,
+      "negative_profit": -55.10760000000003
+    },
+    {
+      "state": "Arizona",
+      "city": "Phoenix",
+      "profit": -2790.883200000001,
+      "positive": false,
+      "absolute_size": 2790.883200000001,
+      "positive_profit": null,
+      "negative_profit": -2790.883200000001
+    },
+    {
+      "state": "Arizona",
+      "city": "Scottsdale",
+      "profit": -89.48789999999998,
+      "positive": false,
+      "absolute_size": 89.48789999999998,
+      "positive_profit": null,
+      "negative_profit": -89.48789999999998
+    },
+    {
+      "state": "Arizona",
+      "city": "Sierra Vista",
+      "profit": 16.828099999999996,
+      "positive": true,
+      "absolute_size": 16.828099999999996,
+      "positive_profit": 16.828099999999996,
+      "negative_profit": null
+    },
+    {
+      "state": "Arizona",
+      "city": "Tempe",
+      "profit": 95.44959999999998,
+      "positive": true,
+      "absolute_size": 95.44959999999998,
+      "positive_profit": 95.44959999999998,
+      "negative_profit": null
+    },
+    {
+      "state": "Arizona",
+      "city": "Tucson",
+      "profit": -64.96680000000018,
+      "positive": false,
+      "absolute_size": 64.96680000000018,
+      "positive_profit": null,
+      "negative_profit": -64.96680000000018
+    },
+    {
+      "state": "Arizona",
+      "city": "Yuma",
+      "profit": -465.9908999999999,
+      "positive": false,
+      "absolute_size": 465.9908999999999,
+      "positive_profit": null,
+      "negative_profit": -465.9908999999999
+    },
+    {
+      "state": "Arkansas",
+      "city": "Conway",
+      "profit": 45.29399999999998,
+      "positive": true,
+      "absolute_size": 45.29399999999998,
+      "positive_profit": 45.29399999999998,
+      "negative_profit": null
+    },
+    {
+      "state": "Arkansas",
+      "city": "Fayetteville",
+      "profit": 1691.9418999999998,
+      "positive": true,
+      "absolute_size": 1691.9418999999998,
+      "positive_profit": 1691.9418999999998,
+      "negative_profit": null
+    },
+    {
+      "state": "Arkansas",
+      "city": "Hot Springs",
+      "profit": 62.0838,
+      "positive": true,
+      "absolute_size": 62.0838,
+      "positive_profit": 62.0838,
+      "negative_profit": null
+    },
+    {
+      "state": "Arkansas",
+      "city": "Jonesboro",
+      "profit": 801.1112999999998,
+      "positive": true,
+      "absolute_size": 801.1112999999998,
+      "positive_profit": 801.1112999999998,
+      "negative_profit": null
+    },
+    {
+      "state": "Arkansas",
+      "city": "Little Rock",
+      "profit": 1154.6690999999998,
+      "positive": true,
+      "absolute_size": 1154.6690999999998,
+      "positive_profit": 1154.6690999999998,
+      "negative_profit": null
+    },
+    {
+      "state": "Arkansas",
+      "city": "Pine Bluff",
+      "profit": 70.20479999999999,
+      "positive": true,
+      "absolute_size": 70.20479999999999,
+      "positive_profit": 70.20479999999999,
+      "negative_profit": null
+    },
+    {
+      "state": "Arkansas",
+      "city": "Rogers",
+      "profit": 18.5886,
+      "positive": true,
+      "absolute_size": 18.5886,
+      "positive_profit": 18.5886,
+      "negative_profit": null
+    },
+    {
+      "state": "Arkansas",
+      "city": "Springdale",
+      "profit": 1.4189999999999996,
+      "positive": true,
+      "absolute_size": 1.4189999999999996,
+      "positive_profit": 1.4189999999999996,
+      "negative_profit": null
+    },
+    {
+      "state": "Arkansas",
+      "city": "Texarkana",
+      "profit": 163.3746,
+      "positive": true,
+      "absolute_size": 163.3746,
+      "positive_profit": 163.3746,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "Anaheim",
+      "profit": 1234.0035999999998,
+      "positive": true,
+      "absolute_size": 1234.0035999999998,
+      "positive_profit": 1234.0035999999998,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "Antioch",
+      "profit": 9.3312,
+      "positive": true,
+      "absolute_size": 9.3312,
+      "positive_profit": 9.3312,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "Apple Valley",
+      "profit": 283.6183999999999,
+      "positive": true,
+      "absolute_size": 283.6183999999999,
+      "positive_profit": 283.6183999999999,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "Bakersfield",
+      "profit": 187.92470000000003,
+      "positive": true,
+      "absolute_size": 187.92470000000003,
+      "positive_profit": 187.92470000000003,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "Brentwood",
+      "profit": 1216.8103999999998,
+      "positive": true,
+      "absolute_size": 1216.8103999999998,
+      "positive_profit": 1216.8103999999998,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "Burbank",
+      "profit": 764.5337999999998,
+      "positive": true,
+      "absolute_size": 764.5337999999998,
+      "positive_profit": 764.5337999999998,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "Camarillo",
+      "profit": 158.79559999999987,
+      "positive": true,
+      "absolute_size": 158.79559999999987,
+      "positive_profit": 158.79559999999987,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "Chico",
+      "profit": 205.12539999999984,
+      "positive": true,
+      "absolute_size": 205.12539999999984,
+      "positive_profit": 205.12539999999984,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "Chula Vista",
+      "profit": 248.43459999999996,
+      "positive": true,
+      "absolute_size": 248.43459999999996,
+      "positive_profit": 248.43459999999996,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "Citrus Heights",
+      "profit": 54.34380000000001,
+      "positive": true,
+      "absolute_size": 54.34380000000001,
+      "positive_profit": 54.34380000000001,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "Coachella",
+      "profit": 47.1736,
+      "positive": true,
+      "absolute_size": 47.1736,
+      "positive_profit": 47.1736,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "Concord",
+      "profit": 282.4208,
+      "positive": true,
+      "absolute_size": 282.4208,
+      "positive_profit": 282.4208,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "Costa Mesa",
+      "profit": 297.2089,
+      "positive": true,
+      "absolute_size": 297.2089,
+      "positive_profit": 297.2089,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "Danville",
+      "profit": 282.44049999999993,
+      "positive": true,
+      "absolute_size": 282.44049999999993,
+      "positive_profit": 282.44049999999993,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "Davis",
+      "profit": 15.552000000000001,
+      "positive": true,
+      "absolute_size": 15.552000000000001,
+      "positive_profit": 15.552000000000001,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "Dublin",
+      "profit": 1.375,
+      "positive": true,
+      "absolute_size": 1.375,
+      "positive_profit": 1.375,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "El Cajon",
+      "profit": 52.687200000000004,
+      "positive": true,
+      "absolute_size": 52.687200000000004,
+      "positive_profit": 52.687200000000004,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "Encinitas",
+      "profit": 71.05879999999999,
+      "positive": true,
+      "absolute_size": 71.05879999999999,
+      "positive_profit": 71.05879999999999,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "Escondido",
+      "profit": 27.752999999999993,
+      "positive": true,
+      "absolute_size": 27.752999999999993,
+      "positive_profit": 27.752999999999993,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "Fairfield",
+      "profit": 117.97739999999995,
+      "positive": true,
+      "absolute_size": 117.97739999999995,
+      "positive_profit": 117.97739999999995,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "Fresno",
+      "profit": 948.2681,
+      "positive": true,
+      "absolute_size": 948.2681,
+      "positive_profit": 948.2681,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "Hesperia",
+      "profit": 98.52689999999994,
+      "positive": true,
+      "absolute_size": 98.52689999999994,
+      "positive_profit": 98.52689999999994,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "Huntington Beach",
+      "profit": 880.0392,
+      "positive": true,
+      "absolute_size": 880.0392,
+      "positive_profit": 880.0392,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "Inglewood",
+      "profit": 1026.696,
+      "positive": true,
+      "absolute_size": 1026.696,
+      "positive_profit": 1026.696,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "La Mesa",
+      "profit": 114.38699999999996,
+      "positive": true,
+      "absolute_size": 114.38699999999996,
+      "positive_profit": 114.38699999999996,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "La Quinta",
+      "profit": 18.0648,
+      "positive": true,
+      "absolute_size": 18.0648,
+      "positive_profit": 18.0648,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "Laguna Niguel",
+      "profit": 41.981499999999976,
+      "positive": true,
+      "absolute_size": 41.981499999999976,
+      "positive_profit": 41.981499999999976,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "Lake Elsinore",
+      "profit": 17.74500000000002,
+      "positive": true,
+      "absolute_size": 17.74500000000002,
+      "positive_profit": 17.74500000000002,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "Lake Forest",
+      "profit": 327.53139999999985,
+      "positive": true,
+      "absolute_size": 327.53139999999985,
+      "positive_profit": 327.53139999999985,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "Lakewood",
+      "profit": 43.962399999999874,
+      "positive": true,
+      "absolute_size": 43.962399999999874,
+      "positive_profit": 43.962399999999874,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "Lancaster",
+      "profit": 79.43719999999998,
+      "positive": true,
+      "absolute_size": 79.43719999999998,
+      "positive_profit": 79.43719999999998,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "Lodi",
+      "profit": 44.4858,
+      "positive": true,
+      "absolute_size": 44.4858,
+      "positive_profit": 44.4858,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "Long Beach",
+      "profit": 746.3955999999996,
+      "positive": true,
+      "absolute_size": 746.3955999999996,
+      "positive_profit": 746.3955999999996,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "Los Angeles",
+      "profit": 30440.757900000008,
+      "positive": true,
+      "absolute_size": 30440.757900000008,
+      "positive_profit": 30440.757900000008,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "Manteca",
+      "profit": 172.23579999999998,
+      "positive": true,
+      "absolute_size": 172.23579999999998,
+      "positive_profit": 172.23579999999998,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "Mission Viejo",
+      "profit": 151.06449999999998,
+      "positive": true,
+      "absolute_size": 151.06449999999998,
+      "positive_profit": 151.06449999999998,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "Modesto",
+      "profit": 19.942999999999984,
+      "positive": true,
+      "absolute_size": 19.942999999999984,
+      "positive_profit": 19.942999999999984,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "Montebello",
+      "profit": 3.903200000000002,
+      "positive": true,
+      "absolute_size": 3.903200000000002,
+      "positive_profit": 3.903200000000002,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "Moreno Valley",
+      "profit": 353.63009999999997,
+      "positive": true,
+      "absolute_size": 353.63009999999997,
+      "positive_profit": 353.63009999999997,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "Morgan Hill",
+      "profit": 7.845999999999979,
+      "positive": true,
+      "absolute_size": 7.845999999999979,
+      "positive_profit": 7.845999999999979,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "Murrieta",
+      "profit": 92.08350000000002,
+      "positive": true,
+      "absolute_size": 92.08350000000002,
+      "positive_profit": 92.08350000000002,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "Oakland",
+      "profit": 834.1028999999996,
+      "positive": true,
+      "absolute_size": 834.1028999999996,
+      "positive_profit": 834.1028999999996,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "Oceanside",
+      "profit": 117.51299999999999,
+      "positive": true,
+      "absolute_size": 117.51299999999999,
+      "positive_profit": 117.51299999999999,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "Ontario",
+      "profit": -46.13700000000003,
+      "positive": false,
+      "absolute_size": 46.13700000000003,
+      "positive_profit": null,
+      "negative_profit": -46.13700000000003
+    },
+    {
+      "state": "California",
+      "city": "Oxnard",
+      "profit": 346.4576999999999,
+      "positive": true,
+      "absolute_size": 346.4576999999999,
+      "positive_profit": 346.4576999999999,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "Pasadena",
+      "profit": 429.97689999999983,
+      "positive": true,
+      "absolute_size": 429.97689999999983,
+      "positive_profit": 429.97689999999983,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "Pico Rivera",
+      "profit": 62.736999999999995,
+      "positive": true,
+      "absolute_size": 62.736999999999995,
+      "positive_profit": 62.736999999999995,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "Pomona",
+      "profit": 150.29899999999995,
+      "positive": true,
+      "absolute_size": 150.29899999999995,
+      "positive_profit": 150.29899999999995,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "Rancho Cucamonga",
+      "profit": 73.7442,
+      "positive": true,
+      "absolute_size": 73.7442,
+      "positive_profit": 73.7442,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "Redding",
+      "profit": 25.018199999999993,
+      "positive": true,
+      "absolute_size": 25.018199999999993,
+      "positive_profit": 25.018199999999993,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "Redlands",
+      "profit": 454.15559999999994,
+      "positive": true,
+      "absolute_size": 454.15559999999994,
+      "positive_profit": 454.15559999999994,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "Redondo Beach",
+      "profit": 176.42889999999994,
+      "positive": true,
+      "absolute_size": 176.42889999999994,
+      "positive_profit": 176.42889999999994,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "Redwood City",
+      "profit": 14.142599999999996,
+      "positive": true,
+      "absolute_size": 14.142599999999996,
+      "positive_profit": 14.142599999999996,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "Riverside",
+      "profit": 374.7296,
+      "positive": true,
+      "absolute_size": 374.7296,
+      "positive_profit": 374.7296,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "Roseville",
+      "profit": 316.94499999999994,
+      "positive": true,
+      "absolute_size": 316.94499999999994,
+      "positive_profit": 316.94499999999994,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "Sacramento",
+      "profit": 2069.6859,
+      "positive": true,
+      "absolute_size": 2069.6859,
+      "positive_profit": 2069.6859,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "Salinas",
+      "profit": 270.5181,
+      "positive": true,
+      "absolute_size": 270.5181,
+      "positive_profit": 270.5181,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "San Bernardino",
+      "profit": 69.98199999999994,
+      "positive": true,
+      "absolute_size": 69.98199999999994,
+      "positive_profit": 69.98199999999994,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "San Clemente",
+      "profit": 42.5419,
+      "positive": true,
+      "absolute_size": 42.5419,
+      "positive_profit": 42.5419,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "San Diego",
+      "profit": 6377.195999999998,
+      "positive": true,
+      "absolute_size": 6377.195999999998,
+      "positive_profit": 6377.195999999998,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "San Francisco",
+      "profit": 17507.385399999996,
+      "positive": true,
+      "absolute_size": 17507.385399999996,
+      "positive_profit": 17507.385399999996,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "San Gabriel",
+      "profit": 290.8953,
+      "positive": true,
+      "absolute_size": 290.8953,
+      "positive_profit": 290.8953,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "San Jose",
+      "profit": 1216.0579000000002,
+      "positive": true,
+      "absolute_size": 1216.0579000000002,
+      "positive_profit": 1216.0579000000002,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "San Luis Obispo",
+      "profit": 1.1945999999999999,
+      "positive": true,
+      "absolute_size": 1.1945999999999999,
+      "positive_profit": 1.1945999999999999,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "San Mateo",
+      "profit": 35.334599999999995,
+      "positive": true,
+      "absolute_size": 35.334599999999995,
+      "positive_profit": 35.334599999999995,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "Santa Ana",
+      "profit": 836.7465,
+      "positive": true,
+      "absolute_size": 836.7465,
+      "positive_profit": 836.7465,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "Santa Barbara",
+      "profit": 457.2858000000001,
+      "positive": true,
+      "absolute_size": 457.2858000000001,
+      "positive_profit": 457.2858000000001,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "Santa Clara",
+      "profit": 76.0016,
+      "positive": true,
+      "absolute_size": 76.0016,
+      "positive_profit": 76.0016,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "Santa Maria",
+      "profit": 30.0144,
+      "positive": true,
+      "absolute_size": 30.0144,
+      "positive_profit": 30.0144,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "Stockton",
+      "profit": 339.5263999999999,
+      "positive": true,
+      "absolute_size": 339.5263999999999,
+      "positive_profit": 339.5263999999999,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "Sunnyvale",
+      "profit": 107.50729999999996,
+      "positive": true,
+      "absolute_size": 107.50729999999996,
+      "positive_profit": 107.50729999999996,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "Temecula",
+      "profit": 101.88689999999997,
+      "positive": true,
+      "absolute_size": 101.88689999999997,
+      "positive_profit": 101.88689999999997,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "Thousand Oaks",
+      "profit": 99.91400000000002,
+      "positive": true,
+      "absolute_size": 99.91400000000002,
+      "positive_profit": 99.91400000000002,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "Torrance",
+      "profit": 545.151,
+      "positive": true,
+      "absolute_size": 545.151,
+      "positive_profit": 545.151,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "Vacaville",
+      "profit": 110.05279999999999,
+      "positive": true,
+      "absolute_size": 110.05279999999999,
+      "positive_profit": 110.05279999999999,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "Vallejo",
+      "profit": 336.03550000000007,
+      "positive": true,
+      "absolute_size": 336.03550000000007,
+      "positive_profit": 336.03550000000007,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "Visalia",
+      "profit": 88.0478,
+      "positive": true,
+      "absolute_size": 88.0478,
+      "positive_profit": 88.0478,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "Westminster",
+      "profit": 763.6886000000001,
+      "positive": true,
+      "absolute_size": 763.6886000000001,
+      "positive_profit": 763.6886000000001,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "Whittier",
+      "profit": 44.476800000000026,
+      "positive": true,
+      "absolute_size": 44.476800000000026,
+      "positive_profit": 44.476800000000026,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "Woodland",
+      "profit": 33.384800000000006,
+      "positive": true,
+      "absolute_size": 33.384800000000006,
+      "positive_profit": 33.384800000000006,
+      "negative_profit": null
+    },
+    {
+      "state": "California",
+      "city": "Yucaipa",
+      "profit": 13.208000000000002,
+      "positive": true,
+      "absolute_size": 13.208000000000002,
+      "positive_profit": 13.208000000000002,
+      "negative_profit": null
+    },
+    {
+      "state": "Colorado",
+      "city": "Arvada",
+      "profit": 59.85559999999998,
+      "positive": true,
+      "absolute_size": 59.85559999999998,
+      "positive_profit": 59.85559999999998,
+      "negative_profit": null
+    },
+    {
+      "state": "Colorado",
+      "city": "Aurora",
+      "profit": -797.0190000000002,
+      "positive": false,
+      "absolute_size": 797.0190000000002,
+      "positive_profit": null,
+      "negative_profit": -797.0190000000002
+    },
+    {
+      "state": "Colorado",
+      "city": "Broomfield",
+      "profit": 62.444999999999936,
+      "positive": true,
+      "absolute_size": 62.444999999999936,
+      "positive_profit": 62.444999999999936,
+      "negative_profit": null
+    },
+    {
+      "state": "Colorado",
+      "city": "Colorado Springs",
+      "profit": -956.6841000000006,
+      "positive": false,
+      "absolute_size": 956.6841000000006,
+      "positive_profit": null,
+      "negative_profit": -956.6841000000006
+    },
+    {
+      "state": "Colorado",
+      "city": "Commerce City",
+      "profit": -32.9292,
+      "positive": false,
+      "absolute_size": 32.9292,
+      "positive_profit": null,
+      "negative_profit": -32.9292
+    },
+    {
+      "state": "Colorado",
+      "city": "Denver",
+      "profit": -244.92000000000024,
+      "positive": false,
+      "absolute_size": 244.92000000000024,
+      "positive_profit": null,
+      "negative_profit": -244.92000000000024
+    },
+    {
+      "state": "Colorado",
+      "city": "Englewood",
+      "profit": 13.7547,
+      "positive": true,
+      "absolute_size": 13.7547,
+      "positive_profit": 13.7547,
+      "negative_profit": null
+    },
+    {
+      "state": "Colorado",
+      "city": "Fort Collins",
+      "profit": -252.6925999999999,
+      "positive": false,
+      "absolute_size": 252.6925999999999,
+      "positive_profit": null,
+      "negative_profit": -252.6925999999999
+    },
+    {
+      "state": "Colorado",
+      "city": "Greeley",
+      "profit": 10.3614,
+      "positive": true,
+      "absolute_size": 10.3614,
+      "positive_profit": 10.3614,
+      "negative_profit": null
+    },
+    {
+      "state": "Colorado",
+      "city": "Littleton",
+      "profit": -98.80179999999999,
+      "positive": false,
+      "absolute_size": 98.80179999999999,
+      "positive_profit": null,
+      "negative_profit": -98.80179999999999
+    },
+    {
+      "state": "Colorado",
+      "city": "Longmont",
+      "profit": 34.82519999999992,
+      "positive": true,
+      "absolute_size": 34.82519999999992,
+      "positive_profit": 34.82519999999992,
+      "negative_profit": null
+    },
+    {
+      "state": "Colorado",
+      "city": "Louisville",
+      "profit": -3406.209500000001,
+      "positive": false,
+      "absolute_size": 3406.209500000001,
+      "positive_profit": null,
+      "negative_profit": -3406.209500000001
+    },
+    {
+      "state": "Colorado",
+      "city": "Loveland",
+      "profit": 4.477800000000001,
+      "positive": true,
+      "absolute_size": 4.477800000000001,
+      "positive_profit": 4.477800000000001,
+      "negative_profit": null
+    },
+    {
+      "state": "Colorado",
+      "city": "Parker",
+      "profit": -164.1892999999999,
+      "positive": false,
+      "absolute_size": 164.1892999999999,
+      "positive_profit": null,
+      "negative_profit": -164.1892999999999
+    },
+    {
+      "state": "Colorado",
+      "city": "Pueblo",
+      "profit": -900.9719,
+      "positive": false,
+      "absolute_size": 900.9719,
+      "positive_profit": null,
+      "negative_profit": -900.9719
+    },
+    {
+      "state": "Colorado",
+      "city": "Thornton",
+      "profit": 140.83979999999997,
+      "positive": true,
+      "absolute_size": 140.83979999999997,
+      "positive_profit": 140.83979999999997,
+      "negative_profit": null
+    },
+    {
+      "state": "Connecticut",
+      "city": "Bristol",
+      "profit": 208.15670000000003,
+      "positive": true,
+      "absolute_size": 208.15670000000003,
+      "positive_profit": 208.15670000000003,
+      "negative_profit": null
+    },
+    {
+      "state": "Connecticut",
+      "city": "Danbury",
+      "profit": 9.8856,
+      "positive": true,
+      "absolute_size": 9.8856,
+      "positive_profit": 9.8856,
+      "negative_profit": null
+    },
+    {
+      "state": "Connecticut",
+      "city": "Fairfield",
+      "profit": 1221.6226,
+      "positive": true,
+      "absolute_size": 1221.6226,
+      "positive_profit": 1221.6226,
+      "negative_profit": null
+    },
+    {
+      "state": "Connecticut",
+      "city": "Manchester",
+      "profit": 600.5054,
+      "positive": true,
+      "absolute_size": 600.5054,
+      "positive_profit": 600.5054,
+      "negative_profit": null
+    },
+    {
+      "state": "Connecticut",
+      "city": "Meriden",
+      "profit": 470.22120000000007,
+      "positive": true,
+      "absolute_size": 470.22120000000007,
+      "positive_profit": 470.22120000000007,
+      "negative_profit": null
+    },
+    {
+      "state": "Connecticut",
+      "city": "Middletown",
+      "profit": 157.6159,
+      "positive": true,
+      "absolute_size": 157.6159,
+      "positive_profit": 157.6159,
+      "negative_profit": null
+    },
+    {
+      "state": "Connecticut",
+      "city": "Milford",
+      "profit": 319.054,
+      "positive": true,
+      "absolute_size": 319.054,
+      "positive_profit": 319.054,
+      "negative_profit": null
+    },
+    {
+      "state": "Connecticut",
+      "city": "Norwich",
+      "profit": 164.08960000000002,
+      "positive": true,
+      "absolute_size": 164.08960000000002,
+      "positive_profit": 164.08960000000002,
+      "negative_profit": null
+    },
+    {
+      "state": "Connecticut",
+      "city": "Shelton",
+      "profit": 21.405299999999997,
+      "positive": true,
+      "absolute_size": 21.405299999999997,
+      "positive_profit": 21.405299999999997,
+      "negative_profit": null
+    },
+    {
+      "state": "Connecticut",
+      "city": "Waterbury",
+      "profit": 338.93549999999993,
+      "positive": true,
+      "absolute_size": 338.93549999999993,
+      "positive_profit": 338.93549999999993,
+      "negative_profit": null
+    },
+    {
+      "state": "Delaware",
+      "city": "Dover",
+      "profit": 116.131,
+      "positive": true,
+      "absolute_size": 116.131,
+      "positive_profit": 116.131,
+      "negative_profit": null
+    },
+    {
+      "state": "Delaware",
+      "city": "Newark",
+      "profit": 8086.1715,
+      "positive": true,
+      "absolute_size": 8086.1715,
+      "positive_profit": 8086.1715,
+      "negative_profit": null
+    },
+    {
+      "state": "Delaware",
+      "city": "Wilmington",
+      "profit": 1775.0722999999998,
+      "positive": true,
+      "absolute_size": 1775.0722999999998,
+      "positive_profit": 1775.0722999999998,
+      "negative_profit": null
+    },
+    {
+      "state": "District of Columbia",
+      "city": "Washington",
+      "profit": 1059.5893,
+      "positive": true,
+      "absolute_size": 1059.5893,
+      "positive_profit": 1059.5893,
+      "negative_profit": null
+    },
+    {
+      "state": "Florida",
+      "city": "Apopka",
+      "profit": 54.363399999999935,
+      "positive": true,
+      "absolute_size": 54.363399999999935,
+      "positive_profit": 54.363399999999935,
+      "negative_profit": null
+    },
+    {
+      "state": "Florida",
+      "city": "Boca Raton",
+      "profit": -22.645599999999995,
+      "positive": false,
+      "absolute_size": 22.645599999999995,
+      "positive_profit": null,
+      "negative_profit": -22.645599999999995
+    },
+    {
+      "state": "Florida",
+      "city": "Boynton Beach",
+      "profit": 50.6615,
+      "positive": true,
+      "absolute_size": 50.6615,
+      "positive_profit": 50.6615,
+      "negative_profit": null
+    },
+    {
+      "state": "Florida",
+      "city": "Coral Gables",
+      "profit": 22.3578,
+      "positive": true,
+      "absolute_size": 22.3578,
+      "positive_profit": 22.3578,
+      "negative_profit": null
+    },
+    {
+      "state": "Florida",
+      "city": "Coral Springs",
+      "profit": 18.556800000000017,
+      "positive": true,
+      "absolute_size": 18.556800000000017,
+      "positive_profit": 18.556800000000017,
+      "negative_profit": null
+    },
+    {
+      "state": "Florida",
+      "city": "Daytona Beach",
+      "profit": -52.333999999999996,
+      "positive": false,
+      "absolute_size": 52.333999999999996,
+      "positive_profit": null,
+      "negative_profit": -52.333999999999996
+    },
+    {
+      "state": "Florida",
+      "city": "Delray Beach",
+      "profit": 29.054199999999994,
+      "positive": true,
+      "absolute_size": 29.054199999999994,
+      "positive_profit": 29.054199999999994,
+      "negative_profit": null
+    },
+    {
+      "state": "Florida",
+      "city": "Deltona",
+      "profit": 122.13439999999997,
+      "positive": true,
+      "absolute_size": 122.13439999999997,
+      "positive_profit": 122.13439999999997,
+      "negative_profit": null
+    },
+    {
+      "state": "Florida",
+      "city": "Fort Lauderdale",
+      "profit": -161.35510000000016,
+      "positive": false,
+      "absolute_size": 161.35510000000016,
+      "positive_profit": null,
+      "negative_profit": -161.35510000000016
+    },
+    {
+      "state": "Florida",
+      "city": "Hialeah",
+      "profit": -179.22749999999996,
+      "positive": false,
+      "absolute_size": 179.22749999999996,
+      "positive_profit": null,
+      "negative_profit": -179.22749999999996
+    },
+    {
+      "state": "Florida",
+      "city": "Hollywood",
+      "profit": 108.20119999999999,
+      "positive": true,
+      "absolute_size": 108.20119999999999,
+      "positive_profit": 108.20119999999999,
+      "negative_profit": null
+    },
+    {
+      "state": "Florida",
+      "city": "Homestead",
+      "profit": 22.329100000000004,
+      "positive": true,
+      "absolute_size": 22.329100000000004,
+      "positive_profit": 22.329100000000004,
+      "negative_profit": null
+    },
+    {
+      "state": "Florida",
+      "city": "Jacksonville",
+      "profit": -2445.6608000000024,
+      "positive": false,
+      "absolute_size": 2445.6608000000024,
+      "positive_profit": null,
+      "negative_profit": -2445.6608000000024
+    },
+    {
+      "state": "Florida",
+      "city": "Jupiter",
+      "profit": 0.15480000000000005,
+      "positive": true,
+      "absolute_size": 0.15480000000000005,
+      "positive_profit": 0.15480000000000005,
+      "negative_profit": null
+    },
+    {
+      "state": "Florida",
+      "city": "Kissimmee",
+      "profit": 84.59819999999988,
+      "positive": true,
+      "absolute_size": 84.59819999999988,
+      "positive_profit": 84.59819999999988,
+      "negative_profit": null
+    },
+    {
+      "state": "Florida",
+      "city": "Lakeland",
+      "profit": -188.63650000000038,
+      "positive": false,
+      "absolute_size": 188.63650000000038,
+      "positive_profit": null,
+      "negative_profit": -188.63650000000038
+    },
+    {
+      "state": "Florida",
+      "city": "Margate",
+      "profit": 2.332799999999999,
+      "positive": true,
+      "absolute_size": 2.332799999999999,
+      "positive_profit": 2.332799999999999,
+      "negative_profit": null
+    },
+    {
+      "state": "Florida",
+      "city": "Melbourne",
+      "profit": 9.56160000000001,
+      "positive": true,
+      "absolute_size": 9.56160000000001,
+      "positive_profit": 9.56160000000001,
+      "negative_profit": null
+    },
+    {
+      "state": "Florida",
+      "city": "Miami",
+      "profit": -1150.3704000000002,
+      "positive": false,
+      "absolute_size": 1150.3704000000002,
+      "positive_profit": null,
+      "negative_profit": -1150.3704000000002
+    },
+    {
+      "state": "Florida",
+      "city": "Miramar",
+      "profit": 32.28099999999991,
+      "positive": true,
+      "absolute_size": 32.28099999999991,
+      "positive_profit": 32.28099999999991,
+      "negative_profit": null
+    },
+    {
+      "state": "Florida",
+      "city": "North Miami",
+      "profit": 3.0798,
+      "positive": true,
+      "absolute_size": 3.0798,
+      "positive_profit": 3.0798,
+      "negative_profit": null
+    },
+    {
+      "state": "Florida",
+      "city": "Orlando",
+      "profit": 377.7252999999999,
+      "positive": true,
+      "absolute_size": 377.7252999999999,
+      "positive_profit": 377.7252999999999,
+      "negative_profit": null
+    },
+    {
+      "state": "Florida",
+      "city": "Ormond Beach",
+      "profit": -1.9656000000000002,
+      "positive": false,
+      "absolute_size": 1.9656000000000002,
+      "positive_profit": null,
+      "negative_profit": -1.9656000000000002
+    },
+    {
+      "state": "Florida",
+      "city": "Palm Coast",
+      "profit": 17.655199999999997,
+      "positive": true,
+      "absolute_size": 17.655199999999997,
+      "positive_profit": 17.655199999999997,
+      "negative_profit": null
+    },
+    {
+      "state": "Florida",
+      "city": "Pembroke Pines",
+      "profit": -72.4491,
+      "positive": false,
+      "absolute_size": 72.4491,
+      "positive_profit": null,
+      "negative_profit": -72.4491
+    },
+    {
+      "state": "Florida",
+      "city": "Pensacola",
+      "profit": -1.4760000000000004,
+      "positive": false,
+      "absolute_size": 1.4760000000000004,
+      "positive_profit": null,
+      "negative_profit": -1.4760000000000004
+    },
+    {
+      "state": "Florida",
+      "city": "Plantation",
+      "profit": 12.039099999999905,
+      "positive": true,
+      "absolute_size": 12.039099999999905,
+      "positive_profit": 12.039099999999905,
+      "negative_profit": null
+    },
+    {
+      "state": "Florida",
+      "city": "Pompano Beach",
+      "profit": 15.006499999999999,
+      "positive": true,
+      "absolute_size": 15.006499999999999,
+      "positive_profit": 15.006499999999999,
+      "negative_profit": null
+    },
+    {
+      "state": "Florida",
+      "city": "Port Orange",
+      "profit": 2.9339999999999997,
+      "positive": true,
+      "absolute_size": 2.9339999999999997,
+      "positive_profit": 2.9339999999999997,
+      "negative_profit": null
+    },
+    {
+      "state": "Florida",
+      "city": "Port Saint Lucie",
+      "profit": 4.449000000000002,
+      "positive": true,
+      "absolute_size": 4.449000000000002,
+      "positive_profit": 4.449000000000002,
+      "negative_profit": null
+    },
+    {
+      "state": "Florida",
+      "city": "Saint Petersburg",
+      "profit": 151.98229999999995,
+      "positive": true,
+      "absolute_size": 151.98229999999995,
+      "positive_profit": 151.98229999999995,
+      "negative_profit": null
+    },
+    {
+      "state": "Florida",
+      "city": "Sanford",
+      "profit": -11.827200000000037,
+      "positive": false,
+      "absolute_size": 11.827200000000037,
+      "positive_profit": null,
+      "negative_profit": -11.827200000000037
+    },
+    {
+      "state": "Florida",
+      "city": "Tallahassee",
+      "profit": 392.7116000000001,
+      "positive": true,
+      "absolute_size": 392.7116000000001,
+      "positive_profit": 392.7116000000001,
+      "negative_profit": null
+    },
+    {
+      "state": "Florida",
+      "city": "Tamarac",
+      "profit": -351.8960999999999,
+      "positive": false,
+      "absolute_size": 351.8960999999999,
+      "positive_profit": null,
+      "negative_profit": -351.8960999999999
+    },
+    {
+      "state": "Florida",
+      "city": "Tampa",
+      "profit": -325.23660000000007,
+      "positive": false,
+      "absolute_size": 325.23660000000007,
+      "positive_profit": null,
+      "negative_profit": -325.23660000000007
+    },
+    {
+      "state": "Florida",
+      "city": "West Palm Beach",
+      "profit": 31.609199999999998,
+      "positive": true,
+      "absolute_size": 31.609199999999998,
+      "positive_profit": 31.609199999999998,
+      "negative_profit": null
+    },
+    {
+      "state": "Georgia",
+      "city": "Athens",
+      "profit": 479.32210000000003,
+      "positive": true,
+      "absolute_size": 479.32210000000003,
+      "positive_profit": 479.32210000000003,
+      "negative_profit": null
+    },
+    {
+      "state": "Georgia",
+      "city": "Atlanta",
+      "profit": 6993.662899999999,
+      "positive": true,
+      "absolute_size": 6993.662899999999,
+      "positive_profit": 6993.662899999999,
+      "negative_profit": null
+    },
+    {
+      "state": "Georgia",
+      "city": "Columbus",
+      "profit": 4104.1219,
+      "positive": true,
+      "absolute_size": 4104.1219,
+      "positive_profit": 4104.1219,
+      "negative_profit": null
+    },
+    {
+      "state": "Georgia",
+      "city": "East Point",
+      "profit": 102.01379999999999,
+      "positive": true,
+      "absolute_size": 102.01379999999999,
+      "positive_profit": 102.01379999999999,
+      "negative_profit": null
+    },
+    {
+      "state": "Georgia",
+      "city": "Macon",
+      "profit": 144.8535,
+      "positive": true,
+      "absolute_size": 144.8535,
+      "positive_profit": 144.8535,
+      "negative_profit": null
+    },
+    {
+      "state": "Georgia",
+      "city": "Marietta",
+      "profit": 512.1456,
+      "positive": true,
+      "absolute_size": 512.1456,
+      "positive_profit": 512.1456,
+      "negative_profit": null
+    },
+    {
+      "state": "Georgia",
+      "city": "Roswell",
+      "profit": 2427.4353,
+      "positive": true,
+      "absolute_size": 2427.4353,
+      "positive_profit": 2427.4353,
+      "negative_profit": null
+    },
+    {
+      "state": "Georgia",
+      "city": "Sandy Springs",
+      "profit": 520.5890999999999,
+      "positive": true,
+      "absolute_size": 520.5890999999999,
+      "positive_profit": 520.5890999999999,
+      "negative_profit": null
+    },
+    {
+      "state": "Georgia",
+      "city": "Smyrna",
+      "profit": 807.3318999999999,
+      "positive": true,
+      "absolute_size": 807.3318999999999,
+      "positive_profit": 807.3318999999999,
+      "negative_profit": null
+    },
+    {
+      "state": "Georgia",
+      "city": "Warner Robins",
+      "profit": 53.68839999999999,
+      "positive": true,
+      "absolute_size": 53.68839999999999,
+      "positive_profit": 53.68839999999999,
+      "negative_profit": null
+    },
+    {
+      "state": "Georgia",
+      "city": "Woodstock",
+      "profit": 104.87879999999998,
+      "positive": true,
+      "absolute_size": 104.87879999999998,
+      "positive_profit": 104.87879999999998,
+      "negative_profit": null
+    },
+    {
+      "state": "Idaho",
+      "city": "Boise",
+      "profit": 221.9373,
+      "positive": true,
+      "absolute_size": 221.9373,
+      "positive_profit": 221.9373,
+      "negative_profit": null
+    },
+    {
+      "state": "Idaho",
+      "city": "Caldwell",
+      "profit": 58.69659999999997,
+      "positive": true,
+      "absolute_size": 58.69659999999997,
+      "positive_profit": 58.69659999999997,
+      "negative_profit": null
+    },
+    {
+      "state": "Idaho",
+      "city": "Lewiston",
+      "profit": 3.3543999999999996,
+      "positive": true,
+      "absolute_size": 3.3543999999999996,
+      "positive_profit": 3.3543999999999996,
+      "negative_profit": null
+    },
+    {
+      "state": "Idaho",
+      "city": "Meridian",
+      "profit": 95.21399999999997,
+      "positive": true,
+      "absolute_size": 95.21399999999997,
+      "positive_profit": 95.21399999999997,
+      "negative_profit": null
+    },
+    {
+      "state": "Idaho",
+      "city": "Pocatello",
+      "profit": 181.35589999999996,
+      "positive": true,
+      "absolute_size": 181.35589999999996,
+      "positive_profit": 181.35589999999996,
+      "negative_profit": null
+    },
+    {
+      "state": "Idaho",
+      "city": "Twin Falls",
+      "profit": 266.16490000000005,
+      "positive": true,
+      "absolute_size": 266.16490000000005,
+      "positive_profit": 266.16490000000005,
+      "negative_profit": null
+    },
+    {
+      "state": "Illinois",
+      "city": "Arlington Heights",
+      "profit": 1.2348000000000008,
+      "positive": true,
+      "absolute_size": 1.2348000000000008,
+      "positive_profit": 1.2348000000000008,
+      "negative_profit": null
+    },
+    {
+      "state": "Illinois",
+      "city": "Aurora",
+      "profit": -1894.7195999999994,
+      "positive": false,
+      "absolute_size": 1894.7195999999994,
+      "positive_profit": null,
+      "negative_profit": -1894.7195999999994
+    },
+    {
+      "state": "Illinois",
+      "city": "Bloomington",
+      "profit": -432.1283000000001,
+      "positive": false,
+      "absolute_size": 432.1283000000001,
+      "positive_profit": null,
+      "negative_profit": -432.1283000000001
+    },
+    {
+      "state": "Illinois",
+      "city": "Bolingbrook",
+      "profit": -4.661000000000023,
+      "positive": false,
+      "absolute_size": 4.661000000000023,
+      "positive_profit": null,
+      "negative_profit": -4.661000000000023
+    },
+    {
+      "state": "Illinois",
+      "city": "Buffalo Grove",
+      "profit": -89.64780000000006,
+      "positive": false,
+      "absolute_size": 89.64780000000006,
+      "positive_profit": null,
+      "negative_profit": -89.64780000000006
+    },
+    {
+      "state": "Illinois",
+      "city": "Carol Stream",
+      "profit": -39.86830000000013,
+      "positive": false,
+      "absolute_size": 39.86830000000013,
+      "positive_profit": null,
+      "negative_profit": -39.86830000000013
+    },
+    {
+      "state": "Illinois",
+      "city": "Champaign",
+      "profit": -182.35200000000003,
+      "positive": false,
+      "absolute_size": 182.35200000000003,
+      "positive_profit": null,
+      "negative_profit": -182.35200000000003
+    },
+    {
+      "state": "Illinois",
+      "city": "Chicago",
+      "profit": -6654.568799999998,
+      "positive": false,
+      "absolute_size": 6654.568799999998,
+      "positive_profit": null,
+      "negative_profit": -6654.568799999998
+    },
+    {
+      "state": "Illinois",
+      "city": "Danville",
+      "profit": -69.39520000000003,
+      "positive": false,
+      "absolute_size": 69.39520000000003,
+      "positive_profit": null,
+      "negative_profit": -69.39520000000003
+    },
+    {
+      "state": "Illinois",
+      "city": "Decatur",
+      "profit": -311.03250000000037,
+      "positive": false,
+      "absolute_size": 311.03250000000037,
+      "positive_profit": null,
+      "negative_profit": -311.03250000000037
+    },
+    {
+      "state": "Illinois",
+      "city": "Des Plaines",
+      "profit": -236.7674000000001,
+      "positive": false,
+      "absolute_size": 236.7674000000001,
+      "positive_profit": null,
+      "negative_profit": -236.7674000000001
+    },
+    {
+      "state": "Illinois",
+      "city": "Elmhurst",
+      "profit": -212.13210000000004,
+      "positive": false,
+      "absolute_size": 212.13210000000004,
+      "positive_profit": null,
+      "negative_profit": -212.13210000000004
+    },
+    {
+      "state": "Illinois",
+      "city": "Evanston",
+      "profit": 411.8837999999999,
+      "positive": true,
+      "absolute_size": 411.8837999999999,
+      "positive_profit": 411.8837999999999,
+      "negative_profit": null
+    },
+    {
+      "state": "Illinois",
+      "city": "Frankfort",
+      "profit": -26.05600000000002,
+      "positive": false,
+      "absolute_size": 26.05600000000002,
+      "positive_profit": null,
+      "negative_profit": -26.05600000000002
+    },
+    {
+      "state": "Illinois",
+      "city": "Freeport",
+      "profit": -127.44980000000002,
+      "positive": false,
+      "absolute_size": 127.44980000000002,
+      "positive_profit": null,
+      "negative_profit": -127.44980000000002
+    },
+    {
+      "state": "Illinois",
+      "city": "Glenview",
+      "profit": 13.857900000000008,
+      "positive": true,
+      "absolute_size": 13.857900000000008,
+      "positive_profit": 13.857900000000008,
+      "negative_profit": null
+    },
+    {
+      "state": "Illinois",
+      "city": "Highland Park",
+      "profit": -169.94060000000002,
+      "positive": false,
+      "absolute_size": 169.94060000000002,
+      "positive_profit": null,
+      "negative_profit": -169.94060000000002
+    },
+    {
+      "state": "Illinois",
+      "city": "Naperville",
+      "profit": -146.53240000000005,
+      "positive": false,
+      "absolute_size": 146.53240000000005,
+      "positive_profit": null,
+      "negative_profit": -146.53240000000005
+    },
+    {
+      "state": "Illinois",
+      "city": "Normal",
+      "profit": -110.02320000000003,
+      "positive": false,
+      "absolute_size": 110.02320000000003,
+      "positive_profit": null,
+      "negative_profit": -110.02320000000003
+    },
+    {
+      "state": "Illinois",
+      "city": "Oak Park",
+      "profit": 1.0192,
+      "positive": true,
+      "absolute_size": 1.0192,
+      "positive_profit": 1.0192,
+      "negative_profit": null
+    },
+    {
+      "state": "Illinois",
+      "city": "Orland Park",
+      "profit": 67.99199999999996,
+      "positive": true,
+      "absolute_size": 67.99199999999996,
+      "positive_profit": 67.99199999999996,
+      "negative_profit": null
+    },
+    {
+      "state": "Illinois",
+      "city": "Oswego",
+      "profit": -536.1276000000001,
+      "positive": false,
+      "absolute_size": 536.1276000000001,
+      "positive_profit": null,
+      "negative_profit": -536.1276000000001
+    },
+    {
+      "state": "Illinois",
+      "city": "Palatine",
+      "profit": 23.262400000000003,
+      "positive": true,
+      "absolute_size": 23.262400000000003,
+      "positive_profit": 23.262400000000003,
+      "negative_profit": null
+    },
+    {
+      "state": "Illinois",
+      "city": "Park Ridge",
+      "profit": -238.44999999999993,
+      "positive": false,
+      "absolute_size": 238.44999999999993,
+      "positive_profit": null,
+      "negative_profit": -238.44999999999993
+    },
+    {
+      "state": "Illinois",
+      "city": "Peoria",
+      "profit": -72.75869999999999,
+      "positive": false,
+      "absolute_size": 72.75869999999999,
+      "positive_profit": null,
+      "negative_profit": -72.75869999999999
+    },
+    {
+      "state": "Illinois",
+      "city": "Quincy",
+      "profit": 49.10189999999997,
+      "positive": true,
+      "absolute_size": 49.10189999999997,
+      "positive_profit": 49.10189999999997,
+      "negative_profit": null
+    },
+    {
+      "state": "Illinois",
+      "city": "Rockford",
+      "profit": -1149.5078,
+      "positive": false,
+      "absolute_size": 1149.5078,
+      "positive_profit": null,
+      "negative_profit": -1149.5078
+    },
+    {
+      "state": "Illinois",
+      "city": "Romeoville",
+      "profit": -14.770800000000001,
+      "positive": false,
+      "absolute_size": 14.770800000000001,
+      "positive_profit": null,
+      "negative_profit": -14.770800000000001
+    },
+    {
+      "state": "Illinois",
+      "city": "Saint Charles",
+      "profit": 216.63979999999992,
+      "positive": true,
+      "absolute_size": 216.63979999999992,
+      "positive_profit": 216.63979999999992,
+      "negative_profit": null
+    },
+    {
+      "state": "Illinois",
+      "city": "Skokie",
+      "profit": -346.86999999999995,
+      "positive": false,
+      "absolute_size": 346.86999999999995,
+      "positive_profit": null,
+      "negative_profit": -346.86999999999995
+    },
+    {
+      "state": "Illinois",
+      "city": "Tinley Park",
+      "profit": -8.915199999999999,
+      "positive": false,
+      "absolute_size": 8.915199999999999,
+      "positive_profit": null,
+      "negative_profit": -8.915199999999999
+    },
+    {
+      "state": "Illinois",
+      "city": "Wheeling",
+      "profit": -293.31780000000003,
+      "positive": false,
+      "absolute_size": 293.31780000000003,
+      "positive_profit": null,
+      "negative_profit": -293.31780000000003
+    },
+    {
+      "state": "Illinois",
+      "city": "Woodstock",
+      "profit": -24.8859000000001,
+      "positive": false,
+      "absolute_size": 24.8859000000001,
+      "positive_profit": null,
+      "negative_profit": -24.8859000000001
+    },
+    {
+      "state": "Indiana",
+      "city": "Bloomington",
+      "profit": 182.7733,
+      "positive": true,
+      "absolute_size": 182.7733,
+      "positive_profit": 182.7733,
+      "negative_profit": null
+    },
+    {
+      "state": "Indiana",
+      "city": "Columbus",
+      "profit": 2522.4846,
+      "positive": true,
+      "absolute_size": 2522.4846,
+      "positive_profit": 2522.4846,
+      "negative_profit": null
+    },
+    {
+      "state": "Indiana",
+      "city": "Elkhart",
+      "profit": 16.672099999999997,
+      "positive": true,
+      "absolute_size": 16.672099999999997,
+      "positive_profit": 16.672099999999997,
+      "negative_profit": null
+    },
+    {
+      "state": "Indiana",
+      "city": "Greenwood",
+      "profit": 471.73220000000003,
+      "positive": true,
+      "absolute_size": 471.73220000000003,
+      "positive_profit": 471.73220000000003,
+      "negative_profit": null
+    },
+    {
+      "state": "Indiana",
+      "city": "Indianapolis",
+      "profit": 2741.6538,
+      "positive": true,
+      "absolute_size": 2741.6538,
+      "positive_profit": 2741.6538,
+      "negative_profit": null
+    },
+    {
+      "state": "Indiana",
+      "city": "La Porte",
+      "profit": 224.51299999999995,
+      "positive": true,
+      "absolute_size": 224.51299999999995,
+      "positive_profit": 224.51299999999995,
+      "negative_profit": null
+    },
+    {
+      "state": "Indiana",
+      "city": "Lafayette",
+      "profit": 8976.0973,
+      "positive": true,
+      "absolute_size": 8976.0973,
+      "positive_profit": 8976.0973,
+      "negative_profit": null
+    },
+    {
+      "state": "Indiana",
+      "city": "Lawrence",
+      "profit": 532.7429999999999,
+      "positive": true,
+      "absolute_size": 532.7429999999999,
+      "positive_profit": 532.7429999999999,
+      "negative_profit": null
+    },
+    {
+      "state": "Indiana",
+      "city": "Mishawaka",
+      "profit": 96.59199999999993,
+      "positive": true,
+      "absolute_size": 96.59199999999993,
+      "positive_profit": 96.59199999999993,
+      "negative_profit": null
+    },
+    {
+      "state": "Indiana",
+      "city": "New Albany",
+      "profit": 73.35289999999998,
+      "positive": true,
+      "absolute_size": 73.35289999999998,
+      "positive_profit": 73.35289999999998,
+      "negative_profit": null
+    },
+    {
+      "state": "Indiana",
+      "city": "New Castle",
+      "profit": 23.083900000000003,
+      "positive": true,
+      "absolute_size": 23.083900000000003,
+      "positive_profit": 23.083900000000003,
+      "negative_profit": null
+    },
+    {
+      "state": "Indiana",
+      "city": "Noblesville",
+      "profit": 353.313,
+      "positive": true,
+      "absolute_size": 353.313,
+      "positive_profit": 353.313,
+      "negative_profit": null
+    },
+    {
+      "state": "Indiana",
+      "city": "Portage",
+      "profit": 6.5120000000000005,
+      "positive": true,
+      "absolute_size": 6.5120000000000005,
+      "positive_profit": 6.5120000000000005,
+      "negative_profit": null
+    },
+    {
+      "state": "Indiana",
+      "city": "Richmond",
+      "profit": 1881.8619999999996,
+      "positive": true,
+      "absolute_size": 1881.8619999999996,
+      "positive_profit": 1881.8619999999996,
+      "negative_profit": null
+    },
+    {
+      "state": "Indiana",
+      "city": "South Bend",
+      "profit": 279.5512,
+      "positive": true,
+      "absolute_size": 279.5512,
+      "positive_profit": 279.5512,
+      "negative_profit": null
+    },
+    {
+      "state": "Iowa",
+      "city": "Burlington",
+      "profit": 26.671399999999995,
+      "positive": true,
+      "absolute_size": 26.671399999999995,
+      "positive_profit": 26.671399999999995,
+      "negative_profit": null
+    },
+    {
+      "state": "Iowa",
+      "city": "Cedar Rapids",
+      "profit": 80.73599999999998,
+      "positive": true,
+      "absolute_size": 80.73599999999998,
+      "positive_profit": 80.73599999999998,
+      "negative_profit": null
+    },
+    {
+      "state": "Iowa",
+      "city": "Des Moines",
+      "profit": 360.40090000000004,
+      "positive": true,
+      "absolute_size": 360.40090000000004,
+      "positive_profit": 360.40090000000004,
+      "negative_profit": null
+    },
+    {
+      "state": "Iowa",
+      "city": "Dubuque",
+      "profit": 477.6744,
+      "positive": true,
+      "absolute_size": 477.6744,
+      "positive_profit": 477.6744,
+      "negative_profit": null
+    },
+    {
+      "state": "Iowa",
+      "city": "Iowa City",
+      "profit": 4.4955,
+      "positive": true,
+      "absolute_size": 4.4955,
+      "positive_profit": 4.4955,
+      "negative_profit": null
+    },
+    {
+      "state": "Iowa",
+      "city": "Marion",
+      "profit": 164.29089999999997,
+      "positive": true,
+      "absolute_size": 164.29089999999997,
+      "positive_profit": 164.29089999999997,
+      "negative_profit": null
+    },
+    {
+      "state": "Iowa",
+      "city": "Urbandale",
+      "profit": 57.71799999999999,
+      "positive": true,
+      "absolute_size": 57.71799999999999,
+      "positive_profit": 57.71799999999999,
+      "negative_profit": null
+    },
+    {
+      "state": "Iowa",
+      "city": "Waterloo",
+      "profit": 11.8248,
+      "positive": true,
+      "absolute_size": 11.8248,
+      "positive_profit": 11.8248,
+      "negative_profit": null
+    },
+    {
+      "state": "Kansas",
+      "city": "Garden City",
+      "profit": 90.6259,
+      "positive": true,
+      "absolute_size": 90.6259,
+      "positive_profit": 90.6259,
+      "negative_profit": null
+    },
+    {
+      "state": "Kansas",
+      "city": "Manhattan",
+      "profit": 10.958399999999983,
+      "positive": true,
+      "absolute_size": 10.958399999999983,
+      "positive_profit": 10.958399999999983,
+      "negative_profit": null
+    },
+    {
+      "state": "Kansas",
+      "city": "Olathe",
+      "profit": 207.41079999999997,
+      "positive": true,
+      "absolute_size": 207.41079999999997,
+      "positive_profit": 207.41079999999997,
+      "negative_profit": null
+    },
+    {
+      "state": "Kansas",
+      "city": "Overland Park",
+      "profit": 203.52179999999998,
+      "positive": true,
+      "absolute_size": 203.52179999999998,
+      "positive_profit": 203.52179999999998,
+      "negative_profit": null
+    },
+    {
+      "state": "Kansas",
+      "city": "Wichita",
+      "profit": 323.9266,
+      "positive": true,
+      "absolute_size": 323.9266,
+      "positive_profit": 323.9266,
+      "negative_profit": null
+    },
+    {
+      "state": "Kentucky",
+      "city": "Bowling Green",
+      "profit": 67.1168,
+      "positive": true,
+      "absolute_size": 67.1168,
+      "positive_profit": 67.1168,
+      "negative_profit": null
+    },
+    {
+      "state": "Kentucky",
+      "city": "Florence",
+      "profit": 1837.3540999999996,
+      "positive": true,
+      "absolute_size": 1837.3540999999996,
+      "positive_profit": 1837.3540999999996,
+      "negative_profit": null
+    },
+    {
+      "state": "Kentucky",
+      "city": "Georgetown",
+      "profit": 402.76000000000005,
+      "positive": true,
+      "absolute_size": 402.76000000000005,
+      "positive_profit": 402.76000000000005,
+      "negative_profit": null
+    },
+    {
+      "state": "Kentucky",
+      "city": "Henderson",
+      "profit": 4518.8169,
+      "positive": true,
+      "absolute_size": 4518.8169,
+      "positive_profit": 4518.8169,
+      "negative_profit": null
+    },
+    {
+      "state": "Kentucky",
+      "city": "Louisville",
+      "profit": 1975.8966,
+      "positive": true,
+      "absolute_size": 1975.8966,
+      "positive_profit": 1975.8966,
+      "negative_profit": null
+    },
+    {
+      "state": "Kentucky",
+      "city": "Murray",
+      "profit": 94.4658,
+      "positive": true,
+      "absolute_size": 94.4658,
+      "positive_profit": 94.4658,
+      "negative_profit": null
+    },
+    {
+      "state": "Kentucky",
+      "city": "Owensboro",
+      "profit": 27.642799999999998,
+      "positive": true,
+      "absolute_size": 27.642799999999998,
+      "positive_profit": 27.642799999999998,
+      "negative_profit": null
+    },
+    {
+      "state": "Kentucky",
+      "city": "Richmond",
+      "profit": 2275.6436,
+      "positive": true,
+      "absolute_size": 2275.6436,
+      "positive_profit": 2275.6436,
+      "negative_profit": null
+    },
+    {
+      "state": "Louisiana",
+      "city": "Bossier City",
+      "profit": 336.96079999999995,
+      "positive": true,
+      "absolute_size": 336.96079999999995,
+      "positive_profit": 336.96079999999995,
+      "negative_profit": null
+    },
+    {
+      "state": "Louisiana",
+      "city": "Kenner",
+      "profit": 19.797600000000003,
+      "positive": true,
+      "absolute_size": 19.797600000000003,
+      "positive_profit": 19.797600000000003,
+      "negative_profit": null
+    },
+    {
+      "state": "Louisiana",
+      "city": "Lafayette",
+      "profit": 1042.2903000000001,
+      "positive": true,
+      "absolute_size": 1042.2903000000001,
+      "positive_profit": 1042.2903000000001,
+      "negative_profit": null
+    },
+    {
+      "state": "Louisiana",
+      "city": "Lake Charles",
+      "profit": 241.2558,
+      "positive": true,
+      "absolute_size": 241.2558,
+      "positive_profit": 241.2558,
+      "negative_profit": null
+    },
+    {
+      "state": "Louisiana",
+      "city": "Monroe",
+      "profit": 555.7977999999999,
+      "positive": true,
+      "absolute_size": 555.7977999999999,
+      "positive_profit": 555.7977999999999,
+      "negative_profit": null
+    },
+    {
+      "state": "Maine",
+      "city": "Bangor",
+      "profit": 422.2204,
+      "positive": true,
+      "absolute_size": 422.2204,
+      "positive_profit": 422.2204,
+      "negative_profit": null
+    },
+    {
+      "state": "Maine",
+      "city": "Lewiston",
+      "profit": 32.2658,
+      "positive": true,
+      "absolute_size": 32.2658,
+      "positive_profit": 32.2658,
+      "negative_profit": null
+    },
+    {
+      "state": "Maryland",
+      "city": "Baltimore",
+      "profit": 1676.1979999999999,
+      "positive": true,
+      "absolute_size": 1676.1979999999999,
+      "positive_profit": 1676.1979999999999,
+      "negative_profit": null
+    },
+    {
+      "state": "Maryland",
+      "city": "Clinton",
+      "profit": 1274.2421,
+      "positive": true,
+      "absolute_size": 1274.2421,
+      "positive_profit": 1274.2421,
+      "negative_profit": null
+    },
+    {
+      "state": "Maryland",
+      "city": "Columbia",
+      "profit": 3775.2236999999996,
+      "positive": true,
+      "absolute_size": 3775.2236999999996,
+      "positive_profit": 3775.2236999999996,
+      "negative_profit": null
+    },
+    {
+      "state": "Maryland",
+      "city": "Gaithersburg",
+      "profit": 105.54099999999998,
+      "positive": true,
+      "absolute_size": 105.54099999999998,
+      "positive_profit": 105.54099999999998,
+      "negative_profit": null
+    },
+    {
+      "state": "Maryland",
+      "city": "Hagerstown",
+      "profit": 20.586,
+      "positive": true,
+      "absolute_size": 20.586,
+      "positive_profit": 20.586,
+      "negative_profit": null
+    },
+    {
+      "state": "Maryland",
+      "city": "Laurel",
+      "profit": 46.17329999999998,
+      "positive": true,
+      "absolute_size": 46.17329999999998,
+      "positive_profit": 46.17329999999998,
+      "negative_profit": null
+    },
+    {
+      "state": "Maryland",
+      "city": "Rockville",
+      "profit": 133.2147,
+      "positive": true,
+      "absolute_size": 133.2147,
+      "positive_profit": 133.2147,
+      "negative_profit": null
+    },
+    {
+      "state": "Massachusetts",
+      "city": "Andover",
+      "profit": 124.18860000000002,
+      "positive": true,
+      "absolute_size": 124.18860000000002,
+      "positive_profit": 124.18860000000002,
+      "negative_profit": null
+    },
+    {
+      "state": "Massachusetts",
+      "city": "Beverly",
+      "profit": 654.9193999999998,
+      "positive": true,
+      "absolute_size": 654.9193999999998,
+      "positive_profit": 654.9193999999998,
+      "negative_profit": null
+    },
+    {
+      "state": "Massachusetts",
+      "city": "Cambridge",
+      "profit": 173.7276,
+      "positive": true,
+      "absolute_size": 173.7276,
+      "positive_profit": 173.7276,
+      "negative_profit": null
+    },
+    {
+      "state": "Massachusetts",
+      "city": "Everett",
+      "profit": 1360.0809,
+      "positive": true,
+      "absolute_size": 1360.0809,
+      "positive_profit": 1360.0809,
+      "negative_profit": null
+    },
+    {
+      "state": "Massachusetts",
+      "city": "Franklin",
+      "profit": 464.6286999999999,
+      "positive": true,
+      "absolute_size": 464.6286999999999,
+      "positive_profit": 464.6286999999999,
+      "negative_profit": null
+    },
+    {
+      "state": "Massachusetts",
+      "city": "Holyoke",
+      "profit": 60.391999999999996,
+      "positive": true,
+      "absolute_size": 60.391999999999996,
+      "positive_profit": 60.391999999999996,
+      "negative_profit": null
+    },
+    {
+      "state": "Massachusetts",
+      "city": "Lawrence",
+      "profit": 1849.4035,
+      "positive": true,
+      "absolute_size": 1849.4035,
+      "positive_profit": 1849.4035,
+      "negative_profit": null
+    },
+    {
+      "state": "Massachusetts",
+      "city": "Leominster",
+      "profit": 79.5016,
+      "positive": true,
+      "absolute_size": 79.5016,
+      "positive_profit": 79.5016,
+      "negative_profit": null
+    },
+    {
+      "state": "Massachusetts",
+      "city": "Lowell",
+      "profit": 1312.5717,
+      "positive": true,
+      "absolute_size": 1312.5717,
+      "positive_profit": 1312.5717,
+      "negative_profit": null
+    },
+    {
+      "state": "Massachusetts",
+      "city": "Malden",
+      "profit": 31.169199999999993,
+      "positive": true,
+      "absolute_size": 31.169199999999993,
+      "positive_profit": 31.169199999999993,
+      "negative_profit": null
+    },
+    {
+      "state": "Massachusetts",
+      "city": "Marlborough",
+      "profit": 67.60679999999999,
+      "positive": true,
+      "absolute_size": 67.60679999999999,
+      "positive_profit": 67.60679999999999,
+      "negative_profit": null
+    },
+    {
+      "state": "Massachusetts",
+      "city": "New Bedford",
+      "profit": 50.48609999999999,
+      "positive": true,
+      "absolute_size": 50.48609999999999,
+      "positive_profit": 50.48609999999999,
+      "negative_profit": null
+    },
+    {
+      "state": "Massachusetts",
+      "city": "Quincy",
+      "profit": 297.98889999999994,
+      "positive": true,
+      "absolute_size": 297.98889999999994,
+      "positive_profit": 297.98889999999994,
+      "negative_profit": null
+    },
+    {
+      "state": "Massachusetts",
+      "city": "Revere",
+      "profit": 258.8366,
+      "positive": true,
+      "absolute_size": 258.8366,
+      "positive_profit": 258.8366,
+      "negative_profit": null
+    },
+    {
+      "state": "Michigan",
+      "city": "Ann Arbor",
+      "profit": 228.91579999999993,
+      "positive": true,
+      "absolute_size": 228.91579999999993,
+      "positive_profit": 228.91579999999993,
+      "negative_profit": null
+    },
+    {
+      "state": "Michigan",
+      "city": "Canton",
+      "profit": 149.2776,
+      "positive": true,
+      "absolute_size": 149.2776,
+      "positive_profit": 149.2776,
+      "negative_profit": null
+    },
+    {
+      "state": "Michigan",
+      "city": "Dearborn",
+      "profit": 467.3863999999999,
+      "positive": true,
+      "absolute_size": 467.3863999999999,
+      "positive_profit": 467.3863999999999,
+      "negative_profit": null
+    },
+    {
+      "state": "Michigan",
+      "city": "Dearborn Heights",
+      "profit": 140.8905,
+      "positive": true,
+      "absolute_size": 140.8905,
+      "positive_profit": 140.8905,
+      "negative_profit": null
+    },
+    {
+      "state": "Michigan",
+      "city": "Detroit",
+      "profit": 13181.790799999999,
+      "positive": true,
+      "absolute_size": 13181.790799999999,
+      "positive_profit": 13181.790799999999,
+      "negative_profit": null
+    },
+    {
+      "state": "Michigan",
+      "city": "Grand Rapids",
+      "profit": 233.92270000000002,
+      "positive": true,
+      "absolute_size": 233.92270000000002,
+      "positive_profit": 233.92270000000002,
+      "negative_profit": null
+    },
+    {
+      "state": "Michigan",
+      "city": "Holland",
+      "profit": 66.6588,
+      "positive": true,
+      "absolute_size": 66.6588,
+      "positive_profit": 66.6588,
+      "negative_profit": null
+    },
+    {
+      "state": "Michigan",
+      "city": "Jackson",
+      "profit": 5525.199200000001,
+      "positive": true,
+      "absolute_size": 5525.199200000001,
+      "positive_profit": 5525.199200000001,
+      "negative_profit": null
+    },
+    {
+      "state": "Michigan",
+      "city": "Lansing",
+      "profit": 412.87339999999995,
+      "positive": true,
+      "absolute_size": 412.87339999999995,
+      "positive_profit": 412.87339999999995,
+      "negative_profit": null
+    },
+    {
+      "state": "Michigan",
+      "city": "Lincoln Park",
+      "profit": 68.36910000000002,
+      "positive": true,
+      "absolute_size": 68.36910000000002,
+      "positive_profit": 68.36910000000002,
+      "negative_profit": null
+    },
+    {
+      "state": "Michigan",
+      "city": "Midland",
+      "profit": 2293.6828,
+      "positive": true,
+      "absolute_size": 2293.6828,
+      "positive_profit": 2293.6828,
+      "negative_profit": null
+    },
+    {
+      "state": "Michigan",
+      "city": "Mount Pleasant",
+      "profit": 6.170400000000001,
+      "positive": true,
+      "absolute_size": 6.170400000000001,
+      "positive_profit": 6.170400000000001,
+      "negative_profit": null
+    },
+    {
+      "state": "Michigan",
+      "city": "Oak Park",
+      "profit": 151.0236,
+      "positive": true,
+      "absolute_size": 151.0236,
+      "positive_profit": 151.0236,
+      "negative_profit": null
+    },
+    {
+      "state": "Michigan",
+      "city": "Rochester Hills",
+      "profit": 54.333200000000005,
+      "positive": true,
+      "absolute_size": 54.333200000000005,
+      "positive_profit": 54.333200000000005,
+      "negative_profit": null
+    },
+    {
+      "state": "Michigan",
+      "city": "Roseville",
+      "profit": 268.9149,
+      "positive": true,
+      "absolute_size": 268.9149,
+      "positive_profit": 268.9149,
+      "negative_profit": null
+    },
+    {
+      "state": "Michigan",
+      "city": "Royal Oak",
+      "profit": 16.9632,
+      "positive": true,
+      "absolute_size": 16.9632,
+      "positive_profit": 16.9632,
+      "negative_profit": null
+    },
+    {
+      "state": "Michigan",
+      "city": "Saginaw",
+      "profit": 77.1801,
+      "positive": true,
+      "absolute_size": 77.1801,
+      "positive_profit": 77.1801,
+      "negative_profit": null
+    },
+    {
+      "state": "Michigan",
+      "city": "Sterling Heights",
+      "profit": 33.0676,
+      "positive": true,
+      "absolute_size": 33.0676,
+      "positive_profit": 33.0676,
+      "negative_profit": null
+    },
+    {
+      "state": "Michigan",
+      "city": "Taylor",
+      "profit": 44.868199999999995,
+      "positive": true,
+      "absolute_size": 44.868199999999995,
+      "positive_profit": 44.868199999999995,
+      "negative_profit": null
+    },
+    {
+      "state": "Michigan",
+      "city": "Trenton",
+      "profit": 652.0998000000001,
+      "positive": true,
+      "absolute_size": 652.0998000000001,
+      "positive_profit": 652.0998000000001,
+      "negative_profit": null
+    },
+    {
+      "state": "Michigan",
+      "city": "Westland",
+      "profit": 389.59950000000003,
+      "positive": true,
+      "absolute_size": 389.59950000000003,
+      "positive_profit": 389.59950000000003,
+      "negative_profit": null
+    },
+    {
+      "state": "Minnesota",
+      "city": "Apple Valley",
+      "profit": 8.970599999999989,
+      "positive": true,
+      "absolute_size": 8.970599999999989,
+      "positive_profit": 8.970599999999989,
+      "negative_profit": null
+    },
+    {
+      "state": "Minnesota",
+      "city": "Coon Rapids",
+      "profit": 136.45319999999998,
+      "positive": true,
+      "absolute_size": 136.45319999999998,
+      "positive_profit": 136.45319999999998,
+      "negative_profit": null
+    },
+    {
+      "state": "Minnesota",
+      "city": "Cottage Grove",
+      "profit": 54.796800000000005,
+      "positive": true,
+      "absolute_size": 54.796800000000005,
+      "positive_profit": 54.796800000000005,
+      "negative_profit": null
+    },
+    {
+      "state": "Minnesota",
+      "city": "Eagan",
+      "profit": 87.0338,
+      "positive": true,
+      "absolute_size": 87.0338,
+      "positive_profit": 87.0338,
+      "negative_profit": null
+    },
+    {
+      "state": "Minnesota",
+      "city": "Lakeville",
+      "profit": 1346.6021000000003,
+      "positive": true,
+      "absolute_size": 1346.6021000000003,
+      "positive_profit": 1346.6021000000003,
+      "negative_profit": null
+    },
+    {
+      "state": "Minnesota",
+      "city": "Maple Grove",
+      "profit": 385.01009999999997,
+      "positive": true,
+      "absolute_size": 385.01009999999997,
+      "positive_profit": 385.01009999999997,
+      "negative_profit": null
+    },
+    {
+      "state": "Minnesota",
+      "city": "Minneapolis",
+      "profit": 6824.5846,
+      "positive": true,
+      "absolute_size": 6824.5846,
+      "positive_profit": 6824.5846,
+      "negative_profit": null
+    },
+    {
+      "state": "Minnesota",
+      "city": "Moorhead",
+      "profit": 101.41059999999996,
+      "positive": true,
+      "absolute_size": 101.41059999999996,
+      "positive_profit": 101.41059999999996,
+      "negative_profit": null
+    },
+    {
+      "state": "Minnesota",
+      "city": "Rochester",
+      "profit": 520.204,
+      "positive": true,
+      "absolute_size": 520.204,
+      "positive_profit": 520.204,
+      "negative_profit": null
+    },
+    {
+      "state": "Minnesota",
+      "city": "Roseville",
+      "profit": 667.5271999999999,
+      "positive": true,
+      "absolute_size": 667.5271999999999,
+      "positive_profit": 667.5271999999999,
+      "negative_profit": null
+    },
+    {
+      "state": "Minnesota",
+      "city": "Saint Cloud",
+      "profit": 469.6139999999999,
+      "positive": true,
+      "absolute_size": 469.6139999999999,
+      "positive_profit": 469.6139999999999,
+      "negative_profit": null
+    },
+    {
+      "state": "Minnesota",
+      "city": "Saint Paul",
+      "profit": 24.8842,
+      "positive": true,
+      "absolute_size": 24.8842,
+      "positive_profit": 24.8842,
+      "negative_profit": null
+    },
+    {
+      "state": "Minnesota",
+      "city": "Woodbury",
+      "profit": 196.09619999999995,
+      "positive": true,
+      "absolute_size": 196.09619999999995,
+      "positive_profit": 196.09619999999995,
+      "negative_profit": null
+    },
+    {
+      "state": "Mississippi",
+      "city": "Gulfport",
+      "profit": 77.5761,
+      "positive": true,
+      "absolute_size": 77.5761,
+      "positive_profit": 77.5761,
+      "negative_profit": null
+    },
+    {
+      "state": "Mississippi",
+      "city": "Hattiesburg",
+      "profit": 582.0694000000001,
+      "positive": true,
+      "absolute_size": 582.0694000000001,
+      "positive_profit": 582.0694000000001,
+      "negative_profit": null
+    },
+    {
+      "state": "Mississippi",
+      "city": "Jackson",
+      "profit": 2100.4405000000006,
+      "positive": true,
+      "absolute_size": 2100.4405000000006,
+      "positive_profit": 2100.4405000000006,
+      "negative_profit": null
+    },
+    {
+      "state": "Mississippi",
+      "city": "Southaven",
+      "profit": 412.89020000000005,
+      "positive": true,
+      "absolute_size": 412.89020000000005,
+      "positive_profit": 412.89020000000005,
+      "negative_profit": null
+    },
+    {
+      "state": "Missouri",
+      "city": "Columbia",
+      "profit": 1106.7719000000002,
+      "positive": true,
+      "absolute_size": 1106.7719000000002,
+      "positive_profit": 1106.7719000000002,
+      "negative_profit": null
+    },
+    {
+      "state": "Missouri",
+      "city": "Gladstone",
+      "profit": 52.58879999999999,
+      "positive": true,
+      "absolute_size": 52.58879999999999,
+      "positive_profit": 52.58879999999999,
+      "negative_profit": null
+    },
+    {
+      "state": "Missouri",
+      "city": "Independence",
+      "profit": 975.663,
+      "positive": true,
+      "absolute_size": 975.663,
+      "positive_profit": 975.663,
+      "negative_profit": null
+    },
+    {
+      "state": "Missouri",
+      "city": "Jefferson City",
+      "profit": 8.661999999999992,
+      "positive": true,
+      "absolute_size": 8.661999999999992,
+      "positive_profit": 8.661999999999992,
+      "negative_profit": null
+    },
+    {
+      "state": "Missouri",
+      "city": "Kirkwood",
+      "profit": 47.1344,
+      "positive": true,
+      "absolute_size": 47.1344,
+      "positive_profit": 47.1344,
+      "negative_profit": null
+    },
+    {
+      "state": "Missouri",
+      "city": "Saint Charles",
+      "profit": 94.8436,
+      "positive": true,
+      "absolute_size": 94.8436,
+      "positive_profit": 94.8436,
+      "negative_profit": null
+    },
+    {
+      "state": "Missouri",
+      "city": "Saint Louis",
+      "profit": 98.5541,
+      "positive": true,
+      "absolute_size": 98.5541,
+      "positive_profit": 98.5541,
+      "negative_profit": null
+    },
+    {
+      "state": "Missouri",
+      "city": "Saint Peters",
+      "profit": 146.40359999999998,
+      "positive": true,
+      "absolute_size": 146.40359999999998,
+      "positive_profit": 146.40359999999998,
+      "negative_profit": null
+    },
+    {
+      "state": "Missouri",
+      "city": "Springfield",
+      "profit": 3905.5891,
+      "positive": true,
+      "absolute_size": 3905.5891,
+      "positive_profit": 3905.5891,
+      "negative_profit": null
+    },
+    {
+      "state": "Montana",
+      "city": "Billings",
+      "profit": 2.693599999999999,
+      "positive": true,
+      "absolute_size": 2.693599999999999,
+      "positive_profit": 2.693599999999999,
+      "negative_profit": null
+    },
+    {
+      "state": "Montana",
+      "city": "Bozeman",
+      "profit": 20.8106,
+      "positive": true,
+      "absolute_size": 20.8106,
+      "positive_profit": 20.8106,
+      "negative_profit": null
+    },
+    {
+      "state": "Montana",
+      "city": "Great Falls",
+      "profit": 1582.7070999999999,
+      "positive": true,
+      "absolute_size": 1582.7070999999999,
+      "positive_profit": 1582.7070999999999,
+      "negative_profit": null
+    },
+    {
+      "state": "Montana",
+      "city": "Helena",
+      "profit": 74.62219999999995,
+      "positive": true,
+      "absolute_size": 74.62219999999995,
+      "positive_profit": 74.62219999999995,
+      "negative_profit": null
+    },
+    {
+      "state": "Montana",
+      "city": "Missoula",
+      "profit": 152.49499999999998,
+      "positive": true,
+      "absolute_size": 152.49499999999998,
+      "positive_profit": 152.49499999999998,
+      "negative_profit": null
+    },
+    {
+      "state": "Nebraska",
+      "city": "Fremont",
+      "profit": 179.46959999999999,
+      "positive": true,
+      "absolute_size": 179.46959999999999,
+      "positive_profit": 179.46959999999999,
+      "negative_profit": null
+    },
+    {
+      "state": "Nebraska",
+      "city": "Grand Island",
+      "profit": 7.98,
+      "positive": true,
+      "absolute_size": 7.98,
+      "positive_profit": 7.98,
+      "negative_profit": null
+    },
+    {
+      "state": "Nebraska",
+      "city": "Norfolk",
+      "profit": 8.0178,
+      "positive": true,
+      "absolute_size": 8.0178,
+      "positive_profit": 8.0178,
+      "negative_profit": null
+    },
+    {
+      "state": "Nebraska",
+      "city": "Omaha",
+      "profit": 1841.6267999999995,
+      "positive": true,
+      "absolute_size": 1841.6267999999995,
+      "positive_profit": 1841.6267999999995,
+      "negative_profit": null
+    },
+    {
+      "state": "Nevada",
+      "city": "Henderson",
+      "profit": 393.044,
+      "positive": true,
+      "absolute_size": 393.044,
+      "positive_profit": 393.044,
+      "negative_profit": null
+    },
+    {
+      "state": "Nevada",
+      "city": "Las Vegas",
+      "profit": 332.44329999999997,
+      "positive": true,
+      "absolute_size": 332.44329999999997,
+      "positive_profit": 332.44329999999997,
+      "negative_profit": null
+    },
+    {
+      "state": "Nevada",
+      "city": "North Las Vegas",
+      "profit": 2247.6898999999994,
+      "positive": true,
+      "absolute_size": 2247.6898999999994,
+      "positive_profit": 2247.6898999999994,
+      "negative_profit": null
+    },
+    {
+      "state": "Nevada",
+      "city": "Reno",
+      "profit": 115.05269999999996,
+      "positive": true,
+      "absolute_size": 115.05269999999996,
+      "positive_profit": 115.05269999999996,
+      "negative_profit": null
+    },
+    {
+      "state": "Nevada",
+      "city": "Sparks",
+      "profit": 228.53600000000012,
+      "positive": true,
+      "absolute_size": 228.53600000000012,
+      "positive_profit": 228.53600000000012,
+      "negative_profit": null
+    },
+    {
+      "state": "New Hampshire",
+      "city": "Concord",
+      "profit": 787.6270999999998,
+      "positive": true,
+      "absolute_size": 787.6270999999998,
+      "positive_profit": 787.6270999999998,
+      "negative_profit": null
+    },
+    {
+      "state": "New Hampshire",
+      "city": "Dover",
+      "profit": 905.3631,
+      "positive": true,
+      "absolute_size": 905.3631,
+      "positive_profit": 905.3631,
+      "negative_profit": null
+    },
+    {
+      "state": "New Hampshire",
+      "city": "Nashua",
+      "profit": 13.512599999999999,
+      "positive": true,
+      "absolute_size": 13.512599999999999,
+      "positive_profit": 13.512599999999999,
+      "negative_profit": null
+    },
+    {
+      "state": "New Jersey",
+      "city": "Atlantic City",
+      "profit": 11.68,
+      "positive": true,
+      "absolute_size": 11.68,
+      "positive_profit": 11.68,
+      "negative_profit": null
+    },
+    {
+      "state": "New Jersey",
+      "city": "Bayonne",
+      "profit": 79.40299999999999,
+      "positive": true,
+      "absolute_size": 79.40299999999999,
+      "positive_profit": 79.40299999999999,
+      "negative_profit": null
+    },
+    {
+      "state": "New Jersey",
+      "city": "Belleville",
+      "profit": 283.64920000000006,
+      "positive": true,
+      "absolute_size": 283.64920000000006,
+      "positive_profit": 283.64920000000006,
+      "negative_profit": null
+    },
+    {
+      "state": "New Jersey",
+      "city": "Bridgeton",
+      "profit": 3.4415999999999993,
+      "positive": true,
+      "absolute_size": 3.4415999999999993,
+      "positive_profit": 3.4415999999999993,
+      "negative_profit": null
+    },
+    {
+      "state": "New Jersey",
+      "city": "Clifton",
+      "profit": 98.58839999999998,
+      "positive": true,
+      "absolute_size": 98.58839999999998,
+      "positive_profit": 98.58839999999998,
+      "negative_profit": null
+    },
+    {
+      "state": "New Jersey",
+      "city": "East Orange",
+      "profit": 174.6191,
+      "positive": true,
+      "absolute_size": 174.6191,
+      "positive_profit": 174.6191,
+      "negative_profit": null
+    },
+    {
+      "state": "New Jersey",
+      "city": "Hackensack",
+      "profit": 451.25469999999996,
+      "positive": true,
+      "absolute_size": 451.25469999999996,
+      "positive_profit": 451.25469999999996,
+      "negative_profit": null
+    },
+    {
+      "state": "New Jersey",
+      "city": "Lakewood",
+      "profit": 3526.6734999999994,
+      "positive": true,
+      "absolute_size": 3526.6734999999994,
+      "positive_profit": 3526.6734999999994,
+      "negative_profit": null
+    },
+    {
+      "state": "New Jersey",
+      "city": "Linden",
+      "profit": 49.60480000000001,
+      "positive": true,
+      "absolute_size": 49.60480000000001,
+      "positive_profit": 49.60480000000001,
+      "negative_profit": null
+    },
+    {
+      "state": "New Jersey",
+      "city": "Morristown",
+      "profit": 1838.2270999999998,
+      "positive": true,
+      "absolute_size": 1838.2270999999998,
+      "positive_profit": 1838.2270999999998,
+      "negative_profit": null
+    },
+    {
+      "state": "New Jersey",
+      "city": "New Brunswick",
+      "profit": 7.1567,
+      "positive": true,
+      "absolute_size": 7.1567,
+      "positive_profit": 7.1567,
+      "negative_profit": null
+    },
+    {
+      "state": "New Jersey",
+      "city": "Orange",
+      "profit": 66.5698,
+      "positive": true,
+      "absolute_size": 66.5698,
+      "positive_profit": 66.5698,
+      "negative_profit": null
+    },
+    {
+      "state": "New Jersey",
+      "city": "Passaic",
+      "profit": 356.81860000000006,
+      "positive": true,
+      "absolute_size": 356.81860000000006,
+      "positive_profit": 356.81860000000006,
+      "negative_profit": null
+    },
+    {
+      "state": "New Jersey",
+      "city": "Paterson",
+      "profit": 740.49,
+      "positive": true,
+      "absolute_size": 740.49,
+      "positive_profit": 740.49,
+      "negative_profit": null
+    },
+    {
+      "state": "New Jersey",
+      "city": "Perth Amboy",
+      "profit": 633.644,
+      "positive": true,
+      "absolute_size": 633.644,
+      "positive_profit": 633.644,
+      "negative_profit": null
+    },
+    {
+      "state": "New Jersey",
+      "city": "Plainfield",
+      "profit": 1235.6657,
+      "positive": true,
+      "absolute_size": 1235.6657,
+      "positive_profit": 1235.6657,
+      "negative_profit": null
+    },
+    {
+      "state": "New Jersey",
+      "city": "Vineland",
+      "profit": 62.25180000000001,
+      "positive": true,
+      "absolute_size": 62.25180000000001,
+      "positive_profit": 62.25180000000001,
+      "negative_profit": null
+    },
+    {
+      "state": "New Jersey",
+      "city": "Westfield",
+      "profit": 153.17579999999998,
+      "positive": true,
+      "absolute_size": 153.17579999999998,
+      "positive_profit": 153.17579999999998,
+      "negative_profit": null
+    },
+    {
+      "state": "New Mexico",
+      "city": "Albuquerque",
+      "profit": 634.0881,
+      "positive": true,
+      "absolute_size": 634.0881,
+      "positive_profit": 634.0881,
+      "negative_profit": null
+    },
+    {
+      "state": "New Mexico",
+      "city": "Carlsbad",
+      "profit": 157.7661,
+      "positive": true,
+      "absolute_size": 157.7661,
+      "positive_profit": 157.7661,
+      "negative_profit": null
+    },
+    {
+      "state": "New Mexico",
+      "city": "Clovis",
+      "profit": 11.63519999999999,
+      "positive": true,
+      "absolute_size": 11.63519999999999,
+      "positive_profit": 11.63519999999999,
+      "negative_profit": null
+    },
+    {
+      "state": "New Mexico",
+      "city": "Farmington",
+      "profit": 169.4115,
+      "positive": true,
+      "absolute_size": 169.4115,
+      "positive_profit": 169.4115,
+      "negative_profit": null
+    },
+    {
+      "state": "New Mexico",
+      "city": "Las Cruces",
+      "profit": 43.93939999999999,
+      "positive": true,
+      "absolute_size": 43.93939999999999,
+      "positive_profit": 43.93939999999999,
+      "negative_profit": null
+    },
+    {
+      "state": "New Mexico",
+      "city": "Rio Rancho",
+      "profit": 119.58779999999994,
+      "positive": true,
+      "absolute_size": 119.58779999999994,
+      "positive_profit": 119.58779999999994,
+      "negative_profit": null
+    },
+    {
+      "state": "New Mexico",
+      "city": "Santa Fe",
+      "profit": 20.68799999999999,
+      "positive": true,
+      "absolute_size": 20.68799999999999,
+      "positive_profit": 20.68799999999999,
+      "negative_profit": null
+    },
+    {
+      "state": "New York",
+      "city": "Auburn",
+      "profit": 280.8048,
+      "positive": true,
+      "absolute_size": 280.8048,
+      "positive_profit": 280.8048,
+      "negative_profit": null
+    },
+    {
+      "state": "New York",
+      "city": "Buffalo",
+      "profit": 992.8790999999995,
+      "positive": true,
+      "absolute_size": 992.8790999999995,
+      "positive_profit": 992.8790999999995,
+      "negative_profit": null
+    },
+    {
+      "state": "New York",
+      "city": "Freeport",
+      "profit": 107.36179999999999,
+      "positive": true,
+      "absolute_size": 107.36179999999999,
+      "positive_profit": 107.36179999999999,
+      "negative_profit": null
+    },
+    {
+      "state": "New York",
+      "city": "Hempstead",
+      "profit": 629.0646,
+      "positive": true,
+      "absolute_size": 629.0646,
+      "positive_profit": 629.0646,
+      "negative_profit": null
+    },
+    {
+      "state": "New York",
+      "city": "Jamestown",
+      "profit": 1285.7715000000003,
+      "positive": true,
+      "absolute_size": 1285.7715000000003,
+      "positive_profit": 1285.7715000000003,
+      "negative_profit": null
+    },
+    {
+      "state": "New York",
+      "city": "Lindenhurst",
+      "profit": 26.630399999999998,
+      "positive": true,
+      "absolute_size": 26.630399999999998,
+      "positive_profit": 26.630399999999998,
+      "negative_profit": null
+    },
+    {
+      "state": "New York",
+      "city": "Long Beach",
+      "profit": 1362.5349999999996,
+      "positive": true,
+      "absolute_size": 1362.5349999999996,
+      "positive_profit": 1362.5349999999996,
+      "negative_profit": null
+    },
+    {
+      "state": "New York",
+      "city": "Mount Vernon",
+      "profit": 662.5146,
+      "positive": true,
+      "absolute_size": 662.5146,
+      "positive_profit": 662.5146,
+      "negative_profit": null
+    },
+    {
+      "state": "New York",
+      "city": "New Rochelle",
+      "profit": 368.41099999999994,
+      "positive": true,
+      "absolute_size": 368.41099999999994,
+      "positive_profit": 368.41099999999994,
+      "negative_profit": null
+    },
+    {
+      "state": "New York",
+      "city": "New York City",
+      "profit": 62036.98370000003,
+      "positive": true,
+      "absolute_size": 62036.98370000003,
+      "positive_profit": 62036.98370000003,
+      "negative_profit": null
+    },
+    {
+      "state": "New York",
+      "city": "Niagara Falls",
+      "profit": 59.238299999999995,
+      "positive": true,
+      "absolute_size": 59.238299999999995,
+      "positive_profit": 59.238299999999995,
+      "negative_profit": null
+    },
+    {
+      "state": "New York",
+      "city": "Oceanside",
+      "profit": 655.1668999999999,
+      "positive": true,
+      "absolute_size": 655.1668999999999,
+      "positive_profit": 655.1668999999999,
+      "negative_profit": null
+    },
+    {
+      "state": "New York",
+      "city": "Rochester",
+      "profit": 1223.2151,
+      "positive": true,
+      "absolute_size": 1223.2151,
+      "positive_profit": 1223.2151,
+      "negative_profit": null
+    },
+    {
+      "state": "New York",
+      "city": "Rome",
+      "profit": 154.21380000000002,
+      "positive": true,
+      "absolute_size": 154.21380000000002,
+      "positive_profit": 154.21380000000002,
+      "negative_profit": null
+    },
+    {
+      "state": "New York",
+      "city": "Troy",
+      "profit": 330.43549999999993,
+      "positive": true,
+      "absolute_size": 330.43549999999993,
+      "positive_profit": 330.43549999999993,
+      "negative_profit": null
+    },
+    {
+      "state": "New York",
+      "city": "Utica",
+      "profit": 188.5596,
+      "positive": true,
+      "absolute_size": 188.5596,
+      "positive_profit": 188.5596,
+      "negative_profit": null
+    },
+    {
+      "state": "New York",
+      "city": "Watertown",
+      "profit": 907.0071999999997,
+      "positive": true,
+      "absolute_size": 907.0071999999997,
+      "positive_profit": 907.0071999999997,
+      "negative_profit": null
+    },
+    {
+      "state": "New York",
+      "city": "Yonkers",
+      "profit": 2767.7556999999997,
+      "positive": true,
+      "absolute_size": 2767.7556999999997,
+      "positive_profit": 2767.7556999999997,
+      "negative_profit": null
+    },
+    {
+      "state": "North Carolina",
+      "city": "Asheville",
+      "profit": 77.5074,
+      "positive": true,
+      "absolute_size": 77.5074,
+      "positive_profit": 77.5074,
+      "negative_profit": null
+    },
+    {
+      "state": "North Carolina",
+      "city": "Burlington",
+      "profit": -5894.526899999999,
+      "positive": false,
+      "absolute_size": 5894.526899999999,
+      "positive_profit": null,
+      "negative_profit": -5894.526899999999
+    },
+    {
+      "state": "North Carolina",
+      "city": "Cary",
+      "profit": 54.03859999999998,
+      "positive": true,
+      "absolute_size": 54.03859999999998,
+      "positive_profit": 54.03859999999998,
+      "negative_profit": null
+    },
+    {
+      "state": "North Carolina",
+      "city": "Chapel Hill",
+      "profit": 4.7303999999999995,
+      "positive": true,
+      "absolute_size": 4.7303999999999995,
+      "positive_profit": 4.7303999999999995,
+      "negative_profit": null
+    },
+    {
+      "state": "North Carolina",
+      "city": "Charlotte",
+      "profit": -429.7824000000008,
+      "positive": false,
+      "absolute_size": 429.7824000000008,
+      "positive_profit": null,
+      "negative_profit": -429.7824000000008
+    },
+    {
+      "state": "North Carolina",
+      "city": "Concord",
+      "profit": -1788.6868,
+      "positive": false,
+      "absolute_size": 1788.6868,
+      "positive_profit": null,
+      "negative_profit": -1788.6868
+    },
+    {
+      "state": "North Carolina",
+      "city": "Durham",
+      "profit": 116.86989999999997,
+      "positive": true,
+      "absolute_size": 116.86989999999997,
+      "positive_profit": 116.86989999999997,
+      "negative_profit": null
+    },
+    {
+      "state": "North Carolina",
+      "city": "Fayetteville",
+      "profit": 126.72729999999996,
+      "positive": true,
+      "absolute_size": 126.72729999999996,
+      "positive_profit": 126.72729999999996,
+      "negative_profit": null
+    },
+    {
+      "state": "North Carolina",
+      "city": "Gastonia",
+      "profit": -14.743600000000031,
+      "positive": false,
+      "absolute_size": 14.743600000000031,
+      "positive_profit": null,
+      "negative_profit": -14.743600000000031
+    },
+    {
+      "state": "North Carolina",
+      "city": "Goldsboro",
+      "profit": 3.0576000000000008,
+      "positive": true,
+      "absolute_size": 3.0576000000000008,
+      "positive_profit": 3.0576000000000008,
+      "negative_profit": null
+    },
+    {
+      "state": "North Carolina",
+      "city": "Greensboro",
+      "profit": -122.95340000000016,
+      "positive": false,
+      "absolute_size": 122.95340000000016,
+      "positive_profit": null,
+      "negative_profit": -122.95340000000016
+    },
+    {
+      "state": "North Carolina",
+      "city": "Greenville",
+      "profit": -548.9884000000001,
+      "positive": false,
+      "absolute_size": 548.9884000000001,
+      "positive_profit": null,
+      "negative_profit": -548.9884000000001
+    },
+    {
+      "state": "North Carolina",
+      "city": "Hickory",
+      "profit": -1.095600000000001,
+      "positive": false,
+      "absolute_size": 1.095600000000001,
+      "positive_profit": null,
+      "negative_profit": -1.095600000000001
+    },
+    {
+      "state": "North Carolina",
+      "city": "Jacksonville",
+      "profit": 121.82579999999984,
+      "positive": true,
+      "absolute_size": 121.82579999999984,
+      "positive_profit": 121.82579999999984,
+      "negative_profit": null
+    },
+    {
+      "state": "North Carolina",
+      "city": "Monroe",
+      "profit": 140.82639999999992,
+      "positive": true,
+      "absolute_size": 140.82639999999992,
+      "positive_profit": 140.82639999999992,
+      "negative_profit": null
+    },
+    {
+      "state": "North Carolina",
+      "city": "Raleigh",
+      "profit": 472.59399999999977,
+      "positive": true,
+      "absolute_size": 472.59399999999977,
+      "positive_profit": 472.59399999999977,
+      "negative_profit": null
+    },
+    {
+      "state": "North Carolina",
+      "city": "Thomasville",
+      "profit": 33.39389999999998,
+      "positive": true,
+      "absolute_size": 33.39389999999998,
+      "positive_profit": 33.39389999999998,
+      "negative_profit": null
+    },
+    {
+      "state": "North Carolina",
+      "city": "Wilmington",
+      "profit": 172.62959999999998,
+      "positive": true,
+      "absolute_size": 172.62959999999998,
+      "positive_profit": 172.62959999999998,
+      "negative_profit": null
+    },
+    {
+      "state": "North Carolina",
+      "city": "Wilson",
+      "profit": -14.336000000000013,
+      "positive": false,
+      "absolute_size": 14.336000000000013,
+      "positive_profit": null,
+      "negative_profit": -14.336000000000013
+    },
+    {
+      "state": "North Dakota",
+      "city": "Fargo",
+      "profit": 230.14969999999997,
+      "positive": true,
+      "absolute_size": 230.14969999999997,
+      "positive_profit": 230.14969999999997,
+      "negative_profit": null
+    },
+    {
+      "state": "Ohio",
+      "city": "Akron",
+      "profit": -186.63560000000015,
+      "positive": false,
+      "absolute_size": 186.63560000000015,
+      "positive_profit": null,
+      "negative_profit": -186.63560000000015
+    },
+    {
+      "state": "Ohio",
+      "city": "Bowling Green",
+      "profit": 149.94489999999982,
+      "positive": true,
+      "absolute_size": 149.94489999999982,
+      "positive_profit": 149.94489999999982,
+      "negative_profit": null
+    },
+    {
+      "state": "Ohio",
+      "city": "Cincinnati",
+      "profit": 175.33709999999988,
+      "positive": true,
+      "absolute_size": 175.33709999999988,
+      "positive_profit": 175.33709999999988,
+      "negative_profit": null
+    },
+    {
+      "state": "Ohio",
+      "city": "Cleveland",
+      "profit": -848.007900000001,
+      "positive": false,
+      "absolute_size": 848.007900000001,
+      "positive_profit": null,
+      "negative_profit": -848.007900000001
+    },
+    {
+      "state": "Ohio",
+      "city": "Columbus",
+      "profit": -729.5052,
+      "positive": false,
+      "absolute_size": 729.5052,
+      "positive_profit": null,
+      "negative_profit": -729.5052
+    },
+    {
+      "state": "Ohio",
+      "city": "Cuyahoga Falls",
+      "profit": -12.575200000000002,
+      "positive": false,
+      "absolute_size": 12.575200000000002,
+      "positive_profit": null,
+      "negative_profit": -12.575200000000002
+    },
+    {
+      "state": "Ohio",
+      "city": "Dublin",
+      "profit": -351.30449999999996,
+      "positive": false,
+      "absolute_size": 351.30449999999996,
+      "positive_profit": null,
+      "negative_profit": -351.30449999999996
+    },
+    {
+      "state": "Ohio",
+      "city": "Elyria",
+      "profit": -1.3983999999999996,
+      "positive": false,
+      "absolute_size": 1.3983999999999996,
+      "positive_profit": null,
+      "negative_profit": -1.3983999999999996
+    },
+    {
+      "state": "Ohio",
+      "city": "Fairfield",
+      "profit": -129.2881000000002,
+      "positive": false,
+      "absolute_size": 129.2881000000002,
+      "positive_profit": null,
+      "negative_profit": -129.2881000000002
+    },
+    {
+      "state": "Ohio",
+      "city": "Grove City",
+      "profit": 13.195199999999991,
+      "positive": true,
+      "absolute_size": 13.195199999999991,
+      "positive_profit": 13.195199999999991,
+      "negative_profit": null
+    },
+    {
+      "state": "Ohio",
+      "city": "Hamilton",
+      "profit": -9.38500000000003,
+      "positive": false,
+      "absolute_size": 9.38500000000003,
+      "positive_profit": null,
+      "negative_profit": -9.38500000000003
+    },
+    {
+      "state": "Ohio",
+      "city": "Kent",
+      "profit": -11.300699999999999,
+      "positive": false,
+      "absolute_size": 11.300699999999999,
+      "positive_profit": null,
+      "negative_profit": -11.300699999999999
+    },
+    {
+      "state": "Ohio",
+      "city": "Lakewood",
+      "profit": -336.6081000000001,
+      "positive": false,
+      "absolute_size": 336.6081000000001,
+      "positive_profit": null,
+      "negative_profit": -336.6081000000001
+    },
+    {
+      "state": "Ohio",
+      "city": "Lancaster",
+      "profit": -7149.618000000001,
+      "positive": false,
+      "absolute_size": 7149.618000000001,
+      "positive_profit": null,
+      "negative_profit": -7149.618000000001
+    },
+    {
+      "state": "Ohio",
+      "city": "Lorain",
+      "profit": -632.9229,
+      "positive": false,
+      "absolute_size": 632.9229,
+      "positive_profit": null,
+      "negative_profit": -632.9229
+    },
+    {
+      "state": "Ohio",
+      "city": "Marion",
+      "profit": -544.6532000000001,
+      "positive": false,
+      "absolute_size": 544.6532000000001,
+      "positive_profit": null,
+      "negative_profit": -544.6532000000001
+    },
+    {
+      "state": "Ohio",
+      "city": "Mason",
+      "profit": -4.235199999999988,
+      "positive": false,
+      "absolute_size": 4.235199999999988,
+      "positive_profit": null,
+      "negative_profit": -4.235199999999988
+    },
+    {
+      "state": "Ohio",
+      "city": "Medina",
+      "profit": -1343.0446000000002,
+      "positive": false,
+      "absolute_size": 1343.0446000000002,
+      "positive_profit": null,
+      "negative_profit": -1343.0446000000002
+    },
+    {
+      "state": "Ohio",
+      "city": "Mentor",
+      "profit": -123.27420000000004,
+      "positive": false,
+      "absolute_size": 123.27420000000004,
+      "positive_profit": null,
+      "negative_profit": -123.27420000000004
+    },
+    {
+      "state": "Ohio",
+      "city": "Newark",
+      "profit": -2292.4127000000003,
+      "positive": false,
+      "absolute_size": 2292.4127000000003,
+      "positive_profit": null,
+      "negative_profit": -2292.4127000000003
+    },
+    {
+      "state": "Ohio",
+      "city": "Parma",
+      "profit": 31.061799999999856,
+      "positive": true,
+      "absolute_size": 31.061799999999856,
+      "positive_profit": 31.061799999999856,
+      "negative_profit": null
+    },
+    {
+      "state": "Ohio",
+      "city": "Springfield",
+      "profit": -1420.1619999999998,
+      "positive": false,
+      "absolute_size": 1420.1619999999998,
+      "positive_profit": null,
+      "negative_profit": -1420.1619999999998
+    },
+    {
+      "state": "Ohio",
+      "city": "Toledo",
+      "profit": -339.99680000000046,
+      "positive": false,
+      "absolute_size": 339.99680000000046,
+      "positive_profit": null,
+      "negative_profit": -339.99680000000046
+    },
+    {
+      "state": "Ohio",
+      "city": "Troy",
+      "profit": -874.5873000000001,
+      "positive": false,
+      "absolute_size": 874.5873000000001,
+      "positive_profit": null,
+      "negative_profit": -874.5873000000001
+    },
+    {
+      "state": "Oklahoma",
+      "city": "Broken Arrow",
+      "profit": 575.5226,
+      "positive": true,
+      "absolute_size": 575.5226,
+      "positive_profit": 575.5226,
+      "negative_profit": null
+    },
+    {
+      "state": "Oklahoma",
+      "city": "Edmond",
+      "profit": 243.1039,
+      "positive": true,
+      "absolute_size": 243.1039,
+      "positive_profit": 243.1039,
+      "negative_profit": null
+    },
+    {
+      "state": "Oklahoma",
+      "city": "Lawton",
+      "profit": 235.50849999999997,
+      "positive": true,
+      "absolute_size": 235.50849999999997,
+      "positive_profit": 235.50849999999997,
+      "negative_profit": null
+    },
+    {
+      "state": "Oklahoma",
+      "city": "Muskogee",
+      "profit": 442.5966000000001,
+      "positive": true,
+      "absolute_size": 442.5966000000001,
+      "positive_profit": 442.5966000000001,
+      "negative_profit": null
+    },
+    {
+      "state": "Oklahoma",
+      "city": "Norman",
+      "profit": 269.5286999999999,
+      "positive": true,
+      "absolute_size": 269.5286999999999,
+      "positive_profit": 269.5286999999999,
+      "negative_profit": null
+    },
+    {
+      "state": "Oklahoma",
+      "city": "Oklahoma City",
+      "profit": 1580.7606999999998,
+      "positive": true,
+      "absolute_size": 1580.7606999999998,
+      "positive_profit": 1580.7606999999998,
+      "negative_profit": null
+    },
+    {
+      "state": "Oklahoma",
+      "city": "Tulsa",
+      "profit": 1506.935,
+      "positive": true,
+      "absolute_size": 1506.935,
+      "positive_profit": 1506.935,
+      "negative_profit": null
+    },
+    {
+      "state": "Oregon",
+      "city": "Eugene",
+      "profit": 134.0371999999999,
+      "positive": true,
+      "absolute_size": 134.0371999999999,
+      "positive_profit": 134.0371999999999,
+      "negative_profit": null
+    },
+    {
+      "state": "Oregon",
+      "city": "Gresham",
+      "profit": 150.86440000000007,
+      "positive": true,
+      "absolute_size": 150.86440000000007,
+      "positive_profit": 150.86440000000007,
+      "negative_profit": null
+    },
+    {
+      "state": "Oregon",
+      "city": "Hillsboro",
+      "profit": 1.5455000000000023,
+      "positive": true,
+      "absolute_size": 1.5455000000000023,
+      "positive_profit": 1.5455000000000023,
+      "negative_profit": null
+    },
+    {
+      "state": "Oregon",
+      "city": "Medford",
+      "profit": 19.700899999999994,
+      "positive": true,
+      "absolute_size": 19.700899999999994,
+      "positive_profit": 19.700899999999994,
+      "negative_profit": null
+    },
+    {
+      "state": "Oregon",
+      "city": "Portland",
+      "profit": 9.7573,
+      "positive": true,
+      "absolute_size": 9.7573,
+      "positive_profit": 9.7573,
+      "negative_profit": null
+    },
+    {
+      "state": "Oregon",
+      "city": "Redmond",
+      "profit": -174.44999999999996,
+      "positive": false,
+      "absolute_size": 174.44999999999996,
+      "positive_profit": null,
+      "negative_profit": -174.44999999999996
+    },
+    {
+      "state": "Oregon",
+      "city": "Salem",
+      "profit": -262.3311000000001,
+      "positive": false,
+      "absolute_size": 262.3311000000001,
+      "positive_profit": null,
+      "negative_profit": -262.3311000000001
+    },
+    {
+      "state": "Oregon",
+      "city": "Springfield",
+      "profit": -853.3086000000003,
+      "positive": false,
+      "absolute_size": 853.3086000000003,
+      "positive_profit": null,
+      "negative_profit": -853.3086000000003
+    },
+    {
+      "state": "Oregon",
+      "city": "Tigard",
+      "profit": -216.28610000000012,
+      "positive": false,
+      "absolute_size": 216.28610000000012,
+      "positive_profit": null,
+      "negative_profit": -216.28610000000012
+    },
+    {
+      "state": "Pennsylvania",
+      "city": "Allentown",
+      "profit": -226.45039999999995,
+      "positive": false,
+      "absolute_size": 226.45039999999995,
+      "positive_profit": null,
+      "negative_profit": -226.45039999999995
+    },
+    {
+      "state": "Pennsylvania",
+      "city": "Altoona",
+      "profit": -1.1835000000000022,
+      "positive": false,
+      "absolute_size": 1.1835000000000022,
+      "positive_profit": null,
+      "negative_profit": -1.1835000000000022
+    },
+    {
+      "state": "Pennsylvania",
+      "city": "Bethlehem",
+      "profit": -1003.0957999999998,
+      "positive": false,
+      "absolute_size": 1003.0957999999998,
+      "positive_profit": null,
+      "negative_profit": -1003.0957999999998
+    },
+    {
+      "state": "Pennsylvania",
+      "city": "Chester",
+      "profit": 48.35779999999995,
+      "positive": true,
+      "absolute_size": 48.35779999999995,
+      "positive_profit": 48.35779999999995,
+      "negative_profit": null
+    },
+    {
+      "state": "Pennsylvania",
+      "city": "Lancaster",
+      "profit": -168.88760000000002,
+      "positive": false,
+      "absolute_size": 168.88760000000002,
+      "positive_profit": null,
+      "negative_profit": -168.88760000000002
+    },
+    {
+      "state": "Pennsylvania",
+      "city": "Philadelphia",
+      "profit": -13837.767399999992,
+      "positive": false,
+      "absolute_size": 13837.767399999992,
+      "positive_profit": null,
+      "negative_profit": -13837.767399999992
+    },
+    {
+      "state": "Pennsylvania",
+      "city": "Reading",
+      "profit": -268.7642,
+      "positive": false,
+      "absolute_size": 268.7642,
+      "positive_profit": null,
+      "negative_profit": -268.7642
+    },
+    {
+      "state": "Pennsylvania",
+      "city": "York",
+      "profit": -102.16920000000002,
+      "positive": false,
+      "absolute_size": 102.16920000000002,
+      "positive_profit": null,
+      "negative_profit": -102.16920000000002
+    },
+    {
+      "state": "Rhode Island",
+      "city": "Cranston",
+      "profit": 637.4976999999999,
+      "positive": true,
+      "absolute_size": 637.4976999999999,
+      "positive_profit": 637.4976999999999,
+      "negative_profit": null
+    },
+    {
+      "state": "Rhode Island",
+      "city": "Providence",
+      "profit": 5505.6569,
+      "positive": true,
+      "absolute_size": 5505.6569,
+      "positive_profit": 5505.6569,
+      "negative_profit": null
+    },
+    {
+      "state": "Rhode Island",
+      "city": "Warwick",
+      "profit": 1063.7956,
+      "positive": true,
+      "absolute_size": 1063.7956,
+      "positive_profit": 1063.7956,
+      "negative_profit": null
+    },
+    {
+      "state": "Rhode Island",
+      "city": "Woonsocket",
+      "profit": 78.6791,
+      "positive": true,
+      "absolute_size": 78.6791,
+      "positive_profit": 78.6791,
+      "negative_profit": null
+    },
+    {
+      "state": "South Carolina",
+      "city": "Columbia",
+      "profit": 1388.3777,
+      "positive": true,
+      "absolute_size": 1388.3777,
+      "positive_profit": 1388.3777,
+      "negative_profit": null
+    },
+    {
+      "state": "South Carolina",
+      "city": "Florence",
+      "profit": 82.95309999999998,
+      "positive": true,
+      "absolute_size": 82.95309999999998,
+      "positive_profit": 82.95309999999998,
+      "negative_profit": null
+    },
+    {
+      "state": "South Carolina",
+      "city": "Mount Pleasant",
+      "profit": 87.35040000000004,
+      "positive": true,
+      "absolute_size": 87.35040000000004,
+      "positive_profit": 87.35040000000004,
+      "negative_profit": null
+    },
+    {
+      "state": "South Carolina",
+      "city": "North Charleston",
+      "profit": 9.670199999999992,
+      "positive": true,
+      "absolute_size": 9.670199999999992,
+      "positive_profit": 9.670199999999992,
+      "negative_profit": null
+    },
+    {
+      "state": "South Carolina",
+      "city": "Rock Hill",
+      "profit": 3.7919999999999994,
+      "positive": true,
+      "absolute_size": 3.7919999999999994,
+      "positive_profit": 3.7919999999999994,
+      "negative_profit": null
+    },
+    {
+      "state": "South Carolina",
+      "city": "Summerville",
+      "profit": 196.91319999999996,
+      "positive": true,
+      "absolute_size": 196.91319999999996,
+      "positive_profit": 196.91319999999996,
+      "negative_profit": null
+    },
+    {
+      "state": "South Dakota",
+      "city": "Aberdeen",
+      "profit": 6.63,
+      "positive": true,
+      "absolute_size": 6.63,
+      "positive_profit": 6.63,
+      "negative_profit": null
+    },
+    {
+      "state": "South Dakota",
+      "city": "Rapid City",
+      "profit": 44.7684,
+      "positive": true,
+      "absolute_size": 44.7684,
+      "positive_profit": 44.7684,
+      "negative_profit": null
+    },
+    {
+      "state": "South Dakota",
+      "city": "Sioux Falls",
+      "profit": 343.42990000000003,
+      "positive": true,
+      "absolute_size": 343.42990000000003,
+      "positive_profit": 343.42990000000003,
+      "negative_profit": null
+    },
+    {
+      "state": "Tennessee",
+      "city": "Bartlett",
+      "profit": 10.007999999999988,
+      "positive": true,
+      "absolute_size": 10.007999999999988,
+      "positive_profit": 10.007999999999988,
+      "negative_profit": null
+    },
+    {
+      "state": "Tennessee",
+      "city": "Bristol",
+      "profit": -126.52039999999998,
+      "positive": false,
+      "absolute_size": 126.52039999999998,
+      "positive_profit": null,
+      "negative_profit": -126.52039999999998
+    },
+    {
+      "state": "Tennessee",
+      "city": "Chattanooga",
+      "profit": 27.191799999999965,
+      "positive": true,
+      "absolute_size": 27.191799999999965,
+      "positive_profit": 27.191799999999965,
+      "negative_profit": null
+    },
+    {
+      "state": "Tennessee",
+      "city": "Clarksville",
+      "profit": -1055.3532000000002,
+      "positive": false,
+      "absolute_size": 1055.3532000000002,
+      "positive_profit": null,
+      "negative_profit": -1055.3532000000002
+    },
+    {
+      "state": "Tennessee",
+      "city": "Columbia",
+      "profit": -664.2566,
+      "positive": false,
+      "absolute_size": 664.2566,
+      "positive_profit": null,
+      "negative_profit": -664.2566
+    },
+    {
+      "state": "Tennessee",
+      "city": "Franklin",
+      "profit": -92.53600000000002,
+      "positive": false,
+      "absolute_size": 92.53600000000002,
+      "positive_profit": null,
+      "negative_profit": -92.53600000000002
+    },
+    {
+      "state": "Tennessee",
+      "city": "Hendersonville",
+      "profit": -45.386700000000005,
+      "positive": false,
+      "absolute_size": 45.386700000000005,
+      "positive_profit": null,
+      "negative_profit": -45.386700000000005
+    },
+    {
+      "state": "Tennessee",
+      "city": "Jackson",
+      "profit": -43.95689999999999,
+      "positive": false,
+      "absolute_size": 43.95689999999999,
+      "positive_profit": null,
+      "negative_profit": -43.95689999999999
+    },
+    {
+      "state": "Tennessee",
+      "city": "Johnson City",
+      "profit": 11.856200000000026,
+      "positive": true,
+      "absolute_size": 11.856200000000026,
+      "positive_profit": 11.856200000000026,
+      "negative_profit": null
+    },
+    {
+      "state": "Tennessee",
+      "city": "Knoxville",
+      "profit": -1165.0755000000001,
+      "positive": false,
+      "absolute_size": 1165.0755000000001,
+      "positive_profit": null,
+      "negative_profit": -1165.0755000000001
+    },
+    {
+      "state": "Tennessee",
+      "city": "Lebanon",
+      "profit": 83.8057,
+      "positive": true,
+      "absolute_size": 83.8057,
+      "positive_profit": 83.8057,
+      "negative_profit": null
+    },
+    {
+      "state": "Tennessee",
+      "city": "Memphis",
+      "profit": -1479.0400000000002,
+      "positive": false,
+      "absolute_size": 1479.0400000000002,
+      "positive_profit": null,
+      "negative_profit": -1479.0400000000002
+    },
+    {
+      "state": "Tennessee",
+      "city": "Murfreesboro",
+      "profit": 15.68909999999999,
+      "positive": true,
+      "absolute_size": 15.68909999999999,
+      "positive_profit": 15.68909999999999,
+      "negative_profit": null
+    },
+    {
+      "state": "Tennessee",
+      "city": "Nashville",
+      "profit": -837.4908000000001,
+      "positive": false,
+      "absolute_size": 837.4908000000001,
+      "positive_profit": null,
+      "negative_profit": -837.4908000000001
+    },
+    {
+      "state": "Tennessee",
+      "city": "Smyrna",
+      "profit": 19.37170000000002,
+      "positive": true,
+      "absolute_size": 19.37170000000002,
+      "positive_profit": 19.37170000000002,
+      "negative_profit": null
+    },
+    {
+      "state": "Texas",
+      "city": "Abilene",
+      "profit": -3.758400000000001,
+      "positive": false,
+      "absolute_size": 3.758400000000001,
+      "positive_profit": null,
+      "negative_profit": -3.758400000000001
+    },
+    {
+      "state": "Texas",
+      "city": "Allen",
+      "profit": -39.87750000000001,
+      "positive": false,
+      "absolute_size": 39.87750000000001,
+      "positive_profit": null,
+      "negative_profit": -39.87750000000001
+    },
+    {
+      "state": "Texas",
+      "city": "Amarillo",
+      "profit": -387.9683,
+      "positive": false,
+      "absolute_size": 387.9683,
+      "positive_profit": null,
+      "negative_profit": -387.9683
+    },
+    {
+      "state": "Texas",
+      "city": "Arlington",
+      "profit": -254.3886000000004,
+      "positive": false,
+      "absolute_size": 254.3886000000004,
+      "positive_profit": null,
+      "negative_profit": -254.3886000000004
+    },
+    {
+      "state": "Texas",
+      "city": "Austin",
+      "profit": -20.393800000000567,
+      "positive": false,
+      "absolute_size": 20.393800000000567,
+      "positive_profit": null,
+      "negative_profit": -20.393800000000567
+    },
+    {
+      "state": "Texas",
+      "city": "Baytown",
+      "profit": 3.6288,
+      "positive": true,
+      "absolute_size": 3.6288,
+      "positive_profit": 3.6288,
+      "negative_profit": null
+    },
+    {
+      "state": "Texas",
+      "city": "Beaumont",
+      "profit": 59.11639999999998,
+      "positive": true,
+      "absolute_size": 59.11639999999998,
+      "positive_profit": 59.11639999999998,
+      "negative_profit": null
+    },
+    {
+      "state": "Texas",
+      "city": "Bedford",
+      "profit": 10.620199999999988,
+      "positive": true,
+      "absolute_size": 10.620199999999988,
+      "positive_profit": 10.620199999999988,
+      "negative_profit": null
+    },
+    {
+      "state": "Texas",
+      "city": "Brownsville",
+      "profit": 202.07199999999995,
+      "positive": true,
+      "absolute_size": 202.07199999999995,
+      "positive_profit": 202.07199999999995,
+      "negative_profit": null
+    },
+    {
+      "state": "Texas",
+      "city": "Bryan",
+      "profit": -213.71160000000006,
+      "positive": false,
+      "absolute_size": 213.71160000000006,
+      "positive_profit": null,
+      "negative_profit": -213.71160000000006
+    },
+    {
+      "state": "Texas",
+      "city": "Carrollton",
+      "profit": -470.21390000000025,
+      "positive": false,
+      "absolute_size": 470.21390000000025,
+      "positive_profit": null,
+      "negative_profit": -470.21390000000025
+    },
+    {
+      "state": "Texas",
+      "city": "Cedar Hill",
+      "profit": 42.83159999999999,
+      "positive": true,
+      "absolute_size": 42.83159999999999,
+      "positive_profit": 42.83159999999999,
+      "negative_profit": null
+    },
+    {
+      "state": "Texas",
+      "city": "College Station",
+      "profit": -117.62240000000001,
+      "positive": false,
+      "absolute_size": 117.62240000000001,
+      "positive_profit": null,
+      "negative_profit": -117.62240000000001
+    },
+    {
+      "state": "Texas",
+      "city": "Conroe",
+      "profit": 6.979499999999991,
+      "positive": true,
+      "absolute_size": 6.979499999999991,
+      "positive_profit": 6.979499999999991,
+      "negative_profit": null
+    },
+    {
+      "state": "Texas",
+      "city": "Coppell",
+      "profit": 41.4892,
+      "positive": true,
+      "absolute_size": 41.4892,
+      "positive_profit": 41.4892,
+      "negative_profit": null
+    },
+    {
+      "state": "Texas",
+      "city": "Corpus Christi",
+      "profit": -43.730399999999996,
+      "positive": false,
+      "absolute_size": 43.730399999999996,
+      "positive_profit": null,
+      "negative_profit": -43.730399999999996
+    },
+    {
+      "state": "Texas",
+      "city": "Dallas",
+      "profit": -2846.5257000000015,
+      "positive": false,
+      "absolute_size": 2846.5257000000015,
+      "positive_profit": null,
+      "negative_profit": -2846.5257000000015
+    },
+    {
+      "state": "Texas",
+      "city": "Deer Park",
+      "profit": -10.386,
+      "positive": false,
+      "absolute_size": 10.386,
+      "positive_profit": null,
+      "negative_profit": -10.386
+    },
+    {
+      "state": "Texas",
+      "city": "Edinburg",
+      "profit": 27.808599999999995,
+      "positive": true,
+      "absolute_size": 27.808599999999995,
+      "positive_profit": 27.808599999999995,
+      "negative_profit": null
+    },
+    {
+      "state": "Texas",
+      "city": "El Paso",
+      "profit": -179.90070000000014,
+      "positive": false,
+      "absolute_size": 179.90070000000014,
+      "positive_profit": null,
+      "negative_profit": -179.90070000000014
+    },
+    {
+      "state": "Texas",
+      "city": "Fort Worth",
+      "profit": 298.7326999999998,
+      "positive": true,
+      "absolute_size": 298.7326999999998,
+      "positive_profit": 298.7326999999998,
+      "negative_profit": null
+    },
+    {
+      "state": "Texas",
+      "city": "Frisco",
+      "profit": -18.801599999999997,
+      "positive": false,
+      "absolute_size": 18.801599999999997,
+      "positive_profit": null,
+      "negative_profit": -18.801599999999997
+    },
+    {
+      "state": "Texas",
+      "city": "Garland",
+      "profit": -32.37300000000001,
+      "positive": false,
+      "absolute_size": 32.37300000000001,
+      "positive_profit": null,
+      "negative_profit": -32.37300000000001
+    },
+    {
+      "state": "Texas",
+      "city": "Grand Prairie",
+      "profit": -85.23110000000011,
+      "positive": false,
+      "absolute_size": 85.23110000000011,
+      "positive_profit": null,
+      "negative_profit": -85.23110000000011
+    },
+    {
+      "state": "Texas",
+      "city": "Grapevine",
+      "profit": 8.774899999999995,
+      "positive": true,
+      "absolute_size": 8.774899999999995,
+      "positive_profit": 8.774899999999995,
+      "negative_profit": null
+    },
+    {
+      "state": "Texas",
+      "city": "Haltom City",
+      "profit": 51.955799999999996,
+      "positive": true,
+      "absolute_size": 51.955799999999996,
+      "positive_profit": 51.955799999999996,
+      "negative_profit": null
+    },
+    {
+      "state": "Texas",
+      "city": "Harlingen",
+      "profit": 18.127499999999998,
+      "positive": true,
+      "absolute_size": 18.127499999999998,
+      "positive_profit": 18.127499999999998,
+      "negative_profit": null
+    },
+    {
+      "state": "Texas",
+      "city": "Houston",
+      "profit": -10153.548500000008,
+      "positive": false,
+      "absolute_size": 10153.548500000008,
+      "positive_profit": null,
+      "negative_profit": -10153.548500000008
+    },
+    {
+      "state": "Texas",
+      "city": "Huntsville",
+      "profit": -843.4263999999998,
+      "positive": false,
+      "absolute_size": 843.4263999999998,
+      "positive_profit": null,
+      "negative_profit": -843.4263999999998
+    },
+    {
+      "state": "Texas",
+      "city": "Irving",
+      "profit": -100.51250000000005,
+      "positive": false,
+      "absolute_size": 100.51250000000005,
+      "positive_profit": null,
+      "negative_profit": -100.51250000000005
+    },
+    {
+      "state": "Texas",
+      "city": "Keller",
+      "profit": 2.0999999999999996,
+      "positive": true,
+      "absolute_size": 2.0999999999999996,
+      "positive_profit": 2.0999999999999996,
+      "negative_profit": null
+    },
+    {
+      "state": "Texas",
+      "city": "La Porte",
+      "profit": -32.5272,
+      "positive": false,
+      "absolute_size": 32.5272,
+      "positive_profit": null,
+      "negative_profit": -32.5272
+    },
+    {
+      "state": "Texas",
+      "city": "Laredo",
+      "profit": -54.61389999999997,
+      "positive": false,
+      "absolute_size": 54.61389999999997,
+      "positive_profit": null,
+      "negative_profit": -54.61389999999997
+    },
+    {
+      "state": "Texas",
+      "city": "League City",
+      "profit": -31.34989999999995,
+      "positive": false,
+      "absolute_size": 31.34989999999995,
+      "positive_profit": null,
+      "negative_profit": -31.34989999999995
+    },
+    {
+      "state": "Texas",
+      "city": "Lubbock",
+      "profit": 147.1387,
+      "positive": true,
+      "absolute_size": 147.1387,
+      "positive_profit": 147.1387,
+      "negative_profit": null
+    },
+    {
+      "state": "Texas",
+      "city": "Mansfield",
+      "profit": -66.79130000000004,
+      "positive": false,
+      "absolute_size": 66.79130000000004,
+      "positive_profit": null,
+      "negative_profit": -66.79130000000004
+    },
+    {
+      "state": "Texas",
+      "city": "Mcallen",
+      "profit": -163.8717000000001,
+      "positive": false,
+      "absolute_size": 163.8717000000001,
+      "positive_profit": null,
+      "negative_profit": -163.8717000000001
+    },
+    {
+      "state": "Texas",
+      "city": "Mesquite",
+      "profit": -87.62000000000002,
+      "positive": false,
+      "absolute_size": 87.62000000000002,
+      "positive_profit": null,
+      "negative_profit": -87.62000000000002
+    },
+    {
+      "state": "Texas",
+      "city": "Missouri City",
+      "profit": -9.555000000000001,
+      "positive": false,
+      "absolute_size": 9.555000000000001,
+      "positive_profit": null,
+      "negative_profit": -9.555000000000001
+    },
+    {
+      "state": "Texas",
+      "city": "Odessa",
+      "profit": -69.71180000000001,
+      "positive": false,
+      "absolute_size": 69.71180000000001,
+      "positive_profit": null,
+      "negative_profit": -69.71180000000001
+    },
+    {
+      "state": "Texas",
+      "city": "Pasadena",
+      "profit": -340.1049999999999,
+      "positive": false,
+      "absolute_size": 340.1049999999999,
+      "positive_profit": null,
+      "negative_profit": -340.1049999999999
+    },
+    {
+      "state": "Texas",
+      "city": "Pearland",
+      "profit": 39.41309999999994,
+      "positive": true,
+      "absolute_size": 39.41309999999994,
+      "positive_profit": 39.41309999999994,
+      "negative_profit": null
+    },
+    {
+      "state": "Texas",
+      "city": "Pharr",
+      "profit": -237.55280000000002,
+      "positive": false,
+      "absolute_size": 237.55280000000002,
+      "positive_profit": null,
+      "negative_profit": -237.55280000000002
+    },
+    {
+      "state": "Texas",
+      "city": "Plano",
+      "profit": -383.0553999999999,
+      "positive": false,
+      "absolute_size": 383.0553999999999,
+      "positive_profit": null,
+      "negative_profit": -383.0553999999999
+    },
+    {
+      "state": "Texas",
+      "city": "Port Arthur",
+      "profit": 105.77600000000004,
+      "positive": true,
+      "absolute_size": 105.77600000000004,
+      "positive_profit": 105.77600000000004,
+      "negative_profit": null
+    },
+    {
+      "state": "Texas",
+      "city": "Richardson",
+      "profit": -24.489300000000128,
+      "positive": false,
+      "absolute_size": 24.489300000000128,
+      "positive_profit": null,
+      "negative_profit": -24.489300000000128
+    },
+    {
+      "state": "Texas",
+      "city": "Round Rock",
+      "profit": -1183.4313000000002,
+      "positive": false,
+      "absolute_size": 1183.4313000000002,
+      "positive_profit": null,
+      "negative_profit": -1183.4313000000002
+    },
+    {
+      "state": "Texas",
+      "city": "San Angelo",
+      "profit": -58.553200000000004,
+      "positive": false,
+      "absolute_size": 58.553200000000004,
+      "positive_profit": null,
+      "negative_profit": -58.553200000000004
+    },
+    {
+      "state": "Texas",
+      "city": "San Antonio",
+      "profit": -7299.050200000004,
+      "positive": false,
+      "absolute_size": 7299.050200000004,
+      "positive_profit": null,
+      "negative_profit": -7299.050200000004
+    },
+    {
+      "state": "Texas",
+      "city": "San Marcos",
+      "profit": -19.341300000000004,
+      "positive": false,
+      "absolute_size": 19.341300000000004,
+      "positive_profit": null,
+      "negative_profit": -19.341300000000004
+    },
+    {
+      "state": "Texas",
+      "city": "Texas City",
+      "profit": 20.221799999999988,
+      "positive": true,
+      "absolute_size": 20.221799999999988,
+      "positive_profit": 20.221799999999988,
+      "negative_profit": null
+    },
+    {
+      "state": "Texas",
+      "city": "The Colony",
+      "profit": 31.658599999999996,
+      "positive": true,
+      "absolute_size": 31.658599999999996,
+      "positive_profit": 31.658599999999996,
+      "negative_profit": null
+    },
+    {
+      "state": "Texas",
+      "city": "Tyler",
+      "profit": -443.7086000000001,
+      "positive": false,
+      "absolute_size": 443.7086000000001,
+      "positive_profit": null,
+      "negative_profit": -443.7086000000001
+    },
+    {
+      "state": "Texas",
+      "city": "Waco",
+      "profit": -520.1034000000001,
+      "positive": false,
+      "absolute_size": 520.1034000000001,
+      "positive_profit": null,
+      "negative_profit": -520.1034000000001
+    },
+    {
+      "state": "Utah",
+      "city": "Draper",
+      "profit": 92.72549999999998,
+      "positive": true,
+      "absolute_size": 92.72549999999998,
+      "positive_profit": 92.72549999999998,
+      "negative_profit": null
+    },
+    {
+      "state": "Utah",
+      "city": "Layton",
+      "profit": 2.3312,
+      "positive": true,
+      "absolute_size": 2.3312,
+      "positive_profit": 2.3312,
+      "negative_profit": null
+    },
+    {
+      "state": "Utah",
+      "city": "Lehi",
+      "profit": 451.6625999999999,
+      "positive": true,
+      "absolute_size": 451.6625999999999,
+      "positive_profit": 451.6625999999999,
+      "negative_profit": null
+    },
+    {
+      "state": "Utah",
+      "city": "Logan",
+      "profit": 46.963199999999986,
+      "positive": true,
+      "absolute_size": 46.963199999999986,
+      "positive_profit": 46.963199999999986,
+      "negative_profit": null
+    },
+    {
+      "state": "Utah",
+      "city": "Murray",
+      "profit": 37.062799999999996,
+      "positive": true,
+      "absolute_size": 37.062799999999996,
+      "positive_profit": 37.062799999999996,
+      "negative_profit": null
+    },
+    {
+      "state": "Utah",
+      "city": "Orem",
+      "profit": 514.6334999999998,
+      "positive": true,
+      "absolute_size": 514.6334999999998,
+      "positive_profit": 514.6334999999998,
+      "negative_profit": null
+    },
+    {
+      "state": "Utah",
+      "city": "Pleasant Grove",
+      "profit": 580.6549,
+      "positive": true,
+      "absolute_size": 580.6549,
+      "positive_profit": 580.6549,
+      "negative_profit": null
+    },
+    {
+      "state": "Utah",
+      "city": "Provo",
+      "profit": 388.5674,
+      "positive": true,
+      "absolute_size": 388.5674,
+      "positive_profit": 388.5674,
+      "negative_profit": null
+    },
+    {
+      "state": "Utah",
+      "city": "Salt Lake City",
+      "profit": 329.26009999999997,
+      "positive": true,
+      "absolute_size": 329.26009999999997,
+      "positive_profit": 329.26009999999997,
+      "negative_profit": null
+    },
+    {
+      "state": "Utah",
+      "city": "West Jordan",
+      "profit": 102.67229999999998,
+      "positive": true,
+      "absolute_size": 102.67229999999998,
+      "positive_profit": 102.67229999999998,
+      "negative_profit": null
+    },
+    {
+      "state": "Vermont",
+      "city": "Burlington",
+      "profit": 2244.9782999999998,
+      "positive": true,
+      "absolute_size": 2244.9782999999998,
+      "positive_profit": 2244.9782999999998,
+      "negative_profit": null
+    },
+    {
+      "state": "Virginia",
+      "city": "Alexandria",
+      "profit": 318.6183000000001,
+      "positive": true,
+      "absolute_size": 318.6183000000001,
+      "positive_profit": 318.6183000000001,
+      "negative_profit": null
+    },
+    {
+      "state": "Virginia",
+      "city": "Arlington",
+      "profit": 4424.085499999999,
+      "positive": true,
+      "absolute_size": 4424.085499999999,
+      "positive_profit": 4424.085499999999,
+      "negative_profit": null
+    },
+    {
+      "state": "Virginia",
+      "city": "Charlottesville",
+      "profit": 22.627799999999997,
+      "positive": true,
+      "absolute_size": 22.627799999999997,
+      "positive_profit": 22.627799999999997,
+      "negative_profit": null
+    },
+    {
+      "state": "Virginia",
+      "city": "Chesapeake",
+      "profit": 1262.7869999999998,
+      "positive": true,
+      "absolute_size": 1262.7869999999998,
+      "positive_profit": 1262.7869999999998,
+      "negative_profit": null
+    },
+    {
+      "state": "Virginia",
+      "city": "Hampton",
+      "profit": 953.8322999999998,
+      "positive": true,
+      "absolute_size": 953.8322999999998,
+      "positive_profit": 953.8322999999998,
+      "negative_profit": null
+    },
+    {
+      "state": "Virginia",
+      "city": "Harrisonburg",
+      "profit": 889.5238999999999,
+      "positive": true,
+      "absolute_size": 889.5238999999999,
+      "positive_profit": 889.5238999999999,
+      "negative_profit": null
+    },
+    {
+      "state": "Virginia",
+      "city": "Newport News",
+      "profit": 1197.0468999999998,
+      "positive": true,
+      "absolute_size": 1197.0468999999998,
+      "positive_profit": 1197.0468999999998,
+      "negative_profit": null
+    },
+    {
+      "state": "Virginia",
+      "city": "Richmond",
+      "profit": 1409.743,
+      "positive": true,
+      "absolute_size": 1409.743,
+      "positive_profit": 1409.743,
+      "negative_profit": null
+    },
+    {
+      "state": "Virginia",
+      "city": "Salem",
+      "profit": 533.0251000000001,
+      "positive": true,
+      "absolute_size": 533.0251000000001,
+      "positive_profit": 533.0251000000001,
+      "negative_profit": null
+    },
+    {
+      "state": "Virginia",
+      "city": "Springfield",
+      "profit": 4568.5789,
+      "positive": true,
+      "absolute_size": 4568.5789,
+      "positive_profit": 4568.5789,
+      "negative_profit": null
+    },
+    {
+      "state": "Virginia",
+      "city": "Suffolk",
+      "profit": 389.8122,
+      "positive": true,
+      "absolute_size": 389.8122,
+      "positive_profit": 389.8122,
+      "negative_profit": null
+    },
+    {
+      "state": "Virginia",
+      "city": "Virginia Beach",
+      "profit": 2024.8836999999999,
+      "positive": true,
+      "absolute_size": 2024.8836999999999,
+      "positive_profit": 2024.8836999999999,
+      "negative_profit": null
+    },
+    {
+      "state": "Virginia",
+      "city": "Waynesboro",
+      "profit": 603.3857999999999,
+      "positive": true,
+      "absolute_size": 603.3857999999999,
+      "positive_profit": 603.3857999999999,
+      "negative_profit": null
+    },
+    {
+      "state": "Washington",
+      "city": "Auburn",
+      "profit": 1.5048,
+      "positive": true,
+      "absolute_size": 1.5048,
+      "positive_profit": 1.5048,
+      "negative_profit": null
+    },
+    {
+      "state": "Washington",
+      "city": "Bellevue",
+      "profit": 37.05479999999999,
+      "positive": true,
+      "absolute_size": 37.05479999999999,
+      "positive_profit": 37.05479999999999,
+      "negative_profit": null
+    },
+    {
+      "state": "Washington",
+      "city": "Bellingham",
+      "profit": 610.5908000000002,
+      "positive": true,
+      "absolute_size": 610.5908000000002,
+      "positive_profit": 610.5908000000002,
+      "negative_profit": null
+    },
+    {
+      "state": "Washington",
+      "city": "Covington",
+      "profit": 115.10940000000001,
+      "positive": true,
+      "absolute_size": 115.10940000000001,
+      "positive_profit": 115.10940000000001,
+      "negative_profit": null
+    },
+    {
+      "state": "Washington",
+      "city": "Des Moines",
+      "profit": 1250.3434,
+      "positive": true,
+      "absolute_size": 1250.3434,
+      "positive_profit": 1250.3434,
+      "negative_profit": null
+    },
+    {
+      "state": "Washington",
+      "city": "Edmonds",
+      "profit": 634.2477999999999,
+      "positive": true,
+      "absolute_size": 634.2477999999999,
+      "positive_profit": 634.2477999999999,
+      "negative_profit": null
+    },
+    {
+      "state": "Washington",
+      "city": "Everett",
+      "profit": 1.3978000000000002,
+      "positive": true,
+      "absolute_size": 1.3978000000000002,
+      "positive_profit": 1.3978000000000002,
+      "negative_profit": null
+    },
+    {
+      "state": "Washington",
+      "city": "Kent",
+      "profit": 603.0962999999999,
+      "positive": true,
+      "absolute_size": 603.0962999999999,
+      "positive_profit": 603.0962999999999,
+      "negative_profit": null
+    },
+    {
+      "state": "Washington",
+      "city": "Longview",
+      "profit": 38.89829999999999,
+      "positive": true,
+      "absolute_size": 38.89829999999999,
+      "positive_profit": 38.89829999999999,
+      "negative_profit": null
+    },
+    {
+      "state": "Washington",
+      "city": "Marysville",
+      "profit": 3.3149999999999986,
+      "positive": true,
+      "absolute_size": 3.3149999999999986,
+      "positive_profit": 3.3149999999999986,
+      "negative_profit": null
+    },
+    {
+      "state": "Washington",
+      "city": "Olympia",
+      "profit": 139.6269,
+      "positive": true,
+      "absolute_size": 139.6269,
+      "positive_profit": 139.6269,
+      "negative_profit": null
+    },
+    {
+      "state": "Washington",
+      "city": "Pasco",
+      "profit": 357.5243999999999,
+      "positive": true,
+      "absolute_size": 357.5243999999999,
+      "positive_profit": 357.5243999999999,
+      "negative_profit": null
+    },
+    {
+      "state": "Washington",
+      "city": "Redmond",
+      "profit": 20.732199999999995,
+      "positive": true,
+      "absolute_size": 20.732199999999995,
+      "positive_profit": 20.732199999999995,
+      "negative_profit": null
+    },
+    {
+      "state": "Washington",
+      "city": "Renton",
+      "profit": 185.43240000000003,
+      "positive": true,
+      "absolute_size": 185.43240000000003,
+      "positive_profit": 185.43240000000003,
+      "negative_profit": null
+    },
+    {
+      "state": "Washington",
+      "city": "Seattle",
+      "profit": 29156.096700000002,
+      "positive": true,
+      "absolute_size": 29156.096700000002,
+      "positive_profit": 29156.096700000002,
+      "negative_profit": null
+    },
+    {
+      "state": "Washington",
+      "city": "Spokane",
+      "profit": 172.22609999999992,
+      "positive": true,
+      "absolute_size": 172.22609999999992,
+      "positive_profit": 172.22609999999992,
+      "negative_profit": null
+    },
+    {
+      "state": "Washington",
+      "city": "Vancouver",
+      "profit": 75.45459999999999,
+      "positive": true,
+      "absolute_size": 75.45459999999999,
+      "positive_profit": 75.45459999999999,
+      "negative_profit": null
+    },
+    {
+      "state": "West Virginia",
+      "city": "Wheeling",
+      "profit": 185.9216,
+      "positive": true,
+      "absolute_size": 185.9216,
+      "positive_profit": 185.9216,
+      "negative_profit": null
+    },
+    {
+      "state": "Wisconsin",
+      "city": "Appleton",
+      "profit": 554.7662999999998,
+      "positive": true,
+      "absolute_size": 554.7662999999998,
+      "positive_profit": 554.7662999999998,
+      "negative_profit": null
+    },
+    {
+      "state": "Wisconsin",
+      "city": "Eau Claire",
+      "profit": 427.4978,
+      "positive": true,
+      "absolute_size": 427.4978,
+      "positive_profit": 427.4978,
+      "negative_profit": null
+    },
+    {
+      "state": "Wisconsin",
+      "city": "Franklin",
+      "profit": 1292.7751999999998,
+      "positive": true,
+      "absolute_size": 1292.7751999999998,
+      "positive_profit": 1292.7751999999998,
+      "negative_profit": null
+    },
+    {
+      "state": "Wisconsin",
+      "city": "Green Bay",
+      "profit": 228.47640000000004,
+      "positive": true,
+      "absolute_size": 228.47640000000004,
+      "positive_profit": 228.47640000000004,
+      "negative_profit": null
+    },
+    {
+      "state": "Wisconsin",
+      "city": "Kenosha",
+      "profit": 1028.0728,
+      "positive": true,
+      "absolute_size": 1028.0728,
+      "positive_profit": 1028.0728,
+      "negative_profit": null
+    },
+    {
+      "state": "Wisconsin",
+      "city": "La Crosse",
+      "profit": 272.0761,
+      "positive": true,
+      "absolute_size": 272.0761,
+      "positive_profit": 272.0761,
+      "negative_profit": null
+    },
+    {
+      "state": "Wisconsin",
+      "city": "Madison",
+      "profit": 1123.6552000000001,
+      "positive": true,
+      "absolute_size": 1123.6552000000001,
+      "positive_profit": 1123.6552000000001,
+      "negative_profit": null
+    },
+    {
+      "state": "Wisconsin",
+      "city": "Milwaukee",
+      "profit": 2793.0851,
+      "positive": true,
+      "absolute_size": 2793.0851,
+      "positive_profit": 2793.0851,
+      "negative_profit": null
+    },
+    {
+      "state": "Wisconsin",
+      "city": "Sheboygan",
+      "profit": 34.341899999999995,
+      "positive": true,
+      "absolute_size": 34.341899999999995,
+      "positive_profit": 34.341899999999995,
+      "negative_profit": null
+    },
+    {
+      "state": "Wisconsin",
+      "city": "Superior",
+      "profit": 514.0822,
+      "positive": true,
+      "absolute_size": 514.0822,
+      "positive_profit": 514.0822,
+      "negative_profit": null
+    },
+    {
+      "state": "Wisconsin",
+      "city": "Waukesha",
+      "profit": 14.169999999999998,
+      "positive": true,
+      "absolute_size": 14.169999999999998,
+      "positive_profit": 14.169999999999998,
+      "negative_profit": null
+    },
+    {
+      "state": "Wisconsin",
+      "city": "Wausau",
+      "profit": 90.4306,
+      "positive": true,
+      "absolute_size": 90.4306,
+      "positive_profit": 90.4306,
+      "negative_profit": null
+    },
+    {
+      "state": "Wisconsin",
+      "city": "West Allis",
+      "profit": 28.370799999999996,
+      "positive": true,
+      "absolute_size": 28.370799999999996,
+      "positive_profit": 28.370799999999996,
+      "negative_profit": null
+    },
+    {
+      "state": "Wyoming",
+      "city": "Cheyenne",
+      "profit": 100.19599999999997,
+      "positive": true,
+      "absolute_size": 100.19599999999997,
+      "positive_profit": 100.19599999999997,
+      "negative_profit": null
+    }
+  ],
+  "states": [
+    {
+      "state": "Alabama",
+      "profit": 5786.825299999999
+    },
+    {
+      "state": "Arizona",
+      "profit": -3427.9246000000003
+    },
+    {
+      "state": "Arkansas",
+      "profit": 4008.6870999999996
+    },
+    {
+      "state": "California",
+      "profit": 76381.38710000004
+    },
+    {
+      "state": "Colorado",
+      "profit": -6527.857900000001
+    },
+    {
+      "state": "Connecticut",
+      "profit": 3511.4918
+    },
+    {
+      "state": "Delaware",
+      "profit": 9977.374799999996
+    },
+    {
+      "state": "District of Columbia",
+      "profit": 1059.5893
+    },
+    {
+      "state": "Florida",
+      "profit": -3399.301700000006
+    },
+    {
+      "state": "Georgia",
+      "profit": 16250.043300000005
+    },
+    {
+      "state": "Idaho",
+      "profit": 826.7231
+    },
+    {
+      "state": "Illinois",
+      "profit": -12607.886999999999
+    },
+    {
+      "state": "Indiana",
+      "profit": 18382.936299999998
+    },
+    {
+      "state": "Iowa",
+      "profit": 1183.8119000000002
+    },
+    {
+      "state": "Kansas",
+      "profit": 836.4434999999999
+    },
+    {
+      "state": "Kentucky",
+      "profit": 11199.696600000007
+    },
+    {
+      "state": "Louisiana",
+      "profit": 2196.1023
+    },
+    {
+      "state": "Maine",
+      "profit": 454.4862
+    },
+    {
+      "state": "Maryland",
+      "profit": 7031.1788
+    },
+    {
+      "state": "Massachusetts",
+      "profit": 6785.5016
+    },
+    {
+      "state": "Michigan",
+      "profit": 24463.187599999997
+    },
+    {
+      "state": "Minnesota",
+      "profit": 10823.187399999999
+    },
+    {
+      "state": "Mississippi",
+      "profit": 3172.9762000000005
+    },
+    {
+      "state": "Missouri",
+      "profit": 6436.2105
+    },
+    {
+      "state": "Montana",
+      "profit": 1833.3284999999998
+    },
+    {
+      "state": "Nebraska",
+      "profit": 2037.0941999999995
+    },
+    {
+      "state": "Nevada",
+      "profit": 3316.765899999999
+    },
+    {
+      "state": "New Hampshire",
+      "profit": 1706.5027999999998
+    },
+    {
+      "state": "New Jersey",
+      "profit": 9772.913799999998
+    },
+    {
+      "state": "New Mexico",
+      "profit": 1157.1161
+    },
+    {
+      "state": "New York",
+      "profit": 74038.54860000004
+    },
+    {
+      "state": "North Carolina",
+      "profit": -7490.912200000003
+    },
+    {
+      "state": "North Dakota",
+      "profit": 230.14969999999997
+    },
+    {
+      "state": "Ohio",
+      "profit": -16971.3766
+    },
+    {
+      "state": "Oklahoma",
+      "profit": 4853.956000000002
+    },
+    {
+      "state": "Oregon",
+      "profit": -1190.4705000000004
+    },
+    {
+      "state": "Pennsylvania",
+      "profit": -15559.960299999997
+    },
+    {
+      "state": "Rhode Island",
+      "profit": 7285.629299999999
+    },
+    {
+      "state": "South Carolina",
+      "profit": 1769.0566
+    },
+    {
+      "state": "South Dakota",
+      "profit": 394.82830000000007
+    },
+    {
+      "state": "Tennessee",
+      "profit": -5341.693599999999
+    },
+    {
+      "state": "Texas",
+      "profit": -25729.35630000001
+    },
+    {
+      "state": "Utah",
+      "profit": 2546.5335
+    },
+    {
+      "state": "Vermont",
+      "profit": 2244.9782999999998
+    },
+    {
+      "state": "Virginia",
+      "profit": 18597.9504
+    },
+    {
+      "state": "Washington",
+      "profit": 33402.65169999998
+    },
+    {
+      "state": "West Virginia",
+      "profit": 185.9216
+    },
+    {
+      "state": "Wisconsin",
+      "profit": 8401.800400000002
+    },
+    {
+      "state": "Wyoming",
+      "profit": 100.19599999999997
+    }
+  ]
+}

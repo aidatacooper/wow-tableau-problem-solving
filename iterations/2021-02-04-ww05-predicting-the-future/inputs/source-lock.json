@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-05",
+  "source_workbook": {
+    "filename": "author.twbx",
+    "bytes": 15845,
+    "sha256": "828b796e0cc0089d990abbb39822671755a5052a22cca607228afc99817e2236",
+    "url": "https://public.tableau.com/workbooks/2021_02_03_WW05_Predicting_The_Future.twb"
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Datasources/Digest 2019 Table 313.20 (2021_02_03_WW05_HBCU Fall Enrollment 1976-2018).hyper",
+      "file": "inputs/Digest 2019 Table 313.20 (2021_02_03_WW05_HBCU Fall Enrollment 1976-2018).hyper",
+      "bytes": 65536,
+      "sha256": "f9b7a3139662e23de21ef625fc23129938a1cabb472d23fe0f07c318a46026cb"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

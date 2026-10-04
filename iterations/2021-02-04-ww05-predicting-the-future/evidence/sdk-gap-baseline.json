@@ -1,0 +1,9 @@
+{
+  "sdk_version": "0.27.1",
+  "sdk_commit": "fe9f33b4dfbe5b1ecec7c56d41138a2888971375",
+  "sdk_install": "actual Git dependency, noneditable",
+  "status": "reproduced_missing_public_primitive",
+  "requested_method": "configure_worksheet_time_series",
+  "failure": "'TWBEditor' object has no attribute 'configure_worksheet_time_series'",
+  "author_used_as_fixture": false
+}

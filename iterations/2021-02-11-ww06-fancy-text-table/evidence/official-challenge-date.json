@@ -1,0 +1,16 @@
+{
+  "challenge_year": 2021,
+  "challenge_week": 6,
+  "article_date": "2021-02-11",
+  "challenge_date": "2021-02-10",
+  "official_rest_url": "https://www.workout-wednesday.com/wp-json/wp/v2/posts/4470",
+  "response_excerpt": {
+    "id": 4470,
+    "date": "2021-02-10T01:11:13",
+    "link": "https://www.workout-wednesday.com/2021w06tab/",
+    "title": {
+      "rendered": "2021 Week 6 | Tableau: Can you build a Fancy Text Table?"
+    }
+  },
+  "scope": "Official WordPress date field, without inference from week numbers or workbook filenames."
+}

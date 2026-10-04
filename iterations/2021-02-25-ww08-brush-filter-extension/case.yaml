@@ -1,0 +1,95 @@
+schema_version: 1.1.0
+case_id: wow-2021-ww08-brush-filter-extension
+iteration_id: 2021-02-25-ww08-brush-filter-extension
+post: https://donnacoles.home.blog/2021/02/25/can-you-use-the-brush-filter-extension/
+legacy_case_ids: {}
+article_date: '2021-02-25'
+challenge_year: 2021
+challenge_week: 8
+challenge_date: '2021-02-23'
+date_evidence:
+  article_date: HTML published time element in evidence/article-date.json.
+  challenge: Explicit challenge_year; week declared in iteration_id
+  challenge_date: Official WordPress REST date field in evidence/official-challenge-date.json.
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2021w08tab/
+  article:
+    url: https://donnacoles.home.blog/2021/02/25/can-you-use-the-brush-filter-extension/
+    path: null
+    sha256: 2531451c4d1360cd6a939c00882018074d12227866bd1feb30c78f4f31583366
+  workbook:
+    filename: author.twbx
+    sha256: 2599b94a33183c0ea6c7f87dc7c75cfb35cce634574a357e95c1ec91792616e7
+    url: https://public.tableau.com/workbooks/2021_02_24_WW08_Brush_Filter_Extension.twb
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- evidence/article-date.json
+- evidence/author-export-contract.json
+- evidence/build-provenance.json
+- evidence/cloud-verification.json
+- evidence/extension-runtime-contract.json
+- evidence/functional-verification.json
+- evidence/official-challenge-date.json
+- evidence/sdk-final-validation.json
+- evidence/sdk-gap-baseline.json
+- evidence/visual-review.json
+- evidence/zero-build-verification.json
+- inputs/source-lock.json
+notes:
+- The real extension overview has an upstream aggregation limitation; full by Borough
+  CSV supplies raw numeric acceptance.
+- 'Borough=BROOKLYN REST override uses the source exclusive-filter semantics: excludes
+  Brooklyn and exposes six Unspecified cells. No browser mouse brushing is claimed.'
+- Both dashboard images ignore the requested Borough override and retain the default
+  layout/title. Only worksheet CSV proves the 542-cell filtered data/calculation state;
+  filtered dashboard visual response is not claimed.
+cwtwb:
+  tested_version: 0.27.1
+  tested_commit: e076cd03021f39a95b23646f45f7f912733be69c
+  runs:
+  - version: 0.27.1
+    commit: fe9f33b4dfbe5b1ecec7c56d41138a2888971375
+    result: blocked
+    evidence: evidence/sdk-gap-baseline.json
+  - version: 0.27.1
+    commit: 85643b0866f6d3b3cdf07c3f61762cd586a67589
+    result: pass
+    evidence: evidence/build-provenance.json
+  - version: 0.27.1
+    commit: e076cd03021f39a95b23646f45f7f912733be69c
+    result: pass
+    evidence: evidence/sdk-final-validation.json
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: pass
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/2021_02_24_WW08_Rat_Sightings.hyper
+acceptance:
+- id: monthly-borough-counts
+  mode: automated
+  description: Every visible borough/month count independently recomputed from 158923
+    raw records; full 670 default cells and effective source-consistent REST exclusion
+    state.
+- id: endpoint-change-colors
+  mode: automated
+  description: Nested month-addressed endpoint count windows determine increase/decrease/no-change
+    line colors for every effective borough partition.
+- id: real-brush-extension-contract
+  mode: automated
+  description: Real Starschema sandboxed extension manifest, HTTPS URL, settings,
+    bound dashboard worksheet index 0, and configuration menu retained; actual REST
+    image rendering observed, no browser drag claimed.
+remaining_work: []
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []

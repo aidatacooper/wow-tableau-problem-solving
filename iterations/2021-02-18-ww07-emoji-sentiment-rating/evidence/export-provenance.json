@@ -1,0 +1,9 @@
+{
+  "source_sha256": "5375f42bf0964ba0fdc426296817d2783f2ab763d8687ca42cf402b556d12636",
+  "export_sha256": "f2c2bd9be88e56173af0ca0df5613f3b85d2136e4264e8eba5d4183337b9dbdd",
+  "changes": [
+    "Worksheet window visibility only."
+  ],
+  "business_formulas_changed": false,
+  "used_as_build_template": false
+}

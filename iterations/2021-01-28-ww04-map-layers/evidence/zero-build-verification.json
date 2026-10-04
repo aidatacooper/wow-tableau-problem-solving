@@ -1,0 +1,9 @@
+{
+  "case_id": "wow-2021-ww04-map-layers",
+  "sdk_commit": "e076cd03021f39a95b23646f45f7f912733be69c",
+  "builder_sha256": "ede2e1cc3e837967e99e5a4c9ebca4bcbaf629a7b3b14796b0db4e7913c5c74b",
+  "builder_hash_scope": "UTF-8 source text with universal newlines normalized to LF",
+  "result": "passed",
+  "initial_workbooks_available": 0,
+  "scope": "Copied only builder/verifier, metadata and locked inputs. Built from TWBEditor empty, then ran independent raw-data/artifact oracle without copied Cloud evidence or author workbooks."
+}

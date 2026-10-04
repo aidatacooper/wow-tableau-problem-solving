@@ -1,0 +1,23 @@
+{
+  "id": "com.tableau.extensions.junglebook.sandboxed",
+  "version": "1.0.0",
+  "url": "https://extensions.tableauusercontent.com/sandbox/jungle-book/index.html",
+  "manifest_version": "0.1",
+  "locale": "en_US",
+  "name_resource_id": "name",
+  "name": "",
+  "resources": {
+    "name": {
+      "en_US": "Image Map Filter"
+    }
+  },
+  "description": "Create a more interactive experience with a custom image map to filter your dashboards.",
+  "author": {
+    "name": "Tableau",
+    "email": "extensiongallery@tableau.com",
+    "organization": "Tableau",
+    "website": "https://www.tableau.com"
+  },
+  "min_api_version": "1.0",
+  "configure_menu": true
+}

@@ -1,0 +1,7 @@
+{
+  "original_source_workbook_sha256": "381f07d5ae9d8e6cb4d9288021c4d065892ae70748bad90aaff98c7263ea49d8",
+  "published_author_comparison_sha256": "cce6188149c0a4f1f30569b5f4f8dddd553cf669c35b79c8f0503ab1524aeab1",
+  "comparison_preparation": "Unhide worksheet windows for REST exports; preserve all business calculations, data and dashboard layout.",
+  "business_calculations_changed": false,
+  "author_used_as_build_template": false
+}

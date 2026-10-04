@@ -1,0 +1,9 @@
+{
+  "case_id": "wow-2021-ww06-fancy-text-table",
+  "sdk_commit": "e076cd03021f39a95b23646f45f7f912733be69c",
+  "builder_sha256": "fc6653b5131a6d89fea6f0206deb4ab2db86fe62febfe7a609ac0b9816c5f3dc",
+  "builder_hash_scope": "UTF-8 source text with universal newlines normalized to LF",
+  "result": "passed",
+  "initial_workbooks_available": 0,
+  "scope": "Copied only builder/verifier, metadata and locked inputs. Built from TWBEditor empty, then ran independent raw-data/artifact oracle without copied Cloud evidence or author workbooks."
+}

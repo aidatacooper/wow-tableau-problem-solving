@@ -1,0 +1,5 @@
+{
+  "source_sha256": "828b796e0cc0089d990abbb39822671755a5052a22cca607228afc99817e2236",
+  "export_sha256": "cb37b17d139d29a8d63cb75bfcabe916045cd61223f2a235ac28b9be9dae5bdd",
+  "change": "Only removed hidden attribute from worksheet windows to expose Chart for REST CSV. No source calculations, data, marks or dashboard changed."
+}

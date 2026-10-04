@@ -1,0 +1,102 @@
+{
+  "case_id": "wow-2021-ww06-fancy-text-table",
+  "captured_at": "2026-10-04T16:45:35.761077+00:00",
+  "source_hashes": {
+    "author": "cce6188149c0a4f1f30569b5f4f8dddd553cf669c35b79c8f0503ab1524aeab1",
+    "replica": "0cf123a0e32ae95892e9283c2cc7a31cdfcb18205d0c969beed5f168b5656d37"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "c4be86b1-5ee5-4cd1-9df4-ba3c875ad759",
+      "name": "cwtwb-review-wow-2021-ww06-fancy-text-table-author-cce6188149c0",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2936944",
+      "views": [
+        {
+          "name": "2021_02_11_WW06_Formatted_Table",
+          "id": "e7b00c77-e461-4e19-a3dd-8c8dc08019d0"
+        },
+        {
+          "name": "Table",
+          "id": "277d59cf-1c2d-4b10-81f5-98a5d8d938c9"
+        }
+      ]
+    },
+    "replica": {
+      "id": "ae18ecc4-3acf-4f7a-baa5-67cdaba3ffdb",
+      "name": "cwtwb-review-wow-2021-ww06-fancy-text-table-replica-0cf123a0e32a",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2937046",
+      "views": [
+        {
+          "name": "Table",
+          "id": "21999a4f-ca7d-4a15-bbd8-8556eff656c1"
+        },
+        {
+          "name": "2021_02_11_WW06_Formatted_Table",
+          "id": "80820e34-475b-445a-9302-7afbabe66e73"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "e7b00c77-e461-4e19-a3dd-8c8dc08019d0",
+          "name": "2021_02_11_WW06_Formatted_Table",
+          "path": "outputs/cloud-author.png",
+          "sha256": "2944193b4e646e00f13ae70489139fdb3a8623a8cf27c0a302c62691acd5c175",
+          "size": [
+            2400,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "80820e34-475b-445a-9302-7afbabe66e73",
+          "name": "2021_02_11_WW06_Formatted_Table",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "c196a1786a0a8e2cd788c94703bfa1c08d2a6d83df49d2957c2bdaeb8b13500e",
+          "size": [
+            2400,
+            1600
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Table",
+          "view_id": "277d59cf-1c2d-4b10-81f5-98a5d8d938c9",
+          "scope": "Complete 12-month by eight-measure progress report, including all daily extrema and rank cells; not a button CSV.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-table.csv",
+          "sha256": "850237d74bcde410a338ecbc52c56fe12889e9343a5c3841784efe5f60262f04",
+          "bytes": 2420
+        },
+        {
+          "role": "replica",
+          "view": "Table",
+          "view_id": "21999a4f-ca7d-4a15-bbd8-8556eff656c1",
+          "scope": "Complete 12-month by eight-measure progress report, including all daily extrema and rank cells; not a button CSV.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-table.csv",
+          "sha256": "850237d74bcde410a338ecbc52c56fe12889e9343a5c3841784efe5f60262f04",
+          "bytes": 2420
+        }
+      ]
+    }
+  ],
+  "status": "verified",
+  "independent_review": {
+    "visual_status": "acceptable_delta",
+    "visual_evidence": "evidence/visual-review.md",
+    "functional_evidence": "evidence/functional-verification.json",
+    "scope": "Declared REST worksheet exports and artifact contracts; no browser events executed."
+  }
+}

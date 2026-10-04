@@ -1,0 +1,228 @@
+{
+  "case_id": "wow-2021-ww05-predicting-the-future",
+  "captured_at": "2026-10-04T16:45:02.450733+00:00",
+  "source_hashes": {
+    "author": "cb37b17d139d29a8d63cb75bfcabe916045cd61223f2a235ac28b9be9dae5bdd",
+    "replica": "9ee1e7888321185fb65c7ff298f9996c0225a0ff37669b9f1c1a77f2f4ee7ead"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "bdff12da-68f1-4632-b077-9ea3838adb89",
+      "name": "cwtwb-review-wow-2021-ww05-predicting-the-future-author-cb37b17d139d",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2936948",
+      "views": [
+        {
+          "name": "2021_02_03_WW05_Predicting_The_Future",
+          "id": "f27ce32e-1192-46a6-a1c1-d79337b821d4"
+        },
+        {
+          "name": "Data",
+          "id": "36e12a98-15bb-4092-97fc-af9663782d88"
+        },
+        {
+          "name": "Chart",
+          "id": "78de326c-0501-4ad5-a7a9-4cd0b17430d6"
+        },
+        {
+          "name": "Measure Select",
+          "id": "4d720f25-9bf4-4599-a856-48ce3029a4f9"
+        }
+      ]
+    },
+    "replica": {
+      "id": "c6aae0e3-931f-4c94-90ff-12fae1ce3215",
+      "name": "cwtwb-review-wow-2021-ww05-predicting-the-future-replica-9ee1e7888321",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2937043",
+      "views": [
+        {
+          "name": "Chart",
+          "id": "cdbcc883-bd20-4e7f-8173-7c829421bfff"
+        },
+        {
+          "name": "Measure Select",
+          "id": "1ec84856-823b-4025-a82c-0a31c32d8cba"
+        },
+        {
+          "name": "2021_02_03_WW05_Predicting_The_Future",
+          "id": "74354d9c-9708-42ad-9bc3-3fbd981b8c57"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "f27ce32e-1192-46a6-a1c1-d79337b821d4",
+          "name": "2021_02_03_WW05_Predicting_The_Future",
+          "path": "outputs/cloud-author.png",
+          "sha256": "f449a10d291ccd15d05b46893dc5655854c4c0459065e3eff71b0ccdbb213f13",
+          "size": [
+            2400,
+            1200
+          ]
+        },
+        "replica": {
+          "id": "74354d9c-9708-42ad-9bc3-3fbd981b8c57",
+          "name": "2021_02_03_WW05_Predicting_The_Future",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "bbe6e8e81a4fa464189403a4d018bf0560fde32bc7ed55dce3384098cf498c8f",
+          "size": [
+            2400,
+            1200
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Chart",
+          "view_id": "78de326c-0501-4ad5-a7a9-4cd0b17430d6",
+          "scope": "Complete 31-year predictive chart domain, 26 training years and five future years; all native GP predictions, actual values and residuals. Selector CSV is not used to prove future predictions.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-chart.csv",
+          "sha256": "997544d9624665407ba59fd6ccc8b9cf1a5204a17adc85e44d39a50d26067885",
+          "bytes": 5385
+        },
+        {
+          "role": "replica",
+          "view": "Chart",
+          "view_id": "cdbcc883-bd20-4e7f-8173-7c829421bfff",
+          "scope": "Complete 31-year predictive chart domain, 26 training years and five future years; all native GP predictions, actual values and residuals. Selector CSV is not used to prove future predictions.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-chart.csv",
+          "sha256": "4a25d2bc448d26c88007dc43f21ad335c9efb3b9092aff93d1eeded837a55b12",
+          "bytes": 4921
+        }
+      ]
+    },
+    {
+      "name": "black-students",
+      "parameters": {
+        "pSelect_Measure": "% Black Students"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "f27ce32e-1192-46a6-a1c1-d79337b821d4",
+          "name": "2021_02_03_WW05_Predicting_The_Future",
+          "path": "outputs/cloud-author-black-students.png",
+          "sha256": "c79d4aa96c435a63cd6603ff1a70bb9a0d06f3a0fa5262f558afbbc2af0c22f4",
+          "size": [
+            2400,
+            1200
+          ]
+        },
+        "replica": {
+          "id": "74354d9c-9708-42ad-9bc3-3fbd981b8c57",
+          "name": "2021_02_03_WW05_Predicting_The_Future",
+          "path": "outputs/cloud-replica-black-students.png",
+          "sha256": "d2df9041e4d1cee1218a42819a1c27ee515a169b5b73368c7e5a3f0d8bea5d91",
+          "size": [
+            2400,
+            1200
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Chart",
+          "view_id": "78de326c-0501-4ad5-a7a9-4cd0b17430d6",
+          "scope": "Complete 31-year predictive chart domain, 26 training years and five future years; all native GP predictions, actual values and residuals. Selector CSV is not used to prove future predictions.",
+          "parameters": {
+            "pSelect_Measure": "% Black Students"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-chart-black-students.csv",
+          "sha256": "dd025dda9450cd8f9075cf33442deaa6d6527b331e97333fea25ea5c9b6fb207",
+          "bytes": 4551
+        },
+        {
+          "role": "replica",
+          "view": "Chart",
+          "view_id": "cdbcc883-bd20-4e7f-8173-7c829421bfff",
+          "scope": "Complete 31-year predictive chart domain, 26 training years and five future years; all native GP predictions, actual values and residuals. Selector CSV is not used to prove future predictions.",
+          "parameters": {
+            "pSelect_Measure": "% Black Students"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-chart-black-students.csv",
+          "sha256": "388d1600753c762aa9861a1d2332d48d3caadbbfe6e372d0fa6c11c8a949dbbf",
+          "bytes": 4607
+        }
+      ]
+    },
+    {
+      "name": "non-black-students",
+      "parameters": {
+        "pSelect_Measure": "% Non-Black Students"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "f27ce32e-1192-46a6-a1c1-d79337b821d4",
+          "name": "2021_02_03_WW05_Predicting_The_Future",
+          "path": "outputs/cloud-author-non-black-students.png",
+          "sha256": "9f45b2838324854868d2006b1cd36335dde2977deed9621bf7d94119ebcbc74b",
+          "size": [
+            2400,
+            1200
+          ]
+        },
+        "replica": {
+          "id": "74354d9c-9708-42ad-9bc3-3fbd981b8c57",
+          "name": "2021_02_03_WW05_Predicting_The_Future",
+          "path": "outputs/cloud-replica-non-black-students.png",
+          "sha256": "90addcefed73baa0e5a4d07423814afbbb032fbd3f14bb483248f443659fdf8e",
+          "size": [
+            2400,
+            1200
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Chart",
+          "view_id": "78de326c-0501-4ad5-a7a9-4cd0b17430d6",
+          "scope": "Complete 31-year predictive chart domain, 26 training years and five future years; all native GP predictions, actual values and residuals. Selector CSV is not used to prove future predictions.",
+          "parameters": {
+            "pSelect_Measure": "% Non-Black Students"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-chart-non-black-students.csv",
+          "sha256": "804f20b02a72d4e37098bcf4e209b58dae517d973a1ec3db8af798fb47dcd945",
+          "bytes": 4551
+        },
+        {
+          "role": "replica",
+          "view": "Chart",
+          "view_id": "cdbcc883-bd20-4e7f-8173-7c829421bfff",
+          "scope": "Complete 31-year predictive chart domain, 26 training years and five future years; all native GP predictions, actual values and residuals. Selector CSV is not used to prove future predictions.",
+          "parameters": {
+            "pSelect_Measure": "% Non-Black Students"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-chart-non-black-students.csv",
+          "sha256": "eac6b58e60a40001603b3da2962109e2d19b88b46ff64e214cf166613d275028",
+          "bytes": 4607
+        }
+      ]
+    }
+  ],
+  "status": "verified",
+  "independent_review": {
+    "visual_status": "acceptable_delta",
+    "visual_evidence": "evidence/visual-review.json",
+    "functional_evidence": "evidence/functional-verification.json",
+    "scope": "Declared REST worksheet exports and artifact contracts; no browser events executed."
+  }
+}

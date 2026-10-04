@@ -1,0 +1,9 @@
+{
+  "case_id": "wow-2021-ww07-emoji-sentiment-rating",
+  "sdk_commit": "e076cd03021f39a95b23646f45f7f912733be69c",
+  "builder_sha256": "c6baf973ddf8ee962dc39b3b1e42a9527f1b866015afee95b12603287eb86f2b",
+  "builder_hash_scope": "UTF-8 source text with universal newlines normalized to LF",
+  "result": "passed",
+  "initial_workbooks_available": 0,
+  "scope": "Copied only builder/verifier, metadata and locked inputs. Built from TWBEditor empty, then ran independent raw-data/artifact oracle without copied Cloud evidence or author workbooks."
+}

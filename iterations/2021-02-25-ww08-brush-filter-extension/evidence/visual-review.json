@@ -1,0 +1,70 @@
+{
+  "status": "acceptable_delta",
+  "artifact_sha256": "9ef30793f1e0d9169b198da5d1acf64e8ee4c1973202d3fee858d60a730f8164",
+  "source_hashes": {
+    "author": "001a83b23185351e3197efe3c1bc872128f72e5b40d7682e1001ba5f4599e821",
+    "replica": "9ef30793f1e0d9169b198da5d1acf64e8ee4c1973202d3fee858d60a730f8164"
+  },
+  "scope": "Cloud REST images/data plus native artifact contracts",
+  "browser_interaction_executed": false,
+  "pixel_perfect_match_claimed": false,
+  "reviewed_state_image_pairs": [
+    {
+      "state": "default",
+      "author": {
+        "id": "b3ea6e53-cf73-4282-98c3-7b06c4981ff4",
+        "name": "2021_02_24_WW08_Brush_Filter_Extension",
+        "path": "outputs/cloud-author.png",
+        "sha256": "a58e8392808b03372617f34f9fcd0b5a2187a6a8153bacfb895911d111a58df4",
+        "size": [
+          2732,
+          1536
+        ]
+      },
+      "replica": {
+        "id": "13a4d74d-020c-40c3-9bd7-c46d1c859f25",
+        "name": "2021_02_24_WW08_Brush_Filter_Extension",
+        "path": "outputs/cloud-replica.png",
+        "sha256": "8b190c99ae6ad92e7358af641d6ce4c3646f9353f2442baa724fdcaba756c873",
+        "size": [
+          2732,
+          1536
+        ]
+      }
+    },
+    {
+      "state": "exclude-brooklyn",
+      "author": {
+        "id": "b3ea6e53-cf73-4282-98c3-7b06c4981ff4",
+        "name": "2021_02_24_WW08_Brush_Filter_Extension",
+        "path": "outputs/cloud-author-exclude-brooklyn.png",
+        "sha256": "a58e8392808b03372617f34f9fcd0b5a2187a6a8153bacfb895911d111a58df4",
+        "size": [
+          2732,
+          1536
+        ]
+      },
+      "replica": {
+        "id": "13a4d74d-020c-40c3-9bd7-c46d1c859f25",
+        "name": "2021_02_24_WW08_Brush_Filter_Extension",
+        "path": "outputs/cloud-replica-exclude-brooklyn.png",
+        "sha256": "8b190c99ae6ad92e7358af641d6ce4c3646f9353f2442baa724fdcaba756c873",
+        "size": [
+          2732,
+          1536
+        ]
+      }
+    }
+  ],
+  "accepted_behavior": [
+    "Real sandboxed Brush Filter extension visibly renders and has the source identity/settings/configuration contract.",
+    "Default five-borough order, individual monthly trends, endpoint colors and date title agree with the source.",
+    "Default overview reproduces the real extension behavior; it is not used as aggregate NYC numeric proof."
+  ],
+  "known_visual_deltas": [
+    "Alternating gray borough pane backgrounds are omitted.",
+    "Header/footer typography, instruction alignment and small plot/extension padding differ."
+  ],
+  "numerical_scope": "Default full chart 670 cells and source-consistent exclusive Borough override 542 cells independently checked from all 158923 original records, with endpoint classifications and counts. Real extension overview has an upstream duplicate-date aggregation bug documented separately.",
+  "filtered_image_scope": "Both author and replica dashboard images for exclude-brooklyn retain the default five-borough layout/title. The by Borough worksheet CSV applies the real exclusive override and contains 542 cells. Consequently only CSV proves this filtered worksheet state; no filtered dashboard image response is claimed."
+}

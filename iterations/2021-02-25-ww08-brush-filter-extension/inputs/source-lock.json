@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-05",
+  "source_workbook": {
+    "filename": "author.twbx",
+    "bytes": 112166,
+    "sha256": "2599b94a33183c0ea6c7f87dc7c75cfb35cce634574a357e95c1ec91792616e7",
+    "url": "https://public.tableau.com/workbooks/2021_02_24_WW08_Brush_Filter_Extension.twb"
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Datasources/2021_02_24_WW08_Rat_Sightings.hyper",
+      "file": "inputs/2021_02_24_WW08_Rat_Sightings.hyper",
+      "bytes": 327680,
+      "sha256": "335bdac12b190b6100cce394792a1226312fcaf13fefc8529755595d93984010"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

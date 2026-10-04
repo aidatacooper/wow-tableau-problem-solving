@@ -1,0 +1,17 @@
+{
+  "challenge_year": 2021,
+  "challenge_week": 7,
+  "article_date": "2021-02-18",
+  "challenge_date": "2021-02-16",
+  "official_rest_url": "https://www.workout-wednesday.com/wp-json/wp/v2/posts/4501",
+  "response_excerpt": {
+    "id": 4501,
+    "date": "2021-02-16T16:30:00",
+    "link": "https://www.workout-wednesday.com/2021w07tab/",
+    "title": {
+      "rendered": "2020 Week 7 | Tableau : Can you use Dashboard Extensions?"
+    }
+  },
+  "scope": "Official WordPress date field, without inference from week numbers or workbook filenames.",
+  "identity_note": "Official WP title contains 2020 typo; official slug 2021w07tab, article date and author workbook 2021_02_17_WW07 establish challenge year 2021. Original title is preserved, not corrected silently."
+}

@@ -1,0 +1,88 @@
+schema_version: 1.1.0
+case_id: wow-2021-ww04-map-layers
+iteration_id: 2021-01-28-ww04-map-layers
+post: https://donnacoles.home.blog/2021/01/28/can-you-use-map-layers-to-show-profit-at-state-and-city-levels/
+legacy_case_ids: {}
+article_date: '2021-01-28'
+challenge_year: 2021
+challenge_week: 4
+challenge_date: '2021-01-26'
+date_evidence:
+  article_date: HTML published time element in evidence/article-date.json.
+  challenge_date: Official WordPress REST date field in evidence/official-challenge-date.json.
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2021w04tab/
+    wordpress_post_id: 4378
+  article:
+    url: https://donnacoles.home.blog/2021/01/28/can-you-use-map-layers-to-show-profit-at-state-and-city-levels/
+    path: null
+    sha256: 7087daec20fcb8880658315476a5698fcdcea15640bfaaa8d77d39433d9dabc9
+  workbook:
+    url: https://public.tableau.com/workbooks/2021_01_27_WW04_Map_Layers.twb
+    filename: author.twbx
+    sha256: bc3b12a24202bbb6b7f2f7cc4f0a80f8992303d3f84fa5aa8d5abb67b3e5625a
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- evidence/article-date.json
+- evidence/build-provenance.json
+- evidence/cloud-verification.json
+- evidence/export-provenance.json
+- evidence/functional-verification.json
+- evidence/official-challenge-date.json
+- evidence/sdk-baseline.json
+- evidence/sdk-final-validation.json
+- evidence/visual-review.md
+- evidence/zero-build-verification.json
+- inputs/source-lock.json
+notes:
+- Generated index views must be refreshed after the workbook is built and verified.
+cwtwb:
+  tested_version: 0.27.1
+  tested_commit: e076cd03021f39a95b23646f45f7f912733be69c
+  runs:
+  - version: 0.27.1
+    commit: fe9f33b4dfbe5b1ecec7c56d41138a2888971375
+    result: blocked
+    evidence: evidence/sdk-baseline.json
+  - version: 0.27.1
+    commit: 3f585d07cef201ca7c30a660ac15358c8b326038
+    result: pass
+    evidence: evidence/build-provenance.json
+  - version: 0.27.1
+    commit: 85643b0866f6d3b3cdf07c3f61762cd586a67589
+    result: pass
+    evidence: evidence/build-provenance.json
+  - version: 0.27.1
+    commit: e076cd03021f39a95b23646f45f7f912733be69c
+    result: pass
+    evidence: evidence/sdk-final-validation.json
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: pass
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/TEMP_09vl5zs0qiliw116rxe6l1c03ozv.hyper
+  - inputs/state-abbreviations.csv
+acceptance:
+- id: complete-state-city-profit
+  description: complete state city profit
+  mode: automated
+- id: native-layer-size-highlight
+  description: native layer size highlight
+  mode: automated
+- id: cloud-layout-data
+  description: cloud layout data
+  mode: automated
+remaining_work: []
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []

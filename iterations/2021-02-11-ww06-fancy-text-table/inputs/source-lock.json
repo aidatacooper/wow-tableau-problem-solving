@@ -1,0 +1,18 @@
+{
+  "source_workbook": {
+    "url": "https://public.tableau.com/workbooks/2021_02_10_WW06_Formatted_Table.twb",
+    "sha256": "381f07d5ae9d8e6cb4d9288021c4d065892ae70748bad90aaff98c7263ea49d8",
+    "filename": "author.twbx",
+    "bytes": 44818
+  },
+  "schema_version": "1.0.0",
+  "source_workbook_used_by_builder": false,
+  "extracted_data": [
+    {
+      "archive_path": "Data/Datasources/Orders (Sample - Superstore).hyper",
+      "file": "inputs/superstore.hyper",
+      "bytes": 131072,
+      "sha256": "ff9de718d19e6b9aae88dab9a61ebeeb30a567bcaf7959534bce935e51539e8a"
+    }
+  ]
+}

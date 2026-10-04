@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-05",
+  "source_workbook": {
+    "filename": "author.twbx",
+    "bytes": 81769,
+    "sha256": "bc3b12a24202bbb6b7f2f7cc4f0a80f8992303d3f84fa5aa8d5abb67b3e5625a",
+    "url": "https://public.tableau.com/workbooks/2021_01_27_WW04_Map_Layers.twb"
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/TableauTemp/TEMP_09vl5zs0qiliw116rxe6l1c03ozv.hyper",
+      "file": "inputs/TEMP_09vl5zs0qiliw116rxe6l1c03ozv.hyper",
+      "bytes": 196608,
+      "sha256": "6f108a9349f416af9487264fa24eeade96c5455ccd620e5e16abd0382372ff48"
+    },
+    {
+      "file": "inputs/state-abbreviations.csv",
+      "bytes": 706,
+      "sha256": "55b8720849020b53d71da3a155ad11d4da94d118cf42a7c5cda570abe40b836e",
+      "source": "Analysis-derived mapping/structured configuration or extracted image resource; no author XML."
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

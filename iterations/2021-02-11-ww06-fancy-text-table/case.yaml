@@ -1,0 +1,87 @@
+schema_version: 1.1.0
+case_id: wow-2021-ww06-fancy-text-table
+iteration_id: 2021-02-11-ww06-fancy-text-table
+post: https://donnacoles.home.blog/2021/02/11/can-you-build-a-fancy-text-table/
+legacy_case_ids: {}
+article_date: '2021-02-11'
+challenge_year: 2021
+challenge_week: 6
+challenge_date: '2021-02-10'
+date_evidence:
+  article_date: HTML published time element in evidence/article-date.json.
+  challenge_date: Official WordPress REST date field in evidence/official-challenge-date.json.
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2021w06tab/
+  article:
+    url: https://donnacoles.home.blog/2021/02/11/can-you-build-a-fancy-text-table/
+    path: null
+    sha256: 11b3612a323faab91ac14ef053bd576db9f08a051e970e1f959fe9fbf66f9cab
+  workbook:
+    url: https://public.tableau.com/workbooks/2021_02_10_WW06_Formatted_Table.twb
+    filename: author.twbx
+    sha256: 381f07d5ae9d8e6cb4d9288021c4d065892ae70748bad90aaff98c7263ea49d8
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- evidence/article-date.json
+- evidence/build-provenance.json
+- evidence/cloud-verification.json
+- evidence/export-provenance.json
+- evidence/functional-verification.json
+- evidence/official-challenge-date.json
+- evidence/sdk-baseline.json
+- evidence/sdk-final-validation.json
+- evidence/visual-review.md
+- evidence/zero-build-verification.json
+- inputs/source-lock.json
+notes:
+- Complete desktop table scope; generated phone layout is outside acceptance. Published
+  source delta has black text and no positive plus; percentage has red/green text.
+cwtwb:
+  tested_version: 0.27.1
+  tested_commit: e076cd03021f39a95b23646f45f7f912733be69c
+  runs:
+  - version: 0.27.1
+    commit: fe9f33b4dfbe5b1ecec7c56d41138a2888971375
+    result: pass
+    evidence: evidence/sdk-baseline.json
+  - version: 0.27.1
+    commit: 85643b0866f6d3b3cdf07c3f61762cd586a67589
+    result: pass
+    evidence: evidence/build-provenance.json
+  - version: 0.27.1
+    commit: e076cd03021f39a95b23646f45f7f912733be69c
+    result: pass
+    evidence: evidence/sdk-final-validation.json
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: pass
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/superstore.hyper
+acceptance:
+- id: all-monthly-metrics
+  description: All 96 table cells strictly compared with the independent 5899-row
+    oracle and both complete REST CSV tables.
+  mode: automated
+- id: daily-extrema-and-rank
+  description: Independent daily aggregates, latest tied date, Excel-compatible serial
+    formatting and six top-ranked months.
+  mode: automated
+- id: native-measure-formatting
+  description: One native Measure Names/Values text table, eight independent stepped
+    color domains, numeric dates/symbols/labels, nested RANK/SIZE context and source
+    dashboard geometry.
+  mode: automated
+remaining_work: []
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []

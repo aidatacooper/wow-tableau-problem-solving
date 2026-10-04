@@ -1,0 +1,16 @@
+{
+  "challenge_year": 2021,
+  "challenge_week": 5,
+  "article_date": "2021-02-04",
+  "challenge_date": "2021-02-02",
+  "official_rest_url": "https://www.workout-wednesday.com/wp-json/wp/v2/posts/4397",
+  "response_excerpt": {
+    "id": 4397,
+    "date": "2021-02-02T18:30:00",
+    "link": "https://www.workout-wednesday.com/2021w05tab/",
+    "title": {
+      "rendered": "#WOW2021 W05: Can You Predict the Future?"
+    }
+  },
+  "scope": "Official WordPress date field, without inference from week numbers or workbook filenames."
+}

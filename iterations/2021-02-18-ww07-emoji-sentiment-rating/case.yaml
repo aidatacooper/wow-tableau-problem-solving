@@ -1,0 +1,90 @@
+schema_version: 1.1.0
+case_id: wow-2021-ww07-emoji-sentiment-rating
+iteration_id: 2021-02-18-ww07-emoji-sentiment-rating
+post: https://donnacoles.home.blog/2021/02/18/can-you-use-dashboard-extensions/
+legacy_case_ids: {}
+article_date: '2021-02-18'
+challenge_year: 2021
+challenge_week: 7
+challenge_date: '2021-02-16'
+date_evidence:
+  article_date: HTML published time element in evidence/article-date.json.
+  challenge_date: Official WordPress REST date field in evidence/official-challenge-date.json.
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2021w07tab/
+    wordpress_post_id: 4501
+  article:
+    url: https://donnacoles.home.blog/2021/02/18/can-you-use-dashboard-extensions/
+    path: null
+    sha256: a6b40217fea408b977a799249b6bd70c9266b7e683b38f7709b637819c5f101a
+  workbook:
+    url: https://public.tableau.com/workbooks/2021_02_17_WW07_Emoji_Sentiment_Rating.twb
+    filename: author.twbx
+    sha256: 5375f42bf0964ba0fdc426296817d2783f2ab763d8687ca42cf402b556d12636
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- evidence/article-date.json
+- evidence/build-provenance.json
+- evidence/cloud-verification.json
+- evidence/export-provenance.json
+- evidence/functional-verification.json
+- evidence/official-challenge-date.json
+- evidence/sdk-baseline.json
+- evidence/sdk-final-validation.json
+- evidence/visual-review.md
+- evidence/zero-build-verification.json
+- inputs/source-lock.json
+notes:
+- Generated index views must be refreshed after the workbook is built and verified.
+- Official WP title contains 2020 typo; official slug 2021w07tab, article date and
+  author workbook 2021_02_17_WW07 establish challenge year 2021. Original title is
+  preserved, not corrected silently.
+cwtwb:
+  tested_version: 0.27.1
+  tested_commit: e076cd03021f39a95b23646f45f7f912733be69c
+  runs:
+  - version: 0.27.1
+    commit: fe9f33b4dfbe5b1ecec7c56d41138a2888971375
+    result: blocked
+    evidence: evidence/sdk-baseline.json
+  - version: 0.27.1
+    commit: 3f585d07cef201ca7c30a660ac15358c8b326038
+    result: pass
+    evidence: evidence/build-provenance.json
+  - version: 0.27.1
+    commit: e076cd03021f39a95b23646f45f7f912733be69c
+    result: pass
+    evidence: evidence/build-provenance.json
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: pass
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/TEMP_1kvi1ok1gjuwra123at7r0vm5038.hyper
+  - inputs/extension-category-image.png
+  - inputs/extension-icon.png
+  - inputs/extension-manifest.json
+  - inputs/extension-settings.json
+acceptance:
+- id: complete-emoji-relational-oracle
+  description: complete emoji relational oracle
+  mode: automated
+- id: native-extension-filter-top20
+  description: native extension filter top20
+  mode: automated
+- id: cloud-sentiment-layout-data
+  description: cloud sentiment layout data
+  mode: automated
+remaining_work: []
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []

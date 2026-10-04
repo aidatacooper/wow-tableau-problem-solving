@@ -1,0 +1,212 @@
+{
+  "status": "pass",
+  "acceptance_ids": [
+    "complete-emoji-relational-oracle",
+    "native-extension-filter-top20",
+    "cloud-sentiment-layout-data"
+  ],
+  "artifact_sha256": "db63ce98961a28f84422c28a76ebbde66db5ece812423176095333b62cf4fa32",
+  "raw_oracle": {
+    "sentiment_rows": 969,
+    "dictionary_unique_emoji": 4159,
+    "matched_rows": 736,
+    "null_category_rows": 233,
+    "occurrences_all": 156941,
+    "occurrences_matched": 147357,
+    "groups": {
+      "Smileys & People": 110852,
+      "Animals & Nature": 5756,
+      "Food & Drink": 4123,
+      "Activities": 11883,
+      "Travel & Places": 5311,
+      "Objects": 4989,
+      "Symbols": 4412,
+      "Flags": 31
+    },
+    "average_matched": {
+      "position": 0.6806171593016305,
+      "occurrences": 200.2133152173913,
+      "% Positive": 0.5535264697299755,
+      "% Neutral": 0.2876008604952598,
+      "% Negative": 0.1588726697747647
+    }
+  },
+  "native": {
+    "logical_relationship_preserved": true,
+    "context_before_top20": true,
+    "real_sandbox_extension": true,
+    "eight_original_rectangle_groups": true,
+    "target_only_top20": true,
+    "image_icon_exact": true,
+    "browser_extension_execution": false
+  },
+  "cloud": {
+    "status": "passed",
+    "checks": [
+      {
+        "file": "outputs/cloud-author-top20.csv",
+        "state": "default",
+        "role": "author",
+        "view": "Top 20",
+        "rows": 80,
+        "complete_keys": 80,
+        "status": "pass"
+      },
+      {
+        "file": "outputs/cloud-author-groups.csv",
+        "state": "default",
+        "role": "author",
+        "view": "by Group",
+        "rows": 16,
+        "complete_keys": 16,
+        "status": "pass"
+      },
+      {
+        "file": "outputs/cloud-author-average.csv",
+        "state": "default",
+        "role": "author",
+        "view": "Avg",
+        "rows": 3,
+        "complete_keys": 3,
+        "status": "pass"
+      },
+      {
+        "file": "outputs/cloud-replica-top20.csv",
+        "state": "default",
+        "role": "replica",
+        "view": "Top 20",
+        "rows": 80,
+        "complete_keys": 80,
+        "status": "pass"
+      },
+      {
+        "file": "outputs/cloud-replica-groups.csv",
+        "state": "default",
+        "role": "replica",
+        "view": "by Group",
+        "rows": 16,
+        "complete_keys": 16,
+        "status": "pass"
+      },
+      {
+        "file": "outputs/cloud-replica-average.csv",
+        "state": "default",
+        "role": "replica",
+        "view": "Avg",
+        "rows": 4,
+        "complete_keys": 4,
+        "status": "pass"
+      },
+      {
+        "file": "outputs/cloud-author-top20-animals-nature.csv",
+        "state": "animals-nature",
+        "role": "author",
+        "view": "Top 20",
+        "rows": 80,
+        "complete_keys": 80,
+        "status": "pass"
+      },
+      {
+        "file": "outputs/cloud-author-groups-animals-nature.csv",
+        "state": "animals-nature",
+        "role": "author",
+        "view": "by Group",
+        "rows": 16,
+        "complete_keys": 16,
+        "status": "pass"
+      },
+      {
+        "file": "outputs/cloud-author-average-animals-nature.csv",
+        "state": "animals-nature",
+        "role": "author",
+        "view": "Avg",
+        "rows": 3,
+        "complete_keys": 3,
+        "status": "pass"
+      },
+      {
+        "file": "outputs/cloud-replica-top20-animals-nature.csv",
+        "state": "animals-nature",
+        "role": "replica",
+        "view": "Top 20",
+        "rows": 80,
+        "complete_keys": 80,
+        "status": "pass"
+      },
+      {
+        "file": "outputs/cloud-replica-groups-animals-nature.csv",
+        "state": "animals-nature",
+        "role": "replica",
+        "view": "by Group",
+        "rows": 16,
+        "complete_keys": 16,
+        "status": "pass"
+      },
+      {
+        "file": "outputs/cloud-replica-average-animals-nature.csv",
+        "state": "animals-nature",
+        "role": "replica",
+        "view": "Avg",
+        "rows": 4,
+        "complete_keys": 4,
+        "status": "pass"
+      },
+      {
+        "file": "outputs/cloud-author-top20-flags.csv",
+        "state": "flags",
+        "role": "author",
+        "view": "Top 20",
+        "rows": 12,
+        "complete_keys": 12,
+        "status": "pass"
+      },
+      {
+        "file": "outputs/cloud-author-groups-flags.csv",
+        "state": "flags",
+        "role": "author",
+        "view": "by Group",
+        "rows": 16,
+        "complete_keys": 16,
+        "status": "pass"
+      },
+      {
+        "file": "outputs/cloud-author-average-flags.csv",
+        "state": "flags",
+        "role": "author",
+        "view": "Avg",
+        "rows": 3,
+        "complete_keys": 3,
+        "status": "pass"
+      },
+      {
+        "file": "outputs/cloud-replica-top20-flags.csv",
+        "state": "flags",
+        "role": "replica",
+        "view": "Top 20",
+        "rows": 12,
+        "complete_keys": 12,
+        "status": "pass"
+      },
+      {
+        "file": "outputs/cloud-replica-groups-flags.csv",
+        "state": "flags",
+        "role": "replica",
+        "view": "by Group",
+        "rows": 16,
+        "complete_keys": 16,
+        "status": "pass"
+      },
+      {
+        "file": "outputs/cloud-replica-average-flags.csv",
+        "state": "flags",
+        "role": "replica",
+        "view": "Avg",
+        "rows": 4,
+        "complete_keys": 4,
+        "status": "pass"
+      }
+    ],
+    "category_state_scope": "REST category overrides select that category in the inclusive Top20 context filter, but replace the default null exclusion with category exclusion in byGroup/Avg, bringing null-category facts into those CSV scopes, faithfully matching source. Dashboard renders remain default under these REST overrides. Image clicks target only Top20 by native extension contract; no clicks were executed.",
+    "precision_scope": "Integer occurrence values exact; percentages/positions checked against raw oracle at exported display precision."
+  }
+}

@@ -1,0 +1,605 @@
+City,"City, State",+ve Profit,-ve Profit,Profit +ve?,State Abbrev,Profit
+Aberdeen,"Aberdeen, SD",$7,,True,SD,$7
+Abilene,"Abilene, TX",,($4),False,TX,($4)
+Akron,"Akron, OH",,($187),False,OH,($187)
+Albuquerque,"Albuquerque, NM",$634,,True,NM,$634
+Alexandria,"Alexandria, VA",$319,,True,VA,$319
+Allen,"Allen, TX",,($40),False,TX,($40)
+Allentown,"Allentown, PA",,($226),False,PA,($226)
+Altoona,"Altoona, PA",,($1),False,PA,($1)
+Amarillo,"Amarillo, TX",,($388),False,TX,($388)
+Anaheim,"Anaheim, CA","$1,234",,True,CA,"$1,234"
+Andover,"Andover, MA",$124,,True,MA,$124
+Ann Arbor,"Ann Arbor, MI",$229,,True,MI,$229
+Antioch,"Antioch, CA",$9,,True,CA,$9
+Apopka,"Apopka, FL",$54,,True,FL,$54
+Apple Valley,"Apple Valley, CA",$284,,True,CA,$284
+Apple Valley,"Apple Valley, MN",$9,,True,MN,$9
+Appleton,"Appleton, WI",$555,,True,WI,$555
+Arlington Heights,"Arlington Heights, IL",$1,,True,IL,$1
+Arlington,"Arlington, TX",,($254),False,TX,($254)
+Arlington,"Arlington, VA","$4,424",,True,VA,"$4,424"
+Arvada,"Arvada, CO",$60,,True,CO,$60
+Asheville,"Asheville, NC",$78,,True,NC,$78
+Athens,"Athens, GA",$479,,True,GA,$479
+Atlanta,"Atlanta, GA","$6,994",,True,GA,"$6,994"
+Atlantic City,"Atlantic City, NJ",$12,,True,NJ,$12
+Auburn,"Auburn, AL",$453,,True,AL,$453
+Auburn,"Auburn, NY",$281,,True,NY,$281
+Auburn,"Auburn, WA",$2,,True,WA,$2
+Aurora,"Aurora, CO",,($797),False,CO,($797)
+Aurora,"Aurora, IL",,"($1,895)",False,IL,"($1,895)"
+Austin,"Austin, TX",,($20),False,TX,($20)
+Avondale,"Avondale, AZ",$76,,True,AZ,$76
+Bakersfield,"Bakersfield, CA",$188,,True,CA,$188
+Baltimore,"Baltimore, MD","$1,676",,True,MD,"$1,676"
+Bangor,"Bangor, ME",$422,,True,ME,$422
+Bartlett,"Bartlett, TN",$10,,True,TN,$10
+Bayonne,"Bayonne, NJ",$79,,True,NJ,$79
+Baytown,"Baytown, TX",$4,,True,TX,$4
+Beaumont,"Beaumont, TX",$59,,True,TX,$59
+Bedford,"Bedford, TX",$11,,True,TX,$11
+Belleville,"Belleville, NJ",$284,,True,NJ,$284
+Bellevue,"Bellevue, WA",$37,,True,WA,$37
+Bellingham,"Bellingham, WA",$611,,True,WA,$611
+Bethlehem,"Bethlehem, PA",,"($1,003)",False,PA,"($1,003)"
+Beverly,"Beverly, MA",$655,,True,MA,$655
+Billings,"Billings, MT",$3,,True,MT,$3
+Bloomington,"Bloomington, IL",,($432),False,IL,($432)
+Bloomington,"Bloomington, IN",$183,,True,IN,$183
+Boca Raton,"Boca Raton, FL",,($23),False,FL,($23)
+Boise,"Boise, ID",$222,,True,ID,$222
+Bolingbrook,"Bolingbrook, IL",,($5),False,IL,($5)
+Bossier City,"Bossier City, LA",$337,,True,LA,$337
+Bowling Green,"Bowling Green, KY",$67,,True,KY,$67
+Bowling Green,"Bowling Green, OH",$150,,True,OH,$150
+Boynton Beach,"Boynton Beach, FL",$51,,True,FL,$51
+Bozeman,"Bozeman, MT",$21,,True,MT,$21
+Brentwood,"Brentwood, CA","$1,217",,True,CA,"$1,217"
+Bridgeton,"Bridgeton, NJ",$3,,True,NJ,$3
+Bristol,"Bristol, CT",$208,,True,CT,$208
+Bristol,"Bristol, TN",,($127),False,TN,($127)
+Broken Arrow,"Broken Arrow, OK",$576,,True,OK,$576
+Broomfield,"Broomfield, CO",$62,,True,CO,$62
+Brownsville,"Brownsville, TX",$202,,True,TX,$202
+Bryan,"Bryan, TX",,($214),False,TX,($214)
+Buffalo Grove,"Buffalo Grove, IL",,($90),False,IL,($90)
+Buffalo,"Buffalo, NY",$993,,True,NY,$993
+Bullhead City,"Bullhead City, AZ",$7,,True,AZ,$7
+Burbank,"Burbank, CA",$765,,True,CA,$765
+Burlington,"Burlington, IA",$27,,True,IA,$27
+Burlington,"Burlington, NC",,"($5,895)",False,NC,"($5,895)"
+Burlington,"Burlington, VT","$2,245",,True,VT,"$2,245"
+Caldwell,"Caldwell, ID",$59,,True,ID,$59
+Camarillo,"Camarillo, CA",$159,,True,CA,$159
+Cambridge,"Cambridge, MA",$174,,True,MA,$174
+Canton,"Canton, MI",$149,,True,MI,$149
+Carlsbad,"Carlsbad, NM",$158,,True,NM,$158
+Carol Stream,"Carol Stream, IL",,($40),False,IL,($40)
+Carrollton,"Carrollton, TX",,($470),False,TX,($470)
+Cary,"Cary, NC",$54,,True,NC,$54
+Cedar Hill,"Cedar Hill, TX",$43,,True,TX,$43
+Cedar Rapids,"Cedar Rapids, IA",$81,,True,IA,$81
+Champaign,"Champaign, IL",,($182),False,IL,($182)
+Chandler,"Chandler, AZ",$81,,True,AZ,$81
+Chapel Hill,"Chapel Hill, NC",$5,,True,NC,$5
+Charlotte,"Charlotte, NC",,($430),False,NC,($430)
+Charlottesville,"Charlottesville, VA",$23,,True,VA,$23
+Chattanooga,"Chattanooga, TN",$27,,True,TN,$27
+Chesapeake,"Chesapeake, VA","$1,263",,True,VA,"$1,263"
+Chester,"Chester, PA",$48,,True,PA,$48
+Cheyenne,"Cheyenne, WY",$100,,True,WY,$100
+Chicago,"Chicago, IL",,"($6,655)",False,IL,"($6,655)"
+Chico,"Chico, CA",$205,,True,CA,$205
+Chula Vista,"Chula Vista, CA",$248,,True,CA,$248
+Cincinnati,"Cincinnati, OH",$175,,True,OH,$175
+Citrus Heights,"Citrus Heights, CA",$54,,True,CA,$54
+Clarksville,"Clarksville, TN",,"($1,055)",False,TN,"($1,055)"
+Cleveland,"Cleveland, OH",,($848),False,OH,($848)
+Clifton,"Clifton, NJ",$99,,True,NJ,$99
+Clinton,"Clinton, MD","$1,274",,True,MD,"$1,274"
+Clovis,"Clovis, NM",$12,,True,NM,$12
+Coachella,"Coachella, CA",$47,,True,CA,$47
+College Station,"College Station, TX",,($118),False,TX,($118)
+Colorado Springs,"Colorado Springs, CO",,($957),False,CO,($957)
+Columbia,"Columbia, MD","$3,775",,True,MD,"$3,775"
+Columbia,"Columbia, MO","$1,107",,True,MO,"$1,107"
+Columbia,"Columbia, SC","$1,388",,True,SC,"$1,388"
+Columbia,"Columbia, TN",,($664),False,TN,($664)
+Columbus,"Columbus, GA","$4,104",,True,GA,"$4,104"
+Columbus,"Columbus, IN","$2,522",,True,IN,"$2,522"
+Columbus,"Columbus, OH",,($730),False,OH,($730)
+Commerce City,"Commerce City, CO",,($33),False,CO,($33)
+Concord,"Concord, CA",$282,,True,CA,$282
+Concord,"Concord, NC",,"($1,789)",False,NC,"($1,789)"
+Concord,"Concord, NH",$788,,True,NH,$788
+Conroe,"Conroe, TX",$7,,True,TX,$7
+Conway,"Conway, AR",$45,,True,AR,$45
+Coon Rapids,"Coon Rapids, MN",$136,,True,MN,$136
+Coppell,"Coppell, TX",$41,,True,TX,$41
+Coral Gables,"Coral Gables, FL",$22,,True,FL,$22
+Coral Springs,"Coral Springs, FL",$19,,True,FL,$19
+Corpus Christi,"Corpus Christi, TX",,($44),False,TX,($44)
+Costa Mesa,"Costa Mesa, CA",$297,,True,CA,$297
+Cottage Grove,"Cottage Grove, MN",$55,,True,MN,$55
+Covington,"Covington, WA",$115,,True,WA,$115
+Cranston,"Cranston, RI",$637,,True,RI,$637
+Cuyahoga Falls,"Cuyahoga Falls, OH",,($13),False,OH,($13)
+Dallas,"Dallas, TX",,"($2,847)",False,TX,"($2,847)"
+Danbury,"Danbury, CT",$10,,True,CT,$10
+Danville,"Danville, CA",$282,,True,CA,$282
+Danville,"Danville, IL",,($69),False,IL,($69)
+Davis,"Davis, CA",$16,,True,CA,$16
+Daytona Beach,"Daytona Beach, FL",,($52),False,FL,($52)
+Dearborn Heights,"Dearborn Heights, MI",$141,,True,MI,$141
+Dearborn,"Dearborn, MI",$467,,True,MI,$467
+Decatur,"Decatur, AL","$1,000",,True,AL,"$1,000"
+Decatur,"Decatur, IL",,($311),False,IL,($311)
+Deer Park,"Deer Park, TX",,($10),False,TX,($10)
+Delray Beach,"Delray Beach, FL",$29,,True,FL,$29
+Deltona,"Deltona, FL",$122,,True,FL,$122
+Denver,"Denver, CO",,($245),False,CO,($245)
+Des Moines,"Des Moines, IA",$360,,True,IA,$360
+Des Moines,"Des Moines, WA","$1,250",,True,WA,"$1,250"
+Des Plaines,"Des Plaines, IL",,($237),False,IL,($237)
+Detroit,"Detroit, MI","$13,182",,True,MI,"$13,182"
+Dover,"Dover, DE",$116,,True,DE,$116
+Dover,"Dover, NH",$905,,True,NH,$905
+Draper,"Draper, UT",$93,,True,UT,$93
+Dublin,"Dublin, CA",$1,,True,CA,$1
+Dublin,"Dublin, OH",,($351),False,OH,($351)
+Dubuque,"Dubuque, IA",$478,,True,IA,$478
+Durham,"Durham, NC",$117,,True,NC,$117
+Eagan,"Eagan, MN",$87,,True,MN,$87
+East Orange,"East Orange, NJ",$175,,True,NJ,$175
+East Point,"East Point, GA",$102,,True,GA,$102
+Eau Claire,"Eau Claire, WI",$427,,True,WI,$427
+Edinburg,"Edinburg, TX",$28,,True,TX,$28
+Edmond,"Edmond, OK",$243,,True,OK,$243
+Edmonds,"Edmonds, WA",$634,,True,WA,$634
+El Cajon,"El Cajon, CA",$53,,True,CA,$53
+El Paso,"El Paso, TX",,($180),False,TX,($180)
+Elkhart,"Elkhart, IN",$17,,True,IN,$17
+Elmhurst,"Elmhurst, IL",,($212),False,IL,($212)
+Elyria,"Elyria, OH",,($1),False,OH,($1)
+Encinitas,"Encinitas, CA",$71,,True,CA,$71
+Englewood,"Englewood, CO",$14,,True,CO,$14
+Escondido,"Escondido, CA",$28,,True,CA,$28
+Eugene,"Eugene, OR",$134,,True,OR,$134
+Evanston,"Evanston, IL",$412,,True,IL,$412
+Everett,"Everett, MA","$1,360",,True,MA,"$1,360"
+Everett,"Everett, WA",$1,,True,WA,$1
+Fairfield,"Fairfield, CA",$118,,True,CA,$118
+Fairfield,"Fairfield, CT","$1,222",,True,CT,"$1,222"
+Fairfield,"Fairfield, OH",,($129),False,OH,($129)
+Fargo,"Fargo, ND",$230,,True,ND,$230
+Farmington,"Farmington, NM",$169,,True,NM,$169
+Fayetteville,"Fayetteville, AR","$1,692",,True,AR,"$1,692"
+Fayetteville,"Fayetteville, NC",$127,,True,NC,$127
+Florence,"Florence, AL",$249,,True,AL,$249
+Florence,"Florence, KY","$1,837",,True,KY,"$1,837"
+Florence,"Florence, SC",$83,,True,SC,$83
+Fort Collins,"Fort Collins, CO",,($253),False,CO,($253)
+Fort Lauderdale,"Fort Lauderdale, FL",,($161),False,FL,($161)
+Fort Worth,"Fort Worth, TX",$299,,True,TX,$299
+Frankfort,"Frankfort, IL",,($26),False,IL,($26)
+Franklin,"Franklin, MA",$465,,True,MA,$465
+Franklin,"Franklin, TN",,($93),False,TN,($93)
+Franklin,"Franklin, WI","$1,293",,True,WI,"$1,293"
+Freeport,"Freeport, IL",,($127),False,IL,($127)
+Freeport,"Freeport, NY",$107,,True,NY,$107
+Fremont,"Fremont, NE",$179,,True,NE,$179
+Fresno,"Fresno, CA",$948,,True,CA,$948
+Frisco,"Frisco, TX",,($19),False,TX,($19)
+Gaithersburg,"Gaithersburg, MD",$106,,True,MD,$106
+Garden City,"Garden City, KS",$91,,True,KS,$91
+Garland,"Garland, TX",,($32),False,TX,($32)
+Gastonia,"Gastonia, NC",,($15),False,NC,($15)
+Georgetown,"Georgetown, KY",$403,,True,KY,$403
+Gilbert,"Gilbert, AZ",$138,,True,AZ,$138
+Gladstone,"Gladstone, MO",$53,,True,MO,$53
+Glendale,"Glendale, AZ",$183,,True,AZ,$183
+Glenview,"Glenview, IL",$14,,True,IL,$14
+Goldsboro,"Goldsboro, NC",$3,,True,NC,$3
+Grand Island,"Grand Island, NE",$8,,True,NE,$8
+Grand Prairie,"Grand Prairie, TX",,($85),False,TX,($85)
+Grand Rapids,"Grand Rapids, MI",$234,,True,MI,$234
+Grapevine,"Grapevine, TX",$9,,True,TX,$9
+Great Falls,"Great Falls, MT","$1,583",,True,MT,"$1,583"
+Greeley,"Greeley, CO",$10,,True,CO,$10
+Green Bay,"Green Bay, WI",$228,,True,WI,$228
+Greensboro,"Greensboro, NC",,($123),False,NC,($123)
+Greenville,"Greenville, NC",,($549),False,NC,($549)
+Greenwood,"Greenwood, IN",$472,,True,IN,$472
+Gresham,"Gresham, OR",$151,,True,OR,$151
+Grove City,"Grove City, OH",$13,,True,OH,$13
+Gulfport,"Gulfport, MS",$78,,True,MS,$78
+Hackensack,"Hackensack, NJ",$451,,True,NJ,$451
+Hagerstown,"Hagerstown, MD",$21,,True,MD,$21
+Haltom City,"Haltom City, TX",$52,,True,TX,$52
+Hamilton,"Hamilton, OH",,($9),False,OH,($9)
+Hampton,"Hampton, VA",$954,,True,VA,$954
+Harlingen,"Harlingen, TX",$18,,True,TX,$18
+Harrisonburg,"Harrisonburg, VA",$890,,True,VA,$890
+Hattiesburg,"Hattiesburg, MS",$582,,True,MS,$582
+Helena,"Helena, MT",$75,,True,MT,$75
+Hempstead,"Hempstead, NY",$629,,True,NY,$629
+Henderson,"Henderson, KY","$4,519",,True,KY,"$4,519"
+Henderson,"Henderson, NV",$393,,True,NV,$393
+Hendersonville,"Hendersonville, TN",,($45),False,TN,($45)
+Hesperia,"Hesperia, CA",$99,,True,CA,$99
+Hialeah,"Hialeah, FL",,($179),False,FL,($179)
+Hickory,"Hickory, NC",,($1),False,NC,($1)
+Highland Park,"Highland Park, IL",,($170),False,IL,($170)
+Hillsboro,"Hillsboro, OR",$2,,True,OR,$2
+Holland,"Holland, MI",$67,,True,MI,$67
+Hollywood,"Hollywood, FL",$108,,True,FL,$108
+Holyoke,"Holyoke, MA",$60,,True,MA,$60
+Homestead,"Homestead, FL",$22,,True,FL,$22
+Hoover,"Hoover, AL",$19,,True,AL,$19
+Hot Springs,"Hot Springs, AR",$62,,True,AR,$62
+Houston,"Houston, TX",,"($10,154)",False,TX,"($10,154)"
+Huntington Beach,"Huntington Beach, CA",$880,,True,CA,$880
+Huntsville,"Huntsville, AL","$1,005",,True,AL,"$1,005"
+Huntsville,"Huntsville, TX",,($843),False,TX,($843)
+Independence,"Independence, MO",$976,,True,MO,$976
+Indianapolis,"Indianapolis, IN","$2,742",,True,IN,"$2,742"
+Inglewood,"Inglewood, CA","$1,027",,True,CA,"$1,027"
+Iowa City,"Iowa City, IA",$4,,True,IA,$4
+Irving,"Irving, TX",,($101),False,TX,($101)
+Jackson,"Jackson, MI","$5,525",,True,MI,"$5,525"
+Jackson,"Jackson, MS","$2,100",,True,MS,"$2,100"
+Jackson,"Jackson, TN",,($44),False,TN,($44)
+Jacksonville,"Jacksonville, FL",,"($2,446)",False,FL,"($2,446)"
+Jacksonville,"Jacksonville, NC",$122,,True,NC,$122
+Jamestown,"Jamestown, NY","$1,286",,True,NY,"$1,286"
+Jefferson City,"Jefferson City, MO",$9,,True,MO,$9
+Johnson City,"Johnson City, TN",$12,,True,TN,$12
+Jonesboro,"Jonesboro, AR",$801,,True,AR,$801
+Jupiter,"Jupiter, FL",$0,,True,FL,$0
+Keller,"Keller, TX",$2,,True,TX,$2
+Kenner,"Kenner, LA",$20,,True,LA,$20
+Kenosha,"Kenosha, WI","$1,028",,True,WI,"$1,028"
+Kent,"Kent, OH",,($11),False,OH,($11)
+Kent,"Kent, WA",$603,,True,WA,$603
+Kirkwood,"Kirkwood, MO",$47,,True,MO,$47
+Kissimmee,"Kissimmee, FL",$85,,True,FL,$85
+Knoxville,"Knoxville, TN",,"($1,165)",False,TN,"($1,165)"
+La Crosse,"La Crosse, WI",$272,,True,WI,$272
+La Mesa,"La Mesa, CA",$114,,True,CA,$114
+La Porte,"La Porte, IN",$225,,True,IN,$225
+La Porte,"La Porte, TX",,($33),False,TX,($33)
+La Quinta,"La Quinta, CA",$18,,True,CA,$18
+Lafayette,"Lafayette, IN","$8,976",,True,IN,"$8,976"
+Lafayette,"Lafayette, LA","$1,042",,True,LA,"$1,042"
+Laguna Niguel,"Laguna Niguel, CA",$42,,True,CA,$42
+Lake Charles,"Lake Charles, LA",$241,,True,LA,$241
+Lake Elsinore,"Lake Elsinore, CA",$18,,True,CA,$18
+Lake Forest,"Lake Forest, CA",$328,,True,CA,$328
+Lakeland,"Lakeland, FL",,($189),False,FL,($189)
+Lakeville,"Lakeville, MN","$1,347",,True,MN,"$1,347"
+Lakewood,"Lakewood, CA",$44,,True,CA,$44
+Lakewood,"Lakewood, NJ","$3,527",,True,NJ,"$3,527"
+Lakewood,"Lakewood, OH",,($337),False,OH,($337)
+Lancaster,"Lancaster, CA",$79,,True,CA,$79
+Lancaster,"Lancaster, OH",,"($7,150)",False,OH,"($7,150)"
+Lancaster,"Lancaster, PA",,($169),False,PA,($169)
+Lansing,"Lansing, MI",$413,,True,MI,$413
+Laredo,"Laredo, TX",,($55),False,TX,($55)
+Las Cruces,"Las Cruces, NM",$44,,True,NM,$44
+Las Vegas,"Las Vegas, NV",$332,,True,NV,$332
+Laurel,"Laurel, MD",$46,,True,MD,$46
+Lawrence,"Lawrence, IN",$533,,True,IN,$533
+Lawrence,"Lawrence, MA","$1,849",,True,MA,"$1,849"
+Lawton,"Lawton, OK",$236,,True,OK,$236
+Layton,"Layton, UT",$2,,True,UT,$2
+League City,"League City, TX",,($31),False,TX,($31)
+Lebanon,"Lebanon, TN",$84,,True,TN,$84
+Lehi,"Lehi, UT",$452,,True,UT,$452
+Leominster,"Leominster, MA",$80,,True,MA,$80
+Lewiston,"Lewiston, ID",$3,,True,ID,$3
+Lewiston,"Lewiston, ME",$32,,True,ME,$32
+Lincoln Park,"Lincoln Park, MI",$68,,True,MI,$68
+Linden,"Linden, NJ",$50,,True,NJ,$50
+Lindenhurst,"Lindenhurst, NY",$27,,True,NY,$27
+Little Rock,"Little Rock, AR","$1,155",,True,AR,"$1,155"
+Littleton,"Littleton, CO",,($99),False,CO,($99)
+Lodi,"Lodi, CA",$44,,True,CA,$44
+Logan,"Logan, UT",$47,,True,UT,$47
+Long Beach,"Long Beach, CA",$746,,True,CA,$746
+Long Beach,"Long Beach, NY","$1,363",,True,NY,"$1,363"
+Longmont,"Longmont, CO",$35,,True,CO,$35
+Longview,"Longview, WA",$39,,True,WA,$39
+Lorain,"Lorain, OH",,($633),False,OH,($633)
+Los Angeles,"Los Angeles, CA","$30,441",,True,CA,"$30,441"
+Louisville,"Louisville, CO",,"($3,406)",False,CO,"($3,406)"
+Louisville,"Louisville, KY","$1,976",,True,KY,"$1,976"
+Loveland,"Loveland, CO",$4,,True,CO,$4
+Lowell,"Lowell, MA","$1,313",,True,MA,"$1,313"
+Lubbock,"Lubbock, TX",$147,,True,TX,$147
+Macon,"Macon, GA",$145,,True,GA,$145
+Madison,"Madison, WI","$1,124",,True,WI,"$1,124"
+Malden,"Malden, MA",$31,,True,MA,$31
+Manchester,"Manchester, CT",$601,,True,CT,$601
+Manhattan,"Manhattan, KS",$11,,True,KS,$11
+Mansfield,"Mansfield, TX",,($67),False,TX,($67)
+Manteca,"Manteca, CA",$172,,True,CA,$172
+Maple Grove,"Maple Grove, MN",$385,,True,MN,$385
+Margate,"Margate, FL",$2,,True,FL,$2
+Marietta,"Marietta, GA",$512,,True,GA,$512
+Marion,"Marion, IA",$164,,True,IA,$164
+Marion,"Marion, OH",,($545),False,OH,($545)
+Marlborough,"Marlborough, MA",$68,,True,MA,$68
+Marysville,"Marysville, WA",$3,,True,WA,$3
+Mason,"Mason, OH",,($4),False,OH,($4)
+Mcallen,"Mcallen, TX",,($164),False,TX,($164)
+Medford,"Medford, OR",$20,,True,OR,$20
+Medina,"Medina, OH",,"($1,343)",False,OH,"($1,343)"
+Melbourne,"Melbourne, FL",$10,,True,FL,$10
+Memphis,"Memphis, TN",,"($1,479)",False,TN,"($1,479)"
+Mentor,"Mentor, OH",,($123),False,OH,($123)
+Meriden,"Meriden, CT",$470,,True,CT,$470
+Meridian,"Meridian, ID",$95,,True,ID,$95
+Mesa,"Mesa, AZ",,($559),False,AZ,($559)
+Mesquite,"Mesquite, TX",,($88),False,TX,($88)
+Miami,"Miami, FL",,"($1,150)",False,FL,"($1,150)"
+Middletown,"Middletown, CT",$158,,True,CT,$158
+Midland,"Midland, MI","$2,294",,True,MI,"$2,294"
+Milford,"Milford, CT",$319,,True,CT,$319
+Milwaukee,"Milwaukee, WI","$2,793",,True,WI,"$2,793"
+Minneapolis,"Minneapolis, MN","$6,825",,True,MN,"$6,825"
+Miramar,"Miramar, FL",$32,,True,FL,$32
+Mishawaka,"Mishawaka, IN",$97,,True,IN,$97
+Mission Viejo,"Mission Viejo, CA",$151,,True,CA,$151
+Missoula,"Missoula, MT",$152,,True,MT,$152
+Missouri City,"Missouri City, TX",,($10),False,TX,($10)
+Mobile,"Mobile, AL","$2,176",,True,AL,"$2,176"
+Modesto,"Modesto, CA",$20,,True,CA,$20
+Monroe,"Monroe, LA",$556,,True,LA,$556
+Monroe,"Monroe, NC",$141,,True,NC,$141
+Montebello,"Montebello, CA",$4,,True,CA,$4
+Montgomery,"Montgomery, AL",$835,,True,AL,$835
+Moorhead,"Moorhead, MN",$101,,True,MN,$101
+Moreno Valley,"Moreno Valley, CA",$354,,True,CA,$354
+Morgan Hill,"Morgan Hill, CA",$8,,True,CA,$8
+Morristown,"Morristown, NJ","$1,838",,True,NJ,"$1,838"
+Mount Pleasant,"Mount Pleasant, MI",$6,,True,MI,$6
+Mount Pleasant,"Mount Pleasant, SC",$87,,True,SC,$87
+Mount Vernon,"Mount Vernon, NY",$663,,True,NY,$663
+Murfreesboro,"Murfreesboro, TN",$16,,True,TN,$16
+Murray,"Murray, KY",$94,,True,KY,$94
+Murray,"Murray, UT",$37,,True,UT,$37
+Murrieta,"Murrieta, CA",$92,,True,CA,$92
+Muskogee,"Muskogee, OK",$443,,True,OK,$443
+Naperville,"Naperville, IL",,($147),False,IL,($147)
+Nashua,"Nashua, NH",$14,,True,NH,$14
+Nashville,"Nashville, TN",,($837),False,TN,($837)
+New Albany,"New Albany, IN",$73,,True,IN,$73
+New Bedford,"New Bedford, MA",$50,,True,MA,$50
+New Brunswick,"New Brunswick, NJ",$7,,True,NJ,$7
+New Castle,"New Castle, IN",$23,,True,IN,$23
+New Rochelle,"New Rochelle, NY",$368,,True,NY,$368
+New York City,"New York City, NY","$62,037",,True,NY,"$62,037"
+Newark,"Newark, DE","$8,086",,True,DE,"$8,086"
+Newark,"Newark, OH",,"($2,292)",False,OH,"($2,292)"
+Newport News,"Newport News, VA","$1,197",,True,VA,"$1,197"
+Niagara Falls,"Niagara Falls, NY",$59,,True,NY,$59
+Noblesville,"Noblesville, IN",$353,,True,IN,$353
+Norfolk,"Norfolk, NE",$8,,True,NE,$8
+Normal,"Normal, IL",,($110),False,IL,($110)
+Norman,"Norman, OK",$270,,True,OK,$270
+North Charleston,"North Charleston, SC",$10,,True,SC,$10
+North Las Vegas,"North Las Vegas, NV","$2,248",,True,NV,"$2,248"
+North Miami,"North Miami, FL",$3,,True,FL,$3
+Norwich,"Norwich, CT",$164,,True,CT,$164
+Oak Park,"Oak Park, IL",$1,,True,IL,$1
+Oak Park,"Oak Park, MI",$151,,True,MI,$151
+Oakland,"Oakland, CA",$834,,True,CA,$834
+Oceanside,"Oceanside, CA",$118,,True,CA,$118
+Oceanside,"Oceanside, NY",$655,,True,NY,$655
+Odessa,"Odessa, TX",,($70),False,TX,($70)
+Oklahoma City,"Oklahoma City, OK","$1,581",,True,OK,"$1,581"
+Olathe,"Olathe, KS",$207,,True,KS,$207
+Olympia,"Olympia, WA",$140,,True,WA,$140
+Omaha,"Omaha, NE","$1,842",,True,NE,"$1,842"
+Ontario,"Ontario, CA",,($46),False,CA,($46)
+Orange,"Orange, NJ",$67,,True,NJ,$67
+Orem,"Orem, UT",$515,,True,UT,$515
+Orland Park,"Orland Park, IL",$68,,True,IL,$68
+Orlando,"Orlando, FL",$378,,True,FL,$378
+Ormond Beach,"Ormond Beach, FL",,($2),False,FL,($2)
+Oswego,"Oswego, IL",,($536),False,IL,($536)
+Overland Park,"Overland Park, KS",$204,,True,KS,$204
+Owensboro,"Owensboro, KY",$28,,True,KY,$28
+Oxnard,"Oxnard, CA",$346,,True,CA,$346
+Palatine,"Palatine, IL",$23,,True,IL,$23
+Palm Coast,"Palm Coast, FL",$18,,True,FL,$18
+Park Ridge,"Park Ridge, IL",,($238),False,IL,($238)
+Parker,"Parker, CO",,($164),False,CO,($164)
+Parma,"Parma, OH",$31,,True,OH,$31
+Pasadena,"Pasadena, CA",$430,,True,CA,$430
+Pasadena,"Pasadena, TX",,($340),False,TX,($340)
+Pasco,"Pasco, WA",$358,,True,WA,$358
+Passaic,"Passaic, NJ",$357,,True,NJ,$357
+Paterson,"Paterson, NJ",$740,,True,NJ,$740
+Pearland,"Pearland, TX",$39,,True,TX,$39
+Pembroke Pines,"Pembroke Pines, FL",,($72),False,FL,($72)
+Pensacola,"Pensacola, FL",,($1),False,FL,($1)
+Peoria,"Peoria, AZ",,($55),False,AZ,($55)
+Peoria,"Peoria, IL",,($73),False,IL,($73)
+Perth Amboy,"Perth Amboy, NJ",$634,,True,NJ,$634
+Pharr,"Pharr, TX",,($238),False,TX,($238)
+Philadelphia,"Philadelphia, PA",,"($13,838)",False,PA,"($13,838)"
+Phoenix,"Phoenix, AZ",,"($2,791)",False,AZ,"($2,791)"
+Pico Rivera,"Pico Rivera, CA",$63,,True,CA,$63
+Pine Bluff,"Pine Bluff, AR",$70,,True,AR,$70
+Plainfield,"Plainfield, NJ","$1,236",,True,NJ,"$1,236"
+Plano,"Plano, TX",,($383),False,TX,($383)
+Plantation,"Plantation, FL",$12,,True,FL,$12
+Pleasant Grove,"Pleasant Grove, UT",$581,,True,UT,$581
+Pocatello,"Pocatello, ID",$181,,True,ID,$181
+Pomona,"Pomona, CA",$150,,True,CA,$150
+Pompano Beach,"Pompano Beach, FL",$15,,True,FL,$15
+Port Arthur,"Port Arthur, TX",$106,,True,TX,$106
+Port Orange,"Port Orange, FL",$3,,True,FL,$3
+Port Saint Lucie,"Port Saint Lucie, FL",$4,,True,FL,$4
+Portage,"Portage, IN",$7,,True,IN,$7
+Portland,"Portland, OR",$10,,True,OR,$10
+Providence,"Providence, RI","$5,506",,True,RI,"$5,506"
+Provo,"Provo, UT",$389,,True,UT,$389
+Pueblo,"Pueblo, CO",,($901),False,CO,($901)
+Quincy,"Quincy, IL",$49,,True,IL,$49
+Quincy,"Quincy, MA",$298,,True,MA,$298
+Raleigh,"Raleigh, NC",$473,,True,NC,$473
+Rancho Cucamonga,"Rancho Cucamonga, CA",$74,,True,CA,$74
+Rapid City,"Rapid City, SD",$45,,True,SD,$45
+Reading,"Reading, PA",,($269),False,PA,($269)
+Redding,"Redding, CA",$25,,True,CA,$25
+Redlands,"Redlands, CA",$454,,True,CA,$454
+Redmond,"Redmond, OR",,($174),False,OR,($174)
+Redmond,"Redmond, WA",$21,,True,WA,$21
+Redondo Beach,"Redondo Beach, CA",$176,,True,CA,$176
+Redwood City,"Redwood City, CA",$14,,True,CA,$14
+Reno,"Reno, NV",$115,,True,NV,$115
+Renton,"Renton, WA",$185,,True,WA,$185
+Revere,"Revere, MA",$259,,True,MA,$259
+Richardson,"Richardson, TX",,($24),False,TX,($24)
+Richmond,"Richmond, IN","$1,882",,True,IN,"$1,882"
+Richmond,"Richmond, KY","$2,276",,True,KY,"$2,276"
+Richmond,"Richmond, VA","$1,410",,True,VA,"$1,410"
+Rio Rancho,"Rio Rancho, NM",$120,,True,NM,$120
+Riverside,"Riverside, CA",$375,,True,CA,$375
+Rochester Hills,"Rochester Hills, MI",$54,,True,MI,$54
+Rochester,"Rochester, MN",$520,,True,MN,$520
+Rochester,"Rochester, NY","$1,223",,True,NY,"$1,223"
+Rock Hill,"Rock Hill, SC",$4,,True,SC,$4
+Rockford,"Rockford, IL",,"($1,150)",False,IL,"($1,150)"
+Rockville,"Rockville, MD",$133,,True,MD,$133
+Rogers,"Rogers, AR",$19,,True,AR,$19
+Rome,"Rome, NY",$154,,True,NY,$154
+Romeoville,"Romeoville, IL",,($15),False,IL,($15)
+Roseville,"Roseville, CA",$317,,True,CA,$317
+Roseville,"Roseville, MI",$269,,True,MI,$269
+Roseville,"Roseville, MN",$668,,True,MN,$668
+Roswell,"Roswell, GA","$2,427",,True,GA,"$2,427"
+Round Rock,"Round Rock, TX",,"($1,183)",False,TX,"($1,183)"
+Royal Oak,"Royal Oak, MI",$17,,True,MI,$17
+Sacramento,"Sacramento, CA","$2,070",,True,CA,"$2,070"
+Saginaw,"Saginaw, MI",$77,,True,MI,$77
+Saint Charles,"Saint Charles, IL",$217,,True,IL,$217
+Saint Charles,"Saint Charles, MO",$95,,True,MO,$95
+Saint Cloud,"Saint Cloud, MN",$470,,True,MN,$470
+Saint Louis,"Saint Louis, MO",$99,,True,MO,$99
+Saint Paul,"Saint Paul, MN",$25,,True,MN,$25
+Saint Peters,"Saint Peters, MO",$146,,True,MO,$146
+Saint Petersburg,"Saint Petersburg, FL",$152,,True,FL,$152
+Salem,"Salem, OR",,($262),False,OR,($262)
+Salem,"Salem, VA",$533,,True,VA,$533
+Salinas,"Salinas, CA",$271,,True,CA,$271
+Salt Lake City,"Salt Lake City, UT",$329,,True,UT,$329
+San Angelo,"San Angelo, TX",,($59),False,TX,($59)
+San Antonio,"San Antonio, TX",,"($7,299)",False,TX,"($7,299)"
+San Bernardino,"San Bernardino, CA",$70,,True,CA,$70
+San Clemente,"San Clemente, CA",$43,,True,CA,$43
+San Diego,"San Diego, CA","$6,377",,True,CA,"$6,377"
+San Francisco,"San Francisco, CA","$17,507",,True,CA,"$17,507"
+San Gabriel,"San Gabriel, CA",$291,,True,CA,$291
+San Jose,"San Jose, CA","$1,216",,True,CA,"$1,216"
+San Luis Obispo,"San Luis Obispo, CA",$1,,True,CA,$1
+San Marcos,"San Marcos, TX",,($19),False,TX,($19)
+San Mateo,"San Mateo, CA",$35,,True,CA,$35
+Sandy Springs,"Sandy Springs, GA",$521,,True,GA,$521
+Sanford,"Sanford, FL",,($12),False,FL,($12)
+Santa Ana,"Santa Ana, CA",$837,,True,CA,$837
+Santa Barbara,"Santa Barbara, CA",$457,,True,CA,$457
+Santa Clara,"Santa Clara, CA",$76,,True,CA,$76
+Santa Fe,"Santa Fe, NM",$21,,True,NM,$21
+Santa Maria,"Santa Maria, CA",$30,,True,CA,$30
+Scottsdale,"Scottsdale, AZ",,($89),False,AZ,($89)
+Seattle,"Seattle, WA","$29,156",,True,WA,"$29,156"
+Sheboygan,"Sheboygan, WI",$34,,True,WI,$34
+Shelton,"Shelton, CT",$21,,True,CT,$21
+Sierra Vista,"Sierra Vista, AZ",$17,,True,AZ,$17
+Sioux Falls,"Sioux Falls, SD",$343,,True,SD,$343
+Skokie,"Skokie, IL",,($347),False,IL,($347)
+Smyrna,"Smyrna, GA",$807,,True,GA,$807
+Smyrna,"Smyrna, TN",$19,,True,TN,$19
+South Bend,"South Bend, IN",$280,,True,IN,$280
+Southaven,"Southaven, MS",$413,,True,MS,$413
+Sparks,"Sparks, NV",$229,,True,NV,$229
+Spokane,"Spokane, WA",$172,,True,WA,$172
+Springdale,"Springdale, AR",$1,,True,AR,$1
+Springfield,"Springfield, MO","$3,906",,True,MO,"$3,906"
+Springfield,"Springfield, OH",,"($1,420)",False,OH,"($1,420)"
+Springfield,"Springfield, OR",,($853),False,OR,($853)
+Springfield,"Springfield, VA","$4,569",,True,VA,"$4,569"
+Sterling Heights,"Sterling Heights, MI",$33,,True,MI,$33
+Stockton,"Stockton, CA",$340,,True,CA,$340
+Suffolk,"Suffolk, VA",$390,,True,VA,$390
+Summerville,"Summerville, SC",$197,,True,SC,$197
+Sunnyvale,"Sunnyvale, CA",$108,,True,CA,$108
+Superior,"Superior, WI",$514,,True,WI,$514
+Tallahassee,"Tallahassee, FL",$393,,True,FL,$393
+Tamarac,"Tamarac, FL",,($352),False,FL,($352)
+Tampa,"Tampa, FL",,($325),False,FL,($325)
+Taylor,"Taylor, MI",$45,,True,MI,$45
+Temecula,"Temecula, CA",$102,,True,CA,$102
+Tempe,"Tempe, AZ",$95,,True,AZ,$95
+Texarkana,"Texarkana, AR",$163,,True,AR,$163
+Texas City,"Texas City, TX",$20,,True,TX,$20
+The Colony,"The Colony, TX",$32,,True,TX,$32
+Thomasville,"Thomasville, NC",$33,,True,NC,$33
+Thornton,"Thornton, CO",$141,,True,CO,$141
+Thousand Oaks,"Thousand Oaks, CA",$100,,True,CA,$100
+Tigard,"Tigard, OR",,($216),False,OR,($216)
+Tinley Park,"Tinley Park, IL",,($9),False,IL,($9)
+Toledo,"Toledo, OH",,($340),False,OH,($340)
+Torrance,"Torrance, CA",$545,,True,CA,$545
+Trenton,"Trenton, MI",$652,,True,MI,$652
+Troy,"Troy, NY",$330,,True,NY,$330
+Troy,"Troy, OH",,($875),False,OH,($875)
+Tucson,"Tucson, AZ",,($65),False,AZ,($65)
+Tulsa,"Tulsa, OK","$1,507",,True,OK,"$1,507"
+Tuscaloosa,"Tuscaloosa, AL",$51,,True,AL,$51
+Twin Falls,"Twin Falls, ID",$266,,True,ID,$266
+Tyler,"Tyler, TX",,($444),False,TX,($444)
+Urbandale,"Urbandale, IA",$58,,True,IA,$58
+Utica,"Utica, NY",$189,,True,NY,$189
+Vacaville,"Vacaville, CA",$110,,True,CA,$110
+Vallejo,"Vallejo, CA",$336,,True,CA,$336
+Vancouver,"Vancouver, WA",$75,,True,WA,$75
+Vineland,"Vineland, NJ",$62,,True,NJ,$62
+Virginia Beach,"Virginia Beach, VA","$2,025",,True,VA,"$2,025"
+Visalia,"Visalia, CA",$88,,True,CA,$88
+Waco,"Waco, TX",,($520),False,TX,($520)
+Warner Robins,"Warner Robins, GA",$54,,True,GA,$54
+Warwick,"Warwick, RI","$1,064",,True,RI,"$1,064"
+Washington,"Washington, DC","$1,060",,True,DC,"$1,060"
+Waterbury,"Waterbury, CT",$339,,True,CT,$339
+Waterloo,"Waterloo, IA",$12,,True,IA,$12
+Watertown,"Watertown, NY",$907,,True,NY,$907
+Waukesha,"Waukesha, WI",$14,,True,WI,$14
+Wausau,"Wausau, WI",$90,,True,WI,$90
+Waynesboro,"Waynesboro, VA",$603,,True,VA,$603
+West Allis,"West Allis, WI",$28,,True,WI,$28
+West Jordan,"West Jordan, UT",$103,,True,UT,$103
+West Palm Beach,"West Palm Beach, FL",$32,,True,FL,$32
+Westfield,"Westfield, NJ",$153,,True,NJ,$153
+Westland,"Westland, MI",$390,,True,MI,$390
+Westminster,"Westminster, CA",$764,,True,CA,$764
+Wheeling,"Wheeling, IL",,($293),False,IL,($293)
+Wheeling,"Wheeling, WV",$186,,True,WV,$186
+Whittier,"Whittier, CA",$44,,True,CA,$44
+Wichita,"Wichita, KS",$324,,True,KS,$324
+Wilmington,"Wilmington, DE","$1,775",,True,DE,"$1,775"
+Wilmington,"Wilmington, NC",$173,,True,NC,$173
+Wilson,"Wilson, NC",,($14),False,NC,($14)
+Woodbury,"Woodbury, MN",$196,,True,MN,$196
+Woodland,"Woodland, CA",$33,,True,CA,$33
+Woodstock,"Woodstock, GA",$105,,True,GA,$105
+Woodstock,"Woodstock, IL",,($25),False,IL,($25)
+Woonsocket,"Woonsocket, RI",$79,,True,RI,$79
+Yonkers,"Yonkers, NY","$2,768",,True,NY,"$2,768"
+York,"York, PA",,($102),False,PA,($102)
+Yucaipa,"Yucaipa, CA",$13,,True,CA,$13
+Yuma,"Yuma, AZ",,($466),False,AZ,($466)
