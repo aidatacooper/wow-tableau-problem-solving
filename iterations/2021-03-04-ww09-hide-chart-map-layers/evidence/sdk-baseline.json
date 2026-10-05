@@ -1,0 +1,10 @@
+{
+  "sdk_commit": "e076cd03021f39a95b23646f45f7f912733be69c",
+  "sdk_version": "0.27.1",
+  "wedge_encoding_available": false,
+  "measure_values_available": false,
+  "modern_native_layers_available": false,
+  "measure_names_error": "\"Unknown field 'Measure Names'. Register the field before use, or enable allow_unknown_fields for compatibility. Known fields: Calculation_AB98FE0FBCDA4EA39E123EFC3815A66A, Calculation_B799B6BFEB334CFB9D3ED841DB7B4A02, Calculation_F6F939B5D8DC426F8891E7D1FABD896A, Category, Category (Orders), City, City (Orders), Country/Region, Customer ID, Customer ID (Orders), ....\"",
+  "result": "blocked",
+  "scope": "Source-free public builder cannot resolve Measure Names and omits pie angle/per-layer measures/native-layer mode."
+}

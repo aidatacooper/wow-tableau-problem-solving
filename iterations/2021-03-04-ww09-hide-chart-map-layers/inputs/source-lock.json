@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-05",
+  "source_workbook": {
+    "filename": "author.twbx",
+    "bytes": 40984,
+    "sha256": "9f8c83777dc802f27579ddbfb75ca3e51861450b6010e7f21b92b7b1ba71778a",
+    "url": "https://public.tableau.com/workbooks/2021_03_03_WW09_Map_Layers_Drill_Down.twb"
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Datasources/2021_03_03_WW09_World Indicators_Migrated Data.hyper",
+      "file": "inputs/2021_03_03_WW09_World Indicators_Migrated Data.hyper",
+      "bytes": 131072,
+      "sha256": "1c7f3a8b316638fe181bbed3101bc442d8f8ad981fbd87fbd2db90ae54130d05"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

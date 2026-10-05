@@ -1,0 +1,1824 @@
+{
+  "status": "pass",
+  "artifact_sha256": "fb41334e7d427244e7cfc0a64f61979fd6355adb1c5021f27f282e71ff337529",
+  "acceptance_ids": [
+    "all-country-2012-map",
+    "selected-country-donut",
+    "select-and-clear-parameter"
+  ],
+  "oracle": {
+    "input_sha256": "1c7f3a8b316638fe181bbed3101bc442d8f8ad981fbd87fbd2db90ae54130d05",
+    "raw_rows": 2691,
+    "country_year_unique": true,
+    "year_counts": {
+      "2000": 207,
+      "2001": 207,
+      "2002": 207,
+      "2003": 207,
+      "2004": 207,
+      "2005": 207,
+      "2006": 207,
+      "2007": 207,
+      "2008": 207,
+      "2009": 207,
+      "2010": 207,
+      "2011": 207,
+      "2012": 207
+    },
+    "2012_country_count": 207,
+    "null_urban_country_count": 2,
+    "2012_population_total": 7014951860,
+    "region_counts": {
+      "Asia": 34,
+      "Europe": 48,
+      "Africa": 53,
+      "Oceania": 15,
+      "The Americas": 44,
+      "Middle East": 13
+    },
+    "cells": [
+      {
+        "country": "Afghanistan",
+        "region": "Asia",
+        "year": 2012,
+        "population_total": 29824536,
+        "urban": 0.255,
+        "nonurban": 0.745
+      },
+      {
+        "country": "Albania",
+        "region": "Europe",
+        "year": 2012,
+        "population_total": 2801681,
+        "urban": 0.543,
+        "nonurban": 0.45699999999999996
+      },
+      {
+        "country": "Algeria",
+        "region": "Africa",
+        "year": 2012,
+        "population_total": 38481705,
+        "urban": 0.689,
+        "nonurban": 0.31100000000000005
+      },
+      {
+        "country": "American Samoa",
+        "region": "Oceania",
+        "year": 2012,
+        "population_total": 55128,
+        "urban": 0.874,
+        "nonurban": 0.126
+      },
+      {
+        "country": "Andorra",
+        "region": "Europe",
+        "year": 2012,
+        "population_total": 78360,
+        "urban": 0.867,
+        "nonurban": 0.133
+      },
+      {
+        "country": "Angola",
+        "region": "Africa",
+        "year": 2012,
+        "population_total": 20820525,
+        "urban": 0.417,
+        "nonurban": 0.583
+      },
+      {
+        "country": "Antigua and Barbuda",
+        "region": "The Americas",
+        "year": 2012,
+        "population_total": 89069,
+        "urban": 0.251,
+        "nonurban": 0.749
+      },
+      {
+        "country": "Argentina",
+        "region": "The Americas",
+        "year": 2012,
+        "population_total": 41086927,
+        "urban": 0.913,
+        "nonurban": 0.08699999999999997
+      },
+      {
+        "country": "Armenia",
+        "region": "Asia",
+        "year": 2012,
+        "population_total": 2969081,
+        "urban": 0.632,
+        "nonurban": 0.368
+      },
+      {
+        "country": "Aruba",
+        "region": "The Americas",
+        "year": 2012,
+        "population_total": 102384,
+        "urban": 0.424,
+        "nonurban": 0.5760000000000001
+      },
+      {
+        "country": "Australia",
+        "region": "Oceania",
+        "year": 2012,
+        "population_total": 22723900,
+        "urban": 0.89,
+        "nonurban": 0.10999999999999999
+      },
+      {
+        "country": "Austria",
+        "region": "Europe",
+        "year": 2012,
+        "population_total": 8429991,
+        "urban": 0.659,
+        "nonurban": 0.34099999999999997
+      },
+      {
+        "country": "Azerbaijan",
+        "region": "Asia",
+        "year": 2012,
+        "population_total": 9295784,
+        "urban": 0.539,
+        "nonurban": 0.46099999999999997
+      },
+      {
+        "country": "Bahamas, The",
+        "region": "The Americas",
+        "year": 2012,
+        "population_total": 371960,
+        "urban": 0.827,
+        "nonurban": 0.17300000000000004
+      },
+      {
+        "country": "Bahrain",
+        "region": "Middle East",
+        "year": 2012,
+        "population_total": 1317827,
+        "urban": 0.886,
+        "nonurban": 0.11399999999999999
+      },
+      {
+        "country": "Bangladesh",
+        "region": "Asia",
+        "year": 2012,
+        "population_total": 154695368,
+        "urban": 0.32,
+        "nonurban": 0.6799999999999999
+      },
+      {
+        "country": "Barbados",
+        "region": "The Americas",
+        "year": 2012,
+        "population_total": 283221,
+        "urban": 0.318,
+        "nonurban": 0.6819999999999999
+      },
+      {
+        "country": "Belarus",
+        "region": "Europe",
+        "year": 2012,
+        "population_total": 9464000,
+        "urban": 0.755,
+        "nonurban": 0.245
+      },
+      {
+        "country": "Belgium",
+        "region": "Europe",
+        "year": 2012,
+        "population_total": 11128246,
+        "urban": 0.977,
+        "nonurban": 0.02300000000000002
+      },
+      {
+        "country": "Belize",
+        "region": "The Americas",
+        "year": 2012,
+        "population_total": 324060,
+        "urban": 0.445,
+        "nonurban": 0.5549999999999999
+      },
+      {
+        "country": "Benin",
+        "region": "Africa",
+        "year": 2012,
+        "population_total": 10050702,
+        "urban": 0.427,
+        "nonurban": 0.573
+      },
+      {
+        "country": "Bermuda",
+        "region": "The Americas",
+        "year": 2012,
+        "population_total": 64798,
+        "urban": 1.0,
+        "nonurban": 0.0
+      },
+      {
+        "country": "Bhutan",
+        "region": "Asia",
+        "year": 2012,
+        "population_total": 741822,
+        "urban": 0.364,
+        "nonurban": 0.636
+      },
+      {
+        "country": "Bolivia",
+        "region": "The Americas",
+        "year": 2012,
+        "population_total": 10496285,
+        "urban": 0.673,
+        "nonurban": 0.32699999999999996
+      },
+      {
+        "country": "Bosnia and Herzegovina",
+        "region": "Europe",
+        "year": 2012,
+        "population_total": 3833916,
+        "urban": 0.394,
+        "nonurban": 0.606
+      },
+      {
+        "country": "Botswana",
+        "region": "Africa",
+        "year": 2012,
+        "population_total": 2003910,
+        "urban": 0.567,
+        "nonurban": 0.43300000000000005
+      },
+      {
+        "country": "Brazil",
+        "region": "The Americas",
+        "year": 2012,
+        "population_total": 198656019,
+        "urban": 0.849,
+        "nonurban": 0.15100000000000002
+      },
+      {
+        "country": "Brunei",
+        "region": "Asia",
+        "year": 2012,
+        "population_total": 412238,
+        "urban": 0.762,
+        "nonurban": 0.238
+      },
+      {
+        "country": "Bulgaria",
+        "region": "Europe",
+        "year": 2012,
+        "population_total": 7305888,
+        "urban": 0.73,
+        "nonurban": 0.27
+      },
+      {
+        "country": "Burkina Faso",
+        "region": "Africa",
+        "year": 2012,
+        "population_total": 16460141,
+        "urban": 0.273,
+        "nonurban": 0.727
+      },
+      {
+        "country": "Burundi",
+        "region": "Africa",
+        "year": 2012,
+        "population_total": 9849569,
+        "urban": 0.112,
+        "nonurban": 0.888
+      },
+      {
+        "country": "Cambodia",
+        "region": "Asia",
+        "year": 2012,
+        "population_total": 14864646,
+        "urban": 0.201,
+        "nonurban": 0.7989999999999999
+      },
+      {
+        "country": "Cameroon",
+        "region": "Africa",
+        "year": 2012,
+        "population_total": 21699631,
+        "urban": 0.527,
+        "nonurban": 0.473
+      },
+      {
+        "country": "Canada",
+        "region": "The Americas",
+        "year": 2012,
+        "population_total": 34754312,
+        "urban": 0.813,
+        "nonurban": 0.18700000000000006
+      },
+      {
+        "country": "Cayman Islands",
+        "region": "The Americas",
+        "year": 2012,
+        "population_total": 57570,
+        "urban": 1.0,
+        "nonurban": 0.0
+      },
+      {
+        "country": "Central African Republic",
+        "region": "Africa",
+        "year": 2012,
+        "population_total": 4525209,
+        "urban": 0.393,
+        "nonurban": 0.607
+      },
+      {
+        "country": "Chad",
+        "region": "Africa",
+        "year": 2012,
+        "population_total": 12448175,
+        "urban": 0.221,
+        "nonurban": 0.779
+      },
+      {
+        "country": "Chile",
+        "region": "The Americas",
+        "year": 2012,
+        "population_total": 17464814,
+        "urban": 0.89,
+        "nonurban": 0.10999999999999999
+      },
+      {
+        "country": "China",
+        "region": "Asia",
+        "year": 2012,
+        "population_total": 1350695000,
+        "urban": 0.519,
+        "nonurban": 0.481
+      },
+      {
+        "country": "Colombia",
+        "region": "The Americas",
+        "year": 2012,
+        "population_total": 47704427,
+        "urban": 0.756,
+        "nonurban": 0.244
+      },
+      {
+        "country": "Comoros",
+        "region": "Africa",
+        "year": 2012,
+        "population_total": 717503,
+        "urban": 0.28,
+        "nonurban": 0.72
+      },
+      {
+        "country": "Congo (Brazzaville)",
+        "region": "Africa",
+        "year": 2012,
+        "population_total": 4337051,
+        "urban": 0.641,
+        "nonurban": 0.359
+      },
+      {
+        "country": "Congo (Kinshasa)",
+        "region": "Africa",
+        "year": 2012,
+        "population_total": 65705093,
+        "urban": 0.41,
+        "nonurban": 0.5900000000000001
+      },
+      {
+        "country": "Costa Rica",
+        "region": "The Americas",
+        "year": 2012,
+        "population_total": 4805295,
+        "urban": 0.739,
+        "nonurban": 0.261
+      },
+      {
+        "country": "Cote d'Ivoire",
+        "region": "Africa",
+        "year": 2012,
+        "population_total": 19839750,
+        "urban": 0.52,
+        "nonurban": 0.48
+      },
+      {
+        "country": "Croatia",
+        "region": "Europe",
+        "year": 2012,
+        "population_total": 4267558,
+        "urban": 0.581,
+        "nonurban": 0.41900000000000004
+      },
+      {
+        "country": "Cuba",
+        "region": "The Americas",
+        "year": 2012,
+        "population_total": 11270957,
+        "urban": 0.768,
+        "nonurban": 0.23199999999999998
+      },
+      {
+        "country": "Curacao",
+        "region": "The Americas",
+        "year": 2012,
+        "population_total": 152056,
+        "urban": 0.897,
+        "nonurban": 0.10299999999999998
+      },
+      {
+        "country": "Cyprus",
+        "region": "Europe",
+        "year": 2012,
+        "population_total": 1128994,
+        "urban": 0.673,
+        "nonurban": 0.32699999999999996
+      },
+      {
+        "country": "Czech Republic",
+        "region": "Europe",
+        "year": 2012,
+        "population_total": 10510785,
+        "urban": 0.731,
+        "nonurban": 0.269
+      },
+      {
+        "country": "Denmark",
+        "region": "Europe",
+        "year": 2012,
+        "population_total": 5591572,
+        "urban": 0.871,
+        "nonurban": 0.129
+      },
+      {
+        "country": "Djibouti",
+        "region": "Africa",
+        "year": 2012,
+        "population_total": 859652,
+        "urban": 0.771,
+        "nonurban": 0.22899999999999998
+      },
+      {
+        "country": "Dominica",
+        "region": "The Americas",
+        "year": 2012,
+        "population_total": 71684,
+        "urban": 0.687,
+        "nonurban": 0.31299999999999994
+      },
+      {
+        "country": "Dominican Republic",
+        "region": "The Americas",
+        "year": 2012,
+        "population_total": 10276621,
+        "urban": 0.76,
+        "nonurban": 0.24
+      },
+      {
+        "country": "Ecuador",
+        "region": "The Americas",
+        "year": 2012,
+        "population_total": 15492264,
+        "urban": 0.631,
+        "nonurban": 0.369
+      },
+      {
+        "country": "Egypt",
+        "region": "Africa",
+        "year": 2012,
+        "population_total": 80721874,
+        "urban": 0.43,
+        "nonurban": 0.5700000000000001
+      },
+      {
+        "country": "El Salvador",
+        "region": "The Americas",
+        "year": 2012,
+        "population_total": 6297394,
+        "urban": 0.653,
+        "nonurban": 0.347
+      },
+      {
+        "country": "Equatorial Guinea",
+        "region": "Africa",
+        "year": 2012,
+        "population_total": 736296,
+        "urban": 0.395,
+        "nonurban": 0.605
+      },
+      {
+        "country": "Eritrea",
+        "region": "Africa",
+        "year": 2012,
+        "population_total": 6130922,
+        "urban": 0.214,
+        "nonurban": 0.786
+      },
+      {
+        "country": "Estonia",
+        "region": "Europe",
+        "year": 2012,
+        "population_total": 1325016,
+        "urban": 0.678,
+        "nonurban": 0.32199999999999995
+      },
+      {
+        "country": "Ethiopia",
+        "region": "Africa",
+        "year": 2012,
+        "population_total": 91728849,
+        "urban": 0.182,
+        "nonurban": 0.8180000000000001
+      },
+      {
+        "country": "Faeroe Islands",
+        "region": "Europe",
+        "year": 2012,
+        "population_total": 49506,
+        "urban": 0.413,
+        "nonurban": 0.587
+      },
+      {
+        "country": "Fiji",
+        "region": "Oceania",
+        "year": 2012,
+        "population_total": 874742,
+        "urban": 0.526,
+        "nonurban": 0.474
+      },
+      {
+        "country": "Finland",
+        "region": "Europe",
+        "year": 2012,
+        "population_total": 5413971,
+        "urban": 0.838,
+        "nonurban": 0.16200000000000003
+      },
+      {
+        "country": "France",
+        "region": "Europe",
+        "year": 2012,
+        "population_total": 65676758,
+        "urban": 0.788,
+        "nonurban": 0.21199999999999997
+      },
+      {
+        "country": "French Polynesia",
+        "region": "Oceania",
+        "year": 2012,
+        "population_total": 273814,
+        "urban": 0.562,
+        "nonurban": 0.43799999999999994
+      },
+      {
+        "country": "Gabon",
+        "region": "Africa",
+        "year": 2012,
+        "population_total": 1632572,
+        "urban": 0.864,
+        "nonurban": 0.136
+      },
+      {
+        "country": "Gambia, The",
+        "region": "Africa",
+        "year": 2012,
+        "population_total": 1791225,
+        "urban": 0.577,
+        "nonurban": 0.42300000000000004
+      },
+      {
+        "country": "Georgia",
+        "region": "Asia",
+        "year": 2012,
+        "population_total": 4490700,
+        "urban": 0.532,
+        "nonurban": 0.46799999999999997
+      },
+      {
+        "country": "Germany",
+        "region": "Europe",
+        "year": 2012,
+        "population_total": 80425823,
+        "urban": 0.747,
+        "nonurban": 0.253
+      },
+      {
+        "country": "Ghana",
+        "region": "Africa",
+        "year": 2012,
+        "population_total": 25366462,
+        "urban": 0.521,
+        "nonurban": 0.479
+      },
+      {
+        "country": "Greece",
+        "region": "Europe",
+        "year": 2012,
+        "population_total": 11092771,
+        "urban": 0.77,
+        "nonurban": 0.22999999999999998
+      },
+      {
+        "country": "Greenland",
+        "region": "The Americas",
+        "year": 2012,
+        "population_total": 56810,
+        "urban": 0.852,
+        "nonurban": 0.14800000000000002
+      },
+      {
+        "country": "Grenada",
+        "region": "The Americas",
+        "year": 2012,
+        "population_total": 105483,
+        "urban": 0.356,
+        "nonurban": 0.644
+      },
+      {
+        "country": "Guam",
+        "region": "Oceania",
+        "year": 2012,
+        "population_total": 162810,
+        "urban": 0.943,
+        "nonurban": 0.05700000000000005
+      },
+      {
+        "country": "Guatemala",
+        "region": "The Americas",
+        "year": 2012,
+        "population_total": 15082831,
+        "urban": 0.502,
+        "nonurban": 0.498
+      },
+      {
+        "country": "Guinea",
+        "region": "Africa",
+        "year": 2012,
+        "population_total": 11451273,
+        "urban": 0.357,
+        "nonurban": 0.643
+      },
+      {
+        "country": "Guinea-Bissau",
+        "region": "Africa",
+        "year": 2012,
+        "population_total": 1663558,
+        "urban": 0.469,
+        "nonurban": 0.531
+      },
+      {
+        "country": "Guyana",
+        "region": "The Americas",
+        "year": 2012,
+        "population_total": 795369,
+        "urban": 0.283,
+        "nonurban": 0.7170000000000001
+      },
+      {
+        "country": "Haiti",
+        "region": "The Americas",
+        "year": 2012,
+        "population_total": 10173775,
+        "urban": 0.548,
+        "nonurban": 0.45199999999999996
+      },
+      {
+        "country": "Honduras",
+        "region": "The Americas",
+        "year": 2012,
+        "population_total": 7935846,
+        "urban": 0.529,
+        "nonurban": 0.471
+      },
+      {
+        "country": "Hong Kong SAR",
+        "region": "Asia",
+        "year": 2012,
+        "population_total": 7154600,
+        "urban": 1.0,
+        "nonurban": 0.0
+      },
+      {
+        "country": "Hungary",
+        "region": "Europe",
+        "year": 2012,
+        "population_total": 9920362,
+        "urban": 0.698,
+        "nonurban": 0.30200000000000005
+      },
+      {
+        "country": "Iceland",
+        "region": "Europe",
+        "year": 2012,
+        "population_total": 320716,
+        "urban": 0.938,
+        "nonurban": 0.062000000000000055
+      },
+      {
+        "country": "India",
+        "region": "Asia",
+        "year": 2012,
+        "population_total": 1236686732,
+        "urban": 0.316,
+        "nonurban": 0.6839999999999999
+      },
+      {
+        "country": "Indonesia",
+        "region": "Asia",
+        "year": 2012,
+        "population_total": 246864191,
+        "urban": 0.515,
+        "nonurban": 0.485
+      },
+      {
+        "country": "Iran",
+        "region": "Middle East",
+        "year": 2012,
+        "population_total": 76424443,
+        "urban": 0.718,
+        "nonurban": 0.28200000000000003
+      },
+      {
+        "country": "Iraq",
+        "region": "Middle East",
+        "year": 2012,
+        "population_total": 32578209,
+        "urban": 0.692,
+        "nonurban": 0.30800000000000005
+      },
+      {
+        "country": "Ireland",
+        "region": "Europe",
+        "year": 2012,
+        "population_total": 4586897,
+        "urban": 0.624,
+        "nonurban": 0.376
+      },
+      {
+        "country": "Isle of Man",
+        "region": "Europe",
+        "year": 2012,
+        "population_total": 85284,
+        "urban": 0.52,
+        "nonurban": 0.48
+      },
+      {
+        "country": "Israel",
+        "region": "Middle East",
+        "year": 2012,
+        "population_total": 7910500,
+        "urban": 0.919,
+        "nonurban": 0.08099999999999996
+      },
+      {
+        "country": "Italy",
+        "region": "Europe",
+        "year": 2012,
+        "population_total": 59539717,
+        "urban": 0.686,
+        "nonurban": 0.31399999999999995
+      },
+      {
+        "country": "Jamaica",
+        "region": "The Americas",
+        "year": 2012,
+        "population_total": 2707805,
+        "urban": 0.541,
+        "nonurban": 0.45899999999999996
+      },
+      {
+        "country": "Japan",
+        "region": "Asia",
+        "year": 2012,
+        "population_total": 127561489,
+        "urban": 0.919,
+        "nonurban": 0.08099999999999996
+      },
+      {
+        "country": "Jordan",
+        "region": "Middle East",
+        "year": 2012,
+        "population_total": 6318000,
+        "urban": 0.83,
+        "nonurban": 0.17000000000000004
+      },
+      {
+        "country": "Kazakhstan",
+        "region": "Asia",
+        "year": 2012,
+        "population_total": 16791425,
+        "urban": 0.535,
+        "nonurban": 0.46499999999999997
+      },
+      {
+        "country": "Kenya",
+        "region": "Africa",
+        "year": 2012,
+        "population_total": 43178141,
+        "urban": 0.244,
+        "nonurban": 0.756
+      },
+      {
+        "country": "Kiribati",
+        "region": "Oceania",
+        "year": 2012,
+        "population_total": 100786,
+        "urban": 0.439,
+        "nonurban": 0.5609999999999999
+      },
+      {
+        "country": "Kosovo",
+        "region": "Europe",
+        "year": 2012,
+        "population_total": 1807106,
+        "urban": null,
+        "nonurban": null
+      },
+      {
+        "country": "Kuwait",
+        "region": "Middle East",
+        "year": 2012,
+        "population_total": 3250496,
+        "urban": 0.983,
+        "nonurban": 0.017000000000000015
+      },
+      {
+        "country": "Kyrgyzstan",
+        "region": "Asia",
+        "year": 2012,
+        "population_total": 5607200,
+        "urban": 0.354,
+        "nonurban": 0.646
+      },
+      {
+        "country": "Laos",
+        "region": "Asia",
+        "year": 2012,
+        "population_total": 6645827,
+        "urban": 0.354,
+        "nonurban": 0.646
+      },
+      {
+        "country": "Latvia",
+        "region": "Europe",
+        "year": 2012,
+        "population_total": 2034319,
+        "urban": 0.675,
+        "nonurban": 0.32499999999999996
+      },
+      {
+        "country": "Lebanon",
+        "region": "Middle East",
+        "year": 2012,
+        "population_total": 4424888,
+        "urban": 0.874,
+        "nonurban": 0.126
+      },
+      {
+        "country": "Lesotho",
+        "region": "Africa",
+        "year": 2012,
+        "population_total": 2051545,
+        "urban": 0.258,
+        "nonurban": 0.742
+      },
+      {
+        "country": "Liberia",
+        "region": "Africa",
+        "year": 2012,
+        "population_total": 4190435,
+        "urban": 0.485,
+        "nonurban": 0.515
+      },
+      {
+        "country": "Libya",
+        "region": "Africa",
+        "year": 2012,
+        "population_total": 6154623,
+        "urban": 0.78,
+        "nonurban": 0.21999999999999997
+      },
+      {
+        "country": "Liechtenstein",
+        "region": "Europe",
+        "year": 2012,
+        "population_total": 36656,
+        "urban": 0.144,
+        "nonurban": 0.856
+      },
+      {
+        "country": "Lithuania",
+        "region": "Europe",
+        "year": 2012,
+        "population_total": 2987773,
+        "urban": 0.666,
+        "nonurban": 0.33399999999999996
+      },
+      {
+        "country": "Luxembourg",
+        "region": "Europe",
+        "year": 2012,
+        "population_total": 530946,
+        "urban": 0.892,
+        "nonurban": 0.10799999999999998
+      },
+      {
+        "country": "Macao SAR",
+        "region": "Asia",
+        "year": 2012,
+        "population_total": 556783,
+        "urban": 1.0,
+        "nonurban": 0.0
+      },
+      {
+        "country": "Madagascar",
+        "region": "Africa",
+        "year": 2012,
+        "population_total": 22293914,
+        "urban": 0.332,
+        "nonurban": 0.6679999999999999
+      },
+      {
+        "country": "Malawi",
+        "region": "Africa",
+        "year": 2012,
+        "population_total": 15906483,
+        "urban": 0.158,
+        "nonurban": 0.842
+      },
+      {
+        "country": "Malaysia",
+        "region": "Asia",
+        "year": 2012,
+        "population_total": 29239927,
+        "urban": 0.725,
+        "nonurban": 0.275
+      },
+      {
+        "country": "Maldives",
+        "region": "Asia",
+        "year": 2012,
+        "population_total": 338442,
+        "urban": 0.423,
+        "nonurban": 0.577
+      },
+      {
+        "country": "Mali",
+        "region": "Africa",
+        "year": 2012,
+        "population_total": 14853572,
+        "urban": 0.376,
+        "nonurban": 0.624
+      },
+      {
+        "country": "Malta",
+        "region": "Europe",
+        "year": 2012,
+        "population_total": 419455,
+        "urban": 0.95,
+        "nonurban": 0.050000000000000044
+      },
+      {
+        "country": "Marshall Islands",
+        "region": "Oceania",
+        "year": 2012,
+        "population_total": 52555,
+        "urban": 0.719,
+        "nonurban": 0.281
+      },
+      {
+        "country": "Mauritania",
+        "region": "Africa",
+        "year": 2012,
+        "population_total": 3796141,
+        "urban": 0.58,
+        "nonurban": 0.42000000000000004
+      },
+      {
+        "country": "Mauritius",
+        "region": "Africa",
+        "year": 2012,
+        "population_total": 1291167,
+        "urban": 0.402,
+        "nonurban": 0.598
+      },
+      {
+        "country": "Mexico",
+        "region": "The Americas",
+        "year": 2012,
+        "population_total": 120847477,
+        "urban": 0.784,
+        "nonurban": 0.21599999999999997
+      },
+      {
+        "country": "Micronesia, Fed. Sts.",
+        "region": "Oceania",
+        "year": 2012,
+        "population_total": 103395,
+        "urban": 0.223,
+        "nonurban": 0.777
+      },
+      {
+        "country": "Moldova",
+        "region": "Europe",
+        "year": 2012,
+        "population_total": 3559519,
+        "urban": 0.449,
+        "nonurban": 0.5509999999999999
+      },
+      {
+        "country": "Monaco",
+        "region": "Europe",
+        "year": 2012,
+        "population_total": 37579,
+        "urban": 1.0,
+        "nonurban": 0.0
+      },
+      {
+        "country": "Mongolia",
+        "region": "Asia",
+        "year": 2012,
+        "population_total": 2796484,
+        "urban": 0.695,
+        "nonurban": 0.30500000000000005
+      },
+      {
+        "country": "Montenegro",
+        "region": "Europe",
+        "year": 2012,
+        "population_total": 621081,
+        "urban": 0.635,
+        "nonurban": 0.365
+      },
+      {
+        "country": "Morocco",
+        "region": "Africa",
+        "year": 2012,
+        "population_total": 32521143,
+        "urban": 0.587,
+        "nonurban": 0.41300000000000003
+      },
+      {
+        "country": "Mozambique",
+        "region": "Africa",
+        "year": 2012,
+        "population_total": 25203395,
+        "urban": 0.314,
+        "nonurban": 0.6859999999999999
+      },
+      {
+        "country": "Myanmar",
+        "region": "Asia",
+        "year": 2012,
+        "population_total": 52797319,
+        "urban": 0.325,
+        "nonurban": 0.675
+      },
+      {
+        "country": "Namibia",
+        "region": "Africa",
+        "year": 2012,
+        "population_total": 2259393,
+        "urban": 0.437,
+        "nonurban": 0.563
+      },
+      {
+        "country": "Nepal",
+        "region": "Asia",
+        "year": 2012,
+        "population_total": 27474377,
+        "urban": 0.175,
+        "nonurban": 0.825
+      },
+      {
+        "country": "Netherlands",
+        "region": "Europe",
+        "year": 2012,
+        "population_total": 16754962,
+        "urban": 0.886,
+        "nonurban": 0.11399999999999999
+      },
+      {
+        "country": "New Caledonia",
+        "region": "Oceania",
+        "year": 2012,
+        "population_total": 258000,
+        "urban": 0.685,
+        "nonurban": 0.31499999999999995
+      },
+      {
+        "country": "New Zealand",
+        "region": "Oceania",
+        "year": 2012,
+        "population_total": 4433000,
+        "urban": 0.862,
+        "nonurban": 0.138
+      },
+      {
+        "country": "Nicaragua",
+        "region": "The Americas",
+        "year": 2012,
+        "population_total": 5991733,
+        "urban": 0.578,
+        "nonurban": 0.42200000000000004
+      },
+      {
+        "country": "Niger",
+        "region": "Africa",
+        "year": 2012,
+        "population_total": 17157042,
+        "urban": 0.18,
+        "nonurban": 0.8200000000000001
+      },
+      {
+        "country": "Nigeria",
+        "region": "Africa",
+        "year": 2012,
+        "population_total": 168833776,
+        "urban": 0.452,
+        "nonurban": 0.548
+      },
+      {
+        "country": "North Korea",
+        "region": "Asia",
+        "year": 2012,
+        "population_total": 24763188,
+        "urban": 0.604,
+        "nonurban": 0.396
+      },
+      {
+        "country": "North Macedonia",
+        "region": "Europe",
+        "year": 2012,
+        "population_total": 2105575,
+        "urban": 0.57,
+        "nonurban": 0.43000000000000005
+      },
+      {
+        "country": "Norway",
+        "region": "Europe",
+        "year": 2012,
+        "population_total": 5018573,
+        "urban": 0.797,
+        "nonurban": 0.20299999999999996
+      },
+      {
+        "country": "Oman",
+        "region": "Middle East",
+        "year": 2012,
+        "population_total": 3314001,
+        "urban": 0.762,
+        "nonurban": 0.238
+      },
+      {
+        "country": "Pakistan",
+        "region": "Asia",
+        "year": 2012,
+        "population_total": 179160111,
+        "urban": 0.374,
+        "nonurban": 0.626
+      },
+      {
+        "country": "Panama",
+        "region": "The Americas",
+        "year": 2012,
+        "population_total": 3802281,
+        "urban": 0.657,
+        "nonurban": 0.34299999999999997
+      },
+      {
+        "country": "Papua New Guinea",
+        "region": "Oceania",
+        "year": 2012,
+        "population_total": 7167010,
+        "urban": 0.13,
+        "nonurban": 0.87
+      },
+      {
+        "country": "Paraguay",
+        "region": "The Americas",
+        "year": 2012,
+        "population_total": 6687361,
+        "urban": 0.589,
+        "nonurban": 0.41100000000000003
+      },
+      {
+        "country": "Peru",
+        "region": "The Americas",
+        "year": 2012,
+        "population_total": 29987800,
+        "urban": 0.776,
+        "nonurban": 0.22399999999999998
+      },
+      {
+        "country": "Philippines",
+        "region": "Asia",
+        "year": 2012,
+        "population_total": 96706764,
+        "urban": 0.448,
+        "nonurban": 0.552
+      },
+      {
+        "country": "Poland",
+        "region": "Europe",
+        "year": 2012,
+        "population_total": 38535873,
+        "urban": 0.607,
+        "nonurban": 0.393
+      },
+      {
+        "country": "Portugal",
+        "region": "Europe",
+        "year": 2012,
+        "population_total": 10514844,
+        "urban": 0.618,
+        "nonurban": 0.382
+      },
+      {
+        "country": "Puerto Rico",
+        "region": "The Americas",
+        "year": 2012,
+        "population_total": 3651545,
+        "urban": 0.937,
+        "nonurban": 0.06299999999999994
+      },
+      {
+        "country": "Qatar",
+        "region": "Middle East",
+        "year": 2012,
+        "population_total": 2050514,
+        "urban": 0.989,
+        "nonurban": 0.01100000000000001
+      },
+      {
+        "country": "Romania",
+        "region": "Europe",
+        "year": 2012,
+        "population_total": 20076727,
+        "urban": 0.541,
+        "nonurban": 0.45899999999999996
+      },
+      {
+        "country": "Russia",
+        "region": "Europe",
+        "year": 2012,
+        "population_total": 143178000,
+        "urban": 0.738,
+        "nonurban": 0.262
+      },
+      {
+        "country": "Rwanda",
+        "region": "Africa",
+        "year": 2012,
+        "population_total": 11457801,
+        "urban": 0.259,
+        "nonurban": 0.741
+      },
+      {
+        "country": "Samoa",
+        "region": "Oceania",
+        "year": 2012,
+        "population_total": 188889,
+        "urban": 0.196,
+        "nonurban": 0.804
+      },
+      {
+        "country": "San Marino",
+        "region": "Europe",
+        "year": 2012,
+        "population_total": 31247,
+        "urban": 0.941,
+        "nonurban": 0.05900000000000005
+      },
+      {
+        "country": "Sao Tome and Principe",
+        "region": "Africa",
+        "year": 2012,
+        "population_total": 188098,
+        "urban": 0.633,
+        "nonurban": 0.367
+      },
+      {
+        "country": "Saudi Arabia",
+        "region": "Middle East",
+        "year": 2012,
+        "population_total": 28287855,
+        "urban": 0.825,
+        "nonurban": 0.17500000000000004
+      },
+      {
+        "country": "Senegal",
+        "region": "Africa",
+        "year": 2012,
+        "population_total": 13726021,
+        "urban": 0.428,
+        "nonurban": 0.5720000000000001
+      },
+      {
+        "country": "Serbia",
+        "region": "Europe",
+        "year": 2012,
+        "population_total": 7199077,
+        "urban": 0.553,
+        "nonurban": 0.44699999999999995
+      },
+      {
+        "country": "Seychelles",
+        "region": "Africa",
+        "year": 2012,
+        "population_total": 88303,
+        "urban": 0.529,
+        "nonurban": 0.471
+      },
+      {
+        "country": "Sierra Leone",
+        "region": "Africa",
+        "year": 2012,
+        "population_total": 5978727,
+        "urban": 0.389,
+        "nonurban": 0.611
+      },
+      {
+        "country": "Singapore",
+        "region": "Asia",
+        "year": 2012,
+        "population_total": 5312400,
+        "urban": 1.0,
+        "nonurban": 0.0
+      },
+      {
+        "country": "Sint Maarten (Dutch part)",
+        "region": "The Americas",
+        "year": 2012,
+        "population_total": 39088,
+        "urban": 1.0,
+        "nonurban": 0.0
+      },
+      {
+        "country": "Slovakia",
+        "region": "Europe",
+        "year": 2012,
+        "population_total": 5407579,
+        "urban": 0.542,
+        "nonurban": 0.45799999999999996
+      },
+      {
+        "country": "Slovenia",
+        "region": "Europe",
+        "year": 2012,
+        "population_total": 2057159,
+        "urban": 0.499,
+        "nonurban": 0.501
+      },
+      {
+        "country": "Solomon Islands",
+        "region": "Oceania",
+        "year": 2012,
+        "population_total": 549598,
+        "urban": 0.21,
+        "nonurban": 0.79
+      },
+      {
+        "country": "Somalia",
+        "region": "Africa",
+        "year": 2012,
+        "population_total": 10195134,
+        "urban": 0.382,
+        "nonurban": 0.618
+      },
+      {
+        "country": "South Africa",
+        "region": "Africa",
+        "year": 2012,
+        "population_total": 52274945,
+        "urban": 0.633,
+        "nonurban": 0.367
+      },
+      {
+        "country": "South Korea",
+        "region": "Asia",
+        "year": 2012,
+        "population_total": 50004441,
+        "urban": 0.821,
+        "nonurban": 0.17900000000000005
+      },
+      {
+        "country": "South Sudan",
+        "region": "Africa",
+        "year": 2012,
+        "population_total": 10837527,
+        "urban": 0.182,
+        "nonurban": 0.8180000000000001
+      },
+      {
+        "country": "Spain",
+        "region": "Europe",
+        "year": 2012,
+        "population_total": 46761264,
+        "urban": 0.789,
+        "nonurban": 0.21099999999999997
+      },
+      {
+        "country": "Sri Lanka",
+        "region": "Asia",
+        "year": 2012,
+        "population_total": 20328000,
+        "urban": 0.183,
+        "nonurban": 0.817
+      },
+      {
+        "country": "St. Kitts and Nevis",
+        "region": "The Americas",
+        "year": 2012,
+        "population_total": 53584,
+        "urban": 0.318,
+        "nonurban": 0.6819999999999999
+      },
+      {
+        "country": "St. Lucia",
+        "region": "The Americas",
+        "year": 2012,
+        "population_total": 180870,
+        "urban": 0.185,
+        "nonurban": 0.815
+      },
+      {
+        "country": "St. Martin (French part)",
+        "region": "The Americas",
+        "year": 2012,
+        "population_total": 30959,
+        "urban": null,
+        "nonurban": null
+      },
+      {
+        "country": "St. Vincent and the Grenadines",
+        "region": "The Americas",
+        "year": 2012,
+        "population_total": 109373,
+        "urban": 0.495,
+        "nonurban": 0.505
+      },
+      {
+        "country": "Sudan",
+        "region": "Africa",
+        "year": 2012,
+        "population_total": 37195349,
+        "urban": 0.333,
+        "nonurban": 0.667
+      },
+      {
+        "country": "Suriname",
+        "region": "The Americas",
+        "year": 2012,
+        "population_total": 534541,
+        "urban": 0.662,
+        "nonurban": 0.33799999999999997
+      },
+      {
+        "country": "Swaziland",
+        "region": "Africa",
+        "year": 2012,
+        "population_total": 1230985,
+        "urban": 0.214,
+        "nonurban": 0.786
+      },
+      {
+        "country": "Sweden",
+        "region": "Europe",
+        "year": 2012,
+        "population_total": 9519374,
+        "urban": 0.854,
+        "nonurban": 0.14600000000000002
+      },
+      {
+        "country": "Switzerland",
+        "region": "Europe",
+        "year": 2012,
+        "population_total": 7996861,
+        "urban": 0.737,
+        "nonurban": 0.263
+      },
+      {
+        "country": "Syria",
+        "region": "Middle East",
+        "year": 2012,
+        "population_total": 22399254,
+        "urban": 0.565,
+        "nonurban": 0.43500000000000005
+      },
+      {
+        "country": "Tajikistan",
+        "region": "Asia",
+        "year": 2012,
+        "population_total": 8008990,
+        "urban": 0.266,
+        "nonurban": 0.734
+      },
+      {
+        "country": "Tanzania",
+        "region": "Africa",
+        "year": 2012,
+        "population_total": 47783107,
+        "urban": 0.295,
+        "nonurban": 0.7050000000000001
+      },
+      {
+        "country": "Thailand",
+        "region": "Asia",
+        "year": 2012,
+        "population_total": 66785001,
+        "urban": 0.467,
+        "nonurban": 0.5329999999999999
+      },
+      {
+        "country": "Timor-Leste",
+        "region": "Asia",
+        "year": 2012,
+        "population_total": 1148958,
+        "urban": 0.308,
+        "nonurban": 0.692
+      },
+      {
+        "country": "Togo",
+        "region": "Africa",
+        "year": 2012,
+        "population_total": 6642928,
+        "urban": 0.385,
+        "nonurban": 0.615
+      },
+      {
+        "country": "Tonga",
+        "region": "Oceania",
+        "year": 2012,
+        "population_total": 104941,
+        "urban": 0.235,
+        "nonurban": 0.765
+      },
+      {
+        "country": "Trinidad and Tobago",
+        "region": "The Americas",
+        "year": 2012,
+        "population_total": 1337439,
+        "urban": 0.088,
+        "nonurban": 0.912
+      },
+      {
+        "country": "Tunisia",
+        "region": "Africa",
+        "year": 2012,
+        "population_total": 10777500,
+        "urban": 0.663,
+        "nonurban": 0.33699999999999997
+      },
+      {
+        "country": "Turkey",
+        "region": "Europe",
+        "year": 2012,
+        "population_total": 73997128,
+        "urban": 0.718,
+        "nonurban": 0.28200000000000003
+      },
+      {
+        "country": "Turkmenistan",
+        "region": "Asia",
+        "year": 2012,
+        "population_total": 5172931,
+        "urban": 0.49,
+        "nonurban": 0.51
+      },
+      {
+        "country": "Turks and Caicos Islands",
+        "region": "The Americas",
+        "year": 2012,
+        "population_total": 32427,
+        "urban": 0.911,
+        "nonurban": 0.08899999999999997
+      },
+      {
+        "country": "Uganda",
+        "region": "Africa",
+        "year": 2012,
+        "population_total": 36345860,
+        "urban": 0.151,
+        "nonurban": 0.849
+      },
+      {
+        "country": "Ukraine",
+        "region": "Europe",
+        "year": 2012,
+        "population_total": 45593300,
+        "urban": 0.691,
+        "nonurban": 0.30900000000000005
+      },
+      {
+        "country": "United Arab Emirates",
+        "region": "Middle East",
+        "year": 2012,
+        "population_total": 9205651,
+        "urban": 0.847,
+        "nonurban": 0.15300000000000002
+      },
+      {
+        "country": "United Kingdom",
+        "region": "Europe",
+        "year": 2012,
+        "population_total": 63695687,
+        "urban": 0.818,
+        "nonurban": 0.18200000000000005
+      },
+      {
+        "country": "United States",
+        "region": "The Americas",
+        "year": 2012,
+        "population_total": 313873685,
+        "urban": 0.811,
+        "nonurban": 0.18899999999999995
+      },
+      {
+        "country": "Uruguay",
+        "region": "The Americas",
+        "year": 2012,
+        "population_total": 3395253,
+        "urban": 0.948,
+        "nonurban": 0.052000000000000046
+      },
+      {
+        "country": "Uzbekistan",
+        "region": "Asia",
+        "year": 2012,
+        "population_total": 29774500,
+        "urban": 0.362,
+        "nonurban": 0.638
+      },
+      {
+        "country": "Vanuatu",
+        "region": "Oceania",
+        "year": 2012,
+        "population_total": 247262,
+        "urban": 0.252,
+        "nonurban": 0.748
+      },
+      {
+        "country": "Venezuela",
+        "region": "The Americas",
+        "year": 2012,
+        "population_total": 29954782,
+        "urban": 0.889,
+        "nonurban": 0.11099999999999999
+      },
+      {
+        "country": "Vietnam",
+        "region": "Asia",
+        "year": 2012,
+        "population_total": 88772900,
+        "urban": 0.317,
+        "nonurban": 0.683
+      },
+      {
+        "country": "Yemen",
+        "region": "Middle East",
+        "year": 2012,
+        "population_total": 23852409,
+        "urban": 0.329,
+        "nonurban": 0.671
+      },
+      {
+        "country": "Zambia",
+        "region": "Africa",
+        "year": 2012,
+        "population_total": 14075099,
+        "urban": 0.396,
+        "nonurban": 0.604
+      },
+      {
+        "country": "Zimbabwe",
+        "region": "Africa",
+        "year": 2012,
+        "population_total": 13724317,
+        "urban": 0.328,
+        "nonurban": 0.6719999999999999
+      }
+    ]
+  },
+  "native_contract": {
+    "worksheet_count": 1,
+    "native_layers": 4,
+    "select_event": "on-select",
+    "clear_behavior": "assign empty string",
+    "browser_interaction_executed": false
+  },
+  "cloud_checks": [
+    {
+      "state": "default",
+      "role": "author",
+      "file": "outputs/cloud-author-map.csv",
+      "sha256": "7d171f2816400e964930032686d23cbe080f6a87874ad693f439fe1a99004d3f",
+      "csv_rows": 221,
+      "independently_reconciled_rows": 221,
+      "all_country_keys": 207,
+      "selected_country_keys": [],
+      "selected_wedges": [],
+      "scope": "Complete worksheet conditional geographic keys; every numeric row reconciled including NULL-geography aggregates. Population totals checked at integer-million CSV precision and urban tooltips at integer-percent precision; pie shares checked at exported numerical precision."
+    },
+    {
+      "state": "default",
+      "role": "replica",
+      "file": "outputs/cloud-replica-map.csv",
+      "sha256": "d27c9d1ad6627fe8a3a94bd354b880d5fdaf9fb17a823e77ef243a98c8b14f3c",
+      "csv_rows": 221,
+      "independently_reconciled_rows": 221,
+      "all_country_keys": 207,
+      "selected_country_keys": [],
+      "selected_wedges": [],
+      "scope": "Complete worksheet conditional geographic keys; every numeric row reconciled including NULL-geography aggregates. Population totals checked at integer-million CSV precision and urban tooltips at integer-percent precision; pie shares checked at exported numerical precision."
+    },
+    {
+      "state": "china",
+      "role": "author",
+      "file": "outputs/cloud-author-map-china.csv",
+      "sha256": "e9f5ece66fe933ca9fa0568233a8446d13dd389b46b8d47d0a5a3ad9adedff8a",
+      "csv_rows": 24,
+      "independently_reconciled_rows": 24,
+      "all_country_keys": 0,
+      "selected_country_keys": [
+        "China"
+      ],
+      "selected_wedges": [
+        "Population Non-Urban",
+        "Population Urban"
+      ],
+      "scope": "Complete worksheet conditional geographic keys; every numeric row reconciled including NULL-geography aggregates. Population totals checked at integer-million CSV precision and urban tooltips at integer-percent precision; pie shares checked at exported numerical precision."
+    },
+    {
+      "state": "china",
+      "role": "replica",
+      "file": "outputs/cloud-replica-map-china.csv",
+      "sha256": "bcc57d0eb5e3e192ecc51bef081489d6d23e908cb5f820c0cf01949d34d9c06f",
+      "csv_rows": 24,
+      "independently_reconciled_rows": 24,
+      "all_country_keys": 0,
+      "selected_country_keys": [
+        "China"
+      ],
+      "selected_wedges": [
+        "Population Non-Urban",
+        "Population Urban"
+      ],
+      "scope": "Complete worksheet conditional geographic keys; every numeric row reconciled including NULL-geography aggregates. Population totals checked at integer-million CSV precision and urban tooltips at integer-percent precision; pie shares checked at exported numerical precision."
+    },
+    {
+      "state": "russia",
+      "role": "author",
+      "file": "outputs/cloud-author-map-russia.csv",
+      "sha256": "b02836e38292f29a450dca7dac5690b5ae90c015a640e4847390c6e1ff440530",
+      "csv_rows": 24,
+      "independently_reconciled_rows": 24,
+      "all_country_keys": 0,
+      "selected_country_keys": [
+        "Russia"
+      ],
+      "selected_wedges": [
+        "Population Non-Urban",
+        "Population Urban"
+      ],
+      "scope": "Complete worksheet conditional geographic keys; every numeric row reconciled including NULL-geography aggregates. Population totals checked at integer-million CSV precision and urban tooltips at integer-percent precision; pie shares checked at exported numerical precision."
+    },
+    {
+      "state": "russia",
+      "role": "replica",
+      "file": "outputs/cloud-replica-map-russia.csv",
+      "sha256": "31bec4f7a945f5d5c827604bcdee0a31f5e4851ee4e3368c5584e9eb99fc646d",
+      "csv_rows": 24,
+      "independently_reconciled_rows": 24,
+      "all_country_keys": 0,
+      "selected_country_keys": [
+        "Russia"
+      ],
+      "selected_wedges": [
+        "Population Non-Urban",
+        "Population Urban"
+      ],
+      "scope": "Complete worksheet conditional geographic keys; every numeric row reconciled including NULL-geography aggregates. Population totals checked at integer-million CSV precision and urban tooltips at integer-percent precision; pie shares checked at exported numerical precision."
+    },
+    {
+      "state": "reset",
+      "role": "author",
+      "file": "outputs/cloud-author-map-reset.csv",
+      "sha256": "72f84a820a1336c2fa4b9cbaaaf6ef020ccc0a4dd3690bc83305b7d2d9954aac",
+      "csv_rows": 221,
+      "independently_reconciled_rows": 221,
+      "all_country_keys": 207,
+      "selected_country_keys": [],
+      "selected_wedges": [],
+      "scope": "Complete worksheet conditional geographic keys; every numeric row reconciled including NULL-geography aggregates. Population totals checked at integer-million CSV precision and urban tooltips at integer-percent precision; pie shares checked at exported numerical precision."
+    },
+    {
+      "state": "reset",
+      "role": "replica",
+      "file": "outputs/cloud-replica-map-reset.csv",
+      "sha256": "ba6b3a06aec4b589db4191457ebd60d596b6a3115a512646e9773221b563ae72",
+      "csv_rows": 221,
+      "independently_reconciled_rows": 221,
+      "all_country_keys": 207,
+      "selected_country_keys": [],
+      "selected_wedges": [],
+      "scope": "Complete worksheet conditional geographic keys; every numeric row reconciled including NULL-geography aggregates. Population totals checked at integer-million CSV precision and urban tooltips at integer-percent precision; pie shares checked at exported numerical precision."
+    }
+  ],
+  "browser_interaction_executed": false
+}

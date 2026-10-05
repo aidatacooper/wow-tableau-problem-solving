@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "generated_from": "iterations/*/case.yaml",
-  "active_case_count": 87,
+  "active_case_count": 88,
   "legacy_case_ids": {
     "donna-2019-07-18-63877b35d19a": "wow-2019-ww29-high-orders",
     "donna-2019-07-25-59a0a144b25b": "wow-2019-ww30-navigation-kpi",
@@ -5170,6 +5170,65 @@
         "Both dashboard images ignore the requested Borough override and retain the default layout/title. Only worksheet CSV proves the 542-cell filtered data/calculation state; filtered dashboard visual response is not claimed."
       ],
       "metadata": "iterations/2021-02-25-ww08-brush-filter-extension/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.27.1"
+    },
+    {
+      "case_id": "wow-2021-ww09-hide-chart-map-layers",
+      "legacy_case_ids": {},
+      "iteration_id": "2021-03-04-ww09-hide-chart-map-layers",
+      "article_date": "2021-03-04",
+      "challenge_year": 2021,
+      "challenge_week": 9,
+      "challenge_date": "2021-03-02",
+      "date_evidence": {
+        "article_date": "HTML published time in evidence/article-date.json.",
+        "challenge": "Explicit challenge_year; week declared in iteration_id",
+        "challenge_date": "Official WordPress REST publication date in evidence/official-challenge-date.json."
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2021w09tab/"
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2021/03/04/can-you-hide-a-chart-in-map-layers/",
+          "path": null,
+          "sha256": "a35ea60cca1aecee0c2fbf10af15618b794afbc8c6865794a326882ff49d4fa5"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/workbooks/2021_03_03_WW09_Map_Layers_Drill_Down.twb",
+          "filename": "author.twbx",
+          "sha256": "9f8c83777dc802f27579ddbfb75ca3e51861450b6010e7f21b92b7b1ba71778a"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "pass",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "evidence/article-date.json",
+        "evidence/author-export-contract.json",
+        "evidence/build-provenance.json",
+        "evidence/cloud-verification.json",
+        "evidence/functional-verification.json",
+        "evidence/official-challenge-date.json",
+        "evidence/sdk-baseline.json",
+        "evidence/sdk-final-validation.json",
+        "evidence/visual-review.md",
+        "evidence/zero-build-verification.json",
+        "inputs/source-lock.json"
+      ],
+      "notes": [
+        "Cloud REST parameter/data states plus artifact contracts; no browser click or clearing execution claimed."
+      ],
+      "metadata": "iterations/2021-03-04-ww09-hide-chart-map-layers/case.yaml",
       "metadata_contract": "1.1.0",
       "tested_sdk_version": "0.27.1"
     },

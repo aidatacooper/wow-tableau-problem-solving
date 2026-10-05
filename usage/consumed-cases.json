@@ -996,6 +996,17 @@
       "reason": "Derived from case metadata; consumed means claimed, not verified completed."
     },
     {
+      "case_id": "wow-2021-ww09-hide-chart-map-layers",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2021-03-04-ww09-hide-chart-map-layers",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
       "case_id": "wow-2026-ww04-dynamic-moving-average",
       "legacy_case_ids": {
         "donna-2026-02-02-5ebab8421caf": "wow-2026-ww04-dynamic-moving-average"

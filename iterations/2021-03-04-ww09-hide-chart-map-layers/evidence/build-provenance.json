@@ -1,0 +1,33 @@
+{
+  "case_id": "wow-2021-ww09-hide-chart-map-layers",
+  "sdk_commit": "6f220236b58dc8a5de08ce9e2d298f5c085a95ec",
+  "sdk_version": "0.27.1",
+  "builder_sha256": "b3a0acb26960b988b5aac8ef399ac4d61dff42248acadf00f43eed98263bc3b8",
+  "builder_hash_scope": "UTF-8 source text with universal newlines normalized to LF",
+  "public_sdk_calls": [
+    "add_calculated_field",
+    "add_dashboard",
+    "add_dashboard_action",
+    "add_parameter",
+    "add_worksheet",
+    "configure_chart",
+    "configure_custom_label",
+    "configure_custom_tooltip",
+    "configure_worksheet_style",
+    "save",
+    "set_datasource_color_palette",
+    "set_field_format",
+    "set_field_geographic_role",
+    "set_hyper_connection",
+    "set_window_state",
+    "set_worksheet_title"
+  ],
+  "result": "passed",
+  "initial_workbooks_available": 0,
+  "copied_cloud_evidence": false,
+  "source_workbook_used_by_builder": false,
+  "public_sdk_only": true,
+  "scope": "Copied only builder/verifier, metadata and locked extracted inputs. Built from TWBEditor empty, then independent full-domain raw-data/native-artifact verification. Cloud acceptance belongs to the separately frozen official artifact.",
+  "isolated_artifact_sha256": "7a1cb2abdcabae1e5b29dee31b7d60c504d79d299d317b98d323a23e8bad11f4",
+  "artifact_sha256": "fb41334e7d427244e7cfc0a64f61979fd6355adb1c5021f27f282e71ff337529"
+}

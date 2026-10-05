@@ -1,0 +1,16 @@
+{
+  "challenge_year": 2021,
+  "challenge_week": 9,
+  "article_date": "2021-03-04",
+  "challenge_date": "2021-03-02",
+  "official_rest_url": "https://www.workout-wednesday.com/wp-json/wp/v2/posts/4638",
+  "response_excerpt": {
+    "id": 4638,
+    "date": "2021-03-02T05:30:00",
+    "link": "https://www.workout-wednesday.com/2021w09tab/",
+    "title": {
+      "rendered": "2021 Week 9: Can You Hide A Chart in the Map Layers?"
+    }
+  },
+  "scope": "Official WordPress publication date, without inference from article/workbook names."
+}

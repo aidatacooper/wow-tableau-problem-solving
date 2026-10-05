@@ -1,0 +1,273 @@
+{
+  "case_id": "wow-2021-ww09-hide-chart-map-layers",
+  "captured_at": "2026-10-05T03:38:19.717004+00:00",
+  "source_hashes": {
+    "author": "6ec99dd1efecc51715b2251d83c70d282af8a2f6038e03a6718ef5c62346e868",
+    "replica": "fb41334e7d427244e7cfc0a64f61979fd6355adb1c5021f27f282e71ff337529"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "cfc7a24c-58f2-4a31-8078-de735a12fb12",
+      "name": "cwtwb-review-wow-2021-ww09-hide-chart-map-layers-author-6ec99dd1efec",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2939740",
+      "views": [
+        {
+          "name": "2021_03_03_WW09_Map_Layers_Drill_Down",
+          "id": "e59ee0a9-d706-4545-a882-1b1e35d3c63c"
+        },
+        {
+          "name": "Map",
+          "id": "0cfba8b5-45b8-4067-a447-92c50dc3ff46"
+        }
+      ]
+    },
+    "replica": {
+      "id": "93f7aa8c-efb0-42ef-bc3e-638d1ee421c6",
+      "name": "cwtwb-review-wow-2021-ww09-hide-chart-map-layers-replica-fb41334e7d42",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2939772",
+      "views": [
+        {
+          "name": "Map",
+          "id": "2ed6fd87-6d73-472e-bf2f-bcd1cf80665a"
+        },
+        {
+          "name": "2021_03_03_WW09_Map_Layers_Drill_Down",
+          "id": "f13c9d97-6a12-4136-bce6-14d28292caca"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "e59ee0a9-d706-4545-a882-1b1e35d3c63c",
+          "name": "2021_03_03_WW09_Map_Layers_Drill_Down",
+          "path": "outputs/cloud-author.png",
+          "sha256": "836973a78a80e83764c8a138bad4f302d44e46696a09a425d7eafa3e04d2b1f0",
+          "size": [
+            2000,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "f13c9d97-6a12-4136-bce6-14d28292caca",
+          "name": "2021_03_03_WW09_Map_Layers_Drill_Down",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "cacbf15fa16f1cf384affbb8dfb88e4758b0cae2f1d1544d4a8ddc20814c7ed4",
+          "size": [
+            2000,
+            1600
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Map",
+          "view_id": "0cfba8b5-45b8-4067-a447-92c50dc3ff46",
+          "scope": "Complete conditional geographic map layer worksheet export with population tooltip values and native pie measures, including actual null-geography summary rows.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-map.csv",
+          "sha256": "7d171f2816400e964930032686d23cbe080f6a87874ad693f439fe1a99004d3f",
+          "bytes": 14459
+        },
+        {
+          "role": "replica",
+          "view": "Map",
+          "view_id": "2ed6fd87-6d73-472e-bf2f-bcd1cf80665a",
+          "scope": "Complete conditional geographic map layer worksheet export with population tooltip values and native pie measures, including actual null-geography summary rows.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-map.csv",
+          "sha256": "d27c9d1ad6627fe8a3a94bd354b880d5fdaf9fb17a823e77ef243a98c8b14f3c",
+          "bytes": 13512
+        }
+      ]
+    },
+    {
+      "name": "china",
+      "parameters": {
+        "pSelectedCountry": "China"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "e59ee0a9-d706-4545-a882-1b1e35d3c63c",
+          "name": "2021_03_03_WW09_Map_Layers_Drill_Down",
+          "path": "outputs/cloud-author-china.png",
+          "sha256": "5f38dc45bdf46d65b2c8ea0e318c5c0974afdddebfee9d176becdef62731c6b8",
+          "size": [
+            2000,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "f13c9d97-6a12-4136-bce6-14d28292caca",
+          "name": "2021_03_03_WW09_Map_Layers_Drill_Down",
+          "path": "outputs/cloud-replica-china.png",
+          "sha256": "2dc88c7085160f5a2524c1f4399b0b94d98816a16fd5c67b576f6751b446d540",
+          "size": [
+            2000,
+            1600
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Map",
+          "view_id": "0cfba8b5-45b8-4067-a447-92c50dc3ff46",
+          "scope": "Complete conditional geographic map layer worksheet export with population tooltip values and native pie measures, including actual null-geography summary rows.",
+          "parameters": {
+            "pSelectedCountry": "China"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-map-china.csv",
+          "sha256": "e9f5ece66fe933ca9fa0568233a8446d13dd389b46b8d47d0a5a3ad9adedff8a",
+          "bytes": 1193
+        },
+        {
+          "role": "replica",
+          "view": "Map",
+          "view_id": "2ed6fd87-6d73-472e-bf2f-bcd1cf80665a",
+          "scope": "Complete conditional geographic map layer worksheet export with population tooltip values and native pie measures, including actual null-geography summary rows.",
+          "parameters": {
+            "pSelectedCountry": "China"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-map-china.csv",
+          "sha256": "bcc57d0eb5e3e192ecc51bef081489d6d23e908cb5f820c0cf01949d34d9c06f",
+          "bytes": 1201
+        }
+      ]
+    },
+    {
+      "name": "russia",
+      "parameters": {
+        "pSelectedCountry": "Russia"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "e59ee0a9-d706-4545-a882-1b1e35d3c63c",
+          "name": "2021_03_03_WW09_Map_Layers_Drill_Down",
+          "path": "outputs/cloud-author-russia.png",
+          "sha256": "72924026e7d44f4ccd79b7dd831061a4ff2714d51ff38e248ff4023b2777fe62",
+          "size": [
+            2000,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "f13c9d97-6a12-4136-bce6-14d28292caca",
+          "name": "2021_03_03_WW09_Map_Layers_Drill_Down",
+          "path": "outputs/cloud-replica-russia.png",
+          "sha256": "8e7a023a7cc238a1599145f26f6ca42644cd47fc936ef9d2bc44ee17be4708f4",
+          "size": [
+            2000,
+            1600
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Map",
+          "view_id": "0cfba8b5-45b8-4067-a447-92c50dc3ff46",
+          "scope": "Complete conditional geographic map layer worksheet export with population tooltip values and native pie measures, including actual null-geography summary rows.",
+          "parameters": {
+            "pSelectedCountry": "Russia"
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-map-russia.csv",
+          "sha256": "b02836e38292f29a450dca7dac5690b5ae90c015a640e4847390c6e1ff440530",
+          "bytes": 1185
+        },
+        {
+          "role": "replica",
+          "view": "Map",
+          "view_id": "2ed6fd87-6d73-472e-bf2f-bcd1cf80665a",
+          "scope": "Complete conditional geographic map layer worksheet export with population tooltip values and native pie measures, including actual null-geography summary rows.",
+          "parameters": {
+            "pSelectedCountry": "Russia"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-map-russia.csv",
+          "sha256": "31bec4f7a945f5d5c827604bcdee0a31f5e4851ee4e3368c5584e9eb99fc646d",
+          "bytes": 1201
+        }
+      ]
+    },
+    {
+      "name": "reset",
+      "parameters": {
+        "pSelectedCountry": ""
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "e59ee0a9-d706-4545-a882-1b1e35d3c63c",
+          "name": "2021_03_03_WW09_Map_Layers_Drill_Down",
+          "path": "outputs/cloud-author-reset.png",
+          "sha256": "836973a78a80e83764c8a138bad4f302d44e46696a09a425d7eafa3e04d2b1f0",
+          "size": [
+            2000,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "f13c9d97-6a12-4136-bce6-14d28292caca",
+          "name": "2021_03_03_WW09_Map_Layers_Drill_Down",
+          "path": "outputs/cloud-replica-reset.png",
+          "sha256": "cacbf15fa16f1cf384affbb8dfb88e4758b0cae2f1d1544d4a8ddc20814c7ed4",
+          "size": [
+            2000,
+            1600
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Map",
+          "view_id": "0cfba8b5-45b8-4067-a447-92c50dc3ff46",
+          "scope": "Complete conditional geographic map layer worksheet export with population tooltip values and native pie measures, including actual null-geography summary rows.",
+          "parameters": {
+            "pSelectedCountry": ""
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-map-reset.csv",
+          "sha256": "72f84a820a1336c2fa4b9cbaaaf6ef020ccc0a4dd3690bc83305b7d2d9954aac",
+          "bytes": 14459
+        },
+        {
+          "role": "replica",
+          "view": "Map",
+          "view_id": "2ed6fd87-6d73-472e-bf2f-bcd1cf80665a",
+          "scope": "Complete conditional geographic map layer worksheet export with population tooltip values and native pie measures, including actual null-geography summary rows.",
+          "parameters": {
+            "pSelectedCountry": ""
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-map-reset.csv",
+          "sha256": "ba6b3a06aec4b589db4191457ebd60d596b6a3115a512646e9773221b563ae72",
+          "bytes": 13512
+        }
+      ]
+    }
+  ],
+  "status": "verified",
+  "independent_review": {
+    "visual_status": "acceptable_delta",
+    "visual_evidence": "evidence/visual-review.md",
+    "functional_evidence": "evidence/functional-verification.json",
+    "scope": "Declared REST worksheet exports and artifact contracts; no browser events executed."
+  }
+}

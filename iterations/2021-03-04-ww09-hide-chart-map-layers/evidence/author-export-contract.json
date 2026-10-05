@@ -1,0 +1,12 @@
+{
+  "original_sha256": "9f8c83777dc802f27579ddbfb75ca3e51861450b6010e7f21b92b7b1ba71778a",
+  "prepared_sha256": "6ec99dd1efecc51715b2251d83c70d282af8a2f6038e03a6718ef5c62346e868",
+  "changes": [
+    {
+      "worksheet": "Map",
+      "hidden_before": "true",
+      "hidden_after": "false"
+    }
+  ],
+  "scope": "Only worksheet window visibility changes for independent REST CSV export; original data, calculations, parameters, actions and layout retained."
+}
