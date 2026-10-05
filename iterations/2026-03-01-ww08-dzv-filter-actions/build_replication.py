@@ -162,7 +162,7 @@ def build():
             "size": "14.55",
             "mark-labels-show": "true",
         },
-        pane_datalabel_style={"font-size": "14", "font-color": "#f3f9f8"},
+        pane_datalabel_style={"font-size": "14", "color": "#f3f9f8"},
     )
     panel = {
         "type": "container",
@@ -319,7 +319,68 @@ def build():
     out = HERE / "outputs/replicated-workbook.twbx"
     out.parent.mkdir(exist_ok=True)
     e.save(out, validate=False)
+    _sanitize_twbx_for_desktop(out)
     return out
+
+
+def _sanitize_twbx_for_desktop(twbx_path: Path) -> None:
+    """Fix XML schema inconsistencies produced by SDK to ensure Tableau Desktop opens cleanly."""
+    import io
+    import zipfile
+    from lxml import etree
+
+    with zipfile.ZipFile(twbx_path, "r") as zin:
+        twb_name = next(n for n in zin.namelist() if n.endswith(".twb"))
+        root = etree.fromstring(zin.read(twb_name))
+
+        # 1. Action elements order: <action> must precede <edit-parameter-action>
+        actions_el = root.find("actions")
+        if actions_el is not None:
+            legacy_actions = actions_el.findall("action")
+            param_actions = actions_el.findall("edit-parameter-action")
+            other = [c for c in list(actions_el) if c.tag not in ("action", "edit-parameter-action")]
+            for c in list(actions_el):
+                actions_el.remove(c)
+            for a in legacy_actions:
+                actions_el.append(a)
+            for o in other:
+                actions_el.append(o)
+            for p in param_actions:
+                actions_el.append(p)
+
+        # 2. Remove illegal <manual-sort> elements from <view>
+        for ms in root.findall(".//manual-sort"):
+            parent = ms.getparent()
+            if parent is not None:
+                parent.remove(ms)
+
+        # 3. Fix child order inside <pane>: <encodings> must come before <customized-label>
+        for pane in root.findall(".//pane"):
+            cl = pane.find("customized-label")
+            enc = pane.find("encodings")
+            if cl is not None and enc is not None:
+                cl_idx = list(pane).index(cl)
+                enc_idx = list(pane).index(enc)
+                if cl_idx < enc_idx:
+                    pane.remove(enc)
+                    cl.addprevious(enc)
+
+        # 4. Fix font-color attribute to valid schema attribute 'color'
+        for fmt in root.findall(".//format"):
+            if fmt.get("attr") == "font-color":
+                fmt.set("attr", "color")
+
+        fixed_twb = etree.tostring(root, xml_declaration=True, encoding="utf-8")
+
+        buf = io.BytesIO()
+        with zipfile.ZipFile(buf, "w", zipfile.ZIP_DEFLATED) as zout:
+            for item in zin.infolist():
+                if item.filename == twb_name:
+                    zout.writestr(item.filename, fixed_twb)
+                else:
+                    zout.writestr(item.filename, zin.read(item.filename))
+
+    twbx_path.write_bytes(buf.getvalue())
 
 
 if __name__ == "__main__":
