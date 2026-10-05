@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-05",
+  "source_workbook": {
+    "filename": "2023_11_29_WW48_Bars_and_Candlesticks.twbx",
+    "bytes": 136658,
+    "sha256": "4c3a1364ff864748870748583e2bd9035dcccdc5ffc7d2fc152d8976a865a896",
+    "url": "https://public.tableau.com/views/2023_11_29_WW48_Bars_and_Candlesticks/2023_11_29_WW48_Bars_and_Candlesticks"
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Datasources/Orders (Sample - Superstore).hyper",
+      "file": "inputs/Orders (Sample - Superstore).hyper",
+      "bytes": 393216,
+      "sha256": "f864a7d02d8eba0c6ebf9b376f42d4aade8fcc1f368eb8ba2a3ab938b2e3815e"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

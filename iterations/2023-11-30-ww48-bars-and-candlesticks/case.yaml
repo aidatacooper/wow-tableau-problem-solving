@@ -1,0 +1,74 @@
+schema_version: 1.1.0
+case_id: wow-2023-ww48-bars-and-candlesticks
+iteration_id: 2023-11-30-ww48-bars-and-candlesticks
+post: https://donnacoles.home.blog/2023/11/30/can-you-add-candlesticks-to-bar-charts/
+legacy_case_ids: {}
+article_date: '2023-11-30'
+challenge_year: 2023
+challenge_week: 48
+challenge_date: '2023-11-28'
+date_evidence:
+  article_date: HTML published time element in evidence/article-date.json.
+  challenge_date: Official WordPress REST date field in evidence/official-challenge-date.json.
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2023w48tab/
+    wordpress_post_id: 14596
+  article:
+    url: https://donnacoles.home.blog/2023/11/30/can-you-add-candlesticks-to-bar-charts/
+    path: null
+    sha256: e268fba3a6c3e17fe98fc5ae6b0b6e915ca336f4363ed6857f2bc1cc8200cdc5
+  workbook:
+    url: https://public.tableau.com/views/2023_11_29_WW48_Bars_and_Candlesticks/2023_11_29_WW48_Bars_and_Candlesticks
+    filename: 2023_11_29_WW48_Bars_and_Candlesticks.twbx
+    sha256: 4c3a1364ff864748870748583e2bd9035dcccdc5ffc7d2fc152d8976a865a896
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- evidence/article-date.json
+- evidence/build-provenance.json
+- evidence/functional-verification.json
+- evidence/official-challenge-date.json
+- evidence/sdk-baseline.json
+- evidence/sdk-final-validation.json
+- evidence/visual-review.md
+- evidence/zero-build-verification.json
+- inputs/source-lock.json
+notes:
+- Generated index views must be refreshed after the workbook is built and verified.
+cwtwb:
+  tested_version: 0.27.1
+  tested_commit: 47718436ae9bc7384d4d275a918c8ba126ae9c58
+  runs:
+  - version: 0.27.1
+    commit: 47718436ae9bc7384d4d275a918c8ba126ae9c58
+    result: pass
+    evidence: evidence/build-provenance.json
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: pass
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/Orders (Sample - Superstore).hyper
+acceptance:
+- id: hyper-yearly-sub-category-metrics
+  description: Verify Hyper data ground truth for all 17 sub-categories across 4 calendar years.
+  mode: automated
+- id: dual-axis-bar-and-gantt-structure
+  description: Verify dual-axis chart structure with Bar mark on primary pane and GanttBar candlestick delta on secondary pane.
+  mode: automated
+- id: parameter-driven-measure-and-year-definitions
+  description: Verify parameters pSelectedMeasure and pSelectedYear and dynamic measure calculation bindings.
+  mode: automated
+remaining_work: []
+blocker: null
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []
