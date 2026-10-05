@@ -1,0 +1,186 @@
+{
+  "artifact_sha256": "97bddeb435875451005162a28dad15f29b30984dbb075c23acd446dbd66542d7",
+  "scope": "Independent static XML checks, locked-data oracle and captured default-state Cloud BANs; no browser interaction executed.",
+  "checks": [
+    {
+      "check": "stage-1-use-all-set",
+      "status": "PASS",
+      "evidence": "count=1; <group xmlns:user=\"http://www.tableausoftware.com/xml/user\" caption=\"1st Products\" name=\"[1st Products]\" name-style=\"unqualified\" user:ui-builder=\"filter-group\"><groupfilter function=\"level-members\" l"
+    },
+    {
+      "check": "stage-1-boolean-fixed-flag",
+      "status": "PASS",
+      "evidence": "{FIXED [Order ID]: MAX([1st Products])}"
+    },
+    {
+      "check": "stage-2-use-all-set",
+      "status": "PASS",
+      "evidence": "count=1; <group xmlns:user=\"http://www.tableausoftware.com/xml/user\" caption=\"2nd Product\" name=\"[2nd Product]\" name-style=\"unqualified\" user:ui-builder=\"filter-group\"><groupfilter function=\"level-members\" lev"
+    },
+    {
+      "check": "stage-2-boolean-fixed-flag",
+      "status": "PASS",
+      "evidence": "{FIXED [Order ID]: MAX([2nd Product])}"
+    },
+    {
+      "check": "stage-1-set-control",
+      "status": "PASS",
+      "evidence": "[{'id': '11', 'x': '64417', 'y': '889', 'w': '18500', 'h': '7112', 'type-v2': 'setMembership', 'show-apply': 'true', 'name': 'Bars', 'param': '[federated.0ahyg8e1xelf3914bag3r0yukuro].[1st Products]', 'mode': 'checkdropdown', 'custom-title': 'true'}]"
+    },
+    {
+      "check": "stage-2-set-control",
+      "status": "PASS",
+      "evidence": "[{'id': '12', 'x': '82917', 'y': '889', 'w': '16416', 'h': '7112', 'type-v2': 'setMembership', 'name': 'Bars', 'param': '[federated.0ahyg8e1xelf3914bag3r0yukuro].[2nd Product]', 'mode': 'dropdown', 'custom-title': 'true'}]"
+    },
+    {
+      "check": "Bars-stage-1-filter",
+      "status": "PASS",
+      "evidence": "<filter xmlns:user=\"http://www.tableausoftware.com/xml/user\" context=\"true\" class=\"categorical\" column=\"[federated.0ahyg8e1xelf3914bag3r0yukuro].[none:Calculation_0C208BF3F7AB49859BCBCD2F16EB0D34:nk]\"><groupfilter function=\"member\" level=\"[none:Calculation_0C208BF3F7AB49859BCBCD2F16EB0D34:nk]\" member=\"true\" user:ui-domain=\"relevant\" user:ui-enumeration=\"inclusive\" user:ui-marker=\"enumerate\"/></filter>"
+    },
+    {
+      "check": "Bars-stage-2-filter",
+      "status": "PASS",
+      "evidence": "<filter xmlns:user=\"http://www.tableausoftware.com/xml/user\" class=\"categorical\" column=\"[federated.0ahyg8e1xelf3914bag3r0yukuro].[none:Calculation_6494F9C0FE694FADBCC763993042F3D3:nk]\"><groupfilter function=\"member\" level=\"[none:Calculation_6494F9C0FE694FADBCC763993042F3D3:nk]\" member=\"true\" user:ui-domain=\"relevant\" user:ui-enumeration=\"inclusive\" user:ui-marker=\"enumerate\"/></filter>"
+    },
+    {
+      "check": "Bars-preserves-all-order-lines",
+      "status": "PASS",
+      "evidence": "filters=['[federated.0ahyg8e1xelf3914bag3r0yukuro].[none:Calculation_0C208BF3F7AB49859BCBCD2F16EB0D34:nk]', '[federated.0ahyg8e1xelf3914bag3r0yukuro].[none:Calculation_6494F9C0FE694FADBCC763993042F3D3:nk]']"
+    },
+    {
+      "check": "Order Detail-stage-1-filter",
+      "status": "PASS",
+      "evidence": "<filter xmlns:user=\"http://www.tableausoftware.com/xml/user\" context=\"true\" class=\"categorical\" column=\"[federated.0ahyg8e1xelf3914bag3r0yukuro].[none:Calculation_0C208BF3F7AB49859BCBCD2F16EB0D34:nk]\"><groupfilter function=\"member\" level=\"[none:Calculation_0C208BF3F7AB49859BCBCD2F16EB0D34:nk]\" member=\"true\" user:ui-domain=\"relevant\" user:ui-enumeration=\"inclusive\" user:ui-marker=\"enumerate\"/></filter>"
+    },
+    {
+      "check": "Order Detail-stage-2-filter",
+      "status": "PASS",
+      "evidence": "<filter xmlns:user=\"http://www.tableausoftware.com/xml/user\" class=\"categorical\" column=\"[federated.0ahyg8e1xelf3914bag3r0yukuro].[none:Calculation_6494F9C0FE694FADBCC763993042F3D3:nk]\"><groupfilter function=\"member\" level=\"[none:Calculation_6494F9C0FE694FADBCC763993042F3D3:nk]\" member=\"true\" user:ui-domain=\"relevant\" user:ui-enumeration=\"inclusive\" user:ui-marker=\"enumerate\"/></filter>"
+    },
+    {
+      "check": "Order Detail-preserves-all-order-lines",
+      "status": "PASS",
+      "evidence": "filters=['[federated.0ahyg8e1xelf3914bag3r0yukuro].[Tooltip (Customer Name,Order ID)]', '[federated.0ahyg8e1xelf3914bag3r0yukuro].[none:Calculation_0C208BF3F7AB49859BCBCD2F16EB0D34:nk]', '[federated.0ahyg8e1xelf3914bag3r0yukuro].[none:Calculation_6494F9C0FE694FADBCC763993042F3D3:nk]', '[federated.0ahyg8e1xelf3914bag3r0yukuro].[:Measure Names]']"
+    },
+    {
+      "check": "BANs-stage-1-filter",
+      "status": "PASS",
+      "evidence": "<filter xmlns:user=\"http://www.tableausoftware.com/xml/user\" class=\"categorical\" column=\"[federated.0ahyg8e1xelf3914bag3r0yukuro].[none:Calculation_0C208BF3F7AB49859BCBCD2F16EB0D34:nk]\"><groupfilter function=\"member\" level=\"[none:Calculation_0C208BF3F7AB49859BCBCD2F16EB0D34:nk]\" member=\"true\" user:ui-domain=\"relevant\" user:ui-enumeration=\"inclusive\" user:ui-marker=\"enumerate\"/></filter>"
+    },
+    {
+      "check": "BANs-stage-2-filter",
+      "status": "PASS",
+      "evidence": "<filter xmlns:user=\"http://www.tableausoftware.com/xml/user\" class=\"categorical\" column=\"[federated.0ahyg8e1xelf3914bag3r0yukuro].[none:Calculation_6494F9C0FE694FADBCC763993042F3D3:nk]\"><groupfilter function=\"member\" level=\"[none:Calculation_6494F9C0FE694FADBCC763993042F3D3:nk]\" member=\"true\" user:ui-domain=\"relevant\" user:ui-enumeration=\"inclusive\" user:ui-marker=\"enumerate\"/></filter>"
+    },
+    {
+      "check": "BANs-preserves-all-order-lines",
+      "status": "PASS",
+      "evidence": "filters=['[federated.0ahyg8e1xelf3914bag3r0yukuro].[none:Calculation_0C208BF3F7AB49859BCBCD2F16EB0D34:nk]', '[federated.0ahyg8e1xelf3914bag3r0yukuro].[none:Calculation_6494F9C0FE694FADBCC763993042F3D3:nk]', '[federated.0ahyg8e1xelf3914bag3r0yukuro].[:Measure Names]']"
+    },
+    {
+      "check": "Bars-order-grain-and-tooltip-sums",
+      "status": "PASS",
+      "evidence": "rows=([federated.0ahyg8e1xelf3914bag3r0yukuro].[none:Order ID:nk] / [federated.0ahyg8e1xelf3914bag3r0yukuro].[none:Customer Name:nk]); tooltip=<[federated.0ahyg8e1xelf3914bag3r0yukuro].[none:Order ID:nk]> | <[federated.0ahyg8e1xelf3914bag3r0yukuro].[none:Customer Name:nk]>\nSales: <[federated.0ahyg8e1xelf3914bag3r0yukuro].[sum:Sales:qk]>\nQuantity: <[federated.0ahyg8e1xelf3914bag3r0yukuro].[sum:Quantity:qk]>\n\nORDER DETAILS\n<Sheet name=\"Order Detail\" maxwidth=\"300\" maxheight=\"300\" filter=\"<[federated.0ahyg8e1xelf3914bag3r0yukuro].[none:Customer Name:nk]>,<[federated.0ahyg8e1xelf3914bag3r0yukuro].[none:Order ID:nk]>\">"
+    },
+    {
+      "check": "Bars-numeric-measure-axis",
+      "status": "PASS",
+      "evidence": "rows/cols=([federated.0ahyg8e1xelf3914bag3r0yukuro].[none:Order ID:nk] / [federated.0ahyg8e1xelf3914bag3r0yukuro].[none:Customer Name:nk]) ([federated.0ahyg8e1xelf3914bag3r0yukuro].[sum:Sales:qk] * [federated.0ahyg8e1xelf3914bag3r0yukuro].[sum:Quantity:qk])"
+    },
+    {
+      "check": "# ORDERS",
+      "status": "PASS",
+      "evidence": "COUNTD([Order ID])"
+    },
+    {
+      "check": "AVG ORDER AMOUNT",
+      "status": "PASS",
+      "evidence": "SUM([Sales]) / [Calculation_2A611CA0D5F74B69AD6EAE211204E4DA]"
+    },
+    {
+      "check": "AVG ORDER QUANTITY",
+      "status": "PASS",
+      "evidence": "SUM([Quantity])/[Calculation_2A611CA0D5F74B69AD6EAE211204E4DA]"
+    },
+    {
+      "check": "Total Orders-global-denominator",
+      "status": "PASS",
+      "evidence": "formula={FIXED:COUNTD([Order ID])}; locked total=5009"
+    },
+    {
+      "check": "percentage-single-global-denominator",
+      "status": "PASS",
+      "evidence": "[Calculation_2A611CA0D5F74B69AD6EAE211204E4DA]/SUM([Calculation_8662C89568CE4269A0AE30E25C6C8E32])"
+    },
+    {
+      "check": "BANs-four-visible-metrics",
+      "status": "PASS",
+      "evidence": "['\"[federated.0ahyg8e1xelf3914bag3r0yukuro].[usr:Calculation_2A611CA0D5F74B69AD6EAE211204E4DA:qk]\"', '\"[federated.0ahyg8e1xelf3914bag3r0yukuro].[usr:Calculation_12C1A8F30CEC42A7893AB003816096DF:qk]\"', '\"[federated.0ahyg8e1xelf3914bag3r0yukuro].[usr:Calculation_67879F1F0EF34BF08AE89F317008373E:qk]\"', '\"[federated.0ahyg8e1xelf3914bag3r0yukuro].[usr:Calculation_C6270175966A44B39E2E0D824E8CA8AD:qk]\"']"
+    },
+    {
+      "check": "Bars-viz-in-tooltip",
+      "status": "PASS",
+      "evidence": "<Sheet name=\"Order Detail\" maxwidth=\"300\" maxheight=\"300\" filter=\"<[federated.0ahyg8e1xelf3914bag3r0yukuro].[none:Customer Name:nk]>,<[federated.0ahyg8e1xelf3914bag3r0yukuro].[none:Order ID:nk]>\">"
+    },
+    {
+      "check": "Order Detail-product-grain",
+      "status": "PASS",
+      "evidence": "([federated.0ahyg8e1xelf3914bag3r0yukuro].[none:Customer Name:nk] / ([federated.0ahyg8e1xelf3914bag3r0yukuro].[none:Order ID:nk] / [federated.0ahyg8e1xelf3914bag3r0yukuro].[none:Product Name:nk]))"
+    },
+    {
+      "check": "Order Detail-hidden-dashboard-viewpoint",
+      "status": "PASS",
+      "evidence": "hidden=true; manifest=present"
+    },
+    {
+      "check": "cloud-default-state-bans",
+      "status": "PASS",
+      "evidence": "{\"path\": \"outputs/cloud-replica-bans.csv\", \"sha256\": \"9f5b088fb2427fcc71f53c1521cfdc3cb0cad2dbe99e0554f25d6bee6c266a39\", \"observed_raw_csv\": {\"# ORDERS\": 5009.0, \"% OF TOTAL ORDERS\": 1.0, \"AVG ORDER AMOUNT\": 458.614665662, \"AVG ORDER QUANTITY\": 7.560990218}, \"expected_from_locked_data\": {\"# ORDERS\": 5009.0, \"% OF TOTAL ORDERS\": 1.0, \"AVG ORDER AMOUNT\": 458.6146656618088, \"AVG ORDER QUANTITY\": 7.560990217608305}, \"display_formatted_png_values\": {\"# ORDERS\": \"5,009\", \"% OF TOTAL ORDERS\": \"100.0%\", \"AVG ORDER AMOUNT\": \"$459\", \"AVG ORDER QUANTITY\": \"8\"}, \"consistent\": true}"
+    }
+  ],
+  "oracle_pair_counts": [
+    {
+      "product1": "Acco D-Ring Binder w/DublLock",
+      "product2": "I Need's 3d Hello Kitty Hybrid Silicone Case Cover for HTC One X 4g with 3d Hello Kitty Stylus Pen Green/pink",
+      "qualifying_order_count": 2
+    },
+    {
+      "product1": "Acco Hanging Data Binders",
+      "product2": "Newell 315",
+      "qualifying_order_count": 2
+    },
+    {
+      "product1": "Acco Hot Clips Clips to Go",
+      "product2": "Flat Face Poster Frame",
+      "qualifying_order_count": 2
+    },
+    {
+      "product1": "\"While you Were Out\" Message Book, One Form per Page",
+      "product2": "#10 Gummed Flap White Envelopes, 100/Box",
+      "qualifying_order_count": 0
+    }
+  ],
+  "cloud_default_state": {
+    "path": "outputs/cloud-replica-bans.csv",
+    "sha256": "9f5b088fb2427fcc71f53c1521cfdc3cb0cad2dbe99e0554f25d6bee6c266a39",
+    "observed_raw_csv": {
+      "# ORDERS": 5009.0,
+      "% OF TOTAL ORDERS": 1.0,
+      "AVG ORDER AMOUNT": 458.614665662,
+      "AVG ORDER QUANTITY": 7.560990218
+    },
+    "expected_from_locked_data": {
+      "# ORDERS": 5009.0,
+      "% OF TOTAL ORDERS": 1.0,
+      "AVG ORDER AMOUNT": 458.6146656618088,
+      "AVG ORDER QUANTITY": 7.560990217608305
+    },
+    "display_formatted_png_values": {
+      "# ORDERS": "5,009",
+      "% OF TOTAL ORDERS": "100.0%",
+      "AVG ORDER AMOUNT": "$459",
+      "AVG ORDER QUANTITY": "8"
+    },
+    "consistent": true
+  }
+}

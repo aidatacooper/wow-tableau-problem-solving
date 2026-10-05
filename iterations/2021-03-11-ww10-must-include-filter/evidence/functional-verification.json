@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "scope": "Cloud REST execution of a pre-populated two-stage state; proves the set intersection and order-level aggregation semantics.",
+  "browser_interaction_executed": false,
+  "state": {
+    "1st Products": [
+      "Acco D-Ring Binder w/DublLock"
+    ],
+    "2nd Product": [
+      "I Need's 3d Hello Kitty Hybrid Silicone Case Cover for HTC One X 4g with 3d Hello Kitty Stylus Pen Green/pink"
+    ],
+    "description": "Both sets pre-populated with one product each, published and exported through the REST API."
+  },
+  "observed": {
+    "Bars_order_ids": [
+      "CA-2017-129147",
+      "US-2017-103905"
+    ],
+    "BANs": {
+      "# ORDERS": 2,
+      "% OF TOTAL ORDERS": 0.000399281,
+      "AVG ORDER AMOUNT": 338.821,
+      "AVG ORDER QUANTITY": 13.5
+    }
+  },
+  "expected_from_oracle": {
+    "qualifying_order_count": 2,
+    "order_ids": [
+      "CA-2017-129147",
+      "US-2017-103905"
+    ],
+    "bans": {
+      "#ORDERS": 2,
+      "Total Orders": 5009,
+      "% OF TOTAL ORDERS": "0.0003992812936713914953084447993611499301258",
+      "AVG ORDER AMOUNT": "338.820999999999948",
+      "AVG ORDER QUANTITY": "13.5"
+    },
+    "note": "Order-level totals include every line item of each qualifying order, including lines whose product is neither selected product."
+  },
+  "order_level_totals_evidence": [
+    {
+      "order_id": "CA-2017-129147",
+      "sales": "609.4379999999999",
+      "quantity": 16,
+      "line_count": 3,
+      "other_product_line_count": 1
+    },
+    {
+      "order_id": "US-2017-103905",
+      "sales": "68.203999999999996",
+      "quantity": 11,
+      "line_count": 2,
+      "other_product_line_count": 0
+    }
+  ],
+  "result": "match"
+}

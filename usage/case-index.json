@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "generated_from": "iterations/*/case.yaml",
-  "active_case_count": 88,
+  "active_case_count": 89,
   "legacy_case_ids": {
     "donna-2019-07-18-63877b35d19a": "wow-2019-ww29-high-orders",
     "donna-2019-07-25-59a0a144b25b": "wow-2019-ww30-navigation-kpi",
@@ -5229,6 +5229,63 @@
         "Cloud REST parameter/data states plus artifact contracts; no browser click or clearing execution claimed."
       ],
       "metadata": "iterations/2021-03-04-ww09-hide-chart-map-layers/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.27.1"
+    },
+    {
+      "case_id": "wow-2021-ww10-must-include-filter",
+      "legacy_case_ids": {},
+      "iteration_id": "2021-03-11-ww10-must-include-filter",
+      "article_date": "2021-03-11",
+      "challenge_year": 2021,
+      "challenge_week": 10,
+      "challenge_date": "2021-03-09",
+      "date_evidence": {
+        "article_date": "HTML published time in evidence/article-date.json.",
+        "challenge": "Explicit challenge_year; week declared in iteration_id",
+        "challenge_date": "Official WordPress REST publication date in evidence/official-challenge-date.json."
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2021w10tab/"
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2021/03/11/can-you-build-a-must-include-filter/",
+          "path": null,
+          "sha256": "ae73027a926d3e296b8b084651122245a1036b56d947463b8f3281ceebf2f82b"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/workbooks/2021_03_10_Must_Include_Filter.twb",
+          "filename": "ww10-author.twbx",
+          "sha256": "106a751b0455666b8d2c4e593d7a0ea4f6de0b93cd83ced4ac8a7994888d6d45"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "pass",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "evidence/article-date.json",
+        "evidence/cloud-verification.json",
+        "evidence/functional-verification.json",
+        "evidence/official-challenge-date.json",
+        "evidence/sdk-baseline.json",
+        "inputs/source-lock.json"
+      ],
+      "notes": [
+        "Both PRODUCT sets use the article's \"Use All\" condition; the first stage is a context filter on Bars and Order Detail so the second stage evaluates inside the qualifying orders.",
+        "BANs deliberately omits the context flag so {FIXED:COUNTD([Order ID])} keeps the unfiltered 5,009-order denominator.",
+        "Dashboard set controls are native setMembership zones via the set_control layout node.",
+        "Cloud REST capture exports only the replica's worksheet views; the author workbook publishes the dashboard alone."
+      ],
+      "metadata": "iterations/2021-03-11-ww10-must-include-filter/case.yaml",
       "metadata_contract": "1.1.0",
       "tested_sdk_version": "0.27.1"
     },

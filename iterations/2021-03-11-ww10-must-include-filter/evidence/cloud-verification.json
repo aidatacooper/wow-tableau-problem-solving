@@ -1,0 +1,92 @@
+{
+  "case_id": "wow-2021-ww10-must-include-filter",
+  "captured_at": "2026-10-05T10:05:07.895348+00:00",
+  "source_hashes": {
+    "author": "106a751b0455666b8d2c4e593d7a0ea4f6de0b93cd83ced4ac8a7994888d6d45",
+    "replica": "346071b81c99a7c15217279b5431344bd660c3e8a1e961e38350a980fc051b4b"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "ae0fcbca-27ef-464c-aa36-67abdb3ff37c",
+      "name": "cwtwb-review-wow-2021-ww10-must-include-filter-author-106a751b0455",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2941132",
+      "views": [
+        {
+          "name": "2021_03_10_WW10_Must_Include_Filter",
+          "id": "9f3b31d5-25b3-4683-8662-8596bd626fc0"
+        }
+      ]
+    },
+    "replica": {
+      "id": "ea2bb6a0-bed9-45d0-a8ab-361407ad3b11",
+      "name": "cwtwb-review-wow-2021-ww10-must-include-filter-replica-346071b81c99",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2941554",
+      "views": [
+        {
+          "name": "Bars",
+          "id": "509cffeb-9d23-47e3-8749-d8f3a9e5638b"
+        },
+        {
+          "name": "BANs",
+          "id": "2cf3e5a9-1484-4fca-a307-40784f6f8e23"
+        },
+        {
+          "name": "2021_03_10_WW10_Must_Include_Filter",
+          "id": "8caae798-f54b-44fe-9dd2-faed27dfa359"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "9f3b31d5-25b3-4683-8662-8596bd626fc0",
+          "name": "2021_03_10_WW10_Must_Include_Filter",
+          "path": "outputs/cloud-author.png",
+          "sha256": "734a0d4faf55511736a15bea768962b410f2aaa1115835fb1318d07490db0a02",
+          "size": [
+            2400,
+            1800
+          ]
+        },
+        "replica": {
+          "id": "8caae798-f54b-44fe-9dd2-faed27dfa359",
+          "name": "2021_03_10_WW10_Must_Include_Filter",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "83a26d8c2d8c6865494d477f40e1550d7c967fe27711637132381cb1818aaa45",
+          "size": [
+            2400,
+            1800
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "replica",
+          "view": "Bars",
+          "view_id": "509cffeb-9d23-47e3-8749-d8f3a9e5638b",
+          "scope": "Complete default-state order-level Sales and Quantity table.",
+          "path": "outputs/cloud-replica-bars.csv",
+          "sha256": "5e9dc41307f102a54d7e6eec73a2bc36b33e151e1f27998b2d89e06346f79a7f",
+          "bytes": 363092
+        },
+        {
+          "role": "replica",
+          "view": "BANs",
+          "view_id": "2cf3e5a9-1484-4fca-a307-40784f6f8e23",
+          "scope": "Complete default-state BAN measure values.",
+          "path": "outputs/cloud-replica-bans.csv",
+          "sha256": "9f5b088fb2427fcc71f53c1521cfdc3cb0cad2dbe99e0554f25d6bee6c266a39",
+          "bytes": 128
+        }
+      ]
+    }
+  ],
+  "status": "captured_requires_independent_review"
+}

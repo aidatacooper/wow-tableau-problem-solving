@@ -1,0 +1,16 @@
+{
+  "challenge_year": 2021,
+  "challenge_week": 10,
+  "article_date": "2021-03-11",
+  "challenge_date": "2021-03-09",
+  "official_rest_url": "https://www.workout-wednesday.com/wp-json/wp/v2/posts/4746",
+  "response_excerpt": {
+    "id": 4746,
+    "date": "2021-03-09T23:47:24",
+    "link": "https://www.workout-wednesday.com/2021w10tab/",
+    "title": {
+      "rendered": "2021 Week 10 | Tableau: Can you build a must include filter?"
+    }
+  },
+  "scope": "Official WordPress publication date, without inference from article/workbook names."
+}

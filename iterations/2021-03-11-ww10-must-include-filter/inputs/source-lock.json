@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-05",
+  "source_workbook": {
+    "filename": "ww10-author.twbx",
+    "bytes": 174163,
+    "sha256": "106a751b0455666b8d2c4e593d7a0ea4f6de0b93cd83ced4ac8a7994888d6d45",
+    "url": null
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Datasources/Orders (Sample - Superstore).hyper",
+      "file": "inputs/Orders (Sample - Superstore).hyper",
+      "bytes": 524288,
+      "sha256": "ba43646cd85b58534db6f9abc5f04607f4b08e12b67ae32f4f889c26c57657a0"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

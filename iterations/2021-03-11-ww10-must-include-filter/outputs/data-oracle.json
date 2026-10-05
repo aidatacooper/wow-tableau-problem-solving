@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "input": "inputs/Orders (Sample - Superstore).hyper",
+  "input_sha256": "ba43646cd85b58534db6f9abc5f04607f4b08e12b67ae32f4f889c26c57657a0",
+  "raw_row_count": 9994,
+  "total_orders": 5009,
+  "total_sales": "2297200.86030000002455175",
+  "total_quantity": 37873,
+  "semantics": "Intersection of order memberships; totals include ALL lines of qualifying orders.",
+  "numeric_encoding": "Sales are exact sums of Decimal(str(Hyper Sales)); decimal strings avoid JSON rounding. Ratios use 40 significant digits; numerator totals and denominators are included. Empty-result averages are null.",
+  "pair_selection": "Three most frequent distinct-product pairs (lexical tie break), then first lexical zero-overlap pair.",
+  "pairs": [
+    {
+      "product1": "Acco D-Ring Binder w/DublLock",
+      "product2": "I Need's 3d Hello Kitty Hybrid Silicone Case Cover for HTC One X 4g with 3d Hello Kitty Stylus Pen Green/pink",
+      "first_stage_order_count": 9,
+      "qualifying_order_count": 2,
+      "orders": [
+        {
+          "order_id": "CA-2017-129147",
+          "customer_name": "Liz Carlisle",
+          "sales": "609.4379999999999",
+          "quantity": 16,
+          "line_count": 3,
+          "other_product_line_count": 1
+        },
+        {
+          "order_id": "US-2017-103905",
+          "customer_name": "Arthur Wiediger",
+          "sales": "68.203999999999996",
+          "quantity": 11,
+          "line_count": 2,
+          "other_product_line_count": 0
+        }
+      ],
+      "sample_orders": [
+        {
+          "order_id": "CA-2017-129147",
+          "customer_name": "Liz Carlisle",
+          "sales": "609.4379999999999",
+          "quantity": 16,
+          "line_count": 3,
+          "other_product_line_count": 1
+        },
+        {
+          "order_id": "US-2017-103905",
+          "customer_name": "Arthur Wiediger",
+          "sales": "68.203999999999996",
+          "quantity": 11,
+          "line_count": 2,
+          "other_product_line_count": 0
+        }
+      ],
+      "bans": {
+        "#ORDERS": 2,
+        "Total Orders": 5009,
+        "% OF TOTAL ORDERS": "0.0003992812936713914953084447993611499301258",
+        "AVG ORDER AMOUNT": "338.820999999999948",
+        "AVG ORDER QUANTITY": "13.5"
+      },
+      "qualifying_order_lines_sales": "677.641999999999896",
+      "qualifying_order_lines_quantity": 27,
+      "qualifying_order_line_count": 5
+    },
+    {
+      "product1": "Acco Hanging Data Binders",
+      "product2": "Newell 315",
+      "first_stage_order_count": 7,
+      "qualifying_order_count": 2,
+      "orders": [
+        {
+          "order_id": "CA-2019-137050",
+          "customer_name": "Steven Ward",
+          "sales": "663.963999999999999",
+          "quantity": 24,
+          "line_count": 6,
+          "other_product_line_count": 4
+        },
+        {
+          "order_id": "US-2018-147662",
+          "customer_name": "Karl Braun",
+          "sales": "427.5479999999999765",
+          "quantity": 13,
+          "line_count": 5,
+          "other_product_line_count": 3
+        }
+      ],
+      "sample_orders": [
+        {
+          "order_id": "CA-2019-137050",
+          "customer_name": "Steven Ward",
+          "sales": "663.963999999999999",
+          "quantity": 24,
+          "line_count": 6,
+          "other_product_line_count": 4
+        },
+        {
+          "order_id": "US-2018-147662",
+          "customer_name": "Karl Braun",
+          "sales": "427.5479999999999765",
+          "quantity": 13,
+          "line_count": 5,
+          "other_product_line_count": 3
+        }
+      ],
+      "bans": {
+        "#ORDERS": 2,
+        "Total Orders": 5009,
+        "% OF TOTAL ORDERS": "0.0003992812936713914953084447993611499301258",
+        "AVG ORDER AMOUNT": "545.75599999999998775",
+        "AVG ORDER QUANTITY": "18.5"
+      },
+      "qualifying_order_lines_sales": "1091.5119999999999755",
+      "qualifying_order_lines_quantity": 37,
+      "qualifying_order_line_count": 11
+    },
+    {
+      "product1": "Acco Hot Clips Clips to Go",
+      "product2": "Flat Face Poster Frame",
+      "first_stage_order_count": 6,
+      "qualifying_order_count": 2,
+      "orders": [
+        {
+          "order_id": "CA-2019-159940",
+          "customer_name": "Barry Französisch",
+          "sales": "339.979999999999966",
+          "quantity": 20,
+          "line_count": 4,
+          "other_product_line_count": 2
+        },
+        {
+          "order_id": "US-2019-117037",
+          "customer_name": "Luke Weiss",
+          "sales": "63.9220000000000002",
+          "quantity": 15,
+          "line_count": 4,
+          "other_product_line_count": 2
+        }
+      ],
+      "sample_orders": [
+        {
+          "order_id": "CA-2019-159940",
+          "customer_name": "Barry Französisch",
+          "sales": "339.979999999999966",
+          "quantity": 20,
+          "line_count": 4,
+          "other_product_line_count": 2
+        },
+        {
+          "order_id": "US-2019-117037",
+          "customer_name": "Luke Weiss",
+          "sales": "63.9220000000000002",
+          "quantity": 15,
+          "line_count": 4,
+          "other_product_line_count": 2
+        }
+      ],
+      "bans": {
+        "#ORDERS": 2,
+        "Total Orders": 5009,
+        "% OF TOTAL ORDERS": "0.0003992812936713914953084447993611499301258",
+        "AVG ORDER AMOUNT": "201.9509999999999831",
+        "AVG ORDER QUANTITY": "17.5"
+      },
+      "qualifying_order_lines_sales": "403.9019999999999662",
+      "qualifying_order_lines_quantity": 35,
+      "qualifying_order_line_count": 8
+    },
+    {
+      "product1": "\"While you Were Out\" Message Book, One Form per Page",
+      "product2": "#10 Gummed Flap White Envelopes, 100/Box",
+      "first_stage_order_count": 3,
+      "qualifying_order_count": 0,
+      "orders": [],
+      "sample_orders": [],
+      "bans": {
+        "#ORDERS": 0,
+        "Total Orders": 5009,
+        "% OF TOTAL ORDERS": "0",
+        "AVG ORDER AMOUNT": null,
+        "AVG ORDER QUANTITY": null
+      },
+      "qualifying_order_lines_sales": "0",
+      "qualifying_order_lines_quantity": 0,
+      "qualifying_order_line_count": 0
+    }
+  ]
+}

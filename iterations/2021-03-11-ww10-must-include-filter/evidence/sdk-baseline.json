@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "cwtwb_version": "0.27.1",
+  "cwtwb_commit": "6f220236b58dc8a5de08ce9e2d298f5c085a95ec",
+  "result": "pass",
+  "scope": "Released-SDK baseline for the two-stage must-include filter case.",
+  "supported": [
+    "add_set use_all=True for the article's Use All set condition",
+    "add_calculated_field {FIXED [Order ID]: MAX([set])} order-level boolean flags",
+    "configure_chart filters with context=true (Add to Context)",
+    "set_control layout node -> native setMembership dashboard zones",
+    "configure_layered_chart panes with measure_values for text tables",
+    "configure_custom_tooltip sheet runs (Viz in Tooltip) and VizInTooltipHideWorksheet manifest",
+    "configure_subtotals with subtotal_fields and a custom label"
+  ],
+  "findings": [
+    {
+      "key": "measure-values-virtual-field",
+      "severity": "bug",
+      "summary": "configure_chart(columns=['Measure Names'], measure_values=[...]) renders an empty view.",
+      "reproducer": "TWBEditor(''); set_excel_connection(...); add_worksheet('V'); configure_chart('V', mark_type='Text', columns=['Measure Names'], measure_values=['SUM(Sales)','SUM(Quantity)']) -> published view CSV is 0 bytes.",
+      "isolated_by": "The literal 'Measure Names' color registered a physical [Measure Names] column instead of the virtual [:Measure Names], and measure_values was dropped when routing to BasicChartBuilder for Bar/Line/Circle/Square.",
+      "workaround": "Bind the measures directly on the columns shelf (Bars) or use configure_layered_chart panes (Order Detail, BANs).",
+      "upstream_fix": "fix(sdk): honor measure values on primitive marks"
+    }
+  ],
+  "unresolved": []
+}
