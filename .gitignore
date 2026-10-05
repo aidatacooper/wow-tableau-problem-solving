@@ -33,3 +33,13 @@ iterations/*/evidence/cloud-runs/**/*.csv
 
 # Downloaded full articles are analysis-only; source URLs and hashes are recorded.
 iterations/*/evidence/article-analysis.html
+
+# Local scratch workspace, test workbooks, and debug renders
+scratch/
+test_*.twbx
+*.twbx.twbx
+WW45*.twbx
+author_*.png
+replica_*.png
+scratch_*.png
+iterations/*/outputs/rendered-cloud-latest.png
