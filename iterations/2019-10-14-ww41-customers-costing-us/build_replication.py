@@ -109,7 +109,7 @@ def build(p):
     ds_name = e._datasource.get("name", "")
     measure_names = f"[{ds_name}].[:Measure Names]"
     measure_sort = etree.Element(
-        "sort", column=measure_names, direction="ASC", **{"class": "manual"}
+        "manual-sort", column=measure_names, direction="ASC"
     )
     dictionary = etree.SubElement(measure_sort, "dictionary")
     for expression in (
