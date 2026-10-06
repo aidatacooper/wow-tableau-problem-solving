@@ -1,7 +1,7 @@
 {
   "acceptance_scope": "cloud_rest_and_artifact_contracts",
   "browser_interaction_executed": false,
-  "checked_at": "2026-10-02T12:20:55.205464+00:00",
+  "checked_at": "2026-10-06T00:25:40.390665+00:00",
   "hyper_sha256": "39c9fc034d0c0490131f027f591cbdf2abc576d071b192005d412aaaee4bc787",
   "passed": true,
   "scope": "Independent Hyper COUNTD conditional/date/Category and Sunday-first mean-of-detail calculations. Matrix visual equality separately documented in visual-review.json; no matrix CSV exported.",
