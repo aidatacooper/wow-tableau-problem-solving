@@ -323,7 +323,7 @@ def build(output_path=None):
                     "SUM(Reported Cases)",
                     "Increase | Decrease",
                 ],
-                "mark_style": {"mark-color": "#ffffff", "stroke-color": "#787878"},
+                "mark_style": {"mark-color": "#ffffff", "mark-stroke-color": "#787878"},
             }
         ],
         filters=state + latest,
@@ -567,6 +567,7 @@ def build(output_path=None):
             "pane_index": 2,
             "show_title": False,
             "absolute": p(202, 413, 240, 44),
+            "style": {"flow-direction": "horizontal"},
         },
         {
             "type": "worksheet",
