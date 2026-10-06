@@ -142,7 +142,7 @@ def build(output_path: Path) -> Path:
         },
         label_formats=[{"field": "PR - Not Recent", "text-format": "p0.0%"}],
         panes_style={
-            "1": {"mark_style": {"mark-line-pattern": "dashed"}},
+            "1": {"mark_style": {"line-pattern": "dashed"}},
             "2": {"mark_style": {"mark-markers-mode": "all"}},
         },
     )

@@ -306,8 +306,20 @@ Desktop's DOM loader rejects it (error code `d2e8da72`).
 | Element present | Required manifest flag | Status |
 | --- | --- | --- |
 | `<manual-sort>` | `SortTagCleanup` | fixed in cwtwb |
+| `<computed-sort>` | `SortTagCleanup` | fixed in cwtwb |
 | `<hide-sort-controls>` | `HideSortControls` | fixed in cwtwb |
+| `<devicelayouts>` | `AutoCreateAndUpdateDSDPhoneLayouts` | fixed in cwtwb |
+| dashboard `<button>` | `CollapsiblePane` | fixed in cwtwb |
+| `pane/@generated-title` | `Layers` | fixed in cwtwb |
 | datasource-level `<column-instance>` | (must not be emitted) | identified |
+
+`computed-sort` and `generated-title` were confirmed the same way: removing
+the element opens the workbook, and adding only the listed flag opens it
+without removing anything. The builder had emitted these flags on some paths
+and not others, so the same element opened or failed depending on which
+helper produced it. `_reconcile_manifest_flags` now derives every pairing
+from the finished tree during `_sanitize_workbook_tree`, so all paths are
+covered.
 
 `SortTagCleanup`: a measure-values chart is schema-valid but will not open;
 removing `<manual-sort>` opens it, and adding `<SortTagCleanup/>` to the
@@ -324,40 +336,38 @@ written into `<datasource>` (not the worksheet's
 `2020-12-11-ww50-profit-measure-names` carried four and would not open. It is
 emitted by the color-map/palette path in `builder_base.py`.
 
-#### 8.2.3 Measured result after the two manifest-flag fixes
+#### 8.2.3 Measured result after the manifest-flag reconciliation
 
 Rebuilding all 50 originally-broken workbooks with the fixed SDK and testing
-each in Desktop:
+each in Desktop takes the corpus from 5 openable to **46 openable**. The
+reconciliation pass covers the `SortTagCleanup`, `HideSortControls`,
+`AutoCreateAndUpdateDSDPhoneLayouts`, `CollapsiblePane` and `Layers` pairings
+listed in section 8.2.2.
 
-```
-LOADED : 35
-FAIL   : 15
-```
+Four cases still fail for separate, non-flag reasons:
 
-So the two flag fixes take the corpus from 5 openable to 35 openable. The
-remaining 15 each carry one or more additional defects:
+* `2020-03-07-ww10-spatial-buffers` — four of its five worksheets fail when
+  copied into a known-good workbook, the same "broad failure" shape as ww07.
+  It fails identically on the released SDK, so it predates this work.
 
-```
-2019-08-04-ww31-hub-spoke-map
-2019-10-14-ww41-customers-costing-us
-2020-03-21-ww12-missing-periods-autosize-bars
-2020-05-15-ww20-state-contribution
-2020-05-22-ww21-automatic-phone-layout
-2020-06-12-ww24-moving-average-trend
-2020-06-20-ww25-pizza-toppings-set-actions
-2020-07-18-ww29-dynamic-heatmap-labels
-2020-09-26-ww39-mobile-calendar-picker
-2020-10-30-ww44-small-multiple-waterfall
-2020-12-04-ww49-and-or-filtering
-2020-12-11-ww50-profit-measure-names
-2021-01-22-ww03-control-chart
-2021-02-18-ww07-emoji-sentiment-rating
-2026-02-09-ww05-kpi-period-comparison
-```
+* `2020-09-26-ww39-mobile-calendar-picker` — the dashboard toggle-button
+  workbook. Removing the `<button>` elements or the dashboard opens it, so the
+  defect is in the button/dashboard interaction, not a missing flag. Adding
+  every manifest entry the author workbook carries does not fix it.
+* `2021-02-18-ww07-emoji-sentiment-rating` — three of its four worksheets
+  (all except `Info`) fail when copied into a known-good workbook. The
+  worksheet `Top 20` fails even with its `<table>` replaced by the loading
+  `Info` table, while the reverse swap loads, so the defect is in the
+  worksheet's datasource-dependencies or another non-`table` child.
 
-All 15 also contain datasource-level `<column-instance>` elements, but removing
-those fixes only `2020-12-11-ww50-profit-measure-names`, so that is not the
-only remaining cause.
+A third defect was found and fixed in a case builder rather than the SDK:
+`2026-02-09-ww05-kpi-period-comparison` passed `mark-line-pattern` to
+`panes_style`, but Tableau's valid attribute is `line-pattern`; the workbook
+did not open until the attribute was renamed.
+
+`2020-03-21-ww12-missing-periods-autosize-bars` is a pre-existing builder
+failure (`Toggle targets must include every parameter control in their
+container`) that fails on the released SDK too and is unrelated to this work.
 
 #### 8.2.4 Method that works
 
