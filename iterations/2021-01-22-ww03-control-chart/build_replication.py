@@ -320,7 +320,7 @@ def build(output_path=None):
         gridline_style={
             "rows": {
                 "line-visibility": "on",
-                "stroke-pattern": "solid",
+                "line-pattern": "solid",
                 "stroke-size": 1,
             },
             "cols": {"line-visibility": "off"},

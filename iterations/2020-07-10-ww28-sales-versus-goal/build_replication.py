@@ -203,7 +203,7 @@ def build(output_path=None):
                 {"field": "MONTH", "width": "135"},
             ],
             table_formats=[
-                {"attr": "cell-width", "value": "120"},
+                {"attr": "width", "value": "120"},
                 {"attr": "band-size", "scope": "rows", "value": "0"},
             ],
         )

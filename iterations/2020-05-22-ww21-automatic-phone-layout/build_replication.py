@@ -155,7 +155,7 @@ def build(output_path=None):
                 }
             ],
             pane_cell_style={"text-align": "center"},
-            table_formats=[{"attr": "cell-width", "value": "160"}],
+            table_formats=[{"attr": "width", "value": "160"}],
         )
     for sheet, metric, flag in [
         ("Top 10 Products by Sales", "Sales", "Show Top Sales"),

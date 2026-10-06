@@ -125,7 +125,6 @@ def build(output_path=None):
                     "size": "1.0434806346893311",
                     "has-stroke": "true",
                     "stroke-color": "#333333",
-                    "mark-selectionrelaxation": "mark-selectionrelaxation-disallow",
                 },
             },
         ],

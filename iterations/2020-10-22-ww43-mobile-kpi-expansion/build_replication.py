@@ -248,10 +248,21 @@ def build(output_path=None):
                         "attr": "title",
                         "value": "",
                     },
+                    {
+                        "field": expression,
+                        "scope": "cols",
+                        "class": 0,
+                        "attr": "stroke-color",
+                        "value": "#555555",
+                    },
+                    {
+                        "field": expression,
+                        "scope": "cols",
+                        "class": 0,
+                        "attr": "tick-color",
+                        "value": "#555555",
+                    },
                 ],
-                "per_scope": {
-                    "cols": {"stroke-color": "#555555", "tick-color": "#555555"}
-                },
             },
         )
     children = []

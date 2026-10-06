@@ -158,7 +158,7 @@ def build(output_path: Path) -> Path:
                     "field": dimension,
                     "height": 30 if sheet in ("by Order", "by Product") else 33,
                 },
-                {"field": "SUM(Sales)", "format": 'c"$"#,##0;-"$"#,##0'},
+                {"field": "SUM(Sales)", "text-format": 'c"$"#,##0;-"$"#,##0'},
             ],
             pane_cell_style={"text-align": "left"},
             pane_datalabel_style={"color-mode": "match", "font-weight": "bold"},

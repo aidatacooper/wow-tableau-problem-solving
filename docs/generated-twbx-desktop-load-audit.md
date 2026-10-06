@@ -1,10 +1,16 @@
 # Generated TWBX Desktop-load audit
 
-Date: 2026-10-05
+Date: 2026-10-06
 Scope: all `iterations/*/outputs/replicated-workbook.twbx` in this repository
-Verdict: **51 of 90 committed artifacts fail Tableau's own TWB XSD and cannot be
-opened in Tableau Desktop.** The acceptance pipeline never opened a packaged
-workbook, so these passed as `functional_status: replicated` / `cwtwb_result: pass`.
+Verdict: **51 of 90 committed artifacts failed Tableau's own TWB XSD and could
+not be opened in Tableau Desktop.** The acceptance pipeline never opened a
+packaged workbook, so these passed as `functional_status: replicated` /
+`cwtwb_result: pass`.
+
+All 23 active cases affected are now schema-clean and rebuilt. Desktop
+spot-checks confirm several previously unopenable workbooks now load; the
+remaining ones have a second, non-schema defect that predates this work (see
+sections 6 and 8).
 
 ## 1. How this was found
 
@@ -215,24 +221,70 @@ every case. Localising ww01's remaining defect is follow-up work.
 It kills `tableau.exe` / `tabprotosrv.exe` and waits for exit between runs
 because Tableau forwards a second launch to the running instance.
 
-## 8. Recommended follow-up
+## 8. Follow-up status
 
-1. **Regenerate the affected artifacts** with the fixed SDK and re-verify.
-   Rebuilding changes bytes, so Cloud-captured replica hashes in
-   `evidence/cloud-verification.json` must be refreshed through the normal
-   capture flow rather than patched in place.
-2. **Fix the remaining strict errors at the SDK level** (`format`/`scope`/
-   `activation` enums, `filter` and `shelf-sorts` ordering,
-   `customized-tooltip` placement) so the remaining 45 cases can be
-   regenerated and opened.
-3. **Fix the remaining non-schema Desktop defects** (for example ww01) that the
-   XSD gate cannot catch.
-4. **Add a Desktop smoke test** to CI for cases using actions, parameters or
-   table calculations, reusing the log-based classifier above.
+### 8.1 Completed in this change set
+
+All 23 active cases with strict errors are now schema-clean and rebuilt. The
+fixes are general SDK changes on `cwtwb` PR #7, not per-case workarounds:
+
+| Defect | Fix |
+| --- | --- |
+| Element order (datasource, actions, pane, view, window, zone, ...) | `schema_order.py` derives order from the vendored XSD, modelling `xs:choice` as alternatives |
+| `selection-relaxation-option="disallow"` | normalized to the full `selection-relaxation-disallow` token |
+| `_.fcp.<Feature>.true...` elements | reported as compatibility warnings (Desktop tolerates them; verified with a rounded-corners workbook) |
+| `scope`/`data_class` written as `attr` | written as selector attributes |
+| `{"attr": X, "value": Y}` treated as a shorthand dict | explicit form handled by the cell/label emitters |
+| `stroke-pattern` on gridlines | corrected to `line-pattern` |
+| set action `on-menu` | normalized to `explicit` (the only menu-triggered value the XSD allows) |
+| `domain_type="all"` | normalized to `any` |
+| Measure Names filter after `<slices>` | anchored before the trailing groups |
+
+Builder-side corrections (invalid attribute names) were applied to the cases
+that passed them: `cell-width`/`cell-height` -> `width`/`height`,
+`font-color` -> `color`, `mark-labels-line-start/end` -> `-line-first/-last`,
+`mark-line-markers` -> `mark-markers-mode`, `mark-stroke-color` ->
+`stroke-color`, `line-null-interpolation` -> `line-interpolation`,
+`mark-labels-match-mark-color` -> `color-mode`, `format` -> `text-format`,
+`range-type`/`min`/`max` moved into `encodings`, `per_scope` replaced with
+`per_field` entries, and `layout_strategy="manual"` -> `"free-form"`.
+
+### 8.2 Remaining work
+
+Schema validity is necessary but **not sufficient**. Desktop spot-checks of the
+rebuilt workbooks show some still fail to load for a second, non-schema reason
+that predates this work:
+
+* Cases that now open: `2019-07-25-ww30-navigation-kpi`,
+  `2020-03-13-ww11-smart-ranked-lists`, `2020-05-08-ww19-dynamic-date-drilling`,
+  `2023-11-30-ww48-bars-and-candlesticks`, plus `2026-02-15-ww06-null-safe-averages`
+  and `2026-03-01-ww08-dzv-filter-actions` from the earlier change set.
+* Cases that are schema-clean but still fail to load (for example
+  `2019-08-04-ww31-hub-spoke-map`, `2020-05-15-ww20-state-contribution`):
+  bisecting top-level sections did not isolate the cause, and Tableau reports
+  only the generic `d2e8da72` code. Their committed versions already failed, so
+  this is not a regression from these fixes.
+* Rebuilding changes bytes, so Cloud-captured replica hashes in
+  `evidence/cloud-verification.json` must be refreshed through the normal
+  capture flow rather than patched in place.
+* The 4 historical (schema 1.0.0, `verification_status: historical`) cases
+  remain read-only by repository policy and were not touched.
+
+### 8.3 Recommended next steps
+
+1. **Add a Desktop smoke test** to CI for cases using actions, parameters or
+   table calculations, reusing the log-based classifier in section 7. The XSD
+   gate cannot catch non-schema defects.
+2. **Localise the remaining non-schema defects.** A useful technique: compare a
+   workbook that opens against one that does not, swapping one top-level section
+   at a time, then bisect within the section that changes the outcome.
+3. **Refresh Cloud evidence** for the rebuilt cases through the capture flow.
 
 ## 9. Artifacts
 
-* `cwtwb` PR #7 — SDK ordering fix + `tests/test_xsd_element_order.py`
+* `cwtwb` PR #7 — schema-derived ordering, style/action/parameter normalisation,
+  plus `tests/test_schema_order.py` and `tests/test_xsd_element_order.py`
 * `scripts/validate_iteration.py` — XSD gate
-* `iterations/2026-02-15-ww06-null-safe-averages/` — regenerated workbook + evidence
+* `iterations/2026-02-15-ww06-null-safe-averages/` — first fixed case
+* 22 further rebuilt cases listed in section 8.1
 * `usage/case-index.json` — regenerated catalogue

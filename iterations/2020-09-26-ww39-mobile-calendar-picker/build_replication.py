@@ -405,13 +405,6 @@ def build(output_path=None):
         hide_row_label="WEEK(Date)",
         axis_style={
             "per_field": [
-                {
-                    "field": "Calendar Axis",
-                    "scope": "cols",
-                    "class": 0,
-                    "attr": "range-type",
-                    "value": "fixed",
-                }
             ],
             "encodings": [
                 {

@@ -280,7 +280,7 @@ def build() -> Path:
     dash_layout = {
         "type": "container",
         "direction": "vertical",
-        "layout_strategy": "manual",
+        "layout_strategy": "free-form",
         "children": [
             # Title
             {

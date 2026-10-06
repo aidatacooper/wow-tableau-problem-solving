@@ -542,7 +542,7 @@ def build(output_path=None):
                 "text-format": "n0;-0",
                 "font-size": 9,
                 "font-weight": "normal",
-                "font-color": "#666666",
+                "color": "#666666",
                 "text-align": "left",
                 "vertical-align": "auto",
             },
