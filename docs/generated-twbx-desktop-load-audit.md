@@ -256,15 +256,8 @@ Schema validity is necessary but **not sufficient**. Desktop spot-checks of the
 rebuilt workbooks show some still fail to load for a second, non-schema reason
 that predates this work:
 
-* Cases that now open: `2019-07-25-ww30-navigation-kpi`,
-  `2020-03-13-ww11-smart-ranked-lists`, `2020-05-08-ww19-dynamic-date-drilling`,
-  `2023-11-30-ww48-bars-and-candlesticks`, plus `2026-02-15-ww06-null-safe-averages`
-  and `2026-03-01-ww08-dzv-filter-actions` from the earlier change set.
-* Cases that are schema-clean but still fail to load (for example
-  `2019-08-04-ww31-hub-spoke-map`, `2020-05-15-ww20-state-contribution`):
-  bisecting top-level sections did not isolate the cause, and Tableau reports
-  only the generic `d2e8da72` code. Their committed versions already failed, so
-  this is not a regression from these fixes.
+* After the manifest-flag fixes, **35 of the 50** originally-broken workbooks
+  open in Desktop; 15 still do not. See section 8.2.3 for the exact lists.
 * `2020-06-12-ww24-moving-average-trend` is deliberately excluded. Its verifier
   asserts that a table-calc `ordering-field` always carries the
   `[none:...:ok]` instance wrapper, but a later SDK change (`eb1380d`) made that
@@ -276,6 +269,121 @@ that predates this work:
   capture flow rather than patched in place.
 * The 4 historical (schema 1.0.0, `verification_status: historical`) cases
   remain read-only by repository policy and were not touched.
+
+#### 8.2.1 Root cause found: `<manual-sort>` requires the `SortTagCleanup` manifest flag
+
+A minimal reproducer isolates one confirmed non-schema defect:
+
+```python
+editor.configure_layered_chart(
+    "T", columns=["Measure Names"], rows=["Category"],
+    panes=[{"axis": "Multiple Values", "mark_type": "Text",
+            "measure_values": ["SUM(Sales)", "SUM(Profit)"]}])
+```
+
+This workbook is schema-valid but Desktop refuses to load it. Deleting the
+`<manual-sort>` element makes it load; **adding `<SortTagCleanup/>` to
+`<document-format-change-manifest>` also makes it load** (verified stable over
+repeated runs). Tableau writes this flag in workbooks that use `manual-sort`;
+without it the DOM loader rejects the sort element.
+
+Evidence trail:
+
+* `_sdk_mv.twbx` (SDK output, has `manual-sort`) -> FAIL
+* same file with `<manual-sort>` removed -> LOADED
+* same file with `<SortTagCleanup/>` added to the manifest -> LOADED (x3)
+* a real Tableau-authored workbook using `manual-sort` carries `SortTagCleanup`
+  and loads
+* 22 of the 50 originally-broken cases contain `manual-sort`
+
+#### 8.2.2 Root causes found and fixed
+
+Three distinct non-schema defects were isolated with minimal reproducers.
+Each is a Tableau **manifest flag** that must accompany an element, or an
+invalid element placement. In every case the XML is schema-valid and only
+Desktop's DOM loader rejects it (error code `d2e8da72`).
+
+| Element present | Required manifest flag | Status |
+| --- | --- | --- |
+| `<manual-sort>` | `SortTagCleanup` | fixed in cwtwb |
+| `<hide-sort-controls>` | `HideSortControls` | fixed in cwtwb |
+| datasource-level `<column-instance>` | (must not be emitted) | identified |
+
+`SortTagCleanup`: a measure-values chart is schema-valid but will not open;
+removing `<manual-sort>` opens it, and adding `<SortTagCleanup/>` to the
+manifest also opens it (verified stable). Tableau writes this flag in
+workbooks that use `manual-sort`.
+
+`HideSortControls`: same shape. `configure_worksheet_style("T",
+hide_sort_controls=True)` alone produces a workbook that will not open;
+adding `<HideSortControls/>` opens it.
+
+The datasource-level `<column-instance>` case is different: an extra one is
+written into `<datasource>` (not the worksheet's
+`<datasource-dependencies>`). A known-good workbook carries at most one;
+`2020-12-11-ww50-profit-measure-names` carried four and would not open. It is
+emitted by the color-map/palette path in `builder_base.py`.
+
+#### 8.2.3 Measured result after the two manifest-flag fixes
+
+Rebuilding all 50 originally-broken workbooks with the fixed SDK and testing
+each in Desktop:
+
+```
+LOADED : 35
+FAIL   : 15
+```
+
+So the two flag fixes take the corpus from 5 openable to 35 openable. The
+remaining 15 each carry one or more additional defects:
+
+```
+2019-08-04-ww31-hub-spoke-map
+2019-10-14-ww41-customers-costing-us
+2020-03-21-ww12-missing-periods-autosize-bars
+2020-05-15-ww20-state-contribution
+2020-05-22-ww21-automatic-phone-layout
+2020-06-12-ww24-moving-average-trend
+2020-06-20-ww25-pizza-toppings-set-actions
+2020-07-18-ww29-dynamic-heatmap-labels
+2020-09-26-ww39-mobile-calendar-picker
+2020-10-30-ww44-small-multiple-waterfall
+2020-12-04-ww49-and-or-filtering
+2020-12-11-ww50-profit-measure-names
+2021-01-22-ww03-control-chart
+2021-02-18-ww07-emoji-sentiment-rating
+2026-02-09-ww05-kpi-period-comparison
+```
+
+All 15 also contain datasource-level `<column-instance>` elements, but removing
+those fixes only `2020-12-11-ww50-profit-measure-names`, so that is not the
+only remaining cause.
+
+#### 8.2.4 Method that works
+
+1. Take a known-good workbook and a failing one.
+2. Replace one top-level section at a time **in place** (preserving element
+   order) to find which section changes the outcome. Inserting at the wrong
+   index gives false results.
+3. Inside that section, keep only one worksheet/dashboard at a time.
+4. Then remove view children (`filter`, `manual-sort`, `hide-sort-controls`,
+   `slices`, `datasource-dependencies`) one at a time.
+5. When a removal flips the verdict to LOADED, the removed element (or its
+   missing manifest flag) is the cause. Confirm by adding only that element's
+   flag back.
+
+Caution: adding a manifest flag that does **not** match a present element can
+itself break the workbook (for example `SortTagCleanup` on a workbook with no
+`manual-sort`). Flags must match exactly.
+
+#### 8.2.5 Verification tooling
+
+The scratch harness `scratch/_tw_verdict.py` gives a deterministic verdict:
+Tableau always logs `show-detailed-error-dialog` on failure and never logs it
+on success, so absence of that entry (plus a matching `load-workbook`) means
+LOADED. An earlier harness reported spurious `UNKNOWN` results; treat any
+`UNKNOWN` as FAIL until re-verified. `scratch/_tw_one.py` remains for
+before/after comparisons.
 
 ### 8.3 Recommended next steps
 
