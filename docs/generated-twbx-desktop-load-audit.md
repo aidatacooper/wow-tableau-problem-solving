@@ -7,10 +7,11 @@ not be opened in Tableau Desktop.** The acceptance pipeline never opened a
 packaged workbook, so these passed as `functional_status: replicated` /
 `cwtwb_result: pass`.
 
-All 23 active cases affected are now schema-clean and rebuilt. Desktop
-spot-checks confirm several previously unopenable workbooks now load; the
-remaining ones have a second, non-schema defect that predates this work (see
-sections 6 and 8).
+All 23 active cases affected are now schema-clean; 22 are rebuilt in this
+change set and `2020-06-12-ww24-moving-average-trend` is left at its committed
+state (see section 8.2). Desktop spot-checks confirm several previously
+unopenable workbooks now load; the remaining ones have a second, non-schema
+defect that predates this work (see sections 6 and 8).
 
 ## 1. How this was found
 
@@ -225,7 +226,7 @@ because Tableau forwards a second launch to the running instance.
 
 ### 8.1 Completed in this change set
 
-All 23 active cases with strict errors are now schema-clean and rebuilt. The
+22 of the 23 active cases with strict errors are rebuilt and schema-clean. The
 fixes are general SDK changes on `cwtwb` PR #7, not per-case workarounds:
 
 | Defect | Fix |
@@ -264,6 +265,12 @@ that predates this work:
   bisecting top-level sections did not isolate the cause, and Tableau reports
   only the generic `d2e8da72` code. Their committed versions already failed, so
   this is not a regression from these fixes.
+* `2020-06-12-ww24-moving-average-trend` is deliberately excluded. Its verifier
+  asserts that a table-calc `ordering-field` always carries the
+  `[none:...:ok]` instance wrapper, but a later SDK change (`eb1380d`) made that
+  depend on the derivation. The rebuilt workbook does not open either way, so
+  there is no evidence yet for which form Tableau wants; asserting either would
+  be unverified. The case is left at its committed state.
 * Rebuilding changes bytes, so Cloud-captured replica hashes in
   `evidence/cloud-verification.json` must be refreshed through the normal
   capture flow rather than patched in place.
@@ -286,5 +293,6 @@ that predates this work:
   plus `tests/test_schema_order.py` and `tests/test_xsd_element_order.py`
 * `scripts/validate_iteration.py` — XSD gate
 * `iterations/2026-02-15-ww06-null-safe-averages/` — first fixed case
-* 22 further rebuilt cases listed in section 8.1
+* 22 rebuilt cases listed in section 8.1 (`2020-06-12-ww24-moving-average-trend`
+  is excluded; see section 8.2)
 * `usage/case-index.json` — regenerated catalogue
