@@ -451,6 +451,95 @@ but carried the same latent extension defect and is fixed by the same change.
 All seven pass the repository's isolated CI validation
 (`run_case_scripts_isolated`).
 
+#### 8.2.7 Case-by-case result
+
+All 50 originally-broken workbooks were rebuilt and re-opened in Tableau
+Desktop 2026.2. The "XSD errs" column counts strict schema errors against the
+vendored official schema at the branch point and now; "manifest flags added"
+lists the `document-format-change-manifest` entries the rebuilt artifact
+carries that the original did not. Cases with no flags listed were fixed by
+the schema-order pass alone (section 8.1).
+
+| # | Case | XSD errs (before -> after) | Manifest flags added | Desktop |
+| --- | --- | --- | --- | --- |
+| 1 | `2019-07-25-ww30-navigation-kpi` | 4 -> 0 | `CollapsiblePane` | LOADED |
+| 2 | `2019-08-04-ww31-hub-spoke-map` | 2 -> 0 | `Layers` | LOADED |
+| 3 | `2019-09-02-ww34-top-n-single-worksheet` | 1 -> 0 | — | LOADED |
+| 4 | `2019-09-04-ww35-drill-up-down-parameter-actions` | 1 -> 0 | `SortTagCleanup` | LOADED |
+| 5 | `2019-09-13-ww37-rounded-bar-chart` | 1 -> 0 | `SortTagCleanup` | LOADED |
+| 6 | `2019-10-14-ww41-customers-costing-us` | 1 -> 0 | `SortTagCleanup` | LOADED |
+| 7 | `2019-10-19-ww42-comparative-line-dynamic-inputs` | 1 -> 0 | `SortTagCleanup` | LOADED |
+| 8 | `2019-12-15-ww50-retention-heatmap` | 1 -> 0 | — | LOADED |
+| 9 | `2020-01-04-ww01-single-click-sort` | 1 -> 0 | `HideSortControls` | LOADED |
+| 10 | `2020-01-11-ww02-dynamic-bar-chart` | 2 -> 0 | — | LOADED |
+| 11 | `2020-01-25-ww04-relative-custom-dates` | 2 -> 0 | `HideSortControls`, `SortTagCleanup` | LOADED |
+| 12 | `2020-02-09-ww06-mom-progress-report` | 1 -> 0 | `HideSortControls` | LOADED |
+| 13 | `2020-02-16-ww07-forecast-target-parameters` | 5 -> 0 | `HideSortControls`, `SortTagCleanup` | LOADED |
+| 14 | `2020-03-07-ww10-spatial-buffers` | 2 -> 0 | `BasicButtonObject + BasicButtonObjectTextSupport`, `CollapsiblePane`, `Layers` | LOADED |
+| 15 | `2020-03-13-ww11-smart-ranked-lists` | 6 -> 0 | — | LOADED |
+| 16 | `2020-03-21-ww12-missing-periods-autosize-bars` | 1 -> 0 | `BasicButtonObject + BasicButtonObjectTextSupport`, `CollapsiblePane`, `HideSortControls` | LOADED |
+| 17 | `2020-03-28-ww13-simple-sales-dashboard` | 1 -> 0 | `HideSortControls`, `SortTagCleanup` | LOADED |
+| 18 | `2020-04-17-ww16-adjusted-target-missing-pipeline` | 1 -> 0 | `HideSortControls`, `SortTagCleanup` | LOADED |
+| 19 | `2020-05-03-ww18-most-profitable-products` | 3 -> 0 | `SortTagCleanup` | LOADED |
+| 20 | `2020-05-08-ww19-dynamic-date-drilling` | 4 -> 0 | — | LOADED |
+| 21 | `2020-05-15-ww20-state-contribution` | 6 -> 0 | `HideSortControls`, `SortTagCleanup` | LOADED |
+| 22 | `2020-05-22-ww21-automatic-phone-layout` | 6 -> 0 | `AutoCreateAndUpdateDSDPhoneLayouts` | LOADED |
+| 23 | `2020-05-29-ww22-profitability-budget` | 2 -> 0 | `HideSortControls`, `SortTagCleanup` | LOADED |
+| 24 | `2020-06-12-ww24-moving-average-trend` | 5 -> 0 | `HideSortControls`, `SortTagCleanup` | LOADED |
+| 25 | `2020-06-20-ww25-pizza-toppings-set-actions` | 3 -> 0 | `HideSortControls`, `SortTagCleanup` | LOADED |
+| 26 | `2020-07-10-ww28-sales-versus-goal` | 6 -> 0 | `SortTagCleanup` | LOADED |
+| 27 | `2020-07-18-ww29-dynamic-heatmap-labels` | 1 -> 0 | `SortTagCleanup` | LOADED |
+| 28 | `2020-08-01-ww31-olympic-rank-bump-chart` | 2 -> 0 | `HideSortControls`, `SortTagCleanup` | LOADED |
+| 29 | `2020-08-12-ww33-connected-profit-quantity-scatter` | 1 -> 0 | `HideSortControls` | LOADED |
+| 30 | `2020-09-06-ww36-counties-within-radius` | 4 -> 0 | `SortTagCleanup` | LOADED |
+| 31 | `2020-09-19-ww38-daily-weekly-sales` | 3 -> 0 | `SortTagCleanup` | LOADED |
+| 32 | `2020-09-26-ww39-mobile-calendar-picker` | 5 -> 0 | `AutoCreateAndUpdateDSDPhoneLayouts`, `BasicButtonObject + BasicButtonObjectTextSupport`, `CollapsiblePane`, `HideSortControls`, `SortTagCleanup` | LOADED |
+| 33 | `2020-10-03-ww40-football-table-enhancements` | 5 -> 0 | `HideSortControls`, `SortTagCleanup` | LOADED |
+| 34 | `2020-10-09-ww41-per-dimension-reference-lines` | 1 -> 0 | — | LOADED |
+| 35 | `2020-10-22-ww43-mobile-kpi-expansion` | 5 -> 0 | `HideSortControls` | LOADED |
+| 36 | `2020-10-30-ww44-small-multiple-waterfall` | 4 -> 0 | `AutoCreateAndUpdateDSDPhoneLayouts`, `SortTagCleanup` | LOADED |
+| 37 | `2020-11-06-ww45-state-top10-products` | 1 -> 0 | `HideSortControls`, `SortTagCleanup` | LOADED |
+| 38 | `2020-12-04-ww49-and-or-filtering` | 1 -> 0 | `SortTagCleanup` | LOADED |
+| 39 | `2020-12-11-ww50-profit-measure-names` | 1 -> 0 | `SortTagCleanup` | LOADED |
+| 40 | `2021-01-22-ww03-control-chart` | 2 -> 0 | `CollapsiblePane`, `HideSortControls`, `SortTagCleanup` | LOADED |
+| 41 | `2021-02-04-ww05-predicting-the-future` | 4 -> 0 | `SortTagCleanup` | LOADED |
+| 42 | `2021-02-11-ww06-fancy-text-table` | 1 -> 0 | `HideSortControls`, `SortTagCleanup` | LOADED |
+| 43 | `2021-02-18-ww07-emoji-sentiment-rating` | 7 -> 0 | `Extensions`, `SortTagCleanup` | LOADED |
+| 44 | `2021-03-04-ww09-hide-chart-map-layers` | 1 -> 0 | — | LOADED |
+| 45 | `2021-03-11-ww10-must-include-filter` | 3 -> 0 | `SortTagCleanup` | LOADED |
+| 46 | `2023-11-30-ww48-bars-and-candlesticks` | 1 -> 0 | — | LOADED |
+| 47 | `2026-02-02-ww04-dynamic-moving-average` | 1 -> 0 | — | LOADED |
+| 48 | `2026-02-09-ww05-kpi-period-comparison` | 1 -> 0 | — | LOADED |
+| 49 | `2026-02-15-ww06-null-safe-averages` | 2 -> 0 | — | LOADED |
+| 50 | `2026-03-12-ww09-parallel-coordinates` | 2 -> 0 | `SortTagCleanup` | LOADED |
+
+Read the table as follows:
+
+* **39 of 50** needed at least one manifest flag; **11** were fixed by element
+  ordering alone.
+* A flag is listed only when the element that requires it is actually present.
+  `SortTagCleanup` appears on all 30 cases that contain `manual-sort` or
+  `computed-sort`; adding it to a workbook with neither would itself break the
+  workbook. `HideSortControls` appears on all 19 cases with
+  `hide-sort-controls`.
+* `2026-02-15-ww06-null-safe-averages` is the demonstration case for the
+  ordering fix (2 strict errors -> 0) and is included for completeness.
+* `2020-03-21-ww12-missing-periods-autosize-bars` also needed a builder fix
+  (its toggle omitted the two parameter controls); the flag list reflects the
+  resulting artifact.
+* `2026-02-09-ww05-kpi-period-comparison` was fixed entirely in the builder
+  (`mark-line-pattern` -> `line-pattern`), so it gains no flag.
+* `2020-06-12-ww24-moving-average-trend` is included here because it now loads
+  and passes its verifier, but see the caveat in section 8.2 about its
+  `ordering-field` assertion.
+
+Full-corpus verdict from `scratch/_verify_all.py` over
+`scratch/_orig_broken.txt`:
+
+```
+LOADED=50 FAIL=0 UNKNOWN=0
+```
+
 ### 8.3 Recommended next steps
 
 1. **Add a Desktop smoke test** to CI for cases using actions, parameters,
@@ -462,9 +551,11 @@ All seven pass the repository's isolated CI validation
 ## 9. Artifacts
 
 * `cwtwb` PR #7 — schema-derived ordering, style/action/parameter normalisation,
-  plus `tests/test_schema_order.py` and `tests/test_xsd_element_order.py`
+  plus `tests/test_schema_order.py`, `tests/test_xsd_element_order.py` and
+  `tests/test_manifest_flag_reconciliation.py`
 * `scripts/validate_iteration.py` — XSD gate
 * `iterations/2026-02-15-ww06-null-safe-averages/` — first fixed case
-* 22 rebuilt cases listed in section 8.1 (`2020-06-12-ww24-moving-average-trend`
-  is excluded; see section 8.2)
+* All 50 originally-broken cases are rebuilt; the per-case result is in
+  section 8.2.7. `2020-06-12-ww24-moving-average-trend` is now rebuilt and
+  loads; see the caveat in section 8.2.
 * `usage/case-index.json` — regenerated catalogue
