@@ -258,6 +258,10 @@ that predates this work:
 
 * After the manifest-flag fixes, **35 of the 50** originally-broken workbooks
   open in Desktop; 15 still do not. See section 8.2.3 for the exact lists.
+* A second pass isolated four further manifest-flag pairings (text buttons,
+  dashboard extensions) and one builder defect, taking the corpus to
+  **50 of 50** originally-broken workbooks opening in Desktop. See section
+  8.2.6.
 * `2020-06-12-ww24-moving-average-trend` is deliberately excluded. Its verifier
   asserts that a table-calc `ordering-field` always carries the
   `[none:...:ok]` instance wrapper, but a later SDK change (`eb1380d`) made that
@@ -311,6 +315,8 @@ Desktop's DOM loader rejects it (error code `d2e8da72`).
 | `<devicelayouts>` | `AutoCreateAndUpdateDSDPhoneLayouts` | fixed in cwtwb |
 | dashboard `<button>` | `CollapsiblePane` | fixed in cwtwb |
 | `pane/@generated-title` | `Layers` | fixed in cwtwb |
+| text `<button button-type="text">` | `BasicButtonObject` + `BasicButtonObjectTextSupport` | fixed in cwtwb |
+| dashboard extension `<add-in>` | `Extensions` | fixed in cwtwb |
 | datasource-level `<column-instance>` | (must not be emitted) | identified |
 
 `computed-sort` and `generated-title` were confirmed the same way: removing
@@ -344,30 +350,33 @@ reconciliation pass covers the `SortTagCleanup`, `HideSortControls`,
 `AutoCreateAndUpdateDSDPhoneLayouts`, `CollapsiblePane` and `Layers` pairings
 listed in section 8.2.2.
 
-Four cases still fail for separate, non-flag reasons:
+Four cases still fail for separate, non-flag reasons. All four are resolved by
+the second pass in section 8.2.6; the findings below are kept because they
+record how each defect was localised.
 
-* `2020-03-07-ww10-spatial-buffers` — four of its five worksheets fail when
-  copied into a known-good workbook, the same "broad failure" shape as ww07.
-  It fails identically on the released SDK, so it predates this work.
+* `2020-03-07-ww10-spatial-buffers` — a text-button workbook. The button was
+  isolated as the blocker (removing it opens the workbook); it needed the two
+  `BasicButtonObject` flags, not just `CollapsiblePane`.
 
-* `2020-09-26-ww39-mobile-calendar-picker` — the dashboard toggle-button
-  workbook. Removing the `<button>` elements or the dashboard opens it, so the
-  defect is in the button/dashboard interaction, not a missing flag. Adding
-  every manifest entry the author workbook carries does not fix it.
-* `2021-02-18-ww07-emoji-sentiment-rating` — three of its four worksheets
-  (all except `Info`) fail when copied into a known-good workbook. The
-  worksheet `Top 20` fails even with its `<table>` replaced by the loading
-  `Info` table, while the reverse swap loads, so the defect is in the
-  worksheet's datasource-dependencies or another non-`table` child.
+* `2020-09-26-ww39-mobile-calendar-picker` — the same text-button defect. Every
+  author manifest entry combined fixed it, but no single entry did; the missing
+  pair was `BasicButtonObject` + `BasicButtonObjectTextSupport`.
+* `2021-02-18-ww07-emoji-sentiment-rating` — two independent blockers: the
+  dashboard extension zone needed the `Extensions` flag, and the `Top 20` /
+  `by Group` worksheets needed `manual-sort` + `shelf-sorts` to be removed or
+  the extension flag added first.
 
 A third defect was found and fixed in a case builder rather than the SDK:
 `2026-02-09-ww05-kpi-period-comparison` passed `mark-line-pattern` to
 `panes_style`, but Tableau's valid attribute is `line-pattern`; the workbook
 did not open until the attribute was renamed.
 
-`2020-03-21-ww12-missing-periods-autosize-bars` is a pre-existing builder
-failure (`Toggle targets must include every parameter control in their
-container`) that fails on the released SDK too and is unrelated to this work.
+`2020-03-21-ww12-missing-periods-autosize-bars` failed with a builder error
+(`Toggle targets must include every parameter control in their container`).
+The builder omitted the two parameter controls from the toggle's
+`target_parameters`, so the SDK rejected the toggle before a workbook was
+written. Passing `target_parameters=["Select Period", "Number of Years"]`
+resolves it and the workbook opens.
 
 #### 8.2.4 Method that works
 
@@ -395,15 +404,60 @@ LOADED. An earlier harness reported spurious `UNKNOWN` results; treat any
 `UNKNOWN` as FAIL until re-verified. `scratch/_tw_one.py` remains for
 before/after comparisons.
 
+`scratch/_tw_check.py` is the current classifier and `scratch/_dt.py` /
+`scratch/_dtb.py` wrap it for single-file and batch runs. The classifier
+matches the launched process by the workbook path in `argv[1]`, then treats
+`show-detailed-error-dialog` as FAIL and `end-workspace.load-workbook` as
+LOADED. Kill `tableau.exe` / `tabprotosrv.exe` and wait for exit between runs
+because Tableau forwards a second launch to the running instance.
+
+#### 8.2.6 Second pass: 50 of 50 originally-broken workbooks open
+
+Four further manifest-flag pairings and one builder defect closed the gap from
+46 to 50. Each was isolated with a minimal reproducer (remove the element ->
+LOADED, add only the flag -> LOADED) and re-verified in Desktop.
+
+| Element present | Required manifest flag(s) | Cases |
+| --- | --- | --- |
+| text `<button button-type="text">` | `BasicButtonObject` + `BasicButtonObjectTextSupport` | ww10, ww39, ww12, ww30, ww03 |
+| dashboard extension `<add-in>` | `Extensions` | ww07, ww08 |
+
+`BasicButtonObjectTextSupport` is written with `ignorable="true"` and
+`predowngraded="true"`, matching Tableau-authored workbooks. Adding only
+`CollapsiblePane` (the older rule) leaves Desktop refusing the workbook; the
+text-button flags are required in addition. Image buttons keep the old
+behaviour.
+
+For ww07 the extension zone was the first blocker: removing
+`referenced-extensions` alone did not help because the dashboard still carried
+the `<add-in>` zone, and `<Extensions/>` alone made it load. The `Top 20` and
+`by Group` worksheets then loaded once the extension flag was present.
+
+Rebuilding the five text-button cases and the two extension cases and testing
+each in Desktop gives:
+
+```
+LOADED  2019-07-25-ww30-navigation-kpi
+LOADED  2020-03-07-ww10-spatial-buffers
+LOADED  2020-03-21-ww12-missing-periods-autosize-bars
+LOADED  2020-09-26-ww39-mobile-calendar-picker
+LOADED  2021-01-22-ww03-control-chart
+LOADED  2021-02-18-ww07-emoji-sentiment-rating
+LOADED  2021-02-25-ww08-brush-filter-extension
+```
+
+`2021-02-25-ww08-brush-filter-extension` was not on the originally-broken list
+but carried the same latent extension defect and is fixed by the same change.
+All seven pass the repository's isolated CI validation
+(`run_case_scripts_isolated`).
+
 ### 8.3 Recommended next steps
 
-1. **Add a Desktop smoke test** to CI for cases using actions, parameters or
-   table calculations, reusing the log-based classifier in section 7. The XSD
-   gate cannot catch non-schema defects.
-2. **Localise the remaining non-schema defects.** A useful technique: compare a
-   workbook that opens against one that does not, swapping one top-level section
-   at a time, then bisect within the section that changes the outcome.
-3. **Refresh Cloud evidence** for the rebuilt cases through the capture flow.
+1. **Add a Desktop smoke test** to CI for cases using actions, parameters,
+   buttons, extensions or table calculations, reusing the log-based classifier
+   in section 7. The XSD gate cannot catch non-schema defects.
+2. **Refresh Cloud evidence** for the rebuilt cases through the capture flow.
+   Rebuilding changes bytes, so the recorded replica hashes no longer match.
 
 ## 9. Artifacts
 

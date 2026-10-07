@@ -304,6 +304,7 @@ def build(output_path=None):
     e.add_dashboard_toggle_button(
         DASHBOARD,
         target_worksheets=["Selector"],
+        target_parameters=["Select Period", "Number of Years"],
         caption_shown="Hide",
         caption_hidden="Show",
         initially_hidden=True,
