@@ -451,6 +451,32 @@ but carried the same latent extension defect and is fixed by the same change.
 All seven pass the repository's isolated CI validation
 (`run_case_scripts_isolated`).
 
+#### 8.2.6.1 Removing a builder's obsolete raw-XML sanitizer
+
+`2026-03-01-ww08-dzv-filter-actions` carried a fourth kind of workaround: its
+builder post-processed its own `.twbx` with `lxml`, rewriting four things the
+SDK now handles. The post-processing violated the public-SDK construction
+contract (`validate_builder_boundary`) and made
+`scripts/validate_changed_cases.py --all` fail for the whole repository.
+
+It also did active harm. One of its four steps deleted **every**
+`<manual-sort>` element, discarding real sort state. The correct fix is the
+`SortTagCleanup` manifest flag, which the reconciliation pass emits from the
+finished tree.
+
+| Sanitizer step | Now handled by |
+| --- | --- |
+| reorder `<actions>` | `schema_order.py` (`Actions-G` order) |
+| delete `<manual-sort>` | `SortTagCleanup` manifest flag (section 8.2.1) |
+| move `<encodings>` before `<customized-label>` | `schema_order.py`, derived from the vendored XSD |
+| `font-color` -> `color` | the SDK no longer emits `font-color` |
+
+Rebuilt without the sanitizer: 0 strict XSD errors, **3 `<manual-sort>`
+elements preserved** (was 0), `SortTagCleanup` present, and Desktop reports
+LOADED. The case verifier and the isolated CI validation both pass, and
+`validate_changed_cases.py --all --metadata-only` now exits 0 for the entire
+repository.
+
 #### 8.2.7 Case-by-case result
 
 All 50 originally-broken workbooks were rebuilt and re-opened in Tableau
