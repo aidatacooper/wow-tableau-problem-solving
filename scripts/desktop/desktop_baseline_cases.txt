@@ -1,0 +1,60 @@
+# Desktop-load regression baseline.
+#
+# These 50 cases all failed to open in Tableau Desktop 2026.2 before the
+# schema-order and manifest-flag fixes, and all 50 now load. Keep this list
+# as the regression gate: a change to cwtwb or a builder must not drop any of
+# them back to FAIL.
+#
+# Run: python scripts/desktop/verify_corpus.py
+#
+# One iteration directory name per line. '#' starts a comment.
+2019-07-25-ww30-navigation-kpi
+2019-08-04-ww31-hub-spoke-map
+2019-09-02-ww34-top-n-single-worksheet
+2019-09-04-ww35-drill-up-down-parameter-actions
+2019-09-13-ww37-rounded-bar-chart
+2019-10-14-ww41-customers-costing-us
+2019-10-19-ww42-comparative-line-dynamic-inputs
+2019-12-15-ww50-retention-heatmap
+2020-01-04-ww01-single-click-sort
+2020-01-11-ww02-dynamic-bar-chart
+2020-01-25-ww04-relative-custom-dates
+2020-02-09-ww06-mom-progress-report
+2020-02-16-ww07-forecast-target-parameters
+2020-03-07-ww10-spatial-buffers
+2020-03-13-ww11-smart-ranked-lists
+2020-03-21-ww12-missing-periods-autosize-bars
+2020-03-28-ww13-simple-sales-dashboard
+2020-04-17-ww16-adjusted-target-missing-pipeline
+2020-05-03-ww18-most-profitable-products
+2020-05-08-ww19-dynamic-date-drilling
+2020-05-15-ww20-state-contribution
+2020-05-22-ww21-automatic-phone-layout
+2020-05-29-ww22-profitability-budget
+2020-06-12-ww24-moving-average-trend
+2020-06-20-ww25-pizza-toppings-set-actions
+2020-07-10-ww28-sales-versus-goal
+2020-07-18-ww29-dynamic-heatmap-labels
+2020-08-01-ww31-olympic-rank-bump-chart
+2020-08-12-ww33-connected-profit-quantity-scatter
+2020-09-06-ww36-counties-within-radius
+2020-09-19-ww38-daily-weekly-sales
+2020-09-26-ww39-mobile-calendar-picker
+2020-10-03-ww40-football-table-enhancements
+2020-10-09-ww41-per-dimension-reference-lines
+2020-10-22-ww43-mobile-kpi-expansion
+2020-10-30-ww44-small-multiple-waterfall
+2020-11-06-ww45-state-top10-products
+2020-12-04-ww49-and-or-filtering
+2020-12-11-ww50-profit-measure-names
+2021-01-22-ww03-control-chart
+2021-02-04-ww05-predicting-the-future
+2021-02-11-ww06-fancy-text-table
+2021-02-18-ww07-emoji-sentiment-rating
+2021-03-04-ww09-hide-chart-map-layers
+2021-03-11-ww10-must-include-filter
+2023-11-30-ww48-bars-and-candlesticks
+2026-02-02-ww04-dynamic-moving-average
+2026-02-09-ww05-kpi-period-comparison
+2026-02-15-ww06-null-safe-averages
+2026-03-12-ww09-parallel-coordinates
