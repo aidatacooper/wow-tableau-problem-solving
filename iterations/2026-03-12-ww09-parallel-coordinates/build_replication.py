@@ -106,7 +106,7 @@ def build():
                     "mark-labels-show": "true",
                     "mark-labels-mode": "line-ends",
                     "mark-labels-cull": "false",
-                    "mark-labels-match-mark-color": "true",
+                    "color-mode": "match",
                     "mark-labels-line-first": "false",
                     "mark-markers-mode": "all",
                 },

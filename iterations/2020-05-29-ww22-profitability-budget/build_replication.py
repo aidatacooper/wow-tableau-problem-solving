@@ -113,7 +113,7 @@ def build(output_path=None):
                     "labels": ["Label:SubCat"] if name == "Viz (2)" else [],
                     "tooltip": ["Profit", "Margin"],
                     "mark_style": {
-                        "mark-line-markers": "all",
+                        "mark-markers-mode": "all",
                         "size": "0.5",
                         "mark-labels-show": "true",
                         "mark-labels-cull": "true",

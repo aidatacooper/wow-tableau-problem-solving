@@ -348,6 +348,7 @@ def run_case_scripts_isolated(case_dir: Path) -> None:
                 artifact.unlink()
         run_case_script(scratch_case, "build_replication.py")
         metadata = yaml.safe_load((scratch_case / "case.yaml").read_text(encoding="utf-8")) or {}
+        validate_workbook_schema(scratch_case, metadata)
         primary = metadata.get("artifacts", {}).get("primary_workbook", "outputs/replicated-workbook.twbx")
         case_file(scratch_case, primary, "Builder did not generate its primary workbook")
         # Historical verifiers may use a declared former output name. Point that
@@ -391,6 +392,46 @@ def run_case_scripts_isolated(case_dir: Path) -> None:
         validate_identity(scratch_case, case, LAB_ROOT)
 
 
+def validate_workbook_schema(case_dir: Path, case: dict) -> None:
+    """Reject generated workbooks that violate Tableau's own TWB XSD.
+
+    Tableau Desktop refuses to load a workbook whose DOM loader hits an
+    out-of-order XSD sequence (for example ``<column-instance>`` after
+    ``<drill-paths>`` or ``<action>`` after ``<edit-parameter-action>``).
+    Static contract checks in the verifier do not catch this, so the packaged
+    artifact is checked directly against the vendored official schema.
+
+    Compatibility-only warnings that Tableau itself tolerates are ignored;
+    only strict schema errors fail the case.
+    """
+    primary = case.get("artifacts", {}).get(
+        "primary_workbook", "outputs/replicated-workbook.twbx"
+    )
+    workbook = case_dir / str(primary)
+    if workbook.suffix.lower() not in WORKBOOK_SUFFIXES or not workbook.is_file():
+        return
+    try:
+        from cwtwb.validator import (
+            load_workbook_root,
+            validate_against_schema,
+        )
+    except ModuleNotFoundError:
+        return
+    try:
+        root = load_workbook_root(workbook)
+    except Exception:
+        # Fixtures and non-archive placeholders are covered by the verifier.
+        return
+    result = validate_against_schema(root)
+    if not result.schema_available:
+        return
+    if result.errors:
+        details = "\n".join(f"  * {error}" for error in result.errors)
+        raise AssertionError(
+            f"Generated workbook fails Tableau TWB XSD validation ({primary}):\n{details}"
+        )
+
+
 def validate_iteration(case_dir: Path, run_scripts: bool = True) -> None:
     case_dir = case_dir.resolve()
     case = validate_metadata(case_dir)
@@ -405,6 +446,7 @@ def validate_iteration(case_dir: Path, run_scripts: bool = True) -> None:
     validate_builder_boundary(case_dir, enforce_public_sdk=public_sdk_boundary_required(case))
     if run_scripts:
         run_case_script(case_dir, "build_replication.py")
+        validate_workbook_schema(case_dir, case)
         run_case_script(case_dir, "verify_replication.py")
     # A new case has no packaged output until its first build succeeds.
     validate_identity(case_dir, case, LAB_ROOT)

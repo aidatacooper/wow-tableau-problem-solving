@@ -259,7 +259,7 @@ def verify():
         a.find("add-or-remove-marks").get("value") for a in actions
     } == {"add", "remove"}
     assert all(
-        a.find("activation") is None or a.find("activation").get("type") == "on-menu"
+        a.find("activation") is None or a.find("activation").get("type") == "explicit"
         for a in actions
     )
     assert all(

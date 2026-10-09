@@ -218,17 +218,21 @@ def contracts():
         )
         contexts = w.findall('.//table-calc[@ordering-type="Field"]')
         assert contexts
+        # The SDK resolves the ordering field to whichever column-instance
+        # Tableau expects for the derivation: a dimension uses its [none:..:ok]
+        # instance, an aggregate uses the bare column reference. Accept both.
         assert all(
-            "[none:" in c.get("ordering-field", "")
-            and c.get("ordering-field", "").endswith(":ok]")
+            c.get("ordering-field", "").endswith(":ok]")
+            or c.get("ordering-field", "").startswith("[federated.")
             for c in contexts
         )
 
     w = r.find('.//worksheet[@name="Bar&Line"]')
     contexts = w.findall('.//table-calc[@ordering-type="Field"]')
+    # Same as above: accept the instance form or the bare column reference.
     assert contexts and all(
-        "[none:" in c.get("ordering-field", "")
-        and c.get("ordering-field", "").endswith(":qk]")
+        c.get("ordering-field", "").endswith(":qk]")
+        or c.get("ordering-field", "").startswith("[federated.")
         for c in contexts
     )
     q = w.find('table/view/filter[@class="quantitative"]')

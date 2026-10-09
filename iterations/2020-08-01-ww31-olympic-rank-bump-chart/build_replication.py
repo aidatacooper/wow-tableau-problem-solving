@@ -249,7 +249,7 @@ def build():
         label_formats=[{"field": "Year", "text-orientation": "0", "font-size": "8"}],
         pane_mark_style={
             "line-interpolation": "linear",
-            "line-null-interpolation": "false",
+            "line-interpolation": "false",
         },
     )
     e.add_worksheet("Medals")

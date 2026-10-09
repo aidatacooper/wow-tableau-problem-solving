@@ -178,7 +178,7 @@ def build(p):
     month_ci = e.field_registry.parse_expression("Month Label")
     month_ref = e.field_registry.resolve_full_reference(month_ci.instance_name)
     manual_sort = etree.Element(
-        "sort", column=month_ref, direction="ASC", **{"class": "manual"}
+        "manual-sort", column=month_ref, direction="ASC"
     )
     dictionary = etree.SubElement(manual_sort, "dictionary")
     for year in range(2019, 2015, -1):

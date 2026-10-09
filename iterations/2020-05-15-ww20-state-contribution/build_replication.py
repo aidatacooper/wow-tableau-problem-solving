@@ -354,7 +354,7 @@ def build(output_path=None):
         },
         pane_cell_style={
             "font-size": "8",
-            "font-color": "#ffffff",
+            "color": "#ffffff",
             "text-align": "left",
         },
         cell_formats=[{"field": "State", "height": "28"}],

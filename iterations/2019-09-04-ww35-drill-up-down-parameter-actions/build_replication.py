@@ -87,9 +87,15 @@ def build(path: Path) -> Path:
     )
     view = editor._find_worksheet("Viz").find("table/view")
     category = f"[{editor._datasource.get('name')}].[none:Category:nk]"
+    # A manual sort is <manual-sort>, not <sort class="manual">; the latter is
+    # not in the XSD sequence and Desktop refuses to open the workbook.
     category_sort = etree.Element(
-        "sort", column=category, direction="ASC", **{"class": "manual"}
+        "manual-sort", column=category, direction="ASC"
     )
+    # Tableau requires this manifest flag for <manual-sort>.
+    manifest = editor.root.find("document-format-change-manifest")
+    if manifest is not None and manifest.find("SortTagCleanup") is None:
+        etree.SubElement(manifest, "SortTagCleanup")
     dictionary = etree.SubElement(category_sort, "dictionary")
     for value in ("Technology", "Office Supplies", "Furniture"):
         etree.SubElement(dictionary, "bucket").text = f'"{value}"'

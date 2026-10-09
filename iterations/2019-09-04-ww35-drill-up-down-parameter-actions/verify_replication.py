@@ -18,7 +18,7 @@ def check(root: etree._Element) -> None:
     assert "[Parameters].[Parameter 2] = 2" in formulas["Level"]
     assert "[Sub-Category]" in formulas["Display"]
     viz = root.xpath("./worksheets/worksheet[@name='Viz']")[0]
-    buckets = viz.xpath("./table/view/sort[@class='manual']/dictionary/bucket/text()")
+    buckets = viz.xpath("./table/view/manual-sort/dictionary/bucket/text()")
     assert buckets == ['"Technology"', '"Office Supplies"', '"Furniture"']
     assert viz.xpath("./table/style/style-rule[@element='axis']/format[@attr='display'][@value='false']")
 

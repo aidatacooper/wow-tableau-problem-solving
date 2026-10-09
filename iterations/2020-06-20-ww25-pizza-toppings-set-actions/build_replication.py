@@ -362,7 +362,7 @@ def build():
         label_formats=[
             {"field": "Type", "display": False},
             {"field": "Product Copy", "display": False},
-            {"field": "Veg Indicator", "font-color": "#008682"},
+            {"field": "Veg Indicator", "color": "#008682"},
         ],
         pane_mark_style={
             "mark-labels-show": "true",

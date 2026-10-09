@@ -217,8 +217,8 @@ def build(output_path: Path) -> Path:
         "Monthly Concert Trend",
         pane_mark_style={
             "mark-labels-mode": "line-ends",
-            "mark-labels-line-start": "false",
-            "mark-labels-line-end": "true",
+            "mark-labels-line-first": "false",
+            "mark-labels-line-last": "true",
             "mark-labels-cull": "false",
         },
         pane_cell_style={"text-align": "right", "vertical-align": "top"},

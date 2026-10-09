@@ -169,8 +169,8 @@ def build(output_path=None):
         disable_tooltip=True,
         pane_cell_style={"text-align": "left", "vertical-align": "center"},
         table_formats=[
-            {"attr": "cell-width", "value": "1000"},
-            {"attr": "cell-height", "value": "90"},
+            {"attr": "width", "value": "1000"},
+            {"attr": "height", "value": "90"},
         ],
     )
     editor.add_worksheet("Reset")
@@ -211,7 +211,6 @@ def build(output_path=None):
             "mark-labels-show": "true",
         },
         pane_cell_style={"text-align": "center", "font-size": "9"},
-        axis_style={"min": "0", "max": "1"},
     )
     editor.add_dashboard(
         DASHBOARD,

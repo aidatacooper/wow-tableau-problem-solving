@@ -76,7 +76,7 @@ def configure_rounded_measure_values(editor: TWBEditor) -> None:
 
     view = table.find("view")
     sort = etree.Element(
-        "sort", column=measure_names, direction="ASC", **{"class": "manual"}
+        "manual-sort", column=measure_names, direction="ASC"
     )
     dictionary = etree.SubElement(sort, "dictionary")
     for expression in ("Region % of Sales", "MIN(Rounded Bar Start)", "MIN(Full Bar)"):
