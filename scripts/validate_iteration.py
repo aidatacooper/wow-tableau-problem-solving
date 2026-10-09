@@ -95,6 +95,25 @@ def validate_metadata(case_dir: Path) -> dict:
         "matched",
     }:
         raise AssertionError("Invalid visual_status")
+    # A visual claim needs a visual artifact. Without this, a case can assert
+    # acceptable_delta with no rendered image behind it and still pass every
+    # other check, which is exactly how an empty-rendering workbook slipped
+    # through once. Historical schema 1.0 records are grandfathered.
+    if (
+        case["visual_status"] != "not_evaluated"
+        and case.get("verification_status") != "historical"
+    ):
+        artifacts = case.get("artifacts") or {}
+        for key in ("cloud_author", "cloud_replica"):
+            relative = artifacts.get(key)
+            if not relative:
+                raise AssertionError(
+                    f"visual_status '{case['visual_status']}' requires artifacts.{key}"
+                )
+            if not (case_dir / relative).is_file():
+                raise AssertionError(
+                    f"artifacts.{key} does not exist: {relative}"
+                )
     if case["cwtwb_result"] not in {"pass", "workaround", "blocked"}:
         raise AssertionError("Invalid cwtwb_result")
     if not case["cwtwb"].get("tested_version"):
