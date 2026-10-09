@@ -1,14 +1,14 @@
 {
   "summary": {
-    "total_articles": 342,
-    "with_links": 337,
+    "total_articles": 349,
+    "with_links": 344,
     "without_links": 5,
-    "unique_links": 393,
-    "unique_workbooks": 370,
+    "unique_links": 401,
+    "unique_workbooks": 377,
     "distribution": {
       "0": 5,
-      "1": 284,
-      "2": 48,
+      "1": 290,
+      "2": 49,
       "3": 4,
       "4": 1
     }
@@ -249,8 +249,14 @@
     {
       "article": "2019-11-11-What_is_our_daily_fulfilment_rate_by_region",
       "html_file": "2019-11-11-What_is_our_daily_fulfilment_rate_by_region.html",
-      "link_count": 1,
+      "link_count": 2,
       "links": [
+        {
+          "raw_url": "https://public.tableau.com/profile/donna.coles#!/",
+          "workbook": "",
+          "view": "",
+          "viz_url": ""
+        },
         {
           "raw_url": "https://public.tableau.com/profile/donna.coles#!/vizhome/2019_11_06_WW45_Donut_Calendar/2019_11_06_WW45_Donut_Calendar_Single_Sheet",
           "workbook": "2019_11_06_WW45_Donut_Calendar",
@@ -4776,6 +4782,97 @@
           "workbook": "2026_07_15_WW28_Pareto",
           "view": "2026_07_15_WW28_Pareto",
           "viz_url": "https://public.tableau.com/views/2026_07_15_WW28_Pareto/2026_07_15_WW28_Pareto"
+        }
+      ]
+    },
+    {
+      "article": "2026-08-01-Can_you_build_a_ladder_chart",
+      "html_file": "2026-08-01-Can_you_build_a_ladder_chart.html",
+      "link_count": 1,
+      "links": [
+        {
+          "raw_url": "https://public.tableau.com/app/profile/donna.coles/viz/2026_07_29_WW30_Tennis_Career_Ladder_Chart/2026_07_29_WW30_Tennis_Career_Ladder_Chart",
+          "workbook": "2026_07_29_WW30_Tennis_Career_Ladder_Chart",
+          "view": "2026_07_29_WW30_Tennis_Career_Ladder_Chart",
+          "viz_url": "https://public.tableau.com/views/2026_07_29_WW30_Tennis_Career_Ladder_Chart/2026_07_29_WW30_Tennis_Career_Ladder_Chart"
+        }
+      ]
+    },
+    {
+      "article": "2026-08-14-Can_you_use_Sets_to_highlight_top_and_bottom_performing_States_&_Cities",
+      "html_file": "2026-08-14-Can_you_use_Sets_to_highlight_top_and_bottom_performing_States_&_Cities.html",
+      "link_count": 1,
+      "links": [
+        {
+          "raw_url": "https://public.tableau.com/app/profile/donna.coles/viz/2026_08_12_WW32_Sets/2026_08_12_WW32_Sets",
+          "workbook": "2026_08_12_WW32_Sets",
+          "view": "2026_08_12_WW32_Sets",
+          "viz_url": "https://public.tableau.com/views/2026_08_12_WW32_Sets/2026_08_12_WW32_Sets"
+        }
+      ]
+    },
+    {
+      "article": "2026-08-21-Can_you_visualise_a_common_starting_point",
+      "html_file": "2026-08-21-Can_you_visualise_a_common_starting_point.html",
+      "link_count": 1,
+      "links": [
+        {
+          "raw_url": "https://public.tableau.com/app/profile/donna.coles/viz/2026_08_19_WW33_Common_Start_Point/2026_08_19_WW33_Common_Start_Point#1",
+          "workbook": "2026_08_19_WW33_Common_Start_Point",
+          "view": "2026_08_19_WW33_Common_Start_Point",
+          "viz_url": "https://public.tableau.com/views/2026_08_19_WW33_Common_Start_Point/2026_08_19_WW33_Common_Start_Point"
+        }
+      ]
+    },
+    {
+      "article": "2026-09-04-Can_you_use_a_published_data_source_and_web_edit_to_create_a_Cyclone_Path_Map",
+      "html_file": "2026-09-04-Can_you_use_a_published_data_source_and_web_edit_to_create_a_Cyclone_Path_Map.html",
+      "link_count": 1,
+      "links": [
+        {
+          "raw_url": "https://public.tableau.com/app/profile/donna.coles/viz/2026_09_02_WW35_Cyclone_Path_Map_Web_Edit/2026_09_02_WW35_Cyclone_Path_Map_Web_Edit",
+          "workbook": "2026_09_02_WW35_Cyclone_Path_Map_Web_Edit",
+          "view": "2026_09_02_WW35_Cyclone_Path_Map_Web_Edit",
+          "viz_url": "https://public.tableau.com/views/2026_09_02_WW35_Cyclone_Path_Map_Web_Edit/2026_09_02_WW35_Cyclone_Path_Map_Web_Edit"
+        }
+      ]
+    },
+    {
+      "article": "2026-09-11-Let’s_tell_a_story_with_map_layers!",
+      "html_file": "2026-09-11-Let’s_tell_a_story_with_map_layers!.html",
+      "link_count": 1,
+      "links": [
+        {
+          "raw_url": "https://public.tableau.com/app/profile/donna.coles/viz/2026_09_09_WW36_John_Snow_Cholera_Map/2026_09_09_WW36_John_Snow_Cholera_Map",
+          "workbook": "2026_09_09_WW36_John_Snow_Cholera_Map",
+          "view": "2026_09_09_WW36_John_Snow_Cholera_Map",
+          "viz_url": "https://public.tableau.com/views/2026_09_09_WW36_John_Snow_Cholera_Map/2026_09_09_WW36_John_Snow_Cholera_Map"
+        }
+      ]
+    },
+    {
+      "article": "2026-09-18-Can_you_format_your_numbers_to_the_right_scale",
+      "html_file": "2026-09-18-Can_you_format_your_numbers_to_the_right_scale.html",
+      "link_count": 1,
+      "links": [
+        {
+          "raw_url": "https://public.tableau.com/app/profile/donna.coles/viz/2026_09_16_WW37_Number_Format/2026_09_16_WW37_Number_Format",
+          "workbook": "2026_09_16_WW37_Number_Format",
+          "view": "2026_09_16_WW37_Number_Format",
+          "viz_url": "https://public.tableau.com/views/2026_09_16_WW37_Number_Format/2026_09_16_WW37_Number_Format"
+        }
+      ]
+    },
+    {
+      "article": "2026-09-26-Can_you_create_an_embedded_categorised_dashboard_portal",
+      "html_file": "2026-09-26-Can_you_create_an_embedded_categorised_dashboard_portal.html",
+      "link_count": 1,
+      "links": [
+        {
+          "raw_url": "https://public.tableau.com/app/profile/donna.coles/viz/2026_09_23_WW38_Embed_Webpage/2026_09_23_WW38_Embed_WebPage",
+          "workbook": "2026_09_23_WW38_Embed_Webpage",
+          "view": "2026_09_23_WW38_Embed_WebPage",
+          "viz_url": "https://public.tableau.com/views/2026_09_23_WW38_Embed_Webpage/2026_09_23_WW38_Embed_WebPage"
         }
       ]
     }
