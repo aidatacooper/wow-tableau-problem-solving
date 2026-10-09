@@ -344,6 +344,20 @@ SDK 用 C:\Users\imgwho\.paseo\worktrees\<id>\<slug>\src
 - [ ] 若产物被重建：`evidence/cloud-verification.json` 的 hash 需通过采集流程刷新
 - [ ] 进度与根因已写入 `docs/`
 
+### 顺序要求：Cloud 采集必须放在最后
+
+`validate_iteration.py` 和 `build_and_check.py` **都会重建产物**，而每次重建的
+内部 UUID 都不同（`cwtwb` 用 `uuid4()` 生成连接名和字段 id）。所以：
+
+```
+validate_iteration.py  →  build_and_check.py  →  capture_case_cloud.py
+                                                  ↑ 必须最后跑
+```
+
+先采集再验证，会让 `cloud-verification.json` 记录的 replica hash 与最终提交的
+字节不一致（已验证过的 case 里也有这种历史不一致）。如果顺序错了，重跑一次
+采集即可。
+
 ---
 
 ## 9. 已知限制
