@@ -1,0 +1,33 @@
+{
+ "schema_version": "1.0.0",
+ "source": "outputs/replicated-workbook.twbx",
+ "counts": {
+  "worksheets": 3,
+  "dashboards": 1,
+  "parameters": 0,
+  "required_calculated_fields": 3,
+  "dashboard_actions": 1
+ },
+ "calculated_fields": [
+  {
+   "name": "Weighted Avg",
+   "formula": "SUM([Discount] * [Quantity]) / SUM([Quantity])"
+  },
+  {
+   "name": "Difference from correct metric",
+   "formula": "ABS([Weighted Avg] - AVG([Discount]))"
+  },
+  {
+   "name": "Is difference?",
+   "formula": "ROUND([Difference from correct metric], 3) <> 0"
+  }
+ ],
+ "worksheets": [
+  "Order Details",
+  "Simple Avg",
+  "Weighted Avg"
+ ],
+ "dashboards": [
+  "2026_04_13_WW14_Correct_Metric"
+ ]
+}

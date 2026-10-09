@@ -34,12 +34,12 @@ cwtwb:
   - version: 0.27.1
     result: pass
     evidence: verify_replication.py
-  tested_commit: a6ce15af3e6af1b9e6e5b848141e663ab2e50bcb
+  tested_commit: 876bd222011237edd84b1e2649a4fe213ff263db
 verification_status: verified
 artifacts:
   primary_workbook: outputs/replicated-workbook.twbx
-  cloud_author: null
-  cloud_replica: null
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
 artifact_aliases: {}
 historical_artifacts:
 - path: outputs/2026-04-13-ww14-correct-metric-replicated-workbook.twb
@@ -47,6 +47,11 @@ historical_artifacts:
   note: Unpackaged TWB companion produced by the same builder as the primary TWBX.
 evidence:
 - inputs/source-lock.json
+- evidence/cloud-request.json
+- evidence/cloud-verification.json
+- evidence/validation.json
+- evidence/workbook-inventory.json
+- evidence/visual-review.md
 notes:
 - Rebuilt with cwtwb 0.27.1 from the packaged Hyper extract using public SDK APIs
   only; the author workbook was never opened by the builder.
@@ -76,3 +81,9 @@ acceptance:
   description: Simple Avg, Weighted Avg and Order Details exist, the dashboard
     carries a select highlight action, and the artifact round-trips through the SDK.
   mode: automated
+- id: cloud-visual-and-numeric-agreement
+  description: The Cloud REST author and replica renders were compared; all 649
+    orders agree on the difference flag, quantity and both discount metrics
+    within the author's display precision.
+  mode: manual
+  evidence: evidence/visual-review.md
