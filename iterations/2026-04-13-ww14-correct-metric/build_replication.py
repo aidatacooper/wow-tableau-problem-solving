@@ -24,6 +24,17 @@ WEIGHTED_AVG = "SUM([Discount] * [Quantity]) / SUM([Quantity])"
 DIFFERENCE = "ABS([Weighted Avg] - AVG([Discount]))"
 IS_DIFFERENCE = "ROUND([Difference from correct metric], 3) <> 0"
 
+# The author's palette: mismatching orders are orange, matching ones grey.
+COLOR_MAP = {"true": "#c85200", "false": "#b3b7b8"}
+
+# Author mark styling: translucent, slightly smaller circles whose value
+# labels appear only when the mark is highlighted.
+MARK_STYLE = {
+    "mark_transparency": "142",
+    "size": "1.4029999971389771",
+    "mark_labels_mode": "highlight",
+}
+
 
 def build(output_path: Path) -> Path:
     editor = TWBEditor("")
@@ -43,6 +54,8 @@ def build(output_path: Path) -> Path:
             field_type=field_type,
             default_format="p0.0%" if datatype == "real" else "",
         )
+    # The author displays Discount as a percentage too.
+    editor.set_field_format("Discount", "p0.0%")
 
     common_filters = [
         {
@@ -69,7 +82,7 @@ def build(output_path: Path) -> Path:
         label="AVG(Discount)",
         tooltip=["Difference from correct metric"],
         filters=common_filters,
-        color_map={"true": "#E15759", "false": "#4E79A7"},
+        color_map=COLOR_MAP,
     )
 
     editor.add_worksheet("Weighted Avg")
@@ -83,7 +96,7 @@ def build(output_path: Path) -> Path:
         label="Weighted Avg",
         tooltip=["Difference from correct metric"],
         filters=common_filters,
-        color_map={"true": "#E15759", "false": "#4E79A7"},
+        color_map=COLOR_MAP,
     )
 
     editor.add_worksheet("Order Details")
@@ -143,13 +156,36 @@ def build(output_path: Path) -> Path:
     for sheet in ("Simple Avg", "Weighted Avg", "Order Details"):
         editor.configure_worksheet_style(
             sheet,
-            hide_gridlines=True,
+            # The author keeps the gridlines on the two scatter sheets.
+            hide_gridlines=(sheet == "Order Details"),
             hide_borders=True,
             hide_zeroline=True,
             hide_row_field_labels=(sheet == "Order Details"),
             hide_col_field_labels=(sheet == "Order Details"),
             hide_table_dividers=(sheet == "Order Details"),
+            # Match the author: translucent, smaller marks whose value labels
+            # appear only on the highlighted (selected) mark.
+            pane_mark_style=(
+                MARK_STYLE if sheet in ("Simple Avg", "Weighted Avg") else None
+            ),
         )
+    # The author renames the weighted chart's x axis; the simple one keeps the
+    # default AVG(Discount) title. Pass the field by name and let the SDK
+    # resolve the internal instance reference.
+    editor.configure_worksheet_style(
+        "Weighted Avg",
+        axis_style={
+            "per_field": [
+                {
+                    "field": "Weighted Avg",
+                    "attr": "title",
+                    "value": "Avg. Discount per Order",
+                    "class": "0",
+                    "scope": "cols",
+                }
+            ]
+        },
+    )
 
     layout = {
         "type": "container",
@@ -165,54 +201,121 @@ def build(output_path: Path) -> Path:
                         "font_size": "20",
                         "bold": True,
                         "font_color": "#000000",
+                        "font_alignment": "0",
                     },
                     {
                         "text": "Can you calculate the correct metric?",
                         "font_size": "20",
                         "font_color": "#000000",
+                        "font_alignment": "0",
                     },
                 ],
                 "absolute": {"x": 0, "y": 0, "w": 100000, "h": 9177},
             },
-            {
-                "type": "text",
-                "text": "Simple average (AVG of Discount)",
-                "runs": [
-                    {
-                        "text": "Simple average (AVG of Discount)",
-                        "font_size": "14",
-                        "font_color": "#1b1b1b",
-                    }
-                ],
-                "absolute": {"x": 1538, "y": 11530, "w": 46000, "h": 4000},
-            },
+            # Two scatter sheets stacked on the left, as the author lays them out.
+            # The author hides the sheet titles; the axis titles carry the labels.
             {
                 "type": "worksheet",
                 "name": "Simple Avg",
                 "show_title": False,
                 "fit": "entire",
-                "style": {"background-color": "#ffffff", "padding": 10},
-                "absolute": {"x": 1538, "y": 15530, "w": 46000, "h": 35764},
-            },
-            {
-                "type": "text",
-                "text": "Weighted average (SUM(Discount*Quantity)/SUM(Quantity))",
-                "runs": [
-                    {
-                        "text": "Weighted average (SUM(Discount*Quantity)/SUM(Quantity))",
-                        "font_size": "14",
-                        "font_color": "#1b1b1b",
-                    }
-                ],
-                "absolute": {"x": 48460, "y": 11530, "w": 49940, "h": 4000},
+                "style": {"background-color": "#ffffff"},
+                "absolute": {"x": 1538, "y": 11530, "w": 46000, "h": 39764},
             },
             {
                 "type": "worksheet",
                 "name": "Weighted Avg",
                 "show_title": False,
                 "fit": "entire",
-                "style": {"background-color": "#ffffff", "padding": 10},
-                "absolute": {"x": 48460, "y": 15530, "w": 49940, "h": 35764},
+                "style": {"background-color": "#ffffff"},
+                "absolute": {"x": 1538, "y": 51294, "w": 46000, "h": 39764},
+            },
+            # The author's difference slider, wired to the same metric.
+            {
+                "type": "filter",
+                "worksheet": "Weighted Avg",
+                "field": "Difference from correct metric",
+                "caption": "Difference",
+                "mode": "range",
+                "style": {"background-color": "#f5f5f5"},
+                "absolute": {"x": 83385, "y": 80472, "w": 14230, "h": 7999},
+            },
+            # Explanatory column. The author left-aligns this text; without an
+            # explicit alignment the zone inherits the centred default.
+            {
+                "type": "text",
+                "text": (
+                    "Quantity and Discount by Order\n"
+                    "Values that do not match between the two charts are highlighted in red\n\n"
+                    "Incorrect Metrics\n"
+                    "AVG(Quantity)\n"
+                    "AVG(Discount)\n\n"
+                    "Each circle in the scatter plots represent a unique Order. In this data set, each Order may contain multiple Products.\n\n"
+                    "Since Customers may order different Quantities of each Product, the correct measure for the Average Discount per Order requires the use of a WEIGHTED AVERAGE.\n\n"
+                    "Correct Metrics"
+                ),
+                "runs": [
+                    {"text": "Quantity and Discount by Order\n", "font_size": "15", "bold": True, "font_color": "#000000", "font_alignment": "0"},
+                    {"text": "Values that do not match between the two charts are highlighted in red\n\n", "font_size": "12", "font_color": "#000000", "font_alignment": "0"},
+                    {"text": "Incorrect Metrics\n", "font_size": "20", "bold": True, "font_color": "#000000", "font_alignment": "0"},
+                    {"text": "AVG(Quantity)\n", "font_size": "12", "font_color": "#000000", "font_alignment": "0"},
+                    {"text": "AVG(Discount)\n\n", "font_size": "12", "font_color": "#000000", "font_alignment": "0"},
+                    {"text": "Each circle in the scatter plots represent a unique Order. In this data set, each Order may contain multiple Products.\n\n", "font_size": "12", "font_color": "#000000", "font_alignment": "0"},
+                    {"text": "Since Customers may order different Quantities of each Product, the correct measure for the ", "font_size": "12", "font_color": "#000000", "font_alignment": "0"},
+                    {"text": "Average Discount per Order", "font_size": "12", "bold": True, "font_color": "#000000"},
+                    {"text": " requires the use of a ", "font_size": "12", "font_color": "#000000"},
+                    {"text": "WEIGHTED AVERAGE", "font_size": "12", "bold": True, "font_color": "#000000"},
+                    {"text": ".\n\n", "font_size": "12", "font_color": "#000000"},
+                    {"text": "Correct Metrics", "font_size": "20", "bold": True, "font_color": "#000000", "font_alignment": "0"},
+                ],
+                "absolute": {"x": 52923, "y": 11530, "w": 47077, "h": 68824},
+            },
+            {
+                "type": "text",
+                "text": (
+                    "Click a point in the chart to highlight a specific Order, or use the slider "
+                    "on the right to filter to the orders with the biggest difference between the "
+                    "correct and incorrect discount metrics"
+                ),
+                "runs": [
+                    {
+                        "text": (
+                            "Click a point in the chart to highlight a specific Order, or use the slider "
+                            "on the right to filter to the orders with the biggest difference between the "
+                            "correct and incorrect discount metrics"
+                        ),
+                        "font_size": "9",
+                        "font_color": "#000000",
+                        "font_alignment": "0",
+                    }
+                ],
+                "style": {"border-color": "#cccccc", "border-style": "solid", "border-width": 1, "padding": 6},
+                "absolute": {"x": 53000, "y": 80472, "w": 30385, "h": 7999},
+            },
+            # Footer, matching the author's credits and source link.
+            {
+                "type": "text",
+                "text": "CHALLENGE BY: Erica Hughes",
+                "runs": [{"text": "CHALLENGE BY: Erica Hughes", "font_size": "9", "font_color": "#000000", "font_alignment": "0"}],
+                "absolute": {"x": 0, "y": 93412, "w": 34666, "h": 3529},
+            },
+            {
+                "type": "text",
+                "text": "#WOW2026  |  WEEK 14",
+                "runs": [{"text": "#WOW2026  |  WEEK 14", "font_size": "9", "font_color": "#000000", "font_alignment": "1"}],
+                "absolute": {"x": 34666, "y": 93412, "w": 32820, "h": 3529},
+            },
+            {
+                "type": "text",
+                "text": "RECREATED BY: Donna Coles",
+                "runs": [{"text": "RECREATED BY: Donna Coles", "font_size": "9", "font_color": "#000000", "font_alignment": "2"}],
+                "absolute": {"x": 67486, "y": 93412, "w": 32512, "h": 3529},
+            },
+            {
+                "type": "text",
+                "text": "https://www.workout-wednesday.com/2026w14tab/",
+                "runs": [{"text": "https://www.workout-wednesday.com/2026w14tab/", "font_size": "9", "font_color": "#1f77b4", "font_alignment": "1"}],
+                "absolute": {"x": 0, "y": 96941, "w": 100000, "h": 3059},
             },
         ],
     }

@@ -10,15 +10,14 @@ Identity and exported-file hashes are recorded in
 
 Both render the same 649 orders from Oct–Dec 2025 as two scatter plots of
 `Avg. Quantity` against discount, with orders that disagree between the simple
-and weighted metric highlighted in red.
+and weighted metric highlighted in orange.
 
-The author's dashboard carries a large explanatory text column on the right
-("Quantity and Discount by Order", "Incorrect Metrics" / "Correct Metrics",
-a difference slider) that the replica does not reproduce. The replica keeps the
-two charts and the title, and labels each chart
-`Simple average (AVG of Discount)` / `Weighted average (SUM(Discount*Quantity)/SUM(Quantity))`.
-This is a presentation difference only; the plotted data and the red/grey
-classification are the same.
+The replica follows the author's layout: the two scatter sheets stacked on the
+left (titles hidden, `Avg. Discount` / `Avg. Discount per Order` on the x axes),
+the explanatory text column on the right, the difference slider beneath it, and
+the credits footer. Mark styling matches the author's translucent, smaller
+circles whose value labels appear only when a mark is highlighted
+(`mark-labels-mode: highlight`).
 
 ## Numerical agreement
 
@@ -33,11 +32,6 @@ exports, over the same 649 orders:
 | `Avg. Discount` | 0 mismatches beyond the author's 0.1% display precision |
 | `Weighted Avg` | 0 mismatches beyond the author's 0.1% display precision |
 
-`Avg. Discount` and `Weighted Avg` are formatted as raw fractions in the
-replica (`0.025`) where the author formats them as percentages (`2.5%`). The
-underlying values agree; only the number format differs, and it does not change
-the answer.
-
 The replica's `Weighted Avg` was additionally checked against an **independent
 Hyper aggregate** (`SUM(Discount*Quantity)/SUM(Quantity)` computed directly
 from the packaged extract), not just against the author's rendering: 0
@@ -46,11 +40,11 @@ rounding).
 
 ## Accepted visual differences
 
-- The author's right-hand explanatory text column and difference slider are not
-  reproduced; the replica is the two-chart dashboard only.
-- Mark colouring uses the same red/grey classification but different exact
-  hex values.
-- Axis tick label formatting differs (percent vs fraction), as above.
+- The author's right-hand column is left-aligned paragraph text; the replica
+  reproduces the wording and alignment but the fonts and exact leading differ.
+- The difference slider is present and wired to the same metric, but its
+  styling and the "0.0% to 16.7%" caption formatting differ from the author's.
+- Axis tick label formatting and mark anti-aliasing differ slightly.
 - No clipped or `####` values; all marks are visible in both charts.
 
 This is not a pixel-identical result.
