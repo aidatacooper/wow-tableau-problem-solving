@@ -20,6 +20,26 @@ python -m unittest discover -s tests          # 应全部通过
 
 选 case：见 `docs/unsolved-posts.md`（未解清单，按年份分组）。
 
+### 分支与保护规则（2026-10-09 起）
+
+`main` 已开启保护：**必须走 PR**，禁止 force-push 和删除，合并后源分支**自动删除**。
+
+所以每解一个 case 都要**新开一个临时分支**，绝不在 `main` 上直接提交：
+
+```bash
+cd wow-tableau-problem-solving
+git checkout main && git pull --ff-only          # 从最新的 main 开始
+git checkout -b feat/<YYYY-wwNN-slug>            # 每个 case 一个分支
+# ... 解题、构建、验证 ...
+git push -u origin feat/<YYYY-wwNN-slug>
+gh pr create --base main                          # 开 PR，等 CI 通过
+gh pr merge <n> --merge                           # 合并后分支自动消失
+git checkout main && git pull --ff-only          # 回到 main
+```
+
+合并方式统一用 `--merge`（不要 squash）：cwtwb 的 pin 依赖具体 commit SHA，
+squash 会让被 pin 的 commit 变成不可达，pip 就装不上 SDK 了。
+
 ---
 
 ## 1. 直接复制给 AI 的提示词
@@ -44,6 +64,8 @@ python -m unittest discover -s tests          # 应全部通过
 
 硬性要求：
 - 一个 case 一个 PR，只改 iterations/<id>/ 和生成的 usage/*.json 索引。
+- main 已保护：先开临时分支（feat/<YYYY-wwNN-slug>）再提交，绝不在 main 上直接 commit。
+- 合并用 --merge，不要 squash（cwtwb pin 依赖具体 commit SHA）。
 - 遵守阶段边界：分析阶段可以读文章和作者 TWB/TWBX；
   build_replication.py 只能读 case.yaml、analysis.md、inputs/、
   空模板和公开 cwtwb API，绝不能打开/解压/复制作者工作簿。
@@ -77,7 +99,7 @@ python -m unittest discover -s tests          # 应全部通过
 | 7 | Desktop 门禁 | `build_and_check.py` → 必须 LOADED | LOADED |
 | 8 | 回归 | `verify_corpus.py` → LOADED=50 FAIL=0 UNKNOWN=0 | 无回归 |
 | 9 | 刷索引 | `case_catalogue.py --write` | `usage/*.json` |
-| 10 | 提 PR | 一 case 一 PR | PR |
+| 10 | 提 PR | 开临时分支 → push → `gh pr create` → 合并（分支自动删） | PR |
 
 ### 第 2 步的完整命令
 
