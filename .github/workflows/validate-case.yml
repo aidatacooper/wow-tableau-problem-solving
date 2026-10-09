@@ -10,15 +10,12 @@ on:
         required: false
         default: false
         type: boolean
+  # Runs on every pull request, including docs-only changes. A path filter
+  # here would leave the required 'validate' check permanently unreported on
+  # PRs that touch only docs/ or usage/, blocking them forever. The expensive
+  # steps are already scoped: validate_changed_cases.py exits immediately when
+  # no iteration changed.
   pull_request:
-    paths:
-      - ".github/workflows/**"
-      - "*.py"
-      - "iterations/**"
-      - "schemas/**"
-      - "scripts/**"
-      - "tests/**"
-      - "requirements.txt"
 
 jobs:
   validate:
