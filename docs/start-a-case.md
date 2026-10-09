@@ -44,44 +44,21 @@ squash 会让被 pin 的 commit 变成不可达，pip 就装不上 SDK 了。
 
 ## 1. 直接复制给 AI 的提示词
 
-把下面整段发给 AI（Paseo 里选 **Case batch fix** profile；或在仓库目录里跑 pi/Claude Code），
-只改 `<...>` 里的内容：
+因为仓库里 `AGENTS.md` 会自动加载，且 `scripts/case_intake.py` 能从文章 URL 推出全部身份信息，
+提示词只需要**一行**：
 
 ```text
-在仓库 C:\Users\imgwho\Desktop\project\wow-tableau-problem-solving 里，
-按社区协议解一个 WoW case。
+解这个 WoW case：<文章 URL>
+```
 
-目标 case：
-- 文章：<文章 URL 或 posts/ 下的文件名>
-- 作者工作簿：<Tableau Public URL>
-- iteration-id：<YYYY-MM-DD-wwNN-short-slug>
-- challenge-year：<YYYY>
+AI 会自己读 `AGENTS.md` → `docs/start-a-case.md`，用 `case_intake.py` 推出
+iteration-id、case-id、challenge 日期和作者工作簿 URL，然后按下面 10 步执行。
 
-必读（按顺序）：
-1. AGENTS.md
-2. docs/protocols/community-case-contribution-v1.md
-3. docs/cross-repo-desktop-workflow.md
+如果想更稳一点，可以加上一句：
 
-硬性要求：
-- 一个 case 一个 PR，只改 iterations/<id>/ 和生成的 usage/*.json 索引。
-- main 已保护：先开临时分支（feat/<YYYY-wwNN-slug>）再提交，绝不在 main 上直接 commit。
-- 合并用 --merge，不要 squash（cwtwb pin 依赖具体 commit SHA）。
-- 遵守阶段边界：分析阶段可以读文章和作者 TWB/TWBX；
-  build_replication.py 只能读 case.yaml、analysis.md、inputs/、
-  空模板和公开 cwtwb API，绝不能打开/解压/复制作者工作簿。
-- 先用当前 released cwtwb 建基线，记录 cwtwb_result（pass|workaround|blocked）。
-- Desktop 门禁：python scripts/desktop/build_and_check.py iterations/<id>
-  必须返回 LOADED。FAIL 和 UNKNOWN 都算失败，要重试。
-- 如果发现可复用的 SDK 缺口，先写进 case.yaml 的 capability_gaps，
-  另开 cwtwb PR；不要在解题 PR 里改 SDK。
-- 把每个阶段的结果和根因写进 iterations/<id>/analysis.md，不要只留在对话里。
-
-完成前必须跑：
-- python scripts/validate_iteration.py iterations/<id>
-- python scripts/desktop/build_and_check.py iterations/<id>
-- python scripts/desktop/verify_corpus.py    # 必须 LOADED=50 FAIL=0 UNKNOWN=0
-- python scripts/case_catalogue.py --write
-- python -m unittest discover -s tests
+```text
+解这个 WoW case：<文章 URL>
+先跑 python scripts/case_intake.py 确认身份，再按 AGENTS.md 的 Verification 段跑完所有门禁。
 ```
 
 ---
@@ -91,15 +68,16 @@ squash 会让被 pin 的 commit 变成不可达，pip 就装不上 SDK 了。
 | # | 阶段 | 动作 | 产出 |
 | --- | --- | --- | --- |
 | 1 | 认领 | `gh issue create`（用 `.github/ISSUE_TEMPLATE/case.yml`） | issue |
-| 2 | 建骨架 | `prepare_case.py`（见下） | `iterations/<id>/` |
-| 3 | 分析 | 读文章 + 作者工作簿，写 `analysis.md` | `analysis.md` |
-| 4 | 建基线 | 用 released cwtwb 构建，记 `cwtwb_result` | `build_replication.py` |
-| 5 | 验证 | `verify_replication.py` + acceptance IDs | 证据 |
-| 6 | 静态门禁 | `validate_iteration.py`（XSD + 边界 + 元数据） | PASS |
-| 7 | Desktop 门禁 | `build_and_check.py` → 必须 LOADED | LOADED |
-| 8 | 回归 | `verify_corpus.py` → LOADED=50 FAIL=0 UNKNOWN=0 | 无回归 |
-| 9 | 刷索引 | `case_catalogue.py --write` | `usage/*.json` |
-| 10 | 提 PR | 开临时分支 → push → `gh pr create` → 合并（分支自动删） | PR |
+| 2 | 定身份 | `python scripts/case_intake.py "<文章URL>"` → 拿到 iteration-id / case-id / 日期 / 工作簿 URL | 身份 |
+| 3 | 建骨架 | `prepare_case.py`（见下） | `iterations/<id>/` |
+| 4 | 分析 | 读文章 + 作者工作簿，写 `analysis.md` | `analysis.md` |
+| 5 | 建基线 | 用 released cwtwb 构建，记 `cwtwb_result` | `build_replication.py` |
+| 6 | 验证 | `verify_replication.py` + acceptance IDs | 证据 |
+| 7 | 静态门禁 | `validate_iteration.py`（XSD + 边界 + 元数据） | PASS |
+| 8 | Desktop 门禁 | `build_and_check.py` → 必须 LOADED | LOADED |
+| 9 | 回归 | `verify_corpus.py` → LOADED=50 FAIL=0 UNKNOWN=0 | 无回归 |
+| 10 | 刷索引 | `case_catalogue.py --write` | `usage/*.json` |
+| 11 | 提 PR | 开临时分支 → push → `gh pr create` → 合并（分支自动删） | PR |
 
 ### 第 2 步的完整命令
 

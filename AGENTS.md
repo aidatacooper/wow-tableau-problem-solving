@@ -3,6 +3,27 @@
 This repository turns one `posts/` article and its author Tableau workbook
 into one independently buildable project under `iterations/`.
 
+## Start here
+
+To solve one case, the full operational manual is
+[docs/start-a-case.md](docs/start-a-case.md). Read it before touching code.
+
+Resolve a case's identity from the article URL alone:
+
+```bash
+python scripts/case_intake.py "<article-url>"
+```
+
+It prints the `iteration-id`, canonical `case-id`, challenge year/week, the
+Tableau Public workbook URL, and the official challenge record to confirm the
+date. It reads only `index.json` / `public_links_map.json` and the Workout
+Wednesday public API; it never edits metadata or opens the author workbook.
+
+`main` is protected: never commit to it directly. Open a temporary branch
+(`feat/<YYYY-wwNN-slug>`), push, and open a pull request. Merge with
+`--merge`, never squash — `requirements.txt` pins a specific `cwtwb` commit,
+and a squash makes that commit unreachable.
+
 ## Goal
 
 For each claimed case:
@@ -86,15 +107,28 @@ unless cloud validation, publishing, or screenshots are in scope.
 
 ## Verification
 
+The Desktop gate is mandatory, not optional. A workbook that Tableau Desktop
+refuses to open fails acceptance even when every XML check passes; `FAIL` and
+`UNKNOWN` both count as failures.
+
 Before opening a PR:
 
 ```bash
-python scripts/validate_iteration.py iterations/<iteration-id>
+python scripts/validate_iteration.py iterations/<iteration-id>   # XSD + phase boundary + metadata
 python -m unittest discover -s tests -v
+python scripts/desktop/build_and_check.py iterations/<iteration-id>   # must print LOADED
+python scripts/desktop/verify_corpus.py    # must print LOADED=50 FAIL=0 UNKNOWN=0
+python scripts/case_catalogue.py --write   # refresh the generated index views
 ```
 
-Open the generated TWBX in Tableau when the case uses actions, parameters,
-table calculations, or behavior that static XML checks cannot prove.
+`build_and_check.py --sdk-src <cwtwb-worktree>/src` selects a specific SDK.
+Always pass it when the SDK was edited: `cwtwb` is an editable install pinned
+to the main checkout, so an unqualified build silently uses the old code.
+
+See [docs/cross-repo-desktop-workflow.md](docs/cross-repo-desktop-workflow.md)
+for the cross-repository loop and
+[docs/desktop-log-verdict.md](docs/desktop-log-verdict.md) for why the verdict
+is read from Tableau's own log.
 
 ## Maintainer identity migration
 
