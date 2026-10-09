@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-09",
+  "source_workbook": {
+    "filename": "2026_04_08_WW14_Weighted_Avg.twbx",
+    "bytes": 122379,
+    "sha256": "ef61153ab1a7e20bc76cbf3babc4141e5cb07c444c5a9c3ae6609c9db1e2aee5",
+    "url": null
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Extracts/federated_1nm7djf14r2b931axjuel0.hyper",
+      "file": "inputs/federated_1nm7djf14r2b931axjuel0.hyper",
+      "bytes": 327680,
+      "sha256": "fbd2fd44ed0531ea42e7502c2c410e75c5b528b3996d4dc17059d27cc5b68971"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

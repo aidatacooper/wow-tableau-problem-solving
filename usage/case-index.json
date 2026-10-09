@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "generated_from": "iterations/*/case.yaml",
-  "active_case_count": 90,
+  "active_case_count": 91,
   "legacy_case_ids": {
     "donna-2019-07-18-63877b35d19a": "wow-2019-ww29-high-orders",
     "donna-2019-07-25-59a0a144b25b": "wow-2019-ww30-navigation-kpi",
@@ -5802,6 +5802,65 @@
         "Final Cloud REST workbook hashes and CSV checks passed; visual differences and evidence limits are documented in evidence/visual-review.md. No browser interactions were executed."
       ],
       "metadata": "iterations/2026-03-23-ww11-layout-containers/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.27.1"
+    },
+    {
+      "case_id": "wow-2026-ww14-correct-metric",
+      "legacy_case_ids": {},
+      "iteration_id": "2026-04-13-ww14-correct-metric",
+      "article_date": "2026-04-13",
+      "challenge_year": 2026,
+      "challenge_week": 14,
+      "challenge_date": "2026-04-08",
+      "date_evidence": {
+        "article_date": "index.json publication date; matches the post URL",
+        "challenge": "Explicit challenge_year and week declared in iteration_id",
+        "challenge_date": "Official WordPress REST post 21642 date 2026-04-08T09:13:48 at https://www.workout-wednesday.com/wp-json/wp/v2/posts?slug=2026w14tab"
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2026w14tab/",
+          "wordpress_post_id": 21642
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2026/04/13/can-you-calculate-the-correct-metric/",
+          "path": "posts/2026-04-13-Can_you_calculate_the_correct_metric.html",
+          "sha256": "2bd85d8d8ea22bef855c947038f7e3caab544c608ae33cfff8ae1e0f76b3ab77"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2026_04_08_WW14_Weighted_Avg/2026_04_08_WW14_Weighted_Avg",
+          "path": "dashboards/2026_04_08_WW14_Weighted_Avg/2026_04_08_WW14_Weighted_Avg.twbx",
+          "filename": "2026_04_08_WW14_Weighted_Avg.twbx",
+          "sha256": "ef61153ab1a7e20bc76cbf3babc4141e5cb07c444c5a9c3ae6609c9db1e2aee5"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "pass",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": null,
+        "cloud_replica": null
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [
+        {
+          "path": "outputs/2026-04-13-ww14-correct-metric-replicated-workbook.twb",
+          "role": "sdk_generated_twb_companion",
+          "note": "Unpackaged TWB companion produced by the same builder as the primary TWBX."
+        }
+      ],
+      "evidence": [
+        "inputs/source-lock.json"
+      ],
+      "notes": [
+        "Rebuilt with cwtwb 0.27.1 from the packaged Hyper extract using public SDK APIs only; the author workbook was never opened by the builder.",
+        "The author used opaque internal names (Calculation_1755428175818754, ...). The replica uses readable names; the formulas, not the names, are what match.",
+        "Only article_date and the verified challenge_date are date identities."
+      ],
+      "metadata": "iterations/2026-04-13-ww14-correct-metric/case.yaml",
       "metadata_contract": "1.1.0",
       "tested_sdk_version": "0.27.1"
     }
