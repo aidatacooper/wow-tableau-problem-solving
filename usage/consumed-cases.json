@@ -1116,6 +1116,17 @@
       "verification_status": "verified",
       "cwtwb_version": "0.27.1",
       "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2026-ww14-correct-metric",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2026-04-13-ww14-correct-metric",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
     }
   ]
 }
