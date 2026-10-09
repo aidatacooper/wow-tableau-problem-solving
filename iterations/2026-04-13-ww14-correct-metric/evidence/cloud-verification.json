@@ -1,9 +1,9 @@
 {
   "case_id": "wow-2026-ww14-correct-metric",
-  "captured_at": "2026-10-09T14:26:17.446847+00:00",
+  "captured_at": "2026-10-09T14:42:29.874925+00:00",
   "source_hashes": {
     "author": "ef61153ab1a7e20bc76cbf3babc4141e5cb07c444c5a9c3ae6609c9db1e2aee5",
-    "replica": "1d88ebd4f2d46d01f2468c66388e07ab6547c3e48ec958e41c90c877b4244c95"
+    "replica": "1b65612324e2ef3aadb2cf29550686cf27f62b9cb08a5387a620476c3fec3bbb"
   },
   "acceptance_scope": "cloud_rest_and_artifact_contracts",
   "browser_interaction_executed": false,
@@ -40,25 +40,25 @@
       ]
     },
     "replica": {
-      "id": "560cc359-0cf6-493d-b8c6-95c7ae49e3b1",
-      "name": "cwtwb-review-wow-2026-ww14-correct-metric-replica-1d88ebd4f2d4",
-      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2970956",
+      "id": "98ea2185-0d62-4b4e-bfbf-5a133f4155b7",
+      "name": "cwtwb-review-wow-2026-ww14-correct-metric-replica-1b65612324e2",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2971034",
       "views": [
         {
           "name": "Simple Avg",
-          "id": "5a465369-e780-4383-ae84-15532a423f0f"
+          "id": "3e249e88-fc8b-4336-8060-d2842a8c257a"
         },
         {
           "name": "Weighted Avg",
-          "id": "d42e32f9-6f95-489f-bdae-3af96413dfb7"
+          "id": "6fa74f2c-ba22-4759-b1ad-f34e2d5d9b39"
         },
         {
           "name": "Order Details",
-          "id": "86a64d85-aa93-4177-85e0-b568ceaa3a60"
+          "id": "e00c01e8-c003-4ab0-9329-e67c95cfcc9c"
         },
         {
           "name": "2026_04_13_WW14_Correct_Metric",
-          "id": "b91c2113-639b-4e07-93eb-83966225174e"
+          "id": "5b3a552c-2997-4bcf-97cf-c88da2ffc314"
         }
       ]
     }
@@ -80,7 +80,7 @@
           ]
         },
         "replica": {
-          "id": "b91c2113-639b-4e07-93eb-83966225174e",
+          "id": "5b3a552c-2997-4bcf-97cf-c88da2ffc314",
           "name": "2026_04_13_WW14_Correct_Metric",
           "path": "outputs/cloud-replica.png",
           "sha256": "62229d9a40913d2cc6c924c63dd4d63b0373508aa2f64f7118d46284a7856bf1",
@@ -116,7 +116,7 @@
         {
           "role": "replica",
           "view": "Simple Avg",
-          "view_id": "5a465369-e780-4383-ae84-15532a423f0f",
+          "view_id": "3e249e88-fc8b-4336-8060-d2842a8c257a",
           "scope": "Simple Avg worksheet CSV; numerical contract independently covered by the Hyper oracle.",
           "parameters": {},
           "filters": {},
@@ -127,7 +127,7 @@
         {
           "role": "replica",
           "view": "Weighted Avg",
-          "view_id": "d42e32f9-6f95-489f-bdae-3af96413dfb7",
+          "view_id": "6fa74f2c-ba22-4759-b1ad-f34e2d5d9b39",
           "scope": "Weighted Avg worksheet CSV; verifies the quantity-weighted discount metric.",
           "parameters": {},
           "filters": {},
