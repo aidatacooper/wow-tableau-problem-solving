@@ -366,6 +366,8 @@ SDK 用 C:\Users\imgwho\.paseo\worktrees\<id>\<slug>\src
 
 ## 10. 相关文档
 
+- `docs/desktop-log-verdict.md` —— 判定原理（为何读日志而非看界面）、
+  三类结果（LOADED / FAIL / UNKNOWN）的实测样本、误报源、判定伪代码
 - `docs/generated-twbx-desktop-load-audit.md` —— 51 个产物为何打不开、
   50 个案例的逐个修复记录与根因（manifest 标志配对表）
 - `scripts/validate_iteration.py` —— XSD 门禁实现
