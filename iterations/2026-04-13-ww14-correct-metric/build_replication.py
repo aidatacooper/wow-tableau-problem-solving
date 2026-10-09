@@ -46,7 +46,7 @@ def build(output_path: Path) -> Path:
 
     common_filters = [
         {
-            "column": "MONTH(Order Date)",
+            "column": "MY(Order Date)",
             "type": "categorical",
             "values": WINDOW_MONTHS,
         },

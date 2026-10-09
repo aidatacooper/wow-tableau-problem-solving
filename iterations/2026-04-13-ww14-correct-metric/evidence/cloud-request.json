@@ -1,0 +1,21 @@
+{
+  "case_dir": "iterations/2026-04-13-ww14-correct-metric",
+  "author_workbook": "dashboards/2026_04_08_WW14_Weighted_Avg/2026_04_08_WW14_Weighted_Avg.twbx",
+  "author_view": "2026_04_08_WW14_Weighted_Avg",
+  "replica_view": "2026_04_13_WW14_Correct_Metric",
+  "states": [],
+  "data_views": [
+    {
+      "name": "simple-avg",
+      "author": "Simple Avg",
+      "replica": "Simple Avg",
+      "scope": "Simple Avg worksheet CSV; numerical contract independently covered by the Hyper oracle."
+    },
+    {
+      "name": "weighted-avg",
+      "author": "Weighted Avg",
+      "replica": "Weighted Avg",
+      "scope": "Weighted Avg worksheet CSV; verifies the quantity-weighted discount metric."
+    }
+  ]
+}
