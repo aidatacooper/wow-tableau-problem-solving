@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "generated_from": "iterations/*/case.yaml",
-  "active_case_count": 91,
+  "active_case_count": 94,
   "legacy_case_ids": {
     "donna-2019-07-18-63877b35d19a": "wow-2019-ww29-high-orders",
     "donna-2019-07-25-59a0a144b25b": "wow-2019-ww30-navigation-kpi",
@@ -5290,6 +5290,130 @@
       "tested_sdk_version": "0.27.1"
     },
     {
+      "case_id": "wow-2022-ww32-dumbbell-chart",
+      "legacy_case_ids": {},
+      "iteration_id": "2022-08-12-ww32-dumbbell-chart",
+      "article_date": "2022-08-12",
+      "challenge_year": 2022,
+      "challenge_week": 32,
+      "challenge_date": "2022-08-09",
+      "date_evidence": {
+        "article_date": "index.json publication date; matches the post URL",
+        "challenge": "Explicit challenge_year and week declared in iteration_id",
+        "challenge_date": "Official WordPress REST post date for 2022w32tab"
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2022w32tab/"
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2022/08/12/can-you-build-a-dumbbell-chart/",
+          "path": "posts/2022-08-12-Can_you_build_a_dumbbell_chart.html",
+          "sha256": "ed4b3a6f171fabf9009ece3fb4e867ccd3e4f6b086d78c5569802dbd826146b3"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2022_08_10_WW32_Dumbbell_Chart/2022_08_10_WW32_Dumbbell_Chart",
+          "path": "dashboards/2022_08_10_WW32_Dumbbell_Chart/2022_08_10_WW32_Dumbbell_Chart.twbx",
+          "filename": "2022_08_10_WW32_Dumbbell_Chart.twbx",
+          "sha256": "55fce001a63466b9824603bd78a9f4c13fb28572e1a96e9250f3ccf81b665d4f"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "pass",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [
+        {
+          "path": "outputs/2022-08-12-ww32-dumbbell-chart-replicated-workbook.twb",
+          "role": "sdk_generated_twb_companion",
+          "note": "Unpackaged TWB companion produced by the same builder as the primary TWBX."
+        }
+      ],
+      "evidence": [
+        "inputs/source-lock.json",
+        "evidence/cloud-request.json",
+        "evidence/cloud-verification.json",
+        "evidence/validation.json",
+        "evidence/workbook-inventory.json",
+        "evidence/visual-review.md"
+      ],
+      "notes": [
+        "Rebuilt with cwtwb 0.27.1 from the packaged Hyper extract using public SDK APIs only; the author workbook was never opened by the builder.",
+        "The dumbbell uses two synchronized Measure Values panes on one worksheet - a Circle pane for the two years and a Line pane coloured by Difference>0.2."
+      ],
+      "metadata": "iterations/2022-08-12-ww32-dumbbell-chart/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.27.1"
+    },
+    {
+      "case_id": "wow-2023-ww14-baseball-game-duration",
+      "legacy_case_ids": {},
+      "iteration_id": "2023-04-07-ww14-baseball-game-duration",
+      "article_date": "2023-04-07",
+      "challenge_year": 2023,
+      "challenge_week": 14,
+      "challenge_date": "2023-04-04",
+      "date_evidence": {
+        "article_date": "index.json publication date; matches the post URL",
+        "challenge": "Explicit challenge_year and week declared in iteration_id",
+        "challenge_date": "Official WordPress REST post date for 2023w14"
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2023w14/"
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2023/04/07/how-short-are-baseball-games-in-2023/",
+          "path": "posts/2023-04-07-How_short_are_baseball_games_in_2023.html",
+          "sha256": null
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2023_04_05_WW14_Baseball_Games/2023_04_05_WW14_Baseball_Games",
+          "path": "dashboards/2023_04_05_WW14_Baseball_Games/2023_04_05_WW14_Baseball_Games.twbx",
+          "filename": "2023_04_05_WW14_Baseball_Games.twbx",
+          "sha256": "100bdf99a0ad81c5c92d5c96eac7085f4a7c1ab8f6b59c153769a7f05b2e16a5"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "not_evaluated",
+      "verification_status": "verified",
+      "cwtwb_result": "pass",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [
+        {
+          "path": "outputs/2023-04-07-ww14-baseball-game-duration-replicated-workbook.twb",
+          "role": "sdk_generated_twb_companion",
+          "note": "Unpackaged TWB companion produced by the same builder as the primary TWBX."
+        }
+      ],
+      "evidence": [
+        "inputs/source-lock.json",
+        "evidence/cloud-request.json",
+        "evidence/cloud-verification.json",
+        "evidence/validation.json",
+        "evidence/workbook-inventory.json",
+        "evidence/visual-review.md"
+      ],
+      "notes": [
+        "Rebuilt with cwtwb 0.27.1 from the packaged Hyper extract using public SDK APIs only; the author workbook was never opened by the builder.",
+        "The bar chart addresses its INDEX()/window table calcs by Year and pins the 2023 duration with a custom-labelled field-backed reference line."
+      ],
+      "metadata": "iterations/2023-04-07-ww14-baseball-game-duration/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.27.1"
+    },
+    {
       "case_id": "wow-2023-ww48-bars-and-candlesticks",
       "legacy_case_ids": {},
       "iteration_id": "2023-11-30-ww48-bars-and-candlesticks",
@@ -5343,6 +5467,60 @@
         "Generated index views must be refreshed after the workbook is built and verified."
       ],
       "metadata": "iterations/2023-11-30-ww48-bars-and-candlesticks/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.27.1"
+    },
+    {
+      "case_id": "wow-2025-ww45-population-pyramid",
+      "legacy_case_ids": {},
+      "iteration_id": "2025-11-07-ww45-population-pyramid",
+      "article_date": "2025-11-07",
+      "challenge_year": 2025,
+      "challenge_week": 45,
+      "challenge_date": "2025-11-05",
+      "date_evidence": {
+        "article_date": "Declared article publication date in iteration_id",
+        "challenge": "Explicit challenge_year; week declared in iteration_id",
+        "challenge_date": "Explicit official challenge publication date and URL"
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/wow2025w45/"
+        },
+        "article": {
+          "url": null,
+          "path": "posts/2025-11-07-Population_Pyramids.html",
+          "sha256": null
+        },
+        "workbook": {
+          "url": null,
+          "filename": "2025_11_05_WW45_Population_Pyramid.twbx",
+          "sha256": "f9c9dcb2cd3ec91c20250a8531b37d90be2c34acefd3fde211cea2162fb6c8c8"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "pending",
+      "cwtwb_result": "workaround",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "inputs/source-lock.json",
+        "evidence/visual-review.md",
+        "evidence/validation.json",
+        "evidence/workbook-inventory.json",
+        "evidence/cloud-verification.json"
+      ],
+      "notes": [
+        "Generated index views must be refreshed after the workbook is built and verified.",
+        "Cloud Server's renderer does not honor the dual-axis Measure Names color encoding written by cwtwb; bars fall back to Tableau's default categorical palette (blue/orange) for the Males and Females panes. The Headcount Gap pane accepts the encoding (orange #f28e2b matches). This is the only deviation from the author."
+      ],
+      "metadata": "iterations/2025-11-07-ww45-population-pyramid/case.yaml",
       "metadata_contract": "1.1.0",
       "tested_sdk_version": "0.27.1"
     },

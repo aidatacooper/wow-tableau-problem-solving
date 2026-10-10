@@ -1,0 +1,55 @@
+{
+ "schema_version": "1.0.0",
+ "source": "outputs/replicated-workbook.twbx",
+ "counts": {
+  "worksheets": 1,
+  "dashboards": 1,
+  "parameters": 0,
+  "required_calculated_fields": 9,
+  "dashboard_actions": 0
+ },
+ "calculated_fields": [
+  {
+   "name": "Age Group",
+   "formula": "INT([Age] / 5) * 5"
+  },
+  {
+   "name": "Total Headcount",
+   "formula": "{FIXED [Age Group]: COUNT([Age])}"
+  },
+  {
+   "name": "Other Gender",
+   "formula": "{FIXED [Age Group]: SUM(IIF([Gender] <> 'Female' AND [Gender] <> 'Male', 1, 0))}"
+  },
+  {
+   "name": "Males",
+   "formula": "IIF([Gender] = 'Male', 1, 0)"
+  },
+  {
+   "name": "Females",
+   "formula": "IIF([Gender] = 'Female', -1, 0)"
+  },
+  {
+   "name": "Headcount Gap",
+   "formula": "SUM([Males]) + SUM([Females])"
+  },
+  {
+   "name": "Colour - Headcount Gap",
+   "formula": "[Headcount Gap] < 0"
+  },
+  {
+   "name": "Tooltip - Most Gender",
+   "formula": "IIF([Colour - Headcount Gap], 'women', 'men')"
+  },
+  {
+   "name": "Tooltip - Least Gender",
+   "formula": "IIF(NOT [Colour - Headcount Gap], 'women', 'men')"
+  }
+ ],
+ "worksheets": [
+  "Viz"
+ ],
+ "dashboards": [
+  "2025_11_05_WW45_Population_Pyramid"
+ ]
+}

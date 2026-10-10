@@ -1,0 +1,69 @@
+{
+  "case_id": "wow-2022-ww32-dumbbell-chart",
+  "captured_at": "2026-10-09T16:42:24.714741+00:00",
+  "source_hashes": {
+    "author": "55fce001a63466b9824603bd78a9f4c13fb28572e1a96e9250f3ccf81b665d4f",
+    "replica": "062621b1eb6bbc89f42a886cbb4c74434d86878b1a37af762d37f55bf88ed303"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "6e46624b-693b-4de9-8daf-ee1bf26dc0d2",
+      "name": "cwtwb-review-wow-2022-ww32-dumbbell-chart-author-55fce001a634",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2971285",
+      "views": [
+        {
+          "name": "2022_08_10_WW32_Dumbbell_Chart",
+          "id": "69c1c381-bf6a-4fe6-b291-fc521f11f805"
+        }
+      ]
+    },
+    "replica": {
+      "id": "aee11c58-1017-4dd2-a43a-1aac8718844a",
+      "name": "cwtwb-review-wow-2022-ww32-dumbbell-chart-replica-062621b1eb6b",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2971770",
+      "views": [
+        {
+          "name": "Viz",
+          "id": "481204fe-517b-43b5-98e4-c271b28fcdc1"
+        },
+        {
+          "name": "2022_08_10_WW32_Dumbbell_Chart",
+          "id": "cd5602b9-b6b2-4178-8c24-e0ed1e43b9a1"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "69c1c381-bf6a-4fe6-b291-fc521f11f805",
+          "name": "2022_08_10_WW32_Dumbbell_Chart",
+          "path": "outputs/cloud-author.png",
+          "sha256": "0906c666094b186efbf87d863f7832bdb12d83f87e9c2f0556790fcc771d31f0",
+          "size": [
+            2000,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "cd5602b9-b6b2-4178-8c24-e0ed1e43b9a1",
+          "name": "2022_08_10_WW32_Dumbbell_Chart",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "c6063fa75b02e1ca33c4447ac7ac41ec30915c89ecb2c8d9eb919c5b3a85ae6f",
+          "size": [
+            2000,
+            1600
+          ]
+        }
+      },
+      "data": []
+    }
+  ],
+  "status": "captured_requires_independent_review"
+}

@@ -1,0 +1,19 @@
+{
+ "schema_version": "1.0.0",
+ "status": "passed",
+ "checked_at": "2026-10-09T17:22:37.996211+00:00",
+ "artifacts": {
+  "replicated-workbook.twbx": {
+   "sha256": "8461815bf1057ceefc87aa947ff12e0725d8f03842f7fb6a79f92aedf32a73e2",
+   "zip_structure": "passed",
+   "bundled_hyper_present": true,
+   "local_xsd": "passed",
+   "tableau_desktop": "LOADED"
+  }
+ },
+ "commands": [
+  "python scripts/validate_iteration.py iterations/2023-04-07-ww14-baseball-game-duration",
+  "python scripts/desktop/build_and_check.py iterations/2023-04-07-ww14-baseball-game-duration",
+  "python -m unittest discover -s tests"
+ ]
+}

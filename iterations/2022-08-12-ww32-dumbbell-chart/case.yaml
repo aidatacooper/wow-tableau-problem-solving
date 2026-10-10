@@ -1,0 +1,85 @@
+schema_version: 1.1.0
+case_id: wow-2022-ww32-dumbbell-chart
+iteration_id: 2022-08-12-ww32-dumbbell-chart
+post: posts/2022-08-12-Can_you_build_a_dumbbell_chart.html
+legacy_case_ids: {}
+article_date: '2022-08-12'
+challenge_year: 2022
+challenge_week: 32
+challenge_date: '2022-08-09'
+date_evidence:
+  article_date: index.json publication date; matches the post URL
+  challenge: Explicit challenge_year and week declared in iteration_id
+  challenge_date: Official WordPress REST post date for 2022w32tab
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2022w32tab/
+  article:
+    url: https://donnacoles.home.blog/2022/08/12/can-you-build-a-dumbbell-chart/
+    path: posts/2022-08-12-Can_you_build_a_dumbbell_chart.html
+    sha256: ed4b3a6f171fabf9009ece3fb4e867ccd3e4f6b086d78c5569802dbd826146b3
+  workbook:
+    url: https://public.tableau.com/views/2022_08_10_WW32_Dumbbell_Chart/2022_08_10_WW32_Dumbbell_Chart
+    path: dashboards/2022_08_10_WW32_Dumbbell_Chart/2022_08_10_WW32_Dumbbell_Chart.twbx
+    filename: 2022_08_10_WW32_Dumbbell_Chart.twbx
+    sha256: 55fce001a63466b9824603bd78a9f4c13fb28572e1a96e9250f3ccf81b665d4f
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: pass
+cwtwb:
+  tested_version: 0.27.1
+  runs:
+  - version: 0.27.1
+    result: pass
+    evidence: verify_replication.py
+  tested_commit: 876bd222011237edd84b1e2649a4fe213ff263db
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts:
+- path: outputs/2022-08-12-ww32-dumbbell-chart-replicated-workbook.twb
+  role: sdk_generated_twb_companion
+  note: Unpackaged TWB companion produced by the same builder as the primary TWBX.
+evidence:
+- inputs/source-lock.json
+- evidence/cloud-request.json
+- evidence/cloud-verification.json
+- evidence/validation.json
+- evidence/workbook-inventory.json
+- evidence/visual-review.md
+notes:
+- Rebuilt with cwtwb 0.27.1 from the packaged Hyper extract using public SDK
+  APIs only; the author workbook was never opened by the builder.
+- The dumbbell uses two synchronized Measure Values panes on one worksheet -
+  a Circle pane for the two years and a Line pane coloured by Difference>0.2.
+analysis_status: completed
+remaining_work: []
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/federated_1dtv4ml0xnx8j811wlbmr1.hyper
+acceptance:
+- id: year-isolation
+  description: Ownership 2015 and Ownership 2019 isolate the two survey years,
+    and every age group has distinct values for the two years.
+  mode: automated
+- id: difference-metric
+  description: Difference equals Ownership 2019 minus Ownership 2015, recomputed
+    independently from the packaged Hyper extract.
+  mode: automated
+- id: threshold-flag
+  description: Difference>0.2 is true exactly when the change exceeds 20
+    percentage points.
+  mode: automated
+- id: dumbbell-structure
+  description: The worksheet carries a Circle pane and a Line pane over the
+    same discrete Age axis, and the artifact round-trips through the SDK.
+  mode: automated
+- id: cloud-visual-and-numeric-agreement
+  description: The Cloud REST author and replica renders were compared, and the
+    per-age values agree with the author's export.
+  mode: manual
+  evidence: evidence/visual-review.md

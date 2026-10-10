@@ -1,0 +1,44 @@
+{
+ "schema_version": "1.0.0",
+ "source": "outputs/replicated-workbook.twbx",
+ "counts": {
+  "worksheets": 2,
+  "dashboards": 1,
+  "parameters": 0,
+  "required_calculated_fields": 6,
+  "dashboard_actions": 0
+ },
+ "calculated_fields": [
+  {
+   "name": "Duration (mins)",
+   "formula": "DATEPART('hour', [Time/9I]) * 60 + DATEPART('minute', [Time/9I])"
+  },
+  {
+   "name": "Decade",
+   "formula": "STR(FLOOR([Year] / 10) * 10) + 's'"
+  },
+  {
+   "name": "Index",
+   "formula": "INDEX()"
+  },
+  {
+   "name": "Latest Duration",
+   "formula": "WINDOW_MAX(IF LAST() = 0 THEN SUM([Calculation_B605B348B205479ABD96DCD9F5DCEAA5]) END)"
+  },
+  {
+   "name": "Duration > Latest",
+   "formula": "SUM([Calculation_B605B348B205479ABD96DCD9F5DCEAA5]) >= [Calculation_7DF7DCD35DD646B49E2891477C167C45]"
+  },
+  {
+   "name": "Year Label",
+   "formula": "STR([Year])"
+  }
+ ],
+ "worksheets": [
+  "Viz",
+  "Data"
+ ],
+ "dashboards": [
+  "2023_04_05_WW14_Baseball_Games"
+ ]
+}

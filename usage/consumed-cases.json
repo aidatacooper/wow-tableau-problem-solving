@@ -1018,6 +1018,28 @@
       "reason": "Derived from case metadata; consumed means claimed, not verified completed."
     },
     {
+      "case_id": "wow-2022-ww32-dumbbell-chart",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2022-08-12-ww32-dumbbell-chart",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2023-ww14-baseball-game-duration",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2023-04-07-ww14-baseball-game-duration",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
       "case_id": "wow-2023-ww48-bars-and-candlesticks",
       "legacy_case_ids": {},
       "workbook_ids": [],
@@ -1025,6 +1047,17 @@
       "status": "consumed",
       "replication_status": "replicated",
       "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2025-ww45-population-pyramid",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2025-11-07-ww45-population-pyramid",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "pending",
       "cwtwb_version": "0.27.1",
       "reason": "Derived from case metadata; consumed means claimed, not verified completed."
     },

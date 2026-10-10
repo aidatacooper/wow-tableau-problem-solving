@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-09",
+  "source_workbook": {
+    "filename": "2025_11_05_WW45_Population_Pyramid.twbx",
+    "bytes": 13523,
+    "sha256": "f9c9dcb2cd3ec91c20250a8531b37d90be2c34acefd3fde211cea2162fb6c8c8",
+    "url": null
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/TableauTemp/TEMP_0fddbkh1pwidao13lrii60pl7znj.hyper",
+      "file": "inputs/TEMP_0fddbkh1pwidao13lrii60pl7znj.hyper",
+      "bytes": 65536,
+      "sha256": "ed2b03d256cde3473c6ffdd7122848858fd6d2091bfb2c8333a8aef7163bd6e8"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

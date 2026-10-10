@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-09",
+  "source_workbook": {
+    "filename": "2022_08_10_WW32_Dumbbell_Chart.twbx",
+    "bytes": 9444,
+    "sha256": "55fce001a63466b9824603bd78a9f4c13fb28572e1a96e9250f3ccf81b665d4f",
+    "url": null
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Extracts/federated_1dtv4ml0xnx8j811wlbmr1.hyper",
+      "file": "inputs/federated_1dtv4ml0xnx8j811wlbmr1.hyper",
+      "bytes": 65536,
+      "sha256": "dab5346c9d4bf328604cc99d90580cfcc5a78b992c82f7346972643c807fe1c2"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

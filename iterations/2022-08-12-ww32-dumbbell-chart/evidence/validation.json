@@ -1,0 +1,19 @@
+{
+ "schema_version": "1.0.0",
+ "status": "passed",
+ "checked_at": "2026-10-09T16:46:19.280469+00:00",
+ "artifacts": {
+  "replicated-workbook.twbx": {
+   "sha256": "632272cbddb70df9218a4ff241852492dee541d5ddee2bf7b99b289cb049fb58",
+   "zip_structure": "passed",
+   "bundled_hyper_present": true,
+   "local_xsd": "passed",
+   "tableau_desktop": "LOADED"
+  }
+ },
+ "commands": [
+  "python scripts/validate_iteration.py iterations/2022-08-12-ww32-dumbbell-chart",
+  "python scripts/desktop/build_and_check.py iterations/2022-08-12-ww32-dumbbell-chart",
+  "python -m unittest discover -s tests"
+ ]
+}
