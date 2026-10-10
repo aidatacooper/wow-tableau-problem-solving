@@ -1,0 +1,73 @@
+{
+  "case_id": "wow-2023-ww14-baseball-game-duration",
+  "captured_at": "2026-10-09T17:21:16.063842+00:00",
+  "source_hashes": {
+    "author": "100bdf99a0ad81c5c92d5c96eac7085f4a7c1ab8f6b59c153769a7f05b2e16a5",
+    "replica": "19556033abe3a5ca10c9a2156f9aacdfdefd430ef4b0e0dacfc53f354f99d0d7"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "0234a977-24af-4af6-90d5-c50579369e93",
+      "name": "cwtwb-review-wow-2023-ww14-baseball-game-duration-author-100bdf99a0ad",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2971892",
+      "views": [
+        {
+          "name": "2023_04_05_WW14_Baseball_Games",
+          "id": "79651b4e-04ef-4c2c-8da8-f2e75d3d9f00"
+        },
+        {
+          "name": "Data",
+          "id": "c21f70f3-a1e2-4b98-b7cd-1a7e22bdbd5e"
+        }
+      ]
+    },
+    "replica": {
+      "id": "2ec912a2-556c-473b-9039-35ec537458fc",
+      "name": "cwtwb-review-wow-2023-ww14-baseball-game-duration-replica-19556033abe3",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2971975",
+      "views": [
+        {
+          "name": "Viz",
+          "id": "7ddcfccf-49e9-49f6-9c1b-98077697f2fb"
+        },
+        {
+          "name": "2023_04_05_WW14_Baseball_Games",
+          "id": "96f3a441-36fa-4fa7-8b49-de279e4d921c"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "79651b4e-04ef-4c2c-8da8-f2e75d3d9f00",
+          "name": "2023_04_05_WW14_Baseball_Games",
+          "path": "outputs/cloud-author.png",
+          "sha256": "dac31cb00c87d1185a8952bee2fe859257e75adaf33b382f7836d9357f0781ee",
+          "size": [
+            1400,
+            1400
+          ]
+        },
+        "replica": {
+          "id": "96f3a441-36fa-4fa7-8b49-de279e4d921c",
+          "name": "2023_04_05_WW14_Baseball_Games",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "447cd08a5e7d2fb36bbcaf37f7b103b6c26f7ba73235b3c06c7937a77f346edf",
+          "size": [
+            1400,
+            1400
+          ]
+        }
+      },
+      "data": []
+    }
+  ],
+  "status": "captured_requires_independent_review"
+}

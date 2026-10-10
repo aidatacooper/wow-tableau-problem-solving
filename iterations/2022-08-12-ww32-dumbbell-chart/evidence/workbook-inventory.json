@@ -1,0 +1,43 @@
+{
+ "schema_version": "1.0.0",
+ "source": "outputs/replicated-workbook.twbx",
+ "counts": {
+  "worksheets": 1,
+  "dashboards": 1,
+  "parameters": 0,
+  "required_calculated_fields": 6,
+  "dashboard_actions": 0
+ },
+ "calculated_fields": [
+  {
+   "name": "Ownership 2015",
+   "formula": "IF [Year] = 2015 THEN [Ownership] END"
+  },
+  {
+   "name": "Ownership 2019",
+   "formula": "IF [Year] = 2019 THEN [Ownership] END"
+  },
+  {
+   "name": "Difference",
+   "formula": "SUM([Calculation_CE9F0903AEEB4AAC917656BA8705AB11]) - SUM([Calculation_2DE1209642854837A910C7B0FB28C361])"
+  },
+  {
+   "name": "Age Group",
+   "formula": "[Age]"
+  },
+  {
+   "name": "Difference>0.2",
+   "formula": "[Calculation_9CB12D4468A24C2AAE76824FB18CE65C] > 0.2"
+  },
+  {
+   "name": "Dummy",
+   "formula": "'Dummy'"
+  }
+ ],
+ "worksheets": [
+  "Viz"
+ ],
+ "dashboards": [
+  "2022_08_10_WW32_Dumbbell_Chart"
+ ]
+}

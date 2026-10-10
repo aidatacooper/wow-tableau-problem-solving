@@ -1,0 +1,69 @@
+{
+  "case_id": "wow-2025-ww45-population-pyramid",
+  "captured_at": "2026-10-10T05:43:51.174715+00:00",
+  "source_hashes": {
+    "author": "f9c9dcb2cd3ec91c20250a8531b37d90be2c34acefd3fde211cea2162fb6c8c8",
+    "replica": "f349456446d1986016aa98acee5d8166c8bed6041e72f884408fd5937763e7d5"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "f832bc72-3648-4b58-9bba-68b925b93038",
+      "name": "cwtwb-review-wow-2025-ww45-population-pyramid-author-f9c9dcb2cd3e",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2973960",
+      "views": [
+        {
+          "name": "2025_11_05_WW45_Population_Pyramid",
+          "id": "a6c768d7-aed9-4694-a376-3b708f19e8ca"
+        }
+      ]
+    },
+    "replica": {
+      "id": "4d469ebf-dd69-43a3-b1e8-7e8e99f1c420",
+      "name": "cwtwb-review-wow-2025-ww45-population-pyramid-replica-f349456446d1",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2975253",
+      "views": [
+        {
+          "name": "Viz",
+          "id": "8eb0c508-61e0-4434-b019-88d7a4348c56"
+        },
+        {
+          "name": "2025_11_05_WW45_Population_Pyramid",
+          "id": "01c12b73-6d59-4f51-a7cd-dc016265a21b"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "a6c768d7-aed9-4694-a376-3b708f19e8ca",
+          "name": "2025_11_05_WW45_Population_Pyramid",
+          "path": "outputs/cloud-author.png",
+          "sha256": "0c34502be0ae4be467c3b784467c51b6207d0d296a59ca35973dfcc0759f0eb2",
+          "size": [
+            2600,
+            1400
+          ]
+        },
+        "replica": {
+          "id": "8eb0c508-61e0-4434-b019-88d7a4348c56",
+          "name": "Viz",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "6c82bc58791cdb75dd286ecfa69710b1c6f116dc468c4d8a6ff0ed8afe3db0ea",
+          "size": [
+            1584,
+            716
+          ]
+        }
+      },
+      "data": []
+    }
+  ],
+  "status": "captured_requires_independent_review"
+}

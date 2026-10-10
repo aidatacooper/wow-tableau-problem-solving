@@ -62,6 +62,15 @@ def capture(request):
     outputs.mkdir(exist_ok=True)
     evidence.mkdir(exist_ok=True)
     replica = outputs / "replicated-workbook.twbx"
+    replica_requested = request.get("replica_workbook")
+    if replica_requested:
+        replica_path = Path(replica_requested).resolve()
+        # A separate replica workbook was requested (e.g. a throwaway test).
+        # Mirror it into the canonical outputs path so downstream evidence
+        # and the digest bookkeeping stay consistent.
+        replica.write_bytes(replica_path.read_bytes())
+    else:
+        replica_path = replica
     author = Path(request["author_workbook"])
     report = {
         "case_id": case["case_id"],
@@ -80,7 +89,7 @@ def capture(request):
     with server.auth.sign_in(auth):
         project = next(p for p in TSC.Pager(server.projects) if p.name == request.get("project", "default"))
         published = {}
-        for role, path in (("author", author), ("replica", replica)):
+        for role, path in (("author", author), ("replica", replica_path)):
             item = TSC.WorkbookItem(project.id, name=f"cwtwb-review-{case['case_id']}-{role}-{digest(path)[:12]}", show_tabs=True)
             workbook = retry(lambda: server.workbooks.publish(item, str(path), mode=TSC.Server.PublishMode.Overwrite))
             server.workbooks.populate_views(workbook)

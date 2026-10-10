@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-09",
+  "source_workbook": {
+    "filename": "2023_04_05_WW14_Baseball_Games.twbx",
+    "bytes": 12333,
+    "sha256": "100bdf99a0ad81c5c92d5c96eac7085f4a7c1ab8f6b59c153769a7f05b2e16a5",
+    "url": null
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Data sources/2023_04_05_WW14_Baseball.hyper",
+      "file": "inputs/2023_04_05_WW14_Baseball.hyper",
+      "bytes": 65536,
+      "sha256": "44259222232455a7a9fd5e5505e481988aa9e8301da0b14ff7cc8985520ab4e2"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}
