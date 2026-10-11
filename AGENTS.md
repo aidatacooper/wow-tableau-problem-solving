@@ -103,7 +103,11 @@ contains no author workbook or data. Preserve the applicable builder ->
 dispatcher -> Python facade -> MCP tool -> capability registry path and add an
 XPath regression test. Normal cwtwb development needs Python 3.10+,
 `pip install -e ".[dev]"`, and `pytest`; Tableau credentials are optional
-unless cloud validation, publishing, or screenshots are in scope.
+unless cloud validation, publishing, or screenshots are in scope. Cloud
+credentials live outside the repository in `~/.config/wow-cloud/tableau.env`
+and are loaded by `scripts/cloud_credentials.py`; see
+[docs/tableau-cloud-credentials.md](docs/tableau-cloud-credentials.md). Never
+commit a token.
 
 ## Verification
 

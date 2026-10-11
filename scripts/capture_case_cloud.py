@@ -1,7 +1,9 @@
 """Publish original/replica and capture hash-bound REST images and CSV states.
 
-Credentials are read only from process environment. Captures establish REST
-states and exported worksheet scope, never browser action execution.
+Credentials resolve from the process environment first, then from the
+operator's private file at ``~/.config/wow-cloud/tableau.env`` (see
+``scripts/cloud_credentials.py``); nothing is committed. Captures establish
+REST states and exported worksheet scope, never browser action execution.
 """
 from __future__ import annotations
 
@@ -12,10 +14,16 @@ import json
 import os
 from pathlib import Path
 import struct
+import sys
 import time
 
 import tableauserverclient as TSC
 import yaml
+
+if __package__ in (None, ""):
+    sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+
+from scripts.cloud_credentials import require_credentials
 
 
 def digest(path):
@@ -55,6 +63,7 @@ def retry(operation):
 
 
 def capture(request):
+    credentials = require_credentials()
     case_dir = Path(request["case_dir"]).resolve()
     case = yaml.safe_load((case_dir / "case.yaml").read_text(encoding="utf-8"))
     outputs = case_dir / "outputs"
@@ -82,10 +91,10 @@ def capture(request):
         "status": "captured_requires_independent_review",
     }
     auth = TSC.PersonalAccessTokenAuth(
-        os.environ["TABLEAU_TOKEN_NAME"], os.environ["TABLEAU_TOKEN_SECRET"],
-        site_id=os.environ["TABLEAU_SITE_ID"],
+        credentials["TABLEAU_TOKEN_NAME"], credentials["TABLEAU_TOKEN_SECRET"],
+        site_id=credentials["TABLEAU_SITE_ID"],
     )
-    server = TSC.Server(os.environ["TABLEAU_SERVER_URL"], use_server_version=True)
+    server = TSC.Server(credentials["TABLEAU_SERVER_URL"], use_server_version=True)
     with server.auth.sign_in(auth):
         project = next(p for p in TSC.Pager(server.projects) if p.name == request.get("project", "default"))
         published = {}
