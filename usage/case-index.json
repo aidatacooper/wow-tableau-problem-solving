@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "generated_from": "iterations/*/case.yaml",
-  "active_case_count": 94,
+  "active_case_count": 95,
   "legacy_case_ids": {
     "donna-2019-07-18-63877b35d19a": "wow-2019-ww29-high-orders",
     "donna-2019-07-25-59a0a144b25b": "wow-2019-ww30-navigation-kpi",
@@ -5286,6 +5286,66 @@
         "Cloud REST capture exports only the replica's worksheet views; the author workbook publishes the dashboard alone."
       ],
       "metadata": "iterations/2021-03-11-ww10-must-include-filter/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.27.1"
+    },
+    {
+      "case_id": "wow-2021-ww11-hans-rosling",
+      "legacy_case_ids": {},
+      "iteration_id": "2021-03-18-ww11-hans-rosling",
+      "article_date": "2021-03-18",
+      "challenge_year": 2021,
+      "challenge_week": 11,
+      "challenge_date": "2021-03-16",
+      "date_evidence": {
+        "article_date": "Article-local HTML 'Published:' calendar date, retained in evidence/article-date.json.",
+        "challenge": "Official 2021 Week 11 article title.",
+        "challenge_date": "Official WordPress REST date field retained in evidence/official-challenge-date.json."
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2021w11tab/",
+          "wordpress_post_id": 4818
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2021/03/18/can-you-recreate-the-work-of-hans-rosling/",
+          "path": null,
+          "sha256": "d8f51eaa5da62e59db3cbb90315c49ffdf8b85f00da60223cbef77ad0f5c9fe3"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2021_03_17_WW11_Hans_Rosling/2021_03_17_Hans_Rosling",
+          "filename": "2021_03_17_WW11_Hans_Rosling.twbx",
+          "sha256": "ceea6bd197fb7e47e6417305afe2653ee6bdf1db85295f145d4edb29c4bc7bcb"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "workaround",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "evidence/article-date.json",
+        "evidence/build-provenance.json",
+        "evidence/cloud-request.json",
+        "evidence/cloud-verification.json",
+        "evidence/functional-verification.json",
+        "evidence/official-challenge-date.json",
+        "evidence/sdk-baseline.json",
+        "evidence/visual-review.md",
+        "inputs/source-lock.json"
+      ],
+      "notes": [
+        "The author's animated scatter is driven by the Pages shelf, which the SDK does not expose. A Year parameter plus a Selected Year filter reproduces the year selection interactively; see capability_gaps.",
+        "Income and life expectancy are continuous dimension-typed fields, matching the article's \"change to Dimension\" instruction; aggregate shelf expressions render an empty view on this extract.",
+        "The normalized extract is materialized by the builder from the locked matrices; the author's native multi-table relationship path is recorded as a bug finding."
+      ],
+      "metadata": "iterations/2021-03-18-ww11-hans-rosling/case.yaml",
       "metadata_contract": "1.1.0",
       "tested_sdk_version": "0.27.1"
     },

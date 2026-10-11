@@ -1,0 +1,16 @@
+{
+  "challenge_year": 2021,
+  "challenge_week": 11,
+  "article_date": "2021-03-18",
+  "challenge_date": "2021-03-16",
+  "official_rest_url": "https://www.workout-wednesday.com/wp-json/wp/v2/posts/4818",
+  "response_excerpt": {
+    "id": 4818,
+    "date": "2021-03-16T17:00:00",
+    "link": "https://www.workout-wednesday.com/2021w11tab/",
+    "title": {
+      "rendered": "2021 Week 11 | Tableau : Can you recreate the work of Hans Rosling?"
+    }
+  },
+  "scope": "Official WordPress publication date, without inference from article/workbook names."
+}

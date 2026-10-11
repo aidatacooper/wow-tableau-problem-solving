@@ -1,0 +1,100 @@
+{
+  "case_id": "wow-2021-ww11-hans-rosling",
+  "captured_at": "2026-10-11T08:43:23.491135+00:00",
+  "source_hashes": {
+    "author": "ceea6bd197fb7e47e6417305afe2653ee6bdf1db85295f145d4edb29c4bc7bcb",
+    "replica": "31790584f256513a6cb343a190731e86b1a646645326f9d0be685dc6fe4b25fe"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "fc42cc5b-99de-4dea-aad7-cb627d957614",
+      "name": "cwtwb-review-wow-2021-ww11-hans-rosling-author-ceea6bd197fb",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2981907",
+      "views": [
+        {
+          "name": "2021_03_17_Hans_Rosling",
+          "id": "4fd3c2b3-d13e-4995-8f99-28bfed2c98f7"
+        }
+      ]
+    },
+    "replica": {
+      "id": "4aaba5be-17cf-48b4-858b-1971a4e19f59",
+      "name": "cwtwb-review-wow-2021-ww11-hans-rosling-replica-31790584f256",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2982063",
+      "views": [
+        {
+          "name": "Scatter",
+          "id": "524cbebb-4f31-4c18-991b-f4f007ba646a"
+        },
+        {
+          "name": "Year",
+          "id": "591242a9-812c-4b96-8bfa-e3210359690f"
+        },
+        {
+          "name": "Region",
+          "id": "d0a6eaa1-efed-4a92-ac4d-399a45edace9"
+        },
+        {
+          "name": "2021_03_17_Hans_Rosling",
+          "id": "186c951a-d087-48e1-945b-4f921c14c1ce"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "4fd3c2b3-d13e-4995-8f99-28bfed2c98f7",
+          "name": "2021_03_17_Hans_Rosling",
+          "path": "outputs/cloud-author.png",
+          "sha256": "63ed112c01d3694fda6cfd18228779b686b835abddaf0cbd57dd91ed1609aae7",
+          "size": [
+            1600,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "186c951a-d087-48e1-945b-4f921c14c1ce",
+          "name": "2021_03_17_Hans_Rosling",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "26739e36036e8e585d557b6508d7401357e6e1e1a07703f4e18a60f66cfdaa3b",
+          "size": [
+            2400,
+            1800
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "2021_03_17_Hans_Rosling",
+          "view_id": "4fd3c2b3-d13e-4995-8f99-28bfed2c98f7",
+          "scope": "Default author dashboard state and replica Scatter worksheet. The author workbook publishes the dashboard only, so the REST CSV export returns the dashboard's aggregated scope; the replica scatter is exported to confirm the year/income/life-expectancy/population facts at the default (2021) year.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-scatter.csv",
+          "sha256": "57f73315c9b6978af5d1fc5f88656f15ab01344cea55482b3f795fbf96700efb",
+          "bytes": 119
+        },
+        {
+          "role": "replica",
+          "view": "Scatter",
+          "view_id": "524cbebb-4f31-4c18-991b-f4f007ba646a",
+          "scope": "Default author dashboard state and replica Scatter worksheet. The author workbook publishes the dashboard only, so the REST CSV export returns the dashboard's aggregated scope; the replica scatter is exported to confirm the year/income/life-expectancy/population facts at the default (2021) year.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-scatter.csv",
+          "sha256": "a95743430f0d5f1e1e842a69775b9a8378c0e6f70955c84aba764483f96a7a84",
+          "bytes": 10206
+        }
+      ]
+    }
+  ],
+  "status": "captured_requires_independent_review"
+}

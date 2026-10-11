@@ -1,0 +1,15 @@
+{
+  "case_dir": "iterations/2021-03-18-ww11-hans-rosling",
+  "author_workbook": "dashboards/2021_03_17_WW11_Hans_Rosling/2021_03_17_WW11_Hans_Rosling.twbx",
+  "author_view": "2021_03_17_Hans_Rosling",
+  "replica_view": "2021_03_17_Hans_Rosling",
+  "states": [],
+  "data_views": [
+    {
+      "name": "scatter",
+      "author": "2021_03_17_Hans_Rosling",
+      "replica": "Scatter",
+      "scope": "Default author dashboard state and replica Scatter worksheet. The author workbook publishes the dashboard only, so the REST CSV export returns the dashboard's aggregated scope; the replica scatter is exported to confirm the year/income/life-expectancy/population facts at the default (2021) year."
+    }
+  ]
+}

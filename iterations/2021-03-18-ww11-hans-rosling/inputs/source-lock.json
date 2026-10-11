@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-11",
+  "source_workbook": {
+    "filename": "2021_03_17_WW11_Hans_Rosling.twbx",
+    "bytes": 201852,
+    "sha256": "ceea6bd197fb7e47e6417305afe2653ee6bdf1db85295f145d4edb29c4bc7bcb",
+    "url": null
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/TableauTemp/TEMP_0ifbnuy0gfkhjf1guow3w183tnim.hyper",
+      "file": "inputs/TEMP_0ifbnuy0gfkhjf1guow3w183tnim.hyper",
+      "bytes": 524288,
+      "sha256": "0f49a1a0db3be7e40796fbc31fb57e76f72067ae501d46d94dcdc64a5652b1e8"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

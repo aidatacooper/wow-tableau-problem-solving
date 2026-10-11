@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0.0",
+  "scope": "Cloud REST export of the replica Scatter worksheet at the default 2021 parameter state, compared against the locked-extract oracle.",
+  "browser_interaction_executed": false,
+  "state": {
+    "Year Parameter": 2021,
+    "description": "Default year state; export returns every mapped country's 2021 facts."
+  },
+  "observed": {
+    "export_rows": 185,
+    "matched_countries": 185,
+    "mismatched_countries": 0
+  },
+  "expected_from_oracle": {
+    "mapped_countries_2021": 185
+  },
+  "result": "pass"
+}

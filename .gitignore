@@ -43,3 +43,4 @@ author_*.png
 replica_*.png
 scratch_*.png
 iterations/*/outputs/rendered-cloud-latest.png
+iterations/*/outputs/*.hyper

@@ -1,0 +1,100 @@
+schema_version: 1.1.0
+case_id: wow-2021-ww11-hans-rosling
+iteration_id: 2021-03-18-ww11-hans-rosling
+post: https://donnacoles.home.blog/2021/03/18/can-you-recreate-the-work-of-hans-rosling/
+legacy_case_ids: {}
+article_date: '2021-03-18'
+challenge_year: 2021
+challenge_week: 11
+challenge_date: '2021-03-16'
+date_evidence:
+  article_date: Article-local HTML 'Published:' calendar date, retained in evidence/article-date.json.
+  challenge: Official 2021 Week 11 article title.
+  challenge_date: Official WordPress REST date field retained in evidence/official-challenge-date.json.
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2021w11tab/
+    wordpress_post_id: 4818
+  article:
+    url: https://donnacoles.home.blog/2021/03/18/can-you-recreate-the-work-of-hans-rosling/
+    path: null
+    sha256: d8f51eaa5da62e59db3cbb90315c49ffdf8b85f00da60223cbef77ad0f5c9fe3
+  workbook:
+    url: https://public.tableau.com/views/2021_03_17_WW11_Hans_Rosling/2021_03_17_Hans_Rosling
+    filename: 2021_03_17_WW11_Hans_Rosling.twbx
+    sha256: ceea6bd197fb7e47e6417305afe2653ee6bdf1db85295f145d4edb29c4bc7bcb
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- evidence/article-date.json
+- evidence/build-provenance.json
+- evidence/cloud-request.json
+- evidence/cloud-verification.json
+- evidence/functional-verification.json
+- evidence/official-challenge-date.json
+- evidence/sdk-baseline.json
+- evidence/visual-review.md
+- inputs/source-lock.json
+notes:
+- The author's animated scatter is driven by the Pages shelf, which the SDK does
+  not expose. A Year parameter plus a Selected Year filter reproduces the year
+  selection interactively; see capability_gaps.
+- Income and life expectancy are continuous dimension-typed fields, matching the
+  article's "change to Dimension" instruction; aggregate shelf expressions render
+  an empty view on this extract.
+- The normalized extract is materialized by the builder from the locked matrices;
+  the author's native multi-table relationship path is recorded as a bug finding.
+cwtwb:
+  tested_version: 0.27.1
+  tested_commit: 4cd2c61c
+  runs:
+  - version: 0.27.1
+    commit: 4cd2c61c
+    result: workaround
+    evidence: evidence/sdk-baseline.json
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: workaround
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/TEMP_0ifbnuy0gfkhjf1guow3w183tnim.hyper
+acceptance:
+- id: rosling-country-facts
+  description: For the selected year each mapped country is one mark positioned by
+    its income and life expectancy, sized by population and coloured by region, with
+    null-region countries excluded.
+  mode: automated
+- id: rosling-log-income-axis
+  description: The income axis carries a logarithmic scale so the income spread is
+    readable rather than crushed into the left edge.
+  mode: automated
+- id: rosling-region-highlight
+  description: A highlight action sources the Region sheet into the dashboard so
+    selecting a region isolates its bubbles.
+  mode: automated
+remaining_work: []
+blocker: null
+workarounds:
+- Materialize one normalized Extract table (Country, Year, Life Expectancy, Income,
+  Population, Region) from the locked matrices and connect it single-table, instead
+  of using set_hyper_connection's multi-table logical relationships, which Cloud
+  refuses to connect to.
+- Substitute a Year parameter and Selected Year filter for the author's Pages-shelf
+  animation.
+capability_gaps:
+- key: pages-shelf
+  description: No public API exposes the Pages shelf, so a native animated pager
+    cannot be authored; the case substitutes a parameter-driven year filter.
+- key: hyper-logical-multi-table
+  description: set_hyper_connection with tables+relationships produces a datasource
+    Tableau Cloud rejects with 403132 'failed to establish a connection to your
+    datasource'; reproduced with one and three relationships and with the shared
+    year key forced to a dimension.
+related_cwtwb_issues: []

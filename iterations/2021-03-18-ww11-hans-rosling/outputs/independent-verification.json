@@ -1,0 +1,18 @@
+{
+  "scope": "Locked-extract oracle plus native workbook contracts.",
+  "acceptance": [
+    "rosling-country-facts",
+    "rosling-log-income-axis",
+    "rosling-region-highlight"
+  ],
+  "facts": {
+    "extract_sha256": "0f49a1a0db3be7e40796fbc31fb57e76f72067ae501d46d94dcdc64a5652b1e8",
+    "cell_count": 41070,
+    "year_min": 1800,
+    "year_max": 2021,
+    "mapped_countries": 185,
+    "income_ratio_2019": 179.08082408874802,
+    "region_count": 8
+  },
+  "output_sha256": "b71cb29990d0841d7e1503ef36c08379f94a10572cd3921bfa8e49acaf656c4e"
+}

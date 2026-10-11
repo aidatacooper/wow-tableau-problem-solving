@@ -1,0 +1,28 @@
+{
+  "case_id": "wow-2021-ww11-hans-rosling",
+  "sdk_commit": "4cd2c61c1286a02932b5b42f47de344683d656a3",
+  "sdk_version": "0.27.1",
+  "builder_sha256": "287497d119b31c6e842280377090cbda4affdedebc1171cdf92f3703a8e89533",
+  "builder_hash_scope": "UTF-8 source text with universal newlines normalized to LF",
+  "public_sdk_calls": [
+    "add_calculated_field",
+    "add_dashboard",
+    "add_dashboard_action",
+    "add_parameter",
+    "add_worksheet",
+    "configure_chart",
+    "configure_custom_label",
+    "configure_worksheet_style",
+    "save",
+    "set_hyper_connection",
+    "set_window_state",
+    "set_worksheet_title"
+  ],
+  "result": "passed",
+  "initial_workbooks_available": 0,
+  "copied_cloud_evidence": false,
+  "source_workbook_used_by_builder": false,
+  "public_sdk_only": true,
+  "scope": "Copied only builder/verifier, metadata and locked extracted inputs. Built from TWBEditor empty, then independent full-domain raw-data/native-artifact verification.",
+  "artifact_sha256": "31790584f256513a6cb343a190731e86b1a646645326f9d0be685dc6fe4b25fe"
+}
