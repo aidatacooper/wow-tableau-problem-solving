@@ -12,7 +12,7 @@
 
 ## 工作清单（按 article_date 升序，取未解可解前 17 个）
 
-- [ ] 01 2021-03-18 ww11 Hans Rosling — `2021_03_17_WW11_Hans_Rosling`
+- [x] 01 2021-03-18 ww11 Hans Rosling — `2021_03_17_WW11_Hans_Rosling` — replicated/workaround（commit f283e29；LOADED；verify_corpus LOADED=50 FAIL=0 UNKNOWN=0）
 - [ ] 02 2021-03-25 ww12 Comparative Quantity — `2021_03_24_WW12_Comparative_Qty`
 - [ ] 03 2021-04-01 ww13 % Sub-Orders Profitable — `2021_03_31_WW13_Percentage_Sub-Orders_Profitable`
 - [ ] 04 2021-04-08 ww14 Market Basket — `2021_04_07_WW14_Market_Basket_Analysis`
@@ -35,10 +35,24 @@
 <!-- 每行：- [x] YYYY-MM-DD <case> — <结果/证据> -->
 - [x] 2026-10-11 基线核对 — main@0e465c2；94 solved / 255 unsolved；SDK editable=4cd2c61（pin=86119c1，二者同源）
 - [x] 2026-10-11 建分支 `feat/wow-batch-2021-ww11-ww27`
+- [x] 2026-10-11 01 ww11 Hans Rosling — 已复现；见工作清单
+
+## 已验证的技术事实（可复用）
+
+- cwtwb 无 Pages shelf API → 动画页签用 Year 参数 + Selected Year 过滤替代（capability_gap）。
+- `set_hyper_connection(tables=..., relationships=...)` 生成的多表关系，Cloud 返回 403132
+  “failed to establish a connection to your datasource”，视图空白（1 条和 3 条关系、
+  year 键强制 dimension 均复现）。→ 改为在 builder 里把锁定矩阵物化成单张 `Extract` 表。
+- `configure_chart` 的 `AGG(measure)` 轴表达式在该 extract 上渲染为空；
+  同一字段声明为 `role=dimension, field_type=quantitative` 即正常渲染。
+- dashboard `zone()` 不要设 `background-color`，否则白色 zone 会盖住下层 Year 表。
+- 诊断脚本：`scratch/batch17/diag.py <request.json> <out.png>`（Cloud 渲染单个 worksheet，
+  空图 = 1586x32）。
 
 ## 下一步
 
-1. 解 01 ww11 Hans Rosling。
+1. 解 02 ww12 Comparative Quantity。
+2. 剩余 03–17 见工作清单。
 
 ## 阻塞
 
@@ -49,4 +63,4 @@
 - 分支：`feat/wow-batch-2021-ww11-ww27`
 - 已开 PR：无
 - cwtwb pin：`86119c1`（editable 指向 4cd2c61，同源）
-- Cloud 证据是否绑定：尚未采集
+- Cloud 证据是否绑定：ww11 已绑定（replica hash 与提交产物一致）
