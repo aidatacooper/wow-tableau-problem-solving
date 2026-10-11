@@ -8,6 +8,11 @@ into one independently buildable project under `iterations/`.
 To solve one case, the full operational manual is
 [docs/start-a-case.md](docs/start-a-case.md). Read it before touching code.
 
+For long, multi-case, or interruptible runs, read
+[docs/long-running-tasks.md](docs/long-running-tasks.md) first: it records the
+large files that must never be read whole, the progress document that makes a
+crash resumable, and when to split work across agents.
+
 Resolve a case's identity from the article URL alone:
 
 ```bash
