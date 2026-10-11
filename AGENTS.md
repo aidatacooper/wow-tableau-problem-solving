@@ -13,6 +13,9 @@ For long, multi-case, or interruptible runs, read
 large files that must never be read whole, the progress document that makes a
 crash resumable, and when to split work across agents.
 
+To iterate the SDK and this repo together, the short version is
+[docs/iterating-cwtwb-and-wow.md](docs/iterating-cwtwb-and-wow.md).
+
 Resolve a case's identity from the article URL alone:
 
 ```bash
