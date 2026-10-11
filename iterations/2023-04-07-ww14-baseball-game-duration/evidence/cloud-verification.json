@@ -1,9 +1,9 @@
 {
   "case_id": "wow-2023-ww14-baseball-game-duration",
-  "captured_at": "2026-10-11T00:37:49.771916+00:00",
+  "captured_at": "2026-10-11T03:19:14.258766+00:00",
   "source_hashes": {
     "author": "100bdf99a0ad81c5c92d5c96eac7085f4a7c1ab8f6b59c153769a7f05b2e16a5",
-    "replica": "88e902f53653b833a6b464876c1920e6bb9f8a9f63c53bee2c7a3e9fb4defda0"
+    "replica": "b7bf1e4b5abdf6fc7908dff53b8656d456c97d68eb63be9c93dbb3519a2a095b"
   },
   "acceptance_scope": "cloud_rest_and_artifact_contracts",
   "browser_interaction_executed": false,
@@ -24,17 +24,17 @@
       ]
     },
     "replica": {
-      "id": "ea503e21-694e-48fe-909e-9759e5b23d3b",
-      "name": "cwtwb-review-wow-2023-ww14-baseball-game-duration-replica-88e902f53653",
-      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2980056",
+      "id": "db96c2a1-e71a-4840-8111-200c2329317e",
+      "name": "cwtwb-review-wow-2023-ww14-baseball-game-duration-replica-b7bf1e4b5abd",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2980721",
       "views": [
         {
           "name": "Viz",
-          "id": "49bd3c06-5d45-4724-a227-88d010072a34"
+          "id": "f085e796-6d7e-4c34-b67d-3aa228394fe8"
         },
         {
           "name": "2023_04_05_WW14_Baseball_Games",
-          "id": "60ef7d27-cb77-4c03-ae3e-15379ab81785"
+          "id": "09b62307-8ba6-460d-89e1-ca00cc3be1e6"
         }
       ]
     }
@@ -56,10 +56,10 @@
           ]
         },
         "replica": {
-          "id": "60ef7d27-cb77-4c03-ae3e-15379ab81785",
+          "id": "09b62307-8ba6-460d-89e1-ca00cc3be1e6",
           "name": "2023_04_05_WW14_Baseball_Games",
           "path": "outputs/cloud-replica.png",
-          "sha256": "f0c7685bf23e304f712a6be54d18ad8f81134066b80ae4a5b834b16c49506a8e",
+          "sha256": "b6dab2ec71cd2fc86bf3956b46097618b1d9c2ea7dcc0c2374aa422d93bc86b2",
           "size": [
             1400,
             1400

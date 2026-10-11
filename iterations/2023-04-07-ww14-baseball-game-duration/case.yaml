@@ -65,9 +65,15 @@ notes:
 - 'Known cwtwb gap: percentage distribution bands (the author''s 150% spacer
   refline) are not expressible through the public API, so per-decade bar tops
   differ by up to ~8px; colours, bar widths, labels, and values match.'
+- 'Known cwtwb gap: the author addresses Latest Duration with a
+  specific-dimension table calc ordered by [Decade],[Year], so the "2:38 in
+  2023" line is global (158) in every pane. table_calc_overrides cannot
+  express that without changing the bar ordering, so the replica partitions
+  per Decade and the line drifts; the numeric classification is unaffected.'
 - 'The dashboard reproduces the author''s zone margins (root margin=8 plus a
-  4px margin on the Viz and text zones), which aligns the title and credits
-  rows with the author''s render.'
+  4px margin on the Viz and text zones) and the text zones'' Tableau Medium
+  fontname and source hyperlink; the title, credits, and source rows now
+  match at 0 pixels.'
 analysis_status: completed
 remaining_work: []
 inputs:

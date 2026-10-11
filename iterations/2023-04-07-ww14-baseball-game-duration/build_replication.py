@@ -251,9 +251,11 @@ def build(output_path: Path) -> Path:
                         "font_size": "8",
                         "font_color": "#000000",
                         "font_alignment": "0",
+                        "font_name": "Tableau Medium",
                     }
                 ],
                 "absolute": {"x": 1143, "y": 89714, "w": 36190, "h": 4572},
+                "style": {"margin": "4"},
             },
             {
                 "type": "text",
@@ -264,9 +266,11 @@ def build(output_path: Path) -> Path:
                         "font_size": "8",
                         "font_color": "#000000",
                         "font_alignment": "1",
+                        "font_name": "Tableau Medium",
                     }
                 ],
                 "absolute": {"x": 37333, "y": 89714, "w": 31048, "h": 4572},
+                "style": {"margin": "4"},
             },
             {
                 "type": "text",
@@ -277,9 +281,11 @@ def build(output_path: Path) -> Path:
                         "font_size": "8",
                         "font_color": "#000000",
                         "font_alignment": "2",
+                        "font_name": "Tableau Medium",
                     }
                 ],
                 "absolute": {"x": 68381, "y": 89714, "w": 30476, "h": 4572},
+                "style": {"margin": "4"},
             },
             {
                 "type": "text",
@@ -290,15 +296,19 @@ def build(output_path: Path) -> Path:
                         "font_size": "8",
                         "font_color": "#000000",
                         "font_alignment": "1",
+                        "font_name": "Tableau Medium",
                     },
                     {
                         "text": "https://www.baseball-reference.com/",
                         "font_size": "8",
                         "font_color": "#000000",
                         "font_alignment": "1",
+                        "font_name": "Tableau Medium",
+                        "hyperlink": 'tabdoc:load-url url="https://www.baseball-reference.com/"',
                     },
                 ],
                 "absolute": {"x": 1143, "y": 94286, "w": 97714, "h": 4571},
+                "style": {"margin": "4"},
             },
         ],
     }
