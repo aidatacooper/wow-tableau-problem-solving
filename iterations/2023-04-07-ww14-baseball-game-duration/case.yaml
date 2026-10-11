@@ -62,18 +62,15 @@ notes:
   after the cwtwb fix that carries the worksheet table-calc context onto the
   datasource palette column-instance (a table-calc-derived colour field was
   otherwise rendered with the default categorical palette).'
-- 'Known cwtwb gap: percentage distribution bands (the author''s 150% spacer
-  refline) are not expressible through the public API, so per-decade bar tops
-  differ by up to ~8px; colours, bar widths, labels, and values match.'
-- 'Known cwtwb gap: the author addresses Latest Duration with a
-  specific-dimension table calc ordered by [Decade],[Year], so the "2:38 in
-  2023" line is global (158) in every pane. table_calc_overrides cannot
-  express that without changing the bar ordering, so the replica partitions
-  per Decade and the line drifts; the numeric classification is unaffected.'
-- 'The author''s 150% percentage distribution band is reproduced with the new
-  cwtwb add_percentage_band API (pin d0c26cf): it shapes each pane''s axis
+- 'The Latest Duration table calc addresses the specific dimensions
+  [Decade],[Year] (matching the author), so the "2:38 in 2023" line resolves
+  to the global 2023 value (158) in every decade pane.'
+- 'The author''s 150% percentage distribution band is reproduced with the
+  cwtwb add_percentage_band API (pin 86119c1): it shapes each pane''s axis
   range, which is what the author''s row spacing depends on. The band must not
   carry tooltip-type, which Tableau Desktop rejects with load error d2e8da72.'
+- 'The replica matches the author''s Cloud render pixel-for-pixel: 0 pixels
+  differ by more than 30 levels (100.00% of pixels equal).'
 - 'The dashboard reproduces the author''s zone margins (root margin=8 plus a
   4px margin on the Viz and text zones) and the text zones'' Tableau Medium
   fontname and source hyperlink; the title, credits, and source rows now
