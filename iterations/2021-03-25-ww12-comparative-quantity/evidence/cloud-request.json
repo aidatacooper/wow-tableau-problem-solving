@@ -1,0 +1,15 @@
+{
+  "case_dir": "iterations/2021-03-25-ww12-comparative-quantity",
+  "author_workbook": "dashboards/2021_03_24_WW12_Comparative_Qty/2021_03_24_WW12_Comparative_Qty.twbx",
+  "author_view": "2021_03_24_WW12_Comparative_Qty",
+  "replica_view": "Viz",
+  "states": [],
+  "data_views": [
+    {
+      "name": "viz",
+      "author": "2021_03_24_WW12_Comparative_Qty",
+      "replica": "Viz",
+      "scope": "Default author dashboard state and replica Viz worksheet. The author workbook publishes the dashboard only, so the REST CSV export returns the dashboard's aggregated scope; the replica worksheet export confirms the per-Sub-Category average quantity inclusive of manufacturer and the variance against the default (Fasteners) selection."
+    }
+  ]
+}

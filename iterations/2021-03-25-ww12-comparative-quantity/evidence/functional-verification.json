@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "scope": "Cloud REST CSV export of the replica Viz worksheet at the default parameter state, compared against the locked-extract oracle and against the author's published CSV export.",
+  "browser_interaction_executed": false,
+  "state": {
+    "pSelectedSubCat": "Fasteners",
+    "description": "Default state; the author's parameter default is also Fasteners."
+  },
+  "observed": {
+    "replica_subcategories": 17,
+    "oracle_subcategories": 17,
+    "mismatched_variance": 0,
+    "author_subcategories": 17,
+    "mismatched_against_author": 0
+  },
+  "expected_from_oracle": {
+    "subcategories": 17,
+    "selected_avg": 152.333333
+  },
+  "result": "pass",
+  "acceptance": [
+    "ww12-include-lod-average",
+    "ww12-exclude-lod-variance",
+    "ww12-parameter-action",
+    "ww12-no-fixed-lod",
+    "ww12-selected-color"
+  ]
+}

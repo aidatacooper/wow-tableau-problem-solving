@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0.0",
+  "cwtwb_version": "0.27.1",
+  "cwtwb_commit": "4cd2c61c1286a02932b5b42f47de344683d656a3",
+  "result": "pass",
+  "scope": "Released-SDK baseline for the WW12 Comparative Quantity Analysis case.",
+  "supported": [
+    "add_parameter with an unconstrained string domain (pSelectedSubCat)",
+    "add_calculated_field serializing {INCLUDE [Manufacturer] : SUM([Quantity])} and {EXCLUDE [Sub-Category], [Is Selected Sub Cat] : AVG(...)}",
+    "configure_layered_chart(axis_shelf='columns', fold_axes=False) writing two side-by-side panes for two measures on the column axis",
+    "configure_custom_tooltip per-pane rich tooltips",
+    "configure_worksheet_style continuous interpolated colour palette for the variance pane",
+    "add_dashboard_action(action_type='parameter') as a native edit-parameter-action",
+    "add_dashboard_action(action_type='filter', field_mappings={'True': 'False'}) for the Unhighlight behaviour"
+  ],
+  "findings": []
+}

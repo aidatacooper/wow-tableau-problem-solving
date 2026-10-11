@@ -38,6 +38,9 @@ iterations/*/evidence/article-analysis.html
 scratch/
 test_*.twbx
 *.twbx.twbx
+
+# Tableau Desktop backup files created while opening generated workbooks
+iterations/*/outputs/~*.twbr
 WW45*.twbx
 author_*.png
 replica_*.png

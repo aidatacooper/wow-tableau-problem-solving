@@ -1,0 +1,96 @@
+{
+  "case_id": "wow-2021-ww12-comparative-quantity",
+  "captured_at": "2026-10-11T09:10:31.146942+00:00",
+  "source_hashes": {
+    "author": "090c89c07ba098fd45464cace1bcc717ad1a964b43795cfebf03aa7494c59e4a",
+    "replica": "00572154a3c0575ace40dc3cbecb5f34a0be1de28c975f1653055cd83d9b50ac"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "d4eace37-03c5-4d66-8505-21af9caba829",
+      "name": "cwtwb-review-wow-2021-ww12-comparative-quantity-author-090c89c07ba0",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2982150",
+      "views": [
+        {
+          "name": "2021_03_24_WW12_Comparative_Qty",
+          "id": "f204828e-f88c-449d-af55-718d9a0b72a9"
+        },
+        {
+          "name": "Data",
+          "id": "ab0d0826-297d-4ec9-b446-e67dea18ceee"
+        }
+      ]
+    },
+    "replica": {
+      "id": "a51e79cd-4ec7-493b-9a48-35a06fb2d25e",
+      "name": "cwtwb-review-wow-2021-ww12-comparative-quantity-replica-00572154a3c0",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2982171",
+      "views": [
+        {
+          "name": "Viz",
+          "id": "824e667a-5431-4585-a717-888dd5181bd4"
+        },
+        {
+          "name": "2021_03_24_WW12_Comparative_Qty",
+          "id": "5f31fab8-4cf0-4d1e-80cb-e2b954627dd6"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "f204828e-f88c-449d-af55-718d9a0b72a9",
+          "name": "2021_03_24_WW12_Comparative_Qty",
+          "path": "outputs/cloud-author.png",
+          "sha256": "a67e4777de4025eff1796a86d517212d0f252e8b2a4ba0887a4930256e1b49ae",
+          "size": [
+            2000,
+            1300
+          ]
+        },
+        "replica": {
+          "id": "824e667a-5431-4585-a717-888dd5181bd4",
+          "name": "Viz",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "6d3f3857f38941646850a2a5774126913b0bccded0f3ff80c49c2c9a1b0b1b96",
+          "size": [
+            1584,
+            880
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "2021_03_24_WW12_Comparative_Qty",
+          "view_id": "f204828e-f88c-449d-af55-718d9a0b72a9",
+          "scope": "Default author dashboard state and replica Viz worksheet. The author workbook publishes the dashboard only, so the REST CSV export returns the dashboard's aggregated scope; the replica worksheet export confirms the per-Sub-Category average quantity inclusive of manufacturer and the variance against the default (Fasteners) selection.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-viz.csv",
+          "sha256": "bf697cadc93650184d99909b24c8d4388da79651e1981b46b94621862c13e08b",
+          "bytes": 1758
+        },
+        {
+          "role": "replica",
+          "view": "Viz",
+          "view_id": "824e667a-5431-4585-a717-888dd5181bd4",
+          "scope": "Default author dashboard state and replica Viz worksheet. The author workbook publishes the dashboard only, so the REST CSV export returns the dashboard's aggregated scope; the replica worksheet export confirms the per-Sub-Category average quantity inclusive of manufacturer and the variance against the default (Fasteners) selection.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-viz.csv",
+          "sha256": "6b05003aabb30ea46f525f0a598135602e06fe12835de29a2c39b6b34ab088c0",
+          "bytes": 1652
+        }
+      ]
+    }
+  ],
+  "status": "captured_requires_independent_review"
+}

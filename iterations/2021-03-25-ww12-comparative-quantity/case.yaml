@@ -1,0 +1,95 @@
+schema_version: 1.1.0
+case_id: wow-2021-ww12-comparative-quantity
+iteration_id: 2021-03-25-ww12-comparative-quantity
+post: https://donnacoles.home.blog/2021/03/25/can-you-do-comparative-quantity-analysis/
+legacy_case_ids: {}
+article_date: '2021-03-25'
+challenge_year: 2021
+challenge_week: 12
+challenge_date: '2021-03-23'
+date_evidence:
+  article_date: Article-local HTML 'Published:' calendar date, retained in evidence/article-date.json.
+  challenge: Official 2021 Week 12 article title.
+  challenge_date: Official WordPress REST date field retained in evidence/official-challenge-date.json.
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2021w12tab/
+    wordpress_post_id: 4856
+  article:
+    url: https://donnacoles.home.blog/2021/03/25/can-you-do-comparative-quantity-analysis/
+    path: null
+    sha256: 9378107e83e2dca8a6bbb545a1b1efbe30d9a36844cc56e03c0e21a8ae1dd910
+  workbook:
+    url: https://public.tableau.com/views/2021_03_24_WW12_Comparative_Qty/2021_03_24_WW12_Comparative_Qty
+    filename: 2021_03_24_WW12_Comparative_Qty.twbx
+    sha256: 090c89c07ba098fd45464cace1bcc717ad1a964b43795cfebf03aa7494c59e4a
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- evidence/article-date.json
+- evidence/build-provenance.json
+- evidence/cloud-request.json
+- evidence/cloud-verification.json
+- evidence/functional-verification.json
+- evidence/official-challenge-date.json
+- evidence/sdk-baseline.json
+- evidence/visual-review.md
+- inputs/source-lock.json
+notes:
+- The challenge forbids FIXED LoDs; the workbook uses only INCLUDE and EXCLUDE
+  LoDs, matching the article's LoD solution.
+- The two bars are two panes of one worksheet side by side on the column axis
+  (fold_axes=False), matching the author's single-sheet layout.
+- Clicking a Sub-Category drives a native parameter action; a second filter
+  action maps True to False so Tableau's default selection highlight never
+  overrides the authored colour encodings.
+cwtwb:
+  tested_version: 0.27.1
+  tested_commit: 4cd2c61c
+  runs:
+  - version: 0.27.1
+    commit: 4cd2c61c
+    result: pass
+    evidence: evidence/sdk-baseline.json
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: pass
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/Superstore with Manufacturer.hyper
+acceptance:
+- id: ww12-include-lod-average
+  description: Each Sub-Category's left bar is the average quantity inclusive of
+    manufacturer, computed as the INCLUDE [Manufacturer] sum averaged over the
+    manufacturer grain rather than over raw order rows.
+  mode: automated
+- id: ww12-exclude-lod-variance
+  description: The right bar is each Sub-Category's average minus the selected
+    Sub-Category's average, produced by the EXCLUDE LoD that spreads the selected
+    value across every row, and is zero for the selected row.
+  mode: automated
+- id: ww12-parameter-action
+  description: Selecting a Sub-Category bar sets pSelectedSubCat through a native
+    parameter action, recomputing the variance against the new baseline.
+  mode: automated
+- id: ww12-no-fixed-lod
+  description: No FIXED LoD expression appears in the workbook, honouring the
+    challenge constraint.
+  mode: automated
+- id: ww12-selected-color
+  description: The average panel colours by the boolean Is Selected Sub Cat field
+    with distinct selected/unselected palette entries, and the variance panel
+    carries a continuous colour palette.
+  mode: automated
+remaining_work: []
+blocker: null
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []

@@ -7,13 +7,13 @@
 
 - 开始时间：2026-10-11
 - 目标：从最早未解 case 起，按时间顺序解决 17 个 WoW case。
-- 分支：`feat/wow-batch-2021-ww11-ww27`
+- 分支：`feat/wow-batch-2021-part2`（worktree: `C:/Users/imgwho/.paseo/worktrees/209a8v60/feat-wow-batch-2021-part2`）
 - 进度文档负责人（agent）：batch-17 orchestrator
 
 ## 工作清单（按 article_date 升序，取未解可解前 17 个）
 
 - [x] 01 2021-03-18 ww11 Hans Rosling — `2021_03_17_WW11_Hans_Rosling` — replicated/workaround（commit f283e29；LOADED；verify_corpus LOADED=50 FAIL=0 UNKNOWN=0）
-- [ ] 02 2021-03-25 ww12 Comparative Quantity — `2021_03_24_WW12_Comparative_Qty`
+- [x] 02 2021-03-25 ww12 Comparative Quantity — `2021_03_24_WW12_Comparative_Qty` — replicated/pass（LOADED；Cloud CSV 与作者逐位一致；无 FIXED LoD）
 - [ ] 03 2021-04-01 ww13 % Sub-Orders Profitable — `2021_03_31_WW13_Percentage_Sub-Orders_Profitable`
 - [ ] 04 2021-04-08 ww14 Market Basket — `2021_04_07_WW14_Market_Basket_Analysis`
 - [ ] 05 2021-04-15 ww15 Google Analytics — `2021_04_14_WW15_GoogleAnalytics`
@@ -36,6 +36,7 @@
 - [x] 2026-10-11 基线核对 — main@0e465c2；94 solved / 255 unsolved；SDK editable=4cd2c61（pin=86119c1，二者同源）
 - [x] 2026-10-11 建分支 `feat/wow-batch-2021-ww11-ww27`
 - [x] 2026-10-11 01 ww11 Hans Rosling — 已复现；见工作清单
+- [x] 2026-10-11 02 ww12 Comparative Quantity — 已复现（validate PASS / LOADED / 83 tests OK）
 
 ## 已验证的技术事实（可复用）
 
@@ -48,11 +49,20 @@
 - dashboard `zone()` 不要设 `background-color`，否则白色 zone 会盖住下层 Year 表。
 - 诊断脚本：`scratch/batch17/diag.py <request.json> <out.png>`（Cloud 渲染单个 worksheet，
   空图 = 1586x32）。
+- `configure_layered_chart(axis_shelf="columns", fold_axes=False)` 会把两个 measure 放成
+  同一 worksheet 的**并排两个 pane**（作者 ww12 的 side-by-side 布局）；`fold_axes=True`
+  则叠成双轴。
+- `add_dashboard_action(action_type="parameter", source_field=..., target_parameter=...)`
+  可直接生成原生 `edit-parameter-action`；`action_type="filter"` +
+  `field_mappings={"True": "False"}` 复现作者的 "Unhighlight" 行为。
+- `{INCLUDE ...}` / `{EXCLUDE ...}` LoD 公式可通过 `add_calculated_field` 正常写入并校验。
+- **坑**：`build_and_check.py` 不要加 `PYTHONUTF8=1` 前缀——它内部用 `tasklist`（GBK 输出）
+  并以 UTF-8 解码，会 `UnicodeDecodeError`；worktree 默认环境即可。
 
 ## 下一步
 
-1. 解 02 ww12 Comparative Quantity。
-2. 剩余 03–17 见工作清单。
+1. 解 03 ww13 % Sub-Orders Profitable。
+2. 剩余 04–17 见工作清单。
 
 ## 阻塞
 
@@ -60,7 +70,7 @@
 
 ## 外部状态
 
-- 分支：`feat/wow-batch-2021-ww11-ww27`
+- 分支：`feat/wow-batch-2021-part2`（worktree: `C:/Users/imgwho/.paseo/worktrees/209a8v60/feat-wow-batch-2021-part2`）
 - 已开 PR：无
 - cwtwb pin：`86119c1`（editable 指向 4cd2c61，同源）
 - Cloud 证据是否绑定：ww11 已绑定（replica hash 与提交产物一致）

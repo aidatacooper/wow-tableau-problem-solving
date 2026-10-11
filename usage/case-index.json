@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "generated_from": "iterations/*/case.yaml",
-  "active_case_count": 95,
+  "active_case_count": 96,
   "legacy_case_ids": {
     "donna-2019-07-18-63877b35d19a": "wow-2019-ww29-high-orders",
     "donna-2019-07-25-59a0a144b25b": "wow-2019-ww30-navigation-kpi",
@@ -5346,6 +5346,66 @@
         "The normalized extract is materialized by the builder from the locked matrices; the author's native multi-table relationship path is recorded as a bug finding."
       ],
       "metadata": "iterations/2021-03-18-ww11-hans-rosling/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.27.1"
+    },
+    {
+      "case_id": "wow-2021-ww12-comparative-quantity",
+      "legacy_case_ids": {},
+      "iteration_id": "2021-03-25-ww12-comparative-quantity",
+      "article_date": "2021-03-25",
+      "challenge_year": 2021,
+      "challenge_week": 12,
+      "challenge_date": "2021-03-23",
+      "date_evidence": {
+        "article_date": "Article-local HTML 'Published:' calendar date, retained in evidence/article-date.json.",
+        "challenge": "Official 2021 Week 12 article title.",
+        "challenge_date": "Official WordPress REST date field retained in evidence/official-challenge-date.json."
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2021w12tab/",
+          "wordpress_post_id": 4856
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2021/03/25/can-you-do-comparative-quantity-analysis/",
+          "path": null,
+          "sha256": "9378107e83e2dca8a6bbb545a1b1efbe30d9a36844cc56e03c0e21a8ae1dd910"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2021_03_24_WW12_Comparative_Qty/2021_03_24_WW12_Comparative_Qty",
+          "filename": "2021_03_24_WW12_Comparative_Qty.twbx",
+          "sha256": "090c89c07ba098fd45464cace1bcc717ad1a964b43795cfebf03aa7494c59e4a"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "pass",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "evidence/article-date.json",
+        "evidence/build-provenance.json",
+        "evidence/cloud-request.json",
+        "evidence/cloud-verification.json",
+        "evidence/functional-verification.json",
+        "evidence/official-challenge-date.json",
+        "evidence/sdk-baseline.json",
+        "evidence/visual-review.md",
+        "inputs/source-lock.json"
+      ],
+      "notes": [
+        "The challenge forbids FIXED LoDs; the workbook uses only INCLUDE and EXCLUDE LoDs, matching the article's LoD solution.",
+        "The two bars are two panes of one worksheet side by side on the column axis (fold_axes=False), matching the author's single-sheet layout.",
+        "Clicking a Sub-Category drives a native parameter action; a second filter action maps True to False so Tableau's default selection highlight never overrides the authored colour encodings."
+      ],
+      "metadata": "iterations/2021-03-25-ww12-comparative-quantity/case.yaml",
       "metadata_contract": "1.1.0",
       "tested_sdk_version": "0.27.1"
     },

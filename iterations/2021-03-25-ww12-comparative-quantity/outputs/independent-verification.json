@@ -1,0 +1,56 @@
+{
+  "scope": "Locked-extract oracle plus native workbook contracts.",
+  "acceptance": [
+    "ww12-include-lod-average",
+    "ww12-exclude-lod-variance",
+    "ww12-parameter-action",
+    "ww12-no-fixed-lod",
+    "ww12-selected-color"
+  ],
+  "facts": {
+    "extract_sha256": "40cf3a9a5b13944729556fdaf23a3bb0586ee9605e068b15d1a313b16906281c",
+    "rows": 9994,
+    "subcategories": 17,
+    "avg_qty": {
+      "Binders": 284.47619,
+      "Tables": 82.733333,
+      "Envelopes": 113.25,
+      "Fasteners": 152.333333,
+      "Accessories": 135.272727,
+      "Art": 150.0,
+      "Supplies": 92.428571,
+      "Machines": 22.0,
+      "Chairs": 261.777778,
+      "Furnishings": 148.458333,
+      "Paper": 246.571429,
+      "Copiers": 58.5,
+      "Bookcases": 72.333333,
+      "Storage": 137.304348,
+      "Appliances": 101.705882,
+      "Phones": 106.096774,
+      "Labels": 280.0
+    },
+    "selected": "Fasteners",
+    "selected_avg": 152.333333,
+    "variance": {
+      "Binders": 132.142857,
+      "Tables": -69.6,
+      "Envelopes": -39.083333,
+      "Fasteners": 0.0,
+      "Accessories": -17.060606,
+      "Art": -2.333333,
+      "Supplies": -59.904762,
+      "Machines": -130.333333,
+      "Chairs": 109.444445,
+      "Furnishings": -3.875,
+      "Paper": 94.238096,
+      "Copiers": -93.833333,
+      "Bookcases": -80.0,
+      "Storage": -15.028985,
+      "Appliances": -50.627451,
+      "Phones": -46.236559,
+      "Labels": 127.666667
+    }
+  },
+  "output_sha256": "041ee2d6d0b6257205bfe5fd6517e1909aa7a62c6b09ce27d7933abff1c3432e"
+}
