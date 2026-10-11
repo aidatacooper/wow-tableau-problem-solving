@@ -43,26 +43,46 @@ These values also match the independent Hyper aggregate computed by
   that forces labels on the narrow bars.
 - Challenge title and credits text are present on the dashboard.
 
+## Color, palette, and axis agreement
+
+- **Bar colors**: the Cloud render now matches the author exactly —
+  purple `#8175aa` (Men) and green `#6fb798` (Women) on both pyramid
+  panes, sign-toggled green/purple on the Headcount Gap pane (gap
+  values −28/−13/−10/−13/−8/−7/−2 green, +12/+2/+4 purple), and the
+  colored `Men` / `Women` tokens in the subtitle. The earlier
+  blue/orange fallback is resolved by injecting a fully-qualified
+  Measure Names reference bucket and dropping the alias entries.
+- **Axes**: both sides tick `0…200` around the shared zero (clusters
+  measured at identical x-positions on the right axis: `150`,
+  `200`, gap `30` verified by crop), and the Headcount Gap axis ticks
+  `30…0…10` with its zero refline. The axis titles `Headcount` and
+  `Headcount Gap` match, including the hidden Males axis.
+- **Reference lines**: both constant-zero lines render (measured at
+  x≈967/2233 in the author and x≈955/2249 in the replica at 2x
+  capture scale).
+- The author's `Males (copy)` / `Females (copy)` rename is reproduced
+  via `set_measure_name_aliases`; captions and visible pill names
+  match.
+- Fonts, padding, title font colour, header two-line wrapping, and
+  the credits rows match the author.
+
+## Pixel comparison
+
+A whole-image diff of the two 2600×1400 captures reports 71,596 pixels
+(1.97%) differing by more than 30 levels; 98.0% of all pixels are identical.
+The title and the credits rows start at the same y-positions as the
+author's after reproducing the author's zone margins (root `margin=8`,
+Viz zone `margin=4`, text zones `margin=4`).
+
 ## Accepted deltas
 
-- **Bar colors**: the Cloud-rendered bars fall back to Tableau's default
-  categorical palette (blue/orange) instead of the author's Men/Women
-  pair (purple `#8175aa` / green `#6fb798`). We inject a
-  ``<encoding attr="color" field="[:Measure Names]">`` block in the
-  worksheet and datasource style-rules with the author palette, but
-  Cloud Server's renderer does not honor it for the dual-axis panes; it
-  does honor it for the third (Gap) pane. Documented in `case.yaml`
-  `capability_gaps`; the visual evidence captures this as the single
-  remaining structural deviation.
-- The author's `Males (copy)` / `Females (copy)` rename is reproduced
-  via `set_measure_name_aliases`; this affects the visible pill name
-  but not the column-instance reference Cloud uses for the encoding
-  bucket, which is why the encoding does not match.
-- The Headcount Gap bar color toggles per cell via the boolean flag in
-  the author; in the replica, the Gap pane uses a single color (the
-  default Tableau orange). Cloud Server's boolean color encoding is
-  honored only when the encoding is on the pane's `color` mark, not via
-  the global Measure Names palette.
-- Fonts, padding, and title font colour match the author; the title
-  font colour for the "Men" / "Women" tokens uses Tableau defaults
-  rather than the author's purple/green tokens.
+- Sub-2% pane-geometry offsets from renderer layout rounding: the
+  shared zero line sits ~6px left of the author's, the left `200`
+  tick ~12px further left (at 2x capture scale), and the Headcount
+  Gap axis is ~1.6% wider. Tick values, labels, and bar lengths are
+  unaffected; values and domain (0…200 / −30…10) are identical.
+- Structural XML differences with no visible impact: the replica's
+  axis style-rule carries an extra class="1" (Gap) encoding the
+  author omits; cwtwb omits `value="0"` / `tooltip-type` on the
+  reflines and cannot write `element="field-labels"` (no public
+  API), which the header width/height settings render equivalently.

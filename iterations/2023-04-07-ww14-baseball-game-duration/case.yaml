@@ -24,18 +24,15 @@ source:
     filename: 2023_04_05_WW14_Baseball_Games.twbx
     sha256: 100bdf99a0ad81c5c92d5c96eac7085f4a7c1ab8f6b59c153769a7f05b2e16a5
 functional_status: replicated
-visual_status: not_evaluated
+visual_status: acceptable_delta
 cwtwb_result: pass
 cwtwb:
   tested_version: 0.27.1
   runs:
-  - version: 0.26.0
-    result: blocked
-    evidence: early scaffold; superseded by the 0.27.1 run below
   - version: 0.27.1
     result: pass
     evidence: verify_replication.py
-  tested_commit: 876bd222011237edd84b1e2649a4fe213ff263db
+  tested_commit: d0c26cf7a04b85a12234472db989a0db60eb711f
 verification_status: verified
 artifacts:
   primary_workbook: outputs/replicated-workbook.twbx
@@ -54,10 +51,23 @@ evidence:
 - evidence/workbook-inventory.json
 - evidence/visual-review.md
 notes:
-- Rebuilt with cwtwb 0.27.1 from the packaged Hyper extract using public SDK
-  APIs only; the author workbook was never opened by the builder.
+- Rebuilt with cwtwb 0.27.1 (pin d0c26cf) from the packaged Hyper extract using
+  public SDK APIs only; the author workbook was never opened by the builder.
 - The bar chart addresses its INDEX()/window table calcs by Year and pins the
   2023 duration with a custom-labelled field-backed reference line.
+- 'The Index pill is bound as an ordinal (not quantitative) instance, matching
+  the author: a quantitative Index turns Columns into a continuous axis and
+  renders the bars as thin strips.'
+- 'Cloud honours the author''s teal #52b7d8 / orange #e16032 boolean palette
+  after the cwtwb fix that carries the worksheet table-calc context onto the
+  datasource palette column-instance (a table-calc-derived colour field was
+  otherwise rendered with the default categorical palette).'
+- 'Known cwtwb gap: percentage distribution bands (the author''s 150% spacer
+  refline) are not expressible through the public API, so per-decade bar tops
+  differ by up to ~8px; colours, bar widths, labels, and values match.'
+- 'The dashboard reproduces the author''s zone margins (root margin=8 plus a
+  4px margin on the Viz and text zones), which aligns the title and credits
+  rows with the author''s render.'
 analysis_status: completed
 remaining_work: []
 inputs:
@@ -83,6 +93,11 @@ acceptance:
 - id: reference-line-structure
   description: The workbook round-trips through the SDK and carries the bar
     pane with the "2:38 in 2023" custom-labelled field-backed reference line.
+  mode: automated
+- id: boolean-palette
+  description: "The worksheet carries the author's teal #52b7d8 / orange #e16032
+    boolean colour palette, bound with the same table-calc context as the
+    worksheet's colour instance."
   mode: automated
 - id: cloud-visual-and-numeric-agreement
   description: The Cloud REST author and replica renders were compared, and the

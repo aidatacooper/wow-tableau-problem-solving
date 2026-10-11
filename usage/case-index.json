@@ -5345,7 +5345,9 @@
       ],
       "notes": [
         "Rebuilt with cwtwb 0.27.1 from the packaged Hyper extract using public SDK APIs only; the author workbook was never opened by the builder.",
-        "The dumbbell uses two synchronized Measure Values panes on one worksheet - a Circle pane for the two years and a Line pane coloured by Difference>0.2."
+        "The dumbbell uses two synchronized Measure Values panes on one worksheet - a Circle pane for the two years and a Line pane coloured by Difference>0.2.",
+        "The delta label anchor is deterministic: pinned internal_name values on Ownership 2015/2019 keep the 2015 Measure Names full reference as the lexicographic minimum, which is where mark-labels range-min anchors the label (below the 2015 circle, like the author). Default per-build UUID names made the anchor flip between rebuilds.",
+        "Known cwtwb gap: set_worksheet_rich_title drops fontname, so the subtitle colour runs render at regular weight instead of the author's Tableau Bold. This is the only remaining visual delta (0.037% of pixels in one subtitle strip); see evidence/visual-review.md."
       ],
       "metadata": "iterations/2022-08-12-ww32-dumbbell-chart/case.yaml",
       "metadata_contract": "1.1.0",
@@ -5381,7 +5383,7 @@
         }
       },
       "functional_status": "replicated",
-      "visual_status": "not_evaluated",
+      "visual_status": "acceptable_delta",
       "verification_status": "verified",
       "cwtwb_result": "pass",
       "artifacts": {
@@ -5406,8 +5408,12 @@
         "evidence/visual-review.md"
       ],
       "notes": [
-        "Rebuilt with cwtwb 0.27.1 from the packaged Hyper extract using public SDK APIs only; the author workbook was never opened by the builder.",
-        "The bar chart addresses its INDEX()/window table calcs by Year and pins the 2023 duration with a custom-labelled field-backed reference line."
+        "Rebuilt with cwtwb 0.27.1 (pin d0c26cf) from the packaged Hyper extract using public SDK APIs only; the author workbook was never opened by the builder.",
+        "The bar chart addresses its INDEX()/window table calcs by Year and pins the 2023 duration with a custom-labelled field-backed reference line.",
+        "The Index pill is bound as an ordinal (not quantitative) instance, matching the author: a quantitative Index turns Columns into a continuous axis and renders the bars as thin strips.",
+        "Cloud honours the author's teal #52b7d8 / orange #e16032 boolean palette after the cwtwb fix that carries the worksheet table-calc context onto the datasource palette column-instance (a table-calc-derived colour field was otherwise rendered with the default categorical palette).",
+        "Known cwtwb gap: percentage distribution bands (the author's 150% spacer refline) are not expressible through the public API, so per-decade bar tops differ by up to ~8px; colours, bar widths, labels, and values match.",
+        "The dashboard reproduces the author's zone margins (root margin=8 plus a 4px margin on the Viz and text zones), which aligns the title and credits rows with the author's render."
       ],
       "metadata": "iterations/2023-04-07-ww14-baseball-game-duration/case.yaml",
       "metadata_contract": "1.1.0",
@@ -5500,8 +5506,8 @@
       },
       "functional_status": "replicated",
       "visual_status": "acceptable_delta",
-      "verification_status": "pending",
-      "cwtwb_result": "workaround",
+      "verification_status": "verified",
+      "cwtwb_result": "pass",
       "artifacts": {
         "primary_workbook": "outputs/replicated-workbook.twbx",
         "cloud_author": "outputs/cloud-author.png",
@@ -5518,7 +5524,8 @@
       ],
       "notes": [
         "Generated index views must be refreshed after the workbook is built and verified.",
-        "Cloud Server's renderer does not honor the dual-axis Measure Names color encoding written by cwtwb; bars fall back to Tableau's default categorical palette (blue/orange) for the Males and Females panes. The Headcount Gap pane accepts the encoding (orange #f28e2b matches). This is the only deviation from the author."
+        "Cloud renders the Men/Women Measure Names palette (purple #8175aa / green #6fb798) correctly after injecting a fully-qualified reference bucket without alias entries; the earlier blue/orange fallback is resolved.",
+        "The dashboard reproduces the author's zone margins (root margin=8, Viz and text zones margin=4), which aligns the title and credits rows with the author's render; the remaining 1.97% pixel delta is pane-geometry rounding."
       ],
       "metadata": "iterations/2025-11-07-ww45-population-pyramid/case.yaml",
       "metadata_contract": "1.1.0",

@@ -10,6 +10,7 @@ acceptance: decade-bucketing
 acceptance: latest-duration-window
 acceptance: pace-classification
 acceptance: reference-line-structure
+acceptance: boolean-palette
 """
 
 from __future__ import annotations
@@ -72,6 +73,33 @@ def verify() -> None:
     custom_label = re.search(r'label="([^"]*)"', source)
     if not custom_label or "2023" not in custom_label.group(1):
         raise AssertionError("Reference line lacks the 2023 custom label")
+
+    # acceptance: boolean-palette — the author's teal/orange boolean palette is
+    # present on the datasource mark style and carries the same table-calc
+    # addressing as the worksheet colour instance. Cloud ignores a palette
+    # whose instance lacks that context when the colour field is a table calc.
+    palette = re.search(
+        r'<style-rule element="mark"><encoding attr="color"[^>]*type="palette">'
+        r'(?P<body>.*?)</encoding>',
+        source,
+        re.S,
+    )
+    if palette is None:
+        raise AssertionError("Workbook is missing the boolean colour palette")
+    for bucket, colour in (("false", "#52b7d8"), ("true", "#e16032")):
+        if f'<map to="{colour}"><bucket>{bucket}</bucket></map>' not in palette.group("body"):
+            raise AssertionError(f"Palette is missing {bucket} -> {colour}")
+    palette_field = re.search(r'encoding attr="color" field="([^"]*)" type="palette"', palette.group(0))
+    bound = re.search(
+        r'<column-instance column="([^"]*)" derivation="User" '
+        r'name="' + re.escape(palette_field.group(1)) + r'"[^>]*>(?P<children>.*?)</column-instance>',
+        source,
+        re.S,
+    )
+    if bound is None or "<table-calc" not in bound.group("children"):
+        raise AssertionError(
+            "The palette instance must carry the colour field's table-calc context"
+        )
 
     # acceptance: duration-metric + decade-bucketing + latest-duration-window
     #            + pace-classification — recomputed from the extract.

@@ -22,7 +22,7 @@ source:
     url: null
     filename: 2025_11_05_WW45_Population_Pyramid.twbx
     sha256: f9c9dcb2cd3ec91c20250a8531b37d90be2c34acefd3fde211cea2162fb6c8c8
-verification_status: pending
+verification_status: verified
 artifacts:
   primary_workbook: outputs/replicated-workbook.twbx
   cloud_author: outputs/cloud-author.png
@@ -37,21 +37,23 @@ evidence:
 - evidence/cloud-verification.json
 notes:
 - Generated index views must be refreshed after the workbook is built and verified.
-- "Cloud Server's renderer does not honor the dual-axis Measure Names color
-  encoding written by cwtwb; bars fall back to Tableau's default categorical
-  palette (blue/orange) for the Males and Females panes. The Headcount Gap
-  pane accepts the encoding (orange #f28e2b matches). This is the only
-  deviation from the author."
+- "Cloud renders the Men/Women Measure Names palette (purple #8175aa / green
+  #6fb798) correctly after injecting a fully-qualified reference bucket without
+  alias entries; the earlier blue/orange fallback is resolved."
+- "The dashboard reproduces the author's zone margins (root margin=8, Viz and
+  text zones margin=4), which aligns the title and credits rows with the
+  author's render; the remaining 1.97% pixel delta is pane-geometry rounding."
 cwtwb:
   tested_version: 0.27.1
   runs:
   - version: 0.27.1
-    result: workaround
+    result: pass
     evidence: verify_replication.py
+  tested_commit: d0c26cf7a04b85a12234472db989a0db60eb711f
 analysis_status: completed
 functional_status: replicated
 visual_status: acceptable_delta
-cwtwb_result: workaround
+cwtwb_result: pass
 inputs:
   source_lock: inputs/source-lock.json
   data_files:
@@ -71,20 +73,3 @@ acceptance:
   mode: automated
 remaining_work: null
 blocker: null
-workarounds:
-- name: dual-axis-color-palette
-  description: Cloud Server does not honor the cwtwb-injected Measure Names color
-    encoding for the dual-axis panes. Bars fall back to Tableau's default
-    categorical palette (blue/orange) instead of the author's Men/Women pair
-    (purple/green). The structural and numerical agreement is unaffected.
-    The Headcount Gap pane accepts the encoding and renders orange correctly.
-    No release-blocker; the visualization is functionally complete.
-capability_gaps:
-- name: dual-axis-measure-names-color-encoding
-  description: cwtwb writes a per-pane Measure Names palette encoding via
-    a style-rule element=mark block, but Tableau Cloud Server's renderer applies
-    the encoding to the extra-axis pane (the Headcount Gap) and not to the
-    synchronized dual-axis panes (Males/Females). The panes fall back to
-    Tableau's default categorical palette. Neither per-pane mark color
-    overrides nor a re-save cycle are available via cwtwb's public API today.
-related_cwtwb_issues: []

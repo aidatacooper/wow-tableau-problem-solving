@@ -1,10 +1,10 @@
 {
  "schema_version": "1.0.0",
- "status": "passed_with_documented_gap",
- "checked_at": "2026-10-10T13:45:00+00:00",
+ "status": "passed",
+ "checked_at": "2026-10-11T00:48:27+00:00",
  "artifacts": {
   "replicated-workbook.twbx": {
-   "sha256": "e12e152ca3231d719b41f8f38260d2adbfa497fa5e08e7333b4a586abaa80144",
+   "sha256": "c1f70227e992a4d8615c4e2e37a3a66983868ac6d751ea4ee805437f6aaa0ec0",
    "zip_structure": "passed",
    "bundled_hyper_present": true,
    "local_xsd": "passed",
@@ -15,6 +15,5 @@
   "python scripts/validate_iteration.py iterations/2025-11-07-ww45-population-pyramid",
   "python scripts/desktop/build_and_check.py iterations/2025-11-07-ww45-population-pyramid",
   "python -m unittest discover -s tests"
- ],
- "capability_gap": "dual-axis-measure-names-color-encoding"
+ ]
 }
