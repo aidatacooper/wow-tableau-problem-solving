@@ -1,0 +1,56 @@
+{
+  "scope": "Locked-extract oracle plus native workbook contracts.",
+  "acceptance": [
+    "ww14-second-order-grain",
+    "ww14-selected-subcat-orders",
+    "ww14-other-items-exclusion",
+    "ww14-order-count-ranking",
+    "ww14-profitability-colour",
+    "ww14-toggle-switch"
+  ],
+  "facts": {
+    "extract_sha256": "2597eee161b8711312ed53d83700547c3d97f36c661d1c26c9b75d88419bf147",
+    "rows": 9994,
+    "customers": 793,
+    "second_order_rows": 1607,
+    "selected_subcat": "Accessories",
+    "selected_orders": 718,
+    "basket": {
+      "Binders": 23,
+      "Paper": 23,
+      "Furnishings": 18,
+      "Phones": 15,
+      "Storage": 11,
+      "Appliances": 9,
+      "Labels": 7,
+      "Chairs": 6,
+      "Art": 5,
+      "Fasteners": 5,
+      "Machines": 5,
+      "Supplies": 5,
+      "Tables": 5,
+      "Envelopes": 4,
+      "Bookcases": 3,
+      "Copiers": 1
+    },
+    "profit_ratio": {
+      "Binders": 0.15941090322476678,
+      "Paper": 0.4242923357920253,
+      "Furnishings": 0.1679906750322624,
+      "Phones": 0.11558478036873261,
+      "Storage": -0.061152170822329835,
+      "Appliances": -0.5083985706068213,
+      "Labels": 0.45759382395093817,
+      "Chairs": 0.05500109880330327,
+      "Art": 0.2630725892913452,
+      "Fasteners": 0.33371294287780184,
+      "Machines": -0.29159165202081355,
+      "Supplies": 0.02160647211788497,
+      "Tables": -0.021598242856763702,
+      "Envelopes": 0.3831241695563405,
+      "Bookcases": 0.16326608033467555,
+      "Copiers": 0.3374999999999999
+    }
+  },
+  "output_sha256": "25106541999e509c0e52de33e046c7c0cb5586af35d8317c469dbf5d4768cf5f"
+}

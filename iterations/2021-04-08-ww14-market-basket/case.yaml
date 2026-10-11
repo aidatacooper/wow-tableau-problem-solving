@@ -1,0 +1,99 @@
+schema_version: 1.1.0
+case_id: wow-2021-ww14-market-basket
+iteration_id: 2021-04-08-ww14-market-basket
+post: https://donnacoles.home.blog/2021/04/08/can-you-recommend-profitable-return-customer-product-bundles/
+legacy_case_ids: {}
+article_date: '2021-04-08'
+challenge_year: 2021
+challenge_week: 14
+challenge_date: '2021-04-06'
+date_evidence:
+  article_date: Article-local HTML 'Published:' calendar date, retained in evidence/article-date.json.
+  challenge: Official 2021 Week 14 article title.
+  challenge_date: Official WordPress REST date field retained in evidence/official-challenge-date.json.
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2021w14tab/
+    wordpress_post_id: 4946
+  article:
+    url: https://donnacoles.home.blog/2021/04/08/can-you-recommend-profitable-return-customer-product-bundles/
+    path: null
+    sha256: dd3548187581f0d5c0bd7af4074c10148f4c5dd47775ec19dae4fde9e965dc80
+  workbook:
+    url: https://public.tableau.com/views/2021_04_07_WW14_Market_Basket_Analysis/2021_04_07_WW14_MarketBasketAnalysis
+    filename: 2021_04_07_WW14_Market_Basket_Analysis.twbx
+    sha256: 2cb2383f161033a50f38ef2450902e01415a52220036340f3d4f89d4f2834eb2
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- evidence/article-date.json
+- evidence/build-provenance.json
+- evidence/cloud-request.json
+- evidence/cloud-verification.json
+- evidence/functional-verification.json
+- evidence/official-challenge-date.json
+- evidence/sdk-baseline.json
+- evidence/visual-review.md
+- inputs/source-lock.json
+notes:
+- "A customer's second order is identified with the article's self-contained LoD
+  {FIXED [Customer ID]: MIN(IIF([Is Customer's First Order]=False, [Order Date],
+  NULL))} = [Order Date] instead of the data-source-filter trick, so the workbook
+  does not depend on extract-filter ordering."
+- "Orders containing the selected Sub-Category are found with the order-level LoD
+  {FIXED [Order ID]: SUM(...)} >= 1 rather than a condition-based Set object."
+- "Bar and Treemap sit in one vertical flow container so the Toggle-gated empty
+  sheet collapses and the visible chart fills the region."
+cwtwb:
+  tested_version: 0.27.1
+  tested_commit: 4cd2c61c
+  runs:
+  - version: 0.27.1
+    commit: 4cd2c61c
+    result: pass
+    evidence: evidence/sdk-baseline.json
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: pass
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/TEMP_190looh0vamnc316c90ra0i8scth.hyper
+acceptance:
+- id: ww14-second-order-grain
+  description: Only a customer's second order contributes, identified by a FIXED LoD
+    on the minimum order date after the customer's first order rather than by row
+    order.
+  mode: automated
+- id: ww14-selected-subcat-orders
+  description: Both charts count orders that contain the selected Sub-Category,
+    selected by the order-level LoD summing the per-row match flag to at least one.
+  mode: automated
+- id: ww14-other-items-exclusion
+  description: The selected Sub-Category is recoded to N/A and excluded, so a
+    Sub-Category never recommends itself.
+  mode: automated
+- id: ww14-order-count-ranking
+  description: Bars and treemap tiles are ordered by the distinct order count
+    descending, and the treemap sizes tiles by that count.
+  mode: automated
+- id: ww14-profitability-colour
+  description: Marks are coloured by whether the other Sub-Category's profit ratio
+    is positive, using a two-entry boolean palette shared by both charts.
+  mode: automated
+- id: ww14-toggle-switch
+  description: Selecting on the Toggle control writes the Toggle parameter through
+    a native parameter action, and each chart is gated on the parameter so exactly
+    one renders.
+  mode: automated
+remaining_work: []
+blocker: null
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []

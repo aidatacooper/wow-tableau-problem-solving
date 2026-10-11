@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "scope": "Cloud REST CSV export of the replica Bar worksheet at the default state, compared against the locked-extract oracle and against the author's published export.",
+  "browser_interaction_executed": false,
+  "state": {
+    "Toggle": 0,
+    "pSelected_SubCat": "Accessories",
+    "description": "Default dashboard state: bar chart for the selected Sub-Category Accessories."
+  },
+  "observed": {
+    "subcategories": 16,
+    "problems": []
+  },
+  "expected_from_oracle": {
+    "subcategories": 16,
+    "second_order_rows": 1607,
+    "customers": 793
+  },
+  "result": "pass",
+  "acceptance": [
+    "ww14-second-order-grain",
+    "ww14-selected-subcat-orders",
+    "ww14-other-items-exclusion",
+    "ww14-order-count-ranking",
+    "ww14-profitability-colour",
+    "ww14-toggle-switch"
+  ]
+}

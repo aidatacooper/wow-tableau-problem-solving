@@ -1,0 +1,17 @@
+Other Items Ordered,Count Orders,Is Profitable?,Profit Ratio,Profit,Sales
+Binders,23,True,16%,524.3243,"3,289.137"
+Paper,23,True,42%,653.2286,"1,539.572"
+Furnishings,18,True,17%,418.3838,"2,490.518"
+Phones,15,True,12%,972.7948,"8,416.288"
+Storage,11,False,-6%,-218.5038,"3,573.116"
+Appliances,9,False,-51%,"-1,090.64","2,145.246"
+Labels,7,True,46%,109.8335,240.024
+Chairs,6,True,6%,121.1342,"2,202.396"
+Art,5,True,26%,25.0282,95.138
+Fasteners,5,True,33%,7.3844,22.128
+Machines,5,False,-29%,"-1,948.9744","6,683.917"
+Supplies,5,True,2%,1.4956,69.22
+Tables,5,False,-2%,-90.3291,"4,182.243"
+Envelopes,4,True,38%,94.5765,246.856
+Bookcases,3,True,16%,187.6404,"1,149.292"
+Copiers,1,True,34%,485.9892,"1,439.968"

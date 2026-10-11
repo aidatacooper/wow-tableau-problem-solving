@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0.0",
+  "cwtwb_version": "0.27.1",
+  "cwtwb_commit": "4cd2c61c1286a02932b5b42f47de344683d656a3",
+  "result": "pass",
+  "scope": "Released-SDK baseline for the WW14 market-basket case.",
+  "supported": [
+    "add_parameter list domains for the Sub-Category selector and the 0/1 Toggle",
+    "add_calculated_field for the FIXED second-order LoD and the order-set LoD",
+    "configure_chart Bar with a shelf-sort and Square-mark treemap via configure_layered_chart",
+    "configure_layered_chart(sort_mode='computed') for the Detail-bound treemap sort",
+    "configure_custom_tooltip per sheet",
+    "configure_worksheet_style boolean colour palette plus quantitative range filters",
+    "add_dashboard_action(action_type='parameter', source_field='Measure Names')",
+    "nested layout-flow container so the empty toggled sheet collapses"
+  ],
+  "findings": []
+}

@@ -1,0 +1,104 @@
+{
+  "case_id": "wow-2021-ww14-market-basket",
+  "captured_at": "2026-10-11T09:39:59.789492+00:00",
+  "source_hashes": {
+    "author": "2cb2383f161033a50f38ef2450902e01415a52220036340f3d4f89d4f2834eb2",
+    "replica": "74d7badc73c3dd72f4a1a203c4d8bbc03e42b019937b9984232742de4979281f"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "bd7847e4-11e3-46b9-b7f3-75bef5b49754",
+      "name": "cwtwb-review-wow-2021-ww14-market-basket-author-2cb2383f1610",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2982242",
+      "views": [
+        {
+          "name": "2021_04_07_WW14_MarketBasketAnalysis",
+          "id": "22082011-17c9-4fd0-82e3-f0a6ce960f97"
+        },
+        {
+          "name": "Data",
+          "id": "d0c56328-a769-4b39-a6a9-6fe507be1955"
+        }
+      ]
+    },
+    "replica": {
+      "id": "17cf54a8-c157-45e0-9528-07fcb4d3d48b",
+      "name": "cwtwb-review-wow-2021-ww14-market-basket-replica-74d7badc73c3",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2982302",
+      "views": [
+        {
+          "name": "Bar",
+          "id": "a4fa5bf8-8fe3-458a-a8ec-894ce5a4d995"
+        },
+        {
+          "name": "Treemap",
+          "id": "8e96de4d-ebc7-4850-8eb5-49625ef1a493"
+        },
+        {
+          "name": "Toggle",
+          "id": "4d0c020d-a25f-491c-b973-552d4cec87d4"
+        },
+        {
+          "name": "2021_04_07_WW14_MarketBasketAnalysis",
+          "id": "f1046791-46cd-44c2-90a7-a35448ef3cdf"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "22082011-17c9-4fd0-82e3-f0a6ce960f97",
+          "name": "2021_04_07_WW14_MarketBasketAnalysis",
+          "path": "outputs/cloud-author.png",
+          "sha256": "9fe8d9b38484987c2a13873bb2ea0e69c207653d5f5869f64791c255d4410a25",
+          "size": [
+            2200,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "a4fa5bf8-8fe3-458a-a8ec-894ce5a4d995",
+          "name": "Bar",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "ad6ac58857796da179946b73e6d4abf80d4b75be2a5169948b0e9f37b51385f6",
+          "size": [
+            1584,
+            726
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "2021_04_07_WW14_MarketBasketAnalysis",
+          "view_id": "22082011-17c9-4fd0-82e3-f0a6ce960f97",
+          "scope": "Default author dashboard state and replica Bar worksheet. The author workbook publishes the dashboard only, so the REST CSV export returns the dashboard's aggregated scope; the replica bar export confirms the per-Sub-Category order count for a customer's second order containing the default selected Sub-Category (Accessories).",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-bar.csv",
+          "sha256": "29cd00018345898fa36e5b89b3dbdad742a5fa524dd39f3957efa131d1519663",
+          "bytes": 602
+        },
+        {
+          "role": "replica",
+          "view": "Bar",
+          "view_id": "a4fa5bf8-8fe3-458a-a8ec-894ce5a4d995",
+          "scope": "Default author dashboard state and replica Bar worksheet. The author workbook publishes the dashboard only, so the REST CSV export returns the dashboard's aggregated scope; the replica bar export confirms the per-Sub-Category order count for a customer's second order containing the default selected Sub-Category (Accessories).",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-bar.csv",
+          "sha256": "36db6e218a0230bdb114c386f2a7710b4e56aab820bf030041b1f55105d17442",
+          "bytes": 707
+        }
+      ]
+    }
+  ],
+  "status": "captured_requires_independent_review"
+}

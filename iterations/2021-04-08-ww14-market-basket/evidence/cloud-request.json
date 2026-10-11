@@ -1,0 +1,15 @@
+{
+  "case_dir": "iterations/2021-04-08-ww14-market-basket",
+  "author_workbook": "dashboards/2021_04_07_WW14_Market_Basket_Analysis/2021_04_07_WW14_Market_Basket_Analysis.twbx",
+  "author_view": "2021_04_07_WW14_MarketBasketAnalysis",
+  "replica_view": "Bar",
+  "states": [],
+  "data_views": [
+    {
+      "name": "bar",
+      "author": "2021_04_07_WW14_MarketBasketAnalysis",
+      "replica": "Bar",
+      "scope": "Default author dashboard state and replica Bar worksheet. The author workbook publishes the dashboard only, so the REST CSV export returns the dashboard's aggregated scope; the replica bar export confirms the per-Sub-Category order count for a customer's second order containing the default selected Sub-Category (Accessories)."
+    }
+  ]
+}
