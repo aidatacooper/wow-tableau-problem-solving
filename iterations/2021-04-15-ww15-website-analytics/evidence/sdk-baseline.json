@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0.0",
+  "cwtwb_version": "0.27.1",
+  "cwtwb_commit": "4cd2c61c1286a02932b5b42f47de344683d656a3",
+  "result": "pass",
+  "scope": "Released-SDK baseline for the WW15 website-analytics case.",
+  "supported": [
+    "set_date_options(start_of_week='sunday') for the datasource week origin",
+    "add_calculated_field with *nn:ss and p0.0% default formats",
+    "add_shared_filter plus a quantitative in-range bound on a continuous date instance",
+    "configure_chart Text BAN sheets with rich label runs",
+    "configure_chart Line trends with a continuous EXACTDATE axis",
+    "add_reference_line(average/overall) plus configure_reference_line_style text-format",
+    "nested vertical/horizontal flow containers with coloured empty spacer zones"
+  ],
+  "findings": []
+}

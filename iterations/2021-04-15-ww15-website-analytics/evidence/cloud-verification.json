@@ -1,0 +1,101 @@
+{
+  "case_id": "wow-2021-ww15-website-analytics",
+  "captured_at": "2026-10-11T10:03:10.796498+00:00",
+  "source_hashes": {
+    "author": "973ed4775bf8d2ef71a7b91d55cccacdd763da323ec0064f63a9bab37f6d8aa3",
+    "replica": "fe44d625ebd8505bed39d7b09a3db120188858b66e032b8508ec7653c5c89404"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "9e1b2f6b-84b8-4179-9125-1948d1bdba8c",
+      "name": "cwtwb-review-wow-2021-ww15-website-analytics-author-973ed4775bf8",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2982329",
+      "views": [
+        {
+          "name": "2021_04_14_WW15_WOW_Google_Analytics",
+          "id": "c62c1bef-79ec-475b-899d-22cf316f86a6"
+        },
+        {
+          "name": "Data",
+          "id": "ff8a3c47-15b9-4107-bcdc-4452f9d96f45"
+        }
+      ]
+    },
+    "replica": {
+      "id": "09e1880e-c396-4ab6-af0d-d60d09fb9d15",
+      "name": "cwtwb-review-wow-2021-ww15-website-analytics-replica-fe44d625ebd8",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2982390",
+      "views": [
+        {
+          "name": "Sessions BAN",
+          "id": "03a49390-97e8-4601-bde6-87a9868161f5"
+        },
+        {
+          "name": "Sessions Profile",
+          "id": "9b8579f5-8c6d-44e7-9ae2-7cfa60d50dbc"
+        },
+        {
+          "name": "Duration BAN",
+          "id": "372967ce-8748-46c4-bb9c-6c60db5ccfc7"
+        },
+        {
+          "name": "Duration Profile",
+          "id": "6415497c-f1a2-4d35-889e-b38844a4f68d"
+        },
+        {
+          "name": "Bounce Rate BAN",
+          "id": "aa155fcb-fec9-4025-9306-8f22edd50a77"
+        },
+        {
+          "name": "Bounce Rate Profile",
+          "id": "a0a6e5a1-4ecf-4fdb-a7a6-5d6293e2734e"
+        },
+        {
+          "name": "Page Time BAN",
+          "id": "c0f0fc37-9ae1-4192-a140-70edf115a544"
+        },
+        {
+          "name": "Page Time Profile",
+          "id": "87fcac4c-84f8-4df8-b454-ac2a3a9e6505"
+        },
+        {
+          "name": "2021_04_14_WW15_WOW_Google_Analytics",
+          "id": "4769d45f-b59d-4d38-9d47-ec7a065379e5"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "c62c1bef-79ec-475b-899d-22cf316f86a6",
+          "name": "2021_04_14_WW15_WOW_Google_Analytics",
+          "path": "outputs/cloud-author.png",
+          "sha256": "2d1edc52ec0e8423c5353b37d143d7cd14cb7dc759dc5e2f1787bec5bebe2eba",
+          "size": [
+            2600,
+            2000
+          ]
+        },
+        "replica": {
+          "id": "4769d45f-b59d-4d38-9d47-ec7a065379e5",
+          "name": "2021_04_14_WW15_WOW_Google_Analytics",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "d4f86e6b2ac75f57e9f0693e8d525001e8f2ba05aae7453b93dd8f48b6dc8cf7",
+          "size": [
+            2600,
+            2000
+          ]
+        }
+      },
+      "data": []
+    }
+  ],
+  "status": "captured_requires_independent_review"
+}

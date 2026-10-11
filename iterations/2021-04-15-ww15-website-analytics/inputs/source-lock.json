@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-11",
+  "source_workbook": {
+    "filename": "2021_04_14_WW15_GoogleAnalytics.twbx",
+    "bytes": 152916,
+    "sha256": "973ed4775bf8d2ef71a7b91d55cccacdd763da323ec0064f63a9bab37f6d8aa3",
+    "url": null
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Datasources/2021_04_14_WW15_Google Analytics.hyper",
+      "file": "inputs/2021_04_14_WW15_Google Analytics.hyper",
+      "bytes": 458752,
+      "sha256": "d65c6337d20fd0dd22ba96a16296ac228ef5124fde2ac2a78a2d88f0506cfac3"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

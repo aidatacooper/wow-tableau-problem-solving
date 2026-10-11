@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "generated_from": "iterations/*/case.yaml",
-  "active_case_count": 98,
+  "active_case_count": 99,
   "legacy_case_ids": {
     "donna-2019-07-18-63877b35d19a": "wow-2019-ww29-high-orders",
     "donna-2019-07-25-59a0a144b25b": "wow-2019-ww30-navigation-kpi",
@@ -5526,6 +5526,66 @@
         "Bar and Treemap sit in one vertical flow container so the Toggle-gated empty sheet collapses and the visible chart fills the region."
       ],
       "metadata": "iterations/2021-04-08-ww14-market-basket/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.27.1"
+    },
+    {
+      "case_id": "wow-2021-ww15-website-analytics",
+      "legacy_case_ids": {},
+      "iteration_id": "2021-04-15-ww15-website-analytics",
+      "article_date": "2021-04-15",
+      "challenge_year": 2021,
+      "challenge_week": 15,
+      "challenge_date": "2021-04-13",
+      "date_evidence": {
+        "article_date": "Article-local HTML 'Published:' calendar date, retained in evidence/article-date.json.",
+        "challenge": "Official 2021 Week 15 article title.",
+        "challenge_date": "Official WordPress REST date field retained in evidence/official-challenge-date.json."
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2021w15tab/",
+          "wordpress_post_id": 4980
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2021/04/15/tableau-website-analytics/",
+          "path": null,
+          "sha256": "2b1369c1ff9e914d0b18fe7291d70e1cc4c26672aa0e46a304e1e422b7963a4c"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2021_04_14_WW15_GoogleAnalytics/2021_04_14_WW15_WOW_Google_Analytics",
+          "filename": "2021_04_14_WW15_GoogleAnalytics.twbx",
+          "sha256": "973ed4775bf8d2ef71a7b91d55cccacdd763da323ec0064f63a9bab37f6d8aa3"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "pass",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "evidence/article-date.json",
+        "evidence/build-provenance.json",
+        "evidence/cloud-request.json",
+        "evidence/cloud-verification.json",
+        "evidence/functional-verification.json",
+        "evidence/official-challenge-date.json",
+        "evidence/sdk-baseline.json",
+        "evidence/visual-review.md",
+        "inputs/source-lock.json"
+      ],
+      "notes": [
+        "The 2021-04-10 cutoff is a workbook-level (data-source scoped) filter so the {FIXED : ...} aggregate reference lines never see 11 or 12 April.",
+        "Durations are seconds expressed as a fraction of a day and formatted nn:ss, matching the article's explanation.",
+        "The continuous weekly x axis uses a DATETRUNC('week', [Date]) field shown via EXACTDATE, since cwtwb has no direct Week-Trunc shelf derivation."
+      ],
+      "metadata": "iterations/2021-04-15-ww15-website-analytics/case.yaml",
       "metadata_contract": "1.1.0",
       "tested_sdk_version": "0.27.1"
     },

@@ -16,7 +16,7 @@
 - [x] 02 2021-03-25 ww12 Comparative Quantity — `2021_03_24_WW12_Comparative_Qty` — replicated/pass（LOADED；Cloud CSV 与作者逐位一致；无 FIXED LoD）
 - [x] 03 2021-04-01 ww13 % Sub-Orders Profitable — `2021_03_31_WW13_Percentage_Sub-Orders_Profitable` — replicated/pass（LOADED；Cloud CSV 与作者逐位一致）
 - [x] 04 2021-04-08 ww14 Market Basket — `2021_04_07_WW14_Market_Basket_Analysis` — replicated/pass（LOADED；Cloud CSV 与作者一致；参数 toggle）
-- [ ] 05 2021-04-15 ww15 Google Analytics — `2021_04_14_WW15_GoogleAnalytics`
+- [x] 05 2021-04-15 ww15 Google Analytics — `2021_04_14_WW15_GoogleAnalytics` — replicated/pass（LOADED；4 个 BAN 与作者一致）
 - [ ] 06 2021-04-23 ww16 Quick LoDs — `2021_04_21_WW16_Quick_LoDs`
 - [ ] 07 2021-04-29 ww17 Generation Population — `2021_04_28_WW17_Generation_Population`
 - [ ] 08 2021-05-13 ww19 Map Layers — `2021_05_12_WW19_Map_Layers`
@@ -39,6 +39,7 @@
 - [x] 2026-10-11 02 ww12 Comparative Quantity — 已复现（validate PASS / LOADED / 83 tests OK）
 - [x] 2026-10-11 03 ww13 % Sub-Orders Profitable — 已复现（validate PASS / LOADED / 83 tests OK）
 - [x] 2026-10-11 04 ww14 Market Basket — 已复现（validate PASS / LOADED / 83 tests OK）
+- [x] 2026-10-11 05 ww15 Google Analytics — 已复现（validate PASS / LOADED / 83 tests OK）
 
 ## 已验证的技术事实（可复用）
 
@@ -58,6 +59,15 @@
   可直接生成原生 `edit-parameter-action`；`action_type="filter"` +
   `field_mappings={"True": "False"}` 复现作者的 "Unhighlight" 行为。
 - `{INCLUDE ...}` / `{EXCLUDE ...}` LoD 公式可通过 `add_calculated_field` 正常写入并校验。
+- builder 禁止 raw XML：`validate_iteration.py` 的 sdk_boundary_violations 会拒绝 lxml/etree
+  导入和 `editor.root`/`_datasource` 访问；一切都要走公开 API。
+- 时长格式：秒 → `(SUM(x)/SUM(y))/86400` + `default_format="*nn:ss"`；
+  reference-line 的 label 数字格式用 `configure_reference_line_style({"text-format": ...})`。
+- `reference-line` 的 `formula` 只能是 constant/total/sum/min/max/average/median/...；
+  要显示 `{FIXED : ...}` 聚合值就用 `formula="average"` + `value_field=<聚合字段>`。
+- 连续周轴：`DATETRUNC('week', [Date])` 字段 + `EXACTDATE(...)`（cwtwb 没有 Week-Trunc derivation）；
+  `WEEK(Date)` 会把两年压成 53 桶。
+- 日期范围过滤用 context filter（`{"context": True}`）保证 LoD 之前生效。
 - sheet 切换：把两个 sheet 放进同一个 **vertical layout-flow container**（`weight` 分配），
   空 sheet 会塌缩为 0 高，可见的那个填满区域；两个绝对定位 zone 重叠不会塌缩。
 - 参数 toggle：`add_dashboard_action(action_type="parameter", source_field="Measure Names",
@@ -77,8 +87,8 @@
 
 ## 下一步
 
-1. 解 05 ww15 Google Analytics。
-2. 剩余 06–17 见工作清单。
+1. 解 06 ww16 Quick LoDs。
+2. 剩余 07–17 见工作清单。
 
 ## 阻塞
 

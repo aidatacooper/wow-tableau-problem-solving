@@ -1,0 +1,24 @@
+{
+  "scope": "Locked-extract oracle plus native workbook contracts.",
+  "acceptance": [
+    "ww15-four-metrics",
+    "ww15-duration-format",
+    "ww15-overall-reference-lines",
+    "ww15-weekly-sunday-axis",
+    "ww15-date-scope"
+  ],
+  "facts": {
+    "extract_sha256": "d65c6337d20fd0dd22ba96a16296ac228ef5124fde2ac2a78a2d88f0506cfac3",
+    "rows": 33683,
+    "date_max": "2021-04-10",
+    "weeks": 68,
+    "sessions": 155210,
+    "avg_session_duration_seconds": 233.11648089684942,
+    "bounce_rate": 0.44310289285484183,
+    "avg_time_on_page_seconds": 139.28915481297508,
+    "avg_session_duration": "03:53",
+    "avg_time_on_page": "02:19",
+    "bounce_rate_pct": "44.3%"
+  },
+  "output_sha256": "3f1cf5f6e91e5c4271dffb521c991e650aaf3118849503300507f2d827e9f6ef"
+}

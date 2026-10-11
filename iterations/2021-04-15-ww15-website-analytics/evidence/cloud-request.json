@@ -1,0 +1,15 @@
+{
+  "case_dir": "iterations/2021-04-15-ww15-website-analytics",
+  "author_workbook": "dashboards/2021_04_14_WW15_GoogleAnalytics/2021_04_14_WW15_GoogleAnalytics.twbx",
+  "author_view": "2021_04_14_WW15_WOW_Google_Analytics",
+  "replica_view": "Sessions BAN",
+  "states": [],
+  "data_views": [
+    {
+      "name": "ban",
+      "author": "2021_04_14_WW15_WOW_Google_Analytics",
+      "replica": "Sessions BAN",
+      "scope": "Default author dashboard state and replica Sessions BAN. The author workbook publishes the dashboard only, so the REST CSV export returns the dashboard's aggregated scope; the replica BAN export confirms the total-sessions aggregate."
+    }
+  ]
+}

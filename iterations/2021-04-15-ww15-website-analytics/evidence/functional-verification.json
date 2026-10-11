@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0.0",
+  "scope": "Cloud REST CSV export of the replica Sessions BAN at the default state, compared against the locked-extract oracle and the author's published export.",
+  "browser_interaction_executed": false,
+  "state": {
+    "description": "Default dashboard state with the context Date filter ending 2021-04-10."
+  },
+  "observed": {
+    "replica_sessions": 155210,
+    "author_sessions": 155210,
+    "problems": []
+  },
+  "expected_from_oracle": {
+    "sessions": 155210,
+    "avg_session_duration": "03:53",
+    "bounce_rate": "44.3%",
+    "avg_time_on_page": "02:19"
+  },
+  "result": "pass",
+  "acceptance": [
+    "ww15-four-metrics",
+    "ww15-duration-format",
+    "ww15-overall-reference-lines",
+    "ww15-weekly-sunday-axis",
+    "ww15-date-scope"
+  ]
+}
