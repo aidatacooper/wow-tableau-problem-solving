@@ -3,16 +3,15 @@
 from pathlib import Path
 import argparse
 import sys
-import tableauserverclient as TSC
 
 sys.stdout.reconfigure(encoding='utf-8')
 
-import os
+if __package__ in (None, ""):
+    sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-SERVER_URL = os.getenv("TABLEAU_SERVER_URL", "https://10ax.online.tableau.com")
-SITE_ID = os.getenv("TABLEAU_SITE_ID", "cooperwh")
-TOKEN_NAME = os.getenv("TABLEAU_TOKEN_NAME", "cooperwh")
-TOKEN_SECRET = os.getenv("TABLEAU_TOKEN_SECRET", "")
+import tableauserverclient as TSC
+
+from scripts.cloud_credentials import require_credentials
 
 
 
@@ -23,12 +22,17 @@ def publish_workbook(twbx_path: Path, workbook_name: str = None, project_name: s
 
     workbook_name = workbook_name or twbx_path.stem
 
-    # 1. 认证
-    auth = TSC.PersonalAccessTokenAuth(TOKEN_NAME, TOKEN_SECRET, site_id=SITE_ID)
-    server = TSC.Server(SERVER_URL, use_server_version=True)
+    # 1. 认证（凭证从进程环境或 ~/.config/wow-cloud/tableau.env 解析）
+    credentials = require_credentials()
+    auth = TSC.PersonalAccessTokenAuth(
+        credentials["TABLEAU_TOKEN_NAME"],
+        credentials["TABLEAU_TOKEN_SECRET"],
+        site_id=credentials["TABLEAU_SITE_ID"],
+    )
+    server = TSC.Server(credentials["TABLEAU_SERVER_URL"], use_server_version=True)
 
     with server.auth.sign_in(auth):
-        print(f"[OK] TSC 登录成功 (API 版本: {server.version}, 站点: {SITE_ID})")
+        print(f"[OK] TSC 登录成功 (API 版本: {server.version}, 站点: {credentials['TABLEAU_SITE_ID']})")
 
         # 2. 定位目标项目
         all_projects, _ = server.projects.get()

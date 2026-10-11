@@ -8,6 +8,11 @@ into one independently buildable project under `iterations/`.
 To solve one case, the full operational manual is
 [docs/start-a-case.md](docs/start-a-case.md). Read it before touching code.
 
+For long, multi-case, or interruptible runs, read
+[docs/long-running-tasks.md](docs/long-running-tasks.md) first: it records the
+large files that must never be read whole, the progress document that makes a
+crash resumable, and when to split work across agents.
+
 Resolve a case's identity from the article URL alone:
 
 ```bash
@@ -103,7 +108,11 @@ contains no author workbook or data. Preserve the applicable builder ->
 dispatcher -> Python facade -> MCP tool -> capability registry path and add an
 XPath regression test. Normal cwtwb development needs Python 3.10+,
 `pip install -e ".[dev]"`, and `pytest`; Tableau credentials are optional
-unless cloud validation, publishing, or screenshots are in scope.
+unless cloud validation, publishing, or screenshots are in scope. Cloud
+credentials live outside the repository in `~/.config/wow-cloud/tableau.env`
+and are loaded by `scripts/cloud_credentials.py`; see
+[docs/tableau-cloud-credentials.md](docs/tableau-cloud-credentials.md). Never
+commit a token.
 
 ## Verification
 

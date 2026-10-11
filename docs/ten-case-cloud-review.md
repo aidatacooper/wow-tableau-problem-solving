@@ -32,7 +32,7 @@ Public interfaces, tests and exact behavior are documented in cwtwb/docs/case-dr
 
 ## Reproduce
 
-Install requirements.txt, then run python scripts/validate_iteration.py iterations/<case>. This builds and verifies a fresh artifact. Publishing requires TABLEAU_SERVER_URL, TABLEAU_SITE_ID, TABLEAU_TOKEN_NAME and TABLEAU_TOKEN_SECRET in the process environment, then python scripts/publish_to_cloud.py <twbx> --name <review-name> --project default. Do not store the secret in the repository.
+Install requirements.txt, then run python scripts/validate_iteration.py iterations/<case>. This builds and verifies a fresh artifact. Publishing requires TABLEAU_SERVER_URL, TABLEAU_SITE_ID, TABLEAU_TOKEN_NAME and TABLEAU_TOKEN_SECRET; `scripts/cloud_credentials.py` resolves them from the process environment first, then from `~/.config/wow-cloud/tableau.env` (owner-only, outside the repository — see docs/tableau-cloud-credentials.md). Then run python scripts/publish_to_cloud.py <twbx> --name <review-name> --project default. Do not store the secret in the repository.
 
 After final Cloud captures, run the verifier directly or validate_iteration.py --metadata-only: a rebuild generates fresh workbook identities and requires a new capture. Where present, verify_cloud_data.py compares saved exports without accessing credentials; additional state comparisons are recorded in evidence/cloud-data-verification.json. Use PAT authentication for publishing and REST exports. Serialized action contracts verify event, source, target and clear behavior; no authenticated browser is required for the agreed acceptance scope.
 
