@@ -32,7 +32,7 @@ cwtwb:
   - version: 0.27.1
     result: pass
     evidence: verify_replication.py
-  tested_commit: 876bd222011237edd84b1e2649a4fe213ff263db
+  tested_commit: d0c26cf7a04b85a12234472db989a0db60eb711f
 verification_status: verified
 artifacts:
   primary_workbook: outputs/replicated-workbook.twbx
@@ -55,6 +55,13 @@ notes:
   APIs only; the author workbook was never opened by the builder.
 - The dumbbell uses two synchronized Measure Values panes on one worksheet -
   a Circle pane for the two years and a Line pane coloured by Difference>0.2.
+- 'The delta label anchor is deterministic: pinned internal_name values on Ownership
+  2015/2019 keep the 2015 Measure Names full reference as the lexicographic minimum,
+  which is where mark-labels range-min anchors the label (below the 2015 circle,
+  like the author). Default per-build UUID names made the anchor flip between rebuilds.'
+- 'Known cwtwb gap: set_worksheet_rich_title drops fontname, so the subtitle colour
+  runs render at regular weight instead of the author''s Tableau Bold. This is the
+  only remaining visual delta (0.037% of pixels in one subtitle strip); see evidence/visual-review.md.'
 analysis_status: completed
 remaining_work: []
 inputs:

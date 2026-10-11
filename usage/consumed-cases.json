@@ -1057,7 +1057,7 @@
       "iteration": "2025-11-07-ww45-population-pyramid",
       "status": "consumed",
       "replication_status": "replicated",
-      "verification_status": "pending",
+      "verification_status": "verified",
       "cwtwb_version": "0.27.1",
       "reason": "Derived from case metadata; consumed means claimed, not verified completed."
     },

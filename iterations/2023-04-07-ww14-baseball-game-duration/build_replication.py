@@ -44,12 +44,16 @@ def build(output_path: Path) -> Path:
         (
             # The author plots INDEX() as a discrete pill on Columns, computing
             # by Year only, and hides its header. It spaces years left-to-right.
+            # field_type must be ordinal: a quantitative Index makes Tableau
+            # treat Columns as a continuous axis, which renders the bars as
+            # thin strips. The author's column-instance is [usr:...:ok:2]
+            # (ordinal), so the bars fill their cell width.
             "Index",
             "INDEX()",
             {"table_calc": {"ordering-field": "[Year]", "ordering-type": "Field"}},
             "integer",
             "measure",
-            "quantitative",
+            "ordinal",
             "",
         ),
         (
@@ -103,6 +107,9 @@ def build(output_path: Path) -> Path:
         columns=["Index"],
         rows=["Decade", "SUM(Duration (mins))"],
         color="Duration > Latest",
+        # Author boolean palette: teal for at-or-below the 2023 pace, orange
+        # for slower years (datasource <style> mark rule in the author TWB).
+        color_map={"false": "#52b7d8", "true": "#e16032"},
         detail="Latest Duration",
         # The author stacks the year above the h:nn duration in one
         # bottom-centred label.
@@ -160,6 +167,17 @@ def build(output_path: Path) -> Path:
         pane_datalabel_style={"color-mode": "user", "color": "#000000"},
         pane_mark_style={"mark-labels-show": "true", "mark-labels-cull": "false"},
     )
+    # The author's worksheet title (the bold headline plus the 12pt subtitle)
+    # is part of the Viz worksheet, not a dashboard text zone. The worksheet
+    # zone therefore keeps its title visible (show_title=True in the layout).
+    editor.set_worksheet_rich_title(
+        "Viz",
+        runs=[
+            {"text": "WOW2023: MLB games are the shortest since 1984", "bold": True},
+            {"text": "Æ\n"},
+            {"text": "Hours and minutes per 9 innings", "fontsize": "12"},
+        ],
+    )
     editor.add_reference_line(
         "Viz",
         axis_field="SUM(Duration (mins))",
@@ -210,13 +228,18 @@ def build(output_path: Path) -> Path:
     layout = {
         "type": "container",
         "direction": "floating",
-        "style": {"background-color": "#ffffff"},
+        # The author's dashboard root carries margin=8 and the Viz zone
+        # margin=4, which insets the worksheet content by 12 dashboard px.
+        "style": {"background-color": "#ffffff", "margin": "8"},
         "children": [
             {
                 "type": "worksheet",
                 "name": "Viz",
-                "show_title": False,
+                # The author's title/subtitle live on the worksheet, so the
+                # dashboard zone must show the worksheet title.
+                "show_title": True,
                 "fit": "entire",
+                "style": {"margin": "4"},
                 "absolute": {"x": 1143, "y": 1143, "w": 97714, "h": 88571},
             },
             {
