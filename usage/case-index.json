@@ -5413,7 +5413,8 @@
         "The Index pill is bound as an ordinal (not quantitative) instance, matching the author: a quantitative Index turns Columns into a continuous axis and renders the bars as thin strips.",
         "Cloud honours the author's teal #52b7d8 / orange #e16032 boolean palette after the cwtwb fix that carries the worksheet table-calc context onto the datasource palette column-instance (a table-calc-derived colour field was otherwise rendered with the default categorical palette).",
         "Known cwtwb gap: percentage distribution bands (the author's 150% spacer refline) are not expressible through the public API, so per-decade bar tops differ by up to ~8px; colours, bar widths, labels, and values match.",
-        "The dashboard reproduces the author's zone margins (root margin=8 plus a 4px margin on the Viz and text zones), which aligns the title and credits rows with the author's render."
+        "Known cwtwb gap: the author addresses Latest Duration with a specific-dimension table calc ordered by [Decade],[Year], so the \"2:38 in 2023\" line is global (158) in every pane. table_calc_overrides cannot express that without changing the bar ordering, so the replica partitions per Decade and the line drifts; the numeric classification is unaffected.",
+        "The dashboard reproduces the author's zone margins (root margin=8 plus a 4px margin on the Viz and text zones) and the text zones' Tableau Medium fontname and source hyperlink; the title, credits, and source rows now match at 0 pixels."
       ],
       "metadata": "iterations/2023-04-07-ww14-baseball-game-duration/case.yaml",
       "metadata_contract": "1.1.0",
