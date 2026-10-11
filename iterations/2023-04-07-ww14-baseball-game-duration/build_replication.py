@@ -122,9 +122,16 @@ def build(output_path: Path) -> Path:
         ],
         sort_field="Index",
         table_calc_overrides={
-            # Both table calcs address the Year dimension.
+            # Index and the colour flag address the Year dimension. Latest
+            # Duration is addressed by the specific dimensions Decade *and*
+            # Year, so its WINDOW_MAX sees the whole table and resolves to the
+            # global 2023 value (158) in every decade pane. Addressing it by
+            # Year alone partitions per Decade, so each pane resolved to its
+            # own last year and the reference line drifted.
             "Index": [{"ordering-field": "Year Label", "ordering-type": "Field"}],
-            "Latest Duration": [{"ordering-field": "Year Label", "ordering-type": "Field"}],
+            "Latest Duration": [
+                {"ordering-type": "Field", "order": ["Decade", "Year Label"]}
+            ],
             "Duration > Latest": [
                 {"ordering-type": "Rows"},
                 {
@@ -156,6 +163,11 @@ def build(output_path: Path) -> Path:
         hide_zeroline=True,
         hide_borders=True,
         hide_row_field_labels=True,
+        # The author's table has no column dividers (table-div cols off); the
+        # default column separators added visible vertical borders.
+        table_dividers=[
+            {"scope": "cols", "stroke-size": "0", "line-visibility": "off"}
+        ],
         label_formats=[
             # The Index pill spaces years left-to-right; its header is hidden.
             {"field": "Index", "attr": "display", "value": "false"},
@@ -200,6 +212,21 @@ def build(output_path: Path) -> Path:
             "fill-above": "#00000000",
             "fill-below": "#00000000",
         },
+    )
+    # The author's second reference line is a 150% percentage distribution
+    # band used purely for per-pane breathing room. It is transparent, but it
+    # still shapes each pane's axis range, which is what the author's layout
+    # depends on. cwtwb exposes it as add_percentage_band.
+    editor.add_percentage_band(
+        "Viz",
+        axis_field="SUM(Duration (mins))",
+        value_field="Latest Duration",
+        percentage=150,
+        formula="average",
+        scope="per-pane",
+        probability="95",
+        fill_color="#00000000",
+        symmetric=False,
     )
 
     # ---- Data: the author's hidden text-table companion sheet

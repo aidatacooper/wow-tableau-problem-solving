@@ -1,9 +1,9 @@
 {
   "case_id": "wow-2025-ww45-population-pyramid",
-  "captured_at": "2026-10-11T00:37:59.351615+00:00",
+  "captured_at": "2026-10-11T06:11:47.493404+00:00",
   "source_hashes": {
     "author": "f9c9dcb2cd3ec91c20250a8531b37d90be2c34acefd3fde211cea2162fb6c8c8",
-    "replica": "c1f70227e992a4d8615c4e2e37a3a66983868ac6d751ea4ee805437f6aaa0ec0"
+    "replica": "7794504f05fca59f21e32ddd49e1a0ed0adca201129ffb84cb1738e6602e48b0"
   },
   "acceptance_scope": "cloud_rest_and_artifact_contracts",
   "browser_interaction_executed": false,
@@ -20,17 +20,17 @@
       ]
     },
     "replica": {
-      "id": "f0638396-60c6-4a30-a88a-2e44003225e9",
-      "name": "cwtwb-review-wow-2025-ww45-population-pyramid-replica-c1f70227e992",
-      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2980057",
+      "id": "04cedd6c-8ad5-49ae-b73b-b1cad502d6cd",
+      "name": "cwtwb-review-wow-2025-ww45-population-pyramid-replica-7794504f05fc",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2981438",
       "views": [
         {
           "name": "Viz",
-          "id": "a5ebda8f-83d8-4dc9-8a1c-a084e0ef2652"
+          "id": "6ad9590d-f131-46eb-89ce-48f41fa1137d"
         },
         {
           "name": "2025_11_05_WW45_Population_Pyramid",
-          "id": "59fe5509-e390-41f6-a74b-de7e0fc6690f"
+          "id": "90884dd6-3470-4504-b40d-83d3a7be85f5"
         }
       ]
     }
@@ -52,7 +52,7 @@
           ]
         },
         "replica": {
-          "id": "59fe5509-e390-41f6-a74b-de7e0fc6690f",
+          "id": "90884dd6-3470-4504-b40d-83d3a7be85f5",
           "name": "2025_11_05_WW45_Population_Pyramid",
           "path": "outputs/cloud-replica.png",
           "sha256": "1a4749e8aab459a9f6af28bf00cf8ba82b64534c5a5cd1bbd79025148553533b",

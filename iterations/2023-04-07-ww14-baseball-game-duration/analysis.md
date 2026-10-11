@@ -60,8 +60,6 @@ data domain (one row per Year: Time/9I game duration)
 ## Allowed visual differences
 
 - Fonts and padding may differ slightly.
-- The author's 150% percentage distribution band (a spacer reference line) has
-  no public-API equivalent, so per-decade bar tops may differ by a few pixels.
 - The hidden Data sheet exists for parity but is not visually judged.
 
 ## Colour and geometry
@@ -70,6 +68,10 @@ The author's boolean palette (teal `#52b7d8` for at-or-below the 2023 pace,
 orange `#e16032` for slower years) is part of the required result, not an
 allowed difference: the colour class *is* the comparison the challenge asks
 for. It is reproduced with `configure_chart(color_map=...)`.
+
+The author's 150% percentage distribution band is also required: although its
+fill is transparent, it shapes each pane's axis range and therefore the row
+geometry. It is reproduced with `add_percentage_band`.
 
 The dashboard reproduces the author's zone margins (root `margin=8` plus a
 4px margin on the Viz and text zones), which aligns the title and credits
@@ -83,7 +85,10 @@ APIs: `set_hyper_connection`, `add_calculated_field` (including
 `configure_chart` (bar chart with the Index table calc on Columns via
 `table_calc_overrides`), `add_reference_line` +
 `configure_reference_line_style` (custom label, hidden line style is NOT
-used — the line is shown), `configure_worksheet_style`, and `add_dashboard`.
+used — the line is shown), `configure_worksheet_style`, `add_dashboard`, and
+`add_percentage_band`.
+
 The 150%-distribution spacer band is the author's row-breathing-space
-reference line; cwtwb has no public API for percentage distribution bands, so
-it is recorded as a known gap rather than reproduced.
+reference line. It is transparent, but it shapes each pane's axis range, so
+it is required for the author's row geometry. It is reproduced with
+`add_percentage_band` (added to cwtwb in the PR that this case pins).
