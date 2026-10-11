@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-11",
+  "source_workbook": {
+    "filename": "2021_03_31_WW13_Percentage_Sub-Orders_Profitable.twbx",
+    "bytes": 164300,
+    "sha256": "84abd732b2851ae6ec7988e14a5ae8d490b4fb701435387a6ff5dde9bb3234fa",
+    "url": null
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/TableauTemp/TEMP_0b8j5fu1vhrl6t1c1kh4511pxgj6.hyper",
+      "file": "inputs/TEMP_0b8j5fu1vhrl6t1c1kh4511pxgj6.hyper",
+      "bytes": 458752,
+      "sha256": "066fef038ef9abc81e1722ed1b73331388a8392973624faf39792593bcbe55f3"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

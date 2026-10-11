@@ -1,0 +1,15 @@
+{
+  "case_dir": "iterations/2021-04-01-ww13-sub-orders-profitable",
+  "author_workbook": "dashboards/2021_03_31_WW13_Percentage_Sub-Orders_Profitable/2021_03_31_WW13_Percentage_Sub-Orders_Profitable.twbx",
+  "author_view": "2021_03_31_WW13_Percentage_Sub_Orders_Profitable",
+  "replica_view": "Viz",
+  "states": [],
+  "data_views": [
+    {
+      "name": "viz",
+      "author": "2021_03_31_WW13_Percentage_Sub_Orders_Profitable",
+      "replica": "Viz",
+      "scope": "Default author dashboard state and replica Viz worksheet. The author workbook publishes the dashboard only, so the REST CSV export returns the dashboard's aggregated scope; the replica worksheet export confirms the per-Sub-Category profitable-order percentage and cumulative sales share."
+    }
+  ]
+}

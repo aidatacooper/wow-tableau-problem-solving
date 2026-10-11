@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "generated_from": "iterations/*/case.yaml",
-  "active_case_count": 96,
+  "active_case_count": 97,
   "legacy_case_ids": {
     "donna-2019-07-18-63877b35d19a": "wow-2019-ww29-high-orders",
     "donna-2019-07-25-59a0a144b25b": "wow-2019-ww30-navigation-kpi",
@@ -5406,6 +5406,66 @@
         "Clicking a Sub-Category drives a native parameter action; a second filter action maps True to False so Tableau's default selection highlight never overrides the authored colour encodings."
       ],
       "metadata": "iterations/2021-03-25-ww12-comparative-quantity/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.27.1"
+    },
+    {
+      "case_id": "wow-2021-ww13-sub-orders-profitable",
+      "legacy_case_ids": {},
+      "iteration_id": "2021-04-01-ww13-sub-orders-profitable",
+      "article_date": "2021-04-01",
+      "challenge_year": 2021,
+      "challenge_week": 13,
+      "challenge_date": "2021-03-30",
+      "date_evidence": {
+        "article_date": "Article-local HTML 'Published:' calendar date, retained in evidence/article-date.json.",
+        "challenge": "Official 2021 Week 13 article title.",
+        "challenge_date": "Official WordPress REST date field retained in evidence/official-challenge-date.json."
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2021-week-13-tableau-what-percentage-of-sub-orders-are-profitable/",
+          "wordpress_post_id": 4926
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2021/04/01/what-percentage-of-sub-orders-are-profitable/",
+          "path": null,
+          "sha256": "4c4961753e531741ebbe36cd8d3e65532f74426318ab03aff9c0a47340c936aa"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2021_03_31_WW13_Percentage_Sub-Orders_Profitable/2021_03_31_WW13_Percentage_Sub_Orders_Profitable",
+          "filename": "2021_03_31_WW13_Percentage_Sub-Orders_Profitable.twbx",
+          "sha256": "84abd732b2851ae6ec7988e14a5ae8d490b4fb701435387a6ff5dde9bb3234fa"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "pass",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "evidence/article-date.json",
+        "evidence/build-provenance.json",
+        "evidence/cloud-request.json",
+        "evidence/cloud-verification.json",
+        "evidence/functional-verification.json",
+        "evidence/official-challenge-date.json",
+        "evidence/sdk-baseline.json",
+        "evidence/visual-review.md",
+        "inputs/source-lock.json"
+      ],
+      "notes": [
+        "An order counts as profitable for a Sub-Category only when the summed profit of that Sub-Category's lines on the order is positive; this is a FIXED LoD at the Order ID + Sub-Category grain.",
+        "The bars are positioned by the cumulative share of sales, so the Sub-Category sits on Detail rather than a shelf; the author's string Sort key drives the computed sort.",
+        "The two heights are two panes of one worksheet sharing the row axis, with the lower pane's axis reversed and a constant zero reference line between them."
+      ],
+      "metadata": "iterations/2021-04-01-ww13-sub-orders-profitable/case.yaml",
       "metadata_contract": "1.1.0",
       "tested_sdk_version": "0.27.1"
     },

@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0.0",
+  "scope": "Cloud REST CSV export of the replica Viz worksheet at the default state, compared against the locked-extract oracle and against the author's published CSV export.",
+  "browser_interaction_executed": false,
+  "state": {
+    "Segment": [
+      "Consumer",
+      "Corporate",
+      "Home Office"
+    ],
+    "description": "All three segments, matching the author's published dashboard default."
+  },
+  "observed": {
+    "subcategories": 17,
+    "orders": 5009,
+    "problems": []
+  },
+  "expected_from_oracle": {
+    "subcategories": 17,
+    "orders": 5009
+  },
+  "result": "pass",
+  "acceptance": [
+    "ww13-order-grain-profitability",
+    "ww13-profitable-percentage",
+    "ww13-width-by-sales-share",
+    "ww13-stacked-height",
+    "ww13-sort-order"
+  ]
+}

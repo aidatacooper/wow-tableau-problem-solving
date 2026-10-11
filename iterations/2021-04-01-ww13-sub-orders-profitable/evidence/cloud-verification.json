@@ -1,0 +1,96 @@
+{
+  "case_id": "wow-2021-ww13-sub-orders-profitable",
+  "captured_at": "2026-10-11T09:20:27.826087+00:00",
+  "source_hashes": {
+    "author": "84abd732b2851ae6ec7988e14a5ae8d490b4fb701435387a6ff5dde9bb3234fa",
+    "replica": "dd1696d8017e0b99515b98cda7d57ac9c182c95f83f55fcea18727d092d96e99"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "a346bbaa-48da-4438-ae1b-4b983bf7e968",
+      "name": "cwtwb-review-wow-2021-ww13-sub-orders-profitable-author-84abd732b285",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2982196",
+      "views": [
+        {
+          "name": "2021_03_31_WW13_Percentage_Sub_Orders_Profitable",
+          "id": "4ad1c6da-acdf-439c-9476-ed9f5c632355"
+        },
+        {
+          "name": "Data",
+          "id": "308773e0-11c2-4f10-a683-c70871228891"
+        }
+      ]
+    },
+    "replica": {
+      "id": "486b1d39-8fb0-4fbb-96f4-ee14bb81e653",
+      "name": "cwtwb-review-wow-2021-ww13-sub-orders-profitable-replica-dd1696d8017e",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2982213",
+      "views": [
+        {
+          "name": "Viz",
+          "id": "e2246b88-25cd-42bd-9fe7-50d14cbfe114"
+        },
+        {
+          "name": "2021_03_31_WW13_Percentage_Sub_Orders_Profitable",
+          "id": "1ef45e97-c653-4425-8386-efa046ac8a8e"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "4ad1c6da-acdf-439c-9476-ed9f5c632355",
+          "name": "2021_03_31_WW13_Percentage_Sub_Orders_Profitable",
+          "path": "outputs/cloud-author.png",
+          "sha256": "d86f549951fb67275183e6122079e02bc5a46e15c68e6aaaa4d61ed2d1e6ec65",
+          "size": [
+            1600,
+            800
+          ]
+        },
+        "replica": {
+          "id": "e2246b88-25cd-42bd-9fe7-50d14cbfe114",
+          "name": "Viz",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "727c6f5340ecc8373012845487011381190f4a9f89c8dd6d70a665e846327c0f",
+          "size": [
+            792,
+            1670
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "2021_03_31_WW13_Percentage_Sub_Orders_Profitable",
+          "view_id": "4ad1c6da-acdf-439c-9476-ed9f5c632355",
+          "scope": "Default author dashboard state and replica Viz worksheet. The author workbook publishes the dashboard only, so the REST CSV export returns the dashboard's aggregated scope; the replica worksheet export confirms the per-Sub-Category profitable-order percentage and cumulative sales share.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-viz.csv",
+          "sha256": "a0837faf9161ecf7a2df82d5a8ccbca591a840c29e81004c27d7f32758f13eb4",
+          "bytes": 1912
+        },
+        {
+          "role": "replica",
+          "view": "Viz",
+          "view_id": "e2246b88-25cd-42bd-9fe7-50d14cbfe114",
+          "scope": "Default author dashboard state and replica Viz worksheet. The author workbook publishes the dashboard only, so the REST CSV export returns the dashboard's aggregated scope; the replica worksheet export confirms the per-Sub-Category profitable-order percentage and cumulative sales share.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-viz.csv",
+          "sha256": "744721a827dc3aa7f70e1da0d1d9e94af186200e1735e1c95d83937e77fad2d4",
+          "bytes": 1980
+        }
+      ]
+    }
+  ],
+  "status": "captured_requires_independent_review"
+}

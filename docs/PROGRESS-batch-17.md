@@ -14,7 +14,7 @@
 
 - [x] 01 2021-03-18 ww11 Hans Rosling — `2021_03_17_WW11_Hans_Rosling` — replicated/workaround（commit f283e29；LOADED；verify_corpus LOADED=50 FAIL=0 UNKNOWN=0）
 - [x] 02 2021-03-25 ww12 Comparative Quantity — `2021_03_24_WW12_Comparative_Qty` — replicated/pass（LOADED；Cloud CSV 与作者逐位一致；无 FIXED LoD）
-- [ ] 03 2021-04-01 ww13 % Sub-Orders Profitable — `2021_03_31_WW13_Percentage_Sub-Orders_Profitable`
+- [x] 03 2021-04-01 ww13 % Sub-Orders Profitable — `2021_03_31_WW13_Percentage_Sub-Orders_Profitable` — replicated/pass（LOADED；Cloud CSV 与作者逐位一致）
 - [ ] 04 2021-04-08 ww14 Market Basket — `2021_04_07_WW14_Market_Basket_Analysis`
 - [ ] 05 2021-04-15 ww15 Google Analytics — `2021_04_14_WW15_GoogleAnalytics`
 - [ ] 06 2021-04-23 ww16 Quick LoDs — `2021_04_21_WW16_Quick_LoDs`
@@ -37,6 +37,7 @@
 - [x] 2026-10-11 建分支 `feat/wow-batch-2021-ww11-ww27`
 - [x] 2026-10-11 01 ww11 Hans Rosling — 已复现；见工作清单
 - [x] 2026-10-11 02 ww12 Comparative Quantity — 已复现（validate PASS / LOADED / 83 tests OK）
+- [x] 2026-10-11 03 ww13 % Sub-Orders Profitable — 已复现（validate PASS / LOADED / 83 tests OK）
 
 ## 已验证的技术事实（可复用）
 
@@ -56,13 +57,19 @@
   可直接生成原生 `edit-parameter-action`；`action_type="filter"` +
   `field_mappings={"True": "False"}` 复现作者的 "Unhighlight" 行为。
 - `{INCLUDE ...}` / `{EXCLUDE ...}` LoD 公式可通过 `add_calculated_field` 正常写入并校验。
+- mekko/堆叠图：`configure_layered_chart(axis_shelf="rows", fold_axes=True)` 两个 pane +
+  下 pane 的 `axis_style.encodings[].reverse=true` 可复现上下堆叠；`mark_sizing`
+  （marks-scaling-on + mark-alignment-right）给变宽柱。
+- `configure_layered_chart(sort_mode="computed", sort_field=..., sort_descending=...)`
+  支持 sort_field 只挂在 Detail 上的 computed sort；`configure_dual_axis` 的
+  `_add_shelf_sort` 则要求 sort_field 必须在 row shelf 上。
 - **坑**：`build_and_check.py` 不要加 `PYTHONUTF8=1` 前缀——它内部用 `tasklist`（GBK 输出）
   并以 UTF-8 解码，会 `UnicodeDecodeError`；worktree 默认环境即可。
 
 ## 下一步
 
-1. 解 03 ww13 % Sub-Orders Profitable。
-2. 剩余 04–17 见工作清单。
+1. 解 04 ww14 Market Basket。
+2. 剩余 05–17 见工作清单。
 
 ## 阻塞
 

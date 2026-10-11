@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0.0",
+  "cwtwb_version": "0.27.1",
+  "cwtwb_commit": "4cd2c61c1286a02932b5b42f47de344683d656a3",
+  "result": "pass",
+  "scope": "Released-SDK baseline for the WW13 modified-mekko case.",
+  "supported": [
+    "add_calculated_field with a FIXED LoD at the Order ID + Sub-Category grain",
+    "add_calculated_field table calculations (TOTAL, RUNNING_SUM) with per-instance addressing via table_calc_overrides",
+    "configure_layered_chart(axis_shelf='rows', fold_axes=True) with a reversed pane axis encoding for the stacked mekko halves",
+    "per-pane size encoding plus marks-scaling-on / mark-alignment-right for variable bar widths",
+    "set_datasource_color_palette Measure Names mapping for the profitable/non-profitable pair",
+    "add_reference_line(formula='constant') plus configure_reference_line_style for the zero separator",
+    "configure_layered_chart sort_mode='computed' with sort_field bound to a Detail dimension"
+  ],
+  "findings": []
+}
