@@ -1,0 +1,27 @@
+{
+  "case_id": "wow-2021-ww16-quick-lods",
+  "sdk_commit": "4cd2c61c1286a02932b5b42f47de344683d656a3",
+  "sdk_version": "0.27.1",
+  "builder_sha256": "0a038471d4e01f94da910d9a848e04f5a8882e0c007d924c279e1b0fc1bcc9b2",
+  "builder_hash_scope": "UTF-8 source text with universal newlines normalized to LF",
+  "public_sdk_calls": [
+    "add_calculated_field",
+    "add_dashboard",
+    "add_worksheet",
+    "configure_custom_tooltip",
+    "configure_dual_axis",
+    "configure_worksheet_style",
+    "save",
+    "set_datasource_color_palette",
+    "set_hyper_connection",
+    "set_window_state",
+    "set_worksheet_title"
+  ],
+  "result": "passed",
+  "initial_workbooks_available": 0,
+  "copied_cloud_evidence": false,
+  "source_workbook_used_by_builder": false,
+  "public_sdk_only": true,
+  "scope": "Copied only builder/verifier, metadata and locked extracted inputs. Built from TWBEditor empty, then independent full-domain raw-data/native-artifact verification.",
+  "artifact_sha256": "b8bab53ec21b631fa45f9f34d6411ff4bceda8fb691115226e8c8b721c0c5f38"
+}

@@ -1,0 +1,92 @@
+{
+  "case_id": "wow-2021-ww16-quick-lods",
+  "captured_at": "2026-10-11T10:16:40.514057+00:00",
+  "source_hashes": {
+    "author": "2fb811757634e8ed8c1416a44236c7f7724aae6a95af320d4e46dc29572aec1f",
+    "replica": "b8bab53ec21b631fa45f9f34d6411ff4bceda8fb691115226e8c8b721c0c5f38"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "07e3ab5a-a7b1-4ab9-b4a1-e3db4eff1cc9",
+      "name": "cwtwb-review-wow-2021-ww16-quick-lods-author-2fb811757634",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2982412",
+      "views": [
+        {
+          "name": "2021_04_21_WW16_Quick_LODs",
+          "id": "fd5919e8-8cfb-4aac-a298-47c443132f3e"
+        }
+      ]
+    },
+    "replica": {
+      "id": "74f76129-4855-4aae-93c3-4ffd77f6af0a",
+      "name": "cwtwb-review-wow-2021-ww16-quick-lods-replica-b8bab53ec21b",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2982449",
+      "views": [
+        {
+          "name": "Viz",
+          "id": "aa264a06-f4d7-4344-accd-7dc3a26ab983"
+        },
+        {
+          "name": "2021_04_21_WW16_Quick_LODs",
+          "id": "c8cad1fc-fbcf-4f63-9400-261fd79f523a"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "fd5919e8-8cfb-4aac-a298-47c443132f3e",
+          "name": "2021_04_21_WW16_Quick_LODs",
+          "path": "outputs/cloud-author.png",
+          "sha256": "60f17618cabdcebe147d42e5895be0c291f10d54781cefb50ae9c9c925fd739b",
+          "size": [
+            1600,
+            1400
+          ]
+        },
+        "replica": {
+          "id": "aa264a06-f4d7-4344-accd-7dc3a26ab983",
+          "name": "Viz",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "0299f87384dee0b2de938dc40ecf0cf3def492b228e5d085142583c22b8a3fee",
+          "size": [
+            1584,
+            806
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "2021_04_21_WW16_Quick_LODs",
+          "view_id": "fd5919e8-8cfb-4aac-a298-47c443132f3e",
+          "scope": "Default author dashboard state and replica Viz worksheet. The author workbook publishes the dashboard only, so the REST CSV export returns the dashboard's aggregated scope; the replica sheet export confirms the per-Sub-Category sales, the Category average and the difference.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-viz.csv",
+          "sha256": "f6db2d871162b7c0d0c1c881317cee820a6427c5f3355854cf007f706585f351",
+          "bytes": 2186
+        },
+        {
+          "role": "replica",
+          "view": "Viz",
+          "view_id": "aa264a06-f4d7-4344-accd-7dc3a26ab983",
+          "scope": "Default author dashboard state and replica Viz worksheet. The author workbook publishes the dashboard only, so the REST CSV export returns the dashboard's aggregated scope; the replica sheet export confirms the per-Sub-Category sales, the Category average and the difference.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-viz.csv",
+          "sha256": "51961d85d2dda7260486faab57b1675782a971f9ef0659d80321d2c9791b4de2",
+          "bytes": 2080
+        }
+      ]
+    }
+  ],
+  "status": "captured_requires_independent_review"
+}

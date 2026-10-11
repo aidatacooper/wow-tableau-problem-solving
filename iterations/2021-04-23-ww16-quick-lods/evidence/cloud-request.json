@@ -1,0 +1,15 @@
+{
+  "case_dir": "iterations/2021-04-23-ww16-quick-lods",
+  "author_workbook": "dashboards/2021_04_21_WW16_Quick_LoDs/2021_04_21_WW16_Quick_LoDs.twbx",
+  "author_view": "2021_04_21_WW16_Quick_LODs",
+  "replica_view": "Viz",
+  "states": [],
+  "data_views": [
+    {
+      "name": "viz",
+      "author": "2021_04_21_WW16_Quick_LODs",
+      "replica": "Viz",
+      "scope": "Default author dashboard state and replica Viz worksheet. The author workbook publishes the dashboard only, so the REST CSV export returns the dashboard's aggregated scope; the replica sheet export confirms the per-Sub-Category sales, the Category average and the difference."
+    }
+  ]
+}

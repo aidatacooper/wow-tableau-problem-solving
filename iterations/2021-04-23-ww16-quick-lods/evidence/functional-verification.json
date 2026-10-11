@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0.0",
+  "scope": "Cloud REST CSV export of the replica Viz worksheet at the default state, compared against the locked-extract oracle and against the author's published export.",
+  "browser_interaction_executed": false,
+  "state": {
+    "description": "Default dashboard state."
+  },
+  "observed": {
+    "subcategories": 17,
+    "above": 6,
+    "problems": []
+  },
+  "expected_from_oracle": {
+    "subcategories": 17,
+    "categories": 3,
+    "above": 6
+  },
+  "result": "pass",
+  "acceptance": [
+    "ww16-subcategory-lod",
+    "ww16-category-average-lod",
+    "ww16-difference-formula",
+    "ww16-colour-split",
+    "ww16-dual-axis"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "scope": "Locked-extract oracle plus native workbook contracts.",
+  "acceptance": [
+    "ww16-subcategory-lod",
+    "ww16-category-average-lod",
+    "ww16-difference-formula",
+    "ww16-colour-split",
+    "ww16-dual-axis"
+  ],
+  "facts": {
+    "extract_sha256": "3d52eaffa210867a87f441d54ce6b24cca5aaac7f54b19af152e7c5ff48d62da",
+    "rows": 9994,
+    "subcategories": 17,
+    "categories": [
+      "Furniture",
+      "Office Supplies",
+      "Technology"
+    ],
+    "category_average": {
+      "Technology": 209038.50825000007,
+      "Furniture": 185499.948825,
+      "Office Supplies": 79894.11466666669
+    },
+    "difference": {
+      "Accessories": -0.19928476623158312,
+      "Copiers": -0.28468667686256327,
+      "Bookcases": -0.3807006577215967,
+      "Paper": -0.017709798432212077,
+      "Machines": -0.0947188028452649,
+      "Appliances": 0.345933445143543,
+      "Art": -0.6605658362553398,
+      "Chairs": 0.770615598982498,
+      "Phones": 0.5786902459394112,
+      "Binders": 1.5460290016189093,
+      "Supplies": -0.41580755735599784,
+      "Envelopes": -0.7937720185179764,
+      "Labels": -0.8437142453847164,
+      "Storage": 1.8017534074182802,
+      "Tables": 0.11571746143849646,
+      "Fasteners": -0.9621463982344899,
+      "Furnishings": -0.5056324026993978
+    },
+    "above": [
+      "Appliances",
+      "Binders",
+      "Chairs",
+      "Phones",
+      "Storage",
+      "Tables"
+    ]
+  },
+  "output_sha256": "c4687830b0903fc60e5cdd68af2b54624772ca1d2bfc5bec7baa6ef93a60b52b"
+}

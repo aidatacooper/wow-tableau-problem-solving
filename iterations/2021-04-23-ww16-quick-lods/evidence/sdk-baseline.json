@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0.0",
+  "cwtwb_version": "0.27.1",
+  "cwtwb_commit": "4cd2c61c1286a02932b5b42f47de344683d656a3",
+  "result": "pass",
+  "scope": "Released-SDK baseline for the WW16 Quick LoDs case.",
+  "supported": [
+    "add_calculated_field FIXED LoDs including a nested {FIXED [Category]: AVG([Sales (Sub-Category)])}",
+    "add_calculated_field default_format='*\u25b20%;\u25bc0%' custom percent format",
+    "configure_dual_axis(cols) with a Bar pane and a GanttBar pane, synchronized",
+    "set_datasource_color_palette for the boolean Difference>0 palette",
+    "configure_worksheet_style panes_style to give each pane its own mark styling",
+    "configure_custom_tooltip referencing the Above | Below field"
+  ],
+  "findings": []
+}

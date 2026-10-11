@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-11",
+  "source_workbook": {
+    "filename": "2021_04_21_WW16_Quick_LoDs.twbx",
+    "bytes": 52543,
+    "sha256": "2fb811757634e8ed8c1416a44236c7f7724aae6a95af320d4e46dc29572aec1f",
+    "url": null
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Datasources/Orders (Sample - Superstore).hyper",
+      "file": "inputs/Orders (Sample - Superstore).hyper",
+      "bytes": 196608,
+      "sha256": "3d52eaffa210867a87f441d54ce6b24cca5aaac7f54b19af152e7c5ff48d62da"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}
