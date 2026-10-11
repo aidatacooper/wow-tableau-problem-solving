@@ -1,9 +1,9 @@
 {
   "case_id": "wow-2022-ww32-dumbbell-chart",
-  "captured_at": "2026-10-11T00:37:39.416029+00:00",
+  "captured_at": "2026-10-11T06:11:27.427934+00:00",
   "source_hashes": {
     "author": "55fce001a63466b9824603bd78a9f4c13fb28572e1a96e9250f3ccf81b665d4f",
-    "replica": "b35ffe68b482d24f7b765c515addd2e732bc814c703ba358c1b1cc0255a80ab5"
+    "replica": "f0fdafe617a6d7859c11fa570dbb8dc019f7226c99b20cc12b51f8992fdd50cf"
   },
   "acceptance_scope": "cloud_rest_and_artifact_contracts",
   "browser_interaction_executed": false,
@@ -20,17 +20,17 @@
       ]
     },
     "replica": {
-      "id": "6e6b6cec-bdc3-4ef4-8c7c-17fd0297af21",
-      "name": "cwtwb-review-wow-2022-ww32-dumbbell-chart-replica-b35ffe68b482",
-      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2980055",
+      "id": "ecf11adc-6834-45ef-a41c-18ffb5b0c82c",
+      "name": "cwtwb-review-wow-2022-ww32-dumbbell-chart-replica-f0fdafe617a6",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2981432",
       "views": [
         {
           "name": "Viz",
-          "id": "19496150-78ea-4a4a-9c5c-4b41a47165e6"
+          "id": "ceee7762-5cd7-4198-858a-506a40caeda5"
         },
         {
           "name": "2022_08_10_WW32_Dumbbell_Chart",
-          "id": "8407e28d-420f-47a3-80e3-7fb4a5930349"
+          "id": "183d9721-89b0-4644-9ae4-123432a712ca"
         }
       ]
     }
@@ -52,7 +52,7 @@
           ]
         },
         "replica": {
-          "id": "8407e28d-420f-47a3-80e3-7fb4a5930349",
+          "id": "183d9721-89b0-4644-9ae4-123432a712ca",
           "name": "2022_08_10_WW32_Dumbbell_Chart",
           "path": "outputs/cloud-replica.png",
           "sha256": "549db1f374bc9c7c29f2a4336eefbfb95928978b3d89980bdacd793ebdb68e4a",

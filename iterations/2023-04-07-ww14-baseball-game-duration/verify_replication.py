@@ -11,6 +11,7 @@ acceptance: latest-duration-window
 acceptance: pace-classification
 acceptance: reference-line-structure
 acceptance: boolean-palette
+acceptance: percentage-band
 """
 
 from __future__ import annotations
@@ -73,6 +74,22 @@ def verify() -> None:
     custom_label = re.search(r'label="([^"]*)"', source)
     if not custom_label or "2023" not in custom_label.group(1):
         raise AssertionError("Reference line lacks the 2023 custom label")
+
+    # acceptance: percentage-band — the author's 150% distribution band shapes
+    # each pane's axis range (it is transparent, so only the range is visible).
+    # It must be a native percentage band and must NOT carry tooltip-type,
+    # which Tableau Desktop rejects with load error d2e8da72.
+    percentage_band = re.search(
+        r'<reference-line[^>]*percentage-bands="true"[^>]*>\s*'
+        r'<reference-line-value percentage="150"\s*/>',
+        source,
+    )
+    if percentage_band is None:
+        raise AssertionError("Workbook is missing the 150% percentage band")
+    if 'tooltip-type' in percentage_band.group(0):
+        raise AssertionError(
+            "Percentage band must not carry tooltip-type; Desktop rejects it"
+        )
 
     # acceptance: boolean-palette — the author's teal/orange boolean palette is
     # present on the datasource mark style and carries the same table-calc

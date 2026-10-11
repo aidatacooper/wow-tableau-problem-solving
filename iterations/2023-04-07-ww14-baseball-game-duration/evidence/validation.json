@@ -1,10 +1,10 @@
 {
  "schema_version": "1.0.0",
  "status": "passed",
- "checked_at": "2026-10-11T03:19:59+00:00",
+ "checked_at": "2026-10-11T06:12:14+00:00",
  "artifacts": {
   "replicated-workbook.twbx": {
-   "sha256": "b7bf1e4b5abdf6fc7908dff53b8656d456c97d68eb63be9c93dbb3519a2a095b",
+   "sha256": "b34ad079677352fc70ea787c3709b53961871a54941ffcf181ece5e8fe187a4c",
    "zip_structure": "passed",
    "bundled_hyper_present": true,
    "local_xsd": "passed",
