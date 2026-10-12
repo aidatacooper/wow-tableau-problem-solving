@@ -30,6 +30,14 @@
 - [ ] 16 2021-07-08 ww27 Top/Bottom Performers — `2021_07_06_WW27_Top_Bottom_Performers`
 - [ ] 17 2021-07-15 ww28 FireSize Map — `2021_07_14_WW28_FireSize_Map`
 
+## 环境修正（2026-10-12）
+
+- 主检出的 editable cwtwb 在批处理中途从 4cd2c61（0.27.1）漂移到 5c65796（0.29.0a1）。
+  所有 case 记录的是 0.27.1 / 4cd2c61，因此**必须**用固定 worktree：
+  `C:/Users/imgwho/Desktop/project/.sdk-pins/cwtwb-4cd2c61/src`
+  构建时传 `--sdk-src`，回归时设 `CWTWB_SRC`。不要用裸 editable 安装。
+- ww17 已用该 pin 重建并重新采集 Cloud 证据。
+
 ## 步骤
 
 <!-- 每行：- [x] YYYY-MM-DD <case> — <结果/证据> -->
