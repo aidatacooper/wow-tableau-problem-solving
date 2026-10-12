@@ -19,7 +19,7 @@
 - [x] 05 2021-04-15 ww15 Google Analytics — `2021_04_14_WW15_GoogleAnalytics` — replicated/pass（LOADED；4 个 BAN 与作者一致）
 - [x] 06 2021-04-23 ww16 Quick LoDs — `2021_04_21_WW16_Quick_LoDs` — replicated/pass（LOADED；Cloud CSV 与作者一致）
 - [x] 07 2021-04-29 ww17 Generation Population — `2021_04_28_WW17_Generation_Population` — replicated/pass（commit f590c8c；LOADED@0.27.1 pin；Cloud 证据已重采）
-- [x] 08 2021-05-13 ww19 Map Layers — `2021_05_12_WW19_Map_Layers` — replicated/workaround（validate PASS / LOADED）
+- [x] 08 2021-05-13 ww19 Map Layers — `2021_05_12_WW19_Map_Layers` — replicated/workaround（commit 1dd8b26 + fe7b333；validate PASS / LOADED；Cloud 绑定 f47ea288）
 - [ ] 09 2021-05-20 ww20 Date Compare — `2021_05_19_WW20_Date_Compare`
 - [ ] 10 2021-05-28 ww21 Favourite Songs — `2021_05_26_WW21_Favourite_Songs`
 - [ ] 11 2021-06-03 ww22 Unstructured — `WOWW22-Tableau`
@@ -97,8 +97,9 @@
 
 ## 下一步
 
-1. 08–17 由并行的 successor agent（Paseo f60ae67「ww19-ww28」）接手，见工作清单。
-2. 本 agent（ww12–ww17 段）已完成并全部提交。
+1. 01–08 已完成并全部提交（ww19 = 1dd8b26 + fe7b333）。
+2. 09–17 由并行的 successor agent `8e72787`「WoW batch 17 part3 (ww20-ww28)」在本 worktree 接手。
+   **不要**在本 worktree 并行跑 Desktop，也不要重复解 09+，否则产物与 git 会互相覆盖。
 
 ## 阻塞
 
