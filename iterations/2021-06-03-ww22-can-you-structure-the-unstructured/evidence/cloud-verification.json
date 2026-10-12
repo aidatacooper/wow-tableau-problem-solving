@@ -1,0 +1,96 @@
+{
+  "case_id": "wow-2021-ww22-can-you-structure-the-unstructured",
+  "captured_at": "2026-10-12T10:38:03.793815+00:00",
+  "source_hashes": {
+    "author": "691249ad8338289896b2bcb03464910fbc697081b46ee19463ba7d7baf1d0c30",
+    "replica": "ab8fa73e923cb1ad9e97f24bfe3a5f499d75901ec211729562669763029b3bc7"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "8fc67b1c-1dfb-4fb5-be29-e73b56ab0805",
+      "name": "cwtwb-review-wow-2021-ww22-can-you-structure-the-unstructured-author-691249ad8338",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2988690",
+      "views": [
+        {
+          "name": "Can You Find a Place to Stay?",
+          "id": "29cd6d05-0f92-4625-9a20-55147e2c5a8c"
+        }
+      ]
+    },
+    "replica": {
+      "id": "99ad518b-b268-43b0-8ea2-6962cafdc3cf",
+      "name": "cwtwb-review-wow-2021-ww22-can-you-structure-the-unstructured-replica-ab8fa73e923c",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2988749",
+      "views": [
+        {
+          "name": "histo",
+          "id": "d5a65f23-a234-4255-b6a8-8802eb60b987"
+        },
+        {
+          "name": "map",
+          "id": "328922d9-bec1-4c8f-9892-f7921494ba95"
+        },
+        {
+          "name": "Can You Find a Place to Stay?",
+          "id": "f64f0003-2ec2-4fcf-bc88-eebf770e093b"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "29cd6d05-0f92-4625-9a20-55147e2c5a8c",
+          "name": "Can You Find a Place to Stay?",
+          "path": "outputs/cloud-author.png",
+          "sha256": "3419a454ffffa893550ee792efdeaddad6afa02feba3614b2ebbc338c20d7422",
+          "size": [
+            2000,
+            1000
+          ]
+        },
+        "replica": {
+          "id": "f64f0003-2ec2-4fcf-bc88-eebf770e093b",
+          "name": "Can You Find a Place to Stay?",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "0f5bf174574da165013ac9919a2409818a3c9d693b2a0daa0d0f5a426ab3e54e",
+          "size": [
+            2000,
+            1000
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Can You Find a Place to Stay?",
+          "view_id": "29cd6d05-0f92-4625-9a20-55147e2c5a8c",
+          "scope": "Default author dashboard and the replica histogram; the REST CSV confirms the bedroom grouping and the price bins.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-histo.csv",
+          "sha256": "177d20132034e5ca184922d087c4393a1f19799534af30461e526a18c361938a",
+          "bytes": 184
+        },
+        {
+          "role": "replica",
+          "view": "histo",
+          "view_id": "d5a65f23-a234-4255-b6a8-8802eb60b987",
+          "scope": "Default author dashboard and the replica histogram; the REST CSV confirms the bedroom grouping and the price bins.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-histo.csv",
+          "sha256": "602f063b8e25e75fc6799e356b0806cf4e00d2f9b5f6e9267c886e182a68eae2",
+          "bytes": 289
+        }
+      ]
+    }
+  ],
+  "status": "captured_requires_independent_review"
+}

@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0.0",
+  "scope": "Cloud REST export of the replica histogram and the author dashboard; the CSV confirms the bedroom grouping and the $100 price bins.",
+  "browser_interaction_executed": false,
+  "state": {
+    "description": "Default state; all bedroom groups are shown."
+  },
+  "observed": {
+    "export_rows": 1189,
+    "bedroom_groups": {
+      "Studio": 503,
+      "1 Bedrooms": 166,
+      "2 Bedrooms": 270,
+      "3 Bedrooms": 122,
+      "4 Bedrooms": 39,
+      "More Than 5 Bedrooms": 89
+    },
+    "price_bins": {
+      "0": 572,
+      "100": 425,
+      "200": 124,
+      "300": 35,
+      "400": 13,
+      "500": 7,
+      "600": 2,
+      "700": 6,
+      "900": 2,
+      "1000": 2,
+      "1200": 1
+    },
+    "average_price": 135.04,
+    "mismatched_rows": 0
+  },
+  "expected_from_oracle": {
+    "rows": 1189,
+    "matched_rows": 1189,
+    "studio": 503,
+    "more_than_5_bedrooms": 89,
+    "bin_0_100": 572,
+    "bin_100_200": 425,
+    "average_price": 135.04
+  },
+  "result": "pass"
+}

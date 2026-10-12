@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0.0",
+  "cwtwb_version": "0.27.1",
+  "cwtwb_commit": "4cd2c61c1286a02932b5b42f47de344683d656a3",
+  "result": "workaround",
+  "scope": "Released-SDK baseline for the WW22 structure-the-unstructured Airbnb case.",
+  "supported": [
+    "add_calculated_field with REGEXP_REPLACE / REGEXP_EXTRACT / CONTAINS for the bedroom parsing",
+    "add_group for the categorical 5+ bedroom roll-up",
+    "add_parameter (Bin Size) and FLOOR-based price bins",
+    "configure_chart with a Bar pane, a Detail measure and a categorical filter",
+    "add_reference_line(formula='average', value_field=...) plus configure_reference_line_style",
+    "MAKEPOINT(...) spatial field driving a Map chart",
+    "configure_worksheet_style(map_style={'layers': {'Area Code Boundaries': True}})",
+    "add_dashboard_action filter (Use as Filter) and url ('<[listing_url]>') actions"
+  ],
+  "findings": [
+    {
+      "key": "sys-numbin-not-in-catalog",
+      "severity": "workaround",
+      "summary": "The author's Step 3 bin uses Tableau's internal sys_numbin helper; the released SDK's function catalog rejects SYS_NUMBIN and the expression does not bin correctly.",
+      "workaround": "Use the FLOOR([price]/[Bin Size])*[Bin Size] form the article also documents; it produces the same $100 bins."
+    },
+    {
+      "key": "extract-lat-lon-have-no-geographic-role",
+      "severity": "workaround",
+      "summary": "The extract's lattitude/longitude columns are registered as plain measures with no geographic role, so a lat/lon map chart cannot bind them.",
+      "workaround": "Build a MAKEPOINT([lattitude],[longitude]) spatial field and map that instead."
+    }
+  ]
+}

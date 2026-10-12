@@ -1,0 +1,100 @@
+schema_version: 1.1.0
+case_id: wow-2021-ww22-can-you-structure-the-unstructured
+iteration_id: 2021-06-03-ww22-can-you-structure-the-unstructured
+post: https://donnacoles.home.blog/2021/06/03/can-you-structure-the-unstructured/
+legacy_case_ids: {}
+article_date: '2021-06-03'
+challenge_year: 2021
+challenge_week: 22
+challenge_date: '2021-06-01'
+date_evidence:
+  article_date: Article-local HTML 'Published:' calendar date, retained in evidence/article-date.json.
+  challenge: Official 2021 Week 22 article title.
+  challenge_date: Official WordPress REST date field retained in evidence/official-challenge-date.json.
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2021w22tab/
+    wordpress_post_id: 5409
+  article:
+    url: https://donnacoles.home.blog/2021/06/03/can-you-structure-the-unstructured/
+    path: null
+    sha256: e5736cd5e972ef4e4b6b13931a649f929972e6416f0fe79d9368562168571149
+  workbook:
+    url: https://public.tableau.com/views/WOWW22-Tableau/CanYouFindaPlacetoStay
+    filename: WOWW22-Tableau.twbx
+    sha256: 691249ad8338289896b2bcb03464910fbc697081b46ee19463ba7d7baf1d0c30
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- evidence/article-date.json
+- evidence/build-provenance.json
+- evidence/cloud-request.json
+- evidence/cloud-verification.json
+- evidence/functional-verification.json
+- evidence/official-challenge-date.json
+- evidence/sdk-baseline.json
+- evidence/visual-review.md
+- inputs/source-lock.json
+notes:
+- The regex chain identifies the bedroom count from the free-text description; a
+  categorical group rolls 5+ bedrooms into "More Than 5 Bedrooms".
+- The author's bin formula uses Tableau's internal sys_numbin; the replica uses
+  the FLOOR([price]/[Bin Size])*[Bin Size] form the article also documents.
+- The extract's lat/lon columns have no geographic role, so the map plots a
+  MAKEPOINT spatial field.
+cwtwb:
+  tested_version: 0.27.1
+  tested_commit: 4cd2c61c
+  runs:
+  - version: 0.27.1
+    commit: 4cd2c61c
+    result: workaround
+    evidence: evidence/sdk-baseline.json
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: workaround
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/listings copy_listings copy (WOW Week 22 Data).hyper
+acceptance:
+- id: ww22-bedroom-regex
+  description: The description is normalized with REGEXP_REPLACE and the bedroom
+    count extracted with REGEXP_EXTRACT (Studio plus digit-Bedroom patterns),
+    matching every row.
+  mode: automated
+- id: ww22-bedroom-groups
+  description: A categorical group maps the extracted sizes to Studio, 1-4
+    Bedrooms and "More Than 5 Bedrooms".
+  mode: automated
+- id: ww22-price-bins
+  description: 'Price per Night Min/Max implement FLOOR([price]/[Bin Size]) bins,
+    # of Listings is COUNTD(name), and Window Avg Price is the grand-total average.'
+  mode: automated
+- id: ww22-histogram
+  description: "The histogram plots # of Listings per price bin with the
+    average reference line and the bedroom filter applied."
+  mode: automated
+- id: ww22-map
+  description: The map plots a MAKEPOINT spatial field with listing detail, the
+    Area Code Boundaries layer and a listing/price tooltip.
+  mode: automated
+- id: ww22-interactions
+  description: Two Use-as-Filter actions link histo and map, and a URL action on
+    the map opens the listing URL.
+  mode: automated
+remaining_work: []
+blocker: null
+workarounds:
+- Tableau's internal sys_numbin helper is not in the released SDK's function
+  catalog and did not bin correctly; the article's FLOOR-based formula is used.
+- The extract's latitude/longitude columns carry no geographic role, so the map
+  plots a MAKEPOINT([lattitude],[longitude]) spatial field.
+capability_gaps: []
+related_cwtwb_issues: []

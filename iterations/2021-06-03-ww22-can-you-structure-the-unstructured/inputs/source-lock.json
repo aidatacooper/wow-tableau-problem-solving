@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-12",
+  "source_workbook": {
+    "filename": "WOWW22-Tableau.twbx",
+    "bytes": 928315,
+    "sha256": "691249ad8338289896b2bcb03464910fbc697081b46ee19463ba7d7baf1d0c30",
+    "url": null
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Datasources/listings copy_listings copy (WOW Week 22 Data).hyper",
+      "file": "inputs/listings copy_listings copy (WOW Week 22 Data).hyper",
+      "bytes": 2162688,
+      "sha256": "4e504585e7f91be93de0e3e81ad205a82f3b4bcbcfdb5b4a37cc90d4abebf608"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

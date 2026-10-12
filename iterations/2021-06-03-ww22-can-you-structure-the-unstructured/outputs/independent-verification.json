@@ -1,0 +1,54 @@
+{
+  "scope": "Locked-extract oracle plus native histogram/map workbook contracts.",
+  "acceptance": [
+    "ww22-bedroom-regex",
+    "ww22-bedroom-groups",
+    "ww22-price-bins",
+    "ww22-histogram",
+    "ww22-map",
+    "ww22-interactions"
+  ],
+  "facts": {
+    "extract_sha256": "4e504585e7f91be93de0e3e81ad205a82f3b4bcbcfdb5b4a37cc90d4abebf608",
+    "rows": 1189,
+    "matched_rows": 1189,
+    "raw_groups": {
+      "1 Bedroom": 166,
+      "10 Bedroom": 30,
+      "12 Bedroom": 2,
+      "16 Bedroom": 1,
+      "2 Bedroom": 270,
+      "3 Bedroom": 122,
+      "4 Bedroom": 39,
+      "5 Bedroom": 28,
+      "6 Bedroom": 15,
+      "7 Bedroom": 10,
+      "8 Bedroom": 1,
+      "9 Bedroom": 2,
+      "Studio": 503
+    },
+    "rolled_groups": {
+      "1 Bedrooms": 166,
+      "2 Bedrooms": 270,
+      "3 Bedrooms": 122,
+      "4 Bedrooms": 39,
+      "More Than 5 Bedrooms": 89,
+      "Studio": 503
+    },
+    "price_bins": {
+      "0": 572,
+      "100": 425,
+      "200": 124,
+      "300": 35,
+      "400": 13,
+      "500": 7,
+      "600": 2,
+      "700": 6,
+      "900": 2,
+      "1000": 2,
+      "1200": 1
+    },
+    "avg_price": 135.04
+  },
+  "output_sha256": "ab8fa73e923cb1ad9e97f24bfe3a5f499d75901ec211729562669763029b3bc7"
+}

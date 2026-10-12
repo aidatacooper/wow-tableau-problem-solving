@@ -1,0 +1,15 @@
+{
+  "case_dir": "iterations/2021-06-03-ww22-can-you-structure-the-unstructured",
+  "author_workbook": "dashboards/WOWW22-Tableau/WOWW22-Tableau.twbx",
+  "author_view": "Can You Find a Place to Stay?",
+  "replica_view": "Can You Find a Place to Stay?",
+  "states": [],
+  "data_views": [
+    {
+      "name": "histo",
+      "author": "Can You Find a Place to Stay?",
+      "replica": "histo",
+      "scope": "Default author dashboard and the replica histogram; the REST CSV confirms the bedroom grouping and the price bins."
+    }
+  ]
+}

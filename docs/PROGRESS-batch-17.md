@@ -22,7 +22,7 @@
 - [x] 08 2021-05-13 ww19 Map Layers — `2021_05_12_WW19_Map_Layers` — replicated/workaround（commit 1dd8b26 + fe7b333；validate PASS / LOADED；Cloud 绑定 f47ea288）
 - [x] 09 2021-05-20 ww20 Date Compare — `2021_05_19_WW20_Date_Compare` — replicated/pass（validate PASS / LOADED@4cd2c61；Cloud 3 个 comparison state 的 BAN CSV 与 oracle 逐位一致）
 - [x] 10 2021-05-28 ww21 Favourite Songs — `2021_05_26_WW21_Favourite_Songs` — replicated/workaround（validate PASS / LOADED@4cd2c61；Cloud CSV 89 首过滤歌曲与 oracle 逐位一致）
-- [ ] 11 2021-06-03 ww22 Unstructured — `WOWW22-Tableau`
+- [x] 11 2021-06-03 ww22 Unstructured — `WOWW22-Tableau` — replicated/workaround（validate PASS / LOADED@4cd2c61；Cloud CSV 分箱与 oracle 一致）
 - [ ] 12 2021-06-11 ww23 Sales Goal Selection — `2021_06_09_WW23_Sales_Goal_Selection`
 - [ ] 13 2021-06-17 ww24 Cholera Outbreak — `2021_06_16_WW24_Cholera_Outbreak_Map`
 - [ ] 14 2021-06-25 ww25 Spine Charts — `14062017-WW24-SpineCharts`
@@ -52,6 +52,7 @@
 - [x] 2026-10-11 06 ww16 Quick LoDs — 已复现（validate PASS / LOADED / 83 tests OK）
 - [x] 2026-10-12 09 ww20 Date Compare — 已复现（validate PASS / LOADED@4cd2c61；Cloud 3 状态 CSV 与 oracle 一致；83 tests OK）
 - [x] 2026-10-12 10 ww21 Favourite Songs — 已复现（validate PASS / LOADED@4cd2c61；Cloud 89 首过滤歌曲与 oracle 一致；83 tests OK）
+- [x] 2026-10-12 11 ww22 Unstructured — 已复现（validate PASS / LOADED@4cd2c61；Cloud 分箱与 oracle 一致；83 tests OK）
 
 ## 已验证的技术事实（可复用）
 
@@ -124,11 +125,17 @@
   （`IF ATTR([Set]) THEN <date-level> ELSE <song-level> END`），
   并用 `configure_layered_chart(axis_shelf="rows", fold_axes=True, synchronized=True)`；
   running total 的 `table_calc_overrides` 用 `EXACTDATE(Date)` 寻址才单调。
+- ww22 regex 分箱：Tableau 内部 `sys_numbin` 不在 SDK 函数目录，写进去也不分箱 →
+  用文章同时给出的 `FLOOR([price]/[Bin Size])*[Bin Size]`。
+- Hyper extract 的 `lattitude`/`longitude` 列没有 geographic role（`set_field_geographic_role`
+  要求 datasource column，但列不存在）→ 用 `MAKEPOINT([lat],[lon])` 空间字段 + `mark_type="Map"`。
+- `add_group(name, source, {group: [members]}, default_value=...)` 生成 `categorical-bin`
+  column（`<bin value=...>` + `<value>` children），不是 datasource `<group>`。
 
 ## 下一步
 
-1. 01–10 已完成并全部提交（ww20/ww21）。
-2. 11–17 由 successor agent 在本 worktree 接手。
+1. 01–11 已完成并全部提交（ww20/ww21/ww22）。
+2. 12–17 由 successor agent 在本 worktree 接手。
    **不要**在本 worktree 并行跑 Desktop，也不要重复解 10+，否则产物与 git 会互相覆盖。
 
 ## 阻塞
