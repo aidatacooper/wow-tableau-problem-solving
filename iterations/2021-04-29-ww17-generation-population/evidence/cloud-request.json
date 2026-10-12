@@ -1,0 +1,15 @@
+{
+  "case_dir": "iterations/2021-04-29-ww17-generation-population",
+  "author_workbook": "dashboards/2021_04_28_WW17_Generation_Population/2021_04_28_WW17_Generation_Population.twbx",
+  "author_view": "2021_04_28_WW17_Generation_Population",
+  "replica_view": "Chart",
+  "states": [],
+  "data_views": [
+    {
+      "name": "chart",
+      "author": "2021_04_28_WW17_Generation_Population",
+      "replica": "Chart",
+      "scope": "Default author dashboard state and replica Chart worksheet. The author workbook publishes the dashboard only, so the REST CSV export returns the dashboard's aggregated scope; the replica sheet export confirms the per-year population, the generation totals and ranks."
+    }
+  ]
+}

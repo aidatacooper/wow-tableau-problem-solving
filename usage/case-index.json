@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "generated_from": "iterations/*/case.yaml",
-  "active_case_count": 100,
+  "active_case_count": 101,
   "legacy_case_ids": {
     "donna-2019-07-18-63877b35d19a": "wow-2019-ww29-high-orders",
     "donna-2019-07-25-59a0a144b25b": "wow-2019-ww30-navigation-kpi",
@@ -5646,6 +5646,66 @@
         "The Difference field carries the *▲0%;▼0% custom format so the sign renders as an up or down triangle."
       ],
       "metadata": "iterations/2021-04-23-ww16-quick-lods/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.27.1"
+    },
+    {
+      "case_id": "wow-2021-ww17-generation-population",
+      "legacy_case_ids": {},
+      "iteration_id": "2021-04-29-ww17-generation-population",
+      "article_date": "2021-04-29",
+      "challenge_year": 2021,
+      "challenge_week": 17,
+      "challenge_date": "2021-04-28",
+      "date_evidence": {
+        "article_date": "Article-local HTML 'Published:' calendar date, retained in evidence/article-date.json.",
+        "challenge": "Official 2021 Week 17 article title.",
+        "challenge_date": "Official WordPress REST date field retained in evidence/official-challenge-date.json."
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2021w17tab/",
+          "wordpress_post_id": 5187
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2021/04/29/generation-population/",
+          "path": null,
+          "sha256": "89fa05b31c747ec44d0f54ef26f15520322ad99a6288e4c5db3a5bc01ca519bc"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2021_04_28_WW17_Generation_Population/2021_04_28_WW17_Generation_Population",
+          "filename": "2021_04_28_WW17_Generation_Population.twbx",
+          "sha256": "fee0368d341713594654a05544cb814ff5a0d169bcf44370825415f7587d601c"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "pass",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "evidence/article-date.json",
+        "evidence/build-provenance.json",
+        "evidence/cloud-request.json",
+        "evidence/cloud-verification.json",
+        "evidence/functional-verification.json",
+        "evidence/official-challenge-date.json",
+        "evidence/sdk-baseline.json",
+        "evidence/visual-review.md",
+        "inputs/source-lock.json"
+      ],
+      "notes": [
+        "The chart is built in one worksheet from the locked SEX/AGE/2019 Population extract; Year is derived as 2019-[AGE].",
+        "Generation totals use a FIXED LoD repeated per row; percent uses TOTAL(); rank uses RANK_DENSE; the year labels ride a second transparent Circle row axis.",
+        "The dual-axis CSV export emits one row per pane, so acceptance de-duplicates rows by birth year."
+      ],
+      "metadata": "iterations/2021-04-29-ww17-generation-population/case.yaml",
       "metadata_contract": "1.1.0",
       "tested_sdk_version": "0.27.1"
     },

@@ -1,0 +1,100 @@
+{
+  "case_id": "wow-2021-ww17-generation-population",
+  "captured_at": "2026-10-12T07:15:36.663818+00:00",
+  "source_hashes": {
+    "author": "fee0368d341713594654a05544cb814ff5a0d169bcf44370825415f7587d601c",
+    "replica": "6222df197cf41e171b6881e137e5fc8189c2c287fa81bd4893a96db5858a454c"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "ae314937-c378-43ab-bb52-1efdbdb7396d",
+      "name": "cwtwb-review-wow-2021-ww17-generation-population-author-fee0368d3417",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2982470",
+      "views": [
+        {
+          "name": "2021_04_28_WW17_Generation_Population",
+          "id": "2eb4f202-a7b7-4d08-8dfb-6617b9e0429e"
+        },
+        {
+          "name": "Chart",
+          "id": "3c21fa79-7787-474d-a50f-a66a33de0638"
+        },
+        {
+          "name": "Data",
+          "id": "8ad15e32-0699-4329-b20f-62f4f0b3df14"
+        }
+      ]
+    },
+    "replica": {
+      "id": "4ab55265-fa68-49d8-9634-bd8e2d3d5e72",
+      "name": "cwtwb-review-wow-2021-ww17-generation-population-replica-6222df197cf4",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2987671",
+      "views": [
+        {
+          "name": "Chart",
+          "id": "2181b926-cdb6-4723-92bc-4ffb0938bbf8"
+        },
+        {
+          "name": "2021_04_28_WW17_Generation_Population",
+          "id": "ae9a7600-651f-4cd8-910a-d0effed9187d"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "2eb4f202-a7b7-4d08-8dfb-6617b9e0429e",
+          "name": "2021_04_28_WW17_Generation_Population",
+          "path": "outputs/cloud-author.png",
+          "sha256": "952eedeeecfb14f8c651e15a053ceb4ffa3a21b1ff8f77d16959ab9fe6a3f0fb",
+          "size": [
+            2500,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "2181b926-cdb6-4723-92bc-4ffb0938bbf8",
+          "name": "Chart",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "84e830520172ab4b1f0799b4dcf9f043f68756b449ed8644e9d0f9798ecfdaf5",
+          "size": [
+            20436,
+            614
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "2021_04_28_WW17_Generation_Population",
+          "view_id": "2eb4f202-a7b7-4d08-8dfb-6617b9e0429e",
+          "scope": "Default author dashboard state and replica Chart worksheet. The author workbook publishes the dashboard only, so the REST CSV export returns the dashboard's aggregated scope; the replica sheet export confirms the per-year population, the generation totals and ranks.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-chart.csv",
+          "sha256": "7c68ed51a4ab6a3a08d2e95aff6811e86b14b764574f0cf4ed86dc5230a6f4a5",
+          "bytes": 12140
+        },
+        {
+          "role": "replica",
+          "view": "Chart",
+          "view_id": "2181b926-cdb6-4723-92bc-4ffb0938bbf8",
+          "scope": "Default author dashboard state and replica Chart worksheet. The author workbook publishes the dashboard only, so the REST CSV export returns the dashboard's aggregated scope; the replica sheet export confirms the per-year population, the generation totals and ranks.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-chart.csv",
+          "sha256": "395371b13c6bea641e4c8607952fb4c7136aca47e17595344d06088d7c7ee8ee",
+          "bytes": 13252
+        }
+      ]
+    }
+  ],
+  "status": "captured_requires_independent_review"
+}

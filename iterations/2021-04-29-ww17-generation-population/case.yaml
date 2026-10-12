@@ -1,0 +1,95 @@
+schema_version: 1.1.0
+case_id: wow-2021-ww17-generation-population
+iteration_id: 2021-04-29-ww17-generation-population
+post: https://donnacoles.home.blog/2021/04/29/generation-population/
+legacy_case_ids: {}
+article_date: '2021-04-29'
+challenge_year: 2021
+challenge_week: 17
+challenge_date: '2021-04-28'
+date_evidence:
+  article_date: Article-local HTML 'Published:' calendar date, retained in evidence/article-date.json.
+  challenge: Official 2021 Week 17 article title.
+  challenge_date: Official WordPress REST date field retained in evidence/official-challenge-date.json.
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2021w17tab/
+    wordpress_post_id: 5187
+  article:
+    url: https://donnacoles.home.blog/2021/04/29/generation-population/
+    path: null
+    sha256: 89fa05b31c747ec44d0f54ef26f15520322ad99a6288e4c5db3a5bc01ca519bc
+  workbook:
+    url: https://public.tableau.com/views/2021_04_28_WW17_Generation_Population/2021_04_28_WW17_Generation_Population
+    filename: 2021_04_28_WW17_Generation_Population.twbx
+    sha256: fee0368d341713594654a05544cb814ff5a0d169bcf44370825415f7587d601c
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- evidence/article-date.json
+- evidence/build-provenance.json
+- evidence/cloud-request.json
+- evidence/cloud-verification.json
+- evidence/functional-verification.json
+- evidence/official-challenge-date.json
+- evidence/sdk-baseline.json
+- evidence/visual-review.md
+- inputs/source-lock.json
+notes:
+- The chart is built in one worksheet from the locked SEX/AGE/2019 Population
+  extract; Year is derived as 2019-[AGE].
+- Generation totals use a FIXED LoD repeated per row; percent uses TOTAL(); rank
+  uses RANK_DENSE; the year labels ride a second transparent Circle row axis.
+- The dual-axis CSV export emits one row per pane, so acceptance de-duplicates
+  rows by birth year.
+cwtwb:
+  tested_version: 0.27.1
+  tested_commit: 4cd2c61c
+  runs:
+  - version: 0.27.1
+    commit: 4cd2c61c
+    result: pass
+    evidence: evidence/sdk-baseline.json
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: pass
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/federated_13hsc36066ge55164w5tu1.hyper
+acceptance:
+- id: ww17-generation-buckets
+  description: Year is 2019-[AGE] and the seven generations use the article's exact
+    year boundaries, including the deliberate line breaks.
+  mode: automated
+- id: ww17-generation-totals
+  description: Each pane header shows the whole generation's population via a FIXED
+    LoD and its percent of the total via TOTAL().
+  mode: automated
+- id: ww17-rank
+  description: RANK_DENSE ranks the generations by population with the article's
+    custom "#" number format.
+  mode: automated
+- id: ww17-year-sort
+  description: Generations run in birth-year order because the generation's first
+    year is the outer column shelf field.
+  mode: automated
+- id: ww17-pane-shading
+  description: Adjacent generation panes alternate between the two teal shades
+    through the Sort Position %2 boolean palette.
+  mode: automated
+- id: ww17-year-labels
+  description: A tiny transparent Circle row axis labels each generation's first
+    year, with dashed pane dividers and the warm worksheet background.
+  mode: automated
+remaining_work: []
+blocker: null
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []

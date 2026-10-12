@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-11",
+  "source_workbook": {
+    "filename": "2021_04_28_WW17_Generation_Population.twbx",
+    "bytes": 14276,
+    "sha256": "fee0368d341713594654a05544cb814ff5a0d169bcf44370825415f7587d601c",
+    "url": null
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Extracts/federated_13hsc36066ge55164w5tu1.hyper",
+      "file": "inputs/federated_13hsc36066ge55164w5tu1.hyper",
+      "bytes": 65536,
+      "sha256": "a4e80e4506b4455b070ca351cc588a3a02a29857b1e87382b6813e2cb0eb0e64"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "scope": "Cloud REST export of the replica Chart worksheet; the per-year 2019 population and generation totals/ranks are compared against the locked-extract oracle. The dual-axis export emits one row per pane, so rows are de-duplicated by birth year.",
+  "browser_interaction_executed": false,
+  "state": {
+    "SEX": "Total",
+    "description": "Default state; export returns every birth year 1919-2019 for SEX=Total."
+  },
+  "observed": {
+    "export_rows": 202,
+    "distinct_years": 101,
+    "mismatched_years": 0,
+    "generation_totals": {
+      "Baby Boomer": 71648806,
+      "Gen \nAlpha": 27622191,
+      "Generation X": 65178874,
+      "Generation Z": 66850003,
+      "Greatest \nGeneration": 1704243,
+      "Millennials": 72081655,
+      "Silent Generation": 23153751
+    },
+    "ranks": {
+      "Millennials": 1,
+      "Baby Boomer": 2,
+      "Generation Z": 3,
+      "Generation X": 4,
+      "Gen \nAlpha": 5,
+      "Silent Generation": 6,
+      "Greatest \nGeneration": 7
+    }
+  },
+  "expected_from_oracle": {
+    "distinct_years": 101,
+    "generation_totals": {
+      "Baby Boomer": 71648806,
+      "Gen \nAlpha": 27622191,
+      "Generation X": 65178874,
+      "Generation Z": 66850003,
+      "Greatest \nGeneration": 1704243,
+      "Millennials": 72081655,
+      "Silent Generation": 23153751
+    },
+    "ranks": {
+      "Millennials": 1,
+      "Baby Boomer": 2,
+      "Generation Z": 3,
+      "Generation X": 4,
+      "Gen \nAlpha": 5,
+      "Silent Generation": 6,
+      "Greatest \nGeneration": 7
+    }
+  },
+  "result": "pass"
+}

@@ -1,0 +1,64 @@
+{
+  "scope": "Locked-extract oracle plus native workbook contracts.",
+  "acceptance": [
+    "ww17-generation-buckets",
+    "ww17-generation-totals",
+    "ww17-rank",
+    "ww17-year-sort",
+    "ww17-pane-shading",
+    "ww17-year-labels"
+  ],
+  "facts": {
+    "extract_sha256": "a4e80e4506b4455b070ca351cc588a3a02a29857b1e87382b6813e2cb0eb0e64",
+    "rows": 303,
+    "years": 101,
+    "year_min": 1919,
+    "year_max": 2019,
+    "grand_total": 328239523,
+    "generations": {
+      "Greatest \nGeneration": {
+        "pop": 1704243,
+        "pct": 0.005192071278997076,
+        "rank": 7,
+        "min_year": 1919
+      },
+      "Silent Generation": {
+        "pop": 23153751,
+        "pct": 0.07053919280768635,
+        "rank": 6,
+        "min_year": 1928
+      },
+      "Baby Boomer": {
+        "pop": 71648806,
+        "pct": 0.21828208055249945,
+        "rank": 2,
+        "min_year": 1946
+      },
+      "Generation X": {
+        "pop": 65178874,
+        "pct": 0.1985710721374647,
+        "rank": 4,
+        "min_year": 1965
+      },
+      "Millennials": {
+        "pop": 72081655,
+        "pct": 0.21960077915419102,
+        "rank": 1,
+        "min_year": 1981
+      },
+      "Generation Z": {
+        "pop": 66850003,
+        "pct": 0.203662259769979,
+        "rank": 3,
+        "min_year": 1997
+      },
+      "Gen \nAlpha": {
+        "pop": 27622191,
+        "pct": 0.0841525442991824,
+        "rank": 5,
+        "min_year": 2013
+      }
+    }
+  },
+  "output_sha256": "6222df197cf41e171b6881e137e5fc8189c2c287fa81bd4893a96db5858a454c"
+}

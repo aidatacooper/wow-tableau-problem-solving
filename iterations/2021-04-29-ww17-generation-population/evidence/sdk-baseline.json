@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0.0",
+  "cwtwb_version": "0.27.1",
+  "cwtwb_commit": "4cd2c61c1286a02932b5b42f47de344683d656a3",
+  "result": "pass",
+  "scope": "Released-SDK baseline for the WW17 Generation Populations case.",
+  "supported": [
+    "add_calculated_field with the FIXED generation LoDs and RANK_DENSE",
+    "configure_layered_chart with a nested five-level column shelf and a Bar + Circle dual row axis",
+    "configure_worksheet_style table_dividers for dashed pane separators",
+    "configure_worksheet_style table_formats for the worksheet background colour",
+    "configure_worksheet_style header_formats to hide member headers and set per-header fonts",
+    "panes_style for the rotated Circle label"
+  ],
+  "findings": []
+}
