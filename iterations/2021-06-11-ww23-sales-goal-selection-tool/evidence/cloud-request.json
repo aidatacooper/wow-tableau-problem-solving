@@ -1,0 +1,21 @@
+{
+  "case_dir": "iterations/2021-06-11-ww23-sales-goal-selection-tool",
+  "author_workbook": "dashboards/2021_06_09_WW23_Sales_Goal_Selection/2021_06_09_WW23_Sales_Goal_Selection.twbx",
+  "author_view": "2021_06_09_WW23_Sales_Goal_Selection",
+  "replica_view": "2021_06_09_WW23_Sales_Goal_Selection",
+  "states": [],
+  "data_views": [
+    {
+      "name": "bans",
+      "author": "2021_06_09_WW23_Sales_Goal_Selection",
+      "replica": "BANs",
+      "scope": "Default author dashboard and the replica BANs worksheet; the REST CSV confirms the three mixed-goal headline totals."
+    },
+    {
+      "name": "chart",
+      "author": "2021_06_09_WW23_Sales_Goal_Selection",
+      "replica": "Chart",
+      "scope": "Default author dashboard and the replica Chart worksheet; the REST CSV confirms the per-sub-category goal, value-to-goal and percent-of-goal values."
+    }
+  ]
+}

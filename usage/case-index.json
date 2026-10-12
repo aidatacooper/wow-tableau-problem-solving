@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "generated_from": "iterations/*/case.yaml",
-  "active_case_count": 105,
+  "active_case_count": 106,
   "legacy_case_ids": {
     "donna-2019-07-18-63877b35d19a": "wow-2019-ww29-high-orders",
     "donna-2019-07-25-59a0a144b25b": "wow-2019-ww30-navigation-kpi",
@@ -5945,6 +5945,66 @@
         "The extract's lat/lon columns have no geographic role, so the map plots a MAKEPOINT spatial field."
       ],
       "metadata": "iterations/2021-06-03-ww22-can-you-structure-the-unstructured/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.27.1"
+    },
+    {
+      "case_id": "wow-2021-ww23-sales-goal-selection-tool",
+      "legacy_case_ids": {},
+      "iteration_id": "2021-06-11-ww23-sales-goal-selection-tool",
+      "article_date": "2021-06-11",
+      "challenge_year": 2021,
+      "challenge_week": 23,
+      "challenge_date": "2021-06-09",
+      "date_evidence": {
+        "article_date": "Article-local HTML 'Published:' calendar date, retained in evidence/article-date.json.",
+        "challenge": "Official 2021 Week 23 article title.",
+        "challenge_date": "Official WordPress REST date field retained in evidence/official-challenge-date.json."
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2021w23tab/",
+          "wordpress_post_id": 5444
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2021/06/11/sales-goal-selection-tool/",
+          "path": null,
+          "sha256": "09057aa1ab3540b609d4fedce6f5b0cef423b7b5a8d50d1543f33d8088db3dd6"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2021_06_09_WW23_Sales_Goal_Selection/2021_06_09_WW23_Sales_Goal_Selection",
+          "filename": "2021_06_09_WW23_Sales_Goal_Selection.twbx",
+          "sha256": "c5527a839084ca52a460cdaf17302c64ccbd7fef93cca18c0126e05b723121ee"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "workaround",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "evidence/article-date.json",
+        "evidence/build-provenance.json",
+        "evidence/cloud-request.json",
+        "evidence/cloud-verification.json",
+        "evidence/functional-verification.json",
+        "evidence/official-challenge-date.json",
+        "evidence/sdk-baseline.json",
+        "evidence/visual-review.md",
+        "inputs/source-lock.json"
+      ],
+      "notes": [
+        "The two goals are \"same pace\" (this year's run-rate extrapolated with DATEDIFF day counts) and \"last year + X%\" (2020 sales times 1+pPercentIncrease).",
+        "YEAR-END GOAL Per Sub Cat branches on ATTR of the \"Use Last Year With Increase\" set; WINDOW_SUM plus INDEX()<=1 aggregate the mixed goals into the single-row BAN strip.",
+        "The set starts with the author's four members (Accessories, Copiers, Machines, Phones); two edit-group-action set actions add and remove members."
+      ],
+      "metadata": "iterations/2021-06-11-ww23-sales-goal-selection-tool/case.yaml",
       "metadata_contract": "1.1.0",
       "tested_sdk_version": "0.27.1"
     },

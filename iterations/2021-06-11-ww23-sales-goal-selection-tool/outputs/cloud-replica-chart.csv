@@ -1,0 +1,103 @@
+Category,In / Out of Use Last Year With Increase,Measure Names,Sub-Category,% of Goal,MIN(0),Value to Goal,YEAR-END GOAL Per Sub Cat,Measure Values,SALES LY YTD by Sub Cat,SALES YTD by Sub Cat
+Technology,In,,Accessories,,0,,"$46,085",,,
+Technology,In,,Copiers,,0,,"$54,559",,,
+Technology,In,,Machines,,0,,"$61,498",,,
+Technology,In,,Phones,,0,,"$86,858",,,
+Furniture,Out,,Bookcases,,0,,"$24,641",,,
+Furniture,Out,,Chairs,,0,,"$55,863",,,
+Furniture,Out,,Furnishings,,0,,"$16,644",,,
+Furniture,Out,,Tables,,0,,"$26,113",,,
+Office Supplies,Out,,Appliances,,0,,"$32,439",,,
+Office Supplies,Out,,Art,,0,,"$5,454",,,
+Office Supplies,Out,,Binders,,0,,"$47,897",,,
+Office Supplies,Out,,Envelopes,,0,,"$3,168",,,
+Office Supplies,Out,,Fasteners,,0,,$476,,,
+Office Supplies,Out,,Labels,,0,,"$1,956",,,
+Office Supplies,Out,,Paper,,0,,"$19,283",,,
+Office Supplies,Out,,Storage,,0,,"$47,108",,,
+Office Supplies,Out,,Supplies,,0,,"$16,759",,,
+Furniture,,,Bookcases,44%,,"$13,840","$24,641",,"$5,266","$10,802"
+Furniture,,,Chairs,44%,,"$31,375","$55,863",,"$25,816","$24,488"
+Furniture,,,Furnishings,44%,,"$9,348","$16,644",,"$8,975","$7,296"
+Furniture,,,Tables,44%,,"$14,666","$26,113",,"$14,870","$11,447"
+Office Supplies,,,Appliances,44%,,"$18,219","$32,439",,"$5,759","$14,220"
+Office Supplies,,,Art,44%,,"$3,063","$5,454",,"$2,215","$2,391"
+Office Supplies,,,Binders,44%,,"$26,901","$47,897",,"$7,616","$20,996"
+Office Supplies,,,Envelopes,44%,,"$1,780","$3,168",,"$1,384","$1,389"
+Office Supplies,,,Fasteners,44%,,$267,$476,,$217,$208
+Office Supplies,,,Labels,44%,,"$1,098","$1,956",,$392,$857
+Office Supplies,,,Paper,44%,,"$10,830","$19,283",,"$7,160","$8,453"
+Office Supplies,,,Storage,44%,,"$26,458","$47,108",,"$20,193","$20,650"
+Office Supplies,,,Supplies,44%,,"$9,413","$16,759",,"$10,272","$7,347"
+Technology,,,Accessories,35%,,"$30,003","$46,085",,"$11,033","$16,082"
+Technology,,,Copiers,51%,,"$26,880","$54,559",,"$11,400","$27,680"
+Technology,,,Machines,21%,,"$48,636","$61,498",,"$36,442","$12,861"
+Technology,,,Phones,33%,,"$57,983","$86,858",,"$30,937","$28,875"
+Furniture,,,Bookcases,44%,,"$13,840","$24,641",,"$5,266","$10,802"
+Furniture,,,Chairs,44%,,"$31,375","$55,863",,"$25,816","$24,488"
+Furniture,,,Furnishings,44%,,"$9,348","$16,644",,"$8,975","$7,296"
+Furniture,,,Tables,44%,,"$14,666","$26,113",,"$14,870","$11,447"
+Office Supplies,,,Appliances,44%,,"$18,219","$32,439",,"$5,759","$14,220"
+Office Supplies,,,Art,44%,,"$3,063","$5,454",,"$2,215","$2,391"
+Office Supplies,,,Binders,44%,,"$26,901","$47,897",,"$7,616","$20,996"
+Office Supplies,,,Envelopes,44%,,"$1,780","$3,168",,"$1,384","$1,389"
+Office Supplies,,,Fasteners,44%,,$267,$476,,$217,$208
+Office Supplies,,,Labels,44%,,"$1,098","$1,956",,$392,$857
+Office Supplies,,,Paper,44%,,"$10,830","$19,283",,"$7,160","$8,453"
+Office Supplies,,,Storage,44%,,"$26,458","$47,108",,"$20,193","$20,650"
+Office Supplies,,,Supplies,44%,,"$9,413","$16,759",,"$10,272","$7,347"
+Technology,,,Accessories,35%,,"$30,003","$46,085",,"$11,033","$16,082"
+Technology,,,Copiers,51%,,"$26,880","$54,559",,"$11,400","$27,680"
+Technology,,,Machines,21%,,"$48,636","$61,498",,"$36,442","$12,861"
+Technology,,,Phones,33%,,"$57,983","$86,858",,"$30,937","$28,875"
+Furniture,,SALES YTD by Sub Cat,Bookcases,,,,,"10,801.707","$5,266","$10,802"
+Furniture,,SALES LY YTD by Sub Cat,Bookcases,,,,,"5,265.923","$5,266","$10,802"
+Furniture,,SALES YTD by Sub Cat,Chairs,,,,,"24,487.974","$25,816","$24,488"
+Furniture,,SALES LY YTD by Sub Cat,Chairs,,,,,"25,815.567","$25,816","$24,488"
+Furniture,,SALES YTD by Sub Cat,Furnishings,,,,,"7,295.918","$8,975","$7,296"
+Furniture,,SALES LY YTD by Sub Cat,Furnishings,,,,,"8,975.472","$8,975","$7,296"
+Furniture,,SALES YTD by Sub Cat,Tables,,,,,"11,446.9525","$14,870","$11,447"
+Furniture,,SALES LY YTD by Sub Cat,Tables,,,,,"14,870.23","$14,870","$11,447"
+Office Supplies,,SALES YTD by Sub Cat,Appliances,,,,,"14,219.95","$5,759","$14,220"
+Office Supplies,,SALES LY YTD by Sub Cat,Appliances,,,,,"5,758.82","$5,759","$14,220"
+Office Supplies,,SALES YTD by Sub Cat,Art,,,,,"2,390.678","$2,215","$2,391"
+Office Supplies,,SALES LY YTD by Sub Cat,Art,,,,,"2,214.572","$2,215","$2,391"
+Office Supplies,,SALES YTD by Sub Cat,Binders,,,,,"20,995.83","$7,616","$20,996"
+Office Supplies,,SALES LY YTD by Sub Cat,Binders,,,,,"7,616.258","$7,616","$20,996"
+Office Supplies,,SALES YTD by Sub Cat,Envelopes,,,,,"1,388.922","$1,384","$1,389"
+Office Supplies,,SALES LY YTD by Sub Cat,Envelopes,,,,,"1,383.728","$1,384","$1,389"
+Office Supplies,,SALES YTD by Sub Cat,Fasteners,,,,,208.46,$217,$208
+Office Supplies,,SALES LY YTD by Sub Cat,Fasteners,,,,,217.474,$217,$208
+Office Supplies,,SALES YTD by Sub Cat,Labels,,,,,857.292,$392,$857
+Office Supplies,,SALES LY YTD by Sub Cat,Labels,,,,,391.926,$392,$857
+Office Supplies,,SALES YTD by Sub Cat,Paper,,,,,"8,452.984","$7,160","$8,453"
+Office Supplies,,SALES LY YTD by Sub Cat,Paper,,,,,"7,159.518","$7,160","$8,453"
+Office Supplies,,SALES YTD by Sub Cat,Storage,,,,,"20,650.234","$20,193","$20,650"
+Office Supplies,,SALES LY YTD by Sub Cat,Storage,,,,,"20,192.848","$20,193","$20,650"
+Office Supplies,,SALES YTD by Sub Cat,Supplies,,,,,"7,346.614","$10,272","$7,347"
+Office Supplies,,SALES LY YTD by Sub Cat,Supplies,,,,,"10,272.322","$10,272","$7,347"
+Technology,,SALES YTD by Sub Cat,Accessories,,,,,"16,082.43","$11,033","$16,082"
+Technology,,SALES LY YTD by Sub Cat,Accessories,,,,,"11,033.256","$11,033","$16,082"
+Technology,,SALES YTD by Sub Cat,Copiers,,,,,"27,679.724","$11,400","$27,680"
+Technology,,SALES LY YTD by Sub Cat,Copiers,,,,,"11,399.908","$11,400","$27,680"
+Technology,,SALES YTD by Sub Cat,Machines,,,,,"12,861.174","$36,442","$12,861"
+Technology,,SALES LY YTD by Sub Cat,Machines,,,,,"36,441.633","$36,442","$12,861"
+Technology,,SALES YTD by Sub Cat,Phones,,,,,"28,874.814","$30,937","$28,875"
+Technology,,SALES LY YTD by Sub Cat,Phones,,,,,"30,937.114","$30,937","$28,875"
+Furniture,,,Bookcases,44%,,"$13,840","$24,641",,"$5,266","$10,802"
+Furniture,,,Chairs,44%,,"$31,375","$55,863",,"$25,816","$24,488"
+Furniture,,,Furnishings,44%,,"$9,348","$16,644",,"$8,975","$7,296"
+Furniture,,,Tables,44%,,"$14,666","$26,113",,"$14,870","$11,447"
+Office Supplies,,,Appliances,44%,,"$18,219","$32,439",,"$5,759","$14,220"
+Office Supplies,,,Art,44%,,"$3,063","$5,454",,"$2,215","$2,391"
+Office Supplies,,,Binders,44%,,"$26,901","$47,897",,"$7,616","$20,996"
+Office Supplies,,,Envelopes,44%,,"$1,780","$3,168",,"$1,384","$1,389"
+Office Supplies,,,Fasteners,44%,,$267,$476,,$217,$208
+Office Supplies,,,Labels,44%,,"$1,098","$1,956",,$392,$857
+Office Supplies,,,Paper,44%,,"$10,830","$19,283",,"$7,160","$8,453"
+Office Supplies,,,Storage,44%,,"$26,458","$47,108",,"$20,193","$20,650"
+Office Supplies,,,Supplies,44%,,"$9,413","$16,759",,"$10,272","$7,347"
+Technology,,,Accessories,35%,,"$30,003","$46,085",,"$11,033","$16,082"
+Technology,,,Copiers,51%,,"$26,880","$54,559",,"$11,400","$27,680"
+Technology,,,Machines,21%,,"$48,636","$61,498",,"$36,442","$12,861"
+Technology,,,Phones,33%,,"$57,983","$86,858",,"$30,937","$28,875"

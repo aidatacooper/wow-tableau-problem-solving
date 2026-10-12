@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0.0",
+  "scope": "Cloud REST export of the replica BANs/Chart worksheets and the author dashboard; the images and CSV confirm the mixed-goal totals and the per-sub-category goal values.",
+  "browser_interaction_executed": false,
+  "state": {
+    "description": "Default state; the set starts with the author's four members (Accessories, Copiers, Machines, Phones)."
+  },
+  "observed": {
+    "export_rows": 9994,
+    "ban_sales_ytd": 216041.66,
+    "ban_sales_ly_ytd": 199946.57,
+    "ban_year_end_goal": 546802.99,
+    "sub_category_value_to_goal": {
+      "Accessories": 30003.01,
+      "Appliances": 18219.31,
+      "Art": 3063.06,
+      "Binders": 26900.91,
+      "Bookcases": 13839.69,
+      "Chairs": 31375.22,
+      "Copiers": 26879.63,
+      "Envelopes": 1779.56,
+      "Fasteners": 267.09,
+      "Furnishings": 9347.89,
+      "Labels": 1098.41,
+      "Machines": 48636.4,
+      "Paper": 10830.39,
+      "Phones": 57983.42,
+      "Storage": 26458.11,
+      "Supplies": 9412.85,
+      "Tables": 14666.41
+    },
+    "sub_category_pct_of_goal": {
+      "Accessories": 0.349,
+      "Appliances": 0.4384,
+      "Art": 0.4384,
+      "Binders": 0.4384,
+      "Bookcases": 0.4384,
+      "Chairs": 0.4384,
+      "Copiers": 0.5073,
+      "Envelopes": 0.4384,
+      "Fasteners": 0.4384,
+      "Furnishings": 0.4384,
+      "Labels": 0.4384,
+      "Machines": 0.2091,
+      "Paper": 0.4384,
+      "Phones": 0.3324,
+      "Storage": 0.4384,
+      "Supplies": 0.4384,
+      "Tables": 0.4384
+    },
+    "mismatched_rows": 0
+  },
+  "expected_from_oracle": {
+    "rows": 9994,
+    "ban_sales_ytd": 216041.66,
+    "ban_sales_ly_ytd": 199946.57,
+    "ban_year_end_goal": 546802.99,
+    "same_pace_total": 492845.03,
+    "ly_plus_total": 670126.16,
+    "phones_value_to_goal": 57983.42,
+    "copiers_value_to_goal": 26880.31,
+    "machines_value_to_goal": 48636.47
+  },
+  "result": "pass"
+}

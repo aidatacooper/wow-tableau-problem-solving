@@ -1,0 +1,122 @@
+{
+  "case_id": "wow-2021-ww23-sales-goal-selection-tool",
+  "captured_at": "2026-10-12T11:17:24.391799+00:00",
+  "source_hashes": {
+    "author": "c5527a839084ca52a460cdaf17302c64ccbd7fef93cca18c0126e05b723121ee",
+    "replica": "36ee158b0371e790ca10f8ceaa24247cd9609f35ba72a4a1b432ba51fac39a66"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "f3bcd1da-3c94-4586-bf5e-828442b32659",
+      "name": "cwtwb-review-wow-2021-ww23-sales-goal-selection-tool-author-c5527a839084",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2988819",
+      "views": [
+        {
+          "name": "2021_06_09_WW23_Sales_Goal_Selection",
+          "id": "84f900cd-0b47-4163-ab57-c8797b07fc43"
+        },
+        {
+          "name": "Data",
+          "id": "2b4ef86a-ccc0-459a-93c7-6f9b563c8874"
+        }
+      ]
+    },
+    "replica": {
+      "id": "25d56f45-5939-45af-89f9-c332d059c56f",
+      "name": "cwtwb-review-wow-2021-ww23-sales-goal-selection-tool-replica-36ee158b0371",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2988979",
+      "views": [
+        {
+          "name": "BANs",
+          "id": "b4232005-828b-4fcb-b3a2-bf4e94942753"
+        },
+        {
+          "name": "Chart",
+          "id": "96e333db-fc42-422b-915e-6187b85bb441"
+        },
+        {
+          "name": "2021_06_09_WW23_Sales_Goal_Selection",
+          "id": "a7eb4afe-865f-4aa1-b5d6-1e6b51f8ed74"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "84f900cd-0b47-4163-ab57-c8797b07fc43",
+          "name": "2021_06_09_WW23_Sales_Goal_Selection",
+          "path": "outputs/cloud-author.png",
+          "sha256": "34c95c9044e9a0a4218cd16a26e36503324e0fcd7ad1f4754ff4ad1141b1309a",
+          "size": [
+            2400,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "a7eb4afe-865f-4aa1-b5d6-1e6b51f8ed74",
+          "name": "2021_06_09_WW23_Sales_Goal_Selection",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "270470910d62bea447188f5066509884f1a1afb6594fd7f891cde991ab40ee51",
+          "size": [
+            2400,
+            1600
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "2021_06_09_WW23_Sales_Goal_Selection",
+          "view_id": "84f900cd-0b47-4163-ab57-c8797b07fc43",
+          "scope": "Default author dashboard and the replica BANs worksheet; the REST CSV confirms the three mixed-goal headline totals.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-bans.csv",
+          "sha256": "f3db4f4648b52e058ace0a9220dc6ac6fce8b6aa40d95bc1983ca856b2cc7cd7",
+          "bytes": 170
+        },
+        {
+          "role": "author",
+          "view": "2021_06_09_WW23_Sales_Goal_Selection",
+          "view_id": "84f900cd-0b47-4163-ab57-c8797b07fc43",
+          "scope": "Default author dashboard and the replica Chart worksheet; the REST CSV confirms the per-sub-category goal, value-to-goal and percent-of-goal values.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-chart.csv",
+          "sha256": "f3db4f4648b52e058ace0a9220dc6ac6fce8b6aa40d95bc1983ca856b2cc7cd7",
+          "bytes": 170
+        },
+        {
+          "role": "replica",
+          "view": "BANs",
+          "view_id": "b4232005-828b-4fcb-b3a2-bf4e94942753",
+          "scope": "Default author dashboard and the replica BANs worksheet; the REST CSV confirms the three mixed-goal headline totals.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-bans.csv",
+          "sha256": "52ed681a01b21f93da5cf2086436c02448e4e42c07243ab1295252ef925eddb9",
+          "bytes": 164
+        },
+        {
+          "role": "replica",
+          "view": "Chart",
+          "view_id": "96e333db-fc42-422b-915e-6187b85bb441",
+          "scope": "Default author dashboard and the replica Chart worksheet; the REST CSV confirms the per-sub-category goal, value-to-goal and percent-of-goal values.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-chart.csv",
+          "sha256": "5aaaa0e00a8b3a0d2817e5b52189d1e220b48f012437a0228523aab482f09be9",
+          "bytes": 7047
+        }
+      ]
+    }
+  ],
+  "status": "captured_requires_independent_review"
+}

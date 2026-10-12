@@ -23,7 +23,7 @@
 - [x] 09 2021-05-20 ww20 Date Compare — `2021_05_19_WW20_Date_Compare` — replicated/pass（validate PASS / LOADED@4cd2c61；Cloud 3 个 comparison state 的 BAN CSV 与 oracle 逐位一致）
 - [x] 10 2021-05-28 ww21 Favourite Songs — `2021_05_26_WW21_Favourite_Songs` — replicated/workaround（validate PASS / LOADED@4cd2c61；Cloud CSV 89 首过滤歌曲与 oracle 逐位一致）
 - [x] 11 2021-06-03 ww22 Unstructured — `WOWW22-Tableau` — replicated/workaround（validate PASS / LOADED@4cd2c61；Cloud CSV 分箱与 oracle 一致）
-- [ ] 12 2021-06-11 ww23 Sales Goal Selection — `2021_06_09_WW23_Sales_Goal_Selection`
+- [x] 12 2021-06-11 ww23 Sales Goal Selection — `2021-06-11-ww23-sales-goal-selection-tool` — replicated/workaround（validate PASS / LOADED@4cd2c61；Cloud BAN CSV 与 oracle 逐位一致）
 - [ ] 13 2021-06-17 ww24 Cholera Outbreak — `2021_06_16_WW24_Cholera_Outbreak_Map`
 - [ ] 14 2021-06-25 ww25 Spine Charts — `14062017-WW24-SpineCharts`
 - [ ] 15 2021-07-01 ww26 Pareto Profitability — `2021_06_30_WW26_Pareto_Profitability`
@@ -53,6 +53,7 @@
 - [x] 2026-10-12 09 ww20 Date Compare — 已复现（validate PASS / LOADED@4cd2c61；Cloud 3 状态 CSV 与 oracle 一致；83 tests OK）
 - [x] 2026-10-12 10 ww21 Favourite Songs — 已复现（validate PASS / LOADED@4cd2c61；Cloud 89 首过滤歌曲与 oracle 一致；83 tests OK）
 - [x] 2026-10-12 11 ww22 Unstructured — 已复现（validate PASS / LOADED@4cd2c61；Cloud 分箱与 oracle 一致；83 tests OK）
+- [x] 2026-10-12 12 ww23 Sales Goal Selection — 已复现（validate PASS / LOADED@4cd2c61；Cloud BAN CSV 与 oracle 逐位一致；83 tests OK）
 
 ## 已验证的技术事实（可复用）
 
@@ -131,11 +132,25 @@
   要求 datasource column，但列不存在）→ 用 `MAKEPOINT([lat],[lon])` 空间字段 + `mark_type="Map"`。
 - `add_group(name, source, {group: [members]}, default_value=...)` 生成 `categorical-bin`
   column（`<bin value=...>` + `<value>` children），不是 datasource `<group>`。
+- ww23：`add_set(name, 'Sub-Category', members=[...])` 生成原生 datasource `<group>`；
+  `add_dashboard_set_action(selection_mode='add'/'remove', clear_option='do-nothing')`
+  生成两条 `edit-group-action`（并自动写入 `GroupActionAddRemove`/`SetMembershipControl` manifest）。
+- ww23 **坑**：BAN 用的 `INDEX()<=1` 量化过滤器**只能写上限**（`{"column": "Index", "max": "1"}`）；
+  同时给 min=1 与 max=1 时 Cloud 不会折叠成单行，BAN 会每个 sub-category 重复一行。
+- ww23 **坑**：`label_runs` 里同时放字面量 `"<"`、字段 run、`"> to goal"` 会渲染成 `<<field>>`；
+  只用 `{"field": ...}` + `{"text": " to goal"}`。
+- ww23：`table_calc` 的行寻址用 `{"ordering_type": "Field", "ordering_field": "[Sub-Category]"}`
+  （值必须是带括号的字段名）；`add_calculated_field(..., table_calc=...)` 的 `ordering-field`
+  若写成不带括号会被 Desktop 拒绝（`Qualified Name Parse Error`）。
+- ww23：多 pane 横向折叠轴用 `configure_layered_chart(columns=[...], axis_shelf="columns", fold_axes=True, synchronized=True)`；
+  `measure_values` 的 Bar pane 用 `color="Measure Names"` + `size="Measure Names"` 才能拿到 Measure Values 双 pill。
+- ww23：BAN 面板直接放 `label="Multiple Values"`（text encoding）即可，**不要**同时加
+  `labels=["Measure Names"]`——加了之后 Cloud 整块渲染为空。
 
 ## 下一步
 
-1. 01–11 已完成并全部提交（ww20/ww21/ww22）。
-2. 12–17 由 successor agent 在本 worktree 接手。
+1. 01–12 已完成并全部提交（ww20/ww21/ww22/ww23）。
+2. 13–17 由 successor agent 在本 worktree 接手。
    **不要**在本 worktree 并行跑 Desktop，也不要重复解 10+，否则产物与 git 会互相覆盖。
 
 ## 阻塞

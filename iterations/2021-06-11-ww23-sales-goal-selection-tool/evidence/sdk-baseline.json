@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "cwtwb_version": "0.27.1",
+  "cwtwb_commit": "4cd2c61c1286a02932b5b42f47de344683d656a3",
+  "result": "pass",
+  "scope": "Released-SDK baseline for the WW23 sales-goal-selection case.",
+  "supported": [
+    "add_parameter for pToday (#2021-06-09#) and pPercentIncrease (0.1, p0% format)",
+    "add_calculated_field for the DATEDIFF day counts, the YTD/LY YTD sales, Same Pace and LY + % goals",
+    "add_set('Use Last Year With Increase', 'Sub-Category', members=[...]) writing a native datasource <group>",
+    "add_calculated_field(..., table_calc={'ordering_type': 'Field', 'ordering_field': '[Sub-Category]'}) for WINDOW_SUM and INDEX()",
+    "configure_layered_chart with five panes, axis_shelf='columns', fold_axes=True, synchronized=True",
+    "pane color='Measure Names' + size='Measure Names' with a set_datasource_color_palette('Measure Names') map",
+    "a set palette for the circle pane (false -> same pace, true -> last year)",
+    "configure_chart quantitative filter {column: Index, max: 1}",
+    "add_dashboard_set_action(selection_mode='add'/'remove', clear_option='do-nothing') emitting edit-group-action",
+    "add_dashboard with floating zones at 1200x800"
+  ],
+  "findings": [
+    {
+      "key": "quantitative-filter-min-max-renders-every-row",
+      "severity": "workaround",
+      "summary": "A quantitative filter with both min=1 and max=1 on the INDEX() table calc did not collapse the BANs to one row on Cloud; the pane repeated the same value once per sub-category.",
+      "workaround": "Write only the upper bound ({'column': 'Index', 'max': '1'}) exactly as the author's workbook does (<filter ...><max>1</max></filter>)."
+    },
+    {
+      "key": "rich-label-angle-brackets-dropped",
+      "severity": "workaround",
+      "summary": "A customized-label built from a literal '<' run plus a field run plus '> to goal' rendered as '<<field>>' on Cloud because both the literal and the generated field reference are wrapped in angle brackets.",
+      "workaround": "Drop the literal brackets and rely on the run order: {'field': 'Value to Goal'}, {'text': ' to goal'}."
+    }
+  ]
+}

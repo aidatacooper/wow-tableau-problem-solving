@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-12",
+  "source_workbook": {
+    "filename": "2021_06_09_WW23_Sales_Goal_Selection.twbx",
+    "bytes": 79128,
+    "sha256": "c5527a839084ca52a460cdaf17302c64ccbd7fef93cca18c0126e05b723121ee",
+    "url": null
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/TableauTemp/TEMP_15y4ojb1ek80451dcvfe90xwheay.hyper",
+      "file": "inputs/TEMP_15y4ojb1ek80451dcvfe90xwheay.hyper",
+      "bytes": 262144,
+      "sha256": "8cd18b8f9f4e44f1a28e9bfb393a4178fc8d386789e1ae4724461e6dd7ef68b1"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}
