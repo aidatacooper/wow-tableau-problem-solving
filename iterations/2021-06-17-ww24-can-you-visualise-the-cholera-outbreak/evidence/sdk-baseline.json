@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "cwtwb_version": "0.27.1",
+  "cwtwb_commit": "4cd2c61c1286a02932b5b42f47de344683d656a3",
+  "result": "workaround",
+  "scope": "Released-SDK baseline for the WW24 cholera-outbreak map.",
+  "supported": [
+    "add_parameter (pSelectedPump) plus add_calculated_field for DISTANCE / BUFFER / MAKEPOINT",
+    "{FIXED ...} LoD formulas and SUM(INT(...)) for the deaths-within-distance count",
+    "configure_chart(mark_type='Map', map_layer_mode='native', map_layers=[...]) for the 4-layer map",
+    "configure_chart(mark_type='Heatmap') for the density layer",
+    "configure_chart color + color_map for the Is Selected Pump? black/background palette",
+    "configure_worksheet_style(map_style={'map_style': 'normal', 'washout': 0, 'layers': {...}})",
+    "add_dashboard_action(action_type='parameter') emitting edit-parameter-action",
+    "add_dashboard_action(action_type='filter', field_mappings={'True': 'False'}) for the Unhighlight actions"
+  ],
+  "findings": [
+    {
+      "key": "heatmap-mark-needs-manifest-flag",
+      "severity": "workaround",
+      "summary": "A Heatmap (density) mark is gated behind Tableau's ``Heatmap`` document-format manifest entry. configure_chart(mark_type='Heatmap') writes the mark class but not the flag, so Tableau Desktop refuses the workbook with error d2e8da72 even though the XML is schema-valid.",
+      "workaround": "Call editor._ensure_manifest_entry('Heatmap') before configure_chart; the author's workbook carries the same manifest entry. A generic fix would map the mark class to its manifest flag in the builder's _reconcile_manifest_flags."
+    },
+    {
+      "key": "three-table-hyper-relationship-rejected",
+      "severity": "workaround",
+      "summary": "The author's datasource relates water_pumps, deaths_aggregate and deaths_individual with 1=1 relationship calculations. A multi-table Hyper relationship datasource returns Cloud error 403132 and renders blank.",
+      "workaround": "Materialise one flat (pump x individual death) Extract table in the builder, carrying the aggregated location's LocID/Deaths alongside; DISTANCE is defined per pair so the flat grain is equivalent."
+    },
+    {
+      "key": "tableau-distance-uses-wgs84-vincenty",
+      "severity": "info",
+      "summary": "Tableau's DISTANCE(...,'m') matches the WGS84 Vincenty inverse formula; the spherical law of cosines is one metre low on five of the eight pumps and disagrees with the author's published labels.",
+      "workaround": "The verifier implements the Vincenty inverse and asserts the exact integer labels from the article's screenshot."
+    }
+  ]
+}

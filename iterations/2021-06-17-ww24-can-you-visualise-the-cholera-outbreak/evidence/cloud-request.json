@@ -1,0 +1,21 @@
+{
+  "case_dir": "iterations/2021-06-17-ww24-can-you-visualise-the-cholera-outbreak",
+  "author_workbook": "dashboards/2021_06_16_WW24_Cholera_Outbreak_Map/2021_06_16_WW24_Cholera_Outbreak_Map.twbx",
+  "author_view": "2021_06_15_WW24_Cholera_Outbreak_Map",
+  "replica_view": "2021_06_15_WW24_Cholera_Outbreak_Map",
+  "states": [],
+  "data_views": [
+    {
+      "name": "avg-distance",
+      "author": "2021_06_15_WW24_Cholera_Outbreak_Map",
+      "replica": "Avg Distance to Pump",
+      "scope": "Default author dashboard and the replica Avg Distance bar chart; the REST CSV confirms the eight per-pump average distances."
+    },
+    {
+      "name": "deaths-within",
+      "author": "2021_06_15_WW24_Cholera_Outbreak_Map",
+      "replica": "Total Deaths within Avg Distance",
+      "scope": "Default author dashboard and the replica Total Deaths bar chart; the REST CSV confirms the eight per-pump counts."
+    }
+  ]
+}

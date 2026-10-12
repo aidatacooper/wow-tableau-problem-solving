@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-12",
+  "source_workbook": {
+    "filename": "2021_06_16_WW24_Cholera_Outbreak_Map.twbx",
+    "bytes": 31081,
+    "sha256": "dc315f36be43876c9fb997df580fee8feb5a2ae5c02e798b8a9b03e1c84e4262",
+    "url": null
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Datasources/water_pumps.hyper",
+      "file": "inputs/water_pumps.hyper",
+      "bytes": 65536,
+      "sha256": "8d73050fb9dc9b5a56ce94f819d3d15e8a99b83cdc43a1ca5041d5de3429afd7"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

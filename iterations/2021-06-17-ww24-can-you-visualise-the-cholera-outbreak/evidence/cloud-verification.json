@@ -1,0 +1,126 @@
+{
+  "case_id": "wow-2021-ww24-can-you-visualise-the-cholera-outbreak",
+  "captured_at": "2026-10-12T12:17:33.717381+00:00",
+  "source_hashes": {
+    "author": "dc315f36be43876c9fb997df580fee8feb5a2ae5c02e798b8a9b03e1c84e4262",
+    "replica": "b0c058530680bf306f25e2ac155898d32597dbdfa7e0535b686bfe05930657f4"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "97de01e8-726a-4620-940e-9b6412929dfa",
+      "name": "cwtwb-review-wow-2021-ww24-can-you-visualise-the-cholera-outbreak-author-dc315f36be43",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2989085",
+      "views": [
+        {
+          "name": "2021_06_15_WW24_Cholera_Outbreak_Map",
+          "id": "30d8eb1f-fa22-4993-8a8f-326e7a14b348"
+        },
+        {
+          "name": "Data",
+          "id": "ffea6399-cff9-4168-9576-0694f47e5982"
+        }
+      ]
+    },
+    "replica": {
+      "id": "a7e3d9c8-c5ed-41ad-a44e-35d0ed35e06f",
+      "name": "cwtwb-review-wow-2021-ww24-can-you-visualise-the-cholera-outbreak-replica-b0c058530680",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2989278",
+      "views": [
+        {
+          "name": "Avg Distance to Pump",
+          "id": "be556cb8-c02b-4d7b-bbcb-a61fa7b96060"
+        },
+        {
+          "name": "Total Deaths within Avg Distance",
+          "id": "c8fe8d42-918f-4d86-85d7-d687c6cd3aef"
+        },
+        {
+          "name": "Map",
+          "id": "f9ad8270-7a6b-48ae-be66-902757887c6a"
+        },
+        {
+          "name": "2021_06_15_WW24_Cholera_Outbreak_Map",
+          "id": "9d1c2e6a-fa1b-4e35-b131-e673b1c35dc5"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "30d8eb1f-fa22-4993-8a8f-326e7a14b348",
+          "name": "2021_06_15_WW24_Cholera_Outbreak_Map",
+          "path": "outputs/cloud-author.png",
+          "sha256": "07720b041e6d7f853db95e96e3a951ad9ed1e918f844a0d60372a17430e20dd9",
+          "size": [
+            2000,
+            1200
+          ]
+        },
+        "replica": {
+          "id": "9d1c2e6a-fa1b-4e35-b131-e673b1c35dc5",
+          "name": "2021_06_15_WW24_Cholera_Outbreak_Map",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "e1d08370b17f7bef42e187c7885e3e6e05b5fdb56e22beda94926ab161cb5d7b",
+          "size": [
+            1978,
+            1180
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "2021_06_15_WW24_Cholera_Outbreak_Map",
+          "view_id": "30d8eb1f-fa22-4993-8a8f-326e7a14b348",
+          "scope": "Default author dashboard and the replica Avg Distance bar chart; the REST CSV confirms the eight per-pump average distances.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-avg-distance.csv",
+          "sha256": "4f3cdedff138995bc8edd3d2795b0fd6eb2a7c9832ae40334a41f0e923efc1e1",
+          "bytes": 241
+        },
+        {
+          "role": "author",
+          "view": "2021_06_15_WW24_Cholera_Outbreak_Map",
+          "view_id": "30d8eb1f-fa22-4993-8a8f-326e7a14b348",
+          "scope": "Default author dashboard and the replica Total Deaths bar chart; the REST CSV confirms the eight per-pump counts.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-deaths-within.csv",
+          "sha256": "4f3cdedff138995bc8edd3d2795b0fd6eb2a7c9832ae40334a41f0e923efc1e1",
+          "bytes": 241
+        },
+        {
+          "role": "replica",
+          "view": "Avg Distance to Pump",
+          "view_id": "be556cb8-c02b-4d7b-bbcb-a61fa7b96060",
+          "scope": "Default author dashboard and the replica Avg Distance bar chart; the REST CSV confirms the eight per-pump average distances.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-avg-distance.csv",
+          "sha256": "2d239648d5b7c429c73a7b7b0917bd1177b5ae23d89cf653c4fa48772284f7b8",
+          "bytes": 186
+        },
+        {
+          "role": "replica",
+          "view": "Total Deaths within Avg Distance",
+          "view_id": "c8fe8d42-918f-4d86-85d7-d687c6cd3aef",
+          "scope": "Default author dashboard and the replica Total Deaths bar chart; the REST CSV confirms the eight per-pump counts.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-deaths-within.csv",
+          "sha256": "a70d320c3f42d3bcf1e3e90500285ba415f0c6fffec0461d8d2cae401738ad50",
+          "bytes": 199
+        }
+      ]
+    }
+  ],
+  "status": "captured_requires_independent_review"
+}

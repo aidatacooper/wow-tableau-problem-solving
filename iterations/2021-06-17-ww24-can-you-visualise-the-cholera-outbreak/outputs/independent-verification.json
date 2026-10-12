@@ -1,0 +1,57 @@
+{
+  "scope": "Locked-extract haversine oracle plus native map/bar/action contracts.",
+  "acceptance": [
+    "ww24-distance-model",
+    "ww24-bars",
+    "ww24-map-layers",
+    "ww24-selection",
+    "ww24-unhighlight"
+  ],
+  "facts": {
+    "extract_sha256": "8d73050fb9dc9b5a56ce94f819d3d15e8a99b83cdc43a1ca5041d5de3429afd7",
+    "pumps": 8,
+    "individual_deaths": 489,
+    "aggregated_locations": 250,
+    "avg_distance": {
+      "1": 118.9,
+      "2": 247.6,
+      "3": 296.7,
+      "4": 335.0,
+      "5": 259.8,
+      "6": 230.5,
+      "7": 421.2,
+      "8": 277.9
+    },
+    "avg_distance_label": {
+      "1": 119,
+      "2": 248,
+      "3": 297,
+      "4": 335,
+      "5": 260,
+      "6": 231,
+      "7": 421,
+      "8": 278
+    },
+    "deaths_within": {
+      "1": 259,
+      "2": 242,
+      "3": 252,
+      "4": 258,
+      "5": 228,
+      "6": 251,
+      "7": 256,
+      "8": 279
+    },
+    "pump_locations": {
+      "1": "Broad Street",
+      "2": "Carnaby Street",
+      "3": "Marlborough Mews",
+      "4": "Dean Street",
+      "5": "Rupert Street",
+      "6": "Bridle Street",
+      "7": "Fishborne Street",
+      "8": "Warwick Street"
+    }
+  },
+  "output_sha256": "b0c058530680bf306f25e2ac155898d32597dbdfa7e0535b686bfe05930657f4"
+}

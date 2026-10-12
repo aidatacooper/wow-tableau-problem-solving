@@ -24,7 +24,7 @@
 - [x] 10 2021-05-28 ww21 Favourite Songs — `2021_05_26_WW21_Favourite_Songs` — replicated/workaround（validate PASS / LOADED@4cd2c61；Cloud CSV 89 首过滤歌曲与 oracle 逐位一致）
 - [x] 11 2021-06-03 ww22 Unstructured — `WOWW22-Tableau` — replicated/workaround（validate PASS / LOADED@4cd2c61；Cloud CSV 分箱与 oracle 一致）
 - [x] 12 2021-06-11 ww23 Sales Goal Selection — `2021-06-11-ww23-sales-goal-selection-tool` — replicated/workaround（validate PASS / LOADED@4cd2c61；Cloud BAN CSV 与 oracle 逐位一致）
-- [ ] 13 2021-06-17 ww24 Cholera Outbreak — `2021_06_16_WW24_Cholera_Outbreak_Map`
+- [x] 13 2021-06-17 ww24 Cholera Outbreak — `2021-06-17-ww24-can-you-visualise-the-cholera-outbreak` — replicated/workaround（validate PASS / LOADED@4cd2c61；Vincenty 八泵均值与死亡数逐位一致）
 - [ ] 14 2021-06-25 ww25 Spine Charts — `14062017-WW24-SpineCharts`
 - [ ] 15 2021-07-01 ww26 Pareto Profitability — `2021_06_30_WW26_Pareto_Profitability`
 - [ ] 16 2021-07-08 ww27 Top/Bottom Performers — `2021_07_06_WW27_Top_Bottom_Performers`
@@ -54,6 +54,7 @@
 - [x] 2026-10-12 10 ww21 Favourite Songs — 已复现（validate PASS / LOADED@4cd2c61；Cloud 89 首过滤歌曲与 oracle 一致；83 tests OK）
 - [x] 2026-10-12 11 ww22 Unstructured — 已复现（validate PASS / LOADED@4cd2c61；Cloud 分箱与 oracle 一致；83 tests OK）
 - [x] 2026-10-12 12 ww23 Sales Goal Selection — 已复现（validate PASS / LOADED@4cd2c61；Cloud BAN CSV 与 oracle 逐位一致；83 tests OK）
+- [x] 2026-10-12 13 ww24 Cholera Outbreak — 已复现（validate PASS / LOADED@4cd2c61；Vincenty 八泵均值/死亡数与作者截图逐位一致；83 tests OK）
 
 ## 已验证的技术事实（可复用）
 
@@ -146,11 +147,20 @@
   `measure_values` 的 Bar pane 用 `color="Measure Names"` + `size="Measure Names"` 才能拿到 Measure Values 双 pill。
 - ww23：BAN 面板直接放 `label="Multiple Values"`（text encoding）即可，**不要**同时加
   `labels=["Measure Names"]`——加了之后 Cloud 整块渲染为空。
+- ww24：`Heatmap`（density）mark 受 Tableau 的 `Heatmap` document-format manifest
+  entry 门控。`configure_chart(mark_type="Heatmap")` 只写 mark class 不写 flag，
+  Desktop 会以 d2e8da72 拒收（XSD 仍然合法）。修法：builder 里先调
+  `editor._ensure_manifest_entry("Heatmap")`（这是公开方法，validate_iteration 不报边界违规）。
+- ww24：Tableau `DISTANCE(...,'m')` 用的是 **WGS84 Vincenty**，不是球面余弦；
+  球面余弦在 8 个泵里有 5 个会差 1 米，对不上作者截图。oracle 用 Vincenty。
+- ww24：`add_dashboard_action(action_type="parameter", source_sheets=[...])` 会报
+  "Worksheet lists are supported only for filter/highlight actions" → 参数动作只能
+  每张 sheet 写一条。
 
 ## 下一步
 
-1. 01–12 已完成并全部提交（ww20/ww21/ww22/ww23）。
-2. 13–17 由 successor agent 在本 worktree 接手。
+1. 01–13 已完成并全部提交（ww20/ww21/ww22/ww23/ww24）。
+2. 14–17 由 successor agent 在本 worktree 接手。
    **不要**在本 worktree 并行跑 Desktop，也不要重复解 10+，否则产物与 git 会互相覆盖。
 
 ## 阻塞

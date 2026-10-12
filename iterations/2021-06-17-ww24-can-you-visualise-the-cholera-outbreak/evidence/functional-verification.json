@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0.0",
+  "scope": "Cloud REST export of the replica Avg Distance and Total Deaths bar charts plus the author dashboard; the images and CSV confirm the eight per-pump distances and death counts.",
+  "browser_interaction_executed": false,
+  "state": {
+    "description": "Default state; pSelectedPump = 1 (Broad Street)."
+  },
+  "observed": {
+    "pumps": 8,
+    "individual_deaths": 489,
+    "aggregated_locations": 250,
+    "avg_distance_label": {
+      "1": 119, "2": 248, "3": 297, "4": 335,
+      "5": 260, "6": 231, "7": 421, "8": 278
+    },
+    "deaths_within": {
+      "1": 259, "2": 242, "3": 252, "4": 258,
+      "5": 228, "6": 251, "7": 256, "8": 279
+    },
+    "mismatched_rows": 0
+  },
+  "expected_from_oracle": {
+    "pumps": 8,
+    "individual_deaths": 489,
+    "aggregated_locations": 250,
+    "avg_distance_label": {
+      "1": 119, "2": 248, "3": 297, "4": 335,
+      "5": 260, "6": 231, "7": 421, "8": 278
+    },
+    "deaths_within": {
+      "1": 259, "2": 242, "3": 252, "4": 258,
+      "5": 228, "6": 251, "7": 256, "8": 279
+    }
+  },
+  "result": "pass"
+}

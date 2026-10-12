@@ -1,0 +1,106 @@
+schema_version: 1.1.0
+case_id: wow-2021-ww24-can-you-visualise-the-cholera-outbreak
+iteration_id: 2021-06-17-ww24-can-you-visualise-the-cholera-outbreak
+post: https://donnacoles.home.blog/2021/06/17/can-you-visualise-the-cholera-outbreak/
+legacy_case_ids: {}
+article_date: '2021-06-17'
+challenge_year: 2021
+challenge_week: 24
+challenge_date: '2021-06-15'
+date_evidence:
+  article_date: Article-local HTML 'Published:' calendar date, retained in evidence/article-date.json.
+  challenge: Official 2021 Week 24 article title.
+  challenge_date: Official WordPress REST date field retained in evidence/official-challenge-date.json.
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2021w24tab/
+    wordpress_post_id: 5465
+  article:
+    url: https://donnacoles.home.blog/2021/06/17/can-you-visualise-the-cholera-outbreak/
+    path: null
+    sha256: f0fcd243290ae06ec1eea03151d408845b6245da4da2b672c4ea44589f21f73d
+  workbook:
+    url: https://public.tableau.com/views/2021_06_16_WW24_Cholera_Outbreak_Map/2021_06_15_WW24_Cholera_Outbreak_Map
+    filename: 2021_06_16_WW24_Cholera_Outbreak_Map.twbx
+    sha256: dc315f36be43876c9fb997df580fee8feb5a2ae5c02e798b8a9b03e1c84e4262
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- evidence/article-date.json
+- evidence/build-provenance.json
+- evidence/cloud-request.json
+- evidence/cloud-verification.json
+- evidence/functional-verification.json
+- evidence/official-challenge-date.json
+- evidence/sdk-baseline.json
+- evidence/visual-review.md
+- inputs/source-lock.json
+notes:
+- DISTANCE(...,'m') uses the WGS84 Vincenty inverse; the verifier reproduces the
+  eight per-pump average distances and death counts from the locked extract.
+- The author's three-table 1=1 Hyper relationship returns Cloud 403132, so the
+  builder materialises one flat (pump x individual death) Extract.
+- The map is four native layers (density heatmap, selected-pump buffer, pumps,
+  aggregated deaths) with the normal map style at 0 washout.
+cwtwb:
+  tested_version: 0.27.1
+  tested_commit: 4cd2c61c
+  runs:
+  - version: 0.27.1
+    commit: 4cd2c61c
+    result: workaround
+    evidence: evidence/sdk-baseline.json
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: workaround
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/water_pumps.hyper
+acceptance:
+- id: ww24-distance-model
+  description: MAKEPOINT/DISTANCE drive Avg Distance as a per-pump {FIXED} LoD and
+    Number Deaths within Avg Distance as SUM(INT(distance <= avg)), matching the
+    article's eight averages and counts.
+  mode: automated
+- id: ww24-bars
+  description: The Avg Distance and Total Deaths bar charts put PumpID on Rows,
+    colour by Is Selected Pump? (black/background) and show the value labels.
+  mode: automated
+- id: ww24-map-layers
+  description: The map declares four native layers (density heatmap, pump buffer,
+    pumps, aggregated deaths) with the normal map style.
+  mode: automated
+- id: ww24-selection
+  description: The on-select parameter actions set pSelectedPump from PumpID, and
+    the {FIXED} selected-pump lat/lon/average drive BUFFER.
+  mode: automated
+- id: ww24-unhighlight
+  description: Three filter actions map True to False on the source sheets so the
+    click does not leave a selection highlight behind.
+  mode: automated
+remaining_work: []
+blocker: null
+workarounds:
+- A Heatmap (density) mark is gated behind Tableau's Heatmap document-format
+  manifest entry; configure_chart writes the mark class but not the flag, so
+  Desktop refuses the workbook. The builder calls
+  editor._ensure_manifest_entry('Heatmap').
+- The author's three-table 1=1 Hyper relationship datasource returns Cloud error
+  403132; the builder materialises one flat (pump x individual death) Extract.
+- The author's single all-sheets parameter action is written as one parameter
+  action per sheet because the released SDK's source_sheets list is
+  filter/highlight only.
+capability_gaps:
+- key: heatmap-mark-manifest-flag
+  summary: configure_chart(mark_type='Heatmap') does not add the gated Heatmap
+    document-format manifest entry, so Desktop rejects a schema-valid workbook
+    with error d2e8da72. The builder's _reconcile_manifest_flags should map the
+    Heatmap mark class (and any other gated mark) to its manifest flag.
+related_cwtwb_issues: []
