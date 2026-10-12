@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "scope": "Cloud REST export of the replica BAN worksheet in three comparison states; every row matches the locked-extract oracle exactly, including the equivalent-day date resolution.",
+  "browser_interaction_executed": false,
+  "state": {
+    "description": "Default state (pComparison=1 Same Day Last Year), plus pComparison=2 (Same Day Last Month) and pComparison=3 (Last Week)."
+  },
+  "observed": {
+    "default": {
+      "compare_date": "Tuesday, 19 May 2020",
+      "selected_date": "Tuesday, 18 May 2021",
+      "compared_date_sales": 1582,
+      "selected_date_sales": 1831,
+      "percent_difference": "15.7%"
+    },
+    "last_month": {
+      "compare_date": "Tuesday, 20 April 2021",
+      "selected_date": "Tuesday, 18 May 2021",
+      "compared_date_sales": 2033,
+      "selected_date_sales": 1831,
+      "percent_difference": "-10.0%"
+    },
+    "last_week": {
+      "compare_date": "Tuesday, 11 May 2021",
+      "selected_date": "Tuesday, 18 May 2021",
+      "compared_date_sales": 449,
+      "selected_date_sales": 1831,
+      "percent_difference": "307.3%"
+    },
+    "mismatched_rows": 0
+  },
+  "expected_from_oracle": {
+    "default": {
+      "compare_date": "2020-05-19",
+      "selected_date": "2021-05-18",
+      "compared_date_sales": 1582.008,
+      "selected_date_sales": 1830.508,
+      "percent_difference": 0.157036
+    },
+    "last_month": {
+      "compare_date": "2021-04-20",
+      "compared_date_sales": 2033.24,
+      "percent_difference": -0.099708
+    },
+    "last_week": {
+      "compare_date": "2021-05-11",
+      "compared_date_sales": 449.469,
+      "percent_difference": 3.072677
+    }
+  },
+  "result": "pass"
+}

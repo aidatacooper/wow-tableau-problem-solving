@@ -20,7 +20,7 @@
 - [x] 06 2021-04-23 ww16 Quick LoDs — `2021_04_21_WW16_Quick_LoDs` — replicated/pass（LOADED；Cloud CSV 与作者一致）
 - [x] 07 2021-04-29 ww17 Generation Population — `2021_04_28_WW17_Generation_Population` — replicated/pass（commit f590c8c；LOADED@0.27.1 pin；Cloud 证据已重采）
 - [x] 08 2021-05-13 ww19 Map Layers — `2021_05_12_WW19_Map_Layers` — replicated/workaround（commit 1dd8b26 + fe7b333；validate PASS / LOADED；Cloud 绑定 f47ea288）
-- [ ] 09 2021-05-20 ww20 Date Compare — `2021_05_19_WW20_Date_Compare`
+- [x] 09 2021-05-20 ww20 Date Compare — `2021_05_19_WW20_Date_Compare` — replicated/pass（validate PASS / LOADED@4cd2c61；Cloud 3 个 comparison state 的 BAN CSV 与 oracle 逐位一致）
 - [ ] 10 2021-05-28 ww21 Favourite Songs — `2021_05_26_WW21_Favourite_Songs`
 - [ ] 11 2021-06-03 ww22 Unstructured — `WOWW22-Tableau`
 - [ ] 12 2021-06-11 ww23 Sales Goal Selection — `2021_06_09_WW23_Sales_Goal_Selection`
@@ -50,6 +50,7 @@
 - [x] 2026-10-11 04 ww14 Market Basket — 已复现（validate PASS / LOADED / 83 tests OK）
 - [x] 2026-10-11 05 ww15 Google Analytics — 已复现（validate PASS / LOADED / 83 tests OK）
 - [x] 2026-10-11 06 ww16 Quick LoDs — 已复现（validate PASS / LOADED / 83 tests OK）
+- [x] 2026-10-12 09 ww20 Date Compare — 已复现（validate PASS / LOADED@4cd2c61；Cloud 3 状态 CSV 与 oracle 一致；83 tests OK）
 
 ## 已验证的技术事实（可复用）
 
@@ -94,12 +95,32 @@
   `_add_shelf_sort` 则要求 sort_field 必须在 row shelf 上。
 - **坑**：`build_and_check.py` 不要加 `PYTHONUTF8=1` 前缀——它内部用 `tasklist`（GBK 输出）
   并以 UTF-8 解码，会 `UnicodeDecodeError`；worktree 默认环境即可。
+- BAN 自定义色阶：`configure_worksheet_style(color_style={"field": ..., "colors": [...],
+  "center": 0.0, "min": -1.0, "max": 1.0, "num_steps": 2, "reverse": True})`
+  会生成 `custom-interpolated` + `color-palette custom=true`。**必须给 min/max**，否则
+  Cloud 会按数据域自动归一化，正值也会落回黑色；`reverse=True` 把正值放到 teal 端。
+- `configure_chart` 的 `label_runs` 支持 `{"param": "<参数名>"}` run（生成
+  `<[Parameters].[Parameter N]>`），与 `{"field": ...}` 混用可拼出
+  `(Same Day Last Year: Tuesday, 19 May 2020)` 这类参数化标签。
+- 日期字段做 label 时用 `EXACTDATE(Field)` 表达式，否则 registry 的
+  `default_view_expression` 会自动包成 `MONTH(...)`（同一月内显示为 1 个点）。
+- `configure_layered_chart` 的 Multiple Values pane：`mark_style` 里加
+  `mark-labels-mode=range` + `mark-labels-range-scope=table` +
+  `mark-labels-range-field=Measure Names` + `mark-labels-range-min=true`
+  才能只在「最低的那个 measure」上显示标签（作者用来把标签钉在 -500 点上）。
+  `color_map` 传 `{measure: hex}` 时走 `set_datasource_color_palette("Measure Names")`。
+- `build_and_check.py` 每次都会重新生成 workbook（UUID/时间戳变化）→ 产物 hash 变；
+  **门禁顺序固定为**：catalogue → validate → build_and_check → verify →
+  更新 build-provenance.artifact_sha256 → capture_case_cloud（最后绑定）→ unittest。
+  任何在 capture 之后再跑 build_and_check 都会使 Cloud 绑定失效。
+- `capture_case_cloud.py` 的 `states[].parameters` 可以传参数值（如 `pComparison: 2`），
+  同一 workbook 多状态导出 `cloud-{role}-{name}.png/csv`，用于验证参数分支。
 
 ## 下一步
 
-1. 01–08 已完成并全部提交（ww19 = 1dd8b26 + fe7b333）。
-2. 09–17 由并行的 successor agent `8e72787`「WoW batch 17 part3 (ww20-ww28)」在本 worktree 接手。
-   **不要**在本 worktree 并行跑 Desktop，也不要重复解 09+，否则产物与 git 会互相覆盖。
+1. 01–09 已完成并全部提交（ww20 待提交）。
+2. 10–17 由 successor agent 在本 worktree 接手。
+   **不要**在本 worktree 并行跑 Desktop，也不要重复解 10+，否则产物与 git 会互相覆盖。
 
 ## 阻塞
 

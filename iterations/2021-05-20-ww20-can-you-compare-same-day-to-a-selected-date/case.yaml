@@ -1,0 +1,100 @@
+schema_version: 1.1.0
+case_id: wow-2021-ww20-can-you-compare-same-day-to-a-selected-date
+iteration_id: 2021-05-20-ww20-can-you-compare-same-day-to-a-selected-date
+post: https://donnacoles.home.blog/2021/05/20/can-you-compare-same-day-to-a-selected-date/
+legacy_case_ids: {}
+article_date: '2021-05-20'
+challenge_year: 2021
+challenge_week: 20
+challenge_date: '2021-05-18'
+date_evidence:
+  article_date: Article-local HTML 'Published:' calendar date, retained in evidence/article-date.json.
+  challenge: Official 2021 Week 20 article title.
+  challenge_date: Official WordPress REST date field retained in evidence/official-challenge-date.json.
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2021w20tab/
+    wordpress_post_id: 5307
+  article:
+    url: https://donnacoles.home.blog/2021/05/20/can-you-compare-same-day-to-a-selected-date/
+    path: null
+    sha256: c105f819a51b2b72544bc8e0f83429bb8b4d53f9502fbe762d3190ab58801d21
+  workbook:
+    url: https://public.tableau.com/views/2021_05_19_WW20_Date_Compare/2021_05_19_WW20_Date_Compare
+    filename: 2021_05_19_WW20_Date_Compare.twbx
+    sha256: 164badfed289b2e27a6a789b43adabc06c74a3d562745f4743422220c812d12b
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- evidence/article-date.json
+- evidence/build-provenance.json
+- evidence/cloud-request.json
+- evidence/cloud-verification.json
+- evidence/functional-verification.json
+- evidence/official-challenge-date.json
+- evidence/sdk-baseline.json
+- evidence/visual-review.md
+- inputs/source-lock.json
+notes:
+- The equivalent-day logic is the article's own chain; the workbook uses no LoDs
+  and no table calculations, matching the challenge's constraint.
+- The BAN bar colour uses the author's 24-swatch custom diverging palette with
+  num-steps=2, reverse=true, min=-1 and max=1, which renders the positive
+  difference teal and the negative difference black.
+cwtwb:
+  tested_version: 0.27.1
+  tested_commit: 4cd2c61c
+  runs:
+  - version: 0.27.1
+    commit: 4cd2c61c
+    result: pass
+    evidence: evidence/sdk-baseline.json
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: pass
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/Orders (Sample - Superstore).hyper
+acceptance:
+- id: ww20-compare-date-logic
+  description: Compare Date resolves to the equivalent weekday for each of the
+    three comparison modes, including the leap-year and missing-5th-occurrence
+    fallbacks.
+  mode: automated
+- id: ww20-selected-compared-sales
+  description: Selected Date Sales and Compared Date Sales isolate the selected
+    and compared day's sales from the raw orders.
+  mode: automated
+- id: ww20-percent-difference
+  description: '% Difference is (SUM(Selected Date Sales) - SUM(Compared Date
+    Sales)) / SUM(Compared Date Sales) with the ▲/▼ custom format.'
+  mode: automated
+- id: ww20-ban
+  description: "The BAN is a MIN(1) bar on a fixed 0..1 axis coloured by %
+    Difference with the author's diverging palette, and labels the selected date,
+    its sales, the difference, the compared sales and (pComparison: Compare
+    Date)."
+  mode: automated
+- id: ww20-line-chart-dates-to-show
+  description: The Chart plots Sales by exact Order Date restricted to the window
+    between Compare Date and pSelectedDate, with Selected Date Sales, Compared
+    Date Sales and Minus 500 on a shared second axis and the value label on the
+    -500 points.
+  mode: automated
+- id: ww20-parameter-actions
+  description: Clicking the Chart sets pSelectedDate from the Order Date, the
+    Reset sheet sets it back to 18 May 2021, and a True→False filter action
+    suppresses the default selection highlight.
+  mode: automated
+remaining_work: []
+blocker: null
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []

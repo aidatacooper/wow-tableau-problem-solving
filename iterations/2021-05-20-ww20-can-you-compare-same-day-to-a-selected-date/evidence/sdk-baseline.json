@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "cwtwb_version": "0.27.1",
+  "cwtwb_commit": "4cd2c61c1286a02932b5b42f47de344683d656a3",
+  "result": "pass",
+  "scope": "Released-SDK baseline for the WW20 same-day-vs-selected-date case.",
+  "supported": [
+    "add_parameter with list domain + allowed_aliases for pComparison",
+    "add_calculated_field with DATEPART('weekday',...,'Sunday'), DATETRUNC('week',...,'<weekday>'), DATEADD, MONTH, YEAR, % and leap-year arithmetic",
+    "configure_chart label_runs + label_extra for the multi-line BAN label",
+    "configure_chart axis_fixed_range for the 0..1 BAN bar axis",
+    "configure_worksheet_style color_style with a custom interpolated palette (min/max/center/num_steps/reverse)",
+    "configure_layered_chart with a Multiple Values pane, measure_values, Measure Names palette and range-mode labels",
+    "add_dashboard_action(action_type='parameter') for both the chart click and the reset button",
+    "add_dashboard_action(action_type='filter', field_mappings={'True':'False'}) for the 'Don't highlight' action",
+    "paramctrl dashboard zones bound to the two parameters"
+  ],
+  "findings": []
+}

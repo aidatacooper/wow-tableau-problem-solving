@@ -1,0 +1,16 @@
+{
+  "challenge_year": 2021,
+  "challenge_week": 20,
+  "article_date": "2021-05-20",
+  "challenge_date": "2021-05-18",
+  "official_rest_url": "https://www.workout-wednesday.com/wp-json/wp/v2/posts/5307",
+  "response_excerpt": {
+    "id": 5307,
+    "date": "2021-05-18T15:57:20",
+    "link": "https://www.workout-wednesday.com/2021w20tab/",
+    "title": {
+      "rendered": "2021 Week 20 | Tableau: Can you compare Same Day to a Selected Date?"
+    }
+  },
+  "scope": "Official WordPress publication date, without inference from article/workbook names."
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-12",
+  "source_workbook": {
+    "filename": "2021_05_19_WW20_Date_Compare.twbx",
+    "bytes": 69671,
+    "sha256": "164badfed289b2e27a6a789b43adabc06c74a3d562745f4743422220c812d12b",
+    "url": null
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Datasources/Orders (Sample - Superstore).hyper",
+      "file": "inputs/Orders (Sample - Superstore).hyper",
+      "bytes": 196608,
+      "sha256": "2afd031e04c5e07e7c88f708388ee3f4b39a5dc7ff3ac5e71c30f539e696ee22"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

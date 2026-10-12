@@ -1,0 +1,29 @@
+{
+  "case_id": "wow-2021-ww20-can-you-compare-same-day-to-a-selected-date",
+  "sdk_commit": "4cd2c61c1286a02932b5b42f47de344683d656a3",
+  "sdk_version": "0.27.1",
+  "builder_sha256": "72c6525d988cd69cd2da3f5703d2760fb1cb23dc1b89653b8d7e33573ba2dcd4",
+  "builder_hash_scope": "UTF-8 source text with universal newlines normalized to LF",
+  "public_sdk_calls": [
+    "add_calculated_field",
+    "add_dashboard",
+    "add_dashboard_action",
+    "add_parameter",
+    "add_worksheet",
+    "configure_chart",
+    "configure_layered_chart",
+    "configure_worksheet_style",
+    "save",
+    "set_field_format",
+    "set_hyper_connection",
+    "set_window_state",
+    "set_worksheet_title"
+  ],
+  "result": "passed",
+  "initial_workbooks_available": 0,
+  "copied_cloud_evidence": false,
+  "source_workbook_used_by_builder": false,
+  "public_sdk_only": true,
+  "scope": "Copied only builder/verifier, metadata and locked extracted inputs. Built from TWBEditor empty, then independent full-domain raw-data/native-artifact verification.",
+  "artifact_sha256": "5881a6519c27725aa67bf63b6c4c829fecd59829a297ffbfe64547ab6c2f6803"
+}

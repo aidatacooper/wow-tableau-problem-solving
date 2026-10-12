@@ -1,0 +1,214 @@
+{
+  "case_id": "wow-2021-ww20-can-you-compare-same-day-to-a-selected-date",
+  "captured_at": "2026-10-12T09:16:07.276490+00:00",
+  "source_hashes": {
+    "author": "164badfed289b2e27a6a789b43adabc06c74a3d562745f4743422220c812d12b",
+    "replica": "5881a6519c27725aa67bf63b6c4c829fecd59829a297ffbfe64547ab6c2f6803"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "0a08dd9f-23d9-4a68-81bf-ed1caa3028f0",
+      "name": "cwtwb-review-wow-2021-ww20-can-you-compare-same-day-to-a-selected-date-author-164badfed289",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2988167",
+      "views": [
+        {
+          "name": "2021_05_19_WW20_Date_Compare",
+          "id": "7303ba3c-8c6a-4c90-b430-1eda73b863c2"
+        }
+      ]
+    },
+    "replica": {
+      "id": "b48cc96c-fa25-4671-bbd4-e314617f2d94",
+      "name": "cwtwb-review-wow-2021-ww20-can-you-compare-same-day-to-a-selected-date-replica-5881a6519c27",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2988257",
+      "views": [
+        {
+          "name": "BAN",
+          "id": "2b773a74-0b73-418a-a5bd-d6fd295a8f9e"
+        },
+        {
+          "name": "Chart",
+          "id": "d61dcf3d-dbe6-4d9d-ae4b-c4cfcb04c097"
+        },
+        {
+          "name": "Reset",
+          "id": "6d1bcf7a-f32a-4fc0-b848-cd2365f86766"
+        },
+        {
+          "name": "2021_05_19_WW20_Date_Compare",
+          "id": "d20b5654-65d0-4cc9-9ebb-79bcd325b097"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "7303ba3c-8c6a-4c90-b430-1eda73b863c2",
+          "name": "2021_05_19_WW20_Date_Compare",
+          "path": "outputs/cloud-author.png",
+          "sha256": "7573978a3f780f4a325ff774453977b07a4e8e5df96ae6745d8725519cde92c6",
+          "size": [
+            1000,
+            1200
+          ]
+        },
+        "replica": {
+          "id": "d20b5654-65d0-4cc9-9ebb-79bcd325b097",
+          "name": "2021_05_19_WW20_Date_Compare",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "b2c10a343384ac508d0533723610b08b20ec01d45c0dc53700acbb715dae8904",
+          "size": [
+            1000,
+            1200
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "2021_05_19_WW20_Date_Compare",
+          "view_id": "7303ba3c-8c6a-4c90-b430-1eda73b863c2",
+          "scope": "Default author dashboard and the replica BAN worksheet; the REST CSV confirms the selected/compared day sales and the percent difference.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-ban.csv",
+          "sha256": "967f34604606d2528c7bf9c249db112b3db826723d6249da3e33ed9c59178169",
+          "bytes": 193
+        },
+        {
+          "role": "replica",
+          "view": "BAN",
+          "view_id": "2b773a74-0b73-418a-a5bd-d6fd295a8f9e",
+          "scope": "Default author dashboard and the replica BAN worksheet; the REST CSV confirms the selected/compared day sales and the percent difference.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-ban.csv",
+          "sha256": "a736a36784c86a4f5564b5266cb082e6a12cb6f73b49d6594409ca705a23c99b",
+          "bytes": 162
+        }
+      ]
+    },
+    {
+      "name": "last-month",
+      "parameters": {
+        "pComparison": 2
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "7303ba3c-8c6a-4c90-b430-1eda73b863c2",
+          "name": "2021_05_19_WW20_Date_Compare",
+          "path": "outputs/cloud-author-last-month.png",
+          "sha256": "aa45de41de307540ca82a424ac241b18435fff9c3c39e49378a1c8ec2b4a536b",
+          "size": [
+            1000,
+            1200
+          ]
+        },
+        "replica": {
+          "id": "d20b5654-65d0-4cc9-9ebb-79bcd325b097",
+          "name": "2021_05_19_WW20_Date_Compare",
+          "path": "outputs/cloud-replica-last-month.png",
+          "sha256": "aa0d4b83cba036377de6785842ef2f6f5055c85d58a6660e789c0de0336a6de3",
+          "size": [
+            1000,
+            1200
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "2021_05_19_WW20_Date_Compare",
+          "view_id": "7303ba3c-8c6a-4c90-b430-1eda73b863c2",
+          "scope": "Default author dashboard and the replica BAN worksheet; the REST CSV confirms the selected/compared day sales and the percent difference.",
+          "parameters": {
+            "pComparison": 2
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-ban-last-month.csv",
+          "sha256": "ffc5c5cbd72669c5aed05e2af1e5e441690e9a0ee5cb272187294a55ee211541",
+          "bytes": 196
+        },
+        {
+          "role": "replica",
+          "view": "BAN",
+          "view_id": "2b773a74-0b73-418a-a5bd-d6fd295a8f9e",
+          "scope": "Default author dashboard and the replica BAN worksheet; the REST CSV confirms the selected/compared day sales and the percent difference.",
+          "parameters": {
+            "pComparison": 2
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-ban-last-month.csv",
+          "sha256": "0453f376ac9818aaed09f4c2825fa5212362461ea1d7744065644f0a2484ca65",
+          "bytes": 164
+        }
+      ]
+    },
+    {
+      "name": "last-week",
+      "parameters": {
+        "pComparison": 3
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "7303ba3c-8c6a-4c90-b430-1eda73b863c2",
+          "name": "2021_05_19_WW20_Date_Compare",
+          "path": "outputs/cloud-author-last-week.png",
+          "sha256": "dbaa474dca16ede41fe4dc16d5b8f9e94c34bca3e4bc6f453f8ab4577aa29392",
+          "size": [
+            1000,
+            1200
+          ]
+        },
+        "replica": {
+          "id": "d20b5654-65d0-4cc9-9ebb-79bcd325b097",
+          "name": "2021_05_19_WW20_Date_Compare",
+          "path": "outputs/cloud-replica-last-week.png",
+          "sha256": "92b96b18487cf1e9fcb97e340589ec701f1715c62895ba8f832151a2ea9e5ad4",
+          "size": [
+            1000,
+            1200
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "2021_05_19_WW20_Date_Compare",
+          "view_id": "7303ba3c-8c6a-4c90-b430-1eda73b863c2",
+          "scope": "Default author dashboard and the replica BAN worksheet; the REST CSV confirms the selected/compared day sales and the percent difference.",
+          "parameters": {
+            "pComparison": 3
+          },
+          "filters": {},
+          "path": "outputs/cloud-author-ban-last-week.csv",
+          "sha256": "2ed31790080219d20fcba26f0ff09753fb5938362aeb108aa270eafee353e148",
+          "bytes": 181
+        },
+        {
+          "role": "replica",
+          "view": "BAN",
+          "view_id": "2b773a74-0b73-418a-a5bd-d6fd295a8f9e",
+          "scope": "Default author dashboard and the replica BAN worksheet; the REST CSV confirms the selected/compared day sales and the percent difference.",
+          "parameters": {
+            "pComparison": 3
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-ban-last-week.csv",
+          "sha256": "95e1e3ba72ca99f48d5f090a577d633f6a671ca40cd4460cd8b214c78c6d352b",
+          "bytes": 159
+        }
+      ]
+    }
+  ],
+  "status": "captured_requires_independent_review"
+}

@@ -1,0 +1,24 @@
+{
+  "case_dir": "iterations/2021-05-20-ww20-can-you-compare-same-day-to-a-selected-date",
+  "author_workbook": "dashboards/2021_05_19_WW20_Date_Compare/2021_05_19_WW20_Date_Compare.twbx",
+  "author_view": "2021_05_19_WW20_Date_Compare",
+  "replica_view": "2021_05_19_WW20_Date_Compare",
+  "states": [
+    {
+      "name": "last-month",
+      "parameters": {"pComparison": 2}
+    },
+    {
+      "name": "last-week",
+      "parameters": {"pComparison": 3}
+    }
+  ],
+  "data_views": [
+    {
+      "name": "ban",
+      "author": "2021_05_19_WW20_Date_Compare",
+      "replica": "BAN",
+      "scope": "Default author dashboard and the replica BAN worksheet; the REST CSV confirms the selected/compared day sales and the percent difference."
+    }
+  ]
+}

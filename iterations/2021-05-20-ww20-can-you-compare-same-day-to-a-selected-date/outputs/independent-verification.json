@@ -1,0 +1,51 @@
+{
+  "scope": "Locked-extract oracle plus native compare-date workbook contracts.",
+  "acceptance": [
+    "ww20-compare-date-logic",
+    "ww20-selected-compared-sales",
+    "ww20-percent-difference",
+    "ww20-ban",
+    "ww20-line-chart-dates-to-show",
+    "ww20-parameter-actions"
+  ],
+  "facts": {
+    "extract_sha256": "2afd031e04c5e07e7c88f708388ee3f4b39a5dc7ff3ac5e71c30f539e696ee22",
+    "rows": 9994,
+    "distinct_dates": 1236,
+    "default_selected": "2021-05-18",
+    "default_sales": {
+      "selected": 1830.508,
+      "last_year": 1582.008,
+      "last_month": 2033.24,
+      "last_week": 449.469
+    },
+    "logic": {
+      "2021-05-18": {
+        "last_year": "2020-05-19",
+        "last_month": "2021-04-20",
+        "last_week": "2021-05-11"
+      },
+      "2021-01-15": {
+        "last_year": "2020-01-17",
+        "last_month": "2020-12-18",
+        "last_week": "2021-01-08"
+      },
+      "2020-03-31": {
+        "last_year": "2019-04-02",
+        "last_month": "2020-02-25",
+        "last_week": "2020-03-24"
+      },
+      "2020-02-29": {
+        "last_year": "2019-03-01",
+        "last_month": "2020-01-25",
+        "last_week": "2020-02-22"
+      },
+      "2019-12-31": {
+        "last_year": "2019-01-01",
+        "last_month": "2019-11-26",
+        "last_week": "2019-12-24"
+      }
+    }
+  },
+  "output_sha256": "5881a6519c27725aa67bf63b6c4c829fecd59829a297ffbfe64547ab6c2f6803"
+}

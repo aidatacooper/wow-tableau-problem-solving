@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "generated_from": "iterations/*/case.yaml",
-  "active_case_count": 102,
+  "active_case_count": 103,
   "legacy_case_ids": {
     "donna-2019-07-18-63877b35d19a": "wow-2019-ww29-high-orders",
     "donna-2019-07-25-59a0a144b25b": "wow-2019-ww30-navigation-kpi",
@@ -5766,6 +5766,65 @@
         "The hover readout uses a Selected City set and an edit-group-action; the text is rendered on a dedicated sheet because the custom-label resolver cannot traverse the set calculation."
       ],
       "metadata": "iterations/2021-05-13-ww19-map-layers/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.27.1"
+    },
+    {
+      "case_id": "wow-2021-ww20-can-you-compare-same-day-to-a-selected-date",
+      "legacy_case_ids": {},
+      "iteration_id": "2021-05-20-ww20-can-you-compare-same-day-to-a-selected-date",
+      "article_date": "2021-05-20",
+      "challenge_year": 2021,
+      "challenge_week": 20,
+      "challenge_date": "2021-05-18",
+      "date_evidence": {
+        "article_date": "Article-local HTML 'Published:' calendar date, retained in evidence/article-date.json.",
+        "challenge": "Official 2021 Week 20 article title.",
+        "challenge_date": "Official WordPress REST date field retained in evidence/official-challenge-date.json."
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2021w20tab/",
+          "wordpress_post_id": 5307
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2021/05/20/can-you-compare-same-day-to-a-selected-date/",
+          "path": null,
+          "sha256": "c105f819a51b2b72544bc8e0f83429bb8b4d53f9502fbe762d3190ab58801d21"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2021_05_19_WW20_Date_Compare/2021_05_19_WW20_Date_Compare",
+          "filename": "2021_05_19_WW20_Date_Compare.twbx",
+          "sha256": "164badfed289b2e27a6a789b43adabc06c74a3d562745f4743422220c812d12b"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "pass",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "evidence/article-date.json",
+        "evidence/build-provenance.json",
+        "evidence/cloud-request.json",
+        "evidence/cloud-verification.json",
+        "evidence/functional-verification.json",
+        "evidence/official-challenge-date.json",
+        "evidence/sdk-baseline.json",
+        "evidence/visual-review.md",
+        "inputs/source-lock.json"
+      ],
+      "notes": [
+        "The equivalent-day logic is the article's own chain; the workbook uses no LoDs and no table calculations, matching the challenge's constraint.",
+        "The BAN bar colour uses the author's 24-swatch custom diverging palette with num-steps=2, reverse=true, min=-1 and max=1, which renders the positive difference teal and the negative difference black."
+      ],
+      "metadata": "iterations/2021-05-20-ww20-can-you-compare-same-day-to-a-selected-date/case.yaml",
       "metadata_contract": "1.1.0",
       "tested_sdk_version": "0.27.1"
     },
