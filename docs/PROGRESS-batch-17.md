@@ -103,11 +103,16 @@
 
 ## 阻塞
 
-- 无
+- 无（但注意：`8e72787` 正在同一 worktree 解 09+，其未完成的 case09 会让
+  `case_catalogue.py` / `validate_iteration.py` / `python -m unittest discover -s tests`
+  报 catalogue 不一致。这是并行 agent 的中间态，不是回归；不要为此重建已完成 case 的产物。）
 
 ## 外部状态
 
 - 分支：`feat/wow-batch-2021-part2`（worktree: `C:/Users/imgwho/.paseo/worktrees/209a8v60/feat-wow-batch-2021-part2`）
 - 已开 PR：无
-- cwtwb pin：`86119c1`（editable 指向 4cd2c61，同源）
-- Cloud 证据是否绑定：ww11 已绑定（replica hash 与提交产物一致）
+- cwtwb pin：`4cd2c61`（`C:/Users/imgwho/Desktop/project/.sdk-pins/cwtwb-4cd2c61/src`，0.27.1）
+- Cloud 证据是否绑定：ww11–ww19 均已绑定（replica hash = 提交产物 hash）
+- **并行警告**：同一 worktree 有多个 agent（f60ae67 part2 / 8e72787 part3）。
+  Desktop 是独占资源，不要与 part3 同时跑 `build_and_check.py` / `verify_corpus.py`。
+  每次 `git add` 只加自己负责的 case 路径，不要 `git add -A`。
