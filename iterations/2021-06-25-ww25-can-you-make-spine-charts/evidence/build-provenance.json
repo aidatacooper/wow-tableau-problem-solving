@@ -1,0 +1,30 @@
+{
+  "case_id": "wow-2021-ww25-can-you-make-spine-charts",
+  "sdk_commit": "4cd2c61c1286a02932b5b42f47de344683d656a3",
+  "sdk_version": "0.27.1",
+  "builder_sha256": "3063cdd76a638fd7d544011d8e2e005d5fc8bd0b47940f23ec9e5fb1570fb2ec",
+  "builder_hash_scope": "UTF-8 source text with universal newlines normalized to LF",
+  "public_sdk_calls": [
+    "add_calculated_field",
+    "add_dashboard",
+    "add_parameter",
+    "add_reference_band",
+    "add_reference_line",
+    "add_worksheet",
+    "configure_layered_chart",
+    "configure_reference_line_style",
+    "configure_worksheet_style",
+    "save",
+    "set_field_format",
+    "set_hyper_connection",
+    "set_window_state",
+    "set_worksheet_title"
+  ],
+  "result": "passed",
+  "initial_workbooks_available": 0,
+  "copied_cloud_evidence": false,
+  "source_workbook_used_by_builder": false,
+  "public_sdk_only": true,
+  "scope": "Copied only builder/verifier, metadata and locked extracted inputs. Built from TWBEditor empty, then independent full-domain raw-data/native-artifact verification.",
+  "artifact_sha256": "0511a00f2c119f65c04ba91c143b28af47a2b15246ccf52edeab9e3a43dc91f9"
+}

@@ -1,0 +1,15 @@
+{
+  "case_dir": "iterations/2021-06-25-ww25-can-you-make-spine-charts",
+  "author_workbook": "dashboards/2021_06_23_WW25_Spine_Chart/2021_06_23_WW25_Spine_Chart.twbx",
+  "author_view": "2021_06_23_WW25_Spine_Chart",
+  "replica_view": "2021_06_23_WW25_Spine_Chart",
+  "states": [],
+  "data_views": [
+    {
+      "name": "viz",
+      "author": "2021_06_23_WW25_Spine_Chart",
+      "replica": "Viz",
+      "scope": "Default author dashboard and the replica Viz worksheet; the REST CSV confirms the selected-university average, the overall average and the delta."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0.0",
+  "cwtwb_version": "0.27.1",
+  "cwtwb_commit": "4cd2c61c1286a02932b5b42f47de344683d656a3",
+  "result": "workaround",
+  "scope": "Released-SDK baseline for the WW25 spine chart.",
+  "supported": [
+    "add_parameter (pUniversity) with a list domain",
+    "add_calculated_field for the selected/overall/quartile calculations",
+    "configure_layered_chart(axis_shelf='columns', fold_axes=False) with discrete row pills and a quantitative column axis",
+    "add_reference_line(formula='average') and add_reference_band(lower_field/upper_field)",
+    "configure_reference_line_style and the refband fill-colour style rule",
+    "configure_worksheet_style header/label/table formatting"
+  ],
+  "findings": [
+    {
+      "key": "percentile-not-in-aggregation-map",
+      "severity": "workaround",
+      "summary": "PERCENTILE([% Agree],0.25) is not in the SDK's aggregation derivation map, so a field whose formula is a bare PERCENTILE(...) is registered as an unknown dimension and the pane renders empty (1586x32).",
+      "workaround": "Pass table_calc='Rows' (or {'ordering_type': 'Table'}) when adding the quartile fields so they resolve as proper measures. A generic fix would add PERCENTILE to _DERIVATION_MAP / _AGGREGATE_FUNCTION_RE."
+    }
+  ]
+}

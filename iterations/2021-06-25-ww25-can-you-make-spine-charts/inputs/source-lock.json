@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-12",
+  "source_workbook": {
+    "filename": "2021_06_23_WW25_Spine_Chart.twbx",
+    "bytes": 62333,
+    "sha256": "072fd00d005290605ca98c0f0a634e450832fc7c3308c7c62ff7b50f5301130f",
+    "url": null
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/TableauTemp/TEMP_11t94k216ehodl0zrdp701x51e14.hyper",
+      "file": "inputs/TEMP_11t94k216ehodl0zrdp701x51e14.hyper",
+      "bytes": 131072,
+      "sha256": "8100add9da763d5e2823be226d5f39b7963c98eda2556e18893669ede0979c4d"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

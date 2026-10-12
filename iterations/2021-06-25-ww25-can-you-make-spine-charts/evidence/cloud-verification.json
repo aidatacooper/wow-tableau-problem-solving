@@ -1,0 +1,96 @@
+{
+  "case_id": "wow-2021-ww25-can-you-make-spine-charts",
+  "captured_at": "2026-10-12T13:05:40.662248+00:00",
+  "source_hashes": {
+    "author": "072fd00d005290605ca98c0f0a634e450832fc7c3308c7c62ff7b50f5301130f",
+    "replica": "0511a00f2c119f65c04ba91c143b28af47a2b15246ccf52edeab9e3a43dc91f9"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "894adbbb-9115-404f-ba2a-9a2c7c5a85f0",
+      "name": "cwtwb-review-wow-2021-ww25-can-you-make-spine-charts-author-072fd00d0052",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2989340",
+      "views": [
+        {
+          "name": "2021_06_23_WW25_Spine_Chart",
+          "id": "423cd6f7-bb76-44fd-809a-fa549e2d64e3"
+        }
+      ]
+    },
+    "replica": {
+      "id": "9186b7f6-8618-4b3b-8bd1-9d7abc4f6174",
+      "name": "cwtwb-review-wow-2021-ww25-can-you-make-spine-charts-replica-0511a00f2c11",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2989533",
+      "views": [
+        {
+          "name": "Viz",
+          "id": "2bf67d23-1f65-4ee3-b3cd-e938429f17d2"
+        },
+        {
+          "name": "Legend",
+          "id": "71fbb6c6-a5d0-4156-97ae-616f4d93dfa1"
+        },
+        {
+          "name": "2021_06_23_WW25_Spine_Chart",
+          "id": "cf0f0b5f-5f22-43ae-bb63-ad7288906882"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "423cd6f7-bb76-44fd-809a-fa549e2d64e3",
+          "name": "2021_06_23_WW25_Spine_Chart",
+          "path": "outputs/cloud-author.png",
+          "sha256": "70951bd111e4acb6aebac3035704ce61617b88ac4d047215b5f3b519f73c3aea",
+          "size": [
+            2732,
+            1800
+          ]
+        },
+        "replica": {
+          "id": "cf0f0b5f-5f22-43ae-bb63-ad7288906882",
+          "name": "2021_06_23_WW25_Spine_Chart",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "13e74282328bd294db78259984333c481084b59b7e17e96a2f925b374486f4ca",
+          "size": [
+            2732,
+            1800
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "2021_06_23_WW25_Spine_Chart",
+          "view_id": "423cd6f7-bb76-44fd-809a-fa549e2d64e3",
+          "scope": "Default author dashboard and the replica Viz worksheet; the REST CSV confirms the selected-university average, the overall average and the delta.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-viz.csv",
+          "sha256": "47d7786044c8ab4628950909680e898742fa4f5f48ea01ace692409e9464a465",
+          "bytes": 156
+        },
+        {
+          "role": "replica",
+          "view": "Viz",
+          "view_id": "2bf67d23-1f65-4ee3-b3cd-e938429f17d2",
+          "scope": "Default author dashboard and the replica Viz worksheet; the REST CSV confirms the selected-university average, the overall average and the delta.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-viz.csv",
+          "sha256": "9ce67a0fcc50206bea941226e8710aa4cbe0e45f2b1abbab261bbecb0c54fc28",
+          "bytes": 3971
+        }
+      ]
+    }
+  ],
+  "status": "captured_requires_independent_review"
+}

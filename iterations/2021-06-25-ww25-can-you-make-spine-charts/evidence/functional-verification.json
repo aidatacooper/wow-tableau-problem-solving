@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0.0",
+  "scope": "Cloud REST export of the replica Viz worksheet plus the author dashboard; the CSV confirms the selected-university average, the overall average and the delta per question.",
+  "browser_interaction_executed": false,
+  "state": {
+    "description": "Default state; pUniversity = The University of Liverpool."
+  },
+  "observed": {
+    "export_rows": 10095,
+    "questions": 27,
+    "Q01": {
+      "university": 0.8983,
+      "overall": 0.8913,
+      "min": 0.6,
+      "max": 1.0,
+      "lower_quartile": 0.8613,
+      "upper_quartile": 0.9252
+    },
+    "Q02": {
+      "university": 0.8243,
+      "overall": 0.8473
+    },
+    "legend_avg": 0.7476,
+    "mismatched_rows": 0
+  },
+  "expected_from_oracle": {
+    "rows": 10095,
+    "questions": 27,
+    "Q01_university": 0.8983,
+    "Q01_overall": 0.8913,
+    "Q02_university": 0.8243,
+    "Q02_overall": 0.8473,
+    "legend_avg": 0.7476
+  },
+  "result": "pass"
+}

@@ -25,7 +25,7 @@
 - [x] 11 2021-06-03 ww22 Unstructured — `WOWW22-Tableau` — replicated/workaround（validate PASS / LOADED@4cd2c61；Cloud CSV 分箱与 oracle 一致）
 - [x] 12 2021-06-11 ww23 Sales Goal Selection — `2021-06-11-ww23-sales-goal-selection-tool` — replicated/workaround（validate PASS / LOADED@4cd2c61；Cloud BAN CSV 与 oracle 逐位一致）
 - [x] 13 2021-06-17 ww24 Cholera Outbreak — `2021-06-17-ww24-can-you-visualise-the-cholera-outbreak` — replicated/workaround（validate PASS / LOADED@4cd2c61；Vincenty 八泵均值与死亡数逐位一致）
-- [ ] 14 2021-06-25 ww25 Spine Charts — `14062017-WW24-SpineCharts`
+- [x] 14 2021-06-25 ww25 Spine Charts — `2021-06-25-ww25-can-you-make-spine-charts` — replicated/workaround（validate PASS / LOADED@4cd2c61；Cloud 27 行与 oracle 逐位一致）
 - [ ] 15 2021-07-01 ww26 Pareto Profitability — `2021_06_30_WW26_Pareto_Profitability`
 - [ ] 16 2021-07-08 ww27 Top/Bottom Performers — `2021_07_06_WW27_Top_Bottom_Performers`
 - [ ] 17 2021-07-15 ww28 FireSize Map — `2021_07_14_WW28_FireSize_Map`
@@ -55,6 +55,7 @@
 - [x] 2026-10-12 11 ww22 Unstructured — 已复现（validate PASS / LOADED@4cd2c61；Cloud 分箱与 oracle 一致；83 tests OK）
 - [x] 2026-10-12 12 ww23 Sales Goal Selection — 已复现（validate PASS / LOADED@4cd2c61；Cloud BAN CSV 与 oracle 逐位一致；83 tests OK）
 - [x] 2026-10-12 13 ww24 Cholera Outbreak — 已复现（validate PASS / LOADED@4cd2c61；Vincenty 八泵均值/死亡数与作者截图逐位一致；83 tests OK）
+- [x] 2026-10-12 14 ww25 Spine Charts — 已复现（validate PASS / LOADED@4cd2c61；Cloud 27 行均值/四分位与 oracle 逐位一致；83 tests OK）
 
 ## 已验证的技术事实（可复用）
 
@@ -156,11 +157,18 @@
 - ww24：`add_dashboard_action(action_type="parameter", source_sheets=[...])` 会报
   "Worksheet lists are supported only for filter/highlight actions" → 参数动作只能
   每张 sheet 写一条。
+- ww25 **坑**：`PERCENTILE(x,0.25)` 不在 SDK 的 `_DERIVATION_MAP`/`_AGGREGATE_FUNCTION_RE` 里，
+  裸写会被注册成 unknown dimension，绑定它的 worksheet 在 Cloud 上渲染为空（1586x32）。
+  修法：`add_calculated_field(..., table_calc="Rows")`（或 `{"ordering_type": "Table"}`）。
+- ww25：离散 measure 行 pill 需要 `field_type="ordinal"`，连续轴 pill 用
+  `field_type="quantitative"`；同一个 measure 要建两份（作者也是两个 column-instance）。
+- ww25：`add_reference_band` 写的是 `<style-rule element="refband">` + `fill-color`
+  （不是 refline 的 `fill-below`）。
 
 ## 下一步
 
-1. 01–13 已完成并全部提交（ww20/ww21/ww22/ww23/ww24）。
-2. 14–17 由 successor agent 在本 worktree 接手。
+1. 01–14 已完成并全部提交（ww20/ww21/ww22/ww23/ww24/ww25）。
+2. 15–17 由 successor agent 在本 worktree 接手。
    **不要**在本 worktree 并行跑 Desktop，也不要重复解 10+，否则产物与 git 会互相覆盖。
 
 ## 阻塞

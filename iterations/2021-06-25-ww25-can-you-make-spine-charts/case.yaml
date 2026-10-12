@@ -1,0 +1,104 @@
+schema_version: 1.1.0
+case_id: wow-2021-ww25-can-you-make-spine-charts
+iteration_id: 2021-06-25-ww25-can-you-make-spine-charts
+post: https://donnacoles.home.blog/2021/06/25/can-you-make-spine-charts/
+legacy_case_ids: {}
+article_date: '2021-06-25'
+challenge_year: 2021
+challenge_week: 25
+challenge_date: '2021-06-23'
+date_evidence:
+  article_date: Article-local HTML 'Published:' calendar date, retained in evidence/article-date.json.
+  challenge: Official 2021 Week 25 article title.
+  challenge_date: Official WordPress REST date field retained in evidence/official-challenge-date.json.
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2021w25tab/
+    wordpress_post_id: 5522
+  article:
+    url: https://donnacoles.home.blog/2021/06/25/can-you-make-spine-charts/
+    path: null
+    sha256: 00f4d932de4da2fa0a4e24799dd8dbe257ed4dd9a50358fb8b3341db32d6eca5
+  workbook:
+    url: https://public.tableau.com/views/2021_06_23_WW25_Spine_Chart/2021_06_23_WW25_Spine_Chart
+    filename: 2021_06_23_WW25_Spine_Chart.twbx
+    sha256: 072fd00d005290605ca98c0f0a634e450832fc7c3308c7c62ff7b50f5301130f
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- evidence/article-date.json
+- evidence/build-provenance.json
+- evidence/cloud-request.json
+- evidence/cloud-verification.json
+- evidence/functional-verification.json
+- evidence/official-challenge-date.json
+- evidence/sdk-baseline.json
+- evidence/visual-review.md
+- inputs/source-lock.json
+notes:
+- The article links to two workbooks; the 2021 WW25 rebuild is
+  2021_06_23_WW25_Spine_Chart, while 14062017-WW24-SpineCharts is the 2017
+  original it references separately.
+- pUniversity drives the selected university; University Avg / Sample Size /
+  Overall Avg / Delta / Colour implement the article's formulas.
+- The Viz sheet uses discrete row pills for each measure plus a quantitative
+  University Avg axis, with the average line and the min-max and quartile bands.
+cwtwb:
+  tested_version: 0.27.1
+  tested_commit: 4cd2c61c
+  runs:
+  - version: 0.27.1
+    commit: 4cd2c61c
+    result: workaround
+    evidence: evidence/sdk-baseline.json
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: workaround
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/TEMP_11t94k216ehodl0zrdp701x51e14.hyper
+acceptance:
+- id: ww25-parameter-selection
+  description: pUniversity is a list parameter defaulting to The University of
+    Liverpool, and University Avg / Overall Avg / Delta / Colour match the
+    article's formulas.
+  mode: automated
+- id: ww25-spine-values
+  description: The selected-university average, overall average, min/max and
+    quartiles match the independently recomputed extract values and the author's
+    published screenshot.
+  mode: automated
+- id: ww25-reference-lines
+  description: The Viz pane carries the black average line plus the per-cell
+    min-max and per-pane quartile reference bands.
+  mode: automated
+- id: ww25-legend
+  description: The Legend sheet uses the fixed Middlesex University average with
+    labelled Overall Min / Overall Avg / Overall Max bands.
+  mode: automated
+- id: ww25-layout
+  description: The 1366x900 dashboard places the title, the legend strip and the
+    spine chart.
+  mode: automated
+remaining_work: []
+blocker: null
+workarounds:
+- PERCENTILE(...) is not in the released SDK's aggregation derivation map, so a
+  bare PERCENTILE(...) field is registered as an unknown dimension and the pane
+  renders empty; passing table_calc='Rows' when adding the quartile fields makes
+  them resolve as measures.
+capability_gaps:
+- key: percentile-aggregation-not-recognized
+  summary: The field registry's _DERIVATION_MAP and _AGGREGATE_FUNCTION_RE omit
+    PERCENTILE, so a calculated field whose formula is a bare PERCENTILE(...) is
+    registered as an unknown dimension and any worksheet binding it renders
+    empty. Adding PERCENTILE (and the other Tableau percentile-style
+    aggregations) to the registry would make it work without a table-calc hint.
+related_cwtwb_issues: []
