@@ -1,0 +1,96 @@
+{
+  "case_id": "wow-2021-ww19-map-layers",
+  "captured_at": "2026-10-12T08:30:19.623673+00:00",
+  "source_hashes": {
+    "author": "5fd07c9c51447d27ec9425af7e919eee9e75ef2945cddf69a3fe38b62f090725",
+    "replica": "f47ea288668bab05115467b932f9f2a87e6a81787fc0898a94ce5d7f1281555e"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "5e8f3ff0-dce3-4547-84a3-fab76dbf7211",
+      "name": "cwtwb-review-wow-2021-ww19-map-layers-author-5fd07c9c5144",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2987918",
+      "views": [
+        {
+          "name": "2021_05_12_WW19_Map_Layers",
+          "id": "f289c850-91ef-41b8-9d2c-5146e549eb35"
+        }
+      ]
+    },
+    "replica": {
+      "id": "de9595f0-0624-48b7-bea2-bc67da17a071",
+      "name": "cwtwb-review-wow-2021-ww19-map-layers-replica-f47ea288668b",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2988040",
+      "views": [
+        {
+          "name": "Map",
+          "id": "bb80579e-1bb6-4920-9436-97ced9f37aa0"
+        },
+        {
+          "name": "Selected City",
+          "id": "235225b3-b580-48d6-8155-c229b2fc1337"
+        },
+        {
+          "name": "2021_05_12_WW19_Map_Layers",
+          "id": "cb213bcc-519c-44bc-82ba-69230ee4409c"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "f289c850-91ef-41b8-9d2c-5146e549eb35",
+          "name": "2021_05_12_WW19_Map_Layers",
+          "path": "outputs/cloud-author.png",
+          "sha256": "ee736a23a6f5b5c12592a5e3b17ae462c768353a1448abf40b1c35af2ae23ef3",
+          "size": [
+            2000,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "cb213bcc-519c-44bc-82ba-69230ee4409c",
+          "name": "2021_05_12_WW19_Map_Layers",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "3e414cc8e340ebb481c3038c99dc9f1ce953d4380d9c70b370ebde94f8569c2a",
+          "size": [
+            2400,
+            1800
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "2021_05_12_WW19_Map_Layers",
+          "view_id": "f289c850-91ef-41b8-9d2c-5146e549eb35",
+          "scope": "Default author dashboard and replica Map worksheet; the REST CSV confirms the per-region and per-city sales aggregation.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-map.csv",
+          "sha256": "22e528cdff0e16dfe3a2a8cc6fa99b67428d5a52a370580cee4a03287811131e",
+          "bytes": 35222
+        },
+        {
+          "role": "replica",
+          "view": "Map",
+          "view_id": "bb80579e-1bb6-4920-9436-97ced9f37aa0",
+          "scope": "Default author dashboard and replica Map worksheet; the REST CSV confirms the per-region and per-city sales aggregation.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-map.csv",
+          "sha256": "9f28821bcfa4aa21f4306566d062fede3ffbba06d69e060c4a078bca8ab98a33",
+          "bytes": 23186
+        }
+      ]
+    }
+  ],
+  "status": "captured_requires_independent_review"
+}

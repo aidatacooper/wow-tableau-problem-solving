@@ -1,0 +1,10 @@
+{
+  "case_dir": "iterations/2021-05-13-ww19-map-layers",
+  "author_workbook": "dashboards/2021_05_12_WW19_Map_Layers/2021_05_12_WW19_Map_Layers.twbx",
+  "author_view": "2021_05_12_WW19_Map_Layers",
+  "replica_view": "2021_05_12_WW19_Map_Layers",
+  "states": [],
+  "data_views": [
+    {"name": "map", "author": "2021_05_12_WW19_Map_Layers", "replica": "Map", "scope": "Default author dashboard and replica Map worksheet; the REST CSV confirms the per-region and per-city sales aggregation."}
+  ]
+}

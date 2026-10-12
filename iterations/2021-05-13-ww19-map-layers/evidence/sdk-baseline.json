@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "cwtwb_version": "0.27.1",
+  "cwtwb_commit": "4cd2c61c1286a02932b5b42f47de344683d656a3",
+  "result": "pass",
+  "scope": "Released-SDK baseline for the WW19 Regional Sales Readout map-layer case.",
+  "supported": [
+    "set_geocoding_context(country='United States') for US state geocoding",
+    "set_field_geographic_role for State/City and per-region state fields",
+    "configure_chart map_layer_mode='native' with a base state layer plus four region border layers",
+    "per-layer has_stroke/stroke_color for the coloured region borders",
+    "add_set + add_dashboard_set_action (edit-group-action) for the hover Selected City"
+  ],
+  "findings": [
+    {
+      "key": "custom-geographic-role",
+      "severity": "gap",
+      "summary": "The article's 'Region, created from State' custom geographic role has no public API; per-region calculated State fields are the equivalent.",
+      "workaround": "One State-geocoded field per region (IF [Region]='West' THEN [State] END)."
+    },
+    {
+      "key": "map-geocoding-context",
+      "severity": "note",
+      "summary": "Without set_geocoding_context(country='United States') the State names geocode as world provinces.",
+      "workaround": "Call set_geocoding_context(country='United States') before building."
+    }
+  ]
+}

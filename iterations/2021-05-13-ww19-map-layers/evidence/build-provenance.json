@@ -1,0 +1,31 @@
+{
+  "case_id": "wow-2021-ww19-map-layers",
+  "sdk_commit": "4cd2c61c1286a02932b5b42f47de344683d656a3",
+  "sdk_version": "0.27.1",
+  "builder_sha256": "687c184a4d27625f90621b5dbcbf02a07caf483c7988e9568c83e29efc227571",
+  "builder_hash_scope": "UTF-8 source text with universal newlines normalized to LF",
+  "public_sdk_calls": [
+    "add_calculated_field",
+    "add_dashboard",
+    "add_dashboard_set_action",
+    "add_set",
+    "add_worksheet",
+    "configure_chart",
+    "configure_custom_label",
+    "configure_layered_chart",
+    "configure_worksheet_style",
+    "save",
+    "set_field_geographic_role",
+    "set_geocoding_context",
+    "set_hyper_connection",
+    "set_worksheet_title",
+    "set_window_state"
+  ],
+  "result": "passed",
+  "initial_workbooks_available": 0,
+  "copied_cloud_evidence": false,
+  "source_workbook_used_by_builder": false,
+  "public_sdk_only": true,
+  "scope": "Copied only builder/verifier, metadata and locked extracted inputs. Built from TWBEditor empty, then independent full-domain raw-data/native-artifact verification.",
+  "artifact_sha256": "f47ea288668bab05115467b932f9f2a87e6a81787fc0898a94ce5d7f1281555e"
+}

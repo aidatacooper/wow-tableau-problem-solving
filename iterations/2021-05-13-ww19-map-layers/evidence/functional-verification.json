@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0.0",
+  "scope": "Cloud REST export of the replica Map worksheet; the region-total rows match the locked-extract oracle exactly, and the per-city rows sum to the region totals within per-city display rounding.",
+  "browser_interaction_executed": false,
+  "state": {
+    "description": "Default state; the map shows all four regions and every city."
+  },
+  "observed": {
+    "export_rows": 599,
+    "region_totals": {
+      "Central": 501240.0,
+      "East": 678781.0,
+      "South": 391722.0,
+      "West": 725458.0
+    },
+    "city_sums": {
+      "Central": 501234.0,
+      "East": 678779.0,
+      "West": 725458.0,
+      "South": 391726.0
+    },
+    "mismatched_region_totals": 0,
+    "mismatched_city_sums": 3,
+    "note": "Region totals match exactly; city sums differ by at most a few dollars from independent per-city display rounding."
+  },
+  "expected_from_oracle": {
+    "region_sales": {
+      "West": 725457.825,
+      "East": 678781.24,
+      "Central": 501239.891,
+      "South": 391721.905
+    }
+  },
+  "result": "pass"
+}

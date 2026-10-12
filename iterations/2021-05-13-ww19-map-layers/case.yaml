@@ -1,0 +1,100 @@
+schema_version: 1.1.0
+case_id: wow-2021-ww19-map-layers
+iteration_id: 2021-05-13-ww19-map-layers
+post: https://donnacoles.home.blog/2021/05/13/regional-sales-readout/
+legacy_case_ids: {}
+article_date: '2021-05-13'
+challenge_year: 2021
+challenge_week: 19
+challenge_date: '2021-05-12'
+date_evidence:
+  article_date: Article-local HTML 'Published:' calendar date, retained in evidence/article-date.json.
+  challenge: Official 2021 Week 19 article title.
+  challenge_date: Official WordPress REST date field retained in evidence/official-challenge-date.json.
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2021w19tab/
+    wordpress_post_id: 5163
+  article:
+    url: https://donnacoles.home.blog/2021/05/13/regional-sales-readout/
+    path: null
+    sha256: eb19b40b6b6701818df267d9d1d821372037db5b1977f64f1cfb4cdb8358370a
+  workbook:
+    url: https://public.tableau.com/views/2021_05_12_WW19_Map_Layers/2021_05_12_WW19_Map_Layers
+    filename: 2021_05_12_WW19_Map_Layers.twbx
+    sha256: 5fd07c9c51447d27ec9425af7e919eee9e75ef2945cddf69a3fe38b62f090725
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- evidence/article-date.json
+- evidence/build-provenance.json
+- evidence/cloud-request.json
+- evidence/cloud-verification.json
+- evidence/functional-verification.json
+- evidence/official-challenge-date.json
+- evidence/sdk-baseline.json
+- evidence/visual-review.md
+- inputs/source-lock.json
+notes:
+- The article's "Region, created from State" custom geographic role has no public
+  API; the replica uses one State-geocoded field per region, which yields the same
+  region geometry and coloured borders.
+- set_geocoding_context(country='United States') is required or the State names
+  geocode as world provinces.
+- The hover readout uses a Selected City set and an edit-group-action; the text
+  is rendered on a dedicated sheet because the custom-label resolver cannot
+  traverse the set calculation.
+cwtwb:
+  tested_version: 0.27.1
+  tested_commit: 4cd2c61c
+  runs:
+  - version: 0.27.1
+    commit: 4cd2c61c
+    result: workaround
+    evidence: evidence/sdk-baseline.json
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: workaround
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/Orders (Sample - Superstore).hyper
+acceptance:
+- id: ww19-region-segmented-map
+  description: The map draws US states and the base layer colours them by Region,
+    segmenting the country into the four sales regions.
+  mode: automated
+- id: ww19-region-borders
+  description: Four region layers each carry their own border colour (#7ec886,
+    #82d7d6, #b6b6dd, #fd8b59).
+  mode: automated
+- id: ww19-city-sales-layer
+  description: A city layer details by City and is sized by SUM(Sales), coloured
+    by Region.
+  mode: automated
+- id: ww19-region-sales-text
+  description: A text layer labels each region with its total sales.
+  mode: automated
+- id: ww19-selected-city-set
+  description: A Selected City set plus a hover change-set action drives the city
+    name, city sales, percent-of-region and sub-text readouts.
+  mode: automated
+remaining_work: []
+blocker: null
+workarounds:
+- The article's custom geographic role ("Region, created from State") is replaced
+  by one State-geocoded calculated field per region.
+- The selected-city readout is a dedicated text sheet layered over the map
+  instead of living on the Sales Text marks card, because the SDK's custom-label
+  resolver cannot traverse the set calculation.
+capability_gaps:
+- key: custom-geographic-role
+  description: No public API creates a custom geographic role derived from another
+    field; per-region State fields are the workaround.
+related_cwtwb_issues: []

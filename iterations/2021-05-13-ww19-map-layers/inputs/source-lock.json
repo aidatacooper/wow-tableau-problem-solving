@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-12",
+  "source_workbook": {
+    "filename": "2021_05_12_WW19_Map_Layers.twbx",
+    "bytes": 66917,
+    "sha256": "5fd07c9c51447d27ec9425af7e919eee9e75ef2945cddf69a3fe38b62f090725",
+    "url": null
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Datasources/Orders (Sample - Superstore).hyper",
+      "file": "inputs/Orders (Sample - Superstore).hyper",
+      "bytes": 196608,
+      "sha256": "560868a03ceadff5948e016d64fa50dda2ec2cc4960f828812e67f76b9235b32"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

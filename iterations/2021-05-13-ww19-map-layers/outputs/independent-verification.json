@@ -1,0 +1,22 @@
+{
+  "scope": "Locked-extract oracle plus native map-layer workbook contracts.",
+  "acceptance": [
+    "ww19-region-segmented-map",
+    "ww19-region-borders",
+    "ww19-city-sales-layer",
+    "ww19-region-sales-text",
+    "ww19-selected-city-set"
+  ],
+  "facts": {
+    "extract_sha256": "560868a03ceadff5948e016d64fa50dda2ec2cc4960f828812e67f76b9235b32",
+    "rows": 9994,
+    "states": 49,
+    "region_sales": {
+      "Central": 501239.891,
+      "East": 678781.24,
+      "South": 391721.905,
+      "West": 725457.825
+    }
+  },
+  "output_sha256": "5a3c6f43ba923c54716dfd7e3cee2153dc04ec86402c8f458466117e500eea42"
+}

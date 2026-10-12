@@ -19,7 +19,7 @@
 - [x] 05 2021-04-15 ww15 Google Analytics — `2021_04_14_WW15_GoogleAnalytics` — replicated/pass（LOADED；4 个 BAN 与作者一致）
 - [x] 06 2021-04-23 ww16 Quick LoDs — `2021_04_21_WW16_Quick_LoDs` — replicated/pass（LOADED；Cloud CSV 与作者一致）
 - [x] 07 2021-04-29 ww17 Generation Population — `2021_04_28_WW17_Generation_Population` — replicated/pass（commit f590c8c；LOADED@0.27.1 pin；Cloud 证据已重采）
-- [ ] 08 2021-05-13 ww19 Map Layers — `2021_05_12_WW19_Map_Layers`
+- [x] 08 2021-05-13 ww19 Map Layers — `2021_05_12_WW19_Map_Layers` — replicated/workaround（validate PASS / LOADED）
 - [ ] 09 2021-05-20 ww20 Date Compare — `2021_05_19_WW20_Date_Compare`
 - [ ] 10 2021-05-28 ww21 Favourite Songs — `2021_05_26_WW21_Favourite_Songs`
 - [ ] 11 2021-06-03 ww22 Unstructured — `WOWW22-Tableau`
@@ -45,6 +45,7 @@
 - [x] 2026-10-11 建分支 `feat/wow-batch-2021-ww11-ww27`
 - [x] 2026-10-11 01 ww11 Hans Rosling — 已复现；见工作清单
 - [x] 2026-10-11 02 ww12 Comparative Quantity — 已复现（validate PASS / LOADED / 83 tests OK）
+- [x] 2026-10-12 08 ww19 Map Layers — 已复现（validate PASS / LOADED）；SDK pin 4cd2c61
 - [x] 2026-10-11 03 ww13 % Sub-Orders Profitable — 已复现（validate PASS / LOADED / 83 tests OK）
 - [x] 2026-10-11 04 ww14 Market Basket — 已复现（validate PASS / LOADED / 83 tests OK）
 - [x] 2026-10-11 05 ww15 Google Analytics — 已复现（validate PASS / LOADED / 83 tests OK）

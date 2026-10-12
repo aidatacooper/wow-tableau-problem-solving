@@ -1,0 +1,735 @@
+Central State,City,East State,Region,South State,State,West State,Latitude (generated),Longitude (generated),Sales
+,,,,,,,,,
+,,Connecticut,,,,,41.6227,-72.7028,
+,,Delaware,,,,,38.6716,-75.4165,
+,,District of Columbia,,,,,38.91,-77,
+,,Maine,,,,,45.5,-69.24,
+,,Maryland,,,,,39.4444,-77.0834,
+,,Massachusetts,,,,,42.3616,-72.1839,
+,,New Hampshire,,,,,43.66,-71.49,
+,,New Jersey,,,,,40.16,-74.49,
+,,New York,,,,,43,-75.49,
+,,Ohio,,,,,40.25,-83,
+,,Pennsylvania,,,,,40.86,-77.9,
+,,Rhode Island,,,,,41.4966,-71.4757,
+,,Vermont,,,,,44.1584,-72.7678,
+,,West Virginia,,,,,38.63,-80.73,
+,,,,,,,,,
+,,,,,,Arizona,34.5,-111.5,
+,,,,,,California,37.25,-119.75,
+,,,,,,Colorado,39,-105.5,
+,,,,,,Idaho,44.0739,-114.542,
+,,,,,,Montana,47,-109.75,
+,,,,,,Nevada,39.25,-116.75,
+,,,,,,New Mexico,34.5,-106,
+,,,,,,Oregon,44,-120.5,
+,,,,,,Utah,39.25,-111.75,
+,,,,,,Washington,47.5,-120.5,
+,,,,,,Wyoming,43,-107.5,
+,,,Central,,Illinois,,40,-89.25,"$80,166"
+,,,Central,,Indiana,,40,-86.25,"$53,555"
+,,,Central,,Iowa,,42,-93.5,"$4,580"
+,,,Central,,Kansas,,38.5,-98.5,"$2,914"
+,,,Central,,Michigan,,43.1045,-84.6165,"$76,270"
+,,,Central,,Minnesota,,46.25,-94.25,"$29,863"
+,,,Central,,Missouri,,38.25,-92.5,"$22,205"
+,,,Central,,Nebraska,,41.5,-99.75,"$7,465"
+,,,Central,,North Dakota,,47.5,-100,$920
+,,,Central,,Oklahoma,,35.5,-97.5,"$19,683"
+,,,Central,,South Dakota,,44.5,-100.25,"$1,316"
+,,,Central,,Texas,,31.25,-99.25,"$170,188"
+,,,Central,,Wisconsin,,44.5,-90,"$32,115"
+,,,East,,Connecticut,,41.6227,-72.7028,"$13,384"
+,,,East,,Delaware,,38.6716,-75.4165,"$27,451"
+,,,East,,District of Columbia,,38.91,-77,"$2,865"
+,,,East,,Maine,,45.5,-69.24,"$1,271"
+,,,East,,Maryland,,39.4444,-77.0834,"$23,706"
+,,,East,,Massachusetts,,42.3616,-72.1839,"$28,634"
+,,,East,,New Hampshire,,43.66,-71.49,"$7,293"
+,,,East,,New Jersey,,40.16,-74.49,"$35,764"
+,,,East,,New York,,43,-75.49,"$310,876"
+,,,East,,Ohio,,40.25,-83,"$78,258"
+,,,East,,Pennsylvania,,40.86,-77.9,"$116,512"
+,,,East,,Rhode Island,,41.4966,-71.4757,"$22,628"
+,,,East,,Vermont,,44.1584,-72.7678,"$8,929"
+,,,East,,West Virginia,,38.63,-80.73,"$1,210"
+,,,South,,Alabama,,32.75,-86.75,"$19,511"
+,,,South,,Arkansas,,34.75,-92.5,"$11,678"
+,,,South,,Florida,,28.42,-81.55,"$89,474"
+,,,South,,Georgia,,32.1598,-83.4715,"$49,096"
+,,,South,,Kentucky,,37.79,-84.87,"$36,592"
+,,,South,,Louisiana,,30.6935,-92.241,"$9,217"
+,,,South,,Mississippi,,33.503,-89.8071,"$10,771"
+,,,South,,North Carolina,,35.5,-80,"$55,603"
+,,,South,,South Carolina,,34,-81,"$8,482"
+,,,South,,Tennessee,,35.75,-86.25,"$30,662"
+,,,South,,Virginia,,37.77,-78.24,"$70,637"
+,,,West,,Arizona,,34.5,-111.5,"$35,282"
+,,,West,,California,,37.25,-119.75,"$457,688"
+,,,West,,Colorado,,39,-105.5,"$32,108"
+,,,West,,Idaho,,44.0739,-114.542,"$4,382"
+,,,West,,Montana,,47,-109.75,"$5,589"
+,,,West,,Nevada,,39.25,-116.75,"$16,729"
+,,,West,,New Mexico,,34.5,-106,"$4,784"
+,,,West,,Oregon,,44,-120.5,"$17,431"
+,,,West,,Utah,,39.25,-111.75,"$11,220"
+,,,West,,Washington,,47.5,-120.5,"$138,641"
+,,,West,,Wyoming,,43,-107.5,"$1,603"
+,,,Central,,Illinois,,40,-89.25,"$80,166"
+,,,Central,,Indiana,,40,-86.25,"$53,555"
+,,,Central,,Iowa,,42,-93.5,"$4,580"
+,,,Central,,Kansas,,38.5,-98.5,"$2,914"
+,,,Central,,Michigan,,43.1045,-84.6165,"$76,270"
+,,,Central,,Minnesota,,46.25,-94.25,"$29,863"
+,,,Central,,Missouri,,38.25,-92.5,"$22,205"
+,,,Central,,Nebraska,,41.5,-99.75,"$7,465"
+,,,Central,,North Dakota,,47.5,-100,$920
+,,,Central,,Oklahoma,,35.5,-97.5,"$19,683"
+,,,Central,,South Dakota,,44.5,-100.25,"$1,316"
+,,,Central,,Texas,,31.25,-99.25,"$170,188"
+,,,Central,,Wisconsin,,44.5,-90,"$32,115"
+,,,East,,Connecticut,,41.6227,-72.7028,"$13,384"
+,,,East,,Delaware,,38.6716,-75.4165,"$27,451"
+,,,East,,District of Columbia,,38.91,-77,"$2,865"
+,,,East,,Maine,,45.5,-69.24,"$1,271"
+,,,East,,Maryland,,39.4444,-77.0834,"$23,706"
+,,,East,,Massachusetts,,42.3616,-72.1839,"$28,634"
+,,,East,,New Hampshire,,43.66,-71.49,"$7,293"
+,,,East,,New Jersey,,40.16,-74.49,"$35,764"
+,,,East,,New York,,43,-75.49,"$310,876"
+,,,East,,Ohio,,40.25,-83,"$78,258"
+,,,East,,Pennsylvania,,40.86,-77.9,"$116,512"
+,,,East,,Rhode Island,,41.4966,-71.4757,"$22,628"
+,,,East,,Vermont,,44.1584,-72.7678,"$8,929"
+,,,East,,West Virginia,,38.63,-80.73,"$1,210"
+,,,South,,Alabama,,32.75,-86.75,"$19,511"
+,,,South,,Arkansas,,34.75,-92.5,"$11,678"
+,,,South,,Florida,,28.42,-81.55,"$89,474"
+,,,South,,Georgia,,32.1598,-83.4715,"$49,096"
+,,,South,,Kentucky,,37.79,-84.87,"$36,592"
+,,,South,,Louisiana,,30.6935,-92.241,"$9,217"
+,,,South,,Mississippi,,33.503,-89.8071,"$10,771"
+,,,South,,North Carolina,,35.5,-80,"$55,603"
+,,,South,,South Carolina,,34,-81,"$8,482"
+,,,South,,Tennessee,,35.75,-86.25,"$30,662"
+,,,South,,Virginia,,37.77,-78.24,"$70,637"
+,,,West,,Arizona,,34.5,-111.5,"$35,282"
+,,,West,,California,,37.25,-119.75,"$457,688"
+,,,West,,Colorado,,39,-105.5,"$32,108"
+,,,West,,Idaho,,44.0739,-114.542,"$4,382"
+,,,West,,Montana,,47,-109.75,"$5,589"
+,,,West,,Nevada,,39.25,-116.75,"$16,729"
+,,,West,,New Mexico,,34.5,-106,"$4,784"
+,,,West,,Oregon,,44,-120.5,"$17,431"
+,,,West,,Utah,,39.25,-111.75,"$11,220"
+,,,West,,Washington,,47.5,-120.5,"$138,641"
+,,,West,,Wyoming,,43,-107.5,"$1,603"
+,,,,,,,,,
+,,,,Alabama,,,32.75,-86.75,
+,,,,Arkansas,,,34.75,-92.5,
+,,,,Florida,,,28.42,-81.55,
+,,,,Georgia,,,32.1598,-83.4715,
+,,,,Kentucky,,,37.79,-84.87,
+,,,,Louisiana,,,30.6935,-92.241,
+,,,,Mississippi,,,33.503,-89.8071,
+,,,,North Carolina,,,35.5,-80,
+,,,,South Carolina,,,34,-81,
+,,,,Tennessee,,,35.75,-86.25,
+,,,,Virginia,,,37.77,-78.24,
+,,,,,,,,,
+Illinois,,,,,,,40,-89.25,
+Indiana,,,,,,,40,-86.25,
+Iowa,,,,,,,42,-93.5,
+Kansas,,,,,,,38.5,-98.5,
+Michigan,,,,,,,43.1045,-84.6165,
+Minnesota,,,,,,,46.25,-94.25,
+Missouri,,,,,,,38.25,-92.5,
+Nebraska,,,,,,,41.5,-99.75,
+North Dakota,,,,,,,47.5,-100,
+Oklahoma,,,,,,,35.5,-97.5,
+South Dakota,,,,,,,44.5,-100.25,
+Texas,,,,,,,31.25,-99.25,
+Wisconsin,,,,,,,44.5,-90,
+,Aberdeen,,Central,,,,,,$26
+,Abilene,,Central,,,,,,$1
+,Akron,,East,,,,,,"$2,730"
+,Albuquerque,,West,,,,,,"$2,220"
+,Alexandria,,South,,,,,,"$5,520"
+,Allen,,Central,,,,,,$290
+,Allentown,,East,,,,,,$853
+,Altoona,,East,,,,,,$20
+,Amarillo,,Central,,,,,,"$3,773"
+,Anaheim,,West,,,,,,"$7,987"
+,Andover,,East,,,,,,$436
+,Ann Arbor,,Central,,,,,,$889
+,Antioch,,West,,,,,,$19
+,Apopka,,South,,,,,,$905
+,Apple Valley,,Central,,,,,,$138
+,Apple Valley,,West,,,,,,"$1,915"
+,Appleton,,Central,,,,,,"$1,671"
+,Arlington,,Central,,,,,,"$5,848"
+,Arlington,,South,,,,,,"$14,367"
+,Arlington Heights,,Central,,,,,,$14
+,Arvada,,West,,,,,,$503
+,Asheville,,South,,,,,,"$1,475"
+,Athens,,South,,,,,,"$1,721"
+,Atlanta,,South,,,,,,"$17,198"
+,Atlantic City,,East,,,,,,$23
+,Auburn,,East,,,,,,"$1,384"
+,Auburn,,South,,,,,,"$1,767"
+,Auburn,,West,,,,,,$4
+,Aurora,,Central,,,,,,"$7,573"
+,Aurora,,West,,,,,,"$4,084"
+,Austin,,Central,,,,,,"$6,058"
+,Avondale,,West,,,,,,$947
+,Bakersfield,,West,,,,,,"$1,377"
+,Baltimore,,East,,,,,,"$6,157"
+,Bangor,,East,,,,,,"$1,164"
+,Bartlett,,South,,,,,,$89
+,Bayonne,,East,,,,,,$183
+,Baytown,,Central,,,,,,$10
+,Beaumont,,Central,,,,,,$472
+,Bedford,,Central,,,,,,$226
+,Belleville,,East,,,,,,"$1,892"
+,Bellevue,,West,,,,,,$104
+,Bellingham,,West,,,,,,"$3,790"
+,Bethlehem,,East,,,,,,"$1,690"
+,Beverly,,East,,,,,,"$2,583"
+,Billings,,West,,,,,,$8
+,Bloomington,,Central,,,,,,"$1,568"
+,Boca Raton,,South,,,,,,$63
+,Boise,,West,,,,,,"$1,094"
+,Bolingbrook,,Central,,,,,,$218
+,Bossier City,,South,,,,,,"$1,417"
+,Bowling Green,,East,,,,,,"$1,866"
+,Bowling Green,,South,,,,,,$212
+,Boynton Beach,,South,,,,,,$470
+,Bozeman,,West,,,,,,$44
+,Brentwood,,West,,,,,,"$5,090"
+,Bridgeton,,East,,,,,,$52
+,Bristol,,East,,,,,,$815
+,Bristol,,South,,,,,,$437
+,Broken Arrow,,Central,,,,,,"$2,440"
+,Broomfield,,West,,,,,,$794
+,Brownsville,,Central,,,,,,"$1,292"
+,Bryan,,Central,,,,,,$617
+,Buffalo,,East,,,,,,"$9,063"
+,Buffalo Grove,,Central,,,,,,$831
+,Bullhead City,,West,,,,,,$22
+,Burbank,,West,,,,,,"$3,247"
+,Burlington,,Central,,,,,,$57
+,Burlington,,East,,,,,,"$8,929"
+,Burlington,,South,,,,,,"$12,681"
+,Caldwell,,West,,,,,,$456
+,Camarillo,,West,,,,,,"$1,468"
+,Cambridge,,East,,,,,,$502
+,Canton,,Central,,,,,,$818
+,Carlsbad,,West,,,,,,$419
+,Carol Stream,,Central,,,,,,"$1,306"
+,Carrollton,,Central,,,,,,"$2,201"
+,Cary,,South,,,,,,$505
+,Cedar Hill,,Central,,,,,,$122
+,Cedar Rapids,,Central,,,,,,$278
+,Champaign,,Central,,,,,,$152
+,Chandler,,West,,,,,,"$1,077"
+,Chapel Hill,,South,,,,,,$14
+,Charlotte,,South,,,,,,"$13,693"
+,Charlottesville,,South,,,,,,$103
+,Chattanooga,,South,,,,,,$989
+,Chesapeake,,South,,,,,,"$5,997"
+,Chester,,East,,,,,,"$1,968"
+,Cheyenne,,West,,,,,,"$1,603"
+,Chicago,,Central,,,,,,"$48,540"
+,Chico,,West,,,,,,"$2,050"
+,Chula Vista,,West,,,,,,"$1,042"
+,Cincinnati,,East,,,,,,"$1,612"
+,Citrus Heights,,West,,,,,,$129
+,Clarksville,,South,,,,,,"$2,218"
+,Cleveland,,East,,,,,,"$6,346"
+,Clifton,,East,,,,,,$337
+,Clinton,,East,,,,,,"$5,514"
+,Clovis,,West,,,,,,$111
+,Coachella,,West,,,,,,$164
+,College Station,,Central,,,,,,$291
+,Colorado Springs,,West,,,,,,"$3,694"
+,Columbia,,Central,,,,,,"$2,990"
+,Columbia,,East,,,,,,"$10,962"
+,Columbia,,South,,,,,,"$11,331"
+,Columbus,,Central,,,,,,"$7,960"
+,Columbus,,East,,,,,,"$15,901"
+,Columbus,,South,,,,,,"$14,845"
+,Commerce City,,West,,,,,,$146
+,Concord,,East,,,,,,"$2,828"
+,Concord,,South,,,,,,"$5,112"
+,Concord,,West,,,,,,"$2,603"
+,Conroe,,Central,,,,,,$112
+,Conway,,South,,,,,,$302
+,Coon Rapids,,Central,,,,,,$503
+,Coppell,,Central,,,,,,$136
+,Coral Gables,,South,,,,,,$64
+,Coral Springs,,South,,,,,,$825
+,Corpus Christi,,Central,,,,,,$221
+,Costa Mesa,,West,,,,,,"$1,498"
+,Cottage Grove,,Central,,,,,,$144
+,Covington,,West,,,,,,$414
+,Cranston,,East,,,,,,"$4,025"
+,Cuyahoga Falls,,East,,,,,,$29
+,Dallas,,Central,,,,,,"$20,132"
+,Danbury,,East,,,,,,$27
+,Danville,,Central,,,,,,$43
+,Danville,,West,,,,,,"$1,159"
+,Davis,,West,,,,,,$32
+,Daytona Beach,,South,,,,,,$272
+,Dearborn,,Central,,,,,,"$1,603"
+,Dearborn Heights,,Central,,,,,,"$1,052"
+,Decatur,,Central,,,,,,"$3,169"
+,Decatur,,South,,,,,,"$3,375"
+,Deer Park,,Central,,,,,,$7
+,Delray Beach,,South,,,,,,$243
+,Deltona,,South,,,,,,$893
+,Denver,,West,,,,,,"$12,199"
+,Des Moines,,Central,,,,,,"$2,009"
+,Des Moines,,West,,,,,,"$3,454"
+,Des Plaines,,Central,,,,,,"$1,493"
+,Detroit,,Central,,,,,,"$42,447"
+,Dover,,East,,,,,,"$4,878"
+,Draper,,West,,,,,,$264
+,Dublin,,East,,,,,,"$2,379"
+,Dublin,,West,,,,,,$22
+,Dubuque,,Central,,,,,,"$1,687"
+,Durham,,South,,,,,,$880
+,Eagan,,Central,,,,,,$214
+,East Orange,,East,,,,,,$377
+,East Point,,South,,,,,,$268
+,Eau Claire,,Central,,,,,,"$1,646"
+,Edinburg,,Central,,,,,,$88
+,Edmond,,Central,,,,,,$960
+,Edmonds,,West,,,,,,"$2,524"
+,El Cajon,,West,,,,,,$866
+,El Paso,,Central,,,,,,"$3,546"
+,Elkhart,,Central,,,,,,$171
+,Elmhurst,,Central,,,,,,$892
+,Elyria,,East,,,,,,$2
+,Encinitas,,West,,,,,,$592
+,Englewood,,West,,,,,,$124
+,Escondido,,West,,,,,,$95
+,Eugene,,West,,,,,,"$1,465"
+,Evanston,,Central,,,,,,"$1,754"
+,Everett,,East,,,,,,"$5,662"
+,Everett,,West,,,,,,$4
+,Fairfield,,East,,,,,,"$8,013"
+,Fairfield,,West,,,,,,"$1,471"
+,Fargo,,Central,,,,,,$920
+,Farmington,,West,,,,,,$719
+,Fayetteville,,South,,,,,,"$6,926"
+,Florence,,South,,,,,,"$7,622"
+,Fort Collins,,West,,,,,,$935
+,Fort Lauderdale,,South,,,,,,"$4,930"
+,Fort Worth,,Central,,,,,,"$6,603"
+,Frankfort,,Central,,,,,,$98
+,Franklin,,Central,,,,,,"$4,774"
+,Franklin,,East,,,,,,"$5,535"
+,Franklin,,South,,,,,,$948
+,Freeport,,Central,,,,,,$216
+,Freeport,,East,,,,,,$523
+,Fremont,,Central,,,,,,"$1,119"
+,Fresno,,West,,,,,,"$7,889"
+,Frisco,,Central,,,,,,$58
+,Gaithersburg,,East,,,,,,$406
+,Garden City,,Central,,,,,,$312
+,Garland,,Central,,,,,,$68
+,Gastonia,,South,,,,,,$895
+,Georgetown,,South,,,,,,"$1,786"
+,Gilbert,,West,,,,,,"$4,172"
+,Gladstone,,Central,,,,,,$164
+,Glendale,,West,,,,,,"$2,918"
+,Glenview,,Central,,,,,,$158
+,Goldsboro,,South,,,,,,$35
+,Grand Island,,Central,,,,,,$16
+,Grand Prairie,,Central,,,,,,"$1,012"
+,Grand Rapids,,Central,,,,,,$526
+,Grapevine,,Central,,,,,,$42
+,Great Falls,,West,,,,,,"$4,606"
+,Greeley,,West,,,,,,$30
+,Green Bay,,Central,,,,,,$527
+,Greensboro,,South,,,,,,"$2,407"
+,Greenville,,South,,,,,,"$2,118"
+,Greenwood,,Central,,,,,,"$1,665"
+,Gresham,,West,,,,,,"$2,133"
+,Grove City,,East,,,,,,$124
+,Gulfport,,South,,,,,,$167
+,Hackensack,,East,,,,,,"$1,456"
+,Hagerstown,,East,,,,,,$44
+,Haltom City,,Central,,,,,,$269
+,Hamilton,,East,,,,,,$328
+,Hampton,,South,,,,,,"$2,722"
+,Harlingen,,Central,,,,,,$471
+,Harrisonburg,,South,,,,,,"$4,389"
+,Hattiesburg,,South,,,,,,"$1,723"
+,Helena,,West,,,,,,$444
+,Hempstead,,East,,,,,,"$2,590"
+,Henderson,,South,,,,,,"$15,661"
+,Henderson,,West,,,,,,"$1,888"
+,Hendersonville,,South,,,,,,$320
+,Hesperia,,West,,,,,,"$1,213"
+,Hialeah,,South,,,,,,"$2,339"
+,Hickory,,South,,,,,,$41
+,Highland Park,,Central,,,,,,"$2,035"
+,Hillsboro,,West,,,,,,$88
+,Holland,,Central,,,,,,$138
+,Hollywood,,South,,,,,,"$1,070"
+,Holyoke,,East,,,,,,$302
+,Homestead,,South,,,,,,$133
+,Hoover,,South,,,,,,$526
+,Hot Springs,,South,,,,,,$246
+,Houston,,Central,,,,,,"$64,505"
+,Huntington Beach,,West,,,,,,"$2,528"
+,Huntsville,,Central,,,,,,"$6,711"
+,Huntsville,,South,,,,,,"$2,484"
+,Independence,,Central,,,,,,"$2,417"
+,Indianapolis,,Central,,,,,,"$9,306"
+,Inglewood,,West,,,,,,"$3,479"
+,Iowa City,,Central,,,,,,$10
+,Irving,,Central,,,,,,$606
+,Jackson,,Central,,,,,,"$15,420"
+,Jackson,,South,,,,,,"$9,544"
+,Jacksonville,,South,,,,,,"$44,713"
+,Jamestown,,East,,,,,,"$4,709"
+,Jefferson City,,Central,,,,,,$87
+,Johnson City,,South,,,,,,$766
+,Jonesboro,,South,,,,,,"$2,915"
+,Jupiter,,South,,,,,,$2
+,Keller,,Central,,,,,,$6
+,Kenner,,South,,,,,,$89
+,Kenosha,,Central,,,,,,"$3,907"
+,Kent,,East,,,,,,$346
+,Kent,,West,,,,,,"$1,351"
+,Kirkwood,,Central,,,,,,$241
+,Kissimmee,,South,,,,,,$752
+,Knoxville,,South,,,,,,"$3,928"
+,La Crosse,,Central,,,,,,$830
+,La Mesa,,West,,,,,,$368
+,La Porte,,Central,,,,,,"$1,052"
+,La Quinta,,West,,,,,,$46
+,Lafayette,,Central,,,,,,"$19,630"
+,Lafayette,,South,,,,,,"$5,406"
+,Laguna Niguel,,West,,,,,,$291
+,Lake Charles,,South,,,,,,$547
+,Lake Elsinore,,West,,,,,,$284
+,Lake Forest,,West,,,,,,"$1,626"
+,Lakeland,,South,,,,,,"$5,607"
+,Lakeville,,Central,,,,,,"$4,261"
+,Lakewood,,East,,,,,,"$16,608"
+,Lakewood,,West,,,,,,"$1,584"
+,Lancaster,,East,,,,,,"$9,414"
+,Lancaster,,West,,,,,,$477
+,Lansing,,Central,,,,,,"$1,610"
+,Laredo,,Central,,,,,,"$1,024"
+,Las Cruces,,West,,,,,,$99
+,Las Vegas,,West,,,,,,"$1,834"
+,Laurel,,East,,,,,,$153
+,Lawrence,,Central,,,,,,"$1,545"
+,Lawrence,,East,,,,,,"$6,109"
+,Lawton,,Central,,,,,,"$1,057"
+,Layton,,West,,,,,,$5
+,League City,,Central,,,,,,$875
+,Lebanon,,South,,,,,,$489
+,Lehi,,West,,,,,,"$1,517"
+,Leominster,,East,,,,,,$217
+,Lewiston,,East,,,,,,$106
+,Lewiston,,West,,,,,,$10
+,Lincoln Park,,Central,,,,,,$388
+,Linden,,East,,,,,,$115
+,Lindenhurst,,East,,,,,,$55
+,Little Rock,,South,,,,,,"$3,560"
+,Littleton,,West,,,,,,$72
+,Lodi,,West,,,,,,$137
+,Logan,,West,,,,,,$280
+,Long Beach,,East,,,,,,"$8,521"
+,Long Beach,,West,,,,,,"$4,934"
+,Longmont,,West,,,,,,$915
+,Longview,,West,,,,,,$119
+,Lorain,,East,,,,,,"$2,015"
+,Los Angeles,,West,,,,,,"$175,851"
+,Louisville,,South,,,,,,"$7,275"
+,Louisville,,West,,,,,,"$5,070"
+,Loveland,,West,,,,,,$21
+,Lowell,,East,,,,,,"$4,838"
+,Lubbock,,Central,,,,,,$593
+,Macon,,South,,,,,,$364
+,Madison,,Central,,,,,,"$5,347"
+,Malden,,East,,,,,,$228
+,Manchester,,East,,,,,,"$2,126"
+,Manhattan,,Central,,,,,,$274
+,Mansfield,,Central,,,,,,$559
+,Manteca,,West,,,,,,$452
+,Maple Grove,,Central,,,,,,$883
+,Margate,,South,,,,,,$16
+,Marietta,,South,,,,,,"$2,939"
+,Marion,,Central,,,,,,$358
+,Marion,,East,,,,,,"$3,011"
+,Marlborough,,East,,,,,,$207
+,Marysville,,West,,,,,,$102
+,Mason,,East,,,,,,$94
+,Mcallen,,Central,,,,,,$867
+,Medford,,West,,,,,,$90
+,Medina,,East,,,,,,"$2,478"
+,Melbourne,,South,,,,,,$96
+,Memphis,,South,,,,,,"$5,942"
+,Mentor,,East,,,,,,$693
+,Meriden,,East,,,,,,"$1,551"
+,Meridian,,West,,,,,,$329
+,Mesa,,West,,,,,,"$4,038"
+,Mesquite,,Central,,,,,,$52
+,Miami,,South,,,,,,"$8,673"
+,Middletown,,East,,,,,,"$1,155"
+,Midland,,Central,,,,,,"$5,292"
+,Milford,,East,,,,,,$962
+,Milwaukee,,Central,,,,,,"$11,410"
+,Minneapolis,,Central,,,,,,"$16,871"
+,Miramar,,South,,,,,,"$1,531"
+,Mishawaka,,Central,,,,,,$776
+,Mission Viejo,,West,,,,,,$776
+,Missoula,,West,,,,,,$488
+,Missouri City,,Central,,,,,,$6
+,Mobile,,South,,,,,,"$5,463"
+,Modesto,,West,,,,,,$326
+,Monroe,,South,,,,,,"$2,970"
+,Montebello,,West,,,,,,$28
+,Montgomery,,South,,,,,,"$3,723"
+,Moorhead,,Central,,,,,,$544
+,Moreno Valley,,West,,,,,,"$1,262"
+,Morgan Hill,,West,,,,,,$545
+,Morristown,,East,,,,,,"$5,033"
+,Mount Pleasant,,Central,,,,,,$17
+,Mount Pleasant,,South,,,,,,$546
+,Mount Vernon,,East,,,,,,"$2,120"
+,Murfreesboro,,South,,,,,,$337
+,Murray,,South,,,,,,$265
+,Murray,,West,,,,,,$146
+,Murrieta,,West,,,,,,$485
+,Muskogee,,Central,,,,,,"$1,722"
+,Naperville,,Central,,,,,,"$1,288"
+,Nashua,,East,,,,,,$36
+,Nashville,,South,,,,,,"$6,071"
+,New Albany,,Central,,,,,,$210
+,New Bedford,,East,,,,,,$236
+,New Brunswick,,East,,,,,,$15
+,New Castle,,Central,,,,,,$85
+,New Rochelle,,East,,,,,,"$1,255"
+,New York City,,East,,,,,,"$256,368"
+,Newark,,East,,,,,,"$28,576"
+,Newport News,,South,,,,,,"$3,322"
+,Niagara Falls,,East,,,,,,$200
+,Noblesville,,Central,,,,,,"$3,091"
+,Norfolk,,Central,,,,,,$17
+,Normal,,Central,,,,,,$367
+,Norman,,Central,,,,,,"$1,351"
+,North Charleston,,South,,,,,,$284
+,North Las Vegas,,West,,,,,,"$9,801"
+,North Miami,,South,,,,,,$22
+,Norwich,,East,,,,,,$414
+,Oak Park,,Central,,,,,,$591
+,Oakland,,West,,,,,,"$5,964"
+,Oceanside,,East,,,,,,"$3,851"
+,Oceanside,,West,,,,,,$500
+,Odessa,,Central,,,,,,$976
+,Oklahoma City,,Central,,,,,,"$6,597"
+,Olathe,,Central,,,,,,$896
+,Olympia,,West,,,,,,"$1,020"
+,Omaha,,Central,,,,,,"$6,313"
+,Ontario,,West,,,,,,$284
+,Orange,,East,,,,,,$211
+,Orem,,West,,,,,,"$2,994"
+,Orland Park,,Central,,,,,,$340
+,Orlando,,South,,,,,,"$1,740"
+,Ormond Beach,,South,,,,,,$3
+,Oswego,,Central,,,,,,$322
+,Overland Park,,Central,,,,,,$607
+,Owensboro,,South,,,,,,$71
+,Oxnard,,West,,,,,,"$1,558"
+,Palatine,,Central,,,,,,$116
+,Palm Coast,,South,,,,,,$274
+,Park Ridge,,Central,,,,,,$685
+,Parker,,West,,,,,,"$1,068"
+,Parma,,East,,,,,,"$3,880"
+,Pasadena,,Central,,,,,,"$2,477"
+,Pasadena,,West,,,,,,"$4,113"
+,Pasco,,West,,,,,,"$2,201"
+,Passaic,,East,,,,,,"$1,562"
+,Paterson,,East,,,,,,"$2,243"
+,Pearland,,Central,,,,,,$495
+,Pembroke Pines,,South,,,,,,"$1,714"
+,Pensacola,,South,,,,,,$2
+,Peoria,,Central,,,,,,$501
+,Peoria,,West,,,,,,"$1,341"
+,Perth Amboy,,East,,,,,,"$1,717"
+,Pharr,,Central,,,,,,"$1,541"
+,Philadelphia,,East,,,,,,"$109,077"
+,Phoenix,,West,,,,,,"$11,000"
+,Pico Rivera,,West,,,,,,$146
+,Pine Bluff,,South,,,,,,$213
+,Plainfield,,East,,,,,,"$4,527"
+,Plano,,Central,,,,,,"$3,530"
+,Plantation,,South,,,,,,"$1,437"
+,Pleasant Grove,,West,,,,,,"$2,138"
+,Pocatello,,West,,,,,,"$1,345"
+,Pomona,,West,,,,,,"$1,483"
+,Pompano Beach,,South,,,,,,$90
+,Port Arthur,,Central,,,,,,$737
+,Port Orange,,South,,,,,,$8
+,Port Saint Lucie,,South,,,,,,$249
+,Portage,,Central,,,,,,$16
+,Portland,,West,,,,,,"$4,052"
+,Providence,,East,,,,,,"$15,981"
+,Provo,,West,,,,,,"$2,761"
+,Pueblo,,West,,,,,,"$1,687"
+,Quincy,,Central,,,,,,$330
+,Quincy,,East,,,,,,$946
+,Raleigh,,South,,,,,,"$4,508"
+,Rancho Cucamonga,,West,,,,,,$232
+,Rapid City,,Central,,,,,,$153
+,Reading,,East,,,,,,$874
+,Redding,,West,,,,,,$334
+,Redlands,,West,,,,,,"$2,891"
+,Redmond,,West,,,,,,"$1,098"
+,Redondo Beach,,West,,,,,,"$1,960"
+,Redwood City,,West,,,,,,$42
+,Reno,,West,,,,,,$644
+,Renton,,West,,,,,,"$1,243"
+,Revere,,East,,,,,,$833
+,Richardson,,Central,,,,,,"$1,288"
+,Richmond,,Central,,,,,,"$6,235"
+,Richmond,,South,,,,,,"$11,903"
+,Rio Rancho,,West,,,,,,"$1,114"
+,Riverside,,West,,,,,,"$1,944"
+,Rochester,,Central,,,,,,"$1,957"
+,Rochester,,East,,,,,,"$6,017"
+,Rochester Hills,,Central,,,,,,$133
+,Rock Hill,,South,,,,,,$12
+,Rockford,,Central,,,,,,"$3,166"
+,Rockville,,East,,,,,,$470
+,Rogers,,South,,,,,,$40
+,Rome,,East,,,,,,$535
+,Romeoville,,Central,,,,,,$9
+,Roseville,,Central,,,,,,"$2,854"
+,Roseville,,West,,,,,,$735
+,Roswell,,South,,,,,,"$6,652"
+,Round Rock,,Central,,,,,,"$4,854"
+,Royal Oak,,Central,,,,,,$35
+,Sacramento,,West,,,,,,"$7,311"
+,Saginaw,,Central,,,,,,$396
+,Saint Charles,,Central,,,,,,"$1,660"
+,Saint Cloud,,Central,,,,,,"$1,332"
+,Saint Louis,,Central,,,,,,$286
+,Saint Paul,,Central,,,,,,$193
+,Saint Peters,,Central,,,,,,$697
+,Saint Petersburg,,South,,,,,,"$1,691"
+,Salem,,South,,,,,,"$2,040"
+,Salem,,West,,,,,,"$1,405"
+,Salinas,,West,,,,,,$729
+,Salt Lake City,,West,,,,,,$803
+,San Angelo,,Central,,,,,,$651
+,San Antonio,,Central,,,,,,"$21,844"
+,San Bernardino,,West,,,,,,$979
+,San Clemente,,West,,,,,,$90
+,San Diego,,West,,,,,,"$47,521"
+,San Francisco,,West,,,,,,"$112,669"
+,San Gabriel,,West,,,,,,"$2,061"
+,San Jose,,West,,,,,,"$6,071"
+,San Luis Obispo,,West,,,,,,$4
+,San Marcos,,Central,,,,,,$108
+,San Mateo,,West,,,,,,$75
+,Sandy Springs,,South,,,,,,"$1,997"
+,Sanford,,South,,,,,,$226
+,Santa Ana,,West,,,,,,"$3,366"
+,Santa Barbara,,West,,,,,,"$4,289"
+,Santa Clara,,West,,,,,,$222
+,Santa Fe,,West,,,,,,$101
+,Santa Maria,,West,,,,,,$115
+,Scottsdale,,West,,,,,,"$1,466"
+,Seattle,,West,,,,,,"$119,541"
+,Sheboygan,,Central,,,,,,$80
+,Shelton,,East,,,,,,$73
+,Sierra Vista,,West,,,,,,$76
+,Sioux Falls,,Central,,,,,,"$1,137"
+,Skokie,,Central,,,,,,$569
+,Smyrna,,South,,,,,,"$3,239"
+,South Bend,,Central,,,,,,"$1,238"
+,Southaven,,South,,,,,,"$1,455"
+,Sparks,,West,,,,,,"$2,562"
+,Spokane,,West,,,,,,"$2,028"
+,Springdale,,South,,,,,,$4
+,Springfield,,Central,,,,,,"$15,051"
+,Springfield,,East,,,,,,"$5,613"
+,Springfield,,South,,,,,,"$16,629"
+,Springfield,,West,,,,,,"$5,761"
+,Sterling Heights,,Central,,,,,,$110
+,Stockton,,West,,,,,,"$1,228"
+,Suffolk,,South,,,,,,"$1,598"
+,Summerville,,South,,,,,,$407
+,Sunnyvale,,West,,,,,,$636
+,Superior,,Central,,,,,,"$1,300"
+,Tallahassee,,South,,,,,,"$7,251"
+,Tamarac,,South,,,,,,"$1,414"
+,Tampa,,South,,,,,,"$5,196"
+,Taylor,,Central,,,,,,$354
+,Temecula,,West,,,,,,$809
+,Tempe,,West,,,,,,"$1,070"
+,Texarkana,,South,,,,,,$654
+,Texas City,,Central,,,,,,$791
+,The Colony,,Central,,,,,,$142
+,Thomasville,,South,,,,,,$151
+,Thornton,,West,,,,,,$765
+,Thousand Oaks,,West,,,,,,$239
+,Tigard,,West,,,,,,"$1,394"
+,Tinley Park,,Central,,,,,,$22
+,Toledo,,East,,,,,,"$4,466"
+,Torrance,,West,,,,,,"$3,132"
+,Trenton,,Central,,,,,,"$1,765"
+,Troy,,East,,,,,,"$4,507"
+,Tucson,,West,,,,,,"$6,313"
+,Tulsa,,Central,,,,,,"$5,557"
+,Tuscaloosa,,South,,,,,,$176
+,Twin Falls,,West,,,,,,"$1,149"
+,Tyler,,Central,,,,,,$347
+,Urbandale,,Central,,,,,,$149
+,Utica,,East,,,,,,$655
+,Vacaville,,West,,,,,,$423
+,Vallejo,,West,,,,,,"$1,221"
+,Vancouver,,West,,,,,,$687
+,Vineland,,East,,,,,,$648
+,Virginia Beach,,South,,,,,,"$5,752"
+,Visalia,,West,,,,,,$319
+,Waco,,Central,,,,,,$606
+,Warner Robins,,South,,,,,,$435
+,Warwick,,East,,,,,,"$2,427"
+,Washington,,East,,,,,,"$2,865"
+,Waterbury,,East,,,,,,"$1,326"
+,Waterloo,,Central,,,,,,$30
+,Watertown,,East,,,,,,"$4,045"
+,Waukesha,,Central,,,,,,$55
+,Wausau,,Central,,,,,,$317
+,Waynesboro,,South,,,,,,"$3,059"
+,West Allis,,Central,,,,,,$250
+,West Jordan,,West,,,,,,$312
+,West Palm Beach,,South,,,,,,$141
+,Westfield,,East,,,,,,$520
+,Westland,,Central,,,,,,"$2,058"
+,Westminster,,West,,,,,,"$3,827"
+,Wheeling,,Central,,,,,,$737
+,Wheeling,,East,,,,,,"$1,210"
+,Whittier,,West,,,,,,$445
+,Wichita,,Central,,,,,,$825
+,Wilmington,,East,,,,,,"$6,554"
+,Wilmington,,South,,,,,,$743
+,Wilson,,South,,,,,,$369
+,Woodbury,,Central,,,,,,$608
+,Woodland,,West,,,,,,$265
+,Woodstock,,Central,,,,,,$857
+,Woodstock,,South,,,,,,$287
+,Woonsocket,,East,,,,,,$196
+,Yonkers,,East,,,,,,"$7,658"
+,York,,East,,,,,,$818
+,Yucaipa,,West,,,,,,$51
+,Yuma,,West,,,,,,$841
