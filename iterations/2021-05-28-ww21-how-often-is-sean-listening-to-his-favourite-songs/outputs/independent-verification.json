@@ -1,0 +1,26 @@
+{
+  "scope": "Locked-extract oracle plus native scatter/timeline workbook contracts.",
+  "acceptance": [
+    "ww21-scatter-aggregates",
+    "ww21-selected-song-set",
+    "ww21-plot-switch",
+    "ww21-timeline",
+    "ww21-plays-filter",
+    "ww21-interactions"
+  ],
+  "facts": {
+    "extract_sha256": "627efb60bc54c486c330196df74b4fe518a92cba08208dec0b91c1594f442be5",
+    "rows": 62907,
+    "songs": 15874,
+    "filtered_songs": 89,
+    "filtered_days_range": [
+      259,
+      1602
+    ],
+    "filtered_plays_range": [
+      50,
+      88
+    ]
+  },
+  "output_sha256": "b59b9a450a0de304db0c40ac32d78b71750142651ff98b89a414361c428a2f3b"
+}

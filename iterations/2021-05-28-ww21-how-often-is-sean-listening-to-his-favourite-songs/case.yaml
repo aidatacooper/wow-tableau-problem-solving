@@ -1,0 +1,99 @@
+schema_version: 1.1.0
+case_id: wow-2021-ww21-how-often-is-sean-listening-to-his-favourite-songs
+iteration_id: 2021-05-28-ww21-how-often-is-sean-listening-to-his-favourite-songs
+post: https://donnacoles.home.blog/2021/05/28/how-often-is-sean-listening-to-his-favourite-songs/
+legacy_case_ids: {}
+article_date: '2021-05-28'
+challenge_year: 2021
+challenge_week: 21
+challenge_date: '2021-05-26'
+date_evidence:
+  article_date: Article-local HTML 'Published:' calendar date, retained in evidence/article-date.json.
+  challenge: Official 2021 Week 21 article title.
+  challenge_date: Official WordPress REST date field retained in evidence/official-challenge-date.json.
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2021w21tab/
+    wordpress_post_id: 5381
+  article:
+    url: https://donnacoles.home.blog/2021/05/28/how-often-is-sean-listening-to-his-favourite-songs/
+    path: null
+    sha256: 363c666eaa9e115f6da25631c327901e98a90d45572e5e4d3db9fff382d66d64
+  workbook:
+    url: https://public.tableau.com/views/2021_05_26_WW21_Favourite_Songs/2021_05_26_WW21_Favourite_Songs
+    filename: 2021_05_26_WW21_Favourite_Songs.twbx
+    sha256: 09ba55fcc3e145dc4d72c4c87a8b593fd75f54c46256cdd50c49ff23711877b3
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- evidence/article-date.json
+- evidence/build-provenance.json
+- evidence/cloud-request.json
+- evidence/cloud-verification.json
+- evidence/functional-verification.json
+- evidence/official-challenge-date.json
+- evidence/sdk-baseline.json
+- evidence/visual-review.md
+- inputs/source-lock.json
+notes:
+- The scatter and the timeline share one dual-axis worksheet; each mark's value
+  branches on the Selected Song set membership.
+- Plays to Plot carries an explicit table-calculation addressing on the exact
+  Date Played, otherwise Tableau's default "table down" gives the wrong running
+  total.
+- A custom tooltip that references EXACTDATE(date) blanks the Cloud render; the
+  tooltip uses the bare date fields instead (recorded as a workaround).
+cwtwb:
+  tested_version: 0.27.1
+  tested_commit: 4cd2c61c
+  runs:
+  - version: 0.27.1
+    commit: 4cd2c61c
+    result: workaround
+    evidence: evidence/sdk-baseline.json
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: workaround
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/2021_05_26_WW21_My Streaming Activity.hyper
+acceptance:
+- id: ww21-scatter-aggregates
+  description: The per-song fields (first and last listen date, days between, and
+    total plays) are the {FIXED [SongID]} aggregates over the raw timestamps.
+  mode: automated
+- id: ww21-selected-song-set
+  description: The Selected Song empty-level set exists and is registered with its
+    In/Out column instance.
+  mode: automated
+- id: ww21-plot-switch
+  description: Days to Plot and Plays to Plot branch on ATTR([Selected Song])
+    between the song-level and date-level measures.
+  mode: automated
+- id: ww21-timeline
+  description: The second pane is a stepped Line whose Path is Date Played, and
+    the running total is addressed by that exact date.
+  mode: automated
+- id: ww21-plays-filter
+  description: The worksheet filters Total Plays per Song to the 50..100 range.
+  mode: automated
+- id: ww21-interactions
+  description: The dashboard has a single-select change-set action on Selected
+    Song and a highlight action targeting the True constant.
+  mode: automated
+remaining_work: []
+blocker: null
+workarounds:
+- A custom tooltip run that references EXACTDATE(date) blanks the Cloud render, so
+  the tooltip uses the bare date fields.
+- axis_style.encodings combined with the folded dual-axis builder blanked the
+  render in diagnostics, so only axis_style.per_field titles are set.
+capability_gaps: []
+related_cwtwb_issues: []

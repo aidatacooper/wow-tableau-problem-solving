@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0.0",
+  "scope": "Cloud REST export of the replica Chart worksheet; the CSV's 89 filtered songs are compared field-by-field against the locked-extract oracle (days between first/last listen and total plays).",
+  "browser_interaction_executed": false,
+  "state": {
+    "description": "Default state; no song selected, so the chart shows the scatter of every song in the 50..100 play band."
+  },
+  "observed": {
+    "export_rows": 89,
+    "oracle_songs": 89,
+    "replica_songs": 89,
+    "mismatched_songs": 0,
+    "missing_songs": 0,
+    "extract_rows": 62907,
+    "songs": 15874,
+    "filtered_days_range": [259, 1602],
+    "filtered_plays_range": [50, 88]
+  },
+  "expected_from_oracle": {
+    "songs": 15874,
+    "filtered_songs": 89,
+    "filtered_days_range": [259, 1602],
+    "filtered_plays_range": [50, 88]
+  },
+  "result": "pass"
+}

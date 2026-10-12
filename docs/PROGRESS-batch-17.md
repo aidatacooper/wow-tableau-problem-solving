@@ -21,7 +21,7 @@
 - [x] 07 2021-04-29 ww17 Generation Population — `2021_04_28_WW17_Generation_Population` — replicated/pass（commit f590c8c；LOADED@0.27.1 pin；Cloud 证据已重采）
 - [x] 08 2021-05-13 ww19 Map Layers — `2021_05_12_WW19_Map_Layers` — replicated/workaround（commit 1dd8b26 + fe7b333；validate PASS / LOADED；Cloud 绑定 f47ea288）
 - [x] 09 2021-05-20 ww20 Date Compare — `2021_05_19_WW20_Date_Compare` — replicated/pass（validate PASS / LOADED@4cd2c61；Cloud 3 个 comparison state 的 BAN CSV 与 oracle 逐位一致）
-- [ ] 10 2021-05-28 ww21 Favourite Songs — `2021_05_26_WW21_Favourite_Songs`
+- [x] 10 2021-05-28 ww21 Favourite Songs — `2021_05_26_WW21_Favourite_Songs` — replicated/workaround（validate PASS / LOADED@4cd2c61；Cloud CSV 89 首过滤歌曲与 oracle 逐位一致）
 - [ ] 11 2021-06-03 ww22 Unstructured — `WOWW22-Tableau`
 - [ ] 12 2021-06-11 ww23 Sales Goal Selection — `2021_06_09_WW23_Sales_Goal_Selection`
 - [ ] 13 2021-06-17 ww24 Cholera Outbreak — `2021_06_16_WW24_Cholera_Outbreak_Map`
@@ -51,6 +51,7 @@
 - [x] 2026-10-11 05 ww15 Google Analytics — 已复现（validate PASS / LOADED / 83 tests OK）
 - [x] 2026-10-11 06 ww16 Quick LoDs — 已复现（validate PASS / LOADED / 83 tests OK）
 - [x] 2026-10-12 09 ww20 Date Compare — 已复现（validate PASS / LOADED@4cd2c61；Cloud 3 状态 CSV 与 oracle 一致；83 tests OK）
+- [x] 2026-10-12 10 ww21 Favourite Songs — 已复现（validate PASS / LOADED@4cd2c61；Cloud 89 首过滤歌曲与 oracle 一致；83 tests OK）
 
 ## 已验证的技术事实（可复用）
 
@@ -115,11 +116,19 @@
   任何在 capture 之后再跑 build_and_check 都会使 Cloud 绑定失效。
 - `capture_case_cloud.py` 的 `states[].parameters` 可以传参数值（如 `pComparison: 2`），
   同一 workbook 多状态导出 `cloud-{role}-{name}.png/csv`，用于验证参数分支。
+- **坑**：custom tooltip 的 run 引用 `EXACTDATE(<date field>)` 会让整个 worksheet 在 Cloud 上渲染为空
+  （1586x32）。改用裸日期字段；tooltip 文本会按月聚合，仅属表现差异。
+- **坑**：folded dual-axis（`fold_axes=True`）再叠加 `axis_style.encodings` + 行 Detail 字段会渲染为空；
+  只用 `axis_style.per_field` 设标题。
+- 散点+时间线混排（ww21）：两个 pane 的 measure 都根据 set 成员关系切换语义
+  （`IF ATTR([Set]) THEN <date-level> ELSE <song-level> END`），
+  并用 `configure_layered_chart(axis_shelf="rows", fold_axes=True, synchronized=True)`；
+  running total 的 `table_calc_overrides` 用 `EXACTDATE(Date)` 寻址才单调。
 
 ## 下一步
 
-1. 01–09 已完成并全部提交（ww20 待提交）。
-2. 10–17 由 successor agent 在本 worktree 接手。
+1. 01–10 已完成并全部提交（ww20/ww21）。
+2. 11–17 由 successor agent 在本 worktree 接手。
    **不要**在本 worktree 并行跑 Desktop，也不要重复解 10+，否则产物与 git 会互相覆盖。
 
 ## 阻塞

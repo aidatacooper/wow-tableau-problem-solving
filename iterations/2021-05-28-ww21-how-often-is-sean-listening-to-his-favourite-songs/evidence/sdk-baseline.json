@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0.0",
+  "cwtwb_version": "0.27.1",
+  "cwtwb_commit": "4cd2c61c1286a02932b5b42f47de344683d656a3",
+  "result": "workaround",
+  "scope": "Released-SDK baseline for the WW21 favourite-songs scatter + timeline case.",
+  "supported": [
+    "add_set(use_all=False) for the empty-level Selected Song set",
+    "configure_layered_chart with axis_shelf='rows', fold_axes=True and synchronized=True for the dual-axis worksheet",
+    "pane path encoding plus line-interpolation='step' for the stepped timeline",
+    "add_calculated_field(table_calc=...) and configure_layered_chart(table_calc_overrides=...) for the running-total addressing",
+    "configure_layered_chart(filters=[{...min/max...}]) for the Total Plays per Song range filter",
+    "add_dashboard_set_action(single_select=True, selection_mode='assign') for the change-set action",
+    "add_dashboard_action(action_type='highlight', fields=['True']) for the tsc:brush highlight action",
+    "configure_custom_tooltip with rich-text runs on both panes"
+  ],
+  "findings": [
+    {
+      "key": "exactdate-in-custom-tooltip",
+      "severity": "workaround",
+      "summary": "A custom tooltip run whose field expression is EXACTDATE(<date field>) makes Tableau Cloud render the whole worksheet blank (1586x32).",
+      "workaround": "Reference the bare date fields in the tooltip runs; the tooltip text aggregates them at the month level, which is only cosmetic."
+    },
+    {
+      "key": "axis-encodings-with-folded-rows",
+      "severity": "workaround",
+      "summary": "Combining axis_style.encodings with the folded dual-axis builder and a row Detail field blanked the Cloud render in diagnostics.",
+      "workaround": "Set only axis_style.per_field titles; leave the folded axis defaults alone."
+    }
+  ]
+}

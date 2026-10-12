@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "generated_from": "iterations/*/case.yaml",
-  "active_case_count": 103,
+  "active_case_count": 104,
   "legacy_case_ids": {
     "donna-2019-07-18-63877b35d19a": "wow-2019-ww29-high-orders",
     "donna-2019-07-25-59a0a144b25b": "wow-2019-ww30-navigation-kpi",
@@ -5825,6 +5825,66 @@
         "The BAN bar colour uses the author's 24-swatch custom diverging palette with num-steps=2, reverse=true, min=-1 and max=1, which renders the positive difference teal and the negative difference black."
       ],
       "metadata": "iterations/2021-05-20-ww20-can-you-compare-same-day-to-a-selected-date/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.27.1"
+    },
+    {
+      "case_id": "wow-2021-ww21-how-often-is-sean-listening-to-his-favourite-songs",
+      "legacy_case_ids": {},
+      "iteration_id": "2021-05-28-ww21-how-often-is-sean-listening-to-his-favourite-songs",
+      "article_date": "2021-05-28",
+      "challenge_year": 2021,
+      "challenge_week": 21,
+      "challenge_date": "2021-05-26",
+      "date_evidence": {
+        "article_date": "Article-local HTML 'Published:' calendar date, retained in evidence/article-date.json.",
+        "challenge": "Official 2021 Week 21 article title.",
+        "challenge_date": "Official WordPress REST date field retained in evidence/official-challenge-date.json."
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2021w21tab/",
+          "wordpress_post_id": 5381
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2021/05/28/how-often-is-sean-listening-to-his-favourite-songs/",
+          "path": null,
+          "sha256": "363c666eaa9e115f6da25631c327901e98a90d45572e5e4d3db9fff382d66d64"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2021_05_26_WW21_Favourite_Songs/2021_05_26_WW21_Favourite_Songs",
+          "filename": "2021_05_26_WW21_Favourite_Songs.twbx",
+          "sha256": "09ba55fcc3e145dc4d72c4c87a8b593fd75f54c46256cdd50c49ff23711877b3"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "workaround",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "evidence/article-date.json",
+        "evidence/build-provenance.json",
+        "evidence/cloud-request.json",
+        "evidence/cloud-verification.json",
+        "evidence/functional-verification.json",
+        "evidence/official-challenge-date.json",
+        "evidence/sdk-baseline.json",
+        "evidence/visual-review.md",
+        "inputs/source-lock.json"
+      ],
+      "notes": [
+        "The scatter and the timeline share one dual-axis worksheet; each mark's value branches on the Selected Song set membership.",
+        "Plays to Plot carries an explicit table-calculation addressing on the exact Date Played, otherwise Tableau's default \"table down\" gives the wrong running total.",
+        "A custom tooltip that references EXACTDATE(date) blanks the Cloud render; the tooltip uses the bare date fields instead (recorded as a workaround)."
+      ],
+      "metadata": "iterations/2021-05-28-ww21-how-often-is-sean-listening-to-his-favourite-songs/case.yaml",
       "metadata_contract": "1.1.0",
       "tested_sdk_version": "0.27.1"
     },

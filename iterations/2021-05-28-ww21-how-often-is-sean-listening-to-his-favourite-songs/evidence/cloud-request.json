@@ -1,0 +1,15 @@
+{
+  "case_dir": "iterations/2021-05-28-ww21-how-often-is-sean-listening-to-his-favourite-songs",
+  "author_workbook": "dashboards/2021_05_26_WW21_Favourite_Songs/2021_05_26_WW21_Favourite_Songs.twbx",
+  "author_view": "2021_05_26_WW21_Favourite_Songs",
+  "replica_view": "2021_05_26_WW21_Favourite_Songs",
+  "states": [],
+  "data_views": [
+    {
+      "name": "chart",
+      "author": "Data",
+      "replica": "Chart",
+      "scope": "Author Data sheet and the replica Chart worksheet; the REST CSV confirms the per-song days-between and total-plays scatter aggregates."
+    }
+  ]
+}

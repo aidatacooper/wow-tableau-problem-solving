@@ -1,0 +1,96 @@
+{
+  "case_id": "wow-2021-ww21-how-often-is-sean-listening-to-his-favourite-songs",
+  "captured_at": "2026-10-12T10:16:45.538287+00:00",
+  "source_hashes": {
+    "author": "09ba55fcc3e145dc4d72c4c87a8b593fd75f54c46256cdd50c49ff23711877b3",
+    "replica": "b59b9a450a0de304db0c40ac32d78b71750142651ff98b89a414361c428a2f3b"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "08a99cac-fb7f-41be-9d4a-d7cfab001924",
+      "name": "cwtwb-review-wow-2021-ww21-how-often-is-sean-listening-to-his-favourite-songs-author-09ba55fcc3e1",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2988338",
+      "views": [
+        {
+          "name": "2021_05_26_WW21_Favourite_Songs",
+          "id": "30c44de4-fc9f-4609-aa9a-8cf6decbc2f3"
+        },
+        {
+          "name": "Data",
+          "id": "ec5b236b-5cc7-4aab-9830-58c03219d9d2"
+        }
+      ]
+    },
+    "replica": {
+      "id": "bcf25535-84df-46c9-8a7e-212945fc2340",
+      "name": "cwtwb-review-wow-2021-ww21-how-often-is-sean-listening-to-his-favourite-songs-replica-b59b9a450a0d",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2988623",
+      "views": [
+        {
+          "name": "Chart",
+          "id": "6cf40b15-3e72-45d6-9362-65bd02aebea0"
+        },
+        {
+          "name": "2021_05_26_WW21_Favourite_Songs",
+          "id": "2810fc30-2089-4584-80de-eac5721d6408"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "30c44de4-fc9f-4609-aa9a-8cf6decbc2f3",
+          "name": "2021_05_26_WW21_Favourite_Songs",
+          "path": "outputs/cloud-author.png",
+          "sha256": "f8fd5e0f727942d887055b288fe3894393905d8723eb83e0a69cb126f917fe15",
+          "size": [
+            2000,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "2810fc30-2089-4584-80de-eac5721d6408",
+          "name": "2021_05_26_WW21_Favourite_Songs",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "f9f83e349f5bde4e56fb4f7eaaaac45002ed5dd9b370f36fb0bc2f9b2d7a2491",
+          "size": [
+            2000,
+            1600
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Data",
+          "view_id": "ec5b236b-5cc7-4aab-9830-58c03219d9d2",
+          "scope": "Author Data sheet and the replica Chart worksheet; the REST CSV confirms the per-song days-between and total-plays scatter aggregates.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-chart.csv",
+          "sha256": "214a96edb81580c796c1334d2269968279a687ba94222a9de5a528bf35087478",
+          "bytes": 337603
+        },
+        {
+          "role": "replica",
+          "view": "Chart",
+          "view_id": "6cf40b15-3e72-45d6-9362-65bd02aebea0",
+          "scope": "Author Data sheet and the replica Chart worksheet; the REST CSV confirms the per-song days-between and total-plays scatter aggregates.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-chart.csv",
+          "sha256": "8aaba52a254f6eadf3ebb3ba9f64944ea358f0f732f31d8b58c317f5557fcd7a",
+          "bytes": 437304
+        }
+      ]
+    }
+  ],
+  "status": "captured_requires_independent_review"
+}
