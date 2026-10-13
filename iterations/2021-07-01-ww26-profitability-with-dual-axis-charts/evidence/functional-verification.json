@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0.0",
+  "scope": "Locked-extract oracle for the WW26 table-calculation chain; the replica BAN/Viz subtitle matches the author's 79% / 33%.",
+  "browser_interaction_executed": false,
+  "state": {
+    "description": "Default state; the full order list ranked by profit descending."
+  },
+  "observed": {
+    "extract_rows": 9994,
+    "orders": 5009,
+    "total_profit": 286397.0217,
+    "marker_index": 3970,
+    "percent_profitable": "79%",
+    "potential_decrease": "33%"
+  },
+  "expected_from_oracle": {
+    "orders": 5009,
+    "total_profit": 286397.0217,
+    "percent_profitable": 0.792573,
+    "potential_decrease": 0.328228
+  },
+  "result": "pass"
+}

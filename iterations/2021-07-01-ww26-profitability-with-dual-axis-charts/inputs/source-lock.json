@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-12",
+  "source_workbook": {
+    "filename": "2021_06_30_WW26_Pareto_Profitability.twbx",
+    "bytes": 148873,
+    "sha256": "c0cafed7dc44dd7f668586791ab80ce0731f33350309a4e68fc8b0a83c0a816a",
+    "url": null
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/TableauTemp/TEMP_0ootdtt1hkoyir17nqe8y1cxn2lr.hyper",
+      "file": "inputs/TEMP_0ootdtt1hkoyir17nqe8y1cxn2lr.hyper",
+      "bytes": 458752,
+      "sha256": "b871e24b758581fbfb85fcca496cde7c3790cd0a358438e41947c7b858ae94a6"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

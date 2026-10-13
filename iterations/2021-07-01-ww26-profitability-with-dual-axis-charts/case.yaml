@@ -1,0 +1,97 @@
+schema_version: 1.1.0
+case_id: wow-2021-ww26-profitability-with-dual-axis-charts
+iteration_id: 2021-07-01-ww26-profitability-with-dual-axis-charts
+post: https://donnacoles.home.blog/2021/07/01/profitability-with-dual-axis-charts/
+legacy_case_ids: {}
+article_date: '2021-07-01'
+challenge_year: 2021
+challenge_week: 26
+challenge_date: '2021-06-29'
+date_evidence:
+  article_date: Article-local HTML 'Published:' calendar date, retained in evidence/article-date.json.
+  challenge: Official 2021 Week 26 article title.
+  challenge_date: Official WordPress REST date field retained in evidence/official-challenge-date.json.
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2021-week-26-tableau-profitability-with-dual-axis-charts/
+    wordpress_post_id: 5530
+  article:
+    url: https://donnacoles.home.blog/2021/07/01/profitability-with-dual-axis-charts/
+    path: null
+    sha256: 494a0e7e561a69c2443e90e3b0601062fa7804a199a5e036cd4e42b990f689ba
+  workbook:
+    url: https://public.tableau.com/views/2021_06_30_WW26_Pareto_Profitability/2021_06_30_WW26_Pareto_Profitability
+    filename: 2021_06_30_WW26_Pareto_Profitability.twbx
+    sha256: c0cafed7dc44dd7f668586791ab80ce0731f33350309a4e68fc8b0a83c0a816a
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- evidence/article-date.json
+- evidence/build-provenance.json
+- evidence/cloud-request.json
+- evidence/cloud-verification.json
+- evidence/functional-verification.json
+- evidence/official-challenge-date.json
+- evidence/sdk-baseline.json
+- evidence/visual-review.md
+- inputs/source-lock.json
+notes:
+- The whole chart is table calculations addressed by Order ID; the orders are
+  ranked by profit descending before the running sums accumulate.
+- Passing table_calc_overrides replaces the nested table-calc dependency
+  metadata and collapses the curve, so the builder leaves it unset.
+- The subtitle references % of Total Profitable and Potential Profitability
+  Decrease, which resolve to 79% and 33% exactly as the author's.
+cwtwb:
+  tested_version: 0.27.1
+  tested_commit: 4cd2c61c
+  runs:
+  - version: 0.27.1
+    commit: 4cd2c61c
+    result: workaround
+    evidence: evidence/sdk-baseline.json
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: workaround
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/TEMP_0ootdtt1hkoyir17nqe8y1cxn2lr.hyper
+acceptance:
+- id: ww26-cumulative-order-count
+  description: Count Orders is COUNTD(Order ID) and the cumulative/total counts are
+    the RUNNING_SUM/WINDOW_SUM chain over it.
+  mode: automated
+- id: ww26-cumulative-percent
+  description: Cumulative % of Total Orders is the running count over the total
+    count and reaches 100%.
+  mode: automated
+- id: ww26-cumulative-profit
+  description: Cumulative Profit is RUNNING_SUM(SUM([Profit])) and its final value
+    is the total profit.
+  mode: automated
+- id: ww26-profit-colour
+  description: Profit is +ve is SUM([Profit]) > 0 and colours the cumulative-profit
+    line.
+  mode: automated
+- id: ww26-subtitle-measures
+  description: The Profitable Marker row plus the two WINDOW_MAX fields resolve the
+    share of profitable orders and the potential profitability decrease.
+  mode: automated
+- id: ww26-dual-axis-chart
+  description: The Viz is an unsynchronised folded dual axis with a Line pane over
+    a Bar pane and Order ID on Detail sorted by profit descending.
+  mode: automated
+remaining_work: []
+blocker: null
+workarounds:
+- table_calc_overrides replaces the auto-generated nested table-calc dependency
+  metadata and collapses the cumulative curve; the builder leaves it unset.
+capability_gaps: []
+related_cwtwb_issues: []

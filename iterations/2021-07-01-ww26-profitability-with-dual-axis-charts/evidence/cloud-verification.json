@@ -1,0 +1,96 @@
+{
+  "case_id": "wow-2021-ww26-profitability-with-dual-axis-charts",
+  "captured_at": "2026-10-13T02:13:34.340118+00:00",
+  "source_hashes": {
+    "author": "c0cafed7dc44dd7f668586791ab80ce0731f33350309a4e68fc8b0a83c0a816a",
+    "replica": "a5e149a395849fa7f449d54d966302609d65108f8309e1604e0e93125677eb78"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "5664b520-7924-4472-b78e-84ada23adc51",
+      "name": "cwtwb-review-wow-2021-ww26-profitability-with-dual-axis-charts-author-c0cafed7dc44",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2989577",
+      "views": [
+        {
+          "name": "Data",
+          "id": "d27fd3ec-cb25-411b-9e5b-6900fa27b6c9"
+        },
+        {
+          "name": "2021_06_30_WW26_Pareto_Profitability",
+          "id": "c2e646d0-297a-4875-89c2-092519829127"
+        }
+      ]
+    },
+    "replica": {
+      "id": "0bbdabbc-c1aa-4ec0-8185-ea4471322fa8",
+      "name": "cwtwb-review-wow-2021-ww26-profitability-with-dual-axis-charts-replica-a5e149a39584",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2993287",
+      "views": [
+        {
+          "name": "Viz",
+          "id": "65024a7e-a746-436b-96c1-f4bd3bb207aa"
+        },
+        {
+          "name": "2021_06_30_WW26_Pareto_Profitability",
+          "id": "225ab983-20a1-4b9c-aabc-db0a7917e702"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "c2e646d0-297a-4875-89c2-092519829127",
+          "name": "2021_06_30_WW26_Pareto_Profitability",
+          "path": "outputs/cloud-author.png",
+          "sha256": "0d243f6664438a7aa8913e3bd7d7820bbeafdc1e5fb444b482d783133827bdd7",
+          "size": [
+            1200,
+            1200
+          ]
+        },
+        "replica": {
+          "id": "65024a7e-a746-436b-96c1-f4bd3bb207aa",
+          "name": "Viz",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "38f58e874830960b171e62f83a21843c320648902cfe48a90fe0332e4f9f2386",
+          "size": [
+            1584,
+            1714
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "2021_06_30_WW26_Pareto_Profitability",
+          "view_id": "c2e646d0-297a-4875-89c2-092519829127",
+          "scope": "Author dashboard and replica Viz; the REST CSV confirms the per-order cumulative profit, cumulative percent and subtitle measures.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-viz.csv",
+          "sha256": "3452c85889783b0e80b0c81247d9d86589ca7b2a2277ae0e11ab0c0a4cb2c4cb",
+          "bytes": 630832
+        },
+        {
+          "role": "replica",
+          "view": "Viz",
+          "view_id": "65024a7e-a746-436b-96c1-f4bd3bb207aa",
+          "scope": "Author dashboard and replica Viz; the REST CSV confirms the per-order cumulative profit, cumulative percent and subtitle measures.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-viz.csv",
+          "sha256": "fbbde1246100cb6bc8da8ecd9d5571c9e17b9f6987e2a362fa369cc76a88bf8e",
+          "bytes": 588010
+        }
+      ]
+    }
+  ],
+  "status": "captured_requires_independent_review"
+}

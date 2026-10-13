@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0.0",
+  "cwtwb_version": "0.27.1",
+  "cwtwb_commit": "4cd2c61c1286a02932b5b42f47de344683d656a3",
+  "result": "workaround",
+  "scope": "Released-SDK baseline for the WW26 profitability dual-axis Pareto case.",
+  "supported": [
+    "add_calculated_field(..., table_calc={'ordering_type': 'Field', 'ordering_field': '[Order ID]'}) for the RUNNING_SUM/WINDOW_SUM/WINDOW_MAX/LOOKUP chain",
+    "configure_layered_chart(axis_shelf='rows', fold_axes=True, synchronized=False) for the unsynchronised folded dual axis",
+    "sort_mode='computed' with sort_field='Order ID' and sort_descending='SUM(Profit)' for the profit-descending order list",
+    "a Line pane coloured by a boolean field over a Bar pane",
+    "set_worksheet_rich_title referencing the two window-max measures"
+  ],
+  "findings": [
+    {
+      "key": "table-calc-override-strips-nested-metadata",
+      "severity": "workaround",
+      "summary": "Passing table_calc_overrides for these fields replaces the auto-generated nested <table-calc> dependency metadata (the field=\"[ds].[Calculation_...]\" entries). Without it the cumulative curve collapses to 100% and the subtitle reads 397100% / 0%.",
+      "workaround": "Leave table_calc_overrides unset; the builder then emits the correct nested metadata from the field-level table_calc declarations."
+    }
+  ]
+}

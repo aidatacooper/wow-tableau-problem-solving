@@ -1,0 +1,15 @@
+{
+  "case_dir": "iterations/2021-07-01-ww26-profitability-with-dual-axis-charts",
+  "author_workbook": "dashboards/2021_06_30_WW26_Pareto_Profitability/2021_06_30_WW26_Pareto_Profitability.twbx",
+  "author_view": "2021_06_30_WW26_Pareto_Profitability",
+  "replica_view": "Viz",
+  "states": [],
+  "data_views": [
+    {
+      "name": "viz",
+      "author": "2021_06_30_WW26_Pareto_Profitability",
+      "replica": "Viz",
+      "scope": "Author dashboard and replica Viz; the REST CSV confirms the per-order cumulative profit, cumulative percent and subtitle measures."
+    }
+  ]
+}
