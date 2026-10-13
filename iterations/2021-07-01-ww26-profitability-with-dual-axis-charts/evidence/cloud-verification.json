@@ -1,9 +1,9 @@
 {
   "case_id": "wow-2021-ww26-profitability-with-dual-axis-charts",
-  "captured_at": "2026-10-13T02:13:34.340118+00:00",
+  "captured_at": "2026-10-13T08:02:07.181606+00:00",
   "source_hashes": {
     "author": "c0cafed7dc44dd7f668586791ab80ce0731f33350309a4e68fc8b0a83c0a816a",
-    "replica": "a5e149a395849fa7f449d54d966302609d65108f8309e1604e0e93125677eb78"
+    "replica": "1592611a9a56119efb7968877268c12be9cc4f58626469b2f04bfd4cfe73eb89"
   },
   "acceptance_scope": "cloud_rest_and_artifact_contracts",
   "browser_interaction_executed": false,
@@ -24,17 +24,17 @@
       ]
     },
     "replica": {
-      "id": "0bbdabbc-c1aa-4ec0-8185-ea4471322fa8",
-      "name": "cwtwb-review-wow-2021-ww26-profitability-with-dual-axis-charts-replica-a5e149a39584",
-      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2993287",
+      "id": "5fc904af-39b5-4bf4-9fa3-ce1d3a5d826f",
+      "name": "cwtwb-review-wow-2021-ww26-profitability-with-dual-axis-charts-replica-1592611a9a56",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2994892",
       "views": [
         {
           "name": "Viz",
-          "id": "65024a7e-a746-436b-96c1-f4bd3bb207aa"
+          "id": "ac23a0ab-9d75-4171-8dcb-ca8cd5fb8d68"
         },
         {
           "name": "2021_06_30_WW26_Pareto_Profitability",
-          "id": "225ab983-20a1-4b9c-aabc-db0a7917e702"
+          "id": "6c032f89-1fa3-422a-81e1-f8fede8ee5b4"
         }
       ]
     }
@@ -56,7 +56,7 @@
           ]
         },
         "replica": {
-          "id": "65024a7e-a746-436b-96c1-f4bd3bb207aa",
+          "id": "ac23a0ab-9d75-4171-8dcb-ca8cd5fb8d68",
           "name": "Viz",
           "path": "outputs/cloud-replica.png",
           "sha256": "38f58e874830960b171e62f83a21843c320648902cfe48a90fe0332e4f9f2386",
@@ -81,7 +81,7 @@
         {
           "role": "replica",
           "view": "Viz",
-          "view_id": "65024a7e-a746-436b-96c1-f4bd3bb207aa",
+          "view_id": "ac23a0ab-9d75-4171-8dcb-ca8cd5fb8d68",
           "scope": "Author dashboard and replica Viz; the REST CSV confirms the per-order cumulative profit, cumulative percent and subtitle measures.",
           "parameters": {},
           "filters": {},
