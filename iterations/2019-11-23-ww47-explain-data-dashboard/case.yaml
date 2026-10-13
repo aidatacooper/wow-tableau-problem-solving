@@ -90,7 +90,16 @@ remaining_work: []
 workarounds:
 - Use deterministic public INT/RIGHT/modulo jitter instead of unsupported author RANDOM(), preserving
   order-level granularity.
-capability_gaps: []
-related_cwtwb_issues: []
+capability_gaps:
+- key: random-function-not-in-catalog
+  description: The author's jitter uses Tableau's RANDOM(), which the SDK's
+    function catalog rejects, so an identical random scatter cannot be authored.
+  upstream_status: no-change-needed
+related_cwtwb_issues:
+- key: random-function-not-in-catalog
+  status: no-change-needed
+  note: RANDOM() is non-deterministic and unusable in a reproducible artifact;
+    deterministic order-ID modulo jitter reproduces the population and X
+    positions. No SDK change.
 acceptance_scope: cloud_rest_and_artifact_contracts
 browser_interaction_executed: false
