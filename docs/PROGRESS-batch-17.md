@@ -232,12 +232,35 @@ fixture + XPath 回归测试，`pytest -q` 1015 passed / 25 skipped）：
 ww49 / ww07 / ww10 三个旧 case 的 `capability_gaps` 原本记为未解，经核对当前 pin
 已全部 resolved，已改写为 `upstream_status: resolved`。
 
+## SDK 缺口上游化完成（2026-10-13）
+
+8 个 PR **已全部合并**到 cwtwb `origin/main`（merge commit `23b1df0`，版本 0.29.0a1）：
+PR #14/#15/#16/#17/#18/#19/#20/#21（合并提交依次 2b06fa5 / 6e27e7f / f72652e /
+97af7fd / 5a9ddec / 2f4f2de / 898b2d1 / 23b1df0）。
+
+合并过程中 #20/#21 因共用 `docs/case-driven-enhancements.md` 与
+`capability_registry.py` 需要 rebase 解冲突（两边都是追加型，保留双方条目）。
+
+### pin-bump（已做）
+
+- `requirements.txt`: `86119c1` → `23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c`
+  （commit `7750686`）。
+- 8 个 case 的 `related_cwtwb_issues.status` 与 `sdk-baseline.json` 的
+  `upstream_status` 由 `open` 改为 `merged`，并记录 `upstream_merge_commit`。
+- 新 pin 下重跑 gate：**17/17 batch-17 case validate PASS**、**83 unit tests OK**、
+  `verify_corpus LOADED=50 FAIL=0 UNKNOWN=0`、catalogue 111 active cases。
+- 注意：case 的 `cwtwb.tested_commit` 仍为 `4cd2c61c`（构建时实际使用的 SDK），
+  **不回改**——它是产物来源，不是 CI pin。与上次 pin-bump（`04a0f12`）一致。
+- 新 pin 的本地检出：`C:/Users/imgwho/Desktop/project/.sdk-pins/cwtwb-23b1df0`。
+
 ## 仍然待办（截至 2026-10-13）
 
-1. **8 个 cwtwb PR 等待评审/合并**（均 MERGEABLE/CLEAN，无 review）。合并后需要：
-   把本批 case 重新 pin 到新版本并重跑 gate（或按 repo 惯例单独开 pin-bump PR）。
-2. **237 篇未解 case**（349 帖 − 112 个 iteration）。batch-17 之后最早未解需重新盘点。
-3. `2019-12-08-ww49-swap-states` 的 notes 仍写「SDK commit will be locked by the
+1. **237 篇未解 case**（349 帖 − 112 个 iteration）。batch-17 之后最早未解需重新盘点。
+2. `2019-12-08-ww49-swap-states` 的 notes 仍写「SDK commit will be locked by the
    coordinating maintainer」，但 case 已 pass 且 pinned；如需要可清理该措辞。
-4. 三个 recipe 级能力（donut/lollipop/bullet/bump/butterfly/calendar/formatted-table）
+3. recipe 级能力（donut/lollipop/bullet/bump/butterfly/calendar/formatted-table）
    仍非一等原语——属设计选择，不是缺陷，除非有 case 需要才升级。
+4. 可选的后续优化：ww25/ww24 等 case 现在可以去掉当初的 workaround（例如
+   ww25 的 `table_calc='Rows'` hint、ww24 的 `_ensure_manifest_entry`），改用
+   新 SDK 的原生路径。这是**保真度改进**，不是 gate 要求；需重建产物 + 重采
+   Cloud 证据，建议单独开 PR。
