@@ -1,9 +1,9 @@
 {
   "case_id": "wow-2021-ww23-sales-goal-selection-tool",
-  "captured_at": "2026-10-12T11:17:24.391799+00:00",
+  "captured_at": "2026-10-13T02:05:52.054411+00:00",
   "source_hashes": {
     "author": "c5527a839084ca52a460cdaf17302c64ccbd7fef93cca18c0126e05b723121ee",
-    "replica": "36ee158b0371e790ca10f8ceaa24247cd9609f35ba72a4a1b432ba51fac39a66"
+    "replica": "a6e02c0f916719023a21fb69ab2d808f84a039fe253d227490e82ee76cd9656c"
   },
   "acceptance_scope": "cloud_rest_and_artifact_contracts",
   "browser_interaction_executed": false,
@@ -24,21 +24,21 @@
       ]
     },
     "replica": {
-      "id": "25d56f45-5939-45af-89f9-c332d059c56f",
-      "name": "cwtwb-review-wow-2021-ww23-sales-goal-selection-tool-replica-36ee158b0371",
-      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2988979",
+      "id": "7d27b739-28b8-4ba7-bf82-9efef4af2fe8",
+      "name": "cwtwb-review-wow-2021-ww23-sales-goal-selection-tool-replica-a6e02c0f9167",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2993253",
       "views": [
         {
           "name": "BANs",
-          "id": "b4232005-828b-4fcb-b3a2-bf4e94942753"
+          "id": "487732b7-318b-4dec-9693-2c5f821fbcab"
         },
         {
           "name": "Chart",
-          "id": "96e333db-fc42-422b-915e-6187b85bb441"
+          "id": "196dc153-c729-421a-93cb-a6305367a058"
         },
         {
           "name": "2021_06_09_WW23_Sales_Goal_Selection",
-          "id": "a7eb4afe-865f-4aa1-b5d6-1e6b51f8ed74"
+          "id": "2753e4eb-4c6f-4257-a848-49a1ab9b4235"
         }
       ]
     }
@@ -60,7 +60,7 @@
           ]
         },
         "replica": {
-          "id": "a7eb4afe-865f-4aa1-b5d6-1e6b51f8ed74",
+          "id": "2753e4eb-4c6f-4257-a848-49a1ab9b4235",
           "name": "2021_06_09_WW23_Sales_Goal_Selection",
           "path": "outputs/cloud-replica.png",
           "sha256": "270470910d62bea447188f5066509884f1a1afb6594fd7f891cde991ab40ee51",
@@ -96,7 +96,7 @@
         {
           "role": "replica",
           "view": "BANs",
-          "view_id": "b4232005-828b-4fcb-b3a2-bf4e94942753",
+          "view_id": "487732b7-318b-4dec-9693-2c5f821fbcab",
           "scope": "Default author dashboard and the replica BANs worksheet; the REST CSV confirms the three mixed-goal headline totals.",
           "parameters": {},
           "filters": {},
@@ -107,12 +107,12 @@
         {
           "role": "replica",
           "view": "Chart",
-          "view_id": "96e333db-fc42-422b-915e-6187b85bb441",
+          "view_id": "196dc153-c729-421a-93cb-a6305367a058",
           "scope": "Default author dashboard and the replica Chart worksheet; the REST CSV confirms the per-sub-category goal, value-to-goal and percent-of-goal values.",
           "parameters": {},
           "filters": {},
           "path": "outputs/cloud-replica-chart.csv",
-          "sha256": "5aaaa0e00a8b3a0d2817e5b52189d1e220b48f012437a0228523aab482f09be9",
+          "sha256": "a25801cf57434e4c58a68a2f371d3d07e3edca8a74ea7b51881942344d98a33c",
           "bytes": 7047
         }
       ]
