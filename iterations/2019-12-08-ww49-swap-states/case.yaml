@@ -100,9 +100,23 @@ acceptance:
   evidence: evidence/visual-review.md
 workarounds: []
 capability_gaps:
-- Explicit categorical set members
-- Generated geographic fields and layered geometry/detail encodings
-- Layered filters, detail dimension sorting and map-layer visibility
-- Set action selection assignment and single-select configuration
-- Public geographic lookup country/state context to replace inherited template defaults
+- key: explicit-categorical-set-members
+  description: Explicit categorical set members.
+  upstream_status: resolved
+  note: add_set(..., members=[...]) now accepts explicit members.
+- key: generated-geographic-fields
+  description: Generated geographic fields and layered geometry/detail encodings.
+  upstream_status: resolved
+- key: layered-filters-and-sorting
+  description: Layered filters, detail dimension sorting and map-layer visibility.
+  upstream_status: resolved
+  note: configure_layered_chart now accepts filters.
+- key: set-action-single-select
+  description: Set action selection assignment and single-select configuration.
+  upstream_status: resolved
+- key: geographic-lookup-context
+  description: Public geographic lookup country/state context to replace inherited
+    template defaults.
+  upstream_status: resolved
+  note: set_geocoding_context(country=..., state=...) is public.
 related_cwtwb_issues: []

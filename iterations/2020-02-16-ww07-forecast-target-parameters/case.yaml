@@ -86,11 +86,18 @@ acceptance:
 remaining_work: []
 workarounds: []
 capability_gaps:
-- capability: Layered pane breakdown=off
-  status: resolved in local SDK, awaiting final pinned commit
+- key: layered-pane-breakdown-off
+  capability: Layered pane breakdown=off
+  status: resolved
+  upstream_status: resolved
+  note: Resolved in the pinned SDK; configure_layered_chart now honors
+    breakdown='off' and the case builds with it (tested_commit 47718436).
   evidence: evidence/sdk-baseline.json
-- capability: Measure Names color-map palette
-  status: resolved in local SDK, awaiting final pinned commit
+- key: measure-names-color-map-palette
+  capability: Measure Names color-map palette
+  status: resolved
+  upstream_status: resolved
+  note: Resolved in the pinned SDK; the virtual Measure Names palette resolves.
   evidence: evidence/sdk-baseline.json
 related_cwtwb_issues: []
 acceptance_scope: cloud_rest_and_artifact_contracts

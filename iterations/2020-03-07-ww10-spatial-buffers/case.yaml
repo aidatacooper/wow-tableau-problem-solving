@@ -98,9 +98,17 @@ acceptance:
 remaining_work: []
 workarounds: []
 capability_gaps:
-- Independent Hyper datasources
-- Viz in tooltip with native field filter
-- Native dashboard show/hide button
+- key: independent-hyper-datasources
+  description: Independent Hyper datasources.
+  upstream_status: resolved
+  note: set_hyper_connection supports independent logical tables.
+- key: viz-in-tooltip-field-filter
+  description: Viz in tooltip with native field filter.
+  upstream_status: resolved
+- key: dashboard-show-hide-button
+  description: Native dashboard show/hide button.
+  upstream_status: resolved
+  note: add_dashboard_toggle_button provides the native show/hide event.
 related_cwtwb_issues: []
 acceptance_scope: cloud_rest_and_artifact_contracts
 browser_interaction_executed: false
