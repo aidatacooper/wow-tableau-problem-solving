@@ -1,0 +1,97 @@
+schema_version: 1.1.0
+case_id: wow-2021-ww28-can-you-build-an-app-to-visualise-wildfires
+iteration_id: 2021-07-15-ww28-can-you-build-an-app-to-visualise-wildfires
+post: https://donnacoles.home.blog/2021/07/15/can-you-build-an-app-to-visualise-wildfires/
+legacy_case_ids: {}
+article_date: '2021-07-15'
+challenge_year: 2021
+challenge_week: 28
+challenge_date: '2021-07-13'
+date_evidence:
+  article_date: Article-local HTML 'Published:' calendar date, retained in evidence/article-date.json.
+  challenge: Official 2021 Week 28 article title.
+  challenge_date: Official WordPress REST date field retained in evidence/official-challenge-date.json.
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2021w28tab/
+    wordpress_post_id: 5612
+  article:
+    url: https://donnacoles.home.blog/2021/07/15/can-you-build-an-app-to-visualise-wildfires/
+    path: null
+    sha256: f1e469bcfe2dc5997b609bf75368116047abc4c05027479e0b628ae8502d1222
+  workbook:
+    url: https://public.tableau.com/views/2021_07_14_WW28_FireSize_Map/2021_07_14_WW28_FireSize_Map
+    filename: 2021_07_14_WW28_FireSize_Map.twbx
+    sha256: 132fbba7a8e762f2075909a7ab753391a4c80cf66f0869b9e10289aa4172848b
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- evidence/article-date.json
+- evidence/build-provenance.json
+- evidence/cloud-request.json
+- evidence/cloud-verification.json
+- evidence/functional-verification.json
+- evidence/official-challenge-date.json
+- evidence/sdk-baseline.json
+- evidence/visual-review.md
+- inputs/source-lock.json
+notes:
+- The five-row extract is dummy data; everything the map draws comes from
+  parameters.
+- Acres to Feet converts the area to a radius (SQRT((acres*43560)/PI())) because
+  BUFFER takes a distance.
+- The invisible zoom ring is a real map layer so the extent zooms out; it is made
+  fully transparent and inert.
+cwtwb:
+  tested_version: 0.27.1
+  tested_commit: 4cd2c61c
+  runs:
+  - version: 0.27.1
+    commit: 4cd2c61c
+    result: workaround
+    evidence: evidence/sdk-baseline.json
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: workaround
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/TEMP_1jwgr0f03ffbka1cghu3i1qjdugo.hyper
+acceptance:
+- id: ww28-parameters
+  description: pLocation, pLatitude, pLongtitude, Acres and pZoom exist with the
+    author's defaults and domains, including the location aliases.
+  mode: automated
+- id: ww28-geography
+  description: Location, Acres to Feet, Fire Size and Zoom are the
+    MAKEPOINT/SQRT/BUFFER chain with the acreage-to-radius conversion.
+  mode: automated
+- id: ww28-map-layers
+  description: The map has the visible fire layer and the inert transparent zoom
+    layer on the dark base map at 15% washout.
+  mode: automated
+- id: ww28-apply-button
+  description: The Apply sheet labels 'Apply' and carries both location
+    coordinates on Detail.
+  mode: automated
+- id: ww28-location-case
+  description: Location Lat and Location Long map the four locations to the
+    article's coordinates.
+  mode: automated
+- id: ww28-actions
+  description: Two parameter actions set pLatitude/pLongtitude from the Apply
+    sheet, plus a True->False filter action.
+  mode: automated
+remaining_work: []
+blocker: null
+workarounds:
+- A native buffer layer without a Detail field does not resolve its geometry and
+  the map stays at world scale; each buffer layer carries its own Detail field.
+capability_gaps: []
+related_cwtwb_issues: []

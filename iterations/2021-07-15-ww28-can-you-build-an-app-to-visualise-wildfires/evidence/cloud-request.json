@@ -1,0 +1,15 @@
+{
+  "case_dir": "iterations/2021-07-15-ww28-can-you-build-an-app-to-visualise-wildfires",
+  "author_workbook": "dashboards/2021_07_14_WW28_FireSize_Map/2021_07_14_WW28_FireSize_Map.twbx",
+  "author_view": "2021_07_14_WW28_FireSize_Map",
+  "replica_view": "2021_07_14_WW28_FireSize_Map",
+  "states": [],
+  "data_views": [
+    {
+      "name": "map",
+      "author": "2021_07_14_WW28_FireSize_Map",
+      "replica": "Map",
+      "scope": "Default author dashboard and the replica Map; the REST CSV confirms the buffer layers resolve at the parameter point."
+    }
+  ]
+}

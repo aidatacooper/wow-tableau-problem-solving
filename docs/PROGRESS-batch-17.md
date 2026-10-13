@@ -28,7 +28,7 @@
 - [x] 14 2021-06-25 ww25 Spine Charts — `2021-06-25-ww25-can-you-make-spine-charts` — replicated/workaround（validate PASS / LOADED@4cd2c61；Cloud 27 行与 oracle 逐位一致）
 - [x] 15 2021-07-01 ww26 Pareto Profitability — `2021-07-01-ww26-profitability-with-dual-axis-charts` — replicated/workaround（validate PASS / LOADED@4cd2c61；Cloud 副标题 79% / 33% 与作者一致）
 - [x] 16 2021-07-08 ww27 Top/Bottom Performers — `2021-07-08-ww27-can-you-find-the-top-and-bottom-performers` — replicated/workaround（validate PASS / LOADED@4cd2c61；Cloud 分位分类与 oracle 一致）
-- [ ] 17 2021-07-15 ww28 FireSize Map — `2021_07_14_WW28_FireSize_Map`
+- [x] 17 2021-07-15 ww28 FireSize Map — `2021-07-15-ww28-can-you-build-an-app-to-visualise-wildfires` — replicated/workaround（validate PASS / LOADED@4cd2c61；参数 buffer 地图与作者一致）
 
 ## 环境修正（2026-10-12）
 
@@ -55,6 +55,7 @@
 - [x] 2026-10-12 11 ww22 Unstructured — 已复现（validate PASS / LOADED@4cd2c61；Cloud 分箱与 oracle 一致；83 tests OK）
 - [x] 2026-10-13 15 ww26 Pareto Profitability — 已复现（validate PASS / LOADED@4cd2c61；Cloud 79%/33% 与作者一致；83 tests OK）
 - [x] 2026-10-13 16 ww27 Top/Bottom Performers — 已复现（validate PASS / LOADED@4cd2c61；Cloud 分位分类与 oracle 一致；83 tests OK）
+- [x] 2026-10-13 17 ww28 FireSize Map — 已复现（validate PASS / LOADED@4cd2c61；参数 buffer 地图；83 tests OK）
 - [x] 2026-10-12 12 ww23 Sales Goal Selection — 已复现（validate PASS / LOADED@4cd2c61；Cloud BAN CSV 与 oracle 逐位一致；83 tests OK）
 - [x] 2026-10-12 13 ww24 Cholera Outbreak — 已复现（validate PASS / LOADED@4cd2c61；Vincenty 八泵均值/死亡数与作者截图逐位一致；83 tests OK）
 - [x] 2026-10-12 14 ww25 Spine Charts — 已复现（validate PASS / LOADED@4cd2c61；Cloud 27 行均值/四分位与 oracle 逐位一致；83 tests OK）
@@ -175,11 +176,14 @@
 - ww27 参数清空复位：`add_dashboard_action(action_type="parameter", clear_behavior="set-value", clear_value="i:12")`。
 - `configure_layered_chart` 的 pane 数必须与 `configure_custom_tooltip(pane_index=...)` 一致，否则报错。
 - `add_group` 生成的是 `categorical-bin` column（`<bin value>` + `<value>` children），不是 datasource `<group>`。
+- ww28 参数 buffer 地图：`configure_chart(mark_type="Map", map_layer_mode="native", map_layers=[...])`；每个 buffer layer **必须**有自己的 `detail`（几何表达式本身），否则几何不解析、地图停在世界尺度不缩放。
+- ww28 透明 zoom 环：`configure_worksheet_style(panes_style={"2": {"mark_style": {"mark-transparency": "0", "has-stroke": "false"}}})`。
+- ww28 面积→半径：`SQRT(([Acres]*43560)/PI())`（BUFFER 接受距离不是面积）。
 
 ## 下一步
 
-1. 01–16 已完成并全部提交（ww20–ww27）。
-2. 仅剩 17（ww28 FireSize Map）由 successor agent 在本 worktree 接手。
+1. 01–17 全部完成并提交（ww20–ww28）。**batch 完成**。
+2. 无剩余 case；收尾：verify_corpus LOADED=50 FAIL=0 UNKNOWN=0。
    **不要**在本 worktree 并行跑 Desktop，也不要重复解 10+，否则产物与 git 会互相覆盖。
 
 ## 阻塞

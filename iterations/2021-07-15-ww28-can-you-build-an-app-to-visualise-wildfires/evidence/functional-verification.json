@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0.0",
+  "scope": "Locked-extract oracle for the WW28 parameter app; the acreage-to-radius conversion and the four location coordinates are recomputed independently.",
+  "browser_interaction_executed": false,
+  "state": {
+    "description": "Default parameters: Didcot, UK, 5000 acres, zoom 2."
+  },
+  "observed": {
+    "dummy_rows": 5,
+    "acres": 5000,
+    "radius_feet": 8326.337323,
+    "locations": {
+      "1": [
+        51.608,
+        -1.2448
+      ],
+      "2": [
+        40.7812,
+        -73.9665
+      ],
+      "3": [
+        51.5007,
+        0.1246
+      ],
+      "4": [
+        48.8584,
+        2.2945
+      ]
+    }
+  },
+  "expected_from_oracle": {
+    "radius_feet": 8326.337323,
+    "location_count": 4
+  },
+  "result": "pass"
+}

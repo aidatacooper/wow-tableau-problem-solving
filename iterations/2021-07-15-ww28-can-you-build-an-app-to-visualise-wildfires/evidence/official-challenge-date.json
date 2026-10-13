@@ -1,0 +1,16 @@
+{
+  "challenge_year": 2021,
+  "challenge_week": 28,
+  "article_date": "2021-07-15",
+  "challenge_date": "2021-07-13",
+  "official_rest_url": "https://www.workout-wednesday.com/wp-json/wp/v2/posts/5612",
+  "response_excerpt": {
+    "id": 5612,
+    "date": "2021-07-13T16:32:42",
+    "link": "https://www.workout-wednesday.com/2021w28tab/",
+    "title": {
+      "rendered": "2021 Week 28 | Tableau: Can you build an app to visualize wildfires?"
+    }
+  },
+  "scope": "Official WordPress publication date, without inference from article/workbook names."
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0.0",
+  "cwtwb_version": "0.27.1",
+  "cwtwb_commit": "4cd2c61c1286a02932b5b42f47de344683d656a3",
+  "result": "workaround",
+  "scope": "Released-SDK baseline for the WW28 fire-size visualiser case.",
+  "supported": [
+    "add_parameter for the location/latitude/longitude/acres/zoom inputs, including list aliases",
+    "add_calculated_field with MAKEPOINT, SQRT/PI and BUFFER spatial expressions",
+    "configure_chart(mark_type='Map', map_layer_mode='native', map_layers=[...]) for the fire + zoom buffer layers",
+    "configure_worksheet_style(panes_style=...) to make the zoom ring transparent",
+    "add_dashboard_action(action_type='parameter', aggregation='min'/'sum') for Set Lat / Set Long",
+    "add_dashboard_action(action_type='filter', field_mappings={'True':'False'}) for the Apply unhighlight"
+  ],
+  "findings": [
+    {
+      "key": "buffer-layer-needs-detail",
+      "severity": "workaround",
+      "summary": "A native buffer layer without a Detail field does not resolve its geometry, so the map stays at world scale instead of zooming to the buffer.",
+      "workaround": "Give each buffer layer its own Detail field (the geometry expression itself), as the author's workbook does."
+    }
+  ]
+}
