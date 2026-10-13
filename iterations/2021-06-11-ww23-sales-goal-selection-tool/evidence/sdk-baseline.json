@@ -21,13 +21,17 @@
       "key": "quantitative-filter-min-max-renders-every-row",
       "severity": "workaround",
       "summary": "A quantitative filter with both min=1 and max=1 on the INDEX() table calc did not collapse the BANs to one row on Cloud; the pane repeated the same value once per sub-category.",
-      "workaround": "Write only the upper bound ({'column': 'Index', 'max': '1'}) exactly as the author's workbook does (<filter ...><max>1</max></filter>)."
+      "workaround": "Write only the upper bound ({'column': 'Index', 'max': '1'}) exactly as the author's workbook does (<filter ...><max>1</max></filter>).",
+      "upstream_status": "no-change-needed",
+      "upstream_note": "Range-filter XML is valid; dropping min when min==max would change 'exactly N' to '<= N'."
     },
     {
       "key": "rich-label-angle-brackets-dropped",
       "severity": "workaround",
       "summary": "A customized-label built from a literal '<' run plus a field run plus '> to goal' rendered as '<<field>>' on Cloud because both the literal and the generated field reference are wrapped in angle brackets.",
-      "workaround": "Drop the literal brackets and rely on the run order: {'field': 'Value to Goal'}, {'text': ' to goal'}."
+      "workaround": "Drop the literal brackets and rely on the run order: {'field': 'Value to Goal'}, {'text': ' to goal'}.",
+      "upstream_pr": "https://github.com/aidatacooper/cwtwb/pull/17",
+      "upstream_status": "pr-open"
     }
   ]
 }

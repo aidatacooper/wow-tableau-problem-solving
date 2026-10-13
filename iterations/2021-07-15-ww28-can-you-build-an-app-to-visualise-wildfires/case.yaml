@@ -94,4 +94,7 @@ workarounds:
 - A native buffer layer without a Detail field does not resolve its geometry and
   the map stays at world scale; each buffer layer carries its own Detail field.
 capability_gaps: []
-related_cwtwb_issues: []
+related_cwtwb_issues:
+- key: buffer-layer-needs-detail
+  url: https://github.com/aidatacooper/cwtwb/pull/19
+  status: open

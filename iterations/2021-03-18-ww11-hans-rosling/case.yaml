@@ -92,9 +92,19 @@ capability_gaps:
 - key: pages-shelf
   description: No public API exposes the Pages shelf, so a native animated pager
     cannot be authored; the case substitutes a parameter-driven year filter.
+  upstream_status: pr-open
 - key: hyper-logical-multi-table
   description: set_hyper_connection with tables+relationships produces a datasource
     Tableau Cloud rejects with 403132 'failed to establish a connection to your
     datasource'; reproduced with one and three relationships and with the shared
     year key forced to a dimension.
-related_cwtwb_issues: []
+  upstream_status: skipped
+related_cwtwb_issues:
+- key: pages-shelf
+  url: https://github.com/aidatacooper/cwtwb/pull/20
+  status: open
+- key: hyper-logical-multi-table
+  status: skipped
+  note: No concrete XML defect; capability plus synthetic XPath tests already
+    exist (test_hyper_logical_relationships.py). The Cloud 403132 rejection needs
+    a Cloud account to verify.

@@ -17,7 +17,9 @@
       "key": "buffer-layer-needs-detail",
       "severity": "workaround",
       "summary": "A native buffer layer without a Detail field does not resolve its geometry, so the map stays at world scale instead of zooming to the buffer.",
-      "workaround": "Give each buffer layer its own Detail field (the geometry expression itself), as the author's workbook does."
+      "workaround": "Give each buffer layer its own Detail field (the geometry expression itself), as the author's workbook does.",
+      "upstream_pr": "https://github.com/aidatacooper/cwtwb/pull/19",
+      "upstream_status": "pr-open"
     }
   ]
 }

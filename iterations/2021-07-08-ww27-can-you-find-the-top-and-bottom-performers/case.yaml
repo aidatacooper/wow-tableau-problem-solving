@@ -94,4 +94,8 @@ workarounds:
 - WINDOW_PERCENTILE addressed by Rows or a single dimension computes per-cell and
   classifies every row as Top; addressing by Columns spans the whole table.
 capability_gaps: []
-related_cwtwb_issues: []
+related_cwtwb_issues:
+- key: window-percentile-addressing
+  status: no-change-needed
+  note: Rows/Columns addressing is native Tableau semantics and the SDK
+    serializes it correctly.

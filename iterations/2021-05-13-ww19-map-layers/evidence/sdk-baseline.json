@@ -16,13 +16,17 @@
       "key": "custom-geographic-role",
       "severity": "gap",
       "summary": "The article's 'Region, created from State' custom geographic role has no public API; per-region calculated State fields are the equivalent.",
-      "workaround": "One State-geocoded field per region (IF [Region]='West' THEN [State] END)."
+      "workaround": "One State-geocoded field per region (IF [Region]='West' THEN [State] END).",
+      "upstream_pr": "https://github.com/aidatacooper/cwtwb/pull/21",
+      "upstream_status": "pr-open"
     },
     {
       "key": "map-geocoding-context",
       "severity": "note",
       "summary": "Without set_geocoding_context(country='United States') the State names geocode as world provinces.",
-      "workaround": "Call set_geocoding_context(country='United States') before building."
+      "workaround": "Call set_geocoding_context(country='United States') before building.",
+      "upstream_status": "documented",
+      "upstream_note": "Documented API usage: call set_geocoding_context(country='United States') before building."
     }
   ]
 }

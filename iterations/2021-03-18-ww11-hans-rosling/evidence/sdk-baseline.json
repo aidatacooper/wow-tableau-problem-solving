@@ -17,19 +17,25 @@
       "key": "hyper-logical-multi-table",
       "severity": "bug",
       "summary": "set_hyper_connection(..., tables=[...], relationships=[...]) builds XML that Tableau Cloud rejects with 403132 'failed to establish a connection to your datasource'. The view renders empty. Reproduced with 1 and 3 relationships and with the year key forced to a dimension; unresolved.",
-      "workaround": "Materialize one normalized Extract table from the locked matrices and connect single-table."
+      "workaround": "Materialize one normalized Extract table from the locked matrices and connect single-table.",
+      "upstream_status": "skipped",
+      "upstream_note": "No concrete XML defect: capability plus synthetic XPath tests already exist (test_hyper_logical_relationships.py); the Cloud 403132 rejection needs a Cloud account to verify."
     },
     {
       "key": "agg-shelf-empty-render",
       "severity": "bug",
       "summary": "configure_chart with AGG(measure) shelf expressions renders an empty view on this extract; the same fields render when declared as dimension-typed continuous fields.",
-      "workaround": "Declare axis fields as role=dimension, field_type=quantitative."
+      "workaround": "Declare axis fields as role=dimension, field_type=quantitative.",
+      "upstream_status": "no-change-needed",
+      "upstream_note": "The AGG(...) shelf path emits valid [usr:...:qk] XML that saves and validates; per-row continuous axes are native Tableau semantics."
     },
     {
       "key": "pages-shelf",
       "severity": "gap",
       "summary": "No public API exposes the Pages shelf, so the author's animated year pager cannot be reproduced natively.",
-      "workaround": "A Year parameter + Selected Year filter provides the same year selection interactively."
+      "workaround": "A Year parameter + Selected Year filter provides the same year selection interactively.",
+      "upstream_pr": "https://github.com/aidatacooper/cwtwb/pull/20",
+      "upstream_status": "pr-open"
     }
   ]
 }

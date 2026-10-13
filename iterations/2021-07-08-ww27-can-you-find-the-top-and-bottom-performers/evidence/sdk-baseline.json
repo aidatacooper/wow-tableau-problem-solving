@@ -16,7 +16,9 @@
       "key": "window-percentile-addressing",
       "severity": "workaround",
       "summary": "Addressing WINDOW_PERCENTILE by Rows or by a single dimension makes it compute per-cell, so every row's percentile equals its own value and the whole table classifies as 'Top'.",
-      "workaround": "Address the percentile and Colour fields by Columns (table_calc='Columns'), which spans the whole table."
+      "workaround": "Address the percentile and Colour fields by Columns (table_calc='Columns'), which spans the whole table.",
+      "upstream_status": "no-change-needed",
+      "upstream_note": "Rows/Columns addressing is native Tableau semantics and the SDK serializes it correctly."
     }
   ]
 }

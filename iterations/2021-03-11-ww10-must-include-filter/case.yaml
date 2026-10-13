@@ -87,4 +87,8 @@ remaining_work: []
 blocker: null
 workarounds: []
 capability_gaps: []
-related_cwtwb_issues: []
+related_cwtwb_issues:
+- key: measure-values-virtual-field
+  status: merged
+  note: Fixed upstream before the batch PRs (commit cfa313a,
+    tests/test_measure_values_on_primitive_marks.py).

@@ -101,4 +101,8 @@ capability_gaps:
     registered as an unknown dimension and any worksheet binding it renders
     empty. Adding PERCENTILE (and the other Tableau percentile-style
     aggregations) to the registry would make it work without a table-calc hint.
-related_cwtwb_issues: []
+  upstream_status: pr-open
+related_cwtwb_issues:
+- key: percentile-aggregation-not-recognized
+  url: https://github.com/aidatacooper/cwtwb/pull/14
+  status: open

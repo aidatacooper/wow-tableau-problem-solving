@@ -19,13 +19,17 @@
       "key": "sys-numbin-not-in-catalog",
       "severity": "workaround",
       "summary": "The author's Step 3 bin uses Tableau's internal sys_numbin helper; the released SDK's function catalog rejects SYS_NUMBIN and the expression does not bin correctly.",
-      "workaround": "Use the FLOOR([price]/[Bin Size])*[Bin Size] form the article also documents; it produces the same $100 bins."
+      "workaround": "Use the FLOOR([price]/[Bin Size])*[Bin Size] form the article also documents; it produces the same $100 bins.",
+      "upstream_status": "no-change-needed",
+      "upstream_note": "SYS_NUMBIN is an undocumented Tableau internal; the SDK rejects it deliberately and exposes validate_formula=False, with FLOOR as the portable equivalent."
     },
     {
       "key": "extract-lat-lon-have-no-geographic-role",
       "severity": "workaround",
       "summary": "The extract's lattitude/longitude columns are registered as plain measures with no geographic role, so a lat/lon map chart cannot bind them.",
-      "workaround": "Build a MAKEPOINT([lattitude],[longitude]) spatial field and map that instead."
+      "workaround": "Build a MAKEPOINT([lattitude],[longitude]) spatial field and map that instead.",
+      "upstream_pr": "https://github.com/aidatacooper/cwtwb/pull/18",
+      "upstream_status": "pr-open"
     }
   ]
 }

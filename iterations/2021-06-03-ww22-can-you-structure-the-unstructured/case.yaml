@@ -97,4 +97,12 @@ workarounds:
 - The extract's latitude/longitude columns carry no geographic role, so the map
   plots a MAKEPOINT([lattitude],[longitude]) spatial field.
 capability_gaps: []
-related_cwtwb_issues: []
+related_cwtwb_issues:
+- key: extract-lat-lon-have-no-geographic-role
+  url: https://github.com/aidatacooper/cwtwb/pull/18
+  status: open
+- key: sys-numbin-not-in-catalog
+  status: no-change-needed
+  note: SYS_NUMBIN is an undocumented Tableau internal; the SDK rejects it
+    deliberately and exposes validate_formula=False, with FLOOR as the portable
+    equivalent.

@@ -90,4 +90,7 @@ workarounds:
 - table_calc_overrides replaces the auto-generated nested table-calc dependency
   metadata and collapses the cumulative curve; the builder leaves it unset.
 capability_gaps: []
-related_cwtwb_issues: []
+related_cwtwb_issues:
+- key: table-calc-override-strips-nested-metadata
+  url: https://github.com/aidatacooper/cwtwb/pull/16
+  status: open

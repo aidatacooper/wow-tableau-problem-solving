@@ -19,13 +19,17 @@
       "key": "exactdate-in-custom-tooltip",
       "severity": "workaround",
       "summary": "A custom tooltip run whose field expression is EXACTDATE(<date field>) makes Tableau Cloud render the whole worksheet blank (1586x32).",
-      "workaround": "Reference the bare date fields in the tooltip runs; the tooltip text aggregates them at the month level, which is only cosmetic."
+      "workaround": "Reference the bare date fields in the tooltip runs; the tooltip text aggregates them at the month level, which is only cosmetic.",
+      "upstream_status": "skipped",
+      "upstream_note": "The emitted tooltip XML is a valid continuous [none:...:qk] reference; the blank Cloud render is Cloud-specific and unverifiable locally."
     },
     {
       "key": "axis-encodings-with-folded-rows",
       "severity": "workaround",
       "summary": "Combining axis_style.encodings with the folded dual-axis builder and a row Detail field blanked the Cloud render in diagnostics.",
-      "workaround": "Set only axis_style.per_field titles; leave the folded axis defaults alone."
+      "workaround": "Set only axis_style.per_field titles; leave the folded axis defaults alone.",
+      "upstream_status": "documented",
+      "upstream_note": "Case-local authoring choice: leave the folded dual-axis defaults and set only axis_style.per_field titles."
     }
   ]
 }
