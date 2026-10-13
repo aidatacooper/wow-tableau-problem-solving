@@ -207,3 +207,37 @@
 - 17/17 case 的 Cloud 证据绑定到最终提交产物。
 - 结果：16 个 `replicated`（pass/workaround），ww26 一度受阻后由后续 agent 攻克，
   最终全部 `replicated`。
+
+## SDK 缺口上游化（2026-10-13，后续）
+
+batch-17 暴露的可复用 cwtwb 缺口已逐个上游化：8 个 PR（每个一个缺口，均带合成
+fixture + XPath 回归测试，`pytest -q` 1015 passed / 25 skipped）：
+
+| 缺口 | PR |
+|---|---|
+| percentile-not-in-aggregation-map（ww25） | https://github.com/aidatacooper/cwtwb/pull/14 |
+| heatmap-mark-needs-manifest-flag（ww24） | https://github.com/aidatacooper/cwtwb/pull/15 |
+| table-calc-override-strips-nested-metadata（ww26） | https://github.com/aidatacooper/cwtwb/pull/16 |
+| rich-label-angle-brackets-dropped（ww23） | https://github.com/aidatacooper/cwtwb/pull/17 |
+| extract-lat-lon-have-no-geographic-role（ww22） | https://github.com/aidatacooper/cwtwb/pull/18 |
+| buffer-layer-needs-detail（ww28） | https://github.com/aidatacooper/cwtwb/pull/19 |
+| pages-shelf（ww11） | https://github.com/aidatacooper/cwtwb/pull/20 |
+| custom-geographic-role（ww19） | https://github.com/aidatacooper/cwtwb/pull/21 |
+
+另有 8 个缺口判定为「无需改码 / Cloud 特有 / 已上游修复」，理由已写入各 case 的
+`related_cwtwb_issues` 与 `evidence/sdk-baseline.json` 的 `upstream_status`。
+
+回填约定：`case.yaml` 用 `related_cwtwb_issues: [{key, url, status, note}]`；
+`evidence/sdk-baseline.json` 的 findings 用 `upstream_pr` / `upstream_status`。
+ww49 / ww07 / ww10 三个旧 case 的 `capability_gaps` 原本记为未解，经核对当前 pin
+已全部 resolved，已改写为 `upstream_status: resolved`。
+
+## 仍然待办（截至 2026-10-13）
+
+1. **8 个 cwtwb PR 等待评审/合并**（均 MERGEABLE/CLEAN，无 review）。合并后需要：
+   把本批 case 重新 pin 到新版本并重跑 gate（或按 repo 惯例单独开 pin-bump PR）。
+2. **237 篇未解 case**（349 帖 − 112 个 iteration）。batch-17 之后最早未解需重新盘点。
+3. `2019-12-08-ww49-swap-states` 的 notes 仍写「SDK commit will be locked by the
+   coordinating maintainer」，但 case 已 pass 且 pinned；如需要可清理该措辞。
+4. 三个 recipe 级能力（donut/lollipop/bullet/bump/butterfly/calendar/formatted-table）
+   仍非一等原语——属设计选择，不是缺陷，除非有 case 需要才升级。
