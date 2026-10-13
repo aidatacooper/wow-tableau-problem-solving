@@ -21,7 +21,8 @@
       "summary": "A Heatmap (density) mark is gated behind Tableau's ``Heatmap`` document-format manifest entry. configure_chart(mark_type='Heatmap') writes the mark class but not the flag, so Tableau Desktop refuses the workbook with error d2e8da72 even though the XML is schema-valid.",
       "workaround": "Call editor._ensure_manifest_entry('Heatmap') before configure_chart; the author's workbook carries the same manifest entry. A generic fix would map the mark class to its manifest flag in the builder's _reconcile_manifest_flags.",
       "upstream_pr": "https://github.com/aidatacooper/cwtwb/pull/15",
-      "upstream_status": "pr-open"
+      "upstream_status": "merged",
+      "upstream_merge_commit": "6e27e7f"
     },
     {
       "key": "three-table-hyper-relationship-rejected",

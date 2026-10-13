@@ -103,8 +103,8 @@ capability_gaps:
     document-format manifest entry, so Desktop rejects a schema-valid workbook
     with error d2e8da72. The builder's _reconcile_manifest_flags should map the
     Heatmap mark class (and any other gated mark) to its manifest flag.
-  upstream_status: pr-open
+  upstream_status: merged
 related_cwtwb_issues:
 - key: heatmap-mark-manifest-flag
   url: https://github.com/aidatacooper/cwtwb/pull/15
-  status: open
+  status: merged

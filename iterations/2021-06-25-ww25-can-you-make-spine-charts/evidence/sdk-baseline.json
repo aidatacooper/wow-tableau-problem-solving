@@ -19,7 +19,8 @@
       "summary": "PERCENTILE([% Agree],0.25) is not in the SDK's aggregation derivation map, so a field whose formula is a bare PERCENTILE(...) is registered as an unknown dimension and the pane renders empty (1586x32).",
       "workaround": "Pass table_calc='Rows' (or {'ordering_type': 'Table'}) when adding the quartile fields so they resolve as proper measures. A generic fix would add PERCENTILE to _DERIVATION_MAP / _AGGREGATE_FUNCTION_RE.",
       "upstream_pr": "https://github.com/aidatacooper/cwtwb/pull/14",
-      "upstream_status": "pr-open"
+      "upstream_status": "merged",
+      "upstream_merge_commit": "2b06fa5"
     }
   ]
 }

@@ -97,8 +97,8 @@ capability_gaps:
 - key: custom-geographic-role
   description: No public API creates a custom geographic role derived from another
     field; per-region State fields are the workaround.
-  upstream_status: pr-open
+  upstream_status: merged
 related_cwtwb_issues:
 - key: custom-geographic-role
   url: https://github.com/aidatacooper/cwtwb/pull/21
-  status: open
+  status: merged

@@ -18,7 +18,8 @@
       "summary": "Passing table_calc_overrides for these fields replaces the auto-generated nested <table-calc> dependency metadata (the field=\"[ds].[Calculation_...]\" entries). Without it the cumulative curve collapses to 100% and the subtitle reads 397100% / 0%.",
       "workaround": "Leave table_calc_overrides unset; the builder then emits the correct nested metadata from the field-level table_calc declarations.",
       "upstream_pr": "https://github.com/aidatacooper/cwtwb/pull/16",
-      "upstream_status": "pr-open"
+      "upstream_status": "merged",
+      "upstream_merge_commit": "f72652e"
     }
   ]
 }

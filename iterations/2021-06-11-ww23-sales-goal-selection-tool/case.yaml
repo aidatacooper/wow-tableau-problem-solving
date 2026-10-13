@@ -100,7 +100,7 @@ capability_gaps: []
 related_cwtwb_issues:
 - key: rich-label-angle-brackets-dropped
   url: https://github.com/aidatacooper/cwtwb/pull/17
-  status: open
+  status: merged
 - key: quantitative-filter-min-max-renders-every-row
   status: no-change-needed
   note: Range-filter XML is valid; dropping min when min==max would change

@@ -97,4 +97,4 @@ capability_gaps: []
 related_cwtwb_issues:
 - key: buffer-layer-needs-detail
   url: https://github.com/aidatacooper/cwtwb/pull/19
-  status: open
+  status: merged

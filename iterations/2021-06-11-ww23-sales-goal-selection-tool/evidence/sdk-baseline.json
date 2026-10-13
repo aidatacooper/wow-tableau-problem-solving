@@ -31,7 +31,8 @@
       "summary": "A customized-label built from a literal '<' run plus a field run plus '> to goal' rendered as '<<field>>' on Cloud because both the literal and the generated field reference are wrapped in angle brackets.",
       "workaround": "Drop the literal brackets and rely on the run order: {'field': 'Value to Goal'}, {'text': ' to goal'}.",
       "upstream_pr": "https://github.com/aidatacooper/cwtwb/pull/17",
-      "upstream_status": "pr-open"
+      "upstream_status": "merged",
+      "upstream_merge_commit": "97af7fd"
     }
   ]
 }

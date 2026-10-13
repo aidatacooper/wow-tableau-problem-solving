@@ -100,7 +100,7 @@ capability_gaps: []
 related_cwtwb_issues:
 - key: extract-lat-lon-have-no-geographic-role
   url: https://github.com/aidatacooper/cwtwb/pull/18
-  status: open
+  status: merged
 - key: sys-numbin-not-in-catalog
   status: no-change-needed
   note: SYS_NUMBIN is an undocumented Tableau internal; the SDK rejects it

@@ -29,7 +29,8 @@
       "summary": "The extract's lattitude/longitude columns are registered as plain measures with no geographic role, so a lat/lon map chart cannot bind them.",
       "workaround": "Build a MAKEPOINT([lattitude],[longitude]) spatial field and map that instead.",
       "upstream_pr": "https://github.com/aidatacooper/cwtwb/pull/18",
-      "upstream_status": "pr-open"
+      "upstream_status": "merged",
+      "upstream_merge_commit": "5a9ddec"
     }
   ]
 }

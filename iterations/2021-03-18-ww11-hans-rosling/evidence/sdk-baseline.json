@@ -35,7 +35,8 @@
       "summary": "No public API exposes the Pages shelf, so the author's animated year pager cannot be reproduced natively.",
       "workaround": "A Year parameter + Selected Year filter provides the same year selection interactively.",
       "upstream_pr": "https://github.com/aidatacooper/cwtwb/pull/20",
-      "upstream_status": "pr-open"
+      "upstream_status": "merged",
+      "upstream_merge_commit": "898b2d1"
     }
   ]
 }

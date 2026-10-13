@@ -93,4 +93,4 @@ capability_gaps: []
 related_cwtwb_issues:
 - key: table-calc-override-strips-nested-metadata
   url: https://github.com/aidatacooper/cwtwb/pull/16
-  status: open
+  status: merged
