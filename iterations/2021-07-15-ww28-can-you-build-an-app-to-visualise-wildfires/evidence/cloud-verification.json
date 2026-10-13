@@ -1,9 +1,9 @@
 {
   "case_id": "wow-2021-ww28-can-you-build-an-app-to-visualise-wildfires",
-  "captured_at": "2026-10-13T03:12:04.081570+00:00",
+  "captured_at": "2026-10-13T03:31:14.509551+00:00",
   "source_hashes": {
     "author": "132fbba7a8e762f2075909a7ab753391a4c80cf66f0869b9e10289aa4172848b",
-    "replica": "6a427763c8742312e4b62ca1d3f49e5a9b8dcb03c871cf64aa84831937708d2e"
+    "replica": "ae60729614cac731bd34c66b080d23b759460c83e0210798a8d9cf67cb7c8b3d"
   },
   "acceptance_scope": "cloud_rest_and_artifact_contracts",
   "browser_interaction_executed": false,
@@ -20,21 +20,21 @@
       ]
     },
     "replica": {
-      "id": "c97d68fb-3719-4535-ac83-82ab057cc226",
-      "name": "cwtwb-review-wow-2021-ww28-can-you-build-an-app-to-visualise-wildfires-replica-6a427763c874",
-      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2993580",
+      "id": "cd8aadcc-ef2c-4496-a968-b691ac250fc3",
+      "name": "cwtwb-review-wow-2021-ww28-can-you-build-an-app-to-visualise-wildfires-replica-ae60729614ca",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2993666",
       "views": [
         {
           "name": "Map",
-          "id": "f0b372f8-df0c-4946-9e14-9b53835a71f6"
+          "id": "d3a368e2-2eab-409f-8524-1e7a3765eaf3"
         },
         {
           "name": "Apply",
-          "id": "30542dbe-8ec8-435e-ac19-00c96d4c4ba6"
+          "id": "b4661c69-8d03-4b15-a97c-b3de4c39ad50"
         },
         {
           "name": "2021_07_14_WW28_FireSize_Map",
-          "id": "0f4549fd-c884-4d43-ab06-726642733339"
+          "id": "48bcbe4c-dac1-4198-ac1c-513322152379"
         }
       ]
     }
@@ -49,14 +49,14 @@
           "id": "fb3f1aae-998a-4366-a7c3-e1183c70ac4e",
           "name": "2021_07_14_WW28_FireSize_Map",
           "path": "outputs/cloud-author.png",
-          "sha256": "f31f2aee58b0b1508de939e5b34075a7d378aafc47498fa8da0e340d4ddfb4d4",
+          "sha256": "b636406e4d53ab846dfcd0fa888144fb680054713c95c8f55956fa2a02766a22",
           "size": [
             800,
             1400
           ]
         },
         "replica": {
-          "id": "0f4549fd-c884-4d43-ab06-726642733339",
+          "id": "48bcbe4c-dac1-4198-ac1c-513322152379",
           "name": "2021_07_14_WW28_FireSize_Map",
           "path": "outputs/cloud-replica.png",
           "sha256": "a8135455044065f20ecca952199fbf116543a2f5b8d5e29af36a8bd385df218b",
@@ -81,12 +81,12 @@
         {
           "role": "replica",
           "view": "Map",
-          "view_id": "f0b372f8-df0c-4946-9e14-9b53835a71f6",
+          "view_id": "d3a368e2-2eab-409f-8524-1e7a3765eaf3",
           "scope": "Default author dashboard and the replica Map; the REST CSV confirms the buffer layers resolve at the parameter point.",
           "parameters": {},
           "filters": {},
           "path": "outputs/cloud-replica-map.csv",
-          "sha256": "6b168105d821e1f168ae936c6e8a541377c573bd36c3a11f30855c92ad255cff",
+          "sha256": "61636014b1a7e23ba2d0d83ffc5ceaf45fc1a35d7e0aaf0f0d95108896a6f460",
           "bytes": 142
         }
       ]

@@ -23,5 +23,5 @@
   "source_workbook_used_by_builder": false,
   "public_sdk_only": true,
   "scope": "Copied only builder/verifier, metadata and locked extracted inputs. Built from TWBEditor empty, then independent full-domain raw-data/native-artifact verification.",
-  "artifact_sha256": "6a427763c8742312e4b62ca1d3f49e5a9b8dcb03c871cf64aa84831937708d2e"
+  "artifact_sha256": "ae60729614cac731bd34c66b080d23b759460c83e0210798a8d9cf67cb7c8b3d"
 }
