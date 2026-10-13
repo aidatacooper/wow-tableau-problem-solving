@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-13",
+  "source_workbook": {
+    "filename": "2021_07_06_WW27_Top_Bottom_Performers.twbx",
+    "bytes": 76190,
+    "sha256": "f26be0173b9e761f44a672d9fda37601da6362998a4b958c2d904e1cca4c08ca",
+    "url": null
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/TableauTemp/TEMP_1klgcbl133n11m1cf4c4d17vycpr.hyper",
+      "file": "inputs/TEMP_1klgcbl133n11m1cf4c4d17vycpr.hyper",
+      "bytes": 262144,
+      "sha256": "8abcc4ace042e111e68b8e4fc6d8a937b5d132aa3b5a7a5b2af20ccf7a04a19f"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

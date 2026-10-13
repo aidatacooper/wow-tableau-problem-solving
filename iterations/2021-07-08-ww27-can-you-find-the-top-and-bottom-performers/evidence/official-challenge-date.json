@@ -1,0 +1,16 @@
+{
+  "challenge_year": 2021,
+  "challenge_week": 27,
+  "article_date": "2021-07-08",
+  "challenge_date": "2021-07-06",
+  "official_rest_url": "https://www.workout-wednesday.com/wp-json/wp/v2/posts/5555",
+  "response_excerpt": {
+    "id": 5555,
+    "date": "2021-07-06T06:30:00",
+    "link": "https://www.workout-wednesday.com/2021w27tab/",
+    "title": {
+      "rendered": "2021 Week 27: Can you find the top and bottom performers?"
+    }
+  },
+  "scope": "Official WordPress publication date, without inference from article/workbook names."
+}

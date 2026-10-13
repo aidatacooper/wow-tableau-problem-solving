@@ -1,0 +1,100 @@
+{
+  "case_id": "wow-2021-ww27-can-you-find-the-top-and-bottom-performers",
+  "captured_at": "2026-10-13T02:54:49.365217+00:00",
+  "source_hashes": {
+    "author": "f26be0173b9e761f44a672d9fda37601da6362998a4b958c2d904e1cca4c08ca",
+    "replica": "a7f224ada784d53019e04328c58647a5170a239440a1944c16b46e1d9e6f184c"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "b428a914-48a5-4a9f-b66d-d2121e510480",
+      "name": "cwtwb-review-wow-2021-ww27-can-you-find-the-top-and-bottom-performers-author-f26be0173b9e",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2993338",
+      "views": [
+        {
+          "name": "2021_07_06_WW27_Top_Bottom_Performers",
+          "id": "c8384d8d-34ef-4f5c-bc43-4cc7cff79e60"
+        },
+        {
+          "name": "Data",
+          "id": "d3422279-b670-4d1c-b2ba-901b9e7971ff"
+        }
+      ]
+    },
+    "replica": {
+      "id": "89e11d16-2241-4608-9336-c2034a28fb43",
+      "name": "cwtwb-review-wow-2021-ww27-can-you-find-the-top-and-bottom-performers-replica-a7f224ada784",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/2993504",
+      "views": [
+        {
+          "name": "Chart",
+          "id": "91bb03a5-d3a3-4325-a974-30dc6fb78eee"
+        },
+        {
+          "name": "Month Selector",
+          "id": "0190b616-cf7d-4c81-bff3-665a17f9e209"
+        },
+        {
+          "name": "2021_07_06_WW27_Top_Bottom_Performers",
+          "id": "369d112b-bc94-4c6c-8ee3-ffecec3229f6"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "c8384d8d-34ef-4f5c-bc43-4cc7cff79e60",
+          "name": "2021_07_06_WW27_Top_Bottom_Performers",
+          "path": "outputs/cloud-author.png",
+          "sha256": "23fcb53bf50470bca0b46f52325e11295160644d9f9bf6930e48dbd15b2d359e",
+          "size": [
+            2000,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "91bb03a5-d3a3-4325-a974-30dc6fb78eee",
+          "name": "Chart",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "6ea8c77c07c6ff9f51c8c0ccdac2c70fd1d07d60d2a2de21cba9487dcfe58fda",
+          "size": [
+            1584,
+            1670
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Data",
+          "view_id": "d3422279-b670-4d1c-b2ba-901b9e7971ff",
+          "scope": "Author Data sheet and the replica Chart; the REST CSV confirms the rolling windows, quartile classification and contraction flags.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-chart.csv",
+          "sha256": "f6b59d542f431c57c07408db0104384603d7f1b45709f958c9207e0bda1b1aba",
+          "bytes": 4820
+        },
+        {
+          "role": "replica",
+          "view": "Chart",
+          "view_id": "91bb03a5-d3a3-4325-a974-30dc6fb78eee",
+          "scope": "Author Data sheet and the replica Chart; the REST CSV confirms the rolling windows, quartile classification and contraction flags.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-chart.csv",
+          "sha256": "a59aa8fe133bc5f5eecea201605513580b34f8bf178d447b0f1a4a6f8f3e2d69",
+          "bytes": 1719
+        }
+      ]
+    }
+  ],
+  "status": "captured_requires_independent_review"
+}

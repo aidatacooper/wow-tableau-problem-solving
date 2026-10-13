@@ -1,0 +1,15 @@
+{
+  "case_dir": "iterations/2021-07-08-ww27-can-you-find-the-top-and-bottom-performers",
+  "author_workbook": "dashboards/2021_07_06_WW27_Top_Bottom_Performers/2021_07_06_WW27_Top_Bottom_Performers.twbx",
+  "author_view": "2021_07_06_WW27_Top_Bottom_Performers",
+  "replica_view": "Chart",
+  "states": [],
+  "data_views": [
+    {
+      "name": "chart",
+      "author": "Data",
+      "replica": "Chart",
+      "scope": "Author Data sheet and the replica Chart; the REST CSV confirms the rolling windows, quartile classification and contraction flags."
+    }
+  ]
+}

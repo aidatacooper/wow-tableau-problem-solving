@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "generated_from": "iterations/*/case.yaml",
-  "active_case_count": 109,
+  "active_case_count": 110,
   "legacy_case_ids": {
     "donna-2019-07-18-63877b35d19a": "wow-2019-ww29-high-orders",
     "donna-2019-07-25-59a0a144b25b": "wow-2019-ww30-navigation-kpi",
@@ -6185,6 +6185,66 @@
         "The subtitle references % of Total Profitable and Potential Profitability Decrease, which resolve to 79% and 33% exactly as the author's."
       ],
       "metadata": "iterations/2021-07-01-ww26-profitability-with-dual-axis-charts/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.27.1"
+    },
+    {
+      "case_id": "wow-2021-ww27-can-you-find-the-top-and-bottom-performers",
+      "legacy_case_ids": {},
+      "iteration_id": "2021-07-08-ww27-can-you-find-the-top-and-bottom-performers",
+      "article_date": "2021-07-08",
+      "challenge_year": 2021,
+      "challenge_week": 27,
+      "challenge_date": "2021-07-06",
+      "date_evidence": {
+        "article_date": "Article-local HTML 'Published:' calendar date, retained in evidence/article-date.json.",
+        "challenge": "Official 2021 Week 27 article title.",
+        "challenge_date": "Official WordPress REST date field retained in evidence/official-challenge-date.json."
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2021w27tab/",
+          "wordpress_post_id": 5555
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2021/07/08/can-you-find-the-top-and-bottom-performers/",
+          "path": null,
+          "sha256": "18783b7c3da84a9532447afbccd1e37ac9359ba13aa3f13467ce7a167b9aea27"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2021_07_06_WW27_Top_Bottom_Performers/2021_07_06_WW27_Top_Bottom_Performers",
+          "filename": "2021_07_06_WW27_Top_Bottom_Performers.twbx",
+          "sha256": "f26be0173b9e761f44a672d9fda37601da6362998a4b958c2d904e1cca4c08ca"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "workaround",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "evidence/article-date.json",
+        "evidence/build-provenance.json",
+        "evidence/cloud-request.json",
+        "evidence/cloud-verification.json",
+        "evidence/functional-verification.json",
+        "evidence/official-challenge-date.json",
+        "evidence/sdk-baseline.json",
+        "evidence/visual-review.md",
+        "inputs/source-lock.json"
+      ],
+      "notes": [
+        "Current is the maximum date in the data (2021-12-30); the current window is the N months ending there and the previous window ends one month earlier.",
+        "The percentile fields are addressed by Columns; any narrower addressing makes WINDOW_PERCENTILE compute per-cell and classifies every row as Top.",
+        "The chart overlays a quartile-coloured bar over a previous-sales Gantt bar on a folded, synchronised dual axis, with the contraction circle on a hidden row."
+      ],
+      "metadata": "iterations/2021-07-08-ww27-can-you-find-the-top-and-bottom-performers/case.yaml",
       "metadata_contract": "1.1.0",
       "tested_sdk_version": "0.27.1"
     },

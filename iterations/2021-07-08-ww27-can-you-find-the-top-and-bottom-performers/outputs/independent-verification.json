@@ -1,0 +1,72 @@
+{
+  "scope": "Locked-extract oracle plus native quartile/rolling-window workbook contracts.",
+  "acceptance": [
+    "ww27-rolling-windows",
+    "ww27-quartile-classification",
+    "ww27-contraction-indicator",
+    "ww27-chart",
+    "ww27-month-selector",
+    "ww27-quartile-values"
+  ],
+  "facts": {
+    "extract_sha256": "8abcc4ace042e111e68b8e4fc6d8a937b5d132aa3b5a7a5b2af20ccf7a04a19f",
+    "rows": 9994,
+    "max_date": "2021-12-30",
+    "current_start": "2020-12-01",
+    "previous_start": "2020-11-01",
+    "previous_end": "2021-11-30",
+    "sub_categories": 17,
+    "p25": 17759.93,
+    "p75": 75456.4015,
+    "classification": {
+      "Paper": "Middle",
+      "Binders": "Top",
+      "Art": "Bottom",
+      "Appliances": "Middle",
+      "Chairs": "Top",
+      "Phones": "Top",
+      "Furnishings": "Middle",
+      "Storage": "Top",
+      "Fasteners": "Bottom",
+      "Accessories": "Middle",
+      "Labels": "Bottom",
+      "Envelopes": "Bottom",
+      "Tables": "Top",
+      "Supplies": "Bottom",
+      "Copiers": "Middle",
+      "Bookcases": "Middle",
+      "Machines": "Middle"
+    },
+    "contraction": {
+      "Art": true,
+      "Phones": true,
+      "Fasteners": true,
+      "Accessories": true,
+      "Labels": true,
+      "Envelopes": true,
+      "Tables": true,
+      "Bookcases": true,
+      "Machines": true
+    },
+    "current_sales": {
+      "Accessories": 65698.702,
+      "Appliances": 47678.983,
+      "Art": 9259.35,
+      "Binders": 90013.292,
+      "Bookcases": 31640.982,
+      "Chairs": 110504.985,
+      "Copiers": 65379.332,
+      "Envelopes": 4038.506,
+      "Fasteners": 953.908,
+      "Furnishings": 34463.616,
+      "Labels": 4101.008,
+      "Machines": 43826.205,
+      "Paper": 30021.528,
+      "Phones": 119149.334,
+      "Storage": 80268.236,
+      "Supplies": 17759.93,
+      "Tables": 75456.402
+    }
+  },
+  "output_sha256": "a7f224ada784d53019e04328c58647a5170a239440a1944c16b46e1d9e6f184c"
+}

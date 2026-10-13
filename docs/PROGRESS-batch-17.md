@@ -27,7 +27,7 @@
 - [x] 13 2021-06-17 ww24 Cholera Outbreak — `2021-06-17-ww24-can-you-visualise-the-cholera-outbreak` — replicated/workaround（validate PASS / LOADED@4cd2c61；Vincenty 八泵均值与死亡数逐位一致）
 - [x] 14 2021-06-25 ww25 Spine Charts — `2021-06-25-ww25-can-you-make-spine-charts` — replicated/workaround（validate PASS / LOADED@4cd2c61；Cloud 27 行与 oracle 逐位一致）
 - [x] 15 2021-07-01 ww26 Pareto Profitability — `2021-07-01-ww26-profitability-with-dual-axis-charts` — replicated/workaround（validate PASS / LOADED@4cd2c61；Cloud 副标题 79% / 33% 与作者一致）
-- [ ] 16 2021-07-08 ww27 Top/Bottom Performers — `2021_07_06_WW27_Top_Bottom_Performers`
+- [x] 16 2021-07-08 ww27 Top/Bottom Performers — `2021-07-08-ww27-can-you-find-the-top-and-bottom-performers` — replicated/workaround（validate PASS / LOADED@4cd2c61；Cloud 分位分类与 oracle 一致）
 - [ ] 17 2021-07-15 ww28 FireSize Map — `2021_07_14_WW28_FireSize_Map`
 
 ## 环境修正（2026-10-12）
@@ -54,6 +54,7 @@
 - [x] 2026-10-12 10 ww21 Favourite Songs — 已复现（validate PASS / LOADED@4cd2c61；Cloud 89 首过滤歌曲与 oracle 一致；83 tests OK）
 - [x] 2026-10-12 11 ww22 Unstructured — 已复现（validate PASS / LOADED@4cd2c61；Cloud 分箱与 oracle 一致；83 tests OK）
 - [x] 2026-10-13 15 ww26 Pareto Profitability — 已复现（validate PASS / LOADED@4cd2c61；Cloud 79%/33% 与作者一致；83 tests OK）
+- [x] 2026-10-13 16 ww27 Top/Bottom Performers — 已复现（validate PASS / LOADED@4cd2c61；Cloud 分位分类与 oracle 一致；83 tests OK）
 - [x] 2026-10-12 12 ww23 Sales Goal Selection — 已复现（validate PASS / LOADED@4cd2c61；Cloud BAN CSV 与 oracle 逐位一致；83 tests OK）
 - [x] 2026-10-12 13 ww24 Cholera Outbreak — 已复现（validate PASS / LOADED@4cd2c61；Vincenty 八泵均值/死亡数与作者截图逐位一致；83 tests OK）
 - [x] 2026-10-12 14 ww25 Spine Charts — 已复现（validate PASS / LOADED@4cd2c61；Cloud 27 行均值/四分位与 oracle 逐位一致；83 tests OK）
@@ -168,11 +169,17 @@
   `field_type="quantitative"`；同一个 measure 要建两份（作者也是两个 column-instance）。
 - ww25：`add_reference_band` 写的是 `<style-rule element="refband">` + `fill-color`
   （不是 refline 的 `fill-below`）。
+- ww27 `WINDOW_PERCENTILE` 寻址：按 `Rows` 或单个维度寻址会退化成逐格计算，每行的分位值=自身值，全表都判成 Top → 必须用 `table_calc="Columns"` 跨整表寻址。
+- ww27 双轴叠加：`configure_layered_chart(axis_shelf="columns", fold_axes=True, synchronized=True)`；
+  Rows shelf 放「隐藏的 Sub-Category + 收缩圆点 + 可见副本」三层嵌套。
+- ww27 参数清空复位：`add_dashboard_action(action_type="parameter", clear_behavior="set-value", clear_value="i:12")`。
+- `configure_layered_chart` 的 pane 数必须与 `configure_custom_tooltip(pane_index=...)` 一致，否则报错。
+- `add_group` 生成的是 `categorical-bin` column（`<bin value>` + `<value>` children），不是 datasource `<group>`。
 
 ## 下一步
 
-1. 01–15 已完成并全部提交（ww20–ww26）。
-2. 16–17 由 successor agent 在本 worktree 接手。
+1. 01–16 已完成并全部提交（ww20–ww27）。
+2. 仅剩 17（ww28 FireSize Map）由 successor agent 在本 worktree 接手。
    **不要**在本 worktree 并行跑 Desktop，也不要重复解 10+，否则产物与 git 会互相覆盖。
 
 ## 阻塞

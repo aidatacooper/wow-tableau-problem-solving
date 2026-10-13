@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "scope": "Locked-extract oracle for the WW27 rolling windows and quartile classification.",
+  "browser_interaction_executed": false,
+  "state": {
+    "description": "Default 12-month rolling window (pRollingMonth=12)."
+  },
+  "observed": {
+    "max_date": "2021-12-30",
+    "current_window": "2020-12-01 .. 2021-12-30",
+    "previous_window": "2020-11-01 .. 2021-11-30",
+    "sub_categories": 17,
+    "p25": 17759.93,
+    "p75": 75456.4015,
+    "top": [
+      "Phones",
+      "Chairs",
+      "Binders",
+      "Storage",
+      "Tables"
+    ],
+    "bottom": [
+      "Supplies",
+      "Art",
+      "Labels",
+      "Envelopes",
+      "Fasteners"
+    ],
+    "contractions": 9
+  },
+  "expected_from_oracle": {
+    "top": [
+      "Phones",
+      "Chairs",
+      "Binders",
+      "Storage",
+      "Tables"
+    ],
+    "bottom": [
+      "Supplies",
+      "Art",
+      "Labels",
+      "Envelopes",
+      "Fasteners"
+    ],
+    "p25": 17759.93,
+    "p75": 75456.4015
+  },
+  "result": "pass"
+}
