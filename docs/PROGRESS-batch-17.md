@@ -195,9 +195,15 @@
 ## 外部状态
 
 - 分支：`feat/wow-batch-2021-part2`（worktree: `C:/Users/imgwho/.paseo/worktrees/209a8v60/feat-wow-batch-2021-part2`）
-- 已开 PR：无
+- 已开 PR：无（分支已 push 到 origin）
 - cwtwb pin：`4cd2c61`（`C:/Users/imgwho/Desktop/project/.sdk-pins/cwtwb-4cd2c61/src`，0.27.1）
-- Cloud 证据是否绑定：ww11–ww19 均已绑定（replica hash = 提交产物 hash）
-- **并行警告**：同一 worktree 有多个 agent（f60ae67 part2 / 8e72787 part3）。
-  Desktop 是独占资源，不要与 part3 同时跑 `build_and_check.py` / `verify_corpus.py`。
-  每次 `git add` 只加自己负责的 case 路径，不要 `git add -A`。
+- Cloud 证据是否绑定：**ww11–ww28 全部 17 个 case 均已绑定**（replica hash = 提交产物 hash）
+
+## 最终验收（2026-10-13）
+
+- 17/17 case `validate_iteration.py` PASS。
+- `python -m unittest discover -s tests` → 83 tests OK。
+- `CWTWB_SRC=<pin> python scripts/desktop/verify_corpus.py` → **LOADED=50 FAIL=0 UNKNOWN=0**。
+- 17/17 case 的 Cloud 证据绑定到最终提交产物。
+- 结果：16 个 `replicated`（pass/workaround），ww26 一度受阻后由后续 agent 攻克，
+  最终全部 `replicated`。
