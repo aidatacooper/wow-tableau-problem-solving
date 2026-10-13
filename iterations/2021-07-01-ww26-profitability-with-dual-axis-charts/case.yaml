@@ -64,27 +64,23 @@ inputs:
   data_files:
   - inputs/TEMP_0ootdtt1hkoyir17nqe8y1cxn2lr.hyper
 acceptance:
-- id: ww26-cumulative-order-count
-  description: Count Orders is COUNTD(Order ID) and the cumulative/total counts are
-    the RUNNING_SUM/WINDOW_SUM chain over it.
+- id: ww26-cumulative-profit
+  description: Cumulative Profit is RUNNING_SUM(SUM([Profit])) over orders sorted
+    by profit descending, and Count Orders is COUNTD(Order ID).
   mode: automated
 - id: ww26-cumulative-percent
-  description: Cumulative % of Total Orders is the running count over the total
-    count and reaches 100%.
+  description: Cumulative % of Total Orders is the RUNNING_SUM/WINDOW_SUM ratio over
+    the order count and reaches 100%.
   mode: automated
-- id: ww26-cumulative-profit
-  description: Cumulative Profit is RUNNING_SUM(SUM([Profit])) and its final value
-    is the total profit.
-  mode: automated
-- id: ww26-profit-colour
-  description: Profit is +ve is SUM([Profit]) > 0 and colours the cumulative-profit
-    line.
+- id: ww26-profitable-marker
+  description: Profit is +ve is SUM([Profit]) > 0 and the marker flags the first
+    unprofitable order via LOOKUP(-1).
   mode: automated
 - id: ww26-subtitle-measures
   description: The Profitable Marker row plus the two WINDOW_MAX fields resolve the
     share of profitable orders and the potential profitability decrease.
   mode: automated
-- id: ww26-dual-axis-chart
+- id: ww26-dual-axis
   description: The Viz is an unsynchronised folded dual axis with a Line pane over
     a Bar pane and Order ID on Detail sorted by profit descending.
   mode: automated

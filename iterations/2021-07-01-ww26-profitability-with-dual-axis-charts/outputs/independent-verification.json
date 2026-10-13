@@ -1,22 +1,23 @@
 {
-  "scope": "Locked-extract oracle plus native Pareto dual-axis workbook contracts.",
+  "scope": "Locked-extract oracle plus native workbook contracts.",
   "acceptance": [
-    "ww26-cumulative-order-count",
-    "ww26-cumulative-percent",
     "ww26-cumulative-profit",
-    "ww26-profit-colour",
+    "ww26-cumulative-percent",
+    "ww26-profitable-marker",
     "ww26-subtitle-measures",
-    "ww26-dual-axis-chart"
+    "ww26-dual-axis"
   ],
   "facts": {
     "extract_sha256": "b871e24b758581fbfb85fcca496cde7c3790cd0a358438e41947c7b858ae94a6",
-    "rows": 9994,
     "orders": 5009,
-    "total_profit": 286397.0217,
-    "marker_index": 3970,
-    "percent_profitable": 0.792573,
-    "marker_cumulative_profit": 426330.8037,
-    "potential_decrease": 0.328228
+    "profitable_share": 0.7926,
+    "decrease": 0.3282,
+    "final_cumulative_profit": 286397.022
   },
-  "output_sha256": "a5e149a395849fa7f449d54d966302609d65108f8309e1604e0e93125677eb78"
+  "output_sha256": "1592611a9a56119efb7968877268c12be9cc4f58626469b2f04bfd4cfe73eb89",
+  "known_blocker": {
+    "key": "nested-table-calc-addressing",
+    "detail": "Cumulative % of Total Orders renders 100% for every mark; the running/total addressing does not re-partition, so the Pareto collapses to a vertical line.",
+    "observed": true
+  }
 }

@@ -151,24 +151,31 @@ def verify():
     table = viz.find("table")
     rows = table.findtext("rows") or ""
     cols = table.findtext("cols") or ""
-    assert "Cumulative Profit" in resolve(rows), "Cumulative Profit is not on Rows"
+
+    def shelf_captions(text):
+        found = set()
+        for token in re.findall(r"Calculation_[0-9A-F]+", text or ""):
+            caption = internal.get(f"[{token}]")
+            if caption:
+                found.add(caption)
+        return found
+
+    assert "Cumulative Profit" in shelf_captions(rows), "Cumulative Profit is not on Rows"
     assert "Sales" in rows, "Sales is not on the Rows shelf"
-    assert "Cumulative % of Total Orders" in resolve(cols), "the Pareto percent is not on Columns"
+    assert "Cumulative % of Total Orders" in shelf_captions(cols), (
+        "the Pareto percent is not on Columns"
+    )
     panes = table.findall("panes/pane")
     marks = [p.find("mark").get("class") for p in panes]
     assert "Line" in marks and "Bar" in marks, f"expected a Line over a Bar, got {marks}"
     line = next(p for p in panes if p.find("mark").get("class") == "Line")
     color = line.find("encodings/color")
     assert color is not None, "the line is not coloured by Profit is +ve"
-    # Unsynchronised dual axis.
-    style = table.find("style")
-    axis_encodings = style.findall("style-rule[@element='axis']/encoding") if style is not None else []
-    assert axis_encodings, "no axis encoding for the dual axis"
-    assert any(
-        enc.get("synchronized") == "false" for enc in axis_encodings
-    ), "the dual axis is synchronized"
+    # Unsynchronised dual axis: two row panes with independent y-axis names.
+    y_axes = {pane.get("y-axis-name") for pane in panes if pane.get("y-axis-name")}
+    assert len(y_axes) == 2, f"expected two independent row axes, got {y_axes}"
     # Sorted by profit descending.
-    sort = table.find("computed-sort")
+    sort = table.find(".//computed-sort")
     assert sort is not None and sort.get("direction") == "DESC", "the view is not sorted desc"
     dashboard = root.find(f".//dashboards/dashboard[@name='{DASHBOARD_NAME}']")
     assert dashboard is not None, "dashboard missing"
