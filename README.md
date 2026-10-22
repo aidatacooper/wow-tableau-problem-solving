@@ -23,7 +23,7 @@ building APIs. Confirmed SDK gaps feed back into the next case build.
 ```mermaid
 flowchart TD
     source["Claim and analyze a challenge<br/>Extract inputs/ + lock source hashes"]
-    build["Build from TWBEditor(&quot;&quot;)<br/>Public cwtwb APIs only"]
+    build["Build an empty workbook<br/>Public cwtwb APIs only"]
     checks["Verify data, XSD and tests<br/>Desktop LOADED + corpus regression"]
     cloud["Freeze the final workbook<br/>Cloud images, data + visual review"]
     record["Record case.yaml + evidence<br/>Refresh usage/; case PR + CI"]
@@ -38,9 +38,10 @@ flowchart TD
     pin --> build
 ```
 
-The author workbook is an analysis and comparison reference, never a build
-template. Case API usage errors return to the builder; only confirmed SDK
-defects or reusable gaps enter the SDK loop. Partial or blocked cases can also
+Each build starts with `TWBEditor("")`. The author workbook is an analysis and
+comparison reference, never a build template. Case API usage errors return to
+the builder; only confirmed SDK defects or reusable gaps enter the SDK loop.
+Partial or blocked cases can also
 be submitted with explicit remaining work. A rebuild changes the artifact hash,
 so capture Cloud evidence after the final build. Desktop checks run locally;
 GitHub CI does not replace Desktop or Cloud acceptance.
