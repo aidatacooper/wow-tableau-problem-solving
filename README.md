@@ -16,15 +16,37 @@ tools through evidence from real cases. It does not mean model fine-tuning.
 
 ## Contribution loop
 
-```text
-Claim one post in a GitHub issue
--> use AI to analyze the post and author workbook
--> extract packaged data once and record its hashes
--> create an independent project under iterations/
--> rebuild and verify it with the released cwtwb package
--> submit a replicated, partial, or blocked PR
--> open a separate cwtwb issue/PR only for a confirmed reusable gap
+The case repository supplies real challenges and acceptance evidence; the
+[cwtwb SDK](https://github.com/aidatacooper/cwtwb) supplies reusable workbook
+building APIs. Confirmed SDK gaps feed back into the next case build.
+
+```mermaid
+flowchart TD
+    source["Claim and analyze a challenge<br/>Extract inputs/ + lock source hashes"]
+    build["Build from TWBEditor(&quot;&quot;)<br/>Public cwtwb APIs only"]
+    checks["Verify data, XSD and tests<br/>Desktop LOADED + corpus regression"]
+    cloud["Freeze the final workbook<br/>Cloud images, data + visual review"]
+    record["Record case.yaml + evidence<br/>Refresh usage/; case PR + CI"]
+    source --> build --> checks --> cloud --> record
+
+    gap["cwtwb: reproduce a reusable gap<br/>Synthetic fixture; enhance public APIs"]
+    release["SDK regression tests + docs<br/>SDK PR + CI, then merge"]
+    build -. "Confirmed SDK gap" .-> gap
+    checks -. "Confirmed SDK defect" .-> gap
+    gap --> release
+    release --> pin["Pin the tested SDK commit<br/>in case dependencies and metadata"]
+    pin --> build
 ```
+
+The author workbook is an analysis and comparison reference, never a build
+template. Case API usage errors return to the builder; only confirmed SDK
+defects or reusable gaps enter the SDK loop. Partial or blocked cases can also
+be submitted with explicit remaining work. A rebuild changes the artifact hash,
+so capture Cloud evidence after the final build. Desktop checks run locally;
+GitHub CI does not replace Desktop or Cloud acceptance.
+
+For the operational steps, see [Start a case](docs/start-a-case.md) and the
+[cross-repository workflow](docs/iterating-cwtwb-and-wow.md).
 
 Start with [CONTRIBUTING.md](CONTRIBUTING.md). Agents also read [AGENTS.md](AGENTS.md).
 The complete protocol is in
