@@ -22,30 +22,18 @@ building APIs. Confirmed SDK gaps feed back into the next case build.
 
 ```mermaid
 flowchart TD
-    source["Claim a challenge<br/>Analyze the article and author workbook"]
+    source["Claim and analyze a challenge<br/>Extract inputs/ + lock source hashes"]
+    build["Build from TWBEditor(&quot;&quot;)<br/>Public cwtwb APIs only"]
+    checks["Verify data, XSD and tests<br/>Desktop LOADED + corpus regression"]
+    cloud["Freeze the final workbook<br/>Cloud images, data + visual review"]
+    record["Record case.yaml + evidence<br/>Refresh usage/; case PR + CI"]
+    source --> build --> checks --> cloud --> record
 
-    subgraph wow["wow-tableau-problem-solving · cases and evidence"]
-        inputs["Extract data into inputs/<br/>Lock source hashes"]
-        build["Build from TWBEditor(&quot;&quot;)<br/>Public cwtwb APIs only"]
-        checks["Verify data and artifact contracts<br/>XSD, provenance and shared tests"]
-        desktop["Tableau Desktop gate<br/>Must open: LOADED + corpus regression"]
-        cloud["Freeze the final workbook<br/>Cloud REST images and data + visual review"]
-        record["Record case.yaml status and evidence<br/>Regenerate usage/ indexes"]
-        review["Case pull request<br/>CI + review, then merge"]
-        inputs --> build --> checks --> desktop --> cloud --> record --> review
-    end
-
-    subgraph sdk["cwtwb · reusable SDK capabilities"]
-        gap["Reproduce a confirmed API bug or gap<br/>Small synthetic fixture, no author workbook"]
-        enhance["Enhance public APIs<br/>Regression tests + documentation"]
-        release["SDK pull request<br/>Tests + review, then merge"]
-        gap --> enhance --> release
-    end
-
-    source --> inputs
-    build -. "Confirmed reusable gap" .-> gap
+    gap["cwtwb: reproduce a reusable gap<br/>Synthetic fixture; enhance public APIs"]
+    release["SDK regression tests + docs<br/>SDK PR + CI, then merge"]
+    build -. "Confirmed SDK gap" .-> gap
     checks -. "Confirmed SDK defect" .-> gap
-    desktop -. "Confirmed SDK defect" .-> gap
+    gap --> release
     release --> pin["Pin the tested SDK commit<br/>in case dependencies and metadata"]
     pin --> build
 ```
