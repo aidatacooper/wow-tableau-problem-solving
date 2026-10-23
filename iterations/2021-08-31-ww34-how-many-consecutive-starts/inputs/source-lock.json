@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-23",
+  "source_workbook": {
+    "filename": "2021_08_25_WW34_Consecutive_Starts.twbx",
+    "bytes": 26891,
+    "sha256": "a4c489ea4505a695b26f847783254b83d1309b3422fe0e1253d368448894090a",
+    "url": null
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/WOW34_ Consecutive Starts Template.twb Files/federated.hyper",
+      "file": "inputs/federated.hyper",
+      "bytes": 131072,
+      "sha256": "91ac3cd2e799f38d70d60b668ede61e1157abc8612fa4ca5b6807ed9d57bb918"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

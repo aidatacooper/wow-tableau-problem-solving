@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0.0",
+  "scope": "Independent running-counter oracle over the locked extract plus the native table-calculation, filter, encoding and dashboard contracts.",
+  "browser_interaction_executed": false,
+  "state": {
+    "description": "Default view: weeks 1-17, all 32 teams, no parameter or action in this challenge."
+  },
+  "observed": {
+    "teams": 32,
+    "games_per_team": 240,
+    "regular_season_rows": 7680,
+    "extract_rows_outside_weeks_1_17": 334,
+    "sum_current_streak": 563,
+    "longest_streak": {
+      "team": "LAC",
+      "games": 224
+    }
+  },
+  "expected_from_oracle": {
+    "teams": 32,
+    "games_per_team": 240,
+    "regular_season_rows": 7680,
+    "sum_current_streak": 563,
+    "longest_streak": {
+      "team": "LAC",
+      "games": 224
+    }
+  },
+  "acceptance": [
+    "ww34-source-grain",
+    "ww34-week-filter",
+    "ww34-table-calcs",
+    "ww34-streak-oracle",
+    "ww34-viz-encoding",
+    "ww34-dashboard"
+  ],
+  "artifact_sha256": "d83024198083cb91233ae5b4e3f56dae6c0362d4a5bf33e0e80ff83418b928c5",
+  "result": "pass",
+  "pending": [
+    "Tableau Desktop load verdict (coordinator-run gate).",
+    "Cloud author/replica screenshots for the visual comparison."
+  ]
+}
