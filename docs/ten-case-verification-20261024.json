@@ -1,0 +1,76 @@
+{
+  "case_count": 10,
+  "sdk_commit": "23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c",
+  "cases": [
+    {
+      "case_id": "wow-2021-ww29-can-you-rebuild-the-olympic-schedule",
+      "artifact_sha256": "b4ac684a128486d84b4561a96e9cd6bf3f3dc34f36f5a63036d06da05840c268",
+      "metadata_xsd": "PASS",
+      "desktop": "LOADED",
+      "cloud_data": "PASS"
+    },
+    {
+      "case_id": "wow-2021-ww30-let-s-go-streaking",
+      "artifact_sha256": "adfa82a12c26bbeddad71ebcdee78948c6e0291a0752481e32cbf02ca8905077",
+      "metadata_xsd": "PASS",
+      "desktop": "LOADED",
+      "cloud_data": "PASS"
+    },
+    {
+      "case_id": "wow-2021-ww31-can-you-find-the-needle-in-the-haystack",
+      "artifact_sha256": "2fb89605b7a2a3247929de4c701a595b071270a15f1d42c43925ccb69165c2c3",
+      "metadata_xsd": "PASS",
+      "desktop": "LOADED",
+      "cloud_data": "PASS"
+    },
+    {
+      "case_id": "wow-2021-ww32-visualise-our-survey-data",
+      "artifact_sha256": "d5215ce32188afbc573240a57cce7572a05ebb43522b768acea90d6c88bc53f8",
+      "metadata_xsd": "PASS",
+      "desktop": "LOADED",
+      "cloud_data": "PASS"
+    },
+    {
+      "case_id": "wow-2021-ww33-can-you-create-a-moving-average-chart-with-a-focus-on-selected-subcategories",
+      "artifact_sha256": "3ab71871c87e86974e90983448ec71977c913781242e45d709bf6970d588a5b2",
+      "metadata_xsd": "PASS",
+      "desktop": "LOADED",
+      "cloud_data": "PASS"
+    },
+    {
+      "case_id": "wow-2021-ww34-how-many-consecutive-starts",
+      "artifact_sha256": "da89bbd579fa0ee2f99be6721cebc34259260d047f57150529f493d68b16f95f",
+      "metadata_xsd": "PASS",
+      "desktop": "LOADED",
+      "cloud_data": "PASS"
+    },
+    {
+      "case_id": "wow-2021-ww35-how-much-change-has-occurred",
+      "artifact_sha256": "5e57e91e7beaf45ac3f066f030a3ee5e918522791df1c3adab848871b59a683a",
+      "metadata_xsd": "PASS",
+      "desktop": "LOADED",
+      "cloud_data": "PASS"
+    },
+    {
+      "case_id": "wow-2021-ww36-when-do-extracts-run",
+      "artifact_sha256": "62a3a5e0eb59bdac88e305254ca10e0d7bbf8057bd3a47838e3351beb6a76b55",
+      "metadata_xsd": "PASS",
+      "desktop": "LOADED",
+      "cloud_data": "PASS"
+    },
+    {
+      "case_id": "wow-2021-ww38-can-you-quickly-tell-the-net-change-between-two-dates",
+      "artifact_sha256": "7c019ad146c0535a29b3be0aa5090b8051779ab06e0830af91a16ec8710fc98c",
+      "metadata_xsd": "PASS",
+      "desktop": "LOADED",
+      "cloud_data": "PASS"
+    },
+    {
+      "case_id": "wow-2021-ww40-can-you-make-stacked-bar-charts-easier-to-compare",
+      "artifact_sha256": "bf9a32d976c9f7aca2793ecf6ab981db1c5f22ca2b9d126ee73d54d9003767c5",
+      "metadata_xsd": "PASS",
+      "desktop": "LOADED",
+      "cloud_data": "PASS"
+    }
+  ]
+}

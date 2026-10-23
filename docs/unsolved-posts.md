@@ -6,9 +6,9 @@
 
 - 文章归档时间：2026-10-09T03:11:52.229499+00:00
 - 目录文章总数：349
-- 已复现 case：111
-- 尚未解决的文章：238
-- 其中带 Tableau Public 链接：233
+- 已复现 case：121
+- 尚未解决的文章：228
+- 其中带 Tableau Public 链接：223
 - 其中没有工作簿链接：5
 
 有链接不保证工作簿仍可下载；没有链接也不代表文章一定不是挑战。以上为本地归档口径，未检查新发布文章。
@@ -243,7 +243,7 @@
 - 2022-01-06 — [Let’s analyse wildlife strikes](https://donnacoles.home.blog/2022/01/06/lets-analyse-wildlife-strikes/)
 - 2022-01-01 — [Can you build a table with one measure?](https://donnacoles.home.blog/2022/01/01/can-you-build-a-table-with-one-measure/)
 
-## 2021（22）
+## 2021（12）
 
 - 2021-12-24 — [Let’s visualise #WorkoutWednesday submissions](https://donnacoles.home.blog/2021/12/24/lets-visualise-workoutwednesday-submissions/)
 - 2021-12-16 — [Can you recreate this drill down?](https://donnacoles.home.blog/2021/12/16/can-you-recreate-this-drill-down/)
@@ -256,16 +256,6 @@
 - 2021-10-28 — [Filtering Table Calcs](https://donnacoles.home.blog/2021/10/28/filtering-table-calcs/)
 - 2021-10-21 — [Can you use set actions to create a reference date range?](https://donnacoles.home.blog/2021/10/21/can-you-use-set-actions-to-create-a-reference-date-range/)
 - 2021-10-14 — [How much do top sub-categories contribute to sales?](https://donnacoles.home.blog/2021/10/14/how-much-do-top-sub-categories-contribute-to-sales/)
-- 2021-10-08 — [Can you make stacked bar charts easier to compare?](https://donnacoles.home.blog/2021/10/08/can-you-make-stacked-bar-charts-easier-to-compare/)
-- 2021-09-23 — [Can you quickly tell the net change between two dates?](https://donnacoles.home.blog/2021/09/23/can-you-quickly-tell-the-net-change-between-two-dates/)
-- 2021-09-12 — [When do extracts run during the day?](https://donnacoles.home.blog/2021/09/12/when-do-extracts-run-during-the-day/)
-- 2021-09-02 — [How much change has occurred?](https://donnacoles.home.blog/2021/09/02/how-much-change-has-occurred/)
-- 2021-08-31 — [How many consecutive starts?](https://donnacoles.home.blog/2021/08/31/how-many-consecutive-starts/)
-- 2021-08-29 — [Can you create a moving average chart with a focus on selected subcategories?](https://donnacoles.home.blog/2021/08/29/can-you-create-a-moving-average-chart-with-a-focus-on-selected-subcategories/)
-- 2021-08-12 — [Visualise Our Survey Data](https://donnacoles.home.blog/2021/08/12/visualise-our-survey-data/)
-- 2021-08-05 — [Can you find the needle in the haystack?](https://donnacoles.home.blog/2021/08/05/can-you-find-the-needle-in-the-haystack/)
-- 2021-07-29 — [Let’s go streaking!](https://donnacoles.home.blog/2021/07/29/lets-go-streaking/)
-- 2021-07-23 — [Can you rebuild the Olympic Schedule?](https://donnacoles.home.blog/2021/07/23/can-you-rebuild-the-olympic-schedule/)
 - 2021-05-06 — [Can you performance tune this workbook?](https://donnacoles.home.blog/2021/05/06/can-you-performance-tune-this-workbook/)（无工作簿链接）
 
 ## 2019（1）

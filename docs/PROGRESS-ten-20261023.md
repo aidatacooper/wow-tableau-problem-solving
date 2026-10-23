@@ -1,5 +1,7 @@
 # 进度：2026-10-23 再解决 10 个 WoW case
 
+> **最终状态（2026-10-24）**：10/10 已验收并集成本地协调分支；121 已解、228 未解。全部 Desktop LOADED、Cloud 数据 PASS、冻结 XSD/metadata/hash PASS，83 tests OK。下方为追加式历史记录，早期 pending 不代表当前状态。详见 [最终结果](TEN-CASE-RESULTS-20261024.md)。
+
 - 基线：main d52ecab；111 个 replicated case。旧 unsolved-posts.md 的 259 和 batch-17 的 237 均为过时或目录计数。
 - 本地归档：349 篇文章（2026-10-09 抓取）；按 URL 加历史文章路径匹配后，238 篇尚未解决，其中 233 篇带工作簿链接，5 篇无链接。
 - SDK：固定 `.sdk-pins/cwtwb-23b1df0/src`；系统 editable 指向已删除目录。本次进程显式设置 PYTHONPATH，不改全局安装。

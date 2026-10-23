@@ -3,3 +3,6 @@
 iterations/*/outputs/*.csv -text
 # Source locks cover exact extracted bytes, including JSON categorical mappings.
 iterations/*/inputs/* -text
+# Preserve the LF source bytes recorded by the WW32 build provenance.
+iterations/2021-08-12-ww32-visualise-our-survey-data/build_replication.py text eol=lf
+iterations/2021-08-12-ww32-visualise-our-survey-data/verify_replication.py text eol=lf
