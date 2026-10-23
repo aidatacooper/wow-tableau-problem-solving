@@ -1,0 +1,102 @@
+schema_version: 1.1.0
+case_id: wow-2021-ww40-can-you-make-stacked-bar-charts-easier-to-compare
+iteration_id: 2021-10-08-ww40-can-you-make-stacked-bar-charts-easier-to-compare
+post: https://donnacoles.home.blog/2021/10/08/can-you-make-stacked-bar-charts-easier-to-compare/
+legacy_case_ids: {}
+article_date: '2021-10-08'
+challenge_year: 2021
+challenge_week: 40
+challenge_date: '2021-10-06'
+date_evidence:
+  article_date: Declared article publication date in iteration_id
+  challenge: Explicit challenge_year; week declared in iteration_id
+  challenge_date: Explicit official challenge publication date and URL
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/tab2021w40/
+  article:
+    url: https://donnacoles.home.blog/2021/10/08/can-you-make-stacked-bar-charts-easier-to-compare/
+    path: posts/2021-10-08-Can_you_make_stacked_bar_charts_easier_to_compare.html
+    sha256: eb843030a5fac64cb8812c0a3f978ad1dff0cb92eb481d31231b2bed28af0467
+  workbook:
+    url: https://public.tableau.com/views/2021_10_06_WW40_Compare_Stacked_Bar_Charts/2021_10_06_WW40_Compare_Stacked_Bar_Charts
+    filename: 2021_10_06_WW40_Compare_Stacked_Bar_Charts.twbx
+    sha256: 22a46422e2cce4b3b7a94b8b7b3c28d35d7ba930b76776f219083c341f7b4684
+verification_status: pending
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: null
+  cloud_replica: null
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- inputs/source-lock.json
+- evidence/article-date.json
+- evidence/official-challenge-date.json
+- evidence/sdk-baseline.json
+- evidence/functional-verification.json
+- evidence/cloud-request.json
+- evidence/build-provenance.json
+notes:
+- Original author parameter caption pSelectedCategpry contains a typo; retained to
+  allow identical Cloud parameter overrides.
+- 'Native author sort is descending SUM(Sort): selected Category is zero; other categories
+  use their row counts. Do not substitute ascending category name order.'
+- Desktop and Cloud deliberately not run by this worker; coordinator serializes those
+  shared services.
+cwtwb:
+  tested_version: 0.29.0a1
+  tested_commit: 23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c
+  runs:
+  - version: 0.29.0a1
+    commit: 23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c
+    result: pass
+    evidence: evidence/sdk-baseline.json
+analysis_status: completed
+functional_status: partial
+visual_status: not_evaluated
+cwtwb_result: pass
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/TEMP_1rlfehn1u8uuxf1ftgpnm1gfzxx5.hyper
+acceptance:
+- id: ww40-state-groups
+  description: Group 49 states by ASCII first letter into A-M and N-Z, including M
+    in the first group.
+  mode: automated
+- id: ww40-six-sales-cells
+  description: Independent 9994-row extract oracle reproduces six group-category sales
+    cells and group totals.
+  mode: automated
+- id: ww40-category-sort
+  description: Default Office Supplies and alternate Furniture/Technology select the
+    bottom segment using native descending SUM(Sort).
+  mode: automated
+- id: ww40-total-reference
+  description: Per-cell total reference labels sit above the two native stacked bars,
+    without a visible reference stroke.
+  mode: automated
+- id: ww40-parameter-action
+  description: On-select parameter action assigns ATTR(Category) to the published
+    pSelectedCategpry parameter; clearing retains current value.
+  mode: automated
+- id: ww40-clear-selection
+  description: On-select filter action maps True to False, auto-clears selection,
+    and shows all rows when cleared.
+  mode: automated
+- id: ww40-layout-palette
+  description: 400x800 dashboard has three fixed category colours, white sales labels,
+    title and credits.
+  mode: automated
+remaining_work:
+- Coordinator must run serialized Desktop LOADED gate and capture the original author
+  and replica on Cloud for default, Furniture and Technology states. Compare CSVs
+  to outputs/expected-sales.csv; inspect stack order, totals and styling.
+- Then bind current workbook SHA to Desktop/Cloud evidence and mark replicated/verified
+  only if all gates pass. REST parameter states and native action serialization do
+  not constitute browser-click testing.
+blocker: null
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []

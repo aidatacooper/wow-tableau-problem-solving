@@ -1,0 +1,10 @@
+{
+  "sdk_version": "0.29.0a1",
+  "sdk_commit": "23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c",
+  "construction": "empty workbook plus locked inputs through public APIs",
+  "sha256": {
+    "build_replication.py": "0d2866f9bad0c9d2a612e1feffcbec0909106913a21869a2eaa411961c4bca24",
+    "outputs/replicated-workbook.twbx": "b4fb936cba698a488df29e2cd5ced5c4b88fcf90862dc82504687820366b28eb",
+    "inputs/source-lock.json": "60398055f15a50eb206a9fc55417e407f1d88a296349aa5c17051af41ad06caa"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "case_dir": "iterations/2021-10-08-ww40-can-you-make-stacked-bar-charts-easier-to-compare",
+  "author_workbook": "C:/Users/imgwho/Desktop/project/wow-tableau-problem-solving/dashboards/2021_10_06_WW40_Compare_Stacked_Bar_Charts/2021_10_06_WW40_Compare_Stacked_Bar_Charts.twbx",
+  "author_view": "2021_10_06_WW40_Compare_Stacked_Bar_Charts",
+  "replica_view": "2021_10_06_WW40_Compare_Stacked_Bar_Charts",
+  "states": [
+    {
+      "name": "furniture",
+      "parameters": {
+        "pSelectedCategpry": "Furniture"
+      }
+    },
+    {
+      "name": "technology",
+      "parameters": {
+        "pSelectedCategpry": "Technology"
+      }
+    }
+  ],
+  "data_views": [
+    {
+      "name": "chart",
+      "author": "Chart",
+      "replica": "Chart",
+      "scope": "Six State Group x Category marks; all parameter states preserve sales and totals."
+    }
+  ],
+  "notes": [
+    "Original author is never modified.",
+    "All three states have identical six sales values; only stack order changes.",
+    "CSV oracle outputs/expected-sales.csv; category stack sequence expected in evidence/functional-verification.json.",
+    "Author parameter caption typo preserved. REST parameter states plus serialized action contracts; no browser click claim."
+  ]
+}
