@@ -17,3 +17,6 @@ Result: acceptable_delta. All 15 replica CSV exports across default, Tableau and
 PBI states pass 339 percentage checks against the independent source-data oracle.
 Original author sheets remain hidden and unmodified. Cloud REST states and
 serialized action contracts were tested; browser clicks were not executed.
+
+
+Independent review addendum: replica title is shortened to #WOW2021 | Survey responses, with no original subtitle/footer attribution strip. The author sentiment section is split into a diverging chart and a separate Response distribution panel. These are accepted presentation/content differences; all counts and percentages and native filter contracts remain verified.
