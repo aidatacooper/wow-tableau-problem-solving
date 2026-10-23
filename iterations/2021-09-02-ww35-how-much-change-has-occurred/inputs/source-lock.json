@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-23",
+  "source_workbook": {
+    "filename": "2021_09_01_WW35_Change_In_Sales.twbx",
+    "bytes": 71923,
+    "sha256": "1c10a8d231a60ab138de898ad370bbc2e3a47d86f4d75c9e4cd336abb79e20cf",
+    "url": null
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Datasources/Orders (Sample - Superstore).hyper",
+      "file": "inputs/Orders (Sample - Superstore).hyper",
+      "bytes": 262144,
+      "sha256": "66e4a15d655b6f2b7812a7885b7d32f6c2658173fd5ecf7571c73da5f9773a31"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}
