@@ -1,15 +1,23 @@
 {
   "case_dir": "iterations/2021-08-29-ww33-can-you-create-a-moving-average-chart-with-a-focus-on-selected-subcategories",
-  "author_workbook": "dashboards/2021_08_18_WW_33_Moving_Avg/2021_08_18_WW_33_Moving_Avg.twbx",
+  "author_workbook": "C:/Users/imgwho/Desktop/project/wow-tableau-problem-solving/dashboards/2021_08_18_WW_33_Moving_Avg/2021_08_18_WW_33_Moving_Avg.twbx",
   "author_view": "2021_08_18_WW33_Moving_Avg",
   "replica_view": "2021_08_18_WW33_Moving_Avg",
-  "states": [],
-  "data_views": [
+  "states": [
     {
-      "name": "data",
-      "author": null,
-      "replica": "Data",
-      "scope": "The author's 'Data' sheet is hidden in the published workbook (windows/window[@name='Data'] hidden='true'), so the author CSV is not reachable from Cloud. Use the replica 'Data' CSV against outputs/expected-moving-avg.csv (597 group-month rows at pPrior=3/pPost=3), and compare the rendered dashboard screenshots for the line/band/set behaviour."
+      "parameters": {
+        "pPost": 1,
+        "pPrior": 1
+      },
+      "name": "one-one"
+    },
+    {
+      "parameters": {
+        "pPost": 6,
+        "pPrior": 6
+      },
+      "name": "six-six"
     }
-  ]
+  ],
+  "data_views": []
 }

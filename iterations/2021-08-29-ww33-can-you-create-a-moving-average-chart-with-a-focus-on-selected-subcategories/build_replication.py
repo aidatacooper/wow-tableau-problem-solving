@@ -39,14 +39,14 @@ CATEGORY_COLORS = {
     "Appliances": "#ffbe7d",
     "Binders": "#59a14f",
     "Bookcases": "#8cd17d",
-    "Chairs": "#4e79a7",
+    "Chairs": "#b5bd00",
     "Copiers": "#b6992d",
     "Furnishings": "#f1ce63",
     "Machines": "#499894",
     "Misc": "#86bcb6",
-    "Paper": "#f28e2b",
+    "Paper": "#ff6fa2",
     "Phones": "#ff9d9a",
-    "Storage": "#e15759",
+    "Storage": "#906fc4",
     "Tables": "#79706e",
 }
 
@@ -80,21 +80,7 @@ def build(output_path=None):
     editor.add_set(
         "Sub-Category (group) Set",
         "Sub-Category (group)",
-        members=[
-            "Accessories",
-            "Appliances",
-            "Binders",
-            "Bookcases",
-            "Chairs",
-            "Copiers",
-            "Furnishings",
-            "Machines",
-            "Misc",
-            "Paper",
-            "Phones",
-            "Storage",
-            "Tables",
-        ],
+        members=["Chairs", "Paper", "Storage"],
     )
 
     # --- Table calculations ------------------------------------------------
@@ -174,6 +160,7 @@ def build(output_path=None):
             }
         ],
         table_calc_overrides=data_overrides,
+        table_calc_context=True,
     )
     editor.set_measure_name_aliases(
         DATA_SHEET,
@@ -198,17 +185,20 @@ def build(output_path=None):
             {
                 "axis": "Moving Avg",
                 "mark_type": "Line",
+                "breakdown": "off",
                 "color": "Sub-Category (group) Set",
                 "color_extra": ["Sub-Category (group)"],
                 "size": "Sub-Category (group) Set",
                 "detail": "Sub-Category (group)",
                 "tooltip": ["SUM(Sales)"],
                 "mark_sizing_off": True,
-                "mark_style": {"mark-color": "#898989"},
+                "mark_style": {"mark-color": "#898989", "size": "0.2738674"},
             },
             {
                 "axis": "Multiple Values",
                 "mark_type": "Area",
+                "breakdown": "off",
+                "color_map": {"Window Min Avg": "#ffffff", "Window Max Avg": "#eeeeee"},
                 "measure_values": ["Window Min Avg", "Window Max Avg"],
                 "color": "Measure Names",
                 "detail": "Sub-Category (group)",
@@ -218,6 +208,7 @@ def build(output_path=None):
             },
         ],
         table_calc_overrides=overrides,
+        table_calc_context=True,
     )
 
     # Set palette: in-set members coloured, out-of-set grey.  The rendered
@@ -240,15 +231,6 @@ def build(output_path=None):
     )
     # Measure Names palette: Window Min Avg white (it is the "lower" area that
     # paints over the max band), Window Max Avg pale grey.
-    mn = {}
-    for expression, color in (
-        ("Window Min Avg", "#ffffff"),
-        ("Window Max Avg", "#eeeeee"),
-    ):
-        ci = editor.field_registry.parse_expression(expression)
-        reference = editor.field_registry.resolve_full_reference(ci.instance_name)
-        mn['"' + reference + '"'] = color
-    editor.set_datasource_color_palette("Measure Names", mn, is_measure_names=True)
 
     editor.configure_worksheet_style(
         SHEET,
@@ -355,7 +337,7 @@ def build(output_path=None):
         },
         {
             "type": "text",
-            "text": "RECREATED BY : DONNA COLES",
+            "text": "RECREATED WITH CWTWB",
             "font_size": 8,
             "absolute": p(383, 528, 209, 32),
         },

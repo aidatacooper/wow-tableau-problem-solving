@@ -40,12 +40,8 @@
     ],
     "prior": 3,
     "post": 3,
-    "series_rows": 597,
-    "sparse_groups": [
-      "Bookcases",
-      "Copiers",
-      "Machines"
-    ],
+    "series_rows": 624,
+    "sparse_groups": [],
     "accessories_2018_06_sales": [
       2545.99,
       695.49,
@@ -56,10 +52,10 @@
     ],
     "accessories_2018_06_moving_avg": 1935.750667,
     "window_extrema_2018_06": {
-      "max": 9042.576833,
+      "max": 7800.003667,
       "min": 1064.187067
     }
   },
-  "expected_rows": 597,
-  "output_sha256": "8f207f9cd8e69739999d1fa5734513e3e36957526aa75ee090cf97bd764e9acf"
+  "expected_rows": 624,
+  "output_sha256": "3ab71871c87e86974e90983448ec71977c913781242e45d709bf6970d588a5b2"
 }

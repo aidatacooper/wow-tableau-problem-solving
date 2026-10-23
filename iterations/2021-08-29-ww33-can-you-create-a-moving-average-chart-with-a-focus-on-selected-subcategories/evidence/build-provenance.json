@@ -1,31 +1,9 @@
 {
-  "case_id": "wow-2021-ww33-can-you-create-a-moving-average-chart-with-a-focus-on-selected-subcategories",
+  "builder_sha256": "02de8dca5f77b76f75ba4e6ce5616d56b2a0de9c28cb63cbfbe6bca6a2c695df",
+  "verifier_sha256": "25765719fd8b45e3b857bdfb2c405dcd29fe9f10daabb73a76c2de30ab555ac0",
+  "primary_workbook_sha256": "3ab71871c87e86974e90983448ec71977c913781242e45d709bf6970d588a5b2",
+  "source_lock": "inputs/source-lock.json",
   "sdk_commit": "23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c",
-  "sdk_version": "0.29.0a1",
-  "builder_sha256": "1331e069545b3148cdf5b24ffdc988ac9ebe96e729307b72c180ae91234b9681",
-  "builder_hash_scope": "UTF-8 source text with universal newlines normalized to LF",
-  "public_sdk_calls": [
-    "add_calculated_field",
-    "add_dashboard",
-    "add_group",
-    "add_parameter",
-    "add_set",
-    "add_worksheet",
-    "configure_layered_chart",
-    "configure_worksheet_style",
-    "save",
-    "set_active_dashboard",
-    "set_compound_color_palette",
-    "set_datasource_color_palette",
-    "set_hyper_connection",
-    "set_measure_name_aliases"
-  ],
-  "result": "passed",
-  "initial_workbooks_available": 0,
-  "copied_cloud_evidence": false,
-  "source_workbook_used_by_builder": false,
-  "public_sdk_only": true,
-  "scope": "Built from an empty TWBEditor plus the locked Hyper extract, then verified against an independent raw-data oracle.",
-  "artifact_sha256": "2d45b8824a1339d0d1a201fbd5214fd8409722880d80fc918221c85847362251",
-  "artifact_hash_scope": "SHA-256 of the committed TWBX. The packaged zip carries build timestamps, so re-running the builder changes this hash while the workbook XML and the verifier evidence stay identical."
+  "phase_boundary": "empty workbook, locked inputs, public SDK only",
+  "cloud_and_desktop_bound": true
 }

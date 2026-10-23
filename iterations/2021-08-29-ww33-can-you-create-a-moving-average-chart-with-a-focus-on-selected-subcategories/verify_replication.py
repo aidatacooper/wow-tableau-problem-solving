@@ -73,14 +73,13 @@ def oracle():
     groups = sorted({group for (_year, _month, group) in monthly})
     assert len(months) == 48 and len(groups) == 13, (len(months), len(groups))
 
-    # Tableau table calculations run over the marks that exist: a Sub-Category
-    # with no orders in a month simply has no row there, so its window skips
-    # that month instead of averaging a zero.
+    # Tableau completes the 48-month x 13-group domain. WINDOW_AVG uses the
+    # calendar offsets and ignores null sales within that window, as independently
+    # confirmed by original-author and replica Cloud Data exports.
     series = {
         group: [
-            (month, monthly[(*month, group)])
+            (month, monthly.get((*month, group)))
             for month in months
-            if (*month, group) in monthly
         ]
         for group in groups
     }
@@ -90,8 +89,8 @@ def oracle():
         # clamps at the table edges (it averages the rows that exist).
         low = max(0, index - PRIOR + 1)
         high = min(len(values) - 1, index + POST)
-        window = values[low : high + 1]
-        return sum(window) / len(window)
+        window = [v for v in values[low : high + 1] if v is not None]
+        return sum(window) / len(window) if window else None
 
     moving = {
         group: [moving_average([value for _m, value in series[group]], index)
@@ -104,7 +103,8 @@ def oracle():
     by_month = collections.defaultdict(dict)
     for group in groups:
         for (month, _value), value in zip(series[group], moving[group]):
-            by_month[month][group] = value
+            
+            if value is not None: by_month[month][group] = value
     window_max = {month: max(values.values()) for month, values in by_month.items()}
     window_min = {month: min(values.values()) for month, values in by_month.items()}
 
@@ -128,8 +128,8 @@ def oracle():
                 {
                     "Month of Order Date": f"{month[0]}-{month[1]:02d}-01",
                     "Sub-Category (group)": group,
-                    "Sales": round(series[group][index][1], 6),
-                    "Moving Avg": round(moving[group][index], 6),
+                    "Sales": round(series[group][index][1], 6) if series[group][index][1] is not None else None,
+                    "Moving Avg": round(moving[group][index], 6) if moving[group][index] is not None else None,
                     "Window Max Avg": round(window_max[month], 6),
                     "Window Min Avg": round(window_min[month], 6),
                 }
@@ -212,8 +212,7 @@ def verify():
         member.get("member")
         for member in set_node.findall("groupfilter/groupfilter")
     ]
-    assert len(set_members) == 13, set_members
-    assert '"Misc"' in set_members
+    assert set(set_members) == {'"Chairs"', '"Paper"', '"Storage"'}, set_members
 
     # --- ww33-moving-average ----------------------------------------------
     columns = {
