@@ -1,9 +1,9 @@
 {
-  "builder": "build_replication.py",
-  "builder_sha256": "27ccdac4efa5f2758e5dc18fe7a22eda3ea4e5852bf38f5b7f83de19b43735f4",
-  "output_sha256": "83d939001e94c08a6fbd634cf398f03e79fa413a844382fadf202e060d0e84e9",
-  "sdk_version": "0.29.0a1",
+  "builder_sha256": "511e18b9154ae4f57d2b59e052cff36b6c35dca9636ab3adb14e1fcc48578561",
+  "verifier_sha256": "da5d52e631368f81e37fb1d89a43252aea5975ccd92f4f9832f493061559a5e3",
+  "primary_workbook_sha256": "7c019ad146c0535a29b3be0aa5090b8051779ab06e0830af91a16ec8710fc98c",
+  "source_lock": "inputs/source-lock.json",
   "sdk_commit": "23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c",
-  "input_policy": "Only locked inputs and public SDK; author workbook read during analysis only.",
-  "local_gate": "validate_iteration PASS; unittest 83 OK"
+  "phase_boundary": "empty workbook, locked inputs, public SDK only",
+  "cloud_and_desktop_bound": true
 }

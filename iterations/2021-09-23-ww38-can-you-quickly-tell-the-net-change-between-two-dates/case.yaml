@@ -23,11 +23,11 @@ source:
     url: https://public.tableau.com/views/2021_09_22_WW38_Daily_Sales_Tracker/2021_09_22_WW38_Daily_Sales_Tracker
     filename: 2021_09_22_WW38_Daily_Sales_Tracker.twbx
     sha256: c9c78821f394e504700ba5e1ac6dcc004abc9915569c7a912112d97e57a03f2b
-verification_status: pending
+verification_status: verified
 artifacts:
   primary_workbook: outputs/replicated-workbook.twbx
-  cloud_author: null
-  cloud_replica: null
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
 artifact_aliases: {}
 historical_artifacts: []
 evidence:
@@ -39,6 +39,13 @@ evidence:
 - evidence/cloud-request.json
 - outputs/independent-verification.json
 - outputs/expected-range-states.json
+- evidence/sdk-final.json
+- evidence/author-data-exports.json
+- evidence/replica-data-exports.json
+- evidence/desktop-verification.json
+- evidence/cloud-verification.json
+- evidence/cloud-data-verification.json
+- evidence/visual-review.md
 notes:
 - Local static and independent raw-data checks do not prove Tableau runtime rendering;
   pending runtime gates are intentional.
@@ -52,9 +59,13 @@ cwtwb:
     commit: 23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c
     result: workaround
     evidence: evidence/sdk-baseline.json
+  - version: 0.29.0a1
+    commit: 23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c
+    result: workaround
+    evidence: evidence/sdk-final.json
 analysis_status: completed
-functional_status: partial
-visual_status: not_evaluated
+functional_status: replicated
+visual_status: acceptable_delta
 cwtwb_result: workaround
 inputs:
   source_lock: inputs/source-lock.json
@@ -98,16 +109,15 @@ acceptance:
   description: Three parameter actions select timeframe/minimum date/maximum date;
     two self-filter actions deselect marks in fixed 700x500 dashboard.
   mode: automated
-remaining_work:
-- Coordinator must run final Desktop LOADED gate and Cloud original/replica images
-  plus CSV validation.
-- Review default, July, and single-day states, then freeze hashes and set verified
-  only after runtime success.
+remaining_work: []
 blocker: null
 workarounds:
 - Use explicit continuous date field semantics and bracketed references rather than
   EXACTDATE on calculated captions to emit native none:qk date instances.
 - Explicit public set_datasource_color_palette handles Text mark colours; rank calculation
   gives native regional order.
+- Both conditional reference bands attach to the final Area pane on its synchronized
+  date axis; negative endpoint Detail fields are present there. This avoids the later
+  pane covering the earlier negative band.
 capability_gaps: []
 related_cwtwb_issues: []

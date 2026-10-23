@@ -280,6 +280,8 @@ def _trend(editor):
                 "detail_extra": [
                     "True",
                     "False",
+                    "Ref Line Start Date -ve",
+                    "Ref Line End Date -ve",
                     "Ref Line Start Date +ve",
                     "Ref Line End Date +ve",
                 ],
@@ -287,33 +289,22 @@ def _trend(editor):
             },
         ],
     )
-    # The author paints the band "per pane": the negative endpoints live on the
-    # Order Date Day axis, the positive endpoints on the Selected Dates to Plot
-    # axis, so each region gets exactly one coloured band. The band fields must
-    # also sit on the pane's Detail shelf or Tableau cannot resolve the
-    # per-cell endpoint values.
-    editor.add_reference_band(
-        "Trend",
-        axis_field="[Order Date Day]",
-        lower_field="Ref Line Start Date -ve",
-        upper_field="Ref Line End Date -ve",
-        lower_formula="min",
-        upper_formula="max",
-        scope="per-cell",
-        pane_index=0,
-        fill_color=BAND_NEGATIVE,
-    )
-    editor.add_reference_band(
-        "Trend",
-        axis_field="[Selected Dates to Plot]",
-        lower_field="Ref Line Start Date +ve",
-        upper_field="Ref Line End Date +ve",
-        lower_formula="min",
-        upper_formula="max",
-        scope="per-cell",
-        pane_index=1,
-        fill_color=BAND_POSITIVE,
-    )
+    # Both conditional bands belong to the final visible Area pane. Its axis
+    # is synchronized with the full-history Line axis. Attaching the negative
+    # band to the earlier Line pane leaves its correct query values covered by
+    # the later pane background in Cloud, so render both on this final pane.
+    for sign, color in (("-ve", BAND_NEGATIVE), ("+ve", BAND_POSITIVE)):
+        editor.add_reference_band(
+            "Trend",
+            axis_field="[Selected Dates to Plot]",
+            lower_field=f"Ref Line Start Date {sign}",
+            upper_field=f"Ref Line End Date {sign}",
+            lower_formula="min",
+            upper_formula="max",
+            scope="per-cell",
+            pane_index=1,
+            fill_color=color,
+        )
     editor.configure_worksheet_style(
         "Trend",
         background_color=BACKGROUND,
@@ -708,7 +699,7 @@ def build(output_path=None):
 
     for name in ("Trend", "KPI", "Subtitle", "Timeframe Selector"):
         editor.set_worksheet_title(name, "")
-        editor.set_window_state(name, hidden=True, zoom_entire_view=True)
+        editor.set_window_state(name, hidden=False, zoom_entire_view=True)
     editor.set_window_state(DASHBOARD, hidden=False, zoom_entire_view=True)
 
     output = Path(output_path) if output_path else (

@@ -397,9 +397,10 @@ def verify():
     ), palette
 
     bands = []
-    for pane in panes:
+    assert not panes[0].findall("reference-line"), "Earlier pane background would cover the band"
+    for pane in panes[1:]:
         lines = pane.findall("reference-line")
-        assert len(lines) == 2, f"pane needs one paired band, got {len(lines)}"
+        assert len(lines) == 4, f"Final pane needs both conditional bands, got {len(lines)}"
         ids = {line.get("id") for line in lines}
         assert all(line.get("paired-id") in ids for line in lines)
         assert all(line.get("scope") == "per-cell" for line in lines)
@@ -504,7 +505,7 @@ def verify():
         for window in root.findall(".//windows/window")
         if window.get("hidden") == "true"
     }
-    assert {"Trend", "KPI", "Subtitle", "Timeframe Selector"} <= hidden, hidden
+    assert not ({"Trend", "KPI", "Subtitle", "Timeframe Selector"} & hidden), "Replica sheets stay exposed for original/replica CSV verification"
 
     evidence = {
         "scope": (
