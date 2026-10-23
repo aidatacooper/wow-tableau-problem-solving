@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "generated_from": "iterations/*/case.yaml",
-  "active_case_count": 111,
+  "active_case_count": 112,
   "legacy_case_ids": {
     "donna-2019-07-18-63877b35d19a": "wow-2019-ww29-high-orders",
     "donna-2019-07-25-59a0a144b25b": "wow-2019-ww30-navigation-kpi",
@@ -6307,6 +6307,64 @@
       "metadata": "iterations/2021-07-15-ww28-can-you-build-an-app-to-visualise-wildfires/case.yaml",
       "metadata_contract": "1.1.0",
       "tested_sdk_version": "0.27.1"
+    },
+    {
+      "case_id": "wow-2021-ww29-can-you-rebuild-the-olympic-schedule",
+      "legacy_case_ids": {},
+      "iteration_id": "2021-07-23-ww29-can-you-rebuild-the-olympic-schedule",
+      "article_date": "2021-07-23",
+      "challenge_year": 2021,
+      "challenge_week": 29,
+      "challenge_date": "2021-07-20",
+      "date_evidence": {
+        "article_date": "Article-local HTML 'Published:' calendar date, retained in evidence/article-date.json.",
+        "challenge": "Official 2021 Week 29 article title.",
+        "challenge_date": "Official WordPress REST date field retained in evidence/official-challenge-date.json."
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2021w29tab/",
+          "wordpress_post_id": 5672
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2021/07/23/can-you-rebuild-the-olympic-schedule/",
+          "path": "posts/2021-07-23-Can_you_rebuild_the_Olympic_Schedule.html",
+          "sha256": "99828d8fd3e6fff8b30b6645b2d4fe563591a35b3f3fc24f622adf1212c2d648"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2021_07_21_WW29_Olympic_Schedule/2021_07_21_WW29_Olympic_Schedule",
+          "filename": "2021_07_21_WW29_Olympic_Schedule.twbx",
+          "sha256": "01db3d03f05726c52c80c56ba9a50c91a21bc7b28b02f12d1a366f5dffe0e30b"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "not_evaluated",
+      "verification_status": "pending",
+      "cwtwb_result": "workaround",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": null,
+        "cloud_replica": null
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "evidence/article-date.json",
+        "evidence/build-provenance.json",
+        "evidence/cloud-request.json",
+        "evidence/functional-verification.json",
+        "evidence/official-challenge-date.json",
+        "evidence/sdk-baseline.json",
+        "inputs/source-lock.json"
+      ],
+      "notes": [
+        "The extract carries case-variant duplicates (\"Diving\"/\"diving\", \"Football\"/\"football\", \"Rugby\"/\"rugby\", \"Volleyball\"/\"volleyball\"), so the raw domains are 36 sport groups and 51 sports rather than the article's 34 / 48 cleaned labels. The data is reproduced as published.",
+        "87 rows are Victory Ceremony events; the schedule excludes them but the FIXED LoDs still group by the flag, exactly as the author's workbook does.",
+        "X-Axis places qualifying marks at 3 and finals at 7 only when a sport-day has both; a finals-only or qualifying-only sport-day stays centred at 5."
+      ],
+      "metadata": "iterations/2021-07-23-ww29-can-you-rebuild-the-olympic-schedule/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.29.0a1"
     },
     {
       "case_id": "wow-2022-ww32-dumbbell-chart",

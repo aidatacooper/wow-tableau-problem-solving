@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-23",
+  "source_workbook": {
+    "filename": "2021_07_21_WW29_Olympic_Schedule.twbx",
+    "bytes": 127105,
+    "sha256": "01db3d03f05726c52c80c56ba9a50c91a21bc7b28b02f12d1a366f5dffe0e30b",
+    "url": null
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Datasources/Event Schedule (2021_07_21_WW29_Olympic Event Schedule).hyper",
+      "file": "inputs/Event Schedule (2021_07_21_WW29_Olympic Event Schedule).hyper",
+      "bytes": 131072,
+      "sha256": "3cb4720603499a5b60d0c434bda1d6f32fc57e4e93970d3a42bcff855829bfce"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}
