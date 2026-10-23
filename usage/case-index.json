@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "generated_from": "iterations/*/case.yaml",
-  "active_case_count": 113,
+  "active_case_count": 114,
   "legacy_case_ids": {
     "donna-2019-07-18-63877b35d19a": "wow-2019-ww29-high-orders",
     "donna-2019-07-25-59a0a144b25b": "wow-2019-ww30-navigation-kpi",
@@ -6432,6 +6432,68 @@
         "Final Cloud and independent oracle evidence supersedes earlier static-only assumptions; see evidence/cloud-data-verification.json and evidence/visual-review.md."
       ],
       "metadata": "iterations/2021-07-29-ww30-let-s-go-streaking/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.29.0a1"
+    },
+    {
+      "case_id": "wow-2021-ww31-can-you-find-the-needle-in-the-haystack",
+      "legacy_case_ids": {},
+      "iteration_id": "2021-08-05-ww31-can-you-find-the-needle-in-the-haystack",
+      "article_date": "2021-08-05",
+      "challenge_year": 2021,
+      "challenge_week": 31,
+      "challenge_date": "2021-08-03",
+      "date_evidence": {
+        "article_date": "Article-local HTML 'Published:' calendar date, retained in evidence/article-date.json.",
+        "challenge": "Official 2021 Week 31 article title.",
+        "challenge_date": "Official WordPress REST date field retained in evidence/official-challenge-date.json."
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2021w31tab/",
+          "wordpress_post_id": 5745
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2021/08/05/can-you-find-the-needle-in-the-haystack/",
+          "path": null,
+          "sha256": "1fb77f63be5fa25bcd30a001999cb6d784f0a11ec83abfc77bce74bd7f3122f4"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2021_08_04_WW31_Unprofitable_High_Sales/2021_08_04_WW31_Unprofitable_High_Sales",
+          "filename": "2021_08_04_WW31_Unprofitable_High_Sales.twbx",
+          "sha256": "ec62ed8f87c675ca9a1b84387807171c4ed226e79d9120438e20b4ef9c4e8c4b"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "workaround",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "evidence/article-date.json",
+        "evidence/build-provenance.json",
+        "evidence/cloud-request.json",
+        "evidence/cloud-verification.json",
+        "evidence/functional-verification.json",
+        "evidence/official-challenge-date.json",
+        "evidence/sdk-baseline.json",
+        "evidence/visual-review.md",
+        "inputs/source-lock.json",
+        "evidence/desktop-verification.json",
+        "evidence/cloud-data-verification.json"
+      ],
+      "notes": [
+        "The brief says products must 'have a lower than average customer count', but the author's own viz keeps all 13 top-50-and-unprofitable products and only colours them by that comparison (8 below average, 5 above). The replica follows the author's viz; the single filter is the 13-product intersection.",
+        "'Higher' is grey and 'Lower' is orange in the author palette, so the highlighted (orange) bars are the products with a lower than average customer count.",
+        "The unprofitable set's explicit member list is computed from the locked Hyper extract inside the builder, not hard-coded, so it stays data-derived."
+      ],
+      "metadata": "iterations/2021-08-05-ww31-can-you-find-the-needle-in-the-haystack/case.yaml",
       "metadata_contract": "1.1.0",
       "tested_sdk_version": "0.29.0a1"
     },
