@@ -1,0 +1,15 @@
+{
+  "result": "workaround",
+  "artifact_sha256": "adfa82a12c26bbeddad71ebcdee78948c6e0291a0752481e32cbf02ca8905077",
+  "notes": [
+    "The streak chain only works because every table calculation is addressed by Order Date Month alone; that is what restarts LOOKUP/PREVIOUS_VALUE per Sub-Category row.",
+    "Sort is a hidden discrete -Longest Streak pill in front of Sub-Category, so the list is ordered by streak length while the visible chart keeps the author's layout.",
+    "The colour ramp is pinned to a fixed 0..5 domain in five steps; a data-derived domain would normalise 2..5 and flatten the legend.",
+    "Final Cloud and independent oracle evidence supersedes earlier static-only assumptions; see evidence/cloud-data-verification.json and evidence/visual-review.md."
+  ],
+  "workarounds": [
+    "Complete missing month/category combinations with null-sales scaffold rows derived from locked inputs. ZN Sales Diff then breaks streaks across missing months exactly as author Tableau domain completion does.",
+    "Use a leading discrete negative-streak Sort pill. Computed sorting by a table calculation blanks the Cloud chart; native pill ordering achieves the required order.",
+    "Explicitly bind nested table-calculation dependencies to the native month instance. Custom tooltip omits an unbound calculated-date token; axis labels retain month."
+  ]
+}

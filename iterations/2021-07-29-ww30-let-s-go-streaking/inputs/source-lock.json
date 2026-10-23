@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-23",
+  "source_workbook": {
+    "filename": "2021_07_28_WW30_LetsGoStreaking.twbx",
+    "bytes": 74364,
+    "sha256": "5dfbd740ef326ef0b35c4cf0b1e0186848b24d8510500ebf11f45543d56cd29f",
+    "url": "https://public.tableau.com/views/2021_07_28_WW30_LetsGoStreaking/2021_07_28_WW30_LetsGoStreaking"
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Datasources/Orders (Sample - Superstore).hyper",
+      "file": "inputs/Orders (Sample - Superstore).hyper",
+      "bytes": 262144,
+      "sha256": "a6474e8c57bc188e6494e42614514483fde83561c7a6726563372cab041c2de0"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}
