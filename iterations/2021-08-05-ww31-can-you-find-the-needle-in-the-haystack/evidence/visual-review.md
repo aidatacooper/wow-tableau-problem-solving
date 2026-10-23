@@ -13,7 +13,7 @@ captured through the same REST path at `imageresolution=High`.
 | Title line 2 legend | `Higher` grey / `Lower` orange / "Average Number of Customers" grey | same colours and wording |
 | Row text block | Product Name on line 1, `Sub-Category \| Category` grey on line 2, left aligned | same two-line block, same grey sub-line |
 | Bar colours | orange for lower-than-average, grey for higher | identical per-product assignment (13/13 verified from REST CSV) |
-| Bar labels | `$23K`, `$18K`, … right of each bar | identical values |
+| Sales label values (placement differs) | `$23K`, `$18K`, … | identical values; placement documented below |
 | Sales bar start column | constant left offset from the invisible `MIN(1)` bar | same |
 | Footer | CHALLENGE BY : CANDRA MCRAE / #WOW2021 \| WEEK 31 / RECREATED BY : DONNA COLES + URL | same three cells and URL, third cell reads "RECREATED WITH cwtwb" |
 | Dashboard size | 800×650 fixed | 800×650 fixed |
@@ -49,3 +49,6 @@ agree on all 13 products with zero differences:
 - `SUM(Sales)`: identical at the `$K` display precision
 
 No product is present in one view and absent from the other.
+
+
+Independent review addendum: sales label values agree but placement differs: author labels are outside-right of bars; replica labels are inside-left. Placement is an accepted visual delta.
