@@ -30,5 +30,5 @@
   "source_workbook_used_by_builder": false,
   "public_sdk_only": true,
   "scope": "Copied only builder/verifier, metadata and locked extracted inputs. Built from an empty TWBEditor, then independently verified against the locked Hyper extract and the native workbook contracts.",
-  "artifact_sha256": "739721b8780f3c73ffaebf4a9f1f23019f4c32cca37697facfe8f4911623c764"
+  "artifact_sha256": "b4ac684a128486d84b4561a96e9cd6bf3f3dc34f36f5a63036d06da05840c268"
 }
