@@ -1,0 +1,147 @@
+{
+  "scope": "Locked-extract oracle plus native filter/axis/pane/label/dashboard contracts.",
+  "acceptance": [
+    "ww35-year-window",
+    "ww35-subcategory-sales",
+    "ww35-percent-change",
+    "ww35-descending-order",
+    "ww35-dual-axis-panes",
+    "ww35-label-and-colour",
+    "ww35-dashboard-layout"
+  ],
+  "facts": {
+    "extract_sha256": "66e4a15d655b6f2b7812a7885b7d32f6c2658173fd5ecf7571c73da5f9773a31",
+    "rows": 9994,
+    "years": [
+      2018,
+      2019,
+      2020,
+      2021
+    ],
+    "chart": [
+      {
+        "sub_category": "Phones",
+        "sales_2021": 105340.52,
+        "sales_2020": 78962.03,
+        "pct_difference": 0.3341
+      },
+      {
+        "sub_category": "Chairs",
+        "sales_2021": 95554.35,
+        "sales_2020": 83918.64,
+        "pct_difference": 0.1387
+      },
+      {
+        "sub_category": "Binders",
+        "sales_2021": 72788.05,
+        "sales_2020": 49683.32,
+        "pct_difference": 0.465
+      },
+      {
+        "sub_category": "Storage",
+        "sales_2021": 69677.62,
+        "sales_2020": 58788.7,
+        "pct_difference": 0.1852
+      },
+      {
+        "sub_category": "Copiers",
+        "sales_2021": 62899.39,
+        "sales_2020": 49599.41,
+        "pct_difference": 0.2681
+      },
+      {
+        "sub_category": "Tables",
+        "sales_2021": 60893.54,
+        "sales_2020": 60833.2,
+        "pct_difference": 0.001
+      },
+      {
+        "sub_category": "Accessories",
+        "sales_2021": 59946.23,
+        "sales_2020": 41895.85,
+        "pct_difference": 0.4308
+      },
+      {
+        "sub_category": "Machines",
+        "sales_2021": 43544.68,
+        "sales_2020": 55906.89,
+        "pct_difference": -0.2211
+      },
+      {
+        "sub_category": "Appliances",
+        "sales_2021": 42926.93,
+        "sales_2020": 26050.31,
+        "pct_difference": 0.6478
+      },
+      {
+        "sub_category": "Bookcases",
+        "sales_2021": 30024.28,
+        "sales_2020": 26275.47,
+        "pct_difference": 0.1427
+      },
+      {
+        "sub_category": "Furnishings",
+        "sales_2021": 28915.09,
+        "sales_2020": 27874.12,
+        "pct_difference": 0.0373
+      },
+      {
+        "sub_category": "Paper",
+        "sales_2021": 27694.72,
+        "sales_2020": 20661.89,
+        "pct_difference": 0.3404
+      },
+      {
+        "sub_category": "Supplies",
+        "sales_2021": 16049.41,
+        "sales_2020": 14277.58,
+        "pct_difference": 0.1241
+      },
+      {
+        "sub_category": "Art",
+        "sales_2021": 8863.07,
+        "sales_2020": 5960.91,
+        "pct_difference": 0.4869
+      },
+      {
+        "sub_category": "Labels",
+        "sales_2021": 3861.22,
+        "sales_2020": 2827.24,
+        "pct_difference": 0.3657
+      },
+      {
+        "sub_category": "Envelopes",
+        "sales_2021": 3378.57,
+        "sales_2020": 4729.89,
+        "pct_difference": -0.2857
+      },
+      {
+        "sub_category": "Fasteners",
+        "sales_2021": 857.59,
+        "sales_2020": 960.13,
+        "pct_difference": -0.1068
+      }
+    ],
+    "author_reference_rows": 15,
+    "order": [
+      "Phones",
+      "Chairs",
+      "Binders",
+      "Storage",
+      "Copiers",
+      "Tables",
+      "Accessories",
+      "Machines",
+      "Appliances",
+      "Bookcases",
+      "Furnishings",
+      "Paper",
+      "Supplies",
+      "Art",
+      "Labels",
+      "Envelopes",
+      "Fasteners"
+    ]
+  },
+  "output_sha256": "7de9d37f3b6b78a9eda27fac977673480a8b1d3e4e10a1d0203027dc39bc6cd7"
+}

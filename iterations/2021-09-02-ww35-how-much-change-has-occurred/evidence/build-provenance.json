@@ -1,0 +1,25 @@
+{
+  "case_id": "wow-2021-ww35-how-much-change-has-occurred",
+  "sdk_commit": "23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c",
+  "sdk_version": "0.29.0a1",
+  "builder_sha256": "a1cb9ead749928ede2006563b7cf94d1e9342e644322bce5eec6eacff022fc76",
+  "builder_hash_scope": "UTF-8 source text with universal newlines normalized to LF",
+  "public_sdk_calls": [
+    "add_calculated_field",
+    "add_dashboard",
+    "add_worksheet",
+    "configure_custom_tooltip",
+    "configure_layered_chart",
+    "configure_worksheet_style",
+    "save",
+    "set_hyper_connection",
+    "set_worksheet_rich_title"
+  ],
+  "result": "passed",
+  "initial_workbooks_available": 0,
+  "copied_cloud_evidence": false,
+  "source_workbook_used_by_builder": false,
+  "public_sdk_only": true,
+  "scope": "Copied only builder/verifier, metadata and the locked extracted Hyper input. Built from TWBEditor empty, then independent locked-extract oracle plus native-artifact verification.",
+  "artifact_sha256": "e4dad8b03179b79bc99f226b72cce045a64c09c60a71f2db9b302ad7f7fe8d83"
+}
