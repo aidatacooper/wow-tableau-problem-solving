@@ -1,17 +1,4 @@
 Category,Product Name,Sub-Category,Higher than Avg Customer Count,MIN(1),Profit Ratio,Customer Count Per Product,Profit,Sales
-Furniture,Bretford Rectangular Conference Table Tops,Tables,,1,,,,$13K
-Furniture,Bush Advantage Collection Racetrack Conference Table,Tables,,1,,,,$10K
-Furniture,Chromcraft Bull-Nose Wood Oval Conference Tables & Bases,Tables,,1,,,,$10K
-Furniture,Chromcraft Round Conference Tables,Tables,,1,,,,$8K
-Furniture,"Riverside Palais Royal Lawyers Bookcase, Royale Cherry Finish",Bookcases,,1,,,,$16K
-Office Supplies,GBC DocuBind P400 Electric Binding System,Binders,,1,,,,$18K
-Office Supplies,High Speed Automatic Electric Letter Opener,Supplies,,1,,,,$17K
-Office Supplies,Martin Yale Chadless Opener Electric Letter Opener,Supplies,,1,,,,$17K
-Office Supplies,Tennsco Single-Tier Lockers,Storage,,1,,,,$9K
-Technology,Cisco TelePresence System EX90 Videoconferencing Unit,Machines,,1,,,,$23K
-Technology,Cubify CubeX 3D Printer Double Head Print,Machines,,1,,,,$11K
-Technology,Cubify CubeX 3D Printer Triple Head Print,Machines,,1,,,,$8K
-Technology,Lexmark MX611dhe Monochrome Laser Printer,Machines,,1,,,,$17K
 ,Bretford Rectangular Conference Table Tops,,True,,-3%,11,$0K,$13K
 ,Bush Advantage Collection Racetrack Conference Table,,True,,-20%,7,($2K),$10K
 ,Chromcraft Bull-Nose Wood Oval Conference Tables & Bases,,False,,-29%,5,($3K),$10K
@@ -25,3 +12,16 @@ Technology,Lexmark MX611dhe Monochrome Laser Printer,Machines,,1,,,,$17K
 ,Martin Yale Chadless Opener Electric Letter Opener,,True,,-8%,6,($1K),$17K
 ,"Riverside Palais Royal Lawyers Bookcase, Royale Cherry Finish",,False,,-4%,5,($1K),$16K
 ,Tennsco Single-Tier Lockers,,True,,-9%,8,($1K),$9K
+Furniture,Bretford Rectangular Conference Table Tops,Tables,,1,,,,$13K
+Furniture,Bush Advantage Collection Racetrack Conference Table,Tables,,1,,,,$10K
+Furniture,Chromcraft Bull-Nose Wood Oval Conference Tables & Bases,Tables,,1,,,,$10K
+Furniture,Chromcraft Round Conference Tables,Tables,,1,,,,$8K
+Furniture,"Riverside Palais Royal Lawyers Bookcase, Royale Cherry Finish",Bookcases,,1,,,,$16K
+Office Supplies,GBC DocuBind P400 Electric Binding System,Binders,,1,,,,$18K
+Office Supplies,High Speed Automatic Electric Letter Opener,Supplies,,1,,,,$17K
+Office Supplies,Martin Yale Chadless Opener Electric Letter Opener,Supplies,,1,,,,$17K
+Office Supplies,Tennsco Single-Tier Lockers,Storage,,1,,,,$9K
+Technology,Cisco TelePresence System EX90 Videoconferencing Unit,Machines,,1,,,,$23K
+Technology,Cubify CubeX 3D Printer Double Head Print,Machines,,1,,,,$11K
+Technology,Cubify CubeX 3D Printer Triple Head Print,Machines,,1,,,,$8K
+Technology,Lexmark MX611dhe Monochrome Laser Printer,Machines,,1,,,,$17K

@@ -1,9 +1,9 @@
 {
   "case_id": "wow-2021-ww31-can-you-find-the-needle-in-the-haystack",
-  "captured_at": "2026-10-23T15:20:45.242511+00:00",
+  "captured_at": "2026-10-23T15:39:38.832942+00:00",
   "source_hashes": {
     "author": "ec62ed8f87c675ca9a1b84387807171c4ed226e79d9120438e20b4ef9c4e8c4b",
-    "replica": "15ef581688f5ef3aeeab908c9bc30770b6a85aed83a805341f20fa996d4741ab"
+    "replica": "2fb89605b7a2a3247929de4c701a595b071270a15f1d42c43925ccb69165c2c3"
   },
   "acceptance_scope": "cloud_rest_and_artifact_contracts",
   "browser_interaction_executed": false,
@@ -24,17 +24,17 @@
       ]
     },
     "replica": {
-      "id": "048486ca-0527-4d06-b677-9447242db610",
-      "name": "cwtwb-review-wow-2021-ww31-can-you-find-the-needle-in-the-haystack-replica-15ef581688f5",
-      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/3061822",
+      "id": "f308367d-1766-46af-a463-85c05136b629",
+      "name": "cwtwb-review-wow-2021-ww31-can-you-find-the-needle-in-the-haystack-replica-2fb89605b7a2",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/3061920",
       "views": [
         {
           "name": "Chart",
-          "id": "35322d41-cd35-4b60-9e56-376264794617"
+          "id": "288dec46-32a1-439c-9d4f-ebaf1ff72c8a"
         },
         {
           "name": "2021_08_04_WW31_Unprofitable_High_Sales",
-          "id": "83ea6cc2-01d2-44ba-b9d8-c8d72a707109"
+          "id": "041382f6-4885-4a5e-8bb9-14171d73c39f"
         }
       ]
     }
@@ -56,7 +56,7 @@
           ]
         },
         "replica": {
-          "id": "83ea6cc2-01d2-44ba-b9d8-c8d72a707109",
+          "id": "041382f6-4885-4a5e-8bb9-14171d73c39f",
           "name": "2021_08_04_WW31_Unprofitable_High_Sales",
           "path": "outputs/cloud-replica.png",
           "sha256": "caa48ae688c3c75297b33f61cb310f326119251e561ebfae99cb7564fcbb7bf6",
@@ -81,24 +81,16 @@
         {
           "role": "replica",
           "view": "Chart",
-          "view_id": "35322d41-cd35-4b60-9e56-376264794617",
+          "view_id": "288dec46-32a1-439c-9d4f-ebaf1ff72c8a",
           "scope": "Author Data sheet and the replica Chart sheet; the REST CSV confirms the 13 filtered products with their sales, profit and distinct customer counts.",
           "parameters": {},
           "filters": {},
           "path": "outputs/cloud-replica-chart.csv",
-          "sha256": "4c0b4a43d7652ec76a3ca2436874040ee5a88bd99182cd42afc47f22a3eff3bc",
+          "sha256": "9582cb913181994ecc87ddf86848f2aabb1bdb3c2edabc33442b1ec3cfdf6881",
           "bytes": 2057
         }
       ]
     }
   ],
-  "status": "captured_requires_independent_review",
-  "hash_binding": {
-    "status": "stale_after_rebuild",
-    "note": "cwtwb generates fresh calculation UUIDs and connection GUIDs on every build, so a later validate_iteration.py rebuild changed the TWBX bytes without changing the workbook semantics. The captured renders and CSVs below were produced from the same normalized workbook content that the current outputs/replicated-workbook.twbx contains; only the generated identifiers differ.",
-    "captured_replica_sha256": "15ef581688f5ef3aeeab908c9bc30770b6a85aed83a805341f20fa996d4741ab",
-    "current_replica_sha256": "2fb89605b7a2a3247929de4c701a595b071270a15f1d42c43925ccb69165c2c3",
-    "recapture_command": "python scripts/capture_case_cloud.py iterations/2021-08-05-ww31-can-you-find-the-needle-in-the-haystack/evidence/cloud-request.json",
-    "recapture_owner": "main coordinator (Cloud requests are globally serialized)"
-  }
+  "status": "captured_requires_independent_review"
 }

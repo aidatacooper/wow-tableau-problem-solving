@@ -40,15 +40,17 @@ evidence:
 - evidence/sdk-baseline.json
 - evidence/visual-review.md
 - inputs/source-lock.json
+- evidence/desktop-verification.json
+- evidence/cloud-data-verification.json
 notes:
 - The brief says products must 'have a lower than average customer count', but the
   author's own viz keeps all 13 top-50-and-unprofitable products and only colours
-  them by that comparison (8 below average, 5 above). The replica follows the
-  author's viz; the single filter is the 13-product intersection.
-- "'Higher' is grey and 'Lower' is orange in the author palette, so the highlighted
-  (orange) bars are the products with a lower than average customer count."
-- The unprofitable set's explicit member list is computed from the locked Hyper
-  extract inside the builder, not hard-coded, so it stays data-derived.
+  them by that comparison (8 below average, 5 above). The replica follows the author's
+  viz; the single filter is the 13-product intersection.
+- '''Higher'' is grey and ''Lower'' is orange in the author palette, so the highlighted
+  (orange) bars are the products with a lower than average customer count.'
+- The unprofitable set's explicit member list is computed from the locked Hyper extract
+  inside the builder, not hard-coded, so it stays data-derived.
 cwtwb:
   tested_version: 0.29.0a1
   tested_commit: 23b1df0
@@ -71,8 +73,8 @@ acceptance:
     members, and it is the only entry on the Filter shelf slices.
   mode: automated
 - id: ww31-top50-set
-  description: 'Top 50 Sales by Product is a native top-N set over Product Name ranked
-    DESC by SUM(Sales) with count 50 and units records.'
+  description: Top 50 Sales by Product is a native top-N set over Product Name ranked
+    DESC by SUM(Sales) with count 50 and units records.
   mode: automated
 - id: ww31-unprofitable-set
   description: The Unprofitable Products set members equal the products whose SUM(Profit)

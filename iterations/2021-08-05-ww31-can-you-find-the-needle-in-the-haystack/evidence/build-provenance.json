@@ -1,16 +1,9 @@
 {
-  "builder": "build_replication.py",
   "builder_sha256": "b04adad0dc5e6e05b2bac64d6f948939b6081f90e7b57b11e2ea6839af7d02fd",
-  "verifier": "verify_replication.py",
   "verifier_sha256": "69fb2468fb911c61f6e686b8793c965c404e41f9ceb738e898ccd467d3f87826",
-  "primary_workbook": "outputs/replicated-workbook.twbx",
-  "primary_workbook_sha256": "15ef581688f5ef3aeeab908c9bc30770b6a85aed83a805341f20fa996d4741ab",
-  "inputs": [
-    {
-      "file": "TEMP_00fn40d1ntbjn9198h0nl1xs0i6q.hyper",
-      "sha256": "ac62e601dfc0e0c0768b53ae181766340cb2343d0eb05046f042ad7541e8411f"
-    }
-  ],
-  "author_workbook_sha256": "ec62ed8f87c675ca9a1b84387807171c4ed226e79d9120438e20b4ef9c4e8c4b",
-  "phase_boundary": "builder reads only inputs/*.hyper and writes outputs/replicated-workbook.twbx"
+  "primary_workbook_sha256": "2fb89605b7a2a3247929de4c701a595b071270a15f1d42c43925ccb69165c2c3",
+  "source_lock": "inputs/source-lock.json",
+  "sdk_commit": "23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c",
+  "phase_boundary": "empty workbook, locked inputs, public SDK only",
+  "cloud_and_desktop_bound": true
 }
