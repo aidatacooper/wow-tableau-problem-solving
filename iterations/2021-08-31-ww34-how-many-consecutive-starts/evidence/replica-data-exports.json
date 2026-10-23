@@ -1,0 +1,21 @@
+{
+  "artifact_sha256": "da89bbd579fa0ee2f99be6721cebc34259260d047f57150529f493d68b16f95f",
+  "exports": [
+    {
+      "state": "default",
+      "view": "Data",
+      "path": "outputs/cloud-replica-data-default.csv",
+      "sha256": "6c23dde7e5feb933b3f3af939d2bba5e522901edd3f80deef17ab9c823e6f7cb",
+      "parameters": {},
+      "filters": {}
+    },
+    {
+      "state": "default",
+      "view": "Viz",
+      "path": "outputs/cloud-replica-viz-default.csv",
+      "sha256": "126dfd102e7a76f5103a50961b8f60c921267f37b3745b23903f92a76aad1f24",
+      "parameters": {},
+      "filters": {}
+    }
+  ]
+}

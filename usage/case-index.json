@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "generated_from": "iterations/*/case.yaml",
-  "active_case_count": 116,
+  "active_case_count": 117,
   "legacy_case_ids": {
     "donna-2019-07-18-63877b35d19a": "wow-2019-ww29-high-orders",
     "donna-2019-07-25-59a0a144b25b": "wow-2019-ww30-navigation-kpi",
@@ -6620,6 +6620,73 @@
         "Earlier 597-row sparse oracle was corrected: published Tableau Data views densify 48 months x 13 groups = 624 rows; WINDOW_AVG ignores null values within the calendar window. The original author CSV was available and verified unchanged."
       ],
       "metadata": "iterations/2021-08-29-ww33-can-you-create-a-moving-average-chart-with-a-focus-on-selected-subcategories/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.29.0a1"
+    },
+    {
+      "case_id": "wow-2021-ww34-how-many-consecutive-starts",
+      "legacy_case_ids": {},
+      "iteration_id": "2021-08-31-ww34-how-many-consecutive-starts",
+      "article_date": "2021-08-31",
+      "challenge_year": 2021,
+      "challenge_week": 34,
+      "challenge_date": "2021-08-24",
+      "date_evidence": {
+        "article_date": "Article-local HTML 'Published:' calendar date, retained in evidence/article-date.json.",
+        "challenge": "Official 2021 Week 34 article title, \"2021 Week 34 - How Many Consecutive Starts?\".",
+        "challenge_date": "Official WordPress REST date field retained in evidence/official-challenge-date.json."
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2021-week-34-how-many-consecutive-starts/",
+          "wordpress_post_id": 5854
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2021/08/31/how-many-consecutive-starts/",
+          "path": null,
+          "sha256": "1be289c908d2c9cc04ef40f0a83e19caf41af8b05d35c78a12e5478d8a25e48c"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2021_08_25_WW34_Consecutive_Starts/2021_08_25_WW34_Consecutive_Starts",
+          "filename": "2021_08_25_WW34_Consecutive_Starts.twbx",
+          "sha256": "a4c489ea4505a695b26f847783254b83d1309b3422fe0e1253d368448894090a"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "workaround",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "evidence/article-date.json",
+        "evidence/build-provenance.json",
+        "evidence/cloud-request.json",
+        "evidence/functional-verification.json",
+        "evidence/official-challenge-date.json",
+        "evidence/sdk-baseline.json",
+        "inputs/source-lock.json",
+        "evidence/sdk-final.json",
+        "evidence/author-data-exports.json",
+        "evidence/replica-data-exports.json",
+        "outputs/independent-verification.json",
+        "evidence/desktop-verification.json",
+        "evidence/cloud-verification.json",
+        "evidence/cloud-data-verification.json",
+        "evidence/visual-review.md"
+      ],
+      "notes": [
+        "The extract also carries weeks 28-32 (334 rows); the article excludes them and both replica worksheets keep the author's 1..17 in-range filter.",
+        "Season and Week arrive from the extract as integers, which the SDK registers as measures, so the workbook re-exposes Season, Week and Player Id as explicit discrete calculated fields, matching the article's \"change to discrete\" steps.",
+        "Each team plays 240 regular-season games (15 seasons x 16 games), so the dense INDEX axis runs 1..240 and no real date axis is needed.",
+        "Frozen runtime repair passes 65040 Cloud field checks: replica Data/Viz all 7680 games; untouched author Data subset 720 games. See sdk-final and visual-review."
+      ],
+      "metadata": "iterations/2021-08-31-ww34-how-many-consecutive-starts/case.yaml",
       "metadata_contract": "1.1.0",
       "tested_sdk_version": "0.29.0a1"
     },

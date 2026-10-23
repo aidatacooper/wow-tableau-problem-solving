@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "cwtwb_version": "0.29.0a1",
+  "cwtwb_commit": "23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c",
+  "result": "workaround",
+  "scope": "Released-SDK baseline for the WW34 consecutive-starts strip chart.",
+  "supported": [
+    "set_hyper_connection(tables=..., relationships=...) for the two-table logical relationship (offense_franchise_id = franchise_id)",
+    "add_calculated_field(table_calc='Rows') for LOOKUP, PREVIOUS_VALUE, WINDOW_MAX and INDEX formulas",
+    "configure_chart(table_calc_overrides=...) writing ordering-field addressing plus nested table-calc dependency metadata",
+    "configure_layered_chart(axis_shelf='columns') for the nested Rows shelf Team / (Current * Consecutive) and mark_sizing for 1-axis-unit right-aligned bars",
+    "configure_worksheet_style(axis_style=..., header_formats=..., gridline_style=...) for the hidden streak axis, the index axis title and the row-header widths",
+    "add_dashboard with floating absolute zones at the author's geometry"
+  ],
+  "findings": [
+    {
+      "key": "integer-dimension-inspected-as-measure",
+      "severity": "workaround",
+      "summary": "set_hyper_connection inspects integer columns without id/code/zip in the name as measures, and a bare 'Week' field is bound as MONTH(Week) by the date-name heuristic, so raw season/week cannot be used as the discrete Rows/Detail pills the article asks for.",
+      "workaround": "Re-expose Season, Week and Player Id (plus a continuous Week Number for the in-range filter) as explicit discrete calculated fields; the article performs the same 'change to discrete' step in the UI.",
+      "upstream_pr": null,
+      "upstream_status": "not-filed"
+    },
+    {
+      "key": "mixed-discrete-continuous-rows-shelf",
+      "severity": "workaround",
+      "summary": "configure_chart nests measures with '*' and dimensions with '/', so the Rows shelf came out as Team * (Current * Consecutive) instead of the author's Team / (Current * Consecutive).",
+      "workaround": "Use configure_layered_chart with axis_shelf='columns' so the index owns the continuous axis and Rows is built by the dimension shelf.",
+      "upstream_pr": null,
+      "upstream_status": "not-filed"
+    }
+  ]
+}
