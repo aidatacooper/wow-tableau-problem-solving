@@ -1,20 +1,11 @@
 {
   "case_dir": "iterations/2021-09-02-ww35-how-much-change-has-occurred",
-  "author_workbook": "dashboards/2021_09_01_WW35_Change_In_Sales/2021_09_01_WW35_Change_In_Sales.twbx",
+  "author_workbook": "C:/Users/imgwho/Desktop/project/wow-tableau-problem-solving/dashboards/2021_09_01_WW35_Change_In_Sales/2021_09_01_WW35_Change_In_Sales.twbx",
   "author_view": "2021_09_01_WW35_Change_in_Sales",
   "replica_view": "2021_09_01_WW35_Change_in_Sales",
   "states": [],
-  "data_views": [
-    {
-      "name": "change-in-sales",
-      "author": "Viz",
-      "replica": "Viz",
-      "scope": "Viz worksheet CSV; verifies the per-Sub-Category 2020/2021 Sales LoDs, the % Difference label and the descending 2021 order against the locked-extract oracle."
-    }
-  ],
+  "data_views": [],
   "notes": [
-    "Only the original author workbook is uploaded; it is never modified.",
-    "The author dashboard contains a single worksheet (Viz), so one data view is enough.",
-    "Image comparison scope: the author's published raster has % Difference labels offset by one row (see analysis.md); review the replica image against the author's own marks and pill values, not against the shifted labels."
+    "Original author workbook is unmodified. Original exposes dashboard only; replica Viz CSV is checked against locked-data oracle. Live Cloud labels are aligned; archived raster offset is not a replica requirement."
   ]
 }

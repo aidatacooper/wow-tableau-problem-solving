@@ -1,25 +1,9 @@
 {
-  "case_id": "wow-2021-ww35-how-much-change-has-occurred",
+  "builder_sha256": "aa4432cd919898ca4be42b7eb236c273e1358e745ea1c6091fe551f5937d5ce9",
+  "verifier_sha256": "86a90a8bd7bec69da6a1112d87e091483f5671efc76d0d2f0029c3a56e4ad9e4",
+  "primary_workbook_sha256": "5e57e91e7beaf45ac3f066f030a3ee5e918522791df1c3adab848871b59a683a",
+  "source_lock": "inputs/source-lock.json",
   "sdk_commit": "23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c",
-  "sdk_version": "0.29.0a1",
-  "builder_sha256": "a1cb9ead749928ede2006563b7cf94d1e9342e644322bce5eec6eacff022fc76",
-  "builder_hash_scope": "UTF-8 source text with universal newlines normalized to LF",
-  "public_sdk_calls": [
-    "add_calculated_field",
-    "add_dashboard",
-    "add_worksheet",
-    "configure_custom_tooltip",
-    "configure_layered_chart",
-    "configure_worksheet_style",
-    "save",
-    "set_hyper_connection",
-    "set_worksheet_rich_title"
-  ],
-  "result": "passed",
-  "initial_workbooks_available": 0,
-  "copied_cloud_evidence": false,
-  "source_workbook_used_by_builder": false,
-  "public_sdk_only": true,
-  "scope": "Copied only builder/verifier, metadata and the locked extracted Hyper input. Built from TWBEditor empty, then independent locked-extract oracle plus native-artifact verification.",
-  "artifact_sha256": "c08fb6435a40caf1d553098fa2773cec6655a459ea0e623ec2df8eb39f787275"
+  "phase_boundary": "empty workbook, locked inputs, public SDK only",
+  "cloud_and_desktop_bound": true
 }

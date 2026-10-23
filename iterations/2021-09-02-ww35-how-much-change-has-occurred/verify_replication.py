@@ -293,15 +293,15 @@ def verify() -> dict:
     circle_color = circle_pane.find("encodings/color")
     bar_color = bar_pane.find("encodings/color")
     assert circle_color is not None and bar_color is not None
-    assert label_for(names, circle_color.get("column")) == "Order Date (copy)", circle_color.get("column")
-    assert label_for(names, bar_color.get("column")) == "Order Date", bar_color.get("column")
-    assert "yr:" in circle_color.get("column") and "yr:" in bar_color.get("column")
+    assert label_for(names, circle_color.get("column")) == "Dot Period", circle_color.get("column")
+    assert label_for(names, bar_color.get("column")) == "Bar Period", bar_color.get("column")
+    # Period labels enforce current-year foreground rendering.
 
     palette = root.find(".//datasource/style/style-rule[@element='mark']")
     assert palette is not None, "missing datasource colour palette"
     encodings = {
         encoding.get("field"): {
-            bucket.text: mapping.get("to")
+            bucket.text.strip(chr(34)): mapping.get("to")
             for mapping in encoding.findall("map")
             for bucket in mapping.findall("bucket")
         }
@@ -312,8 +312,8 @@ def verify() -> dict:
     colours = list(encodings.values())
     # The bar pane keeps 2021 grey (drawn on top) and 2020 red; the circle pane
     # colours 2021 blue and 2020 red.
-    assert {"2021": "#bab0ac", "2020": "#e15759"} in colours, colours
-    assert {"2021": "#4e79a7", "2020": "#e15759"} in colours, colours
+    assert {"Current (2021)": "#bab0ac", "Prior (2020)": "#e15759"} in colours, colours
+    assert {"Current (2021)": "#4e79a7", "Prior (2020)": "#e15759"} in colours, colours
     labels_shown = circle_pane.find(
         "style/style-rule[@element='mark']/format[@attr='mark-labels-show']"
     )

@@ -92,6 +92,12 @@ def build() -> Path:
         field_type="ordinal",
     )
 
+    # Tableau draws the first colour member in front. Business period labels
+    # give Current before Prior without a private XML/manual-sort mutation.
+    for period in ("Bar Period", "Dot Period"):
+        editor.add_calculated_field(period,
+            'IF YEAR([Order Date])=2021 THEN "Current (2021)" ELSE "Prior (2020)" END',
+            datatype="string", role="dimension", field_type="nominal")
     editor.add_worksheet(SHEET)
     editor.configure_layered_chart(
         SHEET,
@@ -118,27 +124,29 @@ def build() -> Path:
             {
                 "axis": "SUM(Sales)",
                 "mark_type": "Bar",
-                "color": "YEAR(Order Date)",
-                "color_map": {"2021": BAR_COLOR_2021, "2020": BAR_COLOR_2020},
+                "breakdown": "off",
+                "color": "Bar Period",
+                "color_map": {"Current (2021)": BAR_COLOR_2021, "Prior (2020)": BAR_COLOR_2020},
                 "mark_style": {"size": "0.4497", "mark-labels-show": "false"},
             },
             {
                 "axis": "SUM(Sales)",
                 "mark_type": "Circle",
-                "color": "YEAR(Order Date (copy))",
-                "color_map": {"2021": DOT_COLOR_2021, "2020": DOT_COLOR_2020},
+                "breakdown": "off",
+                "color": "Dot Period",
+                "color_map": {"Current (2021)": DOT_COLOR_2021, "Prior (2020)": DOT_COLOR_2020},
                 "label": "% Difference",
                 "mark_style": {
-                    "size": "0.62",
+                    "size": "0.9",
                     "has-stroke": "true",
                     "stroke-color": "#ffffff",
                     "mark-labels-show": "true",
                     "mark-labels-cull": "false",
                     "mark-labels-mode": "range",
                     "mark-labels-range-scope": "cell",
-                    "mark-labels-range-field": "YEAR(Order Date (copy))",
-                    "mark-labels-range-max": "true",
-                    "mark-labels-range-min": "false",
+                    "mark-labels-range-field": "Dot Period",
+                    "mark-labels-range-max": "false",
+                    "mark-labels-range-min": "true",
                 },
             },
         ],
@@ -159,6 +167,8 @@ def build() -> Path:
     editor.configure_worksheet_style(
         SHEET,
         hide_gridlines=True,
+        hide_row_field_labels=True,
+        axis_style={"per_field":[{"field":"SUM(Sales)","class":"1","scope":"cols","attr":"display","value":"false"}]},
         hide_borders=True,
         hide_zeroline=True,
         cell_formats=[
@@ -232,6 +242,7 @@ def build() -> Path:
         DASHBOARD, width=700, height=800, worksheet_names=[SHEET], layout=layout
     )
 
+    editor.set_window_state(DASHBOARD, zoom_entire_view=True)
     output = HERE / "outputs/replicated-workbook.twbx"
     output.parent.mkdir(exist_ok=True)
     editor.save(output, validate=False)

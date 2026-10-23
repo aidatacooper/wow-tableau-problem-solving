@@ -6337,14 +6337,14 @@
           "sha256": "1c10a8d231a60ab138de898ad370bbc2e3a47d86f4d75c9e4cd336abb79e20cf"
         }
       },
-      "functional_status": "partial",
-      "visual_status": "not_evaluated",
-      "verification_status": "pending",
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
       "cwtwb_result": "workaround",
       "artifacts": {
         "primary_workbook": "outputs/replicated-workbook.twbx",
-        "cloud_author": null,
-        "cloud_replica": null
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
       },
       "artifact_aliases": {},
       "historical_artifacts": [],
@@ -6356,7 +6356,11 @@
         "evidence/official-challenge-date.json",
         "evidence/sdk-baseline.json",
         "evidence/visual-review.md",
-        "inputs/source-lock.json"
+        "inputs/source-lock.json",
+        "evidence/replica-data-exports.json",
+        "evidence/desktop-verification.json",
+        "evidence/cloud-verification.json",
+        "evidence/cloud-data-verification.json"
       ],
       "notes": [
         "The packaged extract is Orders only (Order Date, Sub-Category, Sales) covering 2018-2021, so the 2020/2021 window is an observable filter, not a data limit.",

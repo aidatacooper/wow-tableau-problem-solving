@@ -130,3 +130,6 @@ which were read back through a fitted pixel scale of
 `x = 407.35 + 0.002994 × sales` that reproduces every dot centre within 2 px)
 and then checks the ordered sequence of published label values against the
 computed percentages with the documented one-row shift.
+
+## Final runtime correction
+Both pane breakdowns are off; Current/Prior business dimensions enforce the current-year foreground. Live Cloud original has correctly aligned labels, superseding the archived raster caveat. 34 category-year sales agree with independent oracle; Desktop LOADED. See final visual-review and cloud-data-verification.

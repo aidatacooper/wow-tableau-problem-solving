@@ -1,0 +1,69 @@
+{
+  "case_id": "wow-2021-ww35-how-much-change-has-occurred",
+  "captured_at": "2026-10-23T16:35:37.592968+00:00",
+  "source_hashes": {
+    "author": "1c10a8d231a60ab138de898ad370bbc2e3a47d86f4d75c9e4cd336abb79e20cf",
+    "replica": "5e57e91e7beaf45ac3f066f030a3ee5e918522791df1c3adab848871b59a683a"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "6f71aa40-bd09-4c85-b925-a7a55032d41f",
+      "name": "cwtwb-review-wow-2021-ww35-how-much-change-has-occurred-author-1c10a8d231a6",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/3062064",
+      "views": [
+        {
+          "name": "2021_09_01_WW35_Change_in_Sales",
+          "id": "5f3e596d-1c60-4c76-9943-8ac4b3989722"
+        }
+      ]
+    },
+    "replica": {
+      "id": "9145df62-d9a5-4a8e-b904-0161b418010e",
+      "name": "cwtwb-review-wow-2021-ww35-how-much-change-has-occurred-replica-5e57e91e7bea",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/3062209",
+      "views": [
+        {
+          "name": "Viz",
+          "id": "65388408-6591-4446-b189-6033541e011a"
+        },
+        {
+          "name": "2021_09_01_WW35_Change_in_Sales",
+          "id": "a314b332-32a9-4ce4-a523-f415a3ea627b"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "5f3e596d-1c60-4c76-9943-8ac4b3989722",
+          "name": "2021_09_01_WW35_Change_in_Sales",
+          "path": "outputs/cloud-author.png",
+          "sha256": "f4e3067db183174055b816f2e7510ee2d1deb74c12b4d9c7216ee2f829f17a59",
+          "size": [
+            1400,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "a314b332-32a9-4ce4-a523-f415a3ea627b",
+          "name": "2021_09_01_WW35_Change_in_Sales",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "1fd0727bf8c5020b895d8f61c647ec24bfd4ebc1dd72d58a3963b652428cd843",
+          "size": [
+            1400,
+            1600
+          ]
+        }
+      },
+      "data": []
+    }
+  ],
+  "status": "captured_requires_independent_review"
+}
