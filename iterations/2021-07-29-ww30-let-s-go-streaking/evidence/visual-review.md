@@ -15,3 +15,6 @@ No browser interactions are required by this static chart.
 
 Result: acceptable_delta. Calendar scaffolding introduces only null-sales rows
 for missing months; the streak chain remains native PREVIOUS_VALUE/WINDOW_MAX.
+
+
+Independent review addendum: tied streaks use a different secondary ordering. The author viewport shows Envelopes immediately after Art, whereas the replica places Copiers there. Primary longest-streak order and all 4,896 values agree; tie order is an accepted presentation delta.

@@ -22,7 +22,7 @@ source:
   workbook:
     url: https://public.tableau.com/views/2021_07_28_WW30_LetsGoStreaking/2021_07_28_WW30_LetsGoStreaking
     filename: 2021_07_28_WW30_LetsGoStreaking.twbx
-    sha256: 5dfbd740ef326ef0b35c4cf0b1e0186848b24d8510500ebf11f45543d56cd29f
+    sha256: 34c9ffe6586e25741804b8b5e7f8c3d96b89e719c86e5fed5b233ab85c185a93
 verification_status: verified
 artifacts:
   primary_workbook: outputs/replicated-workbook.twbx
