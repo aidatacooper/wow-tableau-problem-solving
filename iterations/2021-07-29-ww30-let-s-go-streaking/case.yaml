@@ -1,0 +1,115 @@
+schema_version: 1.1.0
+case_id: wow-2021-ww30-let-s-go-streaking
+iteration_id: 2021-07-29-ww30-let-s-go-streaking
+post: https://donnacoles.home.blog/2021/07/29/lets-go-streaking/
+legacy_case_ids: {}
+article_date: '2021-07-29'
+challenge_year: 2021
+challenge_week: 30
+challenge_date: '2021-07-28'
+date_evidence:
+  article_date: Article-local HTML 'Published:' calendar date, retained in evidence/article-date.json.
+  challenge: Official 2021 Week 30 article title.
+  challenge_date: Official WordPress REST date field retained in evidence/official-challenge-date.json.
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2021w30tab/
+    wordpress_post_id: 5737
+  article:
+    url: https://donnacoles.home.blog/2021/07/29/lets-go-streaking/
+    path: null
+    sha256: 5049ea2b525843c7d7e22ce39075084ac646c05aa8824045a0f2b5ece5163de1
+  workbook:
+    url: https://public.tableau.com/views/2021_07_28_WW30_LetsGoStreaking/2021_07_28_WW30_LetsGoStreaking
+    filename: 2021_07_28_WW30_LetsGoStreaking.twbx
+    sha256: 5dfbd740ef326ef0b35c4cf0b1e0186848b24d8510500ebf11f45543d56cd29f
+verification_status: pending
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: null
+  cloud_replica: null
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- evidence/article-date.json
+- evidence/build-provenance.json
+- evidence/cloud-request.json
+- evidence/functional-verification.json
+- evidence/official-challenge-date.json
+- evidence/sdk-baseline.json
+- evidence/visual-review.md
+- inputs/source-lock.json
+notes:
+- The streak chain only works because every table calculation is addressed by
+  Order Date Month alone; that is what restarts LOOKUP/PREVIOUS_VALUE per
+  Sub-Category row.
+- Sort is a hidden discrete -Longest Streak pill in front of Sub-Category, so
+  the list is ordered by streak length while the visible chart keeps the
+  author's layout.
+- The colour ramp is pinned to a fixed 0..5 domain in five steps; a data-derived
+  domain would normalise 2..5 and flatten the legend.
+cwtwb:
+  tested_version: 0.29.0a1
+  tested_commit: 23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c
+  runs:
+  - version: 0.29.0a1
+    commit: 23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c
+    result: workaround
+    evidence: evidence/sdk-baseline.json
+analysis_status: completed
+functional_status: partial
+visual_status: not_evaluated
+cwtwb_result: workaround
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/Orders (Sample - Superstore).hyper
+acceptance:
+- id: ww30-month-bucket
+  description: Order Date Month buckets every order to the first of its month and
+    the chart axis is a continuous exact date with 48 distinct points.
+  mode: automated
+- id: ww30-streak-chain
+  description: Sales Diff, Diff Is +ve, Match Prev Value and Increase Streak form
+    the article's recursive chain, each addressed by Order Date Month only.
+  mode: automated
+- id: ww30-longest-streak
+  description: Longest Streak is WINDOW_MAX of the running streak and is both
+    colour-encoded on a fixed 0-5 five-step green ramp and shown as a discrete pill.
+  mode: automated
+- id: ww30-peak-sales
+  description: Sales of Month with Longest Streak is non-null only on rows where
+    the running streak equals the Sub-Category maximum.
+  mode: automated
+- id: ww30-sort-order
+  description: The Chart sorts Sub-Category descending by Sort = -Longest Streak,
+    reproducing the article's Appliances/Bookcases/Phones/Art leading rows.
+  mode: automated
+- id: ww30-viz-shape
+  description: The Chart folds a stepped grey line pane and a colour-ramped circle
+    pane onto one synchronised row axis.
+  mode: automated
+- id: ww30-legend
+  description: The Legend sheet renders the author's CASE-ordered Sub-Category
+    squares on the same five-step green ramp.
+  mode: automated
+remaining_work:
+- Desktop LOADED gate has not been run for this artifact; the coordinating
+  maintainer runs build_and_check.py serially and must confirm LOADED before the
+  case can be recorded as replicated.
+- Cloud capture has not been re-taken after the structural fixes (discrete Sort
+  pill, MONTHTRUNC axis, per-pane tooltip runs). The first capture rendered every
+  replica sheet empty; a re-capture must confirm the dashboard renders and the
+  Data CSV matches the oracle row by row.
+- visual_status stays not_evaluated until an accepted Cloud image exists.
+blocker: null
+workarounds:
+- The month axis must use the native MONTHTRUNC(Order Date) derivation; binding
+  EXACTDATE(<calculated date>) writes an instance Tableau cannot resolve and
+  every sheet renders empty on Cloud.
+- Custom-tooltip runs must reference the bare date field; a run on
+  EXACTDATE(<date field>) blanks the whole worksheet on Cloud (batch-17 finding).
+- The hidden Sort key must be a discrete ordinal pill; a quantitative leading
+  pill emits an extra axis instead of nesting under Sub-Category.
+capability_gaps: []
+related_cwtwb_issues: []

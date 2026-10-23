@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0.0",
+  "cwtwb_version": "0.29.0a1",
+  "cwtwb_commit": "23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c",
+  "result": "workaround",
+  "scope": "Released-SDK baseline for the WW30 consecutive-increase streak case.",
+  "supported": [
+    "add_calculated_field with a field-level table_calc={'ordering_type': 'Field', 'ordering_field': '[Order Date Month]'}",
+    "LOOKUP / PREVIOUS_VALUE / WINDOW_MAX / ZN in calculated-field formulas (all in the packaged Tableau function catalogue)",
+    "configure_layered_chart(axis_shelf='rows', fold_axes=True, synchronized=True) for the stepped line + colour-ramped circle panes",
+    "configure_layered_chart(sort_mode='computed', sort_field=..., sort_descending=...) for the hidden -Longest Streak pill",
+    "configure_worksheet_style(color_style={... 'min': 0, 'max': 5, 'num_steps': 5, 'colors': [...]}) for the pinned stepped green ramp",
+    "configure_custom_tooltip per pane and add_dashboard for the fixed-size floating dashboard",
+    "add_calculated_field with LOOKUP/PREVIOUS_VALUE/WINDOW_MAX/ZN and MONTHTRUNC month addressing"
+  ],
+  "findings": [
+    {
+      "key": "exact-date-instance-over-calculated-date-is-unbindable",
+      "severity": "workaround",
+      "summary": "Binding the month axis as EXACTDATE(<calculated date field>) writes an instance Tableau cannot resolve; every sheet in the workbook then renders empty on Cloud (observed: all three replica sheets blank, replica CSV 0 bytes).",
+      "workaround": "Use the native MONTHTRUNC(<raw date field>) derivation instead, which is what the author's workbook stores ([tmn:Order Date:qk]).",
+      "upstream_pr": null,
+      "upstream_status": "documented-behaviour"
+    },
+    {
+      "key": "custom-tooltip-run-on-exactdate-blanks-worksheet",
+      "severity": "workaround",
+      "summary": "A configure_custom_tooltip run that references EXACTDATE(<date field>) makes Tableau Cloud render the entire worksheet empty (batch-17 ww20/ww28 finding).",
+      "workaround": "Reference the bare date field in tooltip runs; the tooltip then shows month granularity, a text-only difference.",
+      "upstream_pr": null,
+      "upstream_status": "documented-behaviour"
+    },
+    {
+      "key": "quantitative-leading-pill-adds-axis-instead-of-nesting",
+      "severity": "informational",
+      "summary": "A quantitative field placed first on a layered row shelf emits its own axis (nested with '*') instead of nesting under the row dimension, so the hidden Sort key must be declared field_type='ordinal'.",
+      "workaround": "Declare the sort key as discrete ordinal and keep the measures in a single trailing group, matching the author's ((Sort / (Sub / Longest)) * (Sales + Peak)).",
+      "upstream_pr": null,
+      "upstream_status": "documented-behaviour"
+    }
+  ]
+}
