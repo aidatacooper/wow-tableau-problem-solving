@@ -17,3 +17,6 @@ Original author sheets are hidden, so no author CSV was exported or workbook
 modified. Raw-data oracle checks replica CSV; original dashboard images provide
 the visual reference. Set, parameter, hide/show, highlight and viz-in-tooltip
 actions are verified as serialized contracts; browser clicks were not executed.
+
+
+Independent review addendum: long selector labels are truncated in the replica. The native toggle button and toggle-action are present in the frozen workbook and checked directly; the button is not visible in the static REST image. Its runtime click behavior is untested, not visually verified.
