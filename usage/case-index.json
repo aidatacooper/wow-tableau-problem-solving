@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "generated_from": "iterations/*/case.yaml",
-  "active_case_count": 111,
+  "active_case_count": 112,
   "legacy_case_ids": {
     "donna-2019-07-18-63877b35d19a": "wow-2019-ww29-high-orders",
     "donna-2019-07-25-59a0a144b25b": "wow-2019-ww30-navigation-kpi",
@@ -6307,6 +6307,64 @@
       "metadata": "iterations/2021-07-15-ww28-can-you-build-an-app-to-visualise-wildfires/case.yaml",
       "metadata_contract": "1.1.0",
       "tested_sdk_version": "0.27.1"
+    },
+    {
+      "case_id": "wow-2021-ww33-can-you-create-a-moving-average-chart-with-a-focus-on-selected-subcategories",
+      "legacy_case_ids": {},
+      "iteration_id": "2021-08-29-ww33-can-you-create-a-moving-average-chart-with-a-focus-on-selected-subcategories",
+      "article_date": "2021-08-29",
+      "challenge_year": 2021,
+      "challenge_week": 33,
+      "challenge_date": "2021-08-17",
+      "date_evidence": {
+        "article_date": "Article-local HTML 'Published:' calendar date, retained in evidence/article-date.json.",
+        "challenge": "Official 2021 Week 33 article title.",
+        "challenge_date": "Official WordPress REST date field retained in evidence/official-challenge-date.json."
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2021w33tab/",
+          "wordpress_post_id": 5821
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2021/08/29/can-you-create-a-moving-average-chart-with-a-focus-on-selected-subcategories/",
+          "path": null,
+          "sha256": "9a6f06fbe8e9874df392aa3c73bef3a7c5fd1a81d6435ce8d00d68d88a677273"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2021_08_18_WW_33_Moving_Avg/2021_08_18_WW33_Moving_Avg",
+          "filename": "2021_08_18_WW_33_Moving_Avg.twbx",
+          "sha256": "3b5b7f5446eb0dab12cea982cfffb85bb6d5c9ce389699adef9a5cb7abf279a1"
+        }
+      },
+      "functional_status": "partial",
+      "visual_status": "not_evaluated",
+      "verification_status": "pending",
+      "cwtwb_result": "pass",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": null,
+        "cloud_replica": null
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "evidence/article-date.json",
+        "evidence/build-provenance.json",
+        "evidence/cloud-request.json",
+        "evidence/functional-verification.json",
+        "evidence/official-challenge-date.json",
+        "evidence/sdk-baseline.json",
+        "inputs/source-lock.json"
+      ],
+      "notes": [
+        "The article text says three Sub-Categories are grouped into Misc; the author workbook groups five (Art, Envelopes, Fasteners, Labels, Supplies), which is what the published visualisation shows and what is rebuilt here.",
+        "pPrior counts the current month, so the WINDOW_AVG start offset is (-1*[pPrior])+1; with the default 3 the Accessories June 2018 value is the mean of April..September 2018, matching the article's worked example.",
+        "The shaded band is the nested WINDOW_MAX/WINDOW_MIN of Moving Avg addressed by Sub-Category (group) with month as nested addressing."
+      ],
+      "metadata": "iterations/2021-08-29-ww33-can-you-create-a-moving-average-chart-with-a-focus-on-selected-subcategories/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.29.0a1"
     },
     {
       "case_id": "wow-2022-ww32-dumbbell-chart",
