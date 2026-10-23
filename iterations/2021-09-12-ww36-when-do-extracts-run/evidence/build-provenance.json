@@ -1,7 +1,7 @@
 {
-  "builder_sha256": "170e088b88a9af03780765ea5f96aae287643fa11534c7e0d600898ed032537f",
+  "builder_sha256": "2c6aac2b335198265c56b8961059b1f9051e24a7fb0763729d4767a06575581f",
   "verifier_sha256": "8a5800b9c158a093f269b13370c91272c7c03f5bf58142863d1314b32f366990",
-  "primary_workbook_sha256": "62a3a5e0eb59bdac88e305254ca10e0d7bbf8057bd3a47838e3351beb6a76b55",
+  "primary_workbook_sha256": "e8694891dbe75cd3fb029affcb74c1c5b1856400c716d1e44153728418357cbd",
   "source_lock": "inputs/source-lock.json",
   "sdk_commit": "23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c",
   "phase_boundary": "empty workbook, locked inputs, public SDK only",
