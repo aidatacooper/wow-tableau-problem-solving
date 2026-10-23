@@ -1,0 +1,15 @@
+{
+  "result": "workaround",
+  "artifact_sha256": "d5215ce32188afbc573240a57cce7572a05ebb43522b768acea90d6c88bc53f8",
+  "sdk_commit": "23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c",
+  "workarounds": [
+    "The layered Pie wedge_size configuration is not serialized by this SDK. The builder derives a two-slice scaffold from raw input rows and uses a native Pie plus Circle dual axis; COUNTD preserves respondent semantics.",
+    "A layered single-pane chart applies a computed column sort for sentiment answers; the basic chart sort applies only to rows."
+  ],
+  "gates": {
+    "isolated_build_and_xsd": "PASS",
+    "accepted_artifact_xsd": "PASS",
+    "desktop": "LOADED",
+    "cloud_percentage_checks": 339
+  }
+}

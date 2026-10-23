@@ -1,0 +1,9 @@
+{
+  "builder_sha256": "2c6208a6af9e67c5048706b01ad7df3c7aabaed34be8e6556b938554fa14ce71",
+  "verifier_sha256": "2ce9478fdffcd2ea2df25a67d9c0016b23a4968e3f2c92c6de4121a529740630",
+  "artifact_sha256": "d5215ce32188afbc573240a57cce7572a05ebb43522b768acea90d6c88bc53f8",
+  "sdk_commit": "23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c",
+  "source_lock": "inputs/source-lock.json",
+  "builder_inputs": "locked extracted Hyper only; derived slice scaffold under outputs; public cwtwb APIs from empty workbook",
+  "validation": "fresh isolated build and XSD; frozen artifact XSD and Desktop LOADED; Cloud hash unchanged"
+}

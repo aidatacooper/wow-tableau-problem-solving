@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-23",
+  "source_workbook": {
+    "filename": "2021_08_11_WW32_WOW_Survey_Data.twbx",
+    "bytes": 22925,
+    "sha256": "cbfb2e37b29e6d38d03d5c573ebc998556bc2f33dda28af6064e2efe8764ae52",
+    "url": null
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/TableauTemp/TEMP_12e3vxa1smragy1a5pxzg0cjmlrx.hyper",
+      "file": "inputs/TEMP_12e3vxa1smragy1a5pxzg0cjmlrx.hyper",
+      "bytes": 65536,
+      "sha256": "ef8b20db04535ea4f4ab5d85277cb626e265c098c077ddbd223f40b9608dd2a6"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}
