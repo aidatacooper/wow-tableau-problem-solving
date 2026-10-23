@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "generated_from": "iterations/*/case.yaml",
-  "active_case_count": 111,
+  "active_case_count": 112,
   "legacy_case_ids": {
     "donna-2019-07-18-63877b35d19a": "wow-2019-ww29-high-orders",
     "donna-2019-07-25-59a0a144b25b": "wow-2019-ww30-navigation-kpi",
@@ -6307,6 +6307,64 @@
       "metadata": "iterations/2021-07-15-ww28-can-you-build-an-app-to-visualise-wildfires/case.yaml",
       "metadata_contract": "1.1.0",
       "tested_sdk_version": "0.27.1"
+    },
+    {
+      "case_id": "wow-2021-ww36-when-do-extracts-run",
+      "legacy_case_ids": {},
+      "iteration_id": "2021-09-12-ww36-when-do-extracts-run",
+      "article_date": "2021-09-12",
+      "challenge_year": 2021,
+      "challenge_week": 36,
+      "challenge_date": "2021-09-07",
+      "date_evidence": {
+        "article_date": "index.json publication date; matches the post URL",
+        "challenge": "Explicit challenge_year and week declared in iteration_id",
+        "challenge_date": "Official Workout Wednesday 2021w36 challenge page (https://www.workout-wednesday.com/2021w36/)"
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2021w36/"
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2021/09/12/when-do-extracts-run-during-the-day/",
+          "path": null,
+          "sha256": null
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/When_Do_Extracts_Run_During_The_Day/WhenDoExtractsRunDuringTheDay",
+          "filename": "When_Do_Extracts_Run_During_The_Day.twbx",
+          "sha256": "f1a462438deb44e088f9435912345fdb6d181315305885d68230b4c2314e8eab"
+        }
+      },
+      "functional_status": "partial",
+      "visual_status": "not_evaluated",
+      "verification_status": "pending",
+      "cwtwb_result": "pass",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": null,
+        "cloud_replica": null
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "inputs/source-lock.json",
+        "evidence/data-contract.json",
+        "evidence/workbook-inventory.json",
+        "evidence/validation.json",
+        "evidence/cloud-request.json"
+      ],
+      "notes": [
+        "Rebuilt with cwtwb 0.29.0a1 from the packaged Hyper extract using public SDK APIs only; the builder never opens the author TWB/TWBX.",
+        "Two author copies (Created At Baseline (copy) using TODAY(), and the non-normalised Waiting Time (copy)) are dead fields in the shipped workbook and are not reproduced.",
+        "The Data crosstab is kept, as the author shipped it, but hidden.",
+        "Readable field names come from pass-through calculated aliases; cwtwb has no public caption setter, so the single datasource keeps the template caption \"Sample _ Superstore (Simple)\". Cosmetic delta only.",
+        "The author's manual sort dictionary on Key Label is expressed as a descending sort by Key Order, which renders Waiting before Processing.",
+        "Functional and visual status stay pending until the root Desktop load gate and the Cloud author/replica comparison run."
+      ],
+      "metadata": "iterations/2021-09-12-ww36-when-do-extracts-run/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.29.0a1"
     },
     {
       "case_id": "wow-2022-ww32-dumbbell-chart",
