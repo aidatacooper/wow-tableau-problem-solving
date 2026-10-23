@@ -1,0 +1,69 @@
+Day of Adjusted Date,Day of Date Time Adjust,Is Final?,Month of Date Time Adjust,Sport,Sport Group,X-Axis,#Events Per Day of Other Sports,MIN(1),#Event Finals by Sport Per Day,#Events by Sport Per Day
+8/1/2021,1,False,August,Boxing,Boxing,5,84,1,0,6
+8/1/2021,1,True,August,Artistic Gymnastics,Gymnastics,5,86,1,4,4
+8/2/2021,2,False,August,Boxing,Boxing,3,87,1,1,6
+8/2/2021,2,True,August,Artistic Gymnastics,Gymnastics,5,90,1,3,3
+8/2/2021,2,True,August,Boxing,Boxing,7,87,1,1,6
+8/3/2021,3,False,August,Boxing,Boxing,3,82,1,1,6
+8/3/2021,3,True,August,Artistic Gymnastics,Gymnastics,5,85,1,3,3
+8/3/2021,3,True,August,Boxing,Boxing,7,82,1,1,6
+8/4/2021,4,False,August,Boxing,Boxing,3,86,1,1,4
+8/4/2021,4,False,August,Karate,Martial Arts,5,87,1,0,3
+8/4/2021,4,True,August,Boxing,Boxing,7,86,1,1,4
+8/5/2021,5,False,August,Boxing,Boxing,3,80,1,1,4
+8/5/2021,5,False,August,Karate,Martial Arts,3,74,1,3,10
+8/5/2021,5,True,August,Boxing,Boxing,7,80,1,1,4
+8/5/2021,5,True,August,Karate,Martial Arts,7,74,1,3,10
+8/6/2021,6,False,August,Boxing,Boxing,3,74,1,1,3
+8/6/2021,6,False,August,Karate,Martial Arts,3,70,1,3,7
+8/6/2021,6,True,August,Boxing,Boxing,7,74,1,1,3
+8/6/2021,6,True,August,Karate,Martial Arts,7,70,1,3,7
+8/7/2021,7,False,August,Karate,Martial Arts,3,61,1,2,6
+8/7/2021,7,True,August,Boxing,Boxing,5,63,1,4,4
+8/7/2021,7,True,August,Karate,Martial Arts,7,61,1,2,6
+8/8/2021,8,True,August,Boxing,Boxing,5,6,1,4,4
+7/23/2021,23,False,July,Boxing,Boxing,5,63,1,0,5
+7/23/2021,23,False,July,Artistic Gymnastics,Gymnastics,5,67,1,0,1
+7/23/2021,23,False,July,Judo,Martial Arts,5,64,1,0,4
+7/23/2021,23,False,July,Taekwondo,Martial Arts,5,62,1,0,6
+7/24/2021,24,False,July,Judo,Martial Arts,3,141,1,2,16
+7/24/2021,24,False,July,Taekwondo,Martial Arts,3,145,1,2,12
+7/24/2021,24,False,July,Boxing,Boxing,5,149,1,0,8
+7/24/2021,24,False,July,Artistic Gymnastics,Gymnastics,5,154,1,0,3
+7/24/2021,24,True,July,Judo,Martial Arts,7,141,1,2,16
+7/24/2021,24,True,July,Taekwondo,Martial Arts,7,145,1,2,12
+7/25/2021,25,False,July,Judo,Martial Arts,3,143,1,4,20
+7/25/2021,25,False,July,Taekwondo,Martial Arts,3,151,1,2,12
+7/25/2021,25,False,July,Boxing,Boxing,5,157,1,0,6
+7/25/2021,25,False,July,Artistic Gymnastics,Gymnastics,5,161,1,0,2
+7/25/2021,25,True,July,Judo,Martial Arts,7,143,1,4,20
+7/25/2021,25,True,July,Taekwondo,Martial Arts,7,151,1,2,12
+7/26/2021,26,False,July,Judo,Martial Arts,3,132,1,2,12
+7/26/2021,26,False,July,Taekwondo,Martial Arts,3,132,1,2,12
+7/26/2021,26,False,July,Boxing,Boxing,5,137,1,0,7
+7/26/2021,26,True,July,Artistic Gymnastics,Gymnastics,5,143,1,1,1
+7/26/2021,26,True,July,Judo,Martial Arts,7,132,1,2,12
+7/26/2021,26,True,July,Taekwondo,Martial Arts,7,132,1,2,12
+7/27/2021,27,False,July,Judo,Martial Arts,3,147,1,2,8
+7/27/2021,27,False,July,Taekwondo,Martial Arts,3,149,1,2,6
+7/27/2021,27,False,July,Boxing,Boxing,5,147,1,0,8
+7/27/2021,27,True,July,Artistic Gymnastics,Gymnastics,5,154,1,1,1
+7/27/2021,27,True,July,Judo,Martial Arts,7,147,1,2,8
+7/27/2021,27,True,July,Taekwondo,Martial Arts,7,149,1,2,6
+7/28/2021,28,False,July,Boxing,Boxing,5,130,1,0,7
+7/28/2021,28,False,July,Judo,Martial Arts,5,133,1,0,4
+7/28/2021,28,True,July,Artistic Gymnastics,Gymnastics,5,136,1,1,1
+7/29/2021,29,False,July,Judo,Martial Arts,3,107,1,2,12
+7/29/2021,29,False,July,Boxing,Boxing,5,111,1,0,8
+7/29/2021,29,True,July,Artistic Gymnastics,Gymnastics,5,118,1,1,1
+7/29/2021,29,True,July,Judo,Martial Arts,7,107,1,2,12
+7/30/2021,30,False,July,Trampoline Gymnastics,Gymnastics,3,130,1,1,2
+7/30/2021,30,False,July,Judo,Martial Arts,3,120,1,2,12
+7/30/2021,30,False,July,Boxing,Boxing,5,123,1,0,9
+7/30/2021,30,True,July,Trampoline Gymnastics,Gymnastics,7,130,1,1,2
+7/30/2021,30,True,July,Judo,Martial Arts,7,120,1,2,12
+7/31/2021,31,False,July,Trampoline Gymnastics,Gymnastics,3,104,1,1,2
+7/31/2021,31,False,July,Judo,Martial Arts,3,104,1,1,2
+7/31/2021,31,False,July,Boxing,Boxing,5,96,1,0,10
+7/31/2021,31,True,July,Trampoline Gymnastics,Gymnastics,7,104,1,1,2
+7/31/2021,31,True,July,Judo,Martial Arts,7,104,1,1,2
