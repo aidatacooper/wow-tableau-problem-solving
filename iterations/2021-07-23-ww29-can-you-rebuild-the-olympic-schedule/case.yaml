@@ -23,13 +23,11 @@ source:
     url: https://public.tableau.com/views/2021_07_21_WW29_Olympic_Schedule/2021_07_21_WW29_Olympic_Schedule
     filename: 2021_07_21_WW29_Olympic_Schedule.twbx
     sha256: 01db3d03f05726c52c80c56ba9a50c91a21bc7b28b02f12d1a366f5dffe0e30b
-# Pending the two gates this agent cannot run: the Desktop LOADED check and the
-# hash-bound Cloud capture (both serialized through the coordinating maintainer).
-verification_status: pending
+verification_status: verified
 artifacts:
   primary_workbook: outputs/replicated-workbook.twbx
-  cloud_author: null
-  cloud_replica: null
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
 artifact_aliases: {}
 historical_artifacts: []
 evidence:
@@ -40,15 +38,20 @@ evidence:
 - evidence/official-challenge-date.json
 - evidence/sdk-baseline.json
 - inputs/source-lock.json
+- evidence/desktop-verification.json
+- evidence/cloud-verification.json
+- evidence/cloud-data-verification.json
+- evidence/visual-review.md
+- evidence/replica-data-exports.json
 notes:
-- The extract carries case-variant duplicates ("Diving"/"diving",
-  "Football"/"football", "Rugby"/"rugby", "Volleyball"/"volleyball"), so the raw
-  domains are 36 sport groups and 51 sports rather than the article's 34 / 48
-  cleaned labels. The data is reproduced as published.
-- 87 rows are Victory Ceremony events; the schedule excludes them but the FIXED
-  LoDs still group by the flag, exactly as the author's workbook does.
-- X-Axis places qualifying marks at 3 and finals at 7 only when a sport-day has
-  both; a finals-only or qualifying-only sport-day stays centred at 5.
+- The extract carries case-variant duplicates ("Diving"/"diving", "Football"/"football",
+  "Rugby"/"rugby", "Volleyball"/"volleyball"), so the raw domains are 36 sport groups
+  and 51 sports rather than the article's 34 / 48 cleaned labels. The data is reproduced
+  as published.
+- 87 rows are Victory Ceremony events; the schedule excludes them but the FIXED LoDs
+  still group by the flag, exactly as the author's workbook does.
+- X-Axis places qualifying marks at 3 and finals at 7 only when a sport-day has both;
+  a finals-only or qualifying-only sport-day stays centred at 5.
 cwtwb:
   tested_version: 0.29.0a1
   tested_commit: 23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c
@@ -59,7 +62,7 @@ cwtwb:
     evidence: evidence/sdk-baseline.json
 analysis_status: completed
 functional_status: replicated
-visual_status: not_evaluated
+visual_status: acceptable_delta
 cwtwb_result: workaround
 inputs:
   source_lock: inputs/source-lock.json
@@ -67,24 +70,24 @@ inputs:
   - inputs/Event Schedule (2021_07_21_WW29_Olympic Event Schedule).hyper
 acceptance:
 - id: ww29-schedule-calcs
-  description: The Date Time Adjust / Day of Adjusted Date / Is Victory Ceremony? /
-    Is Final? chain and the four FIXED LoD measures exist with the author's
-    formulas, and the X-Axis branches to 3 / 5 / 7 as recomputed from the extract.
+  description: The Date Time Adjust / Day of Adjusted Date / Is Victory Ceremony?
+    / Is Final? chain and the four FIXED LoD measures exist with the author's formulas,
+    and the X-Axis branches to 3 / 5 / 7 as recomputed from the extract.
   mode: automated
 - id: ww29-time-adjust
   description: pTimeAdjust is an integer 0 default over a -12..12 step-1 range and
-    pSportToExclude is an empty string parameter; shifting pTimeAdjust moves the
-    recomputed marks to different days.
+    pSportToExclude is an empty string parameter; shifting pTimeAdjust moves the recomputed
+    marks to different days.
   mode: automated
 - id: ww29-schedule-view
   description: Date Chart puts month/day/X-Axis on Columns and Sport Group/Sport/
-    MIN(1) on Rows with Shape marks, a final-versus-qualifier shape palette, a
-    fixed 0..10 axis, the set filter and the Victory Ceremony exclusion.
+    MIN(1) on Rows with Shape marks, a final-versus-qualifier shape palette, a fixed
+    0..10 axis, the set filter and the Victory Ceremony exclusion.
   mode: automated
 - id: ww29-selector-set
   description: Sport Group Set starts with Boxing, Gymnastics and Martial Arts, and
-    the Sport Selector bar chart colours its sport groups by set membership with
-    Dummy on Detail.
+    the Sport Selector bar chart colours its sport groups by set membership with Dummy
+    on Detail.
   mode: automated
 - id: ww29-viz-in-tooltip
   description: The schedule tooltip embeds VIT-Event Listing filtered by Sport and
@@ -93,18 +96,18 @@ acceptance:
   mode: automated
 - id: ww29-dashboard-actions
   description: Two menu set actions add and remove sports, one on-hover parameter
-    action sets pSportToExclude from Sport, one Dummy highlight action stops the
-    selector brushing the schedule, and the selector has a hide/show button.
+    action sets pSportToExclude from Sport, one Dummy highlight action stops the selector
+    brushing the schedule, and the selector has a hide/show button.
   mode: automated
 remaining_work: []
 blocker: null
 workarounds:
-- A bare date-like field name is auto-wrapped as MONTH(...) by the SDK's default
-  view expression, which collapses the day column and the tooltip filters to one
-  mark per month; the builder passes the bracketed reference
-  "[Day of Adjusted Date]" to keep the discrete day binding.
+- A bare date-like field name is auto-wrapped as MONTH(...) by the SDK's default view
+  expression, which collapses the day column and the tooltip filters to one mark per
+  month; the builder passes the bracketed reference "[Day of Adjusted Date]" to keep
+  the discrete day binding.
 - The author's highlight action stores the excluded sheet ("Date Chart"); the SDK
-  derives that list from the sheets the action is not given, so the action is
-  declared on the selector itself to reproduce the same exclusion.
+  derives that list from the sheets the action is not given, so the action is declared
+  on the selector itself to reproduce the same exclusion.
 capability_gaps: []
 related_cwtwb_issues: []

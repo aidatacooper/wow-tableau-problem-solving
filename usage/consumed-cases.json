@@ -1211,7 +1211,7 @@
       "iteration": "2021-07-23-ww29-can-you-rebuild-the-olympic-schedule",
       "status": "consumed",
       "replication_status": "replicated",
-      "verification_status": "pending",
+      "verification_status": "verified",
       "cwtwb_version": "0.29.0a1",
       "reason": "Derived from case metadata; consumed means claimed, not verified completed."
     },

@@ -1,0 +1,137 @@
+{
+  "case_id": "wow-2021-ww29-can-you-rebuild-the-olympic-schedule",
+  "captured_at": "2026-10-23T15:56:00.998267+00:00",
+  "source_hashes": {
+    "author": "01db3d03f05726c52c80c56ba9a50c91a21bc7b28b02f12d1a366f5dffe0e30b",
+    "replica": "b4ac684a128486d84b4561a96e9cd6bf3f3dc34f36f5a63036d06da05840c268"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "3053bffb-18e8-4dd1-a4ae-70ff3eb06c16",
+      "name": "cwtwb-review-wow-2021-ww29-can-you-rebuild-the-olympic-schedule-author-01db3d03f057",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/3061828",
+      "views": [
+        {
+          "name": "2021_07_21_WW29_Olympic_Schedule",
+          "id": "ed3b2856-6f6c-4205-aaf4-e85c019c17ee"
+        },
+        {
+          "name": "2021_07_21_WW29_Olympic_Schedule v2)",
+          "id": "7c6f8181-57dc-4002-ad0b-9105ff29844e"
+        }
+      ]
+    },
+    "replica": {
+      "id": "cd10fc8c-5d89-4f02-b29b-797ea870ff87",
+      "name": "cwtwb-review-wow-2021-ww29-can-you-rebuild-the-olympic-schedule-replica-b4ac684a1284",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/3061945",
+      "views": [
+        {
+          "name": "Sport Selector",
+          "id": "d29cf734-63f8-444e-bf34-32e8632b0bbc"
+        },
+        {
+          "name": "Date Chart",
+          "id": "e67bcfdb-aeb8-4ef0-8c7c-f87e5fd00fa7"
+        },
+        {
+          "name": "2021_07_21_WW29_Olympic_Schedule",
+          "id": "7d63fc9a-89d1-4a48-967c-0751312cd76b"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "ed3b2856-6f6c-4205-aaf4-e85c019c17ee",
+          "name": "2021_07_21_WW29_Olympic_Schedule",
+          "path": "outputs/cloud-author.png",
+          "sha256": "02c311189d6c420cb53312e8583c0047e8c98a01b85b7a53c3451f827b47ca00",
+          "size": [
+            2400,
+            1800
+          ]
+        },
+        "replica": {
+          "id": "7d63fc9a-89d1-4a48-967c-0751312cd76b",
+          "name": "2021_07_21_WW29_Olympic_Schedule",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "3b9c3d7dd37ce30b3cb87cb7cba9a42d328a17d09583a3f44618cda7a1be1716",
+          "size": [
+            2400,
+            1800
+          ]
+        }
+      },
+      "data": []
+    },
+    {
+      "name": "plus3",
+      "parameters": {
+        "pTimeAdjust": 3
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "ed3b2856-6f6c-4205-aaf4-e85c019c17ee",
+          "name": "2021_07_21_WW29_Olympic_Schedule",
+          "path": "outputs/cloud-author-plus3.png",
+          "sha256": "1a3bd477f775e154f4bcfcf055453ceafd732b5adbca2083ee4c4210b12b1e04",
+          "size": [
+            2400,
+            1800
+          ]
+        },
+        "replica": {
+          "id": "7d63fc9a-89d1-4a48-967c-0751312cd76b",
+          "name": "2021_07_21_WW29_Olympic_Schedule",
+          "path": "outputs/cloud-replica-plus3.png",
+          "sha256": "532589f2ef143e06dda6507ffc942510079c7b26a93d7809e539df1a0a01200c",
+          "size": [
+            2400,
+            1800
+          ]
+        }
+      },
+      "data": []
+    },
+    {
+      "name": "minus5",
+      "parameters": {
+        "pTimeAdjust": -5
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "ed3b2856-6f6c-4205-aaf4-e85c019c17ee",
+          "name": "2021_07_21_WW29_Olympic_Schedule",
+          "path": "outputs/cloud-author-minus5.png",
+          "sha256": "e95f07862f72270ea69f88f71d50ed0811a5f34a946586e4840a6142bcae1669",
+          "size": [
+            2400,
+            1800
+          ]
+        },
+        "replica": {
+          "id": "7d63fc9a-89d1-4a48-967c-0751312cd76b",
+          "name": "2021_07_21_WW29_Olympic_Schedule",
+          "path": "outputs/cloud-replica-minus5.png",
+          "sha256": "ca9024cd7722e4752bacdbd8067a9e6d92bc0fa29a8d1455f1e1a7a76c7fa136",
+          "size": [
+            2400,
+            1800
+          ]
+        }
+      },
+      "data": []
+    }
+  ],
+  "status": "captured_requires_independent_review"
+}
