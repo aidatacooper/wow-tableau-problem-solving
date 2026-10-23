@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "generated_from": "iterations/*/case.yaml",
-  "active_case_count": 120,
+  "active_case_count": 121,
   "legacy_case_ids": {
     "donna-2019-07-18-63877b35d19a": "wow-2019-ww29-high-orders",
     "donna-2019-07-25-59a0a144b25b": "wow-2019-ww30-navigation-kpi",
@@ -6880,6 +6880,70 @@
         "KPI endpoints are first/last trading dates within the requested range, not zero-filled calendar boundary dates."
       ],
       "metadata": "iterations/2021-09-23-ww38-can-you-quickly-tell-the-net-change-between-two-dates/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.29.0a1"
+    },
+    {
+      "case_id": "wow-2021-ww40-can-you-make-stacked-bar-charts-easier-to-compare",
+      "legacy_case_ids": {},
+      "iteration_id": "2021-10-08-ww40-can-you-make-stacked-bar-charts-easier-to-compare",
+      "article_date": "2021-10-08",
+      "challenge_year": 2021,
+      "challenge_week": 40,
+      "challenge_date": "2021-10-06",
+      "date_evidence": {
+        "article_date": "Declared article publication date in iteration_id",
+        "challenge": "Explicit challenge_year; week declared in iteration_id",
+        "challenge_date": "Explicit official challenge publication date and URL"
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/tab2021w40/"
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2021/10/08/can-you-make-stacked-bar-charts-easier-to-compare/",
+          "path": "posts/2021-10-08-Can_you_make_stacked_bar_charts_easier_to_compare.html",
+          "sha256": "eb843030a5fac64cb8812c0a3f978ad1dff0cb92eb481d31231b2bed28af0467"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2021_10_06_WW40_Compare_Stacked_Bar_Charts/2021_10_06_WW40_Compare_Stacked_Bar_Charts",
+          "filename": "2021_10_06_WW40_Compare_Stacked_Bar_Charts.twbx",
+          "sha256": "22a46422e2cce4b3b7a94b8b7b3c28d35d7ba930b76776f219083c341f7b4684"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "pass",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "inputs/source-lock.json",
+        "evidence/article-date.json",
+        "evidence/official-challenge-date.json",
+        "evidence/sdk-baseline.json",
+        "evidence/functional-verification.json",
+        "evidence/cloud-request.json",
+        "evidence/build-provenance.json",
+        "evidence/sdk-final.json",
+        "evidence/replica-data-exports.json",
+        "evidence/author-data-exports.json",
+        "evidence/desktop-verification.json",
+        "evidence/cloud-verification.json",
+        "evidence/cloud-data-verification.json",
+        "evidence/visual-review.md"
+      ],
+      "notes": [
+        "Original author parameter caption pSelectedCategpry contains a typo; retained to allow identical Cloud parameter overrides.",
+        "Native author sort is descending SUM(Sort): selected Category is zero; other categories use their row counts. Do not substitute ascending category name order.",
+        "Final Desktop LOADED and three Cloud parameter states pass. Original author exposes dashboard only, so unchanged author screenshots are compared with replica CSV and the independent raw-extract oracle. Category instruction and colour key are visibly present."
+      ],
+      "metadata": "iterations/2021-10-08-ww40-can-you-make-stacked-bar-charts-easier-to-compare/case.yaml",
       "metadata_contract": "1.1.0",
       "tested_sdk_version": "0.29.0a1"
     },
