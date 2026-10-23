@@ -1,0 +1,20 @@
+{
+  "version": "0.29.0a1",
+  "commit": "23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c",
+  "result": "workaround",
+  "artifact_sha256": "7c019ad146c0535a29b3be0aa5090b8051779ab06e0830af91a16ec8710fc98c",
+  "desktop": "LOADED",
+  "cloud_numeric_checks": 18144,
+  "states": [
+    "default",
+    "july-range",
+    "single-day"
+  ],
+  "workarounds": [
+    "Explicit continuous calculated date bindings emit native none:qk references.",
+    "Both conditional reference bands attach to the final Area pane on its synchronized date axis; negative endpoint Detail fields are present there. This avoids the later pane covering the earlier negative band.",
+    "Replica diagnostic sheets remain exposed for CSV acceptance; original author workbook stays unchanged."
+  ],
+  "public_api_only": true,
+  "browser_interaction_executed": false
+}

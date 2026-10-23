@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-24",
+  "source_workbook": {
+    "filename": "2021_09_22_WW38_Daily_Sales_Tracker.twbx",
+    "bytes": 89272,
+    "sha256": "c9c78821f394e504700ba5e1ac6dcc004abc9915569c7a912112d97e57a03f2b",
+    "url": null
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Datasources/Orders (Sample - Superstore).hyper",
+      "file": "inputs/Orders (Sample - Superstore).hyper",
+      "bytes": 262144,
+      "sha256": "5ec33a617a2ce66f97988bc9ed9ae0cbc47c945f192c5d2a4b607463b2d2cb6e"
+    },
+    {
+      "archive_path": "Data/Datasources/Date Range.hyper",
+      "file": "inputs/Date Range.hyper",
+      "bytes": 65536,
+      "sha256": "f48266160a5aa67dfe144a29a55143dfea1ce0f49a31f3ab2622c5be18ac7ee2"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

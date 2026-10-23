@@ -1,0 +1,242 @@
+{
+  "default": {
+    "today": "2021-09-20",
+    "default_range": [
+      "2021-09-06",
+      "2021-09-20"
+    ],
+    "default_window": [
+      "2021-03-20",
+      "2021-09-20"
+    ],
+    "regions": {
+      "South": {
+        "first_trading_day": "2021-09-07",
+        "last_trading_day": "2021-09-19",
+        "first_day_sales": 81.568,
+        "last_day_sales": 131.016,
+        "net_change": 49.448,
+        "percent_change": 0.606218,
+        "positive": true
+      },
+      "West": {
+        "first_trading_day": "2021-09-07",
+        "last_trading_day": "2021-09-19",
+        "first_day_sales": 1269.121,
+        "last_day_sales": 1479.93,
+        "net_change": 210.809,
+        "percent_change": 0.166106,
+        "positive": true
+      },
+      "Central": {
+        "first_trading_day": "2021-09-07",
+        "last_trading_day": "2021-09-18",
+        "first_day_sales": 1913.248,
+        "last_day_sales": 210.04,
+        "net_change": -1703.208,
+        "percent_change": -0.890218,
+        "positive": false
+      },
+      "East": {
+        "first_trading_day": "2021-09-07",
+        "last_trading_day": "2021-09-20",
+        "first_day_sales": 584.628,
+        "last_day_sales": 7359.918,
+        "net_change": 6775.29,
+        "percent_change": 11.589062,
+        "positive": true
+      }
+    },
+    "window_mark_counts": {
+      "South": 94,
+      "West": 117,
+      "Central": 116,
+      "East": 119
+    },
+    "window_first_last": {
+      "South": [
+        "2021-03-21",
+        "2021-09-19"
+      ],
+      "West": [
+        "2021-03-20",
+        "2021-09-19"
+      ],
+      "Central": [
+        "2021-03-20",
+        "2021-09-18"
+      ],
+      "East": [
+        "2021-03-20",
+        "2021-09-20"
+      ]
+    },
+    "region_order": [
+      "South",
+      "West",
+      "Central",
+      "East"
+    ],
+    "row_count": 9994
+  },
+  "july-range": {
+    "today": "2021-09-20",
+    "default_range": [
+      "2021-07-01",
+      "2021-07-31"
+    ],
+    "default_window": [
+      "2021-03-20",
+      "2021-09-20"
+    ],
+    "regions": {
+      "South": {
+        "first_trading_day": "2021-07-03",
+        "last_trading_day": "2021-07-31",
+        "first_day_sales": 345.512,
+        "last_day_sales": 41.424,
+        "net_change": -304.088,
+        "percent_change": -0.880108,
+        "positive": false
+      },
+      "West": {
+        "first_trading_day": "2021-07-03",
+        "last_trading_day": "2021-07-31",
+        "first_day_sales": 4914.132,
+        "last_day_sales": 93.52,
+        "net_change": -4820.612,
+        "percent_change": -0.980969,
+        "positive": false
+      },
+      "Central": {
+        "first_trading_day": "2021-07-01",
+        "last_trading_day": "2021-07-31",
+        "first_day_sales": 639.83,
+        "last_day_sales": 210.192,
+        "net_change": -429.638,
+        "percent_change": -0.671488,
+        "positive": false
+      },
+      "East": {
+        "first_trading_day": "2021-07-03",
+        "last_trading_day": "2021-07-31",
+        "first_day_sales": 664.764,
+        "last_day_sales": 1212.892,
+        "net_change": 548.128,
+        "percent_change": 0.824545,
+        "positive": true
+      }
+    },
+    "window_mark_counts": {
+      "South": 94,
+      "West": 117,
+      "Central": 116,
+      "East": 119
+    },
+    "window_first_last": {
+      "South": [
+        "2021-03-21",
+        "2021-09-19"
+      ],
+      "West": [
+        "2021-03-20",
+        "2021-09-19"
+      ],
+      "Central": [
+        "2021-03-20",
+        "2021-09-18"
+      ],
+      "East": [
+        "2021-03-20",
+        "2021-09-20"
+      ]
+    },
+    "region_order": [
+      "South",
+      "West",
+      "Central",
+      "East"
+    ],
+    "row_count": 9994
+  },
+  "single-day": {
+    "today": "2021-09-20",
+    "default_range": [
+      "2021-09-07",
+      "2021-09-07"
+    ],
+    "default_window": [
+      "2021-03-20",
+      "2021-09-20"
+    ],
+    "regions": {
+      "South": {
+        "first_trading_day": "2021-09-07",
+        "last_trading_day": "2021-09-07",
+        "first_day_sales": 81.568,
+        "last_day_sales": 81.568,
+        "net_change": 0.0,
+        "percent_change": 0.0,
+        "positive": true
+      },
+      "West": {
+        "first_trading_day": "2021-09-07",
+        "last_trading_day": "2021-09-07",
+        "first_day_sales": 1269.121,
+        "last_day_sales": 1269.121,
+        "net_change": 0.0,
+        "percent_change": 0.0,
+        "positive": true
+      },
+      "Central": {
+        "first_trading_day": "2021-09-07",
+        "last_trading_day": "2021-09-07",
+        "first_day_sales": 1913.248,
+        "last_day_sales": 1913.248,
+        "net_change": 0.0,
+        "percent_change": 0.0,
+        "positive": true
+      },
+      "East": {
+        "first_trading_day": "2021-09-07",
+        "last_trading_day": "2021-09-07",
+        "first_day_sales": 584.628,
+        "last_day_sales": 584.628,
+        "net_change": 0.0,
+        "percent_change": 0.0,
+        "positive": true
+      }
+    },
+    "window_mark_counts": {
+      "South": 94,
+      "West": 117,
+      "Central": 116,
+      "East": 119
+    },
+    "window_first_last": {
+      "South": [
+        "2021-03-21",
+        "2021-09-19"
+      ],
+      "West": [
+        "2021-03-20",
+        "2021-09-19"
+      ],
+      "Central": [
+        "2021-03-20",
+        "2021-09-18"
+      ],
+      "East": [
+        "2021-03-20",
+        "2021-09-20"
+      ]
+    },
+    "region_order": [
+      "South",
+      "West",
+      "Central",
+      "East"
+    ],
+    "row_count": 9994
+  }
+}

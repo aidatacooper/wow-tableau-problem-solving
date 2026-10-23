@@ -1,0 +1,133 @@
+{
+  "artifact_sha256": "7c019ad146c0535a29b3be0aa5090b8051779ab06e0830af91a16ec8710fc98c",
+  "exports": [
+    {
+      "state": "default",
+      "view": "Trend",
+      "path": "outputs/cloud-replica-trend-default.csv",
+      "sha256": "5469bf7562a267d239d6d192d91f834d46999487d48bc34f7193d3c3fcdb06da",
+      "parameters": {},
+      "filters": {}
+    },
+    {
+      "state": "default",
+      "view": "KPI",
+      "path": "outputs/cloud-replica-kpi-default.csv",
+      "sha256": "0d5fd6448a6a35b5cb1b038fbfb05c5286a1e2b93f04d8317a023d767aa8d755",
+      "parameters": {},
+      "filters": {}
+    },
+    {
+      "state": "default",
+      "view": "Subtitle",
+      "path": "outputs/cloud-replica-subtitle-default.csv",
+      "sha256": "443f332994cf0cdf87b5b6c00f0a96c7a8d07ed97fd55b167921c9344554d045",
+      "parameters": {},
+      "filters": {}
+    },
+    {
+      "state": "default",
+      "view": "Timeframe Selector",
+      "path": "outputs/cloud-replica-timeframe-selector-default.csv",
+      "sha256": "5e77a93a45728c8052f6cd5caf8fc5608ed59fffa3035977cb9aaa9f15f9a77b",
+      "parameters": {},
+      "filters": {}
+    },
+    {
+      "state": "july-range",
+      "view": "Trend",
+      "path": "outputs/cloud-replica-trend-july-range.csv",
+      "sha256": "0d4654456e0a2d18606c30120bb97aafa2bb9068b33884e38ed963de7d233a0c",
+      "parameters": {
+        "pStartRange": "2021-07-01",
+        "pEndRange": "2021-07-31",
+        "pTimeframe": "1 YEAR"
+      },
+      "filters": {}
+    },
+    {
+      "state": "july-range",
+      "view": "KPI",
+      "path": "outputs/cloud-replica-kpi-july-range.csv",
+      "sha256": "973a72337e4c0b311e4706da6f2fad7af3953256bdc535a86b96c8e12bcec39b",
+      "parameters": {
+        "pStartRange": "2021-07-01",
+        "pEndRange": "2021-07-31",
+        "pTimeframe": "1 YEAR"
+      },
+      "filters": {}
+    },
+    {
+      "state": "july-range",
+      "view": "Subtitle",
+      "path": "outputs/cloud-replica-subtitle-july-range.csv",
+      "sha256": "b97e0f3ae4e6c734cec22b6dc2f039ed29eb309c55a36691e59387e6d20ee6ff",
+      "parameters": {
+        "pStartRange": "2021-07-01",
+        "pEndRange": "2021-07-31",
+        "pTimeframe": "1 YEAR"
+      },
+      "filters": {}
+    },
+    {
+      "state": "july-range",
+      "view": "Timeframe Selector",
+      "path": "outputs/cloud-replica-timeframe-selector-july-range.csv",
+      "sha256": "31f0ccf62eb2a40a89d006f436c0e24c7c23446b3c1adf074247c5d567422fab",
+      "parameters": {
+        "pStartRange": "2021-07-01",
+        "pEndRange": "2021-07-31",
+        "pTimeframe": "1 YEAR"
+      },
+      "filters": {}
+    },
+    {
+      "state": "single-day",
+      "view": "Trend",
+      "path": "outputs/cloud-replica-trend-single-day.csv",
+      "sha256": "611828ce86b6967fe12f77e783020108472ca91a39aed959920c16eca41a7699",
+      "parameters": {
+        "pStartRange": "2021-09-07",
+        "pEndRange": "2021-09-07",
+        "pTimeframe": "1 MONTH"
+      },
+      "filters": {}
+    },
+    {
+      "state": "single-day",
+      "view": "KPI",
+      "path": "outputs/cloud-replica-kpi-single-day.csv",
+      "sha256": "17d7610ef74fbb8c274b4f2c274238e388daeb93e9e4aab9c3ba3e4ea202f4ab",
+      "parameters": {
+        "pStartRange": "2021-09-07",
+        "pEndRange": "2021-09-07",
+        "pTimeframe": "1 MONTH"
+      },
+      "filters": {}
+    },
+    {
+      "state": "single-day",
+      "view": "Subtitle",
+      "path": "outputs/cloud-replica-subtitle-single-day.csv",
+      "sha256": "1ebcf6255cba8f8f2fe181c0cfca80d07c9dcb58ac6b53b41c2c27c76c303410",
+      "parameters": {
+        "pStartRange": "2021-09-07",
+        "pEndRange": "2021-09-07",
+        "pTimeframe": "1 MONTH"
+      },
+      "filters": {}
+    },
+    {
+      "state": "single-day",
+      "view": "Timeframe Selector",
+      "path": "outputs/cloud-replica-timeframe-selector-single-day.csv",
+      "sha256": "628e1b55f77970e3edcae21ac6e5e39c5794f6e07c665592f4583159ef3eb4ef",
+      "parameters": {
+        "pStartRange": "2021-09-07",
+        "pEndRange": "2021-09-07",
+        "pTimeframe": "1 MONTH"
+      },
+      "filters": {}
+    }
+  ]
+}
