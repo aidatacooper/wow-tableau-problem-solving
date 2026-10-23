@@ -6336,14 +6336,14 @@
           "sha256": "f1a462438deb44e088f9435912345fdb6d181315305885d68230b4c2314e8eab"
         }
       },
-      "functional_status": "partial",
-      "visual_status": "not_evaluated",
-      "verification_status": "pending",
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
       "cwtwb_result": "pass",
       "artifacts": {
         "primary_workbook": "outputs/replicated-workbook.twbx",
-        "cloud_author": null,
-        "cloud_replica": null
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
       },
       "artifact_aliases": {},
       "historical_artifacts": [],
@@ -6352,7 +6352,12 @@
         "evidence/data-contract.json",
         "evidence/workbook-inventory.json",
         "evidence/validation.json",
-        "evidence/cloud-request.json"
+        "evidence/cloud-request.json",
+        "evidence/desktop-verification.json",
+        "evidence/cloud-verification.json",
+        "evidence/cloud-data-verification.json",
+        "evidence/visual-review.md",
+        "evidence/build-provenance.json"
       ],
       "notes": [
         "Rebuilt with cwtwb 0.29.0a1 from the packaged Hyper extract using public SDK APIs only; the builder never opens the author TWB/TWBX.",

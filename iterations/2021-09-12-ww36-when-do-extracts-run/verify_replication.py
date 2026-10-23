@@ -295,6 +295,7 @@ def check_workbook(root: etree._Element) -> None:
     ]
     assert len(folded) == 1 and folded[0].get("synchronized") == "true"
     reference_lines = waiting_pane.findall("reference-line")
+    assert float(processing_pane.find("style/style-rule/format[@attr='size']").get("value")) > 0.5
     assert len(reference_lines) == 2, "The 08:00-17:00 working-hours band needs two lines"
     # The band endpoints are the 08:00 and 17:00 instants of the normalised day,
     # declared as datetime fields so they stay exact on a datetime axis.
@@ -319,6 +320,7 @@ def check_workbook(root: etree._Element) -> None:
             if column.get("caption") == caption
         )
         assert local.strip("[]") in by_formula[formula].get("value-column", "")
+        assert any(local.strip("[]") in n.get("column", "") for n in waiting_pane.findall("encodings/lod")), "Reference band endpoint must be in query"
     assert {line.get("scope") for line in reference_lines} == {"per-pane"}
     assert {line.get("paired-id") for line in reference_lines} == {"refline0", "refline1"}
     band = table.find("style/style-rule[@element='refband']/format[@id='refline0']")
@@ -351,6 +353,7 @@ def check_workbook(root: etree._Element) -> None:
 
     # acceptance: key-legend-pairing
     key = root.find(f"worksheets/worksheet[@name='{KEY}']")
+    assert key.find("table/panes/pane/mark").get("class") == "Bar"
     key_columns = key.findtext("table/cols") or ""
     assert "Calculation_" in key_columns and "*" in key_columns
     key_filter = key.find("table/view/filter")

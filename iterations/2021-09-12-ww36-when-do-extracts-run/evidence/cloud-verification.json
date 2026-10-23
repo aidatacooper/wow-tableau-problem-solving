@@ -1,0 +1,137 @@
+{
+  "case_id": "wow-2021-ww36-when-do-extracts-run",
+  "captured_at": "2026-10-23T16:48:17.167742+00:00",
+  "source_hashes": {
+    "author": "f1a462438deb44e088f9435912345fdb6d181315305885d68230b4c2314e8eab",
+    "replica": "62a3a5e0eb59bdac88e305254ca10e0d7bbf8057bd3a47838e3351beb6a76b55"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "6626d487-333a-43ee-9254-e7869e2b508e",
+      "name": "cwtwb-review-wow-2021-ww36-when-do-extracts-run-author-f1a462438deb",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/3062232",
+      "views": [
+        {
+          "name": "Data",
+          "id": "37df5a9f-1bd6-40ce-8f5f-95753bca79d1"
+        },
+        {
+          "name": "When Do Extracts Run During The Day?",
+          "id": "0aa58cde-1eda-4dad-8ec4-53793776844c"
+        }
+      ]
+    },
+    "replica": {
+      "id": "7d64ab57-9a89-49ec-a9a7-f21b9990b8ae",
+      "name": "cwtwb-review-wow-2021-ww36-when-do-extracts-run-replica-62a3a5e0eb59",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/3062292",
+      "views": [
+        {
+          "name": "Gantt",
+          "id": "fa88730b-140d-4a92-b173-043909e00aee"
+        },
+        {
+          "name": "Key",
+          "id": "68ff061f-e5bf-4344-8ed7-f502cee3e3f0"
+        },
+        {
+          "name": "When Do Extracts Run During The Day?",
+          "id": "91a487e7-43b4-4c2a-aead-78369dcc64bc"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "0aa58cde-1eda-4dad-8ec4-53793776844c",
+          "name": "When Do Extracts Run During The Day?",
+          "path": "outputs/cloud-author.png",
+          "sha256": "75270c41729ed25a2edd927ed179d0cfa6805afb263b4208d37a5af2684131ef",
+          "size": [
+            2000,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "91a487e7-43b4-4c2a-aead-78369dcc64bc",
+          "name": "When Do Extracts Run During The Day?",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "9a776f814f423a9be98801ee19c040ea48875078fe667655a88f7d17589f5fb8",
+          "size": [
+            2000,
+            1600
+          ]
+        }
+      },
+      "data": []
+    },
+    {
+      "name": "three-days",
+      "parameters": {
+        "pDaysToShow": 3
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "0aa58cde-1eda-4dad-8ec4-53793776844c",
+          "name": "When Do Extracts Run During The Day?",
+          "path": "outputs/cloud-author-three-days.png",
+          "sha256": "001d573bb0df05bd43780f3ed3efdeab015deebf6968a9890613d45706c98d34",
+          "size": [
+            2000,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "91a487e7-43b4-4c2a-aead-78369dcc64bc",
+          "name": "When Do Extracts Run During The Day?",
+          "path": "outputs/cloud-replica-three-days.png",
+          "sha256": "2d96dd8c4e4b54acad62ba05692aabaa26558975320a3b5a693786eec33cdaf8",
+          "size": [
+            2000,
+            1600
+          ]
+        }
+      },
+      "data": []
+    },
+    {
+      "name": "ten-days",
+      "parameters": {
+        "pDaysToShow": 10
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "0aa58cde-1eda-4dad-8ec4-53793776844c",
+          "name": "When Do Extracts Run During The Day?",
+          "path": "outputs/cloud-author-ten-days.png",
+          "sha256": "2571e40b329a1e185c61d914266ff336979240270bdfe1185e1911d763f77035",
+          "size": [
+            2000,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "91a487e7-43b4-4c2a-aead-78369dcc64bc",
+          "name": "When Do Extracts Run During The Day?",
+          "path": "outputs/cloud-replica-ten-days.png",
+          "sha256": "25052adc146677d3ef18f6ea5fd201497417dd6dadbad402de99d11f22ee3d78",
+          "size": [
+            2000,
+            1600
+          ]
+        }
+      },
+      "data": []
+    }
+  ],
+  "status": "captured_requires_independent_review"
+}

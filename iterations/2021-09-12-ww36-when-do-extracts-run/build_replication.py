@@ -242,7 +242,7 @@ def build_gantt(editor: TWBEditor) -> None:
                 "color": "Over Wait Time Threshold",
                 "color_map": WAIT_COLORS,
                 "detail": "Id",
-                "detail_extra": ["Notes"],
+                "detail_extra": ["Notes", "MIN(Working Hours Start)", "MAX(Working Hours End)"],
                 "tooltip": [
                     "Created At Baseline",
                     "Started At Baseline",
@@ -272,7 +272,7 @@ def build_gantt(editor: TWBEditor) -> None:
                     "Extract Status",
                 ],
                 "mark_sizing_off": True,
-                "mark_style": {"size": "0.0099999997764825821"},
+                "mark_style": {"size": "0.75"},
             },
         ],
     )
@@ -281,8 +281,8 @@ def build_gantt(editor: TWBEditor) -> None:
     editor.add_reference_band(
         GANTT,
         axis_field=WAITING_AXIS,
-        lower_field="Working Hours Start",
-        upper_field="Working Hours End",
+        lower_field="MIN(Working Hours Start)",
+        upper_field="MAX(Working Hours End)",
         lower_formula="min",
         upper_formula="max",
         fill_color=WORKING_HOURS_BAND,
@@ -371,7 +371,7 @@ def build_key(editor: TWBEditor) -> None:
         panes=[
             {
                 "axis": "One",
-                "mark_type": "Square",
+                "mark_type": "Bar",
                 "color": "Site",
                 "color_map": SITE_COLORS,
                 "size": "Site",
@@ -394,6 +394,7 @@ def build_key(editor: TWBEditor) -> None:
         hide_row_field_labels=True,
         disable_tooltip=True,
         label_formats=[{"field": "Key Label", "font-size": "8"}],
+        size_style={"field": "Site", "type": "catsize", "min_size": "0.383813", "max_size": "1", "reverse": True},
         axis_style={
             "encodings": [
                 {
@@ -456,24 +457,25 @@ def build_dashboard(editor: TWBEditor) -> None:
                 "runs": [
                     {
                         "text": "WHEN DO EXTRACTS RUN DURING THE DAY?",
+                        "font_alignment": "0",
                         "bold": True,
                         "font_color": "#000000",
                         "font_size": "16",
                     },
-                    {"text": "\n"},
-                    {
-                        "text": "Understand the pattern of each extract refresh on a daily basis",
-                        "font_color": "#000000",
-                        "font_size": "11",
-                    },
                 ],
-                "absolute": px(0, 0, 1000, 60),
+                "absolute": px(0, 0, 1000, 33),
                 "style": {
                     "border-style": "none",
                     "border-width": "0",
                     "margin": "0",
                     "background-color": "#ffffff",
                 },
+            },
+            {
+                "type": "text",
+                "runs": [{"text": "Understand the pattern of each extract refresh on a daily basis", "font_size": "11", "font_color": "#000000", "font_alignment": "0"}],
+                "absolute": px(0, 33, 1000, 27),
+                "style": {"margin": "0", "border-style": "none"},
             },
             {
                 "type": "text",

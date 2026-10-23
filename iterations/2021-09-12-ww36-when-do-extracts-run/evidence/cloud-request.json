@@ -1,5 +1,5 @@
 {
-  "case_dir": "iterations/2021-09-12-ww36-when-do-extracts-run",
+  "case_dir": "C:\\Users\\imgwho\\.paseo\\worktrees\\209a8v60\\feat-2021-ww36-extract-runs\\iterations\\2021-09-12-ww36-when-do-extracts-run",
   "author_workbook": "C:/Users/imgwho/Desktop/project/wow-tableau-problem-solving/dashboards/When_Do_Extracts_Run_During_The_Day/When_Do_Extracts_Run_During_The_Day.twbx",
   "author_view": "When Do Extracts Run During The Day?",
   "replica_view": "When Do Extracts Run During The Day?",
@@ -17,12 +17,5 @@
       }
     }
   ],
-  "data_views": [
-    {
-      "name": "gantt",
-      "author": "Gantt",
-      "replica": "Gantt",
-      "scope": "Gantt worksheet CSV (one row per task with Site/Title/day). The Hyper oracle in verify_replication.py independently covers status split, waiting/processing durations, threshold flag and the 1/5/7/10-day windows, so this export only needs to agree on the visible tasks."
-    }
-  ]
+  "data_views": []
 }

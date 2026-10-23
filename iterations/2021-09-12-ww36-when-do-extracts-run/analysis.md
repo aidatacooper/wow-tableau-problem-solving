@@ -120,3 +120,9 @@ contract (formulas, shelves, pane encodings, folded axis, reference band,
 filters, key legend, dashboard controls, hidden Data sheet, packaged extract
 hash). Visual comparison against the author's render is left to the root Cloud
 gate.
+
+## Runtime corrections after first Cloud capture
+
+The initial chart exported correct tasks and durations but rendered both waiting and processing as thin lines. Processing now has a 0.75 mark width while waiting remains 0.01. Key uses native Bar marks with the author categorical size range instead of Square marks. Working-hours min/max datetime endpoint fields are now present on the waiting pane Detail shelf so Tableau queries them for the reference band. Two separate dashboard text zones prevent the SDK from collapsing a newline-only text run between title and subtitle. These are public-API case corrections, not SDK edits.
+
+`verify_cloud_data.py` merges duplicate CSV column headers and two pane records per task, reconciles every original Data measure against raw Hyper rows, then checks replica task IDs, status, wait flag, site, title, day and both durations for the 5/3/10-day scopes. The first capture yielded 325/195/587 tasks and 209,640 numeric checks with no differences. That capture predates the visual fixes and is explicitly STALE until recaptured; no runtime acceptance is claimed for the changed binary yet.
