@@ -29,4 +29,11 @@ The verifier reads raw Hyper rows into Python, chooses groups by alphabet member
 
 Public cwtwb 0.29.0a1 @23b1df0 expresses the entire required chain. No SDK workaround or capability gap is claimed. The public SDK omits `clear-option` for keep-current (Tableau default), rather than serializing the author's explicit do-nothing value.
 
-Desktop and Cloud are deliberately pending with the coordinator. Until current artifacts pass LOADED and actual Cloud rendering/CSV comparison, metadata remains partial/pending/not_evaluated. Visual acceptance must inspect selected category at the bottom, total labels above each stack and invariant sales across all three states. Running validate_iteration rebuilds with random GUIDs; capture and bind final hashes after the last rebuild.
+The final artifact passes Desktop LOADED and actual Cloud rendering/CSV comparison. Metadata is replicated/verified/acceptable_delta. The selected category is at the bottom, totals remain above each stack, and sales are invariant across all three states. Running validate_iteration rebuilds with random GUIDs; use isolated rebuild validation after final capture to preserve the evidence hash binding.
+
+
+## Cloud acceptance and title correction
+
+The first full three-state Cloud capture confirmed all six category cells, totals, exact dynamic Sort values and selected-category baseline, but visual inspection found the worksheet title hidden. That omitted the category colour key and the selection instruction, so it was treated as a usability defect rather than an acceptable styling difference. The builder now displays the native rich worksheet title: Sales by Category, Select a category to re-order the stack, and the three category names in their matching colours. Static verification asserts the title and its visible dashboard zone. The revised workbook was recaptured in all three states and rebound to passing Desktop and Cloud evidence; all 90 data checks pass.
+
+The original author exposes only the dashboard on Cloud, so the author workbook remains unmodified and its original three screenshots are the visual reference. `capture_replica_data.py` exports the replica Chart in the same three parameter states. `verify_cloud_data.py` compares all 18 exported group/category cells with independent raw-extract arithmetic, with $500 tolerance only for whole-$K display rounding. Sort values and True/False fields compare exactly; stack sequence is checked in each group. It verifies all six image hashes and CSV/state/artifact bindings. No browser click execution is claimed.

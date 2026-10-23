@@ -57,12 +57,15 @@ def verify():
     assert len(pane.findall('encodings/lod'))>=3
     size=root.find('./dashboards/dashboard/size'); assert size.get('maxwidth')=='400' and size.get('maxheight')=='800'
     xml=E.tostring(root).decode(); assert all(color in xml for color in ['#1170aa','#a3acb9','#fc7d0b'])
+    assert 'Select a category to re-order the stack' in xml and 'Sales by Category' in xml
+    zone=root.find('.//dashboards/dashboard/zones//zone[@name="Chart"]'); assert zone.get('show-title','true')=='true'
     totals={g:sum(v for (group,cat),v in sums.items() if group==g) for g in states}
     with (HERE/'outputs/expected-sales.csv').open('w',newline='',encoding='utf8') as f:
         w=csv.writer(f);w.writerow(['State Group','Category','Sales','Total Sales per State Group'])
         for (g,c),v in sorted(sums.items()):w.writerow([g,c,round(v,4),round(totals[g],4)])
-    result={'status':'PASS','acceptance':ACCEPTANCE,'source_rows':len(rows),'state_counts':{g:len(s) for g,s in states.items()},'category_counts':dict(counts),'totals':totals,'orders_top_to_bottom':orders,'workbook_sha256':hashlib.sha256(workbook.read_bytes()).hexdigest(),'scope':'Independent extract arithmetic and serialized native contracts; Desktop/Cloud pending.'}
+    result={'status':'PASS','acceptance':ACCEPTANCE,'source_rows':len(rows),'state_counts':{g:len(s) for g,s in states.items()},'category_counts':dict(counts),'totals':totals,'orders_top_to_bottom':orders,'workbook_sha256':hashlib.sha256(workbook.read_bytes()).hexdigest(),'scope':'Independent extract arithmetic and serialized native contracts; runtime gates recorded separately in evidence/.'}
     (HERE/'evidence/functional-verification.json').write_text(json.dumps(result,indent=2),encoding='utf8')
     print(json.dumps(result,indent=2))
 if __name__=='__main__':verify()
+
 

@@ -33,9 +33,18 @@ def build():
     editor.add_reference_line("Chart", axis_field="SUM(Sales)", value_field="SUM(Total Sales per State Group)", scope="per-cell", formula="total", label_type="value", probability=None, tooltip="")
     editor.configure_reference_line_style("Chart", "refline0", {"fill-above":"#00000000","fill-below":"#00000000","stroke-size":"0","line-visibility":"off","text-align":"center","vertical-align":"top"})
     editor.configure_worksheet_style("Chart", hide_axes=True, hide_gridlines=True, hide_zeroline=True, hide_borders=True, hide_col_field_labels=True, pane_datalabel_style={"color-mode":"user","color":"#ffffff","font-weight":"bold"})
+    editor.set_worksheet_rich_title("Chart", [
+        {"text":"Sales by Category", "bold":True, "fontsize":14},
+        {"text":"\nSelect a category to re-order the stack\n", "fontsize":10},
+        {"text":"Furniture", "fontcolor":COLORS["Furniture"], "bold":True, "fontsize":10},
+        {"text":"  |  ", "fontsize":10},
+        {"text":"Office Supplies", "fontcolor":COLORS["Office Supplies"], "bold":True, "fontsize":10},
+        {"text":"  |  ", "fontsize":10},
+        {"text":"Technology", "fontcolor":COLORS["Technology"], "bold":True, "fontsize":10},
+    ])
     layout={"type":"container","direction":"vertical","style":{"padding":8},"children":[
         {"type":"text","text":"Can you make stacked bar charts easier to compare?","font_size":18,"font_color":"#ffffff","bold":True,"fixed_size":102,"style":{"background-color":"#898989","padding":4}},
-        {"type":"worksheet","name":"Chart","fit":"entire","show_title":False,"style":{"margin":4}},
+        {"type":"worksheet","name":"Chart","fit":"entire","show_title":True,"style":{"margin":4}},
         {"type":"text","text":"#WOW2021  |  WEEK 40","font_size":8,"fixed_size":24},
         {"type":"text","text":"CHALLENGE BY CANDRA McRAE  |  RECREATED WITH cwtwb","font_size":8,"fixed_size":44},
         {"type":"text","text":"http://www.workout-wednesday.com/tab2021w40/","font_size":8,"fixed_size":26}

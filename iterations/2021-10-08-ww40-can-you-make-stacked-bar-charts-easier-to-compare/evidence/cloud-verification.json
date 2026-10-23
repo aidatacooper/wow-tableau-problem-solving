@@ -1,0 +1,129 @@
+{
+  "case_id": "wow-2021-ww40-can-you-make-stacked-bar-charts-easier-to-compare",
+  "captured_at": "2026-10-23T16:56:34.772751+00:00",
+  "source_hashes": {
+    "author": "22a46422e2cce4b3b7a94b8b7b3c28d35d7ba930b76776f219083c341f7b4684",
+    "replica": "bf9a32d976c9f7aca2793ecf6ab981db1c5f22ca2b9d126ee73d54d9003767c5"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "3f7b317b-4fb2-48d2-a207-7162aa9dfa8a",
+      "name": "cwtwb-review-wow-2021-ww40-can-you-make-stacked-bar-charts-easier-to-compare-author-22a46422e2cc",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/3062282",
+      "views": [
+        {
+          "name": "2021_10_06_WW40_Compare_Stacked_Bar_Charts",
+          "id": "65491037-8ca1-4cc7-87df-d6325307f0d6"
+        }
+      ]
+    },
+    "replica": {
+      "id": "c59e0833-9cab-458e-baba-ff77f8ad8eff",
+      "name": "cwtwb-review-wow-2021-ww40-can-you-make-stacked-bar-charts-easier-to-compare-replica-bf9a32d976c9",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/3062336",
+      "views": [
+        {
+          "name": "Chart",
+          "id": "118275c5-465b-48f4-b422-276dc2381de9"
+        },
+        {
+          "name": "2021_10_06_WW40_Compare_Stacked_Bar_Charts",
+          "id": "469af5b1-54a7-438a-8b6a-c23b821bc9a9"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "65491037-8ca1-4cc7-87df-d6325307f0d6",
+          "name": "2021_10_06_WW40_Compare_Stacked_Bar_Charts",
+          "path": "outputs/cloud-author.png",
+          "sha256": "5d3a58f59ecb15bfd83571d3db67196732327b0f54b6cfa59eaecc41f5210e21",
+          "size": [
+            800,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "469af5b1-54a7-438a-8b6a-c23b821bc9a9",
+          "name": "2021_10_06_WW40_Compare_Stacked_Bar_Charts",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "e6270db7e55f5a04773396cc67c7eb32f047b30944a3738b0f3f1592c502524e",
+          "size": [
+            800,
+            1600
+          ]
+        }
+      },
+      "data": []
+    },
+    {
+      "name": "furniture",
+      "parameters": {
+        "pSelectedCategpry": "Furniture"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "65491037-8ca1-4cc7-87df-d6325307f0d6",
+          "name": "2021_10_06_WW40_Compare_Stacked_Bar_Charts",
+          "path": "outputs/cloud-author-furniture.png",
+          "sha256": "78a3813f16785e1636b44533162f8df3012f2efbd85ee0c6bfbbca8daf216009",
+          "size": [
+            800,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "469af5b1-54a7-438a-8b6a-c23b821bc9a9",
+          "name": "2021_10_06_WW40_Compare_Stacked_Bar_Charts",
+          "path": "outputs/cloud-replica-furniture.png",
+          "sha256": "21be94cca05b56d4652c44c4135339bd363c50e54f8525bf6aa8c222a4fdc733",
+          "size": [
+            800,
+            1600
+          ]
+        }
+      },
+      "data": []
+    },
+    {
+      "name": "technology",
+      "parameters": {
+        "pSelectedCategpry": "Technology"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "65491037-8ca1-4cc7-87df-d6325307f0d6",
+          "name": "2021_10_06_WW40_Compare_Stacked_Bar_Charts",
+          "path": "outputs/cloud-author-technology.png",
+          "sha256": "33684aff23d7162a74cd3ac0856db74bb8719343ad43d98beb16d765cd686834",
+          "size": [
+            800,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "469af5b1-54a7-438a-8b6a-c23b821bc9a9",
+          "name": "2021_10_06_WW40_Compare_Stacked_Bar_Charts",
+          "path": "outputs/cloud-replica-technology.png",
+          "sha256": "3a510ef52af2824f102cd3b5b296e60ff252076b58a24be81161e58ebe98d235",
+          "size": [
+            800,
+            1600
+          ]
+        }
+      },
+      "data": []
+    }
+  ],
+  "status": "captured_requires_independent_review"
+}

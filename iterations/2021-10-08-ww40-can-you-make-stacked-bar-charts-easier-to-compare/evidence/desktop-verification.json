@@ -1,0 +1,9 @@
+{
+  "checked_at": "2026-10-23T16:56:05.675949+00:00",
+  "artifact_sha256": "bf9a32d976c9f7aca2793ecf6ab981db1c5f22ca2b9d126ee73d54d9003767c5",
+  "exit_code": 0,
+  "stdout": "try1: LOADED\r\n",
+  "stderr": "",
+  "result": "LOADED",
+  "sdk_commit": "23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c"
+}

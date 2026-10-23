@@ -22,11 +22,11 @@ source:
     url: https://public.tableau.com/views/2021_10_06_WW40_Compare_Stacked_Bar_Charts/2021_10_06_WW40_Compare_Stacked_Bar_Charts
     filename: 2021_10_06_WW40_Compare_Stacked_Bar_Charts.twbx
     sha256: 22a46422e2cce4b3b7a94b8b7b3c28d35d7ba930b76776f219083c341f7b4684
-verification_status: pending
+verification_status: verified
 artifacts:
   primary_workbook: outputs/replicated-workbook.twbx
-  cloud_author: null
-  cloud_replica: null
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
 artifact_aliases: {}
 historical_artifacts: []
 evidence:
@@ -37,13 +37,22 @@ evidence:
 - evidence/functional-verification.json
 - evidence/cloud-request.json
 - evidence/build-provenance.json
+- evidence/sdk-final.json
+- evidence/replica-data-exports.json
+- evidence/author-data-exports.json
+- evidence/desktop-verification.json
+- evidence/cloud-verification.json
+- evidence/cloud-data-verification.json
+- evidence/visual-review.md
 notes:
 - Original author parameter caption pSelectedCategpry contains a typo; retained to
   allow identical Cloud parameter overrides.
 - 'Native author sort is descending SUM(Sort): selected Category is zero; other categories
   use their row counts. Do not substitute ascending category name order.'
-- Desktop and Cloud deliberately not run by this worker; coordinator serializes those
-  shared services.
+- Final Desktop LOADED and three Cloud parameter states pass. Original author exposes
+  dashboard only, so unchanged author screenshots are compared with replica CSV and
+  the independent raw-extract oracle. Category instruction and colour key are visibly
+  present.
 cwtwb:
   tested_version: 0.29.0a1
   tested_commit: 23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c
@@ -52,9 +61,13 @@ cwtwb:
     commit: 23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c
     result: pass
     evidence: evidence/sdk-baseline.json
+  - version: 0.29.0a1
+    commit: 23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c
+    result: pass
+    evidence: evidence/sdk-final.json
 analysis_status: completed
-functional_status: partial
-visual_status: not_evaluated
+functional_status: replicated
+visual_status: acceptable_delta
 cwtwb_result: pass
 inputs:
   source_lock: inputs/source-lock.json
@@ -89,13 +102,7 @@ acceptance:
   description: 400x800 dashboard has three fixed category colours, white sales labels,
     title and credits.
   mode: automated
-remaining_work:
-- Coordinator must run serialized Desktop LOADED gate and capture the original author
-  and replica on Cloud for default, Furniture and Technology states. Compare CSVs
-  to outputs/expected-sales.csv; inspect stack order, totals and styling.
-- Then bind current workbook SHA to Desktop/Cloud evidence and mark replicated/verified
-  only if all gates pass. REST parameter states and native action serialization do
-  not constitute browser-click testing.
+remaining_work: []
 blocker: null
 workarounds: []
 capability_gaps: []

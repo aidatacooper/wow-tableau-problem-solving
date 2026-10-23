@@ -1,0 +1,33 @@
+{
+  "artifact_sha256": "bf9a32d976c9f7aca2793ecf6ab981db1c5f22ca2b9d126ee73d54d9003767c5",
+  "exports": [
+    {
+      "state": "default",
+      "view": "Chart",
+      "path": "outputs/cloud-replica-chart-default.csv",
+      "sha256": "49b75ccb885a3dc928611770c9dcb11da4a0f6dfe4807f478d14aedb723536e1",
+      "parameters": {},
+      "filters": {}
+    },
+    {
+      "state": "furniture",
+      "view": "Chart",
+      "path": "outputs/cloud-replica-chart-furniture.csv",
+      "sha256": "6febe205980db7027790c65f929d1355721349d1fe9c89eba82caf3819c39cfe",
+      "parameters": {
+        "pSelectedCategpry": "Furniture"
+      },
+      "filters": {}
+    },
+    {
+      "state": "technology",
+      "view": "Chart",
+      "path": "outputs/cloud-replica-chart-technology.csv",
+      "sha256": "b597f6ffefd3cd32fcb865c7d7b5d5672730ac809349052c30d6331ba2f18b3d",
+      "parameters": {
+        "pSelectedCategpry": "Technology"
+      },
+      "filters": {}
+    }
+  ]
+}

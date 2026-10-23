@@ -1210,8 +1210,8 @@
       "workbook_ids": [],
       "iteration": "2021-10-08-ww40-can-you-make-stacked-bar-charts-easier-to-compare",
       "status": "consumed",
-      "replication_status": "partial",
-      "verification_status": "pending",
+      "replication_status": "replicated",
+      "verification_status": "verified",
       "cwtwb_version": "0.29.0a1",
       "reason": "Derived from case metadata; consumed means claimed, not verified completed."
     },

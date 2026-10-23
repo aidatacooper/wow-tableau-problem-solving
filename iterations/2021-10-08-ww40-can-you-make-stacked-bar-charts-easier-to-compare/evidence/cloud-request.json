@@ -17,18 +17,12 @@
       }
     }
   ],
-  "data_views": [
-    {
-      "name": "chart",
-      "author": "Chart",
-      "replica": "Chart",
-      "scope": "Six State Group x Category marks; all parameter states preserve sales and totals."
-    }
-  ],
+  "data_views": [],
   "notes": [
     "Original author is never modified.",
     "All three states have identical six sales values; only stack order changes.",
     "CSV oracle outputs/expected-sales.csv; category stack sequence expected in evidence/functional-verification.json.",
-    "Author parameter caption typo preserved. REST parameter states plus serialized action contracts; no browser click claim."
+    "Author parameter caption typo preserved. REST parameter states plus serialized action contracts; no browser click claim.",
+    "Actual published original exposes dashboard only; use original images plus replica Chart exports against locked-input oracle."
   ]
 }

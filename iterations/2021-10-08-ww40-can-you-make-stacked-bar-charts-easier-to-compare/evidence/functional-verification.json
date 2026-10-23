@@ -40,6 +40,6 @@
       "Technology"
     ]
   },
-  "workbook_sha256": "b4fb936cba698a488df29e2cd5ced5c4b88fcf90862dc82504687820366b28eb",
-  "scope": "Independent extract arithmetic and serialized native contracts; Desktop/Cloud pending."
+  "workbook_sha256": "bf9a32d976c9f7aca2793ecf6ab981db1c5f22ca2b9d126ee73d54d9003767c5",
+  "scope": "Independent extract arithmetic and serialized native contracts; runtime gates recorded separately in evidence/."
 }

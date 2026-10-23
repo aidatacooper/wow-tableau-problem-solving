@@ -1,10 +1,9 @@
 {
-  "sdk_version": "0.29.0a1",
+  "builder_sha256": "2c7c786be5b0b5c7e380c74b057d9f4428bc2869eb5942ab06072830c99fa2ef",
+  "verifier_sha256": "ee3403c05e3c8650b34364a8045d6cbd2c94b1cf17a957843028a26472bd82aa",
+  "primary_workbook_sha256": "bf9a32d976c9f7aca2793ecf6ab981db1c5f22ca2b9d126ee73d54d9003767c5",
+  "source_lock": "inputs/source-lock.json",
   "sdk_commit": "23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c",
-  "construction": "empty workbook plus locked inputs through public APIs",
-  "sha256": {
-    "build_replication.py": "0d2866f9bad0c9d2a612e1feffcbec0909106913a21869a2eaa411961c4bca24",
-    "outputs/replicated-workbook.twbx": "b4fb936cba698a488df29e2cd5ced5c4b88fcf90862dc82504687820366b28eb",
-    "inputs/source-lock.json": "60398055f15a50eb206a9fc55417e407f1d88a296349aa5c17051af41ad06caa"
-  }
+  "phase_boundary": "empty workbook, locked inputs, public SDK only",
+  "cloud_and_desktop_bound": true
 }
