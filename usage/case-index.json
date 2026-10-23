@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "generated_from": "iterations/*/case.yaml",
-  "active_case_count": 114,
+  "active_case_count": 115,
   "legacy_case_ids": {
     "donna-2019-07-18-63877b35d19a": "wow-2019-ww29-high-orders",
     "donna-2019-07-25-59a0a144b25b": "wow-2019-ww30-navigation-kpi",
@@ -6494,6 +6494,65 @@
         "The unprofitable set's explicit member list is computed from the locked Hyper extract inside the builder, not hard-coded, so it stays data-derived."
       ],
       "metadata": "iterations/2021-08-05-ww31-can-you-find-the-needle-in-the-haystack/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.29.0a1"
+    },
+    {
+      "case_id": "wow-2021-ww32-visualise-our-survey-data",
+      "legacy_case_ids": {},
+      "iteration_id": "2021-08-12-ww32-visualise-our-survey-data",
+      "article_date": "2021-08-12",
+      "challenge_year": 2021,
+      "challenge_week": 32,
+      "challenge_date": "2021-08-11",
+      "date_evidence": {
+        "article_date": "Declared article publication date in iteration_id",
+        "challenge": "Explicit challenge_year; week declared in iteration_id",
+        "challenge_date": "Explicit official challenge publication date and URL"
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2021w32tab/"
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2021/08/12/visualise-our-survey-data/",
+          "path": null,
+          "sha256": "d3284b573359c6d11cf29461b14a93874e4c5d8e88f6243c38188f3295b2cd6d"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2021_08_11_WW32_WOW_Survey_Data/2021_08_11_WOW32_Survey_Data",
+          "filename": "2021_08_11_WW32_WOW_Survey_Data.twbx",
+          "sha256": "cbfb2e37b29e6d38d03d5c573ebc998556bc2f33dda28af6064e2efe8764ae52"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "workaround",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "inputs/source-lock.json",
+        "evidence/sdk-baseline.json",
+        "evidence/cloud-request.json",
+        "outputs/independent-verification.json",
+        "evidence/desktop-verification.json",
+        "evidence/cloud-verification.json",
+        "evidence/replica-data-exports.json",
+        "evidence/cloud-data-verification.json",
+        "evidence/build-provenance.json",
+        "evidence/visual-review.md",
+        "evidence/sdk-workaround.json"
+      ],
+      "notes": [
+        "Cloud REST images cover default, Tableau and PBI states. All five replica sheets are checked against the independent raw-data oracle. Original author hidden sheets were not modified. Browser clicks were not executed; filter/highlight interactions are checked as serialized artifact contracts."
+      ],
+      "metadata": "iterations/2021-08-12-ww32-visualise-our-survey-data/case.yaml",
       "metadata_contract": "1.1.0",
       "tested_sdk_version": "0.29.0a1"
     },
