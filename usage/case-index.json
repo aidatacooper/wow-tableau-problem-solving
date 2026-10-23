@@ -6337,14 +6337,14 @@
           "sha256": "a4c489ea4505a695b26f847783254b83d1309b3422fe0e1253d368448894090a"
         }
       },
-      "functional_status": "partial",
-      "visual_status": "not_evaluated",
-      "verification_status": "pending",
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
       "cwtwb_result": "workaround",
       "artifacts": {
         "primary_workbook": "outputs/replicated-workbook.twbx",
-        "cloud_author": null,
-        "cloud_replica": null
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
       },
       "artifact_aliases": {},
       "historical_artifacts": [],
@@ -6355,12 +6355,21 @@
         "evidence/functional-verification.json",
         "evidence/official-challenge-date.json",
         "evidence/sdk-baseline.json",
-        "inputs/source-lock.json"
+        "inputs/source-lock.json",
+        "evidence/sdk-final.json",
+        "evidence/author-data-exports.json",
+        "evidence/replica-data-exports.json",
+        "outputs/independent-verification.json",
+        "evidence/desktop-verification.json",
+        "evidence/cloud-verification.json",
+        "evidence/cloud-data-verification.json",
+        "evidence/visual-review.md"
       ],
       "notes": [
         "The extract also carries weeks 28-32 (334 rows); the article excludes them and both replica worksheets keep the author's 1..17 in-range filter.",
         "Season and Week arrive from the extract as integers, which the SDK registers as measures, so the workbook re-exposes Season, Week and Player Id as explicit discrete calculated fields, matching the article's \"change to discrete\" steps.",
-        "Each team plays 240 regular-season games (15 seasons x 16 games), so the dense INDEX axis runs 1..240 and no real date axis is needed."
+        "Each team plays 240 regular-season games (15 seasons x 16 games), so the dense INDEX axis runs 1..240 and no real date axis is needed.",
+        "Frozen runtime repair passes 65040 Cloud field checks: replica Data/Viz all 7680 games; untouched author Data subset 720 games. See sdk-final and visual-review."
       ],
       "metadata": "iterations/2021-08-31-ww34-how-many-consecutive-starts/case.yaml",
       "metadata_contract": "1.1.0",

@@ -110,3 +110,10 @@ Two documented case workarounds, no SDK change requested:
    `Team / (Current * Consecutive)` form.
 
 Baseline detail: `evidence/sdk-baseline.json`.
+
+
+## Runtime addressing repair and independent Cloud verification
+
+The initial worksheet serialized each addressing grain as a separate `ordering_field` table-calc node. Static validation accepted this, but Cloud returned INDEX=1 and streak=1 for every mark. This snapshot is invalid acceptance evidence. The repair uses one field-addressing table-calc node with ordered children Season, Week and Player Id, and repeats that full address for each nested dependency. INDEX is quantitative, and Viz enables table-calc context so nested references bind to actual worksheet instances. The builder continues to use public APIs only.
+
+`verify_cloud_data.py` independently joins the locked raw Hyper tables, excludes weeks outside 1..17, sorts games per team and uses a running counter. It verifies all 7680 replica Data games (streak, current, index, previous player and match flag) and all 7680 replica Viz games (streak/current/index). The original author's Data sheet deliberately shows only ARZ/ATL/BLT, 720 games; that original scope is compared against both the oracle and replica without altering the workbook. Author Template exposes 8014 games but has no streak measures. Verification refuses stale workbook or CSV hashes. The repaired frozen artifact passes 65,040 Cloud field checks and the coordinator's Desktop LOADED gate. Prior all-one exports have been superseded and do not count as a pass.

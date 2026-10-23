@@ -1,0 +1,21 @@
+{
+  "artifact_sha256": "a4c489ea4505a695b26f847783254b83d1309b3422fe0e1253d368448894090a",
+  "exports": [
+    {
+      "state": "default",
+      "view": "Template",
+      "path": "outputs/cloud-author-template-default.csv",
+      "sha256": "9cd318b4b93e4ee629ae4fc155143c7d0ab86f8a17f61657009ff93851e8fe9d",
+      "parameters": {},
+      "filters": {}
+    },
+    {
+      "state": "default",
+      "view": "Data",
+      "path": "outputs/cloud-author-data-default.csv",
+      "sha256": "add097add42c78363403c25f6171517331664f4763cdcd48487c7acdf6c0a79e",
+      "parameters": {},
+      "filters": {}
+    }
+  ]
+}

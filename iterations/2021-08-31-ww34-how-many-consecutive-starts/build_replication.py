@@ -75,14 +75,14 @@ def streak_contexts(names, grains=GRAIN):
     column instances. cwtwb resolves ``ordering_field`` against the worksheet's
     own bound fields, so callers pass only the grains their view binds.
     """
+    order = [{"field": grain, "reference": "instance"} for grain in grains]
     return {
-        name: [{"ordering_type": "Field", "ordering_field": grain} for grain in grains]
-        + [
-            {"field": dependency, "ordering_type": "Field"}
-            for dependency in NESTED[name]
-        ]
+        name: [{"ordering_type": "Field", "order": order}]
+        + [{"field": dependency, "ordering_type": "Field", "order": order}
+           for dependency in NESTED[name]]
         for name in names
     }
+
 
 
 def build(output_path: Path | None = None) -> Path:
@@ -162,7 +162,7 @@ def build(output_path: Path | None = None) -> Path:
         "INDEX()",
         datatype="integer",
         role="measure",
-        field_type="ordinal",
+        field_type="quantitative",
         table_calc="Rows",
     )
 
@@ -227,6 +227,7 @@ def build(output_path: Path | None = None) -> Path:
         # axis shelf is Columns and Rows uses Tableau's dimension-shelf nesting.
         axis_shelf="columns",
         filters=[week_filter],
+        table_calc_context=True,
         table_calc_overrides=streak_contexts(
             ["INDEX", "Consecutive Streak", "Current Streak"]
         ),

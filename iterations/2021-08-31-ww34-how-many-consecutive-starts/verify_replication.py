@@ -314,7 +314,7 @@ def verify():
             (tc.get("ordering-type"), tc.get("ordering-field"), tc.get("field"))
             for tc in ci.findall("table-calc")
         ]
-        ordering = [s[1] for s in specs if s[1]]
+        ordering = [o.get("field") for o in ci.findall("table-calc")[0].findall("order")]
         nested = [s[2] for s in specs if s[2]]
         assert len(ordering) == 3, (caption, specs)
         order_fields.append(ordering)
@@ -332,9 +332,9 @@ def verify():
     ]
     assert resolved[0] == resolved[1] == resolved[2], resolved
     assert resolved[0] == [
-        local_names["Season"].strip("[]"),
-        local_names["Week"].strip("[]"),
-        local_names["Player Id"].strip("[]"),
+        by_column[local_names["Season"]].get("name").strip("[]"),
+        by_column[local_names["Week"]].get("name").strip("[]"),
+        by_column[local_names["Player Id"]].get("name").strip("[]"),
     ], resolved[0]
 
     # --- ww34-streak-oracle -------------------------------------------------
@@ -363,7 +363,7 @@ def verify():
     assert streak_ref in rows_shelf, rows_shelf
     # The index is a continuous axis: its column instance is quantitative.
     index_ci = by_column[instances["INDEX"]]
-    assert index_ci.get("name").endswith(":qk]") or index_ci.get("name").endswith(":ok]")
+    assert index_ci.get("type") == "quantitative"
 
     pane = table.find("panes/pane")
     assert pane.find("mark").get("class") == "Bar"
