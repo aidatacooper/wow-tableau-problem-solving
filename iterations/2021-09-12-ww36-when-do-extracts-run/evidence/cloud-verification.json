@@ -1,9 +1,9 @@
 {
   "case_id": "wow-2021-ww36-when-do-extracts-run",
-  "captured_at": "2026-10-23T16:48:17.167742+00:00",
+  "captured_at": "2026-10-23T17:17:06.056294+00:00",
   "source_hashes": {
     "author": "f1a462438deb44e088f9435912345fdb6d181315305885d68230b4c2314e8eab",
-    "replica": "62a3a5e0eb59bdac88e305254ca10e0d7bbf8057bd3a47838e3351beb6a76b55"
+    "replica": "e8694891dbe75cd3fb029affcb74c1c5b1856400c716d1e44153728418357cbd"
   },
   "acceptance_scope": "cloud_rest_and_artifact_contracts",
   "browser_interaction_executed": false,
@@ -24,21 +24,21 @@
       ]
     },
     "replica": {
-      "id": "7d64ab57-9a89-49ec-a9a7-f21b9990b8ae",
-      "name": "cwtwb-review-wow-2021-ww36-when-do-extracts-run-replica-62a3a5e0eb59",
-      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/3062292",
+      "id": "1eff37d5-e6a8-464f-ab22-36c6efb0ad0a",
+      "name": "cwtwb-review-wow-2021-ww36-when-do-extracts-run-replica-e8694891dbe7",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/3062431",
       "views": [
         {
           "name": "Gantt",
-          "id": "fa88730b-140d-4a92-b173-043909e00aee"
+          "id": "29f20596-cb01-4b21-8645-9bcc9c58c2f4"
         },
         {
           "name": "Key",
-          "id": "68ff061f-e5bf-4344-8ed7-f502cee3e3f0"
+          "id": "6187e763-4ec9-4e5c-a0dd-95848b4aeb7d"
         },
         {
           "name": "When Do Extracts Run During The Day?",
-          "id": "91a487e7-43b4-4c2a-aead-78369dcc64bc"
+          "id": "8688e61e-7cb6-4bf1-b8f5-2ec2ddb37e62"
         }
       ]
     }
@@ -60,10 +60,10 @@
           ]
         },
         "replica": {
-          "id": "91a487e7-43b4-4c2a-aead-78369dcc64bc",
+          "id": "8688e61e-7cb6-4bf1-b8f5-2ec2ddb37e62",
           "name": "When Do Extracts Run During The Day?",
           "path": "outputs/cloud-replica.png",
-          "sha256": "9a776f814f423a9be98801ee19c040ea48875078fe667655a88f7d17589f5fb8",
+          "sha256": "ff51777f8f5d082786a21e8d7eb69170dea3a23c21fb1c8f03ebaafbc838789c",
           "size": [
             2000,
             1600
@@ -90,10 +90,10 @@
           ]
         },
         "replica": {
-          "id": "91a487e7-43b4-4c2a-aead-78369dcc64bc",
+          "id": "8688e61e-7cb6-4bf1-b8f5-2ec2ddb37e62",
           "name": "When Do Extracts Run During The Day?",
           "path": "outputs/cloud-replica-three-days.png",
-          "sha256": "2d96dd8c4e4b54acad62ba05692aabaa26558975320a3b5a693786eec33cdaf8",
+          "sha256": "97cb022e79909ebf2bd91b7ac45d6d33b0edcba4a38e4235b1867d2a08518c55",
           "size": [
             2000,
             1600
@@ -120,10 +120,10 @@
           ]
         },
         "replica": {
-          "id": "91a487e7-43b4-4c2a-aead-78369dcc64bc",
+          "id": "8688e61e-7cb6-4bf1-b8f5-2ec2ddb37e62",
           "name": "When Do Extracts Run During The Day?",
           "path": "outputs/cloud-replica-ten-days.png",
-          "sha256": "25052adc146677d3ef18f6ea5fd201497417dd6dadbad402de99d11f22ee3d78",
+          "sha256": "ed93b71148b0d9dfc63ce683b96a357e032f39efbcc63a2e46a4d198275d01cb",
           "size": [
             2000,
             1600

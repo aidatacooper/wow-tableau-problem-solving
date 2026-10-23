@@ -535,13 +535,25 @@ def build_dashboard(editor: TWBEditor) -> None:
                 "style": {"border-style": "none", "border-width": "0", "margin": "4"},
             },
             {
+                "type": "text",
+                "text": "Extract Status",
+                "font_size": 9,
+                "absolute": px(340, 136, 370, 16),
+            },
+            {
+                "type": "text",
+                "text": "Wait time: False <= 10 min; True > 10 min",
+                "font_size": 8,
+                "absolute": px(723, 136, 272, 16),
+            },
+            {
                 "type": "color",
                 "worksheet": GANTT,
                 "field": "Extract Status",
                 "pane_index": 2,
                 "mode": "horz",
                 "show_title": False,
-                "absolute": px(336, 136, 383, 48),
+                "absolute": px(336, 151, 383, 33),
                 "style": {"border-style": "none", "border-width": "0", "margin": "4"},
             },
             {
@@ -551,7 +563,7 @@ def build_dashboard(editor: TWBEditor) -> None:
                 "pane_index": 1,
                 "mode": "horz",
                 "show_title": False,
-                "absolute": px(719, 136, 276, 48),
+                "absolute": px(719, 151, 276, 33),
                 "style": {"border-style": "none", "border-width": "0", "margin": "4"},
             },
             {
