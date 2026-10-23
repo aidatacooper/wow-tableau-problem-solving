@@ -71,3 +71,5 @@
 - Paseo batch provider429；case9/10由当前模型子代理接续完成，没有重复从头做。
 - 全局Cloud和Desktop各自锁保护；禁止在验收后运行会原地重build的validate_iteration，使用run_case_scripts_isolated。
 - 接下来：完成后三例，多模型复核，分别提交10case最终证据，集成协调分支并刷新catalogue/backlog。保留用户daily-watch修改。
+
+- Final GPT review resolved: WW36 visible wait threshold/status headings added; final artifact e8694891dbe75cd3fb029affcb74c1c5b1856400c716d1e44153728418357cbd passed Desktop LOADED, all3Cloudstates and209640 numericchecks again. Final audit table refreshed. WW35 omittedheaders disclosed. All10complete.
