@@ -1,0 +1,113 @@
+schema_version: 1.1.0
+case_id: wow-2021-ww38-can-you-quickly-tell-the-net-change-between-two-dates
+iteration_id: 2021-09-23-ww38-can-you-quickly-tell-the-net-change-between-two-dates
+post: https://donnacoles.home.blog/2021/09/23/can-you-quickly-tell-the-net-change-between-two-dates/
+legacy_case_ids: {}
+article_date: '2021-09-23'
+challenge_year: 2021
+challenge_week: 38
+challenge_date: '2021-09-21'
+date_evidence:
+  article_date: 'Archived article Published heading: evidence/article-date.json'
+  challenge: Official 2021 W38 title in saved intake
+  challenge_date: 'Official WordPress API date: evidence/official-challenge-date.json'
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/tab2021w38/
+    wordpress_post_id: 6004
+  article:
+    url: https://donnacoles.home.blog/2021/09/23/can-you-quickly-tell-the-net-change-between-two-dates/
+    path: null
+    sha256: d0c4f0092b69606885f363d51278d8390a4a9e76ece284b4a493f8b36bebee90
+  workbook:
+    url: https://public.tableau.com/views/2021_09_22_WW38_Daily_Sales_Tracker/2021_09_22_WW38_Daily_Sales_Tracker
+    filename: 2021_09_22_WW38_Daily_Sales_Tracker.twbx
+    sha256: c9c78821f394e504700ba5e1ac6dcc004abc9915569c7a912112d97e57a03f2b
+verification_status: pending
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: null
+  cloud_replica: null
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- inputs/source-lock.json
+- evidence/article-date.json
+- evidence/official-challenge-date.json
+- evidence/sdk-baseline.json
+- evidence/build-provenance.json
+- evidence/cloud-request.json
+- outputs/independent-verification.json
+- outputs/expected-range-states.json
+notes:
+- Local static and independent raw-data checks do not prove Tableau runtime rendering;
+  pending runtime gates are intentional.
+- KPI endpoints are first/last trading dates within the requested range, not zero-filled
+  calendar boundary dates.
+cwtwb:
+  tested_version: 0.29.0a1
+  tested_commit: 23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c
+  runs:
+  - version: 0.29.0a1
+    commit: 23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c
+    result: workaround
+    evidence: evidence/sdk-baseline.json
+analysis_status: completed
+functional_status: partial
+visual_status: not_evaluated
+cwtwb_result: workaround
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/Orders (Sample - Superstore).hyper
+  - inputs/Date Range.hyper
+acceptance:
+- id: ww38-parameters
+  description: Today is fixed at 2021-09-20; range sentinels are 1900-01-01 and five
+    timeframe values default to 6 MONTHS.
+  mode: automated
+- id: ww38-range-calculations
+  description: Default inclusive range is 2021-09-06 to 2021-09-20; all five display-window
+    branches are native calculations.
+  mode: automated
+- id: ww38-region-range-lod
+  description: Nested FIXED Region LoDs resolve first and last actual trading days
+    and sum sales at those boundaries.
+  mode: automated
+- id: ww38-net-change-oracle
+  description: Independent locked-extract oracle yields four regional changes, including
+    Central loss and three gains; July and single-day states are recorded.
+  mode: automated
+- id: ww38-trend-chart
+  description: Trend combines continuous day Line and Area on synchronized folded
+    axes, with timeframe filter and stacking disabled.
+  mode: automated
+- id: ww38-reference-bands
+  description: Separate positive and negative per-region reference bands carry their
+    endpoint fields on Detail.
+  mode: automated
+- id: ww38-kpi-table
+  description: KPI shows signed currency and percent change in South, West, Central,
+    East order.
+  mode: automated
+- id: ww38-timeframe-selector
+  description: Five-row Date Range Hyper source drives timeframe selector size and
+    colour.
+  mode: automated
+- id: ww38-dashboard-actions
+  description: Three parameter actions select timeframe/minimum date/maximum date;
+    two self-filter actions deselect marks in fixed 700x500 dashboard.
+  mode: automated
+remaining_work:
+- Coordinator must run final Desktop LOADED gate and Cloud original/replica images
+  plus CSV validation.
+- Review default, July, and single-day states, then freeze hashes and set verified
+  only after runtime success.
+blocker: null
+workarounds:
+- Use explicit continuous date field semantics and bracketed references rather than
+  EXACTDATE on calculated captions to emit native none:qk date instances.
+- Explicit public set_datasource_color_palette handles Text mark colours; rank calculation
+  gives native regional order.
+capability_gaps: []
+related_cwtwb_issues: []

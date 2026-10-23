@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "generated_from": "iterations/*/case.yaml",
-  "active_case_count": 111,
+  "active_case_count": 112,
   "legacy_case_ids": {
     "donna-2019-07-18-63877b35d19a": "wow-2019-ww29-high-orders",
     "donna-2019-07-25-59a0a144b25b": "wow-2019-ww30-navigation-kpi",
@@ -6307,6 +6307,64 @@
       "metadata": "iterations/2021-07-15-ww28-can-you-build-an-app-to-visualise-wildfires/case.yaml",
       "metadata_contract": "1.1.0",
       "tested_sdk_version": "0.27.1"
+    },
+    {
+      "case_id": "wow-2021-ww38-can-you-quickly-tell-the-net-change-between-two-dates",
+      "legacy_case_ids": {},
+      "iteration_id": "2021-09-23-ww38-can-you-quickly-tell-the-net-change-between-two-dates",
+      "article_date": "2021-09-23",
+      "challenge_year": 2021,
+      "challenge_week": 38,
+      "challenge_date": "2021-09-21",
+      "date_evidence": {
+        "article_date": "Archived article Published heading: evidence/article-date.json",
+        "challenge": "Official 2021 W38 title in saved intake",
+        "challenge_date": "Official WordPress API date: evidence/official-challenge-date.json"
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/tab2021w38/",
+          "wordpress_post_id": 6004
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2021/09/23/can-you-quickly-tell-the-net-change-between-two-dates/",
+          "path": null,
+          "sha256": "d0c4f0092b69606885f363d51278d8390a4a9e76ece284b4a493f8b36bebee90"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2021_09_22_WW38_Daily_Sales_Tracker/2021_09_22_WW38_Daily_Sales_Tracker",
+          "filename": "2021_09_22_WW38_Daily_Sales_Tracker.twbx",
+          "sha256": "c9c78821f394e504700ba5e1ac6dcc004abc9915569c7a912112d97e57a03f2b"
+        }
+      },
+      "functional_status": "partial",
+      "visual_status": "not_evaluated",
+      "verification_status": "pending",
+      "cwtwb_result": "workaround",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": null,
+        "cloud_replica": null
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "inputs/source-lock.json",
+        "evidence/article-date.json",
+        "evidence/official-challenge-date.json",
+        "evidence/sdk-baseline.json",
+        "evidence/build-provenance.json",
+        "evidence/cloud-request.json",
+        "outputs/independent-verification.json",
+        "outputs/expected-range-states.json"
+      ],
+      "notes": [
+        "Local static and independent raw-data checks do not prove Tableau runtime rendering; pending runtime gates are intentional.",
+        "KPI endpoints are first/last trading dates within the requested range, not zero-filled calendar boundary dates."
+      ],
+      "metadata": "iterations/2021-09-23-ww38-can-you-quickly-tell-the-net-change-between-two-dates/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.29.0a1"
     },
     {
       "case_id": "wow-2022-ww32-dumbbell-chart",

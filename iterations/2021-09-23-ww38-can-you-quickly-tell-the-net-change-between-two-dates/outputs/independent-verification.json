@@ -1,0 +1,99 @@
+{
+  "scope": "Locked-extract oracle plus native workbook contracts for the timeframe/date-range net-change dashboard.",
+  "acceptance": [
+    "ww38-parameters",
+    "ww38-range-calculations",
+    "ww38-region-range-lod",
+    "ww38-net-change-oracle",
+    "ww38-trend-chart",
+    "ww38-reference-bands",
+    "ww38-kpi-table",
+    "ww38-timeframe-selector",
+    "ww38-dashboard-actions"
+  ],
+  "facts": {
+    "today": "2021-09-20",
+    "default_range": [
+      "2021-09-06",
+      "2021-09-20"
+    ],
+    "default_window": [
+      "2021-03-20",
+      "2021-09-20"
+    ],
+    "regions": {
+      "South": {
+        "first_trading_day": "2021-09-07",
+        "last_trading_day": "2021-09-19",
+        "first_day_sales": 81.568,
+        "last_day_sales": 131.016,
+        "net_change": 49.448,
+        "percent_change": 0.606218,
+        "positive": true
+      },
+      "West": {
+        "first_trading_day": "2021-09-07",
+        "last_trading_day": "2021-09-19",
+        "first_day_sales": 1269.121,
+        "last_day_sales": 1479.93,
+        "net_change": 210.809,
+        "percent_change": 0.166106,
+        "positive": true
+      },
+      "Central": {
+        "first_trading_day": "2021-09-07",
+        "last_trading_day": "2021-09-18",
+        "first_day_sales": 1913.248,
+        "last_day_sales": 210.04,
+        "net_change": -1703.208,
+        "percent_change": -0.890218,
+        "positive": false
+      },
+      "East": {
+        "first_trading_day": "2021-09-07",
+        "last_trading_day": "2021-09-20",
+        "first_day_sales": 584.628,
+        "last_day_sales": 7359.918,
+        "net_change": 6775.29,
+        "percent_change": 11.589062,
+        "positive": true
+      }
+    },
+    "window_mark_counts": {
+      "South": 94,
+      "West": 117,
+      "Central": 116,
+      "East": 119
+    },
+    "window_first_last": {
+      "South": [
+        "2021-03-21",
+        "2021-09-19"
+      ],
+      "West": [
+        "2021-03-20",
+        "2021-09-19"
+      ],
+      "Central": [
+        "2021-03-20",
+        "2021-09-18"
+      ],
+      "East": [
+        "2021-03-20",
+        "2021-09-20"
+      ]
+    },
+    "region_order": [
+      "South",
+      "West",
+      "Central",
+      "East"
+    ],
+    "row_count": 9994
+  },
+  "output_sha256": "83d939001e94c08a6fbd634cf398f03e79fa413a844382fadf202e060d0e84e9",
+  "additional_states": [
+    "july-range",
+    "single-day"
+  ]
+}
