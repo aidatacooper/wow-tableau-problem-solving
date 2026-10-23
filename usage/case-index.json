@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "generated_from": "iterations/*/case.yaml",
-  "active_case_count": 115,
+  "active_case_count": 116,
   "legacy_case_ids": {
     "donna-2019-07-18-63877b35d19a": "wow-2019-ww29-high-orders",
     "donna-2019-07-25-59a0a144b25b": "wow-2019-ww30-navigation-kpi",
@@ -6553,6 +6553,73 @@
         "Cloud REST images cover default, Tableau and PBI states. All five replica sheets are checked against the independent raw-data oracle. Original author hidden sheets were not modified. Browser clicks were not executed; filter/highlight interactions are checked as serialized artifact contracts."
       ],
       "metadata": "iterations/2021-08-12-ww32-visualise-our-survey-data/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.29.0a1"
+    },
+    {
+      "case_id": "wow-2021-ww33-can-you-create-a-moving-average-chart-with-a-focus-on-selected-subcategories",
+      "legacy_case_ids": {},
+      "iteration_id": "2021-08-29-ww33-can-you-create-a-moving-average-chart-with-a-focus-on-selected-subcategories",
+      "article_date": "2021-08-29",
+      "challenge_year": 2021,
+      "challenge_week": 33,
+      "challenge_date": "2021-08-17",
+      "date_evidence": {
+        "article_date": "Article-local HTML 'Published:' calendar date, retained in evidence/article-date.json.",
+        "challenge": "Official 2021 Week 33 article title.",
+        "challenge_date": "Official WordPress REST date field retained in evidence/official-challenge-date.json."
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2021w33tab/",
+          "wordpress_post_id": 5821
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2021/08/29/can-you-create-a-moving-average-chart-with-a-focus-on-selected-subcategories/",
+          "path": null,
+          "sha256": "9a6f06fbe8e9874df392aa3c73bef3a7c5fd1a81d6435ce8d00d68d88a677273"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2021_08_18_WW_33_Moving_Avg/2021_08_18_WW33_Moving_Avg",
+          "filename": "2021_08_18_WW_33_Moving_Avg.twbx",
+          "sha256": "3b5b7f5446eb0dab12cea982cfffb85bb6d5c9ce389699adef9a5cb7abf279a1"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "pass",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "evidence/article-date.json",
+        "evidence/build-provenance.json",
+        "evidence/cloud-request.json",
+        "evidence/functional-verification.json",
+        "evidence/official-challenge-date.json",
+        "evidence/sdk-baseline.json",
+        "inputs/source-lock.json",
+        "evidence/sdk-final.json",
+        "evidence/desktop-verification.json",
+        "evidence/cloud-verification.json",
+        "evidence/cloud-data-verification.json",
+        "evidence/visual-review.md",
+        "evidence/replica-data-exports.json",
+        "evidence/author-data-exports.json"
+      ],
+      "notes": [
+        "The article text says three Sub-Categories are grouped into Misc; the author workbook groups five (Art, Envelopes, Fasteners, Labels, Supplies), which is what the published visualisation shows and what is rebuilt here.",
+        "pPrior counts the current month, so the WINDOW_AVG start offset is (-1*[pPrior])+1; with the default 3 the Accessories June 2018 value is the mean of April..September 2018, matching the article's worked example.",
+        "The shaded band is the nested WINDOW_MAX/WINDOW_MIN of Moving Avg addressed by Sub-Category (group) with month as nested addressing.",
+        "Final Cloud and independent oracle evidence supersedes earlier static-only assumptions; see evidence/cloud-data-verification.json and evidence/visual-review.md.",
+        "Earlier 597-row sparse oracle was corrected: published Tableau Data views densify 48 months x 13 groups = 624 rows; WINDOW_AVG ignores null values within the calendar window. The original author CSV was available and verified unchanged."
+      ],
+      "metadata": "iterations/2021-08-29-ww33-can-you-create-a-moving-average-chart-with-a-focus-on-selected-subcategories/case.yaml",
       "metadata_contract": "1.1.0",
       "tested_sdk_version": "0.29.0a1"
     },

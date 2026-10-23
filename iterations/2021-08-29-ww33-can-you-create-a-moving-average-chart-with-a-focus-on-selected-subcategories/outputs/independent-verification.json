@@ -1,0 +1,61 @@
+{
+  "scope": "Locked-extract oracle (monthly grouped sales, parameterised moving average, nested window extrema) plus native parameter/group/set/table-calc/dashboard workbook contracts.",
+  "acceptance": [
+    "ww33-parameters",
+    "ww33-group",
+    "ww33-set-focus",
+    "ww33-moving-average",
+    "ww33-window-extrema",
+    "ww33-chart",
+    "ww33-dashboard-controls",
+    "ww33-moving-average-values"
+  ],
+  "facts": {
+    "extract_sha256": "45f70d406ddb5990fcbf118723b2d5f6d9de65d97298934138f9993b443f8adc",
+    "rows": 9994,
+    "months": 48,
+    "first_month": "2018-01",
+    "last_month": "2021-12",
+    "groups": [
+      "Accessories",
+      "Appliances",
+      "Binders",
+      "Bookcases",
+      "Chairs",
+      "Copiers",
+      "Furnishings",
+      "Machines",
+      "Misc",
+      "Paper",
+      "Phones",
+      "Storage",
+      "Tables"
+    ],
+    "misc_members": [
+      "Art",
+      "Envelopes",
+      "Fasteners",
+      "Labels",
+      "Supplies"
+    ],
+    "prior": 3,
+    "post": 3,
+    "series_rows": 624,
+    "sparse_groups": [],
+    "accessories_2018_06_sales": [
+      2545.99,
+      695.49,
+      667.04,
+      3308.692,
+      1937.734,
+      2459.558
+    ],
+    "accessories_2018_06_moving_avg": 1935.750667,
+    "window_extrema_2018_06": {
+      "max": 7800.003667,
+      "min": 1064.187067
+    }
+  },
+  "expected_rows": 624,
+  "output_sha256": "3ab71871c87e86974e90983448ec71977c913781242e45d709bf6970d588a5b2"
+}

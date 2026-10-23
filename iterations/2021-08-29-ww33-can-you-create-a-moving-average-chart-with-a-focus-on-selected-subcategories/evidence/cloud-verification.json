@@ -1,0 +1,139 @@
+{
+  "case_id": "wow-2021-ww33-can-you-create-a-moving-average-chart-with-a-focus-on-selected-subcategories",
+  "captured_at": "2026-10-23T16:11:20.728893+00:00",
+  "source_hashes": {
+    "author": "3b5b7f5446eb0dab12cea982cfffb85bb6d5c9ce389699adef9a5cb7abf279a1",
+    "replica": "3ab71871c87e86974e90983448ec71977c913781242e45d709bf6970d588a5b2"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "7cb885cb-fa5d-4c08-82f9-78ffb94a10fe",
+      "name": "cwtwb-review-wow-2021-ww33-can-you-create-a-moving-average-chart-with-a-focus-on-selected-subcategories-author-3b5b7f5446eb",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/3062044",
+      "views": [
+        {
+          "name": "2021_08_18_WW33_Moving_Avg",
+          "id": "12aaf4f0-6520-4b90-8a7f-49425adc56d6"
+        },
+        {
+          "name": "Data",
+          "id": "b2a8e6c6-f51c-4df8-8c0a-3f57936c4a2d"
+        }
+      ]
+    },
+    "replica": {
+      "id": "a3ea2ebd-9298-44fe-9ab4-d3272435b962",
+      "name": "cwtwb-review-wow-2021-ww33-can-you-create-a-moving-average-chart-with-a-focus-on-selected-subcategories-replica-3ab71871c87e",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/3062088",
+      "views": [
+        {
+          "name": "Data",
+          "id": "11d1d626-0a03-4093-96c3-c0af740e9ee1"
+        },
+        {
+          "name": "Viz",
+          "id": "72febec0-45db-480e-a1f4-468f81e7c38f"
+        },
+        {
+          "name": "2021_08_18_WW33_Moving_Avg",
+          "id": "e34019ac-9954-4c39-8a95-d6669841db6e"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "12aaf4f0-6520-4b90-8a7f-49425adc56d6",
+          "name": "2021_08_18_WW33_Moving_Avg",
+          "path": "outputs/cloud-author.png",
+          "sha256": "f53096e694b914f9ddc52759dbff0057ac72bc0a95c4316263c19690e6b44e29",
+          "size": [
+            1200,
+            1200
+          ]
+        },
+        "replica": {
+          "id": "e34019ac-9954-4c39-8a95-d6669841db6e",
+          "name": "2021_08_18_WW33_Moving_Avg",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "36c85c0c0b05c72752c923a660d739378c083404cd1b1e50b272474c75fe8d41",
+          "size": [
+            1200,
+            1200
+          ]
+        }
+      },
+      "data": []
+    },
+    {
+      "name": "one-one",
+      "parameters": {
+        "pPost": 1,
+        "pPrior": 1
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "12aaf4f0-6520-4b90-8a7f-49425adc56d6",
+          "name": "2021_08_18_WW33_Moving_Avg",
+          "path": "outputs/cloud-author-one-one.png",
+          "sha256": "534fe0d3d255a6874faa1ceaecc00bd1ddb58624ebd3ac2584bc44e8dc9340ef",
+          "size": [
+            1200,
+            1200
+          ]
+        },
+        "replica": {
+          "id": "e34019ac-9954-4c39-8a95-d6669841db6e",
+          "name": "2021_08_18_WW33_Moving_Avg",
+          "path": "outputs/cloud-replica-one-one.png",
+          "sha256": "c31eff8b6afb5658879f21c3e11cd9cef40af58182ca794558e28c92e2d70390",
+          "size": [
+            1200,
+            1200
+          ]
+        }
+      },
+      "data": []
+    },
+    {
+      "name": "six-six",
+      "parameters": {
+        "pPost": 6,
+        "pPrior": 6
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "12aaf4f0-6520-4b90-8a7f-49425adc56d6",
+          "name": "2021_08_18_WW33_Moving_Avg",
+          "path": "outputs/cloud-author-six-six.png",
+          "sha256": "9584b5d2be6c77396360348cb15bf2a9d6df360e51e729dbde8ef2b31e21f1ab",
+          "size": [
+            1200,
+            1200
+          ]
+        },
+        "replica": {
+          "id": "e34019ac-9954-4c39-8a95-d6669841db6e",
+          "name": "2021_08_18_WW33_Moving_Avg",
+          "path": "outputs/cloud-replica-six-six.png",
+          "sha256": "da154eec00f87aec063d492b5dbb43e6c9644e6e4bebea5f42959cf3c924abeb",
+          "size": [
+            1200,
+            1200
+          ]
+        }
+      },
+      "data": []
+    }
+  ],
+  "status": "captured_requires_independent_review"
+}

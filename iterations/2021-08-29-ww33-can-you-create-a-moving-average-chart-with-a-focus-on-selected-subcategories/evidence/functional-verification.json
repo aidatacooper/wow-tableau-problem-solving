@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0.0",
+  "scope": "Locked-extract oracle for the WW33 moving average; monthly grouped sales, the parameterised window and the nested extrema are recomputed independently from the raw extract. Table calculations run over the marks that exist, so Sub-Categories with no orders in a month skip that month rather than averaging a zero.",
+  "browser_interaction_executed": false,
+  "state": {
+    "description": "Default parameters pPrior=3, pPost=3, full set membership."
+  },
+  "observed": {
+    "rows": 9994,
+    "months": 48,
+    "groups": 13,
+    "misc_members": [
+      "Art",
+      "Envelopes",
+      "Fasteners",
+      "Labels",
+      "Supplies"
+    ],
+    "accessories_2018_06_sales": [
+      2545.99,
+      695.49,
+      667.04,
+      3308.692,
+      1937.734,
+      2459.558
+    ],
+    "accessories_2018_06_moving_avg": 1935.750667,
+    "window_max_2018_06": 9042.576833,
+    "window_min_2018_06": 1064.187067,
+    "series_rows": 597,
+    "sparse_groups": [
+      "Bookcases",
+      "Copiers",
+      "Machines"
+    ]
+  },
+  "expected_from_oracle": {
+    "accessories_2018_06_moving_avg": 1935.750667,
+    "worked_example_months": "2018-04..2018-09",
+    "group_count": 13
+  },
+  "result": "pass"
+}

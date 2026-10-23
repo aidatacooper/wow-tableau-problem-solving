@@ -1,0 +1,65 @@
+{
+  "artifact_sha256": "3ab71871c87e86974e90983448ec71977c913781242e45d709bf6970d588a5b2",
+  "exports": [
+    {
+      "state": "default",
+      "view": "Data",
+      "path": "outputs/cloud-replica-data-default.csv",
+      "sha256": "52440116c00687f6af23bffaf2be81c930428aab6c4c6c362d1a8e58d225dec6",
+      "parameters": {},
+      "filters": {}
+    },
+    {
+      "state": "default",
+      "view": "Viz",
+      "path": "outputs/cloud-replica-viz-default.csv",
+      "sha256": "1261edc4aa7e27db4f77b18b487044333996c9c9554b6f6510660a98c769c069",
+      "parameters": {},
+      "filters": {}
+    },
+    {
+      "state": "one-one",
+      "view": "Data",
+      "path": "outputs/cloud-replica-data-one-one.csv",
+      "sha256": "96be816f00dc4c2c172f91af7f2361ff62ba10229765aad2779351df6b15316f",
+      "parameters": {
+        "pPost": 1,
+        "pPrior": 1
+      },
+      "filters": {}
+    },
+    {
+      "state": "one-one",
+      "view": "Viz",
+      "path": "outputs/cloud-replica-viz-one-one.csv",
+      "sha256": "fa4ef1e12dc63fcc26f678a64b29a03b4a5ca6b7fd9f1874494222a9470ee92e",
+      "parameters": {
+        "pPost": 1,
+        "pPrior": 1
+      },
+      "filters": {}
+    },
+    {
+      "state": "six-six",
+      "view": "Data",
+      "path": "outputs/cloud-replica-data-six-six.csv",
+      "sha256": "2b25adb045609f6d81d066271e500b2dec94d5ca99c864c9edd464dab6b41554",
+      "parameters": {
+        "pPost": 6,
+        "pPrior": 6
+      },
+      "filters": {}
+    },
+    {
+      "state": "six-six",
+      "view": "Viz",
+      "path": "outputs/cloud-replica-viz-six-six.csv",
+      "sha256": "c128d232e89ffadf8d09d6ba2fe46ed27b75fec57e091df0c372332868e5012d",
+      "parameters": {
+        "pPost": 6,
+        "pPrior": 6
+      },
+      "filters": {}
+    }
+  ]
+}
