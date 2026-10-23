@@ -1,0 +1,115 @@
+schema_version: 1.1.0
+case_id: wow-2021-ww36-when-do-extracts-run
+iteration_id: 2021-09-12-ww36-when-do-extracts-run
+post: https://donnacoles.home.blog/2021/09/12/when-do-extracts-run-during-the-day/
+legacy_case_ids: {}
+article_date: '2021-09-12'
+challenge_year: 2021
+challenge_week: 36
+challenge_date: '2021-09-07'
+date_evidence:
+  article_date: index.json publication date; matches the post URL
+  challenge: Explicit challenge_year and week declared in iteration_id
+  challenge_date: Official Workout Wednesday 2021w36 challenge page (https://www.workout-wednesday.com/2021w36/)
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2021w36/
+  article:
+    url: https://donnacoles.home.blog/2021/09/12/when-do-extracts-run-during-the-day/
+    path: null
+    sha256: null
+  workbook:
+    url: https://public.tableau.com/views/When_Do_Extracts_Run_During_The_Day/WhenDoExtractsRunDuringTheDay
+    filename: When_Do_Extracts_Run_During_The_Day.twbx
+    sha256: f1a462438deb44e088f9435912345fdb6d181315305885d68230b4c2314e8eab
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- inputs/source-lock.json
+- evidence/data-contract.json
+- evidence/workbook-inventory.json
+- evidence/validation.json
+- evidence/cloud-request.json
+- evidence/desktop-verification.json
+- evidence/cloud-verification.json
+- evidence/cloud-data-verification.json
+- evidence/visual-review.md
+- evidence/build-provenance.json
+notes:
+- Rebuilt with cwtwb 0.29.0a1 from the packaged Hyper extract using public SDK APIs
+  only; the builder never opens the author TWB/TWBX.
+- Two author copies (Created At Baseline (copy) using TODAY(), and the non-normalised
+  Waiting Time (copy)) are dead fields in the shipped workbook and are not reproduced.
+- The Data crosstab is kept, as the author shipped it, but hidden.
+- Readable field names come from pass-through calculated aliases; cwtwb has no public
+  caption setter, so the single datasource keeps the template caption "Sample _ Superstore
+  (Simple)". Cosmetic delta only.
+- The author's manual sort dictionary on Key Label is expressed as a descending sort
+  by Key Order, which renders Waiting before Processing.
+- Functional and visual status stay pending until the root Desktop load gate and the
+  Cloud author/replica comparison run.
+cwtwb:
+  tested_version: 0.29.0a1
+  runs:
+  - version: 0.29.0a1
+    result: pass
+    evidence: verify_replication.py
+  tested_commit: 23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: pass
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/TEMP_0za05zv08wbboi1164y2i07f3q8l.hyper
+acceptance:
+- id: extract-status-classification
+  description: Extract Status follows the author's finish_code/progress rules, so
+    the three cancelled tasks fall through to Failed and the three unfinished tasks
+    report In Progress.
+  mode: automated
+- id: waiting-and-processing-durations
+  description: Waiting and processing times are second-differences over 86400, with
+    unfinished tasks measured against the Now parameter rather than a null.
+  mode: automated
+- id: baseline-same-day-normalisation
+  description: Created At Baseline and Started At Baseline keep the time of day but
+    move every task onto 2021-01-01, so one 24-hour axis covers all days.
+  mode: automated
+- id: over-wait-threshold-flag
+  description: Over Wait Time Threshold is Waiting Time > 0.007, i.e. a wait longer
+    than ten minutes, and splits the population rather than flagging everything.
+  mode: automated
+- id: days-to-show-filter
+  description: Filter Days to Show keeps the last pDaysToShow days ending at Now,
+    so the 1/5/7/10-day windows select strictly more tasks as the parameter grows.
+  mode: automated
+- id: gantt-dual-axis-encoding
+  description: The Gantt sheet has two GanttBar panes on both baselined datetime axes,
+    folded and synchronised, sized by waiting/processing time, coloured by threshold/status,
+    with the 08:00-17:00 reference band.
+  mode: automated
+- id: key-legend-pairing
+  description: The Key sheet plots Key Label against MIN(1) for Sites 7 and 9, sized
+    and coloured by Site, with Waiting sorted before Processing by Key Order.
+  mode: automated
+- id: dashboard-controls-and-legends
+  description: The 1000x800 dashboard carries the pDaysToShow slider, the Site check-dropdown,
+    the Key sheet, both native colour legends, the Gantt sheet and the challenge footer
+    text.
+  mode: automated
+- id: locked-input-and-round-trip
+  description: The packaged extract hash matches source-lock.json, the workbook round-trips
+    through the SDK, and no unresolved table-calculation or ordering-field metadata
+    remains.
+  mode: automated
+remaining_work: []
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []

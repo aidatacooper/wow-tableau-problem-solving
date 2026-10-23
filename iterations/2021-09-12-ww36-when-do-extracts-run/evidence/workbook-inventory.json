@@ -1,0 +1,97 @@
+{
+  "schema_version": "1.0.0",
+  "source": "outputs/replicated-workbook.twbx",
+  "counts": {
+    "worksheets": 3,
+    "dashboards": 1,
+    "parameters": 2,
+    "required_calculated_fields": 19,
+    "dashboard_actions": 0
+  },
+  "calculated_fields": [
+    {
+      "name": "Created At",
+      "formula": "[created_at]"
+    },
+    {
+      "name": "Started At",
+      "formula": "[started_at]"
+    },
+    {
+      "name": "Completed At",
+      "formula": "[completed_at]"
+    },
+    {
+      "name": "Id",
+      "formula": "[id]"
+    },
+    {
+      "name": "Title",
+      "formula": "[title]"
+    },
+    {
+      "name": "Notes",
+      "formula": "[notes]"
+    },
+    {
+      "name": "Finish Code",
+      "formula": "[finish_code]"
+    },
+    {
+      "name": "Extract Status",
+      "formula": "IF [finish_code] = 1 AND [progress] <> 100 THEN 'In Progress'\nELSEIF [finish_code] = 0 AND NOT [progress] = 1 THEN 'Success'\nELSE 'Failed'\nEND"
+    },
+    {
+      "name": "Waiting Time",
+      "formula": "(DATEDIFF('second', [created_at], IF ISNULL([started_at]) THEN [Parameters].[Parameter 1] ELSE [started_at] END))/86400"
+    },
+    {
+      "name": "Processing Time",
+      "formula": "(DATEDIFF('second', [started_at], IF ISNULL([completed_at]) THEN [Parameters].[Parameter 1] ELSE [completed_at] END))/86400"
+    },
+    {
+      "name": "Created At Baseline",
+      "formula": "DATEADD('day', DATEDIFF('day', [created_at], #2021-01-01#), [created_at])"
+    },
+    {
+      "name": "Started At Baseline",
+      "formula": "DATEADD('day', DATEDIFF('day', [started_at], #2021-01-01#), [started_at])"
+    },
+    {
+      "name": "Over Wait Time Threshold",
+      "formula": "[Calculation_5F69E485CF2F470EBE1A8B47687166EF] > 0.007"
+    },
+    {
+      "name": "Filter: Days to Show",
+      "formula": "DATETRUNC('day', [created_at]) >= DATEADD('day', ([Parameters].[Parameter 2]-1)*-1, DATETRUNC('day', [Parameters].[Parameter 1]))"
+    },
+    {
+      "name": "Key Label",
+      "formula": "IF [Site] = 'Site 9' THEN 'Waiting' ELSE 'Processing' END"
+    },
+    {
+      "name": "Key Order",
+      "formula": "IF [Site] = 'Site 9' THEN 1 ELSE 0 END"
+    },
+    {
+      "name": "Working Hours Start",
+      "formula": "#2021-01-01 08:00:00#"
+    },
+    {
+      "name": "Working Hours End",
+      "formula": "#2021-01-01 17:00:00#"
+    },
+    {
+      "name": "One",
+      "formula": "MIN(1)"
+    }
+  ],
+  "worksheets": [
+    "Gantt",
+    "Key",
+    "Data"
+  ],
+  "dashboards": [
+    "When Do Extracts Run During The Day?"
+  ]
+}

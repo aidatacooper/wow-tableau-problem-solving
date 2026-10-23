@@ -1,0 +1,651 @@
+Created At Baseline,Day of Created At,Extract Status,Id,Notes,Over Wait Time Threshold,Site,Started At Baseline,Title,Created At Baseline,Extract Status,Notes,Started At Baseline,Avg. Processing Time,Avg. Waiting Time,Max. Working Hours End,Min. Working Hours Start
+12:00 pm,Fri 05 Feb 2021,,6612613,Finished refresh of extracts,False,Site 9,,Datasource38,12:00 pm,Success,Finished refresh of extracts,12:00 pm,,0,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+8:12 pm,Thu 04 Feb 2021,,6608441,Finished refresh of extracts,False,Site 9,,Datasource105,8:12 pm,Success,Finished refresh of extracts,8:12 pm,,0,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+2:30 am,Tue 02 Feb 2021,,6591074,Finished refresh of extracts,False,Site 9,,Datasource41,2:30 am,Success,Finished refresh of extracts,2:30 am,,1.157407407e-05,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+8:30 am,Wed 03 Feb 2021,,6598991,Finished refresh of extracts,False,Site 9,,Datasource41,8:30 am,Success,Finished refresh of extracts,8:30 am,,1.157407407e-05,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+8:30 pm,Wed 03 Feb 2021,,6602152,Finished refresh of extracts,False,Site 9,,Datasource41,8:30 pm,Success,Finished refresh of extracts,8:30 pm,,1.157407407e-05,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+2:30 am,Fri 05 Feb 2021,,6609975,Finished refresh of extracts,False,Site 9,,Datasource41,2:30 am,Success,Finished refresh of extracts,2:30 am,,1.157407407e-05,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+6:30 am,Mon 01 Feb 2021,,6585881,Finished increment of extracts,False,Site 9,,Datasource76,6:30 am,Success,Finished increment of extracts,6:30 am,,1.157407407e-05,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+5:37 am,Tue 02 Feb 2021,,6591784,Finished refresh of extracts,False,Site 9,,Datasource161,5:37 am,Success,Finished refresh of extracts,5:37 am,,1.157407407e-05,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+11:20 am,Mon 01 Feb 2021,,6587296,DataSourceException,False,Site 9,,Workbook51,11:20 am,Failed,DataSourceException,11:20 am,,1.157407407e-05,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+6:30 am,Mon 01 Feb 2021,,6585882,Finished increment of extracts,False,Site 9,,Datasource20,6:30 am,Success,Finished increment of extracts,6:30 am,,2.314814815e-05,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+8:30 pm,Mon 01 Feb 2021,,6589565,Finished increment of extracts,False,Site 9,,Datasource38,8:30 pm,Success,Finished increment of extracts,8:30 pm,,2.314814815e-05,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+8:30 am,Tue 02 Feb 2021,,6592702,Finished increment of extracts,False,Site 9,,Datasource39,8:30 am,Success,Finished increment of extracts,8:30 am,,2.314814815e-05,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+8:30 am,Wed 03 Feb 2021,,6598986,Finished increment of extracts,False,Site 9,,Datasource39,8:30 am,Success,Finished increment of extracts,8:30 am,,2.314814815e-05,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+8:30 pm,Wed 03 Feb 2021,,6602160,Finished increment of extracts,False,Site 9,,Datasource40,8:30 pm,Success,Finished increment of extracts,8:30 pm,,2.314814815e-05,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:30 am,Fri 05 Feb 2021,,6610482,Finished increment of extracts,False,Site 9,,Datasource40,4:30 am,Success,Finished increment of extracts,4:30 am,,2.314814815e-05,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+8:30 am,Tue 02 Feb 2021,,6592701,Finished refresh of extracts,False,Site 9,,Datasource41,8:30 am,Success,Finished refresh of extracts,8:30 am,,2.314814815e-05,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:46 am,Wed 03 Feb 2021,,6597878,Finished refresh of extracts,False,Site 9,,Datasource161,4:46 am,Success,Finished refresh of extracts,4:46 am,,2.314814815e-05,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+5:00 am,Fri 05 Feb 2021,,6610583,Finished refresh of extracts,False,Site 9,,Datasource161,5:00 am,Success,Finished refresh of extracts,5:00 am,,2.314814815e-05,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+11:23 am,Mon 01 Feb 2021,,6587309,Finished refresh of extracts,False,Site 9,,Workbook51,11:23 am,Success,Finished refresh of extracts,11:23 am,,2.314814815e-05,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+8:30 am,Thu 04 Feb 2021,,6605359,Finished increment of extracts,False,Site 9,,Datasource38,8:30 am,Success,Finished increment of extracts,8:30 am,,3.472222222e-05,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:30 am,Thu 04 Feb 2021,,6604175,Finished increment of extracts,False,Site 9,,Datasource39,4:30 am,Success,Finished increment of extracts,4:30 am,,3.472222222e-05,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+2:30 pm,Tue 02 Feb 2021,,6594321,Finished refresh of extracts,False,Site 9,,Datasource41,2:30 pm,Success,Finished refresh of extracts,2:30 pm,,3.472222222e-05,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+2:30 am,Thu 04 Feb 2021,,6603671,Finished refresh of extracts,False,Site 9,,Datasource41,2:30 am,Success,Finished refresh of extracts,2:31 am,,3.472222222e-05,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+8:30 am,Thu 04 Feb 2021,,6605363,Finished refresh of extracts,False,Site 9,,Datasource41,8:30 am,Success,Finished refresh of extracts,8:30 am,,3.472222222e-05,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+6:30 am,Wed 03 Feb 2021,,6598443,Finished increment of extracts,False,Site 9,,Datasource76,6:30 am,Success,Finished increment of extracts,6:30 am,,3.472222222e-05,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+12:30 am,Thu 04 Feb 2021,,6603159,Finished increment of extracts,False,Site 9,,Datasource38,12:30 am,Success,Finished increment of extracts,12:30 am,,4.629629630e-05,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+8:30 am,Fri 05 Feb 2021,,6611615,Finished increment of extracts,False,Site 9,,Datasource39,8:30 am,Success,Finished increment of extracts,8:30 am,,4.629629630e-05,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+2:30 am,Mon 01 Feb 2021,,6584737,Finished refresh of extracts,False,Site 9,,Datasource41,2:30 am,Success,Finished refresh of extracts,2:30 am,,4.629629630e-05,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+8:30 am,Mon 01 Feb 2021,,6586437,Finished refresh of extracts,False,Site 9,,Datasource41,8:30 am,Success,Finished refresh of extracts,8:30 am,,4.629629630e-05,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+2:30 pm,Mon 01 Feb 2021,,6588090,Finished refresh of extracts,False,Site 9,,Datasource41,2:30 pm,Success,Finished refresh of extracts,2:30 pm,,4.629629630e-05,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+8:30 pm,Mon 01 Feb 2021,,6589561,Finished refresh of extracts,False,Site 9,,Datasource41,8:30 pm,Success,Finished refresh of extracts,8:30 pm,,4.629629630e-05,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+8:30 am,Fri 05 Feb 2021,,6611620,Finished refresh of extracts,False,Site 9,,Datasource41,8:30 am,Success,Finished refresh of extracts,8:30 am,,4.629629630e-05,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:30 am,Tue 02 Feb 2021,,6591568,Finished increment of extracts,False,Site 9,,Datasource38,4:30 am,Success,Finished increment of extracts,4:30 am,,5.787037037e-05,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+12:30 am,Wed 03 Feb 2021,,6596833,Finished increment of extracts,False,Site 9,,Datasource38,12:30 am,Success,Finished increment of extracts,12:30 am,,5.787037037e-05,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+12:30 am,Tue 02 Feb 2021,,6590571,Finished increment of extracts,False,Site 9,,Datasource40,12:30 am,Success,Finished increment of extracts,12:30 am,,5.787037037e-05,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+2:30 pm,Wed 03 Feb 2021,,6600650,Finished refresh of extracts,False,Site 9,,Datasource41,2:30 pm,Success,Finished refresh of extracts,2:30 pm,,5.787037037e-05,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+6:30 am,Thu 04 Feb 2021,,6604794,Finished increment of extracts,False,Site 9,,Datasource76,6:30 am,Success,Finished increment of extracts,6:30 am,,5.787037037e-05,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+6:30 am,Fri 05 Feb 2021,,6611068,Finished increment of extracts,False,Site 9,,Datasource76,6:30 am,Success,Finished increment of extracts,6:30 am,,5.787037037e-05,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+8:30 pm,Tue 02 Feb 2021,,6595838,Finished increment of extracts,False,Site 9,,Datasource82,8:30 pm,Success,Finished increment of extracts,8:30 pm,,5.787037037e-05,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+9:48 am,Wed 03 Feb 2021,,6599326,Finished refresh of extracts,False,Site 9,,Datasource116,9:48 am,Success,Finished refresh of extracts,9:48 am,,5.787037037e-05,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:45 am,Thu 04 Feb 2021,,6604205,Finished refresh of extracts,False,Site 9,,Datasource161,4:45 am,Success,Finished refresh of extracts,4:45 am,,5.787037037e-05,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+2:30 am,Wed 03 Feb 2021,,6597348,Finished refresh of extracts,False,Site 9,,Datasource41,2:30 am,Success,Finished refresh of extracts,2:30 am,,6.944444444e-05,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+2:30 pm,Fri 05 Feb 2021,,6613256,Finished refresh of extracts,False,Site 9,,Datasource41,2:30 pm,Success,Finished refresh of extracts,2:30 pm,,6.944444444e-05,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+8:30 pm,Thu 04 Feb 2021,,6608471,Finished increment of extracts,False,Site 9,,Datasource40,8:30 pm,Success,Finished increment of extracts,8:30 pm,,8.101851852e-05,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+2:30 pm,Thu 04 Feb 2021,,6606997,Finished refresh of extracts,False,Site 9,,Datasource41,2:30 pm,Success,Finished refresh of extracts,2:30 pm,,8.101851852e-05,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+6:30 am,Mon 01 Feb 2021,,6585889,Finished refresh of extracts,False,Site 9,,Datasource52,6:30 am,Success,Finished refresh of extracts,6:30 am,,8.101851852e-05,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+6:30 am,Tue 02 Feb 2021,,6592168,Finished increment of extracts,False,Site 9,,Datasource76,6:30 am,Success,Finished increment of extracts,6:30 am,,8.101851852e-05,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+12:30 am,Fri 05 Feb 2021,,6609462,Finished increment of extracts,False,Site 9,,Datasource82,12:30 am,Success,Finished increment of extracts,12:30 am,,8.101851852e-05,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+6:30 am,Fri 05 Feb 2021,,6611069,Finished increment of extracts,False,Site 9,,Datasource20,6:30 am,Success,Finished increment of extracts,6:30 am,,9.259259259e-05,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+8:30 pm,Tue 02 Feb 2021,,6595833,Finished refresh of extracts,False,Site 9,,Datasource41,8:30 pm,Success,Finished refresh of extracts,8:30 pm,,9.259259259e-05,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+8:30 pm,Thu 04 Feb 2021,,6608465,Finished refresh of extracts,False,Site 9,,Datasource41,8:30 pm,Success,Finished refresh of extracts,8:30 pm,,0.000104167,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 am,Thu 04 Feb 2021,,6604026,Finished refresh of extracts,False,Site 9,,Datasource95,4:00 am,Success,Finished refresh of extracts,4:00 am,,0.000104167,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 am,Mon 01 Feb 2021,,6585090,Finished refresh of extracts,False,Site 9,,Datasource98,4:00 am,Success,Finished refresh of extracts,4:00 am,,0.000104167,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+6:30 am,Wed 03 Feb 2021,,6598444,Finished increment of extracts,False,Site 9,,Datasource20,6:30 am,Success,Finished increment of extracts,6:30 am,,0.000115741,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 am,Fri 05 Feb 2021,,6610333,Finished refresh of extracts,False,Site 9,,Datasource98,4:00 am,Success,Finished refresh of extracts,4:00 am,,0.000150463,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+6:30 am,Wed 03 Feb 2021,,6598451,Finished refresh of extracts,False,Site 9,,Datasource52,6:30 am,Success,Finished refresh of extracts,6:30 am,,0.000162037,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 am,Tue 02 Feb 2021,,6591421,Finished refresh of extracts,False,Site 9,,Datasource95,4:00 am,Success,Finished refresh of extracts,4:00 am,,0.000162037,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 am,Fri 05 Feb 2021,,6610327,Finished refresh of extracts,False,Site 9,,Datasource95,4:00 am,Success,Finished refresh of extracts,4:01 am,,0.000162037,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 am,Thu 04 Feb 2021,,6604032,Finished refresh of extracts,False,Site 9,,Datasource98,4:00 am,Success,Finished refresh of extracts,4:00 am,,0.000162037,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+6:30 am,Tue 02 Feb 2021,,6592169,Finished increment of extracts,False,Site 9,,Datasource20,6:30 am,Success,Finished increment of extracts,6:30 am,,0.000173611,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 am,Thu 04 Feb 2021,,6604031,Finished refresh of extracts,False,Site 9,,Datasource85,4:00 am,Success,Finished refresh of extracts,4:00 am,,0.000173611,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+6:30 am,Thu 04 Feb 2021,,6604795,Finished increment of extracts,False,Site 9,,Datasource20,6:30 am,Success,Finished increment of extracts,6:30 am,,0.000185185,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+6:30 am,Fri 05 Feb 2021,,6611076,Finished refresh of extracts,False,Site 9,,Datasource52,6:30 am,Success,Finished refresh of extracts,6:30 am,,0.000185185,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 am,Tue 02 Feb 2021,,6591426,Finished refresh of extracts,False,Site 9,,Datasource85,4:00 am,Success,Finished refresh of extracts,4:00 am,,0.000185185,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 am,Wed 03 Feb 2021,,6597710,Finished refresh of extracts,False,Site 9,,Datasource98,4:00 am,Success,Finished refresh of extracts,4:00 am,,0.000185185,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 am,Mon 01 Feb 2021,,6585084,Finished refresh of extracts,False,Site 9,,Datasource95,4:00 am,Success,Finished refresh of extracts,4:00 am,,0.000196759,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+6:30 am,Mon 01 Feb 2021,,6585880,Finished refresh of extracts,False,Site 9,,Workbook51,6:30 am,Success,Finished refresh of extracts,6:30 am,,0.000208333,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 am,Mon 01 Feb 2021,,6585089,Finished refresh of extracts,False,Site 9,,Datasource85,4:00 am,Success,Finished refresh of extracts,4:00 am,,0.000219907,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 am,Thu 04 Feb 2021,,6604028,Finished refresh of extracts,False,Site 9,,Datasource86,4:00 am,Success,Finished refresh of extracts,4:00 am,,0.000219907,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+6:30 am,Tue 02 Feb 2021,,6592176,Finished refresh of extracts,False,Site 9,,Datasource52,6:30 am,Success,Finished refresh of extracts,6:30 am,,0.000231481,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 am,Fri 05 Feb 2021,,6610332,Finished refresh of extracts,False,Site 9,,Datasource85,4:00 am,Success,Finished refresh of extracts,4:01 am,,0.000231481,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 am,Tue 02 Feb 2021,,6591427,Finished refresh of extracts,False,Site 9,,Datasource98,4:00 am,Success,Finished refresh of extracts,4:00 am,,0.000231481,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 am,Mon 01 Feb 2021,,6585091,Finished refresh of extracts,False,Site 9,,Datasource87,4:00 am,Success,Finished refresh of extracts,4:00 am,,0.000243056,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 am,Thu 04 Feb 2021,,6604033,Finished refresh of extracts,False,Site 9,,Datasource87,4:00 am,Success,Finished refresh of extracts,4:00 am,,0.000243056,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 am,Wed 03 Feb 2021,,6597709,Finished refresh of extracts,False,Site 9,,Datasource85,4:00 am,Success,Finished refresh of extracts,4:00 am,,0.000254630,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 am,Mon 01 Feb 2021,,6585086,Finished refresh of extracts,False,Site 9,,Datasource86,4:00 am,Success,Finished refresh of extracts,4:00 am,,0.000254630,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 am,Tue 02 Feb 2021,,6591423,Finished refresh of extracts,False,Site 9,,Datasource86,4:00 am,Success,Finished refresh of extracts,4:00 am,,0.000266204,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 am,Tue 02 Feb 2021,,6591428,Finished refresh of extracts,False,Site 9,,Datasource87,4:00 am,Success,Finished refresh of extracts,4:00 am,,0.000266204,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 am,Wed 03 Feb 2021,,6597704,Finished refresh of extracts,False,Site 9,,Datasource95,4:00 am,Success,Finished refresh of extracts,4:00 am,,0.000266204,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 am,Wed 03 Feb 2021,,6597706,Finished refresh of extracts,False,Site 9,,Datasource86,4:00 am,Success,Finished refresh of extracts,4:00 am,,0.000289352,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 am,Fri 05 Feb 2021,,6610329,Finished refresh of extracts,False,Site 9,,Datasource86,4:00 am,Success,Finished refresh of extracts,4:01 am,,0.000289352,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 am,Wed 03 Feb 2021,,6597711,Finished refresh of extracts,False,Site 9,,Datasource87,4:00 am,Success,Finished refresh of extracts,4:00 am,,0.0003125,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 am,Fri 05 Feb 2021,,6610334,Finished refresh of extracts,False,Site 9,,Datasource87,4:00 am,Success,Finished refresh of extracts,4:01 am,,0.0003125,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+6:30 am,Mon 01 Feb 2021,,6585876,Finished refresh of extracts,False,Site 9,,Datasource96,6:30 am,Success,Finished refresh of extracts,6:30 am,,0.000324074,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+8:00 am,Fri 05 Feb 2021,,6611494,Finished refresh of extracts,False,Site 9,,Datasource41,8:00 am,Success,Finished refresh of extracts,8:01 am,,0.000358796,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+6:30 am,Wed 03 Feb 2021,,6598442,Finished refresh of extracts,False,Site 9,,Workbook51,6:30 am,Success,Finished refresh of extracts,6:30 am,,0.000370370,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+6:30 am,Mon 01 Feb 2021,,6585887,Finished refresh of extracts,False,Site 9,,Datasource103,6:30 am,Success,Finished refresh of extracts,6:30 am,,0.000405093,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+6:30 am,Mon 01 Feb 2021,,6585879,Finished refresh of extracts,False,Site 9,,Workbook50,6:30 am,Success,Finished refresh of extracts,6:30 am,,0.000428241,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+8:00 am,Mon 01 Feb 2021,,6586261,Finished refresh of extracts,False,Site 9,,Datasource41,8:00 am,Success,Finished refresh of extracts,8:01 am,,0.000451389,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+6:30 am,Mon 01 Feb 2021,,6585878,Finished refresh of extracts,False,Site 9,,Datasource77,6:30 am,Success,Finished refresh of extracts,6:31 am,,0.000474537,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+12:00 pm,Tue 02 Feb 2021,,6593704,Finished refresh of extracts,False,Site 9,,Datasource83,12:00 pm,Success,Finished refresh of extracts,12:00 pm,,0.000474537,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+6:30 am,Thu 04 Feb 2021,,6604802,Finished refresh of extracts,False,Site 9,,Datasource52,6:30 am,Success,Finished refresh of extracts,6:30 am,,0.000486111,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+6:30 am,Wed 03 Feb 2021,,6598438,Finished refresh of extracts,False,Site 9,,Datasource96,6:30 am,Success,Finished refresh of extracts,6:31 am,,0.000486111,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+8:00 am,Tue 02 Feb 2021,,6592542,Finished refresh of extracts,False,Site 9,,Datasource41,8:00 am,Success,Finished refresh of extracts,8:01 am,,0.000520833,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+8:00 am,Thu 04 Feb 2021,,6605185,Finished refresh of extracts,False,Site 9,,Datasource41,8:00 am,Success,Finished refresh of extracts,8:01 am,,0.000520833,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+6:30 am,Fri 05 Feb 2021,,6611067,Finished refresh of extracts,False,Site 9,,Workbook51,6:30 am,Success,Finished refresh of extracts,6:31 am,,0.000532407,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+8:00 am,Wed 03 Feb 2021,,6598821,Finished refresh of extracts,False,Site 9,,Datasource41,8:00 am,Success,Finished refresh of extracts,8:01 am,,0.000555556,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+6:30 am,Mon 01 Feb 2021,,6585886,Finished refresh of extracts,False,Site 9,,Datasource109,6:30 am,Success,Finished refresh of extracts,6:31 am,,0.000555556,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+6:30 am,Tue 02 Feb 2021,,6592167,Finished refresh of extracts,False,Site 9,,Workbook51,6:30 am,Success,Finished refresh of extracts,6:31 am,,0.000555556,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+8:00 am,Mon 01 Feb 2021,,6586305,Finished refresh of extracts,False,Site 9,,Datasource83,8:00 am,Success,Finished refresh of extracts,8:01 am,,0.000567130,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+12:00 pm,Mon 01 Feb 2021,,6587462,Finished refresh of extracts,False,Site 9,,Datasource83,12:00 pm,Success,Finished refresh of extracts,12:01 pm,,0.000567130,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+6:30 am,Wed 03 Feb 2021,,6598449,Finished refresh of extracts,False,Site 9,,Datasource103,6:30 am,Success,Finished refresh of extracts,6:31 am,,0.000567130,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+9:00 am,Fri 05 Feb 2021,,6611755,Finished refresh of extracts,False,Site 9,,Datasource55,9:00 am,Success,Finished refresh of extracts,9:01 am,,0.000590278,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+12:00 pm,Wed 03 Feb 2021,,6600021,Finished refresh of extracts,False,Site 9,,Datasource83,12:00 pm,Success,Finished refresh of extracts,12:01 pm,,0.000590278,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+6:30 am,Fri 05 Feb 2021,,6611063,Finished refresh of extracts,False,Site 9,,Datasource96,6:30 am,Success,Finished refresh of extracts,6:31 am,,0.000590278,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+9:00 am,Wed 03 Feb 2021,,6599111,Finished refresh of extracts,False,Site 9,,Datasource55,9:00 am,Success,Finished refresh of extracts,9:01 am,,0.000601852,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+12:00 pm,Thu 04 Feb 2021,,6606376,Finished refresh of extracts,False,Site 9,,Datasource83,12:00 pm,Success,Finished refresh of extracts,12:01 pm,,0.000625,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+6:30 am,Tue 02 Feb 2021,,6592163,Finished refresh of extracts,False,Site 9,,Datasource96,6:30 am,Success,Finished refresh of extracts,6:31 am,,0.000648148,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+9:00 am,Tue 02 Feb 2021,,6592842,Finished refresh of extracts,False,Site 9,,Datasource55,9:00 am,Success,Finished refresh of extracts,9:01 am,,0.000729167,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+6:30 am,Mon 01 Feb 2021,,6585884,Finished refresh of extracts,False,Site 9,,Datasource94,6:30 am,Success,Finished refresh of extracts,6:31 am,,0.000740741,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+6:30 am,Tue 02 Feb 2021,,6592165,Finished refresh of extracts,False,Site 9,,Datasource77,6:30 am,Success,Finished refresh of extracts,6:31 am,,0.000752315,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+6:30 am,Wed 03 Feb 2021,,6598441,Finished refresh of extracts,False,Site 9,,Workbook50,6:30 am,Success,Finished refresh of extracts,6:31 am,,0.000752315,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+6:30 am,Fri 05 Feb 2021,,6611065,Finished refresh of extracts,False,Site 9,,Datasource77,6:30 am,Success,Finished refresh of extracts,6:31 am,,0.000763889,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:30 am,Wed 03 Feb 2021,,6597845,Finished increment of extracts,False,Site 9,,Datasource38,4:30 am,Success,Finished increment of extracts,4:31 am,,0.000798611,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+6:30 am,Wed 03 Feb 2021,,6598440,DataSourceException,False,Site 9,,Datasource77,6:30 am,Failed,DataSourceException,6:31 am,,0.000810185,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 am,Thu 04 Feb 2021,,6604025,Finished refresh of extracts,False,Site 9,,Datasource92,4:00 am,Success,Finished refresh of extracts,4:01 am,,0.000810185,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+6:30 am,Tue 02 Feb 2021,,6592174,Finished refresh of extracts,False,Site 9,,Datasource103,6:30 am,Success,Finished refresh of extracts,6:31 am,,0.000821759,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+6:30 am,Wed 03 Feb 2021,,6598448,Finished refresh of extracts,False,Site 9,,Datasource109,6:30 am,Success,Finished refresh of extracts,6:31 am,,0.000844907,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 am,Tue 02 Feb 2021,,6591420,Finished refresh of extracts,False,Site 9,,Datasource92,4:00 am,Success,Finished refresh of extracts,4:01 am,,0.000856481,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+6:30 am,Thu 04 Feb 2021,,6604793,Finished refresh of extracts,False,Site 9,,Workbook51,6:30 am,Success,Finished refresh of extracts,6:31 am,,0.000856481,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+9:00 am,Mon 01 Feb 2021,,6586574,Finished refresh of extracts,False,Site 9,,Datasource55,9:00 am,Success,Finished refresh of extracts,9:02 am,,0.000868056,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 am,Mon 01 Feb 2021,,6585083,Finished refresh of extracts,False,Site 9,,Datasource92,4:00 am,Success,Finished refresh of extracts,4:01 am,,0.000879630,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+6:30 am,Tue 02 Feb 2021,,6592173,Finished refresh of extracts,False,Site 9,,Datasource109,6:30 am,Success,Finished refresh of extracts,6:31 am,,0.0009375,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 am,Thu 04 Feb 2021,,6604029,Finished refresh of extracts,False,Site 9,,Datasource97,4:00 am,Success,Finished refresh of extracts,4:01 am,,0.000949074,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+6:30 am,Tue 02 Feb 2021,,6592166,Finished refresh of extracts,False,Site 9,,Workbook50,6:30 am,Success,Finished refresh of extracts,6:31 am,,0.000949074,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+6:30 am,Fri 05 Feb 2021,,6611066,Finished refresh of extracts,False,Site 9,,Workbook50,6:30 am,Success,Finished refresh of extracts,6:31 am,,0.000983796,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+6:30 am,Wed 03 Feb 2021,,6598446,Finished refresh of extracts,False,Site 9,,Datasource94,6:30 am,Success,Finished refresh of extracts,6:31 am,,0.001006944,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+6:30 am,Fri 05 Feb 2021,,6611074,Finished refresh of extracts,False,Site 9,,Datasource103,6:30 am,Success,Finished refresh of extracts,6:31 am,,0.001006944,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 am,Fri 05 Feb 2021,,6610326,Finished refresh of extracts,False,Site 9,,Datasource92,4:00 am,Success,Finished refresh of extracts,4:02 am,,0.001018519,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+6:30 am,Thu 04 Feb 2021,,6604789,Finished refresh of extracts,False,Site 9,,Datasource96,6:30 am,Success,Finished refresh of extracts,6:31 am,,0.001018519,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+6:30 am,Fri 05 Feb 2021,,6611073,Finished refresh of extracts,False,Site 9,,Datasource109,6:30 am,Success,Finished refresh of extracts,6:31 am,,0.001053241,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+6:30 am,Tue 02 Feb 2021,,6592171,Finished refresh of extracts,False,Site 9,,Datasource94,6:30 am,Success,Finished refresh of extracts,6:32 am,,0.001168981,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 am,Wed 03 Feb 2021,,6597703,Finished refresh of extracts,False,Site 9,,Datasource92,4:00 am,Success,Finished refresh of extracts,4:01 am,,0.001180556,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+11:00 am,Tue 02 Feb 2021,,6593378,Finished refresh of extracts,False,Site 9,,Workbook51,11:00 am,Success,Finished refresh of extracts,11:02 am,,0.001180556,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 am,Tue 02 Feb 2021,,6591424,Finished refresh of extracts,False,Site 9,,Datasource97,4:00 am,Success,Finished refresh of extracts,4:01 am,,0.001215278,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 am,Mon 01 Feb 2021,,6585087,Finished refresh of extracts,False,Site 9,,Datasource97,4:00 am,Success,Finished refresh of extracts,4:01 am,,0.001261574,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 am,Thu 04 Feb 2021,,6604024,Finished refresh of extracts,False,Site 9,,Datasource91,4:00 am,Success,Finished refresh of extracts,4:02 am,,0.001273148,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 am,Tue 02 Feb 2021,,6591419,Finished refresh of extracts,False,Site 9,,Datasource91,4:00 am,Success,Finished refresh of extracts,4:01 am,,0.001331019,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 am,Fri 05 Feb 2021,,6610330,Finished refresh of extracts,False,Site 9,,Datasource97,4:00 am,Success,Finished refresh of extracts,4:02 am,,0.001342593,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+11:00 am,Thu 04 Feb 2021,,6606045,Finished refresh of extracts,False,Site 9,,Workbook51,11:00 am,Success,Finished refresh of extracts,11:02 am,,0.001342593,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+9:00 am,Thu 04 Feb 2021,,6605500,Finished refresh of extracts,False,Site 9,,Datasource55,9:00 am,Success,Finished refresh of extracts,9:02 am,,0.001377315,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+11:00 am,Wed 03 Feb 2021,,6599677,Finished refresh of extracts,False,Site 9,,Workbook51,11:00 am,Success,Finished refresh of extracts,11:02 am,,0.001377315,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+6:30 am,Thu 04 Feb 2021,,6604791,Finished refresh of extracts,False,Site 9,,Datasource77,6:30 am,Success,Finished refresh of extracts,6:32 am,,0.001400463,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+11:00 am,Fri 05 Feb 2021,,6612292,Finished refresh of extracts,False,Site 9,,Workbook51,11:00 am,Success,Finished refresh of extracts,11:02 am,,0.001412037,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+10:00 am,Mon 01 Feb 2021,,6586866,Finished refresh of extracts,False,Site 9,,Datasource104,10:00 am,Success,Finished refresh of extracts,10:03 am,,0.001458333,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+6:30 am,Thu 04 Feb 2021,,6604792,Finished refresh of extracts,False,Site 9,,Workbook50,6:30 am,Success,Finished refresh of extracts,6:32 am,,0.001481481,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 am,Wed 03 Feb 2021,,6597707,Finished refresh of extracts,False,Site 9,,Datasource97,4:00 am,Success,Finished refresh of extracts,4:02 am,,0.001550926,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+6:30 am,Thu 04 Feb 2021,,6604800,Finished refresh of extracts,False,Site 9,,Datasource103,6:30 am,Success,Finished refresh of extracts,6:32 am,,0.0015625,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+12:00 pm,Mon 01 Feb 2021,,6587449,Finished refresh of extracts,False,Site 9,,Datasource144,12:00 pm,Success,Finished refresh of extracts,12:02 pm,,0.001620370,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 am,Fri 05 Feb 2021,,6610325,Finished refresh of extracts,False,Site 9,,Datasource91,4:00 am,Success,Finished refresh of extracts,4:03 am,,0.001724537,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 am,Fri 05 Feb 2021,,6610335,Finished refresh of extracts,False,Site 9,,Datasource90,4:00 am,Success,Finished refresh of extracts,4:03 am,,0.001805556,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 am,Thu 04 Feb 2021,,6604036,Finished refresh of extracts,False,Site 9,,Datasource93,4:00 am,Success,Finished refresh of extracts,4:02 am,,0.001840278,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+9:00 am,Thu 04 Feb 2021,,6605501,Finished refresh of extracts,False,Site 9,,Datasource116,9:00 am,Success,Finished refresh of extracts,9:03 am,,0.001840278,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+9:00 am,Tue 02 Feb 2021,,6592844,Finished refresh of extracts,False,Site 9,,Datasource116,9:00 am,Success,Finished refresh of extracts,9:03 am,,0.001863426,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 am,Mon 01 Feb 2021,,6585082,Finished refresh of extracts,False,Site 9,,Datasource91,4:00 am,Success,Finished refresh of extracts,4:02 am,,0.001886574,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 am,Tue 02 Feb 2021,,6591432,Finished refresh of extracts,False,Site 9,,Workbook180,4:00 am,Success,Finished refresh of extracts,4:02 am,,0.001944444,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+9:00 am,Wed 03 Feb 2021,,6599112,Finished refresh of extracts,False,Site 9,,Datasource116,9:00 am,Success,Finished refresh of extracts,9:03 am,,0.002013889,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 am,Fri 05 Feb 2021,,6610337,Finished refresh of extracts,False,Site 9,,Datasource93,4:00 am,Success,Finished refresh of extracts,4:03 am,,0.002025463,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 am,Wed 03 Feb 2021,,6597702,Finished refresh of extracts,False,Site 9,,Datasource91,4:00 am,Success,Finished refresh of extracts,4:03 am,,0.002071759,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+6:30 am,Thu 04 Feb 2021,,6604797,Finished refresh of extracts,False,Site 9,,Datasource94,6:30 am,Success,Finished refresh of extracts,6:33 am,,0.002071759,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+6:30 am,Thu 04 Feb 2021,,6604799,Finished refresh of extracts,False,Site 9,,Datasource109,6:30 am,Success,Finished refresh of extracts,6:33 am,,0.002071759,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 am,Mon 01 Feb 2021,,6585095,Finished refresh of extracts,False,Site 9,,Workbook180,4:00 am,Success,Finished refresh of extracts,4:03 am,,0.002118056,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+8:30 am,Thu 04 Feb 2021,,6605361,Finished increment of extracts,False,Site 9,,Datasource40,8:30 am,Success,Finished increment of extracts,8:33 am,,0.002152778,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 am,Thu 04 Feb 2021,,6604034,Finished refresh of extracts,False,Site 9,,Datasource90,4:00 am,Success,Finished refresh of extracts,4:03 am,,0.002152778,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 am,Tue 02 Feb 2021,,6591429,Finished refresh of extracts,False,Site 9,,Datasource90,4:00 am,Success,Finished refresh of extracts,4:03 am,,0.002210648,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+3:00 pm,Fri 05 Feb 2021,,6613391,Finished refresh of extracts,False,Site 9,,Datasource108,3:00 pm,Success,Finished refresh of extracts,3:03 pm,,0.002210648,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:30 am,Fri 05 Feb 2021,,6610477,Finished increment of extracts,False,Site 9,,Datasource39,4:30 am,Success,Finished increment of extracts,4:34 am,,0.002256944,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+6:30 am,Fri 05 Feb 2021,,6611071,Finished refresh of extracts,False,Site 9,,Datasource94,6:30 am,Success,Finished refresh of extracts,6:33 am,,0.002418981,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+8:30 am,Fri 05 Feb 2021,,6611617,Finished increment of extracts,False,Site 9,,Datasource82,8:30 am,Success,Finished increment of extracts,8:34 am,,0.002442130,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+12:00 pm,Thu 04 Feb 2021,,6606378,Finished refresh of extracts,False,Site 9,,Datasource38,12:00 pm,Success,Finished refresh of extracts,12:04 pm,,0.002465278,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+9:00 am,Fri 05 Feb 2021,,6611757,Finished refresh of extracts,False,Site 9,,Workbook183,9:00 am,Success,Finished refresh of extracts,9:03 am,,0.002557870,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+12:00 pm,Thu 04 Feb 2021,,6606379,Finished refresh of extracts,False,Site 9,,Datasource40,12:00 pm,Success,Finished refresh of extracts,12:04 pm,,0.002604167,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+9:00 am,Wed 03 Feb 2021,,6599114,Finished refresh of extracts,False,Site 9,,Workbook183,9:00 am,Success,Finished refresh of extracts,9:04 am,,0.002615741,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+8:00 am,Mon 01 Feb 2021,,6586307,Finished refresh of extracts,False,Site 9,,Datasource38,8:00 am,Success,Finished refresh of extracts,8:04 am,,0.002731481,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+12:00 pm,Wed 03 Feb 2021,,6600023,Finished refresh of extracts,False,Site 9,,Datasource38,12:00 pm,Success,Finished refresh of extracts,12:04 pm,,0.002754630,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 am,Tue 02 Feb 2021,,6591431,Finished refresh of extracts,False,Site 9,,Datasource93,4:00 am,Success,Finished refresh of extracts,4:04 am,,0.002766204,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 am,Wed 03 Feb 2021,,6597714,Finished refresh of extracts,False,Site 9,,Datasource93,4:00 am,Success,Finished refresh of extracts,4:04 am,,0.002766204,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+9:00 am,Thu 04 Feb 2021,,6605503,Finished refresh of extracts,False,Site 9,,Workbook183,9:00 am,Success,Finished refresh of extracts,9:04 am,,0.002777778,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 am,Mon 01 Feb 2021,,6585092,Finished refresh of extracts,False,Site 9,,Datasource90,4:00 am,Success,Finished refresh of extracts,4:04 am,,0.002858796,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+10:00 am,Thu 04 Feb 2021,,6605804,Finished refresh of extracts,False,Site 9,,Datasource104,10:00 am,Success,Finished refresh of extracts,10:04 am,,0.002858796,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+9:00 am,Tue 02 Feb 2021,,6592846,Finished refresh of extracts,False,Site 9,,Workbook183,9:00 am,Success,Finished refresh of extracts,9:04 am,,0.002870370,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+12:00 pm,Tue 02 Feb 2021,,6593706,Finished refresh of extracts,False,Site 9,,Datasource38,12:00 pm,Success,Finished refresh of extracts,12:04 pm,,0.002893519,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+3:00 pm,Thu 04 Feb 2021,,6607129,Finished refresh of extracts,False,Site 9,,Datasource108,3:00 pm,Success,Finished refresh of extracts,3:04 pm,,0.002939815,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 pm,Thu 04 Feb 2021,,6607399,Finished refresh of extracts,False,Site 9,,Datasource38,4:00 pm,Success,Finished refresh of extracts,4:04 pm,,0.002962963,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 am,Mon 01 Feb 2021,,6585094,Finished refresh of extracts,False,Site 9,,Datasource93,4:00 am,Success,Finished refresh of extracts,4:04 am,,0.003043981,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+8:00 am,Mon 01 Feb 2021,,6586308,Finished refresh of extracts,False,Site 9,,Datasource40,8:00 am,Success,Finished refresh of extracts,8:05 am,,0.003055556,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 am,Thu 04 Feb 2021,,6604027,Finished refresh of extracts,False,Site 9,,Datasource84,4:00 am,Success,Finished refresh of extracts,4:04 am,,0.003078704,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 am,Fri 05 Feb 2021,,6610338,Finished refresh of extracts,False,Site 9,,Workbook180,4:00 am,Success,Finished refresh of extracts,4:05 am,,0.003148148,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 pm,Tue 02 Feb 2021,,6594729,Finished refresh of extracts,False,Site 9,,Datasource38,4:00 pm,Success,Finished refresh of extracts,4:05 pm,,0.003182870,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 pm,Thu 04 Feb 2021,,6607400,Finished refresh of extracts,False,Site 9,,Datasource40,4:00 pm,Success,Finished refresh of extracts,4:05 pm,,0.003194444,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+9:00 am,Tue 02 Feb 2021,,6592845,Finished refresh of extracts,False,Site 9,,Datasource117,9:00 am,Success,Finished refresh of extracts,9:05 am,,0.003217593,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+10:00 am,Mon 01 Feb 2021,,6586867,Finished refresh of extracts,False,Site 9,,Datasource145,10:00 am,Success,Finished refresh of extracts,10:05 am,,0.003263889,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+9:00 am,Thu 04 Feb 2021,,6605509,Finished refresh of extracts,False,Site 9,,Datasource105,9:00 am,Success,Finished refresh of extracts,9:05 am,,0.003310185,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+3:00 pm,Tue 02 Feb 2021,,6594455,Finished refresh of extracts,False,Site 9,,Datasource108,3:00 pm,Success,Finished refresh of extracts,3:05 pm,,0.003310185,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 am,Tue 02 Feb 2021,,6591422,Finished refresh of extracts,False,Site 9,,Datasource84,4:00 am,Success,Finished refresh of extracts,4:04 am,,0.003333333,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+10:00 am,Tue 02 Feb 2021,,6593145,Finished refresh of extracts,False,Site 9,,Datasource104,10:00 am,Success,Finished refresh of extracts,10:05 am,,0.003356481,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+10:00 am,Wed 03 Feb 2021,,6599426,Finished refresh of extracts,False,Site 9,,Datasource104,10:00 am,Success,Finished refresh of extracts,10:05 am,,0.003368056,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 pm,Wed 03 Feb 2021,,6601073,Finished refresh of extracts,False,Site 9,,Datasource38,4:00 pm,Success,Finished refresh of extracts,4:05 pm,,0.003449074,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+12:00 pm,Wed 03 Feb 2021,,6600024,Finished refresh of extracts,False,Site 9,,Datasource40,12:00 pm,Success,Finished refresh of extracts,12:05 pm,,0.003483796,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+9:00 am,Wed 03 Feb 2021,,6599113,Finished refresh of extracts,False,Site 9,,Datasource117,9:00 am,Success,Finished refresh of extracts,9:05 am,,0.003495370,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 pm,Wed 03 Feb 2021,,6601074,Finished refresh of extracts,False,Site 9,,Datasource40,4:00 pm,Success,Finished refresh of extracts,4:05 pm,,0.003506944,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+9:00 am,Thu 04 Feb 2021,,6605502,Finished refresh of extracts,False,Site 9,,Datasource117,9:00 am,Success,Finished refresh of extracts,9:05 am,,0.003530093,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 pm,Wed 03 Feb 2021,,6601072,Finished refresh of extracts,False,Site 9,,Datasource82,4:00 pm,Success,Finished refresh of extracts,4:05 pm,,0.003553241,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+8:30 am,Wed 03 Feb 2021,,6598988,Finished increment of extracts,False,Site 9,,Datasource82,8:30 am,Success,Finished increment of extracts,8:35 am,,0.003564815,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+12:00 pm,Tue 02 Feb 2021,,6593707,Finished refresh of extracts,False,Site 9,,Datasource40,12:00 pm,Success,Finished refresh of extracts,12:05 pm,,0.003587963,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+9:00 am,Mon 01 Feb 2021,,6586578,Finished refresh of extracts,False,Site 9,,Workbook183,9:00 am,Success,Finished refresh of extracts,9:06 am,,0.003611111,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 pm,Mon 01 Feb 2021,,6588514,Finished refresh of extracts,False,Site 9,,Datasource38,4:00 pm,Success,Finished refresh of extracts,4:06 pm,,0.003645833,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 pm,Thu 04 Feb 2021,,6607398,Finished refresh of extracts,False,Site 9,,Datasource82,4:00 pm,Success,Finished refresh of extracts,4:05 pm,,0.003645833,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+9:00 am,Fri 05 Feb 2021,,6611756,Finished refresh of extracts,False,Site 9,,Datasource116,9:00 am,Success,Finished refresh of extracts,9:05 am,,0.003657407,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 pm,Tue 02 Feb 2021,,6594730,Finished refresh of extracts,False,Site 9,,Datasource40,4:00 pm,Success,Finished refresh of extracts,4:05 pm,,0.00375,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 am,Wed 03 Feb 2021,,6597712,Finished refresh of extracts,False,Site 9,,Datasource90,4:00 am,Success,Finished refresh of extracts,4:05 am,,0.003773148,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+10:00 am,Thu 04 Feb 2021,,6605805,Finished refresh of extracts,False,Site 9,,Datasource145,10:00 am,Success,Finished refresh of extracts,10:06 am,,0.003784722,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 pm,Mon 01 Feb 2021,,6588515,Finished refresh of extracts,False,Site 9,,Datasource40,4:00 pm,Success,Finished refresh of extracts,4:06 pm,,0.003796296,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 am,Mon 01 Feb 2021,,6585085,Finished refresh of extracts,False,Site 9,,Datasource84,4:00 am,Success,Finished refresh of extracts,4:05 am,,0.003796296,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+12:00 pm,Mon 01 Feb 2021,,6587446,Finished refresh of extracts,False,Site 9,,Datasource166,12:00 pm,Success,Finished refresh of extracts,12:05 pm,,0.003888889,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+9:00 am,Fri 05 Feb 2021,,6611753,Finished refresh of extracts,False,Site 9,,Datasource117,9:00 am,Success,Finished refresh of extracts,9:05 am,,0.003958333,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+8:30 am,Thu 04 Feb 2021,,6605360,Finished increment of extracts,False,Site 9,,Datasource82,8:30 am,Success,Finished increment of extracts,8:36 am,,0.004004630,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:30 am,Fri 05 Feb 2021,,6610479,Finished increment of extracts,False,Site 9,,Datasource38,4:30 am,Success,Finished increment of extracts,4:36 am,,0.004027778,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 pm,Tue 02 Feb 2021,,6594728,Finished refresh of extracts,False,Site 9,,Datasource82,4:00 pm,Success,Finished refresh of extracts,4:06 pm,,0.004039352,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 am,Wed 03 Feb 2021,,6597715,Finished refresh of extracts,False,Site 9,,Workbook180,4:00 am,Success,Finished refresh of extracts,4:06 am,,0.004039352,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+10:00 am,Tue 02 Feb 2021,,6593143,Finished refresh of extracts,False,Site 9,,Datasource145,10:00 am,Success,Finished refresh of extracts,10:06 am,,0.004166667,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 am,Thu 04 Feb 2021,,6604037,Finished refresh of extracts,False,Site 9,,Workbook180,4:00 am,Success,Finished refresh of extracts,4:06 am,,0.004178241,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+12:00 pm,Thu 04 Feb 2021,,6606380,Finished refresh of extracts,False,Site 9,,Datasource82,12:00 pm,Success,Finished refresh of extracts,12:06 pm,,0.004236111,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 am,Fri 05 Feb 2021,,6610328,Finished refresh of extracts,False,Site 9,,Datasource84,4:00 am,Success,Finished refresh of extracts,4:06 am,,0.004247685,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+3:00 pm,Mon 01 Feb 2021,,6588227,Finished refresh of extracts,False,Site 9,,Datasource108,3:00 pm,Success,Finished refresh of extracts,3:06 pm,,0.004247685,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+8:30 am,Tue 02 Feb 2021,,6592703,Finished increment of extracts,False,Site 9,,Datasource38,8:30 am,Success,Finished increment of extracts,8:36 am,,0.004259259,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+12:30 am,Fri 05 Feb 2021,,6609460,Finished increment of extracts,False,Site 9,,Datasource39,12:30 am,Success,Finished increment of extracts,12:36 am,,0.004317130,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+9:00 am,Mon 01 Feb 2021,,6586576,Finished refresh of extracts,False,Site 9,,Datasource116,9:00 am,Success,Finished refresh of extracts,9:07 am,,0.004340278,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+9:00 am,Fri 05 Feb 2021,,6611752,Finished refresh of extracts,False,Site 9,,Datasource105,9:00 am,Success,Finished refresh of extracts,9:06 am,,0.004351852,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+8:00 am,Mon 01 Feb 2021,,6586309,Finished refresh of extracts,False,Site 9,,Datasource82,8:00 am,Success,Finished refresh of extracts,8:07 am,,0.004386574,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 am,Fri 05 Feb 2021,,6610331,Finished refresh of extracts,False,Site 9,,Datasource89,4:00 am,Success,Finished refresh of extracts,4:07 am,,0.004421296,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+12:00 pm,Wed 03 Feb 2021,,6600025,Finished refresh of extracts,False,Site 9,,Datasource82,12:00 pm,Success,Finished refresh of extracts,12:06 pm,,0.004456019,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+10:00 am,Fri 05 Feb 2021,,6612037,Finished refresh of extracts,False,Site 9,,Datasource104,10:00 am,Success,Finished refresh of extracts,10:07 am,,0.004513889,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+10:00 am,Fri 05 Feb 2021,,6612038,Finished refresh of extracts,False,Site 9,,Datasource145,10:00 am,Success,Finished refresh of extracts,10:07 am,,0.004537037,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+12:00 pm,Mon 01 Feb 2021,,6587464,Finished refresh of extracts,False,Site 9,,Datasource38,12:00 pm,Success,Finished refresh of extracts,12:06 pm,,0.004618056,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 pm,Mon 01 Feb 2021,,6588513,Finished refresh of extracts,False,Site 9,,Datasource82,4:00 pm,Success,Finished refresh of extracts,4:07 pm,,0.004618056,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+10:00 am,Wed 03 Feb 2021,,6599424,Finished refresh of extracts,False,Site 9,,Datasource145,10:00 am,Success,Finished refresh of extracts,10:07 am,,0.004618056,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+8:30 am,Fri 05 Feb 2021,,6611616,Finished increment of extracts,False,Site 9,,Datasource38,8:30 am,Success,Finished increment of extracts,8:37 am,,0.004629630,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 pm,Thu 04 Feb 2021,,6607397,Finished refresh of extracts,False,Site 9,,Datasource39,4:00 pm,Success,Finished refresh of extracts,4:07 pm,,0.004641204,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 am,Fri 05 Feb 2021,,6610336,Finished refresh of extracts,False,Site 9,,Datasource88,4:00 am,Success,Finished refresh of extracts,4:07 am,,0.004652778,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+12:00 pm,Tue 02 Feb 2021,,6593708,Finished refresh of extracts,False,Site 9,,Datasource82,12:00 pm,Success,Finished refresh of extracts,12:06 pm,,0.004664352,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+12:00 pm,Mon 01 Feb 2021,,6587465,Finished refresh of extracts,False,Site 9,,Datasource40,12:00 pm,Success,Finished refresh of extracts,12:07 pm,,0.004710648,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 am,Mon 01 Feb 2021,,6585088,Finished refresh of extracts,False,Site 9,,Datasource89,4:00 am,Success,Finished refresh of extracts,4:06 am,,0.004780093,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+3:00 pm,Wed 03 Feb 2021,,6600793,Finished refresh of extracts,False,Site 9,,Datasource108,3:00 pm,Success,Finished refresh of extracts,3:07 pm,,0.004791667,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+12:00 pm,Fri 05 Feb 2021,,6612615,Finished refresh of extracts,False,Site 9,,Datasource82,12:00 pm,Success,Finished refresh of extracts,12:07 pm,,0.004837963,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+8:00 am,Mon 01 Feb 2021,,6586306,Finished refresh of extracts,False,Site 9,,Datasource39,8:00 am,Success,Finished refresh of extracts,8:07 am,,0.004849537,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+9:00 am,Mon 01 Feb 2021,,6586577,Finished refresh of extracts,False,Site 9,,Datasource117,9:00 am,Success,Finished refresh of extracts,9:07 am,,0.004895833,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+11:01 am,Mon 01 Feb 2021,,6587110,DataSourceException,False,Site 9,,Workbook51,11:01 am,Failed,DataSourceException,11:08 am,,0.004895833,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 am,Mon 01 Feb 2021,,6585093,Finished refresh of extracts,False,Site 9,,Datasource88,4:00 am,Success,Finished refresh of extracts,4:07 am,,0.004965278,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+12:00 pm,Mon 01 Feb 2021,,6587466,Finished refresh of extracts,False,Site 9,,Datasource82,12:00 pm,Success,Finished refresh of extracts,12:07 pm,,0.005023148,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 am,Tue 02 Feb 2021,,6591425,Finished refresh of extracts,False,Site 9,,Datasource89,4:00 am,Success,Finished refresh of extracts,4:07 am,,0.005046296,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 am,Thu 04 Feb 2021,,6604030,Finished refresh of extracts,False,Site 9,,Datasource89,4:00 am,Success,Finished refresh of extracts,4:07 am,,0.005046296,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+6:00 am,Tue 02 Feb 2021,,6591865,Finished refresh of extracts,False,Site 9,,Workbook51,6:00 am,Success,Finished refresh of extracts,6:07 am,,0.005196759,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 am,Tue 02 Feb 2021,,6591430,Finished refresh of extracts,False,Site 9,,Datasource88,4:00 am,Success,Finished refresh of extracts,4:07 am,,0.005300926,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 am,Wed 03 Feb 2021,,6597705,Finished refresh of extracts,False,Site 9,,Datasource84,4:00 am,Success,Finished refresh of extracts,4:08 am,,0.005393519,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+8:30 pm,Thu 04 Feb 2021,,6608469,Finished increment of extracts,False,Site 9,,Datasource38,8:30 pm,Success,Finished increment of extracts,8:38 pm,,0.005613426,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 pm,Mon 01 Feb 2021,,6588512,Finished refresh of extracts,False,Site 9,,Datasource39,4:00 pm,Success,Finished refresh of extracts,4:08 pm,,0.005613426,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+6:00 am,Wed 03 Feb 2021,,6598139,Finished refresh of extracts,False,Site 9,,Workbook51,6:00 am,Success,Finished refresh of extracts,6:08 am,,0.005648148,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 am,Wed 03 Feb 2021,,6597708,Finished refresh of extracts,False,Site 9,,Datasource89,4:00 am,Success,Finished refresh of extracts,4:08 am,,0.005798611,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+12:30 am,Wed 03 Feb 2021,,6596835,Finished increment of extracts,False,Site 9,,Datasource40,12:30 am,Success,Finished increment of extracts,12:39 am,,0.005891204,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:30 am,Fri 05 Feb 2021,,6610481,Finished increment of extracts,False,Site 9,,Datasource82,4:30 am,Success,Finished increment of extracts,4:39 am,,0.005902778,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+12:00 pm,Mon 01 Feb 2021,,6587463,Finished refresh of extracts,False,Site 9,,Datasource39,12:00 pm,Success,Finished refresh of extracts,12:08 pm,,0.0059375,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 am,Thu 04 Feb 2021,,6604035,Finished refresh of extracts,False,Site 9,,Datasource88,4:00 am,Success,Finished refresh of extracts,4:08 am,,0.005949074,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 pm,Wed 03 Feb 2021,,6601071,Finished refresh of extracts,False,Site 9,,Datasource39,4:00 pm,Success,Finished refresh of extracts,4:09 pm,,0.006053241,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+6:00 am,Mon 01 Feb 2021,,6585522,Finished refresh of extracts,False,Site 9,,Workbook51,6:00 am,Success,Finished refresh of extracts,6:08 am,,0.006076389,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+6:00 am,Tue 02 Feb 2021,,6591866,Finished refresh of extracts,False,Site 9,,Workbook51,6:00 am,Success,Finished refresh of extracts,6:09 am,,0.006261574,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+6:00 am,Mon 01 Feb 2021,,6585523,Finished refresh of extracts,False,Site 9,,Workbook51,6:00 am,Success,Finished refresh of extracts,6:09 am,,0.006342593,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+12:00 pm,Thu 04 Feb 2021,,6606377,Finished refresh of extracts,False,Site 9,,Datasource39,12:00 pm,Success,Finished refresh of extracts,12:10 pm,,0.006550926,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+8:30 am,Fri 05 Feb 2021,,6611618,Finished increment of extracts,False,Site 9,,Datasource40,8:30 am,Success,Finished increment of extracts,8:40 am,,0.006655093,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+6:00 am,Fri 05 Feb 2021,,6610766,Finished refresh of extracts,False,Site 9,,Workbook51,6:00 am,Success,Finished refresh of extracts,6:09 am,,0.006712963,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:30 am,Wed 03 Feb 2021,,6597847,Finished increment of extracts,False,Site 9,,Datasource40,4:30 am,Success,Finished increment of extracts,4:39 am,,0.006759259,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+8:30 am,Thu 04 Feb 2021,,6605358,Finished increment of extracts,True,Site 9,,Datasource39,8:30 am,Success,Finished increment of extracts,8:40 am,,0.007002315,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+12:00 pm,Wed 03 Feb 2021,,6600022,Finished refresh of extracts,True,Site 9,,Datasource39,12:00 pm,Success,Finished refresh of extracts,12:10 pm,,0.007025463,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+6:00 am,Wed 03 Feb 2021,,6598140,Finished refresh of extracts,True,Site 9,,Workbook51,6:00 am,Success,Finished refresh of extracts,6:10 am,,0.007060185,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+12:30 am,Fri 05 Feb 2021,,6609461,Finished increment of extracts,True,Site 9,,Datasource38,12:30 am,Success,Finished increment of extracts,12:40 am,,0.007141204,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 pm,Tue 02 Feb 2021,,6594727,Finished refresh of extracts,True,Site 9,,Datasource39,4:00 pm,Success,Finished refresh of extracts,4:11 pm,,0.007314815,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+8:30 pm,Tue 02 Feb 2021,,6595839,Finished increment of extracts,True,Site 9,,Datasource40,8:30 pm,Success,Finished increment of extracts,8:40 pm,,0.007372685,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+6:00 am,Wed 03 Feb 2021,,6598129,Finished refresh of extracts,True,Site 9,,Datasource102,6:00 am,Success,Finished refresh of extracts,6:11 am,,0.007557870,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+12:00 pm,Tue 02 Feb 2021,,6593705,DataSourceException,True,Site 9,,Datasource39,12:00 pm,Failed,DataSourceException,12:11 pm,,0.007662037,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+6:00 am,Fri 05 Feb 2021,,6610767,Finished refresh of extracts,True,Site 9,,Workbook51,6:00 am,Success,Finished refresh of extracts,6:11 am,,0.007696759,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+6:00 am,Fri 05 Feb 2021,,6610756,Finished refresh of extracts,True,Site 9,,Datasource102,6:00 am,Success,Finished refresh of extracts,6:11 am,,0.007962963,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+8:30 am,Tue 02 Feb 2021,,6592705,Finished increment of extracts,True,Site 9,,Datasource40,8:30 am,Success,Finished increment of extracts,8:42 am,,0.008229167,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+8:30 am,Wed 03 Feb 2021,,6598987,Finished increment of extracts,True,Site 9,,Datasource38,8:30 am,Success,Finished increment of extracts,8:42 am,,0.008263889,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+6:00 am,Mon 01 Feb 2021,,6585512,Finished refresh of extracts,True,Site 9,,Datasource102,6:00 am,Success,Finished refresh of extracts,6:12 am,,0.008263889,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+8:30 pm,Mon 01 Feb 2021,,6589567,Finished increment of extracts,True,Site 9,,Datasource40,8:30 pm,Success,Finished increment of extracts,8:42 pm,,0.008576389,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+6:00 am,Wed 03 Feb 2021,,6598130,Finished refresh of extracts,True,Site 9,,Datasource107,6:00 am,Success,Finished refresh of extracts,6:12 am,,0.008599537,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+6:00 am,Thu 04 Feb 2021,,6604490,Finished refresh of extracts,True,Site 9,,Workbook51,6:00 am,Success,Finished refresh of extracts,6:12 am,,0.008842593,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:30 am,Tue 02 Feb 2021,,6591570,Finished increment of extracts,True,Site 9,,Datasource40,4:30 am,Success,Finished increment of extracts,4:43 am,,0.009236111,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+6:00 am,Tue 02 Feb 2021,,6591856,Finished refresh of extracts,True,Site 9,,Datasource107,6:00 am,Success,Finished refresh of extracts,6:13 am,,0.009282407,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+8:30 pm,Thu 04 Feb 2021,,6608470,Finished increment of extracts,True,Site 9,,Datasource82,8:30 pm,Success,Finished increment of extracts,8:44 pm,,0.009560185,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+6:00 am,Thu 04 Feb 2021,,6604492,Finished refresh of extracts,True,Site 9,,Workbook51,6:00 am,Success,Finished refresh of extracts,6:14 am,,0.009745370,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+6:00 am,Tue 02 Feb 2021,,6591855,Finished refresh of extracts,True,Site 9,,Datasource102,6:00 am,Success,Finished refresh of extracts,6:14 am,,0.009826389,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+8:30 pm,Wed 03 Feb 2021,,6602158,Finished increment of extracts,True,Site 9,,Datasource38,8:30 pm,Success,Finished increment of extracts,8:45 pm,,0.010277778,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+6:00 am,Fri 05 Feb 2021,,6610757,Finished refresh of extracts,True,Site 9,,Datasource107,6:00 am,Success,Finished refresh of extracts,6:15 am,,0.010405093,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+6:00 am,Mon 01 Feb 2021,,6585513,Finished refresh of extracts,True,Site 9,,Datasource107,6:00 am,Success,Finished refresh of extracts,6:15 am,,0.010428241,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+12:30 am,Tue 02 Feb 2021,,6590570,Finished increment of extracts,True,Site 9,,Datasource82,12:30 am,Success,Finished increment of extracts,12:46 am,,0.010694444,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+12:30 am,Fri 05 Feb 2021,,6609463,Finished increment of extracts,True,Site 9,,Datasource40,12:30 am,Success,Finished increment of extracts,12:46 am,,0.010891204,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+8:30 am,Wed 03 Feb 2021,,6598989,Finished increment of extracts,True,Site 9,,Datasource40,8:30 am,Success,Finished increment of extracts,8:46 am,,0.010960648,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+8:30 am,Tue 02 Feb 2021,,6592704,Finished increment of extracts,True,Site 9,,Datasource82,8:30 am,Success,Finished increment of extracts,8:46 am,,0.011122685,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+8:30 pm,Thu 04 Feb 2021,,6608468,Finished increment of extracts,True,Site 9,,Datasource39,8:30 pm,Success,Finished increment of extracts,8:48 pm,,0.012592593,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+8:30 pm,Tue 02 Feb 2021,,6595837,Finished increment of extracts,True,Site 9,,Datasource38,8:30 pm,Success,Finished increment of extracts,8:48 pm,,0.012615741,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+12:30 am,Wed 03 Feb 2021,,6596834,Finished increment of extracts,True,Site 9,,Datasource82,12:30 am,Success,Finished increment of extracts,12:49 am,,0.012835648,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+8:30 pm,Mon 01 Feb 2021,,6589566,Finished increment of extracts,True,Site 9,,Datasource82,8:30 pm,Success,Finished increment of extracts,8:49 pm,,0.013298611,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+8:30 pm,Wed 03 Feb 2021,,6602157,Finished increment of extracts,True,Site 9,,Datasource39,8:30 pm,Success,Finished increment of extracts,8:49 pm,,0.013321759,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+12:30 am,Thu 04 Feb 2021,,6603160,Finished increment of extracts,True,Site 9,,Datasource82,12:30 am,Success,Finished increment of extracts,12:50 am,,0.013981481,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:30 am,Wed 03 Feb 2021,,6597846,Finished increment of extracts,True,Site 9,,Datasource82,4:30 am,Success,Finished increment of extracts,4:51 am,,0.014548611,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+8:30 pm,Tue 02 Feb 2021,,6595836,Finished increment of extracts,True,Site 9,,Datasource39,8:30 pm,Success,Finished increment of extracts,8:53 pm,,0.016157407,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+6:00 am,Thu 04 Feb 2021,,6604468,Finished refresh of extracts,True,Site 9,,Datasource102,6:00 am,Success,Finished refresh of extracts,6:23 am,,0.016354167,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+6:00 am,Thu 04 Feb 2021,,6604471,Finished refresh of extracts,True,Site 9,,Datasource107,6:00 am,Success,Finished refresh of extracts,6:24 am,,0.016909722,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:30 am,Wed 03 Feb 2021,,6597844,Finished increment of extracts,True,Site 9,,Datasource39,4:30 am,Success,Finished increment of extracts,4:55 am,,0.017557870,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:00 am,Wed 03 Feb 2021,,6597713,Finished refresh of extracts,True,Site 9,,Datasource88,4:00 am,Success,Finished refresh of extracts,4:25 am,,0.017847222,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:30 am,Tue 02 Feb 2021,,6591569,Finished increment of extracts,True,Site 9,,Datasource82,4:30 am,Success,Finished increment of extracts,4:57 am,,0.019189815,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+8:30 pm,Mon 01 Feb 2021,,6589564,Finished increment of extracts,True,Site 9,,Datasource39,8:30 pm,Success,Finished increment of extracts,8:58 pm,,0.019386574,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+12:00 pm,Fri 05 Feb 2021,,6612614,Finished refresh of extracts,True,Site 9,,Datasource40,12:00 pm,Success,Finished refresh of extracts,12:28 pm,,0.019421296,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+12:30 am,Thu 04 Feb 2021,,6603161,Finished increment of extracts,True,Site 9,,Datasource40,12:30 am,Success,Finished increment of extracts,1:02 am,,0.021840278,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+12:30 am,Tue 02 Feb 2021,,6590569,Finished increment of extracts,True,Site 9,,Datasource38,12:30 am,Success,Finished increment of extracts,1:07 am,,0.025185185,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+12:00 pm,Fri 05 Feb 2021,,6612612,Finished refresh of extracts,True,Site 9,,Datasource39,12:00 pm,Success,Finished refresh of extracts,12:38 pm,,0.025949074,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+12:30 am,Wed 03 Feb 2021,,6596832,Finished increment of extracts,True,Site 9,,Datasource39,12:30 am,Success,Finished increment of extracts,1:10 am,,0.027986111,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+12:30 am,Tue 02 Feb 2021,,6590568,Finished increment of extracts,True,Site 9,,Datasource39,12:30 am,Success,Finished increment of extracts,1:16 am,,0.031493056,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:30 am,Tue 02 Feb 2021,,6591567,Finished increment of extracts,True,Site 9,,Datasource39,4:30 am,Success,Finished increment of extracts,5:16 am,,0.032407407,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+12:30 am,Thu 04 Feb 2021,,6603158,Finished increment of extracts,True,Site 9,,Datasource39,12:30 am,Success,Finished increment of extracts,1:28 am,,0.040358796,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+8:30 pm,Wed 03 Feb 2021,,6602159,Finished increment of extracts,True,Site 9,,Datasource82,8:30 pm,Success,Finished increment of extracts,9:35 pm,,0.045081019,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:30 am,Thu 04 Feb 2021,,6604177,Finished increment of extracts,True,Site 9,,Datasource82,4:30 am,Success,Finished increment of extracts,6:46 am,,0.094537037,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:30 am,Thu 04 Feb 2021,,6604176,Finished increment of extracts,True,Site 9,,Datasource38,4:30 am,Success,Finished increment of extracts,7:14 am,,0.114212963,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+4:30 am,Thu 04 Feb 2021,,6604178,Finished increment of extracts,True,Site 9,,Datasource40,4:30 am,Success,Finished increment of extracts,7:22 am,,0.120092593,1/1/2021 5:00:00 PM,1/1/2021 8:00:00 AM
+,Fri 05 Feb 2021,Success,6611620,Finished refresh of extracts,,Site 9,8:30 am,Datasource41,8:30 am,,Finished refresh of extracts,8:30 am,1.157407407e-05,,,
+,Thu 04 Feb 2021,Success,6606997,Finished refresh of extracts,,Site 9,2:30 pm,Datasource41,2:30 pm,,Finished refresh of extracts,2:30 pm,1.157407407e-05,,,
+,Mon 01 Feb 2021,Success,6589561,Finished refresh of extracts,,Site 9,8:30 pm,Datasource41,8:30 pm,,Finished refresh of extracts,8:30 pm,1.157407407e-05,,,
+,Mon 01 Feb 2021,Failed,6587296,DataSourceException,,Site 9,11:20 am,Workbook51,11:20 am,,DataSourceException,11:20 am,1.157407407e-05,,,
+,Tue 02 Feb 2021,Success,6592542,Finished refresh of extracts,,Site 9,8:01 am,Datasource41,8:00 am,,Finished refresh of extracts,8:01 am,2.314814815e-05,,,
+,Wed 03 Feb 2021,Success,6600650,Finished refresh of extracts,,Site 9,2:30 pm,Datasource41,2:30 pm,,Finished refresh of extracts,2:30 pm,2.314814815e-05,,,
+,Tue 02 Feb 2021,Success,6595833,Finished refresh of extracts,,Site 9,8:30 pm,Datasource41,8:30 pm,,Finished refresh of extracts,8:30 pm,2.314814815e-05,,,
+,Mon 01 Feb 2021,Failed,6587110,DataSourceException,,Site 9,11:08 am,Workbook51,11:01 am,,DataSourceException,11:08 am,2.314814815e-05,,,
+,Mon 01 Feb 2021,Success,6584737,Finished refresh of extracts,,Site 9,2:30 am,Datasource41,2:30 am,,Finished refresh of extracts,2:30 am,3.472222222e-05,,,
+,Thu 04 Feb 2021,Success,6603671,Finished refresh of extracts,,Site 9,2:31 am,Datasource41,2:30 am,,Finished refresh of extracts,2:31 am,3.472222222e-05,,,
+,Fri 05 Feb 2021,Success,6611494,Finished refresh of extracts,,Site 9,8:01 am,Datasource41,8:00 am,,Finished refresh of extracts,8:01 am,3.472222222e-05,,,
+,Thu 04 Feb 2021,Success,6605185,Finished refresh of extracts,,Site 9,8:01 am,Datasource41,8:00 am,,Finished refresh of extracts,8:01 am,3.472222222e-05,,,
+,Mon 01 Feb 2021,Success,6586261,Finished refresh of extracts,,Site 9,8:01 am,Datasource41,8:00 am,,Finished refresh of extracts,8:01 am,3.472222222e-05,,,
+,Wed 03 Feb 2021,Success,6598821,Finished refresh of extracts,,Site 9,8:01 am,Datasource41,8:00 am,,Finished refresh of extracts,8:01 am,3.472222222e-05,,,
+,Thu 04 Feb 2021,Success,6605363,Finished refresh of extracts,,Site 9,8:30 am,Datasource41,8:30 am,,Finished refresh of extracts,8:30 am,3.472222222e-05,,,
+,Tue 02 Feb 2021,Success,6592701,Finished refresh of extracts,,Site 9,8:30 am,Datasource41,8:30 am,,Finished refresh of extracts,8:30 am,3.472222222e-05,,,
+,Wed 03 Feb 2021,Success,6598991,Finished refresh of extracts,,Site 9,8:30 am,Datasource41,8:30 am,,Finished refresh of extracts,8:30 am,3.472222222e-05,,,
+,Mon 01 Feb 2021,Success,6586437,Finished refresh of extracts,,Site 9,8:30 am,Datasource41,8:30 am,,Finished refresh of extracts,8:30 am,3.472222222e-05,,,
+,Mon 01 Feb 2021,Success,6588090,Finished refresh of extracts,,Site 9,2:30 pm,Datasource41,2:30 pm,,Finished refresh of extracts,2:30 pm,3.472222222e-05,,,
+,Wed 03 Feb 2021,Success,6602152,Finished refresh of extracts,,Site 9,8:30 pm,Datasource41,8:30 pm,,Finished refresh of extracts,8:30 pm,3.472222222e-05,,,
+,Thu 04 Feb 2021,Success,6608465,Finished refresh of extracts,,Site 9,8:30 pm,Datasource41,8:30 pm,,Finished refresh of extracts,8:30 pm,3.472222222e-05,,,
+,Mon 01 Feb 2021,Success,6585889,Finished refresh of extracts,,Site 9,6:30 am,Datasource52,6:30 am,,Finished refresh of extracts,6:30 am,3.472222222e-05,,,
+,Fri 05 Feb 2021,Success,6611076,Finished refresh of extracts,,Site 9,6:30 am,Datasource52,6:30 am,,Finished refresh of extracts,6:30 am,3.472222222e-05,,,
+,Tue 02 Feb 2021,Success,6592176,Finished refresh of extracts,,Site 9,6:30 am,Datasource52,6:30 am,,Finished refresh of extracts,6:30 am,3.472222222e-05,,,
+,Fri 05 Feb 2021,Success,6609975,Finished refresh of extracts,,Site 9,2:30 am,Datasource41,2:30 am,,Finished refresh of extracts,2:30 am,4.629629630e-05,,,
+,Tue 02 Feb 2021,Success,6591427,Finished refresh of extracts,,Site 9,4:00 am,Datasource98,4:00 am,,Finished refresh of extracts,4:00 am,4.629629630e-05,,,
+,Fri 05 Feb 2021,Success,6613256,Finished refresh of extracts,,Site 9,2:30 pm,Datasource41,2:30 pm,,Finished refresh of extracts,2:30 pm,5.787037037e-05,,,
+,Mon 01 Feb 2021,Success,6585089,Finished refresh of extracts,,Site 9,4:00 am,Datasource85,4:00 am,,Finished refresh of extracts,4:00 am,5.787037037e-05,,,
+,Thu 04 Feb 2021,Success,6604031,Finished refresh of extracts,,Site 9,4:00 am,Datasource85,4:00 am,,Finished refresh of extracts,4:00 am,5.787037037e-05,,,
+,Wed 03 Feb 2021,Success,6597709,Finished refresh of extracts,,Site 9,4:00 am,Datasource85,4:00 am,,Finished refresh of extracts,4:00 am,5.787037037e-05,,,
+,Fri 05 Feb 2021,Success,6610332,Finished refresh of extracts,,Site 9,4:01 am,Datasource85,4:00 am,,Finished refresh of extracts,4:01 am,5.787037037e-05,,,
+,Mon 01 Feb 2021,Success,6585084,Finished refresh of extracts,,Site 9,4:00 am,Datasource95,4:00 am,,Finished refresh of extracts,4:00 am,5.787037037e-05,,,
+,Thu 04 Feb 2021,Success,6604026,Finished refresh of extracts,,Site 9,4:00 am,Datasource95,4:00 am,,Finished refresh of extracts,4:00 am,5.787037037e-05,,,
+,Wed 03 Feb 2021,Success,6597704,Finished refresh of extracts,,Site 9,4:00 am,Datasource95,4:00 am,,Finished refresh of extracts,4:00 am,5.787037037e-05,,,
+,Mon 01 Feb 2021,Success,6585090,Finished refresh of extracts,,Site 9,4:00 am,Datasource98,4:00 am,,Finished refresh of extracts,4:00 am,5.787037037e-05,,,
+,Wed 03 Feb 2021,Success,6597710,Finished refresh of extracts,,Site 9,4:00 am,Datasource98,4:00 am,,Finished refresh of extracts,4:00 am,5.787037037e-05,,,
+,Thu 04 Feb 2021,Success,6604032,Finished refresh of extracts,,Site 9,4:00 am,Datasource98,4:00 am,,Finished refresh of extracts,4:00 am,5.787037037e-05,,,
+,Tue 02 Feb 2021,Success,6591074,Finished refresh of extracts,,Site 9,2:30 am,Datasource41,2:30 am,,Finished refresh of extracts,2:30 am,6.944444444e-05,,,
+,Thu 04 Feb 2021,Success,6604802,Finished refresh of extracts,,Site 9,6:30 am,Datasource52,6:30 am,,Finished refresh of extracts,6:30 am,6.944444444e-05,,,
+,Wed 03 Feb 2021,Success,6598443,Finished increment of extracts,,Site 9,6:30 am,Datasource76,6:30 am,,Finished increment of extracts,6:30 am,6.944444444e-05,,,
+,Tue 02 Feb 2021,Success,6591426,Finished refresh of extracts,,Site 9,4:00 am,Datasource85,4:00 am,,Finished refresh of extracts,4:00 am,6.944444444e-05,,,
+,Tue 02 Feb 2021,Success,6591423,Finished refresh of extracts,,Site 9,4:00 am,Datasource86,4:00 am,,Finished refresh of extracts,4:00 am,6.944444444e-05,,,
+,Tue 02 Feb 2021,Success,6591421,Finished refresh of extracts,,Site 9,4:00 am,Datasource95,4:00 am,,Finished refresh of extracts,4:00 am,6.944444444e-05,,,
+,Fri 05 Feb 2021,Success,6610327,Finished refresh of extracts,,Site 9,4:01 am,Datasource95,4:00 am,,Finished refresh of extracts,4:01 am,6.944444444e-05,,,
+,Fri 05 Feb 2021,Success,6610333,Finished refresh of extracts,,Site 9,4:00 am,Datasource98,4:00 am,,Finished refresh of extracts,4:00 am,6.944444444e-05,,,
+,Wed 03 Feb 2021,Success,6597348,Finished refresh of extracts,,Site 9,2:30 am,Datasource41,2:30 am,,Finished refresh of extracts,2:30 am,8.101851852e-05,,,
+,Tue 02 Feb 2021,Success,6592842,Finished refresh of extracts,,Site 9,9:01 am,Datasource55,9:00 am,,Finished refresh of extracts,9:01 am,8.101851852e-05,,,
+,Mon 01 Feb 2021,Success,6586574,Finished refresh of extracts,,Site 9,9:02 am,Datasource55,9:00 am,,Finished refresh of extracts,9:02 am,8.101851852e-05,,,
+,Thu 04 Feb 2021,Success,6605500,Finished refresh of extracts,,Site 9,9:02 am,Datasource55,9:00 am,,Finished refresh of extracts,9:02 am,8.101851852e-05,,,
+,Mon 01 Feb 2021,Success,6585086,Finished refresh of extracts,,Site 9,4:00 am,Datasource86,4:00 am,,Finished refresh of extracts,4:00 am,8.101851852e-05,,,
+,Thu 04 Feb 2021,Success,6604028,Finished refresh of extracts,,Site 9,4:00 am,Datasource86,4:00 am,,Finished refresh of extracts,4:00 am,8.101851852e-05,,,
+,Wed 03 Feb 2021,Success,6597706,Finished refresh of extracts,,Site 9,4:00 am,Datasource86,4:00 am,,Finished refresh of extracts,4:00 am,8.101851852e-05,,,
+,Tue 02 Feb 2021,Success,6594321,Finished refresh of extracts,,Site 9,2:30 pm,Datasource41,2:30 pm,,Finished refresh of extracts,2:30 pm,9.259259259e-05,,,
+,Mon 01 Feb 2021,Success,6585881,Finished increment of extracts,,Site 9,6:30 am,Datasource76,6:30 am,,Finished increment of extracts,6:30 am,9.259259259e-05,,,
+,Fri 05 Feb 2021,Success,6610329,Finished refresh of extracts,,Site 9,4:01 am,Datasource86,4:00 am,,Finished refresh of extracts,4:01 am,9.259259259e-05,,,
+,Mon 01 Feb 2021,Success,6585091,Finished refresh of extracts,,Site 9,4:00 am,Datasource87,4:00 am,,Finished refresh of extracts,4:00 am,9.259259259e-05,,,
+,Tue 02 Feb 2021,Success,6591428,Finished refresh of extracts,,Site 9,4:00 am,Datasource87,4:00 am,,Finished refresh of extracts,4:00 am,9.259259259e-05,,,
+,Thu 04 Feb 2021,Success,6604033,Finished refresh of extracts,,Site 9,4:00 am,Datasource87,4:00 am,,Finished refresh of extracts,4:00 am,9.259259259e-05,,,
+,Tue 02 Feb 2021,Success,6593704,Finished refresh of extracts,,Site 9,12:00 pm,Datasource83,12:00 pm,,Finished refresh of extracts,12:00 pm,0.000104167,,,
+,Mon 01 Feb 2021,Success,6587462,Finished refresh of extracts,,Site 9,12:01 pm,Datasource83,12:00 pm,,Finished refresh of extracts,12:01 pm,0.000104167,,,
+,Wed 03 Feb 2021,Success,6597711,Finished refresh of extracts,,Site 9,4:00 am,Datasource87,4:00 am,,Finished refresh of extracts,4:00 am,0.000104167,,,
+,Fri 05 Feb 2021,Success,6610334,Finished refresh of extracts,,Site 9,4:01 am,Datasource87,4:00 am,,Finished refresh of extracts,4:01 am,0.000104167,,,
+,Wed 03 Feb 2021,Success,6598451,Finished refresh of extracts,,Site 9,6:30 am,Datasource52,6:30 am,,Finished refresh of extracts,6:30 am,0.000115741,,,
+,Mon 01 Feb 2021,Success,6586305,Finished refresh of extracts,,Site 9,8:01 am,Datasource83,8:00 am,,Finished refresh of extracts,8:01 am,0.000115741,,,
+,Wed 03 Feb 2021,Success,6600021,Finished refresh of extracts,,Site 9,12:01 pm,Datasource83,12:00 pm,,Finished refresh of extracts,12:01 pm,0.000115741,,,
+,Thu 04 Feb 2021,Success,6606376,Finished refresh of extracts,,Site 9,12:01 pm,Datasource83,12:00 pm,,Finished refresh of extracts,12:01 pm,0.000115741,,,
+,Mon 01 Feb 2021,Success,6585522,Finished refresh of extracts,,Site 9,6:08 am,Workbook51,6:00 am,,Finished refresh of extracts,6:08 am,0.000115741,,,
+,Tue 02 Feb 2021,Success,6593378,Finished refresh of extracts,,Site 9,11:02 am,Workbook51,11:00 am,,Finished refresh of extracts,11:02 am,0.000115741,,,
+,Fri 05 Feb 2021,Success,6612292,Finished refresh of extracts,,Site 9,11:02 am,Workbook51,11:00 am,,Finished refresh of extracts,11:02 am,0.000115741,,,
+,Mon 01 Feb 2021,Success,6587309,Finished refresh of extracts,,Site 9,11:23 am,Workbook51,11:23 am,,Finished refresh of extracts,11:23 am,0.000115741,,,
+,Thu 04 Feb 2021,Success,6604794,Finished increment of extracts,,Site 9,6:30 am,Datasource76,6:30 am,,Finished increment of extracts,6:30 am,0.000127315,,,
+,Fri 05 Feb 2021,Success,6611068,Finished increment of extracts,,Site 9,6:30 am,Datasource76,6:30 am,,Finished increment of extracts,6:30 am,0.000127315,,,
+,Tue 02 Feb 2021,Success,6592168,Finished increment of extracts,,Site 9,6:30 am,Datasource76,6:30 am,,Finished increment of extracts,6:30 am,0.000127315,,,
+,Tue 02 Feb 2021,Success,6591865,Finished refresh of extracts,,Site 9,6:07 am,Workbook51,6:00 am,,Finished refresh of extracts,6:07 am,0.000127315,,,
+,Wed 03 Feb 2021,Success,6598139,Finished refresh of extracts,,Site 9,6:08 am,Workbook51,6:00 am,,Finished refresh of extracts,6:08 am,0.000127315,,,
+,Thu 04 Feb 2021,Success,6606045,Finished refresh of extracts,,Site 9,11:02 am,Workbook51,11:00 am,,Finished refresh of extracts,11:02 am,0.000127315,,,
+,Wed 03 Feb 2021,Success,6599677,Finished refresh of extracts,,Site 9,11:02 am,Workbook51,11:00 am,,Finished refresh of extracts,11:02 am,0.000127315,,,
+,Fri 05 Feb 2021,Success,6610766,Finished refresh of extracts,,Site 9,6:09 am,Workbook51,6:00 am,,Finished refresh of extracts,6:09 am,0.000150463,,,
+,Thu 04 Feb 2021,Success,6604490,Finished refresh of extracts,,Site 9,6:12 am,Workbook51,6:00 am,,Finished refresh of extracts,6:12 am,0.000173611,,,
+,Wed 03 Feb 2021,Success,6598442,Finished refresh of extracts,,Site 9,6:30 am,Workbook51,6:30 am,,Finished refresh of extracts,6:30 am,0.000185185,,,
+,Mon 01 Feb 2021,Success,6585880,Finished refresh of extracts,,Site 9,6:30 am,Workbook51,6:30 am,,Finished refresh of extracts,6:30 am,0.000196759,,,
+,Tue 02 Feb 2021,Success,6592167,Finished refresh of extracts,,Site 9,6:31 am,Workbook51,6:30 am,,Finished refresh of extracts,6:31 am,0.000196759,,,
+,Wed 03 Feb 2021,Success,6598140,Finished refresh of extracts,,Site 9,6:10 am,Workbook51,6:00 am,,Finished refresh of extracts,6:10 am,0.000219907,,,
+,Fri 05 Feb 2021,Success,6611067,Finished refresh of extracts,,Site 9,6:31 am,Workbook51,6:30 am,,Finished refresh of extracts,6:31 am,0.000231481,,,
+,Mon 01 Feb 2021,Success,6585523,Finished refresh of extracts,,Site 9,6:09 am,Workbook51,6:00 am,,Finished refresh of extracts,6:09 am,0.000243056,,,
+,Fri 05 Feb 2021,Success,6610767,Finished refresh of extracts,,Site 9,6:11 am,Workbook51,6:00 am,,Finished refresh of extracts,6:11 am,0.000243056,,,
+,Tue 02 Feb 2021,Success,6591866,Finished refresh of extracts,,Site 9,6:09 am,Workbook51,6:00 am,,Finished refresh of extracts,6:09 am,0.000254630,,,
+,Thu 04 Feb 2021,Success,6604492,Finished refresh of extracts,,Site 9,6:14 am,Workbook51,6:00 am,,Finished refresh of extracts,6:14 am,0.000289352,,,
+,Thu 04 Feb 2021,Success,6604793,Finished refresh of extracts,,Site 9,6:31 am,Workbook51,6:30 am,,Finished refresh of extracts,6:31 am,0.000289352,,,
+,Tue 02 Feb 2021,Success,6592163,Finished refresh of extracts,,Site 9,6:31 am,Datasource96,6:30 am,,Finished refresh of extracts,6:31 am,0.000300926,,,
+,Wed 03 Feb 2021,Success,6599111,Finished refresh of extracts,,Site 9,9:01 am,Datasource55,9:00 am,,Finished refresh of extracts,9:01 am,0.0003125,,,
+,Mon 01 Feb 2021,Success,6585876,Finished refresh of extracts,,Site 9,6:30 am,Datasource96,6:30 am,,Finished refresh of extracts,6:30 am,0.0003125,,,
+,Wed 03 Feb 2021,Success,6598438,Finished refresh of extracts,,Site 9,6:31 am,Datasource96,6:30 am,,Finished refresh of extracts,6:31 am,0.0003125,,,
+,Thu 04 Feb 2021,Success,6608441,Finished refresh of extracts,,Site 9,8:12 pm,Datasource105,8:12 pm,,Finished refresh of extracts,8:12 pm,0.000335648,,,
+,Wed 03 Feb 2021,Success,6597703,Finished refresh of extracts,,Site 9,4:01 am,Datasource92,4:00 am,,Finished refresh of extracts,4:01 am,0.000370370,,,
+,Mon 01 Feb 2021,Success,6585083,Finished refresh of extracts,,Site 9,4:01 am,Datasource92,4:00 am,,Finished refresh of extracts,4:01 am,0.000381944,,,
+,Fri 05 Feb 2021,Success,6611063,Finished refresh of extracts,,Site 9,6:31 am,Datasource96,6:30 am,,Finished refresh of extracts,6:31 am,0.000381944,,,
+,Thu 04 Feb 2021,Success,6604789,Finished refresh of extracts,,Site 9,6:31 am,Datasource96,6:30 am,,Finished refresh of extracts,6:31 am,0.000381944,,,
+,Tue 02 Feb 2021,Success,6591855,Finished refresh of extracts,,Site 9,6:14 am,Datasource102,6:00 am,,Finished refresh of extracts,6:14 am,0.000393519,,,
+,Mon 01 Feb 2021,Success,6585882,Finished increment of extracts,,Site 9,6:30 am,Datasource20,6:30 am,,Finished increment of extracts,6:30 am,0.000405093,,,
+,Mon 01 Feb 2021,Success,6587446,Finished refresh of extracts,,Site 9,12:05 pm,Datasource166,12:00 pm,,Finished refresh of extracts,12:05 pm,0.000416667,,,
+,Wed 03 Feb 2021,Success,6598444,Finished increment of extracts,,Site 9,6:30 am,Datasource20,6:30 am,,Finished increment of extracts,6:30 am,0.000428241,,,
+,Tue 02 Feb 2021,Success,6591420,Finished refresh of extracts,,Site 9,4:01 am,Datasource92,4:00 am,,Finished refresh of extracts,4:01 am,0.000439815,,,
+,Thu 04 Feb 2021,Success,6604025,Finished refresh of extracts,,Site 9,4:01 am,Datasource92,4:00 am,,Finished refresh of extracts,4:01 am,0.000439815,,,
+,Thu 04 Feb 2021,Success,6605804,Finished refresh of extracts,,Site 9,10:04 am,Datasource104,10:00 am,,Finished refresh of extracts,10:04 am,0.000439815,,,
+,Mon 01 Feb 2021,Success,6586576,Finished refresh of extracts,,Site 9,9:07 am,Datasource116,9:00 am,,Finished refresh of extracts,9:07 am,0.000439815,,,
+,Wed 03 Feb 2021,Success,6599112,Finished refresh of extracts,,Site 9,9:03 am,Datasource116,9:00 am,,Finished refresh of extracts,9:03 am,0.000451389,,,
+,Tue 02 Feb 2021,Success,6592169,Finished increment of extracts,,Site 9,6:30 am,Datasource20,6:30 am,,Finished increment of extracts,6:30 am,0.000462963,,,
+,Thu 04 Feb 2021,Success,6604795,Finished increment of extracts,,Site 9,6:30 am,Datasource20,6:30 am,,Finished increment of extracts,6:30 am,0.000474537,,,
+,Fri 05 Feb 2021,Success,6610326,Finished refresh of extracts,,Site 9,4:02 am,Datasource92,4:00 am,,Finished refresh of extracts,4:02 am,0.000474537,,,
+,Wed 03 Feb 2021,Success,6597707,Finished refresh of extracts,,Site 9,4:02 am,Datasource97,4:00 am,,Finished refresh of extracts,4:02 am,0.000509259,,,
+,Thu 04 Feb 2021,Success,6604468,Finished refresh of extracts,,Site 9,6:23 am,Datasource102,6:00 am,,Finished refresh of extracts,6:23 am,0.000509259,,,
+,Tue 02 Feb 2021,Success,6591856,Finished refresh of extracts,,Site 9,6:13 am,Datasource107,6:00 am,,Finished refresh of extracts,6:13 am,0.000543981,,,
+,Fri 05 Feb 2021,Success,6611069,Finished increment of extracts,,Site 9,6:30 am,Datasource20,6:30 am,,Finished increment of extracts,6:30 am,0.000601852,,,
+,Mon 01 Feb 2021,Success,6585087,Finished refresh of extracts,,Site 9,4:01 am,Datasource97,4:00 am,,Finished refresh of extracts,4:01 am,0.000601852,,,
+,Mon 01 Feb 2021,Success,6585878,Finished refresh of extracts,,Site 9,6:31 am,Datasource77,6:30 am,,Finished refresh of extracts,6:31 am,0.000636574,,,
+,Mon 01 Feb 2021,Success,6587449,Finished refresh of extracts,,Site 9,12:02 pm,Datasource144,12:00 pm,,Finished refresh of extracts,12:02 pm,0.000659722,,,
+,Thu 04 Feb 2021,Success,6604791,Finished refresh of extracts,,Site 9,6:32 am,Datasource77,6:30 am,,Finished refresh of extracts,6:32 am,0.000671296,,,
+,Thu 04 Feb 2021,Success,6604471,Finished refresh of extracts,,Site 9,6:24 am,Datasource107,6:00 am,,Finished refresh of extracts,6:24 am,0.000671296,,,
+,Fri 05 Feb 2021,Success,6610330,Finished refresh of extracts,,Site 9,4:02 am,Datasource97,4:00 am,,Finished refresh of extracts,4:02 am,0.000682870,,,
+,Mon 01 Feb 2021,Success,6585513,Finished refresh of extracts,,Site 9,6:15 am,Datasource107,6:00 am,,Finished refresh of extracts,6:15 am,0.000694444,,,
+,Tue 02 Feb 2021,Success,6591424,Finished refresh of extracts,,Site 9,4:01 am,Datasource97,4:00 am,,Finished refresh of extracts,4:01 am,0.000798611,,,
+,Mon 01 Feb 2021,Success,6586866,Finished refresh of extracts,,Site 9,10:03 am,Datasource104,10:00 am,,Finished refresh of extracts,10:03 am,0.000798611,,,
+,Tue 02 Feb 2021,Success,6592174,Finished refresh of extracts,,Site 9,6:31 am,Datasource103,6:30 am,,Finished refresh of extracts,6:31 am,0.000810185,,,
+,Thu 04 Feb 2021,Success,6604029,Finished refresh of extracts,,Site 9,4:01 am,Datasource97,4:00 am,,Finished refresh of extracts,4:01 am,0.000856481,,,
+,Mon 01 Feb 2021,Success,6585082,Finished refresh of extracts,,Site 9,4:02 am,Datasource91,4:00 am,,Finished refresh of extracts,4:02 am,0.000960648,,,
+,Mon 01 Feb 2021,Success,6585887,Finished refresh of extracts,,Site 9,6:30 am,Datasource103,6:30 am,,Finished refresh of extracts,6:30 am,0.000960648,,,
+,Wed 03 Feb 2021,Failed,6598440,DataSourceException,,Site 9,6:31 am,Datasource77,6:30 am,,DataSourceException,6:31 am,0.000983796,,,
+,Wed 03 Feb 2021,Success,6598129,Finished refresh of extracts,,Site 9,6:11 am,Datasource102,6:00 am,,Finished refresh of extracts,6:11 am,0.001041667,,,
+,Wed 03 Feb 2021,Success,6597702,Finished refresh of extracts,,Site 9,4:03 am,Datasource91,4:00 am,,Finished refresh of extracts,4:03 am,0.001064815,,,
+,Thu 04 Feb 2021,Success,6604792,Finished refresh of extracts,,Site 9,6:32 am,Workbook50,6:30 am,,Finished refresh of extracts,6:32 am,0.001064815,,,
+,Thu 04 Feb 2021,Success,6605509,Finished refresh of extracts,,Site 9,9:05 am,Datasource105,9:00 am,,Finished refresh of extracts,9:05 am,0.001134259,,,
+,Tue 02 Feb 2021,Success,6592844,Finished refresh of extracts,,Site 9,9:03 am,Datasource116,9:00 am,,Finished refresh of extracts,9:03 am,0.001157407,,,
+,Fri 05 Feb 2021,Success,6611074,Finished refresh of extracts,,Site 9,6:31 am,Datasource103,6:30 am,,Finished refresh of extracts,6:31 am,0.001215278,,,
+,Thu 04 Feb 2021,Success,6605503,Finished refresh of extracts,,Site 9,9:04 am,Workbook183,9:00 am,,Finished refresh of extracts,9:04 am,0.00125,,,
+,Tue 02 Feb 2021,Success,6592166,Finished refresh of extracts,,Site 9,6:31 am,Workbook50,6:30 am,,Finished refresh of extracts,6:31 am,0.001261574,,,
+,Mon 01 Feb 2021,Success,6585095,Finished refresh of extracts,,Site 9,4:03 am,Workbook180,4:00 am,,Finished refresh of extracts,4:03 am,0.001261574,,,
+,Fri 05 Feb 2021,Success,6610325,Finished refresh of extracts,,Site 9,4:03 am,Datasource91,4:00 am,,Finished refresh of extracts,4:03 am,0.001296296,,,
+,Thu 04 Feb 2021,Success,6604024,Finished refresh of extracts,,Site 9,4:02 am,Datasource91,4:00 am,,Finished refresh of extracts,4:02 am,0.001354167,,,
+,Fri 05 Feb 2021,Success,6611066,Finished refresh of extracts,,Site 9,6:31 am,Workbook50,6:30 am,,Finished refresh of extracts,6:31 am,0.001354167,,,
+,Tue 02 Feb 2021,Success,6591419,Finished refresh of extracts,,Site 9,4:01 am,Datasource91,4:00 am,,Finished refresh of extracts,4:01 am,0.001412037,,,
+,Wed 03 Feb 2021,Success,6598441,Finished refresh of extracts,,Site 9,6:31 am,Workbook50,6:30 am,,Finished refresh of extracts,6:31 am,0.001423611,,,
+,Mon 01 Feb 2021,Success,6585512,Finished refresh of extracts,,Site 9,6:12 am,Datasource102,6:00 am,,Finished refresh of extracts,6:12 am,0.001516204,,,
+,Tue 02 Feb 2021,Success,6592846,Finished refresh of extracts,,Site 9,9:04 am,Workbook183,9:00 am,,Finished refresh of extracts,9:04 am,0.001516204,,,
+,Wed 03 Feb 2021,Success,6598449,Finished refresh of extracts,,Site 9,6:31 am,Datasource103,6:30 am,,Finished refresh of extracts,6:31 am,0.001550926,,,
+,Wed 03 Feb 2021,Success,6599114,Finished refresh of extracts,,Site 9,9:04 am,Workbook183,9:00 am,,Finished refresh of extracts,9:04 am,0.001574074,,,
+,Mon 01 Feb 2021,Success,6585879,Finished refresh of extracts,,Site 9,6:30 am,Workbook50,6:30 am,,Finished refresh of extracts,6:30 am,0.001689815,,,
+,Thu 04 Feb 2021,Success,6604800,Finished refresh of extracts,,Site 9,6:32 am,Datasource103,6:30 am,,Finished refresh of extracts,6:32 am,0.001712963,,,
+,Fri 05 Feb 2021,Success,6610757,Finished refresh of extracts,,Site 9,6:15 am,Datasource107,6:00 am,,Finished refresh of extracts,6:15 am,0.001736111,,,
+,Fri 05 Feb 2021,Success,6610477,Finished increment of extracts,,Site 9,4:34 am,Datasource39,4:30 am,,Finished increment of extracts,4:34 am,0.001759259,,,
+,Mon 01 Feb 2021,Success,6586578,Finished refresh of extracts,,Site 9,9:06 am,Workbook183,9:00 am,,Finished refresh of extracts,9:06 am,0.001828704,,,
+,Thu 04 Feb 2021,Success,6605361,Finished increment of extracts,,Site 9,8:33 am,Datasource40,8:30 am,,Finished increment of extracts,8:33 am,0.001851852,,,
+,Fri 05 Feb 2021,Success,6610756,Finished refresh of extracts,,Site 9,6:11 am,Datasource102,6:00 am,,Finished refresh of extracts,6:11 am,0.001851852,,,
+,Fri 05 Feb 2021,Success,6613391,Finished refresh of extracts,,Site 9,3:03 pm,Datasource108,3:00 pm,,Finished refresh of extracts,3:03 pm,0.001851852,,,
+,Fri 05 Feb 2021,Success,6610479,Finished increment of extracts,,Site 9,4:36 am,Datasource38,4:30 am,,Finished increment of extracts,4:36 am,0.001875,,,
+,Fri 05 Feb 2021,Success,6610481,Finished increment of extracts,,Site 9,4:39 am,Datasource82,4:30 am,,Finished increment of extracts,4:39 am,0.001875,,,
+,Wed 03 Feb 2021,Success,6597714,Finished refresh of extracts,,Site 9,4:04 am,Datasource93,4:00 am,,Finished refresh of extracts,4:04 am,0.001898148,,,
+,Mon 01 Feb 2021,Success,6585092,Finished refresh of extracts,,Site 9,4:04 am,Datasource90,4:00 am,,Finished refresh of extracts,4:04 am,0.001909722,,,
+,Tue 02 Feb 2021,Success,6591431,Finished refresh of extracts,,Site 9,4:04 am,Datasource93,4:00 am,,Finished refresh of extracts,4:04 am,0.001921296,,,
+,Mon 01 Feb 2021,Success,6585094,Finished refresh of extracts,,Site 9,4:04 am,Datasource93,4:00 am,,Finished refresh of extracts,4:04 am,0.001921296,,,
+,Wed 03 Feb 2021,Success,6598989,Finished increment of extracts,,Site 9,8:46 am,Datasource40,8:30 am,,Finished increment of extracts,8:46 am,0.001979167,,,
+,Thu 04 Feb 2021,Success,6604034,Finished refresh of extracts,,Site 9,4:03 am,Datasource90,4:00 am,,Finished refresh of extracts,4:03 am,0.002013889,,,
+,Fri 05 Feb 2021,Success,6611616,Finished increment of extracts,,Site 9,8:37 am,Datasource38,8:30 am,,Finished increment of extracts,8:37 am,0.002025463,,,
+,Wed 03 Feb 2021,Success,6597712,Finished refresh of extracts,,Site 9,4:05 am,Datasource90,4:00 am,,Finished refresh of extracts,4:05 am,0.002025463,,,
+,Wed 03 Feb 2021,Success,6600793,Finished refresh of extracts,,Site 9,3:07 pm,Datasource108,3:00 pm,,Finished refresh of extracts,3:07 pm,0.002037037,,,
+,Tue 02 Feb 2021,Success,6593145,Finished refresh of extracts,,Site 9,10:05 am,Datasource104,10:00 am,,Finished refresh of extracts,10:05 am,0.002060185,,,
+,Fri 05 Feb 2021,Success,6611618,Finished increment of extracts,,Site 9,8:40 am,Datasource40,8:30 am,,Finished increment of extracts,8:40 am,0.002071759,,,
+,Thu 04 Feb 2021,Success,6605359,Finished increment of extracts,,Site 9,8:30 am,Datasource38,8:30 am,,Finished increment of extracts,8:30 am,0.002118056,,,
+,Thu 04 Feb 2021,Success,6604036,Finished refresh of extracts,,Site 9,4:02 am,Datasource93,4:00 am,,Finished refresh of extracts,4:02 am,0.002118056,,,
+,Wed 03 Feb 2021,Success,6599426,Finished refresh of extracts,,Site 9,10:05 am,Datasource104,10:00 am,,Finished refresh of extracts,10:05 am,0.002118056,,,
+,Tue 02 Feb 2021,Success,6592165,Finished refresh of extracts,,Site 9,6:31 am,Datasource77,6:30 am,,Finished refresh of extracts,6:31 am,0.002129630,,,
+,Tue 02 Feb 2021,Success,6591429,Finished refresh of extracts,,Site 9,4:03 am,Datasource90,4:00 am,,Finished refresh of extracts,4:03 am,0.002141204,,,
+,Fri 05 Feb 2021,Success,6611617,Finished increment of extracts,,Site 9,8:34 am,Datasource82,8:30 am,,Finished increment of extracts,8:34 am,0.002175926,,,
+,Fri 05 Feb 2021,Success,6610482,Finished increment of extracts,,Site 9,4:30 am,Datasource40,4:30 am,,Finished increment of extracts,4:30 am,0.002222222,,,
+,Wed 03 Feb 2021,Success,6598448,Finished refresh of extracts,,Site 9,6:31 am,Datasource109,6:30 am,,Finished refresh of extracts,6:31 am,0.002233796,,,
+,Mon 01 Feb 2021,Success,6588227,Finished refresh of extracts,,Site 9,3:06 pm,Datasource108,3:00 pm,,Finished refresh of extracts,3:06 pm,0.002349537,,,
+,Fri 05 Feb 2021,Success,6610337,Finished refresh of extracts,,Site 9,4:03 am,Datasource93,4:00 am,,Finished refresh of extracts,4:03 am,0.002384259,,,
+,Fri 05 Feb 2021,Success,6611615,Finished increment of extracts,,Site 9,8:30 am,Datasource39,8:30 am,,Finished increment of extracts,8:30 am,0.002395833,,,
+,Fri 05 Feb 2021,Success,6611065,Finished refresh of extracts,,Site 9,6:31 am,Datasource77,6:30 am,,Finished refresh of extracts,6:31 am,0.002418981,,,
+,Fri 05 Feb 2021,Success,6610335,Finished refresh of extracts,,Site 9,4:03 am,Datasource90,4:00 am,,Finished refresh of extracts,4:03 am,0.002430556,,,
+,Fri 05 Feb 2021,Success,6611757,Finished refresh of extracts,,Site 9,9:03 am,Workbook183,9:00 am,,Finished refresh of extracts,9:03 am,0.002442130,,,
+,Tue 02 Feb 2021,Success,6592173,Finished refresh of extracts,,Site 9,6:31 am,Datasource109,6:30 am,,Finished refresh of extracts,6:31 am,0.002569444,,,
+,Fri 05 Feb 2021,Success,6609463,Finished increment of extracts,,Site 9,12:46 am,Datasource40,12:30 am,,Finished increment of extracts,12:46 am,0.002581019,,,
+,Thu 04 Feb 2021,Success,6605501,Finished refresh of extracts,,Site 9,9:03 am,Datasource116,9:00 am,,Finished refresh of extracts,9:03 am,0.002592593,,,
+,Mon 01 Feb 2021,Success,6585886,Finished refresh of extracts,,Site 9,6:31 am,Datasource109,6:30 am,,Finished refresh of extracts,6:31 am,0.002696759,,,
+,Wed 03 Feb 2021,Success,6598987,Finished increment of extracts,,Site 9,8:42 am,Datasource38,8:30 am,,Finished increment of extracts,8:42 am,0.002708333,,,
+,Wed 03 Feb 2021,Success,6597844,Finished increment of extracts,,Site 9,4:55 am,Datasource39,4:30 am,,Finished increment of extracts,4:55 am,0.002719907,,,
+,Tue 02 Feb 2021,Success,6592704,Finished increment of extracts,,Site 9,8:46 am,Datasource82,8:30 am,,Finished increment of extracts,8:46 am,0.002789352,,,
+,Fri 05 Feb 2021,Success,6609460,Finished increment of extracts,,Site 9,12:36 am,Datasource39,12:30 am,,Finished increment of extracts,12:36 am,0.0028125,,,
+,Thu 04 Feb 2021,Success,6605502,Finished refresh of extracts,,Site 9,9:05 am,Datasource117,9:00 am,,Finished refresh of extracts,9:05 am,0.002835648,,,
+,Tue 02 Feb 2021,Success,6592705,Finished increment of extracts,,Site 9,8:42 am,Datasource40,8:30 am,,Finished increment of extracts,8:42 am,0.002893519,,,
+,Thu 04 Feb 2021,Success,6607129,Finished refresh of extracts,,Site 9,3:04 pm,Datasource108,3:00 pm,,Finished refresh of extracts,3:04 pm,0.002905093,,,
+,Thu 04 Feb 2021,Success,6605360,Finished increment of extracts,,Site 9,8:36 am,Datasource82,8:30 am,,Finished increment of extracts,8:36 am,0.002916667,,,
+,Fri 05 Feb 2021,Success,6611753,Finished refresh of extracts,,Site 9,9:05 am,Datasource117,9:00 am,,Finished refresh of extracts,9:05 am,0.002928241,,,
+,Thu 04 Feb 2021,Success,6608470,Finished increment of extracts,,Site 9,8:44 pm,Datasource82,8:30 pm,,Finished increment of extracts,8:44 pm,0.002962963,,,
+,Fri 05 Feb 2021,Success,6611073,Finished refresh of extracts,,Site 9,6:31 am,Datasource109,6:30 am,,Finished refresh of extracts,6:31 am,0.002986111,,,
+,Wed 03 Feb 2021,Success,6597846,Finished increment of extracts,,Site 9,4:51 am,Datasource82,4:30 am,,Finished increment of extracts,4:51 am,0.003009259,,,
+,Wed 03 Feb 2021,Success,6602158,Finished increment of extracts,,Site 9,8:45 pm,Datasource38,8:30 pm,,Finished increment of extracts,8:45 pm,0.003043981,,,
+,Thu 04 Feb 2021,Success,6608468,Finished increment of extracts,,Site 9,8:48 pm,Datasource39,8:30 pm,,Finished increment of extracts,8:48 pm,0.003078704,,,
+,Tue 02 Feb 2021,Success,6592845,Finished refresh of extracts,,Site 9,9:05 am,Datasource117,9:00 am,,Finished refresh of extracts,9:05 am,0.003171296,,,
+,Mon 01 Feb 2021,Success,6586577,Finished refresh of extracts,,Site 9,9:07 am,Datasource117,9:00 am,,Finished refresh of extracts,9:07 am,0.003379630,,,
+,Mon 01 Feb 2021,Success,6586867,Finished refresh of extracts,,Site 9,10:05 am,Datasource145,10:00 am,,Finished refresh of extracts,10:05 am,0.003506944,,,
+,Tue 02 Feb 2021,Success,6595837,Finished increment of extracts,,Site 9,8:48 pm,Datasource38,8:30 pm,,Finished increment of extracts,8:48 pm,0.003541667,,,
+,Wed 03 Feb 2021,Success,6598986,Finished increment of extracts,,Site 9,8:30 am,Datasource39,8:30 am,,Finished increment of extracts,8:30 am,0.003541667,,,
+,Fri 05 Feb 2021,Success,6609461,Finished increment of extracts,,Site 9,12:40 am,Datasource38,12:30 am,,Finished increment of extracts,12:40 am,0.003738426,,,
+,Wed 03 Feb 2021,Success,6599113,Finished refresh of extracts,,Site 9,9:05 am,Datasource117,9:00 am,,Finished refresh of extracts,9:05 am,0.003854167,,,
+,Mon 01 Feb 2021,Success,6587464,Finished refresh of extracts,,Site 9,12:06 pm,Datasource38,12:00 pm,,Finished refresh of extracts,12:06 pm,0.003923611,,,
+,Thu 04 Feb 2021,Success,6608469,Finished increment of extracts,,Site 9,8:38 pm,Datasource38,8:30 pm,,Finished increment of extracts,8:38 pm,0.003946759,,,
+,Tue 02 Feb 2021,Success,6592703,Finished increment of extracts,,Site 9,8:36 am,Datasource38,8:30 am,,Finished increment of extracts,8:36 am,0.003958333,,,
+,Thu 04 Feb 2021,Success,6604799,Finished refresh of extracts,,Site 9,6:33 am,Datasource109,6:30 am,,Finished refresh of extracts,6:33 am,0.003969907,,,
+,Thu 04 Feb 2021,Success,6605805,Finished refresh of extracts,,Site 9,10:06 am,Datasource145,10:00 am,,Finished refresh of extracts,10:06 am,0.004085648,,,
+,Tue 02 Feb 2021,Success,6593706,Finished refresh of extracts,,Site 9,12:04 pm,Datasource38,12:00 pm,,Finished refresh of extracts,12:04 pm,0.004212963,,,
+,Wed 03 Feb 2021,Success,6602159,Finished increment of extracts,,Site 9,9:35 pm,Datasource82,8:30 pm,,Finished increment of extracts,9:35 pm,0.004212963,,,
+,Fri 05 Feb 2021,Success,6609462,Finished increment of extracts,,Site 9,12:30 am,Datasource82,12:30 am,,Finished increment of extracts,12:30 am,0.004224537,,,
+,Tue 02 Feb 2021,Success,6591432,Finished refresh of extracts,,Site 9,4:02 am,Workbook180,4:00 am,,Finished refresh of extracts,4:02 am,0.004224537,,,
+,Tue 02 Feb 2021,Success,6592702,Finished increment of extracts,,Site 9,8:30 am,Datasource39,8:30 am,,Finished increment of extracts,8:30 am,0.004236111,,,
+,Thu 04 Feb 2021,Success,6605358,Finished increment of extracts,,Site 9,8:40 am,Datasource39,8:30 am,,Finished increment of extracts,8:40 am,0.004502315,,,
+,Mon 01 Feb 2021,Success,6586307,Finished refresh of extracts,,Site 9,8:04 am,Datasource38,8:00 am,,Finished refresh of extracts,8:04 am,0.004571759,,,
+,Wed 03 Feb 2021,Success,6598988,Finished increment of extracts,,Site 9,8:35 am,Datasource82,8:30 am,,Finished increment of extracts,8:35 am,0.004664352,,,
+,Wed 03 Feb 2021,Success,6600023,Finished refresh of extracts,,Site 9,12:04 pm,Datasource38,12:00 pm,,Finished refresh of extracts,12:04 pm,0.004710648,,,
+,Mon 01 Feb 2021,Success,6589567,Finished increment of extracts,,Site 9,8:42 pm,Datasource40,8:30 pm,,Finished increment of extracts,8:42 pm,0.004722222,,,
+,Mon 01 Feb 2021,Success,6585884,Finished refresh of extracts,,Site 9,6:31 am,Datasource94,6:30 am,,Finished refresh of extracts,6:31 am,0.004814815,,,
+,Fri 05 Feb 2021,Success,6612613,Finished refresh of extracts,,Site 9,12:00 pm,Datasource38,12:00 pm,,Finished refresh of extracts,12:00 pm,0.004837963,,,
+,Thu 04 Feb 2021,Success,6606378,Finished refresh of extracts,,Site 9,12:04 pm,Datasource38,12:00 pm,,Finished refresh of extracts,12:04 pm,0.004884259,,,
+,Tue 02 Feb 2021,Success,6593143,Finished refresh of extracts,,Site 9,10:06 am,Datasource145,10:00 am,,Finished refresh of extracts,10:06 am,0.004918981,,,
+,Mon 01 Feb 2021,Success,6588514,Finished refresh of extracts,,Site 9,4:06 pm,Datasource38,4:00 pm,,Finished refresh of extracts,4:06 pm,0.004965278,,,
+,Mon 01 Feb 2021,Success,6587465,Finished refresh of extracts,,Site 9,12:07 pm,Datasource40,12:00 pm,,Finished refresh of extracts,12:07 pm,0.004988426,,,
+,Tue 02 Feb 2021,Success,6592171,Finished refresh of extracts,,Site 9,6:32 am,Datasource94,6:30 am,,Finished refresh of extracts,6:32 am,0.005162037,,,
+,Tue 02 Feb 2021,Success,6595839,Finished increment of extracts,,Site 9,8:40 pm,Datasource40,8:30 pm,,Finished increment of extracts,8:40 pm,0.005231481,,,
+,Wed 03 Feb 2021,Success,6598446,Finished refresh of extracts,,Site 9,6:31 am,Datasource94,6:30 am,,Finished refresh of extracts,6:31 am,0.005289352,,,
+,Fri 05 Feb 2021,Success,6611071,Finished refresh of extracts,,Site 9,6:33 am,Datasource94,6:30 am,,Finished refresh of extracts,6:33 am,0.0053125,,,
+,Mon 01 Feb 2021,Success,6586308,Finished refresh of extracts,,Site 9,8:05 am,Datasource40,8:00 am,,Finished refresh of extracts,8:05 am,0.005324074,,,
+,Tue 02 Feb 2021,Success,6591567,Finished increment of extracts,,Site 9,5:16 am,Datasource39,4:30 am,,Finished increment of extracts,5:16 am,0.005335648,,,
+,Fri 05 Feb 2021,Success,6612038,Finished refresh of extracts,,Site 9,10:07 am,Datasource145,10:00 am,,Finished refresh of extracts,10:07 am,0.005405093,,,
+,Wed 03 Feb 2021,Success,6598130,Finished refresh of extracts,,Site 9,6:12 am,Datasource107,6:00 am,,Finished refresh of extracts,6:12 am,0.005451389,,,
+,Thu 04 Feb 2021,Success,6604797,Finished refresh of extracts,,Site 9,6:33 am,Datasource94,6:30 am,,Finished refresh of extracts,6:33 am,0.005486111,,,
+,Thu 04 Feb 2021,Success,6608471,Finished increment of extracts,,Site 9,8:30 pm,Datasource40,8:30 pm,,Finished increment of extracts,8:30 pm,0.005532407,,,
+,Tue 02 Feb 2021,Success,6594729,Finished refresh of extracts,,Site 9,4:05 pm,Datasource38,4:00 pm,,Finished refresh of extracts,4:05 pm,0.005798611,,,
+,Wed 03 Feb 2021,Success,6596833,Finished increment of extracts,,Site 9,12:30 am,Datasource38,12:30 am,,Finished increment of extracts,12:30 am,0.005821759,,,
+,Thu 04 Feb 2021,Success,6604176,Finished increment of extracts,,Site 9,7:14 am,Datasource38,4:30 am,,Finished increment of extracts,7:14 am,0.005868056,,,
+,Wed 03 Feb 2021,Success,6597845,Finished increment of extracts,,Site 9,4:31 am,Datasource38,4:30 am,,Finished increment of extracts,4:31 am,0.005949074,,,
+,Thu 04 Feb 2021,Success,6606379,Finished refresh of extracts,,Site 9,12:04 pm,Datasource40,12:00 pm,,Finished refresh of extracts,12:04 pm,0.006018519,,,
+,Mon 01 Feb 2021,Success,6589566,Finished increment of extracts,,Site 9,8:49 pm,Datasource82,8:30 pm,,Finished increment of extracts,8:49 pm,0.006064815,,,
+,Mon 01 Feb 2021,Success,6588515,Finished refresh of extracts,,Site 9,4:06 pm,Datasource40,4:00 pm,,Finished refresh of extracts,4:06 pm,0.006261574,,,
+,Tue 02 Feb 2021,Success,6590569,Finished increment of extracts,,Site 9,1:07 am,Datasource38,12:30 am,,Finished increment of extracts,1:07 am,0.006296296,,,
+,Thu 04 Feb 2021,Success,6603158,Finished increment of extracts,,Site 9,1:28 am,Datasource39,12:30 am,,Finished increment of extracts,1:28 am,0.006365741,,,
+,Tue 02 Feb 2021,Success,6594730,Finished refresh of extracts,,Site 9,4:05 pm,Datasource40,4:00 pm,,Finished refresh of extracts,4:05 pm,0.006377315,,,
+,Tue 02 Feb 2021,Success,6593707,Finished refresh of extracts,,Site 9,12:05 pm,Datasource40,12:00 pm,,Finished refresh of extracts,12:05 pm,0.006412037,,,
+,Fri 05 Feb 2021,Success,6612614,Finished refresh of extracts,,Site 9,12:28 pm,Datasource40,12:00 pm,,Finished refresh of extracts,12:28 pm,0.006516204,,,
+,Thu 04 Feb 2021,Success,6604178,Finished increment of extracts,,Site 9,7:22 am,Datasource40,4:30 am,,Finished increment of extracts,7:22 am,0.006736111,,,
+,Wed 03 Feb 2021,Success,6596835,Finished increment of extracts,,Site 9,12:39 am,Datasource40,12:30 am,,Finished increment of extracts,12:39 am,0.006944444,,,
+,Wed 03 Feb 2021,Success,6601073,Finished refresh of extracts,,Site 9,4:05 pm,Datasource38,4:00 pm,,Finished refresh of extracts,4:05 pm,0.007256944,,,
+,Tue 02 Feb 2021,Success,6595838,Finished increment of extracts,,Site 9,8:30 pm,Datasource82,8:30 pm,,Finished increment of extracts,8:30 pm,0.007256944,,,
+,Fri 05 Feb 2021,Success,6612037,Finished refresh of extracts,,Site 9,10:07 am,Datasource104,10:00 am,,Finished refresh of extracts,10:07 am,0.007291667,,,
+,Wed 03 Feb 2021,Success,6600024,Finished refresh of extracts,,Site 9,12:05 pm,Datasource40,12:00 pm,,Finished refresh of extracts,12:05 pm,0.007604167,,,
+,Thu 04 Feb 2021,Success,6604037,Finished refresh of extracts,,Site 9,4:06 am,Workbook180,4:00 am,,Finished refresh of extracts,4:06 am,0.007673611,,,
+,Wed 03 Feb 2021,Success,6597847,Finished increment of extracts,,Site 9,4:39 am,Datasource40,4:30 am,,Finished increment of extracts,4:39 am,0.007789352,,,
+,Thu 04 Feb 2021,Success,6603160,Finished increment of extracts,,Site 9,12:50 am,Datasource82,12:30 am,,Finished increment of extracts,12:50 am,0.007800926,,,
+,Tue 02 Feb 2021,Success,6594455,Finished refresh of extracts,,Site 9,3:05 pm,Datasource108,3:00 pm,,Finished refresh of extracts,3:05 pm,0.007928241,,,
+,Mon 01 Feb 2021,Success,6585085,Finished refresh of extracts,,Site 9,4:05 am,Datasource84,4:00 am,,Finished refresh of extracts,4:05 am,0.008472222,,,
+,Mon 01 Feb 2021,Success,6589565,Finished increment of extracts,,Site 9,8:30 pm,Datasource38,8:30 pm,,Finished increment of extracts,8:30 pm,0.008530093,,,
+,Wed 03 Feb 2021,Success,6597705,Finished refresh of extracts,,Site 9,4:08 am,Datasource84,4:00 am,,Finished refresh of extracts,4:08 am,0.008541667,,,
+,Tue 02 Feb 2021,Success,6591422,Finished refresh of extracts,,Site 9,4:04 am,Datasource84,4:00 am,,Finished refresh of extracts,4:04 am,0.008680556,,,
+,Thu 04 Feb 2021,Success,6607399,Finished refresh of extracts,,Site 9,4:04 pm,Datasource38,4:00 pm,,Finished refresh of extracts,4:04 pm,0.008773148,,,
+,Wed 03 Feb 2021,Success,6601074,Finished refresh of extracts,,Site 9,4:05 pm,Datasource40,4:00 pm,,Finished refresh of extracts,4:05 pm,0.008819444,,,
+,Thu 04 Feb 2021,Success,6604027,Finished refresh of extracts,,Site 9,4:04 am,Datasource84,4:00 am,,Finished refresh of extracts,4:04 am,0.008819444,,,
+,Fri 05 Feb 2021,Success,6610328,Finished refresh of extracts,,Site 9,4:06 am,Datasource84,4:00 am,,Finished refresh of extracts,4:06 am,0.009027778,,,
+,Tue 02 Feb 2021,Success,6591568,Finished increment of extracts,,Site 9,4:30 am,Datasource38,4:30 am,,Finished increment of extracts,4:30 am,0.009166667,,,
+,Tue 02 Feb 2021,Success,6591570,Finished increment of extracts,,Site 9,4:43 am,Datasource40,4:30 am,,Finished increment of extracts,4:43 am,0.009953704,,,
+,Thu 04 Feb 2021,Success,6607400,Finished refresh of extracts,,Site 9,4:05 pm,Datasource40,4:00 pm,,Finished refresh of extracts,4:05 pm,0.009965278,,,
+,Wed 03 Feb 2021,Success,6602160,Finished increment of extracts,,Site 9,8:30 pm,Datasource40,8:30 pm,,Finished increment of extracts,8:30 pm,0.010243056,,,
+,Tue 02 Feb 2021,Success,6590571,Finished increment of extracts,,Site 9,12:30 am,Datasource40,12:30 am,,Finished increment of extracts,12:30 am,0.010636574,,,
+,Fri 05 Feb 2021,Success,6611755,Finished refresh of extracts,,Site 9,9:01 am,Datasource55,9:00 am,,Finished refresh of extracts,9:01 am,0.011296296,,,
+,Mon 01 Feb 2021,Success,6587466,Finished refresh of extracts,,Site 9,12:07 pm,Datasource82,12:00 pm,,Finished refresh of extracts,12:07 pm,0.012418981,,,
+,Tue 02 Feb 2021,Success,6593708,Finished refresh of extracts,,Site 9,12:06 pm,Datasource82,12:00 pm,,Finished refresh of extracts,12:06 pm,0.012569444,,,
+,Mon 01 Feb 2021,Success,6586309,Finished refresh of extracts,,Site 9,8:07 am,Datasource82,8:00 am,,Finished refresh of extracts,8:07 am,0.013078704,,,
+,Mon 01 Feb 2021,Success,6588513,Finished refresh of extracts,,Site 9,4:07 pm,Datasource82,4:00 pm,,Finished refresh of extracts,4:07 pm,0.013078704,,,
+,Tue 02 Feb 2021,Success,6591569,Finished increment of extracts,,Site 9,4:57 am,Datasource82,4:30 am,,Finished increment of extracts,4:57 am,0.013136574,,,
+,Wed 03 Feb 2021,Success,6599326,Finished refresh of extracts,,Site 9,9:48 am,Datasource116,9:48 am,,Finished refresh of extracts,9:48 am,0.013136574,,,
+,Thu 04 Feb 2021,Success,6603159,Finished increment of extracts,,Site 9,12:30 am,Datasource38,12:30 am,,Finished increment of extracts,12:30 am,0.013935185,,,
+,Tue 02 Feb 2021,Success,6590570,Finished increment of extracts,,Site 9,12:46 am,Datasource82,12:30 am,,Finished increment of extracts,12:46 am,0.014120370,,,
+,Thu 04 Feb 2021,Success,6606380,Finished refresh of extracts,,Site 9,12:06 pm,Datasource82,12:00 pm,,Finished refresh of extracts,12:06 pm,0.014247685,,,
+,Wed 03 Feb 2021,Success,6601072,Finished refresh of extracts,,Site 9,4:05 pm,Datasource82,4:00 pm,,Finished refresh of extracts,4:05 pm,0.014317130,,,
+,Tue 02 Feb 2021,Success,6594728,Finished refresh of extracts,,Site 9,4:06 pm,Datasource82,4:00 pm,,Finished refresh of extracts,4:06 pm,0.014560185,,,
+,Fri 05 Feb 2021,Success,6612615,Finished refresh of extracts,,Site 9,12:07 pm,Datasource82,12:00 pm,,Finished refresh of extracts,12:07 pm,0.014583333,,,
+,Wed 03 Feb 2021,Success,6600025,Finished refresh of extracts,,Site 9,12:06 pm,Datasource82,12:00 pm,,Finished refresh of extracts,12:06 pm,0.0146875,,,
+,Wed 03 Feb 2021,Success,6596834,Finished increment of extracts,,Site 9,12:49 am,Datasource82,12:30 am,,Finished increment of extracts,12:49 am,0.014791667,,,
+,Wed 03 Feb 2021,Success,6597715,Finished refresh of extracts,,Site 9,4:06 am,Workbook180,4:00 am,,Finished refresh of extracts,4:06 am,0.015439815,,,
+,Mon 01 Feb 2021,Success,6585088,Finished refresh of extracts,,Site 9,4:06 am,Datasource89,4:00 am,,Finished refresh of extracts,4:06 am,0.015636574,,,
+,Thu 04 Feb 2021,Success,6607398,Finished refresh of extracts,,Site 9,4:05 pm,Datasource82,4:00 pm,,Finished refresh of extracts,4:05 pm,0.015694444,,,
+,Wed 03 Feb 2021,Success,6597708,Finished refresh of extracts,,Site 9,4:08 am,Datasource89,4:00 am,,Finished refresh of extracts,4:08 am,0.015694444,,,
+,Tue 02 Feb 2021,Success,6591425,Finished refresh of extracts,,Site 9,4:07 am,Datasource89,4:00 am,,Finished refresh of extracts,4:07 am,0.016967593,,,
+,Thu 04 Feb 2021,Success,6604030,Finished refresh of extracts,,Site 9,4:07 am,Datasource89,4:00 am,,Finished refresh of extracts,4:07 am,0.016990741,,,
+,Fri 05 Feb 2021,Success,6610331,Finished refresh of extracts,,Site 9,4:07 am,Datasource89,4:00 am,,Finished refresh of extracts,4:07 am,0.017210648,,,
+,Thu 04 Feb 2021,Success,6603161,Finished increment of extracts,,Site 9,1:02 am,Datasource40,12:30 am,,Finished increment of extracts,1:02 am,0.018518519,,,
+,Fri 05 Feb 2021,Success,6610338,Finished refresh of extracts,,Site 9,4:05 am,Workbook180,4:00 am,,Finished refresh of extracts,4:05 am,0.019224537,,,
+,Thu 04 Feb 2021,Success,6604177,Finished increment of extracts,,Site 9,6:46 am,Datasource82,4:30 am,,Finished increment of extracts,6:46 am,0.019652778,,,
+,Tue 02 Feb 2021,Success,6595836,Finished increment of extracts,,Site 9,8:53 pm,Datasource39,8:30 pm,,Finished increment of extracts,8:53 pm,0.020300926,,,
+,Mon 01 Feb 2021,Success,6585093,Finished refresh of extracts,,Site 9,4:07 am,Datasource88,4:00 am,,Finished refresh of extracts,4:07 am,0.022916667,,,
+,Wed 03 Feb 2021,Success,6597713,Finished refresh of extracts,,Site 9,4:25 am,Datasource88,4:00 am,,Finished refresh of extracts,4:25 am,0.023252315,,,
+,Fri 05 Feb 2021,Success,6611752,Finished refresh of extracts,,Site 9,9:06 am,Datasource105,9:00 am,,Finished refresh of extracts,9:06 am,0.023391204,,,
+,Fri 05 Feb 2021,Success,6610336,Finished refresh of extracts,,Site 9,4:07 am,Datasource88,4:00 am,,Finished refresh of extracts,4:07 am,0.023854167,,,
+,Tue 02 Feb 2021,Success,6591430,Finished refresh of extracts,,Site 9,4:07 am,Datasource88,4:00 am,,Finished refresh of extracts,4:07 am,0.024016204,,,
+,Fri 05 Feb 2021,Success,6611756,Finished refresh of extracts,,Site 9,9:05 am,Datasource116,9:00 am,,Finished refresh of extracts,9:05 am,0.024085648,,,
+,Thu 04 Feb 2021,Success,6604035,Finished refresh of extracts,,Site 9,4:08 am,Datasource88,4:00 am,,Finished refresh of extracts,4:08 am,0.024513889,,,
+,Wed 03 Feb 2021,Success,6599424,Finished refresh of extracts,,Site 9,10:07 am,Datasource145,10:00 am,,Finished refresh of extracts,10:07 am,0.024571759,,,
+,Mon 01 Feb 2021,Success,6589564,Finished increment of extracts,,Site 9,8:58 pm,Datasource39,8:30 pm,,Finished increment of extracts,8:58 pm,0.029733796,,,
+,Wed 03 Feb 2021,Success,6602157,Finished increment of extracts,,Site 9,8:49 pm,Datasource39,8:30 pm,,Finished increment of extracts,8:49 pm,0.031759259,,,
+,Tue 02 Feb 2021,Failed,6593705,DataSourceException,,Site 9,12:11 pm,Datasource39,12:00 pm,,DataSourceException,12:11 pm,0.041793981,,,
+,Tue 02 Feb 2021,Success,6591784,Finished refresh of extracts,,Site 9,5:37 am,Datasource161,5:37 am,,Finished refresh of extracts,5:37 am,0.066400463,,,
+,Wed 03 Feb 2021,Success,6597878,Finished refresh of extracts,,Site 9,4:46 am,Datasource161,4:46 am,,Finished refresh of extracts,4:46 am,0.068796296,,,
+,Fri 05 Feb 2021,Success,6610583,Finished refresh of extracts,,Site 9,5:00 am,Datasource161,5:00 am,,Finished refresh of extracts,5:00 am,0.072245370,,,
+,Tue 02 Feb 2021,Success,6590568,Finished increment of extracts,,Site 9,1:16 am,Datasource39,12:30 am,,Finished increment of extracts,1:16 am,0.074884259,,,
+,Mon 01 Feb 2021,Success,6587463,Finished refresh of extracts,,Site 9,12:08 pm,Datasource39,12:00 pm,,Finished refresh of extracts,12:08 pm,0.075405093,,,
+,Thu 04 Feb 2021,Success,6604205,Finished refresh of extracts,,Site 9,4:45 am,Datasource161,4:45 am,,Finished refresh of extracts,4:45 am,0.075879630,,,
+,Thu 04 Feb 2021,Success,6606377,Finished refresh of extracts,,Site 9,12:10 pm,Datasource39,12:00 pm,,Finished refresh of extracts,12:10 pm,0.076111111,,,
+,Mon 01 Feb 2021,Success,6586306,Finished refresh of extracts,,Site 9,8:07 am,Datasource39,8:00 am,,Finished refresh of extracts,8:07 am,0.076643519,,,
+,Fri 05 Feb 2021,Success,6612612,Finished refresh of extracts,,Site 9,12:38 pm,Datasource39,12:00 pm,,Finished refresh of extracts,12:38 pm,0.078344907,,,
+,Wed 03 Feb 2021,Success,6600022,Finished refresh of extracts,,Site 9,12:10 pm,Datasource39,12:00 pm,,Finished refresh of extracts,12:10 pm,0.078495370,,,
+,Thu 04 Feb 2021,Success,6607397,Finished refresh of extracts,,Site 9,4:07 pm,Datasource39,4:00 pm,,Finished refresh of extracts,4:07 pm,0.079305556,,,
+,Wed 03 Feb 2021,Success,6596832,Finished increment of extracts,,Site 9,1:10 am,Datasource39,12:30 am,,Finished increment of extracts,1:10 am,0.079768519,,,
+,Mon 01 Feb 2021,Success,6588512,Finished refresh of extracts,,Site 9,4:08 pm,Datasource39,4:00 pm,,Finished refresh of extracts,4:08 pm,0.082002315,,,
+,Wed 03 Feb 2021,Success,6601071,Finished refresh of extracts,,Site 9,4:09 pm,Datasource39,4:00 pm,,Finished refresh of extracts,4:09 pm,0.084837963,,,
+,Tue 02 Feb 2021,Success,6594727,Finished refresh of extracts,,Site 9,4:11 pm,Datasource39,4:00 pm,,Finished refresh of extracts,4:11 pm,0.093101852,,,
+,Thu 04 Feb 2021,Success,6604175,Finished increment of extracts,,Site 9,4:30 am,Datasource39,4:30 am,,Finished increment of extracts,4:30 am,0.094479167,,,

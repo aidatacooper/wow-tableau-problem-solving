@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-23",
+  "source_workbook": {
+    "filename": "When_Do_Extracts_Run_During_The_Day.twbx",
+    "bytes": 524707,
+    "sha256": "f1a462438deb44e088f9435912345fdb6d181315305885d68230b4c2314e8eab",
+    "url": "https://public.tableau.com/views/When_Do_Extracts_Run_During_The_Day/WhenDoExtractsRunDuringTheDay"
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/TableauTemp/TEMP_0za05zv08wbboi1164y2i07f3q8l.hyper",
+      "file": "inputs/TEMP_0za05zv08wbboi1164y2i07f3q8l.hyper",
+      "bytes": 1048576,
+      "sha256": "352877a0a83797c2878ab7946e7a608b74bc55800a8b1da6bb044b0d33267e4d"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}
