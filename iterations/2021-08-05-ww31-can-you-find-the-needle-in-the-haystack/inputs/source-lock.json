@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-23",
+  "source_workbook": {
+    "filename": "2021_08_04_WW31_Unprofitable_High_Sales.twbx",
+    "bytes": 179901,
+    "sha256": "ec62ed8f87c675ca9a1b84387807171c4ed226e79d9120438e20b4ef9c4e8c4b",
+    "url": null
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/TableauTemp/TEMP_00fn40d1ntbjn9198h0nl1xs0i6q.hyper",
+      "file": "inputs/TEMP_00fn40d1ntbjn9198h0nl1xs0i6q.hyper",
+      "bytes": 524288,
+      "sha256": "ac62e601dfc0e0c0768b53ae181766340cb2343d0eb05046f042ad7541e8411f"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}
