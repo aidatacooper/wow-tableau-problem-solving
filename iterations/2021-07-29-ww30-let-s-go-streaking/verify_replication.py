@@ -67,6 +67,10 @@ def oracle() -> dict:
     for month, sub_category, sales in rows:
         series[sub_category].append((f"{month.year:04d}-{month.month:02d}", float(sales)))
 
+    # Full calendar domain: absent monthly SUM remains null; ZN in Sales Diff
+    # turns it into zero and breaks a streak. Recompute without builder helpers.
+    all_months=sorted({f"{month.year:04d}-{month.month:02d}" for month,_,_ in rows})
+    series={g:[(m,dict(points).get(m)) for m in all_months] for g,points in series.items()}
     result = {}
     for sub_category, points in series.items():
         sales = [value for _, value in points]
@@ -75,7 +79,7 @@ def oracle() -> dict:
         positive: list[int] = []
         streaks: list[int | None] = []
         for index, value in enumerate(sales):
-            diff = None if index == 0 else value - sales[index - 1]
+            diff = None if index == 0 else (value or 0) - (sales[index - 1] or 0)
             is_positive = 1 if (diff is not None and diff > 0) else 0
             matches_previous = index > 0 and positive[-1] == is_positive
             if (not matches_previous) and is_positive == 1:
@@ -209,10 +213,14 @@ def verify() -> None:
             ordering = table_calc.get("ordering-field") or ""
             # Field-level metadata names the month bucket; chart-level
             # overrides resolve it to the exact-date column instance.
-            assert "Calculation_" in ordering or ordering == "[Order Date Month]", (
+            assert "Calculation_" in ordering or ordering == "[Order Date]", (
                 column.get("caption"),
                 ordering,
             )
+
+    for sheet in ("Chart", "Data"):
+        for tc in worksheet(root, sheet).findall(".//column-instance/table-calc"):
+            assert "[tmn:Order Date:qk]" in tc.get("ordering-field", "") or tc.get("ordering-field") == "[Order Date]", etree.tostring(tc)
 
     # --- ww30-longest-streak -------------------------------------------------
     assert norm("WINDOW_MAX([Increase Streak])") in norm(calc.get("Longest Streak", "")), calc.get(
@@ -258,13 +266,13 @@ def verify() -> None:
 
     # --- ww30-sort-order -----------------------------------------------------
     assert norm(calc.get("Sort", "")) == norm("[Longest Streak]*-1"), calc.get("Sort")
-    sort = chart.find("table/view/computed-sort")
-    assert sort is not None, "the Chart has no computed sort"
-    assert sort.get("direction") == "DESC", etree.tostring(sort)[:200]
-    assert "Sort" in "".join(
-        column.get("caption") or ""
-        for column in chart.findall(".//datasource-dependencies/column")
-    ), "the computed sort must use the Sort field"
+    # A leading discrete negative-streak pill sorts ascending, hence longest first.
+    # A computed sort over a table calculation is not valid at query-sort time.
+    sort_column=chart.find('.//datasource-dependencies/column[@caption="Sort"]')
+    sort_instance=chart.find('.//column-instance[@column="'+sort_column.get("name")+'"]')
+    shelf=chart.findtext("table/rows")
+    assert sort_instance.get("type")=="ordinal"
+    assert shelf.index(sort_instance.get("name")) < shelf.index("Sub-Category")
     # Sorting by -Longest Streak puts the 5-streak rows first, matching the
     # article's leading four rows.
     for name, streak in ARTICLE_HEAD:
@@ -283,7 +291,7 @@ def verify() -> None:
     line_style = panes[0].find("style/style-rule[@element='mark']")
     line_values = {f.get("attr"): f.get("value") for f in line_style.findall("format")}
     assert line_values.get("mark-color", "").lower() == "#898989", line_values
-    axis_encoding = chart.find("table/style/style-rule[@element='axis']/encoding[@attr='space']")
+    axis_encoding = chart.find("table/style/style-rule[@element='axis']/encoding[@attr='space'][@fold='true']")
     assert axis_encoding is not None, "the two panes are not folded onto one axis"
     assert axis_encoding.get("fold") == "true" and axis_encoding.get("synchronized") == "true", (
         etree.tostring(axis_encoding)[:300]

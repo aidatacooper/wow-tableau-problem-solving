@@ -42,7 +42,7 @@ TITLE_GREEN = "#5ea654"
 # below resolve to the exact-date column instance Tableau writes itself.
 MONTH_ADDRESS = {
     "ordering_type": "Field",
-    "ordering_field": "[Order Date Month]",
+    "ordering_field": "[Order Date]",
 }
 # The author's month pill is Month-Trunc of the raw date ([tmn:Order Date:qk]),
 # a native derivation the SDK resolves directly. Wrapping the calculated
@@ -88,6 +88,19 @@ TOOLTIP_RUNS = [
     # granularity instead of the exact date, which is a text-only difference.
     {"field": "Order Date Month", "bold": True, "fontsize": 9},
 ]
+
+
+def calc_specs(field):
+    dependencies = {
+        "Sales Diff": [], "Diff Is +ve": ["Sales Diff"],
+        "Match Prev Value": ["Diff Is +ve", "Sales Diff"],
+        "Increase Streak": ["Match Prev Value", "Diff Is +ve", "Sales Diff"],
+        "Longest Streak": ["Increase Streak", "Match Prev Value", "Diff Is +ve", "Sales Diff"],
+        "Longest Streak (label)": ["Longest Streak", "Increase Streak", "Match Prev Value", "Diff Is +ve", "Sales Diff"],
+        "Sales of Month with Longest Streak": ["Longest Streak", "Increase Streak", "Match Prev Value", "Diff Is +ve", "Sales Diff"],
+        "Sort": ["Longest Streak", "Increase Streak", "Match Prev Value", "Diff Is +ve", "Sales Diff"],
+    }
+    return [MONTH_INSTANCE, *[dict(MONTH_INSTANCE, field=name) for name in dependencies[field]]]
 
 
 def add_fields(editor: TWBEditor) -> None:
@@ -210,9 +223,6 @@ def build_chart(editor: TWBEditor) -> None:
         axis_shelf="rows",
         fold_axes=True,
         synchronized=True,
-        sort_field="Sub-Category",
-        sort_descending="Sort",
-        sort_mode="computed",
         panes=[
             {
                 "axis": "SUM(Sales)",
@@ -232,17 +242,13 @@ def build_chart(editor: TWBEditor) -> None:
                 "tooltip": [],
                 "mark_style": {
                     "line-interpolation": "step",
-                    "size": "2.15",
+                    "size": "0.45",
                 },
                 "mark_sizing_off": True,
             },
         ],
-        table_calc_overrides={
-            "SUM(Sales)": [MONTH_INSTANCE],
-            "Longest Streak (label)": [MONTH_INSTANCE],
-            "Sales of Month with Longest Streak": [MONTH_INSTANCE],
-            "Longest Streak": [MONTH_INSTANCE],
-        },
+        table_calc_overrides={field: calc_specs(field) for field in
+            ("Sort", "Longest Streak (label)", "Sales of Month with Longest Streak", "Longest Streak")},
     )
     # The circle pane carries Longest Streak as a continuous colour ramp that
     # the author pins to the fixed domain 0..5 in five stepped buckets.
@@ -262,6 +268,7 @@ def build_chart(editor: TWBEditor) -> None:
             "num_steps": 5,
         },
         header_formats=[
+            {"field": "Sort", "attr": "display", "value": "false"},
             {"field": "Sub-Category", "width": 100},
             {"field": "Longest Streak (label)", "width": 60},
         ],
@@ -273,7 +280,9 @@ def build_chart(editor: TWBEditor) -> None:
             {"field": "SUM(Sales)", "text-format": 'c"$"#,##0;-"$"#,##0'},
         ],
         axis_style={
+            "encodings": [{"field": "SUM(Sales)", "scope": "rows", "class": "0", "range-type": "independent"}],
             "per_field": [
+                {"field": "Sales of Month with Longest Streak", "scope": "rows", "attr": "display", "value": "false"},
                 {"field": "SUM(Sales)", "scope": "rows", "attr": "title", "value": ""},
                 {
                     "field": "MONTHTRUNC(Order Date)",
@@ -285,7 +294,7 @@ def build_chart(editor: TWBEditor) -> None:
         },
     )
     for pane_index in (0, 1):
-        editor.configure_custom_tooltip("Chart", TOOLTIP_RUNS, pane_index=pane_index)
+        editor.configure_custom_tooltip("Chart", TOOLTIP_RUNS[:3], pane_index=pane_index)
 
 
 DATA_MEASURES = [
@@ -311,6 +320,7 @@ def build_data_sheet(editor: TWBEditor) -> None:
         mark_type="Text",
         rows=["Sub-Category", "MONTHTRUNC(Order Date)"],
         measure_values=DATA_MEASURES,
+        table_calc_overrides={field: calc_specs(field) for field in DATA_MEASURES if field != "SUM(Sales)"},
         tooltip=[],
     )
     editor.configure_worksheet_style(
@@ -328,14 +338,14 @@ def build_legend(editor: TWBEditor) -> None:
     editor.add_worksheet("Legend")
     editor.configure_layered_chart(
         "Legend",
-        columns=["Legend"],
+        columns=["Legend", "MIN(Legend Colour)"],
         axis_shelf="columns",
         fold_axes=False,
         panes=[
             {
-                "axis": "Legend Colour",
+                "axis": "MIN(Legend Colour)",
                 "mark_type": "Square",
-                "color": "Legend Colour",
+                "color": "MIN(Legend Colour)",
                 "label": "Legend",
                 "tooltip": [],
                 "mark_style": {"shape": ":filled/square"},
@@ -353,8 +363,9 @@ def build_legend(editor: TWBEditor) -> None:
         hide_row_field_labels=True,
         hide_col_field_labels=True,
         disable_tooltip=True,
+        header_formats=[{"field":"Legend", "attr":"display", "value":"false"}],
         color_style={
-            "field": "Legend Colour",
+            "field": "MIN(Legend Colour)",
             "colors": GREEN_RAMP,
             "min": 0,
             "max": 5,
@@ -400,14 +411,14 @@ def build_dashboard(editor: TWBEditor) -> None:
                     "name": "Chart",
                     "show_title": False,
                     "fit": "entire",
-                    "absolute": pos(8, 60, 1200, 632),
+                    "absolute": pos(8, 92, 1350, 600),
                 },
                 {
                     "type": "worksheet",
                     "name": "Legend",
-                    "show_title": True,
+                    "show_title": False,
                     "fit": "entire",
-                    "absolute": pos(1216, 14, 142, 62),
+                    "absolute": pos(8, 44, 450, 48),
                 },
                 {
                     "type": "text",
@@ -436,7 +447,7 @@ def build_dashboard(editor: TWBEditor) -> None:
                     "type": "text",
                     "runs": [
                         {
-                            "text": "RECREATED BY : DONNA COLES",
+                            "text": "RECREATED WITH CWTWB",
                             "font_size": 8,
                             "font_color": TITLE_GREEN,
                             "fontalignment": 2,
@@ -459,14 +470,44 @@ def build_dashboard(editor: TWBEditor) -> None:
         },
         worksheet_names=["Chart", "Legend"],
     )
+    editor.set_window_state(DASHBOARD, zoom_entire_view=True)
     editor.set_window_state("Chart", hidden=False, zoom_entire_view=True)
     editor.set_window_state("Data", hidden=False, zoom_entire_view=True)
     editor.set_window_state("Legend", hidden=False, zoom_entire_view=True)
 
 
+def calendar_input():
+    """Complete the month/category domain; all calculations remain native."""
+    import datetime
+    from tableauhyperapi import Connection, HyperProcess, Telemetry, CreateMode, TableDefinition, TableName, SqlType, Inserter
+    output = HERE / "outputs/calendar-sales.hyper"
+    output.parent.mkdir(exist_ok=True)
+    with HyperProcess(Telemetry.DO_NOT_SEND_USAGE_DATA_TO_TABLEAU) as hp:
+        with Connection(hp.endpoint, str(HYPER)) as c:
+            rows = c.execute_list_query('SELECT "Order Date","Sub-Category","Sales" FROM "Extract"."Extract"')
+        present = {(d.year,d.month,g) for d,g,s in rows}
+        groups = sorted({g for d,g,s in rows})
+        month_numbers = [d.year*12+d.month-1 for d,g,s in rows]
+        for month in range(min(month_numbers), max(month_numbers)+1):
+            y,m=divmod(month,12)
+            for group in groups:
+                if (y,m+1,group) not in present:
+                    rows.append([datetime.date(y,m+1,1),group,None])
+        table=TableDefinition(TableName("Extract","Extract"),[
+            TableDefinition.Column("Order Date",SqlType.date()),
+            TableDefinition.Column("Sub-Category",SqlType.text()),
+            TableDefinition.Column("Sales",SqlType.double())])
+        with Connection(hp.endpoint,str(output),CreateMode.CREATE_AND_REPLACE) as c:
+            c.catalog.create_schema("Extract")
+            c.catalog.create_table(table)
+            with Inserter(c,table) as insert:
+                insert.add_rows(rows);insert.execute()
+    return output
+
+
 def build() -> Path:
     editor = TWBEditor("")
-    editor.set_hyper_connection(str(HYPER))
+    editor.set_hyper_connection(str(calendar_input()))
 
     add_fields(editor)
     build_chart(editor)

@@ -23,11 +23,11 @@ source:
     url: https://public.tableau.com/views/2021_07_28_WW30_LetsGoStreaking/2021_07_28_WW30_LetsGoStreaking
     filename: 2021_07_28_WW30_LetsGoStreaking.twbx
     sha256: 5dfbd740ef326ef0b35c4cf0b1e0186848b24d8510500ebf11f45543d56cd29f
-verification_status: pending
+verification_status: verified
 artifacts:
   primary_workbook: outputs/replicated-workbook.twbx
-  cloud_author: null
-  cloud_replica: null
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
 artifact_aliases: {}
 historical_artifacts: []
 evidence:
@@ -39,15 +39,19 @@ evidence:
 - evidence/sdk-baseline.json
 - evidence/visual-review.md
 - inputs/source-lock.json
+- evidence/sdk-final.json
+- evidence/desktop-verification.json
+- evidence/cloud-verification.json
+- evidence/cloud-data-verification.json
 notes:
-- The streak chain only works because every table calculation is addressed by
-  Order Date Month alone; that is what restarts LOOKUP/PREVIOUS_VALUE per
-  Sub-Category row.
-- Sort is a hidden discrete -Longest Streak pill in front of Sub-Category, so
-  the list is ordered by streak length while the visible chart keeps the
-  author's layout.
-- The colour ramp is pinned to a fixed 0..5 domain in five steps; a data-derived
-  domain would normalise 2..5 and flatten the legend.
+- The streak chain only works because every table calculation is addressed by Order
+  Date Month alone; that is what restarts LOOKUP/PREVIOUS_VALUE per Sub-Category row.
+- Sort is a hidden discrete -Longest Streak pill in front of Sub-Category, so the
+  list is ordered by streak length while the visible chart keeps the author's layout.
+- The colour ramp is pinned to a fixed 0..5 domain in five steps; a data-derived domain
+  would normalise 2..5 and flatten the legend.
+- Final Cloud and independent oracle evidence supersedes earlier static-only assumptions;
+  see evidence/cloud-data-verification.json and evidence/visual-review.md.
 cwtwb:
   tested_version: 0.29.0a1
   tested_commit: 23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c
@@ -56,9 +60,13 @@ cwtwb:
     commit: 23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c
     result: workaround
     evidence: evidence/sdk-baseline.json
+  - version: 0.29.0a1
+    commit: 23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c
+    result: workaround
+    evidence: evidence/sdk-final.json
 analysis_status: completed
-functional_status: partial
-visual_status: not_evaluated
+functional_status: replicated
+visual_status: acceptable_delta
 cwtwb_result: workaround
 inputs:
   source_lock: inputs/source-lock.json
@@ -74,42 +82,34 @@ acceptance:
     the article's recursive chain, each addressed by Order Date Month only.
   mode: automated
 - id: ww30-longest-streak
-  description: Longest Streak is WINDOW_MAX of the running streak and is both
-    colour-encoded on a fixed 0-5 five-step green ramp and shown as a discrete pill.
+  description: Longest Streak is WINDOW_MAX of the running streak and is both colour-encoded
+    on a fixed 0-5 five-step green ramp and shown as a discrete pill.
   mode: automated
 - id: ww30-peak-sales
-  description: Sales of Month with Longest Streak is non-null only on rows where
-    the running streak equals the Sub-Category maximum.
+  description: Sales of Month with Longest Streak is non-null only on rows where the
+    running streak equals the Sub-Category maximum.
   mode: automated
 - id: ww30-sort-order
-  description: The Chart sorts Sub-Category descending by Sort = -Longest Streak,
-    reproducing the article's Appliances/Bookcases/Phones/Art leading rows.
+  description: Leading discrete Sort = -Longest Streak sorts ascending, reproducing
+    Appliances/Bookcases/Phones/Art as leading rows.
   mode: automated
 - id: ww30-viz-shape
   description: The Chart folds a stepped grey line pane and a colour-ramped circle
     pane onto one synchronised row axis.
   mode: automated
 - id: ww30-legend
-  description: The Legend sheet renders the author's CASE-ordered Sub-Category
-    squares on the same five-step green ramp.
+  description: The Legend sheet renders the author's CASE-ordered Sub-Category squares
+    on the same five-step green ramp.
   mode: automated
-remaining_work:
-- Desktop LOADED gate has not been run for this artifact; the coordinating
-  maintainer runs build_and_check.py serially and must confirm LOADED before the
-  case can be recorded as replicated.
-- Cloud capture has not been re-taken after the structural fixes (discrete Sort
-  pill, MONTHTRUNC axis, per-pane tooltip runs). The first capture rendered every
-  replica sheet empty; a re-capture must confirm the dashboard renders and the
-  Data CSV matches the oracle row by row.
-- visual_status stays not_evaluated until an accepted Cloud image exists.
+remaining_work: []
 blocker: null
 workarounds:
-- The month axis must use the native MONTHTRUNC(Order Date) derivation; binding
-  EXACTDATE(<calculated date>) writes an instance Tableau cannot resolve and
-  every sheet renders empty on Cloud.
-- Custom-tooltip runs must reference the bare date field; a run on
-  EXACTDATE(<date field>) blanks the whole worksheet on Cloud (batch-17 finding).
-- The hidden Sort key must be a discrete ordinal pill; a quantitative leading
-  pill emits an extra axis instead of nesting under Sub-Category.
+- Complete missing month/category combinations with null-sales scaffold rows derived
+  from locked inputs. ZN Sales Diff then breaks streaks across missing months exactly
+  as author Tableau domain completion does.
+- Use a leading discrete negative-streak Sort pill. Computed sorting by a table calculation
+  blanks the Cloud chart; native pill ordering achieves the required order.
+- Explicitly bind nested table-calculation dependencies to the native month instance.
+  Custom tooltip omits an unbound calculated-date token; axis labels retain month.
 capability_gaps: []
 related_cwtwb_issues: []

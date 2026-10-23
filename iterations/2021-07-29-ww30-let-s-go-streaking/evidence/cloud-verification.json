@@ -1,0 +1,104 @@
+{
+  "case_id": "wow-2021-ww30-let-s-go-streaking",
+  "captured_at": "2026-10-23T16:17:05.193267+00:00",
+  "source_hashes": {
+    "author": "34c9ffe6586e25741804b8b5e7f8c3d96b89e719c86e5fed5b233ab85c185a93",
+    "replica": "adfa82a12c26bbeddad71ebcdee78948c6e0291a0752481e32cbf02ca8905077"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "46f8369d-e4fd-48bc-bacf-705392ed029e",
+      "name": "cwtwb-review-wow-2021-ww30-let-s-go-streaking-author-34c9ffe6586e",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/3061813",
+      "views": [
+        {
+          "name": "2021_07_28_WW30_LetsGoStreaking",
+          "id": "e62766db-296b-427a-a69e-1967d2f8b285"
+        },
+        {
+          "name": "Data",
+          "id": "3a451abb-2cbd-4d77-935a-141aae57606a"
+        }
+      ]
+    },
+    "replica": {
+      "id": "17f2a566-d598-404a-922f-a53f37696c56",
+      "name": "cwtwb-review-wow-2021-ww30-let-s-go-streaking-replica-adfa82a12c26",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/3062113",
+      "views": [
+        {
+          "name": "Chart",
+          "id": "8a5d79e1-1c93-4f3e-947d-43ce3c65f7f5"
+        },
+        {
+          "name": "Data",
+          "id": "0f702402-055c-496f-a212-606f4b338a8d"
+        },
+        {
+          "name": "Legend",
+          "id": "dc87860d-6473-4341-9fcd-b6f58a1d774c"
+        },
+        {
+          "name": "2021_07_28_WW30_LetsGoStreaking",
+          "id": "7a1f4cec-207c-42b5-8236-951de8899320"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "e62766db-296b-427a-a69e-1967d2f8b285",
+          "name": "2021_07_28_WW30_LetsGoStreaking",
+          "path": "outputs/cloud-author.png",
+          "sha256": "4ad60713f9b5cb4c4643d36e66a640d153c5ccc01a0979a880e0c0b3ce51f03d",
+          "size": [
+            2732,
+            1536
+          ]
+        },
+        "replica": {
+          "id": "7a1f4cec-207c-42b5-8236-951de8899320",
+          "name": "2021_07_28_WW30_LetsGoStreaking",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "dffdb60d0ccc968909a953768971ccef58b7ff18a89e0de95af7f010e72474eb",
+          "size": [
+            2732,
+            1536
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Data",
+          "view_id": "3a451abb-2cbd-4d77-935a-141aae57606a",
+          "scope": "Author Data sheet and the replica Data sheet; the REST CSV confirms the month buckets, Sales Diff, Diff Is +ve, Increase Streak, Longest Streak and the peak-sales marker row by row.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-chart.csv",
+          "sha256": "3fa9aff4521d3214e7d34c1609e40360b92d640b10ce0625f640858fce07006a",
+          "bytes": 314692
+        },
+        {
+          "role": "replica",
+          "view": "Data",
+          "view_id": "0f702402-055c-496f-a212-606f4b338a8d",
+          "scope": "Author Data sheet and the replica Data sheet; the REST CSV confirms the month buckets, Sales Diff, Diff Is +ve, Increase Streak, Longest Streak and the peak-sales marker row by row.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-chart.csv",
+          "sha256": "1eca8c860d6c59b377eff28ccbbe18122f3b84ff86fde29268a0d88214a82557",
+          "bytes": 200931
+        }
+      ]
+    }
+  ],
+  "status": "captured_requires_independent_review"
+}

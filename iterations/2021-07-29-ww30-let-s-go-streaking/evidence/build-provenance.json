@@ -1,27 +1,9 @@
 {
-  "case_id": "wow-2021-ww30-let-s-go-streaking",
+  "builder_sha256": "8fb3ccbbc7e2419297d627212d5a913bbe714a568c254cda7fcd0d9b18619e98",
+  "verifier_sha256": "e2024773e918e904b64d2568cf9229851dc2b1a0e96d95ed9b5f9229e5af5c35",
+  "primary_workbook_sha256": "adfa82a12c26bbeddad71ebcdee78948c6e0291a0752481e32cbf02ca8905077",
+  "source_lock": "inputs/source-lock.json",
   "sdk_commit": "23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c",
-  "sdk_version": "0.29.0a1",
-  "builder_sha256": "cf5d4d6ac899eb66889a0c94569a5c38c6f40a1a46902b3d7c18d1e06e63c644",
-  "builder_hash_scope": "UTF-8 source text with universal newlines normalized to LF",
-  "public_sdk_calls": [
-    "add_calculated_field",
-    "add_dashboard",
-    "add_worksheet",
-    "configure_chart",
-    "configure_custom_tooltip",
-    "configure_layered_chart",
-    "configure_worksheet_style",
-    "save",
-    "set_hyper_connection",
-    "set_window_state",
-    "set_worksheet_title"
-  ],
-  "result": "passed",
-  "initial_workbooks_available": 0,
-  "copied_cloud_evidence": false,
-  "source_workbook_used_by_builder": false,
-  "public_sdk_only": true,
-  "scope": "Copied only builder/verifier, metadata and locked extracted inputs. Built from an empty TWBEditor template with public cwtwb APIs, then verified against an independent Python recomputation of the streak chain.",
-  "artifact_sha256": "4ad4bb421857c306c25a134e891d33a606a9f689331ebd70ebbd8679446a709d"
+  "phase_boundary": "empty workbook, locked inputs, public SDK only",
+  "cloud_and_desktop_bound": true
 }

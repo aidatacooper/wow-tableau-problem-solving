@@ -6337,14 +6337,14 @@
           "sha256": "5dfbd740ef326ef0b35c4cf0b1e0186848b24d8510500ebf11f45543d56cd29f"
         }
       },
-      "functional_status": "partial",
-      "visual_status": "not_evaluated",
-      "verification_status": "pending",
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
       "cwtwb_result": "workaround",
       "artifacts": {
         "primary_workbook": "outputs/replicated-workbook.twbx",
-        "cloud_author": null,
-        "cloud_replica": null
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
       },
       "artifact_aliases": {},
       "historical_artifacts": [],
@@ -6356,12 +6356,17 @@
         "evidence/official-challenge-date.json",
         "evidence/sdk-baseline.json",
         "evidence/visual-review.md",
-        "inputs/source-lock.json"
+        "inputs/source-lock.json",
+        "evidence/sdk-final.json",
+        "evidence/desktop-verification.json",
+        "evidence/cloud-verification.json",
+        "evidence/cloud-data-verification.json"
       ],
       "notes": [
         "The streak chain only works because every table calculation is addressed by Order Date Month alone; that is what restarts LOOKUP/PREVIOUS_VALUE per Sub-Category row.",
         "Sort is a hidden discrete -Longest Streak pill in front of Sub-Category, so the list is ordered by streak length while the visible chart keeps the author's layout.",
-        "The colour ramp is pinned to a fixed 0..5 domain in five steps; a data-derived domain would normalise 2..5 and flatten the legend."
+        "The colour ramp is pinned to a fixed 0..5 domain in five steps; a data-derived domain would normalise 2..5 and flatten the legend.",
+        "Final Cloud and independent oracle evidence supersedes earlier static-only assumptions; see evidence/cloud-data-verification.json and evidence/visual-review.md."
       ],
       "metadata": "iterations/2021-07-29-ww30-let-s-go-streaking/case.yaml",
       "metadata_contract": "1.1.0",
