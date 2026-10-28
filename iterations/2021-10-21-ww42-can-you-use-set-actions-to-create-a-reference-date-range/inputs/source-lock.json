@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-28",
+  "source_workbook": {
+    "filename": "2021_10_20_WW_42_Date_Range_Set_Actions.twbx",
+    "bytes": 77122,
+    "sha256": "65859ddada895bdfbb7fa3208fcce667ce82ba21d06bd1669af8a0ffb9a40dbf",
+    "url": "https://public.tableau.com/views/2021_10_20_WW_42_Date_Range_Set_Actions/2021_10_20_WW42_Date_Range_Set_Actions"
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/TableauTemp/TEMP_0vk99460mvko1c1383vmf0pl4zzq.hyper",
+      "file": "inputs/TEMP_0vk99460mvko1c1383vmf0pl4zzq.hyper",
+      "bytes": 262144,
+      "sha256": "3549e372399aad3b73f57dfdf19383812dff00dbd80da51df535c44d5ebdacd3"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

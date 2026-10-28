@@ -1,0 +1,3121 @@
+{
+  "status": "local-checks-pass-runtime-pending",
+  "workbook_sha256": "4dd78637c94bfcd96c032b92c14903470210989912228aaa04c61068311d3275",
+  "input_sha256": "3549e372399aad3b73f57dfdf19383812dff00dbd80da51df535c44d5ebdacd3",
+  "sdk_version": "0.29.0a2",
+  "sdk_source": "C:\\Users\\imgwho\\Desktop\\project\\cwtwb-four-labels-20261028\\src",
+  "sdk_commit": "11d72ebe5b7720035e26150bd16af72d67a35bba",
+  "raw_rows": 9994,
+  "xsd_strict_errors": [],
+  "xsd_compatibility_warnings": [
+    "<string>:2:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'workbook': Missing child element(s). Expected is one of ( referenced-extensions, explain-data )."
+  ],
+  "passed_acceptance": [
+    "native-set-action",
+    "default-state",
+    "reference-band",
+    "six-views",
+    "raw-data-numerics",
+    "selection-state-numerics",
+    "state-ranking"
+  ],
+  "scenario_results": {
+    "default": {
+      "selected_months": [
+        "2020-10-01",
+        "2020-11-01",
+        "2020-12-01",
+        "2021-01-01",
+        "2021-02-01",
+        "2021-03-01",
+        "2021-04-01",
+        "2021-05-01",
+        "2021-06-01"
+      ],
+      "passed": true,
+      "overall_total": 2297200.8603,
+      "overall_count": 48,
+      "overall_average": 47858.35125625,
+      "selected_total": 493007.98600000003,
+      "selected_count": 9,
+      "selected_average": 54778.66511111111,
+      "first_month": "2020-10-01",
+      "last_month": "2021-06-01",
+      "first_sales": 59687.744999999995,
+      "last_sales": 52981.7257,
+      "endpoint_change": -0.11235169464016426,
+      "peak_sales": 96999.043,
+      "peak_months": [
+        "2020-12-01"
+      ],
+      "months": [
+        {
+          "month": "2018-01-01",
+          "sales": 14236.895,
+          "selected_sales": null
+        },
+        {
+          "month": "2018-02-01",
+          "sales": 4519.892,
+          "selected_sales": null
+        },
+        {
+          "month": "2018-03-01",
+          "sales": 55691.009,
+          "selected_sales": null
+        },
+        {
+          "month": "2018-04-01",
+          "sales": 28295.344999999998,
+          "selected_sales": null
+        },
+        {
+          "month": "2018-05-01",
+          "sales": 23648.287,
+          "selected_sales": null
+        },
+        {
+          "month": "2018-06-01",
+          "sales": 34595.1276,
+          "selected_sales": null
+        },
+        {
+          "month": "2018-07-01",
+          "sales": 33946.393,
+          "selected_sales": null
+        },
+        {
+          "month": "2018-08-01",
+          "sales": 27909.4685,
+          "selected_sales": null
+        },
+        {
+          "month": "2018-09-01",
+          "sales": 81777.3508,
+          "selected_sales": null
+        },
+        {
+          "month": "2018-10-01",
+          "sales": 31453.393,
+          "selected_sales": null
+        },
+        {
+          "month": "2018-11-01",
+          "sales": 78628.7167,
+          "selected_sales": null
+        },
+        {
+          "month": "2018-12-01",
+          "sales": 69545.6205,
+          "selected_sales": null
+        },
+        {
+          "month": "2019-01-01",
+          "sales": 18174.0756,
+          "selected_sales": null
+        },
+        {
+          "month": "2019-02-01",
+          "sales": 11951.411,
+          "selected_sales": null
+        },
+        {
+          "month": "2019-03-01",
+          "sales": 38726.252,
+          "selected_sales": null
+        },
+        {
+          "month": "2019-04-01",
+          "sales": 34195.2085,
+          "selected_sales": null
+        },
+        {
+          "month": "2019-05-01",
+          "sales": 30131.6865,
+          "selected_sales": null
+        },
+        {
+          "month": "2019-06-01",
+          "sales": 24797.292,
+          "selected_sales": null
+        },
+        {
+          "month": "2019-07-01",
+          "sales": 28765.325,
+          "selected_sales": null
+        },
+        {
+          "month": "2019-08-01",
+          "sales": 36898.3322,
+          "selected_sales": null
+        },
+        {
+          "month": "2019-09-01",
+          "sales": 64595.918000000005,
+          "selected_sales": null
+        },
+        {
+          "month": "2019-10-01",
+          "sales": 31404.9235,
+          "selected_sales": null
+        },
+        {
+          "month": "2019-11-01",
+          "sales": 75972.5635,
+          "selected_sales": null
+        },
+        {
+          "month": "2019-12-01",
+          "sales": 74919.5212,
+          "selected_sales": null
+        },
+        {
+          "month": "2020-01-01",
+          "sales": 18542.491,
+          "selected_sales": null
+        },
+        {
+          "month": "2020-02-01",
+          "sales": 22978.815000000002,
+          "selected_sales": null
+        },
+        {
+          "month": "2020-03-01",
+          "sales": 51715.875,
+          "selected_sales": null
+        },
+        {
+          "month": "2020-04-01",
+          "sales": 38750.039,
+          "selected_sales": null
+        },
+        {
+          "month": "2020-05-01",
+          "sales": 56987.728,
+          "selected_sales": null
+        },
+        {
+          "month": "2020-06-01",
+          "sales": 40344.534,
+          "selected_sales": null
+        },
+        {
+          "month": "2020-07-01",
+          "sales": 39261.963,
+          "selected_sales": null
+        },
+        {
+          "month": "2020-08-01",
+          "sales": 31115.3743,
+          "selected_sales": null
+        },
+        {
+          "month": "2020-09-01",
+          "sales": 73410.0249,
+          "selected_sales": null
+        },
+        {
+          "month": "2020-10-01",
+          "sales": 59687.744999999995,
+          "selected_sales": 59687.744999999995
+        },
+        {
+          "month": "2020-11-01",
+          "sales": 79411.9658,
+          "selected_sales": 79411.9658
+        },
+        {
+          "month": "2020-12-01",
+          "sales": 96999.043,
+          "selected_sales": 96999.043
+        },
+        {
+          "month": "2021-01-01",
+          "sales": 43971.373999999996,
+          "selected_sales": 43971.373999999996
+        },
+        {
+          "month": "2021-02-01",
+          "sales": 20301.1334,
+          "selected_sales": 20301.1334
+        },
+        {
+          "month": "2021-03-01",
+          "sales": 58872.3528,
+          "selected_sales": 58872.3528
+        },
+        {
+          "month": "2021-04-01",
+          "sales": 36521.5361,
+          "selected_sales": 36521.5361
+        },
+        {
+          "month": "2021-05-01",
+          "sales": 44261.1102,
+          "selected_sales": 44261.1102
+        },
+        {
+          "month": "2021-06-01",
+          "sales": 52981.7257,
+          "selected_sales": 52981.7257
+        },
+        {
+          "month": "2021-07-01",
+          "sales": 45264.416000000005,
+          "selected_sales": null
+        },
+        {
+          "month": "2021-08-01",
+          "sales": 63120.888000000006,
+          "selected_sales": null
+        },
+        {
+          "month": "2021-09-01",
+          "sales": 87866.652,
+          "selected_sales": null
+        },
+        {
+          "month": "2021-10-01",
+          "sales": 77776.9232,
+          "selected_sales": null
+        },
+        {
+          "month": "2021-11-01",
+          "sales": 118447.825,
+          "selected_sales": null
+        },
+        {
+          "month": "2021-12-01",
+          "sales": 83829.3188,
+          "selected_sales": null
+        }
+      ],
+      "states": [
+        {
+          "state": "California",
+          "sales": 99025.3305,
+          "rank": 1,
+          "share": 0.20085948567169862,
+          "color_group": "1"
+        },
+        {
+          "state": "New York",
+          "sales": 44986.034,
+          "rank": 2,
+          "share": 0.0912480837582213,
+          "color_group": "2"
+        },
+        {
+          "state": "Washington",
+          "sales": 38240.64,
+          "rank": 3,
+          "share": 0.07756596462110858,
+          "color_group": "3"
+        },
+        {
+          "state": "Indiana",
+          "sales": 32776.82,
+          "rank": 4,
+          "share": 0.06648334495741819,
+          "color_group": "10"
+        },
+        {
+          "state": "Michigan",
+          "sales": 32706.44,
+          "rank": 5,
+          "share": 0.06634058864920699,
+          "color_group": "10"
+        },
+        {
+          "state": "Texas",
+          "sales": 30063.009000000002,
+          "rank": 6,
+          "share": 0.060978746498439075,
+          "color_group": "10"
+        },
+        {
+          "state": "Ohio",
+          "sales": 21213.34,
+          "rank": 7,
+          "share": 0.04302839021354108,
+          "color_group": "10"
+        },
+        {
+          "state": "Georgia",
+          "sales": 19493.83,
+          "rank": 8,
+          "share": 0.03954059681296927,
+          "color_group": "10"
+        },
+        {
+          "state": "Pennsylvania",
+          "sales": 17746.431,
+          "rank": 9,
+          "share": 0.03599623434903142,
+          "color_group": "10"
+        },
+        {
+          "state": "Florida",
+          "sales": 16842.877500000002,
+          "rank": 10,
+          "share": 0.03416349831704349,
+          "color_group": "10"
+        },
+        {
+          "state": "Illinois",
+          "sales": 12849.897,
+          "rank": 11,
+          "share": 0.026064277587584554,
+          "color_group": "10"
+        },
+        {
+          "state": "Rhode Island",
+          "sales": 10573.71,
+          "rank": 12,
+          "share": 0.021447340205965747,
+          "color_group": "10"
+        },
+        {
+          "state": "Virginia",
+          "sales": 8961.94,
+          "rank": 13,
+          "share": 0.01817808281912902,
+          "color_group": "10"
+        },
+        {
+          "state": "North Carolina",
+          "sales": 8598.172,
+          "rank": 14,
+          "share": 0.017440228645707982,
+          "color_group": "10"
+        },
+        {
+          "state": "New Jersey",
+          "sales": 8509.68,
+          "rank": 15,
+          "share": 0.017260734595889487,
+          "color_group": "10"
+        },
+        {
+          "state": "Wisconsin",
+          "sales": 8163.06,
+          "rank": 16,
+          "share": 0.01655766282049638,
+          "color_group": "10"
+        },
+        {
+          "state": "Missouri",
+          "sales": 8112.509999999999,
+          "rank": 17,
+          "share": 0.01645512898446233,
+          "color_group": "10"
+        },
+        {
+          "state": "Colorado",
+          "sales": 7663.558000000001,
+          "rank": 18,
+          "share": 0.015544490591679788,
+          "color_group": "10"
+        },
+        {
+          "state": "Oklahoma",
+          "sales": 7187.74,
+          "rank": 19,
+          "share": 0.014579358152628383,
+          "color_group": "10"
+        },
+        {
+          "state": "Nevada",
+          "sales": 6317.042,
+          "rank": 20,
+          "share": 0.012813265057333168,
+          "color_group": "10"
+        },
+        {
+          "state": "Kentucky",
+          "sales": 5766.47,
+          "rank": 21,
+          "share": 0.011696504242833907,
+          "color_group": "10"
+        },
+        {
+          "state": "Alabama",
+          "sales": 5246.66,
+          "rank": 22,
+          "share": 0.010642139983509312,
+          "color_group": "10"
+        },
+        {
+          "state": "Arizona",
+          "sales": 5166.924,
+          "rank": 23,
+          "share": 0.010480406295081799,
+          "color_group": "10"
+        },
+        {
+          "state": "Tennessee",
+          "sales": 4725.178,
+          "rank": 24,
+          "share": 0.009584384298391466,
+          "color_group": "10"
+        },
+        {
+          "state": "Connecticut",
+          "sales": 4646.57,
+          "rank": 25,
+          "share": 0.009424938605355572,
+          "color_group": "10"
+        },
+        {
+          "state": "Oregon",
+          "sales": 4266.674,
+          "rank": 26,
+          "share": 0.008654370965909668,
+          "color_group": "10"
+        },
+        {
+          "state": "Montana",
+          "sales": 4189.38,
+          "rank": 27,
+          "share": 0.008497590544101246,
+          "color_group": "10"
+        },
+        {
+          "state": "Maryland",
+          "sales": 2812.962,
+          "rank": 28,
+          "share": 0.005705712848229602,
+          "color_group": "10"
+        },
+        {
+          "state": "Massachusetts",
+          "sales": 1985.629,
+          "rank": 29,
+          "share": 0.004027579788535109,
+          "color_group": "10"
+        },
+        {
+          "state": "Wyoming",
+          "sales": 1603.1360000000002,
+          "rank": 30,
+          "share": 0.0032517444859402342,
+          "color_group": "10"
+        },
+        {
+          "state": "Iowa",
+          "sales": 1247.1799999999998,
+          "rank": 31,
+          "share": 0.0025297358976249925,
+          "color_group": "10"
+        },
+        {
+          "state": "Delaware",
+          "sales": 1227.76,
+          "rank": 32,
+          "share": 0.0024903450549784802,
+          "color_group": "10"
+        },
+        {
+          "state": "Arkansas",
+          "sales": 1156.3899999999999,
+          "rank": 33,
+          "share": 0.0023455806657054837,
+          "color_group": "10"
+        },
+        {
+          "state": "Minnesota",
+          "sales": 1154.07,
+          "rank": 34,
+          "share": 0.0023408748595808745,
+          "color_group": "10"
+        },
+        {
+          "state": "Mississippi",
+          "sales": 1121.96,
+          "rank": 35,
+          "share": 0.0022757440687786344,
+          "color_group": "10"
+        },
+        {
+          "state": "New Mexico",
+          "sales": 1072.446,
+          "rank": 36,
+          "share": 0.0021753116185829896,
+          "color_group": "10"
+        },
+        {
+          "state": "North Dakota",
+          "sales": 891.53,
+          "rank": 37,
+          "share": 0.0018083479889106702,
+          "color_group": "10"
+        },
+        {
+          "state": "Idaho",
+          "sales": 814.5260000000001,
+          "rank": 38,
+          "share": 0.0016521557928678259,
+          "color_group": "10"
+        },
+        {
+          "state": "Nebraska",
+          "sales": 775.16,
+          "rank": 39,
+          "share": 0.0015723071877379283,
+          "color_group": "10"
+        },
+        {
+          "state": "Vermont",
+          "sales": 637.18,
+          "rank": 40,
+          "share": 0.0012924334252062196,
+          "color_group": "10"
+        },
+        {
+          "state": "Kansas",
+          "sales": 619.37,
+          "rank": 41,
+          "share": 0.0012563082497410092,
+          "color_group": "10"
+        },
+        {
+          "state": "West Virginia",
+          "sales": 536.48,
+          "rank": 42,
+          "share": 0.0010881770990216779,
+          "color_group": "10"
+        },
+        {
+          "state": "South Carolina",
+          "sales": 429.90999999999997,
+          "rank": 43,
+          "share": 0.0008720142719959914,
+          "color_group": "10"
+        },
+        {
+          "state": "Louisiana",
+          "sales": 283.02000000000004,
+          "rank": 44,
+          "share": 0.0005740677799081332,
+          "color_group": "10"
+        },
+        {
+          "state": "New Hampshire",
+          "sales": 268.56,
+          "rank": 45,
+          "share": 0.0005447376262176815,
+          "color_group": "10"
+        },
+        {
+          "state": "Utah",
+          "sales": 219.12,
+          "rank": 46,
+          "share": 0.0004444552750104944,
+          "color_group": "10"
+        },
+        {
+          "state": "District of Columbia",
+          "sales": 111.68,
+          "rank": 47,
+          "share": 0.00022652777068807967,
+          "color_group": "10"
+        }
+      ],
+      "top_three": [
+        {
+          "state": "California",
+          "sales": 99025.3305,
+          "rank": 1,
+          "share": 0.20085948567169862,
+          "color_group": "1"
+        },
+        {
+          "state": "New York",
+          "sales": 44986.034,
+          "rank": 2,
+          "share": 0.0912480837582213,
+          "color_group": "2"
+        },
+        {
+          "state": "Washington",
+          "sales": 38240.64,
+          "rank": 3,
+          "share": 0.07756596462110858,
+          "color_group": "3"
+        }
+      ]
+    },
+    "alternate-q1-2019": {
+      "selected_months": [
+        "2019-01-01",
+        "2019-02-01",
+        "2019-03-01"
+      ],
+      "passed": true,
+      "overall_total": 2297200.8603,
+      "overall_count": 48,
+      "overall_average": 47858.35125625,
+      "selected_total": 68851.7386,
+      "selected_count": 3,
+      "selected_average": 22950.579533333334,
+      "first_month": "2019-01-01",
+      "last_month": "2019-03-01",
+      "first_sales": 18174.0756,
+      "last_sales": 38726.252,
+      "endpoint_change": 1.1308512659648011,
+      "peak_sales": 38726.252,
+      "peak_months": [
+        "2019-03-01"
+      ],
+      "months": [
+        {
+          "month": "2018-01-01",
+          "sales": 14236.895,
+          "selected_sales": null
+        },
+        {
+          "month": "2018-02-01",
+          "sales": 4519.892,
+          "selected_sales": null
+        },
+        {
+          "month": "2018-03-01",
+          "sales": 55691.009,
+          "selected_sales": null
+        },
+        {
+          "month": "2018-04-01",
+          "sales": 28295.344999999998,
+          "selected_sales": null
+        },
+        {
+          "month": "2018-05-01",
+          "sales": 23648.287,
+          "selected_sales": null
+        },
+        {
+          "month": "2018-06-01",
+          "sales": 34595.1276,
+          "selected_sales": null
+        },
+        {
+          "month": "2018-07-01",
+          "sales": 33946.393,
+          "selected_sales": null
+        },
+        {
+          "month": "2018-08-01",
+          "sales": 27909.4685,
+          "selected_sales": null
+        },
+        {
+          "month": "2018-09-01",
+          "sales": 81777.3508,
+          "selected_sales": null
+        },
+        {
+          "month": "2018-10-01",
+          "sales": 31453.393,
+          "selected_sales": null
+        },
+        {
+          "month": "2018-11-01",
+          "sales": 78628.7167,
+          "selected_sales": null
+        },
+        {
+          "month": "2018-12-01",
+          "sales": 69545.6205,
+          "selected_sales": null
+        },
+        {
+          "month": "2019-01-01",
+          "sales": 18174.0756,
+          "selected_sales": 18174.0756
+        },
+        {
+          "month": "2019-02-01",
+          "sales": 11951.411,
+          "selected_sales": 11951.411
+        },
+        {
+          "month": "2019-03-01",
+          "sales": 38726.252,
+          "selected_sales": 38726.252
+        },
+        {
+          "month": "2019-04-01",
+          "sales": 34195.2085,
+          "selected_sales": null
+        },
+        {
+          "month": "2019-05-01",
+          "sales": 30131.6865,
+          "selected_sales": null
+        },
+        {
+          "month": "2019-06-01",
+          "sales": 24797.292,
+          "selected_sales": null
+        },
+        {
+          "month": "2019-07-01",
+          "sales": 28765.325,
+          "selected_sales": null
+        },
+        {
+          "month": "2019-08-01",
+          "sales": 36898.3322,
+          "selected_sales": null
+        },
+        {
+          "month": "2019-09-01",
+          "sales": 64595.918000000005,
+          "selected_sales": null
+        },
+        {
+          "month": "2019-10-01",
+          "sales": 31404.9235,
+          "selected_sales": null
+        },
+        {
+          "month": "2019-11-01",
+          "sales": 75972.5635,
+          "selected_sales": null
+        },
+        {
+          "month": "2019-12-01",
+          "sales": 74919.5212,
+          "selected_sales": null
+        },
+        {
+          "month": "2020-01-01",
+          "sales": 18542.491,
+          "selected_sales": null
+        },
+        {
+          "month": "2020-02-01",
+          "sales": 22978.815000000002,
+          "selected_sales": null
+        },
+        {
+          "month": "2020-03-01",
+          "sales": 51715.875,
+          "selected_sales": null
+        },
+        {
+          "month": "2020-04-01",
+          "sales": 38750.039,
+          "selected_sales": null
+        },
+        {
+          "month": "2020-05-01",
+          "sales": 56987.728,
+          "selected_sales": null
+        },
+        {
+          "month": "2020-06-01",
+          "sales": 40344.534,
+          "selected_sales": null
+        },
+        {
+          "month": "2020-07-01",
+          "sales": 39261.963,
+          "selected_sales": null
+        },
+        {
+          "month": "2020-08-01",
+          "sales": 31115.3743,
+          "selected_sales": null
+        },
+        {
+          "month": "2020-09-01",
+          "sales": 73410.0249,
+          "selected_sales": null
+        },
+        {
+          "month": "2020-10-01",
+          "sales": 59687.744999999995,
+          "selected_sales": null
+        },
+        {
+          "month": "2020-11-01",
+          "sales": 79411.9658,
+          "selected_sales": null
+        },
+        {
+          "month": "2020-12-01",
+          "sales": 96999.043,
+          "selected_sales": null
+        },
+        {
+          "month": "2021-01-01",
+          "sales": 43971.373999999996,
+          "selected_sales": null
+        },
+        {
+          "month": "2021-02-01",
+          "sales": 20301.1334,
+          "selected_sales": null
+        },
+        {
+          "month": "2021-03-01",
+          "sales": 58872.3528,
+          "selected_sales": null
+        },
+        {
+          "month": "2021-04-01",
+          "sales": 36521.5361,
+          "selected_sales": null
+        },
+        {
+          "month": "2021-05-01",
+          "sales": 44261.1102,
+          "selected_sales": null
+        },
+        {
+          "month": "2021-06-01",
+          "sales": 52981.7257,
+          "selected_sales": null
+        },
+        {
+          "month": "2021-07-01",
+          "sales": 45264.416000000005,
+          "selected_sales": null
+        },
+        {
+          "month": "2021-08-01",
+          "sales": 63120.888000000006,
+          "selected_sales": null
+        },
+        {
+          "month": "2021-09-01",
+          "sales": 87866.652,
+          "selected_sales": null
+        },
+        {
+          "month": "2021-10-01",
+          "sales": 77776.9232,
+          "selected_sales": null
+        },
+        {
+          "month": "2021-11-01",
+          "sales": 118447.825,
+          "selected_sales": null
+        },
+        {
+          "month": "2021-12-01",
+          "sales": 83829.3188,
+          "selected_sales": null
+        }
+      ],
+      "states": [
+        {
+          "state": "California",
+          "sales": 12941.472,
+          "rank": 1,
+          "share": 0.18796144096207326,
+          "color_group": "1"
+        },
+        {
+          "state": "Washington",
+          "sales": 10365.64,
+          "rank": 2,
+          "share": 0.15055015618734136,
+          "color_group": "2"
+        },
+        {
+          "state": "Georgia",
+          "sales": 6555.83,
+          "rank": 3,
+          "share": 0.09521662246013349,
+          "color_group": "3"
+        },
+        {
+          "state": "Texas",
+          "sales": 5624.7856,
+          "rank": 4,
+          "share": 0.0816941694483224,
+          "color_group": "10"
+        },
+        {
+          "state": "New York",
+          "sales": 5622.155,
+          "rank": 5,
+          "share": 0.08165596271522474,
+          "color_group": "10"
+        },
+        {
+          "state": "North Carolina",
+          "sales": 5577.671,
+          "rank": 6,
+          "share": 0.08100987881226866,
+          "color_group": "10"
+        },
+        {
+          "state": "Wisconsin",
+          "sales": 3558.62,
+          "rank": 7,
+          "share": 0.05168525984033757,
+          "color_group": "10"
+        },
+        {
+          "state": "Ohio",
+          "sales": 3510.992,
+          "rank": 8,
+          "share": 0.05099351260245446,
+          "color_group": "10"
+        },
+        {
+          "state": "Delaware",
+          "sales": 2946.54,
+          "rank": 9,
+          "share": 0.04279543349105784,
+          "color_group": "10"
+        },
+        {
+          "state": "Maryland",
+          "sales": 2631.8,
+          "rank": 10,
+          "share": 0.038224161851448155,
+          "color_group": "10"
+        },
+        {
+          "state": "Florida",
+          "sales": 2000.1680000000001,
+          "rank": 11,
+          "share": 0.029050363007100597,
+          "color_group": "10"
+        },
+        {
+          "state": "Illinois",
+          "sales": 1937.9699999999998,
+          "rank": 12,
+          "share": 0.02814700165029674,
+          "color_group": "10"
+        },
+        {
+          "state": "Pennsylvania",
+          "sales": 790.8009999999999,
+          "rank": 13,
+          "share": 0.011485563270874324,
+          "color_group": "10"
+        },
+        {
+          "state": "New Hampshire",
+          "sales": 724.3399999999999,
+          "rank": 14,
+          "share": 0.010520286266235258,
+          "color_group": "10"
+        },
+        {
+          "state": "Virginia",
+          "sales": 698.52,
+          "rank": 15,
+          "share": 0.010145277580543188,
+          "color_group": "10"
+        },
+        {
+          "state": "Tennessee",
+          "sales": 640.224,
+          "rank": 16,
+          "share": 0.009298588721476382,
+          "color_group": "10"
+        },
+        {
+          "state": "Rhode Island",
+          "sales": 599.8999999999999,
+          "rank": 17,
+          "share": 0.008712924498321962,
+          "color_group": "10"
+        },
+        {
+          "state": "Alabama",
+          "sales": 518.49,
+          "rank": 18,
+          "share": 0.0075305287933571515,
+          "color_group": "10"
+        },
+        {
+          "state": "Kentucky",
+          "sales": 364.07,
+          "rank": 19,
+          "share": 0.005287738659950121,
+          "color_group": "10"
+        },
+        {
+          "state": "New Jersey",
+          "sales": 286.78999999999996,
+          "rank": 20,
+          "share": 0.0041653269159422504,
+          "color_group": "10"
+        },
+        {
+          "state": "Indiana",
+          "sales": 196.65,
+          "rank": 21,
+          "share": 0.0028561370271628843,
+          "color_group": "10"
+        },
+        {
+          "state": "Nebraska",
+          "sales": 178.37,
+          "rank": 22,
+          "share": 0.0025906390111113333,
+          "color_group": "10"
+        },
+        {
+          "state": "Minnesota",
+          "sales": 171.5,
+          "rank": 23,
+          "share": 0.0024908593956696396,
+          "color_group": "10"
+        },
+        {
+          "state": "Michigan",
+          "sales": 79.36,
+          "rank": 24,
+          "share": 0.0011526215839087032,
+          "color_group": "10"
+        },
+        {
+          "state": "South Carolina",
+          "sales": 59.480000000000004,
+          "rank": 25,
+          "share": 0.0008638852294718961,
+          "color_group": "10"
+        },
+        {
+          "state": "New Mexico",
+          "sales": 49.12,
+          "rank": 26,
+          "share": 0.0007134169884273627,
+          "color_group": "10"
+        },
+        {
+          "state": "Montana",
+          "sales": 43.66,
+          "rank": 27,
+          "share": 0.0006341161586876762,
+          "color_group": "10"
+        },
+        {
+          "state": "Colorado",
+          "sales": 34.946000000000005,
+          "rank": 28,
+          "share": 0.0005075543582569752,
+          "color_group": "10"
+        },
+        {
+          "state": "Massachusetts",
+          "sales": 32.55,
+          "rank": 29,
+          "share": 0.000472754946525054,
+          "color_group": "10"
+        },
+        {
+          "state": "Arkansas",
+          "sales": 29.99,
+          "rank": 30,
+          "share": 0.00043557360510864426,
+          "color_group": "10"
+        },
+        {
+          "state": "Oregon",
+          "sales": 29.304000000000002,
+          "rank": 31,
+          "share": 0.00042561016752596574,
+          "color_group": "10"
+        },
+        {
+          "state": "Utah",
+          "sales": 28.92,
+          "rank": 32,
+          "share": 0.0004200329663135043,
+          "color_group": "10"
+        },
+        {
+          "state": "Kansas",
+          "sales": 21.11,
+          "rank": 33,
+          "share": 0.00030660082707047284,
+          "color_group": "10"
+        }
+      ],
+      "top_three": [
+        {
+          "state": "California",
+          "sales": 12941.472,
+          "rank": 1,
+          "share": 0.18796144096207326,
+          "color_group": "1"
+        },
+        {
+          "state": "Washington",
+          "sales": 10365.64,
+          "rank": 2,
+          "share": 0.15055015618734136,
+          "color_group": "2"
+        },
+        {
+          "state": "Georgia",
+          "sales": 6555.83,
+          "rank": 3,
+          "share": 0.09521662246013349,
+          "color_group": "3"
+        }
+      ]
+    },
+    "single-june-2021": {
+      "selected_months": [
+        "2021-06-01"
+      ],
+      "passed": true,
+      "overall_total": 2297200.8603,
+      "overall_count": 48,
+      "overall_average": 47858.35125625,
+      "selected_total": 52981.7257,
+      "selected_count": 1,
+      "selected_average": 52981.7257,
+      "first_month": "2021-06-01",
+      "last_month": "2021-06-01",
+      "first_sales": 52981.7257,
+      "last_sales": 52981.7257,
+      "endpoint_change": 0.0,
+      "peak_sales": 52981.7257,
+      "peak_months": [
+        "2021-06-01"
+      ],
+      "months": [
+        {
+          "month": "2018-01-01",
+          "sales": 14236.895,
+          "selected_sales": null
+        },
+        {
+          "month": "2018-02-01",
+          "sales": 4519.892,
+          "selected_sales": null
+        },
+        {
+          "month": "2018-03-01",
+          "sales": 55691.009,
+          "selected_sales": null
+        },
+        {
+          "month": "2018-04-01",
+          "sales": 28295.344999999998,
+          "selected_sales": null
+        },
+        {
+          "month": "2018-05-01",
+          "sales": 23648.287,
+          "selected_sales": null
+        },
+        {
+          "month": "2018-06-01",
+          "sales": 34595.1276,
+          "selected_sales": null
+        },
+        {
+          "month": "2018-07-01",
+          "sales": 33946.393,
+          "selected_sales": null
+        },
+        {
+          "month": "2018-08-01",
+          "sales": 27909.4685,
+          "selected_sales": null
+        },
+        {
+          "month": "2018-09-01",
+          "sales": 81777.3508,
+          "selected_sales": null
+        },
+        {
+          "month": "2018-10-01",
+          "sales": 31453.393,
+          "selected_sales": null
+        },
+        {
+          "month": "2018-11-01",
+          "sales": 78628.7167,
+          "selected_sales": null
+        },
+        {
+          "month": "2018-12-01",
+          "sales": 69545.6205,
+          "selected_sales": null
+        },
+        {
+          "month": "2019-01-01",
+          "sales": 18174.0756,
+          "selected_sales": null
+        },
+        {
+          "month": "2019-02-01",
+          "sales": 11951.411,
+          "selected_sales": null
+        },
+        {
+          "month": "2019-03-01",
+          "sales": 38726.252,
+          "selected_sales": null
+        },
+        {
+          "month": "2019-04-01",
+          "sales": 34195.2085,
+          "selected_sales": null
+        },
+        {
+          "month": "2019-05-01",
+          "sales": 30131.6865,
+          "selected_sales": null
+        },
+        {
+          "month": "2019-06-01",
+          "sales": 24797.292,
+          "selected_sales": null
+        },
+        {
+          "month": "2019-07-01",
+          "sales": 28765.325,
+          "selected_sales": null
+        },
+        {
+          "month": "2019-08-01",
+          "sales": 36898.3322,
+          "selected_sales": null
+        },
+        {
+          "month": "2019-09-01",
+          "sales": 64595.918000000005,
+          "selected_sales": null
+        },
+        {
+          "month": "2019-10-01",
+          "sales": 31404.9235,
+          "selected_sales": null
+        },
+        {
+          "month": "2019-11-01",
+          "sales": 75972.5635,
+          "selected_sales": null
+        },
+        {
+          "month": "2019-12-01",
+          "sales": 74919.5212,
+          "selected_sales": null
+        },
+        {
+          "month": "2020-01-01",
+          "sales": 18542.491,
+          "selected_sales": null
+        },
+        {
+          "month": "2020-02-01",
+          "sales": 22978.815000000002,
+          "selected_sales": null
+        },
+        {
+          "month": "2020-03-01",
+          "sales": 51715.875,
+          "selected_sales": null
+        },
+        {
+          "month": "2020-04-01",
+          "sales": 38750.039,
+          "selected_sales": null
+        },
+        {
+          "month": "2020-05-01",
+          "sales": 56987.728,
+          "selected_sales": null
+        },
+        {
+          "month": "2020-06-01",
+          "sales": 40344.534,
+          "selected_sales": null
+        },
+        {
+          "month": "2020-07-01",
+          "sales": 39261.963,
+          "selected_sales": null
+        },
+        {
+          "month": "2020-08-01",
+          "sales": 31115.3743,
+          "selected_sales": null
+        },
+        {
+          "month": "2020-09-01",
+          "sales": 73410.0249,
+          "selected_sales": null
+        },
+        {
+          "month": "2020-10-01",
+          "sales": 59687.744999999995,
+          "selected_sales": null
+        },
+        {
+          "month": "2020-11-01",
+          "sales": 79411.9658,
+          "selected_sales": null
+        },
+        {
+          "month": "2020-12-01",
+          "sales": 96999.043,
+          "selected_sales": null
+        },
+        {
+          "month": "2021-01-01",
+          "sales": 43971.373999999996,
+          "selected_sales": null
+        },
+        {
+          "month": "2021-02-01",
+          "sales": 20301.1334,
+          "selected_sales": null
+        },
+        {
+          "month": "2021-03-01",
+          "sales": 58872.3528,
+          "selected_sales": null
+        },
+        {
+          "month": "2021-04-01",
+          "sales": 36521.5361,
+          "selected_sales": null
+        },
+        {
+          "month": "2021-05-01",
+          "sales": 44261.1102,
+          "selected_sales": null
+        },
+        {
+          "month": "2021-06-01",
+          "sales": 52981.7257,
+          "selected_sales": 52981.7257
+        },
+        {
+          "month": "2021-07-01",
+          "sales": 45264.416000000005,
+          "selected_sales": null
+        },
+        {
+          "month": "2021-08-01",
+          "sales": 63120.888000000006,
+          "selected_sales": null
+        },
+        {
+          "month": "2021-09-01",
+          "sales": 87866.652,
+          "selected_sales": null
+        },
+        {
+          "month": "2021-10-01",
+          "sales": 77776.9232,
+          "selected_sales": null
+        },
+        {
+          "month": "2021-11-01",
+          "sales": 118447.825,
+          "selected_sales": null
+        },
+        {
+          "month": "2021-12-01",
+          "sales": 83829.3188,
+          "selected_sales": null
+        }
+      ],
+      "states": [
+        {
+          "state": "New York",
+          "sales": 10403.588,
+          "rank": 1,
+          "share": 0.19636181839203473,
+          "color_group": "1"
+        },
+        {
+          "state": "California",
+          "sales": 9086.9655,
+          "rank": 2,
+          "share": 0.17151131602344163,
+          "color_group": "2"
+        },
+        {
+          "state": "Indiana",
+          "sales": 4998.7699999999995,
+          "rank": 3,
+          "share": 0.09434894643305285,
+          "color_group": "3"
+        },
+        {
+          "state": "Washington",
+          "sales": 4927.506,
+          "rank": 4,
+          "share": 0.09300387888271446,
+          "color_group": "10"
+        },
+        {
+          "state": "Texas",
+          "sales": 3326.8122000000003,
+          "rank": 5,
+          "share": 0.06279169196634907,
+          "color_group": "10"
+        },
+        {
+          "state": "Tennessee",
+          "sales": 2997.472,
+          "rank": 6,
+          "share": 0.05657558262584112,
+          "color_group": "10"
+        },
+        {
+          "state": "Illinois",
+          "sales": 2852.339,
+          "rank": 7,
+          "share": 0.05383627962877018,
+          "color_group": "10"
+        },
+        {
+          "state": "Florida",
+          "sales": 2826.5380000000005,
+          "rank": 8,
+          "share": 0.05334930039849571,
+          "color_group": "10"
+        },
+        {
+          "state": "Ohio",
+          "sales": 1844.1,
+          "rank": 9,
+          "share": 0.03480634078327124,
+          "color_group": "10"
+        },
+        {
+          "state": "Pennsylvania",
+          "sales": 1319.307,
+          "rank": 10,
+          "share": 0.024901170782362793,
+          "color_group": "10"
+        },
+        {
+          "state": "Michigan",
+          "sales": 1184.86,
+          "rank": 11,
+          "share": 0.022363559969885993,
+          "color_group": "10"
+        },
+        {
+          "state": "Arizona",
+          "sales": 935.3080000000001,
+          "rank": 12,
+          "share": 0.017653407616354786,
+          "color_group": "10"
+        },
+        {
+          "state": "North Carolina",
+          "sales": 923.9800000000001,
+          "rank": 13,
+          "share": 0.017439598046161794,
+          "color_group": "10"
+        },
+        {
+          "state": "Virginia",
+          "sales": 767.34,
+          "rank": 14,
+          "share": 0.01448310695549881,
+          "color_group": "10"
+        },
+        {
+          "state": "Kentucky",
+          "sales": 740.5899999999999,
+          "rank": 15,
+          "share": 0.013978215888879585,
+          "color_group": "10"
+        },
+        {
+          "state": "Connecticut",
+          "sales": 705.0300000000001,
+          "rank": 16,
+          "share": 0.013307041072842972,
+          "color_group": "10"
+        },
+        {
+          "state": "Colorado",
+          "sales": 578.2800000000001,
+          "rank": 17,
+          "share": 0.010914706766525728,
+          "color_group": "10"
+        },
+        {
+          "state": "Georgia",
+          "sales": 544.1399999999999,
+          "rank": 18,
+          "share": 0.010270333644492818,
+          "color_group": "10"
+        },
+        {
+          "state": "West Virginia",
+          "sales": 536.48,
+          "rank": 19,
+          "share": 0.010125755492331953,
+          "color_group": "10"
+        },
+        {
+          "state": "Minnesota",
+          "sales": 530.01,
+          "rank": 20,
+          "share": 0.01000363791472349,
+          "color_group": "10"
+        },
+        {
+          "state": "New Jersey",
+          "sales": 249.78999999999996,
+          "rank": 21,
+          "share": 0.00471464446844169,
+          "color_group": "10"
+        },
+        {
+          "state": "New Mexico",
+          "sales": 228.28,
+          "rank": 22,
+          "share": 0.004308655427582646,
+          "color_group": "10"
+        },
+        {
+          "state": "Arkansas",
+          "sales": 117.62,
+          "rank": 23,
+          "share": 0.0022200107385328145,
+          "color_group": "10"
+        },
+        {
+          "state": "Rhode Island",
+          "sales": 102.93,
+          "rank": 24,
+          "share": 0.001942745326621175,
+          "color_group": "10"
+        },
+        {
+          "state": "Oregon",
+          "sales": 87.688,
+          "rank": 25,
+          "share": 0.0016550612280264022,
+          "color_group": "10"
+        },
+        {
+          "state": "Nevada",
+          "sales": 75.792,
+          "rank": 26,
+          "share": 0.0014305309802319255,
+          "color_group": "10"
+        },
+        {
+          "state": "Nebraska",
+          "sales": 73.97,
+          "rank": 27,
+          "share": 0.0013961417644046275,
+          "color_group": "10"
+        },
+        {
+          "state": "Alabama",
+          "sales": 16.240000000000002,
+          "rank": 28,
+          "share": 0.0003065207821269589,
+          "color_group": "10"
+        }
+      ],
+      "top_three": [
+        {
+          "state": "New York",
+          "sales": 10403.588,
+          "rank": 1,
+          "share": 0.19636181839203473,
+          "color_group": "1"
+        },
+        {
+          "state": "California",
+          "sales": 9086.9655,
+          "rank": 2,
+          "share": 0.17151131602344163,
+          "color_group": "2"
+        },
+        {
+          "state": "Indiana",
+          "sales": 4998.7699999999995,
+          "rank": 3,
+          "share": 0.09434894643305285,
+          "color_group": "3"
+        }
+      ]
+    },
+    "noncontiguous": {
+      "selected_months": [
+        "2020-10-01",
+        "2021-06-01"
+      ],
+      "passed": true,
+      "overall_total": 2297200.8603,
+      "overall_count": 48,
+      "overall_average": 47858.35125625,
+      "selected_total": 112669.4707,
+      "selected_count": 2,
+      "selected_average": 56334.73535,
+      "first_month": "2020-10-01",
+      "last_month": "2021-06-01",
+      "first_sales": 59687.744999999995,
+      "last_sales": 52981.7257,
+      "endpoint_change": -0.11235169464016426,
+      "peak_sales": 59687.744999999995,
+      "peak_months": [
+        "2020-10-01"
+      ],
+      "months": [
+        {
+          "month": "2018-01-01",
+          "sales": 14236.895,
+          "selected_sales": null
+        },
+        {
+          "month": "2018-02-01",
+          "sales": 4519.892,
+          "selected_sales": null
+        },
+        {
+          "month": "2018-03-01",
+          "sales": 55691.009,
+          "selected_sales": null
+        },
+        {
+          "month": "2018-04-01",
+          "sales": 28295.344999999998,
+          "selected_sales": null
+        },
+        {
+          "month": "2018-05-01",
+          "sales": 23648.287,
+          "selected_sales": null
+        },
+        {
+          "month": "2018-06-01",
+          "sales": 34595.1276,
+          "selected_sales": null
+        },
+        {
+          "month": "2018-07-01",
+          "sales": 33946.393,
+          "selected_sales": null
+        },
+        {
+          "month": "2018-08-01",
+          "sales": 27909.4685,
+          "selected_sales": null
+        },
+        {
+          "month": "2018-09-01",
+          "sales": 81777.3508,
+          "selected_sales": null
+        },
+        {
+          "month": "2018-10-01",
+          "sales": 31453.393,
+          "selected_sales": null
+        },
+        {
+          "month": "2018-11-01",
+          "sales": 78628.7167,
+          "selected_sales": null
+        },
+        {
+          "month": "2018-12-01",
+          "sales": 69545.6205,
+          "selected_sales": null
+        },
+        {
+          "month": "2019-01-01",
+          "sales": 18174.0756,
+          "selected_sales": null
+        },
+        {
+          "month": "2019-02-01",
+          "sales": 11951.411,
+          "selected_sales": null
+        },
+        {
+          "month": "2019-03-01",
+          "sales": 38726.252,
+          "selected_sales": null
+        },
+        {
+          "month": "2019-04-01",
+          "sales": 34195.2085,
+          "selected_sales": null
+        },
+        {
+          "month": "2019-05-01",
+          "sales": 30131.6865,
+          "selected_sales": null
+        },
+        {
+          "month": "2019-06-01",
+          "sales": 24797.292,
+          "selected_sales": null
+        },
+        {
+          "month": "2019-07-01",
+          "sales": 28765.325,
+          "selected_sales": null
+        },
+        {
+          "month": "2019-08-01",
+          "sales": 36898.3322,
+          "selected_sales": null
+        },
+        {
+          "month": "2019-09-01",
+          "sales": 64595.918000000005,
+          "selected_sales": null
+        },
+        {
+          "month": "2019-10-01",
+          "sales": 31404.9235,
+          "selected_sales": null
+        },
+        {
+          "month": "2019-11-01",
+          "sales": 75972.5635,
+          "selected_sales": null
+        },
+        {
+          "month": "2019-12-01",
+          "sales": 74919.5212,
+          "selected_sales": null
+        },
+        {
+          "month": "2020-01-01",
+          "sales": 18542.491,
+          "selected_sales": null
+        },
+        {
+          "month": "2020-02-01",
+          "sales": 22978.815000000002,
+          "selected_sales": null
+        },
+        {
+          "month": "2020-03-01",
+          "sales": 51715.875,
+          "selected_sales": null
+        },
+        {
+          "month": "2020-04-01",
+          "sales": 38750.039,
+          "selected_sales": null
+        },
+        {
+          "month": "2020-05-01",
+          "sales": 56987.728,
+          "selected_sales": null
+        },
+        {
+          "month": "2020-06-01",
+          "sales": 40344.534,
+          "selected_sales": null
+        },
+        {
+          "month": "2020-07-01",
+          "sales": 39261.963,
+          "selected_sales": null
+        },
+        {
+          "month": "2020-08-01",
+          "sales": 31115.3743,
+          "selected_sales": null
+        },
+        {
+          "month": "2020-09-01",
+          "sales": 73410.0249,
+          "selected_sales": null
+        },
+        {
+          "month": "2020-10-01",
+          "sales": 59687.744999999995,
+          "selected_sales": 59687.744999999995
+        },
+        {
+          "month": "2020-11-01",
+          "sales": 79411.9658,
+          "selected_sales": null
+        },
+        {
+          "month": "2020-12-01",
+          "sales": 96999.043,
+          "selected_sales": null
+        },
+        {
+          "month": "2021-01-01",
+          "sales": 43971.373999999996,
+          "selected_sales": null
+        },
+        {
+          "month": "2021-02-01",
+          "sales": 20301.1334,
+          "selected_sales": null
+        },
+        {
+          "month": "2021-03-01",
+          "sales": 58872.3528,
+          "selected_sales": null
+        },
+        {
+          "month": "2021-04-01",
+          "sales": 36521.5361,
+          "selected_sales": null
+        },
+        {
+          "month": "2021-05-01",
+          "sales": 44261.1102,
+          "selected_sales": null
+        },
+        {
+          "month": "2021-06-01",
+          "sales": 52981.7257,
+          "selected_sales": 52981.7257
+        },
+        {
+          "month": "2021-07-01",
+          "sales": 45264.416000000005,
+          "selected_sales": null
+        },
+        {
+          "month": "2021-08-01",
+          "sales": 63120.888000000006,
+          "selected_sales": null
+        },
+        {
+          "month": "2021-09-01",
+          "sales": 87866.652,
+          "selected_sales": null
+        },
+        {
+          "month": "2021-10-01",
+          "sales": 77776.9232,
+          "selected_sales": null
+        },
+        {
+          "month": "2021-11-01",
+          "sales": 118447.825,
+          "selected_sales": null
+        },
+        {
+          "month": "2021-12-01",
+          "sales": 83829.3188,
+          "selected_sales": null
+        }
+      ],
+      "states": [
+        {
+          "state": "Indiana",
+          "sales": 23447.26,
+          "rank": 1,
+          "share": 0.20810659581806304,
+          "color_group": "1"
+        },
+        {
+          "state": "California",
+          "sales": 16250.1875,
+          "rank": 2,
+          "share": 0.14422884388326143,
+          "color_group": "2"
+        },
+        {
+          "state": "New York",
+          "sales": 14864.694,
+          "rank": 3,
+          "share": 0.1319318703429393,
+          "color_group": "3"
+        },
+        {
+          "state": "Washington",
+          "sales": 6169.476,
+          "rank": 4,
+          "share": 0.054757299929341016,
+          "color_group": "10"
+        },
+        {
+          "state": "Rhode Island",
+          "sales": 5652.34,
+          "rank": 5,
+          "share": 0.05016744966389551,
+          "color_group": "10"
+        },
+        {
+          "state": "Nevada",
+          "sales": 4760.868,
+          "rank": 6,
+          "share": 0.04225517321082081,
+          "color_group": "10"
+        },
+        {
+          "state": "Texas",
+          "sales": 4307.3282,
+          "rank": 7,
+          "share": 0.03822977221104492,
+          "color_group": "10"
+        },
+        {
+          "state": "Florida",
+          "sales": 4170.077,
+          "rank": 8,
+          "share": 0.037011596611680894,
+          "color_group": "10"
+        },
+        {
+          "state": "Tennessee",
+          "sales": 3349.1200000000003,
+          "rank": 9,
+          "share": 0.029725177363418644,
+          "color_group": "10"
+        },
+        {
+          "state": "Illinois",
+          "sales": 2956.375,
+          "rank": 10,
+          "share": 0.02623936175107992,
+          "color_group": "10"
+        },
+        {
+          "state": "Ohio",
+          "sales": 2771.556,
+          "rank": 11,
+          "share": 0.02459899725081428,
+          "color_group": "10"
+        },
+        {
+          "state": "Missouri",
+          "sales": 2377.5600000000004,
+          "rank": 12,
+          "share": 0.021102078364516542,
+          "color_group": "10"
+        },
+        {
+          "state": "Colorado",
+          "sales": 2359.898,
+          "rank": 13,
+          "share": 0.020945318952314915,
+          "color_group": "10"
+        },
+        {
+          "state": "Pennsylvania",
+          "sales": 2169.038,
+          "rank": 14,
+          "share": 0.01925133744326714,
+          "color_group": "10"
+        },
+        {
+          "state": "New Jersey",
+          "sales": 2002.83,
+          "rank": 15,
+          "share": 0.017776155222498972,
+          "color_group": "10"
+        },
+        {
+          "state": "Connecticut",
+          "sales": 1884.3000000000002,
+          "rank": 16,
+          "share": 0.01672413998479892,
+          "color_group": "10"
+        },
+        {
+          "state": "Oklahoma",
+          "sales": 1823.3799999999999,
+          "rank": 17,
+          "share": 0.01618344338241397,
+          "color_group": "10"
+        },
+        {
+          "state": "North Carolina",
+          "sales": 1659.267,
+          "rank": 18,
+          "share": 0.014726855373431696,
+          "color_group": "10"
+        },
+        {
+          "state": "Wisconsin",
+          "sales": 1649.75,
+          "rank": 19,
+          "share": 0.014642387061466864,
+          "color_group": "10"
+        },
+        {
+          "state": "Michigan",
+          "sales": 1633.48,
+          "rank": 20,
+          "share": 0.014497982371368325,
+          "color_group": "10"
+        },
+        {
+          "state": "Virginia",
+          "sales": 1502.1,
+          "rank": 21,
+          "share": 0.013331916717702303,
+          "color_group": "10"
+        },
+        {
+          "state": "Arizona",
+          "sales": 1468.996,
+          "rank": 22,
+          "share": 0.013038101544928977,
+          "color_group": "10"
+        },
+        {
+          "state": "Kentucky",
+          "sales": 740.5899999999999,
+          "rank": 23,
+          "share": 0.006573120432702981,
+          "color_group": "10"
+        },
+        {
+          "state": "Georgia",
+          "sales": 544.1399999999999,
+          "rank": 24,
+          "share": 0.0048295247738303244,
+          "color_group": "10"
+        },
+        {
+          "state": "West Virginia",
+          "sales": 536.48,
+          "rank": 25,
+          "share": 0.004761538300188358,
+          "color_group": "10"
+        },
+        {
+          "state": "Minnesota",
+          "sales": 530.01,
+          "rank": 26,
+          "share": 0.004704113693861526,
+          "color_group": "10"
+        },
+        {
+          "state": "Maryland",
+          "sales": 337.5319999999999,
+          "rank": 27,
+          "share": 0.002995771595472667,
+          "color_group": "10"
+        },
+        {
+          "state": "New Mexico",
+          "sales": 228.28,
+          "rank": 28,
+          "share": 0.0020261034207556634,
+          "color_group": "10"
+        },
+        {
+          "state": "Utah",
+          "sales": 219.12,
+          "rank": 29,
+          "share": 0.0019448036689853731,
+          "color_group": "10"
+        },
+        {
+          "state": "Arkansas",
+          "sales": 117.62,
+          "rank": 30,
+          "share": 0.0010439385156355402,
+          "color_group": "10"
+        },
+        {
+          "state": "Oregon",
+          "sales": 87.688,
+          "rank": 31,
+          "share": 0.0007782764883442378,
+          "color_group": "10"
+        },
+        {
+          "state": "Nebraska",
+          "sales": 73.97,
+          "rank": 32,
+          "share": 0.000656522122101351,
+          "color_group": "10"
+        },
+        {
+          "state": "Alabama",
+          "sales": 16.240000000000002,
+          "rank": 33,
+          "share": 0.00014413842453597328,
+          "color_group": "10"
+        },
+        {
+          "state": "Delaware",
+          "sales": 7.92,
+          "rank": 34,
+          "share": 7.02941085175436e-05,
+          "color_group": "10"
+        }
+      ],
+      "top_three": [
+        {
+          "state": "Indiana",
+          "sales": 23447.26,
+          "rank": 1,
+          "share": 0.20810659581806304,
+          "color_group": "1"
+        },
+        {
+          "state": "California",
+          "sales": 16250.1875,
+          "rank": 2,
+          "share": 0.14422884388326143,
+          "color_group": "2"
+        },
+        {
+          "state": "New York",
+          "sales": 14864.694,
+          "rank": 3,
+          "share": 0.1319318703429393,
+          "color_group": "3"
+        }
+      ]
+    },
+    "all-months": {
+      "selected_months": [
+        "2018-01-01",
+        "2018-02-01",
+        "2018-03-01",
+        "2018-04-01",
+        "2018-05-01",
+        "2018-06-01",
+        "2018-07-01",
+        "2018-08-01",
+        "2018-09-01",
+        "2018-10-01",
+        "2018-11-01",
+        "2018-12-01",
+        "2019-01-01",
+        "2019-02-01",
+        "2019-03-01",
+        "2019-04-01",
+        "2019-05-01",
+        "2019-06-01",
+        "2019-07-01",
+        "2019-08-01",
+        "2019-09-01",
+        "2019-10-01",
+        "2019-11-01",
+        "2019-12-01",
+        "2020-01-01",
+        "2020-02-01",
+        "2020-03-01",
+        "2020-04-01",
+        "2020-05-01",
+        "2020-06-01",
+        "2020-07-01",
+        "2020-08-01",
+        "2020-09-01",
+        "2020-10-01",
+        "2020-11-01",
+        "2020-12-01",
+        "2021-01-01",
+        "2021-02-01",
+        "2021-03-01",
+        "2021-04-01",
+        "2021-05-01",
+        "2021-06-01",
+        "2021-07-01",
+        "2021-08-01",
+        "2021-09-01",
+        "2021-10-01",
+        "2021-11-01",
+        "2021-12-01"
+      ],
+      "passed": true,
+      "overall_total": 2297200.8603,
+      "overall_count": 48,
+      "overall_average": 47858.35125625,
+      "selected_total": 2297200.8603,
+      "selected_count": 48,
+      "selected_average": 47858.35125625,
+      "first_month": "2018-01-01",
+      "last_month": "2021-12-01",
+      "first_sales": 14236.895,
+      "last_sales": 83829.3188,
+      "endpoint_change": 4.888174268335897,
+      "peak_sales": 118447.825,
+      "peak_months": [
+        "2021-11-01"
+      ],
+      "months": [
+        {
+          "month": "2018-01-01",
+          "sales": 14236.895,
+          "selected_sales": 14236.895
+        },
+        {
+          "month": "2018-02-01",
+          "sales": 4519.892,
+          "selected_sales": 4519.892
+        },
+        {
+          "month": "2018-03-01",
+          "sales": 55691.009,
+          "selected_sales": 55691.009
+        },
+        {
+          "month": "2018-04-01",
+          "sales": 28295.344999999998,
+          "selected_sales": 28295.344999999998
+        },
+        {
+          "month": "2018-05-01",
+          "sales": 23648.287,
+          "selected_sales": 23648.287
+        },
+        {
+          "month": "2018-06-01",
+          "sales": 34595.1276,
+          "selected_sales": 34595.1276
+        },
+        {
+          "month": "2018-07-01",
+          "sales": 33946.393,
+          "selected_sales": 33946.393
+        },
+        {
+          "month": "2018-08-01",
+          "sales": 27909.4685,
+          "selected_sales": 27909.4685
+        },
+        {
+          "month": "2018-09-01",
+          "sales": 81777.3508,
+          "selected_sales": 81777.3508
+        },
+        {
+          "month": "2018-10-01",
+          "sales": 31453.393,
+          "selected_sales": 31453.393
+        },
+        {
+          "month": "2018-11-01",
+          "sales": 78628.7167,
+          "selected_sales": 78628.7167
+        },
+        {
+          "month": "2018-12-01",
+          "sales": 69545.6205,
+          "selected_sales": 69545.6205
+        },
+        {
+          "month": "2019-01-01",
+          "sales": 18174.0756,
+          "selected_sales": 18174.0756
+        },
+        {
+          "month": "2019-02-01",
+          "sales": 11951.411,
+          "selected_sales": 11951.411
+        },
+        {
+          "month": "2019-03-01",
+          "sales": 38726.252,
+          "selected_sales": 38726.252
+        },
+        {
+          "month": "2019-04-01",
+          "sales": 34195.2085,
+          "selected_sales": 34195.2085
+        },
+        {
+          "month": "2019-05-01",
+          "sales": 30131.6865,
+          "selected_sales": 30131.6865
+        },
+        {
+          "month": "2019-06-01",
+          "sales": 24797.292,
+          "selected_sales": 24797.292
+        },
+        {
+          "month": "2019-07-01",
+          "sales": 28765.325,
+          "selected_sales": 28765.325
+        },
+        {
+          "month": "2019-08-01",
+          "sales": 36898.3322,
+          "selected_sales": 36898.3322
+        },
+        {
+          "month": "2019-09-01",
+          "sales": 64595.918000000005,
+          "selected_sales": 64595.918000000005
+        },
+        {
+          "month": "2019-10-01",
+          "sales": 31404.9235,
+          "selected_sales": 31404.9235
+        },
+        {
+          "month": "2019-11-01",
+          "sales": 75972.5635,
+          "selected_sales": 75972.5635
+        },
+        {
+          "month": "2019-12-01",
+          "sales": 74919.5212,
+          "selected_sales": 74919.5212
+        },
+        {
+          "month": "2020-01-01",
+          "sales": 18542.491,
+          "selected_sales": 18542.491
+        },
+        {
+          "month": "2020-02-01",
+          "sales": 22978.815000000002,
+          "selected_sales": 22978.815000000002
+        },
+        {
+          "month": "2020-03-01",
+          "sales": 51715.875,
+          "selected_sales": 51715.875
+        },
+        {
+          "month": "2020-04-01",
+          "sales": 38750.039,
+          "selected_sales": 38750.039
+        },
+        {
+          "month": "2020-05-01",
+          "sales": 56987.728,
+          "selected_sales": 56987.728
+        },
+        {
+          "month": "2020-06-01",
+          "sales": 40344.534,
+          "selected_sales": 40344.534
+        },
+        {
+          "month": "2020-07-01",
+          "sales": 39261.963,
+          "selected_sales": 39261.963
+        },
+        {
+          "month": "2020-08-01",
+          "sales": 31115.3743,
+          "selected_sales": 31115.3743
+        },
+        {
+          "month": "2020-09-01",
+          "sales": 73410.0249,
+          "selected_sales": 73410.0249
+        },
+        {
+          "month": "2020-10-01",
+          "sales": 59687.744999999995,
+          "selected_sales": 59687.744999999995
+        },
+        {
+          "month": "2020-11-01",
+          "sales": 79411.9658,
+          "selected_sales": 79411.9658
+        },
+        {
+          "month": "2020-12-01",
+          "sales": 96999.043,
+          "selected_sales": 96999.043
+        },
+        {
+          "month": "2021-01-01",
+          "sales": 43971.373999999996,
+          "selected_sales": 43971.373999999996
+        },
+        {
+          "month": "2021-02-01",
+          "sales": 20301.1334,
+          "selected_sales": 20301.1334
+        },
+        {
+          "month": "2021-03-01",
+          "sales": 58872.3528,
+          "selected_sales": 58872.3528
+        },
+        {
+          "month": "2021-04-01",
+          "sales": 36521.5361,
+          "selected_sales": 36521.5361
+        },
+        {
+          "month": "2021-05-01",
+          "sales": 44261.1102,
+          "selected_sales": 44261.1102
+        },
+        {
+          "month": "2021-06-01",
+          "sales": 52981.7257,
+          "selected_sales": 52981.7257
+        },
+        {
+          "month": "2021-07-01",
+          "sales": 45264.416000000005,
+          "selected_sales": 45264.416000000005
+        },
+        {
+          "month": "2021-08-01",
+          "sales": 63120.888000000006,
+          "selected_sales": 63120.888000000006
+        },
+        {
+          "month": "2021-09-01",
+          "sales": 87866.652,
+          "selected_sales": 87866.652
+        },
+        {
+          "month": "2021-10-01",
+          "sales": 77776.9232,
+          "selected_sales": 77776.9232
+        },
+        {
+          "month": "2021-11-01",
+          "sales": 118447.825,
+          "selected_sales": 118447.825
+        },
+        {
+          "month": "2021-12-01",
+          "sales": 83829.3188,
+          "selected_sales": 83829.3188
+        }
+      ],
+      "states": [
+        {
+          "state": "California",
+          "sales": 457687.6315,
+          "rank": 1,
+          "share": 0.19923709737781872,
+          "color_group": "1"
+        },
+        {
+          "state": "New York",
+          "sales": 310876.271,
+          "rank": 2,
+          "share": 0.13532829295536722,
+          "color_group": "2"
+        },
+        {
+          "state": "Texas",
+          "sales": 170188.0458,
+          "rank": 3,
+          "share": 0.07408496520316231,
+          "color_group": "3"
+        },
+        {
+          "state": "Washington",
+          "sales": 138641.27,
+          "rank": 4,
+          "share": 0.060352262789025043,
+          "color_group": "10"
+        },
+        {
+          "state": "Pennsylvania",
+          "sales": 116511.914,
+          "rank": 5,
+          "share": 0.050719079908747855,
+          "color_group": "10"
+        },
+        {
+          "state": "Florida",
+          "sales": 89473.708,
+          "rank": 6,
+          "share": 0.03894901379599662,
+          "color_group": "10"
+        },
+        {
+          "state": "Illinois",
+          "sales": 80166.101,
+          "rank": 7,
+          "share": 0.034897297134709765,
+          "color_group": "10"
+        },
+        {
+          "state": "Ohio",
+          "sales": 78258.136,
+          "rank": 8,
+          "share": 0.03406673632787165,
+          "color_group": "10"
+        },
+        {
+          "state": "Michigan",
+          "sales": 76269.614,
+          "rank": 9,
+          "share": 0.03320110806072033,
+          "color_group": "10"
+        },
+        {
+          "state": "Virginia",
+          "sales": 70636.72,
+          "rank": 10,
+          "share": 0.030749039503134824,
+          "color_group": "10"
+        },
+        {
+          "state": "North Carolina",
+          "sales": 55603.164000000004,
+          "rank": 11,
+          "share": 0.024204746289681688,
+          "color_group": "10"
+        },
+        {
+          "state": "Indiana",
+          "sales": 53555.36,
+          "rank": 12,
+          "share": 0.023313311833343998,
+          "color_group": "10"
+        },
+        {
+          "state": "Georgia",
+          "sales": 49095.84,
+          "rank": 13,
+          "share": 0.02137202751769316,
+          "color_group": "10"
+        },
+        {
+          "state": "Kentucky",
+          "sales": 36591.75,
+          "rank": 14,
+          "share": 0.015928842197639327,
+          "color_group": "10"
+        },
+        {
+          "state": "New Jersey",
+          "sales": 35764.312,
+          "rank": 15,
+          "share": 0.015568648183132496,
+          "color_group": "10"
+        },
+        {
+          "state": "Arizona",
+          "sales": 35282.001000000004,
+          "rank": 16,
+          "share": 0.015358692228328872,
+          "color_group": "10"
+        },
+        {
+          "state": "Wisconsin",
+          "sales": 32114.61,
+          "rank": 17,
+          "share": 0.0139798876776522,
+          "color_group": "10"
+        },
+        {
+          "state": "Colorado",
+          "sales": 32108.118000000002,
+          "rank": 18,
+          "share": 0.013977061629607298,
+          "color_group": "10"
+        },
+        {
+          "state": "Tennessee",
+          "sales": 30661.873000000003,
+          "rank": 19,
+          "share": 0.013347493260121693,
+          "color_group": "10"
+        },
+        {
+          "state": "Minnesota",
+          "sales": 29863.15,
+          "rank": 20,
+          "share": 0.012999799240933621,
+          "color_group": "10"
+        },
+        {
+          "state": "Massachusetts",
+          "sales": 28634.434,
+          "rank": 21,
+          "share": 0.012464923940634658,
+          "color_group": "10"
+        },
+        {
+          "state": "Delaware",
+          "sales": 27451.069,
+          "rank": 22,
+          "share": 0.011949790492597616,
+          "color_group": "10"
+        },
+        {
+          "state": "Maryland",
+          "sales": 23705.523,
+          "rank": 23,
+          "share": 0.01031930790627695,
+          "color_group": "10"
+        },
+        {
+          "state": "Rhode Island",
+          "sales": 22627.956,
+          "rank": 24,
+          "share": 0.00985022963862417,
+          "color_group": "10"
+        },
+        {
+          "state": "Missouri",
+          "sales": 22205.15,
+          "rank": 25,
+          "share": 0.009666176947670196,
+          "color_group": "10"
+        },
+        {
+          "state": "Oklahoma",
+          "sales": 19683.39,
+          "rank": 26,
+          "share": 0.008568423571558943,
+          "color_group": "10"
+        },
+        {
+          "state": "Alabama",
+          "sales": 19510.64,
+          "rank": 27,
+          "share": 0.008493223355946346,
+          "color_group": "10"
+        },
+        {
+          "state": "Oregon",
+          "sales": 17431.15,
+          "rank": 28,
+          "share": 0.007587995591175081,
+          "color_group": "10"
+        },
+        {
+          "state": "Nevada",
+          "sales": 16729.102000000003,
+          "rank": 29,
+          "share": 0.007282385397424624,
+          "color_group": "10"
+        },
+        {
+          "state": "Connecticut",
+          "sales": 13384.357,
+          "rank": 30,
+          "share": 0.005826376452885399,
+          "color_group": "10"
+        },
+        {
+          "state": "Arkansas",
+          "sales": 11678.13,
+          "rank": 31,
+          "share": 0.0050836346972614795,
+          "color_group": "10"
+        },
+        {
+          "state": "Utah",
+          "sales": 11220.056,
+          "rank": 32,
+          "share": 0.004884229408887968,
+          "color_group": "10"
+        },
+        {
+          "state": "Mississippi",
+          "sales": 10771.34,
+          "rank": 33,
+          "share": 0.004688897773873083,
+          "color_group": "10"
+        },
+        {
+          "state": "Louisiana",
+          "sales": 9217.03,
+          "rank": 34,
+          "share": 0.004012287370811935,
+          "color_group": "10"
+        },
+        {
+          "state": "Vermont",
+          "sales": 8929.369999999999,
+          "rank": 35,
+          "share": 0.0038870654083047315,
+          "color_group": "10"
+        },
+        {
+          "state": "South Carolina",
+          "sales": 8481.71,
+          "rank": 36,
+          "share": 0.003692193463175154,
+          "color_group": "10"
+        },
+        {
+          "state": "Nebraska",
+          "sales": 7464.929999999999,
+          "rank": 37,
+          "share": 0.0032495765298577884,
+          "color_group": "10"
+        },
+        {
+          "state": "New Hampshire",
+          "sales": 7292.523999999999,
+          "rank": 38,
+          "share": 0.0031745260617078307,
+          "color_group": "10"
+        },
+        {
+          "state": "Montana",
+          "sales": 5589.352,
+          "rank": 39,
+          "share": 0.002433114185439608,
+          "color_group": "10"
+        },
+        {
+          "state": "New Mexico",
+          "sales": 4783.522,
+          "rank": 40,
+          "share": 0.0020823264010859295,
+          "color_group": "10"
+        },
+        {
+          "state": "Iowa",
+          "sales": 4579.76,
+          "rank": 41,
+          "share": 0.0019936262775915523,
+          "color_group": "10"
+        },
+        {
+          "state": "Idaho",
+          "sales": 4382.486,
+          "rank": 42,
+          "share": 0.001907750460892512,
+          "color_group": "10"
+        },
+        {
+          "state": "Kansas",
+          "sales": 2914.31,
+          "rank": 43,
+          "share": 0.0012686352553513364,
+          "color_group": "10"
+        },
+        {
+          "state": "District of Columbia",
+          "sales": 2865.02,
+          "rank": 44,
+          "share": 0.001247178707579731,
+          "color_group": "10"
+        },
+        {
+          "state": "Wyoming",
+          "sales": 1603.1360000000002,
+          "rank": 45,
+          "share": 0.0006978649658831491,
+          "color_group": "10"
+        },
+        {
+          "state": "South Dakota",
+          "sales": 1315.56,
+          "rank": 46,
+          "share": 0.0005726795696168232,
+          "color_group": "10"
+        },
+        {
+          "state": "Maine",
+          "sales": 1270.53,
+          "rank": 47,
+          "share": 0.0005530774526325386,
+          "color_group": "10"
+        },
+        {
+          "state": "West Virginia",
+          "sales": 1209.8239999999998,
+          "rank": 48,
+          "share": 0.0005266513786008266,
+          "color_group": "10"
+        },
+        {
+          "state": "North Dakota",
+          "sales": 919.91,
+          "rank": 49,
+          "share": 0.00040044822196343144,
+          "color_group": "10"
+        }
+      ],
+      "top_three": [
+        {
+          "state": "California",
+          "sales": 457687.6315,
+          "rank": 1,
+          "share": 0.19923709737781872,
+          "color_group": "1"
+        },
+        {
+          "state": "New York",
+          "sales": 310876.271,
+          "rank": 2,
+          "share": 0.13532829295536722,
+          "color_group": "2"
+        },
+        {
+          "state": "Texas",
+          "sales": 170188.0458,
+          "rank": 3,
+          "share": 0.07408496520316231,
+          "color_group": "3"
+        }
+      ]
+    },
+    "empty-set-robustness": {
+      "selected_months": [],
+      "passed": true,
+      "overall_total": 2297200.8603,
+      "overall_count": 48,
+      "overall_average": 47858.35125625,
+      "selected_total": null,
+      "selected_count": 0,
+      "selected_average": null,
+      "first_month": null,
+      "last_month": null,
+      "first_sales": null,
+      "last_sales": null,
+      "endpoint_change": null,
+      "peak_sales": null,
+      "peak_months": [],
+      "months": [
+        {
+          "month": "2018-01-01",
+          "sales": 14236.895,
+          "selected_sales": null
+        },
+        {
+          "month": "2018-02-01",
+          "sales": 4519.892,
+          "selected_sales": null
+        },
+        {
+          "month": "2018-03-01",
+          "sales": 55691.009,
+          "selected_sales": null
+        },
+        {
+          "month": "2018-04-01",
+          "sales": 28295.344999999998,
+          "selected_sales": null
+        },
+        {
+          "month": "2018-05-01",
+          "sales": 23648.287,
+          "selected_sales": null
+        },
+        {
+          "month": "2018-06-01",
+          "sales": 34595.1276,
+          "selected_sales": null
+        },
+        {
+          "month": "2018-07-01",
+          "sales": 33946.393,
+          "selected_sales": null
+        },
+        {
+          "month": "2018-08-01",
+          "sales": 27909.4685,
+          "selected_sales": null
+        },
+        {
+          "month": "2018-09-01",
+          "sales": 81777.3508,
+          "selected_sales": null
+        },
+        {
+          "month": "2018-10-01",
+          "sales": 31453.393,
+          "selected_sales": null
+        },
+        {
+          "month": "2018-11-01",
+          "sales": 78628.7167,
+          "selected_sales": null
+        },
+        {
+          "month": "2018-12-01",
+          "sales": 69545.6205,
+          "selected_sales": null
+        },
+        {
+          "month": "2019-01-01",
+          "sales": 18174.0756,
+          "selected_sales": null
+        },
+        {
+          "month": "2019-02-01",
+          "sales": 11951.411,
+          "selected_sales": null
+        },
+        {
+          "month": "2019-03-01",
+          "sales": 38726.252,
+          "selected_sales": null
+        },
+        {
+          "month": "2019-04-01",
+          "sales": 34195.2085,
+          "selected_sales": null
+        },
+        {
+          "month": "2019-05-01",
+          "sales": 30131.6865,
+          "selected_sales": null
+        },
+        {
+          "month": "2019-06-01",
+          "sales": 24797.292,
+          "selected_sales": null
+        },
+        {
+          "month": "2019-07-01",
+          "sales": 28765.325,
+          "selected_sales": null
+        },
+        {
+          "month": "2019-08-01",
+          "sales": 36898.3322,
+          "selected_sales": null
+        },
+        {
+          "month": "2019-09-01",
+          "sales": 64595.918000000005,
+          "selected_sales": null
+        },
+        {
+          "month": "2019-10-01",
+          "sales": 31404.9235,
+          "selected_sales": null
+        },
+        {
+          "month": "2019-11-01",
+          "sales": 75972.5635,
+          "selected_sales": null
+        },
+        {
+          "month": "2019-12-01",
+          "sales": 74919.5212,
+          "selected_sales": null
+        },
+        {
+          "month": "2020-01-01",
+          "sales": 18542.491,
+          "selected_sales": null
+        },
+        {
+          "month": "2020-02-01",
+          "sales": 22978.815000000002,
+          "selected_sales": null
+        },
+        {
+          "month": "2020-03-01",
+          "sales": 51715.875,
+          "selected_sales": null
+        },
+        {
+          "month": "2020-04-01",
+          "sales": 38750.039,
+          "selected_sales": null
+        },
+        {
+          "month": "2020-05-01",
+          "sales": 56987.728,
+          "selected_sales": null
+        },
+        {
+          "month": "2020-06-01",
+          "sales": 40344.534,
+          "selected_sales": null
+        },
+        {
+          "month": "2020-07-01",
+          "sales": 39261.963,
+          "selected_sales": null
+        },
+        {
+          "month": "2020-08-01",
+          "sales": 31115.3743,
+          "selected_sales": null
+        },
+        {
+          "month": "2020-09-01",
+          "sales": 73410.0249,
+          "selected_sales": null
+        },
+        {
+          "month": "2020-10-01",
+          "sales": 59687.744999999995,
+          "selected_sales": null
+        },
+        {
+          "month": "2020-11-01",
+          "sales": 79411.9658,
+          "selected_sales": null
+        },
+        {
+          "month": "2020-12-01",
+          "sales": 96999.043,
+          "selected_sales": null
+        },
+        {
+          "month": "2021-01-01",
+          "sales": 43971.373999999996,
+          "selected_sales": null
+        },
+        {
+          "month": "2021-02-01",
+          "sales": 20301.1334,
+          "selected_sales": null
+        },
+        {
+          "month": "2021-03-01",
+          "sales": 58872.3528,
+          "selected_sales": null
+        },
+        {
+          "month": "2021-04-01",
+          "sales": 36521.5361,
+          "selected_sales": null
+        },
+        {
+          "month": "2021-05-01",
+          "sales": 44261.1102,
+          "selected_sales": null
+        },
+        {
+          "month": "2021-06-01",
+          "sales": 52981.7257,
+          "selected_sales": null
+        },
+        {
+          "month": "2021-07-01",
+          "sales": 45264.416000000005,
+          "selected_sales": null
+        },
+        {
+          "month": "2021-08-01",
+          "sales": 63120.888000000006,
+          "selected_sales": null
+        },
+        {
+          "month": "2021-09-01",
+          "sales": 87866.652,
+          "selected_sales": null
+        },
+        {
+          "month": "2021-10-01",
+          "sales": 77776.9232,
+          "selected_sales": null
+        },
+        {
+          "month": "2021-11-01",
+          "sales": 118447.825,
+          "selected_sales": null
+        },
+        {
+          "month": "2021-12-01",
+          "sales": 83829.3188,
+          "selected_sales": null
+        }
+      ],
+      "states": [],
+      "top_three": []
+    }
+  },
+  "limits": "Emitted-formula SQL evaluation is not Tableau VizQL. Desktop load, clicks, clearing, rendering, geocoding and corpus regression remain pending parent gates."
+}

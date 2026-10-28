@@ -1,0 +1,4 @@
+*.csv -text
+outputs/*.twbx -text
+outputs/*.png -text
+evidence/*review*.md -text

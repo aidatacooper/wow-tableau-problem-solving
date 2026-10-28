@@ -1,0 +1,90 @@
+{
+  "captured_at": "2026-10-28T06:10:07.645525+00:00",
+  "source_hashes": {
+    "author": "65859ddada895bdfbb7fa3208fcce667ce82ba21d06bd1669af8a0ffb9a40dbf",
+    "replica": "8bde283a50c310733d3db73262bb65a77e8eaabc2058800a2e3f67b84c596f74"
+  },
+  "scope": "REST worksheet data, no browser events",
+  "records": [
+    {
+      "role": "replica",
+      "view": "Overall Summary",
+      "state": "default",
+      "parameters": {},
+      "filters": {},
+      "path": "outputs/runtime-replica-overall-summary-default.csv",
+      "sha256": "396234fd292f3b31d596e0823b169a58c38da1b5bd76e7652002bcbf9384e525",
+      "bytes": 77
+    },
+    {
+      "role": "replica",
+      "view": "Selected Summary",
+      "state": "default",
+      "parameters": {},
+      "filters": {},
+      "path": "outputs/runtime-replica-selected-summary-default.csv",
+      "sha256": "0e7d0b055632a44a9691232ec7443956c300643d5cc9e0ddbeeb5290470b72dc",
+      "bytes": 183
+    },
+    {
+      "role": "replica",
+      "view": "Trend",
+      "state": "default",
+      "parameters": {},
+      "filters": {},
+      "path": "outputs/runtime-replica-trend-default.csv",
+      "sha256": "6fd4c59d582b53d016646f372cd5a3056a1d808338678d00ebf3657326d253b4",
+      "bytes": 5018
+    },
+    {
+      "role": "replica",
+      "view": "State Donut",
+      "state": "default",
+      "parameters": {},
+      "filters": {},
+      "path": "outputs/runtime-replica-state-donut-default.csv",
+      "sha256": "75c7e13a367c3c2dadeaa6610179de342b88f34dd77896fac202d27e20c0a73e",
+      "bytes": 1275
+    },
+    {
+      "role": "replica",
+      "view": "Top States",
+      "state": "default",
+      "parameters": {},
+      "filters": {},
+      "path": "outputs/runtime-replica-top-states-default.csv",
+      "sha256": "4024725bee024f23acd2acf0e8e5c5e992deb0a782a29048429314e449edf72e",
+      "bytes": 1450
+    },
+    {
+      "role": "replica",
+      "view": "State Map",
+      "state": "default",
+      "parameters": {},
+      "filters": {},
+      "path": "outputs/runtime-replica-state-map-default.csv",
+      "sha256": "fa94b70a36a9b9781dd19c4bf0c7e1b9f5495999d374303d7469da72871274f3",
+      "bytes": 1643
+    },
+    {
+      "role": "author",
+      "view": "Data",
+      "state": "default",
+      "parameters": {},
+      "filters": {},
+      "path": "outputs/runtime-author-data-default.csv",
+      "sha256": "fc272cb3ef6770e4201164bd12a228fe0a55ca2a856868e1048b26894f66f3d1",
+      "bytes": 12118
+    },
+    {
+      "role": "author",
+      "view": "Data - States",
+      "state": "default",
+      "parameters": {},
+      "filters": {},
+      "path": "outputs/runtime-author-data---states-default.csv",
+      "sha256": "0775de02ad8c51fa7756cb6b9342524dda18588798f68a46c93ab3f90eee2c96",
+      "bytes": 7072
+    }
+  ]
+}
