@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "generated_from": "iterations/*/case.yaml",
-  "active_case_count": 111,
+  "active_case_count": 112,
   "legacy_case_ids": {
     "donna-2019-07-18-63877b35d19a": "wow-2019-ww29-high-orders",
     "donna-2019-07-25-59a0a144b25b": "wow-2019-ww30-navigation-kpi",
@@ -6307,6 +6307,75 @@
       "metadata": "iterations/2021-07-15-ww28-can-you-build-an-app-to-visualise-wildfires/case.yaml",
       "metadata_contract": "1.1.0",
       "tested_sdk_version": "0.27.1"
+    },
+    {
+      "case_id": "wow-2021-ww42-can-you-use-set-actions-to-create-a-reference-date-range",
+      "legacy_case_ids": {},
+      "iteration_id": "2021-10-21-ww42-can-you-use-set-actions-to-create-a-reference-date-range",
+      "article_date": "2021-10-21",
+      "challenge_year": 2021,
+      "challenge_week": 42,
+      "challenge_date": "2021-10-19",
+      "date_evidence": {
+        "article_date": "Declared article publication date in iteration_id",
+        "challenge": "Explicit challenge_year; week declared in iteration_id",
+        "challenge_date": "Explicit official challenge publication date and URL"
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2021w42tab/"
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2021/10/21/can-you-use-set-actions-to-create-a-reference-date-range/",
+          "path": null,
+          "sha256": null
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2021_10_20_WW_42_Date_Range_Set_Actions/2021_10_20_WW42_Date_Range_Set_Actions",
+          "filename": "2021_10_20_WW_42_Date_Range_Set_Actions.twbx",
+          "sha256": "65859ddada895bdfbb7fa3208fcce667ce82ba21d06bd1669af8a0ffb9a40dbf"
+        }
+      },
+      "functional_status": "partial",
+      "visual_status": "acceptable_delta",
+      "verification_status": "pending",
+      "cwtwb_result": "pass",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [
+        {
+          "path": "outputs/baseline-a1-replicated-workbook.twbx",
+          "sha256": "8bde283a50c310733d3db73262bb65a77e8eaabc2058800a2e3f67b84c596f74",
+          "role": "probe",
+          "note": "Frozen original a1 baseline, relocated from evidence/baseline-a1/outputs to satisfy the phase boundary. Its evidence remains in evidence/baseline-a1/evidence."
+        }
+      ],
+      "evidence": [
+        "inputs/source-lock.json",
+        "evidence/local-verification.json",
+        "evidence/runtime-acceptance.md",
+        "evidence/handoff.json",
+        "evidence/cloud-verification.json",
+        "evidence/cloud-csv.json",
+        "evidence/candidate-runtime.md",
+        "evidence/independent-review.md",
+        "evidence/desktop-parent-check.json",
+        "evidence/desktop-corpus.json"
+      ],
+      "notes": [
+        "Original a1 local-only pass did not test VizQL partitioning. Its immutable evidence is archived under evidence/baseline-a1/evidence; the original runs entry is retained verbatim.",
+        "Candidate SDK 0.29.0a2 at 11d72ebe5b7720035e26150bd16af72d67a35bba contains Text addressing/forwarding and native set rich-label dependency fixes; this is an unreleased source candidate, not the published a2 tag.",
+        "Layered Trend binds both band endpoints on each pane; explicit Field addressing restores peak-only labels. Layered donut provides worksheet-specific rank colors.",
+        "Cloud default renders and worksheet CSV validate numeric results and readability. Browser events remain untested because MFA is unavailable.",
+        "Distinct-month arithmetic average is intentional; donut wedge order differs from author, which does not change rank colors or totals."
+      ],
+      "metadata": "iterations/2021-10-21-ww42-can-you-use-set-actions-to-create-a-reference-date-range/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.29.0a2"
     },
     {
       "case_id": "wow-2022-ww32-dumbbell-chart",

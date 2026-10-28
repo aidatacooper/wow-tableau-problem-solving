@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-28",
+  "case_id": "wow-2021-ww42-can-you-use-set-actions-to-create-a-reference-date-range",
+  "sha256": "8bde283a50c310733d3db73262bb65a77e8eaabc2058800a2e3f67b84c596f74",
+  "command": "python -X utf8 scripts/desktop/check.py <absolute-frozen-workbook> 1",
+  "result": "LOADED",
+  "attempt": 1,
+  "exit_code": 0,
+  "stdout": "try1: LOADED",
+  "scope": "Frozen artifact load only; runtime interaction/data/render correctness assessed separately."
+}

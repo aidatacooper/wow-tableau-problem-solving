@@ -1,0 +1,15 @@
+C:\Users\imgwho\.t3\worktrees\wow-tableau-problem-solving\t3-a6205604\iterations\2021-10-21-ww42-can-you-use-set-actions-to-create-a-reference-date-range\outputs\replicated-workbook.twbx
+PASS: 7 local contracts; 6 numerical states; 9994 raw rows; Desktop/Cloud pending
+Traceback (most recent call last):
+  File "C:\Users\imgwho\.t3\worktrees\wow-tableau-problem-solving\t3-a6205604\scripts\validate_iteration.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\imgwho\.t3\worktrees\wow-tableau-problem-solving\t3-a6205604\scripts\validate_iteration.py", line 480, in main
+    validate_iteration(args.case_dir, run_scripts=not args.metadata_only)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\imgwho\.t3\worktrees\wow-tableau-problem-solving\t3-a6205604\scripts\validate_iteration.py", line 472, in validate_iteration
+    check_catalogue(LAB_ROOT)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\imgwho\.t3\worktrees\wow-tableau-problem-solving\t3-a6205604\scripts\case_catalogue.py", line 336, in check_catalogue
+    raise AssertionError(f"Catalogue differs from source metadata: usage/{name}; regenerate")
+AssertionError: Catalogue differs from source metadata: usage/case-index.json; regenerate

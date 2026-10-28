@@ -1,0 +1,97 @@
+{
+  "case_id": "wow-2021-ww42-can-you-use-set-actions-to-create-a-reference-date-range",
+  "captured_at": "2026-10-28T06:06:31.592315+00:00",
+  "source_hashes": {
+    "author": "65859ddada895bdfbb7fa3208fcce667ce82ba21d06bd1669af8a0ffb9a40dbf",
+    "replica": "8bde283a50c310733d3db73262bb65a77e8eaabc2058800a2e3f67b84c596f74"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "8ad476ad-46d0-4ba8-965d-d04404af02b7",
+      "name": "cwtwb-review-wow-2021-ww42-can-you-use-set-actions-to-create-a-reference-date-range-author-65859ddada89",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/3089372",
+      "views": [
+        {
+          "name": "2021_10_20_WW42_Date_Range_Set_Actions",
+          "id": "982c08f5-ae76-4459-9bc8-4510a8d68d0d"
+        },
+        {
+          "name": "Data",
+          "id": "1f723034-a2aa-425d-b3a9-f15459b710c8"
+        },
+        {
+          "name": "Data - States",
+          "id": "b4bd4708-7430-482c-8366-dc243ac42147"
+        }
+      ]
+    },
+    "replica": {
+      "id": "770defc6-035e-4700-b53f-6814aa3dec8b",
+      "name": "cwtwb-review-wow-2021-ww42-can-you-use-set-actions-to-create-a-reference-date-range-replica-8bde283a50c3",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/3089373",
+      "views": [
+        {
+          "name": "Overall Summary",
+          "id": "5d5c818a-8340-4b25-b66a-911af3189407"
+        },
+        {
+          "name": "Selected Summary",
+          "id": "b32454f2-a99b-45ab-ab7d-2a874ef89f1e"
+        },
+        {
+          "name": "Trend",
+          "id": "826c0bd4-d05c-4de5-a6c9-7d91493fc4cb"
+        },
+        {
+          "name": "State Donut",
+          "id": "8b6eb2fe-e852-484b-91cf-6c8fbf5c674b"
+        },
+        {
+          "name": "Top States",
+          "id": "5864ea6c-ff35-43bb-9827-ceec0d797969"
+        },
+        {
+          "name": "State Map",
+          "id": "4593c8bf-ecbb-4125-93ce-fc9fc5adb487"
+        },
+        {
+          "name": "Reference Date Range",
+          "id": "b2ae1358-0f49-4fb4-a719-7c8f0010cda3"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "982c08f5-ae76-4459-9bc8-4510a8d68d0d",
+          "name": "2021_10_20_WW42_Date_Range_Set_Actions",
+          "path": "outputs/cloud-author.png",
+          "sha256": "44d5f7677bf06ad960f7d2badceb942e50eba24928ded9e7605024bc8dbb053d",
+          "size": [
+            2000,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "b2ae1358-0f49-4fb4-a719-7c8f0010cda3",
+          "name": "Reference Date Range",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "bca792cea46be5f5c80d04f6a007510a43e4471ac83dcd5cd61d16b174a0c3e6",
+          "size": [
+            2000,
+            1600
+          ]
+        }
+      },
+      "data": []
+    }
+  ],
+  "status": "captured_requires_independent_review"
+}
