@@ -1205,6 +1205,17 @@
       "reason": "Derived from case metadata; consumed means claimed, not verified completed."
     },
     {
+      "case_id": "wow-2021-ww41-how-much-do-top-sub-categories-contribute-to-sales",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2021-10-14-ww41-how-much-do-top-sub-categories-contribute-to-sales",
+      "status": "consumed",
+      "replication_status": "partial",
+      "verification_status": "pending",
+      "cwtwb_version": "0.29.0a1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
       "case_id": "wow-2022-ww32-dumbbell-chart",
       "legacy_case_ids": {},
       "workbook_ids": [],

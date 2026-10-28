@@ -1,0 +1,132 @@
+{
+  "case_id": "wow-2021-ww41-how-much-do-top-sub-categories-contribute-to-sales",
+  "worktree": "C:\\Users\\imgwho\\.t3\\worktrees\\wow-tableau-problem-solving\\t3-b1599e93",
+  "branch": "t3/ww41-sales-subcategory-contribution",
+  "implementation_commit": "a4963db225afda7a56397a5d18a7cb4e943b6435",
+  "commit_note": "Implementation commit contains builder, verifier, raw input, analysis, case metadata and frozen output. A following handoff-only commit contains this JSON and progress update; integrate the branch tip to retain both.",
+  "status": {
+    "local_implementation": "finished",
+    "functional_status": "partial",
+    "visual_status": "not_evaluated",
+    "verification_status": "pending",
+    "cwtwb_result": "workaround"
+  },
+  "sdk": {
+    "version": "0.29.0a1",
+    "commit": "23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c",
+    "source": "C:/Users/imgwho/Desktop/project/.sdk-pins/cwtwb-23b1df0/src",
+    "source_commit_verified": true,
+    "shared_sdk_edited": false,
+    "a2_tested": false
+  },
+  "commands": {
+    "working_directory": "C:\\Users\\imgwho\\.t3\\worktrees\\wow-tableau-problem-solving\\t3-b1599e93",
+    "build": "$env:PYTHONPATH='C:/Users/imgwho/Desktop/project/.sdk-pins/cwtwb-23b1df0/src'; $env:CWTWB_SRC=$env:PYTHONPATH; python -X utf8 iterations/2021-10-14-ww41-how-much-do-top-sub-categories-contribute-to-sales/build_replication.py",
+    "verify": "$env:PYTHONPATH='C:/Users/imgwho/Desktop/project/.sdk-pins/cwtwb-23b1df0/src'; $env:CWTWB_SRC=$env:PYTHONPATH; python -X utf8 iterations/2021-10-14-ww41-how-much-do-top-sub-categories-contribute-to-sales/verify_replication.py",
+    "validate_iteration_rebuilds": "$env:PYTHONPATH='C:/Users/imgwho/Desktop/project/.sdk-pins/cwtwb-23b1df0/src'; $env:CWTWB_SRC=$env:PYTHONPATH; python -X utf8 scripts/validate_iteration.py iterations/2021-10-14-ww41-how-much-do-top-sub-categories-contribute-to-sales",
+    "repository_tests": "$env:PYTHONPATH='C:/Users/imgwho/Desktop/project/.sdk-pins/cwtwb-23b1df0/src'; $env:CWTWB_SRC=$env:PYTHONPATH; python -X utf8 -m unittest discover -s tests -v",
+    "sdk_gap_repro": "$env:PYTHONPATH='C:/Users/imgwho/Desktop/project/.sdk-pins/cwtwb-23b1df0/src'; $env:CWTWB_SRC=$env:PYTHONPATH; python -X utf8 iterations/2021-10-14-ww41-how-much-do-top-sub-categories-contribute-to-sales/evidence/sdk-gap-repro.py",
+    "parent_frozen_desktop_check_not_run": "$env:PYTHONPATH='C:/Users/imgwho/Desktop/project/.sdk-pins/cwtwb-23b1df0/src'; $env:CWTWB_SRC=$env:PYTHONPATH; python -X utf8 scripts/desktop/check.py iterations/2021-10-14-ww41-how-much-do-top-sub-categories-contribute-to-sales/outputs/replicated-workbook.twbx",
+    "parent_build_and_check_not_run": "$env:PYTHONPATH='C:/Users/imgwho/Desktop/project/.sdk-pins/cwtwb-23b1df0/src'; $env:CWTWB_SRC=$env:PYTHONPATH; python -X utf8 scripts/desktop/build_and_check.py iterations/2021-10-14-ww41-how-much-do-top-sub-categories-contribute-to-sales --sdk-src C:/Users/imgwho/Desktop/project/.sdk-pins/cwtwb-23b1df0/src",
+    "parent_corpus_not_run": "$env:PYTHONPATH='C:/Users/imgwho/Desktop/project/.sdk-pins/cwtwb-23b1df0/src'; $env:CWTWB_SRC=$env:PYTHONPATH; python -X utf8 scripts/desktop/verify_corpus.py"
+  },
+  "artifact": {
+    "path": "C:\\Users\\imgwho\\.t3\\worktrees\\wow-tableau-problem-solving\\t3-b1599e93\\iterations\\2021-10-14-ww41-how-much-do-top-sub-categories-contribute-to-sales\\outputs\\replicated-workbook.twbx",
+    "relative_path": "outputs/replicated-workbook.twbx",
+    "sha256": "10c253f4751f7c9e3e583344c4366a0473271c4296e352dc634ebc0432a45f59",
+    "bytes": 47378,
+    "frozen_after_validate_iteration": true,
+    "not_rebuilt_after_freeze": true
+  },
+  "local_test_results": {
+    "metadata": "pass",
+    "unique_identity": "pass",
+    "source_lock": "pass",
+    "phase_boundary_public_sdk": "pass",
+    "xsd": "pass",
+    "identity": "pass",
+    "full_validate_iteration": {
+      "status": "failed-at-parent-owned-catalogue",
+      "detail": "All preceding case gates, rebuild and verifier passed; usage/case-index.json is intentionally not regenerated in this child."
+    },
+    "repository_unittest": {
+      "tests": 83,
+      "passed": 81,
+      "failed": 2,
+      "failures": [
+        "test_prepare_case_extracts_data_and_never_copies_source",
+        "test_validator_scans_helper_files_and_rejects_misplaced_workbooks"
+      ],
+      "reason": "Both failures are the parent-owned common catalogue stale assertion; full output in unittest.txt."
+    }
+  },
+  "numerical_verification": {
+    "rows": 9994,
+    "subcategories": 17,
+    "total_sales": 2297200.8603,
+    "all_parameter_values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "default_top_sales": 1292678.03,
+    "default_fraction": 0.5627187645364126,
+    "semantic_mutations_rejected": 5,
+    "scope": "Raw Decimal oracle vs generated-package SQL plus generated XML contracts; not VizQL/runtime execution.",
+    "evidence": "evidence/local-verification.json"
+  },
+  "known_differences": [
+    "Inner angle uses actual SUM(Sales), correcting the author repeated-group-LOD SUM weighting.",
+    "Input-derived lexical ring keys replace unsupported native color-dimension sorting; verify default lexical order in Desktop, rebuild on input changes.",
+    "Calculated two-line text replaces rich label runs; fonts/placement differ.",
+    "Custom evenly spaced hue palette, not exact Tableau Hue Circle.",
+    "Visible row headers, native subtotal position and subtotal rank/color formatting need rendered review."
+  ],
+  "sdk_gaps": [
+    {
+      "id": "rich-label-set-dependency",
+      "reproduced": true,
+      "workaround": "Native calculated text via dual-axis label_2.",
+      "proposed_fix": "Teach rich-label dependency walker to recognize set group definitions and InOut instances; no synthetic column. Preserve facade/MCP/capability path; add indirect-set-label XPath regression."
+    },
+    {
+      "id": "dual-axis-color-sort",
+      "reproduced": true,
+      "workaround": "Input-derived lexical category keys.",
+      "proposed_fix": "Extend dual-axis computed sorting for dimensions on mark encodings using layered builder sort_mode semantics; propagate through dispatcher/facade/MCP/registry and add color-sort XPath regressions."
+    }
+  ],
+  "pending_gates": [
+    "Tableau Desktop LOADED",
+    "Desktop corpus",
+    "Runtime N=1/5/16/17 and two-way group hover",
+    "Cloud renders and visual comparison",
+    "Independent review",
+    "Common generated catalogue integration",
+    "Parent PR work"
+  ],
+  "review_checklist": "evidence/runtime-pending.md",
+  "constraints_observed": {
+    "no_child_agents": true,
+    "no_desktop_or_cloud": true,
+    "no_shared_indexes_changed": true,
+    "no_push_issue_pr_or_merge": true,
+    "author_workbook_analysis_only": true,
+    "extracted_inputs_once": true,
+    "public_sdk_only": true
+  }
+}

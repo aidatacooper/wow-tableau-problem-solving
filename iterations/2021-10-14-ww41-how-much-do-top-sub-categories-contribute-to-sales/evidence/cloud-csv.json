@@ -1,0 +1,240 @@
+{
+  "captured_at": "2026-10-28T06:47:35.879855+00:00",
+  "source_hashes": {
+    "author": "23e368ce0287be2c618e190cc302f7a2ca554406f847cb9822f1bb967d9b555d",
+    "replica": "7fa9c8916d330ddd2d79e6ac22fe3bab4ac42ad0a31399571bbb1649ed6d80fb"
+  },
+  "scope": "REST worksheet data, no browser events",
+  "records": [
+    {
+      "role": "replica",
+      "view": "Contribution Pie",
+      "state": "default",
+      "parameters": {},
+      "filters": {},
+      "path": "outputs/runtime-replica-contribution-pie-default.csv",
+      "sha256": "afb31f21638464489fd5f49c0a5d40b4e425fe26622863d94e365df2981d0f8f",
+      "bytes": 765
+    },
+    {
+      "role": "replica",
+      "view": "Highlight Table",
+      "state": "default",
+      "parameters": {},
+      "filters": {},
+      "path": "outputs/runtime-replica-highlight-table-default.csv",
+      "sha256": "2fd950e44e55c1429fa1774a235406c1644196276adecbe30b8ab67050781345",
+      "bytes": 875
+    },
+    {
+      "role": "replica",
+      "view": "Contribution Summary",
+      "state": "default",
+      "parameters": {},
+      "filters": {},
+      "path": "outputs/runtime-replica-contribution-summary-default.csv",
+      "sha256": "4d74b1bccc1b88c744d24b27b07d9addef4879f8f6d835c2def5cbcca55f41fe",
+      "bytes": 45
+    },
+    {
+      "role": "replica",
+      "view": "Top Sub-Category Contribution",
+      "state": "default",
+      "parameters": {},
+      "filters": {},
+      "path": "outputs/runtime-replica-top-sub-category-contribution-default.csv",
+      "sha256": "6c90d3c575a129a392d0cc3cd80965fa591d9a2e9fdaa4a02bef90151ce88100",
+      "bytes": 765
+    },
+    {
+      "role": "author",
+      "view": "Data",
+      "state": "default",
+      "parameters": {},
+      "filters": {},
+      "path": "outputs/runtime-author-data-default.csv",
+      "sha256": "d50ffff510d1d0aff7b89847d8c37301a147ebcd2a27cd8c0e4ffac0cc4834f1",
+      "bytes": 5676
+    },
+    {
+      "role": "replica",
+      "view": "Contribution Pie",
+      "state": "top-one",
+      "parameters": {
+        "pTopN": 1
+      },
+      "filters": {},
+      "path": "outputs/runtime-replica-contribution-pie-top-one.csv",
+      "sha256": "0937f65a36d9c523b82cb79058ca436be34adae28c4bb2a58840dae4b2f45686",
+      "bytes": 763
+    },
+    {
+      "role": "replica",
+      "view": "Highlight Table",
+      "state": "top-one",
+      "parameters": {
+        "pTopN": 1
+      },
+      "filters": {},
+      "path": "outputs/runtime-replica-highlight-table-top-one.csv",
+      "sha256": "1cde0bf734d361c9979b541e4ba62685b751efe57bf081b0a63306b59f86b368",
+      "bytes": 873
+    },
+    {
+      "role": "replica",
+      "view": "Contribution Summary",
+      "state": "top-one",
+      "parameters": {
+        "pTopN": 1
+      },
+      "filters": {},
+      "path": "outputs/runtime-replica-contribution-summary-top-one.csv",
+      "sha256": "ba19556d4fd5058b979acdcf6674cd91e9489ec3ce3f2884a78661c59961d450",
+      "bytes": 45
+    },
+    {
+      "role": "replica",
+      "view": "Top Sub-Category Contribution",
+      "state": "top-one",
+      "parameters": {
+        "pTopN": 1
+      },
+      "filters": {},
+      "path": "outputs/runtime-replica-top-sub-category-contribution-top-one.csv",
+      "sha256": "6a3bf7b822444dc94ace4720f72111583d938ab0f04e581b3da7a24906fb687f",
+      "bytes": 763
+    },
+    {
+      "role": "author",
+      "view": "Data",
+      "state": "top-one",
+      "parameters": {
+        "pTopN": 1
+      },
+      "filters": {},
+      "path": "outputs/runtime-author-data-top-one.csv",
+      "sha256": "cedd2d60602797c56de6cc60651de4eb134c0c6c8ce51d8486180f839054f816",
+      "bytes": 5727
+    },
+    {
+      "role": "replica",
+      "view": "Contribution Pie",
+      "state": "top-sixteen",
+      "parameters": {
+        "pTopN": 16
+      },
+      "filters": {},
+      "path": "outputs/runtime-replica-contribution-pie-top-sixteen.csv",
+      "sha256": "5bb419bd35eea5858fe42126341bc6b6b701862d41a7883b8e8e29e54e5e28a4",
+      "bytes": 780
+    },
+    {
+      "role": "replica",
+      "view": "Highlight Table",
+      "state": "top-sixteen",
+      "parameters": {
+        "pTopN": 16
+      },
+      "filters": {},
+      "path": "outputs/runtime-replica-highlight-table-top-sixteen.csv",
+      "sha256": "71f9eaadf41e7b868d734d3bc794e6d00722fafbff140171755f7e865f835760",
+      "bytes": 888
+    },
+    {
+      "role": "replica",
+      "view": "Contribution Summary",
+      "state": "top-sixteen",
+      "parameters": {
+        "pTopN": 16
+      },
+      "filters": {},
+      "path": "outputs/runtime-replica-contribution-summary-top-sixteen.csv",
+      "sha256": "67e2f8e74ae2efad3080b9017a20157b5b7948a5ac30d909b7e1acdd1c2ae69f",
+      "bytes": 47
+    },
+    {
+      "role": "replica",
+      "view": "Top Sub-Category Contribution",
+      "state": "top-sixteen",
+      "parameters": {
+        "pTopN": 16
+      },
+      "filters": {},
+      "path": "outputs/runtime-replica-top-sub-category-contribution-top-sixteen.csv",
+      "sha256": "5bb419bd35eea5858fe42126341bc6b6b701862d41a7883b8e8e29e54e5e28a4",
+      "bytes": 780
+    },
+    {
+      "role": "author",
+      "view": "Data",
+      "state": "top-sixteen",
+      "parameters": {
+        "pTopN": 16
+      },
+      "filters": {},
+      "path": "outputs/runtime-author-data-top-sixteen.csv",
+      "sha256": "d01c9916a2c083d47a8020dffdae9db851c8c78269f982a3f11865b5136e8f29",
+      "bytes": 5895
+    },
+    {
+      "role": "replica",
+      "view": "Contribution Pie",
+      "state": "top-all",
+      "parameters": {
+        "pTopN": 17
+      },
+      "filters": {},
+      "path": "outputs/runtime-replica-contribution-pie-top-all.csv",
+      "sha256": "092260fccda7dcb6fd2f3700dcdf5ffeec8b6497fa508dadf018cb1d169792e1",
+      "bytes": 756
+    },
+    {
+      "role": "replica",
+      "view": "Highlight Table",
+      "state": "top-all",
+      "parameters": {
+        "pTopN": 17
+      },
+      "filters": {},
+      "path": "outputs/runtime-replica-highlight-table-top-all.csv",
+      "sha256": "ce529d20b15da431e65c4c0b44e2eb6cb977aa7041c81faac04a5f15a228b6d9",
+      "bytes": 859
+    },
+    {
+      "role": "replica",
+      "view": "Contribution Summary",
+      "state": "top-all",
+      "parameters": {
+        "pTopN": 17
+      },
+      "filters": {},
+      "path": "outputs/runtime-replica-contribution-summary-top-all.csv",
+      "sha256": "a38dfd9de9fbdfbdccbe8adc29c80af2aa33e02601162c950d9e64aae3338793",
+      "bytes": 47
+    },
+    {
+      "role": "replica",
+      "view": "Top Sub-Category Contribution",
+      "state": "top-all",
+      "parameters": {
+        "pTopN": 17
+      },
+      "filters": {},
+      "path": "outputs/runtime-replica-top-sub-category-contribution-top-all.csv",
+      "sha256": "04dffe35f181e882e4c74cd63c2574b9c363fd5223597e5b0949a90bcdfc32ca",
+      "bytes": 756
+    },
+    {
+      "role": "author",
+      "view": "Data",
+      "state": "top-all",
+      "parameters": {
+        "pTopN": 17
+      },
+      "filters": {},
+      "path": "outputs/runtime-author-data-top-all.csv",
+      "sha256": "ba1a21673f1c0f530ed13e6e5b4304db01f262b1499f16b181b39f89c60e5e6c",
+      "bytes": 5576
+    }
+  ]
+}

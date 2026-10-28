@@ -1,0 +1,11 @@
+{
+  "frozen_at": "2026-10-28T06:04:54.480636+00:00",
+  "artifact": "outputs/replicated-workbook.twbx",
+  "sha256": "10c253f4751f7c9e3e583344c4366a0473271c4296e352dc634ebc0432a45f59",
+  "bytes": 47378,
+  "last_build": "scripts/validate_iteration.py (case-specific phases passed; final common-catalogue assertion failed)",
+  "sdk_version": "0.29.0a1",
+  "sdk_commit": "23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c",
+  "rebuild_after_freeze": false,
+  "runtime_verified": false
+}

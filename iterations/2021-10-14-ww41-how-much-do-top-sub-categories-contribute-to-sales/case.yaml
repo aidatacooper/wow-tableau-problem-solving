@@ -1,0 +1,163 @@
+schema_version: 1.1.0
+case_id: wow-2021-ww41-how-much-do-top-sub-categories-contribute-to-sales
+iteration_id: 2021-10-14-ww41-how-much-do-top-sub-categories-contribute-to-sales
+post: https://donnacoles.home.blog/2021/10/14/how-much-do-top-sub-categories-contribute-to-sales/
+legacy_case_ids: {}
+article_date: '2021-10-14'
+challenge_year: 2021
+challenge_week: 41
+challenge_date: '2021-10-13'
+date_evidence:
+  article_date: Declared article publication date in iteration_id
+  challenge: Explicit challenge_year; week declared in iteration_id
+  challenge_date: Workout Wednesday WordPress API record 6077, publication 2021-10-13, verified 2026-10-28.
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2021w41tab/
+  article:
+    url: https://donnacoles.home.blog/2021/10/14/how-much-do-top-sub-categories-contribute-to-sales/
+    path: null
+    sha256: 860c7bd3cd0f188d97baf7e3f159677dc68e80b3214015867b7faba9d5b46ac8
+  workbook:
+    url: https://public.tableau.com/views/2021_10_13_WW41_PieChart/2021_10_13_WW41_Pie_Chart
+    filename: 2021_10_13_WW41_PieChart.twbx
+    sha256: 23e368ce0287be2c618e190cc302f7a2ca554406f847cb9822f1bb967d9b555d
+verification_status: pending
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts:
+- path: outputs/baseline-a1-workbook.twbx
+  role: probe
+  note: Historical a1 SDK baseline probe, SHA256 10c253f4751f7c9e3e583344c4366a0473271c4296e352dc634ebc0432a45f59.
+    Original reports and rendered captures remain under evidence/baseline-a1/; not an author workbook
+    or builder input.
+evidence:
+- inputs/source-lock.json
+- evidence/sdk-baseline.json
+- evidence/numerical-oracle.json
+- evidence/local-verification.json
+- evidence/artifact-freeze.json
+- evidence/cloud-request.json
+- evidence/cloud-verification.json
+- evidence/cloud-csv.json
+- evidence/desktop-parent-check.json
+- evidence/desktop-corpus.json
+- evidence/independent-final-review.md
+- evidence/independent-final-review.json
+- evidence/delivery-validation.json
+- evidence/runtime-pending.md
+- evidence/handoff.json
+notes:
+- Frozen artifact SHA256 7fa9c8916d330ddd2d79e6ac22fe3bab4ac42ad0a31399571bbb1649ed6d80fb. Validation
+  rebuilds run only in disposable copies.
+- Parent Desktop evidence confirms this frozen workbook LOADED and the existing 50-case corpus LOADED=50
+  FAIL=0 UNKNOWN=0.
+- Cloud REST rendered N=1,5,16,17 and exported 20 worksheet CSVs. Independent review found no confirmed
+  defect within static/rendered/data scope.
+- 'Visual delta accepted: separate contribution heading, custom palette, typography and subtotal positioning
+  differ; no pixel-match claim.'
+- Inner pie uses SUM(Sales) angles instead of author repeated-LOD SUM; sales proportions use the locked
+  data denominator.
+- Browser MFA prevented real parameter-control and two-way hover/auto-clear testing. Keep functional partial
+  and verification pending.
+cwtwb:
+  tested_version: 0.29.0a1
+  tested_commit: 23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c
+  source_path: C:/Users/imgwho/Desktop/project/.sdk-pins/cwtwb-23b1df0/src
+  runs:
+  - version: 0.29.0a1
+    commit: 23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c
+    result: blocked
+    evidence: evidence/sdk-baseline.json
+    notes: Initial rich-label attempt fails on set dependency; synthetic color-sort restriction also reproduced.
+  - version: 0.29.0a1
+    commit: 23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c
+    result: workaround
+    evidence: evidence/local-verification.json
+    notes: Native calculated text label and input-derived lexical ring keys. Local only; Desktop/Cloud
+      pending.
+  - version: 0.29.0a1
+    commit: 23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c
+    result: workaround
+    evidence: evidence/local-verification.json
+    notes: After parent Cloud inspection, larger pies with centered labels and a separate Rank Prefix
+      suppress subtotal-partition ranks. All 17 numerical scenarios and seven negative checks pass locally;
+      new runtime capture pending.
+  - version: 0.29.0a1
+    commit: 23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c
+    result: workaround
+    evidence: evidence/local-verification.json
+    notes: First render correction still clipped pie labels and reset nested ranks to 1 in Cloud. This
+      revision uses a separate dynamic summary view and explicit nested Sales Rank addressing. Seventeen
+      scenarios and eight negative checks pass locally; final Desktop and Cloud checks remain parent-owned.
+  - version: 0.29.0a1
+    commit: 23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c
+    result: workaround
+    evidence: evidence/delivery-validation.json
+    notes: Frozen artifact passes parent Desktop load, 50-case corpus, four-state Cloud render/data capture
+      and independent review. Accept visual delta; keep partial pending real browser parameter and two-way
+      hover/clear events. No SDK edits or frozen-output rebuild.
+analysis_status: completed
+functional_status: partial
+visual_status: acceptable_delta
+cwtwb_result: workaround
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/TEMP_1cwurtf01qtv241ggplmk1stzgdr.hyper
+acceptance:
+- id: locked-data
+  description: Packaged data matches extracted Hyper SHA256; 9994 rows, 17 sub-categories, total sales
+    2297200.8603.
+  mode: automated
+- id: parameter-domain
+  description: pTopN integer 1..17 step 1, default 5, binds native Top N set.
+  mode: automated
+- id: all-top-n-numerics
+  description: All N=1..17 membership, sales, shares and ranks match independent raw-row Decimal oracle;
+    default top sales 1292678.03 and share 0.5627187645364126.
+  mode: automated
+- id: sales-proportional-pies
+  description: Both pie angles use SUM(Sales); top label has whole percent and dynamic N in a separate
+    unfiltered summary; native pie labels are hidden.
+  mode: automated
+- id: grouped-ranked-subtotals
+  description: Table groups top before rest, sorts descending by sales, addresses global rank and sums
+    group subtotals; only detail marks display a rank prefix.
+  mode: automated
+- id: group-hover-contract
+  description: Hover brush matches Sales Group across both sheets and auto-clears; no filtering action
+    changes totals.
+  mode: automated
+- id: matching-colors
+  description: 17 category colors agree between ring and table; lexical keys encode descending sales order.
+  mode: automated
+- id: dashboard-contract
+  description: 1400x900 dashboard contains two interactive views, a contribution summary, and pTopN control.
+  mode: automated
+- id: xsd
+  description: Packaged TWB passes the available Tableau XML schema.
+  mode: automated
+- id: desktop-runtime-and-visual
+  description: Frozen workbook LOADED in Desktop; baseline corpus 50 LOADED. Cloud REST and independent
+    PNG/CSV review cover N=1,5,16,17, global ranks, blank subtotal ranks and contribution values. Real
+    parameter UI changes and two-way hover/auto-clear remain untested; acceptance is partial.
+  mode: manual
+  evidence: evidence/runtime-pending.md
+remaining_work: After Tableau browser MFA access is restored, operate pTopN through the dashboard control
+  at N=1,5,16,17 and verify two-way Sales Group hover/auto-clear from both pie panes and table detail/subtotal
+  marks, with unchanged sales/denominator and Contribution Summary excluded. Record actual event evidence
+  against the frozen artifact hash before promoting functional_status or verification_status.
+workarounds:
+- Calculated text caption through a native Text view instead of rich labels that recurse into a set; baseline
+  used dual-axis label_2, whose labels clipped in Cloud.
+- Input-derived lexical category key for pie Color ordering because dual-axis sort only accepts row dimensions.
+  Rebuild on data change.
+capability_gaps:
+- Rich custom-label recursive dependency resolution rejects native set groups; author-free repro in evidence/sdk-gap-repro.py.
+- Dual-axis sort_field rejects dimensions bound only to Color; extend computed sorts through public API
+  path.
+related_cwtwb_issues: []
