@@ -1,0 +1,132 @@
+schema_version: 1.1.0
+case_id: wow-2021-ww43-filtering-table-calcs
+iteration_id: 2021-10-28-ww43-filtering-table-calcs
+post: https://donnacoles.home.blog/2021/10/28/filtering-table-calcs/
+legacy_case_ids: {}
+article_date: '2021-10-28'
+challenge_year: 2021
+challenge_week: 43
+challenge_date: '2021-10-26'
+date_evidence:
+  article_date: Declared article publication date in iteration_id
+  challenge: Explicit challenge_year; week declared in iteration_id
+  challenge_date: 'Workout Wednesday WordPress record 6176: #WOW2021 | 43 | Filtering
+    Table Calcs, published 2021-10-26. Explicitly overrides erroneous first 2026 intake
+    candidate.'
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/wow2021w43tab/
+  article:
+    url: https://donnacoles.home.blog/2021/10/28/filtering-table-calcs/
+    path: null
+    sha256: 83b5352d0e118451a554d5f4fe687312bac8d802fe7ec5a418516ea389de9983
+  workbook:
+    url: https://public.tableau.com/views/2021_10_27_WW43_Table_Calc_Filters_Tableau_Public/2021_10_27_WW43_Table_Calc_Filters_tableau_Public
+    filename: 2021_10_27_WW43_Table_Calc_Filters_Tableau_Public.twbx
+    sha256: 8204ef773b82641bc253238fab1d017f111be15c24d3b651b8df9dd72df12c1a
+verification_status: pending
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- inputs/source-lock.json
+- evidence/local-verification.json
+- evidence/runtime-pending.md
+- evidence/local-gates.json
+- evidence/artifact-freeze.json
+- evidence/handoff.json
+- evidence/cloud-verification.json
+- evidence/cloud-csv.json
+- evidence/cloud-data-verification.json
+- evidence/independent-review.md
+- evidence/desktop-parent-check.json
+- evidence/desktop-corpus.json
+- evidence/isolated-validation.txt
+- evidence/isolated-validation-main-base.txt
+- evidence/repository-tests-main-base.txt
+notes:
+- Built using only released a1 public APIs; no author XML copied.
+- Article web-authoring-only exercise is outside SDK replication scope.
+- Local checks and saved REST exports pass; native dashboard events remain unverified.
+- Default/June/Copiers/Machines exports have 48/1/32/39 observed months. Author
+  comparisons use its Data sheet; sparse dashboard densification is not exhaustive.
+cwtwb:
+  tested_version: 0.29.0a1
+  tested_commit: 23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c
+  runs:
+  - version: 0.29.0a1
+    commit: 23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c
+    result: pass
+    evidence: evidence/local-verification.json
+    scope: Local public-API build, XSD, contracts and independent numerical model
+      only; runtime pending.
+  - version: 0.29.0a1
+    commit: 23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c
+    result: pass
+    evidence: evidence/cloud-data-verification.json
+    scope: Frozen-artifact Desktop LOADED and four REST export states, including
+      bounded Copiers/Machines observed-month checks; native interactions pending.
+analysis_status: completed
+functional_status: partial
+visual_status: acceptable_delta
+cwtwb_result: pass
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/WOW2021_Superstore_Orders.csv
+  - inputs/federated_0dg8n3q1ypgh2719qo5qk1.hyper
+acceptance:
+- id: raw-data-baseline
+  description: Packaged Hyper matches extracted data; independent raw CSV has 9994
+    rows, 17 sub-categories, 48 months and total sales 2297200.8603.
+  mode: automated
+- id: generated-formulas
+  description: Generated formulas implement month truncation, sentinel/FIXED bounds,
+    inclusive dates, LOOKUP at zero, WINDOW_AVG -2:0 and calendar-month denominator.
+  mode: automated
+- id: chronological-partition
+  description: Both table calculations address ascending exact monthly dates in one
+    partition, preserving 48 months across years and no restart.
+  mode: automated
+- id: filter-order
+  description: Trend applies only the late table-calculation date filter; Bars applies
+    the ordinary date predicate before aggregation.
+  mode: automated
+- id: bar-panels
+  description: Two separate bar panels show SUM(Sales) and Avg Monthly Sales sorted
+    descending by Sales.
+  mode: automated
+- id: selection-and-reset
+  description: Trend min/max actions use the exact month field, and clearing assigns
+    the date sentinel to both parameters.
+  mode: automated
+- id: subcategory-action
+  description: Multi-select Bars filters Trend by Sub-Category and clearing removes
+    the selection; Bars remains unfiltered by that action.
+  mode: automated
+- id: numerical-oracle
+  description: Independent Decimal raw-CSV and packaged-Hyper SQL model agree on all
+    trend and bar rows in 27 scenarios, including sparse categories.
+  mode: automated
+- id: rolling-boundary
+  description: June 2018 zoom retains rolling average 28846.2532 rather than 34595.1276;
+    first two months use shortened windows.
+  mode: automated
+- id: tableau-runtime-interactions
+  description: 'Desktop LOADED and four saved REST states checked; native drag,
+    min/max aggregation, clearing, repeated zoom, multi-select, reset and action
+    isolation remain pending. Sparse observed marks are checked, not exhaustive
+    dashboard densification.'
+  mode: manual
+  evidence: evidence/runtime-pending.md
+remaining_work: 'Native drag/select/clear/repeated zoom/multi-select/reset and
+  Bars-to-Trend action isolation remain unverified because browser MFA is unavailable.
+  Copiers/Machines exports do not exhaustively establish dashboard densification.
+  Parent completed Desktop LOADED and 50/50 corpus; final acceptance and PR
+  integration remain parent-owned.'
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []

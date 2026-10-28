@@ -1,0 +1,31 @@
+{
+  "case_dir": "C:/Users/imgwho/.t3/worktrees/wow-tableau-problem-solving/t3-fe3dcd9d/iterations/2021-10-28-ww43-filtering-table-calcs",
+  "author_workbook": "C:/Users/imgwho/Desktop/project/wow-tableau-problem-solving/dashboards/2021_10_27_WW43_Table_Calc_Filters_Tableau_Public/2021_10_27_WW43_Table_Calc_Filters_Tableau_Public.twbx",
+  "author_view": "2021_10_27_WW43_Table_Calc_Filters_tableau_Public",
+  "replica_view": "Filtering Table Calcs",
+  "states": [
+    {
+      "name": "june-2018",
+      "parameters": {
+        "pMinDate": "2018-06-01",
+        "pMaxDate": "2018-06-01"
+      }
+    },
+    {
+      "name": "copiers-full",
+      "filters": {
+        "Sub-Category": "Copiers"
+      }
+    },
+    {
+      "name": "machines-full",
+      "filters": {
+        "Sub-Category": "Machines"
+      }
+    }
+  ],
+  "data_views": [],
+  "notes": [
+    "REST states do not establish browser interaction. Export replica Trend/Bars separately after view enumeration."
+  ]
+}
