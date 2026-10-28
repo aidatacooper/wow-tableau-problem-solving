@@ -1,0 +1,15 @@
+{
+  "version": "0.29.0a1",
+  "gaps": [
+    {
+      "id": "rich-label-set-dependency",
+      "reproduced": true,
+      "error": "No datasource column for [Top Set]"
+    },
+    {
+      "id": "dual-axis-color-sort",
+      "reproduced": true,
+      "error": "sort_field must identify a dimension on the row shelf"
+    }
+  ]
+}

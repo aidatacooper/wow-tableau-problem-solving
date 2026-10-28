@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "generated_from": "iterations/*/case.yaml",
-  "active_case_count": 111,
+  "active_case_count": 112,
   "legacy_case_ids": {
     "donna-2019-07-18-63877b35d19a": "wow-2019-ww29-high-orders",
     "donna-2019-07-25-59a0a144b25b": "wow-2019-ww30-navigation-kpi",
@@ -6307,6 +6307,80 @@
       "metadata": "iterations/2021-07-15-ww28-can-you-build-an-app-to-visualise-wildfires/case.yaml",
       "metadata_contract": "1.1.0",
       "tested_sdk_version": "0.27.1"
+    },
+    {
+      "case_id": "wow-2021-ww41-how-much-do-top-sub-categories-contribute-to-sales",
+      "legacy_case_ids": {},
+      "iteration_id": "2021-10-14-ww41-how-much-do-top-sub-categories-contribute-to-sales",
+      "article_date": "2021-10-14",
+      "challenge_year": 2021,
+      "challenge_week": 41,
+      "challenge_date": "2021-10-13",
+      "date_evidence": {
+        "article_date": "Declared article publication date in iteration_id",
+        "challenge": "Explicit challenge_year; week declared in iteration_id",
+        "challenge_date": "Workout Wednesday WordPress API record 6077, publication 2021-10-13, verified 2026-10-28."
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2021w41tab/"
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2021/10/14/how-much-do-top-sub-categories-contribute-to-sales/",
+          "path": null,
+          "sha256": "860c7bd3cd0f188d97baf7e3f159677dc68e80b3214015867b7faba9d5b46ac8"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2021_10_13_WW41_PieChart/2021_10_13_WW41_Pie_Chart",
+          "filename": "2021_10_13_WW41_PieChart.twbx",
+          "sha256": "23e368ce0287be2c618e190cc302f7a2ca554406f847cb9822f1bb967d9b555d"
+        }
+      },
+      "functional_status": "partial",
+      "visual_status": "acceptable_delta",
+      "verification_status": "pending",
+      "cwtwb_result": "workaround",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [
+        {
+          "path": "outputs/baseline-a1-workbook.twbx",
+          "role": "probe",
+          "note": "Historical a1 SDK baseline probe, SHA256 10c253f4751f7c9e3e583344c4366a0473271c4296e352dc634ebc0432a45f59. Original reports and rendered captures remain under evidence/baseline-a1/; not an author workbook or builder input."
+        }
+      ],
+      "evidence": [
+        "inputs/source-lock.json",
+        "evidence/sdk-baseline.json",
+        "evidence/numerical-oracle.json",
+        "evidence/local-verification.json",
+        "evidence/artifact-freeze.json",
+        "evidence/cloud-request.json",
+        "evidence/cloud-verification.json",
+        "evidence/cloud-csv.json",
+        "evidence/desktop-parent-check.json",
+        "evidence/desktop-corpus.json",
+        "evidence/independent-final-review.md",
+        "evidence/independent-final-review.json",
+        "evidence/delivery-validation.json",
+        "evidence/runtime-pending.md",
+        "evidence/handoff.json"
+      ],
+      "notes": [
+        "Frozen artifact SHA256 7fa9c8916d330ddd2d79e6ac22fe3bab4ac42ad0a31399571bbb1649ed6d80fb. Validation rebuilds run only in disposable copies.",
+        "Parent Desktop evidence confirms this frozen workbook LOADED and the existing 50-case corpus LOADED=50 FAIL=0 UNKNOWN=0.",
+        "Cloud REST rendered N=1,5,16,17 and exported 20 worksheet CSVs. Independent review found no confirmed defect within static/rendered/data scope.",
+        "Visual delta accepted: separate contribution heading, custom palette, typography and subtotal positioning differ; no pixel-match claim.",
+        "Inner pie uses SUM(Sales) angles instead of author repeated-LOD SUM; sales proportions use the locked data denominator.",
+        "Browser MFA prevented real parameter-control and two-way hover/auto-clear testing. Keep functional partial and verification pending."
+      ],
+      "metadata": "iterations/2021-10-14-ww41-how-much-do-top-sub-categories-contribute-to-sales/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.29.0a1"
     },
     {
       "case_id": "wow-2022-ww32-dumbbell-chart",

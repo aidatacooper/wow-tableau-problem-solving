@@ -1,0 +1,9 @@
+# Preserve exact bytes of hash-bound artifacts and evidence.
+*.png -text
+*.twb -text
+*.twbx -text
+*.hyper -text
+*.csv -text whitespace=cr-at-eol
+*.json -text whitespace=cr-at-eol
+*.txt -text whitespace=cr-at-eol
+*review*.md -text whitespace=cr-at-eol

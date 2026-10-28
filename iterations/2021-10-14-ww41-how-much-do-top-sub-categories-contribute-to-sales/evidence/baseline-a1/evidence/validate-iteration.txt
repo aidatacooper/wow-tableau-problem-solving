@@ -1,0 +1,22 @@
+C:\Users\imgwho\.t3\worktrees\wow-tableau-problem-solving\t3-b1599e93\iterations\2021-10-14-ww41-how-much-do-top-sub-categories-contribute-to-sales\outputs\replicated-workbook.twbx
+{
+  "status": "local-pass-runtime-pending",
+  "scenarios": 17,
+  "total_sales": 2297200.8603,
+  "default_top_sales": 1292678.03,
+  "default_top_fraction": 0.5627187645364126,
+  "mutations_rejected": 5
+}
+Traceback (most recent call last):
+  File "C:\Users\imgwho\.t3\worktrees\wow-tableau-problem-solving\t3-b1599e93\scripts\validate_iteration.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\imgwho\.t3\worktrees\wow-tableau-problem-solving\t3-b1599e93\scripts\validate_iteration.py", line 480, in main
+    validate_iteration(args.case_dir, run_scripts=not args.metadata_only)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\imgwho\.t3\worktrees\wow-tableau-problem-solving\t3-b1599e93\scripts\validate_iteration.py", line 472, in validate_iteration
+    check_catalogue(LAB_ROOT)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\imgwho\.t3\worktrees\wow-tableau-problem-solving\t3-b1599e93\scripts\case_catalogue.py", line 336, in check_catalogue
+    raise AssertionError(f"Catalogue differs from source metadata: usage/{name}; regenerate")
+AssertionError: Catalogue differs from source metadata: usage/case-index.json; regenerate
