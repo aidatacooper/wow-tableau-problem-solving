@@ -1,0 +1,75 @@
+{
+  "sdk_version": "0.29.0a1",
+  "sdk_commit": "23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c",
+  "artifact_sha256": "07a9dd44a79f541786843f19f120f6dedad1e7a276ee6d5c4a1fea80e1af70dd",
+  "static_checks": {
+    "metadata": "PASS",
+    "source_lock": "PASS",
+    "public_api_phase_boundary": "PASS",
+    "identity_and_evidence": "PASS",
+    "xsd": {
+      "schema_available": true,
+      "schema_version": "2026.1",
+      "errors": [],
+      "compatibility_warnings": [
+        "<string>:2:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'workbook': Missing child element(s). Expected is one of ( referenced-extensions, explain-data )."
+      ]
+    },
+    "ruff": "PASS: python -X utf8 -m ruff check build_replication.py verify_replication.py"
+  },
+  "full_validate_iteration": {
+    "command": "python -X utf8 scripts/validate_iteration.py iterations/2021-11-04-ww44-can-you-show-the-top-and-bottom-profit-performers-for-the-selected-time-period",
+    "scope": "Executed against an isolated lab copy of feat/2021-ww44-profit-preview from origin/main, with SDK a1 explicitly selected; original frozen case not rebuilt.",
+    "exit_code": 0,
+    "result": "PASS: build, verifier, metadata, phase boundary, identity, XSD strict checks and refreshed catalogue.",
+    "log": "evidence/isolated-validation.txt"
+  },
+  "repository_tests": {
+    "command": "python -X utf8 -m unittest discover -s tests -v",
+    "exit_code": 0,
+    "run": 83,
+    "passed": 83,
+    "failed": 0,
+    "log": "evidence/repository-tests.txt"
+  },
+  "catalogue": {
+    "command": "python -X utf8 scripts/case_catalogue.py --write",
+    "result": "PASS: 112 active cases on origin/main + WW44 only"
+  },
+  "independent_review": {
+    "report": "evidence/independent-review.md",
+    "sha256": "ce757286ea1b4bb04ce67fd77e369f9f74610a447704c322b39d8024d64ec80e",
+    "confirmed_defects": 0,
+    "visual_status": "acceptable_delta",
+    "scope": "Three current hash-bound REST states; no live interaction claim."
+  },
+  "pending_gates": [
+    "real Month/Quarter/Year KPI clicks",
+    "clear-selection retention",
+    "multi-selection behavior",
+    "no-tooltip hover and selection highlighting"
+  ],
+  "baseline_evidence": "evidence/baseline-a1/evidence/local-gates.json",
+  "desktop": {
+    "evidence": "evidence/desktop-parent-check.json",
+    "verdict": "LOADED",
+    "artifact_sha256": "07a9dd44a79f541786843f19f120f6dedad1e7a276ee6d5c4a1fea80e1af70dd",
+    "performed_by": "parent",
+    "live_events_tested": false
+  },
+  "desktop_corpus": {
+    "evidence": "evidence/desktop-corpus.json",
+    "LOADED": 50,
+    "FAIL": 0,
+    "UNKNOWN": 0,
+    "performed_by": "parent"
+  },
+  "current_csv": {
+    "manifest": "evidence/cloud-csv.json",
+    "records": 9,
+    "artifact_sha256": "07a9dd44a79f541786843f19f120f6dedad1e7a276ee6d5c4a1fea80e1af70dd",
+    "file_hashes": "PASS"
+  },
+  "validation_branch": "feat/2021-ww44-profit-preview",
+  "local_verifier_scope_note": "The local verifier does not execute Desktop, Cloud or live events. Its generic pending text describes its own untested scope. Current case runtime status is provided by desktop-parent-check.json, desktop-corpus.json and current REST manifests; only live click/clear/multiselect/hover remains pending."
+}

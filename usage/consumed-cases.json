@@ -1205,6 +1205,17 @@
       "reason": "Derived from case metadata; consumed means claimed, not verified completed."
     },
     {
+      "case_id": "wow-2021-ww44-can-you-show-the-top-and-bottom-profit-performers-for-the-selected-time-period",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2021-11-04-ww44-can-you-show-the-top-and-bottom-profit-performers-for-the-selected-time-period",
+      "status": "consumed",
+      "replication_status": "partial",
+      "verification_status": "pending",
+      "cwtwb_version": "0.29.0a1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
       "case_id": "wow-2022-ww32-dumbbell-chart",
       "legacy_case_ids": {},
       "workbook_ids": [],

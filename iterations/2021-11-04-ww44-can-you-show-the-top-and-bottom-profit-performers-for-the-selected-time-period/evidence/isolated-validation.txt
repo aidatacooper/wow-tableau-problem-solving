@@ -1,0 +1,8 @@
+Command: C:\Users\imgwho\AppData\Local\Python\pythoncore-3.14-64\python.exe -X utf8 scripts/validate_iteration.py iterations/2021-11-04-ww44-can-you-show-the-top-and-bottom-profit-performers-for-the-selected-time-period
+Scope: isolated copy of one-case branch lab; original frozen artifact unchanged.
+C:\Users\imgwho\AppData\Local\Temp\ww44-onecase-isolated-7pod7u65\iterations\2021-11-04-ww44-can-you-show-the-top-and-bottom-profit-performers-for-the-selected-time-period\outputs\replicated-workbook.twbx
+Month: total=8483.34680000; top=['Copiers', 'Chairs', 'Paper', 'Phones', 'Storage']; bottom=['Fasteners', 'Machines', 'Bookcases', 'Tables', 'Binders']; middle mean=422.08758571
+Quarter: total=27448.72600000; top=['Copiers', 'Phones', 'Accessories', 'Paper', 'Storage']; bottom=['Supplies', 'Bookcases', 'Binders', 'Machines', 'Tables']; middle mean=1243.25698571
+Year: total=93439.26960000; top=['Copiers', 'Accessories', 'Phones', 'Paper', 'Appliances']; bottom=['Fasteners', 'Bookcases', 'Supplies', 'Machines', 'Tables']; middle mean=4603.36942857
+PASS: 8 local acceptance contracts, 3 independent numerical scenarios, 3 defect mutations. Desktop/live interactions/visual acceptance PENDING.
+PASS: iterations\2021-11-04-ww44-can-you-show-the-top-and-bottom-profit-performers-for-the-selected-time-period

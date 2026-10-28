@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "generated_from": "iterations/*/case.yaml",
-  "active_case_count": 111,
+  "active_case_count": 112,
   "legacy_case_ids": {
     "donna-2019-07-18-63877b35d19a": "wow-2019-ww29-high-orders",
     "donna-2019-07-25-59a0a144b25b": "wow-2019-ww30-navigation-kpi",
@@ -6307,6 +6307,79 @@
       "metadata": "iterations/2021-07-15-ww28-can-you-build-an-app-to-visualise-wildfires/case.yaml",
       "metadata_contract": "1.1.0",
       "tested_sdk_version": "0.27.1"
+    },
+    {
+      "case_id": "wow-2021-ww44-can-you-show-the-top-and-bottom-profit-performers-for-the-selected-time-period",
+      "legacy_case_ids": {},
+      "iteration_id": "2021-11-04-ww44-can-you-show-the-top-and-bottom-profit-performers-for-the-selected-time-period",
+      "article_date": "2021-11-04",
+      "challenge_year": 2021,
+      "challenge_week": 44,
+      "challenge_date": "2021-11-02",
+      "date_evidence": {
+        "article_date": "Declared article publication date in iteration_id",
+        "challenge": "Official page explicitly identifies WOW2021 W44; parent corrected case_intake null year/week using the matching official record.",
+        "challenge_date": "2021-11-02 from parent-verified official challenge record; article publication date remains 2021-11-04."
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/wow2021w44tab/"
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2021/11/04/can-you-show-the-top-and-bottom-profit-performers-for-the-selected-time-period/",
+          "path": null,
+          "sha256": "c30702e9f13e5971d9d9d2d909da2f25931634135690333c27431571eb8c03c4"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/app/profile/donna.coles/viz/2021_11_03_Top_and_Bottom_Performers/2021_11_03_Top_Bottom_Performers",
+          "filename": "2021_11_03_Top_and_Bottom_Performers.twbx",
+          "sha256": "a9f785a2c31830949bc736df0eb83f0786201621ae0823687cd37f3e45967103"
+        }
+      },
+      "functional_status": "partial",
+      "visual_status": "acceptable_delta",
+      "verification_status": "pending",
+      "cwtwb_result": "pass",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [
+        {
+          "path": "outputs/baseline-a1-replicated-workbook.twbx",
+          "role": "probe",
+          "sha256": "e556e04413fb1bbfb5669e627d56faa9e97400e7f271a116d757055be2a0820b",
+          "former_path": "evidence/baseline-a1/outputs/replicated-workbook.twbx",
+          "note": "Frozen a1 baseline before fit/label layout corrections. Moved to a direct outputs child because the current phase-boundary validator rejects nested workbook paths. Historical capture/evidence remains under evidence/baseline-a1 and is not current acceptance."
+        }
+      ],
+      "evidence": [
+        "inputs/source-lock.json",
+        "evidence/local-verification.json",
+        "evidence/local-gates.json",
+        "evidence/pending-runtime.md",
+        "evidence/handoff.json",
+        "evidence/cloud-verification.json",
+        "evidence/independent-review.md",
+        "evidence/independent-review.json",
+        "evidence/delivery-progress.md",
+        "evidence/cloud-csv.json",
+        "evidence/desktop-parent-check.json",
+        "evidence/desktop-corpus.json"
+      ],
+      "notes": [
+        "Scope is WW44 only. Current frozen artifact is 07a9dd44a79f541786843f19f120f6dedad1e7a276ee6d5c4a1fea80e1af70dd. Parent supplied exact-hash Desktop LOADED and 50-case corpus LOADED evidence. Only live clicks, clear selection, multi-selection and hover remain unverified.",
+        "Independent review checked current author/replica Month, Quarter and Year Cloud PNGs with matching manifest hashes: all three KPIs and eleven signed category labels are readable and agree with independent raw-data SQL. acceptable_delta applies to these static REST states only.",
+        "KPI click, clear selection, multi-selection and hover were not exercised because browser MFA was not completed. REST parameter injection does not prove live interaction acceptance.",
+        "The archived local author PNG was a loading placeholder; current Cloud author reference renders are valid and independently reviewed.",
+        "SDK pass covers public API construction, independent numerical/static checks, current-hash REST images/CSV, exact-hash Desktop LOADED and the 50-case Desktop corpus. Functional status remains partial pending live events.",
+        "Current cloud-csv.json contains nine current-hash REST data exports. These establish static parameter states, not browser events."
+      ],
+      "metadata": "iterations/2021-11-04-ww44-can-you-show-the-top-and-bottom-profit-performers-for-the-selected-time-period/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.29.0a1"
     },
     {
       "case_id": "wow-2022-ww32-dumbbell-chart",

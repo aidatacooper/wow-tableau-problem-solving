@@ -1,0 +1,26 @@
+{
+  "case_dir": "C:/Users/imgwho/.t3/worktrees/wow-tableau-problem-solving/t3-5ae5d48d/iterations/2021-11-04-ww44-can-you-show-the-top-and-bottom-profit-performers-for-the-selected-time-period",
+  "author_workbook": "C:/Users/imgwho/Desktop/project/wow-tableau-problem-solving/dashboards/2021_11_03_Top_and_Bottom_Performers/2021_11_03_Top_and_Bottom_Performers.twbx",
+  "author_view": "2021_11_03_Top_Bottom_Performers",
+  "replica_view": "WW44 Profit Performers",
+  "states": [
+    {
+      "name": "quarter",
+      "parameters": {
+        "pDatePart": "Quarter",
+        "Period": "Quarter"
+      }
+    },
+    {
+      "name": "year",
+      "parameters": {
+        "pDatePart": "Year",
+        "Period": "Year"
+      }
+    }
+  ],
+  "data_views": [],
+  "notes": [
+    "Author parameter pDatePart and replica parameter Period both supplied for equivalent REST states; check resulting figures. Browser actions not executed."
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "captured_at": "2026-10-28T06:22:33.198298+00:00",
+  "source_hashes": {
+    "author": "a9f785a2c31830949bc736df0eb83f0786201621ae0823687cd37f3e45967103",
+    "replica": "e556e04413fb1bbfb5669e627d56faa9e97400e7f271a116d757055be2a0820b"
+  },
+  "scope": "REST worksheet data, no browser events",
+  "records": [
+    {
+      "role": "replica",
+      "view": "Period KPIs",
+      "state": "default",
+      "parameters": {},
+      "filters": {},
+      "path": "outputs/runtime-replica-period-kpis-default.csv",
+      "sha256": "803956962c1d3d9c32bbcea81d320aeb241778387fa92ee111725e6fe576b933",
+      "bytes": 93
+    },
+    {
+      "role": "replica",
+      "view": "Profit Performers",
+      "state": "default",
+      "parameters": {},
+      "filters": {},
+      "path": "outputs/runtime-replica-profit-performers-default.csv",
+      "sha256": "005ed327417f9b100d366b7df36a8c75b4b56a84809f230af0b0292061136a56",
+      "bytes": 1100
+    },
+    {
+      "role": "replica",
+      "view": "WW44 Profit Performers",
+      "state": "default",
+      "parameters": {},
+      "filters": {},
+      "path": "outputs/runtime-replica-ww44-profit-performers-default.csv",
+      "sha256": "803956962c1d3d9c32bbcea81d320aeb241778387fa92ee111725e6fe576b933",
+      "bytes": 93
+    },
+    {
+      "role": "replica",
+      "view": "Period KPIs",
+      "state": "quarter",
+      "parameters": {
+        "pDatePart": "Quarter",
+        "Period": "Quarter"
+      },
+      "filters": {},
+      "path": "outputs/runtime-replica-period-kpis-quarter.csv",
+      "sha256": "803956962c1d3d9c32bbcea81d320aeb241778387fa92ee111725e6fe576b933",
+      "bytes": 93
+    },
+    {
+      "role": "replica",
+      "view": "Profit Performers",
+      "state": "quarter",
+      "parameters": {
+        "pDatePart": "Quarter",
+        "Period": "Quarter"
+      },
+      "filters": {},
+      "path": "outputs/runtime-replica-profit-performers-quarter.csv",
+      "sha256": "1e049730b31d40316d4e83cec4b1894f7385849a67c059cc41d488bdc6d4cc1e",
+      "bytes": 1172
+    },
+    {
+      "role": "replica",
+      "view": "WW44 Profit Performers",
+      "state": "quarter",
+      "parameters": {
+        "pDatePart": "Quarter",
+        "Period": "Quarter"
+      },
+      "filters": {},
+      "path": "outputs/runtime-replica-ww44-profit-performers-quarter.csv",
+      "sha256": "803956962c1d3d9c32bbcea81d320aeb241778387fa92ee111725e6fe576b933",
+      "bytes": 93
+    },
+    {
+      "role": "replica",
+      "view": "Period KPIs",
+      "state": "year",
+      "parameters": {
+        "pDatePart": "Year",
+        "Period": "Year"
+      },
+      "filters": {},
+      "path": "outputs/runtime-replica-period-kpis-year.csv",
+      "sha256": "803956962c1d3d9c32bbcea81d320aeb241778387fa92ee111725e6fe576b933",
+      "bytes": 93
+    },
+    {
+      "role": "replica",
+      "view": "Profit Performers",
+      "state": "year",
+      "parameters": {
+        "pDatePart": "Year",
+        "Period": "Year"
+      },
+      "filters": {},
+      "path": "outputs/runtime-replica-profit-performers-year.csv",
+      "sha256": "a3ebf43bfa67ae07f7d6335d8a1e4eeb1a917132c28e1dfd159460dc1fb260f1",
+      "bytes": 1192
+    },
+    {
+      "role": "replica",
+      "view": "WW44 Profit Performers",
+      "state": "year",
+      "parameters": {
+        "pDatePart": "Year",
+        "Period": "Year"
+      },
+      "filters": {},
+      "path": "outputs/runtime-replica-ww44-profit-performers-year.csv",
+      "sha256": "803956962c1d3d9c32bbcea81d320aeb241778387fa92ee111725e6fe576b933",
+      "bytes": 93
+    }
+  ]
+}
