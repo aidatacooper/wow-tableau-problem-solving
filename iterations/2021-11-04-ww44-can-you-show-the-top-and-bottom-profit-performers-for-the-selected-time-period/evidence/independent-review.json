@@ -1,0 +1,21 @@
+{
+  "artifact_sha256": "07a9dd44a79f541786843f19f120f6dedad1e7a276ee6d5c4a1fea80e1af70dd",
+  "report": "evidence/independent-review.md",
+  "report_sha256": "ce757286ea1b4bb04ce67fd77e369f9f74610a447704c322b39d8024d64ec80e",
+  "source_report": "C:/Users/imgwho/Desktop/project/wow-tableau-problem-solving/scratch/ww44-final-review.md",
+  "review_scope": "Independent review of current frozen workbook semantics, raw Hyper SQL, generated contracts and six hash-bound Cloud PNGs; no Cloud/Desktop action executed by reviewer.",
+  "confirmed_defects": [],
+  "static_visual_status": "acceptable_delta",
+  "pending": [
+    "real Month/Quarter/Year KPI clicks",
+    "clear-selection retention",
+    "multi-selection behavior",
+    "no-tooltip hover and selection highlighting"
+  ],
+  "local_recheck": "Existing verifier rerun in isolated scratch copy: 8 contracts, 3 numerical scenarios, 9 KPI combinations, calendar fixture and 3 defect mutations passed. Separate independent Hyper SQL agreed.",
+  "subsequent_parent_evidence": {
+    "Desktop": "evidence/desktop-parent-check.json: LOADED for current artifact",
+    "corpus": "evidence/desktop-corpus.json: 50 LOADED, 0 FAIL, 0 UNKNOWN",
+    "CSV": "evidence/cloud-csv.json: nine current-hash records"
+  }
+}

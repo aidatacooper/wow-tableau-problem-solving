@@ -1,0 +1,94 @@
+{
+  "status": "local implementation finished; frozen artifact; runtime acceptance pending",
+  "case_id": "wow-2021-ww44-can-you-show-the-top-and-bottom-profit-performers-for-the-selected-time-period",
+  "worktree": "C:\\Users\\imgwho\\.t3\\worktrees\\wow-tableau-problem-solving\\t3-5ae5d48d",
+  "branch": "t3/implement-ww44-profit-performers",
+  "implementation_commit": "151a03ffc55ae10c2a31eb98c4827fc76e89518d",
+  "sdk": {
+    "source": "C:\\Users\\imgwho\\Desktop\\project\\.sdk-pins\\cwtwb-23b1df0\\src",
+    "imported_module": "C:\\Users\\imgwho\\Desktop\\project\\.sdk-pins\\cwtwb-23b1df0\\src\\cwtwb\\__init__.py",
+    "version": "0.29.0a1",
+    "commit": "23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c",
+    "a2_used": false,
+    "shared_sdk_edited": false
+  },
+  "commands": {
+    "build": "$env:PYTHONPATH='C:/Users/imgwho/Desktop/project/.sdk-pins/cwtwb-23b1df0/src'; $env:CWTWB_SRC=$env:PYTHONPATH; $env:PYTHONUTF8='1'; python -X utf8 iterations/2021-11-04-ww44-can-you-show-the-top-and-bottom-profit-performers-for-the-selected-time-period/build_replication.py",
+    "verify": "$env:PYTHONPATH='C:/Users/imgwho/Desktop/project/.sdk-pins/cwtwb-23b1df0/src'; $env:CWTWB_SRC=$env:PYTHONPATH; $env:PYTHONUTF8='1'; python -X utf8 iterations/2021-11-04-ww44-can-you-show-the-top-and-bottom-profit-performers-for-the-selected-time-period/verify_replication.py",
+    "full_case_gate": "$env:PYTHONPATH='C:/Users/imgwho/Desktop/project/.sdk-pins/cwtwb-23b1df0/src'; $env:CWTWB_SRC=$env:PYTHONPATH; $env:PYTHONUTF8='1'; python -X utf8 scripts/validate_iteration.py iterations/2021-11-04-ww44-can-you-show-the-top-and-bottom-profit-performers-for-the-selected-time-period",
+    "repository_tests": "$env:PYTHONPATH='C:/Users/imgwho/Desktop/project/.sdk-pins/cwtwb-23b1df0/src'; $env:CWTWB_SRC=$env:PYTHONPATH; $env:PYTHONUTF8='1'; python -X utf8 -m unittest discover -s tests -v",
+    "desktop_frozen_artifact_parent_only": "$env:PYTHONPATH='C:/Users/imgwho/Desktop/project/.sdk-pins/cwtwb-23b1df0/src'; $env:CWTWB_SRC=$env:PYTHONPATH; $env:PYTHONUTF8='1'; python -X utf8 scripts/desktop/check.py \"C:\\Users\\imgwho\\.t3\\worktrees\\wow-tableau-problem-solving\\t3-5ae5d48d\\iterations\\2021-11-04-ww44-can-you-show-the-top-and-bottom-profit-performers-for-the-selected-time-period\\outputs\\replicated-workbook.twbx\"",
+    "desktop_rebuild_parent_only": "$env:PYTHONPATH='C:/Users/imgwho/Desktop/project/.sdk-pins/cwtwb-23b1df0/src'; $env:CWTWB_SRC=$env:PYTHONPATH; $env:PYTHONUTF8='1'; python -X utf8 scripts/desktop/build_and_check.py iterations/2021-11-04-ww44-can-you-show-the-top-and-bottom-profit-performers-for-the-selected-time-period --sdk-src \"C:\\Users\\imgwho\\Desktop\\project\\.sdk-pins\\cwtwb-23b1df0\\src\"",
+    "desktop_corpus_parent_only": "$env:PYTHONPATH='C:/Users/imgwho/Desktop/project/.sdk-pins/cwtwb-23b1df0/src'; $env:CWTWB_SRC=$env:PYTHONPATH; $env:PYTHONUTF8='1'; python -X utf8 scripts/desktop/verify_corpus.py",
+    "catalogue_parent_only": "$env:PYTHONPATH='C:/Users/imgwho/Desktop/project/.sdk-pins/cwtwb-23b1df0/src'; $env:CWTWB_SRC=$env:PYTHONPATH; $env:PYTHONUTF8='1'; python -X utf8 scripts/case_catalogue.py --write"
+  },
+  "artifact": {
+    "path": "C:\\Users\\imgwho\\.t3\\worktrees\\wow-tableau-problem-solving\\t3-5ae5d48d\\iterations\\2021-11-04-ww44-can-you-show-the-top-and-bottom-profit-performers-for-the-selected-time-period\\outputs\\replicated-workbook.twbx",
+    "relative_path": "outputs/replicated-workbook.twbx",
+    "sha256": "e556e04413fb1bbfb5669e627d56faa9e97400e7f271a116d757055be2a0820b",
+    "bytes": 78837,
+    "freeze_note": "Full validate_iteration.py rebuild ran before freeze. Isolated clean rebuild ran in a temporary copy without modifying this artifact. Any subsequent rebuild requires new SHA256 and evidence."
+  },
+  "local_tests": {
+    "case_acceptance_contracts": "8 passed",
+    "numerical_scenarios": "Month, Quarter, Year: all KPIs, top/bottom membership, eleven bars, middle mean and signed labels match independent raw-data oracle",
+    "all_kpi_parameter_combinations": "9 passed",
+    "synthetic_shifted_calendar": "passed for max date 2023-05-15",
+    "defect_mutations": "3 rejected",
+    "input_and_package_hashes": "passed",
+    "phase_boundary": "passed (public APIs only)",
+    "metadata_and_identity": "passed",
+    "isolated_clean_rebuild": "passed",
+    "ruff": "passed",
+    "xsd": {
+      "strict_errors": 0,
+      "compatibility_warnings": 1,
+      "warning": "workbook missing referenced-extensions/explain-data tail element; recorded SDK schema compatibility warning, Desktop verdict still required"
+    },
+    "full_validator": "Exit 1 only at final check_catalogue: usage/case-index.json differs; common indexes intentionally untouched.",
+    "repository_tests": {
+      "total": 83,
+      "passed": 81,
+      "failed": 2,
+      "failures": [
+        "test_prepare_case_extracts_data_and_never_copies_source",
+        "test_validator_scans_helper_files_and_rejects_misplaced_workbooks"
+      ],
+      "reason": "Both assert stale usage/case-index.json; same known parent integration failures."
+    },
+    "details": "evidence/local-gates.json"
+  },
+  "known_differences": [
+    "New title/footer/typography/palette/spacing; no visual match asserted.",
+    "Period constrained to Month/Quarter/Year instead of arbitrary string.",
+    "Declarative layered Gantt panes; author XML not copied.",
+    "Archived PNG is a loading placeholder, not a usable author reference.",
+    "No actual data ties in any selected period; native boundary tie choice lacks a secondary key and remains unverified on tied data."
+  ],
+  "sdk_gaps": [],
+  "pending_gates": [
+    "Desktop frozen artifact LOADED verdict",
+    "Desktop corpus regression",
+    "Live KPI click and clear-selection behavior",
+    "Visual signed-label placement, colors and no tooltips",
+    "Independent review",
+    "Parent-owned Cloud validation if requested",
+    "Shared catalogue regeneration/integration checks",
+    "Parent-owned PR work"
+  ],
+  "delivery_files": [
+    "analysis.md",
+    "case.yaml",
+    "build_replication.py",
+    "verify_replication.py",
+    "inputs/source-lock.json",
+    "inputs/Orders (Sample - Superstore).hyper",
+    "outputs/replicated-workbook.twbx",
+    "evidence/local-verification.json",
+    "evidence/local-gates.json",
+    "evidence/repository-tests.txt",
+    "evidence/pending-runtime.md"
+  ],
+  "progress_file": "docs/PROGRESS-four-20261028-ww44.md",
+  "commit_note": "Implementation is in implementation_commit. A subsequent handoff-only commit records this SHA; integrate both commits from this branch. No push or PR was performed."
+}

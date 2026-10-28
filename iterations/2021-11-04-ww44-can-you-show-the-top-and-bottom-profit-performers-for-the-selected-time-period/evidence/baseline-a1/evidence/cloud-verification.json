@@ -1,0 +1,135 @@
+{
+  "case_id": "wow-2021-ww44-can-you-show-the-top-and-bottom-profit-performers-for-the-selected-time-period",
+  "captured_at": "2026-10-28T06:20:08.737570+00:00",
+  "source_hashes": {
+    "author": "a9f785a2c31830949bc736df0eb83f0786201621ae0823687cd37f3e45967103",
+    "replica": "e556e04413fb1bbfb5669e627d56faa9e97400e7f271a116d757055be2a0820b"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "70dc1b8b-19aa-4daa-a32d-426509bf4713",
+      "name": "cwtwb-review-wow-2021-ww44-can-you-show-the-top-and-bottom-profit-performers-for-the-selected-time-period-author-a9f785a2c318",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/3089449",
+      "views": [
+        {
+          "name": "2021_11_03_Top_Bottom_Performers",
+          "id": "d46c7d95-6b21-4a1e-a99a-a7b7ce77bc8d"
+        }
+      ]
+    },
+    "replica": {
+      "id": "4329306d-8a31-4cc7-a74a-bf6732abc01b",
+      "name": "cwtwb-review-wow-2021-ww44-can-you-show-the-top-and-bottom-profit-performers-for-the-selected-time-period-replica-e556e04413fb",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/3089450",
+      "views": [
+        {
+          "name": "Period KPIs",
+          "id": "ee626e5e-d44c-4c3b-b616-4ae0165f9042"
+        },
+        {
+          "name": "Profit Performers",
+          "id": "02814dd9-c695-4064-937b-79cf49a18113"
+        },
+        {
+          "name": "WW44 Profit Performers",
+          "id": "0b6cc4de-37f0-4abe-aa27-75815c843c1c"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "d46c7d95-6b21-4a1e-a99a-a7b7ce77bc8d",
+          "name": "2021_11_03_Top_Bottom_Performers",
+          "path": "outputs/cloud-author.png",
+          "sha256": "96aed534003c79e62783c7f6b5ff61005648a449ca166b094e55eac8941b04e9",
+          "size": [
+            1400,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "0b6cc4de-37f0-4abe-aa27-75815c843c1c",
+          "name": "WW44 Profit Performers",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "8e1135a29cac121208da6a0811c634e765c88809e589fe370258b730696e81a1",
+          "size": [
+            1400,
+            1600
+          ]
+        }
+      },
+      "data": []
+    },
+    {
+      "name": "quarter",
+      "parameters": {
+        "pDatePart": "Quarter",
+        "Period": "Quarter"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "d46c7d95-6b21-4a1e-a99a-a7b7ce77bc8d",
+          "name": "2021_11_03_Top_Bottom_Performers",
+          "path": "outputs/cloud-author-quarter.png",
+          "sha256": "fe42bf7d4e4c80847e380fd2530e258fcabedb8a7fe5eec27acd6e8c1a2c3fa2",
+          "size": [
+            1400,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "0b6cc4de-37f0-4abe-aa27-75815c843c1c",
+          "name": "WW44 Profit Performers",
+          "path": "outputs/cloud-replica-quarter.png",
+          "sha256": "6a771a7ba658986bdff9b1d5c975881497ac1ee43dbca9c07a1197209022d1e5",
+          "size": [
+            1400,
+            1600
+          ]
+        }
+      },
+      "data": []
+    },
+    {
+      "name": "year",
+      "parameters": {
+        "pDatePart": "Year",
+        "Period": "Year"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "d46c7d95-6b21-4a1e-a99a-a7b7ce77bc8d",
+          "name": "2021_11_03_Top_Bottom_Performers",
+          "path": "outputs/cloud-author-year.png",
+          "sha256": "b16baf4982c8d6054715ef7d588f0f27360f69bbae3002c6699072e3169f184e",
+          "size": [
+            1400,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "0b6cc4de-37f0-4abe-aa27-75815c843c1c",
+          "name": "WW44 Profit Performers",
+          "path": "outputs/cloud-replica-year.png",
+          "sha256": "e543684a1614e4258e90ee2b7213ec91d260a299e9106f4d8ccddc4f7995b293",
+          "size": [
+            1400,
+            1600
+          ]
+        }
+      },
+      "data": []
+    }
+  ],
+  "status": "captured_requires_independent_review"
+}

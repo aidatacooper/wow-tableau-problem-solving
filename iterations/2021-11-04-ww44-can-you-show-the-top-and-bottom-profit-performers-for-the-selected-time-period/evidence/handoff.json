@@ -1,0 +1,149 @@
+{
+  "status": "current frozen artifact passes local, REST static, Desktop and 50-case corpus gates; live events pending",
+  "case_id": "wow-2021-ww44-can-you-show-the-top-and-bottom-profit-performers-for-the-selected-time-period",
+  "worktree": "C:\\Users\\imgwho\\.t3\\worktrees\\wow-tableau-problem-solving\\t3-5ae5d48d",
+  "branch": "feat/2021-ww44-profit-preview",
+  "sdk": {
+    "source": "C:\\Users\\imgwho\\Desktop\\project\\.sdk-pins\\cwtwb-23b1df0\\src",
+    "imported_module": "C:\\Users\\imgwho\\Desktop\\project\\.sdk-pins\\cwtwb-23b1df0\\src\\cwtwb\\__init__.py",
+    "version": "0.29.0a1",
+    "commit": "23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c",
+    "a2_used": false,
+    "shared_sdk_edited": false
+  },
+  "commands": {
+    "metadata_only": "$env:PYTHONPATH='C:/Users/imgwho/Desktop/project/.sdk-pins/cwtwb-23b1df0/src'; $env:CWTWB_SRC=$env:PYTHONPATH; $env:PYTHONUTF8='1'; python -X utf8 scripts/validate_iteration.py iterations/2021-11-04-ww44-can-you-show-the-top-and-bottom-profit-performers-for-the-selected-time-period --metadata-only",
+    "isolated_rebuild_contract_check": "$env:PYTHONPATH='C:/Users/imgwho/Desktop/project/.sdk-pins/cwtwb-23b1df0/src'; $env:CWTWB_SRC=$env:PYTHONPATH; $env:PYTHONUTF8='1'; python -X utf8 -c \"from pathlib import Path; from scripts.validate_iteration import run_case_scripts_isolated; run_case_scripts_isolated(Path('iterations/2021-11-04-ww44-can-you-show-the-top-and-bottom-profit-performers-for-the-selected-time-period').resolve())\"",
+    "full_validator_in_isolated_lab": {
+      "command": "$env:PYTHONPATH='C:/Users/imgwho/Desktop/project/.sdk-pins/cwtwb-23b1df0/src'; $env:CWTWB_SRC=$env:PYTHONPATH; $env:PYTHONUTF8='1'; python -X utf8 scripts/validate_iteration.py iterations/2021-11-04-ww44-can-you-show-the-top-and-bottom-profit-performers-for-the-selected-time-period",
+      "scope": "Run only inside an isolated lab copy of scripts/iterations/usage/docs/index.json. Current delivered package must not be replaced. Evidence log: evidence/isolated-validation.txt."
+    },
+    "repository_tests": "$env:PYTHONPATH='C:/Users/imgwho/Desktop/project/.sdk-pins/cwtwb-23b1df0/src'; $env:CWTWB_SRC=$env:PYTHONPATH; $env:PYTHONUTF8='1'; python -X utf8 -m unittest discover -s tests -v",
+    "catalogue": "$env:PYTHONPATH='C:/Users/imgwho/Desktop/project/.sdk-pins/cwtwb-23b1df0/src'; $env:CWTWB_SRC=$env:PYTHONPATH; $env:PYTHONUTF8='1'; python -X utf8 scripts/case_catalogue.py --write",
+    "desktop_frozen_artifact_parent_only": "$env:PYTHONPATH='C:/Users/imgwho/Desktop/project/.sdk-pins/cwtwb-23b1df0/src'; $env:CWTWB_SRC=$env:PYTHONPATH; $env:PYTHONUTF8='1'; python -X utf8 scripts/desktop/check.py \"C:\\Users\\imgwho\\.t3\\worktrees\\wow-tableau-problem-solving\\t3-5ae5d48d\\iterations\\2021-11-04-ww44-can-you-show-the-top-and-bottom-profit-performers-for-the-selected-time-period\\outputs\\replicated-workbook.twbx\"",
+    "desktop_corpus_parent_only": "$env:PYTHONPATH='C:/Users/imgwho/Desktop/project/.sdk-pins/cwtwb-23b1df0/src'; $env:CWTWB_SRC=$env:PYTHONPATH; $env:PYTHONUTF8='1'; python -X utf8 scripts/desktop/verify_corpus.py"
+  },
+  "artifact": {
+    "path": "C:\\Users\\imgwho\\.t3\\worktrees\\wow-tableau-problem-solving\\t3-5ae5d48d\\iterations\\2021-11-04-ww44-can-you-show-the-top-and-bottom-profit-performers-for-the-selected-time-period\\outputs\\replicated-workbook.twbx",
+    "relative_path": "outputs/replicated-workbook.twbx",
+    "sha256": "07a9dd44a79f541786843f19f120f6dedad1e7a276ee6d5c4a1fea80e1af70dd",
+    "bytes": 78862,
+    "freeze_note": "Frozen artifact unchanged during final review/delivery. Full validation rebuilt an isolated copy only; any real rebuild requires new hash and runtime captures."
+  },
+  "local_tests": {
+    "case_acceptance_contracts": "8 passed",
+    "numerical_scenarios": "3 passed with independent raw Hyper SQL cross-check",
+    "all_kpi_parameter_combinations": "9 passed",
+    "synthetic_shifted_calendar": "passed",
+    "defect_mutations": "3 rejected",
+    "metadata_phase_boundary_identity": "passed",
+    "xsd": {
+      "schema_available": true,
+      "schema_version": "2026.1",
+      "errors": [],
+      "compatibility_warnings": [
+        "<string>:2:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'workbook': Missing child element(s). Expected is one of ( referenced-extensions, explain-data )."
+      ]
+    },
+    "isolated_full_validator": "passed again on one-case branch; frozen artifact unchanged",
+    "catalogue": "passed; 112 active cases on one-case branch",
+    "repository_tests": {
+      "command": "python -X utf8 -m unittest discover -s tests -v",
+      "exit_code": 0,
+      "run": 83,
+      "passed": 83,
+      "failed": 0,
+      "log": "evidence/repository-tests.txt"
+    },
+    "ruff": "passed",
+    "details": "evidence/local-gates.json"
+  },
+  "known_differences": [
+    "New title/footer/typography/palette/spacing; three static states independently judged acceptable_delta, not matched.",
+    "Static generic title instead of author dynamic period title.",
+    "Period constrained to Month/Quarter/Year.",
+    "Declarative layered Gantt panes; author XML not copied.",
+    "Actual dataset has no ties in any period; native cutoff-tie member choice remains unverified on tied data."
+  ],
+  "sdk_gaps": [],
+  "pending_gates": [
+    "real Month/Quarter/Year KPI clicks",
+    "clear-selection retention",
+    "multi-selection behavior",
+    "no-tooltip hover and selection highlighting"
+  ],
+  "delivery_files": [
+    "README.md",
+    "analysis.md",
+    "case.yaml",
+    "build_replication.py",
+    "verify_replication.py",
+    "inputs/source-lock.json",
+    "inputs/Orders (Sample - Superstore).hyper",
+    "outputs/replicated-workbook.twbx",
+    "outputs/baseline-a1-replicated-workbook.twbx",
+    "evidence/local-verification.json",
+    "evidence/local-gates.json",
+    "evidence/repository-tests.txt",
+    "evidence/isolated-validation.txt",
+    "evidence/independent-review.md",
+    "evidence/independent-review.json",
+    "evidence/cloud-verification.json",
+    "evidence/pending-runtime.md",
+    "evidence/baseline-a1/",
+    "evidence/cloud-csv.json",
+    "evidence/desktop-parent-check.json",
+    "evidence/desktop-corpus.json"
+  ],
+  "progress_file": "evidence/delivery-progress.md",
+  "commit_note": "ONE CASE branch from origin/main contains only WW44 and regenerated usage views. Original full-history t3 branch retained at 0085ef09229fdeb1a672f9c76ca6271bbb6177db. Final commit SHA is reported in git history. No push/PR.",
+  "base_implementation_commit": "151a03ffc55ae10c2a31eb98c4827fc76e89518d",
+  "historical_artifacts": [
+    {
+      "path": "outputs/baseline-a1-replicated-workbook.twbx",
+      "role": "probe",
+      "sha256": "e556e04413fb1bbfb5669e627d56faa9e97400e7f271a116d757055be2a0820b",
+      "former_path": "evidence/baseline-a1/outputs/replicated-workbook.twbx",
+      "note": "Frozen a1 baseline before fit/label layout corrections. Moved to a direct outputs child because the current phase-boundary validator rejects nested workbook paths. Historical capture/evidence remains under evidence/baseline-a1 and is not current acceptance."
+    }
+  ],
+  "functional_status": "partial",
+  "visual_status": "acceptable_delta",
+  "cwtwb_result": "pass",
+  "independent_review": {
+    "report": "evidence/independent-review.md",
+    "sha256": "ce757286ea1b4bb04ce67fd77e369f9f74610a447704c322b39d8024d64ec80e",
+    "confirmed_defects": 0,
+    "visual_status": "acceptable_delta",
+    "scope": "Three current hash-bound REST states; no live interaction claim."
+  },
+  "cloud_manifest": {
+    "path": "evidence/cloud-verification.json",
+    "artifact_sha256": "07a9dd44a79f541786843f19f120f6dedad1e7a276ee6d5c4a1fea80e1af70dd",
+    "scope": "Current Month/Quarter/Year author and replica static PNG captures; browser_interaction_executed=false."
+  },
+  "csv_status": "Current cloud-csv.json binds nine exports to 07a9dd44a79f541786843f19f120f6dedad1e7a276ee6d5c4a1fea80e1af70dd; all file SHA256 values verified.",
+  "evidence_byte_preservation": "Case-local .gitattributes disables text normalization for independent-review.md and captured CSV files so recorded SHA256 bytes survive checkout.",
+  "desktop": {
+    "evidence": "evidence/desktop-parent-check.json",
+    "verdict": "LOADED",
+    "artifact_sha256": "07a9dd44a79f541786843f19f120f6dedad1e7a276ee6d5c4a1fea80e1af70dd",
+    "performed_by": "parent",
+    "live_events_tested": false
+  },
+  "desktop_corpus": {
+    "evidence": "evidence/desktop-corpus.json",
+    "LOADED": 50,
+    "FAIL": 0,
+    "UNKNOWN": 0,
+    "performed_by": "parent"
+  },
+  "pr_isolation": {
+    "base": "origin/main",
+    "base_commit": "d52ecab0449f7a0d443f22723fb59f7bd479649c",
+    "source_branch": "t3/implement-ww44-profit-performers",
+    "source_commit": "0085ef09229fdeb1a672f9c76ca6271bbb6177db",
+    "method": "Created branch from origin/main; restored only this complete case directory from source branch, then regenerated usage views. Ten unrelated historical cases and their catalogue were not copied."
+  },
+  "local_verifier_scope_note": "The local verifier does not execute Desktop, Cloud or live events. Its generic pending text describes its own untested scope. Current case runtime status is provided by desktop-parent-check.json, desktop-corpus.json and current REST manifests; only live click/clear/multiselect/hover remains pending."
+}

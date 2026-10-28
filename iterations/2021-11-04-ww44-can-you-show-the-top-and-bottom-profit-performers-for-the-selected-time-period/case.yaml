@@ -1,0 +1,157 @@
+schema_version: 1.1.0
+case_id: wow-2021-ww44-can-you-show-the-top-and-bottom-profit-performers-for-the-selected-time-period
+iteration_id: 2021-11-04-ww44-can-you-show-the-top-and-bottom-profit-performers-for-the-selected-time-period
+post: https://donnacoles.home.blog/2021/11/04/can-you-show-the-top-and-bottom-profit-performers-for-the-selected-time-period/
+legacy_case_ids: {}
+article_date: '2021-11-04'
+challenge_year: 2021
+challenge_week: 44
+challenge_date: '2021-11-02'
+date_evidence:
+  article_date: Declared article publication date in iteration_id
+  challenge: Official page explicitly identifies WOW2021 W44; parent corrected case_intake null year/week
+    using the matching official record.
+  challenge_date: 2021-11-02 from parent-verified official challenge record; article publication date
+    remains 2021-11-04.
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/wow2021w44tab/
+  article:
+    url: https://donnacoles.home.blog/2021/11/04/can-you-show-the-top-and-bottom-profit-performers-for-the-selected-time-period/
+    path: null
+    sha256: c30702e9f13e5971d9d9d2d909da2f25931634135690333c27431571eb8c03c4
+  workbook:
+    url: https://public.tableau.com/app/profile/donna.coles/viz/2021_11_03_Top_and_Bottom_Performers/2021_11_03_Top_Bottom_Performers
+    filename: 2021_11_03_Top_and_Bottom_Performers.twbx
+    sha256: a9f785a2c31830949bc736df0eb83f0786201621ae0823687cd37f3e45967103
+verification_status: pending
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts:
+- path: outputs/baseline-a1-replicated-workbook.twbx
+  role: probe
+  sha256: e556e04413fb1bbfb5669e627d56faa9e97400e7f271a116d757055be2a0820b
+  former_path: evidence/baseline-a1/outputs/replicated-workbook.twbx
+  note: Frozen a1 baseline before fit/label layout corrections. Moved to a direct outputs child because
+    the current phase-boundary validator rejects nested workbook paths. Historical capture/evidence remains
+    under evidence/baseline-a1 and is not current acceptance.
+evidence:
+- inputs/source-lock.json
+- evidence/local-verification.json
+- evidence/local-gates.json
+- evidence/pending-runtime.md
+- evidence/handoff.json
+- evidence/cloud-verification.json
+- evidence/independent-review.md
+- evidence/independent-review.json
+- evidence/delivery-progress.md
+- evidence/cloud-csv.json
+- evidence/desktop-parent-check.json
+- evidence/desktop-corpus.json
+notes:
+- Scope is WW44 only. Current frozen artifact is 07a9dd44a79f541786843f19f120f6dedad1e7a276ee6d5c4a1fea80e1af70dd.
+  Parent supplied exact-hash Desktop LOADED and 50-case corpus LOADED evidence. Only live clicks, clear
+  selection, multi-selection and hover remain unverified.
+- 'Independent review checked current author/replica Month, Quarter and Year Cloud PNGs with matching
+  manifest hashes: all three KPIs and eleven signed category labels are readable and agree with independent
+  raw-data SQL. acceptable_delta applies to these static REST states only.'
+- KPI click, clear selection, multi-selection and hover were not exercised because browser MFA was not
+  completed. REST parameter injection does not prove live interaction acceptance.
+- The archived local author PNG was a loading placeholder; current Cloud author reference renders are
+  valid and independently reviewed.
+- SDK pass covers public API construction, independent numerical/static checks, current-hash REST images/CSV,
+  exact-hash Desktop LOADED and the 50-case Desktop corpus. Functional status remains partial pending
+  live events.
+- Current cloud-csv.json contains nine current-hash REST data exports. These establish static parameter
+  states, not browser events.
+cwtwb:
+  tested_version: 0.29.0a1
+  tested_commit: 23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c
+  runs:
+  - version: 0.29.0a1
+    commit: 23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c
+    result: pass
+    evidence: evidence/local-verification.json
+    scope: Public API build and local formula/structure checks only; Desktop and live interactions pending.
+  - version: 0.29.0a1
+    commit: 23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c
+    result: pass
+    evidence: evidence/independent-review.json
+    artifact_sha256: 07a9dd44a79f541786843f19f120f6dedad1e7a276ee6d5c4a1fea80e1af70dd
+    scope: Current public-API fit/label corrections; independent generated-formula verifier and raw Hyper
+      SQL agree for Month/Quarter/Year, with current hash-bound Cloud PNG visual review. No live action,
+      Desktop or corpus claim.
+  - version: 0.29.0a1
+    commit: 23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c
+    result: pass
+    evidence: evidence/desktop-parent-check.json
+    artifact_sha256: 07a9dd44a79f541786843f19f120f6dedad1e7a276ee6d5c4a1fea80e1af70dd
+    scope: Parent-supplied current frozen artifact Desktop LOADED, 50/50 corpus LOADED and nine current-hash
+      REST CSV records verified. Real KPI click/clear/multi-selection/hover remain untested.
+  - version: 0.29.0a1
+    commit: 23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c
+    result: pass
+    evidence: evidence/local-gates.json
+    artifact_sha256: 07a9dd44a79f541786843f19f120f6dedad1e7a276ee6d5c4a1fea80e1af70dd
+    scope: 'One-case branch from origin/main: isolated full build/verify validation, metadata/boundary/XSD
+      checks and 83 repository tests passed without replacing frozen artifact. Parent Desktop/corpus and
+      current REST evidence retained; live events remain pending.'
+analysis_status: completed
+functional_status: partial
+visual_status: acceptable_delta
+cwtwb_result: pass
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/Orders (Sample - Superstore).hyper
+acceptance:
+- id: latest-calendar-periods
+  description: Latest source date is 2021-12-30. Month starts 2021-12-01, Quarter 2021-10-01, Year 2021-01-01;
+    a synthetic 2023-05 max date gives May/Q2/2023 boundaries.
+  mode: automated
+- id: all-period-kpis
+  description: 'All selections retain three KPI values: Month 8483.3468, Quarter 27448.7260, Year 93439.2696
+    (currency shown with zero decimals).'
+  mode: automated
+- id: dynamic-top-bottom-five
+  description: Each period selects exactly five highest and five lowest sub-category SUMs from all 17
+    categories using the selected-period measure, with no overlap.
+  mode: automated
+- id: middle-seven-average
+  description: Each period displays 11 categories; Everyone Else combines seven categories and divides
+    their selected profit by seven. Month 422.0875857143, Quarter 1243.2569857143, Year 4603.3694285714.
+  mode: automated
+- id: signed-labels-and-sorting
+  description: Two synchronized zero-anchored Gantt panes encode Average Profit size and sort descending.
+    Independent review of current Month/Quarter/Year Cloud PNGs confirms readable category/profit labels
+    on opposite ends according to sign.
+  mode: automated
+- id: kpi-action-contract
+  description: Generated on-select action sends Measure Names from Period KPIs into Period using ATTR,
+    and clearing retains current value. Live clicks remain pending.
+  mode: automated
+- id: ties-and-filter-order
+  description: All 17 actual values are distinct in each period. Sets use five records, not dense rank,
+    with no invented secondary key. No date, category, or dashboard filter removes rows before FIXED/ranking;
+    seven-member denominator uses the retained full category domain.
+  mode: automated
+- id: packaged-data-integrity
+  description: Packaged Hyper is byte-identical to the extracted, locked 9994-row source and is referenced
+    by a relative connection path.
+  mode: automated
+- id: desktop-interaction-visual-gates
+  description: Parent evidence confirms exact frozen artifact Desktop LOADED and corpus LOADED=50 FAIL=0
+    UNKNOWN=0. Three current static Cloud images and nine CSV exports pass. Real KPI clicks, clear-selection
+    retention, multi-selection and no-tooltip hover remain PENDING; this combined gate is not accepted.
+  mode: manual
+  evidence: evidence/pending-runtime.md
+remaining_work: Exercise real Month/Quarter/Year KPI clicks, clear-selection retention, multi-selection
+  behavior and no-tooltip hover/selection highlighting. Current-hash REST PNG/CSV states, independent
+  numerical review, exact-hash Desktop LOADED and 50-case corpus LOADED are complete; functional status
+  remains partial solely for these untested live events.
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []
