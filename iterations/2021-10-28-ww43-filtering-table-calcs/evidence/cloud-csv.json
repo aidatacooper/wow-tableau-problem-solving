@@ -1,0 +1,151 @@
+{
+  "captured_at": "2026-10-28T06:48:27.924025+00:00",
+  "source_hashes": {
+    "author": "8204ef773b82641bc253238fab1d017f111be15c24d3b651b8df9dd72df12c1a",
+    "replica": "83893921f3dbaa372e88baa3a82f3027e352f1828ddbab242d63efa10fedc379"
+  },
+  "scope": "REST worksheet data, no browser events",
+  "records": [
+    {
+      "role": "replica",
+      "view": "Trend",
+      "state": "default",
+      "parameters": {},
+      "filters": {},
+      "path": "outputs/runtime-replica-trend-default.csv",
+      "sha256": "b2dcd84ce6b19f6d7b82f93574bb2f04af3e18aa40377bb9d5a3ee0578ea47e7",
+      "bytes": 3421
+    },
+    {
+      "role": "replica",
+      "view": "Bars",
+      "state": "default",
+      "parameters": {},
+      "filters": {},
+      "path": "outputs/runtime-replica-bars-default.csv",
+      "sha256": "8538c6be8b8b41cf9b65c3fdd4ab50b9160306c102a984ea632bd4e1bd4a4979",
+      "bytes": 1153
+    },
+    {
+      "role": "author",
+      "view": "Data",
+      "state": "default",
+      "parameters": {},
+      "filters": {},
+      "path": "outputs/runtime-author-data-default.csv",
+      "sha256": "aea98e9dc18877dd1b869e36f024120a1398de30e315224627c7a8341f898042",
+      "bytes": 8136
+    },
+    {
+      "role": "replica",
+      "view": "Trend",
+      "state": "june-2018",
+      "parameters": {
+        "pMinDate": "2018-06-01",
+        "pMaxDate": "2018-06-01"
+      },
+      "filters": {},
+      "path": "outputs/runtime-replica-trend-june-2018.csv",
+      "sha256": "ab51f902c1938b052bc3f4b735e39a0a57e146a3477d53ca85a1df26ae5dc60f",
+      "bytes": 109
+    },
+    {
+      "role": "replica",
+      "view": "Bars",
+      "state": "june-2018",
+      "parameters": {
+        "pMinDate": "2018-06-01",
+        "pMaxDate": "2018-06-01"
+      },
+      "filters": {},
+      "path": "outputs/runtime-replica-bars-june-2018.csv",
+      "sha256": "3b439d7ff0817e4e008a8d7bcd6f2b6e67e944c7d1f24dd78053fdc45b85d0a1",
+      "bytes": 923
+    },
+    {
+      "role": "author",
+      "view": "Data",
+      "state": "june-2018",
+      "parameters": {
+        "pMinDate": "2018-06-01",
+        "pMaxDate": "2018-06-01"
+      },
+      "filters": {},
+      "path": "outputs/runtime-author-data-june-2018.csv",
+      "sha256": "95db86424d85bf7160a7f74edc6462042024a5dabaa523f4282765229efbd3f4",
+      "bytes": 230
+    },
+    {
+      "role": "replica",
+      "view": "Trend",
+      "state": "copiers-full",
+      "parameters": {},
+      "filters": {
+        "Sub-Category": "Copiers"
+      },
+      "path": "outputs/runtime-replica-trend-copiers-full.csv",
+      "sha256": "a3f6e446d38fc719da7b720bec0834f6e084d2b32bdde19417f2a4fe03feabd0",
+      "bytes": 2145
+    },
+    {
+      "role": "replica",
+      "view": "Bars",
+      "state": "copiers-full",
+      "parameters": {},
+      "filters": {
+        "Sub-Category": "Copiers"
+      },
+      "path": "outputs/runtime-replica-bars-copiers-full.csv",
+      "sha256": "06bf64309b3c67f86e703f84f06461ff22e37190fc85e0e8002d6c40f8257618",
+      "bytes": 105
+    },
+    {
+      "role": "author",
+      "view": "Data",
+      "state": "copiers-full",
+      "parameters": {},
+      "filters": {
+        "Sub-Category": "Copiers"
+      },
+      "path": "outputs/runtime-author-data-copiers-full.csv",
+      "sha256": "a91bb056588211db79d3bfd4974d7e26a5bd73c4acce9eb8630be855e5cdfd0e",
+      "bytes": 5347
+    },
+    {
+      "role": "replica",
+      "view": "Trend",
+      "state": "machines-full",
+      "parameters": {},
+      "filters": {
+        "Sub-Category": "Machines"
+      },
+      "path": "outputs/runtime-replica-trend-machines-full.csv",
+      "sha256": "5a8aa1eb4c631bdd1fecca6f344714e56c9846ad5f74ae50ff1781bdb1da7c51",
+      "bytes": 2559
+    },
+    {
+      "role": "replica",
+      "view": "Bars",
+      "state": "machines-full",
+      "parameters": {},
+      "filters": {
+        "Sub-Category": "Machines"
+      },
+      "path": "outputs/runtime-replica-bars-machines-full.csv",
+      "sha256": "ea63f49e2dfcd9d6e4df5cd746798decbb1c116d28cde1d95f47709431294014",
+      "bytes": 107
+    },
+    {
+      "role": "author",
+      "view": "Data",
+      "state": "machines-full",
+      "parameters": {},
+      "filters": {
+        "Sub-Category": "Machines"
+      },
+      "path": "outputs/runtime-author-data-machines-full.csv",
+      "sha256": "530b2d0696accdf354b0ec421f9782e02cc14156c69e11bfe7297b51520cd6cd",
+      "bytes": 6440
+    }
+  ]
+}

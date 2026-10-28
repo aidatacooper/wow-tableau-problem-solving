@@ -1,0 +1,195 @@
+{
+  "artifact_sha256": "83893921f3dbaa372e88baa3a82f3027e352f1828ddbab242d63efa10fedc379",
+  "status": "pass-with-scoped-runtime-coverage",
+  "sources": [
+    "evidence/cloud-verification.json",
+    "evidence/cloud-csv.json",
+    "inputs/WOW2021_Superstore_Orders.csv"
+  ],
+  "scenario_results": [
+    {
+      "state": "default",
+      "status": "pass",
+      "observed_months": 48,
+      "missing_from_full_calendar": [],
+      "bar_categories": 17,
+      "raw_trend_max_error": "0.005",
+      "author_data_max_error": "3.3333333333333E-10",
+      "bar_max_error": "0.0048333333333333333333333",
+      "first_three_observed": [
+        {
+          "month": "2018-01-01",
+          "sales": "14236.90",
+          "rolling": "14236.90"
+        },
+        {
+          "month": "2018-02-01",
+          "sales": "4519.89",
+          "rolling": "9378.39"
+        },
+        {
+          "month": "2018-03-01",
+          "sales": "55691.01",
+          "rolling": "24815.93"
+        }
+      ],
+      "actual_scope": "initial view"
+    },
+    {
+      "state": "june-2018",
+      "status": "pass",
+      "observed_months": 1,
+      "missing_from_full_calendar": [
+        "2018-01-01",
+        "2018-02-01",
+        "2018-03-01",
+        "2018-04-01",
+        "2018-05-01",
+        "2018-07-01",
+        "2018-08-01",
+        "2018-09-01",
+        "2018-10-01",
+        "2018-11-01",
+        "2018-12-01",
+        "2019-01-01",
+        "2019-02-01",
+        "2019-03-01",
+        "2019-04-01",
+        "2019-05-01",
+        "2019-06-01",
+        "2019-07-01",
+        "2019-08-01",
+        "2019-09-01",
+        "2019-10-01",
+        "2019-11-01",
+        "2019-12-01",
+        "2020-01-01",
+        "2020-02-01",
+        "2020-03-01",
+        "2020-04-01",
+        "2020-05-01",
+        "2020-06-01",
+        "2020-07-01",
+        "2020-08-01",
+        "2020-09-01",
+        "2020-10-01",
+        "2020-11-01",
+        "2020-12-01",
+        "2021-01-01",
+        "2021-02-01",
+        "2021-03-01",
+        "2021-04-01",
+        "2021-05-01",
+        "2021-06-01",
+        "2021-07-01",
+        "2021-08-01",
+        "2021-09-01",
+        "2021-10-01",
+        "2021-11-01",
+        "2021-12-01"
+      ],
+      "bar_categories": 16,
+      "raw_trend_max_error": "0.0032",
+      "author_data_max_error": "0.0000",
+      "bar_max_error": "0.004",
+      "first_three_observed": [
+        {
+          "month": "2018-06-01",
+          "sales": "34595.13",
+          "rolling": "28846.25"
+        }
+      ],
+      "actual_scope": "REST parameter injection"
+    },
+    {
+      "state": "copiers-full",
+      "status": "pass",
+      "observed_months": 32,
+      "missing_from_full_calendar": [
+        "2018-01-01",
+        "2018-02-01",
+        "2018-03-01",
+        "2018-04-01",
+        "2018-06-01",
+        "2018-11-01",
+        "2019-01-01",
+        "2019-02-01",
+        "2019-07-01",
+        "2020-02-01",
+        "2020-03-01",
+        "2020-06-01",
+        "2020-08-01",
+        "2021-02-01",
+        "2021-04-01",
+        "2021-06-01"
+      ],
+      "bar_categories": 1,
+      "raw_trend_max_error": "0.004666666666666666666667",
+      "author_data_max_error": "3.33333333333333E-10",
+      "bar_max_error": "0.002708333333333333333333",
+      "first_three_observed": [
+        {
+          "month": "2018-05-01",
+          "sales": "2999.93",
+          "rolling": "2999.93"
+        },
+        {
+          "month": "2018-07-01",
+          "sales": "559.99",
+          "rolling": "1779.96"
+        },
+        {
+          "month": "2018-08-01",
+          "sales": "1749.97",
+          "rolling": "1769.96"
+        }
+      ],
+      "actual_scope": "REST category filter also applies to Bars"
+    },
+    {
+      "state": "machines-full",
+      "status": "pass",
+      "observed_months": 39,
+      "missing_from_full_calendar": [
+        "2018-01-01",
+        "2018-02-01",
+        "2018-05-01",
+        "2018-07-01",
+        "2018-08-01",
+        "2019-02-01",
+        "2019-03-01",
+        "2019-06-01",
+        "2020-01-01"
+      ],
+      "bar_categories": 1,
+      "raw_trend_max_error": "0.005",
+      "author_data_max_error": "3.33333333333333E-10",
+      "bar_max_error": "0.001479166666666666666667",
+      "first_three_observed": [
+        {
+          "month": "2018-03-01",
+          "sales": "25314.66",
+          "rolling": "25314.66"
+        },
+        {
+          "month": "2018-04-01",
+          "sales": "287.97",
+          "rolling": "12801.31"
+        },
+        {
+          "month": "2018-06-01",
+          "sales": "691.76",
+          "rolling": "8764.80"
+        }
+      ],
+      "actual_scope": "REST category filter also applies to Bars"
+    }
+  ],
+  "browser_interaction_executed": false,
+  "limits": [
+    "Author comparison uses its development Data sheet, not Chart.",
+    "Observed exported monthly marks agree for Copiers and Machines; this is not exhaustive dashboard densification testing.",
+    "REST filters affect Bars directly and do not test native action isolation.",
+    "Drag, min/max selection aggregation, clear, repeated zoom, multi-select and reset remain unverified."
+  ]
+}
