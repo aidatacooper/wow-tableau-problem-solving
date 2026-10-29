@@ -1,12 +1,51 @@
 """Rebuild the advent calendar using extracted data and public cwtwb APIs."""
 from pathlib import Path
-import json, hashlib, importlib.metadata
+import json, hashlib, importlib.metadata, tempfile
 import cwtwb
-from cwtwb import TWBEditor
+from cwtwb import TWBEditor, convert_workbook, read_workbook
 
 HERE = Path(__file__).resolve().parent
 OUTPUTS = HERE / 'outputs'
 DASHBOARD = 'Advent Calendar'
+
+def add_mapped_background(output):
+    """Structural public-API workaround on OUR freshly blank-built document.
+
+    These native nodes are authored from analysis bounds, not read or copied
+    from any reference workbook. Conversion is structural, not a semantic DSL.
+    """
+    image_bytes = (HERE/'inputs/assets/christmas-tree.png').read_bytes()
+    with tempfile.TemporaryDirectory(prefix='advent-native-') as temporary:
+        folder = Path(temporary)
+        native = folder/'own-build.json'
+        convert_workbook(output, native)
+        payload = json.loads(native.read_text(encoding='utf-8'))
+        document = payload['document']['root']
+        datasources = next(n for n in document['children'] if n.get('tag') == 'datasources')
+        datasource = datasources['children'][0]
+        def node(tag, attributes=None, children=None):
+            return {'tag': tag, 'attributes': attributes or {}, 'children': children or []}
+        image = node('mapped-image', {
+            'name': '[Advent Tree Background]', 'caption': 'Christmas tree',
+            'expression': '"Images/christmas-tree.png"',
+        }, [node('mapping', {'x': '[Y]', 'y': '[X]', 'left': '0',
+                            'right': '4', 'bottom': '0', 'top': '6'}),
+            node('image-options', {'lock-aspect-ratio': 'false',
+                                   'show-entire-image': 'false'})])
+        children = datasource['children']
+        index = max(i for i, n in enumerate(children)
+                    if n.get('tag') in {'column', 'column-instance', 'group'}) + 1
+        children.insert(index, node('mapped-images', children=[image]))
+        (folder/'tree.png').write_bytes(image_bytes)
+        payload['resources'].append({
+            'archive_path': 'Images/christmas-tree.png', 'file': 'tree.png',
+            'sha256': hashlib.sha256(image_bytes).hexdigest(),
+        })
+        native.write_text(json.dumps(payload), encoding='utf-8')
+        convert_workbook(native, output, force=True)
+    if read_workbook(output).resources.get('Images/christmas-tree.png') != image_bytes:
+        raise AssertionError('Background resource did not survive public conversion')
+
 
 def build():
     OUTPUTS.mkdir(exist_ok=True)
@@ -49,8 +88,9 @@ def build():
     e.set_active_dashboard(DASHBOARD)
     output=OUTPUTS/'replicated-workbook.twbx'
     e.save(output)
-    provenance={'sdk_version':importlib.metadata.version('cwtwb'),'sdk_module':str(Path(cwtwb.__file__).resolve()),'workbook_sha256':hashlib.sha256(output.read_bytes()).hexdigest()}
-    (OUTPUTS/'build-provenance.json').write_text(json.dumps(provenance,indent=2)+'\n',encoding='utf-8')
+    add_mapped_background(output)
+    provenance={'sdk_version':importlib.metadata.version('cwtwb'),'sdk_module':str(Path(cwtwb.__file__).resolve()),'authoring_route':'blank TWBEditor plus public native-JSON structural conversion workaround','workbook_sha256':hashlib.sha256(output.read_bytes()).hexdigest()}
+    (OUTPUTS/'background-build-provenance.json').write_text(json.dumps(provenance,indent=2)+'\n',encoding='utf-8')
     return output
 
 if __name__=='__main__': print(build())

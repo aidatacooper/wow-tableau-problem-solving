@@ -6339,7 +6339,7 @@
       "functional_status": "partial",
       "visual_status": "not_evaluated",
       "verification_status": "pending",
-      "cwtwb_result": "blocked",
+      "cwtwb_result": "workaround",
       "artifacts": {
         "primary_workbook": "outputs/replicated-workbook.twbx",
         "cloud_author": null,
@@ -6366,6 +6366,11 @@
           "path": "outputs/background-image-probe.twbx",
           "role": "probe",
           "note": "Synthetic merged-SDK capability probe, no author material."
+        },
+        {
+          "path": "outputs/frozen-546ed6e.twbx",
+          "role": "probe",
+          "note": "Exact pre-review frozen primary bytes SHA256 546ed6e1246c09c9a284a32b1ed9b4288121f270bbdfd507049307d8bf613dbc; superseded by structural background implementation."
         }
       ],
       "evidence": [
@@ -6374,12 +6379,16 @@
         "evidence/background-blocker.md",
         "evidence/baseline-verification.json",
         "evidence/retest-verification.json",
-        "outputs/local-verification.json"
+        "outputs/local-verification.json",
+        "evidence/background-workaround.md",
+        "evidence/prior-evidence-preservation.json",
+        "outputs/background-verification.json"
       ],
       "notes": [
         "Original workbook filename 2021_01_12 is a real typo; official challenge date is 2021-11-30.",
         "No Desktop, Cloud, browser, URL navigation, publishing or live event execution performed.",
-        "Released 0.29.0a2 is the final reproducible build target; merged cac8820 retest preserves its own archive."
+        "Released 0.29.0a2 is the final reproducible build target; merged cac8820 retest preserves its own archive.",
+        "Independent review corrected the earlier absolute capability-blocker claim: old probes demonstrate only that Cartesian configure_chart(map_layers=...) ignores the image payload. Public structural conversion provides a working local authoring route; see evidence/background-workaround.md. Prior run reports remain immutable historical evidence."
       ],
       "metadata": "iterations/2021-12-02-ww48-tableau-coaches-favourite-challenges-advent-calendar/case.yaml",
       "metadata_contract": "1.1.0",

@@ -1,4 +1,9 @@
-"""Synthetic public-API background-image capability probe; no author data/assets."""
+"""Narrow historical probe: Cartesian configure_chart map_layers ignores raster.
+
+This does NOT establish SDK incapability: public native-JSON conversion works.
+Use the main builder/verifier for that structural authoring and roundtrip route.
+The old probe artifacts/reports are immutable evidence; new executions use new names.
+"""
 from pathlib import Path
 import tempfile,base64,json,inspect,importlib.metadata
 from cwtwb import TWBEditor
@@ -18,10 +23,10 @@ def build_probe():
         e.configure_chart('Synthetic',mark_type='Circle',columns=['AVG(Horizontal)'],rows=['AVG(Vertical)'],map_layers=[{'name':'synthetic raster','type':'background-image','path':str(image),'x':'Horizontal','y':'Vertical','left':0,'right':4,'bottom':0,'top':6}])
         e.add_calculated_field('Image Category', '"fixture"', 'string', role='dimension', field_type='nominal')
         e.set_shape_palette('Image Category', {'fixture':str(image)}, palette='SyntheticControl')
-        e.save(HERE/'outputs/background-image-probe.twbx')
+        e.save(HERE/'outputs/chart-map-layers-reprobe.twbx')
         methods={n:str(inspect.signature(getattr(TWBEditor,n))) for n in dir(TWBEditor) if not n.startswith('_') and callable(getattr(TWBEditor,n)) and any(t in n for t in ('map','image','shape','chart','style'))}
         caps=[str(c) for c in list_capabilities() if any(t in str(c).lower() for t in ('image','shape','layer','map'))]
         report={'version':importlib.metadata.version('cwtwb'),'expected':'Datasource mapped-images/mapped-image with field-bound rectangle, and portable PNG in package','public_methods':methods,'related_capabilities':caps,'candidate_result':'configure_chart accepts map_layers on Circle; verifier checks whether mapped-image and PNG were emitted'}
-        (HERE/'outputs/background-probe-api.json').write_text(json.dumps(report,indent=2)+'\n',encoding='utf-8')
+        (HERE/'outputs/chart-map-layers-reprobe.json').write_text(json.dumps(report,indent=2)+'\n',encoding='utf-8')
 
 if __name__=='__main__':build_probe()

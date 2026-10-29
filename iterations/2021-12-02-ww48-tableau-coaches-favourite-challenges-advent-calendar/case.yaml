@@ -42,6 +42,10 @@ historical_artifacts:
 - path: outputs/background-image-probe.twbx
   role: probe
   note: Synthetic merged-SDK capability probe, no author material.
+- path: outputs/frozen-546ed6e.twbx
+  role: probe
+  note: Exact pre-review frozen primary bytes SHA256 546ed6e1246c09c9a284a32b1ed9b4288121f270bbdfd507049307d8bf613dbc;
+    superseded by structural background implementation.
 evidence:
 - inputs/source-lock.json
 - evidence/official-challenge.json
@@ -49,12 +53,20 @@ evidence:
 - evidence/baseline-verification.json
 - evidence/retest-verification.json
 - outputs/local-verification.json
+- evidence/background-workaround.md
+- evidence/prior-evidence-preservation.json
+- outputs/background-verification.json
 notes:
 - Original workbook filename 2021_01_12 is a real typo; official challenge date is
   2021-11-30.
 - No Desktop, Cloud, browser, URL navigation, publishing or live event execution performed.
 - Released 0.29.0a2 is the final reproducible build target; merged cac8820 retest
   preserves its own archive.
+- 'Independent review corrected the earlier absolute capability-blocker claim: old
+  probes demonstrate only that Cartesian configure_chart(map_layers=...) ignores the
+  image payload. Public structural conversion provides a working local authoring route;
+  see evidence/background-workaround.md. Prior run reports remain immutable historical
+  evidence.'
 cwtwb:
   tested_version: 0.29.0a2
   runs:
@@ -70,10 +82,16 @@ cwtwb:
     result: blocked
     distribution: PyPI published prerelease; final local build
     evidence: outputs/local-verification.json
+  - version: 0.29.0a2
+    result: workaround
+    distribution: PyPI published prerelease; independent-review correction
+    authoring_route: Public convert_workbook/read_workbook native-JSON structural
+      authoring on own blank-built workbook
+    evidence: outputs/background-verification.json
 analysis_status: completed
 functional_status: partial
 visual_status: not_evaluated
-cwtwb_result: blocked
+cwtwb_result: workaround
 inputs:
   source_lock: inputs/source-lock.json
   data_files:
@@ -96,8 +114,8 @@ acceptance:
     a red/green interpolated palette.
   mode: automated
 - id: url-and-filter-actions
-  description: Year action owns Tree filter, clears to all; URL uses selected challenge;
-    constant highlight retains all ornaments.
+  description: Exact static Year filter command/target/multiselect/clear, URL activation/token,
+    and constant self-highlight bindings; runtime effects remain unverified.
   mode: automated
 - id: portable-assets
   description: Packaged runtime Hyper and embedded shapes match source-locked bytes.
@@ -106,25 +124,27 @@ acceptance:
   description: All emitted formulas, instances, shelves and mark references resolve.
   mode: automated
 - id: negative-mutations
-  description: Wrong data, formulas, sizes, bars, actions and dimensions are rejected.
+  description: Focused mutations reject foreign/unresolved references, local/global
+    inconsistencies, wrong filters/tooltips/actions, reversed size direction, broken
+    mappings and missing/corrupt resources.
   mode: automated
 - id: native-tree-background
-  description: Tree raster maps 0..4 horizontally and 0..6 vertically in the same
-    worksheet; currently blocked.
-  mode: manual
-  evidence: evidence/background-blocker.md
-remaining_work: Add native coordinate-mapped tree background through a public SDK
-  API, then parent Desktop/corpus/rendered interaction review. No live events or visual
-  acceptance claimed.
-blocker: Published 0.29.0a2 and merged cac8820 lack a public Cartesian raster-background
-  mapping/package API; synthetic probe emits neither mapped-image nor PNG.
+  description: Native datasource mapped raster uses numeric Y/X fields and finite
+    0..4/0..6 bounds, packages exact PNG bytes and survives public conversion roundtrip
+    with XSD/reference closure.
+  mode: automated
+remaining_work: Parent Desktop/corpus and rendered interaction review. All required
+  local features including coordinate-mapped tree background are implemented; no runtime,
+  visual parity or live event execution claimed.
 workarounds:
 - Materialize 500 gradient segments per year from raw challenge counts instead of
   author relationship densification/table calculations; independently verify every
   segment.
 - Use one typed union datasource with fixed Kind filters to make the Year dashboard
   action unambiguous.
-capability_gaps:
-- Portable coordinate-mapped raster background bound to arbitrary numeric X/Y datasource
-  fields.
+- Author datasource mapped-images and a resource record through exported convert_workbook/read_workbook
+  native-JSON APIs on the independently blank-built workbook. Numeric bounds come
+  from analysis and PNG from extracted inputs; no author workbook/XML/JSON is read
+  or copied. Structural API workaround, not semantic API pass.
+capability_gaps: []
 related_cwtwb_issues: []

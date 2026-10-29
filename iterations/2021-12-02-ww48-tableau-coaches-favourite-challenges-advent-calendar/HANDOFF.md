@@ -1,42 +1,50 @@
-# Parent handoff
+# Parent handoff — background implementation complete locally
 
-Branch: `t3/ww48-advent-calendar` in `C:/Users/imgwho/.t3/worktrees/wow-tableau-problem-solving/t3-518c0bcc`.
-Base: fetched `origin/main` d52ecab before changes; no unpublished parent history inherited.
-Final commit: use `git rev-parse HEAD` after this handoff commit; exact commit is also returned in the task response.
-Frozen workbook SHA256: `546ed6e1246c09c9a284a32b1ed9b4288121f270bbdfd507049307d8bf613dbc`.
-Builder source SHA256: `8b4721f53b2333a166b887815d9a4fbda8ca8f5be9ba6a3db874c63bcd6bbf17`.
-Full source/evidence hashes: `evidence/frozen-manifest.json`. Local attributes preserve binary/data/evidence bytes and LF Python sources.
+Worktree: `C:/Users/imgwho/.t3/worktrees/wow-tableau-problem-solving/t3-518c0bcc`
+Branch: `t3/ww48-advent-calendar`
+Prior implementation commit: `64f1020bd9e30bfe38818c80391f86bdc77ee536`
+Current commit: returned in task response; `git rev-parse HEAD` after commit.
+Frozen primary SHA256: `264257cd5b710753e4c13ac5f4737d0740af3517e1d659c5a7bd03c8d3aae0b7`
+Builder source SHA256: `977879b5445a1cbb9bd37b4a35b6c3b487154b968a7e5fe6f03bbc201a4c6b91`
+Verifier source SHA256: `fcbb49d67bdc88f271b10f15aa46977c0c0105ed6a449a7002a0d5ee4590eea3`
+All source/evidence hashes: `evidence/frozen-background-manifest.json`.
 
-## Result
+## Current result
 
-Runnable maximal implementation, with a demonstrated generic capability blocker: native coordinate-mapped tree background is unavailable in released 0.29.0a2 and merged cac8820. **The generated Tree has ornaments/star but no tree background.** It must not be called a complete replication. Both sheets, custom shapes, fixed axes, day labels/tooltips, 500-segment gradients, count labels, same-datasource filter/select/clear action, URL action, constant self-highlight, help and 1000×800 layout are implemented and statically verified. No live actions or rendered correctness claimed. All 83 repo tests and local gates pass. Archived baseline/retest artifacts and synthetic probes are declared role=probe.
+The native mapped tree background is implemented on released **0.29.0a2** through exported `convert_workbook` / `read_workbook`. This is a **structural public-API workaround**, not a semantic API pass. The builder converts only its own newly blank-built workbook, independently authors mapping Y=horizontal 0..4 and X=vertical 0..6, packages the extracted PNG, and converts back. No author TWB/TWBX/XML/JSON is read or copied. No SDK edit is needed.
 
-## Exact local commands (PowerShell, from worktree root)
+Tree + Bar, portable bauble/star shapes, larger-star category sizing, fixed viewport, countdown labels/tooltips, gradients/count labels, URL/filter/self-highlight actions, help and layout are all locally implemented. Static contracts do not prove rendered alignment or no-grey/live behavior. Metadata remains functional `partial`, visual `not_evaluated`, SDK `workaround`, awaiting parent runtime gates.
+
+## Evidence and correction
+
+The previous absolute incapability conclusion was incorrect. The old probe tested only Cartesian `configure_chart(map_layers=...)`; public structural conversion works. `evidence/background-workaround.md` corrects that interpretation while preserving prior evidence bytewise. Old `evidence/background-blocker.md` is historical, not the current conclusion.
+
+Original frozen SHA256 546ed6e1246c09c9a284a32b1ed9b4288121f270bbdfd507049307d8bf613dbc is `outputs/frozen-546ed6e.twbx`. All old run entries and reports remain unchanged, including outputs/local-verification.json and outputs/build-provenance.json. The new run is appended and reports to outputs/background-verification.json and outputs/background-build-provenance.json. The prior manifest remains historical at commit 64f1020; its old primary is now the archive. `evidence/prior-evidence-preservation.json` binds old outputs/evidence, and `--historical` checks them separately.
+
+## Local results
+
+- Metadata/source-lock/public-API phase boundary and strict XSD: PASS.
+- Raw Hyper oracle: 24 challenges + star; counts 10/3/5/6; all 2000 segments and 2025 runtime rows reconcile.
+- Mapping types/bounds/resource closure and public JSON/TWBX roundtrip: PASS; exact PNG/Hyper bytes retained.
+- Strong reference/definition/tooltip/Kind/action/category-direction contracts: PASS; **43 negative mutations rejected**.
+- **83 repository tests pass**; catalogue consistent; disposable-copy fresh rebuild passes with all historical workbooks removed first.
+- Historical bytes, append-only run history and staged source hashes verified.
+
+## Reproduction commands (PowerShell, repository root)
 
 ```powershell
 $env:PYTHONPATH='C:/Users/imgwho/Desktop/project/wow-tableau-problem-solving/scratch/sdk-release-0.29.0a2'
 $env:CWTWB_SRC=$env:PYTHONPATH
 $case='iterations/2021-12-02-ww48-tableau-coaches-favourite-challenges-advent-calendar'
-python "$case/build_replication.py"
-python "$case/verify_replication.py"
-python "$case/probe_background.py"
-python "$case/verify_replication.py" --historical
-python scripts/case_catalogue.py --write
 python scripts/validate_iteration.py $case
+python "$case/verify_replication.py" --historical
 python -m unittest discover -s tests -v
+python scripts/case_catalogue.py
 python -c "from pathlib import Path; from scripts.validate_iteration import run_case_scripts_isolated; run_case_scripts_isolated(Path('$case').resolve())"
 ```
 
-Commands that rebuild replace UUIDs/hashes: validate before freezing; after freeze prefer the disposable-copy validation command. The default verifier requires only a fresh primary workbook; `--historical` separately checks archived hashes and synthetic probes. CI deletes historical TWBX files before its fresh verifier, which passes. Distribution provenance does not require a local SDK git checkout. Requirements pins the published prerelease; no global SDK change was made.
+The first command rebuilds and changes UUID/hash. After freeze, use disposable-copy validation to preserve accepted bytes. Default verifier checks only fresh output; `--historical` adds archive checks. Historical reports are never rewritten. `probe_background.py` is now explicitly a narrow chart-map-layers probe and uses new output names if rerun; it is not a capability blocker test.
 
-Merged retest uses identical commands with both environment variables set to `C:/Users/imgwho/Desktop/project/wow-tableau-problem-solving/scratch/sdk-installed-cac8820`; its installed direct_url commit was `cac8820f26e703c3858253adfa21efd989eb8a78`, despite package metadata retaining 0.29.0a2. Final primary output was rebuilt using released a2 after that retest.
+## Remaining parent gates
 
-## Remaining parent work
-
-1. Resolve the reusable mapped-image API gap described in `evidence/background-blocker.md`; generic synthetic repro is ready. Parent owns SDK change/PR. Tree mapping: Y horizontal 0–4, X vertical 0–6; viewport horizontal 0–4, vertical 0–7. Same worksheet requirement forbids a dashboard image workaround.
-2. Independent different-model review of implementation/oracle and emitted interaction contracts.
-3. Serialized Desktop build/load (explicit SDK source) and full corpus gate. FAIL/UNKNOWN are not acceptance. Then render and inspect actual gradient continuity, labels, star sizing, tree coordinate alignment and fixed bounds.
-4. Validate year filtering (10/3/5/6 ornaments), multiselect, clear restoring star+24 ornaments, no-grey behavior and tooltips. Challenge links are implemented but **remain unexecuted**; inspect URL payloads without navigation unless authorized to run that test. User MFA remains unavailable; no live events claimed.
-5. Rebuild/revalidate/refreeze after any SDK fix, then parent-owned review/push/PR. Do not mark replicated before required runtime gates.
-
-Official challenge publication date verified as **2021-11-30**, not the workbook filename's erroneous January date. Evidence is `evidence/official-challenge.json`.
+Independent review of the structural workaround and strengthened verifier; serialized Desktop LOADED and corpus checks with explicit SDK source; rendered tree mapping/viewport, category mark sizes, gradient continuity and text/layout inspection; year select/multiselect/clear, tooltip and no-grey interaction testing. Inspect challenge URL payloads without opening external pages unless authorized to execute that runtime test. No browser/Desktop/Cloud/live events, SDK edits, push or PR were performed here. Parent owns publish/review workflow and final status promotion.
