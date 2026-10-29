@@ -1,0 +1,113 @@
+{
+  "status": "locally_verified_candidate_runtime_pending",
+  "worktree": "C:\\Users\\imgwho\\.t3\\worktrees\\wow-tableau-problem-solving\\t3-e9766ee2",
+  "branch": "t3/ww46-difference-chart",
+  "preserved_wip_commit": "6fc9f4b5d4e7d7ec87ebf9f3b4c1b4aa8c9fc332",
+  "prior_frozen_case_commit": "5f87f6b9650ab2d35290cc5bcf300a36aaeda160",
+  "frozen_artifact": "outputs/replicated-workbook.twbx",
+  "frozen_sha256": "05fd5ec88e53b276ece8dcc69e9deea26fdb4845f653539453199dcb3575031c",
+  "sdk_version": "0.29.0a2",
+  "sdk_commit": "cac8820f26e703c3858253adfa21efd989eb8a78",
+  "sdk_module": "C:\\Users\\imgwho\\Desktop\\project\\cwtwb-three-20261029\\src\\cwtwb\\__init__.py",
+  "sdk_source": "C:\\Users\\imgwho\\Desktop\\project\\cwtwb-three-20261029\\src",
+  "sdk_lifecycle": {
+    "pr": "https://github.com/aidatacooper/cwtwb/pull/23",
+    "status": "merged",
+    "merge_sha": "54784b4c09018bc9866337fb352f59ccb6753100",
+    "exact_tested_head_ci": "passed per parent update",
+    "tested_head_reachable_on_main": true,
+    "note": "No source switch or rebuild merely for merge SHA. Candidate evidence records local testing scope; parent owns final requirements pin. Installed distribution metadata is not source identity; source pyproject declares 0.29.0a2."
+  },
+  "environment": {
+    "PYTHONPATH": "C:/Users/imgwho/Desktop/project/cwtwb-three-20261029/src",
+    "CWTWB_SRC": "C:/Users/imgwho/Desktop/project/cwtwb-three-20261029/src",
+    "PYTHONUTF8": "1"
+  },
+  "commands": [
+    "& iterations/2021-11-18-ww46-can-you-recreate-this-difference-chart/run_local.ps1",
+    "python scripts/case_catalogue.py --write",
+    "python iterations\\2021-11-18-ww46-can-you-recreate-this-difference-chart\\verify_replication.py --candidate-probe",
+    "python scripts/validate_iteration.py iterations\\2021-11-18-ww46-can-you-recreate-this-difference-chart",
+    "python -m unittest discover -s tests -v",
+    "python scripts/validate_iteration.py iterations\\2021-11-18-ww46-can-you-recreate-this-difference-chart --metadata-only"
+  ],
+  "local_results": {
+    "metadata": "PASS",
+    "source_locks": "PASS",
+    "phase_boundary_public_api": "PASS",
+    "xsd_strict_errors": [],
+    "xsd_compatibility_warnings": [
+      "<string>:2:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'workbook': Missing child element(s). Expected is one of ( referenced-extensions, explain-data )."
+    ],
+    "case_verifier": "PASS 9994 raw rows, nine numerical groups, future-year/null cases, 15 rejected mutations",
+    "sort_filter": "PASS required four-item manual order with unchanged three-member filter",
+    "reference_closure": {
+      "qualified_worksheet_references_checked": 51,
+      "status": "passed"
+    },
+    "synthetic_normalization": {
+      "bare_physical_sales_resolves_to_sum": true,
+      "order_only_reference_declared": true,
+      "deleted_order_only_instance_rejected": true,
+      "duplicate_alias_error": "measure_names_order contains duplicate resolved fields"
+    },
+    "repository_tests": "83 passed; not case/runtime acceptance"
+  },
+  "historical_evidence": {
+    "manifest": "evidence/baseline-a2-e73539d6/preservation.json",
+    "verified_preserved_files": 11,
+    "prior_artifact_sha256": "e73539d6103ca7f2af19ee5a6118741b712e822c070abbd0b3605104b23b1c1e",
+    "parent_desktop": "LOADED only for prior hash",
+    "parent_cloud": "Prior author/replica images preserved; parent reports excessive gap; no browser events executed",
+    "initial_wip_baseline_sha256": "17776e452fefd56109ee22c955c1b8b5e6b282375288864d8086a3d05e1c5b52"
+  },
+  "unresolved": [
+    "Parent final case PR requirements pin/integration; tested SDK head is now eligible. requirements.txt unchanged.",
+    "Candidate Desktop/corpus gate and Cloud recapture; archived runtime evidence belongs only to prior e73539d6.",
+    "Independent rendered comparison of author, prior baseline and candidate: structural coupling never proved the rendered necessity or cause of the gap.",
+    "Real hover/browser interaction checks, MFA and final review/publication remain parent-owned."
+  ],
+  "statuses": {
+    "functional": "partial",
+    "visual": "not_evaluated",
+    "cwtwb_result": "workaround",
+    "workaround": "typed nullable Spacer input retained"
+  },
+  "freeze_policy": "Full local validation preceded freeze. Subsequent SDK lifecycle updates used metadata-only validation, not a rebuild. Hashes cover all case files except this manifest and transient Python/log files. Sources, workbooks, images and evidence bytes are preserved by local .gitattributes. Final commit supplied in handback to avoid self-referential hash.",
+  "file_sha256": {
+    ".gitattributes": "1024c1d55c4bee67649ab95f845aa1fa4305f67242b596e514706bdd906dd6fb",
+    "analysis.md": "430b8e40b4849c593883ed035b7635e9e6dcebcda33d1695cd18b686f66dcd86",
+    "build_replication.py": "6cfe802f792de6e8441a23e3a98c1b8b6cb31ff23ee48152e360013b9caf045d",
+    "case.yaml": "1ff56f3d6da470ef2bafca4290590cbf1f4abc8c9feef8b4fdc54198b47d5652",
+    "evidence/baseline-a2-e73539d6/cloud-request.json": "cac88224e03fd016a6eaf35b1c33f85eec20a4708a84146b8e99226499fdc7d1",
+    "evidence/baseline-a2-e73539d6/cloud-verification.json": "63af98710e1db25188604658f5055d4f085ee35aa754fa0cf096335363196955",
+    "evidence/baseline-a2-e73539d6/desktop-verification.json": "6607f0c9d414069f3296486ae74f81adba65f82fb49b815efb0fb746de8c3060",
+    "evidence/baseline-a2-e73539d6/handoff.json": "e6dc0ce42051b8847633753ab76fa1d3b467f08447babc53f5bfc290fca452f3",
+    "evidence/baseline-a2-e73539d6/local-verification.json": "a97f11398cd5cc70ebeed96ff59a8f9b4348d40a4cf02ac27576c18a37c9f270",
+    "evidence/baseline-a2-e73539d6/preservation.json": "74cf956b5034003f2aeaf4ca2534b1c17f30bfea8d20da66a4089e0f7f5a7b6b",
+    "evidence/baseline-a2-e73539d6/runtime-pending.md": "7eceedb56698ffa4d1e542a7db425e76cb1782b18228ed16d6a4f499d5103c33",
+    "evidence/baseline-a2-e73539d6/sdk-gap.md": "02876da301891b7c0b85a34104ddf0e8a42fd33ce1b26ba98fcd9e9370097e2e",
+    "evidence/baseline-a2-e73539d6/sdk-probe.json": "98cbba6fad6ffa70370d0db0f424db4d97bf48819adfbbc8f2ef92ca79aeca7d",
+    "evidence/candidate-probe.json": "218806c29f110e32c4e850767ffce8e8c6729006da9b04bd29396226f0baf4ef",
+    "evidence/local-verification.json": "b7e2bce67d082cec1f9b80feaa5fa93c78ce91debd31132636a00828ba28ca36",
+    "evidence/runtime-pending.md": "b350ff2e76c7fe3429d12a766305db056e09368353578ee8b47f19de078ced94",
+    "evidence/sdk-gap.md": "c2bc24fad3a0fe188847749ff53591ac95e4d492b5f631f8160c9200ea65e6da",
+    "evidence/sdk-probe.json": "98cbba6fad6ffa70370d0db0f424db4d97bf48819adfbbc8f2ef92ca79aeca7d",
+    "inputs/.gitkeep": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "inputs/federated_1vsdkg41w50rva1bkcpyx0.hyper": "f9efe3a45fef54ea1d5407edf4b9954a65d217544fc794e4a84c3006e10796cb",
+    "inputs/sales-with-spacer.hyper": "0f7a4be4420ec405baefcde025c8138a257e393ddc429ee5ed4d64f4c80e755b",
+    "inputs/source-lock.json": "e47b3bd01d2ea1c18f5e0501fb1781a43cb2067314627b146f76968ec2b5a462",
+    "outputs/.gitkeep": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "outputs/baseline-a2-e73539d6-cloud-author.png": "94bfb2c41d3a626187c21cbadf75e9fa3c5ce1d666a57db1f8191b623c26124a",
+    "outputs/baseline-a2-e73539d6-cloud-replica.png": "f8d395b93bd4c347898ccf899fc5d3b4dbfc9991fc12db00c13b5ad5715a0deb",
+    "outputs/baseline-a2-e73539d6-workbook.twbx": "e73539d6103ca7f2af19ee5a6118741b712e822c070abbd0b3605104b23b1c1e",
+    "outputs/baseline-a2-workbook.twbx": "17776e452fefd56109ee22c955c1b8b5e6b282375288864d8086a3d05e1c5b52",
+    "outputs/replicated-workbook.twbx": "05fd5ec88e53b276ece8dcc69e9deea26fdb4845f653539453199dcb3575031c",
+    "prepare_data.py": "e83f8fa160707078a8205a1d397c54404dffe24c9b3f01314b970b5ca145d84d",
+    "PROGRESS.md": "8df83a707ad4e91cc89aa55209786218be6f5252c90deaa398188891a99385bf",
+    "run_local.ps1": "3a467f832c16a8e53ccec1691dd2ce653c3b614a008b2ef1374db01444dee914",
+    "tests.txt": "f0aed8ea5999ee84fd150d4c08b4ceca432b931159421e4fedbc8900d34cf8e7",
+    "validation.txt": "a18a68dcfaac2b0005b014e5dadf85f69dfafbc458a176342c9e17fe0e3595a5",
+    "verify_replication.py": "fd2a6600af331425674ac899312c72040d7dbb6d546ee9859576cbfc2ed91057"
+  }
+}

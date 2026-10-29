@@ -1,0 +1,123 @@
+{
+  "sdk_version": "0.29.0a2",
+  "sdk_module": "C:\\Users\\imgwho\\Desktop\\project\\wow-tableau-problem-solving\\scratch\\sdk-release-0.29.0a2\\cwtwb\\__init__.py",
+  "artifact_sha256": "e73539d6103ca7f2af19ee5a6118741b712e822c070abbd0b3605104b23b1c1e",
+  "raw_rows": 9994,
+  "groups": [
+    {
+      "category": "Furniture",
+      "segment": "Consumer",
+      "previous": 100360.8822,
+      "current": 110217.5279,
+      "difference": 9856.645700000008,
+      "is_loss": false
+    },
+    {
+      "category": "Office Supplies",
+      "segment": "Corporate",
+      "previous": 54231.249,
+      "current": 92605.785,
+      "difference": 38374.536,
+      "is_loss": false
+    },
+    {
+      "category": "Office Supplies",
+      "segment": "Consumer",
+      "previous": 86269.329,
+      "current": 113520.255,
+      "difference": 27250.926000000007,
+      "is_loss": false
+    },
+    {
+      "category": "Technology",
+      "segment": "Consumer",
+      "previous": 110233.68800000001,
+      "current": 108166.917,
+      "difference": -2066.771000000008,
+      "is_loss": true
+    },
+    {
+      "category": "Office Supplies",
+      "segment": "Home Office",
+      "previous": 43439.404,
+      "current": 39971.135,
+      "difference": -3468.2690000000002,
+      "is_loss": true
+    },
+    {
+      "category": "Technology",
+      "segment": "Corporate",
+      "previous": 75613.772,
+      "current": 88544.955,
+      "difference": 12931.183000000005,
+      "is_loss": false
+    },
+    {
+      "category": "Furniture",
+      "segment": "Corporate",
+      "previous": 77261.3408,
+      "current": 60697.0844,
+      "difference": -16564.256400000006,
+      "is_loss": true
+    },
+    {
+      "category": "Furniture",
+      "segment": "Home Office",
+      "previous": 21279.213,
+      "current": 44472.6569,
+      "difference": 23193.443900000002,
+      "is_loss": false
+    },
+    {
+      "category": "Technology",
+      "segment": "Home Office",
+      "previous": 40516.72,
+      "current": 75018.939,
+      "difference": 34502.219,
+      "is_loss": false
+    }
+  ],
+  "positive_scenarios": [
+    "all nine raw groups",
+    "gain/loss/zero/fraction",
+    "2037 rollover",
+    "missing prior year"
+  ],
+  "rejected_mutations": [
+    "reverse-subtraction",
+    "wrong-year-offset",
+    "hardcoded-latest-year",
+    "zero-is-gain",
+    "missing-category",
+    "wrong-gantt-size",
+    "wrong-label",
+    "static-title",
+    "extra-bar-filter",
+    "changed-packaged-value",
+    "non-null-spacer"
+  ],
+  "contract": {
+    "filter": [
+      "[federated.0ahyg8e1xelf3914bag3r0yukuro].[sum:Calculation_39AF8B09D8A043A3A8B9F5DEA5CF6DE6:qk]",
+      "[federated.0ahyg8e1xelf3914bag3r0yukuro].[sum:Calculation_D97EFE5423964367BD1851F3BA661EDE:qk]",
+      "[federated.0ahyg8e1xelf3914bag3r0yukuro].[min:Spacer:qk]"
+    ],
+    "emitted_order": [
+      "[federated.0ahyg8e1xelf3914bag3r0yukuro].[sum:Calculation_39AF8B09D8A043A3A8B9F5DEA5CF6DE6:qk]",
+      "[federated.0ahyg8e1xelf3914bag3r0yukuro].[sum:Calculation_D97EFE5423964367BD1851F3BA661EDE:qk]",
+      "[federated.0ahyg8e1xelf3914bag3r0yukuro].[min:Spacer:qk]"
+    ],
+    "required_order": [
+      "[federated.0ahyg8e1xelf3914bag3r0yukuro].[sum:Calculation_39AF8B09D8A043A3A8B9F5DEA5CF6DE6:qk]",
+      "[federated.0ahyg8e1xelf3914bag3r0yukuro].[sum:Calculation_D97EFE5423964367BD1851F3BA661EDE:qk]",
+      "[federated.0ahyg8e1xelf3914bag3r0yukuro].[sum:Calculation_F143EAE70BC34B7E98DC3894751CFFE1:qk]",
+      "[federated.0ahyg8e1xelf3914bag3r0yukuro].[min:Spacer:qk]"
+    ],
+    "exact_spacing": "blocked"
+  },
+  "xsd_errors": [],
+  "compatibility_warnings": [
+    "<string>:2:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'workbook': Missing child element(s). Expected is one of ( referenced-extensions, explain-data )."
+  ],
+  "status": "PASS local partial contract; exact spacing BLOCKED; runtime pending"
+}

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "generated_from": "iterations/*/case.yaml",
-  "active_case_count": 111,
+  "active_case_count": 112,
   "legacy_case_ids": {
     "donna-2019-07-18-63877b35d19a": "wow-2019-ww29-high-orders",
     "donna-2019-07-25-59a0a144b25b": "wow-2019-ww30-navigation-kpi",
@@ -6307,6 +6307,95 @@
       "metadata": "iterations/2021-07-15-ww28-can-you-build-an-app-to-visualise-wildfires/case.yaml",
       "metadata_contract": "1.1.0",
       "tested_sdk_version": "0.27.1"
+    },
+    {
+      "case_id": "wow-2021-ww46-can-you-recreate-this-difference-chart",
+      "legacy_case_ids": {},
+      "iteration_id": "2021-11-18-ww46-can-you-recreate-this-difference-chart",
+      "article_date": "2021-11-18",
+      "challenge_year": 2021,
+      "challenge_week": 46,
+      "challenge_date": "2021-11-16",
+      "date_evidence": {
+        "article_date": "Declared article publication date in iteration_id",
+        "challenge": "Explicit challenge_year; week declared in iteration_id",
+        "challenge_date": "Explicit official challenge publication date and URL"
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2021w46/"
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2021/11/18/can-you-recreate-this-difference-chart/",
+          "path": null,
+          "sha256": "48e53ecec7fdeb90dca0e640831c650e9db81f22c1b7d4452482ccd07b64bdf4"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2021_11_17_WW46_Sales_By_Category_And_Segment/2021_11_17_WW46_Sales_By_Category_and_Segment",
+          "filename": "2021_11_17_WW46_Sales_By_Category_And_Segment.twbx",
+          "sha256": "e553ce47222c20bb2d04dfc3d576330c9e7593e2b30b940590e8ababd20feaf9"
+        }
+      },
+      "functional_status": "partial",
+      "visual_status": "acceptable_delta",
+      "verification_status": "pending",
+      "cwtwb_result": "workaround",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [
+        {
+          "path": "outputs/baseline-a2-workbook.twbx",
+          "role": "probe",
+          "note": "Initial baseline build only; not accepted."
+        },
+        {
+          "path": "outputs/baseline-a2-e73539d6-workbook.twbx",
+          "role": "probe",
+          "note": "Frozen e73539d6 locally verified a2 partial; parent Desktop LOADED and Cloud capture attach to this hash only."
+        },
+        {
+          "path": "outputs/baseline-a2-e73539d6-cloud-author.png",
+          "role": "probe",
+          "note": "Parent author Cloud capture retained byte-for-byte; original path mapping in preservation.json."
+        },
+        {
+          "path": "outputs/baseline-a2-e73539d6-cloud-replica.png",
+          "role": "probe",
+          "note": "Parent a2 replica Cloud capture for e73539d6; reported excessive gap. Not evidence for candidate rendering."
+        },
+        {
+          "path": "outputs/pre-label-fix-workbook.twbx",
+          "role": "probe",
+          "note": "Preserved 05fd5ec8 before rendered label correction."
+        }
+      ],
+      "evidence": [
+        "inputs/source-lock.json",
+        "evidence/local-verification.json",
+        "evidence/sdk-probe.json",
+        "evidence/runtime-pending.md",
+        "evidence/candidate-probe.json",
+        "evidence/baseline-a2-e73539d6/preservation.json",
+        "evidence/baseline-a2-e73539d6/desktop-verification.json",
+        "evidence/baseline-a2-e73539d6/cloud-verification.json",
+        "evidence/desktop-corpus.json",
+        "evidence/cloud-verification.json",
+        "evidence/cloud-csv.json",
+        "evidence/label-fix.json"
+      ],
+      "notes": [
+        "Candidate-only local validation: four sort members and three filter members pass. Functional partial and visual not_evaluated await parent recapture/review.",
+        "Parent Desktop LOADED and Cloud captures apply only to archived e73539d6 baseline. Browser interaction was not executed. Parent reported excessive spacer gap; structural coupling did not prove its rendered cause.",
+        "All prior baseline files and parent evidence were preserved before candidate rebuild; evidence/baseline-a2-e73539d6/preservation.json maps original paths to unchanged archived bytes.",
+        "requirements.txt remains unchanged. Parent reports SDK PR23 merged as 54784b4c09018bc9866337fb352f59ccb6753100; tested cac8820 is reachable and eligible for parent final pin integration. Prior candidate run wording records its status when first tested."
+      ],
+      "metadata": "iterations/2021-11-18-ww46-can-you-recreate-this-difference-chart/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.29.0a2"
     },
     {
       "case_id": "wow-2022-ww32-dumbbell-chart",

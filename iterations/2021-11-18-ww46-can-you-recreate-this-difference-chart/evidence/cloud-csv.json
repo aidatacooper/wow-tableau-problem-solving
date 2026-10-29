@@ -1,0 +1,40 @@
+{
+  "captured_at": "2026-10-29T16:01:19.890142+00:00",
+  "source_hashes": {
+    "author": "e553ce47222c20bb2d04dfc3d576330c9e7593e2b30b940590e8ababd20feaf9",
+    "replica": "576d7df325bf48b89696eb2b5628b05fa0ec9599a3faba554efb704271d3edf0"
+  },
+  "scope": "REST worksheet data, no browser events",
+  "records": [
+    {
+      "role": "replica",
+      "view": "Viz",
+      "state": "default",
+      "parameters": {},
+      "filters": {},
+      "path": "outputs/runtime-replica-viz-default.csv",
+      "sha256": "ec8bb39b4fd4597a757c267d2a5f6c442a922a41431ac79ba99b80953e473f18",
+      "bytes": 3625
+    },
+    {
+      "role": "replica",
+      "view": "Sales Difference",
+      "state": "default",
+      "parameters": {},
+      "filters": {},
+      "path": "outputs/runtime-replica-sales-difference-default.csv",
+      "sha256": "ec8bb39b4fd4597a757c267d2a5f6c442a922a41431ac79ba99b80953e473f18",
+      "bytes": 3625
+    },
+    {
+      "role": "author",
+      "view": "Data",
+      "state": "default",
+      "parameters": {},
+      "filters": {},
+      "path": "outputs/runtime-author-data-default.csv",
+      "sha256": "dcffb492ff9db568d0bccc243fcf294392de535ae37c689beff9863872675d57",
+      "bytes": 1485
+    }
+  ]
+}

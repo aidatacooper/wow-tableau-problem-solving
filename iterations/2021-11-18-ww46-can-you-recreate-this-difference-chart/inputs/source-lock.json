@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-29",
+  "source_workbook": {
+    "filename": "2021_11_17_WW46_Sales_By_Category_And_Segment.twbx",
+    "bytes": 68221,
+    "sha256": "e553ce47222c20bb2d04dfc3d576330c9e7593e2b30b940590e8ababd20feaf9",
+    "url": null
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Extracts/federated_1vsdkg41w50rva1bkcpyx0.hyper",
+      "file": "inputs/federated_1vsdkg41w50rva1bkcpyx0.hyper",
+      "bytes": 262144,
+      "sha256": "f9efe3a45fef54ea1d5407edf4b9954a65d217544fc794e4a84c3006e10796cb"
+    }
+  ],
+  "source_workbook_used_by_builder": false,
+  "derived_data": [
+    {
+      "file": "inputs/sales-with-spacer.hyper",
+      "bytes": 262144,
+      "sha256": "0f7a4be4420ec405baefcde025c8138a257e393ddc429ee5ed4d64f4c80e755b",
+      "derived_from": [
+        "inputs/federated_1vsdkg41w50rva1bkcpyx0.hyper"
+      ],
+      "transformation": "prepare_data.py: identical row multiset plus nullable DOUBLE Spacer; no aggregation, dates, or values modified"
+    }
+  ]
+}

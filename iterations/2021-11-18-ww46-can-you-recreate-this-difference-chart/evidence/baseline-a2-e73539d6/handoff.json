@@ -1,0 +1,84 @@
+{
+  "status": "locally_verified_partial_sdk_blocked",
+  "worktree": "C:\\Users\\imgwho\\.t3\\worktrees\\wow-tableau-problem-solving\\t3-e9766ee2",
+  "branch": "t3/ww46-difference-chart",
+  "preserved_wip_commit": "6fc9f4b5d4e7d7ec87ebf9f3b4c1b4aa8c9fc332",
+  "frozen_artifact": "outputs/replicated-workbook.twbx",
+  "frozen_sha256": "e73539d6103ca7f2af19ee5a6118741b712e822c070abbd0b3605104b23b1c1e",
+  "baseline_artifact": "outputs/baseline-a2-workbook.twbx",
+  "baseline_sha256": "17776e452fefd56109ee22c955c1b8b5e6b282375288864d8086a3d05e1c5b52",
+  "baseline_preserved_byte_for_byte": true,
+  "sdk_version": "0.29.0a2",
+  "sdk_module": "C:\\Users\\imgwho\\Desktop\\project\\wow-tableau-problem-solving\\scratch\\sdk-release-0.29.0a2\\cwtwb\\__init__.py",
+  "environment": {
+    "PYTHONPATH": "C:/Users/imgwho/Desktop/project/wow-tableau-problem-solving/scratch/sdk-release-0.29.0a2",
+    "CWTWB_SRC": "C:/Users/imgwho/Desktop/project/wow-tableau-problem-solving/scratch/sdk-release-0.29.0a2",
+    "PYTHONUTF8": "1"
+  },
+  "final_gate_command": "& iterations/2021-11-18-ww46-can-you-recreate-this-difference-chart/run_local.ps1",
+  "commands": [
+    "python scripts/case_intake.py https://donnacoles.home.blog/2021/11/18/can-you-recreate-this-difference-chart/",
+    "python iterations\\2021-11-18-ww46-can-you-recreate-this-difference-chart\\prepare_data.py",
+    "python scripts/case_catalogue.py --write",
+    "python iterations\\2021-11-18-ww46-can-you-recreate-this-difference-chart\\verify_replication.py --sdk-probe",
+    "python scripts/validate_iteration.py iterations\\2021-11-18-ww46-can-you-recreate-this-difference-chart",
+    "python -m unittest discover -s tests -v"
+  ],
+  "local_results": {
+    "metadata": "PASS",
+    "source_hashes": "PASS",
+    "public_sdk_phase_boundary": "PASS",
+    "build": "PASS",
+    "xsd_strict_errors": [],
+    "xsd_compatibility_warnings": [
+      "<string>:2:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'workbook': Missing child element(s). Expected is one of ( referenced-extensions, explain-data )."
+    ],
+    "case_verifier": "PASS implemented partial contract; exact spacing BLOCKED",
+    "raw_rows": 9994,
+    "groups": 9,
+    "rejected_mutations": [
+      "reverse-subtraction",
+      "wrong-year-offset",
+      "hardcoded-latest-year",
+      "zero-is-gain",
+      "missing-category",
+      "wrong-gantt-size",
+      "wrong-label",
+      "static-title",
+      "extra-bar-filter",
+      "changed-packaged-value",
+      "non-null-spacer"
+    ],
+    "repository_tests": "83 passed; distinct from case acceptance"
+  },
+  "unresolved": [
+    "Independent Measure Names manual order/membership requires parent-owned generic SDK capability. Correct filter is PY,CY,Spacer; required sort inserts Gantt-anchor before Spacer. Synthetic repro and suggested regression in evidence/sdk-gap.md.",
+    "Desktop LOADED and corpus are not run; rendered exact spacing and real hover behavior unverified.",
+    "Independent review, live events/MFA, publication and PR are parent-owned and pending."
+  ],
+  "freeze_policy": "Final validation ran before hashing; no build or workbook modification after freeze. Rebuilding generates new UUIDs and invalidates this manifest. All case bytes preserved by local .gitattributes. This JSON excludes its own hash and the final commit id to avoid circularity; final commit is supplied in handback. Empty-directory placeholder bytes were aligned with their existing Git blob; no workbook, source, or validation evidence changed.",
+  "file_sha256": {
+    ".gitattributes": "1024c1d55c4bee67649ab95f845aa1fa4305f67242b596e514706bdd906dd6fb",
+    "analysis.md": "d2ac21a9a68c7600fc3c66ec891cc49578ed41fbec2b2b94dfaaa73516600525",
+    "build_replication.py": "a99950eaa8ec341e9af8d37947bab6ba1108273f2d76f46b6c5453355ca36c85",
+    "case.yaml": "74a18dcfdff6676eb9ea54131c6ada04edd7a68578eb90ab6711ce6d72f0e903",
+    "evidence/local-verification.json": "a97f11398cd5cc70ebeed96ff59a8f9b4348d40a4cf02ac27576c18a37c9f270",
+    "evidence/runtime-pending.md": "7eceedb56698ffa4d1e542a7db425e76cb1782b18228ed16d6a4f499d5103c33",
+    "evidence/sdk-gap.md": "02876da301891b7c0b85a34104ddf0e8a42fd33ce1b26ba98fcd9e9370097e2e",
+    "evidence/sdk-probe.json": "98cbba6fad6ffa70370d0db0f424db4d97bf48819adfbbc8f2ef92ca79aeca7d",
+    "inputs/.gitkeep": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "inputs/federated_1vsdkg41w50rva1bkcpyx0.hyper": "f9efe3a45fef54ea1d5407edf4b9954a65d217544fc794e4a84c3006e10796cb",
+    "inputs/sales-with-spacer.hyper": "0f7a4be4420ec405baefcde025c8138a257e393ddc429ee5ed4d64f4c80e755b",
+    "inputs/source-lock.json": "e47b3bd01d2ea1c18f5e0501fb1781a43cb2067314627b146f76968ec2b5a462",
+    "outputs/.gitkeep": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "outputs/baseline-a2-workbook.twbx": "17776e452fefd56109ee22c955c1b8b5e6b282375288864d8086a3d05e1c5b52",
+    "outputs/replicated-workbook.twbx": "e73539d6103ca7f2af19ee5a6118741b712e822c070abbd0b3605104b23b1c1e",
+    "prepare_data.py": "e83f8fa160707078a8205a1d397c54404dffe24c9b3f01314b970b5ca145d84d",
+    "PROGRESS.md": "8174c5f054bc37d9c456cbc9218548cde5a7e9f7c08ff977b9272b55d26be433",
+    "run_local.ps1": "807a7ca8e478a712a69a34b330bda0b18cb0b18d9639cdb03921d9dc567fc059",
+    "tests.txt": "5421a38898c58fa724521ed6c65ba727766940c580189c761bc99e4013abf297",
+    "validation.txt": "1e95b0d8d0af7273f9010c9b0180772826513e6d465f8f47ddd0f88ae047dc91",
+    "verify_replication.py": "f4438819b0acc1a002cb99ebccd4063a6e391d2dc6902b6defe19fbb2070b400"
+  },
+  "implementation_commit": "2c049179edb8a9ebc4b5207b012b0055fbd59479"
+}
