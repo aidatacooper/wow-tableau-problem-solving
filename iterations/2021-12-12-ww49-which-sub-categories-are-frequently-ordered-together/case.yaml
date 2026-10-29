@@ -26,8 +26,8 @@ source:
 verification_status: pending
 artifacts:
   primary_workbook: outputs/replicated-workbook.twbx
-  cloud_author: null
-  cloud_replica: null
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
 artifact_aliases: {}
 historical_artifacts:
 - path: outputs/role-probe.twbx
@@ -48,6 +48,7 @@ evidence:
 - evidence/header-fix.json
 - evidence/cloud-verification.json
 - evidence/desktop-verification.json
+- evidence/independent-review.json
 notes:
 - Template 0.26.0 blocked entry was scaffold placeholder, not a real run; replaced
   by the first actual 0.29.0a2 baseline.
@@ -65,7 +66,7 @@ cwtwb:
     evidence: evidence/header-fix.json
 analysis_status: completed
 functional_status: partial
-visual_status: not_evaluated
+visual_status: acceptable_delta
 cwtwb_result: workaround
 inputs:
   source_lock: inputs/source-lock.json
@@ -121,9 +122,10 @@ acceptance:
     and pair tooltips show correct dollar amounts, selection does not change domain.'
   mode: manual
   evidence: HANDOFF.md
-remaining_work: Current artifact loads and default Cloud rendering shows complete
-  headers. Independent final visual recheck, corpus Desktop regression and actual
-  hover/selection/clearing remain pending. Functional status stays partial.
+remaining_work: Full corpus Desktop regression is running. Actual hover/tooltip layout,
+  selection/clearing and domain stability after selection remain unverified. Default
+  numerical and visual acceptance passed independent review; functional status stays
+  partial.
 workarounds:
 - Aggregate raw sales per order/category before pair expansion; connect Pairs and
   Contributions via a public logical equality relationship. Preserves counts and avoids

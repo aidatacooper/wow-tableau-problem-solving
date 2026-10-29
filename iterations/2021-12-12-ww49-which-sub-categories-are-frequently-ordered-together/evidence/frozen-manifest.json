@@ -5,7 +5,7 @@
     "build_replication.py": "6cddeb0d10a247d5b5ab8258cbe7588399a5ca6a2f481758ec71ab015c53244c",
     "verify_replication.py": "6d4e3b7a1114a513ba71bf9ce0eeafeab20d845ccfa56199f2690013a60ba7c1",
     "analysis.md": "7d2c5588bcf3b8bb493d616004656f6331306fbf4555fb17f4b47902c383ec42",
-    "case.yaml": "daca733f7714a971b7fcfee4bfb1c89fad2bd50cc440e38f1b1d24d36f0dd3a1",
+    "case.yaml": "0f9e9c681b91cf2c59f263bc7541d9f16b2ddb8f33d01bb95c9e86a8884f0b7b",
     "HANDOFF.md": "5a3b03dd463ffc7f720c5211990e6a28291f97a1795b0aac88f37020489b0b9e",
     "inputs/source-lock.json": "ac25f34b7bad359f9eaac842f5eb2503d1346762715e863f7832e305369439b7",
     "inputs/Ann Jackson Superstore (Ann Jackson Superstore).hyper": "cdb3dde88490f0efa12e9a4834d9be74b330ce95cc6942356d0aa6fbb8f30a6e",
@@ -19,6 +19,7 @@
     "outputs/baseline-822ce844.twbx": "822ce8440be214d935bc34a1bf6106c9840d4a72954406e9834be5a12b31eeb2",
     "evidence/header-fix.json": "d533346de8aa2428cedf65937649b2401dc14d8839a6a24ed5f072c9752e49a2",
     "evidence/cloud-verification.json": "4b32370320a7f2a0e24f348bd35648702b6b71cd8c8aa242d11bedad45572a48",
-    "evidence/desktop-verification.json": "24cc9b90700b1764e042b1b8019c13caa03a5c175bbcf014580486130dc45e58"
+    "evidence/desktop-verification.json": "24cc9b90700b1764e042b1b8019c13caa03a5c175bbcf014580486130dc45e58",
+    "evidence/independent-review.json": "90b9771af628ceb732ec68bee740547f9de29d88db22467c1093dfb1eeaa376d"
   }
 }
