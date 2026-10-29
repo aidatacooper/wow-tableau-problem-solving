@@ -96,3 +96,5 @@ runtime acceptance and independent review, not an unfinished local builder.
 ## Parent header fix
 
 Current frozen SHA: `09708672f5f140fb57f4d07d335c65610d8a5ff9a201378050a11ba508849dde`. Public header sizing fixes independently reported clipping; actual Cloud PNG inspected and full labels visible. Current Desktop LOADED and local verifier passes. Historical baseline and all original evidence preserved under outputs/baseline-822ce844.twbx and evidence/archive-822ce844. Current runtime evidence is in evidence/cloud-verification.json. Final independent visual recheck, corpus and live interactions remain pending.
+
+Final parent gates: current-artifact Desktop LOADED; corpus LOADED=50 FAIL=0 UNKNOWN=0 NOBUILD=0 (evidence/desktop-corpus.json); final independent visual recheck approved. Live hover/selection/clearing unverified; draft PR remains partial.

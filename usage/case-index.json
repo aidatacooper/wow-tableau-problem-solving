@@ -6367,7 +6367,8 @@
         "evidence/header-fix.json",
         "evidence/cloud-verification.json",
         "evidence/desktop-verification.json",
-        "evidence/independent-review.json"
+        "evidence/independent-review.json",
+        "evidence/desktop-corpus.json"
       ],
       "notes": [
         "Template 0.26.0 blocked entry was scaffold placeholder, not a real run; replaced by the first actual 0.29.0a2 baseline.",

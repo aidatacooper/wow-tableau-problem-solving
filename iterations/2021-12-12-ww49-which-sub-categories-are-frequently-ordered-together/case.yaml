@@ -49,6 +49,7 @@ evidence:
 - evidence/cloud-verification.json
 - evidence/desktop-verification.json
 - evidence/independent-review.json
+- evidence/desktop-corpus.json
 notes:
 - Template 0.26.0 blocked entry was scaffold placeholder, not a real run; replaced
   by the first actual 0.29.0a2 baseline.
@@ -122,10 +123,10 @@ acceptance:
     and pair tooltips show correct dollar amounts, selection does not change domain.'
   mode: manual
   evidence: HANDOFF.md
-remaining_work: Full corpus Desktop regression is running. Actual hover/tooltip layout,
-  selection/clearing and domain stability after selection remain unverified. Default
-  numerical and visual acceptance passed independent review; functional status stays
-  partial.
+remaining_work: Real hover/tooltip layout, selection/clearing and domain stability
+  after selection remain unverified because browser MFA is unavailable. Current artifact
+  Desktop LOADED, 50-case corpus LOADED=50 FAIL=0 UNKNOWN=0, independent default numerical
+  and visual acceptance passed. Functional status remains partial.
 workarounds:
 - Aggregate raw sales per order/category before pair expansion; connect Pairs and
   Contributions via a public logical equality relationship. Preserves counts and avoids
