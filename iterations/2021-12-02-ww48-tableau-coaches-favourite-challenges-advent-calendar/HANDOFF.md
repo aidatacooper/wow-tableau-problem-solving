@@ -1,36 +1,37 @@
-# Parent handoff — background implementation complete locally
+# Parent handoff — corrected raster/shape references and gradient
 
 Worktree: `C:/Users/imgwho/.t3/worktrees/wow-tableau-problem-solving/t3-518c0bcc`
 Branch: `t3/ww48-advent-calendar`
-Prior implementation commit: `64f1020bd9e30bfe38818c80391f86bdc77ee536`
-Current commit: returned in task response; `git rev-parse HEAD` after commit.
-Frozen primary SHA256: `264257cd5b710753e4c13ac5f4737d0740af3517e1d659c5a7bd03c8d3aae0b7`
-Builder source SHA256: `977879b5445a1cbb9bd37b4a35b6c3b487154b968a7e5fe6f03bbc201a4c6b91`
-Verifier source SHA256: `fcbb49d67bdc88f271b10f15aa46977c0c0105ed6a449a7002a0d5ee4590eea3`
-All source/evidence hashes: `evidence/frozen-background-manifest.json`.
+Prior implementation commit: `916452897859a394a404ef3014e26196636fd5df`
+New commit: returned in task response; `git rev-parse HEAD` after commit.
+Frozen candidate SHA256: `3980ad6e8e6cbb957d3ba19b0faf870df6482323c5bd4e876d87b5dcfeb1069f`
+Builder source SHA256: `5ea4bce3205d9d60e8745a2e9452ffb710a97e99fcf38b9d13a88eba16bf0993`
+Verifier source SHA256: `dc07ac18044e2cf23e124d3211ce0e8f743ad80806945c082d51148348b4f88c`
+Manifest: `evidence/frozen-render-reference-manifest.json`.
 
-## Current result
+## Result and limits
 
-The native mapped tree background is implemented on released **0.29.0a2** through exported `convert_workbook` / `read_workbook`. This is a **structural public-API workaround**, not a semantic API pass. The builder converts only its own newly blank-built workbook, independently authors mapping Y=horizontal 0..4 and X=vertical 0..6, packages the extracted PNG, and converts back. No author TWB/TWBX/XML/JSON is read or copied. No SDK edit is needed.
+A runnable corrected candidate is built with released **0.29.0a2**. It has **not been rendered**. Parent capture of 264257cd failed: raster absent, default circle/square shapes, barely visible white labels, reversed gradient. Both actual PNGs were inspected; CSVs confirmed the intended data grain. Roundtrip bytes/XSD are no longer treated as evidence that rendering works.
 
-Tree + Bar, portable bauble/star shapes, larger-star category sizing, fixed viewport, countdown labels/tooltips, gradients/count labels, URL/filter/self-highlight actions, help and layout are all locally implemented. Static contracts do not prove rendered alignment or no-grey/live behavior. Metadata remains functional `partial`, visual `not_evaluated`, SDK `workaround`, awaiting parent runtime gates.
+Corrections on our own blank-built native document:
 
-## Evidence and correction
+- Raster expression is `file:Images/christmas-tree.png`, not a quoted path literal; exact extracted PNG remains packaged.
+- Custom-shape style's field now has a **datasource-scope column-instance**, declared from our own worksheet dependency. Explicit embedded asset maps remain; the unregistered `palette="Advent"` attribute is removed.
+- Gradient color uses ascending `AVG(Segment Start)` on a shared 0..10 red-low/green-high domain, reverse=false. Simply reversing the old palette would give wrong short-bar endpoints. Locked inputs remain byte-identical; descending Gradient is unused.
 
-The previous absolute incapability conclusion was incorrect. The old probe tested only Cartesian `configure_chart(map_layers=...)`; public structural conversion works. `evidence/background-workaround.md` corrects that interpretation while preserving prior evidence bytewise. Old `evidence/background-blocker.md` is historical, not the current conclusion.
+`probe_shape_binding.py` produces a two-row synthetic before/after fixture showing the released shape API's omitted datasource binding. See `evidence/shape-binding-reproducer.json`. This is a concrete reference-emission defect; public structural authoring can work around it. No SDK edit or broad incapability claim. Palette removal versus instance registration has not been isolated at runtime, so parent must recapture the complete correction. White labels remain intended for the red ornaments.
 
-Original frozen SHA256 546ed6e1246c09c9a284a32b1ed9b4288121f270bbdfd507049307d8bf613dbc is `outputs/frozen-546ed6e.twbx`. All old run entries and reports remain unchanged, including outputs/local-verification.json and outputs/build-provenance.json. The new run is appended and reports to outputs/background-verification.json and outputs/background-build-provenance.json. The prior manifest remains historical at commit 64f1020; its old primary is now the archive. `evidence/prior-evidence-preservation.json` binds old outputs/evidence, and `--historical` checks them separately.
+## Preserved evidence
 
-## Local results
+`outputs/frozen-264257cd.twbx` is byte-identical to the failed render source. All parent JSON/PNG/CSV captures and previous background reports were archived under `evidence/runtime-264257cd`; preservation.json hashes both originals and archive copies. The original root cloud*.json and PNG/CSV are also untouched and still describe **264257cd**, never the new artifact. Do not present them as current visual acceptance. Original cwtwb.runs records and old report files remain unchanged; a fifth run is appended.
 
-- Metadata/source-lock/public-API phase boundary and strict XSD: PASS.
-- Raw Hyper oracle: 24 challenges + star; counts 10/3/5/6; all 2000 segments and 2025 runtime rows reconcile.
-- Mapping types/bounds/resource closure and public JSON/TWBX roundtrip: PASS; exact PNG/Hyper bytes retained.
-- Strong reference/definition/tooltip/Kind/action/category-direction contracts: PASS; **43 negative mutations rejected**.
-- **83 repository tests pass**; catalogue consistent; disposable-copy fresh rebuild passes with all historical workbooks removed first.
-- Historical bytes, append-only run history and staged source hashes verified.
+The previous handoff is archived at `evidence/handoff-before-render-correction.md`. Existing 546ed6e/baseline/retest artifacts and earlier evidence remain preserved.
 
-## Reproduction commands (PowerShell, repository root)
+## Local gates
+
+Metadata, source locks, public-API phase boundary, strict XSD, catalogue, own-native-document roundtrip and portable asset checks PASS. Raw input oracle reconciles 24 days+star and 10/3/5/6 counts. **83 repository tests pass; 49 mutations are rejected.** The mutations include missing datasource shape binding, unregistered palette, quoted image path, descending gradient and shifted/reversed color domain. Isolated fresh rebuild passes after historical workbooks are removed; historical checks remain a separate mode. Captured CSVs reconcile 25 Tree and 2004 Bar rows for the failed artifact.
+
+## Exact local commands
 
 ```powershell
 $env:PYTHONPATH='C:/Users/imgwho/Desktop/project/wow-tableau-problem-solving/scratch/sdk-release-0.29.0a2'
@@ -43,8 +44,8 @@ python scripts/case_catalogue.py
 python -c "from pathlib import Path; from scripts.validate_iteration import run_case_scripts_isolated; run_case_scripts_isolated(Path('$case').resolve())"
 ```
 
-The first command rebuilds and changes UUID/hash. After freeze, use disposable-copy validation to preserve accepted bytes. Default verifier checks only fresh output; `--historical` adds archive checks. Historical reports are never rewritten. `probe_background.py` is now explicitly a narrow chart-map-layers probe and uses new output names if rerun; it is not a capability blocker test.
+Validation rebuilds and changes UUID/hash; use the isolated command after freeze. New local output reports are `render-reference-verification.json` and `render-reference-build-provenance.json`; older background/local reports are immutable historical evidence. Rerunning the synthetic probe changes its archived fixture hashes, so treat committed fixture/report bytes as a matched set.
 
-## Remaining parent gates
+## Parent gates
 
-Independent review of the structural workaround and strengthened verifier; serialized Desktop LOADED and corpus checks with explicit SDK source; rendered tree mapping/viewport, category mark sizes, gradient continuity and text/layout inspection; year select/multiselect/clear, tooltip and no-grey interaction testing. Inspect challenge URL payloads without opening external pages unless authorized to execute that runtime test. No browser/Desktop/Cloud/live events, SDK edits, push or PR were performed here. Parent owns publish/review workflow and final status promotion.
+Recapture the new frozen candidate to **new capture filenames or archive existing ones first**. Confirm actual tree image, custom red ornaments/yellow star, legible white day labels, star/bauble scale, red-to-green gradients with correct short-bar endpoints and counts. Then review year select/multiselect/clear, URL payload and no-grey behavior. No live event claim is made. Keep functional partial / visual not_evaluated until appropriate runtime acceptance. The globally running corpus was not touched; no Desktop/Cloud/browser launch, SDK edit, push, PR or subagent was used here.

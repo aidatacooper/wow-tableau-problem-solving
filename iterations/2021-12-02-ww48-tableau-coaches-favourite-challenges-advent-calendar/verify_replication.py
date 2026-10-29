@@ -65,7 +65,8 @@ def check_segments(rows,counts):
         require(math.isclose(color,(500-segment)*n/500,abs_tol=1e-12),'gradient color')
     for year,n in counts.items():require(math.isclose(sum(r[3] for r in rows if r[0]==year),n,abs_tol=1e-10),'segments sum to raw count')
 
-def contracts(root,assets,require_background=True):
+def contracts(root,assets,require_background=True,render_references=True):
+    color_field = "Segment Start" if render_references else "Gradient"
     ds=root.find('datasources/datasource');require(ds is not None,'datasource')
     columns={c.get('name'):c for c in ds.findall('column')}
     caption={c.get('caption',c.get('name').strip('[]')):c for c in columns.values()}
@@ -117,7 +118,7 @@ def contracts(root,assets,require_background=True):
     for ws,kind in [(tree,'Tree'),(bar,'Bar')]:require(any(n.get('member')=='"'+kind+'"' for n in ws.findall('.//filter//groupfilter')),'sheet kind filter '+kind)
     require('sum:Segment Start:qk' in bar.findtext('table/cols','') and 'avg:Challenge Count:qk' in bar.findtext('table/cols',''),'explicit bar shelves')
     panes=bar.findall('table/panes/pane');require([p.find('mark').get('class') for p in panes]==['GanttBar','Bar'],'gradient and count layers')
-    require(fieldref(panes[0],'size','sum:Segment Width:qk') and fieldref(panes[0],'lod',col('Segment ID')[1:-1]) and fieldref(panes[0],'color','avg:Gradient:qk'),'gradient segment encodings')
+    require(fieldref(panes[0],'size','sum:Segment Width:qk') and fieldref(panes[0],'lod',col('Segment ID')[1:-1]) and fieldref(panes[0],'color','avg:'+color_field+':qk'),'gradient segment encodings')
     require(fieldref(panes[1],'text','avg:Challenge Count:qk'),'count label not scaffold count')
     require(panes[1].find('.//format[@attr="mark-transparency"]').get('value')=='0','transparent count overlay')
     require(bar.find('.//encoding[@fold="true"]').get('synchronized')=='true','synchronized bar axes')
@@ -139,10 +140,10 @@ def contracts(root,assets,require_background=True):
     text=' '.join(dash.itertext());require('Click an ornament' in text and 'clear the selection' in text and 'CANDRA' in text,'help and attribution')
     for connection in root.findall('.//connection[@class="hyper"]'):
         filename=connection.get('dbname');require(filename in assets and assets[filename]==(HERE/'inputs'/filename).read_bytes(),'portable packaged data')
-    strict_contracts(root,assets,require_background)
+    strict_contracts(root,assets,require_background,render_references)
     return {'native_background_present':bool(root.findall('.//mapped-image'))}
 
-def strict_contracts(root, assets, require_background=True):
+def strict_contracts(root, assets, require_background=True, render_references=True):
     """Exact emitted contracts; these are not proof of Tableau event execution."""
     sources = root.findall('datasources/datasource')
     require(len(sources) == 1, 'exactly one runtime datasource')
@@ -200,6 +201,23 @@ def strict_contracts(root, assets, require_background=True):
         matches = [n for n in bindings[sheet][1].values() if n.get('column') == field(name) and n.get('derivation') == derivation and n.get('type') == kind]
         require(len(matches) == 1, 'unique typed binding '+sheet+'/'+name+'/'+derivation)
         return prefix + matches[0].get('name')
+
+    if render_references:
+        # Datasource palettes must resolve at datasource scope, not merely in a worksheet.
+        style = ds.findall('style/style-rule/encoding[@attr="shape"]')
+        require(len(style) == 1, 'one explicit embedded shape encoding')
+        encoding = style[0]
+        instances = {n.get('name'):n for n in ds.findall('column-instance')}
+        binding = instances.get(encoding.get('field'))
+        require(binding is not None, 'datasource shape style reference must have datasource column-instance')
+        require(dict(binding.attrib) == {'column':field('Day is Null'),'derivation':'None','name':ref('Tree','Day is Null')[len(prefix):],'pivot':'key','type':'nominal'}, 'exact datasource shape instance declaration')
+        require('palette' not in encoding.attrib, 'explicit custom image maps must not name an unregistered palette')
+        embedded = {n.get('name') for n in root.findall('external/shapes/shape')}
+        require(all(n.get('to') in embedded for n in encoding.findall('map')), 'shape palette resolves to embedded asset identities')
+        color = worksheets['Bar'].find('.//encoding[@attr="color"]')
+        require(color.get('field') == ref('Bar','Segment Start','Avg','quantitative'), 'ascending shared gradient coordinate')
+        require(color.get('reverse') == 'false' and color.get('min') == '0' and color.get('max') == '10', 'global red-low green-high gradient domain')
+
     tree, bar = worksheets['Tree'], worksheets['Bar']
     require(tree.findtext('table/cols') == ref('Tree','Y','Avg','quantitative'), 'exact horizontal shelf')
     require(tree.findtext('table/rows') == ref('Tree','X','Avg','quantitative'), 'exact vertical shelf')
@@ -214,7 +232,7 @@ def strict_contracts(root, assets, require_background=True):
         ('lod',ref('Tree','Day Label')), ('lod',ref('Tree','Keep All')), ('lod',ref('Tree','Year')),
         ('tooltip',ref('Tree','Tooltip','Attribute'))]), 'exact Tree mark and tooltip bindings')
     bp = bar.findall('table/panes/pane')
-    require(encodings(bp[0]) == collections.Counter([('color',ref('Bar','Gradient','Avg','quantitative')),('size',ref('Bar','Segment Width','Sum','quantitative')),('lod',ref('Bar','Segment ID'))]), 'exact gradient mark bindings')
+    require(encodings(bp[0]) == collections.Counter([('color',ref('Bar','Segment Start' if render_references else 'Gradient','Avg','quantitative')),('size',ref('Bar','Segment Width','Sum','quantitative')),('lod',ref('Bar','Segment ID'))]), 'exact gradient mark bindings')
     require(encodings(bp[1]) == collections.Counter([('text',ref('Bar','Challenge Count','Avg','quantitative'))]), 'exact count mark bindings')
     def tooltip_runs(pane):
         return [(n.text or '',dict(n.attrib)) for n in pane.findall('customized-tooltip/formatted-text/run')]
@@ -271,7 +289,7 @@ def strict_contracts(root, assets, require_background=True):
         images = root.findall('.//mapped-image')
         require(len(images) == 1 and images[0].getparent().getparent() is ds, 'single datasource-owned background')
         image = images[0]
-        require(image.get('expression') == '"Images/christmas-tree.png"', 'portable background expression')
+        require(image.get('expression') == ('file:Images/christmas-tree.png' if render_references else '"Images/christmas-tree.png"'), 'background file URI, not a quoted string literal')
         require(len(image.findall('mapping')) == 1, 'one background mapping')
         mapping = image.find('mapping')
         require(dict(mapping.attrib) == {'x':'[Y]','y':'[X]','left':'0','right':'4','bottom':'0','top':'6'}, 'background field identity and finite rectangle bounds')
@@ -323,7 +341,15 @@ def verify(historical=False):
     def wrong_action_level(r):
         n=r.find('.//worksheet[@name="Tree"]//filter/groupfilter/groupfilter')
         n.set('level',r.find('datasources/datasource/column[@caption="Keep All"]').get('name'))
+    def remove_shape_binding(r):
+        source=r.find('datasources/datasource')
+        for n in source.findall('column-instance'): source.remove(n)
+    def descending_gradient_binding(r):
+        n=r.find('.//worksheet[@name="Bar"]/table/panes/pane/encodings/color')
+        n.set('column',n.get('column').replace('avg:Segment Start:qk','avg:Gradient:qk'))
     mutations.update({
+        'shape-missing-datasource-binding':remove_shape_binding,
+        'gradient-descending-coordinate':descending_gradient_binding,
         'foreign-mark-datasource':foreign_ref,
         'foreign-tooltip-datasource':foreign_tooltip,
         'wrong-valid-tooltip-binding':wrong_tooltip,
@@ -347,6 +373,10 @@ def verify(historical=False):
         'highlight-activation':set_attr('.//action[@caption="Keep all ornaments highlighted"]/activation','type','on-hover'),
         'highlight-target':set_attr('.//action[@caption="Keep all ornaments highlighted"]/command/param[@name="target"]','value','Bar'),
         'highlight-exclusion':set_attr('.//action[@caption="Keep all ornaments highlighted"]/command/param[@name="exclude"]','value','Tree'),
+        'background-quoted-path-regression':set_attr('.//mapped-image','expression','"Images/christmas-tree.png"'),
+        'shape-unregistered-palette':set_attr('datasources/datasource/style/style-rule/encoding[@attr="shape"]','palette','Advent'),
+        'gradient-reversed-palette':set_attr('.//worksheet[@name="Bar"]//encoding[@attr="color"]','reverse','true'),
+        'gradient-shifted-domain':set_attr('.//worksheet[@name="Bar"]//encoding[@attr="color"]','min','3'),
         'background-swapped-field':set_attr('.//mapped-image/mapping','x','[X]'),
         'background-foreign-field':set_attr('.//mapped-image/mapping','x','[Foreign].[Y]'),
         'background-nonnumeric-field':set_attr('.//mapped-image/mapping','x','[Kind]'),
@@ -390,7 +420,7 @@ def verify(historical=False):
                 require(not any(n.endswith('.png') for n in a),'probe unexpectedly packages a raster')
                 require(r.find('external/shapes/shape') is not None,'valid synthetic image accepted by shape control')
             else:
-                contracts(r,a,require_background=False)
+                contracts(r,a,require_background=False,render_references=False)
                 evidence=HERE/'outputs/local-verification.json' if name.startswith('frozen') else HERE/'evidence'/('baseline-verification.json' if name.startswith('baseline') else 'retest-verification.json')
                 require(json.loads(evidence.read_text(encoding='utf-8'))['workbook_sha256']==digest((HERE/'outputs'/name).read_bytes()),'archived run hash')
             archive.append({'file':name,'sha256':digest((HERE/'outputs'/name).read_bytes())})
@@ -399,8 +429,32 @@ def verify(historical=False):
         for relative, expected in preserved.items():
             actual=HERE/relative if relative != 'outputs/replicated-workbook.twbx' else HERE/'outputs/frozen-546ed6e.twbx'
             require(digest(actual.read_bytes()) == expected, 'prior evidence changed: '+relative)
-    report={'result':'PASS local background, data and structural contracts; runtime pending','workbook_sha256':digest(path.read_bytes()),'oracle':oracle,'contracts':state,'negative_mutations_rejected':len(mutations)+3,'mutation_names':list(mutations)+['gradient-width-data','missing-background-resource','corrupt-background-resource'],'public_conversion_roundtrip':'PASS mapping/contracts/resources/XSD','historical_checked':archive,'acceptance':['raw-data-oracle','tree-marks','gradient-bars','url-and-filter-actions','portable-assets','dependency-closure','negative-mutations','native-tree-background'],'runtime':'NOT RUN; Desktop, rendered alignment and live interactions remain parent gates'}
-    (HERE/'outputs/background-verification.json').write_text(json.dumps(report,indent=2)+'\n',encoding='utf-8')
+    runtime_capture = None
+    if historical:
+        failed = HERE/'outputs/frozen-264257cd.twbx'
+        require(digest(failed.read_bytes()) == '264257cd5b710753e4c13ac5f4737d0740af3517e1d659c5a7bd03c8d3aae0b7', 'failed runtime artifact preserved')
+        oldroot,oldassets=load(failed)
+        contracts(oldroot,oldassets,render_references=False)
+        preservation=json.loads((HERE/'evidence/runtime-264257cd/preservation.json').read_text(encoding='utf-8'))
+        for record in preservation:
+            require(digest((HERE/record['archive']).read_bytes()) == record['sha256'], 'runtime evidence archive bytes '+record['archive'])
+        capture=HERE/'evidence/runtime-264257cd'
+        with (capture/'runtime-replica-tree-default.csv').open(encoding='utf-8-sig',newline='') as f: tree_rows=list(csv.DictReader(f))
+        with (capture/'runtime-replica-bar-default.csv').open(encoding='utf-8-sig',newline='') as f: bar_rows=list(csv.DictReader(f))
+        require(len(tree_rows)==25 and sum(r['Day is Null']=='True' for r in tree_rows)==1, 'captured Tree grain')
+        labels={int(r['Year']):int(r['Avg. Challenge Count']) for r in bar_rows if r['Avg. Challenge Count']}
+        require(labels==counts and len(bar_rows)==2004, 'captured bar counts and segment grain')
+        segment_rows=[r for r in bar_rows if r['Segment ID']]
+        require(all(math.isclose(float(r['Segment Start'])+float(r['Avg. Gradient']),counts[int(r['Year'])]*499/500,abs_tol=1e-9) for r in segment_rows), 'captured gradient coordinate is descending as diagnosed')
+        runtime_capture={'source_sha256':digest(failed.read_bytes()),'tree_rows':25,'bar_rows':2004,'status':'failed image rendering observed by parent; captured numerical grain reconciles'}
+        synthetic=json.loads((HERE/'evidence/shape-binding-reproducer.json').read_text(encoding='utf-8'))
+        for result in synthetic['results']:
+            file=HERE/'outputs'/result['file']
+            require(digest(file.read_bytes())==result['sha256'],'synthetic shape fixture hash')
+            fixture,_=load(file);source=fixture.find('datasources/datasource');enc=source.find('style/style-rule/encoding[@attr="shape"]')
+            require(any(n.get('name')==enc.get('field') for n in source.findall('column-instance')) == result['datasource_binding_present'], 'synthetic missing binding reproduced/repaired')
+    report={'result':'PASS corrected file URI, datasource shape binding and ascending gradient contracts; parent recapture pending','workbook_sha256':digest(path.read_bytes()),'oracle':oracle,'contracts':state,'negative_mutations_rejected':len(mutations)+3,'mutation_names':list(mutations)+['gradient-width-data','missing-background-resource','corrupt-background-resource'],'public_conversion_roundtrip':'PASS mapping/contracts/resources/XSD','historical_checked':archive,'prior_runtime_capture':runtime_capture,'acceptance':['raw-data-oracle','tree-marks','gradient-bars','url-and-filter-actions','portable-assets','dependency-closure','negative-mutations','native-tree-background','shape-datasource-binding','ascending-gradient'],'runtime':'Parent capture of prior 264257cd failed rendering. Corrected artifact has NOT been rendered; parent recapture and live interactions remain pending.'}
+    (HERE/'outputs/render-reference-verification.json').write_text(json.dumps(report,indent=2)+'\n',encoding='utf-8')
     print(json.dumps(report,indent=2))
 
 if __name__=='__main__':

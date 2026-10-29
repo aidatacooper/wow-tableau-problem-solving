@@ -8,6 +8,43 @@ HERE = Path(__file__).resolve().parent
 OUTPUTS = HERE / 'outputs'
 DASHBOARD = 'Advent Calendar'
 
+def repair_shape_bindings(payload):
+    """Bind external custom shapes in our own native document at datasource scope.
+
+    Released set_shape_palette emits a style field reference but omits its
+    datasource column-instance. Build that binding from our worksheet dependency
+    and use explicit embedded-shape maps without an unregistered palette name.
+    """
+    def descend(n):
+        yield n
+        for child in n.get('children', []):
+            yield from descend(child)
+    document = payload['document']['root']
+    datasources = next(n for n in document['children'] if n.get('tag') == 'datasources')
+    for datasource in datasources['children']:
+        children = datasource.get('children', [])
+        encodings = [n for n in descend(datasource) if n.get('tag') == 'encoding'
+                     and n.get('attributes', {}).get('attr') == 'shape']
+        for encoding in encodings:
+            reference = encoding['attributes']['field']
+            existing = [n for n in children if n.get('tag') == 'column-instance'
+                        and n.get('attributes', {}).get('name') == reference]
+            if not existing:
+                candidates = [n for dep in descend(document)
+                              if dep.get('tag') == 'datasource-dependencies'
+                              and dep.get('attributes', {}).get('datasource') == datasource['attributes']['name']
+                              for n in dep.get('children', [])
+                              if n.get('tag') == 'column-instance'
+                              and n.get('attributes', {}).get('name') == reference]
+                if not candidates or any(n['attributes'] != candidates[0]['attributes'] for n in candidates):
+                    raise ValueError('Custom shape needs an unambiguous own-workbook field binding')
+                index = max(i for i,n in enumerate(children)
+                            if n.get('tag') in {'column','column-instance'}) + 1
+                children.insert(index, {'tag':'column-instance',
+                                        'attributes':dict(candidates[0]['attributes'])})
+            encoding['attributes'].pop('palette', None)
+
+
 def add_mapped_background(output):
     """Structural public-API workaround on OUR freshly blank-built document.
 
@@ -20,6 +57,7 @@ def add_mapped_background(output):
         native = folder/'own-build.json'
         convert_workbook(output, native)
         payload = json.loads(native.read_text(encoding='utf-8'))
+        repair_shape_bindings(payload)
         document = payload['document']['root']
         datasources = next(n for n in document['children'] if n.get('tag') == 'datasources')
         datasource = datasources['children'][0]
@@ -27,7 +65,7 @@ def add_mapped_background(output):
             return {'tag': tag, 'attributes': attributes or {}, 'children': children or []}
         image = node('mapped-image', {
             'name': '[Advent Tree Background]', 'caption': 'Christmas tree',
-            'expression': '"Images/christmas-tree.png"',
+            'expression': 'file:Images/christmas-tree.png',
         }, [node('mapping', {'x': '[Y]', 'y': '[X]', 'left': '0',
                             'right': '4', 'bottom': '0', 'top': '6'}),
             node('image-options', {'lock-aspect-ratio': 'false',
@@ -68,9 +106,9 @@ def build():
     e.set_field_format('Challenge Count','*0')
     e.add_worksheet('Bar')
     e.configure_layered_chart('Bar',columns=['SUM(Segment Start)','AVG(Challenge Count)'],rows=['Year'],axis_shelf='columns',fold_axes=True,synchronized=True,hide_axes=True,filters=[{'column':'Kind','values':['Bar']}],panes=[
-        dict(axis='SUM(Segment Start)',mark_type='GanttBar',size='SUM(Segment Width)',color='AVG(Gradient)',detail='Segment ID',tooltip=['Year','AVG(Challenge Count)'],mark_style={'size':'0.95552486181259155','has-stroke':'false'}),
+        dict(axis='SUM(Segment Start)',mark_type='GanttBar',size='SUM(Segment Width)',color='AVG(Segment Start)',detail='Segment ID',tooltip=['Year','AVG(Challenge Count)'],mark_style={'size':'0.95552486181259155','has-stroke':'false'}),
         dict(axis='AVG(Challenge Count)',mark_type='Bar',label='AVG(Challenge Count)',tooltip=['Year','AVG(Challenge Count)'],mark_style={'size':'0.95552486181259155','mark-transparency':'0','mark-labels-show':'true','mark-labels-cull':'false','has-stroke':'false'})])
-    e.configure_worksheet_style('Bar',hide_axes=True,hide_gridlines=True,hide_zeroline=True,hide_borders=True,hide_table_dividers=True,hide_row_field_labels=True,color_style={'field':'AVG(Gradient)','palette':'red_green_diverging_10_0'},axis_style={'encodings':[{'field':'SUM(Segment Start)','scope':'cols','type':'space','attr':'space','class':'0','field-type':'quantitative','range-type':'fixed','min':0,'max':11}]})
+    e.configure_worksheet_style('Bar',hide_axes=True,hide_gridlines=True,hide_zeroline=True,hide_borders=True,hide_table_dividers=True,hide_row_field_labels=True,color_style={'field':'AVG(Segment Start)','palette':'red_green_diverging_10_0','reverse':False,'min':0,'max':10},axis_style={'encodings':[{'field':'SUM(Segment Start)','scope':'cols','type':'space','attr':'space','class':'0','field-type':'quantitative','range-type':'fixed','min':0,'max':11}]})
     for i in (0,1): e.configure_custom_tooltip('Bar',[{'field':'Year','bold':True},{'text':' | '},{'field':'AVG(Challenge Count)'},{'text':' favourite challenges'}],pane_index=i)
     e.set_worksheet_title('Bar','Favourite challenges by year')
     def zone(kind,x,y,w,h,**kw):return dict(type=kind,absolute=dict(x=x,y=y,w=w,h=h),**kw)
@@ -90,7 +128,7 @@ def build():
     e.save(output)
     add_mapped_background(output)
     provenance={'sdk_version':importlib.metadata.version('cwtwb'),'sdk_module':str(Path(cwtwb.__file__).resolve()),'authoring_route':'blank TWBEditor plus public native-JSON structural conversion workaround','workbook_sha256':hashlib.sha256(output.read_bytes()).hexdigest()}
-    (OUTPUTS/'background-build-provenance.json').write_text(json.dumps(provenance,indent=2)+'\n',encoding='utf-8')
+    (OUTPUTS/'render-reference-build-provenance.json').write_text(json.dumps(provenance,indent=2)+'\n',encoding='utf-8')
     return output
 
 if __name__=='__main__': print(build())

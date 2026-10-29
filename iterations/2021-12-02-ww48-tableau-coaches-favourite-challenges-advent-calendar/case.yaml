@@ -46,6 +46,18 @@ historical_artifacts:
   role: probe
   note: Exact pre-review frozen primary bytes SHA256 546ed6e1246c09c9a284a32b1ed9b4288121f270bbdfd507049307d8bf613dbc;
     superseded by structural background implementation.
+- path: outputs/frozen-264257cd.twbx
+  role: probe
+  note: Exact prior mapped-image artifact rejected by parent Cloud render; bound to
+    evidence/runtime-264257cd.
+- path: outputs/shape-binding-before.twbx
+  role: probe
+  note: Synthetic released set_shape_palette missing datasource instance; no author
+    materials.
+- path: outputs/shape-binding-corrected.twbx
+  role: probe
+  note: Same synthetic workbook with own native-JSON datasource-instance repair; static-only,
+    not rendered.
 evidence:
 - inputs/source-lock.json
 - evidence/official-challenge.json
@@ -56,6 +68,10 @@ evidence:
 - evidence/background-workaround.md
 - evidence/prior-evidence-preservation.json
 - outputs/background-verification.json
+- evidence/runtime-264257cd/preservation.json
+- evidence/render-reference-diagnosis.md
+- evidence/shape-binding-reproducer.json
+- outputs/render-reference-verification.json
 notes:
 - Original workbook filename 2021_01_12 is a real typo; official challenge date is
   2021-11-30.
@@ -67,6 +83,13 @@ notes:
   image payload. Public structural conversion provides a working local authoring route;
   see evidence/background-workaround.md. Prior run reports remain immutable historical
   evidence.'
+- Parent Cloud PNGs reject frozen264257cd despite prior static success. Preserve all
+  capture bytes in evidence/runtime-264257cd and outputs/frozen-264257cd.twbx; current
+  artifact awaits recapture. Current root cloud*.json and PNG/CSV files also refer
+  to that failed artifact, not the current build.
+- Gradient color now binds to AVG(Segment Start), increasing left-to-right on fixed
+  0..10 domain; original descending Gradient input remains locked but is unused by
+  the corrected chart.
 cwtwb:
   tested_version: 0.29.0a2
   runs:
@@ -88,6 +111,12 @@ cwtwb:
     authoring_route: Public convert_workbook/read_workbook native-JSON structural
       authoring on own blank-built workbook
     evidence: outputs/background-verification.json
+  - version: 0.29.0a2
+    result: workaround
+    distribution: PyPI published prerelease; parent runtime follow-up
+    authoring_route: 'Own native JSON: file: raster URI, datasource custom-shape instance
+      registration and explicit embedded maps; semantic ascending gradient coordinate'
+    evidence: outputs/render-reference-verification.json
 analysis_status: completed
 functional_status: partial
 visual_status: not_evaluated
@@ -133,9 +162,18 @@ acceptance:
     0..4/0..6 bounds, packages exact PNG bytes and survives public conversion roundtrip
     with XSD/reference closure.
   mode: automated
-remaining_work: Parent Desktop/corpus and rendered interaction review. All required
-  local features including coordinate-mapped tree background are implemented; no runtime,
-  visual parity or live event execution claimed.
+- id: shape-datasource-binding
+  description: Custom shape style resolves a declared datasource column-instance and
+    every map target resolves to an embedded PNG; no unregistered palette name.
+  mode: automated
+- id: ascending-gradient
+  description: Color uses ascending segment coordinate on shared 0..10 nonreversed
+    red/green domain; endpoint order and binding regressions are rejected. Render
+    recapture remains pending.
+  mode: automated
+remaining_work: Parent recapture of corrected artifact and serialized Desktop/corpus/interaction
+  review. Prior frozen 264257cd rendered incorrectly (missing background, default
+  shapes, reversed gradient); current local corrections are not visually verified.
 workarounds:
 - Materialize 500 gradient segments per year from raw challenge counts instead of
   author relationship densification/table calculations; independently verify every
@@ -146,5 +184,9 @@ workarounds:
   native-JSON APIs on the independently blank-built workbook. Numeric bounds come
   from analysis and PNG from extracted inputs; no author workbook/XML/JSON is read
   or copied. Structural API workaround, not semantic API pass.
+- Public native-JSON repair registers the custom-shape style field column-instance
+  at datasource scope from our own worksheet dependency and removes the unregistered
+  named palette attribute. Synthetic released-a2 reproducer in probe_shape_binding.py.
+  Mapped image uses file:Images/christmas-tree.png instead of a quoted literal.
 capability_gaps: []
 related_cwtwb_issues: []

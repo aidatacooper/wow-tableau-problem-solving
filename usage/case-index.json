@@ -6371,6 +6371,21 @@
           "path": "outputs/frozen-546ed6e.twbx",
           "role": "probe",
           "note": "Exact pre-review frozen primary bytes SHA256 546ed6e1246c09c9a284a32b1ed9b4288121f270bbdfd507049307d8bf613dbc; superseded by structural background implementation."
+        },
+        {
+          "path": "outputs/frozen-264257cd.twbx",
+          "role": "probe",
+          "note": "Exact prior mapped-image artifact rejected by parent Cloud render; bound to evidence/runtime-264257cd."
+        },
+        {
+          "path": "outputs/shape-binding-before.twbx",
+          "role": "probe",
+          "note": "Synthetic released set_shape_palette missing datasource instance; no author materials."
+        },
+        {
+          "path": "outputs/shape-binding-corrected.twbx",
+          "role": "probe",
+          "note": "Same synthetic workbook with own native-JSON datasource-instance repair; static-only, not rendered."
         }
       ],
       "evidence": [
@@ -6382,13 +6397,19 @@
         "outputs/local-verification.json",
         "evidence/background-workaround.md",
         "evidence/prior-evidence-preservation.json",
-        "outputs/background-verification.json"
+        "outputs/background-verification.json",
+        "evidence/runtime-264257cd/preservation.json",
+        "evidence/render-reference-diagnosis.md",
+        "evidence/shape-binding-reproducer.json",
+        "outputs/render-reference-verification.json"
       ],
       "notes": [
         "Original workbook filename 2021_01_12 is a real typo; official challenge date is 2021-11-30.",
         "No Desktop, Cloud, browser, URL navigation, publishing or live event execution performed.",
         "Released 0.29.0a2 is the final reproducible build target; merged cac8820 retest preserves its own archive.",
-        "Independent review corrected the earlier absolute capability-blocker claim: old probes demonstrate only that Cartesian configure_chart(map_layers=...) ignores the image payload. Public structural conversion provides a working local authoring route; see evidence/background-workaround.md. Prior run reports remain immutable historical evidence."
+        "Independent review corrected the earlier absolute capability-blocker claim: old probes demonstrate only that Cartesian configure_chart(map_layers=...) ignores the image payload. Public structural conversion provides a working local authoring route; see evidence/background-workaround.md. Prior run reports remain immutable historical evidence.",
+        "Parent Cloud PNGs reject frozen264257cd despite prior static success. Preserve all capture bytes in evidence/runtime-264257cd and outputs/frozen-264257cd.twbx; current artifact awaits recapture. Current root cloud*.json and PNG/CSV files also refer to that failed artifact, not the current build.",
+        "Gradient color now binds to AVG(Segment Start), increasing left-to-right on fixed 0..10 domain; original descending Gradient input remains locked but is unused by the corrected chart."
       ],
       "metadata": "iterations/2021-12-02-ww48-tableau-coaches-favourite-challenges-advent-calendar/case.yaml",
       "metadata_contract": "1.1.0",

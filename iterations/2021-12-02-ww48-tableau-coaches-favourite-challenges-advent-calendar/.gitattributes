@@ -9,3 +9,4 @@ evidence/*.txt text eol=lf
 inputs/*.csv whitespace=cr-at-eol
 outputs/*.json whitespace=cr-at-eol
 evidence/*.json whitespace=cr-at-eol
+evidence/runtime-264257cd/** -text whitespace=cr-at-eol
