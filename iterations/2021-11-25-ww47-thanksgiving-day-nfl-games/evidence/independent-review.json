@@ -1,0 +1,32 @@
+{
+  "review_model": "gpt-6.1-sol",
+  "reviewed_commit": "d895487a563fe608799a2095d850c2f0caba3572",
+  "workbook_sha256": "e1d36ecd1c04c583c86f7f53c1aadbc495d87ed3dd8cc5731b56f45ee88b52a4",
+  "default_numerical_acceptance": "pass",
+  "visual_status": "acceptable_delta",
+  "raw_games": 100,
+  "year_rows": 102,
+  "mutations_rejected": 26,
+  "summaries": {
+    "Dallas": {
+      "games": 49,
+      "record": "28-21-0",
+      "win_percent": 57,
+      "final_cumulative": 7
+    },
+    "Detroit": {
+      "games": 51,
+      "record": "24-27-0",
+      "win_percent": 47,
+      "final_cumulative": -3
+    }
+  },
+  "author_caveat": "Author Data cumulative values match running counts partitioned by team and outcome; 95/100 differ from chronological net results. Do not claim author CSV cumulative equality. Replica validated against raw chronological net outcomes.",
+  "remaining": [
+    "live hover",
+    "selection and clearing",
+    "area tooltip events",
+    "current corpus completion"
+  ],
+  "scope": "Parent-transcribed independent read-only review; no live events executed"
+}

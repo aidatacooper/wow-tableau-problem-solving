@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-29",
+  "source_workbook": {
+    "filename": "2021_11_24_WW47_NFL_Games.twbx",
+    "bytes": 13390,
+    "sha256": "25ab68366dc4f5259de52de2f315a43bf9eb0de3fb4421ee4ae1e4bb6208c53b",
+    "url": null
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Datasources/NFL Thanksgiving Games.hyper",
+      "file": "inputs/NFL Thanksgiving Games.hyper",
+      "bytes": 65536,
+      "sha256": "630d71a04b1821f5b9b8da665b9892e48985737f1fdd61b5fdef301233add5ad"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

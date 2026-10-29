@@ -1,0 +1,4 @@
+REST API validation skipped: TABLEAU_PROJECT_ID is not set.
+REST API validation skipped: TABLEAU_PROJECT_ID is not set.
+REPRODUCED: global fold_axes folds both Circle and Area; cannot request only Circle overlay through layered API.
+REPRODUCED: dual-axis extra row Area pane axis is absent from row shelf.
