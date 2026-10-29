@@ -1,0 +1,81 @@
+{
+  "result": "PASS local implemented-scope checks; BLOCKED native mapped background",
+  "workbook_sha256": "546ed6e1246c09c9a284a32b1ed9b4288121f270bbdfd507049307d8bf613dbc",
+  "oracle": {
+    "counts": {
+      "2018": 10,
+      "2021": 6,
+      "2019": 3,
+      "2020": 5
+    },
+    "tree_marks": 25,
+    "segments": 2000,
+    "selected_days": {
+      "2018": [
+        4,
+        10,
+        13,
+        14,
+        16,
+        18,
+        20,
+        21,
+        23,
+        24
+      ],
+      "2021": [
+        1,
+        7,
+        8,
+        15,
+        19,
+        22
+      ],
+      "2019": [
+        9,
+        12,
+        17
+      ],
+      "2020": [
+        2,
+        3,
+        5,
+        6,
+        11
+      ]
+    },
+    "clear_selection_marks": 25
+  },
+  "contracts": {
+    "native_background_present": false
+  },
+  "negative_mutations_rejected": 11,
+  "historical_checked": [
+    {
+      "file": "background-image-probe.twbx",
+      "sha256": "2d7d0b54015c24be62553696aea5e21ce97f556dbd638b947529f82e4659ec07"
+    },
+    {
+      "file": "baseline-background-probe.twbx",
+      "sha256": "2aadcc03bc5a602dc9349287d513d5ef82dce60ff64676a55b6ec8f5b110189d"
+    },
+    {
+      "file": "baseline-0.29.0a2.twbx",
+      "sha256": "5fe9d6756dc4ec23fcda11ac6a1731898381da9e2b2627004ea85a7478d61753"
+    },
+    {
+      "file": "retest-cac8820.twbx",
+      "sha256": "00237e0d01076211db60de83e036b556a7b4e037570b4febd0ebd21d443a889b"
+    }
+  ],
+  "acceptance": [
+    "raw-data-oracle",
+    "tree-marks",
+    "gradient-bars",
+    "url-and-filter-actions",
+    "portable-assets",
+    "dependency-closure",
+    "negative-mutations"
+  ],
+  "runtime": "NOT RUN; Desktop, rendered alignment and live interactions remain parent gates"
+}

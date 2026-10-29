@@ -1,0 +1,11 @@
+inputs/** -text
+outputs/*.twbx -text
+evidence/*.json -text
+outputs/*.json -text
+*.py text eol=lf
+*.md text eol=lf
+*.yaml text eol=lf
+evidence/*.txt text eol=lf
+inputs/*.csv whitespace=cr-at-eol
+outputs/*.json whitespace=cr-at-eol
+evidence/*.json whitespace=cr-at-eol

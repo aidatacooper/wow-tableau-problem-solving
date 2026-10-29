@@ -1,0 +1,130 @@
+schema_version: 1.1.0
+case_id: wow-2021-ww48-tableau-coaches-favourite-challenges-advent-calendar
+iteration_id: 2021-12-02-ww48-tableau-coaches-favourite-challenges-advent-calendar
+post: https://donnacoles.home.blog/2021/12/02/tableau-coaches-favourite-challenges-advent-calendar/
+legacy_case_ids: {}
+article_date: '2021-12-02'
+challenge_year: 2021
+challenge_week: 48
+challenge_date: '2021-11-30'
+date_evidence:
+  article_date: Declared article publication date in iteration_id
+  challenge: Explicit challenge_year; week declared in iteration_id
+  challenge_date: Official WordPress post 6459 date=2021-11-30T21:43:49; evidence/official-challenge.json;
+    site calendar date, no timezone conversion.
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/tab2021w48/
+  article:
+    url: https://donnacoles.home.blog/2021/12/02/tableau-coaches-favourite-challenges-advent-calendar/
+    path: null
+    sha256: 4115cca55f262c8413d2a0746f217db472c2c27c8a34d23ce6a52dfd488bd403
+  workbook:
+    url: https://public.tableau.com/views/2021_01_12_WW48_Advent_Calendar/2021_12_01_WW48_Advent_Calendar
+    filename: 2021_01_12_WW48_Advent_Calendar.twbx
+    sha256: 1ea52f6b76ad147915f9455f31892e2a41a4003b6cfe1afa88f6b37e86fbe837
+verification_status: pending
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: null
+  cloud_replica: null
+artifact_aliases: {}
+historical_artifacts:
+- path: outputs/baseline-0.29.0a2.twbx
+  role: probe
+  note: Published baseline implemented-scope build; missing background.
+- path: outputs/retest-cac8820.twbx
+  role: probe
+  note: Merged-SDK retest; same missing background.
+- path: outputs/baseline-background-probe.twbx
+  role: probe
+  note: Synthetic published-SDK capability probe, no author material.
+- path: outputs/background-image-probe.twbx
+  role: probe
+  note: Synthetic merged-SDK capability probe, no author material.
+evidence:
+- inputs/source-lock.json
+- evidence/official-challenge.json
+- evidence/background-blocker.md
+- evidence/baseline-verification.json
+- evidence/retest-verification.json
+- outputs/local-verification.json
+notes:
+- Original workbook filename 2021_01_12 is a real typo; official challenge date is
+  2021-11-30.
+- No Desktop, Cloud, browser, URL navigation, publishing or live event execution performed.
+- Released 0.29.0a2 is the final reproducible build target; merged cac8820 retest
+  preserves its own archive.
+cwtwb:
+  tested_version: 0.29.0a2
+  runs:
+  - version: 0.29.0a2
+    result: blocked
+    distribution: PyPI published prerelease
+    evidence: evidence/baseline-verification.json
+  - version: 0.29.0a2
+    result: blocked
+    commit: cac8820f26e703c3858253adfa21efd989eb8a78
+    evidence: evidence/retest-verification.json
+  - version: 0.29.0a2
+    result: blocked
+    distribution: PyPI published prerelease; final local build
+    evidence: outputs/local-verification.json
+analysis_status: completed
+functional_status: partial
+visual_status: not_evaluated
+cwtwb_result: blocked
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/federated_0647kt40xit7hq0zxnps10.hyper
+  - inputs/federated_04jakgc1k2a0xz1dyckmx0.hyper
+  - inputs/gradient.csv
+  - inputs/gradient.hyper
+  - inputs/calendar.hyper
+acceptance:
+- id: raw-data-oracle
+  description: Raw data yields 24 days and one star; counts 10/3/5/6; all 2000 segments
+    and runtime rows reconcile.
+  mode: automated
+- id: tree-marks
+  description: Correct coordinate shelves, fixed bounds, numbered portable baubles
+    and larger star with singular/plural/null tooltip formulas.
+  mode: automated
+- id: gradient-bars
+  description: Four years use 500 Gantt segments each, synchronized count labels and
+    a red/green interpolated palette.
+  mode: automated
+- id: url-and-filter-actions
+  description: Year action owns Tree filter, clears to all; URL uses selected challenge;
+    constant highlight retains all ornaments.
+  mode: automated
+- id: portable-assets
+  description: Packaged runtime Hyper and embedded shapes match source-locked bytes.
+  mode: automated
+- id: dependency-closure
+  description: All emitted formulas, instances, shelves and mark references resolve.
+  mode: automated
+- id: negative-mutations
+  description: Wrong data, formulas, sizes, bars, actions and dimensions are rejected.
+  mode: automated
+- id: native-tree-background
+  description: Tree raster maps 0..4 horizontally and 0..6 vertically in the same
+    worksheet; currently blocked.
+  mode: manual
+  evidence: evidence/background-blocker.md
+remaining_work: Add native coordinate-mapped tree background through a public SDK
+  API, then parent Desktop/corpus/rendered interaction review. No live events or visual
+  acceptance claimed.
+blocker: Published 0.29.0a2 and merged cac8820 lack a public Cartesian raster-background
+  mapping/package API; synthetic probe emits neither mapped-image nor PNG.
+workarounds:
+- Materialize 500 gradient segments per year from raw challenge counts instead of
+  author relationship densification/table calculations; independently verify every
+  segment.
+- Use one typed union datasource with fixed Kind filters to make the Year dashboard
+  action unambiguous.
+capability_gaps:
+- Portable coordinate-mapped raster background bound to arbitrary numeric X/Y datasource
+  fields.
+related_cwtwb_issues: []

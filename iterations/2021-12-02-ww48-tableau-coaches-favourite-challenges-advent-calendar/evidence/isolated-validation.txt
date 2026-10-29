@@ -1,0 +1,66 @@
+C:\Users\imgwho\AppData\Local\Temp\wow-case-validation-naow_mit\lab\iterations\2021-12-02-ww48-tableau-coaches-favourite-challenges-advent-calendar\outputs\replicated-workbook.twbx
+{
+  "result": "PASS local implemented-scope checks; BLOCKED native mapped background",
+  "workbook_sha256": "3389a039dfbed8d0d8847f2c1fd8f6bbb2332cf1904042d7721d6e46aa88c33b",
+  "oracle": {
+    "counts": {
+      "2018": 10,
+      "2021": 6,
+      "2019": 3,
+      "2020": 5
+    },
+    "tree_marks": 25,
+    "segments": 2000,
+    "selected_days": {
+      "2018": [
+        4,
+        10,
+        13,
+        14,
+        16,
+        18,
+        20,
+        21,
+        23,
+        24
+      ],
+      "2021": [
+        1,
+        7,
+        8,
+        15,
+        19,
+        22
+      ],
+      "2019": [
+        9,
+        12,
+        17
+      ],
+      "2020": [
+        2,
+        3,
+        5,
+        6,
+        11
+      ]
+    },
+    "clear_selection_marks": 25
+  },
+  "contracts": {
+    "native_background_present": false
+  },
+  "negative_mutations_rejected": 11,
+  "historical_checked": [],
+  "acceptance": [
+    "raw-data-oracle",
+    "tree-marks",
+    "gradient-bars",
+    "url-and-filter-actions",
+    "portable-assets",
+    "dependency-closure",
+    "negative-mutations"
+  ],
+  "runtime": "NOT RUN; Desktop, rendered alignment and live interactions remain parent gates"
+}
+PASS isolated rebuild (historical workbooks removed before fresh verification)

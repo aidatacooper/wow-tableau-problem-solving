@@ -1,0 +1,16 @@
+[
+  {
+    "file": "baseline-background-probe.twbx",
+    "sha256": "2aadcc03bc5a602dc9349287d513d5ef82dce60ff64676a55b6ec8f5b110189d",
+    "mapped_images": 0,
+    "packaged_pngs": [],
+    "valid_embedded_shape_control": true
+  },
+  {
+    "file": "background-image-probe.twbx",
+    "sha256": "2d7d0b54015c24be62553696aea5e21ce97f556dbd638b947529f82e4659ec07",
+    "mapped_images": 0,
+    "packaged_pngs": [],
+    "valid_embedded_shape_control": true
+  }
+]
