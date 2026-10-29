@@ -1,0 +1,123 @@
+schema_version: 1.1.0
+case_id: wow-2021-ww49-which-sub-categories-are-frequently-ordered-together
+iteration_id: 2021-12-12-ww49-which-sub-categories-are-frequently-ordered-together
+post: https://donnacoles.home.blog/2021/12/12/which-sub-categories-are-frequently-ordered-together/
+legacy_case_ids: {}
+article_date: '2021-12-12'
+challenge_year: 2021
+challenge_week: 49
+challenge_date: '2021-12-08'
+date_evidence:
+  article_date: Declared article publication date in iteration_id
+  challenge: Article explicitly identifies Week 49 of 2021; official post title agrees.
+    Historical 2018 first Tableau link intentionally ignored.
+  challenge_date: Official WordPress post 6494 date 2021-12-08T08:00:59; evidence/official-date.json
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2021w49tab/
+  article:
+    url: https://donnacoles.home.blog/2021/12/12/which-sub-categories-are-frequently-ordered-together/
+    path: null
+    sha256: d9dac3c327b7b3f2870550c86ad3e5b9e3167433074278ac1ea2f242a290bfd0
+  workbook:
+    url: https://public.tableau.com/app/profile/donna.coles/viz/2021_12_08_WW49_FrequencyMatrix/2021_12_08_WW49_Frequency_Matrix
+    filename: 2021_12_08_WW49_FrequencyMatrix.twbx
+    sha256: 13fbad267c5951a30ed56ad45a6698fa7bacab3e281c36142e5573221cf07708
+verification_status: pending
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: null
+  cloud_replica: null
+artifact_aliases: {}
+historical_artifacts:
+- path: outputs/role-probe.twbx
+  role: probe
+  note: 'Pre-runtime baseline probe retained for audit: triangle was emitted with
+    None derivation. Superseded by explicit public table_calc metadata and measure
+    role. Not a passing runtime artifact.'
+evidence:
+- inputs/source-lock.json
+- evidence/official-date.json
+- evidence/baseline-0.29.0a2.json
+- outputs/verification.json
+- HANDOFF.md
+notes:
+- Template 0.26.0 blocked entry was scaffold placeholder, not a real run; replaced
+  by the first actual 0.29.0a2 baseline.
+- No author workbook is copied into the iteration. Historical role-probe is checked
+  separately in the frozen manifest; fresh verifier never requires archives removed
+  by CI.
+cwtwb:
+  tested_version: 0.29.0a2
+  runs:
+  - version: 0.29.0a2
+    result: workaround
+    evidence: evidence/baseline-0.29.0a2.json
+analysis_status: completed
+functional_status: partial
+visual_status: not_evaluated
+cwtwb_result: workaround
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/Ann Jackson Superstore (Ann Jackson Superstore).hyper
+acceptance:
+- id: none-single-category
+  description: NONE contains only orders with exactly one distinct category, including
+    duplicate lines.
+  mode: automated
+- id: distinct-order-counts
+  description: All 306 cell distinct-order memberships agree with an independent raw-line
+    SQL oracle.
+  mode: automated
+- id: contribution-sales
+  description: Both category sales and SUM/COUNTD tooltip means avoid line-join multiplication
+    and retain asymmetric amounts.
+  mode: automated
+- id: missing-pairs
+  description: Empty and diagonal pairs have no real facts; null scaffolds yield blank
+    counts.
+  mode: automated
+- id: emitted-closure
+  description: All formulas, physical fields, dependency declarations, instances and
+    qualified references close.
+  mode: automated
+- id: one-sheet-logical-model
+  description: Exactly one worksheet and logical datasource, two explicit objects
+    and one correct key relationship; no LOD.
+  mode: automated
+- id: triangle-order
+  description: Explicit category shelves, NONE-first numeric sorting and INDEX addressing
+    each category retain only lower triangle.
+  mode: automated
+- id: tooltip-contract
+  description: Optional second title/colon, singular/plural text, distinct count and
+    both formatted averages are bound.
+  mode: automated
+- id: dashboard-contract
+  description: 1100x900 dashboard contains one square matrix, embedded BuPu palette
+    and hover instructions.
+  mode: automated
+- id: adversarial-fixtures
+  description: Duplicate-line, single-category, three-category, asymmetric and absent-pair
+    fixtures pass; negative mutations are rejected.
+  mode: automated
+- id: provenance
+  description: Current artifact hash matches SDK build provenance, supporting a published
+    installed distribution.
+  mode: automated
+- id: desktop-and-hover
+  description: 'Pending parent: Desktop loads, lower triangle and labels render, NONE
+    and pair tooltips show correct dollar amounts, selection does not change domain.'
+  mode: manual
+  evidence: HANDOFF.md
+remaining_work: 'Parent: Desktop LOADED gate and corpus regression, rendered matrix
+  and tooltip/dollar/sizing checks, independent different-model review. No live events
+  have been tested. Then update status and submit PR.'
+workarounds:
+- Aggregate raw sales per order/category before pair expansion; connect Pairs and
+  Contributions via a public logical equality relationship. Preserves counts and avoids
+  duplicate-line sales fanout. Complete NULL-order domain scaffolds preserve alphabetical
+  INDEX positions. See analysis.md.
+capability_gaps: []
+related_cwtwb_issues: []
