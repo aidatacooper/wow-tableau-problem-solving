@@ -1,8 +1,8 @@
 {
-  "captured_at": "2026-10-29T16:58:44.376924+00:00",
+  "captured_at": "2026-10-29T17:09:27.912896+00:00",
   "source_hashes": {
     "author": "1ea52f6b76ad147915f9455f31892e2a41a4003b6cfe1afa88f6b37e86fbe837",
-    "replica": "264257cd5b710753e4c13ac5f4737d0740af3517e1d659c5a7bd03c8d3aae0b7"
+    "replica": "3980ad6e8e6cbb957d3ba19b0faf870df6482323c5bd4e876d87b5dcfeb1069f"
   },
   "scope": "REST worksheet data, no browser events",
   "records": [
@@ -23,8 +23,8 @@
       "parameters": {},
       "filters": {},
       "path": "outputs/runtime-replica-bar-default.csv",
-      "sha256": "6216b92334a71180deed836936a143ea1ac393a3ee69386814380bd587f6074a",
-      "bytes": 51867
+      "sha256": "29c618ba658e791d0af85890c78a8b840b4c7c924d7746a549e4837a5f8eb8f4",
+      "bytes": 51872
     },
     {
       "role": "replica",
@@ -33,8 +33,8 @@
       "parameters": {},
       "filters": {},
       "path": "outputs/runtime-replica-advent-calendar-default.csv",
-      "sha256": "6216b92334a71180deed836936a143ea1ac393a3ee69386814380bd587f6074a",
-      "bytes": 51867
+      "sha256": "ceeb24a2daa949f606d79a88c70daa081493bdf1d724581facb75779d91602de",
+      "bytes": 51872
     }
   ]
 }

@@ -1,7 +1,7 @@
-C:\Users\imgwho\AppData\Local\Temp\wow-case-validation-naow_mit\lab\iterations\2021-12-02-ww48-tableau-coaches-favourite-challenges-advent-calendar\outputs\replicated-workbook.twbx
+C:\Users\imgwho\AppData\Local\Temp\wow-four-isolated-dekaf59r\iterations\2021-12-02-ww48-tableau-coaches-favourite-challenges-advent-calendar\outputs\replicated-workbook.twbx
 {
-  "result": "PASS local implemented-scope checks; BLOCKED native mapped background",
-  "workbook_sha256": "3389a039dfbed8d0d8847f2c1fd8f6bbb2332cf1904042d7721d6e46aa88c33b",
+  "result": "PASS corrected file URI, datasource shape binding and ascending gradient contracts; parent recapture pending",
+  "workbook_sha256": "66e10c100962b0aba093ab423e3e4f4e01cf66ce13cc3266587e8b74b0c575c0",
   "oracle": {
     "counts": {
       "2018": 10,
@@ -48,10 +48,63 @@ C:\Users\imgwho\AppData\Local\Temp\wow-case-validation-naow_mit\lab\iterations\2
     "clear_selection_marks": 25
   },
   "contracts": {
-    "native_background_present": false
+    "native_background_present": true
   },
-  "negative_mutations_rejected": 11,
+  "negative_mutations_rejected": 49,
+  "mutation_names": [
+    "wrong-coordinate",
+    "remove-shapes",
+    "wrong-star-size",
+    "break-formula",
+    "wrong-bar-grain",
+    "remove-gradient",
+    "wrong-clear",
+    "wrong-url",
+    "break-highlight",
+    "wrong-dashboard-size",
+    "shape-missing-datasource-binding",
+    "gradient-descending-coordinate",
+    "foreign-mark-datasource",
+    "foreign-tooltip-datasource",
+    "wrong-valid-tooltip-binding",
+    "local-global-formula-inconsistency",
+    "local-raw-role-inconsistency",
+    "local-raw-type-inconsistency",
+    "categorical-size-reversed",
+    "boolean-category-type",
+    "kind-filter-wrong-level",
+    "kind-filter-wrong-identity",
+    "kind-filter-exclusion",
+    "kind-filter-extra-member",
+    "action-filter-wrong-valid-level",
+    "filter-command-type",
+    "filter-command-target",
+    "filter-multiselect",
+    "filter-source-expression",
+    "url-activation",
+    "url-source",
+    "highlight-source",
+    "highlight-activation",
+    "highlight-target",
+    "highlight-exclusion",
+    "background-quoted-path-regression",
+    "shape-unregistered-palette",
+    "gradient-reversed-palette",
+    "gradient-shifted-domain",
+    "background-swapped-field",
+    "background-foreign-field",
+    "background-nonnumeric-field",
+    "background-wrong-bound",
+    "background-nonfinite-bound",
+    "background-resource-reference",
+    "background-aspect-lock",
+    "gradient-width-data",
+    "missing-background-resource",
+    "corrupt-background-resource"
+  ],
+  "public_conversion_roundtrip": "PASS mapping/contracts/resources/XSD",
   "historical_checked": [],
+  "prior_runtime_capture": null,
   "acceptance": [
     "raw-data-oracle",
     "tree-marks",
@@ -59,8 +112,11 @@ C:\Users\imgwho\AppData\Local\Temp\wow-case-validation-naow_mit\lab\iterations\2
     "url-and-filter-actions",
     "portable-assets",
     "dependency-closure",
-    "negative-mutations"
+    "negative-mutations",
+    "native-tree-background",
+    "shape-datasource-binding",
+    "ascending-gradient"
   ],
-  "runtime": "NOT RUN; Desktop, rendered alignment and live interactions remain parent gates"
+  "runtime": "Parent capture of prior 264257cd failed rendering. Corrected artifact has NOT been rendered; parent recapture and live interactions remain pending."
 }
-PASS isolated rebuild (historical workbooks removed before fresh verification)
+PASS: iterations\2021-12-02-ww48-tableau-coaches-favourite-challenges-advent-calendar

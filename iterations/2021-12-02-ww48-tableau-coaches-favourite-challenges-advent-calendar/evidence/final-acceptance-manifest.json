@@ -1,0 +1,16 @@
+{
+  "workbook_sha256": "3980ad6e8e6cbb957d3ba19b0faf870df6482323c5bd4e876d87b5dcfeb1069f",
+  "sha256": {
+    "case.yaml": "68ee0be0f4fddf488366558769e57c2c39b1c199bff95a44c54acdf630515481",
+    "analysis.md": "db23e578ea0407a105a856e4390bb0263d1879df09f1782d881b44d1508db91d",
+    "HANDOFF.md": "168e3d394513c1d12cfe109d89c3f114f04d510a836589bc45a0cddad47b6ad1",
+    "build_replication.py": "5ea4bce3205d9d60e8745a2e9452ffb710a97e99fcf38b9d13a88eba16bf0993",
+    "verify_replication.py": "dc07ac18044e2cf23e124d3211ce0e8f743ad80806945c082d51148348b4f88c",
+    "outputs/replicated-workbook.twbx": "3980ad6e8e6cbb957d3ba19b0faf870df6482323c5bd4e876d87b5dcfeb1069f",
+    "evidence/cloud-verification.json": "09195be5c1699382d60527d129215df1d2e7bd1b70c9da71144b02631b507b67",
+    "evidence/cloud-csv.json": "42dec76b5f82bf0a1f1bac105306deea3097e5f0021ac66fb2cd7455cbd17792",
+    "evidence/desktop-verification.json": "0f5e569408b2e298f00c94e4d3c202e73867e7e6350d5798730672aaed990202",
+    "evidence/desktop-corpus.json": "814d866e368011c17852a031875088808f4507b8edcfde8051c56e750daa5daa",
+    "evidence/independent-review.json": "90d5faa024a6e3830306c48507a16f4163a226e00749d554b881208b8a32d755"
+  }
+}

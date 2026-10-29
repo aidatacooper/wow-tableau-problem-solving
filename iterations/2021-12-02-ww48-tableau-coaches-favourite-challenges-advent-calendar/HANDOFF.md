@@ -49,3 +49,8 @@ Validation rebuilds and changes UUID/hash; use the isolated command after freeze
 ## Parent gates
 
 Recapture the new frozen candidate to **new capture filenames or archive existing ones first**. Confirm actual tree image, custom red ornaments/yellow star, legible white day labels, star/bauble scale, red-to-green gradients with correct short-bar endpoints and counts. Then review year select/multiselect/clear, URL payload and no-grey behavior. No live event claim is made. Keep functional partial / visual not_evaluated until appropriate runtime acceptance. The globally running corpus was not touched; no Desktop/Cloud/browser launch, SDK edit, push, PR or subagent was used here.
+
+
+## Current parent acceptance (supersedes earlier pending recapture notes)
+
+Current frozen SHA3980ad6e8e6cbb957d3ba19b0faf870df6482323c5bd4e876d87b5dcfeb1069f has Desktop LOADED, corpus 50 LOADED / zero failures or unknowns, and independent default numerical/visual approval. Current cloud-verification.json and cloud-csv.json refer to this SHA. Failed264257cd evidence remains archived in evidence/runtime-264257cd. Background, shapes, alignment and gradient direction are verified in actual PNGs. Live hover/year selection/multiselect/clear/no-grey/URL execution remain unverified; functional partial, visual acceptable_delta, SDK workaround.

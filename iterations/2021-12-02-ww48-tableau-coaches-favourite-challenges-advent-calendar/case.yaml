@@ -26,8 +26,8 @@ source:
 verification_status: pending
 artifacts:
   primary_workbook: outputs/replicated-workbook.twbx
-  cloud_author: null
-  cloud_replica: null
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
 artifact_aliases: {}
 historical_artifacts:
 - path: outputs/baseline-0.29.0a2.twbx
@@ -72,10 +72,14 @@ evidence:
 - evidence/render-reference-diagnosis.md
 - evidence/shape-binding-reproducer.json
 - outputs/render-reference-verification.json
+- evidence/cloud-verification.json
+- evidence/cloud-csv.json
+- evidence/desktop-verification.json
+- evidence/desktop-corpus.json
+- evidence/independent-review.json
 notes:
 - Original workbook filename 2021_01_12 is a real typo; official challenge date is
   2021-11-30.
-- No Desktop, Cloud, browser, URL navigation, publishing or live event execution performed.
 - Released 0.29.0a2 is the final reproducible build target; merged cac8820 retest
   preserves its own archive.
 - 'Independent review corrected the earlier absolute capability-blocker claim: old
@@ -83,13 +87,13 @@ notes:
   image payload. Public structural conversion provides a working local authoring route;
   see evidence/background-workaround.md. Prior run reports remain immutable historical
   evidence.'
-- Parent Cloud PNGs reject frozen264257cd despite prior static success. Preserve all
-  capture bytes in evidence/runtime-264257cd and outputs/frozen-264257cd.twbx; current
-  artifact awaits recapture. Current root cloud*.json and PNG/CSV files also refer
-  to that failed artifact, not the current build.
 - Gradient color now binds to AVG(Segment Start), increasing left-to-right on fixed
   0..10 domain; original descending Gradient input remains locked but is unused by
   the corrected chart.
+- Current Cloud reports and PNG/CSV files bind to 3980ad6e. Failed 264257cd captures
+  remain bytewise in evidence/runtime-264257cd and outputs/frozen-264257cd.twbx.
+- Parent performed current Desktop and Cloud REST capture; independent numerical and
+  visual review passed. No live browser interaction or URL navigation was executed.
 cwtwb:
   tested_version: 0.29.0a2
   runs:
@@ -119,7 +123,7 @@ cwtwb:
     evidence: outputs/render-reference-verification.json
 analysis_status: completed
 functional_status: partial
-visual_status: not_evaluated
+visual_status: acceptable_delta
 cwtwb_result: workaround
 inputs:
   source_lock: inputs/source-lock.json
@@ -171,9 +175,10 @@ acceptance:
     red/green domain; endpoint order and binding regressions are rejected. Render
     recapture remains pending.
   mode: automated
-remaining_work: Parent recapture of corrected artifact and serialized Desktop/corpus/interaction
-  review. Prior frozen 264257cd rendered incorrectly (missing background, default
-  shapes, reversed gradient); current local corrections are not visually verified.
+remaining_work: Real hover, year selection, multiselect, clear, no-grey behavior and
+  URL clicks remain unverified while browser MFA is unavailable. Current default numerical
+  and visual acceptance passed independent review; Desktop LOADED and 50-case corpus
+  passed. Functional status remains partial.
 workarounds:
 - Materialize 500 gradient segments per year from raw challenge counts instead of
   author relationship densification/table calculations; independently verify every
