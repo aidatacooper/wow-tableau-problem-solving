@@ -1,0 +1,15 @@
+{
+  "root_cause": "Case configure_layered_chart omitted columns. SDK serializes shelf from columns independently of pane axis definitions. Empty cols rendered customer names and Abc only.",
+  "classification": "case API misuse; existing published a2 API supports correction",
+  "failed_sha256": "a89757a4311023411ba49afb4e517e86e569b03a4432ff12ae4d7deea9339dab",
+  "runtime_csv_columns": [
+    "Customer ID",
+    "Customer Name",
+    "Sort Key"
+  ],
+  "fix": "Explicit columns MIN(Recency Axis), Orders, SUM(Sales), Average Order Value, MIN(Quantity Axis).",
+  "regression": "Exact shelf/axis order, plus operators, quantitative instance and column dependencies; empty-shelf mutation and preserved actual failure must fail.",
+  "runtime_retest": "pending parent; not performed by child",
+  "sdk_version": "0.29.0a2",
+  "sdk_source": "C:/Users/imgwho/Desktop/project/wow-tableau-problem-solving/scratch/sdk-release-0.29.0a2"
+}

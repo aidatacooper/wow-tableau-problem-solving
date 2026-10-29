@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "generated_from": "iterations/*/case.yaml",
-  "active_case_count": 111,
+  "active_case_count": 112,
   "legacy_case_ids": {
     "donna-2019-07-18-63877b35d19a": "wow-2019-ww29-high-orders",
     "donna-2019-07-25-59a0a144b25b": "wow-2019-ww30-navigation-kpi",
@@ -6307,6 +6307,85 @@
       "metadata": "iterations/2021-07-15-ww28-can-you-build-an-app-to-visualise-wildfires/case.yaml",
       "metadata_contract": "1.1.0",
       "tested_sdk_version": "0.27.1"
+    },
+    {
+      "case_id": "wow-2021-ww45-customer-purchasing-habits-rfm-analysis",
+      "legacy_case_ids": {},
+      "iteration_id": "2021-11-11-ww45-customer-purchasing-habits-rfm-analysis",
+      "article_date": "2021-11-11",
+      "challenge_year": 2021,
+      "challenge_week": 45,
+      "challenge_date": "2021-11-10",
+      "date_evidence": {
+        "article_date": "Declared article publication date in iteration_id",
+        "challenge": "Explicit challenge_year; week declared in iteration_id",
+        "challenge_date": "Explicit official challenge publication date and URL"
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2021w45tab/"
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2021/11/11/customer-purchasing-habits-rfm-analysis/",
+          "path": "posts/2021-11-11-Customer_Purchasing_Habits_(RFM_Analysis).html",
+          "sha256": null
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2021_11_10_WW45_Customer_Purchase_Behaviour_RFM_Analysis/2021_11_10_WW45_RFM_Analysis",
+          "filename": "2021_11_10_WW45_Customer_Purchase_Behaviour_RFM_Analysis.twbx",
+          "sha256": "2162fe1ead72bf441b9ef70d20bc2237f11f13fd1ba6c2cfd0e10a1ea857011a"
+        }
+      },
+      "functional_status": "partial",
+      "visual_status": "acceptable_delta",
+      "verification_status": "pending",
+      "cwtwb_result": "pass",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [
+        {
+          "path": "outputs/baseline-a2-workbook.twbx",
+          "role": "probe",
+          "note": "Published 0.29.0a2 baseline archive; local build and verification only, no Desktop or live-event claim."
+        },
+        {
+          "path": "outputs/runtime-failed-a89757a4-workbook.twbx",
+          "role": "probe",
+          "note": "Parent Desktop LOADED but Cloud screenshot/CSV show all five metric panes absent. Frozen SHA a89757a4311023411ba49afb4e517e86e569b03a4432ff12ae4d7deea9339dab. Evidence copied unchanged to evidence/runtime-failed-a89757a4 before rebuilding."
+        },
+        {
+          "path": "outputs/runtime-failed-00fdb2d0-workbook.twbx",
+          "role": "probe",
+          "note": "Preserved pre-addressing-fix workbook 00fdb2d0; capture bytes archived under evidence/runtime-failed-00fdb2d0 with original provenance intact. Some captures may refer to earlier SHA; inspect original manifests."
+        }
+      ],
+      "evidence": [
+        "inputs/source-lock.json",
+        "evidence/baseline.json",
+        "evidence/verification.json",
+        "evidence/pending-live.md",
+        "evidence/implementation-completion.json",
+        "evidence/runtime-shelf-fix.json",
+        "evidence/runtime-failed-a89757a4/manifest.json",
+        "evidence/rank-addressing-fix.json",
+        "evidence/desktop-corpus.json",
+        "evidence/desktop-verification.json",
+        "evidence/cloud-verification.json",
+        "evidence/cloud-csv.json",
+        "evidence/independent-review.json"
+      ],
+      "notes": [
+        "Published 0.29.0a2 APIs emit all implemented requirements; SDK pass is local API/contract evidence, not runtime acceptance.",
+        "Recency uses MIN at customer grain. Unique product rank follows article prose rather than author RANK formula. Equal-sales product identity has no specified secondary ordering.",
+        "Runtime P1 root cause: omitted columns argument in case builder, despite five pane axes. Fixed using existing public API; no SDK bug or SDK retest required. Prior local SDK pass records are retained as history but failed runtime evidence supersedes their functional implications."
+      ],
+      "metadata": "iterations/2021-11-11-ww45-customer-purchasing-habits-rfm-analysis/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.29.0a2"
     },
     {
       "case_id": "wow-2022-ww32-dumbbell-chart",
