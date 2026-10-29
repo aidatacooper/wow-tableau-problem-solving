@@ -1,0 +1,100 @@
+C:\Users\imgwho\.t3\worktrees\wow-tableau-problem-solving\t3-443858a3\iterations\2021-11-11-ww45-customer-purchasing-habits-rfm-analysis\outputs\replicated-workbook.twbx
+{
+  "acceptance_passed": [
+    "customer-metrics",
+    "fixed-date-boundaries",
+    "sort-contract",
+    "product-tooltip-contract",
+    "dashboard-contract",
+    "negative-controls",
+    "product-rank",
+    "help-toggle",
+    "aligned-headings",
+    "metric-shelf"
+  ],
+  "ranked_customer_products": 9941,
+  "sql_tie_fixture": [
+    [
+      "0",
+      1
+    ],
+    [
+      "1",
+      2
+    ],
+    [
+      "2",
+      3
+    ],
+    [
+      "3",
+      4
+    ],
+    [
+      "4",
+      5
+    ],
+    [
+      "5",
+      6
+    ],
+    [
+      "6",
+      7
+    ],
+    [
+      "7",
+      8
+    ],
+    [
+      "8",
+      9
+    ],
+    [
+      "10",
+      10
+    ],
+    [
+      "9",
+      11
+    ],
+    [
+      "11",
+      12
+    ]
+  ],
+  "customers": 793,
+  "rows": 9994,
+  "active_default": 429,
+  "year_labels": 100,
+  "negative_controls_rejected": [
+    "duplicate-orders",
+    "active-boundary",
+    "weighted-recency-sort",
+    "wrong-date",
+    "year-boundary",
+    "global-tooltip",
+    "reverse-sort",
+    "competition-rank-ties",
+    "wrong-rank-address",
+    "rows-rank-address",
+    "empty-metric-shelf",
+    "missing-toggle",
+    "missing-rank",
+    "misaligned-heading",
+    "rank-eleven",
+    "historical-runtime-empty-shelf"
+  ],
+  "synthetic_recencies": [
+    0,
+    89,
+    90,
+    91,
+    364,
+    365,
+    366
+  ],
+  "workbook_sha256": "ecfec6718a164424800d0c2d73be80419db627e756f63805a1f2a785ae377329",
+  "limitations": "Emitted formula evaluation and XML contracts only; no Tableau render or real event. Top-ten tie ordering unspecified."
+}
+PASS: iterations\2021-11-11-ww45-customer-purchasing-habits-rfm-analysis

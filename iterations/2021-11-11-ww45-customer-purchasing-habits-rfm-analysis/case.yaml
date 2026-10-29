@@ -1,0 +1,152 @@
+schema_version: 1.1.0
+case_id: wow-2021-ww45-customer-purchasing-habits-rfm-analysis
+iteration_id: 2021-11-11-ww45-customer-purchasing-habits-rfm-analysis
+post: posts/2021-11-11-Customer_Purchasing_Habits_(RFM_Analysis).html
+legacy_case_ids: {}
+article_date: '2021-11-11'
+challenge_year: 2021
+challenge_week: 45
+challenge_date: '2021-11-10'
+date_evidence:
+  article_date: Declared article publication date in iteration_id
+  challenge: Explicit challenge_year; week declared in iteration_id
+  challenge_date: Explicit official challenge publication date and URL
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2021w45tab/
+  article:
+    url: https://donnacoles.home.blog/2021/11/11/customer-purchasing-habits-rfm-analysis/
+    path: posts/2021-11-11-Customer_Purchasing_Habits_(RFM_Analysis).html
+    sha256: null
+  workbook:
+    url: https://public.tableau.com/views/2021_11_10_WW45_Customer_Purchase_Behaviour_RFM_Analysis/2021_11_10_WW45_RFM_Analysis
+    filename: 2021_11_10_WW45_Customer_Purchase_Behaviour_RFM_Analysis.twbx
+    sha256: 2162fe1ead72bf441b9ef70d20bc2237f11f13fd1ba6c2cfd0e10a1ea857011a
+verification_status: pending
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts:
+- path: outputs/baseline-a2-workbook.twbx
+  role: probe
+  note: Published 0.29.0a2 baseline archive; local build and verification only, no
+    Desktop or live-event claim.
+- path: outputs/runtime-failed-a89757a4-workbook.twbx
+  role: probe
+  note: Parent Desktop LOADED but Cloud screenshot/CSV show all five metric panes
+    absent. Frozen SHA a89757a4311023411ba49afb4e517e86e569b03a4432ff12ae4d7deea9339dab.
+    Evidence copied unchanged to evidence/runtime-failed-a89757a4 before rebuilding.
+- path: outputs/runtime-failed-00fdb2d0-workbook.twbx
+  role: probe
+  note: Preserved pre-addressing-fix workbook 00fdb2d0; capture bytes archived under
+    evidence/runtime-failed-00fdb2d0 with original provenance intact. Some captures
+    may refer to earlier SHA; inspect original manifests.
+evidence:
+- inputs/source-lock.json
+- evidence/baseline.json
+- evidence/verification.json
+- evidence/pending-live.md
+- evidence/implementation-completion.json
+- evidence/runtime-shelf-fix.json
+- evidence/runtime-failed-a89757a4/manifest.json
+- evidence/rank-addressing-fix.json
+- evidence/desktop-corpus.json
+- evidence/desktop-verification.json
+- evidence/cloud-verification.json
+- evidence/cloud-csv.json
+- evidence/independent-review.json
+notes:
+- Published 0.29.0a2 APIs emit all implemented requirements; SDK pass is local API/contract
+  evidence, not runtime acceptance.
+- Recency uses MIN at customer grain. Unique product rank follows article prose rather
+  than author RANK formula. Equal-sales product identity has no specified secondary
+  ordering.
+- 'Runtime P1 root cause: omitted columns argument in case builder, despite five pane
+  axes. Fixed using existing public API; no SDK bug or SDK retest required. Prior
+  local SDK pass records are retained as history but failed runtime evidence supersedes
+  their functional implications.'
+cwtwb:
+  tested_version: 0.29.0a2
+  runs:
+  - version: 0.29.0a2
+    result: pass
+    evidence: evidence/baseline.json
+  - version: 0.29.0a2
+    result: pass
+    evidence: evidence/implementation-completion.json
+    note: Added native help toggle, displayed unique product rank, rank 1-10 filter
+      and six explicit headings; baseline archive unchanged.
+  - version: 0.29.0a2
+    result: pass
+    evidence: evidence/runtime-shelf-fix.json
+    note: Case API misuse corrected by explicit columns; local structural/numerical
+      checks pass. Replacement runtime recapture pending; prior local pass was not
+      runtime correctness.
+  - version: 0.29.0a2
+    result: pass
+    evidence: evidence/rank-addressing-fix.json
+    note: Public layered chart API emits explicit Product Name addressing and context-qualified
+      rank filter. Local contracts only; parent REST top-ten recapture pending. No
+      11d72eb retest.
+analysis_status: completed
+functional_status: partial
+visual_status: acceptable_delta
+cwtwb_result: pass
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/TEMP_0hqe4ej0o53vlw1ghl4fi0mgozri.hyper
+acceptance:
+- id: customer-metrics
+  description: All 793 customer metrics agree with independent raw Hyper SQL; group
+    by ID.
+  mode: automated
+- id: fixed-date-boundaries
+  description: Reference 2022-01-01; active inclusive at 90 and day/year switch at
+    365, duplicate-order fixtures.
+  mode: automated
+- id: sort-contract
+  description: All five emitted sort expressions evaluate to intended customer keys;
+    descending computed sort targets Customer ID.
+  mode: automated
+- id: product-tooltip-contract
+  description: Customer context precedes top ten by sales; per-customer product aggregates
+    agree with independent SQL.
+  mode: automated
+- id: dashboard-contract
+  description: 1600 by 900 dashboard with five mark panes and two parameter controls.
+  mode: automated
+- id: negative-controls
+  description: Reject wrong/missing addressing, rank filter bounds, empty metric shelf
+    and prior runtime defects; counts in verification.json.
+  mode: automated
+- id: live-events
+  description: 'Parent: Desktop open, all sort/threshold events, product rank tooltip
+    on multiple customers, ?/X help events, headings/scroll alignment and visual review.'
+  mode: manual
+  evidence: evidence/pending-live.md
+- id: product-rank
+  description: Explicit Field/Product Name table calculation addressing and context-qualified
+    rank filter 1-10. SQL expectations only; runtime top-ten execution pending parent.
+  mode: automated
+- id: help-toggle
+  description: Initially hidden Help container has native show/hide button with ?
+    and X, targeting its exact zone ID.
+  mode: automated
+- id: aligned-headings
+  description: Six separate contiguous heading zones cover the 1560-pixel worksheet
+    span with explicit equal widths and matching worksheet sizing.
+  mode: automated
+- id: metric-shelf
+  description: Five quantitative column shelf references match pane axes in order
+    and resolve declared dependencies; historical blank-runtime workbook and empty
+    shelf mutation rejected.
+  mode: automated
+remaining_work: Live hover, selection/parameter changes, help or tooltip events as
+  applicable remain unverified. Default runtime data and visual review passed; Desktop
+  and 50-case corpus passed. Final PR integration pending.
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []
