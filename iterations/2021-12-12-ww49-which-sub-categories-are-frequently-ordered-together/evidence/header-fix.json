@@ -1,0 +1,9 @@
+{
+  "workbook_sha256": "09708672f5f140fb57f4d07d335c65610d8a5ff9a201378050a11ba508849dde",
+  "captured_at": "2026-10-29T16:51:30.251598+00:00",
+  "change": "Column header height 125, row header width 140, header font 9 through public worksheet style API",
+  "parent_visual_inspection": "Actual new Cloud PNG inspected; ACCESSORIES and FURNISHINGS fully displayed on both axes",
+  "desktop": "LOADED first attempt",
+  "local_verifier": "306 cells; 20 synthetic cells; 19 rejected mutations",
+  "live_interactions": false
+}

@@ -1,20 +1,24 @@
 {
   "base_origin_main": "d52ecab0449f7a0d443f22723fb59f7bd479649c",
-  "primary_workbook_sha256": "822ce8440be214d935bc34a1bf6106c9840d4a72954406e9834be5a12b31eeb2",
+  "primary_workbook_sha256": "09708672f5f140fb57f4d07d335c65610d8a5ff9a201378050a11ba508849dde",
   "sha256": {
-    "build_replication.py": "6a2b9ed5f05d4641c2d1ef6e0909803e04b4ab4853cac5e7863bc075c4faa3fc",
+    "build_replication.py": "835f428e6c3c4ed5681eebdc6cb271dfeeec92f13ef865499a6c56d1120177d4",
     "verify_replication.py": "6d4e3b7a1114a513ba71bf9ce0eeafeab20d845ccfa56199f2690013a60ba7c1",
     "analysis.md": "7d2c5588bcf3b8bb493d616004656f6331306fbf4555fb17f4b47902c383ec42",
-    "case.yaml": "a60eb49f04683ad2929c02dd85a5195224c40842df619e882e097482646b0b89",
-    "HANDOFF.md": "2fcd59c320697cb14261bdcf4627818ba6d09f3029204d1dbef4a14600d211e3",
+    "case.yaml": "ff65cdb57da532dde63492eabd15f5a20f8d54f6b29be23a179030ad063a99f4",
+    "HANDOFF.md": "32b111d8d9353f6e4cb5a8c66e0f368c55a65688531af65ffcd3578420bc3359",
     "inputs/source-lock.json": "ac25f34b7bad359f9eaac842f5eb2503d1346762715e863f7832e305369439b7",
     "inputs/Ann Jackson Superstore (Ann Jackson Superstore).hyper": "cdb3dde88490f0efa12e9a4834d9be74b330ce95cc6942356d0aa6fbb8f30a6e",
-    "outputs/replicated-workbook.twbx": "822ce8440be214d935bc34a1bf6106c9840d4a72954406e9834be5a12b31eeb2",
+    "outputs/replicated-workbook.twbx": "09708672f5f140fb57f4d07d335c65610d8a5ff9a201378050a11ba508849dde",
     "outputs/role-probe.twbx": "2fc0b31e32b1d66d34fd3474a1812cd957265707051fcafe1cb7193de17fb13b",
-    "outputs/build-provenance.json": "a3bd42f99e92d67491755fb8e0aec32846d3331fdfbfb0077e110895a95fa593",
-    "outputs/verification.json": "503a6b6b8c577d4fe0273c973b578ac87e81d730cb6b1f0c17f17604048e97ea",
+    "outputs/build-provenance.json": "4facd03a998ab23b05a60c454dc97f6c107d2b532e7d43a8f065fff55484789e",
+    "outputs/verification.json": "13c45934a2d2970476c8be4bd3c50bdaf751ec096ddff7386ec397ebbddf0842",
     "evidence/official-date.json": "41f148f68c7f71db815a623e1bcd9442c9a94df0e64e42faf835d085e666191a",
     "evidence/baseline-0.29.0a2.json": "e83c15391aa02ff6fc077ef46dae886fdd3dcfc7bb5abbb09e14b6adc9a11ca5",
-    "evidence/local-tests.txt": "38708786890bf972bf2d9efd053892e16169ccc1f18a2ba759bd529b95d33490"
+    "evidence/local-tests.txt": "38708786890bf972bf2d9efd053892e16169ccc1f18a2ba759bd529b95d33490",
+    "outputs/baseline-822ce844.twbx": "822ce8440be214d935bc34a1bf6106c9840d4a72954406e9834be5a12b31eeb2",
+    "evidence/header-fix.json": "d533346de8aa2428cedf65937649b2401dc14d8839a6a24ed5f072c9752e49a2",
+    "evidence/cloud-verification.json": "4b32370320a7f2a0e24f348bd35648702b6b71cd8c8aa242d11bedad45572a48",
+    "evidence/desktop-verification.json": "24cc9b90700b1764e042b1b8019c13caa03a5c175bbcf014580486130dc45e58"
   }
 }

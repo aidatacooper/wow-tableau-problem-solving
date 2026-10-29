@@ -6351,6 +6351,11 @@
           "path": "outputs/role-probe.twbx",
           "role": "probe",
           "note": "Pre-runtime baseline probe retained for audit: triangle was emitted with None derivation. Superseded by explicit public table_calc metadata and measure role. Not a passing runtime artifact."
+        },
+        {
+          "path": "outputs/baseline-822ce844.twbx",
+          "role": "probe",
+          "note": "Numerically reviewed baseline with clipped headers; unchanged hash-bound evidence in evidence/archive-822ce844. Superseded by header sizing fix."
         }
       ],
       "evidence": [
@@ -6358,7 +6363,10 @@
         "evidence/official-date.json",
         "evidence/baseline-0.29.0a2.json",
         "outputs/verification.json",
-        "HANDOFF.md"
+        "HANDOFF.md",
+        "evidence/header-fix.json",
+        "evidence/cloud-verification.json",
+        "evidence/desktop-verification.json"
       ],
       "notes": [
         "Template 0.26.0 blocked entry was scaffold placeholder, not a real run; replaced by the first actual 0.29.0a2 baseline.",

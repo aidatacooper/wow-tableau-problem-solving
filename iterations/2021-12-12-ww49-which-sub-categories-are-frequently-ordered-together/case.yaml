@@ -35,12 +35,19 @@ historical_artifacts:
   note: 'Pre-runtime baseline probe retained for audit: triangle was emitted with
     None derivation. Superseded by explicit public table_calc metadata and measure
     role. Not a passing runtime artifact.'
+- path: outputs/baseline-822ce844.twbx
+  role: probe
+  note: Numerically reviewed baseline with clipped headers; unchanged hash-bound evidence
+    in evidence/archive-822ce844. Superseded by header sizing fix.
 evidence:
 - inputs/source-lock.json
 - evidence/official-date.json
 - evidence/baseline-0.29.0a2.json
 - outputs/verification.json
 - HANDOFF.md
+- evidence/header-fix.json
+- evidence/cloud-verification.json
+- evidence/desktop-verification.json
 notes:
 - Template 0.26.0 blocked entry was scaffold placeholder, not a real run; replaced
   by the first actual 0.29.0a2 baseline.
@@ -53,6 +60,9 @@ cwtwb:
   - version: 0.29.0a2
     result: workaround
     evidence: evidence/baseline-0.29.0a2.json
+  - version: 0.29.0a2
+    result: workaround
+    evidence: evidence/header-fix.json
 analysis_status: completed
 functional_status: partial
 visual_status: not_evaluated
@@ -111,9 +121,9 @@ acceptance:
     and pair tooltips show correct dollar amounts, selection does not change domain.'
   mode: manual
   evidence: HANDOFF.md
-remaining_work: 'Parent: Desktop LOADED gate and corpus regression, rendered matrix
-  and tooltip/dollar/sizing checks, independent different-model review. No live events
-  have been tested. Then update status and submit PR.'
+remaining_work: Current artifact loads and default Cloud rendering shows complete
+  headers. Independent final visual recheck, corpus Desktop regression and actual
+  hover/selection/clearing remain pending. Functional status stays partial.
 workarounds:
 - Aggregate raw sales per order/category before pair expansion; connect Pairs and
   Contributions via a public logical equality relationship. Preserves counts and avoids

@@ -1,0 +1,8 @@
+{
+  "captured_at": "2026-10-29T16:43:47.485544+00:00",
+  "sha256": "822ce8440be214d935bc34a1bf6106c9840d4a72954406e9834be5a12b31eeb2",
+  "command": "python scripts/desktop/check.py <case>/outputs/replicated-workbook.twbx",
+  "result": "LOADED",
+  "attempt": 1,
+  "scope": "loadability only"
+}

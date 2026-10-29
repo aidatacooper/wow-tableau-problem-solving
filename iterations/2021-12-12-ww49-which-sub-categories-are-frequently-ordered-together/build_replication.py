@@ -96,8 +96,8 @@ def build():
         hide_col_field_labels=True,hide_row_field_labels=True,hide_band_color=True,hide_sort_controls=True,
         pane_cell_style={'text-align':'center','vertical-align':'center'},
         pane_datalabel_style={'color-mode':'auto','font-weight':'bold','font-size':'10'},
-        header_formats=[{'field':'Column Category','text-orientation':'-90','font-weight':'bold'},
-                        {'field':'Row Category','font-weight':'bold'}],
+        header_formats=[{'field':'Column Category','text-orientation':'-90','font-weight':'bold','height':'125','font-size':'9'},
+                        {'field':'Row Category','font-weight':'bold','width':'140','font-size':'9'}],
         table_dividers=[{'scope':axis,'stroke-color':'#ffffff','stroke-size':'1','line-visibility':'on'} for axis in ['rows','cols']],
         color_style={'field':'Visible Orders','colors':['#f7fcfd','#e0ecf4','#bfd3e6','#9ebcda','#8c96c6','#8c6bb1','#88419d','#810f7c','#4d004b']})
     editor.configure_custom_tooltip(SHEET,[
