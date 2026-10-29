@@ -1,0 +1,27 @@
+{
+  "raw_games": 100,
+  "packaged_year_rows": 102,
+  "numerical_comparisons": "all packaged game outcomes, score differences, cumulative values and summary values versus independent raw oracle",
+  "mutations_rejected": [
+    "reverse-home-away",
+    "tie-counts-as-win",
+    "loss-sign",
+    "corrupt-cumulative",
+    "wrong-denominator",
+    "wrong-record",
+    "swap-opponent",
+    "remove-missing-year",
+    "remove-stems",
+    "remove-area",
+    "sum-becomes-average",
+    "date-order-descending"
+  ],
+  "synthetic_cases": [
+    "tie",
+    "null missing game",
+    "loss",
+    "win"
+  ],
+  "artifact_sha256": "5d1254219800580ea6c82feb0124e7fd3ab37e87c29b2efa76af8791996e9d78",
+  "live_Tableau": "pending"
+}

@@ -1,0 +1,17 @@
+{
+  "workbook_sha256": "e949cce9c114576160e020165575d70170cc09127788afce946e6041334d283e",
+  "archive_workbook": "outputs/e949-runtime-workbook.twbx",
+  "desktop": "LOADED reported by parent for this exact SHA",
+  "cloud": "default screenshot captured by parent; no live interaction proof",
+  "visual_findings": "Filled-width bar blocks and tiny circles fail readable lollipop acceptance.",
+  "files": {
+    "evidence\\runtime-e949\\cloud-author.png": "21e876ee79eb4ddb8eed6f41e5dccb73c05b16043a29acae24e98ace014c3040",
+    "evidence\\runtime-e949\\cloud-replica.png": "2dddf7c819a321e0362c900861477a10e0f42b5bca2ccc3ff0208d7c22edb44f",
+    "evidence\\runtime-e949\\cloud-request.json": "903fc23c46b341f28452c686ebebc8a9a73c5d86262a7fb53869b29cc5d0f4fc",
+    "evidence\\runtime-e949\\cloud-verification.json": "aa159861e61dee564b5e6e99321f7dc2d51d2fee776edaa1efa8c5adbf57b09e",
+    "evidence\\runtime-e949\\handoff.json": "b342472f8eeec87c946e013927a741322ef0ca92929e1c6233f743c45be861b3",
+    "evidence\\runtime-e949\\validation.log": "6a99217d99a2facddca680ac9fda989cb80e7bde275897194a2cd9fcf54c7882",
+    "evidence\\runtime-e949\\verification.json": "3ef2339659ccd9b966427880e1682eeedc64b2a1bc02a84b5748739c5630d432",
+    "evidence\\runtime-e949\\xsd.json": "b93ce144ac4239d20bd7bb83d1ed27fcf80e8c7cd6a59c3cbc204be9df1ffc78"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "schema_available": true,
+  "errors": [],
+  "compatibility_warnings": [
+    "<string>:2:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'workbook': Missing child element(s). Expected is one of ( referenced-extensions, explain-data )."
+  ]
+}

@@ -1,0 +1,109 @@
+schema_version: 1.1.0
+case_id: wow-2021-ww47-thanksgiving-day-nfl-games
+iteration_id: 2021-11-25-ww47-thanksgiving-day-nfl-games
+post: https://donnacoles.home.blog/2021/11/25/thanksgiving-day-nfl-games/
+legacy_case_ids: {}
+article_date: '2021-11-25'
+challenge_year: 2021
+challenge_week: 47
+challenge_date: '2021-11-24'
+date_evidence:
+  article_date: Declared article publication date in iteration_id
+  challenge: Explicit challenge_year; week declared in iteration_id
+  challenge_date: Explicit official challenge publication date and URL
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2021w47tab/
+  article:
+    url: https://donnacoles.home.blog/2021/11/25/thanksgiving-day-nfl-games/
+    path: null
+    sha256: null
+  workbook:
+    url: https://public.tableau.com/app/profile/donna.coles/viz/2021_11_24_WW47_NFL_Games/2021_11_24_WW47_NFL_Games
+    filename: 2021_11_24_WW47_NFL_Games.twbx
+    sha256: 25ab68366dc4f5259de52de2f315a43bf9eb0de3fb4421ee4ae1e4bb6208c53b
+verification_status: pending
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts:
+- path: outputs/baseline-a2-workbook.twbx
+  role: probe
+  note: Original published-a2 partial probe retained byte-for-byte; superseded by
+    completed two-sheet implementation.
+- path: outputs/e949-runtime-workbook.twbx
+  role: probe
+  note: Frozen e949cce9 runtime artifact. Parent Desktop LOADED and Cloud capture;
+    rendered stems/dots failed readability. Evidence archived in evidence/runtime-e949/manifest.json.
+evidence:
+- inputs/source-lock.json
+- evidence/independent-review.json
+- evidence/desktop-corpus.json
+- evidence/desktop-verification.json
+- evidence/cloud-verification.json
+- evidence/cloud-csv.json
+notes:
+- Generated index views must be refreshed after the workbook is built and verified.
+cwtwb:
+  tested_version: 0.29.0a2
+  runs:
+  - version: 0.29.0a2
+    result: pass
+    evidence: analysis.md
+  - version: 0.29.0a2
+    result: workaround
+    evidence: evidence/verification.json
+  - version: 0.29.0a2
+    result: pass
+    evidence: evidence/verification.json
+  - version: 0.29.0a2
+    result: pass
+    evidence: evidence/verification.json
+analysis_status: completed
+functional_status: partial
+visual_status: acceptable_delta
+cwtwb_result: pass
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/NFL Thanksgiving Games.hyper
+acceptance:
+- id: game-identity
+  description: Packaged dates/home/away identities match every raw game; shuffled
+    synthetic games preserve chronological order.
+  mode: automated
+- id: score-direction
+  description: Execute emitted IF and subtraction semantics against raw home/visitor
+    scores, ties and nulls.
+  mode: automated
+- id: team-summary
+  description: Compare every packaged total, W-L-T and percentage against independent
+    raw oracle.
+  mode: automated
+- id: cumulative-gaps
+  description: Compare every cumulative year value; missing years carry prior value
+    without incrementing games.
+  mode: automated
+- id: chart-contract
+  description: One sheet with explicit three-pane row axes; selective synchronized
+    duplicate Result folding; full shelf/encoding/tooltip/dependency closure.
+  mode: automated
+- id: mutation-rejection
+  description: Reject 26 semantic, data, binding, dependency, axis, sizing, legend
+    and order mutations.
+  mode: automated
+- id: readable-lollipop
+  mode: automated
+  description: Assert scaling-off native mark sizing, thin stem/visible dot size ranges,
+    zero-centered diverging palette, pane-bound visible legend, and Tableau custom
+    Win/Tie/Loss format.
+remaining_work: Live hover, selection/parameter changes, help or tooltip events as
+  applicable remain unverified. Default runtime data and visual review passed; Desktop
+  and 50-case corpus passed. Final PR integration pending.
+workarounds:
+- Materialize team summaries and cumulative values from raw Hyper, scaffold absent
+  years with NULL game scores; native selection does not recompute all-time summaries.
+capability_gaps: []
+related_cwtwb_issues: []
