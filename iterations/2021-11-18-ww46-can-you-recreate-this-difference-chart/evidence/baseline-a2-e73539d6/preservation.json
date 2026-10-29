@@ -1,0 +1,71 @@
+{
+  "scope": "Prior a2 artifact and parent-owned runtime evidence. Original JSON bytes unmodified; path mapping below resolves archived assets. Not evidence for candidate rebuild.",
+  "records": [
+    {
+      "original_path": "outputs/replicated-workbook.twbx",
+      "archived_path": "outputs/baseline-a2-e73539d6-workbook.twbx",
+      "sha256": "e73539d6103ca7f2af19ee5a6118741b712e822c070abbd0b3605104b23b1c1e",
+      "bytes": 60983
+    },
+    {
+      "original_path": "evidence/handoff.json",
+      "archived_path": "evidence/baseline-a2-e73539d6/handoff.json",
+      "sha256": "e6dc0ce42051b8847633753ab76fa1d3b467f08447babc53f5bfc290fca452f3",
+      "bytes": 5719
+    },
+    {
+      "original_path": "evidence/local-verification.json",
+      "archived_path": "evidence/baseline-a2-e73539d6/local-verification.json",
+      "sha256": "a97f11398cd5cc70ebeed96ff59a8f9b4348d40a4cf02ac27576c18a37c9f270",
+      "bytes": 3974
+    },
+    {
+      "original_path": "evidence/sdk-probe.json",
+      "archived_path": "evidence/baseline-a2-e73539d6/sdk-probe.json",
+      "sha256": "98cbba6fad6ffa70370d0db0f424db4d97bf48819adfbbc8f2ef92ca79aeca7d",
+      "bytes": 2502
+    },
+    {
+      "original_path": "evidence/sdk-gap.md",
+      "archived_path": "evidence/baseline-a2-e73539d6/sdk-gap.md",
+      "sha256": "02876da301891b7c0b85a34104ddf0e8a42fd33ce1b26ba98fcd9e9370097e2e",
+      "bytes": 1830
+    },
+    {
+      "original_path": "evidence/runtime-pending.md",
+      "archived_path": "evidence/baseline-a2-e73539d6/runtime-pending.md",
+      "sha256": "7eceedb56698ffa4d1e542a7db425e76cb1782b18228ed16d6a4f499d5103c33",
+      "bytes": 761
+    },
+    {
+      "original_path": "evidence/cloud-request.json",
+      "archived_path": "evidence/baseline-a2-e73539d6/cloud-request.json",
+      "sha256": "cac88224e03fd016a6eaf35b1c33f85eec20a4708a84146b8e99226499fdc7d1",
+      "bytes": 574
+    },
+    {
+      "original_path": "evidence/cloud-verification.json",
+      "archived_path": "evidence/baseline-a2-e73539d6/cloud-verification.json",
+      "sha256": "63af98710e1db25188604658f5055d4f085ee35aa754fa0cf096335363196955",
+      "bytes": 2415
+    },
+    {
+      "original_path": "evidence/desktop-verification.json",
+      "archived_path": "evidence/baseline-a2-e73539d6/desktop-verification.json",
+      "sha256": "6607f0c9d414069f3296486ae74f81adba65f82fb49b815efb0fb746de8c3060",
+      "bytes": 188
+    },
+    {
+      "original_path": "outputs/cloud-author.png",
+      "archived_path": "outputs/baseline-a2-e73539d6-cloud-author.png",
+      "sha256": "94bfb2c41d3a626187c21cbadf75e9fa3c5ce1d666a57db1f8191b623c26124a",
+      "bytes": 116093
+    },
+    {
+      "original_path": "outputs/cloud-replica.png",
+      "archived_path": "outputs/baseline-a2-e73539d6-cloud-replica.png",
+      "sha256": "f8d395b93bd4c347898ccf899fc5d3b4dbfc9991fc12db00c13b5ad5715a0deb",
+      "bytes": 92129
+    }
+  ]
+}

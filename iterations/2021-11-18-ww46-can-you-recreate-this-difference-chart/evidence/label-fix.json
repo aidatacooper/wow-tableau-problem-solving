@@ -1,0 +1,8 @@
+{
+  "workbook_sha256": "576d7df325bf48b89696eb2b5628b05fa0ec9599a3faba554efb704271d3edf0",
+  "sdk_commit": "cac8820f26e703c3858253adfa21efd989eb8a78",
+  "change": "Add Tableau custom-format prefix * to render triangle signs. Preserve original pane order and synchronized geometry.",
+  "rendered_labels": "All nine difference labels show triangle direction; text remains black, colored marks show loss/gain. Documented visual delta.",
+  "prior_independent_review": "9 groups,9994 rows and51 references passed for05fd5ec8. Current numerical verifier15 mutations passes; final label-only PNG inspected by parent.",
+  "live_events": false
+}
