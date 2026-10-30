@@ -1,0 +1,203 @@
+[p1 "cwtwb-review-wow-2021-ww49-which-sub-categories-are-frequently-ordered-togeth..." | space "WoW interaction acceptance 20261030"(6): 1 managed, 0 untracked — p1* "cwtwb-review-wow-2021-ww49-which-sub-categories-are-frequently-ordered-togeth..."]
+root
+  container
+    container
+      container
+        button [ref=408]
+          image
+        container
+          container "Breadcrumb"
+            ordered_list
+              list_item
+                anchor [ref=409, loc=href:/#/site/cooperwh/explore?:showVizHome=no, url=https://10ax.online.tableau.com/#/site/cooperwh/explore?:showVizHome=no]
+                  text "Explore"
+                text "/"
+              list_item
+                anchor [ref=410, loc=href:/#/site/cooperwh/projects/1146336, url=https://10ax.online.tableau.com/#/site/cooperwh/projects/1146336]
+                  text "default"
+                text "/"
+              list_item
+                anchor [ref=411, loc=href:/#/site/cooperwh/workbooks/3098104, url=https://10ax.online.tableau.com/#/site/cooperwh/workbooks/3098104]
+                  text "cwtwb-review-wow-2021-ww49-which-sub-categories-are-frequently-ordered-together-replica-09708672f5f1"
+                text "/"
+              list_item
+                text "2021 Week 49 - Frequency Matrix"
+          button "Favorite" [ref=412, loc=role:button[name="Favorite"]]
+      container
+        container
+          button [ref=413]
+            svg_root
+            text "Device Layouts"
+          button [ref=414]
+            image
+            text "Data Sources"
+        button [ref=415]
+          image
+        button "Favorites Menu" [ref=416, loc=css:button[aria-label="Favorites Menu"]]
+          svg_root
+        button "Help menu" [ref=417, loc=css:button[aria-label="Help menu"]]
+          svg_root
+        button "Notification center" [ref=418, loc=css:button[aria-label="Notification center"]]
+          svg_root
+        button "My Content and Settings" [ref=419, loc=css:button[aria-label="My Content and Settings"]]
+          svg_root "HW"
+            text "HW"
+    main
+      iframe [ref=420]
+        root
+          container
+            toolbar "Visualization controls" [ref=421, loc=role:toolbar[name="Visualization controls"]]
+              container
+                button [ref=422]
+                  svg_root
+                button [ref=423]
+                  svg_root
+                button [ref=424]
+                  svg_root
+                button [ref=425]
+                  svg_root
+                button [ref=426]
+                  svg_root
+                container
+                  button [ref=427]
+                    svg_root
+                  button [ref=428]
+                    svg_root
+                splitter
+                button [ref=429]
+                  svg_root
+                  text "Data Details"
+                button [ref=430]
+                  svg_root
+                  text "Edit"
+                button [ref=431]
+                  svg_root
+                  text "View: Original"
+              container
+                button [ref=432]
+                  svg_root
+                  text "Data Guide"
+                button [ref=433]
+                  svg_root
+                  text "Watch"
+                  svg_root
+                splitter
+                button [ref=434]
+                  svg_root
+                button [ref=435]
+                  svg_root
+                  svg_root
+                button [ref=436]
+                  svg_root
+                button [ref=437]
+                  svg_root
+                  text "Share"
+            container [ref=438]
+              application
+                navigation
+                  tablist
+                    tab [ref=439]
+                      text "Frequency Matrix"
+                      image
+                    tab [ref=440]
+                      text "2021 Week 49 - Frequency Matrix"
+                      image
+                tabpanel
+                  note "WHICH SUB-CATEGORIES ARE FREQUENTLY ORDERED TOGETH... Text Zone." [ref=441, loc=role:note[name="WHICH SUB-CATEGORIES ARE FREQUENTLY ORDERED TOGETH... Text Zone."]]
+                    text "WHICH SUB-CATEGORIES ARE FREQUENTLY ORDERED TOGETHER?"
+                  note "HOVER TO VIEW AVERAGE SALES CONTRIBUTION BY CATEGO... Text Zone." [ref=442, loc=role:note[name="HOVER TO VIEW AVERAGE SALES CONTRIBUTION BY CATEGO... Text Zone."]]
+                    text "HOVER TO VIEW AVERAGE SALES CONTRIBUTION BY CATEGORY"
+                  container "Frequency Matrix Viz Zone. Press Enter to navigate within the zone." [ref=443]
+                    container [ref=444]
+                      treegrid
+                        row
+                          gridcell [ref=445]
+                            text "ACCESSORIES"
+                          gridcell [ref=446]
+                            text "APPLIANCES"
+                          gridcell [ref=447]
+                            text "ART"
+                          gridcell [ref=448]
+                            text "BINDERS"
+                          gridcell [ref=449]
+                            text "BOOKCASES"
+                          gridcell [ref=450]
+                            text "CHAIRS"
+                          gridcell [ref=451]
+                            text "COPIERS"
+                          gridcell [ref=452]
+                            text "ENVELOPES"
+                          gridcell [ref=453]
+                            text "FASTENERS"
+                          gridcell [ref=454]
+                            text "FURNISHINGS"
+                          gridcell [ref=455]
+                            text "LABELS"
+                          gridcell [ref=456]
+                            text "MACHINES"
+                          gridcell [ref=457]
+                            text "PAPER"
+                          gridcell [ref=458]
+                            text "PHONES"
+                          svg_root
+                      treegrid
+                        row
+                          gridcell [ref=459]
+                            text "NONE"
+                          gridcell [ref=460]
+                            text "ACCESSORIES"
+                          gridcell [ref=461]
+                            text "APPLIANCES"
+                          gridcell [ref=462]
+                            text "ART"
+                          gridcell [ref=463]
+                            text "BINDERS"
+                          gridcell [ref=464]
+                            text "BOOKCASES"
+                          gridcell [ref=465]
+                            text "CHAIRS"
+                          gridcell [ref=466]
+                            text "COPIERS"
+                          gridcell [ref=467]
+                            text "ENVELOPES"
+                          gridcell [ref=468]
+                            text "FASTENERS"
+                          gridcell [ref=469]
+                            text "FURNISHINGS"
+                          gridcell [ref=470]
+                            text "LABELS"
+                          gridcell [ref=471]
+                            text "MACHINES"
+                          gridcell [ref=472]
+                            text "PAPER"
+                          gridcell [ref=473]
+                            text "PHONES"
+                          gridcell [ref=474]
+                            text "STORAGE"
+                          gridcell [ref=475]
+                            text "SUPPLIES"
+                          svg_root
+                      region [ref=476]
+                        container
+                          canvas
+                          canvas
+                          canvas
+                      svg_root
+                      svg_root
+                      svg_root
+          text "BINDERS"
+          text "& ACCESSORIES"
+          text "161"
+          text "ORDERS WITH PRODUCTS FROM"
+          text "SUB-CATEGORIES"
+          text "AVERAGE SALES CONTRIBUTION PER ORDER"
+          table
+            table_row
+              table_cell
+                text "BINDERS"
+                text ":"
+              table_cell
+              table_cell
+                text "$174.59"
+          text "ACCESSORIES:"
+          text "$187.08"

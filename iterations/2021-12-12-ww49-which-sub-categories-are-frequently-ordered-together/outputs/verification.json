@@ -1,0 +1,2787 @@
+{
+  "workbook_sha256": "09708672f5f140fb57f4d07d335c65610d8a5ff9a201378050a11ba508849dde",
+  "sdk_version": "0.29.0a2",
+  "raw_lines": 9994,
+  "categories": 17,
+  "cells_checked": 306,
+  "visible_cells": 153,
+  "mutations_rejected": [
+    "COUNT-instead-of-COUNTD",
+    "reversed-triangle",
+    "LOD-insertion",
+    "wrong-sales-denominator",
+    "NONE-plural-text",
+    "missing-formula-dependency",
+    "wrong-tablecalc-addressing",
+    "lost-tablecalc-user-role",
+    "wrong-sort-direction",
+    "missing-row-shelf",
+    "broken-tooltip-reference",
+    "custom-format-prefix",
+    "extra-sheet",
+    "relationship-wrong-key",
+    "wrong-mark",
+    "joined-line-sales-multiplication",
+    "duplicate-order-cell",
+    "NONE-includes-multicategory",
+    "corrupted-column-sort-data"
+  ],
+  "synthetic_cells_checked": 20,
+  "cells": [
+    {
+      "row": "ACCESSORIES",
+      "column": "NONE",
+      "orders": 196,
+      "row_average": 207.13509183673472,
+      "column_average": null,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "ACCESSORIES",
+      "column": "ACCESSORIES",
+      "orders": 0,
+      "row_average": null,
+      "column_average": null,
+      "visible": false,
+      "blank": true
+    },
+    {
+      "row": "ACCESSORIES",
+      "column": "APPLIANCES",
+      "orders": 60,
+      "row_average": 201.81123333333335,
+      "column_average": 294.21276666666665,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "ACCESSORIES",
+      "column": "ART",
+      "orders": 89,
+      "row_average": 205.42739325842697,
+      "column_average": 29.137505617977528,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "ACCESSORIES",
+      "column": "BINDERS",
+      "orders": 161,
+      "row_average": 187.0756645962733,
+      "column_average": 174.59035403726708,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "ACCESSORIES",
+      "column": "BOOKCASES",
+      "orders": 29,
+      "row_average": 240.74827586206897,
+      "column_average": 838.9744896551724,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "ACCESSORIES",
+      "column": "CHAIRS",
+      "orders": 64,
+      "row_average": 289.311875,
+      "column_average": 618.001171875,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "ACCESSORIES",
+      "column": "COPIERS",
+      "orders": 6,
+      "row_average": 138.13833333333332,
+      "column_average": 1273.3093333333334,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "ACCESSORIES",
+      "column": "ENVELOPES",
+      "orders": 32,
+      "row_average": 273.8079375,
+      "column_average": 41.2750625,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "ACCESSORIES",
+      "column": "FASTENERS",
+      "orders": 27,
+      "row_average": 185.47533333333334,
+      "column_average": 9.167555555555555,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "ACCESSORIES",
+      "column": "FURNISHINGS",
+      "orders": 115,
+      "row_average": 269.91052173913044,
+      "column_average": 83.39511304347826,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "ACCESSORIES",
+      "column": "LABELS",
+      "orders": 47,
+      "row_average": 208.84740425531913,
+      "column_average": 49.3588085106383,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "ACCESSORIES",
+      "column": "MACHINES",
+      "orders": 22,
+      "row_average": 369.1309090909091,
+      "column_average": 1462.9368181818181,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "ACCESSORIES",
+      "column": "PAPER",
+      "orders": 153,
+      "row_average": 282.19613071895424,
+      "column_average": 69.39469281045753,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "ACCESSORIES",
+      "column": "PHONES",
+      "orders": 116,
+      "row_average": 251.40281034482757,
+      "column_average": 404.9151724137931,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "ACCESSORIES",
+      "column": "STORAGE",
+      "orders": 103,
+      "row_average": 220.9355922330097,
+      "column_average": 259.22879611650484,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "ACCESSORIES",
+      "column": "SUPPLIES",
+      "orders": 25,
+      "row_average": 200.84671999999998,
+      "column_average": 403.41136,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "ACCESSORIES",
+      "column": "TABLES",
+      "orders": 44,
+      "row_average": 358.3158181818182,
+      "column_average": 802.3617954545455,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "APPLIANCES",
+      "column": "NONE",
+      "orders": 112,
+      "row_average": 201.523,
+      "column_average": null,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "APPLIANCES",
+      "column": "ACCESSORIES",
+      "orders": 60,
+      "row_average": 294.21276666666665,
+      "column_average": 201.81123333333335,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "APPLIANCES",
+      "column": "APPLIANCES",
+      "orders": 0,
+      "row_average": null,
+      "column_average": null,
+      "visible": false,
+      "blank": true
+    },
+    {
+      "row": "APPLIANCES",
+      "column": "ART",
+      "orders": 59,
+      "row_average": 271.96098305084746,
+      "column_average": 31.354677966101693,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "APPLIANCES",
+      "column": "BINDERS",
+      "orders": 130,
+      "row_average": 225.68078461538462,
+      "column_average": 163.7430923076923,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "APPLIANCES",
+      "column": "BOOKCASES",
+      "orders": 13,
+      "row_average": 120.29492307692308,
+      "column_average": 610.2160923076924,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "APPLIANCES",
+      "column": "CHAIRS",
+      "orders": 47,
+      "row_average": 324.9857021276596,
+      "column_average": 622.6928297872341,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "APPLIANCES",
+      "column": "COPIERS",
+      "orders": 9,
+      "row_average": 267.3954444444445,
+      "column_average": 1117.756,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "APPLIANCES",
+      "column": "ENVELOPES",
+      "orders": 21,
+      "row_average": 516.8258095238095,
+      "column_average": 63.81,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "APPLIANCES",
+      "column": "FASTENERS",
+      "orders": 21,
+      "row_average": 95.33961904761905,
+      "column_average": 13.952761904761903,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "APPLIANCES",
+      "column": "FURNISHINGS",
+      "orders": 80,
+      "row_average": 207.8995625,
+      "column_average": 135.15045,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "APPLIANCES",
+      "column": "LABELS",
+      "orders": 21,
+      "row_average": 412.623619047619,
+      "column_average": 34.47666666666667,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "APPLIANCES",
+      "column": "MACHINES",
+      "orders": 9,
+      "row_average": 175.70688888888887,
+      "column_average": 2821.0064444444447,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "APPLIANCES",
+      "column": "PAPER",
+      "orders": 109,
+      "row_average": 291.184,
+      "column_average": 79.90689908256881,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "APPLIANCES",
+      "column": "PHONES",
+      "orders": 76,
+      "row_average": 325.0512236842105,
+      "column_average": 458.80405263157894,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "APPLIANCES",
+      "column": "STORAGE",
+      "orders": 56,
+      "row_average": 265.2612857142857,
+      "column_average": 312.22432142857144,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "APPLIANCES",
+      "column": "SUPPLIES",
+      "orders": 24,
+      "row_average": 215.72733333333335,
+      "column_average": 94.91308333333335,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "APPLIANCES",
+      "column": "TABLES",
+      "orders": 30,
+      "row_average": 174.11673333333334,
+      "column_average": 567.7705333333332,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "ART",
+      "column": "NONE",
+      "orders": 251,
+      "row_average": 36.56794422310757,
+      "column_average": null,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "ART",
+      "column": "ACCESSORIES",
+      "orders": 89,
+      "row_average": 29.137505617977528,
+      "column_average": 205.42739325842697,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "ART",
+      "column": "APPLIANCES",
+      "orders": 59,
+      "row_average": 31.354677966101693,
+      "column_average": 271.96098305084746,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "ART",
+      "column": "ART",
+      "orders": 0,
+      "row_average": null,
+      "column_average": null,
+      "visible": false,
+      "blank": true
+    },
+    {
+      "row": "ART",
+      "column": "BINDERS",
+      "orders": 150,
+      "row_average": 34.95158666666667,
+      "column_average": 196.26384000000002,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "ART",
+      "column": "BOOKCASES",
+      "orders": 34,
+      "row_average": 45.073235294117644,
+      "column_average": 600.1286,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "ART",
+      "column": "CHAIRS",
+      "orders": 82,
+      "row_average": 34.52868292682927,
+      "column_average": 605.9671829268293,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "ART",
+      "column": "COPIERS",
+      "orders": 7,
+      "row_average": 38.86742857142857,
+      "column_average": 3168.547142857143,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "ART",
+      "column": "ENVELOPES",
+      "orders": 27,
+      "row_average": 32.56977777777778,
+      "column_average": 59.03940740740741,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "ART",
+      "column": "FASTENERS",
+      "orders": 30,
+      "row_average": 27.029933333333336,
+      "column_average": 12.351066666666666,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "ART",
+      "column": "FURNISHINGS",
+      "orders": 100,
+      "row_average": 34.11164,
+      "column_average": 124.48002000000001,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "ART",
+      "column": "LABELS",
+      "orders": 47,
+      "row_average": 37.92689361702128,
+      "column_average": 29.86446808510638,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "ART",
+      "column": "MACHINES",
+      "orders": 12,
+      "row_average": 35.46283333333333,
+      "column_average": 2975.8586666666665,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "ART",
+      "column": "PAPER",
+      "orders": 150,
+      "row_average": 29.325733333333332,
+      "column_average": 66.11310666666667,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "ART",
+      "column": "PHONES",
+      "orders": 124,
+      "row_average": 47.85993548387096,
+      "column_average": 412.99883870967744,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "ART",
+      "column": "STORAGE",
+      "orders": 100,
+      "row_average": 38.58766,
+      "column_average": 327.39781999999997,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "ART",
+      "column": "SUPPLIES",
+      "orders": 29,
+      "row_average": 52.76889655172414,
+      "column_average": 318.13641379310343,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "ART",
+      "column": "TABLES",
+      "orders": 38,
+      "row_average": 19.12584210526316,
+      "column_average": 585.3103815789474,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "BINDERS",
+      "column": "NONE",
+      "orders": 420,
+      "row_average": 146.4865357142857,
+      "column_average": null,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "BINDERS",
+      "column": "ACCESSORIES",
+      "orders": 161,
+      "row_average": 174.59035403726708,
+      "column_average": 187.0756645962733,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "BINDERS",
+      "column": "APPLIANCES",
+      "orders": 130,
+      "row_average": 163.7430923076923,
+      "column_average": 225.68078461538462,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "BINDERS",
+      "column": "ART",
+      "orders": 150,
+      "row_average": 196.26384000000002,
+      "column_average": 34.95158666666667,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "BINDERS",
+      "column": "BINDERS",
+      "orders": 0,
+      "row_average": null,
+      "column_average": null,
+      "visible": false,
+      "blank": true
+    },
+    {
+      "row": "BINDERS",
+      "column": "BOOKCASES",
+      "orders": 56,
+      "row_average": 117.47142857142856,
+      "column_average": 550.2402357142857,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "BINDERS",
+      "column": "CHAIRS",
+      "orders": 119,
+      "row_average": 183.62544537815126,
+      "column_average": 614.4501848739495,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "BINDERS",
+      "column": "COPIERS",
+      "orders": 19,
+      "row_average": 188.58494736842104,
+      "column_average": 2465.762947368421,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "BINDERS",
+      "column": "ENVELOPES",
+      "orders": 54,
+      "row_average": 166.72844444444442,
+      "column_average": 58.50637037037037,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "BINDERS",
+      "column": "FASTENERS",
+      "orders": 62,
+      "row_average": 196.69803225806453,
+      "column_average": 16.261193548387094,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "BINDERS",
+      "column": "FURNISHINGS",
+      "orders": 198,
+      "row_average": 131.50930303030304,
+      "column_average": 122.51550505050506,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "BINDERS",
+      "column": "LABELS",
+      "orders": 82,
+      "row_average": 75.06206097560975,
+      "column_average": 47.89568292682927,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "BINDERS",
+      "column": "MACHINES",
+      "orders": 30,
+      "row_average": 66.71923333333334,
+      "column_average": 1405.4211,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "BINDERS",
+      "column": "PAPER",
+      "orders": 275,
+      "row_average": 172.9226690909091,
+      "column_average": 65.22974545454545,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "BINDERS",
+      "column": "PHONES",
+      "orders": 199,
+      "row_average": 165.7033065326633,
+      "column_average": 387.57056281407034,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "BINDERS",
+      "column": "STORAGE",
+      "orders": 199,
+      "row_average": 180.04577889447236,
+      "column_average": 335.2238994974874,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "BINDERS",
+      "column": "SUPPLIES",
+      "orders": 43,
+      "row_average": 77.68069767441861,
+      "column_average": 191.26055813953488,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "BINDERS",
+      "column": "TABLES",
+      "orders": 71,
+      "row_average": 63.868464788732396,
+      "column_average": 676.1250422535211,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "BOOKCASES",
+      "column": "NONE",
+      "orders": 56,
+      "row_average": 426.1947232142857,
+      "column_average": null,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "BOOKCASES",
+      "column": "ACCESSORIES",
+      "orders": 29,
+      "row_average": 838.9744896551724,
+      "column_average": 240.74827586206897,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "BOOKCASES",
+      "column": "APPLIANCES",
+      "orders": 13,
+      "row_average": 610.2160923076924,
+      "column_average": 120.29492307692308,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "BOOKCASES",
+      "column": "ART",
+      "orders": 34,
+      "row_average": 600.1286,
+      "column_average": 45.073235294117644,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "BOOKCASES",
+      "column": "BINDERS",
+      "orders": 56,
+      "row_average": 550.2402357142857,
+      "column_average": 117.47142857142856,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "BOOKCASES",
+      "column": "BOOKCASES",
+      "orders": 0,
+      "row_average": null,
+      "column_average": null,
+      "visible": false,
+      "blank": true
+    },
+    {
+      "row": "BOOKCASES",
+      "column": "CHAIRS",
+      "orders": 21,
+      "row_average": 688.5515571428571,
+      "column_average": 553.5179047619048,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "BOOKCASES",
+      "column": "COPIERS",
+      "orders": 2,
+      "row_average": 791.4809,
+      "column_average": 819.984,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "BOOKCASES",
+      "column": "ENVELOPES",
+      "orders": 11,
+      "row_average": 732.1240909090909,
+      "column_average": 68.52872727272728,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "BOOKCASES",
+      "column": "FASTENERS",
+      "orders": 7,
+      "row_average": 622.2284285714286,
+      "column_average": 13.995714285714286,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "BOOKCASES",
+      "column": "FURNISHINGS",
+      "orders": 30,
+      "row_average": 616.2823166666666,
+      "column_average": 165.42113333333333,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "BOOKCASES",
+      "column": "LABELS",
+      "orders": 21,
+      "row_average": 802.9323619047619,
+      "column_average": 31.171904761904763,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "BOOKCASES",
+      "column": "MACHINES",
+      "orders": 6,
+      "row_average": 498.7024333333333,
+      "column_average": 1397.0683333333334,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "BOOKCASES",
+      "column": "PAPER",
+      "orders": 48,
+      "row_average": 560.8156645833334,
+      "column_average": 83.73991666666667,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "BOOKCASES",
+      "column": "PHONES",
+      "orders": 42,
+      "row_average": 584.6489928571428,
+      "column_average": 363.4993333333333,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "BOOKCASES",
+      "column": "STORAGE",
+      "orders": 37,
+      "row_average": 644.4925324324324,
+      "column_average": 270.2694594594594,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "BOOKCASES",
+      "column": "SUPPLIES",
+      "orders": 10,
+      "row_average": 415.95202,
+      "column_average": 570.8788000000001,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "BOOKCASES",
+      "column": "TABLES",
+      "orders": 9,
+      "row_average": 443.6317222222222,
+      "column_average": 907.0826666666667,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "CHAIRS",
+      "column": "NONE",
+      "orders": 175,
+      "row_average": 564.1493657142856,
+      "column_average": null,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "CHAIRS",
+      "column": "ACCESSORIES",
+      "orders": 64,
+      "row_average": 618.001171875,
+      "column_average": 289.311875,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "CHAIRS",
+      "column": "APPLIANCES",
+      "orders": 47,
+      "row_average": 622.6928297872341,
+      "column_average": 324.9857021276596,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "CHAIRS",
+      "column": "ART",
+      "orders": 82,
+      "row_average": 605.9671829268293,
+      "column_average": 34.52868292682927,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "CHAIRS",
+      "column": "BINDERS",
+      "orders": 119,
+      "row_average": 614.4501848739495,
+      "column_average": 183.62544537815126,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "CHAIRS",
+      "column": "BOOKCASES",
+      "orders": 21,
+      "row_average": 553.5179047619048,
+      "column_average": 688.5515571428571,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "CHAIRS",
+      "column": "CHAIRS",
+      "orders": 0,
+      "row_average": null,
+      "column_average": null,
+      "visible": false,
+      "blank": true
+    },
+    {
+      "row": "CHAIRS",
+      "column": "COPIERS",
+      "orders": 10,
+      "row_average": 303.4436,
+      "column_average": 1189.9742,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "CHAIRS",
+      "column": "ENVELOPES",
+      "orders": 29,
+      "row_average": 564.7773448275861,
+      "column_average": 73.41,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "CHAIRS",
+      "column": "FASTENERS",
+      "orders": 26,
+      "row_average": 784.8803846153846,
+      "column_average": 16.33276923076923,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "CHAIRS",
+      "column": "FURNISHINGS",
+      "orders": 99,
+      "row_average": 449.19981818181816,
+      "column_average": 96.6529494949495,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "CHAIRS",
+      "column": "LABELS",
+      "orders": 36,
+      "row_average": 427.2525,
+      "column_average": 59.7706111111111,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "CHAIRS",
+      "column": "MACHINES",
+      "orders": 17,
+      "row_average": 472.29623529411765,
+      "column_average": 1830.4116470588235,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "CHAIRS",
+      "column": "PAPER",
+      "orders": 133,
+      "row_average": 608.6248721804512,
+      "column_average": 64.374,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "CHAIRS",
+      "column": "PHONES",
+      "orders": 89,
+      "row_average": 592.7950786516855,
+      "column_average": 475.035797752809,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "CHAIRS",
+      "column": "STORAGE",
+      "orders": 83,
+      "row_average": 643.8941445783132,
+      "column_average": 342.5474698795181,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "CHAIRS",
+      "column": "SUPPLIES",
+      "orders": 19,
+      "row_average": 569.0856842105263,
+      "column_average": 39.984842105263155,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "CHAIRS",
+      "column": "TABLES",
+      "orders": 31,
+      "row_average": 671.4385161290323,
+      "column_average": 584.2701290322581,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "COPIERS",
+      "column": "NONE",
+      "orders": 18,
+      "row_average": 1868.862,
+      "column_average": null,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "COPIERS",
+      "column": "ACCESSORIES",
+      "orders": 6,
+      "row_average": 1273.3093333333334,
+      "column_average": 138.13833333333332,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "COPIERS",
+      "column": "APPLIANCES",
+      "orders": 9,
+      "row_average": 1117.756,
+      "column_average": 267.3954444444445,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "COPIERS",
+      "column": "ART",
+      "orders": 7,
+      "row_average": 3168.547142857143,
+      "column_average": 38.86742857142857,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "COPIERS",
+      "column": "BINDERS",
+      "orders": 19,
+      "row_average": 2465.762947368421,
+      "column_average": 188.58494736842104,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "COPIERS",
+      "column": "BOOKCASES",
+      "orders": 2,
+      "row_average": 819.984,
+      "column_average": 791.4809,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "COPIERS",
+      "column": "CHAIRS",
+      "orders": 10,
+      "row_average": 1189.9742,
+      "column_average": 303.4436,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "COPIERS",
+      "column": "COPIERS",
+      "orders": 0,
+      "row_average": null,
+      "column_average": null,
+      "visible": false,
+      "blank": true
+    },
+    {
+      "row": "COPIERS",
+      "column": "ENVELOPES",
+      "orders": 4,
+      "row_average": 3607.4635000000003,
+      "column_average": 36.0005,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "COPIERS",
+      "column": "FASTENERS",
+      "orders": 3,
+      "row_average": 706.648,
+      "column_average": 23.013333333333335,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "COPIERS",
+      "column": "FURNISHINGS",
+      "orders": 12,
+      "row_average": 1451.6415,
+      "column_average": 104.27883333333334,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "COPIERS",
+      "column": "LABELS",
+      "orders": 6,
+      "row_average": 799.982,
+      "column_average": 16.715999999999998,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "COPIERS",
+      "column": "MACHINES",
+      "orders": 2,
+      "row_average": 699.988,
+      "column_average": 134.99,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "COPIERS",
+      "column": "PAPER",
+      "orders": 20,
+      "row_average": 2316.4702,
+      "column_average": 64.6295,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "COPIERS",
+      "column": "PHONES",
+      "orders": 11,
+      "row_average": 2400.8896363636363,
+      "column_average": 381.73581818181816,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "COPIERS",
+      "column": "STORAGE",
+      "orders": 12,
+      "row_average": 4221.630666666667,
+      "column_average": 409.8951666666667,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "COPIERS",
+      "column": "SUPPLIES",
+      "orders": 4,
+      "row_average": 1369.9695,
+      "column_average": 105.306,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "COPIERS",
+      "column": "TABLES",
+      "orders": 2,
+      "row_average": 1199.978,
+      "column_average": 765.303,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "ENVELOPES",
+      "column": "NONE",
+      "orders": 67,
+      "row_average": 60.05474626865672,
+      "column_average": null,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "ENVELOPES",
+      "column": "ACCESSORIES",
+      "orders": 32,
+      "row_average": 41.2750625,
+      "column_average": 273.8079375,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "ENVELOPES",
+      "column": "APPLIANCES",
+      "orders": 21,
+      "row_average": 63.81,
+      "column_average": 516.8258095238095,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "ENVELOPES",
+      "column": "ART",
+      "orders": 27,
+      "row_average": 59.03940740740741,
+      "column_average": 32.56977777777778,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "ENVELOPES",
+      "column": "BINDERS",
+      "orders": 54,
+      "row_average": 58.50637037037037,
+      "column_average": 166.72844444444442,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "ENVELOPES",
+      "column": "BOOKCASES",
+      "orders": 11,
+      "row_average": 68.52872727272728,
+      "column_average": 732.1240909090909,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "ENVELOPES",
+      "column": "CHAIRS",
+      "orders": 29,
+      "row_average": 73.41,
+      "column_average": 564.7773448275861,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "ENVELOPES",
+      "column": "COPIERS",
+      "orders": 4,
+      "row_average": 36.0005,
+      "column_average": 3607.4635000000003,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "ENVELOPES",
+      "column": "ENVELOPES",
+      "orders": 0,
+      "row_average": null,
+      "column_average": null,
+      "visible": false,
+      "blank": true
+    },
+    {
+      "row": "ENVELOPES",
+      "column": "FASTENERS",
+      "orders": 11,
+      "row_average": 62.67363636363636,
+      "column_average": 19.00709090909091,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "ENVELOPES",
+      "column": "FURNISHINGS",
+      "orders": 32,
+      "row_average": 58.2735625,
+      "column_average": 67.9955625,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "ENVELOPES",
+      "column": "LABELS",
+      "orders": 11,
+      "row_average": 71.6249090909091,
+      "column_average": 110.75818181818181,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "ENVELOPES",
+      "column": "MACHINES",
+      "orders": 6,
+      "row_average": 94.21066666666667,
+      "column_average": 1169.5885,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "ENVELOPES",
+      "column": "PAPER",
+      "orders": 57,
+      "row_average": 73.78999999999999,
+      "column_average": 66.33235087719298,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "ENVELOPES",
+      "column": "PHONES",
+      "orders": 41,
+      "row_average": 78.54809756097562,
+      "column_average": 475.42346341463417,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "ENVELOPES",
+      "column": "STORAGE",
+      "orders": 38,
+      "row_average": 90.56163157894737,
+      "column_average": 283.5122105263158,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "ENVELOPES",
+      "column": "SUPPLIES",
+      "orders": 5,
+      "row_average": 50.293600000000005,
+      "column_average": 149.49920000000003,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "ENVELOPES",
+      "column": "TABLES",
+      "orders": 12,
+      "row_average": 53.958333333333336,
+      "column_average": 556.6042083333333,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "FASTENERS",
+      "column": "NONE",
+      "orders": 55,
+      "row_average": 14.294945454545454,
+      "column_average": null,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "FASTENERS",
+      "column": "ACCESSORIES",
+      "orders": 27,
+      "row_average": 9.167555555555555,
+      "column_average": 185.47533333333334,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "FASTENERS",
+      "column": "APPLIANCES",
+      "orders": 21,
+      "row_average": 13.952761904761903,
+      "column_average": 95.33961904761905,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "FASTENERS",
+      "column": "ART",
+      "orders": 30,
+      "row_average": 12.351066666666666,
+      "column_average": 27.029933333333336,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "FASTENERS",
+      "column": "BINDERS",
+      "orders": 62,
+      "row_average": 16.261193548387094,
+      "column_average": 196.69803225806453,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "FASTENERS",
+      "column": "BOOKCASES",
+      "orders": 7,
+      "row_average": 13.995714285714286,
+      "column_average": 622.2284285714286,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "FASTENERS",
+      "column": "CHAIRS",
+      "orders": 26,
+      "row_average": 16.33276923076923,
+      "column_average": 784.8803846153846,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "FASTENERS",
+      "column": "COPIERS",
+      "orders": 3,
+      "row_average": 23.013333333333335,
+      "column_average": 706.648,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "FASTENERS",
+      "column": "ENVELOPES",
+      "orders": 11,
+      "row_average": 19.00709090909091,
+      "column_average": 62.67363636363636,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "FASTENERS",
+      "column": "FASTENERS",
+      "orders": 0,
+      "row_average": null,
+      "column_average": null,
+      "visible": false,
+      "blank": true
+    },
+    {
+      "row": "FASTENERS",
+      "column": "FURNISHINGS",
+      "orders": 41,
+      "row_average": 15.627365853658537,
+      "column_average": 78.53068292682926,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "FASTENERS",
+      "column": "LABELS",
+      "orders": 15,
+      "row_average": 13.839466666666668,
+      "column_average": 30.944399999999998,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "FASTENERS",
+      "column": "MACHINES",
+      "orders": 8,
+      "row_average": 18.255,
+      "column_average": 3323.86275,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "FASTENERS",
+      "column": "PAPER",
+      "orders": 59,
+      "row_average": 12.48257627118644,
+      "column_average": 76.11945762711863,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "FASTENERS",
+      "column": "PHONES",
+      "orders": 37,
+      "row_average": 14.437459459459461,
+      "column_average": 398.8525945945946,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "FASTENERS",
+      "column": "STORAGE",
+      "orders": 37,
+      "row_average": 13.737729729729729,
+      "column_average": 155.02086486486488,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "FASTENERS",
+      "column": "SUPPLIES",
+      "orders": 11,
+      "row_average": 11.612363636363638,
+      "column_average": 408.2418181818182,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "FASTENERS",
+      "column": "TABLES",
+      "orders": 10,
+      "row_average": 15.8582,
+      "column_average": 372.7685,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "FURNISHINGS",
+      "column": "NONE",
+      "orders": 273,
+      "row_average": 104.42438827838828,
+      "column_average": null,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "FURNISHINGS",
+      "column": "ACCESSORIES",
+      "orders": 115,
+      "row_average": 83.39511304347826,
+      "column_average": 269.91052173913044,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "FURNISHINGS",
+      "column": "APPLIANCES",
+      "orders": 80,
+      "row_average": 135.15045,
+      "column_average": 207.8995625,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "FURNISHINGS",
+      "column": "ART",
+      "orders": 100,
+      "row_average": 124.48002000000001,
+      "column_average": 34.11164,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "FURNISHINGS",
+      "column": "BINDERS",
+      "orders": 198,
+      "row_average": 122.51550505050506,
+      "column_average": 131.50930303030304,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "FURNISHINGS",
+      "column": "BOOKCASES",
+      "orders": 30,
+      "row_average": 165.42113333333333,
+      "column_average": 616.2823166666666,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "FURNISHINGS",
+      "column": "CHAIRS",
+      "orders": 99,
+      "row_average": 96.6529494949495,
+      "column_average": 449.19981818181816,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "FURNISHINGS",
+      "column": "COPIERS",
+      "orders": 12,
+      "row_average": 104.27883333333334,
+      "column_average": 1451.6415,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "FURNISHINGS",
+      "column": "ENVELOPES",
+      "orders": 32,
+      "row_average": 67.9955625,
+      "column_average": 58.2735625,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "FURNISHINGS",
+      "column": "FASTENERS",
+      "orders": 41,
+      "row_average": 78.53068292682926,
+      "column_average": 15.627365853658537,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "FURNISHINGS",
+      "column": "FURNISHINGS",
+      "orders": 0,
+      "row_average": null,
+      "column_average": null,
+      "visible": false,
+      "blank": true
+    },
+    {
+      "row": "FURNISHINGS",
+      "column": "LABELS",
+      "orders": 57,
+      "row_average": 111.33178947368421,
+      "column_average": 44.83182456140351,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "FURNISHINGS",
+      "column": "MACHINES",
+      "orders": 27,
+      "row_average": 82.13962962962962,
+      "column_average": 2327.9197777777777,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "FURNISHINGS",
+      "column": "PAPER",
+      "orders": 177,
+      "row_average": 115.0481242937853,
+      "column_average": 68.71722033898305,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "FURNISHINGS",
+      "column": "PHONES",
+      "orders": 148,
+      "row_average": 112.2584054054054,
+      "column_average": 474.8446486486487,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "FURNISHINGS",
+      "column": "STORAGE",
+      "orders": 138,
+      "row_average": 97.19846376811594,
+      "column_average": 329.99068115942026,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "FURNISHINGS",
+      "column": "SUPPLIES",
+      "orders": 31,
+      "row_average": 96.81264516129032,
+      "column_average": 497.8880645161291,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "FURNISHINGS",
+      "column": "TABLES",
+      "orders": 44,
+      "row_average": 109.96827272727273,
+      "column_average": 634.2123068181818,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "LABELS",
+      "column": "NONE",
+      "orders": 94,
+      "row_average": 28.06417021276596,
+      "column_average": null,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "LABELS",
+      "column": "ACCESSORIES",
+      "orders": 47,
+      "row_average": 49.3588085106383,
+      "column_average": 208.84740425531913,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "LABELS",
+      "column": "APPLIANCES",
+      "orders": 21,
+      "row_average": 34.47666666666667,
+      "column_average": 412.623619047619,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "LABELS",
+      "column": "ART",
+      "orders": 47,
+      "row_average": 29.86446808510638,
+      "column_average": 37.92689361702128,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "LABELS",
+      "column": "BINDERS",
+      "orders": 82,
+      "row_average": 47.89568292682927,
+      "column_average": 75.06206097560975,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "LABELS",
+      "column": "BOOKCASES",
+      "orders": 21,
+      "row_average": 31.171904761904763,
+      "column_average": 802.9323619047619,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "LABELS",
+      "column": "CHAIRS",
+      "orders": 36,
+      "row_average": 59.7706111111111,
+      "column_average": 427.2525,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "LABELS",
+      "column": "COPIERS",
+      "orders": 6,
+      "row_average": 16.715999999999998,
+      "column_average": 799.982,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "LABELS",
+      "column": "ENVELOPES",
+      "orders": 11,
+      "row_average": 110.75818181818181,
+      "column_average": 71.6249090909091,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "LABELS",
+      "column": "FASTENERS",
+      "orders": 15,
+      "row_average": 30.944399999999998,
+      "column_average": 13.839466666666668,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "LABELS",
+      "column": "FURNISHINGS",
+      "orders": 57,
+      "row_average": 44.83182456140351,
+      "column_average": 111.33178947368421,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "LABELS",
+      "column": "LABELS",
+      "orders": 0,
+      "row_average": null,
+      "column_average": null,
+      "visible": false,
+      "blank": true
+    },
+    {
+      "row": "LABELS",
+      "column": "MACHINES",
+      "orders": 8,
+      "row_average": 50.838499999999996,
+      "column_average": 1414.817375,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "LABELS",
+      "column": "PAPER",
+      "orders": 80,
+      "row_average": 38.23095,
+      "column_average": 76.977025,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "LABELS",
+      "column": "PHONES",
+      "orders": 58,
+      "row_average": 34.97855172413793,
+      "column_average": 421.34368965517245,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "LABELS",
+      "column": "STORAGE",
+      "orders": 61,
+      "row_average": 26.000885245901642,
+      "column_average": 259.3237049180328,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "LABELS",
+      "column": "SUPPLIES",
+      "orders": 18,
+      "row_average": 50.574666666666666,
+      "column_average": 25.176444444444442,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "LABELS",
+      "column": "TABLES",
+      "orders": 17,
+      "row_average": 25.06905882352941,
+      "column_average": 773.5825294117648,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "MACHINES",
+      "column": "NONE",
+      "orders": 24,
+      "row_average": 1276.1249166666666,
+      "column_average": null,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "MACHINES",
+      "column": "ACCESSORIES",
+      "orders": 22,
+      "row_average": 1462.9368181818181,
+      "column_average": 369.1309090909091,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "MACHINES",
+      "column": "APPLIANCES",
+      "orders": 9,
+      "row_average": 2821.0064444444447,
+      "column_average": 175.70688888888887,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "MACHINES",
+      "column": "ART",
+      "orders": 12,
+      "row_average": 2975.8586666666665,
+      "column_average": 35.46283333333333,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "MACHINES",
+      "column": "BINDERS",
+      "orders": 30,
+      "row_average": 1405.4211,
+      "column_average": 66.71923333333334,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "MACHINES",
+      "column": "BOOKCASES",
+      "orders": 6,
+      "row_average": 1397.0683333333334,
+      "column_average": 498.7024333333333,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "MACHINES",
+      "column": "CHAIRS",
+      "orders": 17,
+      "row_average": 1830.4116470588235,
+      "column_average": 472.29623529411765,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "MACHINES",
+      "column": "COPIERS",
+      "orders": 2,
+      "row_average": 134.99,
+      "column_average": 699.988,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "MACHINES",
+      "column": "ENVELOPES",
+      "orders": 6,
+      "row_average": 1169.5885,
+      "column_average": 94.21066666666667,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "MACHINES",
+      "column": "FASTENERS",
+      "orders": 8,
+      "row_average": 3323.86275,
+      "column_average": 18.255,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "MACHINES",
+      "column": "FURNISHINGS",
+      "orders": 27,
+      "row_average": 2327.9197777777777,
+      "column_average": 82.13962962962962,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "MACHINES",
+      "column": "LABELS",
+      "orders": 8,
+      "row_average": 1414.817375,
+      "column_average": 50.838499999999996,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "MACHINES",
+      "column": "MACHINES",
+      "orders": 0,
+      "row_average": null,
+      "column_average": null,
+      "visible": false,
+      "blank": true
+    },
+    {
+      "row": "MACHINES",
+      "column": "PAPER",
+      "orders": 28,
+      "row_average": 2005.2002499999999,
+      "column_average": 65.02007142857143,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "MACHINES",
+      "column": "PHONES",
+      "orders": 22,
+      "row_average": 1948.1494999999998,
+      "column_average": 289.9388181818182,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "MACHINES",
+      "column": "STORAGE",
+      "orders": 21,
+      "row_average": 1878.9196190476189,
+      "column_average": 298.724,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "MACHINES",
+      "column": "SUPPLIES",
+      "orders": 1,
+      "row_average": 837.6,
+      "column_average": 15.88,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "MACHINES",
+      "column": "TABLES",
+      "orders": 6,
+      "row_average": 1464.0663333333334,
+      "column_average": 488.78683333333333,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "PAPER",
+      "column": "NONE",
+      "orders": 365,
+      "row_average": 60.52871232876712,
+      "column_average": null,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "PAPER",
+      "column": "ACCESSORIES",
+      "orders": 153,
+      "row_average": 69.39469281045753,
+      "column_average": 282.19613071895424,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "PAPER",
+      "column": "APPLIANCES",
+      "orders": 109,
+      "row_average": 79.90689908256881,
+      "column_average": 291.184,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "PAPER",
+      "column": "ART",
+      "orders": 150,
+      "row_average": 66.11310666666667,
+      "column_average": 29.325733333333332,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "PAPER",
+      "column": "BINDERS",
+      "orders": 275,
+      "row_average": 65.22974545454545,
+      "column_average": 172.9226690909091,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "PAPER",
+      "column": "BOOKCASES",
+      "orders": 48,
+      "row_average": 83.73991666666667,
+      "column_average": 560.8156645833334,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "PAPER",
+      "column": "CHAIRS",
+      "orders": 133,
+      "row_average": 64.374,
+      "column_average": 608.6248721804512,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "PAPER",
+      "column": "COPIERS",
+      "orders": 20,
+      "row_average": 64.6295,
+      "column_average": 2316.4702,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "PAPER",
+      "column": "ENVELOPES",
+      "orders": 57,
+      "row_average": 66.33235087719298,
+      "column_average": 73.78999999999999,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "PAPER",
+      "column": "FASTENERS",
+      "orders": 59,
+      "row_average": 76.11945762711863,
+      "column_average": 12.48257627118644,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "PAPER",
+      "column": "FURNISHINGS",
+      "orders": 177,
+      "row_average": 68.71722033898305,
+      "column_average": 115.0481242937853,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "PAPER",
+      "column": "LABELS",
+      "orders": 80,
+      "row_average": 76.977025,
+      "column_average": 38.23095,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "PAPER",
+      "column": "MACHINES",
+      "orders": 28,
+      "row_average": 65.02007142857143,
+      "column_average": 2005.2002499999999,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "PAPER",
+      "column": "PAPER",
+      "orders": 0,
+      "row_average": null,
+      "column_average": null,
+      "visible": false,
+      "blank": true
+    },
+    {
+      "row": "PAPER",
+      "column": "PHONES",
+      "orders": 175,
+      "row_average": 82.73059428571428,
+      "column_average": 465.6885942857143,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "PAPER",
+      "column": "STORAGE",
+      "orders": 178,
+      "row_average": 75.79626966292135,
+      "column_average": 320.22747191011234,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "PAPER",
+      "column": "SUPPLIES",
+      "orders": 45,
+      "row_average": 81.78693333333332,
+      "column_average": 236.23462222222224,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "PAPER",
+      "column": "TABLES",
+      "orders": 54,
+      "row_average": 66.20081481481482,
+      "column_average": 762.8297037037037,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "PHONES",
+      "column": "NONE",
+      "orders": 200,
+      "row_average": 369.91386,
+      "column_average": null,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "PHONES",
+      "column": "ACCESSORIES",
+      "orders": 116,
+      "row_average": 404.9151724137931,
+      "column_average": 251.40281034482757,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "PHONES",
+      "column": "APPLIANCES",
+      "orders": 76,
+      "row_average": 458.80405263157894,
+      "column_average": 325.0512236842105,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "PHONES",
+      "column": "ART",
+      "orders": 124,
+      "row_average": 412.99883870967744,
+      "column_average": 47.85993548387096,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "PHONES",
+      "column": "BINDERS",
+      "orders": 199,
+      "row_average": 387.57056281407034,
+      "column_average": 165.7033065326633,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "PHONES",
+      "column": "BOOKCASES",
+      "orders": 42,
+      "row_average": 363.4993333333333,
+      "column_average": 584.6489928571428,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "PHONES",
+      "column": "CHAIRS",
+      "orders": 89,
+      "row_average": 475.035797752809,
+      "column_average": 592.7950786516855,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "PHONES",
+      "column": "COPIERS",
+      "orders": 11,
+      "row_average": 381.73581818181816,
+      "column_average": 2400.8896363636363,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "PHONES",
+      "column": "ENVELOPES",
+      "orders": 41,
+      "row_average": 475.42346341463417,
+      "column_average": 78.54809756097562,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "PHONES",
+      "column": "FASTENERS",
+      "orders": 37,
+      "row_average": 398.8525945945946,
+      "column_average": 14.437459459459461,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "PHONES",
+      "column": "FURNISHINGS",
+      "orders": 148,
+      "row_average": 474.8446486486487,
+      "column_average": 112.2584054054054,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "PHONES",
+      "column": "LABELS",
+      "orders": 58,
+      "row_average": 421.34368965517245,
+      "column_average": 34.97855172413793,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "PHONES",
+      "column": "MACHINES",
+      "orders": 22,
+      "row_average": 289.9388181818182,
+      "column_average": 1948.1494999999998,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "PHONES",
+      "column": "PAPER",
+      "orders": 175,
+      "row_average": 465.6885942857143,
+      "column_average": 82.73059428571428,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "PHONES",
+      "column": "PHONES",
+      "orders": 0,
+      "row_average": null,
+      "column_average": null,
+      "visible": false,
+      "blank": true
+    },
+    {
+      "row": "PHONES",
+      "column": "STORAGE",
+      "orders": 117,
+      "row_average": 397.5976581196581,
+      "column_average": 259.3798290598291,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "PHONES",
+      "column": "SUPPLIES",
+      "orders": 22,
+      "row_average": 492.6200909090909,
+      "column_average": 446.10118181818183,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "PHONES",
+      "column": "TABLES",
+      "orders": 52,
+      "row_average": 511.90446153846153,
+      "column_average": 495.76842307692306,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "STORAGE",
+      "column": "NONE",
+      "orders": 219,
+      "row_average": 261.3227397260274,
+      "column_average": null,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "STORAGE",
+      "column": "ACCESSORIES",
+      "orders": 103,
+      "row_average": 259.22879611650484,
+      "column_average": 220.9355922330097,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "STORAGE",
+      "column": "APPLIANCES",
+      "orders": 56,
+      "row_average": 312.22432142857144,
+      "column_average": 265.2612857142857,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "STORAGE",
+      "column": "ART",
+      "orders": 100,
+      "row_average": 327.39781999999997,
+      "column_average": 38.58766,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "STORAGE",
+      "column": "BINDERS",
+      "orders": 199,
+      "row_average": 335.2238994974874,
+      "column_average": 180.04577889447236,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "STORAGE",
+      "column": "BOOKCASES",
+      "orders": 37,
+      "row_average": 270.2694594594594,
+      "column_average": 644.4925324324324,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "STORAGE",
+      "column": "CHAIRS",
+      "orders": 83,
+      "row_average": 342.5474698795181,
+      "column_average": 643.8941445783132,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "STORAGE",
+      "column": "COPIERS",
+      "orders": 12,
+      "row_average": 409.8951666666667,
+      "column_average": 4221.630666666667,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "STORAGE",
+      "column": "ENVELOPES",
+      "orders": 38,
+      "row_average": 283.5122105263158,
+      "column_average": 90.56163157894737,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "STORAGE",
+      "column": "FASTENERS",
+      "orders": 37,
+      "row_average": 155.02086486486488,
+      "column_average": 13.737729729729729,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "STORAGE",
+      "column": "FURNISHINGS",
+      "orders": 138,
+      "row_average": 329.99068115942026,
+      "column_average": 97.19846376811594,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "STORAGE",
+      "column": "LABELS",
+      "orders": 61,
+      "row_average": 259.3237049180328,
+      "column_average": 26.000885245901642,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "STORAGE",
+      "column": "MACHINES",
+      "orders": 21,
+      "row_average": 298.724,
+      "column_average": 1878.9196190476189,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "STORAGE",
+      "column": "PAPER",
+      "orders": 178,
+      "row_average": 320.22747191011234,
+      "column_average": 75.79626966292135,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "STORAGE",
+      "column": "PHONES",
+      "orders": 117,
+      "row_average": 259.3798290598291,
+      "column_average": 397.5976581196581,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "STORAGE",
+      "column": "STORAGE",
+      "orders": 0,
+      "row_average": null,
+      "column_average": null,
+      "visible": false,
+      "blank": true
+    },
+    {
+      "row": "STORAGE",
+      "column": "SUPPLIES",
+      "orders": 31,
+      "row_average": 220.12083870967743,
+      "column_average": 332.6828387096774,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "STORAGE",
+      "column": "TABLES",
+      "orders": 48,
+      "row_average": 254.02916666666667,
+      "column_average": 601.5030729166666,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "SUPPLIES",
+      "column": "NONE",
+      "orders": 43,
+      "row_average": 142.98283720930232,
+      "column_average": null,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "SUPPLIES",
+      "column": "ACCESSORIES",
+      "orders": 25,
+      "row_average": 403.41136,
+      "column_average": 200.84671999999998,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "SUPPLIES",
+      "column": "APPLIANCES",
+      "orders": 24,
+      "row_average": 94.91308333333335,
+      "column_average": 215.72733333333335,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "SUPPLIES",
+      "column": "ART",
+      "orders": 29,
+      "row_average": 318.13641379310343,
+      "column_average": 52.76889655172414,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "SUPPLIES",
+      "column": "BINDERS",
+      "orders": 43,
+      "row_average": 191.26055813953488,
+      "column_average": 77.68069767441861,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "SUPPLIES",
+      "column": "BOOKCASES",
+      "orders": 10,
+      "row_average": 570.8788000000001,
+      "column_average": 415.95202,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "SUPPLIES",
+      "column": "CHAIRS",
+      "orders": 19,
+      "row_average": 39.984842105263155,
+      "column_average": 569.0856842105263,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "SUPPLIES",
+      "column": "COPIERS",
+      "orders": 4,
+      "row_average": 105.306,
+      "column_average": 1369.9695,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "SUPPLIES",
+      "column": "ENVELOPES",
+      "orders": 5,
+      "row_average": 149.49920000000003,
+      "column_average": 50.293600000000005,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "SUPPLIES",
+      "column": "FASTENERS",
+      "orders": 11,
+      "row_average": 408.2418181818182,
+      "column_average": 11.612363636363638,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "SUPPLIES",
+      "column": "FURNISHINGS",
+      "orders": 31,
+      "row_average": 497.8880645161291,
+      "column_average": 96.81264516129032,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "SUPPLIES",
+      "column": "LABELS",
+      "orders": 18,
+      "row_average": 25.176444444444442,
+      "column_average": 50.574666666666666,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "SUPPLIES",
+      "column": "MACHINES",
+      "orders": 1,
+      "row_average": 15.88,
+      "column_average": 837.6,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "SUPPLIES",
+      "column": "PAPER",
+      "orders": 45,
+      "row_average": 236.23462222222224,
+      "column_average": 81.78693333333332,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "SUPPLIES",
+      "column": "PHONES",
+      "orders": 22,
+      "row_average": 446.10118181818183,
+      "column_average": 492.6200909090909,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "SUPPLIES",
+      "column": "STORAGE",
+      "orders": 31,
+      "row_average": 332.6828387096774,
+      "column_average": 220.12083870967743,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "SUPPLIES",
+      "column": "SUPPLIES",
+      "orders": 0,
+      "row_average": null,
+      "column_average": null,
+      "visible": false,
+      "blank": true
+    },
+    {
+      "row": "SUPPLIES",
+      "column": "TABLES",
+      "orders": 11,
+      "row_average": 69.68781818181819,
+      "column_average": 589.0951818181818,
+      "visible": false,
+      "blank": false
+    },
+    {
+      "row": "TABLES",
+      "column": "NONE",
+      "orders": 95,
+      "row_average": 651.8345947368422,
+      "column_average": null,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "TABLES",
+      "column": "ACCESSORIES",
+      "orders": 44,
+      "row_average": 802.3617954545455,
+      "column_average": 358.3158181818182,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "TABLES",
+      "column": "APPLIANCES",
+      "orders": 30,
+      "row_average": 567.7705333333332,
+      "column_average": 174.11673333333334,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "TABLES",
+      "column": "ART",
+      "orders": 38,
+      "row_average": 585.3103815789474,
+      "column_average": 19.12584210526316,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "TABLES",
+      "column": "BINDERS",
+      "orders": 71,
+      "row_average": 676.1250422535211,
+      "column_average": 63.868464788732396,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "TABLES",
+      "column": "BOOKCASES",
+      "orders": 9,
+      "row_average": 907.0826666666667,
+      "column_average": 443.6317222222222,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "TABLES",
+      "column": "CHAIRS",
+      "orders": 31,
+      "row_average": 584.2701290322581,
+      "column_average": 671.4385161290323,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "TABLES",
+      "column": "COPIERS",
+      "orders": 2,
+      "row_average": 765.303,
+      "column_average": 1199.978,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "TABLES",
+      "column": "ENVELOPES",
+      "orders": 12,
+      "row_average": 556.6042083333333,
+      "column_average": 53.958333333333336,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "TABLES",
+      "column": "FASTENERS",
+      "orders": 10,
+      "row_average": 372.7685,
+      "column_average": 15.8582,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "TABLES",
+      "column": "FURNISHINGS",
+      "orders": 44,
+      "row_average": 634.2123068181818,
+      "column_average": 109.96827272727273,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "TABLES",
+      "column": "LABELS",
+      "orders": 17,
+      "row_average": 773.5825294117648,
+      "column_average": 25.06905882352941,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "TABLES",
+      "column": "MACHINES",
+      "orders": 6,
+      "row_average": 488.78683333333333,
+      "column_average": 1464.0663333333334,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "TABLES",
+      "column": "PAPER",
+      "orders": 54,
+      "row_average": 762.8297037037037,
+      "column_average": 66.20081481481482,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "TABLES",
+      "column": "PHONES",
+      "orders": 52,
+      "row_average": 495.76842307692306,
+      "column_average": 511.90446153846153,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "TABLES",
+      "column": "STORAGE",
+      "orders": 48,
+      "row_average": 601.5030729166666,
+      "column_average": 254.02916666666667,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "TABLES",
+      "column": "SUPPLIES",
+      "orders": 11,
+      "row_average": 589.0951818181818,
+      "column_average": 69.68781818181819,
+      "visible": true,
+      "blank": false
+    },
+    {
+      "row": "TABLES",
+      "column": "TABLES",
+      "orders": 0,
+      "row_average": null,
+      "column_average": null,
+      "visible": false,
+      "blank": true
+    }
+  ],
+  "runtime_status": "NOT RUN: parent owns Desktop, render and hover checks"
+}

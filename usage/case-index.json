@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "generated_from": "iterations/*/case.yaml",
-  "active_case_count": 112,
+  "active_case_count": 113,
   "legacy_case_ids": {
     "donna-2019-07-18-63877b35d19a": "wow-2019-ww29-high-orders",
     "donna-2019-07-25-59a0a144b25b": "wow-2019-ww30-navigation-kpi",
@@ -6419,6 +6419,78 @@
         "Real day 1/day 24/star hover, 2018/2019 selection (10/3), Ctrl-multiselect 2018+2020 (15), clear (25 including star), ornament no-grey and actual challenge URL popup passed. Frozen workbook unchanged; earlier MFA-unavailable note is superseded by the authenticated browser run."
       ],
       "metadata": "iterations/2021-12-02-ww48-tableau-coaches-favourite-challenges-advent-calendar/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.29.0a2"
+    },
+    {
+      "case_id": "wow-2021-ww49-which-sub-categories-are-frequently-ordered-together",
+      "legacy_case_ids": {},
+      "iteration_id": "2021-12-12-ww49-which-sub-categories-are-frequently-ordered-together",
+      "article_date": "2021-12-12",
+      "challenge_year": 2021,
+      "challenge_week": 49,
+      "challenge_date": "2021-12-08",
+      "date_evidence": {
+        "article_date": "Declared article publication date in iteration_id",
+        "challenge": "Article explicitly identifies Week 49 of 2021; official post title agrees. Historical 2018 first Tableau link intentionally ignored.",
+        "challenge_date": "Official WordPress post 6494 date 2021-12-08T08:00:59; evidence/official-date.json"
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2021w49tab/"
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2021/12/12/which-sub-categories-are-frequently-ordered-together/",
+          "path": null,
+          "sha256": "d9dac3c327b7b3f2870550c86ad3e5b9e3167433074278ac1ea2f242a290bfd0"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/app/profile/donna.coles/viz/2021_12_08_WW49_FrequencyMatrix/2021_12_08_WW49_Frequency_Matrix",
+          "filename": "2021_12_08_WW49_FrequencyMatrix.twbx",
+          "sha256": "13fbad267c5951a30ed56ad45a6698fa7bacab3e281c36142e5573221cf07708"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "workaround",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [
+        {
+          "path": "outputs/role-probe.twbx",
+          "role": "probe",
+          "note": "Pre-runtime baseline probe retained for audit: triangle was emitted with None derivation. Superseded by explicit public table_calc metadata and measure role. Not a passing runtime artifact."
+        },
+        {
+          "path": "outputs/baseline-822ce844.twbx",
+          "role": "probe",
+          "note": "Numerically reviewed baseline with clipped headers; unchanged hash-bound evidence in evidence/archive-822ce844. Superseded by header sizing fix."
+        }
+      ],
+      "evidence": [
+        "inputs/source-lock.json",
+        "evidence/official-date.json",
+        "evidence/baseline-0.29.0a2.json",
+        "outputs/verification.json",
+        "HANDOFF.md",
+        "evidence/header-fix.json",
+        "evidence/cloud-verification.json",
+        "evidence/desktop-verification.json",
+        "evidence/independent-review.json",
+        "evidence/desktop-corpus.json",
+        "evidence/browser-20261030/report.json"
+      ],
+      "notes": [
+        "Template 0.26.0 blocked entry was scaffold placeholder, not a real run; replaced by the first actual 0.29.0a2 baseline.",
+        "No author workbook is copied into the iteration. Historical role-probe is checked separately in the frozen manifest; fresh verifier never requires archives removed by CI.",
+        "Real NONE and two category-pair tooltips passed all counts, currency and conditional text. Native selection/clear preserved the 153-cell lower triangle and category order. Frozen workbook unchanged; earlier MFA-unavailable note is superseded by the authenticated browser run."
+      ],
+      "metadata": "iterations/2021-12-12-ww49-which-sub-categories-are-frequently-ordered-together/case.yaml",
       "metadata_contract": "1.1.0",
       "tested_sdk_version": "0.29.0a2"
     },

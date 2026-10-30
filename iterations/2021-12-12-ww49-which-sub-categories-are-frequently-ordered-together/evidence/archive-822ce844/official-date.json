@@ -1,0 +1,13 @@
+{
+  "url": "https://www.workout-wednesday.com/wp-json/wp/v2/posts?slug=2021w49tab&_fields=id,date,link,title",
+  "response": [
+    {
+      "id": 6494,
+      "date": "2021-12-08T08:00:59",
+      "link": "https://www.workout-wednesday.com/2021w49tab/",
+      "title": {
+        "rendered": "2021 Week 49 | Tableau: Frequency Matrix Redux"
+      }
+    }
+  ]
+}
