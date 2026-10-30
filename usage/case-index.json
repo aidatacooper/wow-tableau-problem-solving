@@ -6336,9 +6336,9 @@
           "sha256": "13fbad267c5951a30ed56ad45a6698fa7bacab3e281c36142e5573221cf07708"
         }
       },
-      "functional_status": "partial",
+      "functional_status": "replicated",
       "visual_status": "acceptable_delta",
-      "verification_status": "pending",
+      "verification_status": "verified",
       "cwtwb_result": "workaround",
       "artifacts": {
         "primary_workbook": "outputs/replicated-workbook.twbx",
@@ -6368,11 +6368,13 @@
         "evidence/cloud-verification.json",
         "evidence/desktop-verification.json",
         "evidence/independent-review.json",
-        "evidence/desktop-corpus.json"
+        "evidence/desktop-corpus.json",
+        "evidence/browser-20261030/report.json"
       ],
       "notes": [
         "Template 0.26.0 blocked entry was scaffold placeholder, not a real run; replaced by the first actual 0.29.0a2 baseline.",
-        "No author workbook is copied into the iteration. Historical role-probe is checked separately in the frozen manifest; fresh verifier never requires archives removed by CI."
+        "No author workbook is copied into the iteration. Historical role-probe is checked separately in the frozen manifest; fresh verifier never requires archives removed by CI.",
+        "Real NONE and two category-pair tooltips passed all counts, currency and conditional text. Native selection/clear preserved the 153-cell lower triangle and category order. Frozen workbook unchanged; earlier MFA-unavailable note is superseded by the authenticated browser run."
       ],
       "metadata": "iterations/2021-12-12-ww49-which-sub-categories-are-frequently-ordered-together/case.yaml",
       "metadata_contract": "1.1.0",

@@ -1210,8 +1210,8 @@
       "workbook_ids": [],
       "iteration": "2021-12-12-ww49-which-sub-categories-are-frequently-ordered-together",
       "status": "consumed",
-      "replication_status": "partial",
-      "verification_status": "pending",
+      "replication_status": "replicated",
+      "verification_status": "verified",
       "cwtwb_version": "0.29.0a2",
       "reason": "Derived from case metadata; consumed means claimed, not verified completed."
     },

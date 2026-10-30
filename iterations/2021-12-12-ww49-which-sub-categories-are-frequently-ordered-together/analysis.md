@@ -93,3 +93,8 @@ Explicit table_calc metadata is supplied for both INDEX fields and the nominal
 boolean measure Triangle so its instance uses User derivation. The earlier
 None-derivation workbook is retained only as outputs/role-probe.twbx, declared
 role probe with a supersession note. It has no runtime pass claim.
+
+
+## Completed real browser acceptance (supersedes pending interaction notes)
+
+Real NONE and two category-pair tooltips passed all counts, currency and conditional text. Native selection/clear preserved the 153-cell lower triangle and category order. Artifact SHA256 remains `09708672f5f140fb57f4d07d335c65610d8a5ff9a201378050a11ba508849dde`. Evidence: `evidence/browser-20261030/report.json`. Functional replicated, verification verified, visual acceptable_delta, SDK workaround. No SDK/builder/artifact edits or new Desktop/corpus run; existing hash-bound gates still apply.

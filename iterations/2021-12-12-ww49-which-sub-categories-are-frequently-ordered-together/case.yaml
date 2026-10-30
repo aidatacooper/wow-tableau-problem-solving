@@ -9,8 +9,8 @@ challenge_week: 49
 challenge_date: '2021-12-08'
 date_evidence:
   article_date: Declared article publication date in iteration_id
-  challenge: Article explicitly identifies Week 49 of 2021; official post title agrees.
-    Historical 2018 first Tableau link intentionally ignored.
+  challenge: Article explicitly identifies Week 49 of 2021; official post title agrees. Historical
+    2018 first Tableau link intentionally ignored.
   challenge_date: Official WordPress post 6494 date 2021-12-08T08:00:59; evidence/official-date.json
 source:
   challenge:
@@ -23,7 +23,7 @@ source:
     url: https://public.tableau.com/app/profile/donna.coles/viz/2021_12_08_WW49_FrequencyMatrix/2021_12_08_WW49_Frequency_Matrix
     filename: 2021_12_08_WW49_FrequencyMatrix.twbx
     sha256: 13fbad267c5951a30ed56ad45a6698fa7bacab3e281c36142e5573221cf07708
-verification_status: pending
+verification_status: verified
 artifacts:
   primary_workbook: outputs/replicated-workbook.twbx
   cloud_author: outputs/cloud-author.png
@@ -32,9 +32,9 @@ artifact_aliases: {}
 historical_artifacts:
 - path: outputs/role-probe.twbx
   role: probe
-  note: 'Pre-runtime baseline probe retained for audit: triangle was emitted with
-    None derivation. Superseded by explicit public table_calc metadata and measure
-    role. Not a passing runtime artifact.'
+  note: 'Pre-runtime baseline probe retained for audit: triangle was emitted with None derivation.
+    Superseded by explicit public table_calc metadata and measure role. Not a passing runtime
+    artifact.'
 - path: outputs/baseline-822ce844.twbx
   role: probe
   note: Numerically reviewed baseline with clipped headers; unchanged hash-bound evidence
@@ -50,12 +50,16 @@ evidence:
 - evidence/desktop-verification.json
 - evidence/independent-review.json
 - evidence/desktop-corpus.json
+- evidence/browser-20261030/report.json
 notes:
-- Template 0.26.0 blocked entry was scaffold placeholder, not a real run; replaced
-  by the first actual 0.29.0a2 baseline.
-- No author workbook is copied into the iteration. Historical role-probe is checked
-  separately in the frozen manifest; fresh verifier never requires archives removed
-  by CI.
+- Template 0.26.0 blocked entry was scaffold placeholder, not a real run; replaced by the
+  first actual 0.29.0a2 baseline.
+- No author workbook is copied into the iteration. Historical role-probe is checked separately
+  in the frozen manifest; fresh verifier never requires archives removed by CI.
+- Real NONE and two category-pair tooltips passed all counts, currency and conditional text.
+  Native selection/clear preserved the 153-cell lower triangle and category order. Frozen
+  workbook unchanged; earlier MFA-unavailable note is superseded by the authenticated browser
+  run.
 cwtwb:
   tested_version: 0.29.0a2
   runs:
@@ -65,8 +69,12 @@ cwtwb:
   - version: 0.29.0a2
     result: workaround
     evidence: evidence/header-fix.json
+  - version: 0.29.0a2
+    result: workaround
+    distribution: Published prerelease; browser acceptance of unchanged frozen build
+    evidence: evidence/browser-20261030/report.json
 analysis_status: completed
-functional_status: partial
+functional_status: replicated
 visual_status: acceptable_delta
 cwtwb_result: workaround
 inputs:
@@ -75,8 +83,8 @@ inputs:
   - inputs/Ann Jackson Superstore (Ann Jackson Superstore).hyper
 acceptance:
 - id: none-single-category
-  description: NONE contains only orders with exactly one distinct category, including
-    duplicate lines.
+  description: NONE contains only orders with exactly one distinct category, including duplicate
+    lines.
   mode: automated
 - id: distinct-order-counts
   description: All 306 cell distinct-order memberships agree with an independent raw-line
@@ -87,28 +95,27 @@ acceptance:
     and retain asymmetric amounts.
   mode: automated
 - id: missing-pairs
-  description: Empty and diagonal pairs have no real facts; null scaffolds yield blank
-    counts.
+  description: Empty and diagonal pairs have no real facts; null scaffolds yield blank counts.
   mode: automated
 - id: emitted-closure
-  description: All formulas, physical fields, dependency declarations, instances and
-    qualified references close.
+  description: All formulas, physical fields, dependency declarations, instances and qualified
+    references close.
   mode: automated
 - id: one-sheet-logical-model
-  description: Exactly one worksheet and logical datasource, two explicit objects
-    and one correct key relationship; no LOD.
+  description: Exactly one worksheet and logical datasource, two explicit objects and one
+    correct key relationship; no LOD.
   mode: automated
 - id: triangle-order
   description: Explicit category shelves, NONE-first numeric sorting and INDEX addressing
     each category retain only lower triangle.
   mode: automated
 - id: tooltip-contract
-  description: Optional second title/colon, singular/plural text, distinct count and
-    both formatted averages are bound.
+  description: Optional second title/colon, singular/plural text, distinct count and both
+    formatted averages are bound.
   mode: automated
 - id: dashboard-contract
-  description: 1100x900 dashboard contains one square matrix, embedded BuPu palette
-    and hover instructions.
+  description: 1100x900 dashboard contains one square matrix, embedded BuPu palette and hover
+    instructions.
   mode: automated
 - id: adversarial-fixtures
   description: Duplicate-line, single-category, three-category, asymmetric and absent-pair
@@ -119,18 +126,37 @@ acceptance:
     installed distribution.
   mode: automated
 - id: desktop-and-hover
-  description: 'Pending parent: Desktop loads, lower triangle and labels render, NONE
-    and pair tooltips show correct dollar amounts, selection does not change domain.'
+  description: Real NONE and two category-pair tooltips passed all counts, currency and conditional
+    text. Native selection/clear preserved the 153-cell lower triangle and category order.
   mode: manual
-  evidence: HANDOFF.md
-remaining_work: Real hover/tooltip layout, selection/clearing and domain stability
-  after selection remain unverified because browser MFA is unavailable. Current artifact
-  Desktop LOADED, 50-case corpus LOADED=50 FAIL=0 UNKNOWN=0, independent default numerical
-  and visual acceptance passed. Functional status remains partial.
+  evidence: evidence/browser-20261030/report.json
+- id: browser-none-hover
+  description: 'ACCESSORIES/NONE: 196 orders, $207.14, singular SUB-CATEGORY and only one
+    contribution line'
+  mode: manual
+  evidence: evidence/browser-20261030/report.json
+- id: browser-binders-hover
+  description: 'BINDERS/ACCESSORIES: 161 orders, $174.59/$187.08, plural SUB-CATEGORIES'
+  mode: manual
+  evidence: evidence/browser-20261030/report.json
+- id: browser-chairs-hover
+  description: 'CHAIRS/BOOKCASES: 21 orders, $553.52/$688.55'
+  mode: manual
+  evidence: evidence/browser-20261030/report.json
+- id: browser-selection-domain
+  description: 161 cell selected; all 153 cells remain in 17 rows of lengths 1 through 17
+    with unchanged labels/positions
+  mode: manual
+  evidence: evidence/browser-20261030/report.json
+- id: browser-clear-domain
+  description: Selection cleared; all 153 cells and original colors/values restored
+  mode: manual
+  evidence: evidence/browser-20261030/report.json
+remaining_work: null
 workarounds:
-- Aggregate raw sales per order/category before pair expansion; connect Pairs and
-  Contributions via a public logical equality relationship. Preserves counts and avoids
-  duplicate-line sales fanout. Complete NULL-order domain scaffolds preserve alphabetical
-  INDEX positions. See analysis.md.
+- Aggregate raw sales per order/category before pair expansion; connect Pairs and Contributions
+  via a public logical equality relationship. Preserves counts and avoids duplicate-line sales
+  fanout. Complete NULL-order domain scaffolds preserve alphabetical INDEX positions. See
+  analysis.md.
 capability_gaps: []
 related_cwtwb_issues: []
