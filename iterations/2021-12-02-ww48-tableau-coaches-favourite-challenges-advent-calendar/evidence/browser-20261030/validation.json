@@ -1,0 +1,12 @@
+{
+  "metadata_phase_boundary_catalogue": "PASS",
+  "frozen_workbook_XSD": "PASS",
+  "repository_unittests": {
+    "passed": 83,
+    "failed": 0
+  },
+  "isolated_fresh_build_and_verifier": "PASS",
+  "negative_mutations_rejected": 49,
+  "frozen_artifact_sha256_after_validation": "3980ad6e8e6cbb957d3ba19b0faf870df6482323c5bd4e876d87b5dcfeb1069f",
+  "desktop_and_corpus": "Existing hash-bound Desktop LOADED and 50-case corpus PASS retained; no artifact changes and no rerun."
+}

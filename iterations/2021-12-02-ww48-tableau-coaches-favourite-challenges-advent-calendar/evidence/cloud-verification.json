@@ -1,0 +1,73 @@
+{
+  "case_id": "wow-2021-ww48-tableau-coaches-favourite-challenges-advent-calendar",
+  "captured_at": "2026-10-29T17:09:00.653490+00:00",
+  "source_hashes": {
+    "author": "1ea52f6b76ad147915f9455f31892e2a41a4003b6cfe1afa88f6b37e86fbe837",
+    "replica": "3980ad6e8e6cbb957d3ba19b0faf870df6482323c5bd4e876d87b5dcfeb1069f"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "63ffb762-da09-4bc2-b919-51b560ed497a",
+      "name": "cwtwb-review-wow-2021-ww48-tableau-coaches-favourite-challenges-advent-calendar-author-1ea52f6b76ad",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/3098144",
+      "views": [
+        {
+          "name": "2021_12_01_WW48_Advent_Calendar",
+          "id": "e0f73598-fc56-4caf-91fa-346496cdbe75"
+        }
+      ]
+    },
+    "replica": {
+      "id": "566dc738-2737-44fb-9054-f3af1a956dbb",
+      "name": "cwtwb-review-wow-2021-ww48-tableau-coaches-favourite-challenges-advent-calendar-replica-3980ad6e8e6c",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/3098192",
+      "views": [
+        {
+          "name": "Tree",
+          "id": "7daee796-1ff8-4275-abc0-c14cc1a114e5"
+        },
+        {
+          "name": "Bar",
+          "id": "57e205a5-9e3a-421c-872b-b1f85496feca"
+        },
+        {
+          "name": "Advent Calendar",
+          "id": "da15efec-0c21-4cef-a202-1260e06cb3ae"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "e0f73598-fc56-4caf-91fa-346496cdbe75",
+          "name": "2021_12_01_WW48_Advent_Calendar",
+          "path": "outputs/cloud-author.png",
+          "sha256": "3ce9794e05960dba09d6545658604ca91da96348e4b7bd4a9fce8f67ff45f8ac",
+          "size": [
+            2000,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "da15efec-0c21-4cef-a202-1260e06cb3ae",
+          "name": "Advent Calendar",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "686c4e5cac9cf33286a4f3880ca1856fed9b8a39eef7e3fe54205e664d455258",
+          "size": [
+            2000,
+            1600
+          ]
+        }
+      },
+      "data": []
+    }
+  ],
+  "status": "captured_requires_independent_review"
+}

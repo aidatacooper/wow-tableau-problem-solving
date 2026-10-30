@@ -1,0 +1,52 @@
+[
+  {
+    "original": "evidence/cloud-csv.json",
+    "archive": "evidence/runtime-264257cd/cloud-csv.json",
+    "sha256": "90c8053ce9f691d398824771e85bd48124fe1e8305dd0689520f0d0b4d29c79b"
+  },
+  {
+    "original": "evidence/cloud-request.json",
+    "archive": "evidence/runtime-264257cd/cloud-request.json",
+    "sha256": "a8d0340382a003cee483d9df7a0cb6ea1dfe4a1b49a84170b9c3dc68cf2a10a9"
+  },
+  {
+    "original": "evidence/cloud-verification.json",
+    "archive": "evidence/runtime-264257cd/cloud-verification.json",
+    "sha256": "57e520684eac00aa95c8e133467f15db8d29313573d66ba177484e9eb3c63d21"
+  },
+  {
+    "original": "outputs/cloud-author.png",
+    "archive": "evidence/runtime-264257cd/cloud-author.png",
+    "sha256": "3ce9794e05960dba09d6545658604ca91da96348e4b7bd4a9fce8f67ff45f8ac"
+  },
+  {
+    "original": "outputs/cloud-replica.png",
+    "archive": "evidence/runtime-264257cd/cloud-replica.png",
+    "sha256": "f91a0ddf4288631ccfe918f73076be745abb05271316273284453cda9514aabc"
+  },
+  {
+    "original": "outputs/runtime-replica-advent-calendar-default.csv",
+    "archive": "evidence/runtime-264257cd/runtime-replica-advent-calendar-default.csv",
+    "sha256": "6216b92334a71180deed836936a143ea1ac393a3ee69386814380bd587f6074a"
+  },
+  {
+    "original": "outputs/runtime-replica-bar-default.csv",
+    "archive": "evidence/runtime-264257cd/runtime-replica-bar-default.csv",
+    "sha256": "6216b92334a71180deed836936a143ea1ac393a3ee69386814380bd587f6074a"
+  },
+  {
+    "original": "outputs/runtime-replica-tree-default.csv",
+    "archive": "evidence/runtime-264257cd/runtime-replica-tree-default.csv",
+    "sha256": "89b92574d108cd62f5e3dfa9d1b0d35badde9273d439b80c0c50cd5795135f98"
+  },
+  {
+    "original": "outputs/background-verification.json",
+    "archive": "evidence/runtime-264257cd/background-verification.json",
+    "sha256": "32d8ee169cf8ad5aece75a313d18b50e912d406eb38908e8cec56de0f138cce2"
+  },
+  {
+    "original": "outputs/background-build-provenance.json",
+    "archive": "evidence/runtime-264257cd/background-build-provenance.json",
+    "sha256": "5fcb3d3ea60a3ee6e222ee2c7d18526ffb005daf7d71b2780b09335556a05665"
+  }
+]

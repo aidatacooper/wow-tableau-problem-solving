@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-30",
+  "source_workbook": {
+    "filename": "2021_01_12_WW48_Advent_Calendar.twbx",
+    "bytes": 58340,
+    "sha256": "1ea52f6b76ad147915f9455f31892e2a41a4003b6cfe1afa88f6b37e86fbe837",
+    "url": "https://public.tableau.com/views/2021_01_12_WW48_Advent_Calendar/2021_12_01_WW48_Advent_Calendar"
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Extracts/federated_0647kt40xit7hq0zxnps10.hyper",
+      "file": "inputs/federated_0647kt40xit7hq0zxnps10.hyper",
+      "bytes": 65536,
+      "sha256": "fbda1e195100e8152df4102142326aaee48bccae26da5b6ab137f4d5095c3efe"
+    },
+    {
+      "archive_path": "Data/Extracts/federated_04jakgc1k2a0xz1dyckmx0.hyper",
+      "file": "inputs/federated_04jakgc1k2a0xz1dyckmx0.hyper",
+      "bytes": 65536,
+      "sha256": "3391a31672f8605f02718cd12d294277db1ac3623d51a9701ca1c103dfff57d5"
+    }
+  ],
+  "source_workbook_used_by_builder": false,
+  "extracted_assets": [
+    {
+      "file": "inputs/assets/christmas-ornament.png",
+      "bytes": 14488,
+      "sha256": "d8f24087b816b054f316f38b538c1c8158fc724a7c79e67f3071e870c7aceb90",
+      "origin": "embedded shape Xmas/christmas-ornament.png"
+    },
+    {
+      "file": "inputs/assets/christmas-tree.png",
+      "bytes": 11910,
+      "sha256": "0e33dd8779eb358967b118e53e9a707791a3fadb1de87dc9f13ffc0c7cc9e245",
+      "origin": "Image/christmas-tree.png"
+    },
+    {
+      "file": "inputs/assets/star.png",
+      "bytes": 13963,
+      "sha256": "7b30fad4ff7f62a6b762a6c2740b549ca7dcae1d6a41dfd1165eb9bd7016d51b",
+      "origin": "embedded shape Xmas/star.png"
+    }
+  ],
+  "derived_data": [
+    {
+      "file": "inputs/gradient.csv",
+      "bytes": 56385,
+      "sha256": "621be5937e60d4960616549dcf6ff049808f8a5f13aa9366d49e85e67540294d",
+      "derivation": "500 equal-width segments per year, counted from non-null Day records of the extracted calendar Hyper; independent oracle rechecks every row."
+    },
+    {
+      "file": "inputs/gradient.hyper",
+      "bytes": 131072,
+      "sha256": "1d29ba8aa143ba5fc2170e4c22358a3c89324f78a81d881f7157aa3040ce52a7",
+      "derivation": "Typed Hyper serialization of gradient.csv; verifier checks every cell."
+    },
+    {
+      "file": "inputs/calendar.hyper",
+      "bytes": 131072,
+      "sha256": "74c40212aa0173fbefa24403c6a9cf8652c74ff03098c9cc4d05e127a10a059f",
+      "derivation": "Union of 25 unchanged calendar records (Kind Tree) and 2000 gradient records (Kind Bar), allowing same-datasource native Year filter actions."
+    }
+  ]
+}

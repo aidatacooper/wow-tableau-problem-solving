@@ -1,0 +1,24 @@
+{
+  "sdk_version": "0.29.0a2",
+  "cause": "set_shape_palette emits datasource style field without declaring its column-instance at datasource scope",
+  "repair": "Declare instance from own worksheet dependency and use explicit embedded-shape mapping without unregistered custom palette name",
+  "runtime": "Not executed; static reproducer plus parent case failure evidence, recapture required",
+  "results": [
+    {
+      "file": "shape-binding-before.twbx",
+      "sha256": "c32e1ca74219c8a20955d1e1620a96c7f73daa1662c7b8bfff1f64aba9a50930",
+      "shape_style_field": "[none:Calculation_2F354C52AB834B9285422640596E3697:nk]",
+      "datasource_binding_present": false,
+      "palette": "Synthetic",
+      "embedded_shapes": 1
+    },
+    {
+      "file": "shape-binding-corrected.twbx",
+      "sha256": "7ad92614ec49cbd2ee64f172ba9278e8f27cf3dfc25d89d5a1fdfe8a0fbcf31b",
+      "shape_style_field": "[none:Calculation_2F354C52AB834B9285422640596E3697:nk]",
+      "datasource_binding_present": true,
+      "palette": null,
+      "embedded_shapes": 1
+    }
+  ]
+}

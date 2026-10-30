@@ -1,0 +1,122 @@
+C:\Users\imgwho\.t3\worktrees\wow-tableau-problem-solving\t3-518c0bcc\iterations\2021-12-02-ww48-tableau-coaches-favourite-challenges-advent-calendar\outputs\replicated-workbook.twbx
+{
+  "result": "PASS corrected file URI, datasource shape binding and ascending gradient contracts; parent recapture pending",
+  "workbook_sha256": "3980ad6e8e6cbb957d3ba19b0faf870df6482323c5bd4e876d87b5dcfeb1069f",
+  "oracle": {
+    "counts": {
+      "2018": 10,
+      "2021": 6,
+      "2019": 3,
+      "2020": 5
+    },
+    "tree_marks": 25,
+    "segments": 2000,
+    "selected_days": {
+      "2018": [
+        4,
+        10,
+        13,
+        14,
+        16,
+        18,
+        20,
+        21,
+        23,
+        24
+      ],
+      "2021": [
+        1,
+        7,
+        8,
+        15,
+        19,
+        22
+      ],
+      "2019": [
+        9,
+        12,
+        17
+      ],
+      "2020": [
+        2,
+        3,
+        5,
+        6,
+        11
+      ]
+    },
+    "clear_selection_marks": 25
+  },
+  "contracts": {
+    "native_background_present": true
+  },
+  "negative_mutations_rejected": 49,
+  "mutation_names": [
+    "wrong-coordinate",
+    "remove-shapes",
+    "wrong-star-size",
+    "break-formula",
+    "wrong-bar-grain",
+    "remove-gradient",
+    "wrong-clear",
+    "wrong-url",
+    "break-highlight",
+    "wrong-dashboard-size",
+    "shape-missing-datasource-binding",
+    "gradient-descending-coordinate",
+    "foreign-mark-datasource",
+    "foreign-tooltip-datasource",
+    "wrong-valid-tooltip-binding",
+    "local-global-formula-inconsistency",
+    "local-raw-role-inconsistency",
+    "local-raw-type-inconsistency",
+    "categorical-size-reversed",
+    "boolean-category-type",
+    "kind-filter-wrong-level",
+    "kind-filter-wrong-identity",
+    "kind-filter-exclusion",
+    "kind-filter-extra-member",
+    "action-filter-wrong-valid-level",
+    "filter-command-type",
+    "filter-command-target",
+    "filter-multiselect",
+    "filter-source-expression",
+    "url-activation",
+    "url-source",
+    "highlight-source",
+    "highlight-activation",
+    "highlight-target",
+    "highlight-exclusion",
+    "background-quoted-path-regression",
+    "shape-unregistered-palette",
+    "gradient-reversed-palette",
+    "gradient-shifted-domain",
+    "background-swapped-field",
+    "background-foreign-field",
+    "background-nonnumeric-field",
+    "background-wrong-bound",
+    "background-nonfinite-bound",
+    "background-resource-reference",
+    "background-aspect-lock",
+    "gradient-width-data",
+    "missing-background-resource",
+    "corrupt-background-resource"
+  ],
+  "public_conversion_roundtrip": "PASS mapping/contracts/resources/XSD",
+  "historical_checked": [],
+  "prior_runtime_capture": null,
+  "acceptance": [
+    "raw-data-oracle",
+    "tree-marks",
+    "gradient-bars",
+    "url-and-filter-actions",
+    "portable-assets",
+    "dependency-closure",
+    "negative-mutations",
+    "native-tree-background",
+    "shape-datasource-binding",
+    "ascending-gradient"
+  ],
+  "runtime": "Parent capture of prior 264257cd failed rendering. Corrected artifact has NOT been rendered; parent recapture and live interactions remain pending."
+}
+PASS: iterations\2021-12-02-ww48-tableau-coaches-favourite-challenges-advent-calendar

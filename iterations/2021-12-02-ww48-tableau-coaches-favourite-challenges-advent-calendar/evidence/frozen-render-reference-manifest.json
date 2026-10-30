@@ -1,0 +1,33 @@
+{
+  "supersedes_commit": "916452897859a394a404ef3014e26196636fd5df",
+  "sdk_distribution": "PyPI cwtwb==0.29.0a2",
+  "files": {
+    "build_replication.py": "5ea4bce3205d9d60e8745a2e9452ffb710a97e99fcf38b9d13a88eba16bf0993",
+    "verify_replication.py": "dc07ac18044e2cf23e124d3211ce0e8f743ad80806945c082d51148348b4f88c",
+    "probe_shape_binding.py": "6abbc6f19547789d800ad8461925c062c8c8b96c67a4ac47db0c3e6ed04c6dcf",
+    "analysis.md": "ab671a3c1248c19409d6acfb3190b957cceb748f8399afff5755d21842603f89",
+    "case.yaml": "7c92d0e6d43202480bb7df509e65fc3079db333b5c6e5ab8e820e7dfb51e6b84",
+    "inputs/source-lock.json": "f0d370927252aa304604497b368e79896420e2ed2bb433edbe04618bd6069818",
+    "outputs/replicated-workbook.twbx": "3980ad6e8e6cbb957d3ba19b0faf870df6482323c5bd4e876d87b5dcfeb1069f",
+    "outputs/frozen-264257cd.twbx": "264257cd5b710753e4c13ac5f4737d0740af3517e1d659c5a7bd03c8d3aae0b7",
+    "outputs/render-reference-build-provenance.json": "c3f763074447076a940242ee15f8e7d37b5ebf4ea55cdc9467bea462a80bf0b6",
+    "outputs/render-reference-verification.json": "26b27deac31d8acd26bd4ea367090a370aceeda636449ed8dbe398f83af73638",
+    "evidence/shape-binding-reproducer.json": "d4cf57c7ee3862fdb46caf86dd5a0e2a95eb6937de94895e7eeaf2e1ff32917e",
+    "evidence/runtime-264257cd/preservation.json": "c82a19bf958490c2543b2e18bfb8d6e60edc09595bf14241c0e2d8d5510584a7",
+    "evidence/render-reference-diagnosis.md": "d942dc9f05ad1eabf502cdb4a87923771b7abc7dd4e0750151495e561a1cb4d5",
+    "evidence/validation-render-references.txt": "ed02138503c3378beca422edbb0fcf117a69020ca1e8702551ca68fce18448f1",
+    "evidence/repository-tests-render-references.txt": "b04f9db424eaba9e9a1e89130be3e6a75b7b67313662c917caaecf3343fa690c",
+    "evidence/isolated-validation-render-references.txt": "6463242a2dbd5093fe865683557328cb0161d49d3b2ecf766982c41fa2db9623"
+  },
+  "prior_capture_hash": "264257cd5b710753e4c13ac5f4737d0740af3517e1d659c5a7bd03c8d3aae0b7",
+  "prior_capture_result": "FAIL rendering; see immutable PNG/CSV archive",
+  "prior_capture_original_and_archive_bytes_preserved": true,
+  "prior_runs_unchanged": 4,
+  "local_gates": {
+    "static_validation": "PASS",
+    "repository_tests": 83,
+    "negative_mutations": 49,
+    "isolated_build": "PASS"
+  },
+  "corrected_runtime_result": "NOT TESTED; parent recapture required"
+}

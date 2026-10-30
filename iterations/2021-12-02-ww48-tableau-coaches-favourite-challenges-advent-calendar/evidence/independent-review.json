@@ -1,0 +1,15 @@
+{
+  "model": "gpt-6.1-sol",
+  "workbook_sha256": "3980ad6e8e6cbb957d3ba19b0faf870df6482323c5bd4e876d87b5dcfeb1069f",
+  "result": "default numerical and visual acceptance passes",
+  "finding": "Stale descriptions corrected; prior failure archived",
+  "verified": [
+    "actual PNGs and evidence hashes",
+    "24 ornaments plus star",
+    "year counts 10/3/5/6",
+    "2000 gradient segments",
+    "49 rejected mutations",
+    "supplied Desktop LOADED and corpus50LOADED"
+  ],
+  "live_interactions_executed": false
+}
