@@ -1,0 +1,108 @@
+{
+  "case_id": "wow-2021-ww49-which-sub-categories-are-frequently-ordered-together",
+  "captured_at": "2026-10-29T16:44:14.531655+00:00",
+  "source_hashes": {
+    "author": "13fbad267c5951a30ed56ad45a6698fa7bacab3e281c36142e5573221cf07708",
+    "replica": "822ce8440be214d935bc34a1bf6106c9840d4a72954406e9834be5a12b31eeb2"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "79add540-a5c1-47e5-9b65-f481396cb97f",
+      "name": "cwtwb-review-wow-2021-ww49-which-sub-categories-are-frequently-ordered-together-author-13fbad267c59",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/3098066",
+      "views": [
+        {
+          "name": "2021_12_08_WW49_Frequency_Matrix",
+          "id": "cc62e0d3-71af-4d82-8585-0c31fa2fbbc9"
+        },
+        {
+          "name": "CHK:1",
+          "id": "270d588a-f354-42d5-b05e-a47396531ce8"
+        },
+        {
+          "name": "CHK:2",
+          "id": "15ed1518-072e-49eb-9005-7dfb6d08d12f"
+        },
+        {
+          "name": "CHK:3",
+          "id": "6b714d5c-8265-4c73-9f43-ce5f27ed8b93"
+        },
+        {
+          "name": "CHK:4",
+          "id": "65a9860e-23ce-4cfc-9733-95bb06e95496"
+        }
+      ]
+    },
+    "replica": {
+      "id": "bfbb5b23-e59e-4820-9131-aa120595d969",
+      "name": "cwtwb-review-wow-2021-ww49-which-sub-categories-are-frequently-ordered-together-replica-822ce8440be2",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/3098067",
+      "views": [
+        {
+          "name": "Frequency Matrix",
+          "id": "447b7ce8-4809-487b-9f1b-7aaab2cdbdcc"
+        },
+        {
+          "name": "2021 Week 49 - Frequency Matrix",
+          "id": "f48a8bc9-1ad2-42c8-bb5a-eeb48f959156"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "cc62e0d3-71af-4d82-8585-0c31fa2fbbc9",
+          "name": "2021_12_08_WW49_Frequency_Matrix",
+          "path": "outputs/cloud-author.png",
+          "sha256": "bf23b930b174640a65479d952f1eee3ebc2e8501e264f9624d70fdd3cf0eac4d",
+          "size": [
+            2200,
+            1800
+          ]
+        },
+        "replica": {
+          "id": "f48a8bc9-1ad2-42c8-bb5a-eeb48f959156",
+          "name": "2021 Week 49 - Frequency Matrix",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "d194d678debba66f40a3e006ac63f2dbe1ececb6157c17792f71e64fd18bd79e",
+          "size": [
+            2200,
+            1800
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "2021_12_08_WW49_Frequency_Matrix",
+          "view_id": "cc62e0d3-71af-4d82-8585-0c31fa2fbbc9",
+          "scope": "Author single-sheet dashboard CSV versus replica matrix worksheet CSV; actual export columns require inspection. No live hover evidence.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-matrix.csv",
+          "sha256": "ab585bc133bedaff7e9a3eddbb4a2eab97b065eb56a78f5fc1592524ed2b65c4",
+          "bytes": 10566
+        },
+        {
+          "role": "replica",
+          "view": "Frequency Matrix",
+          "view_id": "447b7ce8-4809-487b-9f1b-7aaab2cdbdcc",
+          "scope": "Author single-sheet dashboard CSV versus replica matrix worksheet CSV; actual export columns require inspection. No live hover evidence.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-matrix.csv",
+          "sha256": "715e98ecbcd7f3e20bc6f94c104f7df694e5bb7e5600e18eac58f68ede6d602c",
+          "bytes": 11212
+        }
+      ]
+    }
+  ],
+  "status": "captured_requires_independent_review"
+}

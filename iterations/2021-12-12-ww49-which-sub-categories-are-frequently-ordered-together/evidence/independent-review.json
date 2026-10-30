@@ -1,0 +1,19 @@
+{
+  "model": "gpt-6.1-sol",
+  "scope": "Independent actual image and artifact recheck; no live interaction execution",
+  "workbook_sha256": "09708672f5f140fb57f4d07d335c65610d8a5ff9a201378050a11ba508849dde",
+  "findings": [],
+  "result": "Prior clipping resolved; no new visual objections",
+  "checks": [
+    "18 frozen manifest hashes match",
+    "4 Cloud PNG/CSV hashes match",
+    "CSV bytes identical to independently reviewed raw-Hyper reconciliation",
+    "306 Pairs and 16946 Contributions unchanged",
+    "Both PNGs inspected; ACCESSORIES and FURNISHINGS complete"
+  ],
+  "remaining": [
+    "live hover and tooltip layout",
+    "selection and clearing",
+    "parent corpus gate"
+  ]
+}

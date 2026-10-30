@@ -1,0 +1,86 @@
+{
+  "case_id": "wow-2021-ww49-which-sub-categories-are-frequently-ordered-together",
+  "recorded_at": "2026-10-30T02:08:00.429621+00:00",
+  "artifact_sha256": "09708672f5f140fb57f4d07d335c65610d8a5ff9a201378050a11ba508849dde",
+  "browser": "Ego task space 6 / p1; existing authenticated user session",
+  "workbook_url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/3098104",
+  "binding": "Local frozen SHA equals existing cloud-verification.json replica source hash; browser breadcrumb shows matching hash-suffixed published workbook. No rebuild or republish.",
+  "method": "Real mouse/keyboard events followed by visible snapshots and screenshot inspection. No REST/programmatic filter injection.",
+  "result": "passed",
+  "events": [
+    {
+      "id": "none-hover",
+      "script": "round-21.mjs",
+      "input": "mouse.move(169,326)",
+      "observed": "ACCESSORIES/NONE: 196 orders, $207.14, singular SUB-CATEGORY and only one contribution line",
+      "screenshot": "ww49-none.png",
+      "result": "passed"
+    },
+    {
+      "id": "binders-hover",
+      "script": "round-22.mjs",
+      "input": "mouse.move(225,438)",
+      "observed": "BINDERS/ACCESSORIES: 161 orders, $174.59/$187.08, plural SUB-CATEGORIES",
+      "screenshot": "ww49-binders.png",
+      "result": "passed"
+    },
+    {
+      "id": "chairs-hover",
+      "script": "round-23.mjs",
+      "input": "mouse.move(450,510)",
+      "observed": "CHAIRS/BOOKCASES: 21 orders, $553.52/$688.55",
+      "screenshot": "ww49-chairs.png",
+      "result": "passed"
+    },
+    {
+      "id": "selection-domain",
+      "script": "round-26.mjs",
+      "input": "mouse.click(225,438)",
+      "observed": "161 cell selected; all 153 cells remain in 17 rows of lengths 1 through 17 with unchanged labels/positions",
+      "screenshot": "ww49-selected.png",
+      "result": "passed"
+    },
+    {
+      "id": "clear-domain",
+      "script": "round-27.mjs",
+      "input": "mouse.click(800,450) on blank upper triangle",
+      "observed": "Selection cleared; all 153 cells and original colors/values restored",
+      "screenshot": "ww49-cleared.png",
+      "result": "passed"
+    }
+  ],
+  "limitations": [
+    "153-cell domain was checked visually using full-height before/selected/cleared screenshots (17 rows with lengths 1..17); not inferred from REST filters.",
+    "CDP only enlarged the viewport for full-height screenshots; all tested hover/selection/clear used real mouse input."
+  ],
+  "files": {
+    "round-17.mjs": "607225b0ab21928cfad17e5b778a0b87fac122d71c78bfa58696c4a35d6a1347",
+    "round-18.mjs": "33ff39694c62f73877bef390a24964b700cbd62f13086e5b8a13ce93550cec22",
+    "round-19.mjs": "c5eb82aeb9f7e802b2bebe27435b9fd1b255b89528028423dc6209a862ed278d",
+    "round-20.mjs": "57994894adee22693cf112cf39f0dc4de394ba778325a7762ca1ea1976d6ff04",
+    "round-21.mjs": "f0d06742307be404838e8e91acaabddab820dd1f0e91d64f407082087b3c8d54",
+    "round-22.mjs": "6c9f758abbf973a87374271614522ad7751eee6521223724d26e4183aaad2b4c",
+    "round-23.mjs": "48c472ab2116cc51291efcf1cd96d75e93e76922cffb51c62375ac2f7a5fd8da",
+    "round-24.mjs": "3ca0cba0ab6e4017eb5b7ffa947612714419ba2a2e34e6b9df65a5d9a02d59c5",
+    "round-25.mjs": "b214bf9ac3d6dfce6ef08aee7fcbe40a05be8241ae2c3df3d64b317e712d6d21",
+    "round-26.mjs": "57cf31deacba47fe82009eac1d9630f256ead8607da80d501134ac5cb27e22c8",
+    "round-27.mjs": "82669aea08c59bc5fa7c837e5dad7073634604130a632de5578770d22100e4c8",
+    "round-28.mjs": "fd753920afde42b8c529adb8abcfc94d4b0e822b6512776a9aea04781140f9fb",
+    "ww49-baseline.png": "7da4176283036e0d7f125b038f05ffe0019fb3ed2924259b023098666cf35f7e",
+    "ww49-binders.png": "d1a8d12f105131de70ebd400cfe66e1dd42e143925b6d60903320c64aea45f09",
+    "ww49-binders.txt": "28f369d5ab810e03e4ef636cd7da3a8dcbe5145dbc9c2fc59d7999c5971a2007",
+    "ww49-chairs.png": "c2609e0eec67751e3f7aadb98c54d24576434324291f69b2888c361778388512",
+    "ww49-chairs.txt": "04d4f8e818b0b7a5672cf4264efbb631f5f5dc2bc8b2b8dc81d1b88538698d0f",
+    "ww49-cleared.png": "6798689a8725af9fc32ed498847fb7fb976dfd306b4d1a874acb3e25b9bb8619",
+    "ww49-cleared.txt": "b6a6efb9018dd75caf4756a13040554a3ff89f44d9acc04267a607f2450217d5",
+    "ww49-domain-before.png": "6798689a8725af9fc32ed498847fb7fb976dfd306b4d1a874acb3e25b9bb8619",
+    "ww49-domain-before.txt": "0c1b491289c2a8fd82c1365ad1e2dc12746dca191802bc0d213471355dade5cd",
+    "ww49-none.png": "ba41a2b8f59c02e2c01a9faba556bfa901a394dde535005e7be6a6381eb7ae05",
+    "ww49-none.txt": "1d7d50dbcbd1eb896714418ed24489584ba01bf36be15c8c676bbbd52cb23f59",
+    "ww49-selected.png": "dfcebf864e54bb21f53e74bded7e66404fe6517678e252d382f5adcd17ed3799",
+    "ww49-selected.txt": "049bff45b49831b0bf83a5158776f2cef0968acadabcdae6f51416f52ef156af",
+    "validation.json": "5914dd6e520d0ffb14ef7127dee3c154a90f17af0386367b3c7616d3edc5a50a",
+    "README.md": "20404fbed2c997b5b6b90d2ccf4d0a00621c98f57f53c0a1c1d30eebdc41fb9b"
+  },
+  "validation": "validation.json"
+}
