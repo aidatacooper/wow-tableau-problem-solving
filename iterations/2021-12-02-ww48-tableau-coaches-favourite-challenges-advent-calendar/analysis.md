@@ -51,3 +51,8 @@ Parent completed independent review and current Desktop/Cloud runs; the previous
 ## Current parent acceptance (supersedes earlier pending recapture notes)
 
 Current frozen SHA3980ad6e8e6cbb957d3ba19b0faf870df6482323c5bd4e876d87b5dcfeb1069f has Desktop LOADED, corpus 50 LOADED / zero failures or unknowns, and independent default numerical/visual approval. Current cloud-verification.json and cloud-csv.json refer to this SHA. Failed264257cd evidence remains archived in evidence/runtime-264257cd. Background, shapes, alignment and gradient direction are verified in actual PNGs. Live hover/year selection/multiselect/clear/no-grey/URL execution remain unverified; functional partial, visual acceptable_delta, SDK workaround.
+
+
+## Completed real browser acceptance (supersedes pending interaction notes)
+
+Real day 1/day 24/star hover, 2018/2019 selection (10/3), Ctrl-multiselect 2018+2020 (15), clear (25 including star), ornament no-grey and actual challenge URL popup passed. Artifact SHA256 remains `3980ad6e8e6cbb957d3ba19b0faf870df6482323c5bd4e876d87b5dcfeb1069f`. Evidence: `evidence/browser-20261030/report.json`. Functional replicated, verification verified, visual acceptable_delta, SDK workaround. No SDK/builder/artifact edits or new Desktop/corpus run; existing hash-bound gates still apply.

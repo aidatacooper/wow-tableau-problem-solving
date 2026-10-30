@@ -6336,9 +6336,9 @@
           "sha256": "1ea52f6b76ad147915f9455f31892e2a41a4003b6cfe1afa88f6b37e86fbe837"
         }
       },
-      "functional_status": "partial",
+      "functional_status": "replicated",
       "visual_status": "acceptable_delta",
-      "verification_status": "pending",
+      "verification_status": "verified",
       "cwtwb_result": "workaround",
       "artifacts": {
         "primary_workbook": "outputs/replicated-workbook.twbx",
@@ -6406,7 +6406,8 @@
         "evidence/cloud-csv.json",
         "evidence/desktop-verification.json",
         "evidence/desktop-corpus.json",
-        "evidence/independent-review.json"
+        "evidence/independent-review.json",
+        "evidence/browser-20261030/report.json"
       ],
       "notes": [
         "Original workbook filename 2021_01_12 is a real typo; official challenge date is 2021-11-30.",
@@ -6414,7 +6415,8 @@
         "Independent review corrected the earlier absolute capability-blocker claim: old probes demonstrate only that Cartesian configure_chart(map_layers=...) ignores the image payload. Public structural conversion provides a working local authoring route; see evidence/background-workaround.md. Prior run reports remain immutable historical evidence.",
         "Gradient color now binds to AVG(Segment Start), increasing left-to-right on fixed 0..10 domain; original descending Gradient input remains locked but is unused by the corrected chart.",
         "Current Cloud reports and PNG/CSV files bind to 3980ad6e. Failed 264257cd captures remain bytewise in evidence/runtime-264257cd and outputs/frozen-264257cd.twbx.",
-        "Parent performed current Desktop and Cloud REST capture; independent numerical and visual review passed. No live browser interaction or URL navigation was executed."
+        "Parent performed current Desktop and Cloud REST capture; independent numerical and visual review passed. That earlier capture did not execute live browser events; subsequent browser-20261030 evidence does.",
+        "Real day 1/day 24/star hover, 2018/2019 selection (10/3), Ctrl-multiselect 2018+2020 (15), clear (25 including star), ornament no-grey and actual challenge URL popup passed. Frozen workbook unchanged; earlier MFA-unavailable note is superseded by the authenticated browser run."
       ],
       "metadata": "iterations/2021-12-02-ww48-tableau-coaches-favourite-challenges-advent-calendar/case.yaml",
       "metadata_contract": "1.1.0",

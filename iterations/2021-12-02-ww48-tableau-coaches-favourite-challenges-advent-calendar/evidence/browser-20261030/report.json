@@ -1,0 +1,131 @@
+{
+  "case_id": "wow-2021-ww48-tableau-coaches-favourite-challenges-advent-calendar",
+  "recorded_at": "2026-10-30T02:08:00.078707+00:00",
+  "artifact_sha256": "3980ad6e8e6cbb957d3ba19b0faf870df6482323c5bd4e876d87b5dcfeb1069f",
+  "browser": "Ego task space 6 / p1; existing authenticated user session",
+  "workbook_url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/3098192",
+  "binding": "Local frozen SHA equals existing cloud-verification.json replica source hash; browser breadcrumb shows matching hash-suffixed published workbook. No rebuild or republish.",
+  "method": "Real mouse/keyboard events followed by visible snapshots and screenshot inspection. No REST/programmatic filter injection.",
+  "result": "passed",
+  "events": [
+    {
+      "id": "day1-hover",
+      "script": "round-03.mjs",
+      "input": "mouse.move(245,373)",
+      "observed": "1 day until Christmas",
+      "screenshot": "day1.png",
+      "result": "passed"
+    },
+    {
+      "id": "day24-hover",
+      "script": "round-04.mjs",
+      "input": "mouse.move(571,761)",
+      "observed": "24 days until Christmas",
+      "screenshot": "day24.png",
+      "result": "passed"
+    },
+    {
+      "id": "star-hover",
+      "script": "round-05.mjs",
+      "input": "mouse.move(326,260)",
+      "observed": "It's Christmas Day!",
+      "screenshot": "star.png",
+      "result": "passed"
+    },
+    {
+      "id": "year-2018",
+      "script": "round-06.mjs",
+      "input": "mouse.click(850,704)",
+      "observed": "10 ornaments: 4,10,13,14,16,18,20,21,23,24; star excluded",
+      "screenshot": "2018.png",
+      "result": "passed"
+    },
+    {
+      "id": "year-2019",
+      "script": "round-08.mjs",
+      "input": "mouse.click(770,746)",
+      "observed": "3 ornaments: 9,12,17; star excluded",
+      "screenshot": "2019.png",
+      "result": "passed"
+    },
+    {
+      "id": "year-multiselect",
+      "script": "round-11.mjs",
+      "input": "Control down; mouse.click(790,789); Control up",
+      "observed": "2018+2020: 15 ornaments, 2 selected items, sum count 15",
+      "screenshot": "multiselect.png",
+      "result": "passed"
+    },
+    {
+      "id": "year-clear",
+      "script": "round-14.mjs",
+      "input": "mouse.click(950,746) on blank bar plot",
+      "observed": "24 red ornaments and yellow star restored",
+      "screenshot": "clear.png",
+      "result": "passed"
+    },
+    {
+      "id": "url-action",
+      "script": "round-15.mjs",
+      "input": "mouse.click(245,373)",
+      "observed": "Popup navigated to https://www.workout-wednesday.com/2021w48tab/ and was closed",
+      "screenshot": "challenge-popup.png",
+      "result": "passed"
+    },
+    {
+      "id": "ornament-no-grey",
+      "script": "round-16.mjs",
+      "input": "mouse.move(1100,400) after day1 click",
+      "observed": "Day1 outlined; all other ornaments remain red and star yellow",
+      "screenshot": "no-grey.png",
+      "result": "passed"
+    }
+  ],
+  "limitations": [
+    "Initial round-09 Ctrl-click was obstructed by a tooltip and did not add 2020; after dismissing the tooltip, round-11 performed the successful Ctrl-click.",
+    "First clear attempt round-12 hit tooltip controls; Escape dismissed them and round-14 clicked blank plot to clear.",
+    "No-grey is the Tree ornament selection contract; native Bar selection does dim other bars.",
+    "Popup URL navigation was observed; successful rendering of the external challenge website is not required or asserted."
+  ],
+  "files": {
+    "2018.png": "fb997324ef8254c5323d09c6f5846e1d367843c1ee1bc8cd730e06ada5881af4",
+    "2018.txt": "99e0a494c36fa659d58a72e0405661d5f15dc70f33296491549d41792a519035",
+    "2019.png": "74a1d3d2122be62913b1eb35ef16b1f6a624cfb1daa2a1599e7d4a69de9051d8",
+    "2019.txt": "dd69338480a23216744a12c5359bd89b130638711c1c71843d69ff6d6dd4dc77",
+    "baseline.png": "1a6bae289c4c6c926381c8024eb20f70a19415bef1f0cb64926ef82c66e130fe",
+    "challenge-popup.png": "bf23b52887c3aa2fb1800d871e65a0ac6d6bf1ccd4dde5c3b94c2bab2bce8454",
+    "clear.png": "8d02788ff3784703a5985495d186844e9acdb4cf5bd275255ade4d427aa6c893",
+    "clear.txt": "99e0a494c36fa659d58a72e0405661d5f15dc70f33296491549d41792a519035",
+    "day1.png": "fbf99b6dc5fa64a2bf426c618111d7ce5c1bfad3907e34fc951abe83cf118190",
+    "day24.png": "d5e73b0236136427af4950589ff1344a813e473f66f8f2a48899c14272d30c9d",
+    "day24.txt": "764e7dc2ccaf9b2b6706c950c28de07c434293c571fa90f0a5bc2089ce019ec5",
+    "multiselect-attempt.png": "fb997324ef8254c5323d09c6f5846e1d367843c1ee1bc8cd730e06ada5881af4",
+    "multiselect.png": "b034b36f75846f9560978b10f069d3e1885bc268d00c04245efcecdc80990f13",
+    "multiselect.txt": "a9dc546d8560d856b06c8e8f79070aa220d3bf420b1524b87002d3cbb1bb4f02",
+    "no-grey.png": "93532d06f29b2060b287aa1ac2799135a231b4c77858ffa2499c40f6462d60d6",
+    "no-grey.txt": "99e0a494c36fa659d58a72e0405661d5f15dc70f33296491549d41792a519035",
+    "pre-clear.png": "e5594b88944804aebe802efb454bfffecb48e8c311fbb1e82a7b9fea4ccaa0d9",
+    "round-01.mjs": "409e93755d37ce9dbc167c527645f27e83b5e366c2e664616284d6a3eea1fc86",
+    "round-02.mjs": "635ac39d98358ae789e11df3ed9d4a05858f78d0a96a3fb388160c833dafd29f",
+    "round-03.mjs": "58c67a5d72647b1ef8a4dab31ce77e1bfa01957cd79d8354ff36f015ec7dc879",
+    "round-04.mjs": "666a9ea3149a81b43fca6b2255305cf4fbeff63609884204825450416066e199",
+    "round-05.mjs": "60d69951f356c0a729fc375798f1b6461153384dd32abe5e3057abbacb36e649",
+    "round-06.mjs": "15b39d53d50179dbc03c3f859f2baaca66f39be4ead2b34493f2efdcfcf0bda4",
+    "round-07.mjs": "26152a5fe301c14081d6811a5a84db0d161a7a99552a540eaeae6c29cc41f7cc",
+    "round-08.mjs": "fdfc47662ac486fcb401f08a0e45d4ad93868e723e20331905cfca90569103e8",
+    "round-09.mjs": "4202881a50db7833f19acfc832410bee9f9ed58228f815d6a6b0de2e15e758e2",
+    "round-10.mjs": "e54011f17c1d97ab1e39578c2f7a0d903eedf2a9f4a4fb5acb4988604ba7761c",
+    "round-11.mjs": "66e3c762a51d1ddc6018f6d8bf32c669ca7cc0052a6036b508e9e2bbb5286b64",
+    "round-12.mjs": "867865051662ba4923bc576e9d5f4146daa5de2fc6406af0910c506c3758a64f",
+    "round-13.mjs": "a9b2cdfa98fb43f6a1ca5f2af88f5f54f7721352131124f2419188cccae8caa5",
+    "round-14.mjs": "39897d3ff4fe155705be37037c63cbd1ec9d2d88c3e8d5843281c5ff2902e1f7",
+    "round-15.mjs": "2093b6e1206c4c7d86170e43b6982e635482474cd94197197ab6b2f43b508fb8",
+    "round-16.mjs": "9344af57c71ad0d82a8d6690e0c2f783df3a750e631c4c5156065d6f50b69611",
+    "star.png": "6040d9050f638059f54a12fc8e0b49df0127851040c8989961de220357d06d66",
+    "star.txt": "66d29dcaf787035f187a8558e1e2391d8416e7a2c111e48f9b9b75aa546689e0",
+    "url-action.json": "bd42b56bcdeee6809bcc0d8e8bbecf347c2e58c4b9ea9f13cadfa641c2393640",
+    "validation.json": "a0c92652a98387362d925cef5520f0ebaf8f2e02e122f3ef02b779a4d98d074f",
+    "README.md": "3aa2af3e1301c8599360304f36cbef0e9ee7cbc706eb8908c9e421debfe40ff9"
+  },
+  "validation": "validation.json"
+}
