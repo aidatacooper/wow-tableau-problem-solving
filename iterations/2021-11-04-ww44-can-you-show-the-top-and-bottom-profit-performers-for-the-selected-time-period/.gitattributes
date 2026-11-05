@@ -1,0 +1,4 @@
+# Hash-bound review and REST exports must survive Git checkout byte-for-byte.
+evidence/independent-review.md -text
+outputs/*.csv -text
+evidence/baseline-a1/outputs/*.csv -text
