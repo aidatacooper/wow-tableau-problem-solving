@@ -1,0 +1,11 @@
+test_clear_selection_must_keep_state (test_verifier.OracleMutationTests.test_clear_selection_must_keep_state) ... ok
+test_reference_bounds_must_be_ordered (test_verifier.OracleMutationTests.test_reference_bounds_must_be_ordered) ... ok
+test_reversed_rank_rejected (test_verifier.OracleMutationTests.test_reversed_rank_rejected) ... ok
+test_selection_filter_regression_rejected (test_verifier.OracleMutationTests.test_selection_filter_regression_rejected) ... ok
+test_wrong_aggregation_rejected (test_verifier.OracleMutationTests.test_wrong_aggregation_rejected) ... ok
+test_wrong_share_denominator_rejected (test_verifier.OracleMutationTests.test_wrong_share_denominator_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.701s
+
+OK
