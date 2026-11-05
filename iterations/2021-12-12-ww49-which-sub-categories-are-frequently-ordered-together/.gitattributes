@@ -1,0 +1,9 @@
+*.json -text
+*.hyper -text
+*.twbx -text
+*.py text eol=lf
+*.md text eol=lf
+*.yaml text eol=lf
+*.txt -text
+*.csv -text
+*.png -text

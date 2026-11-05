@@ -62,5 +62,6 @@ Selected peak is December 2020. Top states are California ($99,025.3305,
 - Existing Desktop corpus: 50 LOADED, zero FAIL or UNKNOWN.
 - Default Cloud figures/render and independent review: passed with documented visual differences.
 - Native UI interactions and nondefault Tableau/VizQL state updates: PENDING (MFA unavailable).
-- Full Desktop corpus regression: PENDING.
+- PAT Cloud REST plus artifact-contract scope: PASS for the default state only; the captured PNG/CSV hashes and workbook artifact are bound in `evidence/cloud-verification.json`, `evidence/cloud-csv.json`, and `evidence/handoff.json`.
+- Browser interaction acceptance: PENDING; REST exports do not establish selection, replacement, clear, or Ctrl-select behavior.
 - Shared catalogue integration and final PR: PENDING.
