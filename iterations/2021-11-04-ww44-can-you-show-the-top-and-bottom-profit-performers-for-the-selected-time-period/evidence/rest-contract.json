@@ -1,0 +1,36 @@
+import json, os
+from pathlib import Path
+p=Path(os.environ['CASE_DIR'])
+case=json.loads(json.dumps(__import__('yaml').safe_load((p/'case.yaml').read_text(encoding='utf-8'))))
+case['evidence'].insert(0,'evidence/rest-contract.json')
+case['cwtwb']['tested_version']='0.29.0a2'
+case['cwtwb']['runs'].append({'version':'0.29.0a2','result':'pass','evidence':'evidence/rest-contract.json','artifact_sha256':'07a9dd44a79f541786843f19f120f6dedad1e7a276ee6d5c4a1fea80e1af70dd','scope':'Installed 0.29.0a2 case verifier: current frozen artifact hash, three PAT REST image states, nine REST CSV records, workbook/view IDs and explicit no-browser-events contract.'})
+# preserve YAML style via pyyaml
+(p/'case.yaml').write_text(__import__('yaml').safe_dump(case, sort_keys=False, allow_unicode=True), encoding='utf-8')
+PY
+@'
+{
+  "case_id": "wow-2021-ww44-can-you-show-the-top-and-bottom-profit-performers-for-the-selected-time-period",
+  "artifact_sha256": "07a9dd44a79f541786843f19f120f6dedad1e7a276ee6d5c4a1fea80e1af70dd",
+  "sdk_version": "0.29.0a2",
+  "verifier": "verify_rest_contract.py",
+  "cloud_manifests": ["evidence/cloud-verification.json", "evidence/cloud-csv.json"],
+  "acceptance": {
+    "transport": "Tableau Cloud REST with PAT; no browser login",
+    "image_states": ["default", "quarter", "year"],
+    "csv_records": 9,
+    "browser_interaction_executed": false,
+    "required_future_capture_fields": ["source_hashes", "workbooks", "states", "records"]
+  },
+  "ids": {
+    "author_workbook": "70dc1b8b-19aa-4daa-a32d-426509bf4713",
+    "author_view": "d46c7d95-6b21-4a1e-a99a-a7b7ce77bc8d",
+    "replica_workbook": "5834782f-b44a-479d-8cfe-15d83a2e577c",
+    "replica_views": {
+      "Period KPIs": "a2561b8e-7b96-411f-bbfe-51aae8663a19",
+      "Profit Performers": "1d3639de-6385-4617-aa46-a80a97d78aad",
+      "WW44 Profit Performers": "a0c499a4-319e-42de-a465-d73ab27f41be"
+    }
+  },
+  "result": "PASS: static REST and artifact contract; live click/clear/multiselect/hover remain outside this verifier"
+}
