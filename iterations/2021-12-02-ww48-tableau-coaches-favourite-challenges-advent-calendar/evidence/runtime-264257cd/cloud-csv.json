@@ -1,0 +1,40 @@
+{
+  "captured_at": "2026-10-29T16:58:44.376924+00:00",
+  "source_hashes": {
+    "author": "1ea52f6b76ad147915f9455f31892e2a41a4003b6cfe1afa88f6b37e86fbe837",
+    "replica": "264257cd5b710753e4c13ac5f4737d0740af3517e1d659c5a7bd03c8d3aae0b7"
+  },
+  "scope": "REST worksheet data, no browser events",
+  "records": [
+    {
+      "role": "replica",
+      "view": "Tree",
+      "state": "default",
+      "parameters": {},
+      "filters": {},
+      "path": "outputs/runtime-replica-tree-default.csv",
+      "sha256": "89b92574d108cd62f5e3dfa9d1b0d35badde9273d439b80c0c50cd5795135f98",
+      "bytes": 2891
+    },
+    {
+      "role": "replica",
+      "view": "Bar",
+      "state": "default",
+      "parameters": {},
+      "filters": {},
+      "path": "outputs/runtime-replica-bar-default.csv",
+      "sha256": "6216b92334a71180deed836936a143ea1ac393a3ee69386814380bd587f6074a",
+      "bytes": 51867
+    },
+    {
+      "role": "replica",
+      "view": "Advent Calendar",
+      "state": "default",
+      "parameters": {},
+      "filters": {},
+      "path": "outputs/runtime-replica-advent-calendar-default.csv",
+      "sha256": "6216b92334a71180deed836936a143ea1ac393a3ee69386814380bd587f6074a",
+      "bytes": 51867
+    }
+  ]
+}

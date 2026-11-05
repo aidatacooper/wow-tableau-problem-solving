@@ -1,0 +1,141 @@
+[p1 "cwtwb-review-wow-2021-ww48-tableau-coaches-favourite-challenges-advent-calend..." | space "WoW interaction acceptance 20261030"(6): 1 managed, 0 untracked — p1* "cwtwb-review-wow-2021-ww48-tableau-coaches-favourite-challenges-advent-calend..."]
+root
+  container
+    container
+      container
+        button [ref=267]
+          image
+        container
+          container "Breadcrumb"
+            ordered_list
+              list_item
+                anchor [ref=268, loc=href:/#/site/cooperwh/explore?:showVizHome=no, url=https://10ax.online.tableau.com/#/site/cooperwh/explore?:showVizHome=no]
+                  text "Explore"
+                text "/"
+              list_item
+                anchor [ref=269, loc=href:/#/site/cooperwh/projects/1146336, url=https://10ax.online.tableau.com/#/site/cooperwh/projects/1146336]
+                  text "default"
+                text "/"
+              list_item
+                anchor [ref=270, loc=href:/#/site/cooperwh/workbooks/3098192, url=https://10ax.online.tableau.com/#/site/cooperwh/workbooks/3098192]
+                  text "cwtwb-review-wow-2021-ww48-tableau-coaches-favourite-challenges-advent-calendar-replica-3980ad6e8e6c"
+                text "/"
+              list_item
+                text "Advent Calendar"
+          button "Favorite" [ref=271, loc=role:button[name="Favorite"]]
+      container
+        container
+          button [ref=272]
+            svg_root
+            text "Device Layouts"
+          button [ref=273]
+            image
+            text "Data Sources"
+        button [ref=274]
+          image
+        button "Favorites Menu" [ref=275, loc=css:button[aria-label="Favorites Menu"]]
+          svg_root
+        button "Help menu" [ref=276, loc=css:button[aria-label="Help menu"]]
+          svg_root
+        button "Notification center" [ref=277, loc=css:button[aria-label="Notification center"]]
+          svg_root
+        button "My Content and Settings" [ref=278, loc=css:button[aria-label="My Content and Settings"]]
+          svg_root "HW"
+            text "HW"
+    main
+      iframe [ref=279]
+        root
+          container
+            toolbar "Visualization controls" [ref=280, loc=role:toolbar[name="Visualization controls"]]
+              container
+                button [ref=281]
+                  svg_root
+                button [ref=282]
+                  svg_root
+                button [ref=283]
+                  svg_root
+                button [ref=284]
+                  svg_root
+                button [ref=285]
+                  svg_root
+                container
+                  button [ref=286]
+                    svg_root
+                  button [ref=287]
+                    svg_root
+                splitter
+                button [ref=288]
+                  svg_root
+                  text "Data Details"
+                button [ref=289]
+                  svg_root
+                  text "Edit"
+                button [ref=290]
+                  svg_root
+                  text "View: Original"
+              container
+                button [ref=291]
+                  svg_root
+                  text "Data Guide"
+                button [ref=292]
+                  svg_root
+                  text "Watch"
+                  svg_root
+                splitter
+                button [ref=293]
+                  svg_root
+                button [ref=294]
+                  svg_root
+                  svg_root
+                button [ref=295]
+                  svg_root
+                button [ref=296]
+                  svg_root
+                  text "Share"
+            container [ref=297]
+              application
+                navigation
+                  tablist
+                    tab [ref=298]
+                      text "Tree"
+                      image
+                    tab [ref=299]
+                      text "Bar"
+                      image
+                    tab [ref=300]
+                      text "Advent Calendar"
+                      image
+                tabpanel
+                  note "#WOW2021 Tableau Coaches’ Favourite Challenges Adv... Text Zone." [ref=301, loc=role:note[name="#WOW2021 Tableau Coaches’ Favourite Challenges Adv... Text Zone."]]
+                    text "#WOW2021 Tableau Coaches’ Favourite Challenges Advent Calendar"
+                    text "Click an ornament to visit its challenge. Click a year bar to filter; clear the selection to restore all."
+                  container "Tree Viz Zone. Press Enter to navigate within the zone." [ref=302]
+                    container [ref=303]
+                      region [ref=304]
+                        container
+                          canvas
+                          canvas
+                          canvas
+                        container
+                          button "Zoom In (Double-Click)" [ref=305, loc=role:button[name="Zoom In (Double-Click)"]]
+                          button "Zoom Out (Shift+Double-Click)" [ref=306, loc=role:button[name="Zoom Out (Shift+Double-Click)"]]
+                          button "Zoom Home" [ref=307, loc=role:button[name="Zoom Home"]]
+                          button "More Actions" [ref=308, loc=role:button[name="More Actions"]]
+                  container "Bar Viz Zone. Press Enter to navigate within the zone." [ref=309]
+                    container [ref=310]
+                      heading "Title: Favourite challenges by year." [ref=311]
+                        text "Favourite challenges by year"
+                      treegrid
+                        row
+                          gridcell [ref=312]
+                            text "2018"
+                          gridcell [ref=313]
+                            text "2019"
+                          gridcell [ref=314]
+                            text "2020"
+                      region [ref=315]
+                        container
+                          canvas
+                          canvas
+                          canvas
+          text "It's Christmas Day!"

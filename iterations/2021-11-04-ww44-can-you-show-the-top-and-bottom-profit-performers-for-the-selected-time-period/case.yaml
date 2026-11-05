@@ -39,6 +39,7 @@ historical_artifacts:
     the current phase-boundary validator rejects nested workbook paths. Historical capture/evidence remains
     under evidence/baseline-a1 and is not current acceptance.
 evidence:
+- evidence/rest-contract.json
 - inputs/source-lock.json
 - evidence/local-verification.json
 - evidence/local-gates.json
@@ -68,7 +69,7 @@ notes:
 - Current cloud-csv.json contains nine current-hash REST data exports. These establish static parameter
   states, not browser events.
 cwtwb:
-  tested_version: 0.29.0a1
+  tested_version: 0.29.0a2
   tested_commit: 23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c
   runs:
   - version: 0.29.0a1
@@ -99,6 +100,13 @@ cwtwb:
     scope: 'One-case branch from origin/main: isolated full build/verify validation, metadata/boundary/XSD
       checks and 83 repository tests passed without replacing frozen artifact. Parent Desktop/corpus and
       current REST evidence retained; live events remain pending.'
+  - version: 0.29.0a2
+    result: pass
+    evidence: evidence/rest-contract.json
+    artifact_sha256: 07a9dd44a79f541786843f19f120f6dedad1e7a276ee6d5c4a1fea80e1af70dd
+    scope: Installed 0.29.0a2 case verifier checked the current frozen artifact, three PAT REST image
+      states, nine REST CSV records, workbook/view IDs, PNG dimensions, and explicit no-browser-events
+      contract. Live click, clear, multi-select, and hover behavior remains outside this scope.
 analysis_status: completed
 functional_status: partial
 visual_status: acceptable_delta

@@ -1,0 +1,113 @@
+C:\Users\imgwho\AppData\Local\Temp\wow-case-validation-vmjtgv8s\lab\iterations\2021-12-02-ww48-tableau-coaches-favourite-challenges-advent-calendar\outputs\replicated-workbook.twbx
+{
+  "result": "PASS local background, data and structural contracts; runtime pending",
+  "workbook_sha256": "3afbf46dee03a7630fb36cceb18eae622361613c5957f2e4112f8a527efb6069",
+  "oracle": {
+    "counts": {
+      "2018": 10,
+      "2021": 6,
+      "2019": 3,
+      "2020": 5
+    },
+    "tree_marks": 25,
+    "segments": 2000,
+    "selected_days": {
+      "2018": [
+        4,
+        10,
+        13,
+        14,
+        16,
+        18,
+        20,
+        21,
+        23,
+        24
+      ],
+      "2021": [
+        1,
+        7,
+        8,
+        15,
+        19,
+        22
+      ],
+      "2019": [
+        9,
+        12,
+        17
+      ],
+      "2020": [
+        2,
+        3,
+        5,
+        6,
+        11
+      ]
+    },
+    "clear_selection_marks": 25
+  },
+  "contracts": {
+    "native_background_present": true
+  },
+  "negative_mutations_rejected": 43,
+  "mutation_names": [
+    "wrong-coordinate",
+    "remove-shapes",
+    "wrong-star-size",
+    "break-formula",
+    "wrong-bar-grain",
+    "remove-gradient",
+    "wrong-clear",
+    "wrong-url",
+    "break-highlight",
+    "wrong-dashboard-size",
+    "foreign-mark-datasource",
+    "foreign-tooltip-datasource",
+    "wrong-valid-tooltip-binding",
+    "local-global-formula-inconsistency",
+    "local-raw-role-inconsistency",
+    "local-raw-type-inconsistency",
+    "categorical-size-reversed",
+    "boolean-category-type",
+    "kind-filter-wrong-level",
+    "kind-filter-wrong-identity",
+    "kind-filter-exclusion",
+    "kind-filter-extra-member",
+    "action-filter-wrong-valid-level",
+    "filter-command-type",
+    "filter-command-target",
+    "filter-multiselect",
+    "filter-source-expression",
+    "url-activation",
+    "url-source",
+    "highlight-source",
+    "highlight-activation",
+    "highlight-target",
+    "highlight-exclusion",
+    "background-swapped-field",
+    "background-foreign-field",
+    "background-nonnumeric-field",
+    "background-wrong-bound",
+    "background-nonfinite-bound",
+    "background-resource-reference",
+    "background-aspect-lock",
+    "gradient-width-data",
+    "missing-background-resource",
+    "corrupt-background-resource"
+  ],
+  "public_conversion_roundtrip": "PASS mapping/contracts/resources/XSD",
+  "historical_checked": [],
+  "acceptance": [
+    "raw-data-oracle",
+    "tree-marks",
+    "gradient-bars",
+    "url-and-filter-actions",
+    "portable-assets",
+    "dependency-closure",
+    "negative-mutations",
+    "native-tree-background"
+  ],
+  "runtime": "NOT RUN; Desktop, rendered alignment and live interactions remain parent gates"
+}
+PASS isolated final background rebuild; historical workbooks removed before fresh verifier
