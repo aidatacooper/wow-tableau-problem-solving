@@ -1,0 +1,27 @@
+{
+  "source_hashes": {
+    "author": "2162fe1ead72bf441b9ef70d20bc2237f11f13fd1ba6c2cfd0e10a1ea857011a",
+    "replica": "ecfec6718a164424800d0c2d73be80419db627e756f63805a1f2a785ae377329"
+  },
+  "scope": "REST direct filters, not hover events",
+  "records": [
+    {
+      "customer": null,
+      "path": "outputs/runtime-rank-global.csv",
+      "sha256": "f2a0ea7b952aee58b331474d25b372e3484035c414c3b7761b990a47133cca20",
+      "rows": 30
+    },
+    {
+      "customer": "AA-10315",
+      "path": "outputs/runtime-rank-AA-10315.csv",
+      "sha256": "444a96ee590c5efc1137a383c4379b96bd6f0cd80f14a2d042b89560bfbf2ed6",
+      "rows": 30
+    },
+    {
+      "customer": "AB-10015",
+      "path": "outputs/runtime-rank-AB-10015.csv",
+      "sha256": "88ba038cf379b5a29c8f49b6707ddc9c3b0f12ccb3af377037afeb11275670ee",
+      "rows": 18
+    }
+  ]
+}

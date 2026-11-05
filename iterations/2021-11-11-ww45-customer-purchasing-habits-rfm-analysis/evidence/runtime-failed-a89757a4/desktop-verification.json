@@ -1,0 +1,7 @@
+{
+  "workbook_sha256": "a89757a4311023411ba49afb4e517e86e569b03a4432ff12ae4d7deea9339dab",
+  "verdict": "LOADED",
+  "attempt": 1,
+  "command": "python scripts/desktop/check.py <case>/outputs/replicated-workbook.twbx",
+  "scope": "load only; interactions not executed"
+}

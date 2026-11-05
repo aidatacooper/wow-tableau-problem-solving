@@ -1,0 +1,12 @@
+{
+  "source_hashes": {
+    "author": "2162fe1ead72bf441b9ef70d20bc2237f11f13fd1ba6c2cfd0e10a1ea857011a",
+    "replica": "ecfec6718a164424800d0c2d73be80419db627e756f63805a1f2a785ae377329"
+  },
+  "filters": {
+    "Customer ID": "NB-18580"
+  },
+  "path": "outputs/cloud-replica-years.png",
+  "sha256": "09fde1ecf25722dc62447afe31825bad78cafa79d4f101ae49a4e9f0feeaedb8",
+  "scope": "REST filtered rendering; not interactive selection"
+}

@@ -1,0 +1,21 @@
+{
+  "model": "gpt-6.1-sol",
+  "commit": "5387c8deac89084441f88913b04282cf36a81238",
+  "workbook_sha256": "ecfec6718a164424800d0c2d73be80419db627e756f63805a1f2a785ae377329",
+  "result": "no new blocking defect",
+  "customers": 793,
+  "raw_rows": 9994,
+  "rank_runtime_counts": [
+    10,
+    10,
+    6
+  ],
+  "rank_sales_quantity_membership": "pass independent raw Hyper SQL comparison",
+  "remaining": [
+    "live hover",
+    "sort/threshold events",
+    "help toggle",
+    "scrolling"
+  ],
+  "parent_followup": "Refreshed current customer CSV and confirmed NB-18580 displays 3.2 years; see years-render.json."
+}
