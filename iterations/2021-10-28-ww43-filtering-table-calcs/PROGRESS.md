@@ -11,3 +11,4 @@
 - [x] 2026-11-05 — First shared test run reached 83 tests but two catalogue assertions failed because case metadata changed after the previous generation; regenerated catalogue is the corrective next step.
 - [x] 2026-11-05 — Regenerated both catalogues after metadata changes; all 83 shared unittest cases pass.
 - [x] 2026-11-05 — Post-restore verifier, saved-export verifier, and metadata-only validation pass; Desktop/Cloud not run.
+- [x] 2026-11-05 — Pushed conflict-resolved branch at `ef697c2a1bb0669503b5de77a2cd9892d64c60e5`; PR remains draft and partial pending parent runtime evidence.
