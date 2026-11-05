@@ -1,0 +1,81 @@
+{
+  "case_id": "wow-2021-ww45-customer-purchasing-habits-rfm-analysis",
+  "captured_at": "2026-10-29T15:36:41.899316+00:00",
+  "source_hashes": {
+    "author": "2162fe1ead72bf441b9ef70d20bc2237f11f13fd1ba6c2cfd0e10a1ea857011a",
+    "replica": "ecfec6718a164424800d0c2d73be80419db627e756f63805a1f2a785ae377329"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "d69d7aad-150f-4663-80fa-3b3a213e6838",
+      "name": "cwtwb-review-wow-2021-ww45-customer-purchasing-habits-rfm-analysis-author-2162fe1ead72",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/3097668",
+      "views": [
+        {
+          "name": "2021_11_10_WW45_RFM_Analysis",
+          "id": "db0fbcb9-3973-4cb3-b289-bce2146fe965"
+        },
+        {
+          "name": "Data",
+          "id": "0eaa6533-72b7-496c-acf6-2013696d58b8"
+        }
+      ]
+    },
+    "replica": {
+      "id": "86275ea5-708a-49ec-8927-5869406d9ed0",
+      "name": "cwtwb-review-wow-2021-ww45-customer-purchasing-habits-rfm-analysis-replica-ecfec6718a16",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/3097760",
+      "views": [
+        {
+          "name": "Customers",
+          "id": "be7bd323-0b95-4896-92a4-d5ce0c7bd0b4"
+        },
+        {
+          "name": "Help",
+          "id": "ad2a1ad1-0a58-4fa9-8534-be34bf7c77b0"
+        },
+        {
+          "name": "Top Products",
+          "id": "6a1e0bc6-8c68-4462-a719-c7a87514e3ec"
+        },
+        {
+          "name": "RFM",
+          "id": "f5d238ae-4df0-43e1-aee4-9c43eb7281b5"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "db0fbcb9-3973-4cb3-b289-bce2146fe965",
+          "name": "2021_11_10_WW45_RFM_Analysis",
+          "path": "outputs/cloud-author.png",
+          "sha256": "0f5faee5e648ac956bd0de06e4640e0e2a0a71e8ef53071832c4eb386289be43",
+          "size": [
+            3200,
+            1800
+          ]
+        },
+        "replica": {
+          "id": "f5d238ae-4df0-43e1-aee4-9c43eb7281b5",
+          "name": "RFM",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "2279c68c09895e5193aee160306d1adf1ae11e780c57609c8b3d122721cda061",
+          "size": [
+            3200,
+            1800
+          ]
+        }
+      },
+      "data": []
+    }
+  ],
+  "status": "captured_requires_independent_review"
+}
