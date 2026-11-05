@@ -7,5 +7,5 @@
 - [x] Case verifier and 12 case mutation tests pass; metadata validation passes after catalogue regeneration.
 - [x] PAT Cloud REST/artifact-contract evidence is present for the default state; browser events remain explicitly unexecuted.
 - [ ] Full repository test run is dependency-blocked by missing `tableauserverclient`; the other 81 repository tests pass.
-- [x] Fresh Desktop corpus command completed with `UNKNOWN` on try1/try2/try3 and exit 2; existing frozen `LOADED`/50-case evidence is preserved as historical evidence only.
+- [x] The latest Desktop corpus command exits 1 and reports unresolved corpus cases; existing frozen `LOADED`/50-case evidence is preserved as historical evidence only.
 - Next: confirm frozen artifact hashes, commit catalogue/progress changes, and push the conflict-resolved branch.
