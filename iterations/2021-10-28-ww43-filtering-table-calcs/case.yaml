@@ -54,7 +54,7 @@ notes:
 - Default/June/Copiers/Machines exports have 48/1/32/39 observed months. Author
   comparisons use its Data sheet; sparse dashboard densification is not exhaustive.
 cwtwb:
-  tested_version: 0.29.0a1
+  tested_version: 0.29.0a2
   tested_commit: 23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c
   runs:
   - version: 0.29.0a1
@@ -69,6 +69,10 @@ cwtwb:
     evidence: evidence/cloud-data-verification.json
     scope: Frozen-artifact Desktop LOADED and four REST export states, including
       bounded Copiers/Machines observed-month checks; native interactions pending.
+  - version: 0.29.0a2
+    result: pass
+    evidence: evidence/sdk-a2-isolated-validation.json
+    scope: Validation-only isolated rebuild with the repository-pinned SDK; frozen accepted artifact and runtime evidence unchanged.
 analysis_status: completed
 functional_status: partial
 visual_status: acceptable_delta

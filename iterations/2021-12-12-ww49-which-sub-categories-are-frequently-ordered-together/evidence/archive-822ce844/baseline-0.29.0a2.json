@@ -1,0 +1,40 @@
+{
+  "version": "0.29.0a2",
+  "distribution": "published PyPI prerelease",
+  "release_git_tag": "v0.29.0a2",
+  "release_tag_commit": "7e7731e474ceab5678fa64b681f16402fb90f57a",
+  "result": "workaround",
+  "provenance": {
+    "version": "0.29.0a2",
+    "module": "C:\\Users\\imgwho\\Desktop\\project\\wow-tableau-problem-solving\\scratch\\sdk-release-0.29.0a2\\cwtwb\\__init__.py",
+    "module_sha256": "cdc024ad49de77888e3af80bf649ad0b6c3828c556c198729b7722f286ad67c4",
+    "raw_sha256": "cdb3dde88490f0efa12e9a4834d9be74b330ce95cc6942356d0aa6fbb8f30a6e",
+    "raw_rows": 9994,
+    "cells": 306,
+    "contributions": 16946,
+    "workbook_sha256": "822ce8440be214d935bc34a1bf6106c9840d4a72954406e9834be5a12b31eeb2"
+  },
+  "local_gates": {
+    "metadata_source_lock_phase_boundary": "PASS",
+    "tableau_xsd": "PASS (strict errors absent)",
+    "oracle_cells": 306,
+    "synthetic_cells": 20,
+    "negative_mutations_rejected": 19,
+    "repository_unittests": "83 passed",
+    "isolated_rebuild": "PASS; copied workbooks removed, fresh verifier passed before historical probe restored"
+  },
+  "desktop": "NOT RUN",
+  "render_and_hover": "NOT RUN",
+  "sdk_edits": false,
+  "source_hashes": {
+    "build_replication.py": "6a2b9ed5f05d4641c2d1ef6e0909803e04b4ab4853cac5e7863bc075c4faa3fc",
+    "verify_replication.py": "6d4e3b7a1114a513ba71bf9ce0eeafeab20d845ccfa56199f2690013a60ba7c1",
+    "analysis.md": "7d2c5588bcf3b8bb493d616004656f6331306fbf4555fb17f4b47902c383ec42",
+    "inputs/source-lock.json": "ac25f34b7bad359f9eaac842f5eb2503d1346762715e863f7832e305369439b7"
+  },
+  "historical_probe": {
+    "path": "outputs/role-probe.twbx",
+    "sha256": "2fc0b31e32b1d66d34fd3474a1812cd957265707051fcafe1cb7193de17fb13b",
+    "result": "Superseded static role probe, no Desktop pass claim"
+  }
+}

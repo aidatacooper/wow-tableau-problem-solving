@@ -1,0 +1,31 @@
+{
+  "base_commit": "d52ecab",
+  "branch": "t3/ww48-advent-calendar",
+  "sdk_distribution": "PyPI cwtwb==0.29.0a2",
+  "sdk_source_tree_sha256": "0ccc879823f5b99be5d4dac9cc71a8931ea62bacc1fb64d3c0bb0b5a376f9db0",
+  "merged_retest_commit": "cac8820f26e703c3858253adfa21efd989eb8a78",
+  "files": {
+    "build_replication.py": "8b4721f53b2333a166b887815d9a4fbda8ca8f5be9ba6a3db874c63bcd6bbf17",
+    "verify_replication.py": "2a07924b3ada0d3bc94c84d2294bb207436ecefa404c503bb2eb44f9b1f827ad",
+    "probe_background.py": "72b5d5734b71e8f984d3ce7b898cf6c78cfcf18d769f70efab5907b86b0f1026",
+    "case.yaml": "e4b7ef41fd29eb07d12ae98d04f4bfa96fee950bf802c0965a5e9e2e9ab76d80",
+    "analysis.md": "60db2bb307ca2ad3b6fb926e57a74af9b594904a724fc16a4e7726fd697464a8",
+    "inputs/source-lock.json": "f0d370927252aa304604497b368e79896420e2ed2bb433edbe04618bd6069818",
+    "outputs/replicated-workbook.twbx": "546ed6e1246c09c9a284a32b1ed9b4288121f270bbdfd507049307d8bf613dbc",
+    "outputs/build-provenance.json": "64d36f67d25c4047eb32a465e2d83555123fe9a885db3707166c97b45ada2c6c",
+    "outputs/local-verification.json": "ef91f1dcb9f5ddf3161a1007d0c4c7af08d25fa8e55f615b17349435bc1d452b",
+    "evidence/background-probe-results.json": "a457c72011241c26768a9eea6beabb0672fbe1ce9c4c247cb03c43d94bd3e36c"
+  },
+  "gates": {
+    "metadata_source_lock_phase_boundary_xsd": "PASS",
+    "repo_tests": "83 PASS",
+    "catalogue": "PASS 112 active cases",
+    "fresh_isolated_build": "PASS",
+    "negative_mutations": "11 rejected",
+    "historical_archives": "PASS separately",
+    "Desktop": "NOT RUN",
+    "Cloud": "NOT RUN",
+    "live_interactions": "NOT RUN",
+    "native_background": "BLOCKED"
+  }
+}

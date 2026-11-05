@@ -51,7 +51,7 @@ The dashboard is 800 × 1000, as required by the official challenge. It has one 
 
 ## Released SDK result
 
-Baseline: cwtwb **0.29.0a1**, commit **23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c**, source `C:/Users/imgwho/Desktop/project/.sdk-pins/cwtwb-23b1df0/src`. Each command explicitly sets both `PYTHONPATH` and `CWTWB_SRC`. The builder rejects other SDK versions. No a2 switch, global installation change, SDK edit, author XML workaround, or reusable missing capability was needed. Local construction result is `pass`; overall functionality stays `partial` until the mandatory runtime gates pass.
+The frozen accepted artifact was produced with released cwtwb **0.29.0a1** at **23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c**. The current repository pins released cwtwb **0.29.0a2**; the builder version guard accepts that required pin, and an isolated a2 rebuild is validation-only. The frozen artifact is not replaced. Each command explicitly sets both `PYTHONPATH` and `CWTWB_SRC`. Local construction result is `pass`; overall functionality stays `partial` until the mandatory runtime gates pass.
 
 The verifier checks all calculation formulas, continuous month grain, both table-calculation addressings, absence of partition resets/extra dimensions, late versus early date filters, synchronized axis binding, both bar shelves, sort direction, date parameter defaults, parameter action min/max/reset semantics, sub-category action scope, data packaging, and XSD. It compares 27 scenario outputs between the independent Decimal oracle and Hyper SQL model, including zoom, single month, first two months, year boundary, final month, all 17 sub-categories, multiple categories, and reset. Six deliberate contract mutations must fail verification.
 

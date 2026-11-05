@@ -9,8 +9,8 @@ OUTPUT = HERE / "outputs/replicated-workbook.twbx"
 
 
 def build() -> Path:
-    if cwtwb.__version__ != "0.29.0a1":
-        raise RuntimeError(f"Baseline requires cwtwb 0.29.0a1; got {cwtwb.__version__}")
+    if cwtwb.__version__ != "0.29.0a2":
+        raise RuntimeError(f"Baseline requires cwtwb 0.29.0a2; got {cwtwb.__version__}")
     OUTPUT.parent.mkdir(exist_ok=True)
     e = TWBEditor("")
     e.set_hyper_connection(str(HERE / "inputs/federated_0dg8n3q1ypgh2719qo5qk1.hyper"))
@@ -43,7 +43,7 @@ def build() -> Path:
         synchronized=True, show_labels=False, mark_color_1="#82b3d3", mark_color_2="#184e77",
         filters=[{"column": "Visible Month", "values": [True]}],
         table_calc_overrides={"Rolling Average": addressing, "Visible Month": addressing})
-    e.configure_custom_tooltip("Trend", [{"text": "Month: "}, {"field": "EXACTDATE(Order Date Month)"},
+    e.configure_custom_tooltip("Trend", [{"text": "Month: "}, {"field": "[Order Date Month]"},
         {"text": "\nSales: "}, {"field": "SUM(Sales)"},
         {"text": "\n3-month rolling average: "}, {"field": "Rolling Average"}])
     e.configure_worksheet_style("Trend", hide_gridlines=True, hide_zeroline=True,
