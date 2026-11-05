@@ -46,8 +46,11 @@ def check_cloud_manifest(path: Path, case_dir: Path) -> int:
     assert manifest["source_hashes"]["replica"] == ARTIFACT_SHA
     assert set(item["name"] for item in manifest["states"]) == EXPECTED_STATES
     workbooks = manifest["workbooks"]
-    assert workbooks["author"]["views"][0]["id"] == "d46c7d95-6b21-4a1e-a99a-a7b7ce77bc8d"
-    assert workbooks["replica"]["views"][2]["id"] == "a0c499a4-319e-42de-a465-d73ab27f41be"
+    assert workbooks["author"]["id"] == "70dc1b8b-19aa-4daa-a32d-426509bf4713"
+    author_views = {view["name"]: view["id"] for view in workbooks["author"]["views"]}
+    replica_views = {view["name"]: view["id"] for view in workbooks["replica"]["views"]}
+    assert author_views["2021_11_03_Top_Bottom_Performers"] == "d46c7d95-6b21-4a1e-a99a-a7b7ce77bc8d"
+    assert replica_views["WW44 Profit Performers"] == "a0c499a4-319e-42de-a465-d73ab27f41be"
     for state in manifest["states"]:
         assert state["parameters"] == EXPECTED_PARAMS[state["name"]]
         for role in ("author", "replica"):
