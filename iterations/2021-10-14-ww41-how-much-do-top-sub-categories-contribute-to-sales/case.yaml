@@ -64,7 +64,7 @@ notes:
 - Browser MFA prevented real parameter-control and two-way hover/auto-clear testing. Keep functional partial
   and verification pending.
 cwtwb:
-  tested_version: 0.29.0a1
+  tested_version: 0.29.0a2
   tested_commit: 23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c
   source_path: C:/Users/imgwho/Desktop/project/.sdk-pins/cwtwb-23b1df0/src
   runs:
@@ -100,6 +100,12 @@ cwtwb:
     notes: Frozen artifact passes parent Desktop load, 50-case corpus, four-state Cloud render/data capture
       and independent review. Accept visual delta; keep partial pending real browser parameter and two-way
       hover/clear events. No SDK edits or frozen-output rebuild.
+  - version: 0.29.0a2
+    commit: package-release-0.29.0a2
+    result: workaround
+    evidence: evidence/local-verification.json
+    notes: Required released SDK verifier run against the preserved frozen artifact; 17 numerical scenarios
+      and eight mutation checks pass. No artifact rebuild or new Desktop/Cloud claim.
 analysis_status: completed
 functional_status: partial
 visual_status: acceptable_delta
