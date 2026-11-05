@@ -99,6 +99,10 @@ inputs:
   data_files:
   - inputs/TEMP_0hqe4ej0o53vlw1ghl4fi0mgozri.hyper
 acceptance:
+- id: cloud-rest-artifact-scope
+  description: PAT-authenticated Cloud REST default author/replica PNG and worksheet CSV artifacts are hash-bound to the frozen workbooks; the serialized workbook contracts and independent Hyper checks pass. This scope does not execute browser clicks, hovers, selections or parameter events.
+  mode: manual
+  evidence: evidence/cloud-verification.json
 - id: customer-metrics
   description: All 793 customer metrics agree with independent raw Hyper SQL; group
     by ID.
@@ -123,8 +127,9 @@ acceptance:
     and prior runtime defects; counts in verification.json.
   mode: automated
 - id: live-events
-  description: 'Parent: Desktop open, all sort/threshold events, product rank tooltip
-    on multiple customers, ?/X help events, headings/scroll alignment and visual review.'
+  description: Browser/Desktop interaction execution (sort/threshold changes, product-rank
+    hover, help toggle, scrolling and visual review) remains outside the accepted
+    PAT Cloud REST plus artifact-contract scope and was not executed.
   mode: manual
   evidence: evidence/pending-live.md
 - id: product-rank
@@ -144,9 +149,10 @@ acceptance:
     and resolve declared dependencies; historical blank-runtime workbook and empty
     shelf mutation rejected.
   mode: automated
-remaining_work: Live hover, selection/parameter changes, help or tooltip events as
-  applicable remain unverified. Default runtime data and visual review passed; Desktop
-  and 50-case corpus passed. Final PR integration pending.
+remaining_work: Browser/Desktop interactions remain unexecuted, including live hover,
+  selections, parameter changes, sort/threshold events, help toggle and scrolling.
+  The accepted scope is PAT Cloud REST artifacts plus serialized artifact contracts;
+  functional_status remains partial until the excluded interaction scope is exercised.
 workarounds: []
 capability_gaps: []
 related_cwtwb_issues: []

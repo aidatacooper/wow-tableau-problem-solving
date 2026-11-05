@@ -32,3 +32,19 @@
 
 - Final validation and 83 repository tests passed. 16 negative controls rejected. Zero strict XSD errors; compatibility warning retained.
 - Frozen ecfec6718a164424800d0c2d73be80419db627e756f63805a1f2a785ae377329. Previous runtime artifact/captures preserved. Parent REST execution checks pending; no runtime ranking claim based on SQL fixture.
+
+- 2026-11-05: Resolved PR #28 on top of current `origin/main` and regenerated both
+  catalogue views. The frozen TWBX, PNG and CSV evidence remains byte-preserved. The
+  case verifier passes all ten automated contracts and 16 negative controls; metadata
+  validation passes and the repository regression suite passes.
+- 2026-11-05: Acceptance is recorded as `cloud_rest_and_artifact_contracts`: the
+  existing PAT Cloud REST author/replica PNG and worksheet CSV captures are hash-bound
+  to the frozen workbooks, and serialized artifact contracts plus independent Hyper
+  checks pass. Browser/Desktop clicks, hovers, selections, parameter changes, sorting,
+  help toggles and scrolling were not executed or claimed. `functional_status` remains
+  `partial`; `visual_status` remains `acceptable_delta`.
+- 2026-11-05: The one-case Desktop gate rebuilt the case and reported `LOADED`.
+  The generated probe was discarded afterward so `outputs/replicated-workbook.twbx`
+  and all frozen PNG/CSV evidence retain their committed bytes. No separate REST
+  contract verifier exists in this repository; the saved PAT REST manifests and
+  case verifier provide the declared artifact-contract evidence.
