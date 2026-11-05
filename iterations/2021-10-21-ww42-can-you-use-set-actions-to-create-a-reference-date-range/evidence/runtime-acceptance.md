@@ -59,7 +59,7 @@ Selected peak is December 2020. Top states are California ($99,025.3305,
 ## Remaining gates
 
 - Desktop artifact load: LOADED, bound to final SHA in desktop-parent-check.json.
-- Existing Desktop corpus: 50 LOADED, zero FAIL or UNKNOWN.
+- Existing frozen Desktop corpus evidence records 50 LOADED, zero FAIL or UNKNOWN; the fresh corpus command returned UNKNOWN on all three attempts (exit 2), so no new corpus pass is claimed.
 - Default Cloud figures/render and independent review: passed with documented visual differences.
 - Native UI interactions and nondefault Tableau/VizQL state updates: PENDING (MFA unavailable).
 - PAT Cloud REST plus artifact-contract scope: PASS for the default state only; the captured PNG/CSV hashes and workbook artifact are bound in `evidence/cloud-verification.json`, `evidence/cloud-csv.json`, and `evidence/handoff.json`.
