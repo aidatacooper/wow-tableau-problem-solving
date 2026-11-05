@@ -1,0 +1,564 @@
+{
+  "artifact_sha256": "07a9dd44a79f541786843f19f120f6dedad1e7a276ee6d5c4a1fea80e1af70dd",
+  "method": "Independent Python raw-input oracle versus generated Tableau formulas translated to Hyper SQL; no Desktop/Cloud runtime claim.",
+  "scenarios": {
+    "Month": {
+      "start": "2021-12-01",
+      "latest": "2021-12-30",
+      "total": 8483.346799999998,
+      "top": [
+        "Copiers",
+        "Chairs",
+        "Paper",
+        "Phones",
+        "Storage"
+      ],
+      "bottom": [
+        "Fasteners",
+        "Machines",
+        "Bookcases",
+        "Tables",
+        "Binders"
+      ],
+      "middle": [
+        "Accessories",
+        "Appliances",
+        "Furnishings",
+        "Art",
+        "Envelopes",
+        "Labels",
+        "Supplies"
+      ],
+      "profits": {
+        "Binders": -2689.6250000000005,
+        "Furnishings": 270.07919999999996,
+        "Storage": 1394.1189999999997,
+        "Appliances": 690.4331,
+        "Phones": 1680.8430999999996,
+        "Fasteners": 61.82809999999999,
+        "Accessories": 1380.273,
+        "Envelopes": 174.9739,
+        "Copiers": 2540.9577,
+        "Paper": 1703.7302,
+        "Tables": -776.9687000000001,
+        "Labels": 130.6564,
+        "Bookcases": -366.7888,
+        "Chairs": 2020.4330999999997,
+        "Art": 198.53589999999997,
+        "Machines": -39.795000000000144,
+        "Supplies": 109.66159999999996
+      },
+      "bars": {
+        "Copiers": {
+          "value": 2540.9577,
+          "group": "Top 5",
+          "members": 1
+        },
+        "Chairs": {
+          "value": 2020.4330999999997,
+          "group": "Top 5",
+          "members": 1
+        },
+        "Paper": {
+          "value": 1703.7302,
+          "group": "Top 5",
+          "members": 1
+        },
+        "Phones": {
+          "value": 1680.8430999999996,
+          "group": "Top 5",
+          "members": 1
+        },
+        "Storage": {
+          "value": 1394.1189999999997,
+          "group": "Top 5",
+          "members": 1
+        },
+        "Fasteners": {
+          "value": 61.82809999999999,
+          "group": "Bottom 5",
+          "members": 1
+        },
+        "Machines": {
+          "value": -39.795000000000144,
+          "group": "Bottom 5",
+          "members": 1
+        },
+        "Bookcases": {
+          "value": -366.7888,
+          "group": "Bottom 5",
+          "members": 1
+        },
+        "Tables": {
+          "value": -776.9687000000001,
+          "group": "Bottom 5",
+          "members": 1
+        },
+        "Binders": {
+          "value": -2689.6250000000005,
+          "group": "Bottom 5",
+          "members": 1
+        },
+        "Everyone Else": {
+          "value": 422.08758571428564,
+          "group": "Everything Else",
+          "members": 7
+        }
+      },
+      "boundary_gaps": {
+        "top": 13.845999999999776,
+        "bottom": 47.83349999999997
+      },
+      "generated_bars": [
+        {
+          "category": "Copiers",
+          "group": "Top 5",
+          "profit": 2540.9577,
+          "member_count": 1
+        },
+        {
+          "category": "Chairs",
+          "group": "Top 5",
+          "profit": 2020.4330999999993,
+          "member_count": 1
+        },
+        {
+          "category": "Paper",
+          "group": "Top 5",
+          "profit": 1703.7301999999997,
+          "member_count": 1
+        },
+        {
+          "category": "Phones",
+          "group": "Top 5",
+          "profit": 1680.8430999999994,
+          "member_count": 1
+        },
+        {
+          "category": "Storage",
+          "group": "Top 5",
+          "profit": 1394.1189999999997,
+          "member_count": 1
+        },
+        {
+          "category": "Everyone Else",
+          "group": "Everything Else",
+          "profit": 422.08758571428586,
+          "member_count": 7
+        },
+        {
+          "category": "Fasteners",
+          "group": "Bottom 5",
+          "profit": 61.828100000000006,
+          "member_count": 1
+        },
+        {
+          "category": "Machines",
+          "group": "Bottom 5",
+          "profit": -39.795000000000144,
+          "member_count": 1
+        },
+        {
+          "category": "Bookcases",
+          "group": "Bottom 5",
+          "profit": -366.7888,
+          "member_count": 1
+        },
+        {
+          "category": "Tables",
+          "group": "Bottom 5",
+          "profit": -776.9687000000001,
+          "member_count": 1
+        },
+        {
+          "category": "Binders",
+          "group": "Bottom 5",
+          "profit": -2689.625000000001,
+          "member_count": 1
+        }
+      ]
+    },
+    "Quarter": {
+      "start": "2021-10-01",
+      "latest": "2021-12-30",
+      "total": 27448.725999999995,
+      "top": [
+        "Copiers",
+        "Phones",
+        "Accessories",
+        "Paper",
+        "Storage"
+      ],
+      "bottom": [
+        "Supplies",
+        "Bookcases",
+        "Binders",
+        "Machines",
+        "Tables"
+      ],
+      "middle": [
+        "Chairs",
+        "Appliances",
+        "Furnishings",
+        "Art",
+        "Envelopes",
+        "Labels",
+        "Fasteners"
+      ],
+      "profits": {
+        "Paper": 4034.3806999999997,
+        "Binders": -2198.7095000000013,
+        "Furnishings": 1578.1652,
+        "Storage": 3278.169499999999,
+        "Accessories": 4469.9289,
+        "Labels": 402.549,
+        "Phones": 5504.900699999999,
+        "Art": 633.1865999999999,
+        "Appliances": 2466.7065999999995,
+        "Fasteners": 153.5969,
+        "Envelopes": 596.7198999999999,
+        "Tables": -4530.3769,
+        "Copiers": 11887.925399999998,
+        "Bookcases": -893.7648,
+        "Chairs": 2871.874699999999,
+        "Machines": -2864.1183999999994,
+        "Supplies": 57.591499999999975
+      },
+      "bars": {
+        "Copiers": {
+          "value": 11887.925399999998,
+          "group": "Top 5",
+          "members": 1
+        },
+        "Phones": {
+          "value": 5504.900699999999,
+          "group": "Top 5",
+          "members": 1
+        },
+        "Accessories": {
+          "value": 4469.9289,
+          "group": "Top 5",
+          "members": 1
+        },
+        "Paper": {
+          "value": 4034.3806999999997,
+          "group": "Top 5",
+          "members": 1
+        },
+        "Storage": {
+          "value": 3278.169499999999,
+          "group": "Top 5",
+          "members": 1
+        },
+        "Supplies": {
+          "value": 57.591499999999975,
+          "group": "Bottom 5",
+          "members": 1
+        },
+        "Bookcases": {
+          "value": -893.7648,
+          "group": "Bottom 5",
+          "members": 1
+        },
+        "Binders": {
+          "value": -2198.7095000000013,
+          "group": "Bottom 5",
+          "members": 1
+        },
+        "Machines": {
+          "value": -2864.1183999999994,
+          "group": "Bottom 5",
+          "members": 1
+        },
+        "Tables": {
+          "value": -4530.3769,
+          "group": "Bottom 5",
+          "members": 1
+        },
+        "Everyone Else": {
+          "value": 1243.2569857142855,
+          "group": "Everything Else",
+          "members": 7
+        }
+      },
+      "boundary_gaps": {
+        "top": 406.2948000000001,
+        "bottom": 96.00540000000004
+      },
+      "generated_bars": [
+        {
+          "category": "Copiers",
+          "group": "Top 5",
+          "profit": 11887.9254,
+          "member_count": 1
+        },
+        {
+          "category": "Phones",
+          "group": "Top 5",
+          "profit": 5504.900699999999,
+          "member_count": 1
+        },
+        {
+          "category": "Accessories",
+          "group": "Top 5",
+          "profit": 4469.9289,
+          "member_count": 1
+        },
+        {
+          "category": "Paper",
+          "group": "Top 5",
+          "profit": 4034.3807000000006,
+          "member_count": 1
+        },
+        {
+          "category": "Storage",
+          "group": "Top 5",
+          "profit": 3278.1694999999977,
+          "member_count": 1
+        },
+        {
+          "category": "Everyone Else",
+          "group": "Everything Else",
+          "profit": 1243.256985714285,
+          "member_count": 7
+        },
+        {
+          "category": "Supplies",
+          "group": "Bottom 5",
+          "profit": 57.59149999999997,
+          "member_count": 1
+        },
+        {
+          "category": "Bookcases",
+          "group": "Bottom 5",
+          "profit": -893.7648000000002,
+          "member_count": 1
+        },
+        {
+          "category": "Binders",
+          "group": "Bottom 5",
+          "profit": -2198.7095000000036,
+          "member_count": 1
+        },
+        {
+          "category": "Machines",
+          "group": "Bottom 5",
+          "profit": -2864.118399999998,
+          "member_count": 1
+        },
+        {
+          "category": "Tables",
+          "group": "Bottom 5",
+          "profit": -4530.376900000001,
+          "member_count": 1
+        }
+      ]
+    },
+    "Year": {
+      "start": "2021-01-01",
+      "latest": "2021-12-30",
+      "total": 93439.26959999999,
+      "top": [
+        "Copiers",
+        "Accessories",
+        "Phones",
+        "Paper",
+        "Appliances"
+      ],
+      "bottom": [
+        "Fasteners",
+        "Bookcases",
+        "Supplies",
+        "Machines",
+        "Tables"
+      ],
+      "middle": [
+        "Binders",
+        "Chairs",
+        "Storage",
+        "Furnishings",
+        "Art",
+        "Labels",
+        "Envelopes"
+      ],
+      "profits": {
+        "Paper": 12040.8434,
+        "Chairs": 7643.549299999997,
+        "Phones": 12849.324999999999,
+        "Storage": 7402.800699999998,
+        "Binders": 7669.741799999997,
+        "Furnishings": 4099.1628,
+        "Accessories": 15672.357,
+        "Labels": 1744.6093,
+        "Art": 2221.9631,
+        "Fasteners": 304.9489,
+        "Envelopes": 1441.759,
+        "Appliances": 7865.268299999999,
+        "Tables": -8140.694700000001,
+        "Copiers": 25031.7902,
+        "Bookcases": -583.6261000000006,
+        "Supplies": -955.3128,
+        "Machines": -2869.2156000000014
+      },
+      "bars": {
+        "Copiers": {
+          "value": 25031.7902,
+          "group": "Top 5",
+          "members": 1
+        },
+        "Accessories": {
+          "value": 15672.357,
+          "group": "Top 5",
+          "members": 1
+        },
+        "Phones": {
+          "value": 12849.324999999999,
+          "group": "Top 5",
+          "members": 1
+        },
+        "Paper": {
+          "value": 12040.8434,
+          "group": "Top 5",
+          "members": 1
+        },
+        "Appliances": {
+          "value": 7865.268299999999,
+          "group": "Top 5",
+          "members": 1
+        },
+        "Fasteners": {
+          "value": 304.9489,
+          "group": "Bottom 5",
+          "members": 1
+        },
+        "Bookcases": {
+          "value": -583.6261000000006,
+          "group": "Bottom 5",
+          "members": 1
+        },
+        "Supplies": {
+          "value": -955.3128,
+          "group": "Bottom 5",
+          "members": 1
+        },
+        "Machines": {
+          "value": -2869.2156000000014,
+          "group": "Bottom 5",
+          "members": 1
+        },
+        "Tables": {
+          "value": -8140.694700000001,
+          "group": "Bottom 5",
+          "members": 1
+        },
+        "Everyone Else": {
+          "value": 4603.369428571427,
+          "group": "Everything Else",
+          "members": 7
+        }
+      },
+      "boundary_gaps": {
+        "top": 195.52650000000176,
+        "bottom": 1136.8101000000001
+      },
+      "generated_bars": [
+        {
+          "category": "Copiers",
+          "group": "Top 5",
+          "profit": 25031.7902,
+          "member_count": 1
+        },
+        {
+          "category": "Accessories",
+          "group": "Top 5",
+          "profit": 15672.357000000002,
+          "member_count": 1
+        },
+        {
+          "category": "Phones",
+          "group": "Top 5",
+          "profit": 12849.32499999999,
+          "member_count": 1
+        },
+        {
+          "category": "Paper",
+          "group": "Top 5",
+          "profit": 12040.843399999989,
+          "member_count": 1
+        },
+        {
+          "category": "Appliances",
+          "group": "Top 5",
+          "profit": 7865.268300000001,
+          "member_count": 1
+        },
+        {
+          "category": "Everyone Else",
+          "group": "Everything Else",
+          "profit": 4603.369428571431,
+          "member_count": 7
+        },
+        {
+          "category": "Fasteners",
+          "group": "Bottom 5",
+          "profit": 304.94890000000004,
+          "member_count": 1
+        },
+        {
+          "category": "Bookcases",
+          "group": "Bottom 5",
+          "profit": -583.6261000000006,
+          "member_count": 1
+        },
+        {
+          "category": "Supplies",
+          "group": "Bottom 5",
+          "profit": -955.3127999999996,
+          "member_count": 1
+        },
+        {
+          "category": "Machines",
+          "group": "Bottom 5",
+          "profit": -2869.215599999999,
+          "member_count": 1
+        },
+        {
+          "category": "Tables",
+          "group": "Bottom 5",
+          "profit": -8140.6947,
+          "member_count": 1
+        }
+      ]
+    }
+  },
+  "pending": [
+    "Desktop load",
+    "live KPI actions and clear selection",
+    "visual labels and no-tooltip behavior",
+    "corpus Desktop regression",
+    "Cloud comparison if requested"
+  ],
+  "mutation_tests": [
+    "wrong period rejected",
+    "sum instead of middle mean rejected",
+    "bottom selecting top rejected"
+  ],
+  "synthetic_calendar_fixture": {
+    "max_date": "2023-05-15",
+    "expected_month": 5,
+    "expected_quarter": 9,
+    "expected_year": 15,
+    "status": "passed"
+  },
+  "tie_policy": "No ties in any actual period. Native end count=5 units=records; no explicit secondary key in author or replica. Synthetic cutoff review confirms why dense-rank<=5 differs; runtime tie choice pending.",
+  "acceptance_ids": [
+    "latest-calendar-periods",
+    "all-period-kpis",
+    "dynamic-top-bottom-five",
+    "middle-seven-average",
+    "signed-labels-and-sorting",
+    "kpi-action-contract",
+    "ties-and-filter-order",
+    "packaged-data-integrity"
+  ]
+}
