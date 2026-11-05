@@ -4,5 +4,8 @@
 - [x] Static verifier, numeric scenarios, artifact contracts, default-state PAT Cloud REST capture, Desktop load, and corpus evidence are recorded in `evidence/`.
 - [x] `functional_status` remains `partial`; `visual_status` remains `acceptable_delta`.
 - [ ] Browser selection, replacement, clear, and Ctrl-select interactions remain unexecuted because browser MFA is unavailable.
-- [ ] Run the case verifier, REST/artifact-contract checks available in the case, metadata validation, and repository tests after the merge.
-- Next: regenerate catalogues, confirm frozen artifact hashes, commit and push the conflict-resolved branch.
+- [x] Case verifier and 12 case mutation tests pass; metadata validation passes after catalogue regeneration.
+- [x] PAT Cloud REST/artifact-contract evidence is present for the default state; browser events remain explicitly unexecuted.
+- [ ] Full repository test run is dependency-blocked by missing `tableauserverclient`; the other 81 repository tests pass.
+- [ ] Desktop command did not produce a verdict in this environment; existing frozen `LOADED`/50-case evidence is preserved and not re-claimed as a new run.
+- Next: confirm frozen artifact hashes, commit catalogue/progress changes, and push the conflict-resolved branch.
