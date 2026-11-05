@@ -1,0 +1,36 @@
+{
+  "metadata_phase_boundary_catalogue": "PASS",
+  "frozen_workbook_XSD": "PASS",
+  "repository_unittests": {
+    "passed": 83,
+    "failed": 0
+  },
+  "isolated_fresh_build_and_verifier": "PASS",
+  "negative_mutations_rejected": 19,
+  "frozen_artifact_sha256_after_validation": "09708672f5f140fb57f4d07d335c65610d8a5ff9a201378050a11ba508849dde",
+  "desktop_and_corpus": "Existing hash-bound Desktop LOADED and 50-case corpus PASS retained; no artifact changes and no rerun.",
+  "matrix_before_vs_clear_pixel_identical": true,
+  "domain_visual_count": {
+    "row_lengths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "total": 153,
+    "selected_state": "All cells remain at original positions; native selection dims unselected cells."
+  }
+}

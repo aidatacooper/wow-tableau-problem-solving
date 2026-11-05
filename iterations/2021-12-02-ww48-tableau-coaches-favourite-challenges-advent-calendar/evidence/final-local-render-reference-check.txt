@@ -1,0 +1,146 @@
+{
+  "result": "PASS corrected file URI, datasource shape binding and ascending gradient contracts; parent recapture pending",
+  "workbook_sha256": "3980ad6e8e6cbb957d3ba19b0faf870df6482323c5bd4e876d87b5dcfeb1069f",
+  "oracle": {
+    "counts": {
+      "2018": 10,
+      "2021": 6,
+      "2019": 3,
+      "2020": 5
+    },
+    "tree_marks": 25,
+    "segments": 2000,
+    "selected_days": {
+      "2018": [
+        4,
+        10,
+        13,
+        14,
+        16,
+        18,
+        20,
+        21,
+        23,
+        24
+      ],
+      "2021": [
+        1,
+        7,
+        8,
+        15,
+        19,
+        22
+      ],
+      "2019": [
+        9,
+        12,
+        17
+      ],
+      "2020": [
+        2,
+        3,
+        5,
+        6,
+        11
+      ]
+    },
+    "clear_selection_marks": 25
+  },
+  "contracts": {
+    "native_background_present": true
+  },
+  "negative_mutations_rejected": 49,
+  "mutation_names": [
+    "wrong-coordinate",
+    "remove-shapes",
+    "wrong-star-size",
+    "break-formula",
+    "wrong-bar-grain",
+    "remove-gradient",
+    "wrong-clear",
+    "wrong-url",
+    "break-highlight",
+    "wrong-dashboard-size",
+    "shape-missing-datasource-binding",
+    "gradient-descending-coordinate",
+    "foreign-mark-datasource",
+    "foreign-tooltip-datasource",
+    "wrong-valid-tooltip-binding",
+    "local-global-formula-inconsistency",
+    "local-raw-role-inconsistency",
+    "local-raw-type-inconsistency",
+    "categorical-size-reversed",
+    "boolean-category-type",
+    "kind-filter-wrong-level",
+    "kind-filter-wrong-identity",
+    "kind-filter-exclusion",
+    "kind-filter-extra-member",
+    "action-filter-wrong-valid-level",
+    "filter-command-type",
+    "filter-command-target",
+    "filter-multiselect",
+    "filter-source-expression",
+    "url-activation",
+    "url-source",
+    "highlight-source",
+    "highlight-activation",
+    "highlight-target",
+    "highlight-exclusion",
+    "background-quoted-path-regression",
+    "shape-unregistered-palette",
+    "gradient-reversed-palette",
+    "gradient-shifted-domain",
+    "background-swapped-field",
+    "background-foreign-field",
+    "background-nonnumeric-field",
+    "background-wrong-bound",
+    "background-nonfinite-bound",
+    "background-resource-reference",
+    "background-aspect-lock",
+    "gradient-width-data",
+    "missing-background-resource",
+    "corrupt-background-resource"
+  ],
+  "public_conversion_roundtrip": "PASS mapping/contracts/resources/XSD",
+  "historical_checked": [
+    {
+      "file": "background-image-probe.twbx",
+      "sha256": "2d7d0b54015c24be62553696aea5e21ce97f556dbd638b947529f82e4659ec07"
+    },
+    {
+      "file": "baseline-background-probe.twbx",
+      "sha256": "2aadcc03bc5a602dc9349287d513d5ef82dce60ff64676a55b6ec8f5b110189d"
+    },
+    {
+      "file": "baseline-0.29.0a2.twbx",
+      "sha256": "5fe9d6756dc4ec23fcda11ac6a1731898381da9e2b2627004ea85a7478d61753"
+    },
+    {
+      "file": "retest-cac8820.twbx",
+      "sha256": "00237e0d01076211db60de83e036b556a7b4e037570b4febd0ebd21d443a889b"
+    },
+    {
+      "file": "frozen-546ed6e.twbx",
+      "sha256": "546ed6e1246c09c9a284a32b1ed9b4288121f270bbdfd507049307d8bf613dbc"
+    }
+  ],
+  "prior_runtime_capture": {
+    "source_sha256": "264257cd5b710753e4c13ac5f4737d0740af3517e1d659c5a7bd03c8d3aae0b7",
+    "tree_rows": 25,
+    "bar_rows": 2004,
+    "status": "failed image rendering observed by parent; captured numerical grain reconciles"
+  },
+  "acceptance": [
+    "raw-data-oracle",
+    "tree-marks",
+    "gradient-bars",
+    "url-and-filter-actions",
+    "portable-assets",
+    "dependency-closure",
+    "negative-mutations",
+    "native-tree-background",
+    "shape-datasource-binding",
+    "ascending-gradient"
+  ],
+  "runtime": "Parent capture of prior 264257cd failed rendering. Corrected artifact has NOT been rendered; parent recapture and live interactions remain pending."
+}
