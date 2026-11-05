@@ -1,0 +1,165 @@
+{
+  "case_id": "wow-2021-ww38-can-you-quickly-tell-the-net-change-between-two-dates",
+  "captured_at": "2026-10-23T16:55:39.822370+00:00",
+  "source_hashes": {
+    "author": "c9c78821f394e504700ba5e1ac6dcc004abc9915569c7a912112d97e57a03f2b",
+    "replica": "7c019ad146c0535a29b3be0aa5090b8051779ab06e0830af91a16ec8710fc98c"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "9e4c8e7b-0503-4033-a9ac-437e554ddf11",
+      "name": "cwtwb-review-wow-2021-ww38-can-you-quickly-tell-the-net-change-between-two-dates-author-c9c78821f394",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/3062277",
+      "views": [
+        {
+          "name": "2021_09_22_WW38_Daily_Sales_Tracker",
+          "id": "bbaa49b0-32bf-4c9f-9b3f-17cd783c10c8"
+        },
+        {
+          "name": "Step 1",
+          "id": "7603d245-f052-41ec-a7bb-f1ac5a7bea66"
+        },
+        {
+          "name": "Step 2",
+          "id": "4ea5bb87-41df-407f-ba15-e24bfc4e2a4c"
+        },
+        {
+          "name": "Step 3",
+          "id": "371e2cde-e5ea-4182-8569-e74d23a9bedc"
+        },
+        {
+          "name": "Step 4",
+          "id": "bba6863a-bfe0-4d6b-b250-bd67f4c8ac0c"
+        },
+        {
+          "name": "Step 5",
+          "id": "2f6e09b6-0a0d-49fc-9cf2-3a0f5b5e2055"
+        }
+      ]
+    },
+    "replica": {
+      "id": "3a78f0b6-17a0-45a2-b542-cf5e8de1d7c1",
+      "name": "cwtwb-review-wow-2021-ww38-can-you-quickly-tell-the-net-change-between-two-dates-replica-7c019ad146c0",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/3062333",
+      "views": [
+        {
+          "name": "Trend",
+          "id": "2a127c9f-cb65-4112-9e68-cc6f5b77e443"
+        },
+        {
+          "name": "KPI",
+          "id": "d6c83a1f-baac-4a67-b845-a97facd1ecff"
+        },
+        {
+          "name": "Subtitle",
+          "id": "cb841311-448d-4611-a071-12222962d6e0"
+        },
+        {
+          "name": "Timeframe Selector",
+          "id": "ff7970b6-1e84-4065-bb50-3e52e6f8f7d7"
+        },
+        {
+          "name": "2021_09_22_WW38_Daily_Sales_Tracker",
+          "id": "cb9b48f3-cbb2-458f-8dee-41e8c0b9fd0c"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "bbaa49b0-32bf-4c9f-9b3f-17cd783c10c8",
+          "name": "2021_09_22_WW38_Daily_Sales_Tracker",
+          "path": "outputs/cloud-author.png",
+          "sha256": "414f7cdedfa3c8053bf804a3d5c124a08179f85f57e0e967dda726e31cf419bc",
+          "size": [
+            1400,
+            1000
+          ]
+        },
+        "replica": {
+          "id": "cb9b48f3-cbb2-458f-8dee-41e8c0b9fd0c",
+          "name": "2021_09_22_WW38_Daily_Sales_Tracker",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "072d9310acc99a48b2275b6c20560ca6fbf80e9a7d0014bdd3d44208985b0f7e",
+          "size": [
+            1400,
+            1000
+          ]
+        }
+      },
+      "data": []
+    },
+    {
+      "name": "july-range",
+      "parameters": {
+        "pStartRange": "2021-07-01",
+        "pEndRange": "2021-07-31",
+        "pTimeframe": "1 YEAR"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "bbaa49b0-32bf-4c9f-9b3f-17cd783c10c8",
+          "name": "2021_09_22_WW38_Daily_Sales_Tracker",
+          "path": "outputs/cloud-author-july-range.png",
+          "sha256": "2d6954af4282e8af838adcad1806c01e6e00205a0e434ff29e425038c94ffbd0",
+          "size": [
+            1400,
+            1000
+          ]
+        },
+        "replica": {
+          "id": "cb9b48f3-cbb2-458f-8dee-41e8c0b9fd0c",
+          "name": "2021_09_22_WW38_Daily_Sales_Tracker",
+          "path": "outputs/cloud-replica-july-range.png",
+          "sha256": "6761a9e8542363990af8831150b61a4c065ffba97ca3bdafff179c5dc2ffd158",
+          "size": [
+            1400,
+            1000
+          ]
+        }
+      },
+      "data": []
+    },
+    {
+      "name": "single-day",
+      "parameters": {
+        "pStartRange": "2021-09-07",
+        "pEndRange": "2021-09-07",
+        "pTimeframe": "1 MONTH"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "bbaa49b0-32bf-4c9f-9b3f-17cd783c10c8",
+          "name": "2021_09_22_WW38_Daily_Sales_Tracker",
+          "path": "outputs/cloud-author-single-day.png",
+          "sha256": "f7abfd638cb265cab87562c6491422671bfabc1d237a9eddf4b4b44bcebfd73f",
+          "size": [
+            1400,
+            1000
+          ]
+        },
+        "replica": {
+          "id": "cb9b48f3-cbb2-458f-8dee-41e8c0b9fd0c",
+          "name": "2021_09_22_WW38_Daily_Sales_Tracker",
+          "path": "outputs/cloud-replica-single-day.png",
+          "sha256": "8f408cd007efcd4b9cda11242b33ef48a1fe413a5865cb41301bba58f8da6f1f",
+          "size": [
+            1400,
+            1000
+          ]
+        }
+      },
+      "data": []
+    }
+  ],
+  "status": "captured_requires_independent_review"
+}

@@ -1,0 +1,165 @@
+{
+  "artifact_sha256": "c9c78821f394e504700ba5e1ac6dcc004abc9915569c7a912112d97e57a03f2b",
+  "exports": [
+    {
+      "state": "default",
+      "view": "Step 1",
+      "path": "outputs/cloud-author-step-1-default.csv",
+      "sha256": "e1585100a79c8fb4c4cfef94c79654f6b375bd8200de42a154dc1f63bfbb20de",
+      "parameters": {},
+      "filters": {}
+    },
+    {
+      "state": "default",
+      "view": "Step 2",
+      "path": "outputs/cloud-author-step-2-default.csv",
+      "sha256": "0d359361b65bbb017743e1342fadba7350b6a9a5cfe5e00be5f921e9781e81fd",
+      "parameters": {},
+      "filters": {}
+    },
+    {
+      "state": "default",
+      "view": "Step 3",
+      "path": "outputs/cloud-author-step-3-default.csv",
+      "sha256": "bee63a37d9b2cf4c60608dc8797b9beb66ff9706db743fef1a780c121899c90c",
+      "parameters": {},
+      "filters": {}
+    },
+    {
+      "state": "default",
+      "view": "Step 4",
+      "path": "outputs/cloud-author-step-4-default.csv",
+      "sha256": "bd46b9db67b1143792920ad70c348d19990bc1ed48f8ac42219a86c7c45a9347",
+      "parameters": {},
+      "filters": {}
+    },
+    {
+      "state": "default",
+      "view": "Step 5",
+      "path": "outputs/cloud-author-step-5-default.csv",
+      "sha256": "51429ebbfae0faa29669e1c37cadbe35997007b5b20fb70860a178db40a4b244",
+      "parameters": {},
+      "filters": {}
+    },
+    {
+      "state": "july-range",
+      "view": "Step 1",
+      "path": "outputs/cloud-author-step-1-july-range.csv",
+      "sha256": "c1a05dec8166171a5f25f712cce91650bb1a88011da5cefc5aecf15c26ed6d68",
+      "parameters": {
+        "pStartRange": "2021-07-01",
+        "pEndRange": "2021-07-31",
+        "pTimeframe": "1 YEAR"
+      },
+      "filters": {}
+    },
+    {
+      "state": "july-range",
+      "view": "Step 2",
+      "path": "outputs/cloud-author-step-2-july-range.csv",
+      "sha256": "8581ce1346f8e4e317a385ad58c89b3491c786f3bbc7ab2f9b715b4e06acd493",
+      "parameters": {
+        "pStartRange": "2021-07-01",
+        "pEndRange": "2021-07-31",
+        "pTimeframe": "1 YEAR"
+      },
+      "filters": {}
+    },
+    {
+      "state": "july-range",
+      "view": "Step 3",
+      "path": "outputs/cloud-author-step-3-july-range.csv",
+      "sha256": "bf2e9d060631f56e9dc1216d53e26eac9bffd678844848b2d8d68db8820c2fb1",
+      "parameters": {
+        "pStartRange": "2021-07-01",
+        "pEndRange": "2021-07-31",
+        "pTimeframe": "1 YEAR"
+      },
+      "filters": {}
+    },
+    {
+      "state": "july-range",
+      "view": "Step 4",
+      "path": "outputs/cloud-author-step-4-july-range.csv",
+      "sha256": "be184516000ba964a21badcad0f3c32ba6c40adff671fc196f779ee96ed60a55",
+      "parameters": {
+        "pStartRange": "2021-07-01",
+        "pEndRange": "2021-07-31",
+        "pTimeframe": "1 YEAR"
+      },
+      "filters": {}
+    },
+    {
+      "state": "july-range",
+      "view": "Step 5",
+      "path": "outputs/cloud-author-step-5-july-range.csv",
+      "sha256": "be184516000ba964a21badcad0f3c32ba6c40adff671fc196f779ee96ed60a55",
+      "parameters": {
+        "pStartRange": "2021-07-01",
+        "pEndRange": "2021-07-31",
+        "pTimeframe": "1 YEAR"
+      },
+      "filters": {}
+    },
+    {
+      "state": "single-day",
+      "view": "Step 1",
+      "path": "outputs/cloud-author-step-1-single-day.csv",
+      "sha256": "dad371651174de11ecfb81f1af6c66f6e36e8e7d1cb1f4167bbe164de3d27633",
+      "parameters": {
+        "pStartRange": "2021-09-07",
+        "pEndRange": "2021-09-07",
+        "pTimeframe": "1 MONTH"
+      },
+      "filters": {}
+    },
+    {
+      "state": "single-day",
+      "view": "Step 2",
+      "path": "outputs/cloud-author-step-2-single-day.csv",
+      "sha256": "6c57d0ef642beb6f5b192f103f65c152fefe4a5ab858420424503362041493a9",
+      "parameters": {
+        "pStartRange": "2021-09-07",
+        "pEndRange": "2021-09-07",
+        "pTimeframe": "1 MONTH"
+      },
+      "filters": {}
+    },
+    {
+      "state": "single-day",
+      "view": "Step 3",
+      "path": "outputs/cloud-author-step-3-single-day.csv",
+      "sha256": "0ec9fecff0d6a36090259205184db44c26be1feeb7b3b1aa6d20e2740a3840cc",
+      "parameters": {
+        "pStartRange": "2021-09-07",
+        "pEndRange": "2021-09-07",
+        "pTimeframe": "1 MONTH"
+      },
+      "filters": {}
+    },
+    {
+      "state": "single-day",
+      "view": "Step 4",
+      "path": "outputs/cloud-author-step-4-single-day.csv",
+      "sha256": "3c2d3185403026a43822a6d997e077c7031604d6b2785e41e7653739bd13e0fb",
+      "parameters": {
+        "pStartRange": "2021-09-07",
+        "pEndRange": "2021-09-07",
+        "pTimeframe": "1 MONTH"
+      },
+      "filters": {}
+    },
+    {
+      "state": "single-day",
+      "view": "Step 5",
+      "path": "outputs/cloud-author-step-5-single-day.csv",
+      "sha256": "3c2d3185403026a43822a6d997e077c7031604d6b2785e41e7653739bd13e0fb",
+      "parameters": {
+        "pStartRange": "2021-09-07",
+        "pEndRange": "2021-09-07",
+        "pTimeframe": "1 MONTH"
+      },
+      "filters": {}
+    }
+  ]
+}

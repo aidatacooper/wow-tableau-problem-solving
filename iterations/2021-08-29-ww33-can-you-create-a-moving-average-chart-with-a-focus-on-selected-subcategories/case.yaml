@@ -1,0 +1,117 @@
+schema_version: 1.1.0
+case_id: wow-2021-ww33-can-you-create-a-moving-average-chart-with-a-focus-on-selected-subcategories
+iteration_id: 2021-08-29-ww33-can-you-create-a-moving-average-chart-with-a-focus-on-selected-subcategories
+post: https://donnacoles.home.blog/2021/08/29/can-you-create-a-moving-average-chart-with-a-focus-on-selected-subcategories/
+legacy_case_ids: {}
+article_date: '2021-08-29'
+challenge_year: 2021
+challenge_week: 33
+challenge_date: '2021-08-17'
+date_evidence:
+  article_date: Article-local HTML 'Published:' calendar date, retained in evidence/article-date.json.
+  challenge: Official 2021 Week 33 article title.
+  challenge_date: Official WordPress REST date field retained in evidence/official-challenge-date.json.
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2021w33tab/
+    wordpress_post_id: 5821
+  article:
+    url: https://donnacoles.home.blog/2021/08/29/can-you-create-a-moving-average-chart-with-a-focus-on-selected-subcategories/
+    path: null
+    sha256: 9a6f06fbe8e9874df392aa3c73bef3a7c5fd1a81d6435ce8d00d68d88a677273
+  workbook:
+    url: https://public.tableau.com/views/2021_08_18_WW_33_Moving_Avg/2021_08_18_WW33_Moving_Avg
+    filename: 2021_08_18_WW_33_Moving_Avg.twbx
+    sha256: 3b5b7f5446eb0dab12cea982cfffb85bb6d5c9ce389699adef9a5cb7abf279a1
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- evidence/article-date.json
+- evidence/build-provenance.json
+- evidence/cloud-request.json
+- evidence/functional-verification.json
+- evidence/official-challenge-date.json
+- evidence/sdk-baseline.json
+- inputs/source-lock.json
+- evidence/sdk-final.json
+- evidence/desktop-verification.json
+- evidence/cloud-verification.json
+- evidence/cloud-data-verification.json
+- evidence/visual-review.md
+- evidence/replica-data-exports.json
+- evidence/author-data-exports.json
+notes:
+- The article text says three Sub-Categories are grouped into Misc; the author workbook
+  groups five (Art, Envelopes, Fasteners, Labels, Supplies), which is what the published
+  visualisation shows and what is rebuilt here.
+- pPrior counts the current month, so the WINDOW_AVG start offset is (-1*[pPrior])+1;
+  with the default 3 the Accessories June 2018 value is the mean of April..September
+  2018, matching the article's worked example.
+- The shaded band is the nested WINDOW_MAX/WINDOW_MIN of Moving Avg addressed by Sub-Category
+  (group) with month as nested addressing.
+- Final Cloud and independent oracle evidence supersedes earlier static-only assumptions;
+  see evidence/cloud-data-verification.json and evidence/visual-review.md.
+- 'Earlier 597-row sparse oracle was corrected: published Tableau Data views densify
+  48 months x 13 groups = 624 rows; WINDOW_AVG ignores null values within the calendar
+  window. The original author CSV was available and verified unchanged.'
+cwtwb:
+  tested_version: 0.29.0a1
+  tested_commit: 23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c
+  runs:
+  - version: 0.29.0a1
+    commit: 23b1df06
+    result: pass
+    evidence: evidence/sdk-baseline.json
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: pass
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/TEMP_04gxk7f1wt0o9u1fe7vb71wwjqt5.hyper
+acceptance:
+- id: ww33-parameters
+  description: pPrior and pPost exist as integer range parameters from 1 to 6 with
+    step 1 and default 3, and both are exposed as dashboard sliders.
+  mode: automated
+- id: ww33-group
+  description: Sub-Category (group) folds Art, Envelopes, Fasteners, Labels and Supplies
+    into Misc, leaving 13 members.
+  mode: automated
+- id: ww33-set-focus
+  description: A set over Sub-Category (group) lists the 13 members and drives both
+    the line Colour and the categorical Size encoding.
+  mode: automated
+- id: ww33-moving-average
+  description: Moving Avg is WINDOW_AVG(SUM(Sales), (-1*pPrior)+1, pPost) and is addressed
+    by Month of Order Date.
+  mode: automated
+- id: ww33-window-extrema
+  description: Window Max Avg and Window Min Avg wrap Moving Avg and are addressed
+    by Sub-Category (group) with the month as nested addressing.
+  mode: automated
+- id: ww33-chart
+  description: The Viz sheet folds a Line pane on the Moving Avg axis with an Area
+    pane on Multiple Values, synchronised and fold-reversed, with the white/pale grey
+    Measure Names band palette.
+  mode: automated
+- id: ww33-dashboard-controls
+  description: The dashboard carries the checkdropdown set control and both slider
+    parameter controls beside the Viz sheet.
+  mode: automated
+- id: ww33-moving-average-values
+  description: The locked-extract oracle reproduces the monthly grouped sales, the
+    parameterised moving average and the nested window extrema, including the article's
+    Accessories June 2018 worked example.
+  mode: automated
+remaining_work: []
+blocker: null
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []

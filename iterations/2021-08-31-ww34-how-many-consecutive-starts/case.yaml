@@ -1,0 +1,121 @@
+schema_version: 1.1.0
+case_id: wow-2021-ww34-how-many-consecutive-starts
+iteration_id: 2021-08-31-ww34-how-many-consecutive-starts
+post: https://donnacoles.home.blog/2021/08/31/how-many-consecutive-starts/
+legacy_case_ids: {}
+article_date: '2021-08-31'
+challenge_year: 2021
+challenge_week: 34
+challenge_date: '2021-08-24'
+date_evidence:
+  article_date: Article-local HTML 'Published:' calendar date, retained in evidence/article-date.json.
+  challenge: Official 2021 Week 34 article title, "2021 Week 34 - How Many Consecutive
+    Starts?".
+  challenge_date: Official WordPress REST date field retained in evidence/official-challenge-date.json.
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2021-week-34-how-many-consecutive-starts/
+    wordpress_post_id: 5854
+  article:
+    url: https://donnacoles.home.blog/2021/08/31/how-many-consecutive-starts/
+    path: null
+    sha256: 1be289c908d2c9cc04ef40f0a83e19caf41af8b05d35c78a12e5478d8a25e48c
+  workbook:
+    url: https://public.tableau.com/views/2021_08_25_WW34_Consecutive_Starts/2021_08_25_WW34_Consecutive_Starts
+    filename: 2021_08_25_WW34_Consecutive_Starts.twbx
+    sha256: a4c489ea4505a695b26f847783254b83d1309b3422fe0e1253d368448894090a
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- evidence/article-date.json
+- evidence/build-provenance.json
+- evidence/cloud-request.json
+- evidence/functional-verification.json
+- evidence/official-challenge-date.json
+- evidence/sdk-baseline.json
+- inputs/source-lock.json
+- evidence/sdk-final.json
+- evidence/author-data-exports.json
+- evidence/replica-data-exports.json
+- outputs/independent-verification.json
+- evidence/desktop-verification.json
+- evidence/cloud-verification.json
+- evidence/cloud-data-verification.json
+- evidence/visual-review.md
+notes:
+- The extract also carries weeks 28-32 (334 rows); the article excludes them and both
+  replica worksheets keep the author's 1..17 in-range filter.
+- Season and Week arrive from the extract as integers, which the SDK registers as
+  measures, so the workbook re-exposes Season, Week and Player Id as explicit discrete
+  calculated fields, matching the article's "change to discrete" steps.
+- Each team plays 240 regular-season games (15 seasons x 16 games), so the dense INDEX
+  axis runs 1..240 and no real date axis is needed.
+- 'Frozen runtime repair passes 65040 Cloud field checks: replica Data/Viz all 7680
+  games; untouched author Data subset 720 games. See sdk-final and visual-review.'
+cwtwb:
+  tested_version: 0.29.0a1
+  tested_commit: 23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c
+  runs:
+  - version: 0.29.0a1
+    commit: 23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c
+    result: workaround
+    evidence: evidence/sdk-baseline.json
+  - version: 0.29.0a1
+    commit: 23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c
+    result: workaround
+    evidence: evidence/sdk-final.json
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: workaround
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/federated.hyper
+acceptance:
+- id: ww34-source-grain
+  description: The workbook connects to the locked extract as the author's two logical
+    tables related on offense_franchise_id = franchise_id, and exposes Season, Week
+    and Player Id as discrete dimensions with a continuous Week Number for the filter.
+  mode: automated
+- id: ww34-week-filter
+  description: Both worksheets carry exactly one filter, an in-range week filter from
+    1 to 17, and it is on the filter shelf (slices).
+  mode: automated
+- id: ww34-table-calcs
+  description: Prev Player ID, Match Prev Player ID, Consecutive Streak, Current Streak
+    and INDEX use the article's formulas and are addressed Season to Week to Player
+    Id with their nested calculation dependencies declared.
+  mode: automated
+- id: ww34-streak-oracle
+  description: An independent running-counter oracle over the locked extract reproduces
+    32 teams x 240 regular-season games, a current-streak total of 563 and the longest
+    streak (LAC, 224 games).
+  mode: automated
+- id: ww34-viz-encoding
+  description: The Viz sheet is a bar chart with the continuous index on Columns,
+    Team, Current Streak and Consecutive Streak on Rows, Season, Week and Player Id
+    on Detail, 1-axis-unit right-aligned flat-coloured bars, a hidden streak axis
+    and the index axis retitled.
+  mode: automated
+- id: ww34-dashboard
+  description: The fixed 800x1800 dashboard carries the Viz sheet in the author's
+    zone geometry plus the challenge, week, credit and source footer texts.
+  mode: automated
+remaining_work: []
+blocker: null
+workarounds:
+- Season and Week arrive as integer measures from the extract inspection and a bare
+  Week field binds as MONTH(Week), so the workbook re-exposes Season, Week, Player
+  Id and a continuous Week Number as explicit discrete calculated fields instead of
+  using the raw extract columns.
+- configure_chart nests Team and the two streak measures as Team * (Current * Consecutive);
+  configure_layered_chart with axis_shelf="columns" is used to emit the author's Team
+  / (Current * Consecutive) Rows shelf.
+capability_gaps: []
+related_cwtwb_issues: []

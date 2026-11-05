@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "acceptance": [
+    "ww40-state-groups",
+    "ww40-six-sales-cells",
+    "ww40-category-sort",
+    "ww40-total-reference",
+    "ww40-parameter-action",
+    "ww40-clear-selection",
+    "ww40-layout-palette"
+  ],
+  "source_rows": 9994,
+  "state_counts": {
+    "A-M": 25,
+    "N-Z": 24
+  },
+  "category_counts": {
+    "Furniture": 2121,
+    "Office Supplies": 6026,
+    "Technology": 1847
+  },
+  "totals": {
+    "A-M": 1128252.4045000013,
+    "N-Z": 1168948.4558000017
+  },
+  "orders_top_to_bottom": {
+    "Furniture": [
+      "Office Supplies",
+      "Technology",
+      "Furniture"
+    ],
+    "Office Supplies": [
+      "Furniture",
+      "Technology",
+      "Office Supplies"
+    ],
+    "Technology": [
+      "Office Supplies",
+      "Furniture",
+      "Technology"
+    ]
+  },
+  "workbook_sha256": "bf9a32d976c9f7aca2793ecf6ab981db1c5f22ca2b9d126ee73d54d9003767c5",
+  "scope": "Independent extract arithmetic and serialized native contracts; runtime gates recorded separately in evidence/."
+}

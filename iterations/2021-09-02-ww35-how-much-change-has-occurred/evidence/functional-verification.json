@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0.0",
+  "scope": "Locked-extract oracle for the WW35 change-in-sales chart; both LoDs, the % difference and the descending order are recomputed independently of the workbook.",
+  "browser_interaction_executed": false,
+  "state": {
+    "description": "Default state: 2020 + 2021 context window, no parameters, no actions."
+  },
+  "observed": {
+    "extract_rows": 9994,
+    "extract_years": [
+      2018,
+      2019,
+      2020,
+      2021
+    ],
+    "sub_categories": 17,
+    "order_top_to_bottom": [
+      "Phones",
+      "Chairs",
+      "Binders",
+      "Storage",
+      "Copiers",
+      "Tables",
+      "Accessories",
+      "Machines",
+      "Appliances",
+      "Bookcases",
+      "Furnishings",
+      "Paper",
+      "Supplies",
+      "Art",
+      "Labels",
+      "Envelopes",
+      "Fasteners"
+    ],
+    "examples": {
+      "Phones": {
+        "sales_2021": 105340.52,
+        "sales_2020": 78962.03,
+        "pct_difference": 0.3341
+      },
+      "Machines": {
+        "sales_2021": 43544.68,
+        "sales_2020": 55906.89,
+        "pct_difference": -0.2211
+      },
+      "Envelopes": {
+        "sales_2021": 3378.57,
+        "sales_2020": 4729.89,
+        "pct_difference": -0.2857
+      }
+    }
+  },
+  "expected_from_oracle": {
+    "author_visible_rows_matched": 15,
+    "published_label_shift_rows": 1,
+    "label_format": "+0%;-0%"
+  },
+  "result": "pass",
+  "note": "See analysis.md 'Finding: the published screenshot's labels are offset by one row' for why the label comparison carries a one-row shift."
+}

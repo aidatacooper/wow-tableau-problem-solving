@@ -1,0 +1,10 @@
+{
+  "challenge_year": 2021,
+  "challenge_week": 35,
+  "challenge_date": "2021-09-01",
+  "challenge_url": "https://www.workout-wednesday.com/2021w35/",
+  "challenge_title": "2021 Week 35 \u2013 How Much Change Has Occurred?",
+  "wordpress_post_id": 5872,
+  "source": "scripts/case_intake.py against the Workout Wednesday public API; record retained in the batch intake scratch file.",
+  "scope": "Official challenge publication date, used for challenge_date in case.yaml."
+}

@@ -1,0 +1,9 @@
+{
+  "builder_sha256": "b04adad0dc5e6e05b2bac64d6f948939b6081f90e7b57b11e2ea6839af7d02fd",
+  "verifier_sha256": "69fb2468fb911c61f6e686b8793c965c404e41f9ceb738e898ccd467d3f87826",
+  "primary_workbook_sha256": "2fb89605b7a2a3247929de4c701a595b071270a15f1d42c43925ccb69165c2c3",
+  "source_lock": "inputs/source-lock.json",
+  "sdk_commit": "23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c",
+  "phase_boundary": "empty workbook, locked inputs, public SDK only",
+  "cloud_and_desktop_bound": true
+}

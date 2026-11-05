@@ -1,0 +1,103 @@
+schema_version: 1.1.0
+case_id: wow-2021-ww32-visualise-our-survey-data
+iteration_id: 2021-08-12-ww32-visualise-our-survey-data
+post: https://donnacoles.home.blog/2021/08/12/visualise-our-survey-data/
+legacy_case_ids: {}
+article_date: '2021-08-12'
+challenge_year: 2021
+challenge_week: 32
+challenge_date: '2021-08-11'
+date_evidence:
+  article_date: Declared article publication date in iteration_id
+  challenge: Explicit challenge_year; week declared in iteration_id
+  challenge_date: Explicit official challenge publication date and URL
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2021w32tab/
+  article:
+    url: https://donnacoles.home.blog/2021/08/12/visualise-our-survey-data/
+    path: null
+    sha256: d3284b573359c6d11cf29461b14a93874e4c5d8e88f6243c38188f3295b2cd6d
+  workbook:
+    url: https://public.tableau.com/views/2021_08_11_WW32_WOW_Survey_Data/2021_08_11_WOW32_Survey_Data
+    filename: 2021_08_11_WW32_WOW_Survey_Data.twbx
+    sha256: cbfb2e37b29e6d38d03d5c573ebc998556bc2f33dda28af6064e2efe8764ae52
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- inputs/source-lock.json
+- evidence/sdk-baseline.json
+- evidence/cloud-request.json
+- outputs/independent-verification.json
+- evidence/desktop-verification.json
+- evidence/cloud-verification.json
+- evidence/replica-data-exports.json
+- evidence/cloud-data-verification.json
+- evidence/build-provenance.json
+- evidence/visual-review.md
+- evidence/sdk-workaround.json
+notes:
+- Cloud REST images cover default, Tableau and PBI states. All five replica sheets
+  are checked against the independent raw-data oracle. Original author hidden sheets
+  were not modified. Browser clicks were not executed; filter/highlight interactions
+  are checked as serialized artifact contracts.
+cwtwb:
+  tested_version: 0.29.0a1
+  tested_commit: 23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c
+  runs:
+  - version: 0.29.0a1
+    commit: 23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c
+    result: pass
+    evidence: evidence/sdk-baseline.json
+  - version: 0.29.0a1
+    commit: 23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c
+    result: workaround
+    evidence: evidence/sdk-workaround.json
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: workaround
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/TEMP_12e3vxa1smragy1a5pxzg0cjmlrx.hyper
+acceptance:
+- id: ww32-distinct-respondents
+  description: Distinct respondent counting yields 63 people from 1134 question rows;
+    track counts are Tableau 42, Both 11, and PBI 10.
+  mode: automated
+- id: ww32-filtered-percentages
+  description: Independent raw-data oracle covers track and participation intersections;
+    percentages sum to one within each question.
+  mode: automated
+- id: ww32-neutral-halves
+  description: Positive and negative sentiment each include half of neutral responses,
+    preserving the whole population.
+  mode: automated
+- id: ww32-answer-ranking
+  description: Requested subjects use unique count ranking partitioned by question.
+  mode: automated
+- id: ww32-native-actions
+  description: Two selectors each filter four other sheets; sentiment charts have
+    linked hover highlighting.
+  mode: automated
+remaining_work: []
+blocker: null
+workarounds:
+- The layered Pie wedge_size configuration is not serialized by this SDK. The builder
+  derives a two-slice scaffold from raw input rows and uses a native Pie plus Circle
+  dual axis; COUNTD preserves respondent semantics.
+- A layered single-pane chart applies a computed column sort for sentiment answers;
+  the basic chart sort applies only to rows.
+capability_gaps:
+- key: layered-pie-wedge-size
+  description: Layered Pie ignores wedge_size; raw-data scaffolding and native dual
+    axes provide the required ring.
+  status: open
+  reusable: true
+related_cwtwb_issues: []

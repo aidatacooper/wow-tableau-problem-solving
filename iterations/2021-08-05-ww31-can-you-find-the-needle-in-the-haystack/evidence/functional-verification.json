@@ -1,0 +1,162 @@
+{
+  "case_id": "wow-2021-ww31-can-you-find-the-needle-in-the-haystack",
+  "workbook_sha256": "2fb89605b7a2a3247929de4c701a595b071270a15f1d42c43925ccb69165c2c3",
+  "extract_sha256": "ac62e601dfc0e0c0768b53ae181766340cb2343d0eb05046f042ad7541e8411f",
+  "oracle": {
+    "rows": 9994,
+    "products": 1849,
+    "average_customers": 5.37642,
+    "top50_threshold": 7699.89,
+    "unprofitable_products": 301,
+    "answer": [
+      "Bretford Rectangular Conference Table Tops",
+      "Bush Advantage Collection Racetrack Conference Table",
+      "Chromcraft Bull-Nose Wood Oval Conference Tables & Bases",
+      "Chromcraft Round Conference Tables",
+      "Cisco TelePresence System EX90 Videoconferencing Unit",
+      "Cubify CubeX 3D Printer Double Head Print",
+      "Cubify CubeX 3D Printer Triple Head Print",
+      "GBC DocuBind P400 Electric Binding System",
+      "High Speed Automatic Electric Letter Opener",
+      "Lexmark MX611dhe Monochrome Laser Printer",
+      "Martin Yale Chadless Opener Electric Letter Opener",
+      "Riverside Palais Royal Lawyers Bookcase, Royale Cherry Finish",
+      "Tennsco Single-Tier Lockers"
+    ],
+    "below_average_in_answer": [
+      "Chromcraft Bull-Nose Wood Oval Conference Tables & Bases",
+      "Cisco TelePresence System EX90 Videoconferencing Unit",
+      "Cubify CubeX 3D Printer Double Head Print",
+      "Cubify CubeX 3D Printer Triple Head Print",
+      "High Speed Automatic Electric Letter Opener",
+      "Lexmark MX611dhe Monochrome Laser Printer",
+      "Riverside Palais Royal Lawyers Bookcase, Royale Cherry Finish"
+    ]
+  },
+  "acceptance": {
+    "ww31-filter-field": {
+      "status": "pass",
+      "detail": {
+        "filters": 1,
+        "column": "[federated.0ahyg8e1xelf3914bag3r0yukuro].[none:Calculation_A99F5B3D81BD4EAA98D58336441A5BAA:nk]",
+        "members": [
+          "true"
+        ]
+      }
+    },
+    "ww31-top50-set": {
+      "status": "pass",
+      "detail": {
+        "caption": "Top 50 Sales by Product",
+        "count": "50",
+        "expression": "Sum([Sales])",
+        "level": "[Product Name]"
+      }
+    },
+    "ww31-unprofitable-set": {
+      "status": "pass",
+      "detail": {
+        "members": 301,
+        "levels": [
+          "[Product Name]"
+        ]
+      }
+    },
+    "ww31-customer-average": {
+      "status": "pass",
+      "detail": {
+        "calculations": {
+          "Customer Count Per Product": {
+            "datatype": "integer",
+            "role": "measure",
+            "formula": "{FIXED [Product Name] : COUNTD([Customer ID])}"
+          },
+          "Count Products": {
+            "datatype": "integer",
+            "role": "measure",
+            "formula": "{FIXED : COUNTD([Product Name])}"
+          },
+          "Avg Overall Customer Count": {
+            "datatype": "real",
+            "role": "measure",
+            "formula": "{FIXED: SUM([Customer Count Per Product])} / [Count Products]"
+          },
+          "Higher than Avg Customer Count": {
+            "datatype": "boolean",
+            "role": "measure",
+            "formula": "AVG([Customer Count Per Product]) > SUM([Avg Overall Customer Count])"
+          }
+        },
+        "average_customers": 5.37642
+      }
+    },
+    "ww31-thirteen-products": {
+      "status": "pass",
+      "detail": {
+        "products": 13,
+        "formula": "[Top 50 Sales by Product] AND [Unprofitable Products]",
+        "below_average": 7,
+        "sales": {
+          "Lexmark MX611dhe Monochrome Laser Printer": 16829.9,
+          "High Speed Automatic Electric Letter Opener": 17030.31,
+          "Cisco TelePresence System EX90 Videoconferencing Unit": 22638.48,
+          "Martin Yale Chadless Opener Electric Letter Opener": 16656.2,
+          "GBC DocuBind P400 Electric Binding System": 17965.07,
+          "Chromcraft Round Conference Tables": 8209.06,
+          "Tennsco Single-Tier Lockers": 9158.3,
+          "Bretford Rectangular Conference Table Tops": 12995.29,
+          "Riverside Palais Royal Lawyers Bookcase, Royale Cherry Finish": 15610.97,
+          "Bush Advantage Collection Racetrack Conference Table": 9544.73,
+          "Chromcraft Bull-Nose Wood Oval Conference Tables & Bases": 9917.64,
+          "Cubify CubeX 3D Printer Double Head Print": 11099.96,
+          "Cubify CubeX 3D Printer Triple Head Print": 7999.98
+        },
+        "profit": {
+          "Lexmark MX611dhe Monochrome Laser Printer": -4589.97,
+          "High Speed Automatic Electric Letter Opener": -262.0,
+          "Cisco TelePresence System EX90 Videoconferencing Unit": -1811.08,
+          "Martin Yale Chadless Opener Electric Letter Opener": -1299.18,
+          "GBC DocuBind P400 Electric Binding System": -1878.17,
+          "Chromcraft Round Conference Tables": -189.98,
+          "Tennsco Single-Tier Lockers": -825.75,
+          "Bretford Rectangular Conference Table Tops": -327.23,
+          "Riverside Palais Royal Lawyers Bookcase, Royale Cherry Finish": -669.54,
+          "Bush Advantage Collection Racetrack Conference Table": -1934.4,
+          "Chromcraft Bull-Nose Wood Oval Conference Tables & Bases": -2876.12,
+          "Cubify CubeX 3D Printer Double Head Print": -8879.97,
+          "Cubify CubeX 3D Printer Triple Head Print": -3839.99
+        },
+        "customer_counts": {
+          "Lexmark MX611dhe Monochrome Laser Printer": 4,
+          "High Speed Automatic Electric Letter Opener": 3,
+          "Cisco TelePresence System EX90 Videoconferencing Unit": 1,
+          "Martin Yale Chadless Opener Electric Letter Opener": 6,
+          "GBC DocuBind P400 Electric Binding System": 6,
+          "Chromcraft Round Conference Tables": 13,
+          "Tennsco Single-Tier Lockers": 8,
+          "Bretford Rectangular Conference Table Tops": 11,
+          "Riverside Palais Royal Lawyers Bookcase, Royale Cherry Finish": 5,
+          "Bush Advantage Collection Racetrack Conference Table": 7,
+          "Chromcraft Bull-Nose Wood Oval Conference Tables & Bases": 5,
+          "Cubify CubeX 3D Printer Double Head Print": 3,
+          "Cubify CubeX 3D Printer Triple Head Print": 1
+        }
+      }
+    },
+    "ww31-chart-layout": {
+      "status": "pass",
+      "detail": {
+        "rows": "[federated.0ahyg8e1xelf3914bag3r0yukuro].[Product Name]",
+        "cols": "([federated.0ahyg8e1xelf3914bag3r0yukuro].[MIN(1)] + [federated.0ahyg8e1xelf3914bag3r0yukuro].[Sales])",
+        "panes": 2
+      }
+    },
+    "ww31-dashboard": {
+      "status": "pass",
+      "detail": {
+        "size": "800x650",
+        "zones": 1
+      }
+    }
+  }
+}

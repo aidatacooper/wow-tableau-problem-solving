@@ -1,0 +1,9 @@
+{
+  "result": "PASS",
+  "exports": 15,
+  "states": 3,
+  "percentage_checks": 339,
+  "tolerance": "0.5 percentage points, because Tableau exports whole percentage labels",
+  "artifact_sha256": "d5215ce32188afbc573240a57cce7572a05ebb43522b768acea90d6c88bc53f8",
+  "scope": "All five replica sheets against raw-data oracle in default/Tableau/PBI states; original author dashboard compared visually, hidden author sheets were not modified or exported."
+}

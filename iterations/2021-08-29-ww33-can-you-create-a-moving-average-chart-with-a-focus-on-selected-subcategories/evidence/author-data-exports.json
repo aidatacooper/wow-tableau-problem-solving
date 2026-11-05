@@ -1,0 +1,35 @@
+{
+  "artifact_sha256": "3b5b7f5446eb0dab12cea982cfffb85bb6d5c9ce389699adef9a5cb7abf279a1",
+  "exports": [
+    {
+      "state": "default",
+      "view": "Data",
+      "path": "outputs/cloud-author-data-default.csv",
+      "sha256": "b9c8e2a8add226b4bb5c7d6b523a17be3a167a7cb39e6c215a8c655259edb012",
+      "parameters": {},
+      "filters": {}
+    },
+    {
+      "state": "one-one",
+      "view": "Data",
+      "path": "outputs/cloud-author-data-one-one.csv",
+      "sha256": "c331bf7934b4eb711c30eb00fcf7c42bde239dceece97b4b24bd02a813053bd5",
+      "parameters": {
+        "pPost": 1,
+        "pPrior": 1
+      },
+      "filters": {}
+    },
+    {
+      "state": "six-six",
+      "view": "Data",
+      "path": "outputs/cloud-author-data-six-six.csv",
+      "sha256": "b2e8318110f5e48ea2d8e0b639abae56f9925b2964defb043d832c7e42ccf10d",
+      "parameters": {
+        "pPost": 6,
+        "pPrior": 6
+      },
+      "filters": {}
+    }
+  ]
+}

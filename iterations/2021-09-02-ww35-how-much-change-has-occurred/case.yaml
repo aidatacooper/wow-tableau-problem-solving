@@ -1,0 +1,130 @@
+schema_version: 1.1.0
+case_id: wow-2021-ww35-how-much-change-has-occurred
+iteration_id: 2021-09-02-ww35-how-much-change-has-occurred
+post: https://donnacoles.home.blog/2021/09/02/how-much-change-has-occurred/
+legacy_case_ids: {}
+article_date: '2021-09-02'
+challenge_year: 2021
+challenge_week: 35
+challenge_date: '2021-09-01'
+date_evidence:
+  article_date: Article-local HTML 'Published:' calendar date, retained in evidence/article-date.json.
+  challenge: Official 2021 Week 35 article title.
+  challenge_date: Official WordPress REST date field retained in evidence/official-challenge-date.json.
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2021w35/
+    wordpress_post_id: 5872
+  article:
+    url: https://donnacoles.home.blog/2021/09/02/how-much-change-has-occurred/
+    path: null
+    sha256: c465e03c6ba717a739dd61f08f6b03670444085b5316b6e90814538e8ee86e37
+  workbook:
+    url: https://public.tableau.com/views/2021_09_01_WW35_Change_In_Sales/2021_09_01_WW35_Change_in_Sales
+    filename: 2021_09_01_WW35_Change_In_Sales.twbx
+    sha256: 1c10a8d231a60ab138de898ad370bbc2e3a47d86f4d75c9e4cd336abb79e20cf
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- evidence/article-date.json
+- evidence/build-provenance.json
+- evidence/cloud-request.json
+- evidence/functional-verification.json
+- evidence/official-challenge-date.json
+- evidence/sdk-baseline.json
+- evidence/visual-review.md
+- inputs/source-lock.json
+- evidence/replica-data-exports.json
+- evidence/desktop-verification.json
+- evidence/cloud-verification.json
+- evidence/cloud-data-verification.json
+notes:
+- The packaged extract is Orders only (Order Date, Sub-Category, Sales) covering 2018-2021,
+  so the 2020/2021 window is an observable filter, not a data limit.
+- 2021 Sales and 2020 Sales are FIXED LoDs scoped to Sub-Category only; the year window
+  is a context filter so it cannot distort the fixed scope.
+- The author's blue 2021 pill is a discrete aggregate. cwtwb cannot emit Sum+ordinal
+  instances, so a second field SUM([2021 Sales]) declared ordinal is used and resolves
+  to usr:...:ok.
+- The author's published raster prints each % Difference label one row below its mark
+  (13 of 14 shifted labels match the next row); the author's workbook XML has no per-row
+  offset, so the workbook is correct and only the image is misaligned. The verifier
+  pins the extract to the printed 2021 pills and the 2020 dot positions and checks
+  the published label sequence with that shift.
+- verification_status stays pending and functional_status stays partial until the
+  coordinator's serial Desktop and Cloud gates pass.
+cwtwb:
+  tested_version: 0.29.0a1
+  tested_commit: 23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c
+  runs:
+  - version: 0.29.0a1
+    commit: 23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c
+    result: workaround
+    evidence: evidence/sdk-baseline.json
+    notes: Built with the pinned released SDK at C:/Users/imgwho/Desktop/project/.sdk-pins/cwtwb-23b1df0/src
+      via an explicit PYTHONPATH, not the editable install.
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: workaround
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/Orders (Sample - Superstore).hyper
+acceptance:
+- id: ww35-year-window
+  description: The view is limited to 2020 and 2021 by a context categorical filter
+    on YEAR(Order Date) that is also listed in slices, while the extract still holds
+    2018-2021.
+  mode: automated
+- id: ww35-subcategory-sales
+  description: The locked extract reproduces the 2021 values printed in the author's
+    pills and the 2020 values implied by the author's dots for every visible Sub-Category.
+  mode: automated
+- id: ww35-percent-change
+  description: '% Difference is (SUM(2021 Sales)-SUM(2020 Sales))/SUM(2020 Sales)
+    with the +0%;-0% format, so Phones reads +33% and Machines reads -22%.'
+  mode: automated
+- id: ww35-descending-order
+  description: Rows are sorted by SUM(2021 Sales) descending through a computed sort
+    on Sub-Category, from Phones to Fasteners.
+  mode: automated
+- id: ww35-dual-axis-panes
+  description: Two panes share one synchronised folded column axis bound to SUM(Sales),
+    with the Circle pane above the Bar pane.
+  mode: automated
+- id: ww35-label-and-colour
+  description: Only the circle pane labels % Difference; it colours by YEAR(Order
+    Date (copy)) (2021 blue, 2020 red) with a white stroke while the bar pane colours
+    by YEAR(Order Date) (2021 grey on top, 2020 red).
+  mode: automated
+- id: ww35-dashboard-layout
+  description: The sheet sits in a 700x800 fixed dashboard carrying the challenge
+    author, week and URL credits.
+  mode: automated
+- id: ww35-desktop-load
+  description: Tableau Desktop opens the generated workbook (coordinator-run serial
+    Desktop gate; verdict read from Tableau's own log).
+  mode: manual
+  evidence: evidence/sdk-baseline.json
+- id: ww35-cloud-capture
+  description: Author and replica images plus the Viz worksheet CSV are captured on
+    the shared Cloud site and compared (coordinator-run serial Cloud gate).
+  mode: manual
+  evidence: evidence/cloud-request.json
+remaining_work: []
+blocker: null
+workarounds:
+- The author's discrete SUM(2021 Sales) pill is a Sum+ordinal column-instance, which
+  cwtwb cannot emit; a second field SUM([2021 Sales]) declared ordinal is used and
+  resolves to usr:...:ok.
+- The author's published raster prints each % Difference label one row below its mark;
+  the workbook XML has no such offset, so the verifier pins the extract to the printed
+  2021 pill values and the 2020 dot positions instead of the shifted labels.
+capability_gaps: []
+related_cwtwb_issues: []

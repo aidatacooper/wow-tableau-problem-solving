@@ -1,0 +1,30 @@
+{
+  "rows": 34202,
+  "sites": [
+    "Site 11",
+    "Site 13",
+    "Site 7",
+    "Site 9"
+  ],
+  "statuses": {
+    "In Progress": 3,
+    "Success": 33156,
+    "Failed": 1043
+  },
+  "over_wait_threshold": 581,
+  "max_wait": 0.1200925925925926,
+  "max_processing": 0.11460648148148148,
+  "unfinished_tasks": 3,
+  "window_rows": {
+    "1": 58,
+    "5": 325,
+    "7": 426,
+    "10": 587
+  },
+  "default_window_statuses": {
+    "In Progress": 0,
+    "Success": 321,
+    "Failed": 4
+  },
+  "default_window_over_threshold": 54
+}

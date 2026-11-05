@@ -1,0 +1,22 @@
+{
+  "sdk_src": "C:/Users/imgwho/Desktop/project/.sdk-pins/cwtwb-23b1df0/src",
+  "version": "0.29.0a1",
+  "commit": "23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c",
+  "commit_short": "23b1df0",
+  "requirements_pin": "cwtwb @ git+https://github.com/aidatacooper/cwtwb.git@23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c",
+  "public_apis_used": [
+    "TWBEditor.set_hyper_connection",
+    "TWBEditor.add_calculated_field",
+    "TWBEditor.add_set",
+    "TWBEditor.add_worksheet",
+    "TWBEditor.configure_layered_chart",
+    "TWBEditor.configure_worksheet_style",
+    "TWBEditor.configure_custom_tooltip",
+    "TWBEditor.set_worksheet_rich_title",
+    "TWBEditor.set_field_format",
+    "TWBEditor.add_dashboard",
+    "TWBEditor.set_window_state",
+    "TWBEditor.save"
+  ],
+  "author_workbook_opened_by_builder": false
+}

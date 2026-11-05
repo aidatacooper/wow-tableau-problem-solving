@@ -1,0 +1,7 @@
+{
+  "result": "PASS",
+  "artifact_sha256": "adfa82a12c26bbeddad71ebcdee78948c6e0291a0752481e32cbf02ca8905077",
+  "measure_checks": 4896,
+  "categories": 17,
+  "scope": "All author and replica month/category/measure values, nulls, streaks and peaks; independent locked-data longest/peak oracle."
+}

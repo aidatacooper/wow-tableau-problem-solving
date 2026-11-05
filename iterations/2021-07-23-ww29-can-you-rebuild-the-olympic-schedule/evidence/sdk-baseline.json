@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "cwtwb_version": "0.29.0a1",
+  "cwtwb_commit": "23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c",
+  "result": "workaround",
+  "scope": "Released-SDK baseline for the WW29 Olympic schedule case.",
+  "supported": [
+    "add_parameter for the pSportToExclude string and the pTimeAdjust -12..12 step-1 range",
+    "add_calculated_field with DATEADD, DATETRUNC and the {FIXED ...} LoD expressions",
+    "add_set('Sport Group Set', 'Sport Group', members=[...]) for the selector",
+    "configure_layered_chart with MONTH/DAY/X-Axis columns and a Shape pane",
+    "configure_worksheet_style(axis_style={'encodings': [{'range-type': 'fixed', 'min': 0, 'max': 10}]}) for the 0..10 offset axis",
+    "configure_custom_tooltip with embedded 'sheet' runs for the two viz-in-tooltip views",
+    "add_dashboard_set_action(selection_mode='add'/'remove', event_type='on-menu')",
+    "add_dashboard_action(action_type='parameter', event_type='on-hover', clear_behavior='set-value')",
+    "add_dashboard_action(action_type='highlight', fields=['Dummy'])",
+    "add_dashboard_toggle_button(target_worksheets=['Sport Selector'])"
+  ],
+  "findings": [
+    {
+      "key": "bare-date-name-auto-wraps-to-month",
+      "severity": "workaround",
+      "summary": "FieldRegistry.default_view_expression wraps a bare date-like field name in MONTH(...), so passing 'Day of Adjusted Date' by name collapses the day column and the viz-in-tooltip filters to one mark per month.",
+      "workaround": "Pass the bracketed reference '[Day of Adjusted Date]', which is_expression() treats as an explicit binding and therefore leaves discrete.",
+      "upstream_pr": null,
+      "upstream_status": "by-design"
+    },
+    {
+      "key": "highlight-action-stores-excluded-sheets",
+      "severity": "workaround",
+      "summary": "Tableau serializes a highlight action with the sheets to leave out of the brush (the author's workbook says exclude=\"Date Chart\"). add_dashboard_action computes that list from the sheets the action is not given, so naming the schedule as the target produces the inverse action.",
+      "workaround": "Declare the highlight action on the selector sheet itself, which yields exclude=\"Sport Selector\" on a two-sheet dashboard and reproduces the author's intent of not brushing the schedule.",
+      "upstream_pr": null,
+      "upstream_status": "by-design"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "artifact_sha256": "f1a462438deb44e088f9435912345fdb6d181315305885d68230b4c2314e8eab",
+  "exports": [
+    {
+      "state": "default",
+      "view": "Data",
+      "path": "outputs/cloud-author-data-default.csv",
+      "sha256": "915f3d2573fc60f5bf10ef35a20b9976339fe3fb2a97e6cd5e912c690278b1bf",
+      "parameters": {},
+      "filters": {}
+    },
+    {
+      "state": "three-days",
+      "view": "Data",
+      "path": "outputs/cloud-author-data-three-days.csv",
+      "sha256": "915f3d2573fc60f5bf10ef35a20b9976339fe3fb2a97e6cd5e912c690278b1bf",
+      "parameters": {
+        "pDaysToShow": 3
+      },
+      "filters": {}
+    },
+    {
+      "state": "ten-days",
+      "view": "Data",
+      "path": "outputs/cloud-author-data-ten-days.csv",
+      "sha256": "915f3d2573fc60f5bf10ef35a20b9976339fe3fb2a97e6cd5e912c690278b1bf",
+      "parameters": {
+        "pDaysToShow": 10
+      },
+      "filters": {}
+    }
+  ]
+}

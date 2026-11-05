@@ -1,0 +1,13 @@
+{
+  "version": "0.29.0a1",
+  "commit": "23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c",
+  "result": "workaround",
+  "public_api_only": true,
+  "baseline": "Independent blank TWBEditor plus two locked Hyper extracts.",
+  "findings": [
+    "Calculated date dimensions are declared quantitative and referenced with bracketed field names to emit native none:qk bindings; EXACTDATE(calculated-caption) is not the author instance.",
+    "Layered Area breakdown is off, matching article stack-marks-off requirement.",
+    "Text mark colour palettes are explicitly registered with the public datasource palette API."
+  ],
+  "runtime_verified": false
+}

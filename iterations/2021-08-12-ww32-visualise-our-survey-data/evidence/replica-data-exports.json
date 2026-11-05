@@ -1,0 +1,130 @@
+{
+  "artifact_sha256": "d5215ce32188afbc573240a57cce7572a05ebb43522b768acea90d6c88bc53f8",
+  "exports": [
+    {
+      "state": "default",
+      "view": "Donuts",
+      "path": "outputs/cloud-replica-donuts-default.csv",
+      "sha256": "3c50bac19b8ac674bf51579998e57c487399e9d269b9e33cac2661f334551848",
+      "filters": {}
+    },
+    {
+      "state": "default",
+      "view": "Bar-Participate",
+      "path": "outputs/cloud-replica-bar-participate-default.csv",
+      "sha256": "e194c7f7409856bfad61a43d6b041598e2d57a3978e3eabc701aa4c884d1b9dd",
+      "filters": {}
+    },
+    {
+      "state": "default",
+      "view": "Bar-Diverging",
+      "path": "outputs/cloud-replica-bar-diverging-default.csv",
+      "sha256": "4f0515842e37bb32529e5e7b92dc35c1d4f2ad00c5ed5958d5e721abcc016057",
+      "filters": {}
+    },
+    {
+      "state": "default",
+      "view": "Bar-Vertical",
+      "path": "outputs/cloud-replica-bar-vertical-default.csv",
+      "sha256": "3e963b5587c8ac0d6041e53eedac22e449cc422b5aed10c79385d7140a80a39c",
+      "filters": {}
+    },
+    {
+      "state": "default",
+      "view": "Heatmap",
+      "path": "outputs/cloud-replica-heatmap-default.csv",
+      "sha256": "d302b13b0710355d6953daa26603ba2129dac567afd44d103acf860e1c6086d3",
+      "filters": {}
+    },
+    {
+      "state": "tableau",
+      "view": "Donuts",
+      "path": "outputs/cloud-replica-donuts-tableau.csv",
+      "sha256": "8859aed63aeb75d248aa18bbf9ea7e066bed8f3da45a810518dc010fd8ea988b",
+      "filters": {
+        "Which track do you participate in?": "Tableau"
+      }
+    },
+    {
+      "state": "tableau",
+      "view": "Bar-Participate",
+      "path": "outputs/cloud-replica-bar-participate-tableau.csv",
+      "sha256": "39c696271eb8cad05a5a8c9646dae3147c689512870fe5d889d49aae09c66051",
+      "filters": {
+        "Which track do you participate in?": "Tableau"
+      }
+    },
+    {
+      "state": "tableau",
+      "view": "Bar-Diverging",
+      "path": "outputs/cloud-replica-bar-diverging-tableau.csv",
+      "sha256": "acb5f4afb6576bd8e4b9ff54b7a3f74a098500057a4021f25819f124e51329b1",
+      "filters": {
+        "Which track do you participate in?": "Tableau"
+      }
+    },
+    {
+      "state": "tableau",
+      "view": "Bar-Vertical",
+      "path": "outputs/cloud-replica-bar-vertical-tableau.csv",
+      "sha256": "50fabe7d81896c3b35de69ab8289c8a898e043f0ae90542254d9e789da4e94b6",
+      "filters": {
+        "Which track do you participate in?": "Tableau"
+      }
+    },
+    {
+      "state": "tableau",
+      "view": "Heatmap",
+      "path": "outputs/cloud-replica-heatmap-tableau.csv",
+      "sha256": "3c82aa8f864df29ef3395cc18f73378d4edc88b5176b1dc9c11e6be14818f9df",
+      "filters": {
+        "Which track do you participate in?": "Tableau"
+      }
+    },
+    {
+      "state": "pbi",
+      "view": "Donuts",
+      "path": "outputs/cloud-replica-donuts-pbi.csv",
+      "sha256": "ff57ca640de9d901c49fa8a8d13674240abb9d626acf6c44c06b0472caf8ecb7",
+      "filters": {
+        "Which track do you participate in?": "PBI"
+      }
+    },
+    {
+      "state": "pbi",
+      "view": "Bar-Participate",
+      "path": "outputs/cloud-replica-bar-participate-pbi.csv",
+      "sha256": "9ae8128c698bec7ebacf9964ba7642edbeb7e06331844b94ae8fd24d1e1a7f18",
+      "filters": {
+        "Which track do you participate in?": "PBI"
+      }
+    },
+    {
+      "state": "pbi",
+      "view": "Bar-Diverging",
+      "path": "outputs/cloud-replica-bar-diverging-pbi.csv",
+      "sha256": "bca8c946a92c65691e4119169f13fb346903a01e65ec7d3567e6df452da33219",
+      "filters": {
+        "Which track do you participate in?": "PBI"
+      }
+    },
+    {
+      "state": "pbi",
+      "view": "Bar-Vertical",
+      "path": "outputs/cloud-replica-bar-vertical-pbi.csv",
+      "sha256": "de5071851bb3ff4c609196c550beb842e9a9815b66bade391946137af94fbe6e",
+      "filters": {
+        "Which track do you participate in?": "PBI"
+      }
+    },
+    {
+      "state": "pbi",
+      "view": "Heatmap",
+      "path": "outputs/cloud-replica-heatmap-pbi.csv",
+      "sha256": "f0315d559b9b6fbbbe5c263d13a62b8df40bf7f35a5e0cb431b9cfe2972d32c5",
+      "filters": {
+        "Which track do you participate in?": "PBI"
+      }
+    }
+  ]
+}

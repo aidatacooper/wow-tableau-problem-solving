@@ -1,0 +1,58 @@
+{
+  "result": "PASS",
+  "artifact_sha256": "e8694891dbe75cd3fb029affcb74c1c5b1856400c716d1e44153728418357cbd",
+  "export_artifact_sha256": "e8694891dbe75cd3fb029affcb74c1c5b1856400c716d1e44153728418357cbd",
+  "source_hashes": {
+    "author": "f1a462438deb44e088f9435912345fdb6d181315305885d68230b4c2314e8eab",
+    "replica": "e8694891dbe75cd3fb029affcb74c1c5b1856400c716d1e44153728418357cbd"
+  },
+  "numeric_checks": 209640,
+  "states": [
+    {
+      "state": "default",
+      "days": 5,
+      "tasks": 325,
+      "author_tasks": 34202,
+      "status": "PASS",
+      "statuses": {
+        "Success": 321,
+        "Failed": 4,
+        "In Progress": 0
+      }
+    },
+    {
+      "state": "three-days",
+      "days": 3,
+      "tasks": 195,
+      "author_tasks": 34202,
+      "status": "PASS",
+      "statuses": {
+        "Success": 194,
+        "Failed": 1,
+        "In Progress": 0
+      }
+    },
+    {
+      "state": "ten-days",
+      "days": 10,
+      "tasks": 587,
+      "author_tasks": 34202,
+      "status": "PASS",
+      "statuses": {
+        "Success": 581,
+        "Failed": 6,
+        "In Progress": 0
+      }
+    }
+  ],
+  "evidence_hashes": {
+    "outputs/cloud-author-data-default.csv": "915f3d2573fc60f5bf10ef35a20b9976339fe3fb2a97e6cd5e912c690278b1bf",
+    "outputs/cloud-replica-gantt-default.csv": "bd49ebf7a2e3ae03bb7650f25cbd21ef5c541a303ecde5b1c13b119e50345107",
+    "outputs/cloud-author-data-three-days.csv": "915f3d2573fc60f5bf10ef35a20b9976339fe3fb2a97e6cd5e912c690278b1bf",
+    "outputs/cloud-replica-gantt-three-days.csv": "9a0155494dee2adf3d0e06b2bdacfe7053bf49aefa54283874fd0c6a6fe062f0",
+    "outputs/cloud-author-data-ten-days.csv": "915f3d2573fc60f5bf10ef35a20b9976339fe3fb2a97e6cd5e912c690278b1bf",
+    "outputs/cloud-replica-gantt-ten-days.csv": "ed6febdf5aed64299dd1be1605fbe3253ee81d2db2e6cd16ae7acb53a74014c4"
+  },
+  "tolerance_days": 1e-09,
+  "acceptance_scope": "Cloud REST states; all task IDs, durations, status, threshold, title/site/day vs locked raw tasks; original Data durations independently reconciled. No browser clicks claimed."
+}

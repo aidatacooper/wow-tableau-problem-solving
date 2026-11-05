@@ -1,0 +1,16 @@
+{
+  "challenge_year": 2021,
+  "challenge_week": 33,
+  "article_date": "2021-08-29",
+  "challenge_date": "2021-08-17",
+  "official_rest_url": "https://www.workout-wednesday.com/wp-json/wp/v2/posts/5821",
+  "response_excerpt": {
+    "id": 5821,
+    "date": "2021-08-17T00:00:00",
+    "link": "https://www.workout-wednesday.com/2021w33tab/",
+    "title": {
+      "rendered": "2021 Week 33 | Tableau: Can you create a moving average chart with a focus on selected subcategories?"
+    }
+  },
+  "scope": "Official WordPress publication date, without inference from article/workbook names."
+}

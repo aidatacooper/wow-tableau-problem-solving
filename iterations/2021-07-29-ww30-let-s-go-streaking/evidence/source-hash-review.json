@@ -1,0 +1,6 @@
+{
+  "superseded_declared_author_sha256": "5dfbd740ef326ef0b35c4cf0b1e0186848b24d8510500ebf11f45543d56cd29f",
+  "verified_published_author_sha256": "34c9ffe6586e25741804b8b5e7f8c3d96b89e719c86e5fed5b233ab85c185a93",
+  "packaged_extract_matches_locked_input": true,
+  "reason": "Independent review found stale declared author archive hash. The archived original actually uploaded is now pinned. Cause of prior archive-byte difference is unknown; the old archive is unavailable. No author file or extracted data was modified."
+}

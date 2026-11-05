@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0.0",
+  "scope": "Locked-extract oracle for the WW29 Olympic schedule; the sport-day cells, the finals split, the other-sports counts and the X-Axis offsets are recomputed independently at three pTimeAdjust values.",
+  "browser_interaction_executed": false,
+  "state": {
+    "description": "Default parameters: pTimeAdjust 0, pSportToExclude empty; set seeded with Boxing, Gymnastics, Martial Arts."
+  },
+  "observed": {
+    "rows": 1894,
+    "sport_groups": 36,
+    "sports": 51,
+    "days": 19,
+    "victory_ceremony_rows": 87,
+    "final_rows": 353,
+    "marks_at_offset_0": 500,
+    "medal_marks_at_offset_0": 145,
+    "paired_sport_days_at_offset_0": 116,
+    "x_axis_values": [
+      3,
+      5,
+      7
+    ],
+    "spot_checks": {
+      "Boxing|2021-07-24|qual": {
+        "events": 9,
+        "finals": 0,
+        "other_sports": 132,
+        "x_axis": 5
+      },
+      "Judo|2021-07-24|qual": {
+        "events": 12,
+        "finals": 2,
+        "other_sports": 129,
+        "x_axis": 3
+      },
+      "Judo|2021-07-24|final": {
+        "events": 12,
+        "finals": 2,
+        "other_sports": 129,
+        "x_axis": 7
+      },
+      "Artistic Gymnastics|2021-07-26|final": {
+        "events": 1,
+        "finals": 1,
+        "other_sports": 145,
+        "x_axis": 5
+      }
+    },
+    "marks_at_offset_plus3": 500,
+    "marks_at_offset_minus5": 512
+  },
+  "expected_from_oracle": {
+    "sport_groups": 36,
+    "sports": 51,
+    "days": 19,
+    "x_axis_values": [
+      3,
+      5,
+      7
+    ],
+    "offset_shift_changes_marks": true
+  },
+  "result": "pass"
+}

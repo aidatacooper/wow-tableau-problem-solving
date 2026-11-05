@@ -1,0 +1,7 @@
+{
+  "result": "PASS",
+  "artifact_sha256": "3ab71871c87e86974e90983448ec71977c913781242e45d709bf6970d588a5b2",
+  "measure_checks": 7488,
+  "states": 3,
+  "scope": "Original author and replica Data CSV versus independent monthly source oracle; Tableau densifies 48 months x 13 groups with null sales, WINDOW_AVG ignores nulls in the calendar window."
+}
