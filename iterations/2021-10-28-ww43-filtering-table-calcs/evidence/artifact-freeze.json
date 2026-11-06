@@ -1,0 +1,9 @@
+{
+  "frozen_at": "2026-10-28T06:01:02.200337+00:00",
+  "artifact": "outputs/replicated-workbook.twbx",
+  "sha256": "83893921f3dbaa372e88baa3a82f3027e352f1828ddbab242d63efa10fedc379",
+  "bytes": 363095,
+  "cwtwb_version": "0.29.0a1",
+  "cwtwb_commit": "23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c",
+  "policy": "validate_iteration.py was run before freeze. No further builds without replacing this freeze and numerical evidence."
+}

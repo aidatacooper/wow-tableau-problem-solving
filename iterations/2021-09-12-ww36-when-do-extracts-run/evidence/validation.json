@@ -1,0 +1,18 @@
+{
+ "schema_version": "1.0.0",
+ "status": "passed",
+ "checked_at": "2026-10-23T16:28:51.395791+00:00",
+ "artifacts": {
+  "replicated-workbook.twbx": {
+   "sha256": "290bdca31919bb70c972e121b68722da4092cc76eeca1f9be6a5a935b3da12a2",
+   "zip_structure": "passed",
+   "bundled_hyper_present": true,
+   "local_xsd": "passed",
+   "tableau_desktop": "not_run_isolated_worktree"
+  }
+ },
+ "commands": [
+  "python scripts/validate_iteration.py iterations/2021-09-12-ww36-when-do-extracts-run",
+  "python -m unittest discover -s tests"
+ ]
+}

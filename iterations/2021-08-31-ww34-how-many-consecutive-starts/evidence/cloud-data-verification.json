@@ -1,0 +1,53 @@
+{
+  "status": "PASS",
+  "result": "PASS",
+  "artifact_sha256": "da89bbd579fa0ee2f99be6721cebc34259260d047f57150529f493d68b16f95f",
+  "source_hashes": {
+    "author": "a4c489ea4505a695b26f847783254b83d1309b3422fe0e1253d368448894090a",
+    "replica": "da89bbd579fa0ee2f99be6721cebc34259260d047f57150529f493d68b16f95f"
+  },
+  "extract_sha256": "91ac3cd2e799f38d70d60b668ede61e1157abc8612fa4ca5b6807ed9d57bb918",
+  "replica_games_per_sheet": 7680,
+  "author_data_games": 720,
+  "author_data_teams": [
+    "ARZ",
+    "ATL",
+    "BLT"
+  ],
+  "numeric_and_boolean_checks": 65040,
+  "checks_by_view": {
+    "author Data": 3600,
+    "replica Data": 38400,
+    "replica Viz": 23040
+  },
+  "sum_current_streak": 563,
+  "max_streak": 224,
+  "independent_oracle": "Chronologically sort raw joined regular-season games; maintain previous player and running counter per team. No builder formulas imported.",
+  "scope": "Full replica Data/Viz vs raw Hyper oracle; original author Data three-team subset vs both oracle and replica. Original author workbook untouched.",
+  "csv_sources": [
+    {
+      "state": "default",
+      "view": "Data",
+      "path": "outputs/cloud-author-data-default.csv",
+      "sha256": "add097add42c78363403c25f6171517331664f4763cdcd48487c7acdf6c0a79e",
+      "parameters": {},
+      "filters": {}
+    },
+    {
+      "state": "default",
+      "view": "Data",
+      "path": "outputs/cloud-replica-data-default.csv",
+      "sha256": "6c23dde7e5feb933b3f3af939d2bba5e522901edd3f80deef17ab9c823e6f7cb",
+      "parameters": {},
+      "filters": {}
+    },
+    {
+      "state": "default",
+      "view": "Viz",
+      "path": "outputs/cloud-replica-viz-default.csv",
+      "sha256": "126dfd102e7a76f5103a50961b8f60c921267f37b3745b23903f92a76aad1f24",
+      "parameters": {},
+      "filters": {}
+    }
+  ]
+}

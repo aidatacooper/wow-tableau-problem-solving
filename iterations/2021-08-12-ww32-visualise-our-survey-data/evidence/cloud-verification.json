@@ -1,0 +1,145 @@
+{
+  "case_id": "wow-2021-ww32-visualise-our-survey-data",
+  "captured_at": "2026-10-23T15:27:28.030734+00:00",
+  "source_hashes": {
+    "author": "cbfb2e37b29e6d38d03d5c573ebc998556bc2f33dda28af6064e2efe8764ae52",
+    "replica": "d5215ce32188afbc573240a57cce7572a05ebb43522b768acea90d6c88bc53f8"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "5b2f04ca-f18d-4cdd-9a49-47aab2059efd",
+      "name": "cwtwb-review-wow-2021-ww32-visualise-our-survey-data-author-cbfb2e37b29e",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/3061784",
+      "views": [
+        {
+          "name": "2021_08_11_WOW32_Survey_Data",
+          "id": "6ba9cf1c-d7fc-4953-a6f8-419be1e9d89f"
+        }
+      ]
+    },
+    "replica": {
+      "id": "bda6663a-b343-4766-adfe-3e9caf0c65e3",
+      "name": "cwtwb-review-wow-2021-ww32-visualise-our-survey-data-replica-d5215ce32188",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/3061866",
+      "views": [
+        {
+          "name": "Donuts",
+          "id": "07594814-5297-4d5e-a771-689666f897c3"
+        },
+        {
+          "name": "Bar-Participate",
+          "id": "e29784b7-00f4-4f0a-8bc7-c0497c2e766b"
+        },
+        {
+          "name": "Bar-Diverging",
+          "id": "a02fcff3-477a-4a08-aea0-2a96d6299855"
+        },
+        {
+          "name": "Bar-Vertical",
+          "id": "190ddd5f-36e1-4d6a-8702-b29cb946b8ff"
+        },
+        {
+          "name": "Heatmap",
+          "id": "bef0e00c-f50e-4d04-adcc-bbad44480bb8"
+        },
+        {
+          "name": "2021_08_11_WOW32_Survey_Data",
+          "id": "cd7fc8ee-eff5-4ec5-820a-b8dd6ac4e3a8"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "6ba9cf1c-d7fc-4953-a6f8-419be1e9d89f",
+          "name": "2021_08_11_WOW32_Survey_Data",
+          "path": "outputs/cloud-author.png",
+          "sha256": "b68b6020f9afde7669a01c3350737079f0bc31e7d99aafcee3076870cc296220",
+          "size": [
+            2800,
+            3600
+          ]
+        },
+        "replica": {
+          "id": "cd7fc8ee-eff5-4ec5-820a-b8dd6ac4e3a8",
+          "name": "2021_08_11_WOW32_Survey_Data",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "764b77b7469e01cfa77524bf2d76ea75dd83584648ddcd6857ec64efdfd78ec7",
+          "size": [
+            2800,
+            3600
+          ]
+        }
+      },
+      "data": []
+    },
+    {
+      "name": "tableau",
+      "parameters": {},
+      "filters": {
+        "Which track do you participate in?": "Tableau"
+      },
+      "views": {
+        "author": {
+          "id": "6ba9cf1c-d7fc-4953-a6f8-419be1e9d89f",
+          "name": "2021_08_11_WOW32_Survey_Data",
+          "path": "outputs/cloud-author-tableau.png",
+          "sha256": "764104da82f177d3721156fe68d63848fd7cc9a6bafa23e5f8b9465299a5693f",
+          "size": [
+            2800,
+            3600
+          ]
+        },
+        "replica": {
+          "id": "cd7fc8ee-eff5-4ec5-820a-b8dd6ac4e3a8",
+          "name": "2021_08_11_WOW32_Survey_Data",
+          "path": "outputs/cloud-replica-tableau.png",
+          "sha256": "3831ed9e770b2c24371c53d886fa7e4f382087bbe7befaae3818e0c454253130",
+          "size": [
+            2800,
+            3600
+          ]
+        }
+      },
+      "data": []
+    },
+    {
+      "name": "pbi",
+      "parameters": {},
+      "filters": {
+        "Which track do you participate in?": "PBI"
+      },
+      "views": {
+        "author": {
+          "id": "6ba9cf1c-d7fc-4953-a6f8-419be1e9d89f",
+          "name": "2021_08_11_WOW32_Survey_Data",
+          "path": "outputs/cloud-author-pbi.png",
+          "sha256": "6f492b41c1d2abacec4ed6a7a520a04b3f5ff25cf5a0e5e91b7622ae629b1fd1",
+          "size": [
+            2800,
+            3600
+          ]
+        },
+        "replica": {
+          "id": "cd7fc8ee-eff5-4ec5-820a-b8dd6ac4e3a8",
+          "name": "2021_08_11_WOW32_Survey_Data",
+          "path": "outputs/cloud-replica-pbi.png",
+          "sha256": "cb979f602f6b75bafdf884c117c2b63933df657e904eeea6e653d669b542dca6",
+          "size": [
+            2800,
+            3600
+          ]
+        }
+      },
+      "data": []
+    }
+  ],
+  "status": "captured_requires_independent_review"
+}

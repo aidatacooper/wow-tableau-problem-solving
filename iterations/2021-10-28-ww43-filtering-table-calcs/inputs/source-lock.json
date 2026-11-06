@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-28",
+  "source_workbook": {
+    "filename": "2021_10_27_WW43_Table_Calc_Filters_Tableau_Public.twbx",
+    "bytes": 1322315,
+    "sha256": "8204ef773b82641bc253238fab1d017f111be15c24d3b651b8df9dd72df12c1a",
+    "url": "https://public.tableau.com/views/2021_10_27_WW43_Table_Calc_Filters_Tableau_Public/2021_10_27_WW43_Table_Calc_Filters_tableau_Public"
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/0q7owzy07ayewl1b7ezbh16cdfkp/WOW2021_Superstore_Orders.csv",
+      "file": "inputs/WOW2021_Superstore_Orders.csv",
+      "bytes": 4603106,
+      "sha256": "50469fcefbe1b2c5715d6f7efc4246180806692aef54a953ef595881ce0815e7"
+    },
+    {
+      "archive_path": "Data/Extracts/federated_0dg8n3q1ypgh2719qo5qk1.hyper",
+      "file": "inputs/federated_0dg8n3q1ypgh2719qo5qk1.hyper",
+      "bytes": 851968,
+      "sha256": "37f311067cf21b9396d7a07a42d618cce0cc266ea0ae27f740f4873516e87892"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

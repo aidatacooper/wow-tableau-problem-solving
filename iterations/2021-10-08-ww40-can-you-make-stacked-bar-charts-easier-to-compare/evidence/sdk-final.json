@@ -1,0 +1,14 @@
+{
+  "version": "0.29.0a1",
+  "commit": "23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c",
+  "result": "pass",
+  "artifact_sha256": "bf9a32d976c9f7aca2793ecf6ab981db1c5f22ca2b9d126ee73d54d9003767c5",
+  "final_fix": "Native rich worksheet title shown to provide category colour key and selection instruction. No SDK changes.",
+  "verification": {
+    "desktop": "LOADED",
+    "cloud_states": 3,
+    "cloud_field_checks": 90,
+    "visual": "acceptable_delta"
+  },
+  "scope": "Cloud REST states and native action contracts; no browser click."
+}

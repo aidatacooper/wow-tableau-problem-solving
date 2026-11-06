@@ -1,0 +1,12 @@
+{
+  "result": "pass",
+  "artifact_sha256": "3ab71871c87e86974e90983448ec71977c913781242e45d709bf6970d588a5b2",
+  "notes": [
+    "The article text says three Sub-Categories are grouped into Misc; the author workbook groups five (Art, Envelopes, Fasteners, Labels, Supplies), which is what the published visualisation shows and what is rebuilt here.",
+    "pPrior counts the current month, so the WINDOW_AVG start offset is (-1*[pPrior])+1; with the default 3 the Accessories June 2018 value is the mean of April..September 2018, matching the article's worked example.",
+    "The shaded band is the nested WINDOW_MAX/WINDOW_MIN of Moving Avg addressed by Sub-Category (group) with month as nested addressing.",
+    "Final Cloud and independent oracle evidence supersedes earlier static-only assumptions; see evidence/cloud-data-verification.json and evidence/visual-review.md.",
+    "Earlier 597-row sparse oracle was corrected: published Tableau Data views densify 48 months x 13 groups = 624 rows; WINDOW_AVG ignores null values within the calendar window. The original author CSV was available and verified unchanged."
+  ],
+  "workarounds": []
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "cwtwb_version": "0.29.0a1",
+  "cwtwb_commit": "23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c",
+  "result": "pass",
+  "scope": "Released-SDK baseline for the WW33 focused moving-average chart.",
+  "supported": [
+    "add_parameter(domain_type='range', min_value, max_value, granularity) for pPrior/pPost",
+    "add_group for the Misc fold of five Sub-Categories",
+    "add_set(members=[...]) for the Sub-Category (group) Set",
+    "add_calculated_field(table_calc=...) plus configure_layered_chart(table_calc_overrides=...) for the nested WINDOW_MAX/WINDOW_MIN addressing",
+    "configure_layered_chart(axis_shelf='rows', fold_axes=True, synchronized=True) for the Line + Area folded axis",
+    "set_datasource_color_palette / set_compound_color_palette for the in/out set colours",
+    "configure_worksheet_style(size_style={'type': 'catsize', ...}) for the in/out mark sizes",
+    "dashboard layout node {'type': 'set_control', 'mode': 'checkdropdown'} for the native set membership control",
+    "dashboard layout node {'type': 'paramctrl', 'mode': 'slider'} for both parameter controls"
+  ],
+  "findings": []
+}

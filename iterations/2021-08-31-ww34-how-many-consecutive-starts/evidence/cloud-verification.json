@@ -1,0 +1,81 @@
+{
+  "case_id": "wow-2021-ww34-how-many-consecutive-starts",
+  "captured_at": "2026-10-23T16:45:10.626813+00:00",
+  "source_hashes": {
+    "author": "a4c489ea4505a695b26f847783254b83d1309b3422fe0e1253d368448894090a",
+    "replica": "da89bbd579fa0ee2f99be6721cebc34259260d047f57150529f493d68b16f95f"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "782a3be2-64ad-479b-96df-5a494654518e",
+      "name": "cwtwb-review-wow-2021-ww34-how-many-consecutive-starts-author-a4c489ea4505",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/3062226",
+      "views": [
+        {
+          "name": "2021_08_25_WW34_Consecutive_Starts",
+          "id": "1ce14eb9-6fe6-46b4-aa70-41cbbb8dcf27"
+        },
+        {
+          "name": "Template",
+          "id": "3eef4e3a-c848-4c50-ac29-f7b6afe55bd2"
+        },
+        {
+          "name": "Data",
+          "id": "75520143-cb16-4966-a324-0cd632155b7a"
+        }
+      ]
+    },
+    "replica": {
+      "id": "cee6e54e-32d6-41d7-a260-009c35618694",
+      "name": "cwtwb-review-wow-2021-ww34-how-many-consecutive-starts-replica-da89bbd579fa",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/3062273",
+      "views": [
+        {
+          "name": "Data",
+          "id": "6f4311c8-6b67-454b-8b4d-6daa1fc8b179"
+        },
+        {
+          "name": "Viz",
+          "id": "57ec34b4-acf8-484a-bf79-21f3ca9c090d"
+        },
+        {
+          "name": "2021_08_25_WW34_Consecutive_Starts",
+          "id": "62ff1b18-1512-4590-8410-ce8fae74293d"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "1ce14eb9-6fe6-46b4-aa70-41cbbb8dcf27",
+          "name": "2021_08_25_WW34_Consecutive_Starts",
+          "path": "outputs/cloud-author.png",
+          "sha256": "4d92b33f9feaa4540518b51a083848bdd5561905d24da7a69b26b279cb602885",
+          "size": [
+            1600,
+            3600
+          ]
+        },
+        "replica": {
+          "id": "62ff1b18-1512-4590-8410-ce8fae74293d",
+          "name": "2021_08_25_WW34_Consecutive_Starts",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "9695490fa91a320881a2c1540f676591845dd05db29c7d3fe4c804606f2f91af",
+          "size": [
+            1600,
+            3600
+          ]
+        }
+      },
+      "data": []
+    }
+  ],
+  "status": "captured_requires_independent_review"
+}

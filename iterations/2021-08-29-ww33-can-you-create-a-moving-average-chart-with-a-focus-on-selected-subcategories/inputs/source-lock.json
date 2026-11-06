@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-23",
+  "source_workbook": {
+    "filename": "2021_08_18_WW_33_Moving_Avg.twbx",
+    "bytes": 75278,
+    "sha256": "3b5b7f5446eb0dab12cea982cfffb85bb6d5c9ce389699adef9a5cb7abf279a1",
+    "url": null
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/TableauTemp/TEMP_04gxk7f1wt0o9u1fe7vb71wwjqt5.hyper",
+      "file": "inputs/TEMP_04gxk7f1wt0o9u1fe7vb71wwjqt5.hyper",
+      "bytes": 262144,
+      "sha256": "45f70d406ddb5990fcbf118723b2d5f6d9de65d97298934138f9993b443f8adc"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

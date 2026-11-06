@@ -1,0 +1,159 @@
+{
+  "scope": "Independent running-counter oracle over the locked extract plus the native table-calculation, filter, encoding and dashboard contracts.",
+  "acceptance": [
+    "ww34-source-grain",
+    "ww34-week-filter",
+    "ww34-table-calcs",
+    "ww34-streak-oracle",
+    "ww34-viz-encoding",
+    "ww34-dashboard"
+  ],
+  "facts": {
+    "extract_sha256": "91ac3cd2e799f38d70d60b668ede61e1157abc8612fa4ca5b6807ed9d57bb918",
+    "extract_rows_total": 8014,
+    "extract_rows_outside_weeks_1_17": 334,
+    "regular_season_rows": 7680,
+    "games_per_team_season": 16,
+    "seasons_per_team": 15,
+    "teams": 32,
+    "games_per_team": 240,
+    "index_max": 240,
+    "sum_current_streak": 563,
+    "longest_streak": {
+      "team": "LAC",
+      "games": 224
+    },
+    "per_team": {
+      "ARZ": {
+        "current_streak": 32,
+        "max_streak": 37
+      },
+      "ATL": {
+        "current_streak": 24,
+        "max_streak": 154
+      },
+      "BLT": {
+        "current_streak": 5,
+        "max_streak": 122
+      },
+      "BUF": {
+        "current_streak": 38,
+        "max_streak": 38
+      },
+      "CAR": {
+        "current_streak": 5,
+        "max_streak": 48
+      },
+      "CHI": {
+        "current_streak": 6,
+        "max_streak": 22
+      },
+      "CIN": {
+        "current_streak": 2,
+        "max_streak": 58
+      },
+      "CLV": {
+        "current_streak": 27,
+        "max_streak": 27
+      },
+      "DAL": {
+        "current_streak": 7,
+        "max_streak": 69
+      },
+      "DEN": {
+        "current_streak": 5,
+        "max_streak": 57
+      },
+      "DET": {
+        "current_streak": 16,
+        "max_streak": 136
+      },
+      "GB": {
+        "current_streak": 48,
+        "max_streak": 55
+      },
+      "HST": {
+        "current_streak": 16,
+        "max_streak": 46
+      },
+      "IND": {
+        "current_streak": 16,
+        "max_streak": 80
+      },
+      "JAX": {
+        "current_streak": 2,
+        "max_streak": 72
+      },
+      "KC": {
+        "current_streak": 1,
+        "max_streak": 27
+      },
+      "LA": {
+        "current_streak": 1,
+        "max_streak": 47
+      },
+      "LAC": {
+        "current_streak": 15,
+        "max_streak": 224
+      },
+      "LV": {
+        "current_streak": 59,
+        "max_streak": 59
+      },
+      "MIA": {
+        "current_streak": 5,
+        "max_streak": 77
+      },
+      "MIN": {
+        "current_streak": 16,
+        "max_streak": 31
+      },
+      "NE": {
+        "current_streak": 12,
+        "max_streak": 112
+      },
+      "NO": {
+        "current_streak": 3,
+        "max_streak": 82
+      },
+      "NYG": {
+        "current_streak": 2,
+        "max_streak": 187
+      },
+      "NYJ": {
+        "current_streak": 6,
+        "max_streak": 30
+      },
+      "PHI": {
+        "current_streak": 4,
+        "max_streak": 29
+      },
+      "PIT": {
+        "current_streak": 1,
+        "max_streak": 39
+      },
+      "SEA": {
+        "current_streak": 144,
+        "max_streak": 144
+      },
+      "SF": {
+        "current_streak": 2,
+        "max_streak": 47
+      },
+      "TB": {
+        "current_streak": 16,
+        "max_streak": 40
+      },
+      "TEN": {
+        "current_streak": 26,
+        "max_streak": 26
+      },
+      "WAS": {
+        "current_streak": 1,
+        "max_streak": 48
+      }
+    }
+  },
+  "output_sha256": "da89bbd579fa0ee2f99be6721cebc34259260d047f57150529f493d68b16f95f",
+  "packaged_extract_sha256_matches_lock": true
+}

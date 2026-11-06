@@ -1,0 +1,7 @@
+{
+  "checked_at": "2026-10-28T06:51:37.735518+00:00",
+  "verdict": "LOADED",
+  "workbook": "outputs/replicated-workbook.twbx",
+  "sha256": "83893921f3dbaa372e88baa3a82f3027e352f1828ddbab242d63efa10fedc379",
+  "scope": "Frozen workbook opened in Tableau Desktop; verdict from native log. No live dashboard events tested."
+}

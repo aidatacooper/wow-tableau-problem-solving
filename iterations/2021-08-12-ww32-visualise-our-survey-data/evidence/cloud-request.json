@@ -1,0 +1,11 @@
+{
+  "case_dir": "iterations/2021-08-12-ww32-visualise-our-survey-data",
+  "author_workbook": "../wow-tableau-problem-solving/dashboards/2021_08_11_WW32_WOW_Survey_Data/2021_08_11_WW32_WOW_Survey_Data.twbx",
+  "author_view": "2021_08_11_WOW32_Survey_Data",
+  "replica_view": "2021_08_11_WOW32_Survey_Data",
+  "states": [
+    {"name": "tableau", "filters": {"Which track do you participate in?": "Tableau"}},
+    {"name": "pbi", "filters": {"Which track do you participate in?": "PBI"}}
+  ],
+  "data_views": []
+}

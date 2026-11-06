@@ -1,0 +1,11 @@
+{
+  "status": "pass",
+  "sdk_version": "0.29.0a2",
+  "scope": "validation-only isolated case build",
+  "builder": "build_replication.py",
+  "verifier": "verify_replication.py",
+  "result": "isolated build, XSD, generated contracts, and 27 SQL/Decimal scenarios passed",
+  "desktop_or_cloud": "not run",
+  "frozen_artifact_sha256": "83893921f3dbaa372e88baa3a82f3027e352f1828ddbab242d63efa10fedc379",
+  "frozen_artifact_unchanged": true
+}

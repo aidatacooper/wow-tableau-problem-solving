@@ -1,0 +1,61 @@
+{
+  "artifact_sha256": "e8694891dbe75cd3fb029affcb74c1c5b1856400c716d1e44153728418357cbd",
+  "exports": [
+    {
+      "state": "default",
+      "view": "Gantt",
+      "path": "outputs/cloud-replica-gantt-default.csv",
+      "sha256": "bd49ebf7a2e3ae03bb7650f25cbd21ef5c541a303ecde5b1c13b119e50345107",
+      "parameters": {},
+      "filters": {}
+    },
+    {
+      "state": "default",
+      "view": "Key",
+      "path": "outputs/cloud-replica-key-default.csv",
+      "sha256": "838895c7d4a80f5f93868257e3219d1647fbbab892cf865d06c47378c0733514",
+      "parameters": {},
+      "filters": {}
+    },
+    {
+      "state": "three-days",
+      "view": "Gantt",
+      "path": "outputs/cloud-replica-gantt-three-days.csv",
+      "sha256": "9a0155494dee2adf3d0e06b2bdacfe7053bf49aefa54283874fd0c6a6fe062f0",
+      "parameters": {
+        "pDaysToShow": 3
+      },
+      "filters": {}
+    },
+    {
+      "state": "three-days",
+      "view": "Key",
+      "path": "outputs/cloud-replica-key-three-days.csv",
+      "sha256": "838895c7d4a80f5f93868257e3219d1647fbbab892cf865d06c47378c0733514",
+      "parameters": {
+        "pDaysToShow": 3
+      },
+      "filters": {}
+    },
+    {
+      "state": "ten-days",
+      "view": "Gantt",
+      "path": "outputs/cloud-replica-gantt-ten-days.csv",
+      "sha256": "ed6febdf5aed64299dd1be1605fbe3253ee81d2db2e6cd16ae7acb53a74014c4",
+      "parameters": {
+        "pDaysToShow": 10
+      },
+      "filters": {}
+    },
+    {
+      "state": "ten-days",
+      "view": "Key",
+      "path": "outputs/cloud-replica-key-ten-days.csv",
+      "sha256": "838895c7d4a80f5f93868257e3219d1647fbbab892cf865d06c47378c0733514",
+      "parameters": {
+        "pDaysToShow": 10
+      },
+      "filters": {}
+    }
+  ]
+}

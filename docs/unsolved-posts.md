@@ -1,17 +1,19 @@
 # 未解决的 post（解题 backlog）
 
-由 `index.json`（文章目录）与 `usage/case-index.json`（已建 case）对比生成。
-重新生成：`python crawler.py && python gen_links_map.py`，然后重跑本脚本。
+由本地 `index.json`、`usage/case-index.json` 与 `public_links_map.json` 生成。
+只将 `functional_status: replicated` 且验收为 `verified` / `historical` 的案例计为已解决；优先按文章 URL 匹配，兼容仅有文章路径的历史记录。
+重新生成：`python scripts/refresh_unsolved_posts.py`。
 
+- 文章归档时间：2026-10-09T03:11:52.229499+00:00
 - 目录文章总数：349
-- 已有 iteration（已认领）：90
-- **未解决：259**
-  - 带 Tableau Public 工作簿链接（可解）：254
-  - 无链接（随笔/非挑战）：5
+- 已复现 case：121
+- 尚未解决的文章：228
+- 其中带 Tableau Public 链接：223
+- 其中没有工作簿链接：5
 
-> `posts/` 与 `dashboards/` 是 gitignore 的生成物。拉取：`python download_all.py --refresh`。
+有链接不保证工作簿仍可下载；没有链接也不代表文章一定不是挑战。以上为本地归档口径，未检查新发布文章。
 
-## 2026（24）
+## 2026（23）
 
 - 2026-09-26 — [Can you create an embedded / categorised dashboard portal?](https://donnacoles.home.blog/2026/09/26/can-you-create-an-embedded-categorised-dashboard-portal/)
 - 2026-09-18 — [Can you format your numbers to the right scale?](https://donnacoles.home.blog/2026/09/18/can-you-format-your-numbers-to-the-right-scale/)
@@ -31,18 +33,16 @@
 - 2026-05-04 — [Can you build a radar chart with viz extensions?](https://donnacoles.home.blog/2026/05/04/can-you-build-a-radar-chart-with-viz-extensions/)
 - 2026-04-27 — [Can you build a radar chart with map layers?](https://donnacoles.home.blog/2026/04/27/can-you-build-a-radar-chart-with-map-layers/)
 - 2026-04-20 — [Mekko charts & Offset Labels](https://donnacoles.home.blog/2026/04/20/mekko-charts-offset-labels/)
-- 2026-04-13 — [Can you calculate the correct metric?](https://donnacoles.home.blog/2026/04/13/can-you-calculate-the-correct-metric/)
 - 2026-04-04 — [Let’s Viz Tsukurima Show!](https://donnacoles.home.blog/2026/04/04/lets-viz-tsukurima-show/)
 - 2026-03-30 — [Can you create a Gauge Chart with Tableau Extensions?](https://donnacoles.home.blog/2026/03/30/can-you-create-a-gauge-chart-with-tableau-extensions/)
 - 2026-01-26 — [Can you create KPI cards with viz extensions?](https://donnacoles.home.blog/2026/01/26/can-you-create-kpi-cards-with-viz-extensions/)
 - 2026-01-16 — [Can you create a fake Viz in Tooltip?](https://donnacoles.home.blog/2026/01/16/can-you-create-a-fake-viz-in-tooltip/)
 - 2026-01-14 — [Can you create breadcrumbs for filters?](https://donnacoles.home.blog/2026/01/14/can-you-create-breadcrumbs-for-filters/)
 
-## 2025（47）
+## 2025（46）
 
 - 2025-11-24 — [Can you make a bar chart race?](https://donnacoles.home.blog/2025/11/24/can-you-make-a-bar-chart-race/)
 - 2025-11-17 — [Can you create a dynamically zooming map?](https://donnacoles.home.blog/2025/11/17/can-you-create-a-dynamically-zooming-map/)
-- 2025-11-07 — [Population Pyramids](https://donnacoles.home.blog/2025/11/07/population-pyramids/)
 - 2025-11-03 — [Can you build a satellite chart to represent values exceeding 100%](https://donnacoles.home.blog/2025/11/03/can-you-build-a-satellite-chart-to-represent-values-exceeding-100/)
 - 2025-10-25 — [Can you build a ranked heatmap tile?](https://donnacoles.home.blog/2025/10/25/can-you-build-a-ranked-heatmap-tile/)
 - 2025-10-17 — [Dynamic Dimension Colouring](https://donnacoles.home.blog/2025/10/17/dynamic-dimension-colouring/)
@@ -99,7 +99,7 @@
 - 2024-11-08 — [Can you switch a dashboard theme?](https://donnacoles.home.blog/2024/11/08/can-you-switch-a-dashboard-theme/)
 - 2024-11-04 — [Can you join two spatial files to find the intersection?](https://donnacoles.home.blog/2024/11/04/can-you-join-two-spatial-files-to-find-the-intersection/)
 - 2024-10-27 — [Can you show total sales and filtered sales in the same view?](https://donnacoles.home.blog/2024/10/27/can-you-show-total-sales-and-filtered-sales-in-the-same-view/)
-- 2024-10-21 — [Let’s play with Table(au) Extensions!](https://donnacoles.home.blog/2024/10/21/lets-play-with-tableau-extensions/) _(无工作簿链接)_
+- 2024-10-21 — [Let’s play with Table(au) Extensions!](https://donnacoles.home.blog/2024/10/21/lets-play-with-tableau-extensions/)（无工作簿链接）
 - 2024-10-12 — [People Resource Planning](https://donnacoles.home.blog/2024/10/12/people-resource-planning/)
 - 2024-10-07 — [Can you create a brush filter?](https://donnacoles.home.blog/2024/10/07/can-you-create-a-brush-filter/)
 - 2024-09-27 — [Can you use the Sankey Viz Extension?](https://donnacoles.home.blog/2024/09/27/can-you-use-the-sankey-viz-extension/)
@@ -138,7 +138,7 @@
 - 2024-01-12 — [Can you create a time-focused Gantt chart?](https://donnacoles.home.blog/2024/01/12/can-you-create-a-time-focused-gantt-chart/)
 - 2024-01-04 — [Can you compare salaries to the median?](https://donnacoles.home.blog/2024/01/04/can-you-compare-salaries-to-the-median/)
 
-## 2023（48）
+## 2023（47）
 
 - 2023-12-22 — [Elf Economics](https://donnacoles.home.blog/2023/12/22/elf-economics/)
 - 2023-12-15 — [Can you build this simple KPI card?](https://donnacoles.home.blog/2023/12/15/can-you-build-this-simple-kpi-card/)
@@ -150,7 +150,7 @@
 - 2023-10-26 — [Can you create a dynamic small multiple chart?](https://donnacoles.home.blog/2023/10/26/can-you-create-a-dynamic-small-multiple-chart/)
 - 2023-10-19 — [Can you proportionally brush from multiple selections?](https://donnacoles.home.blog/2023/10/19/can-you-proportionally-brush-from-multiple-selections/)
 - 2023-10-13 — [Can you build a flexible tabular display?](https://donnacoles.home.blog/2023/10/13/can-you-build-a-flexible-tabular-display/)
-- 2023-10-05 — [Let’s Analyse New Product Sales](https://donnacoles.home.blog/2023/10/05/lets-analyse-new-product-sales/) _(无工作簿链接)_
+- 2023-10-05 — [Let’s Analyse New Product Sales](https://donnacoles.home.blog/2023/10/05/lets-analyse-new-product-sales/)（无工作簿链接）
 - 2023-09-28 — [Target Achievement Report](https://donnacoles.home.blog/2023/09/28/target-achievement-report/)
 - 2023-09-22 — [Can you build a drunken tree chart?](https://donnacoles.home.blog/2023/09/22/can-you-build-a-drunken-tree-chart/)
 - 2023-09-15 — [Can you show placeholders for a maximum of 6 goals?](https://donnacoles.home.blog/2023/09/15/can-you-show-placeholders-for-a-maximum-of-6-goals/)
@@ -174,7 +174,6 @@
 - 2023-04-27 — [Custom Map Analysis](https://donnacoles.home.blog/2023/04/27/custom-map-analysis/)
 - 2023-04-20 — [Can you build an insightful text table?](https://donnacoles.home.blog/2023/04/20/can-you-build-an-insightful-text-table/)
 - 2023-04-13 — [Can you create digital signage in Tableau?](https://donnacoles.home.blog/2023/04/13/can-you-create-digital-signage-in-tableau/)
-- 2023-04-07 — [How short are baseball games in 2023?](https://donnacoles.home.blog/2023/04/07/how-short-are-baseball-games-in-2023/)
 - 2023-03-30 — [Can you use dynamic axis titles?](https://donnacoles.home.blog/2023/03/30/can-you-use-dynamic-axis-titles/)
 - 2023-03-23 — [Can you build a dashboard using containers?](https://donnacoles.home.blog/2023/03/23/can-you-build-a-dashboard-using-containers/)
 - 2023-03-16 — [Can You Compare State Sales? Part 1](https://donnacoles.home.blog/2023/03/16/can-you-compare-state-sales-part-1/)
@@ -189,7 +188,7 @@
 - 2023-01-12 — [Can you visualise orders?](https://donnacoles.home.blog/2023/01/12/can-you-visualise-orders/)
 - 2023-01-06 — [Can you use Image Role & Dynamic Zone Visibility?](https://donnacoles.home.blog/2023/01/06/can-you-use-image-role-dynamic-zone-visibility/)
 
-## 2022（53）
+## 2022（52）
 
 - 2022-12-30 — [Can you create a waffle chart?](https://donnacoles.home.blog/2022/12/30/can-you-create-a-waffle-chart/)
 - 2022-12-23 — [Let’s show quarterly sales with end-user flexibility](https://donnacoles.home.blog/2022/12/23/lets-show-quarterly-sales-with-end-user-flexibility/)
@@ -210,7 +209,6 @@
 - 2022-09-15 — [Can you create a common starting point?](https://donnacoles.home.blog/2022/09/15/can-you-create-a-common-starting-point/)
 - 2022-09-09 — [Let’s build a Marrimeko Chart!](https://donnacoles.home.blog/2022/09/09/lets-build-a-marrimeko-chart/)
 - 2022-08-17 — [Can you compare the latest month to the prior X months average?](https://donnacoles.home.blog/2022/08/17/can-you-compare-the-latest-month-to-the-prior-x-months-average/)
-- 2022-08-12 — [Can you build a dumbbell chart?](https://donnacoles.home.blog/2022/08/12/can-you-build-a-dumbbell-chart/)
 - 2022-08-04 — [Let’s Build a KPI Dashboard](https://donnacoles.home.blog/2022/08/04/lets-build-a-kpi-dashboard/)
 - 2022-07-28 — [Dynamic Dates in a Heat Map](https://donnacoles.home.blog/2022/07/28/dynamic-dates-in-a-heat-map/)
 - 2022-07-21 — [What is the time-weighted return?](https://donnacoles.home.blog/2022/07/21/what-is-the-time-weighted-return/)
@@ -224,7 +222,7 @@
 - 2022-05-26 — [Let’s build a trellis chart!](https://donnacoles.home.blog/2022/05/26/lets-build-a-trellis-chart/)
 - 2022-05-23 — [Monthly Sales vs Targets – the #data22 Vegas Edition](https://donnacoles.home.blog/2022/05/23/monthly-sales-vs-targets-the-data22-vegas-edition/)
 - 2022-05-12 — [Can you format the dashboard?](https://donnacoles.home.blog/2022/05/12/can-you-format-the-dashboard/)
-- 2022-05-09 — [This is me](https://donnacoles.home.blog/2022/05/09/this-is-me/) _(无工作簿链接)_
+- 2022-05-09 — [This is me](https://donnacoles.home.blog/2022/05/09/this-is-me/)（无工作簿链接）
 - 2022-05-05 — [Can You Optimize This?](https://donnacoles.home.blog/2022/05/05/can-you-optimize-this/)
 - 2022-04-28 — [Can you switch between KPIs?](https://donnacoles.home.blog/2022/04/28/can-you-switch-between-kpis/)
 - 2022-04-22 — [Can you make a hexbin map?](https://donnacoles.home.blog/2022/04/22/can-you-make-a-hexbin-map/)
@@ -245,7 +243,7 @@
 - 2022-01-06 — [Let’s analyse wildlife strikes](https://donnacoles.home.blog/2022/01/06/lets-analyse-wildlife-strikes/)
 - 2022-01-01 — [Can you build a table with one measure?](https://donnacoles.home.blog/2022/01/01/can-you-build-a-table-with-one-measure/)
 
-## 2021（39）
+## 2021（12）
 
 - 2021-12-24 — [Let’s visualise #WorkoutWednesday submissions](https://donnacoles.home.blog/2021/12/24/lets-visualise-workoutwednesday-submissions/)
 - 2021-12-16 — [Can you recreate this drill down?](https://donnacoles.home.blog/2021/12/16/can-you-recreate-this-drill-down/)
@@ -258,36 +256,8 @@
 - 2021-10-28 — [Filtering Table Calcs](https://donnacoles.home.blog/2021/10/28/filtering-table-calcs/)
 - 2021-10-21 — [Can you use set actions to create a reference date range?](https://donnacoles.home.blog/2021/10/21/can-you-use-set-actions-to-create-a-reference-date-range/)
 - 2021-10-14 — [How much do top sub-categories contribute to sales?](https://donnacoles.home.blog/2021/10/14/how-much-do-top-sub-categories-contribute-to-sales/)
-- 2021-10-08 — [Can you make stacked bar charts easier to compare?](https://donnacoles.home.blog/2021/10/08/can-you-make-stacked-bar-charts-easier-to-compare/)
-- 2021-09-23 — [Can you quickly tell the net change between two dates?](https://donnacoles.home.blog/2021/09/23/can-you-quickly-tell-the-net-change-between-two-dates/)
-- 2021-09-12 — [When do extracts run during the day?](https://donnacoles.home.blog/2021/09/12/when-do-extracts-run-during-the-day/)
-- 2021-09-02 — [How much change has occurred?](https://donnacoles.home.blog/2021/09/02/how-much-change-has-occurred/)
-- 2021-08-31 — [How many consecutive starts?](https://donnacoles.home.blog/2021/08/31/how-many-consecutive-starts/)
-- 2021-08-29 — [Can you create a moving average chart with a focus on selected subcategories?](https://donnacoles.home.blog/2021/08/29/can-you-create-a-moving-average-chart-with-a-focus-on-selected-subcategories/)
-- 2021-08-12 — [Visualise Our Survey Data](https://donnacoles.home.blog/2021/08/12/visualise-our-survey-data/)
-- 2021-08-05 — [Can you find the needle in the haystack?](https://donnacoles.home.blog/2021/08/05/can-you-find-the-needle-in-the-haystack/)
-- 2021-07-29 — [Let’s go streaking!](https://donnacoles.home.blog/2021/07/29/lets-go-streaking/)
-- 2021-07-23 — [Can you rebuild the Olympic Schedule?](https://donnacoles.home.blog/2021/07/23/can-you-rebuild-the-olympic-schedule/)
-- 2021-07-15 — [Can you build an app to visualise wildfires?](https://donnacoles.home.blog/2021/07/15/can-you-build-an-app-to-visualise-wildfires/)
-- 2021-07-08 — [Can you find the top and bottom performers?](https://donnacoles.home.blog/2021/07/08/can-you-find-the-top-and-bottom-performers/)
-- 2021-07-01 — [Profitability with Dual Axis Charts](https://donnacoles.home.blog/2021/07/01/profitability-with-dual-axis-charts/)
-- 2021-06-25 — [Can you make Spine Charts?](https://donnacoles.home.blog/2021/06/25/can-you-make-spine-charts/)
-- 2021-06-17 — [Can you visualise the Cholera Outbreak?](https://donnacoles.home.blog/2021/06/17/can-you-visualise-the-cholera-outbreak/)
-- 2021-06-11 — [Sales Goal Selection Tool](https://donnacoles.home.blog/2021/06/11/sales-goal-selection-tool/)
-- 2021-06-03 — [Can you structure the unstructured?](https://donnacoles.home.blog/2021/06/03/can-you-structure-the-unstructured/)
-- 2021-05-28 — [How often is Sean listening to his favourite songs?](https://donnacoles.home.blog/2021/05/28/how-often-is-sean-listening-to-his-favourite-songs/)
-- 2021-05-20 — [Can you compare Same Day to a Selected Date?](https://donnacoles.home.blog/2021/05/20/can-you-compare-same-day-to-a-selected-date/)
-- 2021-05-13 — [Regional Sales Readout](https://donnacoles.home.blog/2021/05/13/regional-sales-readout/)
-- 2021-05-06 — [Can you performance tune this workbook?](https://donnacoles.home.blog/2021/05/06/can-you-performance-tune-this-workbook/) _(无工作簿链接)_
-- 2021-04-29 — [Generation Population](https://donnacoles.home.blog/2021/04/29/generation-population/)
-- 2021-04-23 — [Can you use Quick LoDs to recreate this view?](https://donnacoles.home.blog/2021/04/23/can-you-use-quick-lods-to-recreate-this-view/)
-- 2021-04-15 — [Tableau Website Analytics](https://donnacoles.home.blog/2021/04/15/tableau-website-analytics/)
-- 2021-04-08 — [Can you recommend profitable return customer product bundles?](https://donnacoles.home.blog/2021/04/08/can-you-recommend-profitable-return-customer-product-bundles/)
-- 2021-04-01 — [What percentage of sub-orders are profitable?](https://donnacoles.home.blog/2021/04/01/what-percentage-of-sub-orders-are-profitable/)
-- 2021-03-25 — [Can you do Comparative Quantity Analysis?](https://donnacoles.home.blog/2021/03/25/can-you-do-comparative-quantity-analysis/)
-- 2021-03-18 — [Can you recreate the work of Hans Rosling?](https://donnacoles.home.blog/2021/03/18/can-you-recreate-the-work-of-hans-rosling/)
+- 2021-05-06 — [Can you performance tune this workbook?](https://donnacoles.home.blog/2021/05/06/can-you-performance-tune-this-workbook/)（无工作簿链接）
 
 ## 2019（1）
 
-- 2019-07-16 — [Taking the plunge](https://donnacoles.home.blog/2019/07/16/taking-the-plunge/) _(无工作簿链接)_
-
+- 2019-07-16 — [Taking the plunge](https://donnacoles.home.blog/2019/07/16/taking-the-plunge/)（无工作簿链接）

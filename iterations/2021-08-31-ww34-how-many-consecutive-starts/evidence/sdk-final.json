@@ -1,0 +1,9 @@
+{
+  "version": "0.29.0a1",
+  "commit": "23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c",
+  "result": "workaround",
+  "artifact_sha256": "da89bbd579fa0ee2f99be6721cebc34259260d047f57150529f493d68b16f95f",
+  "runtime_fix": "One Field table-calc address with ordered instance children Season/Week/Player Id, repeated for nested dependencies; INDEX quantitative; Viz table_calc_context=True. No SDK edits.",
+  "verification": "Desktop LOADED; 65040 Cloud field checks; screenshots acceptable_delta.",
+  "baseline_record": "evidence/sdk-baseline.json"
+}

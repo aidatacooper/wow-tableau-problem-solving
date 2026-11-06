@@ -1,0 +1,16 @@
+{
+  "challenge_year": 2021,
+  "challenge_week": 34,
+  "article_date": "2021-08-31",
+  "challenge_date": "2021-08-24",
+  "official_rest_url": "https://www.workout-wednesday.com/wp-json/wp/v2/posts/5854",
+  "response_excerpt": {
+    "id": 5854,
+    "date": "2021-08-24",
+    "link": "https://www.workout-wednesday.com/2021-week-34-how-many-consecutive-starts/",
+    "title": {
+      "rendered": "2021 Week 34: How Many Consecutive Starts?"
+    }
+  },
+  "scope": "Official challenge record from scratch/ten-intake-2021-08-31.json (case_intake.py, Workout Wednesday public API)."
+}

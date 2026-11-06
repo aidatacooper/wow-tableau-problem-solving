@@ -1,0 +1,266 @@
+{
+  "schema_version": "1.0.0",
+  "scope": "Locked-extract oracle for the WW30 consecutive-increase streak dashboard; the whole table-calculation chain is recomputed in Python from the Hyper extract, independently of the builder.",
+  "browser_interaction_executed": false,
+  "state": {
+    "description": "Default view: all Sub-Categories, all months, sorted by -Longest Streak."
+  },
+  "observed": {
+    "extract_sha256": "a6474e8c57bc188e6494e42614514483fde83561c7a6726563372cab041c2de0",
+    "month_sub_category_rows": 782,
+    "sub_categories": 17,
+    "sorted_order": [
+      "Appliances",
+      "Bookcases",
+      "Phones",
+      "Art",
+      "Envelopes",
+      "Supplies",
+      "Tables",
+      "Accessories",
+      "Chairs",
+      "Copiers",
+      "Fasteners",
+      "Furnishings",
+      "Labels",
+      "Machines",
+      "Paper",
+      "Binders",
+      "Storage"
+    ],
+    "per_sub_category": {
+      "Accessories": {
+        "months": 48,
+        "longest_streak": 3,
+        "peak_months": [
+          "2019-07"
+        ],
+        "peak_sales": [
+          7588.76
+        ]
+      },
+      "Appliances": {
+        "months": 48,
+        "longest_streak": 5,
+        "peak_months": [
+          "2017-11"
+        ],
+        "peak_sales": [
+          6611.97
+        ]
+      },
+      "Art": {
+        "months": 48,
+        "longest_streak": 4,
+        "peak_months": [
+          "2019-06"
+        ],
+        "peak_sales": [
+          1019.1
+        ]
+      },
+      "Binders": {
+        "months": 48,
+        "longest_streak": 2,
+        "peak_months": [
+          "2016-09",
+          "2017-03",
+          "2017-09",
+          "2017-12",
+          "2018-04",
+          "2019-04",
+          "2019-08"
+        ],
+        "peak_sales": [
+          12743.62,
+          8393.6,
+          2863.0,
+          4812.21,
+          2743.16,
+          4915.52,
+          12873.22
+        ]
+      },
+      "Bookcases": {
+        "months": 46,
+        "longest_streak": 5,
+        "peak_months": [
+          "2019-06"
+        ],
+        "peak_sales": [
+          5309.07
+        ]
+      },
+      "Chairs": {
+        "months": 48,
+        "longest_streak": 3,
+        "peak_months": [
+          "2017-05",
+          "2018-04"
+        ],
+        "peak_sales": [
+          5681.93,
+          8945.01
+        ]
+      },
+      "Copiers": {
+        "months": 32,
+        "longest_streak": 3,
+        "peak_months": [
+          "2016-10",
+          "2019-03"
+        ],
+        "peak_sales": [
+          1999.96,
+          21319.82
+        ]
+      },
+      "Envelopes": {
+        "months": 46,
+        "longest_streak": 4,
+        "peak_months": [
+          "2019-11"
+        ],
+        "peak_sales": [
+          518.63
+        ]
+      },
+      "Fasteners": {
+        "months": 47,
+        "longest_streak": 3,
+        "peak_months": [
+          "2018-11"
+        ],
+        "peak_sales": [
+          192.41
+        ]
+      },
+      "Furnishings": {
+        "months": 48,
+        "longest_streak": 3,
+        "peak_months": [
+          "2016-09"
+        ],
+        "peak_sales": [
+          2960.96
+        ]
+      },
+      "Labels": {
+        "months": 48,
+        "longest_streak": 3,
+        "peak_months": [
+          "2018-06"
+        ],
+        "peak_sales": [
+          357.29
+        ]
+      },
+      "Machines": {
+        "months": 39,
+        "longest_streak": 3,
+        "peak_months": [
+          "2018-04",
+          "2019-11"
+        ],
+        "peak_sales": [
+          9099.93,
+          11761.38
+        ]
+      },
+      "Paper": {
+        "months": 48,
+        "longest_streak": 3,
+        "peak_months": [
+          "2018-06"
+        ],
+        "peak_sales": [
+          2747.13
+        ]
+      },
+      "Phones": {
+        "months": 48,
+        "longest_streak": 5,
+        "peak_months": [
+          "2019-09"
+        ],
+        "peak_sales": [
+          15318.84
+        ]
+      },
+      "Storage": {
+        "months": 48,
+        "longest_streak": 2,
+        "peak_months": [
+          "2017-03",
+          "2017-06",
+          "2017-09",
+          "2018-05",
+          "2018-12",
+          "2019-04",
+          "2019-11"
+        ],
+        "peak_sales": [
+          3632.08,
+          3331.09,
+          9116.04,
+          6159.59,
+          10590.62,
+          6026.47,
+          11911.28
+        ]
+      },
+      "Supplies": {
+        "months": 44,
+        "longest_streak": 4,
+        "peak_months": [
+          "2019-01"
+        ],
+        "peak_sales": [
+          4314.41
+        ]
+      },
+      "Tables": {
+        "months": 48,
+        "longest_streak": 4,
+        "peak_months": [
+          "2017-09",
+          "2019-11"
+        ],
+        "peak_sales": [
+          3868.27,
+          13658.69
+        ]
+      }
+    }
+  },
+  "expected_from_oracle": {
+    "leading_rows": [
+      [
+        "Appliances",
+        5
+      ],
+      [
+        "Bookcases",
+        5
+      ],
+      [
+        "Phones",
+        5
+      ],
+      [
+        "Art",
+        4
+      ]
+    ],
+    "tied_peak_sub_categories": [
+      "Tables",
+      "Chairs",
+      "Copiers",
+      "Machines",
+      "Binders",
+      "Storage"
+    ],
+    "month_buckets_per_full_series": 48
+  },
+  "result": "pass"
+}

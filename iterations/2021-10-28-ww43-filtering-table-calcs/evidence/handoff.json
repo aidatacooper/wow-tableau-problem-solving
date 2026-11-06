@@ -1,0 +1,95 @@
+{
+  "case_id": "wow-2021-ww43-filtering-table-calcs",
+  "worktree": "C:/Users/imgwho/.t3/worktrees/wow-tableau-problem-solving/t3-fe3dcd9d",
+  "branch": "feat/2021-ww43-table-calc-preview",
+  "retained_source_branch": "t3/ww43-filtering-table-calcs",
+  "retained_source_commit": "f80d75baa1c58fef874a275130a0bcf401a3d2be",
+  "main_base": "d52ecab0449f7a0d443f22723fb59f7bd479649c",
+  "implementation_commit": "c04478fe8b1736468a426896c97e2e8f8dff86fd",
+  "acceptance_commit": "48a373d88bcaa7e4110c2bf40f9ddb235e8cec81",
+  "handoff_note": "Delivery branch created from origin/main in the existing worktree. Only this case was restored from the retained source branch, then both indexes regenerated; no prior unpublished batch history included.",
+  "status": {
+    "functional_status": "partial",
+    "visual_status": "acceptable_delta",
+    "verification_status": "pending",
+    "cwtwb_result": "pass"
+  },
+  "sdk": {
+    "version": "0.29.0a1",
+    "commit": "23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c",
+    "source": "C:/Users/imgwho/Desktop/project/.sdk-pins/cwtwb-23b1df0/src",
+    "candidate_sdk_used": false,
+    "shared_sdk_edited": false
+  },
+  "artifact": {
+    "path": "outputs/replicated-workbook.twbx",
+    "sha256": "83893921f3dbaa372e88baa3a82f3027e352f1828ddbab242d63efa10fedc379",
+    "bytes": 363095,
+    "frozen_unchanged": true
+  },
+  "verification": {
+    "local_scenarios": 27,
+    "negative_mutations": 6,
+    "xsd": "pass",
+    "metadata": "pass",
+    "phase_boundary": "pass",
+    "source_lock": "pass",
+    "catalogue": "pass; 112 active cases on main base (111 existing plus WW43)",
+    "repository_tests": "83 passed, 0 failed",
+    "isolated_rebuild": "pass; fresh builder/schema/verifier run in temporary copy, accepted artifact unchanged",
+    "desktop": "LOADED; parent evidence bound to frozen hash",
+    "desktop_corpus": "LOADED=50 FAIL=0 UNKNOWN=0",
+    "saved_rest_states": [
+      {
+        "state": "default",
+        "months": 48,
+        "bar_categories": 17
+      },
+      {
+        "state": "june-2018",
+        "months": 1,
+        "bar_categories": 16
+      },
+      {
+        "state": "copiers-full",
+        "months": 32,
+        "bar_categories": 1
+      },
+      {
+        "state": "machines-full",
+        "months": 39,
+        "bar_categories": 1
+      }
+    ],
+    "saved_csv_checks": "All trend and bar values match raw-row oracle within currency rounding; author Data sheet matches trend oracle.",
+    "capture_hashes": "12 CSV and 8 PNG hashes checked against manifests and staged Git blobs",
+    "visual": "acceptable_delta; readable category labels and values, differing palette/ticks/typography/layout",
+    "independent_review": "Supplied result preserved in evidence/independent-review.md, including objections; this integration is not a new independent review"
+  },
+  "limits": [
+    "Native drag selection, min/max aggregation, clear, repeated zoom, multi-select and reset remain unverified; user cannot complete MFA.",
+    "REST category filters directly affect Bars and do not verify Bars-to-Trend action isolation.",
+    "Copiers/Machines observed marks agree; author Data sheet is not Chart, and dashboard densification is not exhaustively tested."
+  ],
+  "commands": {
+    "setup": "$env:PYTHONPATH='C:/Users/imgwho/Desktop/project/.sdk-pins/cwtwb-23b1df0/src'; $env:CWTWB_SRC=$env:PYTHONPATH",
+    "working_directory": "C:/Users/imgwho/.t3/worktrees/wow-tableau-problem-solving/t3-fe3dcd9d/iterations/2021-10-28-ww43-filtering-table-calcs",
+    "verify_frozen": "python -X utf8 verify_replication.py",
+    "verify_saved_exports": "python -X utf8 verify_runtime_exports.py",
+    "metadata_without_rebuild": "python -X utf8 ../../scripts/validate_iteration.py . --metadata-only",
+    "repository_tests_from_root": "python -X utf8 -m unittest discover -s tests -v",
+    "isolated_rebuild_from_root": "python -X utf8 -c \"from pathlib import Path; from scripts.validate_iteration import run_case_scripts_isolated; run_case_scripts_isolated(Path('iterations/2021-10-28-ww43-filtering-table-calcs').resolve())\""
+  },
+  "pending_parent_work": [
+    "Push the clean one-case delivery branch and create PR; no dependency on new SDK PR.",
+    "Retain partial functional status until native interaction gates are executed.",
+    "Preserve .gitattributes and capture byte hashes during branch restoration."
+  ],
+  "constraints": {
+    "builder_unchanged": true,
+    "frozen_workbook_unchanged": true,
+    "cloud_or_desktop_launched_by_integration_agent": false,
+    "push_or_pr": false,
+    "only_own_case_and_generated_indexes_changed": true
+  }
+}

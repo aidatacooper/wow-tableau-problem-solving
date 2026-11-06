@@ -1,0 +1,61 @@
+{
+  "artifact_sha256": "b4ac684a128486d84b4561a96e9cd6bf3f3dc34f36f5a63036d06da05840c268",
+  "exports": [
+    {
+      "state": "default",
+      "view": "Sport Selector",
+      "path": "outputs/cloud-replica-sport-selector-default.csv",
+      "sha256": "faf99f23f9afcc51c1d31cfdf25ac04cf7ecff50d92d9715438c952c2f3e72e9",
+      "parameters": {},
+      "filters": {}
+    },
+    {
+      "state": "default",
+      "view": "Date Chart",
+      "path": "outputs/cloud-replica-date-chart-default.csv",
+      "sha256": "0e1443c77b529a81f1aa2e8eebe1e11bf79d252457fc5b041b0d506f6e5dbb0b",
+      "parameters": {},
+      "filters": {}
+    },
+    {
+      "state": "plus3",
+      "view": "Sport Selector",
+      "path": "outputs/cloud-replica-sport-selector-plus3.csv",
+      "sha256": "faf99f23f9afcc51c1d31cfdf25ac04cf7ecff50d92d9715438c952c2f3e72e9",
+      "parameters": {
+        "pTimeAdjust": 3
+      },
+      "filters": {}
+    },
+    {
+      "state": "plus3",
+      "view": "Date Chart",
+      "path": "outputs/cloud-replica-date-chart-plus3.csv",
+      "sha256": "cb3b599987a41506e7201c7acbac519f70515e5ca8b88572ea3605fcc7950450",
+      "parameters": {
+        "pTimeAdjust": 3
+      },
+      "filters": {}
+    },
+    {
+      "state": "minus5",
+      "view": "Sport Selector",
+      "path": "outputs/cloud-replica-sport-selector-minus5.csv",
+      "sha256": "faf99f23f9afcc51c1d31cfdf25ac04cf7ecff50d92d9715438c952c2f3e72e9",
+      "parameters": {
+        "pTimeAdjust": -5
+      },
+      "filters": {}
+    },
+    {
+      "state": "minus5",
+      "view": "Date Chart",
+      "path": "outputs/cloud-replica-date-chart-minus5.csv",
+      "sha256": "f0c449a5caf3265e165f9dabd0e2e16c7d31021f9fd222706fd10a16709b4ac0",
+      "parameters": {
+        "pTimeAdjust": -5
+      },
+      "filters": {}
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "case_id": "wow-2021-ww43-filtering-table-calcs",
+  "captured_at": "2026-10-28T06:47:37.333038+00:00",
+  "source_hashes": {
+    "author": "8204ef773b82641bc253238fab1d017f111be15c24d3b651b8df9dd72df12c1a",
+    "replica": "83893921f3dbaa372e88baa3a82f3027e352f1828ddbab242d63efa10fedc379"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "f116fc0f-0f22-4180-a206-dbb00e1d41c0",
+      "name": "cwtwb-review-wow-2021-ww43-filtering-table-calcs-author-8204ef773b82",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/3089375",
+      "views": [
+        {
+          "name": "2021_10_27_WW43_Table_Calc_Filters_tableau_Public",
+          "id": "7883c076-474b-41de-b669-c68f19300bd1"
+        },
+        {
+          "name": "Data",
+          "id": "be983859-55c2-4edc-a462-21424a99c39c"
+        }
+      ]
+    },
+    "replica": {
+      "id": "00f44169-7240-47ab-840e-c3a272395b71",
+      "name": "cwtwb-review-wow-2021-ww43-filtering-table-calcs-replica-83893921f3db",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/3089376",
+      "views": [
+        {
+          "name": "Trend",
+          "id": "7684a7c4-026e-4e71-9f24-2ddab27aa09c"
+        },
+        {
+          "name": "Bars",
+          "id": "9d1b3233-8061-48d3-ba8a-50f4ecdac52a"
+        },
+        {
+          "name": "Filtering Table Calcs",
+          "id": "942b3cd2-4128-4b10-9482-dc6793a86e12"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "7883c076-474b-41de-b669-c68f19300bd1",
+          "name": "2021_10_27_WW43_Table_Calc_Filters_tableau_Public",
+          "path": "outputs/cloud-author.png",
+          "sha256": "8cc8df27a49aca6e5916464ed2e00571ca639ccce16ece4bd7f0c89632372fdb",
+          "size": [
+            1600,
+            2000
+          ]
+        },
+        "replica": {
+          "id": "942b3cd2-4128-4b10-9482-dc6793a86e12",
+          "name": "Filtering Table Calcs",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "35c7bb9c09e5346b50f9121253666c1c105a7ee3bddcfc9449d1cf28d431fd18",
+          "size": [
+            1600,
+            2000
+          ]
+        }
+      },
+      "data": []
+    },
+    {
+      "name": "june-2018",
+      "parameters": {
+        "pMinDate": "2018-06-01",
+        "pMaxDate": "2018-06-01"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "7883c076-474b-41de-b669-c68f19300bd1",
+          "name": "2021_10_27_WW43_Table_Calc_Filters_tableau_Public",
+          "path": "outputs/cloud-author-june-2018.png",
+          "sha256": "b76b25b7a82b7aaf63dbe62c3a09b19c89364d7cbbd885897432f5e50e481295",
+          "size": [
+            1600,
+            2000
+          ]
+        },
+        "replica": {
+          "id": "942b3cd2-4128-4b10-9482-dc6793a86e12",
+          "name": "Filtering Table Calcs",
+          "path": "outputs/cloud-replica-june-2018.png",
+          "sha256": "183073af548c4fd11788c90f3ba536a0be1cfcde0633585ec71313416804c639",
+          "size": [
+            1600,
+            2000
+          ]
+        }
+      },
+      "data": []
+    },
+    {
+      "name": "copiers-full",
+      "parameters": {},
+      "filters": {
+        "Sub-Category": "Copiers"
+      },
+      "views": {
+        "author": {
+          "id": "7883c076-474b-41de-b669-c68f19300bd1",
+          "name": "2021_10_27_WW43_Table_Calc_Filters_tableau_Public",
+          "path": "outputs/cloud-author-copiers-full.png",
+          "sha256": "2ef109a9392a221b301b650c142f52da3a77f636d768f8d66850a2edb93bcdb9",
+          "size": [
+            1600,
+            2000
+          ]
+        },
+        "replica": {
+          "id": "942b3cd2-4128-4b10-9482-dc6793a86e12",
+          "name": "Filtering Table Calcs",
+          "path": "outputs/cloud-replica-copiers-full.png",
+          "sha256": "551ddb6f1f6ba0ce2f56a4e74acc335ac13019c190bd79669e5b8786df34bdd6",
+          "size": [
+            1600,
+            2000
+          ]
+        }
+      },
+      "data": []
+    },
+    {
+      "name": "machines-full",
+      "parameters": {},
+      "filters": {
+        "Sub-Category": "Machines"
+      },
+      "views": {
+        "author": {
+          "id": "7883c076-474b-41de-b669-c68f19300bd1",
+          "name": "2021_10_27_WW43_Table_Calc_Filters_tableau_Public",
+          "path": "outputs/cloud-author-machines-full.png",
+          "sha256": "fee2971fa04f7561a92383f0fa43a309949cf4b9f018b5b39a0884b8d8b3a288",
+          "size": [
+            1600,
+            2000
+          ]
+        },
+        "replica": {
+          "id": "942b3cd2-4128-4b10-9482-dc6793a86e12",
+          "name": "Filtering Table Calcs",
+          "path": "outputs/cloud-replica-machines-full.png",
+          "sha256": "1508cb74edfc140a75943c03826e0deb20c52a1f9c0e589f8a6ae3bec376aa7a",
+          "size": [
+            1600,
+            2000
+          ]
+        }
+      },
+      "data": []
+    }
+  ],
+  "status": "captured_requires_independent_review"
+}

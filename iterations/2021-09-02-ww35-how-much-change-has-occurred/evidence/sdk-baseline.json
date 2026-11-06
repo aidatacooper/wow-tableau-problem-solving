@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0.0",
+  "cwtwb_version": "0.29.0a1",
+  "cwtwb_commit": "23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c",
+  "result": "workaround",
+  "scope": "Released-SDK baseline for the WW35 2020-vs-2021 change-in-sales case.",
+  "supported": [
+    "set_hyper_connection on the packaged single-table extract",
+    "add_calculated_field with FIXED LoD formulas and a *+0%;-0% default format",
+    "configure_layered_chart(axis_shelf='columns', fold_axes=True, synchronized=True) for the two synchronised panes",
+    "configure_layered_chart pane color_map writing datasource colour palettes per pane",
+    "configure_layered_chart filters with context=True for the year window",
+    "configure_layered_chart sort_mode='computed' + sort_field for a computed sort on a non-shelf measure",
+    "configure_layered_chart mark_style mark-labels-range-* for range-scoped labels",
+    "configure_custom_tooltip and set_worksheet_rich_title",
+    "add_dashboard with a nested vertical/horizontal layout",
+    "configure_custom_tooltip per pane (pane_index=0 and 1)"
+  ],
+  "findings": [
+    {
+      "key": "ordinal-aggregate-measure-pill",
+      "severity": "workaround",
+      "summary": "The author's discrete SUM(2021 Sales) pill is stored as <column-instance derivation='Sum' name='[sum:...:ok]' type='ordinal'>. The field registry derives Sum instances only with the ':qk' suffix and ordinal declarations only with derivation='None', so that exact Sum+ordinal pair cannot be requested through the public API.",
+      "workaround": "Declare a second calculated field SUM([2021 Sales]) with role=measure, field_type='ordinal'; the registry then emits [usr:...:ok], the ordinal-aggregate form the author corpus also uses (22 instances across dashboards/).",
+      "upstream_pr": null,
+      "upstream_status": "not_filed",
+      "note": "No SDK change is required for this case; recorded as a builder workaround only."
+    },
+    {
+      "key": "published-screenshot-label-offset",
+      "severity": "observation",
+      "summary": "The author's published raster prints each % Difference label one row below its mark from the second row onwards, while the author's workbook XML attaches the text encoding with no per-row offset.",
+      "workaround": "The verifier pins the extract to the printed 2021 pill values and the 2020 dot positions (recovered through a fitted pixel scale) and checks the published label sequence with the documented one-row shift.",
+      "upstream_pr": null,
+      "upstream_status": "not_applicable"
+    }
+  ]
+}
