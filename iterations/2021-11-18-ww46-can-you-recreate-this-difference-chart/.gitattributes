@@ -1,0 +1,2 @@
+# Preserve all frozen case bytes across Windows checkouts, including hashed sources.
+* -text

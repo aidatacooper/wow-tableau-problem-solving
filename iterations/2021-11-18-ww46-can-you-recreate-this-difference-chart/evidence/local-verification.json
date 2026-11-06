@@ -1,0 +1,137 @@
+{
+  "sdk_version": "0.29.0a2",
+  "sdk_module": "C:\\Users\\imgwho\\Desktop\\project\\cwtwb-three-20261029\\src\\cwtwb\\__init__.py",
+  "sdk_commit": "cac8820f26e703c3858253adfa21efd989eb8a78",
+  "sdk_source": "C:\\Users\\imgwho\\Desktop\\project\\cwtwb-three-20261029\\src",
+  "candidate_only": true,
+  "artifact_sha256": "576d7df325bf48b89696eb2b5628b05fa0ec9599a3faba554efb704271d3edf0",
+  "preserved_baseline_files_checked": 11,
+  "raw_rows": 9994,
+  "groups": [
+    {
+      "category": "Furniture",
+      "segment": "Consumer",
+      "previous": 100360.8822,
+      "current": 110217.5279,
+      "difference": 9856.645700000008,
+      "is_loss": false
+    },
+    {
+      "category": "Office Supplies",
+      "segment": "Corporate",
+      "previous": 54231.249,
+      "current": 92605.785,
+      "difference": 38374.536,
+      "is_loss": false
+    },
+    {
+      "category": "Office Supplies",
+      "segment": "Consumer",
+      "previous": 86269.329,
+      "current": 113520.255,
+      "difference": 27250.926000000007,
+      "is_loss": false
+    },
+    {
+      "category": "Technology",
+      "segment": "Consumer",
+      "previous": 110233.68800000001,
+      "current": 108166.917,
+      "difference": -2066.771000000008,
+      "is_loss": true
+    },
+    {
+      "category": "Office Supplies",
+      "segment": "Home Office",
+      "previous": 43439.404,
+      "current": 39971.135,
+      "difference": -3468.2690000000002,
+      "is_loss": true
+    },
+    {
+      "category": "Technology",
+      "segment": "Corporate",
+      "previous": 75613.772,
+      "current": 88544.955,
+      "difference": 12931.183000000005,
+      "is_loss": false
+    },
+    {
+      "category": "Furniture",
+      "segment": "Corporate",
+      "previous": 77261.3408,
+      "current": 60697.0844,
+      "difference": -16564.256400000006,
+      "is_loss": true
+    },
+    {
+      "category": "Furniture",
+      "segment": "Home Office",
+      "previous": 21279.213,
+      "current": 44472.6569,
+      "difference": 23193.443900000002,
+      "is_loss": false
+    },
+    {
+      "category": "Technology",
+      "segment": "Home Office",
+      "previous": 40516.72,
+      "current": 75018.939,
+      "difference": 34502.219,
+      "is_loss": false
+    }
+  ],
+  "positive_scenarios": [
+    "all nine raw groups",
+    "gain/loss/zero/fraction",
+    "2037 rollover",
+    "missing prior year"
+  ],
+  "rejected_mutations": [
+    "reverse-subtraction",
+    "wrong-year-offset",
+    "hardcoded-latest-year",
+    "zero-is-gain",
+    "missing-category",
+    "wrong-gantt-size",
+    "wrong-label",
+    "static-title",
+    "extra-bar-filter",
+    "baseline-three-item-order",
+    "missing-anchor-instance",
+    "dangling-style-reference",
+    "dangling-formula-reference",
+    "changed-packaged-value",
+    "non-null-spacer"
+  ],
+  "contract": {
+    "filter": [
+      "[federated.0ahyg8e1xelf3914bag3r0yukuro].[sum:Calculation_7D13623394594A8EA2FD12CC206CF4A1:qk]",
+      "[federated.0ahyg8e1xelf3914bag3r0yukuro].[sum:Calculation_EE7ECA895B124C15A81061683EA1AFE1:qk]",
+      "[federated.0ahyg8e1xelf3914bag3r0yukuro].[min:Spacer:qk]"
+    ],
+    "emitted_order": [
+      "[federated.0ahyg8e1xelf3914bag3r0yukuro].[sum:Calculation_7D13623394594A8EA2FD12CC206CF4A1:qk]",
+      "[federated.0ahyg8e1xelf3914bag3r0yukuro].[sum:Calculation_EE7ECA895B124C15A81061683EA1AFE1:qk]",
+      "[federated.0ahyg8e1xelf3914bag3r0yukuro].[sum:Calculation_04050AC9B59048A89056F756BA4DF908:qk]",
+      "[federated.0ahyg8e1xelf3914bag3r0yukuro].[min:Spacer:qk]"
+    ],
+    "required_order": [
+      "[federated.0ahyg8e1xelf3914bag3r0yukuro].[sum:Calculation_7D13623394594A8EA2FD12CC206CF4A1:qk]",
+      "[federated.0ahyg8e1xelf3914bag3r0yukuro].[sum:Calculation_EE7ECA895B124C15A81061683EA1AFE1:qk]",
+      "[federated.0ahyg8e1xelf3914bag3r0yukuro].[sum:Calculation_04050AC9B59048A89056F756BA4DF908:qk]",
+      "[federated.0ahyg8e1xelf3914bag3r0yukuro].[min:Spacer:qk]"
+    ],
+    "reference_closure": {
+      "qualified_worksheet_references_checked": 51,
+      "status": "passed"
+    },
+    "sort_contract": "passed",
+    "rendered_spacing": "pending_parent_recapture"
+  },
+  "xsd_errors": [],
+  "compatibility_warnings": [
+    "<string>:2:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'workbook': Missing child element(s). Expected is one of ( referenced-extensions, explain-data )."
+  ],
+  "status": "PASS candidate local contract; rendered spacing and runtime pending"
+}
