@@ -1,0 +1,116 @@
+{
+  "status": "runtime-driven sizing correction implemented and locally validated; new runtime render pending",
+  "sdk_version": "0.29.0a2",
+  "sdk_source": "C:/Users/imgwho/Desktop/project/wow-tableau-problem-solving/scratch/sdk-release-0.29.0a2",
+  "worktree": "C:\\Users\\imgwho\\.t3\\worktrees\\wow-tableau-problem-solving\\t3-cb526742",
+  "branch": "t3/thanksgiving-nfl-games",
+  "commands": [
+    "$env:PYTHONUTF8=\"1\"; $env:PYTHONPATH=\"C:/Users/imgwho/Desktop/project/wow-tableau-problem-solving/scratch/sdk-release-0.29.0a2\"; $env:CWTWB_SRC=$env:PYTHONPATH",
+    "python scripts/case_catalogue.py --write",
+    "python scripts/validate_iteration.py iterations/2021-11-25-ww47-thanksgiving-day-nfl-games",
+    "python -m unittest discover -s tests -v"
+  ],
+  "results": {
+    "iteration_validation": "PASS: build/verifier, phase boundary, metadata and XSD",
+    "business_acceptance": {
+      "raw_games": 100,
+      "packaged_year_rows": 102,
+      "numerical_comparisons": "all packaged game outcomes, score differences, cumulative values and summary values versus independent raw oracle",
+      "mutations_rejected": [
+        "reverse-home-away",
+        "tie-counts-as-win",
+        "loss-sign",
+        "corrupt-cumulative",
+        "wrong-denominator",
+        "wrong-record",
+        "swap-opponent",
+        "remove-missing-year",
+        "remove-stems",
+        "remove-area",
+        "sum-becomes-average",
+        "date-order-descending",
+        "missing-tooltip-query",
+        "missing-dependency",
+        "missing-instance",
+        "wrong-duplicate-index",
+        "wrong-fold-scope",
+        "unsynchronized-fold",
+        "area-axis-omitted",
+        "stem-autoscaling",
+        "pixel-sized-dots",
+        "block-width-stems",
+        "missing-color-legend",
+        "legend-wrong-pane",
+        "color-not-zero-centered",
+        "invalid-custom-number-format"
+      ],
+      "synthetic_cases": [
+        "tie",
+        "null missing game",
+        "loss",
+        "win"
+      ],
+      "artifact_sha256": "e1d36ecd1c04c583c86f7f53c1aadbc495d87ed3dd8cc5731b56f45ee88b52a4",
+      "live_Tableau": "pending"
+    },
+    "XSD": {
+      "schema_available": true,
+      "errors": [],
+      "compatibility_warnings": [
+        "<string>:2:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'workbook': Missing child element(s). Expected is one of ( referenced-extensions, explain-data )."
+      ]
+    },
+    "repository_tests": "83 PASS"
+  },
+  "sizing_changes": {
+    "Bar": {
+      "mark_sizing": "marks-scaling-off",
+      "native_size": 0.01
+    },
+    "Circle": {
+      "mark_sizing": "marks-scaling-off",
+      "native_size": 1.42
+    },
+    "palette": "orange-blue-diverging centered at zero",
+    "legend": "native color zone bound to Circle pane 2 SUM(Score Difference)",
+    "axis": "Tableau * custom Win/Loss/Tie format; duplicate axis hidden"
+  },
+  "sha256": {
+    "outputs/baseline-a2-workbook.twbx": "ed501398d41ae1b8a4c7f1c459200d837063084dabf0cd4eaa7d77ef93b458a1",
+    "outputs/e949-runtime-workbook.twbx": "e949cce9c114576160e020165575d70170cc09127788afce946e6041334d283e",
+    "outputs/replicated-workbook.twbx": "e1d36ecd1c04c583c86f7f53c1aadbc495d87ed3dd8cc5731b56f45ee88b52a4",
+    "build_replication.py": "9d4b940b27575b356e009111f4675f731af3e96d23925b1e1c3e3c9737f3f0ff",
+    "verify_replication.py": "7a74f81e8ea8bb7a6b5016ef03e2b2a8aafd19c764ce3a671432d72431e89a4a",
+    "case.yaml": "a17cdae8a8c848619f877b0690a1639ac79ff87fa51992391470ad339d7178f2",
+    "analysis.md": "9d8f2c4ac2b3b719b41ac2e1ae8ec7e7f7f370522b816744ee518d9396e1b688",
+    "evidence/verification.json": "f32efef417b7b5cb4eefa6460547c30e6b30cc2d18ed756c0c324cd628693e1c",
+    "evidence/xsd.json": "b93ce144ac4239d20bd7bb83d1ed27fcf80e8c7cd6a59c3cbc204be9df1ffc78",
+    "evidence/validation.log": "11dd274ea9a09c7a7c89a2e2dba6a48772eabad79620bf9bd430fdaf749f98ed",
+    "evidence/repository-tests.log": "fbcf3b269f6d64959958792627c1ea4454e58596ec1880625617728c0be9f270",
+    "evidence/runtime-e949/manifest.json": "81e1144c51fa871cf34075b7061139ac6594509b18758d7c97c5e2a0223eb557"
+  },
+  "prior_runtime_evidence": {
+    "workbook_sha256": "e949cce9c114576160e020165575d70170cc09127788afce946e6041334d283e",
+    "archive_workbook": "outputs/e949-runtime-workbook.twbx",
+    "desktop": "LOADED reported by parent for this exact SHA",
+    "cloud": "default screenshot captured by parent; no live interaction proof",
+    "visual_findings": "Filled-width bar blocks and tiny circles fail readable lollipop acceptance.",
+    "files": {
+      "evidence\\runtime-e949\\cloud-author.png": "21e876ee79eb4ddb8eed6f41e5dccb73c05b16043a29acae24e98ace014c3040",
+      "evidence\\runtime-e949\\cloud-replica.png": "2dddf7c819a321e0362c900861477a10e0f42b5bca2ccc3ff0208d7c22edb44f",
+      "evidence\\runtime-e949\\cloud-request.json": "903fc23c46b341f28452c686ebebc8a9a73c5d86262a7fb53869b29cc5d0f4fc",
+      "evidence\\runtime-e949\\cloud-verification.json": "aa159861e61dee564b5e6e99321f7dc2d51d2fee776edaa1efa8c5adbf57b09e",
+      "evidence\\runtime-e949\\handoff.json": "b342472f8eeec87c946e013927a741322ef0ca92929e1c6233f743c45be861b3",
+      "evidence\\runtime-e949\\validation.log": "6a99217d99a2facddca680ac9fda989cb80e7bde275897194a2cd9fcf54c7882",
+      "evidence\\runtime-e949\\verification.json": "3ef2339659ccd9b966427880e1682eeedc64b2a1bc02a84b5748739c5630d432",
+      "evidence\\runtime-e949\\xsd.json": "b93ce144ac4239d20bd7bb83d1ed27fcf80e8c7cd6a59c3cbc204be9df1ffc78"
+    }
+  },
+  "parent_gates": [
+    "Desktop and corpus for new SHA",
+    "Cloud screenshot: verify thin stems, visible circles, legend and Win/Tie/Loss labels",
+    "Live tooltip and selection events",
+    "Visual and independent acceptance"
+  ],
+  "freeze": "Hashes recorded after final validation. No further builds. Prior baseline and e949 runtime workbook/evidence preserved byte-for-byte. No new Desktop/Cloud execution or visual approval."
+}

@@ -1,0 +1,7 @@
+*.csv -text
+*.png -text
+*.twbx -text
+*.hyper -text
+evidence/** -text
+outputs/*.log -text
+*.py -text

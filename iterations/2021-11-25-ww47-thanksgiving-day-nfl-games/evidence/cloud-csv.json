@@ -1,0 +1,40 @@
+{
+  "captured_at": "2026-10-29T15:39:05.598240+00:00",
+  "source_hashes": {
+    "author": "25ab68366dc4f5259de52de2f315a43bf9eb0de3fb4421ee4ae1e4bb6208c53b",
+    "replica": "e1d36ecd1c04c583c86f7f53c1aadbc495d87ed3dd8cc5731b56f45ee88b52a4"
+  },
+  "scope": "REST worksheet data, no browser events",
+  "records": [
+    {
+      "role": "replica",
+      "view": "Game Results",
+      "state": "default",
+      "parameters": {},
+      "filters": {},
+      "path": "outputs/runtime-replica-game-results-default.csv",
+      "sha256": "99d5ac2a3e413da4392a8b255cbe64b416281be67a02e0074c406971c90169f1",
+      "bytes": 35371
+    },
+    {
+      "role": "replica",
+      "view": "Thanksgiving NFL Games",
+      "state": "default",
+      "parameters": {},
+      "filters": {},
+      "path": "outputs/runtime-replica-thanksgiving-nfl-games-default.csv",
+      "sha256": "99d5ac2a3e413da4392a8b255cbe64b416281be67a02e0074c406971c90169f1",
+      "bytes": 35371
+    },
+    {
+      "role": "author",
+      "view": "Data",
+      "state": "default",
+      "parameters": {},
+      "filters": {},
+      "path": "outputs/runtime-author-data-default.csv",
+      "sha256": "86991ca2d48b067b9cc9be315e1601a41b2c11831d5385a26daf1ebd21139fa8",
+      "bytes": 64962
+    }
+  ]
+}
