@@ -1,0 +1,81 @@
+{
+  "status": "one-sheet local implementation complete; parent runtime gates pending",
+  "sdk_version": "0.29.0a2",
+  "sdk_source": "C:/Users/imgwho/Desktop/project/wow-tableau-problem-solving/scratch/sdk-release-0.29.0a2",
+  "worktree": "C:\\Users\\imgwho\\.t3\\worktrees\\wow-tableau-problem-solving\\t3-cb526742",
+  "branch": "t3/thanksgiving-nfl-games",
+  "commands": [
+    "$env:PYTHONUTF8=\"1\"; $env:PYTHONPATH=\"C:/Users/imgwho/Desktop/project/wow-tableau-problem-solving/scratch/sdk-release-0.29.0a2\"; $env:CWTWB_SRC=$env:PYTHONPATH",
+    "python scripts/case_catalogue.py --write",
+    "python scripts/validate_iteration.py iterations/2021-11-25-ww47-thanksgiving-day-nfl-games",
+    "python iterations/2021-11-25-ww47-thanksgiving-day-nfl-games/verify_replication.py --sdk-probe",
+    "python -m unittest discover -s tests -v"
+  ],
+  "results": {
+    "iteration_validation": "PASS (build, metadata, phase boundary, verifier, XSD)",
+    "XSD": {
+      "schema_available": true,
+      "errors": [],
+      "compatibility_warnings": [
+        "<string>:2:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'workbook': Missing child element(s). Expected is one of ( referenced-extensions, explain-data )."
+      ]
+    },
+    "business_acceptance": {
+      "raw_games": 100,
+      "packaged_year_rows": 102,
+      "numerical_comparisons": "all packaged game outcomes, score differences, cumulative values and summary values versus independent raw oracle",
+      "mutations_rejected": [
+        "reverse-home-away",
+        "tie-counts-as-win",
+        "loss-sign",
+        "corrupt-cumulative",
+        "wrong-denominator",
+        "wrong-record",
+        "swap-opponent",
+        "remove-missing-year",
+        "remove-stems",
+        "remove-area",
+        "sum-becomes-average",
+        "date-order-descending",
+        "missing-tooltip-query",
+        "missing-dependency",
+        "missing-instance",
+        "wrong-duplicate-index",
+        "wrong-fold-scope",
+        "unsynchronized-fold",
+        "area-axis-omitted"
+      ],
+      "synthetic_cases": [
+        "tie",
+        "null missing game",
+        "loss",
+        "win"
+      ],
+      "artifact_sha256": "e949cce9c114576160e020165575d70170cc09127788afce946e6041334d283e",
+      "live_Tableau": "pending"
+    },
+    "repository_tests": "83 PASS",
+    "sdk_probe": "PASS: selective axis folding supported; prior impossibility claim withdrawn"
+  },
+  "sha256": {
+    "outputs/baseline-a2-workbook.twbx": "ed501398d41ae1b8a4c7f1c459200d837063084dabf0cd4eaa7d77ef93b458a1",
+    "outputs/replicated-workbook.twbx": "e949cce9c114576160e020165575d70170cc09127788afce946e6041334d283e",
+    "build_replication.py": "3ce0a96072cb55986b9261b10089820f95b45d81623247f1d02b6073b2f48c71",
+    "verify_replication.py": "c6a4bb136e764a08388b565a3e768fd8a940369428dca621dd690f64eea678a4",
+    "evidence/prior-two-sheet-sdk-probe.log": "4009d9423df777f552bbf1e95812e6b6bdb4f29690410a17659d3951d5c54a71",
+    "evidence/repository-tests.log": "ec3ac03465993e0f91b4f2f389413890e500c2a67868c246eec01698b2654c82",
+    "evidence/sdk-probe.log": "b3de7da2db13c7f043d1067b91c16ee282ce50f075f11b354f6a21bd79552fe3",
+    "evidence/validation.log": "6a99217d99a2facddca680ac9fda989cb80e7bde275897194a2cd9fcf54c7882"
+  },
+  "unresolved": [
+    "Parent Desktop load and corpus",
+    "Parent live selection/tooltip and visual review"
+  ],
+  "prior_runtime_evidence": {
+    "sha256": "5d1254219800580ea6c82feb0124e7fd3ab37e87c29b2efa76af8791996e9d78",
+    "desktop": "LOADED reported by parent for old artifact only",
+    "visual": "no approval",
+    "applies_to_current": false
+  },
+  "freeze": "Final primary hash recorded after successful final validation; no further build performed. Original baseline archive unchanged. Prior run history preserved; two-sheet evidence archived as historical."
+}
