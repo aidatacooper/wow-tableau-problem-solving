@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "generated_from": "iterations/*/case.yaml",
-  "active_case_count": 116,
+  "active_case_count": 127,
   "legacy_case_ids": {
     "donna-2019-07-18-63877b35d19a": "wow-2019-ww29-high-orders",
     "donna-2019-07-25-59a0a144b25b": "wow-2019-ww30-navigation-kpi",
@@ -6309,6 +6309,645 @@
       "tested_sdk_version": "0.27.1"
     },
     {
+      "case_id": "wow-2021-ww29-can-you-rebuild-the-olympic-schedule",
+      "legacy_case_ids": {},
+      "iteration_id": "2021-07-23-ww29-can-you-rebuild-the-olympic-schedule",
+      "article_date": "2021-07-23",
+      "challenge_year": 2021,
+      "challenge_week": 29,
+      "challenge_date": "2021-07-20",
+      "date_evidence": {
+        "article_date": "Article-local HTML 'Published:' calendar date, retained in evidence/article-date.json.",
+        "challenge": "Official 2021 Week 29 article title.",
+        "challenge_date": "Official WordPress REST date field retained in evidence/official-challenge-date.json."
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2021w29tab/",
+          "wordpress_post_id": 5672
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2021/07/23/can-you-rebuild-the-olympic-schedule/",
+          "path": "posts/2021-07-23-Can_you_rebuild_the_Olympic_Schedule.html",
+          "sha256": "99828d8fd3e6fff8b30b6645b2d4fe563591a35b3f3fc24f622adf1212c2d648"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2021_07_21_WW29_Olympic_Schedule/2021_07_21_WW29_Olympic_Schedule",
+          "filename": "2021_07_21_WW29_Olympic_Schedule.twbx",
+          "sha256": "01db3d03f05726c52c80c56ba9a50c91a21bc7b28b02f12d1a366f5dffe0e30b"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "workaround",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "evidence/article-date.json",
+        "evidence/build-provenance.json",
+        "evidence/cloud-request.json",
+        "evidence/functional-verification.json",
+        "evidence/official-challenge-date.json",
+        "evidence/sdk-baseline.json",
+        "inputs/source-lock.json",
+        "evidence/desktop-verification.json",
+        "evidence/cloud-verification.json",
+        "evidence/cloud-data-verification.json",
+        "evidence/visual-review.md",
+        "evidence/replica-data-exports.json"
+      ],
+      "notes": [
+        "The extract carries case-variant duplicates (\"Diving\"/\"diving\", \"Football\"/\"football\", \"Rugby\"/\"rugby\", \"Volleyball\"/\"volleyball\"), so the raw domains are 36 sport groups and 51 sports rather than the article's 34 / 48 cleaned labels. The data is reproduced as published.",
+        "87 rows are Victory Ceremony events; the schedule excludes them but the FIXED LoDs still group by the flag, exactly as the author's workbook does.",
+        "X-Axis places qualifying marks at 3 and finals at 7 only when a sport-day has both; a finals-only or qualifying-only sport-day stays centred at 5."
+      ],
+      "metadata": "iterations/2021-07-23-ww29-can-you-rebuild-the-olympic-schedule/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.29.0a1"
+    },
+    {
+      "case_id": "wow-2021-ww30-let-s-go-streaking",
+      "legacy_case_ids": {},
+      "iteration_id": "2021-07-29-ww30-let-s-go-streaking",
+      "article_date": "2021-07-29",
+      "challenge_year": 2021,
+      "challenge_week": 30,
+      "challenge_date": "2021-07-28",
+      "date_evidence": {
+        "article_date": "Article-local HTML 'Published:' calendar date, retained in evidence/article-date.json.",
+        "challenge": "Official 2021 Week 30 article title.",
+        "challenge_date": "Official WordPress REST date field retained in evidence/official-challenge-date.json."
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2021w30tab/",
+          "wordpress_post_id": 5737
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2021/07/29/lets-go-streaking/",
+          "path": null,
+          "sha256": "5049ea2b525843c7d7e22ce39075084ac646c05aa8824045a0f2b5ece5163de1"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2021_07_28_WW30_LetsGoStreaking/2021_07_28_WW30_LetsGoStreaking",
+          "filename": "2021_07_28_WW30_LetsGoStreaking.twbx",
+          "sha256": "34c9ffe6586e25741804b8b5e7f8c3d96b89e719c86e5fed5b233ab85c185a93"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "workaround",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "evidence/article-date.json",
+        "evidence/build-provenance.json",
+        "evidence/cloud-request.json",
+        "evidence/functional-verification.json",
+        "evidence/official-challenge-date.json",
+        "evidence/sdk-baseline.json",
+        "evidence/visual-review.md",
+        "inputs/source-lock.json",
+        "evidence/sdk-final.json",
+        "evidence/desktop-verification.json",
+        "evidence/cloud-verification.json",
+        "evidence/cloud-data-verification.json"
+      ],
+      "notes": [
+        "The streak chain only works because every table calculation is addressed by Order Date Month alone; that is what restarts LOOKUP/PREVIOUS_VALUE per Sub-Category row.",
+        "Sort is a hidden discrete -Longest Streak pill in front of Sub-Category, so the list is ordered by streak length while the visible chart keeps the author's layout.",
+        "The colour ramp is pinned to a fixed 0..5 domain in five steps; a data-derived domain would normalise 2..5 and flatten the legend.",
+        "Final Cloud and independent oracle evidence supersedes earlier static-only assumptions; see evidence/cloud-data-verification.json and evidence/visual-review.md."
+      ],
+      "metadata": "iterations/2021-07-29-ww30-let-s-go-streaking/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.29.0a1"
+    },
+    {
+      "case_id": "wow-2021-ww31-can-you-find-the-needle-in-the-haystack",
+      "legacy_case_ids": {},
+      "iteration_id": "2021-08-05-ww31-can-you-find-the-needle-in-the-haystack",
+      "article_date": "2021-08-05",
+      "challenge_year": 2021,
+      "challenge_week": 31,
+      "challenge_date": "2021-08-03",
+      "date_evidence": {
+        "article_date": "Article-local HTML 'Published:' calendar date, retained in evidence/article-date.json.",
+        "challenge": "Official 2021 Week 31 article title.",
+        "challenge_date": "Official WordPress REST date field retained in evidence/official-challenge-date.json."
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2021w31tab/",
+          "wordpress_post_id": 5745
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2021/08/05/can-you-find-the-needle-in-the-haystack/",
+          "path": null,
+          "sha256": "1fb77f63be5fa25bcd30a001999cb6d784f0a11ec83abfc77bce74bd7f3122f4"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2021_08_04_WW31_Unprofitable_High_Sales/2021_08_04_WW31_Unprofitable_High_Sales",
+          "filename": "2021_08_04_WW31_Unprofitable_High_Sales.twbx",
+          "sha256": "ec62ed8f87c675ca9a1b84387807171c4ed226e79d9120438e20b4ef9c4e8c4b"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "workaround",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "evidence/article-date.json",
+        "evidence/build-provenance.json",
+        "evidence/cloud-request.json",
+        "evidence/cloud-verification.json",
+        "evidence/functional-verification.json",
+        "evidence/official-challenge-date.json",
+        "evidence/sdk-baseline.json",
+        "evidence/visual-review.md",
+        "inputs/source-lock.json",
+        "evidence/desktop-verification.json",
+        "evidence/cloud-data-verification.json"
+      ],
+      "notes": [
+        "The brief says products must 'have a lower than average customer count', but the author's own viz keeps all 13 top-50-and-unprofitable products and only colours them by that comparison (8 below average, 5 above). The replica follows the author's viz; the single filter is the 13-product intersection.",
+        "'Higher' is grey and 'Lower' is orange in the author palette, so the highlighted (orange) bars are the products with a lower than average customer count.",
+        "The unprofitable set's explicit member list is computed from the locked Hyper extract inside the builder, not hard-coded, so it stays data-derived."
+      ],
+      "metadata": "iterations/2021-08-05-ww31-can-you-find-the-needle-in-the-haystack/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.29.0a1"
+    },
+    {
+      "case_id": "wow-2021-ww32-visualise-our-survey-data",
+      "legacy_case_ids": {},
+      "iteration_id": "2021-08-12-ww32-visualise-our-survey-data",
+      "article_date": "2021-08-12",
+      "challenge_year": 2021,
+      "challenge_week": 32,
+      "challenge_date": "2021-08-11",
+      "date_evidence": {
+        "article_date": "Declared article publication date in iteration_id",
+        "challenge": "Explicit challenge_year; week declared in iteration_id",
+        "challenge_date": "Explicit official challenge publication date and URL"
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2021w32tab/"
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2021/08/12/visualise-our-survey-data/",
+          "path": null,
+          "sha256": "d3284b573359c6d11cf29461b14a93874e4c5d8e88f6243c38188f3295b2cd6d"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2021_08_11_WW32_WOW_Survey_Data/2021_08_11_WOW32_Survey_Data",
+          "filename": "2021_08_11_WW32_WOW_Survey_Data.twbx",
+          "sha256": "cbfb2e37b29e6d38d03d5c573ebc998556bc2f33dda28af6064e2efe8764ae52"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "workaround",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "inputs/source-lock.json",
+        "evidence/sdk-baseline.json",
+        "evidence/cloud-request.json",
+        "outputs/independent-verification.json",
+        "evidence/desktop-verification.json",
+        "evidence/cloud-verification.json",
+        "evidence/replica-data-exports.json",
+        "evidence/cloud-data-verification.json",
+        "evidence/build-provenance.json",
+        "evidence/visual-review.md",
+        "evidence/sdk-workaround.json"
+      ],
+      "notes": [
+        "Cloud REST images cover default, Tableau and PBI states. All five replica sheets are checked against the independent raw-data oracle. Original author hidden sheets were not modified. Browser clicks were not executed; filter/highlight interactions are checked as serialized artifact contracts."
+      ],
+      "metadata": "iterations/2021-08-12-ww32-visualise-our-survey-data/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.29.0a1"
+    },
+    {
+      "case_id": "wow-2021-ww33-can-you-create-a-moving-average-chart-with-a-focus-on-selected-subcategories",
+      "legacy_case_ids": {},
+      "iteration_id": "2021-08-29-ww33-can-you-create-a-moving-average-chart-with-a-focus-on-selected-subcategories",
+      "article_date": "2021-08-29",
+      "challenge_year": 2021,
+      "challenge_week": 33,
+      "challenge_date": "2021-08-17",
+      "date_evidence": {
+        "article_date": "Article-local HTML 'Published:' calendar date, retained in evidence/article-date.json.",
+        "challenge": "Official 2021 Week 33 article title.",
+        "challenge_date": "Official WordPress REST date field retained in evidence/official-challenge-date.json."
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2021w33tab/",
+          "wordpress_post_id": 5821
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2021/08/29/can-you-create-a-moving-average-chart-with-a-focus-on-selected-subcategories/",
+          "path": null,
+          "sha256": "9a6f06fbe8e9874df392aa3c73bef3a7c5fd1a81d6435ce8d00d68d88a677273"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2021_08_18_WW_33_Moving_Avg/2021_08_18_WW33_Moving_Avg",
+          "filename": "2021_08_18_WW_33_Moving_Avg.twbx",
+          "sha256": "3b5b7f5446eb0dab12cea982cfffb85bb6d5c9ce389699adef9a5cb7abf279a1"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "pass",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "evidence/article-date.json",
+        "evidence/build-provenance.json",
+        "evidence/cloud-request.json",
+        "evidence/functional-verification.json",
+        "evidence/official-challenge-date.json",
+        "evidence/sdk-baseline.json",
+        "inputs/source-lock.json",
+        "evidence/sdk-final.json",
+        "evidence/desktop-verification.json",
+        "evidence/cloud-verification.json",
+        "evidence/cloud-data-verification.json",
+        "evidence/visual-review.md",
+        "evidence/replica-data-exports.json",
+        "evidence/author-data-exports.json"
+      ],
+      "notes": [
+        "The article text says three Sub-Categories are grouped into Misc; the author workbook groups five (Art, Envelopes, Fasteners, Labels, Supplies), which is what the published visualisation shows and what is rebuilt here.",
+        "pPrior counts the current month, so the WINDOW_AVG start offset is (-1*[pPrior])+1; with the default 3 the Accessories June 2018 value is the mean of April..September 2018, matching the article's worked example.",
+        "The shaded band is the nested WINDOW_MAX/WINDOW_MIN of Moving Avg addressed by Sub-Category (group) with month as nested addressing.",
+        "Final Cloud and independent oracle evidence supersedes earlier static-only assumptions; see evidence/cloud-data-verification.json and evidence/visual-review.md.",
+        "Earlier 597-row sparse oracle was corrected: published Tableau Data views densify 48 months x 13 groups = 624 rows; WINDOW_AVG ignores null values within the calendar window. The original author CSV was available and verified unchanged."
+      ],
+      "metadata": "iterations/2021-08-29-ww33-can-you-create-a-moving-average-chart-with-a-focus-on-selected-subcategories/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.29.0a1"
+    },
+    {
+      "case_id": "wow-2021-ww34-how-many-consecutive-starts",
+      "legacy_case_ids": {},
+      "iteration_id": "2021-08-31-ww34-how-many-consecutive-starts",
+      "article_date": "2021-08-31",
+      "challenge_year": 2021,
+      "challenge_week": 34,
+      "challenge_date": "2021-08-24",
+      "date_evidence": {
+        "article_date": "Article-local HTML 'Published:' calendar date, retained in evidence/article-date.json.",
+        "challenge": "Official 2021 Week 34 article title, \"2021 Week 34 - How Many Consecutive Starts?\".",
+        "challenge_date": "Official WordPress REST date field retained in evidence/official-challenge-date.json."
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2021-week-34-how-many-consecutive-starts/",
+          "wordpress_post_id": 5854
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2021/08/31/how-many-consecutive-starts/",
+          "path": null,
+          "sha256": "1be289c908d2c9cc04ef40f0a83e19caf41af8b05d35c78a12e5478d8a25e48c"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2021_08_25_WW34_Consecutive_Starts/2021_08_25_WW34_Consecutive_Starts",
+          "filename": "2021_08_25_WW34_Consecutive_Starts.twbx",
+          "sha256": "a4c489ea4505a695b26f847783254b83d1309b3422fe0e1253d368448894090a"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "workaround",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "evidence/article-date.json",
+        "evidence/build-provenance.json",
+        "evidence/cloud-request.json",
+        "evidence/functional-verification.json",
+        "evidence/official-challenge-date.json",
+        "evidence/sdk-baseline.json",
+        "inputs/source-lock.json",
+        "evidence/sdk-final.json",
+        "evidence/author-data-exports.json",
+        "evidence/replica-data-exports.json",
+        "outputs/independent-verification.json",
+        "evidence/desktop-verification.json",
+        "evidence/cloud-verification.json",
+        "evidence/cloud-data-verification.json",
+        "evidence/visual-review.md"
+      ],
+      "notes": [
+        "The extract also carries weeks 28-32 (334 rows); the article excludes them and both replica worksheets keep the author's 1..17 in-range filter.",
+        "Season and Week arrive from the extract as integers, which the SDK registers as measures, so the workbook re-exposes Season, Week and Player Id as explicit discrete calculated fields, matching the article's \"change to discrete\" steps.",
+        "Each team plays 240 regular-season games (15 seasons x 16 games), so the dense INDEX axis runs 1..240 and no real date axis is needed.",
+        "Frozen runtime repair passes 65040 Cloud field checks: replica Data/Viz all 7680 games; untouched author Data subset 720 games. See sdk-final and visual-review."
+      ],
+      "metadata": "iterations/2021-08-31-ww34-how-many-consecutive-starts/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.29.0a1"
+    },
+    {
+      "case_id": "wow-2021-ww35-how-much-change-has-occurred",
+      "legacy_case_ids": {},
+      "iteration_id": "2021-09-02-ww35-how-much-change-has-occurred",
+      "article_date": "2021-09-02",
+      "challenge_year": 2021,
+      "challenge_week": 35,
+      "challenge_date": "2021-09-01",
+      "date_evidence": {
+        "article_date": "Article-local HTML 'Published:' calendar date, retained in evidence/article-date.json.",
+        "challenge": "Official 2021 Week 35 article title.",
+        "challenge_date": "Official WordPress REST date field retained in evidence/official-challenge-date.json."
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2021w35/",
+          "wordpress_post_id": 5872
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2021/09/02/how-much-change-has-occurred/",
+          "path": null,
+          "sha256": "c465e03c6ba717a739dd61f08f6b03670444085b5316b6e90814538e8ee86e37"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2021_09_01_WW35_Change_In_Sales/2021_09_01_WW35_Change_in_Sales",
+          "filename": "2021_09_01_WW35_Change_In_Sales.twbx",
+          "sha256": "1c10a8d231a60ab138de898ad370bbc2e3a47d86f4d75c9e4cd336abb79e20cf"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "workaround",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "evidence/article-date.json",
+        "evidence/build-provenance.json",
+        "evidence/cloud-request.json",
+        "evidence/functional-verification.json",
+        "evidence/official-challenge-date.json",
+        "evidence/sdk-baseline.json",
+        "evidence/visual-review.md",
+        "inputs/source-lock.json",
+        "evidence/replica-data-exports.json",
+        "evidence/desktop-verification.json",
+        "evidence/cloud-verification.json",
+        "evidence/cloud-data-verification.json"
+      ],
+      "notes": [
+        "The packaged extract is Orders only (Order Date, Sub-Category, Sales) covering 2018-2021, so the 2020/2021 window is an observable filter, not a data limit.",
+        "2021 Sales and 2020 Sales are FIXED LoDs scoped to Sub-Category only; the year window is a context filter so it cannot distort the fixed scope.",
+        "The author's blue 2021 pill is a discrete aggregate. cwtwb cannot emit Sum+ordinal instances, so a second field SUM([2021 Sales]) declared ordinal is used and resolves to usr:...:ok.",
+        "The author's published raster prints each % Difference label one row below its mark (13 of 14 shifted labels match the next row); the author's workbook XML has no per-row offset, so the workbook is correct and only the image is misaligned. The verifier pins the extract to the printed 2021 pills and the 2020 dot positions and checks the published label sequence with that shift.",
+        "verification_status stays pending and functional_status stays partial until the coordinator's serial Desktop and Cloud gates pass."
+      ],
+      "metadata": "iterations/2021-09-02-ww35-how-much-change-has-occurred/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.29.0a1"
+    },
+    {
+      "case_id": "wow-2021-ww36-when-do-extracts-run",
+      "legacy_case_ids": {},
+      "iteration_id": "2021-09-12-ww36-when-do-extracts-run",
+      "article_date": "2021-09-12",
+      "challenge_year": 2021,
+      "challenge_week": 36,
+      "challenge_date": "2021-09-07",
+      "date_evidence": {
+        "article_date": "index.json publication date; matches the post URL",
+        "challenge": "Explicit challenge_year and week declared in iteration_id",
+        "challenge_date": "Official Workout Wednesday 2021w36 challenge page (https://www.workout-wednesday.com/2021w36/)"
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2021w36/"
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2021/09/12/when-do-extracts-run-during-the-day/",
+          "path": null,
+          "sha256": null
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/When_Do_Extracts_Run_During_The_Day/WhenDoExtractsRunDuringTheDay",
+          "filename": "When_Do_Extracts_Run_During_The_Day.twbx",
+          "sha256": "f1a462438deb44e088f9435912345fdb6d181315305885d68230b4c2314e8eab"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "pass",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "inputs/source-lock.json",
+        "evidence/data-contract.json",
+        "evidence/workbook-inventory.json",
+        "evidence/validation.json",
+        "evidence/cloud-request.json",
+        "evidence/desktop-verification.json",
+        "evidence/cloud-verification.json",
+        "evidence/cloud-data-verification.json",
+        "evidence/visual-review.md",
+        "evidence/build-provenance.json"
+      ],
+      "notes": [
+        "Rebuilt with cwtwb 0.29.0a1 from the packaged Hyper extract using public SDK APIs only; the builder never opens the author TWB/TWBX.",
+        "Two author copies (Created At Baseline (copy) using TODAY(), and the non-normalised Waiting Time (copy)) are dead fields in the shipped workbook and are not reproduced.",
+        "The Data crosstab is kept, as the author shipped it, but hidden.",
+        "Readable field names come from pass-through calculated aliases; cwtwb has no public caption setter, so the single datasource keeps the template caption \"Sample _ Superstore (Simple)\". Cosmetic delta only.",
+        "The author's manual sort dictionary on Key Label is expressed as a descending sort by Key Order, which renders Waiting before Processing.",
+        "Functional and visual status stay pending until the root Desktop load gate and the Cloud author/replica comparison run."
+      ],
+      "metadata": "iterations/2021-09-12-ww36-when-do-extracts-run/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.29.0a1"
+    },
+    {
+      "case_id": "wow-2021-ww38-can-you-quickly-tell-the-net-change-between-two-dates",
+      "legacy_case_ids": {},
+      "iteration_id": "2021-09-23-ww38-can-you-quickly-tell-the-net-change-between-two-dates",
+      "article_date": "2021-09-23",
+      "challenge_year": 2021,
+      "challenge_week": 38,
+      "challenge_date": "2021-09-21",
+      "date_evidence": {
+        "article_date": "Archived article Published heading: evidence/article-date.json",
+        "challenge": "Official 2021 W38 title in saved intake",
+        "challenge_date": "Official WordPress API date: evidence/official-challenge-date.json"
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/tab2021w38/",
+          "wordpress_post_id": 6004
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2021/09/23/can-you-quickly-tell-the-net-change-between-two-dates/",
+          "path": null,
+          "sha256": "d0c4f0092b69606885f363d51278d8390a4a9e76ece284b4a493f8b36bebee90"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2021_09_22_WW38_Daily_Sales_Tracker/2021_09_22_WW38_Daily_Sales_Tracker",
+          "filename": "2021_09_22_WW38_Daily_Sales_Tracker.twbx",
+          "sha256": "c9c78821f394e504700ba5e1ac6dcc004abc9915569c7a912112d97e57a03f2b"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "workaround",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "inputs/source-lock.json",
+        "evidence/article-date.json",
+        "evidence/official-challenge-date.json",
+        "evidence/sdk-baseline.json",
+        "evidence/build-provenance.json",
+        "evidence/cloud-request.json",
+        "outputs/independent-verification.json",
+        "outputs/expected-range-states.json",
+        "evidence/sdk-final.json",
+        "evidence/author-data-exports.json",
+        "evidence/replica-data-exports.json",
+        "evidence/desktop-verification.json",
+        "evidence/cloud-verification.json",
+        "evidence/cloud-data-verification.json",
+        "evidence/visual-review.md"
+      ],
+      "notes": [
+        "Local static and independent raw-data checks do not prove Tableau runtime rendering; pending runtime gates are intentional.",
+        "KPI endpoints are first/last trading dates within the requested range, not zero-filled calendar boundary dates."
+      ],
+      "metadata": "iterations/2021-09-23-ww38-can-you-quickly-tell-the-net-change-between-two-dates/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.29.0a1"
+    },
+    {
+      "case_id": "wow-2021-ww40-can-you-make-stacked-bar-charts-easier-to-compare",
+      "legacy_case_ids": {},
+      "iteration_id": "2021-10-08-ww40-can-you-make-stacked-bar-charts-easier-to-compare",
+      "article_date": "2021-10-08",
+      "challenge_year": 2021,
+      "challenge_week": 40,
+      "challenge_date": "2021-10-06",
+      "date_evidence": {
+        "article_date": "Declared article publication date in iteration_id",
+        "challenge": "Explicit challenge_year; week declared in iteration_id",
+        "challenge_date": "Explicit official challenge publication date and URL"
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/tab2021w40/"
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2021/10/08/can-you-make-stacked-bar-charts-easier-to-compare/",
+          "path": "posts/2021-10-08-Can_you_make_stacked_bar_charts_easier_to_compare.html",
+          "sha256": "eb843030a5fac64cb8812c0a3f978ad1dff0cb92eb481d31231b2bed28af0467"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2021_10_06_WW40_Compare_Stacked_Bar_Charts/2021_10_06_WW40_Compare_Stacked_Bar_Charts",
+          "filename": "2021_10_06_WW40_Compare_Stacked_Bar_Charts.twbx",
+          "sha256": "22a46422e2cce4b3b7a94b8b7b3c28d35d7ba930b76776f219083c341f7b4684"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "pass",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "inputs/source-lock.json",
+        "evidence/article-date.json",
+        "evidence/official-challenge-date.json",
+        "evidence/sdk-baseline.json",
+        "evidence/functional-verification.json",
+        "evidence/cloud-request.json",
+        "evidence/build-provenance.json",
+        "evidence/sdk-final.json",
+        "evidence/replica-data-exports.json",
+        "evidence/author-data-exports.json",
+        "evidence/desktop-verification.json",
+        "evidence/cloud-verification.json",
+        "evidence/cloud-data-verification.json",
+        "evidence/visual-review.md"
+      ],
+      "notes": [
+        "Original author parameter caption pSelectedCategpry contains a typo; retained to allow identical Cloud parameter overrides.",
+        "Native author sort is descending SUM(Sort): selected Category is zero; other categories use their row counts. Do not substitute ascending category name order.",
+        "Final Desktop LOADED and three Cloud parameter states pass. Original author exposes dashboard only, so unchanged author screenshots are compared with replica CSV and the independent raw-extract oracle. Category instruction and colour key are visibly present."
+      ],
+      "metadata": "iterations/2021-10-08-ww40-can-you-make-stacked-bar-charts-easier-to-compare/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.29.0a1"
+    },
+    {
       "case_id": "wow-2021-ww42-can-you-use-set-actions-to-create-a-reference-date-range",
       "legacy_case_ids": {},
       "iteration_id": "2021-10-21-ww42-can-you-use-set-actions-to-create-a-reference-date-range",
@@ -6374,6 +7013,72 @@
         "Distinct-month arithmetic average is intentional; donut wedge order differs from author, which does not change rank colors or totals."
       ],
       "metadata": "iterations/2021-10-21-ww42-can-you-use-set-actions-to-create-a-reference-date-range/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.29.0a2"
+    },
+    {
+      "case_id": "wow-2021-ww43-filtering-table-calcs",
+      "legacy_case_ids": {},
+      "iteration_id": "2021-10-28-ww43-filtering-table-calcs",
+      "article_date": "2021-10-28",
+      "challenge_year": 2021,
+      "challenge_week": 43,
+      "challenge_date": "2021-10-26",
+      "date_evidence": {
+        "article_date": "Declared article publication date in iteration_id",
+        "challenge": "Explicit challenge_year; week declared in iteration_id",
+        "challenge_date": "Workout Wednesday WordPress record 6176: #WOW2021 | 43 | Filtering Table Calcs, published 2021-10-26. Explicitly overrides erroneous first 2026 intake candidate."
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/wow2021w43tab/"
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2021/10/28/filtering-table-calcs/",
+          "path": null,
+          "sha256": "83b5352d0e118451a554d5f4fe687312bac8d802fe7ec5a418516ea389de9983"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2021_10_27_WW43_Table_Calc_Filters_Tableau_Public/2021_10_27_WW43_Table_Calc_Filters_tableau_Public",
+          "filename": "2021_10_27_WW43_Table_Calc_Filters_Tableau_Public.twbx",
+          "sha256": "8204ef773b82641bc253238fab1d017f111be15c24d3b651b8df9dd72df12c1a"
+        }
+      },
+      "functional_status": "partial",
+      "visual_status": "acceptable_delta",
+      "verification_status": "pending",
+      "cwtwb_result": "pass",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "inputs/source-lock.json",
+        "evidence/local-verification.json",
+        "evidence/runtime-pending.md",
+        "evidence/local-gates.json",
+        "evidence/artifact-freeze.json",
+        "evidence/handoff.json",
+        "evidence/cloud-verification.json",
+        "evidence/cloud-csv.json",
+        "evidence/cloud-data-verification.json",
+        "evidence/independent-review.md",
+        "evidence/desktop-parent-check.json",
+        "evidence/desktop-corpus.json",
+        "evidence/isolated-validation.txt",
+        "evidence/isolated-validation-main-base.txt",
+        "evidence/repository-tests-main-base.txt"
+      ],
+      "notes": [
+        "Built using only released a1 public APIs; no author XML copied.",
+        "Article web-authoring-only exercise is outside SDK replication scope.",
+        "Local checks and saved REST exports pass; native dashboard events remain unverified.",
+        "Default/June/Copiers/Machines exports have 48/1/32/39 observed months. Author comparisons use its Data sheet; sparse dashboard densification is not exhaustive."
+      ],
+      "metadata": "iterations/2021-10-28-ww43-filtering-table-calcs/case.yaml",
       "metadata_contract": "1.1.0",
       "tested_sdk_version": "0.29.0a2"
     },
