@@ -1,0 +1,171 @@
+{
+  "case_id": "wow-2021-ww41-how-much-do-top-sub-categories-contribute-to-sales",
+  "captured_at": "2026-10-28T06:42:16.840864+00:00",
+  "source_hashes": {
+    "author": "23e368ce0287be2c618e190cc302f7a2ca554406f847cb9822f1bb967d9b555d",
+    "replica": "7fa9c8916d330ddd2d79e6ac22fe3bab4ac42ad0a31399571bbb1649ed6d80fb"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "be9e2c7a-d1c9-485a-9d70-a1073b197500",
+      "name": "cwtwb-review-wow-2021-ww41-how-much-do-top-sub-categories-contribute-to-sales-author-23e368ce0287",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/3089439",
+      "views": [
+        {
+          "name": "Data",
+          "id": "fc7ff3c6-03e8-4712-b725-dd85f2e4194a"
+        },
+        {
+          "name": "2021_10_13_WW41_Pie_Chart",
+          "id": "c3afd7df-88aa-4b32-aed7-9510fdbe852f"
+        }
+      ]
+    },
+    "replica": {
+      "id": "c53f88e0-4c74-4887-b6bb-55427c51eedc",
+      "name": "cwtwb-review-wow-2021-ww41-how-much-do-top-sub-categories-contribute-to-sales-replica-7fa9c8916d33",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/3089563",
+      "views": [
+        {
+          "name": "Contribution Pie",
+          "id": "14beb491-9115-4671-9a83-dd4cd18e80fb"
+        },
+        {
+          "name": "Highlight Table",
+          "id": "b3a754dc-615b-40a5-a10b-d3191242ce89"
+        },
+        {
+          "name": "Contribution Summary",
+          "id": "d4536c9e-febb-4e2c-b717-3b55b22c7372"
+        },
+        {
+          "name": "Top Sub-Category Contribution",
+          "id": "8322d6d6-3c45-4a58-b438-3d4298ed4dfa"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "c3afd7df-88aa-4b32-aed7-9510fdbe852f",
+          "name": "2021_10_13_WW41_Pie_Chart",
+          "path": "outputs/cloud-author.png",
+          "sha256": "fe51032495b9011035015a09c6c0fa5c37328c5d8cf4fea363f0cee922ffa4cc",
+          "size": [
+            2800,
+            1800
+          ]
+        },
+        "replica": {
+          "id": "8322d6d6-3c45-4a58-b438-3d4298ed4dfa",
+          "name": "Top Sub-Category Contribution",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "d237fd1bee6432b1c69879ed7d4e4768a779ee0f02d1cec940ce7841b1dbf985",
+          "size": [
+            2800,
+            1800
+          ]
+        }
+      },
+      "data": []
+    },
+    {
+      "name": "top-one",
+      "parameters": {
+        "pTopN": 1
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "c3afd7df-88aa-4b32-aed7-9510fdbe852f",
+          "name": "2021_10_13_WW41_Pie_Chart",
+          "path": "outputs/cloud-author-top-one.png",
+          "sha256": "60d0a78eef1946e133613f31f5f07f19eeb672f27d9aeadfcfbf05acf6f6b519",
+          "size": [
+            2800,
+            1800
+          ]
+        },
+        "replica": {
+          "id": "8322d6d6-3c45-4a58-b438-3d4298ed4dfa",
+          "name": "Top Sub-Category Contribution",
+          "path": "outputs/cloud-replica-top-one.png",
+          "sha256": "b462472d8287a083303e9be39703a2b861abcb793672d84eeb047203ad2e1415",
+          "size": [
+            2800,
+            1800
+          ]
+        }
+      },
+      "data": []
+    },
+    {
+      "name": "top-sixteen",
+      "parameters": {
+        "pTopN": 16
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "c3afd7df-88aa-4b32-aed7-9510fdbe852f",
+          "name": "2021_10_13_WW41_Pie_Chart",
+          "path": "outputs/cloud-author-top-sixteen.png",
+          "sha256": "c9913e7a385b5f999a30612216c4c145dd2a8655b84366a64d25250a8ecc73b2",
+          "size": [
+            2800,
+            1800
+          ]
+        },
+        "replica": {
+          "id": "8322d6d6-3c45-4a58-b438-3d4298ed4dfa",
+          "name": "Top Sub-Category Contribution",
+          "path": "outputs/cloud-replica-top-sixteen.png",
+          "sha256": "a82d8cbaa31ae5e8a88f7663c3b91e62f9ff47e8fd172cf8f298fd55ca20bf1f",
+          "size": [
+            2800,
+            1800
+          ]
+        }
+      },
+      "data": []
+    },
+    {
+      "name": "top-all",
+      "parameters": {
+        "pTopN": 17
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "c3afd7df-88aa-4b32-aed7-9510fdbe852f",
+          "name": "2021_10_13_WW41_Pie_Chart",
+          "path": "outputs/cloud-author-top-all.png",
+          "sha256": "c4d5e3afec72ef684480ac842db82ab0e9387347745192db14db077f58d0b56f",
+          "size": [
+            2800,
+            1800
+          ]
+        },
+        "replica": {
+          "id": "8322d6d6-3c45-4a58-b438-3d4298ed4dfa",
+          "name": "Top Sub-Category Contribution",
+          "path": "outputs/cloud-replica-top-all.png",
+          "sha256": "dcffd87a4d80e81bf6726e2df829e468296e4137fbac0991f5d2c17099794417",
+          "size": [
+            2800,
+            1800
+          ]
+        }
+      },
+      "data": []
+    }
+  ],
+  "status": "captured_requires_independent_review"
+}

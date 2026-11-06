@@ -1,0 +1,21 @@
+{
+  "frozen_at": "2026-10-28",
+  "artifact": "outputs/replicated-workbook.twbx",
+  "sha256": "7fa9c8916d330ddd2d79e6ac22fe3bab4ac42ad0a31399571bbb1649ed6d80fb",
+  "bytes": 47930,
+  "last_build": "build_replication.py (render correction 2); verifier and schema passed; catalogue refreshed separately without rebuilding",
+  "sdk_version": "0.29.0a1",
+  "sdk_commit": "23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c",
+  "rebuild_after_freeze": false,
+  "runtime_verified": false,
+  "runtime_scope": "Parent Desktop LOADED; 50-case corpus LOADED=50 FAIL=0 UNKNOWN=0; Cloud REST N=1,5,16,17 images/20 CSVs and independent review complete. Real dashboard parameter UI and hover/auto-clear events remain untested.",
+  "baseline_artifact": "outputs/baseline-a1-workbook.twbx",
+  "baseline_sha256": "10c253f4751f7c9e3e583344c4366a0473271c4296e352dc634ebc0432a45f59",
+  "evidence": [
+    "evidence/desktop-parent-check.json",
+    "evidence/desktop-corpus.json",
+    "evidence/cloud-verification.json",
+    "evidence/cloud-csv.json",
+    "evidence/independent-final-review.json"
+  ]
+}
