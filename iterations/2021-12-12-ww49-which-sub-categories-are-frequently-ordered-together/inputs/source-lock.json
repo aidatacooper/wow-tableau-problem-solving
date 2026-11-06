@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-30",
+  "source_workbook": {
+    "filename": "2021_12_08_WW49_FrequencyMatrix.twbx",
+    "bytes": 196521,
+    "sha256": "13fbad267c5951a30ed56ad45a6698fa7bacab3e281c36142e5573221cf07708",
+    "url": null
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Datasources/Ann Jackson Superstore (Ann Jackson Superstore).hyper",
+      "file": "inputs/Ann Jackson Superstore (Ann Jackson Superstore).hyper",
+      "bytes": 589824,
+      "sha256": "cdb3dde88490f0efa12e9a4834d9be74b330ce95cc6942356d0aa6fbb8f30a6e"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

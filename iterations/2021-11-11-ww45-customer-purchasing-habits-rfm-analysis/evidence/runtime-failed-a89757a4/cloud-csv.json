@@ -1,0 +1,60 @@
+{
+  "captured_at": "2026-10-29T15:22:00.386775+00:00",
+  "source_hashes": {
+    "author": "2162fe1ead72bf441b9ef70d20bc2237f11f13fd1ba6c2cfd0e10a1ea857011a",
+    "replica": "a89757a4311023411ba49afb4e517e86e569b03a4432ff12ae4d7deea9339dab"
+  },
+  "scope": "REST worksheet data, no browser events",
+  "records": [
+    {
+      "role": "replica",
+      "view": "Customers",
+      "state": "default",
+      "parameters": {},
+      "filters": {},
+      "path": "outputs/runtime-replica-customers-default.csv",
+      "sha256": "3f3c5bef9e2a460cea461de4615d6f1be17b38269482a311ef1ca1740655e2a3",
+      "bytes": 21712
+    },
+    {
+      "role": "replica",
+      "view": "Help",
+      "state": "default",
+      "parameters": {},
+      "filters": {},
+      "path": "outputs/runtime-replica-help-default.csv",
+      "sha256": "26067982b9a41ee62a9a845f6c0c138f5638ecdf6baa3165802114dd90703dbb",
+      "bytes": 293
+    },
+    {
+      "role": "replica",
+      "view": "Top Products",
+      "state": "default",
+      "parameters": {},
+      "filters": {},
+      "path": "outputs/runtime-replica-top-products-default.csv",
+      "sha256": "65534cb003386f6d79ebf143b8575b198f2965603c1df11fb2f65c74b0f76ae2",
+      "bytes": 293492
+    },
+    {
+      "role": "replica",
+      "view": "RFM",
+      "state": "default",
+      "parameters": {},
+      "filters": {},
+      "path": "outputs/runtime-replica-rfm-default.csv",
+      "sha256": "3f3c5bef9e2a460cea461de4615d6f1be17b38269482a311ef1ca1740655e2a3",
+      "bytes": 21712
+    },
+    {
+      "role": "author",
+      "view": "Data",
+      "state": "default",
+      "parameters": {},
+      "filters": {},
+      "path": "outputs/runtime-author-data-default.csv",
+      "sha256": "ed7dd5e8a1ab406ea8eb746fc742ffe0bc6830e7727a751bc4a133f28847f42a",
+      "bytes": 451356
+    }
+  ]
+}

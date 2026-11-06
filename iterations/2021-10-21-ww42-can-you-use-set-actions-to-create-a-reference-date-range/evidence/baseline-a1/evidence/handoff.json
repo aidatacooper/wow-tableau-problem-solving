@@ -1,0 +1,100 @@
+{
+  "status": "local-implementation-finished-parent-runtime-gates-pending",
+  "case_id": "wow-2021-ww42-can-you-use-set-actions-to-create-a-reference-date-range",
+  "iteration_id": "2021-10-21-ww42-can-you-use-set-actions-to-create-a-reference-date-range",
+  "worktree": "C:/Users/imgwho/.t3/worktrees/wow-tableau-problem-solving/t3-a6205604",
+  "branch": "t3/ww42-date-range-set-actions",
+  "implementation_commit": "929d94d3b7344a1665a906b35f295b551a1f4511",
+  "commit_note": "This is the complete implementation/artifact commit. A following handoff-only commit records this SHA and final progress; integrate both commits or the whole branch.",
+  "artifact": {
+    "path": "C:/Users/imgwho/.t3/worktrees/wow-tableau-problem-solving/t3-a6205604/iterations/2021-10-21-ww42-can-you-use-set-actions-to-create-a-reference-date-range/outputs/replicated-workbook.twbx",
+    "relative_path": "outputs/replicated-workbook.twbx",
+    "sha256": "8bde283a50c310733d3db73262bb65a77e8eaabc2058800a2e3f67b84c596f74",
+    "bytes": 65375,
+    "frozen_at_utc": "2026-10-28T06:04:06.460267+00:00",
+    "freeze_rule": "No builder or validate_iteration run after this freeze. Verify-only does not change the workbook. Parent rebuild requires a new hash and runtime evidence binding."
+  },
+  "sdk": {
+    "version": "0.29.0a1",
+    "commit": "23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c",
+    "source": "C:/Users/imgwho/Desktop/project/.sdk-pins/cwtwb-23b1df0/src",
+    "a2_tested": false,
+    "sdk_modified": false,
+    "global_editable_install_modified": false,
+    "baseline_result": "pass",
+    "scope": "Public API construction, XSD, structural contracts and emitted-formula numerical checks; not runtime acceptance."
+  },
+  "commands": {
+    "cwd": "C:/Users/imgwho/.t3/worktrees/wow-tableau-problem-solving/t3-a6205604",
+    "build": "$env:PYTHONPATH='C:/Users/imgwho/Desktop/project/.sdk-pins/cwtwb-23b1df0/src'; $env:CWTWB_SRC=$env:PYTHONPATH; $env:PYTHONUTF8='1'; python -X utf8 iterations/2021-10-21-ww42-can-you-use-set-actions-to-create-a-reference-date-range/build_replication.py",
+    "verify": "$env:PYTHONPATH='C:/Users/imgwho/Desktop/project/.sdk-pins/cwtwb-23b1df0/src'; $env:CWTWB_SRC=$env:PYTHONPATH; $env:PYTHONUTF8='1'; python -X utf8 iterations/2021-10-21-ww42-can-you-use-set-actions-to-create-a-reference-date-range/verify_replication.py",
+    "validate_iteration": "$env:PYTHONPATH='C:/Users/imgwho/Desktop/project/.sdk-pins/cwtwb-23b1df0/src'; $env:CWTWB_SRC=$env:PYTHONPATH; $env:PYTHONUTF8='1'; python -X utf8 scripts/validate_iteration.py iterations/2021-10-21-ww42-can-you-use-set-actions-to-create-a-reference-date-range",
+    "mutation_tests": "$env:PYTHONPATH='C:/Users/imgwho/Desktop/project/.sdk-pins/cwtwb-23b1df0/src'; $env:CWTWB_SRC=$env:PYTHONPATH; $env:PYTHONUTF8='1'; python -X utf8 -m unittest discover -s iterations/2021-10-21-ww42-can-you-use-set-actions-to-create-a-reference-date-range -p test_verifier.py -v",
+    "repository_tests": "$env:PYTHONPATH='C:/Users/imgwho/Desktop/project/.sdk-pins/cwtwb-23b1df0/src'; $env:CWTWB_SRC=$env:PYTHONPATH; $env:PYTHONUTF8='1'; python -X utf8 -m unittest discover -s tests -v",
+    "parent_desktop_frozen_artifact": "$env:PYTHONPATH='C:/Users/imgwho/Desktop/project/.sdk-pins/cwtwb-23b1df0/src'; $env:CWTWB_SRC=$env:PYTHONPATH; $env:PYTHONUTF8='1'; python -X utf8 scripts/desktop/check.py iterations/2021-10-21-ww42-can-you-use-set-actions-to-create-a-reference-date-range/outputs/replicated-workbook.twbx",
+    "parent_desktop_build_and_check_rebuilds": "$env:PYTHONPATH='C:/Users/imgwho/Desktop/project/.sdk-pins/cwtwb-23b1df0/src'; $env:CWTWB_SRC=$env:PYTHONPATH; $env:PYTHONUTF8='1'; python -X utf8 scripts/desktop/build_and_check.py iterations/2021-10-21-ww42-can-you-use-set-actions-to-create-a-reference-date-range --sdk-src C:/Users/imgwho/Desktop/project/.sdk-pins/cwtwb-23b1df0/src",
+    "parent_corpus": "$env:PYTHONPATH='C:/Users/imgwho/Desktop/project/.sdk-pins/cwtwb-23b1df0/src'; $env:CWTWB_SRC=$env:PYTHONPATH; $env:PYTHONUTF8='1'; python -X utf8 scripts/desktop/verify_corpus.py"
+  },
+  "local_results": {
+    "metadata": "pass",
+    "source_lock": "pass",
+    "identity_and_uniqueness": "pass",
+    "phase_boundary": "pass",
+    "xsd_strict_errors": 0,
+    "xsd_compatibility_warnings": [
+      "<string>:2:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'workbook': Missing child element(s). Expected is one of ( referenced-extensions, explain-data )."
+    ],
+    "numerical_states": 6,
+    "local_contract_groups": 7,
+    "raw_input_rows": 9994,
+    "mutation_tests": {
+      "passed": 6,
+      "failed": 0
+    },
+    "repository_suite": {
+      "total": 83,
+      "passed": 81,
+      "failed": 2,
+      "reason": "Both failures are the intentionally stale shared catalogue gate. No shared indexes edited.",
+      "failures": [
+        "test_prepare_case_extracts_data_and_never_copies_source",
+        "test_validator_scans_helper_files_and_rejects_misplaced_workbooks"
+      ]
+    },
+    "validate_iteration": {
+      "exit_code": 1,
+      "result": "All case gates/build/verifier pass; final shared catalogue check fails pending parent integration.",
+      "failure": "Catalogue differs from source metadata: usage/case-index.json; regenerate"
+    }
+  },
+  "known_differences": [
+    "Arithmetic monthly average is total / distinct months, explicit business definition; comparison to author nested LOD rendered averages pending.",
+    "Donut wedge order is default state order rather than author sales-descending order.",
+    "Layout, typography, currency display precision, titles and map palette differ; visual acceptance not evaluated."
+  ],
+  "sdk_gaps": [],
+  "pending_gates": [
+    "Desktop LOADED on the frozen workbook (FAIL/UNKNOWN fail)",
+    "Native multi-mark selection assignment and clear-selection retention event sequence",
+    "Tableau VizQL figures/labels, synchronized axes, donut rendering, geocoding and Cloud/visual comparison",
+    "Independent review",
+    "Mandatory Desktop corpus regression",
+    "Shared catalogue integration and repository full-suite rerun",
+    "Parent final PR work"
+  ],
+  "manual_instructions": "evidence/runtime-acceptance.md",
+  "evidence": [
+    "evidence/local-verification.json",
+    "evidence/local-gates.json",
+    "evidence/mutation-tests.txt",
+    "evidence/repository-tests.txt",
+    "evidence/validate-iteration.txt"
+  ],
+  "source_hashes": {
+    "build_replication.py": "3ddbd1377d68d120eb0865e447b66b61469cbc7ed66488f86aa12bae6b756685",
+    "verify_replication.py": "44761d5e72125db03e932131d24ac4488a70ba3b0e27431f2f23f801e114a352",
+    "formula_oracle.py": "d2bf36d23fb29a9efd07c95861056fd4b66cf13de13587427cbb82b90a6a58c2",
+    "test_verifier.py": "f6ae349701f80054f9579482a8c53e77fae26bf3b693b8070cbcfaa43a3d5045"
+  },
+  "contribution_scope": "Only own case directory and docs/PROGRESS-four-20261028-ww42.md; no Desktop, Cloud, shared SDK, indexes, push, issues, PRs or merges."
+}

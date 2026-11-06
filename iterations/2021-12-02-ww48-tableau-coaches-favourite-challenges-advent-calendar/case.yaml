@@ -1,0 +1,235 @@
+schema_version: 1.1.0
+case_id: wow-2021-ww48-tableau-coaches-favourite-challenges-advent-calendar
+iteration_id: 2021-12-02-ww48-tableau-coaches-favourite-challenges-advent-calendar
+post: https://donnacoles.home.blog/2021/12/02/tableau-coaches-favourite-challenges-advent-calendar/
+legacy_case_ids: {}
+article_date: '2021-12-02'
+challenge_year: 2021
+challenge_week: 48
+challenge_date: '2021-11-30'
+date_evidence:
+  article_date: Declared article publication date in iteration_id
+  challenge: Explicit challenge_year; week declared in iteration_id
+  challenge_date: Official WordPress post 6459 date=2021-11-30T21:43:49; evidence/official-challenge.json;
+    site calendar date, no timezone conversion.
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/tab2021w48/
+  article:
+    url: https://donnacoles.home.blog/2021/12/02/tableau-coaches-favourite-challenges-advent-calendar/
+    path: null
+    sha256: 4115cca55f262c8413d2a0746f217db472c2c27c8a34d23ce6a52dfd488bd403
+  workbook:
+    url: https://public.tableau.com/views/2021_01_12_WW48_Advent_Calendar/2021_12_01_WW48_Advent_Calendar
+    filename: 2021_01_12_WW48_Advent_Calendar.twbx
+    sha256: 1ea52f6b76ad147915f9455f31892e2a41a4003b6cfe1afa88f6b37e86fbe837
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts:
+- path: outputs/baseline-0.29.0a2.twbx
+  role: probe
+  note: Published baseline implemented-scope build; missing background.
+- path: outputs/retest-cac8820.twbx
+  role: probe
+  note: Merged-SDK retest; same missing background.
+- path: outputs/baseline-background-probe.twbx
+  role: probe
+  note: Synthetic published-SDK capability probe, no author material.
+- path: outputs/background-image-probe.twbx
+  role: probe
+  note: Synthetic merged-SDK capability probe, no author material.
+- path: outputs/frozen-546ed6e.twbx
+  role: probe
+  note: Exact pre-review frozen primary bytes SHA256 546ed6e1246c09c9a284a32b1ed9b4288121f270bbdfd507049307d8bf613dbc;
+    superseded by structural background implementation.
+- path: outputs/frozen-264257cd.twbx
+  role: probe
+  note: Exact prior mapped-image artifact rejected by parent Cloud render; bound to evidence/runtime-264257cd.
+- path: outputs/shape-binding-before.twbx
+  role: probe
+  note: Synthetic released set_shape_palette missing datasource instance; no author materials.
+- path: outputs/shape-binding-corrected.twbx
+  role: probe
+  note: Same synthetic workbook with own native-JSON datasource-instance repair; static-only,
+    not rendered.
+evidence:
+- inputs/source-lock.json
+- evidence/official-challenge.json
+- evidence/background-blocker.md
+- evidence/baseline-verification.json
+- evidence/retest-verification.json
+- outputs/local-verification.json
+- evidence/background-workaround.md
+- evidence/prior-evidence-preservation.json
+- outputs/background-verification.json
+- evidence/runtime-264257cd/preservation.json
+- evidence/render-reference-diagnosis.md
+- evidence/shape-binding-reproducer.json
+- outputs/render-reference-verification.json
+- evidence/cloud-verification.json
+- evidence/cloud-csv.json
+- evidence/desktop-verification.json
+- evidence/desktop-corpus.json
+- evidence/independent-review.json
+- evidence/browser-20261030/report.json
+notes:
+- Original workbook filename 2021_01_12 is a real typo; official challenge date is 2021-11-30.
+- Released 0.29.0a2 is the final reproducible build target; merged cac8820 retest preserves
+  its own archive.
+- 'Independent review corrected the earlier absolute capability-blocker claim: old probes
+  demonstrate only that Cartesian configure_chart(map_layers=...) ignores the image payload.
+  Public structural conversion provides a working local authoring route; see evidence/background-workaround.md.
+  Prior run reports remain immutable historical evidence.'
+- Gradient color now binds to AVG(Segment Start), increasing left-to-right on fixed 0..10
+  domain; original descending Gradient input remains locked but is unused by the corrected
+  chart.
+- Current Cloud reports and PNG/CSV files bind to 3980ad6e. Failed 264257cd captures remain
+  bytewise in evidence/runtime-264257cd and outputs/frozen-264257cd.twbx.
+- Parent performed current Desktop and Cloud REST capture; independent numerical and visual
+  review passed. That earlier capture did not execute live browser events; subsequent browser-20261030
+  evidence does.
+- Real day 1/day 24/star hover, 2018/2019 selection (10/3), Ctrl-multiselect 2018+2020 (15),
+  clear (25 including star), ornament no-grey and actual challenge URL popup passed. Frozen
+  workbook unchanged; earlier MFA-unavailable note is superseded by the authenticated browser
+  run.
+cwtwb:
+  tested_version: 0.29.0a2
+  runs:
+  - version: 0.29.0a2
+    result: blocked
+    distribution: PyPI published prerelease
+    evidence: evidence/baseline-verification.json
+  - version: 0.29.0a2
+    result: blocked
+    commit: cac8820f26e703c3858253adfa21efd989eb8a78
+    evidence: evidence/retest-verification.json
+  - version: 0.29.0a2
+    result: blocked
+    distribution: PyPI published prerelease; final local build
+    evidence: outputs/local-verification.json
+  - version: 0.29.0a2
+    result: workaround
+    distribution: PyPI published prerelease; independent-review correction
+    authoring_route: Public convert_workbook/read_workbook native-JSON structural authoring
+      on own blank-built workbook
+    evidence: outputs/background-verification.json
+  - version: 0.29.0a2
+    result: workaround
+    distribution: PyPI published prerelease; parent runtime follow-up
+    authoring_route: 'Own native JSON: file: raster URI, datasource custom-shape instance
+      registration and explicit embedded maps; semantic ascending gradient coordinate'
+    evidence: outputs/render-reference-verification.json
+  - version: 0.29.0a2
+    result: workaround
+    distribution: Published prerelease; browser acceptance of unchanged frozen build
+    evidence: evidence/browser-20261030/report.json
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: workaround
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/federated_0647kt40xit7hq0zxnps10.hyper
+  - inputs/federated_04jakgc1k2a0xz1dyckmx0.hyper
+  - inputs/gradient.csv
+  - inputs/gradient.hyper
+  - inputs/calendar.hyper
+acceptance:
+- id: raw-data-oracle
+  description: Raw data yields 24 days and one star; counts 10/3/5/6; all 2000 segments and
+    runtime rows reconcile.
+  mode: automated
+- id: tree-marks
+  description: Correct coordinate shelves, fixed bounds, numbered portable baubles and larger
+    star with singular/plural/null tooltip formulas.
+  mode: automated
+- id: gradient-bars
+  description: Four years use 500 Gantt segments each, synchronized count labels and a red/green
+    interpolated palette.
+  mode: automated
+- id: url-and-filter-actions
+  description: Exact static Year filter command/target/multiselect/clear, URL activation/token,
+    and constant self-highlight bindings; runtime effects verified separately in browser-20261030.
+  mode: automated
+- id: portable-assets
+  description: Packaged runtime Hyper and embedded shapes match source-locked bytes.
+  mode: automated
+- id: dependency-closure
+  description: All emitted formulas, instances, shelves and mark references resolve.
+  mode: automated
+- id: negative-mutations
+  description: Focused mutations reject foreign/unresolved references, local/global inconsistencies,
+    wrong filters/tooltips/actions, reversed size direction, broken mappings and missing/corrupt
+    resources.
+  mode: automated
+- id: native-tree-background
+  description: Native datasource mapped raster uses numeric Y/X fields and finite 0..4/0..6
+    bounds, packages exact PNG bytes and survives public conversion roundtrip with XSD/reference
+    closure.
+  mode: automated
+- id: shape-datasource-binding
+  description: Custom shape style resolves a declared datasource column-instance and every
+    map target resolves to an embedded PNG; no unregistered palette name.
+  mode: automated
+- id: ascending-gradient
+  description: Color uses ascending segment coordinate on shared 0..10 nonreversed red/green
+    domain; endpoint order and binding regressions are rejected. Current Cloud render and
+    browser screenshots confirm direction.
+  mode: automated
+- id: browser-day1-hover
+  description: 1 day until Christmas
+  mode: manual
+  evidence: evidence/browser-20261030/report.json
+- id: browser-day24-hover
+  description: 24 days until Christmas
+  mode: manual
+  evidence: evidence/browser-20261030/report.json
+- id: browser-star-hover
+  description: It's Christmas Day!
+  mode: manual
+  evidence: evidence/browser-20261030/report.json
+- id: browser-year-2018
+  description: '10 ornaments: 4,10,13,14,16,18,20,21,23,24; star excluded'
+  mode: manual
+  evidence: evidence/browser-20261030/report.json
+- id: browser-year-2019
+  description: '3 ornaments: 9,12,17; star excluded'
+  mode: manual
+  evidence: evidence/browser-20261030/report.json
+- id: browser-year-multiselect
+  description: '2018+2020: 15 ornaments, 2 selected items, sum count 15'
+  mode: manual
+  evidence: evidence/browser-20261030/report.json
+- id: browser-year-clear
+  description: 24 red ornaments and yellow star restored
+  mode: manual
+  evidence: evidence/browser-20261030/report.json
+- id: browser-url-action
+  description: Popup navigated to https://www.workout-wednesday.com/2021w48tab/ and was closed
+  mode: manual
+  evidence: evidence/browser-20261030/report.json
+- id: browser-ornament-no-grey
+  description: Day1 outlined; all other ornaments remain red and star yellow
+  mode: manual
+  evidence: evidence/browser-20261030/report.json
+remaining_work: null
+workarounds:
+- Materialize 500 gradient segments per year from raw challenge counts instead of author relationship
+  densification/table calculations; independently verify every segment.
+- Use one typed union datasource with fixed Kind filters to make the Year dashboard action
+  unambiguous.
+- Author datasource mapped-images and a resource record through exported convert_workbook/read_workbook
+  native-JSON APIs on the independently blank-built workbook. Numeric bounds come from analysis
+  and PNG from extracted inputs; no author workbook/XML/JSON is read or copied. Structural
+  API workaround, not semantic API pass.
+- Public native-JSON repair registers the custom-shape style field column-instance at datasource
+  scope from our own worksheet dependency and removes the unregistered named palette attribute.
+  Synthetic released-a2 reproducer in probe_shape_binding.py. Mapped image uses file:Images/christmas-tree.png
+  instead of a quoted literal.
+capability_gaps: []
+related_cwtwb_issues: []

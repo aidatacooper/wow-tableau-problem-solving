@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "generated_from": "iterations/*/case.yaml",
-  "active_case_count": 112,
+  "active_case_count": 116,
   "legacy_case_ids": {
     "donna-2019-07-18-63877b35d19a": "wow-2019-ww29-high-orders",
     "donna-2019-07-25-59a0a144b25b": "wow-2019-ww30-navigation-kpi",
@@ -6309,13 +6309,13 @@
       "tested_sdk_version": "0.27.1"
     },
     {
-      "case_id": "wow-2021-ww46-can-you-recreate-this-difference-chart",
+      "case_id": "wow-2021-ww42-can-you-use-set-actions-to-create-a-reference-date-range",
       "legacy_case_ids": {},
-      "iteration_id": "2021-11-18-ww46-can-you-recreate-this-difference-chart",
-      "article_date": "2021-11-18",
+      "iteration_id": "2021-10-21-ww42-can-you-use-set-actions-to-create-a-reference-date-range",
+      "article_date": "2021-10-21",
       "challenge_year": 2021,
-      "challenge_week": 46,
-      "challenge_date": "2021-11-16",
+      "challenge_week": 42,
+      "challenge_date": "2021-10-19",
       "date_evidence": {
         "article_date": "Declared article publication date in iteration_id",
         "challenge": "Explicit challenge_year; week declared in iteration_id",
@@ -6323,23 +6323,166 @@
       },
       "source": {
         "challenge": {
-          "url": "https://www.workout-wednesday.com/2021w46/"
+          "url": "https://www.workout-wednesday.com/2021w42tab/"
         },
         "article": {
-          "url": "https://donnacoles.home.blog/2021/11/18/can-you-recreate-this-difference-chart/",
+          "url": "https://donnacoles.home.blog/2021/10/21/can-you-use-set-actions-to-create-a-reference-date-range/",
           "path": null,
-          "sha256": "48e53ecec7fdeb90dca0e640831c650e9db81f22c1b7d4452482ccd07b64bdf4"
+          "sha256": null
         },
         "workbook": {
-          "url": "https://public.tableau.com/views/2021_11_17_WW46_Sales_By_Category_And_Segment/2021_11_17_WW46_Sales_By_Category_and_Segment",
-          "filename": "2021_11_17_WW46_Sales_By_Category_And_Segment.twbx",
-          "sha256": "e553ce47222c20bb2d04dfc3d576330c9e7593e2b30b940590e8ababd20feaf9"
+          "url": "https://public.tableau.com/views/2021_10_20_WW_42_Date_Range_Set_Actions/2021_10_20_WW42_Date_Range_Set_Actions",
+          "filename": "2021_10_20_WW_42_Date_Range_Set_Actions.twbx",
+          "sha256": "65859ddada895bdfbb7fa3208fcce667ce82ba21d06bd1669af8a0ffb9a40dbf"
         }
       },
       "functional_status": "partial",
       "visual_status": "acceptable_delta",
       "verification_status": "pending",
-      "cwtwb_result": "workaround",
+      "cwtwb_result": "pass",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [
+        {
+          "path": "outputs/baseline-a1-replicated-workbook.twbx",
+          "sha256": "8bde283a50c310733d3db73262bb65a77e8eaabc2058800a2e3f67b84c596f74",
+          "role": "probe",
+          "note": "Frozen original a1 baseline, relocated from evidence/baseline-a1/outputs to satisfy the phase boundary. Its evidence remains in evidence/baseline-a1/evidence."
+        }
+      ],
+      "evidence": [
+        "inputs/source-lock.json",
+        "evidence/local-verification.json",
+        "evidence/runtime-acceptance.md",
+        "evidence/handoff.json",
+        "evidence/cloud-verification.json",
+        "evidence/cloud-csv.json",
+        "evidence/candidate-runtime.md",
+        "evidence/independent-review.md",
+        "evidence/desktop-parent-check.json",
+        "evidence/desktop-corpus.json"
+      ],
+      "notes": [
+        "Original a1 local-only pass did not test VizQL partitioning. Its immutable evidence is archived under evidence/baseline-a1/evidence; the original runs entry is retained verbatim.",
+        "Candidate SDK 0.29.0a2 at 11d72ebe5b7720035e26150bd16af72d67a35bba contains Text addressing/forwarding and native set rich-label dependency fixes; this is an unreleased source candidate, not the published a2 tag.",
+        "Layered Trend binds both band endpoints on each pane; explicit Field addressing restores peak-only labels. Layered donut provides worksheet-specific rank colors.",
+        "Cloud default renders and worksheet CSV validate numeric results and readability. Browser events remain untested because MFA is unavailable.",
+        "Distinct-month arithmetic average is intentional; donut wedge order differs from author, which does not change rank colors or totals."
+      ],
+      "metadata": "iterations/2021-10-21-ww42-can-you-use-set-actions-to-create-a-reference-date-range/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.29.0a2"
+    },
+    {
+      "case_id": "wow-2021-ww44-can-you-show-the-top-and-bottom-profit-performers-for-the-selected-time-period",
+      "legacy_case_ids": {},
+      "iteration_id": "2021-11-04-ww44-can-you-show-the-top-and-bottom-profit-performers-for-the-selected-time-period",
+      "article_date": "2021-11-04",
+      "challenge_year": 2021,
+      "challenge_week": 44,
+      "challenge_date": "2021-11-02",
+      "date_evidence": {
+        "article_date": "Declared article publication date in iteration_id",
+        "challenge": "Official page explicitly identifies WOW2021 W44; parent corrected case_intake null year/week using the matching official record.",
+        "challenge_date": "2021-11-02 from parent-verified official challenge record; article publication date remains 2021-11-04."
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/wow2021w44tab/"
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2021/11/04/can-you-show-the-top-and-bottom-profit-performers-for-the-selected-time-period/",
+          "path": null,
+          "sha256": "c30702e9f13e5971d9d9d2d909da2f25931634135690333c27431571eb8c03c4"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/app/profile/donna.coles/viz/2021_11_03_Top_and_Bottom_Performers/2021_11_03_Top_Bottom_Performers",
+          "filename": "2021_11_03_Top_and_Bottom_Performers.twbx",
+          "sha256": "a9f785a2c31830949bc736df0eb83f0786201621ae0823687cd37f3e45967103"
+        }
+      },
+      "functional_status": "partial",
+      "visual_status": "acceptable_delta",
+      "verification_status": "pending",
+      "cwtwb_result": "pass",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [
+        {
+          "path": "outputs/baseline-a1-replicated-workbook.twbx",
+          "role": "probe",
+          "sha256": "e556e04413fb1bbfb5669e627d56faa9e97400e7f271a116d757055be2a0820b",
+          "former_path": "evidence/baseline-a1/outputs/replicated-workbook.twbx",
+          "note": "Frozen a1 baseline before fit/label layout corrections. Moved to a direct outputs child because the current phase-boundary validator rejects nested workbook paths. Historical capture/evidence remains under evidence/baseline-a1 and is not current acceptance."
+        }
+      ],
+      "evidence": [
+        "evidence/rest-contract.json",
+        "inputs/source-lock.json",
+        "evidence/local-verification.json",
+        "evidence/local-gates.json",
+        "evidence/pending-runtime.md",
+        "evidence/handoff.json",
+        "evidence/cloud-verification.json",
+        "evidence/independent-review.md",
+        "evidence/independent-review.json",
+        "evidence/delivery-progress.md",
+        "evidence/cloud-csv.json",
+        "evidence/desktop-parent-check.json",
+        "evidence/desktop-corpus.json"
+      ],
+      "notes": [
+        "Scope is WW44 only. Current frozen artifact is 07a9dd44a79f541786843f19f120f6dedad1e7a276ee6d5c4a1fea80e1af70dd. Parent supplied exact-hash Desktop LOADED and 50-case corpus LOADED evidence. Only live clicks, clear selection, multi-selection and hover remain unverified.",
+        "Independent review checked current author/replica Month, Quarter and Year Cloud PNGs with matching manifest hashes: all three KPIs and eleven signed category labels are readable and agree with independent raw-data SQL. acceptable_delta applies to these static REST states only.",
+        "KPI click, clear selection, multi-selection and hover were not exercised because browser MFA was not completed. REST parameter injection does not prove live interaction acceptance.",
+        "The archived local author PNG was a loading placeholder; current Cloud author reference renders are valid and independently reviewed.",
+        "SDK pass covers public API construction, independent numerical/static checks, current-hash REST images/CSV, exact-hash Desktop LOADED and the 50-case Desktop corpus. Functional status remains partial pending live events.",
+        "Current cloud-csv.json contains nine current-hash REST data exports. These establish static parameter states, not browser events."
+      ],
+      "metadata": "iterations/2021-11-04-ww44-can-you-show-the-top-and-bottom-profit-performers-for-the-selected-time-period/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.29.0a2"
+    },
+    {
+      "case_id": "wow-2021-ww45-customer-purchasing-habits-rfm-analysis",
+      "legacy_case_ids": {},
+      "iteration_id": "2021-11-11-ww45-customer-purchasing-habits-rfm-analysis",
+      "article_date": "2021-11-11",
+      "challenge_year": 2021,
+      "challenge_week": 45,
+      "challenge_date": "2021-11-10",
+      "date_evidence": {
+        "article_date": "Declared article publication date in iteration_id",
+        "challenge": "Explicit challenge_year; week declared in iteration_id",
+        "challenge_date": "Explicit official challenge publication date and URL"
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2021w45tab/"
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2021/11/11/customer-purchasing-habits-rfm-analysis/",
+          "path": "posts/2021-11-11-Customer_Purchasing_Habits_(RFM_Analysis).html",
+          "sha256": null
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2021_11_10_WW45_Customer_Purchase_Behaviour_RFM_Analysis/2021_11_10_WW45_RFM_Analysis",
+          "filename": "2021_11_10_WW45_Customer_Purchase_Behaviour_RFM_Analysis.twbx",
+          "sha256": "2162fe1ead72bf441b9ef70d20bc2237f11f13fd1ba6c2cfd0e10a1ea857011a"
+        }
+      },
+      "functional_status": "partial",
+      "visual_status": "acceptable_delta",
+      "verification_status": "pending",
+      "cwtwb_result": "pass",
       "artifacts": {
         "primary_workbook": "outputs/replicated-workbook.twbx",
         "cloud_author": "outputs/cloud-author.png",
@@ -6350,50 +6493,226 @@
         {
           "path": "outputs/baseline-a2-workbook.twbx",
           "role": "probe",
-          "note": "Initial baseline build only; not accepted."
+          "note": "Published 0.29.0a2 baseline archive; local build and verification only, no Desktop or live-event claim."
         },
         {
-          "path": "outputs/baseline-a2-e73539d6-workbook.twbx",
+          "path": "outputs/runtime-failed-a89757a4-workbook.twbx",
           "role": "probe",
-          "note": "Frozen e73539d6 locally verified a2 partial; parent Desktop LOADED and Cloud capture attach to this hash only."
+          "note": "Parent Desktop LOADED but Cloud screenshot/CSV show all five metric panes absent. Frozen SHA a89757a4311023411ba49afb4e517e86e569b03a4432ff12ae4d7deea9339dab. Evidence copied unchanged to evidence/runtime-failed-a89757a4 before rebuilding."
         },
         {
-          "path": "outputs/baseline-a2-e73539d6-cloud-author.png",
+          "path": "outputs/runtime-failed-00fdb2d0-workbook.twbx",
           "role": "probe",
-          "note": "Parent author Cloud capture retained byte-for-byte; original path mapping in preservation.json."
-        },
-        {
-          "path": "outputs/baseline-a2-e73539d6-cloud-replica.png",
-          "role": "probe",
-          "note": "Parent a2 replica Cloud capture for e73539d6; reported excessive gap. Not evidence for candidate rendering."
-        },
-        {
-          "path": "outputs/pre-label-fix-workbook.twbx",
-          "role": "probe",
-          "note": "Preserved 05fd5ec8 before rendered label correction."
+          "note": "Preserved pre-addressing-fix workbook 00fdb2d0; capture bytes archived under evidence/runtime-failed-00fdb2d0 with original provenance intact. Some captures may refer to earlier SHA; inspect original manifests."
         }
       ],
       "evidence": [
         "inputs/source-lock.json",
-        "evidence/local-verification.json",
-        "evidence/sdk-probe.json",
-        "evidence/runtime-pending.md",
-        "evidence/candidate-probe.json",
-        "evidence/baseline-a2-e73539d6/preservation.json",
-        "evidence/baseline-a2-e73539d6/desktop-verification.json",
-        "evidence/baseline-a2-e73539d6/cloud-verification.json",
+        "evidence/baseline.json",
+        "evidence/verification.json",
+        "evidence/pending-live.md",
+        "evidence/implementation-completion.json",
+        "evidence/runtime-shelf-fix.json",
+        "evidence/runtime-failed-a89757a4/manifest.json",
+        "evidence/rank-addressing-fix.json",
         "evidence/desktop-corpus.json",
+        "evidence/desktop-verification.json",
         "evidence/cloud-verification.json",
         "evidence/cloud-csv.json",
-        "evidence/label-fix.json"
+        "evidence/independent-review.json"
       ],
       "notes": [
-        "Candidate-only local validation: four sort members and three filter members pass. Functional partial and visual not_evaluated await parent recapture/review.",
-        "Parent Desktop LOADED and Cloud captures apply only to archived e73539d6 baseline. Browser interaction was not executed. Parent reported excessive spacer gap; structural coupling did not prove its rendered cause.",
-        "All prior baseline files and parent evidence were preserved before candidate rebuild; evidence/baseline-a2-e73539d6/preservation.json maps original paths to unchanged archived bytes.",
-        "requirements.txt remains unchanged. Parent reports SDK PR23 merged as 54784b4c09018bc9866337fb352f59ccb6753100; tested cac8820 is reachable and eligible for parent final pin integration. Prior candidate run wording records its status when first tested."
+        "Published 0.29.0a2 APIs emit all implemented requirements; SDK pass is local API/contract evidence, not runtime acceptance.",
+        "Recency uses MIN at customer grain. Unique product rank follows article prose rather than author RANK formula. Equal-sales product identity has no specified secondary ordering.",
+        "Runtime P1 root cause: omitted columns argument in case builder, despite five pane axes. Fixed using existing public API; no SDK bug or SDK retest required. Prior local SDK pass records are retained as history but failed runtime evidence supersedes their functional implications."
       ],
-      "metadata": "iterations/2021-11-18-ww46-can-you-recreate-this-difference-chart/case.yaml",
+      "metadata": "iterations/2021-11-11-ww45-customer-purchasing-habits-rfm-analysis/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.29.0a2"
+    },
+    {
+      "case_id": "wow-2021-ww48-tableau-coaches-favourite-challenges-advent-calendar",
+      "legacy_case_ids": {},
+      "iteration_id": "2021-12-02-ww48-tableau-coaches-favourite-challenges-advent-calendar",
+      "article_date": "2021-12-02",
+      "challenge_year": 2021,
+      "challenge_week": 48,
+      "challenge_date": "2021-11-30",
+      "date_evidence": {
+        "article_date": "Declared article publication date in iteration_id",
+        "challenge": "Explicit challenge_year; week declared in iteration_id",
+        "challenge_date": "Official WordPress post 6459 date=2021-11-30T21:43:49; evidence/official-challenge.json; site calendar date, no timezone conversion."
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/tab2021w48/"
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2021/12/02/tableau-coaches-favourite-challenges-advent-calendar/",
+          "path": null,
+          "sha256": "4115cca55f262c8413d2a0746f217db472c2c27c8a34d23ce6a52dfd488bd403"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2021_01_12_WW48_Advent_Calendar/2021_12_01_WW48_Advent_Calendar",
+          "filename": "2021_01_12_WW48_Advent_Calendar.twbx",
+          "sha256": "1ea52f6b76ad147915f9455f31892e2a41a4003b6cfe1afa88f6b37e86fbe837"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "workaround",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [
+        {
+          "path": "outputs/baseline-0.29.0a2.twbx",
+          "role": "probe",
+          "note": "Published baseline implemented-scope build; missing background."
+        },
+        {
+          "path": "outputs/retest-cac8820.twbx",
+          "role": "probe",
+          "note": "Merged-SDK retest; same missing background."
+        },
+        {
+          "path": "outputs/baseline-background-probe.twbx",
+          "role": "probe",
+          "note": "Synthetic published-SDK capability probe, no author material."
+        },
+        {
+          "path": "outputs/background-image-probe.twbx",
+          "role": "probe",
+          "note": "Synthetic merged-SDK capability probe, no author material."
+        },
+        {
+          "path": "outputs/frozen-546ed6e.twbx",
+          "role": "probe",
+          "note": "Exact pre-review frozen primary bytes SHA256 546ed6e1246c09c9a284a32b1ed9b4288121f270bbdfd507049307d8bf613dbc; superseded by structural background implementation."
+        },
+        {
+          "path": "outputs/frozen-264257cd.twbx",
+          "role": "probe",
+          "note": "Exact prior mapped-image artifact rejected by parent Cloud render; bound to evidence/runtime-264257cd."
+        },
+        {
+          "path": "outputs/shape-binding-before.twbx",
+          "role": "probe",
+          "note": "Synthetic released set_shape_palette missing datasource instance; no author materials."
+        },
+        {
+          "path": "outputs/shape-binding-corrected.twbx",
+          "role": "probe",
+          "note": "Same synthetic workbook with own native-JSON datasource-instance repair; static-only, not rendered."
+        }
+      ],
+      "evidence": [
+        "inputs/source-lock.json",
+        "evidence/official-challenge.json",
+        "evidence/background-blocker.md",
+        "evidence/baseline-verification.json",
+        "evidence/retest-verification.json",
+        "outputs/local-verification.json",
+        "evidence/background-workaround.md",
+        "evidence/prior-evidence-preservation.json",
+        "outputs/background-verification.json",
+        "evidence/runtime-264257cd/preservation.json",
+        "evidence/render-reference-diagnosis.md",
+        "evidence/shape-binding-reproducer.json",
+        "outputs/render-reference-verification.json",
+        "evidence/cloud-verification.json",
+        "evidence/cloud-csv.json",
+        "evidence/desktop-verification.json",
+        "evidence/desktop-corpus.json",
+        "evidence/independent-review.json",
+        "evidence/browser-20261030/report.json"
+      ],
+      "notes": [
+        "Original workbook filename 2021_01_12 is a real typo; official challenge date is 2021-11-30.",
+        "Released 0.29.0a2 is the final reproducible build target; merged cac8820 retest preserves its own archive.",
+        "Independent review corrected the earlier absolute capability-blocker claim: old probes demonstrate only that Cartesian configure_chart(map_layers=...) ignores the image payload. Public structural conversion provides a working local authoring route; see evidence/background-workaround.md. Prior run reports remain immutable historical evidence.",
+        "Gradient color now binds to AVG(Segment Start), increasing left-to-right on fixed 0..10 domain; original descending Gradient input remains locked but is unused by the corrected chart.",
+        "Current Cloud reports and PNG/CSV files bind to 3980ad6e. Failed 264257cd captures remain bytewise in evidence/runtime-264257cd and outputs/frozen-264257cd.twbx.",
+        "Parent performed current Desktop and Cloud REST capture; independent numerical and visual review passed. That earlier capture did not execute live browser events; subsequent browser-20261030 evidence does.",
+        "Real day 1/day 24/star hover, 2018/2019 selection (10/3), Ctrl-multiselect 2018+2020 (15), clear (25 including star), ornament no-grey and actual challenge URL popup passed. Frozen workbook unchanged; earlier MFA-unavailable note is superseded by the authenticated browser run."
+      ],
+      "metadata": "iterations/2021-12-02-ww48-tableau-coaches-favourite-challenges-advent-calendar/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.29.0a2"
+    },
+    {
+      "case_id": "wow-2021-ww49-which-sub-categories-are-frequently-ordered-together",
+      "legacy_case_ids": {},
+      "iteration_id": "2021-12-12-ww49-which-sub-categories-are-frequently-ordered-together",
+      "article_date": "2021-12-12",
+      "challenge_year": 2021,
+      "challenge_week": 49,
+      "challenge_date": "2021-12-08",
+      "date_evidence": {
+        "article_date": "Declared article publication date in iteration_id",
+        "challenge": "Article explicitly identifies Week 49 of 2021; official post title agrees. Historical 2018 first Tableau link intentionally ignored.",
+        "challenge_date": "Official WordPress post 6494 date 2021-12-08T08:00:59; evidence/official-date.json"
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2021w49tab/"
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2021/12/12/which-sub-categories-are-frequently-ordered-together/",
+          "path": null,
+          "sha256": "d9dac3c327b7b3f2870550c86ad3e5b9e3167433074278ac1ea2f242a290bfd0"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/app/profile/donna.coles/viz/2021_12_08_WW49_FrequencyMatrix/2021_12_08_WW49_Frequency_Matrix",
+          "filename": "2021_12_08_WW49_FrequencyMatrix.twbx",
+          "sha256": "13fbad267c5951a30ed56ad45a6698fa7bacab3e281c36142e5573221cf07708"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "workaround",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [
+        {
+          "path": "outputs/role-probe.twbx",
+          "role": "probe",
+          "note": "Pre-runtime baseline probe retained for audit: triangle was emitted with None derivation. Superseded by explicit public table_calc metadata and measure role. Not a passing runtime artifact."
+        },
+        {
+          "path": "outputs/baseline-822ce844.twbx",
+          "role": "probe",
+          "note": "Numerically reviewed baseline with clipped headers; unchanged hash-bound evidence in evidence/archive-822ce844. Superseded by header sizing fix."
+        }
+      ],
+      "evidence": [
+        "inputs/source-lock.json",
+        "evidence/official-date.json",
+        "evidence/baseline-0.29.0a2.json",
+        "outputs/verification.json",
+        "HANDOFF.md",
+        "evidence/header-fix.json",
+        "evidence/cloud-verification.json",
+        "evidence/desktop-verification.json",
+        "evidence/independent-review.json",
+        "evidence/desktop-corpus.json",
+        "evidence/browser-20261030/report.json"
+      ],
+      "notes": [
+        "Template 0.26.0 blocked entry was scaffold placeholder, not a real run; replaced by the first actual 0.29.0a2 baseline.",
+        "No author workbook is copied into the iteration. Historical role-probe is checked separately in the frozen manifest; fresh verifier never requires archives removed by CI.",
+        "Real NONE and two category-pair tooltips passed all counts, currency and conditional text. Native selection/clear preserved the 153-cell lower triangle and category order. Frozen workbook unchanged; earlier MFA-unavailable note is superseded by the authenticated browser run."
+      ],
+      "metadata": "iterations/2021-12-12-ww49-which-sub-categories-are-frequently-ordered-together/case.yaml",
       "metadata_contract": "1.1.0",
       "tested_sdk_version": "0.29.0a2"
     },

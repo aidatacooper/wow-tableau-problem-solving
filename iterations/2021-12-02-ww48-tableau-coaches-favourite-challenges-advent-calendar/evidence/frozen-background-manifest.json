@@ -1,0 +1,32 @@
+{
+  "supersedes_commit": "64f1020bd9e30bfe38818c80391f86bdc77ee536",
+  "sdk_distribution": "PyPI cwtwb==0.29.0a2",
+  "authoring_route": "public semantic APIs from blank plus public native-JSON structural workaround on own output",
+  "files": {
+    "build_replication.py": "977879b5445a1cbb9bd37b4a35b6c3b487154b968a7e5fe6f03bbc201a4c6b91",
+    "verify_replication.py": "fcbb49d67bdc88f271b10f15aa46977c0c0105ed6a449a7002a0d5ee4590eea3",
+    "probe_background.py": "4993e7a90b15fbaf11ca961503aa46a98eba52dab14b35339557d15ffe5e1951",
+    "analysis.md": "c6a3bea2578f9bc4881ba2b5e4747937d95029491e2fdde50aded3d013496115",
+    "case.yaml": "cb7e69d9d952da3c3f67dc90391bff044c3a8a1e1d53adaa0a1f1d36cbaf521b",
+    "inputs/source-lock.json": "f0d370927252aa304604497b368e79896420e2ed2bb433edbe04618bd6069818",
+    "outputs/replicated-workbook.twbx": "264257cd5b710753e4c13ac5f4737d0740af3517e1d659c5a7bd03c8d3aae0b7",
+    "outputs/frozen-546ed6e.twbx": "546ed6e1246c09c9a284a32b1ed9b4288121f270bbdfd507049307d8bf613dbc",
+    "outputs/background-build-provenance.json": "5fcb3d3ea60a3ee6e222ee2c7d18526ffb005daf7d71b2780b09335556a05665",
+    "outputs/background-verification.json": "32d8ee169cf8ad5aece75a313d18b50e912d406eb38908e8cec56de0f138cce2",
+    "evidence/background-workaround.md": "00d7a5a9a1eece6b02e8895b98163b60775edf38279f7d9a1704f3f16a3d2f99",
+    "evidence/prior-evidence-preservation.json": "5490c26b5fa501ee5dc500dc36a0fdf0e272f41fbf97cfc8515945b099f862c4",
+    "evidence/repository-tests-background.txt": "bd519be40d38d362bae7f9c153a40a56e5402e9998b4345c2fcacb33c0681abd",
+    "evidence/isolated-validation-background.txt": "f4acfd5b821c9b7c4cba98e290f3a8006fcaadb194f7d01b5e9b43bcfcb220ce"
+  },
+  "prior_evidence_preserved": true,
+  "prior_run_history_unchanged": true,
+  "local_gates": {
+    "metadata_source_lock_phase_boundary_xsd": "PASS",
+    "repo_tests": 83,
+    "negative_mutations": 43,
+    "native_mapping_and_assets_roundtrip": "PASS",
+    "isolated_rebuild": "PASS",
+    "catalogue": "PASS"
+  },
+  "runtime_gates": "NOT RUN; parent-owned"
+}

@@ -1,0 +1,153 @@
+schema_version: 1.1.0
+case_id: wow-2021-ww42-can-you-use-set-actions-to-create-a-reference-date-range
+iteration_id: 2021-10-21-ww42-can-you-use-set-actions-to-create-a-reference-date-range
+post: https://donnacoles.home.blog/2021/10/21/can-you-use-set-actions-to-create-a-reference-date-range/
+legacy_case_ids: {}
+article_date: '2021-10-21'
+challenge_year: 2021
+challenge_week: 42
+challenge_date: '2021-10-19'
+date_evidence:
+  article_date: Declared article publication date in iteration_id
+  challenge: Explicit challenge_year; week declared in iteration_id
+  challenge_date: Explicit official challenge publication date and URL
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2021w42tab/
+  article:
+    url: https://donnacoles.home.blog/2021/10/21/can-you-use-set-actions-to-create-a-reference-date-range/
+    path: null
+    sha256: null
+  workbook:
+    url: https://public.tableau.com/views/2021_10_20_WW_42_Date_Range_Set_Actions/2021_10_20_WW42_Date_Range_Set_Actions
+    filename: 2021_10_20_WW_42_Date_Range_Set_Actions.twbx
+    sha256: 65859ddada895bdfbb7fa3208fcce667ce82ba21d06bd1669af8a0ffb9a40dbf
+verification_status: pending
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts:
+- path: outputs/baseline-a1-replicated-workbook.twbx
+  sha256: 8bde283a50c310733d3db73262bb65a77e8eaabc2058800a2e3f67b84c596f74
+  role: probe
+  note: Frozen original a1 baseline, relocated from evidence/baseline-a1/outputs to
+    satisfy the phase boundary. Its evidence remains in evidence/baseline-a1/evidence.
+evidence:
+- inputs/source-lock.json
+- evidence/local-verification.json
+- evidence/runtime-acceptance.md
+- evidence/handoff.json
+- evidence/cloud-verification.json
+- evidence/cloud-csv.json
+- evidence/candidate-runtime.md
+- evidence/independent-review.md
+- evidence/desktop-parent-check.json
+- evidence/desktop-corpus.json
+notes:
+- Original a1 local-only pass did not test VizQL partitioning. Its immutable evidence
+  is archived under evidence/baseline-a1/evidence; the original runs entry is retained
+  verbatim.
+- Candidate SDK 0.29.0a2 at 11d72ebe5b7720035e26150bd16af72d67a35bba contains Text
+  addressing/forwarding and native set rich-label dependency fixes; this is an unreleased
+  source candidate, not the published a2 tag.
+- Layered Trend binds both band endpoints on each pane; explicit Field addressing
+  restores peak-only labels. Layered donut provides worksheet-specific rank colors.
+- Cloud default renders and worksheet CSV validate numeric results and readability.
+  Browser events remain untested because MFA is unavailable.
+- Distinct-month arithmetic average is intentional; donut wedge order differs from
+  author, which does not change rank colors or totals.
+cwtwb:
+  tested_version: 0.29.0a2
+  tested_commit: 11d72ebe5b7720035e26150bd16af72d67a35bba
+  runs:
+  - version: 0.29.0a1
+    commit: 23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c
+    date: '2026-10-28'
+    result: pass
+    scope: Local public-API build, XSD, contracts and emitted-formula numerical evaluation
+      only; Desktop and interaction acceptance pending.
+    evidence: evidence/local-verification.json
+  - version: 0.29.0a2
+    commit: 11d72ebe5b7720035e26150bd16af72d67a35bba
+    date: '2026-10-28'
+    result: pass
+    scope: Unreleased SDK source candidate; seven local contracts, six numerical states,
+      nine negative mutations plus positive control, XSD no strict errors; default
+      Cloud render/CSV. Real selection events remain pending.
+    evidence: evidence/local-verification.json
+analysis_status: completed
+functional_status: partial
+visual_status: acceptable_delta
+cwtwb_result: pass
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/TEMP_0vk99460mvko1c1383vmf0pl4zzq.hyper
+acceptance:
+- id: default-state
+  description: Serialized native date set contains exactly Oct 2020 through Jun 2021
+    inclusive, nine members.
+  mode: automated
+- id: native-set-action
+  description: Exactly one native multi-mark on-select assignment targets Selected
+    Months from Trend; clear uses do-nothing; no parameter or filter actions.
+  mode: automated
+- id: reference-band
+  description: Trend retains all 48 months with gray total and purple selected lines,
+    paired field-backed First Month/Last Month reference band.
+  mode: automated
+- id: six-views
+  description: 1000x800 dashboard contains overall/selected summaries, trend, state
+    donut, ranked top-state table and native filled map with correct encodings and
+    set filters.
+  mode: automated
+- id: raw-data-numerics
+  description: Packaged Hyper equals raw input byte-for-byte; 9994 rows and overall
+    total 2297200.8603; arithmetic monthly average 47858.35125625.
+  mode: automated
+- id: selection-state-numerics
+  description: Evaluate emitted calculations for default, Q1 2019, June 2021 alone,
+    disjoint Oct 2020/Jun 2021, all months and empty set; compare totals, count, mean,
+    endpoints, change, selected trend and peak to independent raw-row Python oracle.
+  mode: automated
+- id: state-ranking
+  description: For each selection, compare every state total, competition rank, share
+    of all selected-state sales, top-three membership and donut rank color to independent
+    raw data.
+  mode: automated
+- id: desktop-load
+  description: Parent must obtain LOADED for the final frozen artifact; FAIL and UNKNOWN
+    are failures.
+  mode: manual
+  evidence: evidence/runtime-acceptance.md
+- id: native-interaction-runtime
+  description: 'Parent selects Q1 2019 marks, clears selection, then selects June
+    2021 alone and Ctrl-selects disjoint Oct 2020/Jun 2021: set membership, summaries,
+    band, both trend layers, donut, top-three table and map must update together without
+    changing global summary.'
+  mode: manual
+  evidence: evidence/runtime-acceptance.md
+- id: runtime-render
+  description: Parent confirms the six views render nonempty as appropriate, synchronized
+    trend and donut axes, rank colors, US state geocoding and labels; compare displayed
+    figures to local-verification.json.
+  mode: manual
+  evidence: evidence/runtime-acceptance.md
+- id: desktop-corpus
+  description: Parent runs mandatory Desktop corpus regression and records LOADED=50
+    FAIL=0 UNKNOWN=0 or explains corpus-policy update.
+  mode: manual
+  evidence: evidence/runtime-acceptance.md
+remaining_work: Real selection, replacement, clearing and Ctrl-select linked-view
+  runtime tests after browser MFA. Functional status stays partial; static, numeric,
+  default Cloud, independent review and Desktop/corpus gates pass.
+workarounds: []
+capability_gaps:
+- Released a1 Text configure_chart dropped table_calc_overrides; fixed in candidate
+  SDK.
+- Native set dependencies in custom rich labels and nested calculations needed generic
+  SDK repair; fixed in candidate.
+related_cwtwb_issues:
+- https://github.com/aidatacooper/cwtwb/pull/22
