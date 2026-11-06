@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-29",
+  "source_workbook": {
+    "filename": "2021_11_10_WW45_Customer_Purchase_Behaviour_RFM_Analysis.twbx",
+    "bytes": 237302,
+    "sha256": "2162fe1ead72bf441b9ef70d20bc2237f11f13fd1ba6c2cfd0e10a1ea857011a",
+    "url": null
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/TableauTemp/TEMP_0hqe4ej0o53vlw1ghl4fi0mgozri.hyper",
+      "file": "inputs/TEMP_0hqe4ej0o53vlw1ghl4fi0mgozri.hyper",
+      "bytes": 655360,
+      "sha256": "3d7d4268442d134e8fb2b9e83889d14853a15310190c050da8e8cc8894b1ff2b"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

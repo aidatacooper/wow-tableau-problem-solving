@@ -1,1776 +1,1407 @@
 {
-    "schema_version":  "2.0.0",
-    "generated_from":  "usage/case-index.json",
-    "selection_policy":  "exclude_consumed_cases_from_future_feature_iterations",
-    "legacy_case_ids":  {
-                            "donna-2019-07-18-63877b35d19a":  "wow-2019-ww29-high-orders",
-                            "donna-2019-07-25-59a0a144b25b":  "wow-2019-ww30-navigation-kpi",
-                            "donna-2019-08-04-a73aff7c512b":  "wow-2019-ww31-hub-spoke-map",
-                            "donna-2019-08-09-22359581fc60":  "wow-2019-ww32-step-area-chart",
-                            "donna-2019-08-14-9a4c743596c1":  "wow-2019-ww33-table-formatting",
-                            "donna-2019-09-02-0574e1681ed3":  "wow-2019-ww34-top-n-single-worksheet",
-                            "ww35-drill-up-down-parameter-actions":  "wow-2019-ww35-drill-up-down-parameter-actions",
-                            "donna-2019-09-04-8a2ea632c5e3":  "wow-2019-ww35-drill-up-down-parameter-actions",
-                            "ww36-custom-axis-tracker":  "wow-2019-ww36-custom-axis-tracker",
-                            "donna-2019-09-09-09185442a3ca":  "wow-2019-ww36-custom-axis-tracker",
-                            "ww37-rounded-bar-chart":  "wow-2019-ww37-rounded-bar-chart",
-                            "donna-2019-09-13-8185d5f271a8":  "wow-2019-ww37-rounded-bar-chart",
-                            "ww38-performance-indicators":  "wow-2019-ww38-performance-indicators",
-                            "donna-2019-09-20-a506ffb49a93":  "wow-2019-ww38-performance-indicators",
-                            "ww39-bcg-growth-share-matrix":  "wow-2019-ww39-bcg-growth-share-matrix",
-                            "donna-2019-09-29-6d6b32cf0212":  "wow-2019-ww39-bcg-growth-share-matrix",
-                            "ww40-show-hide-sheets":  "wow-2019-ww40-show-hide-sheets",
-                            "donna-2019-10-07-c6cbb44290da":  "wow-2019-ww40-show-hide-sheets",
-                            "ww41-customers-costing-us":  "wow-2019-ww41-customers-costing-us",
-                            "donna-2019-10-14-2a931f3fa584":  "wow-2019-ww41-customers-costing-us",
-                            "ww42-comparative-line-dynamic-inputs":  "wow-2019-ww42-comparative-line-dynamic-inputs",
-                            "donna-2019-10-19-763dfd1c3919":  "wow-2019-ww42-comparative-line-dynamic-inputs",
-                            "ww43-las-vegas-casinos":  "wow-2019-ww43-las-vegas-casinos",
-                            "donna-2019-10-25-f729b0153273":  "wow-2019-ww43-las-vegas-casinos",
-                            "ww44-sales-calendar-top3":  "wow-2019-ww44-sales-calendar-top3",
-                            "donna-2019-11-01-8c1dddc00cf7":  "wow-2019-ww44-sales-calendar-top3",
-                            "ww45-donut-calendar":  "wow-2019-ww45-donut-calendar",
-                            "donna-2019-11-11-95310fa6206d":  "wow-2019-ww45-donut-calendar",
-                            "donna-2026-02-02-5ebab8421caf":  "wow-2026-ww04-dynamic-moving-average",
-                            "donna-2026-02-09-1eb979fd64b6":  "wow-2026-ww05-kpi-period-comparison",
-                            "donna-2026-02-15-44019b20eed6":  "wow-2026-ww06-null-safe-averages"
-                        },
-    "consumed_cases":  [
-                           {
-                               "case_id":  "wow-2019-ww29-high-orders",
-                               "legacy_case_ids":  {
-                                                       "donna-2019-07-18-63877b35d19a":  "wow-2019-ww29-high-orders"
-                                                   },
-                               "workbook_ids":  [
-                                                    "tableau-e27da65b4c05126c"
-                                                ],
-                               "iteration":  "2019-07-18-ww29-high-orders",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2019-ww30-navigation-kpi",
-                               "legacy_case_ids":  {
-                                                       "donna-2019-07-25-59a0a144b25b":  "wow-2019-ww30-navigation-kpi"
-                                                   },
-                               "workbook_ids":  [
-                                                    "tableau-2dde40c2999debb2"
-                                                ],
-                               "iteration":  "2019-07-25-ww30-navigation-kpi",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2019-ww31-hub-spoke-map",
-                               "legacy_case_ids":  {
-                                                       "donna-2019-08-04-a73aff7c512b":  "wow-2019-ww31-hub-spoke-map"
-                                                   },
-                               "workbook_ids":  [
-                                                    "tableau-29b75742e9f36c7d"
-                                                ],
-                               "iteration":  "2019-08-04-ww31-hub-spoke-map",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2019-ww32-step-area-chart",
-                               "legacy_case_ids":  {
-                                                       "donna-2019-08-09-22359581fc60":  "wow-2019-ww32-step-area-chart"
-                                                   },
-                               "workbook_ids":  [
-                                                    "tableau-a671a1f433d4dcca"
-                                                ],
-                               "iteration":  "2019-08-09-ww32-step-area-chart",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2019-ww33-table-formatting",
-                               "legacy_case_ids":  {
-                                                       "donna-2019-08-14-9a4c743596c1":  "wow-2019-ww33-table-formatting"
-                                                   },
-                               "workbook_ids":  [
-                                                    "tableau-ef34c4522d594504"
-                                                ],
-                               "iteration":  "2019-08-14-ww33-table-formatting",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2019-ww34-top-n-single-worksheet",
-                               "legacy_case_ids":  {
-                                                       "donna-2019-09-02-0574e1681ed3":  "wow-2019-ww34-top-n-single-worksheet"
-                                                   },
-                               "workbook_ids":  [
-                                                    "tableau-6a0f09eb8e220c36"
-                                                ],
-                               "iteration":  "2019-09-02-ww34-top-n-single-worksheet",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2019-ww35-drill-up-down-parameter-actions",
-                               "legacy_case_ids":  {
-                                                       "ww35-drill-up-down-parameter-actions":  "wow-2019-ww35-drill-up-down-parameter-actions",
-                                                       "donna-2019-09-04-8a2ea632c5e3":  "wow-2019-ww35-drill-up-down-parameter-actions"
-                                                   },
-                               "workbook_ids":  [
-                                                    "tableau-22f20c6a451a043c"
-                                                ],
-                               "iteration":  "2019-09-04-ww35-drill-up-down-parameter-actions",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "historical",
-                               "cwtwb_version":  "0.26.0",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2019-ww36-custom-axis-tracker",
-                               "legacy_case_ids":  {
-                                                       "ww36-custom-axis-tracker":  "wow-2019-ww36-custom-axis-tracker",
-                                                       "donna-2019-09-09-09185442a3ca":  "wow-2019-ww36-custom-axis-tracker"
-                                                   },
-                               "workbook_ids":  [
-                                                    "tableau-1874fb03b8c9d8f5"
-                                                ],
-                               "iteration":  "2019-09-09-ww36-custom-axis-tracker",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2019-ww37-rounded-bar-chart",
-                               "legacy_case_ids":  {
-                                                       "ww37-rounded-bar-chart":  "wow-2019-ww37-rounded-bar-chart",
-                                                       "donna-2019-09-13-8185d5f271a8":  "wow-2019-ww37-rounded-bar-chart"
-                                                   },
-                               "workbook_ids":  [
-                                                    "tableau-0468091b2518e339"
-                                                ],
-                               "iteration":  "2019-09-13-ww37-rounded-bar-chart",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "historical",
-                               "cwtwb_version":  "0.26.0",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2019-ww38-performance-indicators",
-                               "legacy_case_ids":  {
-                                                       "ww38-performance-indicators":  "wow-2019-ww38-performance-indicators",
-                                                       "donna-2019-09-20-a506ffb49a93":  "wow-2019-ww38-performance-indicators"
-                                                   },
-                               "workbook_ids":  [
-                                                    "tableau-51b5fa6847f4bc4f"
-                                                ],
-                               "iteration":  "2019-09-20-ww38-performance-indicators",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "historical",
-                               "cwtwb_version":  "0.26.0",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2019-ww39-bcg-growth-share-matrix",
-                               "legacy_case_ids":  {
-                                                       "ww39-bcg-growth-share-matrix":  "wow-2019-ww39-bcg-growth-share-matrix",
-                                                       "donna-2019-09-29-6d6b32cf0212":  "wow-2019-ww39-bcg-growth-share-matrix"
-                                                   },
-                               "workbook_ids":  [
-                                                    "tableau-53ec396e1c075d48"
-                                                ],
-                               "iteration":  "2019-09-29-ww39-bcg-growth-share-matrix",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "historical",
-                               "cwtwb_version":  "0.26.0",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2019-ww40-show-hide-sheets",
-                               "legacy_case_ids":  {
-                                                       "ww40-show-hide-sheets":  "wow-2019-ww40-show-hide-sheets",
-                                                       "donna-2019-10-07-c6cbb44290da":  "wow-2019-ww40-show-hide-sheets"
-                                                   },
-                               "workbook_ids":  [
-                                                    "tableau-e569390c96a4660d"
-                                                ],
-                               "iteration":  "2019-10-07-ww40-show-hide-sheets",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "historical",
-                               "cwtwb_version":  "0.26.0",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2019-ww41-customers-costing-us",
-                               "legacy_case_ids":  {
-                                                       "ww41-customers-costing-us":  "wow-2019-ww41-customers-costing-us",
-                                                       "donna-2019-10-14-2a931f3fa584":  "wow-2019-ww41-customers-costing-us"
-                                                   },
-                               "workbook_ids":  [
-                                                    "tableau-706718c7135bb81d"
-                                                ],
-                               "iteration":  "2019-10-14-ww41-customers-costing-us",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "historical",
-                               "cwtwb_version":  "0.26.0",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2019-ww42-comparative-line-dynamic-inputs",
-                               "legacy_case_ids":  {
-                                                       "ww42-comparative-line-dynamic-inputs":  "wow-2019-ww42-comparative-line-dynamic-inputs",
-                                                       "donna-2019-10-19-763dfd1c3919":  "wow-2019-ww42-comparative-line-dynamic-inputs"
-                                                   },
-                               "workbook_ids":  [
-                                                    "tableau-c818ef140b9c68aa"
-                                                ],
-                               "iteration":  "2019-10-19-ww42-comparative-line-dynamic-inputs",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "historical",
-                               "cwtwb_version":  "0.26.0",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2019-ww43-las-vegas-casinos",
-                               "legacy_case_ids":  {
-                                                       "ww43-las-vegas-casinos":  "wow-2019-ww43-las-vegas-casinos",
-                                                       "donna-2019-10-25-f729b0153273":  "wow-2019-ww43-las-vegas-casinos"
-                                                   },
-                               "workbook_ids":  [
-                                                    "tableau-5c0953826e64cb57"
-                                                ],
-                               "iteration":  "2019-10-25-ww43-las-vegas-casinos",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "historical",
-                               "cwtwb_version":  "0.26.0",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2019-ww44-sales-calendar-top3",
-                               "legacy_case_ids":  {
-                                                       "ww44-sales-calendar-top3":  "wow-2019-ww44-sales-calendar-top3",
-                                                       "donna-2019-11-01-8c1dddc00cf7":  "wow-2019-ww44-sales-calendar-top3"
-                                                   },
-                               "workbook_ids":  [
-                                                    "tableau-1d067d7acec45261"
-                                                ],
-                               "iteration":  "2019-11-01-ww44-sales-calendar-top3",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "historical",
-                               "cwtwb_version":  "0.26.0",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2019-ww45-donut-calendar",
-                               "legacy_case_ids":  {
-                                                       "ww45-donut-calendar":  "wow-2019-ww45-donut-calendar",
-                                                       "donna-2019-11-11-95310fa6206d":  "wow-2019-ww45-donut-calendar"
-                                                   },
-                               "workbook_ids":  [
-                                                    "tableau-7f382e42a28ea0a9"
-                                                ],
-                               "iteration":  "2019-11-11-ww45-donut-calendar",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "historical",
-                               "cwtwb_version":  "0.27.0",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2019-ww46-dynamic-scatter-brushing",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2019-11-17-ww46-dynamic-scatter-brushing",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2019-ww47-explain-data-dashboard",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2019-11-23-ww47-explain-data-dashboard",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2019-ww48-small-contributions",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2019-12-02-ww48-small-contributions",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2019-ww49-swap-states",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2019-12-08-ww49-swap-states",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2019-ww50-retention-heatmap",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2019-12-15-ww50-retention-heatmap",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2019-ww51-sales-performance-dashboard",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2019-12-23-ww51-sales-performance-dashboard",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2020-ww01-single-click-sort",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2020-01-04-ww01-single-click-sort",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2020-ww02-dynamic-bar-chart",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2020-01-11-ww02-dynamic-bar-chart",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2020-ww03-time-visualisation",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2020-01-19-ww03-time-visualisation",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2020-ww04-relative-custom-dates",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2020-01-25-ww04-relative-custom-dates",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2020-ww05-regions-rank-month-to-month",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2020-02-02-ww05-regions-rank-month-to-month",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2020-ww06-mom-progress-report",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2020-02-09-ww06-mom-progress-report",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2020-ww07-forecast-target-parameters",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2020-02-16-ww07-forecast-target-parameters",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2020-ww08-concatenated-list",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2020-02-22-ww08-concatenated-list",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2020-ww09-90-day-reorder",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2020-02-29-ww09-90-day-reorder",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2020-ww10-spatial-buffers",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2020-03-07-ww10-spatial-buffers",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2020-ww11-smart-ranked-lists",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2020-03-13-ww11-smart-ranked-lists",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2020-ww12-missing-periods-autosize-bars",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2020-03-21-ww12-missing-periods-autosize-bars",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2020-ww13-simple-sales-dashboard",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2020-03-28-ww13-simple-sales-dashboard",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2020-ww14-sales-pipeline",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2020-04-04-ww14-sales-pipeline",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2020-ww15-dynamic-week-start",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2020-04-10-ww15-dynamic-week-start",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2020-ww16-adjusted-target-missing-pipeline",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2020-04-17-ww16-adjusted-target-missing-pipeline",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2020-ww17-weekday-run-rate",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2020-04-25-ww17-weekday-run-rate",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2020-ww18-most-profitable-products",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2020-05-03-ww18-most-profitable-products",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2020-ww19-dynamic-date-drilling",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2020-05-08-ww19-dynamic-date-drilling",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2020-ww20-state-contribution",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2020-05-15-ww20-state-contribution",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2020-ww21-automatic-phone-layout",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2020-05-22-ww21-automatic-phone-layout",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2020-ww22-profitability-budget",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2020-05-29-ww22-profitability-budget",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2020-ww23-excel-style-bars",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2020-06-05-ww23-excel-style-bars",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2020-ww24-moving-average-trend",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2020-06-12-ww24-moving-average-trend",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2020-ww25-pizza-toppings-set-actions",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2020-06-20-ww25-pizza-toppings-set-actions",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2020-ww26-fiscal-year-reporting",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2020-06-27-ww26-fiscal-year-reporting",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2020-ww27-customer-order-distribution",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2020-07-03-ww27-customer-order-distribution",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2020-ww28-sales-versus-goal",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2020-07-10-ww28-sales-versus-goal",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2020-ww29-dynamic-heatmap-labels",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2020-07-18-ww29-dynamic-heatmap-labels",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2020-ww30-set-action-drill-down",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2020-07-24-ww30-set-action-drill-down",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2020-ww31-olympic-rank-bump-chart",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2020-08-01-ww31-olympic-rank-bump-chart",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2020-ww32-covid-state-cartogram",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2020-08-07-ww32-covid-state-cartogram",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2020-ww33-connected-profit-quantity-scatter",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2020-08-12-ww33-connected-profit-quantity-scatter",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2020-ww36-counties-within-radius",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2020-09-06-ww36-counties-within-radius",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2020-ww37-year-on-year-trend",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2020-09-11-ww37-year-on-year-trend",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2020-ww38-daily-weekly-sales",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2020-09-19-ww38-daily-weekly-sales",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2020-ww39-mobile-calendar-picker",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2020-09-26-ww39-mobile-calendar-picker",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2020-ww40-football-table-enhancements",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2020-10-03-ww40-football-table-enhancements",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2020-ww41-per-dimension-reference-lines",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2020-10-09-ww41-per-dimension-reference-lines",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2020-ww42-strava-workout-calendar",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2020-10-16-ww42-strava-workout-calendar",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2020-ww43-mobile-kpi-expansion",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2020-10-22-ww43-mobile-kpi-expansion",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2020-ww44-small-multiple-waterfall",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2020-10-30-ww44-small-multiple-waterfall",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2020-ww45-state-top10-products",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2020-11-06-ww45-state-top10-products",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2020-ww46-premier-league-table",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2020-11-13-ww46-premier-league-table",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2020-ww47-clustered-histogram",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2020-11-20-ww47-clustered-histogram",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2020-ww48-variable-width-bar",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2020-11-27-ww48-variable-width-bar",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2020-ww49-and-or-filtering",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2020-12-04-ww49-and-or-filtering",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2020-ww50-profit-measure-names",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2020-12-11-ww50-profit-measure-names",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2020-ww51-divergent-histogram",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2020-12-18-ww51-divergent-histogram",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2021-ww01-line-variance",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2021-01-08-ww01-line-variance",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2021-ww02-customer-lifetime-matrix",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2021-01-14-ww02-customer-lifetime-matrix",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2021-ww03-control-chart",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2021-01-22-ww03-control-chart",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2021-ww04-map-layers",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2021-01-28-ww04-map-layers",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2021-ww05-predicting-the-future",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2021-02-04-ww05-predicting-the-future",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2021-ww06-fancy-text-table",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2021-02-11-ww06-fancy-text-table",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2021-ww07-emoji-sentiment-rating",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2021-02-18-ww07-emoji-sentiment-rating",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2021-ww08-brush-filter-extension",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2021-02-25-ww08-brush-filter-extension",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2021-ww09-hide-chart-map-layers",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2021-03-04-ww09-hide-chart-map-layers",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2021-ww10-must-include-filter",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2021-03-11-ww10-must-include-filter",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2021-ww11-hans-rosling",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2021-03-18-ww11-hans-rosling",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2021-ww12-comparative-quantity",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2021-03-25-ww12-comparative-quantity",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2021-ww13-sub-orders-profitable",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2021-04-01-ww13-sub-orders-profitable",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2021-ww14-market-basket",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2021-04-08-ww14-market-basket",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2021-ww15-website-analytics",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2021-04-15-ww15-website-analytics",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2021-ww16-quick-lods",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2021-04-23-ww16-quick-lods",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2021-ww17-generation-population",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2021-04-29-ww17-generation-population",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2021-ww19-map-layers",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2021-05-13-ww19-map-layers",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2021-ww20-can-you-compare-same-day-to-a-selected-date",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2021-05-20-ww20-can-you-compare-same-day-to-a-selected-date",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2021-ww21-how-often-is-sean-listening-to-his-favourite-songs",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2021-05-28-ww21-how-often-is-sean-listening-to-his-favourite-songs",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2021-ww22-can-you-structure-the-unstructured",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2021-06-03-ww22-can-you-structure-the-unstructured",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2021-ww23-sales-goal-selection-tool",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2021-06-11-ww23-sales-goal-selection-tool",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2021-ww24-can-you-visualise-the-cholera-outbreak",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2021-06-17-ww24-can-you-visualise-the-cholera-outbreak",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2021-ww25-can-you-make-spine-charts",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2021-06-25-ww25-can-you-make-spine-charts",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2021-ww26-profitability-with-dual-axis-charts",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2021-07-01-ww26-profitability-with-dual-axis-charts",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2021-ww27-can-you-find-the-top-and-bottom-performers",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2021-07-08-ww27-can-you-find-the-top-and-bottom-performers",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2021-ww28-can-you-build-an-app-to-visualise-wildfires",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2021-07-15-ww28-can-you-build-an-app-to-visualise-wildfires",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2021-ww43-filtering-table-calcs",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2021-10-28-ww43-filtering-table-calcs",
-                               "status":  "consumed",
-                               "replication_status":  "partial",
-                               "verification_status":  "pending",
-                               "cwtwb_version":  "0.29.0a2",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2021-ww44-can-you-show-the-top-and-bottom-profit-performers-for-the-selected-time-period",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2021-11-04-ww44-can-you-show-the-top-and-bottom-profit-performers-for-the-selected-time-period",
-                               "status":  "consumed",
-                               "replication_status":  "partial",
-                               "verification_status":  "pending",
-                               "cwtwb_version":  "0.29.0a2",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2021-ww48-tableau-coaches-favourite-challenges-advent-calendar",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2021-12-02-ww48-tableau-coaches-favourite-challenges-advent-calendar",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.29.0a2",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2021-ww49-which-sub-categories-are-frequently-ordered-together",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2021-12-12-ww49-which-sub-categories-are-frequently-ordered-together",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.29.0a2",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2022-ww32-dumbbell-chart",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2022-08-12-ww32-dumbbell-chart",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2023-ww14-baseball-game-duration",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2023-04-07-ww14-baseball-game-duration",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2023-ww48-bars-and-candlesticks",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2023-11-30-ww48-bars-and-candlesticks",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2025-ww45-population-pyramid",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2025-11-07-ww45-population-pyramid",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2026-ww04-dynamic-moving-average",
-                               "legacy_case_ids":  {
-                                                       "donna-2026-02-02-5ebab8421caf":  "wow-2026-ww04-dynamic-moving-average"
-                                                   },
-                               "workbook_ids":  [
-                                                    "tableau-90f17c56b06029af"
-                                                ],
-                               "iteration":  "2026-02-02-ww04-dynamic-moving-average",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2026-ww05-kpi-period-comparison",
-                               "legacy_case_ids":  {
-                                                       "donna-2026-02-09-1eb979fd64b6":  "wow-2026-ww05-kpi-period-comparison"
-                                                   },
-                               "workbook_ids":  [
-                                                    "tableau-93c74baea48daf50"
-                                                ],
-                               "iteration":  "2026-02-09-ww05-kpi-period-comparison",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2026-ww06-null-safe-averages",
-                               "legacy_case_ids":  {
-                                                       "donna-2026-02-15-44019b20eed6":  "wow-2026-ww06-null-safe-averages"
-                                                   },
-                               "workbook_ids":  [
-                                                    "tableau-f9dff954fb215221"
-                                                ],
-                               "iteration":  "2026-02-15-ww06-null-safe-averages",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2026-ww07-table-calcs-vs-lods",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2026-02-26-ww07-table-calcs-vs-lods",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2026-ww08-dzv-filter-actions",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2026-03-01-ww08-dzv-filter-actions",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2026-ww09-parallel-coordinates",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2026-03-12-ww09-parallel-coordinates",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2026-ww11-layout-containers",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2026-03-23-ww11-layout-containers",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           },
-                           {
-                               "case_id":  "wow-2026-ww14-correct-metric",
-                               "legacy_case_ids":  {
-
-                                                   },
-                               "workbook_ids":  [
-
-                                                ],
-                               "iteration":  "2026-04-13-ww14-correct-metric",
-                               "status":  "consumed",
-                               "replication_status":  "replicated",
-                               "verification_status":  "verified",
-                               "cwtwb_version":  "0.27.1",
-                               "reason":  "Derived from case metadata; consumed means claimed, not verified completed."
-                           }
-                       ]
+  "schema_version": "2.0.0",
+  "generated_from": "usage/case-index.json",
+  "selection_policy": "exclude_consumed_cases_from_future_feature_iterations",
+  "legacy_case_ids": {
+    "donna-2019-07-18-63877b35d19a": "wow-2019-ww29-high-orders",
+    "donna-2019-07-25-59a0a144b25b": "wow-2019-ww30-navigation-kpi",
+    "donna-2019-08-04-a73aff7c512b": "wow-2019-ww31-hub-spoke-map",
+    "donna-2019-08-09-22359581fc60": "wow-2019-ww32-step-area-chart",
+    "donna-2019-08-14-9a4c743596c1": "wow-2019-ww33-table-formatting",
+    "donna-2019-09-02-0574e1681ed3": "wow-2019-ww34-top-n-single-worksheet",
+    "ww35-drill-up-down-parameter-actions": "wow-2019-ww35-drill-up-down-parameter-actions",
+    "donna-2019-09-04-8a2ea632c5e3": "wow-2019-ww35-drill-up-down-parameter-actions",
+    "ww36-custom-axis-tracker": "wow-2019-ww36-custom-axis-tracker",
+    "donna-2019-09-09-09185442a3ca": "wow-2019-ww36-custom-axis-tracker",
+    "ww37-rounded-bar-chart": "wow-2019-ww37-rounded-bar-chart",
+    "donna-2019-09-13-8185d5f271a8": "wow-2019-ww37-rounded-bar-chart",
+    "ww38-performance-indicators": "wow-2019-ww38-performance-indicators",
+    "donna-2019-09-20-a506ffb49a93": "wow-2019-ww38-performance-indicators",
+    "ww39-bcg-growth-share-matrix": "wow-2019-ww39-bcg-growth-share-matrix",
+    "donna-2019-09-29-6d6b32cf0212": "wow-2019-ww39-bcg-growth-share-matrix",
+    "ww40-show-hide-sheets": "wow-2019-ww40-show-hide-sheets",
+    "donna-2019-10-07-c6cbb44290da": "wow-2019-ww40-show-hide-sheets",
+    "ww41-customers-costing-us": "wow-2019-ww41-customers-costing-us",
+    "donna-2019-10-14-2a931f3fa584": "wow-2019-ww41-customers-costing-us",
+    "ww42-comparative-line-dynamic-inputs": "wow-2019-ww42-comparative-line-dynamic-inputs",
+    "donna-2019-10-19-763dfd1c3919": "wow-2019-ww42-comparative-line-dynamic-inputs",
+    "ww43-las-vegas-casinos": "wow-2019-ww43-las-vegas-casinos",
+    "donna-2019-10-25-f729b0153273": "wow-2019-ww43-las-vegas-casinos",
+    "ww44-sales-calendar-top3": "wow-2019-ww44-sales-calendar-top3",
+    "donna-2019-11-01-8c1dddc00cf7": "wow-2019-ww44-sales-calendar-top3",
+    "ww45-donut-calendar": "wow-2019-ww45-donut-calendar",
+    "donna-2019-11-11-95310fa6206d": "wow-2019-ww45-donut-calendar",
+    "donna-2026-02-02-5ebab8421caf": "wow-2026-ww04-dynamic-moving-average",
+    "donna-2026-02-09-1eb979fd64b6": "wow-2026-ww05-kpi-period-comparison",
+    "donna-2026-02-15-44019b20eed6": "wow-2026-ww06-null-safe-averages"
+  },
+  "consumed_cases": [
+    {
+      "case_id": "wow-2019-ww29-high-orders",
+      "legacy_case_ids": {
+        "donna-2019-07-18-63877b35d19a": "wow-2019-ww29-high-orders"
+      },
+      "workbook_ids": [
+        "tableau-e27da65b4c05126c"
+      ],
+      "iteration": "2019-07-18-ww29-high-orders",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2019-ww30-navigation-kpi",
+      "legacy_case_ids": {
+        "donna-2019-07-25-59a0a144b25b": "wow-2019-ww30-navigation-kpi"
+      },
+      "workbook_ids": [
+        "tableau-2dde40c2999debb2"
+      ],
+      "iteration": "2019-07-25-ww30-navigation-kpi",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2019-ww31-hub-spoke-map",
+      "legacy_case_ids": {
+        "donna-2019-08-04-a73aff7c512b": "wow-2019-ww31-hub-spoke-map"
+      },
+      "workbook_ids": [
+        "tableau-29b75742e9f36c7d"
+      ],
+      "iteration": "2019-08-04-ww31-hub-spoke-map",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2019-ww32-step-area-chart",
+      "legacy_case_ids": {
+        "donna-2019-08-09-22359581fc60": "wow-2019-ww32-step-area-chart"
+      },
+      "workbook_ids": [
+        "tableau-a671a1f433d4dcca"
+      ],
+      "iteration": "2019-08-09-ww32-step-area-chart",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2019-ww33-table-formatting",
+      "legacy_case_ids": {
+        "donna-2019-08-14-9a4c743596c1": "wow-2019-ww33-table-formatting"
+      },
+      "workbook_ids": [
+        "tableau-ef34c4522d594504"
+      ],
+      "iteration": "2019-08-14-ww33-table-formatting",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2019-ww34-top-n-single-worksheet",
+      "legacy_case_ids": {
+        "donna-2019-09-02-0574e1681ed3": "wow-2019-ww34-top-n-single-worksheet"
+      },
+      "workbook_ids": [
+        "tableau-6a0f09eb8e220c36"
+      ],
+      "iteration": "2019-09-02-ww34-top-n-single-worksheet",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2019-ww35-drill-up-down-parameter-actions",
+      "legacy_case_ids": {
+        "ww35-drill-up-down-parameter-actions": "wow-2019-ww35-drill-up-down-parameter-actions",
+        "donna-2019-09-04-8a2ea632c5e3": "wow-2019-ww35-drill-up-down-parameter-actions"
+      },
+      "workbook_ids": [
+        "tableau-22f20c6a451a043c"
+      ],
+      "iteration": "2019-09-04-ww35-drill-up-down-parameter-actions",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "historical",
+      "cwtwb_version": "0.26.0",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2019-ww36-custom-axis-tracker",
+      "legacy_case_ids": {
+        "ww36-custom-axis-tracker": "wow-2019-ww36-custom-axis-tracker",
+        "donna-2019-09-09-09185442a3ca": "wow-2019-ww36-custom-axis-tracker"
+      },
+      "workbook_ids": [
+        "tableau-1874fb03b8c9d8f5"
+      ],
+      "iteration": "2019-09-09-ww36-custom-axis-tracker",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2019-ww37-rounded-bar-chart",
+      "legacy_case_ids": {
+        "ww37-rounded-bar-chart": "wow-2019-ww37-rounded-bar-chart",
+        "donna-2019-09-13-8185d5f271a8": "wow-2019-ww37-rounded-bar-chart"
+      },
+      "workbook_ids": [
+        "tableau-0468091b2518e339"
+      ],
+      "iteration": "2019-09-13-ww37-rounded-bar-chart",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "historical",
+      "cwtwb_version": "0.26.0",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2019-ww38-performance-indicators",
+      "legacy_case_ids": {
+        "ww38-performance-indicators": "wow-2019-ww38-performance-indicators",
+        "donna-2019-09-20-a506ffb49a93": "wow-2019-ww38-performance-indicators"
+      },
+      "workbook_ids": [
+        "tableau-51b5fa6847f4bc4f"
+      ],
+      "iteration": "2019-09-20-ww38-performance-indicators",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "historical",
+      "cwtwb_version": "0.26.0",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2019-ww39-bcg-growth-share-matrix",
+      "legacy_case_ids": {
+        "ww39-bcg-growth-share-matrix": "wow-2019-ww39-bcg-growth-share-matrix",
+        "donna-2019-09-29-6d6b32cf0212": "wow-2019-ww39-bcg-growth-share-matrix"
+      },
+      "workbook_ids": [
+        "tableau-53ec396e1c075d48"
+      ],
+      "iteration": "2019-09-29-ww39-bcg-growth-share-matrix",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "historical",
+      "cwtwb_version": "0.26.0",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2019-ww40-show-hide-sheets",
+      "legacy_case_ids": {
+        "ww40-show-hide-sheets": "wow-2019-ww40-show-hide-sheets",
+        "donna-2019-10-07-c6cbb44290da": "wow-2019-ww40-show-hide-sheets"
+      },
+      "workbook_ids": [
+        "tableau-e569390c96a4660d"
+      ],
+      "iteration": "2019-10-07-ww40-show-hide-sheets",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "historical",
+      "cwtwb_version": "0.26.0",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2019-ww41-customers-costing-us",
+      "legacy_case_ids": {
+        "ww41-customers-costing-us": "wow-2019-ww41-customers-costing-us",
+        "donna-2019-10-14-2a931f3fa584": "wow-2019-ww41-customers-costing-us"
+      },
+      "workbook_ids": [
+        "tableau-706718c7135bb81d"
+      ],
+      "iteration": "2019-10-14-ww41-customers-costing-us",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "historical",
+      "cwtwb_version": "0.26.0",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2019-ww42-comparative-line-dynamic-inputs",
+      "legacy_case_ids": {
+        "ww42-comparative-line-dynamic-inputs": "wow-2019-ww42-comparative-line-dynamic-inputs",
+        "donna-2019-10-19-763dfd1c3919": "wow-2019-ww42-comparative-line-dynamic-inputs"
+      },
+      "workbook_ids": [
+        "tableau-c818ef140b9c68aa"
+      ],
+      "iteration": "2019-10-19-ww42-comparative-line-dynamic-inputs",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "historical",
+      "cwtwb_version": "0.26.0",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2019-ww43-las-vegas-casinos",
+      "legacy_case_ids": {
+        "ww43-las-vegas-casinos": "wow-2019-ww43-las-vegas-casinos",
+        "donna-2019-10-25-f729b0153273": "wow-2019-ww43-las-vegas-casinos"
+      },
+      "workbook_ids": [
+        "tableau-5c0953826e64cb57"
+      ],
+      "iteration": "2019-10-25-ww43-las-vegas-casinos",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "historical",
+      "cwtwb_version": "0.26.0",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2019-ww44-sales-calendar-top3",
+      "legacy_case_ids": {
+        "ww44-sales-calendar-top3": "wow-2019-ww44-sales-calendar-top3",
+        "donna-2019-11-01-8c1dddc00cf7": "wow-2019-ww44-sales-calendar-top3"
+      },
+      "workbook_ids": [
+        "tableau-1d067d7acec45261"
+      ],
+      "iteration": "2019-11-01-ww44-sales-calendar-top3",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "historical",
+      "cwtwb_version": "0.26.0",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2019-ww45-donut-calendar",
+      "legacy_case_ids": {
+        "ww45-donut-calendar": "wow-2019-ww45-donut-calendar",
+        "donna-2019-11-11-95310fa6206d": "wow-2019-ww45-donut-calendar"
+      },
+      "workbook_ids": [
+        "tableau-7f382e42a28ea0a9"
+      ],
+      "iteration": "2019-11-11-ww45-donut-calendar",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "historical",
+      "cwtwb_version": "0.27.0",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2019-ww46-dynamic-scatter-brushing",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2019-11-17-ww46-dynamic-scatter-brushing",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2019-ww47-explain-data-dashboard",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2019-11-23-ww47-explain-data-dashboard",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2019-ww48-small-contributions",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2019-12-02-ww48-small-contributions",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2019-ww49-swap-states",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2019-12-08-ww49-swap-states",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2019-ww50-retention-heatmap",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2019-12-15-ww50-retention-heatmap",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2019-ww51-sales-performance-dashboard",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2019-12-23-ww51-sales-performance-dashboard",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2020-ww01-single-click-sort",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-01-04-ww01-single-click-sort",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2020-ww02-dynamic-bar-chart",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-01-11-ww02-dynamic-bar-chart",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2020-ww03-time-visualisation",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-01-19-ww03-time-visualisation",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2020-ww04-relative-custom-dates",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-01-25-ww04-relative-custom-dates",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2020-ww05-regions-rank-month-to-month",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-02-02-ww05-regions-rank-month-to-month",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2020-ww06-mom-progress-report",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-02-09-ww06-mom-progress-report",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2020-ww07-forecast-target-parameters",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-02-16-ww07-forecast-target-parameters",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2020-ww08-concatenated-list",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-02-22-ww08-concatenated-list",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2020-ww09-90-day-reorder",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-02-29-ww09-90-day-reorder",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2020-ww10-spatial-buffers",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-03-07-ww10-spatial-buffers",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2020-ww11-smart-ranked-lists",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-03-13-ww11-smart-ranked-lists",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2020-ww12-missing-periods-autosize-bars",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-03-21-ww12-missing-periods-autosize-bars",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2020-ww13-simple-sales-dashboard",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-03-28-ww13-simple-sales-dashboard",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2020-ww14-sales-pipeline",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-04-04-ww14-sales-pipeline",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2020-ww15-dynamic-week-start",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-04-10-ww15-dynamic-week-start",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2020-ww16-adjusted-target-missing-pipeline",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-04-17-ww16-adjusted-target-missing-pipeline",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2020-ww17-weekday-run-rate",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-04-25-ww17-weekday-run-rate",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2020-ww18-most-profitable-products",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-05-03-ww18-most-profitable-products",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2020-ww19-dynamic-date-drilling",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-05-08-ww19-dynamic-date-drilling",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2020-ww20-state-contribution",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-05-15-ww20-state-contribution",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2020-ww21-automatic-phone-layout",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-05-22-ww21-automatic-phone-layout",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2020-ww22-profitability-budget",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-05-29-ww22-profitability-budget",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2020-ww23-excel-style-bars",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-06-05-ww23-excel-style-bars",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2020-ww24-moving-average-trend",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-06-12-ww24-moving-average-trend",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2020-ww25-pizza-toppings-set-actions",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-06-20-ww25-pizza-toppings-set-actions",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2020-ww26-fiscal-year-reporting",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-06-27-ww26-fiscal-year-reporting",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2020-ww27-customer-order-distribution",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-07-03-ww27-customer-order-distribution",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2020-ww28-sales-versus-goal",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-07-10-ww28-sales-versus-goal",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2020-ww29-dynamic-heatmap-labels",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-07-18-ww29-dynamic-heatmap-labels",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2020-ww30-set-action-drill-down",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-07-24-ww30-set-action-drill-down",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2020-ww31-olympic-rank-bump-chart",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-08-01-ww31-olympic-rank-bump-chart",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2020-ww32-covid-state-cartogram",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-08-07-ww32-covid-state-cartogram",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2020-ww33-connected-profit-quantity-scatter",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-08-12-ww33-connected-profit-quantity-scatter",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2020-ww36-counties-within-radius",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-09-06-ww36-counties-within-radius",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2020-ww37-year-on-year-trend",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-09-11-ww37-year-on-year-trend",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2020-ww38-daily-weekly-sales",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-09-19-ww38-daily-weekly-sales",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2020-ww39-mobile-calendar-picker",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-09-26-ww39-mobile-calendar-picker",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2020-ww40-football-table-enhancements",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-10-03-ww40-football-table-enhancements",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2020-ww41-per-dimension-reference-lines",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-10-09-ww41-per-dimension-reference-lines",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2020-ww42-strava-workout-calendar",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-10-16-ww42-strava-workout-calendar",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2020-ww43-mobile-kpi-expansion",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-10-22-ww43-mobile-kpi-expansion",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2020-ww44-small-multiple-waterfall",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-10-30-ww44-small-multiple-waterfall",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2020-ww45-state-top10-products",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-11-06-ww45-state-top10-products",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2020-ww46-premier-league-table",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-11-13-ww46-premier-league-table",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2020-ww47-clustered-histogram",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-11-20-ww47-clustered-histogram",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2020-ww48-variable-width-bar",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-11-27-ww48-variable-width-bar",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2020-ww49-and-or-filtering",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-12-04-ww49-and-or-filtering",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2020-ww50-profit-measure-names",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-12-11-ww50-profit-measure-names",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2020-ww51-divergent-histogram",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2020-12-18-ww51-divergent-histogram",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2021-ww01-line-variance",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2021-01-08-ww01-line-variance",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2021-ww02-customer-lifetime-matrix",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2021-01-14-ww02-customer-lifetime-matrix",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2021-ww03-control-chart",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2021-01-22-ww03-control-chart",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2021-ww04-map-layers",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2021-01-28-ww04-map-layers",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2021-ww05-predicting-the-future",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2021-02-04-ww05-predicting-the-future",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2021-ww06-fancy-text-table",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2021-02-11-ww06-fancy-text-table",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2021-ww07-emoji-sentiment-rating",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2021-02-18-ww07-emoji-sentiment-rating",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2021-ww08-brush-filter-extension",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2021-02-25-ww08-brush-filter-extension",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2021-ww09-hide-chart-map-layers",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2021-03-04-ww09-hide-chart-map-layers",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2021-ww10-must-include-filter",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2021-03-11-ww10-must-include-filter",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2021-ww11-hans-rosling",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2021-03-18-ww11-hans-rosling",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2021-ww12-comparative-quantity",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2021-03-25-ww12-comparative-quantity",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2021-ww13-sub-orders-profitable",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2021-04-01-ww13-sub-orders-profitable",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2021-ww14-market-basket",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2021-04-08-ww14-market-basket",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2021-ww15-website-analytics",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2021-04-15-ww15-website-analytics",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2021-ww16-quick-lods",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2021-04-23-ww16-quick-lods",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2021-ww17-generation-population",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2021-04-29-ww17-generation-population",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2021-ww19-map-layers",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2021-05-13-ww19-map-layers",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2021-ww20-can-you-compare-same-day-to-a-selected-date",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2021-05-20-ww20-can-you-compare-same-day-to-a-selected-date",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2021-ww21-how-often-is-sean-listening-to-his-favourite-songs",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2021-05-28-ww21-how-often-is-sean-listening-to-his-favourite-songs",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2021-ww22-can-you-structure-the-unstructured",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2021-06-03-ww22-can-you-structure-the-unstructured",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2021-ww23-sales-goal-selection-tool",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2021-06-11-ww23-sales-goal-selection-tool",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2021-ww24-can-you-visualise-the-cholera-outbreak",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2021-06-17-ww24-can-you-visualise-the-cholera-outbreak",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2021-ww25-can-you-make-spine-charts",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2021-06-25-ww25-can-you-make-spine-charts",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2021-ww26-profitability-with-dual-axis-charts",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2021-07-01-ww26-profitability-with-dual-axis-charts",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2021-ww27-can-you-find-the-top-and-bottom-performers",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2021-07-08-ww27-can-you-find-the-top-and-bottom-performers",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2021-ww28-can-you-build-an-app-to-visualise-wildfires",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2021-07-15-ww28-can-you-build-an-app-to-visualise-wildfires",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2021-ww42-can-you-use-set-actions-to-create-a-reference-date-range",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2021-10-21-ww42-can-you-use-set-actions-to-create-a-reference-date-range",
+      "status": "consumed",
+      "replication_status": "partial",
+      "verification_status": "pending",
+      "cwtwb_version": "0.29.0a2",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2021-ww44-can-you-show-the-top-and-bottom-profit-performers-for-the-selected-time-period",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2021-11-04-ww44-can-you-show-the-top-and-bottom-profit-performers-for-the-selected-time-period",
+      "status": "consumed",
+      "replication_status": "partial",
+      "verification_status": "pending",
+      "cwtwb_version": "0.29.0a2",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2021-ww45-customer-purchasing-habits-rfm-analysis",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2021-11-11-ww45-customer-purchasing-habits-rfm-analysis",
+      "status": "consumed",
+      "replication_status": "partial",
+      "verification_status": "pending",
+      "cwtwb_version": "0.29.0a2",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2021-ww48-tableau-coaches-favourite-challenges-advent-calendar",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2021-12-02-ww48-tableau-coaches-favourite-challenges-advent-calendar",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.29.0a2",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2021-ww49-which-sub-categories-are-frequently-ordered-together",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2021-12-12-ww49-which-sub-categories-are-frequently-ordered-together",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.29.0a2",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2022-ww32-dumbbell-chart",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2022-08-12-ww32-dumbbell-chart",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2023-ww14-baseball-game-duration",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2023-04-07-ww14-baseball-game-duration",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2023-ww48-bars-and-candlesticks",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2023-11-30-ww48-bars-and-candlesticks",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2025-ww45-population-pyramid",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2025-11-07-ww45-population-pyramid",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2026-ww04-dynamic-moving-average",
+      "legacy_case_ids": {
+        "donna-2026-02-02-5ebab8421caf": "wow-2026-ww04-dynamic-moving-average"
+      },
+      "workbook_ids": [
+        "tableau-90f17c56b06029af"
+      ],
+      "iteration": "2026-02-02-ww04-dynamic-moving-average",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2026-ww05-kpi-period-comparison",
+      "legacy_case_ids": {
+        "donna-2026-02-09-1eb979fd64b6": "wow-2026-ww05-kpi-period-comparison"
+      },
+      "workbook_ids": [
+        "tableau-93c74baea48daf50"
+      ],
+      "iteration": "2026-02-09-ww05-kpi-period-comparison",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2026-ww06-null-safe-averages",
+      "legacy_case_ids": {
+        "donna-2026-02-15-44019b20eed6": "wow-2026-ww06-null-safe-averages"
+      },
+      "workbook_ids": [
+        "tableau-f9dff954fb215221"
+      ],
+      "iteration": "2026-02-15-ww06-null-safe-averages",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2026-ww07-table-calcs-vs-lods",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2026-02-26-ww07-table-calcs-vs-lods",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2026-ww08-dzv-filter-actions",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2026-03-01-ww08-dzv-filter-actions",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2026-ww09-parallel-coordinates",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2026-03-12-ww09-parallel-coordinates",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2026-ww11-layout-containers",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2026-03-23-ww11-layout-containers",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2026-ww14-correct-metric",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2026-04-13-ww14-correct-metric",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.27.1",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    }
+  ]
 }

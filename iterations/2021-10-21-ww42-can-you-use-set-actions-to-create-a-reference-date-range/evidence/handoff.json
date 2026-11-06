@@ -1,0 +1,73 @@
+{
+  "status": "partial-live-events-pending",
+  "case_id": "wow-2021-ww42-can-you-use-set-actions-to-create-a-reference-date-range",
+  "artifact": {
+    "relative_path": "outputs/replicated-workbook.twbx",
+    "sha256": "4dd78637c94bfcd96c032b92c14903470210989912228aaa04c61068311d3275",
+    "bytes": 65404
+  },
+  "sdk": {
+    "tested_version": "0.29.0a2",
+    "tested_commit": "11d72ebe5b7720035e26150bd16af72d67a35bba",
+    "runs": [
+      {
+        "version": "0.29.0a1",
+        "commit": "23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c",
+        "date": "2026-10-28",
+        "result": "pass",
+        "scope": "Local public-API build, XSD, contracts and emitted-formula numerical evaluation only; Desktop and interaction acceptance pending.",
+        "evidence": "evidence/local-verification.json"
+      },
+      {
+        "version": "0.29.0a2",
+        "commit": "11d72ebe5b7720035e26150bd16af72d67a35bba",
+        "date": "2026-10-28",
+        "result": "pass",
+        "scope": "Unreleased SDK source candidate; seven local contracts, six numerical states, nine negative mutations plus positive control, XSD no strict errors; default Cloud render/CSV. Real selection events remain pending.",
+        "evidence": "evidence/local-verification.json"
+      }
+    ]
+  },
+  "desktop": {
+    "checked_at": "2026-10-28T06:51:24.015990+00:00",
+    "verdict": "LOADED",
+    "workbook": "outputs/replicated-workbook.twbx",
+    "sha256": "4dd78637c94bfcd96c032b92c14903470210989912228aaa04c61068311d3275",
+    "scope": "Frozen workbook opened in Tableau Desktop; verdict from native log. No live dashboard events tested."
+  },
+  "corpus": {
+    "LOADED": 50,
+    "FAIL": 0,
+    "UNKNOWN": 0,
+    "scope": "existing baseline workbooks; not rebuilt with candidate"
+  },
+  "local_results": {
+    "contracts": 7,
+    "numeric_states": 6,
+    "negative_mutations": 9,
+    "positive_control": 1,
+    "repository_tests": "83/83",
+    "xsd_strict_errors": 0,
+    "compatibility_warning": "Missing optional trailing referenced-extensions/explain-data tolerated by Desktop"
+  },
+  "review": {
+    "file": "evidence/independent-review.md",
+    "sha256": "25177333edd733dc11da5de0421b4d86889a0d4269766e126c14328e2e1c30ab",
+    "confirmed_findings": 0
+  },
+  "cloud": {
+    "state": "default only",
+    "csv_records": 8,
+    "browser_interaction_executed": false
+  },
+  "pending_gates": [
+    "Real selection, replacement, clearing and Ctrl-select linked-view runtime tests after browser MFA. Functional status stays partial; static, numeric, default Cloud, independent review and Desktop/corpus gates pass."
+  ],
+  "commands": {
+    "environment": "Set PYTHONPATH and CWTWB_SRC to the SDK src at tested commit; global editable install is not reliable.",
+    "verify": "python -X utf8 verify_replication.py",
+    "mutations": "python -X utf8 -m unittest test_verifier -v",
+    "frozen_desktop": "python -X utf8 scripts/desktop/check.py <case>/outputs/replicated-workbook.twbx",
+    "validation": "python -X utf8 scripts/validate_iteration.py <case> --metadata-only; run full validator in an isolated copy to preserve frozen hash."
+  }
+}

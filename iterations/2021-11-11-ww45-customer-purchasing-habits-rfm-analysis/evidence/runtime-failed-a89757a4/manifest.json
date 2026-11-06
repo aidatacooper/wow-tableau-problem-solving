@@ -1,0 +1,16 @@
+{
+  "workbook_sha256": "a89757a4311023411ba49afb4e517e86e569b03a4432ff12ae4d7deea9339dab",
+  "files": {
+    "evidence/cloud-csv.json": "b4118896bb190708a3c38140de1251a097cfa81f9d95ebe90ed0de21cc372350",
+    "evidence/cloud-request.json": "73f0a7d008ba073e031b44c61b7b41c4eb51513aca65f47ecd40cd650812540c",
+    "evidence/cloud-verification.json": "ec7218628f5bba01dbd11ef44554184fbbe7d212ac83959eac581f821ed023ae",
+    "evidence/desktop-verification.json": "564790355e770d55088a4c44258f9a2e76f53487185179b357354c38294235aa",
+    "outputs/cloud-author.png": "0f5faee5e648ac956bd0de06e4640e0e2a0a71e8ef53071832c4eb386289be43",
+    "outputs/cloud-replica.png": "584e849df256d303edfd16bc9c74c0f4cd541584632d0e68e69814cafd0a6124",
+    "outputs/runtime-author-data-default.csv": "ed7dd5e8a1ab406ea8eb746fc742ffe0bc6830e7727a751bc4a133f28847f42a",
+    "outputs/runtime-replica-customers-default.csv": "3f3c5bef9e2a460cea461de4615d6f1be17b38269482a311ef1ca1740655e2a3",
+    "outputs/runtime-replica-help-default.csv": "26067982b9a41ee62a9a845f6c0c138f5638ecdf6baa3165802114dd90703dbb",
+    "outputs/runtime-replica-rfm-default.csv": "3f3c5bef9e2a460cea461de4615d6f1be17b38269482a311ef1ca1740655e2a3",
+    "outputs/runtime-replica-top-products-default.csv": "65534cb003386f6d79ebf143b8575b198f2965603c1df11fb2f65c74b0f76ae2"
+  }
+}
