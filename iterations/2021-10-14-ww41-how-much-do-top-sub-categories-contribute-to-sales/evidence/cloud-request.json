@@ -1,0 +1,30 @@
+{
+  "case_dir": "C:/Users/imgwho/.t3/worktrees/wow-tableau-problem-solving/t3-b1599e93/iterations/2021-10-14-ww41-how-much-do-top-sub-categories-contribute-to-sales",
+  "author_workbook": "C:/Users/imgwho/Desktop/project/wow-tableau-problem-solving/dashboards/2021_10_13_WW41_PieChart/2021_10_13_WW41_PieChart.twbx",
+  "author_view": "2021_10_13_WW41_Pie_Chart",
+  "replica_view": "Top Sub-Category Contribution",
+  "states": [
+    {
+      "name": "top-one",
+      "parameters": {
+        "pTopN": 1
+      }
+    },
+    {
+      "name": "top-sixteen",
+      "parameters": {
+        "pTopN": 16
+      }
+    },
+    {
+      "name": "top-all",
+      "parameters": {
+        "pTopN": 17
+      }
+    }
+  ],
+  "data_views": [],
+  "notes": [
+    "REST parameter states and static actions only. Browser MFA unavailable."
+  ]
+}

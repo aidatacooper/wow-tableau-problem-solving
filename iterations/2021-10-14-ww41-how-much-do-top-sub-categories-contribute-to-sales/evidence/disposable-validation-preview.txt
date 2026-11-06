@@ -1,0 +1,12 @@
+C:\Users\imgwho\AppData\Local\Temp\wow-case-validation-bxnm4t1c\lab\iterations\2021-10-14-ww41-how-much-do-top-sub-categories-contribute-to-sales\outputs\replicated-workbook.twbx
+{
+  "status": "local-pass-runtime-pending",
+  "scenarios": 17,
+  "total_sales": 2297200.8603,
+  "default_top_sales": 1292678.03,
+  "default_top_fraction": 0.5627187645364126,
+  "mutations_rejected": 8
+}
+SDK_SOURCE: C:\Users\imgwho\Desktop\project\.sdk-pins\cwtwb-23b1df0\src\cwtwb\__init__.py
+PASS: frozen workbook XSD
+PASS: disposable build/XSD/verifier/metadata/boundary/source-lock/identity

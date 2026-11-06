@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "artifact": "outputs/replicated-workbook.twbx",
+  "sha256": "7fa9c8916d330ddd2d79e6ac22fe3bab4ac42ad0a31399571bbb1649ed6d80fb",
+  "sdk": {
+    "version": "0.29.0a1",
+    "commit": "23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c"
+  },
+  "functional_status": "partial",
+  "visual_status": "acceptable_delta",
+  "verification_status": "pending",
+  "gates": {
+    "metadata_identity_source_lock_public_sdk_boundary": "pass on isolated preview branch",
+    "frozen_xsd": "pass; schema available and no errors, exact pinned SDK source",
+    "disposable_rebuild_xsd_verifier": "pass on isolated preview branch; 17 numerical scenarios and 8 negative mutations",
+    "repository_unittest": {
+      "tests": 83,
+      "passed": 83,
+      "failed": 0,
+      "log": "evidence/repository-tests-delivery-preview.txt"
+    },
+    "catalogue": "pass; 112 active cases, both views regenerated from metadata",
+    "desktop_frozen": "LOADED; parent evidence, not rerun",
+    "desktop_corpus": "LOADED=50 FAIL=0 UNKNOWN=0; parent evidence, not rerun",
+    "cloud_rest": "4 parameterized states and 20 CSVs, hash-verified",
+    "independent_review": "no confirmed defects within static/rendered/data scope",
+    "real_browser_events": "not_executed",
+    "cwtwb_runs_history": "four prior entries preserved exactly; one final workaround run appended"
+  },
+  "remaining_work": [
+    "Real dashboard parameter-control operations",
+    "Two-way hover/auto-clear event verification"
+  ],
+  "validation_scope": "Isolated one-case preview from origin/main; only this iteration and generated index views. Original t3 branch retained unchanged after integration commit.",
+  "hashes": {
+    "inputs/source-lock.json": "24a649153e35110951b5782fc7ea9d76188bc4cb9f585e468c1471c4bcce4923",
+    "outputs/replicated-workbook.twbx": "7fa9c8916d330ddd2d79e6ac22fe3bab4ac42ad0a31399571bbb1649ed6d80fb",
+    "evidence/cloud-verification.json": "260a9226ebabdd115d5ff7c2986e3a8aabd8d64e2e6774b0ee39b178fae56a0d",
+    "evidence/cloud-csv.json": "3fcd5639cb5994f5a88d6dfd7dd79acb547b5c87bedc6ce8322435026e500051",
+    "evidence/desktop-parent-check.json": "7a3f9fb1255bccdecff67d9d39d810efa1214e744cbd43b7a7d74385d7e37417",
+    "evidence/desktop-corpus.json": "814d866e368011c17852a031875088808f4507b8edcfde8051c56e750daa5daa",
+    "evidence/independent-final-review.json": "9c51c8cb9eeffb2ab571dfafc80e985cbb219b1970b2169a720e2dd01f42dc07",
+    "evidence/independent-final-review.md": "357a0004b9b26c137f0c9c5b6f8ca469cf579a15d6f0793592bac49144d89de2",
+    "evidence/repository-tests-delivery-original.txt": "975babdf81bcd1532e600431c9ee3c830708cc4ada487dd0794bd05f12ff8eee",
+    "evidence/disposable-validation-original.txt": "dba9f0fa16699e9a865f74a31d14be1ea32400407a0cb39d0c9fc54fec7b8822",
+    "evidence/repository-tests-delivery-preview.txt": "07b16aa5349f6c5976a688de9e7f37e8db01694d3fcf44283080f3b75b105bc0",
+    "evidence/metadata-delivery-preview.txt": "94f488fe4abc4c54c121f18ca60d507142791a192d30c3f1ca80682fc05e8276",
+    "evidence/disposable-validation-preview.txt": "350ee84f1768c5c92e5d2ad5fad22421816c9c571f223fd49d3183d06f9d949d"
+  },
+  "branch": "feat/2021-ww41-contribution-preview",
+  "base_ref": "origin/main",
+  "base_commit": "d52ecab0449f7a0d443f22723fb59f7bd479649c",
+  "source_snapshot_commit": "61469abd75ac39c657de81e57c92f9b1ed6d0c2c"
+}

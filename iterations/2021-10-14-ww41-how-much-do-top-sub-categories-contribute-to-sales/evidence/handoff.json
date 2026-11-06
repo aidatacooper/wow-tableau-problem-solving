@@ -1,0 +1,88 @@
+{
+  "case_id": "wow-2021-ww41-how-much-do-top-sub-categories-contribute-to-sales",
+  "worktree": "C:/Users/imgwho/.t3/worktrees/wow-tableau-problem-solving/t3-b1599e93",
+  "branch": "feat/2021-ww41-contribution-preview",
+  "implementation_commit": "bd2c5cb88d3d37aba3709a74c2b41fe32c6ef2e6",
+  "handoff_note": "Final delivery integration preserves original baseline reports under evidence/baseline-a1/. Current evidence binds frozen artifact; read README.md and delivery-validation.json. One-case preview branch is based on origin/main, without unrelated historical case commits.",
+  "status": {
+    "local_implementation": "finished",
+    "functional_status": "partial",
+    "visual_status": "acceptable_delta",
+    "verification_status": "pending",
+    "cwtwb_result": "workaround"
+  },
+  "sdk": {
+    "version": "0.29.0a1",
+    "commit": "23b1df0609b0464de5fe4fcd48c7f1ffc3c7392c",
+    "source": "C:/Users/imgwho/Desktop/project/.sdk-pins/cwtwb-23b1df0/src",
+    "shared_sdk_edited": false,
+    "candidate_sdk_used": false
+  },
+  "artifact": {
+    "relative_path": "outputs/replicated-workbook.twbx",
+    "sha256": "7fa9c8916d330ddd2d79e6ac22fe3bab4ac42ad0a31399571bbb1649ed6d80fb",
+    "bytes": 47930,
+    "frozen": true,
+    "baseline_path": "outputs/baseline-a1-workbook.twbx",
+    "baseline_sha256": "10c253f4751f7c9e3e583344c4366a0473271c4296e352dc634ebc0432a45f59"
+  },
+  "changes": [
+    "Preserved parent absolute dashboard layout and enlarged dual pies.",
+    "Replaced clipped native pie labels with an unfiltered dynamic Contribution Summary heading; both interactive views retain group hover, summary excluded from source and target.",
+    "Rank Prefix suppresses subtotal-partition ranks with explicit Field/order for SIZE and nested Sales Rank.",
+    "Verifier rejects incorrect nested rank addressing, visible subtotal ranks, and re-enabled clipped pie labels.",
+    "Moved unchanged baseline TWBX directly under outputs/ to satisfy phase boundary; all historical evidence preserved.",
+    "Integrated parent Desktop/Cloud and independent review evidence; visual acceptable_delta, functional partial until real events are checked.",
+    "Preview isolates this case and generated catalogues from origin/main; original t3 branch retains its historical batch."
+  ],
+  "verification": {
+    "numerical_scenarios": 17,
+    "mutations_rejected": 8,
+    "xsd": "pass",
+    "metadata": "pass",
+    "source_lock": "pass",
+    "phase_boundary": "pass",
+    "identity": "pass",
+    "catalogue": "pass, 112 active cases, both views regenerated on isolated preview branch",
+    "repository_tests": "83 passed, 0 failed on isolated preview branch; evidence/repository-tests-delivery-preview.txt",
+    "native_interactions": "pending; real parameter UI and two-way hover/auto-clear not executed, browser MFA unavailable",
+    "fresh_desktop": "LOADED for frozen artifact; evidence/desktop-parent-check.json",
+    "cloud_render_states": [
+      1,
+      5,
+      16,
+      17
+    ],
+    "cloud_csv_files": 20,
+    "independent_review": "No confirmed defects within static/rendered/data scope; evidence/independent-final-review.json",
+    "desktop_corpus": "LOADED=50 FAIL=0 UNKNOWN=0; evidence/desktop-corpus.json",
+    "evidence_integrity": "Current PNG/CSV/desktop/review source hashes verified",
+    "fresh_frozen_xsd": "pass; evidence/disposable-validation-preview.txt",
+    "disposable_rebuild": "pass, 17 numerical scenarios / 8 mutations; frozen bytes unchanged"
+  },
+  "commands": {
+    "shell_setup": "$env:PYTHONPATH='C:/Users/imgwho/Desktop/project/.sdk-pins/cwtwb-23b1df0/src'; $env:CWTWB_SRC=$env:PYTHONPATH",
+    "working_directory": "C:/Users/imgwho/.t3/worktrees/wow-tableau-problem-solving/t3-b1599e93/iterations/2021-10-14-ww41-how-much-do-top-sub-categories-contribute-to-sales",
+    "verify_frozen": "Do not run verifier in place: it rewrites evidence. Run run_case_scripts_isolated in scripts/validate_iteration.py for disposable validation.",
+    "validate_without_rebuild": "python -X utf8 ../../scripts/validate_iteration.py . --metadata-only",
+    "build_invalidates_evidence": "python -X utf8 build_replication.py",
+    "tests_from_repository_root": "python -X utf8 -m unittest discover -s tests -v",
+    "desktop_frozen": "python -X utf8 ../../scripts/desktop/check.py outputs/replicated-workbook.twbx",
+    "full_disposable_validation": "From repository root after commit: python -X utf8 scripts/validate_changed_cases.py --base-ref origin/main"
+  },
+  "pending_parent_work": [
+    "Restore browser MFA access and record actual parameter UI and two-way hover/clear scenarios against the frozen hash.",
+    "Review and publish the isolated one-case preview branch/PR when authorized."
+  ],
+  "constraints": {
+    "correction_agent_cloud_desktop_launches": false,
+    "sdk_modified": false,
+    "push_or_pr": false,
+    "author_workbook_analysis_only": true,
+    "builder_public_sdk_only": true
+  },
+  "source_branch": "t3/ww41-sales-subcategory-contribution",
+  "source_snapshot_commit": "61469abd75ac39c657de81e57c92f9b1ed6d0c2c",
+  "base_ref": "origin/main",
+  "base_commit": "d52ecab0449f7a0d443f22723fb59f7bd479649c"
+}
