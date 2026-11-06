@@ -1,0 +1,64 @@
+{
+  "result": "PASS local implemented-scope checks; BLOCKED native mapped background",
+  "workbook_sha256": "5fe9d6756dc4ec23fcda11ac6a1731898381da9e2b2627004ea85a7478d61753",
+  "oracle": {
+    "counts": {
+      "2018": 10,
+      "2021": 6,
+      "2019": 3,
+      "2020": 5
+    },
+    "tree_marks": 25,
+    "segments": 2000,
+    "selected_days": {
+      "2018": [
+        4,
+        10,
+        13,
+        14,
+        16,
+        18,
+        20,
+        21,
+        23,
+        24
+      ],
+      "2021": [
+        1,
+        7,
+        8,
+        15,
+        19,
+        22
+      ],
+      "2019": [
+        9,
+        12,
+        17
+      ],
+      "2020": [
+        2,
+        3,
+        5,
+        6,
+        11
+      ]
+    },
+    "clear_selection_marks": 25
+  },
+  "contracts": {
+    "native_background_present": false
+  },
+  "negative_mutations_rejected": 11,
+  "historical_checked": [],
+  "acceptance": [
+    "raw-data-oracle",
+    "tree-marks",
+    "gradient-bars",
+    "url-and-filter-actions",
+    "portable-assets",
+    "dependency-closure",
+    "negative-mutations"
+  ],
+  "runtime": "NOT RUN; Desktop, rendered alignment and live interactions remain parent gates"
+}

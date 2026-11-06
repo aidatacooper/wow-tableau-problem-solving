@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-28",
+  "source_workbook": {
+    "filename": "2021_11_03_Top_and_Bottom_Performers.twbx",
+    "bytes": 85249,
+    "sha256": "a9f785a2c31830949bc736df0eb83f0786201621ae0823687cd37f3e45967103",
+    "url": "https://public.tableau.com/app/profile/donna.coles/viz/2021_11_03_Top_and_Bottom_Performers/2021_11_03_Top_Bottom_Performers"
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Datasources/Orders (Sample - Superstore).hyper",
+      "file": "inputs/Orders (Sample - Superstore).hyper",
+      "bytes": 262144,
+      "sha256": "1f3c9893c467b97d88c00d7b14081a7106612a97c05ef03ce9683b464f50ac72"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}
