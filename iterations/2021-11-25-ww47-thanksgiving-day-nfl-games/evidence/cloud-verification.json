@@ -1,0 +1,73 @@
+{
+  "case_id": "wow-2021-ww47-thanksgiving-day-nfl-games",
+  "captured_at": "2026-10-29T15:37:44.215723+00:00",
+  "source_hashes": {
+    "author": "25ab68366dc4f5259de52de2f315a43bf9eb0de3fb4421ee4ae1e4bb6208c53b",
+    "replica": "e1d36ecd1c04c583c86f7f53c1aadbc495d87ed3dd8cc5731b56f45ee88b52a4"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "44fe1911-4adf-4175-bea2-766a254cc589",
+      "name": "cwtwb-review-wow-2021-ww47-thanksgiving-day-nfl-games-author-25ab68366dc4",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/3097727",
+      "views": [
+        {
+          "name": "2021_11_24_WW47_NFL_Games",
+          "id": "e68af34c-4a08-4cd9-a315-ec20aaa8eb07"
+        },
+        {
+          "name": "Data",
+          "id": "74a869bc-f83d-48c9-93e0-0cfe88c108d0"
+        }
+      ]
+    },
+    "replica": {
+      "id": "853eb232-656e-45b2-bd74-adcd54a5f0e1",
+      "name": "cwtwb-review-wow-2021-ww47-thanksgiving-day-nfl-games-replica-e1d36ecd1c04",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/3097763",
+      "views": [
+        {
+          "name": "Game Results",
+          "id": "1868078d-2892-4c4a-a176-cb2068857c96"
+        },
+        {
+          "name": "Thanksgiving NFL Games",
+          "id": "8ad8fa57-d810-4ba9-98ce-839c25a6b8b7"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "e68af34c-4a08-4cd9-a315-ec20aaa8eb07",
+          "name": "2021_11_24_WW47_NFL_Games",
+          "path": "outputs/cloud-author.png",
+          "sha256": "21e876ee79eb4ddb8eed6f41e5dccb73c05b16043a29acae24e98ace014c3040",
+          "size": [
+            2732,
+            1536
+          ]
+        },
+        "replica": {
+          "id": "8ad8fa57-d810-4ba9-98ce-839c25a6b8b7",
+          "name": "Thanksgiving NFL Games",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "e4c0d7352ff04e36eab8cbc9ade5df3d36bc1242c76babd93f0bef19268244d4",
+          "size": [
+            2400,
+            1600
+          ]
+        }
+      },
+      "data": []
+    }
+  ],
+  "status": "captured_requires_independent_review"
+}
