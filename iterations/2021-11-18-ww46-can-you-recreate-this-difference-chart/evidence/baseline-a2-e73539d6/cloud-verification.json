@@ -1,0 +1,73 @@
+{
+  "case_id": "wow-2021-ww46-can-you-recreate-this-difference-chart",
+  "captured_at": "2026-10-29T15:31:10.262935+00:00",
+  "source_hashes": {
+    "author": "e553ce47222c20bb2d04dfc3d576330c9e7593e2b30b940590e8ababd20feaf9",
+    "replica": "e73539d6103ca7f2af19ee5a6118741b712e822c070abbd0b3605104b23b1c1e"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "83285461-6953-465a-8091-ce09be7c7a81",
+      "name": "cwtwb-review-wow-2021-ww46-can-you-recreate-this-difference-chart-author-e553ce47222c",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/3097735",
+      "views": [
+        {
+          "name": "Data",
+          "id": "02aacb20-7d3b-4c08-a58d-5802905db175"
+        },
+        {
+          "name": "2021_11_17_WW46_Sales_By_Category_and_Segment",
+          "id": "6c9597fa-c60d-4cf3-af1c-ef7085399e39"
+        }
+      ]
+    },
+    "replica": {
+      "id": "6278c4e6-1c52-47e9-8560-44378ecac482",
+      "name": "cwtwb-review-wow-2021-ww46-can-you-recreate-this-difference-chart-replica-e73539d6103c",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/3097736",
+      "views": [
+        {
+          "name": "Viz",
+          "id": "4ecf6076-7d9b-47bf-b7bb-296ce4dd192b"
+        },
+        {
+          "name": "Sales Difference",
+          "id": "2ad5461f-02c0-46b0-ab63-87b36b9670c4"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "6c9597fa-c60d-4cf3-af1c-ef7085399e39",
+          "name": "2021_11_17_WW46_Sales_By_Category_and_Segment",
+          "path": "outputs/cloud-author.png",
+          "sha256": "94bfb2c41d3a626187c21cbadf75e9fa3c5ce1d666a57db1f8191b623c26124a",
+          "size": [
+            1600,
+            800
+          ]
+        },
+        "replica": {
+          "id": "2ad5461f-02c0-46b0-ab63-87b36b9670c4",
+          "name": "Sales Difference",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "f8d395b93bd4c347898ccf899fc5d3b4dbfc9991fc12db00c13b5ad5715a0deb",
+          "size": [
+            1600,
+            800
+          ]
+        }
+      },
+      "data": []
+    }
+  ],
+  "status": "captured_requires_independent_review"
+}

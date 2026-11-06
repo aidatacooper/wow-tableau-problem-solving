@@ -1,0 +1,31 @@
+{
+  "sdk_version": "0.29.0a2",
+  "sdk_module": "C:\\Users\\imgwho\\Desktop\\project\\cwtwb-three-20261029\\src\\cwtwb\\__init__.py",
+  "sdk_commit": "cac8820f26e703c3858253adfa21efd989eb8a78",
+  "sdk_source": "C:\\Users\\imgwho\\Desktop\\project\\cwtwb-three-20261029\\src",
+  "candidate_only": true,
+  "independent_order": {
+    "filter": [
+      "[federated.0ahyg8e1xelf3914bag3r0yukuro].[sum:Earlier:qk]",
+      "[federated.0ahyg8e1xelf3914bag3r0yukuro].[sum:Later:qk]",
+      "[federated.0ahyg8e1xelf3914bag3r0yukuro].[min:Spacer:qk]"
+    ],
+    "order": [
+      "[federated.0ahyg8e1xelf3914bag3r0yukuro].[sum:Earlier:qk]",
+      "[federated.0ahyg8e1xelf3914bag3r0yukuro].[sum:Later:qk]",
+      "[federated.0ahyg8e1xelf3914bag3r0yukuro].[sum:Anchor:qk]",
+      "[federated.0ahyg8e1xelf3914bag3r0yukuro].[min:Spacer:qk]"
+    ],
+    "reference_closure": {
+      "qualified_worksheet_references_checked": 16,
+      "status": "passed"
+    }
+  },
+  "normalization": {
+    "bare_physical_sales_resolves_to_sum": true,
+    "order_only_reference_declared": true,
+    "deleted_order_only_instance_rejected": true,
+    "duplicate_alias_error": "measure_names_order contains duplicate resolved fields"
+  },
+  "status": "PASS candidate API regressions; does not establish rendered necessity or spacing"
+}
