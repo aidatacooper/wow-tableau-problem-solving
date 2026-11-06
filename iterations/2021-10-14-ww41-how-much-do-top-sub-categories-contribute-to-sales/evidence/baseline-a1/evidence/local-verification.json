@@ -1,0 +1,31 @@
+{
+  "status": "local-pass-runtime-pending",
+  "workbook_sha256": "10c253f4751f7c9e3e583344c4366a0473271c4296e352dc634ebc0432a45f59",
+  "checks": [
+    "locked-data",
+    "parameter-domain",
+    "all-top-n-numerics",
+    "sales-proportional-pies",
+    "grouped-ranked-subtotals",
+    "group-hover-contract",
+    "matching-colors",
+    "dashboard-contract",
+    "xsd"
+  ],
+  "scenarios": 17,
+  "mutation_checks": [
+    "fixed-top-count",
+    "wrong-wedge-measure",
+    "wrong-denominator",
+    "select-instead-of-hover",
+    "partitioned-rank"
+  ],
+  "limits": "SQL evaluates a checked subset of workbook semantics; not Tableau/VizQL execution.",
+  "pending": [
+    "desktop-load",
+    "runtime-parameter-and-hover",
+    "cloud-visual-review",
+    "desktop-corpus",
+    "independent-review"
+  ]
+}

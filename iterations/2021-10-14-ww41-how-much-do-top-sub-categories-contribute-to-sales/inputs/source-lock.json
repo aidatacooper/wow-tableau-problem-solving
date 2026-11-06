@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-10-28",
+  "source_workbook": {
+    "filename": "2021_10_13_WW41_PieChart.twbx",
+    "bytes": 53983,
+    "sha256": "23e368ce0287be2c618e190cc302f7a2ca554406f847cb9822f1bb967d9b555d",
+    "url": "https://public.tableau.com/views/2021_10_13_WW41_PieChart/2021_10_13_WW41_Pie_Chart"
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/TableauTemp/TEMP_1cwurtf01qtv241ggplmk1stzgdr.hyper",
+      "file": "inputs/TEMP_1cwurtf01qtv241ggplmk1stzgdr.hyper",
+      "bytes": 196608,
+      "sha256": "7ca6a2560319b9d0f8ed52abe4d4d0144e5dad03f13f1908d31f4e98a289043e"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}
