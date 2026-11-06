@@ -1,0 +1,31 @@
+{
+  "reviewed_at": "2026-10-28",
+  "reviewed_commit": "bd2c5cb88d3d37aba3709a74c2b41fe32c6ef2e6",
+  "source_hashes": {
+    "replica": "7fa9c8916d330ddd2d79e6ac22fe3bab4ac42ad0a31399571bbb1649ed6d80fb"
+  },
+  "report": {
+    "path": "evidence/independent-final-review.md",
+    "sha256": "357a0004b9b26c137f0c9c5b6f8ca469cf579a15d6f0793592bac49144d89de2"
+  },
+  "status": "no_confirmed_defects_within_reviewed_scope",
+  "coverage": [
+    "four parameterized Cloud PNG states N=1,5,16,17",
+    "20 CSV and 8 PNG integrity checks",
+    "independent 9994-row Decimal aggregation, 17 categories",
+    "global detail ranks, blank subtotal rank labels and subtotal values",
+    "dynamic contribution summary and sales-proportional pie encodings",
+    "static two-view hover action contract"
+  ],
+  "limitations": [
+    "No browser hover/clear events executed",
+    "No interactive parameter-control changes executed",
+    "Review did not rerun Desktop or corpus; parent supplied their separate evidence"
+  ],
+  "evidence_hashes": {
+    "cloud-verification.json": "260a9226ebabdd115d5ff7c2986e3a8aabd8d64e2e6774b0ee39b178fae56a0d",
+    "cloud-csv.json": "3fcd5639cb5994f5a88d6dfd7dd79acb547b5c87bedc6ce8322435026e500051",
+    "desktop-parent-check.json": "7a3f9fb1255bccdecff67d9d39d810efa1214e744cbd43b7a7d74385d7e37417",
+    "desktop-corpus.json": "814d866e368011c17852a031875088808f4507b8edcfde8051c56e750daa5daa"
+  }
+}

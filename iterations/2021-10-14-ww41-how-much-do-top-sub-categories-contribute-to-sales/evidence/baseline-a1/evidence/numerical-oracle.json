@@ -1,0 +1,603 @@
+{
+  "input_sha256": "7ca6a2560319b9d0f8ed52abe4d4d0144e5dad03f13f1908d31f4e98a289043e",
+  "rows": 9994,
+  "total_sales": 2297200.8603,
+  "subcategories": [
+    {
+      "name": "Phones",
+      "rank": 1,
+      "sales": 330007.054,
+      "fraction": 0.14365615985225738
+    },
+    {
+      "name": "Chairs",
+      "rank": 2,
+      "sales": 328449.103,
+      "fraction": 0.14297796447677918
+    },
+    {
+      "name": "Storage",
+      "rank": 3,
+      "sales": 223843.608,
+      "fraction": 0.09744189629581082
+    },
+    {
+      "name": "Tables",
+      "rank": 4,
+      "sales": 206965.532,
+      "fraction": 0.09009466067019128
+    },
+    {
+      "name": "Binders",
+      "rank": 5,
+      "sales": 203412.733,
+      "fraction": 0.08854808324137384
+    },
+    {
+      "name": "Machines",
+      "rank": 6,
+      "sales": 189238.631,
+      "fraction": 0.08237792100395026
+    },
+    {
+      "name": "Accessories",
+      "rank": 7,
+      "sales": 167380.318,
+      "fraction": 0.07286272650017256
+    },
+    {
+      "name": "Copiers",
+      "rank": 8,
+      "sales": 149528.03,
+      "fraction": 0.06509140431911234
+    },
+    {
+      "name": "Bookcases",
+      "rank": 9,
+      "sales": 114879.9963,
+      "fraction": 0.05000868591220943
+    },
+    {
+      "name": "Appliances",
+      "rank": 10,
+      "sales": 107532.161,
+      "fraction": 0.04681008215622772
+    },
+    {
+      "name": "Furnishings",
+      "rank": 11,
+      "sales": 91705.164,
+      "fraction": 0.03992039424363784
+    },
+    {
+      "name": "Paper",
+      "rank": 12,
+      "sales": 78479.206,
+      "fraction": 0.0341629708382362
+    },
+    {
+      "name": "Supplies",
+      "rank": 13,
+      "sales": 46673.538,
+      "fraction": 0.020317569441404757
+    },
+    {
+      "name": "Art",
+      "rank": 14,
+      "sales": 27118.792,
+      "fraction": 0.011805146197123771
+    },
+    {
+      "name": "Envelopes",
+      "rank": 15,
+      "sales": 16476.402000000002,
+      "fraction": 0.007172381956120409
+    },
+    {
+      "name": "Labels",
+      "rank": 16,
+      "sales": 12486.312,
+      "fraction": 0.005435446336359706
+    },
+    {
+      "name": "Fasteners",
+      "rank": 17,
+      "sales": 3024.28,
+      "fraction": 0.0013165065590324775
+    }
+  ],
+  "scenarios": [
+    {
+      "top_n": 1,
+      "top_members": [
+        "Phones"
+      ],
+      "rest_members": [
+        "Chairs",
+        "Storage",
+        "Tables",
+        "Binders",
+        "Machines",
+        "Accessories",
+        "Copiers",
+        "Bookcases",
+        "Appliances",
+        "Furnishings",
+        "Paper",
+        "Supplies",
+        "Art",
+        "Envelopes",
+        "Labels",
+        "Fasteners"
+      ],
+      "top_sales": 330007.054,
+      "rest_sales": 1967193.8063,
+      "top_fraction": 0.14365615985225738,
+      "display_percent": 14,
+      "group_count": 2
+    },
+    {
+      "top_n": 2,
+      "top_members": [
+        "Phones",
+        "Chairs"
+      ],
+      "rest_members": [
+        "Storage",
+        "Tables",
+        "Binders",
+        "Machines",
+        "Accessories",
+        "Copiers",
+        "Bookcases",
+        "Appliances",
+        "Furnishings",
+        "Paper",
+        "Supplies",
+        "Art",
+        "Envelopes",
+        "Labels",
+        "Fasteners"
+      ],
+      "top_sales": 658456.157,
+      "rest_sales": 1638744.7033,
+      "top_fraction": 0.28663412432903657,
+      "display_percent": 29,
+      "group_count": 2
+    },
+    {
+      "top_n": 3,
+      "top_members": [
+        "Phones",
+        "Chairs",
+        "Storage"
+      ],
+      "rest_members": [
+        "Tables",
+        "Binders",
+        "Machines",
+        "Accessories",
+        "Copiers",
+        "Bookcases",
+        "Appliances",
+        "Furnishings",
+        "Paper",
+        "Supplies",
+        "Art",
+        "Envelopes",
+        "Labels",
+        "Fasteners"
+      ],
+      "top_sales": 882299.765,
+      "rest_sales": 1414901.0953,
+      "top_fraction": 0.3840760206248474,
+      "display_percent": 38,
+      "group_count": 2
+    },
+    {
+      "top_n": 4,
+      "top_members": [
+        "Phones",
+        "Chairs",
+        "Storage",
+        "Tables"
+      ],
+      "rest_members": [
+        "Binders",
+        "Machines",
+        "Accessories",
+        "Copiers",
+        "Bookcases",
+        "Appliances",
+        "Furnishings",
+        "Paper",
+        "Supplies",
+        "Art",
+        "Envelopes",
+        "Labels",
+        "Fasteners"
+      ],
+      "top_sales": 1089265.297,
+      "rest_sales": 1207935.5633,
+      "top_fraction": 0.4741706812950387,
+      "display_percent": 47,
+      "group_count": 2
+    },
+    {
+      "top_n": 5,
+      "top_members": [
+        "Phones",
+        "Chairs",
+        "Storage",
+        "Tables",
+        "Binders"
+      ],
+      "rest_members": [
+        "Machines",
+        "Accessories",
+        "Copiers",
+        "Bookcases",
+        "Appliances",
+        "Furnishings",
+        "Paper",
+        "Supplies",
+        "Art",
+        "Envelopes",
+        "Labels",
+        "Fasteners"
+      ],
+      "top_sales": 1292678.03,
+      "rest_sales": 1004522.8303,
+      "top_fraction": 0.5627187645364126,
+      "display_percent": 56,
+      "group_count": 2
+    },
+    {
+      "top_n": 6,
+      "top_members": [
+        "Phones",
+        "Chairs",
+        "Storage",
+        "Tables",
+        "Binders",
+        "Machines"
+      ],
+      "rest_members": [
+        "Accessories",
+        "Copiers",
+        "Bookcases",
+        "Appliances",
+        "Furnishings",
+        "Paper",
+        "Supplies",
+        "Art",
+        "Envelopes",
+        "Labels",
+        "Fasteners"
+      ],
+      "top_sales": 1481916.661,
+      "rest_sales": 815284.1993,
+      "top_fraction": 0.6450966855403628,
+      "display_percent": 65,
+      "group_count": 2
+    },
+    {
+      "top_n": 7,
+      "top_members": [
+        "Phones",
+        "Chairs",
+        "Storage",
+        "Tables",
+        "Binders",
+        "Machines",
+        "Accessories"
+      ],
+      "rest_members": [
+        "Copiers",
+        "Bookcases",
+        "Appliances",
+        "Furnishings",
+        "Paper",
+        "Supplies",
+        "Art",
+        "Envelopes",
+        "Labels",
+        "Fasteners"
+      ],
+      "top_sales": 1649296.979,
+      "rest_sales": 647903.8813,
+      "top_fraction": 0.7179594120405354,
+      "display_percent": 72,
+      "group_count": 2
+    },
+    {
+      "top_n": 8,
+      "top_members": [
+        "Phones",
+        "Chairs",
+        "Storage",
+        "Tables",
+        "Binders",
+        "Machines",
+        "Accessories",
+        "Copiers"
+      ],
+      "rest_members": [
+        "Bookcases",
+        "Appliances",
+        "Furnishings",
+        "Paper",
+        "Supplies",
+        "Art",
+        "Envelopes",
+        "Labels",
+        "Fasteners"
+      ],
+      "top_sales": 1798825.009,
+      "rest_sales": 498375.8513,
+      "top_fraction": 0.7830508163596477,
+      "display_percent": 78,
+      "group_count": 2
+    },
+    {
+      "top_n": 9,
+      "top_members": [
+        "Phones",
+        "Chairs",
+        "Storage",
+        "Tables",
+        "Binders",
+        "Machines",
+        "Accessories",
+        "Copiers",
+        "Bookcases"
+      ],
+      "rest_members": [
+        "Appliances",
+        "Furnishings",
+        "Paper",
+        "Supplies",
+        "Art",
+        "Envelopes",
+        "Labels",
+        "Fasteners"
+      ],
+      "top_sales": 1913705.0053,
+      "rest_sales": 383495.855,
+      "top_fraction": 0.8330595022718571,
+      "display_percent": 83,
+      "group_count": 2
+    },
+    {
+      "top_n": 10,
+      "top_members": [
+        "Phones",
+        "Chairs",
+        "Storage",
+        "Tables",
+        "Binders",
+        "Machines",
+        "Accessories",
+        "Copiers",
+        "Bookcases",
+        "Appliances"
+      ],
+      "rest_members": [
+        "Furnishings",
+        "Paper",
+        "Supplies",
+        "Art",
+        "Envelopes",
+        "Labels",
+        "Fasteners"
+      ],
+      "top_sales": 2021237.1663,
+      "rest_sales": 275963.694,
+      "top_fraction": 0.8798695844280848,
+      "display_percent": 88,
+      "group_count": 2
+    },
+    {
+      "top_n": 11,
+      "top_members": [
+        "Phones",
+        "Chairs",
+        "Storage",
+        "Tables",
+        "Binders",
+        "Machines",
+        "Accessories",
+        "Copiers",
+        "Bookcases",
+        "Appliances",
+        "Furnishings"
+      ],
+      "rest_members": [
+        "Paper",
+        "Supplies",
+        "Art",
+        "Envelopes",
+        "Labels",
+        "Fasteners"
+      ],
+      "top_sales": 2112942.3303,
+      "rest_sales": 184258.53,
+      "top_fraction": 0.9197899786717226,
+      "display_percent": 92,
+      "group_count": 2
+    },
+    {
+      "top_n": 12,
+      "top_members": [
+        "Phones",
+        "Chairs",
+        "Storage",
+        "Tables",
+        "Binders",
+        "Machines",
+        "Accessories",
+        "Copiers",
+        "Bookcases",
+        "Appliances",
+        "Furnishings",
+        "Paper"
+      ],
+      "rest_members": [
+        "Supplies",
+        "Art",
+        "Envelopes",
+        "Labels",
+        "Fasteners"
+      ],
+      "top_sales": 2191421.5363,
+      "rest_sales": 105779.324,
+      "top_fraction": 0.9539529495099589,
+      "display_percent": 95,
+      "group_count": 2
+    },
+    {
+      "top_n": 13,
+      "top_members": [
+        "Phones",
+        "Chairs",
+        "Storage",
+        "Tables",
+        "Binders",
+        "Machines",
+        "Accessories",
+        "Copiers",
+        "Bookcases",
+        "Appliances",
+        "Furnishings",
+        "Paper",
+        "Supplies"
+      ],
+      "rest_members": [
+        "Art",
+        "Envelopes",
+        "Labels",
+        "Fasteners"
+      ],
+      "top_sales": 2238095.0743,
+      "rest_sales": 59105.786,
+      "top_fraction": 0.9742705189513636,
+      "display_percent": 97,
+      "group_count": 2
+    },
+    {
+      "top_n": 14,
+      "top_members": [
+        "Phones",
+        "Chairs",
+        "Storage",
+        "Tables",
+        "Binders",
+        "Machines",
+        "Accessories",
+        "Copiers",
+        "Bookcases",
+        "Appliances",
+        "Furnishings",
+        "Paper",
+        "Supplies",
+        "Art"
+      ],
+      "rest_members": [
+        "Envelopes",
+        "Labels",
+        "Fasteners"
+      ],
+      "top_sales": 2265213.8663,
+      "rest_sales": 31986.994000000002,
+      "top_fraction": 0.9860756651484874,
+      "display_percent": 99,
+      "group_count": 2
+    },
+    {
+      "top_n": 15,
+      "top_members": [
+        "Phones",
+        "Chairs",
+        "Storage",
+        "Tables",
+        "Binders",
+        "Machines",
+        "Accessories",
+        "Copiers",
+        "Bookcases",
+        "Appliances",
+        "Furnishings",
+        "Paper",
+        "Supplies",
+        "Art",
+        "Envelopes"
+      ],
+      "rest_members": [
+        "Labels",
+        "Fasteners"
+      ],
+      "top_sales": 2281690.2683,
+      "rest_sales": 15510.592,
+      "top_fraction": 0.9932480471046078,
+      "display_percent": 99,
+      "group_count": 2
+    },
+    {
+      "top_n": 16,
+      "top_members": [
+        "Phones",
+        "Chairs",
+        "Storage",
+        "Tables",
+        "Binders",
+        "Machines",
+        "Accessories",
+        "Copiers",
+        "Bookcases",
+        "Appliances",
+        "Furnishings",
+        "Paper",
+        "Supplies",
+        "Art",
+        "Envelopes",
+        "Labels"
+      ],
+      "rest_members": [
+        "Fasteners"
+      ],
+      "top_sales": 2294176.5803,
+      "rest_sales": 3024.28,
+      "top_fraction": 0.9986834934409675,
+      "display_percent": 100,
+      "group_count": 2
+    },
+    {
+      "top_n": 17,
+      "top_members": [
+        "Phones",
+        "Chairs",
+        "Storage",
+        "Tables",
+        "Binders",
+        "Machines",
+        "Accessories",
+        "Copiers",
+        "Bookcases",
+        "Appliances",
+        "Furnishings",
+        "Paper",
+        "Supplies",
+        "Art",
+        "Envelopes",
+        "Labels",
+        "Fasteners"
+      ],
+      "rest_members": [],
+      "top_sales": 2297200.8603,
+      "rest_sales": 0.0,
+      "top_fraction": 1.0,
+      "display_percent": 100,
+      "group_count": 1
+    }
+  ]
+}

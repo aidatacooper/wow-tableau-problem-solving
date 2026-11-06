@@ -1,0 +1,22 @@
+{
+  "metadata": "pass",
+  "unique_identity": "pass",
+  "source_lock": "pass",
+  "phase_boundary_public_sdk": "pass",
+  "xsd": "pass",
+  "identity": "pass",
+  "full_validate_iteration": {
+    "status": "failed-at-parent-owned-catalogue",
+    "detail": "All preceding case gates, rebuild and verifier passed; usage/case-index.json is intentionally not regenerated in this child."
+  },
+  "repository_unittest": {
+    "tests": 83,
+    "passed": 81,
+    "failed": 2,
+    "failures": [
+      "test_prepare_case_extracts_data_and_never_copies_source",
+      "test_validator_scans_helper_files_and_rejects_misplaced_workbooks"
+    ],
+    "reason": "Both failures are the parent-owned common catalogue stale assertion; full output in unittest.txt."
+  }
+}
