@@ -1,0 +1,77 @@
+schema_version: 1.1.0
+case_id: wow-2026-ww36-let-s-tell-a-story-with-map-layers
+iteration_id: 2026-09-11-ww36-let-s-tell-a-story-with-map-layers
+post: https://donnacoles.home.blog/2026/09/11/lets-tell-a-story-with-map-layers/
+legacy_case_ids: {}
+article_date: '2026-09-11'
+challenge_year: 2026
+challenge_week: 36
+challenge_date: '2026-09-08'
+date_evidence:
+  article_date: Declared article publication date in iteration_id
+  challenge: Explicit challenge_year; week declared in iteration_id
+  challenge_date: Explicit official challenge publication date and URL
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2026w36-tab/
+  article:
+    url: https://donnacoles.home.blog/2026/09/11/lets-tell-a-story-with-map-layers/
+    path: posts/2026-09-11-Let��s_tell_a_story_with_map_layers!.html
+    sha256: null
+  workbook:
+    url: https://public.tableau.com/views/2026_09_09_WW36_John_Snow_Cholera_Map/2026_09_09_WW36_John_Snow_Cholera_Map
+    filename: 2026_09_09_WW36_John_Snow_Cholera_Map.twbx
+    sha256: 0c3d13cdc0a90c75db3a0c81f6478c657db6a9118a780d1313db5cc2061a0c09
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: null
+  cloud_replica: null
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- inputs/source-lock.json
+- evidence/acceptance.json
+- evidence/current-functional-verification.json
+- evidence/validation.json
+notes:
+- single-source conditional map layers are reproduced; separate sewer/pump extracts
+  and dynamic story text remain partial.
+- Cloud/browser interaction was not executed; browser_interaction_executed=false.
+cwtwb:
+  tested_version: 0.26.0
+  runs:
+  - version: 0.26.0
+    result: workaround
+    evidence: evidence/current-functional-verification.json
+analysis_status: completed
+functional_status: partial
+visual_status: not_evaluated
+cwtwb_result: workaround
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/Sewergrate locations.hyper
+  - inputs/Deaths by Building.hyper
+  - inputs/Pump Locations.hyper
+acceptance:
+- id: case-functional-contract
+  description: single-source conditional map layers are reproduced; separate sewer/pump
+    extracts and dynamic story text remain partial.
+  mode: automated
+- id: desktop-load
+  description: Generated workbook opens in Tableau Desktop.
+  mode: automated
+remaining_work:
+- single-source conditional map layers are reproduced; separate sewer/pump extracts
+  and dynamic story text remain partial.
+- Run Desktop and Cloud/browser checks after SDK Web Page/source support is available.
+blocker: Released SDK does not expose every author interaction; remaining gaps are
+  documented in analysis.md.
+workarounds:
+- Static explanatory dashboard text for unsupported interactive target/source layer
+  behavior.
+capability_gaps:
+- Multiple independent spatial data sources in one layered map
+related_cwtwb_issues: []
+browser_interaction_executed: false

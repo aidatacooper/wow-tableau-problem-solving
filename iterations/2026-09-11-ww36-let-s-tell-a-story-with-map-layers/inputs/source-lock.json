@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-11-13",
+  "source_workbook": {
+    "filename": "2026_09_09_WW36_John_Snow_Cholera_Map.twbx",
+    "bytes": 34866,
+    "sha256": "0c3d13cdc0a90c75db3a0c81f6478c657db6a9118a780d1313db5cc2061a0c09",
+    "url": "https://public.tableau.com/views/2026_09_09_WW36_John_Snow_Cholera_Map/2026_09_09_WW36_John_Snow_Cholera_Map"
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Datasources/Sewergrate locations.hyper",
+      "file": "inputs/Sewergrate locations.hyper",
+      "bytes": 65536,
+      "sha256": "4b3f6b088121e0938e92349e3566c3b58afc163416cfc5d69a5e79780aa84f85"
+    },
+    {
+      "archive_path": "Data/Datasources/Deaths by Building.hyper",
+      "file": "inputs/Deaths by Building.hyper",
+      "bytes": 65536,
+      "sha256": "e4a0cb36697bf161ddea0923ca4e768311a99f0f22490d900bcc7a7b998b2642"
+    },
+    {
+      "archive_path": "Data/Datasources/Pump Locations.hyper",
+      "file": "inputs/Pump Locations.hyper",
+      "bytes": 65536,
+      "sha256": "8a3472af42b9930c772c3dea66a8d0fc7eaa4b6b7fc6991977d6a7a70659f6ad"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

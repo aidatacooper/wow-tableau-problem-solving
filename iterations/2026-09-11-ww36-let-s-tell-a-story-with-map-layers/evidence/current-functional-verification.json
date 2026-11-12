@@ -1,0 +1,7 @@
+{
+  "case_id": "wow-2026-ww36-let-s-tell-a-story-with-map-layers",
+  "status": "partial",
+  "cwtwb_result": "workaround",
+  "browser_interaction_executed": false,
+  "notes": "single-source conditional map layers are reproduced; separate sewer/pump extracts and dynamic story text remain partial."
+}
