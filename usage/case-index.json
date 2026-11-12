@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "generated_from": "iterations/*/case.yaml",
-  "active_case_count": 135,
+  "active_case_count": 136,
   "legacy_case_ids": {
     "donna-2019-07-18-63877b35d19a": "wow-2019-ww29-high-orders",
     "donna-2019-07-25-59a0a144b25b": "wow-2019-ww30-navigation-kpi",
@@ -8727,6 +8727,57 @@
       "metadata": "iterations/2026-04-13-ww14-correct-metric/case.yaml",
       "metadata_contract": "1.1.0",
       "tested_sdk_version": "0.27.1"
+    },
+    {
+      "case_id": "wow-2026-ww25-difference-from-selected-sales",
+      "legacy_case_ids": {},
+      "iteration_id": "2026-06-30-ww25-difference-from-selected-sales",
+      "article_date": "2026-06-30",
+      "challenge_year": 2026,
+      "challenge_week": 25,
+      "challenge_date": "2026-06-23",
+      "date_evidence": {
+        "article_date": "Declared article publication date in iteration_id",
+        "challenge": "Explicit challenge_year; week declared in iteration_id",
+        "challenge_date": "Explicit official challenge publication date and URL"
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2026w25tab/"
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2026/06/30/can-you-show-the-difference-from-selected-sales/",
+          "path": null,
+          "sha256": null
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2026_06_24_WW25_Sales_Difference_noLODs_noTableCalc/2026_06_24_WW25_Sales_Difference",
+          "filename": "2026_06_24_WW25_Sales_Difference_noLODs_noTableCalc.twbx",
+          "sha256": "e325f33922f315b47b478c2505afc9c880651aad8a3e0a17b30ed182917bdbbf"
+        }
+      },
+      "functional_status": "partial",
+      "visual_status": "not_evaluated",
+      "verification_status": "pending",
+      "cwtwb_result": "pass",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": null,
+        "cloud_replica": null
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "inputs/source-lock.json",
+        "evidence/validation.json",
+        "evidence/workbook-inventory.json"
+      ],
+      "notes": [
+        "Analysis completed from the Donna Coles article and author workbook; builder reads only extracted inputs. The parameter-driven Difference formula and two-way parameter actions are rebuilt. The author's dual-axis selector shape layer and tooltip text polish remain."
+      ],
+      "metadata": "iterations/2026-06-30-ww25-difference-from-selected-sales/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.29.0a2"
     }
   ]
 }
