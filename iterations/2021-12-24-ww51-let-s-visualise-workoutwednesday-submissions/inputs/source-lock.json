@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-11-07",
+  "source_workbook": {
+    "filename": "2021_12_22_WW51_WOW_Submission_Tracker.twbx",
+    "bytes": 73111,
+    "sha256": "9fae883ed85fea94f2f3fa95f8bfadc89c2f784bff2cc81448b64b46661a353e",
+    "url": "https://public.tableau.com/views/2021_12_22_WW51_WOW_Submission_Tracker/2021_12_22_WOW_Submission_Tracker"
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Extracts/federated_1j5rapc06zda391elx3h21.hyper",
+      "file": "inputs/federated_1j5rapc06zda391elx3h21.hyper",
+      "bytes": 196608,
+      "sha256": "28f9bc71b3f721957c568ca0845c1454ce886297cf918e517d880a005f273f06"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}
