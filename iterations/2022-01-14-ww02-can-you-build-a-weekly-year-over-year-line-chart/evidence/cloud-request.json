@@ -1,0 +1,15 @@
+{
+  "case_dir": "iterations/2022-01-14-ww02-can-you-build-a-weekly-year-over-year-line-chart",
+  "author_workbook": "dashboards/2022_01_11_WW02_YoY_By_Week/2022_01_11_WW02_YoY_By_Week.twbx",
+  "author_view": "2022_01_11_WW02_YoY_By_Week",
+  "replica_view": "2022_01_11_WW02_YoY_By_Week",
+  "states": [],
+  "data_views": [
+    {
+      "name": "dashboard",
+      "author": "2022_01_11_WW02_YoY_By_Week",
+      "replica": "2022_01_11_WW02_YoY_By_Week",
+      "scope": "dashboard crosstab"
+    }
+  ]
+}

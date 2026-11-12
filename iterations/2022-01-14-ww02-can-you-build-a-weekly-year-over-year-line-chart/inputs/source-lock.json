@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-11-06",
+  "source_workbook": {
+    "filename": "2022_01_11_WW02_YoY_By_Week.twbx",
+    "bytes": 51615,
+    "sha256": "cf4d8cdd938360983f6e676229b83919cf50e92e5ff90d017d9eb00726e406ea",
+    "url": "https://public.tableau.com/views/2022_01_11_WW02_YoY_By_Week/2022_01_11_WW02_YoY_By_Week"
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Datasources/Sales Growth (2022_01_12_WW01_Superstore Sales Growth).hyper",
+      "file": "inputs/Sales Growth (2022_01_12_WW01_Superstore Sales Growth).hyper",
+      "bytes": 196608,
+      "sha256": "4d5d6729efbc237bb6359a52d490a3a154db66fa00b7e097020f2ce09a6abcdb"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

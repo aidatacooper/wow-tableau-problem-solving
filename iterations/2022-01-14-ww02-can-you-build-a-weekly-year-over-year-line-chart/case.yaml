@@ -1,0 +1,123 @@
+schema_version: 1.1.0
+case_id: wow-2022-ww02-can-you-build-a-weekly-year-over-year-line-chart
+iteration_id: 2022-01-14-ww02-can-you-build-a-weekly-year-over-year-line-chart
+post: posts/2022-01-14-Can_you_build_a_weekly_year-over-year_line_chart.html
+legacy_case_ids: {}
+article_date: '2022-01-14'
+challenge_year: 2022
+challenge_week: 2
+challenge_date: '2022-01-11'
+date_evidence:
+  article_date: index.json publication date; matches the post URL
+  challenge: Explicit challenge_year and week declared in iteration_id
+  challenge_date: Official WordPress REST post date for 2022w02tab
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2022w02tab/
+  article:
+    url: https://donnacoles.home.blog/2022/01/14/can-you-build-a-weekly-year-over-year-line-chart/
+    path: posts/2022-01-14-Can_you_build_a_weekly_year-over-year_line_chart.html
+    sha256: 857ef519a18dbf5ed4a7dc6526b99ca27c1c550e32e2a61e2cef96e1f1f33ce2
+  workbook:
+    url: https://public.tableau.com/views/2022_01_11_WW02_YoY_By_Week/2022_01_11_WW02_YoY_By_Week
+    path: dashboards/2022_01_11_WW02_YoY_By_Week/2022_01_11_WW02_YoY_By_Week.twbx
+    filename: 2022_01_11_WW02_YoY_By_Week.twbx
+    sha256: cf4d8cdd938360983f6e676229b83919cf50e92e5ff90d017d9eb00726e406ea
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: workaround
+cwtwb:
+  tested_version: 0.29.0a2
+  runs:
+  - version: 0.29.0a2
+    result: workaround
+    evidence: verify_replication.py
+  - version: 0.29.0a2
+    result: workaround
+    evidence: evidence/final-validation.json
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts:
+- path: outputs/2022-01-14-ww02-can-you-build-a-weekly-year-over-year-line-chart-replicated-workbook.twb
+  role: sdk_generated_twb_companion
+  note: Unpackaged TWB companion produced by the same builder as the primary TWBX.
+evidence:
+- inputs/source-lock.json
+- evidence/cloud-request.json
+- evidence/cloud-verification.json
+- evidence/desktop-verification.json
+- evidence/validation.json
+- evidence/visual-review.md
+- evidence/source-reconciliation.json
+- evidence/final-validation.json
+- evidence/desktop-corpus.json
+notes:
+- Rebuilt with cwtwb 0.29.0a2 from the packaged Hyper extract using public SDK APIs only; the author workbook was
+  never opened by the builder.
+- The chart is a single continuous date axis over three year groups. Year Group is a signed offset from the Today
+  parameter (YEAR(Today) - YEAR(week start)), written so that Tableau's default ascending member order is Current,
+  Previous, 2 Yrs Ago - the order the author fixes with a manual sort.
+- 'The load-bearing calculation is Date to Plot: MAKEDATE re-bases a week start onto 2021 but drops the weekday,
+  so the three years only share an axis position after the rebased date is truncated back to its Monday. Without
+  that truncation the year-over-year table calculation degrades into week-over-week growth.'
+- 'Known cwtwb gaps (worked around inside the case): no continuous week-trunc date grain, no dimension member aliases,
+  and set_worksheet_rich_title drops fontname. See analysis.md.'
+- Final tested runtime is the installed 0.29.0a2 distribution; its installed package has no source-commit metadata.
+  CI independently installs the repository requirements pin.
+analysis_status: completed
+remaining_work: []
+workarounds:
+- 'The author''s continuous week-truncated date pill has no cwtwb equivalent, so Date to Plot folds DATE(DATETRUNC(''week'',
+  ...)) into the calculation and the shelf binds a continuous exact-date axis. Consequence: the x-axis ticks anchor
+  on month starts instead of week starts, and the axis scale differs by 0.3%.'
+- The author aliases the Year Group members (0/1/2 to Current/Previous/2 Yrs Ago). cwtwb aliases parameters and
+  Measure Names only, so a Period Label string calculation supplies the same three labels for the tooltip. The colour
+  legend is not displayed, so the numeric members are not visible.
+capability_gaps:
+- cwtwb exposes DAYTRUNC/MONTHTRUNC/QUARTERTRUNC/YEARTRUNC but no WEEKTRUNC, so a continuous weekly date axis cannot
+  be expressed natively. This is what changes the x-axis tick anchor and the 0.3% axis-scale delta.
+- No public API to alias the members of a calculated dimension (only parameter members and Measure Names), so a
+  numeric dimension cannot show text labels without an extra calculation.
+related_cwtwb_issues: []
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/Sales Growth (2022_01_12_WW01_Superstore Sales Growth).hyper
+acceptance:
+- id: week-buckets
+  description: Every order date is bucketed to its Monday-Sunday week (datasource start-of-week Monday), and the
+    three year groups start and end on 2021-01-04/2021-11-22, 2020-01-06/2020-12-28 and 2019-01-07/2019-12-30.
+  mode: automated
+- id: complete-weeks-only
+  description: No plotted week runs into the fixed Today of 2021-12-01, and the parameter-driven completeness filter
+    is present; the extract ends on 2021-11-28, so the guard removes nothing on this dataset.
+  mode: automated
+- id: year-group-offset
+  description: Year Group is YEAR(Today) - YEAR(week start), so the week of 30 Dec 2019 - 5 Jan 2020 stays in a
+    single group instead of being split by calendar year.
+  mode: automated
+- id: baseline-date-axis
+  description: All three years are plotted on one continuous 2021 axis, every plotted week lands on a Monday, and
+    each current-year week shares its axis position with the previous year.
+  mode: automated
+- id: yoy-percent-change
+  description: The percentage difference compares a week with the same week of the previous year, is addressed by
+    Year Group in the workbook, and the oldest year has no value.
+  mode: automated
+- id: author-colour-key
+  description: 'Year Group 0/1/2 map to the author''s #9cbe30/#a0cbe8/#bfbfbf, and the same three colours appear
+    in the worksheet title key.'
+  mode: automated
+- id: tooltip-yoy-label
+  description: The tooltip carries the week ending date, the period name, sales and a YoY% change split into green
+    positive and red negative runs, and the YoY% label is suppressed when there is no value.
+  mode: automated
+- id: visual-and-numeric-agreement
+  description: The Cloud author and replica renders were compared, and the replica's week, week-ending and YoY%
+    values match the author's export for all 151 marks.
+  mode: manual
+  evidence: evidence/visual-review.md
