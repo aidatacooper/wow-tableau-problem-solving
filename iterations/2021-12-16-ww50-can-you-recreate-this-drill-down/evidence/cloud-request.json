@@ -1,0 +1,29 @@
+{
+  "case_dir": "C:\\Users\\imgwho\\.paseo\\worktrees\\209a8v60\\feat-2021-ww50-drill-down\\iterations\\2021-12-16-ww50-can-you-recreate-this-drill-down",
+  "author_workbook": "C:\\Users\\imgwho\\.paseo\\worktrees\\209a8v60\\feat-2021-ww50-drill-down\\scratch\\author.twbx",
+  "author_view": "2021_12_15_WW50_DrillDownFilter",
+  "replica_view": "2021 Week 50 - Drill Down",
+  "states": [
+    {
+      "name": "category-furniture",
+      "parameters": {
+        "pSelectedCategory": "Furniture"
+      }
+    },
+    {
+      "name": "subcat-bookcases",
+      "parameters": {
+        "pSelectedCategory": "Furniture",
+        "pSelectedSubCat": "Bookcases"
+      }
+    },
+    {
+      "name": "reset-technology",
+      "parameters": {
+        "pSelectedCategory": "Technology",
+        "pSelectedSubCat": ""
+      }
+    }
+  ],
+  "data_views": []
+}

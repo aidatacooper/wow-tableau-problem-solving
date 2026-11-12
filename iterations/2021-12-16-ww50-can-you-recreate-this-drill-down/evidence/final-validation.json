@@ -1,0 +1,33 @@
+{
+  "checked_at": "2026-11-12T17:28:31.459944+00:00",
+  "version": "0.29.0a2",
+  "result": "pass",
+  "workbook_sha256": "81ab419a46692c4333642d312a30e619d16c23e1a68b96b6581763c3f6ad7397",
+  "desktop": {
+    "sha256": "81ab419a46692c4333642d312a30e619d16c23e1a68b96b6581763c3f6ad7397",
+    "result": "LOADED",
+    "captured_at": "2026-11-12T17:04:25.380370+00:00",
+    "command": "python scripts/desktop/build_and_check.py iterations/2021-12-16-ww50-can-you-recreate-this-drill-down",
+    "scope": "Tableau Desktop loadability only; REST state and static action contracts are separate evidence."
+  },
+  "shared_tests": {
+    "tests": 83,
+    "result": "OK"
+  },
+  "desktop_corpus": {
+    "LOADED": 50,
+    "FAIL": 0,
+    "UNKNOWN": 0
+  },
+  "cloud_source_hashes": {
+    "author": "dac179b4576463b75ad1d7473552693923d60043e83990388ced57a19602c3f9",
+    "replica": "81ab419a46692c4333642d312a30e619d16c23e1a68b96b6581763c3f6ad7397"
+  },
+  "cloud_states": [
+    "default",
+    "category-furniture",
+    "subcat-bookcases",
+    "reset-technology"
+  ],
+  "verification_scope": "Local builder/schema/boundary/verifier, Desktop load, REST artifacts and primary-agent visual review. No independent-model approval or browser-click execution."
+}
