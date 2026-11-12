@@ -1,0 +1,30 @@
+{
+  "checked_at": "2026-11-12T17:28:31.459944+00:00",
+  "version": "0.29.0a2",
+  "result": "workaround",
+  "workbook_sha256": "900d75dbac0c68f4acdb6281cb4b5c0792021f26e181b6a612c073331384d997",
+  "desktop": {
+    "sha256": "900d75dbac0c68f4acdb6281cb4b5c0792021f26e181b6a612c073331384d997",
+    "result": "LOADED",
+    "captured_at": "2026-11-12T17:04:53.177310+00:00",
+    "command": "python scripts/desktop/build_and_check.py iterations/2021-12-24-ww51-let-s-visualise-workoutwednesday-submissions",
+    "scope": "Tableau Desktop loadability only; REST state and static action contracts are separate evidence."
+  },
+  "shared_tests": {
+    "tests": 83,
+    "result": "OK"
+  },
+  "desktop_corpus": {
+    "LOADED": 50,
+    "FAIL": 0,
+    "UNKNOWN": 0
+  },
+  "cloud_source_hashes": {
+    "author": "1dc526cf5720f7995f0408150970aca9241e250127d67616865adfe256c24314",
+    "replica": "900d75dbac0c68f4acdb6281cb4b5c0792021f26e181b6a612c073331384d997"
+  },
+  "cloud_states": [
+    "default"
+  ],
+  "verification_scope": "Local builder/schema/boundary/verifier, Desktop load, REST artifacts and primary-agent visual review. No independent-model approval or browser-click execution."
+}
