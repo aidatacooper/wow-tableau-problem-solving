@@ -8729,13 +8729,13 @@
       "tested_sdk_version": "0.27.1"
     },
     {
-      "case_id": "wow-2026-ww28-pareto-chart-coloured-backgrounds",
+      "case_id": "wow-2026-ww26-drive-time-area",
       "legacy_case_ids": {},
-      "iteration_id": "2026-07-18-ww28-pareto-chart-coloured-backgrounds",
-      "article_date": "2026-07-18",
+      "iteration_id": "2026-07-13-ww26-drive-time-area",
+      "article_date": "2026-07-13",
       "challenge_year": 2026,
-      "challenge_week": 28,
-      "challenge_date": "2026-07-14",
+      "challenge_week": 26,
+      "challenge_date": "2026-06-30",
       "date_evidence": {
         "article_date": "Declared article publication date in iteration_id",
         "challenge": "Explicit challenge_year; week declared in iteration_id",
@@ -8743,23 +8743,23 @@
       },
       "source": {
         "challenge": {
-          "url": "https://www.workout-wednesday.com/2026w28tab/"
+          "url": "https://www.workout-wednesday.com/2026w26tab/"
         },
         "article": {
-          "url": "https://donnacoles.home.blog/2026/07/18/can-you-build-a-pareto-chart-with-coloured-backgrounds/",
+          "url": "https://donnacoles.home.blog/2026/07/13/lets-try-the-drive-time-area/",
           "path": null,
           "sha256": null
         },
         "workbook": {
-          "url": "https://public.tableau.com/views/2026_07_15_WW28_Pareto/2026_07_15_WW28_Pareto",
-          "filename": "2026_07_15_WW28_Pareto.twbx",
-          "sha256": "4268771e82bc7f8092cf6994f2fbf6499d9a34cba944d17027228ba6121deffa"
+          "url": "https://public.tableau.com/views/2026_07_01_WW26_Drive_Time/2026_07_01_WW26_Drive_Time",
+          "filename": "2026_07_01_WW26_Drive_Time.twbx",
+          "sha256": "e5bf087916d6b66f7e2c934a30353e22774664cf9117795f872a26d7c8cf0340"
         }
       },
       "functional_status": "partial",
       "visual_status": "not_evaluated",
       "verification_status": "pending",
-      "cwtwb_result": "pass",
+      "cwtwb_result": "blocked",
       "artifacts": {
         "primary_workbook": "outputs/replicated-workbook.twbx",
         "cloud_author": null,
@@ -8773,9 +8773,9 @@
         "evidence/workbook-inventory.json"
       ],
       "notes": [
-        "Analysis completed from the Donna Coles article and author workbook; builder reads only extracted inputs. The cwtwb build reproduces the two running percentages, area chart, fixed 0.2/0.8 guides and dashboard. Five coloured background bands and the author's explicit Sales descending sort still need a richer reference-band/sort configuration."
+        "Analysis completed from the Donna Coles article and author workbook; builder reads only extracted inputs. The map, Union Station mark and selected-store KPI are rebuilt. The 2026.2 Drive Time selection tool and DC masking layers remain to be implemented."
       ],
-      "metadata": "iterations/2026-07-18-ww28-pareto-chart-coloured-backgrounds/case.yaml",
+      "metadata": "iterations/2026-07-13-ww26-drive-time-area/case.yaml",
       "metadata_contract": "1.1.0",
       "tested_sdk_version": "0.29.0a2"
     }
