@@ -1,6 +1,6 @@
-acceptance: state-top-bottom-sets
-acceptance: city-top-bottom-sets
-acceptance: hyper-data-present
+# acceptance: state-top-bottom-sets
+# acceptance: city-top-bottom-sets
+# acceptance: hyper-data-present
 
 from pathlib import Path
 import zipfile
@@ -13,4 +13,5 @@ def verify():
  from tableauhyperapi import Connection,HyperProcess,Telemetry
  h=HyperProcess(Telemetry.DO_NOT_SEND_USAGE_DATA_TO_TABLEAU); c=Connection(h.endpoint,str(next((HERE/'inputs').glob('*.hyper')))); n=c.execute_scalar_query('SELECT COUNT(*) FROM "Extract"."Extract"'); assert n>0; print('rows=',n); c.close(); h.close()
 if __name__=='__main__': verify(); print('PASS')
+
 
