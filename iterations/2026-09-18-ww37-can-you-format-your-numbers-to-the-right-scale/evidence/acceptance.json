@@ -1,0 +1,16 @@
+{
+  "case_id": "wow-2026-ww37-can-you-format-your-numbers-to-the-right-scale",
+  "status": "replicated",
+  "acceptance": [
+    {
+      "id": "case-functional-contract",
+      "description": "parameter hierarchy, Sales labels, and .0[scale] format are reproduced.",
+      "mode": "automated"
+    },
+    {
+      "id": "desktop-load",
+      "description": "Generated workbook opens in Tableau Desktop.",
+      "mode": "automated"
+    }
+  ]
+}
