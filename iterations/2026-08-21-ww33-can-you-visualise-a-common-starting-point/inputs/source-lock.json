@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-11-13",
+  "source_workbook": {
+    "filename": "2026_08_19_WW33_Common_Start_Point.twbx",
+    "bytes": 31966,
+    "sha256": "17cf18718cca8124ee4d0d069e13582d1a966da9240a0f8ee3141485e1cf1e96",
+    "url": "https://public.tableau.com/views/2026_08_19_WW33_Common_Start_Point/2026_08_19_WW33_Common_Start_Point"
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Extracts/federated_04s9oso0fhjmow17i432t0.hyper",
+      "file": "inputs/federated_04s9oso0fhjmow17i432t0.hyper",
+      "bytes": 131072,
+      "sha256": "00987bdfa5130734f7d8f192506855206e72094fd59703f098d148e7d0966a0f"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}
