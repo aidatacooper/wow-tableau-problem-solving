@@ -1,0 +1,110 @@
+schema_version: 1.1.0
+case_id: wow-2022-ww01-let-s-analyse-wildlife-strikes
+iteration_id: 2022-01-06-ww01-let-s-analyse-wildlife-strikes
+post: posts/2022-01-06-Let’s_analyse_wildlife_strikes.html
+legacy_case_ids: {}
+article_date: '2022-01-06'
+challenge_year: 2022
+challenge_week: 1
+challenge_date: '2022-01-04'
+date_evidence:
+  article_date: index.json publication date; matches the post URL
+  challenge: Explicit challenge_year and week declared in iteration_id
+  challenge_date: Official WordPress REST post date for 2022w01tab
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2022w01tab/
+  article:
+    url: https://donnacoles.home.blog/2022/01/06/lets-analyse-wildlife-strikes/
+    path: posts/2022-01-06-Let’s_analyse_wildlife_strikes.html
+    sha256: 9969c9b5dfc5f4d16ff0c7de740f6a8a560981fe58b1b9886b594ff22bf60ce9
+  workbook:
+    url: https://public.tableau.com/views/2022_01_05_WW01_WildlifeStrikes/2022_01_05_WW01_WildlifeWStrikes
+    path: dashboards/2022_01_05_WW01_WildlifeStrikes/2022_01_05_WW01_WildlifeStrikes.twbx
+    filename: 2022_01_05_WW01_WildlifeStrikes.twbx
+    sha256: 542b41612466b913c534d5cd2928cbce95c297829a68a428a6c422dd16902d73
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: workaround
+cwtwb:
+  tested_version: 0.29.0a2
+  runs:
+  - version: 0.29.0a2
+    result: workaround
+    evidence: evidence/verification.json
+  - version: 0.29.0a2
+    result: workaround
+    evidence: evidence/final-validation.json
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts:
+- path: outputs/2022-01-06-ww01-let-s-analyse-wildlife-strikes-replicated-workbook.twb
+  role: sdk_generated_twb_companion
+  note: Unpackaged TWB companion produced by the same builder as the primary TWBX.
+evidence:
+- inputs/source-lock.json
+- evidence/verification.json
+- evidence/cloud-request.json
+- evidence/cloud-verification.json
+- evidence/desktop-verification.json
+- evidence/source-reconciliation.json
+- evidence/visual-review.md
+- evidence/final-validation.json
+- evidence/desktop-corpus.json
+notes:
+- Rebuilt with cwtwb 0.29.0a2 from the packaged Hyper extract using public SDK APIs only; the builder never opens
+  the author workbook.
+- Two-table logical model - strikes (251,818 rows) related to a 56-row packaged spatial extract on State Name =
+  NAME - with a top-10 species set, a parameter-driven bar/map/area dashboard and a null-state indicator.
+- 'Workaround 1: TABLEAU.TABGEOGRAPHY is inspected as string, so the author''s geometry encoding renders no marks.
+  The map uses Tableau''s native state geographic role; per-state counts and the red-gold palette are preserved.'
+- 'Workaround 2: initialize_dashboard_filter_action cannot express the all-members default state, which must retain
+  the 36,959 null-state records. State Filter / Species Filter calculations driven by the same two parameters as
+  the titles reproduce select and clear behaviour.'
+analysis_status: completed
+remaining_work: []
+workarounds:
+- id: geometry-role
+  description: TABLEAU.TABGEOGRAPHY is inspected as a string by the released SDK, so the replica uses Tableau's
+    native state geographic role while preserving state counts and the red-gold palette.
+- id: all-members-default
+  description: initialize_dashboard_filter_action cannot express the all-members default state, so State Filter
+    and Species Filter calculations preserve the null-state records and reproduce select and clear behavior.
+capability_gaps: []
+related_cwtwb_issues: []
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/2022_01_05_WW01_FAA Wildlife strikes (1990-2021).hyper
+acceptance:
+- id: default-totals
+  description: The default view covers all 251,818 strike records; the bar has the ten most-struck species in descending
+    order plus Other = 4,308, and the unknown-state indicator reports 36,959.
+  mode: automated
+- id: species-set-boundary
+  description: The tenth species (1,669) outranks the eleventh (1,201), so the top-10 set is unambiguous and Other
+    is exactly the remainder.
+  mode: automated
+- id: state-selection
+  description: The Alabama REST parameter state yields bar/area total 1,842, preserves Unknown Location 36,959 and
+    updates titles; static action wiring connects map selection.
+  mode: manual
+  evidence: evidence/cloud-verification.json
+- id: species-selection
+  description: The Unknown Bird REST parameter state yields map/area total 101,949 and Unknown Location 19,939;
+    static parameter-action wiring connects the bar selection.
+  mode: manual
+  evidence: evidence/cloud-verification.json
+- id: combined-selection-and-clear
+  description: Combined Alabama/Unknown Bird REST parameters yield area total 955; empty parameter state restores
+    totals. Both emitted actions clear to empty; browser click execution is outside this evidence scope.
+  mode: manual
+  evidence: evidence/cloud-verification.json
+- id: workbook-structure
+  description: The generated workbook keeps the relationship, calculations, set, filters, map role, dashboard geometry,
+    parameter actions and Hyper payload, and round-trips through the SDK.
+  mode: automated

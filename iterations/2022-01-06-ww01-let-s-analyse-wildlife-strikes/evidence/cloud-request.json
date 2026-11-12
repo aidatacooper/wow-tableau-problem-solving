@@ -1,0 +1,50 @@
+{
+  "case_dir": "iterations/2022-01-06-ww01-let-s-analyse-wildlife-strikes",
+  "author_workbook": "dashboards/2022_01_05_WW01_WildlifeStrikes/2022_01_05_WW01_WildlifeStrikes.twbx",
+  "project": "default",
+  "author_view": "2022_01_05_WW01_WildlifeWStrikes",
+  "replica_view": "2022_01_05_WW01_WildlifeWStrikes",
+  "states": [
+    {
+      "name": "alabama",
+      "parameters": {
+        "pSelectedState": "Alabama"
+      }
+    },
+    {
+      "name": "unknown-bird",
+      "parameters": {
+        "pSelectedSpecies": "Unknown Bird"
+      }
+    },
+    {
+      "name": "alabama-unknown-bird",
+      "parameters": {
+        "pSelectedState": "Alabama",
+        "pSelectedSpecies": "Unknown Bird"
+      }
+    }
+  ],
+  "data_views": [
+    {
+      "name": "bar",
+      "scope": "worksheet",
+      "replica": "Bar"
+    },
+    {
+      "name": "area",
+      "scope": "worksheet",
+      "replica": "Area"
+    },
+    {
+      "name": "map",
+      "scope": "worksheet",
+      "replica": "Map"
+    },
+    {
+      "name": "unknown",
+      "scope": "worksheet",
+      "replica": "Unknown"
+    }
+  ]
+}

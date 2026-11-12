@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-11-07",
+  "source_workbook": {
+    "filename": "2022_01_05_WW01_WildlifeStrikes.twbx",
+    "bytes": 583832,
+    "sha256": "542b41612466b913c534d5cd2928cbce95c297829a68a428a6c422dd16902d73",
+    "url": "https://public.tableau.com/views/2022_01_05_WW01_WildlifeStrikes/2022_01_05_WW01_WildlifeWStrikes"
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Datasources/2022_01_05_WW01_FAA Wildlife strikes (1990-2021).hyper",
+      "file": "inputs/2022_01_05_WW01_FAA Wildlife strikes (1990-2021).hyper",
+      "bytes": 786432,
+      "sha256": "596288f593e94ef1b04de6b5f2d939941644293b5c6e9148d7120befc2aefe0d"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

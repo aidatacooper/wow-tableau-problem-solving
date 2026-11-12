@@ -1,0 +1,13 @@
+{
+  "original_source_lock_sha256": "542b41612466b913c534d5cd2928cbce95c297829a68a428a6c422dd16902d73",
+  "cloud_author_sha256": "932d728d24caa1cb2457faa20a63deaf0585357b1a5c12cec0720b6fc50dbe3d",
+  "extracted_data": [
+    {
+      "input": "inputs/2022_01_05_WW01_FAA Wildlife strikes (1990-2021).hyper",
+      "sha256": "596288f593e94ef1b04de6b5f2d939941644293b5c6e9148d7120befc2aefe0d",
+      "author_archive_member": "Data/Datasources/2022_01_05_WW01_FAA Wildlife strikes (1990-2021).hyper",
+      "equal": true
+    }
+  ],
+  "note": "The original source lock is retained unchanged. The current reference archive has different ZIP bytes; each consumed data member is byte-identical to the locked extracted input. No claim is made that the archive containers are byte-identical."
+}

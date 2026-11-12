@@ -1,0 +1,468 @@
+{
+  "case_id": "wow-2022-ww01-let-s-analyse-wildlife-strikes",
+  "captured_at": "2026-11-12T17:07:22.422239+00:00",
+  "source_hashes": {
+    "author": "932d728d24caa1cb2457faa20a63deaf0585357b1a5c12cec0720b6fc50dbe3d",
+    "replica": "e1eec0126e9b3b25fc819028fe00f9aad4d8b5af715fb4cbc0eef27c01119a71"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "695fc771-c855-46f9-88c7-4f94373f03f7",
+      "name": "cwtwb-review-wow-2022-ww01-let-s-analyse-wildlife-strikes-author-932d728d24ca",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/3146963",
+      "views": [
+        {
+          "name": "2022_01_05_WW01_WildlifeWStrikes",
+          "id": "6d8871e7-9940-436f-818e-b5a708578f89"
+        }
+      ]
+    },
+    "replica": {
+      "id": "1bfe08a2-fe4b-4fe4-953f-9bcd83c4c224",
+      "name": "cwtwb-review-wow-2022-ww01-let-s-analyse-wildlife-strikes-replica-e1eec0126e9b",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/3184206",
+      "views": [
+        {
+          "name": "Bar",
+          "id": "75c53054-0f7b-45d8-b559-b38c1528c446"
+        },
+        {
+          "name": "Map",
+          "id": "49b7d0e6-f080-4c9b-8a3b-83dfd81b720d"
+        },
+        {
+          "name": "Area",
+          "id": "c1aed848-a91a-4c6f-a42a-e35e46a69d3f"
+        },
+        {
+          "name": "Unknown",
+          "id": "85a32bd4-6f14-4fe3-acd4-30e501b6c0cc"
+        },
+        {
+          "name": "2022_01_05_WW01_WildlifeWStrikes",
+          "id": "b6f3c5b6-5180-4f8b-a8c0-3e7cd125c9a9"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "6d8871e7-9940-436f-818e-b5a708578f89",
+          "name": "2022_01_05_WW01_WildlifeWStrikes",
+          "path": "outputs/cloud-author.png",
+          "sha256": "7bcda714dee4c6060c4e9c54c95d514c9ff6f35d1bdeeaaaf2c7811ad12527fd",
+          "size": [
+            2400,
+            1800
+          ]
+        },
+        "replica": {
+          "id": "b6f3c5b6-5180-4f8b-a8c0-3e7cd125c9a9",
+          "name": "2022_01_05_WW01_WildlifeWStrikes",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "d35549bbce4e0463e18c315147401a1d50ac5ba93b7118d27f0a3fb4d48c040f",
+          "size": [
+            2400,
+            1800
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "replica",
+          "view": "Bar",
+          "view_id": "75c53054-0f7b-45d8-b559-b38c1528c446",
+          "scope": "Replica worksheet export; compare with the independent Hyper oracle. Author worksheet is hidden on Cloud.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-bar.csv",
+          "sha256": "32d34e98eb47d1adb9da44a60224148cae0f2c3643cdca892f0e6c9ec06db9b0",
+          "bytes": 427
+        },
+        {
+          "role": "replica",
+          "view": "Area",
+          "view_id": "c1aed848-a91a-4c6f-a42a-e35e46a69d3f",
+          "scope": "Replica worksheet export; compare with the independent Hyper oracle. Author worksheet is hidden on Cloud.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-area.csv",
+          "sha256": "ae429ceac5f943e4a517fb0c4a96dd514c43c722e1fea42d1cd27053c2f12b75",
+          "bytes": 560
+        },
+        {
+          "role": "replica",
+          "view": "Map",
+          "view_id": "49b7d0e6-f080-4c9b-8a3b-83dfd81b720d",
+          "scope": "Replica worksheet export; compare with the independent Hyper oracle. Author worksheet is hidden on Cloud.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-map.csv",
+          "sha256": "c05a9cceda3c7df4562affa67c527535341d5b0964aa34bbb6bac0792a360ce7",
+          "bytes": 2712
+        },
+        {
+          "role": "replica",
+          "view": "Unknown",
+          "view_id": "85a32bd4-6f14-4fe3-acd4-30e501b6c0cc",
+          "scope": "Replica worksheet export; compare with the independent Hyper oracle. Author worksheet is hidden on Cloud.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-unknown.csv",
+          "sha256": "4adcd72af75698f2c6d780a8734d5a649a05db97ef3dab6ac892beccddc45cf0",
+          "bytes": 62
+        }
+      ]
+    },
+    {
+      "name": "alabama",
+      "parameters": {
+        "pSelectedState": "Alabama"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "6d8871e7-9940-436f-818e-b5a708578f89",
+          "name": "2022_01_05_WW01_WildlifeWStrikes",
+          "path": "outputs/cloud-author-alabama.png",
+          "sha256": "c6ce5859466aaf803d25d4a0c8f96c44a5b2176a077a5b96767e3b6927e35a7d",
+          "size": [
+            2400,
+            1800
+          ]
+        },
+        "replica": {
+          "id": "b6f3c5b6-5180-4f8b-a8c0-3e7cd125c9a9",
+          "name": "2022_01_05_WW01_WildlifeWStrikes",
+          "path": "outputs/cloud-replica-alabama.png",
+          "sha256": "5a023ef5a8497e23d32019e6715b89686e468afdeed12e81cfda995ed5b33b3d",
+          "size": [
+            2400,
+            1800
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "replica",
+          "view": "Bar",
+          "view_id": "75c53054-0f7b-45d8-b559-b38c1528c446",
+          "scope": "Replica worksheet export; compare with the independent Hyper oracle. Author worksheet is hidden on Cloud.",
+          "parameters": {
+            "pSelectedState": "Alabama"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-bar-alabama.csv",
+          "sha256": "75925e57b81de04f3746e41c90ff441db28005c7365a6471c817d4109d867d15",
+          "bytes": 479
+        },
+        {
+          "role": "replica",
+          "view": "Area",
+          "view_id": "c1aed848-a91a-4c6f-a42a-e35e46a69d3f",
+          "scope": "Replica worksheet export; compare with the independent Hyper oracle. Author worksheet is hidden on Cloud.",
+          "parameters": {
+            "pSelectedState": "Alabama"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-area-alabama.csv",
+          "sha256": "34c653a1cc160c47e94840cf0c7a9903b5e0c5b163429db291c917d1ff439b3b",
+          "bytes": 715
+        },
+        {
+          "role": "replica",
+          "view": "Map",
+          "view_id": "49b7d0e6-f080-4c9b-8a3b-83dfd81b720d",
+          "scope": "Replica worksheet export; compare with the independent Hyper oracle. Author worksheet is hidden on Cloud.",
+          "parameters": {
+            "pSelectedState": "Alabama"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-map-alabama.csv",
+          "sha256": "c05a9cceda3c7df4562affa67c527535341d5b0964aa34bbb6bac0792a360ce7",
+          "bytes": 2712
+        },
+        {
+          "role": "replica",
+          "view": "Unknown",
+          "view_id": "85a32bd4-6f14-4fe3-acd4-30e501b6c0cc",
+          "scope": "Replica worksheet export; compare with the independent Hyper oracle. Author worksheet is hidden on Cloud.",
+          "parameters": {
+            "pSelectedState": "Alabama"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-unknown-alabama.csv",
+          "sha256": "4adcd72af75698f2c6d780a8734d5a649a05db97ef3dab6ac892beccddc45cf0",
+          "bytes": 62
+        }
+      ]
+    },
+    {
+      "name": "unknown-bird",
+      "parameters": {
+        "pSelectedSpecies": "Unknown Bird"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "6d8871e7-9940-436f-818e-b5a708578f89",
+          "name": "2022_01_05_WW01_WildlifeWStrikes",
+          "path": "outputs/cloud-author-unknown-bird.png",
+          "sha256": "119a90dfb9983d7f7717c9d22a73790bb1b2c4ba95ec890f5d8a165aa45e2a83",
+          "size": [
+            2400,
+            1800
+          ]
+        },
+        "replica": {
+          "id": "b6f3c5b6-5180-4f8b-a8c0-3e7cd125c9a9",
+          "name": "2022_01_05_WW01_WildlifeWStrikes",
+          "path": "outputs/cloud-replica-unknown-bird.png",
+          "sha256": "6be2afee61914c80939cec4ae85c0d31c61b05e19b67782cb868070ee36ac989",
+          "size": [
+            2400,
+            1800
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "replica",
+          "view": "Bar",
+          "view_id": "75c53054-0f7b-45d8-b559-b38c1528c446",
+          "scope": "Replica worksheet export; compare with the independent Hyper oracle. Author worksheet is hidden on Cloud.",
+          "parameters": {
+            "pSelectedSpecies": "Unknown Bird"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-bar-unknown-bird.csv",
+          "sha256": "32d34e98eb47d1adb9da44a60224148cae0f2c3643cdca892f0e6c9ec06db9b0",
+          "bytes": 427
+        },
+        {
+          "role": "replica",
+          "view": "Area",
+          "view_id": "c1aed848-a91a-4c6f-a42a-e35e46a69d3f",
+          "scope": "Replica worksheet export; compare with the independent Hyper oracle. Author worksheet is hidden on Cloud.",
+          "parameters": {
+            "pSelectedSpecies": "Unknown Bird"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-area-unknown-bird.csv",
+          "sha256": "7ea8db98f769bf950bb7f4f6c6d8812dc9c16e81fda53404178ab7aab5613623",
+          "bytes": 930
+        },
+        {
+          "role": "replica",
+          "view": "Map",
+          "view_id": "49b7d0e6-f080-4c9b-8a3b-83dfd81b720d",
+          "scope": "Replica worksheet export; compare with the independent Hyper oracle. Author worksheet is hidden on Cloud.",
+          "parameters": {
+            "pSelectedSpecies": "Unknown Bird"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-map-unknown-bird.csv",
+          "sha256": "cc3d86d44063865f262ea029abceb6c6c24fd8b16f881cc169a104621ab21c46",
+          "bytes": 2470
+        },
+        {
+          "role": "replica",
+          "view": "Unknown",
+          "view_id": "85a32bd4-6f14-4fe3-acd4-30e501b6c0cc",
+          "scope": "Replica worksheet export; compare with the independent Hyper oracle. Author worksheet is hidden on Cloud.",
+          "parameters": {
+            "pSelectedSpecies": "Unknown Bird"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-unknown-unknown-bird.csv",
+          "sha256": "35b296179562e9746f68890b10f8aceb96ff921408b8da20ac7414761cb8ef8f",
+          "bytes": 62
+        }
+      ]
+    },
+    {
+      "name": "alabama-unknown-bird",
+      "parameters": {
+        "pSelectedState": "Alabama",
+        "pSelectedSpecies": "Unknown Bird"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "6d8871e7-9940-436f-818e-b5a708578f89",
+          "name": "2022_01_05_WW01_WildlifeWStrikes",
+          "path": "outputs/cloud-author-alabama-unknown-bird.png",
+          "sha256": "6fbd31c2b1bd7765d4d69521478eb8d23c90eae2764a2c1bf3d596dc76da6c0b",
+          "size": [
+            2400,
+            1800
+          ]
+        },
+        "replica": {
+          "id": "b6f3c5b6-5180-4f8b-a8c0-3e7cd125c9a9",
+          "name": "2022_01_05_WW01_WildlifeWStrikes",
+          "path": "outputs/cloud-replica-alabama-unknown-bird.png",
+          "sha256": "109216e0b322a72b73a1174e98c0677b2dabe46e6fea253051a6dd8335768aad",
+          "size": [
+            2400,
+            1800
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "replica",
+          "view": "Bar",
+          "view_id": "75c53054-0f7b-45d8-b559-b38c1528c446",
+          "scope": "Replica worksheet export; compare with the independent Hyper oracle. Author worksheet is hidden on Cloud.",
+          "parameters": {
+            "pSelectedState": "Alabama",
+            "pSelectedSpecies": "Unknown Bird"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-bar-alabama-unknown-bird.csv",
+          "sha256": "75925e57b81de04f3746e41c90ff441db28005c7365a6471c817d4109d867d15",
+          "bytes": 479
+        },
+        {
+          "role": "replica",
+          "view": "Area",
+          "view_id": "c1aed848-a91a-4c6f-a42a-e35e46a69d3f",
+          "scope": "Replica worksheet export; compare with the independent Hyper oracle. Author worksheet is hidden on Cloud.",
+          "parameters": {
+            "pSelectedState": "Alabama",
+            "pSelectedSpecies": "Unknown Bird"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-area-alabama-unknown-bird.csv",
+          "sha256": "1a3bf045f6a403b9ef93673ef1836bdac92c6545084f308593b13e8bf62bcec1",
+          "bytes": 1094
+        },
+        {
+          "role": "replica",
+          "view": "Map",
+          "view_id": "49b7d0e6-f080-4c9b-8a3b-83dfd81b720d",
+          "scope": "Replica worksheet export; compare with the independent Hyper oracle. Author worksheet is hidden on Cloud.",
+          "parameters": {
+            "pSelectedState": "Alabama",
+            "pSelectedSpecies": "Unknown Bird"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-map-alabama-unknown-bird.csv",
+          "sha256": "cc3d86d44063865f262ea029abceb6c6c24fd8b16f881cc169a104621ab21c46",
+          "bytes": 2470
+        },
+        {
+          "role": "replica",
+          "view": "Unknown",
+          "view_id": "85a32bd4-6f14-4fe3-acd4-30e501b6c0cc",
+          "scope": "Replica worksheet export; compare with the independent Hyper oracle. Author worksheet is hidden on Cloud.",
+          "parameters": {
+            "pSelectedState": "Alabama",
+            "pSelectedSpecies": "Unknown Bird"
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-unknown-alabama-unknown-bird.csv",
+          "sha256": "35b296179562e9746f68890b10f8aceb96ff921408b8da20ac7414761cb8ef8f",
+          "bytes": 62
+        }
+      ]
+    },
+    {
+      "name": "clear",
+      "parameters": {
+        "pSelectedState": "",
+        "pSelectedSpecies": ""
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "6d8871e7-9940-436f-818e-b5a708578f89",
+          "name": "2022_01_05_WW01_WildlifeWStrikes",
+          "path": "outputs/cloud-author-clear.png",
+          "sha256": "7bcda714dee4c6060c4e9c54c95d514c9ff6f35d1bdeeaaaf2c7811ad12527fd",
+          "size": [
+            2400,
+            1800
+          ]
+        },
+        "replica": {
+          "id": "b6f3c5b6-5180-4f8b-a8c0-3e7cd125c9a9",
+          "name": "2022_01_05_WW01_WildlifeWStrikes",
+          "path": "outputs/cloud-replica-clear.png",
+          "sha256": "d35549bbce4e0463e18c315147401a1d50ac5ba93b7118d27f0a3fb4d48c040f",
+          "size": [
+            2400,
+            1800
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "replica",
+          "view": "Bar",
+          "view_id": "75c53054-0f7b-45d8-b559-b38c1528c446",
+          "scope": "Replica worksheet export; compare with the independent Hyper oracle. Author worksheet is hidden on Cloud.",
+          "parameters": {
+            "pSelectedState": "",
+            "pSelectedSpecies": ""
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-bar-clear.csv",
+          "sha256": "32d34e98eb47d1adb9da44a60224148cae0f2c3643cdca892f0e6c9ec06db9b0",
+          "bytes": 427
+        },
+        {
+          "role": "replica",
+          "view": "Area",
+          "view_id": "c1aed848-a91a-4c6f-a42a-e35e46a69d3f",
+          "scope": "Replica worksheet export; compare with the independent Hyper oracle. Author worksheet is hidden on Cloud.",
+          "parameters": {
+            "pSelectedState": "",
+            "pSelectedSpecies": ""
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-area-clear.csv",
+          "sha256": "ae429ceac5f943e4a517fb0c4a96dd514c43c722e1fea42d1cd27053c2f12b75",
+          "bytes": 560
+        },
+        {
+          "role": "replica",
+          "view": "Map",
+          "view_id": "49b7d0e6-f080-4c9b-8a3b-83dfd81b720d",
+          "scope": "Replica worksheet export; compare with the independent Hyper oracle. Author worksheet is hidden on Cloud.",
+          "parameters": {
+            "pSelectedState": "",
+            "pSelectedSpecies": ""
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-map-clear.csv",
+          "sha256": "c05a9cceda3c7df4562affa67c527535341d5b0964aa34bbb6bac0792a360ce7",
+          "bytes": 2712
+        },
+        {
+          "role": "replica",
+          "view": "Unknown",
+          "view_id": "85a32bd4-6f14-4fe3-acd4-30e501b6c0cc",
+          "scope": "Replica worksheet export; compare with the independent Hyper oracle. Author worksheet is hidden on Cloud.",
+          "parameters": {
+            "pSelectedState": "",
+            "pSelectedSpecies": ""
+          },
+          "filters": {},
+          "path": "outputs/cloud-replica-unknown-clear.csv",
+          "sha256": "4adcd72af75698f2c6d780a8734d5a649a05db97ef3dab6ac892beccddc45cf0",
+          "bytes": 62
+        }
+      ]
+    }
+  ],
+  "status": "captured_requires_independent_review"
+}
