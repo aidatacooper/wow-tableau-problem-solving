@@ -1,0 +1,71 @@
+schema_version: 1.1.0
+case_id: wow-2026-ww35-can-you-use-a-published-data-source-and-web-edit-to-create-a-cyclone-path-map
+iteration_id: 2026-09-04-ww35-can-you-use-a-published-data-source-and-web-edit-to-create-a-cyclone-path-map
+post: https://donnacoles.home.blog/2026/09/04/can-you-use-a-published-data-source-and-web-edit-to-create-a-cyclone-path-map/
+legacy_case_ids: {}
+article_date: '2026-09-04'
+challenge_year: 2026
+challenge_week: 35
+challenge_date: '2026-09-02'
+date_evidence:
+  article_date: Declared article publication date in iteration_id
+  challenge: Official challenge publication date and URL
+  challenge_date: 2026-09-02 official Workout Wednesday publication
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2026w35tab/
+  article:
+    url: https://donnacoles.home.blog/2026/09/04/can-you-use-a-published-data-source-and-web-edit-to-create-a-cyclone-path-map/
+  workbook:
+    url: https://public.tableau.com/views/2026_09_02_WW35_Cyclone_Path_Map_Web_Edit/2026_09_02_WW35_Cyclone_Path_Map_Web_Edit
+    filename: 2026_09_02_WW35_Cyclone_Path_Map_Web_Edit.twbx
+    sha256: 7b1c4d6c55795a8bd40efc7560a5221b0bbde145fb40e8e975515f24d6e3b7d6
+verification_status: pending
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: null
+  cloud_replica: null
+historical_artifacts: []
+evidence:
+- inputs/source-lock.json
+notes:
+- Author workbook references a published data source and contains no packaged data;
+  independent extraction is blocked.
+- Browser interaction was not executed.
+cwtwb:
+  tested_version: 0.26.0
+  runs:
+  - version: 0.26.0
+    result: blocked
+    evidence: inputs/source-lock.json
+analysis_status: completed
+functional_status: blocked
+visual_status: not_evaluated
+cwtwb_result: blocked
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/blocked-source.csv
+acceptance:
+- id: author-source-blocker-recorded
+  description: Source-lock evidence records that the published-source TWBX has no
+    packaged data file.
+  mode: automated
+- id: desktop-placeholder-loads
+  description: Placeholder artifact opens in Tableau Desktop while independent source
+    remains unavailable.
+  mode: automated
+remaining_work:
+- Obtain an independently redistributable extract or authorized Tableau Public export
+  of Historical Tropical Cyclones.
+- Rebuild point and line map layers, category bar chart, and verify in Desktop/Cloud.
+blocker: No packaged data file; published-source browser authentication and web editing
+  are unavailable in the local phase boundary.
+workarounds:
+- Text-only Desktop-loadable placeholder workbook.
+capability_gaps:
+- Published Tableau data-source authentication/export is unavailable to the local
+  phase boundary
+related_cwtwb_issues: []
+browser_interaction_executed: false
+artifact_aliases: {}
