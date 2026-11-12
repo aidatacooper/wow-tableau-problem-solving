@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "generated_from": "iterations/*/case.yaml",
-  "active_case_count": 131,
+  "active_case_count": 132,
   "legacy_case_ids": {
     "donna-2019-07-18-63877b35d19a": "wow-2019-ww29-high-orders",
     "donna-2019-07-25-59a0a144b25b": "wow-2019-ww30-navigation-kpi",
@@ -7646,6 +7646,71 @@
         "Real NONE and two category-pair tooltips passed all counts, currency and conditional text. Native selection/clear preserved the 153-cell lower triangle and category order. Frozen workbook unchanged; earlier MFA-unavailable note is superseded by the authenticated browser run."
       ],
       "metadata": "iterations/2021-12-12-ww49-which-sub-categories-are-frequently-ordered-together/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.29.0a2"
+    },
+    {
+      "case_id": "wow-2021-ww50-can-you-recreate-this-drill-down",
+      "legacy_case_ids": {},
+      "iteration_id": "2021-12-16-ww50-can-you-recreate-this-drill-down",
+      "article_date": "2021-12-16",
+      "challenge_year": 2021,
+      "challenge_week": 50,
+      "challenge_date": "2021-12-14",
+      "date_evidence": {
+        "article_date": "Declared article publication date in iteration_id",
+        "challenge": "Article explicitly identifies Week 50 of 2021; official post title agrees.",
+        "challenge_date": "Official WordPress post 6502 date 2021-12-14T16:30:00; evidence/official-date.json"
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2021tabw50/"
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2021/12/16/can-you-recreate-this-drill-down/",
+          "path": null,
+          "sha256": "373f351da9c0081cbfb38b53767f879961073abd19e65fb1a95487ed197c649e"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2021_12_15_WW50_DrillDownFilter/2021_12_15_WW50_DrillDownFilter",
+          "filename": "2021_12_15_WW50_DrillDownFilter.twbx",
+          "sha256": "492553af1106de61699374db06f923549ceb059d5ae05f83398110c7b67f970e"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "pass",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "inputs/source-lock.json",
+        "evidence/official-date.json",
+        "evidence/baseline-0.29.0a2.json",
+        "evidence/desktop-verification.json",
+        "evidence/cloud-request.json",
+        "evidence/cloud-verification.json",
+        "outputs/build-provenance.json",
+        "outputs/verification.json",
+        "evidence/source-reconciliation.json",
+        "evidence/visual-review.md",
+        "evidence/final-validation.json",
+        "evidence/desktop-corpus.json"
+      ],
+      "notes": [
+        "The published author workbook retains the earlier pLevel/DD Level route; the blog's final solution uses only pSelectedCategory and pSelectedSubCat. The replica implements the final two-parameter route, which satisfies the official requirements.",
+        "Cloud images capture REST parameter states, not browser click execution. The reset path is proved by the emitted Sub Cat Display / FILTER formulas and a four-state monthly oracle; Desktop opens the packaged workbook.",
+        "Category bars remain in natural order because the released chart API exposes one descending shelf sort; the inner Sub Cat Display sort and every value are preserved.",
+        "The author workbook was used for analysis only and is not stored in the iteration.",
+        "Tableau Public re-zips the author TWBX per request, so its ZIP hash changes between downloads; the extracted Hyper hash 6a35f8f3cb85cd731d40dc15eba6d43be13dd047dfb449385786924e859f19c9 is stable and is what the builder consumes.",
+        "The final author and replica Bookcases REST captures both expand Furniture. Earlier capture observations do not describe the final images."
+      ],
+      "metadata": "iterations/2021-12-16-ww50-can-you-recreate-this-drill-down/case.yaml",
       "metadata_contract": "1.1.0",
       "tested_sdk_version": "0.29.0a2"
     },
