@@ -1,0 +1,7 @@
+{
+  "sha256": "7677c562d1b5b457f30dda25ac7258ff527e77559413389f13dde4e4dfde5cb5",
+  "result": "LOADED",
+  "captured_at": "2026-11-12T17:06:16.275681+00:00",
+  "command": "python scripts/desktop/build_and_check.py iterations/2022-01-14-ww02-can-you-build-a-weekly-year-over-year-line-chart",
+  "scope": "Tableau Desktop loadability only; REST state and static action contracts are separate evidence."
+}

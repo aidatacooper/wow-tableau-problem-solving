@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "generated_from": "iterations/*/case.yaml",
-  "active_case_count": 130,
+  "active_case_count": 131,
   "legacy_case_ids": {
     "donna-2019-07-18-63877b35d19a": "wow-2019-ww29-high-orders",
     "donna-2019-07-25-59a0a144b25b": "wow-2019-ww30-navigation-kpi",
@@ -7646,6 +7646,74 @@
         "Real NONE and two category-pair tooltips passed all counts, currency and conditional text. Native selection/clear preserved the 153-cell lower triangle and category order. Frozen workbook unchanged; earlier MFA-unavailable note is superseded by the authenticated browser run."
       ],
       "metadata": "iterations/2021-12-12-ww49-which-sub-categories-are-frequently-ordered-together/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.29.0a2"
+    },
+    {
+      "case_id": "wow-2022-ww02-can-you-build-a-weekly-year-over-year-line-chart",
+      "legacy_case_ids": {},
+      "iteration_id": "2022-01-14-ww02-can-you-build-a-weekly-year-over-year-line-chart",
+      "article_date": "2022-01-14",
+      "challenge_year": 2022,
+      "challenge_week": 2,
+      "challenge_date": "2022-01-11",
+      "date_evidence": {
+        "article_date": "index.json publication date; matches the post URL",
+        "challenge": "Explicit challenge_year and week declared in iteration_id",
+        "challenge_date": "Official WordPress REST post date for 2022w02tab"
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2022w02tab/"
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2022/01/14/can-you-build-a-weekly-year-over-year-line-chart/",
+          "path": "posts/2022-01-14-Can_you_build_a_weekly_year-over-year_line_chart.html",
+          "sha256": "857ef519a18dbf5ed4a7dc6526b99ca27c1c550e32e2a61e2cef96e1f1f33ce2"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2022_01_11_WW02_YoY_By_Week/2022_01_11_WW02_YoY_By_Week",
+          "path": "dashboards/2022_01_11_WW02_YoY_By_Week/2022_01_11_WW02_YoY_By_Week.twbx",
+          "filename": "2022_01_11_WW02_YoY_By_Week.twbx",
+          "sha256": "cf4d8cdd938360983f6e676229b83919cf50e92e5ff90d017d9eb00726e406ea"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "workaround",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [
+        {
+          "path": "outputs/2022-01-14-ww02-can-you-build-a-weekly-year-over-year-line-chart-replicated-workbook.twb",
+          "role": "sdk_generated_twb_companion",
+          "note": "Unpackaged TWB companion produced by the same builder as the primary TWBX."
+        }
+      ],
+      "evidence": [
+        "inputs/source-lock.json",
+        "evidence/cloud-request.json",
+        "evidence/cloud-verification.json",
+        "evidence/desktop-verification.json",
+        "evidence/validation.json",
+        "evidence/visual-review.md",
+        "evidence/source-reconciliation.json",
+        "evidence/final-validation.json",
+        "evidence/desktop-corpus.json"
+      ],
+      "notes": [
+        "Rebuilt with cwtwb 0.29.0a2 from the packaged Hyper extract using public SDK APIs only; the author workbook was never opened by the builder.",
+        "The chart is a single continuous date axis over three year groups. Year Group is a signed offset from the Today parameter (YEAR(Today) - YEAR(week start)), written so that Tableau's default ascending member order is Current, Previous, 2 Yrs Ago - the order the author fixes with a manual sort.",
+        "The load-bearing calculation is Date to Plot: MAKEDATE re-bases a week start onto 2021 but drops the weekday, so the three years only share an axis position after the rebased date is truncated back to its Monday. Without that truncation the year-over-year table calculation degrades into week-over-week growth.",
+        "Known cwtwb gaps (worked around inside the case): no continuous week-trunc date grain, no dimension member aliases, and set_worksheet_rich_title drops fontname. See analysis.md.",
+        "Final tested runtime is the installed 0.29.0a2 distribution; its installed package has no source-commit metadata. CI independently installs the repository requirements pin."
+      ],
+      "metadata": "iterations/2022-01-14-ww02-can-you-build-a-weekly-year-over-year-line-chart/case.yaml",
       "metadata_contract": "1.1.0",
       "tested_sdk_version": "0.29.0a2"
     },

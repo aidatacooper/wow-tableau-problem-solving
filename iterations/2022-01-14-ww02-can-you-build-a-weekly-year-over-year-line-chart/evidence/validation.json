@@ -1,0 +1,20 @@
+{
+ "schema_version": "1.0.0",
+ "status": "passed",
+ "checked_at": "2026-11-06T16:47:58+00:00",
+ "artifacts": {
+  "replicated-workbook.twbx": {
+   "sha256": "5d5c1cba7e902cd7f29434f53526ceba6913348d2706bf24233e62c83c1ee894",
+   "zip_structure": "passed",
+   "bundled_hyper_present": true,
+   "local_xsd": "passed",
+   "tableau_desktop": "LOADED"
+  }
+ },
+ "commands": [
+  "python scripts/validate_iteration.py iterations/2022-01-14-ww02-can-you-build-a-weekly-year-over-year-line-chart",
+  "python scripts/desktop/build_and_check.py iterations/2022-01-14-ww02-can-you-build-a-weekly-year-over-year-line-chart",
+  "python -m unittest discover -s tests",
+  "python scripts/desktop/verify_corpus.py"
+ ]
+}

@@ -1,0 +1,92 @@
+{
+  "case_id": "wow-2022-ww02-can-you-build-a-weekly-year-over-year-line-chart",
+  "captured_at": "2026-11-12T17:07:51.181830+00:00",
+  "source_hashes": {
+    "author": "3c40cd2e035d9b9cdd7a7af1f8300a6547d2afac8290587529330fc580d2e0af",
+    "replica": "7677c562d1b5b457f30dda25ac7258ff527e77559413389f13dde4e4dfde5cb5"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "9e98e21a-8781-4765-9dbe-5e8875e12117",
+      "name": "cwtwb-review-wow-2022-ww02-can-you-build-a-weekly-year-over-year-line-chart-author-3c40cd2e035d",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/3146788",
+      "views": [
+        {
+          "name": "2022_01_11_WW02_YoY_By_Week",
+          "id": "dc5e87fb-7a46-43d5-9996-9cbd07bc6dd1"
+        }
+      ]
+    },
+    "replica": {
+      "id": "ecbd08ec-4d2a-4c0f-a6f2-bdc4e9d29df2",
+      "name": "cwtwb-review-wow-2022-ww02-can-you-build-a-weekly-year-over-year-line-chart-replica-7677c562d1b5",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/3184209",
+      "views": [
+        {
+          "name": "Line Chart",
+          "id": "747f4cd2-beef-4b9e-9435-057afcf5a559"
+        },
+        {
+          "name": "2022_01_11_WW02_YoY_By_Week",
+          "id": "f4bbf81d-b2ed-4c73-8fbd-3eeac68aea31"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "dc5e87fb-7a46-43d5-9996-9cbd07bc6dd1",
+          "name": "2022_01_11_WW02_YoY_By_Week",
+          "path": "outputs/cloud-author.png",
+          "sha256": "a6d324bcef5cfeb42d78cad71d9ffa0f940b9305848e87a71a8717f2effdfbcc",
+          "size": [
+            2200,
+            1600
+          ]
+        },
+        "replica": {
+          "id": "f4bbf81d-b2ed-4c73-8fbd-3eeac68aea31",
+          "name": "2022_01_11_WW02_YoY_By_Week",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "8ba59a954a1b7b0489a62d9f8e35e4b1cc904badcf666b69fde60d6a648388df",
+          "size": [
+            2200,
+            1600
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "2022_01_11_WW02_YoY_By_Week",
+          "view_id": "dc5e87fb-7a46-43d5-9996-9cbd07bc6dd1",
+          "scope": "dashboard crosstab",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-dashboard.csv",
+          "sha256": "32c3dc7ca5d24e2bfbff28feb8fc1bdeda67c75e8f44778842e2068a794c0390",
+          "bytes": 10424
+        },
+        {
+          "role": "replica",
+          "view": "2022_01_11_WW02_YoY_By_Week",
+          "view_id": "f4bbf81d-b2ed-4c73-8fbd-3eeac68aea31",
+          "scope": "dashboard crosstab",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-dashboard.csv",
+          "sha256": "26c678aec68e1629df8882d08bc77de83575eefaca47004546b68db33dddba62",
+          "bytes": 8029
+        }
+      ]
+    }
+  ],
+  "status": "captured_requires_independent_review"
+}
