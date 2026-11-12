@@ -1,0 +1,69 @@
+schema_version: 1.1.0
+case_id: wow-2026-ww30-can-you-build-a-ladder-chart
+iteration_id: 2026-08-01-ww30-can-you-build-a-ladder-chart
+post: https://donnacoles.home.blog/2026/08/01/can-you-build-a-ladder-chart/
+legacy_case_ids: {}
+article_date: '2026-08-01'
+challenge_year: 2026
+challenge_week: 30
+challenge_date: '2026-07-28'
+date_evidence:
+  article_date: Declared article publication date in iteration_id
+  challenge: Explicit challenge_year; week declared in iteration_id
+  challenge_date: Explicit official challenge publication date and URL
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2026w30tab/
+  article:
+    url: https://donnacoles.home.blog/2026/08/01/can-you-build-a-ladder-chart/
+    path: null
+    sha256: null
+  workbook:
+    url: https://public.tableau.com/views/2026_07_29_WW30_Tennis_Career_Ladder_Chart/2026_07_29_WW30_Tennis_Career_Ladder_Chart
+    filename: 2026_07_29_WW30_Tennis_Career_Ladder_Chart.twbx
+    sha256: 8e6e95cf395abceef07ce8c4e8ed74b6d1650ef3282b3100bd6882496e9b1643
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: null
+  cloud_replica: null
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- inputs/source-lock.json
+- outputs/replicated-workbook.twbx
+notes:
+- Generated index views must be refreshed after the workbook is built and verified.
+cwtwb:
+  tested_version: 0.29.0a2
+  runs:
+  - version: 0.29.0a2
+    result: pass
+    evidence: evidence/cwtwb-run.json
+analysis_status: completed
+functional_status: partial
+visual_status: not_evaluated
+cwtwb_result: pass
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/Sinner (Tennis_Career).hyper
+acceptance:
+- id: grand-slam-filter
+  description: pGrandSlamsOnly and Filter - Matches retain the four Grand Slam tournaments
+    when true.
+  mode: automated
+- id: best-round-per-tournament
+  description: Keep Best Round Only compares Round Position with the fixed minimum
+    for each tournament date.
+  mode: automated
+- id: winner-flag
+  description: Is Winner identifies Match strings containing Sinner.
+  mode: automated
+remaining_work: Native parameter toggling, hover events, and pixel-level visual review.
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []
+
+
+
