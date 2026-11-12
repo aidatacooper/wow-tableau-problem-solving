@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-11-13",
+  "source_workbook": {
+    "filename": "2026_07_01_WW26_Drive_Time.twbx",
+    "bytes": 331413,
+    "sha256": "e5bf087916d6b66f7e2c934a30353e22774664cf9117795f872a26d7c8cf0340",
+    "url": "https://public.tableau.com/views/2026_07_01_WW26_Drive_Time/2026_07_01_WW26_Drive_Time"
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Datasources/dc-grocery-clean.hyper",
+      "file": "inputs/dc-grocery-clean.hyper",
+      "bytes": 65536,
+      "sha256": "a1b518b6f161138da78191bda1289b738abf72862ab9ab9627a4294a4934d337"
+    },
+    {
+      "archive_path": "Data/Datasources/Orders (Sample - Superstore).hyper",
+      "file": "inputs/Orders (Sample - Superstore).hyper",
+      "bytes": 65536,
+      "sha256": "c079e360ff7ee2a8859a6e4ade2457da7a7b357de505c611292c076a43357120"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}
