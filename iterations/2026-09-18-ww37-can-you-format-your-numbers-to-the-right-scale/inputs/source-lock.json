@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-11-13",
+  "source_workbook": {
+    "filename": "2026_09_16_WW37_Number_Format.twbx",
+    "bytes": 53583,
+    "sha256": "7457be806b13d2e4cdf9eee904d99e3461bcb7aa0f80ae87a19a94ff52bc2cdd",
+    "url": "https://public.tableau.com/views/2026_09_16_WW37_Number_Format/2026_09_16_WW37_Number_Format"
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Datasources/Orders (Sample - Superstore).hyper",
+      "file": "inputs/Orders (Sample - Superstore).hyper",
+      "bytes": 196608,
+      "sha256": "9c6264447f28ce52890f26bf430cfbae8f2189f716e1a7135ed806a9ce95edb2"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

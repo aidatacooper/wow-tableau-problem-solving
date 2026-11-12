@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "generated_from": "iterations/*/case.yaml",
-  "active_case_count": 140,
+  "active_case_count": 143,
   "legacy_case_ids": {
     "donna-2019-07-18-63877b35d19a": "wow-2019-ww29-high-orders",
     "donna-2019-07-25-59a0a144b25b": "wow-2019-ww30-navigation-kpi",
@@ -9030,6 +9030,59 @@
       "metadata": "iterations/2026-08-21-ww33-can-you-visualise-a-common-starting-point/case.yaml",
       "metadata_contract": "1.1.0",
       "tested_sdk_version": "0.29.0a2"
+    },
+    {
+      "case_id": "wow-2026-ww37-can-you-format-your-numbers-to-the-right-scale",
+      "legacy_case_ids": {},
+      "iteration_id": "2026-09-18-ww37-can-you-format-your-numbers-to-the-right-scale",
+      "article_date": "2026-09-18",
+      "challenge_year": 2026,
+      "challenge_week": 37,
+      "challenge_date": "2026-09-15",
+      "date_evidence": {
+        "article_date": "Declared article publication date in iteration_id",
+        "challenge": "Explicit challenge_year; week declared in iteration_id",
+        "challenge_date": "Explicit official challenge publication date and URL"
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2026w37tab/"
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2026/09/18/can-you-format-your-numbers-to-the-right-scale/",
+          "path": "posts/2026-09-18-Can_you_format_your_numbers_to_the_right_scale.html",
+          "sha256": null
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2026_09_16_WW37_Number_Format/2026_09_16_WW37_Number_Format",
+          "filename": "2026_09_16_WW37_Number_Format.twbx",
+          "sha256": "7457be806b13d2e4cdf9eee904d99e3461bcb7aa0f80ae87a19a94ff52bc2cdd"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "not_evaluated",
+      "verification_status": "verified",
+      "cwtwb_result": "pass",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": null,
+        "cloud_replica": null
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "inputs/source-lock.json",
+        "evidence/acceptance.json",
+        "evidence/current-functional-verification.json",
+        "evidence/validation.json"
+      ],
+      "notes": [
+        "parameter hierarchy, Sales labels, and .0[scale] format are reproduced.",
+        "Cloud/browser interaction was not executed; browser_interaction_executed=false."
+      ],
+      "metadata": "iterations/2026-09-18-ww37-can-you-format-your-numbers-to-the-right-scale/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.26.0"
     },
     {
       "case_id": "wow-2026-ww38-can-you-create-an-embedded-categorised-dashboard-portal",

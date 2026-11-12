@@ -1679,6 +1679,17 @@
       "reason": "Derived from case metadata; consumed means claimed, not verified completed."
     },
     {
+      "case_id": "wow-2026-ww37-can-you-format-your-numbers-to-the-right-scale",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2026-09-18-ww37-can-you-format-your-numbers-to-the-right-scale",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.26.0",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
       "case_id": "wow-2026-ww38-can-you-create-an-embedded-categorised-dashboard-portal",
       "legacy_case_ids": {},
       "workbook_ids": [],
