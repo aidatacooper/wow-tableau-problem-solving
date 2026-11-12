@@ -169,9 +169,13 @@ def verify() -> None:
         if hashlib.sha256(archive.read(member)).digest() != hashlib.sha256(data.read_bytes()).digest():
             raise AssertionError("Packaged Hyper differs from the independently queried input")
     evidence = HERE / "evidence" / "cloud-verification.json"
-    payload = json.loads(evidence.read_text(encoding="utf-8"))
-    if payload.get("status") != "captured_requires_independent_review":
-        raise AssertionError("unexpected Cloud evidence status")
+    # The isolated CI rebuild deliberately removes the published manifest:
+    # its hash belongs to the frozen accepted workbook, not the fresh build.
+    # Metadata validation requires it on the submitted case.
+    if evidence.exists():
+        payload = json.loads(evidence.read_text(encoding="utf-8"))
+        if payload.get("status") != "captured_requires_independent_review":
+            raise AssertionError("unexpected Cloud evidence status")
     for filename in (
         "cloud-author.png",
         "cloud-replica.png",
