@@ -1646,6 +1646,17 @@
       "reason": "Derived from case metadata; consumed means claimed, not verified completed."
     },
     {
+      "case_id": "wow-2026-ww32-can-you-use-sets-to-highlight-top-and-bottom-performing-states-cities",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2026-08-14-ww32-can-you-use-sets-to-highlight-top-and-bottom-performing-states-cities",
+      "status": "consumed",
+      "replication_status": "partial",
+      "verification_status": "verified",
+      "cwtwb_version": "0.29.0a2",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
       "case_id": "wow-2026-ww33-can-you-visualise-a-common-starting-point",
       "legacy_case_ids": {},
       "workbook_ids": [],
