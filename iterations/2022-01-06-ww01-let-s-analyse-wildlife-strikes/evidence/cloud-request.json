@@ -23,28 +23,15 @@
         "pSelectedState": "Alabama",
         "pSelectedSpecies": "Unknown Bird"
       }
+    },
+    {
+      "name": "clear",
+      "parameters": {
+        "pSelectedState": "",
+        "pSelectedSpecies": ""
+      }
     }
   ],
-  "data_views": [
-    {
-      "name": "bar",
-      "scope": "worksheet",
-      "replica": "Bar"
-    },
-    {
-      "name": "area",
-      "scope": "worksheet",
-      "replica": "Area"
-    },
-    {
-      "name": "map",
-      "scope": "worksheet",
-      "replica": "Map"
-    },
-    {
-      "name": "unknown",
-      "scope": "worksheet",
-      "replica": "Unknown"
-    }
-  ]
+  "data_views": [],
+  "capture_note": "The author publishes only its dashboard. Do not request hidden author worksheet CSVs. Replica-only Bar/Area/Map/Unknown CSVs were separately exported for every state and are hash-bound in cloud-verification.json."
 }
