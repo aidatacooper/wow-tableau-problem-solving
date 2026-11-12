@@ -1,0 +1,107 @@
+schema_version: 1.1.0
+case_id: wow-2021-ww52-can-you-build-a-table-with-one-measure
+iteration_id: 2022-01-01-ww52-can-you-build-a-table-with-one-measure
+post: posts/2022-01-01-Can_you_build_a_table_with_one_measure.html
+legacy_case_ids: {}
+article_date: '2022-01-01'
+challenge_year: 2021
+challenge_week: 52
+challenge_date: '2021-12-28'
+date_evidence:
+  article_date: Declared article publication date in iteration_id
+  challenge: Official challenge URL identifies Week 52 of 2021
+  challenge_date: Official challenge publication date is 2021-12-28
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/wow2021_w52/
+  article:
+    url: null
+    path: posts/2022-01-01-Can_you_build_a_table_with_one_measure.html
+    sha256: null
+  workbook:
+    url: https://public.tableau.com/views/2021_12_29_WW52_SingleTable_OneMeasure/2021_12_29_WW52_SingleTable_OneMeasure
+    filename: 2021_12_29_WW52_SingleTable_OneMeasure.twbx
+    sha256: 141404bac6b95d6e00386a96052a7723720483ca953de60b49bc6af2ae956252
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- inputs/source-lock.json
+- evidence/baseline-0.29.0a2.json
+- evidence/article-date.json
+- evidence/official-challenge-date.json
+- evidence/cloud-verification.json
+- evidence/desktop-verification.json
+- outputs/build-provenance.json
+- evidence/source-reconciliation.json
+- evidence/visual-review.md
+- evidence/final-validation.json
+- evidence/desktop-corpus.json
+cwtwb:
+  tested_version: 0.29.0a2
+  runs:
+  - version: 0.29.0a2
+    result: workaround
+    evidence: evidence/baseline-0.29.0a2.json
+  - version: 0.29.0a2
+    result: workaround
+    evidence: evidence/final-validation.json
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: workaround
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/federated_0g0c07z1rhpm3o1en8fhr0.hyper
+acceptance:
+- id: single-measure-encoding
+  description: Text and color both bind one Custom Measure field and the mark is Square.
+  mode: automated
+- id: size-driven-subtotal-split
+  description: SIZE and Custom Measure use Category-addressed table calculations to split detail and subtotal values.
+  mode: automated
+- id: totals-above-groups
+  description: Category and Sub-Category are nested on Rows, Category subtotals are enabled, and totals are on top.
+  mode: automated
+- id: subtotal-labels-and-formats
+  description: Detail and grand-total cells use currency while Category subtotal rows use the percent format and
+    labels.
+  mode: automated
+- id: diverging-colour-scale
+  description: Custom Measure uses the green-blue-white diverging palette centred at zero and includes totals.
+  mode: automated
+- id: dashboard-fixed-size
+  description: The dashboard is fixed at 1000 x 600 and contains the table plus four footer zones.
+  mode: automated
+- id: subtotal-share-oracle
+  description: The extracted 9,994 rows recompute detail, subtotal-share and grand-total cells exactly.
+  mode: automated
+- id: replica-export-parity
+  description: The captured replica worksheet export matches the author export cell for cell.
+  mode: automated
+- id: desktop-load
+  description: Tableau Desktop opened the packaged workbook successfully.
+  mode: manual
+  evidence: evidence/desktop-verification.json
+- id: cloud-render
+  description: Cloud author and replica renders plus worksheet exports are captured for independent review.
+  mode: manual
+  evidence: evidence/cloud-verification.json
+remaining_work: []
+workarounds:
+- id: asymmetric-colour-range
+  description: The public colour-style setter omits the symmetric flag. Native JSON conversion sets symmetric=false
+    so negative subtotal percentages retain their own green colour range beside positive currency amounts.
+- id: totals-placement
+  description: The public SDK has no onTop setter, so the builder patches the rows shelf through documented native
+    JSON conversion of its own generated workbook.
+- id: subtotal-label-field
+  description: The SDK couples the subtotal label to the subtotaled field; a second header format places the visible
+    label on Sub-Category.
+capability_gaps: []
+related_cwtwb_issues: []

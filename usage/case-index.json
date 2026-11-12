@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "generated_from": "iterations/*/case.yaml",
-  "active_case_count": 132,
+  "active_case_count": 134,
   "legacy_case_ids": {
     "donna-2019-07-18-63877b35d19a": "wow-2019-ww29-high-orders",
     "donna-2019-07-25-59a0a144b25b": "wow-2019-ww30-navigation-kpi",
@@ -7711,6 +7711,118 @@
         "The final author and replica Bookcases REST captures both expand Furniture. Earlier capture observations do not describe the final images."
       ],
       "metadata": "iterations/2021-12-16-ww50-can-you-recreate-this-drill-down/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.29.0a2"
+    },
+    {
+      "case_id": "wow-2021-ww51-let-s-visualise-workoutwednesday-submissions",
+      "legacy_case_ids": {},
+      "iteration_id": "2021-12-24-ww51-let-s-visualise-workoutwednesday-submissions",
+      "article_date": "2021-12-24",
+      "challenge_year": 2021,
+      "challenge_week": 51,
+      "challenge_date": "2021-12-22",
+      "date_evidence": {
+        "article_date": "Declared article publication date in iteration_id",
+        "challenge": "Official challenge URL identifies Week 51 of 2021",
+        "challenge_date": "Official challenge publication date is 2021-12-22"
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2021w51tab/"
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2021/12/24/lets-visualise-workoutwednesday-submissions/",
+          "path": null,
+          "sha256": null
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2021_12_22_WW51_WOW_Submission_Tracker/2021_12_22_WOW_Submission_Tracker",
+          "filename": "2021_12_22_WW51_WOW_Submission_Tracker.twbx",
+          "sha256": "9fae883ed85fea94f2f3fa95f8bfadc89c2f784bff2cc81448b64b46661a353e"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "workaround",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "inputs/source-lock.json",
+        "evidence/baseline-0.29.0a2.json",
+        "evidence/cloud-verification.json",
+        "evidence/desktop-verification.json",
+        "outputs/build-provenance.json",
+        "evidence/source-reconciliation.json",
+        "evidence/visual-review.md",
+        "evidence/final-validation.json",
+        "evidence/desktop-corpus.json"
+      ],
+      "notes": null,
+      "metadata": "iterations/2021-12-24-ww51-let-s-visualise-workoutwednesday-submissions/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.29.0a2"
+    },
+    {
+      "case_id": "wow-2021-ww52-can-you-build-a-table-with-one-measure",
+      "legacy_case_ids": {},
+      "iteration_id": "2022-01-01-ww52-can-you-build-a-table-with-one-measure",
+      "article_date": "2022-01-01",
+      "challenge_year": 2021,
+      "challenge_week": 52,
+      "challenge_date": "2021-12-28",
+      "date_evidence": {
+        "article_date": "Declared article publication date in iteration_id",
+        "challenge": "Official challenge URL identifies Week 52 of 2021",
+        "challenge_date": "Official challenge publication date is 2021-12-28"
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/wow2021_w52/"
+        },
+        "article": {
+          "url": null,
+          "path": "posts/2022-01-01-Can_you_build_a_table_with_one_measure.html",
+          "sha256": null
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2021_12_29_WW52_SingleTable_OneMeasure/2021_12_29_WW52_SingleTable_OneMeasure",
+          "filename": "2021_12_29_WW52_SingleTable_OneMeasure.twbx",
+          "sha256": "141404bac6b95d6e00386a96052a7723720483ca953de60b49bc6af2ae956252"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "workaround",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "inputs/source-lock.json",
+        "evidence/baseline-0.29.0a2.json",
+        "evidence/article-date.json",
+        "evidence/official-challenge-date.json",
+        "evidence/cloud-verification.json",
+        "evidence/desktop-verification.json",
+        "outputs/build-provenance.json",
+        "evidence/source-reconciliation.json",
+        "evidence/visual-review.md",
+        "evidence/final-validation.json",
+        "evidence/desktop-corpus.json"
+      ],
+      "notes": null,
+      "metadata": "iterations/2022-01-01-ww52-can-you-build-a-table-with-one-measure/case.yaml",
       "metadata_contract": "1.1.0",
       "tested_sdk_version": "0.29.0a2"
     },
