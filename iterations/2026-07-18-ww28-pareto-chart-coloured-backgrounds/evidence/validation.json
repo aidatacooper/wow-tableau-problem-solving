@@ -1,0 +1,11 @@
+{
+  "case_id": "wow-2026-ww28-pareto-chart-coloured-backgrounds",
+  "iteration_id": "2026-07-18-ww28-pareto-chart-coloured-backgrounds",
+  "builder": "verify_replication.py",
+  "builder_status": "pass",
+  "verifier_status": "pass",
+  "tested_version": "0.29.0a2",
+  "browser_interaction_executed": false,
+  "cloud_status": "not_run",
+  "notes": "Cloud browser/static capture was not executed; no visual parity claim is made."
+}
