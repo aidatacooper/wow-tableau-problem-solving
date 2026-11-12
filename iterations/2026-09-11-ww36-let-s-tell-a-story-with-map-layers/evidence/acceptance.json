@@ -1,0 +1,16 @@
+{
+  "case_id": "wow-2026-ww36-let-s-tell-a-story-with-map-layers",
+  "status": "partial",
+  "acceptance": [
+    {
+      "id": "case-functional-contract",
+      "description": "single-source conditional map layers are reproduced; separate sewer/pump extracts and dynamic story text remain partial.",
+      "mode": "automated"
+    },
+    {
+      "id": "desktop-load",
+      "description": "Generated workbook opens in Tableau Desktop.",
+      "mode": "automated"
+    }
+  ]
+}
