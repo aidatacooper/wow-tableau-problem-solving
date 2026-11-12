@@ -1,0 +1,10 @@
+{
+  "case_id": "wow-2026-ww26-drive-time-area",
+  "primary_workbook": "outputs/replicated-workbook.twbx",
+  "worksheets": [
+    "Map",
+    "KPI"
+  ],
+  "desktop_verdict": "LOADED",
+  "browser_interaction_executed": false
+}
