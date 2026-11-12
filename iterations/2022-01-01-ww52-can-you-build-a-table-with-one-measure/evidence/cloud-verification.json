@@ -1,0 +1,96 @@
+{
+  "case_id": "wow-2021-ww52-can-you-build-a-table-with-one-measure",
+  "captured_at": "2026-11-12T17:11:59.323723+00:00",
+  "source_hashes": {
+    "author": "2df9ccf6bd9019709dc8921607306ae2d9fa181e592b3dabd47c3e617c5e90f3",
+    "replica": "5de44f56ba808155b9d808b8f94e280ed64bffb541b3c30fd0a793083beca2e0"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "eea97b73-01ac-44d6-880d-e61627185ed1",
+      "name": "cwtwb-review-wow-2021-ww52-can-you-build-a-table-with-one-measure-author-2df9ccf6bd90",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/3146799",
+      "views": [
+        {
+          "name": "2021_12_29_WW52_SingleTable_OneMeasure",
+          "id": "bc638799-2c27-41af-8350-f83e955658ab"
+        },
+        {
+          "name": "Table",
+          "id": "79956d95-ba23-469d-aa5c-39da44a4691d"
+        }
+      ]
+    },
+    "replica": {
+      "id": "3d9565f0-b348-45de-b4f9-b3b744ea33b8",
+      "name": "cwtwb-review-wow-2021-ww52-can-you-build-a-table-with-one-measure-replica-5de44f56ba80",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/3184227",
+      "views": [
+        {
+          "name": "Table",
+          "id": "e482e533-fbe2-4bd5-a058-3b6853d5b3f4"
+        },
+        {
+          "name": "2021 Week 52 - Single Table One Measure",
+          "id": "088a50ea-7b74-4866-9d98-0b7844313f6a"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "bc638799-2c27-41af-8350-f83e955658ab",
+          "name": "2021_12_29_WW52_SingleTable_OneMeasure",
+          "path": "outputs/cloud-author.png",
+          "sha256": "d5991066b3a1786d2aa77ea985c8d725cc9e362f80cb697fbad93ef702a6115e",
+          "size": [
+            2000,
+            1200
+          ]
+        },
+        "replica": {
+          "id": "088a50ea-7b74-4866-9d98-0b7844313f6a",
+          "name": "2021 Week 52 - Single Table One Measure",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "b211b4f48611e77c018b01802ef318b34e1b5b22e0a2f53f96ec1e0d09e591a9",
+          "size": [
+            2000,
+            1200
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "Table",
+          "view_id": "79956d95-ba23-469d-aa5c-39da44a4691d",
+          "scope": "Author worksheet CSV versus replica worksheet CSV for the same table calculation partition.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-table.csv",
+          "sha256": "940fc923bd0e3b8b4d054509c1874db53c66d11eb0ae1f09647906e740c6381b",
+          "bytes": 10022
+        },
+        {
+          "role": "replica",
+          "view": "Table",
+          "view_id": "e482e533-fbe2-4bd5-a058-3b6853d5b3f4",
+          "scope": "Author worksheet CSV versus replica worksheet CSV for the same table calculation partition.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-table.csv",
+          "sha256": "940fc923bd0e3b8b4d054509c1874db53c66d11eb0ae1f09647906e740c6381b",
+          "bytes": 10022
+        }
+      ]
+    }
+  ],
+  "status": "captured_requires_independent_review"
+}

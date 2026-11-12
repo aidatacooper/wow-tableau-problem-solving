@@ -1,0 +1,13 @@
+{
+  "original_source_lock_sha256": "141404bac6b95d6e00386a96052a7723720483ca953de60b49bc6af2ae956252",
+  "cloud_author_sha256": "2df9ccf6bd9019709dc8921607306ae2d9fa181e592b3dabd47c3e617c5e90f3",
+  "extracted_data": [
+    {
+      "input": "inputs/federated_0g0c07z1rhpm3o1en8fhr0.hyper",
+      "sha256": "97e9f7c97745836df8b028e274e82a41a0e90cb3a1bf4696e8b4138fd6b9e561",
+      "author_archive_member": "Data/Extracts/federated_0g0c07z1rhpm3o1en8fhr0.hyper",
+      "equal": true
+    }
+  ],
+  "note": "The original source lock is retained unchanged. The current reference archive has different ZIP bytes; each consumed data member is byte-identical to the locked extracted input. No claim is made that the archive containers are byte-identical."
+}
