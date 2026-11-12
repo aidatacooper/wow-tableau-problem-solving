@@ -1,0 +1,7 @@
+{
+  "case_id": "wow-2026-ww38-can-you-create-an-embedded-categorised-dashboard-portal",
+  "status": "partial",
+  "cwtwb_result": "workaround",
+  "browser_interaction_executed": false,
+  "notes": "embedded categorised selector and URL action are reproduced; native Web Page zone remains a documented SDK workaround."
+}
