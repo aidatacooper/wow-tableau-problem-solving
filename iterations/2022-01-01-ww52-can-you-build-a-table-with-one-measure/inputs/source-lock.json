@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-11-07",
+  "source_workbook": {
+    "filename": "2021_12_29_WW52_SingleTable_OneMeasure.twbx",
+    "bytes": 67786,
+    "sha256": "141404bac6b95d6e00386a96052a7723720483ca953de60b49bc6af2ae956252",
+    "url": "https://public.tableau.com/views/2021_12_29_WW52_SingleTable_OneMeasure/2021_12_29_WW52_SingleTable_OneMeasure"
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Extracts/federated_0g0c07z1rhpm3o1en8fhr0.hyper",
+      "file": "inputs/federated_0g0c07z1rhpm3o1en8fhr0.hyper",
+      "bytes": 262144,
+      "sha256": "97e9f7c97745836df8b028e274e82a41a0e90cb3a1bf4696e8b4138fd6b9e561"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

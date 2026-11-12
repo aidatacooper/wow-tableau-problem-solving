@@ -1414,6 +1414,17 @@
       "reason": "Derived from case metadata; consumed means claimed, not verified completed."
     },
     {
+      "case_id": "wow-2021-ww52-can-you-build-a-table-with-one-measure",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2022-01-01-ww52-can-you-build-a-table-with-one-measure",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.29.0a2",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
       "case_id": "wow-2022-ww32-dumbbell-chart",
       "legacy_case_ids": {},
       "workbook_ids": [],
