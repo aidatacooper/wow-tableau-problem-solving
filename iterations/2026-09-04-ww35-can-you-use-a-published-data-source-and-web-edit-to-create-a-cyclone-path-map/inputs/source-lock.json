@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "source_workbook": {
+    "url": "https://public.tableau.com/views/2026_09_02_WW35_Cyclone_Path_Map_Web_Edit/2026_09_02_WW35_Cyclone_Path_Map_Web_Edit",
+    "filename": "2026_09_02_WW35_Cyclone_Path_Map_Web_Edit.twbx",
+    "sha256": "7b1c4d6c55795a8bd40efc7560a5221b0bbde145fb40e8e975515f24d6e3b7d6"
+  },
+  "status": "blocked",
+  "reason": "Author TWBX contains only a published Historical Tropical Cyclones connection and no packaged data file; prepare_case.py cannot extract an independent input.",
+  "browser_interaction_executed": false,
+  "source_workbook_used_by_builder": false,
+  "data_files": [],
+  "extracted_data": [
+    {
+      "file": "inputs/blocked-source.csv",
+      "bytes": 84,
+      "sha256": "9672fb8275d85023e883916641eaa7f4f644afe9565fab4a7546e1f461be1c34"
+    }
+  ]
+}

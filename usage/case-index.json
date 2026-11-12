@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "generated_from": "iterations/*/case.yaml",
-  "active_case_count": 135,
+  "active_case_count": 136,
   "legacy_case_ids": {
     "donna-2019-07-18-63877b35d19a": "wow-2019-ww29-high-orders",
     "donna-2019-07-25-59a0a144b25b": "wow-2019-ww30-navigation-kpi",
@@ -8727,6 +8727,54 @@
       "metadata": "iterations/2026-04-13-ww14-correct-metric/case.yaml",
       "metadata_contract": "1.1.0",
       "tested_sdk_version": "0.27.1"
+    },
+    {
+      "case_id": "wow-2026-ww35-can-you-use-a-published-data-source-and-web-edit-to-create-a-cyclone-path-map",
+      "legacy_case_ids": {},
+      "iteration_id": "2026-09-04-ww35-can-you-use-a-published-data-source-and-web-edit-to-create-a-cyclone-path-map",
+      "article_date": "2026-09-04",
+      "challenge_year": 2026,
+      "challenge_week": 35,
+      "challenge_date": "2026-09-02",
+      "date_evidence": {
+        "article_date": "Declared article publication date in iteration_id",
+        "challenge": "Official challenge publication date and URL",
+        "challenge_date": "2026-09-02 official Workout Wednesday publication"
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2026w35tab/"
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2026/09/04/can-you-use-a-published-data-source-and-web-edit-to-create-a-cyclone-path-map/"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2026_09_02_WW35_Cyclone_Path_Map_Web_Edit/2026_09_02_WW35_Cyclone_Path_Map_Web_Edit",
+          "filename": "2026_09_02_WW35_Cyclone_Path_Map_Web_Edit.twbx",
+          "sha256": "7b1c4d6c55795a8bd40efc7560a5221b0bbde145fb40e8e975515f24d6e3b7d6"
+        }
+      },
+      "functional_status": "blocked",
+      "visual_status": "not_evaluated",
+      "verification_status": "pending",
+      "cwtwb_result": "blocked",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": null,
+        "cloud_replica": null
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "inputs/source-lock.json"
+      ],
+      "notes": [
+        "Author workbook references a published data source and contains no packaged data; independent extraction is blocked.",
+        "Browser interaction was not executed."
+      ],
+      "metadata": "iterations/2026-09-04-ww35-can-you-use-a-published-data-source-and-web-edit-to-create-a-cyclone-path-map/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.26.0"
     }
   ]
 }

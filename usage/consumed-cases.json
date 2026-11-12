@@ -1611,6 +1611,17 @@
       "verification_status": "verified",
       "cwtwb_version": "0.27.1",
       "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
+      "case_id": "wow-2026-ww35-can-you-use-a-published-data-source-and-web-edit-to-create-a-cyclone-path-map",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2026-09-04-ww35-can-you-use-a-published-data-source-and-web-edit-to-create-a-cyclone-path-map",
+      "status": "consumed",
+      "replication_status": "blocked",
+      "verification_status": "pending",
+      "cwtwb_version": "0.26.0",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
     }
   ]
 }
