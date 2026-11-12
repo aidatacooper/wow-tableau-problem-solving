@@ -1,0 +1,126 @@
+schema_version: 1.1.0
+case_id: wow-2021-ww50-can-you-recreate-this-drill-down
+iteration_id: 2021-12-16-ww50-can-you-recreate-this-drill-down
+post: https://donnacoles.home.blog/2021/12/16/can-you-recreate-this-drill-down/
+legacy_case_ids: {}
+article_date: '2021-12-16'
+challenge_year: 2021
+challenge_week: 50
+challenge_date: '2021-12-14'
+date_evidence:
+  article_date: Declared article publication date in iteration_id
+  challenge: Article explicitly identifies Week 50 of 2021; official post title agrees.
+  challenge_date: Official WordPress post 6502 date 2021-12-14T16:30:00; evidence/official-date.json
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2021tabw50/
+  article:
+    url: https://donnacoles.home.blog/2021/12/16/can-you-recreate-this-drill-down/
+    path: null
+    sha256: 373f351da9c0081cbfb38b53767f879961073abd19e65fb1a95487ed197c649e
+  workbook:
+    url: https://public.tableau.com/views/2021_12_15_WW50_DrillDownFilter/2021_12_15_WW50_DrillDownFilter
+    filename: 2021_12_15_WW50_DrillDownFilter.twbx
+    sha256: 492553af1106de61699374db06f923549ceb059d5ae05f83398110c7b67f970e
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- inputs/source-lock.json
+- evidence/official-date.json
+- evidence/baseline-0.29.0a2.json
+- evidence/desktop-verification.json
+- evidence/cloud-request.json
+- evidence/cloud-verification.json
+- outputs/build-provenance.json
+- outputs/verification.json
+- evidence/source-reconciliation.json
+- evidence/visual-review.md
+- evidence/final-validation.json
+- evidence/desktop-corpus.json
+notes:
+- The published author workbook retains the earlier pLevel/DD Level route; the blog's final solution uses only pSelectedCategory
+  and pSelectedSubCat. The replica implements the final two-parameter route, which satisfies the official requirements.
+- Cloud images capture REST parameter states, not browser click execution. The reset path is proved by the emitted
+  Sub Cat Display / FILTER formulas and a four-state monthly oracle; Desktop opens the packaged workbook.
+- Category bars remain in natural order because the released chart API exposes one descending shelf sort; the inner
+  Sub Cat Display sort and every value are preserved.
+- The author workbook was used for analysis only and is not stored in the iteration.
+- Tableau Public re-zips the author TWBX per request, so its ZIP hash changes between downloads; the extracted Hyper
+  hash 6a35f8f3cb85cd731d40dc15eba6d43be13dd047dfb449385786924e859f19c9 is stable and is what the builder consumes.
+- The final author and replica Bookcases REST captures both expand Furniture. Earlier capture observations do not
+  describe the final images.
+cwtwb:
+  tested_version: 0.29.0a2
+  runs:
+  - version: 0.29.0a2
+    result: pass
+    evidence: evidence/baseline-0.29.0a2.json
+  - version: 0.29.0a2
+    result: pass
+    evidence: evidence/final-validation.json
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: pass
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/federated_0r7w74r1hdcum115yynb51.hyper
+acceptance:
+- id: parameters
+  description: pSelectedCategory and pSelectedSubCat are string parameters defaulted to the empty string and accept
+    any typed value.
+  mode: automated
+- id: drill-display
+  description: Sub Cat Display shows a Sub-Category only under the currently selected Category; the bar chart stacks
+    Category then Sub Cat Display on Rows.
+  mode: automated
+- id: selection-filter
+  description: The FILTER calculation keeps all rows with no selection, Category rows with only a Category selected,
+    and Category plus Sub-Category rows when both are selected.
+  mode: automated
+- id: reset-semantics
+  description: Clicking Furniture then Bookcases then Technology produces Technology with a blank Sub-Category,
+    so the line chart resets to the new Category.
+  mode: automated
+- id: bar-chart
+  description: The bar chart is a Bar mark with Category on Colour, Sales labels, hidden axis and row field labels,
+    and Sub Cat Display sorted descending by Sales.
+  mode: automated
+- id: line-chart
+  description: The line chart uses continuous month-truncated Order Date, SUM(Sales), parameter colour, FILTER =
+    True, both tooltips and min/max labels.
+  mode: automated
+- id: dashboard-layout
+  description: A single fixed 500 x 600 dashboard contains the Bar Chart and Line worksheets once each and the Sales
+    Drill Down title.
+  mode: automated
+- id: parameter-actions
+  description: Two on-select parameter actions read Category and Sub Cat Display and clear both targets to the empty
+    string.
+  mode: automated
+- id: monthly-oracle
+  description: An independent SQLite oracle over 9,994 packaged lines matches the default, Category, Sub-Category
+    and reset monthly scopes and all category totals.
+  mode: automated
+- id: provenance
+  description: Build provenance binds the current workbook hash and names the tested 0.29.0a2 release.
+  mode: automated
+- id: desktop-load
+  description: Tableau Desktop 2026.2 opened the packaged workbook with no error dialog.
+  mode: manual
+  evidence: evidence/desktop-verification.json
+- id: cloud-render
+  description: Cloud REST images for default, Furniture, Furniture/Bookcases and Technology show the expected bar
+    expansion and line scopes.
+  mode: manual
+  evidence: evidence/cloud-verification.json
+remaining_work: null
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []

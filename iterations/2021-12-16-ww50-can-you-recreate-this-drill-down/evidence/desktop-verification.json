@@ -1,0 +1,7 @@
+{
+  "sha256": "81ab419a46692c4333642d312a30e619d16c23e1a68b96b6581763c3f6ad7397",
+  "result": "LOADED",
+  "captured_at": "2026-11-12T17:04:25.380370+00:00",
+  "command": "python scripts/desktop/build_and_check.py iterations/2021-12-16-ww50-can-you-recreate-this-drill-down",
+  "scope": "Tableau Desktop loadability only; REST state and static action contracts are separate evidence."
+}

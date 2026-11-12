@@ -1,0 +1,165 @@
+{
+  "case_id": "wow-2021-ww50-can-you-recreate-this-drill-down",
+  "captured_at": "2026-11-12T17:06:40.163575+00:00",
+  "source_hashes": {
+    "author": "dac179b4576463b75ad1d7473552693923d60043e83990388ced57a19602c3f9",
+    "replica": "81ab419a46692c4333642d312a30e619d16c23e1a68b96b6581763c3f6ad7397"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "8bd83187-bd48-43a4-8dab-b26e2267879a",
+      "name": "cwtwb-review-wow-2021-ww50-can-you-recreate-this-drill-down-author-dac179b45764",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/3146715",
+      "views": [
+        {
+          "name": "2021_12_15_WW50_DrillDownFilter",
+          "id": "bf014220-315c-46e9-8015-07cf5bbca646"
+        }
+      ]
+    },
+    "replica": {
+      "id": "5efd2559-04c6-4857-b87d-72617691821b",
+      "name": "cwtwb-review-wow-2021-ww50-can-you-recreate-this-drill-down-replica-81ab419a4669",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/3184203",
+      "views": [
+        {
+          "name": "Bar Chart",
+          "id": "8ebb39ff-a009-44f3-8c27-ef8b4bd08186"
+        },
+        {
+          "name": "Line",
+          "id": "bab5aca2-9a2f-4f77-97d8-5ce576f7f8af"
+        },
+        {
+          "name": "2021 Week 50 - Drill Down",
+          "id": "f9db8f53-b7bf-4903-82f7-acda2e980b3a"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "bf014220-315c-46e9-8015-07cf5bbca646",
+          "name": "2021_12_15_WW50_DrillDownFilter",
+          "path": "outputs/cloud-author.png",
+          "sha256": "daaa9644013eff7a5dc628766537e0e662a840e58af47adbae06bd770437e51e",
+          "size": [
+            1000,
+            1200
+          ]
+        },
+        "replica": {
+          "id": "f9db8f53-b7bf-4903-82f7-acda2e980b3a",
+          "name": "2021 Week 50 - Drill Down",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "dc21d39624f73565baddd9055f9b41abf16fcf926159a3d0f1697c454f744167",
+          "size": [
+            1000,
+            1200
+          ]
+        }
+      },
+      "data": []
+    },
+    {
+      "name": "category-furniture",
+      "parameters": {
+        "pSelectedCategory": "Furniture"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "bf014220-315c-46e9-8015-07cf5bbca646",
+          "name": "2021_12_15_WW50_DrillDownFilter",
+          "path": "outputs/cloud-author-category-furniture.png",
+          "sha256": "3f456a01b0df93ab3bced305d94f910459384958154467d275f577ff371207a5",
+          "size": [
+            1000,
+            1200
+          ]
+        },
+        "replica": {
+          "id": "f9db8f53-b7bf-4903-82f7-acda2e980b3a",
+          "name": "2021 Week 50 - Drill Down",
+          "path": "outputs/cloud-replica-category-furniture.png",
+          "sha256": "ef124ce7d8a953811d6ced12bc9e9ba253101540440a59b7818c641e8c1d5684",
+          "size": [
+            1000,
+            1200
+          ]
+        }
+      },
+      "data": []
+    },
+    {
+      "name": "subcat-bookcases",
+      "parameters": {
+        "pSelectedCategory": "Furniture",
+        "pSelectedSubCat": "Bookcases"
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "bf014220-315c-46e9-8015-07cf5bbca646",
+          "name": "2021_12_15_WW50_DrillDownFilter",
+          "path": "outputs/cloud-author-subcat-bookcases.png",
+          "sha256": "0e5a89354ae964acc216a7775dbe1e2c5ae0b288f963cae7179bfd1c6458647c",
+          "size": [
+            1000,
+            1200
+          ]
+        },
+        "replica": {
+          "id": "f9db8f53-b7bf-4903-82f7-acda2e980b3a",
+          "name": "2021 Week 50 - Drill Down",
+          "path": "outputs/cloud-replica-subcat-bookcases.png",
+          "sha256": "5a7ef241a92e9eb4742fdacc995c4bcf3ebd85ed8663849510567a27063dc03f",
+          "size": [
+            1000,
+            1200
+          ]
+        }
+      },
+      "data": []
+    },
+    {
+      "name": "reset-technology",
+      "parameters": {
+        "pSelectedCategory": "Technology",
+        "pSelectedSubCat": ""
+      },
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "bf014220-315c-46e9-8015-07cf5bbca646",
+          "name": "2021_12_15_WW50_DrillDownFilter",
+          "path": "outputs/cloud-author-reset-technology.png",
+          "sha256": "a86500c82e9e5c8626126046a8bb967ea58275621fc96f9d7d40c9a0dc8df442",
+          "size": [
+            1000,
+            1200
+          ]
+        },
+        "replica": {
+          "id": "f9db8f53-b7bf-4903-82f7-acda2e980b3a",
+          "name": "2021 Week 50 - Drill Down",
+          "path": "outputs/cloud-replica-reset-technology.png",
+          "sha256": "1b5188211f3db5684448d4560c17316d6938ba5b6350b72f492201a4df313669",
+          "size": [
+            1000,
+            1200
+          ]
+        }
+      },
+      "data": []
+    }
+  ],
+  "status": "captured_requires_independent_review"
+}
