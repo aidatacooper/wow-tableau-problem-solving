@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-11-13",
+  "source_workbook": {
+    "filename": "2026_09_23_WW38_Embed_Webpage.twbx",
+    "bytes": 318547,
+    "sha256": "9c2fda22b75cf65ed1c2b67e5c474854de1bc6f360f99bb6aa51f0db53f5d3aa",
+    "url": "https://public.tableau.com/views/2026_09_23_WW38_Embed_Webpage/2026_09_23_WW38_Embed_WebPage"
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Datasources/Sheet1 (#WOW2026 Week 38).hyper",
+      "file": "inputs/Sheet1 (#WOW2026 Week 38).hyper",
+      "bytes": 65536,
+      "sha256": "d91ea1d22dc3042301b4901273708701c332bfd5ed1b698072d56cf48c4f09ff"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

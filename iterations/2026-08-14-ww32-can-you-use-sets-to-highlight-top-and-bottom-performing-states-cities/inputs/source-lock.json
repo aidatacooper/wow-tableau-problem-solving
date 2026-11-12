@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-11-13",
+  "source_workbook": {
+    "filename": "2026_08_12_WW32_Sets.twbx",
+    "bytes": 65321,
+    "sha256": "d16dd721f4f32c80f7f6ea8fca3c6a09c0692d21a3de9b770703d6a0e879376c",
+    "url": "https://public.tableau.com/views/2026_08_12_WW32_Sets/2026_08_12_WW32_Sets"
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Datasources/Orders (Sample - Superstore).hyper",
+      "file": "inputs/Orders (Sample - Superstore).hyper",
+      "bytes": 196608,
+      "sha256": "418d92361dd7963a57f2292462f00a0f04ec2b52b33f8189dc900c23cd858e91"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}
