@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-11-13",
+  "source_workbook": {
+    "filename": "2026_07_29_WW30_Tennis_Career_Ladder_Chart.twbx",
+    "bytes": 393736,
+    "sha256": "8e6e95cf395abceef07ce8c4e8ed74b6d1650ef3282b3100bd6882496e9b1643",
+    "url": "https://public.tableau.com/views/2026_07_29_WW30_Tennis_Career_Ladder_Chart/2026_07_29_WW30_Tennis_Career_Ladder_Chart"
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Datasources/Sinner (Tennis_Career).hyper",
+      "file": "inputs/Sinner (Tennis_Career).hyper",
+      "bytes": 131072,
+      "sha256": "1df62038b94e8932c16f6ab2df5cdfba46391755596a6d57f9dd832ab4f0341b"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}
