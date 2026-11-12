@@ -1,0 +1,7 @@
+{
+  "case_id": "wow-2026-ww37-can-you-format-your-numbers-to-the-right-scale",
+  "status": "replicated",
+  "cwtwb_result": "pass",
+  "browser_interaction_executed": false,
+  "notes": "parameter hierarchy, Sales labels, and .0[scale] format are reproduced."
+}
