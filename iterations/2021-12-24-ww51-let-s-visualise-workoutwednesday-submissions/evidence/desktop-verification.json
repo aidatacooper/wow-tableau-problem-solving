@@ -1,0 +1,7 @@
+{
+  "sha256": "900d75dbac0c68f4acdb6281cb4b5c0792021f26e181b6a612c073331384d997",
+  "result": "LOADED",
+  "captured_at": "2026-11-12T17:04:53.177310+00:00",
+  "command": "python scripts/desktop/build_and_check.py iterations/2021-12-24-ww51-let-s-visualise-workoutwednesday-submissions",
+  "scope": "Tableau Desktop loadability only; REST state and static action contracts are separate evidence."
+}

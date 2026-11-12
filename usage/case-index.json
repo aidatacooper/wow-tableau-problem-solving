@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "generated_from": "iterations/*/case.yaml",
-  "active_case_count": 130,
+  "active_case_count": 131,
   "legacy_case_ids": {
     "donna-2019-07-18-63877b35d19a": "wow-2019-ww29-high-orders",
     "donna-2019-07-25-59a0a144b25b": "wow-2019-ww30-navigation-kpi",
@@ -7646,6 +7646,61 @@
         "Real NONE and two category-pair tooltips passed all counts, currency and conditional text. Native selection/clear preserved the 153-cell lower triangle and category order. Frozen workbook unchanged; earlier MFA-unavailable note is superseded by the authenticated browser run."
       ],
       "metadata": "iterations/2021-12-12-ww49-which-sub-categories-are-frequently-ordered-together/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.29.0a2"
+    },
+    {
+      "case_id": "wow-2021-ww51-let-s-visualise-workoutwednesday-submissions",
+      "legacy_case_ids": {},
+      "iteration_id": "2021-12-24-ww51-let-s-visualise-workoutwednesday-submissions",
+      "article_date": "2021-12-24",
+      "challenge_year": 2021,
+      "challenge_week": 51,
+      "challenge_date": "2021-12-22",
+      "date_evidence": {
+        "article_date": "Declared article publication date in iteration_id",
+        "challenge": "Official challenge URL identifies Week 51 of 2021",
+        "challenge_date": "Official challenge publication date is 2021-12-22"
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2021w51tab/"
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2021/12/24/lets-visualise-workoutwednesday-submissions/",
+          "path": null,
+          "sha256": null
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2021_12_22_WW51_WOW_Submission_Tracker/2021_12_22_WOW_Submission_Tracker",
+          "filename": "2021_12_22_WW51_WOW_Submission_Tracker.twbx",
+          "sha256": "9fae883ed85fea94f2f3fa95f8bfadc89c2f784bff2cc81448b64b46661a353e"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "workaround",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "inputs/source-lock.json",
+        "evidence/baseline-0.29.0a2.json",
+        "evidence/cloud-verification.json",
+        "evidence/desktop-verification.json",
+        "outputs/build-provenance.json",
+        "evidence/source-reconciliation.json",
+        "evidence/visual-review.md",
+        "evidence/final-validation.json",
+        "evidence/desktop-corpus.json"
+      ],
+      "notes": null,
+      "metadata": "iterations/2021-12-24-ww51-let-s-visualise-workoutwednesday-submissions/case.yaml",
       "metadata_contract": "1.1.0",
       "tested_sdk_version": "0.29.0a2"
     },

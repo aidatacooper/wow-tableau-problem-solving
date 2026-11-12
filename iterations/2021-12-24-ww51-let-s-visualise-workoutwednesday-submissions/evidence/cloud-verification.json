@@ -1,0 +1,111 @@
+{
+  "case_id": "wow-2021-ww51-let-s-visualise-workoutwednesday-submissions",
+  "captured_at": "2026-11-12T17:07:08.887860+00:00",
+  "source_hashes": {
+    "author": "1dc526cf5720f7995f0408150970aca9241e250127d67616865adfe256c24314",
+    "replica": "900d75dbac0c68f4acdb6281cb4b5c0792021f26e181b6a612c073331384d997"
+  },
+  "acceptance_scope": "cloud_rest_and_artifact_contracts",
+  "browser_interaction_executed": false,
+  "workbooks": {
+    "author": {
+      "id": "c35fc39f-4af6-4c17-a995-7a227c0fa6d6",
+      "name": "cwtwb-review-wow-2021-ww51-let-s-visualise-workoutwednesday-submissions-author-1dc526cf5720",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/3146873",
+      "views": [
+        {
+          "name": "2021_12_22_WOW_Submission_Tracker",
+          "id": "03531624-3717-4119-9248-1eb3ff4bed87"
+        }
+      ]
+    },
+    "replica": {
+      "id": "37912947-707e-4e41-bd57-4bd8156a7c6b",
+      "name": "cwtwb-review-wow-2021-ww51-let-s-visualise-workoutwednesday-submissions-replica-900d75dbac0c",
+      "url": "https://10ax.online.tableau.com/#/site/cooperwh/workbooks/3184204",
+      "views": [
+        {
+          "name": "Heatmap",
+          "id": "93206d92-ff08-462a-8302-30cba1e39119"
+        },
+        {
+          "name": "Submission Type Bar",
+          "id": "46565395-00da-476f-adc3-6962f8c84872"
+        },
+        {
+          "name": "Challenges Bar",
+          "id": "9217694b-809f-4065-9355-2b8d84e548e3"
+        },
+        {
+          "name": "2021_12_22_WOW_Submission_Tracker",
+          "id": "3c845170-3cba-41f2-9089-f8d67fd30521"
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {},
+      "filters": {},
+      "views": {
+        "author": {
+          "id": "03531624-3717-4119-9248-1eb3ff4bed87",
+          "name": "2021_12_22_WOW_Submission_Tracker",
+          "path": "outputs/cloud-author.png",
+          "sha256": "6018185fade99369af89756afc42173a5aa8a6dc9935be75741cd265b2374d4f",
+          "size": [
+            2200,
+            1780
+          ]
+        },
+        "replica": {
+          "id": "3c845170-3cba-41f2-9089-f8d67fd30521",
+          "name": "2021_12_22_WOW_Submission_Tracker",
+          "path": "outputs/cloud-replica.png",
+          "sha256": "b90ffe2b7f063cf7e21b9c9cbf71ab61cfe6a729a0424f80386aad57c35a7a52",
+          "size": [
+            2200,
+            1780
+          ]
+        }
+      },
+      "data": [
+        {
+          "role": "author",
+          "view": "2021_12_22_WOW_Submission_Tracker",
+          "view_id": "03531624-3717-4119-9248-1eb3ff4bed87",
+          "scope": "Dashboard export is empty; numerical coverage comes from the independent Hyper oracle, not this CSV.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-author-dashboard.csv",
+          "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+          "bytes": 1
+        },
+        {
+          "role": "replica",
+          "view": "2021_12_22_WOW_Submission_Tracker",
+          "view_id": "3c845170-3cba-41f2-9089-f8d67fd30521",
+          "scope": "Dashboard export is empty; numerical coverage comes from the independent Hyper oracle, not this CSV.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-dashboard.csv",
+          "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+          "bytes": 1
+        },
+        {
+          "role": "replica",
+          "view": "Heatmap",
+          "view_id": "93206d92-ff08-462a-8302-30cba1e39119",
+          "scope": "Replica worksheet export; compare with the independent Hyper oracle. Author worksheet is hidden on Cloud.",
+          "parameters": {},
+          "filters": {},
+          "path": "outputs/cloud-replica-heatmap.csv",
+          "sha256": "930eaa3d4181a7049d07a54e1f5c60192deefecdb22eaab6e731604e100e9888",
+          "bytes": 49167
+        }
+      ]
+    }
+  ],
+  "status": "captured_requires_independent_review"
+}
