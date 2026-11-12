@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-11-13",
+  "source_workbook": {
+    "filename": "2026_07_15_WW28_Pareto.twbx",
+    "bytes": 63608,
+    "sha256": "4268771e82bc7f8092cf6994f2fbf6499d9a34cba944d17027228ba6121deffa",
+    "url": "https://public.tableau.com/views/2026_07_15_WW28_Pareto/2026_07_15_WW28_Pareto"
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Datasources/Sample - Superstore.hyper",
+      "file": "inputs/Sample - Superstore.hyper",
+      "bytes": 262144,
+      "sha256": "1a33e3f92e4b2a17ef1a4c77e43759f932b4b348a2e2ffd0a57f93f518f01737"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

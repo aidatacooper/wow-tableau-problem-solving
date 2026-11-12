@@ -1,0 +1,16 @@
+{
+  "case_id": "wow-2026-ww38-can-you-create-an-embedded-categorised-dashboard-portal",
+  "status": "partial",
+  "acceptance": [
+    {
+      "id": "case-functional-contract",
+      "description": "embedded categorised selector and URL action are reproduced; native Web Page zone remains a documented SDK workaround.",
+      "mode": "automated"
+    },
+    {
+      "id": "desktop-load",
+      "description": "Generated workbook opens in Tableau Desktop.",
+      "mode": "automated"
+    }
+  ]
+}
