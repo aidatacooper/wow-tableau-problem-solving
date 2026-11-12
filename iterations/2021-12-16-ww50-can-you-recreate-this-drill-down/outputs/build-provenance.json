@@ -1,0 +1,16 @@
+{
+  "version": "0.29.0a2",
+  "module": "C:\\Users\\imgwho\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\cwtwb\\__init__.py",
+  "module_sha256": "cdc024ad49de77888e3af80bf649ad0b6c3828c556c198729b7722f286ad67c4",
+  "extract_sha256": "6a35f8f3cb85cd731d40dc15eba6d43be13dd047dfb449385786924e859f19c9",
+  "workbook_sha256": "81ab419a46692c4333642d312a30e619d16c23e1a68b96b6581763c3f6ad7397",
+  "sheets": [
+    "Bar Chart",
+    "Line"
+  ],
+  "dashboard": "2021 Week 50 - Drill Down",
+  "parameters": [
+    "pSelectedCategory",
+    "pSelectedSubCat"
+  ]
+}
