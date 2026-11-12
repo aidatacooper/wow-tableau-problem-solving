@@ -1,0 +1,74 @@
+schema_version: 1.1.0
+case_id: wow-2026-ww28-pareto-chart-coloured-backgrounds
+iteration_id: 2026-07-18-ww28-pareto-chart-coloured-backgrounds
+post: https://donnacoles.home.blog/2026/07/18/can-you-build-a-pareto-chart-with-coloured-backgrounds/
+legacy_case_ids: {}
+article_date: '2026-07-18'
+challenge_year: 2026
+challenge_week: 28
+challenge_date: '2026-07-14'
+date_evidence:
+  article_date: Declared article publication date in iteration_id
+  challenge: Explicit challenge_year; week declared in iteration_id
+  challenge_date: Explicit official challenge publication date and URL
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2026w28tab/
+  article:
+    url: https://donnacoles.home.blog/2026/07/18/can-you-build-a-pareto-chart-with-coloured-backgrounds/
+    path: null
+    sha256: null
+  workbook:
+    url: https://public.tableau.com/views/2026_07_15_WW28_Pareto/2026_07_15_WW28_Pareto
+    filename: 2026_07_15_WW28_Pareto.twbx
+    sha256: 4268771e82bc7f8092cf6994f2fbf6499d9a34cba944d17027228ba6121deffa
+verification_status: pending
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: null
+  cloud_replica: null
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- inputs/source-lock.json
+- evidence/validation.json
+- evidence/workbook-inventory.json
+notes:
+- Analysis completed from the Donna Coles article and author workbook; builder reads
+  only extracted inputs. The cwtwb build reproduces the two running percentages, area
+  chart, fixed 0.2/0.8 guides and dashboard. Five coloured background bands and the
+  author's explicit Sales descending sort still need a richer reference-band/sort
+  configuration.
+cwtwb:
+  tested_version: 0.29.0a2
+  runs:
+  - version: 0.29.0a2
+    result: pass
+    evidence: verify_replication.py
+analysis_status: completed
+functional_status: partial
+visual_status: not_evaluated
+cwtwb_result: pass
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/Sample - Superstore.hyper
+acceptance:
+- id: pareto-running-percentages
+  description: Viz contains cumulative customer and sales percentages computed with
+    RUNNING_SUM/TOTAL.
+  mode: automated
+- id: pareto-guides
+  description: Viz includes 0.2 and 0.8 reference guides on both axes.
+  mode: automated
+- id: pareto-workbook-structure
+  description: Data and Viz worksheets plus the challenge dashboard round-trip through
+    cwtwb.
+  mode: automated
+remaining_work: The cwtwb build reproduces the two running percentages, area chart,
+  fixed 0.2/0.8 guides and dashboard. Five coloured background bands and the author's
+  explicit Sales descending sort still need a richer reference-band/sort configuration.
+blocker: null
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []

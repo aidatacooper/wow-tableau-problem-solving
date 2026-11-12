@@ -1,0 +1,10 @@
+{
+  "case_id": "wow-2026-ww28-pareto-chart-coloured-backgrounds",
+  "primary_workbook": "outputs/replicated-workbook.twbx",
+  "worksheets": [
+    "Data",
+    "Viz"
+  ],
+  "desktop_verdict": "LOADED",
+  "browser_interaction_executed": false
+}

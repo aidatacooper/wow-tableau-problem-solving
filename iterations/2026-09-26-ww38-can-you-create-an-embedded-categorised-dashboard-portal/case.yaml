@@ -1,0 +1,75 @@
+schema_version: 1.1.0
+case_id: wow-2026-ww38-can-you-create-an-embedded-categorised-dashboard-portal
+iteration_id: 2026-09-26-ww38-can-you-create-an-embedded-categorised-dashboard-portal
+post: https://donnacoles.home.blog/2026/09/26/can-you-create-an-embedded-categorised-dashboard-portal/
+legacy_case_ids: {}
+article_date: '2026-09-26'
+challenge_year: 2026
+challenge_week: 38
+challenge_date: '2026-09-23'
+date_evidence:
+  article_date: Declared article publication date in iteration_id
+  challenge: Explicit challenge_year; week declared in iteration_id
+  challenge_date: Explicit official challenge publication date and URL
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2026w38tab/
+  article:
+    url: https://donnacoles.home.blog/2026/09/26/can-you-create-an-embedded-categorised-dashboard-portal/
+    path: posts/2026-09-26-Can_you_create_an_embedded_categorised_dashboard_portal.html
+    sha256: null
+  workbook:
+    url: https://public.tableau.com/views/2026_09_23_WW38_Embed_Webpage/2026_09_23_WW38_Embed_WebPage
+    filename: 2026_09_23_WW38_Embed_Webpage.twbx
+    sha256: 9c2fda22b75cf65ed1c2b67e5c474854de1bc6f360f99bb6aa51f0db53f5d3aa
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: null
+  cloud_replica: null
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- inputs/source-lock.json
+- evidence/acceptance.json
+- evidence/current-functional-verification.json
+- evidence/validation.json
+notes:
+- embedded categorised selector and URL action are reproduced; native Web Page zone
+  remains a documented SDK workaround.
+- Cloud/browser interaction was not executed; browser_interaction_executed=false.
+cwtwb:
+  tested_version: 0.26.0
+  runs:
+  - version: 0.26.0
+    result: workaround
+    evidence: evidence/current-functional-verification.json
+analysis_status: completed
+functional_status: partial
+visual_status: not_evaluated
+cwtwb_result: workaround
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/Sheet1 (#WOW2026 Week 38).hyper
+acceptance:
+- id: case-functional-contract
+  description: embedded categorised selector and URL action are reproduced; native
+    Web Page zone remains a documented SDK workaround.
+  mode: automated
+- id: desktop-load
+  description: Generated workbook opens in Tableau Desktop.
+  mode: automated
+remaining_work:
+- embedded categorised selector and URL action are reproduced; native Web Page zone
+  remains a documented SDK workaround.
+- Run Desktop and Cloud/browser checks after SDK Web Page/source support is available.
+blocker: Released SDK does not expose every author interaction; remaining gaps are
+  documented in analysis.md.
+workarounds:
+- Static explanatory dashboard text for unsupported interactive target/source layer
+  behavior.
+capability_gaps:
+- Native Web Page dashboard zone
+related_cwtwb_issues: []
+browser_interaction_executed: false
