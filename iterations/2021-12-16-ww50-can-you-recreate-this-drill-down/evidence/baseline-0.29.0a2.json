@@ -1,0 +1,28 @@
+{
+  "tested_version": "0.29.0a2",
+  "result": "pass",
+  "built_at": "2026-11-06T16:14:23.203869+00:00",
+  "build_provenance": "outputs/build-provenance.json",
+  "workbook_sha256": "fc84e118d325c11dd4b5aa2352aacb022c6da186fd141dd192fe9373d29c9ea2",
+  "desktop": {
+    "sha256": "fc84e118d325c11dd4b5aa2352aacb022c6da186fd141dd192fe9373d29c9ea2",
+    "result": "LOADED",
+    "attempt": 1,
+    "scope": "loadability only; parameter actions are verified statically and by Cloud REST parameter states",
+    "captured_at": "2026-11-06T16:14:23.201866+00:00"
+  },
+  "cloud_source_hashes": {
+    "author": "dac179b4576463b75ad1d7473552693923d60043e83990388ced57a19602c3f9",
+    "replica": "fc84e118d325c11dd4b5aa2352aacb022c6da186fd141dd192fe9373d29c9ea2"
+  },
+  "cloud_states": [
+    "default",
+    "category-furniture",
+    "subcat-bookcases",
+    "reset-technology"
+  ],
+  "article_sha256": "373f351da9c0081cbfb38b53767f879961073abd19e65fb1a95487ed197c649e",
+  "author_workbook_capture_sha256": "dac179b4576463b75ad1d7473552693923d60043e83990388ced57a19602c3f9",
+  "author_extract_sha256": "6a35f8f3cb85cd731d40dc15eba6d43be13dd047dfb449385786924e859f19c9",
+  "author_zip_note": "Tableau Public re-zips the TWBX per request; the ZIP hash differs between prepare_case and cloud capture, while the extracted Hyper hash is stable."
+}

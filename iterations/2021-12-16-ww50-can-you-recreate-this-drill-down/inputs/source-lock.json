@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-11-06",
+  "source_workbook": {
+    "filename": "2021_12_15_WW50_DrillDownFilter.twbx",
+    "bytes": 70891,
+    "sha256": "492553af1106de61699374db06f923549ceb059d5ae05f83398110c7b67f970e",
+    "url": "https://public.tableau.com/views/2021_12_15_WW50_DrillDownFilter/2021_12_15_WW50_DrillDownFilter"
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Extracts/federated_0r7w74r1hdcum115yynb51.hyper",
+      "file": "inputs/federated_0r7w74r1hdcum115yynb51.hyper",
+      "bytes": 262144,
+      "sha256": "6a35f8f3cb85cd731d40dc15eba6d43be13dd047dfb449385786924e859f19c9"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}
