@@ -1447,6 +1447,17 @@
       "reason": "Derived from case metadata; consumed means claimed, not verified completed."
     },
     {
+      "case_id": "wow-2022-ww01-let-s-analyse-wildlife-strikes",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2022-01-06-ww01-let-s-analyse-wildlife-strikes",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.29.0a2",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
       "case_id": "wow-2022-ww32-dumbbell-chart",
       "legacy_case_ids": {},
       "workbook_ids": [],

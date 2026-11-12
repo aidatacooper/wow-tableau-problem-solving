@@ -1,0 +1,7 @@
+{
+  "sha256": "e1eec0126e9b3b25fc819028fe00f9aad4d8b5af715fb4cbc0eef27c01119a71",
+  "result": "LOADED",
+  "captured_at": "2026-11-12T17:05:47.624870+00:00",
+  "command": "python scripts/desktop/build_and_check.py iterations/2022-01-06-ww01-let-s-analyse-wildlife-strikes",
+  "scope": "Tableau Desktop loadability only; REST state and static action contracts are separate evidence."
+}

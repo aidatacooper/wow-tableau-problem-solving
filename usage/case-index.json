@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "generated_from": "iterations/*/case.yaml",
-  "active_case_count": 133,
+  "active_case_count": 134,
   "legacy_case_ids": {
     "donna-2019-07-18-63877b35d19a": "wow-2019-ww29-high-orders",
     "donna-2019-07-25-59a0a144b25b": "wow-2019-ww30-navigation-kpi",
@@ -7823,6 +7823,73 @@
       ],
       "notes": null,
       "metadata": "iterations/2022-01-01-ww52-can-you-build-a-table-with-one-measure/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.29.0a2"
+    },
+    {
+      "case_id": "wow-2022-ww01-let-s-analyse-wildlife-strikes",
+      "legacy_case_ids": {},
+      "iteration_id": "2022-01-06-ww01-let-s-analyse-wildlife-strikes",
+      "article_date": "2022-01-06",
+      "challenge_year": 2022,
+      "challenge_week": 1,
+      "challenge_date": "2022-01-04",
+      "date_evidence": {
+        "article_date": "index.json publication date; matches the post URL",
+        "challenge": "Explicit challenge_year and week declared in iteration_id",
+        "challenge_date": "Official WordPress REST post date for 2022w01tab"
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2022w01tab/"
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2022/01/06/lets-analyse-wildlife-strikes/",
+          "path": "posts/2022-01-06-Let’s_analyse_wildlife_strikes.html",
+          "sha256": "9969c9b5dfc5f4d16ff0c7de740f6a8a560981fe58b1b9886b594ff22bf60ce9"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2022_01_05_WW01_WildlifeStrikes/2022_01_05_WW01_WildlifeWStrikes",
+          "path": "dashboards/2022_01_05_WW01_WildlifeStrikes/2022_01_05_WW01_WildlifeStrikes.twbx",
+          "filename": "2022_01_05_WW01_WildlifeStrikes.twbx",
+          "sha256": "542b41612466b913c534d5cd2928cbce95c297829a68a428a6c422dd16902d73"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "workaround",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [
+        {
+          "path": "outputs/2022-01-06-ww01-let-s-analyse-wildlife-strikes-replicated-workbook.twb",
+          "role": "sdk_generated_twb_companion",
+          "note": "Unpackaged TWB companion produced by the same builder as the primary TWBX."
+        }
+      ],
+      "evidence": [
+        "inputs/source-lock.json",
+        "evidence/verification.json",
+        "evidence/cloud-request.json",
+        "evidence/cloud-verification.json",
+        "evidence/desktop-verification.json",
+        "evidence/source-reconciliation.json",
+        "evidence/visual-review.md",
+        "evidence/final-validation.json",
+        "evidence/desktop-corpus.json"
+      ],
+      "notes": [
+        "Rebuilt with cwtwb 0.29.0a2 from the packaged Hyper extract using public SDK APIs only; the builder never opens the author workbook.",
+        "Two-table logical model - strikes (251,818 rows) related to a 56-row packaged spatial extract on State Name = NAME - with a top-10 species set, a parameter-driven bar/map/area dashboard and a null-state indicator.",
+        "Workaround 1: TABLEAU.TABGEOGRAPHY is inspected as string, so the author's geometry encoding renders no marks. The map uses Tableau's native state geographic role; per-state counts and the red-gold palette are preserved.",
+        "Workaround 2: initialize_dashboard_filter_action cannot express the all-members default state, which must retain the 36,959 null-state records. State Filter / Species Filter calculations driven by the same two parameters as the titles reproduce select and clear behaviour."
+      ],
+      "metadata": "iterations/2022-01-06-ww01-let-s-analyse-wildlife-strikes/case.yaml",
       "metadata_contract": "1.1.0",
       "tested_sdk_version": "0.29.0a2"
     },

@@ -1,0 +1,60 @@
+[PASS] oracle-total rows=251818
+[PASS] oracle-null-state null-state=36959
+[PASS] oracle-species-count species=23
+[PASS] oracle-state-members state groups=51
+[PASS] oracle-top10-boundary 10th=('Swifts, Tree-Swifts, Hummingbirds', 1669) 11th=['Goatsuckers, Nightjars, Frogmouths', 1201]
+[PASS] oracle-other other=4308
+[PASS] oracle-alabama total=1842 unknown-bird=955
+[PASS] oracle-geometry geometry rows=56
+[PASS] artifact-exists C:\Users\imgwho\.paseo\worktrees\209a8v60\feat-2022-ww02-wildlife-strikes\iterations\2022-01-06-ww01-let-s-analyse-wildlife-strikes\outputs\replicated-workbook.twbx
+[PASS] artifact-packaged-hyper members=['2022_01_05_WW01_FAA Wildlife strikes (1990-2021).hyper', 'replicated-workbook.twb']
+[PASS] model-single-data-datasource data sources=1
+[PASS] model-two-physical-tables tables=['States', 'Strikes']
+[PASS] model-logical-relationship objects=['Strikes', 'States'] terms=['=', '[State Name]', '[NAME]']
+[PASS] model-spatial-table-packaged States table exposes Geometry
+[PASS] calc-wildlife-incidents formula='COUNT([Species Type])'
+[PASS] calc-species-display formula="IF [Species Type Set] THEN [Species Type] ELSE 'Other' END"
+[PASS] calc-state-filter formula="IF [Parameters].[Parameter 1] = '' THEN TRUE ELSE [State Name] = [Parameters].[Parameter 1] END"
+[PASS] calc-species-filter formula="IF [Parameters].[Parameter 2] = '' THEN TRUE ELSE [Calculation_83BA8EEC93BA4093981EC6A0D77FF27F] = [Parameters].[Parameter 2] END"
+[PASS] calc-title-state formula="IF [Parameters].[Parameter 1] <> '' THEN 'in ' + [Parameters].[Parameter 1] ELSE '' END"
+[PASS] calc-unknown-location formula="'Unknown Location'"
+[PASS] calc-continuous-year type=quantitative
+[PASS] set-top10-by-records count=10 order='Count([Species Type])'
+[PASS] set-rank-is-unambiguous expected=['Unknown Bird', 'Perching Birds', 'Shore Birds', 'Pigeons, Grouse', 'Hawks, Eagle, Vultures', 'Mammals', 'Ducks, Geese, Swans', 'Owls', 'Herons, Storks, Ibis, Flamingos', 'Swifts, Tree-Swifts, Hummingbirds']
+[PASS] params-default-empty-string params=['pSelectedSpecies', 'pSelectedState']
+[PASS] worksheets-present worksheets=['Area', 'Bar', 'Map', 'Unknown']
+[PASS] bar-set-nesting-and-sort rows=([federated.0ahyg8e1xelf3914bag3r0yukuro].[io:Species Type Set:nk] / [federated.0ahyg8e1xelf3914bag3r0yukuro].[none:Calculation_83BA8EEC93BA4093981EC6A0D77FF27F:nk]) sort=DESC
+[PASS] bar-state-filter-and-title title='Incidents by Animal Type <[federated.0ahyg8e1xelf3914bag3r0yukuro].[none:Calculation_98F71356518C4D82A7ACEBD059BE72ED:nk]>'
+[PASS] map-native-state-role rows=[federated.0ahyg8e1xelf3914bag3r0yukuro].[Latitude (generated)] semantic=[State].[Name]
+[PASS] map-encodings-and-palette encodings=[('color', '[federated.0ahyg8e1xelf3914bag3r0yukuro].[usr:Calculation_AE8B50B896A74F8AB78693F8FFF24692:qk]'), ('lod', '[federated.0ahyg8e1xelf3914bag3r0yukuro].[none:State Name:nk]'), ('lod', '[federated.0ahyg8e1xelf3914bag3r0yukuro].[none:NAME:nk]'), ('geometry', '[federated.0ahyg8e1xelf3914bag3r0yukuro].[Geometry (generated)]'), ('tooltip', '[federated.0ahyg8e1xelf3914bag3r0yukuro].[attr:NAME:nk]')] palette=red_gold_10_0
+[PASS] map-geocoding-context value="United States"
+[PASS] area-continuous-axis-and-detail cols=[federated.0ahyg8e1xelf3914bag3r0yukuro].[none:Calculation_6DAF7B654E5043B487805B2CA9E0B38B:qk] rows=[federated.0ahyg8e1xelf3914bag3r0yukuro].[usr:Calculation_AE8B50B896A74F8AB78693F8FFF24692:qk] lod=2
+[PASS] area-both-cross-filters-and-title title='<[Parameters].[Parameter 2]> Incidents Over Time <[federated.0ahyg8e1xelf3914bag3r0yukuro].[none:Calculation_98F71356518C4D82A7ACEBD059BE72ED:nk]>'
+[PASS] unknown-indicator color=#e15759
+[PASS] dashboard-present author dashboard name
+[PASS] dashboard-fixed-size-and-zones size=1200x900 legend=True
+[PASS] actions-parameter-driven actions=['Select State', 'Select Species']
+[PASS] sdk-round-trip worksheets=['Bar', 'Map', 'Area', 'Unknown']
+[PASS] oracle-cross-filter-values alabama=1842 alabama/unknown-bird=955 unknown-bird=101949
+[PASS] cloud-default-bar actual=251818 expected=251818
+[PASS] cloud-default-area actual=251818 expected=251818
+[PASS] cloud-default-map actual=251818 expected=251818
+[PASS] cloud-default-unknown actual=36959 expected=36959
+[PASS] cloud-alabama-bar actual=1842 expected=1842
+[PASS] cloud-alabama-area actual=1842 expected=1842
+[PASS] cloud-alabama-map actual=251818 expected=251818
+[PASS] cloud-alabama-unknown actual=36959 expected=36959
+[PASS] cloud-unknown-bird-bar actual=251818 expected=251818
+[PASS] cloud-unknown-bird-area actual=101949 expected=101949
+[PASS] cloud-unknown-bird-map actual=101949 expected=101949
+[PASS] cloud-unknown-bird-unknown actual=19939 expected=19939
+[PASS] cloud-alabama-unknown-bird-bar actual=1842 expected=1842
+[PASS] cloud-alabama-unknown-bird-area actual=955 expected=955
+[PASS] cloud-alabama-unknown-bird-map actual=101949 expected=101949
+[PASS] cloud-alabama-unknown-bird-unknown actual=19939 expected=19939
+[PASS] cloud-clear-bar actual=251818 expected=251818
+[PASS] cloud-clear-area actual=251818 expected=251818
+[PASS] cloud-clear-map actual=251818 expected=251818
+[PASS] cloud-clear-unknown actual=36959 expected=36959
+
+PASS  58 checks  -> C:\Users\imgwho\.paseo\worktrees\209a8v60\feat-2022-ww02-wildlife-strikes\iterations\2022-01-06-ww01-let-s-analyse-wildlife-strikes\evidence\verification.json

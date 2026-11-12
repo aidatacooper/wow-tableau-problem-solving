@@ -1,0 +1,1447 @@
+{
+  "case_id": "wow-2022-ww01-let-s-analyse-wildlife-strikes",
+  "artifact": {
+    "path": "outputs/replicated-workbook.twbx",
+    "sha256": "e1eec0126e9b3b25fc819028fe00f9aad4d8b5af715fb4cbc0eef27c01119a71"
+  },
+  "oracle": {
+    "total_rows": 251818,
+    "null_state_rows": 36959,
+    "species_count": 23,
+    "species_top10": [
+      [
+        "Unknown Bird",
+        101949
+      ],
+      [
+        "Perching Birds",
+        59106
+      ],
+      [
+        "Shore Birds",
+        26257
+      ],
+      [
+        "Pigeons, Grouse",
+        18845
+      ],
+      [
+        "Hawks, Eagle, Vultures",
+        17431
+      ],
+      [
+        "Mammals",
+        9318
+      ],
+      [
+        "Ducks, Geese, Swans",
+        6613
+      ],
+      [
+        "Owls",
+        4039
+      ],
+      [
+        "Herons, Storks, Ibis, Flamingos",
+        2283
+      ],
+      [
+        "Swifts, Tree-Swifts, Hummingbirds",
+        1669
+      ]
+    ],
+    "species_11th": [
+      "Goatsuckers, Nightjars, Frogmouths",
+      1201
+    ],
+    "other_rows": 4308,
+    "states": [
+      [
+        null,
+        36959
+      ],
+      [
+        "Texas",
+        21981
+      ],
+      [
+        "California",
+        18607
+      ],
+      [
+        "Florida",
+        17859
+      ],
+      [
+        "New York",
+        12222
+      ],
+      [
+        "Illinois",
+        10864
+      ],
+      [
+        "Colorado",
+        10719
+      ],
+      [
+        "Pennsylvania",
+        7582
+      ],
+      [
+        "Tennessee",
+        7412
+      ],
+      [
+        "Ohio",
+        7394
+      ],
+      [
+        "New Jersey",
+        6739
+      ],
+      [
+        "Michigan",
+        6441
+      ],
+      [
+        "Kentucky",
+        5985
+      ],
+      [
+        "Missouri",
+        5791
+      ],
+      [
+        "North Carolina",
+        5304
+      ],
+      [
+        "Georgia",
+        4775
+      ],
+      [
+        "District of Columbia",
+        3929
+      ],
+      [
+        "Washington",
+        3818
+      ],
+      [
+        "Louisiana",
+        3805
+      ],
+      [
+        "Indiana",
+        3798
+      ],
+      [
+        "Oregon",
+        3547
+      ],
+      [
+        "Utah",
+        3539
+      ],
+      [
+        "Massachusetts",
+        3295
+      ],
+      [
+        "Arizona",
+        3292
+      ],
+      [
+        "Virginia",
+        2734
+      ],
+      [
+        "Wisconsin",
+        2672
+      ],
+      [
+        "Maryland",
+        2628
+      ],
+      [
+        "Minnesota",
+        2552
+      ],
+      [
+        "Nebraska",
+        2344
+      ],
+      [
+        "Oklahoma",
+        2090
+      ],
+      [
+        "Connecticut",
+        2050
+      ],
+      [
+        "South Carolina",
+        1865
+      ],
+      [
+        "Alabama",
+        1842
+      ],
+      [
+        "Iowa",
+        1780
+      ],
+      [
+        "Alaska",
+        1334
+      ],
+      [
+        "Arkansas",
+        1208
+      ],
+      [
+        "North Dakota",
+        1148
+      ],
+      [
+        "Nevada",
+        1101
+      ],
+      [
+        "Rhode Island",
+        992
+      ],
+      [
+        "Mississippi",
+        927
+      ],
+      [
+        "New Hampshire",
+        919
+      ],
+      [
+        "Kansas",
+        853
+      ],
+      [
+        "South Dakota",
+        834
+      ],
+      [
+        "Maine",
+        791
+      ],
+      [
+        "Idaho",
+        788
+      ],
+      [
+        "Montana",
+        713
+      ],
+      [
+        "New Mexico",
+        621
+      ],
+      [
+        "West Virginia",
+        563
+      ],
+      [
+        "Vermont",
+        352
+      ],
+      [
+        "Wyoming",
+        275
+      ],
+      [
+        "Delaware",
+        185
+      ]
+    ],
+    "years": [
+      [
+        1990,
+        1813
+      ],
+      [
+        1991,
+        2351
+      ],
+      [
+        1992,
+        2529
+      ],
+      [
+        1993,
+        2541
+      ],
+      [
+        1994,
+        2599
+      ],
+      [
+        1995,
+        2716
+      ],
+      [
+        1996,
+        2880
+      ],
+      [
+        1997,
+        3370
+      ],
+      [
+        1998,
+        3701
+      ],
+      [
+        1999,
+        5010
+      ],
+      [
+        2000,
+        5873
+      ],
+      [
+        2001,
+        5697
+      ],
+      [
+        2002,
+        6068
+      ],
+      [
+        2003,
+        5846
+      ],
+      [
+        2004,
+        6367
+      ],
+      [
+        2005,
+        7027
+      ],
+      [
+        2006,
+        7058
+      ],
+      [
+        2007,
+        7579
+      ],
+      [
+        2008,
+        7419
+      ],
+      [
+        2009,
+        9238
+      ],
+      [
+        2010,
+        9653
+      ],
+      [
+        2011,
+        9812
+      ],
+      [
+        2012,
+        10620
+      ],
+      [
+        2013,
+        11156
+      ],
+      [
+        2014,
+        13410
+      ],
+      [
+        2015,
+        13507
+      ],
+      [
+        2016,
+        13155
+      ],
+      [
+        2017,
+        14590
+      ],
+      [
+        2018,
+        15946
+      ],
+      [
+        2019,
+        17151
+      ],
+      [
+        2020,
+        11478
+      ],
+      [
+        2021,
+        13658
+      ]
+    ],
+    "geometry_rows": 56,
+    "geometry_names": [
+      "Alabama",
+      "Alaska",
+      "American Samoa",
+      "Arizona",
+      "Arkansas",
+      "California",
+      "Colorado",
+      "Connecticut",
+      "Delaware",
+      "District of Columbia",
+      "Florida",
+      "Georgia",
+      "Guam",
+      "Hawaii",
+      "Idaho",
+      "Illinois",
+      "Indiana",
+      "Iowa",
+      "Kansas",
+      "Kentucky",
+      "Louisiana",
+      "Maine",
+      "Maryland",
+      "Massachusetts",
+      "Michigan",
+      "Minnesota",
+      "Mississippi",
+      "Missouri",
+      "Montana",
+      "Nebraska",
+      "Nevada",
+      "New Hampshire",
+      "New Jersey",
+      "New Mexico",
+      "New York",
+      "North Carolina",
+      "North Dakota",
+      "Northern Marianas",
+      "Ohio",
+      "Oklahoma",
+      "Oregon",
+      "Pennsylvania",
+      "Puerto Rico",
+      "Rhode Island",
+      "South Carolina",
+      "South Dakota",
+      "Tennessee",
+      "Texas",
+      "Utah",
+      "Vermont",
+      "Virgin Islands",
+      "Virginia",
+      "Washington",
+      "West Virginia",
+      "Wisconsin",
+      "Wyoming"
+    ],
+    "alabama_species": [
+      [
+        "Unknown Bird",
+        955
+      ],
+      [
+        "Perching Birds",
+        345
+      ],
+      [
+        "Pigeons, Grouse",
+        224
+      ],
+      [
+        "Shore Birds",
+        113
+      ],
+      [
+        "Mammals",
+        65
+      ],
+      [
+        "Hawks, Eagle, Vultures",
+        52
+      ],
+      [
+        "Swifts, Tree-Swifts, Hummingbirds",
+        28
+      ],
+      [
+        "Goatsuckers, Nightjars, Frogmouths",
+        16
+      ],
+      [
+        "Ducks, Geese, Swans",
+        11
+      ],
+      [
+        "Owls",
+        10
+      ],
+      [
+        "Herons, Storks, Ibis, Flamingos",
+        9
+      ],
+      [
+        "Reptiles",
+        7
+      ],
+      [
+        "Woodpeckers, Toucans, Barbets",
+        3
+      ],
+      [
+        "Pelicans, Cormorants, Boobies",
+        2
+      ],
+      [
+        "Chicken-like Birds",
+        1
+      ],
+      [
+        "Cuckoos",
+        1
+      ]
+    ],
+    "alabama_total": 1842,
+    "alabama_years": [
+      [
+        1990,
+        18
+      ],
+      [
+        1991,
+        27
+      ],
+      [
+        1992,
+        23
+      ],
+      [
+        1993,
+        21
+      ],
+      [
+        1994,
+        61
+      ],
+      [
+        1995,
+        29
+      ],
+      [
+        1996,
+        32
+      ],
+      [
+        1997,
+        43
+      ],
+      [
+        1998,
+        33
+      ],
+      [
+        1999,
+        38
+      ],
+      [
+        2000,
+        53
+      ],
+      [
+        2001,
+        44
+      ],
+      [
+        2002,
+        39
+      ],
+      [
+        2003,
+        32
+      ],
+      [
+        2004,
+        39
+      ],
+      [
+        2005,
+        36
+      ],
+      [
+        2006,
+        41
+      ],
+      [
+        2007,
+        40
+      ],
+      [
+        2008,
+        29
+      ],
+      [
+        2009,
+        84
+      ],
+      [
+        2010,
+        44
+      ],
+      [
+        2011,
+        53
+      ],
+      [
+        2012,
+        76
+      ],
+      [
+        2013,
+        120
+      ],
+      [
+        2014,
+        85
+      ],
+      [
+        2015,
+        80
+      ],
+      [
+        2016,
+        68
+      ],
+      [
+        2017,
+        85
+      ],
+      [
+        2018,
+        135
+      ],
+      [
+        2019,
+        108
+      ],
+      [
+        2020,
+        101
+      ],
+      [
+        2021,
+        125
+      ]
+    ],
+    "unknown_bird_total": 101949,
+    "unknown_bird_years": [
+      [
+        1990,
+        835
+      ],
+      [
+        1991,
+        1149
+      ],
+      [
+        1992,
+        1213
+      ],
+      [
+        1993,
+        1184
+      ],
+      [
+        1994,
+        1247
+      ],
+      [
+        1995,
+        1435
+      ],
+      [
+        1996,
+        1537
+      ],
+      [
+        1997,
+        1823
+      ],
+      [
+        1998,
+        1851
+      ],
+      [
+        1999,
+        3210
+      ],
+      [
+        2000,
+        3605
+      ],
+      [
+        2001,
+        3358
+      ],
+      [
+        2002,
+        3530
+      ],
+      [
+        2003,
+        3326
+      ],
+      [
+        2004,
+        3603
+      ],
+      [
+        2005,
+        4002
+      ],
+      [
+        2006,
+        3702
+      ],
+      [
+        2007,
+        3576
+      ],
+      [
+        2008,
+        3153
+      ],
+      [
+        2009,
+        4060
+      ],
+      [
+        2010,
+        3619
+      ],
+      [
+        2011,
+        3494
+      ],
+      [
+        2012,
+        3617
+      ],
+      [
+        2013,
+        3462
+      ],
+      [
+        2014,
+        4741
+      ],
+      [
+        2015,
+        4461
+      ],
+      [
+        2016,
+        4585
+      ],
+      [
+        2017,
+        4469
+      ],
+      [
+        2018,
+        5206
+      ],
+      [
+        2019,
+        5623
+      ],
+      [
+        2020,
+        3485
+      ],
+      [
+        2021,
+        3788
+      ]
+    ],
+    "alabama_unknown_bird": 955,
+    "unknown_bird_null_state": 19939
+  },
+  "cross_filter_expectations": {
+    "default": {
+      "total": 251818,
+      "bar_rows": [
+        [
+          "Unknown Bird",
+          101949
+        ],
+        [
+          "Perching Birds",
+          59106
+        ],
+        [
+          "Shore Birds",
+          26257
+        ],
+        [
+          "Pigeons, Grouse",
+          18845
+        ],
+        [
+          "Hawks, Eagle, Vultures",
+          17431
+        ],
+        [
+          "Mammals",
+          9318
+        ],
+        [
+          "Ducks, Geese, Swans",
+          6613
+        ],
+        [
+          "Owls",
+          4039
+        ],
+        [
+          "Herons, Storks, Ibis, Flamingos",
+          2283
+        ],
+        [
+          "Swifts, Tree-Swifts, Hummingbirds",
+          1669
+        ],
+        [
+          "Other",
+          4308
+        ]
+      ],
+      "unknown": 36959
+    },
+    "alabama": {
+      "total": 1842,
+      "bar_rows": [
+        [
+          "Unknown Bird",
+          955
+        ],
+        [
+          "Perching Birds",
+          345
+        ],
+        [
+          "Shore Birds",
+          113
+        ],
+        [
+          "Pigeons, Grouse",
+          224
+        ],
+        [
+          "Hawks, Eagle, Vultures",
+          52
+        ],
+        [
+          "Mammals",
+          65
+        ],
+        [
+          "Ducks, Geese, Swans",
+          11
+        ],
+        [
+          "Owls",
+          10
+        ],
+        [
+          "Herons, Storks, Ibis, Flamingos",
+          9
+        ],
+        [
+          "Swifts, Tree-Swifts, Hummingbirds",
+          28
+        ],
+        [
+          "Other",
+          30
+        ]
+      ],
+      "unknown": 36959,
+      "area_years": [
+        [
+          1990,
+          18
+        ],
+        [
+          1991,
+          27
+        ],
+        [
+          1992,
+          23
+        ],
+        [
+          1993,
+          21
+        ],
+        [
+          1994,
+          61
+        ],
+        [
+          1995,
+          29
+        ],
+        [
+          1996,
+          32
+        ],
+        [
+          1997,
+          43
+        ],
+        [
+          1998,
+          33
+        ],
+        [
+          1999,
+          38
+        ],
+        [
+          2000,
+          53
+        ],
+        [
+          2001,
+          44
+        ],
+        [
+          2002,
+          39
+        ],
+        [
+          2003,
+          32
+        ],
+        [
+          2004,
+          39
+        ],
+        [
+          2005,
+          36
+        ],
+        [
+          2006,
+          41
+        ],
+        [
+          2007,
+          40
+        ],
+        [
+          2008,
+          29
+        ],
+        [
+          2009,
+          84
+        ],
+        [
+          2010,
+          44
+        ],
+        [
+          2011,
+          53
+        ],
+        [
+          2012,
+          76
+        ],
+        [
+          2013,
+          120
+        ],
+        [
+          2014,
+          85
+        ],
+        [
+          2015,
+          80
+        ],
+        [
+          2016,
+          68
+        ],
+        [
+          2017,
+          85
+        ],
+        [
+          2018,
+          135
+        ],
+        [
+          2019,
+          108
+        ],
+        [
+          2020,
+          101
+        ],
+        [
+          2021,
+          125
+        ]
+      ]
+    },
+    "unknown-bird": {
+      "total": 101949,
+      "area_years": [
+        [
+          1990,
+          835
+        ],
+        [
+          1991,
+          1149
+        ],
+        [
+          1992,
+          1213
+        ],
+        [
+          1993,
+          1184
+        ],
+        [
+          1994,
+          1247
+        ],
+        [
+          1995,
+          1435
+        ],
+        [
+          1996,
+          1537
+        ],
+        [
+          1997,
+          1823
+        ],
+        [
+          1998,
+          1851
+        ],
+        [
+          1999,
+          3210
+        ],
+        [
+          2000,
+          3605
+        ],
+        [
+          2001,
+          3358
+        ],
+        [
+          2002,
+          3530
+        ],
+        [
+          2003,
+          3326
+        ],
+        [
+          2004,
+          3603
+        ],
+        [
+          2005,
+          4002
+        ],
+        [
+          2006,
+          3702
+        ],
+        [
+          2007,
+          3576
+        ],
+        [
+          2008,
+          3153
+        ],
+        [
+          2009,
+          4060
+        ],
+        [
+          2010,
+          3619
+        ],
+        [
+          2011,
+          3494
+        ],
+        [
+          2012,
+          3617
+        ],
+        [
+          2013,
+          3462
+        ],
+        [
+          2014,
+          4741
+        ],
+        [
+          2015,
+          4461
+        ],
+        [
+          2016,
+          4585
+        ],
+        [
+          2017,
+          4469
+        ],
+        [
+          2018,
+          5206
+        ],
+        [
+          2019,
+          5623
+        ],
+        [
+          2020,
+          3485
+        ],
+        [
+          2021,
+          3788
+        ]
+      ],
+      "unknown": 19939
+    },
+    "alabama-unknown-bird": {
+      "total": 955,
+      "unknown": 19939
+    }
+  },
+  "checks": [
+    {
+      "id": "oracle-total",
+      "ok": true,
+      "detail": "rows=251818"
+    },
+    {
+      "id": "oracle-null-state",
+      "ok": true,
+      "detail": "null-state=36959"
+    },
+    {
+      "id": "oracle-species-count",
+      "ok": true,
+      "detail": "species=23"
+    },
+    {
+      "id": "oracle-state-members",
+      "ok": true,
+      "detail": "state groups=51"
+    },
+    {
+      "id": "oracle-top10-boundary",
+      "ok": true,
+      "detail": "10th=('Swifts, Tree-Swifts, Hummingbirds', 1669) 11th=['Goatsuckers, Nightjars, Frogmouths', 1201]"
+    },
+    {
+      "id": "oracle-other",
+      "ok": true,
+      "detail": "other=4308"
+    },
+    {
+      "id": "oracle-alabama",
+      "ok": true,
+      "detail": "total=1842 unknown-bird=955"
+    },
+    {
+      "id": "oracle-geometry",
+      "ok": true,
+      "detail": "geometry rows=56"
+    },
+    {
+      "id": "artifact-exists",
+      "ok": true,
+      "detail": "C:\\Users\\imgwho\\.paseo\\worktrees\\209a8v60\\feat-2022-ww02-wildlife-strikes\\iterations\\2022-01-06-ww01-let-s-analyse-wildlife-strikes\\outputs\\replicated-workbook.twbx"
+    },
+    {
+      "id": "artifact-packaged-hyper",
+      "ok": true,
+      "detail": "members=['2022_01_05_WW01_FAA Wildlife strikes (1990-2021).hyper', 'replicated-workbook.twb']"
+    },
+    {
+      "id": "model-single-data-datasource",
+      "ok": true,
+      "detail": "data sources=1"
+    },
+    {
+      "id": "model-two-physical-tables",
+      "ok": true,
+      "detail": "tables=['States', 'Strikes']"
+    },
+    {
+      "id": "model-logical-relationship",
+      "ok": true,
+      "detail": "objects=['Strikes', 'States'] terms=['=', '[State Name]', '[NAME]']"
+    },
+    {
+      "id": "model-spatial-table-packaged",
+      "ok": true,
+      "detail": "States table exposes Geometry"
+    },
+    {
+      "id": "calc-wildlife-incidents",
+      "ok": true,
+      "detail": "formula='COUNT([Species Type])'"
+    },
+    {
+      "id": "calc-species-display",
+      "ok": true,
+      "detail": "formula=\"IF [Species Type Set] THEN [Species Type] ELSE 'Other' END\""
+    },
+    {
+      "id": "calc-state-filter",
+      "ok": true,
+      "detail": "formula=\"IF [Parameters].[Parameter 1] = '' THEN TRUE ELSE [State Name] = [Parameters].[Parameter 1] END\""
+    },
+    {
+      "id": "calc-species-filter",
+      "ok": true,
+      "detail": "formula=\"IF [Parameters].[Parameter 2] = '' THEN TRUE ELSE [Calculation_83BA8EEC93BA4093981EC6A0D77FF27F] = [Parameters].[Parameter 2] END\""
+    },
+    {
+      "id": "calc-title-state",
+      "ok": true,
+      "detail": "formula=\"IF [Parameters].[Parameter 1] <> '' THEN 'in ' + [Parameters].[Parameter 1] ELSE '' END\""
+    },
+    {
+      "id": "calc-unknown-location",
+      "ok": true,
+      "detail": "formula=\"'Unknown Location'\""
+    },
+    {
+      "id": "calc-continuous-year",
+      "ok": true,
+      "detail": "type=quantitative"
+    },
+    {
+      "id": "set-top10-by-records",
+      "ok": true,
+      "detail": "count=10 order='Count([Species Type])'"
+    },
+    {
+      "id": "set-rank-is-unambiguous",
+      "ok": true,
+      "detail": "expected=['Unknown Bird', 'Perching Birds', 'Shore Birds', 'Pigeons, Grouse', 'Hawks, Eagle, Vultures', 'Mammals', 'Ducks, Geese, Swans', 'Owls', 'Herons, Storks, Ibis, Flamingos', 'Swifts, Tree-Swifts, Hummingbirds']"
+    },
+    {
+      "id": "params-default-empty-string",
+      "ok": true,
+      "detail": "params=['pSelectedSpecies', 'pSelectedState']"
+    },
+    {
+      "id": "worksheets-present",
+      "ok": true,
+      "detail": "worksheets=['Area', 'Bar', 'Map', 'Unknown']"
+    },
+    {
+      "id": "bar-set-nesting-and-sort",
+      "ok": true,
+      "detail": "rows=([federated.0ahyg8e1xelf3914bag3r0yukuro].[io:Species Type Set:nk] / [federated.0ahyg8e1xelf3914bag3r0yukuro].[none:Calculation_83BA8EEC93BA4093981EC6A0D77FF27F:nk]) sort=DESC"
+    },
+    {
+      "id": "bar-state-filter-and-title",
+      "ok": true,
+      "detail": "title='Incidents by Animal Type <[federated.0ahyg8e1xelf3914bag3r0yukuro].[none:Calculation_98F71356518C4D82A7ACEBD059BE72ED:nk]>'"
+    },
+    {
+      "id": "map-native-state-role",
+      "ok": true,
+      "detail": "rows=[federated.0ahyg8e1xelf3914bag3r0yukuro].[Latitude (generated)] semantic=[State].[Name]"
+    },
+    {
+      "id": "map-encodings-and-palette",
+      "ok": true,
+      "detail": "encodings=[('color', '[federated.0ahyg8e1xelf3914bag3r0yukuro].[usr:Calculation_AE8B50B896A74F8AB78693F8FFF24692:qk]'), ('lod', '[federated.0ahyg8e1xelf3914bag3r0yukuro].[none:State Name:nk]'), ('lod', '[federated.0ahyg8e1xelf3914bag3r0yukuro].[none:NAME:nk]'), ('geometry', '[federated.0ahyg8e1xelf3914bag3r0yukuro].[Geometry (generated)]'), ('tooltip', '[federated.0ahyg8e1xelf3914bag3r0yukuro].[attr:NAME:nk]')] palette=red_gold_10_0"
+    },
+    {
+      "id": "map-geocoding-context",
+      "ok": true,
+      "detail": "value=\"United States\""
+    },
+    {
+      "id": "area-continuous-axis-and-detail",
+      "ok": true,
+      "detail": "cols=[federated.0ahyg8e1xelf3914bag3r0yukuro].[none:Calculation_6DAF7B654E5043B487805B2CA9E0B38B:qk] rows=[federated.0ahyg8e1xelf3914bag3r0yukuro].[usr:Calculation_AE8B50B896A74F8AB78693F8FFF24692:qk] lod=2"
+    },
+    {
+      "id": "area-both-cross-filters-and-title",
+      "ok": true,
+      "detail": "title='<[Parameters].[Parameter 2]> Incidents Over Time <[federated.0ahyg8e1xelf3914bag3r0yukuro].[none:Calculation_98F71356518C4D82A7ACEBD059BE72ED:nk]>'"
+    },
+    {
+      "id": "unknown-indicator",
+      "ok": true,
+      "detail": "color=#e15759"
+    },
+    {
+      "id": "dashboard-present",
+      "ok": true,
+      "detail": "author dashboard name"
+    },
+    {
+      "id": "dashboard-fixed-size-and-zones",
+      "ok": true,
+      "detail": "size=1200x900 legend=True"
+    },
+    {
+      "id": "actions-parameter-driven",
+      "ok": true,
+      "detail": "actions=['Select State', 'Select Species']"
+    },
+    {
+      "id": "sdk-round-trip",
+      "ok": true,
+      "detail": "worksheets=['Bar', 'Map', 'Area', 'Unknown']"
+    },
+    {
+      "id": "oracle-cross-filter-values",
+      "ok": true,
+      "detail": "alabama=1842 alabama/unknown-bird=955 unknown-bird=101949"
+    },
+    {
+      "id": "cloud-default-bar",
+      "ok": true,
+      "detail": "actual=251818 expected=251818"
+    },
+    {
+      "id": "cloud-default-area",
+      "ok": true,
+      "detail": "actual=251818 expected=251818"
+    },
+    {
+      "id": "cloud-default-map",
+      "ok": true,
+      "detail": "actual=251818 expected=251818"
+    },
+    {
+      "id": "cloud-default-unknown",
+      "ok": true,
+      "detail": "actual=36959 expected=36959"
+    },
+    {
+      "id": "cloud-alabama-bar",
+      "ok": true,
+      "detail": "actual=1842 expected=1842"
+    },
+    {
+      "id": "cloud-alabama-area",
+      "ok": true,
+      "detail": "actual=1842 expected=1842"
+    },
+    {
+      "id": "cloud-alabama-map",
+      "ok": true,
+      "detail": "actual=251818 expected=251818"
+    },
+    {
+      "id": "cloud-alabama-unknown",
+      "ok": true,
+      "detail": "actual=36959 expected=36959"
+    },
+    {
+      "id": "cloud-unknown-bird-bar",
+      "ok": true,
+      "detail": "actual=251818 expected=251818"
+    },
+    {
+      "id": "cloud-unknown-bird-area",
+      "ok": true,
+      "detail": "actual=101949 expected=101949"
+    },
+    {
+      "id": "cloud-unknown-bird-map",
+      "ok": true,
+      "detail": "actual=101949 expected=101949"
+    },
+    {
+      "id": "cloud-unknown-bird-unknown",
+      "ok": true,
+      "detail": "actual=19939 expected=19939"
+    },
+    {
+      "id": "cloud-alabama-unknown-bird-bar",
+      "ok": true,
+      "detail": "actual=1842 expected=1842"
+    },
+    {
+      "id": "cloud-alabama-unknown-bird-area",
+      "ok": true,
+      "detail": "actual=955 expected=955"
+    },
+    {
+      "id": "cloud-alabama-unknown-bird-map",
+      "ok": true,
+      "detail": "actual=101949 expected=101949"
+    },
+    {
+      "id": "cloud-alabama-unknown-bird-unknown",
+      "ok": true,
+      "detail": "actual=19939 expected=19939"
+    },
+    {
+      "id": "cloud-clear-bar",
+      "ok": true,
+      "detail": "actual=251818 expected=251818"
+    },
+    {
+      "id": "cloud-clear-area",
+      "ok": true,
+      "detail": "actual=251818 expected=251818"
+    },
+    {
+      "id": "cloud-clear-map",
+      "ok": true,
+      "detail": "actual=251818 expected=251818"
+    },
+    {
+      "id": "cloud-clear-unknown",
+      "ok": true,
+      "detail": "actual=36959 expected=36959"
+    }
+  ],
+  "status": "pass"
+}

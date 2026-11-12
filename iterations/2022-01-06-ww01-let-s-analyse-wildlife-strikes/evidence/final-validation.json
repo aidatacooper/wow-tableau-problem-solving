@@ -1,0 +1,34 @@
+{
+  "checked_at": "2026-11-12T17:28:31.459944+00:00",
+  "version": "0.29.0a2",
+  "result": "workaround",
+  "workbook_sha256": "e1eec0126e9b3b25fc819028fe00f9aad4d8b5af715fb4cbc0eef27c01119a71",
+  "desktop": {
+    "sha256": "e1eec0126e9b3b25fc819028fe00f9aad4d8b5af715fb4cbc0eef27c01119a71",
+    "result": "LOADED",
+    "captured_at": "2026-11-12T17:05:47.624870+00:00",
+    "command": "python scripts/desktop/build_and_check.py iterations/2022-01-06-ww01-let-s-analyse-wildlife-strikes",
+    "scope": "Tableau Desktop loadability only; REST state and static action contracts are separate evidence."
+  },
+  "shared_tests": {
+    "tests": 83,
+    "result": "OK"
+  },
+  "desktop_corpus": {
+    "LOADED": 50,
+    "FAIL": 0,
+    "UNKNOWN": 0
+  },
+  "cloud_source_hashes": {
+    "author": "932d728d24caa1cb2457faa20a63deaf0585357b1a5c12cec0720b6fc50dbe3d",
+    "replica": "e1eec0126e9b3b25fc819028fe00f9aad4d8b5af715fb4cbc0eef27c01119a71"
+  },
+  "cloud_states": [
+    "default",
+    "alabama",
+    "unknown-bird",
+    "alabama-unknown-bird",
+    "clear"
+  ],
+  "verification_scope": "Local builder/schema/boundary/verifier, Desktop load, REST artifacts and primary-agent visual review. No independent-model approval or browser-click execution."
+}
