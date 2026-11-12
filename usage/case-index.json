@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "generated_from": "iterations/*/case.yaml",
-  "active_case_count": 135,
+  "active_case_count": 136,
   "legacy_case_ids": {
     "donna-2019-07-18-63877b35d19a": "wow-2019-ww29-high-orders",
     "donna-2019-07-25-59a0a144b25b": "wow-2019-ww30-navigation-kpi",
@@ -8727,6 +8727,57 @@
       "metadata": "iterations/2026-04-13-ww14-correct-metric/case.yaml",
       "metadata_contract": "1.1.0",
       "tested_sdk_version": "0.27.1"
+    },
+    {
+      "case_id": "wow-2026-ww28-pareto-chart-coloured-backgrounds",
+      "legacy_case_ids": {},
+      "iteration_id": "2026-07-18-ww28-pareto-chart-coloured-backgrounds",
+      "article_date": "2026-07-18",
+      "challenge_year": 2026,
+      "challenge_week": 28,
+      "challenge_date": "2026-07-14",
+      "date_evidence": {
+        "article_date": "Declared article publication date in iteration_id",
+        "challenge": "Explicit challenge_year; week declared in iteration_id",
+        "challenge_date": "Explicit official challenge publication date and URL"
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2026w28tab/"
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2026/07/18/can-you-build-a-pareto-chart-with-coloured-backgrounds/",
+          "path": null,
+          "sha256": null
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2026_07_15_WW28_Pareto/2026_07_15_WW28_Pareto",
+          "filename": "2026_07_15_WW28_Pareto.twbx",
+          "sha256": "4268771e82bc7f8092cf6994f2fbf6499d9a34cba944d17027228ba6121deffa"
+        }
+      },
+      "functional_status": "partial",
+      "visual_status": "not_evaluated",
+      "verification_status": "pending",
+      "cwtwb_result": "pass",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": null,
+        "cloud_replica": null
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "inputs/source-lock.json",
+        "evidence/validation.json",
+        "evidence/workbook-inventory.json"
+      ],
+      "notes": [
+        "Analysis completed from the Donna Coles article and author workbook; builder reads only extracted inputs. The cwtwb build reproduces the two running percentages, area chart, fixed 0.2/0.8 guides and dashboard. Five coloured background bands and the author's explicit Sales descending sort still need a richer reference-band/sort configuration."
+      ],
+      "metadata": "iterations/2026-07-18-ww28-pareto-chart-coloured-backgrounds/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.29.0a2"
     }
   ]
 }
