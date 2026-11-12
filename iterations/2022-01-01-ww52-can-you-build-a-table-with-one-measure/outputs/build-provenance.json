@@ -1,0 +1,12 @@
+{
+  "version": "0.29.0a2",
+  "module": "C:\\Users\\imgwho\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\cwtwb\\__init__.py",
+  "module_sha256": "cdc024ad49de77888e3af80bf649ad0b6c3828c556c198729b7722f286ad67c4",
+  "extract_sha256": "97e9f7c97745836df8b028e274e82a41a0e90cb3a1bf4696e8b4138fd6b9e561",
+  "workbook_sha256": "5de44f56ba808155b9d808b8f94e280ed64bffb541b3c30fd0a793083beca2e0",
+  "authoring_route": "cwtwb_public_api_plus_native_json_on_top",
+  "sheets": [
+    "Table"
+  ],
+  "dashboard": "2021 Week 52 - Single Table One Measure"
+}
