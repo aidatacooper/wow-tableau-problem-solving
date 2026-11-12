@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "generated_from": "iterations/*/case.yaml",
-  "active_case_count": 136,
+  "active_case_count": 137,
   "legacy_case_ids": {
     "donna-2019-07-18-63877b35d19a": "wow-2019-ww29-high-orders",
     "donna-2019-07-25-59a0a144b25b": "wow-2019-ww30-navigation-kpi",
@@ -8727,6 +8727,57 @@
       "metadata": "iterations/2026-04-13-ww14-correct-metric/case.yaml",
       "metadata_contract": "1.1.0",
       "tested_sdk_version": "0.27.1"
+    },
+    {
+      "case_id": "wow-2026-ww26-drive-time-area",
+      "legacy_case_ids": {},
+      "iteration_id": "2026-07-13-ww26-drive-time-area",
+      "article_date": "2026-07-13",
+      "challenge_year": 2026,
+      "challenge_week": 26,
+      "challenge_date": "2026-06-30",
+      "date_evidence": {
+        "article_date": "Declared article publication date in iteration_id",
+        "challenge": "Explicit challenge_year; week declared in iteration_id",
+        "challenge_date": "Explicit official challenge publication date and URL"
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2026w26tab/"
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2026/07/13/lets-try-the-drive-time-area/",
+          "path": null,
+          "sha256": null
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2026_07_01_WW26_Drive_Time/2026_07_01_WW26_Drive_Time",
+          "filename": "2026_07_01_WW26_Drive_Time.twbx",
+          "sha256": "e5bf087916d6b66f7e2c934a30353e22774664cf9117795f872a26d7c8cf0340"
+        }
+      },
+      "functional_status": "partial",
+      "visual_status": "not_evaluated",
+      "verification_status": "pending",
+      "cwtwb_result": "blocked",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": null,
+        "cloud_replica": null
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "inputs/source-lock.json",
+        "evidence/validation.json",
+        "evidence/workbook-inventory.json"
+      ],
+      "notes": [
+        "Analysis completed from the Donna Coles article and author workbook; builder reads only extracted inputs. The map, Union Station mark and selected-store KPI are rebuilt. The 2026.2 Drive Time selection tool and DC masking layers remain to be implemented."
+      ],
+      "metadata": "iterations/2026-07-13-ww26-drive-time-area/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.29.0a2"
     },
     {
       "case_id": "wow-2026-ww32-can-you-use-sets-to-highlight-top-and-bottom-performing-states-cities",
