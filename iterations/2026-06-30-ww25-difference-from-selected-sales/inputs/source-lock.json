@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-11-13",
+  "source_workbook": {
+    "filename": "2026_06_24_WW25_Sales_Difference_noLODs_noTableCalc.twbx",
+    "bytes": 362194,
+    "sha256": "e325f33922f315b47b478c2505afc9c880651aad8a3e0a17b30ed182917bdbbf",
+    "url": "https://public.tableau.com/views/2026_06_24_WW25_Sales_Difference_noLODs_noTableCalc/2026_06_24_WW25_Sales_Difference"
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Datasources/Orders (Sample - Superstore).hyper",
+      "file": "inputs/Orders (Sample - Superstore).hyper",
+      "bytes": 196608,
+      "sha256": "f4a41a0a2cd8ee444b24a40922f865e0280c54b09f6dfaf29b2cbfb1020f79ad"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

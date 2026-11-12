@@ -1,0 +1,10 @@
+{
+  "case_id": "wow-2026-ww25-difference-from-selected-sales",
+  "primary_workbook": "outputs/replicated-workbook.twbx",
+  "worksheets": [
+    "Bar",
+    "Selector"
+  ],
+  "desktop_verdict": "LOADED",
+  "browser_interaction_executed": false
+}
