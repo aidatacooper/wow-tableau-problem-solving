@@ -8205,7 +8205,8 @@
         "evidence/desktop-rendered-values-20261114.json",
         "evidence/desktop-crosstab.tsv",
         "evidence/desktop-tooltip-hour15-p75.png",
-        "evidence/desktop-accepted-20261114.json"
+        "evidence/desktop-accepted-20261114.json",
+        "evidence/merged-sdk-isolated-20261114.json"
       ],
       "notes": [
         "Generated index views must be refreshed after the workbook is built and verified.",
