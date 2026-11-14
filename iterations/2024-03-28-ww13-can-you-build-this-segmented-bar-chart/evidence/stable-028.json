@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-14T07:53:47.040056+00:00",
+  "source": {
+    "channel": "stable",
+    "version": "0.28.0",
+    "import_path": "C:\\Users\\imgwho\\Desktop\\project\\cwtwb-release-test-028\\Lib\\site-packages\\cwtwb\\__init__.py",
+    "package_tree_sha256": "c359682acb07ff4dc2f2d8a7fae2ec908c40e18e70c7343116b26e12cb2dc707",
+    "git_sha": null,
+    "dirty": false,
+    "distribution_record_sha256": "ad824231795b7b69a6cb970439d27880b5b5c8b4c9cfe441e1cd5883c448b8c2"
+  },
+  "commands": [
+    {
+      "command": [
+        "C:\\Users\\imgwho\\Desktop\\project\\cwtwb-release-test-028\\Scripts\\python.exe",
+        "C:\\Users\\imgwho\\Desktop\\project\\wow-tableau-problem-solving\\iterations\\2024-03-28-ww13-can-you-build-this-segmented-bar-chart\\build_replication.py"
+      ],
+      "returncode": 0,
+      "stdout": "C:\\Users\\imgwho\\Desktop\\project\\wow-tableau-problem-solving\\iterations\\2024-03-28-ww13-can-you-build-this-segmented-bar-chart\\outputs\\replicated-workbook.twbx\n",
+      "stderr": "Auto-registered unknown field 'Order Date' (role=dimension, datatype=string, type=nominal).\nAuto-registered unknown field 'Sales' (role=measure, datatype=real, type=quantitative).\nAuto-registered unknown field 'Sub-Category' (role=dimension, datatype=string, type=nominal).\n"
+    },
+    {
+      "command": [
+        "C:\\Users\\imgwho\\Desktop\\project\\cwtwb-release-test-028\\Scripts\\python.exe",
+        "C:\\Users\\imgwho\\Desktop\\project\\wow-tableau-problem-solving\\iterations\\2024-03-28-ww13-can-you-build-this-segmented-bar-chart\\verify_replication.py"
+      ],
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\imgwho\\Desktop\\project\\wow-tableau-problem-solving\\iterations\\2024-03-28-ww13-can-you-build-this-segmented-bar-chart\\verify_replication.py\", line 11, in <module>\n    from tableauhyperapi import Connection, HyperProcess, Telemetry\nModuleNotFoundError: No module named 'tableauhyperapi'\n"
+    }
+  ],
+  "workbook_sha256": "efcc25eeec7b29e49859b48d5afadca747da9b909cac92b1a61e9f8235ff7bd0",
+  "result": "blocked",
+  "scope": "Build and static/numerical verifier only; Desktop and tooltip runtime not run."
+}

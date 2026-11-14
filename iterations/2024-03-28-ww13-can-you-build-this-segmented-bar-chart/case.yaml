@@ -1,0 +1,120 @@
+schema_version: 1.1.0
+case_id: wow-2024-ww13-can-you-build-this-segmented-bar-chart
+iteration_id: 2024-03-28-ww13-can-you-build-this-segmented-bar-chart
+post: posts/2024-03-28-Can_you_build_this_segmented_bar_chart.html
+legacy_case_ids: {}
+article_date: '2024-03-28'
+challenge_year: 2024
+challenge_week: 13
+challenge_date: '2024-03-26'
+date_evidence:
+  article_date: Declared article publication date in iteration_id
+  challenge: Explicit challenge_year; week declared in iteration_id
+  challenge_date: Explicit official challenge publication date and URL
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2024w13tab/
+  article:
+    url: https://donnacoles.home.blog/2024/03/28/can-you-build-this-segmented-bar-chart/
+    path: posts/2024-03-28-Can_you_build_this_segmented_bar_chart.html
+    sha256: 001f604d54bf92f89363b15bd6eeed3c28f88a2ec12c209b1745530857fa270e
+  workbook:
+    url: https://public.tableau.com/views/2024_03_27_WW13_Segmented_Bar_Chart/Segmented_Bar_Chart
+    filename: 2024_03_27_WW13_Segmented_Bar_Chart.twbx
+    sha256: 649a1c500b14b09da7ce92458e953968dd71567c37467f5096f0d12aab87e1cc
+verification_status: pending
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: null
+  cloud_replica: null
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- inputs/source-lock.json
+- outputs/static-verification.json
+- outputs/numerical-acceptance.csv
+- evidence/desktop-acceptance.md
+- evidence/desktop-final-20261114.json
+- evidence/desktop-publication-20261114.json
+- evidence/desktop-final-dashboard.png
+- evidence/parent-acceptance-20261114.md
+- evidence/ci-pin-parent-20261114.json
+notes:
+- 'Worker scope: case-only build/static verification; Desktop, indexes, commits and
+  push assigned to parent.'
+- SDK dirty source full diff and file hash manifests accompany each run; source HEAD
+  alone is insufficient to reproduce.
+cwtwb:
+  tested_version: 0.29.0a3
+  runs:
+  - version: 0.28.0
+    result: blocked
+    evidence: evidence/stable-028.json
+  - version: 0.29.0a3
+    result: pass
+    evidence: evidence/source-029a3.json
+  - version: 0.28.0
+    result: pass
+    evidence: evidence/stable-028-complete.json
+  - version: 0.29.0a3
+    result: pass
+    evidence: evidence/source-029a3-final.json
+  - version: 0.29.0a3
+    result: pass
+    evidence: evidence/source-handoff.json
+  - version: 0.29.0a3
+    result: pass
+    evidence: evidence/desktop-final-20261114.json
+  - version: 0.29.0a3
+    result: pass
+    evidence: evidence/desktop-publication-20261114.json
+analysis_status: completed
+functional_status: partial
+visual_status: not_evaluated
+cwtwb_result: pass
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/federated_1l2jyeb12pijk613twqta1.hyper
+acceptance:
+- id: source-data
+  description: Packaged Hyper equals locked author data; all 10194 rows and 68 grouped
+    yearly sums independently reconcile.
+  mode: automated
+- id: sales-geometry
+  description: Native cumulative/size encodings produce 17 total bars and 68 yearly
+    segments with 100% per category; no cross-category addressing.
+  mode: automated
+- id: descending-order
+  description: Sub-category rows sorted by descending SUM(Sales).
+  mode: automated
+- id: tooltip-contract
+  description: Total pane binds total Sales; annual pane binds year, annual SUM(Sales)
+    and within-category share, not cumulative amount.
+  mode: automated
+- id: layout-contract
+  description: One worksheet, 1000x800 dashboard, synchronized total/segment row axes,
+    top-aligned labels and row gap.
+  mode: automated
+- id: desktop-load
+  description: Final artifact opens in Tableau Desktop with LOADED verdict.
+  mode: manual
+  evidence: evidence/desktop-final-20261114.json
+- id: rendered-pairs
+  description: All 17 category pairs visibly satisfy total-over-segment heights, spacing,
+    shared lengths and formatting.
+  mode: manual
+  evidence: evidence/parent-acceptance-20261114.md
+- id: tooltip-hover
+  description: Observe total and all four annual tooltips for Chairs and Fasteners
+    against the complete numerical CSV.
+  mode: manual
+  evidence: evidence/desktop-acceptance.md
+remaining_work: 'Observe total and four annual tooltips for Chairs and Fasteners
+  against the numerical oracle; record actual hover values and visual comparison.
+  Final artifact is Desktop LOADED and all 17 rendered pairs were inspected.
+  Repository-pinned dependency independently rebuilds successfully. Shared corpus
+  gate and complete interaction acceptance remain required before solved status.'
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []

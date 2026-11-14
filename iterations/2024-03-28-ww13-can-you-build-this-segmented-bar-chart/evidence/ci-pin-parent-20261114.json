@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-14",
+  "sdk": {
+    "version": "0.29.0a2",
+    "source": "requirements.txt Git dependency",
+    "commit": "cac8820f26e703c3858253adfa21efd989eb8a78",
+    "import_path": "C:/Users/imgwho/Desktop/project/tmp/three-new-cases-release-20261114/case-2024/.venv/Lib/site-packages/cwtwb/__init__.py",
+    "source_overrides": false
+  },
+  "python": "3.11.15",
+  "isolated_rebuild": {
+    "entrypoint": "scripts.validate_iteration.run_case_scripts_isolated",
+    "result": "PASS",
+    "verifier": "PASS",
+    "source_rows": 10194,
+    "sub_categories": 17,
+    "year_segments": 68,
+    "grand_total": 2326534.3543000002
+  },
+  "shared_tests": {
+    "command": ".venv/Scripts/python.exe -m unittest discover -s tests -q",
+    "tests": 83,
+    "result": "OK"
+  },
+  "scope": "Repository-pinned dependency compatibility; disposable rebuild, not final primary artifact Desktop or interaction evidence."
+}
