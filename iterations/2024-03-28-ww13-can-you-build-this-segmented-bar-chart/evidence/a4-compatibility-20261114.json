@@ -1,0 +1,65 @@
+{
+  "date": "2026-11-14T11:01:06.723293+00:00",
+  "result": "pass",
+  "scope": "Compatibility of a fresh temporary candidate built from committed case files with the final a4 pin. No Desktop run or primary rebuild; this does not claim the accepted primary was built with a4.",
+  "case_commit": "81a54dd4ae944a687c87db5d674a485cfcab4f08",
+  "sdk": {
+    "version": "0.29.0a4",
+    "commit": "81362658fa1856ce98e86033b05e9f77c6bdad47",
+    "direct_url": {
+      "url": "https://github.com/aidatacooper/cwtwb.git",
+      "vcs_info": {
+        "commit_id": "81362658fa1856ce98e86033b05e9f77c6bdad47",
+        "requested_revision": "81362658fa1856ce98e86033b05e9f77c6bdad47",
+        "vcs": "git"
+      }
+    },
+    "import_path": "C:\\Users\\imgwho\\Desktop\\project\\tmp\\three-new-cases-release-20261114\\case-2024\\.git\\a4-validation\\venv\\Lib\\site-packages\\cwtwb\\__init__.py",
+    "isolated_install": true,
+    "source_overrides": false,
+    "regression_source_commit": "175471b0fa4ad0ae91b4d9b6d629a621583d945e",
+    "merge_and_source_tree": "5be842639ccf7dbea9602e2b6d25c08c8640cf59",
+    "tree_identity_verification": "GitHub Git commit API reports the same tree for the merge pin and regression source commit."
+  },
+  "python": "3.11.15 (main, May  4 2026, 21:17:00) [MSC v.1944 64 bit (AMD64)]",
+  "entrypoint": "scripts.validate_iteration.run_case_scripts_isolated, using git archive of case_commit",
+  "temporary_candidate": {
+    "status": "PASS",
+    "scope": "static structure and full-data numerical oracle; Desktop/render/hover pending",
+    "workbook_sha256": "9fd0aa388b8e207f23191c9c69643710b7c91d12764b930010382932ed7c095b",
+    "input_sha256": "dbd9cf32a714ed5c7b5b129443e54e7018dfe8b78ec9d21dade9b12d88a31ddc",
+    "source_rows": 10194,
+    "sub_categories": 17,
+    "year_segments": 68,
+    "grand_total": 2326534.3543000002,
+    "top_category": "Chairs",
+    "acceptance_ids": [
+      "source-data",
+      "sales-geometry",
+      "descending-order",
+      "tooltip-contract",
+      "layout-contract"
+    ],
+    "xsd": {
+      "schema_available": true,
+      "strict_errors": 0
+    }
+  },
+  "preservation": {
+    "frozen_files_checked": 53,
+    "all_unchanged": true,
+    "primary_sha256": "5a6f759ecd2c8e8c09b4b9adae754e1c921eec069f406fb1ac221426c7a55b22",
+    "primary_build_sdk_version": "0.29.0a3"
+  },
+  "corpus": {
+    "loaded": 50,
+    "fail": 0,
+    "unknown": 0,
+    "scope": "Previously executed historical corpus Desktop load proof, not this temporary candidate's runtime acceptance.",
+    "files": {
+      "evidence/a4-corpus-desktop-summary.json": "1809f9a454e7aca3c0596f01cecae92bdd50e176fb3097da4b94ee5fca51c4d7",
+      "evidence/a4-corpus-summary.json": "9a22590160ea407ccc2ea6c29d9bde8b6bbaa9d0dd275e19635bfb9f85650a66",
+      "evidence/a4-corpus-artifact-hashes.csv": "7d997518011e3b6a98079c77f97e334a8c6f47765c5c41089c25274a76fd1fdd"
+    }
+  }
+}

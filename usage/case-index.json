@@ -8214,16 +8214,22 @@
         "evidence/desktop-hover-fasteners-2021.png",
         "evidence/desktop-hover-fasteners-2022.png",
         "evidence/desktop-hover-fasteners-2023.png",
-        "evidence/desktop-hover-fasteners-2024.png"
+        "evidence/desktop-hover-fasteners-2024.png",
+        "evidence/a4-compatibility-20261114.json",
+        "evidence/a4-corpus-desktop-summary.json",
+        "evidence/a4-corpus-summary.json",
+        "evidence/a4-corpus-artifact-hashes.csv"
       ],
       "notes": [
         "Worker scope: case-only build/static verification; Desktop, indexes, commits and push assigned to parent.",
         "SDK dirty source full diff and file hash manifests accompany each run; source HEAD alone is insufficient to reproduce.",
-        "The schema's cloud_author and cloud_replica image slots contain byte-identical copies of evidence/article-reference-frame0.png and evidence/desktop-presentation-20261114.png; these are actual article and Desktop images, with no cloud execution claimed."
+        "The schema's cloud_author and cloud_replica image slots contain byte-identical copies of evidence/article-reference-frame0.png and evidence/desktop-presentation-20261114.png; these are actual article and Desktop images, with no cloud execution claimed.",
+        "Final 0.29.0a4 compatibility uses an isolated install of requirements pin 81362658fa1856ce98e86033b05e9f77c6bdad47 and a fresh temporary candidate from committed case files. The frozen accepted primary and runtime evidence remain bound to 0.29.0a3; the a4 candidate has no Desktop or hover acceptance claim.",
+        "The a4 historical corpus proof records 50 LOADED, 0 FAIL and 0 UNKNOWN on source 175471b0fa4ad0ae91b4d9b6d629a621583d945e, whose Git tree equals the final merge pin."
       ],
       "metadata": "iterations/2024-03-28-ww13-can-you-build-this-segmented-bar-chart/case.yaml",
       "metadata_contract": "1.1.0",
-      "tested_sdk_version": "0.29.0a3"
+      "tested_sdk_version": "0.29.0a4"
     },
     {
       "case_id": "wow-2025-ww45-population-pyramid",
