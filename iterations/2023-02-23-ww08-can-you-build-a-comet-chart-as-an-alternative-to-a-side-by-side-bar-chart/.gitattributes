@@ -1,0 +1,4 @@
+*.py -text
+evidence/*.diff -text -whitespace
+evidence/desktop-a4-crosstab.tsv -text -whitespace
+evidence/corpus-a4/* -text

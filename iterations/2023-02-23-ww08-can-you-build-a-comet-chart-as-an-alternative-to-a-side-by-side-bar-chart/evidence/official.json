@@ -1,0 +1,246 @@
+[
+  {
+    "id": 9991,
+    "date": "2023-02-22T00:00:00",
+    "date_gmt": "2023-02-22T00:00:00",
+    "guid": {
+      "rendered": "https://www.workout-wednesday.com/?p=9991"
+    },
+    "modified": "2024-11-05T17:03:24",
+    "modified_gmt": "2024-11-05T17:03:24",
+    "slug": "wow2022w08",
+    "status": "publish",
+    "type": "post",
+    "link": "https://www.workout-wednesday.com/wow2022w08/",
+    "title": {
+      "rendered": "2023 Week 8: Can you build a comet chart as an alternative to a side-by-side bar chart?"
+    },
+    "content": {
+      "rendered": "\t\t<div data-elementor-type=\"wp-post\" data-elementor-id=\"9991\" class=\"elementor elementor-9991\">\n\t\t\t\t\t\t<section class=\"elementor-section elementor-top-section elementor-element elementor-element-b5ffdf elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-id=\"b5ffdf\" data-element_type=\"section\" data-e-type=\"section\">\n\t\t\t\t\t\t<div class=\"elementor-container elementor-column-gap-default\">\n\t\t\t\t\t<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-28a4f191\" data-id=\"28a4f191\" data-element_type=\"column\" data-e-type=\"column\">\n\t\t\t<div class=\"elementor-widget-wrap elementor-element-populated\">\n\t\t\t\t\t\t<div class=\"elementor-element elementor-element-7ee1a538 elementor-widget elementor-widget-heading\" data-id=\"7ee1a538\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">Introduction</h2>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-4a15d5c7 elementor-widget elementor-widget-text-editor\" data-id=\"4a15d5c7\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t<p>The theme for February 2023 has been alternatives. This week I present an alternative (and trust me, there are many other alternatives) to my least favorite chart: the side-by-side bar chart.</p>\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-e0013a7 elementor-widget elementor-widget-image\" data-id=\"e0013a7\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"image.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<img fetchpriority=\"high\" decoding=\"async\" width=\"985\" height=\"796\" src=\"https://www.workout-wednesday.com/wp-content/uploads/2023/02/Screen-Shot-2023-02-19-at-10.28.52-AM.png\" class=\"attachment-full size-full wp-image-10506\" alt=\"\" srcset=\"https://www.workout-wednesday.com/wp-content/uploads/2023/02/Screen-Shot-2023-02-19-at-10.28.52-AM.png 985w, https://www.workout-wednesday.com/wp-content/uploads/2023/02/Screen-Shot-2023-02-19-at-10.28.52-AM-300x242.png 300w, https://www.workout-wednesday.com/wp-content/uploads/2023/02/Screen-Shot-2023-02-19-at-10.28.52-AM-768x621.png 768w\" sizes=\"(max-width: 985px) 100vw, 985px\" />\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-cd1b93b elementor-widget elementor-widget-text-editor\" data-id=\"cd1b93b\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t<p>The reason this chart is so difficult for me is because it takes up a lot of space and when I am doing comparisons of numbers I&#8217;ve got to cross so many other value and dimensions. I want to make comparisons faster. That&#8217;s why sometimes I use a comet chart.</p>\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-68af7459 elementor-widget elementor-widget-heading\" data-id=\"68af7459\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">Requirements</h2>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-1dc68c3e elementor-position-top elementor-widget elementor-widget-image-box\" data-id=\"1dc68c3e\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"image-box.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<div class=\"elementor-image-box-wrapper\"><figure class=\"elementor-image-box-img\"><a href=\"https://public.tableau.com/views/WOW2023Week8CometChart/WOW2023Week8Canyoubuildacometchartasanalternativetoaside-by-sidebarchart?:language=en-US&#038;:display_count=n&#038;:origin=viz_share_link\" tabindex=\"-1\"><img decoding=\"async\" width=\"774\" height=\"550\" src=\"https://www.workout-wednesday.com/wp-content/uploads/2023/01/Screen-Shot-2023-02-19-at-10.05.03-AM.png\" class=\"attachment-full size-full wp-image-10503\" alt=\"\" srcset=\"https://www.workout-wednesday.com/wp-content/uploads/2023/01/Screen-Shot-2023-02-19-at-10.05.03-AM.png 774w, https://www.workout-wednesday.com/wp-content/uploads/2023/01/Screen-Shot-2023-02-19-at-10.05.03-AM-300x213.png 300w, https://www.workout-wednesday.com/wp-content/uploads/2023/01/Screen-Shot-2023-02-19-at-10.05.03-AM-768x546.png 768w\" sizes=\"(max-width: 774px) 100vw, 774px\" /></a></figure><div class=\"elementor-image-box-content\"><div class=\"elementor-image-box-title\"><a href=\"https://public.tableau.com/views/WOW2023Week8CometChart/WOW2023Week8Canyoubuildacometchartasanalternativetoaside-by-sidebarchart?:language=en-US&#038;:display_count=n&#038;:origin=viz_share_link\">Click to open in Tableau Public</a></div></div></div>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-696beb23 elementor-widget elementor-widget-text-editor\" data-id=\"696beb23\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t<ul><li><span lang=\"EN-US\">Dashboard Size: 800 x 700px</span></li><li><span style=\"font-size: 15px;\">1 sheet</span></li><li>Create a comet plot that shows sales for 2021 and 2022 by sub-category.</li><li><span style=\"font-size: 15px;\">The narrow part of the comet should be 2021 sales</span></li><li><span style=\"font-size: 15px;\">The wide part of the comet should be 2022 sales</span></li><li>The labels should be 2022 sales</li><li>Match the size of the comet around the circle</li><li>The color represents the direction of change in sales from 2021 to 2022. The red represents a decrease in sales</li><li>Match the formatting</li><li>ADVANCED: Table Calculations only</li></ul>\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-716ed393 elementor-widget elementor-widget-heading\" data-id=\"716ed393\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">Dataset</h2>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-39730097 elementor-widget elementor-widget-text-editor\" data-id=\"39730097\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t<div class=\"elementor-element elementor-element-48e730b elementor-widget elementor-widget-text-editor\" style=\"font-size: 15px; font-style: normal; font-weight: 400; flex-direction: var(--flex-direction); flex-wrap: var(--flex-wrap); -webkit-box-pack: var(--justify-content); justify-content: var(--justify-content); -webkit-box-align: var(--align-items); align-items: var(--align-items); align-content: var(--align-content); gap: var(--gap); flex-basis: var(--flex-basis); -webkit-box-flex: var(--flex-grow); flex-grow: var(--flex-grow); flex-shrink: var(--flex-shrink); -webkit-box-ordinal-group: var(--order); order: var(--order); align-self: var(--align-self); --widgets-spacing: 20px; width: 619px;\" data-id=\"48e730b\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\"><div class=\"elementor-widget-container\" style=\"font-size: 15px;\"><div class=\"elementor-text-editor elementor-clearfix\" style=\"font-size: 15px;\"><p class=\"selectionShareable\" style=\"font-size: 15px;\"><span style=\"font-size: 15px; font-style: normal; font-weight: 400;\">This week uses the superstore dataset for Tableau 2022.4. You can get it here at\u00a0</span><a style=\"font-size: 15px; font-style: normal; font-weight: 400; background-color: #ffffff;\" href=\"https://github.com/Workout-Wednesday/data/blob/main/2024/Sample%20-%20Superstore%202019.4.csv\">data.world</a>.</p></div></div></div>\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-6e9ec5ce elementor-widget elementor-widget-heading\" data-id=\"6e9ec5ce\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">Attribute</h2>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t</div>\n\t\t\t\t\t</div>\n\t\t</section>\n\t\t\t\t<section class=\"elementor-section elementor-top-section elementor-element elementor-element-4f69828c elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-id=\"4f69828c\" data-element_type=\"section\" data-e-type=\"section\">\n\t\t\t\t\t\t<div class=\"elementor-container elementor-column-gap-default\">\n\t\t\t\t\t<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1ac9118b\" data-id=\"1ac9118b\" data-element_type=\"column\" data-e-type=\"column\">\n\t\t\t<div class=\"elementor-widget-wrap elementor-element-populated\">\n\t\t\t\t\t\t<div class=\"elementor-element elementor-element-39fd3e75 elementor-widget elementor-widget-text-editor\" data-id=\"39fd3e75\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t<p class=\"selectionShareable\">When you publish your solution on Tableau Public make sure to take the time and include a link to the original inspiration.\u00a0 Also include the hashtag <b>#WOW2023</b>\u00a0in your description to make it searchable!</p>\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-5f21ea0f elementor-widget elementor-widget-image\" data-id=\"5f21ea0f\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"image.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<img decoding=\"async\" width=\"2758\" height=\"886\" src=\"https://www.workout-wednesday.com/wp-content/uploads/2023/01/Screenshot-2023-01-02-at-17.27.27.png\" class=\"attachment-full size-full wp-image-9935\" alt=\"\" srcset=\"https://www.workout-wednesday.com/wp-content/uploads/2023/01/Screenshot-2023-01-02-at-17.27.27.png 2758w, https://www.workout-wednesday.com/wp-content/uploads/2023/01/Screenshot-2023-01-02-at-17.27.27-300x96.png 300w, https://www.workout-wednesday.com/wp-content/uploads/2023/01/Screenshot-2023-01-02-at-17.27.27-1024x329.png 1024w, https://www.workout-wednesday.com/wp-content/uploads/2023/01/Screenshot-2023-01-02-at-17.27.27-768x247.png 768w, https://www.workout-wednesday.com/wp-content/uploads/2023/01/Screenshot-2023-01-02-at-17.27.27-1536x493.png 1536w, https://www.workout-wednesday.com/wp-content/uploads/2023/01/Screenshot-2023-01-02-at-17.27.27-2048x658.png 2048w\" sizes=\"(max-width: 2758px) 100vw, 2758px\" />\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-942dde3 elementor-widget elementor-widget-heading\" data-id=\"942dde3\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">Share</h2>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-5dc40e75 elementor-widget elementor-widget-text-editor\" data-id=\"5dc40e75\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t<p class=\"selectionShareable\">After you finish your workout, share on Twitter and/or LinkedIn using the hashtag\u00a0<a href=\"https://twitter.com/search?q=%23WOW2023\">#WOW2023</a>\u00a0<a href=\"https://twitter.com/search?q=%23Tableau\">#Tableau</a> and tag <a href=\"https://twitter.com/WorkoutWednsday\">@WorkoutWednsday</a></p>\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-4fcb03b2 elementor-widget elementor-widget-heading\" data-id=\"4fcb03b2\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">Solution</h2>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-4520c4f elementor-widget elementor-widget-text-editor\" data-id=\"4520c4f\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t<ul><li><strong>Read\u00a0</strong><a href=\"https://donnacoles.home.blog/2023/02/23/can-you-build-a-comet-chart-as-an-alternative-to-a-side-by-side-bar-chart/\">https://donnacoles.home.blog/2023/02/23/can-you-build-a-comet-chart-as-an-alternative-to-a-side-by-side-bar-chart/</a></li></ul>\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-5c26bbe elementor-widget elementor-widget-accordion\" data-id=\"5c26bbe\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"accordion.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<div class=\"elementor-accordion\">\n\t\t\t\t\t\t\t<div class=\"elementor-accordion-item\">\n\t\t\t\t\t<div id=\"elementor-tab-title-9661\" class=\"elementor-tab-title\" data-tab=\"1\" role=\"button\" aria-controls=\"elementor-tab-content-9661\" aria-expanded=\"false\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-accordion-icon elementor-accordion-icon-left\" aria-hidden=\"true\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-accordion-icon-closed\"><i class=\"fas fa-plus\"></i></span>\n\t\t\t\t\t\t\t\t<span class=\"elementor-accordion-icon-opened\"><i class=\"fas fa-minus\"></i></span>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\t\t\t\t\t<a class=\"elementor-accordion-title\" tabindex=\"0\">Watch</a>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div id=\"elementor-tab-content-9661\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"1\" role=\"region\" aria-labelledby=\"elementor-tab-title-9661\"><iframe src=\"https://www.youtube.com/embed/CI-KtKl2E8k\"width=\"100%\"height=\"315\"frameborder=\"0\"allowfullscreen=\"allowfullscreen\"></iframe></div>\n\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t</div>\n\t\t\t\t\t</div>\n\t\t</section>\n\t\t\t\t<section class=\"elementor-section elementor-top-section elementor-element elementor-element-67360d9 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-id=\"67360d9\" data-element_type=\"section\" data-e-type=\"section\">\n\t\t\t\t\t\t<div class=\"elementor-container elementor-column-gap-default\">\n\t\t\t\t\t<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-62534e2b\" data-id=\"62534e2b\" data-element_type=\"column\" data-e-type=\"column\">\n\t\t\t<div class=\"elementor-widget-wrap elementor-element-populated\">\n\t\t\t\t\t\t<div class=\"elementor-element elementor-element-e0280d7 elementor-widget elementor-widget-heading\" data-id=\"e0280d7\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">Interactive</h2>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-6932aae elementor-widget elementor-widget-html\" data-id=\"6932aae\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"html.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<div class='tableauPlaceholder' id='viz1676823403594' style='position: relative'><noscript><a href='#'><img alt='#WOW2023 Week 8: Can you build a comet chart as an alternative to a side-by-side bar chart? ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;WO&#47;WOW2023Week8CometChart&#47;WOW2023Week8Canyoubuildacometchartasanalternativetoaside-by-sidebarchart&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='WOW2023Week8CometChart&#47;WOW2023Week8Canyoubuildacometchartasanalternativetoaside-by-sidebarchart' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;WO&#47;WOW2023Week8CometChart&#47;WOW2023Week8Canyoubuildacometchartasanalternativetoaside-by-sidebarchart&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1676823403594');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='800px';vizElement.style.height='727px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t</div>\n\t\t\t\t\t</div>\n\t\t</section>\n\t\t\t\t<section class=\"elementor-section elementor-top-section elementor-element elementor-element-4961a440 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-id=\"4961a440\" data-element_type=\"section\" data-e-type=\"section\">\n\t\t\t\t\t\t<div class=\"elementor-container elementor-column-gap-default\">\n\t\t\t\t\t<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-30182fb0\" data-id=\"30182fb0\" data-element_type=\"column\" data-e-type=\"column\">\n\t\t\t<div class=\"elementor-widget-wrap\">\n\t\t\t\t\t\t\t</div>\n\t\t</div>\n\t\t\t\t\t</div>\n\t\t</section>\n\t\t\t\t<section class=\"elementor-section elementor-top-section elementor-element elementor-element-18d66516 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-id=\"18d66516\" data-element_type=\"section\" data-e-type=\"section\">\n\t\t\t\t\t\t<div class=\"elementor-container elementor-column-gap-default\">\n\t\t\t\t\t<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4e143d7f\" data-id=\"4e143d7f\" data-element_type=\"column\" data-e-type=\"column\">\n\t\t\t<div class=\"elementor-widget-wrap\">\n\t\t\t\t\t\t\t</div>\n\t\t</div>\n\t\t\t\t\t</div>\n\t\t</section>\n\t\t\t\t<section class=\"elementor-section elementor-top-section elementor-element elementor-element-570c846f elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-id=\"570c846f\" data-element_type=\"section\" data-e-type=\"section\">\n\t\t\t\t\t\t<div class=\"elementor-container elementor-column-gap-default\">\n\t\t\t\t\t<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-55de4638\" data-id=\"55de4638\" data-element_type=\"column\" data-e-type=\"column\">\n\t\t\t<div class=\"elementor-widget-wrap\">\n\t\t\t\t\t\t\t</div>\n\t\t</div>\n\t\t\t\t\t</div>\n\t\t</section>\n\t\t\t\t</div>\n\t\t",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>Introduction The theme for February 2023 has been alternatives. This week I present an alternative (and trust me, there are many other alternatives) to my least favorite chart: the side-by-side bar chart. The reason this chart is so difficult for me is because it takes up a lot of space and when I am doing [&hellip;]</p>\n",
+      "protected": false
+    },
+    "author": 13,
+    "featured_media": 10503,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "site-sidebar-layout": "default",
+      "site-content-layout": "",
+      "ast-site-content-layout": "default",
+      "site-content-style": "default",
+      "site-sidebar-style": "default",
+      "ast-global-header-display": "",
+      "ast-banner-title-visibility": "",
+      "ast-main-header-display": "",
+      "ast-hfb-above-header-display": "",
+      "ast-hfb-below-header-display": "",
+      "ast-hfb-mobile-header-display": "",
+      "site-post-title": "",
+      "ast-breadcrumbs-content": "",
+      "ast-featured-img": "",
+      "footer-sml-layout": "",
+      "ast-disable-related-posts": "",
+      "theme-transparent-header-meta": "",
+      "adv-header-id-meta": "",
+      "stick-header-meta": "",
+      "header-above-stick-meta": "",
+      "header-main-stick-meta": "",
+      "header-below-stick-meta": "",
+      "astra-migrate-meta-layouts": "default",
+      "ast-page-background-enabled": "default",
+      "ast-page-background-meta": {
+        "desktop": {
+          "background-color": "",
+          "background-image": "",
+          "background-repeat": "repeat",
+          "background-position": "center center",
+          "background-size": "auto",
+          "background-attachment": "scroll",
+          "background-type": "",
+          "background-media": "",
+          "overlay-type": "",
+          "overlay-color": "",
+          "overlay-opacity": "",
+          "overlay-gradient": ""
+        },
+        "tablet": {
+          "background-color": "",
+          "background-image": "",
+          "background-repeat": "repeat",
+          "background-position": "center center",
+          "background-size": "auto",
+          "background-attachment": "scroll",
+          "background-type": "",
+          "background-media": "",
+          "overlay-type": "",
+          "overlay-color": "",
+          "overlay-opacity": "",
+          "overlay-gradient": ""
+        },
+        "mobile": {
+          "background-color": "",
+          "background-image": "",
+          "background-repeat": "repeat",
+          "background-position": "center center",
+          "background-size": "auto",
+          "background-attachment": "scroll",
+          "background-type": "",
+          "background-media": "",
+          "overlay-type": "",
+          "overlay-color": "",
+          "overlay-opacity": "",
+          "overlay-gradient": ""
+        }
+      },
+      "ast-content-background-meta": {
+        "desktop": {
+          "background-color": "var(--ast-global-color-5)",
+          "background-image": "",
+          "background-repeat": "repeat",
+          "background-position": "center center",
+          "background-size": "auto",
+          "background-attachment": "scroll",
+          "background-type": "",
+          "background-media": "",
+          "overlay-type": "",
+          "overlay-color": "",
+          "overlay-opacity": "",
+          "overlay-gradient": ""
+        },
+        "tablet": {
+          "background-color": "var(--ast-global-color-5)",
+          "background-image": "",
+          "background-repeat": "repeat",
+          "background-position": "center center",
+          "background-size": "auto",
+          "background-attachment": "scroll",
+          "background-type": "",
+          "background-media": "",
+          "overlay-type": "",
+          "overlay-color": "",
+          "overlay-opacity": "",
+          "overlay-gradient": ""
+        },
+        "mobile": {
+          "background-color": "var(--ast-global-color-5)",
+          "background-image": "",
+          "background-repeat": "repeat",
+          "background-position": "center center",
+          "background-size": "auto",
+          "background-attachment": "scroll",
+          "background-type": "",
+          "background-media": "",
+          "overlay-type": "",
+          "overlay-color": "",
+          "overlay-opacity": "",
+          "overlay-gradient": ""
+        }
+      },
+      "footnotes": ""
+    },
+    "categories": [
+      4,
+      5
+    ],
+    "tags": [
+      176,
+      126
+    ],
+    "class_list": [
+      "post-9991",
+      "post",
+      "type-post",
+      "status-publish",
+      "format-standard",
+      "has-post-thumbnail",
+      "hentry",
+      "category-tableau",
+      "category-ww",
+      "tag-easy",
+      "tag-table-calculations"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.workout-wednesday.com/wp-json/wp/v2/posts/9991",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.workout-wednesday.com/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.workout-wednesday.com/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://www.workout-wednesday.com/wp-json/wp/v2/users/13"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://www.workout-wednesday.com/wp-json/wp/v2/comments?post=9991"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 23,
+          "href": "https://www.workout-wednesday.com/wp-json/wp/v2/posts/9991/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 10773,
+          "href": "https://www.workout-wednesday.com/wp-json/wp/v2/posts/9991/revisions/10773"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://www.workout-wednesday.com/wp-json/wp/v2/media/10503"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.workout-wednesday.com/wp-json/wp/v2/media?parent=9991"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://www.workout-wednesday.com/wp-json/wp/v2/categories?post=9991"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://www.workout-wednesday.com/wp-json/wp/v2/tags?post=9991"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,157 @@
+schema_version: 1.1.0
+case_id: wow-2023-ww08-can-you-build-a-comet-chart-as-an-alternative-to-a-side-by-side-bar-chart
+iteration_id: 2023-02-23-ww08-can-you-build-a-comet-chart-as-an-alternative-to-a-side-by-side-bar-chart
+post: posts/2023-02-23-Can_you_build_a_comet_chart_as_an_alternative_to_a_side_by_side_bar_chart.html
+legacy_case_ids: {}
+article_date: '2023-02-23'
+challenge_year: 2023
+challenge_week: 8
+challenge_date: '2023-02-22'
+date_evidence:
+  article_date: Declared article publication date in iteration_id
+  challenge: Explicit challenge_year; week declared in iteration_id
+  challenge_date: 'Official WordPress API post in evidence/official.json: 2023-02-22;
+    legacy slug wow2022w08 does not indicate challenge year.'
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/wow2022w08/
+  article:
+    url: https://donnacoles.home.blog/2023/02/23/can-you-build-a-comet-chart-as-an-alternative-to-a-side-by-side-bar-chart/
+    path: posts/2023-02-23-Can_you_build_a_comet_chart_as_an_alternative_to_a_side_by_side_bar_chart.html
+    sha256: 1813cdfaf3d11a13a85db4d54a427cf0ee782c216003c9a131dc342bee01a271
+  workbook:
+    url: https://public.tableau.com/views/2023_02_22_WW08_Comet_Chart/2023_02_22_WW08_Comet_Chart_LODs
+    filename: 2023_02_22_WW08_Comet_Chart.twbx
+    sha256: caf0f0a5a2285080e15c10610365d1eb49ac9d6942108c92108cba91dcb65a88
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- inputs/source-lock.json
+- evidence/official.json
+- evidence/author-reference.png
+- evidence/expected-sales.json
+- evidence/stable-run.json
+- evidence/final-run.json
+- evidence/sdk-source-manifest.json
+- evidence/static-verification.json
+- evidence/desktop-acceptance.md
+- evidence/case-static-gates.json
+- evidence/repository-tests.log.txt
+- evidence/catalogue-selection.json
+- evidence/desktop-publication-20261114.json
+- evidence/desktop-final-fit-20261114.json
+- evidence/desktop-final-dashboard.png
+- evidence/publication-final.md
+- evidence/desktop-corpus.json
+- evidence/desktop-corpus-evidence.json
+- evidence/desktop-a4-tooltip-fix-20261114.json
+- evidence/desktop-a4-live-acceptance-20261114.json
+- evidence/desktop-a4-live-process-20261114.json
+- evidence/desktop-a4-crosstab.tsv
+- evidence/pre-tooltip-fix-rejection.log
+- evidence/publication-a4.md
+- evidence/corpus-a4/desktop-summary.json
+- evidence/corpus-a4/artifact-hashes.csv
+- evidence/corpus-a4/summary.json
+- evidence/corpus-a4/sdk-source-hashes.json
+- evidence/a4-exact-pin-changed-cases.log.txt
+- evidence/a4-exact-pin-unittests.log.txt
+notes:
+- Legacy cloud_author/cloud_replica artifact keys identify the author reference and
+  Desktop screenshot respectively; no Cloud rendering is claimed.
+- Complete standard LOD tier; official ADVANCED table-calculation-only option not
+  claimed.
+- Builder uses only public SDK and extracted Hyper; no SDK edits and no raw XML authoring.
+- Final a4 artifact is Desktop LOADED; 68 runtime rows covering 34 annual values
+  agree within 1e-6, seven observed tooltips pass, and clicking the selected Phones
+  circle again restores all 17 rows and original colors.
+- Envelopes 2021 endpoint is occluded by standard LOD circles and was not directly
+  hovered; its 4745.41 value is verified in the actual Desktop crosstab.
+- Final a4 corpus passes 50 LOADED, 0 FAIL, 0 UNKNOWN on source 175471b0fa4ad0ae91b4d9b6d629a621583d945e,
+  matching the accepted primary build source. Earlier release corpus evidence is historical.
+cwtwb:
+  tested_version: 0.29.0a4
+  tested_commit: 175471b0fa4ad0ae91b4d9b6d629a621583d945e
+  runs:
+  - version: 0.28.0
+    result: pass
+    evidence: evidence/stable-run.json
+  - version: 0.29.0a3
+    result: pass
+    evidence: evidence/final-run.json
+  - version: 0.29.0a3
+    result: pass
+    evidence: evidence/desktop-final-fit-20261114.json
+  - version: 0.29.0a4
+    result: pass
+    evidence: evidence/desktop-a4-tooltip-fix-20261114.json
+  - version: 0.29.0a4
+    result: pass
+    evidence: evidence/desktop-a4-live-acceptance-20261114.json
+  dirty: false
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: pass
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/Sample _ Superstore.hyper
+acceptance:
+- id: packaged-data
+  description: Packaged Hyper SHA256 equals the extracted, source-locked input.
+  mode: automated
+- id: single-sheet-dashboard
+  description: Exactly one worksheet in an 800 by 700 fixed dashboard.
+  mode: automated
+- id: year-scope
+  description: Only 2021/2022 appear and year-specific LODs preserve the required
+    sales comparison.
+  mode: automated
+- id: comet-geometry
+  description: Path/year size, synchronized axes, white inset circle and ordinal native
+    size legend contracts.
+  mode: automated
+- id: latest-labels-and-sort
+  description: Last line endpoint labels and descending 2022-sales computed sort.
+  mode: automated
+- id: color-and-tooltip-structure
+  description: Red declines/warm-grey increases, year/category/sales tooltip fields
+    on both panes.
+  mode: automated
+- id: formatting-structure
+  description: Grey background, row separators, hidden grid/axes and whole-number
+    sales formatting.
+  mode: automated
+- id: sales-numerics
+  description: All 34 annual points across 17 sub-categories match independent source-row
+    Decimal aggregation.
+  mode: automated
+- id: desktop-load
+  description: Final artifact opens in Desktop with LOADED and no error.
+  mode: manual
+  evidence: evidence/desktop-acceptance.md
+- id: rendered-sales-agreement
+  description: Rendered/exported annual values and all 17 2022 labels match expected-sales.json.
+  mode: manual
+  evidence: evidence/desktop-acceptance.md
+- id: visual-comet-and-formatting
+  description: All rows, width direction, ring sizes, size legend, labels and formatting
+    agree with reference.
+  mode: manual
+  evidence: evidence/desktop-acceptance.md
+- id: hover-and-clear
+  description: Observed endpoint/circle tooltips agree with annual sales; clicking
+    the selected Phones circle again restores the complete chart. Envelopes 2021
+    is occluded and checked through the runtime crosstab, not a direct hover.
+  mode: manual
+  evidence: evidence/desktop-acceptance.md
+remaining_work: []
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []

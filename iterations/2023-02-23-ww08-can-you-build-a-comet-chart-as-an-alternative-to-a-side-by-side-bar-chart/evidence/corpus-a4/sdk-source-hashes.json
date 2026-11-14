@@ -1,0 +1,1081 @@
+{
+  "commit": "175471b0fa4ad0ae91b4d9b6d629a621583d945e",
+  "root": "C:\\Users\\imgwho\\Desktop\\project\\cwtwb",
+  "src": {
+    "cwtwb/__init__.py": {
+      "sha256": "cdc024ad49de77888e3af80bf649ad0b6c3828c556c198729b7722f286ad67c4",
+      "bytes": 3227
+    },
+    "cwtwb/__pycache__/__init__.cpython-311.pyc": {
+      "sha256": "822be55a287c3153f3a3f50df7f6479a3df025f8c0767025b6e40f5b49dcca73",
+      "bytes": 3782
+    },
+    "cwtwb/__pycache__/__init__.cpython-314.pyc": {
+      "sha256": "53459951f809c274ffcb72b60ed068616eb035683b4aa315c3ee0f8292364456",
+      "bytes": 3881
+    },
+    "cwtwb/__pycache__/action_filter_initialization.cpython-311.pyc": {
+      "sha256": "fbfee1d0f294526d327413ced6324b228752147dca1542f131be8806b23f1f20",
+      "bytes": 15318
+    },
+    "cwtwb/__pycache__/action_filter_initialization.cpython-314.pyc": {
+      "sha256": "11eb1486440e52549cb5650371934a49f3fa71024216d791b00e08300982a63e",
+      "bytes": 13305
+    },
+    "cwtwb/__pycache__/blending.cpython-311.pyc": {
+      "sha256": "2a17af17153605908bacba37d9831b39bfaaf67184cddd88a52dc22e8ba0c0c5",
+      "bytes": 9605
+    },
+    "cwtwb/__pycache__/blending.cpython-314.pyc": {
+      "sha256": "97c8028feaaa0f718af84d35c7e1acbd93699b504eaca30185f3113094178f8c",
+      "bytes": 9087
+    },
+    "cwtwb/__pycache__/calculated_field_audit.cpython-311.pyc": {
+      "sha256": "5fb4b0643685f2def7dbd900c49a6fcee9214d6f26d6221c63e4ef7cd9de41bf",
+      "bytes": 8868
+    },
+    "cwtwb/__pycache__/calculated_field_audit.cpython-314.pyc": {
+      "sha256": "001ec0532b9a554ea4a68fb10c7f103c734f0446821affc566ff40963b52f4aa",
+      "bytes": 8582
+    },
+    "cwtwb/__pycache__/capability_registry.cpython-311.pyc": {
+      "sha256": "e32dfadacb05fcf05448a709e5a88c321eb7c1d5d57fb37b97269afb02ac7fe5",
+      "bytes": 31866
+    },
+    "cwtwb/__pycache__/capability_registry.cpython-314.pyc": {
+      "sha256": "284bb50b4ab65ff1bc653c7e20ec03add751efb3be68e4c7e291dc355ff48601",
+      "bytes": 30443
+    },
+    "cwtwb/__pycache__/cli.cpython-311.pyc": {
+      "sha256": "368fbc9ea3eeaa3d11617af7c2e783327ed7af0832352c45e571175238cb0f1b",
+      "bytes": 18862
+    },
+    "cwtwb/__pycache__/cli.cpython-314.pyc": {
+      "sha256": "828e45c111b0a772e03fd014437a740d97a946a4518777440c71f80f95bcd463",
+      "bytes": 16892
+    },
+    "cwtwb/__pycache__/combined_sets.cpython-311.pyc": {
+      "sha256": "103d9964bd0ae2054eee7cd3b47f1191e58035a701f477f2b0fca43ef29662b9",
+      "bytes": 4378
+    },
+    "cwtwb/__pycache__/combined_sets.cpython-314.pyc": {
+      "sha256": "c12f826c39a4f295152a801a13d246c540c47e38abeda7934b6c30109e8f63d6",
+      "bytes": 3955
+    },
+    "cwtwb/__pycache__/config.cpython-311.pyc": {
+      "sha256": "a6f352f67a87a173022584c49b3680db6bd39df0e62f41572c2a01ac65f0e8a3",
+      "bytes": 3629
+    },
+    "cwtwb/__pycache__/config.cpython-314.pyc": {
+      "sha256": "c32f275bcca4429a81d249aab33b0a8bb70e004acb56aec83c89a542a5ce7d5b",
+      "bytes": 3984
+    },
+    "cwtwb/__pycache__/connections.cpython-311.pyc": {
+      "sha256": "155738ac1770ccc5dd27c4edcacc46c6969a0a1bce5d4a3977ecef3b4dcde808",
+      "bytes": 110846
+    },
+    "cwtwb/__pycache__/connections.cpython-314.pyc": {
+      "sha256": "0c6c99a2548ed343b2f1e95e629cbde0d4961425d01a929c6b3737df7f3ddcae",
+      "bytes": 106666
+    },
+    "cwtwb/__pycache__/conversion.cpython-311.pyc": {
+      "sha256": "38017eab32361d6c84dbace8e612bba6650687414a73fe76f00543d36a0711a5",
+      "bytes": 35980
+    },
+    "cwtwb/__pycache__/conversion.cpython-314.pyc": {
+      "sha256": "48bff9200689ddeee3f43eee0cf7f4699da38ea3b94941aa1fbc950a9b3207c0",
+      "bytes": 34154
+    },
+    "cwtwb/__pycache__/dashboard_extensions.cpython-311.pyc": {
+      "sha256": "945ded29d80578328ae13020c30d5eb7755e4a1edfa1bc8e42c39ce1bea38043",
+      "bytes": 17396
+    },
+    "cwtwb/__pycache__/dashboard_extensions.cpython-314.pyc": {
+      "sha256": "745772b6f6422da44bf3ac80aa29a58ac4c204bb8a10223aa38640e46d9d528b",
+      "bytes": 15988
+    },
+    "cwtwb/__pycache__/dashboards.cpython-311.pyc": {
+      "sha256": "c406a0d1c48fe1c05f4df322f9b5d48dfb2ad58e490a963c052e0cf17e732e7f",
+      "bytes": 88880
+    },
+    "cwtwb/__pycache__/dashboards.cpython-314.pyc": {
+      "sha256": "01783138d30658c237f696aac286383e8a2e503f3cf6f26c496af32dcce40e6a",
+      "bytes": 86086
+    },
+    "cwtwb/__pycache__/device_layouts.cpython-311.pyc": {
+      "sha256": "b0f463785d4bb0f0a0ff3fc2daa8800b4c1c06f21c308e1ede910065852e0f5a",
+      "bytes": 7332
+    },
+    "cwtwb/__pycache__/device_layouts.cpython-314.pyc": {
+      "sha256": "835ea9c47bdf176b2a38c5a0497b27a59c45eef127b05cd59363cb8fd578ac29",
+      "bytes": 6467
+    },
+    "cwtwb/__pycache__/domain_range.cpython-311.pyc": {
+      "sha256": "d11d91c5249c04da0dbf1549804d3d9e3b947d7b17efae1ea5bfa17bfc7e5be4",
+      "bytes": 3596
+    },
+    "cwtwb/__pycache__/domain_range.cpython-314.pyc": {
+      "sha256": "5cbc7e631b8862fd2b2cfc54fefd62addb16470acd30f41a410d75785e2b0082",
+      "bytes": 3754
+    },
+    "cwtwb/__pycache__/field_date_properties.cpython-311.pyc": {
+      "sha256": "c85ddba51dcf2259773bdb4665792c08ff50234fd20d41aeecf3843654189cea",
+      "bytes": 3434
+    },
+    "cwtwb/__pycache__/field_date_properties.cpython-314.pyc": {
+      "sha256": "fd822588bbbe6aebc9c4c66f6c0238f432eaa7b48401476a87d012b921423d27",
+      "bytes": 3325
+    },
+    "cwtwb/__pycache__/field_registry.cpython-311.pyc": {
+      "sha256": "c7a6a9f1b4effe0573ce975a52ee93523b2940c329676e86b3668fad9be58ba0",
+      "bytes": 26201
+    },
+    "cwtwb/__pycache__/field_registry.cpython-314.pyc": {
+      "sha256": "1cc781661a2c455f12610f57fabce5a9aab11684b0858ac62d46fbdc90b45904",
+      "bytes": 27919
+    },
+    "cwtwb/__pycache__/formula_validator.cpython-311.pyc": {
+      "sha256": "259b8b481b7ea33985401e76d8c53f1d38dc3ff0ffeeb4bf892ecfe1b69b51c9",
+      "bytes": 9933
+    },
+    "cwtwb/__pycache__/formula_validator.cpython-314.pyc": {
+      "sha256": "278b847f43db90a6e17b67e30f0aceed5648395823dc1ccea7b602e12976b46f",
+      "bytes": 9856
+    },
+    "cwtwb/__pycache__/gallery.cpython-311.pyc": {
+      "sha256": "9476cce28703dbb7b04270ffcf009c52a2ec233ba0821c674552438a5943fcf8",
+      "bytes": 20156
+    },
+    "cwtwb/__pycache__/gallery.cpython-314.pyc": {
+      "sha256": "e8765355001ccba4dc59d53e8eb9279d324142ceda97023f8769fd38d8513f41",
+      "bytes": 18663
+    },
+    "cwtwb/__pycache__/hyper_relationships.cpython-311.pyc": {
+      "sha256": "b285a6b36cbeda5957eeaa6c3676ea414a771df3b65628972103b6fcfdaf7a47",
+      "bytes": 4239
+    },
+    "cwtwb/__pycache__/hyper_relationships.cpython-314.pyc": {
+      "sha256": "03fbad0f80377869a438a37031b08c017f30a7957c850969863ef84aa36f740b",
+      "bytes": 3527
+    },
+    "cwtwb/__pycache__/layout.cpython-311.pyc": {
+      "sha256": "44b4979643c5e30208de2a097e19b52f4f27a11e43e9c5f3e23c28d2f5f5b0c2",
+      "bytes": 44048
+    },
+    "cwtwb/__pycache__/layout.cpython-314.pyc": {
+      "sha256": "1e1045bf364666793a2602380f235cdc9b02d1e44b171282418425ca7da7ed6c",
+      "bytes": 44927
+    },
+    "cwtwb/__pycache__/map_selection.cpython-311.pyc": {
+      "sha256": "6c3027d7d7146716f59ced709a1aa0c7b74d2ead6b883509e6feb70f85795ffd",
+      "bytes": 3699
+    },
+    "cwtwb/__pycache__/map_selection.cpython-314.pyc": {
+      "sha256": "296d52c83ac18dbff043da3555648b542c50734070c46ecd0517860859e9e9cb",
+      "bytes": 3365
+    },
+    "cwtwb/__pycache__/mcp_server.cpython-311.pyc": {
+      "sha256": "5aebeb51a032df18bcfa3a26b79014e02166c0381d955e507ccaa092b375032b",
+      "bytes": 5151
+    },
+    "cwtwb/__pycache__/mcp_server.cpython-314.pyc": {
+      "sha256": "2975ced759fd4a36e8dd32d8bc3613cc203b8ed2d2f3183cec3c9c2cd362b405",
+      "bytes": 5575
+    },
+    "cwtwb/__pycache__/measure_aliases.cpython-311.pyc": {
+      "sha256": "d6070d2314677b6612d3e421c03a431b8018edf9ea1a1a42322d286cc5d2bfb2",
+      "bytes": 4243
+    },
+    "cwtwb/__pycache__/measure_aliases.cpython-314.pyc": {
+      "sha256": "6631973183b2da1070680f35e6b0b7300cb3ab0a1b3fa14151c0d27774f7337f",
+      "bytes": 3726
+    },
+    "cwtwb/__pycache__/migration.cpython-311.pyc": {
+      "sha256": "828b65cfe8d009b62c0d3a045f32b58dd3dbc51e0dd8ec8b5d0c38373c413c1e",
+      "bytes": 70721
+    },
+    "cwtwb/__pycache__/migration.cpython-314.pyc": {
+      "sha256": "e5552897515f986507012061181db75dd6d078c31e8c919a027bba9cc446342f",
+      "bytes": 68782
+    },
+    "cwtwb/__pycache__/native_encodings.cpython-311.pyc": {
+      "sha256": "32a626b58a214504304db9ef953924ac3ea15e4f8a437479fbd8174d3cb41ba4",
+      "bytes": 29453
+    },
+    "cwtwb/__pycache__/native_encodings.cpython-314.pyc": {
+      "sha256": "28d4a2e00b010db768542a128d4d797cb3f831f7b3bd2afb985ce182f51b0c51",
+      "bytes": 27295
+    },
+    "cwtwb/__pycache__/schema_order.cpython-311.pyc": {
+      "sha256": "6bcb002ab803973265e28a1c8d70c1b970d9ac8e6d9fec1afd6bb632069db24d",
+      "bytes": 13098
+    },
+    "cwtwb/__pycache__/schema_order.cpython-314.pyc": {
+      "sha256": "771db25173f89c550f6a1678e920c34deefe0a32ce027cbf8db5c77e3179ab77",
+      "bytes": 12250
+    },
+    "cwtwb/__pycache__/server.cpython-311.pyc": {
+      "sha256": "bb2b6fc28bf55569f3fcd3701787527bdacb6433f2813372eea3e95c3212f7a7",
+      "bytes": 3393
+    },
+    "cwtwb/__pycache__/server.cpython-314.pyc": {
+      "sha256": "7a18a1ac463e0982df1fc2fa4c79a7ce098a837e44049f48df0f9f3cbb788cb8",
+      "bytes": 2649
+    },
+    "cwtwb/__pycache__/shape_assets.cpython-311.pyc": {
+      "sha256": "1bd491b7c2a9387a466c413d2d01dd4df05214311fad62f09bbf88c925947028",
+      "bytes": 8107
+    },
+    "cwtwb/__pycache__/shape_assets.cpython-314.pyc": {
+      "sha256": "3998be162f6594a3d4c66fdf8c8a0944e678a1843c2c96ac046b5e3d62b50ec3",
+      "bytes": 7948
+    },
+    "cwtwb/__pycache__/time_series.cpython-311.pyc": {
+      "sha256": "b6e8a240535afc20f0d6fb9cb23dea2cd5e3ebba79b9b566e4d18e4335054228",
+      "bytes": 7384
+    },
+    "cwtwb/__pycache__/time_series.cpython-314.pyc": {
+      "sha256": "3389f069681616aff924410f3f5a79bfd45013ebbf9d954a8d036347a51e0c58",
+      "bytes": 6741
+    },
+    "cwtwb/__pycache__/twb_analyzer.cpython-311.pyc": {
+      "sha256": "243774016ade6206ebbf6966cbd6ff5776e84f6a4bd11edfca87fd07c46de65b",
+      "bytes": 24475
+    },
+    "cwtwb/__pycache__/twb_analyzer.cpython-314.pyc": {
+      "sha256": "92f1c64b0a51e569bda785618ead405a105034671ae7ba67b08c7741f26b510c",
+      "bytes": 24879
+    },
+    "cwtwb/__pycache__/twb_editor.cpython-311.pyc": {
+      "sha256": "a9b5452cd6ef5bab1f226f941e77b895fc35c82b8f6fc39b132779e848f9970d",
+      "bytes": 214600
+    },
+    "cwtwb/__pycache__/twb_editor.cpython-314.pyc": {
+      "sha256": "23d52bf00e31d337614455d9d528e046bc0eed3b2aa872e7e5e29f4437362ec6",
+      "bytes": 212787
+    },
+    "cwtwb/__pycache__/validator.cpython-311.pyc": {
+      "sha256": "2d3eab39a5e9109ef2f97eaa105fb6b27dca4e6c3e13ac9e359220cd7b5c2147",
+      "bytes": 21435
+    },
+    "cwtwb/__pycache__/validator.cpython-314.pyc": {
+      "sha256": "5ce00d6752ba3867c76873843525d25e08f2272934fd7c1ae4e95d1c4c62d50b",
+      "bytes": 21913
+    },
+    "cwtwb/action_filter_initialization.py": {
+      "sha256": "01204ac6764495106c4f3975f02dee615c448194199dca4073d74cd0b3ff8efd",
+      "bytes": 8541
+    },
+    "cwtwb/blending.py": {
+      "sha256": "5ab7baa3be3c3b4f1a9668cde7c27caf85bef3691f5a335836b5511134c5935d",
+      "bytes": 6836
+    },
+    "cwtwb/calculated_field_audit.py": {
+      "sha256": "4d1c0b553c111aa92b5ffac35cb63a60e5f33fee668f93307af6175fe0bb7c31",
+      "bytes": 5745
+    },
+    "cwtwb/capability_registry.py": {
+      "sha256": "7abfcf0517e3abfeee17abe6f2bf3eadf1f4960452ec79971880ead1943faec0",
+      "bytes": 34889
+    },
+    "cwtwb/charts/__init__.py": {
+      "sha256": "11fc501e4825d1d0c181b71f018b705bbbc35e0187ac1345ce9acae9e43a4a3f",
+      "bytes": 37437
+    },
+    "cwtwb/charts/__pycache__/__init__.cpython-311.pyc": {
+      "sha256": "7b95da996fe73566ca5140a7f65db63b0719e241e33eb2d73ac7899a5a46ed26",
+      "bytes": 49047
+    },
+    "cwtwb/charts/__pycache__/__init__.cpython-314.pyc": {
+      "sha256": "808aec398b5880c98cf317a2deb69a8e84491aac3a25b5dd847cf8da5679e1a4",
+      "bytes": 47420
+    },
+    "cwtwb/charts/__pycache__/builder_base.cpython-311.pyc": {
+      "sha256": "6775d7b388b15a4f9faf3658169a5bd025c8682ee3a985f9b086b5c7dc2e2f48",
+      "bytes": 130699
+    },
+    "cwtwb/charts/__pycache__/builder_base.cpython-314.pyc": {
+      "sha256": "92c6b6b09f3368f6c1a800a53ea92d2398042066c8046bddf47c8066d47ceb54",
+      "bytes": 132168
+    },
+    "cwtwb/charts/__pycache__/builder_dual_axis.cpython-311.pyc": {
+      "sha256": "1f3dafe5d3d8924c5e419c39ee3b7b29b011b801ff5192cb2b446f9fbc1f0244",
+      "bytes": 35412
+    },
+    "cwtwb/charts/__pycache__/builder_dual_axis.cpython-314.pyc": {
+      "sha256": "711b245af8540ffbd47b1e3c7430a971ba2e67b07d537903298cdfffec4ba4dc",
+      "bytes": 36205
+    },
+    "cwtwb/charts/__pycache__/builder_layered.cpython-311.pyc": {
+      "sha256": "9e206ca1b3af06918bfd727057501ef3a2e99adb0a3259bc10e7fc85b551fe48",
+      "bytes": 59433
+    },
+    "cwtwb/charts/__pycache__/builder_layered.cpython-314.pyc": {
+      "sha256": "cfcd080feb099b24fd52628625b36f361bef8ef23501e81303300fb89214fdf7",
+      "bytes": 56812
+    },
+    "cwtwb/charts/__pycache__/builder_table.cpython-311.pyc": {
+      "sha256": "862c4c4960e742bef30506bb54583886198c97f37356090b17638daefb65af92",
+      "bytes": 17361
+    },
+    "cwtwb/charts/__pycache__/builder_table.cpython-314.pyc": {
+      "sha256": "71fd28e8345b4eefc89e53902b04da309021ac59599153c15e03609515213fc8",
+      "bytes": 18088
+    },
+    "cwtwb/charts/__pycache__/custom_labels.cpython-311.pyc": {
+      "sha256": "c150f2ac92e99e1ddaa9e8f8d31ee3eb915772bac6e1d28b153638b5d7e30b3f",
+      "bytes": 13595
+    },
+    "cwtwb/charts/__pycache__/custom_labels.cpython-314.pyc": {
+      "sha256": "da89943fc4150cbe26043eebf9f43d14b74c4c1b9110e78b4989f8231041672f",
+      "bytes": 12241
+    },
+    "cwtwb/charts/__pycache__/dispatcher.cpython-311.pyc": {
+      "sha256": "6a75e84f2e90009d0b5e40acc85e433ff135691b804cd611929a07f0a4e8a2fa",
+      "bytes": 16511
+    },
+    "cwtwb/charts/__pycache__/dispatcher.cpython-314.pyc": {
+      "sha256": "62a65e3d4a559908878a1cacbad46e994237abe7de85d445551596ecea2bd72a",
+      "bytes": 17282
+    },
+    "cwtwb/charts/__pycache__/helpers.cpython-311.pyc": {
+      "sha256": "3c4dfa5510fa9be8ca383624cb49ae503a5df41ecbf82b4333723bb48bbace60",
+      "bytes": 42477
+    },
+    "cwtwb/charts/__pycache__/helpers.cpython-314.pyc": {
+      "sha256": "ff557518f7deac7052426bc5eec07c3614e841f91fab3dcc28848869ec9b2710",
+      "bytes": 40712
+    },
+    "cwtwb/charts/__pycache__/showcase_recipes.cpython-311.pyc": {
+      "sha256": "73b532012380d838c206331d47ecb1868634b31c70e05a0306bf53c913e64442",
+      "bytes": 19613
+    },
+    "cwtwb/charts/__pycache__/showcase_recipes.cpython-314.pyc": {
+      "sha256": "06aa8ac34e8d622e08a7258ef17a9b76121dfffd3d5a6b30a35a9632cbdd2856",
+      "bytes": 20775
+    },
+    "cwtwb/charts/builder_base.py": {
+      "sha256": "0a8dfefd2758018edb211245d478533135fd5eb698478c69f3ca08ebf9eea607",
+      "bytes": 119742
+    },
+    "cwtwb/charts/builder_dual_axis.py": {
+      "sha256": "c3e46df48c9333127bf4d4fbb543b7dff4fa56d64291cc937c1428aaef73804b",
+      "bytes": 34245
+    },
+    "cwtwb/charts/builder_layered.py": {
+      "sha256": "012fc2e7dfe9f7937cd20405744a4a750a160e7462ff7cb2c11cd9efd3bb452f",
+      "bytes": 43863
+    },
+    "cwtwb/charts/builder_table.py": {
+      "sha256": "91bf00c4a1d1b6a12ebd5f24dffc93285a3d456ed688f26343449afc78284ead",
+      "bytes": 15080
+    },
+    "cwtwb/charts/custom_labels.py": {
+      "sha256": "27c684a58c6ffabd8e806931c120d226ab07d90aba22112cf65ee5ea38d4f492",
+      "bytes": 10241
+    },
+    "cwtwb/charts/dispatcher.py": {
+      "sha256": "cb188abc38563dd03a7964d23b4971e6869515b60f411e7e393c0a4f0a59f0ed",
+      "bytes": 17896
+    },
+    "cwtwb/charts/helpers.py": {
+      "sha256": "d86a76c7003353a22b96697937549544fdf88a95fbdae7702efb022295cc79b4",
+      "bytes": 32980
+    },
+    "cwtwb/charts/showcase_recipes.py": {
+      "sha256": "31c695f79f69353dc3bee8288db1474158a39af9eb5368133d701ea08a193b66",
+      "bytes": 16239
+    },
+    "cwtwb/cli.py": {
+      "sha256": "a14531f307c13ecc2ff0b4b1521277d0a995802b5b39c1065095c73904250199",
+      "bytes": 13109
+    },
+    "cwtwb/combined_sets.py": {
+      "sha256": "b12ac406dad81ded5d0204b8f54417a10e8c59612b37231c69cf1eaec69fce7f",
+      "bytes": 2374
+    },
+    "cwtwb/commands/__init__.py": {
+      "sha256": "70a3a8cfd14b8b6d3e54aaa563a2fb1a2be0f1ace0eb7d2e3bc2aac1a98d46db",
+      "bytes": 52
+    },
+    "cwtwb/commands/__pycache__/__init__.cpython-311.pyc": {
+      "sha256": "099ff5ab771bdde9cadcd1d6fe0335e62aa01ce3bd99fa7f4fb0d12f09f25906",
+      "bytes": 233
+    },
+    "cwtwb/commands/__pycache__/__init__.cpython-314.pyc": {
+      "sha256": "0c330608fa8bca054439c0c9dc1afb44b182bd8cab646e517299b1be7755ffb9",
+      "bytes": 224
+    },
+    "cwtwb/commands/__pycache__/common.cpython-311.pyc": {
+      "sha256": "f8391d0ab5520fcadcb4fb1d11180494b222ac072bf788665d6a180a289379bf",
+      "bytes": 7884
+    },
+    "cwtwb/commands/__pycache__/common.cpython-314.pyc": {
+      "sha256": "01eb62a28bdf1031ee20721ea3e7285e79f0f889680797766e46da9b87658f3d",
+      "bytes": 8607
+    },
+    "cwtwb/commands/__pycache__/convert.cpython-311.pyc": {
+      "sha256": "acd2245697b2c542d15be6181dddd514954c5336af443528922857972985e2bb",
+      "bytes": 698
+    },
+    "cwtwb/commands/__pycache__/convert.cpython-314.pyc": {
+      "sha256": "6edea0f7f3a52e09f6c0a21fe9c403eac48ac283d5f370f9d525127a0418f0ee",
+      "bytes": 640
+    },
+    "cwtwb/commands/__pycache__/info.cpython-311.pyc": {
+      "sha256": "d2432d0e7e7f3b4a75a311e2b83ea0c38ca420d0fc2e69a520d244f55a7e9cca",
+      "bytes": 4902
+    },
+    "cwtwb/commands/__pycache__/info.cpython-314.pyc": {
+      "sha256": "22d2f18bb8e62eaa8be914a0556deb001e0d522019e430ee6926aea90b577499",
+      "bytes": 4690
+    },
+    "cwtwb/commands/__pycache__/readonly.cpython-311.pyc": {
+      "sha256": "f84c71670ea2040057e7608171c056b41d492224149566a517357ba5b320ac10",
+      "bytes": 7903
+    },
+    "cwtwb/commands/__pycache__/readonly.cpython-314.pyc": {
+      "sha256": "91fb79f5ae218654fc1ad10095936b26e1368a4ef01e59a87f73d73e18da33ad",
+      "bytes": 8272
+    },
+    "cwtwb/commands/__pycache__/run_spec.cpython-311.pyc": {
+      "sha256": "6463cb42e5650474ffb6ba899ac25a32d3f0399ed010dfc97127ba76050cfc7c",
+      "bytes": 20022
+    },
+    "cwtwb/commands/__pycache__/run_spec.cpython-314.pyc": {
+      "sha256": "20fad7b1279017c1252f14bfd846b7f369499958dc650150b915b28097ccf756",
+      "bytes": 19279
+    },
+    "cwtwb/commands/__pycache__/write.cpython-311.pyc": {
+      "sha256": "47ae1a0da8065895ec50851aec7e9b07b82538cc88d4e34959bb958789ff0789",
+      "bytes": 9618
+    },
+    "cwtwb/commands/__pycache__/write.cpython-314.pyc": {
+      "sha256": "e3b0c8d8a6e1792c9d3fcd64b69d87f816c6fcf77e5ab46dd11cb39fca79d2e6",
+      "bytes": 11249
+    },
+    "cwtwb/commands/common.py": {
+      "sha256": "b7c306c3b8c4d72ba43b5204725dddeb5c716eab48857af9ae986a3a30d70b97",
+      "bytes": 4215
+    },
+    "cwtwb/commands/convert.py": {
+      "sha256": "ddd5b6fafaa11a751b814ee58694545edf0d6b642970c7375e0b03eeef77f412",
+      "bytes": 260
+    },
+    "cwtwb/commands/info.py": {
+      "sha256": "1ac2f31b73952009c7cc1bdea06e3aae364c83f605931596192ebbc215433dda",
+      "bytes": 2778
+    },
+    "cwtwb/commands/readonly.py": {
+      "sha256": "8cc6581826946ff5764bc24bb6c0f65cba148c67dd2c521db126cf4ec0e885f2",
+      "bytes": 4370
+    },
+    "cwtwb/commands/run_spec.py": {
+      "sha256": "1b0fd2c0ed4564410df34cbff68a462b1118aa0dda095733ac671712957e5810",
+      "bytes": 12791
+    },
+    "cwtwb/commands/write.py": {
+      "sha256": "3ce6170b807770e3385c90ed87c5a91f048c7137c72b4452c71e6fb690935139",
+      "bytes": 6283
+    },
+    "cwtwb/config.py": {
+      "sha256": "6f335e759a942b2db514abd8803de634e0bbd8b6a0156ee3a3dd5d492a043232",
+      "bytes": 2543
+    },
+    "cwtwb/connections.py": {
+      "sha256": "f3e5d40f90bc62964147d77de7697b0e4a288e1a41f0f4844a8c7ab33b5b2185",
+      "bytes": 90583
+    },
+    "cwtwb/contracts/__init__.py": {
+      "sha256": "1fe0ff2852de8e0e9e86c0acf5e53d1cfcf5009d27275153af98ddbfb8076943",
+      "bytes": 113
+    },
+    "cwtwb/contracts/__pycache__/__init__.cpython-311.pyc": {
+      "sha256": "303d7152f10e713381a9b4abd0215bf69d6f6fbe2c8b001831eeb6c50fa6cacf",
+      "bytes": 323
+    },
+    "cwtwb/contracts/__pycache__/__init__.cpython-314.pyc": {
+      "sha256": "dbb82fdd9e1c5534cb8a48e6ac2d5a8219f13ba991893b14a81b53412c74acbb",
+      "bytes": 296
+    },
+    "cwtwb/contracts/__pycache__/table_column.cpython-311.pyc": {
+      "sha256": "954af62c736024d5b5dc93fe7bc0aacb96dcd7236e74eda732b9e048f562c738",
+      "bytes": 2249
+    },
+    "cwtwb/contracts/__pycache__/table_column.cpython-314.pyc": {
+      "sha256": "4d28b4c12cbf866ee671c14c6aebc3e6087a3f436a99ba7af6f2bfb62ad93e4b",
+      "bytes": 2057
+    },
+    "cwtwb/contracts/table_column.py": {
+      "sha256": "d01cd0720be19d9a8fcc6382aa16245c86b389e6f0033fcdd1602cafeadfbfa1",
+      "bytes": 1563
+    },
+    "cwtwb/conversion.py": {
+      "sha256": "5b3bd3f54c39c89fad8fe8d1a774388ee54fb3022b54cc57055da4978717e515",
+      "bytes": 22761
+    },
+    "cwtwb/dashboard_extensions.py": {
+      "sha256": "e89c6cc60e0990880c9259bfe93c198348ca862df500b016cdf88671f1a9a56b",
+      "bytes": 11520
+    },
+    "cwtwb/dashboards.py": {
+      "sha256": "fb10be5980a305353863ef6791e50c05bdeecd16878e2685502e9df81e886f36",
+      "bytes": 66808
+    },
+    "cwtwb/device_layouts.py": {
+      "sha256": "0eeac0d265d0ea8caf87b820af1ac5d63012249eb5765da6bbaac3275665fa42",
+      "bytes": 4501
+    },
+    "cwtwb/domain_range.py": {
+      "sha256": "353a311c1df3b5bcb5034bd05c7abae078f01c169374a82747e7b10b6ad74c68",
+      "bytes": 2639
+    },
+    "cwtwb/field_date_properties.py": {
+      "sha256": "9a350e039c1f1b21db01e21ffe93d97316d80a67f4cdb09796dd8977ec9166c2",
+      "bytes": 2080
+    },
+    "cwtwb/field_registry.py": {
+      "sha256": "ca6e9bbd002afbc5620bf1cebeacd827d4bfd4b7f3539a31d81c7c2daaf76b55",
+      "bytes": 23313
+    },
+    "cwtwb/formula_validator.py": {
+      "sha256": "13070509eab9290e86564399661622f4a9e1c08f5cf17d8c3ce714f80bf01004",
+      "bytes": 6518
+    },
+    "cwtwb/gallery/comparison.yaml": {
+      "sha256": "8dd4d13845851b93cfc3a3f9a68197be2a213070455768e9bc6bc5428c081a10",
+      "bytes": 576
+    },
+    "cwtwb/gallery/executive-briefing.yaml": {
+      "sha256": "3329c14c70c81a28325b0cdc0d5ec7a15b4a4b72d81f9f50344706e09ea1d0ff",
+      "bytes": 679
+    },
+    "cwtwb/gallery/executive-summary.yaml": {
+      "sha256": "17ccaac07f3475f4c6b44de79d657671b710ec11417df61a57dfd6ff0c71e61c",
+      "bytes": 687
+    },
+    "cwtwb/gallery/geo-explorer.yaml": {
+      "sha256": "0a1ae83ac5657241d2f61e31269e52ee7f21b995b938ffee9bdca427204a267e",
+      "bytes": 697
+    },
+    "cwtwb/gallery/kpi-detail.yaml": {
+      "sha256": "fa50a75754266c0def56f30715d8283276e817a1b283ed77d0442897168c103b",
+      "bytes": 744
+    },
+    "cwtwb/gallery/left-filter.yaml": {
+      "sha256": "0b7135d8671c70e7b2832f0f0709c530f72135ae35046215c2ab9746dbedc2ac",
+      "bytes": 881
+    },
+    "cwtwb/gallery/trend-analysis.yaml": {
+      "sha256": "ef8828100ab60fe4db1b4d4c82ed29409de93ef76258b650314acfab1a7fbf30",
+      "bytes": 805
+    },
+    "cwtwb/gallery.py": {
+      "sha256": "434ef113229d69dcecc6e2aa10466e27aca14364f641f7faf4e0d8db53cab710",
+      "bytes": 11653
+    },
+    "cwtwb/hyper_relationships.py": {
+      "sha256": "4bc47305093814d5a1847d58d6ec5237fe0f6145354dba707328550cf14fad47",
+      "bytes": 2828
+    },
+    "cwtwb/layout.py": {
+      "sha256": "7481880b0be00fd8a2237303823b050e34f0e49019febac8b51cf376fd49b1d2",
+      "bytes": 29024
+    },
+    "cwtwb/map_selection.py": {
+      "sha256": "52bd17ef0e5768dca64214ce3d7f1ce7abeff22797d6a0dc7ad14458e9374876",
+      "bytes": 2214
+    },
+    "cwtwb/mcp/__init__.py": {
+      "sha256": "dff38895a6d6d98d716218c3e78211f809714defed30952c79a2d7acb6abab0c",
+      "bytes": 86
+    },
+    "cwtwb/mcp/__main__.py": {
+      "sha256": "322c045ff7b050a7e212a0e44f8684f0b5e2f464f792203537f7ae6aae801c54",
+      "bytes": 141
+    },
+    "cwtwb/mcp/__pycache__/__init__.cpython-311.pyc": {
+      "sha256": "d278bea2d3cf2a0fcc950f91c7d64d32f0a40dc6b4b876265f3af30e81fda904",
+      "bytes": 268
+    },
+    "cwtwb/mcp/__pycache__/__init__.cpython-314.pyc": {
+      "sha256": "d9232346ad274c35112eb4fb84b8e5f6ef3b6993cc9ad7a9c109bfc779c3b96e",
+      "bytes": 261
+    },
+    "cwtwb/mcp/__pycache__/__main__.cpython-311.pyc": {
+      "sha256": "47d46c4480f45207d4060b143aff6be01b010fc628ad63ea59792a1d95c2b394",
+      "bytes": 350
+    },
+    "cwtwb/mcp/__pycache__/app.cpython-311.pyc": {
+      "sha256": "38109ff90405a85ea7d4b0f3528dcc129601a8aa58d52da5364c6ba465b9f571",
+      "bytes": 22470
+    },
+    "cwtwb/mcp/__pycache__/app.cpython-314.pyc": {
+      "sha256": "8bc7a00472d0c3ee9176981f707876645e85e9c7e0ccb573c6c5cc686b20f2a4",
+      "bytes": 23566
+    },
+    "cwtwb/mcp/__pycache__/resources.cpython-311.pyc": {
+      "sha256": "6e012101cc133f65d5066992c6da76a495ffbeea7a9d26c6a865733834fd16df",
+      "bytes": 876
+    },
+    "cwtwb/mcp/__pycache__/tools_validate.cpython-311.pyc": {
+      "sha256": "bd81a8b1ac9eefcf27a1752fca3f8631887551eea9e8a9247189167a00512ae0",
+      "bytes": 5379
+    },
+    "cwtwb/mcp/__pycache__/tools_validate.cpython-314.pyc": {
+      "sha256": "6c355cb13e3ab8c0e3b7aa881d1b88fd6ee7c8da5e40a242c6d23d99e5c2a04c",
+      "bytes": 5595
+    },
+    "cwtwb/mcp/__pycache__/tools_workbook.cpython-311.pyc": {
+      "sha256": "5b455f61decd4be7e2a6e3418eec0ee64335e53a03d6213c9e4622d2320cbcc6",
+      "bytes": 70735
+    },
+    "cwtwb/mcp/__pycache__/tools_workbook.cpython-314.pyc": {
+      "sha256": "ea1f1ead8651e07a7850b48c3679b2410e7dccfc3b6d2c05500dee7ca8649c13",
+      "bytes": 76867
+    },
+    "cwtwb/mcp/app.py": {
+      "sha256": "6f518c9da828b20181a2afa599997b5aab406d3a685cca2d7270c70f7542a475",
+      "bytes": 19183
+    },
+    "cwtwb/mcp/resources.py": {
+      "sha256": "5ccbbe6dd731071d94f60c67033d542c577ea85175b3bd5da2e5958b0d4c9859",
+      "bytes": 803
+    },
+    "cwtwb/mcp/tools_validate.py": {
+      "sha256": "22e39b13953100fcbcca63e37b1640ef6d7178a400aa8a990b7d02b0a4050287",
+      "bytes": 4632
+    },
+    "cwtwb/mcp/tools_workbook.py": {
+      "sha256": "4fcef690720469fbe2ccf226e825e7b4921f96e0e56e5dbb8ddefa17c7a6c1c5",
+      "bytes": 58500
+    },
+    "cwtwb/mcp_server.py": {
+      "sha256": "cc9fed3def0620af54dbd45905cf5b5e9f8a74535e7ca8cc4cda97122d2448b4",
+      "bytes": 5124
+    },
+    "cwtwb/measure_aliases.py": {
+      "sha256": "ba05054e678f3b50d5bee424f5dd1a1b9a09175c2e584a53d253fc32b0af72ab",
+      "bytes": 2500
+    },
+    "cwtwb/migration.py": {
+      "sha256": "b425dc63fc92a65005faed585e9c0e343aa41871f1811e64a40477ee6269b783",
+      "bytes": 52035
+    },
+    "cwtwb/native_encodings.py": {
+      "sha256": "370bce6cd6f619209a6bc80bb67c5792d2a7b2409ec87e90a57784e0c15b3c7a",
+      "bytes": 22278
+    },
+    "cwtwb/references/empty_template.twb": {
+      "sha256": "deae5da7c4d8c30e5164c3c8aa0985dfca9a4d19e258a5b02a7c2b932008ded3",
+      "bytes": 25271
+    },
+    "cwtwb/references/Sample - EU Superstore.hyper": {
+      "sha256": "c0eb2b046a4fbb8beff32cbbfb542be70cd70856cf4f804c84875de2db224200",
+      "bytes": 851968
+    },
+    "cwtwb/references/Sample _ Superstore (Simple).xls": {
+      "sha256": "94a72b67ddc5bfadd0032e81bc26daa31c8c7fdd28e5a76c32bb7e1989dd7c70",
+      "bytes": 1048064
+    },
+    "cwtwb/references/Sample _ Superstore.hyper": {
+      "sha256": "abe37fe135dc710d622d0d11892234acb08e9ac6bfd8bcafe7fafdb77d1a2b0c",
+      "bytes": 917504
+    },
+    "cwtwb/references/superstore.twb": {
+      "sha256": "a61f7eca9c153fa1f69a27c10d632c84004287f44cad9fada5a2212328aa74fc",
+      "bytes": 35364
+    },
+    "cwtwb/references/tableau_all_functions.json": {
+      "sha256": "795042fd80f4ac9d3a5f8390506f110d61431f91bdb27f63f4e5d747cb120e80",
+      "bytes": 87561
+    },
+    "cwtwb/schema_order.py": {
+      "sha256": "b8e0a038ca8badc9b8cb4cf32c4a960afba55ba99f27c8a22baf16393962b834",
+      "bytes": 8901
+    },
+    "cwtwb/server.py": {
+      "sha256": "47a8465dcf5b6929b7d911a9176aa996092a7abae1b3333b2247dc1818933a18",
+      "bytes": 2121
+    },
+    "cwtwb/shape_assets.py": {
+      "sha256": "ad3ae84c62787bf512bacc1136f7079fca12f494979702353c4695ad8c6941ba",
+      "bytes": 4926
+    },
+    "cwtwb/skills/calculation_builder.md": {
+      "sha256": "84098436fdb17b415ae04e8b51f8c33c928705a9925efdbc0223507b8f53f90a",
+      "bytes": 12355
+    },
+    "cwtwb/skills/chart_builder.md": {
+      "sha256": "63e398548ad043edc766b2567e8f9bbae81cb2212c481887ac6b7e6d0f01c9a9",
+      "bytes": 20643
+    },
+    "cwtwb/skills/dashboard_designer.md": {
+      "sha256": "81fb5520a6df30cfa22b6a0cf8208638e153c779af288bcd32ca12eee34665de",
+      "bytes": 10937
+    },
+    "cwtwb/skills/data_quality.md": {
+      "sha256": "d1c2c1d93cf5769de171e60e82febc9469ea6861427fc29783602750976d210d",
+      "bytes": 3053
+    },
+    "cwtwb/skills/design_advisor.md": {
+      "sha256": "acfe892f3eaf3c6ba6acfbc9e07aa8a33dcc15db5be54ac6449fecc9c53f36d1",
+      "bytes": 13528
+    },
+    "cwtwb/skills/documentation.md": {
+      "sha256": "eb4cb98de5b0232ada70daed24f0ec088fd0d7e15edc4cdced92c3aa1588850c",
+      "bytes": 2526
+    },
+    "cwtwb/skills/formatting.md": {
+      "sha256": "00786af67651b7966791871433554d2f6abca511117b16121fa1f0db4c0b5008",
+      "bytes": 6967
+    },
+    "cwtwb/skills/governance.md": {
+      "sha256": "1f15c5c8b93874eae56e624e49d236759ca18a079042a77ad53c7de4a29b9a86",
+      "bytes": 2992
+    },
+    "cwtwb/skills/metric_blueprint.md": {
+      "sha256": "befeb66f4e5cf42aa8c563c9c56dab302ca3cca3da6a5b7a67fe8ecebc6cc9c3",
+      "bytes": 2966
+    },
+    "cwtwb/skills/quality_review.md": {
+      "sha256": "d7f1e01015b525096a912c643a2c2520d38c4f80aa6e0d10f258a4542aac7f90",
+      "bytes": 3995
+    },
+    "cwtwb/skills/README.md": {
+      "sha256": "fa02304b00f6fcd2a6dbfb33c1b7d0c6a2d9a3b7522a4bb715a4ddac3c61fdfe",
+      "bytes": 4111
+    },
+    "cwtwb/skills/synthetic_data.md": {
+      "sha256": "4a3db49c0d3d0c08af89637f7d2d05254d6c42050f9dd98b7e61e60247410f04",
+      "bytes": 2555
+    },
+    "cwtwb/skills/validation.md": {
+      "sha256": "a422414f25a41ef0906c0f4ad78294f831a28e466e4ce91fb9a9a90f52df2355",
+      "bytes": 3954
+    },
+    "cwtwb/time_series.py": {
+      "sha256": "d2f78f4e3916c49e66b7e2d0c20f5e8a9ca2c50ead75d0a24088b503359c1a18",
+      "bytes": 4872
+    },
+    "cwtwb/twb_analyzer.py": {
+      "sha256": "c4c21218b0e8ad56bced2e46e5516b3c238dc45dacd89e56a37e2f7bbd9a9639",
+      "bytes": 22066
+    },
+    "cwtwb/twb_editor.py": {
+      "sha256": "c7232bf5cb74bac5a4b4cc9717898e0dcbffcb52a32ea768319244ae79b6c425",
+      "bytes": 180356
+    },
+    "cwtwb/validate/__init__.py": {
+      "sha256": "bc2d57cfa83e681b2e1d2e1d1f8ebb068a9e940dda6ba52e44f160cf4da0a863",
+      "bytes": 195
+    },
+    "cwtwb/validate/__pycache__/__init__.cpython-311.pyc": {
+      "sha256": "e39c19207db7bd74109a857cc8152710e5f88d6347faf7faaeaec202b3f07fa7",
+      "bytes": 393
+    },
+    "cwtwb/validate/__pycache__/__init__.cpython-314.pyc": {
+      "sha256": "1ff8ad3fe99ae2ee2d896e62749bd77d81558b8635e3bc67e2b751b927ab922b",
+      "bytes": 351
+    },
+    "cwtwb/validate/__pycache__/uploader.cpython-311.pyc": {
+      "sha256": "e432c0a06c6271c3b720f9a2e637d82193ff0e824ff84facba46e62efb790755",
+      "bytes": 36863
+    },
+    "cwtwb/validate/__pycache__/uploader.cpython-314.pyc": {
+      "sha256": "c09fb626bb7ae6928929cf2bdbfaf98948fd2bac41db9205f21b7162288b2d27",
+      "bytes": 36008
+    },
+    "cwtwb/validate/uploader.py": {
+      "sha256": "b2250c8d309c8c0c2fd2a7c11afe4cf8ae0e913423f4a36d40090a59b11f98ee",
+      "bytes": 27948
+    },
+    "cwtwb/validator.py": {
+      "sha256": "0fb697946c618f4319451201da301141bcecb8d4c63d3aaa6dfad9130ed437d0",
+      "bytes": 17388
+    }
+  },
+  "tracked_files": {
+    ".env.example": "593dd427624ee0f7aeb88a6d3d827c82cd0eb9a2183a4151c2ed23dd2de9aa74",
+    ".github/workflows/test.yml": "995393b551f15e0ec78e8882b7536a946e50746db047d2353c595afad6d40395",
+    ".github/workflows/update-schemas.yml": "eedf782c2072c78c9dad6bce0a389ecb2e5ae6f8a4be1adcf27af128259fb00a",
+    ".gitignore": "c08dc84dc29b48be9a0f990af3fdb01951b5cf82566f5674d044764088c9f4e9",
+    "CHANGELOG.md": "c3512d522ac36c902660292d56bafdf4c41a13e7475d95fea23f24f29b319107",
+    "CONTRIBUTING.md": "7b336bd9b680ca1be8e98c1c4fc926c80752e06ea75c1e39c94c18a897d7f12b",
+    "LICENSE": "461a05a8828121860e7064ee856f5695f361233a43ca59e43773a5a2b78ef18e",
+    "README.md": "1cde28fffcaf21b1d5a53bf2e638b28f353fc48166b1fc8eea47e6a757734e53",
+    "README.zh-CN.md": "1c1c80e2879c1c3b30f77d1cfbed7068b5d13e60d1bc6f1101dfeece7ad7bc75",
+    "docs/PROGRESS-sdk-gaps-batch17.md": "cdb123416b558f85054e5d6b305b8fa4c10e4d66a15e36bca000486e0f408564",
+    "docs/PROGRESS-text-table-calc-overrides.md": "a74b3a030a4126d00294e9fbeb088540b8aa710e2def594f6cfa6d8ce7936601",
+    "docs/assets/readme/hero.png": "65948e678ff6e947f01c9cb3470be000544cfdfabb66cc71fb07d42be096ad68",
+    "docs/assets/readme/logo.png": "47cf7859529ff2818b4c3e390740c28bf2f1ff34c959d54e1c9d28a623685e6f",
+    "docs/assets/readme/output_compressed.gif": "83af61ca686d2486b9b9375dbeb01951c0935c046b8a0207cdd54065b600e6e7",
+    "docs/case-driven-enhancements.md": "ec8dbb3a60e53259e87beb0f58944e7909175fbbbdda3a6e37ef202290ef05fb",
+    "docs/guide.md": "e588fc71058c5ff7562e56bdc7675d2b5dbc1890b20ccedbde98c8da97bb2e1b",
+    "docs/guide.zh-CN.md": "38fe14b30f35af998d3fe2fc89f2393e688e93d7b5532c5648b628de4414e1bd",
+    "docs/map-and-web-authoring.md": "168c1cd152be17a0ce3d37a7bffdea9d0115a8c81b488731693d868d5f7d4c23",
+    "docs/tableau-validation-api.md": "3d0cbaf865f9ef016bcb8bab63d3716531989abaf119ff9d373b0fc755d00f02",
+    "examples/README.md": "cca3b64cb1e4fdfd4fdf5ef5ca3a5e624db4d2badb8ee10f8fccabc37016a8e0",
+    "examples/csv_dashboard_test/build_csv_dashboard.py": "f27bf2f6c15f856d82d495c82f0e06b1f851c07321cbff6ba0b58374f8882f14",
+    "examples/csv_dashboard_test/sample_data.csv": "a3f2517753f46c7e4edfc4e7e60074a5c8badeeef28f561b518fe2e9498dcb9a",
+    "examples/csv_dashboard_test/test_bundle_all_formats.py": "2fd2282f81c39f595f7157951b0dbedf177b08d4725be68bb3bb3b230bb26e96",
+    "examples/donna_case_c_showcase.py": "8cd878fb0f30ad161df00f5f91b4627115c008b25d4338b26dcef84a9c8e52c7",
+    "examples/donna_pilot_showcase.py": "7d950dc59e9dc66b601192edaaaee0fadfa27c5c855cdb2f09847428f254ce3f",
+    "examples/hyper_and_new_charts.py": "cc8f838267c62f599975985e350e52380c35a78afd9bd4e4cc29261a9f31eba6",
+    "examples/layouts/layout_c1.json": "b5232140905847b7b200c1fbab89e3814addd172feefd6d8a5a5a9ae53d308a9",
+    "examples/layouts/layout_c2.json": "05190902fdf1bbeb0b5fb215842966a53ed8c7565d10521749ad4f7c9bef17ff",
+    "examples/layouts/layout_executive.json": "6ea2bbc4ffb59318cc59e72df3a0b26c05bc93404018b91e6c01e57a3294b5fa",
+    "examples/migrate_workflow/5 KPI Design Ideas (2).twb": "34368d96ed2a5b9feb7dc83658ee5bb76b3a4673b957f4b4929adf9e8adf8cf6",
+    "examples/migrate_workflow/README.md": "a2fe29248e5209fd5718b93d53e233c3c2eb9bc949024f6843afd0cb45e732d5",
+    "examples/migrate_workflow/Sample - Superstore.xls": "ff64ebd8a0e89affb4048dae5d3c7ba8970a4676b3d76d453898bbf9ac4bda25",
+    "examples/migrate_workflow/prompt.txt": "92c5ab1f56e3160d6f10e11f1c1bfa844a417b52f7dd1a8276d3e524db066001",
+    "examples/migrate_workflow/test_migration_workflow.py": "3aecad7f3f6fd21aa9cddfbc9f4a89d809c40049d84b26debf81f846f038544f",
+    "examples/profiles/superstore.json": "bfd87235c90a57d71d6168ea25aa2b710c1c89f41beda6a6a25b0931275b5dda",
+    "examples/prompts/README.md": "258b38defd5044e62d8e22d38c85236e1ca7694fc16e2bc62f782b162c77d2e2",
+    "examples/prompts/all_supported_charts_showcase_en.md": "ee9902314e88942763f1c5a759c9339f9ae29bab2bd282c604b33e7f0193fb79",
+    "examples/prompts/demo_auto_layout4_prompt.md": "582cea987a3e9dde4f7724e1787558ba234168b478e8287c2298cc4e3eff6941",
+    "examples/prompts/demo_auto_layout_prompt.md": "ac6e18b46831c7973be1858f33cfe9d0e1b2b42f7759b6d5ba86707091aa2393",
+    "examples/prompts/demo_c2_layout_prompt.md": "c631c0b7741bfeaa2d9572d21f829a6567f46c72c5c6887fe1f6f193474c2e51",
+    "examples/prompts/demo_declarative_layout_prompt.md": "4230754ac97d3c925480fa37f41cee5a191a73ca3266a65d59490a53d1823df7",
+    "examples/prompts/demo_simple.md": "c1b4b589254125fd4eedcabd3d99e5decac18220a8fbdc4a11e5050bdf7f9a48",
+    "examples/prompts/demo_worksheet_refactor_kpi_profit_prompt.md": "dcc6b46764af3ad735dab61b6a2f3aa70ae036302b57d6432521ef3dcaa1a1cd",
+    "examples/prompts/overview_business_demo.md": "19c18028a03153a1d45c3b81858843c33dad11c5729bc4d16ea57aad4a8e200f",
+    "examples/prompts/overview_natural zh_cn.md": "545c77a28d3f3925ea878f7e366d9fdb277cf90a6cb0ebae42e40255a3c59f73",
+    "examples/prompts/overview_natural_en.md": "9488e4b14786798591e8ee8ebaae9f558f74fad66f53bae3aa95fa6811bc7122",
+    "examples/prompts/test_parameter_prefix_bug.md": "75a3d47f4a3c9936f208eff522d9f93a6793b41a01def6bca34d9a4d044d8380",
+    "examples/screenshot2layout/dashboard 1.png": "032562b31073aaef90ae2e2ca9564479b7260c67fc431d44432c44d5b97fd05e",
+    "examples/screenshot2layout/dashboard 2.png": "1619db54bdd4c391d4b7492ffeb8f8ea5c8dc8569465fcb31e5897714f065a29",
+    "examples/screenshot2layout/layout_dashboard1.json": "a2dd07a22c8a9cb58814ee02bcdb26bdfdd83c3a7724c01ffb062e2bb8735b59",
+    "examples/screenshot2layout/layout_dashboard2.json": "7bc0cabd0bcd03b5616b2d50a479cc112cf3bdcf3b6eee94be06f7c6ef2319f7",
+    "examples/scripts/demo_all_supported_charts.py": "245f526267a01b8ce96913f1689bdfcb0301990db3b95857135a431379e1e737",
+    "examples/scripts/demo_all_supported_charts_mcp.py": "5c6b05a7a2d78e705aa8a1aec0bf5344acbe0ee775dac6abde27f23d3c228d19",
+    "examples/scripts/demo_auto_layout4.py": "92d88ae577b81458d949ccd973e73b0a7f416b6b0e37a238a542d0b265f4f1f6",
+    "examples/scripts/demo_connections.py": "2ca60fc40f140c58d93d9660f8398f3b3eb32f707468cbc7d9b553343382e692",
+    "examples/scripts/demo_declarative_layout.py": "e12b2577588e05e369c9d7bc215fdccc21de88b54d4fd8e72ffe98397b2d9478",
+    "examples/scripts/demo_e2e_mcp_workflow.py": "ebf5d8f9a71f6bada26fa7af4b152db246ee782cca01d1e683ab509fdbd42e79",
+    "examples/scripts/demo_hyper_and_new_charts.py": "4b6a205bb6978a38898f4e90f1fc30a273d6cbd63b791906d42e8713397141bd",
+    "examples/specs/basic_cli.yaml": "9c47ab0eade9ddbb101e670f82c7ee0ee067434a374f5bc1a0c968d18a7012b9",
+    "examples/superstore_recreated/Exec Overview Recreated.twb": "6b070a84f506f85f9279197bbd025ced17bbc86a116e8955683cb307ac9666ac",
+    "examples/superstore_recreated/build_exec_overview.py": "1e541baa73b563617a884ccf7594ce914db79e7a8a645aca47a2657e4e8c3226",
+    "examples/superstore_recreated/screenshot.png": "f9968e8cdd101fe60ae5d307a7ef47b686f89b69988bf4c66e76c91c3f5b95d0",
+    "examples/worksheet_refactor_kpi_profit/5 KPI Design Ideas (2) - KPI Profit Worksheet Example.twb": "c093063a966359e10092f249935d76426fea3c159fca23384486e68d620d2e71",
+    "examples/worksheet_refactor_kpi_profit/5 KPI Design Ideas (2).twb": "34368d96ed2a5b9feb7dc83658ee5bb76b3a4673b957f4b4929adf9e8adf8cf6",
+    "examples/worksheet_refactor_kpi_profit/README.md": "d8ea29ea4667bcdc82fe783aeb29dd99d9ea0391b2f37d348830ae6a738b8b4a",
+    "examples/worksheet_refactor_kpi_profit/worksheet_refactor.py": "b823a755a7d57057b1ae45b2b202ead48695833440f0b827f1cf82cbae1b696e",
+    "mcp.json": "e8282dda73c0503f32fa740713dbaa172363c86f8282020316ffaa2ab0b1196a",
+    "pyproject.toml": "e07fd579c8f9b7e4976174b389050af0824e9dd255f168c9abac321339564af3",
+    "src/cwtwb/__init__.py": "cdc024ad49de77888e3af80bf649ad0b6c3828c556c198729b7722f286ad67c4",
+    "src/cwtwb/action_filter_initialization.py": "01204ac6764495106c4f3975f02dee615c448194199dca4073d74cd0b3ff8efd",
+    "src/cwtwb/blending.py": "5ab7baa3be3c3b4f1a9668cde7c27caf85bef3691f5a335836b5511134c5935d",
+    "src/cwtwb/calculated_field_audit.py": "4d1c0b553c111aa92b5ffac35cb63a60e5f33fee668f93307af6175fe0bb7c31",
+    "src/cwtwb/capability_registry.py": "7abfcf0517e3abfeee17abe6f2bf3eadf1f4960452ec79971880ead1943faec0",
+    "src/cwtwb/charts/__init__.py": "11fc501e4825d1d0c181b71f018b705bbbc35e0187ac1345ce9acae9e43a4a3f",
+    "src/cwtwb/charts/builder_base.py": "0a8dfefd2758018edb211245d478533135fd5eb698478c69f3ca08ebf9eea607",
+    "src/cwtwb/charts/builder_dual_axis.py": "c3e46df48c9333127bf4d4fbb543b7dff4fa56d64291cc937c1428aaef73804b",
+    "src/cwtwb/charts/builder_layered.py": "012fc2e7dfe9f7937cd20405744a4a750a160e7462ff7cb2c11cd9efd3bb452f",
+    "src/cwtwb/charts/builder_table.py": "91bf00c4a1d1b6a12ebd5f24dffc93285a3d456ed688f26343449afc78284ead",
+    "src/cwtwb/charts/custom_labels.py": "27c684a58c6ffabd8e806931c120d226ab07d90aba22112cf65ee5ea38d4f492",
+    "src/cwtwb/charts/dispatcher.py": "cb188abc38563dd03a7964d23b4971e6869515b60f411e7e393c0a4f0a59f0ed",
+    "src/cwtwb/charts/helpers.py": "d86a76c7003353a22b96697937549544fdf88a95fbdae7702efb022295cc79b4",
+    "src/cwtwb/charts/showcase_recipes.py": "31c695f79f69353dc3bee8288db1474158a39af9eb5368133d701ea08a193b66",
+    "src/cwtwb/cli.py": "a14531f307c13ecc2ff0b4b1521277d0a995802b5b39c1065095c73904250199",
+    "src/cwtwb/combined_sets.py": "b12ac406dad81ded5d0204b8f54417a10e8c59612b37231c69cf1eaec69fce7f",
+    "src/cwtwb/commands/__init__.py": "70a3a8cfd14b8b6d3e54aaa563a2fb1a2be0f1ace0eb7d2e3bc2aac1a98d46db",
+    "src/cwtwb/commands/common.py": "b7c306c3b8c4d72ba43b5204725dddeb5c716eab48857af9ae986a3a30d70b97",
+    "src/cwtwb/commands/convert.py": "ddd5b6fafaa11a751b814ee58694545edf0d6b642970c7375e0b03eeef77f412",
+    "src/cwtwb/commands/info.py": "1ac2f31b73952009c7cc1bdea06e3aae364c83f605931596192ebbc215433dda",
+    "src/cwtwb/commands/readonly.py": "8cc6581826946ff5764bc24bb6c0f65cba148c67dd2c521db126cf4ec0e885f2",
+    "src/cwtwb/commands/run_spec.py": "1b0fd2c0ed4564410df34cbff68a462b1118aa0dda095733ac671712957e5810",
+    "src/cwtwb/commands/write.py": "3ce6170b807770e3385c90ed87c5a91f048c7137c72b4452c71e6fb690935139",
+    "src/cwtwb/config.py": "6f335e759a942b2db514abd8803de634e0bbd8b6a0156ee3a3dd5d492a043232",
+    "src/cwtwb/connections.py": "f3e5d40f90bc62964147d77de7697b0e4a288e1a41f0f4844a8c7ab33b5b2185",
+    "src/cwtwb/contracts/__init__.py": "1fe0ff2852de8e0e9e86c0acf5e53d1cfcf5009d27275153af98ddbfb8076943",
+    "src/cwtwb/contracts/table_column.py": "d01cd0720be19d9a8fcc6382aa16245c86b389e6f0033fcdd1602cafeadfbfa1",
+    "src/cwtwb/conversion.py": "5b3bd3f54c39c89fad8fe8d1a774388ee54fb3022b54cc57055da4978717e515",
+    "src/cwtwb/dashboard_extensions.py": "e89c6cc60e0990880c9259bfe93c198348ca862df500b016cdf88671f1a9a56b",
+    "src/cwtwb/dashboards.py": "fb10be5980a305353863ef6791e50c05bdeecd16878e2685502e9df81e886f36",
+    "src/cwtwb/device_layouts.py": "0eeac0d265d0ea8caf87b820af1ac5d63012249eb5765da6bbaac3275665fa42",
+    "src/cwtwb/domain_range.py": "353a311c1df3b5bcb5034bd05c7abae078f01c169374a82747e7b10b6ad74c68",
+    "src/cwtwb/field_date_properties.py": "9a350e039c1f1b21db01e21ffe93d97316d80a67f4cdb09796dd8977ec9166c2",
+    "src/cwtwb/field_registry.py": "ca6e9bbd002afbc5620bf1cebeacd827d4bfd4b7f3539a31d81c7c2daaf76b55",
+    "src/cwtwb/formula_validator.py": "13070509eab9290e86564399661622f4a9e1c08f5cf17d8c3ce714f80bf01004",
+    "src/cwtwb/gallery.py": "434ef113229d69dcecc6e2aa10466e27aca14364f641f7faf4e0d8db53cab710",
+    "src/cwtwb/gallery/comparison.yaml": "8dd4d13845851b93cfc3a3f9a68197be2a213070455768e9bc6bc5428c081a10",
+    "src/cwtwb/gallery/executive-briefing.yaml": "3329c14c70c81a28325b0cdc0d5ec7a15b4a4b72d81f9f50344706e09ea1d0ff",
+    "src/cwtwb/gallery/executive-summary.yaml": "17ccaac07f3475f4c6b44de79d657671b710ec11417df61a57dfd6ff0c71e61c",
+    "src/cwtwb/gallery/geo-explorer.yaml": "0a1ae83ac5657241d2f61e31269e52ee7f21b995b938ffee9bdca427204a267e",
+    "src/cwtwb/gallery/kpi-detail.yaml": "fa50a75754266c0def56f30715d8283276e817a1b283ed77d0442897168c103b",
+    "src/cwtwb/gallery/left-filter.yaml": "0b7135d8671c70e7b2832f0f0709c530f72135ae35046215c2ab9746dbedc2ac",
+    "src/cwtwb/gallery/trend-analysis.yaml": "ef8828100ab60fe4db1b4d4c82ed29409de93ef76258b650314acfab1a7fbf30",
+    "src/cwtwb/hyper_relationships.py": "4bc47305093814d5a1847d58d6ec5237fe0f6145354dba707328550cf14fad47",
+    "src/cwtwb/layout.py": "7481880b0be00fd8a2237303823b050e34f0e49019febac8b51cf376fd49b1d2",
+    "src/cwtwb/map_selection.py": "52bd17ef0e5768dca64214ce3d7f1ce7abeff22797d6a0dc7ad14458e9374876",
+    "src/cwtwb/mcp/__init__.py": "dff38895a6d6d98d716218c3e78211f809714defed30952c79a2d7acb6abab0c",
+    "src/cwtwb/mcp/__main__.py": "322c045ff7b050a7e212a0e44f8684f0b5e2f464f792203537f7ae6aae801c54",
+    "src/cwtwb/mcp/app.py": "6f518c9da828b20181a2afa599997b5aab406d3a685cca2d7270c70f7542a475",
+    "src/cwtwb/mcp/resources.py": "5ccbbe6dd731071d94f60c67033d542c577ea85175b3bd5da2e5958b0d4c9859",
+    "src/cwtwb/mcp/tools_validate.py": "22e39b13953100fcbcca63e37b1640ef6d7178a400aa8a990b7d02b0a4050287",
+    "src/cwtwb/mcp/tools_workbook.py": "4fcef690720469fbe2ccf226e825e7b4921f96e0e56e5dbb8ddefa17c7a6c1c5",
+    "src/cwtwb/mcp_server.py": "cc9fed3def0620af54dbd45905cf5b5e9f8a74535e7ca8cc4cda97122d2448b4",
+    "src/cwtwb/measure_aliases.py": "ba05054e678f3b50d5bee424f5dd1a1b9a09175c2e584a53d253fc32b0af72ab",
+    "src/cwtwb/migration.py": "b425dc63fc92a65005faed585e9c0e343aa41871f1811e64a40477ee6269b783",
+    "src/cwtwb/native_encodings.py": "370bce6cd6f619209a6bc80bb67c5792d2a7b2409ec87e90a57784e0c15b3c7a",
+    "src/cwtwb/references/Sample - EU Superstore.hyper": "c0eb2b046a4fbb8beff32cbbfb542be70cd70856cf4f804c84875de2db224200",
+    "src/cwtwb/references/Sample _ Superstore (Simple).xls": "94a72b67ddc5bfadd0032e81bc26daa31c8c7fdd28e5a76c32bb7e1989dd7c70",
+    "src/cwtwb/references/Sample _ Superstore.hyper": "abe37fe135dc710d622d0d11892234acb08e9ac6bfd8bcafe7fafdb77d1a2b0c",
+    "src/cwtwb/references/empty_template.twb": "deae5da7c4d8c30e5164c3c8aa0985dfca9a4d19e258a5b02a7c2b932008ded3",
+    "src/cwtwb/references/superstore.twb": "a61f7eca9c153fa1f69a27c10d632c84004287f44cad9fada5a2212328aa74fc",
+    "src/cwtwb/references/tableau_all_functions.json": "795042fd80f4ac9d3a5f8390506f110d61431f91bdb27f63f4e5d747cb120e80",
+    "src/cwtwb/schema_order.py": "b8e0a038ca8badc9b8cb4cf32c4a960afba55ba99f27c8a22baf16393962b834",
+    "src/cwtwb/server.py": "47a8465dcf5b6929b7d911a9176aa996092a7abae1b3333b2247dc1818933a18",
+    "src/cwtwb/shape_assets.py": "ad3ae84c62787bf512bacc1136f7079fca12f494979702353c4695ad8c6941ba",
+    "src/cwtwb/skills/README.md": "fa02304b00f6fcd2a6dbfb33c1b7d0c6a2d9a3b7522a4bb715a4ddac3c61fdfe",
+    "src/cwtwb/skills/calculation_builder.md": "84098436fdb17b415ae04e8b51f8c33c928705a9925efdbc0223507b8f53f90a",
+    "src/cwtwb/skills/chart_builder.md": "63e398548ad043edc766b2567e8f9bbae81cb2212c481887ac6b7e6d0f01c9a9",
+    "src/cwtwb/skills/dashboard_designer.md": "81fb5520a6df30cfa22b6a0cf8208638e153c779af288bcd32ca12eee34665de",
+    "src/cwtwb/skills/data_quality.md": "d1c2c1d93cf5769de171e60e82febc9469ea6861427fc29783602750976d210d",
+    "src/cwtwb/skills/design_advisor.md": "acfe892f3eaf3c6ba6acfbc9e07aa8a33dcc15db5be54ac6449fecc9c53f36d1",
+    "src/cwtwb/skills/documentation.md": "eb4cb98de5b0232ada70daed24f0ec088fd0d7e15edc4cdced92c3aa1588850c",
+    "src/cwtwb/skills/formatting.md": "00786af67651b7966791871433554d2f6abca511117b16121fa1f0db4c0b5008",
+    "src/cwtwb/skills/governance.md": "1f15c5c8b93874eae56e624e49d236759ca18a079042a77ad53c7de4a29b9a86",
+    "src/cwtwb/skills/metric_blueprint.md": "befeb66f4e5cf42aa8c563c9c56dab302ca3cca3da6a5b7a67fe8ecebc6cc9c3",
+    "src/cwtwb/skills/quality_review.md": "d7f1e01015b525096a912c643a2c2520d38c4f80aa6e0d10f258a4542aac7f90",
+    "src/cwtwb/skills/synthetic_data.md": "4a3db49c0d3d0c08af89637f7d2d05254d6c42050f9dd98b7e61e60247410f04",
+    "src/cwtwb/skills/validation.md": "a422414f25a41ef0906c0f4ad78294f831a28e466e4ce91fb9a9a90f52df2355",
+    "src/cwtwb/time_series.py": "d2f78f4e3916c49e66b7e2d0c20f5e8a9ca2c50ead75d0a24088b503359c1a18",
+    "src/cwtwb/twb_analyzer.py": "c4c21218b0e8ad56bced2e46e5516b3c238dc45dacd89e56a37e2f7bbd9a9639",
+    "src/cwtwb/twb_editor.py": "c7232bf5cb74bac5a4b4cc9717898e0dcbffcb52a32ea768319244ae79b6c425",
+    "src/cwtwb/validate/__init__.py": "bc2d57cfa83e681b2e1d2e1d1f8ebb068a9e940dda6ba52e44f160cf4da0a863",
+    "src/cwtwb/validate/uploader.py": "b2250c8d309c8c0c2fd2a7c11afe4cf8ae0e913423f4a36d40090a59b11f98ee",
+    "src/cwtwb/validator.py": "0fb697946c618f4319451201da301141bcecb8d4c63d3aaa6dfad9130ed437d0",
+    "tests/README.md": "81122b91c533eccf6a1b0ca37654b75453f1f10daa8c8ace28f20a9988ae4c97",
+    "tests/conftest.py": "8635afa33dc35f9e8f2aca6ee080038c26b9a7221eeb38a031468c37bd953d32",
+    "tests/fixtures/Sample - Superstore.xls": "5045ed4fec49cae2cc0dfc5ab0d204ba09efa767fe00c996822499e8cc42fbbd",
+    "tests/fixtures/advent_calendar.twb": "4dbf17b4a172a39cba4673cd220acad6289ffbf3bf99b7d1ed662b8b6309bde2",
+    "tests/parse_twb.py": "ad8cc6c49c098c3fb1536609dbe23d14b5999591cef55d06ae62effb79616258",
+    "tests/test_action_filter_initialization.py": "01befc59b72d8c087d7443dcc34dfd6d22d8fa004517de3199dcf7272c6df952",
+    "tests/test_blended_attribute_types.py": "f6d8919b7483f493fc783a9dbebc5675c78b8921d128cf39f4c10d8c26382f97",
+    "tests/test_c2_replica.py": "823bad203efe4efca0b8d084d72813fd788fc3f5b8c34d80234b01b91941683c",
+    "tests/test_calculated_field_audit.py": "8486c02c65bfe395e4ccd6c6a28d5a55305d9d57b8fbe802717844c6ef987c54",
+    "tests/test_capability_registry.py": "b4774c46a9409eb65b19788ee175e05ae3dc5669639c1c781c021e9a72c34a61",
+    "tests/test_case_driven_addressing.py": "49c91ec7f01a35f07bb13cf6d6b21654b4b34a791b2e0d63c5079ff680dd41cd",
+    "tests/test_case_driven_public_tools.py": "d3019de48b78337379fe6a68024accc432289907837bccfa7a3dd127c5937e51",
+    "tests/test_chart_filter_validation.py": "98bf262b5ac84538c3cce88d6405c274758d0b73c4f918b17897f40b7aa2cb75",
+    "tests/test_chart_routing.py": "d149d7355ec9ca12e2a12fd3db5f2b76e28b993588847ae2132cbbb5489f14aa",
+    "tests/test_charts.py": "0748ce22e2acaee85e921787b4ba45d3b7c92842e28fed7f06451e8b7348174f",
+    "tests/test_clear_existing_content.py": "6d30e56d7596e5186f858c947e5b347064c7b14976fcd135377ed1fadb7a706b",
+    "tests/test_cli.py": "47eab5acf53806ae8daffe63109677e034946fdab0ad9f8979565adfd2558b26",
+    "tests/test_connections.py": "46728c33b045e2f0062942c9973ab1ba35ac26a0963766489f2dceecedce4f48",
+    "tests/test_contextual_table_calculations.py": "80b9fb4794550120290ecef247e38cb70098357bc3db9ecb392b8c9651aa26d9",
+    "tests/test_continuous_date_truncation.py": "8f61849e55ee9bfeae91cd07e1dd049055e3d98312b14b6d0852388a83125829",
+    "tests/test_conversion.py": "556b3518cf258ac08f614107721c554889703d52c5ee354b8138719a736f7feb",
+    "tests/test_cross_dashboard_parameter_controls.py": "f6d882f7298abed243704e1545de82d80a7a08e59a85e200ecaed534861d937f",
+    "tests/test_custom_color_map_style.py": "a889078893d31bad083b0e8cf3eab9bf7d185409f44aa425c3bdf00dc6fceb76",
+    "tests/test_custom_geographic_role.py": "3159fe8b04628347e8594a8fd7316fb76a78650218fe11ec823a697d4437407e",
+    "tests/test_custom_label_set_dependencies.py": "541380d967f1031146d40c2c12bb3fd2b12c7fa462258e0e22361003e3ebffd5",
+    "tests/test_custom_labels.py": "9e38c91e50e9c5cfd02ded33602f0ad19a05828f87e9701abe8ee2113c83c8bc",
+    "tests/test_custom_parameter_dependencies.py": "6847512072395e36fd5d7683a07e601d4337a799f21427cb1c44acca46c3626c",
+    "tests/test_dashboard_action_types.py": "6bebb8eb30adb36133ad1dfde3f287c519cb65beaf079b0c2b930e37dbc41396",
+    "tests/test_dashboard_actions.py": "8173816ff146dc568a3cd527f4251a4d34ae77f20f0c8d8d495d60dd132a737e",
+    "tests/test_dashboard_extensions.py": "4fe9fecc99a074be7a36640522cc8c46a891acfc758598cc8a3fbb55639b4404",
+    "tests/test_dashboard_fit_viewpoints.py": "daf23fb21bfae52a4647aac62927f1152f4d2eec076f8d1ebe791067b4cf2cf1",
+    "tests/test_dashboard_zone_visibility.py": "49988b4efc2e183f7908cdea9a5e8b030d7a47164279135d8e2d3bd90b21b37e",
+    "tests/test_datepart_domain_completion.py": "1644743fd85d82fa6a81a9e687f37a49c8a9faa6245c295966c2fcde6795bc4c",
+    "tests/test_datepart_palette_and_set_modes.py": "0e05392b66395ad1d6d724cd19f3c9e96aa2f391656fb13b3adfa203ad67e0e2",
+    "tests/test_debug.py": "4850b66a2d16c46282cee6d060bc15f90a33efb4e60bfa6677bccf871bc9c1f1",
+    "tests/test_declarative_dashboards.py": "a2871943671704c49127a35f54b223a079e3e04762d1500126aea5e42b27ad04",
+    "tests/test_diff.py": "0981ee6c46216774c949d4aae6b6746a7b901b1739d78bee40b669094ce6e3a5",
+    "tests/test_discrete_date_truncation.py": "fd0eb292d635142a7a27dde0c72fd6cef1eadd2259adb748f2ad0e1fddce7e0e",
+    "tests/test_domain_range.py": "eefb8854081e5108ef062b8e5f0016cb7d6f34dbf62fb42a8454537340f3b1c5",
+    "tests/test_donna_case_c_features.py": "0c1cde70d2cca6d486ff33142cbd30b9c62d7006968e3bc5395bd2d582e667b1",
+    "tests/test_dual_axis_advanced.py": "52bbf02248829fb876860810d3d4b980af868e964c86f32729bbd8d46fd3db1d",
+    "tests/test_dual_axis_basic.py": "379153c0d5bfd7eefd754fb2ccc4fe016cfd2c92dc550077ffeedeea9edfd1d1",
+    "tests/test_dual_axis_script.py": "4700ad8138bb1cc715ef1380601ddf5a7d306dcb86e7092f8660f2ba046993d4",
+    "tests/test_e2e.py": "382a3145f1b57f01ed6630ee858926d76cdb01fcfa86c201728ea2099b876250",
+    "tests/test_empty.twb": "6ac0c2b520c6807752fa1a961c61eddee5aa33dce557a949e858249969d392ed",
+    "tests/test_exact_date_expression_binding.py": "892b0cb826963a31657374a3fafecbf33329a34c9b7d840a29d97354a78d38ed",
+    "tests/test_exclusive_filter_metadata.py": "8e0d9c0853c1bac4c048b115387282ffb5314fdc3a6710c88596cf377c9e43fd",
+    "tests/test_existing_workbook_editing.py": "f49fe9e4887bae543181b5bd0a07c02ad235faa34963fb93741ae2c134b5c41b",
+    "tests/test_explicit_sort_field.py": "4e449338b72edb43957617af72e34a79b4be3a9926800bb73727bd217a052ea7",
+    "tests/test_field_date_properties.py": "f5a1a95edd01a40847462963c55d0ac065b569f950ad61308c818d00ced048b2",
+    "tests/test_field_reference_bands.py": "0b007800658344a02ba0eeedab80a7a5b738cee35cfc4a54d2f31c0ee6ce6801",
+    "tests/test_field_registry.py": "d3f303be4c753d5e184082ffc16bbe5253375ddbdc0a7077e9935322ac14017c",
+    "tests/test_filter_slider_and_date_dependencies.py": "5d68d15c47deb96bf6229de76a35dcb3bff686fa0e356d957b838c5a247dd658",
+    "tests/test_formula_validator.py": "fc8664c1e714c9c3914196d1b6313bcd244a60fdab4120576f6f37f5cf40f5e0",
+    "tests/test_gallery.py": "bb8259c8f7895a28e4d9e51d8341454eb9810ff8d5d831b90cf2a831c52a0900",
+    "tests/test_generate_pie.py": "75334082583ec8986fc013cc97a5eaefb9c3d7d17bea7d9da84d465b093e1ded",
+    "tests/test_generated_map_contracts.py": "8ddeefa661f5d98c5e6a27acc795f7b078e7287906dce7b1a27d96e67dab0ceb",
+    "tests/test_hyper_example.py": "a0325d89914205a5eff675dc11a614517b994e7e2908d824496200895f3739ce",
+    "tests/test_hyper_field_overrides.py": "7e11c3bcee7457329548a5d9a21f46af4180c015604e4d434004cdda6a1612cb",
+    "tests/test_hyper_logical_relationships.py": "7ecc1ccf148cd3b156ac48e0f02b10319a1678a2d926f0eb6bba72981d103557",
+    "tests/test_independent_sources_tooltips_and_controls.py": "c72703b4f364515df25cb3d512c3ea376e1a10340e1e2a9cffc88e5006b5fa43",
+    "tests/test_inert_map_center_size.py": "3f32f60b9d4239147fee89e9caec881b449570db07c2148144c0bfb97d423b25",
+    "tests/test_interactive_features.py": "045a462e4816fb99915e40093a086e36e23d47e4948b757699efbadf6b57c8f7",
+    "tests/test_label_runs.py": "432ae12ad72f54d76d23e8119fc86e65471ec776420ba3d37a0bc935ccb2d4a2",
+    "tests/test_layered_encoding_contracts.py": "2fed4a7b9727d1a6123e01ca736480b6aa9dd1a9b795f127fc257b0e76a91771",
+    "tests/test_layered_sort_modes.py": "16dd0a249ea57007aaca110416358c7d1c2bc2c8e6a35faec4ff6274b2ad5817",
+    "tests/test_layered_tooltip_bindings.py": "8c9af70ed61b7830d4b234aad122b4938bd57510d4f8593e2d80fd2afda881e1",
+    "tests/test_layout_ascii.py": "281a1d9ab9cefce1f515ae0de64a58019a486420c062da3fa609e19d0fce0fa5",
+    "tests/test_legend_layout_controls.py": "56419abfe99d773388487b3ee3d3d859ef233d0ec5eb7ac0a7d00122c364caa3",
+    "tests/test_level1_features.py": "f0f859d441311e4062712ec24d110772a7fc2e7b3d22d23e0ed0c475ca719663",
+    "tests/test_manifest_flag_reconciliation.py": "c3a191f28ce71de39fff1c29bb5724aac1d420caba99b880b32a61f76649bf11",
+    "tests/test_map_sources_selection_web.py": "3ca1fa1d854ed1036b95dd92a976dfa02b35d938c052d790a9dd81f380d9a338",
+    "tests/test_mark_label_field_styles.py": "e2f0bc0e0799b3c4dbe1af1210a31b76195ac089fb8ee47435b5bd8469946afe",
+    "tests/test_mcp_safety_gallery.py": "d40cc8c783216a857a30a977b710642a76c8bb5bb0a8bc03624cd826edc791a5",
+    "tests/test_mcp_server_entrypoint.py": "4d46ef0c2aca956eb827165e64301ade73ada8565b6ba60594018a24135e3507",
+    "tests/test_mcp_showcase_workbook.py": "302d6ab0a3547ad339c7ea9b7a8d2f57a3446e2765116e102ebcce9e30893aab",
+    "tests/test_mcp_tools.py": "6a82bd27afcdfaf35a3b9b48adce6921a862228f0845efec9ee7bf0e7b7a4668",
+    "tests/test_measure_name_aliases.py": "d28cf30260e77a386c80c98720203f0b069d2b3bac92db69b49c831dd1ca6022",
+    "tests/test_measure_names_order.py": "5c15b109ffc203420c6c85238ab9859975b0512a30440489b18734e5429c01fc",
+    "tests/test_measure_value_labels.py": "388b88e48f8e16ce5cdd90fb7bce587544563ed794b9d7afbc1d7710ad77d40e",
+    "tests/test_measure_values_color_domains.py": "f2152d780bc5917ab9463e0c1a8300223fc48ecf5767e5854574d444bf0f0e71",
+    "tests/test_measure_values_on_primitive_marks.py": "7a55b0f03de5b745a7afb4e30b12d89d7825e521df7346287177bc4677edd243",
+    "tests/test_migration_workflow.py": "7564e0e8ff495844e2dd4df0ff692d230cceb7fb26a7809dead28a8ae573b096",
+    "tests/test_multi_sheet_actions.py": "8d691ed187c7797c04076498e7923b8dfdce9cb3d24dead41cf7dad8a13f71b6",
+    "tests/test_multifield_viz_tooltips.py": "10710c55bf1229d00437e0e90aec553245325efd0affb9ee4963fbeacb886b15",
+    "tests/test_native_datasource_blending.py": "0d439d7fb6e1c3a8a348ca09c63c6b0202fdaac61a937eb52123d71733531e2d",
+    "tests/test_native_domains_palettes_bands.py": "a0bbc786eddf484b5205c29bb19851e9b97d2341e1406ce43842798493bbc5b7",
+    "tests/test_native_map_layers.py": "a9578299063eed26e0f9fb72ca84e4a9b3fa708d68a9ff50e5a87673b8a1dd83",
+    "tests/test_overview_full.py": "f1d6a3cac8a6c59ccf461bde84a5192fd9ff5ac78c5fca55ced7d19a5c760d93",
+    "tests/test_overview_replica.py": "1091e3d759237ce3a079660c3fcfbf286e7fd07a18f05a16eea31e8c64e9981b",
+    "tests/test_pages_shelf.py": "54c36e9639b796aa46b3c6fdc846f220dc3b52410ba6220b82dea527456d4d58",
+    "tests/test_patterned_line_manifest.py": "4686a9aa92269d852e88ae2222bcb6524405997be4dbe64c11160623041d4e98",
+    "tests/test_percentile_aggregation_registry.py": "a554d209759d033e54c123abc3e57233fd5470a838b8c7a17f7c334a7814e0d5",
+    "tests/test_phone_layout_and_combined_sets.py": "23b9501601629cef2e89e09ec1294a67489c24d518476718ef966d0b503f3f5b",
+    "tests/test_preserved_device_layout.py": "31fc7e048b49882f50c8c5d46a8bb3fb62efa8622fd054258f4401964c17c8e1",
+    "tests/test_schema_order.py": "7b1a882dc08c78c7a1a9bb1017df0ee1eca00a0df27bf7da2c3e22d4e7a5436d",
+    "tests/test_screenshot2layout.py": "af2b9038ab73cf7847f0b8426ef648ad29df3f340d2ac55d324817b916ef615b",
+    "tests/test_set_membership_controls.py": "de1994a8afc8774c1cb21cb5dc3e0f912f926a1b86950b56d555bad2d83a4908",
+    "tests/test_sets.py": "a0cad57f123e9b5946c8c605e811000279fb8a794b0c2af967b0ea5e2cff8310",
+    "tests/test_shape_assets.py": "ca7d1f808d91da5662c3b318d2c647621cbd2ab9e696e7b6f7674cf225680c57",
+    "tests/test_stepped_color_styles.py": "ed3200e8443f69ad0ca560ac02c9f6234e7927f6e94542a21a608b1a6dc1f848",
+    "tests/test_table_calc_address_references.py": "a5efbe634057e665f6f19bab1c5f228ae7103b14657609962def1fe83134275f",
+    "tests/test_table_calc_override_nested_metadata.py": "56eead1a03a0db575f7fe10d941806cc8066ba52b63f0709ba3a284689382124",
+    "tests/test_table_calc_override_validation.py": "a08243b38d265b5bd75002e49967f59cf90c2891139d519c9651c7b7f40717a0",
+    "tests/test_table_calc_reference_selectors.py": "8dc2b1752c88b8e07a6dc0d159449e4e71cb610712b5c1f777e6d1beccce3615",
+    "tests/test_table_calculations.py": "d33131c0d5c767ccaf8e515ec43869e303e0af2a152e9e191aba189c3cc36993",
+    "tests/test_table_formats.py": "b5f987bbd1b841676f715ba7f0649058a3b56de4df3ae00c2cd034f37effe9af",
+    "tests/test_template_datasource_structure.py": "5358eb567a9f4bb1195959634bbbbd04dc8f3c5016a5c3c3d80644f24c4e5873",
+    "tests/test_temporal_set_members.py": "d858264e20f9b3c4cdf9062451183064aa786f7a74c1a3f8cd0490517996095b",
+    "tests/test_temporal_tooltip_shelf.py": "acbd058a4fc84e47c018b275c3f0f409034eea031f76cca18a668e30dae9b1ec",
+    "tests/test_text_color_map.py": "3ad85914f1e92f42f5eb1c424e749e7e9796b4be6392149e04a78ebce9167617",
+    "tests/test_text_table_calc_overrides.py": "db5b989f9abaf055df6f7665355c1fa7ee37ea9034d758395e9def776ec435e1",
+    "tests/test_time_series_extension.py": "e9c11170661598f3ae504011752e8b49dfb8d32a8ca6ccfdbb62de627c5979f4",
+    "tests/test_tooltip_target_dependencies.py": "3efc2f5f7221df9e8879e89fb4bcba8c7582eaafaf4b7f60b2caf853bf693c23",
+    "tests/test_twb_analyzer.py": "68be1adf6b541281351cb836d35d2b569190541c24d8eb01af106dc76cd56b7e",
+    "tests/test_twb_structure.py": "2e6a071f2ca44bca1ba0924c176c0e0d47a2854ad98910998ed0b7e1bd05311e",
+    "tests/test_twbx_asset_deduplication.py": "27aca8f882295e789e186388a533e16b9de533cf6ad11c13459e39ed13d8bf14",
+    "tests/test_twbx_support.py": "6f2b6c8ae6ba6271ca473a0442e362b275da6c3477cbb10e9e8d05381e9aca7b",
+    "tests/test_web_action_routing.py": "810b01a0ab6adc6755a6770579fae5c03e04b8dce8445e186398471dde7e3358",
+    "tests/test_worksheet_refactor.py": "f29e79ebc43a4ab9449caeae667c793ab87e6cb7cba9ab8ee3b6e7da3996a13d",
+    "tests/test_worksheet_style.py": "e5cbf90c2649bf30b117264fcab244b23b9685a7c45429012cc1c3d82872cee2",
+    "tests/test_ww29_reference_line.py": "29239326dcf7a31913ae17ed4cc010583e5f2953ed833b48c338d8bad113d623",
+    "tests/test_ww33_sdk_features.py": "373262feb6e445a0beb72d26281251b06dfeec1fbe0ad1e90db87d005b28b0be",
+    "tests/test_xsd_element_order.py": "3a43a13dd5a3bd80e8ed8d0e79aa5fb035dee3443e76b7fb4d9d583bd93be01d",
+    "tests/twb_assert.py": "00ff556ec01f833050353d580f7384ab9d6b5beaf4007b555407be0c85fc69c0",
+    "tests/validate/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "tests/validate/test_uploader.py": "b39f65ca98c1d48067d12f0144293cdc542f1939ba5ed50177ed29ce51c17826",
+    "vendor/tableau-document-schemas/schemas/2026_1/twb_2026.1.0.xsd": "c042c1c0151e9700386b91f54a913eb867ee3f97fe97a501847647adb37b28f4",
+    "vendor/tableau-document-schemas/schemas/2026_2/twb_2026.2.0.xsd": "8a00b6566625d0f785170edc39a6fd9e9754daedc62bc8adf31545cbab9e7597"
+  }
+}

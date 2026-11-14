@@ -1480,6 +1480,17 @@
       "reason": "Derived from case metadata; consumed means claimed, not verified completed."
     },
     {
+      "case_id": "wow-2023-ww08-can-you-build-a-comet-chart-as-an-alternative-to-a-side-by-side-bar-chart",
+      "legacy_case_ids": {},
+      "workbook_ids": [],
+      "iteration": "2023-02-23-ww08-can-you-build-a-comet-chart-as-an-alternative-to-a-side-by-side-bar-chart",
+      "status": "consumed",
+      "replication_status": "replicated",
+      "verification_status": "verified",
+      "cwtwb_version": "0.29.0a4",
+      "reason": "Derived from case metadata; consumed means claimed, not verified completed."
+    },
+    {
       "case_id": "wow-2023-ww14-baseball-game-duration",
       "legacy_case_ids": {},
       "workbook_ids": [],
