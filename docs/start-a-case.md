@@ -1,133 +1,93 @@
-# 开始解一个 case：给 AI 的交接说明
+# 开始解一个 case
 
-本文是「让别人（或别的 AI）接手解一个 case」时的操作手册。
-它假设你已经有一个装好环境、能打开 Tableau Desktop 的机器。
+先读 `AGENTS.md`；长任务另读 `docs/long-running-tasks.md` 的进度与大文件规则。
+并行分工以 `docs/cross-repo-desktop-workflow.md` 为准，不要求特定模型或 profile。
 
----
-
-## 0. 一次性环境准备
+## 1. 准备与身份
 
 ```bash
-cd wow-tableau-problem-solving
-python -m pip install -r requirements.txt     # 安装 pinned 的 cwtwb + hyper api
-python download_all.py --refresh              # 拉 posts/ 和 dashboards/（生成物，gitignore）
-python scripts/desktop/sdk_source.py          # 确认 SDK 版本与 requirements.txt 的 pin 一致
-python -m unittest discover -s tests          # 应全部通过
+python -m pip install -r requirements.txt
+python scripts/case_intake.py "<文章URL>"
+python -m unittest discover -s tests
 ```
 
-`posts/`、`dashboards/`、`dataset/` 都是**生成物且被 gitignore**。
-干净检出里它们为空，必须先跑 `download_all.py --refresh` 才有素材。
+requirements 的 pin 是可复现依赖，不等于最新 PyPI stable。按
+[SDK 迭代流程](iterating-cwtwb-and-wow.md) 查询并记录 stable、prerelease、
+main，显式选择本次 SDK。`posts/`、`dashboards/`、`dataset/` 是 gitignore
+生成物；缺素材时运行 `python download_all.py --refresh`。
 
-选 case：见 `docs/unsolved-posts.md`（未解清单，按年份分组）。
+默认以 PyPI stable 建立诊断基线；任务明确指定源码基线时，可用 requirements
+中的完整 Git SHA 安装并记录 source 渠道、版本、导入路径及实际 SHA。
+发布快照（2026-11-14）：当前 pin 对应 `0.29.0a4`，GitHub prerelease 与
+PyPI a4 均已公开。安装 Git pin 与安装 PyPI 包仍属不同来源，均不能记作
+已跑 stable 基线；确切提交、包 hash 和验证记录见 SDK 迭代流程。
 
-### 分支与保护规则（2026-10-09 起）
-
-`main` 已开启保护：**必须走 PR**，禁止 force-push 和删除，合并后源分支**自动删除**。
-
-所以每解一个 case 都要**新开一个临时分支**，绝不在 `main` 上直接提交：
-
-```bash
-cd wow-tableau-problem-solving
-git checkout main && git pull --ff-only          # 从最新的 main 开始
-git checkout -b feat/<YYYY-wwNN-slug>            # 每个 case 一个分支
-# ... 解题、构建、验证 ...
-git push -u origin feat/<YYYY-wwNN-slug>
-gh pr create --base main                          # 开 PR，等 CI 通过
-gh pr merge <n> --merge                           # 合并后分支自动消失
-git checkout main && git pull --ff-only          # 回到 main
-```
-
-合并方式统一用 `--merge`（不要 squash）：cwtwb 的 pin 依赖具体 commit SHA，
-squash 会让被 pin 的 commit 变成不可达，pip 就装不上 SDK 了。
-
----
-
-## 1. 直接复制给 AI 的提示词
-
-因为仓库里 `AGENTS.md` 会自动加载，且 `scripts/case_intake.py` 能从文章 URL 推出全部身份信息，
-提示词只需要**一行**：
-
-```text
-解这个 WoW case：<文章 URL>
-```
-
-AI 会自己读 `AGENTS.md` → `docs/start-a-case.md`，用 `case_intake.py` 推出
-iteration-id、case-id、challenge 日期和作者工作簿 URL，然后按下面 10 步执行。
-
-如果想更稳一点，可以加上一句：
-
-```text
-解这个 WoW case：<文章 URL>
-先跑 python scripts/case_intake.py 确认身份，再按 AGENTS.md 的 Verification 段跑完所有门禁。
-```
-
----
-
-## 2. 标准步骤（AI 会走这 10 步）
-
-| # | 阶段 | 动作 | 产出 |
-| --- | --- | --- | --- |
-| 1 | 认领 | `gh issue create`（用 `.github/ISSUE_TEMPLATE/case.yml`） | issue |
-| 2 | 定身份 | `python scripts/case_intake.py "<文章URL>"` → 拿到 iteration-id / case-id / 日期 / 工作簿 URL | 身份 |
-| 3 | 建骨架 | `prepare_case.py`（见下） | `iterations/<id>/` |
-| 4 | 分析 | 读文章 + 作者工作簿，写 `analysis.md` | `analysis.md` |
-| 5 | 建基线 | 用 released cwtwb 构建，记 `cwtwb_result` | `build_replication.py` |
-| 6 | 验证 | `verify_replication.py` + acceptance IDs | 证据 |
-| 7 | 静态门禁 | `validate_iteration.py`（XSD + 边界 + 元数据） | PASS |
-| 8 | Desktop 门禁 | `build_and_check.py` → 必须 LOADED | LOADED |
-| 9 | 回归 | `verify_corpus.py` → LOADED=50 FAIL=0 UNKNOWN=0 | 无回归 |
-| 10 | 刷索引 | `case_catalogue.py --write` | `usage/*.json` |
-| 11 | 提 PR | 开临时分支 → push → `gh pr create` → 合并（分支自动删） | PR |
-
-### 第 2 步的完整命令
+检查已有 case issue，避免重复认领。按任务授权新建临时分支，不直接提交 main，
+不覆盖他人未提交改动。普通 case PR 只改本 case 和生成索引；SDK 修复另提 PR。
+仓库约定优先 `--merge`。Squash 会产生新 SHA，但不必然使旧提交不可达；
+依赖 pin 必须指向合并后可获取的上游提交。
 
 ```bash
 python scripts/prepare_case.py \
   --workbook-url "https://public.tableau.com/views/WORKBOOK/VIEW" \
-  --iteration-id 2021-01-06-ww01-short-slug \
-  --challenge-year 2021 \
-  --case-id wow-2021-ww01-short-slug \
-  --post-url "https://donnacoles.home.blog/2021/01/06/..."
+  --iteration-id YYYY-MM-DD-wwNN-short-slug \
+  --challenge-year YYYY \
+  --case-id wow-YYYY-wwNN-short-slug \
+  --post-url "<文章URL>"
 ```
 
-`prepare_case.py` 会把作者工作簿下载到临时目录、只抽取 `inputs/` 数据、写
-`inputs/source-lock.json`，然后删掉工作簿——**不会**把作者工作簿放进 iteration。
+身份采用 intake 结果，不从文章年份猜挑战年份。只有官方日期已核实时才传
+`--challenge-date` / `--challenge-url`。prepare 会抽取数据并写
+`inputs/source-lock.json`，不把作者工作簿放入 iteration。
 
-`--challenge-date` / `--challenge-url` 只在官方挑战日期已验证时提供
-（见 `docs/protocols/challenge-date-sources.json`），否则留空。
+## 2. 执行与验收
 
----
-
-## 3. 两条最容易踩的坑
-
-1. **`--sdk-src` 必须给。** cwtwb 是 editable 安装，写死指向主检出。
-   在 worktree 里改了 SDK 却在别处构建，会静默用旧代码。
-   `build_and_check.py --sdk-src <cwtwb-wt>/src` 会检测并直接失败。
-2. **`UNKNOWN` 不是通过。** 它通常意味着 Tableau 日志里没匹配到进程
-   （比如版本没授权、日志轮转、进程转发）。必须重试到确定结果。
-   判定原理见 `docs/desktop-log-verdict.md`。
-
----
-
-## 4. 相关文档
-
-| 文档 | 回答什么 |
+| 步骤 | 动作与产出 |
 | --- | --- |
-| `AGENTS.md` | 解题目标、阶段边界、必需产出（自动加载） |
-| `docs/protocols/community-case-contribution-v1.md` | 完整贡献协议 |
-| `docs/cross-repo-desktop-workflow.md` | 跨仓库迭代 + Desktop 门禁 |
-| `docs/desktop-log-verdict.md` | 判定原理与实测证据 |
-| `docs/generated-twbx-desktop-load-audit.md` | 历史根因与逐案例记录 |
-| `docs/unsolved-posts.md` | 未解 case 清单 |
+| 分析 | 读文章、作者工作簿和参考图，写 `analysis.md`；列出全部业务要求及可观察的 acceptance IDs，包括交互。 |
+| 基线 | 修改 SDK 前，默认用最新 PyPI stable，或任务明确指定的源码 SHA，构建、验证并保存真实证据；标明渠道，builder 只用公共 SDK 和允许的数据输入。 |
+| 定位 | 用独立环境/检出测试 prerelease、fresh main；逐次追加 `cwtwb.runs`，不能覆盖 stable 失败。 |
+| 修复 | case 用法错误改 builder；可复用 SDK 缺口走独立 synthetic 测试与 SDK PR，维护 gap 生命周期。 |
+| 重建 | 用最终选定 SDK 跑 validator、builder、verifier；SDK 改动还需重建回归清单。 |
+| Desktop | 独占 Desktop，所有目标必须 LOADED；FAIL、UNKNOWN、NOBUILD 都不通过。 |
+| 行为 | 对最终产物逐项验证交互、数值和预期状态；XML 存在、能打开都不能替代交互验证。 |
+| 冻结证据 | 所有重建完成后采集 Cloud/交互/截图证据并绑定最终产物 hash；重建后必须重采。 |
+| 收尾 | 更新真实状态、remaining_work、gap、索引及进度，提交 PR；只有完整验收通过才称 case solved。 |
 
----
+`cwtwb.runs` 每次包含实际版本、result 和独立 evidence 文件；该文件记录日期、
+来源渠道、导入路径、完整 SHA/dirty 状态（包安装则记录版本及包 hash）、
+命令、产物 hash、各 acceptance ID 结果。最新 run 与 `tested_version`、
+`cwtwb_result` 一致。不要照抄模板里的旧版本或先写尚未执行的通过结果。
 
-## 5. 已知限制
+复用缺口记录 ID、负责人、最小复现、受影响 acceptance IDs、下一步及生命周期：
+`identified -> reproduced -> fixing -> upstream merged -> case retested -> accepted`。
+实际创建 issue 后才填 `related_cwtwb_issues`，实际创建 PR 后才在 gap 记录关联 URL；
+未创建就明确写“未创建”，不能编造链接或将计划写成已完成。
 
-- Desktop 验证依赖本机 Windows + 有授权的 Tableau Desktop 2026.2，
-  CI 上跑不了，是**人工门禁**。
-- 每次 Desktop 验证约 10–60 秒；50 个基线案例全量约 10–30 分钟。
-- 3 个作者工作簿在 Tableau Public 上返回 404，无法下载：
-  `AutomatingtheHIDEFeaturetoyouradvantage`、`FilmFranchises`、
-  `TC23-InteractiveDashboardstheWhyandtheHow`。涉及它们的 case 会缺素材。
-- 4 个 historical 案例（schema 1.0.0）按仓库策略只读，不在基线内。
+## 3. 门禁与完成条件
+
+按 [跨仓库流程](cross-repo-desktop-workflow.md) 先设置 SDK 环境，再执行：
+
+```bash
+python scripts/validate_iteration.py iterations/<id>
+python -m unittest discover -s tests
+python scripts/desktop/build_and_check.py iterations/<id> --sdk-src <selected-sdk>/src
+python scripts/desktop/verify_corpus.py
+```
+
+validator 和 build_and_check 会重建；`verify_corpus.py` 只打开已有产物。
+回归数量取 `scripts/desktop/desktop_baseline_cases.txt`，不硬编码数量。
+完成构建和 Desktop 后，再运行该 case 的交互/Cloud 采集流程、复核最终证据，
+最后运行 `python scripts/case_catalogue.py --write` 更新索引。
+
+`functional_status`、`visual_status`、`cwtwb_result` 分别如实记录。
+未验证的交互保持 pending/remaining_work，不能因 XML 检查通过而标 replicated。
+partial/blocked PR 可以保存可复现进展，但合并不代表解题完成；保持后续任务和
+gap 打开，直到最终 SDK pin 下全部必需 acceptance 场景通过。
+
+Desktop 需要本机 Windows 与可用授权；记录实际 Tableau 版本。
+缺作者文件、授权或验证环境时记录 blocker，不把无法执行的门禁写成通过。
+
+相关说明：`docs/desktop-log-verdict.md`、
+`docs/protocols/community-case-contribution-v1.md`、
+`docs/protocols/case-identity-and-naming.md`。
