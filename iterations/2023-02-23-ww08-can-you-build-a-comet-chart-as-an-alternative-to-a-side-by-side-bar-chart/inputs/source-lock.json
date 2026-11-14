@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-11-14",
+  "source_workbook": {
+    "filename": "2023_02_22_WW08_Comet_Chart.twbx",
+    "bytes": 158501,
+    "sha256": "caf0f0a5a2285080e15c10610365d1eb49ac9d6942108c92108cba91dcb65a88",
+    "url": null
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Extracts/Sample _ Superstore.hyper",
+      "file": "inputs/Sample _ Superstore.hyper",
+      "bytes": 393216,
+      "sha256": "478706d223b5d834686bd2258e11984d36f8409c28e6b64090f8ef2b269ad550"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

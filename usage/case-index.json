@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "generated_from": "iterations/*/case.yaml",
-  "active_case_count": 145,
+  "active_case_count": 146,
   "legacy_case_ids": {
     "donna-2019-07-18-63877b35d19a": "wow-2019-ww29-high-orders",
     "donna-2019-07-25-59a0a144b25b": "wow-2019-ww30-navigation-kpi",
@@ -8024,6 +8024,75 @@
       "metadata": "iterations/2022-08-12-ww32-dumbbell-chart/case.yaml",
       "metadata_contract": "1.1.0",
       "tested_sdk_version": "0.27.1"
+    },
+    {
+      "case_id": "wow-2023-ww08-can-you-build-a-comet-chart-as-an-alternative-to-a-side-by-side-bar-chart",
+      "legacy_case_ids": {},
+      "iteration_id": "2023-02-23-ww08-can-you-build-a-comet-chart-as-an-alternative-to-a-side-by-side-bar-chart",
+      "article_date": "2023-02-23",
+      "challenge_year": 2023,
+      "challenge_week": 8,
+      "challenge_date": "2023-02-22",
+      "date_evidence": {
+        "article_date": "Declared article publication date in iteration_id",
+        "challenge": "Explicit challenge_year; week declared in iteration_id",
+        "challenge_date": "Official WordPress API post in evidence/official.json: 2023-02-22; legacy slug wow2022w08 does not indicate challenge year."
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/wow2022w08/"
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2023/02/23/can-you-build-a-comet-chart-as-an-alternative-to-a-side-by-side-bar-chart/",
+          "path": "posts/2023-02-23-Can_you_build_a_comet_chart_as_an_alternative_to_a_side_by_side_bar_chart.html",
+          "sha256": "1813cdfaf3d11a13a85db4d54a427cf0ee782c216003c9a131dc342bee01a271"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2023_02_22_WW08_Comet_Chart/2023_02_22_WW08_Comet_Chart_LODs",
+          "filename": "2023_02_22_WW08_Comet_Chart.twbx",
+          "sha256": "caf0f0a5a2285080e15c10610365d1eb49ac9d6942108c92108cba91dcb65a88"
+        }
+      },
+      "functional_status": "partial",
+      "visual_status": "acceptable_delta",
+      "verification_status": "pending",
+      "cwtwb_result": "pass",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": null,
+        "cloud_replica": null
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "inputs/source-lock.json",
+        "evidence/official.json",
+        "evidence/author-reference.png",
+        "evidence/expected-sales.json",
+        "evidence/stable-run.json",
+        "evidence/final-run.json",
+        "evidence/sdk-source-manifest.json",
+        "evidence/static-verification.json",
+        "evidence/desktop-acceptance.md",
+        "evidence/case-static-gates.json",
+        "evidence/repository-tests.log.txt",
+        "evidence/catalogue-selection.json",
+        "evidence/desktop-publication-20261114.json",
+        "evidence/desktop-final-fit-20261114.json",
+        "evidence/desktop-final-dashboard.png",
+        "evidence/publication-final.md",
+        "evidence/desktop-corpus.json",
+        "evidence/desktop-corpus-evidence.json"
+      ],
+      "notes": [
+        "Complete standard LOD tier; official ADVANCED table-calculation-only option not claimed.",
+        "Builder uses only public SDK and extracted Hyper; no SDK edits and no raw XML authoring.",
+        "Final fit artifact is Desktop LOADED and visually acceptable; annual tooltip hover and selection clearing remain unverified.",
+        "Release corpus evidence predates the SDK fit fix and does not establish current-fix corpus coverage."
+      ],
+      "metadata": "iterations/2023-02-23-ww08-can-you-build-a-comet-chart-as-an-alternative-to-a-side-by-side-bar-chart/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.29.0a3"
     },
     {
       "case_id": "wow-2023-ww14-baseball-game-duration",

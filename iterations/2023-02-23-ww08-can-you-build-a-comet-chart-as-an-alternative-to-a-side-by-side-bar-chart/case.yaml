@@ -1,0 +1,136 @@
+schema_version: 1.1.0
+case_id: wow-2023-ww08-can-you-build-a-comet-chart-as-an-alternative-to-a-side-by-side-bar-chart
+iteration_id: 2023-02-23-ww08-can-you-build-a-comet-chart-as-an-alternative-to-a-side-by-side-bar-chart
+post: posts/2023-02-23-Can_you_build_a_comet_chart_as_an_alternative_to_a_side_by_side_bar_chart.html
+legacy_case_ids: {}
+article_date: '2023-02-23'
+challenge_year: 2023
+challenge_week: 8
+challenge_date: '2023-02-22'
+date_evidence:
+  article_date: Declared article publication date in iteration_id
+  challenge: Explicit challenge_year; week declared in iteration_id
+  challenge_date: 'Official WordPress API post in evidence/official.json: 2023-02-22;
+    legacy slug wow2022w08 does not indicate challenge year.'
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/wow2022w08/
+  article:
+    url: https://donnacoles.home.blog/2023/02/23/can-you-build-a-comet-chart-as-an-alternative-to-a-side-by-side-bar-chart/
+    path: posts/2023-02-23-Can_you_build_a_comet_chart_as_an_alternative_to_a_side_by_side_bar_chart.html
+    sha256: 1813cdfaf3d11a13a85db4d54a427cf0ee782c216003c9a131dc342bee01a271
+  workbook:
+    url: https://public.tableau.com/views/2023_02_22_WW08_Comet_Chart/2023_02_22_WW08_Comet_Chart_LODs
+    filename: 2023_02_22_WW08_Comet_Chart.twbx
+    sha256: caf0f0a5a2285080e15c10610365d1eb49ac9d6942108c92108cba91dcb65a88
+verification_status: pending
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: null
+  cloud_replica: null
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- inputs/source-lock.json
+- evidence/official.json
+- evidence/author-reference.png
+- evidence/expected-sales.json
+- evidence/stable-run.json
+- evidence/final-run.json
+- evidence/sdk-source-manifest.json
+- evidence/static-verification.json
+- evidence/desktop-acceptance.md
+- evidence/case-static-gates.json
+- evidence/repository-tests.log.txt
+- evidence/catalogue-selection.json
+- evidence/desktop-publication-20261114.json
+- evidence/desktop-final-fit-20261114.json
+- evidence/desktop-final-dashboard.png
+- evidence/publication-final.md
+- evidence/desktop-corpus.json
+- evidence/desktop-corpus-evidence.json
+notes:
+- Complete standard LOD tier; official ADVANCED table-calculation-only option not
+  claimed.
+- Builder uses only public SDK and extracted Hyper; no SDK edits and no raw XML authoring.
+- Final fit artifact is Desktop LOADED and visually acceptable; annual tooltip hover
+  and selection clearing remain unverified.
+- Release corpus evidence predates the SDK fit fix and does not establish current-fix corpus coverage.
+cwtwb:
+  tested_version: 0.29.0a3
+  tested_commit: 056050c8e95f5fbe3560886e566c34aee53b40b0
+  runs:
+  - version: 0.28.0
+    result: pass
+    evidence: evidence/stable-run.json
+  - version: 0.29.0a3
+    result: pass
+    evidence: evidence/final-run.json
+  - version: 0.29.0a3
+    result: pass
+    evidence: evidence/desktop-final-fit-20261114.json
+  dirty: false
+analysis_status: completed
+functional_status: partial
+visual_status: acceptable_delta
+cwtwb_result: pass
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/Sample _ Superstore.hyper
+acceptance:
+- id: packaged-data
+  description: Packaged Hyper SHA256 equals the extracted, source-locked input.
+  mode: automated
+- id: single-sheet-dashboard
+  description: Exactly one worksheet in an 800 by 700 fixed dashboard.
+  mode: automated
+- id: year-scope
+  description: Only 2021/2022 appear and year-specific LODs preserve the required
+    sales comparison.
+  mode: automated
+- id: comet-geometry
+  description: Path/year size, synchronized axes, white inset circle and ordinal native
+    size legend contracts.
+  mode: automated
+- id: latest-labels-and-sort
+  description: Last line endpoint labels and descending 2022-sales computed sort.
+  mode: automated
+- id: color-and-tooltip-structure
+  description: Red declines/warm-grey increases, year/category/sales tooltip fields
+    on both panes.
+  mode: automated
+- id: formatting-structure
+  description: Grey background, row separators, hidden grid/axes and whole-number
+    sales formatting.
+  mode: automated
+- id: sales-numerics
+  description: All 34 annual points across 17 sub-categories match independent source-row
+    Decimal aggregation.
+  mode: automated
+- id: desktop-load
+  description: Final artifact opens in Desktop with LOADED and no error.
+  mode: manual
+  evidence: evidence/desktop-acceptance.md
+- id: rendered-sales-agreement
+  description: Rendered/exported annual values and all 17 2022 labels match expected-sales.json.
+  mode: manual
+  evidence: evidence/desktop-acceptance.md
+- id: visual-comet-and-formatting
+  description: All rows, width direction, ring sizes, size legend, labels and formatting
+    agree with reference.
+  mode: manual
+  evidence: evidence/desktop-acceptance.md
+- id: hover-and-clear
+  description: Hover endpoint/circle values and clearing selection retain correct
+    complete chart.
+  mode: manual
+  evidence: evidence/desktop-acceptance.md
+remaining_work:
+- Verify annual tooltip values for Phones, Machines and Envelopes at both endpoints
+  and white circles, then verify selection clearing restores the complete chart.
+- Run corpus regression against SDK 056050c8e95f5fbe3560886e566c34aee53b40b0;
+  the preserved 50-LOADED release corpus predates this fix.
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []
