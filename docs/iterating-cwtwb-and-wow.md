@@ -25,8 +25,16 @@ SDK PR 合并也只完成上游修复，仍需 case 重测与验收。
 - 本仓库最终 requirements pin：`81362658fa1856ce98e86033b05e9f77c6bdad47`，
   即 CI 通过并已合并的 `cwtwb` PR #26，源码版本 `0.29.0a4`；
   包含 PR #25 的 manifest 修复及后续 tooltip 修复。
-- **a4 源码已合并，PyPI 发布仍待完成**。集成人正在运行最终 50 个 Desktop
-  回归；此快照不将回归或发布记为完成。收到发布详情前保持此 pin 不再调整。
+- **a4 已发布**：[GitHub public prerelease](https://github.com/aidatacooper/cwtwb/releases/tag/v0.29.0a4)
+  于 2026-11-14 11:00:19 UTC 公开，tag 指向上述最终 pin；
+  [PyPI `0.29.0a4`](https://pypi.org/project/cwtwb/0.29.0a4/) 的 wheel/sdist 已公开。
+  以下 SHA256 已核对 PyPI、GitHub 与本地发布包：
+  - wheel：`91a03795d37f67df6bfb0b15f598d2fb393b229ab77621dafeae5808a36f1c80`
+  - sdist：`3053987fd0da33499e8301da5b03444ecb3978a8b586f26f72543bcba482c048`
+- 发布证据 `cwtwb-release-artifacts/0.29.0a4/pypi-install-verification.json`
+  （集成人工作区，非本仓库文件）记录公共 PyPI 独立 uv 安装及两个 bug smoke 均通过。
+  集成人确认源码 `175471…` 的最终 50 个 corpus 全部 LOADED；
+  该源码与最终 pin 的 Git tree 一致。加载回归不替代逐项交互验收；pin 保持不变。
 
 这是带日期的记录，不是后续运行的固定期望；每次任务重新查询三个渠道。
 

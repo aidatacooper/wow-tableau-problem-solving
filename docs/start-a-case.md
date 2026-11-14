@@ -18,8 +18,9 @@ main，显式选择本次 SDK。`posts/`、`dashboards/`、`dataset/` 是 gitign
 
 默认以 PyPI stable 建立诊断基线；任务明确指定源码基线时，可用 requirements
 中的完整 Git SHA 安装并记录 source 渠道、版本、导入路径及实际 SHA。
-当前 pin 是已合并的 `0.29.0a4` 源码，PyPI 发布仍待完成；安装该 pin
-不等于安装 PyPI a4，也不能记作已跑 stable 基线。
+发布快照（2026-11-14）：当前 pin 对应 `0.29.0a4`，GitHub prerelease 与
+PyPI a4 均已公开。安装 Git pin 与安装 PyPI 包仍属不同来源，均不能记作
+已跑 stable 基线；确切提交、包 hash 和验证记录见 SDK 迭代流程。
 
 检查已有 case issue，避免重复认领。按任务授权新建临时分支，不直接提交 main，
 不覆盖他人未提交改动。普通 case PR 只改本 case 和生成索引；SDK 修复另提 PR。

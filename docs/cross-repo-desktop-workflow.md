@@ -99,8 +99,11 @@ python scripts/desktop/verify_corpus.py
 跨 pane tooltip 修复已随 PR #26 合并，requirements 最终 pin 为
 `81362658fa1856ce98e86033b05e9f77c6bdad47`（源码 `0.29.0a4`）。
 集成人报告实际 WW03 circle tooltip 金额已恢复；这不替代其他 acceptance。
-最终 50 个 Desktop 回归仍由集成人运行，PyPI a4 发布待完成；收到发布详情前
-保持该 pin，不将源码合并写成包已发布或全量回归已通过。
+发布快照（2026-11-14）：GitHub prerelease 与 PyPI a4 已公开，pin 保持不变。
+集成人确认最终 50 个 corpus 全部 LOADED（源码 `175471…`，与最终 pin 的
+Git tree 一致）；公共 PyPI 独立安装的 manifest/tooltip smoke 均通过。
+包 hash 与安装证据见 [SDK 迭代流程](iterating-cwtwb-and-wow.md)；
+这些结果不替代其他未验证的业务或交互 acceptance。
 
 所有会重建的命令必须在冻结证据前完成；重建可能改变 UUID 和产物 hash。
 `case.yaml` 的 `artifacts.primary_workbook` 必须与 builder 默认输出及 verifier
