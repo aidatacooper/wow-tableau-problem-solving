@@ -8,7 +8,8 @@ SDK 修复必须依次验证结构、加载、业务行为，最后对完整 cas
 缺少声明时静态 XSD 可能通过，但 Desktop 会拒绝加载。新增原生 XML 能力时，
 同时核对作者文件的功能声明，并给生成器添加声明存在性回归测试。
 
-`mark-line-pattern` 同样需要 `PatternedLineMarks` 声明。SDK PR #25 已在
+`mark-line-pattern` 同样需要 `PatternedLineMarks` 声明，缺失时 XSD 仍可能通过。
+SDK PR #25 已在
 `bbd749f25a5375889a66a8cd72aaaee129810353` 合并通用修复，本仓库 pin 使用
 该 main hotfix；已发布的 PyPI `0.29.0a3` 不包含它。来源区别见下述 SDK
 迭代流程；版本号相同不能证明代码相同。
@@ -82,6 +83,21 @@ python scripts/desktop/verify_corpus.py
 随后对最终 case 产物验证全部 acceptance IDs：数值、筛选、参数切换、
 选择/取消、reset 等适用交互，并记录动作、预期与观察。XML 中存在 action
 或 filter 只算结构证据；无可执行交互验证时保留 pending/remaining_work。
+
+运行验收实测要点（2026-11-14）：
+
+- Tooltip 必须真实 hover：即使存在 `custom-tooltip` XML，跨 pane 字段仍可能
+  不显示。按 F7 进入演示模式可减少界面干扰，逐项核对实际提示内容。
+- 数值从 Tableau 工作表菜单 `Copy > Crosstab` 复制运行时 TSV，按显示精度
+  比较**全部**预期值，保留剪贴板原始导出和被测工作簿 hash。
+  本轮 WW2025 实测为 168/168；其他 case 按自身完整预期集合计数。
+- `LOADED` 后 UI 仍不可操作时，检查隐藏的“文件恢复”模态框；用非破坏性的
+  `Close` 关闭对话框，绝不删除用户的恢复文件。
+- 截图只捕获 Tableau 的 HWND，使用 DPI-aware 的窗口尺寸，不截取整个桌面。
+
+跨 pane tooltip 的第二个 SDK 修复由集成人推进，计划纳入后续 a4；
+当前不视为已修复或已发布。requirements 暂留 `bbd749f25a5375889a66a8cd72aaaee129810353`，
+收到集成人提供的最终已合并 release/fix SHA 后，再更新 pin 并重测。
 
 所有会重建的命令必须在冻结证据前完成；重建可能改变 UUID 和产物 hash。
 `case.yaml` 的 `artifacts.primary_workbook` 必须与 builder 默认输出及 verifier
