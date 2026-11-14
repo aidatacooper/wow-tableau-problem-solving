@@ -35,6 +35,14 @@ The case rebuilt and verified in a disposable copy with source overrides removed
 83 shared tests passed. See `ci-pin-parent-20261114.json`. Later final formatting
 and startup changes are covered again by the post-commit changed-case check.
 
-This case remains partial until the outstanding hover and shared corpus gates
-are completed. Loading and rendered geometry are demonstrated; full completion
-is not claimed.
+The parent-supplied shared Desktop load regression is complete: 50 LOADED,
+0 FAIL and 0 UNKNOWN. `desktop-corpus-evidence.json` records the 50 artifact
+hashes and the SDK Python source hashes matching the prior isolated corpus
+rebuild; `desktop-corpus.json` contains the corresponding load verdicts.
+These records were copied unchanged into this case's evidence. They establish
+the shared load gate, not live interaction acceptance, and do not represent
+another Desktop run during submission.
+
+This case remains partial with hover acceptance and final visual comparison
+pending. Loading and rendered geometry are demonstrated; full completion is
+not claimed.

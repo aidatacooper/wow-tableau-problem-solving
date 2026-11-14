@@ -39,6 +39,8 @@ evidence:
 - evidence/desktop-final-dashboard.png
 - evidence/parent-acceptance-20261114.md
 - evidence/ci-pin-parent-20261114.json
+- evidence/desktop-corpus-evidence.json
+- evidence/desktop-corpus.json
 notes:
 - 'Worker scope: case-only build/static verification; Desktop, indexes, commits and
   push assigned to parent.'
@@ -113,8 +115,9 @@ acceptance:
 remaining_work: 'Observe total and four annual tooltips for Chairs and Fasteners
   against the numerical oracle; record actual hover values and visual comparison.
   Final artifact is Desktop LOADED and all 17 rendered pairs were inspected.
-  Repository-pinned dependency independently rebuilds successfully. Shared corpus
-  gate and complete interaction acceptance remain required before solved status.'
+  Repository-pinned dependency independently rebuilds successfully. Shared Desktop
+  load corpus passed with 50 LOADED, 0 FAIL and 0 UNKNOWN; this does not establish
+  live interaction acceptance. Hover and visual comparison remain pending.'
 workarounds: []
 capability_gaps: []
 related_cwtwb_issues: []

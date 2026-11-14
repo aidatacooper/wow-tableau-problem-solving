@@ -8198,7 +8198,9 @@
         "evidence/desktop-publication-20261114.json",
         "evidence/desktop-final-dashboard.png",
         "evidence/parent-acceptance-20261114.md",
-        "evidence/ci-pin-parent-20261114.json"
+        "evidence/ci-pin-parent-20261114.json",
+        "evidence/desktop-corpus-evidence.json",
+        "evidence/desktop-corpus.json"
       ],
       "notes": [
         "Worker scope: case-only build/static verification; Desktop, indexes, commits and push assigned to parent.",
