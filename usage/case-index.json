@@ -8053,9 +8053,9 @@
           "sha256": "caf0f0a5a2285080e15c10610365d1eb49ac9d6942108c92108cba91dcb65a88"
         }
       },
-      "functional_status": "partial",
+      "functional_status": "replicated",
       "visual_status": "acceptable_delta",
-      "verification_status": "pending",
+      "verification_status": "verified",
       "cwtwb_result": "pass",
       "artifacts": {
         "primary_workbook": "outputs/replicated-workbook.twbx",
@@ -8082,18 +8082,25 @@
         "evidence/desktop-final-dashboard.png",
         "evidence/publication-final.md",
         "evidence/desktop-corpus.json",
-        "evidence/desktop-corpus-evidence.json"
+        "evidence/desktop-corpus-evidence.json",
+        "evidence/desktop-a4-tooltip-fix-20261114.json",
+        "evidence/desktop-a4-live-acceptance-20261114.json",
+        "evidence/desktop-a4-live-process-20261114.json",
+        "evidence/desktop-a4-crosstab.tsv",
+        "evidence/pre-tooltip-fix-rejection.log",
+        "evidence/publication-a4.md"
       ],
       "notes": [
         "Legacy cloud_author/cloud_replica artifact keys identify the author reference and Desktop screenshot respectively; no Cloud rendering is claimed.",
         "Complete standard LOD tier; official ADVANCED table-calculation-only option not claimed.",
         "Builder uses only public SDK and extracted Hyper; no SDK edits and no raw XML authoring.",
-        "Final fit artifact is Desktop LOADED and visually acceptable; annual tooltip hover and selection clearing remain unverified.",
-        "Release corpus evidence predates the SDK fit fix and does not establish current-fix corpus coverage."
+        "Final a4 artifact is Desktop LOADED; 68 runtime rows covering 34 annual values agree within 1e-6, seven observed tooltips pass, and clicking the selected Phones circle again restores all 17 rows and original colors.",
+        "Envelopes 2021 endpoint is occluded by standard LOD circles and was not directly hovered; its 4745.41 value is verified in the actual Desktop crosstab.",
+        "Release corpus evidence is historical; parent final a4 corpus gate remains pending."
       ],
       "metadata": "iterations/2023-02-23-ww08-can-you-build-a-comet-chart-as-an-alternative-to-a-side-by-side-bar-chart/case.yaml",
       "metadata_contract": "1.1.0",
-      "tested_sdk_version": "0.29.0a3"
+      "tested_sdk_version": "0.29.0a4"
     },
     {
       "case_id": "wow-2023-ww14-baseball-game-duration",

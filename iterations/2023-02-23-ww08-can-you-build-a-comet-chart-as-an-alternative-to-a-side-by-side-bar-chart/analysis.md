@@ -1,5 +1,7 @@
 # Analysis: 2023 Week 08 comet chart
 
+Current acceptance (2026-11-14): standard baseline is replicated and verified with acceptable visual differences. The parent's a4 Desktop evidence confirms all 34 annual values, seven observed tooltips and selection clearing. Envelopes 2021 is occluded and verified through crosstab only. SDK PR26 fixes the generic circle Sales tooltip bug; the repository pins merged `81362658fa1856ce98e86033b05e9f77c6bdad47`, while the accepted artifact was built with `175471b0fa4ad0ae91b4d9b6d629a621583d945e`. See `evidence/publication-a4.md`. The analysis-stage pending statements and old SDK conclusions below are historical and superseded. The parent's final a4 corpus gate is still pending.
+
 ## Identity and selection
 
 Article: https://donnacoles.home.blog/2023/02/23/can-you-build-a-comet-chart-as-an-alternative-to-a-side-by-side-bar-chart/

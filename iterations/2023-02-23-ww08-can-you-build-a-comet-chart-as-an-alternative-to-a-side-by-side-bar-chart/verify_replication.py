@@ -68,6 +68,8 @@ def verify(workbook=None):
     for p in panes:
         texts = ''.join(p.xpath('./customized-tooltip/formatted-text/run/text()'))
         assert '[none:Sub-Category:nk]' in texts and '[yr:Order Date:ok]' in texts and '[sum:Sales:qk]' in texts
+    circle_tooltips = circle.findall('./encodings/tooltip')
+    assert any(element.get('column', '').endswith('[sum:Sales:qk]') for element in circle_tooltips), 'Circle pane must bind its own Sales tooltip measure'
     passed('color-and-tooltip-structure')
     dividers = sheet.xpath('./table/style/style-rule[@element="table-div"]/format/@attr')
     assert 'div-level' in dividers and 'attr' not in dividers and 'value' not in dividers

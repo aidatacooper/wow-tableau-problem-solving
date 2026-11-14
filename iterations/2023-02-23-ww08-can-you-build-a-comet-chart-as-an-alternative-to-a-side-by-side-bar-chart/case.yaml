@@ -23,7 +23,7 @@ source:
     url: https://public.tableau.com/views/2023_02_22_WW08_Comet_Chart/2023_02_22_WW08_Comet_Chart_LODs
     filename: 2023_02_22_WW08_Comet_Chart.twbx
     sha256: caf0f0a5a2285080e15c10610365d1eb49ac9d6942108c92108cba91dcb65a88
-verification_status: pending
+verification_status: verified
 artifacts:
   primary_workbook: outputs/replicated-workbook.twbx
   cloud_author: outputs/cloud-author.png
@@ -49,18 +49,27 @@ evidence:
 - evidence/publication-final.md
 - evidence/desktop-corpus.json
 - evidence/desktop-corpus-evidence.json
+- evidence/desktop-a4-tooltip-fix-20261114.json
+- evidence/desktop-a4-live-acceptance-20261114.json
+- evidence/desktop-a4-live-process-20261114.json
+- evidence/desktop-a4-crosstab.tsv
+- evidence/pre-tooltip-fix-rejection.log
+- evidence/publication-a4.md
 notes:
 - Legacy cloud_author/cloud_replica artifact keys identify the author reference and
   Desktop screenshot respectively; no Cloud rendering is claimed.
 - Complete standard LOD tier; official ADVANCED table-calculation-only option not
   claimed.
 - Builder uses only public SDK and extracted Hyper; no SDK edits and no raw XML authoring.
-- Final fit artifact is Desktop LOADED and visually acceptable; annual tooltip hover
-  and selection clearing remain unverified.
-- Release corpus evidence predates the SDK fit fix and does not establish current-fix corpus coverage.
+- Final a4 artifact is Desktop LOADED; 68 runtime rows covering 34 annual values
+  agree within 1e-6, seven observed tooltips pass, and clicking the selected Phones
+  circle again restores all 17 rows and original colors.
+- Envelopes 2021 endpoint is occluded by standard LOD circles and was not directly
+  hovered; its 4745.41 value is verified in the actual Desktop crosstab.
+- Release corpus evidence is historical; parent final a4 corpus gate remains pending.
 cwtwb:
-  tested_version: 0.29.0a3
-  tested_commit: 056050c8e95f5fbe3560886e566c34aee53b40b0
+  tested_version: 0.29.0a4
+  tested_commit: 175471b0fa4ad0ae91b4d9b6d629a621583d945e
   runs:
   - version: 0.28.0
     result: pass
@@ -71,9 +80,15 @@ cwtwb:
   - version: 0.29.0a3
     result: pass
     evidence: evidence/desktop-final-fit-20261114.json
+  - version: 0.29.0a4
+    result: pass
+    evidence: evidence/desktop-a4-tooltip-fix-20261114.json
+  - version: 0.29.0a4
+    result: pass
+    evidence: evidence/desktop-a4-live-acceptance-20261114.json
   dirty: false
 analysis_status: completed
-functional_status: partial
+functional_status: replicated
 visual_status: acceptable_delta
 cwtwb_result: pass
 inputs:
@@ -124,15 +139,14 @@ acceptance:
   mode: manual
   evidence: evidence/desktop-acceptance.md
 - id: hover-and-clear
-  description: Hover endpoint/circle values and clearing selection retain correct
-    complete chart.
+  description: Observed endpoint/circle tooltips agree with annual sales; clicking
+    the selected Phones circle again restores the complete chart. Envelopes 2021
+    is occluded and checked through the runtime crosstab, not a direct hover.
   mode: manual
   evidence: evidence/desktop-acceptance.md
 remaining_work:
-- Verify annual tooltip values for Phones, Machines and Envelopes at both endpoints
-  and white circles, then verify selection clearing restores the complete chart.
-- Run corpus regression against SDK 056050c8e95f5fbe3560886e566c34aee53b40b0;
-  the preserved 50-LOADED release corpus predates this fix.
+- Parent must supply final 0.29.0a4 full corpus evidence with 50 LOADED, 0 FAIL,
+  0 UNKNOWN before PR66 is ready; case acceptance is complete.
 workarounds: []
 capability_gaps: []
 related_cwtwb_issues: []
