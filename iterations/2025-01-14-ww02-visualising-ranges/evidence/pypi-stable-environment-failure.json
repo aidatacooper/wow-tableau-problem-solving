@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-14T16:03:01.827909",
+  "channel": "pypi-stable",
+  "version": "0.28.0",
+  "import_path": "C:\\Users\\imgwho\\AppData\\Local\\uv\\cache\\archive-v0\\ReRYJjR1q2eV8AP_\\Lib\\site-packages\\cwtwb\\__init__.py",
+  "CWTWB_SRC": null,
+  "PYTHONPATH": null,
+  "git_sha": "not applicable: wheel install",
+  "dirty": null,
+  "commands": [
+    {
+      "command": [
+        "C:\\Users\\imgwho\\AppData\\Local\\uv\\cache\\builds-v0\\.tmpd9jswD\\Scripts\\python.exe",
+        "C:\\Users\\imgwho\\Desktop\\project\\wow-tableau-problem-solving\\iterations\\2025-01-14-ww02-visualising-ranges\\build_replication.py"
+      ],
+      "returncode": 0,
+      "stdout": "C:\\Users\\imgwho\\Desktop\\project\\wow-tableau-problem-solving\\iterations\\2025-01-14-ww02-visualising-ranges\\outputs\\replicated-workbook.twbx\n",
+      "stderr": "Auto-registered unknown field 'Glucose mg/dL' (role=dimension, datatype=string, type=nominal).\nAuto-registered unknown field 'Device Timestamp' (role=dimension, datatype=string, type=nominal).\n"
+    },
+    {
+      "command": [
+        "C:\\Users\\imgwho\\AppData\\Local\\uv\\cache\\builds-v0\\.tmpd9jswD\\Scripts\\python.exe",
+        "C:\\Users\\imgwho\\Desktop\\project\\wow-tableau-problem-solving\\iterations\\2025-01-14-ww02-visualising-ranges\\verify_replication.py"
+      ],
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\imgwho\\Desktop\\project\\wow-tableau-problem-solving\\iterations\\2025-01-14-ww02-visualising-ranges\\verify_replication.py\", line 8, in <module>\n    from tableauhyperapi import HyperProcess, Telemetry, Connection\nModuleNotFoundError: No module named 'tableauhyperapi'\n"
+    }
+  ],
+  "package_sha256": "dd8fb1c4a7a1828ba6c102afa5bc13f90dc7c959c58cde608d2de0a830a05225",
+  "package_url": "https://pypi.org/pypi/cwtwb/0.28.0/json",
+  "result": "blocked",
+  "acceptance": {
+    "static_and_numerical": "blocked",
+    "desktop": "pending parent",
+    "rendered_business_and_visual": "pending parent"
+  }
+}

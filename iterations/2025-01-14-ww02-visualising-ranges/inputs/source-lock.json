@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-11-14",
+  "source_workbook": {
+    "filename": "2025_01_08_WW02_Visualising_Ranges.twbx",
+    "bytes": 38984,
+    "sha256": "efb50d7f19d63fd0c0d9e02bca6399d7bcdd60196dab797d19bf4e876d66350f",
+    "url": null
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Datasources/WoW2024Wk49.hyper",
+      "file": "inputs/WoW2024Wk49.hyper",
+      "bytes": 131072,
+      "sha256": "875a55c7078135db505c7bd8ef203a95aed427fc090652d79a4115ec41babbe2"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

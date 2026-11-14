@@ -1,0 +1,9 @@
+{
+  "source_commit": "2b72232245959934281c49308f5c3b2fca8fc519",
+  "current_fix_commit": "056050c8e95f5fbe3560886e566c34aee53b40b0",
+  "scope": "Historical pre-fix Desktop corpus only; not a full regression of the current fix. No Desktop run by this integration.",
+  "files": {
+    "desktop-corpus.json": "814d866e368011c17852a031875088808f4507b8edcfde8051c56e750daa5daa",
+    "desktop-corpus-evidence.json": "b1758faba21b02e2107857043b24c7af2295e6cd38fcac26bbd8d38e50c043de"
+  }
+}

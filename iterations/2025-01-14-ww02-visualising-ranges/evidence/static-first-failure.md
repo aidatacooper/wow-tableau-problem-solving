@@ -1,0 +1,1 @@
+Full validator initially failed XSD because the case used mark-size instead of the native size style attribute. Corrected case-only public API argument; SDK unchanged. Previous record_run passes covered builder and verifier only, not XSD. Final validator must pass before handoff.
