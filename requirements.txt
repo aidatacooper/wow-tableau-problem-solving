@@ -1,4 +1,4 @@
-cwtwb @ git+https://github.com/aidatacooper/cwtwb.git@cac8820f26e703c3858253adfa21efd989eb8a78
+cwtwb @ git+https://github.com/aidatacooper/cwtwb.git@bbd749f25a5375889a66a8cd72aaaee129810353
 # Required by use_hyper schema introspection for independent case builds.
 tableauhyperapi==0.0.26700
 # Used by reproducible Cloud capture scripts; credentials stay in process environment.

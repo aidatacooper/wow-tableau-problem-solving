@@ -6,3 +6,10 @@ iterations/*/inputs/* -text
 # Preserve the LF source bytes recorded by the WW32 build provenance.
 iterations/2021-08-12-ww32-visualise-our-survey-data/build_replication.py text eol=lf
 iterations/2021-08-12-ww32-visualise-our-survey-data/verify_replication.py text eol=lf
+# Preserve source and evidence bytes bound by WW2025-02 provenance hashes.
+iterations/2025-01-14-ww02-visualising-ranges/*.py -text diff
+iterations/2025-01-14-ww02-visualising-ranges/evidence/* -text
+iterations/2025-01-14-ww02-visualising-ranges/evidence/*.json diff
+iterations/2025-01-14-ww02-visualising-ranges/evidence/*.md diff
+iterations/2025-01-14-ww02-visualising-ranges/evidence/*.tsv diff
+iterations/2025-01-14-ww02-visualising-ranges/evidence/*.txt diff
