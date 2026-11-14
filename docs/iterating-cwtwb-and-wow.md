@@ -1,134 +1,80 @@
-# 长期迭代 cwtwb 和 wow：简版
+# 迭代 cwtwb 和 WoW
 
-两个仓库的长期迭代现在是可行的。本文只讲**怎么做**，不重复原理。
+- SDK：`C:/Users/imgwho/Desktop/project/cwtwb`
+- cases：`C:/Users/imgwho/Desktop/project/wow-tableau-problem-solving`
 
-- `cwtwb` = SDK（`C:/Users/imgwho/Desktop/project/cwtwb`）
-- `wow` = case 仓库（`C:/Users/imgwho/Desktop/project/wow-tableau-problem-solving`）
+目标是补齐可复用能力并完成整题验收。partial/blocked PR 合并只保存进度；
+SDK PR 合并也只完成上游修复，仍需 case 重测与验收。
 
-凭证已经统一：**两个仓库读同一个文件** `~/.config/wow-cloud/tableau.env`，
-不需要 `source`，不需要配环境变量。详见
-[wow/docs/tableau-cloud-credentials.md](../wow-tableau-problem-solving/docs/tableau-cloud-credentials.md)。
+## 1. 明确“最新”与实际测试来源
 
----
+三条渠道不能混写：
 
-## 一、只想解 case（不碰 SDK）
+| 渠道 | 查询与记录 |
+| --- | --- |
+| PyPI stable | 查 PyPI 非预发布、非 yanked 的最新发行，记录版本和下载包 hash。 |
+| PyPI prerelease | 单独查 alpha/beta/rc 是否已发布；记录确切版本，不把 main 的版本号当作已发布包。 |
+| Git main | fetch 上游 main，记录远端、完整 SHA、该提交版本及查询时间；不把本地旧 main 当最新。 |
 
-```bash
-cd C:/Users/imgwho/Desktop/project/wow-tableau-problem-solving
-git checkout main && git pull --ff-only
-git checkout -b feat/<YYYY-wwNN-slug>
+发布快照（2026-11-14）：`cwtwb` PR #24 已合并，
+合并提交 `1d578a3f815dde189860d0243404bf84057a19f8` 是本仓库 requirements pin。
+公开 tag `v0.29.0a3` 指向该提交；PyPI `0.29.0a3` 的 wheel 和 sdist 已公开，
+SHA256 与本地已检查发布包一致。这是 prerelease，不是 stable。
+这是带日期的发布记录，不是后续运行的固定期望；每次任务重新查询三个渠道。
 
-# 解 → 构建 → 验证 → 抓 Cloud 证据 → 跑门禁
-python scripts/case_intake.py "<文章URL>"          # 定身份
-python scripts/validate_iteration.py iterations/<id>
-python scripts/desktop/check.py iterations/<id>/outputs/replicated-workbook.twbx   # 必须 LOADED
-python -m unittest discover -s tests
-python scripts/desktop/verify_corpus.py            # 必须 LOADED=50 FAIL=0 UNKNOWN=0
+修改 SDK 前先用 stable 建立失败基线，再测试可用 prerelease/main。
+使用分开的环境/检出，避免安装覆盖或 editable 路径串用。记录实际 import 路径、
+版本、完整 SHA 和 dirty 状态；源码有未提交修改时，另存 diff，不能只报 HEAD。
+包安装没有 Git SHA 时写“不适用”，保存确切包来源与 hash。
 
-git push -u origin feat/<YYYY-wwNN-slug>
-gh pr create --base main
-gh pr merge <n> --merge                            # 只能 --merge，不能 squash
-```
+显式选择与所有命令的环境设置见
+[跨仓库 Desktop 流程](cross-repo-desktop-workflow.md)。每次真实运行追加
+`cwtwb.runs` 的 version/result/evidence；证据文件保存来源与命令，保留先前失败。
+`tested_version`、`cwtwb_result` 与最新 run 对齐。
 
-**顺序很重要**：先构建，再抓 Cloud 证据，最后才跑门禁。
-`validate_iteration.py` 会重建工作簿（UUID 变化），重建后证据哈希就失效了。
+## 2. 从缺口到上游修复
 
----
+| 问题 | 处理 |
+| --- | --- |
+| 现有 API 用错 | 修 case builder 或使用说明 |
+| 现有 API bug | synthetic 复现 + SDK bug 修复 |
+| 可复用 primitive 缺失 | 通用 SDK API + synthetic 回归测试 |
+| 单题视觉差异 | 记录差异；workaround 仍须遵守公共 SDK 边界 |
 
-## 二、要改 SDK（cwtwb）再让 case 用上
+在 analysis/进度文档维护 gap ID、负责人、失败 acceptance IDs、最小复现、
+下一步与状态：
+`identified -> reproduced -> fixing -> upstream merged -> case retested -> accepted`。
+实际创建后才关联上游 issue/PR URL；issue 写入 `related_cwtwb_issues`，
+PR 写入 gap 记录。没有创建时写“未创建”，不要虚构关联。
 
-**必须先在 cwtwb 提 PR 并合并，再更新 wow 的 pin。** 顺序不能反。
+SDK 测试不依赖作者工作簿或作者数据。先建立失败测试，再修改通用实现；
+覆盖适用的 builder -> dispatcher -> public Python facade -> MCP tool ->
+capability registry 路径，验证公共入口、参数转发与注册一致，并加 XML/XPath
+回归测试。结构测试不能证明 Desktop 交互可用；还需 case 端行为证据。
+按 SDK 仓库自己的 AGENTS 与开发依赖运行相关测试及要求的检查。
 
-```bash
-# 1) 改 SDK + 测试 + 提 PR
-cd C:/Users/imgwho/Desktop/project/cwtwb
-git checkout main && git pull --ff-only
-git checkout -b feat/<what>
-# ... 改 src/cwtwb/... 和 tests/ ...
-uv run --with pytest --with lxml --with pyyaml --with openpyxl --with xlrd --with mcp \
-  python -m pytest tests/ -q
-git push -u origin feat/<what> && gh pr create --base main
-gh pr merge <n> --merge
-git checkout main && git pull --ff-only
-git rev-parse HEAD          # ← 记下这个 commit
+## 3. 集成、冻结证据、完整验收
 
-# 2) wow 里更新 pin（用上一步的 commit）
-cd ../wow-tableau-problem-solving
-git checkout main && git pull --ff-only
-git checkout -b fix/<case>-<what>
-# 编辑 requirements.txt: cwtwb @ git+...@<commit>
-# 编辑 case.yaml: cwtwb.tested_commit: <commit>
-# 改 builder 用新 API，重建、抓证据、跑门禁（同第一节）
-git push -u origin fix/<case>-<what> && gh pr create --base main
-gh pr merge <n> --merge
-```
+1. 本地可以先用 SDK 修复检出验证 case，无须等待上游合并才测试。
+2. SDK PR 通过检查并合并后，取得可获取的上游完整 SHA。
+   WoW 的最终 `requirements.txt` pin 使用此 SHA，并验证新环境可安装。
+   按仓库约定优先 merge；squash 产生新 SHA，不保证原 SHA 消失或长期可获取。
+3. 用最终 pin 的源码重建 case 和 SDK 回归基线，验证 Desktop、业务数据和
+   所有必需交互；将实际结果追加为新 run。
+4. 所有重建完成后采集 Cloud/交互证据并绑定产物 hash。后来又重建则重采，
+   不手改 hash 来冒充重新验证。Cloud 凭证见
+   [凭证说明](tableau-cloud-credentials.md)，不得提交 token。
+5. 更新 case 状态、gap、进度与生成索引。整题 acceptance 全通过才标 replicated；
+   未验证/失败项仍写 remaining_work，partial PR 合并不能关闭未完成的整题任务。
 
-**为什么要 `--merge` 不能 squash**：`requirements.txt` pin 的是具体 commit SHA。
-squash 会让那个 commit 变成**不可达**，`pip install` 就装不上 SDK 了。
+## 4. 长任务与分工
 
-**关键细节**：cwtwb 是 editable 安装，指向 `cwtwb/src`。
-本地改了 SDK，wow 的构建会**立刻用上**（`sdk_source.py` 会显示 `git 4cd2c61`）。
-但要给 CI/别人用，必须走上面的 pin 流程。
+每完成一个可验证步骤，更新 `docs/PROGRESS-<topic>.md`：
+来源/SHA、实际结果、真实 issue/PR、阻塞、负责人及下一条可执行动作。
+恢复时读进度与 git 状态；大文件只做定向搜索或摘要，见 `long-running-tasks.md`。
 
----
-
-## 三、判断"要不要改 SDK"
-
-遇到差异时，先问：**这是这一个 case 的特殊情况，还是一个可复用的能力缺口？**
-
-| 情况 | 做法 |
-|---|---|
-| 现有 API 用错了 | 改 case 的 builder |
-| 现有 API 有 bug | 提 cwtwb bug PR（带最小复现） |
-| 缺一个可复用的能力 | 提 cwtwb feature PR（走第二节） |
-| 只是这一个 case 的视觉差异 | 在 case 里记录为已知差异 |
-
-判断依据写在 `wow/docs/protocols/community-case-contribution-v1.md`。
-
----
-
-## 四、长任务怎么做（多 case）
-
-**别把一个 agent 塞满**。用 Paseo 的 profile 拆分：
-
-```bash
-paseo run --provider pi --model magpie/workbuddy-ai/deepseek-v4.1-flash \
-  --new-workspace worktree --worktree-mode branch-off \
-  --new-branch feat/case-ww14 --base origin/main "<解这个 case：<URL>>"
-```
-
-或直接在 Paseo 里选 profile：
-- 批量解 case → `Case batch fix`
-- 复核 → `Review & verify`（不同模型、可识图）
-- 卡住了 → `Root cause & plan`
-- 只跑门禁 → `Mechanical gates`
-
-**每个单元做完就写一行进度**到 `docs/PROGRESS-<topic>.md`
-（模板：`docs/protocols/progress-template.md`）。崩溃后从这里恢复，不要考古会话记录。
-
-已配置的自动化：
-- **每 30 分钟**：心跳提醒当前 agent 写进度、该拆就拆、卡住就换诊断 profile。
-- **每天 09:00**：独立 agent 巡检两个仓库，把结果追加到 `docs/PROGRESS-daily-watch.md`。
-  它只读 + 只写进度文档，**不会**自动 commit/push/merge。
-
----
-
-## 五、日常检查（一条命令）
-
-```bash
-cd C:/Users/imgwho/Desktop/project/wow-tableau-problem-solving
-python scripts/desktop/sdk_source.py     # SDK 版本/commit 对不对
-python -m unittest discover -s tests     # 83 个测试
-cat docs/PROGRESS-daily-watch.md         # 昨天的巡检结果
-```
-
----
-
-## 六、不要做
-
-- 不要读 `hyperd.log`（23MB）、`daemon.log`（10MB）、`*.jsonl`（5–8MB）、
-  大的 `.twbx`（最大 91MB）。用 `grep`/`tail`/脚本。
-  （`context-guard` 扩展会兜底截断，但别依赖它。）
-- 不要 commit 任何 token。
-- 不要 squash 合并 wow 的 PR。
-- 不要直接 push 到 `main`（两个仓库都开了保护，必须走 PR）。
+仅在任务授权且工具支持时委派。按文件/case 划分唯一写入责任人；
+SDK 公共实现由单一负责人集成，pin、索引及最终状态由集成人统一更新。
+共享 checkout 不并发编辑同一文件；独立检出也不能隔离 Desktop 进程和日志，
+所有 Desktop 检查与交互采集排队串行。没有可用 agent 工具时按相同步骤顺序执行，
+不依赖特定 profile、模型、定时巡检或上下文扩展已安装。
