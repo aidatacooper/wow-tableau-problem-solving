@@ -26,8 +26,8 @@ source:
 verification_status: pending
 artifacts:
   primary_workbook: outputs/replicated-workbook.twbx
-  cloud_author: null
-  cloud_replica: null
+  cloud_author: evidence/author-reference.png
+  cloud_replica: evidence/desktop-final-dashboard.png
 artifact_aliases: {}
 historical_artifacts: []
 evidence:
@@ -50,6 +50,8 @@ evidence:
 - evidence/desktop-corpus.json
 - evidence/desktop-corpus-evidence.json
 notes:
+- Legacy cloud_author/cloud_replica artifact keys identify the author reference and
+  Desktop screenshot respectively; no Cloud rendering is claimed.
 - Complete standard LOD tier; official ADVANCED table-calculation-only option not
   claimed.
 - Builder uses only public SDK and extracted Hyper; no SDK edits and no raw XML authoring.
