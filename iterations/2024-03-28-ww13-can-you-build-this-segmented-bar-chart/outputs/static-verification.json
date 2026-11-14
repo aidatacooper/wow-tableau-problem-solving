@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "scope": "static structure and full-data numerical oracle; Desktop/render/hover pending",
+  "workbook_sha256": "5a6f759ecd2c8e8c09b4b9adae754e1c921eec069f406fb1ac221426c7a55b22",
+  "input_sha256": "dbd9cf32a714ed5c7b5b129443e54e7018dfe8b78ec9d21dade9b12d88a31ddc",
+  "source_rows": 10194,
+  "sub_categories": 17,
+  "year_segments": 68,
+  "grand_total": 2326534.3543000002,
+  "top_category": "Chairs",
+  "acceptance_ids": [
+    "source-data",
+    "sales-geometry",
+    "descending-order",
+    "tooltip-contract",
+    "layout-contract"
+  ]
+}

@@ -1,0 +1,800 @@
+diff --git a/CHANGELOG.md b/CHANGELOG.md
+index b1edfc5..70d3c5b 100644
+--- a/CHANGELOG.md
++++ b/CHANGELOG.md
+@@ -5,6 +5,39 @@ All notable changes to this project will be documented in this file.
+ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
+ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+ 
++## [0.29.0a3] - 2026-11-14
++
++### Added
++
++- `configure_map_selection()` configures the native Drive Time tool on a map
++  worksheet and its current or subsequently created dashboard viewpoints.
++- Native map layers accept an independent `datasource` name or unique caption.
++  Geometry, details, tooltip fields, palettes and Measure Names dependencies
++  resolve against each layer's source without joining unrelated extracts.
++- Dashboard layouts support named Web Page nodes with tiled or floating bounds.
++  URL actions accept `target_web_zone` to navigate a named page on the same
++  dashboard through Python and MCP, without hardcoding generated zone IDs.
++- Layered charts support independent Measure Names ordering.
++
++### Fixed
++
++- Named Web Page actions emit `SpecificWebTargetsForActions`, required for
++  Tableau Desktop to load their native target configuration.
++- Native map layers resolve same-named table-calculation dependencies by source.
++- Text-chart table-calculation overrides and extra labels are forwarded through
++  public authoring and run-spec entry points.
++- Rich labels retain native set and newly referenced calculation dependencies.
++- Ordering expressions are normalized before duplicate validation.
++
++### Validation and scope
++
++- SDK regression suite: 1151 passed, 25 skipped. Fifty historical case workbooks
++  were rebuilt and loaded in Tableau Desktop 2026.2; three feature cases also loaded.
++- Drive Time gestures, story-step interaction and embedded-page navigation have
++  not completed live acceptance. Loading and XSD checks do not establish those behaviors.
++- Continues the 0.29 alpha channel, including the native-conversion preview.
++  Install explicitly with `pip install --upgrade cwtwb==0.29.0a3`.
++
+ ## [0.29.0a2] - 2026-10-24
+ 
+ ### Added
+diff --git a/README.md b/README.md
+index d645fe6..b1a0d6b 100644
+--- a/README.md
++++ b/README.md
+@@ -49,6 +49,19 @@ The `cw` in `cwtwb` comes from `Cooper Wenhua`.
+ 
+ ### Install
+ 
++The latest alpha, **0.29.0a3**, adds Drive Time map-tool configuration,
++independent data sources in native map layers, and named embedded Web Page
++targets for URL actions. It also includes label and table-calculation fixes.
++See [the feature guide](https://github.com/aidatacooper/cwtwb/blob/main/docs/map-and-web-authoring.md)
++and [changelog](https://github.com/aidatacooper/cwtwb/blob/main/CHANGELOG.md).
++
++```bash
++pip install --upgrade cwtwb==0.29.0a3
++uvx --from cwtwb==0.29.0a3 cwtwb
++```
++
++To use the stable channel instead:
++
+ ```bash
+ pip install cwtwb
+ ```
+diff --git a/README.zh-CN.md b/README.zh-CN.md
+index 2226778..55a4244 100644
+--- a/README.zh-CN.md
++++ b/README.zh-CN.md
+@@ -46,6 +46,18 @@ cwtwb 与 Adam Mico、Salesforce、Tableau 均无隶属关系。
+ 
+ ### 安装
+ 
++最新预发布版 **0.29.0a3** 新增 Drive Time 地图工具配置、原生地图图层的
++独立数据源，以及 URL action 指向命名嵌入网页区域的能力；同时修复标签和表计算问题。
++详见[功能使用指南](https://github.com/aidatacooper/cwtwb/blob/main/docs/map-and-web-authoring.md)
++和[更新日志](https://github.com/aidatacooper/cwtwb/blob/main/CHANGELOG.md)。
++
++```bash
++pip install --upgrade cwtwb==0.29.0a3
++uvx --from cwtwb==0.29.0a3 cwtwb
++```
++
++如果使用稳定版通道：
++
+ ```bash
+ pip install cwtwb
+ ```
+diff --git a/docs/case-driven-enhancements.md b/docs/case-driven-enhancements.md
+index 7ac7563..3a157cb 100644
+--- a/docs/case-driven-enhancements.md
++++ b/docs/case-driven-enhancements.md
+@@ -1,5 +1,16 @@
+ # Case-driven SDK enhancements
+ 
++## 2026 WW26, WW36 and WW38: maps and embedded pages
++
++Version 0.29.0a3 adds native Drive Time selection settings, independent
++datasource bindings for native map layers, and named Web Page action targets.
++See [the public API examples](map-and-web-authoring.md).
++
++The rebuilt feature workbooks and 50 historical regression workbooks loaded in
++Tableau Desktop 2026.2. Static contracts also check source-qualified layers,
++story visibility bindings and URL targets. Live drag/clear, story-step changes
++and page navigation remain separate acceptance work; cases retain partial status.
++
+ ## 2021 WW30-38: reusable authoring gaps and Cloud-empty guards
+ 
+ The 2021 WW30-38 case review found four reusable authoring gaps. Combined sets
+diff --git a/docs/guide.md b/docs/guide.md
+index f0fbb0c..1b40322 100644
+--- a/docs/guide.md
++++ b/docs/guide.md
+@@ -323,13 +323,14 @@ These aliases exist to keep less disciplined clients from stopping on an `Unknow
+ | `apply_worksheet_refactor` | Apply worksheet-scoped field rewrites while preserving the original worksheet |
+ | `add_worksheet` | Add a new blank worksheet |
+ | `configure_chart` | Configure chart type and field mappings |
++| `configure_map_selection` | Configure the Drive Time tool on a map worksheet and its dashboard viewpoints |
+ | `configure_layered_chart` | Configure independent mark panes, including pane-local Pie `wedge_size` and Measure Values |
+ | `add_combined_set` | Combine same-grain native sets with `union` or `intersection` |
+ | `configure_worksheet_style` | Apply worksheet-level styling: background color, axis/grid/border visibility |
+ | `configure_dual_axis` | Configure a dual-axis chart composition |
+ | `configure_chart_recipe` | Configure a showcase recipe chart such as `lollipop`, `donut`, `butterfly`, or `calendar` |
+-| `add_dashboard` | Create a dashboard combining worksheets |
+-| `add_dashboard_action` | Add filter, highlight, URL, or go-to-sheet actions to a dashboard |
++| `add_dashboard` | Create a dashboard combining worksheets, text and named Web Page layout nodes |
++| `add_dashboard_action` | Add dashboard actions; URL actions accept a named `target_web_zone` |
+ | `set_worksheet_caption` | Set or clear a worksheet caption using plain text |
+ | `set_worksheet_hidden` | Hide or unhide a worksheet by updating its worksheet window metadata |
+ | `generate_layout_json` | Build and validate an interactive structured dashboard flexbox layout JSON before writing it |
+@@ -347,6 +348,9 @@ These aliases exist to keep less disciplined clients from stopping on an `Unknow
+ | `upload_workbook` | Publish `.twb`/`.twbx` to Tableau Cloud for explicit openability evidence, `.twbx` validation, or screenshots (requires `cwtwb[validate]`) |
+ | `screenshot_workbook` | Capture a view image from a workbook published by `upload_workbook` (requires `cwtwb[validate]`) |
+ 
++For independent map data sources, Drive Time settings and embedded-page routing,
++see [Map and Web Page authoring](map-and-web-authoring.md), available in 0.29.0a3.
++
+ Important save semantics for agents:
+ 
+ - `save_workbook(output_path=...)` is the only default MCP tool that writes the active in-memory workbook to disk.
+@@ -360,12 +364,6 @@ Important save semantics for agents:
+ 
+ The default MCP entrypoint currently registers no prompts. This is intentional: the default server is optimized for direct tool calling through the workbook engineering surface.
+ 
+-### Rebuild Notes
+-
+-The previous datasource-first guided authoring implementation has been removed
+-from the codebase. If that workflow needs to return in the future, use the
+-rebuild document in [guided-authoring-rebuild.md](/C:/Users/imgwho/Desktop/projects/20260227-cwtwb/backup/guided-authoring-rebuild.md).
+-
+ ## Capability Model
+ 
+ ### Core primitives
+diff --git a/docs/guide.zh-CN.md b/docs/guide.zh-CN.md
+index 8a86818..a10a2f2 100644
+--- a/docs/guide.zh-CN.md
++++ b/docs/guide.zh-CN.md
+@@ -252,13 +252,14 @@ cwtwb://docs/tool-surface
+ | `apply_worksheet_refactor` | 应用 worksheet-scoped field rewrites，并保留原 worksheet |
+ | `add_worksheet` | 添加空白 worksheet |
+ | `configure_chart` | 配置 chart type 和 field mappings |
++| `configure_map_selection` | 为地图 worksheet 及 dashboard viewpoint 配置 Drive Time 工具 |
+ | `configure_layered_chart` | 配置独立 mark panes，包括 pane 内 Pie `wedge_size` 和 Measure Values |
+ | `add_combined_set` | 使用 `union` 或 `intersection` 组合同粒度原生 Set |
+ | `configure_worksheet_style` | 应用 worksheet 级样式 |
+ | `configure_dual_axis` | 配置 dual-axis chart |
+ | `configure_chart_recipe` | 配置 `lollipop`、`donut`、`butterfly`、`calendar` 等 recipe chart |
+-| `add_dashboard` | 创建组合 worksheets 的 dashboard |
+-| `add_dashboard_action` | 添加 filter、highlight、URL 或 go-to-sheet action |
++| `add_dashboard` | 创建组合 worksheets、文本和命名 Web Page 区域的 dashboard |
++| `add_dashboard_action` | 添加 dashboard action；URL action 可通过 `target_web_zone` 指向命名网页区域 |
+ | `set_worksheet_caption` | 设置或清除 worksheet caption |
+ | `set_worksheet_hidden` | 通过 worksheet window metadata 隐藏或显示 worksheet |
+ | `generate_layout_json` | 生成并验证 dashboard flexbox layout JSON |
+diff --git a/pyproject.toml b/pyproject.toml
+index ed0e8ca..532b385 100644
+--- a/pyproject.toml
++++ b/pyproject.toml
+@@ -1,6 +1,6 @@
+ [project]
+ name = "cwtwb"
+-version = "0.29.0a2"
++version = "0.29.0a3"
+ description = "Tableau Workbook (.twb) generation toolkit and MCP server"
+ readme = "README.md"
+ 
+diff --git a/src/cwtwb/capability_registry.py b/src/cwtwb/capability_registry.py
+index 94b2cde..cf359d6 100644
+--- a/src/cwtwb/capability_registry.py
++++ b/src/cwtwb/capability_registry.py
+@@ -35,6 +35,9 @@ class CapabilitySpec:
+ 
+ 
+ CAPABILITY_SPECS: tuple[CapabilitySpec, ...] = (
++    CapabilitySpec(key="drive-time-selection", kind="feature", level="advanced", canonical="configure_map_selection", rationale="Persist native Drive Time selection and toolbar visibility in worksheet and dashboard viewpoints.", notes="Requires a Tableau client supporting Drive Time."),
++    CapabilitySpec(key="independent-map-datasources", kind="feature", level="advanced", canonical="configure_chart", rationale="Resolve native map layer fields against independent existing datasources without a blend or join.", notes="map_layer_mode='native'; each map_layers entry may specify datasource by name or unique caption."),
++    CapabilitySpec(key="web", kind="dashboard_zone", level="core", canonical="add_dashboard", aliases=("web-page",), rationale="Embed a native Web Page object through a layout node with type='web' and url."),
+     CapabilitySpec(key="native-map-layers", kind="feature", level="advanced", canonical="configure_chart", rationale="Build independently partitioned native map layers, including multi-measure Pie wedges, on one geographic canvas.", notes="map_layer_mode='native'; default overlay behavior remains compatible."),
+     CapabilitySpec(key="dashboard-extension", kind="dashboard_zone", level="advanced", canonical="add_dashboard_extension", rationale="Declare native extension manifests, localized resources, settings and dashboard bounds without a workbook template."),
+     CapabilitySpec(key="extended-time-series", kind="feature", level="advanced", canonical="configure_worksheet_time_series", rationale="Extend continuous date shelves into future periods with native calculations on densified marks."),
+@@ -419,7 +422,7 @@ CAPABILITY_SPECS: tuple[CapabilitySpec, ...] = (
+         level="advanced",
+         canonical="URL Action",
+         aliases=("url",),
+-        rationale="Important authoring primitive for linking Tableau marks to external workflows.",
++        rationale="Links marks to URLs, optionally routing to a named native Web Page zone via target_web_zone.",
+     ),
+     CapabilitySpec(
+         key="go-to-sheet-action",
+diff --git a/src/cwtwb/charts/__init__.py b/src/cwtwb/charts/__init__.py
+index dc88aec..1327cd7 100644
+--- a/src/cwtwb/charts/__init__.py
++++ b/src/cwtwb/charts/__init__.py
+@@ -45,6 +45,17 @@ from .helpers import (
+ class ChartsMixin:
+     """Mixin providing the stable chart configuration facade for TWBEditor."""
+ 
++    def configure_map_selection(
++        self, worksheet_name: str, *, tool: str = "drive_time",
++        show_toolbar: bool = True,
++    ) -> str:
++        """Set native Drive Time selection on map and dashboard viewpoints."""
++        from ..map_selection import configure_map_selection
++
++        return configure_map_selection(
++            self, worksheet_name, tool=tool, show_toolbar=show_toolbar
++        )
++
+     def configure_chart(
+         self,
+         worksheet_name: str,
+@@ -77,7 +88,12 @@ class ChartsMixin:
+         separate_measure_domains: bool = False,
+         map_layer_mode: str = "overlay",
+     ) -> str:
+-        """Route chart configuration to the correct builder."""
++        """Route chart configuration to the correct builder.
++
++        With ``map_layer_mode="native"``, each ``map_layers`` entry may specify
++        ``datasource`` by existing source name or unique caption. Its fields
++        resolve independently; omitted datasource uses the active source.
++        """
+ 
+         return dispatch_configure_chart(
+             self,
+diff --git a/src/cwtwb/charts/builder_base.py b/src/cwtwb/charts/builder_base.py
+index 0559ef8..131c52d 100644
+--- a/src/cwtwb/charts/builder_base.py
++++ b/src/cwtwb/charts/builder_base.py
+@@ -1835,6 +1835,7 @@ class MapChartBuilder(BaseChartBuilder):
+ 
+     Layer dict keys
+     ---------------
++    datasource      : str   – existing source name or unique caption (native mode)
+     mark_type       : str   – e.g. "Automatic", "Multipolygon"
+     geometry        : str   – spatial field expression for geometry encoding
+     color           : str   – field expression for color encoding
+@@ -1883,6 +1884,11 @@ class MapChartBuilder(BaseChartBuilder):
+         for layer in map_layers or []:
+             if not isinstance(layer, dict):
+                 raise TypeError("Map layers must be dictionaries")
++            if "datasource" in layer:
++                if map_layer_mode != "native":
++                    raise ValueError("Per-layer datasource requires map_layer_mode='native'")
++                if not isinstance(layer["datasource"], str) or not layer["datasource"].strip():
++                    raise ValueError("Map layer datasource must be a nonempty name or caption")
+             values = layer.get("measure_values", [])
+             if not isinstance(values, list) or not all(isinstance(v, str) and v for v in values):
+                 raise ValueError("Map layer measure_values must be a list of expressions")
+@@ -1909,16 +1915,26 @@ class MapChartBuilder(BaseChartBuilder):
+         ds_name = self._datasource.get("name", "")
+ 
+         # Gather all field expressions across all layers for dependency setup
+-        all_exprs = self._collect_all_expressions()
+-        instances = self._parse_and_prepare_instances(all_exprs, self.filters)
+-        # Augment with tooltip-specific aggregations (Attribute for dimensions,
+-        # Sum for measures) so the encoding references resolve correctly.
+-        tooltip_for_deps = self._collect_tooltip_expressions()
+-        self._add_tooltip_instances(instances, all_exprs, tooltip_for_deps)
+-        self._setup_datasource_dependencies(view, ds_name, instances, all_exprs)
++        contexts = None
++        if any("datasource" in layer for layer in self.map_layers or []):
++            contexts = self._prepare_independent_sources(view)
++            instances = contexts[ds_name][1]
++        else:
++            all_exprs = self._collect_all_expressions()
++            instances = self._parse_and_prepare_instances(all_exprs, self.filters)
++            # Tooltip aggregations must also be declared as dependencies.
++            tooltip_for_deps = self._collect_tooltip_expressions()
++            self._add_tooltip_instances(instances, all_exprs, tooltip_for_deps)
++            self._setup_datasource_dependencies(view, ds_name, instances, all_exprs)
++            declarations = view.find("datasources")
++            if declarations is not None:
++                required = {d.get("datasource") for d in view.findall("datasource-dependencies")}
++                for source in list(declarations):
++                    if source.get("name") not in required:
++                        declarations.remove(source)
+ 
+         if self.map_layers and self.map_layer_mode == "native":
+-            self._build_native_layers(table, ds_name, instances)
++            self._build_native_layers(table, ds_name, instances, contexts)
+         elif self.map_layers:
+             self._build_multi_layer(table, ds_name, instances)
+         else:
+@@ -1962,6 +1978,66 @@ class MapChartBuilder(BaseChartBuilder):
+ 
+         return f"Configured worksheet '{self.worksheet_name}' as Map chart"
+ 
++    def _prepare_independent_sources(self, view):
++        """Resolve each source independently before changing worksheet XML."""
++        from ..blending import _registry, _source
++
++        primary_name = self._datasource.get("name")
++        sources = {primary_name: self._datasource}
++        grouped = {primary_name: []}
++        for spec in self.map_layers:
++            source = _source(self.editor, spec["datasource"]) if "datasource" in spec else self._datasource
++            name = source.get("name")
++            sources[name] = source
++            grouped.setdefault(name, []).append(spec)
++        contexts = {}
++        prepared_views = {}
++        for name, source in sources.items():
++            builder = copy.copy(self)
++            builder._datasource = source
++            builder.field_registry = _registry(self.editor, source)
++            builder.field_registry.allow_unknown_fields = False
++            builder.map_layers = grouped[name]
++            if name != primary_name:
++                for attr in ("geographic_field", "color", "size", "label", "detail",
++                             "tooltip", "map_fields", "filters", "map_partition"):
++                    setattr(builder, attr, None)
++            expressions = builder._collect_all_expressions()
++            instances = builder._parse_and_prepare_instances(expressions, builder.filters)
++            builder._add_tooltip_instances(
++                instances, expressions, builder._collect_tooltip_expressions()
++            )
++            prepared = etree.Element("view")
++            builder._setup_datasource_dependencies(prepared, name, instances, expressions)
++            prepared_views[name] = prepared
++            contexts[name] = (builder, instances)
++        for old in view.findall("datasource-dependencies"):
++            view.remove(old)
++        declarations = view.find("datasources")
++        if declarations is None:
++            declarations = etree.Element("datasources")
++            view.insert(0, declarations)
++        for child in list(declarations):
++            declarations.remove(child)
++        dependency_names = set()
++        for name, source in sources.items():
++            etree.SubElement(declarations, "datasource", name=name,
++                             caption=source.get("caption", name))
++            for deps in prepared_views[name].findall("datasource-dependencies"):
++                dep_name = deps.get("datasource")
++                if dep_name in dependency_names:
++                    continue
++                dependency_names.add(dep_name)
++                aggregation = view.find("aggregation")
++                if aggregation is not None:
++                    aggregation.addprevious(deps)
++                else:
++                    view.append(deps)
++        if "Parameters" in dependency_names:
++            etree.SubElement(declarations, "datasource", name="Parameters")
++        self._ensure_manifest_entry("LayersPerPaneSpecPrimaryDS")
++        return contexts
++
+     # ------------------------------------------------------------------
+     # Field expression collection
+     # ------------------------------------------------------------------
+@@ -2062,7 +2138,7 @@ class MapChartBuilder(BaseChartBuilder):
+     # ------------------------------------------------------------------
+     # Multi-layer map
+     # ------------------------------------------------------------------
+-    def _build_native_layers(self, table, ds_name, instances):
++    def _build_native_layers(self, table, ds_name, instances, contexts=None):
+         """Build Tableau map layers with independent geographic partitions."""
+         from .builder_layered import LayeredChartBuilder
+ 
+@@ -2099,8 +2175,24 @@ class MapChartBuilder(BaseChartBuilder):
+             )
+             etree.SubElement(base_encodings, "tooltip", column=reference)
+         etree.SubElement(base, "style")
+-        measures = []
++        primary_name = ds_name
++        primary_instances = instances
++        measures_by_source = {}
+         for index, spec in enumerate(self.map_layers, 1):
++            context = self
++            ds_name, instances = primary_name, primary_instances
++            if contexts is not None:
++                from ..blending import _source
++
++                if "datasource" in spec:
++                    ds_name = _source(self.editor, spec["datasource"]).get("name")
++                context, instances = contexts[ds_name]
++            helper.field_registry = context.field_registry
++            helper._datasource = context._datasource
++            helper.editor = copy.copy(self.editor)
++            helper.editor._datasource = context._datasource
++            helper.editor.field_registry = context.field_registry
++            measures = measures_by_source.setdefault(ds_name, [])
+             mark = spec.get("mark_type", "Automatic")
+             pane = etree.SubElement(
+                 panes,
+@@ -2171,9 +2263,9 @@ class MapChartBuilder(BaseChartBuilder):
+             if isinstance(tooltip, str):
+                 tooltip = [tooltip]
+             for expression in tooltip:
+-                instance = self._tooltip_instance_for_expression(expression)
++                instance = context._tooltip_instance_for_expression(expression)
+                 ref = (
+-                    self.field_registry.resolve_full_reference(instance.instance_name)
++                    context.field_registry.resolve_full_reference(instance.instance_name)
+                     if instance is not None
+                     else helper._field_ref(instances, expression, ds_name)
+                 )
+@@ -2206,9 +2298,16 @@ class MapChartBuilder(BaseChartBuilder):
+             helper._apply_color_map(instances, spec, table.find("view"))
+         view = table.find("view")
+         for old_filter in view.findall("filter"):
+-            if old_filter.get("column") == f"[{ds_name}].[:Measure Names]":
++            if old_filter.get("column", "").endswith("].[:Measure Names]"):
+                 view.remove(old_filter)
+-        helper._append_measure_names_filter(view, instances, ds_name, measures)
++        for source_name, measures in measures_by_source.items():
++            source_context, source_instances = (
++                contexts[source_name] if contexts is not None
++                else (self, primary_instances)
++            )
++            helper.field_registry = source_context.field_registry
++            helper._datasource = source_context._datasource
++            helper._append_measure_names_filter(view, source_instances, source_name, measures)
+ 
+     def _build_multi_layer(self, table, ds_name, instances):
+         """Build multi-layer panes with ``customization-axis='layer'``."""
+diff --git a/src/cwtwb/charts/builder_layered.py b/src/cwtwb/charts/builder_layered.py
+index 3f9a7c3..17f0e65 100644
+--- a/src/cwtwb/charts/builder_layered.py
++++ b/src/cwtwb/charts/builder_layered.py
+@@ -379,7 +379,8 @@ class LayeredChartBuilder(BaseChartBuilder):
+             f"column-instance[@name='{instance.instance_name}']"
+         )
+         bound_instance = view.find(
+-            f"datasource-dependencies/column-instance[@name='{instance.instance_name}']"
++            f"datasource-dependencies[@datasource='{self._datasource.get('name')}']"
++            f"/column-instance[@name='{instance.instance_name}']"
+         )
+         if bound_instance is not None:
+             for old in list(palette_instance.findall("table-calc")):
+diff --git a/src/cwtwb/dashboards.py b/src/cwtwb/dashboards.py
+index e7dc1fd..8178478 100644
+--- a/src/cwtwb/dashboards.py
++++ b/src/cwtwb/dashboards.py
+@@ -94,6 +94,7 @@ VALID_LAYOUT_NODE_TYPES = {
+     "size",
+     "navigation_button",
+     "empty",
++    "web",
+ }
+ 
+ LAYOUT_DOCUMENT_WRAPPER_KEY = "layout_schema"
+@@ -169,7 +170,22 @@ def normalize_dashboard_layout(node: dict[str, Any]) -> dict[str, Any]:
+     """Normalize legacy layout aliases and validate the declarative tree."""
+     if not isinstance(node, dict):
+         raise ValueError("Dashboard layout nodes must be objects.")
+-    return _normalize_dashboard_layout_node(node, path="layout")
++    normalized = _normalize_dashboard_layout_node(node, path="layout")
++    web_names: set[str] = set()
++
++    def validate_names(item):
++        if item["type"] == "web" and "name" in item:
++            name = item["name"]
++            if not isinstance(name, str) or not name.strip():
++                raise ValueError("Web zone name must be a nonempty string")
++            if name in web_names:
++                raise ValueError(f"Duplicate web zone name: {name}")
++            web_names.add(name)
++        for child in item.get("children", []):
++            validate_names(child)
++
++    validate_names(normalized)
++    return normalized
+ 
+ 
+ def load_dashboard_layout_file(layout_path: str | Path) -> dict[str, Any]:
+@@ -236,6 +252,11 @@ def _normalize_dashboard_layout_node(node: dict[str, Any], path: str) -> dict[st
+     else:
+         normalized["type"] = node_type
+ 
++    if node_type == "web":
++        from .layout import validate_web_url
++
++        validate_web_url(normalized.get("url"))
++
+     children = normalized.get("children")
+     if children is None:
+         normalized["children"] = []
+@@ -509,8 +530,13 @@ def add_dashboard_action(
+     source_sheets: list[str] | None = None,
+     target_sheets: list[str] | None = None,
+     target_dashboard: str = "",
++    target_web_zone: str | None = None,
+ ) -> str:
+-    """Add an interaction action to a dashboard."""
++    """Add an action; target_web_zone names a web layout node on this dashboard.
++
++    Omit target_web_zone to retain Tableau's default URL destination.
++    The named web zone must already exist; its generated ID is resolved here.
++    """
+ 
+     normalized_type = action_type.strip().casefold()
+     if normalized_type not in _SUPPORTED_ACTION_TYPES:
+@@ -550,6 +576,25 @@ def add_dashboard_action(
+     if db_el is None:
+         raise ValueError(f"Dashboard '{dashboard_name}' not found.")
+ 
++    web_zone_id = None
++    if target_web_zone is not None:
++        if normalized_type != "url":
++            raise ValueError("target_web_zone is supported only for URL actions")
++        if not isinstance(target_web_zone, str) or not target_web_zone.strip():
++            raise ValueError("target_web_zone must be a nonempty web zone name")
++        if target_sheet:
++            raise ValueError("target_web_zone and target_sheet are mutually exclusive")
++        matches = db_el.xpath(
++            "./zones//zone[@type-v2='web' and @name=$name]", name=target_web_zone
++        )
++        if len(matches) != 1:
++            raise ValueError("target_web_zone must identify exactly one web zone on this dashboard")
++        web_zone_id = matches[0].get("id")
++        if not web_zone_id or not web_zone_id.isdecimal():
++            raise ValueError("Target web zone must have a numeric generated ID")
++        if len(db_el.xpath("./zones//zone[@id=$id]", id=web_zone_id)) != 1:
++            raise ValueError("Target web zone ID must be unique on this dashboard")
++
+     dashboard_sheets = _collect_dashboard_worksheets(editor, db_el)
+     if source_sheets is not None or target_sheets is not None:
+         if normalized_type not in {"filter", "highlight"}:
+@@ -676,7 +721,14 @@ def add_dashboard_action(
+             exclude_sheets,
+         )
+     elif normalized_type == "url":
+-        _configure_url_action(action_el, action_caption, url)
++        if web_zone_id is not None:
++            manifest = editor.root.find("document-format-change-manifest")
++            if manifest is None:
++                manifest = etree.Element("document-format-change-manifest")
++                editor.root.insert(0, manifest)
++            if manifest.find("SpecificWebTargetsForActions") is None:
++                etree.SubElement(manifest, "SpecificWebTargetsForActions")
++        _configure_url_action(action_el, action_caption, url, web_zone_id)
+     else:
+         _configure_go_to_sheet_action(action_el, target_sheet)
+ 
+@@ -972,6 +1024,7 @@ def _collect_dashboard_worksheets(editor, db_el: etree._Element) -> list[str]:
+         sheet_name = zone.get("name")
+         if (
+             sheet_name
++            and zone.get("type-v2") != "web"
+             and sheet_name in worksheet_names
+             and sheet_name not in dashboard_sheets
+         ):
+@@ -1070,12 +1123,16 @@ def _configure_url_action(
+     action_el: etree._Element,
+     action_caption: str,
+     url: str,
++    web_zone_id: str | None = None,
+ ) -> None:
+     """Populate a static URL action without a Tableau command payload."""
+ 
+     link_el = etree.SubElement(action_el, "link")
+     link_el.set("caption", action_caption)
+     link_el.set("expression", url)
++    if web_zone_id is not None:
++        etree.SubElement(link_el, "url-action-type").text = "specific-zone"
++        etree.SubElement(link_el, "url-action-target").text = web_zone_id
+ 
+ 
+ def _configure_go_to_sheet_action(
+@@ -1418,8 +1475,9 @@ class DashboardsMixin:
+         source_sheets: list[str] | None = None,
+         target_sheets: list[str] | None = None,
+         target_dashboard: str = "",
++        target_web_zone: str | None = None,
+     ) -> str:
+-        """Add an interaction action to a dashboard."""
++        """Add an action, optionally targeting a web layout node by name."""
+         return add_dashboard_action(
+             self,
+             dashboard_name,
+@@ -1439,6 +1497,7 @@ class DashboardsMixin:
+             source_sheets=source_sheets,
+             target_sheets=target_sheets,
+             target_dashboard=target_dashboard,
++            target_web_zone=target_web_zone,
+         )
+ 
+     def add_dashboard_set_action(
+diff --git a/src/cwtwb/layout.py b/src/cwtwb/layout.py
+index 2244a2f..8e4fa77 100644
+--- a/src/cwtwb/layout.py
++++ b/src/cwtwb/layout.py
+@@ -10,6 +10,22 @@ from lxml import etree
+ logger = logging.getLogger(__name__)
+ 
+ 
++def validate_web_url(url: Any) -> str:
++    """Validate a Web Page URL before replacing an existing dashboard."""
++    from urllib.parse import urlsplit
++
++    message = "web requires an HTTP or HTTPS url without credentials or whitespace"
++    if not isinstance(url, str):
++        raise ValueError(message)  # noqa: TRY004 - authoring validation uses ValueError
++    parsed = urlsplit(url)
++    if (
++        parsed.scheme not in {"http", "https"} or not parsed.hostname
++        or parsed.username or parsed.password or any(c.isspace() for c in url)
++    ):
++        raise ValueError(message)
++    return url
++
++
+ def _coerce_text_run(run: dict[str, Any]) -> dict[str, Any]:
+     """Normalize one declarative text run while preserving Tableau-like keys."""
+     res = {
+@@ -41,6 +57,9 @@ class FlexNode:
+         self.style = d.get("style", {})
+ 
+         self.name = d.get("name")
++        self.url = d.get("url")
++        if self.type == "web":
++            validate_web_url(self.url)
+         self.text_content = d.get("text", "")
+         self.font_size = d.get("font_size", "12")
+         self.font_color = d.get("font_color", "#111e29")
+@@ -254,6 +273,12 @@ def render_flex_node(
+         _render_navigation_button(node, zone, context)
+     elif node.type == "empty":
+         _render_empty(node, zone)
++    elif node.type == "web":
++        zone.set("type-v2", "web")
++        zone.set("param", node.url)
++        zone.set("forceUpdate", "")
++        if node.name is not None:
++            zone.set("name", node.name)
+ 
+     style_dict = dict(node.style)
+     if node.type in ("filter", "paramctrl", "set_control"):
+diff --git a/src/cwtwb/mcp/tools_workbook.py b/src/cwtwb/mcp/tools_workbook.py
+index 17fd32c..b3196fb 100644
+--- a/src/cwtwb/mcp/tools_workbook.py
++++ b/src/cwtwb/mcp/tools_workbook.py
+@@ -595,6 +595,16 @@ def set_worksheet_hidden(worksheet_name: str, hidden: bool = True) -> str:
+     return editor.set_worksheet_hidden(worksheet_name, hidden=hidden)
+ 
+ 
++@server.tool()
++def configure_map_selection(
++    worksheet_name: str, tool: str = "drive_time", show_toolbar: bool = True,
++) -> str:
++    """Set native Drive Time selection for a map and its dashboard viewpoints."""
++    return get_editor().configure_map_selection(
++        worksheet_name, tool=tool, show_toolbar=show_toolbar
++    )
++
++
+ @server.tool()
+ def configure_chart(
+     worksheet_name: str,
+@@ -629,6 +639,9 @@ def configure_chart(
+ ) -> str:
+     """Configure chart type and field mappings for a worksheet.
+ 
++    Native map layers (map_layer_mode="native") accept a per-layer datasource
++    name or unique caption. Layer fields resolve independently within that source.
++
+     For chart type selection and encoding best practices, read: read_resource('cwtwb://skills/chart_builder')
+     """
+ 
+@@ -1008,6 +1021,7 @@ def add_dashboard(
+     - str (file path): Path to JSON or YAML layout file (recommended for complex layouts)
+     - dict: Custom declarative layout tree passed inline
+       Native set control (mode dropdown or checkdropdown): {"type": "set_control", "field": "Set name", "worksheet": "View", "mode": "dropdown"}
++      Native Web Page: {"type": "web", "url": "https://example.org"}
+     - "auto" (default): Simple vertical fallback — use layout dict or layout file for mixed layouts
+     - "vertical": All worksheets stacked vertically
+     - "horizontal": All worksheets side-by-side
+@@ -1068,12 +1082,15 @@ def add_dashboard_action(
+     source_sheets: list[str] | None = None,
+     target_sheets: list[str] | None = None,
+     target_dashboard: str = "",
++    target_web_zone: str | None = None,
+ ) -> str:
+     """Add a filter, highlight, URL, navigation, or parameter dashboard action.
+ 
+     For ``action_type="parameter"``, provide ``source_field``,
+     ``target_parameter``, and a Tableau-serialized ``clear_value`` such as
+     ``d:2026-02-12``, ``i:0``, or ``s:LROOT:All``.
++    For URL actions, ``target_web_zone`` selects an existing web layout node
++    by its ``name`` on this dashboard, using Tableau's specific-zone routing.
+     """
+ 
+     editor = get_editor()
+@@ -1095,6 +1112,7 @@ def add_dashboard_action(
+         source_sheets=source_sheets,
+         target_sheets=target_sheets,
+         target_dashboard=target_dashboard,
++        target_web_zone=target_web_zone,
+     )
+ 
+ 
+diff --git a/src/cwtwb/mcp_server.py b/src/cwtwb/mcp_server.py
+index f43ee5d..c1c6623 100644
+--- a/src/cwtwb/mcp_server.py
++++ b/src/cwtwb/mcp_server.py
+@@ -69,6 +69,7 @@ from .mcp.tools_workbook import (
+     analyze_twb,
+     clone_worksheet,
+     configure_chart,
++    configure_map_selection as configure_map_selection,
+     configure_chart_recipe,
+     configure_dual_axis,
+     configure_layered_chart,
+diff --git a/src/cwtwb/server.py b/src/cwtwb/server.py
+index 8634135..4995779 100644
+--- a/src/cwtwb/server.py
++++ b/src/cwtwb/server.py
+@@ -21,6 +21,7 @@ from .mcp_server import (
+     analyze_twb,
+     clone_worksheet,
+     configure_chart,
++    configure_map_selection as configure_map_selection,
+     configure_chart_recipe,
+     configure_dual_axis,
+     configure_layered_chart,
+diff --git a/src/cwtwb/skills/chart_builder.md b/src/cwtwb/skills/chart_builder.md
+index e0c19d8..c2393a9 100644
+--- a/src/cwtwb/skills/chart_builder.md
++++ b/src/cwtwb/skills/chart_builder.md
+@@ -209,6 +209,16 @@ configure_chart(
+ Different Pie layers share that domain; `color_map` keys are public expressions.
+ `map_partition` is supported by overlay mode only.
+ 
++Native layers also accept `datasource` as an existing source name or unique
++caption. Add each source and its calculated fields before configuring the map;
++each layer's geometry, details, colors and tooltips resolve in that source.
++This does not join the sources. Top-level fields remain in the active source.
++
++After configuring a map, call `configure_map_selection("Map", tool="drive_time")`
++to select the Drive Time tool and show its toolbar. Dashboard viewpoints inherit
++the setting. This configures the client tool; it does not calculate travel-time
++polygons in Python. Verify the interaction in a supporting Tableau client.
++
+ ### Pie Charts
+ 
+ For composition/parts of whole:
+diff --git a/src/cwtwb/skills/dashboard_designer.md b/src/cwtwb/skills/dashboard_designer.md
+index 05c7d87..9735876 100644
+--- a/src/cwtwb/skills/dashboard_designer.md
++++ b/src/cwtwb/skills/dashboard_designer.md
+@@ -215,6 +215,16 @@ Best practices:
+ - Prefer highlight when you want comparison without fully filtering away context.
+ - Use it for shared time periods or shared dimensions.
+ 
++### Embedded Web Page URL Targets
++
++In the generated layout JSON, give a Web Page node a unique name:
++`{"type": "web", "name": "Preview", "url": "https://example.org"}`.
++After creating the dashboard, call
++`add_dashboard_action(..., action_type="url", target_web_zone="Preview")`.
++The SDK resolves the generated zone ID and adds the required Tableau manifest.
++The name must identify one Web Page node on that dashboard. Test actual navigation
++and the destination's embedding support separately from structural validation.
++
+ ### Go-To-Sheet Action
+ 
+ Use go-to-sheet actions for a clear overview-to-detail flow.
+diff --git a/src/cwtwb/twb_editor.py b/src/cwtwb/twb_editor.py
+index 2228374..8936f88 100644
+--- a/src/cwtwb/twb_editor.py
++++ b/src/cwtwb/twb_editor.py
+@@ -3398,6 +3398,13 @@ class TWBEditor(ParametersMixin, ConnectionsMixin, ChartsMixin, DashboardsMixin)
+                 if zoom_type:
+                     zoom = etree.SubElement(viewpoint, "zoom")
+                     zoom.set("type", zoom_type)
++                from .map_selection import copy_map_selection
++
++                for source_window in windows.findall("window[@class='worksheet']"):
++                    if source_window.get("name") == vp_name:
++                        source_viewpoint = source_window.find("viewpoint")
++                        if source_viewpoint is not None:
++                            copy_map_selection(source_viewpoint, viewpoint)
+             active = etree.SubElement(win, "active")
+             active.set("id", "-1")
+ 

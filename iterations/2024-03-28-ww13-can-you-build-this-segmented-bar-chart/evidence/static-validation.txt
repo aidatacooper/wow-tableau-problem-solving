@@ -1,0 +1,42 @@
+C:\Users\imgwho\Desktop\project\wow-tableau-problem-solving\iterations\2024-03-28-ww13-can-you-build-this-segmented-bar-chart\outputs\replicated-workbook.twbx
+{
+  "status": "PASS",
+  "scope": "static structure and full-data numerical oracle; Desktop/render/hover pending",
+  "workbook_sha256": "a2aa7b2b00b4da451b2087e0df41db7b54678bb93f4fccf78ab4965df98f0a6b",
+  "input_sha256": "dbd9cf32a714ed5c7b5b129443e54e7018dfe8b78ec9d21dade9b12d88a31ddc",
+  "source_rows": 10194,
+  "sub_categories": 17,
+  "year_segments": 68,
+  "grand_total": 2326534.3543000002,
+  "top_category": "Chairs",
+  "acceptance_ids": [
+    "source-data",
+    "sales-geometry",
+    "descending-order",
+    "tooltip-contract",
+    "layout-contract"
+  ]
+}
+Traceback (most recent call last):
+  File "C:\Users\imgwho\Desktop\project\wow-tableau-problem-solving\scripts\validate_iteration.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\imgwho\Desktop\project\wow-tableau-problem-solving\scripts\validate_iteration.py", line 480, in main
+    validate_iteration(args.case_dir, run_scripts=not args.metadata_only)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\imgwho\Desktop\project\wow-tableau-problem-solving\scripts\validate_iteration.py", line 472, in validate_iteration
+    check_catalogue(LAB_ROOT)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\imgwho\Desktop\project\wow-tableau-problem-solving\scripts\case_catalogue.py", line 332, in check_catalogue
+    index = catalogue(root)
+  File "C:\Users\imgwho\Desktop\project\wow-tableau-problem-solving\scripts\case_catalogue.py", line 297, in catalogue
+    cases = active_cases(root)
+  File "C:\Users\imgwho\Desktop\project\wow-tableau-problem-solving\scripts\case_catalogue.py", line 271, in active_cases
+    validate_identity(directory, document, root)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\imgwho\Desktop\project\wow-tableau-problem-solving\scripts\case_catalogue.py", line 237, in validate_identity
+    relative_file(case_dir, value)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\imgwho\Desktop\project\wow-tableau-problem-solving\scripts\case_catalogue.py", line 121, in relative_file
+    raise AssertionError(f"Missing artifact/evidence: {result}")
+AssertionError: Missing artifact/evidence: C:\Users\imgwho\Desktop\project\wow-tableau-problem-solving\iterations\2023-02-23-ww08-can-you-build-a-comet-chart-as-an-alternative-to-a-side-by-side-bar-chart\outputs\replicated-workbook.twbx
