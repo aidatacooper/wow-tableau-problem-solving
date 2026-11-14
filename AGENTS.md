@@ -43,8 +43,8 @@ For each claimed case:
 1. understand the business question before changing code;
 2. inspect the author workbook during analysis only;
 3. extract its packaged data files once;
-4. baseline with the latest PyPI stable `cwtwb`, then test explicitly selected
-   prerelease/main sources when a gap remains;
+4. default to the latest PyPI stable `cwtwb` baseline, or use an explicitly
+   requested source baseline with its full SHA; distinguish these channels;
 5. record whether `cwtwb` passed, needed a workaround, or was blocked;
 6. track reusable gaps through SDK repair and final full-case acceptance.
 
@@ -104,8 +104,10 @@ until every required acceptance scenario passes on the final artifact.
 ## When to change cwtwb
 
 Do not edit `cwtwb` while establishing the baseline. First reproduce the gap
-with the latest PyPI stable release; record prerelease and freshly fetched
-main separately. Never infer "latest" from an editable install's version.
+with the latest PyPI stable release by default. An explicitly requested source
+baseline must record its full SHA and must not imply a PyPI baseline was run.
+Record prerelease and freshly fetched main separately. Never infer "latest"
+from an editable install's version.
 See the dated source snapshot and selection procedure in
 [docs/iterating-cwtwb-and-wow.md](docs/iterating-cwtwb-and-wow.md).
 

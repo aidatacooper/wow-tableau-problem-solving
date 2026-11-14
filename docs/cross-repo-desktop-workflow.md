@@ -10,14 +10,15 @@ SDK 修复必须依次验证结构、加载、业务行为，最后对完整 cas
 
 `mark-line-pattern` 同样需要 `PatternedLineMarks` 声明，缺失时 XSD 仍可能通过。
 SDK PR #25 已在
-`bbd749f25a5375889a66a8cd72aaaee129810353` 合并通用修复，本仓库 pin 使用
-该 main hotfix；已发布的 PyPI `0.29.0a3` 不包含它。来源区别见下述 SDK
+`bbd749f25a5375889a66a8cd72aaaee129810353` 合并通用修复，现已包含在本仓库
+最终 a4 源码 pin 中；已发布的 PyPI `0.29.0a3` 不包含它。来源区别见下述 SDK
 迭代流程；版本号相同不能证明代码相同。
 
 ## 1. 固定本次 SDK 来源
 
 先按 [SDK 迭代流程](iterating-cwtwb-and-wow.md) 区分 stable、prerelease 和
-fresh main。修改前保存 stable 基线；后续运行逐次追加，不覆盖旧结果。
+fresh main。修改前保存 stable 基线，或任务明确指定的源码基线并记录完整 SHA；
+后续运行逐次追加，不覆盖旧结果，不把源码基线记作 PyPI stable 测试。
 requirements pin 与 editable 安装都不自动代表“最新”。
 
 源码检出示例（PowerShell；路径替换为实际选定的 SDK）：
@@ -95,9 +96,11 @@ python scripts/desktop/verify_corpus.py
   `Close` 关闭对话框，绝不删除用户的恢复文件。
 - 截图只捕获 Tableau 的 HWND，使用 DPI-aware 的窗口尺寸，不截取整个桌面。
 
-跨 pane tooltip 的第二个 SDK 修复由集成人推进，计划纳入后续 a4；
-当前不视为已修复或已发布。requirements 暂留 `bbd749f25a5375889a66a8cd72aaaee129810353`，
-收到集成人提供的最终已合并 release/fix SHA 后，再更新 pin 并重测。
+跨 pane tooltip 修复已随 PR #26 合并，requirements 最终 pin 为
+`81362658fa1856ce98e86033b05e9f77c6bdad47`（源码 `0.29.0a4`）。
+集成人报告实际 WW03 circle tooltip 金额已恢复；这不替代其他 acceptance。
+最终 50 个 Desktop 回归仍由集成人运行，PyPI a4 发布待完成；收到发布详情前
+保持该 pin，不将源码合并写成包已发布或全量回归已通过。
 
 所有会重建的命令必须在冻结证据前完成；重建可能改变 UUID 和产物 hash。
 `case.yaml` 的 `artifacts.primary_workbook` 必须与 builder 默认输出及 verifier
@@ -108,7 +111,7 @@ python scripts/desktop/verify_corpus.py
 
 ## 4. SDK 修复与交接
 
-1. 保存 stable 失败基线，检查 prerelease/fresh main 是否仍有缺口。
+1. 保存 stable 失败基线（或明确指定的源码基线），检查 prerelease/fresh main 是否仍有缺口。
 2. 建 gap 记录：ID、负责人、受影响 acceptance IDs、synthetic 复现、下一步。
    状态为 `identified -> reproduced -> fixing -> upstream merged ->
    case retested -> accepted`。
@@ -139,7 +142,7 @@ python scripts/desktop/verify_corpus.py
 
 ## 6. 最终验收
 
-- SDK 来源可复现，stable 基线及后续运行均保留；最终 pin 可安装。
+- SDK 来源可复现，所选基线渠道明确且后续运行均保留；最终 pin 可安装。
 - 公共 API 边界、SDK synthetic 测试及 WoW 必需检查通过。
 - 当前回归清单全部 LOADED，目标 case 的全部必需业务/交互 acceptance 通过。
 - 最终证据对应最终产物 hash，未将结构检查或截图冒充交互验证。

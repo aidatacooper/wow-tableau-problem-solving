@@ -21,16 +21,18 @@ SDK PR 合并也只完成上游修复，仍需 case 重测与验收。
 - 已发布 prerelease：`cwtwb` PR #24 的合并提交
   `1d578a3f815dde189860d0243404bf84057a19f8` 对应公开 tag `v0.29.0a3`。
   PyPI `0.29.0a3` wheel 和 sdist 已公开，SHA256 与已检查发布包一致；
-  **这些已发布包不包含后续 `PatternedLineMarks` 修复**。
-- 本仓库 requirements pin：`bbd749f25a5375889a66a8cd72aaaee129810353`，
-  即 CI 通过并已合并的 `cwtwb` PR #25。这是 a3 发布后的 main hotfix，
-  为 `mark-line-pattern` 自动补齐 `PatternedLineMarks` manifest。
-  源码包版本仍为 `0.29.0a3`，必须用完整 Git SHA 区分它与 PyPI a3。
-- 后续 a4 发布需另行完成回归和发布；此快照不将其视为已有发行。
+  **这些已发布包不包含后续 `PatternedLineMarks` 和跨 pane tooltip 修复**。
+- 本仓库最终 requirements pin：`81362658fa1856ce98e86033b05e9f77c6bdad47`，
+  即 CI 通过并已合并的 `cwtwb` PR #26，源码版本 `0.29.0a4`；
+  包含 PR #25 的 manifest 修复及后续 tooltip 修复。
+- **a4 源码已合并，PyPI 发布仍待完成**。集成人正在运行最终 50 个 Desktop
+  回归；此快照不将回归或发布记为完成。收到发布详情前保持此 pin 不再调整。
 
 这是带日期的记录，不是后续运行的固定期望；每次任务重新查询三个渠道。
 
-修改 SDK 前先用 stable 建立失败基线，再测试可用 prerelease/main。
+修改 SDK 前默认用 PyPI stable 建立失败基线，再测试可用 prerelease/main。
+任务明确指定源码基线时，可安装 requirements 的完整 Git pin；记录 source
+渠道和实际 SHA，不将其冒充 PyPI 包或已执行的 stable 基线。
 使用分开的环境/检出，避免安装覆盖或 editable 路径串用。记录实际 import 路径、
 版本、完整 SHA 和 dirty 状态；源码有未提交修改时，另存 diff，不能只报 HEAD。
 包安装没有 Git SHA 时写“不适用”，保存确切包来源与 hash。

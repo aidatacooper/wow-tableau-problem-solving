@@ -16,6 +16,11 @@ requirements 的 pin 是可复现依赖，不等于最新 PyPI stable。按
 main，显式选择本次 SDK。`posts/`、`dashboards/`、`dataset/` 是 gitignore
 生成物；缺素材时运行 `python download_all.py --refresh`。
 
+默认以 PyPI stable 建立诊断基线；任务明确指定源码基线时，可用 requirements
+中的完整 Git SHA 安装并记录 source 渠道、版本、导入路径及实际 SHA。
+当前 pin 是已合并的 `0.29.0a4` 源码，PyPI 发布仍待完成；安装该 pin
+不等于安装 PyPI a4，也不能记作已跑 stable 基线。
+
 检查已有 case issue，避免重复认领。按任务授权新建临时分支，不直接提交 main，
 不覆盖他人未提交改动。普通 case PR 只改本 case 和生成索引；SDK 修复另提 PR。
 仓库约定优先 `--merge`。Squash 会产生新 SHA，但不必然使旧提交不可达；
@@ -39,7 +44,7 @@ python scripts/prepare_case.py \
 | 步骤 | 动作与产出 |
 | --- | --- |
 | 分析 | 读文章、作者工作簿和参考图，写 `analysis.md`；列出全部业务要求及可观察的 acceptance IDs，包括交互。 |
-| 基线 | 修改 SDK 前，用显式选定的最新 stable 构建、验证并保存失败证据；builder 只用公共 SDK 和允许的数据输入。 |
+| 基线 | 修改 SDK 前，默认用最新 PyPI stable，或任务明确指定的源码 SHA，构建、验证并保存真实证据；标明渠道，builder 只用公共 SDK 和允许的数据输入。 |
 | 定位 | 用独立环境/检出测试 prerelease、fresh main；逐次追加 `cwtwb.runs`，不能覆盖 stable 失败。 |
 | 修复 | case 用法错误改 builder；可复用 SDK 缺口走独立 synthetic 测试与 SDK PR，维护 gap 生命周期。 |
 | 重建 | 用最终选定 SDK 跑 validator、builder、verifier；SDK 改动还需重建回归清单。 |
