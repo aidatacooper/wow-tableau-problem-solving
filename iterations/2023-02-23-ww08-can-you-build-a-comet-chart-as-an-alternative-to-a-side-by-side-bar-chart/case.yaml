@@ -26,8 +26,8 @@ source:
 verification_status: pending
 artifacts:
   primary_workbook: outputs/replicated-workbook.twbx
-  cloud_author: evidence/author-reference.png
-  cloud_replica: evidence/desktop-final-dashboard.png
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
 artifact_aliases: {}
 historical_artifacts: []
 evidence:
