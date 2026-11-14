@@ -8088,7 +8088,13 @@
         "evidence/desktop-a4-live-process-20261114.json",
         "evidence/desktop-a4-crosstab.tsv",
         "evidence/pre-tooltip-fix-rejection.log",
-        "evidence/publication-a4.md"
+        "evidence/publication-a4.md",
+        "evidence/corpus-a4/desktop-summary.json",
+        "evidence/corpus-a4/artifact-hashes.csv",
+        "evidence/corpus-a4/summary.json",
+        "evidence/corpus-a4/sdk-source-hashes.json",
+        "evidence/a4-exact-pin-changed-cases.log.txt",
+        "evidence/a4-exact-pin-unittests.log.txt"
       ],
       "notes": [
         "Legacy cloud_author/cloud_replica artifact keys identify the author reference and Desktop screenshot respectively; no Cloud rendering is claimed.",
@@ -8096,7 +8102,7 @@
         "Builder uses only public SDK and extracted Hyper; no SDK edits and no raw XML authoring.",
         "Final a4 artifact is Desktop LOADED; 68 runtime rows covering 34 annual values agree within 1e-6, seven observed tooltips pass, and clicking the selected Phones circle again restores all 17 rows and original colors.",
         "Envelopes 2021 endpoint is occluded by standard LOD circles and was not directly hovered; its 4745.41 value is verified in the actual Desktop crosstab.",
-        "Release corpus evidence is historical; parent final a4 corpus gate remains pending."
+        "Final a4 corpus passes 50 LOADED, 0 FAIL, 0 UNKNOWN on source 175471b0fa4ad0ae91b4d9b6d629a621583d945e, matching the accepted primary build source. Earlier release corpus evidence is historical."
       ],
       "metadata": "iterations/2023-02-23-ww08-can-you-build-a-comet-chart-as-an-alternative-to-a-side-by-side-bar-chart/case.yaml",
       "metadata_contract": "1.1.0",

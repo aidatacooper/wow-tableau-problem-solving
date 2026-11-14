@@ -1,6 +1,6 @@
 # Progress
 
-Current state: case replicated / verified / acceptable_delta on final a4 primary `dad8b357161b428c980f465d1368e95d5c40c4fde58d12c84171067c619ba33c`; parent full-corpus gate pending. Earlier entries below are historical.
+Current state: case replicated / verified / acceptable_delta on final a4 primary `dad8b357161b428c980f465d1368e95d5c40c4fde58d12c84171067c619ba33c`; all gates pass, including final a4 full corpus. Earlier entries below are historical.
 
 - 2026-11-14: Read required rules; fetched origin/main; no active 2023 ww08 iteration and no open issues. Claimed only this directory.
 - 2026-11-14: Official API confirms 2023-02-22 despite legacy wow2022w08 URL. Prepared extracted Hyper with source-lock. Standard LOD tier selected; optional advanced tier documented, no required base requirement removed.
@@ -12,3 +12,4 @@ Current state: case replicated / verified / acceptable_delta on final a4 primary
 - 2026-11-14: Case-local static gates all pass. Repository tests: 83 run, 81 pass, 2 shared-catalogue failures. No Desktop operations, commits, branch changes, SDK or index edits.
 - Handoff: parent runs Desktop and visual/tooltip/numeric gates from evidence/desktop-acceptance.md; refreshes shared index and reruns full validator + tests before per-case commit/push. Status remains partial.
 - 2026-11-14 finalization: accepted parent's a4 runtime evidence (68 rows / 34 annual values, seven tooltips, selected-circle clearing). Envelopes 2021 remains explicitly not directly hovered. Updated merged SDK pin and current narrative while preserving pre-fix evidence. PR66 remains draft pending parent final a4 corpus evidence.
+- 2026-11-14 gate completion: parent supplied final a4 corpus; independently cross-checked 50 distinct LOADED results against build hashes and source provenance. Exact merged-pin isolated committed-case validator and all 83 tests pass. Integration pending state is cleared; PR66 is ready for review.

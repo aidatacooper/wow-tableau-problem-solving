@@ -18,6 +18,10 @@ The official baseline requires one sheet in an 800 x 700 dashboard, 2021 narrow 
 
 `static-verification.json` covers the current artifact's automated contracts and source numerics. Its generic pending runtime fields are superseded by the actual a4 live acceptance report.
 
-## Integration gate pending
+## Integration gate passed
 
-`desktop-corpus.json` and `desktop-corpus-evidence.json` describe 50 LOADED, 0 FAIL, 0 UNKNOWN on pre-fix SDK `2b72232245959934281c49308f5c3b2fca8fc519`. They do not establish final a4 regression coverage. PR66 must remain draft until the parent supplies the final a4 full-corpus result and provenance. Finalization does not launch Desktop or rebuild the primary workbook.
+`desktop-corpus.json` and `desktop-corpus-evidence.json` describe the superseded pre-fix corpus on SDK `2b72232245959934281c49308f5c3b2fca8fc519`.
+
+The parent's final evidence is copied byte-for-byte from `tmp/cwtwb-a4-regression-20261114` into `corpus-a4/`: `desktop-summary.json`, `artifact-hashes.csv`, `summary.json` and `sdk-source-hashes.json`. All 50 distinct Desktop results are LOADED, with 0 FAIL and 0 UNKNOWN. Their artifact hashes match the 50 successful isolated builds in the CSV. Every result uses SDK source `175471b0fa4ad0ae91b4d9b6d629a621583d945e`, matching the accepted primary's build source. The source manifest matches the primary build's recorded SDK files. `summary.json` is the earlier build-phase report (`desktop_run: false`); the later `desktop-summary.json` supplies the actual completed Desktop gate. This corpus checks loading, while case interactions and rendering are covered by the separate a4 live acceptance evidence.
+
+Exact merged-pin validation on committed case `3ecbda3` passed `validate_changed_cases.py --base-ref origin/main` with rebuilding only in a disposable copy; all 83 repository unittests passed. Logs are `a4-exact-pin-changed-cases.log.txt` and `a4-exact-pin-unittests.log.txt`. The environment imports installed `cwtwb` 0.29.0a4 from this clone's `.venv`, with direct URL commit `81362658fa1856ce98e86033b05e9f77c6bdad47`, and no `CWTWB_SRC` or `PYTHONPATH`. GitHub's source-to-merge comparison contains no changed files. The primary artifact hash remains unchanged. Finalization did not launch Desktop or rebuild the primary workbook. All required gates now pass.
