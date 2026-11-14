@@ -8,6 +8,11 @@ SDK 修复必须依次验证结构、加载、业务行为，最后对完整 cas
 缺少声明时静态 XSD 可能通过，但 Desktop 会拒绝加载。新增原生 XML 能力时，
 同时核对作者文件的功能声明，并给生成器添加声明存在性回归测试。
 
+`mark-line-pattern` 同样需要 `PatternedLineMarks` 声明。SDK PR #25 已在
+`bbd749f25a5375889a66a8cd72aaaee129810353` 合并通用修复，本仓库 pin 使用
+该 main hotfix；已发布的 PyPI `0.29.0a3` 不包含它。来源区别见下述 SDK
+迭代流程；版本号相同不能证明代码相同。
+
 ## 1. 固定本次 SDK 来源
 
 先按 [SDK 迭代流程](iterating-cwtwb-and-wow.md) 区分 stable、prerelease 和

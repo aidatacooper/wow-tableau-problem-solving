@@ -16,11 +16,19 @@ SDK PR 合并也只完成上游修复，仍需 case 重测与验收。
 | PyPI prerelease | 单独查 alpha/beta/rc 是否已发布；记录确切版本，不把 main 的版本号当作已发布包。 |
 | Git main | fetch 上游 main，记录远端、完整 SHA、该提交版本及查询时间；不把本地旧 main 当最新。 |
 
-发布快照（2026-11-14）：`cwtwb` PR #24 已合并，
-合并提交 `1d578a3f815dde189860d0243404bf84057a19f8` 是本仓库 requirements pin。
-公开 tag `v0.29.0a3` 指向该提交；PyPI `0.29.0a3` 的 wheel 和 sdist 已公开，
-SHA256 与本地已检查发布包一致。这是 prerelease，不是 stable。
-这是带日期的发布记录，不是后续运行的固定期望；每次任务重新查询三个渠道。
+发布与集成快照（2026-11-14）：
+
+- 已发布 prerelease：`cwtwb` PR #24 的合并提交
+  `1d578a3f815dde189860d0243404bf84057a19f8` 对应公开 tag `v0.29.0a3`。
+  PyPI `0.29.0a3` wheel 和 sdist 已公开，SHA256 与已检查发布包一致；
+  **这些已发布包不包含后续 `PatternedLineMarks` 修复**。
+- 本仓库 requirements pin：`bbd749f25a5375889a66a8cd72aaaee129810353`，
+  即 CI 通过并已合并的 `cwtwb` PR #25。这是 a3 发布后的 main hotfix，
+  为 `mark-line-pattern` 自动补齐 `PatternedLineMarks` manifest。
+  源码包版本仍为 `0.29.0a3`，必须用完整 Git SHA 区分它与 PyPI a3。
+- 后续 a4 发布需另行完成回归和发布；此快照不将其视为已有发行。
+
+这是带日期的记录，不是后续运行的固定期望；每次任务重新查询三个渠道。
 
 修改 SDK 前先用 stable 建立失败基线，再测试可用 prerelease/main。
 使用分开的环境/检出，避免安装覆盖或 editable 路径串用。记录实际 import 路径、
