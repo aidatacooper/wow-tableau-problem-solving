@@ -6,9 +6,13 @@ Parent completed real Desktop LOADED, dashboard/reference comparison, Hour 15 P7
 
 requirements.txt pins merged SDK PR25 `bbd749f25a5375889a66a8cd72aaaee129810353`, matching workflow PR65. Validation uses an isolated exact-pin environment and `validate_changed_cases.py --base-ref origin/main`, which rebuilds in disposable copies only. The accepted primary is never rebuilt. The previous freeze and partial-status notes below are historical.
 
-The post-fix full Desktop corpus remains parent-owned and pending; copied 50-LOADED corpus evidence is pre-fix only. No new Desktop execution or SDK edits are performed by this integration.
+The accepted artifact was built with manifest-fix source `056050c8e95f5fbe3560886e566c34aee53b40b0`; the merged pin above separately passed isolated validation. The current release is PR67.
 
-## Current handoff — manifest fix, 2026-11-14
+The final-source full 50-case Desktop corpus remains a parent-owned integration gate, pending evidence. Copied 50-LOADED corpus evidence is pre-fix only. Parent reports a separate generic cross-pane tooltip bug in WW2023 being fixed in a4 source; that work does not invalidate this WW02 artifact's actual Desktop acceptance or 168 runtime values. No a4 validation or final-source corpus pass is claimed here. No new Desktop execution or SDK edits are performed by this integration.
+
+## Superseded historical handoff — manifest-fix freeze before Desktop acceptance
+
+Everything in this section records the earlier freeze checkpoint. Its pending UI instructions and partial status were superseded by the accepted Desktop artifact section above; do not execute its rebuild instructions against the accepted primary.
 
 The artifact is frozen for parent-owned Desktop and rendered acceptance:
 `outputs/replicated-workbook.twbx`
@@ -28,7 +32,7 @@ Parent: open the frozen artifact directly for UI verification. Rebuilding change
 
 All writes are inside iterations/2025-01-14-ww02-visualising-ranges. No Desktop activity, commits, index updates, SDK edits, worktree or branch changes. Fresh origin/main at claim was e32c8151a8c596c082763007d2ec5fc83cf1ddff; active iteration tree and open issues checked.
 
-## Commands from repository root
+### Superseded historical commands from repository root
 
 ```powershell
 $case = 'iterations/2025-01-14-ww02-visualising-ranges'
@@ -44,7 +48,7 @@ python -m unittest discover -s tests -v
 
 Builder/verifier and case-local metadata, source-lock, public SDK boundary and XSD PASS. Native percentiles remain in workbook; independent Python sorted interpolation vs Hyper SQL passes all 168 min/percentile/max values over 4319 rows / 24 hourly groups. The full validator passes case gates but stops at stale shared usage/case-index.json. Shared suite: 83 tests, 81 pass, 2 catalogue-only failures (test_prepare_case_extracts_data_and_never_copies_source; test_validator_scans_helper_files_and_rejects_misplaced_workbooks), logged in evidence/shared-tests.txt. Parent should regenerate indexes before repeating full validator/shared tests.
 
-## Stable baseline command
+### Superseded historical stable baseline command
 
 ```powershell
 Remove-Item Env:CWTWB_SRC -ErrorAction SilentlyContinue
@@ -54,12 +58,12 @@ uv run --isolated --with cwtwb==0.28.0 --with tableauhyperapi python iterations/
 
 Use a NEW run label rather than overwrite evidence; append actual result to case.yaml cwtwb.runs. This builds and changes the output; restore selected source and retest before Desktop. Stable 0.28.0's wheel SHA advertised by PyPI is dd8fb1c4a7a1828ba6c102afa5bc13f90dc7c959c58cde608d2de0a830a05225. The initial missing tableauhyperapi dependency failure is preserved separately and not classified as an SDK gap.
 
-## Final tested selected source
-Version 0.29.0a3; full clean SHA 2b72232245959934281c49308f5c3b2fca8fc519; import C:/Users/imgwho/Desktop/project/cwtwb/src/cwtwb/__init__.py. Python source tree fingerprint 63164f5aedf70c74c7d89af0b0e82dfaab0786ef87f74b804f72f981f083fd84. Final run evidence: evidence/selected-source-final.json. No SDK gap.
+### Superseded historical pre-fix source and artifact
+The earlier static-only checkpoint used version 0.29.0a3; full clean SHA 2b72232245959934281c49308f5c3b2fca8fc519; import C:/Users/imgwho/Desktop/project/cwtwb/src/cwtwb/__init__.py. Python source tree fingerprint 63164f5aedf70c74c7d89af0b0e82dfaab0786ef87f74b804f72f981f083fd84. Historical run evidence: evidence/selected-source-final.json. The earlier conclusion of no SDK gap was disproved by Desktop FAIL D2E8DA72; the generic missing PatternedLineMarks manifest was fixed in PR25.
 
-Final handed-off TWBX SHA256: fa3c13798f7b9002b3db3d2d5476504017caee750f3ef21ef8c9936fb2bd0318.
+Superseded historical TWBX SHA256: fa3c13798f7b9002b3db3d2d5476504017caee750f3ef21ef8c9936fb2bd0318. This is not the accepted final artifact.
 
-## Remaining parent-only gates
+### Superseded historical parent-only gate instructions
 
 ```powershell
 $env:CWTWB_SRC = 'C:/Users/imgwho/Desktop/project/cwtwb/src'
@@ -70,4 +74,4 @@ python scripts/desktop/verify_corpus.py
 
 Follow evidence/desktop-acceptance.md: LOADED, actual rendered numeric values against all 24 hourly oracle rows, median visibility, six areas correctly layered and labeled, dotted 80/180 boundaries, 1300x600 single worksheet. Standard hover only; original challenge requires no selector or reset actions. The author's local archive PNG is only a loading placeholder; use evidence/article-reference.png as the inspected reference.
 
-After every rebuild, rebind actual hash evidence. Complete Desktop/visual acceptance and final SDK runs, update metadata honestly, regenerate shared indexes with python scripts/case_catalogue.py --write, rerun full validator and shared suite, then parent commits/pushes per case. Metadata intentionally remains partial/not_evaluated until observed acceptance passes.
+At this historical checkpoint, Desktop/visual acceptance, index refresh and submission were still pending, and metadata was partial/not_evaluated. Those case-level steps are now complete: replicated / acceptable_delta / verified, with all 168 actual runtime values checked. Only the parent-owned final-source full 50-case Desktop integration gate remains pending evidence. Historical evidence files remain unchanged.
