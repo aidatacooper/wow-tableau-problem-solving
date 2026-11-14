@@ -1,5 +1,8 @@
 # Parent acceptance, 2026-11-14
 
+Historical load-stage report below is preserved. Its pending interaction and visual
+conclusions are superseded by the final acceptance addendum at the end.
+
 Final artifact SHA256: `5a6f759ecd2c8e8c09b4b9adae754e1c921eec069f406fb1ac221426c7a55b22`.
 
 The full validator and numerical verifier passed after the parent corrected the
@@ -46,3 +49,24 @@ another Desktop run during submission.
 This case remains partial with hover acceptance and final visual comparison
 pending. Loading and rendered geometry are demonstrated; full completion is
 not claimed.
+
+## Final actual acceptance addendum
+
+The parent subsequently verified all ten required hovers in actual Tableau Desktop
+presentation mode: Chairs and Fasteners totals plus each category's 2021–2024
+annual amounts and shares. `desktop-live-acceptance-20261114.json` records the
+observations and ten screenshot hashes. All values match the frozen numerical
+oracle at the displayed precision; later annual tooltips show annual amounts.
+
+The downloaded actual article GIF (`article-reference.gif`, with
+`article-reference-frame0.png`) was compared directly with
+`desktop-presentation-20261114.png`. All 17 ordered pairs, full labels,
+cream/tan colors, white separators and absence of axes/gridlines are accepted.
+Title/footer wording and font sizes differ, yielding `acceptable_delta`.
+
+The primary artifact hash above is unchanged. Prior Desktop LOADED and the
+50 LOADED / 0 FAIL / 0 UNKNOWN corpus retain their original scope and SDK baseline.
+Final status is `replicated`, `verified`, and `acceptable_delta`, with no remaining
+acceptance work. The run history appends the frozen live acceptance record without
+changing previous runs. No primary rebuild, new Desktop run or SDK change was
+performed during metadata finalization.

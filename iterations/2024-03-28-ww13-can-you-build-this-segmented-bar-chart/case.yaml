@@ -22,11 +22,11 @@ source:
     url: https://public.tableau.com/views/2024_03_27_WW13_Segmented_Bar_Chart/Segmented_Bar_Chart
     filename: 2024_03_27_WW13_Segmented_Bar_Chart.twbx
     sha256: 649a1c500b14b09da7ce92458e953968dd71567c37467f5096f0d12aab87e1cc
-verification_status: pending
+verification_status: verified
 artifacts:
   primary_workbook: outputs/replicated-workbook.twbx
-  cloud_author: null
-  cloud_replica: null
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
 artifact_aliases: {}
 historical_artifacts: []
 evidence:
@@ -41,11 +41,28 @@ evidence:
 - evidence/ci-pin-parent-20261114.json
 - evidence/desktop-corpus-evidence.json
 - evidence/desktop-corpus.json
+- evidence/desktop-live-acceptance-20261114.json
+- evidence/article-reference.gif
+- evidence/article-reference-frame0.png
+- evidence/desktop-presentation-20261114.png
+- evidence/desktop-hover-chairs-total.png
+- evidence/desktop-hover-chairs-2021.png
+- evidence/desktop-hover-chairs-2022.png
+- evidence/desktop-hover-chairs-2023.png
+- evidence/desktop-hover-chairs-2024.png
+- evidence/desktop-hover-fasteners-total.png
+- evidence/desktop-hover-fasteners-2021.png
+- evidence/desktop-hover-fasteners-2022.png
+- evidence/desktop-hover-fasteners-2023.png
+- evidence/desktop-hover-fasteners-2024.png
 notes:
 - 'Worker scope: case-only build/static verification; Desktop, indexes, commits and
   push assigned to parent.'
 - SDK dirty source full diff and file hash manifests accompany each run; source HEAD
   alone is insufficient to reproduce.
+- The schema's cloud_author and cloud_replica image slots contain byte-identical
+  copies of evidence/article-reference-frame0.png and evidence/desktop-presentation-20261114.png;
+  these are actual article and Desktop images, with no cloud execution claimed.
 cwtwb:
   tested_version: 0.29.0a3
   runs:
@@ -70,9 +87,12 @@ cwtwb:
   - version: 0.29.0a3
     result: pass
     evidence: evidence/desktop-publication-20261114.json
+  - version: 0.29.0a3
+    result: pass
+    evidence: evidence/desktop-live-acceptance-20261114.json
 analysis_status: completed
-functional_status: partial
-visual_status: not_evaluated
+functional_status: replicated
+visual_status: acceptable_delta
 cwtwb_result: pass
 inputs:
   source_lock: inputs/source-lock.json
@@ -106,18 +126,19 @@ acceptance:
   description: All 17 category pairs visibly satisfy total-over-segment heights, spacing,
     shared lengths and formatting.
   mode: manual
-  evidence: evidence/parent-acceptance-20261114.md
+  evidence: evidence/desktop-live-acceptance-20261114.json
 - id: tooltip-hover
   description: Observe total and all four annual tooltips for Chairs and Fasteners
     against the complete numerical CSV.
   mode: manual
-  evidence: evidence/desktop-acceptance.md
-remaining_work: 'Observe total and four annual tooltips for Chairs and Fasteners
-  against the numerical oracle; record actual hover values and visual comparison.
-  Final artifact is Desktop LOADED and all 17 rendered pairs were inspected.
-  Repository-pinned dependency independently rebuilds successfully. Shared Desktop
-  load corpus passed with 50 LOADED, 0 FAIL and 0 UNKNOWN; this does not establish
-  live interaction acceptance. Hover and visual comparison remain pending.'
+  evidence: evidence/desktop-live-acceptance-20261114.json
+- id: visual-format
+  description: Compare the actual author GIF with the Desktop presentation; accept
+    title/footer wording and font-size differences while preserving all 17 ordered
+    pairs, full labels, cream/tan colors, white separators and hidden axes/gridlines.
+  mode: manual
+  evidence: evidence/desktop-live-acceptance-20261114.json
+remaining_work: null
 workarounds: []
 capability_gaps: []
 related_cwtwb_issues: []

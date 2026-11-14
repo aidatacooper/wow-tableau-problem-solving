@@ -8178,14 +8178,14 @@
           "sha256": "649a1c500b14b09da7ce92458e953968dd71567c37467f5096f0d12aab87e1cc"
         }
       },
-      "functional_status": "partial",
-      "visual_status": "not_evaluated",
-      "verification_status": "pending",
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
       "cwtwb_result": "pass",
       "artifacts": {
         "primary_workbook": "outputs/replicated-workbook.twbx",
-        "cloud_author": null,
-        "cloud_replica": null
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
       },
       "artifact_aliases": {},
       "historical_artifacts": [],
@@ -8200,11 +8200,26 @@
         "evidence/parent-acceptance-20261114.md",
         "evidence/ci-pin-parent-20261114.json",
         "evidence/desktop-corpus-evidence.json",
-        "evidence/desktop-corpus.json"
+        "evidence/desktop-corpus.json",
+        "evidence/desktop-live-acceptance-20261114.json",
+        "evidence/article-reference.gif",
+        "evidence/article-reference-frame0.png",
+        "evidence/desktop-presentation-20261114.png",
+        "evidence/desktop-hover-chairs-total.png",
+        "evidence/desktop-hover-chairs-2021.png",
+        "evidence/desktop-hover-chairs-2022.png",
+        "evidence/desktop-hover-chairs-2023.png",
+        "evidence/desktop-hover-chairs-2024.png",
+        "evidence/desktop-hover-fasteners-total.png",
+        "evidence/desktop-hover-fasteners-2021.png",
+        "evidence/desktop-hover-fasteners-2022.png",
+        "evidence/desktop-hover-fasteners-2023.png",
+        "evidence/desktop-hover-fasteners-2024.png"
       ],
       "notes": [
         "Worker scope: case-only build/static verification; Desktop, indexes, commits and push assigned to parent.",
-        "SDK dirty source full diff and file hash manifests accompany each run; source HEAD alone is insufficient to reproduce."
+        "SDK dirty source full diff and file hash manifests accompany each run; source HEAD alone is insufficient to reproduce.",
+        "The schema's cloud_author and cloud_replica image slots contain byte-identical copies of evidence/article-reference-frame0.png and evidence/desktop-presentation-20261114.png; these are actual article and Desktop images, with no cloud execution claimed."
       ],
       "metadata": "iterations/2024-03-28-ww13-can-you-build-this-segmented-bar-chart/case.yaml",
       "metadata_contract": "1.1.0",
