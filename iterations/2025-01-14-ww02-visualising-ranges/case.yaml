@@ -47,15 +47,22 @@ evidence:
 - evidence/desktop-tooltip-hour15-p75.png
 - evidence/desktop-accepted-20261114.json
 - evidence/merged-sdk-isolated-20261114.json
+- evidence/a4-corpus-20261114/desktop-summary.json
+- evidence/a4-corpus-20261114/artifact-hashes.csv
+- evidence/a4-corpus-20261114/summary.json
+- evidence/a4-corpus-20261114/sdk-source-hashes.json
+- evidence/a4-corpus-20261114/provenance.json
+- evidence/a4-compatible-build-final-20261114.json
 notes:
 - Generated index views must be refreshed after the workbook is built and verified.
 - Schema-required canonical cloud-author.png/cloud-replica.png are byte-identical copies
   of evidence/article-reference.png and evidence/desktop-final-dashboard.png;
   no Cloud publication or rendering is claimed.
-- Post-fix full Desktop corpus regression remains parent-owned and pending.
+- Parent completed final a4 full Desktop corpus regression with 50 LOADED, zero FAIL
+  and zero UNKNOWN; corpus source and final merged pin have identical src Git trees.
 cwtwb:
-  tested_version: 0.29.0a3
-  tested_commit: bbd749f25a5375889a66a8cd72aaaee129810353
+  tested_version: 0.29.0a4
+  tested_commit: 81362658fa1856ce98e86033b05e9f77c6bdad47
   runs:
   - version: 0.28.0
     result: blocked
@@ -84,6 +91,15 @@ cwtwb:
   - version: 0.29.0a3
     result: pass
     evidence: evidence/merged-sdk-isolated-20261114.json
+  - version: 0.29.0a4
+    result: blocked
+    evidence: evidence/a4-compatible-build-20261114.json
+  - version: 0.29.0a4
+    result: pass
+    evidence: evidence/a4-corpus-20261114/provenance.json
+  - version: 0.29.0a4
+    result: pass
+    evidence: evidence/a4-compatible-build-final-20261114.json
 analysis_status: completed
 functional_status: replicated
 visual_status: acceptable_delta
@@ -114,8 +130,7 @@ acceptance:
     challenge.
   mode: manual
   evidence: evidence/desktop-accepted-20261114.json
-remaining_work: Case acceptance complete. Parent-owned post-fix full Desktop corpus
-  regression remains a release gate; copied corpus evidence covers pre-fix source only.
+remaining_work: null
 blocker: null
 workarounds: []
 capability_gaps: []
