@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:\Users\imgwho\Desktop\project\tmp\three-new-cases-release-20261114\case-2023\iterations\2023-02-23-ww08-can-you-build-a-comet-chart-as-an-alternative-to-a-side-by-side-bar-chart\verify_replication.py", line 112, in <module>
+    verify(sys.argv[1] if len(sys.argv) > 1 else None)
+    ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\imgwho\Desktop\project\tmp\three-new-cases-release-20261114\case-2023\iterations\2023-02-23-ww08-can-you-build-a-comet-chart-as-an-alternative-to-a-side-by-side-bar-chart\verify_replication.py", line 72, in verify
+    assert any(element.get('column', '').endswith('[sum:Sales:qk]') for element in circle_tooltips), 'Circle pane must bind its own Sales tooltip measure'
+           ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Circle pane must bind its own Sales tooltip measure

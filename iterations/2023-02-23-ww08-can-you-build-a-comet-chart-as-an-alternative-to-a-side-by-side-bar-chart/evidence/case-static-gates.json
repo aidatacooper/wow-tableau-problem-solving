@@ -1,0 +1,13 @@
+{
+  "result": "pass",
+  "checks": [
+    "metadata",
+    "unique-identity",
+    "source-lock",
+    "public-sdk-phase-boundary",
+    "XSD",
+    "case-identity"
+  ],
+  "shared_catalogue": "deferred to parent by ownership instruction",
+  "artifact_sha256": "12de2b73af882615fa055a41d01005744680c4cde415b06f71d46b844937f2ea"
+}

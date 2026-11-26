@@ -1,0 +1,132 @@
+{
+  "origin_main": "e32c8151a8c596c082763007d2ec5fc83cf1ddff",
+  "existing_2023": [
+    {
+      "case_id": "wow-2023-ww14-baseball-game-duration",
+      "legacy_case_ids": {},
+      "iteration_id": "2023-04-07-ww14-baseball-game-duration",
+      "article_date": "2023-04-07",
+      "challenge_year": 2023,
+      "challenge_week": 14,
+      "challenge_date": "2023-04-04",
+      "date_evidence": {
+        "article_date": "index.json publication date; matches the post URL",
+        "challenge": "Explicit challenge_year and week declared in iteration_id",
+        "challenge_date": "Official WordPress REST post date for 2023w14"
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2023w14/"
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2023/04/07/how-short-are-baseball-games-in-2023/",
+          "path": "posts/2023-04-07-How_short_are_baseball_games_in_2023.html",
+          "sha256": null
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2023_04_05_WW14_Baseball_Games/2023_04_05_WW14_Baseball_Games",
+          "path": "dashboards/2023_04_05_WW14_Baseball_Games/2023_04_05_WW14_Baseball_Games.twbx",
+          "filename": "2023_04_05_WW14_Baseball_Games.twbx",
+          "sha256": "100bdf99a0ad81c5c92d5c96eac7085f4a7c1ab8f6b59c153769a7f05b2e16a5"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "pass",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [
+        {
+          "path": "outputs/2023-04-07-ww14-baseball-game-duration-replicated-workbook.twb",
+          "role": "sdk_generated_twb_companion",
+          "note": "Unpackaged TWB companion produced by the same builder as the primary TWBX."
+        }
+      ],
+      "evidence": [
+        "inputs/source-lock.json",
+        "evidence/cloud-request.json",
+        "evidence/cloud-verification.json",
+        "evidence/validation.json",
+        "evidence/workbook-inventory.json",
+        "evidence/visual-review.md"
+      ],
+      "notes": [
+        "Rebuilt with cwtwb 0.27.1 (pin d0c26cf) from the packaged Hyper extract using public SDK APIs only; the author workbook was never opened by the builder.",
+        "The bar chart addresses its INDEX()/window table calcs by Year and pins the 2023 duration with a custom-labelled field-backed reference line.",
+        "The Index pill is bound as an ordinal (not quantitative) instance, matching the author: a quantitative Index turns Columns into a continuous axis and renders the bars as thin strips.",
+        "Cloud honours the author's teal #52b7d8 / orange #e16032 boolean palette after the cwtwb fix that carries the worksheet table-calc context onto the datasource palette column-instance (a table-calc-derived colour field was otherwise rendered with the default categorical palette).",
+        "The Latest Duration table calc addresses the specific dimensions [Decade],[Year] (matching the author), so the \"2:38 in 2023\" line resolves to the global 2023 value (158) in every decade pane.",
+        "The author's 150% percentage distribution band is reproduced with the cwtwb add_percentage_band API (pin 86119c1): it shapes each pane's axis range, which is what the author's row spacing depends on. The band must not carry tooltip-type, which Tableau Desktop rejects with load error d2e8da72.",
+        "The replica matches the author's Cloud render pixel-for-pixel: 0 pixels differ by more than 30 levels (100.00% of pixels equal).",
+        "The dashboard reproduces the author's zone margins (root margin=8 plus a 4px margin on the Viz and text zones) and the text zones' Tableau Medium fontname and source hyperlink; the title, credits, and source rows now match at 0 pixels."
+      ],
+      "metadata": "iterations/2023-04-07-ww14-baseball-game-duration/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.27.1"
+    },
+    {
+      "case_id": "wow-2023-ww48-bars-and-candlesticks",
+      "legacy_case_ids": {},
+      "iteration_id": "2023-11-30-ww48-bars-and-candlesticks",
+      "article_date": "2023-11-30",
+      "challenge_year": 2023,
+      "challenge_week": 48,
+      "challenge_date": "2023-11-28",
+      "date_evidence": {
+        "article_date": "HTML published time element in evidence/article-date.json.",
+        "challenge_date": "Official WordPress REST date field in evidence/official-challenge-date.json."
+      },
+      "source": {
+        "challenge": {
+          "url": "https://www.workout-wednesday.com/2023w48tab/",
+          "wordpress_post_id": 14596
+        },
+        "article": {
+          "url": "https://donnacoles.home.blog/2023/11/30/can-you-add-candlesticks-to-bar-charts/",
+          "path": null,
+          "sha256": "e268fba3a6c3e17fe98fc5ae6b0b6e915ca336f4363ed6857f2bc1cc8200cdc5"
+        },
+        "workbook": {
+          "url": "https://public.tableau.com/views/2023_11_29_WW48_Bars_and_Candlesticks/2023_11_29_WW48_Bars_and_Candlesticks",
+          "filename": "2023_11_29_WW48_Bars_and_Candlesticks.twbx",
+          "sha256": "4c3a1364ff864748870748583e2bd9035dcccdc5ffc7d2fc152d8976a865a896"
+        }
+      },
+      "functional_status": "replicated",
+      "visual_status": "acceptable_delta",
+      "verification_status": "verified",
+      "cwtwb_result": "pass",
+      "artifacts": {
+        "primary_workbook": "outputs/replicated-workbook.twbx",
+        "cloud_author": "outputs/cloud-author.png",
+        "cloud_replica": "outputs/cloud-replica.png"
+      },
+      "artifact_aliases": {},
+      "historical_artifacts": [],
+      "evidence": [
+        "evidence/article-date.json",
+        "evidence/build-provenance.json",
+        "evidence/functional-verification.json",
+        "evidence/official-challenge-date.json",
+        "evidence/sdk-baseline.json",
+        "evidence/sdk-final-validation.json",
+        "evidence/visual-review.md",
+        "evidence/zero-build-verification.json",
+        "inputs/source-lock.json"
+      ],
+      "notes": [
+        "Generated index views must be refreshed after the workbook is built and verified."
+      ],
+      "metadata": "iterations/2023-11-30-ww48-bars-and-candlesticks/case.yaml",
+      "metadata_contract": "1.1.0",
+      "tested_sdk_version": "0.27.1"
+    }
+  ],
+  "open_issues": [],
+  "selected": "wow-2023-ww08-can-you-build-a-comet-chart-as-an-alternative-to-a-side-by-side-bar-chart"
+}

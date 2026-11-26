@@ -1,0 +1,44 @@
+C:\Users\imgwho\AppData\Local\Temp\wow-case-validation-798n162s\lab\iterations\2023-02-23-ww08-can-you-build-a-comet-chart-as-an-alternative-to-a-side-by-side-bar-chart\outputs\replicated-workbook.twbx
+{
+  "workbook_sha256": "f3ec4048a7ef823216ae275250e60e4eb07b33360cdd0371add100c748a32a25",
+  "automated": {
+    "packaged-data": "pass",
+    "single-sheet-dashboard": "pass",
+    "year-scope": "pass",
+    "comet-geometry": "pass",
+    "latest-labels-and-sort": "pass",
+    "color-and-tooltip-structure": "pass",
+    "formatting-structure": "pass",
+    "sales-numerics": "pass"
+  },
+  "records": 10194,
+  "annual_points": 34,
+  "sales_2021": 613933.58,
+  "sales_2022": 745567.5312,
+  "declines": [
+    "Envelopes",
+    "Machines"
+  ],
+  "descending_2022_order": [
+    "Phones",
+    "Chairs",
+    "Binders",
+    "Storage",
+    "Copiers",
+    "Tables",
+    "Accessories",
+    "Machines",
+    "Appliances",
+    "Bookcases",
+    "Furnishings",
+    "Paper",
+    "Supplies",
+    "Art",
+    "Fasteners",
+    "Labels",
+    "Envelopes"
+  ],
+  "desktop": "pending - parent owns serialized Desktop gate",
+  "rendered_numeric_and_visual_acceptance": "pending; SQL/Python checks do not execute Tableau rendering"
+}
+PASS: 2023-02-23-ww08-can-you-build-a-comet-chart-as-an-alternative-to-a-side-by-side-bar-chart
