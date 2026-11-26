@@ -1,0 +1,34 @@
+{
+  "accepted_at": "2026-11-14T09:43:23.480904+00:00",
+  "artifact_sha256": "fc29870d0ac45a7615fa0d599c01d38de925a28fa349aa43ea3e9df54e565a6c",
+  "artifact_build_sdk_commit": "056050c8e95f5fbe3560886e566c34aee53b40b0",
+  "merged_sdk_pin": "bbd749f25a5375889a66a8cd72aaaee129810353",
+  "desktop": "LOADED; parent executed real Tableau Desktop",
+  "rendered_values": {
+    "method": "Tableau Desktop 2026.2, worksheet menu Copy > Crosstab; actual clipboard TSV, not SDK/Hyper export",
+    "process_id": 14416,
+    "comparisons": 168,
+    "hour_groups": 24,
+    "tolerance": 0.050000001,
+    "independent_tsv_recheck": "pass; repeated pane values also checked"
+  },
+  "hover": {
+    "hour": 15,
+    "measure": "75th Percentile",
+    "observed": 162.0,
+    "expected": 162.0
+  },
+  "functional_status": "replicated",
+  "visual_status": "acceptable_delta",
+  "visual_findings": "Required nested blue percentile areas, dashed black median and dotted orange 80/180 boundaries are visible. Typography and direct labels differ from article reference; separate Median end label absent, dashed median remains identifiable. Parent accepted these visual differences.",
+  "required_interactions": "No parameter/selection/reset interactions required; real hover and Copy > Crosstab observed by parent.",
+  "evidence_sha256": {
+    "desktop-manifest-fix-20261114.json": "edd3d8a067941cb86878120e0d3d9625d2828680e5f2821048dccc890871c574",
+    "desktop-rendered-values-20261114.json": "5e141f432f6fab2cd7381b28e2157bf35d7373745a68b09d4b569092449adc9f",
+    "desktop-crosstab.tsv": "483fdce0db03bb6d9a8baeeb380ebf451047318092b1a165adf4a7e2784a7f8c",
+    "desktop-final-dashboard.png": "52eb2044e294052c17df013e787c38b202519fc02b477dbd02d08bb0fd3c5da6",
+    "desktop-tooltip-hour15-p75.png": "7b07e22525eda0e7f39cdfd851e4d5d2a71a59a5ef7a6bf3e54b3bac49c3f717",
+    "article-reference.png": "095b6c97d78b806c4cc3b2b0db97a4e7492eba37e550ab285aad3b251e089d8d"
+  },
+  "corpus_scope": "Post-fix full corpus Desktop pending parent. Copied corpus is pre-fix only."
+}

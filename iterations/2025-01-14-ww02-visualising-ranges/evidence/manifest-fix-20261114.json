@@ -1,0 +1,39 @@
+{
+  "date": "2026-11-14T17:22:07.661378",
+  "channel": "manifest-fix-20261114",
+  "version": "0.29.0a3",
+  "import_path": "C:\\Users\\imgwho\\Desktop\\project\\cwtwb\\src\\cwtwb\\__init__.py",
+  "CWTWB_SRC": "C:/Users/imgwho/Desktop/project/cwtwb/src",
+  "PYTHONPATH": "C:/Users/imgwho/Desktop/project/cwtwb/src",
+  "git_sha": "056050c8e95f5fbe3560886e566c34aee53b40b0",
+  "dirty": false,
+  "commands": [
+    {
+      "command": [
+        "C:\\Users\\imgwho\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+        "C:\\Users\\imgwho\\Desktop\\project\\tmp\\three-new-cases-release-20261114\\case-2025\\iterations\\2025-01-14-ww02-visualising-ranges\\build_replication.py"
+      ],
+      "returncode": 0,
+      "stdout": "C:\\Users\\imgwho\\Desktop\\project\\tmp\\three-new-cases-release-20261114\\case-2025\\iterations\\2025-01-14-ww02-visualising-ranges\\outputs\\replicated-workbook.twbx\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\imgwho\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+        "C:\\Users\\imgwho\\Desktop\\project\\tmp\\three-new-cases-release-20261114\\case-2025\\iterations\\2025-01-14-ww02-visualising-ranges\\verify_replication.py"
+      ],
+      "returncode": 0,
+      "stdout": "{\n  \"artifact_sha256\": \"2a1d53afaae44cae07a11679b239e8e49d5c0c558a122b6e9b404d831f5b107a\",\n  \"structural_checks\": \"pass\",\n  \"numerical_oracle\": \"pass\",\n  \"rows\": 4319,\n  \"hour_groups\": 24,\n  \"independent_value_comparisons\": 168,\n  \"desktop\": \"pending parent serial gate\",\n  \"rendered_values\": \"pending: compare tooltip/table export with hourly oracle; SQL is not rendered evidence\",\n  \"patterned_line_manifest\": \"present; missing-manifest mutation rejected\"\n}\n",
+      "stderr": ""
+    }
+  ],
+  "git_status": "",
+  "source_tree_sha256": "4f295e834bf64674764ef9665c8de962b4e3d87c90125342e72466d0ae50ec9e",
+  "result": "pass",
+  "artifact_sha256": "2a1d53afaae44cae07a11679b239e8e49d5c0c558a122b6e9b404d831f5b107a",
+  "acceptance": {
+    "static_and_numerical": "pass",
+    "desktop": "pending parent",
+    "rendered_business_and_visual": "pending parent"
+  }
+}

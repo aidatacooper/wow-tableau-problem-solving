@@ -1,0 +1,137 @@
+schema_version: 1.1.0
+case_id: wow-2025-ww02-visualising-ranges
+iteration_id: 2025-01-14-ww02-visualising-ranges
+post: posts/2025-01-14-Visualising_Ranges.html
+legacy_case_ids: {}
+article_date: '2025-01-14'
+challenge_year: 2025
+challenge_week: 2
+challenge_date: '2025-01-08'
+date_evidence:
+  article_date: Declared article publication date in iteration_id
+  challenge: Explicit challenge_year; week declared in iteration_id
+  challenge_date: Explicit official challenge publication date and URL
+source:
+  challenge:
+    url: https://www.workout-wednesday.com/2025w2tab/
+  article:
+    url: https://donnacoles.home.blog/2025/01/14/visualising-ranges/
+    path: posts/2025-01-14-Visualising_Ranges.html
+    sha256: b7dc39729a2e7937ab1c8d6f6f423cabbf07089cf7b0f3be8c53e73863347518
+  workbook:
+    url: https://public.tableau.com/views/2025_01_08_WW02_Visualising_Ranges/2025_01_08_WW02_Visualising_Ranges
+    filename: 2025_01_08_WW02_Visualising_Ranges.twbx
+    sha256: efb50d7f19d63fd0c0d9e02bca6399d7bcdd60196dab797d19bf4e876d66350f
+verification_status: verified
+artifacts:
+  primary_workbook: outputs/replicated-workbook.twbx
+  cloud_author: outputs/cloud-author.png
+  cloud_replica: outputs/cloud-replica.png
+artifact_aliases: {}
+historical_artifacts: []
+evidence:
+- inputs/source-lock.json
+- evidence/verification.json
+- evidence/pypi-stable.json
+- evidence/selected-source.json
+- evidence/desktop-acceptance.md
+- evidence/desktop-failed-pattern-20261114.json
+- evidence/manifest-fix-20261114.json
+- evidence/manifest-fix-static-20261114.json
+- evidence/desktop-corpus.json
+- evidence/desktop-corpus-evidence.json
+- evidence/corpus-scope-20261114.json
+- evidence/desktop-manifest-fix-20261114.json
+- evidence/desktop-rendered-values-20261114.json
+- evidence/desktop-crosstab.tsv
+- evidence/desktop-tooltip-hour15-p75.png
+- evidence/desktop-accepted-20261114.json
+- evidence/merged-sdk-isolated-20261114.json
+- evidence/a4-corpus-20261114/desktop-summary.json
+- evidence/a4-corpus-20261114/artifact-hashes.csv
+- evidence/a4-corpus-20261114/summary.json
+- evidence/a4-corpus-20261114/sdk-source-hashes.json
+- evidence/a4-corpus-20261114/provenance.json
+- evidence/a4-compatible-build-final-20261114.json
+notes:
+- Generated index views must be refreshed after the workbook is built and verified.
+- Schema-required canonical cloud-author.png/cloud-replica.png are byte-identical copies
+  of evidence/article-reference.png and evidence/desktop-final-dashboard.png;
+  no Cloud publication or rendering is claimed.
+- Parent completed final a4 full Desktop corpus regression with 50 LOADED, zero FAIL
+  and zero UNKNOWN; corpus source and final merged pin have identical src Git trees.
+cwtwb:
+  tested_version: 0.29.0a4
+  tested_commit: 81362658fa1856ce98e86033b05e9f77c6bdad47
+  runs:
+  - version: 0.28.0
+    result: blocked
+    evidence: evidence/pypi-stable-environment-failure.json
+  - version: 0.28.0
+    result: pass
+    evidence: evidence/pypi-stable.json
+  - version: 0.29.0a3
+    result: pass
+    evidence: evidence/selected-source.json
+  - version: 0.28.0
+    result: pass
+    evidence: evidence/pypi-stable-final.json
+  - version: 0.29.0a3
+    result: pass
+    evidence: evidence/selected-source-final.json
+  - version: 0.29.0a3
+    result: blocked
+    evidence: evidence/desktop-failed-pattern-20261114.json
+  - version: 0.29.0a3
+    result: pass
+    evidence: evidence/manifest-fix-20261114.json
+  - version: 0.29.0a3
+    result: pass
+    evidence: evidence/desktop-accepted-20261114.json
+  - version: 0.29.0a3
+    result: pass
+    evidence: evidence/merged-sdk-isolated-20261114.json
+  - version: 0.29.0a4
+    result: blocked
+    evidence: evidence/a4-compatible-build-20261114.json
+  - version: 0.29.0a4
+    result: pass
+    evidence: evidence/a4-corpus-20261114/provenance.json
+  - version: 0.29.0a4
+    result: pass
+    evidence: evidence/a4-compatible-build-final-20261114.json
+analysis_status: completed
+functional_status: replicated
+visual_status: acceptable_delta
+cwtwb_result: pass
+inputs:
+  source_lock: inputs/source-lock.json
+  data_files:
+  - inputs/WoW2024Wk49.hyper
+acceptance:
+- id: single-sheet-layout
+  description: One worksheet and fixed 1300x600 dashboard with locked extracted data.
+  mode: automated
+- id: hourly-percentiles
+  description: 24 hourly groups; native min/max and P05/P25/median/P75/P95 formulas;
+    168 SQL-vs-Python oracle values agree.
+  mode: automated
+- id: median-and-shading
+  description: Dashed black median over synchronized unstacked percentile areas with
+    six ordered colors and labels.
+  mode: automated
+- id: normal-range
+  description: Two orange dotted reference boundaries correctly bind constant 80 and
+    180 measures.
+  mode: automated
+- id: desktop-and-rendered-acceptance
+  description: Desktop loads final artifact and rendered values, area order, median
+    visibility, labels and normal range are observed to satisfy the complete original
+    challenge.
+  mode: manual
+  evidence: evidence/desktop-accepted-20261114.json
+remaining_work: null
+blocker: null
+workarounds: []
+capability_gaps: []
+related_cwtwb_issues: []

@@ -1,0 +1,16 @@
+{
+  "corpus_sdk_commit": "175471b0fa4ad0ae91b4d9b6d629a621583d945e",
+  "merged_pin": "81362658fa1856ce98e86033b05e9f77c6bdad47",
+  "corpus_and_merged_src_git_tree": "d5adc2d256f4bce45a9bf17e0e97bc3eb4795c02",
+  "source_tree_identity": "Exact git src tree match",
+  "loaded": 50,
+  "fail": 0,
+  "unknown": 0,
+  "scope": "Parent executed Desktop load regression on all 50 rebuilt corpus artifacts. Build-only summary predates the Desktop run and correctly retains desktop_run=false; desktop-summary.json records the subsequent completed run. WW02 accepted primary remains bound to its separate runtime acceptance.",
+  "copied_original_sha256": {
+    "desktop-summary.json": "1809f9a454e7aca3c0596f01cecae92bdd50e176fb3097da4b94ee5fca51c4d7",
+    "artifact-hashes.csv": "7d997518011e3b6a98079c77f97e334a8c6f47765c5c41089c25274a76fd1fdd",
+    "summary.json": "9a22590160ea407ccc2ea6c29d9bde8b6bbaa9d0dd275e19635bfb9f85650a66",
+    "sdk-source-hashes.json": "0e814ade7466365e6bcb079b603804031e418abe635ef1c29f3a797f87512dd8"
+  }
+}

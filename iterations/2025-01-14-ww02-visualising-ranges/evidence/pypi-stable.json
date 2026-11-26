@@ -1,0 +1,39 @@
+{
+  "date": "2026-11-14T16:03:54.102241",
+  "channel": "pypi-stable",
+  "version": "0.28.0",
+  "import_path": "C:\\Users\\imgwho\\AppData\\Local\\uv\\cache\\archive-v0\\RwvodrL_BrGuiG3b\\Lib\\site-packages\\cwtwb\\__init__.py",
+  "CWTWB_SRC": null,
+  "PYTHONPATH": null,
+  "git_sha": "not applicable: wheel install",
+  "dirty": null,
+  "commands": [
+    {
+      "command": [
+        "C:\\Users\\imgwho\\AppData\\Local\\uv\\cache\\builds-v0\\.tmp7vzZBf\\Scripts\\python.exe",
+        "C:\\Users\\imgwho\\Desktop\\project\\wow-tableau-problem-solving\\iterations\\2025-01-14-ww02-visualising-ranges\\build_replication.py"
+      ],
+      "returncode": 0,
+      "stdout": "C:\\Users\\imgwho\\Desktop\\project\\wow-tableau-problem-solving\\iterations\\2025-01-14-ww02-visualising-ranges\\outputs\\replicated-workbook.twbx\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\imgwho\\AppData\\Local\\uv\\cache\\builds-v0\\.tmp7vzZBf\\Scripts\\python.exe",
+        "C:\\Users\\imgwho\\Desktop\\project\\wow-tableau-problem-solving\\iterations\\2025-01-14-ww02-visualising-ranges\\verify_replication.py"
+      ],
+      "returncode": 0,
+      "stdout": "{\n  \"artifact_sha256\": \"8a3f1e6133366608a3d3f84b5fe6b7f84e08fdd47323109965854ca4b17429ca\",\n  \"structural_checks\": \"pass\",\n  \"numerical_oracle\": \"pass\",\n  \"rows\": 4319,\n  \"hour_groups\": 24,\n  \"independent_value_comparisons\": 168,\n  \"desktop\": \"pending parent serial gate\",\n  \"rendered_values\": \"pending: compare tooltip/table export with hourly oracle; SQL is not rendered evidence\"\n}\n",
+      "stderr": ""
+    }
+  ],
+  "package_sha256": "dd8fb1c4a7a1828ba6c102afa5bc13f90dc7c959c58cde608d2de0a830a05225",
+  "package_url": "https://pypi.org/pypi/cwtwb/0.28.0/json",
+  "result": "pass",
+  "artifact_sha256": "8a3f1e6133366608a3d3f84b5fe6b7f84e08fdd47323109965854ca4b17429ca",
+  "acceptance": {
+    "static_and_numerical": "pass",
+    "desktop": "pending parent",
+    "rendered_business_and_visual": "pending parent"
+  }
+}

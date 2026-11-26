@@ -1,0 +1,1197 @@
+{
+  "captured_at_utc": "2026-11-14T09:39:59.185876+00:00",
+  "artifact_sha256": "fc29870d0ac45a7615fa0d599c01d38de925a28fa349aa43ea3e9df54e565a6c",
+  "method": "Tableau Desktop 2026.2, worksheet menu Copy > Crosstab; actual clipboard TSV, not SDK/Hyper export",
+  "process_id": 14416,
+  "crosstab_sha256": "483fdce0db03bb6d9a8baeeb380ebf451047318092b1a165adf4a7e2784a7f8c",
+  "display_precision": "one decimal; tolerance 0.050000001 accounts for displayed rounding",
+  "comparisons": [
+    {
+      "hour": 0,
+      "measure": "Minimum",
+      "tableau_displayed": 56.0,
+      "independent_oracle": 56,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 0,
+      "measure": "5th Percentile",
+      "tableau_displayed": 62.9,
+      "independent_oracle": 62.900000000000006,
+      "absolute_difference": 7.105427357601002e-15
+    },
+    {
+      "hour": 0,
+      "measure": "25th Percentile",
+      "tableau_displayed": 85.8,
+      "independent_oracle": 85.75,
+      "absolute_difference": 0.04999999999999716
+    },
+    {
+      "hour": 0,
+      "measure": "Median",
+      "tableau_displayed": 99.0,
+      "independent_oracle": 99.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 0,
+      "measure": "75th Percentile",
+      "tableau_displayed": 111.0,
+      "independent_oracle": 111.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 0,
+      "measure": "95th Percentile",
+      "tableau_displayed": 143.1,
+      "independent_oracle": 143.04999999999998,
+      "absolute_difference": 0.05000000000001137
+    },
+    {
+      "hour": 0,
+      "measure": "Maximum",
+      "tableau_displayed": 146.0,
+      "independent_oracle": 146,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 1,
+      "measure": "Minimum",
+      "tableau_displayed": 64.0,
+      "independent_oracle": 64,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 1,
+      "measure": "5th Percentile",
+      "tableau_displayed": 67.0,
+      "independent_oracle": 67.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 1,
+      "measure": "25th Percentile",
+      "tableau_displayed": 81.0,
+      "independent_oracle": 81.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 1,
+      "measure": "Median",
+      "tableau_displayed": 94.0,
+      "independent_oracle": 94.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 1,
+      "measure": "75th Percentile",
+      "tableau_displayed": 112.0,
+      "independent_oracle": 112.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 1,
+      "measure": "95th Percentile",
+      "tableau_displayed": 142.0,
+      "independent_oracle": 142.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 1,
+      "measure": "Maximum",
+      "tableau_displayed": 151.0,
+      "independent_oracle": 151,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 2,
+      "measure": "Minimum",
+      "tableau_displayed": 78.0,
+      "independent_oracle": 78,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 2,
+      "measure": "5th Percentile",
+      "tableau_displayed": 82.0,
+      "independent_oracle": 82.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 2,
+      "measure": "25th Percentile",
+      "tableau_displayed": 90.0,
+      "independent_oracle": 90.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 2,
+      "measure": "Median",
+      "tableau_displayed": 105.0,
+      "independent_oracle": 105.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 2,
+      "measure": "75th Percentile",
+      "tableau_displayed": 133.5,
+      "independent_oracle": 133.5,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 2,
+      "measure": "95th Percentile",
+      "tableau_displayed": 160.0,
+      "independent_oracle": 160.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 2,
+      "measure": "Maximum",
+      "tableau_displayed": 175.0,
+      "independent_oracle": 175,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 3,
+      "measure": "Minimum",
+      "tableau_displayed": 82.0,
+      "independent_oracle": 82,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 3,
+      "measure": "5th Percentile",
+      "tableau_displayed": 86.9,
+      "independent_oracle": 86.9,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 3,
+      "measure": "25th Percentile",
+      "tableau_displayed": 95.0,
+      "independent_oracle": 95.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 3,
+      "measure": "Median",
+      "tableau_displayed": 125.0,
+      "independent_oracle": 125.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 3,
+      "measure": "75th Percentile",
+      "tableau_displayed": 149.5,
+      "independent_oracle": 149.5,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 3,
+      "measure": "95th Percentile",
+      "tableau_displayed": 172.1,
+      "independent_oracle": 172.1,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 3,
+      "measure": "Maximum",
+      "tableau_displayed": 176.0,
+      "independent_oracle": 176,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 4,
+      "measure": "Minimum",
+      "tableau_displayed": 91.0,
+      "independent_oracle": 91,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 4,
+      "measure": "5th Percentile",
+      "tableau_displayed": 95.0,
+      "independent_oracle": 95.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 4,
+      "measure": "25th Percentile",
+      "tableau_displayed": 97.0,
+      "independent_oracle": 97.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 4,
+      "measure": "Median",
+      "tableau_displayed": 128.0,
+      "independent_oracle": 128.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 4,
+      "measure": "75th Percentile",
+      "tableau_displayed": 144.5,
+      "independent_oracle": 144.5,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 4,
+      "measure": "95th Percentile",
+      "tableau_displayed": 163.0,
+      "independent_oracle": 163.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 4,
+      "measure": "Maximum",
+      "tableau_displayed": 176.0,
+      "independent_oracle": 176,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 5,
+      "measure": "Minimum",
+      "tableau_displayed": 91.0,
+      "independent_oracle": 91,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 5,
+      "measure": "5th Percentile",
+      "tableau_displayed": 91.0,
+      "independent_oracle": 91.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 5,
+      "measure": "25th Percentile",
+      "tableau_displayed": 103.0,
+      "independent_oracle": 103.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 5,
+      "measure": "Median",
+      "tableau_displayed": 124.0,
+      "independent_oracle": 124.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 5,
+      "measure": "75th Percentile",
+      "tableau_displayed": 145.3,
+      "independent_oracle": 145.25,
+      "absolute_difference": 0.05000000000001137
+    },
+    {
+      "hour": 5,
+      "measure": "95th Percentile",
+      "tableau_displayed": 168.0,
+      "independent_oracle": 168.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 5,
+      "measure": "Maximum",
+      "tableau_displayed": 177.0,
+      "independent_oracle": 177,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 6,
+      "measure": "Minimum",
+      "tableau_displayed": 91.0,
+      "independent_oracle": 91,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 6,
+      "measure": "5th Percentile",
+      "tableau_displayed": 94.0,
+      "independent_oracle": 94.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 6,
+      "measure": "25th Percentile",
+      "tableau_displayed": 110.0,
+      "independent_oracle": 110.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 6,
+      "measure": "Median",
+      "tableau_displayed": 127.0,
+      "independent_oracle": 127.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 6,
+      "measure": "75th Percentile",
+      "tableau_displayed": 140.5,
+      "independent_oracle": 140.5,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 6,
+      "measure": "95th Percentile",
+      "tableau_displayed": 169.1,
+      "independent_oracle": 169.1,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 6,
+      "measure": "Maximum",
+      "tableau_displayed": 174.0,
+      "independent_oracle": 174,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 7,
+      "measure": "Minimum",
+      "tableau_displayed": 101.0,
+      "independent_oracle": 101,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 7,
+      "measure": "5th Percentile",
+      "tableau_displayed": 111.0,
+      "independent_oracle": 111.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 7,
+      "measure": "25th Percentile",
+      "tableau_displayed": 117.0,
+      "independent_oracle": 117.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 7,
+      "measure": "Median",
+      "tableau_displayed": 135.0,
+      "independent_oracle": 135.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 7,
+      "measure": "75th Percentile",
+      "tableau_displayed": 144.0,
+      "independent_oracle": 144.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 7,
+      "measure": "95th Percentile",
+      "tableau_displayed": 160.0,
+      "independent_oracle": 160.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 7,
+      "measure": "Maximum",
+      "tableau_displayed": 169.0,
+      "independent_oracle": 169,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 8,
+      "measure": "Minimum",
+      "tableau_displayed": 118.0,
+      "independent_oracle": 118,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 8,
+      "measure": "5th Percentile",
+      "tableau_displayed": 120.0,
+      "independent_oracle": 120.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 8,
+      "measure": "25th Percentile",
+      "tableau_displayed": 126.0,
+      "independent_oracle": 126.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 8,
+      "measure": "Median",
+      "tableau_displayed": 134.0,
+      "independent_oracle": 134.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 8,
+      "measure": "75th Percentile",
+      "tableau_displayed": 145.0,
+      "independent_oracle": 145.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 8,
+      "measure": "95th Percentile",
+      "tableau_displayed": 155.0,
+      "independent_oracle": 155.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 8,
+      "measure": "Maximum",
+      "tableau_displayed": 163.0,
+      "independent_oracle": 163,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 9,
+      "measure": "Minimum",
+      "tableau_displayed": 120.0,
+      "independent_oracle": 120,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 9,
+      "measure": "5th Percentile",
+      "tableau_displayed": 125.0,
+      "independent_oracle": 125.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 9,
+      "measure": "25th Percentile",
+      "tableau_displayed": 129.0,
+      "independent_oracle": 129.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 9,
+      "measure": "Median",
+      "tableau_displayed": 135.0,
+      "independent_oracle": 135.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 9,
+      "measure": "75th Percentile",
+      "tableau_displayed": 146.0,
+      "independent_oracle": 146.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 9,
+      "measure": "95th Percentile",
+      "tableau_displayed": 166.0,
+      "independent_oracle": 166.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 9,
+      "measure": "Maximum",
+      "tableau_displayed": 186.0,
+      "independent_oracle": 186,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 10,
+      "measure": "Minimum",
+      "tableau_displayed": 117.0,
+      "independent_oracle": 117,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 10,
+      "measure": "5th Percentile",
+      "tableau_displayed": 119.0,
+      "independent_oracle": 119.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 10,
+      "measure": "25th Percentile",
+      "tableau_displayed": 133.0,
+      "independent_oracle": 133.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 10,
+      "measure": "Median",
+      "tableau_displayed": 148.0,
+      "independent_oracle": 148.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 10,
+      "measure": "75th Percentile",
+      "tableau_displayed": 165.5,
+      "independent_oracle": 165.5,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 10,
+      "measure": "95th Percentile",
+      "tableau_displayed": 186.0,
+      "independent_oracle": 186.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 10,
+      "measure": "Maximum",
+      "tableau_displayed": 191.0,
+      "independent_oracle": 191,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 11,
+      "measure": "Minimum",
+      "tableau_displayed": 109.0,
+      "independent_oracle": 109,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 11,
+      "measure": "5th Percentile",
+      "tableau_displayed": 114.0,
+      "independent_oracle": 114.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 11,
+      "measure": "25th Percentile",
+      "tableau_displayed": 130.8,
+      "independent_oracle": 130.75,
+      "absolute_difference": 0.05000000000001137
+    },
+    {
+      "hour": 11,
+      "measure": "Median",
+      "tableau_displayed": 143.0,
+      "independent_oracle": 143.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 11,
+      "measure": "75th Percentile",
+      "tableau_displayed": 165.0,
+      "independent_oracle": 165.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 11,
+      "measure": "95th Percentile",
+      "tableau_displayed": 183.1,
+      "independent_oracle": 183.04999999999998,
+      "absolute_difference": 0.05000000000001137
+    },
+    {
+      "hour": 11,
+      "measure": "Maximum",
+      "tableau_displayed": 196.0,
+      "independent_oracle": 196,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 12,
+      "measure": "Minimum",
+      "tableau_displayed": 103.0,
+      "independent_oracle": 103,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 12,
+      "measure": "5th Percentile",
+      "tableau_displayed": 107.0,
+      "independent_oracle": 106.95,
+      "absolute_difference": 0.04999999999999716
+    },
+    {
+      "hour": 12,
+      "measure": "25th Percentile",
+      "tableau_displayed": 120.8,
+      "independent_oracle": 120.75,
+      "absolute_difference": 0.04999999999999716
+    },
+    {
+      "hour": 12,
+      "measure": "Median",
+      "tableau_displayed": 132.5,
+      "independent_oracle": 132.5,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 12,
+      "measure": "75th Percentile",
+      "tableau_displayed": 174.0,
+      "independent_oracle": 174.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 12,
+      "measure": "95th Percentile",
+      "tableau_displayed": 202.1,
+      "independent_oracle": 202.09999999999997,
+      "absolute_difference": 2.842170943040401e-14
+    },
+    {
+      "hour": 12,
+      "measure": "Maximum",
+      "tableau_displayed": 211.0,
+      "independent_oracle": 211,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 13,
+      "measure": "Minimum",
+      "tableau_displayed": 100.0,
+      "independent_oracle": 100,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 13,
+      "measure": "5th Percentile",
+      "tableau_displayed": 102.0,
+      "independent_oracle": 102.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 13,
+      "measure": "25th Percentile",
+      "tableau_displayed": 128.0,
+      "independent_oracle": 128.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 13,
+      "measure": "Median",
+      "tableau_displayed": 137.0,
+      "independent_oracle": 137.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 13,
+      "measure": "75th Percentile",
+      "tableau_displayed": 163.0,
+      "independent_oracle": 163.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 13,
+      "measure": "95th Percentile",
+      "tableau_displayed": 197.1,
+      "independent_oracle": 197.04999999999998,
+      "absolute_difference": 0.05000000000001137
+    },
+    {
+      "hour": 13,
+      "measure": "Maximum",
+      "tableau_displayed": 213.0,
+      "independent_oracle": 213,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 14,
+      "measure": "Minimum",
+      "tableau_displayed": 101.0,
+      "independent_oracle": 101,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 14,
+      "measure": "5th Percentile",
+      "tableau_displayed": 117.0,
+      "independent_oracle": 116.95,
+      "absolute_difference": 0.04999999999999716
+    },
+    {
+      "hour": 14,
+      "measure": "25th Percentile",
+      "tableau_displayed": 135.0,
+      "independent_oracle": 135.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 14,
+      "measure": "Median",
+      "tableau_displayed": 142.5,
+      "independent_oracle": 142.5,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 14,
+      "measure": "75th Percentile",
+      "tableau_displayed": 159.0,
+      "independent_oracle": 159.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 14,
+      "measure": "95th Percentile",
+      "tableau_displayed": 177.0,
+      "independent_oracle": 177.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 14,
+      "measure": "Maximum",
+      "tableau_displayed": 210.0,
+      "independent_oracle": 210,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 15,
+      "measure": "Minimum",
+      "tableau_displayed": 108.0,
+      "independent_oracle": 108,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 15,
+      "measure": "5th Percentile",
+      "tableau_displayed": 118.0,
+      "independent_oracle": 118.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 15,
+      "measure": "25th Percentile",
+      "tableau_displayed": 135.0,
+      "independent_oracle": 135.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 15,
+      "measure": "Median",
+      "tableau_displayed": 148.0,
+      "independent_oracle": 148.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 15,
+      "measure": "75th Percentile",
+      "tableau_displayed": 162.0,
+      "independent_oracle": 162.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 15,
+      "measure": "95th Percentile",
+      "tableau_displayed": 180.3,
+      "independent_oracle": 180.2999999999999,
+      "absolute_difference": 1.1368683772161603e-13
+    },
+    {
+      "hour": 15,
+      "measure": "Maximum",
+      "tableau_displayed": 212.0,
+      "independent_oracle": 212,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 16,
+      "measure": "Minimum",
+      "tableau_displayed": 109.0,
+      "independent_oracle": 109,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 16,
+      "measure": "5th Percentile",
+      "tableau_displayed": 116.0,
+      "independent_oracle": 116.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 16,
+      "measure": "25th Percentile",
+      "tableau_displayed": 133.5,
+      "independent_oracle": 133.5,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 16,
+      "measure": "Median",
+      "tableau_displayed": 149.0,
+      "independent_oracle": 149.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 16,
+      "measure": "75th Percentile",
+      "tableau_displayed": 166.0,
+      "independent_oracle": 166.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 16,
+      "measure": "95th Percentile",
+      "tableau_displayed": 182.0,
+      "independent_oracle": 182.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 16,
+      "measure": "Maximum",
+      "tableau_displayed": 205.0,
+      "independent_oracle": 205,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 17,
+      "measure": "Minimum",
+      "tableau_displayed": 104.0,
+      "independent_oracle": 104,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 17,
+      "measure": "5th Percentile",
+      "tableau_displayed": 115.0,
+      "independent_oracle": 115.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 17,
+      "measure": "25th Percentile",
+      "tableau_displayed": 126.5,
+      "independent_oracle": 126.5,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 17,
+      "measure": "Median",
+      "tableau_displayed": 146.0,
+      "independent_oracle": 146.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 17,
+      "measure": "75th Percentile",
+      "tableau_displayed": 161.0,
+      "independent_oracle": 161.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 17,
+      "measure": "95th Percentile",
+      "tableau_displayed": 195.7,
+      "independent_oracle": 195.69999999999996,
+      "absolute_difference": 2.842170943040401e-14
+    },
+    {
+      "hour": 17,
+      "measure": "Maximum",
+      "tableau_displayed": 220.0,
+      "independent_oracle": 220,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 18,
+      "measure": "Minimum",
+      "tableau_displayed": 101.0,
+      "independent_oracle": 101,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 18,
+      "measure": "5th Percentile",
+      "tableau_displayed": 103.0,
+      "independent_oracle": 103.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 18,
+      "measure": "25th Percentile",
+      "tableau_displayed": 120.0,
+      "independent_oracle": 120.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 18,
+      "measure": "Median",
+      "tableau_displayed": 143.0,
+      "independent_oracle": 143.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 18,
+      "measure": "75th Percentile",
+      "tableau_displayed": 158.0,
+      "independent_oracle": 158.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 18,
+      "measure": "95th Percentile",
+      "tableau_displayed": 175.0,
+      "independent_oracle": 175.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 18,
+      "measure": "Maximum",
+      "tableau_displayed": 207.0,
+      "independent_oracle": 207,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 19,
+      "measure": "Minimum",
+      "tableau_displayed": 102.0,
+      "independent_oracle": 102,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 19,
+      "measure": "5th Percentile",
+      "tableau_displayed": 107.0,
+      "independent_oracle": 107.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 19,
+      "measure": "25th Percentile",
+      "tableau_displayed": 122.0,
+      "independent_oracle": 122.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 19,
+      "measure": "Median",
+      "tableau_displayed": 138.0,
+      "independent_oracle": 138.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 19,
+      "measure": "75th Percentile",
+      "tableau_displayed": 154.0,
+      "independent_oracle": 154.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 19,
+      "measure": "95th Percentile",
+      "tableau_displayed": 172.1,
+      "independent_oracle": 172.1,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 19,
+      "measure": "Maximum",
+      "tableau_displayed": 198.0,
+      "independent_oracle": 198,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 20,
+      "measure": "Minimum",
+      "tableau_displayed": 96.0,
+      "independent_oracle": 96,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 20,
+      "measure": "5th Percentile",
+      "tableau_displayed": 105.0,
+      "independent_oracle": 105.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 20,
+      "measure": "25th Percentile",
+      "tableau_displayed": 128.0,
+      "independent_oracle": 128.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 20,
+      "measure": "Median",
+      "tableau_displayed": 156.0,
+      "independent_oracle": 156.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 20,
+      "measure": "75th Percentile",
+      "tableau_displayed": 181.0,
+      "independent_oracle": 181.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 20,
+      "measure": "95th Percentile",
+      "tableau_displayed": 197.0,
+      "independent_oracle": 197.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 20,
+      "measure": "Maximum",
+      "tableau_displayed": 202.0,
+      "independent_oracle": 202,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 21,
+      "measure": "Minimum",
+      "tableau_displayed": 95.0,
+      "independent_oracle": 95,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 21,
+      "measure": "5th Percentile",
+      "tableau_displayed": 98.0,
+      "independent_oracle": 98.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 21,
+      "measure": "25th Percentile",
+      "tableau_displayed": 123.8,
+      "independent_oracle": 123.75,
+      "absolute_difference": 0.04999999999999716
+    },
+    {
+      "hour": 21,
+      "measure": "Median",
+      "tableau_displayed": 152.0,
+      "independent_oracle": 152.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 21,
+      "measure": "75th Percentile",
+      "tableau_displayed": 170.0,
+      "independent_oracle": 170.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 21,
+      "measure": "95th Percentile",
+      "tableau_displayed": 190.1,
+      "independent_oracle": 190.04999999999998,
+      "absolute_difference": 0.05000000000001137
+    },
+    {
+      "hour": 21,
+      "measure": "Maximum",
+      "tableau_displayed": 198.0,
+      "independent_oracle": 198,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 22,
+      "measure": "Minimum",
+      "tableau_displayed": 84.0,
+      "independent_oracle": 84,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 22,
+      "measure": "5th Percentile",
+      "tableau_displayed": 89.0,
+      "independent_oracle": 88.95,
+      "absolute_difference": 0.04999999999999716
+    },
+    {
+      "hour": 22,
+      "measure": "25th Percentile",
+      "tableau_displayed": 110.0,
+      "independent_oracle": 110.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 22,
+      "measure": "Median",
+      "tableau_displayed": 131.0,
+      "independent_oracle": 131.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 22,
+      "measure": "75th Percentile",
+      "tableau_displayed": 147.0,
+      "independent_oracle": 147.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 22,
+      "measure": "95th Percentile",
+      "tableau_displayed": 187.1,
+      "independent_oracle": 187.04999999999998,
+      "absolute_difference": 0.05000000000001137
+    },
+    {
+      "hour": 22,
+      "measure": "Maximum",
+      "tableau_displayed": 207.0,
+      "independent_oracle": 207,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 23,
+      "measure": "Minimum",
+      "tableau_displayed": 60.0,
+      "independent_oracle": 60,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 23,
+      "measure": "5th Percentile",
+      "tableau_displayed": 71.0,
+      "independent_oracle": 70.95,
+      "absolute_difference": 0.04999999999999716
+    },
+    {
+      "hour": 23,
+      "measure": "25th Percentile",
+      "tableau_displayed": 84.5,
+      "independent_oracle": 84.5,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 23,
+      "measure": "Median",
+      "tableau_displayed": 114.5,
+      "independent_oracle": 114.5,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 23,
+      "measure": "75th Percentile",
+      "tableau_displayed": 127.0,
+      "independent_oracle": 127.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 23,
+      "measure": "95th Percentile",
+      "tableau_displayed": 140.0,
+      "independent_oracle": 140.0,
+      "absolute_difference": 0.0
+    },
+    {
+      "hour": 23,
+      "measure": "Maximum",
+      "tableau_displayed": 163.0,
+      "independent_oracle": 163,
+      "absolute_difference": 0.0
+    }
+  ],
+  "result": "168/168 rendered values agree at displayed precision",
+  "hover": {
+    "hour": 15,
+    "measure": "75th Percentile",
+    "observed": 162.0,
+    "expected": 162.0
+  },
+  "images": {
+    "desktop-final-dashboard.png": "52eb2044e294052c17df013e787c38b202519fc02b477dbd02d08bb0fd3c5da6",
+    "desktop-tooltip-hour15-p75.png": "7b07e22525eda0e7f39cdfd851e4d5d2a71a59a5ef7a6bf3e54b3bac49c3f717"
+  }
+}

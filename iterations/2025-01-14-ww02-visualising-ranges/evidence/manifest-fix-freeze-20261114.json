@@ -1,0 +1,62 @@
+{
+  "frozen_at": "2026-11-14T09:24:32.940254+00:00",
+  "artifact": "C:\\Users\\imgwho\\Desktop\\project\\tmp\\three-new-cases-release-20261114\\case-2025\\iterations\\2025-01-14-ww02-visualising-ranges\\outputs\\replicated-workbook.twbx",
+  "artifact_sha256": "fc29870d0ac45a7615fa0d599c01d38de925a28fa349aa43ea3e9df54e565a6c",
+  "embedded_twb_sha256": "22686c9f4a5feb23ff3ca3e3b45d45ab9ff2a3b98eb0adc37229f372d59bfcda",
+  "sdk": {
+    "version": "0.29.0a3",
+    "commit": "056050c8e95f5fbe3560886e566c34aee53b40b0",
+    "git_tree": "6a8b4011260fdd0c106e2ba98ed3592cea5eb602",
+    "dirty": false,
+    "import_path": "C:\\Users\\imgwho\\Desktop\\project\\cwtwb\\src\\cwtwb\\__init__.py",
+    "source_tree_sha256": "4f295e834bf64674764ef9665c8de962b4e3d87c90125342e72466d0ae50ec9e",
+    "CWTWB_SRC": "C:/Users/imgwho/Desktop/project/cwtwb/src",
+    "PYTHONPATH": "C:/Users/imgwho/Desktop/project/cwtwb/src"
+  },
+  "file_sha256": {
+    "build_replication.py": "46a03aa2a0d2604e1b702c5783fbfd19e819170434fc6501d21e5547ad500fe5",
+    "verify_replication.py": "c64cd3756b5a14317ff54afd06e221b07e92dc7f7678fa8e276b89c81749f8f3",
+    "case.yaml": "c90e121d83dc4312c5ea71ee1d032e590e8196f8259c1287dc2433d68c9c831f",
+    "analysis.md": "b42c425ff18362bbf1885795a65698d9cdee35ed1cc63304e6fbc571e42f23f8",
+    "HANDOFF.md": "b5511f72acd12dbd5452a378cfb5832ca94be37a1f2c35cbb85436da0365a952",
+    "evidence\\desktop-failed-pattern-20261114.json": "a4bbfb2a7afdce38f11dd624cd38e8b9ce2ae144daa3f8680a941d5fb9776500",
+    "evidence\\manifest-fix-static-20261114.json": "9b0e26e7bf3717bed503e0e33ea9d0668f62838a5fe7ab85ea26d4e994aa0b15",
+    "evidence\\manifest-fix-validated-verification-20261114.json": "1449abd51295cd2175a3c2bb6f03ad0eee9e1e4cd8983c0a93ce7dbf38fa0a19"
+  },
+  "final_metadata_checks": [
+    {
+      "command": [
+        "C:\\Users\\imgwho\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+        "scripts/case_catalogue.py",
+        "--write"
+      ],
+      "returncode": 0,
+      "stdout": "PASS: catalogue (146 active cases)\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\imgwho\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+        "scripts/validate_iteration.py",
+        "C:\\Users\\imgwho\\Desktop\\project\\tmp\\three-new-cases-release-20261114\\case-2025\\iterations\\2025-01-14-ww02-visualising-ranges",
+        "--metadata-only"
+      ],
+      "returncode": 0,
+      "stdout": "PASS: C:\\Users\\imgwho\\Desktop\\project\\tmp\\three-new-cases-release-20261114\\case-2025\\iterations\\2025-01-14-ww02-visualising-ranges\n",
+      "stderr": ""
+    }
+  ],
+  "xsd": {
+    "schema_available": true,
+    "strict_errors": 0
+  },
+  "full_validator": "pass; see manifest-fix-static-20261114.json",
+  "shared_tests": "83 passed",
+  "manifest_negative_check": "missing PatternedLineMarks rejected",
+  "numerical_comparisons": 168,
+  "functional_status": "partial",
+  "visual_status": "not_evaluated",
+  "desktop": "pending parent; not run by non-UI owner",
+  "corpus": "Copied corpus passed on pre-fix 2b72232245959934281c49308f5c3b2fca8fc519; current fix full regression remains unverified",
+  "freeze_contract": "No further file changes by non-UI owner; parent owns Desktop, merger, commits and push"
+}

@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-14T10:59:42.570956+00:00",
+  "sdk": {
+    "version": "0.29.0a4",
+    "import_path": "C:\\Users\\imgwho\\Desktop\\project\\tmp\\three-new-cases-release-20261114\\case-2025\\.venv\\Lib\\site-packages\\cwtwb\\__init__.py",
+    "direct_url": {
+      "url": "https://github.com/aidatacooper/cwtwb.git",
+      "vcs_info": {
+        "vcs": "git",
+        "commit_id": "81362658fa1856ce98e86033b05e9f77c6bdad47",
+        "requested_revision": "81362658fa1856ce98e86033b05e9f77c6bdad47"
+      }
+    }
+  },
+  "builder_sha256": "46a03aa2a0d2604e1b702c5783fbfd19e819170434fc6501d21e5547ad500fe5",
+  "verifier_sha256": "c64cd3756b5a14317ff54afd06e221b07e92dc7f7678fa8e276b89c81749f8f3",
+  "commands": [
+    {
+      "command": [
+        "C:\\Users\\imgwho\\Desktop\\project\\tmp\\three-new-cases-release-20261114\\case-2025\\.venv\\Scripts\\python.exe",
+        "scripts/case_catalogue.py",
+        "--write"
+      ],
+      "returncode": 0,
+      "stdout": "PASS: catalogue (146 active cases)\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\imgwho\\Desktop\\project\\tmp\\three-new-cases-release-20261114\\case-2025\\.venv\\Scripts\\python.exe",
+        "scripts/validate_iteration.py",
+        "iterations\\2025-01-14-ww02-visualising-ranges",
+        "--metadata-only"
+      ],
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\imgwho\\Desktop\\project\\tmp\\three-new-cases-release-20261114\\case-2025\\scripts\\validate_iteration.py\", line 485, in <module>\n    main()\n    ~~~~^^\n  File \"C:\\Users\\imgwho\\Desktop\\project\\tmp\\three-new-cases-release-20261114\\case-2025\\scripts\\validate_iteration.py\", line 480, in main\n    validate_iteration(args.case_dir, run_scripts=not args.metadata_only)\n    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\imgwho\\Desktop\\project\\tmp\\three-new-cases-release-20261114\\case-2025\\scripts\\validate_iteration.py\", line 456, in validate_iteration\n    case = validate_metadata(case_dir)\n  File \"C:\\Users\\imgwho\\Desktop\\project\\tmp\\three-new-cases-release-20261114\\case-2025\\scripts\\validate_iteration.py\", line 123, in validate_metadata\n    validate_cwtwb_runs(case_dir, case)\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\imgwho\\Desktop\\project\\tmp\\three-new-cases-release-20261114\\case-2025\\scripts\\validate_iteration.py\", line 213, in validate_cwtwb_runs\n    raise AssertionError(\"Latest cwtwb run must match cwtwb.tested_version\")\nAssertionError: Latest cwtwb run must match cwtwb.tested_version\n"
+    }
+  ],
+  "primary_before_sha256": "fc29870d0ac45a7615fa0d599c01d38de925a28fa349aa43ea3e9df54e565a6c",
+  "primary_after_sha256": "fc29870d0ac45a7615fa0d599c01d38de925a28fa349aa43ea3e9df54e565a6c",
+  "scope": "a4 compatibility build and full static validation in a disposable copy only. Original primary retains its separate actual Desktop acceptance. Parent full50 Desktop source equivalence recorded in a4-corpus-20261114/provenance.json.",
+  "result": "fail"
+}
