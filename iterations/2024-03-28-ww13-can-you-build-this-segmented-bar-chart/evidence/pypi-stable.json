@@ -1,0 +1,51 @@
+{
+  "version": "0.28.0",
+  "files": [
+    {
+      "comment_text": null,
+      "core-metadata": {
+        "sha256": "e702f8b81387a3fe8938bab0205de5c06851b8dff98062a5a2bcae8448023e18"
+      },
+      "digests": {
+        "blake2b_256": "63d1c12e4bfeee4818d579bf2c98fa46c97d9952cafbefae1e85741bfd2f67fa",
+        "md5": "dd6d0579b4e0e619cb75e6db72b87cba",
+        "sha256": "dd8fb1c4a7a1828ba6c102afa5bc13f90dc7c959c58cde608d2de0a830a05225"
+      },
+      "downloads": -1,
+      "filename": "cwtwb-0.28.0-py3-none-any.whl",
+      "has_sig": false,
+      "md5_digest": "dd6d0579b4e0e619cb75e6db72b87cba",
+      "packagetype": "bdist_wheel",
+      "python_version": "py3",
+      "requires_python": ">=3.10",
+      "size": 1407324,
+      "upload_time": "2026-10-11T13:29:16",
+      "upload_time_iso_8601": "2026-10-11T13:29:16.418040Z",
+      "url": "https://files.pythonhosted.org/packages/63/d1/c12e4bfeee4818d579bf2c98fa46c97d9952cafbefae1e85741bfd2f67fa/cwtwb-0.28.0-py3-none-any.whl",
+      "yanked": false,
+      "yanked_reason": null
+    },
+    {
+      "comment_text": null,
+      "core-metadata": false,
+      "digests": {
+        "blake2b_256": "a4e893745ad89bb571234183d3b91276404647f2ae68090448133c80df239fbe",
+        "md5": "72acc614f3ceeeb6265afde3be43ceda",
+        "sha256": "302947255042aed165c2010449b6110f40d600172fcbdbdd8fb69e8fda12649b"
+      },
+      "downloads": -1,
+      "filename": "cwtwb-0.28.0.tar.gz",
+      "has_sig": false,
+      "md5_digest": "72acc614f3ceeeb6265afde3be43ceda",
+      "packagetype": "sdist",
+      "python_version": "source",
+      "requires_python": ">=3.10",
+      "size": 16088111,
+      "upload_time": "2026-10-11T13:29:20",
+      "upload_time_iso_8601": "2026-10-11T13:29:20.759028Z",
+      "url": "https://files.pythonhosted.org/packages/a4/e8/93745ad89bb571234183d3b91276404647f2ae68090448133c80df239fbe/cwtwb-0.28.0.tar.gz",
+      "yanked": false,
+      "yanked_reason": null
+    }
+  ]
+}
