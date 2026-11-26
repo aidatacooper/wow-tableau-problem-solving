@@ -1,0 +1,488 @@
+{
+  "captured_at_utc": "2026-11-14T10:50:11.738793+00:00",
+  "artifact_sha256": "dad8b357161b428c980f465d1368e95d5c40c4fde58d12c84171067c619ba33c",
+  "sdk_commit": "175471b0fa4ad0ae91b4d9b6d629a621583d945e",
+  "sdk_version": "0.29.0a4",
+  "process_id": 33552,
+  "method": "Actual Tableau Desktop 2026.2 presentation hover and worksheet Copy > Crosstab",
+  "crosstab_sha256": "c777c945f370c56a9e2abc2a9b64beab4194f5cdbe713ed39d7a5a8baaebb02f",
+  "runtime_rows_compared": 68,
+  "unique_category_year_points": 34,
+  "comparisons": [
+    {
+      "category": "Machines",
+      "year": "2021",
+      "tableau_sales": 55906.886,
+      "oracle_sales": 55906.886
+    },
+    {
+      "category": "Machines",
+      "year": "2022",
+      "tableau_sales": 43887.875,
+      "oracle_sales": 43887.875
+    },
+    {
+      "category": "Envelopes",
+      "year": "2021",
+      "tableau_sales": 4745.41,
+      "oracle_sales": 4745.41
+    },
+    {
+      "category": "Envelopes",
+      "year": "2022",
+      "tableau_sales": 3378.574,
+      "oracle_sales": 3378.574
+    },
+    {
+      "category": "Phones",
+      "year": "2021",
+      "tableau_sales": 79178.01,
+      "oracle_sales": 79178.01
+    },
+    {
+      "category": "Phones",
+      "year": "2022",
+      "tableau_sales": 105668.392,
+      "oracle_sales": 105668.392
+    },
+    {
+      "category": "Chairs",
+      "year": "2021",
+      "tableau_sales": 85079.431,
+      "oracle_sales": 85079.431
+    },
+    {
+      "category": "Chairs",
+      "year": "2022",
+      "tableau_sales": 98032.377,
+      "oracle_sales": 98032.377
+    },
+    {
+      "category": "Binders",
+      "year": "2021",
+      "tableau_sales": 51580.133,
+      "oracle_sales": 51580.133
+    },
+    {
+      "category": "Binders",
+      "year": "2022",
+      "tableau_sales": 73651.269,
+      "oracle_sales": 73651.269
+    },
+    {
+      "category": "Storage",
+      "year": "2021",
+      "tableau_sales": 58845.676,
+      "oracle_sales": 58845.676
+    },
+    {
+      "category": "Storage",
+      "year": "2022",
+      "tableau_sales": 70273.81,
+      "oracle_sales": 70273.81
+    },
+    {
+      "category": "Copiers",
+      "year": "2021",
+      "tableau_sales": 49599.41,
+      "oracle_sales": 49599.41
+    },
+    {
+      "category": "Copiers",
+      "year": "2022",
+      "tableau_sales": 62916.668,
+      "oracle_sales": 62916.668
+    },
+    {
+      "category": "Tables",
+      "year": "2021",
+      "tableau_sales": 60835.4105,
+      "oracle_sales": 60835.4105
+    },
+    {
+      "category": "Tables",
+      "year": "2022",
+      "tableau_sales": 60999.2025,
+      "oracle_sales": 60999.2025
+    },
+    {
+      "category": "Accessories",
+      "year": "2021",
+      "tableau_sales": 41895.854,
+      "oracle_sales": 41895.854
+    },
+    {
+      "category": "Accessories",
+      "year": "2022",
+      "tableau_sales": 59946.232,
+      "oracle_sales": 59946.232
+    },
+    {
+      "category": "Appliances",
+      "year": "2021",
+      "tableau_sales": 26164.235,
+      "oracle_sales": 26164.235
+    },
+    {
+      "category": "Appliances",
+      "year": "2022",
+      "tableau_sales": 43111.156,
+      "oracle_sales": 43111.156
+    },
+    {
+      "category": "Bookcases",
+      "year": "2021",
+      "tableau_sales": 26426.8805,
+      "oracle_sales": 26426.8805
+    },
+    {
+      "category": "Bookcases",
+      "year": "2022",
+      "tableau_sales": 30354.0737,
+      "oracle_sales": 30354.0737
+    },
+    {
+      "category": "Furnishings",
+      "year": "2021",
+      "tableau_sales": 28638.004,
+      "oracle_sales": 28638.004
+    },
+    {
+      "category": "Furnishings",
+      "year": "2022",
+      "tableau_sales": 29927.276,
+      "oracle_sales": 29927.276
+    },
+    {
+      "category": "Paper",
+      "year": "2021",
+      "tableau_sales": 20728.804,
+      "oracle_sales": 20728.804
+    },
+    {
+      "category": "Paper",
+      "year": "2022",
+      "tableau_sales": 28173.53,
+      "oracle_sales": 28173.53
+    },
+    {
+      "category": "Supplies",
+      "year": "2021",
+      "tableau_sales": 14277.576,
+      "oracle_sales": 14277.576
+    },
+    {
+      "category": "Supplies",
+      "year": "2022",
+      "tableau_sales": 16075.66,
+      "oracle_sales": 16075.66
+    },
+    {
+      "category": "Art",
+      "year": "2021",
+      "tableau_sales": 6119.766,
+      "oracle_sales": 6119.766
+    },
+    {
+      "category": "Art",
+      "year": "2022",
+      "tableau_sales": 9022.696,
+      "oracle_sales": 9022.696
+    },
+    {
+      "category": "Fasteners",
+      "year": "2021",
+      "tableau_sales": 1001.934,
+      "oracle_sales": 1001.934
+    },
+    {
+      "category": "Fasteners",
+      "year": "2022",
+      "tableau_sales": 6161.714,
+      "oracle_sales": 6161.714
+    },
+    {
+      "category": "Labels",
+      "year": "2021",
+      "tableau_sales": 2910.16,
+      "oracle_sales": 2910.16
+    },
+    {
+      "category": "Labels",
+      "year": "2022",
+      "tableau_sales": 3987.026,
+      "oracle_sales": 3987.026
+    },
+    {
+      "category": "Phones",
+      "year": "2021",
+      "tableau_sales": 79178.01,
+      "oracle_sales": 79178.01
+    },
+    {
+      "category": "Chairs",
+      "year": "2021",
+      "tableau_sales": 85079.431,
+      "oracle_sales": 85079.431
+    },
+    {
+      "category": "Binders",
+      "year": "2021",
+      "tableau_sales": 51580.133,
+      "oracle_sales": 51580.133
+    },
+    {
+      "category": "Storage",
+      "year": "2021",
+      "tableau_sales": 58845.676,
+      "oracle_sales": 58845.676
+    },
+    {
+      "category": "Copiers",
+      "year": "2021",
+      "tableau_sales": 49599.41,
+      "oracle_sales": 49599.41
+    },
+    {
+      "category": "Tables",
+      "year": "2021",
+      "tableau_sales": 60835.4105,
+      "oracle_sales": 60835.4105
+    },
+    {
+      "category": "Accessories",
+      "year": "2021",
+      "tableau_sales": 41895.854,
+      "oracle_sales": 41895.854
+    },
+    {
+      "category": "Machines",
+      "year": "2021",
+      "tableau_sales": 55906.886,
+      "oracle_sales": 55906.886
+    },
+    {
+      "category": "Appliances",
+      "year": "2021",
+      "tableau_sales": 26164.235,
+      "oracle_sales": 26164.235
+    },
+    {
+      "category": "Bookcases",
+      "year": "2021",
+      "tableau_sales": 26426.8805,
+      "oracle_sales": 26426.8805
+    },
+    {
+      "category": "Furnishings",
+      "year": "2021",
+      "tableau_sales": 28638.004,
+      "oracle_sales": 28638.004
+    },
+    {
+      "category": "Paper",
+      "year": "2021",
+      "tableau_sales": 20728.804,
+      "oracle_sales": 20728.804
+    },
+    {
+      "category": "Supplies",
+      "year": "2021",
+      "tableau_sales": 14277.576,
+      "oracle_sales": 14277.576
+    },
+    {
+      "category": "Art",
+      "year": "2021",
+      "tableau_sales": 6119.766,
+      "oracle_sales": 6119.766
+    },
+    {
+      "category": "Fasteners",
+      "year": "2021",
+      "tableau_sales": 1001.934,
+      "oracle_sales": 1001.934
+    },
+    {
+      "category": "Labels",
+      "year": "2021",
+      "tableau_sales": 2910.16,
+      "oracle_sales": 2910.16
+    },
+    {
+      "category": "Envelopes",
+      "year": "2021",
+      "tableau_sales": 4745.41,
+      "oracle_sales": 4745.41
+    },
+    {
+      "category": "Phones",
+      "year": "2022",
+      "tableau_sales": 105668.392,
+      "oracle_sales": 105668.392
+    },
+    {
+      "category": "Chairs",
+      "year": "2022",
+      "tableau_sales": 98032.377,
+      "oracle_sales": 98032.377
+    },
+    {
+      "category": "Binders",
+      "year": "2022",
+      "tableau_sales": 73651.269,
+      "oracle_sales": 73651.269
+    },
+    {
+      "category": "Storage",
+      "year": "2022",
+      "tableau_sales": 70273.81,
+      "oracle_sales": 70273.81
+    },
+    {
+      "category": "Copiers",
+      "year": "2022",
+      "tableau_sales": 62916.668,
+      "oracle_sales": 62916.668
+    },
+    {
+      "category": "Tables",
+      "year": "2022",
+      "tableau_sales": 60999.2025,
+      "oracle_sales": 60999.2025
+    },
+    {
+      "category": "Accessories",
+      "year": "2022",
+      "tableau_sales": 59946.232,
+      "oracle_sales": 59946.232
+    },
+    {
+      "category": "Machines",
+      "year": "2022",
+      "tableau_sales": 43887.875,
+      "oracle_sales": 43887.875
+    },
+    {
+      "category": "Appliances",
+      "year": "2022",
+      "tableau_sales": 43111.156,
+      "oracle_sales": 43111.156
+    },
+    {
+      "category": "Bookcases",
+      "year": "2022",
+      "tableau_sales": 30354.0737,
+      "oracle_sales": 30354.0737
+    },
+    {
+      "category": "Furnishings",
+      "year": "2022",
+      "tableau_sales": 29927.276,
+      "oracle_sales": 29927.276
+    },
+    {
+      "category": "Paper",
+      "year": "2022",
+      "tableau_sales": 28173.53,
+      "oracle_sales": 28173.53
+    },
+    {
+      "category": "Supplies",
+      "year": "2022",
+      "tableau_sales": 16075.66,
+      "oracle_sales": 16075.66
+    },
+    {
+      "category": "Art",
+      "year": "2022",
+      "tableau_sales": 9022.696,
+      "oracle_sales": 9022.696
+    },
+    {
+      "category": "Fasteners",
+      "year": "2022",
+      "tableau_sales": 6161.714,
+      "oracle_sales": 6161.714
+    },
+    {
+      "category": "Labels",
+      "year": "2022",
+      "tableau_sales": 3987.026,
+      "oracle_sales": 3987.026
+    },
+    {
+      "category": "Envelopes",
+      "year": "2022",
+      "tableau_sales": 3378.574,
+      "oracle_sales": 3378.574
+    }
+  ],
+  "hover_observations": [
+    {
+      "category": "Phones",
+      "year": 2021,
+      "sales": 79178,
+      "target": "line endpoint",
+      "screenshot": "desktop-a4-hover-phones2021.png",
+      "sha256": "864a041320ac4fcfd1564f25c3fd36d7d1c2844b7df4491fb5a874e9ee8cdf86"
+    },
+    {
+      "category": "Phones",
+      "year": 2022,
+      "sales": 105668,
+      "target": "circle",
+      "screenshot": "desktop-a4-hover-phones2022.png",
+      "sha256": "5c9226389699916e603a643d35eef322f42415ddf39cfa4888b6718ebfa244b2"
+    },
+    {
+      "category": "Machines",
+      "year": 2021,
+      "sales": 55907,
+      "target": "line endpoint",
+      "screenshot": "desktop-a4-hover-machines2021.png",
+      "sha256": "3b00ee22c32117546813103eae17d6baf63b8b184fac600069ea3c4147fc94ea"
+    },
+    {
+      "category": "Machines",
+      "year": 2022,
+      "sales": 43888,
+      "target": "line endpoint",
+      "screenshot": "desktop-a4-hover-machines2022.png",
+      "sha256": "ada44495bdaa8f29f4bcc613fc13b8e157b5c8744aab921ed88dc48de2865ba5"
+    },
+    {
+      "category": "Machines",
+      "year": 2021,
+      "sales": 55907,
+      "target": "inner year-level circle",
+      "screenshot": "desktop-a4-hover-machines-circle.png",
+      "sha256": "07db4b0bd0d84100e2715fdccc2fc0c07a694863b27fcc78ead59276d9047d04"
+    },
+    {
+      "category": "Envelopes",
+      "year": 2022,
+      "sales": 3379,
+      "target": "line/circle endpoint",
+      "screenshot": "desktop-a4-hover-envelopes2022.png",
+      "sha256": "b67d3f32dc282c7e72d520ab92157618982a168035c7bb2f3363ba8fabe5850a"
+    },
+    {
+      "category": "Envelopes",
+      "year": 2022,
+      "sales": 3379,
+      "target": "circle",
+      "screenshot": "desktop-a4-hover-envelopes-circle.png",
+      "sha256": "95e13dba90e2c49989ea12b0ef1e171abb709ad9953526ffede642cfdf07d5c7"
+    }
+  ],
+  "hover_limit": "The short Envelopes 2021 endpoint is obscured by overlapping year-level circles. Its 4745.41 value is verified in the actual Desktop crosstab, not claimed as a directly observed hover. This overlap matches the analyzed standard LOD design.",
+  "selection_clear": "Clicked Phones circle to select, then clicked the selected circle again and moved off the marks; all 17 rows, amounts and original colors restored. Blank dashboard clicks did not clear selection and are not claimed as passing.",
+  "visual_status": "acceptable_delta",
+  "visual_observations": "All 17 rows and latest-sales labels match the author reference; Machines/Envelopes alone red, white circles and directional tapered lines preserved, no scrollbar. Title wrapping and typography differ.",
+  "images": {
+    "desktop-a4-presentation.png": "883f7094c3c2f0320d73cfebc835c64233920870b031324bcc58f8faa0e38970",
+    "desktop-a4-selected.png": "e965d890005e4e2984c7b1c979869a71a3aa56b16a2a8328394882302e4c9178",
+    "desktop-a4-cleared.png": "883f7094c3c2f0320d73cfebc835c64233920870b031324bcc58f8faa0e38970"
+  }
+}

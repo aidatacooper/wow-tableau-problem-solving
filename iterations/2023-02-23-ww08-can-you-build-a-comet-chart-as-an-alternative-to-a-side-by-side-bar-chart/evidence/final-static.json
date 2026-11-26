@@ -1,0 +1,42 @@
+{
+  "workbook_sha256": "12de2b73af882615fa055a41d01005744680c4cde415b06f71d46b844937f2ea",
+  "automated": {
+    "packaged-data": "pass",
+    "single-sheet-dashboard": "pass",
+    "year-scope": "pass",
+    "comet-geometry": "pass",
+    "latest-labels-and-sort": "pass",
+    "color-and-tooltip-structure": "pass",
+    "formatting-structure": "pass",
+    "sales-numerics": "pass"
+  },
+  "records": 10194,
+  "annual_points": 34,
+  "sales_2021": 613933.58,
+  "sales_2022": 745567.5312,
+  "declines": [
+    "Envelopes",
+    "Machines"
+  ],
+  "descending_2022_order": [
+    "Phones",
+    "Chairs",
+    "Binders",
+    "Storage",
+    "Copiers",
+    "Tables",
+    "Accessories",
+    "Machines",
+    "Appliances",
+    "Bookcases",
+    "Furnishings",
+    "Paper",
+    "Supplies",
+    "Art",
+    "Fasteners",
+    "Labels",
+    "Envelopes"
+  ],
+  "desktop": "pending - parent owns serialized Desktop gate",
+  "rendered_numeric_and_visual_acceptance": "pending; SQL/Python checks do not execute Tableau rendering"
+}

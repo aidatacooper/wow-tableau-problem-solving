@@ -1,0 +1,37 @@
+{
+  "timestamp": "2026-11-14T08:07:23.638253+00:00",
+  "channel": "stable",
+  "version": "0.28.0",
+  "import_path": "C:\\Users\\imgwho\\Desktop\\project\\wow-tableau-problem-solving\\iterations\\2023-02-23-ww08-can-you-build-a-comet-chart-as-an-alternative-to-a-side-by-side-bar-chart\\.runtime\\stable\\cwtwb\\__init__.py",
+  "environment": {
+    "CWTWB_SRC": "C:\\Users\\imgwho\\Desktop\\project\\wow-tableau-problem-solving\\iterations\\2023-02-23-ww08-can-you-build-a-comet-chart-as-an-alternative-to-a-side-by-side-bar-chart\\.runtime\\stable",
+    "PYTHONPATH": "C:\\Users\\imgwho\\Desktop\\project\\wow-tableau-problem-solving\\iterations\\2023-02-23-ww08-can-you-build-a-comet-chart-as-an-alternative-to-a-side-by-side-bar-chart\\.runtime\\stable"
+  },
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\imgwho\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+        "C:\\Users\\imgwho\\Desktop\\project\\wow-tableau-problem-solving\\iterations\\2023-02-23-ww08-can-you-build-a-comet-chart-as-an-alternative-to-a-side-by-side-bar-chart\\build_replication.py"
+      ],
+      "cwd": "C:\\Users\\imgwho\\Desktop\\project\\wow-tableau-problem-solving\\iterations\\2023-02-23-ww08-can-you-build-a-comet-chart-as-an-alternative-to-a-side-by-side-bar-chart",
+      "exit_code": 0,
+      "log": "evidence/stable-1.log.txt"
+    },
+    {
+      "argv": [
+        "C:\\Users\\imgwho\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+        "C:\\Users\\imgwho\\Desktop\\project\\wow-tableau-problem-solving\\iterations\\2023-02-23-ww08-can-you-build-a-comet-chart-as-an-alternative-to-a-side-by-side-bar-chart\\verify_replication.py"
+      ],
+      "cwd": "C:\\Users\\imgwho\\Desktop\\project\\wow-tableau-problem-solving\\iterations\\2023-02-23-ww08-can-you-build-a-comet-chart-as-an-alternative-to-a-side-by-side-bar-chart",
+      "exit_code": 0,
+      "log": "evidence/stable-2.log.txt"
+    }
+  ],
+  "package_url": "https://files.pythonhosted.org/packages/63/d1/c12e4bfeee4818d579bf2c98fa46c97d9952cafbefae1e85741bfd2f67fa/cwtwb-0.28.0-py3-none-any.whl",
+  "package_sha256": "dd8fb1c4a7a1828ba6c102afa5bc13f90dc7c959c58cde608d2de0a830a05225",
+  "git_sha": null,
+  "dirty": false,
+  "result": "pass",
+  "workbook_sha256": "9b2ee73c433e2cfe8e1dd0d5388f06cd369d9a60f78d29b4b68d1c0c5b5aae63",
+  "acceptance_scope": "Build, static contracts, independent input numerics only. Desktop, rendered values, visual and hover pending."
+}
