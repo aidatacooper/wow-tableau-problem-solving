@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "prepared_on": "2026-11-14",
+  "source_workbook": {
+    "filename": "2024_03_27_WW13_Segmented_Bar_Chart.twbx",
+    "bytes": 78704,
+    "sha256": "649a1c500b14b09da7ce92458e953968dd71567c37467f5096f0d12aab87e1cc",
+    "url": null
+  },
+  "extracted_data": [
+    {
+      "archive_path": "Data/Extracts/federated_1l2jyeb12pijk613twqta1.hyper",
+      "file": "inputs/federated_1l2jyeb12pijk613twqta1.hyper",
+      "bytes": 262144,
+      "sha256": "dbd9cf32a714ed5c7b5b129443e54e7018dfe8b78ec9d21dade9b12d88a31ddc"
+    }
+  ],
+  "source_workbook_used_by_builder": false
+}

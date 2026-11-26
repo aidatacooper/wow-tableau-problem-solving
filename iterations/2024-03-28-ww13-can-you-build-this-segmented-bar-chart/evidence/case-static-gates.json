@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "checks": [
+    "metadata",
+    "unique identity",
+    "source lock",
+    "public SDK phase boundary",
+    "identity and evidence paths",
+    "Tableau XSD (schema explicitly available)",
+    "handoff run and numerical report bound to final artifact"
+  ],
+  "workbook_sha256": "15b64f6b905dd6db77d2a31202fff60a64e97b23056d968258f730dc6f4b6473",
+  "scope": "Case only; full repository validator reaches catalogue and fails on unrelated missing WW2023/08 artifact. Desktop pending."
+}

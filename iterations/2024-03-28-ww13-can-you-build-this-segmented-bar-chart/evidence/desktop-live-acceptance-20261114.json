@@ -1,0 +1,104 @@
+{
+  "captured_at_utc": "2026-11-14T10:09:36.407242+00:00",
+  "artifact_sha256": "5a6f759ecd2c8e8c09b4b9adae754e1c921eec069f406fb1ac221426c7a55b22",
+  "process_id": 14780,
+  "method": "Actual Tableau Desktop presentation-mode hover; screenshot text independently compared with frozen numerical oracle",
+  "result": "10/10 required tooltips pass",
+  "observations": [
+    {
+      "category": "Chairs",
+      "year": 2021,
+      "observed_sales": 79982,
+      "expected_sales": 79982.476,
+      "observed_percentage": 23.8,
+      "screenshot": "desktop-hover-chairs-2021.png",
+      "screenshot_sha256": "42b10f5c7817482eca25576bc653a3a6e376a699809d33218f16987b54e0131d"
+    },
+    {
+      "category": "Chairs",
+      "year": 2022,
+      "observed_sales": 72674,
+      "expected_sales": 72673.965,
+      "observed_percentage": 21.6,
+      "screenshot": "desktop-hover-chairs-2022.png",
+      "screenshot_sha256": "8c54086b523ba82a50f264d0facf63e53b4590c0e8700bce7b369a6607bfc6d4"
+    },
+    {
+      "category": "Chairs",
+      "year": 2023,
+      "observed_sales": 85079,
+      "expected_sales": 85079.431,
+      "observed_percentage": 25.3,
+      "screenshot": "desktop-hover-chairs-2023.png",
+      "screenshot_sha256": "445364b4372aa3989df537d191b8bdfafcdb84159b85e942e066d81ddc385722"
+    },
+    {
+      "category": "Chairs",
+      "year": 2024,
+      "observed_sales": 98032,
+      "expected_sales": 98032.37700000001,
+      "observed_percentage": 29.2,
+      "screenshot": "desktop-hover-chairs-2024.png",
+      "screenshot_sha256": "7bfe57d152cc4336c81231a384830be011efb226628e584b9df22e81d5012408"
+    },
+    {
+      "category": "Chairs",
+      "year": null,
+      "observed_sales": 335768,
+      "expected_sales": 335768.249,
+      "observed_percentage": null,
+      "screenshot": "desktop-hover-chairs-total.png",
+      "screenshot_sha256": "38b4f6635ce8dc4aad924bb4bd601443b6a2d659d1d6e5bdb9ec17eae4dec2f5"
+    },
+    {
+      "category": "Fasteners",
+      "year": 2021,
+      "observed_sales": 801,
+      "expected_sales": 801.168,
+      "observed_percentage": 9.4,
+      "screenshot": "desktop-hover-fasteners-2021.png",
+      "screenshot_sha256": "5dd023c9eba5c53802538509c1a40d3197328ab3ced3f6d03b74142e1a117871"
+    },
+    {
+      "category": "Fasteners",
+      "year": 2022,
+      "observed_sales": 567,
+      "expected_sales": 567.424,
+      "observed_percentage": 6.7,
+      "screenshot": "desktop-hover-fasteners-2022.png",
+      "screenshot_sha256": "7e6589dc20f0fd45e43563171db58961d9f7accd0321a24dc86f754ba28a4886"
+    },
+    {
+      "category": "Fasteners",
+      "year": 2023,
+      "observed_sales": 1002,
+      "expected_sales": 1001.934,
+      "observed_percentage": 11.7,
+      "screenshot": "desktop-hover-fasteners-2023.png",
+      "screenshot_sha256": "9a127d58657786dc1383b8bd83b80bda79db6b279478d7df776c9ff312f60696"
+    },
+    {
+      "category": "Fasteners",
+      "year": 2024,
+      "observed_sales": 6162,
+      "expected_sales": 6161.714,
+      "observed_percentage": 72.2,
+      "screenshot": "desktop-hover-fasteners-2024.png",
+      "screenshot_sha256": "39af8147abb8047a1eb8d0189119b361b06a08480351c579f5dff214c8998a44"
+    },
+    {
+      "category": "Fasteners",
+      "year": null,
+      "observed_sales": 8532,
+      "expected_sales": 8532.24,
+      "observed_percentage": null,
+      "screenshot": "desktop-hover-fasteners-total.png",
+      "screenshot_sha256": "6f75648ee818bdb0a2d332895220d136dd3ff4f0895353e9687406aef2b1d122"
+    }
+  ],
+  "visual_status": "acceptable_delta",
+  "visual_observations": "17 ordered pairs, all full labels, tan bars on cream, white yearly separators, no axes/gridlines or clipping. Source GIF frame0 compared directly. Title/footer wording and font sizes differ.",
+  "reference_url": "https://donnacoles.home.blog/wp-content/uploads/2024/03/wow2024_13.gif",
+  "reference_sha256": "307629d6e60b091dc6989c9c597b5a212cba1801701ca88def308c75fb014014",
+  "presentation_sha256": "f7cb7f56258d18ace57f5d43b23eb538a00c80200ad48beab304c878dfc6ac35"
+}
